@@ -1,0 +1,41 @@
+[build]
+  command = "bash build-static.sh"
+  publish = "dist"
+
+[build.environment]
+  PHP_VERSION = "8.2"
+  NODE_VERSION = "20"
+
+# Clean URLs — Netlify serves folder/index.html at folder/
+[[redirects]]
+  from = "/safaris-tours"
+  to = "/safaris-tours/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/travel-guides"
+  to = "/travel-guides/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/local-experiences"
+  to = "/local-experiences/index.html"
+  status = 200
+
+# Headers for performance
+[[headers]]
+  for = "/build/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*.html"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
