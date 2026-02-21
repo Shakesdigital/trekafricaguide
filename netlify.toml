@@ -1,28 +1,8 @@
 [build]
-  command = "bash build-static.sh"
   publish = "dist"
+  command = "echo 'Serving pre-built static site'"
 
-[build.environment]
-  PHP_VERSION = "8.2"
-  NODE_VERSION = "20"
-
-# Clean URLs — Netlify serves folder/index.html at folder/
-[[redirects]]
-  from = "/safaris-tours"
-  to = "/safaris-tours/index.html"
-  status = 200
-
-[[redirects]]
-  from = "/travel-guides"
-  to = "/travel-guides/index.html"
-  status = 200
-
-[[redirects]]
-  from = "/local-experiences"
-  to = "/local-experiences/index.html"
-  status = 200
-
-# Headers for performance
+# Headers for performance — cache hashed Vite assets aggressively
 [[headers]]
   for = "/build/*"
   [headers.values]
