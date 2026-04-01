@@ -9,6 +9,7 @@ Route::get('/destinations', [TravelController::class, 'destinations'])->name('de
 Route::get('/destinations/{slug}', [TravelController::class, 'destination'])->name('destinations.show');
 Route::get('/safaris-tours', [TravelController::class, 'safaris'])->name('safaris.index');
 Route::get('/accommodations', [TravelController::class, 'accommodations'])->name('accommodations.index');
+Route::get('/restaurants', [TravelController::class, 'restaurants'])->name('restaurants.index');
 Route::get('/travel-guides', [TravelController::class, 'blog'])->name('blog.index');
 Route::get('/local-experiences', [TravelController::class, 'experiences'])->name('experiences.index');
 Route::get('/about', [TravelController::class, 'about'])->name('about');

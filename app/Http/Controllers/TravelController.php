@@ -13,6 +13,8 @@ class TravelController extends Controller
         $destinations = collect(config('travel.destinations'));
         $featuredDestinations = $destinations->take(7)->values();
         $featuredTours = collect(config('travel.tours'))->take(4)->values();
+        $featuredStays = collect(config('travel.accommodations'))->take(4)->values();
+        $featuredRestaurants = collect(config('travel.restaurants'))->take(4)->values();
         $latestPosts = collect(config('travel.blog_posts'))->take(3)->values();
         $localExperiences = collect(config('travel.local_experiences'))->take(3)->values();
 
@@ -21,6 +23,8 @@ class TravelController extends Controller
             'regions' => $regions,
             'featuredDestinations' => $featuredDestinations,
             'featuredTours' => $featuredTours,
+            'featuredStays' => $featuredStays,
+            'featuredRestaurants' => $featuredRestaurants,
             'latestPosts' => $latestPosts,
             'localExperiences' => $localExperiences,
             'trustSignals' => config('travel.trust_signals', []),
@@ -64,7 +68,11 @@ class TravelController extends Controller
             ->values();
 
         $activities = collect(config('travel.activities.'.$slug, []));
+        $restaurants = collect(config('travel.restaurants'))
+            ->where('destination_slug', $slug)
+            ->values();
         $localVoices = collect(config('travel.local_voices.'.$slug, []));
+        $insights = collect(config('travel.destination_insights.'.$slug, []));
 
         $relatedDestinations = $destinations
             ->where('region', $destination['region'])
@@ -77,8 +85,10 @@ class TravelController extends Controller
             'destination' => $destination,
             'tours' => $tours,
             'accommodations' => $accommodations,
+            'restaurants' => $restaurants,
             'activities' => $activities,
             'localVoices' => $localVoices,
+            'insights' => $insights,
             'relatedDestinations' => $relatedDestinations,
         ]));
     }
@@ -102,6 +112,18 @@ class TravelController extends Controller
         return view('pages.accommodations.index', $this->sharedData($request, [
             'title' => 'Accommodations',
             'accommodations' => $accommodations,
+            'filters' => $this->extractFilters($request),
+            'filterOptions' => $this->filterOptions(),
+        ]));
+    }
+
+    public function restaurants(Request $request)
+    {
+        $restaurants = $this->filterRestaurants(collect(config('travel.restaurants')), $request)->values();
+
+        return view('pages.restaurants.index', $this->sharedData($request, [
+            'title' => 'Restaurants',
+            'restaurants' => $restaurants,
             'filters' => $this->extractFilters($request),
             'filterOptions' => $this->filterOptions(),
         ]));
@@ -160,9 +182,10 @@ class TravelController extends Controller
                 ['label' => 'Regions', 'route' => 'regions.index'],
                 ['label' => 'Destinations', 'route' => 'destinations.index'],
                 ['label' => 'Safaris & Tours', 'route' => 'safaris.index'],
-                ['label' => 'Accommodations', 'route' => 'accommodations.index'],
+                ['label' => 'Stays', 'route' => 'accommodations.index'],
+                ['label' => 'Eat & Drink', 'route' => 'restaurants.index'],
                 ['label' => 'Travel Guides', 'route' => 'blog.index'],
-                ['label' => 'Local Experiences', 'route' => 'experiences.index'],
+                ['label' => 'Experiences', 'route' => 'experiences.index'],
                 ['label' => 'About', 'route' => 'about'],
                 ['label' => 'Contact', 'route' => 'contact'],
             ],
@@ -334,6 +357,38 @@ class TravelController extends Controller
 
             if ($filters['q']) {
                 $haystack = strtolower($post['title'].' '.$post['excerpt']);
+                if (! str_contains($haystack, strtolower($filters['q']))) {
+                    return false;
+                }
+            }
+
+            return true;
+        });
+    }
+
+    private function filterRestaurants(Collection $restaurants, Request $request): Collection
+    {
+        $filters = $this->extractFilters($request);
+
+        return $restaurants->filter(function (array $restaurant) use ($filters): bool {
+            if ($filters['region'] && $restaurant['region'] !== $filters['region']) {
+                return false;
+            }
+
+            if ($filters['country'] && $restaurant['country'] !== $filters['country']) {
+                return false;
+            }
+
+            if ($filters['price'] && $restaurant['price'] !== $filters['price']) {
+                return false;
+            }
+
+            if ($filters['travel_style'] && $restaurant['travel_style'] !== $filters['travel_style']) {
+                return false;
+            }
+
+            if ($filters['q']) {
+                $haystack = strtolower($restaurant['name'].' '.$restaurant['country'].' '.$restaurant['cuisine'].' '.$restaurant['summary']);
                 if (! str_contains($haystack, strtolower($filters['q']))) {
                     return false;
                 }

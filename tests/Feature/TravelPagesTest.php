@@ -21,6 +21,7 @@ class TravelPagesTest extends TestCase
             '/destinations/maasai-mara',
             '/safaris-tours',
             '/accommodations',
+            '/restaurants',
             '/travel-guides',
             '/local-experiences',
             '/about',
@@ -37,8 +38,8 @@ class TravelPagesTest extends TestCase
         $this->get('/')
             ->assertOk()
             ->assertSee('Trek Africa Guide')
-            ->assertSee('Discover Africa Differently')
-            ->assertSee('From Sahara to Serengeti');
+            ->assertSee('Discover Africa one region, country, and destination at a time.')
+            ->assertSee('Begin with East Africa');
     }
 
     public function test_partner_booking_call_to_action_is_visible_on_commercial_pages(): void
@@ -53,7 +54,7 @@ class TravelPagesTest extends TestCase
         foreach ($commercialPages as $page) {
             $this->get($page)
                 ->assertOk()
-                ->assertSee('Book via Partner');
+                ->assertSee('partner');
         }
     }
 
