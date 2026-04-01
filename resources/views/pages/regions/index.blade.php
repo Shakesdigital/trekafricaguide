@@ -8,8 +8,8 @@
             <li><span class="current">Regions</span></li>
         </ul>
         <p class="eyebrow">Regions of Africa</p>
-        <h1>North, West, East, Central & Southern Africa</h1>
-        <p>Browse all five regions, compare countries, and jump directly to destinations, tours, and local experiences.</p>
+        <h1>Start with a region, then narrow into the right country and destination</h1>
+        <p>The new frontend structure is organized around traveler decision-making. Regions now act as the first layer before country-level comparison and destination-level planning.</p>
         <div class="page-stats">
             <div class="page-stat">
                 <strong>{{ count($regions) }}</strong>
@@ -25,6 +25,12 @@
 
 <section class="section-block patterned">
     <div class="container">
+        <div class="section-head reveal">
+            <p class="eyebrow">How to use this page</p>
+            <h2>Think broad first, specific second</h2>
+            <p>Use regions to understand travel style and route logic, then move into countries like Uganda and Kenya before opening individual destination pages with practical planning details.</p>
+        </div>
+
         <form class="filter-bar reveal" method="GET" action="{{ route('regions.index') }}">
             <select name="region">
                 <option value="">All regions</option>
@@ -95,13 +101,19 @@
                         <div class="region-detail-content">
                             <h2>{{ $region['name'] }}</h2>
                             <p>{{ $region['description'] }}</p>
+                            <h3>Why start here</h3>
+                            <p>{{ $region['slug'] === 'east-africa' ? 'Best launch region for first-time safari planning, gorilla trekking, and high-recognition destinations.' : 'Useful once the traveler knows their preferred route style, pacing, and experience mix.' }}</p>
                             <h3>Countries in this region</h3>
                             <ul class="pill-list">
                                 @foreach($region['countries'] as $country)
                                     <li>{{ $country }}</li>
                                 @endforeach
                             </ul>
-                            <a href="{{ route('destinations.index', ['region' => $region['slug']]) }}" class="btn-primary">Explore {{ $region['name'] }} <span class="btn-icon">→</span></a>
+                            <div class="quick-links">
+                                <a href="{{ route('destinations.index', ['region' => $region['slug']]) }}">Open destinations</a>
+                                <a href="{{ route('safaris.index', ['region' => $region['slug']]) }}">Compare tours</a>
+                                <a href="{{ route('accommodations.index', ['region' => $region['slug']]) }}">Browse stays</a>
+                            </div>
                         </div>
                     </article>
                 @endif

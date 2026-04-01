@@ -8,13 +8,19 @@
             <li><span class="current">Destinations</span></li>
         </ul>
         <p class="eyebrow">Destinations</p>
-        <h1>Find your next African destination</h1>
-        <p>Compare regions, countries, travel styles, and budgets before choosing your perfect route.</p>
+        <h1>Choose a destination only after the region and country fit makes sense</h1>
+        <p>Each destination is meant to open into a fuller guide with area brief, how to get there, activities, stays, dining, and affiliate partner pathways.</p>
     </div>
 </section>
 
 <section class="section-block">
     <div class="container">
+        <div class="section-head reveal">
+            <p class="eyebrow">Destination Directory</p>
+            <h2>Launch focus: Uganda, Kenya, Tanzania, and Rwanda</h2>
+            <p>East Africa is prioritized first because it offers the clearest starting point for the type of safari and adventure trips most travelers begin with.</p>
+        </div>
+
         <form class="filter-bar reveal" method="GET" action="{{ route('destinations.index') }}">
             <input type="text" name="q" value="{{ $filters['q'] }}" placeholder="Search park, country, city…">
             <select name="region">
@@ -63,13 +69,17 @@
                     <div class="content-card-body">
                         <p class="meta">{{ $destination['country'] }}</p>
                         <h3>{{ $destination['name'] }}</h3>
-                        <p>{{ $destination['summary'] }}</p>
+                        <p>{{ $destination['brief'] ?? $destination['summary'] }}</p>
                         <div class="pill-row">
                             @foreach($destination['travel_style'] as $style)
                                 <span>{{ ucwords(str_replace('-', ' ', $style)) }}</span>
                             @endforeach
                         </div>
-                        <a href="{{ route('destinations.show', $destination['slug']) }}" class="btn-primary">Open destination <span class="btn-icon">→</span></a>
+                        <div class="quick-links">
+                            <a href="{{ route('destinations.show', $destination['slug']) }}">Open guide</a>
+                            <a href="{{ route('safaris.index', ['country' => $destination['country']]) }}">Tours in {{ $destination['country'] }}</a>
+                            <a href="{{ route('accommodations.index', ['country' => $destination['country']]) }}">Stays in {{ $destination['country'] }}</a>
+                        </div>
                     </div>
                 </article>
             @empty

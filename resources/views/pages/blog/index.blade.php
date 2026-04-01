@@ -7,14 +7,20 @@
             <li><a href="{{ route('home') }}">Home</a></li>
             <li><span class="current">Travel Guides</span></li>
         </ul>
-        <p class="eyebrow">Travel Guides / Blog</p>
-        <h1>Practical guides for planning smarter Africa trips</h1>
-        <p>Editorial categories ready for future posts: planning, timing, itineraries, safety, and culture.</p>
+        <p class="eyebrow">Travel Guides</p>
+        <h1>Editorial insight now supports the same planning structure as the directory</h1>
+        <p>These guides are meant to help users choose between regions, countries, and destination styles before they reach the bookable layers of the site.</p>
     </div>
 </section>
 
 <section class="section-block">
     <div class="container">
+        <div class="section-head reveal">
+            <p class="eyebrow">Guides Library</p>
+            <h2>Planning, timing, itineraries, safety, and cultural context</h2>
+            <p>Instead of standing apart from the directory, editorial content now reinforces how travelers navigate the rest of the website.</p>
+        </div>
+
         <div class="category-grid reveal">
             @foreach($categories as $category)
                 <a href="{{ route('blog.index', ['category' => $category]) }}" class="category-chip {{ $filters['category'] === $category ? 'active' : '' }}">{{ $category }}</a>
@@ -81,7 +87,10 @@
                         <p class="meta">{{ $post['read_time'] }}</p>
                         <h3>{{ $post['title'] }}</h3>
                         <p>{{ $post['excerpt'] }}</p>
-                        <a href="#" class="btn-outline" aria-disabled="true">Read article <span class="btn-icon">→</span></a>
+                        <div class="quick-links">
+                            <a href="{{ route('destinations.index', ['country' => $post['country']]) }}">See related destinations</a>
+                            <a href="#" aria-disabled="true">Read article</a>
+                        </div>
                     </div>
                 </article>
             @empty

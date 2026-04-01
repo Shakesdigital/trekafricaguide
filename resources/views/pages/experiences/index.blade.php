@@ -8,13 +8,19 @@
             <li><span class="current">Local Experiences</span></li>
         </ul>
         <p class="eyebrow">Local Experiences</p>
-        <h1>Guides, community tours, and homestays</h1>
-        <p>Support local hosts while planning culturally respectful travel experiences across Africa.</p>
+        <h1>Keep the human context close to the destination guide</h1>
+        <p>Experiences are now framed as the cultural and community layer of the site, helping travelers go beyond generic attraction lists.</p>
     </div>
 </section>
 
 <section class="section-block">
     <div class="container">
+        <div class="section-head reveal">
+            <p class="eyebrow">Experience Layer</p>
+            <h2>Community tours, hosted walks, and local encounters</h2>
+            <p>Use these to add local perspective and slower, more grounded moments into a safari or overland itinerary.</p>
+        </div>
+
         <form class="filter-bar reveal" method="GET" action="{{ route('experiences.index') }}">
             <input type="text" name="q" value="{{ $filters['q'] }}" placeholder="Search host, experience, or style…">
             <select name="region">
@@ -71,7 +77,10 @@
                             <span>{{ ucwords(str_replace('-', ' ', $experience['travel_style'])) }}</span>
                         </div>
                         <p class="host-line">Hosted by {{ $experience['host'] }}</p>
-                        <a href="{{ $experience['affiliate_link'] }}" class="btn-primary" target="_blank" rel="noopener">Book via Partner <span class="btn-icon">→</span></a>
+                        <div class="quick-links">
+                            <a href="{{ route('destinations.index', ['country' => $experience['country']]) }}">See destination context</a>
+                            <a href="{{ $experience['affiliate_link'] }}" target="_blank" rel="noopener">Open partner path</a>
+                        </div>
                     </div>
                 </article>
             @empty

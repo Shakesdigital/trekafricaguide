@@ -8,13 +8,19 @@
             <li><span class="current">Safaris & Tours</span></li>
         </ul>
         <p class="eyebrow">Safaris & Tours</p>
-        <h1>Filter by region, safari type, budget, duration, and style</h1>
-        <p>Compare trusted partner offers from TravelPayouts, Viator, and GetYourGuide.</p>
+        <h1>Compare tours after you understand the destination fit</h1>
+        <p>This section now works as the commercial comparison layer beneath regions, countries, and destination guides, with each CTA redirecting to a booking partner.</p>
     </div>
 </section>
 
 <section class="section-block">
     <div class="container">
+        <div class="section-head reveal">
+            <p class="eyebrow">Partner Offers</p>
+            <h2>Browse the bookable side of the directory</h2>
+            <p>Use the filters to narrow by geography, experience type, travel style, and trip length before moving out to partner landing pages.</p>
+        </div>
+
         <form class="filter-bar reveal" method="GET" action="{{ route('safaris.index') }}">
             <input type="text" name="q" value="{{ $filters['q'] }}" placeholder="Search safari by title or country…">
             <select name="region">
@@ -77,7 +83,10 @@
                             <span>{{ ucfirst($tour['travel_style']) }}</span>
                         </div>
                         <p>From {{ $tour['price_from'] }} via {{ $tour['partner'] }}</p>
-                        <a href="{{ $tour['affiliate_link'] }}" class="btn-primary" target="_blank" rel="noopener">Book via Partner <span class="btn-icon">→</span></a>
+                        <div class="quick-links">
+                            <a href="{{ route('destinations.show', $tour['destination_slug']) }}">Open destination guide</a>
+                            <a href="{{ $tour['affiliate_link'] }}" target="_blank" rel="noopener">View partner offer</a>
+                        </div>
                     </div>
                 </article>
             @empty

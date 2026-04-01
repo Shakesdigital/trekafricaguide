@@ -7,18 +7,18 @@
             <li><a href="{{ route('home') }}">Home</a></li>
             <li><span class="current">Accommodations</span></li>
         </ul>
-        <p class="eyebrow">Accommodations</p>
-        <h1>Find lodges, camps, and hotels by region</h1>
-        <p>Compare curated stays and route bookings to partner hotel engines.</p>
+        <p class="eyebrow">Stays</p>
+        <h1>Compare stays as part of the destination planning journey</h1>
+        <p>Stays now sit inside the same planning structure as destination guides, tours, and dining, rather than feeling like a separate booking silo.</p>
     </div>
 </section>
 
 <section class="section-block patterned">
     <div class="container">
-        <div class="widget-placeholder reveal">
-            <h2>TravelPayouts Hotel Search Widget</h2>
-            <p>Embed the official widget snippet here. Destination and date parameters can be injected from filters.</p>
-            <code>@{{travelpayouts-link}}</code>
+        <div class="section-head reveal">
+            <p class="eyebrow">Stay Directory</p>
+            <h2>Browse camps, lodges, and boutique hotels</h2>
+            <p>Each listing supports comparison inside Trek Africa Guide before the user clicks through to a partner path or destination page.</p>
         </div>
 
         <form class="filter-bar reveal" method="GET" action="{{ route('accommodations.index') }}">
@@ -76,7 +76,10 @@
                             <p class="meta">{{ $accommodation['country'] }} • {{ ucfirst(str_replace('-', ' ', $accommodation['travel_style'])) }}</p>
                             <h3>{{ $accommodation['name'] }}</h3>
                             <p>{{ $accommodation['nightly_from'] }} / night</p>
-                            <a href="{{ $accommodation['affiliate_link'] }}" class="btn-primary" target="_blank" rel="noopener">Book via Partner <span class="btn-icon">→</span></a>
+                            <div class="quick-links">
+                                <a href="{{ route('destinations.show', $accommodation['destination_slug']) }}">Open destination guide</a>
+                                <a href="{{ $accommodation['affiliate_link'] }}" target="_blank" rel="noopener">Open stay listing</a>
+                            </div>
                         </div>
                     </article>
                 @endforeach
