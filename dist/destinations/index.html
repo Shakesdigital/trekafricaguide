@@ -25,6 +25,13 @@
         </div>
 
         <header class="site-header">
+            <div class="container header-search-strip">
+                <form class="header-search" action="/destinations" method="GET">
+                    <label class="sr-only" for="global-search">Search destinations</label>
+                    <input id="global-search" name="q" list="global-search-suggestions" type="text" placeholder="Search destinations, stays, or countries" value="">
+                    <button type="submit">Find</button>
+                </form>
+            </div>
             <div class="container nav-wrap">
                 <a href="/" class="logo-mark">
                     <span class="logo-knot" aria-hidden="true">TA</span>
@@ -46,12 +53,6 @@
                                             <a href="/destinations" class="active">Destinations</a>
                                             <a href="/travel-guides" class="">Travel Guides</a>
                                     </nav>
-
-                <form class="header-search" action="/destinations" method="GET">
-                    <label class="sr-only" for="global-search">Search destinations</label>
-                    <input id="global-search" name="q" list="global-search-suggestions" type="text" placeholder="Search destinations, stays, or countries" value="">
-                    <button type="submit">Find</button>
-                </form>
             </div>
             <datalist id="global-search-suggestions">
                                     <option value="Amboseli National Park"></option>
