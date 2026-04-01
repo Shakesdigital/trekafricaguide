@@ -23,13 +23,6 @@
         </div>
 
         <header class="site-header">
-            <div class="container header-search-strip">
-                <form class="header-search" action="{{ route('destinations.index') }}" method="GET">
-                    <label class="sr-only" for="global-search">Search destinations</label>
-                    <input id="global-search" name="q" list="global-search-suggestions" type="text" placeholder="Search destinations, stays, or countries" value="{{ request('q') }}">
-                    <button type="submit">Find</button>
-                </form>
-            </div>
             <div class="container nav-wrap">
                 <a href="{{ route('home') }}" class="logo-mark">
                     <span class="logo-knot" aria-hidden="true">TA</span>
