@@ -71,8 +71,17 @@ class TravelController extends Controller
         $restaurants = collect(config('travel.restaurants'))
             ->where('destination_slug', $slug)
             ->values();
+        $countryExperiences = collect(config('travel.local_experiences'))
+            ->where('country', $destination['country'])
+            ->take(3)
+            ->values();
+        $relatedPosts = collect(config('travel.blog_posts'))
+            ->filter(fn (array $post): bool => $post['country'] === $destination['country'] || $post['region'] === $destination['region'])
+            ->take(3)
+            ->values();
         $localVoices = collect(config('travel.local_voices.'.$slug, []));
         $insights = collect(config('travel.destination_insights.'.$slug, []));
+        $editorial = config('travel.destination_editorial.'.$slug, []);
 
         $relatedDestinations = $destinations
             ->where('region', $destination['region'])
@@ -87,8 +96,11 @@ class TravelController extends Controller
             'accommodations' => $accommodations,
             'restaurants' => $restaurants,
             'activities' => $activities,
+            'countryExperiences' => $countryExperiences,
+            'relatedPosts' => $relatedPosts,
             'localVoices' => $localVoices,
             'insights' => $insights,
+            'editorial' => $editorial,
             'relatedDestinations' => $relatedDestinations,
         ]));
     }

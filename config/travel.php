@@ -1231,6 +1231,432 @@ return [
         ],
     ],
 
+    'destination_editorial' => [
+        'maasai-mara' => [
+            'stay_length' => 'Allow 2 to 4 nights, with more value if migration timing or a balloon flight matters to you.',
+            'ideal_for' => 'First-time safari travelers, wildlife photographers, and anyone who wants the classic Kenya savannah experience without overcomplicating the route.',
+            'pairs_with' => 'Nairobi for a smooth arrival, Amboseli for elephant-heavy contrast, or Zanzibar if you want a bush-to-beach finish.',
+            'stay_strategy' => 'Pick your camp by conservancy access, transfer method, and whether you care more about migration crossings, quieter game drives, or family-friendly logistics.',
+            'food_note' => 'Dining is often lodge-led here, so strong hospitality and bush breakfast options matter more than a big standalone restaurant scene.',
+            'planning_notes' => [
+                ['title' => 'Road or fly-in', 'copy' => 'Driving from Nairobi is cheaper and more immersive, while flying saves time and preserves energy for shorter trips.'],
+                ['title' => 'Season matters', 'copy' => 'The Mara works year-round, but the feel changes dramatically between migration months, green season, and shoulder periods.'],
+                ['title' => 'Conservancy style', 'copy' => 'Private conservancies can feel calmer and more premium than the main reserve, especially for repeat safari travelers.'],
+            ],
+            'sample_plan' => [
+                ['day' => 'Day 1', 'title' => 'Arrive and settle into safari rhythm', 'copy' => 'Transfer from Nairobi, check into camp, and use the first evening drive to get your bearings without rushing.'],
+                ['day' => 'Day 2', 'title' => 'Full game-drive day', 'copy' => 'Dedicate a full day to wildlife tracking, picnic breaks, and slower sighting time instead of jumping between too many activities.'],
+                ['day' => 'Day 3+', 'title' => 'Add one signature experience', 'copy' => 'A balloon flight, cultural visit, or conservancy-based drive usually works better than trying to leave too quickly.'],
+            ],
+            'quick_facts' => [
+                ['label' => 'Entry style', 'copy' => 'Most travelers enter through Nairobi, then continue by road or light aircraft into the reserve or a conservancy.'],
+                ['label' => 'Best booking mindset', 'copy' => 'Book around exact travel months and camp location, not just the phrase Maasai Mara.'],
+            ],
+            'watchouts' => [
+                ['title' => 'Migration hype', 'copy' => 'The Great Migration is spectacular, but high expectations can backfire if travelers assume nonstop crossings every day.'],
+                ['title' => 'Drive fatigue', 'copy' => 'A road transfer is doable, but it can feel long if the trip is short or travelers arrive from a long-haul flight.'],
+            ],
+        ],
+        'murchison-falls-national-park' => [
+            'stay_length' => '2 to 3 nights is the strongest balance for a first Uganda safari, especially if you want both game drives and a Nile cruise.',
+            'ideal_for' => 'Travelers who want solid wildlife, dramatic river scenery, and strong value without jumping straight into a premium-only safari route.',
+            'pairs_with' => 'Ziwa Rhino Sanctuary on the way north, Kibale for chimpanzees, or Bwindi if you want a Uganda wildlife circuit with real variety.',
+            'stay_strategy' => 'Choose a lodge based on which side of the park you want easiest access to, and whether river views or game-drive efficiency matter more.',
+            'food_note' => 'This is a lodge-dining destination first, so meal quality, packed breakfasts, and post-cruise timing are more useful than chasing a city food scene.',
+            'planning_notes' => [
+                ['title' => 'Do not skip the boat', 'copy' => 'The cruise to the base of the falls changes how the whole park feels and should be treated as a core activity, not an optional add-on.'],
+                ['title' => 'North bank versus south bank', 'copy' => 'Your transfer rhythm, ferry timing, and dawn game-drive experience can change depending on where you sleep.'],
+                ['title' => 'Birding depth', 'copy' => 'Even non-birders often enjoy the delta and river sections more than expected because of the sheer amount of life around the water.'],
+            ],
+            'sample_plan' => [
+                ['day' => 'Day 1', 'title' => 'Transfer north with one stop', 'copy' => 'Break up the drive from Kampala or Entebbe with Ziwa or a scenic lunch stop, then arrive for a softer first evening.'],
+                ['day' => 'Day 2', 'title' => 'Game drive and falls cruise', 'copy' => 'Pair an early drive with the afternoon boat for the strongest introduction to the park.'],
+                ['day' => 'Day 3', 'title' => 'Delta or top-of-the-falls finish', 'copy' => 'Use the final morning for the delta, a top-of-the-falls hike, or a comfortable onward transfer to the next Uganda stop.'],
+            ],
+            'quick_facts' => [
+                ['label' => 'Arrival options', 'copy' => 'Travelers can come by road from Kampala or use scheduled domestic flights into nearby airstrips.'],
+                ['label' => 'Best booking mindset', 'copy' => 'Compare total park rhythm, lodge location, and cruise inclusion rather than price alone.'],
+            ],
+            'watchouts' => [
+                ['title' => 'Transfer assumptions', 'copy' => 'It is easy to underestimate Uganda drive times if you try to pack this into too few days.'],
+                ['title' => 'One-night mistake', 'copy' => 'A single night rarely gives the park enough room to feel rewarding.'],
+            ],
+        ],
+        'bwindi-impenetrable-national-park' => [
+            'stay_length' => 'Usually 2 to 3 nights, especially if gorilla trekking is the centerpiece of the trip.',
+            'ideal_for' => 'Travelers prioritizing mountain gorillas, conservation-led travel, and a more emotional wildlife experience than a classic savannah safari.',
+            'pairs_with' => 'Lake Bunyonyi for recovery, Queen Elizabeth National Park for contrast, or Kigali if you want a smoother in-out routing option.',
+            'stay_strategy' => 'Book around the correct trekking sector first, then choose a lodge close enough to the briefing point to avoid a stressful early morning.',
+            'food_note' => 'Lodge comfort matters here because trekking days are physically demanding and travelers value warm meals, quiet evenings, and recovery-friendly service.',
+            'planning_notes' => [
+                ['title' => 'Sector first', 'copy' => 'Rushaga, Buhoma, Ruhija, and Nkuringo can feel very different logistically, so match the lodge to the permit location.'],
+                ['title' => 'Trek difficulty varies', 'copy' => 'Gorilla families move, so one day can be much easier or harder than another regardless of lodge category.'],
+                ['title' => 'Build in recovery time', 'copy' => 'A second night after trekking often feels far better than racing off immediately to the next destination.'],
+            ],
+            'sample_plan' => [
+                ['day' => 'Day 1', 'title' => 'Arrive and stay close to briefing point', 'copy' => 'Travel in, settle down, and keep the afternoon light so the next morning starts calmly.'],
+                ['day' => 'Day 2', 'title' => 'Gorilla trekking day', 'copy' => 'Protect this day from unnecessary transfer pressure and let the trek shape the pace.'],
+                ['day' => 'Day 3', 'title' => 'Community or forest add-on', 'copy' => 'Use the extra night for a Batwa visit, forest walk, or slow departure instead of making the trip feel transactional.'],
+            ],
+            'quick_facts' => [
+                ['label' => 'Permit planning', 'copy' => 'Gorilla permit rules, availability, and pricing can change, so always verify before promising exact trip cost.'],
+                ['label' => 'Weather reality', 'copy' => 'Tracking happens year-round and muddy conditions are part of the experience.'],
+            ],
+            'watchouts' => [
+                ['title' => 'Wrong lodge sector', 'copy' => 'Booking a beautiful lodge in the wrong sector can create long, frustrating transfer mornings.'],
+                ['title' => 'Fitness mismatch', 'copy' => 'Travelers should be prepared for uneven terrain even when the trek itself turns out moderate.'],
+            ],
+        ],
+        'amboseli-national-park' => [
+            'stay_length' => '1 to 2 nights works well, especially if the park is one piece of a wider Kenya route.',
+            'ideal_for' => 'Travelers who want elephant-heavy sightings, iconic Kilimanjaro views, and a relatively easy safari extension from Nairobi.',
+            'pairs_with' => 'Nairobi for short safaris, Tsavo for a longer overland Kenya route, or the Mara if you want a stronger big-picture comparison of Kenya parks.',
+            'stay_strategy' => 'Choose a base with easy access to the park gates or strong Kilimanjaro-facing views if photography is part of the reason for going.',
+            'food_note' => 'Most travelers eat within camp or lodge, so the key decision is atmosphere and convenience rather than a broad restaurant spread.',
+            'planning_notes' => [
+                ['title' => 'Morning light wins', 'copy' => 'Mountain visibility is often better early, so sunrise starts are worth the effort here.'],
+                ['title' => 'Short-stay destination', 'copy' => 'Amboseli is strong because it delivers quickly, not because it needs a long stay.'],
+                ['title' => 'Family-friendly pacing', 'copy' => 'The park works well for travelers who want a safari that feels accessible without too many complex transfers.'],
+            ],
+            'sample_plan' => [
+                ['day' => 'Day 1', 'title' => 'Transfer and first drive', 'copy' => 'Arrive from Nairobi or another Kenya stop, then use a softer evening drive to settle into the landscape.'],
+                ['day' => 'Day 2', 'title' => 'Full game-drive focus', 'copy' => 'Use the full day for elephants, Observation Hill, and wetland-heavy viewing.'],
+                ['day' => 'Day 3', 'title' => 'Move onward early', 'copy' => 'Amboseli often works best when it feeds naturally into the next Kenya leg rather than lingering too long.'],
+            ],
+            'quick_facts' => [
+                ['label' => 'Best booking mindset', 'copy' => 'Choose this park for elephants and scenery first, not as a replacement for every other Kenya safari style.'],
+                ['label' => 'Transfer style', 'copy' => 'Road access from Nairobi is straightforward, with fly-in options available for shorter itineraries.'],
+            ],
+            'watchouts' => [
+                ['title' => 'Clouded mountain views', 'copy' => 'Kilimanjaro is not guaranteed on demand, even when the destination is famous for it.'],
+                ['title' => 'Over-comparing to the Mara', 'copy' => 'Amboseli is rewarding, but it shines for different reasons than the Maasai Mara.'],
+            ],
+        ],
+        'zanzibar' => [
+            'stay_length' => '3 to 5 nights is the sweet spot for most travelers after safari.',
+            'ideal_for' => 'Travelers who want a softer post-safari landing with beaches, heritage walking, and strong food-led evenings.',
+            'pairs_with' => 'Serengeti, Ngorongoro, or a broader Tanzania route where you want to exchange early game drives for coast time.',
+            'stay_strategy' => 'Decide whether Stone Town access, northeast beaches, or southeast quiet matters most before choosing your base.',
+            'food_note' => 'Zanzibar rewards travelers who leave room for seafood, Swahili dishes, spice influences, and evening food-market energy.',
+            'planning_notes' => [
+                ['title' => 'Split the island well', 'copy' => 'Stone Town and the beaches create very different experiences, so many trips work better with a two-base stay.'],
+                ['title' => 'Slow the pace down', 'copy' => 'This is where the trip should breathe a little, not where you try to add too many structured excursions.'],
+                ['title' => 'Beach choice matters', 'copy' => 'Different coasts suit different moods, from livelier snorkeling zones to quieter resort-style stays.'],
+            ],
+            'sample_plan' => [
+                ['day' => 'Day 1', 'title' => 'Arrive into Stone Town', 'copy' => 'Use the first evening for a gentle walk, sunset views, and a food-forward introduction.'],
+                ['day' => 'Day 2-3', 'title' => 'Move to the beach', 'copy' => 'Shift to the coast for downtime, sea activities, and recovery after inland safari pacing.'],
+                ['day' => 'Day 4+', 'title' => 'Add one island experience', 'copy' => 'A spice farm, dhow cruise, or reef-focused outing is usually enough without overprogramming the stay.'],
+            ],
+            'quick_facts' => [
+                ['label' => 'Arrival pattern', 'copy' => 'Most travelers fly in from mainland Tanzania, Nairobi, or another East Africa hub.'],
+                ['label' => 'Best booking mindset', 'copy' => 'Book by exact coast and hotel feel, not just by the word Zanzibar.'],
+            ],
+            'watchouts' => [
+                ['title' => 'Wrong coast choice', 'copy' => 'Tide patterns, beach style, and transfer time can make one coast a much better fit than another.'],
+                ['title' => 'Too little time', 'copy' => 'Two rushed nights can make Zanzibar feel like a transfer stop rather than a meaningful extension.'],
+            ],
+        ],
+        'kruger-national-park' => [
+            'stay_length' => '3 to 4 nights works well for most travelers, especially if Kruger is their main safari in South Africa.',
+            'ideal_for' => 'Travelers who want a polished safari ecosystem with strong lodge choices, easy air access, and classic Big Five game drives.',
+            'pairs_with' => 'Cape Town, the Panorama Route, or a wider South Africa itinerary that balances city, coast, and wildlife.',
+            'stay_strategy' => 'Choose between private reserves, classic safari lodges, or self-drive leaning options depending on budget and how guided you want the experience to feel.',
+            'food_note' => 'Food quality can vary widely by lodge style, but dining is usually part of the safari rhythm rather than a separate city-style scene.',
+            'planning_notes' => [
+                ['title' => 'Kruger is not one thing', 'copy' => 'Private concessions, park camps, and neighboring reserves can feel very different even when travelers call all of it Kruger.'],
+                ['title' => 'Good for first-timers', 'copy' => 'South Africa routing is often less intimidating for travelers who want safari quality with easier logistics.'],
+                ['title' => 'Combine with a city', 'copy' => 'Kruger often works best as part of a broader South Africa journey rather than a standalone trip.'],
+            ],
+            'sample_plan' => [
+                ['day' => 'Day 1', 'title' => 'Fly in and settle', 'copy' => 'Use arrival day for lodge orientation and one first drive instead of forcing a packed schedule.'],
+                ['day' => 'Day 2-3', 'title' => 'Classic safari rhythm', 'copy' => 'Early drives, midday rest, and evening activity keep the trip comfortable and productive.'],
+                ['day' => 'Day 4', 'title' => 'Finish or connect onward', 'copy' => 'A final morning drive usually pairs well with onward travel to Cape Town or another South Africa stop.'],
+            ],
+            'quick_facts' => [
+                ['label' => 'Booking style', 'copy' => 'Compare reserve type and exact lodge experience, not only the umbrella destination name.'],
+                ['label' => 'Access', 'copy' => 'Kruger can be reached by regional flight or overland from other parts of South Africa.'],
+            ],
+            'watchouts' => [
+                ['title' => 'Reserve confusion', 'copy' => 'Travelers can book the wrong product if they do not understand the difference between private reserve access and public-park style stays.'],
+                ['title' => 'Too much moving', 'copy' => 'Splitting too many lodges inside one short Kruger stay can reduce the feeling of ease.'],
+            ],
+        ],
+        'okavango-delta' => [
+            'stay_length' => '3 nights is a strong minimum because of the transfer effort and premium price point.',
+            'ideal_for' => 'Travelers who want a slower, more exclusive safari built around water, silence, and refined camp experiences.',
+            'pairs_with' => 'Chobe, Victoria Falls, or another Botswana stop if you want a fuller Southern Africa wildlife route.',
+            'stay_strategy' => 'Focus on camp style, water levels, and activity mix, because mokoro, boat, and game-drive emphasis can differ from one camp to the next.',
+            'food_note' => 'Dining is camp-based and usually strong, so the real decision is atmosphere and safari style rather than restaurant variety.',
+            'planning_notes' => [
+                ['title' => 'Premium by design', 'copy' => 'This is usually a high-cost destination, so it works best when the trip is built intentionally around it.'],
+                ['title' => 'Water shapes the experience', 'copy' => 'Seasonal water levels change how the delta feels and which activities are most rewarding.'],
+                ['title' => 'Stay longer if possible', 'copy' => 'Short hops through the delta often do not justify the effort or the price.'],
+            ],
+            'sample_plan' => [
+                ['day' => 'Day 1', 'title' => 'Fly in and settle into camp pace', 'copy' => 'Arrive, slow down, and let the first activity introduce the delta without rushing.'],
+                ['day' => 'Day 2', 'title' => 'Water and land contrast', 'copy' => 'Mix a mokoro or boat activity with a game-viewing session to appreciate what makes the delta distinct.'],
+                ['day' => 'Day 3', 'title' => 'Deepen the rhythm', 'copy' => 'Use the final full day to stay unhurried and choose the activity style you liked most.'],
+            ],
+            'quick_facts' => [
+                ['label' => 'Access style', 'copy' => 'Most travelers arrive by light aircraft rather than by standard overland transfer.'],
+                ['label' => 'Best booking mindset', 'copy' => 'Book by camp character and seasonal activity strengths, not only the destination label.'],
+            ],
+            'watchouts' => [
+                ['title' => 'Sticker shock', 'copy' => 'The delta is often one of the most expensive pieces of a Southern Africa route.'],
+                ['title' => 'Activity mismatch', 'copy' => 'Not every camp delivers the same balance of boating, mokoro, and land-based safari.'],
+            ],
+        ],
+        'serengeti-national-park' => [
+            'stay_length' => '3 to 5 nights usually gives the Serengeti enough space to feel worthwhile.',
+            'ideal_for' => 'Travelers who want huge plains, predator density, and a safari that feels truly expansive rather than compact.',
+            'pairs_with' => 'Ngorongoro, Tarangire, or Zanzibar for a strong Tanzania route that balances wildlife with either scenery or downtime.',
+            'stay_strategy' => 'Pick camp location by seasonal wildlife movement and circuit logic, because the park is too large to treat as one uniform base.',
+            'food_note' => 'Safari-camp dining dominates here, so comfort, timing, and packed-meal quality are more relevant than restaurant range.',
+            'planning_notes' => [
+                ['title' => 'Camp position matters', 'copy' => 'Northern, central, and southern Serengeti can serve very different trip goals depending on the time of year.'],
+                ['title' => 'Give it real time', 'copy' => 'The Serengeti works best when travelers resist the urge to reduce it to a one-night box tick.'],
+                ['title' => 'Migration is mobile', 'copy' => 'Seasonal movement shapes the best camp choice far more than generic bucket-list wording does.'],
+            ],
+            'sample_plan' => [
+                ['day' => 'Day 1', 'title' => 'Arrive into the right sector', 'copy' => 'Transfer in and use the first drive to understand the terrain rather than rushing between sightings.'],
+                ['day' => 'Day 2-3', 'title' => 'Full safari immersion', 'copy' => 'Dedicate full days to predator tracking, slower photography, and long-form time on the plains.'],
+                ['day' => 'Day 4+', 'title' => 'Add contrast or continue the circuit', 'copy' => 'The Serengeti pairs best with Ngorongoro, Tarangire, or a beach finish rather than more of the same.'],
+            ],
+            'quick_facts' => [
+                ['label' => 'Arrival pattern', 'copy' => 'Travelers reach the Serengeti by light aircraft or as part of a northern Tanzania overland circuit.'],
+                ['label' => 'Best booking mindset', 'copy' => 'Camp geography matters just as much as camp quality.'],
+            ],
+            'watchouts' => [
+                ['title' => 'Overgeneralizing the park', 'copy' => 'Treating the Serengeti like one compact zone often leads to weak routing.'],
+                ['title' => 'Not enough nights', 'copy' => 'Travelers often regret trying to compress this destination too much.'],
+            ],
+        ],
+        'sahara-dunes' => [
+            'stay_length' => 'Usually 1 to 2 nights in camp inside a wider Morocco route.',
+            'ideal_for' => 'Travelers drawn to desert scenery, camp atmosphere, and a strong visual contrast with Morocco cities and mountains.',
+            'pairs_with' => 'Marrakech, the Atlas foothills, or a longer overland route through kasbah and valley landscapes.',
+            'stay_strategy' => 'Choose between standard and higher-comfort desert camps based on privacy, bathroom style, and how much road time you are already accepting elsewhere in the route.',
+            'food_note' => 'Camp meals and tea hospitality are part of the experience, so simple but atmospheric dining is often enough here.',
+            'planning_notes' => [
+                ['title' => 'Desert is about mood', 'copy' => 'This stop is less about packing the schedule and more about light, silence, and pace.'],
+                ['title' => 'Road time is real', 'copy' => 'Morocco desert routing can be long, so travelers should value the scenery and atmosphere enough to justify it.'],
+                ['title' => 'One good camp beats two weak ones', 'copy' => 'Comfort level matters more here than many travelers expect after a long transfer day.'],
+            ],
+            'sample_plan' => [
+                ['day' => 'Day 1', 'title' => 'Overland into the desert', 'copy' => 'Use the journey itself as part of the experience, then arrive in time for sunset and a quieter evening.'],
+                ['day' => 'Day 2', 'title' => 'Slow morning and onward route', 'copy' => 'A second sunrise, short desert activity, and onward travel often works better than trying to overfill the stay.'],
+            ],
+            'quick_facts' => [
+                ['label' => 'Best booking mindset', 'copy' => 'Book the desert as part of a route, not as a standalone Morocco trip centerpiece for too many nights.'],
+                ['label' => 'Comfort tradeoff', 'copy' => 'Camp level can strongly influence whether the stay feels magical or simply tiring.'],
+            ],
+            'watchouts' => [
+                ['title' => 'Underestimating drive time', 'copy' => 'Desert routing from Marrakech and beyond can be much longer than first-time travelers assume.'],
+                ['title' => 'Overpromising luxury', 'copy' => 'Even premium camps are still desert camps, not city hotels.'],
+            ],
+        ],
+        'victoria-falls' => [
+            'stay_length' => '2 to 3 nights works well for most travelers unless you add Chobe or a heavier adventure list.',
+            'ideal_for' => 'Couples, short-stay Southern Africa travelers, and anyone wanting one high-impact natural landmark with optional adventure add-ons.',
+            'pairs_with' => 'Chobe, Hwange, or a broader Zimbabwe and Botswana route.',
+            'stay_strategy' => 'Choose whether you care most about town access, river-facing atmosphere, or easier movement to activity providers.',
+            'food_note' => 'There is more standalone dining choice here than in many safari areas, so evening restaurants can be part of the appeal.',
+            'planning_notes' => [
+                ['title' => 'Water level changes everything', 'copy' => 'The volume of water affects visibility, spray, and which activities feel strongest in different months.'],
+                ['title' => 'Short but powerful stop', 'copy' => 'Victoria Falls delivers well without requiring a long stay if the route around it is logical.'],
+                ['title' => 'Adventure is optional', 'copy' => 'You do not need to bungee jump or helicopter tour for the stop to feel worthwhile.'],
+            ],
+            'sample_plan' => [
+                ['day' => 'Day 1', 'title' => 'Arrive and get the first view', 'copy' => 'Use arrival day for a lighter first look at the falls and a relaxed evening.'],
+                ['day' => 'Day 2', 'title' => 'Choose your style', 'copy' => 'Build the day around a core falls visit plus one river, wildlife, or adventure activity rather than too many.'],
+                ['day' => 'Day 3', 'title' => 'Continue onward', 'copy' => 'This stop usually connects best into Chobe, Hwange, or a flight onward rather than dragging on.'],
+            ],
+            'quick_facts' => [
+                ['label' => 'Best booking mindset', 'copy' => 'Match the trip to current water conditions and the kind of activities you genuinely want.'],
+                ['label' => 'Arrival pattern', 'copy' => 'Most travelers arrive by regional flight and combine the falls with another Southern Africa wildlife stop.'],
+            ],
+            'watchouts' => [
+                ['title' => 'Seasonal expectations', 'copy' => 'Low-water and high-water periods produce very different visual and activity conditions.'],
+                ['title' => 'Overstuffed activity lists', 'copy' => 'Trying to do every paid add-on can make the stop feel hectic rather than memorable.'],
+            ],
+        ],
+        'cape-town' => [
+            'stay_length' => '3 to 5 nights gives enough room for city time, one scenic day trip, and at least one slower day.',
+            'ideal_for' => 'Travelers who want food, design, coast, wine, and a strong urban base before or after safari.',
+            'pairs_with' => 'Kruger, Winelands overnights, the Garden Route, or a short South Africa city-and-wildlife split.',
+            'stay_strategy' => 'Pick your area carefully because the feel changes between City Bowl, Atlantic Seaboard, and Winelands-adjacent stays.',
+            'food_note' => 'Cape Town is one of the strongest food destinations on the site, so leave space for restaurant-driven evenings and market stops.',
+            'planning_notes' => [
+                ['title' => 'A real city stop', 'copy' => 'Cape Town deserves more than a rushed add-on if food, scenery, and neighborhood feel are part of the reason you chose it.'],
+                ['title' => 'Day trips add value', 'copy' => 'Cape Peninsula, Winelands, and coastal drives make the city feel broader without changing hotels.'],
+                ['title' => 'Weather can reshape days', 'copy' => 'Flexible planning helps when wind or local conditions affect mountain and ocean outings.'],
+            ],
+            'sample_plan' => [
+                ['day' => 'Day 1', 'title' => 'Arrive and stay local', 'copy' => 'Use the first evening to settle into your neighborhood and avoid overscheduling after arrival.'],
+                ['day' => 'Day 2', 'title' => 'City and mountain focus', 'copy' => 'Table Mountain, city neighborhoods, and an evening meal create a strong full-day balance.'],
+                ['day' => 'Day 3+', 'title' => 'Choose one longer outing', 'copy' => 'A Winelands day, peninsula route, or coast-driven plan adds contrast without exhausting the trip.'],
+            ],
+            'quick_facts' => [
+                ['label' => 'Arrival pattern', 'copy' => 'Cape Town is usually reached by long-haul arrival or a domestic South Africa connection.'],
+                ['label' => 'Best booking mindset', 'copy' => 'Book by neighborhood and trip style, not just by hotel star rating.'],
+            ],
+            'watchouts' => [
+                ['title' => 'Too little time', 'copy' => 'Two nights often reduces Cape Town to an arrival-and-departure buffer instead of a meaningful stop.'],
+                ['title' => 'Poor area fit', 'copy' => 'The wrong neighborhood can make daily movement feel harder than it needs to.'],
+            ],
+        ],
+        'namib-desert' => [
+            'stay_length' => '2 to 3 nights is usually enough to make the desert feel deep rather than rushed.',
+            'ideal_for' => 'Travelers who care about landscape, photography, dark skies, and a quieter form of adventure.',
+            'pairs_with' => 'Windhoek, Swakopmund, or a broader Namibia overland route that values scenery more than nonstop wildlife.',
+            'stay_strategy' => 'Choose lodges based on driving distance to the dunes and whether sunrise access or atmosphere matters most.',
+            'food_note' => 'Desert lodges are the center of the dining experience, so comfort and pacing matter more than a broad restaurant scene.',
+            'planning_notes' => [
+                ['title' => 'Sunrise matters', 'copy' => 'A lot of the desert magic depends on early starts and light quality, so stay location has real impact.'],
+                ['title' => 'Scenery-first destination', 'copy' => 'This stop rewards travelers who value landscape and mood, not constant action.'],
+                ['title' => 'Long distances are normal', 'copy' => 'Namibia often works best for travelers comfortable with road-space and slower rhythm.'],
+            ],
+            'sample_plan' => [
+                ['day' => 'Day 1', 'title' => 'Arrive and rest well', 'copy' => 'Use the first evening to settle in because the most rewarding dune moments come early the next day.'],
+                ['day' => 'Day 2', 'title' => 'Dunes and Deadvlei focus', 'copy' => 'Dedicate the day to classic viewpoints, photography time, and a slower midday reset.'],
+                ['day' => 'Day 3', 'title' => 'One more scenic morning', 'copy' => 'A final sunrise or shorter walk usually adds more than rushing straight onward.'],
+            ],
+            'quick_facts' => [
+                ['label' => 'Best booking mindset', 'copy' => 'Location to the park gates can matter more than pure room luxury.'],
+                ['label' => 'Arrival pattern', 'copy' => 'Most trips route via Windhoek, then continue overland or by light aircraft.'],
+            ],
+            'watchouts' => [
+                ['title' => 'Late arrivals', 'copy' => 'Arriving too late into the area can cost you the strongest part of the next morning.'],
+                ['title' => 'Expecting safari density', 'copy' => 'This destination is about landscape power, not classic wildlife volume.'],
+            ],
+        ],
+        'volcanoes-national-park' => [
+            'stay_length' => '2 to 3 nights is usually the right amount for gorilla trekking plus one calmer supporting day.',
+            'ideal_for' => 'Travelers who want Rwanda gorilla trekking with short transfer logic and a more polished high-end feel.',
+            'pairs_with' => 'Kigali, Lake Kivu, or a short Rwanda extension rather than an overstuffed regional loop.',
+            'stay_strategy' => 'Choose a lodge that handles the early trekking start smoothly and matches the comfort level expected after a physically demanding day.',
+            'food_note' => 'Lodge dining is central, so warmth, service, and recovery-friendly pacing matter more than range.',
+            'planning_notes' => [
+                ['title' => 'Premium by structure', 'copy' => 'Rwanda often feels smoother logistically than some neighboring gorilla routes, but it is still a high-commitment destination.'],
+                ['title' => 'Protect trekking day', 'copy' => 'Do not layer too many transfer obligations around the permit day.'],
+                ['title' => 'Recovery matters', 'copy' => 'An extra night helps the trip feel reflective rather than rushed.'],
+            ],
+            'sample_plan' => [
+                ['day' => 'Day 1', 'title' => 'Transfer from Kigali', 'copy' => 'Arrive in time to settle, rest, and be ready for an early start.'],
+                ['day' => 'Day 2', 'title' => 'Gorilla trekking day', 'copy' => 'Let the permit and the trek lead the entire day rather than overfilling the schedule.'],
+                ['day' => 'Day 3', 'title' => 'Add a softer activity', 'copy' => 'A community visit, scenic pause, or slow transfer onward usually works better than a hard exit.'],
+            ],
+            'quick_facts' => [
+                ['label' => 'Permit reminder', 'copy' => 'Current permit rules and pricing should always be verified close to booking.'],
+                ['label' => 'Transfer logic', 'copy' => 'Rwanda road transfers are shorter and smoother than many first-time travelers expect.'],
+            ],
+            'watchouts' => [
+                ['title' => 'Last-minute permit assumptions', 'copy' => 'Availability can tighten quickly, especially in popular periods.'],
+                ['title' => 'Over-compressing the stay', 'copy' => 'This destination feels better with one buffer night on either side of the main trek.'],
+            ],
+        ],
+        'sine-saloum' => [
+            'stay_length' => '2 to 3 nights is enough to slow down and feel the delta rather than simply pass through it.',
+            'ideal_for' => 'Travelers who value community-led travel, waterways, birdlife, and lower-pressure pacing.',
+            'pairs_with' => 'Dakar, Petite Cote, or a wider Senegal route that balances city energy with softer delta landscapes.',
+            'stay_strategy' => 'Choose a lodge or community stay that gives easy boat access and a calmer relationship with the mangrove environment.',
+            'food_note' => 'Simple seafood, communal meals, and host-led dining often matter more here than formal restaurant variety.',
+            'planning_notes' => [
+                ['title' => 'This is a slow-travel stop', 'copy' => 'The reward comes from atmosphere and time on the water, not from trying to race through a checklist.'],
+                ['title' => 'Boat access shapes the stay', 'copy' => 'The easier the water access, the more natural the whole experience feels.'],
+                ['title' => 'Works best with patience', 'copy' => 'Travelers who enjoy quieter places often love it more than they expect.'],
+            ],
+            'sample_plan' => [
+                ['day' => 'Day 1', 'title' => 'Transfer from Dakar', 'copy' => 'Travel into the delta, check in, and let the first evening stay simple and atmosphere-led.'],
+                ['day' => 'Day 2', 'title' => 'Explore by boat', 'copy' => 'Use the full day for waterways, birdlife, village context, and an unhurried pace.'],
+                ['day' => 'Day 3', 'title' => 'Slow exit or second water session', 'copy' => 'A gentler final morning often makes the stop feel complete.'],
+            ],
+            'quick_facts' => [
+                ['label' => 'Best booking mindset', 'copy' => 'Choose this stop for calm, texture, and community, not for high-volume attractions.'],
+                ['label' => 'Arrival pattern', 'copy' => 'Most travelers come by road from Dakar, then continue locally by boat or lodge transfer.'],
+            ],
+            'watchouts' => [
+                ['title' => 'Rushing through it', 'copy' => 'A one-night dash often misses the point of the delta entirely.'],
+                ['title' => 'Expecting classic safari tempo', 'copy' => 'This destination is about slow immersion rather than headline wildlife intensity.'],
+            ],
+        ],
+        'cape-coast-and-kakum' => [
+            'stay_length' => '1 to 2 nights is enough for most travelers, especially from Accra.',
+            'ideal_for' => 'Travelers who want a Ghana route with both heritage depth and one meaningful nature component.',
+            'pairs_with' => 'Accra, Elmina, or a broader Ghana coast-and-culture trip.',
+            'stay_strategy' => 'Sleep near Cape Coast if heritage sites are the priority, or closer to Kakum if the forest angle matters most the next morning.',
+            'food_note' => 'Local Ghana dining and coastal seafood can add welcome texture if you leave time beyond the main heritage visits.',
+            'planning_notes' => [
+                ['title' => 'Heritage needs time', 'copy' => 'Cape Coast and Elmina are emotionally significant stops that deserve more than a rushed photo visit.'],
+                ['title' => 'Good short routing', 'copy' => 'This is one of the easiest high-value side trips from Accra if paced properly.'],
+                ['title' => 'Canopy walk works early', 'copy' => 'Kakum often feels best in a cooler morning slot before the day gets too full.'],
+            ],
+            'sample_plan' => [
+                ['day' => 'Day 1', 'title' => 'Arrive and focus on heritage', 'copy' => 'Use the first afternoon for Cape Coast or Elmina with enough time to absorb the history.'],
+                ['day' => 'Day 2', 'title' => 'Add Kakum and depart', 'copy' => 'A morning canopy walk pairs naturally with an afternoon return to Accra or onward routing.'],
+            ],
+            'quick_facts' => [
+                ['label' => 'Best booking mindset', 'copy' => 'Treat this as a layered Ghana stop, not only a single castle photo opportunity.'],
+                ['label' => 'Arrival pattern', 'copy' => 'Most visitors travel by road from Accra.'],
+            ],
+            'watchouts' => [
+                ['title' => 'Too much in one day', 'copy' => 'Packing Cape Coast, Elmina, and Kakum into one rushed day can flatten the experience.'],
+                ['title' => 'Emotional pace', 'copy' => 'Heritage sites deserve space and sensitivity rather than checklist timing.'],
+            ],
+        ],
+        'cairo-and-giza' => [
+            'stay_length' => '2 to 4 nights is usually enough before moving deeper into Egypt.',
+            'ideal_for' => 'First-time Egypt travelers who want the pyramids, major museums, and layered city history in one gateway stop.',
+            'pairs_with' => 'Luxor, Aswan, or a shorter Egypt route where Cairo is the historical anchor rather than the only stop.',
+            'stay_strategy' => 'Choose between Cairo and Giza based on whether city access or pyramid proximity matters more to you each day.',
+            'food_note' => 'The best trips leave room for evenings with Egyptian staples and lower-key local meals, not just monument time.',
+            'planning_notes' => [
+                ['title' => 'Traffic is a planning issue', 'copy' => 'Urban movement can shape the day as much as the sights themselves, so realistic routing matters.'],
+                ['title' => 'Do not do every museum', 'copy' => 'One strong museum day is often better than trying to cover too much history without breathing room.'],
+                ['title' => 'Balance heavy days', 'copy' => 'Pair major pyramid or museum visits with softer evening plans instead of stacking nonstop intensity.'],
+            ],
+            'sample_plan' => [
+                ['day' => 'Day 1', 'title' => 'Arrive and keep it light', 'copy' => 'Use the first evening for a calmer introduction and do not force major sightseeing on arrival.'],
+                ['day' => 'Day 2', 'title' => 'Pyramids and Giza focus', 'copy' => 'Give the pyramids enough time to feel meaningful without trying to add too much else.'],
+                ['day' => 'Day 3', 'title' => 'Museum and city layer', 'copy' => 'A dedicated museum or Old Cairo day creates stronger balance than another monument-heavy repeat.'],
+            ],
+            'quick_facts' => [
+                ['label' => 'Best booking mindset', 'copy' => 'Plan around energy, traffic, and hotel location rather than distance alone.'],
+                ['label' => 'Arrival pattern', 'copy' => 'Most international travelers arrive through Cairo International Airport.'],
+            ],
+            'watchouts' => [
+                ['title' => 'Sightseeing overload', 'copy' => 'Cairo and Giza can become exhausting quickly if every day is built as a marathon.'],
+                ['title' => 'Poor hotel placement', 'copy' => 'The wrong base can add unnecessary commuting strain to an already dense stop.'],
+            ],
+        ],
+        'marrakech-and-atlas' => [
+            'stay_length' => '2 to 4 nights in Marrakech works well before adding Atlas or desert extensions.',
+            'ideal_for' => 'Travelers who want market energy, design, food, and easy onward access to mountain or desert routes.',
+            'pairs_with' => 'Atlas foothills, the Sahara, or a larger Morocco route linking imperial cities and landscapes.',
+            'stay_strategy' => 'Choose between medina immersion and easier-access modern districts depending on your tolerance for bustle and transfer complexity.',
+            'food_note' => 'Food is a major part of the destination, from rooftop dinners and market snacks to slower riad breakfasts.',
+            'planning_notes' => [
+                ['title' => 'The medina is immersive', 'copy' => 'That energy is part of the appeal, but some travelers prefer a quieter edge-of-center base.'],
+                ['title' => 'Great branching point', 'copy' => 'Marrakech works well because it opens naturally into Atlas day trips or longer desert routes.'],
+                ['title' => 'Evenings matter', 'copy' => 'The city changes after dark, so leave room for slower nighttime exploration and dining.'],
+            ],
+            'sample_plan' => [
+                ['day' => 'Day 1', 'title' => 'Arrive and orient gently', 'copy' => 'Use the first evening for one square, one terrace, and a lighter introduction to the pace.'],
+                ['day' => 'Day 2', 'title' => 'Medina and gardens', 'copy' => 'Balance souks and heritage sights with one calmer design or garden stop.'],
+                ['day' => 'Day 3+', 'title' => 'Branch into the Atlas or beyond', 'copy' => 'Use the extra day for the mountains, desert routing, or one more city-focused day depending on the trip shape.'],
+            ],
+            'quick_facts' => [
+                ['label' => 'Best booking mindset', 'copy' => 'The exact riad style and location can shape the whole feel of the stay.'],
+                ['label' => 'Arrival pattern', 'copy' => 'Most travelers arrive through Marrakech Menara Airport or overland from another Morocco city.'],
+            ],
+            'watchouts' => [
+                ['title' => 'Too much sensory load', 'copy' => 'Travelers unused to busy medina environments may need more downtime than expected.'],
+                ['title' => 'One-night city stays', 'copy' => 'A very short stop rarely lets Marrakech feel like more than a transfer point.'],
+            ],
+        ],
+    ],
+
     'local_voices' => [
         'maasai-mara' => [
             [
