@@ -9,7 +9,7 @@
         </ul>
         <p class="eyebrow">Regions of Africa</p>
         <h1>Start with a region, then narrow into the right country and destination</h1>
-        <p>The new frontend structure is organized around traveler decision-making. Regions now act as the first layer before country-level comparison and destination-level planning.</p>
+        <p>Use this layer to understand the shape of an Africa trip first: which region suits first-time safari travelers, where beach and bush combine best, and which routes reward slower overland planning.</p>
         <div class="page-stats">
             <div class="page-stat">
                 <strong>{{ count($regions) }}</strong>
@@ -27,8 +27,8 @@
     <div class="container">
         <div class="section-head reveal">
             <p class="eyebrow">How to use this page</p>
-            <h2>Think broad first, specific second</h2>
-            <p>Use regions to understand travel style and route logic, then move into countries like Uganda and Kenya before opening individual destination pages with practical planning details.</p>
+            <h2>Think broad first, then move country by country</h2>
+            <p>East Africa is the clearest starting point for classic safari, gorilla trekking, and first multi-stop trips. Southern Africa works well for self-drive and desert-to-city combinations, North Africa for culture-forward city circuits, and West Africa for history, coastline, and slower heritage travel.</p>
         </div>
 
         <form class="filter-bar reveal" method="GET" action="{{ route('regions.index') }}">
@@ -102,7 +102,7 @@
                             <h2>{{ $region['name'] }}</h2>
                             <p>{{ $region['description'] }}</p>
                             <h3>Why start here</h3>
-                            <p>{{ $region['slug'] === 'east-africa' ? 'Best launch region for first-time safari planning, gorilla trekking, and high-recognition destinations.' : 'Useful once the traveler knows their preferred route style, pacing, and experience mix.' }}</p>
+                            <p>{{ $region['slug'] === 'east-africa' ? 'Best launch region for first-time safari planning, gorilla trekking, migration timing, and high-recognition wildlife circuits that connect well by road and short flights.' : ($region['slug'] === 'southern-africa' ? 'Strong for contrasting landscapes, polished lodge circuits, rail or self-drive options, and combinations such as Cape Town with safari or desert with coast.' : ($region['slug'] === 'north-africa' ? 'Ideal for travelers who want architecture, food, medinas, history, and shorter wildlife-free routes that still feel rich and layered.' : 'A compelling region for travelers who value heritage, music, food, Atlantic coast experiences, and honest cultural context over checklist tourism.')) }}</p>
                             <h3>Countries in this region</h3>
                             <ul class="pill-list">
                                 @foreach($region['countries'] as $country)

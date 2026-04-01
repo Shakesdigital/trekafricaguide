@@ -9,7 +9,7 @@
         </ul>
         <p class="eyebrow">Travel Guides</p>
         <h1>Editorial insight now supports the same planning structure as the directory</h1>
-        <p>These guides are meant to help users choose between regions, countries, and destination styles before they reach the bookable layers of the site.</p>
+        <p>These editorial pages help users make better choices before they click a booking link, with grounded guidance on timing, routing, expectations, costs, and how different destinations feel on the ground.</p>
     </div>
 </section>
 
@@ -17,8 +17,8 @@
     <div class="container">
         <div class="section-head reveal">
             <p class="eyebrow">Guides Library</p>
-            <h2>Planning, timing, itineraries, safety, and cultural context</h2>
-            <p>Instead of standing apart from the directory, editorial content now reinforces how travelers navigate the rest of the website.</p>
+            <h2>Planning, timing, logistics, and traveler honesty</h2>
+            <p>The goal is not to flood the site with generic travel articles. Each guide should reduce friction, answer a real planning question, and send the traveler back into the right destination, stay, or tour page with more confidence.</p>
         </div>
 
         <div class="category-grid reveal">

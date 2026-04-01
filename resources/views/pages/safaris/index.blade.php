@@ -9,7 +9,7 @@
         </ul>
         <p class="eyebrow">Safaris & Tours</p>
         <h1>Compare tours after you understand the destination fit</h1>
-        <p>This section now works as the commercial comparison layer beneath regions, countries, and destination guides, with each CTA redirecting to a booking partner.</p>
+        <p>This is the booking-intent layer of the site, where travelers compare real route types, trip lengths, and budgets after they already understand the destination itself.</p>
     </div>
 </section>
 
@@ -17,8 +17,8 @@
     <div class="container">
         <div class="section-head reveal">
             <p class="eyebrow">Partner Offers</p>
-            <h2>Browse the bookable side of the directory</h2>
-            <p>Use the filters to narrow by geography, experience type, travel style, and trip length before moving out to partner landing pages.</p>
+            <h2>Browse bookable itineraries with more context</h2>
+            <p>These pages are written to feel more like honest trip planning and less like a list of offers. Use the filters to compare wildlife drives, trekking routes, desert journeys, cultural add-ons, and shorter extension trips before clicking out to a partner booking page.</p>
         </div>
 
         <form class="filter-bar reveal" method="GET" action="{{ route('safaris.index') }}">

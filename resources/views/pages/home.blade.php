@@ -9,6 +9,13 @@
         ['name' => 'Rwanda', 'description' => 'For premium gorilla trekking, short country transfers, and polished conservation-led itineraries.', 'route' => route('destinations.index', ['country' => 'Rwanda'])],
     ];
 
+    $regionalPriorities = [
+        ['name' => 'East Africa', 'description' => 'Best starting point for classic safaris, gorilla trekking, and safari-plus-coast routes.', 'route' => route('regions.index', ['region' => 'east-africa'])],
+        ['name' => 'Southern Africa', 'description' => 'Best for city-and-safari pairings, desert routes, self-drive logic, and strong lodge circuits.', 'route' => route('regions.index', ['region' => 'southern-africa'])],
+        ['name' => 'North Africa', 'description' => 'Best for heritage cities, desert-edge journeys, architecture, and food-led urban travel.', 'route' => route('regions.index', ['region' => 'north-africa'])],
+        ['name' => 'West Africa', 'description' => 'Best for slower cultural travel, heritage coastlines, and community-grounded experiences.', 'route' => route('regions.index', ['region' => 'west-africa'])],
+    ];
+
     $journeySteps = [
         ['title' => 'Choose a region', 'copy' => 'Start with East Africa if you want the most intuitive first safari planning path.'],
         ['title' => 'Compare countries', 'copy' => 'Move from regional inspiration into Uganda, Kenya, Tanzania, or Rwanda depending on your goals.'],
@@ -99,6 +106,29 @@
                         <span class="region-showcase-cta">Open {{ $country['name'] }} guides →</span>
                     </div>
                 </a>
+            @endforeach
+        </div>
+    </div>
+</section>
+
+<section class="section-block">
+    <div class="container">
+        <div class="section-head reveal">
+            <p class="eyebrow">Regional Priorities</p>
+            <h2>The four strongest travel planning entry points on the site</h2>
+            <p>The website is organized to make the highest-demand regions easiest to understand first, while still leaving room to expand deeper across the continent.</p>
+        </div>
+
+        <div class="card-grid cards-2">
+            @foreach($regionalPriorities as $priority)
+                <article class="content-card reveal">
+                    <div class="content-card-body">
+                        <p class="meta">Travel planning priority</p>
+                        <h3>{{ $priority['name'] }}</h3>
+                        <p>{{ $priority['description'] }}</p>
+                        <a href="{{ $priority['route'] }}" class="btn-outline">Open {{ $priority['name'] }} <span class="btn-icon">→</span></a>
+                    </div>
+                </article>
             @endforeach
         </div>
     </div>

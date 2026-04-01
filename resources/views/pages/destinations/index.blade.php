@@ -9,7 +9,7 @@
         </ul>
         <p class="eyebrow">Destinations</p>
         <h1>Choose a destination only after the region and country fit makes sense</h1>
-        <p>Each destination is meant to open into a fuller guide with area brief, how to get there, activities, stays, dining, and affiliate partner pathways.</p>
+        <p>Each destination guide is built to answer the planning questions that matter before booking: what the place is really like, how to get there, what to do, where to stay, where to eat, and when it is worth the detour.</p>
     </div>
 </section>
 
@@ -17,8 +17,8 @@
     <div class="container">
         <div class="section-head reveal">
             <p class="eyebrow">Destination Directory</p>
-            <h2>Launch focus: Uganda, Kenya, Tanzania, and Rwanda</h2>
-            <p>East Africa is prioritized first because it offers the clearest starting point for the type of safari and adventure trips most travelers begin with.</p>
+            <h2>Launch focus: East Africa first, then the rest of the continent</h2>
+            <p>The strongest launch flow begins with Uganda, Kenya, Tanzania, and Rwanda, then expands into Southern Africa, North Africa, and West Africa so travelers can compare classic safari icons with cities, coastlines, desert routes, and cultural journeys.</p>
         </div>
 
         <form class="filter-bar reveal" method="GET" action="{{ route('destinations.index') }}">

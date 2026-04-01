@@ -9,7 +9,7 @@
         </ul>
         <p class="eyebrow">Local Experiences</p>
         <h1>Keep the human context close to the destination guide</h1>
-        <p>Experiences are now framed as the cultural and community layer of the site, helping travelers go beyond generic attraction lists.</p>
+        <p>These pages bring in the human layer of the trip, with hosted walks, food experiences, community visits, and slower moments that help the destination feel more complete.</p>
     </div>
 </section>
 
@@ -17,8 +17,8 @@
     <div class="container">
         <div class="section-head reveal">
             <p class="eyebrow">Experience Layer</p>
-            <h2>Community tours, hosted walks, and local encounters</h2>
-            <p>Use these to add local perspective and slower, more grounded moments into a safari or overland itinerary.</p>
+            <h2>Community tours, hosted walks, food trails, and local encounters</h2>
+            <p>Well-planned Africa trips are rarely just game drives. This section helps travelers find meaningful half-day and full-day experiences that fit naturally before, between, or after major safari legs.</p>
         </div>
 
         <form class="filter-bar reveal" method="GET" action="{{ route('experiences.index') }}">

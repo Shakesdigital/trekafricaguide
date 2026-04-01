@@ -15,6 +15,12 @@
 
 <section class="section-block">
     <div class="container">
+        <div class="section-head reveal">
+            <p class="eyebrow">Dining Directory</p>
+            <h2>Food helps travelers understand the destination better</h2>
+            <p>The best travel pages do more than list attractions. They show where a traveler might eat well, slow down, and get a more grounded sense of place.</p>
+        </div>
+
         <form class="filter-bar reveal" method="GET" action="{{ route('restaurants.index') }}">
             <input type="text" name="q" value="{{ $filters['q'] }}" placeholder="Search restaurant, cuisine, or country...">
             <select name="region">
@@ -58,13 +64,13 @@
                         <span class="card-badge price">{{ ucfirst($restaurant['price']) }}</span>
                     </div>
                     <div class="content-card-body">
-                        <p class="meta">{{ ucwords(str_replace('-', ' ', $restaurant['region'])) }} • {{ $restaurant['cuisine'] }}</p>
+                        <p class="meta">{{ ucwords(str_replace('-', ' ', $restaurant['region'])) }} � {{ $restaurant['cuisine'] }}</p>
                         <h3>{{ $restaurant['name'] }}</h3>
                         <p>{{ $restaurant['summary'] }}</p>
                         <div class="pill-row">
                             <span>{{ $restaurant['signature'] }}</span>
                         </div>
-                        <a href="{{ route('destinations.show', $restaurant['destination_slug']) }}" class="btn-outline">Open destination page <span class="btn-icon">→</span></a>
+                        <a href="{{ route('destinations.show', $restaurant['destination_slug']) }}" class="btn-outline">Open destination page <span class="btn-icon">?</span></a>
                     </div>
                 </article>
             @empty
