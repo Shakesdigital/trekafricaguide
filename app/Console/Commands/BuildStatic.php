@@ -48,6 +48,7 @@ class BuildStatic extends Command
             '/destinations'       => 'destinations/index.html',
             '/safaris-tours'      => 'safaris-tours/index.html',
             '/accommodations'     => 'accommodations/index.html',
+            '/restaurants'        => 'restaurants/index.html',
             '/travel-guides'      => 'travel-guides/index.html',
             '/local-experiences'  => 'local-experiences/index.html',
             '/about'              => 'about/index.html',
@@ -111,6 +112,7 @@ class BuildStatic extends Command
         $redirects = <<<'REDIRECTS'
 # Netlify redirects for clean URL routing
 /safaris-tours      /safaris-tours/index.html   200
+/restaurants        /restaurants/index.html     200
 /travel-guides      /travel-guides/index.html   200
 /local-experiences  /local-experiences/index.html 200
 

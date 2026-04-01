@@ -1,12 +1,9 @@
-﻿
-
-
 ﻿<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Local Experiences | Trek Africa Guide</title>
+    <title>Restaurants | Trek Africa Guide</title>
     <meta name="description" content="Trek Africa Guide helps travelers discover destinations, tours, stays, restaurants, and practical travel insight across Africa.">
     <meta name="theme-color" content="#13342b">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -44,9 +41,9 @@
                                             <a href="/destinations" class="">Destinations</a>
                                             <a href="/safaris-tours" class="">Safaris &amp; Tours</a>
                                             <a href="/accommodations" class="">Stays</a>
-                                            <a href="/restaurants" class="">Eat &amp; Drink</a>
+                                            <a href="/restaurants" class="active">Eat &amp; Drink</a>
                                             <a href="/travel-guides" class="">Travel Guides</a>
-                                            <a href="/local-experiences" class="active">Experiences</a>
+                                            <a href="/local-experiences" class="">Experiences</a>
                                             <a href="/about" class="">About</a>
                                             <a href="/contact" class="">Contact</a>
                                     </nav>
@@ -97,28 +94,22 @@
         </header>
 
         <main>
-            <section class="page-hero" style="--hero-image:url('https://images.unsplash.com/photo-1509099836639-18ba1795216d?auto=format&fit=crop&w=1800&q=80');">
+            <section class="page-hero" style="--hero-image:url('https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&w=1800&q=80');">
     <div class="container reveal">
         <ul class="breadcrumb">
             <li><a href="/">Home</a></li>
-            <li><span class="current">Local Experiences</span></li>
+            <li><span class="current">Eat & Drink</span></li>
         </ul>
-        <p class="eyebrow">Local Experiences</p>
-        <h1>Keep the human context close to the destination guide</h1>
-        <p>Experiences are now framed as the cultural and community layer of the site, helping travelers go beyond generic attraction lists.</p>
+        <p class="eyebrow">Restaurants & Dining</p>
+        <h1>Find dining that adds context to the trip, not just a meal stop</h1>
+        <p>Use destination-aware dining recommendations to help travelers understand local food culture, lodge dining, and practical places to eat between activities.</p>
     </div>
 </section>
 
 <section class="section-block">
     <div class="container">
-        <div class="section-head reveal">
-            <p class="eyebrow">Experience Layer</p>
-            <h2>Community tours, hosted walks, and local encounters</h2>
-            <p>Use these to add local perspective and slower, more grounded moments into a safari or overland itinerary.</p>
-        </div>
-
-        <form class="filter-bar reveal" method="GET" action="/local-experiences">
-            <input type="text" name="q" value="" placeholder="Search host, experience, or style…">
+        <form class="filter-bar reveal" method="GET" action="/restaurants">
+            <input type="text" name="q" value="" placeholder="Search restaurant, cuisine, or country...">
             <select name="region">
                 <option value="">All regions</option>
                                     <option value="east-africa" >East Africa</option>
@@ -154,16 +145,6 @@
                                     <option value="midrange" >Midrange</option>
                                     <option value="luxury" >Luxury</option>
                             </select>
-            <select name="safari_type">
-                <option value="">Any type</option>
-                                    <option value="game-drive" >Game Drive</option>
-                                    <option value="water-safari" >Water Safari</option>
-                                    <option value="desert" >Desert</option>
-                                    <option value="trekking" >Trekking</option>
-                                    <option value="adventure" >Adventure</option>
-                                    <option value="community" >Community</option>
-                                    <option value="cultural" >Cultural</option>
-                            </select>
             <select name="travel_style">
                 <option value="">Any travel style</option>
                                     <option value="wildlife" >Wildlife</option>
@@ -178,132 +159,236 @@
                                     <option value="food" >Food</option>
                             </select>
             <button type="submit">Apply</button>
-            <a href="/local-experiences" class="btn-clear">Reset</a>
+            <a href="/restaurants" class="btn-clear">Reset</a>
         </form>
 
         <div class="results-count reveal">
-            <strong>6</strong> experiences available
+            <strong>14</strong> dining listings available
         </div>
 
         <div class="card-grid cards-3">
                             <article class="content-card reveal">
                     <div class="card-image-wrap">
-                        <img src="https://images.unsplash.com/photo-1509099836639-18ba1795216d?auto=format&amp;fit=crop&amp;w=900&amp;q=80" alt="Maasai Storytelling Evening">
-                        <span class="card-badge">Community Tour</span>
+                        <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&amp;fit=crop&amp;w=900&amp;q=80" alt="Mara Fireside Table">
+                        <span class="card-badge">Kenya</span>
                         <span class="card-badge price">Midrange</span>
                     </div>
                     <div class="content-card-body">
-                        <p class="meta">East Africa • Kenya</p>
-                        <h3>Maasai Storytelling Evening</h3>
-                        <p>An elder-led evening around the fire sharing oral histories and music.</p>
+                        <p class="meta">East Africa • Kenyan grill and farm-to-table</p>
+                        <h3>Mara Fireside Table</h3>
+                        <p>Bush-facing dining with nyama choma, seasonal greens, and sundowner service after game drives.</p>
                         <div class="pill-row">
-                            <span>Community</span>
+                            <span>Sunset tasting menu</span>
                         </div>
-                        <p class="host-line">Hosted by Naserian Community Guides</p>
-                        <div class="quick-links">
-                            <a href="/destinations?country=Kenya">See destination context</a>
-                            <a href="{{travelpayouts-link}}" target="_blank" rel="noopener">Open partner path</a>
-                        </div>
+                        <a href="/destinations/maasai-mara" class="btn-outline">Open destination page <span class="btn-icon">→</span></a>
                     </div>
                 </article>
                             <article class="content-card reveal">
                     <div class="card-image-wrap">
-                        <img src="https://images.unsplash.com/photo-1508672019048-805c876b67e2?auto=format&amp;fit=crop&amp;w=900&amp;q=80" alt="Murchison Delta Boat Experience">
-                        <span class="card-badge">Boat Cruise</span>
+                        <img src="https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&amp;fit=crop&amp;w=900&amp;q=80" alt="Nile Deck Kitchen">
+                        <span class="card-badge">Uganda</span>
                         <span class="card-badge price">Midrange</span>
                     </div>
                     <div class="content-card-body">
-                        <p class="meta">East Africa • Uganda</p>
-                        <h3>Murchison Delta Boat Experience</h3>
-                        <p>Boat-based wildlife viewing focused on birdlife, hippos, crocodiles, and river-edge game.</p>
+                        <p class="meta">East Africa • Ugandan regional and grill</p>
+                        <h3>Nile Deck Kitchen</h3>
+                        <p>Relaxed lodge dining near the river with grilled tilapia, matoke, and sunset views after the falls cruise.</p>
                         <div class="pill-row">
-                            <span>Wildlife</span>
+                            <span>Nile tilapia supper</span>
                         </div>
-                        <p class="host-line">Hosted by Nile Delta Ranger Guides</p>
-                        <div class="quick-links">
-                            <a href="/destinations?country=Uganda">See destination context</a>
-                            <a href="{{travelpayouts-link}}" target="_blank" rel="noopener">Open partner path</a>
-                        </div>
+                        <a href="/destinations/murchison-falls-national-park" class="btn-outline">Open destination page <span class="btn-icon">→</span></a>
                     </div>
                 </article>
                             <article class="content-card reveal">
                     <div class="card-image-wrap">
-                        <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&amp;fit=crop&amp;w=900&amp;q=80" alt="Bwindi Community Forest Walk">
-                        <span class="card-badge">Guided Walk</span>
+                        <img src="https://images.unsplash.com/photo-1466978913421-dad2ebd01d17?auto=format&amp;fit=crop&amp;w=900&amp;q=80" alt="Bwindi Forest Table">
+                        <span class="card-badge">Uganda</span>
                         <span class="card-badge price">Midrange</span>
                     </div>
                     <div class="content-card-body">
-                        <p class="meta">East Africa • Uganda</p>
-                        <h3>Bwindi Community Forest Walk</h3>
-                        <p>A slower-paced community walk pairing forest edge scenery with storytelling and local crafts.</p>
+                        <p class="meta">East Africa • Farm-to-lodge cuisine</p>
+                        <h3>Bwindi Forest Table</h3>
+                        <p>A quiet forest-edge dining room serving produce-driven menus built for trekkers returning from the hills.</p>
                         <div class="pill-row">
-                            <span>Community</span>
+                            <span>Trek recovery lunch</span>
                         </div>
-                        <p class="host-line">Hosted by Bwindi Community Hosts</p>
-                        <div class="quick-links">
-                            <a href="/destinations?country=Uganda">See destination context</a>
-                            <a href="{{travelpayouts-link}}" target="_blank" rel="noopener">Open partner path</a>
-                        </div>
+                        <a href="/destinations/bwindi-impenetrable-national-park" class="btn-outline">Open destination page <span class="btn-icon">→</span></a>
                     </div>
                 </article>
                             <article class="content-card reveal">
                     <div class="card-image-wrap">
-                        <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&amp;fit=crop&amp;w=900&amp;q=80" alt="Sahara Desert Family Camp">
-                        <span class="card-badge">Homestay</span>
+                        <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&amp;fit=crop&amp;w=900&amp;q=80" alt="Kilimanjaro View Grill">
+                        <span class="card-badge">Kenya</span>
+                        <span class="card-badge price">Midrange</span>
+                    </div>
+                    <div class="content-card-body">
+                        <p class="meta">East Africa • Kenyan lodge dining</p>
+                        <h3>Kilimanjaro View Grill</h3>
+                        <p>Open-air dinners with Kilimanjaro views, slow breakfasts, and a strong base for family safari evenings.</p>
+                        <div class="pill-row">
+                            <span>Bush breakfast with mountain view</span>
+                        </div>
+                        <a href="/destinations/amboseli-national-park" class="btn-outline">Open destination page <span class="btn-icon">→</span></a>
+                    </div>
+                </article>
+                            <article class="content-card reveal">
+                    <div class="card-image-wrap">
+                        <img src="https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&amp;fit=crop&amp;w=900&amp;q=80" alt="Stone Town Rooftop Kitchen">
+                        <span class="card-badge">Tanzania</span>
+                        <span class="card-badge price">Midrange</span>
+                    </div>
+                    <div class="content-card-body">
+                        <p class="meta">East Africa • Swahili seafood and spice-forward plates</p>
+                        <h3>Stone Town Rooftop Kitchen</h3>
+                        <p>A relaxed Stone Town rooftop for seafood, spice-rich curries, and sunset views over old coral-stone rooftops.</p>
+                        <div class="pill-row">
+                            <span>Spice market seafood platter</span>
+                        </div>
+                        <a href="/destinations/zanzibar" class="btn-outline">Open destination page <span class="btn-icon">→</span></a>
+                    </div>
+                </article>
+                            <article class="content-card reveal">
+                    <div class="card-image-wrap">
+                        <img src="https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&amp;fit=crop&amp;w=900&amp;q=80" alt="Serengeti Salt Kitchen">
+                        <span class="card-badge">Tanzania</span>
+                        <span class="card-badge price">Midrange</span>
+                    </div>
+                    <div class="content-card-body">
+                        <p class="meta">East Africa • East African comfort food</p>
+                        <h3>Serengeti Salt Kitchen</h3>
+                        <p>Relaxed lodge restaurant known for fresh tilapia, chapati breakfasts, and easy family dinners between drives.</p>
+                        <div class="pill-row">
+                            <span>Swahili breakfast board</span>
+                        </div>
+                        <a href="/destinations/serengeti-national-park" class="btn-outline">Open destination page <span class="btn-icon">→</span></a>
+                    </div>
+                </article>
+                            <article class="content-card reveal">
+                    <div class="card-image-wrap">
+                        <img src="https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&amp;fit=crop&amp;w=900&amp;q=80" alt="Cape Quarter Pantry">
+                        <span class="card-badge">South Africa</span>
+                        <span class="card-badge price">Midrange</span>
+                    </div>
+                    <div class="content-card-body">
+                        <p class="meta">Southern Africa • Cape Malay and modern South African</p>
+                        <h3>Cape Quarter Pantry</h3>
+                        <p>A design-forward city stop for spice-rich plates, natural wine, and neighborhood storytelling.</p>
+                        <div class="pill-row">
+                            <span>Cape Malay tasting supper</span>
+                        </div>
+                        <a href="/destinations/cape-town" class="btn-outline">Open destination page <span class="btn-icon">→</span></a>
+                    </div>
+                </article>
+                            <article class="content-card reveal">
+                    <div class="card-image-wrap">
+                        <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&amp;fit=crop&amp;w=900&amp;q=80" alt="Falls Market Kitchen">
+                        <span class="card-badge">Zimbabwe</span>
+                        <span class="card-badge price">Midrange</span>
+                    </div>
+                    <div class="content-card-body">
+                        <p class="meta">Southern Africa • Regional plates and riverside cocktails</p>
+                        <h3>Falls Market Kitchen</h3>
+                        <p>A lively pre- or post-activity stop for grilled fish, local produce, and Zambezi sundowners.</p>
+                        <div class="pill-row">
+                            <span>Zambezi sunset dinner</span>
+                        </div>
+                        <a href="/destinations/victoria-falls" class="btn-outline">Open destination page <span class="btn-icon">→</span></a>
+                    </div>
+                </article>
+                            <article class="content-card reveal">
+                    <div class="card-image-wrap">
+                        <img src="https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&amp;fit=crop&amp;w=900&amp;q=80" alt="Desert Lantern Supper Club">
+                        <span class="card-badge">Morocco</span>
                         <span class="card-badge price">Budget</span>
                     </div>
                     <div class="content-card-body">
-                        <p class="meta">North Africa • Morocco</p>
-                        <h3>Sahara Desert Family Camp</h3>
-                        <p>Overnight camp hosted by a Berber family with local cuisine.</p>
+                        <p class="meta">North Africa • Berber home-style cooking</p>
+                        <h3>Desert Lantern Supper Club</h3>
+                        <p>Campfire dinners with tagines, mint tea, and live drumming under a clear desert sky.</p>
                         <div class="pill-row">
-                            <span>Adventure</span>
+                            <span>Tagine under the stars</span>
                         </div>
-                        <p class="host-line">Hosted by Ait Ouzina Desert Hosts</p>
-                        <div class="quick-links">
-                            <a href="/destinations?country=Morocco">See destination context</a>
-                            <a href="{{travelpayouts-link}}" target="_blank" rel="noopener">Open partner path</a>
-                        </div>
+                        <a href="/destinations/sahara-dunes" class="btn-outline">Open destination page <span class="btn-icon">→</span></a>
                     </div>
                 </article>
                             <article class="content-card reveal">
                     <div class="card-image-wrap">
-                        <img src="https://images.unsplash.com/photo-1496417263034-38ec4f0b665a?auto=format&amp;fit=crop&amp;w=900&amp;q=80" alt="Cape Malay Culinary Walk">
-                        <span class="card-badge">Guided Walk</span>
+                        <img src="https://images.unsplash.com/photo-1466978913421-dad2ebd01d17?auto=format&amp;fit=crop&amp;w=900&amp;q=80" alt="Volcanoes Harvest Room">
+                        <span class="card-badge">Rwanda</span>
+                        <span class="card-badge price">Luxury</span>
+                    </div>
+                    <div class="content-card-body">
+                        <p class="meta">Central Africa • Rwandan produce-led dining</p>
+                        <h3>Volcanoes Harvest Room</h3>
+                        <p>Elegant post-trek dinners focused on seasonal vegetables, coffee, and mountain views.</p>
+                        <div class="pill-row">
+                            <span>Chef-led gorilla trek recovery menu</span>
+                        </div>
+                        <a href="/destinations/volcanoes-national-park" class="btn-outline">Open destination page <span class="btn-icon">→</span></a>
+                    </div>
+                </article>
+                            <article class="content-card reveal">
+                    <div class="card-image-wrap">
+                        <img src="https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&amp;fit=crop&amp;w=900&amp;q=80" alt="Namib Ember Table">
+                        <span class="card-badge">Namibia</span>
+                        <span class="card-badge price">Luxury</span>
+                    </div>
+                    <div class="content-card-body">
+                        <p class="meta">Southern Africa • Desert lodge dining</p>
+                        <h3>Namib Ember Table</h3>
+                        <p>A lodge dining room built around sunset dinners, stargazing pauses, and slow Namib evenings.</p>
+                        <div class="pill-row">
+                            <span>Desert dusk tasting dinner</span>
+                        </div>
+                        <a href="/destinations/namib-desert" class="btn-outline">Open destination page <span class="btn-icon">→</span></a>
+                    </div>
+                </article>
+                            <article class="content-card reveal">
+                    <div class="card-image-wrap">
+                        <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&amp;fit=crop&amp;w=900&amp;q=80" alt="Pyramids Lantern Dining Room">
+                        <span class="card-badge">Egypt</span>
                         <span class="card-badge price">Midrange</span>
                     </div>
                     <div class="content-card-body">
-                        <p class="meta">Southern Africa • South Africa</p>
-                        <h3>Cape Malay Culinary Walk</h3>
-                        <p>Neighborhood food walk with heritage stories and local kitchens.</p>
+                        <p class="meta">North Africa • Egyptian classics and terrace dining</p>
+                        <h3>Pyramids Lantern Dining Room</h3>
+                        <p>A practical Cairo-Giza dining stop for travelers who want local classics and evening pyramid views.</p>
                         <div class="pill-row">
-                            <span>Food</span>
+                            <span>Cairo mezze supper</span>
                         </div>
-                        <p class="host-line">Hosted by Bo-Kaap Local Collective</p>
-                        <div class="quick-links">
-                            <a href="/destinations?country=South%20Africa">See destination context</a>
-                            <a href="{{travelpayouts-link}}" target="_blank" rel="noopener">Open partner path</a>
-                        </div>
+                        <a href="/destinations/cairo-and-giza" class="btn-outline">Open destination page <span class="btn-icon">→</span></a>
                     </div>
                 </article>
                             <article class="content-card reveal">
                     <div class="card-image-wrap">
-                        <img src="https://images.unsplash.com/photo-1493558103817-58b2924bce98?auto=format&amp;fit=crop&amp;w=900&amp;q=80" alt="Sine-Saloum Mangrove Homestay">
-                        <span class="card-badge">Homestay</span>
-                        <span class="card-badge price">Budget</span>
+                        <img src="https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&amp;fit=crop&amp;w=900&amp;q=80" alt="Marrakech Courtyard Table">
+                        <span class="card-badge">Morocco</span>
+                        <span class="card-badge price">Midrange</span>
                     </div>
                     <div class="content-card-body">
-                        <p class="meta">West Africa • Senegal</p>
-                        <h3>Sine-Saloum Mangrove Homestay</h3>
-                        <p>Community homestay with canoeing, drumming, and mangrove restoration.</p>
+                        <p class="meta">North Africa • Moroccan riad dining</p>
+                        <h3>Marrakech Courtyard Table</h3>
+                        <p>An atmospheric courtyard dining room for tagines, salads, mint tea, and slower evenings after medina walking.</p>
                         <div class="pill-row">
-                            <span>Slow Travel</span>
+                            <span>Classic riad dinner</span>
                         </div>
-                        <p class="host-line">Hosted by Djiffer Women Cooperative</p>
-                        <div class="quick-links">
-                            <a href="/destinations?country=Senegal">See destination context</a>
-                            <a href="{{travelpayouts-link}}" target="_blank" rel="noopener">Open partner path</a>
+                        <a href="/destinations/marrakech-and-atlas" class="btn-outline">Open destination page <span class="btn-icon">→</span></a>
+                    </div>
+                </article>
+                            <article class="content-card reveal">
+                    <div class="card-image-wrap">
+                        <img src="https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&amp;fit=crop&amp;w=900&amp;q=80" alt="Cape Coast Verandah Kitchen">
+                        <span class="card-badge">Ghana</span>
+                        <span class="card-badge price">Midrange</span>
+                    </div>
+                    <div class="content-card-body">
+                        <p class="meta">West Africa • Ghanaian coastal cuisine</p>
+                        <h3>Cape Coast Verandah Kitchen</h3>
+                        <p>A relaxed coastal dining stop built around fish, stews, and easy evenings after heritage touring.</p>
+                        <div class="pill-row">
+                            <span>Coastal fish supper</span>
                         </div>
+                        <a href="/destinations/cape-coast-and-kakum" class="btn-outline">Open destination page <span class="btn-icon">→</span></a>
                     </div>
                 </article>
                     </div>

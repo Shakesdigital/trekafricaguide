@@ -1,5 +1,6 @@
 # Netlify redirects for clean URL routing
 /safaris-tours      /safaris-tours/index.html   200
+/restaurants        /restaurants/index.html     200
 /travel-guides      /travel-guides/index.html   200
 /local-experiences  /local-experiences/index.html 200
 
