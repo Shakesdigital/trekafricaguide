@@ -165,17 +165,11 @@ p {
     opacity: 0.8;
 }
 
-.logo-knot {
-    width: 2.6rem;
-    height: 2.6rem;
-    border-radius: 0.75rem;
-    background: linear-gradient(140deg, var(--deep-green), var(--deep-green-light));
-    color: #fff;
-    font-weight: 800;
-    font-size: 0.85rem;
-    display: grid;
-    place-items: center;
-    box-shadow: 0 2px 8px rgba(40, 73, 50, 0.3);
+.logo-image {
+    width: 3.25rem;
+    height: 3.25rem;
+    object-fit: contain;
+    flex-shrink: 0;
 }
 
 .logo-mark strong {
@@ -1181,6 +1175,27 @@ p {
 .footer-grid h3 {
     margin: 0 0 0.6rem;
     font-size: 1.1rem;
+}
+
+.footer-brand {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.8rem;
+    margin-bottom: 0.7rem;
+}
+
+.footer-brand-image {
+    width: 3.2rem;
+    height: 3.2rem;
+    object-fit: contain;
+    flex-shrink: 0;
+}
+
+.footer-brand span {
+    font-family: 'Instrument Serif', Georgia, serif;
+    font-size: 1.4rem;
+    line-height: 1;
+    letter-spacing: -0.02em;
 }
 
 .footer-grid h4 {

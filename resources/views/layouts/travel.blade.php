@@ -6,6 +6,9 @@
     <title>{{ $title ? $title . ' | Trek Africa Guide' : 'Trek Africa Guide — Safari & Travel Directory' }}</title>
     <meta name="description" content="{{ $metaDescription ?? 'Trek Africa Guide helps travelers discover destinations, tours, stays, restaurants, and practical travel insight across Africa.' }}">
     <meta name="theme-color" content="#13342b">
+    <link rel="icon" type="image/png" href="{{ asset('logo to edit.png') }}">
+    <link rel="shortcut icon" href="{{ asset('logo to edit.png') }}">
+    <link rel="apple-touch-icon" href="{{ asset('logo to edit.png') }}">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
@@ -25,7 +28,7 @@
         <header class="site-header">
             <div class="container nav-wrap">
                 <a href="{{ route('home') }}" class="logo-mark">
-                    <span class="logo-knot" aria-hidden="true">TA</span>
+                    <img src="{{ asset('logo to edit.png') }}" alt="Trek Africa Guide logo" class="logo-image">
                     <span>
                         <strong>Trek Africa Guide</strong>
                         <small>Africa travel guide and booking directory</small>
@@ -56,7 +59,10 @@
         <footer class="site-footer">
             <div class="container footer-grid">
                 <div>
-                    <h3>Trek Africa Guide</h3>
+                    <a href="{{ route('home') }}" class="footer-brand">
+                        <img src="{{ asset('logo to edit.png') }}" alt="Trek Africa Guide logo" class="footer-brand-image">
+                        <span>Trek Africa Guide</span>
+                    </a>
                     <p class="footer-tagline">A minimalist but comprehensive Africa travel directory built to help travelers discover where to go, what to do, where to stay, and where to eat before they book with verified partners.</p>
                     <div class="footer-socials">
                         <a href="#" aria-label="Facebook">f</a>
