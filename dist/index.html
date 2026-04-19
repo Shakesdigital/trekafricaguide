@@ -1,550 +1,493 @@
-﻿
-
-
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Home | Trek Africa Guide</title>
-    <meta name="description" content="Trek Africa Guide helps travelers discover destinations, tours, stays, restaurants, and practical travel insight across Africa.">
-    <meta name="theme-color" content="#13342b">
+        <meta name="description" content="Plan Africa travel by region and country, compare attractions, stays, and restaurants, then continue booking with trusted external partners.">
     <link rel="icon" type="image/png" href="/logo to edit.png">
-    <link rel="shortcut icon" href="/logo to edit.png">
-    <link rel="apple-touch-icon" href="/logo to edit.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
-    <link rel="preload" as="style" href="/build/assets/app-CyukF2Hz.css" /><link rel="modulepreload" as="script" href="/build/assets/app-BZasrUt3.js" /><link rel="stylesheet" href="/build/assets/app-CyukF2Hz.css" /><script type="module" src="/build/assets/app-BZasrUt3.js"></script></head>
+    <style>
+        :root {
+            --brand-primary: #284932;
+            --brand-secondary: #c56b3d;
+            --brand-accent: #c5b580;
+        }
+    </style>
+    <link rel="preload" as="style" href="/build/assets/app-C_yX-jMU.css" /><link rel="modulepreload" as="script" href="/build/assets/app-BuAtFdjb.js" /><link rel="stylesheet" href="/build/assets/app-C_yX-jMU.css" /><script type="module" src="/build/assets/app-BuAtFdjb.js"></script></head>
 <body>
-    <div class="scroll-progress" aria-hidden="true"></div>
-
-    <div class="site-shell">
-        <div class="site-topbar">
-            <div class="container site-topbar-inner">
-                <p>Travel directory, editorial guidance, and affiliate booking pathways for African adventures.</p>
-                <span>Compare first, then book on trusted partner landing pages.</span>
-            </div>
+    <div class="site-topline">
+        <div class="container site-topline__inner">
+            <span>African travel guide and booking directory for regions, countries, attractions, stays, dining, and trusted partner booking paths.</span>
+            <span>Directory-first planning with partner booking links for Africa travel.</span>
         </div>
+    </div>
 
-        <header class="site-header">
-            <div class="container nav-wrap">
-                <a href="/" class="logo-mark">
-                    <img src="/logo to edit.png" alt="Trek Africa Guide logo" class="logo-image">
-                    <span>
-                        <strong>Trek Africa Guide</strong>
-                        <small>Africa travel guide and booking directory</small>
-                    </span>
-                </a>
+    <header class="site-header">
+        <div class="container site-header__inner">
+            <a href="/" class="brand">
+                <img src="/logo to edit.png" alt="Trek Africa Guide logo">
+                <span>
+                    <strong>Trek Africa Guide</strong>
+                    <small>African travel guide and booking directory</small>
+                </span>
+            </a>
 
-                <button type="button" class="menu-toggle" data-nav-toggle aria-label="Toggle navigation">
-                    <span></span><span></span><span></span>
-                </button>
+            <button class="menu-toggle" type="button" data-nav-toggle aria-label="Toggle navigation">
+                <span></span><span></span><span></span>
+            </button>
 
-                <nav class="primary-nav" data-nav-menu>
-                                            <a href="/" class="active">Home</a>
-                                            <a href="/safaris-tours" class="">Safaris &amp; Tours</a>
-                                            <a href="/accommodations" class="">Stays</a>
-                                            <a href="/restaurants" class="">Eat&amp;Drink</a>
-                                            <a href="/destinations" class="">Destinations</a>
-                                            <a href="/travel-guides" class="">Travel Guides</a>
-                                    </nav>
-            </div>
-            <datalist id="global-search-suggestions">
-                                    <option value="Amboseli National Park"></option>
-                                    <option value="Bwindi Impenetrable National Park"></option>
-                                    <option value="Cairo &amp; Giza"></option>
-                                    <option value="Cape Coast &amp; Kakum"></option>
-                                    <option value="Cape Town"></option>
-                                    <option value="Kruger National Park"></option>
-                                    <option value="Maasai Mara"></option>
-                                    <option value="Marrakech &amp; Atlas Gateway"></option>
-                                    <option value="Murchison Falls National Park"></option>
-                                    <option value="Namib Desert"></option>
-                                    <option value="Okavango Delta"></option>
-                                    <option value="Sahara Dunes"></option>
-                                    <option value="Serengeti National Park"></option>
-                                    <option value="Sine-Saloum Delta"></option>
-                                    <option value="Victoria Falls"></option>
-                                    <option value="Volcanoes National Park"></option>
-                                    <option value="Zanzibar"></option>
-                                    <option value="Botswana"></option>
-                                    <option value="Cameroon"></option>
-                                    <option value="DR Congo"></option>
-                                    <option value="Egypt"></option>
-                                    <option value="Gabon"></option>
-                                    <option value="Ghana"></option>
-                                    <option value="Kenya"></option>
-                                    <option value="Morocco"></option>
-                                    <option value="Namibia"></option>
-                                    <option value="Nigeria"></option>
-                                    <option value="Rwanda"></option>
-                                    <option value="Senegal"></option>
-                                    <option value="Sierra Leone"></option>
-                                    <option value="South Africa"></option>
-                                    <option value="Tanzania"></option>
-                                    <option value="Tunisia"></option>
-                                    <option value="Uganda"></option>
-                                    <option value="Zimbabwe"></option>
-                            </datalist>
-        </header>
+            <nav class="site-nav" data-nav-menu>
+                                    <a href="/" class="is-active">Home</a>
+                                    <a href="/regions" class="">Regions</a>
+                                    <a href="/countries" class="">Countries</a>
+                                    <a href="/attractions" class="">Attractions</a>
+                                    <a href="/accommodations" class="">Accommodations</a>
+                                    <a href="/restaurants" class="">Restaurants</a>
+                                                    <a href="/admin/login" class="">Admin Login</a>
+                            </nav>
+        </div>
+    </header>
 
-        <main>
-            
-<section class="hero-section hero-section--minimal" style="--hero-image:url('https://images.unsplash.com/photo-1516426122078-c23e76319801?auto=format&fit=crop&w=1800&q=80');">
-    <div class="hero-overlay"></div>
-    <div class="container hero-content reveal">
-        <p class="eyebrow">Africa Travel Guide</p>
-        <h1>Discover Africa one region, country, and destination at a time.</h1>
-        <p class="tagline">Trek Africa Guide is evolving into a Supabase-powered travel CMS and directory designed around how travelers really plan: start broad, compare countries, open a destination, then explore what to do, where to stay, where to eat, and where to book.</p>
-
-        <form action="/destinations" method="GET" class="hero-search hero-search--wide">
-            <label class="sr-only" for="hero-search">Search destinations, countries, or parks</label>
-            <input id="hero-search" name="q" list="global-search-suggestions" placeholder="Search Murchison Falls, Maasai Mara, Uganda, Kenya..." required>
-            <select name="region" class="hero-region-select">
-                <option value="">All regions</option>
-                                    <option value="east-africa">East Africa</option>
-                                    <option value="southern-africa">Southern Africa</option>
-                                    <option value="north-africa">North Africa</option>
-                                    <option value="west-africa">West Africa</option>
-                                    <option value="central-africa">Central Africa</option>
-                            </select>
-            <button type="submit">Start exploring</button>
-        </form>
-
-        <div class="page-stats">
-            <div class="page-stat">
-                <strong>5</strong>
-                <span>Regions</span>
-            </div>
-            <div class="page-stat">
-                <strong>4</strong>
-                <span>Launch countries</span>
-            </div>
-            <div class="page-stat">
-                <strong>12</strong>
-                <span>Seeded listings</span>
-            </div>
-            <div class="page-stat">
-                <strong>3</strong>
-                <span>Partner channels</span>
-            </div>
+    <main>
+        
+<section class="hero" style="--hero-image:url('https://images.unsplash.com/photo-1516426122078-c23e76319801?auto=format&amp;fit=crop&amp;w=1800&amp;q=80')">
+    <div class="hero__overlay"></div>
+    <div class="container hero__content">
+        <p class="eyebrow">Discover Africa</p>
+        <h1>Explore Africa through regions first, then book with confidence.</h1>
+        <p class="hero__lead">Trek Africa Guide helps travelers understand the shape of an Africa trip before they commit. Start with East, West, Southern, or Northern Africa, compare countries, open a destination, and then continue to trusted booking partners for tours, stays, and dining.</p>
+        <div class="hero__actions">
+            <a href="/regions" class="button">Explore Regions</a>
+            <a href="/attractions" class="button button--ghost-light">Browse Listings</a>
         </div>
     </div>
 </section>
 
-<section class="section-block">
-    <div class="container">
-        <div class="section-head reveal">
-            <p class="eyebrow">Planning Flow</p>
-            <h2>A simpler structure for a comprehensive travel directory</h2>
-            <p>The site now prioritizes East Africa as the launch path, then narrows from country to destination to practical planning details and affiliate booking calls to action.</p>
+<section class="section">
+    <div class="container two-column">
+        <div>
+            <p class="eyebrow">Africa in 2026</p>
+            <h2>A continent of different travel rhythms, not one single market.</h2>
+            <p>Africa is rebounding strongly, but travelers still need clear guidance. North Africa is aviation-led and culture-rich, East Africa remains the strongest safari-and-primate gateway, Southern Africa combines wilderness with polished urban circuits, and West Africa shines for heritage, coastlines, music, and diaspora travel.</p>
         </div>
-
-        <div class="card-grid cards-3">
-                            <article class="content-card reveal">
-                    <div class="content-card-body">
-                        <p class="meta">Step 1</p>
-                        <h3>Choose a region</h3>
-                        <p>Start with East Africa if you want the most intuitive first safari planning path.</p>
-                    </div>
-                </article>
-                            <article class="content-card reveal">
-                    <div class="content-card-body">
-                        <p class="meta">Step 2</p>
-                        <h3>Compare countries</h3>
-                        <p>Move from regional inspiration into Uganda, Kenya, Tanzania, or Rwanda depending on your goals.</p>
-                    </div>
-                </article>
-                            <article class="content-card reveal">
-                    <div class="content-card-body">
-                        <p class="meta">Step 3</p>
-                        <h3>Open a destination</h3>
-                        <p>See the area brief, how to get there, activities, stays, dining, and affiliate booking options in one place.</p>
-                    </div>
-                </article>
-                    </div>
+        <div class="info-panel">
+            <h3>How Trek Africa Guide works</h3>
+            <ul class="bullet-list">
+                <li>Start with a region and compare the countries that welcome visitors.</li>
+                <li>Open a country page to see attractions, tour operators, stays, and restaurants in one place.</li>
+                <li>Use listing pages styled like modern travel marketplaces, then continue to an external booking partner when ready.</li>
+            </ul>
+        </div>
     </div>
 </section>
 
-<section class="section-block patterned">
+<section class="section section--alt">
     <div class="container">
-        <div class="section-head reveal">
-            <p class="eyebrow">Launch Region</p>
-            <h2>Begin with East Africa</h2>
-            <p>East Africa is the strongest starting point for first-time safari planning and for travelers who want a mix of wildlife, culture, and accessible routing.</p>
+        <div class="section-heading">
+            <p class="eyebrow">Featured Regions</p>
+            <h2>The four major entry points for planning an Africa trip.</h2>
+            <p>Each region page leads into country-level guidance and then into bookable attractions, stays, and restaurants.</p>
         </div>
-
-        <div class="region-showcase reveal">
-                            <a href="/destinations?country=Uganda" class="region-showcase-card">
-                    <div class="region-showcase-overlay"></div>
-                    <div class="region-showcase-content">
-                        <span class="region-highlight-tag">Most visited</span>
-                        <h3>Uganda</h3>
-                        <p>For Murchison Falls, Bwindi gorilla trekking, chimp tracking, and classic overland value.</p>
-                        <span class="region-showcase-cta">Open Uganda guides →</span>
-                    </div>
-                </a>
-                            <a href="/destinations?country=Kenya" class="region-showcase-card">
-                    <div class="region-showcase-overlay"></div>
-                    <div class="region-showcase-content">
-                        <span class="region-highlight-tag">Most visited</span>
-                        <h3>Kenya</h3>
-                        <p>For first-time safaris, migration circuits, Amboseli elephants, and fast access from Nairobi.</p>
-                        <span class="region-showcase-cta">Open Kenya guides →</span>
-                    </div>
-                </a>
-                            <a href="/destinations?country=Tanzania" class="region-showcase-card">
-                    <div class="region-showcase-overlay"></div>
-                    <div class="region-showcase-content">
-                        <span class="region-highlight-tag">Most visited</span>
-                        <h3>Tanzania</h3>
-                        <p>For Serengeti scale, northern circuit drama, and strong safari-plus-beach combinations.</p>
-                        <span class="region-showcase-cta">Open Tanzania guides →</span>
-                    </div>
-                </a>
-                            <a href="/destinations?country=Rwanda" class="region-showcase-card">
-                    <div class="region-showcase-overlay"></div>
-                    <div class="region-showcase-content">
-                        <span class="region-highlight-tag">Most visited</span>
-                        <h3>Rwanda</h3>
-                        <p>For premium gorilla trekking, short country transfers, and polished conservation-led itineraries.</p>
-                        <span class="region-showcase-cta">Open Rwanda guides →</span>
-                    </div>
-                </a>
-                    </div>
-    </div>
-</section>
-
-<section class="section-block">
-    <div class="container">
-        <div class="section-head reveal">
-            <p class="eyebrow">Regional Priorities</p>
-            <h2>The four strongest travel planning entry points on the site</h2>
-            <p>The website is organized to make the highest-demand regions easiest to understand first, while still leaving room to expand deeper across the continent.</p>
-        </div>
-
-        <div class="card-grid cards-2">
-                            <article class="content-card reveal">
-                    <div class="content-card-body">
-                        <p class="meta">Travel planning priority</p>
+        <div class="region-grid">
+                            <a href="/regions/east-africa" class="region-card">
+                    <img src="https://images.unsplash.com/photo-1516426122078-c23e76319801?auto=format&amp;fit=crop&amp;w=1600&amp;q=80" alt="Safari jeeps watching wildlife in East Africa">
+                    <div class="region-card__content">
+                        <span> countries</span>
                         <h3>East Africa</h3>
-                        <p>Best starting point for classic safaris, gorilla trekking, and safari-plus-coast routes.</p>
-                        <a href="/regions?region=east-africa" class="btn-outline">Open East Africa <span class="btn-icon">→</span></a>
+                        <p>East Africa remains one of the continent’s highest-demand regions for safari, gorilla trekking, coast add-ons, and premium conservation travel. Kenya and Tanzania lead the classic plains circuits, while Uganda and Rwanda anchor primate-led journeys.</p>
                     </div>
-                </article>
-                            <article class="content-card reveal">
-                    <div class="content-card-body">
-                        <p class="meta">Travel planning priority</p>
-                        <h3>Southern Africa</h3>
-                        <p>Best for city-and-safari pairings, desert routes, self-drive logic, and strong lodge circuits.</p>
-                        <a href="/regions?region=southern-africa" class="btn-outline">Open Southern Africa <span class="btn-icon">→</span></a>
-                    </div>
-                </article>
-                            <article class="content-card reveal">
-                    <div class="content-card-body">
-                        <p class="meta">Travel planning priority</p>
-                        <h3>North Africa</h3>
-                        <p>Best for heritage cities, desert-edge journeys, architecture, and food-led urban travel.</p>
-                        <a href="/regions?region=north-africa" class="btn-outline">Open North Africa <span class="btn-icon">→</span></a>
-                    </div>
-                </article>
-                            <article class="content-card reveal">
-                    <div class="content-card-body">
-                        <p class="meta">Travel planning priority</p>
+                </a>
+                            <a href="/regions/west-africa" class="region-card">
+                    <img src="https://images.unsplash.com/photo-1598875706250-21faaf804361?auto=format&amp;fit=crop&amp;w=1600&amp;q=80" alt="Colorful fishing boats on a West African coast">
+                    <div class="region-card__content">
+                        <span> countries</span>
                         <h3>West Africa</h3>
-                        <p>Best for slower cultural travel, heritage coastlines, and community-grounded experiences.</p>
-                        <a href="/regions?region=west-africa" class="btn-outline">Open West Africa <span class="btn-icon">→</span></a>
+                        <p>West Africa is driven by heritage journeys, winter-sun escapes, coastal cities, and community-grounded experiences. Ghana and Senegal are the most polished starting points, while Benin, Sierra Leone, and Cabo Verde broaden the offer considerably.</p>
                     </div>
-                </article>
+                </a>
+                            <a href="/regions/southern-africa" class="region-card">
+                    <img src="https://images.unsplash.com/photo-1472396961693-142e6e269027?auto=format&amp;fit=crop&amp;w=1600&amp;q=80" alt="Elephants in a Southern African landscape">
+                    <div class="region-card__content">
+                        <span> countries</span>
+                        <h3>Southern Africa</h3>
+                        <p>Southern Africa is one of the continent’s most versatile travel regions. South Africa acts as the gateway, Botswana and Namibia deliver high-value wilderness and desert landscapes, and Zimbabwe and Zambia deepen the safari-and-Zambezi story.</p>
+                    </div>
+                </a>
+                            <a href="/regions/northern-africa" class="region-card">
+                    <img src="https://images.unsplash.com/photo-1506929562872-bb421503ef21?auto=format&amp;fit=crop&amp;w=1600&amp;q=80" alt="Desert camp and dunes in North Africa">
+                    <div class="region-card__content">
+                        <span> countries</span>
+                        <h3>Northern Africa</h3>
+                        <p>Northern Africa is Africa’s volume engine for tourism, driven by Morocco, Egypt, Tunisia, and a growing wave of renewed interest in Algeria. Travelers come for cities, heritage, desert camps, Mediterranean coastlines, and food-led travel.</p>
+                    </div>
+                </a>
                     </div>
     </div>
 </section>
 
-<section class="section-block" id="popular-destinations">
+<section class="section">
     <div class="container">
-        <div class="section-head reveal">
-            <p class="eyebrow">Launch Destinations</p>
-            <h2>Open destination pages with real planning context</h2>
-            <p>Each destination page is designed to lead with the essentials: what makes the place special, how to get there, what to do, where to stay, where to eat, and where to click when you are ready to book.</p>
+        <div class="section-heading">
+            <p class="eyebrow">Featured Attractions</p>
+            <h2>Open individual attraction pages built like a modern travel marketplace.</h2>
+            <p>Listing cards lead to full independent landing pages with galleries, planning notes, nearby stays, dining, and external booking buttons.</p>
+        </div>
+        <div class="listing-grid">
+                            <article class="listing-card">
+    <a href="/attractions/bwindi-impenetrable-national-park" class="listing-card__image">
+        <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&amp;fit=crop&amp;w=1600&amp;q=80" alt="Bwindi Impenetrable National Park">
+    </a>
+    <div class="listing-card__body">
+                    <p class="listing-card__eyebrow">Uganda</p>
+                <h3><a href="/attractions/bwindi-impenetrable-national-park">Bwindi Impenetrable National Park</a></h3>
+        <p>Mountain gorilla trekking in one of Africa’s most powerful forest landscapes.</p>
+        <div class="listing-card__meta">
+                            <span>★ 4.9 (842)</span>
+                                        <span>From $700</span>
+                    </div>
+        <div class="listing-card__footer">
+                            <div class="chip-row">
+                                            <span>Southwestern Uganda</span>
+                                    </div>
+                        <a href="/attractions/bwindi-impenetrable-national-park" class="button button--ghost">View Details</a>
         </div>
     </div>
-    <div class="destination-scroller reveal">
-        <div class="destination-scroller-track">
-                            <a href="/destinations/maasai-mara" class="destination-scroller-card">
-                    <img src="https://images.unsplash.com/photo-1547970810-dc1eac37d174?auto=format&amp;fit=crop&amp;w=1400&amp;q=80" alt="Maasai Mara">
-                    <div class="destination-scroller-overlay"></div>
-                    <div class="destination-scroller-info">
-                        <span class="destination-scroller-country">Kenya</span>
-                        <h3>Maasai Mara</h3>
+</article>
+                            <article class="listing-card">
+    <a href="/attractions/maasai-mara" class="listing-card__image">
+        <img src="https://images.unsplash.com/photo-1547970810-dc1eac37d174?auto=format&amp;fit=crop&amp;w=1600&amp;q=80" alt="Maasai Mara">
+    </a>
+    <div class="listing-card__body">
+                    <p class="listing-card__eyebrow">Kenya</p>
+                <h3><a href="/attractions/maasai-mara">Maasai Mara</a></h3>
+        <p>Kenya’s classic safari icon for migration drama, predators, and broad savannah horizons.</p>
+        <div class="listing-card__meta">
+                            <span>★ 4.9 (1,384)</span>
+                                        <span>From $95</span>
                     </div>
-                </a>
-                            <a href="/destinations/murchison-falls-national-park" class="destination-scroller-card">
-                    <img src="https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?auto=format&amp;fit=crop&amp;w=1400&amp;q=80" alt="Murchison Falls National Park">
-                    <div class="destination-scroller-overlay"></div>
-                    <div class="destination-scroller-info">
-                        <span class="destination-scroller-country">Uganda</span>
-                        <h3>Murchison Falls National Park</h3>
-                    </div>
-                </a>
-                            <a href="/destinations/bwindi-impenetrable-national-park" class="destination-scroller-card">
-                    <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&amp;fit=crop&amp;w=1400&amp;q=80" alt="Bwindi Impenetrable National Park">
-                    <div class="destination-scroller-overlay"></div>
-                    <div class="destination-scroller-info">
-                        <span class="destination-scroller-country">Uganda</span>
-                        <h3>Bwindi Impenetrable National Park</h3>
-                    </div>
-                </a>
-                            <a href="/destinations/amboseli-national-park" class="destination-scroller-card">
-                    <img src="https://images.unsplash.com/photo-1508672019048-805c876b67e2?auto=format&amp;fit=crop&amp;w=1400&amp;q=80" alt="Amboseli National Park">
-                    <div class="destination-scroller-overlay"></div>
-                    <div class="destination-scroller-info">
-                        <span class="destination-scroller-country">Kenya</span>
-                        <h3>Amboseli National Park</h3>
-                    </div>
-                </a>
-                            <a href="/destinations/zanzibar" class="destination-scroller-card">
-                    <img src="https://images.unsplash.com/photo-1519046904884-53103b34b206?auto=format&amp;fit=crop&amp;w=1400&amp;q=80" alt="Zanzibar">
-                    <div class="destination-scroller-overlay"></div>
-                    <div class="destination-scroller-info">
-                        <span class="destination-scroller-country">Tanzania</span>
-                        <h3>Zanzibar</h3>
-                    </div>
-                </a>
-                    </div>
-    </div>
-</section>
-
-<section class="section-block accent-block">
-    <div class="container">
-        <div class="section-head reveal">
-            <p class="eyebrow">Bookable Layers</p>
-            <h2>Compare tours, stays, and dining before leaving the site</h2>
-            <p>The content model now supports layered directory exploration rather than a single flat list of affiliate cards.</p>
+        <div class="listing-card__footer">
+                            <div class="chip-row">
+                                            <span>Southwestern Kenya</span>
+                                    </div>
+                        <a href="/attractions/maasai-mara" class="button button--ghost">View Details</a>
         </div>
-
-        <div class="card-grid cards-3">
-                            <article class="content-card reveal">
-                    <div class="card-image-wrap">
-                        <img src="https://images.unsplash.com/photo-1576485290814-1c72aa4bbb8e?auto=format&amp;fit=crop&amp;w=900&amp;q=80" alt="Great Migration Game Drive">
-                        <span class="card-badge">Game Drive</span>
+    </div>
+</article>
+                            <article class="listing-card">
+    <a href="/attractions/serengeti-national-park" class="listing-card__image">
+        <img src="https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?auto=format&amp;fit=crop&amp;w=1600&amp;q=80" alt="Serengeti National Park">
+    </a>
+    <div class="listing-card__body">
+                    <p class="listing-card__eyebrow">Tanzania</p>
+                <h3><a href="/attractions/serengeti-national-park">Serengeti National Park</a></h3>
+        <p>Vast migration landscapes, apex predators, and one of Africa’s strongest safari names.</p>
+        <div class="listing-card__meta">
+                            <span>★ 4.9 (1,196)</span>
+                                        <span>From $110</span>
                     </div>
-                    <div class="content-card-body">
-                        <p class="meta">Kenya • 5 days</p>
-                        <h3>Great Migration Game Drive</h3>
-                        <p>From $1,150 via TravelPayouts</p>
-                        <a href="{{travelpayouts-link}}" class="btn-primary" target="_blank" rel="noopener">View partner offer <span class="btn-icon">→</span></a>
+        <div class="listing-card__footer">
+                            <div class="chip-row">
+                                            <span>Northern Tanzania</span>
+                                    </div>
+                        <a href="/attractions/serengeti-national-park" class="button button--ghost">View Details</a>
+        </div>
+    </div>
+</article>
+                            <article class="listing-card">
+    <a href="/attractions/cape-town" class="listing-card__image">
+        <img src="https://images.unsplash.com/photo-1576485290814-1c72aa4bbb8e?auto=format&amp;fit=crop&amp;w=1600&amp;q=80" alt="Cape Town">
+    </a>
+    <div class="listing-card__body">
+                    <p class="listing-card__eyebrow">South Africa</p>
+                <h3><a href="/attractions/cape-town">Cape Town</a></h3>
+        <p>A design-led city with ocean views, wine access, and easy day trips.</p>
+        <div class="listing-card__meta">
+                            <span>★ 4.8 (1,675)</span>
+                                        <span>From $20</span>
                     </div>
-                </article>
-                            <article class="content-card reveal">
-                    <div class="card-image-wrap">
-                        <img src="https://images.unsplash.com/photo-1518509562904-e7ef99cdcc86?auto=format&amp;fit=crop&amp;w=900&amp;q=80" alt="Murchison Falls Nile &amp; Game Drive Safari">
-                        <span class="card-badge">Game Drive</span>
+        <div class="listing-card__footer">
+                            <div class="chip-row">
+                                            <span>Western Cape</span>
+                                    </div>
+                        <a href="/attractions/cape-town" class="button button--ghost">View Details</a>
+        </div>
+    </div>
+</article>
+                            <article class="listing-card">
+    <a href="/attractions/victoria-falls" class="listing-card__image">
+        <img src="https://images.unsplash.com/photo-1528127269322-539801943592?auto=format&amp;fit=crop&amp;w=1600&amp;q=80" alt="Victoria Falls">
+    </a>
+    <div class="listing-card__body">
+                    <p class="listing-card__eyebrow">Zimbabwe</p>
+                <h3><a href="/attractions/victoria-falls">Victoria Falls</a></h3>
+        <p>The classic waterfall gateway for rainforest walks, river activities, and onward safari routing.</p>
+        <div class="listing-card__meta">
+                            <span>★ 4.7 (882)</span>
+                                        <span>From $28</span>
                     </div>
-                    <div class="content-card-body">
-                        <p class="meta">Uganda • 3 days</p>
-                        <h3>Murchison Falls Nile &amp; Game Drive Safari</h3>
-                        <p>From $540 via TravelPayouts</p>
-                        <a href="{{travelpayouts-link}}" class="btn-primary" target="_blank" rel="noopener">View partner offer <span class="btn-icon">→</span></a>
+        <div class="listing-card__footer">
+                            <div class="chip-row">
+                                            <span>Zimbabwe</span>
+                                    </div>
+                        <a href="/attractions/victoria-falls" class="button button--ghost">View Details</a>
+        </div>
+    </div>
+</article>
+                            <article class="listing-card">
+    <a href="/attractions/marrakech-and-atlas" class="listing-card__image">
+        <img src="https://images.unsplash.com/photo-1539020140153-e479b8c22e70?auto=format&amp;fit=crop&amp;w=1600&amp;q=80" alt="Marrakech &amp; Atlas Gateway">
+    </a>
+    <div class="listing-card__body">
+                    <p class="listing-card__eyebrow">Morocco</p>
+                <h3><a href="/attractions/marrakech-and-atlas">Marrakech &amp; Atlas Gateway</a></h3>
+        <p>A flexible route of medina culture, gardens, riads, and day trips into the Atlas foothills.</p>
+        <div class="listing-card__meta">
+                            <span>★ 4.7 (1,222)</span>
+                                        <span>From $16</span>
                     </div>
-                </article>
-                            <article class="content-card reveal">
-                    <div class="card-image-wrap">
-                        <img src="https://images.unsplash.com/photo-1526336024174-e58f5cdd8e13?auto=format&amp;fit=crop&amp;w=900&amp;q=80" alt="Bwindi Gorilla Trekking Escape">
-                        <span class="card-badge">Trekking</span>
-                    </div>
-                    <div class="content-card-body">
-                        <p class="meta">Uganda • 3 days</p>
-                        <h3>Bwindi Gorilla Trekking Escape</h3>
-                        <p>From $1,680 via TravelPayouts</p>
-                        <a href="{{travelpayouts-link}}" class="btn-primary" target="_blank" rel="noopener">View partner offer <span class="btn-icon">→</span></a>
-                    </div>
-                </article>
-                            <article class="content-card reveal">
-                    <div class="card-image-wrap">
-                        <img src="https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&amp;fit=crop&amp;w=900&amp;q=80" alt="Amboseli Elephant Trails Safari">
-                        <span class="card-badge">Game Drive</span>
-                    </div>
-                    <div class="content-card-body">
-                        <p class="meta">Kenya • 2 days</p>
-                        <h3>Amboseli Elephant Trails Safari</h3>
-                        <p>From $420 via Viator</p>
-                        <a href="{{travelpayouts-link}}" class="btn-primary" target="_blank" rel="noopener">View partner offer <span class="btn-icon">→</span></a>
-                    </div>
-                </article>
-                    </div>
-
-        <div class="card-grid cards-2" style="margin-top: 1.2rem;">
-                            <article class="content-card reveal">
-                    <div class="content-card-body">
-                        <p class="meta">Kenya • Tented Camp</p>
-                        <h3>Savanna Sky Camp</h3>
-                        <p>Nightly from $260</p>
-                        <a href="{{travelpayouts-link}}" class="btn-outline" target="_blank" rel="noopener">Open stay listing <span class="btn-icon">→</span></a>
-                    </div>
-                </article>
-                            <article class="content-card reveal">
-                    <div class="content-card-body">
-                        <p class="meta">Uganda • Safari Lodge</p>
-                        <h3>Paraa River Lodge</h3>
-                        <p>Nightly from $230</p>
-                        <a href="{{travelpayouts-link}}" class="btn-outline" target="_blank" rel="noopener">Open stay listing <span class="btn-icon">→</span></a>
-                    </div>
-                </article>
-                            <article class="content-card reveal">
-                    <div class="content-card-body">
-                        <p class="meta">Uganda • Forest Lodge</p>
-                        <h3>Bwindi Canopy Retreat</h3>
-                        <p>Nightly from $540</p>
-                        <a href="{{travelpayouts-link}}" class="btn-outline" target="_blank" rel="noopener">Open stay listing <span class="btn-icon">→</span></a>
-                    </div>
-                </article>
-                            <article class="content-card reveal">
-                    <div class="content-card-body">
-                        <p class="meta">Kenya • Tented Camp</p>
-                        <h3>Amboseli Plains Camp</h3>
-                        <p>Nightly from $210</p>
-                        <a href="{{travelpayouts-link}}" class="btn-outline" target="_blank" rel="noopener">Open stay listing <span class="btn-icon">→</span></a>
-                    </div>
-                </article>
+        <div class="listing-card__footer">
+                            <div class="chip-row">
+                                            <span>Morocco</span>
+                                    </div>
+                        <a href="/attractions/marrakech-and-atlas" class="button button--ghost">View Details</a>
+        </div>
+    </div>
+</article>
                     </div>
     </div>
 </section>
 
-<section class="section-block">
-    <div class="container split-layout">
-        <article class="info-panel reveal">
-            <h2>Where to eat matters too</h2>
-            <p>Destination pages now support restaurant and dining recommendations so travelers can understand the broader experience, not just the headline safari product.</p>
-            <div class="stack-list">
-                                    <div class="list-item">
-                        <h3>Mara Fireside Table</h3>
-                        <p>Kenya • Kenyan grill and farm-to-table</p>
-                        <a href="/restaurants?country=Kenya">See dining in Kenya →</a>
+<section class="section section--alt">
+    <div class="container triptych">
+        <div>
+            <div class="section-heading section-heading--compact">
+                <p class="eyebrow">Featured Stays</p>
+                <h2>Accommodation shortlists tied to real attractions.</h2>
+                <p>Every stay is linked to a country, region, and nearby attraction so travelers can judge route logic before they leave the site.</p>
+            </div>
+            <div class="stack-grid">
+                                    <article class="listing-card">
+    <a href="/accommodations/bwindi-impenetrable-lodge-1" class="listing-card__image">
+        <img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&amp;fit=crop&amp;w=1400&amp;q=80" alt="Bwindi Impenetrable Lodge &amp; Retreat">
+    </a>
+    <div class="listing-card__body">
+                    <p class="listing-card__eyebrow">Uganda</p>
+                <h3><a href="/accommodations/bwindi-impenetrable-lodge-1">Bwindi Impenetrable Lodge &amp; Retreat</a></h3>
+        <p>A comfortable base positioned for travelers visiting Bwindi Impenetrable National Park, with easy early-start logistics and a travel-friendly atmosphere.</p>
+        <div class="listing-card__meta">
+                            <span>★ 4.4 (110)</span>
+                                        <span>From $110 / night</span>
                     </div>
-                                    <div class="list-item">
-                        <h3>Nile Deck Kitchen</h3>
-                        <p>Uganda • Ugandan regional and grill</p>
-                        <a href="/restaurants?country=Uganda">See dining in Uganda →</a>
+        <div class="listing-card__footer">
+                            <div class="chip-row">
+                                            <span>Safari lodge</span>
+                                            <span>Bwindi Impenetrable National Park</span>
+                                    </div>
+                        <a href="/accommodations/bwindi-impenetrable-lodge-1" class="button button--ghost">View Details</a>
+        </div>
+    </div>
+</article>
+                                    <article class="listing-card">
+    <a href="/accommodations/murchison-falls-lodge-2" class="listing-card__image">
+        <img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&amp;fit=crop&amp;w=1400&amp;q=80" alt="Murchison Falls Lodge &amp; Retreat">
+    </a>
+    <div class="listing-card__body">
+                    <p class="listing-card__eyebrow">Uganda</p>
+                <h3><a href="/accommodations/murchison-falls-lodge-2">Murchison Falls Lodge &amp; Retreat</a></h3>
+        <p>A comfortable base positioned for travelers visiting Murchison Falls National Park, with easy early-start logistics and a travel-friendly atmosphere.</p>
+        <div class="listing-card__meta">
+                            <span>★ 4.5 (127)</span>
+                                        <span>From $110 / night</span>
                     </div>
-                                    <div class="list-item">
-                        <h3>Bwindi Forest Table</h3>
-                        <p>Uganda • Farm-to-lodge cuisine</p>
-                        <a href="/restaurants?country=Uganda">See dining in Uganda →</a>
+        <div class="listing-card__footer">
+                            <div class="chip-row">
+                                            <span>Safari lodge</span>
+                                            <span>Murchison Falls National Park</span>
+                                    </div>
+                        <a href="/accommodations/murchison-falls-lodge-2" class="button button--ghost">View Details</a>
+        </div>
+    </div>
+</article>
+                                    <article class="listing-card">
+    <a href="/accommodations/maasai-mara-lodge-3" class="listing-card__image">
+        <img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&amp;fit=crop&amp;w=1400&amp;q=80" alt="Maasai Mara Lodge &amp; Retreat">
+    </a>
+    <div class="listing-card__body">
+                    <p class="listing-card__eyebrow">Kenya</p>
+                <h3><a href="/accommodations/maasai-mara-lodge-3">Maasai Mara Lodge &amp; Retreat</a></h3>
+        <p>A comfortable base positioned for travelers visiting Maasai Mara, with easy early-start logistics and a travel-friendly atmosphere.</p>
+        <div class="listing-card__meta">
+                            <span>★ 4.6 (144)</span>
+                                        <span>From $110 / night</span>
                     </div>
-                                    <div class="list-item">
-                        <h3>Kilimanjaro View Grill</h3>
-                        <p>Kenya • Kenyan lodge dining</p>
-                        <a href="/restaurants?country=Kenya">See dining in Kenya →</a>
+        <div class="listing-card__footer">
+                            <div class="chip-row">
+                                            <span>Safari lodge</span>
+                                            <span>Maasai Mara</span>
+                                    </div>
+                        <a href="/accommodations/maasai-mara-lodge-3" class="button button--ghost">View Details</a>
+        </div>
+    </div>
+</article>
+                                    <article class="listing-card">
+    <a href="/accommodations/amboseli-lodge-4" class="listing-card__image">
+        <img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&amp;fit=crop&amp;w=1400&amp;q=80" alt="Amboseli Lodge &amp; Retreat">
+    </a>
+    <div class="listing-card__body">
+                    <p class="listing-card__eyebrow">Kenya</p>
+                <h3><a href="/accommodations/amboseli-lodge-4">Amboseli Lodge &amp; Retreat</a></h3>
+        <p>A comfortable base positioned for travelers visiting Amboseli National Park, with easy early-start logistics and a travel-friendly atmosphere.</p>
+        <div class="listing-card__meta">
+                            <span>★ 4.7 (161)</span>
+                                        <span>From $110 / night</span>
                     </div>
+        <div class="listing-card__footer">
+                            <div class="chip-row">
+                                            <span>Safari lodge</span>
+                                            <span>Amboseli National Park</span>
+                                    </div>
+                        <a href="/accommodations/amboseli-lodge-4" class="button button--ghost">View Details</a>
+        </div>
+    </div>
+</article>
                             </div>
-        </article>
-
-        <article class="info-panel reveal">
-            <h2>Editorial insight stays close to the booking path</h2>
-            <p>Travel guides are no longer an isolated blog. They are part of the planning workflow, helping travelers choose a region, compare countries, and avoid weak-fit itineraries before they click out to a partner.</p>
-            <div class="stack-list">
-                                    <div class="list-item">
-                        <h3>How to Plan Your First East Africa Safari</h3>
-                        <p>How to choose between Uganda, Kenya, Tanzania, and Rwanda depending on wildlife goals, road time, and budget.</p>
-                        <a href="/travel-guides?category=Planning%20Tips">Read Planning Tips guides →</a>
+        </div>
+        <div>
+            <div class="section-heading section-heading--compact">
+                <p class="eyebrow">Featured Restaurants</p>
+                <h2>Dining recommendations that add local flavor to the trip.</h2>
+                <p>Restaurants sit alongside attractions and stays so destination pages feel practical rather than brochure-like.</p>
+            </div>
+            <div class="stack-grid">
+                                    <article class="listing-card">
+    <a href="/restaurants/bwindi-impenetrable-kitchen-near-bwindi-impenetrable-national-park" class="listing-card__image">
+        <img src="https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&amp;fit=crop&amp;w=1400&amp;q=80" alt="Bwindi Impenetrable Kitchen">
+    </a>
+    <div class="listing-card__body">
+                    <p class="listing-card__eyebrow">Uganda</p>
+                <h3><a href="/restaurants/bwindi-impenetrable-kitchen-near-bwindi-impenetrable-national-park">Bwindi Impenetrable Kitchen</a></h3>
+        <p>A recommended restaurant stop near Bwindi Impenetrable National Park for travelers who want local flavor and a dependable service rhythm between activity windows.</p>
+        <div class="listing-card__meta">
+                            <span>★ 4.3 (85)</span>
+                                        <span>$</span>
                     </div>
-                                    <div class="list-item">
-                        <h3>Uganda vs Kenya for a First-Time Safari</h3>
-                        <p>Choose Uganda for gorillas and Nile scenery, Kenya for migration drama and fast-access classic safaris.</p>
-                        <a href="/travel-guides?category=Planning%20Tips">Read Planning Tips guides →</a>
-                    </div>
-                                    <div class="list-item">
-                        <h3>How to Combine Serengeti and Zanzibar Well</h3>
-                        <p>A practical way to balance game-drive intensity with beach time, internal flights, and realistic pacing.</p>
-                        <a href="/travel-guides?category=Itineraries">Read Itineraries guides →</a>
-                    </div>
-                            </div>
-        </article>
+        <div class="listing-card__footer">
+                            <div class="chip-row">
+                                            <span>Regional house cuisine</span>
+                                            <span>Bwindi Impenetrable National Park</span>
+                                    </div>
+                        <a href="/restaurants/bwindi-impenetrable-kitchen-near-bwindi-impenetrable-national-park" class="button button--ghost">View Details</a>
+        </div>
     </div>
-</section>
-
-<section class="trust-bar-section">
-    <div class="container">
-        <div class="trust-bar reveal">
-            <div class="trust-bar-item">
-                <div>
-                    <strong>Supabase CMS direction</strong>
-                    <p>The new content architecture is organized for a CMS-backed rollout with regions, countries, destinations, listings, and guides.</p>
-                </div>
-            </div>
-            <div class="trust-bar-divider"></div>
-            <div class="trust-bar-item">
-                <div>
-                    <strong>Affiliate-first transparency</strong>
-                    <p>Calls to action send users to partner landing pages after they compare options inside Trek Africa Guide.</p>
-                </div>
-            </div>
-            <div class="trust-bar-divider"></div>
-            <div class="trust-bar-item">
-                <div>
-                    <strong>Honest travel context</strong>
-                    <p>Destination pages are built to explain fit, access, and tradeoffs rather than push generic packages.</p>
-                </div>
-            </div>
+</article>
+                                    <article class="listing-card">
+    <a href="/restaurants/murchison-falls-kitchen-near-murchison-falls-national-park" class="listing-card__image">
+        <img src="https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&amp;fit=crop&amp;w=1400&amp;q=80" alt="Murchison Falls Kitchen">
+    </a>
+    <div class="listing-card__body">
+                    <p class="listing-card__eyebrow">Uganda</p>
+                <h3><a href="/restaurants/murchison-falls-kitchen-near-murchison-falls-national-park">Murchison Falls Kitchen</a></h3>
+        <p>A recommended restaurant stop near Murchison Falls National Park for travelers who want local flavor and a dependable service rhythm between activity windows.</p>
+        <div class="listing-card__meta">
+                            <span>★ 4.4 (98)</span>
+                                        <span>$</span>
+                    </div>
+        <div class="listing-card__footer">
+                            <div class="chip-row">
+                                            <span>Regional house cuisine</span>
+                                            <span>Murchison Falls National Park</span>
+                                    </div>
+                        <a href="/restaurants/murchison-falls-kitchen-near-murchison-falls-national-park" class="button button--ghost">View Details</a>
+        </div>
+    </div>
+</article>
+                                    <article class="listing-card">
+    <a href="/restaurants/maasai-mara-kitchen-near-maasai-mara" class="listing-card__image">
+        <img src="https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&amp;fit=crop&amp;w=1400&amp;q=80" alt="Maasai Mara Kitchen">
+    </a>
+    <div class="listing-card__body">
+                    <p class="listing-card__eyebrow">Kenya</p>
+                <h3><a href="/restaurants/maasai-mara-kitchen-near-maasai-mara">Maasai Mara Kitchen</a></h3>
+        <p>A recommended restaurant stop near Maasai Mara for travelers who want local flavor and a dependable service rhythm between activity windows.</p>
+        <div class="listing-card__meta">
+                            <span>★ 4.5 (111)</span>
+                                        <span>$$</span>
+                    </div>
+        <div class="listing-card__footer">
+                            <div class="chip-row">
+                                            <span>Regional house cuisine</span>
+                                            <span>Maasai Mara</span>
+                                    </div>
+                        <a href="/restaurants/maasai-mara-kitchen-near-maasai-mara" class="button button--ghost">View Details</a>
+        </div>
+    </div>
+</article>
+                                    <article class="listing-card">
+    <a href="/restaurants/amboseli-kitchen-near-amboseli-national-park" class="listing-card__image">
+        <img src="https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&amp;fit=crop&amp;w=1400&amp;q=80" alt="Amboseli Kitchen">
+    </a>
+    <div class="listing-card__body">
+                    <p class="listing-card__eyebrow">Kenya</p>
+                <h3><a href="/restaurants/amboseli-kitchen-near-amboseli-national-park">Amboseli Kitchen</a></h3>
+        <p>A recommended restaurant stop near Amboseli National Park for travelers who want local flavor and a dependable service rhythm between activity windows.</p>
+        <div class="listing-card__meta">
+                            <span>★ 4.6 (124)</span>
+                                        <span>$$</span>
+                    </div>
+        <div class="listing-card__footer">
+                            <div class="chip-row">
+                                            <span>Regional house cuisine</span>
+                                            <span>Amboseli National Park</span>
+                                    </div>
+                        <a href="/restaurants/amboseli-kitchen-near-amboseli-national-park" class="button button--ghost">View Details</a>
+        </div>
+    </div>
+</article>
+                            </div>
         </div>
     </div>
 </section>
-        </main>
+    </main>
 
-        <footer class="site-footer">
-            <div class="container footer-grid">
-                <div>
-                    <a href="/" class="footer-brand">
-                        <img src="/logo to edit.png" alt="Trek Africa Guide logo" class="footer-brand-image">
-                        <span>Trek Africa Guide</span>
-                    </a>
-                    <p class="footer-tagline">A minimalist but comprehensive Africa travel directory built to help travelers discover where to go, what to do, where to stay, and where to eat before they book with verified partners.</p>
-                    <div class="footer-socials">
-                        <a href="#" aria-label="Facebook">f</a>
-                        <a href="#" aria-label="Instagram">in</a>
-                        <a href="#" aria-label="Twitter / X">x</a>
-                        <a href="#" aria-label="YouTube">yt</a>
-                    </div>
-                </div>
-                <div>
-                    <h4>Explore</h4>
-                    <ul>
-                        <li><a href="/regions">Regions</a></li>
-                        <li><a href="/destinations">Destinations</a></li>
-                        <li><a href="/safaris-tours">Safaris & Tours</a></li>
-                        <li><a href="/accommodations">Stays</a></li>
-                    </ul>
-                </div>
-                <div>
-                    <h4>Plan Better</h4>
-                    <ul>
-                        <li><a href="/restaurants">Eat & Drink</a></li>
-                        <li><a href="/local-experiences">Experiences</a></li>
-                        <li><a href="/travel-guides?category=Planning+Tips">Planning Tips</a></li>
-                        <li><a href="/travel-guides?category=Culture">Culture</a></li>
-                        <li><a href="/travel-guides?category=Safety">Safety</a></li>
-                    </ul>
-                </div>
-                <div>
-                    <h4>How It Works</h4>
-                    <ul>
-                        <li><a href="/about">About Us</a></li>
-                        <li><a href="/contact">Contact</a></li>
-                        <li><a href="/travel-guides">Travel Insights</a></li>
-                        <li><a href="/destinations">Compare before booking</a></li>
-                    </ul>
-                </div>
+    <footer class="site-footer">
+        <div class="container footer-grid">
+            <div>
+                <h3>Trek Africa Guide</h3>
+                <p>African travel guide and booking directory for regions, countries, attractions, stays, dining, and trusted partner booking paths.</p>
+                <p>Travelers can compare the route logic, nearby stays, dining, and practical access notes on Trek Africa Guide before continuing to external booking partners.</p>
             </div>
-            <div class="container disclaimer-row">
-                <p><strong>Affiliate Notice:</strong> Trek Africa Guide is a directory and editorial research platform. Booking buttons redirect to partner landing pages such as TravelPayouts-powered offers, Viator, and GetYourGuide.</p>
+            <div>
+                <h4>Explore</h4>
+                <ul>
+                    <li><a href="/regions">Regions</a></li>
+                    <li><a href="/countries">Countries</a></li>
+                    <li><a href="/attractions">Attractions</a></li>
+                    <li><a href="/accommodations">Accommodations</a></li>
+                    <li><a href="/restaurants">Restaurants</a></li>
+                </ul>
             </div>
-            <div class="container footer-bottom">
-                <p>&copy; 2026 Trek Africa Guide. All rights reserved.</p>
+            <div>
+                <h4>Planning Focus</h4>
+                <ul>
+                                            <li><a href="/regions/east-africa">East Africa</a></li>
+                                            <li><a href="/regions/west-africa">West Africa</a></li>
+                                            <li><a href="/regions/southern-africa">Southern Africa</a></li>
+                                            <li><a href="/regions/northern-africa">Northern Africa</a></li>
+                                    </ul>
             </div>
-        </footer>
-    </div>
-
-    <button class="back-to-top" aria-label="Back to top">↑</button>
+            <div>
+                <h4>CMS</h4>
+                <ul>
+                                            <li><a href="/admin/login">Admin login</a></li>
+                                    </ul>
+            </div>
+        </div>
+        <div class="container footer-note">
+            <p>Affiliate notice: booking buttons redirect to external partner pages for the selected listing. Always verify live availability, rates, and final booking terms on the partner side.</p>
+        </div>
+    </footer>
 </body>
 </html>

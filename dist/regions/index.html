@@ -1,360 +1,152 @@
-﻿
-
-
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Regions | Trek Africa Guide</title>
-    <meta name="description" content="Trek Africa Guide helps travelers discover destinations, tours, stays, restaurants, and practical travel insight across Africa.">
-    <meta name="theme-color" content="#13342b">
+        <meta name="description" content="Plan Africa travel by region and country, compare attractions, stays, and restaurants, then continue booking with trusted external partners.">
     <link rel="icon" type="image/png" href="/logo to edit.png">
-    <link rel="shortcut icon" href="/logo to edit.png">
-    <link rel="apple-touch-icon" href="/logo to edit.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
-    <link rel="preload" as="style" href="/build/assets/app-CyukF2Hz.css" /><link rel="modulepreload" as="script" href="/build/assets/app-BZasrUt3.js" /><link rel="stylesheet" href="/build/assets/app-CyukF2Hz.css" /><script type="module" src="/build/assets/app-BZasrUt3.js"></script></head>
+    <style>
+        :root {
+            --brand-primary: #284932;
+            --brand-secondary: #c56b3d;
+            --brand-accent: #c5b580;
+        }
+    </style>
+    <link rel="preload" as="style" href="/build/assets/app-C_yX-jMU.css" /><link rel="modulepreload" as="script" href="/build/assets/app-BuAtFdjb.js" /><link rel="stylesheet" href="/build/assets/app-C_yX-jMU.css" /><script type="module" src="/build/assets/app-BuAtFdjb.js"></script></head>
 <body>
-    <div class="scroll-progress" aria-hidden="true"></div>
-
-    <div class="site-shell">
-        <div class="site-topbar">
-            <div class="container site-topbar-inner">
-                <p>Travel directory, editorial guidance, and affiliate booking pathways for African adventures.</p>
-                <span>Compare first, then book on trusted partner landing pages.</span>
-            </div>
+    <div class="site-topline">
+        <div class="container site-topline__inner">
+            <span>African travel guide and booking directory for regions, countries, attractions, stays, dining, and trusted partner booking paths.</span>
+            <span>Directory-first planning with partner booking links for Africa travel.</span>
         </div>
+    </div>
 
-        <header class="site-header">
-            <div class="container nav-wrap">
-                <a href="/" class="logo-mark">
-                    <img src="/logo to edit.png" alt="Trek Africa Guide logo" class="logo-image">
-                    <span>
-                        <strong>Trek Africa Guide</strong>
-                        <small>Africa travel guide and booking directory</small>
-                    </span>
-                </a>
+    <header class="site-header">
+        <div class="container site-header__inner">
+            <a href="/" class="brand">
+                <img src="/logo to edit.png" alt="Trek Africa Guide logo">
+                <span>
+                    <strong>Trek Africa Guide</strong>
+                    <small>African travel guide and booking directory</small>
+                </span>
+            </a>
 
-                <button type="button" class="menu-toggle" data-nav-toggle aria-label="Toggle navigation">
-                    <span></span><span></span><span></span>
-                </button>
+            <button class="menu-toggle" type="button" data-nav-toggle aria-label="Toggle navigation">
+                <span></span><span></span><span></span>
+            </button>
 
-                <nav class="primary-nav" data-nav-menu>
-                                            <a href="/" class="">Home</a>
-                                            <a href="/safaris-tours" class="">Safaris &amp; Tours</a>
-                                            <a href="/accommodations" class="">Stays</a>
-                                            <a href="/restaurants" class="">Eat&amp;Drink</a>
-                                            <a href="/destinations" class="">Destinations</a>
-                                            <a href="/travel-guides" class="">Travel Guides</a>
-                                    </nav>
-            </div>
-            <datalist id="global-search-suggestions">
-                                    <option value="Amboseli National Park"></option>
-                                    <option value="Bwindi Impenetrable National Park"></option>
-                                    <option value="Cairo &amp; Giza"></option>
-                                    <option value="Cape Coast &amp; Kakum"></option>
-                                    <option value="Cape Town"></option>
-                                    <option value="Kruger National Park"></option>
-                                    <option value="Maasai Mara"></option>
-                                    <option value="Marrakech &amp; Atlas Gateway"></option>
-                                    <option value="Murchison Falls National Park"></option>
-                                    <option value="Namib Desert"></option>
-                                    <option value="Okavango Delta"></option>
-                                    <option value="Sahara Dunes"></option>
-                                    <option value="Serengeti National Park"></option>
-                                    <option value="Sine-Saloum Delta"></option>
-                                    <option value="Victoria Falls"></option>
-                                    <option value="Volcanoes National Park"></option>
-                                    <option value="Zanzibar"></option>
-                                    <option value="Botswana"></option>
-                                    <option value="Cameroon"></option>
-                                    <option value="DR Congo"></option>
-                                    <option value="Egypt"></option>
-                                    <option value="Gabon"></option>
-                                    <option value="Ghana"></option>
-                                    <option value="Kenya"></option>
-                                    <option value="Morocco"></option>
-                                    <option value="Namibia"></option>
-                                    <option value="Nigeria"></option>
-                                    <option value="Rwanda"></option>
-                                    <option value="Senegal"></option>
-                                    <option value="Sierra Leone"></option>
-                                    <option value="South Africa"></option>
-                                    <option value="Tanzania"></option>
-                                    <option value="Tunisia"></option>
-                                    <option value="Uganda"></option>
-                                    <option value="Zimbabwe"></option>
-                            </datalist>
-        </header>
+            <nav class="site-nav" data-nav-menu>
+                                    <a href="/" class="">Home</a>
+                                    <a href="/regions" class="is-active">Regions</a>
+                                    <a href="/countries" class="">Countries</a>
+                                    <a href="/attractions" class="">Attractions</a>
+                                    <a href="/accommodations" class="">Accommodations</a>
+                                    <a href="/restaurants" class="">Restaurants</a>
+                                                    <a href="/admin/login" class="">Admin Login</a>
+                            </nav>
+        </div>
+    </header>
 
-        <main>
-            <section class="page-hero" style="--hero-image:url('https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?auto=format&fit=crop&w=1800&q=80');">
-    <div class="container reveal">
+    <main>
+        <section class="page-hero" style="--hero-image:url('https://images.unsplash.com/photo-1516426122078-c23e76319801?auto=format&fit=crop&w=1800&q=80')">
+    <div class="page-hero__overlay"></div>
+    <div class="container page-hero__content">
         <ul class="breadcrumb">
-            <li><a href="/">Home</a></li>
-            <li><span class="current">Regions</span></li>
-        </ul>
-        <p class="eyebrow">Regions of Africa</p>
-        <h1>Start with a region, then narrow into the right country and destination</h1>
-        <p>Use this layer to understand the shape of an Africa trip first: which region suits first-time safari travelers, where beach and bush combine best, and which routes reward slower overland planning.</p>
-        <div class="page-stats">
-            <div class="page-stat">
-                <strong>5</strong>
-                <span>Regions</span>
-            </div>
-            <div class="page-stat">
-                <strong>18</strong>
-                <span>Countries</span>
-            </div>
-        </div>
+            <li>
+                            <a href="/">Home</a>
+                    </li>
+            <li>
+                            <span class="is-current">Regions</span>
+                    </li>
+    </ul>
+        <p class="eyebrow">Regions</p>
+        <h1>Compare Africa by region before narrowing into countries and listings.</h1>
+        <p>Each region page leads into country-level landing pages and then into attractions, accommodations, restaurants, and external partner booking links.</p>
     </div>
 </section>
 
-<section class="section-block patterned">
-    <div class="container">
-        <div class="section-head reveal">
-            <p class="eyebrow">How to use this page</p>
-            <h2>Think broad first, then move country by country</h2>
-            <p>East Africa is the clearest starting point for classic safari, gorilla trekking, and first multi-stop trips. Southern Africa works well for self-drive and desert-to-city combinations, North Africa for culture-forward city circuits, and West Africa for history, coastline, and slower heritage travel.</p>
-        </div>
-
-        <form class="filter-bar reveal" method="GET" action="/regions">
-            <select name="region">
-                <option value="">All regions</option>
-                                    <option value="east-africa" >East Africa</option>
-                                    <option value="southern-africa" >Southern Africa</option>
-                                    <option value="north-africa" >North Africa</option>
-                                    <option value="west-africa" >West Africa</option>
-                                    <option value="central-africa" >Central Africa</option>
-                            </select>
-            <select name="country">
-                <option value="">All countries</option>
-                                    <option value="Botswana" >Botswana</option>
-                                    <option value="Cameroon" >Cameroon</option>
-                                    <option value="DR Congo" >DR Congo</option>
-                                    <option value="Egypt" >Egypt</option>
-                                    <option value="Gabon" >Gabon</option>
-                                    <option value="Ghana" >Ghana</option>
-                                    <option value="Kenya" >Kenya</option>
-                                    <option value="Morocco" >Morocco</option>
-                                    <option value="Namibia" >Namibia</option>
-                                    <option value="Nigeria" >Nigeria</option>
-                                    <option value="Rwanda" >Rwanda</option>
-                                    <option value="Senegal" >Senegal</option>
-                                    <option value="Sierra Leone" >Sierra Leone</option>
-                                    <option value="South Africa" >South Africa</option>
-                                    <option value="Tanzania" >Tanzania</option>
-                                    <option value="Tunisia" >Tunisia</option>
-                                    <option value="Uganda" >Uganda</option>
-                                    <option value="Zimbabwe" >Zimbabwe</option>
-                            </select>
-            <select name="price">
-                <option value="">Any budget</option>
-                <option value="budget" >Budget</option>
-                <option value="midrange" >Midrange</option>
-                <option value="luxury" >Luxury</option>
-            </select>
-            <select name="safari_type">
-                <option value="">Any safari type</option>
-                <option value="game-drive" >Game Drive</option>
-                <option value="adventure" >Adventure</option>
-                <option value="cultural" >Cultural</option>
-            </select>
-            <select name="travel_style">
-                <option value="">Any travel style</option>
-                <option value="wildlife" >Wildlife</option>
-                <option value="community" >Community</option>
-                <option value="adventure" >Adventure</option>
-            </select>
-            <button type="submit">Apply filters</button>
-            <a href="/regions" class="btn-clear">Reset</a>
-        </form>
-
-        
-        <div class="results-count reveal">
-            Showing <strong>5</strong> regions
-                    </div>
-
-        <div class="card-grid cards-2">
-                                                                <article class="region-detail-card reveal" id="east-africa">
-                        <div class="card-image-wrap">
-                            <img src="https://images.unsplash.com/photo-1516426122078-c23e76319801?auto=format&amp;fit=crop&amp;w=1200&amp;q=80" alt="East Africa">
-                            <span class="card-badge">4 countries</span>
-                        </div>
-                        <div class="region-detail-content">
-                            <h2>East Africa</h2>
-                            <p>World-class wildlife migrations, gorilla trekking, rift valley landscapes, and the easiest first step into an Africa safari journey.</p>
-                            <h3>Why start here</h3>
-                            <p>Best launch region for first-time safari planning, gorilla trekking, migration timing, and high-recognition wildlife circuits that connect well by road and short flights.</p>
-                            <h3>Countries in this region</h3>
-                            <ul class="pill-list">
-                                                                    <li>Uganda</li>
-                                                                    <li>Kenya</li>
-                                                                    <li>Tanzania</li>
-                                                                    <li>Rwanda</li>
-                                                            </ul>
-                            <div class="quick-links">
-                                <a href="/destinations?region=east-africa">Open destinations</a>
-                                <a href="/safaris-tours?region=east-africa">Compare tours</a>
-                                <a href="/accommodations?region=east-africa">Browse stays</a>
-                            </div>
-                        </div>
-                    </article>
-                                                                                <article class="region-detail-card reveal" id="southern-africa">
-                        <div class="card-image-wrap">
-                            <img src="https://images.unsplash.com/photo-1472396961693-142e6e269027?auto=format&amp;fit=crop&amp;w=1200&amp;q=80" alt="Southern Africa">
-                            <span class="card-badge">4 countries</span>
-                        </div>
-                        <div class="region-detail-content">
-                            <h2>Southern Africa</h2>
-                            <p>Classic safari country with big-game reserves, dramatic waterfalls, road-trip deserts, and strong city-plus-wildlife combinations.</p>
-                            <h3>Why start here</h3>
-                            <p>Strong for contrasting landscapes, polished lodge circuits, rail or self-drive options, and combinations such as Cape Town with safari or desert with coast.</p>
-                            <h3>Countries in this region</h3>
-                            <ul class="pill-list">
-                                                                    <li>South Africa</li>
-                                                                    <li>Botswana</li>
-                                                                    <li>Zimbabwe</li>
-                                                                    <li>Namibia</li>
-                                                            </ul>
-                            <div class="quick-links">
-                                <a href="/destinations?region=southern-africa">Open destinations</a>
-                                <a href="/safaris-tours?region=southern-africa">Compare tours</a>
-                                <a href="/accommodations?region=southern-africa">Browse stays</a>
-                            </div>
-                        </div>
-                    </article>
-                                                                                <article class="region-detail-card reveal" id="north-africa">
-                        <div class="card-image-wrap">
-                            <img src="https://images.unsplash.com/photo-1506929562872-bb421503ef21?auto=format&amp;fit=crop&amp;w=1200&amp;q=80" alt="North Africa">
-                            <span class="card-badge">3 countries</span>
-                        </div>
-                        <div class="region-detail-content">
-                            <h2>North Africa</h2>
-                            <p>Imperial cities, Sahara-edge routes, Mediterranean coastlines, and ancient heritage from Morocco to Egypt.</p>
-                            <h3>Why start here</h3>
-                            <p>Ideal for travelers who want architecture, food, medinas, history, and shorter wildlife-free routes that still feel rich and layered.</p>
-                            <h3>Countries in this region</h3>
-                            <ul class="pill-list">
-                                                                    <li>Morocco</li>
-                                                                    <li>Egypt</li>
-                                                                    <li>Tunisia</li>
-                                                            </ul>
-                            <div class="quick-links">
-                                <a href="/destinations?region=north-africa">Open destinations</a>
-                                <a href="/safaris-tours?region=north-africa">Compare tours</a>
-                                <a href="/accommodations?region=north-africa">Browse stays</a>
-                            </div>
-                        </div>
-                    </article>
-                                                                                <article class="region-detail-card reveal" id="west-africa">
-                        <div class="card-image-wrap">
-                            <img src="https://images.unsplash.com/photo-1598875706250-21faaf804361?auto=format&amp;fit=crop&amp;w=1200&amp;q=80" alt="West Africa">
-                            <span class="card-badge">4 countries</span>
-                        </div>
-                        <div class="region-detail-content">
-                            <h2>West Africa</h2>
-                            <p>Atlantic energy, heritage coastlines, music cities, sacred forests, and warm community-led experiences.</p>
-                            <h3>Why start here</h3>
-                            <p>A compelling region for travelers who value heritage, music, food, Atlantic coast experiences, and honest cultural context over checklist tourism.</p>
-                            <h3>Countries in this region</h3>
-                            <ul class="pill-list">
-                                                                    <li>Senegal</li>
-                                                                    <li>Ghana</li>
-                                                                    <li>Nigeria</li>
-                                                                    <li>Sierra Leone</li>
-                                                            </ul>
-                            <div class="quick-links">
-                                <a href="/destinations?region=west-africa">Open destinations</a>
-                                <a href="/safaris-tours?region=west-africa">Compare tours</a>
-                                <a href="/accommodations?region=west-africa">Browse stays</a>
-                            </div>
-                        </div>
-                    </article>
-                                                                                <article class="region-detail-card reveal" id="central-africa">
-                        <div class="card-image-wrap">
-                            <img src="https://images.unsplash.com/photo-1614463770168-e8eaef4fd0e8?auto=format&amp;fit=crop&amp;w=1200&amp;q=80" alt="Central Africa">
-                            <span class="card-badge">4 countries</span>
-                        </div>
-                        <div class="region-detail-content">
-                            <h2>Central Africa</h2>
-                            <p>Rainforest expeditions, gorilla tracking, and deeply rooted indigenous traditions.</p>
-                            <h3>Why start here</h3>
-                            <p>A compelling region for travelers who value heritage, music, food, Atlantic coast experiences, and honest cultural context over checklist tourism.</p>
-                            <h3>Countries in this region</h3>
-                            <ul class="pill-list">
-                                                                    <li>Rwanda</li>
-                                                                    <li>Cameroon</li>
-                                                                    <li>Gabon</li>
-                                                                    <li>DR Congo</li>
-                                                            </ul>
-                            <div class="quick-links">
-                                <a href="/destinations?region=central-africa">Open destinations</a>
-                                <a href="/safaris-tours?region=central-africa">Compare tours</a>
-                                <a href="/accommodations?region=central-africa">Browse stays</a>
-                            </div>
-                        </div>
-                    </article>
-                                    </div>
-    </div>
+<section class="section">
+    <div class="container region-grid">
+                    <a href="/regions/east-africa" class="region-card region-card--tall">
+                <img src="https://images.unsplash.com/photo-1516426122078-c23e76319801?auto=format&amp;fit=crop&amp;w=1600&amp;q=80" alt="Safari jeeps watching wildlife in East Africa">
+                <div class="region-card__content">
+                    <span>5 countries</span>
+                    <h2>East Africa</h2>
+                    <p>East Africa remains one of the continent’s highest-demand regions for safari, gorilla trekking, coast add-ons, and premium conservation travel. Kenya and Tanzania lead the classic plains circuits, while Uganda and Rwanda anchor primate-led journeys.</p>
+                    <strong>Open region page</strong>
+                </div>
+            </a>
+                    <a href="/regions/west-africa" class="region-card region-card--tall">
+                <img src="https://images.unsplash.com/photo-1598875706250-21faaf804361?auto=format&amp;fit=crop&amp;w=1600&amp;q=80" alt="Colorful fishing boats on a West African coast">
+                <div class="region-card__content">
+                    <span>5 countries</span>
+                    <h2>West Africa</h2>
+                    <p>West Africa is driven by heritage journeys, winter-sun escapes, coastal cities, and community-grounded experiences. Ghana and Senegal are the most polished starting points, while Benin, Sierra Leone, and Cabo Verde broaden the offer considerably.</p>
+                    <strong>Open region page</strong>
+                </div>
+            </a>
+                    <a href="/regions/southern-africa" class="region-card region-card--tall">
+                <img src="https://images.unsplash.com/photo-1472396961693-142e6e269027?auto=format&amp;fit=crop&amp;w=1600&amp;q=80" alt="Elephants in a Southern African landscape">
+                <div class="region-card__content">
+                    <span>5 countries</span>
+                    <h2>Southern Africa</h2>
+                    <p>Southern Africa is one of the continent’s most versatile travel regions. South Africa acts as the gateway, Botswana and Namibia deliver high-value wilderness and desert landscapes, and Zimbabwe and Zambia deepen the safari-and-Zambezi story.</p>
+                    <strong>Open region page</strong>
+                </div>
+            </a>
+                    <a href="/regions/northern-africa" class="region-card region-card--tall">
+                <img src="https://images.unsplash.com/photo-1506929562872-bb421503ef21?auto=format&amp;fit=crop&amp;w=1600&amp;q=80" alt="Desert camp and dunes in North Africa">
+                <div class="region-card__content">
+                    <span>4 countries</span>
+                    <h2>Northern Africa</h2>
+                    <p>Northern Africa is Africa’s volume engine for tourism, driven by Morocco, Egypt, Tunisia, and a growing wave of renewed interest in Algeria. Travelers come for cities, heritage, desert camps, Mediterranean coastlines, and food-led travel.</p>
+                    <strong>Open region page</strong>
+                </div>
+            </a>
+            </div>
 </section>
-        </main>
+    </main>
 
-        <footer class="site-footer">
-            <div class="container footer-grid">
-                <div>
-                    <a href="/" class="footer-brand">
-                        <img src="/logo to edit.png" alt="Trek Africa Guide logo" class="footer-brand-image">
-                        <span>Trek Africa Guide</span>
-                    </a>
-                    <p class="footer-tagline">A minimalist but comprehensive Africa travel directory built to help travelers discover where to go, what to do, where to stay, and where to eat before they book with verified partners.</p>
-                    <div class="footer-socials">
-                        <a href="#" aria-label="Facebook">f</a>
-                        <a href="#" aria-label="Instagram">in</a>
-                        <a href="#" aria-label="Twitter / X">x</a>
-                        <a href="#" aria-label="YouTube">yt</a>
-                    </div>
-                </div>
-                <div>
-                    <h4>Explore</h4>
-                    <ul>
-                        <li><a href="/regions">Regions</a></li>
-                        <li><a href="/destinations">Destinations</a></li>
-                        <li><a href="/safaris-tours">Safaris & Tours</a></li>
-                        <li><a href="/accommodations">Stays</a></li>
-                    </ul>
-                </div>
-                <div>
-                    <h4>Plan Better</h4>
-                    <ul>
-                        <li><a href="/restaurants">Eat & Drink</a></li>
-                        <li><a href="/local-experiences">Experiences</a></li>
-                        <li><a href="/travel-guides?category=Planning+Tips">Planning Tips</a></li>
-                        <li><a href="/travel-guides?category=Culture">Culture</a></li>
-                        <li><a href="/travel-guides?category=Safety">Safety</a></li>
-                    </ul>
-                </div>
-                <div>
-                    <h4>How It Works</h4>
-                    <ul>
-                        <li><a href="/about">About Us</a></li>
-                        <li><a href="/contact">Contact</a></li>
-                        <li><a href="/travel-guides">Travel Insights</a></li>
-                        <li><a href="/destinations">Compare before booking</a></li>
-                    </ul>
-                </div>
+    <footer class="site-footer">
+        <div class="container footer-grid">
+            <div>
+                <h3>Trek Africa Guide</h3>
+                <p>African travel guide and booking directory for regions, countries, attractions, stays, dining, and trusted partner booking paths.</p>
+                <p>Travelers can compare the route logic, nearby stays, dining, and practical access notes on Trek Africa Guide before continuing to external booking partners.</p>
             </div>
-            <div class="container disclaimer-row">
-                <p><strong>Affiliate Notice:</strong> Trek Africa Guide is a directory and editorial research platform. Booking buttons redirect to partner landing pages such as TravelPayouts-powered offers, Viator, and GetYourGuide.</p>
+            <div>
+                <h4>Explore</h4>
+                <ul>
+                    <li><a href="/regions">Regions</a></li>
+                    <li><a href="/countries">Countries</a></li>
+                    <li><a href="/attractions">Attractions</a></li>
+                    <li><a href="/accommodations">Accommodations</a></li>
+                    <li><a href="/restaurants">Restaurants</a></li>
+                </ul>
             </div>
-            <div class="container footer-bottom">
-                <p>&copy; 2026 Trek Africa Guide. All rights reserved.</p>
+            <div>
+                <h4>Planning Focus</h4>
+                <ul>
+                                            <li><a href="/regions/east-africa">East Africa</a></li>
+                                            <li><a href="/regions/west-africa">West Africa</a></li>
+                                            <li><a href="/regions/southern-africa">Southern Africa</a></li>
+                                            <li><a href="/regions/northern-africa">Northern Africa</a></li>
+                                    </ul>
             </div>
-        </footer>
-    </div>
-
-    <button class="back-to-top" aria-label="Back to top">↑</button>
+            <div>
+                <h4>CMS</h4>
+                <ul>
+                                            <li><a href="/admin/login">Admin login</a></li>
+                                    </ul>
+            </div>
+        </div>
+        <div class="container footer-note">
+            <p>Affiliate notice: booking buttons redirect to external partner pages for the selected listing. Always verify live availability, rates, and final booking terms on the partner side.</p>
+        </div>
+    </footer>
 </body>
 </html>

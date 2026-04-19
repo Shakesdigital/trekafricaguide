@@ -2,14 +2,19 @@
 
 namespace Tests\Feature;
 
+use App\Models\User;
+use Illuminate\Foundation\Testing\RefreshDatabase;
 use Tests\TestCase;
 
 class TravelPagesTest extends TestCase
 {
+    use RefreshDatabase;
+
     protected function setUp(): void
     {
         parent::setUp();
         $this->withoutVite();
+        $this->seed();
     }
 
     public function test_primary_pages_are_accessible(): void
@@ -17,15 +22,13 @@ class TravelPagesTest extends TestCase
         $pages = [
             '/',
             '/regions',
-            '/destinations',
-            '/destinations/maasai-mara',
-            '/safaris-tours',
+            '/regions/east-africa',
+            '/countries',
+            '/countries/uganda',
+            '/attractions',
+            '/attractions/bwindi-impenetrable-national-park',
             '/accommodations',
             '/restaurants',
-            '/travel-guides',
-            '/local-experiences',
-            '/about',
-            '/contact',
         ];
 
         foreach ($pages as $page) {
@@ -33,36 +36,42 @@ class TravelPagesTest extends TestCase
         }
     }
 
-    public function test_homepage_contains_core_branding_and_hero_copy(): void
+    public function test_admin_requires_login_and_admin_user_can_access_cms(): void
+    {
+        $this->get('/admin')->assertRedirect('/admin/login');
+
+        $admin = User::query()->where('role', 'admin')->firstOrFail();
+
+        $this->actingAs($admin)
+            ->get('/admin')
+            ->assertOk()
+            ->assertSee('Trek Africa Guide Content Manager');
+    }
+
+    public function test_homepage_contains_core_branding_and_region_focus(): void
     {
         $this->get('/')
             ->assertOk()
             ->assertSee('Trek Africa Guide')
-            ->assertSee('Discover Africa one region, country, and destination at a time.')
-            ->assertSee('Begin with East Africa');
+            ->assertSee('Explore Africa through regions first')
+            ->assertSee('The four major entry points for planning an Africa trip.');
     }
 
-    public function test_partner_booking_call_to_action_is_visible_on_commercial_pages(): void
+    public function test_country_page_links_attractions_stays_restaurants_and_operators(): void
     {
-        $commercialPages = [
-            '/destinations/maasai-mara',
-            '/safaris-tours',
-            '/accommodations',
-            '/local-experiences',
-        ];
-
-        foreach ($commercialPages as $page) {
-            $this->get($page)
-                ->assertOk()
-                ->assertSee('partner');
-        }
-    }
-
-    public function test_safaris_filters_apply_by_region_and_type(): void
-    {
-        $this->get('/safaris-tours?region=east-africa&safari_type=game-drive')
+        $this->get('/countries/uganda')
             ->assertOk()
-            ->assertSee('Great Migration Game Drive')
-            ->assertDontSee('Sahara Nomad Desert Camp');
+            ->assertSee('Tour operators active in Uganda')
+            ->assertSee('Tourist attractions in Uganda')
+            ->assertSee('Recommended restaurants near each attraction');
+    }
+
+    public function test_attraction_detail_page_contains_booking_and_practical_sections(): void
+    {
+        $this->get('/attractions/maasai-mara')
+            ->assertOk()
+            ->assertSee('How to get there')
+            ->assertSee('Book with partner')
+            ->assertSee('Accommodations near Maasai Mara');
     }
 }

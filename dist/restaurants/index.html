@@ -1,453 +1,655 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Restaurants | Trek Africa Guide</title>
-    <meta name="description" content="Trek Africa Guide helps travelers discover destinations, tours, stays, restaurants, and practical travel insight across Africa.">
-    <meta name="theme-color" content="#13342b">
+        <meta name="description" content="Plan Africa travel by region and country, compare attractions, stays, and restaurants, then continue booking with trusted external partners.">
     <link rel="icon" type="image/png" href="/logo to edit.png">
-    <link rel="shortcut icon" href="/logo to edit.png">
-    <link rel="apple-touch-icon" href="/logo to edit.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
-    <link rel="preload" as="style" href="/build/assets/app-CyukF2Hz.css" /><link rel="modulepreload" as="script" href="/build/assets/app-BZasrUt3.js" /><link rel="stylesheet" href="/build/assets/app-CyukF2Hz.css" /><script type="module" src="/build/assets/app-BZasrUt3.js"></script></head>
+    <style>
+        :root {
+            --brand-primary: #284932;
+            --brand-secondary: #c56b3d;
+            --brand-accent: #c5b580;
+        }
+    </style>
+    <link rel="preload" as="style" href="/build/assets/app-C_yX-jMU.css" /><link rel="modulepreload" as="script" href="/build/assets/app-BuAtFdjb.js" /><link rel="stylesheet" href="/build/assets/app-C_yX-jMU.css" /><script type="module" src="/build/assets/app-BuAtFdjb.js"></script></head>
 <body>
-    <div class="scroll-progress" aria-hidden="true"></div>
-
-    <div class="site-shell">
-        <div class="site-topbar">
-            <div class="container site-topbar-inner">
-                <p>Travel directory, editorial guidance, and affiliate booking pathways for African adventures.</p>
-                <span>Compare first, then book on trusted partner landing pages.</span>
-            </div>
+    <div class="site-topline">
+        <div class="container site-topline__inner">
+            <span>African travel guide and booking directory for regions, countries, attractions, stays, dining, and trusted partner booking paths.</span>
+            <span>Directory-first planning with partner booking links for Africa travel.</span>
         </div>
+    </div>
 
-        <header class="site-header">
-            <div class="container nav-wrap">
-                <a href="/" class="logo-mark">
-                    <img src="/logo to edit.png" alt="Trek Africa Guide logo" class="logo-image">
-                    <span>
-                        <strong>Trek Africa Guide</strong>
-                        <small>Africa travel guide and booking directory</small>
-                    </span>
-                </a>
+    <header class="site-header">
+        <div class="container site-header__inner">
+            <a href="/" class="brand">
+                <img src="/logo to edit.png" alt="Trek Africa Guide logo">
+                <span>
+                    <strong>Trek Africa Guide</strong>
+                    <small>African travel guide and booking directory</small>
+                </span>
+            </a>
 
-                <button type="button" class="menu-toggle" data-nav-toggle aria-label="Toggle navigation">
-                    <span></span><span></span><span></span>
-                </button>
+            <button class="menu-toggle" type="button" data-nav-toggle aria-label="Toggle navigation">
+                <span></span><span></span><span></span>
+            </button>
 
-                <nav class="primary-nav" data-nav-menu>
-                                            <a href="/" class="">Home</a>
-                                            <a href="/safaris-tours" class="">Safaris &amp; Tours</a>
-                                            <a href="/accommodations" class="">Stays</a>
-                                            <a href="/restaurants" class="active">Eat&amp;Drink</a>
-                                            <a href="/destinations" class="">Destinations</a>
-                                            <a href="/travel-guides" class="">Travel Guides</a>
-                                    </nav>
-            </div>
-            <datalist id="global-search-suggestions">
-                                    <option value="Amboseli National Park"></option>
-                                    <option value="Bwindi Impenetrable National Park"></option>
-                                    <option value="Cairo &amp; Giza"></option>
-                                    <option value="Cape Coast &amp; Kakum"></option>
-                                    <option value="Cape Town"></option>
-                                    <option value="Kruger National Park"></option>
-                                    <option value="Maasai Mara"></option>
-                                    <option value="Marrakech &amp; Atlas Gateway"></option>
-                                    <option value="Murchison Falls National Park"></option>
-                                    <option value="Namib Desert"></option>
-                                    <option value="Okavango Delta"></option>
-                                    <option value="Sahara Dunes"></option>
-                                    <option value="Serengeti National Park"></option>
-                                    <option value="Sine-Saloum Delta"></option>
-                                    <option value="Victoria Falls"></option>
-                                    <option value="Volcanoes National Park"></option>
-                                    <option value="Zanzibar"></option>
-                                    <option value="Botswana"></option>
-                                    <option value="Cameroon"></option>
-                                    <option value="DR Congo"></option>
-                                    <option value="Egypt"></option>
-                                    <option value="Gabon"></option>
-                                    <option value="Ghana"></option>
-                                    <option value="Kenya"></option>
-                                    <option value="Morocco"></option>
-                                    <option value="Namibia"></option>
-                                    <option value="Nigeria"></option>
-                                    <option value="Rwanda"></option>
-                                    <option value="Senegal"></option>
-                                    <option value="Sierra Leone"></option>
-                                    <option value="South Africa"></option>
-                                    <option value="Tanzania"></option>
-                                    <option value="Tunisia"></option>
-                                    <option value="Uganda"></option>
-                                    <option value="Zimbabwe"></option>
-                            </datalist>
-        </header>
+            <nav class="site-nav" data-nav-menu>
+                                    <a href="/" class="">Home</a>
+                                    <a href="/regions" class="">Regions</a>
+                                    <a href="/countries" class="">Countries</a>
+                                    <a href="/attractions" class="">Attractions</a>
+                                    <a href="/accommodations" class="">Accommodations</a>
+                                    <a href="/restaurants" class="is-active">Restaurants</a>
+                                                    <a href="/admin/login" class="">Admin Login</a>
+                            </nav>
+        </div>
+    </header>
 
-        <main>
-            <section class="page-hero" style="--hero-image:url('https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&w=1800&q=80');">
-    <div class="container reveal">
+    <main>
+        <section class="page-hero" style="--hero-image:url('https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&w=1800&q=80')">
+    <div class="page-hero__overlay"></div>
+    <div class="container page-hero__content">
         <ul class="breadcrumb">
-            <li><a href="/">Home</a></li>
-            <li><span class="current">Eat & Drink</span></li>
-        </ul>
-        <p class="eyebrow">Restaurants & Dining</p>
-        <h1>Find dining that adds context to the trip, not just a meal stop</h1>
-        <p>Use destination-aware dining recommendations to help travelers understand local food culture, lodge dining, and practical places to eat between activities.</p>
+            <li>
+                            <a href="/">Home</a>
+                    </li>
+            <li>
+                            <span class="is-current">Restaurants</span>
+                    </li>
+    </ul>
+        <p class="eyebrow">Restaurants</p>
+        <h1>Restaurant listings help travelers understand the wider experience around each attraction.</h1>
+        <p>Dining is tied back to place, not treated as an afterthought. Browse by country or region, then open the full landing page for more detail.</p>
     </div>
 </section>
 
-<section class="section-block">
+<section class="section">
     <div class="container">
-        <div class="section-head reveal">
-            <p class="eyebrow">Dining Directory</p>
-            <h2>Food helps travelers understand the destination better</h2>
-            <p>The best travel pages do more than list attractions. They show where a traveler might eat well, slow down, and get a more grounded sense of place.</p>
-        </div>
-
-        <form class="filter-bar reveal" method="GET" action="/restaurants">
-            <input type="text" name="q" value="" placeholder="Search restaurant, cuisine, or country...">
+        <form class="filter-form" method="GET">
+            <input type="text" name="q" value="" placeholder="Search restaurant or cuisine">
             <select name="region">
                 <option value="">All regions</option>
                                     <option value="east-africa" >East Africa</option>
-                                    <option value="southern-africa" >Southern Africa</option>
-                                    <option value="north-africa" >North Africa</option>
                                     <option value="west-africa" >West Africa</option>
-                                    <option value="central-africa" >Central Africa</option>
+                                    <option value="southern-africa" >Southern Africa</option>
+                                    <option value="northern-africa" >Northern Africa</option>
                             </select>
             <select name="country">
                 <option value="">All countries</option>
-                                    <option value="Botswana" >Botswana</option>
-                                    <option value="Cameroon" >Cameroon</option>
-                                    <option value="DR Congo" >DR Congo</option>
-                                    <option value="Egypt" >Egypt</option>
-                                    <option value="Gabon" >Gabon</option>
-                                    <option value="Ghana" >Ghana</option>
-                                    <option value="Kenya" >Kenya</option>
-                                    <option value="Morocco" >Morocco</option>
-                                    <option value="Namibia" >Namibia</option>
-                                    <option value="Nigeria" >Nigeria</option>
-                                    <option value="Rwanda" >Rwanda</option>
-                                    <option value="Senegal" >Senegal</option>
-                                    <option value="Sierra Leone" >Sierra Leone</option>
-                                    <option value="South Africa" >South Africa</option>
-                                    <option value="Tanzania" >Tanzania</option>
-                                    <option value="Tunisia" >Tunisia</option>
-                                    <option value="Uganda" >Uganda</option>
-                                    <option value="Zimbabwe" >Zimbabwe</option>
+                                    <option value="algeria" >Algeria</option>
+                                    <option value="benin" >Benin</option>
+                                    <option value="botswana" >Botswana</option>
+                                    <option value="cabo-verde" >Cabo Verde</option>
+                                    <option value="egypt" >Egypt</option>
+                                    <option value="ethiopia" >Ethiopia</option>
+                                    <option value="ghana" >Ghana</option>
+                                    <option value="kenya" >Kenya</option>
+                                    <option value="morocco" >Morocco</option>
+                                    <option value="namibia" >Namibia</option>
+                                    <option value="rwanda" >Rwanda</option>
+                                    <option value="senegal" >Senegal</option>
+                                    <option value="sierra-leone" >Sierra Leone</option>
+                                    <option value="south-africa" >South Africa</option>
+                                    <option value="tanzania" >Tanzania</option>
+                                    <option value="tunisia" >Tunisia</option>
+                                    <option value="uganda" >Uganda</option>
+                                    <option value="zambia" >Zambia</option>
+                                    <option value="zimbabwe" >Zimbabwe</option>
                             </select>
-            <select name="price">
-                <option value="">Any budget</option>
-                                    <option value="budget" >Budget</option>
-                                    <option value="midrange" >Midrange</option>
-                                    <option value="luxury" >Luxury</option>
-                            </select>
-            <select name="travel_style">
-                <option value="">Any travel style</option>
-                                    <option value="wildlife" >Wildlife</option>
-                                    <option value="photography" >Photography</option>
-                                    <option value="family" >Family</option>
-                                    <option value="adventure" >Adventure</option>
-                                    <option value="culture" >Culture</option>
-                                    <option value="slow-travel" >Slow Travel</option>
-                                    <option value="community" >Community</option>
-                                    <option value="conservation" >Conservation</option>
-                                    <option value="romantic" >Romantic</option>
-                                    <option value="food" >Food</option>
-                            </select>
-            <button type="submit">Apply</button>
-            <a href="/restaurants" class="btn-clear">Reset</a>
+            <button class="button" type="submit">Filter</button>
         </form>
-
-        <div class="results-count reveal">
-            <strong>14</strong> dining listings available
+        <div class="listing-grid">
+                            <article class="listing-card">
+    <a href="/restaurants/bwindi-impenetrable-kitchen-near-bwindi-impenetrable-national-park" class="listing-card__image">
+        <img src="https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&amp;fit=crop&amp;w=1400&amp;q=80" alt="Bwindi Impenetrable Kitchen">
+    </a>
+    <div class="listing-card__body">
+                    <p class="listing-card__eyebrow">Uganda • Regional house cuisine</p>
+                <h3><a href="/restaurants/bwindi-impenetrable-kitchen-near-bwindi-impenetrable-national-park">Bwindi Impenetrable Kitchen</a></h3>
+        <p>A recommended restaurant stop near Bwindi Impenetrable National Park for travelers who want local flavor and a dependable service rhythm between activity windows.</p>
+        <div class="listing-card__meta">
+                            <span>★ 4.3 (85)</span>
+                                        <span>$</span>
+                    </div>
+        <div class="listing-card__footer">
+                            <div class="chip-row">
+                                            <span>Luwombo and seasonal produce</span>
+                                            <span>Bwindi Impenetrable National Park</span>
+                                    </div>
+                        <a href="/restaurants/bwindi-impenetrable-kitchen-near-bwindi-impenetrable-national-park" class="button button--ghost">View Details</a>
         </div>
-
-        <div class="card-grid cards-3">
-                            <article class="content-card reveal">
-                    <div class="card-image-wrap">
-                        <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&amp;fit=crop&amp;w=900&amp;q=80" alt="Mara Fireside Table">
-                        <span class="card-badge">Kenya</span>
-                        <span class="card-badge price">Midrange</span>
+    </div>
+</article>
+                            <article class="listing-card">
+    <a href="/restaurants/murchison-falls-kitchen-near-murchison-falls-national-park" class="listing-card__image">
+        <img src="https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&amp;fit=crop&amp;w=1400&amp;q=80" alt="Murchison Falls Kitchen">
+    </a>
+    <div class="listing-card__body">
+                    <p class="listing-card__eyebrow">Uganda • Regional house cuisine</p>
+                <h3><a href="/restaurants/murchison-falls-kitchen-near-murchison-falls-national-park">Murchison Falls Kitchen</a></h3>
+        <p>A recommended restaurant stop near Murchison Falls National Park for travelers who want local flavor and a dependable service rhythm between activity windows.</p>
+        <div class="listing-card__meta">
+                            <span>★ 4.4 (98)</span>
+                                        <span>$</span>
                     </div>
-                    <div class="content-card-body">
-                        <p class="meta">East Africa � Kenyan grill and farm-to-table</p>
-                        <h3>Mara Fireside Table</h3>
-                        <p>Bush-facing dining with nyama choma, seasonal greens, and sundowner service after game drives.</p>
-                        <div class="pill-row">
-                            <span>Sunset tasting menu</span>
-                        </div>
-                        <a href="/destinations/maasai-mara" class="btn-outline">Open destination page <span class="btn-icon">?</span></a>
+        <div class="listing-card__footer">
+                            <div class="chip-row">
+                                            <span>Luwombo and seasonal produce</span>
+                                            <span>Murchison Falls National Park</span>
+                                    </div>
+                        <a href="/restaurants/murchison-falls-kitchen-near-murchison-falls-national-park" class="button button--ghost">View Details</a>
+        </div>
+    </div>
+</article>
+                            <article class="listing-card">
+    <a href="/restaurants/maasai-mara-kitchen-near-maasai-mara" class="listing-card__image">
+        <img src="https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&amp;fit=crop&amp;w=1400&amp;q=80" alt="Maasai Mara Kitchen">
+    </a>
+    <div class="listing-card__body">
+                    <p class="listing-card__eyebrow">Kenya • Regional house cuisine</p>
+                <h3><a href="/restaurants/maasai-mara-kitchen-near-maasai-mara">Maasai Mara Kitchen</a></h3>
+        <p>A recommended restaurant stop near Maasai Mara for travelers who want local flavor and a dependable service rhythm between activity windows.</p>
+        <div class="listing-card__meta">
+                            <span>★ 4.5 (111)</span>
+                                        <span>$$</span>
                     </div>
-                </article>
-                            <article class="content-card reveal">
-                    <div class="card-image-wrap">
-                        <img src="https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&amp;fit=crop&amp;w=900&amp;q=80" alt="Nile Deck Kitchen">
-                        <span class="card-badge">Uganda</span>
-                        <span class="card-badge price">Midrange</span>
+        <div class="listing-card__footer">
+                            <div class="chip-row">
+                                            <span>Chef’s seasonal local plate</span>
+                                            <span>Maasai Mara</span>
+                                    </div>
+                        <a href="/restaurants/maasai-mara-kitchen-near-maasai-mara" class="button button--ghost">View Details</a>
+        </div>
+    </div>
+</article>
+                            <article class="listing-card">
+    <a href="/restaurants/amboseli-kitchen-near-amboseli-national-park" class="listing-card__image">
+        <img src="https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&amp;fit=crop&amp;w=1400&amp;q=80" alt="Amboseli Kitchen">
+    </a>
+    <div class="listing-card__body">
+                    <p class="listing-card__eyebrow">Kenya • Regional house cuisine</p>
+                <h3><a href="/restaurants/amboseli-kitchen-near-amboseli-national-park">Amboseli Kitchen</a></h3>
+        <p>A recommended restaurant stop near Amboseli National Park for travelers who want local flavor and a dependable service rhythm between activity windows.</p>
+        <div class="listing-card__meta">
+                            <span>★ 4.6 (124)</span>
+                                        <span>$$</span>
                     </div>
-                    <div class="content-card-body">
-                        <p class="meta">East Africa � Ugandan regional and grill</p>
-                        <h3>Nile Deck Kitchen</h3>
-                        <p>Relaxed lodge dining near the river with grilled tilapia, matoke, and sunset views after the falls cruise.</p>
-                        <div class="pill-row">
-                            <span>Nile tilapia supper</span>
-                        </div>
-                        <a href="/destinations/murchison-falls-national-park" class="btn-outline">Open destination page <span class="btn-icon">?</span></a>
+        <div class="listing-card__footer">
+                            <div class="chip-row">
+                                            <span>Chef’s seasonal local plate</span>
+                                            <span>Amboseli National Park</span>
+                                    </div>
+                        <a href="/restaurants/amboseli-kitchen-near-amboseli-national-park" class="button button--ghost">View Details</a>
+        </div>
+    </div>
+</article>
+                            <article class="listing-card">
+    <a href="/restaurants/serengeti-kitchen-near-serengeti-national-park" class="listing-card__image">
+        <img src="https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&amp;fit=crop&amp;w=1400&amp;q=80" alt="Serengeti Kitchen">
+    </a>
+    <div class="listing-card__body">
+                    <p class="listing-card__eyebrow">Tanzania • Regional house cuisine</p>
+                <h3><a href="/restaurants/serengeti-kitchen-near-serengeti-national-park">Serengeti Kitchen</a></h3>
+        <p>A recommended restaurant stop near Serengeti National Park for travelers who want local flavor and a dependable service rhythm between activity windows.</p>
+        <div class="listing-card__meta">
+                            <span>★ 4.3 (137)</span>
+                                        <span>$$</span>
                     </div>
-                </article>
-                            <article class="content-card reveal">
-                    <div class="card-image-wrap">
-                        <img src="https://images.unsplash.com/photo-1466978913421-dad2ebd01d17?auto=format&amp;fit=crop&amp;w=900&amp;q=80" alt="Bwindi Forest Table">
-                        <span class="card-badge">Uganda</span>
-                        <span class="card-badge price">Midrange</span>
+        <div class="listing-card__footer">
+                            <div class="chip-row">
+                                            <span>Chef’s seasonal local plate</span>
+                                            <span>Serengeti National Park</span>
+                                    </div>
+                        <a href="/restaurants/serengeti-kitchen-near-serengeti-national-park" class="button button--ghost">View Details</a>
+        </div>
+    </div>
+</article>
+                            <article class="listing-card">
+    <a href="/restaurants/zanzibar-kitchen-near-zanzibar" class="listing-card__image">
+        <img src="https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&amp;fit=crop&amp;w=1400&amp;q=80" alt="Zanzibar Kitchen">
+    </a>
+    <div class="listing-card__body">
+                    <p class="listing-card__eyebrow">Tanzania • Regional house cuisine</p>
+                <h3><a href="/restaurants/zanzibar-kitchen-near-zanzibar">Zanzibar Kitchen</a></h3>
+        <p>A recommended restaurant stop near Zanzibar for travelers who want local flavor and a dependable service rhythm between activity windows.</p>
+        <div class="listing-card__meta">
+                            <span>★ 4.4 (150)</span>
+                                        <span>$$</span>
                     </div>
-                    <div class="content-card-body">
-                        <p class="meta">East Africa � Farm-to-lodge cuisine</p>
-                        <h3>Bwindi Forest Table</h3>
-                        <p>A quiet forest-edge dining room serving produce-driven menus built for trekkers returning from the hills.</p>
-                        <div class="pill-row">
-                            <span>Trek recovery lunch</span>
-                        </div>
-                        <a href="/destinations/bwindi-impenetrable-national-park" class="btn-outline">Open destination page <span class="btn-icon">?</span></a>
+        <div class="listing-card__footer">
+                            <div class="chip-row">
+                                            <span>Chef’s seasonal local plate</span>
+                                            <span>Zanzibar</span>
+                                    </div>
+                        <a href="/restaurants/zanzibar-kitchen-near-zanzibar" class="button button--ghost">View Details</a>
+        </div>
+    </div>
+</article>
+                            <article class="listing-card">
+    <a href="/restaurants/volcanoes-kitchen-near-volcanoes-national-park" class="listing-card__image">
+        <img src="https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&amp;fit=crop&amp;w=1400&amp;q=80" alt="Volcanoes Kitchen">
+    </a>
+    <div class="listing-card__body">
+                    <p class="listing-card__eyebrow">Rwanda • Regional house cuisine</p>
+                <h3><a href="/restaurants/volcanoes-kitchen-near-volcanoes-national-park">Volcanoes Kitchen</a></h3>
+        <p>A recommended restaurant stop near Volcanoes National Park for travelers who want local flavor and a dependable service rhythm between activity windows.</p>
+        <div class="listing-card__meta">
+                            <span>★ 4.5 (163)</span>
+                                        <span>$$$</span>
                     </div>
-                </article>
-                            <article class="content-card reveal">
-                    <div class="card-image-wrap">
-                        <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&amp;fit=crop&amp;w=900&amp;q=80" alt="Kilimanjaro View Grill">
-                        <span class="card-badge">Kenya</span>
-                        <span class="card-badge price">Midrange</span>
+        <div class="listing-card__footer">
+                            <div class="chip-row">
+                                            <span>Chef’s seasonal local plate</span>
+                                            <span>Volcanoes National Park</span>
+                                    </div>
+                        <a href="/restaurants/volcanoes-kitchen-near-volcanoes-national-park" class="button button--ghost">View Details</a>
+        </div>
+    </div>
+</article>
+                            <article class="listing-card">
+    <a href="/restaurants/lalibela-kitchen-near-lalibela" class="listing-card__image">
+        <img src="https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&amp;fit=crop&amp;w=1400&amp;q=80" alt="Lalibela Kitchen">
+    </a>
+    <div class="listing-card__body">
+                    <p class="listing-card__eyebrow">Ethiopia • Regional house cuisine</p>
+                <h3><a href="/restaurants/lalibela-kitchen-near-lalibela">Lalibela Kitchen</a></h3>
+        <p>A recommended restaurant stop near Lalibela for travelers who want local flavor and a dependable service rhythm between activity windows.</p>
+        <div class="listing-card__meta">
+                            <span>★ 4.6 (176)</span>
+                                        <span>$</span>
                     </div>
-                    <div class="content-card-body">
-                        <p class="meta">East Africa � Kenyan lodge dining</p>
-                        <h3>Kilimanjaro View Grill</h3>
-                        <p>Open-air dinners with Kilimanjaro views, slow breakfasts, and a strong base for family safari evenings.</p>
-                        <div class="pill-row">
-                            <span>Bush breakfast with mountain view</span>
-                        </div>
-                        <a href="/destinations/amboseli-national-park" class="btn-outline">Open destination page <span class="btn-icon">?</span></a>
+        <div class="listing-card__footer">
+                            <div class="chip-row">
+                                            <span>Chef’s seasonal local plate</span>
+                                            <span>Lalibela</span>
+                                    </div>
+                        <a href="/restaurants/lalibela-kitchen-near-lalibela" class="button button--ghost">View Details</a>
+        </div>
+    </div>
+</article>
+                            <article class="listing-card">
+    <a href="/restaurants/cape-coast-kitchen-near-cape-coast-kakum" class="listing-card__image">
+        <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&amp;fit=crop&amp;w=1400&amp;q=80" alt="Cape Coast Kitchen">
+    </a>
+    <div class="listing-card__body">
+                    <p class="listing-card__eyebrow">Ghana • Ghanaian</p>
+                <h3><a href="/restaurants/cape-coast-kitchen-near-cape-coast-kakum">Cape Coast Kitchen</a></h3>
+        <p>A recommended restaurant stop near Cape Coast &amp; Kakum for travelers who want local flavor and a dependable service rhythm between activity windows.</p>
+        <div class="listing-card__meta">
+                            <span>★ 4.3 (189)</span>
+                                        <span>$</span>
                     </div>
-                </article>
-                            <article class="content-card reveal">
-                    <div class="card-image-wrap">
-                        <img src="https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&amp;fit=crop&amp;w=900&amp;q=80" alt="Stone Town Rooftop Kitchen">
-                        <span class="card-badge">Tanzania</span>
-                        <span class="card-badge price">Midrange</span>
+        <div class="listing-card__footer">
+                            <div class="chip-row">
+                                            <span>Jollof rice and grilled fish</span>
+                                            <span>Cape Coast &amp; Kakum</span>
+                                    </div>
+                        <a href="/restaurants/cape-coast-kitchen-near-cape-coast-kakum" class="button button--ghost">View Details</a>
+        </div>
+    </div>
+</article>
+                            <article class="listing-card">
+    <a href="/restaurants/sine-saloum-delta-kitchen-near-sine-saloum-delta" class="listing-card__image">
+        <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&amp;fit=crop&amp;w=1400&amp;q=80" alt="Sine-Saloum Delta Kitchen">
+    </a>
+    <div class="listing-card__body">
+                    <p class="listing-card__eyebrow">Senegal • Senegalese &amp; Atlantic seafood</p>
+                <h3><a href="/restaurants/sine-saloum-delta-kitchen-near-sine-saloum-delta">Sine-Saloum Delta Kitchen</a></h3>
+        <p>A recommended restaurant stop near Sine-Saloum Delta for travelers who want local flavor and a dependable service rhythm between activity windows.</p>
+        <div class="listing-card__meta">
+                            <span>★ 4.4 (202)</span>
+                                        <span>$</span>
                     </div>
-                    <div class="content-card-body">
-                        <p class="meta">East Africa � Swahili seafood and spice-forward plates</p>
-                        <h3>Stone Town Rooftop Kitchen</h3>
-                        <p>A relaxed Stone Town rooftop for seafood, spice-rich curries, and sunset views over old coral-stone rooftops.</p>
-                        <div class="pill-row">
-                            <span>Spice market seafood platter</span>
-                        </div>
-                        <a href="/destinations/zanzibar" class="btn-outline">Open destination page <span class="btn-icon">?</span></a>
+        <div class="listing-card__footer">
+                            <div class="chip-row">
+                                            <span>Thieboudienne</span>
+                                            <span>Sine-Saloum Delta</span>
+                                    </div>
+                        <a href="/restaurants/sine-saloum-delta-kitchen-near-sine-saloum-delta" class="button button--ghost">View Details</a>
+        </div>
+    </div>
+</article>
+                            <article class="listing-card">
+    <a href="/restaurants/ouidah-kitchen-near-ouidah-ganvie" class="listing-card__image">
+        <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&amp;fit=crop&amp;w=1400&amp;q=80" alt="Ouidah Kitchen">
+    </a>
+    <div class="listing-card__body">
+                    <p class="listing-card__eyebrow">Benin • Beninese</p>
+                <h3><a href="/restaurants/ouidah-kitchen-near-ouidah-ganvie">Ouidah Kitchen</a></h3>
+        <p>A recommended restaurant stop near Ouidah &amp; Ganvié for travelers who want local flavor and a dependable service rhythm between activity windows.</p>
+        <div class="listing-card__meta">
+                            <span>★ 4.5 (215)</span>
+                                        <span>$</span>
                     </div>
-                </article>
-                            <article class="content-card reveal">
-                    <div class="card-image-wrap">
-                        <img src="https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&amp;fit=crop&amp;w=900&amp;q=80" alt="Serengeti Salt Kitchen">
-                        <span class="card-badge">Tanzania</span>
-                        <span class="card-badge price">Midrange</span>
+        <div class="listing-card__footer">
+                            <div class="chip-row">
+                                            <span>Chef’s seasonal local plate</span>
+                                            <span>Ouidah &amp; Ganvié</span>
+                                    </div>
+                        <a href="/restaurants/ouidah-kitchen-near-ouidah-ganvie" class="button button--ghost">View Details</a>
+        </div>
+    </div>
+</article>
+                            <article class="listing-card">
+    <a href="/restaurants/tokeh-kitchen-near-tokeh-river-no-2-beach" class="listing-card__image">
+        <img src="https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&amp;fit=crop&amp;w=1400&amp;q=80" alt="Tokeh Kitchen">
+    </a>
+    <div class="listing-card__body">
+                    <p class="listing-card__eyebrow">Sierra Leone • Regional house cuisine</p>
+                <h3><a href="/restaurants/tokeh-kitchen-near-tokeh-river-no-2-beach">Tokeh Kitchen</a></h3>
+        <p>A recommended restaurant stop near Tokeh &amp; River No. 2 Beach for travelers who want local flavor and a dependable service rhythm between activity windows.</p>
+        <div class="listing-card__meta">
+                            <span>★ 4.6 (228)</span>
+                                        <span>$</span>
                     </div>
-                    <div class="content-card-body">
-                        <p class="meta">East Africa � East African comfort food</p>
-                        <h3>Serengeti Salt Kitchen</h3>
-                        <p>Relaxed lodge restaurant known for fresh tilapia, chapati breakfasts, and easy family dinners between drives.</p>
-                        <div class="pill-row">
-                            <span>Swahili breakfast board</span>
-                        </div>
-                        <a href="/destinations/serengeti-national-park" class="btn-outline">Open destination page <span class="btn-icon">?</span></a>
+        <div class="listing-card__footer">
+                            <div class="chip-row">
+                                            <span>Chef’s seasonal local plate</span>
+                                            <span>Tokeh &amp; River No. 2 Beach</span>
+                                    </div>
+                        <a href="/restaurants/tokeh-kitchen-near-tokeh-river-no-2-beach" class="button button--ghost">View Details</a>
+        </div>
+    </div>
+</article>
+                            <article class="listing-card">
+    <a href="/restaurants/sal-island-kitchen-near-sal-island" class="listing-card__image">
+        <img src="https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&amp;fit=crop&amp;w=1400&amp;q=80" alt="Sal Island Kitchen">
+    </a>
+    <div class="listing-card__body">
+                    <p class="listing-card__eyebrow">Cabo Verde • Regional house cuisine</p>
+                <h3><a href="/restaurants/sal-island-kitchen-near-sal-island">Sal Island Kitchen</a></h3>
+        <p>A recommended restaurant stop near Sal Island for travelers who want local flavor and a dependable service rhythm between activity windows.</p>
+        <div class="listing-card__meta">
+                            <span>★ 4.3 (241)</span>
+                                        <span>$</span>
                     </div>
-                </article>
-                            <article class="content-card reveal">
-                    <div class="card-image-wrap">
-                        <img src="https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&amp;fit=crop&amp;w=900&amp;q=80" alt="Cape Quarter Pantry">
-                        <span class="card-badge">South Africa</span>
-                        <span class="card-badge price">Midrange</span>
+        <div class="listing-card__footer">
+                            <div class="chip-row">
+                                            <span>Chef’s seasonal local plate</span>
+                                            <span>Sal Island</span>
+                                    </div>
+                        <a href="/restaurants/sal-island-kitchen-near-sal-island" class="button button--ghost">View Details</a>
+        </div>
+    </div>
+</article>
+                            <article class="listing-card">
+    <a href="/restaurants/cape-town-kitchen-near-cape-town" class="listing-card__image">
+        <img src="https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&amp;fit=crop&amp;w=1400&amp;q=80" alt="Cape Town Kitchen">
+    </a>
+    <div class="listing-card__body">
+                    <p class="listing-card__eyebrow">South Africa • Contemporary South African</p>
+                <h3><a href="/restaurants/cape-town-kitchen-near-cape-town">Cape Town Kitchen</a></h3>
+        <p>A recommended restaurant stop near Cape Town for travelers who want local flavor and a dependable service rhythm between activity windows.</p>
+        <div class="listing-card__meta">
+                            <span>★ 4.4 (254)</span>
+                                        <span>$$$</span>
                     </div>
-                    <div class="content-card-body">
-                        <p class="meta">Southern Africa � Cape Malay and modern South African</p>
-                        <h3>Cape Quarter Pantry</h3>
-                        <p>A design-forward city stop for spice-rich plates, natural wine, and neighborhood storytelling.</p>
-                        <div class="pill-row">
-                            <span>Cape Malay tasting supper</span>
-                        </div>
-                        <a href="/destinations/cape-town" class="btn-outline">Open destination page <span class="btn-icon">?</span></a>
+        <div class="listing-card__footer">
+                            <div class="chip-row">
+                                            <span>Braai platters and Cape produce</span>
+                                            <span>Cape Town</span>
+                                    </div>
+                        <a href="/restaurants/cape-town-kitchen-near-cape-town" class="button button--ghost">View Details</a>
+        </div>
+    </div>
+</article>
+                            <article class="listing-card">
+    <a href="/restaurants/kruger-kitchen-near-kruger-national-park" class="listing-card__image">
+        <img src="https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&amp;fit=crop&amp;w=1400&amp;q=80" alt="Kruger Kitchen">
+    </a>
+    <div class="listing-card__body">
+                    <p class="listing-card__eyebrow">South Africa • Contemporary South African</p>
+                <h3><a href="/restaurants/kruger-kitchen-near-kruger-national-park">Kruger Kitchen</a></h3>
+        <p>A recommended restaurant stop near Kruger National Park for travelers who want local flavor and a dependable service rhythm between activity windows.</p>
+        <div class="listing-card__meta">
+                            <span>★ 4.5 (267)</span>
+                                        <span>$$$</span>
                     </div>
-                </article>
-                            <article class="content-card reveal">
-                    <div class="card-image-wrap">
-                        <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&amp;fit=crop&amp;w=900&amp;q=80" alt="Falls Market Kitchen">
-                        <span class="card-badge">Zimbabwe</span>
-                        <span class="card-badge price">Midrange</span>
+        <div class="listing-card__footer">
+                            <div class="chip-row">
+                                            <span>Braai platters and Cape produce</span>
+                                            <span>Kruger National Park</span>
+                                    </div>
+                        <a href="/restaurants/kruger-kitchen-near-kruger-national-park" class="button button--ghost">View Details</a>
+        </div>
+    </div>
+</article>
+                            <article class="listing-card">
+    <a href="/restaurants/okavango-delta-kitchen-near-okavango-delta" class="listing-card__image">
+        <img src="https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&amp;fit=crop&amp;w=1400&amp;q=80" alt="Okavango Delta Kitchen">
+    </a>
+    <div class="listing-card__body">
+                    <p class="listing-card__eyebrow">Botswana • Regional house cuisine</p>
+                <h3><a href="/restaurants/okavango-delta-kitchen-near-okavango-delta">Okavango Delta Kitchen</a></h3>
+        <p>A recommended restaurant stop near Okavango Delta for travelers who want local flavor and a dependable service rhythm between activity windows.</p>
+        <div class="listing-card__meta">
+                            <span>★ 4.6 (280)</span>
+                                        <span>$$$</span>
                     </div>
-                    <div class="content-card-body">
-                        <p class="meta">Southern Africa � Regional plates and riverside cocktails</p>
-                        <h3>Falls Market Kitchen</h3>
-                        <p>A lively pre- or post-activity stop for grilled fish, local produce, and Zambezi sundowners.</p>
-                        <div class="pill-row">
-                            <span>Zambezi sunset dinner</span>
-                        </div>
-                        <a href="/destinations/victoria-falls" class="btn-outline">Open destination page <span class="btn-icon">?</span></a>
+        <div class="listing-card__footer">
+                            <div class="chip-row">
+                                            <span>Chef’s seasonal local plate</span>
+                                            <span>Okavango Delta</span>
+                                    </div>
+                        <a href="/restaurants/okavango-delta-kitchen-near-okavango-delta" class="button button--ghost">View Details</a>
+        </div>
+    </div>
+</article>
+                            <article class="listing-card">
+    <a href="/restaurants/namib-desert-kitchen-near-namib-desert" class="listing-card__image">
+        <img src="https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&amp;fit=crop&amp;w=1400&amp;q=80" alt="Namib Desert Kitchen">
+    </a>
+    <div class="listing-card__body">
+                    <p class="listing-card__eyebrow">Namibia • Regional house cuisine</p>
+                <h3><a href="/restaurants/namib-desert-kitchen-near-namib-desert">Namib Desert Kitchen</a></h3>
+        <p>A recommended restaurant stop near Namib Desert for travelers who want local flavor and a dependable service rhythm between activity windows.</p>
+        <div class="listing-card__meta">
+                            <span>★ 4.3 (293)</span>
+                                        <span>$</span>
                     </div>
-                </article>
-                            <article class="content-card reveal">
-                    <div class="card-image-wrap">
-                        <img src="https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&amp;fit=crop&amp;w=900&amp;q=80" alt="Desert Lantern Supper Club">
-                        <span class="card-badge">Morocco</span>
-                        <span class="card-badge price">Budget</span>
+        <div class="listing-card__footer">
+                            <div class="chip-row">
+                                            <span>Chef’s seasonal local plate</span>
+                                            <span>Namib Desert</span>
+                                    </div>
+                        <a href="/restaurants/namib-desert-kitchen-near-namib-desert" class="button button--ghost">View Details</a>
+        </div>
+    </div>
+</article>
+                            <article class="listing-card">
+    <a href="/restaurants/victoria-falls-kitchen-near-victoria-falls" class="listing-card__image">
+        <img src="https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&amp;fit=crop&amp;w=1400&amp;q=80" alt="Victoria Falls Kitchen">
+    </a>
+    <div class="listing-card__body">
+                    <p class="listing-card__eyebrow">Zimbabwe • Regional house cuisine</p>
+                <h3><a href="/restaurants/victoria-falls-kitchen-near-victoria-falls">Victoria Falls Kitchen</a></h3>
+        <p>A recommended restaurant stop near Victoria Falls for travelers who want local flavor and a dependable service rhythm between activity windows.</p>
+        <div class="listing-card__meta">
+                            <span>★ 4.4 (306)</span>
+                                        <span>$</span>
                     </div>
-                    <div class="content-card-body">
-                        <p class="meta">North Africa � Berber home-style cooking</p>
-                        <h3>Desert Lantern Supper Club</h3>
-                        <p>Campfire dinners with tagines, mint tea, and live drumming under a clear desert sky.</p>
-                        <div class="pill-row">
-                            <span>Tagine under the stars</span>
-                        </div>
-                        <a href="/destinations/sahara-dunes" class="btn-outline">Open destination page <span class="btn-icon">?</span></a>
+        <div class="listing-card__footer">
+                            <div class="chip-row">
+                                            <span>Chef’s seasonal local plate</span>
+                                            <span>Victoria Falls</span>
+                                    </div>
+                        <a href="/restaurants/victoria-falls-kitchen-near-victoria-falls" class="button button--ghost">View Details</a>
+        </div>
+    </div>
+</article>
+                            <article class="listing-card">
+    <a href="/restaurants/south-luangwa-kitchen-near-south-luangwa-national-park" class="listing-card__image">
+        <img src="https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&amp;fit=crop&amp;w=1400&amp;q=80" alt="South Luangwa Kitchen">
+    </a>
+    <div class="listing-card__body">
+                    <p class="listing-card__eyebrow">Zambia • Regional house cuisine</p>
+                <h3><a href="/restaurants/south-luangwa-kitchen-near-south-luangwa-national-park">South Luangwa Kitchen</a></h3>
+        <p>A recommended restaurant stop near South Luangwa National Park for travelers who want local flavor and a dependable service rhythm between activity windows.</p>
+        <div class="listing-card__meta">
+                            <span>★ 4.5 (319)</span>
+                                        <span>$</span>
                     </div>
-                </article>
-                            <article class="content-card reveal">
-                    <div class="card-image-wrap">
-                        <img src="https://images.unsplash.com/photo-1466978913421-dad2ebd01d17?auto=format&amp;fit=crop&amp;w=900&amp;q=80" alt="Volcanoes Harvest Room">
-                        <span class="card-badge">Rwanda</span>
-                        <span class="card-badge price">Luxury</span>
+        <div class="listing-card__footer">
+                            <div class="chip-row">
+                                            <span>Chef’s seasonal local plate</span>
+                                            <span>South Luangwa National Park</span>
+                                    </div>
+                        <a href="/restaurants/south-luangwa-kitchen-near-south-luangwa-national-park" class="button button--ghost">View Details</a>
+        </div>
+    </div>
+</article>
+                            <article class="listing-card">
+    <a href="/restaurants/marrakech-kitchen-near-marrakech-atlas-gateway" class="listing-card__image">
+        <img src="https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?auto=format&amp;fit=crop&amp;w=1400&amp;q=80" alt="Marrakech Kitchen">
+    </a>
+    <div class="listing-card__body">
+                    <p class="listing-card__eyebrow">Morocco • Moroccan</p>
+                <h3><a href="/restaurants/marrakech-kitchen-near-marrakech-atlas-gateway">Marrakech Kitchen</a></h3>
+        <p>A recommended restaurant stop near Marrakech &amp; Atlas Gateway for travelers who want local flavor and a dependable service rhythm between activity windows.</p>
+        <div class="listing-card__meta">
+                            <span>★ 4.6 (332)</span>
+                                        <span>$$</span>
                     </div>
-                    <div class="content-card-body">
-                        <p class="meta">Central Africa � Rwandan produce-led dining</p>
-                        <h3>Volcanoes Harvest Room</h3>
-                        <p>Elegant post-trek dinners focused on seasonal vegetables, coffee, and mountain views.</p>
-                        <div class="pill-row">
-                            <span>Chef-led gorilla trek recovery menu</span>
-                        </div>
-                        <a href="/destinations/volcanoes-national-park" class="btn-outline">Open destination page <span class="btn-icon">?</span></a>
+        <div class="listing-card__footer">
+                            <div class="chip-row">
+                                            <span>Lamb tagine</span>
+                                            <span>Marrakech &amp; Atlas Gateway</span>
+                                    </div>
+                        <a href="/restaurants/marrakech-kitchen-near-marrakech-atlas-gateway" class="button button--ghost">View Details</a>
+        </div>
+    </div>
+</article>
+                            <article class="listing-card">
+    <a href="/restaurants/sahara-dunes-kitchen-near-sahara-dunes" class="listing-card__image">
+        <img src="https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?auto=format&amp;fit=crop&amp;w=1400&amp;q=80" alt="Sahara Dunes Kitchen">
+    </a>
+    <div class="listing-card__body">
+                    <p class="listing-card__eyebrow">Morocco • Moroccan</p>
+                <h3><a href="/restaurants/sahara-dunes-kitchen-near-sahara-dunes">Sahara Dunes Kitchen</a></h3>
+        <p>A recommended restaurant stop near Sahara Dunes for travelers who want local flavor and a dependable service rhythm between activity windows.</p>
+        <div class="listing-card__meta">
+                            <span>★ 4.3 (345)</span>
+                                        <span>$$</span>
                     </div>
-                </article>
-                            <article class="content-card reveal">
-                    <div class="card-image-wrap">
-                        <img src="https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&amp;fit=crop&amp;w=900&amp;q=80" alt="Namib Ember Table">
-                        <span class="card-badge">Namibia</span>
-                        <span class="card-badge price">Luxury</span>
+        <div class="listing-card__footer">
+                            <div class="chip-row">
+                                            <span>Lamb tagine</span>
+                                            <span>Sahara Dunes</span>
+                                    </div>
+                        <a href="/restaurants/sahara-dunes-kitchen-near-sahara-dunes" class="button button--ghost">View Details</a>
+        </div>
+    </div>
+</article>
+                            <article class="listing-card">
+    <a href="/restaurants/cairo-kitchen-near-cairo-giza" class="listing-card__image">
+        <img src="https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?auto=format&amp;fit=crop&amp;w=1400&amp;q=80" alt="Cairo Kitchen">
+    </a>
+    <div class="listing-card__body">
+                    <p class="listing-card__eyebrow">Egypt • Egyptian &amp; Middle Eastern</p>
+                <h3><a href="/restaurants/cairo-kitchen-near-cairo-giza">Cairo Kitchen</a></h3>
+        <p>A recommended restaurant stop near Cairo &amp; Giza for travelers who want local flavor and a dependable service rhythm between activity windows.</p>
+        <div class="listing-card__meta">
+                            <span>★ 4.4 (358)</span>
+                                        <span>$$</span>
                     </div>
-                    <div class="content-card-body">
-                        <p class="meta">Southern Africa � Desert lodge dining</p>
-                        <h3>Namib Ember Table</h3>
-                        <p>A lodge dining room built around sunset dinners, stargazing pauses, and slow Namib evenings.</p>
-                        <div class="pill-row">
-                            <span>Desert dusk tasting dinner</span>
-                        </div>
-                        <a href="/destinations/namib-desert" class="btn-outline">Open destination page <span class="btn-icon">?</span></a>
+        <div class="listing-card__footer">
+                            <div class="chip-row">
+                                            <span>Koshari and mezze</span>
+                                            <span>Cairo &amp; Giza</span>
+                                    </div>
+                        <a href="/restaurants/cairo-kitchen-near-cairo-giza" class="button button--ghost">View Details</a>
+        </div>
+    </div>
+</article>
+                            <article class="listing-card">
+    <a href="/restaurants/tunis-kitchen-near-tunis-sidi-bou-said" class="listing-card__image">
+        <img src="https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?auto=format&amp;fit=crop&amp;w=1400&amp;q=80" alt="Tunis Kitchen">
+    </a>
+    <div class="listing-card__body">
+                    <p class="listing-card__eyebrow">Tunisia • Tunisian Mediterranean</p>
+                <h3><a href="/restaurants/tunis-kitchen-near-tunis-sidi-bou-said">Tunis Kitchen</a></h3>
+        <p>A recommended restaurant stop near Tunis &amp; Sidi Bou Said for travelers who want local flavor and a dependable service rhythm between activity windows.</p>
+        <div class="listing-card__meta">
+                            <span>★ 4.5 (371)</span>
+                                        <span>$$</span>
                     </div>
-                </article>
-                            <article class="content-card reveal">
-                    <div class="card-image-wrap">
-                        <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&amp;fit=crop&amp;w=900&amp;q=80" alt="Pyramids Lantern Dining Room">
-                        <span class="card-badge">Egypt</span>
-                        <span class="card-badge price">Midrange</span>
+        <div class="listing-card__footer">
+                            <div class="chip-row">
+                                            <span>Chef’s seasonal local plate</span>
+                                            <span>Tunis &amp; Sidi Bou Said</span>
+                                    </div>
+                        <a href="/restaurants/tunis-kitchen-near-tunis-sidi-bou-said" class="button button--ghost">View Details</a>
+        </div>
+    </div>
+</article>
+                            <article class="listing-card">
+    <a href="/restaurants/djanet-kitchen-near-djanet-tassili-najjer" class="listing-card__image">
+        <img src="https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&amp;fit=crop&amp;w=1400&amp;q=80" alt="Djanet Kitchen">
+    </a>
+    <div class="listing-card__body">
+                    <p class="listing-card__eyebrow">Algeria • Regional house cuisine</p>
+                <h3><a href="/restaurants/djanet-kitchen-near-djanet-tassili-najjer">Djanet Kitchen</a></h3>
+        <p>A recommended restaurant stop near Djanet &amp; Tassili n’Ajjer for travelers who want local flavor and a dependable service rhythm between activity windows.</p>
+        <div class="listing-card__meta">
+                            <span>★ 4.6 (384)</span>
+                                        <span>$</span>
                     </div>
-                    <div class="content-card-body">
-                        <p class="meta">North Africa � Egyptian classics and terrace dining</p>
-                        <h3>Pyramids Lantern Dining Room</h3>
-                        <p>A practical Cairo-Giza dining stop for travelers who want local classics and evening pyramid views.</p>
-                        <div class="pill-row">
-                            <span>Cairo mezze supper</span>
-                        </div>
-                        <a href="/destinations/cairo-and-giza" class="btn-outline">Open destination page <span class="btn-icon">?</span></a>
-                    </div>
-                </article>
-                            <article class="content-card reveal">
-                    <div class="card-image-wrap">
-                        <img src="https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&amp;fit=crop&amp;w=900&amp;q=80" alt="Marrakech Courtyard Table">
-                        <span class="card-badge">Morocco</span>
-                        <span class="card-badge price">Midrange</span>
-                    </div>
-                    <div class="content-card-body">
-                        <p class="meta">North Africa � Moroccan riad dining</p>
-                        <h3>Marrakech Courtyard Table</h3>
-                        <p>An atmospheric courtyard dining room for tagines, salads, mint tea, and slower evenings after medina walking.</p>
-                        <div class="pill-row">
-                            <span>Classic riad dinner</span>
-                        </div>
-                        <a href="/destinations/marrakech-and-atlas" class="btn-outline">Open destination page <span class="btn-icon">?</span></a>
-                    </div>
-                </article>
-                            <article class="content-card reveal">
-                    <div class="card-image-wrap">
-                        <img src="https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&amp;fit=crop&amp;w=900&amp;q=80" alt="Cape Coast Verandah Kitchen">
-                        <span class="card-badge">Ghana</span>
-                        <span class="card-badge price">Midrange</span>
-                    </div>
-                    <div class="content-card-body">
-                        <p class="meta">West Africa � Ghanaian coastal cuisine</p>
-                        <h3>Cape Coast Verandah Kitchen</h3>
-                        <p>A relaxed coastal dining stop built around fish, stews, and easy evenings after heritage touring.</p>
-                        <div class="pill-row">
-                            <span>Coastal fish supper</span>
-                        </div>
-                        <a href="/destinations/cape-coast-and-kakum" class="btn-outline">Open destination page <span class="btn-icon">?</span></a>
-                    </div>
-                </article>
+        <div class="listing-card__footer">
+                            <div class="chip-row">
+                                            <span>Chef’s seasonal local plate</span>
+                                            <span>Djanet &amp; Tassili n’Ajjer</span>
+                                    </div>
+                        <a href="/restaurants/djanet-kitchen-near-djanet-tassili-najjer" class="button button--ghost">View Details</a>
+        </div>
+    </div>
+</article>
                     </div>
     </div>
 </section>
-        </main>
+    </main>
 
-        <footer class="site-footer">
-            <div class="container footer-grid">
-                <div>
-                    <a href="/" class="footer-brand">
-                        <img src="/logo to edit.png" alt="Trek Africa Guide logo" class="footer-brand-image">
-                        <span>Trek Africa Guide</span>
-                    </a>
-                    <p class="footer-tagline">A minimalist but comprehensive Africa travel directory built to help travelers discover where to go, what to do, where to stay, and where to eat before they book with verified partners.</p>
-                    <div class="footer-socials">
-                        <a href="#" aria-label="Facebook">f</a>
-                        <a href="#" aria-label="Instagram">in</a>
-                        <a href="#" aria-label="Twitter / X">x</a>
-                        <a href="#" aria-label="YouTube">yt</a>
-                    </div>
-                </div>
-                <div>
-                    <h4>Explore</h4>
-                    <ul>
-                        <li><a href="/regions">Regions</a></li>
-                        <li><a href="/destinations">Destinations</a></li>
-                        <li><a href="/safaris-tours">Safaris & Tours</a></li>
-                        <li><a href="/accommodations">Stays</a></li>
-                    </ul>
-                </div>
-                <div>
-                    <h4>Plan Better</h4>
-                    <ul>
-                        <li><a href="/restaurants">Eat & Drink</a></li>
-                        <li><a href="/local-experiences">Experiences</a></li>
-                        <li><a href="/travel-guides?category=Planning+Tips">Planning Tips</a></li>
-                        <li><a href="/travel-guides?category=Culture">Culture</a></li>
-                        <li><a href="/travel-guides?category=Safety">Safety</a></li>
-                    </ul>
-                </div>
-                <div>
-                    <h4>How It Works</h4>
-                    <ul>
-                        <li><a href="/about">About Us</a></li>
-                        <li><a href="/contact">Contact</a></li>
-                        <li><a href="/travel-guides">Travel Insights</a></li>
-                        <li><a href="/destinations">Compare before booking</a></li>
-                    </ul>
-                </div>
+    <footer class="site-footer">
+        <div class="container footer-grid">
+            <div>
+                <h3>Trek Africa Guide</h3>
+                <p>African travel guide and booking directory for regions, countries, attractions, stays, dining, and trusted partner booking paths.</p>
+                <p>Travelers can compare the route logic, nearby stays, dining, and practical access notes on Trek Africa Guide before continuing to external booking partners.</p>
             </div>
-            <div class="container disclaimer-row">
-                <p><strong>Affiliate Notice:</strong> Trek Africa Guide is a directory and editorial research platform. Booking buttons redirect to partner landing pages such as TravelPayouts-powered offers, Viator, and GetYourGuide.</p>
+            <div>
+                <h4>Explore</h4>
+                <ul>
+                    <li><a href="/regions">Regions</a></li>
+                    <li><a href="/countries">Countries</a></li>
+                    <li><a href="/attractions">Attractions</a></li>
+                    <li><a href="/accommodations">Accommodations</a></li>
+                    <li><a href="/restaurants">Restaurants</a></li>
+                </ul>
             </div>
-            <div class="container footer-bottom">
-                <p>&copy; 2026 Trek Africa Guide. All rights reserved.</p>
+            <div>
+                <h4>Planning Focus</h4>
+                <ul>
+                                            <li><a href="/regions/east-africa">East Africa</a></li>
+                                            <li><a href="/regions/west-africa">West Africa</a></li>
+                                            <li><a href="/regions/southern-africa">Southern Africa</a></li>
+                                            <li><a href="/regions/northern-africa">Northern Africa</a></li>
+                                    </ul>
             </div>
-        </footer>
-    </div>
-
-    <button class="back-to-top" aria-label="Back to top">↑</button>
+            <div>
+                <h4>CMS</h4>
+                <ul>
+                                            <li><a href="/admin/login">Admin login</a></li>
+                                    </ul>
+            </div>
+        </div>
+        <div class="container footer-note">
+            <p>Affiliate notice: booking buttons redirect to external partner pages for the selected listing. Always verify live availability, rates, and final booking terms on the partner side.</p>
+        </div>
+    </footer>
 </body>
 </html>

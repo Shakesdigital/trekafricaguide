@@ -1,8 +1,7 @@
 # Netlify redirects for clean URL routing
-/safaris-tours      /safaris-tours/index.html   200
+/regions            /regions/index.html         200
+/countries          /countries/index.html       200
+/attractions        /attractions/index.html     200
+/accommodations     /accommodations/index.html  200
 /restaurants        /restaurants/index.html     200
-/travel-guides      /travel-guides/index.html   200
-/local-experiences  /local-experiences/index.html 200
-
-# SPA-style catch-all for any unmatched path → 404 page (or home)
 /*                  /index.html                  404
