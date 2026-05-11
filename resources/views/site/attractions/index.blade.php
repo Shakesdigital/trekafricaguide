@@ -1,9 +1,10 @@
 @extends('layouts.site')
 
 @section('content')
-<section class="page-hero" style="--hero-image:url('{{ asset('listing style.png') }}')">
-    <div class="page-hero__overlay page-hero__overlay--light"></div>
-    <div class="container page-hero__content page-hero__content--dark">
+<section class="page-hero">
+    @include('site.partials.image-slot', ['image' => 'image-slot:attractions-index-hero', 'alt' => 'Reserved hero image space for attraction listings', 'class' => 'page-hero__slot'])
+    <div class="page-hero__overlay"></div>
+    <div class="container page-hero__content">
         @include('site.partials.breadcrumbs', ['items' => [['label' => 'Home', 'href' => route('home')], ['label' => 'Attractions']]])
         <p class="eyebrow">Listings</p>
         <h1>Browse attractions in a clean, marketplace-style listing layout.</h1>

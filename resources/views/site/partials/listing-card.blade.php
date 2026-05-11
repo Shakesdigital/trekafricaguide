@@ -1,6 +1,6 @@
 <article class="listing-card">
     <a href="{{ $href }}" class="listing-card__image">
-        <img src="{{ $image }}" alt="{{ $title }}">
+        @include('site.partials.image-slot', ['image' => $image ?? null, 'alt' => $title, 'class' => 'listing-card__slot'])
     </a>
     <div class="listing-card__body">
         @if(!empty($eyebrow))

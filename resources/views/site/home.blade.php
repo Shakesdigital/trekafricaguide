@@ -4,18 +4,43 @@
 @php
     $hero = $sections['hero'] ?? null;
     $intro = $sections['intro'] ?? null;
+    $heroSlides = collect($hero?->meta['slides'] ?? [])->values();
 @endphp
 
-<section class="hero" style="--hero-image:url('{{ $hero?->image_url }}')">
+<section class="hero hero--carousel">
+    <div class="hero-carousel" data-hero-carousel>
+        @forelse($heroSlides as $index => $slide)
+            <div class="hero-carousel__slide @if($index === 0) is-active @endif" data-hero-slide>
+                @include('site.partials.image-slot', [
+                    'image' => 'image-slot:'.($slide['image_slot'] ?? 'home-hero'),
+                    'alt' => ($slide['region'] ?? 'Africa').' hero image slot',
+                    'class' => 'hero-carousel__slot',
+                ])
+            </div>
+        @empty
+            <div class="hero-carousel__slide is-active" data-hero-slide>
+                @include('site.partials.image-slot', ['image' => $hero?->image_url, 'alt' => 'Homepage hero image slot', 'class' => 'hero-carousel__slot'])
+            </div>
+        @endforelse
+    </div>
     <div class="hero__overlay"></div>
     <div class="container hero__content">
-        <p class="eyebrow">{{ $hero?->eyebrow }}</p>
-        <h1>{{ $hero?->title }}</h1>
-        <p class="hero__lead">{{ $hero?->body }}</p>
+        <p class="eyebrow" data-hero-region>{{ $heroSlides->first()['region'] ?? $hero?->eyebrow }}</p>
+        <h1 data-hero-title>{{ $heroSlides->first()['title'] ?? $hero?->title }}</h1>
+        <p class="hero__lead" data-hero-body>{{ $heroSlides->first()['body'] ?? $hero?->body }}</p>
         <div class="hero__actions">
             <a href="{{ route('regions.index') }}" class="button">Explore Regions</a>
             <a href="{{ route('attractions.index') }}" class="button button--ghost-light">Browse Listings</a>
         </div>
+        @if($heroSlides->count() > 1)
+            <div class="hero-carousel__controls" aria-label="Homepage region carousel">
+                @foreach($heroSlides as $index => $slide)
+                    <button type="button" class="@if($index === 0) is-active @endif" data-hero-dot data-region="{{ $slide['region'] }}" data-title="{{ $slide['title'] }}" data-body="{{ $slide['body'] }}">
+                        {{ $slide['region'] }}
+                    </button>
+                @endforeach
+            </div>
+        @endif
     </div>
 </section>
 
@@ -47,7 +72,7 @@
         <div class="region-grid">
             @foreach($featuredRegions as $region)
                 <a href="{{ route('regions.show', $region) }}" class="region-card">
-                    <img src="{{ $region->hero_image_url }}" alt="{{ $region->hero_image_alt }}">
+                    @include('site.partials.image-slot', ['image' => $region->hero_image_url, 'alt' => $region->hero_image_alt, 'class' => 'region-card__slot'])
                     <div class="region-card__content">
                         <span>{{ $region->countries_count }} countries</span>
                         <h3>{{ $region->name }}</h3>

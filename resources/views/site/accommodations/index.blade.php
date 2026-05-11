@@ -1,7 +1,8 @@
 @extends('layouts.site')
 
 @section('content')
-<section class="page-hero" style="--hero-image:url('https://images.unsplash.com/photo-1445019980597-93fa8acb246c?auto=format&fit=crop&w=1800&q=80')">
+<section class="page-hero">
+    @include('site.partials.image-slot', ['image' => 'image-slot:accommodations-index-hero', 'alt' => 'Reserved hero image space for accommodation listings', 'class' => 'page-hero__slot'])
     <div class="page-hero__overlay"></div>
     <div class="container page-hero__content">
         @include('site.partials.breadcrumbs', ['items' => [['label' => 'Home', 'href' => route('home')], ['label' => 'Accommodations']]])

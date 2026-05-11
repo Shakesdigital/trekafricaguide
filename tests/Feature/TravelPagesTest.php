@@ -29,6 +29,7 @@ class TravelPagesTest extends TestCase
             '/attractions/bwindi-impenetrable-national-park',
             '/accommodations',
             '/restaurants',
+            '/contact',
         ];
 
         foreach ($pages as $page) {

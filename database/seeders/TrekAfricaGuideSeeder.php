@@ -124,8 +124,12 @@ class TrekAfricaGuideSeeder extends Seeder
             ['group_name' => 'branding', 'key' => 'secondary_color', 'value' => '#c56b3d'],
             ['group_name' => 'branding', 'key' => 'accent_color', 'value' => '#c5b580'],
             ['group_name' => 'branding', 'key' => 'logo_path', 'value' => '/logo to edit.png'],
+            ['group_name' => 'contact', 'key' => 'contact_email', 'value' => 'hello@trekafricaguide.com'],
+            ['group_name' => 'contact', 'key' => 'contact_phone', 'value' => '+256 700 000 000'],
+            ['group_name' => 'contact', 'key' => 'contact_address', 'value' => 'Kampala, Uganda'],
+            ['group_name' => 'contact', 'key' => 'contact_note', 'value' => 'These contact details are placeholders for launch setup and can be updated from the CMS settings panel.'],
             ['group_name' => 'seo', 'key' => 'default_meta_description', 'value' => 'Plan Africa travel by region and country, compare attractions, stays, and restaurants, then continue booking with trusted external partners.'],
-            ['group_name' => 'seo', 'key' => 'default_og_image', 'value' => 'https://images.unsplash.com/photo-1516426122078-c23e76319801?auto=format&fit=crop&w=1600&q=80'],
+            ['group_name' => 'seo', 'key' => 'default_og_image', 'value' => 'image-slot:home-hero-east-africa'],
         ];
     }
 
@@ -138,8 +142,37 @@ class TrekAfricaGuideSeeder extends Seeder
                 'eyebrow' => 'Discover Africa',
                 'title' => 'Explore Africa through regions first, then book with confidence.',
                 'body' => 'Trek Africa Guide helps travelers understand the shape of an Africa trip before they commit. Start with East, West, Southern, or Northern Africa, compare countries, open a destination, and then continue to trusted booking partners for tours, stays, and dining.',
-                'image_url' => 'https://images.unsplash.com/photo-1516426122078-c23e76319801?auto=format&fit=crop&w=1800&q=80',
-                'meta' => ['cta_label' => 'Explore regions', 'cta_href' => '/regions'],
+                'image_url' => 'image-slot:home-hero-east-africa',
+                'meta' => [
+                    'cta_label' => 'Explore regions',
+                    'cta_href' => '/regions',
+                    'slides' => [
+                        [
+                            'region' => 'East Africa',
+                            'title' => 'Explore Africa through regions first: safari plains, primate forests, and Indian Ocean extensions.',
+                            'body' => 'Plan Kenya, Tanzania, Uganda, Rwanda, and Ethiopia with realistic pacing across wildlife, gorillas, coast, and heritage.',
+                            'image_slot' => 'home-hero-east-africa',
+                        ],
+                        [
+                            'region' => 'West Africa',
+                            'title' => 'Heritage coastlines, music cities, islands, and slower travel.',
+                            'body' => 'Compare Ghana, Senegal, Benin, Sierra Leone, and Cabo Verde through culture, diaspora travel, beaches, and practical logistics.',
+                            'image_slot' => 'home-hero-west-africa',
+                        ],
+                        [
+                            'region' => 'Southern Africa',
+                            'title' => 'City-and-bush routes, desert roads, waterfalls, and premium wilderness.',
+                            'body' => 'Build trips around South Africa, Botswana, Namibia, Zimbabwe, and Zambia without losing sight of routing and seasonality.',
+                            'image_slot' => 'home-hero-southern-africa',
+                        ],
+                        [
+                            'region' => 'Northern Africa',
+                            'title' => 'Medinas, antiquities, desert camps, and Mediterranean light.',
+                            'body' => 'Use Morocco, Egypt, Tunisia, and Algeria as culture-first gateways with clear notes on access, heat, and guide support.',
+                            'image_slot' => 'home-hero-northern-africa',
+                        ],
+                    ],
+                ],
                 'sort_order' => 1,
             ],
             [
@@ -148,7 +181,7 @@ class TrekAfricaGuideSeeder extends Seeder
                 'eyebrow' => 'Africa in 2026',
                 'title' => 'A continent of different travel rhythms, not one single market.',
                 'body' => 'Africa is rebounding strongly, but travelers still need clear guidance. North Africa is aviation-led and culture-rich, East Africa remains the strongest safari-and-primate gateway, Southern Africa combines wilderness with polished urban circuits, and West Africa shines for heritage, coastlines, music, and diaspora travel.',
-                'image_url' => 'https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1400&q=80',
+                'image_url' => 'image-slot:home-intro-africa-map',
                 'sort_order' => 2,
             ],
             [
@@ -196,8 +229,8 @@ class TrekAfricaGuideSeeder extends Seeder
                 'hero_text' => 'This is the strongest first stop for travelers who want a classic Africa trip shape: wildlife, gorillas or chimpanzees, and smooth multi-country connections.',
                 'overview' => 'East Africa remains one of the continent’s highest-demand regions for safari, gorilla trekking, coast add-ons, and premium conservation travel. Kenya and Tanzania lead the classic plains circuits, while Uganda and Rwanda anchor primate-led journeys.',
                 'countries_intro' => 'These countries welcome visitors with well-established safari routes, strong guide networks, and logical connections by road or regional flight.',
-                'hero_image_url' => 'https://images.unsplash.com/photo-1516426122078-c23e76319801?auto=format&fit=crop&w=1600&q=80',
-                'hero_image_alt' => 'Safari jeeps watching wildlife in East Africa',
+                'hero_image_url' => 'image-slot:region-east-africa',
+                'hero_image_alt' => 'Reserved image space for East Africa safari plains and forest travel',
             ],
             [
                 'slug' => 'west-africa',
@@ -206,8 +239,8 @@ class TrekAfricaGuideSeeder extends Seeder
                 'hero_text' => 'This region rewards travelers who value music, food, Atlantic history, and diaspora connections more than a checklist safari route.',
                 'overview' => 'West Africa is driven by heritage journeys, winter-sun escapes, coastal cities, and community-grounded experiences. Ghana and Senegal are the most polished starting points, while Benin, Sierra Leone, and Cabo Verde broaden the offer considerably.',
                 'countries_intro' => 'These countries offer the clearest leisure pathways for heritage, beaches, island breaks, and cultural travel.',
-                'hero_image_url' => 'https://images.unsplash.com/photo-1598875706250-21faaf804361?auto=format&fit=crop&w=1600&q=80',
-                'hero_image_alt' => 'Colorful fishing boats on a West African coast',
+                'hero_image_url' => 'image-slot:region-west-africa',
+                'hero_image_alt' => 'Reserved image space for West Africa heritage coast and cultural travel',
             ],
             [
                 'slug' => 'southern-africa',
@@ -216,8 +249,8 @@ class TrekAfricaGuideSeeder extends Seeder
                 'hero_text' => 'Travelers can mix luxury lodges, self-drive landscapes, waterfalls, wine, and long scenic road circuits without losing practical route logic.',
                 'overview' => 'Southern Africa is one of the continent’s most versatile travel regions. South Africa acts as the gateway, Botswana and Namibia deliver high-value wilderness and desert landscapes, and Zimbabwe and Zambia deepen the safari-and-Zambezi story.',
                 'countries_intro' => 'These countries are the strongest booking and route-building anchors across Southern Africa.',
-                'hero_image_url' => 'https://images.unsplash.com/photo-1472396961693-142e6e269027?auto=format&fit=crop&w=1600&q=80',
-                'hero_image_alt' => 'Elephants in a Southern African landscape',
+                'hero_image_url' => 'image-slot:region-southern-africa',
+                'hero_image_alt' => 'Reserved image space for Southern Africa wilderness and desert routes',
             ],
             [
                 'slug' => 'northern-africa',
@@ -226,8 +259,8 @@ class TrekAfricaGuideSeeder extends Seeder
                 'hero_text' => 'It is less about safari and more about history, architecture, food, and short- to medium-haul itineraries with strong aviation access.',
                 'overview' => 'Northern Africa is Africa’s volume engine for tourism, driven by Morocco, Egypt, Tunisia, and a growing wave of renewed interest in Algeria. Travelers come for cities, heritage, desert camps, Mediterranean coastlines, and food-led travel.',
                 'countries_intro' => 'These countries are the clearest Northern Africa entry points for culture-forward, desert, and coast itineraries.',
-                'hero_image_url' => 'https://images.unsplash.com/photo-1506929562872-bb421503ef21?auto=format&fit=crop&w=1600&q=80',
-                'hero_image_alt' => 'Desert camp and dunes in North Africa',
+                'hero_image_url' => 'image-slot:region-northern-africa',
+                'hero_image_alt' => 'Reserved image space for Northern Africa medinas, antiquities, and desert travel',
             ],
         ];
     }
@@ -277,7 +310,7 @@ class TrekAfricaGuideSeeder extends Seeder
             'best_time' => $bestTime,
             'planning_tips' => 'Use this country page to compare attractions, understand how to move between them, and decide whether the trip works best as a standalone route or part of a broader regional circuit.',
             'hero_image_url' => $this->countryImage($slug),
-            'hero_image_alt' => $name.' travel scene',
+            'hero_image_alt' => 'Reserved image space for '.$name.' travel planning',
         ];
     }
 
@@ -361,67 +394,137 @@ class TrekAfricaGuideSeeder extends Seeder
 
     private function accommodations(): array
     {
-        return collect($this->attractions())
-            ->map(function (array $attraction, int $index): array {
-                $countrySlug = $attraction['country_slug'];
-                $name = Str::of($attraction['name'])->before(' &')->before(' National')->before(' Park')->toString();
-                $slug = Str::slug($name.' lodge');
-
-                return [
-                    'country_slug' => $countrySlug,
-                    'attraction_slug' => $attraction['slug'],
-                    'slug' => $slug.'-'.($index + 1),
-                    'name' => trim($name).' Lodge & Retreat',
-                    'property_type' => $this->propertyType($countrySlug),
-                    'location_name' => 'Near '.$attraction['name'],
-                    'hero_image_url' => $this->stayImage($attraction['slug']),
-                    'hero_image_alt' => trim($name).' Lodge & Retreat',
-                    'listing_summary' => 'A comfortable base positioned for travelers visiting '.$attraction['name'].', with easy early-start logistics and a travel-friendly atmosphere.',
-                    'detail_intro' => 'This stay is designed around attraction access first. It works best for travelers who want practical departure times, a calm return base, and a property that fits the wider route rather than stealing focus from the destination itself.',
-                    'practical_info' => 'Typical advantages include early breakfast timing, transfer coordination, and a location that reduces unnecessary backtracking on activity days.',
-                    'amenities' => ['Breakfast included', 'Transfer support', 'En-suite rooms', 'Good base for excursions'],
-                    'rating' => 4.4 + (($index % 4) * 0.1),
-                    'review_count' => 110 + ($index * 17),
-                    'price_label' => $this->stayPrice($countrySlug),
-                    'booking_url' => 'https://www.booking.com/searchresults.html?ss='.urlencode(trim($name).' Lodge '.$attraction['name']),
-                    'featured' => $index < 6,
-                ];
-            })
-            ->all();
+        return [
+            $this->stay('uganda', 'bwindi-impenetrable-national-park', 'sanctuary-gorilla-forest-camp', 'Sanctuary Gorilla Forest Camp', 'Forest safari camp', 'Bwindi Impenetrable National Park, Buhoma sector', 'A long-established forest camp positioned inside the Bwindi area for early gorilla-trekking starts and a quieter rainforest stay.', 'This is a premium choice for travelers who want the lodge itself to feel connected to the gorilla trekking landscape. It suits guests who value forest atmosphere, guide coordination, and avoiding unnecessary transfers on permit days.', 'Confirm the trekking sector before booking. Bwindi permits are sector-specific, so the best lodge is the one that matches the assigned gorilla family departure point.', ['Forest setting', 'Gorilla trekking logistics', 'All-inclusive camp style', 'Guide coordination'], 'From $800 / night', 'https://www.sanctuaryretreats.com/uganda-camps-gorilla-forest-camp', true, 4.8, 318),
+            $this->stay('uganda', 'murchison-falls-national-park', 'paraa-safari-lodge', 'Paraa Safari Lodge', 'Safari lodge', 'North bank of the Victoria Nile, Murchison Falls National Park', 'A practical Nile-side lodge for travelers combining boat safaris, falls visits, and northern-bank game drives.', 'Paraa works because it sits close to the main Murchison activity rhythm: early game drives, river launches, and short hops to the ferry and park tracks.', 'Ask whether your itinerary needs the north or south bank. The wrong bank can add avoidable ferry timing and road transfer pressure.', ['Nile-side base', 'Game-drive access', 'Boat safari access', 'Swimming pool'], 'From $220 / night', 'https://paraalodge.com/', true, 4.5, 521),
+            $this->stay('kenya', 'maasai-mara', 'governors-camp', "Governors' Camp", 'Safari tented camp', 'Mara River area, Maasai Mara National Reserve', 'A historic tented camp in a strong game-viewing zone, often used by travelers who want classic Mara atmosphere without losing comfort.', "Governors' Camp is a realistic Mara anchor because it is inside the reserve and has a long reputation for wildlife access, guiding, and safari logistics.", 'Peak migration dates sell early. Shoulder seasons can feel calmer while still delivering strong predator and plains game viewing.', ['Tented safari style', 'Game drives', 'Mara River setting', 'Family-friendly options'], 'From $620 / person', 'https://governorscamp.com/', true, 4.7, 684),
+            $this->stay('kenya', 'amboseli-national-park', 'ol-tukai-lodge-amboseli', 'Ol Tukai Lodge Amboseli', 'Safari lodge', 'Inside Amboseli National Park', 'A well-known Amboseli base for elephant viewing and Kilimanjaro-facing safari days.', 'Ol Tukai is useful for travelers who want to sleep close to the park action and keep early-morning photography simple when Kilimanjaro is clear.', 'Cloud cover can hide Kilimanjaro even in good seasons. Plan for elephants and wetlands first, with mountain views as a bonus.', ['Inside-park location', 'Elephant viewing', 'Kilimanjaro views', 'Game-drive access'], 'From $300 / night', 'https://oltukailodge.com/', true, 4.6, 477),
+            $this->stay('tanzania', 'serengeti-national-park', 'serengeti-serena-safari-lodge', 'Serengeti Serena Safari Lodge', 'Safari lodge', 'Central Serengeti, Tanzania', 'A central Serengeti lodge that fits classic northern-circuit itineraries and travelers who want reliable lodge infrastructure.', 'This stay works for travelers who need a dependable base in the Seronera area, where wildlife density and airstrip access make the logistics easier than more remote seasonal camps.', 'Migration viewing depends on month and zone. Use central Serengeti for all-round wildlife, then move north or south if the migration is the priority.', ['Central Serengeti base', 'Game drives', 'Airstrip access', 'Lodge facilities'], 'From $360 / night', 'https://www.serenahotels.com/serengeti', true, 4.6, 593),
+            $this->stay('tanzania', 'zanzibar', 'emerson-spice', 'Emerson Spice', 'Boutique heritage hotel', 'Stone Town, Zanzibar', 'A characterful Stone Town hotel for travelers who want Zanzibar heritage and food culture before or after beach time.', 'Emerson Spice makes sense when Zanzibar is more than a beach stop. It places travelers in the old town texture, close to evening dining, spice history, and walking-scale exploration.', 'Stone Town works best for one or two nights before moving to the beach. Travelers wanting quiet resort space should not base the entire island stay here.', ['Stone Town location', 'Heritage rooms', 'Rooftop dining nearby', 'Walkable old town'], 'From $180 / night', 'https://emersonzanzibar.com/emerson-spice/', true, 4.5, 356),
+            $this->stay('rwanda', 'volcanoes-national-park', 'sabyinyo-silverback-lodge', 'Sabyinyo Silverback Lodge', 'Luxury gorilla lodge', 'Near Volcanoes National Park headquarters, Musanze', 'A conservation-linked luxury lodge close to Rwanda gorilla trekking departure points.', 'This lodge is a strong fit for short, premium Rwanda primate itineraries because transfer times from Kigali and park access are both manageable.', 'Rwanda gorilla permits are expensive and limited. Secure permits first, then match the lodge nights around trekking dates.', ['Gorilla trekking base', 'Community ownership model', 'Mountain views', 'Short Kigali transfer'], 'From $1,000 / night', 'https://www.governorscamp.com/properties/sabyinyo-silverback-lodge/', false, 4.8, 241),
+            $this->stay('ethiopia', 'lalibela', 'maribela-hotel', 'Maribela Hotel', 'Boutique hotel', 'Lalibela hillside, Northern Ethiopia', 'A hillside hotel option for visitors who want views and straightforward access to Lalibela church touring.', 'Maribela fits a heritage itinerary because it is practical rather than resort-like: comfortable rooms, local views, and easy coordination with guides for the rock-hewn churches.', 'Check current regional travel advice and flight reliability before confirming Ethiopia itineraries, especially outside Addis Ababa.', ['Church touring base', 'Hillside views', 'Guide coordination', 'Restaurant access'], 'From $95 / night', 'https://maribelahotel.com/', false, 4.4, 187),
+            $this->stay('ghana', 'cape-coast-kakum', 'ridge-royal-hotel', 'Ridge Royal Hotel', 'City hotel', 'Cape Coast, Central Region', 'A practical Cape Coast base for combining castle visits with a Kakum canopy walkway day.', 'Ridge Royal works for travelers who want comfort near Cape Coast rather than a remote beach resort, especially when the itinerary includes heritage touring and an early Kakum start.', 'Cape Coast and Kakum are best planned with a driver or guided day structure from Accra or a one-night local stay.', ['Cape Coast base', 'Castle access', 'Kakum day trip access', 'Pool'], 'From $140 / night', 'https://ridgeroyalhotel.com/', false, 4.3, 214),
+            $this->stay('senegal', 'sine-saloum-delta', 'les-paletuviers', 'Les Paletuviers', 'Delta lodge', 'Toubacouta, Sine-Saloum Delta', 'A delta lodge base for boat trips, birdlife, mangroves, and slower Senegal travel.', 'Les Paletuviers is a better fit than a Dakar hotel for the Sine-Saloum experience because the appeal is water movement, lodge pacing, and access to islands and mangroves.', 'Road time from Dakar is significant. Treat the delta as an overnight or two-night stay rather than a casual city day trip.', ['Boat excursions', 'Birding', 'Mangrove setting', 'Pool'], 'From $160 / night', 'https://www.les-paletuviers.com/', false, 4.4, 168),
+            $this->stay('benin', 'ouidah-and-ganvie', 'casa-del-papa', 'Casa del Papa Resort & Spa', 'Coastal resort', 'Between Cotonou and Ouidah, Benin', 'A lagoon-and-coast resort that works as a comfortable base for Ouidah heritage touring.', 'Casa del Papa is realistic for travelers who want more comfort than a basic city hotel while visiting Ouidah, the Route des Esclaves, and nearby coastal communities.', 'Ganvie is usually easier as a separate organized excursion from Cotonou or Abomey-Calavi, so do not assume one hotel is perfect for both Ouidah and Ganvie.', ['Coastal base', 'Ouidah access', 'Pool and spa', 'Driver-friendly location'], 'From $170 / night', 'https://casadelpapa.com/', false, 4.3, 191),
+            $this->stay('sierra-leone', 'tokeh-and-river-no2', 'the-place-resort-tokeh', 'The Place Resort at Tokeh Beach', 'Beach resort', 'Tokeh Beach, Freetown Peninsula', 'A beachfront resort option for travelers focusing on Sierra Leone coastline time.', 'The Place is positioned for visitors who want the Freetown Peninsula beach experience with enough structure for a first trip to Sierra Leone.', 'Road transfers from Freetown can vary with traffic and weather. Build in buffer time around airport transfers and beach days.', ['Beachfront setting', 'Peninsula base', 'Restaurant', 'Transfer support'], 'From $190 / night', 'https://www.theplaceatsierra.com/', false, 4.4, 203),
+            $this->stay('cabo-verde', 'sal-island', 'hilton-cabo-verde-sal-resort', 'Hilton Cabo Verde Sal Resort', 'Beach resort', 'Santa Maria, Sal Island', 'A polished Santa Maria resort for travelers who want reliable beach logistics and a comfortable Atlantic island base.', 'This is a realistic Sal choice because it sits close to the main visitor zone while still feeling more independent than a full mega-resort package.', 'Sal is strongest for beach, wind sports, and winter sun. Travelers wanting culture-heavy Cabo Verde should add Santiago or Sao Vicente.', ['Beach access', 'Spa', 'Pool', 'Santa Maria base'], 'From $230 / night', 'https://www.hilton.com/en/hotels/sidcvhi-hilton-cabo-verde-sal-resort/', false, 4.5, 624),
+            $this->stay('south-africa', 'cape-town', 'mount-nelson-a-belmond-hotel', 'Mount Nelson, A Belmond Hotel', 'Luxury city hotel', 'Gardens, Cape Town', 'A landmark Cape Town hotel that works well for city, coast, food, and Winelands planning.', 'Mount Nelson is a strong urban anchor because it gives travelers a calm base near the city bowl while keeping access practical for Table Mountain, restaurants, and day trips.', 'Cape Town is best planned neighborhood by neighborhood. Choose lodging based on whether the trip prioritizes restaurants, beaches, Winelands, or mountain access.', ['City bowl access', 'Gardens location', 'Pool', 'Classic hotel service'], 'From $650 / night', 'https://www.belmond.com/hotels/africa/south-africa/cape-town/belmond-mount-nelson/', true, 4.8, 882),
+            $this->stay('south-africa', 'kruger-national-park', 'kruger-shalati', 'Kruger Shalati - The Train on the Bridge', 'Luxury safari hotel', 'Skukuza, Kruger National Park', 'A distinctive Kruger stay built around restored train carriages on the Selati Bridge over the Sabie River.', 'Kruger Shalati is a realistic high-impact choice for travelers who want the lodge to be part of the experience, not just a bed between game drives.', 'It is premium and highly specific. Budget-focused travelers may prefer SANParks rest camps or lodges outside the park.', ['Bridge setting', 'Game drives', 'Sabie River views', 'Pool'], 'From $800 / night', 'https://www.krugershalati.com/', true, 4.7, 519),
+            $this->stay('botswana', 'okavango-delta', 'camp-okavango', 'Camp Okavango', 'Delta safari camp', 'Nxaragha Island, Okavango Delta', 'A water-and-wilderness camp for travelers prioritizing mokoro channels, guided walks, and low-density Delta safari.', 'Camp Okavango works because it reflects the Delta properly: access is usually by light aircraft and the experience is built around water levels, islands, and specialist guiding.', 'Okavango pricing and access are highly seasonal. Confirm flood conditions and activity mix before booking.', ['Mokoro excursions', 'Walking safaris', 'Fly-in access', 'Island setting'], 'From $900 / night', 'https://desertdelta.com/camps/camp-okavango/', false, 4.8, 164),
+            $this->stay('namibia', 'namib-desert', 'sossusvlei-lodge', 'Sossusvlei Lodge', 'Desert lodge', 'Near Sesriem Gate, Sossusvlei', 'A practical desert lodge near the Sesriem entrance for early access to Sossusvlei and Deadvlei.', 'Sossusvlei Lodge is a route-logical choice because desert photography depends on early starts, cool mornings, and minimizing the drive to the gate.', 'Self-drive travelers should fuel carefully and avoid underestimating gravel-road distances in Namibia.', ['Sesriem Gate access', 'Desert views', 'Pool', 'Guided excursions'], 'From $260 / night', 'https://sossusvleilodge.com/', false, 4.5, 438),
+            $this->stay('zimbabwe', 'victoria-falls', 'victoria-falls-hotel', 'The Victoria Falls Hotel', 'Heritage hotel', 'Victoria Falls town, Zimbabwe', 'A historic hotel within easy reach of the falls rainforest entrance and town activities.', 'This hotel is a classic Victoria Falls base because it makes the waterfall, town, and activity desks easy to combine in a short stay.', 'Falls spray and water volume vary dramatically by month. Match the stay to rafting, photography, or full-flow waterfall priorities.', ['Falls access', 'Heritage setting', 'Activity desks', 'Restaurants'], 'From $420 / night', 'https://www.victoria-falls-hotels.net/', true, 4.7, 731),
+            $this->stay('zambia', 'south-luangwa', 'mfuwe-lodge', 'Mfuwe Lodge', 'Safari lodge', 'Mfuwe sector, South Luangwa National Park', 'A well-known South Luangwa lodge for game drives and walking safari access near Mfuwe.', 'Mfuwe Lodge is a realistic first South Luangwa base because it balances strong wildlife access with easier logistics than some deeper seasonal bush camps.', 'Late dry season can be superb for wildlife but hot. Walking safari availability and age rules should be confirmed before booking.', ['Game drives', 'Walking safari access', 'Mfuwe logistics', 'Wildlife-rich setting'], 'From $580 / night', 'https://www.bushcampcompany.com/mfuwe-lodge/', false, 4.7, 255),
+            $this->stay('morocco', 'marrakech-and-atlas', 'riad-rosemary', 'Riad Rosemary', 'Boutique riad', 'Marrakech medina', 'A design-led riad choice for travelers who want the medina experience without giving up comfort and calm.', 'Riad Rosemary fits Marrakech because the strongest stays are often courtyard riads that offer a quiet retreat after dense souk and food touring.', 'Medina access can involve walking from vehicle drop-off points. Pack light if staying inside the old city.', ['Medina setting', 'Riad courtyard', 'Rooftop terrace', 'Hammam-style calm'], 'From $240 / night', 'https://riad-rosemary.com/', true, 4.6, 219),
+            $this->stay('morocco', 'sahara-dunes', 'desert-luxury-camp', 'Desert Luxury Camp', 'Desert camp', 'Erg Chebbi dunes, Merzouga area', 'A desert camp option for travelers who want the Sahara overnight without presenting it as a quick city excursion.', 'This style of stay is about the landscape: sunset dunes, a camp dinner, stargazing, and a long road journey that must be planned honestly.', 'The Sahara is far from Marrakech. Consider it a multi-day route, not a same-day add-on.', ['Dune setting', 'Camp dinner', 'Stargazing', 'Camel or 4x4 access'], 'From $220 / night', 'https://www.desertluxurycamp.com/', false, 4.5, 286),
+            $this->stay('egypt', 'cairo-and-giza', 'marriott-mena-house-cairo', 'Marriott Mena House, Cairo', 'Heritage luxury hotel', 'Giza, Cairo', 'A Giza-side hotel known for pyramid views and easy access to the plateau.', 'Mena House is route-logical for travelers prioritizing Giza, the Grand Egyptian Museum area, and structured Cairo touring with a driver or guide.', 'Cairo traffic is real. Staying near Giza helps pyramid days but does not remove the need for planned transfers to central Cairo sights.', ['Giza location', 'Pyramid views', 'Pool', 'Guided touring base'], 'From $360 / night', 'https://www.marriott.com/en-us/hotels/caimn-marriott-mena-house-cairo/overview/', false, 4.7, 1284),
+            $this->stay('tunisia', 'tunis-and-sidi-bou-said', 'dar-said', 'Dar Said', 'Boutique hotel', 'Sidi Bou Said, Greater Tunis', 'A boutique base in Sidi Bou Said for travelers pairing Tunis medina, Carthage, and sea-view village time.', 'Dar Said makes sense when the visitor wants a softer, more atmospheric base than a standard city business hotel while staying close to Tunis cultural sites.', 'Use drivers or taxis for efficient movement between Tunis medina, Carthage, and Sidi Bou Said.', ['Sidi Bou Said setting', 'Sea-view village access', 'Pool', 'Carthage nearby'], 'From $190 / night', 'https://www.darsaid.com.tn/', false, 4.4, 251),
+            $this->stay('algeria', 'djanet-and-tassili', 'terres-touareg-guest-house', 'Terres Touareg Guest House & Desert Camp', 'Guest house and desert camp', 'Djanet and Tassili n Ajjer routes', 'A specialist Djanet base combining traditional guest-house nights with guided desert camping routes.', 'This is more realistic than listing a conventional hotel because Tassili travel is expedition-led. Accommodation may shift between a Djanet guest house and mobile camps arranged by the operator.', 'Foreign travelers should verify permits, guide requirements, routing, and current security advice before committing to desert travel in southeastern Algeria.', ['Guided desert logistics', 'Guest house nights', 'Mobile camping', 'Rock-art route support'], 'Tour quoted on request', 'https://www.terres-touareg.com/en/home/', false, 4.6, 76),
+        ];
     }
 
     private function restaurants(): array
     {
-        return collect($this->attractions())
-            ->map(function (array $attraction, int $index): array {
-                $base = Str::of($attraction['name'])->before(' National')->before(' Park')->before(' &')->toString();
+        return [
+            $this->restaurant('uganda', 'bwindi-impenetrable-national-park', 'sanctuary-gorilla-forest-camp-dining', 'Sanctuary Gorilla Forest Camp Dining', 'Lodge dining', 'Buhoma sector, Bwindi', 'Seasonal camp menus and packed trekking lunches', 'A realistic dining option for Bwindi because most visitors eat at their lodge before and after trekking rather than browsing standalone restaurants.', 'Use lodge dining around permit timing. Early breakfasts and packed lunches matter more than restaurant choice on gorilla trekking days.', '$$$', 'https://www.sanctuaryretreats.com/uganda-camps-gorilla-forest-camp', true, 4.5, 126),
+            $this->restaurant('uganda', 'murchison-falls-national-park', 'paraa-safari-lodge-dining', 'Paraa Safari Lodge Dining', 'Lodge dining', 'North bank of the Victoria Nile', 'Buffet meals and Nile-view lodge dining', 'Murchison dining is usually lodge-based because game drives and boat departures shape the day. Paraa is practical for travelers staying near the river.', 'Confirm meal times around boat schedules and ferry crossings.', '$$', 'https://paraalodge.com/', true, 4.3, 218),
+            $this->restaurant('kenya', 'maasai-mara', 'governors-camp-dining', "Governors' Camp Dining", 'Safari camp dining', 'Mara River area, Maasai Mara', 'Camp breakfasts, bush meals, and classic safari dinners', 'The Mara is not a city restaurant destination; dining is usually tied to camp quality, guide timing, and whether bush meals are included.', 'Check whether drinks, bush meals, and private dining are included in the camp rate.', '$$$', 'https://governorscamp.com/', true, 4.6, 311),
+            $this->restaurant('kenya', 'amboseli-national-park', 'ol-tukai-lodge-dining', 'Ol Tukai Lodge Dining', 'Safari lodge dining', 'Inside Amboseli National Park', 'Lodge buffet meals with Amboseli wetland and mountain context', 'Ol Tukai dining works because visitors are usually inside the park for early and late game drives, making lodge meals more realistic than off-site restaurant runs.', 'Plan lunch around game-drive timing and weather; clear-mountain mornings often start early.', '$$', 'https://oltukailodge.com/', true, 4.4, 205),
+            $this->restaurant('tanzania', 'serengeti-national-park', 'serengeti-serena-dining', 'Serengeti Serena Safari Lodge Dining', 'Safari lodge dining', 'Central Serengeti', 'Lodge meals and packed safari lunches', 'In the Serengeti, dining realism is about reliable camp meals and packed lunches because wildlife movement and distances dominate the day.', 'Ask your operator which meals are packed, which are at lodge, and whether bush dining has extra cost.', '$$$', 'https://www.serenahotels.com/serengeti', true, 4.4, 244),
+            $this->restaurant('tanzania', 'zanzibar', 'the-rock-restaurant-zanzibar', 'The Rock Restaurant Zanzibar', 'Zanzibari seafood', 'Michamvi Pingwe, Zanzibar', 'Seafood platters and ocean-view dining', 'The Rock is a recognizable Zanzibar dining stop for travelers who want one memorable meal between Stone Town culture and beach time.', 'Book ahead and check tides because access and atmosphere change through the day.', '$$$', 'https://www.therockrestaurantzanzibar.com/', true, 4.3, 1028),
+            $this->restaurant('rwanda', 'volcanoes-national-park', 'sabyinyo-silverback-lodge-dining', 'Sabyinyo Silverback Lodge Dining', 'Luxury lodge dining', 'Near Volcanoes National Park', 'Multi-course lodge meals and trekking-day breakfasts', 'Volcanoes dining is normally lodge-based because gorilla trekking starts early and travelers return tired from steep forest trails.', 'Coordinate meals with trekking briefings, permit timing, and transfers to or from Kigali.', '$$$$', 'https://www.governorscamp.com/properties/sabyinyo-silverback-lodge/', false, 4.6, 143),
+            $this->restaurant('ethiopia', 'lalibela', 'ben-abeba', 'Ben Abeba', 'Ethiopian and international', 'Lalibela hillside', 'Injera platters, local stews, and sunset-view dining', 'Ben Abeba is one of Lalibela s best-known traveler restaurants and pairs well with church touring because it adds landscape and evening atmosphere.', 'Reserve for sunset if possible and arrange transport back to the hotel after dark.', '$$', 'https://benabeba.com/', false, 4.5, 389),
+            $this->restaurant('ghana', 'cape-coast-kakum', 'oasis-beach-resort-restaurant', 'Oasis Beach Resort Restaurant', 'Ghanaian and seafood', 'Cape Coast beachfront', 'Grilled fish, jollof rice, and casual beachfront meals', 'Cape Coast dining is casual and practical. Oasis works as a traveler-friendly stop after castle touring or before a Kakum day.', 'Service pace can be relaxed. Build in time rather than squeezing it between guided tours.', '$$', 'https://www.oasisbeach-ghana.com/', false, 4.2, 274),
+            $this->restaurant('senegal', 'sine-saloum-delta', 'les-paletuviers-restaurant', 'Les Paletuviers Restaurant', 'Senegalese and seafood lodge dining', 'Toubacouta, Sine-Saloum Delta', 'Fresh fish, Senegalese sauces, and lodge meals', 'In the delta, the best dining is often at the lodge because boat transfers and evening light shape the experience.', 'Ask about half-board or full-board terms because independent dining choices are limited once based in the delta.', '$$', 'https://www.les-paletuviers.com/', false, 4.3, 112),
+            $this->restaurant('benin', 'ouidah-and-ganvie', 'casa-del-papa-restaurant', 'Casa del Papa Restaurant', 'Beninese and coastal dining', 'Lagoon coast near Ouidah', 'Grilled fish, local sauces, and resort meals', 'This is a practical meal stop for travelers using Casa del Papa as a comfortable Ouidah-area base rather than hunting for nightlife-style dining.', 'For Ganvie excursions, eat before or after the boat trip and carry water.', '$$', 'https://casadelpapa.com/', false, 4.2, 138),
+            $this->restaurant('sierra-leone', 'tokeh-and-river-no2', 'the-place-resort-restaurant', 'The Place Resort Restaurant', 'Beach seafood', 'Tokeh Beach', 'Grilled lobster, fish, rice dishes, and beach meals', 'Beach dining on the peninsula is strongest when tied to the resort or beach base, especially for travelers who want predictable service and transfers.', 'Confirm road transfer timing before dinner if staying outside Tokeh.', '$$', 'https://www.theplaceatsierra.com/', false, 4.3, 167),
+            $this->restaurant('cabo-verde', 'sal-island', 'barracuda-restaurant-sal', 'Barracuda Restaurant', 'Cabo Verdean seafood', 'Santa Maria, Sal Island', 'Grilled tuna, lobster, cachupa, and beach-town seafood', 'Santa Maria has a real independent dining scene, and Barracuda fits travelers who want seafood outside the resort buffet rhythm.', 'Reserve during peak winter-sun months and ask about daily fish availability.', '$$', 'https://www.tripadvisor.com/Search?q=Barracuda%20Restaurant%20Santa%20Maria%20Sal%20Cabo%20Verde', false, 4.3, 421),
+            $this->restaurant('south-africa', 'cape-town', 'seebamboes-cape-town', 'Seebamboes', 'Contemporary South African seafood', 'Cape Town', 'Cape seafood, local produce, and modern South African flavors', 'Seebamboes reflects Cape Town s current food appeal: local produce, seafood, and a more contemporary expression of South African dining.', 'Cape Town restaurants book up quickly in summer. Reserve ahead and choose transport carefully for evening meals.', '$$$', 'https://seebamboes.co.za/', true, 4.6, 96),
+            $this->restaurant('south-africa', 'kruger-national-park', 'kruger-shalati-dining', 'Kruger Shalati Dining', 'Safari hotel dining', 'Skukuza, Kruger National Park', 'Bridge hotel meals, bush breakfasts, and South African lodge dinners', 'Dining at Kruger Shalati is part of the stay, with meals shaped around game drives and the Sabie River setting.', 'If not staying at the property, verify visitor dining access before planning around it.', '$$$$', 'https://www.krugershalati.com/', true, 4.5, 188),
+            $this->restaurant('botswana', 'okavango-delta', 'camp-okavango-dining', 'Camp Okavango Dining', 'Delta camp dining', 'Nxaragha Island, Okavango Delta', 'Camp meals, high tea, and safari-day dining', 'Okavango dining is normally included in the camp stay because there are no casual standalone restaurant circuits inside the Delta.', 'Confirm full-board inclusions, dietary needs, and the activity schedule before arrival.', '$$$$', 'https://desertdelta.com/camps/camp-okavango/', false, 4.5, 91),
+            $this->restaurant('namibia', 'namib-desert', 'sossusvlei-lodge-restaurant', 'Sossusvlei Lodge Restaurant', 'Desert lodge dining', 'Near Sesriem Gate', 'Grill dinners, breakfast before dune excursions, and lodge buffets', 'This restaurant is practical because desert days start early and travelers need dependable meals close to the Sossusvlei access gate.', 'Pre-book breakfast packs or early meals for Deadvlei sunrise departures.', '$$', 'https://sossusvleilodge.com/', false, 4.3, 284),
+            $this->restaurant('zimbabwe', 'victoria-falls', 'lookout-cafe-victoria-falls', 'Lookout Cafe', 'Casual Zambezi gorge dining', 'Victoria Falls, Zimbabwe', 'Lunches, cocktails, and gorge views', 'Lookout Cafe is a realistic Victoria Falls stop because it pairs easily with town-based activities and views over the Batoka Gorge.', 'Book around activity times; weather and high-demand periods can affect seating.', '$$', 'https://www.wildhorizons.co.za/lookout-cafe/', true, 4.5, 743),
+            $this->restaurant('zambia', 'south-luangwa', 'mfuwe-lodge-dining', 'Mfuwe Lodge Dining', 'Safari lodge dining', 'Mfuwe sector, South Luangwa', 'Lodge meals and safari-day dining', 'South Luangwa meals are usually attached to camps and lodges because activities start early and the park is not a casual restaurant destination.', 'Tell the lodge about dietary needs before arrival and confirm meal timing around walking safaris.', '$$$', 'https://www.bushcampcompany.com/mfuwe-lodge/', false, 4.5, 133),
+            $this->restaurant('morocco', 'marrakech-and-atlas', 'kabana-rooftop', 'Kabana Rooftop', 'Modern Moroccan and international', 'Marrakech medina', 'Tagines, mezze, seafood, and rooftop sunset drinks', 'Kabana works for Marrakech because it gives visitors a polished rooftop meal near the medina after dense souk and garden touring.', 'Reserve for sunset and use a reliable taxi or walking route from your riad.', '$$$', 'https://www.kabana-marrakech.com/', true, 4.4, 812),
+            $this->restaurant('morocco', 'sahara-dunes', 'desert-luxury-camp-dining', 'Desert Luxury Camp Dining', 'Moroccan camp dining', 'Erg Chebbi dunes', 'Tagine, couscous, mint tea, and campfire dinners', 'In the dunes, the honest dining experience is camp-based rather than a standalone restaurant. The meal is part of the overnight Sahara rhythm.', 'Confirm whether dinner, breakfast, bottled water, and transfers are included in the camp rate.', '$$$', 'https://www.desertluxurycamp.com/', false, 4.4, 176),
+            $this->restaurant('egypt', 'cairo-and-giza', '9-pyramids-lounge', '9 Pyramids Lounge', 'Egyptian and international', 'Giza Plateau, Cairo', 'Mezze, grilled dishes, and pyramid-view dining', '9 Pyramids Lounge is a practical Giza dining option because it keeps travelers close to the plateau rather than adding a cross-city transfer.', 'Access and timing can depend on site operations, so pair it with a guided Giza day rather than an improvised taxi run.', '$$$', 'https://www.tripadvisor.com/Search?q=9%20Pyramids%20Lounge%20Giza', false, 4.3, 685),
+            $this->restaurant('tunisia', 'tunis-and-sidi-bou-said', 'dar-zarrouk', 'Dar Zarrouk', 'Tunisian Mediterranean', 'Sidi Bou Said', 'Couscous, seafood, brik, and sea-view dining', 'Dar Zarrouk is a logical Sidi Bou Said meal for travelers pairing Tunis, Carthage, and the blue-and-white village in one cultural circuit.', 'Reserve for terrace seating in good weather and plan transport back to Tunis if not staying in Sidi Bou Said.', '$$$', 'https://www.tripadvisor.com/Search?q=Dar%20Zarrouk%20Sidi%20Bou%20Said', false, 4.3, 477),
+            $this->restaurant('algeria', 'djanet-and-tassili', 'terres-touareg-camp-dining', 'Terres Touareg Camp Dining', 'Tuareg desert camp dining', 'Djanet and Tassili n Ajjer routes', 'Camp meals, tea, couscous, and simple desert expedition food', 'For Tassili, dining is part of the guided expedition. A camp cook and simple meals are more realistic than a restaurant listing in the rock-art zones.', 'Verify food, water, permits, guide support, and emergency planning with the operator before departure.', '$$$', 'https://www.terres-touareg.com/en/home/', false, 4.4, 68),
+        ];
+    }
 
-                return [
-                    'country_slug' => $attraction['country_slug'],
-                    'attraction_slug' => $attraction['slug'],
-                    'slug' => Str::slug($base.' kitchen '.($index + 1)),
-                    'name' => trim($base).' Kitchen',
-                    'cuisine' => $this->restaurantCuisine($attraction['country_slug']),
-                    'location_name' => 'Near '.$attraction['name'],
-                    'signature_dish' => $this->signatureDish($attraction['country_slug']),
-                    'hero_image_url' => $this->foodImage($attraction['country_slug']),
-                    'hero_image_alt' => trim($base).' Kitchen dining room',
-                    'listing_summary' => 'A recommended restaurant stop near '.$attraction['name'].' for travelers who want local flavor and a dependable service rhythm between activity windows.',
-                    'detail_intro' => 'This restaurant is positioned as a practical and atmospheric stop near '.$attraction['name'].', making it easier for visitors to add one memorable meal without distorting the overall route.',
-                    'practical_info' => 'Best used for lunch or dinner around excursion timings. Reservation support and hotel transfer advice usually matter more than formality.',
-                    'rating' => 4.3 + (($index % 4) * 0.1),
-                    'review_count' => 85 + ($index * 13),
-                    'price_label' => $this->restaurantPrice($attraction['country_slug']),
-                    'booking_url' => 'https://www.tripadvisor.com/Search?q='.urlencode(trim($base).' Kitchen '.$attraction['name']),
-                    'featured' => $index < 6,
-                ];
-            })
-            ->map(function (array $record): array {
-                $record['slug'] = Str::slug($record['name'].' '.$record['location_name']);
+    private function stay(
+        string $countrySlug,
+        string $attractionSlug,
+        string $slug,
+        string $name,
+        string $propertyType,
+        string $location,
+        string $summary,
+        string $detailIntro,
+        string $practicalInfo,
+        array $amenities,
+        string $priceLabel,
+        string $bookingUrl,
+        bool $featured,
+        float $rating,
+        int $reviews
+    ): array {
+        return [
+            'country_slug' => $countrySlug,
+            'attraction_slug' => $attractionSlug,
+            'slug' => $slug,
+            'name' => $name,
+            'property_type' => $propertyType,
+            'location_name' => $location,
+            'hero_image_url' => 'image-slot:stay-'.$slug,
+            'hero_image_alt' => 'Reserved image space for '.$name,
+            'listing_summary' => $summary,
+            'detail_intro' => $detailIntro,
+            'practical_info' => $practicalInfo,
+            'amenities' => $amenities,
+            'rating' => $rating,
+            'review_count' => $reviews,
+            'price_label' => $priceLabel,
+            'booking_url' => $bookingUrl,
+            'featured' => $featured,
+        ];
+    }
 
-                return $record;
-            })
-            ->all();
+    private function restaurant(
+        string $countrySlug,
+        string $attractionSlug,
+        string $slug,
+        string $name,
+        string $cuisine,
+        string $location,
+        string $signatureDish,
+        string $summary,
+        string $practicalInfo,
+        string $priceLabel,
+        string $bookingUrl,
+        bool $featured,
+        float $rating,
+        int $reviews
+    ): array {
+        return [
+            'country_slug' => $countrySlug,
+            'attraction_slug' => $attractionSlug,
+            'slug' => $slug,
+            'name' => $name,
+            'cuisine' => $cuisine,
+            'location_name' => $location,
+            'signature_dish' => $signatureDish,
+            'hero_image_url' => 'image-slot:restaurant-'.$slug,
+            'hero_image_alt' => 'Reserved image space for '.$name,
+            'listing_summary' => $summary,
+            'detail_intro' => $summary,
+            'practical_info' => $practicalInfo,
+            'rating' => $rating,
+            'review_count' => $reviews,
+            'price_label' => $priceLabel,
+            'booking_url' => $bookingUrl,
+            'featured' => $featured,
+        ];
     }
 
     private function tourOperators(): array
@@ -503,86 +606,31 @@ class TrekAfricaGuideSeeder extends Seeder
 
     private function countryImage(string $slug): string
     {
-        return match ($slug) {
-            'uganda' => 'https://images.unsplash.com/photo-1518509562904-e7ef99cdcc86?auto=format&fit=crop&w=1400&q=80',
-            'kenya' => 'https://images.unsplash.com/photo-1547970810-dc1eac37d174?auto=format&fit=crop&w=1400&q=80',
-            'tanzania' => 'https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?auto=format&fit=crop&w=1400&q=80',
-            'rwanda' => 'https://images.unsplash.com/photo-1526336024174-e58f5cdd8e13?auto=format&fit=crop&w=1400&q=80',
-            'ethiopia' => 'https://images.unsplash.com/photo-1531168556467-80aacec25a40?auto=format&fit=crop&w=1400&q=80',
-            'ghana' => 'https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1400&q=80',
-            'senegal' => 'https://images.unsplash.com/photo-1521295121783-8a321d551ad2?auto=format&fit=crop&w=1400&q=80',
-            'benin' => 'https://images.unsplash.com/photo-1493558103817-58b2924bce98?auto=format&fit=crop&w=1400&q=80',
-            'sierra-leone' => 'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1400&q=80',
-            'cabo-verde' => 'https://images.unsplash.com/photo-1500375592092-40eb2168fd21?auto=format&fit=crop&w=1400&q=80',
-            'south-africa' => 'https://images.unsplash.com/photo-1576485290814-1c72aa4bbb8e?auto=format&fit=crop&w=1400&q=80',
-            'botswana' => 'https://images.unsplash.com/photo-1528127269322-539801943592?auto=format&fit=crop&w=1400&q=80',
-            'namibia' => 'https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1400&q=80',
-            'zimbabwe' => 'https://images.unsplash.com/photo-1528127269322-539801943592?auto=format&fit=crop&w=1400&q=80',
-            'zambia' => 'https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1400&q=80',
-            'morocco' => 'https://images.unsplash.com/photo-1539020140153-e479b8c22e70?auto=format&fit=crop&w=1400&q=80',
-            'egypt' => 'https://images.unsplash.com/photo-1539768942893-daf53e448371?auto=format&fit=crop&w=1400&q=80',
-            'tunisia' => 'https://images.unsplash.com/photo-1507608616759-54f48f0af0ee?auto=format&fit=crop&w=1400&q=80',
-            'algeria' => 'https://images.unsplash.com/photo-1454496522488-7a8e488e8606?auto=format&fit=crop&w=1400&q=80',
-            default => 'https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1400&q=80',
-        };
+        return 'image-slot:country-'.$slug;
     }
 
     private function attractionImage(string $slug): string
     {
-        return match ($slug) {
-            'bwindi-impenetrable-national-park' => 'https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=1600&q=80',
-            'murchison-falls-national-park' => 'https://images.unsplash.com/photo-1518509562904-e7ef99cdcc86?auto=format&fit=crop&w=1600&q=80',
-            'maasai-mara' => 'https://images.unsplash.com/photo-1547970810-dc1eac37d174?auto=format&fit=crop&w=1600&q=80',
-            'amboseli-national-park' => 'https://images.unsplash.com/photo-1508672019048-805c876b67e2?auto=format&fit=crop&w=1600&q=80',
-            'serengeti-national-park' => 'https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?auto=format&fit=crop&w=1600&q=80',
-            'zanzibar' => 'https://images.unsplash.com/photo-1519046904884-53103b34b206?auto=format&fit=crop&w=1600&q=80',
-            'volcanoes-national-park' => 'https://images.unsplash.com/photo-1526336024174-e58f5cdd8e13?auto=format&fit=crop&w=1600&q=80',
-            'lalibela' => 'https://images.unsplash.com/photo-1531168556467-80aacec25a40?auto=format&fit=crop&w=1600&q=80',
-            'cape-coast-kakum' => 'https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1600&q=80',
-            'sine-saloum-delta' => 'https://images.unsplash.com/photo-1521295121783-8a321d551ad2?auto=format&fit=crop&w=1600&q=80',
-            'ouidah-and-ganvie' => 'https://images.unsplash.com/photo-1493558103817-58b2924bce98?auto=format&fit=crop&w=1600&q=80',
-            'tokeh-and-river-no2' => 'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80',
-            'sal-island' => 'https://images.unsplash.com/photo-1500375592092-40eb2168fd21?auto=format&fit=crop&w=1600&q=80',
-            'cape-town' => 'https://images.unsplash.com/photo-1576485290814-1c72aa4bbb8e?auto=format&fit=crop&w=1600&q=80',
-            'kruger-national-park' => 'https://images.unsplash.com/photo-1534177616072-ef7dc120449d?auto=format&fit=crop&w=1600&q=80',
-            'okavango-delta' => 'https://images.unsplash.com/photo-1528127269322-539801943592?auto=format&fit=crop&w=1600&q=80',
-            'namib-desert' => 'https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1600&q=80',
-            'victoria-falls' => 'https://images.unsplash.com/photo-1528127269322-539801943592?auto=format&fit=crop&w=1600&q=80',
-            'south-luangwa' => 'https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1600&q=80',
-            'marrakech-and-atlas' => 'https://images.unsplash.com/photo-1539020140153-e479b8c22e70?auto=format&fit=crop&w=1600&q=80',
-            'sahara-dunes' => 'https://images.unsplash.com/photo-1454496522488-7a8e488e8606?auto=format&fit=crop&w=1600&q=80',
-            'cairo-and-giza' => 'https://images.unsplash.com/photo-1539768942893-daf53e448371?auto=format&fit=crop&w=1600&q=80',
-            'tunis-and-sidi-bou-said' => 'https://images.unsplash.com/photo-1507608616759-54f48f0af0ee?auto=format&fit=crop&w=1600&q=80',
-            'djanet-and-tassili' => 'https://images.unsplash.com/photo-1454496522488-7a8e488e8606?auto=format&fit=crop&w=1600&q=80',
-            default => 'https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1600&q=80',
-        };
+        return 'image-slot:attraction-'.$slug;
     }
 
     private function stayImage(string $slug): string
     {
-        return match ($slug) {
-            'zanzibar', 'tokeh-and-river-no2', 'sal-island' => 'https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=1400&q=80',
-            'cape-town', 'marrakech-and-atlas', 'cairo-and-giza', 'tunis-and-sidi-bou-said' => 'https://images.unsplash.com/photo-1445019980597-93fa8acb246c?auto=format&fit=crop&w=1400&q=80',
-            default => 'https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=1400&q=80',
-        };
+        return 'image-slot:stay-'.$slug;
     }
 
     private function foodImage(string $countrySlug): string
     {
-        return match ($countrySlug) {
-            'morocco', 'tunisia', 'egypt' => 'https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?auto=format&fit=crop&w=1400&q=80',
-            'ghana', 'senegal', 'benin' => 'https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1400&q=80',
-            default => 'https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&w=1400&q=80',
-        };
+        return 'image-slot:restaurant-'.$countrySlug;
     }
 
     private function regionAccentImage(string $countrySlug): string
     {
         return match ($countrySlug) {
-            'uganda', 'kenya', 'tanzania', 'rwanda', 'ethiopia' => 'https://images.unsplash.com/photo-1516426122078-c23e76319801?auto=format&fit=crop&w=1200&q=80',
-            'ghana', 'senegal', 'benin', 'sierra-leone', 'cabo-verde' => 'https://images.unsplash.com/photo-1598875706250-21faaf804361?auto=format&fit=crop&w=1200&q=80',
-            'south-africa', 'botswana', 'namibia', 'zimbabwe', 'zambia' => 'https://images.unsplash.com/photo-1472396961693-142e6e269027?auto=format&fit=crop&w=1200&q=80',
-            default => 'https://images.unsplash.com/photo-1506929562872-bb421503ef21?auto=format&fit=crop&w=1200&q=80',
+            'uganda', 'kenya', 'tanzania', 'rwanda', 'ethiopia' => 'image-slot:region-east-africa',
+            'ghana', 'senegal', 'benin', 'sierra-leone', 'cabo-verde' => 'image-slot:region-west-africa',
+            'south-africa', 'botswana', 'namibia', 'zimbabwe', 'zambia' => 'image-slot:region-southern-africa',
+            default => 'image-slot:region-northern-africa',
         };
     }
 }

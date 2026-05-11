@@ -24,7 +24,7 @@ class SiteController extends Controller
         return view('site.home', $this->shared([
             'title' => 'Home',
             'sections' => $sections,
-            'featuredRegions' => Region::query()->orderBy('sort_order')->take(4)->get(),
+            'featuredRegions' => Region::query()->withCount('countries')->orderBy('sort_order')->take(4)->get(),
             'featuredAttractions' => Attraction::query()->with('country')->where('featured', true)->orderBy('sort_order')->take(8)->get(),
             'featuredAccommodations' => Accommodation::query()->with(['country', 'attraction'])->where('featured', true)->orderBy('sort_order')->take(4)->get(),
             'featuredRestaurants' => Restaurant::query()->with(['country', 'attraction'])->where('featured', true)->orderBy('sort_order')->take(4)->get(),
@@ -220,6 +220,13 @@ class SiteController extends Controller
         ]));
     }
 
+    public function contact()
+    {
+        return view('site.contact', $this->shared([
+            'title' => 'Contact',
+        ]));
+    }
+
     private function shared(array $payload = []): array
     {
         $settings = SiteSetting::query()->get()->pluck('value', 'key');
@@ -242,6 +249,13 @@ class SiteController extends Controller
                 ['label' => 'Attractions', 'route' => 'attractions.index'],
                 ['label' => 'Accommodations', 'route' => 'accommodations.index'],
                 ['label' => 'Restaurants', 'route' => 'restaurants.index'],
+                ['label' => 'Contact', 'route' => 'contact'],
+            ],
+            'contact' => [
+                'email' => $settings['contact_email'] ?? 'hello@trekafricaguide.com',
+                'phone' => $settings['contact_phone'] ?? '+256 700 000 000',
+                'address' => $settings['contact_address'] ?? 'Kampala, Uganda',
+                'note' => $settings['contact_note'] ?? 'These contact details are placeholders and can be updated from the CMS.',
             ],
             'regionsNav' => $regions,
             'filterRegions' => $regions,

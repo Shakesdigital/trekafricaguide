@@ -1,7 +1,8 @@
 @extends('layouts.site')
 
 @section('content')
-<section class="page-hero" style="--hero-image:url('{{ $region->hero_image_url }}')">
+<section class="page-hero">
+    @include('site.partials.image-slot', ['image' => $region->hero_image_url, 'alt' => $region->hero_image_alt, 'class' => 'page-hero__slot'])
     <div class="page-hero__overlay"></div>
     <div class="container page-hero__content">
         @include('site.partials.breadcrumbs', ['items' => [['label' => 'Home', 'href' => route('home')], ['label' => 'Regions', 'href' => route('regions.index')], ['label' => $region->name]]])

@@ -14,7 +14,7 @@
         </div>
         <div class="gallery-grid">
             @foreach($attraction->gallery ?? [$attraction->hero_image_url] as $image)
-                <img src="{{ $image }}" alt="{{ $attraction->name }}">
+                @include('site.partials.image-slot', ['image' => $image, 'alt' => $attraction->name, 'class' => 'gallery-grid__slot'])
             @endforeach
         </div>
     </div>

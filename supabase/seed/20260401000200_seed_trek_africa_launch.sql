@@ -6,7 +6,12 @@ values
     ('branding', 'secondary_color', '#c56b3d'),
     ('branding', 'accent_color', '#c5b580'),
     ('branding', 'logo_path', '/logo to edit.png'),
-    ('seo', 'default_meta_description', 'Plan Africa travel by region and country, compare attractions, stays, and restaurants, then continue booking with trusted external partners.')
+    ('contact', 'contact_email', 'hello@trekafricaguide.com'),
+    ('contact', 'contact_phone', '+256 700 000 000'),
+    ('contact', 'contact_address', 'Kampala, Uganda'),
+    ('contact', 'contact_note', 'These contact details are placeholders for launch setup and can be updated from the CMS settings panel.'),
+    ('seo', 'default_meta_description', 'Plan Africa travel by region and country, compare attractions, stays, and restaurants, then continue booking with trusted external partners.'),
+    ('seo', 'default_og_image', 'image-slot:home-hero-east-africa')
 on conflict (key) do update
 set group_name = excluded.group_name,
     value = excluded.value,
@@ -26,5 +31,8 @@ set name = excluded.name,
     email_verified_at = excluded.email_verified_at,
     updated_at = now();
 
--- Full content data is seeded from Laravel via database/seeders/TrekAfricaGuideSeeder.php
--- so the application and Supabase stay aligned from one source of truth.
+-- Full region, country, attraction, accommodation, restaurant, tour-operator,
+-- and page-section content is seeded from database/seeders/TrekAfricaGuideSeeder.php
+-- so the Laravel-rendered app and Supabase Postgres deployment stay aligned
+-- from one source of truth. Image fields intentionally use image-slot:* markers
+-- until final generated or uploaded Supabase Storage assets are added.

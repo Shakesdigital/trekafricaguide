@@ -13,7 +13,7 @@
             </div>
         </div>
         <div class="gallery-grid gallery-grid--single">
-            <img src="{{ $restaurant->hero_image_url }}" alt="{{ $restaurant->name }}">
+            @include('site.partials.image-slot', ['image' => $restaurant->hero_image_url, 'alt' => $restaurant->name, 'class' => 'gallery-grid__slot'])
         </div>
     </div>
 </section>

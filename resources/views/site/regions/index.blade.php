@@ -1,7 +1,8 @@
 @extends('layouts.site')
 
 @section('content')
-<section class="page-hero" style="--hero-image:url('https://images.unsplash.com/photo-1516426122078-c23e76319801?auto=format&fit=crop&w=1800&q=80')">
+<section class="page-hero">
+    @include('site.partials.image-slot', ['image' => 'image-slot:regions-index-hero', 'alt' => 'Reserved hero image space for Africa regions', 'class' => 'page-hero__slot'])
     <div class="page-hero__overlay"></div>
     <div class="container page-hero__content">
         @include('site.partials.breadcrumbs', ['items' => [['label' => 'Home', 'href' => route('home')], ['label' => 'Regions']]])
@@ -15,7 +16,7 @@
     <div class="container region-grid">
         @foreach($regions as $region)
             <a href="{{ route('regions.show', $region) }}" class="region-card region-card--tall">
-                <img src="{{ $region->hero_image_url }}" alt="{{ $region->hero_image_alt }}">
+                @include('site.partials.image-slot', ['image' => $region->hero_image_url, 'alt' => $region->hero_image_alt, 'class' => 'region-card__slot'])
                 <div class="region-card__content">
                     <span>{{ $region->countries_count }} countries</span>
                     <h2>{{ $region->name }}</h2>

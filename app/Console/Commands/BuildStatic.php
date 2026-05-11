@@ -25,7 +25,7 @@ class BuildStatic extends Command
             File::deleteDirectory($distPath);
         }
 
-        File::makeDirectory($distPath, 0755, true);
+        File::makeDirectory($distPath, 0755, true, true);
 
         $this->info('Building static site into /dist ...');
 
@@ -53,6 +53,7 @@ class BuildStatic extends Command
             '/attractions' => 'attractions/index.html',
             '/accommodations' => 'accommodations/index.html',
             '/restaurants' => 'restaurants/index.html',
+            '/contact' => 'contact/index.html',
         ];
 
         foreach (Region::query()->get() as $region) {
@@ -123,6 +124,7 @@ class BuildStatic extends Command
 /attractions        /attractions/index.html     200
 /accommodations     /accommodations/index.html  200
 /restaurants        /restaurants/index.html     200
+/contact            /contact/index.html         200
 /*                  /index.html                  404
 REDIRECTS);
 

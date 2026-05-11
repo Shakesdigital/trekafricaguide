@@ -9,6 +9,36 @@ if (navToggle && navMenu) {
     });
 }
 
+const carousel = document.querySelector('[data-hero-carousel]');
+const heroSlides = document.querySelectorAll('[data-hero-slide]');
+const heroDots = document.querySelectorAll('[data-hero-dot]');
+const heroRegion = document.querySelector('[data-hero-region]');
+const heroTitle = document.querySelector('[data-hero-title]');
+const heroBody = document.querySelector('[data-hero-body]');
+
+if (carousel && heroSlides.length && heroDots.length) {
+    const activateSlide = (index) => {
+        heroSlides.forEach((slide, slideIndex) => {
+            slide.classList.toggle('is-active', slideIndex === index);
+        });
+
+        heroDots.forEach((dot, dotIndex) => {
+            dot.classList.toggle('is-active', dotIndex === index);
+        });
+
+        const dot = heroDots[index];
+        if (dot) {
+            if (heroRegion) heroRegion.textContent = dot.dataset.region || '';
+            if (heroTitle) heroTitle.textContent = dot.dataset.title || '';
+            if (heroBody) heroBody.textContent = dot.dataset.body || '';
+        }
+    };
+
+    heroDots.forEach((dot, index) => {
+        dot.addEventListener('click', () => activateSlide(index));
+    });
+}
+
 const openButtons = document.querySelectorAll('[data-modal-open]');
 const closeButtons = document.querySelectorAll('[data-modal-close]');
 
