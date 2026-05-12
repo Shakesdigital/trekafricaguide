@@ -41,11 +41,10 @@ class AdminController extends Controller
             ],
             'navItems' => [
                 ['label' => 'Home', 'route' => 'home'],
-                ['label' => 'Regions', 'route' => 'regions.index'],
-                ['label' => 'Countries', 'route' => 'countries.index'],
                 ['label' => 'Attractions', 'route' => 'attractions.index'],
                 ['label' => 'Accommodations', 'route' => 'accommodations.index'],
                 ['label' => 'Restaurants', 'route' => 'restaurants.index'],
+                ['label' => 'Countries', 'route' => 'countries.index'],
             ],
             'adminUser' => $request->user(),
             'tab' => $request->query('tab', 'overview'),
