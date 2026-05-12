@@ -28,7 +28,7 @@
     <div class="site-topline">
         <div class="container site-topline__inner">
             <span>{{ $siteTagline ?? 'African travel guide and booking directory' }}</span>
-            <span>Directory-first planning with partner booking links for Africa travel.</span>
+            <span>Compare where to go, where to stay, and where to eat before you book.</span>
         </div>
     </div>
 
@@ -38,11 +38,11 @@
                 <img src="{{ $logoUrl }}" alt="Trek Africa Guide logo">
                 <span>
                     <strong>{{ $siteName ?? 'Trek Africa Guide' }}</strong>
-                    <small>African travel guide and booking directory</small>
+                    <small>Africa travel listings, stays, dining, and planning insight</small>
                 </span>
             </a>
 
-            <button class="menu-toggle" type="button" data-nav-toggle aria-label="Toggle navigation">
+            <button class="menu-toggle" type="button" data-nav-toggle aria-label="Toggle navigation" aria-expanded="false">
                 <span></span><span></span><span></span>
             </button>
 
@@ -63,7 +63,7 @@
             <div>
                 <h3>{{ $siteName ?? 'Trek Africa Guide' }}</h3>
                 <p>{{ $siteTagline ?? 'African travel guide and booking directory' }}</p>
-                <p>Travelers can compare the route logic, nearby stays, dining, and practical access notes on Trek Africa Guide before continuing to external booking partners.</p>
+                <p>Use each guide to understand the destination, compare nearby stays and restaurants, and follow through to trusted external booking pages when the fit feels right.</p>
             </div>
             <div>
                 <h4>Explore</h4>
@@ -95,7 +95,7 @@
             </div>
         </div>
         <div class="container footer-note">
-            <p>Affiliate notice: booking buttons redirect to external partner pages for the selected listing. Always verify live availability, rates, and final booking terms on the partner side.</p>
+            <p>Affiliate notice: booking buttons may redirect to external partner or provider pages. Always verify live availability, rates, inclusions, permits, and final booking terms before paying.</p>
         </div>
     </footer>
 </body>

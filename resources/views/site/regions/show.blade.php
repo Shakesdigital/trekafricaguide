@@ -22,9 +22,9 @@
         <div class="info-panel">
             <h3>Use this page to</h3>
             <ul class="bullet-list">
-                <li>Compare the destination countries in {{ $region->name }} that are most suitable for visitors.</li>
-                <li>Open a destination country landing page for practical travel context.</li>
-                <li>Jump onward into attractions, stays, and restaurants from the right destination base.</li>
+                <li>See which destination countries match your preferred pace, budget, season, and travel style.</li>
+                <li>Understand what each country is strongest for before you start comparing individual listings.</li>
+                <li>Move from broad inspiration into attractions, stays, restaurants, and booking paths that fit the route.</li>
             </ul>
         </div>
     </div>
@@ -35,7 +35,7 @@
         <div class="section-heading">
             <p class="eyebrow">Destinations</p>
             <h2>Destination countries in {{ $region->name }}</h2>
-            <p>Every destination country links to its own landing page with a general overview, featured attractions, tour operators, stays, and restaurants.</p>
+            <p>Each destination guide brings the essentials together: why go, how the route works, what to see, where to stay, and where to eat nearby.</p>
         </div>
         <div class="listing-grid">
             @foreach($region->countries as $country)

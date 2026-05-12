@@ -6,10 +6,10 @@
         @include('site.partials.breadcrumbs', ['items' => [['label' => 'Home', 'href' => route('home')], ['label' => 'Accommodations', 'href' => route('accommodations.index')], ['label' => $accommodation->name]]])
         <div class="detail-hero__header">
             <div>
-                <p class="eyebrow">{{ $accommodation->country->name }} • {{ $accommodation->property_type }}</p>
+                <p class="eyebrow">{{ $accommodation->country->name }} &bull; {{ $accommodation->property_type }}</p>
                 <h1>{{ $accommodation->name }}</h1>
                 <p class="detail-hero__summary">{{ $accommodation->listing_summary }}</p>
-                <div class="detail-rating">★ {{ number_format((float) $accommodation->rating, 1) }} <span>{{ number_format($accommodation->review_count) }} reviews</span></div>
+                <div class="detail-rating">&#9733; {{ number_format((float) $accommodation->rating, 1) }} <span>{{ number_format($accommodation->review_count) }} reviews</span></div>
             </div>
         </div>
         <div class="gallery-grid gallery-grid--single">
@@ -46,10 +46,10 @@
         </div>
         <aside class="detail-rail">
             <div class="booking-panel">
-                <p class="booking-panel__eyebrow">External booking</p>
+                <p class="booking-panel__eyebrow">Booking path</p>
                 <h3>{{ $accommodation->price_label }}</h3>
                 <p>{{ $accommodation->location_name }}</p>
-                <a href="{{ $accommodation->booking_url }}" class="button button--full" target="_blank" rel="noopener">Book accommodation</a>
+                <a href="{{ $accommodation->booking_url }}" class="button button--full" target="_blank" rel="noopener">Check stay options</a>
             </div>
         </aside>
     </div>

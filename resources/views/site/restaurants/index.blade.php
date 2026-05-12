@@ -7,8 +7,8 @@
     <div class="container page-hero__content">
         @include('site.partials.breadcrumbs', ['items' => [['label' => 'Home', 'href' => route('home')], ['label' => 'Restaurants']]])
         <p class="eyebrow">Restaurants</p>
-        <h1>Restaurant listings help travelers understand the wider experience around each attraction.</h1>
-        <p>Dining is tied back to place, not treated as an afterthought. Browse by destination country or region, then open the full landing page for more detail.</p>
+        <h1>Plan the meals that make a destination linger.</h1>
+        <p>Browse lodge dining, coastal seafood, rooftop tables, camp meals, and local restaurants near the attractions and stays you are already considering.</p>
     </div>
 </section>
 
@@ -37,7 +37,7 @@
                     'image' => $restaurant->hero_image_url,
                     'title' => $restaurant->name,
                     'summary' => $restaurant->listing_summary,
-                    'eyebrow' => $restaurant->country->name . ' • ' . $restaurant->cuisine,
+                    'eyebrow' => $restaurant->country->name . ' &bull; ' . $restaurant->cuisine,
                     'rating' => $restaurant->rating,
                     'reviews' => $restaurant->review_count,
                     'price' => $restaurant->price_label,

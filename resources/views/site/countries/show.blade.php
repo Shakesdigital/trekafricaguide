@@ -50,7 +50,7 @@
         <div class="section-heading">
             <p class="eyebrow">Attractions</p>
             <h2>Tourist attractions in {{ $country->name }}</h2>
-            <p>Each listing opens into a full independent attraction page with gallery, practical information, how to get there, nearby stays, restaurants, and booking links.</p>
+            <p>Open the places that catch your eye, then compare the practical details: how to get there, when to go, where to stay nearby, and which booking path makes sense.</p>
         </div>
         <div class="listing-grid">
             @foreach($country->attractions as $attraction)
@@ -75,7 +75,7 @@
         <div>
             <div class="section-heading section-heading--compact">
                 <p class="eyebrow">Tour operators</p>
-                <h2>Tour operators active in {{ $country->name }}</h2>
+                <h2>Operators that can help shape the route</h2>
             </div>
             <div class="stack-grid">
                 @foreach($country->tourOperators as $operator)
@@ -95,7 +95,7 @@
         <div>
             <div class="section-heading section-heading--compact">
                 <p class="eyebrow">Nearby stays</p>
-                <h2>Accommodations near the main attractions</h2>
+                <h2>Stays that keep you close to the experience</h2>
             </div>
             <div class="stack-grid">
                 @foreach($accommodations as $stay)
@@ -120,7 +120,7 @@
     <div class="container">
         <div class="section-heading">
             <p class="eyebrow">Dining</p>
-            <h2>Recommended restaurants near each attraction</h2>
+            <h2>Dining ideas that add flavor to the journey</h2>
         </div>
         <div class="listing-grid">
             @foreach($restaurants as $restaurant)

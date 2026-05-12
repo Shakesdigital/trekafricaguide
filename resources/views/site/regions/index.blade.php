@@ -7,8 +7,8 @@
     <div class="container page-hero__content">
         @include('site.partials.breadcrumbs', ['items' => [['label' => 'Home', 'href' => route('home')], ['label' => 'Regions']]])
         <p class="eyebrow">Regions</p>
-        <h1>Compare Africa by region before narrowing into destination countries and listings.</h1>
-        <p>Each region page leads into destination country landing pages and then into attractions, accommodations, restaurants, and external partner booking links.</p>
+        <h1>Find the African region that fits the kind of journey you want.</h1>
+        <p>Compare safari circuits, island escapes, heritage routes, desert landscapes, city breaks, and food-led travel before choosing a destination country.</p>
     </div>
 </section>
 
@@ -21,7 +21,7 @@
                     <span>{{ $region->countries_count }} destination countries</span>
                     <h2>{{ $region->name }}</h2>
                     <p>{{ $region->overview }}</p>
-                    <strong>Open region page</strong>
+                    <strong>Explore this region</strong>
                 </div>
             </a>
         @endforeach

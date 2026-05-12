@@ -6,10 +6,10 @@
         @include('site.partials.breadcrumbs', ['items' => [['label' => 'Home', 'href' => route('home')], ['label' => 'Restaurants', 'href' => route('restaurants.index')], ['label' => $restaurant->name]]])
         <div class="detail-hero__header">
             <div>
-                <p class="eyebrow">{{ $restaurant->country->name }} • {{ $restaurant->cuisine }}</p>
+                <p class="eyebrow">{{ $restaurant->country->name }} &bull; {{ $restaurant->cuisine }}</p>
                 <h1>{{ $restaurant->name }}</h1>
                 <p class="detail-hero__summary">{{ $restaurant->listing_summary }}</p>
-                <div class="detail-rating">★ {{ number_format((float) $restaurant->rating, 1) }} <span>{{ number_format($restaurant->review_count) }} reviews</span></div>
+                <div class="detail-rating">&#9733; {{ number_format((float) $restaurant->rating, 1) }} <span>{{ number_format($restaurant->review_count) }} reviews</span></div>
             </div>
         </div>
         <div class="gallery-grid gallery-grid--single">
@@ -42,10 +42,10 @@
         </div>
         <aside class="detail-rail">
             <div class="booking-panel">
-                <p class="booking-panel__eyebrow">External booking</p>
+                <p class="booking-panel__eyebrow">Booking path</p>
                 <h3>{{ $restaurant->price_label }}</h3>
                 <p>{{ $restaurant->location_name }}</p>
-                <a href="{{ $restaurant->booking_url }}" class="button button--full" target="_blank" rel="noopener">Open restaurant partner page</a>
+                <a href="{{ $restaurant->booking_url }}" class="button button--full" target="_blank" rel="noopener">Check dining details</a>
             </div>
         </aside>
     </div>

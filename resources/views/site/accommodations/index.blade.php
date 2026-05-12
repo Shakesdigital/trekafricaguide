@@ -7,8 +7,8 @@
     <div class="container page-hero__content">
         @include('site.partials.breadcrumbs', ['items' => [['label' => 'Home', 'href' => route('home')], ['label' => 'Accommodations']]])
         <p class="eyebrow">Accommodations</p>
-        <h1>Browse accommodations by attraction, destination country, and route logic.</h1>
-        <p>Every stay is attached to a nearby attraction so travelers can understand why it is worth considering before leaving Trek Africa Guide.</p>
+        <h1>Find places to stay that make the journey feel easier.</h1>
+        <p>Compare safari lodges, riads, desert camps, beach resorts, guest houses, and city hotels by the attraction or destination they support.</p>
     </div>
 </section>
 
@@ -37,7 +37,7 @@
                     'image' => $stay->hero_image_url,
                     'title' => $stay->name,
                     'summary' => $stay->listing_summary,
-                    'eyebrow' => $stay->country->name . ' • ' . $stay->property_type,
+                    'eyebrow' => $stay->country->name . ' &bull; ' . $stay->property_type,
                     'rating' => $stay->rating,
                     'reviews' => $stay->review_count,
                     'price' => $stay->price_label,

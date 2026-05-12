@@ -7,8 +7,8 @@
     <div class="container page-hero__content">
         @include('site.partials.breadcrumbs', ['items' => [['label' => 'Home', 'href' => route('home')], ['label' => 'Destinations']]])
         <p class="eyebrow">Destinations</p>
-        <h1>Destination country pages connect regional research to bookable trip components.</h1>
-        <p>Filter by region or search directly to open the destination country page that best fits the trip you are planning.</p>
+        <h1>Choose the country that gives your Africa trip the right shape.</h1>
+        <p>Search by destination or filter by region to compare travel styles, access, seasonality, attractions, stays, restaurants, and booking options.</p>
     </div>
 </section>
 

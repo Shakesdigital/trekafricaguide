@@ -7,8 +7,8 @@
     <div class="container page-hero__content">
         @include('site.partials.breadcrumbs', ['items' => [['label' => 'Home', 'href' => route('home')], ['label' => 'Attractions']]])
         <p class="eyebrow">Listings</p>
-        <h1>Browse attractions in a clean, marketplace-style listing layout.</h1>
-        <p>Cards are intentionally structured after GetYourGuide and TripAdvisor patterns: thumbnail, location context, rating, price cue, and a direct path into a full landing page.</p>
+        <h1>Explore the attractions that can anchor a memorable Africa trip.</h1>
+        <p>Search safaris, coastlines, heritage sites, city gateways, deserts, and cultural routes, then open each listing for nearby stays, dining, timing, access, and partner booking links.</p>
     </div>
 </section>
 
@@ -37,7 +37,7 @@
                     'image' => $attraction->hero_image_url,
                     'title' => $attraction->name,
                     'summary' => $attraction->listing_summary,
-                    'eyebrow' => $attraction->country->name . ' • ' . $attraction->region->name,
+                    'eyebrow' => $attraction->country->name . ' &bull; ' . $attraction->region->name,
                     'rating' => $attraction->rating,
                     'reviews' => $attraction->review_count,
                     'price' => $attraction->price_label,

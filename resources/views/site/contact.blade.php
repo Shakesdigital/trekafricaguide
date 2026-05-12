@@ -7,8 +7,8 @@
     <div class="container page-hero__content">
         @include('site.partials.breadcrumbs', ['items' => [['label' => 'Home', 'href' => route('home')], ['label' => 'Contact']]])
         <p class="eyebrow">Contact</p>
-        <h1>Contact Trek Africa Guide about listings, corrections, and partnership routes.</h1>
-        <p>Use these details for destination updates, accommodation or restaurant listing corrections, partner booking questions, and practical feedback from travelers on the ground.</p>
+        <h1>Help keep Africa travel planning clear, useful, and current.</h1>
+        <p>Send listing updates, destination corrections, partnership notes, or practical feedback that helps travelers make better decisions before they book.</p>
     </div>
 </section>
 
@@ -16,9 +16,9 @@
     <div class="container detail-grid">
         <div class="detail-main">
             <div class="detail-section">
-                <h2>Send a clear travel or listing note</h2>
-                <p>Trek Africa Guide is built to help readers compare Africa by region, then move into destination countries, attractions, stays, dining, and external booking paths with realistic expectations.</p>
-                <p>When contacting us, include the destination country, attraction, stay, restaurant, or page URL you are referring to, plus the correction or partnership detail you want reviewed.</p>
+                <h2>Send a useful travel or listing note</h2>
+                <p>Trek Africa Guide is built for readers who want context before commitment: what a place offers, how it fits into a route, where to stay nearby, where to eat, and what to check before booking.</p>
+                <p>When contacting us, include the country, attraction, stay, restaurant, or page URL you mean, plus the update, correction, or partnership detail you want reviewed.</p>
             </div>
             <div class="detail-section">
                 <h3>Useful reasons to reach out</h3>

@@ -54,17 +54,17 @@ class TravelPagesTest extends TestCase
         $this->get('/')
             ->assertOk()
             ->assertSee('Trek Africa Guide')
-            ->assertSee('Explore Africa through regions first')
-            ->assertSee('The four major entry points for planning an Africa trip.');
+            ->assertSee('Safari plains, primate forests')
+            ->assertSee('Four useful starting points for a smarter Africa trip.');
     }
 
     public function test_country_page_links_attractions_stays_restaurants_and_operators(): void
     {
         $this->get('/countries/uganda')
             ->assertOk()
-            ->assertSee('Tour operators active in Uganda')
+            ->assertSee('Operators that can help shape the route')
             ->assertSee('Tourist attractions in Uganda')
-            ->assertSee('Recommended restaurants near each attraction');
+            ->assertSee('Dining ideas that add flavor to the journey');
     }
 
     public function test_attraction_detail_page_contains_booking_and_practical_sections(): void
@@ -72,7 +72,7 @@ class TravelPagesTest extends TestCase
         $this->get('/attractions/maasai-mara')
             ->assertOk()
             ->assertSee('How to get there')
-            ->assertSee('Book with partner')
+            ->assertSee('Check partner options')
             ->assertSee('Accommodations near Maasai Mara');
     }
 }
