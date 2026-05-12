@@ -394,13 +394,17 @@ img {
 .listing-carousel__track {
     display: grid;
     grid-auto-flow: column;
-    grid-auto-columns: minmax(17rem, 31%);
+    grid-auto-columns: calc((100% - 2.5rem) / 3);
     gap: 1.25rem;
     overflow-x: auto;
     scroll-snap-type: x mandatory;
     scroll-behavior: smooth;
-    scrollbar-width: thin;
+    scrollbar-width: none;
     padding: 0.25rem 0 0.75rem;
+}
+
+.listing-carousel__track::-webkit-scrollbar {
+    display: none;
 }
 
 .listing-carousel__item {

@@ -106,6 +106,9 @@
                 ])
             @endforeach
         </div>
+        <div class="section-cta">
+            <a href="{{ route('attractions.index') }}" class="button">View more attractions</a>
+        </div>
     </div>
 </section>
 
