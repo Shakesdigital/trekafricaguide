@@ -707,19 +707,19 @@ img {
 }
 
 .site-footer {
-    background: #ad6742;
-    color: #132624;
+    background: #1d3f28;
+    color: rgba(255, 255, 255, 0.96);
     padding: 4rem 0 2rem;
     margin-top: 4rem;
 }
 
 .site-footer a {
-    color: #0d1b19;
+    color: #fff8ec;
     font-weight: 700;
 }
 
 .site-footer p {
-    color: #18312e;
+    color: rgba(255, 255, 255, 0.9);
 }
 
 .footer-grid {
@@ -729,7 +729,7 @@ img {
 
 .footer-grid h3,
 .footer-grid h4 {
-    color: #0d1b19;
+    color: #fffaf0;
 }
 
 .footer-grid h4 {
@@ -743,7 +743,7 @@ img {
 .footer-note {
     margin-top: 1.8rem;
     padding-top: 1rem;
-    border-top: 1px solid rgba(19, 38, 36, 0.3);
+    border-top: 1px solid rgba(255, 255, 255, 0.34);
     font-size: 0.9rem;
 }
 
