@@ -110,50 +110,69 @@
 </section>
 
 <section class="section section--alt">
-    <div class="container triptych">
-        <div>
-            <div class="section-heading section-heading--compact">
-                <p class="eyebrow">{{ $sections['featured_accommodations']?->eyebrow }}</p>
-                <h2>{{ $sections['featured_accommodations']?->title }}</h2>
-                <p>{{ $sections['featured_accommodations']?->body }}</p>
-            </div>
-            <div class="stack-grid">
-                @foreach($featuredAccommodations as $stay)
-                    @include('site.partials.listing-card', [
-                        'href' => route('accommodations.show', $stay),
-                        'image' => $stay->hero_image_url,
-                        'title' => $stay->name,
-                        'summary' => $stay->listing_summary,
-                        'eyebrow' => $stay->country->name,
-                        'rating' => $stay->rating,
-                        'reviews' => $stay->review_count,
-                        'price' => $stay->price_label,
-                        'chips' => [$stay->property_type, $stay->attraction?->name],
-                    ])
-                @endforeach
-            </div>
+    <div class="container featured-carousel-section">
+        <div class="section-heading section-heading--compact">
+            <p class="eyebrow">{{ $sections['featured_accommodations']?->eyebrow }}</p>
+            <h2>{{ $sections['featured_accommodations']?->title }}</h2>
+            <p>{{ $sections['featured_accommodations']?->body }}</p>
         </div>
-        <div>
-            <div class="section-heading section-heading--compact">
-                <p class="eyebrow">{{ $sections['featured_restaurants']?->eyebrow }}</p>
-                <h2>{{ $sections['featured_restaurants']?->title }}</h2>
-                <p>{{ $sections['featured_restaurants']?->body }}</p>
-            </div>
-            <div class="stack-grid">
-                @foreach($featuredRestaurants as $restaurant)
-                    @include('site.partials.listing-card', [
-                        'href' => route('restaurants.show', $restaurant),
-                        'image' => $restaurant->hero_image_url,
-                        'title' => $restaurant->name,
-                        'summary' => $restaurant->listing_summary,
-                        'eyebrow' => $restaurant->country->name,
-                        'rating' => $restaurant->rating,
-                        'reviews' => $restaurant->review_count,
-                        'price' => $restaurant->price_label,
-                        'chips' => [$restaurant->cuisine, $restaurant->attraction?->name],
-                    ])
+        <div class="listing-carousel" data-listing-carousel>
+            <button class="listing-carousel__button" type="button" data-carousel-prev aria-label="Previous featured stays">&lsaquo;</button>
+            <div class="listing-carousel__track" data-carousel-track>
+                @foreach($featuredAccommodations as $stay)
+                    <div class="listing-carousel__item">
+                        @include('site.partials.listing-card', [
+                            'href' => route('accommodations.show', $stay),
+                            'image' => $stay->hero_image_url,
+                            'title' => $stay->name,
+                            'summary' => $stay->listing_summary,
+                            'eyebrow' => $stay->country->name,
+                            'rating' => $stay->rating,
+                            'reviews' => $stay->review_count,
+                            'price' => $stay->price_label,
+                            'chips' => [$stay->property_type, $stay->attraction?->name],
+                        ])
+                    </div>
                 @endforeach
             </div>
+            <button class="listing-carousel__button" type="button" data-carousel-next aria-label="Next featured stays">&rsaquo;</button>
+        </div>
+        <div class="section-cta">
+            <a href="{{ route('accommodations.index') }}" class="button">View more accommodations</a>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <div class="container featured-carousel-section">
+        <div class="section-heading section-heading--compact">
+            <p class="eyebrow">{{ $sections['featured_restaurants']?->eyebrow }}</p>
+            <h2>{{ $sections['featured_restaurants']?->title }}</h2>
+            <p>{{ $sections['featured_restaurants']?->body }}</p>
+        </div>
+        <div class="listing-carousel" data-listing-carousel>
+            <button class="listing-carousel__button" type="button" data-carousel-prev aria-label="Previous featured restaurants">&lsaquo;</button>
+            <div class="listing-carousel__track" data-carousel-track>
+                @foreach($featuredRestaurants as $restaurant)
+                    <div class="listing-carousel__item">
+                        @include('site.partials.listing-card', [
+                            'href' => route('restaurants.show', $restaurant),
+                            'image' => $restaurant->hero_image_url,
+                            'title' => $restaurant->name,
+                            'summary' => $restaurant->listing_summary,
+                            'eyebrow' => $restaurant->country->name,
+                            'rating' => $restaurant->rating,
+                            'reviews' => $restaurant->review_count,
+                            'price' => $restaurant->price_label,
+                            'chips' => [$restaurant->cuisine, $restaurant->attraction?->name],
+                        ])
+                    </div>
+                @endforeach
+            </div>
+            <button class="listing-carousel__button" type="button" data-carousel-next aria-label="Next featured restaurants">&rsaquo;</button>
+        </div>
+        <div class="section-cta">
+            <a href="{{ route('restaurants.index') }}" class="button">View more restaurants</a>
         </div>
     </div>
 </section>

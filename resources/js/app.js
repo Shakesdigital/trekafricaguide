@@ -39,6 +39,23 @@ if (carousel && heroSlides.length && heroDots.length) {
     });
 }
 
+document.querySelectorAll('[data-listing-carousel]').forEach((listingCarousel) => {
+    const track = listingCarousel.querySelector('[data-carousel-track]');
+    const previous = listingCarousel.querySelector('[data-carousel-prev]');
+    const next = listingCarousel.querySelector('[data-carousel-next]');
+
+    if (!track) return;
+
+    const scrollByCard = (direction) => {
+        const firstItem = track.querySelector('.listing-carousel__item');
+        const amount = firstItem ? firstItem.getBoundingClientRect().width + 20 : track.clientWidth * 0.85;
+        track.scrollBy({ left: amount * direction, behavior: 'smooth' });
+    };
+
+    previous?.addEventListener('click', () => scrollByCard(-1));
+    next?.addEventListener('click', () => scrollByCard(1));
+});
+
 const openButtons = document.querySelectorAll('[data-modal-open]');
 const closeButtons = document.querySelectorAll('[data-modal-close]');
 
