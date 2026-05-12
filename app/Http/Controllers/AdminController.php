@@ -44,7 +44,7 @@ class AdminController extends Controller
                 ['label' => 'Attractions', 'route' => 'attractions.index'],
                 ['label' => 'Accommodations', 'route' => 'accommodations.index'],
                 ['label' => 'Restaurants', 'route' => 'restaurants.index'],
-                ['label' => 'Countries', 'route' => 'countries.index'],
+                ['label' => 'Destinations', 'route' => 'countries.index'],
             ],
             'adminUser' => $request->user(),
             'tab' => $request->query('tab', 'overview'),

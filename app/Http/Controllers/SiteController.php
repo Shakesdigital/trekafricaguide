@@ -70,7 +70,7 @@ class SiteController extends Controller
             ->get();
 
         return view('site.countries.index', $this->shared([
-            'title' => 'Countries',
+            'title' => 'Destinations',
             'countries' => $countries,
             'filters' => $request->only(['region', 'q']),
         ]));
@@ -247,13 +247,13 @@ class SiteController extends Controller
                 ['label' => 'Attractions', 'route' => 'attractions.index'],
                 ['label' => 'Accommodations', 'route' => 'accommodations.index'],
                 ['label' => 'Restaurants', 'route' => 'restaurants.index'],
-                ['label' => 'Countries', 'route' => 'countries.index'],
+                ['label' => 'Destinations', 'route' => 'countries.index'],
             ],
             'contact' => [
                 'email' => $settings['contact_email'] ?? 'hello@trekafricaguide.com',
                 'phone' => $settings['contact_phone'] ?? '+256 700 000 000',
                 'address' => $settings['contact_address'] ?? 'Kampala, Uganda',
-                'note' => $settings['contact_note'] ?? 'These contact details are placeholders and can be updated from the CMS.',
+                'note' => $settings['contact_note'] ?? 'These contact details are placeholders and can be updated by the Trek Africa Guide team.',
             ],
             'regionsNav' => $regions,
             'filterRegions' => $regions,

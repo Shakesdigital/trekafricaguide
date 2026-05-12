@@ -5,7 +5,7 @@
     @include('site.partials.image-slot', ['image' => $country->hero_image_url, 'alt' => $country->hero_image_alt, 'class' => 'page-hero__slot'])
     <div class="page-hero__overlay"></div>
     <div class="container page-hero__content">
-        @include('site.partials.breadcrumbs', ['items' => [['label' => 'Home', 'href' => route('home')], ['label' => 'Regions', 'href' => route('regions.index')], ['label' => $country->region->name, 'href' => route('regions.show', $country->region)], ['label' => $country->name]]])
+        @include('site.partials.breadcrumbs', ['items' => [['label' => 'Home', 'href' => route('home')], ['label' => 'Destinations', 'href' => route('countries.index')], ['label' => $country->name]]])
         <p class="eyebrow">{{ $country->region->name }}</p>
         <h1>{{ $country->hero_title }}</h1>
         <p>{{ $country->hero_text }}</p>
@@ -15,7 +15,7 @@
 <section class="section">
     <div class="container detail-grid">
         <div class="detail-main">
-            <h2>General information about {{ $country->name }}</h2>
+            <h2>Destination guide to {{ $country->name }}</h2>
             <p>{{ $country->overview }}</p>
             <div class="detail-section">
                 <h3>Getting around</h3>
@@ -32,10 +32,10 @@
         </div>
         <aside class="detail-rail">
             <div class="booking-panel">
-                <p class="booking-panel__eyebrow">Country at a glance</p>
+                <p class="booking-panel__eyebrow">Destination at a glance</p>
                 <h3>{{ $country->name }}</h3>
                 <ul class="bullet-list">
-                    <li>{{ $country->attractions->count() }} featured attractions seeded</li>
+                    <li>{{ $country->attractions->count() }} featured attractions listed</li>
                     <li>{{ $country->tourOperators->count() }} active tour operator profiles</li>
                     <li>{{ $accommodations->count() }} accommodations nearby</li>
                     <li>{{ $restaurants->count() }} recommended restaurants</li>

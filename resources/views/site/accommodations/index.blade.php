@@ -7,7 +7,7 @@
     <div class="container page-hero__content">
         @include('site.partials.breadcrumbs', ['items' => [['label' => 'Home', 'href' => route('home')], ['label' => 'Accommodations']]])
         <p class="eyebrow">Accommodations</p>
-        <h1>Browse accommodations by attraction, country, and route logic.</h1>
+        <h1>Browse accommodations by attraction, destination country, and route logic.</h1>
         <p>Every stay is attached to a nearby attraction so travelers can understand why it is worth considering before leaving Trek Africa Guide.</p>
     </div>
 </section>
@@ -23,7 +23,7 @@
                 @endforeach
             </select>
             <select name="country">
-                <option value="">All countries</option>
+                <option value="">All destination countries</option>
                 @foreach($filterCountries as $country)
                     <option value="{{ $country->slug }}" @selected(($filters['country'] ?? '') === $country->slug)>{{ $country->name }}</option>
                 @endforeach

@@ -119,7 +119,7 @@ class TrekAfricaGuideSeeder extends Seeder
     {
         return [
             ['group_name' => 'general', 'key' => 'site_name', 'value' => 'Trek Africa Guide'],
-            ['group_name' => 'general', 'key' => 'site_tagline', 'value' => 'African travel guide and booking directory for regions, countries, attractions, stays, dining, and trusted partner booking paths.'],
+            ['group_name' => 'general', 'key' => 'site_tagline', 'value' => 'African travel guide and booking directory for regions, destination countries, attractions, stays, dining, and trusted partner booking paths.'],
             ['group_name' => 'branding', 'key' => 'primary_color', 'value' => '#284932'],
             ['group_name' => 'branding', 'key' => 'secondary_color', 'value' => '#c56b3d'],
             ['group_name' => 'branding', 'key' => 'accent_color', 'value' => '#c5b580'],
@@ -127,8 +127,8 @@ class TrekAfricaGuideSeeder extends Seeder
             ['group_name' => 'contact', 'key' => 'contact_email', 'value' => 'hello@trekafricaguide.com'],
             ['group_name' => 'contact', 'key' => 'contact_phone', 'value' => '+256 700 000 000'],
             ['group_name' => 'contact', 'key' => 'contact_address', 'value' => 'Kampala, Uganda'],
-            ['group_name' => 'contact', 'key' => 'contact_note', 'value' => 'These contact details are placeholders for launch setup and can be updated from the CMS settings panel.'],
-            ['group_name' => 'seo', 'key' => 'default_meta_description', 'value' => 'Plan Africa travel by region and country, compare attractions, stays, and restaurants, then continue booking with trusted external partners.'],
+            ['group_name' => 'contact', 'key' => 'contact_note', 'value' => 'These contact details are placeholders for launch setup and can be updated by the Trek Africa Guide team.'],
+            ['group_name' => 'seo', 'key' => 'default_meta_description', 'value' => 'Plan Africa travel by region and destination country, compare attractions, stays, and restaurants, then continue booking with trusted external partners.'],
             ['group_name' => 'seo', 'key' => 'default_og_image', 'value' => 'image-slot:home-hero-east-africa'],
         ];
     }
@@ -141,7 +141,7 @@ class TrekAfricaGuideSeeder extends Seeder
                 'section_key' => 'hero',
                 'eyebrow' => 'Discover Africa',
                 'title' => 'Explore Africa through regions first, then book with confidence.',
-                'body' => 'Trek Africa Guide helps travelers understand the shape of an Africa trip before they commit. Start with East, West, Southern, or Northern Africa, compare countries, open a destination, and then continue to trusted booking partners for tours, stays, and dining.',
+                'body' => 'Trek Africa Guide helps travelers understand the shape of an Africa trip before they commit. Start with East, West, Southern, or Northern Africa, compare destination countries, open a destination, and then continue to trusted booking partners for tours, stays, and dining.',
                 'image_url' => 'image-slot:home-hero-east-africa',
                 'meta' => [
                     'cta_label' => 'Explore regions',
@@ -189,7 +189,7 @@ class TrekAfricaGuideSeeder extends Seeder
                 'section_key' => 'featured_regions',
                 'eyebrow' => 'Featured Regions',
                 'title' => 'The four major entry points for planning an Africa trip.',
-                'body' => 'Each region page leads into country-level guidance and then into bookable attractions, stays, and restaurants.',
+                'body' => 'Each region page leads into destination country guidance and then into bookable attractions, stays, and restaurants.',
                 'sort_order' => 3,
             ],
             [
@@ -308,7 +308,7 @@ class TrekAfricaGuideSeeder extends Seeder
             'overview' => $overview,
             'access_summary' => $access,
             'best_time' => $bestTime,
-            'planning_tips' => 'Use this country page to compare attractions, understand how to move between them, and decide whether the trip works best as a standalone route or part of a broader regional circuit.',
+            'planning_tips' => 'Use this destination country page to compare attractions, understand how to move between them, and decide whether the trip works best as a standalone route or part of a broader regional circuit.',
             'hero_image_url' => $this->countryImage($slug),
             'hero_image_alt' => 'Reserved image space for '.$name.' travel planning',
         ];

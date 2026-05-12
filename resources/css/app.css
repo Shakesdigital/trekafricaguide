@@ -783,6 +783,6 @@ img {
     }
 
     .footer-grid {
-        grid-template-columns: 1.3fr repeat(4, 1fr);
+        grid-template-columns: 1.3fr repeat(3, 1fr);
     }
 }

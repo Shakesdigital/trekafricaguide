@@ -2,20 +2,20 @@
 
 @section('content')
 <section class="page-hero">
-    @include('site.partials.image-slot', ['image' => 'image-slot:countries-index-hero', 'alt' => 'Reserved hero image space for country guides', 'class' => 'page-hero__slot'])
+    @include('site.partials.image-slot', ['image' => 'image-slot:destinations-index-hero', 'alt' => 'Reserved hero image space for destination country guides', 'class' => 'page-hero__slot'])
     <div class="page-hero__overlay"></div>
     <div class="container page-hero__content">
-        @include('site.partials.breadcrumbs', ['items' => [['label' => 'Home', 'href' => route('home')], ['label' => 'Countries']]])
-        <p class="eyebrow">Countries</p>
-        <h1>Country landing pages connect regional research to bookable trip components.</h1>
-        <p>Filter by region or search directly to open the country landing page that best fits the trip you are planning.</p>
+        @include('site.partials.breadcrumbs', ['items' => [['label' => 'Home', 'href' => route('home')], ['label' => 'Destinations']]])
+        <p class="eyebrow">Destinations</p>
+        <h1>Destination country pages connect regional research to bookable trip components.</h1>
+        <p>Filter by region or search directly to open the destination country page that best fits the trip you are planning.</p>
     </div>
 </section>
 
 <section class="section">
     <div class="container">
         <form class="filter-form" method="GET">
-            <input type="text" name="q" value="{{ $filters['q'] ?? '' }}" placeholder="Search country">
+            <input type="text" name="q" value="{{ $filters['q'] ?? '' }}" placeholder="Search destination country">
             <select name="region">
                 <option value="">All regions</option>
                 @foreach($filterRegions as $region)
@@ -36,7 +36,7 @@
                     'rating' => null,
                     'reviews' => null,
                     'price' => null,
-                    'chips' => ['Country page'],
+                    'chips' => ['Destination country'],
                 ])
             @endforeach
         </div>

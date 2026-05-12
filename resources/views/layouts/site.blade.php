@@ -50,13 +50,6 @@
                 @foreach(($navItems ?? []) as $item)
                     <a href="{{ route($item['route']) }}" class="{{ request()->routeIs($item['route']) ? 'is-active' : '' }}">{{ $item['label'] }}</a>
                 @endforeach
-                @auth
-                    @if(auth()->user()?->isAdmin())
-                        <a href="{{ route('admin.index') }}" class="{{ request()->routeIs('admin.*') ? 'is-active' : '' }}">CMS</a>
-                    @endif
-                @else
-                    <a href="{{ route('admin.login') }}" class="{{ request()->routeIs('admin.login') ? 'is-active' : '' }}">Admin Login</a>
-                @endauth
             </nav>
         </div>
     </header>
@@ -76,7 +69,7 @@
                 <h4>Explore</h4>
                 <ul>
                     <li><a href="{{ route('regions.index') }}">Regions</a></li>
-                    <li><a href="{{ route('countries.index') }}">Countries</a></li>
+                    <li><a href="{{ route('countries.index') }}">Destinations</a></li>
                     <li><a href="{{ route('attractions.index') }}">Attractions</a></li>
                     <li><a href="{{ route('accommodations.index') }}">Accommodations</a></li>
                     <li><a href="{{ route('restaurants.index') }}">Restaurants</a></li>
@@ -98,20 +91,6 @@
                     <li>{{ $contact['phone'] ?? '+256 700 000 000' }}</li>
                     <li>{{ $contact['address'] ?? 'Kampala, Uganda' }}</li>
                     <li><a href="{{ route('contact') }}">Contact page</a></li>
-                </ul>
-            </div>
-            <div>
-                <h4>CMS</h4>
-                <ul>
-                    @auth
-                        @if(auth()->user()?->isAdmin())
-                            <li><a href="{{ route('admin.index') }}">Manage content</a></li>
-                            <li><a href="{{ route('admin.index', ['tab' => 'page-sections']) }}">Edit homepage sections</a></li>
-                            <li><a href="{{ route('admin.index', ['tab' => 'settings']) }}">Brand settings</a></li>
-                        @endif
-                    @else
-                        <li><a href="{{ route('admin.login') }}">Admin login</a></li>
-                    @endauth
                 </ul>
             </div>
         </div>

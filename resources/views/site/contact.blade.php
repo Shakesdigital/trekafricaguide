@@ -17,8 +17,8 @@
         <div class="detail-main">
             <div class="detail-section">
                 <h2>Send a clear travel or listing note</h2>
-                <p>Trek Africa Guide is built to help readers compare Africa by region, then move into countries, attractions, stays, dining, and external booking paths with realistic expectations.</p>
-                <p>When contacting us, include the country, attraction, stay, restaurant, or page URL you are referring to, plus the correction or partnership detail you want reviewed.</p>
+                <p>Trek Africa Guide is built to help readers compare Africa by region, then move into destination countries, attractions, stays, dining, and external booking paths with realistic expectations.</p>
+                <p>When contacting us, include the destination country, attraction, stay, restaurant, or page URL you are referring to, plus the correction or partnership detail you want reviewed.</p>
             </div>
             <div class="detail-section">
                 <h3>Useful reasons to reach out</h3>

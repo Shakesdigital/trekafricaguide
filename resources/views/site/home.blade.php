@@ -54,8 +54,8 @@
         <div class="info-panel">
             <h3>How Trek Africa Guide works</h3>
             <ul class="bullet-list">
-                <li>Start with a region and compare the countries that welcome visitors.</li>
-                <li>Open a country page to see attractions, tour operators, stays, and restaurants in one place.</li>
+                <li>Start with a region and compare the destination countries that welcome visitors.</li>
+                <li>Open a destination page to see attractions, tour operators, stays, and restaurants in one place.</li>
                 <li>Use listing pages styled like modern travel marketplaces, then continue to an external booking partner when ready.</li>
             </ul>
         </div>
@@ -74,7 +74,7 @@
                 <a href="{{ route('regions.show', $region) }}" class="region-card">
                     @include('site.partials.image-slot', ['image' => $region->hero_image_url, 'alt' => $region->hero_image_alt, 'class' => 'region-card__slot'])
                     <div class="region-card__content">
-                        <span>{{ $region->countries_count }} countries</span>
+                        <span>{{ $region->countries_count }} destination countries</span>
                         <h3>{{ $region->name }}</h3>
                         <p>{{ $region->overview }}</p>
                     </div>

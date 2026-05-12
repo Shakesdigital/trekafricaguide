@@ -8,7 +8,7 @@
         @include('site.partials.breadcrumbs', ['items' => [['label' => 'Home', 'href' => route('home')], ['label' => 'Restaurants']]])
         <p class="eyebrow">Restaurants</p>
         <h1>Restaurant listings help travelers understand the wider experience around each attraction.</h1>
-        <p>Dining is tied back to place, not treated as an afterthought. Browse by country or region, then open the full landing page for more detail.</p>
+        <p>Dining is tied back to place, not treated as an afterthought. Browse by destination country or region, then open the full landing page for more detail.</p>
     </div>
 </section>
 
@@ -23,7 +23,7 @@
                 @endforeach
             </select>
             <select name="country">
-                <option value="">All countries</option>
+                <option value="">All destination countries</option>
                 @foreach($filterCountries as $country)
                     <option value="{{ $country->slug }}" @selected(($filters['country'] ?? '') === $country->slug)>{{ $country->name }}</option>
                 @endforeach

@@ -22,9 +22,9 @@
         <div class="info-panel">
             <h3>Use this page to</h3>
             <ul class="bullet-list">
-                <li>Compare the countries in {{ $region->name }} that are most suitable for visitors.</li>
-                <li>Open a country landing page for practical travel context.</li>
-                <li>Jump onward into attractions, stays, and restaurants from the right country base.</li>
+                <li>Compare the destination countries in {{ $region->name }} that are most suitable for visitors.</li>
+                <li>Open a destination country landing page for practical travel context.</li>
+                <li>Jump onward into attractions, stays, and restaurants from the right destination base.</li>
             </ul>
         </div>
     </div>
@@ -33,9 +33,9 @@
 <section class="section section--alt">
     <div class="container">
         <div class="section-heading">
-            <p class="eyebrow">Countries</p>
-            <h2>Countries in {{ $region->name }}</h2>
-            <p>Every country links to its own landing page with a general overview, featured attractions, tour operators, stays, and restaurants.</p>
+            <p class="eyebrow">Destinations</p>
+            <h2>Destination countries in {{ $region->name }}</h2>
+            <p>Every destination country links to its own landing page with a general overview, featured attractions, tour operators, stays, and restaurants.</p>
         </div>
         <div class="listing-grid">
             @foreach($region->countries as $country)
@@ -48,7 +48,7 @@
                     'rating' => null,
                     'reviews' => null,
                     'price' => null,
-                    'chips' => ['Country guide'],
+                    'chips' => ['Destination guide'],
                 ])
             @endforeach
         </div>

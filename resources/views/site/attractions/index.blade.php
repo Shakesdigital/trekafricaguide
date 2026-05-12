@@ -23,7 +23,7 @@
                 @endforeach
             </select>
             <select name="country">
-                <option value="">All countries</option>
+                <option value="">All destination countries</option>
                 @foreach($filterCountries as $country)
                     <option value="{{ $country->slug }}" @selected(($filters['country'] ?? '') === $country->slug)>{{ $country->name }}</option>
                 @endforeach
