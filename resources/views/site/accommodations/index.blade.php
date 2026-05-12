@@ -37,7 +37,7 @@
                     'image' => $stay->hero_image_url,
                     'title' => $stay->name,
                     'summary' => $stay->listing_summary,
-                    'eyebrow' => $stay->country->name . ' &bull; ' . $stay->property_type,
+                    'eyebrow' => $stay->country->name . ' • ' . $stay->property_type,
                     'rating' => $stay->rating,
                     'reviews' => $stay->review_count,
                     'price' => $stay->price_label,

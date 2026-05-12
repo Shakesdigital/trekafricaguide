@@ -6,7 +6,7 @@
         @include('site.partials.breadcrumbs', ['items' => [['label' => 'Home', 'href' => route('home')], ['label' => 'Attractions', 'href' => route('attractions.index')], ['label' => $attraction->name]]])
         <div class="detail-hero__header">
             <div>
-                <p class="eyebrow">{{ $attraction->country->name }} &bull; {{ $attraction->region->name }}</p>
+                <p class="eyebrow">{{ $attraction->country->name }} • {{ $attraction->region->name }}</p>
                 <h1>{{ $attraction->name }}</h1>
                 <p class="detail-hero__summary">{{ $attraction->listing_summary }}</p>
                 <div class="detail-rating">&#9733; {{ number_format((float) $attraction->rating, 1) }} <span>{{ number_format($attraction->review_count) }} reviews</span></div>

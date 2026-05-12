@@ -20,8 +20,16 @@ class Country extends Model
         'planning_tips',
         'hero_image_url',
         'hero_image_alt',
+        'gallery',
         'sort_order',
     ];
+
+    protected function casts(): array
+    {
+        return [
+            'gallery' => 'array',
+        ];
+    }
 
     public function region(): BelongsTo
     {

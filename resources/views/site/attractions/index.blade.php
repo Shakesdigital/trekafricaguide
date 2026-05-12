@@ -37,7 +37,7 @@
                     'image' => $attraction->hero_image_url,
                     'title' => $attraction->name,
                     'summary' => $attraction->listing_summary,
-                    'eyebrow' => $attraction->country->name . ' &bull; ' . $attraction->region->name,
+                    'eyebrow' => $attraction->country->name . ' • ' . $attraction->region->name,
                     'rating' => $attraction->rating,
                     'reviews' => $attraction->review_count,
                     'price' => $attraction->price_label,

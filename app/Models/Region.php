@@ -16,8 +16,16 @@ class Region extends Model
         'countries_intro',
         'hero_image_url',
         'hero_image_alt',
+        'gallery',
         'sort_order',
     ];
+
+    protected function casts(): array
+    {
+        return [
+            'gallery' => 'array',
+        ];
+    }
 
     public function countries(): HasMany
     {

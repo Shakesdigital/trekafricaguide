@@ -1,20 +1,30 @@
 @extends('layouts.site')
 
+@php($galleryImages = collect($restaurant->gallery ?? [])->filter()->values())
+
 @section('content')
 <section class="detail-hero">
     <div class="container">
         @include('site.partials.breadcrumbs', ['items' => [['label' => 'Home', 'href' => route('home')], ['label' => 'Restaurants', 'href' => route('restaurants.index')], ['label' => $restaurant->name]]])
         <div class="detail-hero__header">
             <div>
-                <p class="eyebrow">{{ $restaurant->country->name }} &bull; {{ $restaurant->cuisine }}</p>
+                <p class="eyebrow">{{ $restaurant->country->name }} • {{ $restaurant->cuisine }}</p>
                 <h1>{{ $restaurant->name }}</h1>
                 <p class="detail-hero__summary">{{ $restaurant->listing_summary }}</p>
                 <div class="detail-rating">&#9733; {{ number_format((float) $restaurant->rating, 1) }} <span>{{ number_format($restaurant->review_count) }} reviews</span></div>
             </div>
         </div>
-        <div class="gallery-grid gallery-grid--single">
-            @include('site.partials.image-slot', ['image' => $restaurant->hero_image_url, 'alt' => $restaurant->name, 'class' => 'gallery-grid__slot'])
-        </div>
+        @if($galleryImages->isNotEmpty())
+            <div class="gallery-grid">
+                @foreach($galleryImages as $image)
+                    @include('site.partials.image-slot', ['image' => $image, 'alt' => $restaurant->name, 'class' => 'gallery-grid__slot'])
+                @endforeach
+            </div>
+        @else
+            <div class="gallery-grid gallery-grid--single">
+                @include('site.partials.image-slot', ['image' => $restaurant->hero_image_url, 'alt' => $restaurant->name, 'class' => 'gallery-grid__slot'])
+            </div>
+        @endif
     </div>
 </section>
 

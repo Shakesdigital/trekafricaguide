@@ -17,6 +17,7 @@ class Accommodation extends Model
         'location_name',
         'hero_image_url',
         'hero_image_alt',
+        'gallery',
         'listing_summary',
         'detail_intro',
         'practical_info',
@@ -32,6 +33,7 @@ class Accommodation extends Model
     protected function casts(): array
     {
         return [
+            'gallery' => 'array',
             'amenities' => 'array',
             'featured' => 'boolean',
             'rating' => 'decimal:1',

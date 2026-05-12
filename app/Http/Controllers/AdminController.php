@@ -119,6 +119,8 @@ class AdminController extends Controller
                 'countries_intro' => ['nullable'],
                 'hero_image_url' => ['nullable', 'max:2048'],
                 'hero_image_file' => ['nullable', 'image', 'max:5120'],
+                'gallery_text' => ['nullable'],
+                'gallery_files.*' => ['nullable', 'image', 'max:5120'],
                 'hero_image_alt' => ['nullable', 'max:255'],
                 'sort_order' => ['nullable', 'integer'],
             ],
@@ -134,6 +136,8 @@ class AdminController extends Controller
                 'planning_tips' => ['nullable'],
                 'hero_image_url' => ['nullable', 'max:2048'],
                 'hero_image_file' => ['nullable', 'image', 'max:5120'],
+                'gallery_text' => ['nullable'],
+                'gallery_files.*' => ['nullable', 'image', 'max:5120'],
                 'hero_image_alt' => ['nullable', 'max:255'],
                 'sort_order' => ['nullable', 'integer'],
             ],
@@ -153,6 +157,7 @@ class AdminController extends Controller
                 'best_time' => ['nullable'],
                 'practical_info' => ['nullable'],
                 'gallery_text' => ['nullable'],
+                'gallery_files.*' => ['nullable', 'image', 'max:5120'],
                 'highlights_text' => ['nullable'],
                 'rating' => ['nullable', 'numeric', 'between:1,5'],
                 'review_count' => ['nullable', 'integer'],
@@ -170,6 +175,8 @@ class AdminController extends Controller
                 'location_name' => ['nullable', 'max:255'],
                 'hero_image_url' => ['nullable', 'max:2048'],
                 'hero_image_file' => ['nullable', 'image', 'max:5120'],
+                'gallery_text' => ['nullable'],
+                'gallery_files.*' => ['nullable', 'image', 'max:5120'],
                 'hero_image_alt' => ['nullable', 'max:255'],
                 'listing_summary' => ['required'],
                 'detail_intro' => ['required'],
@@ -192,6 +199,8 @@ class AdminController extends Controller
                 'signature_dish' => ['nullable', 'max:255'],
                 'hero_image_url' => ['nullable', 'max:2048'],
                 'hero_image_file' => ['nullable', 'image', 'max:5120'],
+                'gallery_text' => ['nullable'],
+                'gallery_files.*' => ['nullable', 'image', 'max:5120'],
                 'hero_image_alt' => ['nullable', 'max:255'],
                 'listing_summary' => ['required'],
                 'detail_intro' => ['required'],
@@ -240,14 +249,24 @@ class AdminController extends Controller
     private function normalizePayload(string $resource, array $validated): array
     {
         return match ($resource) {
-            'attractions' => $this->withArrays($validated, [
+            'regions' => $this->withArrayFields($validated, [
+                'gallery' => 'gallery_text',
+            ]),
+            'countries' => $this->withArrayFields($validated, [
+                'gallery' => 'gallery_text',
+            ]),
+            'attractions' => $this->withArrayFields($validated, [
                 'gallery' => 'gallery_text',
                 'highlights' => 'highlights_text',
-            ]),
-            'accommodations' => $this->withArrays($validated, [
+            ], includeFeatured: true),
+            'accommodations' => $this->withArrayFields($validated, [
+                'gallery' => 'gallery_text',
                 'amenities' => 'amenities_text',
-            ]),
-            'tour-operators' => $this->withArrays($validated, [
+            ], includeFeatured: true),
+            'restaurants' => $this->withArrayFields($validated, [
+                'gallery' => 'gallery_text',
+            ], includeFeatured: true),
+            'tour-operators' => $this->withArrayFields($validated, [
                 'specialties' => 'specialties_text',
             ]),
             'page-sections' => array_merge(
@@ -270,6 +289,22 @@ class AdminController extends Controller
             );
         }
 
+        if (in_array($resource, ['regions', 'countries', 'attractions', 'accommodations', 'restaurants'], true) && $request->hasFile('gallery_files')) {
+            $existingGallery = $this->toLineArray($validated['gallery_text'] ?? '');
+            $uploadedGallery = collect($request->file('gallery_files'))
+                ->filter()
+                ->map(fn ($file, $index) => $this->storage->upload(
+                    $file,
+                    $resource.'/gallery',
+                    ($validated['slug'] ?? $record->getAttribute('slug') ?? Str::singular($resource)).'-gallery-'.($index + 1)
+                ))
+                ->filter()
+                ->values()
+                ->all();
+
+            $validated['gallery_text'] = implode(PHP_EOL, array_merge($existingGallery, $uploadedGallery));
+        }
+
         if ($resource === 'page-sections' && $request->hasFile('image_file')) {
             $validated['image_url'] = $this->storage->upload(
                 $request->file('image_file'),
@@ -290,10 +325,10 @@ class AdminController extends Controller
             );
         }
 
-        return Arr::except($validated, ['hero_image_file', 'image_file', 'logo_file']);
+        return Arr::except($validated, ['hero_image_file', 'gallery_files', 'image_file', 'logo_file']);
     }
 
-    private function withArrays(array $validated, array $maps): array
+    private function withArrayFields(array $validated, array $maps, bool $includeFeatured = false): array
     {
         $payload = $validated;
 
@@ -302,7 +337,9 @@ class AdminController extends Controller
             unset($payload[$source]);
         }
 
-        $payload['featured'] = request()->boolean('featured');
+        if ($includeFeatured) {
+            $payload['featured'] = request()->boolean('featured');
+        }
 
         return $payload;
     }

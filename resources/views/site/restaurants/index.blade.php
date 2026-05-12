@@ -37,7 +37,7 @@
                     'image' => $restaurant->hero_image_url,
                     'title' => $restaurant->name,
                     'summary' => $restaurant->listing_summary,
-                    'eyebrow' => $restaurant->country->name . ' &bull; ' . $restaurant->cuisine,
+                    'eyebrow' => $restaurant->country->name . ' • ' . $restaurant->cuisine,
                     'rating' => $restaurant->rating,
                     'reviews' => $restaurant->review_count,
                     'price' => $restaurant->price_label,

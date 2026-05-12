@@ -1,5 +1,7 @@
 @extends('layouts.site')
 
+@php($galleryImages = collect($country->gallery ?? [])->filter()->values())
+
 @section('content')
 <section class="page-hero">
     @include('site.partials.image-slot', ['image' => $country->hero_image_url, 'alt' => $country->hero_image_alt, 'class' => 'page-hero__slot'])
@@ -11,6 +13,22 @@
         <p>{{ $country->hero_text }}</p>
     </div>
 </section>
+
+@if($galleryImages->isNotEmpty())
+    <section class="section section--alt">
+        <div class="container">
+            <div class="section-heading section-heading--compact">
+                <p class="eyebrow">Hero Gallery</p>
+                <h2>More visuals from {{ $country->name }}</h2>
+            </div>
+            <div class="gallery-grid">
+                @foreach($galleryImages as $image)
+                    @include('site.partials.image-slot', ['image' => $image, 'alt' => $country->name, 'class' => 'gallery-grid__slot'])
+                @endforeach
+            </div>
+        </div>
+    </section>
+@endif
 
 <section class="section">
     <div class="container detail-grid">

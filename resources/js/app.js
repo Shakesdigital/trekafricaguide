@@ -72,6 +72,42 @@ const toTextareaValue = (value) => {
     return String(value);
 };
 
+const updateImagePreview = (scope, fieldName, value) => {
+    const preview = scope.querySelector(`[data-preview-target="${fieldName}"]`);
+    if (!preview) return;
+
+    const image = preview.querySelector('img');
+    const empty = preview.querySelector('.admin-image-preview__empty');
+    const normalized = typeof value === 'string' ? value.trim() : '';
+    const isImage = normalized.startsWith('http://')
+        || normalized.startsWith('https://')
+        || normalized.startsWith('/storage/')
+        || normalized.startsWith('/build/')
+        || normalized.startsWith('/');
+
+    if (image && isImage) {
+        image.src = normalized;
+        image.hidden = false;
+        if (empty) empty.hidden = true;
+    } else if (image) {
+        image.removeAttribute('src');
+        image.hidden = true;
+        if (empty) empty.hidden = false;
+    }
+};
+
+const wirePreviewInputs = (form) => {
+    form.querySelectorAll('[data-preview-target]').forEach((preview) => {
+        const fieldName = preview.dataset.previewTarget;
+        const field = form.querySelector(`[name="${fieldName}"]`);
+
+        if (!field) return;
+
+        updateImagePreview(form, fieldName, field.value);
+        field.addEventListener('input', () => updateImagePreview(form, fieldName, field.value));
+    });
+};
+
 openButtons.forEach((button) => {
     button.addEventListener('click', () => {
         const target = document.querySelector(`[data-modal="${button.dataset.modalOpen}"]`);
@@ -92,6 +128,8 @@ openButtons.forEach((button) => {
                 if (field) {
                     if (field.type === 'checkbox') {
                         field.checked = Boolean(value);
+                    } else if (field.type === 'file') {
+                        return;
                     } else {
                         field.value = value ?? '';
                     }
@@ -119,6 +157,7 @@ openButtons.forEach((button) => {
             }
         }
 
+        wirePreviewInputs(form);
         target.classList.add('is-open');
     });
 });

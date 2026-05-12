@@ -18,6 +18,7 @@ class Restaurant extends Model
         'signature_dish',
         'hero_image_url',
         'hero_image_alt',
+        'gallery',
         'listing_summary',
         'detail_intro',
         'practical_info',
@@ -32,6 +33,7 @@ class Restaurant extends Model
     protected function casts(): array
     {
         return [
+            'gallery' => 'array',
             'featured' => 'boolean',
             'rating' => 'decimal:1',
         ];

@@ -1,20 +1,30 @@
 @extends('layouts.site')
 
+@php($galleryImages = collect($accommodation->gallery ?? [])->filter()->values())
+
 @section('content')
 <section class="detail-hero">
     <div class="container">
         @include('site.partials.breadcrumbs', ['items' => [['label' => 'Home', 'href' => route('home')], ['label' => 'Accommodations', 'href' => route('accommodations.index')], ['label' => $accommodation->name]]])
         <div class="detail-hero__header">
             <div>
-                <p class="eyebrow">{{ $accommodation->country->name }} &bull; {{ $accommodation->property_type }}</p>
+                <p class="eyebrow">{{ $accommodation->country->name }} • {{ $accommodation->property_type }}</p>
                 <h1>{{ $accommodation->name }}</h1>
                 <p class="detail-hero__summary">{{ $accommodation->listing_summary }}</p>
                 <div class="detail-rating">&#9733; {{ number_format((float) $accommodation->rating, 1) }} <span>{{ number_format($accommodation->review_count) }} reviews</span></div>
             </div>
         </div>
-        <div class="gallery-grid gallery-grid--single">
-            @include('site.partials.image-slot', ['image' => $accommodation->hero_image_url, 'alt' => $accommodation->name, 'class' => 'gallery-grid__slot'])
-        </div>
+        @if($galleryImages->isNotEmpty())
+            <div class="gallery-grid">
+                @foreach($galleryImages as $image)
+                    @include('site.partials.image-slot', ['image' => $image, 'alt' => $accommodation->name, 'class' => 'gallery-grid__slot'])
+                @endforeach
+            </div>
+        @else
+            <div class="gallery-grid gallery-grid--single">
+                @include('site.partials.image-slot', ['image' => $accommodation->hero_image_url, 'alt' => $accommodation->name, 'class' => 'gallery-grid__slot'])
+            </div>
+        @endif
     </div>
 </section>
 
