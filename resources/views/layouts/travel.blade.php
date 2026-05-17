@@ -39,7 +39,7 @@
                     <span></span><span></span><span></span>
                 </button>
 
-                <a href="/suppliers/" class="site-nav-cta">Add a Travel Service</a>
+                <span class="site-nav-cta site-nav-cta--disabled" aria-disabled="true">Add a Travel Service</span>
 
                 <nav class="primary-nav" data-nav-menu>
                     @foreach($navItems as $item)

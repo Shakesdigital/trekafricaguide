@@ -180,6 +180,12 @@ img {
     text-align: center;
 }
 
+.site-nav-cta--disabled {
+    opacity: 0.58;
+    cursor: not-allowed;
+    pointer-events: none;
+}
+
 .site-nav.is-open {
     display: flex;
 }
