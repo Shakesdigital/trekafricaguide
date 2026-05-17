@@ -39,8 +39,6 @@
                     <span></span><span></span><span></span>
                 </button>
 
-                <span class="site-nav-cta site-nav-cta--disabled" aria-disabled="true">Add a Travel Service</span>
-
                 <nav class="primary-nav" data-nav-menu>
                     @foreach($navItems as $item)
                         <a href="{{ route($item['route']) }}" class="{{ request()->routeIs($item['route']) ? 'active' : '' }}">{{ $item['label'] }}</a>
