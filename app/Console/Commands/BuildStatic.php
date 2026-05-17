@@ -46,6 +46,12 @@ class BuildStatic extends Command
             }
         }
 
+        foreach (['suppliers', 'supplier-terms'] as $directory) {
+            if (File::isDirectory(public_path($directory))) {
+                File::copyDirectory(public_path($directory), $distPath.'/'.$directory);
+            }
+        }
+
         $routes = [
             '/' => 'index.html',
             '/regions' => 'regions/index.html',
@@ -124,6 +130,8 @@ class BuildStatic extends Command
 /attractions        /attractions/index.html     200
 /accommodations     /accommodations/index.html  200
 /restaurants        /restaurants/index.html     200
+/suppliers          /suppliers/index.html       200
+/supplier-terms     /supplier-terms/index.html  200
 /contact            /contact/index.html         200
 /*                  /index.html                  404
 REDIRECTS);

@@ -4,5 +4,7 @@
 /attractions        /attractions/index.html     200
 /accommodations     /accommodations/index.html  200
 /restaurants        /restaurants/index.html     200
+/suppliers          /suppliers/index.html       200
+/supplier-terms     /supplier-terms/index.html  200
 /contact            /contact/index.html         200
 /*                  /index.html                  404

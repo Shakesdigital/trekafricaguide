@@ -39,6 +39,8 @@
                     <span></span><span></span><span></span>
                 </button>
 
+                <a href="/suppliers/" class="site-nav-cta">Add a Travel Service</a>
+
                 <nav class="primary-nav" data-nav-menu>
                     @foreach($navItems as $item)
                         <a href="{{ route($item['route']) }}" class="{{ request()->routeIs($item['route']) ? 'active' : '' }}">{{ $item['label'] }}</a>
