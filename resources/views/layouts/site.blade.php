@@ -98,5 +98,7 @@
             <p>Affiliate notice: booking buttons may redirect to external partner or provider pages. Always verify live availability, rates, inclusions, permits, and final booking terms before paying.</p>
         </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="{{ asset('cms-sync.js') }}"></script>
 </body>
 </html>

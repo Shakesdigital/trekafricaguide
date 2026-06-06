@@ -36,6 +36,7 @@ class BuildStatic extends Command
         foreach ([
             'favicon.ico',
             'robots.txt',
+            'cms-sync.js',
             'logo to edit.png',
             'listing style.png',
             'Tourist Attraction individual listing style.PNG',
