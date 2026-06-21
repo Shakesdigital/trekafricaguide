@@ -33,7 +33,7 @@
         <div class="detail-main">
             <div class="detail-section">
                 <h2>About this restaurant</h2>
-                <p>{{ $restaurant->detail_intro }}</p>
+                <div class="rich-text">{!! $restaurant->detail_intro !!}</div>
             </div>
             <div class="detail-section">
                 <h3>Signature dish</h3>
@@ -41,7 +41,7 @@
             </div>
             <div class="detail-section">
                 <h3>Practical information</h3>
-                <p>{{ $restaurant->practical_info }}</p>
+                <div class="rich-text">{!! $restaurant->practical_info !!}</div>
             </div>
             @if($restaurant->attraction)
                 <div class="detail-section">

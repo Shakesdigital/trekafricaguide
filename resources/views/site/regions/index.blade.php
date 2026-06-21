@@ -20,7 +20,7 @@
                 <div class="region-card__content">
                     <span>{{ $region->countries_count }} destination countries</span>
                     <h2>{{ $region->name }}</h2>
-                    <p>{{ $region->overview }}</p>
+                    <p>{{ \Illuminate\Support\Str::limit(strip_tags($region->overview), 200) }}</p>
                     <strong>Explore this region</strong>
                 </div>
             </a>

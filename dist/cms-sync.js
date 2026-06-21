@@ -16,6 +16,51 @@
     .replace(/>/g, '&gt;')
     .replace(/"/g, '&quot;');
 
+  // Whitelist sanitizer for admin-authored rich text (kept in sync with cms.html).
+  const ALLOWED = { P: [], BR: [], STRONG: [], EM: [], B: [], I: [], U: [], UL: [], OL: [], LI: [], H2: [], H3: [], BLOCKQUOTE: [], A: ['href'] };
+  const sanitizeHtml = (input) => {
+    if (input == null || input === '') return '';
+    const str = String(input);
+    if (!/<[a-z][\s\S]*>/i.test(str)) {
+      return str.split(/\n{2,}/).map((s) => s.trim()).filter(Boolean)
+        .map((p) => `<p>${esc(p).replace(/\n/g, '<br>')}</p>`).join('');
+    }
+    const tpl = document.createElement('template');
+    tpl.innerHTML = str;
+    const root = tpl.content;
+    root.querySelectorAll('script,style,iframe,object,embed').forEach((n) => n.remove());
+    let changed = true;
+    while (changed) {
+      changed = false;
+      root.querySelectorAll('*').forEach((el) => {
+        if (!ALLOWED[el.tagName]) {
+          while (el.firstChild) el.parentNode.insertBefore(el.firstChild, el);
+          el.remove();
+          changed = true;
+        }
+      });
+    }
+    root.querySelectorAll('*').forEach((el) => {
+      const keep = ALLOWED[el.tagName] || [];
+      [...el.attributes].forEach((a) => { if (!keep.includes(a.name.toLowerCase())) el.removeAttribute(a.name); });
+      if (el.tagName === 'A') {
+        const href = el.getAttribute('href') || '';
+        if (/^\s*(javascript|data):/i.test(href)) el.removeAttribute('href');
+        el.setAttribute('rel', 'noopener noreferrer');
+        el.setAttribute('target', '_blank');
+      }
+    });
+    return (tpl.innerHTML || '').trim();
+  };
+  const rich = (value) => sanitizeHtml(value);
+  // Strip markup to plain text — for card summaries sourced from rich fields.
+  const plain = (value) => String(value ?? '').replace(/<[^>]*>/g, ' ').replace(/\s+/g, ' ').trim();
+
+  // Minimal spacing for rich-text blocks (site stylesheet already styles p/ul/h2/h3).
+  const richStyle = document.createElement('style');
+  richStyle.textContent = '.rich-text>*:first-child{margin-top:0}.rich-text>*:last-child{margin-bottom:0}.rich-text ul,.rich-text ol{padding-left:1.25rem;margin:0 0 1rem}.rich-text li{margin-bottom:.35rem}.rich-text blockquote{margin:0 0 1rem;padding:.4rem 1rem;border-left:3px solid currentColor;opacity:.85;font-style:italic}';
+  document.head.appendChild(richStyle);
+
   const lines = (value) => {
     if (!value) return [];
     if (Array.isArray(value)) return value.filter(Boolean);
@@ -130,12 +175,12 @@
         <div class="container hero__content">
           <p class="eyebrow">${esc(hero.eyebrow || 'Discover Africa')}</p>
           <h1>${esc(hero.title || setting('site_name', 'Trek Africa Guide'))}</h1>
-          <p class="hero__lead">${esc(hero.body || setting('site_tagline'))}</p>
+          <div class="hero__lead rich-text">${rich(hero.body || setting('site_tagline'))}</div>
           <div class="hero__actions"><a class="button" href="/regions">Explore regions</a><a class="button button--ghost-light" href="/attractions">Browse attractions</a></div>
         </div>
       </section>
-      <section class="section"><div class="container two-column"><div><p class="eyebrow">${esc(intro.eyebrow || 'Overview')}</p><h2>${esc(intro.title || 'Africa travel planning')}</h2><p>${esc(intro.body || setting('default_meta_description'))}</p></div><div class="info-panel"><h3>How Trek Africa Guide works</h3><ul class="bullet-list"><li>Start with regions and destination countries.</li><li>Compare attractions, stays, restaurants, and booking paths.</li><li>Update content from the Supabase CMS dashboard.</li></ul></div></div></section>
-      ${homeBlock('Featured Regions', regions.map((region) => listingCard({ href: route('regions', region.slug), image: region.hero_image_url, title: region.name, summary: region.overview, eyebrow: 'Region', chips: ['Regional guide'] })))}
+      <section class="section"><div class="container two-column"><div><p class="eyebrow">${esc(intro.eyebrow || 'Overview')}</p><h2>${esc(intro.title || 'Africa travel planning')}</h2><div class="rich-text">${rich(intro.body || setting('default_meta_description'))}</div></div><div class="info-panel"><h3>How Trek Africa Guide works</h3><ul class="bullet-list"><li>Start with regions and destination countries.</li><li>Compare attractions, stays, restaurants, and booking paths.</li><li>Update content from the Supabase CMS dashboard.</li></ul></div></div></section>
+      ${homeBlock('Featured Regions', regions.map((region) => listingCard({ href: route('regions', region.slug), image: region.hero_image_url, title: region.name, summary: plain(region.overview), eyebrow: 'Region', chips: ['Regional guide'] })))}
       ${homeBlock('Featured Attractions', attractions.map(attractionCard))}
       ${homeBlock('Featured Accommodations', stays.map(accommodationCard))}
       ${homeBlock('Featured Restaurants', restaurants.map(restaurantCard))}`;
@@ -165,8 +210,8 @@
     main.innerHTML = `
       ${pageHero({ eyebrow: region.name, title: region.hero_title, body: region.hero_text, image: region.hero_image_url, alt: region.hero_image_alt })}
       ${lines(region.gallery).length ? `<section class="section section--alt"><div class="container"><div class="section-heading section-heading--compact"><p class="eyebrow">Hero Gallery</p><h2>More visuals from ${esc(region.name)}</h2></div>${gallery(region.gallery, null, region.name)}</div></section>` : ''}
-      <section class="section"><div class="container two-column"><div><h2>Regional overview</h2><p>${esc(region.overview)}</p><p>${esc(region.countries_intro)}</p></div><div class="info-panel"><h3>Use this page to</h3><ul class="bullet-list"><li>Compare destination countries.</li><li>Understand regional strengths.</li><li>Move into attractions, stays, and restaurants.</li></ul></div></div></section>
-      <section class="section section--alt"><div class="container"><div class="section-heading"><p class="eyebrow">Destinations</p><h2>Destination countries in ${esc(region.name)}</h2></div>${grid(countries.map((country) => listingCard({ href: route('countries', country.slug), image: country.hero_image_url, title: country.name, summary: country.overview, eyebrow: region.name, chips: ['Destination guide'] })))}</div></section>
+      <section class="section"><div class="container two-column"><div><h2>Regional overview</h2><div class="rich-text">${rich(region.overview)}</div><div class="rich-text">${rich(region.countries_intro)}</div></div><div class="info-panel"><h3>Use this page to</h3><ul class="bullet-list"><li>Compare destination countries.</li><li>Understand regional strengths.</li><li>Move into attractions, stays, and restaurants.</li></ul></div></div></section>
+      <section class="section section--alt"><div class="container"><div class="section-heading"><p class="eyebrow">Destinations</p><h2>Destination countries in ${esc(region.name)}</h2></div>${grid(countries.map((country) => listingCard({ href: route('countries', country.slug), image: country.hero_image_url, title: country.name, summary: plain(country.overview), eyebrow: region.name, chips: ['Destination guide'] })))}</div></section>
       <section class="section"><div class="container"><div class="section-heading"><p class="eyebrow">Featured attractions</p><h2>High-interest attractions in ${esc(region.name)}</h2></div>${grid(attractions.map(attractionCard))}</div></section>`;
   }
 
@@ -181,14 +226,14 @@
     main.innerHTML = `
       ${pageHero({ eyebrow: region?.name || 'Destination', title: country.hero_title, body: country.hero_text, image: country.hero_image_url, alt: country.hero_image_alt })}
       ${lines(country.gallery).length ? `<section class="section section--alt"><div class="container"><div class="section-heading section-heading--compact"><p class="eyebrow">Hero Gallery</p><h2>More visuals from ${esc(country.name)}</h2></div>${gallery(country.gallery, null, country.name)}</div></section>` : ''}
-      <section class="section"><div class="container detail-grid"><div class="detail-main"><h2>Destination guide to ${esc(country.name)}</h2><p>${esc(country.overview)}</p><div class="detail-section"><h3>Getting around</h3><p>${esc(country.access_summary)}</p></div><div class="detail-section"><h3>Best time to visit</h3><p>${esc(country.best_time)}</p></div><div class="detail-section"><h3>Planning notes</h3><p>${esc(country.planning_tips)}</p></div></div><aside class="detail-rail"><div class="booking-panel"><p class="booking-panel__eyebrow">Destination at a glance</p><h3>${esc(country.name)}</h3><ul class="bullet-list"><li>${attractions.length} attractions listed</li><li>${operators.length} tour operator profiles</li><li>${stays.length} accommodations nearby</li><li>${restaurants.length} recommended restaurants</li></ul></div></aside></div></section>
+      <section class="section"><div class="container detail-grid"><div class="detail-main"><h2>Destination guide to ${esc(country.name)}</h2><div class="rich-text">${rich(country.overview)}</div><div class="detail-section"><h3>Getting around</h3><div class="rich-text">${rich(country.access_summary)}</div></div><div class="detail-section"><h3>Best time to visit</h3><div class="rich-text">${rich(country.best_time)}</div></div><div class="detail-section"><h3>Planning notes</h3><div class="rich-text">${rich(country.planning_tips)}</div></div></div><aside class="detail-rail"><div class="booking-panel"><p class="booking-panel__eyebrow">Destination at a glance</p><h3>${esc(country.name)}</h3><ul class="bullet-list"><li>${attractions.length} attractions listed</li><li>${operators.length} tour operator profiles</li><li>${stays.length} accommodations nearby</li><li>${restaurants.length} recommended restaurants</li></ul></div></aside></div></section>
       <section class="section section--alt"><div class="container"><div class="section-heading"><p class="eyebrow">Attractions</p><h2>Tourist attractions in ${esc(country.name)}</h2></div>${grid(attractions.map(attractionCard))}</div></section>
       <section class="section"><div class="container two-column"><div><div class="section-heading section-heading--compact"><p class="eyebrow">Tour operators</p><h2>Operators that can help shape the route</h2></div><div class="stack-grid">${operators.map(operatorCard).join('')}</div></div><div><div class="section-heading section-heading--compact"><p class="eyebrow">Nearby stays</p><h2>Stays that keep you close to the experience</h2></div><div class="stack-grid">${stays.map(accommodationCard).join('')}</div></div></div></section>
       <section class="section section--alt"><div class="container"><div class="section-heading"><p class="eyebrow">Dining</p><h2>Dining ideas that add flavor to the journey</h2></div>${grid(restaurants.map(restaurantCard))}</div></section>`;
   }
 
   function operatorCard(operator) {
-    return `<article class="mini-card"><h3>${esc(operator.name)}</h3><p>${esc(operator.summary)}</p><div class="chip-row">${lines(operator.specialties).map((item) => `<span>${esc(item)}</span>`).join('')}</div>${operator.booking_url ? `<a href="${esc(operator.booking_url)}" class="button button--ghost" target="_blank" rel="noopener">Visit operator</a>` : ''}</article>`;
+    return `<article class="mini-card"><h3>${esc(operator.name)}</h3><div class="rich-text">${rich(operator.summary)}</div><div class="chip-row">${lines(operator.specialties).map((item) => `<span>${esc(item)}</span>`).join('')}</div>${operator.booking_url ? `<a href="${esc(operator.booking_url)}" class="button button--ghost" target="_blank" rel="noopener">Visit operator</a>` : ''}</article>`;
   }
 
   function renderAttraction(slug) {
@@ -201,7 +246,7 @@
     const operators = (tables.tour_operators || []).filter((operator) => Number(operator.attraction_id) === Number(item.id) || Number(operator.country_id) === Number(item.country_id)).slice(0, 6);
     main.innerHTML = `
       ${detailHero({ eyebrow: `${country?.name || ''} / ${region?.name || ''}`, title: item.name, summary: item.listing_summary, rating: item.rating, reviews: item.review_count, images: item.gallery, image: item.hero_image_url, alt: item.hero_image_alt })}
-      <section class="section"><div class="container detail-grid"><div class="detail-main"><div class="detail-section"><h2>About this attraction</h2><p>${esc(item.detail_intro)}</p></div><div class="detail-section"><h3>How to get there</h3><p>${esc(item.getting_there)}</p></div><div class="detail-section"><h3>Best time to visit</h3><p>${esc(item.best_time)}</p></div><div class="detail-section"><h3>Highlights</h3><ul class="bullet-list">${lines(item.highlights).map((h) => `<li>${esc(h)}</li>`).join('')}</ul></div><div class="detail-section"><h3>Practical information</h3><p>${esc(item.practical_info)}</p></div><div class="detail-section"><h3>Full description</h3><p>${esc(item.full_description)}</p></div><div class="detail-section"><h3>Tour operators active here</h3><div class="stack-grid">${operators.map(operatorCard).join('')}</div></div></div><aside class="detail-rail"><div class="booking-panel"><p class="booking-panel__eyebrow">Booking path</p><h3>${esc(item.price_label)}</h3><p>${esc(item.location_name)}</p>${item.booking_url ? `<a href="${esc(item.booking_url)}" class="button button--full" target="_blank" rel="noopener">Check partner options</a>` : ''}</div></aside></div></section>
+      <section class="section"><div class="container detail-grid"><div class="detail-main"><div class="detail-section"><h2>About this attraction</h2><div class="rich-text">${rich(item.detail_intro)}</div></div><div class="detail-section"><h3>How to get there</h3><div class="rich-text">${rich(item.getting_there)}</div></div><div class="detail-section"><h3>Best time to visit</h3><div class="rich-text">${rich(item.best_time)}</div></div><div class="detail-section"><h3>Highlights</h3><ul class="bullet-list">${lines(item.highlights).map((h) => `<li>${esc(h)}</li>`).join('')}</ul></div><div class="detail-section"><h3>Practical information</h3><div class="rich-text">${rich(item.practical_info)}</div></div><div class="detail-section"><h3>Full description</h3><div class="rich-text">${rich(item.full_description)}</div></div><div class="detail-section"><h3>Tour operators active here</h3><div class="stack-grid">${operators.map(operatorCard).join('')}</div></div></div><aside class="detail-rail"><div class="booking-panel"><p class="booking-panel__eyebrow">Booking path</p><h3>${esc(item.price_label)}</h3><p>${esc(item.location_name)}</p>${item.booking_url ? `<a href="${esc(item.booking_url)}" class="button button--full" target="_blank" rel="noopener">Check partner options</a>` : ''}</div></aside></div></section>
       <section class="section section--alt"><div class="container"><div class="section-heading section-heading--compact"><p class="eyebrow">Nearby stays</p><h2>Accommodations near ${esc(item.name)}</h2></div>${grid(stays.map(accommodationCard))}</div></section>
       <section class="section"><div class="container"><div class="section-heading section-heading--compact"><p class="eyebrow">Nearby dining</p><h2>Restaurants near ${esc(item.name)}</h2></div>${grid(restaurants.map(restaurantCard))}</div></section>`;
   }
@@ -214,7 +259,7 @@
     const nearby = (tables.attractions || []).filter((a) => Number(a.country_id) === Number(item.country_id)).slice(0, 4);
     main.innerHTML = `
       ${detailHero({ eyebrow: `${country?.name || ''} / ${item.property_type || ''}`, title: item.name, summary: item.listing_summary, rating: item.rating, reviews: item.review_count, images: item.gallery, image: item.hero_image_url, alt: item.hero_image_alt })}
-      <section class="section"><div class="container detail-grid"><div class="detail-main"><div class="detail-section"><h2>About this stay</h2><p>${esc(item.detail_intro)}</p></div><div class="detail-section"><h3>Why it works for this route</h3><p>${esc(item.practical_info)}</p></div><div class="detail-section"><h3>Amenities</h3><ul class="bullet-list">${lines(item.amenities).map((amenity) => `<li>${esc(amenity)}</li>`).join('')}</ul></div>${attraction ? `<div class="detail-section"><h3>Best nearby attraction</h3><p><a href="${route('attractions', attraction.slug)}">${esc(attraction.name)}</a> is the clearest anchor for this stay.</p></div>` : ''}</div><aside class="detail-rail"><div class="booking-panel"><p class="booking-panel__eyebrow">Booking path</p><h3>${esc(item.price_label)}</h3><p>${esc(item.location_name)}</p>${item.booking_url ? `<a href="${esc(item.booking_url)}" class="button button--full" target="_blank" rel="noopener">Check stay options</a>` : ''}</div></aside></div></section>
+      <section class="section"><div class="container detail-grid"><div class="detail-main"><div class="detail-section"><h2>About this stay</h2><div class="rich-text">${rich(item.detail_intro)}</div></div><div class="detail-section"><h3>Why it works for this route</h3><div class="rich-text">${rich(item.practical_info)}</div></div><div class="detail-section"><h3>Amenities</h3><ul class="bullet-list">${lines(item.amenities).map((amenity) => `<li>${esc(amenity)}</li>`).join('')}</ul></div>${attraction ? `<div class="detail-section"><h3>Best nearby attraction</h3><p><a href="${route('attractions', attraction.slug)}">${esc(attraction.name)}</a> is the clearest anchor for this stay.</p></div>` : ''}</div><aside class="detail-rail"><div class="booking-panel"><p class="booking-panel__eyebrow">Booking path</p><h3>${esc(item.price_label)}</h3><p>${esc(item.location_name)}</p>${item.booking_url ? `<a href="${esc(item.booking_url)}" class="button button--full" target="_blank" rel="noopener">Check stay options</a>` : ''}</div></aside></div></section>
       <section class="section section--alt"><div class="container"><div class="section-heading section-heading--compact"><p class="eyebrow">Nearby attractions</p><h2>Continue planning around this stay</h2></div>${grid(nearby.map(attractionCard))}</div></section>`;
   }
 
@@ -226,7 +271,7 @@
     const stays = (tables.accommodations || []).filter((stay) => Number(stay.country_id) === Number(item.country_id)).slice(0, 4);
     main.innerHTML = `
       ${detailHero({ eyebrow: `${country?.name || ''} / ${item.cuisine || ''}`, title: item.name, summary: item.listing_summary, rating: item.rating, reviews: item.review_count, images: item.gallery, image: item.hero_image_url, alt: item.hero_image_alt })}
-      <section class="section"><div class="container detail-grid"><div class="detail-main"><div class="detail-section"><h2>About this restaurant</h2><p>${esc(item.detail_intro)}</p></div><div class="detail-section"><h3>Signature dish</h3><p>${esc(item.signature_dish)}</p></div><div class="detail-section"><h3>Practical information</h3><p>${esc(item.practical_info)}</p></div>${attraction ? `<div class="detail-section"><h3>Nearby attraction</h3><p>This restaurant is recommended for travelers visiting <a href="${route('attractions', attraction.slug)}">${esc(attraction.name)}</a>.</p></div>` : ''}</div><aside class="detail-rail"><div class="booking-panel"><p class="booking-panel__eyebrow">Booking path</p><h3>${esc(item.price_label)}</h3><p>${esc(item.location_name)}</p>${item.booking_url ? `<a href="${esc(item.booking_url)}" class="button button--full" target="_blank" rel="noopener">Check dining details</a>` : ''}</div></aside></div></section>
+      <section class="section"><div class="container detail-grid"><div class="detail-main"><div class="detail-section"><h2>About this restaurant</h2><div class="rich-text">${rich(item.detail_intro)}</div></div><div class="detail-section"><h3>Signature dish</h3><p>${esc(item.signature_dish)}</p></div><div class="detail-section"><h3>Practical information</h3><div class="rich-text">${rich(item.practical_info)}</div></div>${attraction ? `<div class="detail-section"><h3>Nearby attraction</h3><p>This restaurant is recommended for travelers visiting <a href="${route('attractions', attraction.slug)}">${esc(attraction.name)}</a>.</p></div>` : ''}</div><aside class="detail-rail"><div class="booking-panel"><p class="booking-panel__eyebrow">Booking path</p><h3>${esc(item.price_label)}</h3><p>${esc(item.location_name)}</p>${item.booking_url ? `<a href="${esc(item.booking_url)}" class="button button--full" target="_blank" rel="noopener">Check dining details</a>` : ''}</div></aside></div></section>
       <section class="section section--alt"><div class="container"><div class="section-heading section-heading--compact"><p class="eyebrow">Nearby stays</p><h2>Accommodations that pair well</h2></div>${grid(stays.map(accommodationCard))}</div></section>`;
   }
 
@@ -236,7 +281,7 @@
     const body = section('contact', 'body');
     main.innerHTML = `
       ${pageHero({ eyebrow: hero.eyebrow || 'Contact', title: hero.title || 'Help keep Africa travel planning clear, useful, and current.', body: hero.body || 'Send listing updates, destination corrections, partnership notes, or practical feedback.', image: hero.image_url, alt: 'Contact hero' })}
-      <section class="section"><div class="container detail-grid"><div class="detail-main"><div class="detail-section"><h2>${esc(body.title || 'Send a useful travel or listing note')}</h2><p>${esc(body.body || 'Include the country, attraction, stay, restaurant, or page URL you mean, plus the update or partnership detail you want reviewed.')}</p></div></div><aside class="detail-rail"><div class="booking-panel"><p class="booking-panel__eyebrow">Public contact</p><h3>${esc(setting('site_name', 'Trek Africa Guide'))}</h3><ul class="bullet-list"><li><a href="mailto:${esc(setting('contact_email', 'hello@trekafricaguide.com'))}">${esc(setting('contact_email', 'hello@trekafricaguide.com'))}</a></li><li>${esc(setting('contact_phone', '+256 700 000 000'))}</li><li>${esc(setting('contact_address', 'Kampala, Uganda'))}</li></ul><p>${esc(setting('contact_note', 'These contact details can be updated in the CMS settings.'))}</p></div></aside></div></section>`;
+      <section class="section"><div class="container detail-grid"><div class="detail-main"><div class="detail-section"><h2>${esc(body.title || 'Send a useful travel or listing note')}</h2><div class="rich-text">${rich(body.body || 'Include the country, attraction, stay, restaurant, or page URL you mean, plus the update or partnership detail you want reviewed.')}</div></div></div><aside class="detail-rail"><div class="booking-panel"><p class="booking-panel__eyebrow">Public contact</p><h3>${esc(setting('site_name', 'Trek Africa Guide'))}</h3><ul class="bullet-list"><li><a href="mailto:${esc(setting('contact_email', 'hello@trekafricaguide.com'))}">${esc(setting('contact_email', 'hello@trekafricaguide.com'))}</a></li><li>${esc(setting('contact_phone', '+256 700 000 000'))}</li><li>${esc(setting('contact_address', 'Kampala, Uganda'))}</li></ul><p>${esc(setting('contact_note', 'These contact details can be updated in the CMS settings.'))}</p></div></aside></div></section>`;
   }
 
   function updateBranding() {
@@ -261,8 +306,8 @@
     const parts = path.split('/').filter(Boolean);
     if (path === '/') return renderHome();
     if (path === '/contact') return renderContact();
-    if (path === '/regions') return (tables.regions || []).length ? renderIndex('regions', 'Regions', 'Start with the major Africa travel regions.', tables.regions || [], (region) => listingCard({ href: route('regions', region.slug), image: region.hero_image_url, title: region.name, summary: region.overview, eyebrow: 'Region', chips: ['Regional guide'] })) : undefined;
-    if (path === '/countries') return (tables.countries || []).length ? renderIndex('countries', 'Destinations', 'Compare destination country guides.', tables.countries || [], (country) => listingCard({ href: route('countries', country.slug), image: country.hero_image_url, title: country.name, summary: country.overview, eyebrow: getRegion(country.region_id)?.name, chips: ['Destination guide'] })) : undefined;
+    if (path === '/regions') return (tables.regions || []).length ? renderIndex('regions', 'Regions', 'Start with the major Africa travel regions.', tables.regions || [], (region) => listingCard({ href: route('regions', region.slug), image: region.hero_image_url, title: region.name, summary: plain(region.overview), eyebrow: 'Region', chips: ['Regional guide'] })) : undefined;
+    if (path === '/countries') return (tables.countries || []).length ? renderIndex('countries', 'Destinations', 'Compare destination country guides.', tables.countries || [], (country) => listingCard({ href: route('countries', country.slug), image: country.hero_image_url, title: country.name, summary: plain(country.overview), eyebrow: getRegion(country.region_id)?.name, chips: ['Destination guide'] })) : undefined;
     if (path === '/attractions') return (tables.attractions || []).length ? renderIndex('attractions', 'Attractions', 'Browse tourist attractions and practical travel notes.', tables.attractions || [], attractionCard) : undefined;
     if (path === '/accommodations') return (tables.accommodations || []).length ? renderIndex('accommodations', 'Accommodations', 'Browse stays connected to destinations and attractions.', tables.accommodations || [], accommodationCard) : undefined;
     if (path === '/restaurants') return (tables.restaurants || []).length ? renderIndex('restaurants', 'Restaurants', 'Browse recommended restaurants near travel routes.', tables.restaurants || [], restaurantCard) : undefined;

@@ -31,7 +31,7 @@
                     'href' => route('countries.show', $country),
                     'image' => $country->hero_image_url,
                     'title' => $country->name,
-                    'summary' => $country->overview,
+                    'summary' => \Illuminate\Support\Str::limit(strip_tags($country->overview), 200),
                     'eyebrow' => $country->region->name,
                     'rating' => null,
                     'reviews' => null,

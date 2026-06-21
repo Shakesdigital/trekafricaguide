@@ -636,6 +636,24 @@ img {
     border-bottom: 1px solid var(--line);
 }
 
+/* Admin-authored rich text blocks */
+.rich-text > *:first-child { margin-top: 0; }
+.rich-text > *:last-child { margin-bottom: 0; }
+.rich-text p { margin: 0 0 1rem; }
+.rich-text ul,
+.rich-text ol { margin: 0 0 1rem; padding-left: 1.25rem; }
+.rich-text li { margin-bottom: 0.35rem; }
+.rich-text h2 { margin: 1.25rem 0 0.5rem; }
+.rich-text h3 { margin: 1rem 0 0.4rem; }
+.rich-text a { color: var(--brand-primary, #1d4f3a); text-decoration: underline; }
+.rich-text blockquote {
+    margin: 0 0 1rem;
+    padding: 0.4rem 1rem;
+    border-left: 3px solid var(--brand-accent, #c5b580);
+    font-style: italic;
+    opacity: 0.9;
+}
+
 .detail-rail {
     position: relative;
 }

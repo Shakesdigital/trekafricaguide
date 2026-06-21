@@ -34,8 +34,8 @@
     <div class="container two-column">
         <div>
             <h2>Regional overview</h2>
-            <p>{{ $region->overview }}</p>
-            <p>{{ $region->countries_intro }}</p>
+            <div class="rich-text">{!! $region->overview !!}</div>
+            <div class="rich-text">{!! $region->countries_intro !!}</div>
         </div>
         <div class="info-panel">
             <h3>Use this page to</h3>

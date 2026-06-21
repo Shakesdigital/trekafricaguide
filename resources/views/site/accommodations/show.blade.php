@@ -33,11 +33,11 @@
         <div class="detail-main">
             <div class="detail-section">
                 <h2>About this stay</h2>
-                <p>{{ $accommodation->detail_intro }}</p>
+                <div class="rich-text">{!! $accommodation->detail_intro !!}</div>
             </div>
             <div class="detail-section">
                 <h3>Why it works for this route</h3>
-                <p>{{ $accommodation->practical_info }}</p>
+                <div class="rich-text">{!! $accommodation->practical_info !!}</div>
             </div>
             <div class="detail-section">
                 <h3>Amenities</h3>

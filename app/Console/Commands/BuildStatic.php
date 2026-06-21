@@ -37,6 +37,7 @@ class BuildStatic extends Command
             'favicon.ico',
             'robots.txt',
             'cms-sync.js',
+            'cms.html',
             'logo to edit.png',
             'listing style.png',
             'Tourist Attraction individual listing style.PNG',

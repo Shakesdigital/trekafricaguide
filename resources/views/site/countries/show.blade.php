@@ -34,18 +34,18 @@
     <div class="container detail-grid">
         <div class="detail-main">
             <h2>Destination guide to {{ $country->name }}</h2>
-            <p>{{ $country->overview }}</p>
+            <div class="rich-text">{!! $country->overview !!}</div>
             <div class="detail-section">
                 <h3>Getting around</h3>
-                <p>{{ $country->access_summary }}</p>
+                <div class="rich-text">{!! $country->access_summary !!}</div>
             </div>
             <div class="detail-section">
                 <h3>Best time to visit</h3>
-                <p>{{ $country->best_time }}</p>
+                <div class="rich-text">{!! $country->best_time !!}</div>
             </div>
             <div class="detail-section">
                 <h3>Planning notes</h3>
-                <p>{{ $country->planning_tips }}</p>
+                <div class="rich-text">{!! $country->planning_tips !!}</div>
             </div>
         </div>
         <aside class="detail-rail">
@@ -99,7 +99,7 @@
                 @foreach($country->tourOperators as $operator)
                     <article class="mini-card">
                         <h3>{{ $operator->name }}</h3>
-                        <p>{{ $operator->summary }}</p>
+                        <div class="rich-text">{!! $operator->summary !!}</div>
                         <div class="chip-row">
                             @foreach($operator->specialties ?? [] as $specialty)
                                 <span>{{ $specialty }}</span>

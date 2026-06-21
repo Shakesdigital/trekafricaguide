@@ -25,15 +25,15 @@
         <div class="detail-main">
             <div class="detail-section">
                 <h2>About this attraction</h2>
-                <p>{{ $attraction->detail_intro }}</p>
+                <div class="rich-text">{!! $attraction->detail_intro !!}</div>
             </div>
             <div class="detail-section">
                 <h3>How to get there</h3>
-                <p>{{ $attraction->getting_there }}</p>
+                <div class="rich-text">{!! $attraction->getting_there !!}</div>
             </div>
             <div class="detail-section">
                 <h3>Best time to visit</h3>
-                <p>{{ $attraction->best_time }}</p>
+                <div class="rich-text">{!! $attraction->best_time !!}</div>
             </div>
             <div class="detail-section">
                 <h3>Highlights</h3>
@@ -45,11 +45,11 @@
             </div>
             <div class="detail-section">
                 <h3>Practical information</h3>
-                <p>{{ $attraction->practical_info }}</p>
+                <div class="rich-text">{!! $attraction->practical_info !!}</div>
             </div>
             <div class="detail-section">
                 <h3>Full description</h3>
-                <p>{{ $attraction->full_description }}</p>
+                <div class="rich-text">{!! $attraction->full_description !!}</div>
             </div>
             <div class="detail-section">
                 <h3>Tour operators active here</h3>
@@ -57,7 +57,7 @@
                     @foreach($attraction->tourOperators as $operator)
                         <article class="mini-card">
                             <h4>{{ $operator->name }}</h4>
-                            <p>{{ $operator->summary }}</p>
+                            <div class="rich-text">{!! $operator->summary !!}</div>
                             <a href="{{ $operator->booking_url }}" class="button button--ghost" target="_blank" rel="noopener">Operator booking page</a>
                         </article>
                     @endforeach
