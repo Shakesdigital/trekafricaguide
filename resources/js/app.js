@@ -173,3 +173,89 @@ document.addEventListener('keydown', (event) => {
         document.querySelectorAll('.admin-modal.is-open').forEach((modal) => modal.classList.remove('is-open'));
     }
 });
+
+/* Gallery lightbox — delegated so it survives runtime re-rendering by cms-sync.js. */
+(() => {
+    let overlay;
+    let imageEl;
+    let countEl;
+    let sources = [];
+    let index = 0;
+
+    const build = () => {
+        overlay = document.createElement('div');
+        overlay.className = 'lightbox';
+        overlay.setAttribute('role', 'dialog');
+        overlay.setAttribute('aria-modal', 'true');
+        overlay.setAttribute('aria-label', 'Photo gallery');
+        overlay.innerHTML = `
+            <button type="button" class="lightbox__btn lightbox__btn--close" data-lb="close" aria-label="Close gallery">&times;</button>
+            <button type="button" class="lightbox__btn lightbox__btn--prev" data-lb="prev" aria-label="Previous photo">&#8249;</button>
+            <img class="lightbox__img" alt="">
+            <button type="button" class="lightbox__btn lightbox__btn--next" data-lb="next" aria-label="Next photo">&#8250;</button>
+            <p class="lightbox__count" aria-live="polite"></p>`;
+        document.body.appendChild(overlay);
+        imageEl = overlay.querySelector('.lightbox__img');
+        countEl = overlay.querySelector('.lightbox__count');
+
+        overlay.addEventListener('click', (event) => {
+            const action = event.target.closest('[data-lb]')?.dataset.lb;
+            if (action === 'next') return step(1);
+            if (action === 'prev') return step(-1);
+            if (action === 'close' || event.target === overlay) close();
+        });
+    };
+
+    const render = () => {
+        if (!sources.length) return;
+        imageEl.src = sources[index];
+        countEl.textContent = `${index + 1} / ${sources.length}`;
+        overlay.querySelector('[data-lb="prev"]').hidden = sources.length < 2;
+        overlay.querySelector('[data-lb="next"]').hidden = sources.length < 2;
+    };
+
+    const step = (delta) => {
+        index = (index + delta + sources.length) % sources.length;
+        render();
+    };
+
+    const open = (gallery, startSrc) => {
+        if (!overlay) build();
+        sources = [...gallery.querySelectorAll('img')].map((img) => img.currentSrc || img.src).filter(Boolean);
+        if (!sources.length) return;
+        const found = startSrc ? sources.indexOf(startSrc) : 0;
+        index = found >= 0 ? found : 0;
+        render();
+        overlay.classList.add('is-open');
+        document.body.style.overflow = 'hidden';
+    };
+
+    const close = () => {
+        overlay?.classList.remove('is-open');
+        document.body.style.overflow = '';
+    };
+
+    document.addEventListener('click', (event) => {
+        const gallery = event.target.closest('[data-gallery]');
+        if (!gallery) return;
+
+        const openButton = event.target.closest('[data-gallery-open]');
+        if (openButton) {
+            event.preventDefault();
+            return open(gallery);
+        }
+
+        const clickedImage = event.target.closest('img');
+        if (clickedImage) {
+            event.preventDefault();
+            open(gallery, clickedImage.currentSrc || clickedImage.src);
+        }
+    });
+
+    document.addEventListener('keydown', (event) => {
+        if (!overlay || !overlay.classList.contains('is-open')) return;
+        if (event.key === 'Escape') close();
+        if (event.key === 'ArrowRight') step(1);
+        if (event.key === 'ArrowLeft') step(-1);
+    });
+})();

@@ -7,6 +7,4 @@
 /suppliers          /suppliers/index.html       200
 /supplier-terms     /supplier-terms/index.html  200
 /contact            /contact/index.html         200
-/admin              /admin/index.html           200
-/admin/             /admin/index.html           200
 /*                  /index.html                  404

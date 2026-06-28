@@ -133,20 +133,71 @@
       </div>
     </section>`;
 
-  const detailHero = ({ eyebrow, title, summary, rating, reviews, images, image, alt }) => `
+  // Inline icon set (kept in sync with resources/views/site/partials/icon.blade.php).
+  const ICONS = {
+    star: '<path d="M12 3l2.6 5.6 6.1.8-4.5 4.2 1.2 6L12 16.9 6.6 19.6l1.2-6L3.3 9.4l6.1-.8z"/>',
+    pin: '<path d="M12 21s-6-5.3-6-10a6 6 0 1 1 12 0c0 4.7-6 10-6 10z"/><circle cx="12" cy="11" r="2.3"/>',
+    tag: '<path d="M3.5 11.5l8-8H20a.5.5 0 0 1 .5.5v8.5l-8 8a1 1 0 0 1-1.4 0L3.5 13a1 1 0 0 1 0-1.5z"/><circle cx="16.5" cy="7.5" r="1.1"/>',
+    bed: '<path d="M3 18v-9M3 13h18v5M21 18v-3M3 13l1.5-3.5a2 2 0 0 1 1.8-1.2h11.4a2 2 0 0 1 1.8 1.2L21 13"/><circle cx="7.5" cy="11" r="1.2"/>',
+    utensils: '<path d="M7 3v8m0 0v10M4.5 3v5a2.5 2.5 0 0 0 5 0V3M17 14v7m0-7s4-1 4-7c0-3-1.5-4-2.5-4S16 4 16 7c0 6 1 7 1 7z"/>',
+    clock: '<circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 1.8"/>',
+    calendar: '<rect x="3.5" y="5" width="17" height="15.5" rx="2"/><path d="M3.5 9.5h17M8 3v4M16 3v4"/>',
+    check: '<path d="M20 6.5L9.5 17.5 4 12"/>',
+    shield: '<path d="M12 3l7 2.5v5.5c0 4.5-3 8-7 9.5-4-1.5-7-5-7-9.5V5.5z"/><path d="M9 12l2 2 4-4"/>',
+    route: '<circle cx="6" cy="18" r="2.3"/><circle cx="18" cy="6" r="2.3"/><path d="M8 17h7a3.5 3.5 0 0 0 0-7H9a3.5 3.5 0 0 1 0-7"/>',
+    sparkle: '<path d="M12 3l1.7 5.1L19 9.8l-5.3 1.7L12 17l-1.7-5.5L5 9.8l5.3-1.7z"/>',
+    camera: '<path d="M4 8.5A2 2 0 0 1 6 6.5h1.5l1-2h5l1 2H20a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2z"/><circle cx="12" cy="13" r="3.2"/>',
+    info: '<circle cx="12" cy="12" r="8.5"/><path d="M12 11v5M12 7.6v.1"/>',
+    compass: '<circle cx="12" cy="12" r="8.5"/><path d="M15.5 8.5l-2 5-5 2 2-5z"/>',
+  };
+  const icon = (name) => `<svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">${ICONS[name] || ICONS.check}</svg>`;
+
+  const galleryBlock = (images, fallback, alt) => {
+    const galleryImages = lines(images);
+    const items = galleryImages.length ? galleryImages : [fallback].filter(Boolean);
+    if (!items.length) return '';
+    const single = items.length === 1;
+    return `<div class="gallery" data-gallery>
+      <div class="gallery-grid ${single ? 'gallery-grid--single' : ''}">${items.map((image) => imageSlot(image, alt, 'gallery-grid__slot')).join('')}</div>
+      ${items.length > 1 ? `<button type="button" class="gallery-count" data-gallery-open>${icon('camera')} ${items.length} photos</button>` : ''}
+    </div>`;
+  };
+
+  const metaBar = (rating, reviews, items = []) => `
+    <div class="listing-meta">
+      ${rating ? `<span class="listing-meta__rating">${icon('star')} ${Number(rating).toFixed(1)}</span><span class="listing-meta__muted">${Number(reviews || 0).toLocaleString()} reviews</span>` : ''}
+      ${items.filter((i) => i && i.text).map((i) => `<span class="listing-meta__sep">·</span><span class="listing-meta__item">${icon(i.icon)} ${esc(i.text)}</span>`).join('')}
+    </div>`;
+
+  const listingHero = ({ eyebrow, title, summary, rating, reviews, meta = [], images, image, alt }) => `
     <section class="detail-hero">
       <div class="container">
-        <div class="detail-hero__header">
-          <div>
-            <p class="eyebrow">${esc(eyebrow)}</p>
-            <h1>${esc(title)}</h1>
-            <p class="detail-hero__summary">${esc(summary)}</p>
-            ${rating ? `<div class="detail-rating">&#9733; ${Number(rating).toFixed(1)} <span>${Number(reviews || 0).toLocaleString()} reviews</span></div>` : ''}
-          </div>
+        <div class="listing-head">
+          <p class="eyebrow">${esc(eyebrow)}</p>
+          <h1>${esc(title)}</h1>
+          <p class="detail-hero__summary">${esc(summary)}</p>
+          ${metaBar(rating, reviews, meta)}
         </div>
-        ${gallery(images, image, alt || title, true)}
+        ${galleryBlock(images, image, alt || title)}
       </div>
     </section>`;
+
+  const fact = (iconName, label, value) => value ? `<div class="fact"><span class="fact__icon">${icon(iconName)}</span><div><p class="fact__label">${esc(label)}</p><p class="fact__value">${esc(value)}</p></div></div>` : '';
+  const factStrip = (facts) => `<div class="fact-strip">${facts.filter(Boolean).join('')}</div>`;
+  const amenityList = (items) => `<ul class="amenity-grid">${items.map((i) => `<li class="amenity">${icon('check')} ${esc(i)}</li>`).join('')}</ul>`;
+  const checkList = (items) => `<ul class="check-list">${items.map((i) => `<li>${icon('check')} ${esc(i)}</li>`).join('')}</ul>`;
+  const signatureBlock = (dish) => dish ? `<div class="detail-section"><div class="signature"><span class="signature__icon">${icon('sparkle')}</span><div><p class="signature__label">Signature dish</p><p class="signature__name">${esc(dish)}</p></div></div></div>` : '';
+  const detailOperatorCard = (operator) => `<article class="operator-card"><h4>${esc(operator.name)}</h4><div class="rich-text">${rich(operator.summary)}</div>${operator.booking_url ? `<a href="${esc(operator.booking_url)}" class="button button--ghost" target="_blank" rel="noopener">Operator booking page</a>` : ''}</article>`;
+  const bookingPanel = ({ eyebrow, price, where, cta, url, trust }) => `
+    <aside class="detail-rail">
+      <div class="booking-panel">
+        <p class="booking-panel__eyebrow">${esc(eyebrow)}</p>
+        <p class="booking-panel__price">${esc(price)}</p>
+        ${where ? `<p class="booking-panel__where">${icon('pin')} ${esc(where)}</p>` : ''}
+        ${url ? `<a href="${esc(url)}" class="button button--full" target="_blank" rel="noopener">${esc(cta)}</a>` : ''}
+        <ul class="booking-trust">${trust.map((t) => `<li>${icon(t.icon)} ${esc(t.text)}</li>`).join('')}</ul>
+      </div>
+    </aside>`;
 
   const grid = (items) => `<div class="listing-grid">${items.join('')}</div>`;
   const getCountry = (id) => (tables.countries || []).find((item) => Number(item.id) === Number(id));
@@ -244,9 +295,19 @@
     const stays = (tables.accommodations || []).filter((stay) => Number(stay.attraction_id) === Number(item.id)).slice(0, 4);
     const restaurants = (tables.restaurants || []).filter((restaurant) => Number(restaurant.attraction_id) === Number(item.id)).slice(0, 4);
     const operators = (tables.tour_operators || []).filter((operator) => Number(operator.attraction_id) === Number(item.id) || Number(operator.country_id) === Number(item.country_id)).slice(0, 6);
+    const highlights = lines(item.highlights);
     main.innerHTML = `
-      ${detailHero({ eyebrow: `${country?.name || ''} / ${region?.name || ''}`, title: item.name, summary: item.listing_summary, rating: item.rating, reviews: item.review_count, images: item.gallery, image: item.hero_image_url, alt: item.hero_image_alt })}
-      <section class="section"><div class="container detail-grid"><div class="detail-main"><div class="detail-section"><h2>About this attraction</h2><div class="rich-text">${rich(item.detail_intro)}</div></div><div class="detail-section"><h3>How to get there</h3><div class="rich-text">${rich(item.getting_there)}</div></div><div class="detail-section"><h3>Best time to visit</h3><div class="rich-text">${rich(item.best_time)}</div></div><div class="detail-section"><h3>Highlights</h3><ul class="bullet-list">${lines(item.highlights).map((h) => `<li>${esc(h)}</li>`).join('')}</ul></div><div class="detail-section"><h3>Practical information</h3><div class="rich-text">${rich(item.practical_info)}</div></div><div class="detail-section"><h3>Full description</h3><div class="rich-text">${rich(item.full_description)}</div></div><div class="detail-section"><h3>Tour operators active here</h3><div class="stack-grid">${operators.map(operatorCard).join('')}</div></div></div><aside class="detail-rail"><div class="booking-panel"><p class="booking-panel__eyebrow">Booking path</p><h3>${esc(item.price_label)}</h3><p>${esc(item.location_name)}</p>${item.booking_url ? `<a href="${esc(item.booking_url)}" class="button button--full" target="_blank" rel="noopener">Check partner options</a>` : ''}</div></aside></div></section>
+      ${listingHero({ eyebrow: `${country?.name || ''} • ${region?.name || ''}`, title: item.name, summary: item.listing_summary, rating: item.rating, reviews: item.review_count, meta: [{ icon: 'pin', text: item.location_name }, { icon: 'tag', text: item.price_label }], images: item.gallery, image: item.hero_image_url, alt: item.hero_image_alt })}
+      <section class="section"><div class="container detail-grid"><div class="detail-main">
+        ${factStrip([fact('pin', 'Where', item.location_name), fact('compass', 'Region', region?.name), fact('star', 'Traveler rating', `${Number(item.rating || 0).toFixed(1)} / 5`), fact('tag', 'Typical cost', item.price_label)])}
+        <div class="detail-section"><h2>About this attraction</h2><div class="rich-text">${rich(item.detail_intro)}</div></div>
+        ${highlights.length ? `<div class="detail-section"><h3>Highlights</h3>${checkList(highlights)}</div>` : ''}
+        <div class="detail-section"><h3>How to get there</h3><div class="rich-text">${rich(item.getting_there)}</div></div>
+        <div class="detail-section"><h3>Best time to visit</h3><div class="rich-text">${rich(item.best_time)}</div></div>
+        <div class="detail-section"><h3>Practical information</h3><div class="rich-text">${rich(item.practical_info)}</div></div>
+        <div class="detail-section"><h3>Full description</h3><div class="rich-text">${rich(item.full_description)}</div></div>
+        ${operators.length ? `<div class="detail-section"><h3>Tour operators active here</h3><div class="stack-grid">${operators.map(detailOperatorCard).join('')}</div></div>` : ''}
+      </div>${bookingPanel({ eyebrow: 'Plan your visit', price: item.price_label || 'Free to explore', where: item.location_name, cta: 'Check tours & tickets', url: item.booking_url, trust: [{ icon: 'shield', text: 'Booked through vetted local operators' }, { icon: 'check', text: 'Live dates and pricing on the partner site' }, { icon: 'info', text: 'No payment is taken on this page' }] })}</div></section>
       <section class="section section--alt"><div class="container"><div class="section-heading section-heading--compact"><p class="eyebrow">Nearby stays</p><h2>Accommodations near ${esc(item.name)}</h2></div>${grid(stays.map(accommodationCard))}</div></section>
       <section class="section"><div class="container"><div class="section-heading section-heading--compact"><p class="eyebrow">Nearby dining</p><h2>Restaurants near ${esc(item.name)}</h2></div>${grid(restaurants.map(restaurantCard))}</div></section>`;
   }
@@ -257,9 +318,16 @@
     const country = getCountry(item.country_id);
     const attraction = getAttraction(item.attraction_id);
     const nearby = (tables.attractions || []).filter((a) => Number(a.country_id) === Number(item.country_id)).slice(0, 4);
+    const amenities = lines(item.amenities);
     main.innerHTML = `
-      ${detailHero({ eyebrow: `${country?.name || ''} / ${item.property_type || ''}`, title: item.name, summary: item.listing_summary, rating: item.rating, reviews: item.review_count, images: item.gallery, image: item.hero_image_url, alt: item.hero_image_alt })}
-      <section class="section"><div class="container detail-grid"><div class="detail-main"><div class="detail-section"><h2>About this stay</h2><div class="rich-text">${rich(item.detail_intro)}</div></div><div class="detail-section"><h3>Why it works for this route</h3><div class="rich-text">${rich(item.practical_info)}</div></div><div class="detail-section"><h3>Amenities</h3><ul class="bullet-list">${lines(item.amenities).map((amenity) => `<li>${esc(amenity)}</li>`).join('')}</ul></div>${attraction ? `<div class="detail-section"><h3>Best nearby attraction</h3><p><a href="${route('attractions', attraction.slug)}">${esc(attraction.name)}</a> is the clearest anchor for this stay.</p></div>` : ''}</div><aside class="detail-rail"><div class="booking-panel"><p class="booking-panel__eyebrow">Booking path</p><h3>${esc(item.price_label)}</h3><p>${esc(item.location_name)}</p>${item.booking_url ? `<a href="${esc(item.booking_url)}" class="button button--full" target="_blank" rel="noopener">Check stay options</a>` : ''}</div></aside></div></section>
+      ${listingHero({ eyebrow: `${country?.name || ''}${item.property_type ? ` • ${item.property_type}` : ''}`, title: item.name, summary: item.listing_summary, rating: item.rating, reviews: item.review_count, meta: [{ icon: 'pin', text: item.location_name }, { icon: 'tag', text: item.price_label }], images: item.gallery, image: item.hero_image_url, alt: item.hero_image_alt })}
+      <section class="section"><div class="container detail-grid"><div class="detail-main">
+        ${factStrip([fact('bed', 'Property', item.property_type), fact('pin', 'Location', item.location_name), fact('star', 'Guest rating', `${Number(item.rating || 0).toFixed(1)} / 5`), fact('tag', 'From', item.price_label)])}
+        <div class="detail-section"><h2>About this stay</h2><div class="rich-text">${rich(item.detail_intro)}</div></div>
+        <div class="detail-section"><h3>Why it works for this route</h3><div class="rich-text">${rich(item.practical_info)}</div></div>
+        ${amenities.length ? `<div class="detail-section"><h3>Amenities</h3>${amenityList(amenities)}</div>` : ''}
+        ${attraction ? `<div class="detail-section"><h3>Best nearby attraction</h3><p><a href="${route('attractions', attraction.slug)}">${esc(attraction.name)}</a> is the clearest anchor for this stay.</p></div>` : ''}
+      </div>${bookingPanel({ eyebrow: 'Where to book', price: item.price_label || 'Rates on request', where: item.location_name, cta: 'Check stay availability', url: item.booking_url, trust: [{ icon: 'shield', text: 'Listed on a verified partner booking page' }, { icon: 'check', text: 'Live availability and rates on the partner site' }, { icon: 'info', text: 'No payment is taken on this page' }] })}</div></section>
       <section class="section section--alt"><div class="container"><div class="section-heading section-heading--compact"><p class="eyebrow">Nearby attractions</p><h2>Continue planning around this stay</h2></div>${grid(nearby.map(attractionCard))}</div></section>`;
   }
 
@@ -270,8 +338,14 @@
     const attraction = getAttraction(item.attraction_id);
     const stays = (tables.accommodations || []).filter((stay) => Number(stay.country_id) === Number(item.country_id)).slice(0, 4);
     main.innerHTML = `
-      ${detailHero({ eyebrow: `${country?.name || ''} / ${item.cuisine || ''}`, title: item.name, summary: item.listing_summary, rating: item.rating, reviews: item.review_count, images: item.gallery, image: item.hero_image_url, alt: item.hero_image_alt })}
-      <section class="section"><div class="container detail-grid"><div class="detail-main"><div class="detail-section"><h2>About this restaurant</h2><div class="rich-text">${rich(item.detail_intro)}</div></div><div class="detail-section"><h3>Signature dish</h3><p>${esc(item.signature_dish)}</p></div><div class="detail-section"><h3>Practical information</h3><div class="rich-text">${rich(item.practical_info)}</div></div>${attraction ? `<div class="detail-section"><h3>Nearby attraction</h3><p>This restaurant is recommended for travelers visiting <a href="${route('attractions', attraction.slug)}">${esc(attraction.name)}</a>.</p></div>` : ''}</div><aside class="detail-rail"><div class="booking-panel"><p class="booking-panel__eyebrow">Booking path</p><h3>${esc(item.price_label)}</h3><p>${esc(item.location_name)}</p>${item.booking_url ? `<a href="${esc(item.booking_url)}" class="button button--full" target="_blank" rel="noopener">Check dining details</a>` : ''}</div></aside></div></section>
+      ${listingHero({ eyebrow: `${country?.name || ''}${item.cuisine ? ` • ${item.cuisine}` : ''}`, title: item.name, summary: item.listing_summary, rating: item.rating, reviews: item.review_count, meta: [{ icon: 'utensils', text: item.cuisine }, { icon: 'tag', text: item.price_label }], images: item.gallery, image: item.hero_image_url, alt: item.hero_image_alt })}
+      <section class="section"><div class="container detail-grid"><div class="detail-main">
+        ${factStrip([fact('utensils', 'Cuisine', item.cuisine), fact('pin', 'Location', item.location_name), fact('star', 'Diner rating', `${Number(item.rating || 0).toFixed(1)} / 5`), fact('tag', 'Price', item.price_label)])}
+        <div class="detail-section"><h2>About this restaurant</h2><div class="rich-text">${rich(item.detail_intro)}</div></div>
+        ${signatureBlock(item.signature_dish)}
+        <div class="detail-section"><h3>Practical information</h3><div class="rich-text">${rich(item.practical_info)}</div></div>
+        ${attraction ? `<div class="detail-section"><h3>Nearby attraction</h3><p>This restaurant is recommended for travelers visiting <a href="${route('attractions', attraction.slug)}">${esc(attraction.name)}</a>.</p></div>` : ''}
+      </div>${bookingPanel({ eyebrow: 'Plan a visit', price: item.price_label || 'See menu', where: item.location_name, cta: 'View dining details', url: item.booking_url, trust: [{ icon: 'shield', text: "Reservations on the venue's own page" }, { icon: 'clock', text: 'Confirm current hours before you go' }, { icon: 'info', text: 'No payment is taken on this page' }] })}</div></section>
       <section class="section section--alt"><div class="container"><div class="section-heading section-heading--compact"><p class="eyebrow">Nearby stays</p><h2>Accommodations that pair well</h2></div>${grid(stays.map(accommodationCard))}</div></section>`;
   }
 

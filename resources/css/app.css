@@ -1326,3 +1326,416 @@ img {
         grid-template-columns: minmax(0, 1fr);
     }
 }
+
+/* ============================================================
+   Listing detail redesign — hero meta, facts, amenities,
+   booking rail, gallery lightbox. Token-driven, no raw hex.
+   ============================================================ */
+
+.icon {
+    width: 1.1em;
+    height: 1.1em;
+    flex: none;
+    stroke: currentColor;
+    stroke-width: 1.7;
+    fill: none;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+
+/* Hero head + inline meta bar (rating · location · price) */
+.listing-head {
+    max-width: 52rem;
+    margin-bottom: 1.5rem;
+}
+
+.listing-meta {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.35rem 0.7rem;
+    margin-top: 0.9rem;
+    font-weight: 600;
+    font-size: 0.95rem;
+}
+
+.listing-meta__rating {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.32rem;
+    padding: 0.25rem 0.65rem;
+    border-radius: 999px;
+    background: var(--brand-primary);
+    color: #fff;
+    font-weight: 800;
+}
+
+.listing-meta__rating .icon {
+    fill: var(--brand-accent);
+    stroke: var(--brand-accent);
+}
+
+.listing-meta__item {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.32rem;
+    min-width: 0;
+}
+
+.listing-meta__item .icon {
+    color: var(--brand-secondary);
+}
+
+.listing-meta__sep {
+    opacity: 0.4;
+    font-weight: 400;
+}
+
+.listing-meta__muted {
+    font-weight: 500;
+    opacity: 0.78;
+}
+
+/* Gallery wrapper + photo-count affordance */
+.gallery {
+    position: relative;
+}
+
+.gallery-grid__slot,
+.gallery .gallery-grid img {
+    cursor: zoom-in;
+    transition: filter 0.25s ease, transform 0.25s ease;
+}
+
+.gallery:hover .gallery-grid__slot,
+.gallery:hover .gallery-grid img {
+    filter: brightness(0.97);
+}
+
+.gallery-count {
+    position: absolute;
+    right: 0.9rem;
+    bottom: 0.9rem;
+    z-index: 2;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    padding: 0.55rem 0.95rem;
+    border-radius: 999px;
+    border: none;
+    background: rgba(20, 37, 59, 0.82);
+    color: #fff;
+    font: inherit;
+    font-size: 0.85rem;
+    font-weight: 700;
+    cursor: pointer;
+    box-shadow: var(--shadow);
+    backdrop-filter: blur(4px);
+}
+
+.gallery-count:hover {
+    background: var(--ink);
+}
+
+/* At-a-glance fact strip */
+.fact-strip {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.9rem;
+    margin-bottom: 0.5rem;
+    padding-bottom: 1.6rem;
+    border-bottom: 1px solid var(--line);
+}
+
+.fact {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.7rem;
+    min-width: 0;
+}
+
+.fact__icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.45rem;
+    height: 2.45rem;
+    flex: none;
+    border-radius: 0.75rem;
+    background: var(--sand);
+    color: var(--brand-primary);
+}
+
+.fact__icon .icon {
+    width: 1.25rem;
+    height: 1.25rem;
+}
+
+.fact__label {
+    margin: 0;
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    font-weight: 700;
+    color: var(--brand-secondary);
+}
+
+.fact__value {
+    margin: 0.1rem 0 0;
+    font-weight: 700;
+    line-height: 1.3;
+    overflow-wrap: anywhere;
+}
+
+/* Amenities + highlights as icon checklists */
+.amenity-grid,
+.check-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    gap: 0.7rem 1.4rem;
+}
+
+.amenity-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.amenity,
+.check-list li {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.55rem;
+    margin: 0;
+    padding: 0;
+    overflow-wrap: anywhere;
+}
+
+.amenity::before,
+.check-list li::before {
+    content: none;
+}
+
+.amenity .icon,
+.check-list li .icon {
+    margin-top: 0.18rem;
+    color: var(--brand-primary);
+    width: 1.05rem;
+    height: 1.05rem;
+}
+
+/* Restaurant signature-dish callout */
+.signature {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1.1rem 1.25rem;
+    border-radius: var(--radius-sm);
+    background: var(--sand);
+    border: 1px solid var(--line);
+}
+
+.signature__icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.8rem;
+    height: 2.8rem;
+    flex: none;
+    border-radius: 999px;
+    background: var(--brand-secondary);
+    color: #fff;
+}
+
+.signature__label {
+    margin: 0;
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    letter-spacing: 0.09em;
+    font-weight: 800;
+    color: var(--brand-secondary);
+}
+
+.signature__name {
+    margin: 0.15rem 0 0;
+    font-family: 'Instrument Serif', serif;
+    font-size: 1.45rem;
+    line-height: 1.15;
+}
+
+/* Booking rail redesign */
+.booking-panel__price {
+    margin: 0.35rem 0 0.1rem;
+    font-family: 'Instrument Serif', serif;
+    font-size: 1.85rem;
+    line-height: 1.1;
+}
+
+.booking-panel__where {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    margin: 0 0 1rem;
+    font-weight: 600;
+    color: rgba(20, 37, 59, 0.78);
+}
+
+.booking-panel__where .icon {
+    color: var(--brand-secondary);
+}
+
+.booking-trust {
+    list-style: none;
+    margin: 1.1rem 0 0;
+    padding: 1.1rem 0 0;
+    border-top: 1px solid var(--line);
+    display: grid;
+    gap: 0.65rem;
+    font-size: 0.88rem;
+}
+
+.booking-trust li {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.55rem;
+    color: rgba(20, 37, 59, 0.82);
+}
+
+.booking-trust .icon {
+    margin-top: 0.12rem;
+    color: var(--brand-primary);
+    width: 1.02rem;
+    height: 1.02rem;
+}
+
+/* Operator cards */
+.operator-card {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    padding: 1.25rem;
+    background: rgba(255, 255, 255, 0.92);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+}
+
+.operator-card h4 {
+    margin: 0;
+    font-size: 1.4rem;
+}
+
+.operator-card .button {
+    margin-top: auto;
+    align-self: flex-start;
+}
+
+/* Gallery lightbox overlay (built by app.js) */
+.lightbox {
+    position: fixed;
+    inset: 0;
+    z-index: 90;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: clamp(1rem, 4vw, 3rem);
+    background: rgba(8, 15, 24, 0.92);
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.22s ease, visibility 0.22s ease;
+}
+
+.lightbox.is-open {
+    opacity: 1;
+    visibility: visible;
+}
+
+.lightbox__img {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    border-radius: var(--radius-sm);
+    box-shadow: 0 30px 80px rgba(0, 0, 0, 0.5);
+}
+
+.lightbox__btn {
+    position: absolute;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 999px;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    background: rgba(255, 255, 255, 0.12);
+    color: #fff;
+    font-size: 1.6rem;
+    line-height: 1;
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+
+.lightbox__btn:hover {
+    background: rgba(255, 255, 255, 0.26);
+}
+
+.lightbox__btn--close {
+    top: 1.1rem;
+    right: 1.1rem;
+}
+
+.lightbox__btn--prev {
+    left: clamp(0.6rem, 3vw, 2rem);
+}
+
+.lightbox__btn--next {
+    right: clamp(0.6rem, 3vw, 2rem);
+}
+
+.lightbox__count {
+    position: absolute;
+    bottom: 1.2rem;
+    left: 50%;
+    transform: translateX(-50%);
+    color: rgba(255, 255, 255, 0.85);
+    font-size: 0.85rem;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+}
+
+@media (min-width: 720px) {
+    .fact-strip {
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+
+    .amenity-grid,
+    .check-list {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 560px) {
+    .listing-meta__sep {
+        display: none;
+    }
+
+    .fact-strip {
+        grid-template-columns: minmax(0, 1fr);
+        gap: 1rem;
+    }
+
+    .signature {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .gallery-grid__slot,
+    .gallery .gallery-grid img,
+    .lightbox,
+    .lightbox__btn {
+        transition: none;
+    }
+}
