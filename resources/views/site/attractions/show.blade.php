@@ -13,7 +13,6 @@
             <h1>{{ $attraction->name }}</h1>
             <p class="detail-hero__summary">{{ $attraction->listing_summary }}</p>
             <div class="listing-meta">
-                <span class="listing-meta__rating">@include('site.partials.icon', ['name' => 'star']) {{ number_format((float) $attraction->rating, 1) }}</span>
                 @if($attraction->price_label)
                     <span class="listing-meta__item">@include('site.partials.icon', ['name' => 'tag']) {{ $attraction->price_label }}</span>
                 @endif
@@ -59,7 +58,6 @@
                     <div class="fact"><span class="fact__icon">@include('site.partials.icon', ['name' => 'pin'])</span><div><p class="fact__label">Where</p><p class="fact__value">{{ $attraction->location_name }}</p></div></div>
                 @endif
                 <div class="fact"><span class="fact__icon">@include('site.partials.icon', ['name' => 'compass'])</span><div><p class="fact__label">Region</p><p class="fact__value">{{ $attraction->region->name }}</p></div></div>
-                <div class="fact"><span class="fact__icon">@include('site.partials.icon', ['name' => 'star'])</span><div><p class="fact__label">Traveler rating</p><p class="fact__value">{{ number_format((float) $attraction->rating, 1) }} / 5</p></div></div>
                 @if($attraction->price_label)
                     <div class="fact"><span class="fact__icon">@include('site.partials.icon', ['name' => 'tag'])</span><div><p class="fact__label">Typical cost</p><p class="fact__value">{{ $attraction->price_label }}</p></div></div>
                 @endif
@@ -104,7 +102,7 @@
                         <li>Nearby stay location if an early start is required.</li>
                     </ul>
                 </div>
-                <p class="source-note">Planning content reviewed June 28, 2026. Ratings and rate cues are editorial planning signals and should be checked against the partner source before payment.</p>
+                <p class="source-note">Editorial research reviewed July 13, 2026 using official park, tourism-board, UNESCO, property, and recent visitor-feedback sources. Verify changing permits, fees, access rules, and safety guidance before travel.</p>
             </div>
             <div class="detail-section">
                 <h3>Full description</h3>

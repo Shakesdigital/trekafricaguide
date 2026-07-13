@@ -159,10 +159,6 @@
         ${eyebrow ? `<p class="listing-card__eyebrow">${esc(eyebrow)}</p>` : ''}
         <h3><a href="${esc(href)}">${esc(title)}</a></h3>
         <p>${esc(String(summary || '').length > 125 ? `${String(summary).slice(0, 122)}...` : summary)}</p>
-        <div class="listing-card__meta">
-          ${rating ? `<span>&#9733; ${Number(rating).toFixed(1)}${reviews ? ` (${Number(reviews).toLocaleString()})` : ''}</span>` : ''}
-          ${price ? `<span>${esc(price)}</span>` : ''}
-        </div>
         <div class="listing-card__footer">
           ${chips.length ? `<div class="chip-row">${chips.filter(Boolean).slice(0, 1).map((chip) => `<span>${esc(chip)}</span>`).join('')}</div>` : ''}
           <a href="${esc(href)}" class="button button--ghost">${esc(cta)}</a>
@@ -213,7 +209,6 @@
 
   const metaBar = (rating, reviews, items = []) => `
     <div class="listing-meta">
-      ${rating ? `<span class="listing-meta__rating">${icon('star')} ${Number(rating).toFixed(1)}</span><span class="listing-meta__muted">${Number(reviews || 0).toLocaleString()} reviews</span>` : ''}
       ${items.filter((i) => i && i.text).map((i) => `<span class="listing-meta__sep">·</span><span class="listing-meta__item">${icon(i.icon)} ${esc(i.text)}</span>`).join('')}
     </div>`;
 
@@ -347,7 +342,7 @@
     main.innerHTML = `
       ${listingHero({ eyebrow: `${country?.name || ''} • ${region?.name || ''}`, title: item.name, summary: item.listing_summary, rating: item.rating, reviews: item.review_count, meta: [{ icon: 'pin', text: item.location_name }, { icon: 'tag', text: item.price_label }], images: item.gallery, image: item.hero_image_url, alt: item.hero_image_alt })}
       <section class="section"><div class="container detail-grid"><div class="detail-main">
-        ${factStrip([fact('pin', 'Where', item.location_name), fact('compass', 'Region', region?.name), fact('star', 'Traveler rating', `${Number(item.rating || 0).toFixed(1)} / 5`), fact('tag', 'Typical cost', item.price_label)])}
+        ${factStrip([fact('pin', 'Where', item.location_name), fact('compass', 'Region', region?.name), fact('tag', 'Typical cost', item.price_label)])}
         <div class="detail-section"><h2>About this attraction</h2><div class="rich-text">${rich(item.detail_intro)}</div></div>
         ${highlights.length ? `<div class="detail-section"><h3>Highlights</h3>${checkList(highlights)}</div>` : ''}
         <div class="detail-section"><h3>How to get there</h3><div class="rich-text">${rich(item.getting_there)}</div></div>
@@ -370,7 +365,7 @@
     main.innerHTML = `
       ${listingHero({ eyebrow: `${country?.name || ''}${item.property_type ? ` • ${item.property_type}` : ''}`, title: item.name, summary: item.listing_summary, rating: item.rating, reviews: item.review_count, meta: [{ icon: 'pin', text: item.location_name }, { icon: 'tag', text: item.price_label }], images: item.gallery, image: item.hero_image_url, alt: item.hero_image_alt })}
       <section class="section"><div class="container detail-grid"><div class="detail-main">
-        ${factStrip([fact('bed', 'Property', item.property_type), fact('pin', 'Location', item.location_name), fact('star', 'Guest rating', `${Number(item.rating || 0).toFixed(1)} / 5`), fact('tag', 'From', item.price_label)])}
+        ${factStrip([fact('bed', 'Property', item.property_type), fact('pin', 'Location', item.location_name), fact('tag', 'From', item.price_label)])}
         <div class="detail-section"><h2>About this stay</h2><div class="rich-text">${rich(item.detail_intro)}</div></div>
         <div class="detail-section"><h3>Why it works for this route</h3><div class="rich-text">${rich(item.practical_info)}</div></div>
         ${amenities.length ? `<div class="detail-section"><h3>Amenities</h3>${amenityList(amenities)}</div>` : ''}
@@ -388,7 +383,7 @@
     main.innerHTML = `
       ${listingHero({ eyebrow: `${country?.name || ''}${item.cuisine ? ` • ${item.cuisine}` : ''}`, title: item.name, summary: item.listing_summary, rating: item.rating, reviews: item.review_count, meta: [{ icon: 'utensils', text: item.cuisine }, { icon: 'tag', text: item.price_label }], images: item.gallery, image: item.hero_image_url, alt: item.hero_image_alt })}
       <section class="section"><div class="container detail-grid"><div class="detail-main">
-        ${factStrip([fact('utensils', 'Cuisine', item.cuisine), fact('pin', 'Location', item.location_name), fact('star', 'Diner rating', `${Number(item.rating || 0).toFixed(1)} / 5`), fact('tag', 'Price', item.price_label)])}
+        ${factStrip([fact('utensils', 'Cuisine', item.cuisine), fact('pin', 'Location', item.location_name), fact('tag', 'Price', item.price_label)])}
         <div class="detail-section"><h2>About this restaurant</h2><div class="rich-text">${rich(item.detail_intro)}</div></div>
         ${signatureBlock(item.signature_dish)}
         <div class="detail-section"><h3>Practical information</h3><div class="rich-text">${rich(item.practical_info)}</div></div>

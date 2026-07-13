@@ -92,7 +92,7 @@
                         <li>Cancellation terms, inclusions, meal plans, and guide requirements.</li>
                     </ul>
                 </div>
-                <p class="source-note">Content reviewed June 28, 2026. Live prices, permits, availability, and official travel rules can change.</p>
+                <p class="source-note">Editorial research reviewed July 13, 2026 using official tourism, heritage, park, and transport sources. Live permits, fees, access conditions, and official travel guidance can change.</p>
             </div>
         </div>
         <aside class="detail-rail">

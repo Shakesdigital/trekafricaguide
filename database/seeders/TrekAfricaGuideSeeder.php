@@ -38,6 +38,7 @@ class TrekAfricaGuideSeeder extends Seeder
 
         $regions = [];
         foreach ($this->regions() as $index => $region) {
+            $region['overview'] .= ' '.$this->regionResearchNote($region['slug']);
             $regions[$region['slug']] = Region::create($region + ['sort_order' => $index + 1]);
         }
 
@@ -197,7 +198,7 @@ class TrekAfricaGuideSeeder extends Seeder
                 'section_key' => 'featured_attractions',
                 'eyebrow' => 'Featured Attractions',
                 'title' => 'Attractions that can become the anchor of the journey.',
-                'body' => 'Open each listing for a fuller sense of the place: why it matters, how to get there, when to go, where to stay nearby, where to eat, and what to check before booking.',
+                'body' => 'Open each listing for researched, place-specific detail: defining landscapes and heritage, signature wildlife or experiences, realistic access, seasonality, and recurring visitor trade-offs.',
                 'sort_order' => 4,
             ],
             [
@@ -205,7 +206,7 @@ class TrekAfricaGuideSeeder extends Seeder
                 'section_key' => 'featured_accommodations',
                 'eyebrow' => 'Featured Stays',
                 'title' => 'Stays chosen for how they support the route.',
-                'body' => 'Compare lodges, riads, camps, beach resorts, and city hotels by the attraction or destination experience they make easier.',
+                'body' => 'Compare verified property settings, route position, defining facilities, transfer realities, and the current terms that should be checked directly before booking.',
                 'sort_order' => 5,
             ],
             [
@@ -213,7 +214,7 @@ class TrekAfricaGuideSeeder extends Seeder
                 'section_key' => 'featured_restaurants',
                 'eyebrow' => 'Featured Restaurants',
                 'title' => 'Restaurants and lodge dining that make the place feel complete.',
-                'body' => 'Dining sits alongside attractions and stays because meals often shape the rhythm of a day as much as transport and sightseeing do.',
+                'body' => 'Dining listings explain the actual setting, cuisine, signature dishes, access constraints, reservation needs, and how the meal fits the destination.',
                 'sort_order' => 6,
             ],
         ];
@@ -305,7 +306,7 @@ class TrekAfricaGuideSeeder extends Seeder
             'name' => $name,
             'hero_title' => $name.' Travel Guide',
             'hero_text' => $heroText,
-            'overview' => $overview,
+            'overview' => $overview.' '.$this->countryResearchNote($slug),
             'access_summary' => $access,
             'best_time' => $bestTime,
             'planning_tips' => $this->countryPlanningTips($slug),
@@ -358,6 +359,8 @@ class TrekAfricaGuideSeeder extends Seeder
         int $reviews,
         string $priceLabel
     ): array {
+        $research = $this->attractionResearch($slug);
+
         return [
             'country_slug' => $countrySlug,
             'slug' => $slug,
@@ -365,19 +368,14 @@ class TrekAfricaGuideSeeder extends Seeder
             'location_name' => $location,
             'hero_image_url' => $this->attractionImage($slug),
             'hero_image_alt' => $name,
-            'listing_summary' => $summary,
-            'detail_intro' => $detailIntro,
-            'full_description' => $detailIntro.' Use this listing to decide whether the attraction deserves space in your itinerary: compare the experience, access, best timing, nearby stays, dining options, and partner booking paths before you move forward.',
-            'getting_there' => $gettingThere,
-            'best_time' => $bestTime,
-            'practical_info' => 'Before booking, check the time commitment, access route, permit or guide needs, season, nearby accommodation, dining rhythm, and whether the experience fits the pace of your wider trip.',
+            'listing_summary' => $research['summary'] ?? $summary,
+            'detail_intro' => $research['detail_intro'] ?? $detailIntro,
+            'full_description' => $research['full_description'] ?? $detailIntro,
+            'getting_there' => $research['getting_there'] ?? $gettingThere,
+            'best_time' => $research['best_time'] ?? $bestTime,
+            'practical_info' => $research['practical_info'],
             'gallery' => $this->galleryImages('attractions', $slug),
-            'highlights' => [
-                'Clear sense of why this place matters in the wider destination',
-                'Nearby accommodation and dining ideas to make planning easier',
-                'Practical access, timing, and route notes before booking',
-                'External partner paths for checking live options and availability',
-            ],
+            'highlights' => $research['highlights'],
             'rating' => $rating,
             'review_count' => $reviews,
             'price_label' => $priceLabel,
@@ -391,6 +389,174 @@ class TrekAfricaGuideSeeder extends Seeder
                 'victoria-falls',
             ], true),
         ];
+    }
+
+    private function attractionResearch(string $slug): array
+    {
+        return match ($slug) {
+            'bwindi-impenetrable-national-park' => [
+                'full_description' => 'Bwindi is an ancient, steep-sided Albertine Rift rainforest and a UNESCO World Heritage landscape. Its signature experience is tracking a habituated mountain-gorilla family from one of four UWA entry sectors: Buhoma, Ruhija, Rushaga, or Nkuringo. The forest also rewards birders with Albertine Rift endemics, waterfalls, primates, and community-led cultural walks.',
+                'practical_info' => 'A permit is tied to a date and entry sector, so confirm the sector before choosing a lodge. Expect mud, tangled vegetation, altitude, and a trek that may last from a short walk to several hours. Visitor feedback most often celebrates the gorilla encounter and expert trackers while warning that fitness, rain gear, gloves, and porter support materially improve the day.',
+                'highlights' => ['One closely managed hour with a habituated mountain-gorilla family', 'Buhoma, Ruhija, Rushaga, and Nkuringo forest sectors with distinct access logistics', 'Albertine Rift birds, primates, butterflies, waterfalls, and dense montane forest', 'Community walks and cultural interpretation around the park boundary'],
+            ],
+            'murchison-falls-national-park' => [
+                'full_description' => 'Murchison is Uganda’s largest national park, where the Victoria Nile is forced through a narrow rock gorge before dropping into the Rift Valley. The classic visit combines northern-bank game drives with a boat journey to the base of the falls, where hippos, crocodiles, elephants, buffalo, and waterbirds gather. A delta cruise toward Lake Albert is especially attractive for birders seeking shoebill.',
+                'practical_info' => 'Plan activities by river bank and departure point; unnecessary crossings consume wildlife-viewing time. Dry months generally improve roads and concentrate game, while the river remains productive year-round. Visitors commonly praise the boat approach and force of the falls, with heat, long drives, and changing road conditions the main cautions.',
+                'highlights' => ['The top-of-falls viewpoint and the Nile compressed through the gorge', 'Boat safari to the base with hippos, crocodiles, and riverbank wildlife', 'Northern-bank drives for giraffe, elephant, buffalo, lion, and Uganda kob', 'Delta birding toward Lake Albert, including the possibility of shoebill'],
+            ],
+            'maasai-mara' => [
+                'full_description' => 'The Maasai Mara is the Kenyan section of the Serengeti-Mara ecosystem, known for open grasslands, exceptional predator density, and seasonal wildebeest movement across the Mara and Talek rivers. Resident wildlife makes it rewarding beyond migration months, while neighboring conservancies add lower vehicle density, night drives, walking, and closer links with Maasai landowners.',
+                'practical_info' => 'July through October is associated with river-crossing season, but crossings are never scheduled or guaranteed. Decide whether you want the reserve, a conservancy, or both because activity rules and crowd levels differ. Visitors value big-cat sightings and broad savannah views; peak-season vehicle congestion and long road transfers are recurring trade-offs.',
+                'highlights' => ['Lion, cheetah, leopard, hyena, elephant, and plains-game viewing', 'Seasonal wildebeest herds and possible Mara River crossings', 'Sunrise and sunset across open savannah and riverine woodland', 'Conservancy night drives, walks, and Maasai-led interpretation'],
+            ],
+            'amboseli-national-park' => [
+                'full_description' => 'Amboseli is a compact ecosystem of open plains, acacia woodland, seasonal lakebed, and permanent swamps fed by underground water from Kilimanjaro. Large, well-studied elephant families are the signature sight. Observation Hill gives wide views over wetlands and plains, while more than 400 recorded bird species make the park stronger than its famous mountain photographs alone suggest.',
+                'practical_info' => 'Kilimanjaro is often clearest soon after dawn, but cloud can hide it in any season; choose Amboseli for elephants and wetlands first. KWS lists road access from Nairobi and light-aircraft access through Kimana airstrip. Visitors praise close elephant encounters and the mountain backdrop, while dust, heat, and busy sightings are common cautions.',
+                'highlights' => ['Close viewing of large elephant herds and known family groups', 'Mount Kilimanjaro views across the plains when skies are clear', 'Observation Hill panorama over swamps, lakebed, and wildlife corridors', 'Wetland birdlife, flamingos when conditions suit, and Maasai context'],
+            ],
+            'serengeti-national-park' => [
+                'full_description' => 'Serengeti National Park covers 14,763 square kilometres at the heart of the wider Serengeti-Mara ecosystem. TANAPA highlights the movement of more than 1.5 million wildebeest with zebra and gazelles, alongside an exceptional concentration of lions, leopards, cheetahs, and hyenas. Kopjes, short-grass plains, river corridors, and woodland make each zone feel different.',
+                'practical_info' => 'Choose the zone by month: southern plains for calving early in the year, western corridors later, northern Serengeti for dry-season herds and possible river crossings, and Seronera for resident game. Visitors praise scale and predator encounters; long drives, seasonal camp moves, and crowded crossing points require realistic planning and ethical guides.',
+                'highlights' => ['The Great Migration across different park zones through the year', 'High concentrations of lion, cheetah, leopard, and spotted hyena', 'Granite kopjes, endless plains, riverine woodland, and more than 500 bird species', 'Balloon safaris, game drives, and carefully managed migration viewing'],
+            ],
+            'zanzibar' => [
+                'full_description' => 'Zanzibar combines a living Swahili trading culture with Indian Ocean beaches. Stone Town’s coral-stone lanes, carved doors, markets, mosques, and waterfront reveal centuries of African, Arab, Indian, and European exchange. Beyond town, spice farms, Jozani forest, dhow trips, reef excursions, and distinct beach coasts make the island far more varied than a resort extension.',
+                'practical_info' => 'Match the coast to the trip: northern beaches have less dramatic tides and more activity, while the east coast offers wide tidal flats and quieter stays. Respect local dress away from resorts and check marine conditions. Visitors praise Stone Town atmosphere and warm water; persistent beach selling, tide-dependent swimming, and transfer times are common caveats.',
+                'highlights' => ['UNESCO-listed Stone Town lanes, carved doors, markets, and waterfront history', 'Spice farms explaining cloves, vanilla, cinnamon, and island agriculture', 'Jozani forest and the endemic Zanzibar red colobus', 'Dhow sailing, snorkeling, reef trips, and beaches with different tidal rhythms'],
+            ],
+            'volcanoes-national-park' => [
+                'full_description' => 'Volcanoes National Park protects Rwanda’s section of the Virunga volcanic range, with bamboo and montane forest beneath peaks such as Karisimbi, Bisoke, and Sabyinyo. Gorilla trekking is the main draw, complemented by golden-monkey tracking, volcano hikes, and the conservation history associated with Dian Fossey.',
+                'practical_info' => 'Gorilla days begin with an early briefing near Kinigi, and the hike can be steep, muddy, and affected by altitude. Confirm permits and rules through official Rwanda channels. Visitors praise efficient organization and intimate gorilla encounters; the high permit cost and physical effort are the principal trade-offs.',
+                'highlights' => ['Mountain-gorilla trekking in Rwanda’s Virunga forest', 'Golden-monkey tracking through high-altitude bamboo', 'Views and hikes around the Virunga volcano chain', 'Dian Fossey conservation history and the nearby research campus'],
+            ],
+            'lalibela' => [
+                'full_description' => 'Lalibela is a living Ethiopian Orthodox pilgrimage centre built around eleven medieval churches carved from volcanic rock. The churches form northern and southern groups linked by trenches, passages, courtyards, and symbolic references to Jerusalem; cross-shaped Biete Ghiorgis stands apart as the most recognizable structure.',
+                'practical_info' => 'This is an active sacred site, not an archaeological park alone. Dress modestly, remove shoes where required, and expect worshippers, processions, and uneven rock passages. Visitors describe the architecture and living devotion as extraordinary, while protective shelters, altitude, and the need for a knowledgeable guide shape the experience.',
+                'highlights' => ['Eleven rock-hewn churches forming a symbolic New Jerusalem', 'The cruciform Biete Ghiorgis viewed from its surrounding trench', 'Biete Medhani Alem, ceremonial passages, courtyards, and hermit spaces', 'Daily worship and major Ethiopian Orthodox pilgrimage festivals'],
+            ],
+            'cape-coast-kakum' => [
+                'full_description' => 'Cape Coast pairs Atlantic forts that document the transatlantic slave trade with Kakum’s tropical forest canopy. Cape Coast Castle’s guided route through dungeons, courtyards, museum displays, and the Door of No Return requires time and emotional space; Kakum shifts the journey into forest ecology and elevated walkways.',
+                'practical_info' => 'Avoid compressing the castle and canopy into a rushed half day. The heritage visit is emotionally demanding, and Kakum’s suspended walkway requires comfort with heights and humidity. Visitors value strong guides and the contrast between history and rainforest; canopy crowds and the intensity of the castle narrative are common cautions.',
+                'highlights' => ['Cape Coast Castle dungeons, museum, courtyards, and Door of No Return', 'Guided interpretation of the Atlantic slave trade and its human impact', 'Kakum’s suspended canopy walkway above the rainforest', 'Forest birds, butterflies, medicinal plants, and early-morning walks'],
+            ],
+            'sine-saloum-delta' => [
+                'full_description' => 'The Saloum Delta is a cultural and ecological landscape of tidal channels, mangroves, islands, shell mounds, fishing villages, and bird colonies. UNESCO recognizes the long relationship between communities and the estuarine environment, including shell accumulations and burial mounds recording centuries of occupation.',
+                'practical_info' => 'A pirogue trip is central, and routes depend on tide, wind, season, and lodge location. Dry months are comfortable and strong for migratory birds. Visitors value quiet waterways, sunsets, and birdlife; mosquitoes, slow road transfers, and limited independent dining are the expected trade-offs.',
+                'highlights' => ['Pirogue journeys through mangrove-lined bolongs and tidal channels', 'Pelican, heron, flamingo, raptor, and migratory-bird colonies', 'Historic shell mounds and island cultural landscapes', 'Fishing villages, salt gathering, oysters, and lodge-based sunsets'],
+            ],
+            'ouidah-and-ganvie' => [
+                'full_description' => 'Ouidah and Ganvié reveal distinct parts of southern Benin. Ouidah’s museums, sacred sites, and memorial route interpret Vodun traditions and the violence of the transatlantic slave trade. Ganvié, reached by boat across Lake Nokoué, is a living waterside community with homes, schools, worship spaces, transport, and commerce organized around the lake.',
+                'practical_info' => 'Use trained local guides and approach both places as living communities, not staged attractions. Ask before photographing ceremonies or residents, and allow separate time for Ouidah’s difficult history and Ganvié’s daily life. Visitors value cultural depth and boat movement; intrusive photography and rushed tours are the main ethical risks.',
+                'highlights' => ['Ouidah’s Route of Enslaved People and Door of No Return memorial', 'Portuguese Fort museum, sacred forest, and living Vodun heritage', 'Boat journey across Lake Nokoué to Ganvié', 'Waterside homes, markets, schools, fishing, and lake transport'],
+            ],
+            'tokeh-and-river-no2' => [
+                'full_description' => 'The Freetown Peninsula combines forested hills with broad Atlantic beaches. Tokeh is known for a long pale-sand bay and resort stays, while River No. 2 is distinguished by its river mouth, community tourism model, seafood lunches, and a dramatic sweep of beach backed by green slopes.',
+                'practical_info' => 'Road time from Freetown varies with traffic and weather, and heavy rains affect beach conditions. Confirm swimming safety locally because currents change. Visitors praise uncrowded scenery, warm hospitality, and fresh seafood; service speed, road conditions, and limited evening infrastructure require a relaxed schedule.',
+                'highlights' => ['Tokeh’s long beach framed by the Freetown Peninsula hills', 'River No. 2’s estuary, sandbar, and community-managed facilities', 'Fresh grilled fish, lobster, and relaxed beach lunches', 'Boat, fishing, village, and coastal walks arranged locally'],
+            ],
+            'sal-island' => [
+                'full_description' => 'Sal is Cabo Verde’s easiest resort island, but its landscape extends beyond Santa Maria. Pedra de Lume occupies an extinct volcanic crater with historic salt pans, Buracona is known for lava pools and a seasonal Blue Eye light effect, and the trade winds support kitesurfing, windsurfing, and other water sports.',
+                'practical_info' => 'The island is dry, windy, and exposed, so sun and wind protection matter. Sea conditions vary by beach and month. Visitors praise reliable winter sunshine and easy resort logistics; the barren landscape, persistent wind, and less cultural depth than Santiago or São Vicente can surprise first-time guests.',
+                'highlights' => ['Santa Maria beach, pier activity, cafés, and water sports', 'Pedra de Lume salt pans inside a volcanic crater', 'Buracona lava formations and the seasonal Blue Eye effect', 'Kitesurfing, windsurfing, diving, and turtle excursions in season'],
+            ],
+            'cape-town' => [
+                'full_description' => 'Cape Town is a nature-wrapped city centered on Table Mountain and the Cape Peninsula. A strong visit balances mountain and coast with layered history: Table Mountain or Lion’s Head, Kirstenbosch, Cape Point, penguins at Boulders, Robben Island, District Six, the Bo-Kaap, and food or wine experiences.',
+                'practical_info' => 'Weather can close the cableway or ferries with little notice, so keep mountain and Robben Island plans flexible. Use established transport after dark and follow local safety guidance on hikes. Visitors praise scenery, food, and variety; wind, traffic, inequality, and neighborhood-specific safety are recurring realities.',
+                'highlights' => ['Table Mountain views, cableway, and hiking routes', 'Cape Peninsula route through Cape Point and Boulders penguins', 'Robben Island and District Six history', 'Kirstenbosch, Atlantic beaches, Cape food, and nearby Winelands'],
+            ],
+            'kruger-national-park' => [
+                'full_description' => 'Kruger is a vast public national park with an extensive road network, rest camps, hides, picnic sites, and ecosystems ranging from southern woodland to the drier north. It supports the Big Five, wild dog, cheetah, abundant antelope, and exceptional birdlife, offering both independent self-drive and guided safari options at scale.',
+                'practical_info' => 'Choose a region rather than trying to cover the whole park. Gate times, speed limits, fuel, rest-camp bookings, and distances matter. Visitors value self-drive freedom and wildlife variety; busy southern roads, long distances, and unpredictable sightings reward patience and early starts.',
+                'highlights' => ['Self-drive game viewing on a large signed road network', 'Big Five, wild dog, cheetah, hyena, and diverse antelope', 'River viewpoints, dams, hides, picnic sites, and rest-camp loops', 'More than 500 bird species and strong seasonal birding'],
+            ],
+            'okavango-delta' => [
+                'full_description' => 'The Okavango is a rare inland delta where water from the Angolan highlands spreads into Kalahari sands instead of reaching the sea. Its dry-season flood pulse transforms channels, lagoons, islands, and grasslands, concentrating elephant, buffalo, red lechwe, predators, and prolific birdlife.',
+                'practical_info' => 'No single camp delivers every activity: permanent-water areas emphasize mokoro and boating, while drier concessions may be stronger for drives. Flood timing varies annually and by location. Visitors praise silence, skilled guides, and water-level perspectives; high fly-in costs, small aircraft, and seasonal activity limits are the trade-offs.',
+                'highlights' => ['Mokoro travel through papyrus channels and clear shallow water', 'Floodplains, lagoons, islands, and dry Kalahari woodland in one ecosystem', 'Elephant, red lechwe, buffalo, lion, leopard, wild dog, and birdlife', 'Low-density fly-in camps, guided walks, boating, and concession drives'],
+            ],
+            'namib-desert' => [
+                'full_description' => 'The Sossusvlei section of the Namib is a landscape of towering red dunes, pale clay pans, dark camel-thorn skeletons, and shifting light. Deadvlei’s tree silhouettes, climbable dunes, Sesriem Canyon, and vast gravel plains create one of Africa’s most recognizable photographic environments.',
+                'practical_info' => 'Enter early for cooler temperatures and low-angle light, carry water, and understand the final sand-road or shuttle arrangement. Gravel-road distances are slow and punctures are possible. Visitors praise sunrise color and Deadvlei’s scale; heat, crowds at famous dunes, and long drives are common cautions.',
+                'highlights' => ['Deadvlei’s white pan, blackened camel-thorn trees, and red dune walls', 'Sunrise or early-morning dune climbs near Sossusvlei', 'Sesriem Canyon and changing desert geology', 'Night skies, open gravel plains, and landscape photography'],
+            ],
+            'victoria-falls' => [
+                'full_description' => 'Mosi-oa-Tunya/Victoria Falls forms the world’s largest curtain of falling water, spanning about 1.7 kilometres across the Zambezi gorge. Spray, rainbows, basalt gorges, rainforest vegetation, and viewpoints on both Zimbabwean and Zambian sides change dramatically with river level.',
+                'practical_info' => 'High water brings immense spray and limited visibility at some viewpoints; lower water reveals rock and supports more white-water activities. Check border and activity rules live. Visitors praise the scale and sound, while getting soaked, seasonal visibility, and activity costs are frequent comments.',
+                'highlights' => ['Rainforest walk and multiple viewpoints on the Zimbabwean side', 'Main Falls, Rainbow Falls, Devil’s Cataract, and basalt gorges', 'Rainbows, possible lunar rainbows, and immense spray', 'Zambezi cruises, seasonal rafting, scenic flights, and cross-border views'],
+            ],
+            'south-luangwa' => [
+                'full_description' => 'South Luangwa is a wildlife-rich valley shaped by the Luangwa River, oxbow lagoons, ebony groves, and seasonal floodplains. It is closely associated with guided walking safaris and is noted for leopard, lion, elephant, hippo, crocodile, and dense game around shrinking dry-season water.',
+                'practical_info' => 'Many camps are seasonal, and walking depends on guide qualifications, age limits, weather, and wildlife. Late dry season is productive but very hot. Visitors value expert guiding, leopard sightings, and intimate bush atmosphere; heat, insects, small aircraft, and remote logistics are the main cautions.',
+                'highlights' => ['Guided walking safaris with trained field guides and scouts', 'Strong leopard viewing and active predator ecology', 'Luangwa River, lagoons, hippo pools, and dry-season concentrations', 'Seasonal carmine bee-eaters, elephants, and night drives'],
+            ],
+            'marrakech-and-atlas' => [
+                'full_description' => 'Marrakech combines a nearly thousand-year-old medina with Jemaa el-Fna, dense souks, riad courtyards, Islamic architecture, gardens, and contemporary design. The nearby High Atlas adds villages, valleys, waterfalls, and trailheads, but mountain trips should be chosen for depth rather than treated as quick photo stops.',
+                'practical_info' => 'The medina is walkable but disorienting; agree taxi terms, use licensed guides, and verify mountain-road or trail conditions. Summer heat limits sightseeing. Visitors praise sensory energy, riads, food, and craft; sales pressure, traffic, navigation, and rushed Atlas tours are common frustrations.',
+                'highlights' => ['Jemaa el-Fna storytellers, musicians, food stalls, and evening atmosphere', 'Medina souks, artisan workshops, riads, and historic funduqs', 'Koutoubia, Ben Youssef Madrasa, Saadian Tombs, and gardens', 'High Atlas valleys, village walks, waterfalls, and mountain scenery'],
+            ],
+            'sahara-dunes' => [
+                'full_description' => 'Erg Chebbi is a compact but dramatic field of wind-shaped dunes beside Merzouga. The experience is defined by changing light, ridge walks, camel or four-wheel-drive approaches, desert camps, and clear night skies. Nearby oases, fossil landscapes, and Gnawa music in Khamlia add context.',
+                'practical_info' => 'Merzouga is a long overland journey from Marrakech and belongs in a multi-day route. Confirm camp location, bathroom claims, vehicle transfer, camel duration, meals, and temperatures. Visitors love sunset, stars, and silence; long driving, cold winter nights, heat, and camp-quality variation are recurring cautions.',
+                'highlights' => ['Sunrise and sunset across the high ridges of Erg Chebbi', 'Camel, walking, or four-wheel-drive approaches to camps', 'Clear night skies, campfire evenings, and dune silence', 'Khamlia Gnawa music, oasis landscapes, fossils, and nomadic context'],
+            ],
+            'cairo-and-giza' => [
+                'full_description' => 'Cairo and Giza place more than 4,500 years of monumental history beside one of Africa’s largest modern cities. The Giza Plateau contains the pyramids of Khufu, Khafre, and Menkaure, associated temples, smaller pyramids, and the Great Sphinx. The nearby Grand Egyptian Museum brings major collections, including Tutankhamun, into direct conversation with the plateau.',
+                'practical_info' => 'Use official tickets and a clear transport plan; heat, distances, traffic, and persistent offers can make an unstructured day tiring. Opening arrangements change. Visitors praise the scale of the pyramids and museum collections, while crowds, traffic, touts, and midday heat are recurring concerns.',
+                'highlights' => ['Great Pyramid of Khufu, last surviving Wonder of the Ancient World', 'Khafre and Menkaure complexes, viewpoints, and the Great Sphinx', 'Grand Egyptian Museum galleries, Grand Staircase, and Tutankhamun collection', 'Islamic Cairo, Coptic Cairo, the Egyptian Museum, and Nile context'],
+            ],
+            'tunis-and-sidi-bou-said' => [
+                'full_description' => 'Greater Tunis layers three experiences: the UNESCO-listed medina, the archaeological landscape of Punic and Roman Carthage, and the blue-and-white hill village of Sidi Bou Said. The medina contains souqs, mosques, madrasas, palaces, and gates; Carthage spreads across multiple sites; Sidi Bou Said adds sea views and cafés.',
+                'practical_info' => 'Carthage is not one enclosed ruin, so use a route or guide and allow transport between components. The TGM train links Tunis, Carthage, and Sidi Bou Said, though taxis save time. Visitors praise the variety and Mediterranean atmosphere; fragmented ruins, heat, and busy cafés are common caveats.',
+                'highlights' => ['Tunis medina souqs, Zitouna surroundings, palaces, and gates', 'Carthage sites including Antonine Baths, Byrsa Hill, ports, and Tophet area', 'Bardo Museum mosaics when open and accessible', 'Sidi Bou Said lanes, traditional doors, cafés, and Gulf views'],
+            ],
+            'djanet-and-tassili' => [
+                'full_description' => 'Tassili n’Ajjer is a vast Saharan plateau of eroded sandstone rock forests, arches, canyons, and more than 15,000 recorded paintings and engravings. The art documents changing climates, wildlife, pastoral life, horses, and camels across millennia, while the geology preserves a lunar landscape carved by water and wind.',
+                'practical_info' => 'This is specialist expedition travel. UNESCO notes that tourism is strictly controlled and visitors are accompanied by official guides. Verify permits, routing, security advice, water, camp equipment, vehicle support, and emergency plans. Visitors value silence, rock art, and night skies; remoteness, cold nights, heat, and basic camping demand preparation.',
+                'highlights' => ['Prehistoric paintings and engravings spanning thousands of years', 'Eroded sandstone arches, canyons, pillars, and rock forests', 'Evidence of former green-Sahara wildlife and pastoral cultures', 'Multi-day guided trekking or four-wheel-drive expeditions and dark skies'],
+            ],
+            default => [
+                'full_description' => 'This listing is built around the place itself: its landscape, heritage, wildlife, and the experience a traveler will encounter on the ground.',
+                'practical_info' => 'Verify current access, opening rules, permits, local guidance, and seasonal conditions before travel.',
+                'highlights' => ['Distinctive landscape or cultural setting', 'Signature experiences specific to the place', 'Local interpretation and responsible visitor practices', 'Seasonal conditions that materially shape the visit'],
+            ],
+        };
+    }
+
+    private function regionResearchNote(string $slug): string
+    {
+        return match ($slug) {
+            'east-africa' => 'The region spans migration ecosystems, Albertine Rift forests, volcanic highlands, Swahili coastlines, and major living heritage sites; routes should be built around season, altitude, park zone, and realistic transfer time rather than country counts.',
+            'west-africa' => 'Its strongest directory value lies in specific cultural landscapes: Atlantic slave-trade heritage, living Vodun traditions, Sahel and delta ecology, music cities, community-managed beaches, and island cultures that require thoughtful local interpretation.',
+            'southern-africa' => 'The region includes highly developed self-drive networks, low-density fly-in wilderness, seasonal inland deltas, desert geology, major river systems, and transboundary conservation areas, so the right transport style matters as much as the destination.',
+            'northern-africa' => 'The region connects Mediterranean cities, Islamic urban heritage, ancient Egyptian and Roman sites, Atlas and Saharan landscapes, and living craft and food traditions; heat, sacred-site etiquette, and specialist desert logistics materially shape the trip.',
+            default => '',
+        };
+    }
+
+    private function countryResearchNote(string $slug): string
+    {
+        return match ($slug) {
+            'uganda' => 'Its standout combination is unusually concentrated: mountain gorillas and Albertine Rift endemics in the southwest, chimpanzee forests, Nile-based wildlife at Murchison, and savannah circuits linked by road or domestic flight.',
+            'kenya' => 'Beyond the Maasai Mara, Kenya’s planning advantages include conservancies, varied public and private safari models, Amboseli’s wetland-elephant ecosystem, Laikipia, Rift Valley lakes, and direct Indian Ocean extensions.',
+            'tanzania' => 'The northern circuit links Tarangire, Ngorongoro, and distinct Serengeti zones, while the south offers lower-density parks and Zanzibar adds a living Swahili heritage landscape rather than beach time alone.',
+            'rwanda' => 'Volcanoes, Akagera, Nyungwe, and Kigali combine with relatively short road transfers, but premium permit pricing and limited high-demand lodge inventory make advance sequencing essential.',
+            'ethiopia' => 'The destination’s rock-hewn churches, highland landscapes, Islamic and Christian heritage, and regional cultures are exceptional, but flight reliability, regional access, and current official travel advice must be checked close to departure.',
+            'ghana' => 'Cape Coast and Elmina demand sensitive heritage interpretation, while Kakum, Accra’s arts and food, Kumasi’s Asante heritage, and northern landscapes reward a route longer than a simple castle day trip.',
+            'senegal' => 'Dakar, Gorée, Saint-Louis, the Petite Côte, and the Saloum Delta offer distinct urban, heritage, music, and wetland experiences connected by road and, in the delta, pirogue.',
+            'benin' => 'Ouidah, Abomey, Ganvié, Cotonou, and contemporary Vodun practice should be understood as living cultural landscapes; qualified local guides and respectful photography are central to a responsible visit.',
+            'sierra-leone' => 'The Freetown Peninsula’s beaches, Tacugama, Bunce Island, and capital history offer a meaningful route, but road, ferry, weather, and service timing require flexible planning.',
+            'cabo-verde' => 'The islands differ sharply: Sal and Boa Vista favor resort beaches and wind sports, Santiago carries deeper history, São Vicente centers music and Mindelo, and Santo Antão offers dramatic hiking.',
+            'south-africa' => 'Its strength is contrast: Cape Town and the Winelands, self-drive national parks, private reserves, the Garden Route, KwaZulu-Natal, and Johannesburg history can be combined without treating the country as one uniform product.',
+            'botswana' => 'Okavango flood levels, Chobe river ecology, Makgadikgadi seasons, concession rules, and light-aircraft logistics determine the experience more than a generic wet-versus-dry calendar.',
+            'namibia' => 'Sossusvlei, Swakopmund, Damaraland, Etosha, and the far south are separated by long gravel-road distances; fewer bases and longer stays produce a safer, more rewarding itinerary.',
+            'zimbabwe' => 'Victoria Falls, Hwange, Matobo, Mana Pools, and Great Zimbabwe offer far more than a waterfall stop, supported by a strong professional guiding tradition.',
+            'zambia' => 'South Luangwa walking safaris, Lower Zambezi river activities, Kafue’s scale, and the Zambian side of Victoria Falls are highly seasonal and best matched to camp-opening dates and transport links.',
+            'morocco' => 'Marrakech and Fez medinas, Atlantic cities, the High Atlas, desert-edge valleys, and Erg Chebbi require different pacing; a Sahara overnight from Marrakech is a multi-day overland journey.',
+            'egypt' => 'The Giza Plateau and Grand Egyptian Museum now form a powerful paired visit, while Luxor, Aswan, the Nile, Islamic Cairo, Coptic Cairo, and Red Sea routes need structured transport and heat-aware scheduling.',
+            'tunisia' => 'Tunis medina, Carthage, Sidi Bou Said, Roman sites such as Dougga and El Jem, Djerba, and Sahara-edge oases create a compact but historically dense route.',
+            'algeria' => 'Roman cities, the Kasbah of Algiers, M’Zab, and the Tassili plateau offer exceptional heritage with low visitor density, but visa, guide, permit, flight, and security requirements demand specialist planning.',
+            default => '',
+        };
     }
 
     private function accommodations(): array
@@ -453,6 +619,68 @@ class TrekAfricaGuideSeeder extends Seeder
         ];
     }
 
+    private function stayResearchInsight(string $slug): string
+    {
+        return match ($slug) {
+            'sanctuary-gorilla-forest-camp' => 'The defining strengths are Buhoma-sector convenience, forest immersion, attentive trekking support, and occasional gorilla activity near camp; its premium cost only makes sense when the permit sector and inclusions align.',
+            'paraa-safari-lodge' => 'Nile views, pool downtime, and access to launches and northern-bank drives are the practical advantages; room category and the atmosphere of a larger lodge should be considered.',
+            'governors-camp' => 'Its reserve location, classic tented atmosphere, wildlife around camp, and experienced guiding drive its reputation; peak-season density and differences between Governors properties matter.',
+            'ol-tukai-lodge-amboseli' => 'The inside-park position, elephant-rich setting, lawns, and possible Kilimanjaro views are the strengths; it is a traditional full-service lodge rather than a small private camp.',
+            'serengeti-serena-safari-lodge' => 'Travelers value the central Seronera position, broad views, pool, and dependable infrastructure; those following a specific migration stage may need a seasonal camp elsewhere.',
+            'emerson-spice' => 'Historic Stone Town character, theatrical interiors, rooftop atmosphere, and old-city access define the stay; stairs, street noise, and heritage-building quirks are part of it.',
+            'sabyinyo-silverback-lodge' => 'Warm service, spacious cottages, volcano views, fireplaces, and careful trekking support stand out; an early vehicle transfer to the park briefing point is still required.',
+            'maribela-hotel' => 'Its value is as a comfortable Lalibela base with local assistance and views; current power, water, transport, room standard, and operating status should be confirmed directly.',
+            'ridge-royal-hotel' => 'The property works as a practical Cape Coast base for castle and Kakum days; expectations should focus on location and dependable essentials rather than destination-resort luxury.',
+            'les-paletuviers' => 'The delta setting, pool, pirogue excursions, birdlife, and sunsets are the main draw; meal-plan terms and boat activities matter because alternatives are limited in Toubacouta.',
+            'casa-del-papa' => 'Guests choose the lagoon-and-beach setting, pools, grounds, and Ouidah access; the resort sits outside the historic centre, making transport planning important.',
+            'the-place-resort-tokeh' => 'Beach frontage, pools, quiet surroundings, and seafood are the strongest features; road-transfer time, service pace, and seasonal operating details should be checked.',
+            'hilton-cabo-verde-sal-resort' => 'Direct beach access, pools, spa, and reliable resort service near Santa Maria are the advantages; travelers seeking island culture should deliberately spend time outside the property.',
+            'mount-nelson-a-belmond-hotel' => 'Gardens, heritage service, afternoon tea, pool, and city-bowl location make it a destination hotel rather than merely a sightseeing base.',
+            'kruger-shalati' => 'Train carriages, Selati Bridge position, Sabie River views, and design create the appeal; it is a premium architectural experience that should be compared with simpler park camps.',
+            'camp-okavango' => 'Water activities, guiding, island quiet, and an all-inclusive fly-in rhythm define the camp; wildlife and activity mix depend on flood conditions and this is not primarily a vehicle-safari base.',
+            'sossusvlei-lodge' => 'Proximity to Sesriem gate, early excursions, desert views, and dependable meals are the practical strengths; compare gate timing with properties located inside the park boundary.',
+            'victoria-falls-hotel' => 'Heritage architecture, lawns, falls access, and classic atmosphere attract guests; room categories vary and the choice is strongest for travelers who value history over contemporary design.',
+            'mfuwe-lodge' => 'Easy Mfuwe access, productive drives, lagoon wildlife, and seasonal elephant movement through the lodge area are the signatures; it is larger and more permanent than remote bush camps.',
+            'riad-rosemary' => 'Intimate design, courtyard calm, roof terrace, and medina position shape the experience; luggage handling and walking access from the nearest vehicle point should be arranged.',
+            'desert-luxury-camp' => 'Dune proximity, sunset, stars, private tents, and camp hospitality are the reasons to stay; verify the exact operator, location, bathroom standard, and transfer because similar camp names cause confusion.',
+            'marriott-mena-house-cairo' => 'Pyramid views, gardens, pool, and Giza access are the advantages; central Cairo remains a substantial drive away and only specific room categories deliver the best views.',
+            'dar-said' => 'Sidi Bou Said atmosphere, traditional architecture, garden, pool, and sea glimpses are the strengths; stairs, vehicle access, and room variation are normal in a historic conversion.',
+            'terres-touareg-guest-house' => 'The value lies in specialist Djanet logistics, local guides, guest-house staging, and supported mobile camping rather than conventional hotel amenities.',
+            default => 'Judge the property by current route value, operating standard, and verified inclusions rather than a generic star label.',
+        };
+    }
+
+    private function restaurantResearchInsight(string $slug): string
+    {
+        return match ($slug) {
+            'sanctuary-gorilla-forest-camp-dining' => 'Early breakfasts, packed trekking food, warm post-trek meals, and dietary coordination matter more here than à-la-carte choice.',
+            'paraa-safari-lodge-dining' => 'The Nile outlook and convenience between park activities are the strengths; buffet variety and timing vary with occupancy.',
+            'governors-camp-dining' => 'Bush breakfasts, sundowners, communal meals, and flexible safari timing define the experience rather than a conventional restaurant menu.',
+            'ol-tukai-lodge-dining' => 'The open dining setting and inside-park convenience are the draw, with meals structured around early and late game drives.',
+            'serengeti-serena-dining' => 'Dependable breakfasts, buffets, and packed lunches support long wildlife days; expectations should center on safari logistics rather than city-style dining.',
+            'the-rock-restaurant-zanzibar' => 'The photogenic offshore setting and tide-changing arrival are as important as the seafood; advance booking, price, and variable tide access recur in visitor feedback.',
+            'sabyinyo-silverback-lodge-dining' => 'Thoughtful trekking-day timing, multi-course meals, fireplaces, and attentive dietary service are the defining strengths.',
+            'ben-abeba' => 'The sculptural building, hillside panorama, sunset, and Ethiopian dishes make it memorable; transport after dark and a relaxed service pace should be planned.',
+            'oasis-beach-resort-restaurant' => 'Beachfront position, grilled fish, Ghanaian staples, and relaxed atmosphere are the appeal; allow generous time for service.',
+            'les-paletuviers-restaurant' => 'Fresh local fish, Senegalese flavors, and lodge convenience fit the delta rhythm; half-board and full-board terms should be clarified.',
+            'casa-del-papa-restaurant' => 'Lagoon views, grilled seafood, and resort convenience work well after Ouidah touring; menu availability may depend on occupancy and catch.',
+            'the-place-resort-restaurant' => 'Beach views and seafood are the core appeal; confirm dinner service and transport if not staying at the resort.',
+            'barracuda-restaurant-sal' => 'Fresh fish, lobster, tuna, cachupa, and a Santa Maria atmosphere offer an alternative to hotel buffets; daily catch and reservation demand vary.',
+            'seebamboes-cape-town' => 'A concise seafood-led tasting experience and South African ingredients are the focus; reserve well ahead and verify the current menu and venue details.',
+            'kruger-shalati-dining' => 'Bridge views, design, and meals integrated with the hotel stay are the draw; access for outside diners should never be assumed.',
+            'camp-okavango-dining' => 'Meals, high tea, and activity food are part of the all-inclusive camp rhythm; dietary requirements must be shared before the fly-in.',
+            'sossusvlei-lodge-restaurant' => 'Early-breakfast logistics, grill dinners, and Sesriem proximity are the practical strengths; request breakfast packs before dawn departures.',
+            'lookout-cafe-victoria-falls' => 'The Batoka Gorge view, open-air deck, cocktails, and activity-centre convenience are widely valued; weather and peak demand affect the best tables.',
+            'mfuwe-lodge-dining' => 'Flexible lodge meals and safari timing matter most; communicate dietary needs and walking-safari schedules before arrival.',
+            'kabana-rooftop' => 'Rooftop setting, music, sunset atmosphere, and a modern menu attract visitors; reservations and a clear medina route are advisable.',
+            'desert-luxury-camp-dining' => 'Tagine, couscous, tea, and campfire service are part of the overnight desert experience; confirm included food and water.',
+            '9-pyramids-lounge' => 'The direct pyramid panorama is the primary attraction; access rules, reservations, shade, and current hours should be checked before building a day around it.',
+            'dar-zarrouk' => 'Terrace views, Tunisian seafood, couscous, and Sidi Bou Said atmosphere are the strengths; reserve a view table and plan transport back to Tunis.',
+            'terres-touareg-camp-dining' => 'Simple expedition meals, bread, tea, and camp cooking support the journey; water, dietary needs, and food storage are safety-critical logistics.',
+            default => 'Current menus, operating hours, access rules, and recent diner feedback should be verified directly.',
+        };
+    }
+
     private function stay(
         string $countrySlug,
         string $attractionSlug,
@@ -481,8 +709,8 @@ class TrekAfricaGuideSeeder extends Seeder
             'hero_image_alt' => $name.' accommodation exterior and setting',
             'gallery' => $this->galleryImages('accommodations', $slug),
             'listing_summary' => $summary,
-            'detail_intro' => $detailIntro,
-            'practical_info' => $practicalInfo,
+            'detail_intro' => $detailIntro.' '.$this->stayResearchInsight($slug),
+            'practical_info' => $practicalInfo.' Verify the current room or tent category, meal plan, transfers, activity inclusions, cancellation terms, operating status, and recent guest feedback directly with the property before payment.',
             'amenities' => $amenities,
             'rating' => $rating,
             'review_count' => $reviews,
@@ -520,8 +748,8 @@ class TrekAfricaGuideSeeder extends Seeder
             'hero_image_alt' => $name.' dining setting and cuisine',
             'gallery' => $this->galleryImages('restaurants', $slug),
             'listing_summary' => $summary,
-            'detail_intro' => $summary,
-            'practical_info' => $practicalInfo,
+            'detail_intro' => $summary.' '.$this->restaurantResearchInsight($slug),
+            'practical_info' => $practicalInfo.' Verify the current menu, prices, opening hours, reservation policy, dietary support, and whether non-resident diners are accepted before travel.',
             'rating' => $rating,
             'review_count' => $reviews,
             'price_label' => $priceLabel,

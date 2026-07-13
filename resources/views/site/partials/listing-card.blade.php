@@ -8,14 +8,6 @@
         @endif
         <h3><a href="{{ $href }}">{{ $title }}</a></h3>
         <p>{{ \Illuminate\Support\Str::limit(strip_tags($summary), 125) }}</p>
-        <div class="listing-card__meta">
-            @if(!empty($rating))
-                <span>★ {{ number_format((float) $rating, 1) }} @if(!empty($reviews))({{ number_format($reviews) }})@endif</span>
-            @endif
-            @if(!empty($price))
-                <span>{{ $price }}</span>
-            @endif
-        </div>
 
         <div class="listing-card__footer">
             @if(!empty($chips))

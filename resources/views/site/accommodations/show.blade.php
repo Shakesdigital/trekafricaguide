@@ -13,7 +13,6 @@
             <h1>{{ $accommodation->name }}</h1>
             <p class="detail-hero__summary">{{ $accommodation->listing_summary }}</p>
             <div class="listing-meta">
-                <span class="listing-meta__rating">@include('site.partials.icon', ['name' => 'star']) {{ number_format((float) $accommodation->rating, 1) }}</span>
                 @if($accommodation->price_label)
                     <span class="listing-meta__item">@include('site.partials.icon', ['name' => 'tag']) {{ $accommodation->price_label }}</span>
                 @endif
@@ -61,7 +60,6 @@
                 @if($accommodation->location_name)
                     <div class="fact"><span class="fact__icon">@include('site.partials.icon', ['name' => 'pin'])</span><div><p class="fact__label">Location</p><p class="fact__value">{{ $accommodation->location_name }}</p></div></div>
                 @endif
-                <div class="fact"><span class="fact__icon">@include('site.partials.icon', ['name' => 'star'])</span><div><p class="fact__label">Guest rating</p><p class="fact__value">{{ number_format((float) $accommodation->rating, 1) }} / 5</p></div></div>
                 @if($accommodation->price_label)
                     <div class="fact"><span class="fact__icon">@include('site.partials.icon', ['name' => 'tag'])</span><div><p class="fact__label">From</p><p class="fact__value">{{ $accommodation->price_label }}</p></div></div>
                 @endif
@@ -104,7 +102,7 @@
                         <li>Whether the location matches your trekking sector or activity departure point.</li>
                     </ul>
                 </div>
-                <p class="source-note">Content reviewed June 28, 2026. Always confirm final terms directly with the partner or property before payment.</p>
+                <p class="source-note">Editorial research reviewed July 13, 2026. Confirm current room standards, inclusions, transfers, operating status, and recent guest feedback directly with the property before payment.</p>
             </div>
         </div>
         <aside class="detail-rail">
