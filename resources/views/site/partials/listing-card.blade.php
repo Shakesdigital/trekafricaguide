@@ -7,7 +7,7 @@
             <p class="listing-card__eyebrow">{{ $eyebrow }}</p>
         @endif
         <h3><a href="{{ $href }}">{{ $title }}</a></h3>
-        <p>{{ $summary }}</p>
+        <p>{{ \Illuminate\Support\Str::limit(strip_tags($summary), 125) }}</p>
         <div class="listing-card__meta">
             @if(!empty($rating))
                 <span>★ {{ number_format((float) $rating, 1) }} @if(!empty($reviews))({{ number_format($reviews) }})@endif</span>
@@ -16,23 +16,11 @@
                 <span>{{ $price }}</span>
             @endif
         </div>
-        <p class="listing-card__source">Planning-guide rating and rate cue. Verify live terms before paying.</p>
-        @if(!empty($facts))
-            <dl class="listing-card__facts">
-                @foreach($facts as $label => $value)
-                    @if(filled($value))
-                        <div>
-                            <dt>{{ $label }}</dt>
-                            <dd>{{ $value }}</dd>
-                        </div>
-                    @endif
-                @endforeach
-            </dl>
-        @endif
+
         <div class="listing-card__footer">
             @if(!empty($chips))
                 <div class="chip-row">
-                    @foreach($chips as $chip)
+                    @foreach(collect($chips)->filter()->take(1) as $chip)
                         @if(filled($chip))
                             <span>{{ $chip }}</span>
                         @endif

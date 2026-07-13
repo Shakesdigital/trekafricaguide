@@ -152,21 +152,19 @@
     </div>`;
   };
 
-  const listingCard = ({ href, image, title, summary, eyebrow, rating, reviews, price, chips = [], facts = [], cta = 'View Details' }) => `
+  const listingCard = ({ href, image, title, summary, eyebrow, rating, reviews, price, chips = [], cta = 'View Details' }) => `
     <article class="listing-card">
       <a href="${esc(href)}" class="listing-card__image">${imageSlot(image, title, 'listing-card__slot')}</a>
       <div class="listing-card__body">
         ${eyebrow ? `<p class="listing-card__eyebrow">${esc(eyebrow)}</p>` : ''}
         <h3><a href="${esc(href)}">${esc(title)}</a></h3>
-        <p>${esc(summary)}</p>
+        <p>${esc(String(summary || '').length > 125 ? `${String(summary).slice(0, 122)}...` : summary)}</p>
         <div class="listing-card__meta">
           ${rating ? `<span>&#9733; ${Number(rating).toFixed(1)}${reviews ? ` (${Number(reviews).toLocaleString()})` : ''}</span>` : ''}
           ${price ? `<span>${esc(price)}</span>` : ''}
         </div>
-        <p class="listing-card__source">Planning-guide rating and rate cue. Verify live terms before paying.</p>
-        ${facts.length ? `<dl class="listing-card__facts">${facts.map(([label, value]) => `<div><dt>${esc(label)}</dt><dd>${esc(value)}</dd></div>`).join('')}</dl>` : ''}
         <div class="listing-card__footer">
-          ${chips.length ? `<div class="chip-row">${chips.filter(Boolean).map((chip) => `<span>${esc(chip)}</span>`).join('')}</div>` : ''}
+          ${chips.length ? `<div class="chip-row">${chips.filter(Boolean).slice(0, 1).map((chip) => `<span>${esc(chip)}</span>`).join('')}</div>` : ''}
           <a href="${esc(href)}" class="button button--ghost">${esc(cta)}</a>
         </div>
       </div>

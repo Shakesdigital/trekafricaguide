@@ -32,21 +32,15 @@
             <input type="search" name="q" placeholder="Search a country, park, city, lodge, or restaurant" aria-label="Search Trek Africa Guide">
             <button class="button" type="submit">Search</button>
         </form>
-        <div class="hero-chip-row" aria-label="Popular planning styles">
-            @foreach(['Gorilla trekking', 'Big Five safari', 'Beach', 'Heritage', 'Food', 'Desert', 'Family', 'Luxury', 'Budget'] as $chip)
-                <a href="{{ route('attractions.index', ['q' => $chip]) }}">{{ $chip }}</a>
-            @endforeach
-        </div>
+
         <div class="hero__actions">
             <a href="{{ route('regions.index') }}" class="button">Explore Regions</a>
-            <a href="{{ route('attractions.index') }}" class="button button--ghost-light">Browse Listings</a>
+
         </div>
         @if($heroSlides->count() > 1)
             <div class="hero-carousel__controls" aria-label="Homepage region carousel">
                 @foreach($heroSlides as $index => $slide)
-                    <button type="button" class="@if($index === 0) is-active @endif" data-hero-dot data-region="{{ $slide['region'] }}" data-title="{{ $slide['title'] }}" data-body="{{ $slide['body'] }}">
-                        {{ $slide['region'] }}
-                    </button>
+                    <button type="button" class="@if($index === 0) is-active @endif" data-hero-dot data-region="{{ $slide['region'] }}" data-title="{{ $slide['title'] }}" data-body="{{ $slide['body'] }}" aria-label="Show {{ $slide['region'] }}"></button>
                 @endforeach
             </div>
         @endif

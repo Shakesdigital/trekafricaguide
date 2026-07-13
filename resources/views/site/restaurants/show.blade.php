@@ -14,13 +14,7 @@
             <p class="detail-hero__summary">{{ $restaurant->listing_summary }}</p>
             <div class="listing-meta">
                 <span class="listing-meta__rating">@include('site.partials.icon', ['name' => 'star']) {{ number_format((float) $restaurant->rating, 1) }}</span>
-                <span class="listing-meta__muted">{{ number_format($restaurant->review_count) }} reviews</span>
-                @if($restaurant->cuisine)
-                    <span class="listing-meta__sep">·</span>
-                    <span class="listing-meta__item">@include('site.partials.icon', ['name' => 'utensils']) {{ $restaurant->cuisine }}</span>
-                @endif
                 @if($restaurant->price_label)
-                    <span class="listing-meta__sep">·</span>
                     <span class="listing-meta__item">@include('site.partials.icon', ['name' => 'tag']) {{ $restaurant->price_label }}</span>
                 @endif
             </div>

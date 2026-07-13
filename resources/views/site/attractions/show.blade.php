@@ -14,13 +14,7 @@
             <p class="detail-hero__summary">{{ $attraction->listing_summary }}</p>
             <div class="listing-meta">
                 <span class="listing-meta__rating">@include('site.partials.icon', ['name' => 'star']) {{ number_format((float) $attraction->rating, 1) }}</span>
-                <span class="listing-meta__muted">{{ number_format($attraction->review_count) }} reviews</span>
-                @if($attraction->location_name)
-                    <span class="listing-meta__sep">·</span>
-                    <span class="listing-meta__item">@include('site.partials.icon', ['name' => 'pin']) {{ $attraction->location_name }}</span>
-                @endif
                 @if($attraction->price_label)
-                    <span class="listing-meta__sep">·</span>
                     <span class="listing-meta__item">@include('site.partials.icon', ['name' => 'tag']) {{ $attraction->price_label }}</span>
                 @endif
             </div>
