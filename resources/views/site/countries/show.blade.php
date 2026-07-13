@@ -101,7 +101,6 @@
                 <h3>{{ $country->name }}</h3>
                 <ul class="bullet-list">
                     <li>{{ $country->attractions->count() }} featured attractions listed</li>
-                    <li>{{ $country->tourOperators->count() }} active tour operator profiles</li>
                     <li>{{ $accommodations->count() }} accommodations nearby</li>
                     <li>{{ $restaurants->count() }} recommended restaurants</li>
                 </ul>
@@ -143,54 +142,32 @@
 </section>
 
 <section class="section">
-    <div class="container two-column">
-        <div>
-            <div class="section-heading section-heading--compact">
-                <p class="eyebrow">Tour operators</p>
-                <h2>Operators that can help shape the route</h2>
-            </div>
-            <div class="stack-grid">
-                @foreach($country->tourOperators as $operator)
-                    <article class="mini-card">
-                        <h3>{{ $operator->name }}</h3>
-                        <div class="rich-text">{!! $operator->summary !!}</div>
-                        <div class="chip-row">
-                            @foreach($operator->specialties ?? [] as $specialty)
-                                <span>{{ $specialty }}</span>
-                            @endforeach
-                        </div>
-                        <a href="{{ $operator->booking_url }}" class="button button--ghost" target="_blank" rel="noopener">Visit operator</a>
-                    </article>
-                @endforeach
-            </div>
+    <div class="container">
+        <div class="section-heading section-heading--compact">
+            <p class="eyebrow">Nearby stays</p>
+            <h2>Stays that keep you close to the experience</h2>
         </div>
-        <div>
-            <div class="section-heading section-heading--compact">
-                <p class="eyebrow">Nearby stays</p>
-                <h2>Stays that keep you close to the experience</h2>
-            </div>
-            <div class="stack-grid">
-                @foreach($accommodations as $stay)
-                    @include('site.partials.listing-card', [
-                        'href' => route('accommodations.show', $stay),
-                        'image' => $stay->hero_image_url,
-                        'title' => $stay->name,
-                        'summary' => $stay->listing_summary,
-                        'eyebrow' => $stay->attraction?->name,
-                        'rating' => $stay->rating,
-                        'reviews' => $stay->review_count,
-                        'price' => $stay->price_label,
-                        'chips' => [$stay->property_type, 'Route fit'],
-                        'facts' => [
-                            'Best for' => str_contains(strtolower($stay->practical_info), 'sector') ? 'Permit-day logistics' : 'Route comfort',
-                            'Meal plan' => 'Verify basis',
-                            'Nearby' => $stay->attraction?->name,
-                            'Transfer' => 'Check access',
-                        ],
-                        'cta' => 'View route fit',
-                    ])
-                @endforeach
-            </div>
+        <div class="stack-grid">
+            @foreach($accommodations as $stay)
+                @include('site.partials.listing-card', [
+                    'href' => route('accommodations.show', $stay),
+                    'image' => $stay->hero_image_url,
+                    'title' => $stay->name,
+                    'summary' => $stay->listing_summary,
+                    'eyebrow' => $stay->attraction?->name,
+                    'rating' => $stay->rating,
+                    'reviews' => $stay->review_count,
+                    'price' => $stay->price_label,
+                    'chips' => [$stay->property_type, 'Route fit'],
+                    'facts' => [
+                        'Best for' => str_contains(strtolower($stay->practical_info), 'sector') ? 'Permit-day logistics' : 'Route comfort',
+                        'Meal plan' => 'Verify basis',
+                        'Nearby' => $stay->attraction?->name,
+                        'Transfer' => 'Check access',
+                    ],
+                    'cta' => 'View route fit',
+                ])
+            @endforeach
         </div>
     </div>
 </section>

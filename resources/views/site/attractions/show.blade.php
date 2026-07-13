@@ -108,36 +108,7 @@
                 <h3>Full description</h3>
                 <div class="rich-text">{!! $attraction->full_description !!}</div>
             </div>
-            @if($attraction->tourOperators->isNotEmpty())
-                <div class="detail-section">
-                    <h3>Tour operators active here</h3>
-                    <div class="stack-grid">
-                        @foreach($attraction->tourOperators as $operator)
-                            <article class="operator-card">
-                                <h4>{{ $operator->name }}</h4>
-                                <div class="rich-text">{!! $operator->summary !!}</div>
-                                <a href="{{ $operator->booking_url }}" class="button button--ghost" target="_blank" rel="noopener">Operator booking page</a>
-                            </article>
-                        @endforeach
-                    </div>
-                </div>
-            @endif
         </div>
-        <aside class="detail-rail">
-            <div class="booking-panel">
-                <p class="booking-panel__eyebrow">Plan your visit</p>
-                <p class="booking-panel__price">{{ $attraction->price_label ?? 'Free to explore' }}</p>
-                @if($attraction->location_name)
-                    <p class="booking-panel__where">@include('site.partials.icon', ['name' => 'pin']) {{ $attraction->location_name }}</p>
-                @endif
-                <a href="{{ $attraction->booking_url }}" class="button button--full" target="_blank" rel="noopener">Check tours &amp; tickets</a>
-                <ul class="booking-trust">
-                    <li>@include('site.partials.icon', ['name' => 'shield']) Booked through vetted local operators</li>
-                    <li>@include('site.partials.icon', ['name' => 'check']) Live dates and pricing on the partner site</li>
-                    <li>@include('site.partials.icon', ['name' => 'info']) No payment is taken on this page</li>
-                </ul>
-            </div>
-        </aside>
     </div>
 </section>
 
