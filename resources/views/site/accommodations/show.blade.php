@@ -1,6 +1,7 @@
 @extends('layouts.site')
 
-@php($galleryImages = collect($accommodation->gallery ?? [])->filter()->values())
+@php($localGallery = collect(range(1, 5))->map(fn ($i) => asset('images/generated/accommodations/'.$accommodation->slug.'/0'.$i.'.jpg'))->filter(fn ($url, $i) => file_exists(public_path('images/generated/accommodations/'.$accommodation->slug.'/0'.($i + 1).'.jpg')))->values())
+@php($galleryImages = $localGallery->count() === 5 ? $localGallery : collect($accommodation->gallery ?? [])->filter()->values())
 @php($galleryImages = $galleryImages->isNotEmpty() ? $galleryImages : collect([$accommodation->hero_image_url])->filter()->values())
 
 @section('content')
@@ -42,6 +43,23 @@
 <section class="section">
     <div class="container detail-grid">
         <div class="detail-main">
+            <div class="decision-grid">
+                <article class="decision-panel">
+                    <p class="decision-panel__label">Best for</p>
+                    <h3>{{ str_contains(strtolower($accommodation->practical_info), 'sector') ? 'Permit-day convenience' : 'Route comfort and easier logistics' }}</h3>
+                    <p>{{ $accommodation->listing_summary }}</p>
+                </article>
+                <article class="decision-panel">
+                    <p class="decision-panel__label">Route fit</p>
+                    <h3>{{ $accommodation->attraction?->name ?? $accommodation->country->name }}</h3>
+                    <p>Check that the stay matches your attraction timing, transfer route, and meal rhythm.</p>
+                </article>
+                <article class="decision-panel">
+                    <p class="decision-panel__label">Rate confidence</p>
+                    <h3>{{ $accommodation->price_label ?? 'Rates on request' }}</h3>
+                    <p>Use this as a planning cue only. Live rates depend on season, room type, board basis, and availability.</p>
+                </article>
+            </div>
             <div class="fact-strip">
                 @if($accommodation->property_type)
                     <div class="fact"><span class="fact__icon">@include('site.partials.icon', ['name' => 'bed'])</span><div><p class="fact__label">Property</p><p class="fact__value">{{ $accommodation->property_type }}</p></div></div>
@@ -78,6 +96,22 @@
                     <p><a href="{{ route('attractions.show', $accommodation->attraction) }}">{{ $accommodation->attraction->name }}</a> is the clearest anchor for this stay.</p>
                 </div>
             @endif
+            <div class="verify-box">
+                <h3>What to verify before booking this stay</h3>
+                <div class="verify-grid">
+                    <ul class="bullet-list">
+                        <li>Live room availability, rate basis, taxes, and seasonal supplements.</li>
+                        <li>Cancellation terms, child policy, and single supplement if relevant.</li>
+                        <li>Meal plan: breakfast, half-board, full-board, packed lunches, and drinks.</li>
+                    </ul>
+                    <ul class="bullet-list">
+                        <li>Transfer time, road conditions, airstrip or ferry requirements.</li>
+                        <li>Park fees, permits, and activity fees that are not in the room rate.</li>
+                        <li>Whether the location matches your trekking sector or activity departure point.</li>
+                    </ul>
+                </div>
+                <p class="source-note">Content reviewed June 28, 2026. Always confirm final terms directly with the partner or property before payment.</p>
+            </div>
         </div>
         <aside class="detail-rail">
             <div class="booking-panel">
@@ -114,7 +148,14 @@
                     'rating' => $attraction->rating,
                     'reviews' => $attraction->review_count,
                     'price' => $attraction->price_label,
-                    'chips' => [$attraction->location_name],
+                    'chips' => [$attraction->location_name, 'Route anchor'],
+                    'facts' => [
+                        'Time' => '1-3 days',
+                        'Demand' => str_contains(strtolower($attraction->detail_intro), 'trek') ? 'Demanding' : 'Moderate',
+                        'Season' => \Illuminate\Support\Str::limit(strip_tags($attraction->best_time), 42),
+                        'Verify' => 'Rates and access',
+                    ],
+                    'cta' => 'Plan visit',
                 ])
             @endforeach
         </div>

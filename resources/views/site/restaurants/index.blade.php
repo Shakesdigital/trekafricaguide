@@ -14,6 +14,18 @@
 
 <section class="section">
     <div class="container">
+        <div class="intent-strip">
+            <div>
+                <p class="eyebrow">Dining Finder</p>
+                <h2>Plan meals around the day you are actually taking.</h2>
+                <p>Separate lodge dining, city restaurants, coastal seafood, scenic dinners, and camp meals before adding them to a route.</p>
+            </div>
+            <div class="intent-strip__chips">
+                @foreach(['lodge dining', 'city restaurant', 'coastal seafood', 'scenic dinner', 'camp meals', 'local casual', 'vegetarian', 'family'] as $intent)
+                    <a href="{{ route('restaurants.index', ['q' => $intent]) }}">{{ \Illuminate\Support\Str::headline($intent) }}</a>
+                @endforeach
+            </div>
+        </div>
         <form class="filter-form" method="GET">
             <input type="text" name="q" value="{{ $filters['q'] ?? '' }}" placeholder="Search restaurant or cuisine">
             <select name="region">
@@ -42,6 +54,13 @@
                     'reviews' => $restaurant->review_count,
                     'price' => $restaurant->price_label,
                     'chips' => [$restaurant->signature_dish, $restaurant->attraction?->name],
+                    'facts' => [
+                        'Meal role' => str_contains(strtolower($restaurant->cuisine), 'lodge') || str_contains(strtolower($restaurant->cuisine), 'camp') ? 'Stay-based meal' : 'Planned dining stop',
+                        'Cuisine' => $restaurant->cuisine,
+                        'Reserve' => str_contains(strtolower($restaurant->practical_info), 'reserve') || str_contains(strtolower($restaurant->practical_info), 'book') ? 'Recommended' : 'Verify hours',
+                        'Pairs with' => $restaurant->attraction?->name,
+                    ],
+                    'cta' => 'View dining details',
                 ])
             @endforeach
         </div>

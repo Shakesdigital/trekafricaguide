@@ -1,6 +1,17 @@
 @extends('layouts.site')
 
-@php($galleryImages = collect($region->gallery ?? [])->filter()->values())
+@php
+    $regionDestination = [
+        'east-africa' => 'serengeti-national-park',
+        'west-africa' => 'sine-saloum-delta',
+        'southern-africa' => 'namib-desert',
+        'northern-africa' => 'marrakech-and-atlas',
+    ][$region->slug] ?? null;
+    $localGallery = $regionDestination
+        ? collect(range(1, 5))->map(fn ($i) => asset('images/generated/attractions/'.$regionDestination.'/0'.$i.'.jpg'))
+        : collect();
+    $galleryImages = $localGallery->count() === 5 ? $localGallery : collect($region->gallery ?? [])->filter()->values();
+@endphp
 
 @section('content')
 <section class="page-hero">
@@ -66,7 +77,14 @@
                     'rating' => null,
                     'reviews' => null,
                     'price' => null,
-                    'chips' => ['Destination guide'],
+                    'chips' => ['Destination guide', $country->region->name],
+                    'facts' => [
+                        'Best for' => \Illuminate\Support\Str::limit(strip_tags($country->hero_text), 42),
+                        'Gateway' => \Illuminate\Support\Str::limit(strip_tags($country->access_summary), 38),
+                        'Season' => \Illuminate\Support\Str::limit(strip_tags($country->best_time), 42),
+                        'Listings' => $country->attractions()->count().' attractions',
+                    ],
+                    'cta' => 'Open guide',
                 ])
             @endforeach
         </div>
@@ -90,7 +108,14 @@
                     'rating' => $attraction->rating,
                     'reviews' => $attraction->review_count,
                     'price' => $attraction->price_label,
-                    'chips' => [$attraction->location_name],
+                    'chips' => [$attraction->location_name, 'Route anchor'],
+                    'facts' => [
+                        'Time' => '1-3 days',
+                        'Demand' => str_contains(strtolower($attraction->detail_intro), 'trek') ? 'Demanding' : 'Moderate',
+                        'Season' => \Illuminate\Support\Str::limit(strip_tags($attraction->best_time), 42),
+                        'Verify' => 'Rates and access',
+                    ],
+                    'cta' => 'Plan visit',
                 ])
             @endforeach
         </div>

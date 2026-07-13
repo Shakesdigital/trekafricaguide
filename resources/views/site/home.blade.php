@@ -26,8 +26,17 @@
     <div class="hero__overlay"></div>
     <div class="container hero__content">
         <p class="eyebrow" data-hero-region>{{ $heroSlides->first()['region'] ?? $hero?->eyebrow }}</p>
-        <h1 data-hero-title>{{ $heroSlides->first()['title'] ?? $hero?->title }}</h1>
+        <h1 data-hero-title>Plan Africa trips by destination, attraction, stay, and dining route.</h1>
         <p class="hero__lead" data-hero-body>{{ $heroSlides->first()['body'] ?? $hero?->body }}</p>
+        <form class="hero-search" method="GET" action="{{ route('attractions.index') }}">
+            <input type="search" name="q" placeholder="Search a country, park, city, lodge, or restaurant" aria-label="Search Trek Africa Guide">
+            <button class="button" type="submit">Search</button>
+        </form>
+        <div class="hero-chip-row" aria-label="Popular planning styles">
+            @foreach(['Gorilla trekking', 'Big Five safari', 'Beach', 'Heritage', 'Food', 'Desert', 'Family', 'Luxury', 'Budget'] as $chip)
+                <a href="{{ route('attractions.index', ['q' => $chip]) }}">{{ $chip }}</a>
+            @endforeach
+        </div>
         <div class="hero__actions">
             <a href="{{ route('regions.index') }}" class="button">Explore Regions</a>
             <a href="{{ route('attractions.index') }}" class="button button--ghost-light">Browse Listings</a>
@@ -41,6 +50,34 @@
                 @endforeach
             </div>
         @endif
+    </div>
+</section>
+
+<section class="section section--alt">
+    <div class="container trip-finder">
+        <div class="section-heading section-heading--compact">
+            <p class="eyebrow">Trip-Fit Finder</p>
+            <h2>Start with the decision that shapes the route.</h2>
+            <p>Choose a travel style, region, budget level, and realistic trip length before comparing individual listings.</p>
+        </div>
+        <div class="trip-finder__steps">
+            <div class="trip-step">
+                <strong>1. Travel style</strong>
+                <p>Safari, primates, beach, heritage, desert, food, family, or city-and-coast.</p>
+            </div>
+            <div class="trip-step">
+                <strong>2. Region or country</strong>
+                <p>Match the mood first, then open the country guide that fits your time and comfort level.</p>
+            </div>
+            <div class="trip-step">
+                <strong>3. Budget level</strong>
+                <p>Compare budget, comfortable mid-range, and luxury choices by route value, not just nightly rate.</p>
+            </div>
+            <div class="trip-step">
+                <strong>4. Trip length</strong>
+                <p>Use 3-5 days for one anchor, 7-10 days for a real circuit, and 11+ days for deeper pacing.</p>
+            </div>
+        </div>
     </div>
 </section>
 
@@ -102,12 +139,44 @@
                     'rating' => $attraction->rating,
                     'reviews' => $attraction->review_count,
                     'price' => $attraction->price_label,
-                    'chips' => [$attraction->location_name],
+                    'chips' => [$attraction->location_name, 'Route anchor'],
+                    'facts' => [
+                        'Time' => '1-3 days',
+                        'Demand' => str_contains(strtolower($attraction->detail_intro), 'trek') ? 'Demanding' : 'Moderate',
+                        'Season' => \Illuminate\Support\Str::limit(strip_tags($attraction->best_time), 42),
+                        'Verify' => 'Permits/rates',
+                    ],
+                    'cta' => 'Plan visit',
                 ])
             @endforeach
         </div>
         <div class="section-cta">
             <a href="{{ route('attractions.index') }}" class="button">View more attractions</a>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <div class="container">
+        <div class="section-heading">
+            <p class="eyebrow">Route Collections</p>
+            <h2>Planner-friendly routes to compare first.</h2>
+            <p>These are not fixed packages. They are practical starting shapes for matching attractions, stays, meals, transfers, and booking checks.</p>
+        </div>
+        <div class="route-collection-grid">
+            @foreach([
+                ['title' => '7-10 day Uganda primates and safari', 'body' => 'Entebbe, Kibale, Queen Elizabeth, Bwindi, and a softer final lake or city night.', 'href' => route('countries.show', 'uganda')],
+                ['title' => 'Kenya first safari route', 'body' => 'Nairobi, Maasai Mara or a conservancy, Amboseli, and an optional coast extension.', 'href' => route('countries.show', 'kenya')],
+                ['title' => 'Tanzania northern circuit and Zanzibar', 'body' => 'Arusha, Serengeti, Ngorongoro, and a beach finish when time allows.', 'href' => route('countries.show', 'tanzania')],
+                ['title' => 'Cape Town, Winelands, and safari', 'body' => 'City, coast, food, wine country, and a guided or self-drive safari add-on.', 'href' => route('countries.show', 'south-africa')],
+                ['title' => 'Morocco medina, Atlas, and desert', 'body' => 'Marrakech, riad stays, Atlas foothills, and a realistic multi-day Sahara route.', 'href' => route('countries.show', 'morocco')],
+            ] as $route)
+                <article class="route-card">
+                    <h3>{{ $route['title'] }}</h3>
+                    <p>{{ $route['body'] }}</p>
+                    <a href="{{ $route['href'] }}" class="button button--ghost">Open route guide</a>
+                </article>
+            @endforeach
         </div>
     </div>
 </section>
@@ -134,6 +203,13 @@
                             'reviews' => $stay->review_count,
                             'price' => $stay->price_label,
                             'chips' => [$stay->property_type, $stay->attraction?->name],
+                            'facts' => [
+                                'Best for' => str_contains(strtolower($stay->practical_info), 'sector') ? 'Permit-day logistics' : 'Route comfort',
+                                'Meal plan' => 'Verify basis',
+                                'Nearby' => $stay->attraction?->name,
+                                'Transfer' => 'Check access',
+                            ],
+                            'cta' => 'View route fit',
                         ])
                     </div>
                 @endforeach
@@ -168,6 +244,13 @@
                             'reviews' => $restaurant->review_count,
                             'price' => $restaurant->price_label,
                             'chips' => [$restaurant->cuisine, $restaurant->attraction?->name],
+                            'facts' => [
+                                'Meal role' => str_contains(strtolower($restaurant->cuisine), 'lodge') || str_contains(strtolower($restaurant->cuisine), 'camp') ? 'Stay-based meal' : 'Dining stop',
+                                'Cuisine' => $restaurant->cuisine,
+                                'Reserve' => 'Verify hours',
+                                'Pairs with' => $restaurant->attraction?->name,
+                            ],
+                            'cta' => 'View dining',
                         ])
                     </div>
                 @endforeach
@@ -176,6 +259,22 @@
         </div>
         <div class="section-cta">
             <a href="{{ route('restaurants.index') }}" class="button">View more restaurants</a>
+        </div>
+    </div>
+</section>
+
+<section class="section section--alt">
+    <div class="container trust-band">
+        <div>
+            <p class="eyebrow">Booking Confidence</p>
+            <h2>Use Trek Africa Guide to compare fit before you pay elsewhere.</h2>
+            <p>We do not take payment here. Always verify live rates, permit availability, inclusions, cancellation terms, transfers, meal plans, and guide requirements on the partner or provider site.</p>
+        </div>
+        <div class="chip-row">
+            <span>No payment taken here</span>
+            <span>Rates checked on partner sites</span>
+            <span>Permits and availability must be verified</span>
+            <span>Route logic over generic lists</span>
         </div>
     </div>
 </section>

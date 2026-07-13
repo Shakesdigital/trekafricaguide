@@ -1,6 +1,7 @@
 @extends('layouts.site')
 
-@php($galleryImages = collect($restaurant->gallery ?? [])->filter()->values())
+@php($localGallery = collect(range(1, 5))->map(fn ($i) => asset('images/generated/restaurants/'.$restaurant->slug.'/0'.$i.'.jpg'))->filter(fn ($url, $i) => file_exists(public_path('images/generated/restaurants/'.$restaurant->slug.'/0'.($i + 1).'.jpg')))->values())
+@php($galleryImages = $localGallery->count() === 5 ? $localGallery : collect($restaurant->gallery ?? [])->filter()->values())
 @php($galleryImages = $galleryImages->isNotEmpty() ? $galleryImages : collect([$restaurant->hero_image_url])->filter()->values())
 
 @section('content')
@@ -42,6 +43,23 @@
 <section class="section">
     <div class="container detail-grid">
         <div class="detail-main">
+            <div class="decision-grid">
+                <article class="decision-panel">
+                    <p class="decision-panel__label">Best meal to plan here</p>
+                    <h3>{{ $restaurant->signature_dish ?? 'Destination dining stop' }}</h3>
+                    <p>{{ $restaurant->listing_summary }}</p>
+                </article>
+                <article class="decision-panel">
+                    <p class="decision-panel__label">Pairs with</p>
+                    <h3>{{ $restaurant->attraction?->name ?? $restaurant->country->name }}</h3>
+                    <p>Use dining as part of the day plan, especially when transfers, tides, game drives, or lodge access matter.</p>
+                </article>
+                <article class="decision-panel">
+                    <p class="decision-panel__label">Reservation confidence</p>
+                    <h3>{{ str_contains(strtolower($restaurant->practical_info), 'reserve') || str_contains(strtolower($restaurant->practical_info), 'book') ? 'Reserve ahead' : 'Verify current hours' }}</h3>
+                    <p>Opening hours, access rules, menus, and reservation policies can change quickly.</p>
+                </article>
+            </div>
             <div class="fact-strip">
                 @if($restaurant->cuisine)
                     <div class="fact"><span class="fact__icon">@include('site.partials.icon', ['name' => 'utensils'])</span><div><p class="fact__label">Cuisine</p><p class="fact__value">{{ $restaurant->cuisine }}</p></div></div>
@@ -79,6 +97,22 @@
                     <p>This restaurant is recommended for travelers visiting <a href="{{ route('attractions.show', $restaurant->attraction) }}">{{ $restaurant->attraction->name }}</a>.</p>
                 </div>
             @endif
+            <div class="verify-box">
+                <h3>What to verify before planning this meal</h3>
+                <div class="verify-grid">
+                    <ul class="bullet-list">
+                        <li>Current opening hours, reservation rules, and seasonal closures.</li>
+                        <li>Menu availability, dietary needs, and whether drinks or service are extra.</li>
+                        <li>Whether the venue is lodge-only, guest-only, or open to outside diners.</li>
+                    </ul>
+                    <ul class="bullet-list">
+                        <li>Transfer time after dark, parking, boat access, tides, or road conditions.</li>
+                        <li>Meal timing around game drives, trekking starts, tours, or ferry crossings.</li>
+                        <li>Final price tier, taxes, and payment methods accepted.</li>
+                    </ul>
+                </div>
+                <p class="source-note">Content reviewed June 28, 2026. Confirm live hours, menu, access, and reservation terms before you go.</p>
+            </div>
         </div>
         <aside class="detail-rail">
             <div class="booking-panel">
@@ -115,7 +149,14 @@
                     'rating' => $stay->rating,
                     'reviews' => $stay->review_count,
                     'price' => $stay->price_label,
-                    'chips' => [$stay->location_name],
+                    'chips' => [$stay->location_name, $stay->property_type],
+                    'facts' => [
+                        'Best for' => str_contains(strtolower($stay->practical_info), 'sector') ? 'Permit-day logistics' : 'Route comfort',
+                        'Meal plan' => 'Verify basis',
+                        'Nearby' => $stay->attraction?->name,
+                        'Transfer' => 'Check access',
+                    ],
+                    'cta' => 'View route fit',
                 ])
             @endforeach
         </div>

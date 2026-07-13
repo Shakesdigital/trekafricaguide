@@ -1,6 +1,20 @@
 @extends('layouts.site')
 
-@php($galleryImages = collect($country->gallery ?? [])->filter()->values())
+@php
+    $countryDestination = [
+        'uganda' => 'bwindi-impenetrable-national-park', 'kenya' => 'maasai-mara',
+        'tanzania' => 'serengeti-national-park', 'rwanda' => 'volcanoes-national-park',
+        'ethiopia' => 'lalibela', 'ghana' => 'cape-coast-kakum', 'senegal' => 'sine-saloum-delta',
+        'benin' => 'ouidah-and-ganvie', 'sierra-leone' => 'tokeh-and-river-no2', 'cabo-verde' => 'sal-island',
+        'south-africa' => 'cape-town', 'botswana' => 'okavango-delta', 'namibia' => 'namib-desert',
+        'zimbabwe' => 'victoria-falls', 'zambia' => 'south-luangwa', 'morocco' => 'marrakech-and-atlas',
+        'egypt' => 'cairo-and-giza', 'tunisia' => 'tunis-and-sidi-bou-said', 'algeria' => 'djanet-and-tassili',
+    ][$country->slug] ?? null;
+    $localGallery = $countryDestination
+        ? collect(range(1, 5))->map(fn ($i) => asset('images/generated/attractions/'.$countryDestination.'/0'.$i.'.jpg'))
+        : collect();
+    $galleryImages = $localGallery->count() === 5 ? $localGallery : collect($country->gallery ?? [])->filter()->values();
+@endphp
 
 @section('content')
 <section class="page-hero">
@@ -33,6 +47,23 @@
 <section class="section">
     <div class="container detail-grid">
         <div class="detail-main">
+            <div class="decision-grid">
+                <article class="decision-panel">
+                    <p class="decision-panel__label">Best for</p>
+                    <h3>{{ \Illuminate\Support\Str::limit(strip_tags($country->hero_text), 80) }}</h3>
+                    <p>Use this as the first fit check before comparing listings.</p>
+                </article>
+                <article class="decision-panel">
+                    <p class="decision-panel__label">Gateway</p>
+                    <h3>{{ \Illuminate\Support\Str::limit(strip_tags($country->access_summary), 88) }}</h3>
+                    <p>Confirm flight routing, transfer time, and road versus fly-in tradeoffs.</p>
+                </article>
+                <article class="decision-panel">
+                    <p class="decision-panel__label">Suggested trip length</p>
+                    <h3>{{ $country->attractions->count() > 1 ? '7-10 days for a fuller route' : '3-5 days for one anchor' }}</h3>
+                    <p>Add nights only when they reduce backtracking or improve activity timing.</p>
+                </article>
+            </div>
             <h2>Destination guide to {{ $country->name }}</h2>
             <div class="rich-text">{!! $country->overview !!}</div>
             <div class="detail-section">
@@ -46,6 +77,22 @@
             <div class="detail-section">
                 <h3>Planning notes</h3>
                 <div class="rich-text">{!! $country->planning_tips !!}</div>
+            </div>
+            <div class="verify-box">
+                <h3>What to verify before booking {{ $country->name }}</h3>
+                <div class="verify-grid">
+                    <ul class="bullet-list">
+                        <li>Current visa, entry, and passport rules.</li>
+                        <li>Live park, permit, conservation, or museum fees.</li>
+                        <li>Domestic flight schedules, road conditions, and transfer times.</li>
+                    </ul>
+                    <ul class="bullet-list">
+                        <li>Seasonal closures, rainfall, heat, and wildlife movement.</li>
+                        <li>Accommodation location against the attraction or trekking sector.</li>
+                        <li>Cancellation terms, inclusions, meal plans, and guide requirements.</li>
+                    </ul>
+                </div>
+                <p class="source-note">Content reviewed June 28, 2026. Live prices, permits, availability, and official travel rules can change.</p>
             </div>
         </div>
         <aside class="detail-rail">
@@ -81,7 +128,14 @@
                     'rating' => $attraction->rating,
                     'reviews' => $attraction->review_count,
                     'price' => $attraction->price_label,
-                    'chips' => [$attraction->location_name],
+                    'chips' => [$attraction->location_name, 'Route anchor'],
+                    'facts' => [
+                        'Time' => '1-3 days',
+                        'Demand' => str_contains(strtolower($attraction->detail_intro), 'trek') ? 'Demanding' : 'Moderate',
+                        'Season' => \Illuminate\Support\Str::limit(strip_tags($attraction->best_time), 42),
+                        'Verify' => 'Rates and access',
+                    ],
+                    'cta' => 'Plan visit',
                 ])
             @endforeach
         </div>
@@ -126,7 +180,14 @@
                         'rating' => $stay->rating,
                         'reviews' => $stay->review_count,
                         'price' => $stay->price_label,
-                        'chips' => [$stay->property_type],
+                        'chips' => [$stay->property_type, 'Route fit'],
+                        'facts' => [
+                            'Best for' => str_contains(strtolower($stay->practical_info), 'sector') ? 'Permit-day logistics' : 'Route comfort',
+                            'Meal plan' => 'Verify basis',
+                            'Nearby' => $stay->attraction?->name,
+                            'Transfer' => 'Check access',
+                        ],
+                        'cta' => 'View route fit',
                     ])
                 @endforeach
             </div>
@@ -151,7 +212,14 @@
                     'rating' => $restaurant->rating,
                     'reviews' => $restaurant->review_count,
                     'price' => $restaurant->price_label,
-                    'chips' => [$restaurant->cuisine],
+                    'chips' => [$restaurant->cuisine, 'Dining detail'],
+                    'facts' => [
+                        'Meal role' => str_contains(strtolower($restaurant->cuisine), 'lodge') || str_contains(strtolower($restaurant->cuisine), 'camp') ? 'Stay-based meal' : 'Dining stop',
+                        'Cuisine' => $restaurant->cuisine,
+                        'Reserve' => 'Verify hours',
+                        'Pairs with' => $restaurant->attraction?->name,
+                    ],
+                    'cta' => 'View dining',
                 ])
             @endforeach
         </div>

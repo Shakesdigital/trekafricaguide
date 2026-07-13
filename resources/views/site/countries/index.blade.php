@@ -14,6 +14,18 @@
 
 <section class="section">
     <div class="container">
+        <div class="intent-strip">
+            <div>
+                <p class="eyebrow">Destination Finder</p>
+                <h2>Pick the country that matches the trip style and logistics.</h2>
+                <p>Compare first-time friendliness, route type, best months, budget feel, and gateway access before opening a destination guide.</p>
+            </div>
+            <div class="intent-strip__chips">
+                @foreach(['first-time safari', 'primates', 'beach', 'heritage', 'desert', 'self-drive', 'family', 'luxury', 'budget'] as $intent)
+                    <a href="{{ route('countries.index', ['q' => $intent]) }}">{{ \Illuminate\Support\Str::headline($intent) }}</a>
+                @endforeach
+            </div>
+        </div>
         <form class="filter-form" method="GET">
             <input type="text" name="q" value="{{ $filters['q'] ?? '' }}" placeholder="Search destination country">
             <select name="region">
@@ -36,7 +48,14 @@
                     'rating' => null,
                     'reviews' => null,
                     'price' => null,
-                    'chips' => ['Destination country'],
+                    'chips' => ['Destination country', $country->region->name],
+                    'facts' => [
+                        'Best for' => \Illuminate\Support\Str::limit(strip_tags($country->hero_text), 42),
+                        'Gateway' => \Illuminate\Support\Str::limit(strip_tags($country->access_summary), 38),
+                        'Best months' => \Illuminate\Support\Str::limit(strip_tags($country->best_time), 42),
+                        'Route type' => str_contains(strtolower($country->overview), 'safari') ? 'Guided safari' : 'Culture/coast',
+                    ],
+                    'cta' => 'Open destination guide',
                 ])
             @endforeach
         </div>

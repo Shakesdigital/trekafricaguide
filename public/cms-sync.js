@@ -90,8 +90,56 @@
     return `${roots[name]}${slug ? `/${slug}` : ''}`;
   };
 
+  const slotTerms = {
+    'home-hero-east-africa': 'east africa safari wildlife savannah',
+    'home-hero-west-africa': 'west africa coast culture market',
+    'home-hero-southern-africa': 'southern africa safari desert landscape',
+    'home-hero-northern-africa': 'north africa desert medina architecture',
+    'regions-index-hero': 'africa travel safari landscape',
+    'destinations-index-hero': 'africa destination travel landscape',
+    'attractions-index-hero': 'africa safari national park',
+    'accommodations-index-hero': 'africa safari lodge hotel',
+    'restaurants-index-hero': 'african restaurant food travel',
+    'region-east-africa': 'east africa safari',
+    'region-west-africa': 'west africa beach heritage',
+    'region-southern-africa': 'southern africa desert safari',
+    'region-northern-africa': 'north africa desert medina',
+    'country-uganda': 'uganda gorilla forest safari',
+    'country-kenya': 'kenya maasai mara safari',
+    'country-tanzania': 'tanzania serengeti zanzibar',
+    'country-rwanda': 'rwanda volcanoes gorilla',
+    'country-ethiopia': 'ethiopia lalibela highlands',
+    'country-ghana': 'ghana cape coast kakum',
+    'country-senegal': 'senegal dakar coast',
+    'country-benin': 'benin ouidah ganvie',
+    'country-sierra-leone': 'sierra leone beach',
+    'country-cabo-verde': 'cabo verde sal beach',
+    'country-south-africa': 'south africa cape town safari',
+    'country-botswana': 'botswana okavango delta',
+    'country-namibia': 'namibia desert dunes',
+    'country-zimbabwe': 'zimbabwe victoria falls',
+    'country-zambia': 'zambia south luangwa safari',
+    'country-morocco': 'morocco marrakech desert',
+    'country-egypt': 'egypt pyramids cairo',
+    'country-tunisia': 'tunisia sidi bou said',
+    'country-algeria': 'algeria sahara djanet',
+  };
+
+  const slotLock = (key) => [...key].reduce((hash, char) => ((hash * 31) + char.charCodeAt(0)) % 100000, 7);
+
+  const resolveImage = (image) => {
+    if (!image || !String(image).startsWith('image-slot:')) return image;
+    const key = String(image).replace('image-slot:', '');
+    const terms = slotTerms[key] || key
+      .replace(/^(attraction|stay|restaurant|country|region|home-hero)-/, '')
+      .replace(/-/g, ' ')
+      .concat(' africa travel');
+    return `https://loremflickr.com/1600/1000/${terms.replace(/\s+/g, ',')}?lock=${slotLock(key)}`;
+  };
+
   const imageSlot = (image, alt, className = '') => {
-    if (image) return `<img src="${esc(image)}" alt="${esc(alt)}">`;
+    const resolved = resolveImage(image);
+    if (resolved) return `<img src="${esc(resolved)}" alt="${esc(alt)}" class="${esc(className)}" loading="lazy" decoding="async">`;
     return `<div class="image-slot ${className}" role="img" aria-label="${esc(alt || 'Reserved image space')}"><span>Image slot</span><strong>${esc(alt || 'Reserved visual')}</strong></div>`;
   };
 
@@ -104,7 +152,7 @@
     </div>`;
   };
 
-  const listingCard = ({ href, image, title, summary, eyebrow, rating, reviews, price, chips = [] }) => `
+  const listingCard = ({ href, image, title, summary, eyebrow, rating, reviews, price, chips = [], facts = [], cta = 'View Details' }) => `
     <article class="listing-card">
       <a href="${esc(href)}" class="listing-card__image">${imageSlot(image, title, 'listing-card__slot')}</a>
       <div class="listing-card__body">
@@ -115,9 +163,11 @@
           ${rating ? `<span>&#9733; ${Number(rating).toFixed(1)}${reviews ? ` (${Number(reviews).toLocaleString()})` : ''}</span>` : ''}
           ${price ? `<span>${esc(price)}</span>` : ''}
         </div>
+        <p class="listing-card__source">Planning-guide rating and rate cue. Verify live terms before paying.</p>
+        ${facts.length ? `<dl class="listing-card__facts">${facts.map(([label, value]) => `<div><dt>${esc(label)}</dt><dd>${esc(value)}</dd></div>`).join('')}</dl>` : ''}
         <div class="listing-card__footer">
           ${chips.length ? `<div class="chip-row">${chips.filter(Boolean).map((chip) => `<span>${esc(chip)}</span>`).join('')}</div>` : ''}
-          <a href="${esc(href)}" class="button button--ghost">View Details</a>
+          <a href="${esc(href)}" class="button button--ghost">${esc(cta)}</a>
         </div>
       </div>
     </article>`;

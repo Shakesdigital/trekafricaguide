@@ -1,6 +1,7 @@
 @extends('layouts.site')
 
-@php($galleryImages = collect($attraction->gallery ?? [])->filter()->values())
+@php($localGallery = collect(range(1, 5))->map(fn ($i) => asset('images/generated/attractions/'.$attraction->slug.'/0'.$i.'.jpg'))->filter(fn ($url, $i) => file_exists(public_path('images/generated/attractions/'.$attraction->slug.'/0'.($i + 1).'.jpg')))->values())
+@php($galleryImages = $localGallery->count() === 5 ? $localGallery : collect($attraction->gallery ?? [])->filter()->values())
 @php($galleryImages = $galleryImages->isNotEmpty() ? $galleryImages : collect([$attraction->hero_image_url])->filter()->values())
 
 @section('content')
@@ -42,6 +43,23 @@
 <section class="section">
     <div class="container detail-grid">
         <div class="detail-main">
+            <div class="decision-grid">
+                <article class="decision-panel">
+                    <p class="decision-panel__label">Best for</p>
+                    <h3>{{ str_contains(strtolower($attraction->detail_intro), 'trek') ? 'Active travelers and specialist nature trips' : 'Travelers building a practical route anchor' }}</h3>
+                    <p>{{ $attraction->listing_summary }}</p>
+                </article>
+                <article class="decision-panel">
+                    <p class="decision-panel__label">Suggested time</p>
+                    <h3>{{ str_contains(strtolower($attraction->listing_summary), 'city') ? 'Half to full day' : '1-3 days' }}</h3>
+                    <p>Allow more time when transfers are long, permits are limited, or nearby stays improve early starts.</p>
+                </article>
+                <article class="decision-panel">
+                    <p class="decision-panel__label">Booking confidence</p>
+                    <h3>Check partner options</h3>
+                    <p>Use Trek Africa Guide for fit, then verify dates, rates, inclusions, and cancellation on the external booking page.</p>
+                </article>
+            </div>
             <div class="fact-strip">
                 @if($attraction->location_name)
                     <div class="fact"><span class="fact__icon">@include('site.partials.icon', ['name' => 'pin'])</span><div><p class="fact__label">Where</p><p class="fact__value">{{ $attraction->location_name }}</p></div></div>
@@ -77,6 +95,22 @@
             <div class="detail-section">
                 <h3>Practical information</h3>
                 <div class="rich-text">{!! $attraction->practical_info !!}</div>
+            </div>
+            <div class="verify-box">
+                <h3>What to verify before booking</h3>
+                <div class="verify-grid">
+                    <ul class="bullet-list">
+                        <li>Current availability, opening conditions, and weather impact.</li>
+                        <li>Permit, guide, conservation, or park-entry requirements.</li>
+                        <li>What the listed price includes and excludes.</li>
+                    </ul>
+                    <ul class="bullet-list">
+                        <li>Meeting point, transfer time, and luggage restrictions.</li>
+                        <li>Cancellation terms, age rules, and fitness demands.</li>
+                        <li>Nearby stay location if an early start is required.</li>
+                    </ul>
+                </div>
+                <p class="source-note">Planning content reviewed June 28, 2026. Ratings and rate cues are editorial planning signals and should be checked against the partner source before payment.</p>
             </div>
             <div class="detail-section">
                 <h3>Full description</h3>
@@ -132,7 +166,14 @@
                     'rating' => $stay->rating,
                     'reviews' => $stay->review_count,
                     'price' => $stay->price_label,
-                    'chips' => [$stay->location_name],
+                    'chips' => [$stay->location_name, $stay->property_type],
+                    'facts' => [
+                        'Best for' => str_contains(strtolower($stay->practical_info), 'sector') ? 'Permit-day logistics' : 'Route comfort',
+                        'Meal plan' => 'Verify basis',
+                        'Nearby' => $stay->attraction?->name,
+                        'Transfer' => 'Check access',
+                    ],
+                    'cta' => 'View route fit',
                 ])
             @endforeach
         </div>
@@ -156,7 +197,14 @@
                     'rating' => $restaurant->rating,
                     'reviews' => $restaurant->review_count,
                     'price' => $restaurant->price_label,
-                    'chips' => [$restaurant->signature_dish],
+                    'chips' => [$restaurant->signature_dish, 'Nearby dining'],
+                    'facts' => [
+                        'Meal role' => str_contains(strtolower($restaurant->cuisine), 'lodge') || str_contains(strtolower($restaurant->cuisine), 'camp') ? 'Stay-based meal' : 'Dining stop',
+                        'Cuisine' => $restaurant->cuisine,
+                        'Reserve' => 'Verify hours',
+                        'Pairs with' => $restaurant->attraction?->name,
+                    ],
+                    'cta' => 'View dining',
                 ])
             @endforeach
         </div>

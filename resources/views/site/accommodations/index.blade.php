@@ -14,6 +14,18 @@
 
 <section class="section">
     <div class="container">
+        <div class="intent-strip">
+            <div>
+                <p class="eyebrow">Stay Finder</p>
+                <h2>Choose stays by route fit, not just room style.</h2>
+                <p>Use the quick intents below for safari lodges, permit-day convenience, beach resets, city gateways, and family-friendly comfort.</p>
+            </div>
+            <div class="intent-strip__chips">
+                @foreach(['safari lodge', 'tented camp', 'city hotel', 'riad', 'beach resort', 'guesthouse', 'desert camp', 'family', 'luxury', 'budget'] as $intent)
+                    <a href="{{ route('accommodations.index', ['q' => $intent]) }}">{{ \Illuminate\Support\Str::headline($intent) }}</a>
+                @endforeach
+            </div>
+        </div>
         <form class="filter-form" method="GET">
             <input type="text" name="q" value="{{ $filters['q'] ?? '' }}" placeholder="Search accommodation">
             <select name="region">
@@ -41,7 +53,14 @@
                     'rating' => $stay->rating,
                     'reviews' => $stay->review_count,
                     'price' => $stay->price_label,
-                    'chips' => [$stay->attraction?->name],
+                    'chips' => [$stay->attraction?->name, $stay->property_type],
+                    'facts' => [
+                        'Best for' => str_contains(strtolower($stay->practical_info), 'sector') ? 'Permit-day logistics' : 'Route comfort',
+                        'Meal plan' => str_contains(strtolower(implode(' ', $stay->amenities ?? [])), 'all-inclusive') ? 'Often bundled' : 'Verify basis',
+                        'Nearby' => $stay->attraction?->name,
+                        'Transfer' => str_contains(strtolower($stay->practical_info), 'road') ? 'Check road time' : 'Confirm access',
+                    ],
+                    'cta' => 'View route fit',
                 ])
             @endforeach
         </div>

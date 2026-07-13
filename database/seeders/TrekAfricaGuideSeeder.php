@@ -308,16 +308,17 @@ class TrekAfricaGuideSeeder extends Seeder
             'overview' => $overview,
             'access_summary' => $access,
             'best_time' => $bestTime,
-            'planning_tips' => 'Use this guide to compare what the country does best, how its main attractions connect, where stays and restaurants fit into the route, and which details to verify before committing to a booking.',
+            'planning_tips' => $this->countryPlanningTips($slug),
             'hero_image_url' => $this->countryImage($slug),
             'hero_image_alt' => 'Reserved image space for '.$name.' travel planning',
+            'gallery' => $this->galleryImages('attractions', $this->countryDestination($slug)),
         ];
     }
 
     private function attractions(): array
     {
         return [
-            $this->attraction('uganda', 'bwindi-impenetrable-national-park', 'Bwindi Impenetrable National Park', 'Southwestern Uganda', 'Mountain gorilla trekking in one of Africa’s most powerful forest landscapes.', 'Bwindi works best for travelers who understand that the reward is not speed or comfort, but the emotional intensity of one hour with a habituated gorilla family after a demanding forest trek.', 'Most travelers fly into Entebbe and continue by domestic flight or a long but scenic road transfer into southwestern Uganda. Permit logistics should be secured early and matched to the correct trekking sector.', 'Drier months usually make the trails easier, though trekking runs year-round.', 4.9, 842, 'From $700'),
+            $this->attraction('uganda', 'bwindi-impenetrable-national-park', 'Bwindi Impenetrable National Park', 'Southwestern Uganda', 'Mountain gorilla trekking in one of Africa’s most powerful forest landscapes.', 'Bwindi works best for travelers who understand that the reward is not speed or comfort, but the emotional intensity of one hour with a habituated gorilla family after a demanding forest trek.', 'Most travelers fly into Entebbe and continue by domestic flight or a long but scenic road transfer into southwestern Uganda. Permit logistics should be secured early and matched to the correct trekking sector.', 'Drier months usually make the trails easier, though trekking runs year-round.', 4.9, 842, 'From $800'),
             $this->attraction('uganda', 'murchison-falls-national-park', 'Murchison Falls National Park', 'Northern Uganda', 'Uganda’s flagship Nile-and-savannah park with boat safaris, game drives, and the dramatic falls.', 'Murchison is one of the easiest Uganda parks to understand: game drives on the northern bank, a Nile launch to the falls, and strong value for travelers who want wildlife without a very complex route.', 'Drive north from Entebbe or Kampala, or fly to Pakuba or Bugungu and transfer into a lodge near the river or the northern game-drive circuit.', 'Dryer months concentrate wildlife and simplify game drives, but the boat excursion remains rewarding throughout the year.', 4.7, 615, 'From $45'),
             $this->attraction('kenya', 'maasai-mara', 'Maasai Mara', 'Southwestern Kenya', 'Kenya’s classic safari icon for migration drama, predators, and broad savannah horizons.', 'The Mara is the clearest first safari fit for many travelers because wildlife density is strong, private conservancy options are well developed, and the product ranges from fly-in luxury to more accessible lodge circuits.', 'Most travelers connect through Nairobi and continue by bush flight or road via Narok depending on budget and time.', 'July to October is most famous for migration crossings, but January to March is also excellent for game viewing.', 4.9, 1384, 'From $95'),
             $this->attraction('kenya', 'amboseli-national-park', 'Amboseli National Park', 'Southern Kenya', 'Big-elephant country with unforgettable Kilimanjaro backdrops.', 'Amboseli is a strong complement to the Mara because it is visually distinctive, especially for elephant viewing and photography.', 'Reach Amboseli by road from Nairobi or by short bush flight into the greater Kimana and Amboseli airstrip network.', 'June to October and January to March are usually the clearest windows for visibility and wildlife concentration.', 4.8, 724, 'From $70'),
@@ -370,7 +371,7 @@ class TrekAfricaGuideSeeder extends Seeder
             'getting_there' => $gettingThere,
             'best_time' => $bestTime,
             'practical_info' => 'Before booking, check the time commitment, access route, permit or guide needs, season, nearby accommodation, dining rhythm, and whether the experience fits the pace of your wider trip.',
-            'gallery' => [$this->attractionImage($slug), $this->countryImage($countrySlug), $this->regionAccentImage($countrySlug)],
+            'gallery' => $this->galleryImages('attractions', $slug),
             'highlights' => [
                 'Clear sense of why this place matters in the wider destination',
                 'Nearby accommodation and dining ideas to make planning easier',
@@ -476,8 +477,9 @@ class TrekAfricaGuideSeeder extends Seeder
             'name' => $name,
             'property_type' => $propertyType,
             'location_name' => $location,
-            'hero_image_url' => 'image-slot:stay-'.$slug,
-            'hero_image_alt' => 'Reserved image space for '.$name,
+            'hero_image_url' => $this->stayImage($slug),
+            'hero_image_alt' => $name.' accommodation exterior and setting',
+            'gallery' => $this->galleryImages('accommodations', $slug),
             'listing_summary' => $summary,
             'detail_intro' => $detailIntro,
             'practical_info' => $practicalInfo,
@@ -514,8 +516,9 @@ class TrekAfricaGuideSeeder extends Seeder
             'cuisine' => $cuisine,
             'location_name' => $location,
             'signature_dish' => $signatureDish,
-            'hero_image_url' => 'image-slot:restaurant-'.$slug,
-            'hero_image_alt' => 'Reserved image space for '.$name,
+            'hero_image_url' => $this->restaurantImage($slug),
+            'hero_image_alt' => $name.' dining setting and cuisine',
+            'gallery' => $this->galleryImages('restaurants', $slug),
             'listing_summary' => $summary,
             'detail_intro' => $summary,
             'practical_info' => $practicalInfo,
@@ -525,6 +528,32 @@ class TrekAfricaGuideSeeder extends Seeder
             'booking_url' => $bookingUrl,
             'featured' => $featured,
         ];
+    }
+
+    private function countryPlanningTips(string $slug): string
+    {
+        return match ($slug) {
+            'uganda' => 'Build Uganda around route logic: Entebbe entry, then Kibale, Queen Elizabeth, Bwindi, and Lake Bunyonyi or Lake Mburo when time allows. Gorilla and chimp permits should be secured before lodge choice, and Bwindi accommodation must match the trekking sector.',
+            'kenya' => 'Use Nairobi as the gateway, then decide between Maasai Mara reserve access, private conservancy style, Amboseli elephant-and-Kilimanjaro photography, Laikipia variety, and a coast finish. Peak migration dates need early lodge and flight planning.',
+            'tanzania' => 'Most first-time routes flow through Arusha, Tarangire or Lake Manyara, Ngorongoro, Serengeti, and Zanzibar. Migration goals should decide the Serengeti zone, while beach nights work best after the safari rather than between park transfers.',
+            'rwanda' => 'Rwanda suits compact premium itineraries. Kigali, Volcanoes National Park, and optional Akagera or Nyungwe can work in 3-7 days, but gorilla permits and luxury lodge availability should be verified before confirming dates.',
+            'ethiopia' => 'Plan Ethiopia as a flight-supported heritage route. Addis, Lalibela, Gondar, Axum, and the Simien Mountains reward extra days, but regional conditions, domestic flight reliability, and guide support should be checked close to travel.',
+            'ghana' => 'Ghana works well as Accra, Cape Coast, Kakum, Kumasi, and beach rest days. Heritage travel benefits from sensitive guiding, realistic road pacing, and enough time to process castle visits rather than rushing them as photo stops.',
+            'senegal' => 'Shape Senegal around Dakar, Goree, Saint-Louis or Sine-Saloum, and music or food-led city time. Delta and coast nights should be treated as proper overnights because transfer time can reduce day-trip value.',
+            'benin' => 'Benin is strongest with a guide who can interpret Ouidah, Abomey, Ganvie, and Vodun culture respectfully. Avoid treating sacred or heritage sites as casual attractions; plan the route with cultural context and permission.',
+            'sierra-leone' => 'Sierra Leone rewards travelers who accept emerging-destination logistics. Keep the route simple around Freetown, Tacugama, Tokeh, River No. 2, and buffer time for road and boat transfers.',
+            'cabo-verde' => 'Choose the island before choosing the hotel. Sal is easiest for beach and wind sports, Santiago gives more culture, and Sao Vicente works for music and a different urban feel.',
+            'south-africa' => 'South Africa is modular: Cape Town, Winelands, Garden Route, Kruger, private reserves, and KwaZulu-Natal all work differently. Decide whether the trip is self-drive, guided, luxury, family, food-led, or safari-first.',
+            'botswana' => 'Botswana is a high-value, low-density safari destination. Okavango, Moremi, Chobe, and Makgadikgadi planning depends on water levels, camp access, light aircraft routes, and whether the budget supports fly-in logistics.',
+            'namibia' => 'Namibia is a distance-management destination. Windhoek, Sossusvlei, Swakopmund, Damaraland, and Etosha are rewarding, but self-drivers need fuel planning, gravel-road time, and fewer one-night stops than the map suggests.',
+            'zimbabwe' => 'Victoria Falls pairs naturally with Hwange, Matobo, Mana Pools, or a Chobe add-on. Waterfall spray, rafting season, visas, borders, and dry-season wildlife timing should shape the plan.',
+            'zambia' => 'Zambia is best for serious safari travelers who value guiding depth. South Luangwa, Lower Zambezi, and Victoria Falls pair well, but seasonal camp closures and walking-safari rules need live confirmation.',
+            'morocco' => 'Morocco needs honest distance planning. Marrakech, Fes, the Atlas, Essaouira, and Sahara camps are excellent, but the desert is a multi-day route, not a quick same-day excursion from the medina.',
+            'egypt' => 'Egypt is strongest with structured guiding and transfer planning. Cairo and Giza, Luxor, Aswan, Nile cruise sections, and Red Sea time should be sequenced around heat, museum priorities, and flight or rail timing.',
+            'tunisia' => 'Tunisia works as a culture-and-coast value route: Tunis, Carthage, Sidi Bou Said, Kairouan, Tozeur, Djerba, and resort nights. Spring and autumn are best for mixing ruins, medinas, and Sahara-edge travel.',
+            'algeria' => 'Algeria is a specialist destination. Algiers, Tipaza, Ghardaia, and Djanet require up-to-date checks on permits, guides, regional access, and safety advice, especially for Sahara routes.',
+            default => 'Use this guide to compare what the country does best, how its main attractions connect, where stays and restaurants fit into the route, and which details to verify before committing to a booking.',
+        };
     }
 
     private function tourOperators(): array
@@ -606,22 +635,27 @@ class TrekAfricaGuideSeeder extends Seeder
 
     private function countryImage(string $slug): string
     {
-        return 'image-slot:country-'.$slug;
+        return $this->attractionImage($this->countryDestination($slug));
     }
 
     private function attractionImage(string $slug): string
     {
-        return 'image-slot:attraction-'.$slug;
+        return '/images/generated/attractions/'.$slug.'/01.jpg';
     }
 
     private function stayImage(string $slug): string
     {
-        return 'image-slot:stay-'.$slug;
+        return '/images/generated/accommodations/'.$slug.'/01.jpg';
+    }
+
+    private function restaurantImage(string $slug): string
+    {
+        return '/images/generated/restaurants/'.$slug.'/01.jpg';
     }
 
     private function foodImage(string $countrySlug): string
     {
-        return 'image-slot:restaurant-'.$countrySlug;
+        return $this->attractionImage($this->countryDestination($countrySlug));
     }
 
     private function regionAccentImage(string $countrySlug): string
@@ -631,6 +665,40 @@ class TrekAfricaGuideSeeder extends Seeder
             'ghana', 'senegal', 'benin', 'sierra-leone', 'cabo-verde' => 'image-slot:region-west-africa',
             'south-africa', 'botswana', 'namibia', 'zimbabwe', 'zambia' => 'image-slot:region-southern-africa',
             default => 'image-slot:region-northern-africa',
+        };
+    }
+
+    private function galleryImages(string $type, string $slug): array
+    {
+        return array_map(
+            fn (int $image) => '/images/generated/'.$type.'/'.$slug.'/0'.$image.'.jpg',
+            range(1, 5),
+        );
+    }
+
+    private function countryDestination(string $slug): string
+    {
+        return match ($slug) {
+            'uganda' => 'bwindi-impenetrable-national-park',
+            'kenya' => 'maasai-mara',
+            'tanzania' => 'serengeti-national-park',
+            'rwanda' => 'volcanoes-national-park',
+            'ethiopia' => 'lalibela',
+            'ghana' => 'cape-coast-kakum',
+            'senegal' => 'sine-saloum-delta',
+            'benin' => 'ouidah-and-ganvie',
+            'sierra-leone' => 'tokeh-and-river-no2',
+            'cabo-verde' => 'sal-island',
+            'south-africa' => 'cape-town',
+            'botswana' => 'okavango-delta',
+            'namibia' => 'namib-desert',
+            'zimbabwe' => 'victoria-falls',
+            'zambia' => 'south-luangwa',
+            'morocco' => 'marrakech-and-atlas',
+            'egypt' => 'cairo-and-giza',
+            'tunisia' => 'tunis-and-sidi-bou-said',
+            'algeria' => 'djanet-and-tassili',
+            default => 'maasai-mara',
         };
     }
 }

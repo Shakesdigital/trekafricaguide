@@ -14,6 +14,18 @@
 
 <section class="section">
     <div class="container">
+        <div class="intent-strip">
+            <div>
+                <p class="eyebrow">Filter by traveler intent</p>
+                <h2>Compare attractions by the practical decision, not only the name.</h2>
+                <p>Start with the style of trip, then use the country and region filters to narrow the route.</p>
+            </div>
+            <div class="intent-strip__chips">
+                @foreach(['safari', 'primates', 'beach', 'heritage', 'city', 'desert', 'food', 'adventure', 'family', 'first-time'] as $intent)
+                    <a href="{{ route('attractions.index', ['q' => $intent]) }}">{{ \Illuminate\Support\Str::headline($intent) }}</a>
+                @endforeach
+            </div>
+        </div>
         <form class="filter-form filter-form--chips" method="GET">
             <input type="text" name="q" value="{{ $filters['q'] ?? '' }}" placeholder="Search attraction or destination">
             <select name="region">
@@ -41,7 +53,14 @@
                     'rating' => $attraction->rating,
                     'reviews' => $attraction->review_count,
                     'price' => $attraction->price_label,
-                    'chips' => [$attraction->location_name],
+                    'chips' => [$attraction->location_name, 'Plan visit'],
+                    'facts' => [
+                        'Time' => str_contains(strtolower($attraction->listing_summary), 'city') ? 'Half to full day' : '1-3 days',
+                        'Demand' => str_contains(strtolower($attraction->detail_intro), 'trek') ? 'Demanding' : 'Moderate',
+                        'Season' => \Illuminate\Support\Str::limit(strip_tags($attraction->best_time), 42),
+                        'Route fit' => $attraction->country->name.' anchor',
+                    ],
+                    'cta' => 'Plan visit',
                 ])
             @endforeach
         </div>

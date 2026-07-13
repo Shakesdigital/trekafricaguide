@@ -48,7 +48,7 @@ class BuildStatic extends Command
             }
         }
 
-        foreach (['suppliers', 'supplier-terms'] as $directory) {
+        foreach (['suppliers', 'supplier-terms', 'images'] as $directory) {
             if (File::isDirectory(public_path($directory))) {
                 File::copyDirectory(public_path($directory), $distPath.'/'.$directory);
             }

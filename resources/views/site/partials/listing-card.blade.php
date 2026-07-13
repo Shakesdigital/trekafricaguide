@@ -16,15 +16,30 @@
                 <span>{{ $price }}</span>
             @endif
         </div>
+        <p class="listing-card__source">Planning-guide rating and rate cue. Verify live terms before paying.</p>
+        @if(!empty($facts))
+            <dl class="listing-card__facts">
+                @foreach($facts as $label => $value)
+                    @if(filled($value))
+                        <div>
+                            <dt>{{ $label }}</dt>
+                            <dd>{{ $value }}</dd>
+                        </div>
+                    @endif
+                @endforeach
+            </dl>
+        @endif
         <div class="listing-card__footer">
             @if(!empty($chips))
                 <div class="chip-row">
                     @foreach($chips as $chip)
-                        <span>{{ $chip }}</span>
+                        @if(filled($chip))
+                            <span>{{ $chip }}</span>
+                        @endif
                     @endforeach
                 </div>
             @endif
-            <a href="{{ $href }}" class="button button--ghost">View Details</a>
+            <a href="{{ $href }}" class="button button--ghost">{{ $cta ?? 'View Details' }}</a>
         </div>
     </div>
 </article>
