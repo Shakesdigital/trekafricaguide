@@ -147,7 +147,7 @@
             <p class="eyebrow">Nearby stays</p>
             <h2>Stays that keep you close to the experience</h2>
         </div>
-        <div class="stack-grid">
+        <div class="listing-grid">
             @foreach($accommodations as $stay)
                 @include('site.partials.listing-card', [
                     'href' => route('accommodations.show', $stay),
