@@ -22,6 +22,17 @@
             --brand-accent: {{ $branding['accent'] ?? '#c5b580' }};
         }
     </style>
+    <script>
+        (function (s, t, a, y, twenty, two) {
+            s.Stay22 = s.Stay22 || {};
+            s.Stay22.params = { lmaID: '6a809892f76b8b75f2a2e6a4' };
+            twenty = t.createElement(a);
+            two = t.getElementsByTagName(a)[0];
+            twenty.async = 1;
+            twenty.src = y;
+            two.parentNode.insertBefore(twenty, two);
+        })(window, document, 'script', 'https://scripts.stay22.com/letmeallez.js');
+    </script>
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 <body>
