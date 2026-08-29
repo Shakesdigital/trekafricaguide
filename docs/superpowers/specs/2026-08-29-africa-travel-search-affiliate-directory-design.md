@@ -38,6 +38,7 @@ In scope:
 - Existing attraction, accommodation, country, and destination landing pages enhanced without visual replacement.
 - Listing cards in the current design that contain enough information to make an outbound booking decision.
 - Multiple provider choices for supported listings.
+- Researched, dated indicative "from" prices for supported accommodation and attraction offers.
 - Stay22 affiliate routing and campaign attribution.
 - Removal of ordinary navigation from listing cards to internal detail pages.
 - Redirect behavior for legacy detail-page URLs.
@@ -50,6 +51,7 @@ Out of scope for this release:
 
 - Processing reservations or payments directly on Trek Africa Guide.
 - Claiming real-time prices or availability without a licensed live inventory feed.
+- Presenting a researched reference price as the guaranteed price for the traveler's selected dates, occupancy, room count, currency, taxes, or availability.
 - Claiming affiliate commission for restaurant reservations when Stay22 does not support that transaction category.
 - Removing the private administrative system used to maintain public records.
 - Scraping booking websites or republishing restricted OTA content.
@@ -96,11 +98,12 @@ It contains:
 - Two modes: Attractions and Accommodations.
 - A destination or listing input accepting country, district, city, attraction, or property names.
 - Check-in, check-out, and guest fields when Accommodations is selected.
+- A room-count field when Accommodations is selected.
 - A search button.
 
 Type-ahead suggestions are grouped as Countries, Districts and destinations, Attractions, and Accommodations. Suggestions include enough geographic context to disambiguate duplicate names.
 
-Submitting Attractions opens the existing attraction listing page with the relevant query and geographic filters. Submitting Accommodations opens the existing accommodation listing page with the relevant query, geographic filters, dates, and guests. Exact local matches appear first, followed by related matches from the same district, country, and region. If no local accommodation matches, the existing accommodation page presents a clearly labeled Stay22 search fallback using the entered destination, dates, and guest count.
+Submitting Attractions opens the existing attraction listing page with the relevant query, geographic filters, travel date, and traveler count. Submitting Accommodations opens the existing accommodation listing page with the relevant query, geographic filters, check-in, check-out, traveler count, and room count. Exact local matches appear first, followed by related matches from the same district, country, and region. If no local accommodation matches, the existing accommodation page presents a clearly labeled Stay22 search fallback using the entered destination, dates, guest count, and the supported occupancy parameters.
 
 Search parameters remain in the URL so results are shareable and browser navigation works naturally.
 
@@ -117,6 +120,10 @@ Listing cards preserve the current responsive visual design while adding:
 
 Accommodation facts may include property type, location, nearby attraction, amenities, and a non-live price band. Attraction facts may include experience type, typical visit length, access or permit note, and best season. Restaurant facts may include cuisine, meal role, location, reservation guidance, and nearby attraction.
 
+Supported accommodation and attraction cards show a researched starting price in a form such as "From $69 per night" or "From $35 per person." The card also identifies the provider, states when the price was checked, and uses concise text explaining that live prices, taxes, availability, and booking conditions are confirmed by the provider.
+
+Reference prices are researched against a documented example search basis. Accommodation examples record check-in, check-out, adults, children where applicable, rooms, currency, tax treatment visible at the source, and the date checked. Attraction examples record activity date, participant basis, currency, and date checked. A price without this supporting basis is not published.
+
 The image, title, and card body must not silently redirect to an OTA. Outbound navigation occurs only through clearly labeled actions.
 
 No unverified live rates, availability, or review claims will be displayed. Existing editorial rating fields may be retained only if their provenance is clear; otherwise the public card will emphasize descriptive facts rather than presenting them as verified OTA reviews.
@@ -130,6 +137,7 @@ Stay22 configuration includes:
 - Affiliate ID from environment-backed configuration, with the currently installed ID as the configured deployment value.
 - A listing-specific destination made from the exact listing name, district or location, and country.
 - Stay dates and guest count when supplied by the user.
+- Room count in provider URLs when the selected provider and Stay22 parameter set support it; otherwise the room count remains visible in Trek Africa Guide and must be reconfirmed with the provider.
 - Campaign labels for page, listing type, listing slug, and provider.
 - Locale and currency hints when available.
 
@@ -164,7 +172,10 @@ Provider offers are stored separately from editorial listing content. Each offer
 - Optional direct source URL.
 - Stay22 endpoint or routing mode.
 - Whether the link is affiliate-supported.
+- Indicative starting price, currency, pricing unit, example search basis, and date checked.
 - Sort order and active state.
+
+Indicative prices are editorial snapshots, not cached live inventory. The model is prepared for a future live-pricing adapter, but no Booking.com or GetYourGuide pricing API is called until approved production credentials and applicable partner terms are available.
 
 A shared search service normalizes countries, districts, aliases, attraction names, accommodation names, categories, and nearby places into ranked results. Provider-link generation is handled by a dedicated service so templates do not contain affiliate business logic.
 
@@ -208,6 +219,7 @@ The initial expansion prioritizes quality and travel usefulness across all Afric
 - Missing image: use a licensed destination-level fallback recorded in the credits manifest, never a generated placeholder.
 - Missing district: retain the existing location label and flag the record for research rather than guessing.
 - Missing dates: allow accommodation comparison without dates and explain that live availability is confirmed by the provider.
+- Stale or unsupported reference price: replace the amount with "Check live price" rather than displaying an undated or unreliable figure.
 - External booking failure: preserve other provider choices and avoid claiming availability.
 
 ## Accessibility and responsive behavior
@@ -231,13 +243,16 @@ The work is accepted when:
 6. Accommodation provider buttons generate valid Stay22 URLs containing the affiliate ID, accurate listing context, and campaign attribution.
 7. Named provider buttons use matching Stay22 provider endpoints; the generic comparison button uses Roam.
 8. Dates and guest counts reach applicable Stay22 links.
-9. Attraction and restaurant buttons accurately disclose whether a link is affiliate-supported.
-10. Generated listing and landing-page images are no longer used publicly.
-11. Every replacement image has source and license metadata, and representative images do not pretend to be exact-property photographs.
-12. Public copy contains no CMS, placeholder, image-slot, or generated-content language.
-13. The site clearly states that final reservations and payments are completed with external providers.
-14. Automated application tests and the production asset build pass.
-15. Primary search, filtering, outbound-link, empty-state, and responsive flows pass browser verification.
+9. Room count is collected for accommodation searches and is either transmitted when supported or clearly reconfirmed on the provider page.
+10. Published accommodation and attraction prices are labeled "From," identify their provider and unit, include a checked date and example basis, and are not described as live or guaranteed.
+11. Stale or unsupported prices fall back to "Check live price."
+12. Attraction and restaurant buttons accurately disclose whether a link is affiliate-supported.
+13. Generated listing and landing-page images are no longer used publicly.
+14. Every replacement image has source and license metadata, and representative images do not pretend to be exact-property photographs.
+15. Public copy contains no CMS, placeholder, image-slot, or generated-content language.
+16. The site clearly states that final reservations and payments are completed with external providers.
+17. Automated application tests and the production asset build pass.
+18. Primary search, filtering, outbound-link, empty-state, and responsive flows pass browser verification.
 
 ## Permissions and stopping conditions
 
