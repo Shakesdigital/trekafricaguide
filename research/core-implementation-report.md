@@ -13,3 +13,11 @@
 ## Scope and limitations
 
 Implemented district/booking-offer persistence, Stay22 URL construction, normalized geographic search, shared search ribbons, provider offer cards, admin offer creation, safe static output, and Supabase parity. Existing user-owned CMS and `dist/**` changes were preserved. Static verification uses `storage/app/static-verify`; no deployment or remote Supabase write was performed. Browser verification was not available in this worker.
+
+## Focused hardening pass
+
+- `Stay22LinkBuilderTest.php` RED for unsupported provider/rooms behavior; GREEN: 3 tests, 9 assertions.
+- Offer cards now render all active sorted offers, enforce a configurable 90-day freshness window, and disclose direct/non-affiliate links.
+- Seeder creates honest Booking.com/GetYourGuide comparison offers for every accommodation and attraction, with only verified complete price snapshots.
+- Added additive Supabase migration `20260829000200_add_districts_booking_offers.sql` and typed suggestions/ribbon context.
+- Focused hardening suite: 5 tests, 16 assertions passed.
