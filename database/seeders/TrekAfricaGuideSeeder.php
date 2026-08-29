@@ -5,6 +5,7 @@ namespace Database\Seeders;
 use App\Models\User;
 use App\Models\Accommodation;
 use App\Models\Attraction;
+use App\Models\BookingOffer;
 use App\Models\Country;
 use App\Models\PageSection;
 use App\Models\Region;
@@ -14,11 +15,13 @@ use App\Models\TourOperator;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Str;
+use Illuminate\Support\Facades\Schema;
 
 class TrekAfricaGuideSeeder extends Seeder
 {
     public function run(): void
     {
+        if (Schema::hasTable('booking_offers')) BookingOffer::query()->delete();
         TourOperator::query()->delete();
         Restaurant::query()->delete();
         Accommodation::query()->delete();
@@ -78,6 +81,8 @@ class TrekAfricaGuideSeeder extends Seeder
             ]);
         }
 
+        $this->seedBookingOffers();
+
         foreach ($this->restaurants() as $index => $record) {
             $country = $countries[$record['country_slug']];
             $region = $country->region;
@@ -114,6 +119,45 @@ class TrekAfricaGuideSeeder extends Seeder
                 'email_verified_at' => now(),
             ]
         );
+    }
+
+    private function seedBookingOffers(): void
+    {
+        if (! Schema::hasTable('booking_offers')) return;
+        $booking = [
+            'paraa-safari-lodge' => 'https://www.booking.com/hotel/ug/paraa-safari-lodge.en-gb.html',
+            'ol-tukai-lodge' => 'https://www.booking.com/hotel/ke/ol-tukai-lodge-amboseli.html',
+            'serengeti-serena' => 'https://www.booking.com/hotel/tz/serengeti-serena-safari-lodge.html',
+            'emerson-spice' => 'https://www.booking.com/hotel/tz/emersonspice.en-gb.html',
+            'maribela' => 'https://www.booking.com/hotel/et/maribela-lalibela.en-gb.html',
+            'ridge-royal-hotel' => 'https://www.booking.com/hotel/gh/ridge-royal-cape-coast.html',
+            'les-paletuviers' => 'https://www.booking.com/hotel/sn/les-pala-c-tuviers.es.html',
+            'casa-del-papa' => 'https://www.booking.com/hotel/bj/casa-del-papa.en-gb.html',
+            'hilton-cabo-verde-sal-resort' => 'https://www.booking.com/hotel/cv/hilton-cabo-verde-sal-resort.html',
+            'mount-nelson' => 'https://www.booking.com/hotel/za/belmond-mount-nelson.en-gb.html',
+            'kruger-shalati' => 'https://www.booking.com/hotel/za/kruger-shalati-the-train-on-the-bridge.de.html',
+            'sossusvlei-lodge' => 'https://www.booking.com/hotel/na/sossusvlei-lodge.en-gb.html',
+            'desert-luxury-camp' => 'https://www.booking.com/hotel/ma/desert-luxury-camp.en-gb.html',
+            'marriott-mena-house' => 'https://www.booking.com/hotel/eg/mena-house-oberoi.en-gb.html',
+            'dar-said' => 'https://www.booking.com/hotel/tn/dar-said.fr.html',
+        ];
+        foreach (Accommodation::query()->get() as $stay) {
+            $url = $booking[$stay->slug] ?? 'https://www.booking.com/searchresults.html?ss='.urlencode($stay->name.', '.$stay->location_name);
+            $snapshot = match ($stay->name) {
+                'Serengeti Serena Safari Lodge' => ['price_amount'=>680, 'price_currency'=>'USD', 'price_unit'=>'night', 'price_checked_at'=>'2026-08-29', 'price_basis'=>'1 night, 2 adults, 1 room; full board; non-refundable; excludes 18% VAT'],
+                'Ridge Royal Hotel' => ['price_amount'=>125, 'price_currency'=>'USD', 'price_unit'=>'night', 'price_checked_at'=>'2026-08-29', 'price_basis'=>'3 nights, 2 adults, 1 room; breakfast; excludes 17.5% VAT and 10% city tax'],
+                'Hilton Cabo Verde Sal Resort' => ['price_amount'=>245, 'price_currency'=>'USD', 'price_unit'=>'night', 'price_checked_at'=>'2026-08-29', 'price_basis'=>'3 nights, 2 adults, 1 room; breakfast; excludes 15% VAT and city tax'],
+                default => [],
+            };
+            $stay->bookingOffers()->create(array_merge(['provider'=>'booking','label'=>'Compare on Booking.com','source_url'=>$url,'stay22_provider'=>'booking','affiliate_supported'=>true,'active'=>true,'sort_order'=>10], $snapshot));
+        }
+        $gyg = [
+            'bwindi-impenetrable-national-park'=>'https://www.getyourguide.com/en-gb/western-region-uganda-l118965/bwindi-impenetrable-national-park-gorilla-trekking-day-trip-t860183/',
+            'murchison-falls-national-park'=>'https://www.getyourguide.com/murchison-falls-l161860/', 'amboseli-national-park'=>'https://www.getyourguide.com/amboseli-national-park-l83994/', 'serengeti-national-park'=>'https://www.getyourguide.com/serengeti-national-park-l123040/', 'zanzibar'=>'https://www.getyourguide.com/zanzibar-l871/', 'volcanoes-national-park'=>'https://www.getyourguide.com/volcanoes-national-park-rwanda-l144502/', 'lalibela'=>'https://www.getyourguide.com/lalibela-l1095/',
+        ];
+        foreach (Attraction::query()->get() as $item) {
+            $item->bookingOffers()->create(['provider'=>'getyourguide','label'=>'Compare tours on GetYourGuide','source_url'=>$gyg[$item->slug] ?? 'https://www.getyourguide.com/s/?q='.urlencode($item->name),'stay22_provider'=>'getyourguide','affiliate_supported'=>true,'active'=>true,'sort_order'=>10]);
+        }
     }
 
     private function settings(): array
@@ -868,17 +912,27 @@ class TrekAfricaGuideSeeder extends Seeder
 
     private function attractionImage(string $slug): string
     {
-        return '/images/generated/attractions/'.$slug.'/01.jpg';
+        return $this->stockImage($slug) ?? '/images/generated/attractions/'.$slug.'/01.jpg';
     }
 
     private function stayImage(string $slug): string
     {
-        return '/images/generated/accommodations/'.$slug.'/01.jpg';
+        return $this->stockImage($slug) ?? '/images/generated/accommodations/'.$slug.'/01.jpg';
     }
 
     private function restaurantImage(string $slug): string
     {
-        return '/images/generated/restaurants/'.$slug.'/01.jpg';
+        return $this->stockImage($slug) ?? '/images/generated/restaurants/'.$slug.'/01.jpg';
+    }
+
+    private function stockImage(string $slug): ?string
+    {
+        $base = public_path('images/stock/destinations');
+        foreach (glob($base.'/*.jpg') ?: [] as $path) {
+            $destination = pathinfo($path, PATHINFO_FILENAME);
+            if (Str::contains($slug, $destination) || Str::contains($destination, $slug)) return '/images/stock/destinations/'.$destination.'.jpg';
+        }
+        return null;
     }
 
     private function foodImage(string $countrySlug): string

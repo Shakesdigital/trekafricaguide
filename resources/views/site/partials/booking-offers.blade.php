@@ -1,12 +1,15 @@
 @php
-    $offer = $listing->bookingOffers->first();
-    $fresh = $offer && $offer->price_amount !== null && $offer->price_currency && $offer->price_unit && $offer->price_checked_at && $offer->price_basis && $offer->price_checked_at->greaterThanOrEqualTo(now()->subDays(30));
+    $offers = $listing->bookingOffers ?? collect();
     $symbols = ['USD' => '$', 'EUR' => '€', 'GBP' => '£', 'ZAR' => 'R', 'UGX' => 'UGX '];
 @endphp
-@if($offer)
+@if($offers->isNotEmpty())
     <div class="booking-offers">
-        <p class="booking-offers__price">@if($fresh) From {{ $symbols[$offer->price_currency] ?? $offer->price_currency.' ' }}{{ number_format((float)$offer->price_amount, 2) }} per {{ $offer->price_unit }} @else Check live price @endif</p>
-        <a class="button button--ghost" href="{{ app(\App\Services\Stay22LinkBuilder::class)->forOffer($listing, $offer, $searchContext ?? []) }}" target="_blank" rel="nofollow sponsored noopener">{{ $offer->label }}</a>
-        @if($fresh)<small>Indicative price. Price checked {{ $offer->price_checked_at->toFormattedDateString() }}. {{ $offer->price_basis }}</small>@endif
+        @foreach($offers as $offer)
+            @php $fresh = $offer->price_amount !== null && $offer->price_currency && $offer->price_unit && $offer->price_checked_at && $offer->price_basis && $offer->price_checked_at->greaterThanOrEqualTo(now()->subDays(config('services.travel.indicative_price_max_age_days', 90))); @endphp
+            <p class="booking-offers__price">@if($fresh) From {{ $symbols[$offer->price_currency] ?? $offer->price_currency.' ' }}{{ number_format((float)$offer->price_amount, 2) }} per {{ $offer->price_unit }} @else Check live price @endif</p>
+            <a class="button button--ghost" href="{{ app(\App\Services\Stay22LinkBuilder::class)->forOffer($listing, $offer, $searchContext ?? []) }}" target="_blank" rel="nofollow sponsored noopener">{{ $offer->label }}</a>
+            @if(!$offer->affiliate_supported)<small>External provider link; Trek Africa Guide does not process this booking.</small>@endif
+            @if($fresh)<small>Indicative price. Price checked {{ $offer->price_checked_at->toFormattedDateString() }}. {{ $offer->price_basis }}</small>@endif
+        @endforeach
     </div>
 @endif

@@ -2117,6 +2117,7 @@ img.page-hero__slot {
 }
 
 .search-ribbon { display:grid; gap:.7rem; padding:1rem; background:rgba(255,255,255,.96); border:1px solid var(--line); border-radius:var(--radius); box-shadow:var(--shadow); color:var(--ink); }
+.listing-card--focused { outline: 3px solid var(--brand-accent); outline-offset: 4px; }
 .search-ribbon__modes { display:flex; gap:.4rem; }
 .search-ribbon__modes button { border:0; border-radius:999px; padding:.45rem .8rem; background:var(--sand); color:var(--ink); font:inherit; font-weight:700; cursor:pointer; }
 .search-ribbon__modes button.is-active { background:var(--brand-primary); color:#fff; }

@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Models\Accommodation;
 use App\Models\Attraction;
 use App\Models\Country;
+use App\Models\District;
 use App\Models\PageSection;
 use App\Models\Region;
 use App\Models\Restaurant;
@@ -89,14 +90,14 @@ class SiteController extends Controller
         return view('site.countries.show', $this->shared([
             'title' => $country->name,
             'country' => $country,
-            'accommodations' => Accommodation::query()->where('country_id', $country->id)->with('attraction')->orderByDesc('featured')->orderBy('sort_order')->take(6)->get(),
-            'restaurants' => Restaurant::query()->where('country_id', $country->id)->with('attraction')->orderByDesc('featured')->orderBy('sort_order')->take(6)->get(),
+            'accommodations' => Accommodation::query()->where('country_id', $country->id)->with(['attraction','bookingOffers'])->orderByDesc('featured')->orderBy('sort_order')->take(6)->get(),
+            'restaurants' => Restaurant::query()->where('country_id', $country->id)->with(['attraction','bookingOffers'])->orderByDesc('featured')->orderBy('sort_order')->take(6)->get(),
         ]));
     }
 
     public function attractions(Request $request)
     {
-        $searchContext = $this->normalizeSearch($request);
+        $searchContext = $this->normalizeSearch($request); $searchContext['mode'] = 'attractions';
         $attractions = Attraction::query()
             ->with(['country', 'region', 'bookingOffers'])
             ->when($request->string('region')->toString(), function ($query, $regionSlug) {
@@ -130,12 +131,12 @@ class SiteController extends Controller
 
     public function attraction(Attraction $attraction): RedirectResponse
     {
-        return redirect()->route('attractions.index', ['q' => $attraction->name, 'focus' => $attraction->slug], 301);
+        return redirect()->to(route('attractions.index').'?q='.urlencode($attraction->name).'&focus='.urlencode($attraction->slug).'#'.urlencode($attraction->slug), 301);
     }
 
     public function accommodations(Request $request)
     {
-        $searchContext = $this->normalizeSearch($request);
+        $searchContext = $this->normalizeSearch($request); $searchContext['mode'] = 'accommodations';
         $accommodations = Accommodation::query()
             ->with(['country', 'region', 'attraction', 'bookingOffers'])
             ->when($request->string('region')->toString(), function ($query, $regionSlug) {
@@ -170,13 +171,13 @@ class SiteController extends Controller
 
     public function accommodation(Accommodation $accommodation): RedirectResponse
     {
-        return redirect()->route('accommodations.index', ['q' => $accommodation->name, 'focus' => $accommodation->slug], 301);
+        return redirect()->to(route('accommodations.index').'?q='.urlencode($accommodation->name).'&focus='.urlencode($accommodation->slug).'#'.urlencode($accommodation->slug), 301);
     }
 
     public function restaurants(Request $request)
     {
         $restaurants = Restaurant::query()
-            ->with(['country', 'region', 'attraction'])
+            ->with(['country', 'region', 'attraction', 'bookingOffers'])
             ->when($request->string('region')->toString(), function ($query, $regionSlug) {
                 $query->whereHas('region', fn ($regionQuery) => $regionQuery->where('slug', $regionSlug));
             })
@@ -204,7 +205,7 @@ class SiteController extends Controller
 
     public function restaurant(Restaurant $restaurant): RedirectResponse
     {
-        return redirect()->route('restaurants.index', ['q' => $restaurant->name, 'focus' => $restaurant->slug], 301);
+        return redirect()->to(route('restaurants.index').'?q='.urlencode($restaurant->name).'&focus='.urlencode($restaurant->slug).'#'.urlencode($restaurant->slug), 301);
     }
 
     public function contact()
@@ -270,6 +271,11 @@ class SiteController extends Controller
 
     private function searchSuggestions(): array
     {
-        return Country::query()->orderBy('name')->pluck('name')->all();
+        return collect([
+            ...Country::query()->get(['name'])->map(fn ($item) => ['label' => $item->name, 'type' => 'country'])->all(),
+            ...District::query()->get(['name'])->map(fn ($item) => ['label' => $item->name, 'type' => 'district'])->all(),
+            ...Attraction::query()->get(['name','location_name'])->map(fn ($item) => ['label' => $item->name, 'type' => 'attraction', 'context' => $item->location_name])->all(),
+            ...Accommodation::query()->get(['name','location_name'])->map(fn ($item) => ['label' => $item->name, 'type' => 'accommodation', 'context' => $item->location_name])->all(),
+        ])->sortBy('label', SORT_NATURAL | SORT_FLAG_CASE)->values()->all();
     }
 }

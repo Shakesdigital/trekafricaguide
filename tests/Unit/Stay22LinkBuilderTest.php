@@ -26,4 +26,11 @@ class Stay22LinkBuilderTest extends TestCase
         $this->assertStringContainsString('address=Kigali%2C+Rwanda', $url);
         $this->assertStringNotContainsString('checkin=', $url);
     }
+
+    public function test_rooms_are_not_sent_to_stay22_and_unsupported_provider_stays_direct(): void
+    {
+        $stay = new Accommodation(['name'=>'Camp','slug'=>'camp','location_name'=>'Uganda']);
+        $url = app(Stay22LinkBuilder::class)->forOffer($stay, new BookingOffer(['stay22_provider'=>'mystery','source_url'=>'https://example.test/deal']), ['rooms'=>2]);
+        $this->assertSame('https://example.test/deal', $url);
+    }
 }

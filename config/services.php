@@ -45,5 +45,8 @@ return [
     'stay22' => [
         'affiliate_id' => env('STAY22_AFFILIATE_ID', 'aid-test'),
     ],
+    'travel' => [
+        'indicative_price_max_age_days' => (int) env('INDICATIVE_PRICE_MAX_AGE_DAYS', 90),
+    ],
 
 ];

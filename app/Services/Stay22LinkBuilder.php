@@ -5,9 +5,13 @@ use Illuminate\Database\Eloquent\Model;
 
 class Stay22LinkBuilder
 {
+    private const SUPPORTED = ['booking','expedia','hotelscom','vrbo','agoda','tripadvisor','kayak','getyourguide','roam','searchbar'];
     public function forOffer(Model $listing, BookingOffer $offer, array $search = []): string
     {
         $provider = $offer->stay22_provider ?: 'roam';
+        if (! in_array(strtolower($provider), self::SUPPORTED, true)) {
+            return $offer->source_url ?: ($listing->booking_url ?? '#');
+        }
         $params = $this->baseParams($listing, $search);
         $params['campaign'] = strtolower(class_basename($listing)).'_'.($listing->slug ?? $listing->getKey());
         if ($offer->source_url) {
@@ -29,7 +33,6 @@ class Stay22LinkBuilder
         $params = ['aid' => config('services.stay22.affiliate_id'), 'hotelname' => $listing->name];
         if ($listing->location_name) $params['address'] = $listing->location_name;
         foreach (['checkin','checkout','adults','children'] as $key) if (array_key_exists($key, $search) && $search[$key] !== '') $params[$key] = $search[$key];
-        if (isset($search['rooms']) && $search['rooms'] !== '') $params['campaign_context'] = 'rooms_'.$search['rooms'];
         return $params;
     }
 }

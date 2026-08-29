@@ -17,9 +17,13 @@ document.querySelectorAll('[data-search-ribbon]').forEach((ribbon) => {
         if (!list) return;
         const query = input.value.trim().toLowerCase();
         list.innerHTML = '';
-        suggestions.filter((item) => item.toLowerCase().includes(query)).slice(0, 8).forEach((item) => {
-            const option = document.createElement('li'); option.textContent = item; option.setAttribute('role', 'option'); option.tabIndex = -1;
-            option.addEventListener('click', () => { input.value = item; close(); }); list.append(option);
+        const ranked = suggestions.map((item) => typeof item === 'string' ? { label: item } : item).filter((item) => item.label.toLowerCase().includes(query)).sort((a,b) => {
+            const rank = (item) => item.label.toLowerCase() === query ? 0 : item.label.toLowerCase().startsWith(query) ? 1 : 2;
+            return rank(a) - rank(b) || a.label.localeCompare(b.label);
+        });
+        ranked.slice(0, 8).forEach((item) => {
+            const option = document.createElement('li'); option.textContent = item.context ? `${item.label} · ${item.context}` : item.label; option.setAttribute('role', 'option'); option.tabIndex = -1;
+            option.addEventListener('click', () => { input.value = item.label; close(); }); list.append(option);
         });
         list.hidden = !list.children.length; input.setAttribute('aria-expanded', String(!list.hidden));
     });
