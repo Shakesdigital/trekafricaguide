@@ -10,6 +10,8 @@ use App\Models\Region;
 use App\Models\Restaurant;
 use App\Models\SiteSetting;
 use Illuminate\Http\Request;
+use Illuminate\Http\RedirectResponse;
+use Illuminate\Support\Carbon;
 
 class SiteController extends Controller
 {
@@ -25,9 +27,9 @@ class SiteController extends Controller
             'title' => 'Home',
             'sections' => $sections,
             'featuredRegions' => Region::query()->withCount('countries')->orderBy('sort_order')->take(4)->get(),
-            'featuredAttractions' => Attraction::query()->with('country')->where('featured', true)->orderBy('sort_order')->take(8)->get(),
-            'featuredAccommodations' => Accommodation::query()->with(['country', 'attraction'])->where('featured', true)->orderBy('sort_order')->take(4)->get(),
-            'featuredRestaurants' => Restaurant::query()->with(['country', 'attraction'])->where('featured', true)->orderBy('sort_order')->take(4)->get(),
+            'featuredAttractions' => Attraction::query()->with(['country','bookingOffers'])->where('featured', true)->orderBy('sort_order')->take(8)->get(),
+            'featuredAccommodations' => Accommodation::query()->with(['country', 'attraction','bookingOffers'])->where('featured', true)->orderBy('sort_order')->take(4)->get(),
+            'featuredRestaurants' => Restaurant::query()->with(['country', 'attraction','bookingOffers'])->where('featured', true)->orderBy('sort_order')->take(4)->get(),
         ]));
     }
 
@@ -94,20 +96,23 @@ class SiteController extends Controller
 
     public function attractions(Request $request)
     {
+        $searchContext = $this->normalizeSearch($request);
         $attractions = Attraction::query()
-            ->with(['country', 'region'])
+            ->with(['country', 'region', 'bookingOffers'])
             ->when($request->string('region')->toString(), function ($query, $regionSlug) {
                 $query->whereHas('region', fn ($regionQuery) => $regionQuery->where('slug', $regionSlug));
             })
             ->when($request->string('country')->toString(), function ($query, $countrySlug) {
                 $query->whereHas('country', fn ($countryQuery) => $countryQuery->where('slug', $countrySlug));
             })
-            ->when($request->string('q')->toString(), function ($query, $search) {
+            ->when($searchContext['q'], function ($query, $search) {
                 $query->where(function ($attractionQuery) use ($search) {
                     $attractionQuery
                         ->where('name', 'like', '%'.$search.'%')
                         ->orWhere('listing_summary', 'like', '%'.$search.'%')
-                        ->orWhere('location_name', 'like', '%'.$search.'%');
+                        ->orWhere('location_name', 'like', '%'.$search.'%')
+                        ->orWhereHas('country', fn ($q) => $q->where('name', 'like', '%'.$search.'%'))
+                        ->orWhereHas('region', fn ($q) => $q->where('name', 'like', '%'.$search.'%'));
                 });
             })
             ->orderByDesc('featured')
@@ -118,43 +123,36 @@ class SiteController extends Controller
             'title' => 'Attractions',
             'attractions' => $attractions,
             'filters' => $request->only(['region', 'country', 'q']),
+            'searchContext' => $searchContext,
+            'searchSuggestions' => $this->searchSuggestions(),
         ]));
     }
 
-    public function attraction(Attraction $attraction)
+    public function attraction(Attraction $attraction): RedirectResponse
     {
-        $attraction->load(['country.region', 'tourOperators']);
-
-        return view('site.attractions.show', $this->shared([
-            'title' => $attraction->name,
-            'attraction' => $attraction,
-            'accommodations' => Accommodation::query()->where('attraction_id', $attraction->id)->take(4)->get(),
-            'restaurants' => Restaurant::query()->where('attraction_id', $attraction->id)->take(4)->get(),
-            'relatedAttractions' => Attraction::query()
-                ->where('country_id', $attraction->country_id)
-                ->whereKeyNot($attraction->id)
-                ->orderByDesc('featured')
-                ->take(4)
-                ->get(),
-        ]));
+        return redirect()->route('attractions.index', ['q' => $attraction->name, 'focus' => $attraction->slug], 301);
     }
 
     public function accommodations(Request $request)
     {
+        $searchContext = $this->normalizeSearch($request);
         $accommodations = Accommodation::query()
-            ->with(['country', 'region', 'attraction'])
+            ->with(['country', 'region', 'attraction', 'bookingOffers'])
             ->when($request->string('region')->toString(), function ($query, $regionSlug) {
                 $query->whereHas('region', fn ($regionQuery) => $regionQuery->where('slug', $regionSlug));
             })
             ->when($request->string('country')->toString(), function ($query, $countrySlug) {
                 $query->whereHas('country', fn ($countryQuery) => $countryQuery->where('slug', $countrySlug));
             })
-            ->when($request->string('q')->toString(), function ($query, $search) {
+            ->when($searchContext['q'], function ($query, $search) {
                 $query->where(function ($accommodationQuery) use ($search) {
                     $accommodationQuery
                         ->where('name', 'like', '%'.$search.'%')
                         ->orWhere('listing_summary', 'like', '%'.$search.'%')
-                        ->orWhere('location_name', 'like', '%'.$search.'%');
+                        ->orWhere('location_name', 'like', '%'.$search.'%')
+                        ->orWhereHas('country', fn ($q) => $q->where('name', 'like', '%'.$search.'%'))
+                        ->orWhereHas('region', fn ($q) => $q->where('name', 'like', '%'.$search.'%'))
+                        ->orWhereHas('attraction', fn ($q) => $q->where('name', 'like', '%'.$search.'%'));
                 });
             })
             ->orderByDesc('featured')
@@ -165,18 +163,14 @@ class SiteController extends Controller
             'title' => 'Accommodations',
             'accommodations' => $accommodations,
             'filters' => $request->only(['region', 'country', 'q']),
+            'searchContext' => $searchContext,
+            'searchSuggestions' => $this->searchSuggestions(),
         ]));
     }
 
-    public function accommodation(Accommodation $accommodation)
+    public function accommodation(Accommodation $accommodation): RedirectResponse
     {
-        $accommodation->load(['country.region', 'attraction']);
-
-        return view('site.accommodations.show', $this->shared([
-            'title' => $accommodation->name,
-            'accommodation' => $accommodation,
-            'nearbyAttractions' => Attraction::query()->where('country_id', $accommodation->country_id)->take(4)->get(),
-        ]));
+        return redirect()->route('accommodations.index', ['q' => $accommodation->name, 'focus' => $accommodation->slug], 301);
     }
 
     public function restaurants(Request $request)
@@ -208,16 +202,9 @@ class SiteController extends Controller
         ]));
     }
 
-    public function restaurant(Restaurant $restaurant)
+    public function restaurant(Restaurant $restaurant): RedirectResponse
     {
-        $restaurant->load(['country.region', 'attraction']);
-
-        return view('site.restaurants.show', $this->shared([
-            'title' => $restaurant->name,
-            'restaurant' => $restaurant,
-            'nearbyAttractions' => Attraction::query()->where('country_id', $restaurant->country_id)->take(4)->get(),
-            'nearbyAccommodations' => Accommodation::query()->where('country_id', $restaurant->country_id)->take(4)->get(),
-        ]));
+        return redirect()->route('restaurants.index', ['q' => $restaurant->name, 'focus' => $restaurant->slug], 301);
     }
 
     public function contact()
@@ -259,5 +246,30 @@ class SiteController extends Controller
             'filterRegions' => $regions,
             'filterCountries' => Country::query()->with('region')->orderBy('name')->get(),
         ], $payload);
+    }
+
+    private function normalizeSearch(Request $request): array
+    {
+        $checkin = $request->input('checkin');
+        $checkout = $request->input('checkout');
+        if ($checkin && $checkout && $checkout < $checkin) { [$checkin, $checkout] = [$checkout, $checkin]; }
+        return [
+            'mode' => $request->input('mode', 'accommodations'),
+            'q' => trim((string) $request->input('q', '')),
+            'country' => (string) $request->input('country', ''),
+            'region' => (string) $request->input('region', ''),
+            'travel_date' => $request->input('travel_date'),
+            'checkin' => $checkin,
+            'checkout' => $checkout,
+            'adults' => max(1, min(12, (int) $request->input('adults', 2))),
+            'children' => max(0, min(8, (int) $request->input('children', 0))),
+            'rooms' => max(1, min(8, (int) $request->input('rooms', 1))),
+            'focus' => $request->input('focus'),
+        ];
+    }
+
+    private function searchSuggestions(): array
+    {
+        return Country::query()->orderBy('name')->pluck('name')->all();
     }
 }

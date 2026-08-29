@@ -60,4 +60,5 @@ class Country extends Model
     {
         return $this->hasMany(TourOperator::class)->orderBy('name');
     }
+    public function districts(): HasMany { return $this->hasMany(District::class)->orderBy('sort_order'); }
 }

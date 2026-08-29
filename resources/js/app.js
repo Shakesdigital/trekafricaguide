@@ -1,5 +1,42 @@
 import './bootstrap';
 
+document.querySelectorAll('[data-search-ribbon]').forEach((ribbon) => {
+    const input = ribbon.querySelector('[data-search-input]');
+    const list = ribbon.querySelector('[data-search-listbox]');
+    const stay = ribbon.querySelector('[data-stay-fields]');
+    const suggestions = window.trekSearchSuggestions || [];
+    const modes = ribbon.querySelectorAll('[data-search-mode]');
+    const setMode = (mode) => {
+        modes.forEach((button) => button.classList.toggle('is-active', button.dataset.searchMode === mode));
+        if (stay) stay.hidden = mode !== 'accommodations';
+        ribbon.action = mode === 'accommodations' ? '/accommodations' : '/attractions';
+    };
+    modes.forEach((button) => button.addEventListener('click', () => setMode(button.dataset.searchMode)));
+    const close = () => { if (list) { list.hidden = true; input?.setAttribute('aria-expanded', 'false'); } };
+    input?.addEventListener('input', () => {
+        if (!list) return;
+        const query = input.value.trim().toLowerCase();
+        list.innerHTML = '';
+        suggestions.filter((item) => item.toLowerCase().includes(query)).slice(0, 8).forEach((item) => {
+            const option = document.createElement('li'); option.textContent = item; option.setAttribute('role', 'option'); option.tabIndex = -1;
+            option.addEventListener('click', () => { input.value = item; close(); }); list.append(option);
+        });
+        list.hidden = !list.children.length; input.setAttribute('aria-expanded', String(!list.hidden));
+    });
+    input?.addEventListener('keydown', (event) => {
+        if (event.key === 'Escape') return close();
+        const options = [...(list?.children || [])]; const current = options.indexOf(document.activeElement);
+        if (event.key === 'ArrowDown' && options.length) { event.preventDefault(); options[Math.min(current + 1, options.length - 1)].focus(); }
+        if (event.key === 'ArrowUp' && options.length) { event.preventDefault(); options[Math.max(current - 1, 0)].focus(); }
+        if (event.key === 'Enter' && document.activeElement?.matches('[role="option"]')) { event.preventDefault(); input.value = document.activeElement.textContent; close(); }
+    });
+    ribbon.querySelectorAll('input[type="date"]').forEach((date) => date.addEventListener('change', () => {
+        const checkin = ribbon.querySelector('[name="checkin"]'); const checkout = ribbon.querySelector('[name="checkout"]');
+        if (checkin && checkout) { checkout.min = checkin.value || ''; if (checkout.value && checkout.value < checkout.min) checkout.value = checkout.min; }
+    }));
+    document.addEventListener('click', (event) => { if (!ribbon.contains(event.target)) close(); });
+});
+
 const navToggle = document.querySelector('[data-nav-toggle]');
 const navMenu = document.querySelector('[data-nav-menu]');
 

@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Accommodation;
+use App\Models\BookingOffer;
 use App\Models\Attraction;
 use App\Models\Country;
 use App\Models\PageSection;
@@ -56,6 +57,7 @@ class AdminController extends Controller
             'tourOperators' => TourOperator::query()->with(['country', 'attraction'])->orderBy('name')->get(),
             'pageSections' => PageSection::query()->orderBy('page_key')->orderBy('sort_order')->get(),
             'settings' => SiteSetting::query()->orderBy('group_name')->orderBy('key')->get(),
+            'bookingOffers' => BookingOffer::query()->with('offerable')->orderBy('sort_order')->get(),
             'regionsNav' => Region::query()->orderBy('sort_order')->get(),
         ]);
     }
@@ -66,6 +68,17 @@ class AdminController extends Controller
         abort_unless($definition, 404);
 
         $recordId = $request->input('record_id');
+        if ($resource === 'booking-offers') {
+            $validated = $request->validate($this->rules($resource, new BookingOffer));
+            $target = match ($validated['listing_type']) {
+                'accommodations' => Accommodation::class,
+                'attractions' => Attraction::class,
+                'restaurants' => Restaurant::class,
+            };
+            $record = $recordId ? BookingOffer::query()->findOrFail($recordId) : new BookingOffer();
+            $record->fill(Arr::except($validated, ['listing_type','listing_id']))->offerable()->associate($target::query()->findOrFail($validated['listing_id']))->save();
+            return redirect()->route('admin.index', ['tab' => $resource])->with('status', 'Booking offer saved.');
+        }
         $modelClass = $definition['model'];
         $record = $recordId ? $modelClass::query()->findOrFail($recordId) : new $modelClass();
         $validated = $request->validate($this->rules($resource, $record));
@@ -104,6 +117,7 @@ class AdminController extends Controller
             'tour-operators' => ['model' => TourOperator::class],
             'page-sections' => ['model' => PageSection::class],
             'settings' => ['model' => SiteSetting::class],
+            'booking-offers' => ['model' => BookingOffer::class],
         ][$resource] ?? null;
     }
 
@@ -241,6 +255,14 @@ class AdminController extends Controller
                 'key' => ['required', 'max:255', Rule::unique('site_settings', 'key')->ignore($record->getKey())],
                 'value' => ['nullable'],
                 'logo_file' => ['nullable', 'image', 'max:5120'],
+            ],
+            'booking-offers' => [
+                'listing_type' => ['required', Rule::in(['accommodations','attractions','restaurants'])],
+                'listing_id' => ['required','integer'], 'provider' => ['required','max:255'], 'label' => ['required','max:255'],
+                'source_url' => ['nullable','url','max:2048'], 'stay22_provider' => ['nullable','max:255'],
+                'affiliate_supported' => ['nullable','boolean'], 'price_amount' => ['nullable','numeric','min:0'],
+                'price_currency' => ['nullable','size:3'], 'price_unit' => ['nullable','max:255'], 'price_checked_at' => ['nullable','date'],
+                'price_basis' => ['nullable'], 'active' => ['nullable','boolean'], 'sort_order' => ['nullable','integer'],
             ],
             default => [],
         };

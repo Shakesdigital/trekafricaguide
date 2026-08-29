@@ -28,10 +28,7 @@
         <p class="eyebrow" data-hero-region>{{ $heroSlides->first()['region'] ?? $hero?->eyebrow }}</p>
         <h1 data-hero-title>Plan Africa trips by destination, attraction, stay, and dining route.</h1>
         <p class="hero__lead" data-hero-body>{{ $heroSlides->first()['body'] ?? $hero?->body }}</p>
-        <form class="hero-search" method="GET" action="{{ route('attractions.index') }}">
-            <input type="search" name="q" placeholder="Search a country, park, city, lodge, or restaurant" aria-label="Search Trek Africa Guide">
-            <button class="button" type="submit">Search</button>
-        </form>
+        @include('site.partials.search-ribbon', ['mode' => 'attractions'])
 
         <div class="hero__actions">
             <a href="{{ route('regions.index') }}" class="button">Explore Regions</a>

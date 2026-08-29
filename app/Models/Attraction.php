@@ -5,11 +5,13 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\HasMany;
+use Illuminate\Database\Eloquent\Relations\MorphMany;
 
 class Attraction extends Model
 {
     protected $fillable = [
         'region_id',
+        'district_id',
         'country_id',
         'slug',
         'name',
@@ -71,4 +73,6 @@ class Attraction extends Model
     {
         return $this->hasMany(TourOperator::class)->orderBy('name');
     }
+    public function district(): BelongsTo { return $this->belongsTo(District::class); }
+    public function bookingOffers(): MorphMany { return $this->morphMany(BookingOffer::class, 'offerable')->where('active', true)->orderBy('sort_order'); }
 }

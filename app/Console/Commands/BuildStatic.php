@@ -13,13 +13,20 @@ use Illuminate\Support\Facades\File;
 
 class BuildStatic extends Command
 {
-    protected $signature = 'static:build {--base-url= : Base URL for the static site}';
+    protected $signature = 'static:build {--base-url= : Base URL for the static site} {--output= : Safe output directory (must be inside storage/app)}';
 
     protected $description = 'Pre-render all routes to static HTML for Netlify deployment';
 
     public function handle(): int
     {
-        $distPath = base_path('dist');
+        $requested = $this->option('output');
+        $distPath = $requested ? (str_starts_with($requested, DIRECTORY_SEPARATOR) ? $requested : base_path($requested)) : base_path('dist');
+        $storageApp = realpath(storage_path('app')) ?: storage_path('app');
+        $resolvedParent = realpath(dirname($distPath)) ?: dirname($distPath);
+        if ($requested && !str_starts_with(strtolower($resolvedParent.DIRECTORY_SEPARATOR), strtolower($storageApp.DIRECTORY_SEPARATOR))) {
+            $this->error('The --output directory must be inside storage/app.');
+            return self::FAILURE;
+        }
 
         if (File::isDirectory($distPath)) {
             File::deleteDirectory($distPath);
@@ -72,17 +79,7 @@ class BuildStatic extends Command
             $routes["/countries/{$country->slug}"] = "countries/{$country->slug}/index.html";
         }
 
-        foreach (Attraction::query()->get() as $attraction) {
-            $routes["/attractions/{$attraction->slug}"] = "attractions/{$attraction->slug}/index.html";
-        }
-
-        foreach (Accommodation::query()->get() as $accommodation) {
-            $routes["/accommodations/{$accommodation->slug}"] = "accommodations/{$accommodation->slug}/index.html";
-        }
-
-        foreach (Restaurant::query()->get() as $restaurant) {
-            $routes["/restaurants/{$restaurant->slug}"] = "restaurants/{$restaurant->slug}/index.html";
-        }
+        // Listing detail URLs remain supported by Netlify redirects, but are not emitted as pages.
 
         $kernel = app(\Illuminate\Contracts\Http\Kernel::class);
         $rendered = 0;
@@ -137,6 +134,10 @@ class BuildStatic extends Command
 /contact            /contact/index.html         200
 /*                  /index.html                  404
 REDIRECTS);
+
+        foreach (Attraction::query()->get() as $item) File::append($distPath.'/_redirects', "\n/attractions/{$item->slug} /attractions/index.html?q=".urlencode($item->name)."&focus={$item->slug} 301");
+        foreach (Accommodation::query()->get() as $item) File::append($distPath.'/_redirects', "\n/accommodations/{$item->slug} /accommodations/index.html?q=".urlencode($item->name)."&focus={$item->slug} 301");
+        foreach (Restaurant::query()->get() as $item) File::append($distPath.'/_redirects', "\n/restaurants/{$item->slug} /restaurants/index.html?q=".urlencode($item->name)."&focus={$item->slug} 301");
 
         $this->newLine();
         $this->info('Static build complete.');

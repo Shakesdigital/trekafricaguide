@@ -26,26 +26,12 @@
                 @endforeach
             </div>
         </div>
-        <form class="filter-form" method="GET">
-            <input type="text" name="q" value="{{ $filters['q'] ?? '' }}" placeholder="Search accommodation">
-            <select name="region">
-                <option value="">All regions</option>
-                @foreach($filterRegions as $region)
-                    <option value="{{ $region->slug }}" @selected(($filters['region'] ?? '') === $region->slug)>{{ $region->name }}</option>
-                @endforeach
-            </select>
-            <select name="country">
-                <option value="">All destination countries</option>
-                @foreach($filterCountries as $country)
-                    <option value="{{ $country->slug }}" @selected(($filters['country'] ?? '') === $country->slug)>{{ $country->name }}</option>
-                @endforeach
-            </select>
-            <button class="button" type="submit">Filter</button>
-        </form>
+        @include('site.partials.search-ribbon', ['mode' => 'accommodations'])
         <div class="listing-grid">
             @foreach($accommodations as $stay)
                 @include('site.partials.listing-card', [
                     'href' => route('accommodations.show', $stay),
+                    'listing' => $stay,
                     'image' => $stay->hero_image_url,
                     'title' => $stay->name,
                     'summary' => $stay->listing_summary,

@@ -109,7 +109,13 @@
     </div>
 </section>
 
-<section class="section section--alt">
+<section class="section section--compact">
+    <div class="container">
+        @include('site.partials.search-ribbon', ['mode' => 'accommodations', 'searchContext' => ['mode' => 'accommodations', 'q' => $country->name]])
+    </div>
+</section>
+
+    <section class="section section--alt">
     <div class="container">
         <div class="section-heading">
             <p class="eyebrow">Attractions</p>

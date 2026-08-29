@@ -11,6 +11,7 @@
         'tour-operators' => 'Tour Operators',
         'page-sections' => 'Homepage',
         'settings' => 'Settings',
+        'booking-offers' => 'Booking Offers',
     ];
 
     $resourceLabels = [
@@ -22,6 +23,7 @@
         'tour-operators' => 'Tour Operator',
         'page-sections' => 'Homepage Section',
         'settings' => 'Setting',
+        'booking-offers' => 'Booking Offer',
     ];
 @endphp
 
@@ -95,6 +97,7 @@
             'tour-operators' => $tourOperators,
             'page-sections' => $pageSections,
             'settings' => $settings,
+            'booking-offers' => $bookingOffers,
         ] as $resource => $collection)
             @if($tab === $resource)
                 <div class="admin-panel">
@@ -178,7 +181,7 @@
     </div>
 </section>
 
-@foreach(['regions', 'countries', 'attractions', 'accommodations', 'restaurants', 'tour-operators', 'page-sections', 'settings'] as $resource)
+@foreach(['regions', 'countries', 'attractions', 'accommodations', 'restaurants', 'tour-operators', 'page-sections', 'settings', 'booking-offers'] as $resource)
     <div class="admin-modal" data-modal="{{ $resource }}">
         <div class="admin-modal__backdrop" data-modal-close></div>
         <div class="admin-modal__panel admin-modal__panel--wide">
@@ -194,7 +197,21 @@
                 @csrf
                 <input type="hidden" name="record_id">
 
-                @if($resource === 'regions')
+                @if($resource === 'booking-offers')
+                    <section class="admin-form-section"><div class="admin-form-grid">
+                        <label class="admin-field"><span>Listing type</span><select name="listing_type" required><option value="accommodations">Accommodation</option><option value="attractions">Attraction</option><option value="restaurants">Restaurant</option></select></label>
+                        <label class="admin-field"><span>Listing ID</span><input name="listing_id" type="number" required></label>
+                        <label class="admin-field"><span>Provider</span><input name="provider" placeholder="booking" required></label>
+                        <label class="admin-field"><span>Label</span><input name="label" placeholder="View deal" required></label>
+                        <label class="admin-field admin-field--full"><span>Source URL</span><input name="source_url" type="url"></label>
+                        <label class="admin-field"><span>Price amount</span><input name="price_amount" type="number" step="0.01"></label>
+                        <label class="admin-field"><span>Currency</span><input name="price_currency" maxlength="3"></label>
+                        <label class="admin-field"><span>Unit</span><input name="price_unit" placeholder="night"></label>
+                        <label class="admin-field"><span>Price checked</span><input name="price_checked_at" type="date"></label>
+                        <label class="admin-field admin-field--full"><span>Price basis</span><textarea name="price_basis"></textarea></label>
+                        <input type="hidden" name="affiliate_supported" value="1"><input type="hidden" name="active" value="1">
+                    </div></section>
+                @elseif($resource === 'regions')
                     <section class="admin-form-section">
                         <div class="admin-form-section__head">
                             <h3>Page Identity</h3>

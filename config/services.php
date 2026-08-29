@@ -42,5 +42,8 @@ return [
         'storage_bucket' => env('SUPABASE_STORAGE_BUCKET', 'media'),
         'branding_bucket' => env('SUPABASE_BRANDING_BUCKET', 'branding'),
     ],
+    'stay22' => [
+        'affiliate_id' => env('STAY22_AFFILIATE_ID', 'aid-test'),
+    ],
 
 ];

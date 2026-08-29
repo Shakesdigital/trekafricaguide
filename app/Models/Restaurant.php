@@ -4,11 +4,13 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
+use Illuminate\Database\Eloquent\Relations\MorphMany;
 
 class Restaurant extends Model
 {
     protected $fillable = [
         'region_id',
+        'district_id',
         'country_id',
         'attraction_id',
         'slug',
@@ -58,4 +60,6 @@ class Restaurant extends Model
     {
         return $this->belongsTo(Attraction::class);
     }
+    public function district(): BelongsTo { return $this->belongsTo(District::class); }
+    public function bookingOffers(): MorphMany { return $this->morphMany(BookingOffer::class, 'offerable')->where('active', true)->orderBy('sort_order'); }
 }
