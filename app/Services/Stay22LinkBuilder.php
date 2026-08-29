@@ -8,6 +8,10 @@ class Stay22LinkBuilder
     private const SUPPORTED = ['booking','expedia','hotelscom','vrbo','agoda','tripadvisor','kayak','getyourguide','roam','searchbar'];
     public function forOffer(Model $listing, BookingOffer $offer, array $search = []): string
     {
+        if (! $offer->affiliate_supported) {
+            return $offer->source_url ?: ($listing->booking_url ?? '#');
+        }
+
         $provider = $offer->stay22_provider ?: 'roam';
         if (! in_array(strtolower($provider), self::SUPPORTED, true)) {
             return $offer->source_url ?: ($listing->booking_url ?? '#');

@@ -135,9 +135,9 @@ class BuildStatic extends Command
 /*                  /index.html                  404
 REDIRECTS);
 
-        foreach (Attraction::query()->get() as $item) File::append($distPath.'/_redirects', "\n/attractions/{$item->slug} /attractions/index.html?q=".urlencode($item->name)."&focus={$item->slug} 301");
-        foreach (Accommodation::query()->get() as $item) File::append($distPath.'/_redirects', "\n/accommodations/{$item->slug} /accommodations/index.html?q=".urlencode($item->name)."&focus={$item->slug} 301");
-        foreach (Restaurant::query()->get() as $item) File::append($distPath.'/_redirects', "\n/restaurants/{$item->slug} /restaurants/index.html?q=".urlencode($item->name)."&focus={$item->slug} 301");
+        foreach (Attraction::query()->get() as $item) File::append($distPath.'/_redirects', "\n/attractions/{$item->slug} /attractions/index.html?q=".urlencode($item->name)."&focus=listing-{$item->slug}#listing-{$item->slug} 301");
+        foreach (Accommodation::query()->get() as $item) File::append($distPath.'/_redirects', "\n/accommodations/{$item->slug} /accommodations/index.html?q=".urlencode($item->name)."&focus=listing-{$item->slug}#listing-{$item->slug} 301");
+        foreach (Restaurant::query()->get() as $item) File::append($distPath.'/_redirects', "\n/restaurants/{$item->slug} /restaurants/index.html?q=".urlencode($item->name)."&focus=listing-{$item->slug}#listing-{$item->slug} 301");
 
         $this->newLine();
         $this->info('Static build complete.');

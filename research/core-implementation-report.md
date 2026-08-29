@@ -22,3 +22,13 @@ Implemented district/booking-offer persistence, Stay22 URL construction, normali
 - Added additive Supabase migration `20260829000200_add_districts_booking_offers.sql` and typed suggestions/ribbon context.
 - Focused hardening suite: 5 tests, 16 assertions passed.
 - Final pass: image audit passed (24 credits, 97 assertions); focused redirect/ribbon/provider tests passed. `npm run build` and `git diff --check` passed. Safe static command was attempted against `storage/app/static-verify`; the standalone database lacked migrated tables, so it returned HTTP 500s without altering `dist/**`.
+
+## Final integration verification
+
+- Full PHPUnit suite: 25 tests, 225 assertions passed.
+- Production frontend build, JavaScript syntax check, and `git diff --check`: passed.
+- Isolated SQLite migration and seed: passed without touching the existing project database.
+- Safe static render to `storage/app/static-verify-final`: 30 routes rendered; no listing detail HTML generated; 24 licensed stock images copied; forbidden generated/placeholder/CMS wording scan returned zero matches.
+- Local HTTP checks: homepage, Uganda country page, attraction index, accommodation index, and restaurant index returned 200; legacy accommodation detail returned 301 to the focused listing card.
+- Search/provider checks: exact stay query produced one result; Booking.com Stay22 URL retained dates/adults/children and omitted rooms; GetYourGuide attraction affiliate routing passed; restaurant reservation remained a direct non-affiliate link with disclosure.
+- In-app browser verification was attempted twice, but the admin-enforced localhost security policy could not be verified. No security control was bypassed; responsive behavior remains covered by markup, CSS, rendering, and feature tests.

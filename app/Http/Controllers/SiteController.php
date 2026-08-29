@@ -99,7 +99,7 @@ class SiteController extends Controller
     {
         $searchContext = $this->normalizeSearch($request); $searchContext['mode'] = 'attractions';
         $attractions = Attraction::query()
-            ->with(['country', 'region', 'bookingOffers'])
+            ->with(['country', 'region', 'district', 'bookingOffers'])
             ->when($request->string('region')->toString(), function ($query, $regionSlug) {
                 $query->whereHas('region', fn ($regionQuery) => $regionQuery->where('slug', $regionSlug));
             })
@@ -112,9 +112,17 @@ class SiteController extends Controller
                         ->where('name', 'like', '%'.$search.'%')
                         ->orWhere('listing_summary', 'like', '%'.$search.'%')
                         ->orWhere('location_name', 'like', '%'.$search.'%')
+                        ->orWhereHas('district', fn ($q) => $q->where('name', 'like', '%'.$search.'%'))
                         ->orWhereHas('country', fn ($q) => $q->where('name', 'like', '%'.$search.'%'))
                         ->orWhereHas('region', fn ($q) => $q->where('name', 'like', '%'.$search.'%'));
                 });
+            })
+            ->when($searchContext['q'], function ($query, $search) {
+                $normalized = mb_strtolower($search);
+                $query->orderByRaw(
+                    'CASE WHEN LOWER(name) = ? THEN 0 WHEN LOWER(name) LIKE ? THEN 1 ELSE 2 END',
+                    [$normalized, $normalized.'%']
+                );
             })
             ->orderByDesc('featured')
             ->orderBy('sort_order')
@@ -138,7 +146,7 @@ class SiteController extends Controller
     {
         $searchContext = $this->normalizeSearch($request); $searchContext['mode'] = 'accommodations';
         $accommodations = Accommodation::query()
-            ->with(['country', 'region', 'attraction', 'bookingOffers'])
+            ->with(['country', 'region', 'district', 'attraction', 'bookingOffers'])
             ->when($request->string('region')->toString(), function ($query, $regionSlug) {
                 $query->whereHas('region', fn ($regionQuery) => $regionQuery->where('slug', $regionSlug));
             })
@@ -151,10 +159,18 @@ class SiteController extends Controller
                         ->where('name', 'like', '%'.$search.'%')
                         ->orWhere('listing_summary', 'like', '%'.$search.'%')
                         ->orWhere('location_name', 'like', '%'.$search.'%')
+                        ->orWhereHas('district', fn ($q) => $q->where('name', 'like', '%'.$search.'%'))
                         ->orWhereHas('country', fn ($q) => $q->where('name', 'like', '%'.$search.'%'))
                         ->orWhereHas('region', fn ($q) => $q->where('name', 'like', '%'.$search.'%'))
                         ->orWhereHas('attraction', fn ($q) => $q->where('name', 'like', '%'.$search.'%'));
                 });
+            })
+            ->when($searchContext['q'], function ($query, $search) {
+                $normalized = mb_strtolower($search);
+                $query->orderByRaw(
+                    'CASE WHEN LOWER(name) = ? THEN 0 WHEN LOWER(name) LIKE ? THEN 1 ELSE 2 END',
+                    [$normalized, $normalized.'%']
+                );
             })
             ->orderByDesc('featured')
             ->orderBy('sort_order')

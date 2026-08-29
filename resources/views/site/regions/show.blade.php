@@ -7,10 +7,8 @@
         'southern-africa' => 'namib-desert',
         'northern-africa' => 'marrakech-and-atlas',
     ][$region->slug] ?? null;
-    $localGallery = $regionDestination
-        ? collect(range(1, 5))->map(fn ($i) => asset('images/generated/attractions/'.$regionDestination.'/0'.$i.'.jpg'))
-        : collect();
-    $galleryImages = $localGallery->count() === 5 ? $localGallery : collect($region->gallery ?? [])->filter()->values();
+    $localGallery = $regionDestination ? collect([asset('images/stock/destinations/'.$regionDestination.'.jpg')]) : collect();
+    $galleryImages = $localGallery->isNotEmpty() ? $localGallery : collect($region->gallery ?? [])->filter()->values();
 @endphp
 
 @section('content')

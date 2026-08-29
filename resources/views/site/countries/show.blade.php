@@ -10,10 +10,8 @@
         'zimbabwe' => 'victoria-falls', 'zambia' => 'south-luangwa', 'morocco' => 'marrakech-and-atlas',
         'egypt' => 'cairo-and-giza', 'tunisia' => 'tunis-and-sidi-bou-said', 'algeria' => 'djanet-and-tassili',
     ][$country->slug] ?? null;
-    $localGallery = $countryDestination
-        ? collect(range(1, 5))->map(fn ($i) => asset('images/generated/attractions/'.$countryDestination.'/0'.$i.'.jpg'))
-        : collect();
-    $galleryImages = $localGallery->count() === 5 ? $localGallery : collect($country->gallery ?? [])->filter()->values();
+    $localGallery = $countryDestination ? collect([asset('images/stock/destinations/'.$countryDestination.'.jpg')]) : collect();
+    $galleryImages = $localGallery->isNotEmpty() ? $localGallery : collect($country->gallery ?? [])->filter()->values();
 @endphp
 
 @section('content')

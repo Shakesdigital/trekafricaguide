@@ -128,29 +128,30 @@ class TrekAfricaGuideSeeder extends Seeder
         if (! Schema::hasTable('booking_offers')) return;
         $booking = [
             'paraa-safari-lodge' => 'https://www.booking.com/hotel/ug/paraa-safari-lodge.en-gb.html',
-            'ol-tukai-lodge' => 'https://www.booking.com/hotel/ke/ol-tukai-lodge-amboseli.html',
-            'serengeti-serena' => 'https://www.booking.com/hotel/tz/serengeti-serena-safari-lodge.html',
+            'ol-tukai-lodge-amboseli' => 'https://www.booking.com/hotel/ke/ol-tukai-lodge-amboseli.html',
+            'serengeti-serena-safari-lodge' => 'https://www.booking.com/hotel/tz/serengeti-serena-safari-lodge.html',
             'emerson-spice' => 'https://www.booking.com/hotel/tz/emersonspice.en-gb.html',
-            'maribela' => 'https://www.booking.com/hotel/et/maribela-lalibela.en-gb.html',
+            'maribela-hotel' => 'https://www.booking.com/hotel/et/maribela-lalibela.en-gb.html',
             'ridge-royal-hotel' => 'https://www.booking.com/hotel/gh/ridge-royal-cape-coast.html',
             'les-paletuviers' => 'https://www.booking.com/hotel/sn/les-pala-c-tuviers.es.html',
             'casa-del-papa' => 'https://www.booking.com/hotel/bj/casa-del-papa.en-gb.html',
             'hilton-cabo-verde-sal-resort' => 'https://www.booking.com/hotel/cv/hilton-cabo-verde-sal-resort.html',
-            'mount-nelson' => 'https://www.booking.com/hotel/za/belmond-mount-nelson.en-gb.html',
+            'mount-nelson-a-belmond-hotel' => 'https://www.booking.com/hotel/za/belmond-mount-nelson.en-gb.html',
             'kruger-shalati' => 'https://www.booking.com/hotel/za/kruger-shalati-the-train-on-the-bridge.de.html',
             'sossusvlei-lodge' => 'https://www.booking.com/hotel/na/sossusvlei-lodge.en-gb.html',
             'desert-luxury-camp' => 'https://www.booking.com/hotel/ma/desert-luxury-camp.en-gb.html',
-            'marriott-mena-house' => 'https://www.booking.com/hotel/eg/mena-house-oberoi.en-gb.html',
+            'marriott-mena-house-cairo' => 'https://www.booking.com/hotel/eg/mena-house-oberoi.en-gb.html',
             'dar-said' => 'https://www.booking.com/hotel/tn/dar-said.fr.html',
         ];
         foreach (Accommodation::query()->get() as $stay) {
+            $hasExactBookingPage = isset($booking[$stay->slug]);
             $url = $booking[$stay->slug] ?? 'https://www.booking.com/searchresults.html?ss='.urlencode($stay->name.', '.$stay->location_name);
             $snapshot = match ($stay->name) {
                 'Serengeti Serena Safari Lodge' => ['price_amount'=>680, 'price_currency'=>'USD', 'price_unit'=>'night', 'price_checked_at'=>'2026-08-29', 'price_basis'=>'Aug 21–22 2026; 2 adults, 1 room; full board; non-refundable; excludes 18% VAT'],
                 'Ridge Royal Hotel' => ['price_amount'=>125, 'price_currency'=>'USD', 'price_unit'=>'night', 'price_checked_at'=>'2026-08-29', 'price_basis'=>'Aug 26–29 2026; 2 adults, 1 room; breakfast; excludes 17.5% VAT and 10% city tax'],
                 default => [],
             };
-            $stay->bookingOffers()->create(array_merge(['provider'=>'booking','label'=>'Compare on Booking.com','source_url'=>$url,'stay22_provider'=>'booking','affiliate_supported'=>true,'active'=>true,'sort_order'=>10], $snapshot));
+            $stay->bookingOffers()->create(array_merge(['provider'=>'booking','label'=>$hasExactBookingPage ? 'View deal on Booking.com' : 'Compare on Booking.com','source_url'=>$url,'stay22_provider'=>'booking','affiliate_supported'=>true,'active'=>true,'sort_order'=>10], $snapshot));
         }
         $gyg = [
             'bwindi-impenetrable-national-park'=>'https://www.getyourguide.com/en-gb/western-region-uganda-l118965/bwindi-impenetrable-national-park-gorilla-trekking-day-trip-t860183/',
@@ -178,9 +179,9 @@ class TrekAfricaGuideSeeder extends Seeder
             ['group_name' => 'contact', 'key' => 'contact_email', 'value' => 'hello@trekafricaguide.com'],
             ['group_name' => 'contact', 'key' => 'contact_phone', 'value' => '+256 700 000 000'],
             ['group_name' => 'contact', 'key' => 'contact_address', 'value' => 'Kampala, Uganda'],
-            ['group_name' => 'contact', 'key' => 'contact_note', 'value' => 'These contact details are placeholders for launch setup and can be updated by the Trek Africa Guide team.'],
+            ['group_name' => 'contact', 'key' => 'contact_note', 'value' => 'Contact Trek Africa Guide with destination updates, partnership enquiries, or practical traveler feedback.'],
             ['group_name' => 'seo', 'key' => 'default_meta_description', 'value' => 'Compare African destinations, attractions, accommodations, and restaurants with practical travel context before continuing to external booking partners.'],
-            ['group_name' => 'seo', 'key' => 'default_og_image', 'value' => 'image-slot:home-hero-east-africa'],
+            ['group_name' => 'seo', 'key' => 'default_og_image', 'value' => '/images/stock/destinations/maasai-mara.jpg'],
         ];
     }
 
@@ -193,7 +194,7 @@ class TrekAfricaGuideSeeder extends Seeder
                 'eyebrow' => 'Discover Africa',
                 'title' => 'Explore Africa with the context to choose well.',
                 'body' => 'Trek Africa Guide brings destinations, attractions, accommodations, restaurants, and practical planning notes into one place, so travelers can compare what fits their route before continuing to external booking partners.',
-                'image_url' => 'image-slot:home-hero-east-africa',
+                'image_url' => '/images/stock/destinations/maasai-mara.jpg',
                 'meta' => [
                     'cta_label' => 'Explore regions',
                     'cta_href' => '/regions',
@@ -232,7 +233,7 @@ class TrekAfricaGuideSeeder extends Seeder
                 'eyebrow' => 'Start with fit',
                 'title' => 'Africa is not one travel style. It is many strong choices.',
                 'body' => 'Some travelers come for wildlife and primates, others for food, coast, history, design, desert silence, family-friendly resorts, or a meaningful heritage journey. The best trip starts by matching the region, country, attraction, stay, and dining scene to the kind of experience you actually want.',
-                'image_url' => 'image-slot:home-intro-africa-map',
+                'image_url' => '/images/stock/destinations/okavango-delta.jpg',
                 'sort_order' => 2,
             ],
             [
@@ -248,7 +249,7 @@ class TrekAfricaGuideSeeder extends Seeder
                 'section_key' => 'featured_attractions',
                 'eyebrow' => 'Featured Attractions',
                 'title' => 'Attractions that can become the anchor of the journey.',
-                'body' => 'Open each listing for researched, place-specific detail: defining landscapes and heritage, signature wildlife or experiences, realistic access, seasonality, and recurring visitor trade-offs.',
+                'body' => 'Compare place-specific summaries, location context, indicative pricing where verified, and clearly named provider options without leaving the directory first.',
                 'sort_order' => 4,
             ],
             [
@@ -280,8 +281,8 @@ class TrekAfricaGuideSeeder extends Seeder
                 'hero_text' => 'Start here if your ideal trip includes big wildlife, gorilla or chimpanzee trekking, strong guide networks, and a route that can still end with Indian Ocean calm.',
                 'overview' => 'East Africa remains one of the continent’s highest-demand regions for safari, gorilla trekking, coast add-ons, and premium conservation travel. Kenya and Tanzania lead the classic plains circuits, while Uganda and Rwanda anchor primate-led journeys.',
                 'countries_intro' => 'These countries work well for travelers who want a strong planning structure: established parks, practical guide support, regional flights, and enough variety to build a trip around wildlife, culture, or coast.',
-                'hero_image_url' => 'image-slot:region-east-africa',
-                'hero_image_alt' => 'Reserved image space for East Africa safari plains and forest travel',
+                'hero_image_url' => '/images/stock/destinations/serengeti-national-park.jpg',
+                'hero_image_alt' => 'Serengeti landscape representing East Africa travel',
             ],
             [
                 'slug' => 'west-africa',
@@ -290,8 +291,8 @@ class TrekAfricaGuideSeeder extends Seeder
                 'hero_text' => 'Choose this region if you are drawn to Atlantic history, contemporary culture, diaspora travel, warm coastal cities, and trips that feel less packaged.',
                 'overview' => 'West Africa is driven by heritage journeys, winter-sun escapes, coastal cities, and community-grounded experiences. Ghana and Senegal are the most polished starting points, while Benin, Sierra Leone, and Cabo Verde broaden the offer considerably.',
                 'countries_intro' => 'These countries offer clear pathways into heritage travel, coastal downtime, island breaks, local food, and cultural routes that benefit from thoughtful pacing.',
-                'hero_image_url' => 'image-slot:region-west-africa',
-                'hero_image_alt' => 'Reserved image space for West Africa heritage coast and cultural travel',
+                'hero_image_url' => '/images/stock/destinations/sine-saloum-delta.jpg',
+                'hero_image_alt' => 'Sine-Saloum Delta landscape representing West Africa travel',
             ],
             [
                 'slug' => 'southern-africa',
@@ -300,8 +301,8 @@ class TrekAfricaGuideSeeder extends Seeder
                 'hero_text' => 'This region suits travelers who want choice: luxury lodges, self-drive landscapes, wine country, wildlife, coast, design-led cities, and dramatic natural icons.',
                 'overview' => 'Southern Africa is one of the continent’s most versatile travel regions. South Africa acts as the gateway, Botswana and Namibia deliver high-value wilderness and desert landscapes, and Zimbabwe and Zambia deepen the safari-and-Zambezi story.',
                 'countries_intro' => 'These countries are strong anchors for travelers comparing infrastructure, lodge quality, road-trip potential, safari depth, and easy add-ons before booking.',
-                'hero_image_url' => 'image-slot:region-southern-africa',
-                'hero_image_alt' => 'Reserved image space for Southern Africa wilderness and desert routes',
+                'hero_image_url' => '/images/stock/destinations/namib-desert.jpg',
+                'hero_image_alt' => 'Namib Desert landscape representing Southern Africa travel',
             ],
             [
                 'slug' => 'northern-africa',
@@ -310,8 +311,8 @@ class TrekAfricaGuideSeeder extends Seeder
                 'hero_text' => 'Come here for history, architecture, markets, museums, Mediterranean light, Sahara edges, and shorter itineraries with strong aviation access.',
                 'overview' => 'Northern Africa is Africa’s volume engine for tourism, driven by Morocco, Egypt, Tunisia, and a growing wave of renewed interest in Algeria. Travelers come for cities, heritage, desert camps, Mediterranean coastlines, and food-led travel.',
                 'countries_intro' => 'These countries are useful entry points for travelers comparing culture-forward routes, desert logistics, coast extensions, heat, guide support, and city access.',
-                'hero_image_url' => 'image-slot:region-northern-africa',
-                'hero_image_alt' => 'Reserved image space for Northern Africa medinas, antiquities, and desert travel',
+                'hero_image_url' => '/images/stock/destinations/marrakech-and-atlas.jpg',
+                'hero_image_alt' => 'Marrakech cityscape representing Northern Africa travel',
             ],
         ];
     }
@@ -361,8 +362,8 @@ class TrekAfricaGuideSeeder extends Seeder
             'best_time' => $bestTime,
             'planning_tips' => $this->countryPlanningTips($slug),
             'hero_image_url' => $this->countryImage($slug),
-            'hero_image_alt' => 'Reserved image space for '.$name.' travel planning',
-            'gallery' => $this->galleryImages('attractions', $this->countryDestination($slug)),
+            'hero_image_alt' => $name.' destination landscape',
+            'gallery' => [$this->countryImage($slug)],
         ];
     }
 
@@ -756,7 +757,7 @@ class TrekAfricaGuideSeeder extends Seeder
             'property_type' => $propertyType,
             'location_name' => $location,
             'hero_image_url' => $this->stayImage($slug),
-            'hero_image_alt' => $name.' accommodation exterior and setting',
+            'hero_image_alt' => 'Destination landscape near '.$name,
             'gallery' => $this->galleryImages('accommodations', $slug),
             'listing_summary' => $summary,
             'detail_intro' => $detailIntro.' '.$this->stayResearchInsight($slug),
@@ -795,7 +796,7 @@ class TrekAfricaGuideSeeder extends Seeder
             'location_name' => $location,
             'signature_dish' => $signatureDish,
             'hero_image_url' => $this->restaurantImage($slug),
-            'hero_image_alt' => $name.' dining setting and cuisine',
+            'hero_image_alt' => 'Destination landscape near '.$name,
             'gallery' => $this->galleryImages('restaurants', $slug),
             'listing_summary' => $summary,
             'detail_intro' => $summary.' '.$this->restaurantResearchInsight($slug),
@@ -948,20 +949,12 @@ class TrekAfricaGuideSeeder extends Seeder
 
     private function regionAccentImage(string $countrySlug): string
     {
-        return match ($countrySlug) {
-            'uganda', 'kenya', 'tanzania', 'rwanda', 'ethiopia' => 'image-slot:region-east-africa',
-            'ghana', 'senegal', 'benin', 'sierra-leone', 'cabo-verde' => 'image-slot:region-west-africa',
-            'south-africa', 'botswana', 'namibia', 'zimbabwe', 'zambia' => 'image-slot:region-southern-africa',
-            default => 'image-slot:region-northern-africa',
-        };
+        return $this->countryImage($countrySlug);
     }
 
     private function galleryImages(string $type, string $slug): array
     {
-        return array_map(
-            fn (int $image) => '/images/generated/'.$type.'/'.$slug.'/0'.$image.'.jpg',
-            range(1, 5),
-        );
+        return [$this->attractionImage($slug)];
     }
 
     private function countryDestination(string $slug): string

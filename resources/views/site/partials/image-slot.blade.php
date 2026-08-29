@@ -5,24 +5,23 @@
     $slotName = $isSlot ? \Illuminate\Support\Str::of($slotKey)->replace('-', ' ')->title() : null;
     $classes = trim('image-slot '.($class ?? ''));
 
-    // Every CMS image slot resolves to a reviewed, project-local generated asset.
-    // Country and region slots deliberately reuse a real destination within that area.
+    // Landing and geographic slots reuse a licensed destination photograph.
     $landingImages = [
-        'home-hero-east-africa' => 'attractions/maasai-mara/01.jpg',
-        'home-hero-west-africa' => 'attractions/cape-coast-kakum/01.jpg',
-        'home-hero-southern-africa' => 'attractions/namib-desert/01.jpg',
-        'home-hero-northern-africa' => 'attractions/marrakech-and-atlas/01.jpg',
-        'home-intro-africa-map' => 'attractions/okavango-delta/05.jpg',
-        'regions-index-hero' => 'attractions/serengeti-national-park/01.jpg',
-        'destinations-index-hero' => 'attractions/cape-town/01.jpg',
-        'attractions-index-hero' => 'attractions/maasai-mara/01.jpg',
-        'accommodations-index-hero' => 'accommodations/governors-camp/01.jpg',
-        'restaurants-index-hero' => 'restaurants/the-rock-restaurant-zanzibar/01.jpg',
-        'contact-hero' => 'attractions/bwindi-impenetrable-national-park/03.jpg',
-        'region-east-africa' => 'attractions/serengeti-national-park/01.jpg',
-        'region-west-africa' => 'attractions/sine-saloum-delta/01.jpg',
-        'region-southern-africa' => 'attractions/namib-desert/01.jpg',
-        'region-northern-africa' => 'attractions/marrakech-and-atlas/01.jpg',
+        'home-hero-east-africa' => 'maasai-mara',
+        'home-hero-west-africa' => 'cape-coast-kakum',
+        'home-hero-southern-africa' => 'namib-desert',
+        'home-hero-northern-africa' => 'marrakech-and-atlas',
+        'home-intro-africa-map' => 'okavango-delta',
+        'regions-index-hero' => 'serengeti-national-park',
+        'destinations-index-hero' => 'cape-town',
+        'attractions-index-hero' => 'maasai-mara',
+        'accommodations-index-hero' => 'maasai-mara',
+        'restaurants-index-hero' => 'zanzibar',
+        'contact-hero' => 'bwindi-impenetrable-national-park',
+        'region-east-africa' => 'serengeti-national-park',
+        'region-west-africa' => 'sine-saloum-delta',
+        'region-southern-africa' => 'namib-desert',
+        'region-northern-africa' => 'marrakech-and-atlas',
     ];
     $countryDestinations = [
         'uganda' => 'bwindi-impenetrable-national-park', 'kenya' => 'maasai-mara',
@@ -40,15 +39,15 @@
     $localRelative = $isSlot ? ($landingImages[$slotKey] ?? null) : null;
     if ($isSlot && !$localRelative && str_starts_with($slotKey, 'country-')) {
         $countrySlug = str($slotKey)->after('country-')->toString();
-        $localRelative = isset($countryDestinations[$countrySlug]) ? 'attractions/'.$countryDestinations[$countrySlug].'/01.jpg' : null;
+        $localRelative = $countryDestinations[$countrySlug] ?? null;
     }
     foreach (['attraction-' => 'attractions', 'stay-' => 'accommodations', 'restaurant-' => 'restaurants'] as $prefix => $folder) {
         if ($isSlot && !$localRelative && str_starts_with($slotKey, $prefix)) {
-            $localRelative = $folder.'/'.str($slotKey)->after($prefix)->toString().'/01.jpg';
+            $localRelative = str($slotKey)->after($prefix)->toString();
         }
     }
-    $resolvedUrl = $localRelative && file_exists(public_path('images/generated/'.$localRelative))
-        ? asset('images/generated/'.$localRelative)
+    $resolvedUrl = $localRelative && file_exists(public_path('images/stock/destinations/'.$localRelative.'.jpg'))
+        ? asset('images/stock/destinations/'.$localRelative.'.jpg')
         : null;
     $imageSrc = $resolvedUrl ?: $imageValue;
     $imgClass = trim($class ?? '');
@@ -57,8 +56,7 @@
 @if(!blank($imageSrc))
     <img src="{{ $imageSrc }}" alt="{{ $alt ?? $slotName ?? '' }}" @if($imgClass) class="{{ $imgClass }}" @endif loading="lazy" decoding="async">
 @else
-    <div class="{{ $classes }}" role="img" aria-label="{{ $alt ?? $slotName ?? 'Reserved image space' }}">
-        <span>Image slot</span>
-        <strong>{{ $slotName ?? ($alt ?? 'Reserved visual') }}</strong>
+    <div class="{{ $classes }}" role="img" aria-label="{{ $alt ?? $slotName ?? 'Destination photograph unavailable' }}">
+        <strong>{{ $slotName ?? ($alt ?? 'Destination photograph unavailable') }}</strong>
     </div>
 @endif

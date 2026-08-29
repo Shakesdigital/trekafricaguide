@@ -2,7 +2,7 @@
 
 @section('content')
 <section class="page-hero">
-    @include('site.partials.image-slot', ['image' => 'image-slot:contact-hero', 'alt' => 'Reserved hero image space for Trek Africa Guide contact page', 'class' => 'page-hero__slot'])
+    @include('site.partials.image-slot', ['image' => 'image-slot:contact-hero', 'alt' => 'Bwindi forest landscape', 'class' => 'page-hero__slot'])
     <div class="page-hero__overlay"></div>
     <div class="container page-hero__content">
         @include('site.partials.breadcrumbs', ['items' => [['label' => 'Home', 'href' => route('home')], ['label' => 'Contact']]])

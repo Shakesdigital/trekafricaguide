@@ -19,10 +19,10 @@
         <label>Children<input name="children" type="number" min="0" max="8" value="{{ $searchContext['children'] ?? 0 }}"></label>
         <label>Rooms<input name="rooms" type="number" min="1" max="8" value="{{ $searchContext['rooms'] ?? 1 }}"></label>
     </div>
-    @if(!$isStay)
+    <div class="search-ribbon__attraction-fields" data-attraction-fields @if($isStay) hidden @endif>
         <label>Travel date<input name="travel_date" type="date" value="{{ $searchContext['travel_date'] ?? '' }}"></label>
         <label>Travelers<input name="adults" type="number" min="1" max="12" value="{{ $searchContext['adults'] ?? 2 }}"></label>
-    @endif
+    </div>
     <button class="button" type="submit">Search</button>
 </form>
 <script>window.trekSearchSuggestions = @json($searchSuggestions ?? []);</script>

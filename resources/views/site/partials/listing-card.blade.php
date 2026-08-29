@@ -1,6 +1,6 @@
 <article class="listing-card @if(isset($listing) && in_array(request('focus'), [$listing->slug, 'listing-'.$listing->slug], true)) listing-card--focused @endif" @if(isset($listing)) id="listing-{{ $listing->slug }}" @endif>
     <div class="listing-card__image">
-        @include('site.partials.image-slot', ['image' => $image ?? null, 'alt' => $title, 'class' => 'listing-card__slot'])
+        @include('site.partials.image-slot', ['image' => $image ?? null, 'alt' => $imageAlt ?? ($listing->hero_image_alt ?? $title), 'class' => 'listing-card__slot'])
     </div>
     <div class="listing-card__body">
         @if(!empty($eyebrow))

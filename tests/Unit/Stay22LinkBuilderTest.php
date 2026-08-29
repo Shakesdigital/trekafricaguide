@@ -10,7 +10,7 @@ class Stay22LinkBuilderTest extends TestCase
     {
         config()->set('services.stay22.affiliate_id', 'aid-test');
         $stay = new Accommodation(['name'=>'Sanctuary Gorilla Forest Camp','slug'=>'sanctuary-gorilla-forest-camp','location_name'=>'Bwindi','country_id'=>1]);
-        $offer = new BookingOffer(['stay22_provider'=>'booking','source_url'=>'https://booking.example/stay']);
+        $offer = new BookingOffer(['stay22_provider'=>'booking','source_url'=>'https://booking.example/stay','affiliate_supported'=>true]);
         $url = app(Stay22LinkBuilder::class)->forOffer($stay, $offer, ['checkin'=>'2026-11-10','checkout'=>'2026-11-12','adults'=>2,'children'=>0,'rooms'=>1]);
         $this->assertStringStartsWith('https://www.stay22.com/allez/booking?', $url);
         $this->assertStringContainsString('aid=aid-test', $url);
@@ -32,5 +32,17 @@ class Stay22LinkBuilderTest extends TestCase
         $stay = new Accommodation(['name'=>'Camp','slug'=>'camp','location_name'=>'Uganda']);
         $url = app(Stay22LinkBuilder::class)->forOffer($stay, new BookingOffer(['stay22_provider'=>'mystery','source_url'=>'https://example.test/deal']), ['rooms'=>2]);
         $this->assertSame('https://example.test/deal', $url);
+    }
+
+    public function test_non_affiliate_offer_never_passes_through_stay22(): void
+    {
+        $stay = new Accommodation(['name' => 'Restaurant', 'slug' => 'restaurant', 'location_name' => 'Uganda']);
+        $offer = new BookingOffer([
+            'affiliate_supported' => false,
+            'stay22_provider' => null,
+            'source_url' => 'https://restaurant.example/reserve',
+        ]);
+
+        $this->assertSame('https://restaurant.example/reserve', app(Stay22LinkBuilder::class)->forOffer($stay, $offer));
     }
 }

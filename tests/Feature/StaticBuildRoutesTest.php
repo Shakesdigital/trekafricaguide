@@ -14,6 +14,8 @@ class StaticBuildRoutesTest extends TestCase
         $this->artisan('static:build', ['--output' => 'storage/app/static-verify'])->assertExitCode(0);
         $this->assertFileExists($output.'/index.html');
         $this->assertFileDoesNotExist($output.'/attractions/zanzibar/index.html');
+        $redirects = File::get($output.'/_redirects');
+        $this->assertStringContainsString('/attractions/zanzibar /attractions/index.html?q=Zanzibar&focus=listing-zanzibar#listing-zanzibar 301', $redirects);
         File::deleteDirectory($output);
     }
     public function test_static_build_rejects_output_outside_storage_app(): void

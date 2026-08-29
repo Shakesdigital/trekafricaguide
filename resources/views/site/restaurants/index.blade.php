@@ -2,7 +2,7 @@
 
 @section('content')
 <section class="page-hero">
-    @include('site.partials.image-slot', ['image' => 'image-slot:restaurants-index-hero', 'alt' => 'Reserved hero image space for dining listings', 'class' => 'page-hero__slot'])
+    @include('site.partials.image-slot', ['image' => 'image-slot:restaurants-index-hero', 'alt' => 'Zanzibar coast representing Africa dining destinations', 'class' => 'page-hero__slot'])
     <div class="page-hero__overlay"></div>
     <div class="container page-hero__content">
         @include('site.partials.breadcrumbs', ['items' => [['label' => 'Home', 'href' => route('home')], ['label' => 'Restaurants']]])

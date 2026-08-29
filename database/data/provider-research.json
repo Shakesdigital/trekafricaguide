@@ -1,0 +1,35 @@
+{
+  "checked_at": "2026-08-29",
+  "pricing_policy": "Display an indicative price only when property, dates, occupancy, room count, currency, tax basis, source, and checked date are recorded. Otherwise display Check live price.",
+  "stay22": {
+    "parameters": "https://dev.stay22.com/docs/allez/parameters",
+    "providers": "https://dev.stay22.com/docs/allez/providers",
+    "note": "Rooms are retained on Trek Africa Guide for planning but are not sent because Stay22 does not document a rooms parameter."
+  },
+  "accommodations": [
+    {"slug":"paraa-safari-lodge","provider":"Booking.com","url":"https://www.booking.com/hotel/ug/paraa-safari-lodge.en-gb.html"},
+    {"slug":"ol-tukai-lodge-amboseli","provider":"Booking.com","url":"https://www.booking.com/hotel/ke/ol-tukai-lodge-amboseli.html"},
+    {"slug":"serengeti-serena-safari-lodge","provider":"Booking.com","url":"https://www.booking.com/hotel/tz/serengeti-serena-safari-lodge.html","indicative_price":{"amount":680,"currency":"USD","unit":"night","stay_dates":"2026-08-21/2026-08-22","adults":2,"rooms":1,"meal_plan":"full board","cancellation":"non-refundable","tax_note":"excludes 18% VAT"}},
+    {"slug":"emerson-spice","provider":"Booking.com","url":"https://www.booking.com/hotel/tz/emersonspice.en-gb.html"},
+    {"slug":"maribela-hotel","provider":"Booking.com","url":"https://www.booking.com/hotel/et/maribela-lalibela.en-gb.html"},
+    {"slug":"ridge-royal-hotel","provider":"Booking.com","url":"https://www.booking.com/hotel/gh/ridge-royal-cape-coast.html","indicative_price":{"amount":125,"currency":"USD","unit":"night","stay_dates":"2026-08-26/2026-08-29","adults":2,"rooms":1,"meal_plan":"breakfast","tax_note":"excludes 17.5% VAT and 10% city tax"}},
+    {"slug":"les-paletuviers","provider":"Booking.com","url":"https://www.booking.com/hotel/sn/les-pala-c-tuviers.es.html"},
+    {"slug":"casa-del-papa","provider":"Booking.com","url":"https://www.booking.com/hotel/bj/casa-del-papa.en-gb.html"},
+    {"slug":"hilton-cabo-verde-sal-resort","provider":"Booking.com","url":"https://www.booking.com/hotel/cv/hilton-cabo-verde-sal-resort.html"},
+    {"slug":"mount-nelson-a-belmond-hotel","provider":"Booking.com","url":"https://www.booking.com/hotel/za/belmond-mount-nelson.en-gb.html"},
+    {"slug":"kruger-shalati","provider":"Booking.com","url":"https://www.booking.com/hotel/za/kruger-shalati-the-train-on-the-bridge.de.html"},
+    {"slug":"sossusvlei-lodge","provider":"Booking.com","url":"https://www.booking.com/hotel/na/sossusvlei-lodge.en-gb.html"},
+    {"slug":"desert-luxury-camp","provider":"Booking.com","url":"https://www.booking.com/hotel/ma/desert-luxury-camp.en-gb.html"},
+    {"slug":"marriott-mena-house-cairo","provider":"Booking.com","url":"https://www.booking.com/hotel/eg/mena-house-oberoi.en-gb.html"},
+    {"slug":"dar-said","provider":"Booking.com","url":"https://www.booking.com/hotel/tn/dar-said.fr.html"}
+  ],
+  "attractions": [
+    {"slug":"bwindi-impenetrable-national-park","provider":"GetYourGuide","url":"https://www.getyourguide.com/en-gb/western-region-uganda-l118965/bwindi-impenetrable-national-park-gorilla-trekking-day-trip-t860183/"},
+    {"slug":"murchison-falls-national-park","provider":"GetYourGuide","url":"https://www.getyourguide.com/murchison-falls-l161860/"},
+    {"slug":"amboseli-national-park","provider":"GetYourGuide","url":"https://www.getyourguide.com/amboseli-national-park-l83994/"},
+    {"slug":"serengeti-national-park","provider":"GetYourGuide","url":"https://www.getyourguide.com/serengeti-national-park-l123040/"},
+    {"slug":"zanzibar","provider":"GetYourGuide","url":"https://www.getyourguide.com/zanzibar-l871/"},
+    {"slug":"volcanoes-national-park","provider":"GetYourGuide","url":"https://www.getyourguide.com/volcanoes-national-park-rwanda-l144502/"},
+    {"slug":"lalibela","provider":"GetYourGuide","url":"https://www.getyourguide.com/lalibela-l1095/"}
+  ]
+}

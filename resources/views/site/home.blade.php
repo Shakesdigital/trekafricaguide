@@ -13,13 +13,13 @@
             <div class="hero-carousel__slide @if($index === 0) is-active @endif" data-hero-slide>
                 @include('site.partials.image-slot', [
                     'image' => 'image-slot:'.($slide['image_slot'] ?? 'home-hero'),
-                    'alt' => ($slide['region'] ?? 'Africa').' hero image slot',
+                    'alt' => ($slide['region'] ?? 'Africa').' destination landscape',
                     'class' => 'hero-carousel__slot',
                 ])
             </div>
         @empty
             <div class="hero-carousel__slide is-active" data-hero-slide>
-                @include('site.partials.image-slot', ['image' => $hero?->image_url, 'alt' => 'Homepage hero image slot', 'class' => 'hero-carousel__slot'])
+                @include('site.partials.image-slot', ['image' => $hero?->image_url, 'alt' => 'Africa destination landscape', 'class' => 'hero-carousel__slot'])
             </div>
         @endforelse
     </div>
@@ -84,7 +84,7 @@
             <ul class="bullet-list">
                 <li>Begin with the part of Africa that matches your travel style: safari, coast, culture, desert, food, heritage, or a mix of several.</li>
                 <li>Open a destination guide to see the attractions, stays, restaurants, and operators that make sense together.</li>
-                <li>Compare the practical details first, then continue to an external booking partner when a listing is worth a closer look.</li>
+                <li>Compare the practical details first, then use the clearly named provider button when a listing fits your trip.</li>
             </ul>
         </div>
     </div>

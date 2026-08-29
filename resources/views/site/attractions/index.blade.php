@@ -2,13 +2,13 @@
 
 @section('content')
 <section class="page-hero">
-    @include('site.partials.image-slot', ['image' => 'image-slot:attractions-index-hero', 'alt' => 'Reserved hero image space for attraction listings', 'class' => 'page-hero__slot'])
+    @include('site.partials.image-slot', ['image' => 'image-slot:attractions-index-hero', 'alt' => 'Maasai Mara landscape representing Africa attractions', 'class' => 'page-hero__slot'])
     <div class="page-hero__overlay"></div>
     <div class="container page-hero__content">
         @include('site.partials.breadcrumbs', ['items' => [['label' => 'Home', 'href' => route('home')], ['label' => 'Attractions']]])
         <p class="eyebrow">Listings</p>
         <h1>Explore the attractions that can anchor a memorable Africa trip.</h1>
-        <p>Search safaris, coastlines, heritage sites, city gateways, deserts, and cultural routes, then open each listing for nearby stays, dining, timing, access, and partner booking links.</p>
+        <p>Search safaris, coastlines, heritage sites, city gateways, deserts, and cultural routes, compare each listing here, then continue through a clearly named provider link.</p>
     </div>
 </section>
 

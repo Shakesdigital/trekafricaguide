@@ -8,7 +8,7 @@ class SearchRibbonMarkupTest extends TestCase
     public function test_accommodation_page_has_dates_travelers_and_rooms(): void
     {
         $response = $this->get('/accommodations');
-        $response->assertOk()->assertSee('data-search-ribbon', false)->assertSee('name="checkin"', false)->assertSee('name="checkout"', false)->assertSee('name="adults"', false)->assertSee('name="rooms"', false);
+        $response->assertOk()->assertSee('data-search-ribbon', false)->assertSee('data-stay-fields', false)->assertSee('data-attraction-fields', false)->assertSee('name="checkin"', false)->assertSee('name="checkout"', false)->assertSee('name="children"', false)->assertSee('name="adults"', false)->assertSee('name="rooms"', false)->assertSee('name="travel_date"', false);
     }
     public function test_attraction_page_has_two_modes_and_combobox(): void
     {
