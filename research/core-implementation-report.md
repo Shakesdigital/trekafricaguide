@@ -21,3 +21,4 @@ Implemented district/booking-offer persistence, Stay22 URL construction, normali
 - Seeder creates honest Booking.com/GetYourGuide comparison offers for every accommodation and attraction, with only verified complete price snapshots.
 - Added additive Supabase migration `20260829000200_add_districts_booking_offers.sql` and typed suggestions/ribbon context.
 - Focused hardening suite: 5 tests, 16 assertions passed.
+- Final pass: image audit passed (24 credits, 97 assertions); focused redirect/ribbon/provider tests passed. `npm run build` and `git diff --check` passed. Safe static command was attempted against `storage/app/static-verify`; the standalone database lacked migrated tables, so it returned HTTP 500s without altering `dist/**`.
