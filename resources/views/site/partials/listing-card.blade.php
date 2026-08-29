@@ -1,4 +1,4 @@
-<article class="listing-card @if(isset($listing) && request('focus') === $listing->slug) listing-card--focused @endif" @if(isset($listing)) id="{{ $listing->slug }}" @endif>
+<article class="listing-card @if(isset($listing) && in_array(request('focus'), [$listing->slug, 'listing-'.$listing->slug], true)) listing-card--focused @endif" @if(isset($listing)) id="listing-{{ $listing->slug }}" @endif>
     <div class="listing-card__image">
         @include('site.partials.image-slot', ['image' => $image ?? null, 'alt' => $title, 'class' => 'listing-card__slot'])
     </div>

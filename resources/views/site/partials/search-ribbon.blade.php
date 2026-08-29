@@ -16,6 +16,7 @@
         <label>Check in<input name="checkin" type="date" value="{{ $searchContext['checkin'] ?? '' }}"></label>
         <label>Check out<input name="checkout" type="date" value="{{ $searchContext['checkout'] ?? '' }}"></label>
         <label>Adults<input name="adults" type="number" min="1" max="12" value="{{ $searchContext['adults'] ?? 2 }}"></label>
+        <label>Children<input name="children" type="number" min="0" max="8" value="{{ $searchContext['children'] ?? 0 }}"></label>
         <label>Rooms<input name="rooms" type="number" min="1" max="8" value="{{ $searchContext['rooms'] ?? 1 }}"></label>
     </div>
     @if(!$isStay)

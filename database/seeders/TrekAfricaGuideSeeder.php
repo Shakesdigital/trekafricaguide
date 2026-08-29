@@ -71,6 +71,7 @@ class TrekAfricaGuideSeeder extends Seeder
             $country = $countries[$record['country_slug']];
             $region = $country->region;
             $attraction = $attractions[$record['attraction_slug']];
+            $record['hero_image_url'] = $this->attractionImage($record['attraction_slug']);
             unset($record['country_slug'], $record['attraction_slug']);
 
             Accommodation::create($record + [
@@ -81,12 +82,11 @@ class TrekAfricaGuideSeeder extends Seeder
             ]);
         }
 
-        $this->seedBookingOffers();
-
         foreach ($this->restaurants() as $index => $record) {
             $country = $countries[$record['country_slug']];
             $region = $country->region;
             $attraction = $attractions[$record['attraction_slug']];
+            $record['hero_image_url'] = $this->attractionImage($record['attraction_slug']);
             unset($record['country_slug'], $record['attraction_slug']);
 
             Restaurant::create($record + [
@@ -96,6 +96,8 @@ class TrekAfricaGuideSeeder extends Seeder
                 'sort_order' => $index + 1,
             ]);
         }
+
+        $this->seedBookingOffers();
 
         foreach ($this->tourOperators() as $record) {
             $country = $countries[$record['country_slug']];
@@ -144,9 +146,8 @@ class TrekAfricaGuideSeeder extends Seeder
         foreach (Accommodation::query()->get() as $stay) {
             $url = $booking[$stay->slug] ?? 'https://www.booking.com/searchresults.html?ss='.urlencode($stay->name.', '.$stay->location_name);
             $snapshot = match ($stay->name) {
-                'Serengeti Serena Safari Lodge' => ['price_amount'=>680, 'price_currency'=>'USD', 'price_unit'=>'night', 'price_checked_at'=>'2026-08-29', 'price_basis'=>'1 night, 2 adults, 1 room; full board; non-refundable; excludes 18% VAT'],
-                'Ridge Royal Hotel' => ['price_amount'=>125, 'price_currency'=>'USD', 'price_unit'=>'night', 'price_checked_at'=>'2026-08-29', 'price_basis'=>'3 nights, 2 adults, 1 room; breakfast; excludes 17.5% VAT and 10% city tax'],
-                'Hilton Cabo Verde Sal Resort' => ['price_amount'=>245, 'price_currency'=>'USD', 'price_unit'=>'night', 'price_checked_at'=>'2026-08-29', 'price_basis'=>'3 nights, 2 adults, 1 room; breakfast; excludes 15% VAT and city tax'],
+                'Serengeti Serena Safari Lodge' => ['price_amount'=>680, 'price_currency'=>'USD', 'price_unit'=>'night', 'price_checked_at'=>'2026-08-29', 'price_basis'=>'Aug 21–22 2026; 2 adults, 1 room; full board; non-refundable; excludes 18% VAT'],
+                'Ridge Royal Hotel' => ['price_amount'=>125, 'price_currency'=>'USD', 'price_unit'=>'night', 'price_checked_at'=>'2026-08-29', 'price_basis'=>'Aug 26–29 2026; 2 adults, 1 room; breakfast; excludes 17.5% VAT and 10% city tax'],
                 default => [],
             };
             $stay->bookingOffers()->create(array_merge(['provider'=>'booking','label'=>'Compare on Booking.com','source_url'=>$url,'stay22_provider'=>'booking','affiliate_supported'=>true,'active'=>true,'sort_order'=>10], $snapshot));
@@ -157,6 +158,11 @@ class TrekAfricaGuideSeeder extends Seeder
         ];
         foreach (Attraction::query()->get() as $item) {
             $item->bookingOffers()->create(['provider'=>'getyourguide','label'=>'Compare tours on GetYourGuide','source_url'=>$gyg[$item->slug] ?? 'https://www.getyourguide.com/s/?q='.urlencode($item->name),'stay22_provider'=>'getyourguide','affiliate_supported'=>true,'active'=>true,'sort_order'=>10]);
+        }
+        foreach (Restaurant::query()->get() as $restaurant) {
+            if ($restaurant->booking_url) {
+                $restaurant->bookingOffers()->create(['provider'=>'direct','label'=>'Visit official site','source_url'=>$restaurant->booking_url,'affiliate_supported'=>false,'active'=>true,'sort_order'=>10]);
+            }
         }
     }
 

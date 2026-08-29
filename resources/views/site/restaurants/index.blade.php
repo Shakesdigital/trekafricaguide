@@ -45,7 +45,7 @@
         <div class="listing-grid">
             @foreach($restaurants as $restaurant)
                 @include('site.partials.listing-card', [
-                    'href' => route('restaurants.show', $restaurant),
+                    'href' => route('restaurants.show', $restaurant), 'listing' => $restaurant,
                     'image' => $restaurant->hero_image_url,
                     'title' => $restaurant->name,
                     'summary' => $restaurant->listing_summary,

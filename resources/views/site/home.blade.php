@@ -122,7 +122,7 @@
         <div class="listing-grid">
             @foreach($featuredAttractions as $attraction)
                 @include('site.partials.listing-card', [
-                    'href' => route('attractions.show', $attraction),
+                    'href' => route('attractions.show', $attraction), 'listing' => $attraction,
                     'image' => $attraction->hero_image_url,
                     'title' => $attraction->name,
                     'summary' => $attraction->listing_summary,
@@ -185,7 +185,7 @@
                 @foreach($featuredAccommodations as $stay)
                     <div class="listing-carousel__item">
                         @include('site.partials.listing-card', [
-                            'href' => route('accommodations.show', $stay),
+                            'href' => route('accommodations.show', $stay), 'listing' => $stay,
                             'image' => $stay->hero_image_url,
                             'title' => $stay->name,
                             'summary' => $stay->listing_summary,
@@ -226,7 +226,7 @@
                 @foreach($featuredRestaurants as $restaurant)
                     <div class="listing-carousel__item">
                         @include('site.partials.listing-card', [
-                            'href' => route('restaurants.show', $restaurant),
+                            'href' => route('restaurants.show', $restaurant), 'listing' => $restaurant,
                             'image' => $restaurant->hero_image_url,
                             'title' => $restaurant->name,
                             'summary' => $restaurant->listing_summary,

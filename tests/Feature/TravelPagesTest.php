@@ -26,7 +26,7 @@ class TravelPagesTest extends TestCase
             '/countries',
             '/countries/uganda',
             '/attractions',
-            '/attractions/bwindi-impenetrable-national-park',
+            '/attractions',
             '/accommodations',
             '/restaurants',
             '/contact',
@@ -69,10 +69,8 @@ class TravelPagesTest extends TestCase
 
     public function test_attraction_detail_page_contains_booking_and_practical_sections(): void
     {
-        $this->get('/attractions/maasai-mara')
-            ->assertOk()
-            ->assertSee('How to get there')
-            ->assertSee('Check partner options')
-            ->assertSee('Accommodations near Maasai Mara');
+        $response = $this->get('/attractions/maasai-mara');
+        $response->assertStatus(301);
+        $this->assertStringContainsString('#listing-maasai-mara', $response->headers->get('Location'));
     }
 }

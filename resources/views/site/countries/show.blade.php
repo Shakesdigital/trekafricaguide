@@ -125,7 +125,7 @@
         <div class="listing-grid">
             @foreach($country->attractions as $attraction)
                 @include('site.partials.listing-card', [
-                    'href' => route('attractions.show', $attraction),
+                    'href' => route('attractions.show', $attraction), 'listing' => $attraction,
                     'image' => $attraction->hero_image_url,
                     'title' => $attraction->name,
                     'summary' => $attraction->listing_summary,
@@ -156,7 +156,7 @@
         <div class="listing-grid">
             @foreach($accommodations as $stay)
                 @include('site.partials.listing-card', [
-                    'href' => route('accommodations.show', $stay),
+                    'href' => route('accommodations.show', $stay), 'listing' => $stay,
                     'image' => $stay->hero_image_url,
                     'title' => $stay->name,
                     'summary' => $stay->listing_summary,
@@ -187,7 +187,7 @@
         <div class="listing-grid">
             @foreach($restaurants as $restaurant)
                 @include('site.partials.listing-card', [
-                    'href' => route('restaurants.show', $restaurant),
+                    'href' => route('restaurants.show', $restaurant), 'listing' => $restaurant,
                     'image' => $restaurant->hero_image_url,
                     'title' => $restaurant->name,
                     'summary' => $restaurant->listing_summary,
@@ -208,4 +208,13 @@
         </div>
     </div>
 </section>
+
+@if($country->tourOperators->isNotEmpty())
+<section class="section">
+    <div class="container">
+        <div class="section-heading section-heading--compact"><p class="eyebrow">Tour operators</p><h2>Operators that can help shape the route</h2></div>
+        <div class="operator-grid">@foreach($country->tourOperators as $operator)<article class="operator-card"><h3>{{ $operator->name }}</h3><p>{{ $operator->summary }}</p></article>@endforeach</div>
+    </div>
+</section>
+@endif
 @endsection

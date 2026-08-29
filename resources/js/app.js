@@ -8,10 +8,11 @@ document.querySelectorAll('[data-search-ribbon]').forEach((ribbon) => {
     const modes = ribbon.querySelectorAll('[data-search-mode]');
     const setMode = (mode) => {
         modes.forEach((button) => button.classList.toggle('is-active', button.dataset.searchMode === mode));
-        if (stay) stay.hidden = mode !== 'accommodations';
+        if (stay) { stay.hidden = mode !== 'accommodations'; stay.querySelectorAll('input').forEach((field) => { field.disabled = mode !== 'accommodations'; }); }
         ribbon.action = mode === 'accommodations' ? '/accommodations' : '/attractions';
     };
     modes.forEach((button) => button.addEventListener('click', () => setMode(button.dataset.searchMode)));
+    setMode(ribbon.querySelector('[data-search-mode].is-active')?.dataset.searchMode || 'accommodations');
     const close = () => { if (list) { list.hidden = true; input?.setAttribute('aria-expanded', 'false'); } };
     input?.addEventListener('input', () => {
         if (!list) return;

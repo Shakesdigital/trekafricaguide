@@ -83,7 +83,7 @@ class SiteController extends Controller
     {
         $country->load([
             'region',
-            'attractions' => fn ($query) => $query->orderByDesc('featured')->orderBy('sort_order'),
+            'attractions' => fn ($query) => $query->with('bookingOffers')->orderByDesc('featured')->orderBy('sort_order'),
             'tourOperators',
         ]);
 
@@ -131,7 +131,7 @@ class SiteController extends Controller
 
     public function attraction(Attraction $attraction): RedirectResponse
     {
-        return redirect()->to(route('attractions.index').'?q='.urlencode($attraction->name).'&focus='.urlencode($attraction->slug).'#'.urlencode($attraction->slug), 301);
+        return redirect()->to(route('attractions.index').'?q='.urlencode($attraction->name).'&focus='.urlencode('listing-'.$attraction->slug).'#'.urlencode('listing-'.$attraction->slug), 301);
     }
 
     public function accommodations(Request $request)
@@ -171,7 +171,7 @@ class SiteController extends Controller
 
     public function accommodation(Accommodation $accommodation): RedirectResponse
     {
-        return redirect()->to(route('accommodations.index').'?q='.urlencode($accommodation->name).'&focus='.urlencode($accommodation->slug).'#'.urlencode($accommodation->slug), 301);
+        return redirect()->to(route('accommodations.index').'?q='.urlencode($accommodation->name).'&focus='.urlencode('listing-'.$accommodation->slug).'#'.urlencode('listing-'.$accommodation->slug), 301);
     }
 
     public function restaurants(Request $request)
@@ -205,7 +205,7 @@ class SiteController extends Controller
 
     public function restaurant(Restaurant $restaurant): RedirectResponse
     {
-        return redirect()->to(route('restaurants.index').'?q='.urlencode($restaurant->name).'&focus='.urlencode($restaurant->slug).'#'.urlencode($restaurant->slug), 301);
+        return redirect()->to(route('restaurants.index').'?q='.urlencode($restaurant->name).'&focus='.urlencode('listing-'.$restaurant->slug).'#'.urlencode('listing-'.$restaurant->slug), 301);
     }
 
     public function contact()
