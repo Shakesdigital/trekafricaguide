@@ -5,9 +5,12 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\MorphMany;
+use Illuminate\Database\Eloquent\Relations\MorphOne;
+use App\Models\Concerns\HasPublicationState;
 
 class Accommodation extends Model
 {
+    use HasPublicationState;
     protected $fillable = [
         'region_id',
         'district_id',
@@ -30,6 +33,7 @@ class Accommodation extends Model
         'booking_url',
         'featured',
         'sort_order',
+        'status', 'published_at', 'meta_title', 'meta_description', 'meta_image_url',
     ];
 
     protected function casts(): array
@@ -64,4 +68,6 @@ class Accommodation extends Model
 
     public function district(): BelongsTo { return $this->belongsTo(District::class); }
     public function bookingOffers(): MorphMany { return $this->morphMany(BookingOffer::class, 'offerable')->where('active', true)->orderBy('sort_order'); }
+    public function mediaAssets(): MorphMany { return $this->morphMany(MediaAsset::class, 'mediable')->orderBy('sort_order'); }
+    public function heroMedia(): MorphOne { return $this->morphOne(MediaAsset::class, 'mediable')->where('role', 'hero')->orderBy('sort_order'); }
 }

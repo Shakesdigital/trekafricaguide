@@ -10,5 +10,6 @@ class SiteSetting extends Model
         'group_name',
         'key',
         'value',
+        'is_public',
     ];
 }

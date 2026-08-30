@@ -12,6 +12,7 @@ use App\Models\Region;
 use App\Models\Restaurant;
 use App\Models\SiteSetting;
 use App\Models\TourOperator;
+use App\Models\MediaAsset;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Str;
@@ -21,6 +22,7 @@ class TrekAfricaGuideSeeder extends Seeder
 {
     public function run(): void
     {
+        if (Schema::hasTable('media_assets')) MediaAsset::query()->delete();
         if (Schema::hasTable('booking_offers')) BookingOffer::query()->delete();
         TourOperator::query()->delete();
         Restaurant::query()->delete();
@@ -32,7 +34,7 @@ class TrekAfricaGuideSeeder extends Seeder
         SiteSetting::query()->delete();
 
         foreach ($this->settings() as $setting) {
-            SiteSetting::create($setting);
+            SiteSetting::create($setting + ['is_public' => true]);
         }
 
         foreach ($this->pageSections() as $section) {
@@ -98,6 +100,7 @@ class TrekAfricaGuideSeeder extends Seeder
         }
 
         $this->seedBookingOffers();
+        $this->seedMediaAssets();
 
         foreach ($this->tourOperators() as $record) {
             $country = $countries[$record['country_slug']];
@@ -121,6 +124,26 @@ class TrekAfricaGuideSeeder extends Seeder
                 'email_verified_at' => now(),
             ]
         );
+    }
+
+    private function seedMediaAssets(): void
+    {
+        if (! Schema::hasTable('media_assets')) return;
+        $models = ['attraction' => Attraction::class, 'accommodation' => Accommodation::class, 'restaurant' => Restaurant::class];
+        $assignments = json_decode(file_get_contents(database_path('data/media-assignments.json')), true, flags: JSON_THROW_ON_ERROR);
+        foreach ($assignments as $assignment) {
+            $model = $models[$assignment['entity_type']] ?? null;
+            if (! $model) continue;
+            $owner = $model::query()->where('slug', $assignment['entity_slug'])->first();
+            if (! $owner) continue;
+            $values = collect($assignment)->except(['entity_type', 'entity_slug'])->all();
+            $values['url'] = $assignment['local_path'];
+            $values['status'] = 'published';
+            $owner->mediaAssets()->updateOrCreate(
+                ['role' => $assignment['role'], 'source_page' => $assignment['source_page']],
+                $values
+            );
+        }
     }
 
     private function seedBookingOffers(): void
