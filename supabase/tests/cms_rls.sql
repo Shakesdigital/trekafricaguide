@@ -1,6 +1,6 @@
 begin;
 
-select plan(20);
+select plan(27);
 
 select tests.create_supabase_user('cms-viewer@example.com');
 select tests.create_supabase_user('cms-editor@example.com');
@@ -31,10 +31,11 @@ set local role anon;
 select is((select count(*) from public.page_sections where page_key = 'rls'), 1::bigint, 'anon reads only published content');
 select throws_ok($$insert into public.page_sections (page_key, section_key, status) values ('rls', 'anon-write', 'draft')$$, '42501', null, 'anon cannot write CMS content');
 select throws_ok($$select * from public.users$$, '42501', null, 'anon cannot read legacy users');
+select is((select count(*) from public.page_sections where page_key = 'rls' and status = 'draft'), 0::bigint, 'anon cannot inspect draft content');
 reset role;
 
 select tests.authenticate_as('cms-viewer@example.com');
-select is((select count(*) from public.page_sections where page_key = 'rls'), 2::bigint, 'viewer can inspect draft content');
+select is((select count(*) from public.page_sections where page_key = 'rls'), 2::bigint, 'authenticated viewer can inspect draft content');
 select throws_ok($$insert into public.page_sections (page_key, section_key, status) values ('rls', 'viewer-write', 'draft')$$, '42501', null, 'viewer cannot create CMS content');
 
 select tests.authenticate_as('cms-editor@example.com');
@@ -48,11 +49,16 @@ select is((with deleted as (delete from public.districts where slug = 'rls-distr
 select lives_ok($$insert into storage.objects (bucket_id, name) values ('media', 'regions/east-africa/hero.png')$$, 'editor can upload a media object at the documented path');
 select throws_ok($$insert into storage.objects (bucket_id, name) values ('media', 'cms/editor.png')$$, '42501', null, 'editor cannot upload outside documented media paths');
 select throws_ok($$insert into storage.objects (bucket_id, name) values ('branding', 'logos/editor.svg')$$, '42501', null, 'editor cannot upload branding assets');
+select lives_ok($$update storage.objects set metadata = '{"caption": "updated"}' where bucket_id = 'media' and name = 'regions/east-africa/hero.png'$$, 'editor can upsert a media object while preserving its path');
+select throws_ok($$update storage.objects set name = 'media/cms/editor-relocated.png' where bucket_id = 'media' and name = 'regions/east-africa/hero.png'$$, '42501', null, 'editor cannot move a media object outside an allowed path');
+select throws_ok($$delete from storage.objects where bucket_id = 'media' and name = 'regions/east-africa/hero.png'$$, '42501', null, 'editor cannot delete a media object');
 
 select tests.authenticate_as('cms-admin@example.com');
 select lives_ok($$update public.page_sections set status = 'published', published_at = now() where page_key = 'rls' and section_key = 'editor-draft'$$, 'admin can publish content');
 select lives_ok($$delete from public.page_sections where page_key = 'rls' and section_key = 'editor-draft'$$, 'admin can delete content');
 select lives_ok($$insert into storage.objects (bucket_id, name) values ('branding', 'logos/trek-africa-guide.svg')$$, 'admin can upload branding logos');
+select lives_ok($$delete from storage.objects where bucket_id = 'media' and name = 'regions/east-africa/hero.png'$$, 'admin can delete a media object');
+select throws_ok($$insert into storage.objects (bucket_id, name) values ('branding', 'not-logos/trek-africa-guide.svg')$$, '42501', null, 'admin cannot write branding outside the logos path');
 
 select tests.authenticate_as('cms-super-admin@example.com');
 select lives_ok($$insert into public.profiles (id, role, display_name) values (tests.get_supabase_uid('cms-managed@example.com'), 'viewer', 'Managed Viewer')$$, 'super admin can manage Auth-backed profiles');

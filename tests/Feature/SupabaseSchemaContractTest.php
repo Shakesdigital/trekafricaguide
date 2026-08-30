@@ -64,6 +64,11 @@ class SupabaseSchemaContractTest extends TestCase
         ] as $required) {
             $this->assertStringContainsString($required, $migration);
         }
+
+        $this->assertStringContainsString('create policy "Admins can delete CMS media"', $migration);
+        $deletePolicy = $this->policyDefinition($migration, 'Admins can delete CMS media');
+        $this->assertStringNotContainsString("'editor'", $deletePolicy);
+        $this->assertStringContainsString("array['admin', 'super_admin']", $deletePolicy);
     }
 
     public function test_cms_migration_does_not_embed_unsafe_authorization_or_credentials(): void
@@ -102,6 +107,33 @@ class SupabaseSchemaContractTest extends TestCase
         $this->assertStringNotContainsString('20260607000100_seed_auth_user.sql', $seed);
     }
 
+    public function test_seed_embeds_the_verified_media_assignment_metadata_and_real_catalogue_copy(): void
+    {
+        $seed = $this->read(self::SEED);
+        $assignmentsPath = base_path('database/data/media-assignments.json');
+        $this->assertFileExists($assignmentsPath);
+
+        $assignments = json_decode((string) file_get_contents($assignmentsPath), true, 512, JSON_THROW_ON_ERROR);
+        $this->assertCount(72, $assignments);
+
+        foreach ($assignments as $assignment) {
+            foreach (['entity_type', 'entity_slug', 'role', 'local_path', 'alt_text', 'source_page', 'creator', 'license', 'license_url', 'attribution_text'] as $field) {
+                $this->assertArrayHasKey($field, $assignment);
+                $this->assertStringContainsString((string) $assignment[$field], $seed, "Missing verified media {$field} for {$assignment['entity_type']}/{$assignment['entity_slug']}");
+            }
+        }
+
+        foreach ([
+            'East Africa is where classic safari meets the Indian Ocean',
+            'Uganda is known as the Pearl of Africa',
+            'Bwindi Impenetrable National Park shelters',
+        ] as $realCatalogueCopy) {
+            $this->assertStringContainsString($realCatalogueCopy, $seed);
+        }
+
+        $this->assertStringNotContainsString('catalogue://', $seed);
+    }
+
     public function test_sql_authorization_scenarios_use_real_auth_users_and_cover_role_boundaries(): void
     {
         $tests = $this->read('supabase/tests/cms_rls.sql');
@@ -116,6 +148,13 @@ class SupabaseSchemaContractTest extends TestCase
             "'media', 'regions/east-africa/hero.png'",
             "'branding', 'logos/trek-africa-guide.svg'",
             'anon cannot read legacy users',
+            'anon cannot inspect draft content',
+            'authenticated viewer can inspect draft content',
+            'editor can upsert a media object while preserving its path',
+            'editor cannot move a media object outside an allowed path',
+            'editor cannot delete a media object',
+            'admin can delete a media object',
+            'admin cannot write branding outside the logos path',
         ] as $required) {
             $this->assertStringContainsString($required, $tests);
         }
@@ -146,5 +185,16 @@ class SupabaseSchemaContractTest extends TestCase
         $this->assertFileExists($path);
 
         return (string) file_get_contents($path);
+    }
+
+    private function policyDefinition(string $migration, string $policyName): string
+    {
+        $start = strpos($migration, 'create policy "'.$policyName.'"');
+        $this->assertNotFalse($start, "Storage policy {$policyName} is missing");
+
+        $end = strpos($migration, ';', $start);
+        $this->assertNotFalse($end, "Storage policy {$policyName} is incomplete");
+
+        return substr($migration, $start, $end - $start + 1);
     }
 }

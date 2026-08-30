@@ -312,6 +312,7 @@ drop policy if exists "Public can read CMS media" on storage.objects;
 drop policy if exists "CMS staff can upload media" on storage.objects;
 drop policy if exists "CMS staff can update media" on storage.objects;
 drop policy if exists "CMS staff can delete media" on storage.objects;
+drop policy if exists "Admins can delete CMS media" on storage.objects;
 
 create policy "Public can read CMS media"
 on storage.objects for select to anon, authenticated
@@ -350,13 +351,13 @@ with check (
         and (select private.has_cms_role(array['admin', 'super_admin'])))
 );
 
-create policy "CMS staff can delete media"
+create policy "Admins can delete CMS media"
 on storage.objects for delete to authenticated
 using (
     (bucket_id = 'media'
         and (storage.foldername(name))[1] in ('regions', 'countries', 'attractions', 'accommodations', 'restaurants', 'tour_operators', 'page_sections')
         and array_length(storage.foldername(name), 1) >= 2
-        and (select private.has_cms_role(array['editor', 'admin', 'super_admin'])))
+        and (select private.has_cms_role(array['admin', 'super_admin'])))
     or (bucket_id = 'branding'
         and (storage.foldername(name))[1] = 'logos'
         and (select private.has_cms_role(array['admin', 'super_admin'])))
