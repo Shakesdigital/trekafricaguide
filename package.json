@@ -5,7 +5,7 @@
     "scripts": {
         "build": "vite build",
         "dev": "vite",
-        "test:js": "node --test tests/js/",
+        "test:js": "node --test 'tests/js/**/*.test.mjs'",
         "test": "concurrently \"npm run test:js\" \"php artisan test\""
     },
     "devDependencies": {
