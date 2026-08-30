@@ -68,6 +68,6 @@ class Accommodation extends Model
 
     public function district(): BelongsTo { return $this->belongsTo(District::class); }
     public function bookingOffers(): MorphMany { return $this->morphMany(BookingOffer::class, 'offerable')->where('active', true)->orderBy('sort_order'); }
-    public function mediaAssets(): MorphMany { return $this->morphMany(MediaAsset::class, 'mediable')->orderBy('sort_order'); }
-    public function heroMedia(): MorphOne { return $this->morphOne(MediaAsset::class, 'mediable')->where('role', 'hero')->orderBy('sort_order'); }
+    public function mediaAssets(): MorphMany { return $this->morphMany(MediaAsset::class, 'mediable')->publiclyVisible()->orderBy('sort_order'); }
+    public function heroMedia(): MorphOne { return $this->morphOne(MediaAsset::class, 'mediable')->publiclyVisible()->where('role', 'hero')->orderBy('sort_order'); }
 }

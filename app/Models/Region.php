@@ -46,6 +46,6 @@ class Region extends Model
     {
         return $this->hasMany(Attraction::class)->orderBy('sort_order');
     }
-    public function mediaAssets(): MorphMany { return $this->morphMany(MediaAsset::class, 'mediable')->orderBy('sort_order'); }
-    public function heroMedia(): MorphOne { return $this->morphOne(MediaAsset::class, 'mediable')->where('role', 'hero')->orderBy('sort_order'); }
+    public function mediaAssets(): MorphMany { return $this->morphMany(MediaAsset::class, 'mediable')->publiclyVisible()->orderBy('sort_order'); }
+    public function heroMedia(): MorphOne { return $this->morphOne(MediaAsset::class, 'mediable')->publiclyVisible()->where('role', 'hero')->orderBy('sort_order'); }
 }

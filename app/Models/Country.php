@@ -66,6 +66,6 @@ class Country extends Model
         return $this->hasMany(TourOperator::class)->orderBy('name');
     }
     public function districts(): HasMany { return $this->hasMany(District::class)->orderBy('sort_order'); }
-    public function mediaAssets(): MorphMany { return $this->morphMany(MediaAsset::class, 'mediable')->orderBy('sort_order'); }
-    public function heroMedia(): MorphOne { return $this->morphOne(MediaAsset::class, 'mediable')->where('role', 'hero')->orderBy('sort_order'); }
+    public function mediaAssets(): MorphMany { return $this->morphMany(MediaAsset::class, 'mediable')->publiclyVisible()->orderBy('sort_order'); }
+    public function heroMedia(): MorphOne { return $this->morphOne(MediaAsset::class, 'mediable')->publiclyVisible()->where('role', 'hero')->orderBy('sort_order'); }
 }

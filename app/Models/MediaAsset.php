@@ -4,9 +4,11 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\MorphTo;
+use App\Models\Concerns\HasPublicationState;
 
 class MediaAsset extends Model
 {
+    use HasPublicationState;
     protected $fillable = [
         'mediable_type', 'mediable_id', 'role', 'local_path', 'url', 'alt_text',
         'source_page', 'creator', 'license', 'license_url', 'exact_subject_match',
