@@ -48,13 +48,13 @@
                 @endforeach
             </select>
             <button type="submit">Filter</button>
-            <a href="{{ route('destinations.index') }}" class="btn-clear">Reset</a>
+            <a href="{{ route('countries.index') }}" class="btn-clear">Reset</a>
         </form>
 
         <div class="results-count reveal">
             <strong>{{ $destinations->count() }}</strong> destination{{ $destinations->count() === 1 ? '' : 's' }} found
             @if($filters['q'] || $filters['region'] || $filters['country'] || $filters['price'] || $filters['travel_style'])
-                — <a href="{{ route('destinations.index') }}" style="color: var(--terracotta); text-decoration: underline;">clear all filters</a>
+                — <a href="{{ route('countries.index') }}" style="color: var(--terracotta); text-decoration: underline;">clear all filters</a>
             @endif
         </div>
 
