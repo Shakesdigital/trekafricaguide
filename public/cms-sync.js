@@ -90,59 +90,31 @@
     return `${roots[name]}${slug ? `/${slug}` : ''}`;
   };
 
+  // Shared pure rules from cms-core.js — kept in sync with the PHP backend.
+  const CmsCore = (typeof window !== 'undefined' && window.CmsCore) ? window.CmsCore : null;
+
+  // Stay22 link builder: delegates to shared CmsCore for parity with PHP Stay22LinkBuilder.
   const stay22Link = (listing, offer, search = {}) => {
-    if (!offer?.affiliate_supported) return offer?.source_url || listing?.booking_url || '#';
-    const provider = offer?.stay22_provider || 'roam';
-    const supported = ['booking', 'expedia', 'hotelscom', 'vrbo', 'agoda', 'tripadvisor', 'kayak', 'getyourguide', 'roam', 'searchbar'];
-    if (!supported.includes(String(provider).toLowerCase())) return offer?.source_url || listing?.booking_url || '#';
-    const params = new URLSearchParams({ aid: setting('stay22_affiliate_id', '6a809892f76b8b75f2a2e6a4'), campaign: `${listing?.property_type ? 'accommodation' : 'attraction'}_${listing?.slug || ''}` });
-    if (offer?.source_url) params.set('link', offer.source_url); else { params.set('hotelname', listing?.name || ''); if (listing?.location_name) params.set('address', listing.location_name); }
-    ['checkin', 'checkout', 'adults', 'children'].forEach((key) => { if (search[key] !== undefined && search[key] !== '') params.set(key, search[key]); });
-    return `https://www.stay22.com/allez/${provider}?${params.toString()}`;
+    if (!CmsCore) return offer?.source_url || listing?.booking_url || '#';
+    const affiliateId = setting('stay22_affiliate_id', '6a809892f76b8b75f2a2e6a4');
+    return CmsCore.buildStay22Link(listing, offer, search, affiliateId);
   };
-  const searchRibbon = (mode = 'attractions', context = {}, availableTables = tables) => ({ mode, query: context.q || '', suggestions: [...(availableTables.countries || []), ...(availableTables.attractions || []), ...(availableTables.accommodations || [])].map((item) => item.name).filter(Boolean) });
+
+  // Search ribbon: delegates to shared CmsCore for parity.
+  const searchRibbon = (mode = 'attractions', context = {}, availableTables = tables) => {
+    if (CmsCore) return CmsCore.searchRibbon(mode, { q: context.q || '' }, availableTables);
+    // Fallback (should not be reached when cms-core.js is loaded)
+    return { mode, query: context.q || '', suggestions: [...(availableTables.countries || []), ...(availableTables.attractions || []), ...(availableTables.accommodations || [])].map((item) => item.name).filter(Boolean) };
+  };
+
   window.trekAfricaGuideRuntime = { stay22Link, searchRibbon };
 
-  const slotImages = {
-    'home-hero-east-africa': 'maasai-mara',
-    'home-hero-west-africa': 'cape-coast-kakum',
-    'home-hero-southern-africa': 'namib-desert',
-    'home-hero-northern-africa': 'marrakech-and-atlas',
-    'regions-index-hero': 'serengeti-national-park',
-    'destinations-index-hero': 'cape-town',
-    'attractions-index-hero': 'maasai-mara',
-    'accommodations-index-hero': 'maasai-mara',
-    'restaurants-index-hero': 'zanzibar',
-    'region-east-africa': 'serengeti-national-park',
-    'region-west-africa': 'sine-saloum-delta',
-    'region-southern-africa': 'namib-desert',
-    'region-northern-africa': 'marrakech-and-atlas',
-    'country-uganda': 'bwindi-impenetrable-national-park',
-    'country-kenya': 'maasai-mara',
-    'country-tanzania': 'serengeti-national-park',
-    'country-rwanda': 'volcanoes-national-park',
-    'country-ethiopia': 'lalibela',
-    'country-ghana': 'cape-coast-kakum',
-    'country-senegal': 'sine-saloum-delta',
-    'country-benin': 'ouidah-and-ganvie',
-    'country-sierra-leone': 'tokeh-and-river-no2',
-    'country-cabo-verde': 'sal-island',
-    'country-south-africa': 'cape-town',
-    'country-botswana': 'okavango-delta',
-    'country-namibia': 'namib-desert',
-    'country-zimbabwe': 'victoria-falls',
-    'country-zambia': 'south-luangwa',
-    'country-morocco': 'marrakech-and-atlas',
-    'country-egypt': 'cairo-and-giza',
-    'country-tunisia': 'tunis-and-sidi-bou-said',
-    'country-algeria': 'djanet-and-tassili',
-  };
+  // Stock image slot map and resolver are now provided by CmsCore (cms-core.js).
+  // The slotImages map lived here previously and was duplicated in cms-core.js.
 
-  const resolveImage = (image) => {
+  const resolveImage = CmsCore ? CmsCore.resolveImage.bind(CmsCore) : (image) => {
     if (!image || !String(image).startsWith('image-slot:')) return image;
-    const key = String(image).replace('image-slot:', '');
-    const slug = slotImages[key] || key.replace(/^(attraction|stay|restaurant)-/, '');
-    return `/images/stock/destinations/${slug}.jpg`;
+    return image;
   };
 
   const imageSlot = (image, alt, className = '') => {
