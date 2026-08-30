@@ -27,7 +27,7 @@
             two.parentNode.insertBefore(twenty, two);
         })(window, document, 'script', 'https://scripts.stay22.com/letmeallez.js');
     </script>
-    <link rel="preload" as="style" href="/build/assets/app-OourHNl0.css" /><link rel="modulepreload" as="script" href="/build/assets/app-DfCL3t2R.js" /><link rel="stylesheet" href="/build/assets/app-OourHNl0.css" /><script type="module" src="/build/assets/app-DfCL3t2R.js"></script></head>
+    <link rel="preload" as="style" href="/build/assets/app-o8CMVoSJ.css" /><link rel="modulepreload" as="script" href="/build/assets/app-4r-rNyw7.js" /><link rel="stylesheet" href="/build/assets/app-o8CMVoSJ.css" /><script type="module" src="/build/assets/app-4r-rNyw7.js"></script></head>
 <body>
     <div class="site-topline">
         <div class="container site-topline__inner">
@@ -62,7 +62,7 @@
 
     <main>
         <section class="page-hero">
-    <img src="/images/generated/attractions/bwindi-impenetrable-national-park/01.jpg" alt="Reserved image space for Uganda travel planning"  class="page-hero__slot"  loading="lazy" decoding="async">
+    <img src="/images/stock/destinations/bwindi-impenetrable-national-park.jpg" alt="Uganda destination landscape"  class="page-hero__slot"  loading="lazy" decoding="async">
     <div class="page-hero__overlay"></div>
     <div class="container page-hero__content">
         <ul class="breadcrumb">
@@ -89,11 +89,7 @@
                 <h2>More visuals from Uganda</h2>
             </div>
             <div class="gallery-grid">
-                                    <img src="/images/generated/attractions/bwindi-impenetrable-national-park/01.jpg" alt="Uganda"  class="gallery-grid__slot"  loading="lazy" decoding="async">
-                                    <img src="/images/generated/attractions/bwindi-impenetrable-national-park/02.jpg" alt="Uganda"  class="gallery-grid__slot"  loading="lazy" decoding="async">
-                                    <img src="/images/generated/attractions/bwindi-impenetrable-national-park/03.jpg" alt="Uganda"  class="gallery-grid__slot"  loading="lazy" decoding="async">
-                                    <img src="/images/generated/attractions/bwindi-impenetrable-national-park/04.jpg" alt="Uganda"  class="gallery-grid__slot"  loading="lazy" decoding="async">
-                                    <img src="/images/generated/attractions/bwindi-impenetrable-national-park/05.jpg" alt="Uganda"  class="gallery-grid__slot"  loading="lazy" decoding="async">
+                                    <img src="/images/stock/destinations/bwindi-impenetrable-national-park.jpg" alt="Uganda"  class="gallery-grid__slot"  loading="lazy" decoding="async">
                             </div>
         </div>
     </section>
@@ -163,7 +159,35 @@
     </div>
 </section>
 
-<section class="section section--alt">
+<section class="section section--compact">
+    <div class="container">
+        <form class="search-ribbon" data-search-ribbon method="GET" action="/accommodations">
+    <div class="search-ribbon__modes" role="tablist" aria-label="Search type">
+        <button type="button" data-search-mode="attractions" class="">Attractions</button>
+        <button type="button" data-search-mode="accommodations" class="is-active">Accommodations</button>
+    </div>
+    <label class="search-ribbon__query">Find a place
+        <input data-search-input name="q" type="search" value="Uganda" role="combobox" aria-autocomplete="list" aria-controls="search-ribbon-listbox" aria-expanded="false" placeholder="Country, city, park, or property">
+        <ul id="search-ribbon-listbox" data-search-listbox role="listbox" hidden></ul>
+    </label>
+    <div class="search-ribbon__stay-fields" data-stay-fields >
+        <label>Check in<input name="checkin" type="date" value=""></label>
+        <label>Check out<input name="checkout" type="date" value=""></label>
+        <label>Adults<input name="adults" type="number" min="1" max="12" value="2"></label>
+        <label>Children<input name="children" type="number" min="0" max="8" value="0"></label>
+        <label>Rooms<input name="rooms" type="number" min="1" max="8" value="1"></label>
+    </div>
+    <div class="search-ribbon__attraction-fields" data-attraction-fields  hidden >
+        <label>Travel date<input name="travel_date" type="date" value=""></label>
+        <label>Travelers<input name="adults" type="number" min="1" max="12" value="2"></label>
+    </div>
+    <button class="button" type="submit">Search</button>
+</form>
+<script>window.trekSearchSuggestions = [];</script>
+    </div>
+</section>
+
+    <section class="section section--alt">
     <div class="container">
         <div class="section-heading">
             <p class="eyebrow">Attractions</p>
@@ -171,38 +195,44 @@
             <p>Open the places that catch your eye, then compare the practical details: how to get there, when to go, where to stay nearby, and which booking path makes sense.</p>
         </div>
         <div class="listing-grid">
-                            <article class="listing-card">
-    <a href="/attractions/bwindi-impenetrable-national-park" class="listing-card__image">
-        <img src="/images/generated/attractions/bwindi-impenetrable-national-park/01.jpg" alt="Bwindi Impenetrable National Park"  class="listing-card__slot"  loading="lazy" decoding="async">
-    </a>
+                            <article class="listing-card "  id="listing-bwindi-impenetrable-national-park" >
+    <div class="listing-card__image">
+        <img src="/images/stock/destinations/bwindi-impenetrable-national-park.jpg" alt="Bwindi Impenetrable National Park"  class="listing-card__slot"  loading="lazy" decoding="async">
+    </div>
     <div class="listing-card__body">
                     <p class="listing-card__eyebrow">Uganda</p>
-                <h3><a href="/attractions/bwindi-impenetrable-national-park">Bwindi Impenetrable National Park</a></h3>
+                <h3>Bwindi Impenetrable National Park</h3>
         <p>Mountain gorilla trekking in one of Africa’s most powerful forest landscapes.</p>
 
         <div class="listing-card__footer">
                             <div class="chip-row">
                                                                         <span>Southwestern Uganda</span>
                                                             </div>
-                        <a href="/attractions/bwindi-impenetrable-national-park" class="button button--ghost">Plan visit</a>
-        </div>
+                                        <div class="booking-offers">
+                                <p class="booking-offers__price"> Check live price </p>
+            <a class="button button--ghost" href="https://www.stay22.com/allez/getyourguide?aid=aid-test&amp;campaign=attraction_bwindi-impenetrable-national-park&amp;link=https%3A%2F%2Fwww.getyourguide.com%2Fen-gb%2Fwestern-region-uganda-l118965%2Fbwindi-impenetrable-national-park-gorilla-trekking-day-trip-t860183%2F" target="_blank" rel="nofollow sponsored noopener">Compare tours on GetYourGuide</a>
+                                            </div>
+                    </div>
     </div>
 </article>
-                            <article class="listing-card">
-    <a href="/attractions/murchison-falls-national-park" class="listing-card__image">
-        <img src="/images/generated/attractions/murchison-falls-national-park/01.jpg" alt="Murchison Falls National Park"  class="listing-card__slot"  loading="lazy" decoding="async">
-    </a>
+                            <article class="listing-card "  id="listing-murchison-falls-national-park" >
+    <div class="listing-card__image">
+        <img src="/images/stock/destinations/murchison-falls-national-park.jpg" alt="Murchison Falls National Park"  class="listing-card__slot"  loading="lazy" decoding="async">
+    </div>
     <div class="listing-card__body">
                     <p class="listing-card__eyebrow">Uganda</p>
-                <h3><a href="/attractions/murchison-falls-national-park">Murchison Falls National Park</a></h3>
+                <h3>Murchison Falls National Park</h3>
         <p>Uganda’s flagship Nile-and-savannah park with boat safaris, game drives, and the dramatic falls.</p>
 
         <div class="listing-card__footer">
                             <div class="chip-row">
                                                                         <span>Northern Uganda</span>
                                                             </div>
-                        <a href="/attractions/murchison-falls-national-park" class="button button--ghost">Plan visit</a>
-        </div>
+                                        <div class="booking-offers">
+                                <p class="booking-offers__price"> Check live price </p>
+            <a class="button button--ghost" href="https://www.stay22.com/allez/getyourguide?aid=aid-test&amp;campaign=attraction_murchison-falls-national-park&amp;link=https%3A%2F%2Fwww.getyourguide.com%2Fmurchison-falls-l161860%2F" target="_blank" rel="nofollow sponsored noopener">Compare tours on GetYourGuide</a>
+                                            </div>
+                    </div>
     </div>
 </article>
                     </div>
@@ -213,44 +243,50 @@
     <div class="container">
         <div class="section-heading section-heading--compact">
             <p class="eyebrow">Nearby stays</p>
-                <h2>Stays that keep you close to the experience</h2>
+            <h2>Stays that keep you close to the experience</h2>
         </div>
         <div class="listing-grid">
-                                    <article class="listing-card">
-    <a href="/accommodations/sanctuary-gorilla-forest-camp" class="listing-card__image">
-        <img src="/images/generated/accommodations/sanctuary-gorilla-forest-camp/01.jpg" alt="Sanctuary Gorilla Forest Camp"  class="listing-card__slot"  loading="lazy" decoding="async">
-    </a>
+                            <article class="listing-card "  id="listing-sanctuary-gorilla-forest-camp" >
+    <div class="listing-card__image">
+        <img src="/images/stock/destinations/bwindi-impenetrable-national-park.jpg" alt="Destination landscape near Sanctuary Gorilla Forest Camp"  class="listing-card__slot"  loading="lazy" decoding="async">
+    </div>
     <div class="listing-card__body">
                     <p class="listing-card__eyebrow">Bwindi Impenetrable National Park</p>
-                <h3><a href="/accommodations/sanctuary-gorilla-forest-camp">Sanctuary Gorilla Forest Camp</a></h3>
+                <h3>Sanctuary Gorilla Forest Camp</h3>
         <p>A long-established forest camp positioned inside the Bwindi area for early gorilla-trekking starts and a quieter rainforest s...</p>
 
         <div class="listing-card__footer">
                             <div class="chip-row">
                                                                         <span>Forest safari camp</span>
                                                             </div>
-                        <a href="/accommodations/sanctuary-gorilla-forest-camp" class="button button--ghost">View route fit</a>
-        </div>
+                                        <div class="booking-offers">
+                                <p class="booking-offers__price"> Check live price </p>
+            <a class="button button--ghost" href="https://www.stay22.com/allez/booking?aid=aid-test&amp;campaign=accommodation_sanctuary-gorilla-forest-camp&amp;link=https%3A%2F%2Fwww.booking.com%2Fsearchresults.html%3Fss%3DSanctuary%2BGorilla%2BForest%2BCamp%252C%2BBwindi%2BImpenetrable%2BNational%2BPark%252C%2BBuhoma%2Bsector" target="_blank" rel="nofollow sponsored noopener">Compare on Booking.com</a>
+                                            </div>
+                    </div>
     </div>
 </article>
-                                    <article class="listing-card">
-    <a href="/accommodations/paraa-safari-lodge" class="listing-card__image">
-        <img src="/images/generated/accommodations/paraa-safari-lodge/01.jpg" alt="Paraa Safari Lodge"  class="listing-card__slot"  loading="lazy" decoding="async">
-    </a>
+                            <article class="listing-card "  id="listing-paraa-safari-lodge" >
+    <div class="listing-card__image">
+        <img src="/images/stock/destinations/murchison-falls-national-park.jpg" alt="Destination landscape near Paraa Safari Lodge"  class="listing-card__slot"  loading="lazy" decoding="async">
+    </div>
     <div class="listing-card__body">
                     <p class="listing-card__eyebrow">Murchison Falls National Park</p>
-                <h3><a href="/accommodations/paraa-safari-lodge">Paraa Safari Lodge</a></h3>
+                <h3>Paraa Safari Lodge</h3>
         <p>A practical Nile-side lodge for travelers combining boat safaris, falls visits, and northern-bank game drives.</p>
 
         <div class="listing-card__footer">
                             <div class="chip-row">
                                                                         <span>Safari lodge</span>
                                                             </div>
-                        <a href="/accommodations/paraa-safari-lodge" class="button button--ghost">View route fit</a>
-        </div>
+                                        <div class="booking-offers">
+                                <p class="booking-offers__price"> Check live price </p>
+            <a class="button button--ghost" href="https://www.stay22.com/allez/booking?aid=aid-test&amp;campaign=accommodation_paraa-safari-lodge&amp;link=https%3A%2F%2Fwww.booking.com%2Fhotel%2Fug%2Fparaa-safari-lodge.en-gb.html" target="_blank" rel="nofollow sponsored noopener">View deal on Booking.com</a>
+                                            </div>
+                    </div>
     </div>
 </article>
-                            </div>
+                    </div>
     </div>
 </section>
 
@@ -261,41 +297,54 @@
             <h2>Dining ideas that add flavor to the journey</h2>
         </div>
         <div class="listing-grid">
-                            <article class="listing-card">
-    <a href="/restaurants/sanctuary-gorilla-forest-camp-dining" class="listing-card__image">
-        <img src="/images/generated/restaurants/sanctuary-gorilla-forest-camp-dining/01.jpg" alt="Sanctuary Gorilla Forest Camp Dining"  class="listing-card__slot"  loading="lazy" decoding="async">
-    </a>
+                            <article class="listing-card "  id="listing-sanctuary-gorilla-forest-camp-dining" >
+    <div class="listing-card__image">
+        <img src="/images/stock/destinations/bwindi-impenetrable-national-park.jpg" alt="Destination landscape near Sanctuary Gorilla Forest Camp Dining"  class="listing-card__slot"  loading="lazy" decoding="async">
+    </div>
     <div class="listing-card__body">
                     <p class="listing-card__eyebrow">Bwindi Impenetrable National Park</p>
-                <h3><a href="/restaurants/sanctuary-gorilla-forest-camp-dining">Sanctuary Gorilla Forest Camp Dining</a></h3>
+                <h3>Sanctuary Gorilla Forest Camp Dining</h3>
         <p>A realistic dining option for Bwindi because most visitors eat at their lodge before and after trekking rather than browsing...</p>
 
         <div class="listing-card__footer">
                             <div class="chip-row">
                                                                         <span>Lodge dining</span>
                                                             </div>
-                        <a href="/restaurants/sanctuary-gorilla-forest-camp-dining" class="button button--ghost">View dining</a>
-        </div>
+                                        <div class="booking-offers">
+                                <p class="booking-offers__price"> Check menu and reservation details </p>
+            <a class="button button--ghost" href="https://www.sanctuaryretreats.com/uganda-camps-gorilla-forest-camp" target="_blank" rel="nofollow noopener">Visit official site</a>
+            <small>External provider link; Trek Africa Guide does not process this booking.</small>                                </div>
+                    </div>
     </div>
 </article>
-                            <article class="listing-card">
-    <a href="/restaurants/paraa-safari-lodge-dining" class="listing-card__image">
-        <img src="/images/generated/restaurants/paraa-safari-lodge-dining/01.jpg" alt="Paraa Safari Lodge Dining"  class="listing-card__slot"  loading="lazy" decoding="async">
-    </a>
+                            <article class="listing-card "  id="listing-paraa-safari-lodge-dining" >
+    <div class="listing-card__image">
+        <img src="/images/stock/destinations/murchison-falls-national-park.jpg" alt="Destination landscape near Paraa Safari Lodge Dining"  class="listing-card__slot"  loading="lazy" decoding="async">
+    </div>
     <div class="listing-card__body">
                     <p class="listing-card__eyebrow">Murchison Falls National Park</p>
-                <h3><a href="/restaurants/paraa-safari-lodge-dining">Paraa Safari Lodge Dining</a></h3>
+                <h3>Paraa Safari Lodge Dining</h3>
         <p>Murchison dining is usually lodge-based because game drives and boat departures shape the day. Paraa is practical for travele...</p>
 
         <div class="listing-card__footer">
                             <div class="chip-row">
                                                                         <span>Lodge dining</span>
                                                             </div>
-                        <a href="/restaurants/paraa-safari-lodge-dining" class="button button--ghost">View dining</a>
-        </div>
+                                        <div class="booking-offers">
+                                <p class="booking-offers__price"> Check menu and reservation details </p>
+            <a class="button button--ghost" href="https://paraalodge.com/" target="_blank" rel="nofollow noopener">Visit official site</a>
+            <small>External provider link; Trek Africa Guide does not process this booking.</small>                                </div>
+                    </div>
     </div>
 </article>
                     </div>
+    </div>
+</section>
+
+<section class="section">
+    <div class="container">
+        <div class="section-heading section-heading--compact"><p class="eyebrow">Tour operators</p><h2>Operators that can help shape the route</h2></div>
+        <div class="operator-grid"><article class="operator-card"><h3>Uganda Journey Studio</h3><p>A locally grounded tour operator active in Uganda, useful for travelers who want attractions, stays, transfers, guide support, and timing shaped into one coherent route.</p></article></div>
     </div>
 </section>
     </main>
@@ -345,4 +394,3 @@
     <script src="/cms-sync.js"></script>
 </body>
 </html>
-

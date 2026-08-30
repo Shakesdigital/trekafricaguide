@@ -27,7 +27,7 @@
             two.parentNode.insertBefore(twenty, two);
         })(window, document, 'script', 'https://scripts.stay22.com/letmeallez.js');
     </script>
-    <link rel="preload" as="style" href="/build/assets/app-OourHNl0.css" /><link rel="modulepreload" as="script" href="/build/assets/app-DfCL3t2R.js" /><link rel="stylesheet" href="/build/assets/app-OourHNl0.css" /><script type="module" src="/build/assets/app-DfCL3t2R.js"></script></head>
+    <link rel="preload" as="style" href="/build/assets/app-o8CMVoSJ.css" /><link rel="modulepreload" as="script" href="/build/assets/app-4r-rNyw7.js" /><link rel="stylesheet" href="/build/assets/app-o8CMVoSJ.css" /><script type="module" src="/build/assets/app-4r-rNyw7.js"></script></head>
 <body>
     <div class="site-topline">
         <div class="container site-topline__inner">
@@ -65,16 +65,16 @@
 <section class="hero hero--carousel">
     <div class="hero-carousel" data-hero-carousel>
                     <div class="hero-carousel__slide  is-active " data-hero-slide>
-                <img src="/images/generated/attractions/maasai-mara/01.jpg" alt="East Africa hero image slot"  class="hero-carousel__slot"  loading="lazy" decoding="async">
+                <img src="/images/stock/destinations/maasai-mara.jpg" alt="East Africa destination landscape"  class="hero-carousel__slot"  loading="lazy" decoding="async">
             </div>
                     <div class="hero-carousel__slide " data-hero-slide>
-                <img src="/images/generated/attractions/cape-coast-kakum/01.jpg" alt="West Africa hero image slot"  class="hero-carousel__slot"  loading="lazy" decoding="async">
+                <img src="/images/stock/destinations/cape-coast-kakum.jpg" alt="West Africa destination landscape"  class="hero-carousel__slot"  loading="lazy" decoding="async">
             </div>
                     <div class="hero-carousel__slide " data-hero-slide>
-                <img src="/images/generated/attractions/namib-desert/01.jpg" alt="Southern Africa hero image slot"  class="hero-carousel__slot"  loading="lazy" decoding="async">
+                <img src="/images/stock/destinations/namib-desert.jpg" alt="Southern Africa destination landscape"  class="hero-carousel__slot"  loading="lazy" decoding="async">
             </div>
                     <div class="hero-carousel__slide " data-hero-slide>
-                <img src="/images/generated/attractions/marrakech-and-atlas/01.jpg" alt="Northern Africa hero image slot"  class="hero-carousel__slot"  loading="lazy" decoding="async">
+                <img src="/images/stock/destinations/marrakech-and-atlas.jpg" alt="Northern Africa destination landscape"  class="hero-carousel__slot"  loading="lazy" decoding="async">
             </div>
             </div>
     <div class="hero__overlay"></div>
@@ -82,10 +82,29 @@
         <p class="eyebrow" data-hero-region>East Africa</p>
         <h1 data-hero-title>Plan Africa trips by destination, attraction, stay, and dining route.</h1>
         <p class="hero__lead" data-hero-body>Compare Kenya, Tanzania, Uganda, Rwanda, and Ethiopia through the experiences they do best, from gorilla trekking and migration safaris to coast and heritage routes.</p>
-        <form class="hero-search" method="GET" action="/attractions">
-            <input type="search" name="q" placeholder="Search a country, park, city, lodge, or restaurant" aria-label="Search Trek Africa Guide">
-            <button class="button" type="submit">Search</button>
-        </form>
+        <form class="search-ribbon" data-search-ribbon method="GET" action="/attractions">
+    <div class="search-ribbon__modes" role="tablist" aria-label="Search type">
+        <button type="button" data-search-mode="attractions" class="is-active">Attractions</button>
+        <button type="button" data-search-mode="accommodations" class="">Accommodations</button>
+    </div>
+    <label class="search-ribbon__query">Find a place
+        <input data-search-input name="q" type="search" value="" role="combobox" aria-autocomplete="list" aria-controls="search-ribbon-listbox" aria-expanded="false" placeholder="Country, city, park, or property">
+        <ul id="search-ribbon-listbox" data-search-listbox role="listbox" hidden></ul>
+    </label>
+    <div class="search-ribbon__stay-fields" data-stay-fields  hidden >
+        <label>Check in<input name="checkin" type="date" value=""></label>
+        <label>Check out<input name="checkout" type="date" value=""></label>
+        <label>Adults<input name="adults" type="number" min="1" max="12" value="2"></label>
+        <label>Children<input name="children" type="number" min="0" max="8" value="0"></label>
+        <label>Rooms<input name="rooms" type="number" min="1" max="8" value="1"></label>
+    </div>
+    <div class="search-ribbon__attraction-fields" data-attraction-fields >
+        <label>Travel date<input name="travel_date" type="date" value=""></label>
+        <label>Travelers<input name="adults" type="number" min="1" max="12" value="2"></label>
+    </div>
+    <button class="button" type="submit">Search</button>
+</form>
+<script>window.trekSearchSuggestions = [];</script>
 
         <div class="hero__actions">
             <a href="/regions" class="button">Explore Regions</a>
@@ -140,7 +159,7 @@
             <ul class="bullet-list">
                 <li>Begin with the part of Africa that matches your travel style: safari, coast, culture, desert, food, heritage, or a mix of several.</li>
                 <li>Open a destination guide to see the attractions, stays, restaurants, and operators that make sense together.</li>
-                <li>Compare the practical details first, then continue to an external booking partner when a listing is worth a closer look.</li>
+                <li>Compare the practical details first, then use the clearly named provider button when a listing fits your trip.</li>
             </ul>
         </div>
     </div>
@@ -155,7 +174,7 @@
         </div>
         <div class="region-grid">
                             <a href="/regions/east-africa" class="region-card">
-                    <img src="/images/generated/attractions/serengeti-national-park/01.jpg" alt="Reserved image space for East Africa safari plains and forest travel"  class="region-card__slot"  loading="lazy" decoding="async">
+                    <img src="/images/stock/destinations/serengeti-national-park.jpg" alt="Serengeti landscape representing East Africa travel"  class="region-card__slot"  loading="lazy" decoding="async">
                     <div class="region-card__content">
                         <span>5 destination countries</span>
                         <h3>East Africa</h3>
@@ -163,7 +182,7 @@
                     </div>
                 </a>
                             <a href="/regions/west-africa" class="region-card">
-                    <img src="/images/generated/attractions/sine-saloum-delta/01.jpg" alt="Reserved image space for West Africa heritage coast and cultural travel"  class="region-card__slot"  loading="lazy" decoding="async">
+                    <img src="/images/stock/destinations/sine-saloum-delta.jpg" alt="Sine-Saloum Delta landscape representing West Africa travel"  class="region-card__slot"  loading="lazy" decoding="async">
                     <div class="region-card__content">
                         <span>5 destination countries</span>
                         <h3>West Africa</h3>
@@ -171,7 +190,7 @@
                     </div>
                 </a>
                             <a href="/regions/southern-africa" class="region-card">
-                    <img src="/images/generated/attractions/namib-desert/01.jpg" alt="Reserved image space for Southern Africa wilderness and desert routes"  class="region-card__slot"  loading="lazy" decoding="async">
+                    <img src="/images/stock/destinations/namib-desert.jpg" alt="Namib Desert landscape representing Southern Africa travel"  class="region-card__slot"  loading="lazy" decoding="async">
                     <div class="region-card__content">
                         <span>5 destination countries</span>
                         <h3>Southern Africa</h3>
@@ -179,7 +198,7 @@
                     </div>
                 </a>
                             <a href="/regions/northern-africa" class="region-card">
-                    <img src="/images/generated/attractions/marrakech-and-atlas/01.jpg" alt="Reserved image space for Northern Africa medinas, antiquities, and desert travel"  class="region-card__slot"  loading="lazy" decoding="async">
+                    <img src="/images/stock/destinations/marrakech-and-atlas.jpg" alt="Marrakech cityscape representing Northern Africa travel"  class="region-card__slot"  loading="lazy" decoding="async">
                     <div class="region-card__content">
                         <span>4 destination countries</span>
                         <h3>Northern Africa</h3>
@@ -195,109 +214,127 @@
         <div class="section-heading">
             <p class="eyebrow">Featured Attractions</p>
             <h2>Attractions that can become the anchor of the journey.</h2>
-            <p>Open each listing for researched, place-specific detail: defining landscapes and heritage, signature wildlife or experiences, realistic access, seasonality, and recurring visitor trade-offs.</p>
+            <p>Compare place-specific summaries, location context, indicative pricing where verified, and clearly named provider options without leaving the directory first.</p>
         </div>
         <div class="listing-grid">
-                            <article class="listing-card">
-    <a href="/attractions/bwindi-impenetrable-national-park" class="listing-card__image">
-        <img src="/images/generated/attractions/bwindi-impenetrable-national-park/01.jpg" alt="Bwindi Impenetrable National Park"  class="listing-card__slot"  loading="lazy" decoding="async">
-    </a>
+                            <article class="listing-card "  id="listing-bwindi-impenetrable-national-park" >
+    <div class="listing-card__image">
+        <img src="/images/stock/destinations/bwindi-impenetrable-national-park.jpg" alt="Bwindi Impenetrable National Park"  class="listing-card__slot"  loading="lazy" decoding="async">
+    </div>
     <div class="listing-card__body">
                     <p class="listing-card__eyebrow">Uganda</p>
-                <h3><a href="/attractions/bwindi-impenetrable-national-park">Bwindi Impenetrable National Park</a></h3>
+                <h3>Bwindi Impenetrable National Park</h3>
         <p>Mountain gorilla trekking in one of Africa’s most powerful forest landscapes.</p>
 
         <div class="listing-card__footer">
                             <div class="chip-row">
                                                                         <span>Southwestern Uganda</span>
                                                             </div>
-                        <a href="/attractions/bwindi-impenetrable-national-park" class="button button--ghost">Plan visit</a>
-        </div>
+                                        <div class="booking-offers">
+                                <p class="booking-offers__price"> Check live price </p>
+            <a class="button button--ghost" href="https://www.stay22.com/allez/getyourguide?aid=aid-test&amp;campaign=attraction_bwindi-impenetrable-national-park&amp;link=https%3A%2F%2Fwww.getyourguide.com%2Fen-gb%2Fwestern-region-uganda-l118965%2Fbwindi-impenetrable-national-park-gorilla-trekking-day-trip-t860183%2F" target="_blank" rel="nofollow sponsored noopener">Compare tours on GetYourGuide</a>
+                                            </div>
+                    </div>
     </div>
 </article>
-                            <article class="listing-card">
-    <a href="/attractions/maasai-mara" class="listing-card__image">
-        <img src="/images/generated/attractions/maasai-mara/01.jpg" alt="Maasai Mara"  class="listing-card__slot"  loading="lazy" decoding="async">
-    </a>
+                            <article class="listing-card "  id="listing-maasai-mara" >
+    <div class="listing-card__image">
+        <img src="/images/stock/destinations/maasai-mara.jpg" alt="Maasai Mara"  class="listing-card__slot"  loading="lazy" decoding="async">
+    </div>
     <div class="listing-card__body">
                     <p class="listing-card__eyebrow">Kenya</p>
-                <h3><a href="/attractions/maasai-mara">Maasai Mara</a></h3>
+                <h3>Maasai Mara</h3>
         <p>Kenya’s classic safari icon for migration drama, predators, and broad savannah horizons.</p>
 
         <div class="listing-card__footer">
                             <div class="chip-row">
                                                                         <span>Southwestern Kenya</span>
                                                             </div>
-                        <a href="/attractions/maasai-mara" class="button button--ghost">Plan visit</a>
-        </div>
+                                        <div class="booking-offers">
+                                <p class="booking-offers__price"> Check live price </p>
+            <a class="button button--ghost" href="https://www.stay22.com/allez/getyourguide?aid=aid-test&amp;campaign=attraction_maasai-mara&amp;link=https%3A%2F%2Fwww.getyourguide.com%2Fs%2F%3Fq%3DMaasai%2BMara" target="_blank" rel="nofollow sponsored noopener">Compare tours on GetYourGuide</a>
+                                            </div>
+                    </div>
     </div>
 </article>
-                            <article class="listing-card">
-    <a href="/attractions/serengeti-national-park" class="listing-card__image">
-        <img src="/images/generated/attractions/serengeti-national-park/01.jpg" alt="Serengeti National Park"  class="listing-card__slot"  loading="lazy" decoding="async">
-    </a>
+                            <article class="listing-card "  id="listing-serengeti-national-park" >
+    <div class="listing-card__image">
+        <img src="/images/stock/destinations/serengeti-national-park.jpg" alt="Serengeti National Park"  class="listing-card__slot"  loading="lazy" decoding="async">
+    </div>
     <div class="listing-card__body">
                     <p class="listing-card__eyebrow">Tanzania</p>
-                <h3><a href="/attractions/serengeti-national-park">Serengeti National Park</a></h3>
+                <h3>Serengeti National Park</h3>
         <p>Vast migration landscapes, apex predators, and one of Africa’s strongest safari names.</p>
 
         <div class="listing-card__footer">
                             <div class="chip-row">
                                                                         <span>Northern Tanzania</span>
                                                             </div>
-                        <a href="/attractions/serengeti-national-park" class="button button--ghost">Plan visit</a>
-        </div>
+                                        <div class="booking-offers">
+                                <p class="booking-offers__price"> Check live price </p>
+            <a class="button button--ghost" href="https://www.stay22.com/allez/getyourguide?aid=aid-test&amp;campaign=attraction_serengeti-national-park&amp;link=https%3A%2F%2Fwww.getyourguide.com%2Fserengeti-national-park-l123040%2F" target="_blank" rel="nofollow sponsored noopener">Compare tours on GetYourGuide</a>
+                                            </div>
+                    </div>
     </div>
 </article>
-                            <article class="listing-card">
-    <a href="/attractions/cape-town" class="listing-card__image">
-        <img src="/images/generated/attractions/cape-town/01.jpg" alt="Cape Town"  class="listing-card__slot"  loading="lazy" decoding="async">
-    </a>
+                            <article class="listing-card "  id="listing-cape-town" >
+    <div class="listing-card__image">
+        <img src="/images/stock/destinations/cape-town.jpg" alt="Cape Town"  class="listing-card__slot"  loading="lazy" decoding="async">
+    </div>
     <div class="listing-card__body">
                     <p class="listing-card__eyebrow">South Africa</p>
-                <h3><a href="/attractions/cape-town">Cape Town</a></h3>
+                <h3>Cape Town</h3>
         <p>A design-led city with ocean views, wine access, and easy day trips.</p>
 
         <div class="listing-card__footer">
                             <div class="chip-row">
                                                                         <span>Western Cape</span>
                                                             </div>
-                        <a href="/attractions/cape-town" class="button button--ghost">Plan visit</a>
-        </div>
+                                        <div class="booking-offers">
+                                <p class="booking-offers__price"> Check live price </p>
+            <a class="button button--ghost" href="https://www.stay22.com/allez/getyourguide?aid=aid-test&amp;campaign=attraction_cape-town&amp;link=https%3A%2F%2Fwww.getyourguide.com%2Fs%2F%3Fq%3DCape%2BTown" target="_blank" rel="nofollow sponsored noopener">Compare tours on GetYourGuide</a>
+                                            </div>
+                    </div>
     </div>
 </article>
-                            <article class="listing-card">
-    <a href="/attractions/victoria-falls" class="listing-card__image">
-        <img src="/images/generated/attractions/victoria-falls/01.jpg" alt="Victoria Falls"  class="listing-card__slot"  loading="lazy" decoding="async">
-    </a>
+                            <article class="listing-card "  id="listing-victoria-falls" >
+    <div class="listing-card__image">
+        <img src="/images/stock/destinations/victoria-falls.jpg" alt="Victoria Falls"  class="listing-card__slot"  loading="lazy" decoding="async">
+    </div>
     <div class="listing-card__body">
                     <p class="listing-card__eyebrow">Zimbabwe</p>
-                <h3><a href="/attractions/victoria-falls">Victoria Falls</a></h3>
+                <h3>Victoria Falls</h3>
         <p>The classic waterfall gateway for rainforest walks, river activities, and onward safari routing.</p>
 
         <div class="listing-card__footer">
                             <div class="chip-row">
                                                                         <span>Zimbabwe</span>
                                                             </div>
-                        <a href="/attractions/victoria-falls" class="button button--ghost">Plan visit</a>
-        </div>
+                                        <div class="booking-offers">
+                                <p class="booking-offers__price"> Check live price </p>
+            <a class="button button--ghost" href="https://www.stay22.com/allez/getyourguide?aid=aid-test&amp;campaign=attraction_victoria-falls&amp;link=https%3A%2F%2Fwww.getyourguide.com%2Fs%2F%3Fq%3DVictoria%2BFalls" target="_blank" rel="nofollow sponsored noopener">Compare tours on GetYourGuide</a>
+                                            </div>
+                    </div>
     </div>
 </article>
-                            <article class="listing-card">
-    <a href="/attractions/marrakech-and-atlas" class="listing-card__image">
-        <img src="/images/generated/attractions/marrakech-and-atlas/01.jpg" alt="Marrakech &amp; Atlas Gateway"  class="listing-card__slot"  loading="lazy" decoding="async">
-    </a>
+                            <article class="listing-card "  id="listing-marrakech-and-atlas" >
+    <div class="listing-card__image">
+        <img src="/images/stock/destinations/marrakech-and-atlas.jpg" alt="Marrakech &amp; Atlas Gateway"  class="listing-card__slot"  loading="lazy" decoding="async">
+    </div>
     <div class="listing-card__body">
                     <p class="listing-card__eyebrow">Morocco</p>
-                <h3><a href="/attractions/marrakech-and-atlas">Marrakech &amp; Atlas Gateway</a></h3>
+                <h3>Marrakech &amp; Atlas Gateway</h3>
         <p>A flexible route of medina culture, gardens, riads, and day trips into the Atlas foothills.</p>
 
         <div class="listing-card__footer">
                             <div class="chip-row">
                                                                         <span>Morocco</span>
                                                             </div>
-                        <a href="/attractions/marrakech-and-atlas" class="button button--ghost">Plan visit</a>
-        </div>
+                                        <div class="booking-offers">
+                                <p class="booking-offers__price"> Check live price </p>
+            <a class="button button--ghost" href="https://www.stay22.com/allez/getyourguide?aid=aid-test&amp;campaign=attraction_marrakech-and-atlas&amp;link=https%3A%2F%2Fwww.getyourguide.com%2Fs%2F%3Fq%3DMarrakech%2B%2526%2BAtlas%2BGateway" target="_blank" rel="nofollow sponsored noopener">Compare tours on GetYourGuide</a>
+                                            </div>
+                    </div>
     </div>
 </article>
                     </div>
@@ -355,78 +392,90 @@
             <button class="listing-carousel__button" type="button" data-carousel-prev aria-label="Previous featured stays">&lsaquo;</button>
             <div class="listing-carousel__track" data-carousel-track>
                                     <div class="listing-carousel__item">
-                        <article class="listing-card">
-    <a href="/accommodations/sanctuary-gorilla-forest-camp" class="listing-card__image">
-        <img src="/images/generated/accommodations/sanctuary-gorilla-forest-camp/01.jpg" alt="Sanctuary Gorilla Forest Camp"  class="listing-card__slot"  loading="lazy" decoding="async">
-    </a>
+                        <article class="listing-card "  id="listing-sanctuary-gorilla-forest-camp" >
+    <div class="listing-card__image">
+        <img src="/images/stock/destinations/bwindi-impenetrable-national-park.jpg" alt="Destination landscape near Sanctuary Gorilla Forest Camp"  class="listing-card__slot"  loading="lazy" decoding="async">
+    </div>
     <div class="listing-card__body">
                     <p class="listing-card__eyebrow">Uganda</p>
-                <h3><a href="/accommodations/sanctuary-gorilla-forest-camp">Sanctuary Gorilla Forest Camp</a></h3>
+                <h3>Sanctuary Gorilla Forest Camp</h3>
         <p>A long-established forest camp positioned inside the Bwindi area for early gorilla-trekking starts and a quieter rainforest s...</p>
 
         <div class="listing-card__footer">
                             <div class="chip-row">
                                                                         <span>Forest safari camp</span>
                                                             </div>
-                        <a href="/accommodations/sanctuary-gorilla-forest-camp" class="button button--ghost">View route fit</a>
-        </div>
+                                        <div class="booking-offers">
+                                <p class="booking-offers__price"> Check live price </p>
+            <a class="button button--ghost" href="https://www.stay22.com/allez/booking?aid=aid-test&amp;campaign=accommodation_sanctuary-gorilla-forest-camp&amp;link=https%3A%2F%2Fwww.booking.com%2Fsearchresults.html%3Fss%3DSanctuary%2BGorilla%2BForest%2BCamp%252C%2BBwindi%2BImpenetrable%2BNational%2BPark%252C%2BBuhoma%2Bsector" target="_blank" rel="nofollow sponsored noopener">Compare on Booking.com</a>
+                                            </div>
+                    </div>
     </div>
 </article>
                     </div>
                                     <div class="listing-carousel__item">
-                        <article class="listing-card">
-    <a href="/accommodations/paraa-safari-lodge" class="listing-card__image">
-        <img src="/images/generated/accommodations/paraa-safari-lodge/01.jpg" alt="Paraa Safari Lodge"  class="listing-card__slot"  loading="lazy" decoding="async">
-    </a>
+                        <article class="listing-card "  id="listing-paraa-safari-lodge" >
+    <div class="listing-card__image">
+        <img src="/images/stock/destinations/murchison-falls-national-park.jpg" alt="Destination landscape near Paraa Safari Lodge"  class="listing-card__slot"  loading="lazy" decoding="async">
+    </div>
     <div class="listing-card__body">
                     <p class="listing-card__eyebrow">Uganda</p>
-                <h3><a href="/accommodations/paraa-safari-lodge">Paraa Safari Lodge</a></h3>
+                <h3>Paraa Safari Lodge</h3>
         <p>A practical Nile-side lodge for travelers combining boat safaris, falls visits, and northern-bank game drives.</p>
 
         <div class="listing-card__footer">
                             <div class="chip-row">
                                                                         <span>Safari lodge</span>
                                                             </div>
-                        <a href="/accommodations/paraa-safari-lodge" class="button button--ghost">View route fit</a>
-        </div>
+                                        <div class="booking-offers">
+                                <p class="booking-offers__price"> Check live price </p>
+            <a class="button button--ghost" href="https://www.stay22.com/allez/booking?aid=aid-test&amp;campaign=accommodation_paraa-safari-lodge&amp;link=https%3A%2F%2Fwww.booking.com%2Fhotel%2Fug%2Fparaa-safari-lodge.en-gb.html" target="_blank" rel="nofollow sponsored noopener">View deal on Booking.com</a>
+                                            </div>
+                    </div>
     </div>
 </article>
                     </div>
                                     <div class="listing-carousel__item">
-                        <article class="listing-card">
-    <a href="/accommodations/governors-camp" class="listing-card__image">
-        <img src="/images/generated/accommodations/governors-camp/01.jpg" alt="Governors&#039; Camp"  class="listing-card__slot"  loading="lazy" decoding="async">
-    </a>
+                        <article class="listing-card "  id="listing-governors-camp" >
+    <div class="listing-card__image">
+        <img src="/images/stock/destinations/maasai-mara.jpg" alt="Destination landscape near Governors&#039; Camp"  class="listing-card__slot"  loading="lazy" decoding="async">
+    </div>
     <div class="listing-card__body">
                     <p class="listing-card__eyebrow">Kenya</p>
-                <h3><a href="/accommodations/governors-camp">Governors&#039; Camp</a></h3>
+                <h3>Governors&#039; Camp</h3>
         <p>A historic tented camp in a strong game-viewing zone, often used by travelers who want classic Mara atmosphere without losing...</p>
 
         <div class="listing-card__footer">
                             <div class="chip-row">
                                                                         <span>Safari tented camp</span>
                                                             </div>
-                        <a href="/accommodations/governors-camp" class="button button--ghost">View route fit</a>
-        </div>
+                                        <div class="booking-offers">
+                                <p class="booking-offers__price"> Check live price </p>
+            <a class="button button--ghost" href="https://www.stay22.com/allez/booking?aid=aid-test&amp;campaign=accommodation_governors-camp&amp;link=https%3A%2F%2Fwww.booking.com%2Fsearchresults.html%3Fss%3DGovernors%2527%2BCamp%252C%2BMara%2BRiver%2Barea%252C%2BMaasai%2BMara%2BNational%2BReserve" target="_blank" rel="nofollow sponsored noopener">Compare on Booking.com</a>
+                                            </div>
+                    </div>
     </div>
 </article>
                     </div>
                                     <div class="listing-carousel__item">
-                        <article class="listing-card">
-    <a href="/accommodations/ol-tukai-lodge-amboseli" class="listing-card__image">
-        <img src="/images/generated/accommodations/ol-tukai-lodge-amboseli/01.jpg" alt="Ol Tukai Lodge Amboseli"  class="listing-card__slot"  loading="lazy" decoding="async">
-    </a>
+                        <article class="listing-card "  id="listing-ol-tukai-lodge-amboseli" >
+    <div class="listing-card__image">
+        <img src="/images/stock/destinations/amboseli-national-park.jpg" alt="Destination landscape near Ol Tukai Lodge Amboseli"  class="listing-card__slot"  loading="lazy" decoding="async">
+    </div>
     <div class="listing-card__body">
                     <p class="listing-card__eyebrow">Kenya</p>
-                <h3><a href="/accommodations/ol-tukai-lodge-amboseli">Ol Tukai Lodge Amboseli</a></h3>
+                <h3>Ol Tukai Lodge Amboseli</h3>
         <p>A well-known Amboseli base for elephant viewing and Kilimanjaro-facing safari days.</p>
 
         <div class="listing-card__footer">
                             <div class="chip-row">
                                                                         <span>Safari lodge</span>
                                                             </div>
-                        <a href="/accommodations/ol-tukai-lodge-amboseli" class="button button--ghost">View route fit</a>
-        </div>
+                                        <div class="booking-offers">
+                                <p class="booking-offers__price"> Check live price </p>
+            <a class="button button--ghost" href="https://www.stay22.com/allez/booking?aid=aid-test&amp;campaign=accommodation_ol-tukai-lodge-amboseli&amp;link=https%3A%2F%2Fwww.booking.com%2Fhotel%2Fke%2Fol-tukai-lodge-amboseli.html" target="_blank" rel="nofollow sponsored noopener">View deal on Booking.com</a>
+                                            </div>
+                    </div>
     </div>
 </article>
                     </div>
@@ -450,78 +499,90 @@
             <button class="listing-carousel__button" type="button" data-carousel-prev aria-label="Previous featured restaurants">&lsaquo;</button>
             <div class="listing-carousel__track" data-carousel-track>
                                     <div class="listing-carousel__item">
-                        <article class="listing-card">
-    <a href="/restaurants/sanctuary-gorilla-forest-camp-dining" class="listing-card__image">
-        <img src="/images/generated/restaurants/sanctuary-gorilla-forest-camp-dining/01.jpg" alt="Sanctuary Gorilla Forest Camp Dining"  class="listing-card__slot"  loading="lazy" decoding="async">
-    </a>
+                        <article class="listing-card "  id="listing-sanctuary-gorilla-forest-camp-dining" >
+    <div class="listing-card__image">
+        <img src="/images/stock/destinations/bwindi-impenetrable-national-park.jpg" alt="Destination landscape near Sanctuary Gorilla Forest Camp Dining"  class="listing-card__slot"  loading="lazy" decoding="async">
+    </div>
     <div class="listing-card__body">
                     <p class="listing-card__eyebrow">Uganda</p>
-                <h3><a href="/restaurants/sanctuary-gorilla-forest-camp-dining">Sanctuary Gorilla Forest Camp Dining</a></h3>
+                <h3>Sanctuary Gorilla Forest Camp Dining</h3>
         <p>A realistic dining option for Bwindi because most visitors eat at their lodge before and after trekking rather than browsing...</p>
 
         <div class="listing-card__footer">
                             <div class="chip-row">
                                                                         <span>Lodge dining</span>
                                                             </div>
-                        <a href="/restaurants/sanctuary-gorilla-forest-camp-dining" class="button button--ghost">View dining</a>
-        </div>
+                                        <div class="booking-offers">
+                                <p class="booking-offers__price"> Check menu and reservation details </p>
+            <a class="button button--ghost" href="https://www.sanctuaryretreats.com/uganda-camps-gorilla-forest-camp" target="_blank" rel="nofollow noopener">Visit official site</a>
+            <small>External provider link; Trek Africa Guide does not process this booking.</small>                                </div>
+                    </div>
     </div>
 </article>
                     </div>
                                     <div class="listing-carousel__item">
-                        <article class="listing-card">
-    <a href="/restaurants/paraa-safari-lodge-dining" class="listing-card__image">
-        <img src="/images/generated/restaurants/paraa-safari-lodge-dining/01.jpg" alt="Paraa Safari Lodge Dining"  class="listing-card__slot"  loading="lazy" decoding="async">
-    </a>
+                        <article class="listing-card "  id="listing-paraa-safari-lodge-dining" >
+    <div class="listing-card__image">
+        <img src="/images/stock/destinations/murchison-falls-national-park.jpg" alt="Destination landscape near Paraa Safari Lodge Dining"  class="listing-card__slot"  loading="lazy" decoding="async">
+    </div>
     <div class="listing-card__body">
                     <p class="listing-card__eyebrow">Uganda</p>
-                <h3><a href="/restaurants/paraa-safari-lodge-dining">Paraa Safari Lodge Dining</a></h3>
+                <h3>Paraa Safari Lodge Dining</h3>
         <p>Murchison dining is usually lodge-based because game drives and boat departures shape the day. Paraa is practical for travele...</p>
 
         <div class="listing-card__footer">
                             <div class="chip-row">
                                                                         <span>Lodge dining</span>
                                                             </div>
-                        <a href="/restaurants/paraa-safari-lodge-dining" class="button button--ghost">View dining</a>
-        </div>
+                                        <div class="booking-offers">
+                                <p class="booking-offers__price"> Check menu and reservation details </p>
+            <a class="button button--ghost" href="https://paraalodge.com/" target="_blank" rel="nofollow noopener">Visit official site</a>
+            <small>External provider link; Trek Africa Guide does not process this booking.</small>                                </div>
+                    </div>
     </div>
 </article>
                     </div>
                                     <div class="listing-carousel__item">
-                        <article class="listing-card">
-    <a href="/restaurants/governors-camp-dining" class="listing-card__image">
-        <img src="/images/generated/restaurants/governors-camp-dining/01.jpg" alt="Governors&#039; Camp Dining"  class="listing-card__slot"  loading="lazy" decoding="async">
-    </a>
+                        <article class="listing-card "  id="listing-governors-camp-dining" >
+    <div class="listing-card__image">
+        <img src="/images/stock/destinations/maasai-mara.jpg" alt="Destination landscape near Governors&#039; Camp Dining"  class="listing-card__slot"  loading="lazy" decoding="async">
+    </div>
     <div class="listing-card__body">
                     <p class="listing-card__eyebrow">Kenya</p>
-                <h3><a href="/restaurants/governors-camp-dining">Governors&#039; Camp Dining</a></h3>
+                <h3>Governors&#039; Camp Dining</h3>
         <p>The Mara is not a city restaurant destination; dining is usually tied to camp quality, guide timing, and whether bush meals a...</p>
 
         <div class="listing-card__footer">
                             <div class="chip-row">
                                                                         <span>Safari camp dining</span>
                                                             </div>
-                        <a href="/restaurants/governors-camp-dining" class="button button--ghost">View dining</a>
-        </div>
+                                        <div class="booking-offers">
+                                <p class="booking-offers__price"> Check menu and reservation details </p>
+            <a class="button button--ghost" href="https://governorscamp.com/" target="_blank" rel="nofollow noopener">Visit official site</a>
+            <small>External provider link; Trek Africa Guide does not process this booking.</small>                                </div>
+                    </div>
     </div>
 </article>
                     </div>
                                     <div class="listing-carousel__item">
-                        <article class="listing-card">
-    <a href="/restaurants/ol-tukai-lodge-dining" class="listing-card__image">
-        <img src="/images/generated/restaurants/ol-tukai-lodge-dining/01.jpg" alt="Ol Tukai Lodge Dining"  class="listing-card__slot"  loading="lazy" decoding="async">
-    </a>
+                        <article class="listing-card "  id="listing-ol-tukai-lodge-dining" >
+    <div class="listing-card__image">
+        <img src="/images/stock/destinations/amboseli-national-park.jpg" alt="Destination landscape near Ol Tukai Lodge Dining"  class="listing-card__slot"  loading="lazy" decoding="async">
+    </div>
     <div class="listing-card__body">
                     <p class="listing-card__eyebrow">Kenya</p>
-                <h3><a href="/restaurants/ol-tukai-lodge-dining">Ol Tukai Lodge Dining</a></h3>
+                <h3>Ol Tukai Lodge Dining</h3>
         <p>Ol Tukai dining works because visitors are usually inside the park for early and late game drives, making lodge meals more re...</p>
 
         <div class="listing-card__footer">
                             <div class="chip-row">
                                                                         <span>Safari lodge dining</span>
                                                             </div>
-                        <a href="/restaurants/ol-tukai-lodge-dining" class="button button--ghost">View dining</a>
-        </div>
+                                        <div class="booking-offers">
+                                <p class="booking-offers__price"> Check menu and reservation details </p>
+            <a class="button button--ghost" href="https://oltukailodge.com/" target="_blank" rel="nofollow noopener">Visit official site</a>
+            <small>External provider link; Trek Africa Guide does not process this booking.</small>                                </div>
+                    </div>
     </div>
 </article>
                     </div>

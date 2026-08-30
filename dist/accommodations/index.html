@@ -27,7 +27,7 @@
             two.parentNode.insertBefore(twenty, two);
         })(window, document, 'script', 'https://scripts.stay22.com/letmeallez.js');
     </script>
-    <link rel="preload" as="style" href="/build/assets/app-OourHNl0.css" /><link rel="modulepreload" as="script" href="/build/assets/app-DfCL3t2R.js" /><link rel="stylesheet" href="/build/assets/app-OourHNl0.css" /><script type="module" src="/build/assets/app-DfCL3t2R.js"></script></head>
+    <link rel="preload" as="style" href="/build/assets/app-o8CMVoSJ.css" /><link rel="modulepreload" as="script" href="/build/assets/app-4r-rNyw7.js" /><link rel="stylesheet" href="/build/assets/app-o8CMVoSJ.css" /><script type="module" src="/build/assets/app-4r-rNyw7.js"></script></head>
 <body>
     <div class="site-topline">
         <div class="container site-topline__inner">
@@ -62,7 +62,7 @@
 
     <main>
         <section class="page-hero">
-    <img src="/images/generated/accommodations/governors-camp/01.jpg" alt="Reserved hero image space for accommodation listings"  class="page-hero__slot"  loading="lazy" decoding="async">
+    <img src="/images/stock/destinations/maasai-mara.jpg" alt="Maasai Mara landscape representing accommodation destinations"  class="page-hero__slot"  loading="lazy" decoding="async">
     <div class="page-hero__overlay"></div>
     <div class="container page-hero__content">
         <ul class="breadcrumb">
@@ -100,446 +100,508 @@
                                     <a href="/accommodations?q=budget">Budget</a>
                             </div>
         </div>
-        <form class="filter-form" method="GET">
-            <input type="text" name="q" value="" placeholder="Search accommodation">
-            <select name="region">
-                <option value="">All regions</option>
-                                    <option value="east-africa" >East Africa</option>
-                                    <option value="west-africa" >West Africa</option>
-                                    <option value="southern-africa" >Southern Africa</option>
-                                    <option value="northern-africa" >Northern Africa</option>
-                            </select>
-            <select name="country">
-                <option value="">All destination countries</option>
-                                    <option value="algeria" >Algeria</option>
-                                    <option value="benin" >Benin</option>
-                                    <option value="botswana" >Botswana</option>
-                                    <option value="cabo-verde" >Cabo Verde</option>
-                                    <option value="egypt" >Egypt</option>
-                                    <option value="ethiopia" >Ethiopia</option>
-                                    <option value="ghana" >Ghana</option>
-                                    <option value="kenya" >Kenya</option>
-                                    <option value="morocco" >Morocco</option>
-                                    <option value="namibia" >Namibia</option>
-                                    <option value="rwanda" >Rwanda</option>
-                                    <option value="senegal" >Senegal</option>
-                                    <option value="sierra-leone" >Sierra Leone</option>
-                                    <option value="south-africa" >South Africa</option>
-                                    <option value="tanzania" >Tanzania</option>
-                                    <option value="tunisia" >Tunisia</option>
-                                    <option value="uganda" >Uganda</option>
-                                    <option value="zambia" >Zambia</option>
-                                    <option value="zimbabwe" >Zimbabwe</option>
-                            </select>
-            <button class="button" type="submit">Filter</button>
-        </form>
+        <form class="search-ribbon" data-search-ribbon method="GET" action="/accommodations">
+    <div class="search-ribbon__modes" role="tablist" aria-label="Search type">
+        <button type="button" data-search-mode="attractions" class="">Attractions</button>
+        <button type="button" data-search-mode="accommodations" class="is-active">Accommodations</button>
+    </div>
+    <label class="search-ribbon__query">Find a place
+        <input data-search-input name="q" type="search" value="" role="combobox" aria-autocomplete="list" aria-controls="search-ribbon-listbox" aria-expanded="false" placeholder="Country, city, park, or property">
+        <ul id="search-ribbon-listbox" data-search-listbox role="listbox" hidden></ul>
+    </label>
+    <div class="search-ribbon__stay-fields" data-stay-fields >
+        <label>Check in<input name="checkin" type="date" value=""></label>
+        <label>Check out<input name="checkout" type="date" value=""></label>
+        <label>Adults<input name="adults" type="number" min="1" max="12" value="2"></label>
+        <label>Children<input name="children" type="number" min="0" max="8" value="0"></label>
+        <label>Rooms<input name="rooms" type="number" min="1" max="8" value="1"></label>
+    </div>
+    <div class="search-ribbon__attraction-fields" data-attraction-fields  hidden >
+        <label>Travel date<input name="travel_date" type="date" value=""></label>
+        <label>Travelers<input name="adults" type="number" min="1" max="12" value="2"></label>
+    </div>
+    <button class="button" type="submit">Search</button>
+</form>
+<script>window.trekSearchSuggestions = [{"label":"Algeria","type":"country"},{"label":"Amboseli National Park","type":"attraction","context":"Southern Kenya"},{"label":"Benin","type":"country"},{"label":"Botswana","type":"country"},{"label":"Bwindi Impenetrable National Park","type":"attraction","context":"Southwestern Uganda"},{"label":"Cabo Verde","type":"country"},{"label":"Cairo \u0026 Giza","type":"attraction","context":"Egypt"},{"label":"Camp Okavango","type":"accommodation","context":"Nxaragha Island, Okavango Delta"},{"label":"Cape Coast \u0026 Kakum","type":"attraction","context":"Central Ghana"},{"label":"Cape Town","type":"attraction","context":"Western Cape"},{"label":"Casa del Papa Resort \u0026 Spa","type":"accommodation","context":"Between Cotonou and Ouidah, Benin"},{"label":"Dar Said","type":"accommodation","context":"Sidi Bou Said, Greater Tunis"},{"label":"Desert Luxury Camp","type":"accommodation","context":"Erg Chebbi dunes, Merzouga area"},{"label":"Djanet \u0026 Tassili n\u2019Ajjer","type":"attraction","context":"Southeastern Algeria"},{"label":"Egypt","type":"country"},{"label":"Emerson Spice","type":"accommodation","context":"Stone Town, Zanzibar"},{"label":"Ethiopia","type":"country"},{"label":"Ghana","type":"country"},{"label":"Governors\u0027 Camp","type":"accommodation","context":"Mara River area, Maasai Mara National Reserve"},{"label":"Hilton Cabo Verde Sal Resort","type":"accommodation","context":"Santa Maria, Sal Island"},{"label":"Kenya","type":"country"},{"label":"Kruger National Park","type":"attraction","context":"Mpumalanga and Limpopo"},{"label":"Kruger Shalati - The Train on the Bridge","type":"accommodation","context":"Skukuza, Kruger National Park"},{"label":"Lalibela","type":"attraction","context":"Northern Ethiopia"},{"label":"Les Paletuviers","type":"accommodation","context":"Toubacouta, Sine-Saloum Delta"},{"label":"Maasai Mara","type":"attraction","context":"Southwestern Kenya"},{"label":"Maribela Hotel","type":"accommodation","context":"Lalibela hillside, Northern Ethiopia"},{"label":"Marrakech \u0026 Atlas Gateway","type":"attraction","context":"Morocco"},{"label":"Marriott Mena House, Cairo","type":"accommodation","context":"Giza, Cairo"},{"label":"Mfuwe Lodge","type":"accommodation","context":"Mfuwe sector, South Luangwa National Park"},{"label":"Morocco","type":"country"},{"label":"Mount Nelson, A Belmond Hotel","type":"accommodation","context":"Gardens, Cape Town"},{"label":"Murchison Falls National Park","type":"attraction","context":"Northern Uganda"},{"label":"Namib Desert","type":"attraction","context":"Sossusvlei and Namib-Naukluft"},{"label":"Namibia","type":"country"},{"label":"Okavango Delta","type":"attraction","context":"Northern Botswana"},{"label":"Ol Tukai Lodge Amboseli","type":"accommodation","context":"Inside Amboseli National Park"},{"label":"Ouidah \u0026 Ganvi\u00e9","type":"attraction","context":"Southern Benin"},{"label":"Paraa Safari Lodge","type":"accommodation","context":"North bank of the Victoria Nile, Murchison Falls National Park"},{"label":"Riad Rosemary","type":"accommodation","context":"Marrakech medina"},{"label":"Ridge Royal Hotel","type":"accommodation","context":"Cape Coast, Central Region"},{"label":"Rwanda","type":"country"},{"label":"Sabyinyo Silverback Lodge","type":"accommodation","context":"Near Volcanoes National Park headquarters, Musanze"},{"label":"Sahara Dunes","type":"attraction","context":"Merzouga and Erg Chebbi"},{"label":"Sal Island","type":"attraction","context":"Cabo Verde"},{"label":"Sanctuary Gorilla Forest Camp","type":"accommodation","context":"Bwindi Impenetrable National Park, Buhoma sector"},{"label":"Senegal","type":"country"},{"label":"Serengeti National Park","type":"attraction","context":"Northern Tanzania"},{"label":"Serengeti Serena Safari Lodge","type":"accommodation","context":"Central Serengeti, Tanzania"},{"label":"Sierra Leone","type":"country"},{"label":"Sine-Saloum Delta","type":"attraction","context":"Coastal Senegal"},{"label":"Sossusvlei Lodge","type":"accommodation","context":"Near Sesriem Gate, Sossusvlei"},{"label":"South Africa","type":"country"},{"label":"South Luangwa National Park","type":"attraction","context":"Eastern Zambia"},{"label":"Tanzania","type":"country"},{"label":"Terres Touareg Guest House \u0026 Desert Camp","type":"accommodation","context":"Djanet and Tassili n Ajjer routes"},{"label":"The Place Resort at Tokeh Beach","type":"accommodation","context":"Tokeh Beach, Freetown Peninsula"},{"label":"The Victoria Falls Hotel","type":"accommodation","context":"Victoria Falls town, Zimbabwe"},{"label":"Tokeh \u0026 River No. 2 Beach","type":"attraction","context":"Freetown Peninsula"},{"label":"Tunis \u0026 Sidi Bou Said","type":"attraction","context":"Tunisia"},{"label":"Tunisia","type":"country"},{"label":"Uganda","type":"country"},{"label":"Victoria Falls","type":"attraction","context":"Zimbabwe"},{"label":"Volcanoes National Park","type":"attraction","context":"Northern Rwanda"},{"label":"Zambia","type":"country"},{"label":"Zanzibar","type":"attraction","context":"Indian Ocean coast of Tanzania"},{"label":"Zimbabwe","type":"country"}];</script>
         <div class="listing-grid">
-                            <article class="listing-card">
-    <a href="/accommodations/sanctuary-gorilla-forest-camp" class="listing-card__image">
-        <img src="/images/generated/accommodations/sanctuary-gorilla-forest-camp/01.jpg" alt="Sanctuary Gorilla Forest Camp"  class="listing-card__slot"  loading="lazy" decoding="async">
-    </a>
+                            <article class="listing-card "  id="listing-sanctuary-gorilla-forest-camp" >
+    <div class="listing-card__image">
+        <img src="/images/stock/destinations/bwindi-impenetrable-national-park.jpg" alt="Destination landscape near Sanctuary Gorilla Forest Camp"  class="listing-card__slot"  loading="lazy" decoding="async">
+    </div>
     <div class="listing-card__body">
                     <p class="listing-card__eyebrow">Uganda • Forest safari camp</p>
-                <h3><a href="/accommodations/sanctuary-gorilla-forest-camp">Sanctuary Gorilla Forest Camp</a></h3>
+                <h3>Sanctuary Gorilla Forest Camp</h3>
         <p>A long-established forest camp positioned inside the Bwindi area for early gorilla-trekking starts and a quieter rainforest s...</p>
 
         <div class="listing-card__footer">
                             <div class="chip-row">
                                                                         <span>Bwindi Impenetrable National Park</span>
                                                             </div>
-                        <a href="/accommodations/sanctuary-gorilla-forest-camp" class="button button--ghost">View route fit</a>
-        </div>
+                                        <div class="booking-offers">
+                                <p class="booking-offers__price"> Check live price </p>
+            <a class="button button--ghost" href="https://www.stay22.com/allez/booking?aid=aid-test&amp;adults=2&amp;children=0&amp;campaign=accommodation_sanctuary-gorilla-forest-camp&amp;link=https%3A%2F%2Fwww.booking.com%2Fsearchresults.html%3Fss%3DSanctuary%2BGorilla%2BForest%2BCamp%252C%2BBwindi%2BImpenetrable%2BNational%2BPark%252C%2BBuhoma%2Bsector" target="_blank" rel="nofollow sponsored noopener">Compare on Booking.com</a>
+                                        <small>Your room count is kept on this results page only. Reconfirm rooms, rates, and availability on the provider.</small>    </div>
+                    </div>
     </div>
 </article>
-                            <article class="listing-card">
-    <a href="/accommodations/paraa-safari-lodge" class="listing-card__image">
-        <img src="/images/generated/accommodations/paraa-safari-lodge/01.jpg" alt="Paraa Safari Lodge"  class="listing-card__slot"  loading="lazy" decoding="async">
-    </a>
+                            <article class="listing-card "  id="listing-paraa-safari-lodge" >
+    <div class="listing-card__image">
+        <img src="/images/stock/destinations/murchison-falls-national-park.jpg" alt="Destination landscape near Paraa Safari Lodge"  class="listing-card__slot"  loading="lazy" decoding="async">
+    </div>
     <div class="listing-card__body">
                     <p class="listing-card__eyebrow">Uganda • Safari lodge</p>
-                <h3><a href="/accommodations/paraa-safari-lodge">Paraa Safari Lodge</a></h3>
+                <h3>Paraa Safari Lodge</h3>
         <p>A practical Nile-side lodge for travelers combining boat safaris, falls visits, and northern-bank game drives.</p>
 
         <div class="listing-card__footer">
                             <div class="chip-row">
                                                                         <span>Murchison Falls National Park</span>
                                                             </div>
-                        <a href="/accommodations/paraa-safari-lodge" class="button button--ghost">View route fit</a>
-        </div>
+                                        <div class="booking-offers">
+                                <p class="booking-offers__price"> Check live price </p>
+            <a class="button button--ghost" href="https://www.stay22.com/allez/booking?aid=aid-test&amp;adults=2&amp;children=0&amp;campaign=accommodation_paraa-safari-lodge&amp;link=https%3A%2F%2Fwww.booking.com%2Fhotel%2Fug%2Fparaa-safari-lodge.en-gb.html" target="_blank" rel="nofollow sponsored noopener">View deal on Booking.com</a>
+                                        <small>Your room count is kept on this results page only. Reconfirm rooms, rates, and availability on the provider.</small>    </div>
+                    </div>
     </div>
 </article>
-                            <article class="listing-card">
-    <a href="/accommodations/governors-camp" class="listing-card__image">
-        <img src="/images/generated/accommodations/governors-camp/01.jpg" alt="Governors&#039; Camp"  class="listing-card__slot"  loading="lazy" decoding="async">
-    </a>
+                            <article class="listing-card "  id="listing-governors-camp" >
+    <div class="listing-card__image">
+        <img src="/images/stock/destinations/maasai-mara.jpg" alt="Destination landscape near Governors&#039; Camp"  class="listing-card__slot"  loading="lazy" decoding="async">
+    </div>
     <div class="listing-card__body">
                     <p class="listing-card__eyebrow">Kenya • Safari tented camp</p>
-                <h3><a href="/accommodations/governors-camp">Governors&#039; Camp</a></h3>
+                <h3>Governors&#039; Camp</h3>
         <p>A historic tented camp in a strong game-viewing zone, often used by travelers who want classic Mara atmosphere without losing...</p>
 
         <div class="listing-card__footer">
                             <div class="chip-row">
                                                                         <span>Maasai Mara</span>
                                                             </div>
-                        <a href="/accommodations/governors-camp" class="button button--ghost">View route fit</a>
-        </div>
+                                        <div class="booking-offers">
+                                <p class="booking-offers__price"> Check live price </p>
+            <a class="button button--ghost" href="https://www.stay22.com/allez/booking?aid=aid-test&amp;adults=2&amp;children=0&amp;campaign=accommodation_governors-camp&amp;link=https%3A%2F%2Fwww.booking.com%2Fsearchresults.html%3Fss%3DGovernors%2527%2BCamp%252C%2BMara%2BRiver%2Barea%252C%2BMaasai%2BMara%2BNational%2BReserve" target="_blank" rel="nofollow sponsored noopener">Compare on Booking.com</a>
+                                        <small>Your room count is kept on this results page only. Reconfirm rooms, rates, and availability on the provider.</small>    </div>
+                    </div>
     </div>
 </article>
-                            <article class="listing-card">
-    <a href="/accommodations/ol-tukai-lodge-amboseli" class="listing-card__image">
-        <img src="/images/generated/accommodations/ol-tukai-lodge-amboseli/01.jpg" alt="Ol Tukai Lodge Amboseli"  class="listing-card__slot"  loading="lazy" decoding="async">
-    </a>
+                            <article class="listing-card "  id="listing-ol-tukai-lodge-amboseli" >
+    <div class="listing-card__image">
+        <img src="/images/stock/destinations/amboseli-national-park.jpg" alt="Destination landscape near Ol Tukai Lodge Amboseli"  class="listing-card__slot"  loading="lazy" decoding="async">
+    </div>
     <div class="listing-card__body">
                     <p class="listing-card__eyebrow">Kenya • Safari lodge</p>
-                <h3><a href="/accommodations/ol-tukai-lodge-amboseli">Ol Tukai Lodge Amboseli</a></h3>
+                <h3>Ol Tukai Lodge Amboseli</h3>
         <p>A well-known Amboseli base for elephant viewing and Kilimanjaro-facing safari days.</p>
 
         <div class="listing-card__footer">
                             <div class="chip-row">
                                                                         <span>Amboseli National Park</span>
                                                             </div>
-                        <a href="/accommodations/ol-tukai-lodge-amboseli" class="button button--ghost">View route fit</a>
-        </div>
+                                        <div class="booking-offers">
+                                <p class="booking-offers__price"> Check live price </p>
+            <a class="button button--ghost" href="https://www.stay22.com/allez/booking?aid=aid-test&amp;adults=2&amp;children=0&amp;campaign=accommodation_ol-tukai-lodge-amboseli&amp;link=https%3A%2F%2Fwww.booking.com%2Fhotel%2Fke%2Fol-tukai-lodge-amboseli.html" target="_blank" rel="nofollow sponsored noopener">View deal on Booking.com</a>
+                                        <small>Your room count is kept on this results page only. Reconfirm rooms, rates, and availability on the provider.</small>    </div>
+                    </div>
     </div>
 </article>
-                            <article class="listing-card">
-    <a href="/accommodations/serengeti-serena-safari-lodge" class="listing-card__image">
-        <img src="/images/generated/accommodations/serengeti-serena-safari-lodge/01.jpg" alt="Serengeti Serena Safari Lodge"  class="listing-card__slot"  loading="lazy" decoding="async">
-    </a>
+                            <article class="listing-card "  id="listing-serengeti-serena-safari-lodge" >
+    <div class="listing-card__image">
+        <img src="/images/stock/destinations/serengeti-national-park.jpg" alt="Destination landscape near Serengeti Serena Safari Lodge"  class="listing-card__slot"  loading="lazy" decoding="async">
+    </div>
     <div class="listing-card__body">
                     <p class="listing-card__eyebrow">Tanzania • Safari lodge</p>
-                <h3><a href="/accommodations/serengeti-serena-safari-lodge">Serengeti Serena Safari Lodge</a></h3>
+                <h3>Serengeti Serena Safari Lodge</h3>
         <p>A central Serengeti lodge that fits classic northern-circuit itineraries and travelers who want reliable lodge infrastructure...</p>
 
         <div class="listing-card__footer">
                             <div class="chip-row">
                                                                         <span>Serengeti National Park</span>
                                                             </div>
-                        <a href="/accommodations/serengeti-serena-safari-lodge" class="button button--ghost">View route fit</a>
-        </div>
+                                        <div class="booking-offers">
+                                <p class="booking-offers__price"> From $680.00 per night </p>
+            <a class="button button--ghost" href="https://www.stay22.com/allez/booking?aid=aid-test&amp;adults=2&amp;children=0&amp;campaign=accommodation_serengeti-serena-safari-lodge&amp;link=https%3A%2F%2Fwww.booking.com%2Fhotel%2Ftz%2Fserengeti-serena-safari-lodge.html" target="_blank" rel="nofollow sponsored noopener">View deal on Booking.com</a>
+                        <small>Indicative price. Price checked Aug 29, 2026. Aug 21–22 2026; 2 adults, 1 room; full board; non-refundable; excludes 18% VAT</small>                <small>Your room count is kept on this results page only. Reconfirm rooms, rates, and availability on the provider.</small>    </div>
+                    </div>
     </div>
 </article>
-                            <article class="listing-card">
-    <a href="/accommodations/emerson-spice" class="listing-card__image">
-        <img src="/images/generated/accommodations/emerson-spice/01.jpg" alt="Emerson Spice"  class="listing-card__slot"  loading="lazy" decoding="async">
-    </a>
+                            <article class="listing-card "  id="listing-emerson-spice" >
+    <div class="listing-card__image">
+        <img src="/images/stock/destinations/zanzibar.jpg" alt="Destination landscape near Emerson Spice"  class="listing-card__slot"  loading="lazy" decoding="async">
+    </div>
     <div class="listing-card__body">
                     <p class="listing-card__eyebrow">Tanzania • Boutique heritage hotel</p>
-                <h3><a href="/accommodations/emerson-spice">Emerson Spice</a></h3>
+                <h3>Emerson Spice</h3>
         <p>A characterful Stone Town hotel for travelers who want Zanzibar heritage and food culture before or after beach time.</p>
 
         <div class="listing-card__footer">
                             <div class="chip-row">
                                                                         <span>Zanzibar</span>
                                                             </div>
-                        <a href="/accommodations/emerson-spice" class="button button--ghost">View route fit</a>
-        </div>
+                                        <div class="booking-offers">
+                                <p class="booking-offers__price"> Check live price </p>
+            <a class="button button--ghost" href="https://www.stay22.com/allez/booking?aid=aid-test&amp;adults=2&amp;children=0&amp;campaign=accommodation_emerson-spice&amp;link=https%3A%2F%2Fwww.booking.com%2Fhotel%2Ftz%2Femersonspice.en-gb.html" target="_blank" rel="nofollow sponsored noopener">View deal on Booking.com</a>
+                                        <small>Your room count is kept on this results page only. Reconfirm rooms, rates, and availability on the provider.</small>    </div>
+                    </div>
     </div>
 </article>
-                            <article class="listing-card">
-    <a href="/accommodations/mount-nelson-a-belmond-hotel" class="listing-card__image">
-        <img src="/images/generated/accommodations/mount-nelson-a-belmond-hotel/01.jpg" alt="Mount Nelson, A Belmond Hotel"  class="listing-card__slot"  loading="lazy" decoding="async">
-    </a>
+                            <article class="listing-card "  id="listing-mount-nelson-a-belmond-hotel" >
+    <div class="listing-card__image">
+        <img src="/images/stock/destinations/cape-town.jpg" alt="Destination landscape near Mount Nelson, A Belmond Hotel"  class="listing-card__slot"  loading="lazy" decoding="async">
+    </div>
     <div class="listing-card__body">
                     <p class="listing-card__eyebrow">South Africa • Luxury city hotel</p>
-                <h3><a href="/accommodations/mount-nelson-a-belmond-hotel">Mount Nelson, A Belmond Hotel</a></h3>
+                <h3>Mount Nelson, A Belmond Hotel</h3>
         <p>A landmark Cape Town hotel that works well for city, coast, food, and Winelands planning.</p>
 
         <div class="listing-card__footer">
                             <div class="chip-row">
                                                                         <span>Cape Town</span>
                                                             </div>
-                        <a href="/accommodations/mount-nelson-a-belmond-hotel" class="button button--ghost">View route fit</a>
-        </div>
+                                        <div class="booking-offers">
+                                <p class="booking-offers__price"> Check live price </p>
+            <a class="button button--ghost" href="https://www.stay22.com/allez/booking?aid=aid-test&amp;adults=2&amp;children=0&amp;campaign=accommodation_mount-nelson-a-belmond-hotel&amp;link=https%3A%2F%2Fwww.booking.com%2Fhotel%2Fza%2Fbelmond-mount-nelson.en-gb.html" target="_blank" rel="nofollow sponsored noopener">View deal on Booking.com</a>
+                                        <small>Your room count is kept on this results page only. Reconfirm rooms, rates, and availability on the provider.</small>    </div>
+                    </div>
     </div>
 </article>
-                            <article class="listing-card">
-    <a href="/accommodations/kruger-shalati" class="listing-card__image">
-        <img src="/images/generated/accommodations/kruger-shalati/01.jpg" alt="Kruger Shalati - The Train on the Bridge"  class="listing-card__slot"  loading="lazy" decoding="async">
-    </a>
+                            <article class="listing-card "  id="listing-kruger-shalati" >
+    <div class="listing-card__image">
+        <img src="/images/stock/destinations/kruger-national-park.jpg" alt="Destination landscape near Kruger Shalati - The Train on the Bridge"  class="listing-card__slot"  loading="lazy" decoding="async">
+    </div>
     <div class="listing-card__body">
                     <p class="listing-card__eyebrow">South Africa • Luxury safari hotel</p>
-                <h3><a href="/accommodations/kruger-shalati">Kruger Shalati - The Train on the Bridge</a></h3>
+                <h3>Kruger Shalati - The Train on the Bridge</h3>
         <p>A distinctive Kruger stay built around restored train carriages on the Selati Bridge over the Sabie River.</p>
 
         <div class="listing-card__footer">
                             <div class="chip-row">
                                                                         <span>Kruger National Park</span>
                                                             </div>
-                        <a href="/accommodations/kruger-shalati" class="button button--ghost">View route fit</a>
-        </div>
+                                        <div class="booking-offers">
+                                <p class="booking-offers__price"> Check live price </p>
+            <a class="button button--ghost" href="https://www.stay22.com/allez/booking?aid=aid-test&amp;adults=2&amp;children=0&amp;campaign=accommodation_kruger-shalati&amp;link=https%3A%2F%2Fwww.booking.com%2Fhotel%2Fza%2Fkruger-shalati-the-train-on-the-bridge.de.html" target="_blank" rel="nofollow sponsored noopener">View deal on Booking.com</a>
+                                        <small>Your room count is kept on this results page only. Reconfirm rooms, rates, and availability on the provider.</small>    </div>
+                    </div>
     </div>
 </article>
-                            <article class="listing-card">
-    <a href="/accommodations/victoria-falls-hotel" class="listing-card__image">
-        <img src="/images/generated/accommodations/victoria-falls-hotel/01.jpg" alt="The Victoria Falls Hotel"  class="listing-card__slot"  loading="lazy" decoding="async">
-    </a>
+                            <article class="listing-card "  id="listing-victoria-falls-hotel" >
+    <div class="listing-card__image">
+        <img src="/images/stock/destinations/victoria-falls.jpg" alt="Destination landscape near The Victoria Falls Hotel"  class="listing-card__slot"  loading="lazy" decoding="async">
+    </div>
     <div class="listing-card__body">
                     <p class="listing-card__eyebrow">Zimbabwe • Heritage hotel</p>
-                <h3><a href="/accommodations/victoria-falls-hotel">The Victoria Falls Hotel</a></h3>
+                <h3>The Victoria Falls Hotel</h3>
         <p>A historic hotel within easy reach of the falls rainforest entrance and town activities.</p>
 
         <div class="listing-card__footer">
                             <div class="chip-row">
                                                                         <span>Victoria Falls</span>
                                                             </div>
-                        <a href="/accommodations/victoria-falls-hotel" class="button button--ghost">View route fit</a>
-        </div>
+                                        <div class="booking-offers">
+                                <p class="booking-offers__price"> Check live price </p>
+            <a class="button button--ghost" href="https://www.stay22.com/allez/booking?aid=aid-test&amp;adults=2&amp;children=0&amp;campaign=accommodation_victoria-falls-hotel&amp;link=https%3A%2F%2Fwww.booking.com%2Fsearchresults.html%3Fss%3DThe%2BVictoria%2BFalls%2BHotel%252C%2BVictoria%2BFalls%2Btown%252C%2BZimbabwe" target="_blank" rel="nofollow sponsored noopener">Compare on Booking.com</a>
+                                        <small>Your room count is kept on this results page only. Reconfirm rooms, rates, and availability on the provider.</small>    </div>
+                    </div>
     </div>
 </article>
-                            <article class="listing-card">
-    <a href="/accommodations/riad-rosemary" class="listing-card__image">
-        <img src="/images/generated/accommodations/riad-rosemary/01.jpg" alt="Riad Rosemary"  class="listing-card__slot"  loading="lazy" decoding="async">
-    </a>
+                            <article class="listing-card "  id="listing-riad-rosemary" >
+    <div class="listing-card__image">
+        <img src="/images/stock/destinations/marrakech-and-atlas.jpg" alt="Destination landscape near Riad Rosemary"  class="listing-card__slot"  loading="lazy" decoding="async">
+    </div>
     <div class="listing-card__body">
                     <p class="listing-card__eyebrow">Morocco • Boutique riad</p>
-                <h3><a href="/accommodations/riad-rosemary">Riad Rosemary</a></h3>
+                <h3>Riad Rosemary</h3>
         <p>A design-led riad choice for travelers who want the medina experience without giving up comfort and calm.</p>
 
         <div class="listing-card__footer">
                             <div class="chip-row">
                                                                         <span>Marrakech &amp; Atlas Gateway</span>
                                                             </div>
-                        <a href="/accommodations/riad-rosemary" class="button button--ghost">View route fit</a>
-        </div>
+                                        <div class="booking-offers">
+                                <p class="booking-offers__price"> Check live price </p>
+            <a class="button button--ghost" href="https://www.stay22.com/allez/booking?aid=aid-test&amp;adults=2&amp;children=0&amp;campaign=accommodation_riad-rosemary&amp;link=https%3A%2F%2Fwww.booking.com%2Fsearchresults.html%3Fss%3DRiad%2BRosemary%252C%2BMarrakech%2Bmedina" target="_blank" rel="nofollow sponsored noopener">Compare on Booking.com</a>
+                                        <small>Your room count is kept on this results page only. Reconfirm rooms, rates, and availability on the provider.</small>    </div>
+                    </div>
     </div>
 </article>
-                            <article class="listing-card">
-    <a href="/accommodations/sabyinyo-silverback-lodge" class="listing-card__image">
-        <img src="/images/generated/accommodations/sabyinyo-silverback-lodge/01.jpg" alt="Sabyinyo Silverback Lodge"  class="listing-card__slot"  loading="lazy" decoding="async">
-    </a>
+                            <article class="listing-card "  id="listing-sabyinyo-silverback-lodge" >
+    <div class="listing-card__image">
+        <img src="/images/stock/destinations/volcanoes-national-park.jpg" alt="Destination landscape near Sabyinyo Silverback Lodge"  class="listing-card__slot"  loading="lazy" decoding="async">
+    </div>
     <div class="listing-card__body">
                     <p class="listing-card__eyebrow">Rwanda • Luxury gorilla lodge</p>
-                <h3><a href="/accommodations/sabyinyo-silverback-lodge">Sabyinyo Silverback Lodge</a></h3>
+                <h3>Sabyinyo Silverback Lodge</h3>
         <p>A conservation-linked luxury lodge close to Rwanda gorilla trekking departure points.</p>
 
         <div class="listing-card__footer">
                             <div class="chip-row">
                                                                         <span>Volcanoes National Park</span>
                                                             </div>
-                        <a href="/accommodations/sabyinyo-silverback-lodge" class="button button--ghost">View route fit</a>
-        </div>
+                                        <div class="booking-offers">
+                                <p class="booking-offers__price"> Check live price </p>
+            <a class="button button--ghost" href="https://www.stay22.com/allez/booking?aid=aid-test&amp;adults=2&amp;children=0&amp;campaign=accommodation_sabyinyo-silverback-lodge&amp;link=https%3A%2F%2Fwww.booking.com%2Fsearchresults.html%3Fss%3DSabyinyo%2BSilverback%2BLodge%252C%2BNear%2BVolcanoes%2BNational%2BPark%2Bheadquarters%252C%2BMusanze" target="_blank" rel="nofollow sponsored noopener">Compare on Booking.com</a>
+                                        <small>Your room count is kept on this results page only. Reconfirm rooms, rates, and availability on the provider.</small>    </div>
+                    </div>
     </div>
 </article>
-                            <article class="listing-card">
-    <a href="/accommodations/maribela-hotel" class="listing-card__image">
-        <img src="/images/generated/accommodations/maribela-hotel/01.jpg" alt="Maribela Hotel"  class="listing-card__slot"  loading="lazy" decoding="async">
-    </a>
+                            <article class="listing-card "  id="listing-maribela-hotel" >
+    <div class="listing-card__image">
+        <img src="/images/stock/destinations/lalibela.jpg" alt="Destination landscape near Maribela Hotel"  class="listing-card__slot"  loading="lazy" decoding="async">
+    </div>
     <div class="listing-card__body">
                     <p class="listing-card__eyebrow">Ethiopia • Boutique hotel</p>
-                <h3><a href="/accommodations/maribela-hotel">Maribela Hotel</a></h3>
+                <h3>Maribela Hotel</h3>
         <p>A hillside hotel option for visitors who want views and straightforward access to Lalibela church touring.</p>
 
         <div class="listing-card__footer">
                             <div class="chip-row">
                                                                         <span>Lalibela</span>
                                                             </div>
-                        <a href="/accommodations/maribela-hotel" class="button button--ghost">View route fit</a>
-        </div>
+                                        <div class="booking-offers">
+                                <p class="booking-offers__price"> Check live price </p>
+            <a class="button button--ghost" href="https://www.stay22.com/allez/booking?aid=aid-test&amp;adults=2&amp;children=0&amp;campaign=accommodation_maribela-hotel&amp;link=https%3A%2F%2Fwww.booking.com%2Fhotel%2Fet%2Fmaribela-lalibela.en-gb.html" target="_blank" rel="nofollow sponsored noopener">View deal on Booking.com</a>
+                                        <small>Your room count is kept on this results page only. Reconfirm rooms, rates, and availability on the provider.</small>    </div>
+                    </div>
     </div>
 </article>
-                            <article class="listing-card">
-    <a href="/accommodations/ridge-royal-hotel" class="listing-card__image">
-        <img src="/images/generated/accommodations/ridge-royal-hotel/01.jpg" alt="Ridge Royal Hotel"  class="listing-card__slot"  loading="lazy" decoding="async">
-    </a>
+                            <article class="listing-card "  id="listing-ridge-royal-hotel" >
+    <div class="listing-card__image">
+        <img src="/images/stock/destinations/cape-coast-kakum.jpg" alt="Destination landscape near Ridge Royal Hotel"  class="listing-card__slot"  loading="lazy" decoding="async">
+    </div>
     <div class="listing-card__body">
                     <p class="listing-card__eyebrow">Ghana • City hotel</p>
-                <h3><a href="/accommodations/ridge-royal-hotel">Ridge Royal Hotel</a></h3>
+                <h3>Ridge Royal Hotel</h3>
         <p>A practical Cape Coast base for combining castle visits with a Kakum canopy walkway day.</p>
 
         <div class="listing-card__footer">
                             <div class="chip-row">
                                                                         <span>Cape Coast &amp; Kakum</span>
                                                             </div>
-                        <a href="/accommodations/ridge-royal-hotel" class="button button--ghost">View route fit</a>
-        </div>
+                                        <div class="booking-offers">
+                                <p class="booking-offers__price"> From $125.00 per night </p>
+            <a class="button button--ghost" href="https://www.stay22.com/allez/booking?aid=aid-test&amp;adults=2&amp;children=0&amp;campaign=accommodation_ridge-royal-hotel&amp;link=https%3A%2F%2Fwww.booking.com%2Fhotel%2Fgh%2Fridge-royal-cape-coast.html" target="_blank" rel="nofollow sponsored noopener">View deal on Booking.com</a>
+                        <small>Indicative price. Price checked Aug 29, 2026. Aug 26–29 2026; 2 adults, 1 room; breakfast; excludes 17.5% VAT and 10% city tax</small>                <small>Your room count is kept on this results page only. Reconfirm rooms, rates, and availability on the provider.</small>    </div>
+                    </div>
     </div>
 </article>
-                            <article class="listing-card">
-    <a href="/accommodations/les-paletuviers" class="listing-card__image">
-        <img src="/images/generated/accommodations/les-paletuviers/01.jpg" alt="Les Paletuviers"  class="listing-card__slot"  loading="lazy" decoding="async">
-    </a>
+                            <article class="listing-card "  id="listing-les-paletuviers" >
+    <div class="listing-card__image">
+        <img src="/images/stock/destinations/sine-saloum-delta.jpg" alt="Destination landscape near Les Paletuviers"  class="listing-card__slot"  loading="lazy" decoding="async">
+    </div>
     <div class="listing-card__body">
                     <p class="listing-card__eyebrow">Senegal • Delta lodge</p>
-                <h3><a href="/accommodations/les-paletuviers">Les Paletuviers</a></h3>
+                <h3>Les Paletuviers</h3>
         <p>A delta lodge base for boat trips, birdlife, mangroves, and slower Senegal travel.</p>
 
         <div class="listing-card__footer">
                             <div class="chip-row">
                                                                         <span>Sine-Saloum Delta</span>
                                                             </div>
-                        <a href="/accommodations/les-paletuviers" class="button button--ghost">View route fit</a>
-        </div>
+                                        <div class="booking-offers">
+                                <p class="booking-offers__price"> Check live price </p>
+            <a class="button button--ghost" href="https://www.stay22.com/allez/booking?aid=aid-test&amp;adults=2&amp;children=0&amp;campaign=accommodation_les-paletuviers&amp;link=https%3A%2F%2Fwww.booking.com%2Fhotel%2Fsn%2Fles-pala-c-tuviers.es.html" target="_blank" rel="nofollow sponsored noopener">View deal on Booking.com</a>
+                                        <small>Your room count is kept on this results page only. Reconfirm rooms, rates, and availability on the provider.</small>    </div>
+                    </div>
     </div>
 </article>
-                            <article class="listing-card">
-    <a href="/accommodations/casa-del-papa" class="listing-card__image">
-        <img src="/images/generated/accommodations/casa-del-papa/01.jpg" alt="Casa del Papa Resort &amp; Spa"  class="listing-card__slot"  loading="lazy" decoding="async">
-    </a>
+                            <article class="listing-card "  id="listing-casa-del-papa" >
+    <div class="listing-card__image">
+        <img src="/images/stock/destinations/ouidah-and-ganvie.jpg" alt="Destination landscape near Casa del Papa Resort &amp; Spa"  class="listing-card__slot"  loading="lazy" decoding="async">
+    </div>
     <div class="listing-card__body">
                     <p class="listing-card__eyebrow">Benin • Coastal resort</p>
-                <h3><a href="/accommodations/casa-del-papa">Casa del Papa Resort &amp; Spa</a></h3>
+                <h3>Casa del Papa Resort &amp; Spa</h3>
         <p>A lagoon-and-coast resort that works as a comfortable base for Ouidah heritage touring.</p>
 
         <div class="listing-card__footer">
                             <div class="chip-row">
                                                                         <span>Ouidah &amp; Ganvié</span>
                                                             </div>
-                        <a href="/accommodations/casa-del-papa" class="button button--ghost">View route fit</a>
-        </div>
+                                        <div class="booking-offers">
+                                <p class="booking-offers__price"> Check live price </p>
+            <a class="button button--ghost" href="https://www.stay22.com/allez/booking?aid=aid-test&amp;adults=2&amp;children=0&amp;campaign=accommodation_casa-del-papa&amp;link=https%3A%2F%2Fwww.booking.com%2Fhotel%2Fbj%2Fcasa-del-papa.en-gb.html" target="_blank" rel="nofollow sponsored noopener">View deal on Booking.com</a>
+                                        <small>Your room count is kept on this results page only. Reconfirm rooms, rates, and availability on the provider.</small>    </div>
+                    </div>
     </div>
 </article>
-                            <article class="listing-card">
-    <a href="/accommodations/the-place-resort-tokeh" class="listing-card__image">
-        <img src="/images/generated/accommodations/the-place-resort-tokeh/01.jpg" alt="The Place Resort at Tokeh Beach"  class="listing-card__slot"  loading="lazy" decoding="async">
-    </a>
+                            <article class="listing-card "  id="listing-the-place-resort-tokeh" >
+    <div class="listing-card__image">
+        <img src="/images/stock/destinations/tokeh-and-river-no2.jpg" alt="Destination landscape near The Place Resort at Tokeh Beach"  class="listing-card__slot"  loading="lazy" decoding="async">
+    </div>
     <div class="listing-card__body">
                     <p class="listing-card__eyebrow">Sierra Leone • Beach resort</p>
-                <h3><a href="/accommodations/the-place-resort-tokeh">The Place Resort at Tokeh Beach</a></h3>
+                <h3>The Place Resort at Tokeh Beach</h3>
         <p>A beachfront resort option for travelers focusing on Sierra Leone coastline time.</p>
 
         <div class="listing-card__footer">
                             <div class="chip-row">
                                                                         <span>Tokeh &amp; River No. 2 Beach</span>
                                                             </div>
-                        <a href="/accommodations/the-place-resort-tokeh" class="button button--ghost">View route fit</a>
-        </div>
+                                        <div class="booking-offers">
+                                <p class="booking-offers__price"> Check live price </p>
+            <a class="button button--ghost" href="https://www.stay22.com/allez/booking?aid=aid-test&amp;adults=2&amp;children=0&amp;campaign=accommodation_the-place-resort-tokeh&amp;link=https%3A%2F%2Fwww.booking.com%2Fsearchresults.html%3Fss%3DThe%2BPlace%2BResort%2Bat%2BTokeh%2BBeach%252C%2BTokeh%2BBeach%252C%2BFreetown%2BPeninsula" target="_blank" rel="nofollow sponsored noopener">Compare on Booking.com</a>
+                                        <small>Your room count is kept on this results page only. Reconfirm rooms, rates, and availability on the provider.</small>    </div>
+                    </div>
     </div>
 </article>
-                            <article class="listing-card">
-    <a href="/accommodations/hilton-cabo-verde-sal-resort" class="listing-card__image">
-        <img src="/images/generated/accommodations/hilton-cabo-verde-sal-resort/01.jpg" alt="Hilton Cabo Verde Sal Resort"  class="listing-card__slot"  loading="lazy" decoding="async">
-    </a>
+                            <article class="listing-card "  id="listing-hilton-cabo-verde-sal-resort" >
+    <div class="listing-card__image">
+        <img src="/images/stock/destinations/sal-island.jpg" alt="Destination landscape near Hilton Cabo Verde Sal Resort"  class="listing-card__slot"  loading="lazy" decoding="async">
+    </div>
     <div class="listing-card__body">
                     <p class="listing-card__eyebrow">Cabo Verde • Beach resort</p>
-                <h3><a href="/accommodations/hilton-cabo-verde-sal-resort">Hilton Cabo Verde Sal Resort</a></h3>
+                <h3>Hilton Cabo Verde Sal Resort</h3>
         <p>A polished Santa Maria resort for travelers who want reliable beach logistics and a comfortable Atlantic island base.</p>
 
         <div class="listing-card__footer">
                             <div class="chip-row">
                                                                         <span>Sal Island</span>
                                                             </div>
-                        <a href="/accommodations/hilton-cabo-verde-sal-resort" class="button button--ghost">View route fit</a>
-        </div>
+                                        <div class="booking-offers">
+                                <p class="booking-offers__price"> Check live price </p>
+            <a class="button button--ghost" href="https://www.stay22.com/allez/booking?aid=aid-test&amp;adults=2&amp;children=0&amp;campaign=accommodation_hilton-cabo-verde-sal-resort&amp;link=https%3A%2F%2Fwww.booking.com%2Fhotel%2Fcv%2Fhilton-cabo-verde-sal-resort.html" target="_blank" rel="nofollow sponsored noopener">View deal on Booking.com</a>
+                                        <small>Your room count is kept on this results page only. Reconfirm rooms, rates, and availability on the provider.</small>    </div>
+                    </div>
     </div>
 </article>
-                            <article class="listing-card">
-    <a href="/accommodations/camp-okavango" class="listing-card__image">
-        <img src="/images/generated/accommodations/camp-okavango/01.jpg" alt="Camp Okavango"  class="listing-card__slot"  loading="lazy" decoding="async">
-    </a>
+                            <article class="listing-card "  id="listing-camp-okavango" >
+    <div class="listing-card__image">
+        <img src="/images/stock/destinations/okavango-delta.jpg" alt="Destination landscape near Camp Okavango"  class="listing-card__slot"  loading="lazy" decoding="async">
+    </div>
     <div class="listing-card__body">
                     <p class="listing-card__eyebrow">Botswana • Delta safari camp</p>
-                <h3><a href="/accommodations/camp-okavango">Camp Okavango</a></h3>
+                <h3>Camp Okavango</h3>
         <p>A water-and-wilderness camp for travelers prioritizing mokoro channels, guided walks, and low-density Delta safari.</p>
 
         <div class="listing-card__footer">
                             <div class="chip-row">
                                                                         <span>Okavango Delta</span>
                                                             </div>
-                        <a href="/accommodations/camp-okavango" class="button button--ghost">View route fit</a>
-        </div>
+                                        <div class="booking-offers">
+                                <p class="booking-offers__price"> Check live price </p>
+            <a class="button button--ghost" href="https://www.stay22.com/allez/booking?aid=aid-test&amp;adults=2&amp;children=0&amp;campaign=accommodation_camp-okavango&amp;link=https%3A%2F%2Fwww.booking.com%2Fsearchresults.html%3Fss%3DCamp%2BOkavango%252C%2BNxaragha%2BIsland%252C%2BOkavango%2BDelta" target="_blank" rel="nofollow sponsored noopener">Compare on Booking.com</a>
+                                        <small>Your room count is kept on this results page only. Reconfirm rooms, rates, and availability on the provider.</small>    </div>
+                    </div>
     </div>
 </article>
-                            <article class="listing-card">
-    <a href="/accommodations/sossusvlei-lodge" class="listing-card__image">
-        <img src="/images/generated/accommodations/sossusvlei-lodge/01.jpg" alt="Sossusvlei Lodge"  class="listing-card__slot"  loading="lazy" decoding="async">
-    </a>
+                            <article class="listing-card "  id="listing-sossusvlei-lodge" >
+    <div class="listing-card__image">
+        <img src="/images/stock/destinations/namib-desert.jpg" alt="Destination landscape near Sossusvlei Lodge"  class="listing-card__slot"  loading="lazy" decoding="async">
+    </div>
     <div class="listing-card__body">
                     <p class="listing-card__eyebrow">Namibia • Desert lodge</p>
-                <h3><a href="/accommodations/sossusvlei-lodge">Sossusvlei Lodge</a></h3>
+                <h3>Sossusvlei Lodge</h3>
         <p>A practical desert lodge near the Sesriem entrance for early access to Sossusvlei and Deadvlei.</p>
 
         <div class="listing-card__footer">
                             <div class="chip-row">
                                                                         <span>Namib Desert</span>
                                                             </div>
-                        <a href="/accommodations/sossusvlei-lodge" class="button button--ghost">View route fit</a>
-        </div>
+                                        <div class="booking-offers">
+                                <p class="booking-offers__price"> Check live price </p>
+            <a class="button button--ghost" href="https://www.stay22.com/allez/booking?aid=aid-test&amp;adults=2&amp;children=0&amp;campaign=accommodation_sossusvlei-lodge&amp;link=https%3A%2F%2Fwww.booking.com%2Fhotel%2Fna%2Fsossusvlei-lodge.en-gb.html" target="_blank" rel="nofollow sponsored noopener">View deal on Booking.com</a>
+                                        <small>Your room count is kept on this results page only. Reconfirm rooms, rates, and availability on the provider.</small>    </div>
+                    </div>
     </div>
 </article>
-                            <article class="listing-card">
-    <a href="/accommodations/mfuwe-lodge" class="listing-card__image">
-        <img src="/images/generated/accommodations/mfuwe-lodge/01.jpg" alt="Mfuwe Lodge"  class="listing-card__slot"  loading="lazy" decoding="async">
-    </a>
+                            <article class="listing-card "  id="listing-mfuwe-lodge" >
+    <div class="listing-card__image">
+        <img src="/images/stock/destinations/south-luangwa.jpg" alt="Destination landscape near Mfuwe Lodge"  class="listing-card__slot"  loading="lazy" decoding="async">
+    </div>
     <div class="listing-card__body">
                     <p class="listing-card__eyebrow">Zambia • Safari lodge</p>
-                <h3><a href="/accommodations/mfuwe-lodge">Mfuwe Lodge</a></h3>
+                <h3>Mfuwe Lodge</h3>
         <p>A well-known South Luangwa lodge for game drives and walking safari access near Mfuwe.</p>
 
         <div class="listing-card__footer">
                             <div class="chip-row">
                                                                         <span>South Luangwa National Park</span>
                                                             </div>
-                        <a href="/accommodations/mfuwe-lodge" class="button button--ghost">View route fit</a>
-        </div>
+                                        <div class="booking-offers">
+                                <p class="booking-offers__price"> Check live price </p>
+            <a class="button button--ghost" href="https://www.stay22.com/allez/booking?aid=aid-test&amp;adults=2&amp;children=0&amp;campaign=accommodation_mfuwe-lodge&amp;link=https%3A%2F%2Fwww.booking.com%2Fsearchresults.html%3Fss%3DMfuwe%2BLodge%252C%2BMfuwe%2Bsector%252C%2BSouth%2BLuangwa%2BNational%2BPark" target="_blank" rel="nofollow sponsored noopener">Compare on Booking.com</a>
+                                        <small>Your room count is kept on this results page only. Reconfirm rooms, rates, and availability on the provider.</small>    </div>
+                    </div>
     </div>
 </article>
-                            <article class="listing-card">
-    <a href="/accommodations/desert-luxury-camp" class="listing-card__image">
-        <img src="/images/generated/accommodations/desert-luxury-camp/01.jpg" alt="Desert Luxury Camp"  class="listing-card__slot"  loading="lazy" decoding="async">
-    </a>
+                            <article class="listing-card "  id="listing-desert-luxury-camp" >
+    <div class="listing-card__image">
+        <img src="/images/stock/destinations/sahara-dunes.jpg" alt="Destination landscape near Desert Luxury Camp"  class="listing-card__slot"  loading="lazy" decoding="async">
+    </div>
     <div class="listing-card__body">
                     <p class="listing-card__eyebrow">Morocco • Desert camp</p>
-                <h3><a href="/accommodations/desert-luxury-camp">Desert Luxury Camp</a></h3>
+                <h3>Desert Luxury Camp</h3>
         <p>A desert camp option for travelers who want the Sahara overnight without presenting it as a quick city excursion.</p>
 
         <div class="listing-card__footer">
                             <div class="chip-row">
                                                                         <span>Sahara Dunes</span>
                                                             </div>
-                        <a href="/accommodations/desert-luxury-camp" class="button button--ghost">View route fit</a>
-        </div>
+                                        <div class="booking-offers">
+                                <p class="booking-offers__price"> Check live price </p>
+            <a class="button button--ghost" href="https://www.stay22.com/allez/booking?aid=aid-test&amp;adults=2&amp;children=0&amp;campaign=accommodation_desert-luxury-camp&amp;link=https%3A%2F%2Fwww.booking.com%2Fhotel%2Fma%2Fdesert-luxury-camp.en-gb.html" target="_blank" rel="nofollow sponsored noopener">View deal on Booking.com</a>
+                                        <small>Your room count is kept on this results page only. Reconfirm rooms, rates, and availability on the provider.</small>    </div>
+                    </div>
     </div>
 </article>
-                            <article class="listing-card">
-    <a href="/accommodations/marriott-mena-house-cairo" class="listing-card__image">
-        <img src="/images/generated/accommodations/marriott-mena-house-cairo/01.jpg" alt="Marriott Mena House, Cairo"  class="listing-card__slot"  loading="lazy" decoding="async">
-    </a>
+                            <article class="listing-card "  id="listing-marriott-mena-house-cairo" >
+    <div class="listing-card__image">
+        <img src="/images/stock/destinations/cairo-and-giza.jpg" alt="Destination landscape near Marriott Mena House, Cairo"  class="listing-card__slot"  loading="lazy" decoding="async">
+    </div>
     <div class="listing-card__body">
                     <p class="listing-card__eyebrow">Egypt • Heritage luxury hotel</p>
-                <h3><a href="/accommodations/marriott-mena-house-cairo">Marriott Mena House, Cairo</a></h3>
+                <h3>Marriott Mena House, Cairo</h3>
         <p>A Giza-side hotel known for pyramid views and easy access to the plateau.</p>
 
         <div class="listing-card__footer">
                             <div class="chip-row">
                                                                         <span>Cairo &amp; Giza</span>
                                                             </div>
-                        <a href="/accommodations/marriott-mena-house-cairo" class="button button--ghost">View route fit</a>
-        </div>
+                                        <div class="booking-offers">
+                                <p class="booking-offers__price"> Check live price </p>
+            <a class="button button--ghost" href="https://www.stay22.com/allez/booking?aid=aid-test&amp;adults=2&amp;children=0&amp;campaign=accommodation_marriott-mena-house-cairo&amp;link=https%3A%2F%2Fwww.booking.com%2Fhotel%2Feg%2Fmena-house-oberoi.en-gb.html" target="_blank" rel="nofollow sponsored noopener">View deal on Booking.com</a>
+                                        <small>Your room count is kept on this results page only. Reconfirm rooms, rates, and availability on the provider.</small>    </div>
+                    </div>
     </div>
 </article>
-                            <article class="listing-card">
-    <a href="/accommodations/dar-said" class="listing-card__image">
-        <img src="/images/generated/accommodations/dar-said/01.jpg" alt="Dar Said"  class="listing-card__slot"  loading="lazy" decoding="async">
-    </a>
+                            <article class="listing-card "  id="listing-dar-said" >
+    <div class="listing-card__image">
+        <img src="/images/stock/destinations/tunis-and-sidi-bou-said.jpg" alt="Destination landscape near Dar Said"  class="listing-card__slot"  loading="lazy" decoding="async">
+    </div>
     <div class="listing-card__body">
                     <p class="listing-card__eyebrow">Tunisia • Boutique hotel</p>
-                <h3><a href="/accommodations/dar-said">Dar Said</a></h3>
+                <h3>Dar Said</h3>
         <p>A boutique base in Sidi Bou Said for travelers pairing Tunis medina, Carthage, and sea-view village time.</p>
 
         <div class="listing-card__footer">
                             <div class="chip-row">
                                                                         <span>Tunis &amp; Sidi Bou Said</span>
                                                             </div>
-                        <a href="/accommodations/dar-said" class="button button--ghost">View route fit</a>
-        </div>
+                                        <div class="booking-offers">
+                                <p class="booking-offers__price"> Check live price </p>
+            <a class="button button--ghost" href="https://www.stay22.com/allez/booking?aid=aid-test&amp;adults=2&amp;children=0&amp;campaign=accommodation_dar-said&amp;link=https%3A%2F%2Fwww.booking.com%2Fhotel%2Ftn%2Fdar-said.fr.html" target="_blank" rel="nofollow sponsored noopener">View deal on Booking.com</a>
+                                        <small>Your room count is kept on this results page only. Reconfirm rooms, rates, and availability on the provider.</small>    </div>
+                    </div>
     </div>
 </article>
-                            <article class="listing-card">
-    <a href="/accommodations/terres-touareg-guest-house" class="listing-card__image">
-        <img src="/images/generated/accommodations/terres-touareg-guest-house/01.jpg" alt="Terres Touareg Guest House &amp; Desert Camp"  class="listing-card__slot"  loading="lazy" decoding="async">
-    </a>
+                            <article class="listing-card "  id="listing-terres-touareg-guest-house" >
+    <div class="listing-card__image">
+        <img src="/images/stock/destinations/djanet-and-tassili.jpg" alt="Destination landscape near Terres Touareg Guest House &amp; Desert Camp"  class="listing-card__slot"  loading="lazy" decoding="async">
+    </div>
     <div class="listing-card__body">
                     <p class="listing-card__eyebrow">Algeria • Guest house and desert camp</p>
-                <h3><a href="/accommodations/terres-touareg-guest-house">Terres Touareg Guest House &amp; Desert Camp</a></h3>
+                <h3>Terres Touareg Guest House &amp; Desert Camp</h3>
         <p>A specialist Djanet base combining traditional guest-house nights with guided desert camping routes.</p>
 
         <div class="listing-card__footer">
                             <div class="chip-row">
                                                                         <span>Djanet &amp; Tassili n’Ajjer</span>
                                                             </div>
-                        <a href="/accommodations/terres-touareg-guest-house" class="button button--ghost">View route fit</a>
-        </div>
+                                        <div class="booking-offers">
+                                <p class="booking-offers__price"> Check live price </p>
+            <a class="button button--ghost" href="https://www.stay22.com/allez/booking?aid=aid-test&amp;adults=2&amp;children=0&amp;campaign=accommodation_terres-touareg-guest-house&amp;link=https%3A%2F%2Fwww.booking.com%2Fsearchresults.html%3Fss%3DTerres%2BTouareg%2BGuest%2BHouse%2B%2526%2BDesert%2BCamp%252C%2BDjanet%2Band%2BTassili%2Bn%2BAjjer%2Broutes" target="_blank" rel="nofollow sponsored noopener">Compare on Booking.com</a>
+                                        <small>Your room count is kept on this results page only. Reconfirm rooms, rates, and availability on the provider.</small>    </div>
+                    </div>
     </div>
 </article>
                     </div>

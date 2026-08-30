@@ -27,7 +27,7 @@
             two.parentNode.insertBefore(twenty, two);
         })(window, document, 'script', 'https://scripts.stay22.com/letmeallez.js');
     </script>
-    <link rel="preload" as="style" href="/build/assets/app-OourHNl0.css" /><link rel="modulepreload" as="script" href="/build/assets/app-DfCL3t2R.js" /><link rel="stylesheet" href="/build/assets/app-OourHNl0.css" /><script type="module" src="/build/assets/app-DfCL3t2R.js"></script></head>
+    <link rel="preload" as="style" href="/build/assets/app-o8CMVoSJ.css" /><link rel="modulepreload" as="script" href="/build/assets/app-4r-rNyw7.js" /><link rel="stylesheet" href="/build/assets/app-o8CMVoSJ.css" /><script type="module" src="/build/assets/app-4r-rNyw7.js"></script></head>
 <body>
     <div class="site-topline">
         <div class="container site-topline__inner">
@@ -62,7 +62,7 @@
 
     <main>
         <section class="page-hero">
-    <img src="/images/generated/attractions/maasai-mara/01.jpg" alt="Reserved hero image space for attraction listings"  class="page-hero__slot"  loading="lazy" decoding="async">
+    <img src="/images/stock/destinations/maasai-mara.jpg" alt="Maasai Mara landscape representing Africa attractions"  class="page-hero__slot"  loading="lazy" decoding="async">
     <div class="page-hero__overlay"></div>
     <div class="container page-hero__content">
         <ul class="breadcrumb">
@@ -75,7 +75,7 @@
     </ul>
         <p class="eyebrow">Listings</p>
         <h1>Explore the attractions that can anchor a memorable Africa trip.</h1>
-        <p>Search safaris, coastlines, heritage sites, city gateways, deserts, and cultural routes, then open each listing for nearby stays, dining, timing, access, and partner booking links.</p>
+        <p>Search safaris, coastlines, heritage sites, city gateways, deserts, and cultural routes, compare each listing here, then continue through a clearly named provider link.</p>
     </div>
 </section>
 
@@ -100,446 +100,508 @@
                                     <a href="/attractions?q=first-time">First Time</a>
                             </div>
         </div>
-        <form class="filter-form filter-form--chips" method="GET">
-            <input type="text" name="q" value="" placeholder="Search attraction or destination">
-            <select name="region">
-                <option value="">All regions</option>
-                                    <option value="east-africa" >East Africa</option>
-                                    <option value="west-africa" >West Africa</option>
-                                    <option value="southern-africa" >Southern Africa</option>
-                                    <option value="northern-africa" >Northern Africa</option>
-                            </select>
-            <select name="country">
-                <option value="">All destination countries</option>
-                                    <option value="algeria" >Algeria</option>
-                                    <option value="benin" >Benin</option>
-                                    <option value="botswana" >Botswana</option>
-                                    <option value="cabo-verde" >Cabo Verde</option>
-                                    <option value="egypt" >Egypt</option>
-                                    <option value="ethiopia" >Ethiopia</option>
-                                    <option value="ghana" >Ghana</option>
-                                    <option value="kenya" >Kenya</option>
-                                    <option value="morocco" >Morocco</option>
-                                    <option value="namibia" >Namibia</option>
-                                    <option value="rwanda" >Rwanda</option>
-                                    <option value="senegal" >Senegal</option>
-                                    <option value="sierra-leone" >Sierra Leone</option>
-                                    <option value="south-africa" >South Africa</option>
-                                    <option value="tanzania" >Tanzania</option>
-                                    <option value="tunisia" >Tunisia</option>
-                                    <option value="uganda" >Uganda</option>
-                                    <option value="zambia" >Zambia</option>
-                                    <option value="zimbabwe" >Zimbabwe</option>
-                            </select>
-            <button class="button" type="submit">Search</button>
-        </form>
+        <form class="search-ribbon" data-search-ribbon method="GET" action="/attractions">
+    <div class="search-ribbon__modes" role="tablist" aria-label="Search type">
+        <button type="button" data-search-mode="attractions" class="is-active">Attractions</button>
+        <button type="button" data-search-mode="accommodations" class="">Accommodations</button>
+    </div>
+    <label class="search-ribbon__query">Find a place
+        <input data-search-input name="q" type="search" value="" role="combobox" aria-autocomplete="list" aria-controls="search-ribbon-listbox" aria-expanded="false" placeholder="Country, city, park, or property">
+        <ul id="search-ribbon-listbox" data-search-listbox role="listbox" hidden></ul>
+    </label>
+    <div class="search-ribbon__stay-fields" data-stay-fields  hidden >
+        <label>Check in<input name="checkin" type="date" value=""></label>
+        <label>Check out<input name="checkout" type="date" value=""></label>
+        <label>Adults<input name="adults" type="number" min="1" max="12" value="2"></label>
+        <label>Children<input name="children" type="number" min="0" max="8" value="0"></label>
+        <label>Rooms<input name="rooms" type="number" min="1" max="8" value="1"></label>
+    </div>
+    <div class="search-ribbon__attraction-fields" data-attraction-fields >
+        <label>Travel date<input name="travel_date" type="date" value=""></label>
+        <label>Travelers<input name="adults" type="number" min="1" max="12" value="2"></label>
+    </div>
+    <button class="button" type="submit">Search</button>
+</form>
+<script>window.trekSearchSuggestions = [{"label":"Algeria","type":"country"},{"label":"Amboseli National Park","type":"attraction","context":"Southern Kenya"},{"label":"Benin","type":"country"},{"label":"Botswana","type":"country"},{"label":"Bwindi Impenetrable National Park","type":"attraction","context":"Southwestern Uganda"},{"label":"Cabo Verde","type":"country"},{"label":"Cairo \u0026 Giza","type":"attraction","context":"Egypt"},{"label":"Camp Okavango","type":"accommodation","context":"Nxaragha Island, Okavango Delta"},{"label":"Cape Coast \u0026 Kakum","type":"attraction","context":"Central Ghana"},{"label":"Cape Town","type":"attraction","context":"Western Cape"},{"label":"Casa del Papa Resort \u0026 Spa","type":"accommodation","context":"Between Cotonou and Ouidah, Benin"},{"label":"Dar Said","type":"accommodation","context":"Sidi Bou Said, Greater Tunis"},{"label":"Desert Luxury Camp","type":"accommodation","context":"Erg Chebbi dunes, Merzouga area"},{"label":"Djanet \u0026 Tassili n\u2019Ajjer","type":"attraction","context":"Southeastern Algeria"},{"label":"Egypt","type":"country"},{"label":"Emerson Spice","type":"accommodation","context":"Stone Town, Zanzibar"},{"label":"Ethiopia","type":"country"},{"label":"Ghana","type":"country"},{"label":"Governors\u0027 Camp","type":"accommodation","context":"Mara River area, Maasai Mara National Reserve"},{"label":"Hilton Cabo Verde Sal Resort","type":"accommodation","context":"Santa Maria, Sal Island"},{"label":"Kenya","type":"country"},{"label":"Kruger National Park","type":"attraction","context":"Mpumalanga and Limpopo"},{"label":"Kruger Shalati - The Train on the Bridge","type":"accommodation","context":"Skukuza, Kruger National Park"},{"label":"Lalibela","type":"attraction","context":"Northern Ethiopia"},{"label":"Les Paletuviers","type":"accommodation","context":"Toubacouta, Sine-Saloum Delta"},{"label":"Maasai Mara","type":"attraction","context":"Southwestern Kenya"},{"label":"Maribela Hotel","type":"accommodation","context":"Lalibela hillside, Northern Ethiopia"},{"label":"Marrakech \u0026 Atlas Gateway","type":"attraction","context":"Morocco"},{"label":"Marriott Mena House, Cairo","type":"accommodation","context":"Giza, Cairo"},{"label":"Mfuwe Lodge","type":"accommodation","context":"Mfuwe sector, South Luangwa National Park"},{"label":"Morocco","type":"country"},{"label":"Mount Nelson, A Belmond Hotel","type":"accommodation","context":"Gardens, Cape Town"},{"label":"Murchison Falls National Park","type":"attraction","context":"Northern Uganda"},{"label":"Namib Desert","type":"attraction","context":"Sossusvlei and Namib-Naukluft"},{"label":"Namibia","type":"country"},{"label":"Okavango Delta","type":"attraction","context":"Northern Botswana"},{"label":"Ol Tukai Lodge Amboseli","type":"accommodation","context":"Inside Amboseli National Park"},{"label":"Ouidah \u0026 Ganvi\u00e9","type":"attraction","context":"Southern Benin"},{"label":"Paraa Safari Lodge","type":"accommodation","context":"North bank of the Victoria Nile, Murchison Falls National Park"},{"label":"Riad Rosemary","type":"accommodation","context":"Marrakech medina"},{"label":"Ridge Royal Hotel","type":"accommodation","context":"Cape Coast, Central Region"},{"label":"Rwanda","type":"country"},{"label":"Sabyinyo Silverback Lodge","type":"accommodation","context":"Near Volcanoes National Park headquarters, Musanze"},{"label":"Sahara Dunes","type":"attraction","context":"Merzouga and Erg Chebbi"},{"label":"Sal Island","type":"attraction","context":"Cabo Verde"},{"label":"Sanctuary Gorilla Forest Camp","type":"accommodation","context":"Bwindi Impenetrable National Park, Buhoma sector"},{"label":"Senegal","type":"country"},{"label":"Serengeti National Park","type":"attraction","context":"Northern Tanzania"},{"label":"Serengeti Serena Safari Lodge","type":"accommodation","context":"Central Serengeti, Tanzania"},{"label":"Sierra Leone","type":"country"},{"label":"Sine-Saloum Delta","type":"attraction","context":"Coastal Senegal"},{"label":"Sossusvlei Lodge","type":"accommodation","context":"Near Sesriem Gate, Sossusvlei"},{"label":"South Africa","type":"country"},{"label":"South Luangwa National Park","type":"attraction","context":"Eastern Zambia"},{"label":"Tanzania","type":"country"},{"label":"Terres Touareg Guest House \u0026 Desert Camp","type":"accommodation","context":"Djanet and Tassili n Ajjer routes"},{"label":"The Place Resort at Tokeh Beach","type":"accommodation","context":"Tokeh Beach, Freetown Peninsula"},{"label":"The Victoria Falls Hotel","type":"accommodation","context":"Victoria Falls town, Zimbabwe"},{"label":"Tokeh \u0026 River No. 2 Beach","type":"attraction","context":"Freetown Peninsula"},{"label":"Tunis \u0026 Sidi Bou Said","type":"attraction","context":"Tunisia"},{"label":"Tunisia","type":"country"},{"label":"Uganda","type":"country"},{"label":"Victoria Falls","type":"attraction","context":"Zimbabwe"},{"label":"Volcanoes National Park","type":"attraction","context":"Northern Rwanda"},{"label":"Zambia","type":"country"},{"label":"Zanzibar","type":"attraction","context":"Indian Ocean coast of Tanzania"},{"label":"Zimbabwe","type":"country"}];</script>
         <div class="listing-grid">
-                            <article class="listing-card">
-    <a href="/attractions/bwindi-impenetrable-national-park" class="listing-card__image">
-        <img src="/images/generated/attractions/bwindi-impenetrable-national-park/01.jpg" alt="Bwindi Impenetrable National Park"  class="listing-card__slot"  loading="lazy" decoding="async">
-    </a>
+                            <article class="listing-card "  id="listing-bwindi-impenetrable-national-park" >
+    <div class="listing-card__image">
+        <img src="/images/stock/destinations/bwindi-impenetrable-national-park.jpg" alt="Bwindi Impenetrable National Park"  class="listing-card__slot"  loading="lazy" decoding="async">
+    </div>
     <div class="listing-card__body">
                     <p class="listing-card__eyebrow">Uganda • East Africa</p>
-                <h3><a href="/attractions/bwindi-impenetrable-national-park">Bwindi Impenetrable National Park</a></h3>
+                <h3>Bwindi Impenetrable National Park</h3>
         <p>Mountain gorilla trekking in one of Africa’s most powerful forest landscapes.</p>
 
         <div class="listing-card__footer">
                             <div class="chip-row">
                                                                         <span>Southwestern Uganda</span>
                                                             </div>
-                        <a href="/attractions/bwindi-impenetrable-national-park" class="button button--ghost">Plan visit</a>
-        </div>
+                                        <div class="booking-offers">
+                                <p class="booking-offers__price"> Check live price </p>
+            <a class="button button--ghost" href="https://www.stay22.com/allez/getyourguide?aid=aid-test&amp;adults=2&amp;children=0&amp;campaign=attraction_bwindi-impenetrable-national-park&amp;link=https%3A%2F%2Fwww.getyourguide.com%2Fen-gb%2Fwestern-region-uganda-l118965%2Fbwindi-impenetrable-national-park-gorilla-trekking-day-trip-t860183%2F" target="_blank" rel="nofollow sponsored noopener">Compare tours on GetYourGuide</a>
+                                            </div>
+                    </div>
     </div>
 </article>
-                            <article class="listing-card">
-    <a href="/attractions/maasai-mara" class="listing-card__image">
-        <img src="/images/generated/attractions/maasai-mara/01.jpg" alt="Maasai Mara"  class="listing-card__slot"  loading="lazy" decoding="async">
-    </a>
+                            <article class="listing-card "  id="listing-maasai-mara" >
+    <div class="listing-card__image">
+        <img src="/images/stock/destinations/maasai-mara.jpg" alt="Maasai Mara"  class="listing-card__slot"  loading="lazy" decoding="async">
+    </div>
     <div class="listing-card__body">
                     <p class="listing-card__eyebrow">Kenya • East Africa</p>
-                <h3><a href="/attractions/maasai-mara">Maasai Mara</a></h3>
+                <h3>Maasai Mara</h3>
         <p>Kenya’s classic safari icon for migration drama, predators, and broad savannah horizons.</p>
 
         <div class="listing-card__footer">
                             <div class="chip-row">
                                                                         <span>Southwestern Kenya</span>
                                                             </div>
-                        <a href="/attractions/maasai-mara" class="button button--ghost">Plan visit</a>
-        </div>
+                                        <div class="booking-offers">
+                                <p class="booking-offers__price"> Check live price </p>
+            <a class="button button--ghost" href="https://www.stay22.com/allez/getyourguide?aid=aid-test&amp;adults=2&amp;children=0&amp;campaign=attraction_maasai-mara&amp;link=https%3A%2F%2Fwww.getyourguide.com%2Fs%2F%3Fq%3DMaasai%2BMara" target="_blank" rel="nofollow sponsored noopener">Compare tours on GetYourGuide</a>
+                                            </div>
+                    </div>
     </div>
 </article>
-                            <article class="listing-card">
-    <a href="/attractions/serengeti-national-park" class="listing-card__image">
-        <img src="/images/generated/attractions/serengeti-national-park/01.jpg" alt="Serengeti National Park"  class="listing-card__slot"  loading="lazy" decoding="async">
-    </a>
+                            <article class="listing-card "  id="listing-serengeti-national-park" >
+    <div class="listing-card__image">
+        <img src="/images/stock/destinations/serengeti-national-park.jpg" alt="Serengeti National Park"  class="listing-card__slot"  loading="lazy" decoding="async">
+    </div>
     <div class="listing-card__body">
                     <p class="listing-card__eyebrow">Tanzania • East Africa</p>
-                <h3><a href="/attractions/serengeti-national-park">Serengeti National Park</a></h3>
+                <h3>Serengeti National Park</h3>
         <p>Vast migration landscapes, apex predators, and one of Africa’s strongest safari names.</p>
 
         <div class="listing-card__footer">
                             <div class="chip-row">
                                                                         <span>Northern Tanzania</span>
                                                             </div>
-                        <a href="/attractions/serengeti-national-park" class="button button--ghost">Plan visit</a>
-        </div>
+                                        <div class="booking-offers">
+                                <p class="booking-offers__price"> Check live price </p>
+            <a class="button button--ghost" href="https://www.stay22.com/allez/getyourguide?aid=aid-test&amp;adults=2&amp;children=0&amp;campaign=attraction_serengeti-national-park&amp;link=https%3A%2F%2Fwww.getyourguide.com%2Fserengeti-national-park-l123040%2F" target="_blank" rel="nofollow sponsored noopener">Compare tours on GetYourGuide</a>
+                                            </div>
+                    </div>
     </div>
 </article>
-                            <article class="listing-card">
-    <a href="/attractions/cape-town" class="listing-card__image">
-        <img src="/images/generated/attractions/cape-town/01.jpg" alt="Cape Town"  class="listing-card__slot"  loading="lazy" decoding="async">
-    </a>
+                            <article class="listing-card "  id="listing-cape-town" >
+    <div class="listing-card__image">
+        <img src="/images/stock/destinations/cape-town.jpg" alt="Cape Town"  class="listing-card__slot"  loading="lazy" decoding="async">
+    </div>
     <div class="listing-card__body">
                     <p class="listing-card__eyebrow">South Africa • Southern Africa</p>
-                <h3><a href="/attractions/cape-town">Cape Town</a></h3>
+                <h3>Cape Town</h3>
         <p>A design-led city with ocean views, wine access, and easy day trips.</p>
 
         <div class="listing-card__footer">
                             <div class="chip-row">
                                                                         <span>Western Cape</span>
                                                             </div>
-                        <a href="/attractions/cape-town" class="button button--ghost">Plan visit</a>
-        </div>
+                                        <div class="booking-offers">
+                                <p class="booking-offers__price"> Check live price </p>
+            <a class="button button--ghost" href="https://www.stay22.com/allez/getyourguide?aid=aid-test&amp;adults=2&amp;children=0&amp;campaign=attraction_cape-town&amp;link=https%3A%2F%2Fwww.getyourguide.com%2Fs%2F%3Fq%3DCape%2BTown" target="_blank" rel="nofollow sponsored noopener">Compare tours on GetYourGuide</a>
+                                            </div>
+                    </div>
     </div>
 </article>
-                            <article class="listing-card">
-    <a href="/attractions/victoria-falls" class="listing-card__image">
-        <img src="/images/generated/attractions/victoria-falls/01.jpg" alt="Victoria Falls"  class="listing-card__slot"  loading="lazy" decoding="async">
-    </a>
+                            <article class="listing-card "  id="listing-victoria-falls" >
+    <div class="listing-card__image">
+        <img src="/images/stock/destinations/victoria-falls.jpg" alt="Victoria Falls"  class="listing-card__slot"  loading="lazy" decoding="async">
+    </div>
     <div class="listing-card__body">
                     <p class="listing-card__eyebrow">Zimbabwe • Southern Africa</p>
-                <h3><a href="/attractions/victoria-falls">Victoria Falls</a></h3>
+                <h3>Victoria Falls</h3>
         <p>The classic waterfall gateway for rainforest walks, river activities, and onward safari routing.</p>
 
         <div class="listing-card__footer">
                             <div class="chip-row">
                                                                         <span>Zimbabwe</span>
                                                             </div>
-                        <a href="/attractions/victoria-falls" class="button button--ghost">Plan visit</a>
-        </div>
+                                        <div class="booking-offers">
+                                <p class="booking-offers__price"> Check live price </p>
+            <a class="button button--ghost" href="https://www.stay22.com/allez/getyourguide?aid=aid-test&amp;adults=2&amp;children=0&amp;campaign=attraction_victoria-falls&amp;link=https%3A%2F%2Fwww.getyourguide.com%2Fs%2F%3Fq%3DVictoria%2BFalls" target="_blank" rel="nofollow sponsored noopener">Compare tours on GetYourGuide</a>
+                                            </div>
+                    </div>
     </div>
 </article>
-                            <article class="listing-card">
-    <a href="/attractions/marrakech-and-atlas" class="listing-card__image">
-        <img src="/images/generated/attractions/marrakech-and-atlas/01.jpg" alt="Marrakech &amp; Atlas Gateway"  class="listing-card__slot"  loading="lazy" decoding="async">
-    </a>
+                            <article class="listing-card "  id="listing-marrakech-and-atlas" >
+    <div class="listing-card__image">
+        <img src="/images/stock/destinations/marrakech-and-atlas.jpg" alt="Marrakech &amp; Atlas Gateway"  class="listing-card__slot"  loading="lazy" decoding="async">
+    </div>
     <div class="listing-card__body">
                     <p class="listing-card__eyebrow">Morocco • Northern Africa</p>
-                <h3><a href="/attractions/marrakech-and-atlas">Marrakech &amp; Atlas Gateway</a></h3>
+                <h3>Marrakech &amp; Atlas Gateway</h3>
         <p>A flexible route of medina culture, gardens, riads, and day trips into the Atlas foothills.</p>
 
         <div class="listing-card__footer">
                             <div class="chip-row">
                                                                         <span>Morocco</span>
                                                             </div>
-                        <a href="/attractions/marrakech-and-atlas" class="button button--ghost">Plan visit</a>
-        </div>
+                                        <div class="booking-offers">
+                                <p class="booking-offers__price"> Check live price </p>
+            <a class="button button--ghost" href="https://www.stay22.com/allez/getyourguide?aid=aid-test&amp;adults=2&amp;children=0&amp;campaign=attraction_marrakech-and-atlas&amp;link=https%3A%2F%2Fwww.getyourguide.com%2Fs%2F%3Fq%3DMarrakech%2B%2526%2BAtlas%2BGateway" target="_blank" rel="nofollow sponsored noopener">Compare tours on GetYourGuide</a>
+                                            </div>
+                    </div>
     </div>
 </article>
-                            <article class="listing-card">
-    <a href="/attractions/murchison-falls-national-park" class="listing-card__image">
-        <img src="/images/generated/attractions/murchison-falls-national-park/01.jpg" alt="Murchison Falls National Park"  class="listing-card__slot"  loading="lazy" decoding="async">
-    </a>
+                            <article class="listing-card "  id="listing-murchison-falls-national-park" >
+    <div class="listing-card__image">
+        <img src="/images/stock/destinations/murchison-falls-national-park.jpg" alt="Murchison Falls National Park"  class="listing-card__slot"  loading="lazy" decoding="async">
+    </div>
     <div class="listing-card__body">
                     <p class="listing-card__eyebrow">Uganda • East Africa</p>
-                <h3><a href="/attractions/murchison-falls-national-park">Murchison Falls National Park</a></h3>
+                <h3>Murchison Falls National Park</h3>
         <p>Uganda’s flagship Nile-and-savannah park with boat safaris, game drives, and the dramatic falls.</p>
 
         <div class="listing-card__footer">
                             <div class="chip-row">
                                                                         <span>Northern Uganda</span>
                                                             </div>
-                        <a href="/attractions/murchison-falls-national-park" class="button button--ghost">Plan visit</a>
-        </div>
+                                        <div class="booking-offers">
+                                <p class="booking-offers__price"> Check live price </p>
+            <a class="button button--ghost" href="https://www.stay22.com/allez/getyourguide?aid=aid-test&amp;adults=2&amp;children=0&amp;campaign=attraction_murchison-falls-national-park&amp;link=https%3A%2F%2Fwww.getyourguide.com%2Fmurchison-falls-l161860%2F" target="_blank" rel="nofollow sponsored noopener">Compare tours on GetYourGuide</a>
+                                            </div>
+                    </div>
     </div>
 </article>
-                            <article class="listing-card">
-    <a href="/attractions/amboseli-national-park" class="listing-card__image">
-        <img src="/images/generated/attractions/amboseli-national-park/01.jpg" alt="Amboseli National Park"  class="listing-card__slot"  loading="lazy" decoding="async">
-    </a>
+                            <article class="listing-card "  id="listing-amboseli-national-park" >
+    <div class="listing-card__image">
+        <img src="/images/stock/destinations/amboseli-national-park.jpg" alt="Amboseli National Park"  class="listing-card__slot"  loading="lazy" decoding="async">
+    </div>
     <div class="listing-card__body">
                     <p class="listing-card__eyebrow">Kenya • East Africa</p>
-                <h3><a href="/attractions/amboseli-national-park">Amboseli National Park</a></h3>
+                <h3>Amboseli National Park</h3>
         <p>Big-elephant country with unforgettable Kilimanjaro backdrops.</p>
 
         <div class="listing-card__footer">
                             <div class="chip-row">
                                                                         <span>Southern Kenya</span>
                                                             </div>
-                        <a href="/attractions/amboseli-national-park" class="button button--ghost">Plan visit</a>
-        </div>
+                                        <div class="booking-offers">
+                                <p class="booking-offers__price"> Check live price </p>
+            <a class="button button--ghost" href="https://www.stay22.com/allez/getyourguide?aid=aid-test&amp;adults=2&amp;children=0&amp;campaign=attraction_amboseli-national-park&amp;link=https%3A%2F%2Fwww.getyourguide.com%2Famboseli-national-park-l83994%2F" target="_blank" rel="nofollow sponsored noopener">Compare tours on GetYourGuide</a>
+                                            </div>
+                    </div>
     </div>
 </article>
-                            <article class="listing-card">
-    <a href="/attractions/zanzibar" class="listing-card__image">
-        <img src="/images/generated/attractions/zanzibar/01.jpg" alt="Zanzibar"  class="listing-card__slot"  loading="lazy" decoding="async">
-    </a>
+                            <article class="listing-card "  id="listing-zanzibar" >
+    <div class="listing-card__image">
+        <img src="/images/stock/destinations/zanzibar.jpg" alt="Zanzibar"  class="listing-card__slot"  loading="lazy" decoding="async">
+    </div>
     <div class="listing-card__body">
                     <p class="listing-card__eyebrow">Tanzania • East Africa</p>
-                <h3><a href="/attractions/zanzibar">Zanzibar</a></h3>
+                <h3>Zanzibar</h3>
         <p>A safari-and-coast favorite built around Stone Town, beaches, and slower Indian Ocean pacing.</p>
 
         <div class="listing-card__footer">
                             <div class="chip-row">
                                                                         <span>Indian Ocean coast of Tanzania</span>
                                                             </div>
-                        <a href="/attractions/zanzibar" class="button button--ghost">Plan visit</a>
-        </div>
+                                        <div class="booking-offers">
+                                <p class="booking-offers__price"> Check live price </p>
+            <a class="button button--ghost" href="https://www.stay22.com/allez/getyourguide?aid=aid-test&amp;adults=2&amp;children=0&amp;campaign=attraction_zanzibar&amp;link=https%3A%2F%2Fwww.getyourguide.com%2Fzanzibar-l871%2F" target="_blank" rel="nofollow sponsored noopener">Compare tours on GetYourGuide</a>
+                                            </div>
+                    </div>
     </div>
 </article>
-                            <article class="listing-card">
-    <a href="/attractions/volcanoes-national-park" class="listing-card__image">
-        <img src="/images/generated/attractions/volcanoes-national-park/01.jpg" alt="Volcanoes National Park"  class="listing-card__slot"  loading="lazy" decoding="async">
-    </a>
+                            <article class="listing-card "  id="listing-volcanoes-national-park" >
+    <div class="listing-card__image">
+        <img src="/images/stock/destinations/volcanoes-national-park.jpg" alt="Volcanoes National Park"  class="listing-card__slot"  loading="lazy" decoding="async">
+    </div>
     <div class="listing-card__body">
                     <p class="listing-card__eyebrow">Rwanda • East Africa</p>
-                <h3><a href="/attractions/volcanoes-national-park">Volcanoes National Park</a></h3>
+                <h3>Volcanoes National Park</h3>
         <p>Premium gorilla trekking with short transfer times from Kigali.</p>
 
         <div class="listing-card__footer">
                             <div class="chip-row">
                                                                         <span>Northern Rwanda</span>
                                                             </div>
-                        <a href="/attractions/volcanoes-national-park" class="button button--ghost">Plan visit</a>
-        </div>
+                                        <div class="booking-offers">
+                                <p class="booking-offers__price"> Check live price </p>
+            <a class="button button--ghost" href="https://www.stay22.com/allez/getyourguide?aid=aid-test&amp;adults=2&amp;children=0&amp;campaign=attraction_volcanoes-national-park&amp;link=https%3A%2F%2Fwww.getyourguide.com%2Fvolcanoes-national-park-rwanda-l144502%2F" target="_blank" rel="nofollow sponsored noopener">Compare tours on GetYourGuide</a>
+                                            </div>
+                    </div>
     </div>
 </article>
-                            <article class="listing-card">
-    <a href="/attractions/lalibela" class="listing-card__image">
-        <img src="/images/generated/attractions/lalibela/01.jpg" alt="Lalibela"  class="listing-card__slot"  loading="lazy" decoding="async">
-    </a>
+                            <article class="listing-card "  id="listing-lalibela" >
+    <div class="listing-card__image">
+        <img src="/images/stock/destinations/lalibela.jpg" alt="Lalibela"  class="listing-card__slot"  loading="lazy" decoding="async">
+    </div>
     <div class="listing-card__body">
                     <p class="listing-card__eyebrow">Ethiopia • East Africa</p>
-                <h3><a href="/attractions/lalibela">Lalibela</a></h3>
+                <h3>Lalibela</h3>
         <p>Rock-hewn churches and one of Africa’s most compelling heritage landscapes.</p>
 
         <div class="listing-card__footer">
                             <div class="chip-row">
                                                                         <span>Northern Ethiopia</span>
                                                             </div>
-                        <a href="/attractions/lalibela" class="button button--ghost">Plan visit</a>
-        </div>
+                                        <div class="booking-offers">
+                                <p class="booking-offers__price"> Check live price </p>
+            <a class="button button--ghost" href="https://www.stay22.com/allez/getyourguide?aid=aid-test&amp;adults=2&amp;children=0&amp;campaign=attraction_lalibela&amp;link=https%3A%2F%2Fwww.getyourguide.com%2Flalibela-l1095%2F" target="_blank" rel="nofollow sponsored noopener">Compare tours on GetYourGuide</a>
+                                            </div>
+                    </div>
     </div>
 </article>
-                            <article class="listing-card">
-    <a href="/attractions/cape-coast-kakum" class="listing-card__image">
-        <img src="/images/generated/attractions/cape-coast-kakum/01.jpg" alt="Cape Coast &amp; Kakum"  class="listing-card__slot"  loading="lazy" decoding="async">
-    </a>
+                            <article class="listing-card "  id="listing-cape-coast-kakum" >
+    <div class="listing-card__image">
+        <img src="/images/stock/destinations/cape-coast-kakum.jpg" alt="Cape Coast &amp; Kakum"  class="listing-card__slot"  loading="lazy" decoding="async">
+    </div>
     <div class="listing-card__body">
                     <p class="listing-card__eyebrow">Ghana • West Africa</p>
-                <h3><a href="/attractions/cape-coast-kakum">Cape Coast &amp; Kakum</a></h3>
+                <h3>Cape Coast &amp; Kakum</h3>
         <p>Atlantic heritage castles paired with rainforest canopy walks.</p>
 
         <div class="listing-card__footer">
                             <div class="chip-row">
                                                                         <span>Central Ghana</span>
                                                             </div>
-                        <a href="/attractions/cape-coast-kakum" class="button button--ghost">Plan visit</a>
-        </div>
+                                        <div class="booking-offers">
+                                <p class="booking-offers__price"> Check live price </p>
+            <a class="button button--ghost" href="https://www.stay22.com/allez/getyourguide?aid=aid-test&amp;adults=2&amp;children=0&amp;campaign=attraction_cape-coast-kakum&amp;link=https%3A%2F%2Fwww.getyourguide.com%2Fs%2F%3Fq%3DCape%2BCoast%2B%2526%2BKakum" target="_blank" rel="nofollow sponsored noopener">Compare tours on GetYourGuide</a>
+                                            </div>
+                    </div>
     </div>
 </article>
-                            <article class="listing-card">
-    <a href="/attractions/sine-saloum-delta" class="listing-card__image">
-        <img src="/images/generated/attractions/sine-saloum-delta/01.jpg" alt="Sine-Saloum Delta"  class="listing-card__slot"  loading="lazy" decoding="async">
-    </a>
+                            <article class="listing-card "  id="listing-sine-saloum-delta" >
+    <div class="listing-card__image">
+        <img src="/images/stock/destinations/sine-saloum-delta.jpg" alt="Sine-Saloum Delta"  class="listing-card__slot"  loading="lazy" decoding="async">
+    </div>
     <div class="listing-card__body">
                     <p class="listing-card__eyebrow">Senegal • West Africa</p>
-                <h3><a href="/attractions/sine-saloum-delta">Sine-Saloum Delta</a></h3>
+                <h3>Sine-Saloum Delta</h3>
         <p>A softer Senegal route of waterways, birdlife, and lodge-based slow travel.</p>
 
         <div class="listing-card__footer">
                             <div class="chip-row">
                                                                         <span>Coastal Senegal</span>
                                                             </div>
-                        <a href="/attractions/sine-saloum-delta" class="button button--ghost">Plan visit</a>
-        </div>
+                                        <div class="booking-offers">
+                                <p class="booking-offers__price"> Check live price </p>
+            <a class="button button--ghost" href="https://www.stay22.com/allez/getyourguide?aid=aid-test&amp;adults=2&amp;children=0&amp;campaign=attraction_sine-saloum-delta&amp;link=https%3A%2F%2Fwww.getyourguide.com%2Fs%2F%3Fq%3DSine-Saloum%2BDelta" target="_blank" rel="nofollow sponsored noopener">Compare tours on GetYourGuide</a>
+                                            </div>
+                    </div>
     </div>
 </article>
-                            <article class="listing-card">
-    <a href="/attractions/ouidah-and-ganvie" class="listing-card__image">
-        <img src="/images/generated/attractions/ouidah-and-ganvie/01.jpg" alt="Ouidah &amp; Ganvié"  class="listing-card__slot"  loading="lazy" decoding="async">
-    </a>
+                            <article class="listing-card "  id="listing-ouidah-and-ganvie" >
+    <div class="listing-card__image">
+        <img src="/images/stock/destinations/ouidah-and-ganvie.jpg" alt="Ouidah &amp; Ganvié"  class="listing-card__slot"  loading="lazy" decoding="async">
+    </div>
     <div class="listing-card__body">
                     <p class="listing-card__eyebrow">Benin • West Africa</p>
-                <h3><a href="/attractions/ouidah-and-ganvie">Ouidah &amp; Ganvié</a></h3>
+                <h3>Ouidah &amp; Ganvié</h3>
         <p>A compact heritage route linking Atlantic history with the famous stilt village.</p>
 
         <div class="listing-card__footer">
                             <div class="chip-row">
                                                                         <span>Southern Benin</span>
                                                             </div>
-                        <a href="/attractions/ouidah-and-ganvie" class="button button--ghost">Plan visit</a>
-        </div>
+                                        <div class="booking-offers">
+                                <p class="booking-offers__price"> Check live price </p>
+            <a class="button button--ghost" href="https://www.stay22.com/allez/getyourguide?aid=aid-test&amp;adults=2&amp;children=0&amp;campaign=attraction_ouidah-and-ganvie&amp;link=https%3A%2F%2Fwww.getyourguide.com%2Fs%2F%3Fq%3DOuidah%2B%2526%2BGanvi%25C3%25A9" target="_blank" rel="nofollow sponsored noopener">Compare tours on GetYourGuide</a>
+                                            </div>
+                    </div>
     </div>
 </article>
-                            <article class="listing-card">
-    <a href="/attractions/tokeh-and-river-no2" class="listing-card__image">
-        <img src="/images/generated/attractions/tokeh-and-river-no2/01.jpg" alt="Tokeh &amp; River No. 2 Beach"  class="listing-card__slot"  loading="lazy" decoding="async">
-    </a>
+                            <article class="listing-card "  id="listing-tokeh-and-river-no2" >
+    <div class="listing-card__image">
+        <img src="/images/stock/destinations/tokeh-and-river-no2.jpg" alt="Tokeh &amp; River No. 2 Beach"  class="listing-card__slot"  loading="lazy" decoding="async">
+    </div>
     <div class="listing-card__body">
                     <p class="listing-card__eyebrow">Sierra Leone • West Africa</p>
-                <h3><a href="/attractions/tokeh-and-river-no2">Tokeh &amp; River No. 2 Beach</a></h3>
+                <h3>Tokeh &amp; River No. 2 Beach</h3>
         <p>An easy Sierra Leone coast escape with striking beaches and a laid-back mood.</p>
 
         <div class="listing-card__footer">
                             <div class="chip-row">
                                                                         <span>Freetown Peninsula</span>
                                                             </div>
-                        <a href="/attractions/tokeh-and-river-no2" class="button button--ghost">Plan visit</a>
-        </div>
+                                        <div class="booking-offers">
+                                <p class="booking-offers__price"> Check live price </p>
+            <a class="button button--ghost" href="https://www.stay22.com/allez/getyourguide?aid=aid-test&amp;adults=2&amp;children=0&amp;campaign=attraction_tokeh-and-river-no2&amp;link=https%3A%2F%2Fwww.getyourguide.com%2Fs%2F%3Fq%3DTokeh%2B%2526%2BRiver%2BNo.%2B2%2BBeach" target="_blank" rel="nofollow sponsored noopener">Compare tours on GetYourGuide</a>
+                                            </div>
+                    </div>
     </div>
 </article>
-                            <article class="listing-card">
-    <a href="/attractions/sal-island" class="listing-card__image">
-        <img src="/images/generated/attractions/sal-island/01.jpg" alt="Sal Island"  class="listing-card__slot"  loading="lazy" decoding="async">
-    </a>
+                            <article class="listing-card "  id="listing-sal-island" >
+    <div class="listing-card__image">
+        <img src="/images/stock/destinations/sal-island.jpg" alt="Sal Island"  class="listing-card__slot"  loading="lazy" decoding="async">
+    </div>
     <div class="listing-card__body">
                     <p class="listing-card__eyebrow">Cabo Verde • West Africa</p>
-                <h3><a href="/attractions/sal-island">Sal Island</a></h3>
+                <h3>Sal Island</h3>
         <p>Reliable winter sun, beaches, and water sports.</p>
 
         <div class="listing-card__footer">
                             <div class="chip-row">
                                                                         <span>Cabo Verde</span>
                                                             </div>
-                        <a href="/attractions/sal-island" class="button button--ghost">Plan visit</a>
-        </div>
+                                        <div class="booking-offers">
+                                <p class="booking-offers__price"> Check live price </p>
+            <a class="button button--ghost" href="https://www.stay22.com/allez/getyourguide?aid=aid-test&amp;adults=2&amp;children=0&amp;campaign=attraction_sal-island&amp;link=https%3A%2F%2Fwww.getyourguide.com%2Fs%2F%3Fq%3DSal%2BIsland" target="_blank" rel="nofollow sponsored noopener">Compare tours on GetYourGuide</a>
+                                            </div>
+                    </div>
     </div>
 </article>
-                            <article class="listing-card">
-    <a href="/attractions/kruger-national-park" class="listing-card__image">
-        <img src="/images/generated/attractions/kruger-national-park/01.jpg" alt="Kruger National Park"  class="listing-card__slot"  loading="lazy" decoding="async">
-    </a>
+                            <article class="listing-card "  id="listing-kruger-national-park" >
+    <div class="listing-card__image">
+        <img src="/images/stock/destinations/kruger-national-park.jpg" alt="Kruger National Park"  class="listing-card__slot"  loading="lazy" decoding="async">
+    </div>
     <div class="listing-card__body">
                     <p class="listing-card__eyebrow">South Africa • Southern Africa</p>
-                <h3><a href="/attractions/kruger-national-park">Kruger National Park</a></h3>
+                <h3>Kruger National Park</h3>
         <p>A major Big Five safari zone with wide lodge choice and strong self-drive or guided options.</p>
 
         <div class="listing-card__footer">
                             <div class="chip-row">
                                                                         <span>Mpumalanga and Limpopo</span>
                                                             </div>
-                        <a href="/attractions/kruger-national-park" class="button button--ghost">Plan visit</a>
-        </div>
+                                        <div class="booking-offers">
+                                <p class="booking-offers__price"> Check live price </p>
+            <a class="button button--ghost" href="https://www.stay22.com/allez/getyourguide?aid=aid-test&amp;adults=2&amp;children=0&amp;campaign=attraction_kruger-national-park&amp;link=https%3A%2F%2Fwww.getyourguide.com%2Fs%2F%3Fq%3DKruger%2BNational%2BPark" target="_blank" rel="nofollow sponsored noopener">Compare tours on GetYourGuide</a>
+                                            </div>
+                    </div>
     </div>
 </article>
-                            <article class="listing-card">
-    <a href="/attractions/okavango-delta" class="listing-card__image">
-        <img src="/images/generated/attractions/okavango-delta/01.jpg" alt="Okavango Delta"  class="listing-card__slot"  loading="lazy" decoding="async">
-    </a>
+                            <article class="listing-card "  id="listing-okavango-delta" >
+    <div class="listing-card__image">
+        <img src="/images/stock/destinations/okavango-delta.jpg" alt="Okavango Delta"  class="listing-card__slot"  loading="lazy" decoding="async">
+    </div>
     <div class="listing-card__body">
                     <p class="listing-card__eyebrow">Botswana • Southern Africa</p>
-                <h3><a href="/attractions/okavango-delta">Okavango Delta</a></h3>
+                <h3>Okavango Delta</h3>
         <p>One of Africa’s most exclusive safari ecosystems with mokoro channels and floodplain camps.</p>
 
         <div class="listing-card__footer">
                             <div class="chip-row">
                                                                         <span>Northern Botswana</span>
                                                             </div>
-                        <a href="/attractions/okavango-delta" class="button button--ghost">Plan visit</a>
-        </div>
+                                        <div class="booking-offers">
+                                <p class="booking-offers__price"> Check live price </p>
+            <a class="button button--ghost" href="https://www.stay22.com/allez/getyourguide?aid=aid-test&amp;adults=2&amp;children=0&amp;campaign=attraction_okavango-delta&amp;link=https%3A%2F%2Fwww.getyourguide.com%2Fs%2F%3Fq%3DOkavango%2BDelta" target="_blank" rel="nofollow sponsored noopener">Compare tours on GetYourGuide</a>
+                                            </div>
+                    </div>
     </div>
 </article>
-                            <article class="listing-card">
-    <a href="/attractions/namib-desert" class="listing-card__image">
-        <img src="/images/generated/attractions/namib-desert/01.jpg" alt="Namib Desert"  class="listing-card__slot"  loading="lazy" decoding="async">
-    </a>
+                            <article class="listing-card "  id="listing-namib-desert" >
+    <div class="listing-card__image">
+        <img src="/images/stock/destinations/namib-desert.jpg" alt="Namib Desert"  class="listing-card__slot"  loading="lazy" decoding="async">
+    </div>
     <div class="listing-card__body">
                     <p class="listing-card__eyebrow">Namibia • Southern Africa</p>
-                <h3><a href="/attractions/namib-desert">Namib Desert</a></h3>
+                <h3>Namib Desert</h3>
         <p>Towering dunes, cinematic desert light, and an unmatched sense of open space.</p>
 
         <div class="listing-card__footer">
                             <div class="chip-row">
                                                                         <span>Sossusvlei and Namib-Naukluft</span>
                                                             </div>
-                        <a href="/attractions/namib-desert" class="button button--ghost">Plan visit</a>
-        </div>
+                                        <div class="booking-offers">
+                                <p class="booking-offers__price"> Check live price </p>
+            <a class="button button--ghost" href="https://www.stay22.com/allez/getyourguide?aid=aid-test&amp;adults=2&amp;children=0&amp;campaign=attraction_namib-desert&amp;link=https%3A%2F%2Fwww.getyourguide.com%2Fs%2F%3Fq%3DNamib%2BDesert" target="_blank" rel="nofollow sponsored noopener">Compare tours on GetYourGuide</a>
+                                            </div>
+                    </div>
     </div>
 </article>
-                            <article class="listing-card">
-    <a href="/attractions/south-luangwa" class="listing-card__image">
-        <img src="/images/generated/attractions/south-luangwa/01.jpg" alt="South Luangwa National Park"  class="listing-card__slot"  loading="lazy" decoding="async">
-    </a>
+                            <article class="listing-card "  id="listing-south-luangwa" >
+    <div class="listing-card__image">
+        <img src="/images/stock/destinations/south-luangwa.jpg" alt="South Luangwa National Park"  class="listing-card__slot"  loading="lazy" decoding="async">
+    </div>
     <div class="listing-card__body">
                     <p class="listing-card__eyebrow">Zambia • Southern Africa</p>
-                <h3><a href="/attractions/south-luangwa">South Luangwa National Park</a></h3>
+                <h3>South Luangwa National Park</h3>
         <p>One of Africa’s strongest walking safari landscapes.</p>
 
         <div class="listing-card__footer">
                             <div class="chip-row">
                                                                         <span>Eastern Zambia</span>
                                                             </div>
-                        <a href="/attractions/south-luangwa" class="button button--ghost">Plan visit</a>
-        </div>
+                                        <div class="booking-offers">
+                                <p class="booking-offers__price"> Check live price </p>
+            <a class="button button--ghost" href="https://www.stay22.com/allez/getyourguide?aid=aid-test&amp;adults=2&amp;children=0&amp;campaign=attraction_south-luangwa&amp;link=https%3A%2F%2Fwww.getyourguide.com%2Fs%2F%3Fq%3DSouth%2BLuangwa%2BNational%2BPark" target="_blank" rel="nofollow sponsored noopener">Compare tours on GetYourGuide</a>
+                                            </div>
+                    </div>
     </div>
 </article>
-                            <article class="listing-card">
-    <a href="/attractions/sahara-dunes" class="listing-card__image">
-        <img src="/images/generated/attractions/sahara-dunes/01.jpg" alt="Sahara Dunes"  class="listing-card__slot"  loading="lazy" decoding="async">
-    </a>
+                            <article class="listing-card "  id="listing-sahara-dunes" >
+    <div class="listing-card__image">
+        <img src="/images/stock/destinations/sahara-dunes.jpg" alt="Sahara Dunes"  class="listing-card__slot"  loading="lazy" decoding="async">
+    </div>
     <div class="listing-card__body">
                     <p class="listing-card__eyebrow">Morocco • Northern Africa</p>
-                <h3><a href="/attractions/sahara-dunes">Sahara Dunes</a></h3>
+                <h3>Sahara Dunes</h3>
         <p>Desert camps, camel routes, and one of Morocco’s most iconic landscape experiences.</p>
 
         <div class="listing-card__footer">
                             <div class="chip-row">
                                                                         <span>Merzouga and Erg Chebbi</span>
                                                             </div>
-                        <a href="/attractions/sahara-dunes" class="button button--ghost">Plan visit</a>
-        </div>
+                                        <div class="booking-offers">
+                                <p class="booking-offers__price"> Check live price </p>
+            <a class="button button--ghost" href="https://www.stay22.com/allez/getyourguide?aid=aid-test&amp;adults=2&amp;children=0&amp;campaign=attraction_sahara-dunes&amp;link=https%3A%2F%2Fwww.getyourguide.com%2Fs%2F%3Fq%3DSahara%2BDunes" target="_blank" rel="nofollow sponsored noopener">Compare tours on GetYourGuide</a>
+                                            </div>
+                    </div>
     </div>
 </article>
-                            <article class="listing-card">
-    <a href="/attractions/cairo-and-giza" class="listing-card__image">
-        <img src="/images/generated/attractions/cairo-and-giza/01.jpg" alt="Cairo &amp; Giza"  class="listing-card__slot"  loading="lazy" decoding="async">
-    </a>
+                            <article class="listing-card "  id="listing-cairo-and-giza" >
+    <div class="listing-card__image">
+        <img src="/images/stock/destinations/cairo-and-giza.jpg" alt="Cairo &amp; Giza"  class="listing-card__slot"  loading="lazy" decoding="async">
+    </div>
     <div class="listing-card__body">
                     <p class="listing-card__eyebrow">Egypt • Northern Africa</p>
-                <h3><a href="/attractions/cairo-and-giza">Cairo &amp; Giza</a></h3>
+                <h3>Cairo &amp; Giza</h3>
         <p>Pyramids, museums, and Egypt’s most powerful urban heritage gateway.</p>
 
         <div class="listing-card__footer">
                             <div class="chip-row">
                                                                         <span>Egypt</span>
                                                             </div>
-                        <a href="/attractions/cairo-and-giza" class="button button--ghost">Plan visit</a>
-        </div>
+                                        <div class="booking-offers">
+                                <p class="booking-offers__price"> Check live price </p>
+            <a class="button button--ghost" href="https://www.stay22.com/allez/getyourguide?aid=aid-test&amp;adults=2&amp;children=0&amp;campaign=attraction_cairo-and-giza&amp;link=https%3A%2F%2Fwww.getyourguide.com%2Fs%2F%3Fq%3DCairo%2B%2526%2BGiza" target="_blank" rel="nofollow sponsored noopener">Compare tours on GetYourGuide</a>
+                                            </div>
+                    </div>
     </div>
 </article>
-                            <article class="listing-card">
-    <a href="/attractions/tunis-and-sidi-bou-said" class="listing-card__image">
-        <img src="/images/generated/attractions/tunis-and-sidi-bou-said/01.jpg" alt="Tunis &amp; Sidi Bou Said"  class="listing-card__slot"  loading="lazy" decoding="async">
-    </a>
+                            <article class="listing-card "  id="listing-tunis-and-sidi-bou-said" >
+    <div class="listing-card__image">
+        <img src="/images/stock/destinations/tunis-and-sidi-bou-said.jpg" alt="Tunis &amp; Sidi Bou Said"  class="listing-card__slot"  loading="lazy" decoding="async">
+    </div>
     <div class="listing-card__body">
                     <p class="listing-card__eyebrow">Tunisia • Northern Africa</p>
-                <h3><a href="/attractions/tunis-and-sidi-bou-said">Tunis &amp; Sidi Bou Said</a></h3>
+                <h3>Tunis &amp; Sidi Bou Said</h3>
         <p>A manageable blend of medina heritage, sea views, and easy cultural touring.</p>
 
         <div class="listing-card__footer">
                             <div class="chip-row">
                                                                         <span>Tunisia</span>
                                                             </div>
-                        <a href="/attractions/tunis-and-sidi-bou-said" class="button button--ghost">Plan visit</a>
-        </div>
+                                        <div class="booking-offers">
+                                <p class="booking-offers__price"> Check live price </p>
+            <a class="button button--ghost" href="https://www.stay22.com/allez/getyourguide?aid=aid-test&amp;adults=2&amp;children=0&amp;campaign=attraction_tunis-and-sidi-bou-said&amp;link=https%3A%2F%2Fwww.getyourguide.com%2Fs%2F%3Fq%3DTunis%2B%2526%2BSidi%2BBou%2BSaid" target="_blank" rel="nofollow sponsored noopener">Compare tours on GetYourGuide</a>
+                                            </div>
+                    </div>
     </div>
 </article>
-                            <article class="listing-card">
-    <a href="/attractions/djanet-and-tassili" class="listing-card__image">
-        <img src="/images/generated/attractions/djanet-and-tassili/01.jpg" alt="Djanet &amp; Tassili n’Ajjer"  class="listing-card__slot"  loading="lazy" decoding="async">
-    </a>
+                            <article class="listing-card "  id="listing-djanet-and-tassili" >
+    <div class="listing-card__image">
+        <img src="/images/stock/destinations/djanet-and-tassili.jpg" alt="Djanet &amp; Tassili n’Ajjer"  class="listing-card__slot"  loading="lazy" decoding="async">
+    </div>
     <div class="listing-card__body">
                     <p class="listing-card__eyebrow">Algeria • Northern Africa</p>
-                <h3><a href="/attractions/djanet-and-tassili">Djanet &amp; Tassili n’Ajjer</a></h3>
+                <h3>Djanet &amp; Tassili n’Ajjer</h3>
         <p>A saharan expedition route of rock art, desert geology, and extreme remoteness.</p>
 
         <div class="listing-card__footer">
                             <div class="chip-row">
                                                                         <span>Southeastern Algeria</span>
                                                             </div>
-                        <a href="/attractions/djanet-and-tassili" class="button button--ghost">Plan visit</a>
-        </div>
+                                        <div class="booking-offers">
+                                <p class="booking-offers__price"> Check live price </p>
+            <a class="button button--ghost" href="https://www.stay22.com/allez/getyourguide?aid=aid-test&amp;adults=2&amp;children=0&amp;campaign=attraction_djanet-and-tassili&amp;link=https%3A%2F%2Fwww.getyourguide.com%2Fs%2F%3Fq%3DDjanet%2B%2526%2BTassili%2Bn%25E2%2580%2599Ajjer" target="_blank" rel="nofollow sponsored noopener">Compare tours on GetYourGuide</a>
+                                            </div>
+                    </div>
     </div>
 </article>
                     </div>

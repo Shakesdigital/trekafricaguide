@@ -27,7 +27,7 @@
             two.parentNode.insertBefore(twenty, two);
         })(window, document, 'script', 'https://scripts.stay22.com/letmeallez.js');
     </script>
-    <link rel="preload" as="style" href="/build/assets/app-OourHNl0.css" /><link rel="modulepreload" as="script" href="/build/assets/app-DfCL3t2R.js" /><link rel="stylesheet" href="/build/assets/app-OourHNl0.css" /><script type="module" src="/build/assets/app-DfCL3t2R.js"></script></head>
+    <link rel="preload" as="style" href="/build/assets/app-o8CMVoSJ.css" /><link rel="modulepreload" as="script" href="/build/assets/app-4r-rNyw7.js" /><link rel="stylesheet" href="/build/assets/app-o8CMVoSJ.css" /><script type="module" src="/build/assets/app-4r-rNyw7.js"></script></head>
 <body>
     <div class="site-topline">
         <div class="container site-topline__inner">
@@ -62,7 +62,7 @@
 
     <main>
         <section class="page-hero">
-    <img src="/images/generated/attractions/cape-town/01.jpg" alt="Reserved image space for South Africa travel planning"  class="page-hero__slot"  loading="lazy" decoding="async">
+    <img src="/images/stock/destinations/cape-town.jpg" alt="South Africa destination landscape"  class="page-hero__slot"  loading="lazy" decoding="async">
     <div class="page-hero__overlay"></div>
     <div class="container page-hero__content">
         <ul class="breadcrumb">
@@ -89,11 +89,7 @@
                 <h2>More visuals from South Africa</h2>
             </div>
             <div class="gallery-grid">
-                                    <img src="/images/generated/attractions/cape-town/01.jpg" alt="South Africa"  class="gallery-grid__slot"  loading="lazy" decoding="async">
-                                    <img src="/images/generated/attractions/cape-town/02.jpg" alt="South Africa"  class="gallery-grid__slot"  loading="lazy" decoding="async">
-                                    <img src="/images/generated/attractions/cape-town/03.jpg" alt="South Africa"  class="gallery-grid__slot"  loading="lazy" decoding="async">
-                                    <img src="/images/generated/attractions/cape-town/04.jpg" alt="South Africa"  class="gallery-grid__slot"  loading="lazy" decoding="async">
-                                    <img src="/images/generated/attractions/cape-town/05.jpg" alt="South Africa"  class="gallery-grid__slot"  loading="lazy" decoding="async">
+                                    <img src="/images/stock/destinations/cape-town.jpg" alt="South Africa"  class="gallery-grid__slot"  loading="lazy" decoding="async">
                             </div>
         </div>
     </section>
@@ -163,7 +159,35 @@
     </div>
 </section>
 
-<section class="section section--alt">
+<section class="section section--compact">
+    <div class="container">
+        <form class="search-ribbon" data-search-ribbon method="GET" action="/accommodations">
+    <div class="search-ribbon__modes" role="tablist" aria-label="Search type">
+        <button type="button" data-search-mode="attractions" class="">Attractions</button>
+        <button type="button" data-search-mode="accommodations" class="is-active">Accommodations</button>
+    </div>
+    <label class="search-ribbon__query">Find a place
+        <input data-search-input name="q" type="search" value="South Africa" role="combobox" aria-autocomplete="list" aria-controls="search-ribbon-listbox" aria-expanded="false" placeholder="Country, city, park, or property">
+        <ul id="search-ribbon-listbox" data-search-listbox role="listbox" hidden></ul>
+    </label>
+    <div class="search-ribbon__stay-fields" data-stay-fields >
+        <label>Check in<input name="checkin" type="date" value=""></label>
+        <label>Check out<input name="checkout" type="date" value=""></label>
+        <label>Adults<input name="adults" type="number" min="1" max="12" value="2"></label>
+        <label>Children<input name="children" type="number" min="0" max="8" value="0"></label>
+        <label>Rooms<input name="rooms" type="number" min="1" max="8" value="1"></label>
+    </div>
+    <div class="search-ribbon__attraction-fields" data-attraction-fields  hidden >
+        <label>Travel date<input name="travel_date" type="date" value=""></label>
+        <label>Travelers<input name="adults" type="number" min="1" max="12" value="2"></label>
+    </div>
+    <button class="button" type="submit">Search</button>
+</form>
+<script>window.trekSearchSuggestions = [];</script>
+    </div>
+</section>
+
+    <section class="section section--alt">
     <div class="container">
         <div class="section-heading">
             <p class="eyebrow">Attractions</p>
@@ -171,38 +195,44 @@
             <p>Open the places that catch your eye, then compare the practical details: how to get there, when to go, where to stay nearby, and which booking path makes sense.</p>
         </div>
         <div class="listing-grid">
-                            <article class="listing-card">
-    <a href="/attractions/cape-town" class="listing-card__image">
-        <img src="/images/generated/attractions/cape-town/01.jpg" alt="Cape Town"  class="listing-card__slot"  loading="lazy" decoding="async">
-    </a>
+                            <article class="listing-card "  id="listing-cape-town" >
+    <div class="listing-card__image">
+        <img src="/images/stock/destinations/cape-town.jpg" alt="Cape Town"  class="listing-card__slot"  loading="lazy" decoding="async">
+    </div>
     <div class="listing-card__body">
                     <p class="listing-card__eyebrow">South Africa</p>
-                <h3><a href="/attractions/cape-town">Cape Town</a></h3>
+                <h3>Cape Town</h3>
         <p>A design-led city with ocean views, wine access, and easy day trips.</p>
 
         <div class="listing-card__footer">
                             <div class="chip-row">
                                                                         <span>Western Cape</span>
                                                             </div>
-                        <a href="/attractions/cape-town" class="button button--ghost">Plan visit</a>
-        </div>
+                                        <div class="booking-offers">
+                                <p class="booking-offers__price"> Check live price </p>
+            <a class="button button--ghost" href="https://www.stay22.com/allez/getyourguide?aid=aid-test&amp;campaign=attraction_cape-town&amp;link=https%3A%2F%2Fwww.getyourguide.com%2Fs%2F%3Fq%3DCape%2BTown" target="_blank" rel="nofollow sponsored noopener">Compare tours on GetYourGuide</a>
+                                            </div>
+                    </div>
     </div>
 </article>
-                            <article class="listing-card">
-    <a href="/attractions/kruger-national-park" class="listing-card__image">
-        <img src="/images/generated/attractions/kruger-national-park/01.jpg" alt="Kruger National Park"  class="listing-card__slot"  loading="lazy" decoding="async">
-    </a>
+                            <article class="listing-card "  id="listing-kruger-national-park" >
+    <div class="listing-card__image">
+        <img src="/images/stock/destinations/kruger-national-park.jpg" alt="Kruger National Park"  class="listing-card__slot"  loading="lazy" decoding="async">
+    </div>
     <div class="listing-card__body">
                     <p class="listing-card__eyebrow">South Africa</p>
-                <h3><a href="/attractions/kruger-national-park">Kruger National Park</a></h3>
+                <h3>Kruger National Park</h3>
         <p>A major Big Five safari zone with wide lodge choice and strong self-drive or guided options.</p>
 
         <div class="listing-card__footer">
                             <div class="chip-row">
                                                                         <span>Mpumalanga and Limpopo</span>
                                                             </div>
-                        <a href="/attractions/kruger-national-park" class="button button--ghost">Plan visit</a>
-        </div>
+                                        <div class="booking-offers">
+                                <p class="booking-offers__price"> Check live price </p>
+            <a class="button button--ghost" href="https://www.stay22.com/allez/getyourguide?aid=aid-test&amp;campaign=attraction_kruger-national-park&amp;link=https%3A%2F%2Fwww.getyourguide.com%2Fs%2F%3Fq%3DKruger%2BNational%2BPark" target="_blank" rel="nofollow sponsored noopener">Compare tours on GetYourGuide</a>
+                                            </div>
+                    </div>
     </div>
 </article>
                     </div>
@@ -213,44 +243,50 @@
     <div class="container">
         <div class="section-heading section-heading--compact">
             <p class="eyebrow">Nearby stays</p>
-                <h2>Stays that keep you close to the experience</h2>
+            <h2>Stays that keep you close to the experience</h2>
         </div>
         <div class="listing-grid">
-                                    <article class="listing-card">
-    <a href="/accommodations/mount-nelson-a-belmond-hotel" class="listing-card__image">
-        <img src="/images/generated/accommodations/mount-nelson-a-belmond-hotel/01.jpg" alt="Mount Nelson, A Belmond Hotel"  class="listing-card__slot"  loading="lazy" decoding="async">
-    </a>
+                            <article class="listing-card "  id="listing-mount-nelson-a-belmond-hotel" >
+    <div class="listing-card__image">
+        <img src="/images/stock/destinations/cape-town.jpg" alt="Destination landscape near Mount Nelson, A Belmond Hotel"  class="listing-card__slot"  loading="lazy" decoding="async">
+    </div>
     <div class="listing-card__body">
                     <p class="listing-card__eyebrow">Cape Town</p>
-                <h3><a href="/accommodations/mount-nelson-a-belmond-hotel">Mount Nelson, A Belmond Hotel</a></h3>
+                <h3>Mount Nelson, A Belmond Hotel</h3>
         <p>A landmark Cape Town hotel that works well for city, coast, food, and Winelands planning.</p>
 
         <div class="listing-card__footer">
                             <div class="chip-row">
                                                                         <span>Luxury city hotel</span>
                                                             </div>
-                        <a href="/accommodations/mount-nelson-a-belmond-hotel" class="button button--ghost">View route fit</a>
-        </div>
+                                        <div class="booking-offers">
+                                <p class="booking-offers__price"> Check live price </p>
+            <a class="button button--ghost" href="https://www.stay22.com/allez/booking?aid=aid-test&amp;campaign=accommodation_mount-nelson-a-belmond-hotel&amp;link=https%3A%2F%2Fwww.booking.com%2Fhotel%2Fza%2Fbelmond-mount-nelson.en-gb.html" target="_blank" rel="nofollow sponsored noopener">View deal on Booking.com</a>
+                                            </div>
+                    </div>
     </div>
 </article>
-                                    <article class="listing-card">
-    <a href="/accommodations/kruger-shalati" class="listing-card__image">
-        <img src="/images/generated/accommodations/kruger-shalati/01.jpg" alt="Kruger Shalati - The Train on the Bridge"  class="listing-card__slot"  loading="lazy" decoding="async">
-    </a>
+                            <article class="listing-card "  id="listing-kruger-shalati" >
+    <div class="listing-card__image">
+        <img src="/images/stock/destinations/kruger-national-park.jpg" alt="Destination landscape near Kruger Shalati - The Train on the Bridge"  class="listing-card__slot"  loading="lazy" decoding="async">
+    </div>
     <div class="listing-card__body">
                     <p class="listing-card__eyebrow">Kruger National Park</p>
-                <h3><a href="/accommodations/kruger-shalati">Kruger Shalati - The Train on the Bridge</a></h3>
+                <h3>Kruger Shalati - The Train on the Bridge</h3>
         <p>A distinctive Kruger stay built around restored train carriages on the Selati Bridge over the Sabie River.</p>
 
         <div class="listing-card__footer">
                             <div class="chip-row">
                                                                         <span>Luxury safari hotel</span>
                                                             </div>
-                        <a href="/accommodations/kruger-shalati" class="button button--ghost">View route fit</a>
-        </div>
+                                        <div class="booking-offers">
+                                <p class="booking-offers__price"> Check live price </p>
+            <a class="button button--ghost" href="https://www.stay22.com/allez/booking?aid=aid-test&amp;campaign=accommodation_kruger-shalati&amp;link=https%3A%2F%2Fwww.booking.com%2Fhotel%2Fza%2Fkruger-shalati-the-train-on-the-bridge.de.html" target="_blank" rel="nofollow sponsored noopener">View deal on Booking.com</a>
+                                            </div>
+                    </div>
     </div>
 </article>
-                            </div>
+                    </div>
     </div>
 </section>
 
@@ -261,41 +297,54 @@
             <h2>Dining ideas that add flavor to the journey</h2>
         </div>
         <div class="listing-grid">
-                            <article class="listing-card">
-    <a href="/restaurants/seebamboes-cape-town" class="listing-card__image">
-        <img src="/images/generated/restaurants/seebamboes-cape-town/01.jpg" alt="Seebamboes"  class="listing-card__slot"  loading="lazy" decoding="async">
-    </a>
+                            <article class="listing-card "  id="listing-seebamboes-cape-town" >
+    <div class="listing-card__image">
+        <img src="/images/stock/destinations/cape-town.jpg" alt="Destination landscape near Seebamboes"  class="listing-card__slot"  loading="lazy" decoding="async">
+    </div>
     <div class="listing-card__body">
                     <p class="listing-card__eyebrow">Cape Town</p>
-                <h3><a href="/restaurants/seebamboes-cape-town">Seebamboes</a></h3>
+                <h3>Seebamboes</h3>
         <p>Seebamboes reflects Cape Town s current food appeal: local produce, seafood, and a more contemporary expression of South Afri...</p>
 
         <div class="listing-card__footer">
                             <div class="chip-row">
                                                                         <span>Contemporary South African seafood</span>
                                                             </div>
-                        <a href="/restaurants/seebamboes-cape-town" class="button button--ghost">View dining</a>
-        </div>
+                                        <div class="booking-offers">
+                                <p class="booking-offers__price"> Check menu and reservation details </p>
+            <a class="button button--ghost" href="https://seebamboes.co.za/" target="_blank" rel="nofollow noopener">Visit official site</a>
+            <small>External provider link; Trek Africa Guide does not process this booking.</small>                                </div>
+                    </div>
     </div>
 </article>
-                            <article class="listing-card">
-    <a href="/restaurants/kruger-shalati-dining" class="listing-card__image">
-        <img src="/images/generated/restaurants/kruger-shalati-dining/01.jpg" alt="Kruger Shalati Dining"  class="listing-card__slot"  loading="lazy" decoding="async">
-    </a>
+                            <article class="listing-card "  id="listing-kruger-shalati-dining" >
+    <div class="listing-card__image">
+        <img src="/images/stock/destinations/kruger-national-park.jpg" alt="Destination landscape near Kruger Shalati Dining"  class="listing-card__slot"  loading="lazy" decoding="async">
+    </div>
     <div class="listing-card__body">
                     <p class="listing-card__eyebrow">Kruger National Park</p>
-                <h3><a href="/restaurants/kruger-shalati-dining">Kruger Shalati Dining</a></h3>
+                <h3>Kruger Shalati Dining</h3>
         <p>Dining at Kruger Shalati is part of the stay, with meals shaped around game drives and the Sabie River setting.</p>
 
         <div class="listing-card__footer">
                             <div class="chip-row">
                                                                         <span>Safari hotel dining</span>
                                                             </div>
-                        <a href="/restaurants/kruger-shalati-dining" class="button button--ghost">View dining</a>
-        </div>
+                                        <div class="booking-offers">
+                                <p class="booking-offers__price"> Check menu and reservation details </p>
+            <a class="button button--ghost" href="https://www.krugershalati.com/" target="_blank" rel="nofollow noopener">Visit official site</a>
+            <small>External provider link; Trek Africa Guide does not process this booking.</small>                                </div>
+                    </div>
     </div>
 </article>
                     </div>
+    </div>
+</section>
+
+<section class="section">
+    <div class="container">
+        <div class="section-heading section-heading--compact"><p class="eyebrow">Tour operators</p><h2>Operators that can help shape the route</h2></div>
+        <div class="operator-grid"><article class="operator-card"><h3>South Africa Journey Studio</h3><p>A locally grounded tour operator active in South Africa, useful for travelers who want attractions, stays, transfers, guide support, and timing shaped into one coherent route.</p></article></div>
     </div>
 </section>
     </main>
@@ -345,4 +394,3 @@
     <script src="/cms-sync.js"></script>
 </body>
 </html>
-

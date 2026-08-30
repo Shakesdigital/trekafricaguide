@@ -1,6 +1,6 @@
 (function () {
-  const SUPABASE_URL = 'https://ssjllxxwbtvkgozkrrlj.supabase.co';
-  const SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InNzamxseHh3YnR2a2dvemtycmxqIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODA2OTgzMjYsImV4cCI6MjA5NjI3NDMyNn0.-Yq3ZBcS3BekfTUnfpch2JkcpbrGrWrcABYgnm1bxW4';
+  const SUPABASE_URL = 'https://rfaoaaehhenhniqkgpl.supabase.co';
+  const SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJmdG9hYWVoaGVuaG56aXVrZ3BsIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODc5NjQ3MDksImV4cCI6MjEwMzU0MDcwOX0.zWBIr5uuWuuFaCYZVl-MALTWP91-hVhazhAb0zbdz1Q';
 
   const tables = {};
   const main = document.querySelector('main');
