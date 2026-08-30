@@ -32,6 +32,37 @@ class ImageCreditsAuditTest extends TestCase
         }
     }
 
+    public function test_detail_pages_render_media_attribution_and_entity_seo_metadata(): void
+    {
+        $this->withoutVite();
+        $this->seed();
+
+        foreach (['attraction', 'accommodation', 'restaurant'] as $type) {
+            $model = match ($type) {
+                'attraction' => \App\Models\Attraction::query()->firstOrFail(),
+                'accommodation' => \App\Models\Accommodation::query()->firstOrFail(),
+                'restaurant' => \App\Models\Restaurant::query()->firstOrFail(),
+            };
+
+            $html = $this->get('/'.$type.'s/'.$model->slug)->assertOk()->getContent();
+
+            // SEO metadata
+            $this->assertStringContainsString('<meta property="og:title"', $html);
+            $this->assertStringContainsString('<meta property="og:description"', $html);
+            $this->assertStringContainsString('<meta property="og:image"', $html);
+            $this->assertStringContainsString('<link rel="canonical"', $html);
+
+            // Media attribution
+            $this->assertStringContainsString('Photo by', $html);
+            $this->assertStringContainsString('CC BY', $html);
+            $this->assertStringContainsString('View source', $html);
+
+            // No generated paths or placeholder language
+            $this->assertStringNotContainsString('/images/generated/', $html);
+            $this->assertStringNotContainsString('image-slot:', $html);
+        }
+    }
+
     public function test_provider_research_manifest_records_sources_and_complete_price_basis(): void
     {
         $research = json_decode(file_get_contents(base_path('database/data/provider-research.json')), true, flags: JSON_THROW_ON_ERROR);

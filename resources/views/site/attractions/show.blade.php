@@ -27,13 +27,20 @@
             <div class="gallery" data-gallery>
                 <div class="gallery-grid {{ $galleryImages->count() === 1 ? 'gallery-grid--single' : '' }}">
                     @foreach($galleryImages as $image)
-                        @include('site.partials.image-slot', ['image' => $image, 'alt' => $attraction->name, 'class' => 'gallery-grid__slot'])
+                        @include('site.partials.image-slot', ['image' => $image, 'alt' => $attraction->heroMedia->alt_text ?? $attraction->name, 'class' => 'gallery-grid__slot'])
                     @endforeach
                 </div>
                 @if($galleryImages->count() > 1)
                     <button type="button" class="gallery-count" data-gallery-open>@include('site.partials.icon', ['name' => 'camera']) {{ $galleryImages->count() }} photos</button>
                 @endif
             </div>
+        @endif
+        @if($attraction->heroMedia)
+            <p class="media-credit"><small>
+                Photo by {{ $attraction->heroMedia->creator }} /
+                <a href="{{ $attraction->heroMedia->license_url }}" rel="license">{{ $attraction->heroMedia->license }}</a>.
+                <a href="{{ $attraction->heroMedia->source_page }}" target="_blank" rel="noopener">View source</a>
+            </small></p>
         @endif
     </div>
 </section>

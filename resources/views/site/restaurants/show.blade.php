@@ -1,8 +1,7 @@
 @extends('layouts.site')
 
-@php($localGallery = collect(range(1, 5))->map(fn ($i) => asset('images/generated/restaurants/'.$restaurant->slug.'/0'.$i.'.jpg'))->filter(fn ($url, $i) => file_exists(public_path('images/generated/restaurants/'.$restaurant->slug.'/0'.($i + 1).'.jpg')))->values())
-@php($galleryImages = $localGallery->count() === 5 ? $localGallery : collect($restaurant->gallery ?? [])->filter()->values())
-@php($galleryImages = $galleryImages->isNotEmpty() ? $galleryImages : collect([$restaurant->hero_image_url])->filter()->values())
+@php($galleryImages = collect($restaurant->heroMedia ?? [])->map(fn ($m) => $m->url ?? $m->local_path)->filter()->values())
+@php($galleryImages = $galleryImages->isNotEmpty() ? $galleryImages : collect($restaurant->hero_image_url)->filter()->values())
 
 @section('content')
 <section class="detail-hero">
@@ -28,13 +27,20 @@
             <div class="gallery" data-gallery>
                 <div class="gallery-grid {{ $galleryImages->count() === 1 ? 'gallery-grid--single' : '' }}">
                     @foreach($galleryImages as $image)
-                        @include('site.partials.image-slot', ['image' => $image, 'alt' => $restaurant->name, 'class' => 'gallery-grid__slot'])
+                        @include('site.partials.image-slot', ['image' => $image, 'alt' => $restaurant->heroMedia->alt_text ?? $restaurant->name, 'class' => 'gallery-grid__slot'])
                     @endforeach
                 </div>
                 @if($galleryImages->count() > 1)
                     <button type="button" class="gallery-count" data-gallery-open>@include('site.partials.icon', ['name' => 'camera']) {{ $galleryImages->count() }} photos</button>
                 @endif
             </div>
+        @endif
+        @if($restaurant->heroMedia)
+            <p class="media-credit"><small>
+                Photo by {{ $restaurant->heroMedia->creator }} /
+                <a href="{{ $restaurant->heroMedia->license_url }}" rel="license">{{ $restaurant->heroMedia->license }}</a>.
+                <a href="{{ $restaurant->heroMedia->source_page }}" target="_blank" rel="noopener">View source</a>
+            </small></p>
         @endif
     </div>
 </section>

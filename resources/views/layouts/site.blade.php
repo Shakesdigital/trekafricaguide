@@ -11,6 +11,23 @@
             : asset(ltrim($logoPath, '/'));
     @endphp
     <meta name="description" content="{{ $metaDescription ?? 'Trek Africa Guide' }}">
+    @if(($seoMeta ?? null))
+        @if($seoMeta['canonical'] ?? null)
+            <link rel="canonical" href="{{ $seoMeta['canonical'] }}">
+        @endif
+        @if($seoMeta['meta_image'] ?? null)
+            <meta property="og:image" content="{{ $seoMeta['meta_image'] }}">
+            <meta name="twitter:card" content="summary">
+        @endif
+        @if($seoMeta['og_title'] ?? null)
+            <meta property="og:title" content="{{ $seoMeta['og_title'] }}">
+            <meta name="twitter:title" content="{{ $seoMeta['og_title'] }}">
+        @endif
+        @if($seoMeta['og_description'] ?? null)
+            <meta property="og:description" content="{{ $seoMeta['og_description'] }}">
+            <meta name="twitter:description" content="{{ $seoMeta['og_description'] }}">
+        @endif
+    @endif
     <link rel="icon" type="image/png" href="{{ $logoUrl }}">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

@@ -156,6 +156,13 @@ class SiteController extends Controller
 
         return view('site.attractions.show', $this->shared([
             'title' => $attraction->name,
+            'metaDescription' => $attraction->meta_description ?? $attraction->listing_summary,
+            'seoMeta' => [
+                'canonical' => route('attractions.show', $attraction),
+                'og_title' => $attraction->meta_title ?: $attraction->name,
+                'og_description' => $attraction->meta_description ?? $attraction->listing_summary,
+                'meta_image' => $attraction->meta_image_url ?: ($attraction->heroMedia ? $attraction->heroMedia->url : null),
+            ],
             'attraction' => $attraction,
             'nearbyAttractions' => $nearbyAttractions,
             'searchContext' => [],
@@ -226,6 +233,13 @@ class SiteController extends Controller
 
         return view('site.accommodations.show', $this->shared([
             'title' => $accommodation->name,
+            'metaDescription' => $accommodation->meta_description ?? $accommodation->listing_summary,
+            'seoMeta' => [
+                'canonical' => route('accommodations.show', $accommodation),
+                'og_title' => $accommodation->meta_title ?: $accommodation->name,
+                'og_description' => $accommodation->meta_description ?? $accommodation->listing_summary,
+                'meta_image' => $accommodation->meta_image_url ?: ($accommodation->heroMedia ? $accommodation->heroMedia->url : null),
+            ],
             'accommodation' => $accommodation,
             'nearbyAttractions' => $nearbyAttractions,
             'searchContext' => [],
@@ -281,6 +295,13 @@ class SiteController extends Controller
 
         return view('site.restaurants.show', $this->shared([
             'title' => $restaurant->name,
+            'metaDescription' => $restaurant->meta_description ?? $restaurant->listing_summary,
+            'seoMeta' => [
+                'canonical' => route('restaurants.show', $restaurant),
+                'og_title' => $restaurant->meta_title ?: $restaurant->name,
+                'og_description' => $restaurant->meta_description ?? $restaurant->listing_summary,
+                'meta_image' => $restaurant->meta_image_url ?: ($restaurant->heroMedia ? $restaurant->heroMedia->url : null),
+            ],
             'restaurant' => $restaurant,
             'nearbyAccommodations' => $nearbyAccommodations,
             'searchContext' => [],

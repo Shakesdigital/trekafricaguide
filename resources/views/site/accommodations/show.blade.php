@@ -1,8 +1,7 @@
 @extends('layouts.site')
 
-@php($localGallery = collect(range(1, 5))->map(fn ($i) => asset('images/generated/accommodations/'.$accommodation->slug.'/0'.$i.'.jpg'))->filter(fn ($url, $i) => file_exists(public_path('images/generated/accommodations/'.$accommodation->slug.'/0'.($i + 1).'.jpg')))->values())
-@php($galleryImages = $localGallery->count() === 5 ? $localGallery : collect($accommodation->gallery ?? [])->filter()->values())
-@php($galleryImages = $galleryImages->isNotEmpty() ? $galleryImages : collect([$accommodation->hero_image_url])->filter()->values())
+@php($galleryImages = collect($accommodation->heroMedia ?? [])->map(fn ($m) => $m->url ?? $m->local_path)->filter()->values())
+@php($galleryImages = $galleryImages->isNotEmpty() ? $galleryImages : collect($accommodation->hero_image_url)->filter()->values())
 
 @section('content')
 <section class="detail-hero">
@@ -28,13 +27,20 @@
             <div class="gallery" data-gallery>
                 <div class="gallery-grid {{ $galleryImages->count() === 1 ? 'gallery-grid--single' : '' }}">
                     @foreach($galleryImages as $image)
-                        @include('site.partials.image-slot', ['image' => $image, 'alt' => $accommodation->name, 'class' => 'gallery-grid__slot'])
+                        @include('site.partials.image-slot', ['image' => $image, 'alt' => $accommodation->heroMedia->alt_text ?? $accommodation->name, 'class' => 'gallery-grid__slot'])
                     @endforeach
                 </div>
                 @if($galleryImages->count() > 1)
                     <button type="button" class="gallery-count" data-gallery-open>@include('site.partials.icon', ['name' => 'camera']) {{ $galleryImages->count() }} photos</button>
                 @endif
             </div>
+        @endif
+        @if($accommodation->heroMedia)
+            <p class="media-credit"><small>
+                Photo by {{ $accommodation->heroMedia->creator }} /
+                <a href="{{ $accommodation->heroMedia->license_url }}" rel="license">{{ $accommodation->heroMedia->license }}</a>.
+                <a href="{{ $accommodation->heroMedia->source_page }}" target="_blank" rel="noopener">View source</a>
+            </small></p>
         @endif
     </div>
 </section>
