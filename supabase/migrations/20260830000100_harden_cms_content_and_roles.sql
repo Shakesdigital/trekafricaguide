@@ -2,7 +2,7 @@ create schema if not exists private;
 revoke all on schema private from public;
 
 create table if not exists public.profiles (
-    id uuid primary key,
+    id uuid primary key references auth.users(id) on delete cascade,
     role text not null check (role in ('super_admin', 'admin', 'editor', 'viewer')),
     display_name text,
     created_at timestamptz not null default now(),
@@ -60,6 +60,43 @@ create table if not exists public.media_assets (
     unique (mediable_type, mediable_id, role, source_page)
 );
 
+alter table public.profiles
+    drop constraint if exists profiles_id_fkey,
+    add constraint profiles_id_fkey foreign key (id) references auth.users(id) on delete cascade;
+
+alter table public.media_assets
+    add column if not exists mediable_type text,
+    add column if not exists mediable_id bigint,
+    add column if not exists role text not null default 'hero',
+    add column if not exists local_path text,
+    add column if not exists url text,
+    add column if not exists alt_text text,
+    add column if not exists source_page text,
+    add column if not exists creator text,
+    add column if not exists license text,
+    add column if not exists license_url text,
+    add column if not exists exact_subject_match boolean not null default false,
+    add column if not exists attribution_text text,
+    add column if not exists status text not null default 'published',
+    add column if not exists published_at timestamptz,
+    add column if not exists sort_order integer not null default 0,
+    add column if not exists created_at timestamptz not null default now(),
+    add column if not exists updated_at timestamptz not null default now();
+
+update public.media_assets
+set source_page = concat('legacy://media-assets/', id)
+where source_page is null;
+
+alter table public.media_assets
+    alter column mediable_type set not null,
+    alter column mediable_id set not null,
+    alter column alt_text set not null,
+    alter column source_page set not null;
+
+alter table public.media_assets
+    drop constraint if exists media_assets_mediable_source_key,
+    add constraint media_assets_mediable_source_key unique (mediable_type, mediable_id, role, source_page);
+
 create index if not exists idx_media_assets_mediable_role
     on public.media_assets (mediable_type, mediable_id, role);
 
@@ -81,6 +118,29 @@ $$;
 revoke execute on function private.has_cms_role(text[]) from public;
 grant usage on schema private to authenticated;
 grant execute on function private.has_cms_role(text[]) to authenticated;
+
+create or replace function public.is_admin()
+returns boolean
+language sql
+stable
+security invoker
+set search_path = ''
+as $$
+    select private.has_cms_role(array['admin', 'super_admin']);
+$$;
+
+revoke execute on function public.is_admin() from public;
+grant execute on function public.is_admin() to authenticated;
+
+alter function public.complete_supplier_booking(uuid) set search_path = '';
+alter function public.create_supplier_monthly_payout(uuid, date, date) set search_path = '';
+alter function public.mark_supplier_payout_paid(uuid, text, text) set search_path = '';
+revoke execute on function public.complete_supplier_booking(uuid) from public;
+revoke execute on function public.create_supplier_monthly_payout(uuid, date, date) from public;
+revoke execute on function public.mark_supplier_payout_paid(uuid, text, text) from public;
+grant execute on function public.complete_supplier_booking(uuid) to authenticated;
+grant execute on function public.create_supplier_monthly_payout(uuid, date, date) to authenticated;
+grant execute on function public.mark_supplier_payout_paid(uuid, text, text) to authenticated;
 
 drop trigger if exists set_updated_at_profiles on public.profiles;
 create trigger set_updated_at_profiles
@@ -104,8 +164,12 @@ alter table public.tour_operators enable row level security;
 alter table public.districts enable row level security;
 alter table public.booking_offers enable row level security;
 alter table public.media_assets enable row level security;
+alter table public.users enable row level security;
+alter table public.password_reset_tokens enable row level security;
+alter table public.sessions enable row level security;
 
 revoke all on table public.profiles from anon, authenticated;
+revoke all on table public.users, public.password_reset_tokens, public.sessions from anon, authenticated;
 revoke all on table public.site_settings, public.page_sections, public.regions, public.countries,
     public.attractions, public.accommodations, public.restaurants, public.tour_operators,
     public.districts, public.booking_offers, public.media_assets from anon, authenticated;
@@ -170,14 +234,40 @@ create policy "Public can read districts"
 on public.districts for select to anon, authenticated
 using (true);
 
-create policy "CMS staff manage districts"
+create policy "CMS staff can inspect districts"
+on public.districts for select to authenticated
+using ((select private.has_cms_role(array['viewer', 'editor', 'admin', 'super_admin'])));
+
+create policy "Editors can insert districts"
+on public.districts for insert to authenticated
+with check ((select private.has_cms_role(array['editor'])));
+
+create policy "Editors can update districts"
+on public.districts for update to authenticated
+using ((select private.has_cms_role(array['editor'])))
+with check ((select private.has_cms_role(array['editor'])));
+
+create policy "Admins manage districts"
 on public.districts for all to authenticated
-using ((select private.has_cms_role(array['editor', 'admin', 'super_admin'])))
-with check ((select private.has_cms_role(array['editor', 'admin', 'super_admin'])));
+using ((select private.has_cms_role(array['admin', 'super_admin'])))
+with check ((select private.has_cms_role(array['admin', 'super_admin'])));
 
 create policy "Public can read active booking offers"
 on public.booking_offers for select to anon, authenticated
 using (active);
+
+create policy "CMS staff can inspect booking offers"
+on public.booking_offers for select to authenticated
+using ((select private.has_cms_role(array['viewer', 'editor', 'admin', 'super_admin'])));
+
+create policy "Editors can insert draft booking offers"
+on public.booking_offers for insert to authenticated
+with check ((select private.has_cms_role(array['editor'])) and not active);
+
+create policy "Editors can update draft booking offers"
+on public.booking_offers for update to authenticated
+using ((select private.has_cms_role(array['editor'])) and not active)
+with check ((select private.has_cms_role(array['editor'])) and not active);
 
 create policy "Admins manage booking offers"
 on public.booking_offers for all to authenticated
@@ -194,7 +284,7 @@ begin
     ]
     loop
         execute format('create policy %I on public.%I for select to anon, authenticated using (status = ''published'' and (published_at is null or published_at <= now()))', 'Public can read published ' || replace(table_name, '_', ' '), table_name);
-        execute format('create policy %I on public.%I for select to authenticated using ((select private.has_cms_role(array[''editor'', ''admin'', ''super_admin''])))', 'CMS staff can read all ' || replace(table_name, '_', ' '), table_name);
+        execute format('create policy %I on public.%I for select to authenticated using ((select private.has_cms_role(array[''viewer'', ''editor'', ''admin'', ''super_admin''])))', 'CMS staff can read all ' || replace(table_name, '_', ' '), table_name);
         execute format('create policy %I on public.%I for insert to authenticated with check ((select private.has_cms_role(array[''editor''])) and status = ''draft'')', 'Editors can insert drafts ' || replace(table_name, '_', ' '), table_name);
         execute format('create policy %I on public.%I for update to authenticated using ((select private.has_cms_role(array[''editor''])) and status = ''draft'') with check ((select private.has_cms_role(array[''editor''])) and status = ''draft'')', 'Editors can update drafts ' || replace(table_name, '_', ' '), table_name);
         execute format('create policy %I on public.%I for all to authenticated using ((select private.has_cms_role(array[''admin'', ''super_admin'']))) with check ((select private.has_cms_role(array[''admin'', ''super_admin''])))', 'Admins manage ' || replace(table_name, '_', ' '), table_name);
@@ -231,10 +321,11 @@ create policy "CMS staff can upload media"
 on storage.objects for insert to authenticated
 with check (
     (bucket_id = 'media'
-        and (storage.foldername(name))[1] = 'cms'
+        and (storage.foldername(name))[1] in ('regions', 'countries', 'attractions', 'accommodations', 'restaurants', 'tour_operators', 'page_sections')
+        and array_length(storage.foldername(name), 1) >= 2
         and (select private.has_cms_role(array['editor', 'admin', 'super_admin'])))
     or (bucket_id = 'branding'
-        and (storage.foldername(name))[1] = 'branding'
+        and (storage.foldername(name))[1] = 'logos'
         and (select private.has_cms_role(array['admin', 'super_admin'])))
 );
 
@@ -242,18 +333,20 @@ create policy "CMS staff can update media"
 on storage.objects for update to authenticated
 using (
     (bucket_id = 'media'
-        and (storage.foldername(name))[1] = 'cms'
+        and (storage.foldername(name))[1] in ('regions', 'countries', 'attractions', 'accommodations', 'restaurants', 'tour_operators', 'page_sections')
+        and array_length(storage.foldername(name), 1) >= 2
         and (select private.has_cms_role(array['editor', 'admin', 'super_admin'])))
     or (bucket_id = 'branding'
-        and (storage.foldername(name))[1] = 'branding'
+        and (storage.foldername(name))[1] = 'logos'
         and (select private.has_cms_role(array['admin', 'super_admin'])))
 )
 with check (
     (bucket_id = 'media'
-        and (storage.foldername(name))[1] = 'cms'
+        and (storage.foldername(name))[1] in ('regions', 'countries', 'attractions', 'accommodations', 'restaurants', 'tour_operators', 'page_sections')
+        and array_length(storage.foldername(name), 1) >= 2
         and (select private.has_cms_role(array['editor', 'admin', 'super_admin'])))
     or (bucket_id = 'branding'
-        and (storage.foldername(name))[1] = 'branding'
+        and (storage.foldername(name))[1] = 'logos'
         and (select private.has_cms_role(array['admin', 'super_admin'])))
 );
 
@@ -261,9 +354,10 @@ create policy "CMS staff can delete media"
 on storage.objects for delete to authenticated
 using (
     (bucket_id = 'media'
-        and (storage.foldername(name))[1] = 'cms'
+        and (storage.foldername(name))[1] in ('regions', 'countries', 'attractions', 'accommodations', 'restaurants', 'tour_operators', 'page_sections')
+        and array_length(storage.foldername(name), 1) >= 2
         and (select private.has_cms_role(array['editor', 'admin', 'super_admin'])))
     or (bucket_id = 'branding'
-        and (storage.foldername(name))[1] = 'branding'
+        and (storage.foldername(name))[1] = 'logos'
         and (select private.has_cms_role(array['admin', 'super_admin'])))
 );

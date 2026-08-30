@@ -1463,7 +1463,7 @@ async function saveRecord() {
     if (HERO_RESOURCES.includes(modalResource)) {
       const heroFileInput = document.getElementById('field-hero_image_file');
       if (heroFileInput && heroFileInput.files.length > 0) {
-        const url = await uploadFile(heroFileInput.files[0], 'media');
+        const url = await uploadFile(heroFileInput.files[0], 'media', storagePrefixFor(modalResource, payload.slug));
         if (url) payload.hero_image_url = url;
       }
     }
@@ -1473,7 +1473,7 @@ async function saveRecord() {
     if (modalResource === 'site_settings') {
       const logoInput = document.getElementById('field-logo_file');
       if (logoInput && logoInput.files.length > 0) {
-        const url = await uploadFile(logoInput.files[0], 'branding');
+        const url = await uploadFile(logoInput.files[0], 'branding', 'logos');
         if (url) payload.value = url;
       }
     }
@@ -1505,9 +1505,20 @@ async function saveRecord() {
   }
 }
 
-async function uploadFile(file, bucket) {
+function storagePrefixFor(resource, slug) {
+  if (resource === 'branding') return `logos/${slugify(slug || 'asset')}`;
+  const prefixes = {
+    regions: 'regions', countries: 'countries', attractions: 'attractions',
+    accommodations: 'accommodations', restaurants: 'restaurants',
+    tour_operators: 'tour_operators', page_sections: 'page_sections',
+  };
+  const prefix = prefixes[resource] || 'page_sections';
+  return `${prefix}/${slugify(slug || 'asset') || 'asset'}`;
+}
+
+async function uploadFile(file, bucket, prefix) {
   const ext = file.name.split('.').pop();
-  const path = `uploads/${Date.now()}-${Math.random().toString(36).slice(2)}.${ext}`;
+  const path = `${prefix}/${Date.now()}-${Math.random().toString(36).slice(2)}.${ext}`;
 
   const { data, error } = await sb.storage.from(bucket).upload(path, file, {
     cacheControl: '3600',
@@ -2116,7 +2127,7 @@ async function handleGalleryFiles(name, files) {
   let done = 0;
   for (const f of list) {
     if (status) status.innerHTML = `<span class="spinner" style="display:inline-block"></span> Uploading ${++done}/${list.length}…`;
-    const url = await uploadFile(f, 'media');
+    const url = await uploadFile(f, 'media', storagePrefixFor(modalResource, editRecord?.slug || name));
     if (url) galleryState[name].push(url);
   }
   if (status) status.innerHTML = original;
@@ -2237,7 +2248,7 @@ async function readForm(tab) {
       const imageFile = document.getElementById('field-image_file');
       let imageUrl = valOrNull('image_url');
       if (imageFile && imageFile.files.length > 0) {
-        const u = await uploadFile(imageFile.files[0], 'media');
+        const u = await uploadFile(imageFile.files[0], 'media', storagePrefixFor(tab, `${val('page_key') || 'page'}-${val('section_key') || 'section'}`));
         if (u) imageUrl = u;
       }
       return {

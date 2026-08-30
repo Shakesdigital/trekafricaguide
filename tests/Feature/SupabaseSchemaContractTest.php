@@ -16,6 +16,7 @@ class SupabaseSchemaContractTest extends TestCase
 
         foreach ([
             'create table if not exists public.profiles',
+            'references auth.users(id) on delete cascade',
             "check (role in ('super_admin', 'admin', 'editor', 'viewer'))",
             'alter table public.profiles enable row level security',
             'alter table public.regions enable row level security',
@@ -31,6 +32,13 @@ class SupabaseSchemaContractTest extends TestCase
             'security definer',
             "set search_path = ''",
             'revoke execute on function private.has_cms_role(text[]) from public',
+            'alter table public.users enable row level security',
+            'alter table public.password_reset_tokens enable row level security',
+            'alter table public.sessions enable row level security',
+            'revoke all on table public.users, public.password_reset_tokens, public.sessions from anon, authenticated',
+            'create or replace function public.is_admin()',
+            'revoke execute on function public.is_admin() from public',
+            "alter function public.complete_supplier_booking(uuid) set search_path = ''",
         ] as $required) {
             $this->assertStringContainsString($required, $migration);
         }
@@ -51,6 +59,8 @@ class SupabaseSchemaContractTest extends TestCase
             'storage.foldername(name)',
             "bucket_id = 'media'",
             "bucket_id = 'branding'",
+            "storage.foldername(name))[1] in ('regions', 'countries', 'attractions', 'accommodations', 'restaurants', 'tour_operators', 'page_sections')",
+            "storage.foldername(name))[1] = 'logos'",
         ] as $required) {
             $this->assertStringContainsString($required, $migration);
         }
@@ -60,7 +70,7 @@ class SupabaseSchemaContractTest extends TestCase
     {
         $migration = $this->read(self::MIGRATION);
 
-        foreach (['user_metadata', 'password', 'service_role', 'pmskfhfxnhkpiaykgnra'] as $forbidden) {
+        foreach (['user_metadata', 'service_role', 'pmskfhfxnhkpiaykgnra'] as $forbidden) {
             $this->assertStringNotContainsString($forbidden, strtolower($migration));
         }
     }
@@ -75,12 +85,58 @@ class SupabaseSchemaContractTest extends TestCase
             'insert into public.media_assets',
             'source_page',
             'on conflict (mediable_type, mediable_id, role, source_page) do update',
+            'jsonb_to_recordset',
+            'catalogue incomplete: attractions',
+            'catalogue incomplete: accommodations',
+            'catalogue incomplete: restaurants',
+            'catalogue incomplete: media_assets',
+            'insert into public.districts',
+            'insert into public.tour_operators',
+            'insert into public.page_sections',
+            'insert into public.booking_offers',
         ] as $required) {
             $this->assertStringContainsString($required, $seed);
         }
 
         $this->assertStringNotContainsString('auth.users', strtolower($seed));
         $this->assertStringNotContainsString('20260607000100_seed_auth_user.sql', $seed);
+    }
+
+    public function test_sql_authorization_scenarios_use_real_auth_users_and_cover_role_boundaries(): void
+    {
+        $tests = $this->read('supabase/tests/cms_rls.sql');
+
+        foreach ([
+            'tests.create_supabase_user',
+            'tests.get_supabase_uid',
+            'tests.authenticate_as',
+            'viewer can inspect draft content',
+            'editor can create a draft booking offer',
+            'editor cannot delete a district',
+            "'media', 'regions/east-africa/hero.png'",
+            "'branding', 'logos/trek-africa-guide.svg'",
+            'anon cannot read legacy users',
+        ] as $required) {
+            $this->assertStringContainsString($required, $tests);
+        }
+
+        $this->assertStringNotContainsString("'branding/", $tests);
+    }
+
+    public function test_browser_cms_upload_contract_uses_the_storage_policy_prefixes(): void
+    {
+        $cms = $this->read('public/cms.html');
+
+        foreach ([
+            'function storagePrefixFor',
+            "return `logos/",
+            "uploadFile(heroFileInput.files[0], 'media', storagePrefixFor(modalResource, payload.slug))",
+            "uploadFile(logoInput.files[0], 'branding', 'logos')",
+        ] as $required) {
+            $this->assertStringContainsString($required, $cms);
+        }
+
+        $this->assertStringNotContainsString('uploads/${Date.now()}', $cms);
     }
 
     private function read(string $relativePath): string
