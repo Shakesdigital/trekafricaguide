@@ -7,7 +7,13 @@
 @section('content')
 <section class="detail-hero">
     <div class="container">
-        @include('site.partials.breadcrumbs', ['items' => [['label' => 'Home', 'href' => route('home')], ['label' => 'Restaurants', 'href' => route('restaurants.index')], ['label' => $restaurant->name]]])
+        @include('site.partials.breadcrumbs', ['items' => [
+            ['label' => 'Home', 'href' => route('home')],
+            ['label' => 'Restaurants', 'href' => route('restaurants.index')],
+            ['label' => $restaurant->country->region->name, 'href' => route('region', $restaurant->country->region)],
+            ['label' => $restaurant->country->name, 'href' => route('country', $restaurant->country)],
+            ['label' => $restaurant->name],
+        ]])
         <div class="listing-head">
             <p class="eyebrow">{{ $restaurant->country->name }} @if($restaurant->cuisine) • {{ $restaurant->cuisine }} @endif</p>
             <h1>{{ $restaurant->name }}</h1>
@@ -121,7 +127,8 @@
                 </ul>
             </div>
         </aside>
-    </div>
+    @include('site.partials.booking-offers', ['listing' => $restaurant, 'searchContext' => $searchContext ?? []])
+</div>
 </section>
 
 <section class="section section--alt">

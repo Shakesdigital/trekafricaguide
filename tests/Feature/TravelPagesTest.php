@@ -67,10 +67,11 @@ class TravelPagesTest extends TestCase
             ->assertSee('Dining ideas that add flavor to the journey');
     }
 
-    public function test_attraction_detail_page_contains_booking_and_practical_sections(): void
+    public function test_attraction_detail_page_returns_200_and_shows_booking_section(): void
     {
         $response = $this->get('/attractions/maasai-mara');
-        $response->assertStatus(301);
-        $this->assertStringContainsString('#listing-maasai-mara', $response->headers->get('Location'));
+        $response->assertOk()
+            ->assertSee('Compare booking options')
+            ->assertSee('Check live price');
     }
 }

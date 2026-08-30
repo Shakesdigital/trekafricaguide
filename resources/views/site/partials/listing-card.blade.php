@@ -19,11 +19,7 @@
                     @endforeach
                 </div>
             @endif
-            @if(isset($listing))
-                @include('site.partials.booking-offers', ['listing' => $listing, 'searchContext' => $searchContext ?? []])
-            @else
-                <a href="{{ $href }}" class="button button--ghost">{{ $cta ?? 'View Details' }}</a>
-            @endif
+            <a href="{{ $href }}" class="button button--ghost">{{ $cta ?? 'View details' }}</a>
         </div>
     </div>
 </article>

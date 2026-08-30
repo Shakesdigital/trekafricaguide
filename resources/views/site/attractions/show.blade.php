@@ -1,13 +1,18 @@
 @extends('layouts.site')
 
-@php($localGallery = collect(range(1, 5))->map(fn ($i) => asset('images/generated/attractions/'.$attraction->slug.'/0'.$i.'.jpg'))->filter(fn ($url, $i) => file_exists(public_path('images/generated/attractions/'.$attraction->slug.'/0'.($i + 1).'.jpg')))->values())
-@php($galleryImages = $localGallery->count() === 5 ? $localGallery : collect($attraction->gallery ?? [])->filter()->values())
-@php($galleryImages = $galleryImages->isNotEmpty() ? $galleryImages : collect([$attraction->hero_image_url])->filter()->values())
+@php($galleryImages = collect($attraction->heroMedia ?? [])->map(fn ($m) => $m->url ?? $m->local_path)->filter()->values())
+@php($galleryImages = $galleryImages->isNotEmpty() ? $galleryImages : collect($attraction->hero_image_url)->filter()->values())
 
 @section('content')
 <section class="detail-hero">
     <div class="container">
-        @include('site.partials.breadcrumbs', ['items' => [['label' => 'Home', 'href' => route('home')], ['label' => 'Attractions', 'href' => route('attractions.index')], ['label' => $attraction->name]]])
+        @include('site.partials.breadcrumbs', ['items' => [
+            ['label' => 'Home', 'href' => route('home')],
+            ['label' => 'Attractions', 'href' => route('attractions.index')],
+            ['label' => $attraction->country->region->name, 'href' => route('region', $attraction->country->region)],
+            ['label' => $attraction->country->name, 'href' => route('country', $attraction->country)],
+            ['label' => $attraction->name],
+        ]])
         <div class="listing-head">
             <p class="eyebrow">{{ $attraction->country->name }} • {{ $attraction->region->name }}</p>
             <h1>{{ $attraction->name }}</h1>
@@ -110,6 +115,7 @@
             </div>
         </div>
     </div>
+    @include('site.partials.booking-offers', ['listing' => $attraction, 'searchContext' => $searchContext ?? []])
 </section>
 
 <section class="section section--alt">

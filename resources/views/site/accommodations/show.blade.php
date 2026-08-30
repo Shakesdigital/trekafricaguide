@@ -7,7 +7,13 @@
 @section('content')
 <section class="detail-hero">
     <div class="container">
-        @include('site.partials.breadcrumbs', ['items' => [['label' => 'Home', 'href' => route('home')], ['label' => 'Accommodations', 'href' => route('accommodations.index')], ['label' => $accommodation->name]]])
+        @include('site.partials.breadcrumbs', ['items' => [
+            ['label' => 'Home', 'href' => route('home')],
+            ['label' => 'Accommodations', 'href' => route('accommodations.index')],
+            ['label' => $accommodation->country->region->name, 'href' => route('region', $accommodation->country->region)],
+            ['label' => $accommodation->country->name, 'href' => route('country', $accommodation->country)],
+            ['label' => $accommodation->name],
+        ]])
         <div class="listing-head">
             <p class="eyebrow">{{ $accommodation->country->name }} @if($accommodation->property_type) • {{ $accommodation->property_type }} @endif</p>
             <h1>{{ $accommodation->name }}</h1>
@@ -120,7 +126,8 @@
                 </ul>
             </div>
         </aside>
-    </div>
+    @include('site.partials.booking-offers', ['listing' => $accommodation, 'searchContext' => $searchContext ?? []])
+</div>
 </section>
 
 <section class="section section--alt">

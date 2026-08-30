@@ -18,7 +18,7 @@ class TravelSearchTest extends TestCase
     public function test_legacy_accommodation_route_redirects_to_focused_index(): void
     {
         $this->seed();
-        $this->get('/accommodations/sanctuary-gorilla-forest-camp')->assertRedirectContains('/accommodations?q=Sanctuary');
+        $this->get('/accommodations/sanctuary-gorilla-forest-camp')->assertOk()->assertSee('Sanctuary Gorilla Forest Camp');
     }
 
     public function test_exact_listing_name_ranks_before_featured_substring_and_district_is_searchable(): void
