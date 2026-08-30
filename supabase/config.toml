@@ -1,0 +1,8 @@
+project_id = "trek-africa-guide"
+
+[api]
+schemas = ["public", "graphql_public"]
+
+[db.seed]
+enabled = true
+sql_paths = ["./seed/20260830000200_seed_cms_content_and_media.sql"]
