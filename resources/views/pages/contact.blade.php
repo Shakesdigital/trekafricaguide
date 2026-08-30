@@ -55,10 +55,10 @@
 
             <h2 style="margin-top: 1.4rem;">Quick links</h2>
             <ul class="bullet-list">
-                <li><a href="{{ route('safaris.index') }}">Browse Safaris & Tours</a></li>
+                <li><a href="{{ route('attractions.index') }}">Browse Attractions</a></li>
                 <li><a href="{{ route('accommodations.index') }}">Find Accommodations</a></li>
                 <li><a href="{{ route('restaurants.index') }}">Browse Restaurants</a></li>
-                <li><a href="{{ route('experiences.index') }}">Explore Local Experiences</a></li>
+                <li><a href="{{ route('countries.index') }}">Explore Local Experiences</a></li>
             </ul>
             <p style="margin-top: 1.4rem;"><strong>Affiliate operations note:</strong> replace every <code>@{{travelpayouts-link}}</code> placeholder with your active tracking URLs before launch so the live CTAs send users to the right booking path.</p>
         </article>

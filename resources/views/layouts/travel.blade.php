@@ -75,8 +75,8 @@
                     <h4>Explore</h4>
                     <ul>
                         <li><a href="{{ route('regions.index') }}">Regions</a></li>
-                        <li><a href="{{ route('destinations.index') }}">Destinations</a></li>
-                        <li><a href="{{ route('safaris.index') }}">Safaris & Tours</a></li>
+                        <li><a href="{{ route('countries.index') }}">Destinations</a></li>
+                        <li><a href="{{ route('attractions.index') }}">Safaris & Tours</a></li>
                         <li><a href="{{ route('accommodations.index') }}">Stays</a></li>
                     </ul>
                 </div>
@@ -84,19 +84,19 @@
                     <h4>Plan Better</h4>
                     <ul>
                         <li><a href="{{ route('restaurants.index') }}">Eat & Drink</a></li>
-                        <li><a href="{{ route('experiences.index') }}">Experiences</a></li>
-                        <li><a href="{{ route('blog.index') }}?category=Planning+Tips">Planning Tips</a></li>
-                        <li><a href="{{ route('blog.index') }}?category=Culture">Culture</a></li>
-                        <li><a href="{{ route('blog.index') }}?category=Safety">Safety</a></li>
+                        <li><a href="{{ route('countries.index') }}">Experiences</a></li>
+                        <li><a href="{{ route('contact') }}?category=Planning+Tips">Planning Tips</a></li>
+                        <li><a href="{{ route('contact') }}?category=Culture">Culture</a></li>
+                        <li><a href="{{ route('contact') }}?category=Safety">Safety</a></li>
                     </ul>
                 </div>
                 <div>
                     <h4>How It Works</h4>
                     <ul>
-                        <li><a href="{{ route('about') }}">About Us</a></li>
+                        <li><a href="{{ url('/about') }}">About Us</a></li>
                         <li><a href="{{ route('contact') }}">Contact</a></li>
-                        <li><a href="{{ route('blog.index') }}">Travel Insights</a></li>
-                        <li><a href="{{ route('destinations.index') }}">Compare before booking</a></li>
+                        <li><a href="{{ route('contact') }}">Travel Insights</a></li>
+                        <li><a href="{{ route('countries.index') }}">Compare before booking</a></li>
                     </ul>
                 </div>
             </div>

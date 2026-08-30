@@ -3,10 +3,10 @@
 @section('content')
 @php
     $focusCountries = [
-        ['name' => 'Uganda', 'description' => 'For Murchison Falls, Bwindi gorilla trekking, chimp tracking, and classic overland value.', 'route' => route('destinations.index', ['country' => 'Uganda'])],
-        ['name' => 'Kenya', 'description' => 'For first-time safaris, migration circuits, Amboseli elephants, and fast access from Nairobi.', 'route' => route('destinations.index', ['country' => 'Kenya'])],
-        ['name' => 'Tanzania', 'description' => 'For Serengeti scale, northern circuit drama, and strong safari-plus-beach combinations.', 'route' => route('destinations.index', ['country' => 'Tanzania'])],
-        ['name' => 'Rwanda', 'description' => 'For premium gorilla trekking, short country transfers, and polished conservation-led itineraries.', 'route' => route('destinations.index', ['country' => 'Rwanda'])],
+        ['name' => 'Uganda', 'description' => 'For Murchison Falls, Bwindi gorilla trekking, chimp tracking, and classic overland value.', 'route' => route('countries.index', ['country' => 'Uganda'])],
+        ['name' => 'Kenya', 'description' => 'For first-time safaris, migration circuits, Amboseli elephants, and fast access from Nairobi.', 'route' => route('countries.index', ['country' => 'Kenya'])],
+        ['name' => 'Tanzania', 'description' => 'For Serengeti scale, northern circuit drama, and strong safari-plus-beach combinations.', 'route' => route('countries.index', ['country' => 'Tanzania'])],
+        ['name' => 'Rwanda', 'description' => 'For premium gorilla trekking, short country transfers, and polished conservation-led itineraries.', 'route' => route('countries.index', ['country' => 'Rwanda'])],
     ];
 
     $regionalPriorities = [
@@ -32,7 +32,7 @@
         <h1>Discover Africa one region, country, and destination at a time.</h1>
         <p class="tagline">Trek Africa Guide is evolving into a Supabase-powered travel CMS and directory designed around how travelers really plan: start broad, compare countries, open a destination, then explore what to do, where to stay, where to eat, and where to book.</p>
 
-        <form action="{{ route('destinations.index') }}" method="GET" class="hero-search hero-search--wide">
+        <form action="{{ route('countries.index') }}" method="GET" class="hero-search hero-search--wide">
             <label class="sr-only" for="hero-search">Search destinations, countries, or parks</label>
             <input id="hero-search" name="q" list="global-search-suggestions" placeholder="Search Murchison Falls, Maasai Mara, Uganda, Kenya..." required>
             <select name="region" class="hero-region-select">
@@ -145,7 +145,7 @@
     <div class="destination-scroller reveal">
         <div class="destination-scroller-track">
             @foreach($launchDestinations as $destination)
-                <a href="{{ route('destinations.show', $destination['slug']) }}" class="destination-scroller-card">
+                <a href="{{ route('countries.show', $destination['slug']) }}" class="destination-scroller-card">
                     <img src="{{ $destination['hero_image'] }}" alt="{{ $destination['name'] }}">
                     <div class="destination-scroller-overlay"></div>
                     <div class="destination-scroller-info">
@@ -222,7 +222,7 @@
                     <div class="list-item">
                         <h3>{{ $post['title'] }}</h3>
                         <p>{{ $post['excerpt'] }}</p>
-                        <a href="{{ route('blog.index', ['category' => $post['category']]) }}">Read {{ $post['category'] }} guides →</a>
+                        <a href="{{ route('contact', ['category' => $post['category']]) }}">Read {{ $post['category'] }} guides →</a>
                     </div>
                 @endforeach
             </div>

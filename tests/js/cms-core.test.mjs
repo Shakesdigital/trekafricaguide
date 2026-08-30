@@ -20,6 +20,7 @@ import assert from 'node:assert/strict';
 
 // cms-core.js sets globalThis.CmsCore via UMD wrapper; import as side-effect.
 await import('../../public/cms-core.js');
+await import('../../public/cms-schema.js');
 const CmsCore = globalThis.CmsCore;
 
 // ── Publication timing ───────────────────────────────────────────
@@ -77,6 +78,7 @@ test('resolveImage returns non-slot values unchanged', () => {
 
 test('resolveImage resolves known slot keys to stock paths', () => {
   assert.equal(CmsCore.resolveImage('image-slot:home-hero-east-africa'), '/images/stock/destinations/maasai-mara.jpg');
+  assert.equal(CmsCore.resolveImage('image-slot:home-intro-africa-map'), '/images/stock/destinations/okavango-delta.jpg');
   assert.equal(CmsCore.resolveImage('image-slot:country-kenya'), '/images/stock/destinations/maasai-mara.jpg');
   assert.equal(CmsCore.resolveImage('image-slot:country-uganda'), '/images/stock/destinations/bwindi-impenetrable-national-park.jpg');
   assert.equal(CmsCore.resolveImage('image-slot:destinations-index-hero'), '/images/stock/destinations/cape-town.jpg');
@@ -477,6 +479,39 @@ test('relationshipKey extracts id from number, string, or object', () => {
   assert.equal(CmsCore.relationshipKey({ attraction: null }, 'attraction'), null);
   assert.equal(CmsCore.relationshipKey({}, 'attraction_id'), null);
   assert.equal(CmsCore.relationshipKey(null, 'attraction_id'), null);
+});
+
+// ── Search ribbon ───────────────────────────────────────────────────
+
+test('searchRibbon returns mode and query with empty suggestions for no match', () => {
+  const result = CmsCore.searchRibbon('attractions', { q: 'xyznomatch' }, {});
+  assert.equal(result.mode, 'attractions');
+  assert.equal(result.query, 'xyznomatch');
+  assert.equal(result.suggestions.length, 0);
+});
+
+test('searchRibbon returns suggestions for matching records', () => {
+  const tables = {
+    countries: [
+      { name: 'Kenya', slug: 'kenya' },
+      { name: 'Tanzania', slug: 'tanzania' },
+    ],
+    attractions: [
+      { name: 'Maasai Mara', slug: 'maasai-mara' },
+    ],
+  };
+  const result = CmsCore.searchRibbon('attractions', { q: 'ken' }, tables);
+  assert.equal(result.mode, 'attractions');
+  assert.equal(result.query, 'ken');
+  assert.ok(result.suggestions.length > 0);
+  const labels = result.suggestions.map((s) => s.label);
+  assert.ok(labels.includes('Kenya'));
+});
+
+test('searchRibbon handles null context gracefully', () => {
+  const result = CmsCore.searchRibbon('countries', null, { countries: [{ name: 'Uganda', slug: 'uganda' }] });
+  assert.equal(result.mode, 'countries');
+  assert.equal(result.query, '');
 });
 
 // ── Integration: full listing card flow ───────────────────────────

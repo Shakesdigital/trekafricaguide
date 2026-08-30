@@ -110,8 +110,8 @@
                                 @endforeach
                             </ul>
                             <div class="quick-links">
-                                <a href="{{ route('destinations.index', ['region' => $region['slug']]) }}">Open destinations</a>
-                                <a href="{{ route('safaris.index', ['region' => $region['slug']]) }}">Compare tours</a>
+                                <a href="{{ route('countries.show', $region['slug']) }}">Open destinations</a>
+                                <a href="{{ route('attractions.index', ['region' => $region['slug']]) }}">Compare tours</a>
                                 <a href="{{ route('accommodations.index', ['region' => $region['slug']]) }}">Browse stays</a>
                             </div>
                         </div>

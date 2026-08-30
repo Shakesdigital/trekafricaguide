@@ -73,6 +73,9 @@ class CmsFieldParityTest extends TestCase
         $this->assertStringContainsString('internalUrl', $content);
         $this->assertStringContainsString('INTERNAL_ROUTES', $content);
 
+        // Search ribbon
+        $this->assertStringContainsString('searchRibbon', $content);
+
         // SEO metadata
         $this->assertStringContainsString('buildSeoMeta', $content);
 
@@ -288,5 +291,57 @@ class CmsFieldParityTest extends TestCase
 
         // Check that rooms are never sent to Stay22 (excluded via !== 0 check)
         $this->assertStringNotContainsString('rooms=', $coreContent);
+    }
+
+    /**
+     * The hosted runtime (cms-sync.js) delegates searchRibbon to CmsCore,
+     * so cms-core.js must export a searchRibbon function.
+     */
+    public function cms_core_export_search_ribbon_matches_sync_delegation()
+    {
+        $syncContent = file_get_contents(public_path('cms-sync.js'));
+        $this->assertStringContainsString('CmsCore.searchRibbon', $syncContent);
+
+        $coreContent = file_get_contents(public_path('cms-core.js'));
+        $this->assertStringContainsString('searchRibbon', $coreContent);
+        $this->assertStringContainsString('function searchRibbon', $coreContent);
+    }
+
+    /**
+     * The home-intro-africa-map stock slot must be present in both the
+     * Blade image-slot partial and cms-core.js SLOT_MAP.
+     */
+    public function home_intro_africa_map_slot_parity()
+    {
+        $bladeContent = file_get_contents(resource_path('views/site/partials/image-slot.blade.php'));
+        $this->assertStringContainsString('home-intro-africa-map', $bladeContent);
+
+        $coreContent = file_get_contents(public_path('cms-core.js'));
+        $this->assertStringContainsString('home-intro-africa-map', $coreContent);
+        $this->assertStringContainsString("'home-intro-africa-map': 'okavango-delta'", $coreContent);
+    }
+
+    /**
+     * The layouts/travel.blade.php should not reference any routes
+     * that do not exist in routes/web.php.
+     */
+    public function travel_layout_does_not_reference_undefined_routes()
+    {
+        $content = file_get_contents(resource_path('views/layouts/travel.blade.php'));
+
+        // These route names were removed/replaced:
+        $invalidRoutes = ['destinations.index', 'destinations.show', 'safaris.index', 'experiences.index', 'blog.index', 'about'];
+
+        foreach ($invalidRoutes as $route) {
+            $this->assertStringNotContainsString("route('{$route}'", $content,
+                "layouts/travel.blade.php should not reference undefined route '{$route}'");
+        }
+
+        // Should use valid route names instead
+        $validRoutes = ['countries.index', 'countries.show', 'attractions.index', 'contact'];
+        foreach ($validRoutes as $route) {
+            $this->assertStringContainsString("route('{$route}'", $content,
+                "layouts/travel.blade.php should use valid route '{$route}'");
+        }
     }
 }

@@ -77,7 +77,7 @@
                             <h3>{{ $accommodation['name'] }}</h3>
                             <p>{{ $accommodation['nightly_from'] }} / night</p>
                             <div class="quick-links">
-                                <a href="{{ route('destinations.show', $accommodation['destination_slug']) }}">Open destination guide</a>
+                                <a href="{{ route('countries.show', $accommodation['destination_slug']) }}">Open destination guide</a>
                                 <a href="{{ $accommodation['affiliate_link'] }}" target="_blank" rel="noopener">Open stay listing</a>
                             </div>
                         </div>

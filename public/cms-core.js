@@ -37,6 +37,7 @@
     'home-hero-west-africa': 'cape-coast-kakum',
     'home-hero-southern-africa': 'namib-desert',
     'home-hero-northern-africa': 'marrakech-and-atlas',
+    'home-intro-africa-map': 'okavango-delta',
     'regions-index-hero': 'serengeti-national-park',
     'destinations-index-hero': 'cape-town',
     'attractions-index-hero': 'maasai-mara',
@@ -241,6 +242,26 @@
     return slug ? root + '/' + slug : root;
   }
 
+  // ── Search ribbon suggestion resolver ────────────────────────────
+  // Mirrors the search-ribbon intent matching in SiteController.
+
+  function searchRibbon(mode, context, tables) {
+    var query = (context && context.q) || '';
+    var suggestions = [];
+    if (tables) {
+      var allTables = ['countries', 'districts', 'attractions', 'accommodations', 'restaurants', 'tour_operators'];
+      allTables.forEach(function (name) {
+        var rows = tables[name] || [];
+        rows.forEach(function (row) {
+          if (row && row.name && query && String(row.name).toLowerCase().includes(query.toLowerCase())) {
+            suggestions.push({ label: row.name, type: name, value: row.slug || row.name });
+          }
+        });
+      });
+    }
+    return { mode: mode, query: query, suggestions: suggestions.slice(0, 20) };
+  }
+
   // ── SEO metadata construction ───────────────────────────────────
   // Builds the og:title / og:description / og:image / canonical payload
   // with the same fallback chain as SiteController.
@@ -337,6 +358,7 @@
     // Internal URLs
     internalUrl: internalUrl,
     INTERNAL_ROUTES: INTERNAL_ROUTES,
+    searchRibbon: searchRibbon,
     // SEO
     buildSeoMeta: buildSeoMeta,
     // Media

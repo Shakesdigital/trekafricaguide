@@ -14,18 +14,18 @@
     <div class="container reveal">
         <ul class="breadcrumb">
             <li><a href="{{ route('home') }}">Home</a></li>
-            <li><a href="{{ route('destinations.index') }}">Destinations</a></li>
+            <li><a href="{{ route('countries.index') }}">Destinations</a></li>
             <li><span class="current">{{ $destination['name'] }}</span></li>
         </ul>
         <p class="eyebrow">Destination Guide</p>
         <h1>{{ $destination['name'] }}</h1>
         <p>{{ $destination['summary'] }}</p>
         <div class="hero-chips">
-            <a href="{{ route('destinations.index', ['region' => $destination['region']]) }}">{{ ucwords(str_replace('-', ' ', $destination['region'])) }}</a>
-            <a href="{{ route('destinations.index', ['country' => $destination['country']]) }}">{{ $destination['country'] }}</a>
-            <a href="{{ route('destinations.index', ['price' => $destination['price']]) }}">{{ ucfirst($destination['price']) }}</a>
+            <a href="{{ route('countries.show', $destination['region']) }}">{{ ucwords(str_replace('-', ' ', $destination['region'])) }}</a>
+            <a href="{{ route('countries.show', $destination['country']) }}">{{ $destination['country'] }}</a>
+            <a href="{{ route('countries.index', ['price' => $destination['price']]) }}">{{ ucfirst($destination['price']) }}</a>
             @foreach($destination['travel_style'] as $style)
-                <a href="{{ route('destinations.index', ['travel_style' => $style]) }}">{{ ucwords(str_replace('-', ' ', $style)) }}</a>
+                <a href="{{ route('countries.index', ['travel_style' => $style]) }}">{{ ucwords(str_replace('-', ' ', $style)) }}</a>
             @endforeach
         </div>
     </div>
@@ -40,7 +40,7 @@
             <p><strong>Best time to visit:</strong> {{ $bestTime }}</p>
             <p><strong>How long to stay:</strong> {{ $editorial['stay_length'] ?? 'Plan at least 2 nights if you want the destination to feel worthwhile rather than rushed.' }}</p>
             <div class="quick-links">
-                <a href="{{ route('safaris.index', ['region' => $destination['region'], 'country' => $destination['country']]) }}">Compare tours</a>
+                <a href="{{ route('attractions.index', ['region' => $destination['region'], 'country' => $destination['country']]) }}">Compare tours</a>
                 <a href="{{ route('accommodations.index', ['region' => $destination['region'], 'country' => $destination['country']]) }}">Browse stays</a>
                 <a href="{{ route('restaurants.index', ['region' => $destination['region'], 'country' => $destination['country']]) }}">Find dining</a>
             </div>
@@ -138,9 +138,9 @@
                         <span class="card-badge price">{{ ucfirst($tour['budget']) }}</span>
                     </div>
                     <div class="content-card-body">
-                        <p class="meta">{{ $tour['duration'] }} days • {{ $tour['partner'] }}</p>
+                        <p class="meta">{{ $tour['duration'] }} days ï¿½ {{ $tour['partner'] }}</p>
                         <h3>{{ $tour['title'] }}</h3>
-                        <p>From {{ $tour['price_from'] }} • {{ ucfirst($tour['budget']) }} budget</p>
+                        <p>From {{ $tour['price_from'] }} ï¿½ {{ ucfirst($tour['budget']) }} budget</p>
                         <a class="btn-primary" href="{{ $tour['affiliate_link'] }}" target="_blank" rel="noopener">View partner offer <span class="btn-icon">?</span></a>
                     </div>
                 </article>
@@ -202,7 +202,7 @@
                 @forelse($restaurants as $restaurant)
                     <div class="list-item">
                         <h3>{{ $restaurant['name'] }}</h3>
-                        <p>{{ $restaurant['cuisine'] }} • {{ $restaurant['signature'] }}</p>
+                        <p>{{ $restaurant['cuisine'] }} ï¿½ {{ $restaurant['signature'] }}</p>
                         <a href="{{ $restaurant['affiliate_link'] }}" target="_blank" rel="noopener">Open dining listing ?</a>
                     </div>
                 @empty
@@ -312,7 +312,7 @@
                         <p class="meta">{{ $post['read_time'] }}</p>
                         <h3>{{ $post['title'] }}</h3>
                         <p>{{ $post['excerpt'] }}</p>
-                        <a href="{{ route('blog.index', ['country' => $post['country']]) }}" class="btn-outline">Browse related guides <span class="btn-icon">?</span></a>
+                        <a href="{{ route('contact', ['country' => $post['country']]) }}" class="btn-outline">Browse related guides <span class="btn-icon">?</span></a>
                     </div>
                 </article>
             @empty
@@ -338,7 +338,7 @@
                     <div class="content-card-body">
                         <h3>{{ $related['name'] }}</h3>
                         <p>{{ $related['summary'] }}</p>
-                        <a href="{{ route('destinations.show', $related['slug']) }}" class="btn-outline">View destination <span class="btn-icon">?</span></a>
+                        <a href="{{ route('countries.show', $related['slug']) }}" class="btn-outline">View destination <span class="btn-icon">?</span></a>
                     </div>
                 </article>
             @endforeach

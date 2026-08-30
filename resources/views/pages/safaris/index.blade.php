@@ -21,7 +21,7 @@
             <p>These pages are written to feel more like honest trip planning and less like a list of offers. Use the filters to compare wildlife drives, trekking routes, desert journeys, cultural add-ons, and shorter extension trips before clicking out to a partner booking page.</p>
         </div>
 
-        <form class="filter-bar reveal" method="GET" action="{{ route('safaris.index') }}">
+        <form class="filter-bar reveal" method="GET" action="{{ route('attractions.index') }}">
             <input type="text" name="q" value="{{ $filters['q'] }}" placeholder="Search safari by title or country…">
             <select name="region">
                 <option value="">All regions</option>
@@ -60,7 +60,7 @@
                 <option value="long" @selected($filters['duration'] === 'long')>Long (7+ days)</option>
             </select>
             <button type="submit">Apply</button>
-            <a href="{{ route('safaris.index') }}" class="btn-clear">Reset</a>
+            <a href="{{ route('attractions.index') }}" class="btn-clear">Reset</a>
         </form>
 
         <div class="results-count reveal">
@@ -84,7 +84,7 @@
                         </div>
                         <p>From {{ $tour['price_from'] }} via {{ $tour['partner'] }}</p>
                         <div class="quick-links">
-                            <a href="{{ route('destinations.show', $tour['destination_slug']) }}">Open destination guide</a>
+                            <a href="{{ route('countries.show', $tour['destination_slug']) }}">Open destination guide</a>
                             <a href="{{ $tour['affiliate_link'] }}" target="_blank" rel="noopener">View partner offer</a>
                         </div>
                     </div>

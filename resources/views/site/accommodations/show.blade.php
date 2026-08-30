@@ -9,8 +9,8 @@
         @include('site.partials.breadcrumbs', ['items' => [
             ['label' => 'Home', 'href' => route('home')],
             ['label' => 'Accommodations', 'href' => route('accommodations.index')],
-            ['label' => $accommodation->country->region->name, 'href' => route('region', $accommodation->country->region)],
-            ['label' => $accommodation->country->name, 'href' => route('country', $accommodation->country)],
+            ['label' => $accommodation->country->region->name, 'href' => route('regions.show', $accommodation->country->region)],
+            ['label' => $accommodation->country->name, 'href' => route('countries.show', $accommodation->country)],
             ['label' => $accommodation->name],
         ]])
         <div class="listing-head">

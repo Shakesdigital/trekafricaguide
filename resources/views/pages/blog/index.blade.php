@@ -23,11 +23,11 @@
 
         <div class="category-grid reveal">
             @foreach($categories as $category)
-                <a href="{{ route('blog.index', ['category' => $category]) }}" class="category-chip {{ $filters['category'] === $category ? 'active' : '' }}">{{ $category }}</a>
+                <a href="{{ route('contact', ['category' => $category]) }}" class="category-chip {{ $filters['category'] === $category ? 'active' : '' }}">{{ $category }}</a>
             @endforeach
         </div>
 
-        <form class="filter-bar reveal" method="GET" action="{{ route('blog.index') }}">
+        <form class="filter-bar reveal" method="GET" action="{{ route('contact') }}">
             <input type="text" name="q" value="{{ $filters['q'] }}" placeholder="Search guides…">
             <select name="category">
                 <option value="">All categories</option>
@@ -66,7 +66,7 @@
                 @endforeach
             </select>
             <button type="submit">Apply</button>
-            <a href="{{ route('blog.index') }}" class="btn-clear">Reset</a>
+            <a href="{{ route('contact') }}" class="btn-clear">Reset</a>
         </form>
 
         <div class="results-count reveal">
@@ -88,7 +88,7 @@
                         <h3>{{ $post['title'] }}</h3>
                         <p>{{ $post['excerpt'] }}</p>
                         <div class="quick-links">
-                            <a href="{{ route('destinations.index', ['country' => $post['country']]) }}">See related destinations</a>
+                            <a href="{{ route('countries.show', $post['country']) }}">See related destinations</a>
                             <a href="#" aria-disabled="true">Read article</a>
                         </div>
                     </div>

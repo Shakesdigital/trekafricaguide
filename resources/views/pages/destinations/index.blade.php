@@ -21,7 +21,7 @@
             <p>The strongest launch flow begins with Uganda, Kenya, Tanzania, and Rwanda, then expands into Southern Africa, North Africa, and West Africa so travelers can compare classic safari icons with cities, coastlines, desert routes, and cultural journeys.</p>
         </div>
 
-        <form class="filter-bar reveal" method="GET" action="{{ route('destinations.index') }}">
+        <form class="filter-bar reveal" method="GET" action="{{ route('countries.index') }}">
             <input type="text" name="q" value="{{ $filters['q'] }}" placeholder="Search park, country, city…">
             <select name="region">
                 <option value="">All regions</option>
@@ -76,8 +76,8 @@
                             @endforeach
                         </div>
                         <div class="quick-links">
-                            <a href="{{ route('destinations.show', $destination['slug']) }}">Open guide</a>
-                            <a href="{{ route('safaris.index', ['country' => $destination['country']]) }}">Tours in {{ $destination['country'] }}</a>
+                            <a href="{{ route('countries.show', $destination['slug']) }}">Open guide</a>
+                            <a href="{{ route('attractions.index', ['country' => $destination['country']]) }}">Tours in {{ $destination['country'] }}</a>
                             <a href="{{ route('accommodations.index', ['country' => $destination['country']]) }}">Stays in {{ $destination['country'] }}</a>
                         </div>
                     </div>

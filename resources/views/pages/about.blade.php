@@ -32,7 +32,7 @@
                 <li>Destination fit and route logic over hype-heavy selling</li>
                 <li>Local context, realistic pacing, and honest travel expectations</li>
             </ul>
-            <a class="btn-primary" href="{{ route('blog.index') }}" style="margin-top: 1rem;">Read Travel Guides <span class="btn-icon">→</span></a>
+            <a class="btn-primary" href="{{ route('contact') }}" style="margin-top: 1rem;">Read Travel Guides <span class="btn-icon">→</span></a>
         </article>
     </div>
 </section>

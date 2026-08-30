@@ -9,8 +9,8 @@
         @include('site.partials.breadcrumbs', ['items' => [
             ['label' => 'Home', 'href' => route('home')],
             ['label' => 'Restaurants', 'href' => route('restaurants.index')],
-            ['label' => $restaurant->country->region->name, 'href' => route('region', $restaurant->country->region)],
-            ['label' => $restaurant->country->name, 'href' => route('country', $restaurant->country)],
+            ['label' => $restaurant->country->region->name, 'href' => route('regions.show', $restaurant->country->region)],
+            ['label' => $restaurant->country->name, 'href' => route('countries.show', $restaurant->country)],
             ['label' => $restaurant->name],
         ]])
         <div class="listing-head">

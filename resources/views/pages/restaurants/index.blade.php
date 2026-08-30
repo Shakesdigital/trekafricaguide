@@ -64,13 +64,13 @@
                         <span class="card-badge price">{{ ucfirst($restaurant['price']) }}</span>
                     </div>
                     <div class="content-card-body">
-                        <p class="meta">{{ ucwords(str_replace('-', ' ', $restaurant['region'])) }} • {{ $restaurant['cuisine'] }}</p>
+                        <p class="meta">{{ ucwords(str_replace('-', ' ', $restaurant['region'])) }} ï¿½ {{ $restaurant['cuisine'] }}</p>
                         <h3>{{ $restaurant['name'] }}</h3>
                         <p>{{ $restaurant['summary'] }}</p>
                         <div class="pill-row">
                             <span>{{ $restaurant['signature'] }}</span>
                         </div>
-                        <a href="{{ route('destinations.show', $restaurant['destination_slug']) }}" class="btn-outline">Open destination page <span class="btn-icon">?</span></a>
+                        <a href="{{ route('countries.show', $restaurant['destination_slug']) }}" class="btn-outline">Open destination page <span class="btn-icon">?</span></a>
                     </div>
                 </article>
             @empty

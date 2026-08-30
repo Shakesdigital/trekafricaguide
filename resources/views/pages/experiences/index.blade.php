@@ -21,7 +21,7 @@
             <p>Well-planned Africa trips are rarely just game drives. This section helps travelers find meaningful half-day and full-day experiences that fit naturally before, between, or after major safari legs.</p>
         </div>
 
-        <form class="filter-bar reveal" method="GET" action="{{ route('experiences.index') }}">
+        <form class="filter-bar reveal" method="GET" action="{{ route('countries.index') }}">
             <input type="text" name="q" value="{{ $filters['q'] }}" placeholder="Search host, experience, or style…">
             <select name="region">
                 <option value="">All regions</option>
@@ -54,7 +54,7 @@
                 @endforeach
             </select>
             <button type="submit">Apply</button>
-            <a href="{{ route('experiences.index') }}" class="btn-clear">Reset</a>
+            <a href="{{ route('countries.index') }}" class="btn-clear">Reset</a>
         </form>
 
         <div class="results-count reveal">
@@ -78,7 +78,7 @@
                         </div>
                         <p class="host-line">Hosted by {{ $experience['host'] }}</p>
                         <div class="quick-links">
-                            <a href="{{ route('destinations.index', ['country' => $experience['country']]) }}">See destination context</a>
+                            <a href="{{ route('countries.show', $experience['country']) }}">See destination context</a>
                             <a href="{{ $experience['affiliate_link'] }}" target="_blank" rel="noopener">Open partner path</a>
                         </div>
                     </div>
