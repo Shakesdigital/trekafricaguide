@@ -1,5 +1,5 @@
 (function () {
-  const SUPABASE_URL = 'https://rfaoaaehhenhniqkgpl.supabase.co';
+  const SUPABASE_URL = 'https://rftoaaehhenhnziukgpl.supabase.co';
   const SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJmdG9hYWVoaGVuaG56aXVrZ3BsIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODc5NjQ3MDksImV4cCI6MjEwMzU0MDcwOX0.zWBIr5uuWuuFaCYZVl-MALTWP91-hVhazhAb0zbdz1Q';
 
   const tables = {};
@@ -7,7 +7,7 @@
 
   if (!main || !window.supabase) return;
 
-  const sb = window.supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
+  const sb = window.supabase.createClient(SUPABASE_URL, 'sb_publishable_-ko7Wx7f8A4uK8-qx3X0Xw_DTyOzPi_');
   const path = window.location.pathname.replace(/\/$/, '') || '/';
 
   const esc = (value) => String(value ?? '')

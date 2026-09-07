@@ -1101,9 +1101,10 @@
 // ═══════════════════════════════════════════════════════════════
 //  CONFIG — hardcoded Supabase credentials
 // ═══════════════════════════════════════════════════════════════
-const SUPABASE_URL = 'https://rfaoaaehhenhniqkgpl.supabase.co';
+const SUPABASE_URL = 'https://rftoaaehhenhnziukgpl.supabase.co';
 const SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJmdG9hYWVoaGVuaG56aXVrZ3BsIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODc5NjQ3MDksImV4cCI6MjEwMzU0MDcwOX0.zWBIr5uuWuuFaCYZVl-MALTWP91-hVhazhAb0zbdz1Q';
-const sb = supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
+const SUPABASE_PUBLISHABLE_KEY = 'sb_publishable_-ko7Wx7f8A4uK8-qx3X0Xw_DTyOzPi_';
+const sb = supabase.createClient(SUPABASE_URL, SUPABASE_PUBLISHABLE_KEY);
 
 // ═══════════════════════════════════════════════════════════════
 //  STATE
@@ -1132,7 +1133,15 @@ async function doLogin() {
   btn.disabled = true;
   err.classList.remove('visible');
 
-  const { data, error } = await sb.auth.signInWithPassword({ email, password });
+  let data, error;
+  try {
+    ({ data, error } = await sb.auth.signInWithPassword({ email, password }));
+  } catch (requestError) {
+    btn.innerHTML = 'Sign in';
+    btn.disabled = false;
+    showLoginError('Unable to reach Supabase. Check the deployed site configuration and network connection.');
+    return;
+  }
 
   btn.innerHTML = 'Sign in';
   btn.disabled = false;
