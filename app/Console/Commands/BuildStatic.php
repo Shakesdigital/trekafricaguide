@@ -44,6 +44,8 @@ class BuildStatic extends Command
             'favicon.ico',
             'robots.txt',
             'cms-sync.js',
+            'cms-core.js',
+            'cms-schema.js',
             'cms.html',
             'logo to edit.png',
             'listing style.png',
@@ -71,15 +73,25 @@ class BuildStatic extends Command
             '/contact' => 'contact/index.html',
         ];
 
-        foreach (Region::query()->get() as $region) {
+        foreach (Region::query()->publiclyVisible()->get() as $region) {
             $routes["/regions/{$region->slug}"] = "regions/{$region->slug}/index.html";
         }
 
-        foreach (Country::query()->get() as $country) {
+        foreach (Country::query()->publiclyVisible()->get() as $country) {
             $routes["/countries/{$country->slug}"] = "countries/{$country->slug}/index.html";
         }
 
-        // Listing detail URLs remain supported by Netlify redirects, but are not emitted as pages.
+        foreach (Attraction::query()->publiclyVisible()->get() as $item) {
+            $routes["/attractions/{$item->slug}"] = "attractions/{$item->slug}/index.html";
+        }
+
+        foreach (Accommodation::query()->publiclyVisible()->get() as $item) {
+            $routes["/accommodations/{$item->slug}"] = "accommodations/{$item->slug}/index.html";
+        }
+
+        foreach (Restaurant::query()->publiclyVisible()->get() as $item) {
+            $routes["/restaurants/{$item->slug}"] = "restaurants/{$item->slug}/index.html";
+        }
 
         $kernel = app(\Illuminate\Contracts\Http\Kernel::class);
         $rendered = 0;
@@ -134,10 +146,6 @@ class BuildStatic extends Command
 /contact            /contact/index.html         200
 /*                  /index.html                  404
 REDIRECTS);
-
-        foreach (Attraction::query()->get() as $item) File::append($distPath.'/_redirects', "\n/attractions/{$item->slug} /attractions/index.html?q=".urlencode($item->name)."&focus=listing-{$item->slug}#listing-{$item->slug} 301");
-        foreach (Accommodation::query()->get() as $item) File::append($distPath.'/_redirects', "\n/accommodations/{$item->slug} /accommodations/index.html?q=".urlencode($item->name)."&focus=listing-{$item->slug}#listing-{$item->slug} 301");
-        foreach (Restaurant::query()->get() as $item) File::append($distPath.'/_redirects', "\n/restaurants/{$item->slug} /restaurants/index.html?q=".urlencode($item->name)."&focus=listing-{$item->slug}#listing-{$item->slug} 301");
 
         $this->newLine();
         $this->info('Static build complete.');
