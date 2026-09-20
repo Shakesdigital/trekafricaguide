@@ -19,8 +19,6 @@ Route::get('/attractions/{attraction:slug}', [SiteController::class, 'attraction
 Route::get('/accommodations', [SiteController::class, 'accommodations'])->name('accommodations.index');
 Route::get('/accommodations/{accommodation:slug}', [SiteController::class, 'accommodation'])->name('accommodations.show');
 
-Route::get('/restaurants', [SiteController::class, 'restaurants'])->name('restaurants.index');
-Route::get('/restaurants/{restaurant:slug}', [SiteController::class, 'restaurant'])->name('restaurants.show');
 Route::get('/contact', [SiteController::class, 'contact'])->name('contact');
 
 Route::redirect('/destinations', '/attractions', 301);

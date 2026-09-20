@@ -138,49 +138,18 @@
                     'image' => $stay->hero_image_url,
                     'title' => $stay->name,
                     'summary' => $stay->listing_summary,
-                    'eyebrow' => $stay->property_type,
+                    'eyebrow' => trim($stay->location_name.', '.$stay->country->name, ', '),
                     'rating' => $stay->rating,
                     'reviews' => $stay->review_count,
                     'price' => $stay->price_label,
-                    'chips' => [$stay->location_name, $stay->property_type],
+                    'chips' => [$stay->region?->name, $stay->property_type],
                     'facts' => [
                         'Best for' => str_contains(strtolower($stay->practical_info), 'sector') ? 'Permit-day logistics' : 'Route comfort',
                         'Meal plan' => 'Verify basis',
                         'Nearby' => $stay->attraction?->name,
                         'Transfer' => 'Check access',
                     ],
-                    'cta' => 'View route fit',
-                ])
-            @endforeach
-        </div>
-    </div>
-</section>
-
-<section class="section">
-    <div class="container">
-        <div class="section-heading section-heading--compact">
-            <p class="eyebrow">Nearby dining</p>
-            <h2>Restaurants near {{ $attraction->name }}</h2>
-        </div>
-        <div class="listing-grid">
-            @foreach($restaurants as $restaurant)
-                @include('site.partials.listing-card', [
-                    'href' => route('restaurants.show', $restaurant),
-                    'image' => $restaurant->hero_image_url,
-                    'title' => $restaurant->name,
-                    'summary' => $restaurant->listing_summary,
-                    'eyebrow' => $restaurant->cuisine,
-                    'rating' => $restaurant->rating,
-                    'reviews' => $restaurant->review_count,
-                    'price' => $restaurant->price_label,
-                    'chips' => [$restaurant->signature_dish, 'Nearby dining'],
-                    'facts' => [
-                        'Meal role' => str_contains(strtolower($restaurant->cuisine), 'lodge') || str_contains(strtolower($restaurant->cuisine), 'camp') ? 'Stay-based meal' : 'Dining stop',
-                        'Cuisine' => $restaurant->cuisine,
-                        'Reserve' => 'Verify hours',
-                        'Pairs with' => $restaurant->attraction?->name,
-                    ],
-                    'cta' => 'View dining',
+                    'cta' => 'View stay',
                 ])
             @endforeach
         </div>

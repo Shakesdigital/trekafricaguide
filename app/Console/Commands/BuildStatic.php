@@ -6,7 +6,6 @@ use App\Models\Accommodation;
 use App\Models\Attraction;
 use App\Models\Country;
 use App\Models\Region;
-use App\Models\Restaurant;
 use Illuminate\Console\Command;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\File;
@@ -69,7 +68,6 @@ class BuildStatic extends Command
             '/countries' => 'countries/index.html',
             '/attractions' => 'attractions/index.html',
             '/accommodations' => 'accommodations/index.html',
-            '/restaurants' => 'restaurants/index.html',
             '/contact' => 'contact/index.html',
         ];
 
@@ -87,10 +85,6 @@ class BuildStatic extends Command
 
         foreach (Accommodation::query()->publiclyVisible()->get() as $item) {
             $routes["/accommodations/{$item->slug}"] = "accommodations/{$item->slug}/index.html";
-        }
-
-        foreach (Restaurant::query()->publiclyVisible()->get() as $item) {
-            $routes["/restaurants/{$item->slug}"] = "restaurants/{$item->slug}/index.html";
         }
 
         $kernel = app(\Illuminate\Contracts\Http\Kernel::class);
@@ -140,7 +134,6 @@ class BuildStatic extends Command
 /countries          /countries/index.html       200
 /attractions        /attractions/index.html     200
 /accommodations     /accommodations/index.html  200
-/restaurants        /restaurants/index.html     200
 /suppliers          /suppliers/index.html       200
 /supplier-terms     /supplier-terms/index.html  200
 /contact            /contact/index.html         200

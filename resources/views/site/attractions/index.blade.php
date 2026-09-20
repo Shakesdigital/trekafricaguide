@@ -8,7 +8,7 @@
         @include('site.partials.breadcrumbs', ['items' => [['label' => 'Home', 'href' => route('home')], ['label' => 'Attractions']]])
         <p class="eyebrow">Listings</p>
         <h1>Explore the attractions that can anchor a memorable Africa trip.</h1>
-        <p>Search safaris, coastlines, heritage sites, city gateways, deserts, and cultural routes, compare each listing here, then continue through a clearly named provider link.</p>
+        <p>Search safaris, coastlines, heritage sites, city gateways, deserts, and cultural routes, then open each listing for the practical details and booking options.</p>
     </div>
 </section>
 
@@ -35,18 +35,18 @@
                     'image' => $attraction->hero_image_url,
                     'title' => $attraction->name,
                     'summary' => $attraction->listing_summary,
-                    'eyebrow' => $attraction->country->name . ' • ' . $attraction->region->name,
+                    'eyebrow' => trim($attraction->location_name.', '.$attraction->country->name, ', '),
                     'rating' => $attraction->rating,
                     'reviews' => $attraction->review_count,
                     'price' => $attraction->price_label,
-                    'chips' => [$attraction->location_name, 'Plan visit'],
+                    'chips' => [$attraction->region?->name, 'Plan visit'],
                     'facts' => [
                         'Time' => str_contains(strtolower($attraction->listing_summary), 'city') ? 'Half to full day' : '1-3 days',
                         'Demand' => str_contains(strtolower($attraction->detail_intro), 'trek') ? 'Demanding' : 'Moderate',
                         'Season' => \Illuminate\Support\Str::limit(strip_tags($attraction->best_time), 42),
                         'Route fit' => $attraction->country->name.' anchor',
                     ],
-                    'cta' => 'Plan visit',
+                    'cta' => 'View attraction detail',
                 ])
             @endforeach
         </div>

@@ -16,24 +16,30 @@
         'destinations-index-hero' => 'cape-town',
         'attractions-index-hero' => 'maasai-mara',
         'accommodations-index-hero' => 'maasai-mara',
-        'restaurants-index-hero' => 'zanzibar',
         'contact-hero' => 'bwindi-impenetrable-national-park',
         'region-east-africa' => 'serengeti-national-park',
         'region-west-africa' => 'sine-saloum-delta',
         'region-southern-africa' => 'namib-desert',
         'region-northern-africa' => 'marrakech-and-atlas',
+        'region-central-africa' => 'odzala-kokoua-national-park',
     ];
     $countryDestinations = [
         'uganda' => 'bwindi-impenetrable-national-park', 'kenya' => 'maasai-mara',
         'tanzania' => 'serengeti-national-park', 'rwanda' => 'volcanoes-national-park',
-        'ethiopia' => 'lalibela', 'ghana' => 'cape-coast-kakum',
+        'ethiopia' => 'lalibela', 'mauritius' => 'black-river-gorges',
+        'seychelles' => 'vallee-de-mai', 'ghana' => 'cape-coast-kakum',
         'senegal' => 'sine-saloum-delta', 'benin' => 'ouidah-and-ganvie',
         'sierra-leone' => 'tokeh-and-river-no2', 'cabo-verde' => 'sal-island',
+        'nigeria' => 'lagos-and-lekki', 'the-gambia' => 'river-gambia-national-park',
+        'cote-divoire' => 'grand-bassam',
         'south-africa' => 'cape-town', 'botswana' => 'okavango-delta',
         'namibia' => 'namib-desert', 'zimbabwe' => 'victoria-falls',
-        'zambia' => 'south-luangwa', 'morocco' => 'marrakech-and-atlas',
+        'zambia' => 'south-luangwa', 'mozambique' => 'bazaruto-archipelago',
+        'morocco' => 'marrakech-and-atlas',
         'egypt' => 'cairo-and-giza', 'tunisia' => 'tunis-and-sidi-bou-said',
         'algeria' => 'djanet-and-tassili',
+        'sao-tome-and-principe' => 'obo-natural-park', 'cameroon' => 'mount-cameroon',
+        'gabon' => 'loango-national-park', 'republic-of-the-congo' => 'odzala-kokoua-national-park',
     ];
 
     $localRelative = $isSlot ? ($landingImages[$slotKey] ?? null) : null;
@@ -41,7 +47,7 @@
         $countrySlug = str($slotKey)->after('country-')->toString();
         $localRelative = $countryDestinations[$countrySlug] ?? null;
     }
-    foreach (['attraction-' => 'attractions', 'stay-' => 'accommodations', 'restaurant-' => 'restaurants'] as $prefix => $folder) {
+    foreach (['attraction-' => 'attractions', 'stay-' => 'accommodations'] as $prefix => $folder) {
         if ($isSlot && !$localRelative && str_starts_with($slotKey, $prefix)) {
             $localRelative = str($slotKey)->after($prefix)->toString();
         }

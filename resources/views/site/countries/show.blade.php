@@ -9,6 +9,10 @@
         'south-africa' => 'cape-town', 'botswana' => 'okavango-delta', 'namibia' => 'namib-desert',
         'zimbabwe' => 'victoria-falls', 'zambia' => 'south-luangwa', 'morocco' => 'marrakech-and-atlas',
         'egypt' => 'cairo-and-giza', 'tunisia' => 'tunis-and-sidi-bou-said', 'algeria' => 'djanet-and-tassili',
+        'nigeria' => 'lagos-and-lekki', 'the-gambia' => 'river-gambia-national-park', 'cote-divoire' => 'grand-bassam',
+        'mauritius' => 'black-river-gorges', 'seychelles' => 'vallee-de-mai', 'mozambique' => 'bazaruto-archipelago',
+        'sao-tome-and-principe' => 'obo-natural-park', 'cameroon' => 'mount-cameroon', 'gabon' => 'loango-national-park',
+        'republic-of-the-congo' => 'odzala-kokoua-national-park',
     ][$country->slug] ?? null;
     $localGallery = $countryDestination ? collect([asset('images/stock/destinations/'.$countryDestination.'.jpg')]) : collect();
     $galleryImages = $localGallery->isNotEmpty() ? $localGallery : collect($country->gallery ?? [])->filter()->values();
@@ -100,7 +104,6 @@
                 <ul class="bullet-list">
                     <li>{{ $country->attractions->count() }} featured attractions listed</li>
                     <li>{{ $accommodations->count() }} accommodations nearby</li>
-                    <li>{{ $restaurants->count() }} recommended restaurants</li>
                 </ul>
             </div>
         </aside>
@@ -127,18 +130,18 @@
                     'image' => $attraction->hero_image_url,
                     'title' => $attraction->name,
                     'summary' => $attraction->listing_summary,
-                    'eyebrow' => $country->name,
+                    'eyebrow' => trim($attraction->location_name.', '.$country->name, ', '),
                     'rating' => $attraction->rating,
                     'reviews' => $attraction->review_count,
                     'price' => $attraction->price_label,
-                    'chips' => [$attraction->location_name, 'Route anchor'],
+                    'chips' => [$attraction->region?->name, 'Route anchor'],
                     'facts' => [
                         'Time' => '1-3 days',
                         'Demand' => str_contains(strtolower($attraction->detail_intro), 'trek') ? 'Demanding' : 'Moderate',
                         'Season' => \Illuminate\Support\Str::limit(strip_tags($attraction->best_time), 42),
                         'Verify' => 'Rates and access',
                     ],
-                    'cta' => 'Plan visit',
+                    'cta' => 'View attraction detail',
                 ])
             @endforeach
         </div>
@@ -158,49 +161,18 @@
                     'image' => $stay->hero_image_url,
                     'title' => $stay->name,
                     'summary' => $stay->listing_summary,
-                    'eyebrow' => $stay->attraction?->name,
+                    'eyebrow' => trim($stay->location_name.', '.$country->name, ', '),
                     'rating' => $stay->rating,
                     'reviews' => $stay->review_count,
                     'price' => $stay->price_label,
-                    'chips' => [$stay->property_type, 'Route fit'],
+                    'chips' => [$stay->region?->name, $stay->attraction?->name],
                     'facts' => [
                         'Best for' => str_contains(strtolower($stay->practical_info), 'sector') ? 'Permit-day logistics' : 'Route comfort',
                         'Meal plan' => 'Verify basis',
                         'Nearby' => $stay->attraction?->name,
                         'Transfer' => 'Check access',
                     ],
-                    'cta' => 'View route fit',
-                ])
-            @endforeach
-        </div>
-    </div>
-</section>
-
-<section class="section section--alt">
-    <div class="container">
-        <div class="section-heading">
-            <p class="eyebrow">Dining</p>
-            <h2>Dining ideas that add flavor to the journey</h2>
-        </div>
-        <div class="listing-grid">
-            @foreach($restaurants as $restaurant)
-                @include('site.partials.listing-card', [
-                    'href' => route('restaurants.show', $restaurant), 'listing' => $restaurant,
-                    'image' => $restaurant->hero_image_url,
-                    'title' => $restaurant->name,
-                    'summary' => $restaurant->listing_summary,
-                    'eyebrow' => $restaurant->attraction?->name,
-                    'rating' => $restaurant->rating,
-                    'reviews' => $restaurant->review_count,
-                    'price' => $restaurant->price_label,
-                    'chips' => [$restaurant->cuisine, 'Dining detail'],
-                    'facts' => [
-                        'Meal role' => str_contains(strtolower($restaurant->cuisine), 'lodge') || str_contains(strtolower($restaurant->cuisine), 'camp') ? 'Stay-based meal' : 'Dining stop',
-                        'Cuisine' => $restaurant->cuisine,
-                        'Reserve' => 'Verify hours',
-                        'Pairs with' => $restaurant->attraction?->name,
-                    ],
-                    'cta' => 'View dining',
+                    'cta' => 'View stay',
                 ])
             @endforeach
         </div>

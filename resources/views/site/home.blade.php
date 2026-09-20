@@ -26,7 +26,7 @@
     <div class="hero__overlay"></div>
     <div class="container hero__content">
         <p class="eyebrow" data-hero-region>{{ $heroSlides->first()['region'] ?? $hero?->eyebrow }}</p>
-        <h1 data-hero-title>Plan Africa trips by destination, attraction, stay, and dining route.</h1>
+        <h1 data-hero-title>Plan Africa trips by destination, attraction, and stay.</h1>
         <p class="hero__lead" data-hero-body>{{ $heroSlides->first()['body'] ?? $hero?->body }}</p>
         @include('site.partials.search-ribbon', ['mode' => 'attractions'])
 
@@ -83,7 +83,7 @@
             <h3>How Trek Africa Guide works</h3>
             <ul class="bullet-list">
                 <li>Begin with the part of Africa that matches your travel style: safari, coast, culture, desert, food, heritage, or a mix of several.</li>
-                <li>Open a destination guide to see the attractions, stays, restaurants, and operators that make sense together.</li>
+                <li>Open a destination guide to see the attractions, stays, and operators that make sense together.</li>
                 <li>Compare the practical details first, then use the clearly named provider button when a listing fits your trip.</li>
             </ul>
         </div>
@@ -126,18 +126,18 @@
                     'image' => $attraction->hero_image_url,
                     'title' => $attraction->name,
                     'summary' => $attraction->listing_summary,
-                    'eyebrow' => $attraction->country->name,
+                    'eyebrow' => trim($attraction->location_name.', '.$attraction->country->name, ', '),
                     'rating' => $attraction->rating,
                     'reviews' => $attraction->review_count,
                     'price' => $attraction->price_label,
-                    'chips' => [$attraction->location_name, 'Route anchor'],
+                    'chips' => [$attraction->region?->name, 'Route anchor'],
                     'facts' => [
                         'Time' => '1-3 days',
                         'Demand' => str_contains(strtolower($attraction->detail_intro), 'trek') ? 'Demanding' : 'Moderate',
                         'Season' => \Illuminate\Support\Str::limit(strip_tags($attraction->best_time), 42),
                         'Verify' => 'Permits/rates',
                     ],
-                    'cta' => 'Plan visit',
+                    'cta' => 'View attraction detail',
                 ])
             @endforeach
         </div>
@@ -152,7 +152,7 @@
         <div class="section-heading">
             <p class="eyebrow">Route Collections</p>
             <h2>Planner-friendly routes to compare first.</h2>
-            <p>These are not fixed packages. They are practical starting shapes for matching attractions, stays, meals, transfers, and booking checks.</p>
+            <p>These are not fixed packages. They are practical starting shapes for matching attractions, stays, transfers, and booking checks.</p>
         </div>
         <div class="route-collection-grid">
             @foreach([
@@ -189,18 +189,18 @@
                             'image' => $stay->hero_image_url,
                             'title' => $stay->name,
                             'summary' => $stay->listing_summary,
-                            'eyebrow' => $stay->country->name,
+                            'eyebrow' => trim($stay->location_name.', '.$stay->country->name, ', '),
                             'rating' => $stay->rating,
                             'reviews' => $stay->review_count,
                             'price' => $stay->price_label,
-                            'chips' => [$stay->property_type, $stay->attraction?->name],
+                            'chips' => [$stay->region?->name, $stay->attraction?->name],
                             'facts' => [
                                 'Best for' => str_contains(strtolower($stay->practical_info), 'sector') ? 'Permit-day logistics' : 'Route comfort',
                                 'Meal plan' => 'Verify basis',
                                 'Nearby' => $stay->attraction?->name,
                                 'Transfer' => 'Check access',
                             ],
-                            'cta' => 'View route fit',
+                            'cta' => 'View stay',
                         ])
                     </div>
                 @endforeach
@@ -209,47 +209,6 @@
         </div>
         <div class="section-cta">
             <a href="{{ route('accommodations.index') }}" class="button">View more accommodations</a>
-        </div>
-    </div>
-</section>
-
-<section class="section">
-    <div class="container featured-carousel-section">
-        <div class="section-heading section-heading--compact">
-            <p class="eyebrow">{{ $sections['featured_restaurants']?->eyebrow }}</p>
-            <h2>{{ $sections['featured_restaurants']?->title }}</h2>
-            <p>{{ $sections['featured_restaurants']?->body }}</p>
-        </div>
-        <div class="listing-carousel" data-listing-carousel>
-            <button class="listing-carousel__button" type="button" data-carousel-prev aria-label="Previous featured restaurants">&lsaquo;</button>
-            <div class="listing-carousel__track" data-carousel-track>
-                @foreach($featuredRestaurants as $restaurant)
-                    <div class="listing-carousel__item">
-                        @include('site.partials.listing-card', [
-                            'href' => route('restaurants.show', $restaurant), 'listing' => $restaurant,
-                            'image' => $restaurant->hero_image_url,
-                            'title' => $restaurant->name,
-                            'summary' => $restaurant->listing_summary,
-                            'eyebrow' => $restaurant->country->name,
-                            'rating' => $restaurant->rating,
-                            'reviews' => $restaurant->review_count,
-                            'price' => $restaurant->price_label,
-                            'chips' => [$restaurant->cuisine, $restaurant->attraction?->name],
-                            'facts' => [
-                                'Meal role' => str_contains(strtolower($restaurant->cuisine), 'lodge') || str_contains(strtolower($restaurant->cuisine), 'camp') ? 'Stay-based meal' : 'Dining stop',
-                                'Cuisine' => $restaurant->cuisine,
-                                'Reserve' => 'Verify hours',
-                                'Pairs with' => $restaurant->attraction?->name,
-                            ],
-                            'cta' => 'View dining',
-                        ])
-                    </div>
-                @endforeach
-            </div>
-            <button class="listing-carousel__button" type="button" data-carousel-next aria-label="Next featured restaurants">&rsaquo;</button>
-        </div>
-        <div class="section-cta">
-            <a href="{{ route('restaurants.index') }}" class="button">View more restaurants</a>
         </div>
     </div>
 </section>

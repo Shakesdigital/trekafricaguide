@@ -42,37 +42,45 @@
     'destinations-index-hero': 'cape-town',
     'attractions-index-hero': 'maasai-mara',
     'accommodations-index-hero': 'maasai-mara',
-    'restaurants-index-hero': 'zanzibar',
     'region-east-africa': 'serengeti-national-park',
     'region-west-africa': 'sine-saloum-delta',
     'region-southern-africa': 'namib-desert',
     'region-northern-africa': 'marrakech-and-atlas',
-    'region-central-africa': 'virunga-massif',
+    'region-central-africa': 'odzala-kokoua-national-park',
     'country-uganda': 'bwindi-impenetrable-national-park',
     'country-kenya': 'maasai-mara',
     'country-tanzania': 'serengeti-national-park',
     'country-rwanda': 'volcanoes-national-park',
     'country-ethiopia': 'lalibela',
+    'country-mauritius': 'black-river-gorges',
+    'country-seychelles': 'vallee-de-mai',
     'country-ghana': 'cape-coast-kakum',
     'country-senegal': 'sine-saloum-delta',
     'country-benin': 'ouidah-and-ganvie',
     'country-sierra-leone': 'tokeh-and-river-no2',
     'country-cabo-verde': 'sal-island',
+    'country-nigeria': 'lagos-and-lekki',
+    'country-the-gambia': 'river-gambia-national-park',
+    'country-cote-divoire': 'grand-bassam',
     'country-south-africa': 'cape-town',
     'country-botswana': 'okavango-delta',
     'country-namibia': 'namib-desert',
     'country-zimbabwe': 'victoria-falls',
     'country-zambia': 'south-luangwa',
+    'country-mozambique': 'bazaruto-archipelago',
     'country-morocco': 'marrakech-and-atlas',
     'country-egypt': 'cairo-and-giza',
     'country-tunisia': 'tunis-and-sidi-bou-said',
     'country-algeria': 'djanet-and-tassili',
+    'country-sao-tome-and-principe': 'obo-natural-park',
+    'country-cameroon': 'mount-cameroon',
+    'country-gabon': 'loango-national-park',
+    'country-republic-of-the-congo': 'odzala-kokoua-national-park',
   };
 
   var TYPE_PREFIXES = {
     attractions: 'attraction-',
     stays: 'stay-',
-    restaurants: 'restaurant-',
   };
 
   /**
@@ -85,7 +93,7 @@
     var key = image.replace('image-slot:', '');
     var slug = SLOT_MAP[key];
     if (!slug) {
-      slug = key.replace(/^(attraction|stay|restaurant)-/, '');
+      slug = key.replace(/^(attraction|stay)-/, '');
     }
     return STOCK_FALLBACK_PREFIX + slug + '.jpg';
   }
@@ -144,8 +152,7 @@
       var symbol = priceMap[offer.price_currency] || offer.price_currency + ' ';
       return 'From ' + symbol + Number(offer.price_amount).toLocaleString() + ' per ' + offer.price_unit;
     }
-    if (entityType === 'restaurant') return 'Check menu and reservation details';
-    return 'Check live price';
+    return 'Check current details on the provider site';
   }
 
   // ── Stay22 link building ────────────────────────────────────────
@@ -156,8 +163,7 @@
   function buildStay22Link(listing, offer, search, affiliateId) {
     var fallback = (offer && offer.source_url) || (listing && listing.booking_url) || '#';
 
-    // Non-affiliate offers pass through directly.
-    if (!offer || !offer.affiliate_supported) return fallback;
+    if (!offer) return fallback;
 
     var provider = (offer.stay22_provider || 'roam').toLowerCase();
     if (SUPPORTED_PROVIDERS.indexOf(provider) === -1) return fallback;
@@ -206,23 +212,16 @@
   }
 
   // ── Disclosure rules ────────────────────────────────────────────
-  // Affiliate offers get "nofollow sponsored noopener"; direct offers get "nofollow noopener".
-  // Non-affiliate offers render an external-provider disclosure line.
-
   function offerRel(offer) {
-    return offer && offer.affiliate_supported
-      ? 'nofollow sponsored noopener'
-      : 'nofollow noopener';
+    return 'nofollow noopener';
   }
 
   function offerDisclosure(offer) {
-    if (!offer || offer.affiliate_supported) return '';
-    return '<small>External provider link; Trek Africa Guide does not process this booking.</small>';
+    return '<small>External provider link. Trek Africa Guide does not take payment on this page.</small>';
   }
 
   function offerTrustBadge(offer) {
-    if (!offer || !offer.affiliate_supported) return 'External provider link; Trek Africa Guide does not process this booking.';
-    return '';
+    return 'External provider link. Trek Africa Guide does not take payment on this page.';
   }
 
   // ── Internal detail URLs ────────────────────────────────────────
@@ -233,7 +232,6 @@
     countries: '/countries',
     attractions: '/attractions',
     accommodations: '/accommodations',
-    restaurants: '/restaurants',
   };
 
   function internalUrl(resourceName, slug) {
@@ -249,7 +247,7 @@
     var query = (context && context.q) || '';
     var suggestions = [];
     if (tables) {
-      var allTables = ['countries', 'districts', 'attractions', 'accommodations', 'restaurants', 'tour_operators'];
+      var allTables = ['countries', 'districts', 'attractions', 'accommodations', 'tour_operators'];
       allTables.forEach(function (name) {
         var rows = tables[name] || [];
         rows.forEach(function (row) {

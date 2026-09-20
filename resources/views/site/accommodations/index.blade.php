@@ -35,18 +35,18 @@
                     'image' => $stay->hero_image_url,
                     'title' => $stay->name,
                     'summary' => $stay->listing_summary,
-                    'eyebrow' => $stay->country->name . ' • ' . $stay->property_type,
+                    'eyebrow' => trim($stay->location_name.', '.$stay->country->name, ', '),
                     'rating' => $stay->rating,
                     'reviews' => $stay->review_count,
                     'price' => $stay->price_label,
-                    'chips' => [$stay->attraction?->name, $stay->property_type],
+                    'chips' => [$stay->region?->name, $stay->attraction?->name],
                     'facts' => [
                         'Best for' => str_contains(strtolower($stay->practical_info), 'sector') ? 'Permit-day logistics' : 'Route comfort',
                         'Meal plan' => str_contains(strtolower(implode(' ', $stay->amenities ?? [])), 'all-inclusive') ? 'Often bundled' : 'Verify basis',
                         'Nearby' => $stay->attraction?->name,
                         'Transfer' => str_contains(strtolower($stay->practical_info), 'road') ? 'Check road time' : 'Confirm access',
                     ],
-                    'cta' => 'View route fit',
+                    'cta' => 'View stay',
                 ])
             @endforeach
         </div>

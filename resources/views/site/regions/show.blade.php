@@ -6,6 +6,7 @@
         'west-africa' => 'sine-saloum-delta',
         'southern-africa' => 'namib-desert',
         'northern-africa' => 'marrakech-and-atlas',
+        'central-africa' => 'odzala-kokoua-national-park',
     ][$region->slug] ?? null;
     $localGallery = $regionDestination ? collect([asset('images/stock/destinations/'.$regionDestination.'.jpg')]) : collect();
     $galleryImages = $localGallery->isNotEmpty() ? $localGallery : collect($region->gallery ?? [])->filter()->values();
@@ -51,7 +52,7 @@
             <ul class="bullet-list">
                 <li>See which destination countries match your preferred pace, budget, season, and travel style.</li>
                 <li>Understand what each country is strongest for before you start comparing individual listings.</li>
-                <li>Move from broad inspiration into attractions, stays, restaurants, and booking paths that fit the route.</li>
+                <li>Move from broad inspiration into attractions, stays, and booking paths that fit the route.</li>
             </ul>
         </div>
     </div>
@@ -62,7 +63,7 @@
         <div class="section-heading">
             <p class="eyebrow">Destinations</p>
             <h2>Destination countries in {{ $region->name }}</h2>
-            <p>Each destination guide brings the essentials together: why go, how the route works, what to see, where to stay, and where to eat nearby.</p>
+            <p>Each destination guide brings the essentials together: why go, how the route works, what to see, where to stay, and what to verify before booking.</p>
         </div>
         <div class="listing-grid">
             @foreach($region->countries as $country)
@@ -102,18 +103,18 @@
                     'image' => $attraction->hero_image_url,
                     'title' => $attraction->name,
                     'summary' => $attraction->listing_summary,
-                    'eyebrow' => $attraction->country->name,
+                    'eyebrow' => trim($attraction->location_name.', '.$attraction->country->name, ', '),
                     'rating' => $attraction->rating,
                     'reviews' => $attraction->review_count,
                     'price' => $attraction->price_label,
-                    'chips' => [$attraction->location_name, 'Route anchor'],
+                    'chips' => [$attraction->region?->name, 'Route anchor'],
                     'facts' => [
                         'Time' => '1-3 days',
                         'Demand' => str_contains(strtolower($attraction->detail_intro), 'trek') ? 'Demanding' : 'Moderate',
                         'Season' => \Illuminate\Support\Str::limit(strip_tags($attraction->best_time), 42),
                         'Verify' => 'Rates and access',
                     ],
-                    'cta' => 'Plan visit',
+                    'cta' => 'View attraction detail',
                 ])
             @endforeach
         </div>

@@ -8,7 +8,6 @@ use App\Models\Country;
 use App\Models\District;
 use App\Models\PageSection;
 use App\Models\Region;
-use App\Models\Restaurant;
 use App\Models\SiteSetting;
 use Illuminate\Http\Request;
 class SiteController extends Controller
@@ -24,10 +23,9 @@ class SiteController extends Controller
         return view('site.home', $this->shared([
             'title' => 'Home',
             'sections' => $sections,
-            'featuredRegions' => Region::query()->withCount('countries')->orderBy('sort_order')->take(4)->get(),
+            'featuredRegions' => Region::query()->withCount('countries')->orderBy('sort_order')->get(),
             'featuredAttractions' => Attraction::query()->with(['country','region','heroMedia'])->where('featured', true)->orderBy('sort_order')->take(8)->get(),
             'featuredAccommodations' => Accommodation::query()->with(['country','region','heroMedia'])->where('featured', true)->orderBy('sort_order')->take(4)->get(),
-            'featuredRestaurants' => Restaurant::query()->with(['country','region','heroMedia'])->where('featured', true)->orderBy('sort_order')->take(4)->get(),
         ]));
     }
 
@@ -88,7 +86,6 @@ class SiteController extends Controller
             'title' => $country->name,
             'country' => $country,
             'accommodations' => Accommodation::query()->where('country_id', $country->id)->with(['country','region','attraction','heroMedia'])->publiclyVisible()->orderByDesc('featured')->orderBy('sort_order')->take(6)->get(),
-            'restaurants' => Restaurant::query()->where('country_id', $country->id)->with(['country','region','attraction','heroMedia'])->publiclyVisible()->orderByDesc('featured')->orderBy('sort_order')->take(6)->get(),
         ]));
     }
 
@@ -143,7 +140,6 @@ class SiteController extends Controller
             'heroMedia',
             'bookingOffers',
             'accommodations' => fn ($q) => $q->publiclyVisible()->with(['country', 'region', 'heroMedia'])->orderBy('sort_order')->take(6),
-            'restaurants' => fn ($q) => $q->publiclyVisible()->with(['country', 'region', 'heroMedia'])->orderBy('sort_order')->take(6),
         ]);
 
         $nearbyAttractions = Attraction::query()
@@ -246,68 +242,6 @@ class SiteController extends Controller
         ]));
     }
 
-    public function restaurants(Request $request)
-    {
-        $restaurants = Restaurant::query()
-            ->with(['country', 'region', 'attraction', 'heroMedia'])
-            ->when($request->string('region')->toString(), function ($query, $regionSlug) {
-                $query->whereHas('region', fn ($regionQuery) => $regionQuery->where('slug', $regionSlug));
-            })
-            ->when($request->string('country')->toString(), function ($query, $countrySlug) {
-                $query->whereHas('country', fn ($countryQuery) => $countryQuery->where('slug', $countrySlug));
-            })
-            ->when($request->string('q')->toString(), function ($query, $search) {
-                $query->where(function ($restaurantQuery) use ($search) {
-                    $restaurantQuery
-                        ->where('name', 'like', '%'.$search.'%')
-                        ->orWhere('listing_summary', 'like', '%'.$search.'%')
-                        ->orWhere('cuisine', 'like', '%'.$search.'%');
-                });
-            })
-            ->orderByDesc('featured')
-            ->orderBy('sort_order')
-            ->get();
-
-        return view('site.restaurants.index', $this->shared([
-            'title' => 'Restaurants',
-            'restaurants' => $restaurants,
-            'filters' => $request->only(['region', 'country', 'q']),
-        ]));
-    }
-
-    public function restaurant(Restaurant $restaurant)
-    {
-        abort_if($restaurant->status !== 'published' || ($restaurant->published_at && $restaurant->published_at > now()), 404);
-
-        $restaurant->load([
-            'country.region',
-            'attraction',
-            'heroMedia',
-            'bookingOffers',
-        ]);
-
-        $nearbyAccommodations = Accommodation::query()
-            ->where('country_id', $restaurant->country_id)
-            ->publiclyVisible()
-            ->inRandomOrder()
-            ->take(3)
-            ->get();
-
-        return view('site.restaurants.show', $this->shared([
-            'title' => $restaurant->name,
-            'metaDescription' => $restaurant->meta_description ?? $restaurant->listing_summary,
-            'seoMeta' => [
-                'canonical' => route('restaurants.show', $restaurant),
-                'og_title' => $restaurant->meta_title ?: $restaurant->name,
-                'og_description' => $restaurant->meta_description ?? $restaurant->listing_summary,
-                'meta_image' => $restaurant->meta_image_url ?: ($restaurant->heroMedia ? $restaurant->heroMedia->url : null),
-            ],
-            'restaurant' => $restaurant,
-            'nearbyAccommodations' => $nearbyAccommodations,
-            'searchContext' => [],
-        ]));
-    }
-
     public function contact()
     {
         return view('site.contact', $this->shared([
@@ -334,8 +268,8 @@ class SiteController extends Controller
                 ['label' => 'Home', 'route' => 'home'],
                 ['label' => 'Attractions', 'route' => 'attractions.index'],
                 ['label' => 'Accommodations', 'route' => 'accommodations.index'],
-                ['label' => 'Restaurants', 'route' => 'restaurants.index'],
                 ['label' => 'Destinations', 'route' => 'countries.index'],
+                ['label' => 'Regions', 'route' => 'regions.index'],
             ],
             'contact' => [
                 'email' => $settings['contact_email'] ?? 'hello@trekafricaguide.com',

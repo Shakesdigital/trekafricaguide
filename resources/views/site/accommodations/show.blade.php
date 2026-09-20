@@ -2,6 +2,7 @@
 
 @php($galleryImages = collect($accommodation->heroMedia ?? [])->map(fn ($m) => $m->url ?? $m->local_path)->filter()->values())
 @php($galleryImages = $galleryImages->isNotEmpty() ? $galleryImages : collect($accommodation->hero_image_url)->filter()->values())
+@php($primaryBookingUrl = app(\App\Services\Stay22LinkBuilder::class)->forProvider($accommodation, 'booking', $accommodation->booking_url, $searchContext ?? []))
 
 @section('content')
 <section class="detail-hero">
@@ -124,10 +125,10 @@
                 @if($accommodation->location_name)
                     <p class="booking-panel__where">@include('site.partials.icon', ['name' => 'pin']) {{ $accommodation->location_name }}</p>
                 @endif
-                <a href="{{ $accommodation->booking_url }}" class="button button--full" target="_blank" rel="noopener">Check stay availability</a>
+                <a href="{{ $primaryBookingUrl }}" class="button button--full" target="_blank" rel="nofollow noopener">Open booking options</a>
                 <ul class="booking-trust">
-                    <li>@include('site.partials.icon', ['name' => 'shield']) Listed on a verified partner booking page</li>
-                    <li>@include('site.partials.icon', ['name' => 'check']) Live availability and rates on the partner site</li>
+                    <li>@include('site.partials.icon', ['name' => 'shield']) Opens an external provider page</li>
+                    <li>@include('site.partials.icon', ['name' => 'check']) Live availability and rates are checked off-site</li>
                     <li>@include('site.partials.icon', ['name' => 'info']) No payment is taken on this page</li>
                 </ul>
             </div>
@@ -149,18 +150,18 @@
                     'image' => $attraction->hero_image_url,
                     'title' => $attraction->name,
                     'summary' => $attraction->listing_summary,
-                    'eyebrow' => $attraction->country->name,
+                    'eyebrow' => trim($attraction->location_name.', '.$attraction->country->name, ', '),
                     'rating' => $attraction->rating,
                     'reviews' => $attraction->review_count,
                     'price' => $attraction->price_label,
-                    'chips' => [$attraction->location_name, 'Route anchor'],
+                    'chips' => [$attraction->region?->name, 'Route anchor'],
                     'facts' => [
                         'Time' => '1-3 days',
                         'Demand' => str_contains(strtolower($attraction->detail_intro), 'trek') ? 'Demanding' : 'Moderate',
                         'Season' => \Illuminate\Support\Str::limit(strip_tags($attraction->best_time), 42),
                         'Verify' => 'Rates and access',
                     ],
-                    'cta' => 'Plan visit',
+                    'cta' => 'View attraction detail',
                 ])
             @endforeach
         </div>

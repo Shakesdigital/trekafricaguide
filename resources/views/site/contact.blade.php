@@ -17,13 +17,13 @@
         <div class="detail-main">
             <div class="detail-section">
                 <h2>Send a useful travel or listing note</h2>
-                <p>Trek Africa Guide is built for readers who want context before commitment: what a place offers, how it fits into a route, where to stay nearby, where to eat, and what to check before booking.</p>
-                <p>When contacting us, include the country, attraction, stay, restaurant, or page URL you mean, plus the update, correction, or partnership detail you want reviewed.</p>
+                <p>Trek Africa Guide is built for readers who want context before commitment: what a place offers, how it fits into a route, where to stay nearby, and what to check before booking.</p>
+                <p>When contacting us, include the country, attraction, stay, or page URL you mean, plus the update, correction, or partnership detail you want reviewed.</p>
             </div>
             <div class="detail-section">
                 <h3>Useful reasons to reach out</h3>
                 <ul class="bullet-list">
-                    <li>Suggest a more accurate accommodation, restaurant, or route note for an attraction area.</li>
+                    <li>Suggest a more accurate accommodation or route note for an attraction area.</li>
                     <li>Flag outdated access, seasonality, price-label, or practical information.</li>
                     <li>Discuss destination partnerships, operator listings, or external booking links.</li>
                 </ul>

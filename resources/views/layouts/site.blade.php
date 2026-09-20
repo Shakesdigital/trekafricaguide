@@ -39,24 +39,13 @@
             --brand-accent: {{ $branding['accent'] ?? '#c5b580' }};
         }
     </style>
-    <script>
-        (function (s, t, a, y, twenty, two) {
-            s.Stay22 = s.Stay22 || {};
-            s.Stay22.params = { lmaID: '6a809892f76b8b75f2a2e6a4' };
-            twenty = t.createElement(a);
-            two = t.getElementsByTagName(a)[0];
-            twenty.async = 1;
-            twenty.src = y;
-            two.parentNode.insertBefore(twenty, two);
-        })(window, document, 'script', 'https://scripts.stay22.com/letmeallez.js');
-    </script>
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 <body>
     <div class="site-topline">
         <div class="container site-topline__inner">
             <span>{{ $siteTagline ?? 'African travel guide and booking directory' }}</span>
-            <span>Compare where to go, where to stay, and where to eat before you book.</span>
+            <span>Discover attractions, destination guides, and stays before you book elsewhere.</span>
         </div>
     </div>
 
@@ -66,7 +55,7 @@
                 <img src="{{ $logoUrl }}" alt="Trek Africa Guide logo">
                 <span>
                     <strong>{{ $siteName ?? 'Trek Africa Guide' }}</strong>
-                    <small>Africa travel listings, stays, dining, and planning insight</small>
+                    <small>Africa attractions, stays, destinations, and planning insight</small>
                 </span>
             </a>
 
@@ -91,7 +80,7 @@
             <div>
                 <h3>{{ $siteName ?? 'Trek Africa Guide' }}</h3>
                 <p>{{ $siteTagline ?? 'African travel guide and booking directory' }}</p>
-                <p>Use each guide to understand the destination, compare nearby stays and restaurants, and follow through to trusted external booking pages when the fit feels right.</p>
+                <p>Use each guide to understand the destination, compare nearby stays, and continue to trusted external booking pages when the fit feels right.</p>
             </div>
             <div>
                 <h4>Explore</h4>
@@ -100,7 +89,6 @@
                     <li><a href="{{ route('countries.index') }}">Destinations</a></li>
                     <li><a href="{{ route('attractions.index') }}">Attractions</a></li>
                     <li><a href="{{ route('accommodations.index') }}">Accommodations</a></li>
-                    <li><a href="{{ route('restaurants.index') }}">Restaurants</a></li>
                     <li><a href="{{ route('contact') }}">Contact</a></li>
                 </ul>
             </div>
@@ -123,7 +111,7 @@
             </div>
         </div>
         <div class="container footer-note">
-            <p>Affiliate notice: booking buttons may redirect to external partner or provider pages. Always verify live availability, rates, inclusions, permits, and final booking terms before paying.</p>
+            <p>Trek Africa Guide is an independent planning guide. Booking links open external provider pages where you should verify live availability, rates, inclusions, permits, and final terms before paying.</p>
         </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>

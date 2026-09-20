@@ -8,18 +8,18 @@ class Stay22LinkBuilder
     private const SUPPORTED = ['booking','expedia','hotelscom','vrbo','agoda','tripadvisor','kayak','getyourguide','roam','searchbar'];
     public function forOffer(Model $listing, BookingOffer $offer, array $search = []): string
     {
-        if (! $offer->affiliate_supported) {
-            return $offer->source_url ?: ($listing->booking_url ?? '#');
-        }
-
         $provider = $offer->stay22_provider ?: 'roam';
-        if (! in_array(strtolower($provider), self::SUPPORTED, true)) {
-            return $offer->source_url ?: ($listing->booking_url ?? '#');
-        }
+        return $this->forProvider($listing, $provider, $offer->source_url ?: ($listing->booking_url ?? '#'), $search);
+    }
+
+    public function forProvider(Model $listing, string $provider, ?string $url = null, array $search = []): string
+    {
+        if (! in_array(strtolower($provider), self::SUPPORTED, true)) return $url ?: ($listing->booking_url ?? '#');
+
         $params = $this->baseParams($listing, $search);
         $params['campaign'] = strtolower(class_basename($listing)).'_'.($listing->slug ?? $listing->getKey());
-        if ($offer->source_url) {
-            $params['link'] = $offer->source_url;
+        if ($url) {
+            $params['link'] = $url;
             unset($params['address'], $params['hotelname']);
         }
         return 'https://www.stay22.com/allez/'.rawurlencode($provider).'?'.http_build_query($params);
