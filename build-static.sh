@@ -1,36 +1,30 @@
 #!/usr/bin/env bash
-set -e
+set -euo pipefail
 
-echo "══════════════════════════════════════════"
-echo "  Trek Africa Guide — Static Build"
-echo "══════════════════════════════════════════"
+echo "Trek Africa Guide static build"
 
-# ── 1. PHP dependencies ──────────────────────────────────────────────
-echo ""
-echo "📦 Installing Composer dependencies…"
+echo "Installing Composer dependencies..."
 composer install --no-dev --optimize-autoloader --no-interaction --prefer-dist
 
-# ── 2. Generate app key if missing ───────────────────────────────────
 if [ ! -f .env ]; then
-    echo "🔑 Creating .env from .env.netlify…"
+    echo "Creating .env from .env.netlify..."
     cp .env.netlify .env
-    php artisan key:generate --force
 fi
 
-# ── 3. Node dependencies & Vite build ────────────────────────────────
-echo ""
-echo "📦 Installing Node dependencies…"
+php artisan key:generate --force
+
+echo "Preparing SQLite content database..."
+mkdir -p database
+touch database/database.sqlite
+php artisan migrate:fresh --seed --force
+
+echo "Installing Node dependencies..."
 npm ci
 
-echo ""
-echo "⚡ Building frontend assets with Vite…"
+echo "Building frontend assets with Vite..."
 npx vite build
 
-# ── 4. Generate static HTML ──────────────────────────────────────────
-echo ""
-echo "🏗  Generating static HTML pages…"
+echo "Generating static HTML pages..."
 php artisan static:build
 
-echo ""
-echo "✅ Build complete! Output in /dist"
-echo "══════════════════════════════════════════"
+echo "Build complete. Output in /dist"
