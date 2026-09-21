@@ -1,0 +1,43 @@
+---
+import SiteLayout from '../../layouts/SiteLayout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import Gallery from '../../components/Gallery.astro';
+import ListingCard from '../../components/ListingCard.astro';
+import BookingOffers from '../../components/BookingOffers.astro';
+import { getSiteModel } from '../../lib/site-model.mjs';
+import { normalizeList } from '../../lib/images.mjs';
+
+export async function getStaticPaths() {
+  const model = await getSiteModel();
+  return model.attractions.map((attraction) => ({ params: { slug: attraction.slug }, props: { attraction } }));
+}
+
+const model = await getSiteModel();
+const { attraction } = Astro.props;
+---
+<SiteLayout model={model} title={attraction.name} description={attraction.listing_summary || attraction.detail_intro}>
+  <section class="detail-hero">
+    <div class="container">
+      <Breadcrumbs items={[{ label: attraction.region.name, href: `/regions/${attraction.region.slug}` }, { label: attraction.country.name, href: `/countries/${attraction.country.slug}` }, { label: attraction.name }]} />
+      <div class="listing-head">
+        <p class="eyebrow">{attraction.name} · {attraction.location_name}, {attraction.country.name}</p>
+        <h1>{attraction.name}</h1>
+        <p class="detail-hero__summary">{attraction.detail_intro || attraction.listing_summary}</p>
+      </div>
+      <Gallery images={normalizeList(attraction.gallery).length ? normalizeList(attraction.gallery) : [attraction.hero_image_url]} alt={attraction.name} />
+    </div>
+  </section>
+  <section class="section">
+    <div class="container detail-grid">
+      <div class="detail-main">
+        <div class="detail-section"><h2>What it is</h2><p>{attraction.full_description || attraction.listing_summary}</p></div>
+        <div class="detail-section"><h2>What draws people here</h2><ul class="check-list">{normalizeList(attraction.highlights).map((item) => <li>{item}</li>)}</ul></div>
+        <div class="detail-section"><h2>How to get there</h2><p>{attraction.getting_there}</p></div>
+        <div class="detail-section"><h2>Best time</h2><p>{attraction.best_time}</p></div>
+        <div class="detail-section"><h2>Planning notes</h2><p>{attraction.practical_info}</p></div>
+      </div>
+      <aside class="detail-rail"><BookingOffers listing={attraction} offers={attraction.bookingOffers} /></aside>
+    </div>
+  </section>
+  <section class="section section--alt"><div class="container"><h2>Nearby stays</h2><div class="listing-grid">{attraction.nearbyStays.map((item) => <ListingCard item={item} type="accommodation" />)}</div></div></section>
+</SiteLayout>

@@ -1,0 +1,23 @@
+---
+import { offerPresentation } from '../lib/booking.mjs';
+const { listing, offers = [], affiliateId = '6a809892f76b8b75f2a2e6a4' } = Astro.props;
+const views = offers.map((offer) => offerPresentation({ listing, offer, affiliateId })).filter(Boolean);
+---
+{views.length > 0 && (
+  <div class="booking-panel">
+    <p class="booking-panel__eyebrow">External booking options</p>
+    <h3>Continue on a provider site</h3>
+    <p>Trek Africa Guide does not take payment on this page. Check live availability, rates, permits, inclusions, and terms on the provider site.</p>
+    <div class="stack-grid">
+      {views.map((view) => (
+        <a class="button button--full" href={view.href} target={view.target} rel={view.rel}>
+          {view.label}
+        </a>
+      ))}
+    </div>
+    <ul class="booking-trust">
+      <li>{views[0].disclosure}</li>
+      <li>Provider terms, cancellation rules, and live rates can change.</li>
+    </ul>
+  </div>
+)}

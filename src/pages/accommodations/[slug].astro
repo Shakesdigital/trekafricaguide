@@ -1,0 +1,41 @@
+---
+import SiteLayout from '../../layouts/SiteLayout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import Gallery from '../../components/Gallery.astro';
+import ListingCard from '../../components/ListingCard.astro';
+import BookingOffers from '../../components/BookingOffers.astro';
+import { getSiteModel } from '../../lib/site-model.mjs';
+import { normalizeList } from '../../lib/images.mjs';
+
+export async function getStaticPaths() {
+  const model = await getSiteModel();
+  return model.accommodations.map((accommodation) => ({ params: { slug: accommodation.slug }, props: { accommodation } }));
+}
+
+const model = await getSiteModel();
+const { accommodation } = Astro.props;
+---
+<SiteLayout model={model} title={accommodation.name} description={accommodation.listing_summary || accommodation.detail_intro}>
+  <section class="detail-hero">
+    <div class="container">
+      <Breadcrumbs items={[{ label: accommodation.region.name, href: `/regions/${accommodation.region.slug}` }, { label: accommodation.country.name, href: `/countries/${accommodation.country.slug}` }, { label: accommodation.name }]} />
+      <div class="listing-head">
+        <p class="eyebrow">{accommodation.name} · {accommodation.location_name}, {accommodation.country.name}</p>
+        <h1>{accommodation.name}</h1>
+        <p class="detail-hero__summary">{accommodation.detail_intro || accommodation.listing_summary}</p>
+      </div>
+      <Gallery images={normalizeList(accommodation.gallery).length ? normalizeList(accommodation.gallery) : [accommodation.hero_image_url]} alt={accommodation.name} />
+    </div>
+  </section>
+  <section class="section">
+    <div class="container detail-grid">
+      <div class="detail-main">
+        <div class="detail-section"><h2>Why stay here</h2><p>{accommodation.listing_summary}</p><p>{accommodation.practical_info}</p></div>
+        <div class="detail-section"><h2>Key amenities</h2><ul class="amenity-grid">{normalizeList(accommodation.amenities).map((item) => <li class="amenity">{item}</li>)}</ul></div>
+        {accommodation.attraction && <div class="detail-section"><h2>Related attraction</h2><p><a href={`/attractions/${accommodation.attraction.slug}`}>{accommodation.attraction.name}</a></p><p>{accommodation.attraction.listing_summary}</p></div>}
+      </div>
+      <aside class="detail-rail"><BookingOffers listing={accommodation} offers={accommodation.bookingOffers} /></aside>
+    </div>
+  </section>
+  <section class="section section--alt"><div class="container"><h2>Nearby attractions</h2><div class="listing-grid">{accommodation.nearbyAttractions.map((item) => <ListingCard item={item} type="attraction" />)}</div></div></section>
+</SiteLayout>

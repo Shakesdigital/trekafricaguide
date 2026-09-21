@@ -1,0 +1,34 @@
+---
+import SiteLayout from '../../layouts/SiteLayout.astro';
+import PageHero from '../../components/PageHero.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import ListingCard from '../../components/ListingCard.astro';
+import { getSiteModel } from '../../lib/site-model.mjs';
+
+export async function getStaticPaths() {
+  const model = await getSiteModel();
+  return model.countries.map((country) => ({ params: { slug: country.slug }, props: { country } }));
+}
+
+const model = await getSiteModel();
+const { country } = Astro.props;
+const attractions = model.attractions.filter((item) => item.country_id === country.id);
+const stays = model.accommodations.filter((item) => item.country_id === country.id);
+---
+<SiteLayout model={model} title={country.name} description={country.hero_text || country.overview}>
+  <PageHero eyebrow="Destination guide" title={country.hero_title || country.name} text={country.hero_text || country.overview} image={country.hero_image_url} alt={country.hero_image_alt || country.name} />
+  <section class="detail-hero"><div class="container"><Breadcrumbs items={[{ label: country.region.name, href: `/regions/${country.region.slug}` }, { label: country.name }]} /></div></section>
+  <section class="section">
+    <div class="container detail-grid">
+      <div class="detail-main">
+        <div class="detail-section"><h2>Destination guide</h2><p>{country.overview}</p></div>
+        <div class="detail-section"><h2>Getting around</h2><p>{country.access_summary}</p></div>
+        <div class="detail-section"><h2>Best time</h2><p>{country.best_time}</p></div>
+        <div class="detail-section"><h2>Planning notes</h2><p>{country.planning_tips}</p></div>
+      </div>
+      <aside class="detail-rail"><div class="info-panel"><p class="eyebrow">Region</p><h3><a href={`/regions/${country.region.slug}`}>{country.region.name}</a></h3></div></aside>
+    </div>
+  </section>
+  <section class="section section--alt"><div class="container"><h2>Attractions in {country.name}</h2><div class="listing-grid">{attractions.map((item) => <ListingCard item={item} type="attraction" />)}</div></div></section>
+  <section class="section"><div class="container"><h2>Nearby stays</h2><div class="listing-grid">{stays.map((item) => <ListingCard item={item} type="accommodation" />)}</div></div></section>
+</SiteLayout>
