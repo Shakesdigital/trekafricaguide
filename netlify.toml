@@ -1,9 +1,9 @@
 [build]
   publish = "dist"
-  command = "bash build-static.sh"
+  command = "npx npm@latest ci && node scripts/write-public-config.mjs && npx astro build"
 
 [build.environment]
-  PHP_VERSION = "8.4"
+  NODE_VERSION = "22"
 
 # Headers for performance — cache hashed Vite assets aggressively
 [[headers]]
