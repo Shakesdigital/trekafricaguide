@@ -22,6 +22,10 @@ const EnvSchema = z.object({
   NETLIFY_SITE_ID: z
     .string()
     .optional(),
+  NETLIFY_DEPLOY_HOOK: z
+    .string()
+    .url('NETLIFY_DEPLOY_HOOK must be a valid URL')
+    .optional(),
 });
 
 /**
@@ -46,6 +50,7 @@ export function readBuildEnv(source = process.env) {
     SITE_URL: source.SITE_URL || 'https://trekafricaguide.com',
     STAY22_AFFILIATE_ID: source.STAY22_AFFILIATE_ID,
     NETLIFY_SITE_ID: source.NETLIFY_SITE_ID,
+    NETLIFY_DEPLOY_HOOK: source.NETLIFY_DEPLOY_HOOK,
   });
 
   if (!parsed.success) {
@@ -59,5 +64,6 @@ export function readBuildEnv(source = process.env) {
     stay22AffiliateId: parsed.data.STAY22_AFFILIATE_ID,
     siteUrl: parsed.data.SITE_URL,
     netlifySiteId: parsed.data.NETLIFY_SITE_ID,
+    netlifyDeployHook: parsed.data.NETLIFY_DEPLOY_HOOK || null,
   };
 }

@@ -15,12 +15,14 @@ test('generated browser config contains only public Supabase and Stay22 values',
       SUPABASE_PUBLISHABLE_KEY: 'sb_publishable_public',
       STAY22_AFFILIATE_ID: 'aid-public',
       SUPABASE_SERVICE_ROLE_KEY: 'secret-service-role',
+      NETLIFY_DEPLOY_HOOK: 'https://api.netlify.com/build_hooks/abc123',
     },
   });
   const js = await readFile(file, 'utf8');
   assert.match(js, /window\.TREK_SUPABASE/);
   assert.match(js, /publishableKey/);
   assert.match(js, /stay22AffiliateId/);
+  assert.match(js, /deployHook/);
   assert.doesNotMatch(js, /service|secret-service-role|SERVICE_ROLE/i);
   assert.doesNotMatch(js, /<\/script>/i);
   await rm(dir, { recursive: true, force: true });
@@ -33,5 +35,6 @@ test('missing browser config writes a disabled object with a clear message', asy
   const js = await readFile(file, 'utf8');
   assert.match(js, /"configured":\s*false/);
   assert.match(js, /Supabase public configuration is missing/);
+  assert.match(js, /"deployHook":\s*null/);
   await rm(dir, { recursive: true, force: true });
 });

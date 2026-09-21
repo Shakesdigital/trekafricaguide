@@ -9,12 +9,14 @@ export async function writePublicConfig({ outputPath = 'public/runtime-config.js
         url: env.SUPABASE_URL,
         publishableKey: env.SUPABASE_PUBLISHABLE_KEY,
         stay22AffiliateId: env.STAY22_AFFILIATE_ID || null,
+        deployHook: env.NETLIFY_DEPLOY_HOOK || null,
         configured: true,
       }
     : {
         url: null,
         publishableKey: null,
         stay22AffiliateId: env.STAY22_AFFILIATE_ID || null,
+        deployHook: env.NETLIFY_DEPLOY_HOOK || null,
         configured: false,
         message: 'Supabase public configuration is missing. Add SUPABASE_URL and SUPABASE_PUBLISHABLE_KEY in Netlify.',
       };

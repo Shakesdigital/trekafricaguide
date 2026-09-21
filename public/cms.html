@@ -1288,7 +1288,9 @@ function singularLabel(tab) {
 //  DATA LOADING
 // ═══════════════════════════════════════════════════════════════
 async function loadTab(tab) {
+  if (!tab) { toast('Cannot load tab: resource is null', 'error'); return; }
   const page = document.getElementById(`page-${tab}`);
+  if (!page) { toast(`Element not found: page-${tab}`, 'error'); return; }
   page.innerHTML = renderSectionShell(tab, `<tr class="loading-row"><td colspan="4"><span class="spinner" style="display:inline-block"></span> Loading…</td></tr>`);
 
   let query = sb.from(tab).select('*').order('id', { ascending: true });
@@ -1455,16 +1457,46 @@ function handleModalClick(e) {
   if (e.target === document.getElementById('modal')) closeModal();
 }
 
+// ═══════════════════════════════════════════════════════════════
+//  DEPLOY HOOK — trigger a Netlify rebuild after CMS changes
+// ═══════════════════════════════════════════════════════════════
+/**
+ * POST to the Netlify deploy hook URL (if configured in runtime-config.js)
+ * so that the statically-generated frontend picks up CMS changes.
+ * @param {string} resource - the table name that was modified (for the toast)
+ */
+function triggerNetlifyDeployHook(resource) {
+  const hookUrl = TREK_CONFIG && TREK_CONFIG.deployHook;
+  if (!hookUrl) {
+    toast('CMS changes saved. Add NETLIFY_DEPLOY_HOOK to trigger a frontend rebuild.', 'info', 6000);
+    return;
+  }
+  fetch(hookUrl, { method: 'POST', body: '' })
+    .then((res) => {
+      if (res.ok) {
+        toast('Frontend rebuild triggered — changes will appear shortly.', 'success', 8000);
+      } else {
+        toast(`Rebuild request failed (HTTP ${res.status}). Check the deploy hook URL.`, 'error', 8000);
+      }
+    })
+    .catch((err) => {
+      toast(`Rebuild trigger failed: ${err.message}`, 'error', 8000);
+    });
+}
+
 async function saveRecord() {
   const btn = document.getElementById('modal-save-btn');
-  btn.innerHTML = '<span class="spinner"></span> Saving…';
-  btn.disabled = true;
+  if (btn) btn.innerHTML = '<span class="spinner"></span> Saving…';
+  if (btn) btn.disabled = true;
+
+  // Capture the resource name before closeModal() nullifies modalResource
+  const savedResource = modalResource;
 
   try {
     const payload = await readForm(modalResource);
 
     // Hero / main image upload — only for resources that have a hero_image_url column.
-    const HERO_RESOURCES = ['regions', 'countries', 'attractions', 'accommodations', 'tour_operators'];
+    const HERO_RESOURCES = ['regions', 'countries', 'attractions', 'accommodations', 'restaurants', 'tour_operators'];
     if (HERO_RESOURCES.includes(modalResource)) {
       const heroFileInput = document.getElementById('field-hero_image_file');
       if (heroFileInput && heroFileInput.files.length > 0) {
@@ -1498,15 +1530,18 @@ async function saveRecord() {
 
     if (result.error) throw result.error;
 
+    // Trigger Netlify deploy hook so frontend reflects CMS changes
+    triggerNetlifyDeployHook(savedResource);
+
     toast(`${singularLabel(modalResource)} saved successfully! ✓`);
     closeModal();
-    await loadTab(modalResource);
+    await loadTab(savedResource);
     await loadStats();
   } catch(err) {
     toast(`Save failed: ${err.message}`, 'error');
   } finally {
-    btn.innerHTML = 'Save changes';
-    btn.disabled = false;
+    if (btn) btn.innerHTML = 'Save changes';
+    if (btn) btn.disabled = false;
   }
 }
 
@@ -2241,14 +2276,14 @@ function updateImagePreview(previewId, url) {
 // ═══════════════════════════════════════════════════════════════
 //  TOAST
 // ═══════════════════════════════════════════════════════════════
-function toast(msg, type='success') {
+function toast(msg, type='success', duration=3800) {
   const c = document.getElementById('toast-container');
-  const icon = type === 'error' ? '✗' : type === 'warning' ? '⚠' : '✓';
+  const icon = type === 'error' ? '✗' : type === 'warning' ? '⚠' : type === 'info' ? 'ℹ' : '✓';
   const t = document.createElement('div');
   t.className = `toast ${type}`;
   t.innerHTML = `<span>${icon}</span> ${msg}`;
   c.appendChild(t);
-  setTimeout(() => { t.style.animation='toast-out .3s ease forwards'; setTimeout(()=>t.remove(),300); }, 3800);
+  setTimeout(() => { t.style.animation='toast-out .3s ease forwards'; setTimeout(()=>t.remove(),300); }, duration);
 }
 
 // ═══════════════════════════════════════════════════════════════
