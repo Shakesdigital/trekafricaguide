@@ -39,8 +39,10 @@ const EnvSchema = z.object({
  */
 export function readBuildEnv(source = process.env) {
   const parsed = EnvSchema.safeParse({
-    SUPABASE_URL: source.SUPABASE_URL,
-    SUPABASE_PUBLISHABLE_KEY: source.SUPABASE_PUBLISHABLE_KEY,
+    SUPABASE_URL: source.SUPABASE_URL || source.NEXT_PUBLIC_SUPABASE_URL,
+    // backward compatibility: fallback to SUPABASE_ANON_KEY if
+    // SUPABASE_PUBLISHABLE_KEY is not set (legacy Netlify env naming)
+    SUPABASE_PUBLISHABLE_KEY: source.SUPABASE_PUBLISHABLE_KEY || source.SUPABASE_ANON_KEY,
     SITE_URL: source.SITE_URL || 'https://trekafricaguide.com',
     STAY22_AFFILIATE_ID: source.STAY22_AFFILIATE_ID,
     NETLIFY_SITE_ID: source.NETLIFY_SITE_ID,
