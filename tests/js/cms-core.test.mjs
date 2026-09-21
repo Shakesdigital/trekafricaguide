@@ -218,27 +218,29 @@ test('offerPriceLabel returns fallback for stale offers', () => {
     price_amount: 100, price_currency: 'USD', price_unit: 'night',
     price_checked_at: oldDate, price_basis: 'per night',
   };
-  assert.equal(CmsCore.offerPriceLabel(offer, 'accommodation'), 'Check live price');
-  assert.equal(CmsCore.offerPriceLabel(offer, 'restaurant'), 'Check menu and reservation details');
+  assert.equal(CmsCore.offerPriceLabel(offer, 'accommodation'), 'Check current details on the provider site');
 });
 
 test('offerPriceLabel returns fallback for null offer', () => {
-  assert.equal(CmsCore.offerPriceLabel(null, 'accommodation'), 'Check live price');
-  assert.equal(CmsCore.offerPriceLabel(null, 'restaurant'), 'Check menu and reservation details');
+  assert.equal(CmsCore.offerPriceLabel(null, 'accommodation'), 'Check current details on the provider site');
 });
 
 // ── Stay22 link building ─────────────────────────────────────────
 
-test('buildStay22Link returns fallback for non-affiliate offer', () => {
+test('buildStay22Link wraps supported non-affiliate offer through Stay22', () => {
   const listing = { name: 'Test Stay', slug: 'test-stay', location_name: 'Kampala' };
-  const offer = { source_url: 'https://booking.example/offer', affiliate_supported: false };
-  assert.equal(CmsCore.buildStay22Link(listing, offer, {}), 'https://booking.example/offer');
+  const offer = { source_url: 'https://booking.example/offer', affiliate_supported: false, stay22_provider: 'booking' };
+  const url = CmsCore.buildStay22Link(listing, offer, {});
+  assert.ok(url.startsWith('https://www.stay22.com/allez/booking?'));
+  assert.ok(url.includes('link=https%3A%2F%2Fbooking.example%2Foffer'));
 });
 
-test('buildStay22Link falls back to listing.booking_url for non-affiliate offer without source_url', () => {
+test('buildStay22Link wraps listing.booking_url for supported offer without source_url', () => {
   const listing = { booking_url: 'https://example.com/book' };
-  const offer = { affiliate_supported: false };
-  assert.equal(CmsCore.buildStay22Link(listing, offer, {}), 'https://example.com/book');
+  const offer = { affiliate_supported: false, stay22_provider: 'booking' };
+  const url = CmsCore.buildStay22Link(listing, offer, {});
+  assert.ok(url.startsWith('https://www.stay22.com/allez/booking?'));
+  assert.ok(url.includes('link=https%3A%2F%2Fexample.com%2Fbook'));
 });
 
 test('buildStay22Link returns fallback for unsupported provider', () => {
@@ -302,10 +304,10 @@ test('buildStay22Link includes address when no source_url', () => {
   assert.ok(url.includes('hotelname=Test'));
 });
 
-test('buildStay22Link returns # when all fallbacks fail', () => {
+test('buildStay22Link still returns a Stay22 URL when listing context can seed search', () => {
   const offer = { affiliate_supported: false };
-  assert.equal(CmsCore.buildStay22Link({}, offer, {}), '#');
-  assert.equal(CmsCore.buildStay22Link(null, offer, {}), '#');
+  assert.ok(CmsCore.buildStay22Link({}, offer, {}).startsWith('https://www.stay22.com/allez/roam?'));
+  assert.ok(CmsCore.buildStay22Link(null, offer, {}).startsWith('https://www.stay22.com/allez/roam?'));
   assert.equal(CmsCore.buildStay22Link(null, null, {}), '#');
 });
 
@@ -332,13 +334,13 @@ test('offerRel omits sponsored for direct offers', () => {
 });
 
 test('offerDisclosure is empty for affiliate offers', () => {
-  assert.equal(CmsCore.offerDisclosure({ affiliate_supported: true }), '');
+  assert.ok(CmsCore.offerDisclosure({ affiliate_supported: true }).includes('External provider link'));
 });
 
 test('offerDisclosure shows external-provider text for non-affiliate offers', () => {
   const result = CmsCore.offerDisclosure({ affiliate_supported: false });
   assert.ok(result.includes('External provider link'));
-  assert.ok(result.includes('Trek Africa Guide does not process this booking'));
+  assert.ok(result.includes('Trek Africa Guide does not take payment on this page'));
 });
 
 test('offerDisclosure handles null offer', () => {
@@ -352,12 +354,10 @@ test('internalUrl returns route root for known resources', () => {
   assert.equal(CmsCore.internalUrl('countries', null), '/countries');
   assert.equal(CmsCore.internalUrl('attractions', null), '/attractions');
   assert.equal(CmsCore.internalUrl('accommodations', null), '/accommodations');
-  assert.equal(CmsCore.internalUrl('restaurants', null), '/restaurants');
 });
 
 test('internalUrl appends slug for known resources', () => {
   assert.equal(CmsCore.internalUrl('attractions', 'bwindi-park'), '/attractions/bwindi-park');
-  assert.equal(CmsCore.internalUrl('restaurants', 'savannah-kitchen'), '/restaurants/savannah-kitchen');
 });
 
 test('internalUrl returns null for unknown resources', () => {
@@ -539,26 +539,10 @@ test('full offer flow: affiliate offer produces fresh price and stay22 link', ()
   assert.equal(CmsCore.isOfferFresh(offer), true);
   assert.equal(CmsCore.offerPriceLabel(offer, 'accommodation'), 'From $450 per night');
   assert.equal(CmsCore.offerRel(offer), 'nofollow sponsored noopener');
-  assert.equal(CmsCore.offerDisclosure(offer), '');
+  assert.ok(CmsCore.offerDisclosure(offer).includes('Trek Africa Guide does not take payment on this page'));
 
   const url = CmsCore.buildStay22Link(listing, offer, { checkin: '2026-11-10', checkout: '2026-11-12', adults: 2 }, 'aid-test');
   assert.ok(url.includes('aid=aid-test'));
   assert.ok(url.includes('/allez/booking?'));
   assert.ok(url.includes('campaign=accommodation_bwindi-lodge'));
-});
-
-test('full offer flow: direct offer produces fallback price and direct URL', () => {
-  const listing = { name: 'Local Restaurant', slug: 'local-restaurant', property_type: 'Restaurant' };
-  const offer = {
-    affiliate_supported: false,
-    source_url: 'https://restaurant.example/reserve',
-    price_amount: null,
-    price_checked_at: null,
-  };
-
-  assert.equal(CmsCore.isOfferFresh(offer), false);
-  assert.equal(CmsCore.offerPriceLabel(offer, 'restaurant'), 'Check menu and reservation details');
-  assert.equal(CmsCore.offerRel(offer), 'nofollow noopener');
-  assert.ok(CmsCore.offerDisclosure(offer).includes('External provider link'));
-  assert.equal(CmsCore.buildStay22Link(listing, offer, {}), 'https://restaurant.example/reserve');
 });

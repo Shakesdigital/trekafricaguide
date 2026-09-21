@@ -175,8 +175,8 @@
     };
     if (listing && listing.location_name) params.address = listing.location_name;
 
-    if (offer.source_url) {
-      params.link = offer.source_url;
+    if (fallback && fallback !== '#') {
+      params.link = fallback;
       delete params.address;
       delete params.hotelname;
     }
@@ -213,10 +213,11 @@
 
   // ── Disclosure rules ────────────────────────────────────────────
   function offerRel(offer) {
-    return 'nofollow noopener';
+    return offer && offer.affiliate_supported ? 'nofollow sponsored noopener' : 'nofollow noopener';
   }
 
   function offerDisclosure(offer) {
+    if (!offer) return '';
     return '<small>External provider link. Trek Africa Guide does not take payment on this page.</small>';
   }
 
