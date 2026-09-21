@@ -2,9 +2,6 @@
   publish = "dist"
   command = "bash build-static.sh"
 
-[build.environment]
-  PHP_VERSION = "8.4"
-
 # Headers for performance — cache hashed Vite assets aggressively
 [[headers]]
   for = "/build/*"
