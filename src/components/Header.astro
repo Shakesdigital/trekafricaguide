@@ -1,0 +1,33 @@
+---
+const { brand, activePath = '/' } = Astro.props;
+const navItems = [
+  ['Regions', '/regions'],
+  ['Destinations', '/countries'],
+  ['Attractions', '/attractions'],
+  ['Accommodations', '/accommodations'],
+  ['Contact', '/contact'],
+];
+---
+<div class="site-topline">
+  <div class="container site-topline__inner">
+    <span>{brand.tagline}</span>
+    <span>Discover attractions, destination guides, and stays before you book elsewhere.</span>
+  </div>
+</div>
+<header class="site-header">
+  <div class="container site-header__inner">
+    <a href="/" class="brand">
+      <img src={brand.logo} alt="Trek Africa Guide logo" />
+      <span>
+        <strong>{brand.name}</strong>
+        <small>Africa attractions, stays, destinations, and planning insight</small>
+      </span>
+    </a>
+    <button class="menu-toggle" type="button" data-nav-toggle aria-label="Toggle navigation" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="site-nav" data-nav-menu>
+      {navItems.map(([label, href]) => <a href={href} class={activePath === href ? 'is-active' : ''}>{label}</a>)}
+    </nav>
+  </div>
+</header>

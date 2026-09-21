@@ -1,0 +1,58 @@
+---
+import '../styles/app.css';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import siteScript from '../scripts/site.js?url';
+import { DEFAULT_BRAND, SITE_URL } from '../config/site.mjs';
+import { getSiteModel } from '../lib/site-model.mjs';
+
+const model = Astro.props.model || await getSiteModel();
+const settings = model.settings || {};
+const brand = {
+  name: settings['general.site_name'] || DEFAULT_BRAND.name,
+  tagline: settings['general.site_tagline'] || DEFAULT_BRAND.tagline,
+  primary: settings['branding.primary_color'] || DEFAULT_BRAND.primary,
+  secondary: settings['branding.secondary_color'] || DEFAULT_BRAND.secondary,
+  accent: settings['branding.accent_color'] || DEFAULT_BRAND.accent,
+  logo: settings['branding.logo_path'] || DEFAULT_BRAND.logo,
+};
+const contact = {
+  email: settings['contact.contact_email'],
+  phone: settings['contact.contact_phone'],
+  address: settings['contact.contact_address'],
+};
+const title = Astro.props.title ? `${Astro.props.title} | ${brand.name}` : brand.name;
+const description = Astro.props.description || settings['seo.default_meta_description'] || DEFAULT_BRAND.tagline;
+const canonical = Astro.props.canonical || new URL(Astro.url.pathname, SITE_URL).toString();
+const image = Astro.props.image || settings['seo.default_og_image'];
+---
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    {image && <meta property="og:image" content={image} />}
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta name="twitter:card" content="summary" />
+    <link rel="icon" type="image/png" href={brand.logo} />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet" />
+    <style is:inline set:html={`:root { --brand-primary: ${brand.primary}; --brand-secondary: ${brand.secondary}; --brand-accent: ${brand.accent}; }`}></style>
+    <script is:inline define:vars={{ suggestions: JSON.stringify(model.searchSuggestions || []) }}>
+      window.trekSearchSuggestions = JSON.parse(suggestions);
+    </script>
+  </head>
+  <body>
+    <Header brand={brand} activePath={Astro.url.pathname} />
+    <main>
+      <slot />
+    </main>
+    <Footer brand={brand} regions={model.regions} contact={contact} />
+    <script type="module" src={siteScript}></script>
+  </body>
+</html>

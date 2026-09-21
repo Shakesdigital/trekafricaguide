@@ -1,0 +1,13 @@
+---
+import { resolveImage } from '../lib/images.mjs';
+const { src, alt = '', class: className = 'image-slot' } = Astro.props;
+const resolved = resolveImage(src);
+---
+{resolved ? (
+  <img class={className} src={resolved} alt={alt} loading="lazy" />
+) : (
+  <div class={className} role="img" aria-label={alt || 'Travel image'}>
+    <span>Trek Africa Guide</span>
+    <strong>{alt || 'Africa travel planning'}</strong>
+  </div>
+)}

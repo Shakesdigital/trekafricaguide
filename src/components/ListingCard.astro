@@ -1,0 +1,25 @@
+---
+import ImageSlot from './ImageSlot.astro';
+const { item, type = 'attraction' } = Astro.props;
+const isStay = type === 'accommodation';
+const href = item.internalUrl || `/${isStay ? 'accommodations' : 'attractions'}/${item.slug}`;
+const cta = isStay ? 'View stay' : 'View attraction detail';
+const location = [item.location_name, item.country?.name].filter(Boolean).join(', ');
+---
+<article class="listing-card" data-card-type={type}>
+  <a class="listing-card__image" href={href} aria-label={cta}>
+    <ImageSlot class="listing-card__slot" src={item.hero_image_url || item.image_slot} alt={item.hero_image_alt || item.name} />
+  </a>
+  <div class="listing-card__body">
+    <p class="listing-card__eyebrow">{item.name}{location ? ` · ${location}` : ''}</p>
+    <h3><a href={href}>{item.name}</a></h3>
+    <p>{item.listing_summary || item.detail_intro || item.overview}</p>
+    <div class="listing-card__meta">
+      <span>{item.region?.name || item.country?.region?.name || ''}</span>
+      {item.rating && <span>{item.rating} rating</span>}
+    </div>
+    <div class="listing-card__footer">
+      <a class="button" href={href}>{cta}</a>
+    </div>
+  </div>
+</article>

@@ -2,6 +2,9 @@
 // Builds a deterministic, immutable site model from raw Supabase tables.
 
 import { resolveImage, pickHero, pickGallery, normalizeList, resolveHeroMedia } from './images.mjs';
+import { loadContent } from './content-repository.mjs';
+import { createPublicClient } from './supabase.mjs';
+import { readBuildEnv } from './env.mjs';
 
 let cachedModelPromise = null;
 
@@ -272,7 +275,20 @@ export function buildSiteModel(tables, now = new Date()) {
  */
 export function getSiteModel() {
   if (!cachedModelPromise) {
-    throw new Error('Site model not initialized. Call setSiteModel() first.');
+    cachedModelPromise = (async () => {
+      const fixturePath = process.env.CONTENT_FIXTURE_PATH;
+      const env = fixturePath && process.env.NODE_ENV === 'test'
+        ? {
+            supabaseUrl: 'https://example.supabase.co',
+            supabasePublishableKey: 'sb_publishable_test_key',
+            stay22AffiliateId: 'aid-test',
+            siteUrl: 'https://trekafricaguide.com',
+          }
+        : readBuildEnv();
+      const client = fixturePath && process.env.NODE_ENV === 'test' ? null : createPublicClient(env);
+      const tables = await loadContent({ env, client, fixturePath });
+      return buildSiteModel(tables);
+    })();
   }
   return cachedModelPromise;
 }

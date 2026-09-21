@@ -1,0 +1,36 @@
+---
+import SiteLayout from '../layouts/SiteLayout.astro';
+import ImageSlot from '../components/ImageSlot.astro';
+import { getSiteModel } from '../lib/site-model.mjs';
+
+const model = await getSiteModel();
+const settings = model.settings || {};
+---
+<SiteLayout model={model} title="Contact" description={settings['contact.contact_note'] || 'Contact Trek Africa Guide.'}>
+  <section class="page-hero">
+    <ImageSlot class="page-hero__slot" src="image-slot:contact-hero" alt="Africa travel planning contact" />
+    <div class="page-hero__overlay"></div>
+    <div class="container page-hero__content">
+      <p class="eyebrow">Contact</p>
+      <h1>Contact Trek Africa Guide.</h1>
+      <p>Send destination updates, partnership enquiries, or practical traveler feedback.</p>
+    </div>
+  </section>
+  <section class="section">
+    <div class="container two-column">
+      <div class="info-panel">
+        <p class="eyebrow">Planning guide</p>
+        <h2>Use the site to compare attractions, destinations, and stays.</h2>
+        <p>{settings['contact.contact_note'] || 'Trek Africa Guide helps travelers understand where to go, what each attraction is best for, and which stays fit the route.'}</p>
+      </div>
+      <div class="info-panel">
+        <h2>Contact details</h2>
+        <ul class="bullet-list">
+          <li><a href={`mailto:${settings['contact.contact_email'] || 'hello@trekafricaguide.com'}`}>{settings['contact.contact_email'] || 'hello@trekafricaguide.com'}</a></li>
+          <li>{settings['contact.contact_phone'] || '+256 700 000 000'}</li>
+          <li>{settings['contact.contact_address'] || 'Kampala, Uganda'}</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+</SiteLayout>

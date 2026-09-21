@@ -1,0 +1,26 @@
+---
+const { mode = 'accommodations' } = Astro.props;
+---
+<form class="search-ribbon" data-search-ribbon action={mode === 'accommodations' ? '/accommodations' : '/attractions'}>
+  <div class="search-ribbon__modes" role="group" aria-label="Search mode">
+    <button type="button" data-search-mode="accommodations" class={mode === 'accommodations' ? 'is-active' : ''}>Stays</button>
+    <button type="button" data-search-mode="attractions" class={mode === 'attractions' ? 'is-active' : ''}>Attractions</button>
+  </div>
+  <label class="search-ribbon__query">
+    Search
+    <input data-search-input name="q" type="search" autocomplete="off" aria-expanded="false" />
+    <ul data-search-listbox role="listbox" hidden></ul>
+  </label>
+  <div data-stay-fields class="search-ribbon__stay-fields">
+    <label>Check-in<input type="date" name="checkin" /></label>
+    <label>Check-out<input type="date" name="checkout" /></label>
+    <label>Adults<input type="number" name="adults" min="1" value="2" /></label>
+    <label>Children<input type="number" name="children" min="0" value="0" /></label>
+    <label>Region<input name="region" /></label>
+  </div>
+  <div data-attraction-fields class="search-ribbon__attraction-fields" hidden>
+    <label>Country<input name="country" /></label>
+    <label>Interest<input name="interest" /></label>
+  </div>
+  <button class="button" type="submit">Search</button>
+</form>

@@ -1,0 +1,8 @@
+---
+import ImageSlot from './ImageSlot.astro';
+const { images = [], alt = 'Travel gallery' } = Astro.props;
+const gallery = images.length ? images : [null];
+---
+<div class={`gallery-grid ${gallery.length === 1 ? 'gallery-grid--single' : ''}`} data-gallery>
+  {gallery.map((src, index) => <ImageSlot class="gallery-grid__slot" src={src} alt={`${alt} ${index + 1}`} />)}
+</div>

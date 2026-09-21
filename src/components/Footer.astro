@@ -1,0 +1,40 @@
+---
+const { brand, regions = [], contact = {} } = Astro.props;
+---
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <h3>{brand.name}</h3>
+      <p>{brand.tagline}</p>
+      <p>Use each guide to understand the destination, compare nearby stays, and continue to trusted external booking pages when the fit feels right.</p>
+    </div>
+    <div>
+      <h4>Explore</h4>
+      <ul>
+        <li><a href="/regions">Regions</a></li>
+        <li><a href="/countries">Destinations</a></li>
+        <li><a href="/attractions">Attractions</a></li>
+        <li><a href="/accommodations">Accommodations</a></li>
+        <li><a href="/contact">Contact</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Planning Focus</h4>
+      <ul>
+        {regions.map((region) => <li><a href={`/regions/${region.slug}`}>{region.name}</a></li>)}
+      </ul>
+    </div>
+    <div>
+      <h4>Contact</h4>
+      <ul>
+        <li><a href={`mailto:${contact.email || 'hello@trekafricaguide.com'}`}>{contact.email || 'hello@trekafricaguide.com'}</a></li>
+        <li>{contact.phone || '+256 700 000 000'}</li>
+        <li>{contact.address || 'Kampala, Uganda'}</li>
+        <li><a href="/contact">Contact page</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="container footer-note">
+    <p>Trek Africa Guide is an independent planning guide. Booking links open external provider pages where you should verify live availability, rates, inclusions, permits, and final terms before paying.</p>
+  </div>
+</footer>

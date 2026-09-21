@@ -1,0 +1,10 @@
+---
+const { name = 'circle', class: className = 'icon' } = Astro.props;
+const paths = {
+  star: '<polygon points="12 2 15 9 22 9 17 14 19 22 12 18 5 22 7 14 2 9 9 9 12 2"></polygon>',
+  pin: '<path d="M12 21s7-5.1 7-11a7 7 0 1 0-14 0c0 5.9 7 11 7 11z"></path><circle cx="12" cy="10" r="2.5"></circle>',
+  check: '<path d="m5 12 4 4L19 6"></path>',
+  circle: '<circle cx="12" cy="12" r="9"></circle>',
+};
+---
+<svg class={className} viewBox="0 0 24 24" aria-hidden="true" set:html={paths[name] || paths.circle}></svg>
