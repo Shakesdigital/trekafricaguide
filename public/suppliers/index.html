@@ -27,7 +27,7 @@
         <div class="wrap hero-grid">
             <div>
                 <h1>Add your Africa travel service</h1>
-                <p class="lead">Tours, safaris, lodges, restaurants, transfers, workshops, cultural hosts, and local experiences can join Trek Africa Guide with a transparent commission-only model.</p>
+                <p class="lead">Tours, safaris, lodges, transfers, workshops, cultural hosts, and local experiences can join Trek Africa Guide with a transparent commission-only model.</p>
                 <a class="btn clay" href="#supplierAccess">Start onboarding</a>
             </div>
             <div class="panel">
@@ -71,7 +71,7 @@
                         <div class="form-grid">
                             <label>Business name<input name="business_name" required></label>
                             <label>Supplier type<select name="provider_kind"><option value="company">Company</option><option value="individual">Individual guide / host</option></select></label>
-                            <label>Service focus<select name="provider_type"><option value="tour_operator">Tour operator</option><option value="guide">Guide</option><option value="lodge">Lodge / accommodation</option><option value="restaurant">Restaurant</option><option value="activity_provider">Activity provider</option></select></label>
+                            <label>Service focus<select name="provider_type"><option value="tour_operator">Tour operator</option><option value="guide">Guide</option><option value="lodge">Lodge / accommodation</option><option value="activity_provider">Activity provider</option></select></label>
                             <label>Contact name<input name="contact_name" required></label>
                             <label>Phone<input name="phone"></label>
                             <label>Website<input name="website_url" type="url"></label>
@@ -128,8 +128,8 @@
                             <form id="productForm">
                                 <div class="form-grid">
                                     <label>Title<input name="title" required></label>
-                                    <label>Service type<select name="service_type"><option value="tour">Tour / safari</option><option value="activity">Activity</option><option value="accommodation">Accommodation</option><option value="restaurant">Restaurant</option><option value="experience">Local experience</option><option value="transfer">Transfer</option><option value="workshop">Workshop</option></select></label>
-                                    <label>Category<select name="category"><option>Safari</option><option>Wildlife</option><option>Cultural</option><option>Hiking</option><option>Beach</option><option>Adventure</option><option>Food</option><option>Workshop</option><option>Transfer</option><option>Accommodation</option><option>Restaurant</option></select></label>
+                                    <label>Service type<select name="service_type"><option value="tour">Tour / safari</option><option value="activity">Activity</option><option value="accommodation">Accommodation</option><option value="experience">Local experience</option><option value="transfer">Transfer</option><option value="workshop">Workshop</option></select></label>
+                                    <label>Category<select name="category"><option>Safari</option><option>Wildlife</option><option>Cultural</option><option>Hiking</option><option>Beach</option><option>Adventure</option><option>Food</option><option>Workshop</option><option>Transfer</option><option>Accommodation</option></select></label>
                                     <label>Status<select name="status"><option value="draft">Draft</option><option value="pending_review">Submit for review</option><option value="published">Publish if approved</option><option value="paused">Paused</option></select></label>
                                     <label>Booking mode<select name="booking_mode"><option value="direct">Direct booking</option><option value="affiliate">Affiliate / external booking</option></select></label>
                                     <label>Affiliate URL<input name="affiliate_url" type="url"></label>
@@ -168,7 +168,8 @@
 
     <footer class="footer"><div class="wrap">Trek Africa Guide supplier platform. Commission-only, transparent, Africa-ready.</div></footer>
     <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
-    <script src="/suppliers/supabase-config.js"></script>
+    <script src="/runtime-config.js"></script>
     <script src="/suppliers/app.js"></script>
 </body>
 </html>
+

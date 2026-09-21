@@ -4,10 +4,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Trek Africa Guide — CMS</title>
-  <meta name="description" content="Content management system for TrekAfricaGuide. Manage regions, destinations, attractions, accommodations, restaurants, tour operators, homepage sections and site settings.">
+  <meta name="description" content="Content management system for TrekAfricaGuide. Manage regions, destinations, attractions, accommodations, tour operators, homepage sections and site settings.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <script src="/runtime-config.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
   <style>
     /* ── Design tokens ─────────────────────────────────────── */
@@ -984,10 +985,6 @@
         <span class="nav-icon">🛏️</span> Accommodations
         <span class="nav-badge" id="badge-accommodations">–</span>
       </button>
-      <button class="nav-item" data-tab="restaurants" onclick="switchTab('restaurants')">
-        <span class="nav-icon">🍽️</span> Restaurants
-        <span class="nav-badge" id="badge-restaurants">–</span>
-      </button>
       <button class="nav-item" data-tab="tour_operators" onclick="switchTab('tour_operators')">
         <span class="nav-icon">🧭</span> Tour Operators
         <span class="nav-badge" id="badge-tour_operators">–</span>
@@ -1038,7 +1035,7 @@
           <div class="info-card">
             <h3>CMS guide</h3>
             <ul class="bullet-list">
-              <li><strong>Listing Card</strong> — controls thumbnail cards in attraction, stay, and restaurant listings.</li>
+              <li><strong>Listing Card</strong> — controls thumbnail cards in attraction and stay listings.</li>
               <li><strong>Hero Image</strong> — the large public image on the detail page and listing card.</li>
               <li><strong>Detail Content</strong> — descriptive sections shown after clicking "View Details".</li>
               <li><strong>Booking Panel</strong> — the right-side call to action with price and partner link.</li>
@@ -1062,7 +1059,6 @@
       <div class="page" id="page-countries"></div>
       <div class="page" id="page-attractions"></div>
       <div class="page" id="page-accommodations"></div>
-      <div class="page" id="page-restaurants"></div>
       <div class="page" id="page-tour_operators"></div>
       <div class="page" id="page-page_sections"></div>
       <div class="page" id="page-site_settings"></div>
@@ -1099,12 +1095,11 @@
 
 <script>
 // ═══════════════════════════════════════════════════════════════
-//  CONFIG — hardcoded Supabase credentials
-// ═══════════════════════════════════════════════════════════════
-const SUPABASE_URL = 'https://rftoaaehhenhnziukgpl.supabase.co';
-const SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJmdG9hYWVoaGVuaG56aXVrZ3BsIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODc5NjQ3MDksImV4cCI6MjEwMzU0MDcwOX0.zWBIr5uuWuuFaCYZVl-MALTWP91-hVhazhAb0zbdz1Q';
-const SUPABASE_PUBLISHABLE_KEY = 'sb_publishable_-ko7Wx7f8A4uK8-qx3X0Xw_DTyOzPi_';
-const sb = supabase.createClient(SUPABASE_URL, SUPABASE_PUBLISHABLE_KEY);
+// CONFIG - generated public runtime configuration
+const TREK_CONFIG = window.TREK_SUPABASE || {};
+const sb = TREK_CONFIG.configured && TREK_CONFIG.url && TREK_CONFIG.publishableKey
+  ? supabase.createClient(TREK_CONFIG.url, TREK_CONFIG.publishableKey)
+  : null;
 
 // ═══════════════════════════════════════════════════════════════
 //  STATE
@@ -1212,9 +1207,9 @@ async function loadReferenceData() {
 }
 
 async function loadStats() {
-  const tables = ['regions','countries','attractions','accommodations','restaurants','tour_operators','page_sections','site_settings'];
-  const icons  = ['🗺️','🏳️','🏔️','🛏️','🍽️','🧭','🏠','⚙️'];
-  const labels = ['Regions','Countries','Attractions','Stays','Restaurants','Tour Ops','Sections','Settings'];
+  const tables = ['regions','countries','attractions','accommodations','tour_operators','page_sections','site_settings'];
+  const icons  = ['Map','Country','Attraction','Stay','Guide','Home','Settings'];
+  const labels = ['Regions','Countries','Attractions','Stays','Tour Ops','Sections','Settings'];
 
   const counts = await Promise.all(
     tables.map(t => sb.from(t).select('*', { count: 'exact', head: true }))
@@ -1246,7 +1241,6 @@ const TAB_CONFIG = {
   countries:      { label: 'Destinations',   table: 'countries' },
   attractions:    { label: 'Attractions',    table: 'attractions' },
   accommodations: { label: 'Accommodations', table: 'accommodations' },
-  restaurants:    { label: 'Restaurants',    table: 'restaurants' },
   tour_operators: { label: 'Tour Operators', table: 'tour_operators' },
   page_sections:  { label: 'Homepage Sections', table: 'page_sections' },
   site_settings:  { label: 'Settings',       table: 'site_settings' },
@@ -1283,7 +1277,7 @@ function switchTab(tab) {
 function singularLabel(tab) {
   const map = {
     regions: 'Region', countries: 'Country', attractions: 'Attraction',
-    accommodations: 'Accommodation', restaurants: 'Restaurant',
+    accommodations: 'Accommodation', 
     tour_operators: 'Tour Operator', page_sections: 'Section',
     site_settings: 'Setting',
   };
@@ -1320,7 +1314,6 @@ function renderSectionShell(tab, bodyContent) {
     countries: 'Mirrors destination country pages, including the hero and planning sections.',
     attractions: 'Mirrors attraction listing cards and detail pages on the front end.',
     accommodations: 'Mirrors accommodation listing cards and stay detail pages.',
-    restaurants: 'Mirrors restaurant listing cards and dining detail pages.',
     tour_operators: 'Mirrors operator cards displayed inside attraction pages.',
     page_sections: 'Mirrors homepage section blocks, headings, body copy, and supporting visuals.',
     site_settings: 'Global configuration values and the site logo.',
@@ -1398,7 +1391,7 @@ function getContext(tab, row) {
     const c = allCountries.find(x => x.id === row.country_id);
     return c ? `<span class="badge">${esc(c.name)}</span>` : '—';
   }
-  if (['accommodations','restaurants','tour_operators'].includes(tab)) {
+  if (['accommodations','tour_operators'].includes(tab)) {
     const c = allCountries.find(x => x.id === row.country_id);
     return c ? `<span class="badge">${esc(c.name)}</span>` : '—';
   }
@@ -1471,7 +1464,7 @@ async function saveRecord() {
     const payload = await readForm(modalResource);
 
     // Hero / main image upload — only for resources that have a hero_image_url column.
-    const HERO_RESOURCES = ['regions', 'countries', 'attractions', 'accommodations', 'restaurants', 'tour_operators'];
+    const HERO_RESOURCES = ['regions', 'countries', 'attractions', 'accommodations', 'tour_operators'];
     if (HERO_RESOURCES.includes(modalResource)) {
       const heroFileInput = document.getElementById('field-hero_image_file');
       if (heroFileInput && heroFileInput.files.length > 0) {
@@ -1521,7 +1514,7 @@ function storagePrefixFor(resource, slug) {
   if (resource === 'branding') return `logos/${slugify(slug || 'asset')}`;
   const prefixes = {
     regions: 'regions', countries: 'countries', attractions: 'attractions',
-    accommodations: 'accommodations', restaurants: 'restaurants',
+    accommodations: 'accommodations',
     tour_operators: 'tour_operators', page_sections: 'page_sections',
   };
   const prefix = prefixes[resource] || 'page_sections';
@@ -1553,7 +1546,6 @@ function buildForm(tab, rec) {
     case 'countries':      return formCountries(v);
     case 'attractions':    return formAttractions(v);
     case 'accommodations': return formAccommodations(v);
-    case 'restaurants':    return formRestaurants(v);
     case 'tour_operators': return formTourOperators(v);
     case 'page_sections':  return formPageSections(v);
     case 'site_settings':  return formSiteSettings(v);
@@ -1737,59 +1729,6 @@ function formAccommodations(v) {
   `)}`;
 }
 
-// ── Restaurants ────────────────────────────────────────────────
-function formRestaurants(v) {
-  return `
-  ${section('Page Identity', 'Used across the restaurant listing card, detail page, and planning sections.',`
-    <div class="form-grid">
-      ${selectField('Region','region_id',allRegions.map(r=>({value:r.id,label:r.name})),v.region_id,true)}
-      ${selectField('Country / Destination','country_id',allCountries.map(c=>({value:c.id,label:c.name})),v.country_id,true)}
-      ${selectField('Linked attraction (optional)','attraction_id',[{value:'',label:'No linked attraction'},...allAttractions.map(a=>({value:a.id,label:a.name}))],v.attraction_id,false)}
-      ${field('Restaurant name','name','text','Savannah Kitchen',v.name,true)}
-      ${field('URL slug','slug','text','savannah-kitchen',v.slug,true)}
-      ${field('Cuisine label','cuisine','text','Regional cuisine',v.cuisine)}
-      ${field('Location label','location_name','text','Near Maasai Mara',v.location_name)}
-      ${field('Signature dish','signature_dish','text',"Chef's grilled tilapia",v.signature_dish)}
-      ${field('Sort order','sort_order','number','1',v.sort_order)}
-    </div>
-  `)}
-  ${section('Listing Card', 'Mirrors the front-end restaurant card in listing pages.',`
-    <div class="form-grid">
-      ${fieldArea('Listing summary','listing_summary','Short summary shown on the restaurant card',v.listing_summary,true,'form-grid-full')}
-      ${field('Rating (1–5)','rating','number','4.5',v.rating)}
-      ${field('Review count','review_count','number','140',v.review_count)}
-      ${field('Price / booking label','price_label','text','$$',v.price_label)}
-      <div class="field form-grid-full">${checkField('featured','Show in featured restaurant sections',v.featured)}</div>
-    </div>
-  `)}
-  ${section('Hero / Main Image', 'Mirrors the main image on the listing card and restaurant detail page.',`
-    <div class="image-panel">
-      <div class="img-preview-box" id="preview-hero_image_url">
-        <p class="img-preview-label">Restaurant image preview</p>
-        ${v.hero_image_url ? `<img src="${esc(v.hero_image_url)}" alt="Preview">` : '<div class="img-preview-empty">No image set</div>'}
-      </div>
-      <div class="form-grid" style="grid-template-columns:1fr">
-        ${field('Main image URL','hero_image_url','url','Paste image URL',v.hero_image_url,false,'form-grid-full',true)}
-        ${fileField('Upload main image','hero_image_file','image/*')}
-        ${field('Main image alt text','hero_image_alt','text','Describe the restaurant image',v.hero_image_alt,false,'form-grid-full')}
-        ${galleryManager('gallery', v.gallery)}
-      </div>
-    </div>
-  `)}
-  ${section('Detail Page Content', 'Mirrors About this restaurant and Practical information sections.',`
-    <div class="form-grid" style="grid-template-columns:1fr">
-      ${richField('About this restaurant','detail_intro',v.detail_intro,'Main restaurant introduction on the detail page.')}
-      ${richField('Practical information','practical_info',v.practical_info,'Useful planning details for this dining stop.')}
-    </div>
-  `)}
-  ${section('Booking Panel', 'Mirrors the right-side dining call to action on the detail page.',`
-    <div class="form-grid" style="grid-template-columns:1fr">
-      ${field('External booking or information URL','booking_url','url','https://partner-site.com/restaurant',v.booking_url,false,'form-grid-full')}
-    </div>
-  `)}`;
-}
-
-// ── Tour Operators ─────────────────────────────────────────────
 function formTourOperators(v) {
   return `
   ${section('Operator Identity', 'Mirrors the operator cards displayed inside attraction and destination planning sections.',`
@@ -2232,19 +2171,6 @@ async function readForm(tab) {
       amenities: highlightUrls('amenities_text'),
       booking_url: valOrNull('booking_url'),
     };
-    case 'restaurants': return {
-      region_id: intVal('region_id'), country_id: intVal('country_id'),
-      attraction_id: intVal('attraction_id') || null,
-      name: val('name'), slug: val('slug'), cuisine: valOrNull('cuisine'),
-      location_name: valOrNull('location_name'), signature_dish: valOrNull('signature_dish'), sort_order: intVal('sort_order'),
-      listing_summary: val('listing_summary'), rating: num('rating') || 4.4,
-      review_count: intVal('review_count') || 0, price_label: valOrNull('price_label'),
-      featured: bool('featured'),
-      hero_image_url: valOrNull('hero_image_url'), hero_image_alt: valOrNull('hero_image_alt'),
-      gallery: galleryVal('gallery'),
-      detail_intro: rich('detail_intro'), practical_info: rich('practical_info'),
-      booking_url: valOrNull('booking_url'),
-    };
     case 'tour_operators': return {
       region_id: intVal('region_id'), country_id: intVal('country_id'),
       attraction_id: intVal('attraction_id') || null,
@@ -2373,3 +2299,6 @@ boot();
 </script>
 </body>
 </html>
+
+
+

@@ -4,7 +4,7 @@
     "type": "module",
     "scripts": {
         "dev": "astro dev",
-        "build": "astro build",
+        "build": "node scripts/write-public-config.mjs && astro build",
         "build:fixture": "node scripts/build-fixture.mjs",
         "test": "node --test tests/node/**/*.test.mjs tests/js/**/*.test.mjs",
         "verify": "npm test && npm run build"

@@ -1,0 +1,33 @@
+{
+  "regions": [
+    "central-africa",
+    "east-africa",
+    "northern-africa",
+    "southern-africa",
+    "west-africa"
+  ],
+  "countries": [
+    "kenya",
+    "morocco",
+    "sao-tome-and-principe",
+    "south-africa",
+    "tanzania",
+    "uganda"
+  ],
+  "attractions": [
+    "amboseli-national-park",
+    "bwindi-impenetrable-national-park",
+    "cape-town",
+    "maasai-mara",
+    "marrakech-and-atlas",
+    "serengeti-national-park"
+  ],
+  "accommodations": [
+    "governors-camp",
+    "mount-nelson-a-belmond-hotel",
+    "ol-tukai-lodge-amboseli",
+    "paraa-safari-lodge",
+    "riad-rosemary",
+    "sanctuary-gorilla-forest-camp"
+  ]
+}
