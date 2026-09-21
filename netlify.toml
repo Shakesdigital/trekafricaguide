@@ -3,7 +3,7 @@
   command = "bash build-static.sh"
 
 [build.environment]
-  PHP_VERSION = "8.4"
+  PHP_VERSION = "8.3"
 
 # Headers for performance — cache hashed Vite assets aggressively
 [[headers]]
