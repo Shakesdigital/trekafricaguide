@@ -1,6 +1,6 @@
 [build]
   publish = "dist"
-  command = "echo 'Serving pre-built static site'"
+  command = "bash build-static.sh"
 
 # Headers for performance — cache hashed Vite assets aggressively
 [[headers]]
