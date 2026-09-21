@@ -1,0 +1,33 @@
+---
+import SiteLayout from '../../layouts/SiteLayout.astro';
+import PageHero from '../../components/PageHero.astro';
+import ImageSlot from '../../components/ImageSlot.astro';
+import { getSiteModel } from '../../lib/site-model.mjs';
+const model = await getSiteModel();
+---
+<SiteLayout model={model} title="Destinations">
+  <PageHero eyebrow="Destinations" title="Country guides for choosing the right route." text="Start with fit, access, timing, and the attractions each country does best." image="image-slot:destinations-index-hero" />
+  <section class="section">
+    <div class="container">
+      <form class="filter-form">
+        <select name="region" aria-label="Filter by region">
+          <option value="">All regions</option>
+          {model.regions.map((region) => <option value={region.slug}>{region.name}</option>)}
+        </select>
+      </form>
+      <div class="listing-grid">
+        {model.countries.map((country) => (
+          <article class="listing-card">
+            <a class="listing-card__image" href={`/countries/${country.slug}`}><ImageSlot class="listing-card__slot" src={country.hero_image_url} alt={country.hero_image_alt || country.name} /></a>
+            <div class="listing-card__body">
+              <p class="listing-card__eyebrow">{country.name} · {country.region.name}</p>
+              <h3><a href={`/countries/${country.slug}`}>{country.hero_title || country.name}</a></h3>
+              <p>{country.hero_text || country.overview}</p>
+              <div class="listing-card__footer"><a class="button" href={`/countries/${country.slug}`}>View destination</a></div>
+            </div>
+          </article>
+        ))}
+      </div>
+    </div>
+  </section>
+</SiteLayout>

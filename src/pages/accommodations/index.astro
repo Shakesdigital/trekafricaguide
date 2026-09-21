@@ -1,0 +1,23 @@
+---
+import SiteLayout from '../../layouts/SiteLayout.astro';
+import PageHero from '../../components/PageHero.astro';
+import ListingCard from '../../components/ListingCard.astro';
+import { getSiteModel } from '../../lib/site-model.mjs';
+const model = await getSiteModel();
+---
+<SiteLayout model={model} title="Accommodations">
+  <PageHero eyebrow="Accommodations" title="Stays that support the route." text="Review lodging by attraction fit, country, property type, and practical planning value." image="image-slot:accommodations-index-hero" />
+  <section class="section">
+    <div class="container">
+      <form class="filter-form">
+        <select name="country" aria-label="Filter by country">
+          <option value="">All countries</option>
+          {model.countries.map((country) => <option value={country.slug}>{country.name}</option>)}
+        </select>
+      </form>
+      <div class="listing-grid">
+        {model.accommodations.map((item) => <ListingCard item={item} type="accommodation" />)}
+      </div>
+    </div>
+  </section>
+</SiteLayout>

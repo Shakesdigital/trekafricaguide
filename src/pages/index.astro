@@ -1,0 +1,88 @@
+---
+import SiteLayout from '../layouts/SiteLayout.astro';
+import ListingCard from '../components/ListingCard.astro';
+import SearchRibbon from '../components/SearchRibbon.astro';
+import ImageSlot from '../components/ImageSlot.astro';
+import { getSiteModel } from '../lib/site-model.mjs';
+
+const model = await getSiteModel();
+const hero = model.pageSections.find((section) => section.page_key === 'home' && section.section_key === 'hero');
+const featuredAttractions = model.attractions.filter((item) => item.featured).slice(0, 8);
+const featuredStays = model.accommodations.filter((item) => item.featured).slice(0, 4);
+---
+<SiteLayout model={model} title="Africa travel guide">
+  <section class="hero">
+    <div class="hero-carousel" data-hero-carousel>
+      {(hero?.meta?.slides || [{ image_slot: 'home-hero-east-africa' }]).map((slide, index) => (
+        <div class={`hero-carousel__slide ${index === 0 ? 'is-active' : ''}`} data-hero-slide>
+          <ImageSlot class="hero-carousel__slot" src={`image-slot:${slide.image_slot || 'home-hero-east-africa'}`} alt={slide.title || hero?.title} />
+        </div>
+      ))}
+    </div>
+    <div class="hero__overlay"></div>
+    <div class="container hero__content">
+      <p class="eyebrow">{hero?.eyebrow || 'Discover Africa'}</p>
+      <h1 data-hero-title>{hero?.title || 'Explore Africa with the context to choose well.'}</h1>
+      <p class="hero__lead" data-hero-body>{hero?.body || 'Trek Africa Guide brings destinations, attractions, accommodations, and practical planning notes into one place.'}</p>
+      <div class="hero__actions">
+        <a class="button" href="/regions">Explore regions</a>
+        <a class="button button--ghost-light" href="/attractions">View attractions</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <SearchRibbon />
+    </div>
+  </section>
+
+  <section class="section section--alt">
+    <div class="container">
+      <div class="section-heading">
+        <p class="eyebrow">Featured Regions</p>
+        <h2>Five useful starting points for a smarter Africa trip.</h2>
+        <p>Use the regions to compare travel moods first, then narrow into destination countries, attractions, nearby stays, and booking paths.</p>
+      </div>
+      <div class="region-grid">
+        {model.regions.map((region) => (
+          <article class="region-card">
+            <a href={`/regions/${region.slug}`}><ImageSlot class="region-card__slot" src={region.hero_image_url} alt={region.hero_image_alt || region.name} /></a>
+            <div class="region-card__content">
+              <p class="eyebrow">{region.name}</p>
+              <h3><a href={`/regions/${region.slug}`}>{region.hero_title || region.name}</a></h3>
+              <p>{region.hero_text || region.overview}</p>
+              <a class="button" href={`/regions/${region.slug}`}>View region</a>
+            </div>
+          </article>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-heading">
+        <p class="eyebrow">Featured Attractions</p>
+        <h2>Attractions that can become the anchor of the journey.</h2>
+      </div>
+      <div class="listing-grid">
+        {featuredAttractions.map((item) => <ListingCard item={item} type="attraction" />)}
+      </div>
+      <div class="section-cta"><a class="button button--ghost" href="/attractions">View all attractions</a></div>
+    </div>
+  </section>
+
+  <section class="section section--alt">
+    <div class="container">
+      <div class="section-heading">
+        <p class="eyebrow">Featured Stays</p>
+        <h2>Stays chosen for how they support the route.</h2>
+      </div>
+      <div class="listing-grid">
+        {featuredStays.map((item) => <ListingCard item={item} type="accommodation" />)}
+      </div>
+      <div class="section-cta"><a class="button button--ghost" href="/accommodations">View all stays</a></div>
+    </div>
+  </section>
+</SiteLayout>

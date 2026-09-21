@@ -1,0 +1,25 @@
+---
+import SiteLayout from '../../layouts/SiteLayout.astro';
+import PageHero from '../../components/PageHero.astro';
+import ImageSlot from '../../components/ImageSlot.astro';
+import { getSiteModel } from '../../lib/site-model.mjs';
+const model = await getSiteModel();
+---
+<SiteLayout model={model} title="Regions">
+  <PageHero eyebrow="Regions" title="Choose the Africa region that fits the trip." text="Compare broad travel styles before narrowing into countries, attractions, and stays." image="image-slot:regions-index-hero" />
+  <section class="section">
+    <div class="container region-grid">
+      {model.regions.map((region) => (
+        <article class="region-card region-card--tall">
+          <a href={`/regions/${region.slug}`}><ImageSlot class="region-card__slot" src={region.hero_image_url} alt={region.hero_image_alt || region.name} /></a>
+          <div class="region-card__content">
+            <p class="eyebrow">{region.name}</p>
+            <h2><a href={`/regions/${region.slug}`}>{region.hero_title || region.name}</a></h2>
+            <p>{region.overview}</p>
+            <a class="button" href={`/regions/${region.slug}`}>View region</a>
+          </div>
+        </article>
+      ))}
+    </div>
+  </section>
+</SiteLayout>
