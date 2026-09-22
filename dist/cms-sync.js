@@ -90,59 +90,31 @@
     return `${roots[name]}${slug ? `/${slug}` : ''}`;
   };
 
+  // Shared pure rules from cms-core.js — kept in sync with the PHP backend.
+  const CmsCore = (typeof window !== 'undefined' && window.CmsCore) ? window.CmsCore : null;
+
+  // Stay22 link builder: delegates to shared CmsCore for parity with PHP Stay22LinkBuilder.
   const stay22Link = (listing, offer, search = {}) => {
-    if (!offer?.affiliate_supported) return offer?.source_url || listing?.booking_url || '#';
-    const provider = offer?.stay22_provider || 'roam';
-    const supported = ['booking', 'expedia', 'hotelscom', 'vrbo', 'agoda', 'tripadvisor', 'kayak', 'getyourguide', 'roam', 'searchbar'];
-    if (!supported.includes(String(provider).toLowerCase())) return offer?.source_url || listing?.booking_url || '#';
-    const params = new URLSearchParams({ aid: setting('stay22_affiliate_id', '6a809892f76b8b75f2a2e6a4'), campaign: `${listing?.property_type ? 'accommodation' : 'attraction'}_${listing?.slug || ''}` });
-    if (offer?.source_url) params.set('link', offer.source_url); else { params.set('hotelname', listing?.name || ''); if (listing?.location_name) params.set('address', listing.location_name); }
-    ['checkin', 'checkout', 'adults', 'children'].forEach((key) => { if (search[key] !== undefined && search[key] !== '') params.set(key, search[key]); });
-    return `https://www.stay22.com/allez/${provider}?${params.toString()}`;
+    if (!CmsCore) return offer?.source_url || listing?.booking_url || '#';
+    const affiliateId = setting('stay22_affiliate_id', '6a809892f76b8b75f2a2e6a4');
+    return CmsCore.buildStay22Link(listing, offer, search, affiliateId);
   };
-  const searchRibbon = (mode = 'attractions', context = {}, availableTables = tables) => ({ mode, query: context.q || '', suggestions: [...(availableTables.countries || []), ...(availableTables.attractions || []), ...(availableTables.accommodations || [])].map((item) => item.name).filter(Boolean) });
+
+  // Search ribbon: delegates to shared CmsCore for parity.
+  const searchRibbon = (mode = 'attractions', context = {}, availableTables = tables) => {
+    if (CmsCore) return CmsCore.searchRibbon(mode, { q: context.q || '' }, availableTables);
+    // Fallback (should not be reached when cms-core.js is loaded)
+    return { mode, query: context.q || '', suggestions: [...(availableTables.countries || []), ...(availableTables.attractions || []), ...(availableTables.accommodations || [])].map((item) => item.name).filter(Boolean) };
+  };
+
   window.trekAfricaGuideRuntime = { stay22Link, searchRibbon };
 
-  const slotImages = {
-    'home-hero-east-africa': 'maasai-mara',
-    'home-hero-west-africa': 'cape-coast-kakum',
-    'home-hero-southern-africa': 'namib-desert',
-    'home-hero-northern-africa': 'marrakech-and-atlas',
-    'regions-index-hero': 'serengeti-national-park',
-    'destinations-index-hero': 'cape-town',
-    'attractions-index-hero': 'maasai-mara',
-    'accommodations-index-hero': 'maasai-mara',
-    'restaurants-index-hero': 'zanzibar',
-    'region-east-africa': 'serengeti-national-park',
-    'region-west-africa': 'sine-saloum-delta',
-    'region-southern-africa': 'namib-desert',
-    'region-northern-africa': 'marrakech-and-atlas',
-    'country-uganda': 'bwindi-impenetrable-national-park',
-    'country-kenya': 'maasai-mara',
-    'country-tanzania': 'serengeti-national-park',
-    'country-rwanda': 'volcanoes-national-park',
-    'country-ethiopia': 'lalibela',
-    'country-ghana': 'cape-coast-kakum',
-    'country-senegal': 'sine-saloum-delta',
-    'country-benin': 'ouidah-and-ganvie',
-    'country-sierra-leone': 'tokeh-and-river-no2',
-    'country-cabo-verde': 'sal-island',
-    'country-south-africa': 'cape-town',
-    'country-botswana': 'okavango-delta',
-    'country-namibia': 'namib-desert',
-    'country-zimbabwe': 'victoria-falls',
-    'country-zambia': 'south-luangwa',
-    'country-morocco': 'marrakech-and-atlas',
-    'country-egypt': 'cairo-and-giza',
-    'country-tunisia': 'tunis-and-sidi-bou-said',
-    'country-algeria': 'djanet-and-tassili',
-  };
+  // Stock image slot map and resolver are now provided by CmsCore (cms-core.js).
+  // The slotImages map lived here previously and was duplicated in cms-core.js.
 
-  const resolveImage = (image) => {
+  const resolveImage = CmsCore ? CmsCore.resolveImage.bind(CmsCore) : (image) => {
     if (!image || !String(image).startsWith('image-slot:')) return image;
-    const key = String(image).replace('image-slot:', '');
-    const slug = slotImages[key] || key.replace(/^(attraction|stay|restaurant)-/, '');
-    return `/images/stock/destinations/${slug}.jpg`;
+    return image;
   };
 
   const imageSlot = (image, alt, className = '') => {
@@ -172,23 +144,23 @@
       const checked = offer.price_checked_at ? new Date(offer.price_checked_at) : null;
       const age = checked ? (Date.now() - checked.getTime()) / 86400000 : Infinity;
       const fresh = offer.price_amount != null && offer.price_currency && offer.price_unit && offer.price_basis && age <= 90;
-      const price = fresh ? `From ${esc(offer.price_currency)} ${Number(offer.price_amount).toLocaleString()} per ${esc(offer.price_unit)}` : type === 'restaurant' ? 'Check menu and reservation details' : 'Check live price';
-      const rel = offer.affiliate_supported ? 'nofollow sponsored noopener' : 'nofollow noopener';
-      const disclosure = offer.affiliate_supported ? '' : '<small>External provider link; Trek Africa Guide does not process this booking.</small>';
+      const price = fresh ? `From ${esc(offer.price_currency)} ${Number(offer.price_amount).toLocaleString()} per ${esc(offer.price_unit)}` : 'Check current details on the provider site';
+      const rel = 'nofollow noopener';
+      const disclosure = '<small>External provider link. Trek Africa Guide does not take payment on this page.</small>';
       return `<p class="booking-offers__price">${price}</p><a class="button button--ghost" href="${esc(stay22Link(listing, offer, liveSearch()))}" target="_blank" rel="${rel}">${esc(offer.label || 'View provider')}</a>${disclosure}`;
     }).join('')}</div>`;
   };
 
-  const listingCard = ({ href, image, title, summary, eyebrow, chips = [], entity = null, entityType = '' }) => `
+  const listingCard = ({ href, image, title, summary, eyebrow, chips = [], entity = null, entityType = '', cta = 'Open guide' }) => `
     <article class="listing-card"${entity ? ` id="listing-${esc(entity.slug)}"` : ''}>
       <div class="listing-card__image">${imageSlot(image, entity?.hero_image_alt || title, 'listing-card__slot')}</div>
       <div class="listing-card__body">
         ${eyebrow ? `<p class="listing-card__eyebrow">${esc(eyebrow)}</p>` : ''}
-        <h3>${entity ? esc(title) : `<a href="${esc(href)}">${esc(title)}</a>`}</h3>
+        <h3>${esc(title)}</h3>
         <p>${esc(String(summary || '').length > 125 ? `${String(summary).slice(0, 122)}...` : summary)}</p>
         <div class="listing-card__footer">
           ${chips.length ? `<div class="chip-row">${chips.filter(Boolean).slice(0, 1).map((chip) => `<span>${esc(chip)}</span>`).join('')}</div>` : ''}
-          ${entity ? offerMarkup(entity, entityType) : `<a href="${esc(href)}" class="button button--ghost">Open guide</a>`}
+          <a href="${esc(href)}" class="button button--ghost">${esc(cta)}</a>
         </div>
       </div>
     </article>`;
@@ -264,7 +236,7 @@
         <p class="booking-panel__eyebrow">${esc(eyebrow)}</p>
         <p class="booking-panel__price">${esc(price)}</p>
         ${where ? `<p class="booking-panel__where">${icon('pin')} ${esc(where)}</p>` : ''}
-        ${url ? `<a href="${esc(url)}" class="button button--full" target="_blank" rel="noopener">${esc(cta)}</a>` : ''}
+        ${url ? `<a href="${esc(url)}" class="button button--full" target="_blank" rel="nofollow noopener">${esc(cta)}</a>` : ''}
         <ul class="booking-trust">${trust.map((t) => `<li>${icon(t.icon)} ${esc(t.text)}</li>`).join('')}</ul>
       </div>
     </aside>`;
@@ -306,7 +278,6 @@
     const attractions = (tables.attractions || []).filter((item) => item.featured).slice(0, 8);
     const stays = (tables.accommodations || []).filter((item) => item.featured).slice(0, 4);
     const restaurants = (tables.restaurants || []).filter((item) => item.featured).slice(0, 4);
-
     main.innerHTML = `
       <section class="hero">
         ${imageSlot(hero.image_url || regions[0]?.hero_image_url, hero.title || setting('site_name'), 'page-hero__slot')}
@@ -319,7 +290,7 @@
         </div>
       </section>
       <section class="section"><div class="container">${ribbonMarkup('attractions')}</div></section>
-      <section class="section"><div class="container two-column"><div><p class="eyebrow">${esc(intro.eyebrow || 'Overview')}</p><h2>${esc(intro.title || 'Africa travel planning')}</h2><div class="rich-text">${rich(intro.body || setting('default_meta_description'))}</div></div><div class="info-panel"><h3>How Trek Africa Guide works</h3><ul class="bullet-list"><li>Start with regions and destination countries.</li><li>Compare attractions, stays, restaurants, and booking paths.</li><li>Continue to a clearly named provider when you are ready to check a deal.</li></ul></div></div></section>
+      <section class="section"><div class="container two-column"><div><p class="eyebrow">${esc(intro.eyebrow || 'Overview')}</p><h2>${esc(intro.title || 'Africa travel planning')}</h2><div class="rich-text">${rich(intro.body || setting('default_meta_description'))}</div></div><div class="info-panel"><h3>How Trek Africa Guide works</h3><ul class="bullet-list"><li>Start with regions and destination countries.</li><li>Compare attractions, stays, restaurants, and booking paths.</li><li>Open a listing detail page before checking external.</li></ul></div></div></section>
       ${homeBlock('Featured Regions', regions.map((region) => listingCard({ href: route('regions', region.slug), image: region.hero_image_url, title: region.name, summary: plain(region.overview), eyebrow: 'Region', chips: ['Regional guide'] })))}
       ${homeBlock('Featured Attractions', attractions.map(attractionCard))}
       ${homeBlock('Featured Accommodations', stays.map(accommodationCard))}
@@ -330,12 +301,15 @@
 
   function attractionCard(item) {
     const country = getCountry(item.country_id);
-    return listingCard({ href: route('attractions', item.slug), image: item.hero_image_url, title: item.name, summary: item.listing_summary, eyebrow: country?.name, chips: [item.location_name], entity: item, entityType: 'attraction' });
+    const region = getRegion(item.region_id);
+    return listingCard({ href: route('attractions', item.slug), image: item.hero_image_url, title: item.name, summary: item.listing_summary, eyebrow: [item.location_name, country?.name].filter(Boolean).join(', '), chips: [region?.name], entity: item, entityType: 'attraction', cta: 'View attraction detail' });
   }
 
   function accommodationCard(item) {
     const attraction = getAttraction(item.attraction_id);
-    return listingCard({ href: route('accommodations', item.slug), image: item.hero_image_url, title: item.name, summary: item.listing_summary, eyebrow: item.property_type, chips: [item.location_name || attraction?.name], entity: item, entityType: 'accommodation' });
+    const country = getCountry(item.country_id);
+    const region = getRegion(item.region_id);
+    return listingCard({ href: route('accommodations', item.slug), image: item.hero_image_url, title: item.name, summary: item.listing_summary, eyebrow: [item.location_name, country?.name].filter(Boolean).join(', '), chips: [region?.name || attraction?.name], entity: item, entityType: 'accommodation', cta: 'View stay' });
   }
 
   function restaurantCard(item) {
@@ -385,6 +359,7 @@
     const restaurants = (tables.restaurants || []).filter((restaurant) => Number(restaurant.attraction_id) === Number(item.id)).slice(0, 4);
     const operators = (tables.tour_operators || []).filter((operator) => Number(operator.attraction_id) === Number(item.id) || Number(operator.country_id) === Number(item.country_id)).slice(0, 6);
     const highlights = lines(item.highlights);
+    const attractionBookingUrl = stay22Link(item, { source_url: item.booking_url, stay22_provider: 'getyourguide', affiliate_supported: true }, liveSearch());
     main.innerHTML = `
       ${listingHero({ eyebrow: `${country?.name || ''} • ${region?.name || ''}`, title: item.name, summary: item.listing_summary, rating: item.rating, reviews: item.review_count, meta: [{ icon: 'pin', text: item.location_name }, { icon: 'tag', text: item.price_label }], images: item.gallery, image: item.hero_image_url, alt: item.hero_image_alt })}
       <section class="section"><div class="container detail-grid"><div class="detail-main">
@@ -396,9 +371,9 @@
         <div class="detail-section"><h3>Practical information</h3><div class="rich-text">${rich(item.practical_info)}</div></div>
         <div class="detail-section"><h3>Full description</h3><div class="rich-text">${rich(item.full_description)}</div></div>
         ${operators.length ? `<div class="detail-section"><h3>Tour operators active here</h3><div class="stack-grid">${operators.map(detailOperatorCard).join('')}</div></div>` : ''}
-      </div>${bookingPanel({ eyebrow: 'Plan your visit', price: item.price_label || 'Free to explore', where: item.location_name, cta: 'Check tours & tickets', url: item.booking_url, trust: [{ icon: 'shield', text: 'Booked through vetted local operators' }, { icon: 'check', text: 'Live dates and pricing on the partner site' }, { icon: 'info', text: 'No payment is taken on this page' }] })}</div></section>
+      </div>${bookingPanel({ eyebrow: 'Plan your visit', price: item.price_label || 'Free to explore', where: item.location_name, cta: 'Check tours & tickets', url: attractionBookingUrl, trust: [{ icon: 'shield', text: 'Opens an external provider page' }, { icon: 'check', text: 'Live dates and pricing are checked off-site' }, { icon: 'info', text: 'No payment is taken on this page' }] })}</div></section>
       <section class="section section--alt"><div class="container"><div class="section-heading section-heading--compact"><p class="eyebrow">Nearby stays</p><h2>Accommodations near ${esc(item.name)}</h2></div>${grid(stays.map(accommodationCard))}</div></section>
-      <section class="section"><div class="container"><div class="section-heading section-heading--compact"><p class="eyebrow">Nearby dining</p><h2>Restaurants near ${esc(item.name)}</h2></div>${grid(restaurants.map(restaurantCard))}</div></section>`;
+      <section class="section section--alt"><div class="container"><div class="section-heading section-heading--compact"><p class="eyebrow">Nearby</p><h2>Restaurants near ${esc(item.name)}</h2></div>${grid(restaurants.map(restaurantCard))}</div></section>`;
   }
 
   function renderAccommodation(slug) {
@@ -408,6 +383,7 @@
     const attraction = getAttraction(item.attraction_id);
     const nearby = (tables.attractions || []).filter((a) => Number(a.country_id) === Number(item.country_id)).slice(0, 4);
     const amenities = lines(item.amenities);
+    const stayBookingUrl = stay22Link(item, { source_url: item.booking_url, stay22_provider: 'booking', affiliate_supported: true }, liveSearch());
     main.innerHTML = `
       ${listingHero({ eyebrow: `${country?.name || ''}${item.property_type ? ` • ${item.property_type}` : ''}`, title: item.name, summary: item.listing_summary, rating: item.rating, reviews: item.review_count, meta: [{ icon: 'pin', text: item.location_name }, { icon: 'tag', text: item.price_label }], images: item.gallery, image: item.hero_image_url, alt: item.hero_image_alt })}
       <section class="section"><div class="container detail-grid"><div class="detail-main">
@@ -416,7 +392,7 @@
         <div class="detail-section"><h3>Why it works for this route</h3><div class="rich-text">${rich(item.practical_info)}</div></div>
         ${amenities.length ? `<div class="detail-section"><h3>Amenities</h3>${amenityList(amenities)}</div>` : ''}
         ${attraction ? `<div class="detail-section"><h3>Best nearby attraction</h3><p><a href="${route('attractions', attraction.slug)}">${esc(attraction.name)}</a> is the clearest anchor for this stay.</p></div>` : ''}
-      </div>${bookingPanel({ eyebrow: 'Where to book', price: item.price_label || 'Rates on request', where: item.location_name, cta: 'Check stay availability', url: item.booking_url, trust: [{ icon: 'shield', text: 'Listed on a verified partner booking page' }, { icon: 'check', text: 'Live availability and rates on the partner site' }, { icon: 'info', text: 'No payment is taken on this page' }] })}</div></section>
+      </div>${bookingPanel({ eyebrow: 'Where to book', price: item.price_label || 'Rates on request', where: item.location_name, cta: 'Check stay availability', url: stayBookingUrl, trust: [{ icon: 'shield', text: 'Opens an external provider page' }, { icon: 'check', text: 'Live availability and rates are checked off-site' }, { icon: 'info', text: 'No payment is taken on this page' }] })}</div></section>
       <section class="section section--alt"><div class="container"><div class="section-heading section-heading--compact"><p class="eyebrow">Nearby attractions</p><h2>Continue planning around this stay</h2></div>${grid(nearby.map(attractionCard))}</div></section>`;
   }
 
