@@ -20,6 +20,7 @@ export function buildSiteModel(tables, now = new Date()) {
   const countriesById = new Map();
   const attractionsById = new Map();
   const accommodationsById = new Map();
+  const activitiesById = new Map();
   const districtsById = new Map();
   const bookingOffersByOwnerId = new Map();
 
@@ -121,6 +122,21 @@ export function buildSiteModel(tables, now = new Date()) {
       return joined;
     });
 
+  const activitySlugs = new Set();
+  const activities = [...(tables.activities || [])].filter((activity) => isPublished(activity, now) && attractionsById.has(activity.attraction_id)).sort(sortByFeaturedThenOrder).map((activity) => {
+    assertRouteSlug(activity.slug, 'activity');
+    if (activitySlugs.has(activity.slug)) throw new Error(`Duplicate activity slug: ${activity.slug}`);
+    activitySlugs.add(activity.slug);
+    const attraction = attractionsById.get(activity.attraction_id);
+    if (!attraction) throw new Error(`Activity ${activity.slug} has missing attraction ${activity.attraction_id}`);
+    const joined = { ...activity, attraction, country: attraction.country, region: attraction.region,
+      hero_image_url: activity.hero_image_url || attraction.hero_image_url,
+      heroMedia: resolveHeroMedia(forEntity(tables.media_assets, 'activity', activity.id)),
+      internalUrl: `/activities/${activity.slug}`, routeFamily: 'activities' };
+    activitiesById.set(activity.id, joined);
+    return joined;
+  });
+
   // Validate and index accommodations
   const accommodations = [...(tables.accommodations || [])]
     .sort((a, b) => sortByFeaturedThenOrder(a, b))
@@ -188,6 +204,11 @@ export function buildSiteModel(tables, now = new Date()) {
   for (const attraction of attractions) {
     const key = `attraction:${attraction.id}`;
     attraction.bookingOffers = (bookingOffersByEntity.get(key) || []).sort((a, b) => (a.sort_order || 0) - (b.sort_order || 0));
+    attraction.activities = activities.filter((activity) => activity.attraction_id === attraction.id);
+  }
+  for (const activity of activities) {
+    const key = `activity:${activity.id}`;
+    activity.bookingOffers = (bookingOffersByEntity.get(key) || []).sort((a, b) => (a.sort_order || 0) - (b.sort_order || 0));
   }
 
   // Compute nearby attractions (same country, different ID, deterministic)
@@ -252,6 +273,8 @@ export function buildSiteModel(tables, now = new Date()) {
 
   const accommodationsBySlug = new Map();
   for (const a of accommodations) accommodationsBySlug.set(a.slug, a);
+  const activitiesBySlug = new Map();
+  for (const a of activities) activitiesBySlug.set(a.slug, a);
 
   return Object.freeze({
     settings,
@@ -260,11 +283,18 @@ export function buildSiteModel(tables, now = new Date()) {
     countries,
     attractions,
     accommodations,
+    activities,
+    travelArticles: [...(tables.travel_articles || [])].filter((story) => isPublished(story, now)).sort(sortByFeaturedThenOrder).map((story) => {
+      assertRouteSlug(story.slug, 'travel-insights');
+      const words = (story.body || '').replace(/<[^>]*>/g, ' ').trim().split(/\s+/).filter(Boolean).length;
+      return { ...story, internalUrl: '/travel-insights/' + story.slug, read_time: story.read_time || Math.max(1, Math.ceil(words / 200)) + ' min read' };
+    }),
     districts,
     regionsBySlug,
     countriesBySlug,
     attractionsBySlug,
     accommodationsBySlug,
+    activitiesBySlug,
     searchSuggestions,
   });
 }

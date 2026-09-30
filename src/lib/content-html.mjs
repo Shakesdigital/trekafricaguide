@@ -1,5 +1,12 @@
 import sanitizeHtml from 'sanitize-html';
 
+export function safeExternalUrl(value) {
+  try {
+    const url = new URL(String(value || ''));
+    return ['https:', 'http:'].includes(url.protocol) ? url.href : '';
+  } catch { return ''; }
+}
+
 const ALLOWED_TAGS = [
   'p',
   'br',

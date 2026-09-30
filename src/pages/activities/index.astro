@@ -1,0 +1,19 @@
+---
+import SiteLayout from '../../layouts/SiteLayout.astro';
+import PageHero from '../../components/PageHero.astro';
+import ListingCard from '../../components/ListingCard.astro';
+import { getSiteModel } from '../../lib/site-model.mjs';
+import { plainText } from '../../lib/content-html.mjs';
+const model = await getSiteModel();
+const hero = model.pageSections.find((section) => section.page_key === 'activities' && section.section_key === 'hero');
+---
+<SiteLayout model={model} title="Activities">
+  <PageHero eyebrow={hero?.eyebrow || 'Activities'} title={hero?.title || 'Choose the experiences that make the journey.'} text={plainText(hero?.body) || 'Explore activities connected to the attractions in our destination guides, with practical notes and booking links.'} image={hero?.image_url || 'image-slot:attractions-index-hero'} />
+  <section class="section"><div class="container" data-listing-archive>
+    <form class="filter-form"><label>Country <select data-country-filter name="country"><option value="">All countries</option>{model.countries.filter((country) => model.activities.some((activity) => activity.country.id === country.id)).map((country) => <option value={country.slug}>{country.name}</option>)}</select></label></form>
+    <p data-listing-count aria-live="polite">{model.activities.length} activities</p>
+    <div class="listing-grid">{model.activities.map((item) => <ListingCard item={item} type="activity" />)}</div>
+    <p data-listing-empty hidden>No activities match this country. Choose another country to explore.</p>
+    {!model.activities.length && <p>Activity guides are on their way. <a href="/attractions">Explore our attractions</a> for inspiration.</p>}
+  </div></section>
+</SiteLayout>

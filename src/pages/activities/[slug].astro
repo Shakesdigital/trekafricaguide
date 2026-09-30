@@ -1,0 +1,32 @@
+---
+import SiteLayout from '../../layouts/SiteLayout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import Gallery from '../../components/Gallery.astro';
+import ListingCard from '../../components/ListingCard.astro';
+import { getSiteModel } from '../../lib/site-model.mjs';
+import { normalizeList } from '../../lib/images.mjs';
+import { sanitizeRichText, safeExternalUrl } from '../../lib/content-html.mjs';
+const model = await getSiteModel();
+export async function getStaticPaths() {
+  const model = await getSiteModel();
+  return model.activities.map((activity) => ({ params: { slug: activity.slug }, props: { activity } }));
+}
+const { activity } = Astro.props;
+const bookingUrl = safeExternalUrl(activity.booking_url);
+const sourceUrl = safeExternalUrl(activity.source_url);
+---
+<SiteLayout model={model} title={activity.meta_title || activity.name} description={activity.meta_description || activity.listing_summary} image={activity.meta_image_url || activity.hero_image_url}>
+  <section class="detail-hero"><div class="container">
+    <Breadcrumbs items={[{ label: activity.country.name, href: `/countries/${activity.country.slug}` }, { label: activity.attraction.name, href: activity.attraction.internalUrl }, { label: activity.name }]} />
+    <div class="listing-head"><p class="eyebrow">{activity.attraction.name} · {activity.country.name}</p><h1>{activity.name}</h1><p class="detail-hero__summary">{activity.listing_summary}</p></div>
+    <Gallery images={normalizeList(activity.gallery).length ? normalizeList(activity.gallery) : [activity.hero_image_url || activity.attraction.hero_image_url]} alt={activity.name} />
+  </div></section>
+  <section class="section"><div class="container detail-grid"><div class="detail-main">
+    <div class="detail-section"><h2>About this activity</h2><div class="rich-text" set:html={sanitizeRichText(activity.full_description || activity.detail_intro || '')} /></div>
+    <div class="detail-section"><h2>Highlights</h2><ul class="check-list">{normalizeList(activity.highlights).map((item) => <li>{item}</li>)}</ul></div>
+    <div class="detail-section"><h2>Best time to participate</h2><div class="rich-text" set:html={sanitizeRichText(activity.best_time || '')} /></div>
+    <div class="detail-section"><h2>Planning notes</h2><div class="rich-text" set:html={sanitizeRichText(activity.practical_info || '')} /></div>
+    <div class="detail-section"><h2>Attraction guide</h2><p><a href={activity.attraction.internalUrl}>{activity.attraction.name}</a></p>{sourceUrl && <p><a href={sourceUrl} target="_blank" rel="noopener noreferrer">Activity information and source ↗</a></p>}</div>
+  </div><aside class="detail-rail"><div class="booking-panel"><p class="eyebrow">Booking information</p><h2>{activity.name}</h2>{bookingUrl ? <><p>Check current dates, availability, and terms with the activity provider.</p><a class="button" href={bookingUrl} target="_blank" rel="nofollow noopener noreferrer">Book this activity ↗</a><p><small>External provider link. Trek Africa Guide does not take payment on this page.</small></p></> : <p>No verified bookable provider listing is currently linked. Contact the attraction authority or your accommodation for current arrangements.</p>}</div></aside></div></section>
+  <section class="section section--alt"><div class="container"><h2>Nearby stays</h2><div class="listing-grid">{activity.attraction.nearbyStays.map((item) => <ListingCard item={item} type="accommodation" />)}</div></div></section>
+</SiteLayout>

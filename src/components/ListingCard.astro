@@ -2,11 +2,12 @@
 import ImageSlot from './ImageSlot.astro';
 const { item, type = 'attraction' } = Astro.props;
 const isStay = type === 'accommodation';
-const href = item.internalUrl || `/${isStay ? 'accommodations' : 'attractions'}/${item.slug}`;
-const cta = isStay ? 'View stay' : 'View attraction detail';
+const isActivity = type === 'activity';
+const href = item.internalUrl || `/${isActivity ? 'activities' : isStay ? 'accommodations' : 'attractions'}/${item.slug}`;
+const cta = isActivity ? (item.cardCta || 'View Activity Detail') : isStay ? 'View stay' : 'View attraction detail';
 const location = [item.location_name, item.country?.name].filter(Boolean).join(', ');
 ---
-<article class="listing-card" data-card-type={type}>
+<article class="listing-card" data-card-type={type} data-country={item.country?.slug || ''}>
   <a class="listing-card__image" href={href} aria-label={cta}>
     <ImageSlot class="listing-card__slot" src={item.hero_image_url || item.image_slot} alt={item.hero_image_alt || item.name} />
   </a>

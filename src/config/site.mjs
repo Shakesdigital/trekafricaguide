@@ -10,10 +10,12 @@ export const ROUTES = {
   countries: '/countries',
   attractions: '/attractions',
   accommodations: '/accommodations',
+  activities: '/activities',
+  travelInsights: '/travel-insights',
   contact: '/contact',
 };
 
-export const INTERNAL_ROUTE_FAMILIES = ['regions', 'countries', 'attractions', 'accommodations'];
+export const INTERNAL_ROUTE_FAMILIES = ['regions', 'countries', 'attractions', 'accommodations', 'activities', 'travel-insights'];
 
 export const DEFAULT_BRAND = Object.freeze({
   name: 'Trek Africa Guide',

@@ -47,12 +47,15 @@ const TABLE_NAMES = [
   'countries',
   'districts',
   'attractions',
+  'activities',
+  'travel_articles',
   'accommodations',
   'booking_offers',
   'site_settings',
   'page_sections',
   'media_assets',
 ];
+const OPTIONAL_NEW_TABLES = new Set(['activities', 'travel_articles']);
 
 /**
  * Load published records from all content tables.
@@ -68,6 +71,10 @@ export async function loadPublishedTables(client, now = new Date()) {
     const { data, error } = await client.from(table).select('*');
 
     if (error) {
+      if (OPTIONAL_NEW_TABLES.has(table) && ['PGRST205', '42P01'].includes(error.code)) {
+        tables[table] = [];
+        continue;
+      }
       throw new Error(`Failed to load ${table}: ${error.message}`);
     }
 
@@ -82,6 +89,8 @@ export async function loadPublishedTables(client, now = new Date()) {
   tables.regions = visibleRecords(tables.regions, now);
   tables.countries = visibleRecords(tables.countries, now);
   tables.attractions = visibleRecords(tables.attractions, now);
+  tables.activities = visibleRecords(tables.activities, now);
+  tables.travel_articles = visibleRecords(tables.travel_articles, now);
   tables.accommodations = visibleRecords(tables.accommodations, now);
   tables.districts = visibleRecords(tables.districts, now);
   tables.page_sections = visibleRecords(tables.page_sections, now);
@@ -132,6 +141,8 @@ export async function loadContent({ env, client, now = new Date(), fixturePath }
       countries: visibleRecords(raw.countries || [], nowDate),
       districts: visibleRecords(raw.districts || [], nowDate),
       attractions: visibleRecords(raw.attractions || [], nowDate),
+      activities: visibleRecords(raw.activities || [], nowDate),
+      travel_articles: visibleRecords(raw.travel_articles || [], nowDate),
       accommodations: visibleRecords(raw.accommodations || [], nowDate),
       booking_offers: (raw.booking_offers || []).filter((o) => o && o.active === true),
       site_settings: (raw.site_settings || []).filter((s) => s && s.is_public === true),

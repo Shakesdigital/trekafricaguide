@@ -1,0 +1,16 @@
+---
+import { safeExternalUrl } from '../lib/content-html.mjs';
+const { url, title = 'Travel film' } = Astro.props;
+const href = safeExternalUrl(url);
+let embed = '';
+let direct = false;
+if (href) {
+  const parsed = new URL(href);
+  const host = parsed.hostname.replace(/^www\./, '');
+  const videoId = host === 'youtu.be' ? parsed.pathname.slice(1) : ['youtube.com', 'm.youtube.com'].includes(host) ? (parsed.searchParams.get('v') || parsed.pathname.match(/^\/(?:embed|shorts)\/([\w-]+)/)?.[1]) : '';
+  if (videoId && /^[\w-]{11}$/.test(videoId)) embed = 'https://www.youtube-nocookie.com/embed/' + videoId;
+  if (host === 'vimeo.com' && /^\/\d+$/.test(parsed.pathname)) embed = 'https://player.vimeo.com/video' + parsed.pathname;
+  direct = /\.(mp4|webm)$/i.test(parsed.pathname);
+}
+---
+{embed ? <iframe class="journal-video" src={embed} title={title} loading="lazy" allow="fullscreen; picture-in-picture" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe> : direct ? <video class="journal-video" src={href} controls preload="none" aria-label={title}></video> : href ? <a class="button button--ghost" href={href} target="_blank" rel="noopener noreferrer">Watch {title} ↗</a> : null}

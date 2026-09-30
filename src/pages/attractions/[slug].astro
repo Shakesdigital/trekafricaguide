@@ -39,5 +39,6 @@ const { attraction } = Astro.props;
       <aside class="detail-rail"><BookingOffers listing={attraction} offers={attraction.bookingOffers} /></aside>
     </div>
   </section>
+  {attraction.activities?.length > 0 && <section class="section section--alt"><div class="container"><h2>Activities done here</h2><div class="listing-grid">{attraction.activities.map((item) => <ListingCard item={{...item, cardCta: 'View Activity Details'}} type="activity" />)}</div></div></section>}
   <section class="section section--alt"><div class="container"><h2>Nearby stays</h2><div class="listing-grid">{attraction.nearbyStays.map((item) => <ListingCard item={item} type="accommodation" />)}</div></div></section>
 </SiteLayout>

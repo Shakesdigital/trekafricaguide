@@ -1,0 +1,47 @@
+---
+import SiteLayout from '../../layouts/SiteLayout.astro';
+import ImageSlot from '../../components/ImageSlot.astro';
+import VideoStory from '../../components/VideoStory.astro';
+import { getSiteModel } from '../../lib/site-model.mjs';
+import { plainText } from '../../lib/content-html.mjs';
+const model = await getSiteModel();
+const stories = model.travelArticles;
+const featured = stories.find((story) => story.featured) || stories[0];
+const others = stories.filter((story) => story !== featured);
+const videos = stories.filter((story) => story.video_url);
+const topics = [...new Set(stories.map((story) => story.category).filter(Boolean))];
+const hero = model.pageSections.find((s) => s.page_key === 'travel-insights' && s.section_key === 'hero');
+---
+<SiteLayout model={model} title="Travel Insights" description="Stories, photographs and practical guides for travelling through Africa.">
+  <section class="journal-masthead"><div class="container">
+    <p class="eyebrow">{hero?.eyebrow || 'The Trek Africa journal'}</p>
+    <h1>{hero?.title || 'A little closer to Africa.'}</h1>
+    <p>{plainText(hero?.body) || 'Places to linger. Stories to take with you. Practical ideas for a journey that feels your own.'}</p>
+    <nav class="journal-jumps" aria-label="Explore Travel Insights"><a href="#stories">Read the stories</a><a href="#in-pictures">Africa in pictures</a>{videos.length > 0 && <a href="#watch">Watch & explore</a>}</nav>
+  </div></section>
+  <section class="section"><div class="container">
+    {featured ? <div class="insights-layout">
+      <div>
+        <article class="insight-feature">
+          <a class="insight-feature__image" href={featured.internalUrl} aria-label={featured.title}><ImageSlot class="insight-image" src={featured.hero_image_url} alt={featured.hero_image_alt || featured.title} /></a>
+          <div class="insight-feature__copy"><p class="eyebrow">Editor's pick · {featured.category}</p><h2><a href={featured.internalUrl}>{featured.title}</a></h2><p>{featured.excerpt}</p><a class="button" href={featured.internalUrl}>Read the story</a></div>
+        </article>
+        <div id="stories" class="insight-list-heading"><p class="eyebrow">From the journal</p><h2>Find your next perspective.</h2></div>
+        <div data-story-archive>
+          <label class="journal-topic">Explore a topic <select data-story-topic><option value="">All stories</option>{topics.map((topic) => <option value={topic}>{topic}</option>)}</select></label>
+          <div class="insight-list">{others.map((story) => <article class="insight-row" data-story-category={story.category || ''}>
+            <a class="insight-row__image" href={story.internalUrl} aria-label={story.title}><ImageSlot class="insight-image" src={story.hero_image_url} alt={story.hero_image_alt || story.title} /></a>
+            <div><p class="eyebrow">{story.category} · {story.read_time}</p><h3><a href={story.internalUrl}>{story.title}</a></h3><p>{story.excerpt}</p><a class="text-link" href={story.internalUrl}>Read story →</a></div>
+          </article>)}</div>
+          <p data-story-empty hidden>No other stories in this topic yet. Try another topic or read the featured story above.</p>
+        </div>
+      </div>
+      <aside class="insights-sidebar" aria-label="More travel stories">
+        <div class="insights-sidebar__panel"><p class="eyebrow">The reading list</p><h2>Where will you go?</h2><ul>{stories.slice(0, 6).map((story) => <li><a href={story.internalUrl}>{story.title}<span aria-hidden="true">↗</span></a></li>)}</ul></div>
+        <div class="insights-sidebar__panel"><p class="eyebrow">Turn a story into a trip</p><h2>Explore the places.</h2><p>Find the attractions, activities and stays behind your next journey.</p><a class="text-link" href="/countries">Browse destinations →</a></div>
+      </aside>
+    </div> : <div><h2>Stories are on their way.</h2><p>In the meantime, explore our destination guides.</p><a class="button" href="/countries">Explore destinations</a></div>}
+  </div></section>
+  {videos.length > 0 && <section id="watch" class="section section--alt"><div class="container"><p class="eyebrow">Moving stories</p><h2>Watch & explore.</h2><div class="journal-video-grid">{videos.map((story) => <article><VideoStory url={story.video_url} title={story.title} /><h3><a href={story.internalUrl}>{story.title}</a></h3></article>)}</div></div></section>}
+  {stories.length > 0 && <section id="in-pictures" class="section section--alt"><div class="container"><p class="eyebrow">Africa in pictures</p><h2>A place worth a closer look.</h2><div class="journal-photo-grid">{stories.filter((story) => story.hero_image_url).slice(0, 4).map((story) => <a class="journal-photo" href={story.internalUrl}><ImageSlot class="insight-image" src={story.hero_image_url} alt={story.hero_image_alt || story.title} /><span>{story.country || story.category}<strong>{story.title}</strong></span></a>)}</div></div></section>}
+</SiteLayout>

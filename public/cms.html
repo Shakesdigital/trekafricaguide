@@ -981,9 +981,17 @@
         <span class="nav-icon">🏔️</span> Attractions
         <span class="nav-badge" id="badge-attractions">–</span>
       </button>
+      <button class="nav-item" data-tab="activities" onclick="switchTab('activities')">
+        <span class="nav-icon">🥾</span> Activities
+        <span class="nav-badge" id="badge-activities">–</span>
+      </button>
       <button class="nav-item" data-tab="accommodations" onclick="switchTab('accommodations')">
         <span class="nav-icon">🛏️</span> Accommodations
         <span class="nav-badge" id="badge-accommodations">–</span>
+      </button>
+      <button class="nav-item" data-tab="travel_articles" onclick="switchTab('travel_articles')">
+        <span class="nav-icon">📰</span> Travel Insights
+        <span class="nav-badge" id="badge-travel_articles">–</span>
       </button>
       <button class="nav-item" data-tab="restaurants" onclick="switchTab('restaurants')">
         <span class="nav-icon">🍽️</span> Restaurants
@@ -1062,6 +1070,8 @@
       <div class="page" id="page-regions"></div>
       <div class="page" id="page-countries"></div>
       <div class="page" id="page-attractions"></div>
+      <div class="page" id="page-activities"></div>
+      <div class="page" id="page-travel_articles"></div>
       <div class="page" id="page-accommodations"></div>
       <div class="page" id="page-restaurants"></div>
       <div class="page" id="page-tour_operators"></div>
@@ -1212,9 +1222,9 @@ async function loadReferenceData() {
 }
 
 async function loadStats() {
-  const tables = ['regions','countries','attractions','accommodations','restaurants','tour_operators','page_sections','site_settings'];
-  const icons  = ['🗺️','🏳️','🏔️','🛏️','🍽️','🧭','🏠','⚙️'];
-  const labels = ['Regions','Countries','Attractions','Stays','Restaurants','Tour Ops','Sections','Settings'];
+  const tables = ['regions','countries','attractions','activities','accommodations','restaurants','tour_operators','travel_articles','page_sections','site_settings'];
+  const icons  = ['🗺️','🏳️','🏔️','🥾','🛏️','🍽️','🧭','📰','🏠','⚙️'];
+  const labels = ['Regions','Countries','Attractions','Activities','Stays','Restaurants','Tour Ops','Travel Insights','Sections','Settings'];
 
   const counts = await Promise.all(
     tables.map(t => sb.from(t).select('*', { count: 'exact', head: true }))
@@ -1245,6 +1255,8 @@ const TAB_CONFIG = {
   regions:        { label: 'Regions',        table: 'regions' },
   countries:      { label: 'Destinations',   table: 'countries' },
   attractions:    { label: 'Attractions',    table: 'attractions' },
+  activities:     { label: 'Activities',     table: 'activities' },
+  travel_articles:{ label: 'Travel Insights',table: 'travel_articles' },
   accommodations: { label: 'Accommodations', table: 'accommodations' },
   restaurants:    { label: 'Restaurants',    table: 'restaurants' },
   tour_operators: { label: 'Tour Operators', table: 'tour_operators' },
@@ -1283,6 +1295,7 @@ function switchTab(tab) {
 function singularLabel(tab) {
   const map = {
     regions: 'Region', countries: 'Country', attractions: 'Attraction',
+    activities: 'Activity', travel_articles: 'Story',
     accommodations: 'Accommodation', restaurants: 'Restaurant',
     tour_operators: 'Tour Operator', page_sections: 'Section',
     site_settings: 'Setting',
@@ -1321,6 +1334,8 @@ function renderSectionShell(tab, bodyContent) {
     regions: 'Mirrors each regional landing page and its hero presentation.',
     countries: 'Mirrors destination country pages, including the hero and planning sections.',
     attractions: 'Mirrors attraction listing cards and detail pages on the front end.',
+    activities: 'Attraction-linked activity cards, planning details, and verified provider links.',
+    travel_articles: 'Editorial story archive, cover images, optional verified video, and article copy.',
     accommodations: 'Mirrors accommodation listing cards and stay detail pages.',
     restaurants: 'Mirrors restaurant listing cards and dining detail pages.',
     tour_operators: 'Mirrors operator cards displayed inside attraction pages.',
@@ -1430,7 +1445,7 @@ function openModal(tab, id) {
   const isNew = !editRecord;
   document.getElementById('modal-title').textContent = isNew ? `New ${singularLabel(tab)}` : `Edit ${singularLabel(tab)}`;
   document.getElementById('modal-subtitle').textContent = 'Every block below maps to a visible front-end component.';
-  document.getElementById('modal-body').innerHTML = buildForm(tab, editRecord);
+  document.getElementById('modal-body').innerHTML = buildForm(tab, editRecord) + (['activities', 'travel_articles'].includes(tab) ? newContentExtras(tab, editRecord || {}) : '');
   document.getElementById('modal').classList.add('open');
 
   // Wire up image URL live preview
@@ -1501,9 +1516,25 @@ async function saveRecord() {
 
   try {
     const payload = await readForm(modalResource);
+    if (['activities', 'travel_articles'].includes(modalResource)) {
+      const value = (name) => document.getElementById('field-' + name)?.value?.trim() || null;
+      if (!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(payload.slug || '')) throw new Error('Use a URL slug with lowercase letters, numbers and hyphens.');
+      if (!(payload.name || payload.title) || !(payload.listing_summary || payload.excerpt)) throw new Error('A title and summary are required.');
+      if (modalResource === 'activities' && !payload.attraction_id) throw new Error('Choose an attraction for this activity.');
+      for (const key of ['booking_url', 'source_url', 'video_url', 'hero_image_url']) {
+        if (payload[key] && !/^https?:\/\//i.test(payload[key]) && !(key === 'hero_image_url' && (/^\/(?!\/)/.test(payload[key]) || /^image-slot:[a-z0-9-]+$/.test(payload[key])))) throw new Error(key + ' must be a valid HTTP or HTTPS URL.');
+      }
+      payload.sort_order = Number.isFinite(payload.sort_order) ? payload.sort_order : 0;
+      payload.published_at = value('published_at') ? new Date(value('published_at')).toISOString() : null;
+      for (const key of ['meta_title', 'meta_description', 'meta_image_url']) payload[key] = value(key);
+      if (modalResource === 'activities') {
+        payload.gallery = galleryState.gallery || [];
+        payload.detail_intro = sanitizeHtml(document.getElementById('rte-detail_intro')?.innerHTML || '') || null;
+      }
+    }
 
     // Hero / main image upload — only for resources that have a hero_image_url column.
-    const HERO_RESOURCES = ['regions', 'countries', 'attractions', 'accommodations', 'restaurants', 'tour_operators'];
+    const HERO_RESOURCES = ['regions', 'countries', 'attractions', 'accommodations', 'restaurants', 'tour_operators', 'activities', 'travel_articles'];
     if (HERO_RESOURCES.includes(modalResource)) {
       const heroFileInput = document.getElementById('field-hero_image_file');
       if (heroFileInput && heroFileInput.files.length > 0) {
@@ -1587,6 +1618,8 @@ function buildForm(tab, rec) {
     case 'regions':        return formRegions(v);
     case 'countries':      return formCountries(v);
     case 'attractions':    return formAttractions(v);
+    case 'activities':     return formActivities(v);
+    case 'travel_articles':return formTravelArticle(v);
     case 'accommodations': return formAccommodations(v);
     case 'restaurants':    return formRestaurants(v);
     case 'tour_operators': return formTourOperators(v);
@@ -1721,6 +1754,29 @@ function formAttractions(v) {
 }
 
 // ── Accommodations ────────────────────────────────────────────
+function newContentExtras(tab, v) {
+  const date = v.published_at ? new Date(v.published_at) : null;
+  const localDate = date && !Number.isNaN(date.getTime()) ? new Date(date.getTime() - date.getTimezoneOffset() * 60000).toISOString().slice(0,16) : '';
+  return section('Images and publishing', 'Publish immediately or choose a future time in your local timezone. The public site updates after its next rebuild.',
+    fileField('Upload cover image','hero_image_file','image/*') +
+    (tab === 'activities' ? galleryManager('gallery', v.gallery) + richField('Short introduction','detail_intro',v.detail_intro,'Optional introduction if no full description is supplied.') : '') +
+    field('Publish at (local time, optional)','published_at','datetime-local','',localDate) +
+    field('SEO title','meta_title','text','Optional search title',v.meta_title) +
+    fieldArea('SEO description','meta_description','Optional search description',v.meta_description) +
+    field('Social share image URL','meta_image_url','url','Optional image URL',v.meta_image_url));
+}
+
+function formActivities(v) {
+  return `${section('Activity identity', 'Attach the activity to an attraction already in the catalogue.', `
+    <div class="form-grid">${selectField('Attraction','attraction_id',allAttractions.map(a=>({value:a.id,label:a.name})),v.attraction_id,true)}${field('Activity name','name','text','Guided forest trek',v.name,true)}${field('URL slug','slug','text','guided-forest-trek',v.slug,true)}${field('Location','location_name','text','Attraction location',v.location_name)}${field('Sort order','sort_order','number','1',v.sort_order)}${selectField('Status','status',[{value:'draft',label:'Draft'},{value:'published',label:'Published'}],v.status||'draft',true)}</div>`)}
+  ${section('Activity listing', 'Card summary and imagery.', `<div class="form-grid">${fieldArea('Summary','listing_summary','Activity card summary',v.listing_summary,true,'form-grid-full')}${field('Image URL','hero_image_url','url','Image URL',v.hero_image_url,false,'form-grid-full')}${field('Image alt text','hero_image_alt','text','Describe image',v.hero_image_alt,false,'form-grid-full')}<div class="field form-grid-full">${checkField('featured','Feature activity',v.featured)}</div></div>`)}
+  ${section('Activity guide', 'Description, highlights, timing, and practical planning.', `<div class="form-grid" style="grid-template-columns:1fr">${richField('Description','full_description',v.full_description,'Activity details.')}${fieldArea('Highlights (one per line)','highlights_text','One highlight per line',arrToLines(v.highlights),false,'form-grid-full')}${richField('Best time to participate','best_time',v.best_time,'Season and timing notes.')}${richField('Planning notes','practical_info',v.practical_info,'Permits, fitness, safety, and logistics.')}${field('Verified booking URL','booking_url','url','Specific provider listing',v.booking_url,false,'form-grid-full')}${field('Activity information source URL','source_url','url','Park authority information',v.source_url,false,'form-grid-full')}</div>`)}`;
+}
+
+function formTravelArticle(v) {
+  return `${section('Editorial story', 'Editable story archive and detail page content.', `<div class="form-grid">${field('Title','title','text','Story title',v.title,true)}${field('URL slug','slug','text','story-title',v.slug,true)}${field('Topic','category','text','Planning Tips',v.category)}${field('Region','region','text','east-africa',v.region)}${field('Country','country','text','Kenya',v.country)}${field('Read time','read_time','text','6 min read',v.read_time)}${field('Sort order','sort_order','number','1',v.sort_order)}${selectField('Status','status',[{value:'draft',label:'Draft'},{value:'published',label:'Published'}],v.status||'draft',true)}<div class="field form-grid-full">${checkField('featured','Feature story',v.featured)}</div>${fieldArea('Summary','excerpt','Card summary',v.excerpt,true,'form-grid-full')}</div><div class="form-grid" style="grid-template-columns:1fr">${richField('Article body','body',v.body,'Full editorial article.')}</div>${field('Cover image URL','hero_image_url','url','Existing cover image URL',v.hero_image_url,false,'form-grid-full')}${field('Cover image alt text','hero_image_alt','text','Image description',v.hero_image_alt,false,'form-grid-full')}${field('Video URL (optional)','video_url','url','Verified video URL',v.video_url,false,'form-grid-full')}${field('Research source URL','source_url','url','Official or primary source',v.source_url,false,'form-grid-full')}`)} `;
+}
+
 function formAccommodations(v) {
   return `
   ${section('Page Identity', 'Used across the stay listing card, detail page, and route placement.',`
@@ -2185,7 +2241,7 @@ async function handleGalleryFiles(name, files) {
 //  AUTO-SLUG (new records only)
 // ═══════════════════════════════════════════════════════════════
 function wireAutoSlug() {
-  const nameEl = document.getElementById('field-name');
+  const nameEl = document.getElementById('field-name') || document.getElementById('field-title');
   const slugEl = document.getElementById('field-slug');
   if (!nameEl || !slugEl) return;
   let touched = false;
@@ -2252,6 +2308,22 @@ async function readForm(tab) {
       full_description: rich('full_description'),
       highlights: highlightUrls('highlights_text'),
       booking_url: valOrNull('booking_url'),
+    };
+    case 'activities': return {
+      attraction_id: intVal('attraction_id'), name: val('name'), slug: val('slug'),
+      location_name: valOrNull('location_name'), sort_order: intVal('sort_order'),
+      listing_summary: val('listing_summary'), featured: bool('featured'),
+      full_description: rich('full_description'), highlights: highlightUrls('highlights_text'),
+      best_time: rich('best_time'), practical_info: rich('practical_info'),
+      hero_image_url: valOrNull('hero_image_url'), hero_image_alt: valOrNull('hero_image_alt'),
+      booking_url: valOrNull('booking_url'), source_url: valOrNull('source_url'), status: val('status') || 'draft',
+    };
+    case 'travel_articles': return {
+      title: val('title'), slug: val('slug'), category: valOrNull('category'), region: valOrNull('region'),
+      country: valOrNull('country'), read_time: valOrNull('read_time'), sort_order: intVal('sort_order'),
+      featured: bool('featured'), excerpt: val('excerpt'), body: rich('body') || '',
+      hero_image_url: valOrNull('hero_image_url'), hero_image_alt: valOrNull('hero_image_alt'),
+      video_url: valOrNull('video_url'), source_url: valOrNull('source_url'), status: val('status') || 'draft',
     };
     case 'accommodations': return {
       region_id: intVal('region_id'), country_id: intVal('country_id'),
@@ -2408,6 +2480,3 @@ boot();
 </script>
 </body>
 </html>
-
-
-

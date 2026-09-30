@@ -60,6 +60,30 @@ document.querySelectorAll('[data-search-ribbon]').forEach((ribbon) => {
   });
 });
 
+document.querySelectorAll('[data-listing-archive]').forEach((archive) => {
+  const select = archive.querySelector('[data-country-filter]');
+  const cards = [...archive.querySelectorAll('[data-card-type]')];
+  const update = () => {
+    let count = 0;
+    cards.forEach((card) => { card.hidden = !!select.value && card.dataset.country !== select.value; if (!card.hidden) count++; });
+    archive.querySelector('[data-listing-count]').textContent = count + (count === 1 ? ' activity' : ' activities');
+    archive.querySelector('[data-listing-empty]').hidden = count > 0 || cards.length === 0;
+  };
+  const country = new URLSearchParams(location.search).get('country');
+  if (country && [...select.options].some((option) => option.value === country)) select.value = country;
+  select.addEventListener('change', update);
+  archive.querySelector('form').addEventListener('submit', (event) => { event.preventDefault(); update(); });
+  update();
+});
+document.querySelectorAll('[data-story-archive]').forEach((archive) => {
+  const select = archive.querySelector('[data-story-topic]');
+  select.addEventListener('change', () => {
+    const rows = [...archive.querySelectorAll('[data-story-category]')];
+    rows.forEach((row) => { row.hidden = !!select.value && row.dataset.storyCategory !== select.value; });
+    archive.querySelector('[data-story-empty]').hidden = rows.some((row) => !row.hidden);
+  });
+});
+
 const navToggle = document.querySelector('[data-nav-toggle]');
 const navMenu = document.querySelector('[data-nav-menu]');
 

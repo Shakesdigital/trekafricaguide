@@ -1,0 +1,22 @@
+---
+import SiteLayout from '../../layouts/SiteLayout.astro';
+import VideoStory from '../../components/VideoStory.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import ImageSlot from '../../components/ImageSlot.astro';
+import { getSiteModel } from '../../lib/site-model.mjs';
+import { sanitizeRichText } from '../../lib/content-html.mjs';
+const model = await getSiteModel();
+export async function getStaticPaths() {
+  const model = await getSiteModel();
+  return model.travelArticles.map((story) => ({ params: { slug: story.slug }, props: { story } }));
+}
+const { story } = Astro.props;
+---
+<SiteLayout model={model} title={story.meta_title || story.title} description={story.meta_description || story.excerpt} image={story.meta_image_url || story.hero_image_url}>
+  <section class="section"><div class="container article-container"><Breadcrumbs items={[{ label: 'Travel Insights', href: '/travel-insights' }, { label: story.title }]} />
+    <header class="article-heading"><p class="eyebrow">{story.category}{story.read_time ? ` · ${story.read_time}` : ''}</p><h1>{story.title}</h1><p class="article-deck">{story.excerpt}</p></header>
+    <ImageSlot src={story.hero_image_url} alt={story.hero_image_alt || story.title} class="article-cover" />
+    {story.video_url && <VideoStory url={story.video_url} title={story.title} />}
+    <div class="article-body rich-text" set:html={sanitizeRichText(story.body || '')} />
+  </div></section>
+</SiteLayout>

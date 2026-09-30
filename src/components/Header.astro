@@ -1,11 +1,11 @@
 ---
 const { brand, activePath = '/' } = Astro.props;
 const navItems = [
-  ['Regions', '/regions'],
   ['Destinations', '/countries'],
   ['Attractions', '/attractions'],
+  ['Activities', '/activities'],
   ['Accommodations', '/accommodations'],
-  ['Contact', '/contact'],
+  ['Travel Insights', '/travel-insights'],
 ];
 ---
 <div class="site-topline">
@@ -27,7 +27,7 @@ const navItems = [
       <span></span><span></span><span></span>
     </button>
     <nav class="site-nav" data-nav-menu>
-      {navItems.map(([label, href]) => <a href={href} class={activePath === href ? 'is-active' : ''}>{label}</a>)}
+      {navItems.map(([label, href]) => <a href={href} class={(activePath === href || activePath.startsWith(href + '/')) ? 'is-active' : ''}>{label}</a>)}
     </nav>
   </div>
 </header>
