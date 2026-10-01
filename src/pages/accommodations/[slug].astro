@@ -6,6 +6,7 @@ import ListingCard from '../../components/ListingCard.astro';
 import BookingOffers from '../../components/BookingOffers.astro';
 import { getSiteModel } from '../../lib/site-model.mjs';
 import { normalizeList } from '../../lib/images.mjs';
+import { photoContext } from '../../lib/photo-defaults.mjs';
 
 export async function getStaticPaths() {
   const model = await getSiteModel();
@@ -24,7 +25,7 @@ const { accommodation } = Astro.props;
         <h1>{accommodation.name}</h1>
         <p class="detail-hero__summary">{accommodation.detail_intro || accommodation.listing_summary}</p>
       </div>
-      <Gallery images={normalizeList(accommodation.gallery).length ? normalizeList(accommodation.gallery) : [accommodation.hero_image_url]} alt={accommodation.name} />
+      <Gallery images={normalizeList(accommodation.gallery).length ? normalizeList(accommodation.gallery) : [accommodation.hero_image_url]} alt={accommodation.name} caption={photoContext(accommodation.hero_image_url)} />
     </div>
   </section>
   <section class="section">

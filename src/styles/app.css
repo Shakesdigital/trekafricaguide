@@ -2173,3 +2173,10 @@ img.page-hero__slot {
 .search-ribbon__query li:hover, .search-ribbon__query li:focus { background:var(--sand); outline:none; }
 @media (min-width:820px) { .search-ribbon { grid-template-columns:auto minmax(14rem,1fr) 2fr auto; align-items:end; } .search-ribbon__modes { align-self:center; } }
 @media (max-width:819px) { .search-ribbon__stay-fields, .search-ribbon__attraction-fields { grid-template-columns:repeat(2,minmax(0,1fr)); } .search-ribbon>.button { width:100%; } }
+
+/* Starter photographs and readable source credits. */
+.photo-context, .photo-credits { display:block; font-size:.78rem; line-height:1.6; color:var(--muted); }
+.photo-credits a { text-decoration:underline; }
+.gallery-grid--pair { grid-template-columns:repeat(2,minmax(0,1fr)); }
+.gallery-grid--pair > .gallery-grid__slot:first-child, .gallery-grid--pair > img:first-child, .gallery-grid--pair > .gallery-grid__slot { grid-column:auto; grid-row:auto; height:22rem; }
+@media (max-width:600px) { .gallery-grid--pair { grid-template-columns:1fr; } .gallery-grid--pair > .gallery-grid__slot:first-child, .gallery-grid--pair > img:first-child, .gallery-grid--pair > .gallery-grid__slot { height:15rem; } }

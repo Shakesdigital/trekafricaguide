@@ -1,0 +1,18 @@
+---
+import SiteLayout from '../layouts/SiteLayout.astro';
+import { photoLibrary } from '../lib/photo-library.js';
+---
+<SiteLayout title="Photography credits" description="Sources, photographers and reuse licences for our destination photography.">
+  <section class="section"><div class="container">
+    <p class="eyebrow">The places behind the photographs</p>
+    <h1>Photography credits</h1>
+    <p>These photographs are freely licensed for commercial reuse under the individual licences linked below. Images may be resized and cropped for display; share-alike licences continue to apply to the photographs. Destination photographs on accommodation listings show the surrounding area, unless identified as photographs of the property.</p>
+    <div class="credit-grid">
+      {Object.entries(photoLibrary.images).map(([src, credit]) => <figure>
+        <img src={src} alt={credit.alt || credit.subject} loading="lazy" width="480" height="300" />
+        <figcaption><strong>{credit.subject}</strong><br />{credit.title || credit.alt}<br />{credit.creator} · <a href={credit.license_url}>{credit.license}</a><br /><a href={credit.source_page}>Original photograph and licence</a></figcaption>
+      </figure>)}
+    </div>
+  </div></section>
+</SiteLayout>
+<style>.credit-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:2rem;margin-top:2rem}.credit-grid figure{margin:0}.credit-grid img{width:100%;height:190px;object-fit:cover;border-radius:12px}.credit-grid figcaption{padding-top:.6rem;line-height:1.7}</style>

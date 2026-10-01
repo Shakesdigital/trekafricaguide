@@ -1317,8 +1317,13 @@ async function loadTab(tab) {
 
   if (error) { toast(`Error loading ${tab}: ${error.message}`, 'error'); return; }
 
-  tableData[tab] = data || [];
-  page.innerHTML = renderSectionShell(tab, renderTableRows(tab, data || []));
+  let rows = data || [];
+  try {
+    const { applyPhotoDefaults } = await import('/photo-defaults.js');
+    rows = rows.map(row => applyPhotoDefaults(tab, row));
+  } catch (error) { console.warn('Starter photo library unavailable', error); }
+  tableData[tab] = rows;
+  page.innerHTML = renderSectionShell(tab, renderTableRows(tab, rows));
 }
 
 function filterTab(tab, query) {
@@ -1446,6 +1451,9 @@ function openModal(tab, id) {
   document.getElementById('modal-title').textContent = isNew ? `New ${singularLabel(tab)}` : `Edit ${singularLabel(tab)}`;
   document.getElementById('modal-subtitle').textContent = 'Every block below maps to a visible front-end component.';
   document.getElementById('modal-body').innerHTML = buildForm(tab, editRecord) + (['activities', 'travel_articles'].includes(tab) ? newContentExtras(tab, editRecord || {}) : '');
+  if (editRecord?.hero_image_url?.startsWith('/images/stock/')) {
+    document.getElementById('modal-body').insertAdjacentHTML('afterbegin', '<p class="help-text">Starter photography is shown below and will be saved with this record. You can replace it with your own images. Destination images on accommodation listings show the area, not the property. <a href="/photo-credits" target="_blank" rel="noopener">View photo credits and licences</a>.</p>');
+  }
   document.getElementById('modal').classList.add('open');
 
   // Wire up image URL live preview

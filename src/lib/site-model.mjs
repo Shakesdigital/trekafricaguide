@@ -5,6 +5,7 @@ import { resolveImage, pickHero, pickGallery, normalizeList, resolveHeroMedia } 
 import { loadContent } from './content-repository.mjs';
 import { createPublicClient } from './supabase.mjs';
 import { readBuildEnv } from './env.mjs';
+import { applyPhotoDefaults } from './photo-defaults.mjs';
 
 let cachedModelPromise = null;
 
@@ -15,6 +16,8 @@ let cachedModelPromise = null;
  * @returns {SiteModel}
  */
 export function buildSiteModel(tables, now = new Date()) {
+  tables = Object.fromEntries(Object.entries(tables).map(([table, rows]) =>
+    [table, Array.isArray(rows) ? rows.map((row) => applyPhotoDefaults(table, row)) : rows]));
   // Build lookup maps by ID
   const regionsById = new Map();
   const countriesById = new Map();

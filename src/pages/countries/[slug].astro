@@ -3,6 +3,7 @@ import SiteLayout from '../../layouts/SiteLayout.astro';
 import PageHero from '../../components/PageHero.astro';
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import ListingCard from '../../components/ListingCard.astro';
+import Gallery from '../../components/Gallery.astro';
 import { getSiteModel } from '../../lib/site-model.mjs';
 
 export async function getStaticPaths() {
@@ -22,6 +23,7 @@ const stays = model.accommodations.filter((item) => item.country_id === country.
     <div class="container detail-grid">
       <div class="detail-main">
         <div class="detail-section"><h2>Destination guide</h2><p>{country.overview}</p></div>
+        {country.gallery?.length > 0 && <Gallery images={country.gallery} alt={country.name} />}
         <div class="detail-section"><h2>Getting around</h2><p>{country.access_summary}</p></div>
         <div class="detail-section"><h2>Best time</h2><p>{country.best_time}</p></div>
         <div class="detail-section"><h2>Planning notes</h2><p>{country.planning_tips}</p></div>

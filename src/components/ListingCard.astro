@@ -1,5 +1,6 @@
 ---
 import ImageSlot from './ImageSlot.astro';
+import { photoContext } from '../lib/photo-defaults.mjs';
 const { item, type = 'attraction' } = Astro.props;
 const isStay = type === 'accommodation';
 const isActivity = type === 'activity';
@@ -12,6 +13,7 @@ const location = [item.location_name, item.country?.name].filter(Boolean).join('
     <ImageSlot class="listing-card__slot" src={item.hero_image_url || item.image_slot} alt={item.hero_image_alt || item.name} />
   </a>
   <div class="listing-card__body">
+    {isStay && photoContext(item.hero_image_url) && <small class="photo-context">{photoContext(item.hero_image_url)}</small>}
     <p class="listing-card__eyebrow">{item.name}{location ? ` · ${location}` : ''}</p>
     <h3><a href={href}>{item.name}</a></h3>
     <p>{item.listing_summary || item.detail_intro || item.overview}</p>

@@ -1,8 +1,13 @@
 ---
 import ImageSlot from './ImageSlot.astro';
-const { images = [], alt = 'Travel gallery' } = Astro.props;
+import { photoLibrary } from '../lib/photo-library.js';
+import { resolveImage } from '../lib/images.mjs';
+const { images = [], alt = 'Travel gallery', caption = '' } = Astro.props;
 const gallery = images.length ? images : [null];
+const credits = [...new Set(gallery.map(resolveImage))].map((src) => photoLibrary.images[src]).filter(Boolean);
 ---
-<div class={`gallery-grid ${gallery.length === 1 ? 'gallery-grid--single' : ''}`} data-gallery>
-  {gallery.map((src, index) => <ImageSlot class="gallery-grid__slot" src={src} alt={`${alt} ${index + 1}`} />)}
+<div class={`gallery-grid ${gallery.length === 1 ? 'gallery-grid--single' : ''} ${gallery.length === 2 ? 'gallery-grid--pair' : ''}`} data-gallery>
+  {gallery.map((src, index) => <ImageSlot class="gallery-grid__slot" src={src} alt={photoLibrary.images[resolveImage(src)]?.alt || `${alt} ${index + 1}`} />)}
 </div>
+{caption && <p class="photo-context">{caption}</p>}
+{credits.length > 0 && <p class="photo-credits">Photos: {credits.map((credit, index) => <span>{index > 0 && ' · '}<a href={credit.source_page}>{credit.creator}</a> (<a href={credit.license_url}>{credit.license}</a>)</span>)}. Displayed images may be resized or cropped. <a href="/photo-credits">Photo details</a>.</p>}
