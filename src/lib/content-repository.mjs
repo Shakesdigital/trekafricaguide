@@ -36,6 +36,8 @@ export function visibleRecords(records, now = new Date()) {
  * @property {Array} districts
  * @property {Array} attractions
  * @property {Array} accommodations
+ * @property {Array} restaurants
+ * @property {Array} tour_operators
  * @property {Array} booking_offers
  * @property {Array} site_settings
  * @property {Array} page_sections
@@ -50,6 +52,8 @@ const TABLE_NAMES = [
   'activities',
   'travel_articles',
   'accommodations',
+  'restaurants',
+  'tour_operators',
   'booking_offers',
   'site_settings',
   'page_sections',
@@ -92,6 +96,7 @@ export async function loadPublishedTables(client, now = new Date()) {
   tables.activities = visibleRecords(tables.activities, now);
   tables.travel_articles = visibleRecords(tables.travel_articles, now);
   tables.accommodations = visibleRecords(tables.accommodations, now);
+  tables.restaurants = visibleRecords(tables.restaurants, now);
   tables.districts = visibleRecords(tables.districts, now);
   tables.page_sections = visibleRecords(tables.page_sections, now);
   tables.media_assets = visibleRecords(tables.media_assets, now);

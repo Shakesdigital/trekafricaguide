@@ -1,6 +1,6 @@
 const cfg = window.TREK_SUPABASE || {};
-const hasConfig = Boolean(cfg.url && cfg.anonKey);
-const supabase = hasConfig ? window.supabase.createClient(cfg.url, cfg.anonKey) : null;
+const hasConfig = Boolean(cfg.configured && cfg.url && cfg.publishableKey);
+const supabase = hasConfig ? window.supabase.createClient(cfg.url, cfg.publishableKey) : null;
 
 const $ = (selector) => document.querySelector(selector);
 const $$ = (selector) => [...document.querySelectorAll(selector)];
@@ -28,7 +28,7 @@ function setView(view) {
 
 async function loadSession() {
     if (!hasConfig) {
-        showNotice('Add your Supabase URL and anon key in /suppliers/supabase-config.js to activate registration, dashboard, bookings, and payouts.');
+        showNotice(cfg.message || 'Supabase public configuration is missing. Add SUPABASE_URL and SUPABASE_PUBLISHABLE_KEY in Netlify to activate registration, dashboard, bookings, and payouts.');
         return;
     }
 

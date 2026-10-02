@@ -41,8 +41,8 @@ country_content as (
     $country_content$::jsonb) as row(slug text, hero_title text, hero_text text, overview text)
 )
 insert into public.countries (region_id, slug, name, hero_title, hero_text, overview, sort_order, status, published_at)
-select region.id, content.slug, initcap(replace(content.slug, '-', ' ')), content.hero_title, content.hero_text, content.overview, row_number() over (order by content.slug), 'published', now()
-from content join catalogue on catalogue.slug = content.slug join public.regions as region on region.slug = catalogue.region_slug
+select region.id, country_content.slug, initcap(replace(country_content.slug, '-', ' ')), country_content.hero_title, country_content.hero_text, country_content.overview, row_number() over (order by country_content.slug), 'published', now()
+from country_content join catalogue on catalogue.slug = country_content.slug join public.regions as region on region.slug = catalogue.region_slug
 on conflict (slug) do update set region_id = excluded.region_id, name = excluded.name, hero_title = excluded.hero_title, hero_text = excluded.hero_text, overview = excluded.overview, sort_order = excluded.sort_order, status = excluded.status, published_at = excluded.published_at, updated_at = now();
 
 insert into public.districts (country_id, slug, name, overview, sort_order)
@@ -156,11 +156,11 @@ insert into public.media_assets (
     mediable_type, mediable_id, role, local_path, url, alt_text, source_page, creator,
     license, license_url, exact_subject_match, attribution_text, status, published_at, sort_order
 )
-select assignment.entity_type, owners.mediable_id, assignment.role, assignment.local_path,
-    assignment.local_path, assignment.alt_text, assignment.source_page, assignment.creator,
-    assignment.license, assignment.license_url, assignment.exact_subject_match,
-    assignment.attribution_text, 'published', now(),
-    row_number() over (partition by assignment.entity_type order by assignment.entity_slug)
+select assignments.entity_type, owners.mediable_id, assignments.role, assignments.local_path,
+    assignments.local_path, assignments.alt_text, assignments.source_page, assignments.creator,
+    assignments.license, assignments.license_url, assignments.exact_subject_match,
+    assignments.attribution_text, 'published', now(),
+    row_number() over (partition by assignments.entity_type order by assignments.entity_slug)
 from assignments
 join owners using (entity_type, entity_slug)
 on conflict (mediable_type, mediable_id, role, source_page) do update set
