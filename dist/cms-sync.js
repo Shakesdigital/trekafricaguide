@@ -84,6 +84,8 @@
       regions: '/regions',
       countries: '/countries',
       attractions: '/attractions',
+      activities: '/activities',
+      travel_articles: '/travel-insights',
       accommodations: '/accommodations',
       restaurants: '/restaurants',
     };
@@ -290,7 +292,7 @@
         </div>
       </section>
       <section class="section"><div class="container">${ribbonMarkup('attractions')}</div></section>
-      <section class="section"><div class="container two-column"><div><p class="eyebrow">${esc(intro.eyebrow || 'Overview')}</p><h2>${esc(intro.title || 'Africa travel planning')}</h2><div class="rich-text">${rich(intro.body || setting('default_meta_description'))}</div></div><div class="info-panel"><h3>How Trek Africa Guide works</h3><ul class="bullet-list"><li>Start with regions and destination countries.</li><li>Compare attractions, stays, restaurants, and booking paths.</li><li>Open a listing detail page before checking external.</li></ul></div></div></section>
+      <section class="section"><div class="container two-column"><div><p class="eyebrow">${esc(intro.eyebrow || 'Overview')}</p><h2>${esc(intro.title || 'Africa travel planning')}</h2><div class="rich-text">${rich(intro.body || setting('default_meta_description'))}</div></div><div class="info-panel"><h3>How Trek Africa Guide works</h3><ul class="bullet-list"><li>Start with regions and destination countries.</li><li>Compare attractions, stays, restaurants, and booking paths.</li><li>Open a listing detail page before checking external providers.</li></ul></div></div></section>
       ${homeBlock('Featured Regions', regions.map((region) => listingCard({ href: route('regions', region.slug), image: region.hero_image_url, title: region.name, summary: plain(region.overview), eyebrow: 'Region', chips: ['Regional guide'] })))}
       ${homeBlock('Featured Attractions', attractions.map(attractionCard))}
       ${homeBlock('Featured Accommodations', stays.map(accommodationCard))}
@@ -303,6 +305,12 @@
     const country = getCountry(item.country_id);
     const region = getRegion(item.region_id);
     return listingCard({ href: route('attractions', item.slug), image: item.hero_image_url, title: item.name, summary: item.listing_summary, eyebrow: [item.location_name, country?.name].filter(Boolean).join(', '), chips: [region?.name], entity: item, entityType: 'attraction', cta: 'View attraction detail' });
+  }
+
+  function activityCard(item) {
+    const attraction = getAttraction(item.attraction_id);
+    const country = attraction && getCountry(attraction.country_id);
+    return listingCard({ href: route('activities', item.slug), image: item.hero_image_url || attraction?.hero_image_url, title: item.name, summary: item.listing_summary, eyebrow: [attraction?.name, country?.name].filter(Boolean).join(' · '), chips: [country?.name], entity: item, entityType: 'activity', cta: 'View Activity Detail' });
   }
 
   function accommodationCard(item) {
@@ -342,7 +350,7 @@
       ${lines(country.gallery).length ? `<section class="section section--alt"><div class="container"><div class="section-heading section-heading--compact"><p class="eyebrow">Hero Gallery</p><h2>More visuals from ${esc(country.name)}</h2></div>${gallery(country.gallery, null, country.name)}</div></section>` : ''}
       <section class="section"><div class="container detail-grid"><div class="detail-main"><h2>Destination guide to ${esc(country.name)}</h2><div class="rich-text">${rich(country.overview)}</div><div class="detail-section"><h3>Getting around</h3><div class="rich-text">${rich(country.access_summary)}</div></div><div class="detail-section"><h3>Best time to visit</h3><div class="rich-text">${rich(country.best_time)}</div></div><div class="detail-section"><h3>Planning notes</h3><div class="rich-text">${rich(country.planning_tips)}</div></div></div><aside class="detail-rail"><div class="booking-panel"><p class="booking-panel__eyebrow">Destination at a glance</p><h3>${esc(country.name)}</h3><ul class="bullet-list"><li>${attractions.length} attractions listed</li><li>${operators.length} tour operator profiles</li><li>${stays.length} accommodations nearby</li><li>${restaurants.length} recommended restaurants</li></ul></div></aside></div></section>
       <section class="section section--alt"><div class="container"><div class="section-heading"><p class="eyebrow">Attractions</p><h2>Tourist attractions in ${esc(country.name)}</h2></div>${grid(attractions.map(attractionCard))}</div></section>
-      <section class="section"><div class="container two-column"><div><div class="section-heading section-heading--compact"><p class="eyebrow">Tour operators</p><h2>Operators that can help shape the route</h2></div><div class="stack-grid">${operators.map(operatorCard).join('')}</div></div><div><div class="section-heading section-heading--compact"><p class="eyebrow">Nearby stays</p><h2>Stays that keep you close to the experience</h2></div><div class="stack-grid">${stays.map(accommodationCard).join('')}</div></div></div></section>
+      <section class="section"><div classcontainer two-column"><div><div class="section-heading section-heading--compact"><p class="eyebrow">Tour operators</p><h2>Operators that can help shape the route</h2></div><div class="stack-grid">${operators.map(operatorCard).join('')}</div></div><div><div class="section-heading section-heading--compact"><p class="eyebrow">Nearby stays</p><h2>Stays that keep you close to the experience</h2></div><div class="stack-grid">${stays.map(accommodationCard).join('')}</div></div></div></section>
       <section class="section section--alt"><div class="container"><div class="section-heading"><p class="eyebrow">Dining</p><h2>Dining ideas that add flavor to the journey</h2></div>${grid(restaurants.map(restaurantCard))}</div></section>`;
   }
 
@@ -358,6 +366,7 @@
     const stays = (tables.accommodations || []).filter((stay) => Number(stay.attraction_id) === Number(item.id)).slice(0, 4);
     const restaurants = (tables.restaurants || []).filter((restaurant) => Number(restaurant.attraction_id) === Number(item.id)).slice(0, 4);
     const operators = (tables.tour_operators || []).filter((operator) => Number(operator.attraction_id) === Number(item.id) || Number(operator.country_id) === Number(item.country_id)).slice(0, 6);
+    const activities = (tables.activities || []).filter((activity) => Number(activity.attraction_id) === Number(item.id)).slice(0, 6);
     const highlights = lines(item.highlights);
     const attractionBookingUrl = stay22Link(item, { source_url: item.booking_url, stay22_provider: 'getyourguide', affiliate_supported: true }, liveSearch());
     main.innerHTML = `
@@ -372,8 +381,9 @@
         <div class="detail-section"><h3>Full description</h3><div class="rich-text">${rich(item.full_description)}</div></div>
         ${operators.length ? `<div class="detail-section"><h3>Tour operators active here</h3><div class="stack-grid">${operators.map(detailOperatorCard).join('')}</div></div>` : ''}
       </div>${bookingPanel({ eyebrow: 'Plan your visit', price: item.price_label || 'Free to explore', where: item.location_name, cta: 'Check tours & tickets', url: attractionBookingUrl, trust: [{ icon: 'shield', text: 'Opens an external provider page' }, { icon: 'check', text: 'Live dates and pricing are checked off-site' }, { icon: 'info', text: 'No payment is taken on this page' }] })}</div></section>
+      ${activities.length ? `<section class="section section--alt"><div class="container"><div class="section-heading section-heading--compact"><p class="eyebrow">Experiences here</p><h2>Activities done here</h2></div>${grid(activities.map((a) => { const card = activityCard(a); return card.replace('View Activity Detail','View Activity Details'); }))}</div></section>` : ''}
       <section class="section section--alt"><div class="container"><div class="section-heading section-heading--compact"><p class="eyebrow">Nearby stays</p><h2>Accommodations near ${esc(item.name)}</h2></div>${grid(stays.map(accommodationCard))}</div></section>
-      <section class="section section--alt"><div class="container"><div class="section-heading section-heading--compact"><p class="eyebrow">Nearby</p><h2>Restaurants near ${esc(item.name)}</h2></div>${grid(restaurants.map(restaurantCard))}</div></section>`;
+      <section class="section section--alt"><div class="container"><div class="section-heading section-heading--compact"><p class="eyebrow">Nearby dining</p><h2>Restaurants near ${esc(item.name)}</h2></div>${grid(restaurants.map(restaurantCard))}</div></section>`;
   }
 
   function renderAccommodation(slug) {
@@ -394,6 +404,18 @@
         ${attraction ? `<div class="detail-section"><h3>Best nearby attraction</h3><p><a href="${route('attractions', attraction.slug)}">${esc(attraction.name)}</a> is the clearest anchor for this stay.</p></div>` : ''}
       </div>${bookingPanel({ eyebrow: 'Where to book', price: item.price_label || 'Rates on request', where: item.location_name, cta: 'Check stay availability', url: stayBookingUrl, trust: [{ icon: 'shield', text: 'Opens an external provider page' }, { icon: 'check', text: 'Live availability and rates are checked off-site' }, { icon: 'info', text: 'No payment is taken on this page' }] })}</div></section>
       <section class="section section--alt"><div class="container"><div class="section-heading section-heading--compact"><p class="eyebrow">Nearby attractions</p><h2>Continue planning around this stay</h2></div>${grid(nearby.map(attractionCard))}</div></section>`;
+  }
+
+  function renderActivity(slug) {
+    const item = bySlug(tables.activities || [], slug);
+    if (!item) return;
+    const attraction = getAttraction(item.attraction_id);
+    const country = attraction && getCountry(attraction.country_id);
+    const highlights = lines(item.highlights);
+    const stays = (tables.accommodations || []).filter((stay) => Number(stay.attraction_id) === Number(attraction?.id)).slice(0, 4);
+    main.innerHTML = `${listingHero({ eyebrow: `${country?.name || ''} • ${attraction?.name || ''}`, title: item.name, summary: item.listing_summary, images: item.gallery, image: item.hero_image_url || attraction?.hero_image_url, alt: item.hero_image_alt || item.name })}
+      <section class="section"><div class="container detail-grid"><div class="detail-main"><div class="detail-section"><h2>About this activity</h2><div class="rich-text">${rich(item.full_description)}</div></div>${highlights.length ? `<div class="detail-section"><h2>Highlights</h2>${checkList(highlights)}</div>` : ''}<div class="detail-section"><h2>Best time to participate</h2><div class="rich-text">${rich(item.best_time)}</div></div><div class="detail-section"><h2>Planning notes</h2><div class="rich-text">${rich(item.practical_info)}</div></div>${item.source_url ? `<p><a href="${esc(item.source_url)}" target="_blank" rel="noopener">Activity information and source ↗</a></p>` : ''}<p><a href="${route('attractions', attraction?.slug)}">${esc(attraction?.name || 'Attraction guide')}</a></p></div>${bookingPanel({ eyebrow: 'Booking information', price: '', where: item.location_name, cta: 'Book this activity', url: item.booking_url || '#', trust: [{ icon: 'shield', text: 'Opens an external provider page' }, { icon: 'info', text: 'No payment is taken on this page' }] })}</div></section>
+      <section class="section section--alt"><div class="container"><div class="section-heading"><p class="eyebrow">Nearby stays</p><h2>Stay near ${esc(attraction?.name || '')}</h2></div>${grid(stays.map(accommodationCard))}</div></section>`;
   }
 
   function renderRestaurant(slug) {
@@ -434,7 +456,7 @@
   }
 
   async function load() {
-    const names = ['site_settings', 'page_sections', 'regions', 'countries', 'districts', 'attractions', 'accommodations', 'restaurants', 'tour_operators', 'booking_offers'];
+    const names = ['site_settings', 'page_sections', 'regions', 'countries', 'districts', 'attractions', 'activities', 'travel_articles', 'accommodations', 'restaurants', 'tour_operators', 'booking_offers'];
     const results = await Promise.all(names.map((name) => sb.from(name).select('*').order('id', { ascending: true })));
     results.forEach((result, index) => {
       if (!result.error) tables[names[index]] = result.data || [];
@@ -448,11 +470,14 @@
     if (path === '/regions') return (tables.regions || []).length ? renderIndex('regions', 'Regions', 'Start with the major Africa travel regions.', tables.regions || [], (region) => listingCard({ href: route('regions', region.slug), image: region.hero_image_url, title: region.name, summary: plain(region.overview), eyebrow: 'Region', chips: ['Regional guide'] })) : undefined;
     if (path === '/countries') return (tables.countries || []).length ? renderIndex('countries', 'Destinations', 'Compare destination country guides.', tables.countries || [], (country) => listingCard({ href: route('countries', country.slug), image: country.hero_image_url, title: country.name, summary: plain(country.overview), eyebrow: getRegion(country.region_id)?.name, chips: ['Destination guide'] })) : undefined;
     if (path === '/attractions') return (tables.attractions || []).length ? renderIndex('attractions', 'Attractions', 'Browse tourist attractions and practical travel notes.', tables.attractions || [], attractionCard) : undefined;
+    if (path === '/activities') return (tables.activities || []).length ? renderIndex('activities', 'Activities', 'Browse activities linked to featured attractions.', tables.activities || [], activityCard) : undefined;
+    if (path === '/travel-insights') return (tables.travel_articles || []).length ? renderIndex('travel_articles', 'Travel Insights', 'Editorial guides and planning stories for Africa.', tables.travel_articles || [], (story) => listingCard({ href: `${route('travel_articles', story.slug)}`, image: story.hero_image_url, title: story.title, summary: story.excerpt, eyebrow: story.category, entity: story, cta: 'Read story' })) : undefined;
     if (path === '/accommodations') return (tables.accommodations || []).length ? renderIndex('accommodations', 'Accommodations', 'Browse stays connected to destinations and attractions.', tables.accommodations || [], accommodationCard) : undefined;
     if (path === '/restaurants') return (tables.restaurants || []).length ? renderIndex('restaurants', 'Restaurants', 'Browse recommended restaurants near travel routes.', tables.restaurants || [], restaurantCard) : undefined;
     if (parts[0] === 'regions') return renderRegion(parts[1]);
     if (parts[0] === 'countries') return renderCountry(parts[1]);
     if (parts[0] === 'attractions') return renderAttraction(parts[1]);
+    if (parts[0] === 'activities') return renderActivity(parts[1]);
     if (parts[0] === 'accommodations') return renderAccommodation(parts[1]);
     if (parts[0] === 'restaurants') return renderRestaurant(parts[1]);
   }

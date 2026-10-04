@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trek Africa Guide Marketing Flyer</title>
+    <meta name="description" content="A4 marketing flyer for Trek Africa Guide.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --forest: #13342b;
+            --leaf: #294a30;
+            --ink: #14253b;
+            --paper: #fbf8f1;
+            --sand: #efe7d8;
+            --gold: #c5a45d;
+            --clay: #a75f3d;
+            --sky: #dfeee8;
+            --white: #fffaf0;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        html,
+        body {
+            margin: 0;
+            min-height: 100%;
+            background: #d8d2c5;
+            color: var(--ink);
+        }
+
+        body {
+            display: grid;
+            place-items: center;
+            padding: 24px;
+            font-family: "Manrope", Arial, sans-serif;
+        }
+
+        .flyer {
+            position: relative;
+            width: 794px;
+            min-height: 1123px;
+            overflow: hidden;
+            background:
+                linear-gradient(110deg, rgba(251, 248, 241, 0.98) 0 48%, rgba(251, 248, 241, 0.82) 48% 100%),
+                radial-gradient(circle at 72% 18%, rgba(197, 164, 93, 0.35), transparent 28%),
+                radial-gradient(circle at 88% 66%, rgba(41, 74, 48, 0.18), transparent 30%),
+                var(--paper);
+            box-shadow: 0 28px 80px rgba(20, 37, 59, 0.28);
+        }
+
+        .flyer::before {
+            content: "";
+            position: absolute;
+            inset: 28px;
+            border: 1px solid rgba(20, 37, 59, 0.14);
+            pointer-events: none;
+            z-index: 3;
+        }
+
+        .top-band {
+            position: absolute;
+            inset: 0 0 auto;
+            height: 18px;
+            background: linear-gradient(90deg, var(--forest), var(--leaf), var(--gold), var(--clay));
+        }
+
+        .content {
+            position: relative;
+            z-index: 2;
+            display: grid;
+            grid-template-columns: 1fr 300px;
+            gap: 32px;
+            padding: 52px 54px 38px;
+            min-height: 1123px;
+        }
+
+        .brand {
+            display: inline-flex;
+            align-items: center;
+            gap: 14px;
+            margin-bottom: 34px;
+        }
+
+        .brand img {
+            width: 62px;
+            height: 62px;
+            object-fit: contain;
+            padding: 5px;
+            border-radius: 50%;
+            background: var(--forest);
+        }
+
+        .brand-copy strong {
+            display: block;
+            color: var(--forest);
+            font-size: 17px;
+            line-height: 1.1;
+        }
+
+        .brand-copy span {
+            display: block;
+            margin-top: 4px;
+            color: rgba(20, 37, 59, 0.66);
+            font-size: 10px;
+            font-weight: 800;
+            letter-spacing: 0.16em;
+            text-transform: uppercase;
+        }
+
+        .eyebrow {
+            margin: 0 0 16px;
+            color: var(--clay);
+            font-size: 12px;
+            font-weight: 800;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+        }
+
+        h1 {
+            margin: 0;
+            max-width: 410px;
+            color: var(--forest);
+            font-family: "Instrument Serif", Georgia, serif;
+            font-size: 54px;
+            font-weight: 400;
+            line-height: 0.94;
+            letter-spacing: 0;
+        }
+
+        .lead {
+            max-width: 430px;
+            margin: 18px 0 0;
+            color: rgba(20, 37, 59, 0.78);
+            font-size: 15px;
+            font-weight: 600;
+            line-height: 1.62;
+        }
+
+        .proof-row {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 12px;
+            max-width: 455px;
+            margin: 26px 0 0;
+        }
+
+        .proof {
+            min-height: 78px;
+            padding: 12px 12px;
+            border: 1px solid rgba(20, 37, 59, 0.12);
+            background: rgba(255, 250, 240, 0.72);
+        }
+
+        .proof strong {
+            display: block;
+            color: var(--forest);
+            font-size: 26px;
+            line-height: 1;
+        }
+
+        .proof span {
+            display: block;
+            margin-top: 8px;
+            color: rgba(20, 37, 59, 0.68);
+            font-size: 10px;
+            font-weight: 800;
+            line-height: 1.35;
+            text-transform: uppercase;
+        }
+
+        .services {
+            display: grid;
+            gap: 13px;
+            max-width: 455px;
+            margin-top: 24px;
+        }
+
+        .service {
+            display: grid;
+            grid-template-columns: 46px 1fr;
+            gap: 14px;
+            align-items: start;
+            padding: 9px 0;
+            border-top: 1px solid rgba(20, 37, 59, 0.13);
+        }
+
+        .service:last-child {
+            border-bottom: 1px solid rgba(20, 37, 59, 0.13);
+        }
+
+        .icon {
+            display: grid;
+            place-items: center;
+            width: 42px;
+            height: 42px;
+            color: var(--forest);
+            background: var(--sand);
+        }
+
+        .icon svg {
+            width: 24px;
+            height: 24px;
+            fill: none;
+            stroke: currentColor;
+            stroke-linecap: round;
+            stroke-linejoin: round;
+            stroke-width: 1.9;
+        }
+
+        .service h2 {
+            margin: 0 0 4px;
+            color: var(--ink);
+            font-size: 15px;
+            line-height: 1.25;
+        }
+
+        .service p {
+            margin: 0;
+            color: rgba(20, 37, 59, 0.7);
+            font-size: 11px;
+            font-weight: 600;
+            line-height: 1.55;
+        }
+
+        .cta {
+            position: absolute;
+            left: 54px;
+            bottom: 44px;
+            display: grid;
+            grid-template-columns: 1fr auto;
+            gap: 18px;
+            align-items: center;
+            width: 378px;
+            margin-top: 0;
+            padding: 16px 18px;
+            color: var(--white);
+            background: var(--forest);
+        }
+
+        .cta strong {
+            display: block;
+            font-size: 17px;
+            line-height: 1.2;
+        }
+
+        .cta span {
+            display: block;
+            margin-top: 6px;
+            color: rgba(255, 250, 240, 0.78);
+            font-size: 11px;
+            font-weight: 700;
+        }
+
+        .cta-mark {
+            display: grid;
+            place-items: center;
+            width: 58px;
+            height: 58px;
+            margin-top: 0;
+            color: var(--forest);
+            background: var(--white);
+        }
+
+        .cta-mark svg {
+            width: 38px;
+            height: 38px;
+            fill: none;
+            stroke: #13342b;
+            stroke-linecap: round;
+            stroke-linejoin: round;
+            stroke-width: 2;
+        }
+
+        .side {
+            position: relative;
+            padding-top: 22px;
+        }
+
+        .visual-stack {
+            position: relative;
+            height: 768px;
+        }
+
+        .photo-card {
+            position: absolute;
+            overflow: hidden;
+            border: 10px solid var(--white);
+            box-shadow: 0 24px 46px rgba(20, 37, 59, 0.2);
+        }
+
+        .photo-card::after {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(180deg, transparent 38%, rgba(10, 24, 20, 0.62));
+        }
+
+        .card-savannah {
+            top: 0;
+            right: 0;
+            width: 268px;
+            height: 330px;
+            background:
+                linear-gradient(180deg, #9fc8d0 0 38%, #dfc686 38% 63%, #9c6a3e 63% 100%);
+        }
+
+        .card-savannah .sun {
+            position: absolute;
+            top: 40px;
+            right: 52px;
+            width: 58px;
+            height: 58px;
+            border-radius: 50%;
+            background: #fff2bf;
+        }
+
+        .card-savannah .mountain {
+            position: absolute;
+            left: -26px;
+            right: -8px;
+            top: 92px;
+            height: 120px;
+            background: #6f8f84;
+            clip-path: polygon(0 100%, 24% 42%, 36% 66%, 56% 18%, 74% 62%, 100% 34%, 100% 100%);
+        }
+
+        .card-savannah .grass {
+            position: absolute;
+            inset: auto 0 0;
+            height: 128px;
+            background:
+                repeating-linear-gradient(103deg, rgba(19, 52, 43, 0.58) 0 2px, transparent 2px 18px),
+                linear-gradient(180deg, #b37b42, #5f522e);
+        }
+
+        .card-forest {
+            top: 318px;
+            left: -2px;
+            width: 224px;
+            height: 248px;
+            background:
+                radial-gradient(circle at 38% 28%, rgba(255, 250, 240, 0.22), transparent 22%),
+                radial-gradient(circle at 62% 42%, rgba(197, 164, 93, 0.18), transparent 18%),
+                linear-gradient(145deg, #163c2f, #366347 48%, #10261f);
+        }
+
+        .card-forest::before {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background:
+                repeating-linear-gradient(78deg, rgba(255, 250, 240, 0.1) 0 2px, transparent 2px 22px),
+                repeating-linear-gradient(118deg, rgba(11, 34, 27, 0.55) 0 3px, transparent 3px 34px);
+        }
+
+        .caption-pill {
+            position: absolute;
+            left: 18px;
+            right: 18px;
+            bottom: 18px;
+            z-index: 2;
+            color: var(--white);
+            font-size: 13px;
+            font-weight: 800;
+            line-height: 1.28;
+        }
+
+        .route-panel {
+            position: absolute;
+            top: 580px;
+            right: 10px;
+            bottom: auto;
+            width: 238px;
+            padding: 18px 20px;
+            color: var(--white);
+            background: var(--forest);
+            box-shadow: 0 24px 46px rgba(20, 37, 59, 0.18);
+        }
+
+        .route-panel p {
+            margin: 0;
+            color: rgba(255, 250, 240, 0.72);
+            font-size: 10px;
+            font-weight: 800;
+            letter-spacing: 0.16em;
+            text-transform: uppercase;
+        }
+
+        .route-panel h2 {
+            margin: 8px 0 12px;
+            font-family: "Instrument Serif", Georgia, serif;
+            font-size: 28px;
+            font-weight: 400;
+            line-height: 0.98;
+            letter-spacing: 0;
+        }
+
+        .route-panel ul {
+            display: grid;
+            gap: 7px;
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+
+        .route-panel li {
+            color: rgba(255, 250, 240, 0.9);
+            font-size: 11px;
+            font-weight: 700;
+            line-height: 1.35;
+        }
+
+        .route-panel li::before {
+            content: "";
+            display: inline-block;
+            width: 7px;
+            height: 7px;
+            margin-right: 8px;
+            border-radius: 50%;
+            background: var(--gold);
+        }
+
+        .map-orbit {
+            position: absolute;
+            top: 548px;
+            right: 4px;
+            width: 278px;
+            height: 278px;
+            opacity: 0.16;
+            z-index: -1;
+        }
+
+        .destination-strip {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-top: 26px;
+        }
+
+        .destination-strip span {
+            padding: 8px 10px;
+            border: 1px solid rgba(20, 37, 59, 0.14);
+            color: rgba(20, 37, 59, 0.75);
+            background: rgba(255, 250, 240, 0.7);
+            font-size: 10px;
+            font-weight: 800;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+        }
+
+        .contact {
+            position: absolute;
+            right: 54px;
+            bottom: 44px;
+            display: grid;
+            gap: 7px;
+            width: 300px;
+            color: rgba(20, 37, 59, 0.72);
+            font-size: 11px;
+            font-weight: 800;
+            line-height: 1.4;
+            text-align: right;
+        }
+
+        .contact a {
+            color: var(--forest);
+            text-decoration: none;
+        }
+
+        @page {
+            size: A4;
+            margin: 0;
+        }
+
+        @media print {
+            body {
+                padding: 0;
+                background: white;
+            }
+
+            .flyer {
+                width: 210mm;
+                min-height: 297mm;
+                box-shadow: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <main class="flyer" aria-label="Trek Africa Guide marketing flyer">
+        <div class="top-band"></div>
+        <section class="content">
+            <div>
+                <header class="brand">
+                    <img src="../public/logo%20to%20edit%20-%20Edited.png" alt="Trek Africa Guide logo">
+                    <div class="brand-copy">
+                        <strong>Trek Africa Guide</strong>
+                        <span>African travel directory</span>
+                    </div>
+                </header>
+
+                <p class="eyebrow">Plan better African journeys</p>
+                <h1>Discover Africa with more context and less noise.</h1>
+                <p class="lead">
+                    Compare destinations, safari routes, stays, restaurants, and practical travel insight before you book with trusted partners.
+                </p>
+
+                <div class="proof-row" aria-label="Trek Africa Guide highlights">
+                    <div class="proof">
+                        <strong>4</strong>
+                        <span>Regions to explore across Africa</span>
+                    </div>
+                    <div class="proof">
+                        <strong>18+</strong>
+                        <span>Country and destination guides</span>
+                    </div>
+                    <div class="proof">
+                        <strong>1</strong>
+                        <span>Clear route from idea to booking</span>
+                    </div>
+                </div>
+
+                <div class="services">
+                    <article class="service">
+                        <span class="icon" aria-hidden="true">
+                            <svg viewBox="0 0 24 24"><path d="M4 19V6l5-2 6 2 5-2v13l-5 2-6-2-5 2Z"/><path d="M9 4v13"/><path d="M15 6v13"/></svg>
+                        </span>
+                        <div>
+                            <h2>Destination-first planning</h2>
+                            <p>Start with the right region, compare countries, then narrow into parks, cities, coastlines, and culture-led routes.</p>
+                        </div>
+                    </article>
+
+                    <article class="service">
+                        <span class="icon" aria-hidden="true">
+                            <svg viewBox="0 0 24 24"><path d="M6 20V9l6-5 6 5v11"/><path d="M9 20v-6h6v6"/><path d="M4 20h16"/></svg>
+                        </span>
+                        <div>
+                            <h2>Stays, dining, and safari fit</h2>
+                            <p>Review accommodations, restaurants, activities, and tour options with traveler-friendly notes on timing and location.</p>
+                        </div>
+                    </article>
+
+                    <article class="service">
+                        <span class="icon" aria-hidden="true">
+                            <svg viewBox="0 0 24 24"><path d="M12 3v18"/><path d="M5 8h14"/><path d="M7 8l-3 6h6L7 8Z"/><path d="M17 8l-3 6h6l-3-6Z"/></svg>
+                        </span>
+                        <div>
+                            <h2>Honest booking pathways</h2>
+                            <p>Use independent travel context first, then continue to supplier or partner booking pages when the trip makes sense.</p>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="cta">
+                    <div>
+                        <strong>Start planning your next Africa trip.</strong>
+                        <span>trekafricaguide.com</span>
+                    </div>
+                    <span class="cta-mark" aria-hidden="true">
+                        <svg viewBox="0 0 24 24"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/><path d="M5 5v14"/></svg>
+                    </span>
+                </div>
+            </div>
+
+            <aside class="side" aria-label="Featured African travel visuals">
+                <div class="visual-stack">
+                    <article class="photo-card card-savannah">
+                        <span class="sun"></span>
+                        <span class="mountain"></span>
+                        <span class="grass"></span>
+                        <p class="caption-pill">Safari plains, mountain views, and iconic wildlife routes.</p>
+                    </article>
+
+                    <article class="photo-card card-forest">
+                        <p class="caption-pill">Gorilla trekking, rainforest stays, and conservation-led journeys.</p>
+                    </article>
+
+                    <section class="route-panel">
+                        <p>Best for</p>
+                        <h2>First-time Africa planners</h2>
+                        <ul>
+                            <li>Safari route comparison</li>
+                            <li>Coast and culture add-ons</li>
+                            <li>Trusted trip research</li>
+                        </ul>
+                    </section>
+
+                    <svg class="map-orbit" viewBox="0 0 120 120" aria-hidden="true">
+                        <path d="M59 18 L68 23 L76 23 L82 30 L81 38 L87 46 L84 55 L89 64 L84 73 L76 77 L72 84 L67 92 L61 99 L53 96 L53 86 L48 79 L39 74 L35 67 L31 58 L34 50 L28 42 L31 34 L39 30 L45 24 L52 22 Z" fill="none" stroke="#13342b" stroke-width="5"/>
+                        <path d="M44 64 C50 58 57 53 67 47 C71 45 76 42 78 38" fill="none" stroke="#13342b" stroke-width="4" stroke-linecap="round"/>
+                        <circle cx="43" cy="65" r="4" fill="#13342b"/>
+                        <circle cx="78" cy="38" r="4" fill="#13342b"/>
+                    </svg>
+                </div>
+
+                <div class="destination-strip">
+                    <span>Uganda</span>
+                    <span>Kenya</span>
+                    <span>Tanzania</span>
+                    <span>Rwanda</span>
+                    <span>Morocco</span>
+                    <span>South Africa</span>
+                    <span>Namibia</span>
+                    <span>Zanzibar</span>
+                </div>
+            </aside>
+        </section>
+
+        <footer class="contact">
+            <a href="mailto:hello@trekafricaguide.com">hello@trekafricaguide.com</a>
+            <span>+256 700 000 000</span>
+            <span>Kampala, Uganda</span>
+        </footer>
+    </main>
+</body>
+</html>

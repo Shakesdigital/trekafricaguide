@@ -9,7 +9,9 @@
         "test": "node --test tests/node/**/*.test.mjs tests/js/**/*.test.mjs",
         "verify": "npm test && npm run build"
     },
-    "devDependencies": {},
+    "devDependencies": {
+        "@electric-sql/pglite": "0.5.8"
+    },
     "dependencies": {
         "@supabase/supabase-js": "2.116.0",
         "astro": "5.18.2",
