@@ -1,0 +1,24 @@
+---
+const { draft = null, canApprove = false, canReject = false, canPublish = false } = Astro.props;
+---
+
+<div class="admin-card-footer admin-card-footer-sticky" data-draft-id={draft?.id}>
+  {canApprove && (
+    <button class="admin-btn admin-btn-success" data-action="approve-draft" data-draft-id={draft?.id}>
+      Approve Draft
+    </button>
+  )}
+  {canReject && (
+    <button class="admin-btn admin-btn-error" data-action="reject-draft" data-draft-id={draft?.id}>
+      Reject Draft
+    </button>
+  )}
+  {canPublish && (
+    <button class="admin-btn admin-btn-primary" data-action="publish-draft" data-draft-id={draft?.id}>
+      Publish to Content Table
+    </button>
+  )}
+  <button class="admin-btn admin-btn-secondary admin-btn-small" data-action="view-changes" data-draft-id={draft?.id}>
+    View Changes
+  </button>
+</div>

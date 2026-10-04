@@ -1,0 +1,29 @@
+---
+import '../styles/app.css';
+import { DEFAULT_BRAND } from '../config/site.mjs';
+---
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex, nofollow" />
+    <title>{Astro.props.title ? `${Astro.props.title} | ${DEFAULT_BRAND.name} Admin` : `${DEFAULT_BRAND.name} Admin`}</title>
+    <link rel="icon" type="image/png" href={DEFAULT_BRAND.logo} />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <style is:inline set:html={`:root { --brand-primary: ${DEFAULT_BRAND.primary}; --brand-secondary: ${DEFAULT_BRAND.secondary}; --brand-accent: ${DEFAULT_BRAND.accent}; }`}></style>
+  </head>
+  <body class="admin-page">
+    <script src="/runtime-config.js" defer></script>
+    <script type="module">
+      import('https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.116.0/+esm').then(({ createClient }) => {
+        window.sbAdmin = config => createClient(config.url, config.publishableKey);
+      });
+    </script>
+    <main>
+      <slot />
+    </main>
+  </body>
+</html>

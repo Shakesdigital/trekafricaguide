@@ -1,0 +1,12 @@
+---
+const { sourceUrl, sourceName, researchDate } = Astro.props;
+const hostname = sourceUrl ? new URL(sourceUrl).hostname.replace(/^www\./, '') : 'unknown';
+---
+
+<div class="admin-source-attribution">
+  <span class="admin-source-icon">🔗</span>
+  <a href={sourceUrl} target="_blank" rel="noopener" class="admin-link admin-link-small">
+    <strong>{sourceName || hostname}</strong>
+  </a>
+  {researchDate && <small class="admin-text-muted"> · {new Date(researchDate).toLocaleDateString()}</small>}
+</div>

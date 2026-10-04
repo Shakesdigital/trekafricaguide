@@ -1,0 +1,43 @@
+---
+const { entry } = Astro.props;
+
+const actionLabels = {
+  research_started: 'Research Started',
+  extracted: 'Data Extracted',
+  duplicate_detected: 'Duplicate Detected',
+  draft_created: 'Draft Created',
+  draft_verified: 'Draft Verified',
+  draft_sent_for_review: 'Sent for Review',
+  field_approved: 'Field Approved',
+  field_rejected: 'Field Rejected',
+  draft_approved: 'Draft Approved',
+  draft_rejected: 'Draft Rejected',
+  draft_published: 'Draft Published',
+  draft_rolled_back: 'Draft Rolled Back',
+};
+
+const actionColor = {
+  research_started: 'info', extracted: 'info', duplicate_detected: 'warning',
+  draft_created: 'info', draft_verified: 'info', draft_sent_for_review: 'info',
+  field_approved: 'success', field_rejected: 'error',
+  draft_approved: 'success', draft_rejected: 'error',
+  draft_published: 'success', draft_rolled_back: 'warning',
+};
+---
+
+<tr data-entry-id={entry.id}>
+  <td>
+    <span class={`admin-badge admin-badge-${actionColor[entry.action] || 'info'}`}>
+      {actionLabels[entry.action] || entry.action}
+    </span>
+  </td>
+  <td>{entry.entity_type || <em class="admin-text-muted">—</em>}</td>
+  <td><small class="admin-text-muted">{new Date(entry.created_at).toLocaleString()}</small></td>
+  <td>{entry.actor_id ? <em class="admin-text-muted">{entry.actor_id.slice(0, 8)}…</em> : <em class="admin-text-muted">system</em>}</td>
+  <td>
+    {entry.reason && <small class="admin-text-muted">{entry.reason}</small>}
+    {!entry.reason && entry.new_state && (
+      <small class="admin-text-muted">{JSON.stringify(entry.new_state).slice(0, 60)}…</small>
+    )}
+  </td>
+</tr>

@@ -1,0 +1,62 @@
+---
+const { draft } = Astro.props;
+const statusClass = {
+  draft: 'admin-status-draft',
+  needs_verification: 'admin-status-warning',
+  ready_for_review: 'admin-status-info',
+  approved: 'admin-status-success',
+  rejected: 'admin-status-error',
+  published: 'admin-status-success',
+}[draft.workflow_status] || 'admin-status-draft';
+
+const approvalLabel = draft.approval_status === 'pending' ? 'Pending Review'
+  : draft.approval_status === 'approved' ? 'Approved'
+  : draft.approval_status === 'rejected' ? 'Rejected' : 'Pending';
+
+const typeName = {
+  region: 'Region', country: 'Country', attraction: 'Attraction',
+  accommodation: 'Accommodation', restaurant: 'Restaurant',
+  tour_operator: 'Tour Operator', activity: 'Activity',
+  travel_article: 'Travel Article',
+}[draft.target_entity] || draft.target_entity;
+---
+
+<article class="admin-card" data-draft-id={draft.id} data-entity={draft.target_entity}>
+  <div class="admin-card-header">
+    <span class="admin-badge {statusClass}">{draft.workflow_status.replace(/_/g, ' ')}</span>
+    <span class="admin-badge admin-badge-secondary">{typeName}</span>
+    <span class="admin-badge admin-badge-outline">{draft.draft_type}</span>
+    <span class="admin-badge admin-badge-outline">{approvalLabel}</span>
+  </div>
+
+  <div class="admin-card-body">
+    {draft.source_url && (
+      <div class="admin-card-source">
+        <small class="admin-text-muted">Source:</small>
+        <a href={draft.source_url} target="_blank" rel="noopener" class="admin-link admin-link-small">
+          {draft.source_name || new URL(draft.source_url).hostname}
+        </a>
+        {draft.research_date && <small class="admin-text-muted"> · Researched {new Date(draft.research_date).toLocaleDateString()}</small>}
+      </div>
+    )}
+
+    {draft.ai_model && (
+      <small class="admin-text-muted">AI: {draft.ai_model} ({draft.ai_task_type})</small>
+    )}
+
+    <div class="admin-card-meta">
+      <small class="admin-text-muted">
+        Version {draft.version} · Created {new Date(draft.created_at).toLocaleString()}
+      </small>
+    </div>
+
+    {draft.draft_type === 'update' && draft.target_id && (
+      <div class="admin-form-group">
+        <label>
+          <input type="checkbox" name="show_changes" data-draft-id={draft.id} />
+          Show before/after changes
+        </label>
+      </div>
+    )}
+  </div>
+</article>

@@ -1,0 +1,31 @@
+---
+const { changes } = Astro.props;
+---
+
+<table class="admin-table admin-table-sm">
+  <thead>
+    <tr>
+      <th>Field</th>
+      <th>Current Value</th>
+      <th>Proposed Value</th>
+      <th>Action</th>
+    </tr>
+  </thead>
+  <tbody>
+    {changes.map((c) => (
+      <tr data-field={c.field_name}>
+        <td><code>{c.field_name}</code></td>
+        <td class="admin-text-muted">
+          {c.old_value ? JSON.stringify(c.old_value).slice(0, 100) : <em>null</em>}
+        </td>
+        <td>
+          {c.new_value ? JSON.stringify(c.new_value).slice(0, 100) : <em>null</em>}
+        </td>
+        <td>
+          <button class="admin-btn admin-btn-small admin-btn-success" data-action="approve-field" data-field={c.field_name}>Approve</button>
+          <button class="admin-btn admin-btn-small admin-btn-error" data-action="reject-field" data-field={c.field_name}>Reject</button>
+        </td>
+      </tr>
+    ))}
+  </tbody>
+</table>

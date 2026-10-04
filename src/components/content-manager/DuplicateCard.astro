@@ -1,0 +1,22 @@
+---
+const { item } = Astro.props;
+---
+
+<div class="admin-card admin-card-compact" data-duplicate-id={item.id} data-entity={item.entity_type}>
+  <div class="admin-card-header">
+    <span class="admin-badge admin-badge-warning">{Math.round(item.similarity * 100)}% match</span>
+    <span class="admin-badge admin-badge-secondary">{item.entity_type.replace('_', ' ')}</span>
+    {item.cross_table && <span class="admin-badge admin-badge-outline">Cross-table</span>}
+  </div>
+  <div class="admin-card-body">
+    <h4 class="admin-card-title">{item.name || item.title}</h4>
+    <p class="admin-text-muted">
+      Matched on: {item.match_field} · Table: {item.table}
+    </p>
+    <p class="admin-text-small">
+      <a href={`/${item.entity_type}s/${item.slug}`} class="admin-link" target="_blank" rel="noopener">
+        View existing entry ↗
+      </a>
+    </p>
+  </div>
+</div>

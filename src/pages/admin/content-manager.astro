@@ -1,0 +1,256 @@
+---
+layout: '../layouts/AdminLayout.astro'
+---
+
+<!-- Content Manager: admin-only AI-assisted research and publishing system.
+     Auth is checked client-side; the token is sent as a Bearer header to
+     Netlify Functions which enforce server-side admin authorization.
+     All AI operations are logged with task type, timestamp, model/provider,
+     and token/usage info in the ai_jobs/ai_request_attempts tables. -->
+
+<script type="module">
+  // Auth check on page load — redirect to login if not authenticated
+  const token = localStorage.getItem('cm_token');
+  if (!token) {
+    window.location.href = '/admin/auth';
+  }
+</script>
+
+<script src="../scripts/content-manager.js?url" type="module"></script>
+
+<div class="admin-shell" id="cm-app">
+  <div id="cm-loading" class="admin-loading">
+    <div class="admin-spinner"></div>
+    <p>Checking authorization…</p>
+  </div>
+
+  <div id="cm-unauthorized" class="admin-alert admin-alert-error" style="display: none;">
+    You are not authorized to access the Content Manager.
+    <a href="/admin/auth" class="admin-link">Return to login</a>
+  </div>
+
+  <div id="cm-interface" style="display: none;">
+    <header class="admin-header">
+      <div class="admin-header-row">
+        <h1 class="admin-title">Content Manager</h1>
+        <div class="admin-user-info">
+          <span id="cm-user-email"></span>
+          <button id="cm-logout-btn" class="admin-btn admin-btn-secondary admin-btn-small">Logout</button>
+        </div>
+      </div>
+      <nav class="admin-tabs" id="cm-tabs">
+        <a href="#" class="admin-tab is-active" data-tab="research">Research Queue</a>
+        <a href="#" class="admin-tab" data-tab="suggestions">Suggested Listings</a>
+        <a href="#" class="admin-tab" data-tab="drafts">Drafts</a>
+        <a href="#" class="admin-tab" data-tab="verification">Verification</a>
+        <a href="#" class="admin-tab" data-tab="approval">Pending Approval</a>
+        <a href="#" class="admin-tab" data-tab="published">Published</a>
+        <a href="#" class="admin-tab" data-tab="sources">Sources</a>
+        <a href="#" class="admin-tab" data-tab="activity">Activity Log</a>
+      </nav>
+    </header>
+
+    <main class="admin-main" id="cm-main">
+      <!-- Research Queue Tab -->
+      <section id="tab-research" class="admin-tab-panel active">
+        <div class="admin-panel">
+          <h2>Research Queue</h2>
+          <p class="admin-text-muted">Submit a source URL to extract content for a new listing or update.</p>
+
+          <div class="admin-card">
+            <h3>Start Research</h3>
+            <form id="cm-research-form" class="admin-form">
+              <div class="admin-form-group">
+                <label for="cm-source-url">Source URL</label>
+                <input type="url" id="cm-source-url" name="source_url" required placeholder="https://example.com/...">
+              </div>
+              <div class="admin-form-group">
+                <label for="cm-target-entity">Target Entity Type</label>
+                <select id="cm-target-entity" name="target_entity" required>
+                  <option value="">Select entity type…</option>
+                  <option value="attraction">Attraction</option>
+                  <option value="accommodation">Accommodation</option>
+                  <option value="restaurant">Restaurant</option>
+                  <option value="tour_operator">Tour Operator</option>
+                  <option value="activity">Activity</option>
+                  <option value="travel_article">Travel Article</option>
+                  <option value="region">Region</option>
+                  <option value="country">Country</option>
+                </select>
+              </div>
+              <button type="submit" class="admin-btn admin-btn-primary">Start Research</button>
+            </form>
+            <div id="cm-research-result" class="admin-alert admin-alert-info" style="display: none;"></div>
+          </div>
+
+          <div class="admin-card">
+            <h3>Recent Research</h3>
+            <div id="cm-research-list" class="admin-table-container">
+              <table class="admin-table">
+                <thead>
+                  <tr>
+                    <th>Source</th>
+                    <th>Entity</th>
+                    <th>Status</th>
+                    <th>AI Job</th>
+                    <th>Created</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody id="cm-research-tbody">
+                  <tr><td colspan="6" class="admin-text-muted">Loading…</td></tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Suggested Listings (Duplicates) Tab -->
+      <section id="tab-suggestions" class="admin-tab-panel">
+        <div class="admin-panel">
+          <h2>Suggested Listings</h2>
+          <p class="admin-text-muted">Research results with potential duplicates. Review before creating drafts.</p>
+          <div id="cm-suggestions-list" class="admin-list">
+            <p class="admin-text-muted">Loading suggestions…</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Drafts Tab -->
+      <section id="tab-drafts" class="admin-tab-panel">
+        <div class="admin-panel">
+          <h2>Active Drafts</h2>
+          <div id="cm-drafts-filters" class="admin-filters">
+            <select id="cm-drafts-status-filter" class="admin-select">
+              <option value="">All statuses</option>
+              <option value="draft">Draft</option>
+              <option value="needs_verification">Needs Verification</option>
+              <option value="ready_for_review">Ready for Review</option>
+            </select>
+            <select id="cm-drafts-entity-filter" class="admin-select">
+              <option value="">All entities</option>
+              <option value="attraction">Attraction</option>
+              <option value="accommodation">Accommodation</option>
+              <option value="restaurant">Restaurant</option>
+              <option value="activity">Activity</option>
+              <option value="travel_article">Travel Article</option>
+              <option value="region">Region</option>
+              <option value="country">Country</option>
+            </select>
+          </div>
+          <div id="cm-drafts-list" class="admin-table-container">
+            <table class="admin-table">
+              <thead>
+                <tr>
+                  <th>Entity</th>
+                  <th>Type</th>
+                  <th>Workflow Status</th>
+                  <th>Approval</th>
+                  <th>Source</th>
+                  <th>Created</th>
+                  <th>Action</th>
+                </tr>
+              </thead>
+              <tbody id="cm-drafts-tbody">
+                <tr><td colspan="7" class="admin-text-muted">Loading…</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <!-- Verification Tab -->
+      <section id="tab-verification" class="admin-tab-panel">
+        <div class="admin-panel">
+          <h2>Verification Queue</h2>
+          <p class="admin-text-muted">Update drafts needing before/after comparison.</p>
+          <div id="cm-verification-list" class="admin-list">
+            <p class="admin-text-muted">Loading verification queue…</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Pending Approval Tab -->
+      <section id="tab-approval" class="admin-tab-panel">
+        <div class="admin-panel">
+          <h2>Pending Approval</h2>
+          <p class="admin-text-muted">Drafts ready for your approval. Review carefully — no forbidden fields should be present.</p>
+          <div id="cm-approval-list" class="admin-list">
+            <p class="admin-text-muted">Loading approval queue…</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Published Tab -->
+      <section id="tab-published" class="admin-tab-panel">
+        <div class="admin-panel">
+          <h2>Published Content</h2>
+          <div id="cm-published-list" class="admin-table-container">
+            <table class="admin-table">
+              <thead>
+                <tr>
+                  <th>Entity</th>
+                  <th>Target ID</th>
+                  <th>Source</th>
+                  <th>Published</th>
+                  <th>By</th>
+                </tr>
+              </thead>
+              <tbody id="cm-published-tbody">
+                <tr><td colspan="5" class="admin-text-muted">Loading…</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <!-- Sources Tab -->
+      <section id="tab-sources" class="admin-tab-panel">
+        <div class="admin-panel">
+          <h2>Verified Sources</h2>
+          <div id="cm-sources-list" class="admin-table-container">
+            <table class="admin-table">
+              <thead>
+                <tr>
+                  <th>Domain</th>
+                  <th>Name</th>
+                  <th>URL</th>
+                  <th>Verified</th>
+                  <th>Last Checked</th>
+                </tr>
+              </thead>
+              <tbody id="cm-sources-tbody">
+                <tr><td colspan="5" class="admin-text-muted">Loading…</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <!-- Activity Log Tab -->
+      <section id="tab-activity" class="admin-tab-panel">
+        <div class="admin-panel">
+          <h2>Activity Log</h2>
+          <p class="admin-text-muted">Immutable audit trail of all Content Manager actions.</p>
+          <div id="cm-activity-list" class="admin-table-container">
+            <table class="admin-table">
+              <thead>
+                <tr>
+                  <th>Action</th>
+                  <th>Entity</th>
+                  <th>Time</th>
+                  <th>Actor</th>
+                  <th>Details</th>
+                </tr>
+              </thead>
+              <tbody id="cm-activity-tbody">
+                <tr><td colspan="5" class="admin-text-muted">Loading…</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+</div>

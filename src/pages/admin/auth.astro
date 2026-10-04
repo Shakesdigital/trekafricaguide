@@ -1,0 +1,116 @@
+---
+layout: '../layouts/AdminLayout.astro'
+---
+
+<!-- Admin login page. Uses Supabase Auth directly from the browser with the
+     publishable key — the service-role key is never sent to the client.
+     On successful login, stores the JWT in localStorage and redirects
+     to the Content Manager dashboard. -->
+
+<script type="module">
+  const config = window.TREK_SUPABASE;
+
+  if (!config?.configured) {
+    document.getElementById('config-error').style.display = 'block';
+  }
+
+  const form = document.getElementById('admin-login-form');
+  const errorEl = document.getElementById('login-error');
+
+  form?.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    errorEl.style.display = 'none';
+
+    const email = new FormData(form).get('email');
+    const password = new FormData(form).get('password');
+
+    try {
+      const { createClient } = await import('https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.116.0/+esm');
+      const sb = createClient(config.url, config.publishableKey);
+      const { data, error } = await sb.auth.signInWithPassword({ email, password });
+
+      if (error) {
+        errorEl.textContent = `Login failed: ${error.message}`;
+        errorEl.style.display = 'block';
+        return;
+      }
+
+      // Verify the user has an admin/editor profile before granting access
+      const token = data.session?.access_token;
+      if (!token) {
+        errorEl.textContent = 'No session token received.';
+        errorEl.style.display = 'block';
+        return;
+      }
+
+      // Check via the Content Manager API (which does the server-side role check)
+      const check = await fetch('/.netlify/functions/cm-drafts?limit=1', {
+        headers: { Authorization: `Bearer ${token}` },
+      });
+
+      if (check.status === 401) {
+        errorEl.textContent = 'Not authorized as admin. Please contact a super admin.';
+        errorEl.style.display = 'block';
+        sb.auth.signOut();
+        return;
+      }
+
+      if (check.status === 403) {
+        errorEl.textContent = 'Insufficient permissions. You must be an editor or admin.';
+        errorEl.style.display = 'block';
+        sb.auth.signOut();
+        return;
+      }
+
+      // Store token for the Content Manager
+      localStorage.setItem('cm_token', token);
+      localStorage.setItem('cm_user_email', data.user?.email || '');
+
+      window.location.href = '/admin/content-manager';
+    } catch (err) {
+      errorEl.textContent = `Unexpected error: ${err.message}`;
+      errorEl.style.display = 'block';
+    }
+  });
+
+  // Redirect if already logged in
+  const existingToken = localStorage.getItem('cm_token');
+  if (existingToken) {
+    window.location.href = '/admin/content-manager';
+  }
+</script>
+
+<div class="admin-shell">
+  <header class="admin-header">
+    <h1 class="admin-title">Trek Africa Guide — Content Manager</h1>
+    <p class="admin-subtitle">Admin authentication required</p>
+  </header>
+
+  <main class="admin-main">
+    <div id="config-error" class="admin-alert admin-alert-error" style="display: none;">
+      Supabase configuration is missing. Contact your site administrator.
+    </div>
+
+    <div class="admin-card">
+      <h2>Admin Login</h2>
+      <form id="admin-login-form" class="admin-form">
+        <div class="admin-form-group">
+          <label for="email">Email address</label>
+          <input type="email" id="email" name="email" required autocomplete="email">
+        </div>
+        <div class="admin-form-group">
+          <label for="password">Password</label>
+          <input type="password" id="password" name="password" required autocomplete="current-password">
+        </div>
+        <div id="login-error" class="admin-alert admin-alert-error" style="display: none;"></div>
+        <button type="submit" class="admin-btn admin-btn-primary">Sign In</button>
+      </form>
+    </div>
+
+    <p class="admin-text-muted">
+      Your credentials are verified against Supabase Auth. Your role (admin/super_admin/editor)
+      is checked server-side before any Content Manager functionality is unlocked.
+      No API keys or service-role credentials are ever sent to the browser.
+    </p>
+  </main>
+</div>
