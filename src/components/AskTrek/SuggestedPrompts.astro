@@ -1,0 +1,23 @@
+---
+// SuggestedPrompts.astro — displays a set of suggested prompt chips the Ask Trek.
+// Can fetch from the cm-ask-trek endpoint or use static prompts passed as props.
+const prompts = Astro.props.prompts || [];
+const category = Astro.props.category || '';
+---
+
+<div class="ask-trek__prompt-suggestions" data-ask-trek-prompt-suggestions data-category={category}>
+  {prompts.length > 0 && (
+    <p class="ask-trek__prompt-suggestion-label">Suggested questions{category ? ` in ${category}` : ''}:</p>
+  )}
+  <div class="ask-trek__prompt-chips">
+    {prompts.map((p) => (
+      <button type="button" class="ask-trek__prompt-chip button --small --ghost" data-ask-trek-prompt>
+        {p.prompt_text || p}
+      </button>
+    ))}
+  </div>
+</div>
+
+{import.meta.env.DEV && prompts.length === 0 && (
+  <p class="ask-trek__prompt-empty">No suggestions available for this view.</p>
+)}

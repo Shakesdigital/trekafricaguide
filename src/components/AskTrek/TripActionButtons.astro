@@ -1,0 +1,21 @@
+---
+// TripActionButtons.astro — renders action buttons from an 'actions' response block.
+// Used inside AskTrekResponse rendering for the actions block type.
+const buttons = Astro.props.buttons || [];
+---
+
+<div class="ask-trek__trip-actions">
+  {buttons.map((btn) => (
+    <button
+      type="button"
+      class="ask-trek__action-button button"
+      data-ask-trek-action={btn.action}
+      data-ask-trek-payload={JSON.stringify(btn.payload || {})}
+    >
+      {btn.label || btn.action}
+    </button>
+  ))}
+  {buttons.length === 0 && (
+    <p class="ask-trek__action-empty">No actions available for this result.</p>
+  )}
+</div>

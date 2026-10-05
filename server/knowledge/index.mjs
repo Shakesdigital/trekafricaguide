@@ -4,3 +4,4 @@ export * from './compare.mjs';
 export * from './discover.mjs';
 export * from './opportunities.mjs';
 export * from './media.mjs';
+export * from './trek-assistant.mjs';

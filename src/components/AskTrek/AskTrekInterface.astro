@@ -1,0 +1,114 @@
+---
+import AskTrekResponse from './AskTrekResponse.mjs';
+import { getSiteModel } from '../../lib/site-model.mjs';
+
+const model = Astro.props.model || await getSiteModel();
+const apiPath = '/netlify/functions/cm-ask-trek';
+const initialPrompts = Astro.props.suggestedPrompts || [
+  'Plan a 7-day Kenya safari itinerary',
+  'Plan 8 days in Uganda for gorilla trekking and wildlife',
+  'Compare luxury lodges in Maasai Mara',
+  'What are the best activities near Bwindi?',
+];
+---
+
+<div class="ask-trek" data-ask-trek data-ask-trek-api={apiPath}>
+  <div class="ask-trek__input-area">
+    <form class="ask-trek__form" data-ask-trek-form>
+      <input
+        type="text"
+        class="ask-trek__input"
+        data-ask-trek-input
+        placeholder="Ask Trek anything… e.g. ‘Plan 8 days in Uganda for gorillas and wildlife’"
+        autocomplete="off"
+        required
+      />
+      <button type="submit" class="ask-trek__submit button" data-ask-trek-submit>Ask</button>
+    </form>
+    <button type="button" class="ask-trek__voice button --ghost" data-ask-trek-voice aria-label="Voice input (coming soon)">
+      <span aria-hidden="true">🎙️</span>
+    </button>
+  </div>
+
+  <div class="ask-trek__prompts" data-ask-trek-prompts>
+    <p class="ask-trek__prompt-label">Suggested questions:</p>
+    <div class="ask-trek__prompt-chips">
+      {initialPrompts.map((p) => (
+        <button type="button" class="ask-trek__prompt-chip button --small --ghost" data-ask-trek-prompt-chip>{p}</button>
+      ))}
+    </div>
+  </div>
+
+  <div class="ask-trek__response" data-ask-trek-response>
+    <!-- AI response blocks are rendered here by AskTrekResponse.mjs -->
+  </div>
+</div>
+
+<script type="module">
+  import { renderResponse } from './AskTrekResponse.mjs';
+
+  const container = document.querySelector('[data-ask-trek]');
+  if (!container) { throw new Error('AskTrek: container not found'); }
+  const input = container.querySelector('[data-ask-trek-input]');
+  const submitBtn = container.querySelector('[data-ask-trek-submit]');
+  const form = container.querySelector('[data-ask-trek-form]');
+  const responseEl = container.querySelector('[data-ask-trek-response]');
+  const apiPath = container.dataset.askTrekApi;
+
+  // Inject context from inline script data
+  const context = window.__askTrekContext || {};
+
+  async function submitQuery(query) {
+    input.value = query;
+    input.disabled = true;
+    submitBtn.disabled = true;
+    submitBtn.textContent = 'Thinking…';
+
+    // Clear previous response
+    responseEl.innerHTML = '';
+    responseEl.classList.remove('has-response');
+
+    try {
+      const res = await fetch(apiPath, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          query,
+          context: { pathname: context.pathname, session_token: context.session_token },
+        }),
+      });
+      const data = await res.json();
+      if (!res.ok) {
+        throw new Error(data.message || 'Request failed');
+      }
+      renderResponse(responseEl, data);
+      responseEl.classList.add('has-response');
+    } catch (err) {
+      responseEl.innerHTML = '<p class="ask-trek__error">Sorry — something went wrong. ' + err.message + '</p>';
+    } finally {
+      input.disabled = false;
+      submitBtn.disabled = false;
+      submitBtn.textContent = 'Ask';
+    }
+  }
+
+  form?.addEventListener('submit', (e) => {
+    e.preventDefault();
+    const q = input.value.trim();
+    if (q) { submitQuery(q); }
+  });
+
+  // Prompt chips
+  container.querySelectorAll('[data-ask-trek-prompt-chip]').forEach((chip) => {
+    chip.addEventListener('click', () => {
+      const q = chip.textContent.trim();
+      if (q) { submitQuery(q); }
+    });
+  });
+
+  // Voice button — placeholder
+  const voiceBtn = container.querySelector('[data-ask-trek-voice]');
+  voiceBtn?.addEventListener('click', () => {
+    alert('Voice input is coming soon!');
+  });
+</script>
