@@ -38,7 +38,7 @@ export function getTableName(entityType) {
 
 // Fields that are allowed to be AI-extracted per entity type.
 // These exclude all FORBIDDEN_FIELDS plus editorial-only columns.
-const EXTRACTABLE_FIELDS = {
+export const EXTRACTABLE_FIELDS = {
   region: ['slug', 'name', 'hero_title', 'hero_text', 'overview',
     'hero_image_url', 'hero_image_alt', 'gallery', 'countries_intro',
     'meta_title', 'meta_description', 'meta_image_url'],
@@ -139,6 +139,18 @@ export function filterToTableColumns(targetEntity, draftData, client) {
     }
   }
   return filtered;
+}
+
+/**
+ * Convert a display name to a URL-safe slug.
+ */
+export function slugify(name) {
+  return String(name)
+    .toLowerCase()
+    .trim()
+    .replace(/[^\w\s-]/g, '')
+    .replace(/[\s_-]+/g, '-')
+    .replace(/^-+|-+$/g, '');
 }
 
 /**
