@@ -27,8 +27,9 @@ function createMockClient(tables = {}) {
     };
 
     const chain = {
-      select(cols = '*') {
+      select(cols = '*', opts = {}) {
         ctx._selectCols = cols;
+        ctx._selectOpts = opts;
         return chain;
       },
       eq(column, value) {
@@ -45,11 +46,65 @@ function createMockClient(tables = {}) {
         ctx._filters.push({ type: 'ilike', column, pattern: p });
         return chain;
       },
+      is(column, value) {
+        // Supabase .is() — checks for NULL (value === null) or boolean
+        ctx._filters.push({ type: 'is', column, value });
+        return chain;
+      },
+      not(column, op, value) {
+        // Supabase .not() — negates a filter
+        if (op === 'is' && value === null) {
+          ctx._filters.push({ type: 'not-is', column, value });
+        } else if (op === 'eq') {
+          ctx._filters.push({ type: 'neq', column, value });
+        } else {
+          // Fallback: treat as not-equal
+          ctx._filters.push({ type: 'neq', column, value });
+        }
+        return chain;
+      },
+      gte(column, value) {
+        ctx._filters.push({ type: 'gte', column, value });
+        return chain;
+      },
+      in(column, values) {
+        // Supabase .in() — checks if column value is in the array
+        ctx._filters.push({ type: 'in', column, values });
+        return chain;
+      },
+      lte(column, value) {
+        ctx._filters.push({ type: 'lte', column, value });
+        return chain;
+      },
+      lt(column, value) {
+        ctx._filters.push({ type: 'lt', column, value });
+        return chain;
+      },
+      gt(column, value) {
+        ctx._filters.push({ type: 'gt', column, value });
+        return chain;
+      },
       or(conditions) {
-        // Parse simple "col.ilike.*pattern*" comma-separated OR
+        // Parse comma-separated OR conditions
+        // Supports: col.ilike.*pattern* and col.is.null
         const parsed = conditions.split(',').map((s) => {
-          const m = s.trim().match(/^(\w+)\.ilike\.\*(.+?)\*$/);
-          return m ? { column: m[1], pattern: m[2].toLowerCase() } : null;
+          const trimmed = s.trim();
+          // Match "col.is.null" pattern
+          const isNullMatch = trimmed.match(/^(\w+)\.is\.null$/);
+          if (isNullMatch) {
+            return { column: isNullMatch[1], type: 'is-null' };
+          }
+          // Match "col.ilike.*pattern*"
+          const ilikeMatch = trimmed.match(/^(\w+)\.ilike\.\*(.+?)\*$/);
+          if (ilikeMatch) {
+            return { column: ilikeMatch[1], pattern: ilikeMatch[2].toLowerCase(), type: 'ilike' };
+          }
+          // Match "col.eq.value" pattern
+          const eqMatch = trimmed.match(/^(\w+)\.eq\.(.+)$/);
+          if (eqMatch) {
+            return { column: eqMatch[1], value: eqMatch[2], type: 'eq' };
+          }
+          return null;
         }).filter(Boolean);
         ctx._filters.push({ type: 'or', conditions: parsed });
         return chain;
@@ -125,16 +180,43 @@ function createMockClient(tables = {}) {
         if (f.type === 'eq') {
           result = result.filter((row) => {
             // == handles BigInt vs Number coercion (42n == 42 → true)
+            // null eq matches both null and undefined
+            if (f.value === null) return row[f.column] == null;
             return row[f.column] == f.value;
           });
         } else if (f.type === 'neq') {
-          result = result.filter((row) => row[f.column] !== f.value);
+          if (f.value === null) {
+            result = result.filter((row) => row[f.column] != null);
+          } else {
+            result = result.filter((row) => row[f.column] !== f.value);
+          }
+        } else if (f.type === 'is') {
+          if (f.value === null) {
+            result = result.filter((row) => row[f.column] == null);
+          } else {
+            result = result.filter((row) => row[f.column] == f.value);
+          }
+        } else if (f.type === 'not-is') {
+          result = result.filter((row) => row[f.column] != null);
         } else if (f.type === 'ilike') {
           result = result.filter((row) => String(row[f.column] || '').toLowerCase().includes(f.pattern));
         } else if (f.type === 'or') {
-          result = result.filter((row) => f.conditions.some((c) =>
-            String(row[c.column] || '').toLowerCase().includes(c.pattern)
-          ));
+          result = result.filter((row) => f.conditions.some((c) => {
+            if (c.type === 'is-null') return row[c.column] == null;
+            if (c.type === 'ilike') return String(row[c.column] || '').toLowerCase().includes(c.pattern);
+            if (c.type === 'eq') return row[c.column] == c.value;
+            return false;
+          }));
+        } else if (f.type === 'gte') {
+          result = result.filter((row) => row[f.column] >= f.value);
+        } else if (f.type === 'lte') {
+          result = result.filter((row) => row[f.column] <= f.value);
+        } else if (f.type === 'lt') {
+          result = result.filter((row) => row[f.column] < f.value);
+        } else if (f.type === 'gt') {
+          result = result.filter((row) => row[f.column] > f.value);
+        } else if (f.type === 'in') {
+          result = result.filter((row) => f.values.includes(row[f.column]));
         }
       }
 
@@ -147,6 +229,18 @@ function createMockClient(tables = {}) {
       });
 
       if (ctx._limitVal) result = result.slice(0, ctx._limitVal);
+
+      // Handle count + head options (Supabase-style)
+      if (ctx._selectOpts?.count) {
+        const countResult = result.length;
+        if (ctx._selectOpts.head) {
+          return { data: null, error: null, count: countResult };
+        }
+        return { data: result.map((r) => ({ ...r })), error: null, count: countResult };
+      }
+      if (ctx._selectOpts?.head) {
+        return { data: null, error: null };
+      }
 
       // Return shallow copies to prevent aliasing between callers
       if (ctx._single) return { data: result[0] ? { ...result[0] } : null, error: null };
@@ -163,7 +257,31 @@ function createMockClient(tables = {}) {
       let matched = [...ctx._data];
       for (const f of ctx._filters) {
         if (f.type === 'eq') {
-          matched = matched.filter((row) => row[f.column] == f.value);
+          matched = matched.filter((row) => f.value === null ? row[f.column] == null : row[f.column] == f.value);
+        } else if (f.type === 'is') {
+          if (f.value === null) {
+            matched = matched.filter((row) => row[f.column] == null);
+          } else {
+            matched = matched.filter((row) => row[f.column] == f.value);
+          }
+        } else if (f.type === 'not-is') {
+          matched = matched.filter((row) => row[f.column] != null);
+        } else if (f.type === 'neq') {
+          if (f.value === null) {
+            matched = matched.filter((row) => row[f.column] != null);
+          } else {
+            matched = matched.filter((row) => row[f.column] !== f.value);
+          }
+        } else if (f.type === 'gte') {
+          matched = matched.filter((row) => row[f.column] >= f.value);
+        } else if (f.type === 'lte') {
+          matched = matched.filter((row) => row[f.column] <= f.value);
+        } else if (f.type === 'lt') {
+          matched = matched.filter((row) => row[f.column] < f.value);
+        } else if (f.type === 'gt') {
+          matched = matched.filter((row) => row[f.column] > f.value);
+        } else if (f.type === 'in') {
+          matched = matched.filter((row) => f.values.includes(row[f.column]));
         }
       }
 
@@ -220,13 +338,31 @@ function createMockClient(tables = {}) {
         return { data: { user: null }, error: new Error('Invalid token') };
       },
     },
-    rpc(fnName) {
+    rpc(fnName, params) {
       if (fnName === 'log_cm_activity') {
         return {
+          data: randomUUID(),
+          error: null,
           then: (resolve) => resolve({ data: randomUUID(), error: null }),
         };
       }
+      if (fnName === 'log_knowledge_activity') {
+        return {
+          data: randomUUID(),
+          error: null,
+          then: (resolve) => resolve({ data: randomUUID(), error: null }),
+        };
+      }
+      if (fnName === 'set_updated_at') {
+        return {
+          data: null,
+          error: null,
+          then: (resolve) => resolve({ data: null, error: null }),
+        };
+      }
       return {
+        data: [],
+        error: null,
         then: (resolve) => resolve({ data: [], error: null }),
       };
     },

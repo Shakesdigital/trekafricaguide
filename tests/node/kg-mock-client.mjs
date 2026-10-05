@@ -122,19 +122,54 @@ const DEFAULT_ACTIVITIES = [
 /**
  * Create a mock client that extends the CM mock client with knowledge tables.
  * Seeds default knowledge/discovery source data unless overridden.
+ * When a table is provided in `tables`, it replaces the defaults for that table —
+ * tests get full control over their own data while defaults remain available
+ * when no override is given.
  */
 function createMockClient(tables = {}) {
   const client = createCMSMockClient(tables);
 
-  // Seed knowledge tables with defaults + any user-provided data
-  client._seed('cm_knowledge', [...DEFAULT_KNOWLEDGE, ...(tables.cm_knowledge || [])]);
-  client._seed('cm_discovery_sources', [...DEFAULT_DISCOVERY_SOURCES, ...(tables.cm_discovery_sources || [])]);
+  // Seed knowledge tables
+  if (tables.cm_knowledge !== undefined) {
+    client._seed('cm_knowledge', tables.cm_knowledge);
+  } else {
+    client._seed('cm_knowledge', DEFAULT_KNOWLEDGE);
+  }
 
-  // Seed content tables for comparison tests
-  client._seed('attractions', [...DEFAULT_ATTRACTIONS, ...(tables.attractions || [])]);
-  client._seed('countries', [...DEFAULT_COUNTRIES, ...(tables.countries || [])]);
-  client._seed('accommodations', [...DEFAULT_ACCOMMODATIONS, ...(tables.accommodations || [])]);
-  client._seed('activities', [...DEFAULT_ACTIVITIES, ...(tables.activities || [])]);
+  if (tables.cm_discovery_sources !== undefined) {
+    client._seed('cm_discovery_sources', tables.cm_discovery_sources);
+  } else {
+    client._seed('cm_discovery_sources', DEFAULT_DISCOVERY_SOURCES);
+  }
+
+  // Seed content tables — replace defaults when caller provides their own
+  if (tables.attractions !== undefined) {
+    client._seed('attractions', tables.attractions);
+  } else {
+    client._seed('attractions', DEFAULT_ATTRACTIONS);
+  }
+
+  if (tables.countries !== undefined) {
+    client._seed('countries', tables.countries);
+  } else {
+    client._seed('countries', DEFAULT_COUNTRIES);
+  }
+
+  if (tables.accommodations !== undefined) {
+    client._seed('accommodations', tables.accommodations);
+  } else {
+    client._seed('accommodations', DEFAULT_ACCOMMODATIONS);
+  }
+
+  if (tables.activities !== undefined) {
+    client._seed('activities', tables.activities);
+  } else {
+    client._seed('activities', DEFAULT_ACTIVITIES);
+  }
+
+  // Seed new tables for opportunity engine tests
+  client._seed('cm_content_opportunities', tables.cm_content_opportunities || []);
+  client._seed('media_assets', tables.media_assets || []);
 
   return client;
 }
