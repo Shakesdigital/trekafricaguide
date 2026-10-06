@@ -17,7 +17,7 @@ function createMockClient(tables = {}) {
       _tableName: tableName,
       _data: store[tableName],
       _filters: [],
-      _order: { column: 'created_at', ascending: false },
+      _orders: [], // Stack of order clauses (first = primary, like Supabase)
       _limitVal: null,
       _single: false,
       _maybeSingle: false,
@@ -110,7 +110,7 @@ function createMockClient(tables = {}) {
         return chain;
       },
       order(column, opts = {}) {
-        ctx._order = { column, ascending: opts.ascending ?? false };
+        ctx._orders.push({ column, ascending: opts.ascending ?? false });
         return chain;
       },
       limit(n) {
@@ -220,13 +220,27 @@ function createMockClient(tables = {}) {
         }
       }
 
-      result.sort((a, b) => {
-        const av = a[ctx._order.column];
-        const bv = b[ctx._order.column];
-        if (av === bv) return 0;
-        const cmp = av < bv ? -1 : 1;
-        return ctx._order.ascending ? cmp : -cmp;
-      });
+      // Apply multi-column ordering (Supabase-style: first .order() is primary)
+      if (ctx._orders.length > 0) {
+        result.sort((a, b) => {
+          for (const ord of ctx._orders) {
+            const av = a[ord.column];
+            const bv = b[ord.column];
+            if (av === bv) continue;
+            const cmp = av < bv ? -1 : 1;
+            return ord.ascending ? cmp : -cmp;
+          }
+          return 0;
+        });
+      } else {
+        // Default: created_at descending
+        result.sort((a, b) => {
+          const av = a.created_at;
+          const bv = b.created_at;
+          if (av === bv) return 0;
+          return av < bv ? 1 : -1;
+        });
+      }
 
       if (ctx._limitVal) result = result.slice(0, ctx._limitVal);
 

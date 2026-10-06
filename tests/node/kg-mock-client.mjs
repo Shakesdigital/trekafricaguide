@@ -171,6 +171,22 @@ function createMockClient(tables = {}) {
   client._seed('cm_content_opportunities', tables.cm_content_opportunities || []);
   client._seed('media_assets', tables.media_assets || []);
 
+  // Seed autonomous operations tables
+  client._seed('cm_agent_operations', tables.cm_agent_operations || []);
+  client._seed('cm_agent_log', tables.cm_agent_log || []);
+  client._seed('cm_agent_approval_queue', tables.cm_agent_approval_queue || []);
+
+  // Seed AI task config for autonomous ops
+  client._seed('ai_task_config', tables.ai_task_config || [
+    { task_type: 'autonomous_cycle', enabled: false, provider: 'primary', model: 'gpt-4', timeout_ms: 120000, max_retries: 1, max_output_tokens: 8192, cache_ttl_seconds: 0 },
+    { task_type: 'classify_entity', enabled: true, provider: 'primary', model: 'gpt-4', timeout_ms: 15000, max_retries: 1, max_output_tokens: 1024, cache_ttl_seconds: 3600 },
+    { task_type: 'extract_attraction', enabled: true, provider: 'primary', model: 'gpt-4', timeout_ms: 20000, max_retries: 1, max_output_tokens: 2048, cache_ttl_seconds: 3600 },
+    { task_type: 'extract_destination', enabled: true, provider: 'primary', model: 'gpt-4', timeout_ms: 20000, max_retries: 1, max_output_tokens: 2048, cache_ttl_seconds: 3600 },
+    { task_type: 'extract_accommodation', enabled: true, provider: 'primary', model: 'gpt-4', timeout_ms: 20000, max_retries: 1, max_output_tokens: 2048, cache_ttl_seconds: 3600 },
+    { task_type: 'extract_activity', enabled: true, provider: 'primary', model: 'gpt-4', timeout_ms: 20000, max_retries: 1, max_output_tokens: 2048, cache_ttl_seconds: 3600 },
+    { task_type: 'extract_travel_insight', enabled: true, provider: 'primary', model: 'gpt-4', timeout_ms: 20000, max_retries: 1, max_output_tokens: 2048, cache_ttl_seconds: 3600 },
+  ]);
+
   return client;
 }
 

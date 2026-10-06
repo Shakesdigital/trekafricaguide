@@ -5,3 +5,6 @@ export * from './discover.mjs';
 export * from './opportunities.mjs';
 export * from './media.mjs';
 export * from './trek-assistant.mjs';
+export * from './autonomous.mjs';
+// Re-export FORBIDDEN_FIELDS for consumers that import from the barrel
+export { FORBIDDEN_FIELDS } from '../content-manager/validate.mjs';
