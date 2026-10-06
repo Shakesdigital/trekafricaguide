@@ -525,6 +525,75 @@ function renderFilters(block) {
   return el;
 }
 
+// ── Booking & itinerary-actions renderers ───────────────────────────────────────
+
+function renderBookingOptions(block) {
+  const el = document.createElement('section');
+  el.className = 'ask-trek__booking-options';
+
+  const title = document.createElement('h4');
+  title.textContent = 'Booking options';
+  el.appendChild(title);
+
+  if (block.items && block.items.length > 0) {
+    const list = document.createElement('div');
+    list.className = 'ask-trek__booking-list';
+    for (const item of block.items) {
+      const link = document.createElement('a');
+      link.href = item.href || '#';
+      link.className = 'ask-trek__booking-link button --small';
+      link.target = '_blank';
+      link.rel = item.rel || 'nofollow noopener';
+      link.textContent = item.label || item.providerDisplay || 'Book now';
+      if (item.priceLabel) {
+        const price = document.createElement('span');
+        price.className = 'ask-trek__booking-price';
+        price.textContent = item.priceLabel;
+        link.appendChild(price);
+      }
+      list.appendChild(link);
+
+      if (item.disclosure) {
+        const disclosure = document.createElement('p');
+        disclosure.className = 'ask-trek__booking-disclosure';
+        disclosure.textContent = item.disclosure;
+        list.appendChild(disclosure);
+      }
+    }
+    el.appendChild(list);
+  }
+
+  return el;
+}
+
+function renderItineraryActions(block) {
+  const el = document.createElement('div');
+  el.className = 'ask-trek__itinerary-actions';
+
+  const labelEl = document.createElement('p');
+  labelEl.className = 'ask-trek__itinerary-actions-label';
+  labelEl.textContent = 'Adjust your trip:';
+  el.appendChild(labelEl);
+
+  const chips = document.createElement('div');
+  chips.className = 'ask-trek__itinerary-action-chips';
+  const suggestions = block.suggestions || [];
+  for (const s of suggestions) {
+    const chip = document.createElement('button');
+    chip.className = 'ask-trek__itinerary-action-chip button --small --ghost';
+    chip.textContent = s;
+    chip.addEventListener('click', () => {
+      container?.dispatchEvent(new CustomEvent('ask-trek-restructure-request', {
+        detail: { query: s },
+      }));
+    });
+    chips.appendChild(chip);
+  }
+  el.appendChild(chips);
+
+  return el;
+}
+
 // ── Registry ─────────────────────────────────────────────────────────────────
 
 const RENDERERS = {
@@ -539,6 +608,8 @@ const RENDERERS = {
   itinerary: renderItinerary,
   actions: renderActions,
   filters: renderFilters,
+  booking: renderBookingOptions,
+  itinerary_actions: renderItineraryActions,
 };
 
 // ── Helpers ───────────────────────────────────────────────────────────────────
@@ -568,5 +639,5 @@ function computeBounds(points) {
   return { minLat, maxLat, minLng, maxLng };
 }
 
-// Re-export for testing
-export { renderBlock, COORDINATES };
+// Re-export COORDINATES for testing (renderBlock is already exported above)
+export { COORDINATES };

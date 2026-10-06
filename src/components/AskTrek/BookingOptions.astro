@@ -1,0 +1,49 @@
+---
+// BookingOptions.astro — renders external booking options for an entity.
+// Preserves the existing Stay22 affiliate integration. Each external link
+// opens in a new tab with rel="nofollow sponsored noopener" and includes
+// a disclosure that the user is leaving Trek Africa Guide.
+//
+// Props:
+//   entity     — the CMS entity (accommodation, attraction, or activity)
+//   showPrices — whether to show price labels (default: true)
+//   compact    — compact layout for inline use (default: false)
+
+import { resolveBookingOptions } from '../../lib/booking-options.mjs';
+
+const entity = Astro.props.entity || {};
+const showPrices = Astro.props.showPrices !== false;
+const compact = Astro.props.compact || false;
+
+const bookingOptions = resolveBookingOptions(entity);
+---
+
+{bookingOptions.length > 0 ? (
+  <div class={`booking-options ${compact ? 'booking-options--compact' : ''}`} data-booking-options>
+    {bookingOptions.map((opt) => (
+      <div class="booking-options__item" key={opt.provider}>
+        <a
+          href={opt.href}
+          class="booking-options__link button"
+          target="_blank"
+          rel={opt.rel}
+          data-provider={opt.provider}
+          data-booking-offer
+        >
+          <span class="booking-options__provider">{opt.providerDisplay}</span>
+          {showPrices && opt.priceLabel && (
+            <span class="booking-options__price">{opt.priceLabel}</span>
+          )}
+          <span class="booking-options__label">{opt.label}</span>
+        </a>
+        <p class="booking-options__disclosure">
+          {opt.disclosure || 'You are leaving Trek Africa Guide — check the provider site for terms.'}
+        </p>
+      </div>
+    ))}
+  </div>
+) : (
+  <div class="booking-options booking-options--empty" data-booking-options>
+    <p class="booking-options__empty-text">No booking options available for this listing.</p>
+  </div>
+)}

@@ -9,6 +9,9 @@ import { requireAdmin } from '../../server/content-manager/auth.mjs';
 import {
   processAskTrekRequest,
   getSuggestedPrompts,
+  restructureTrip,
+  extractViewedEntities,
+  buildContextSummary,
   INTENT_TYPES,
 } from '../../server/knowledge/trek-assistant.mjs';
 
@@ -82,6 +85,37 @@ export default async (request) => {
 
       if (!body.query || typeof body.query !== 'string') {
         throw new AIError('INVALID_REQUEST', { message: 'query is required' });
+      }
+
+      // If action is 'restructure', call the trip restructure handler
+      if (body.action === 'restructure') {
+        let siteModel;
+        try {
+          const { getSiteModel } = await import('../../src/lib/site-model.mjs');
+          siteModel = await getSiteModel();
+        } catch {
+          // Site model may not be available — proceed without enrichment
+        }
+
+        const pathname = body.context?.pathname;
+        const entities = extractViewedEntities(pathname || '', siteModel);
+        const contextSummary = buildContextSummary(entities, siteModel);
+
+        const result = await bounded(
+          () => restructureTrip({
+            query: body.query,
+            tripState: typeof body.tripState === 'string' ? body.tripState : JSON.stringify(body.tripState || '{}'),
+            contextSummary,
+            entitySlugs: '',
+            aiService: undefined,
+            env: process.env,
+            signal: request.signal,
+          }),
+          30000,
+          request.signal
+        );
+
+        return json(result);
       }
 
       const result = await bounded(

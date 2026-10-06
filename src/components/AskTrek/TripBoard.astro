@@ -1,0 +1,305 @@
+---
+// TripBoard.astro — the editable trip board UI.
+// Renders a day-by-day itinerary with drag-reorder, activity replacement,
+// accommodation management, preference editing, and external booking links.
+//
+// The actual state lives in src/scripts/trip-board.mjs (singleton persisted to localStorage).
+// This component listens for `trip-board-change` events and re-renders.
+
+import { getTripBoard } from '../../scripts/trip-board.mjs';
+import { resolveBookingOptions } from '../../lib/booking-options.mjs';
+
+// Pass context from the Astro page if available
+const initialTripState = Astro.props.tripState || null;
+---
+
+<div class="trip-board" data-trip-board data-trip-board-api="/netlify/functions/cm-ask-trek">
+  <!-- Preferences sidebar -->
+  <aside class="trip-board__preferences" data-trip-board-preferences>
+    <h3>Trip preferences</h3>
+    <div class="trip-board__field">
+      <label for="trip-board-budget">Budget (USD)</label>
+      <input type="range" id="trip-board-budget" min="0" max="20000" step="500" value="0" data-trip-board-budget-slider />
+      <span class="trip-board__budget-value" data-trip-board-budget-value>$0</span>
+    </div>
+    <div class="trip-board__field">
+      <label for="trip-board-drive">Max daily drive (hours)</label>
+      <select id="trip-board-drive" data-trip-board-drive-select>
+        <option value="">Any</option>
+        <option value="2">2 hours</option>
+        <option value="3">3 hours</option>
+        <option value="4">4 hours</option>
+        <option value="6">6 hours</option>
+      </select>
+    </div>
+    <div class="trip-board__field">
+      <label>Style</label>
+      <div class="trip-board__style-options" data-trip-board-style>
+        <button type="button" class="button --small" data-trip-board-style-btn value="budget">Budget</button>
+        <button type="button" class="button --small" data-trip-board-style-btn value="balanced">Balanced</button>
+        <button type="button" class="button --small" data-trip-board-style-btn value="luxury">Luxury</button>
+      </div>
+    </div>
+    <button type="button" class="button --ghost" data-trip-board-save>Save trip</button>
+    <button type="button" class="button --ghost" data-trip-board-clear>Clear trip</button>
+  </aside>
+
+  <!-- Itinerary list -->
+  <main class="trip-board__itinerary" data-trip-board-itinerary>
+    <h3>Your trip</h3>
+    <div class="trip-board__days" data-trip-board-days>
+      <!-- Days are rendered here by trip-board.js -->
+    </div>
+    <div class="trip-board__empty" data-trip-board-empty>
+      <p>No days added yet. Ask Trek to plan a trip or add days manually.</p>
+    </div>
+  </main>
+
+  <!-- Quick action suggestions -->
+  <footer class="trip-board__actions" data-trip-board-actions>
+    <div class="trip-board__quick-actions">
+      <button type="button" class="button --small --ghost" data-trip-board-restructure data-restructure-query="Make it cheaper">Make it cheaper</button>
+      <button type="button" class="button --small --ghost" data-trip-board-restructure data-restructure-query="Reduce driving time">Less driving</button>
+      <button type="button" class="button --small --ghost" data-trip-board-restructure data-restructure-query="Add a rest day">Add rest day</button>
+    </div>
+    <div class="trip-board__stats" data-trip-board-stats></div>
+  </footer>
+</div>
+
+<script type="module">
+  import { getTripBoard, resetTripBoard } from '../../scripts/trip-board.mjs';
+  import { resolveBookingOptions } from '../../lib/booking-options.mjs';
+
+  const container = document.querySelector('[data-trip-board]');
+  if (!container) throw new Error('TripBoard: container not found');
+
+  // Initialize with state from Astro props if provided
+  if (window.__initialTripState) {
+    const board = getTripBoard();
+    board.fromJSON(window.__initialTripState);
+  }
+
+  const board = getTripBoard();
+  const daysEl = container.querySelector('[data-trip-board-days]');
+  const emptyEl = container.querySelector('[data-trip-board-empty]');
+  const statsEl = container.querySelector('[data-trip-board-stats]');
+
+  // Preference elements
+  const budgetSlider = container.querySelector('[data-trip-board-budget-slider]');
+  const budgetValue = container.querySelector('[data-trip-board-budget-value]');
+  const driveSelect = container.querySelector('[data-trip-board-drive-select]');
+  const styleBtns = container.querySelectorAll('[data-trip-board-style-btn]');
+  const saveBtn = container.querySelector('[data-trip-board-save]');
+  const clearBtn = container.querySelector('[data-trip-board-clear']);
+  const restructureBtns = container.querySelectorAll('[data-trip-board-restructure]');
+
+  function render() {
+    const state = board.getState();
+    const hasDays = state.days.length > 0;
+
+    emptyEl.style.display = hasDays ? 'none' : 'block';
+    daysEl.innerHTML = '';
+
+    if (!hasDays) {
+      updateStats(state);
+      return;
+    }
+
+    daysEl.innerHTML = state.days.map((day) => renderDay(day)).join('');
+
+    // Wire up day-level event listeners
+    wireDayEvents();
+    updateStats(state);
+  }
+
+  function renderDay(day) {
+    const bookingOptions = day.accommodation && typeof day.accommodation === 'object' && day.accommodation.slug
+      ? resolveBookingOptions(day.accommodation)
+      : [];
+
+    const activityHtml = (day.activities || []).map((act, i) => `
+      <li class="trip-board__activity" data-trip-board-activity data-activity-index="${i}">
+        <span class="trip-board__activity-name">${act.name || act}</span>
+        <button type="button" class="trip-board__activity-remove" data-trip-board-activity-remove data-day="${day.day}" data-index="${i}">✕</button>
+      </li>
+    `).join('');
+
+    const bookingHtml = bookingOptions.length > 0
+      ? bookingOptions.map((opt) => `
+        <a href="${opt.href}" class="trip-board__booking-link button --small"
+           target="_blank" rel="${opt.rel}"
+           data-disclosure="${opt.disclosure || ''}">
+          ${opt.label || opt.providerDisplay}
+        </a>
+      `).join('')
+      : '';
+
+    const accommodationName = day.accommodation && typeof day.accommodation === 'object'
+      ? (day.accommodation.name || day.accommodation.slug || 'TBD')
+      : (day.accommodation || 'TBD');
+
+    return `
+      <div class="trip-board__day" data-trip-board-day data-day="${day.day}">
+        <div class="trip-board__day-header">
+          <span class="trip-board__day-num">Day ${day.day}</span>
+          <span class="trip-board__day-location">${day.location || ''}</span>
+          <div class="trip-board__day-tools">
+            <button type="button" class="trip-board__day-move-up" data-day-move-up data-day="${day.day}" title="Move up">↑</button>
+            <button type="button" class="trip-board__day-move-down" data-day-move-down data-day="${day.day}" title="Move down">↓</button>
+            <button type="button" class="trip-board__day-remove" data-day-remove data-day="${day.day}" title="Remove day">✕</button>
+          </div>
+        </div>
+        ${day.description ? `<p class="trip-board__day-description">${day.description}</p>` : ''}
+        <ul class="trip-board__activity-list">
+          ${activityHtml}
+        </ul>
+        <div class="trip-board__day-accommodation">
+          <strong>Stay:</strong> ${accommodationName}
+          ${bookingHtml ? `<div class="trip-board__booking-options">${bookingHtml}</div>` : ''}
+        </div>
+      </div>
+    `;
+  }
+
+  function wireDayEvents() {
+    // Remove activity
+    container.querySelectorAll('[data-trip-board-activity-remove]').forEach((btn) => {
+      btn.addEventListener('click', () => {
+        const dayNum = parseInt(btn.dataset.day, 10);
+        const idx = parseInt(btn.dataset.index, 10);
+        const state = board.getState();
+        const day = state.days.find((d) => d.day === dayNum);
+        if (day) {
+          day.activities.splice(idx, 1);
+          board.save();
+        }
+      });
+    });
+
+    // Remove day
+    container.querySelectorAll('[data-day-remove]').forEach((btn) => {
+      btn.addEventListener('click', () => {
+        const dayNum = parseInt(btn.dataset.day, 10);
+        board.removeDay(dayNum);
+        board.save();
+      });
+    });
+
+    // Move day up
+    container.querySelectorAll('[data-day-move-up]').forEach((btn) => {
+      btn.addEventListener('click', () => {
+        const dayNum = parseInt(btn.dataset.day, 10);
+        const idx = board.getState().days.findIndex((d) => d.day === dayNum);
+        if (idx > 0) {
+          board.moveDay(idx, idx - 1);
+          board.save();
+        }
+      });
+    });
+
+    // Move day down
+    container.querySelectorAll('[data-day-move-down]').forEach((btn) => {
+      btn.addEventListener('click', () => {
+        const dayNum = parseInt(btn.dataset.day, 10);
+        const idx = board.getState().days.findIndex((d) => d.day === dayNum);
+        if (idx < board.getState().days.length - 1) {
+          board.moveDay(idx, idx + 1);
+          board.save();
+        }
+      });
+    });
+  }
+
+  function updateStats(state) {
+    const stats = board.getStats();
+    let html = '<div class="trip-board__stats-inner">';
+    html += `<span class="trip-board__stat">${stats.dayCount} day${stats.dayCount !== 1 ? 's' : ''}</span>`;
+    html += `<span class="trip-board__stat">${stats.totalActivities} activit${stats.totalActivities !== 1 ? 'ies' : 'y'}</span>`;
+    if (state.preferences.budget) html += `<span class="trip-board__stat">Budget: $${state.preferences.budget}</span>`;
+    html += '</div>';
+    statsEl.innerHTML = html;
+  }
+
+  // Preference events
+  budgetSlider?.addEventListener('input', () => {
+    const val = parseInt(budgetSlider.value, 10);
+    budgetValue.textContent = `$${val}`;
+    board.updatePreferences({ budget: val > 0 ? val : null });
+    board.save();
+  });
+
+  driveSelect?.addEventListener('change', () => {
+    const val = driveSelect.value || null;
+    const numVal = val ? parseInt(val, 10) : null;
+    board.updatePreferences({ maxDriveHours: numVal });
+    board.save();
+  });
+
+  styleBtns.forEach((btn) => {
+    btn.addEventListener('click', () => {
+      const style = btn.value;
+      styleBtns.forEach((b) => b.classList.toggle('active', b === btn));
+      board.updatePreferences({ style });
+      board.save();
+    });
+  });
+
+  saveBtn?.addEventListener('click', () => {
+    board.save();
+    // Dispatch save event that parent can listen to
+    saveBtn.textContent = 'Saved!';
+    setTimeout(() => { saveBtn.textContent = 'Save trip'; }, 2000);
+  });
+
+  clearBtn?.addEventListener('click', () => {
+    if (confirm('Clear this trip? This cannot be undone.')) {
+      board.clear();
+    }
+  });
+
+  // Restructure buttons
+  restructureBtns.forEach((btn) => {
+    btn.addEventListener('click', async () => {
+      const query = btn.dataset.restructureQuery;
+      if (!query) return;
+
+      const state = board.getState();
+      try {
+        const res = await fetch(container.dataset.tripBoardApi, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            query,
+            action: 'restructure',
+            tripState: state,
+            context: { pathname: window.location.pathname },
+          }),
+        });
+
+        if (!res.ok) throw new Error('Request failed');
+        const data = await res.json();
+
+        // Replace current trip state with restructured version
+        if (data.blocks) {
+          // Find the itinerary block from the restructured response
+          const itineraryBlock = data.blocks.find((b) => b.type === 'itinerary');
+          if (itineraryBlock && itineraryBlock.days) {
+            board.fromJSON({
+              tripId: state.tripId,
+              days: itineraryBlock.days,
+              preferences: { ...state.preferences },
+            });
+          }
+        }
+      } catch (err) {
+        console.error('TripBoard restructure failed:', err);
+      }
+    });
+  });
+
+  // Listen for external changes to trip board state
+  window.addEventListener('trip-board-change', render);
+
+  // Initial render
+  render();
+</script>

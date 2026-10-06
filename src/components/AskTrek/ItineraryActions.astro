@@ -1,0 +1,90 @@
+---
+// ItineraryActions.astro — renders natural language restructuring suggestion chips.
+// These let travelers modify their trip with phrases like "Make it cheaper"
+// or "Reduce driving time". Clicking sends a restructure request to cm-ask-trek.
+//
+// Props:
+//   apiPath  — the cm-ask-trek endpoint (default: '/netlify/functions/cm-ask-trek')
+//   suggestions — optional array of suggestion strings (falls back to defaults)
+
+const apiPath = Astro.props.apiPath || '/netlify/functions/cm-ask-trek';
+const suggestions = Astro.props.suggestions || [
+  'Make it cheaper',
+  'Reduce driving time',
+  'Add a rest day',
+  'Use luxury accommodations',
+  'Shorten to 5 days',
+  'Focus on wildlife',
+];
+---
+
+<div class="itinerary-actions" data-itinerary-actions data-api={apiPath}>
+  <p class="itinerary-actions__label">Need to adjust your trip?</p>
+  <div class="itinerary-actions__chips">
+    {suggestions.map((s, i) => (
+      <button
+        type="button"
+        class="itinerary-actions__chip button --small --ghost"
+        data-itinerary-action
+        data-action-index={i}
+        data-action-query={s}
+      >
+        {s}
+      </button>
+    ))}
+  </div>
+</div>
+
+<script type="module">
+  import { getTripBoard } from '../../scripts/trip-board.mjs';
+
+  const container = document.querySelector('[data-itinerary-actions]');
+  if (container) {
+    const apiPath = container.dataset.api;
+    const board = getTripBoard();
+
+    container.querySelectorAll('[data-itinerary-action]').forEach((btn) => {
+      btn.addEventListener('click', async () => {
+        const query = btn.dataset.actionQuery;
+        if (!query) return;
+
+        const state = board.getState();
+        btn.disabled = true;
+        btn.textContent = 'Adjusting…';
+
+        try {
+          const res = await fetch(apiPath, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+              query,
+              action: 'restructure',
+              tripState: state,
+              context: { pathname: window.location.pathname },
+            }),
+          });
+
+          if (!res.ok) throw new Error('Request failed');
+          const data = await res.json();
+
+          if (data.blocks) {
+            const itineraryBlock = data.blocks.find((b) => b.type === 'itinerary');
+            if (itineraryBlock && itineraryBlock.days) {
+              board.fromJSON({
+                tripId: state.tripId,
+                days: itineraryBlock.days,
+                preferences: { ...state.preferences },
+              });
+              board.save();
+            }
+          }
+        } catch (err) {
+          console.error('ItineraryActions restructure failed:', err);
+        } finally {
+          btn.disabled = false;
+          btn.textContent = query;
+        }
+      });
+    });
+  }
+</script>

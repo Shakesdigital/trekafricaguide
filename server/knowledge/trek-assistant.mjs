@@ -20,6 +20,7 @@ export const ASK_TREK_TASK_TYPES = {
   PLAN: 'ask_trek_plan',
   COMPARE: 'ask_trek_compare',
   RECOMMEND: 'ask_trek_recommend',
+  RESTRUCTURE: 'ask_trek_restructure',
 };
 
 // Intent classification values returned by the classify step.
@@ -251,6 +252,33 @@ Recommendation block schema:
     ]
   }
 ]
+
+Available entity slugs in context: {ENTITY_SLUGS}
+Query: "{QUERY}"
+Context: {CONTEXT}
+
+JSON output:`;
+
+// ── System prompt for trip restructuring ─────────────────────────────────────────
+
+const RESTRUCTURE_PROMPT = `You are "Ask Trek", a visual AI travel assistant for Trek Africa Guide. The traveler wants to restructure their existing trip plan based on a new constraint.
+
+**Strict rules:**
+- Only reference real entities by their CMS slug (provided in context). Do NOT invent new destinations, accommodations, or attractions.
+- Return strictly valid JSON matching the response block schema below. No prose, no explanations, no markdown.
+- For any field you cannot determine, use null.
+- NEVER include booking links, prices, availability, ratings, or review counts.
+
+Response block schema (JSON array of blocks):
+[
+  { "type": "itinerary", "days": [ { "day": 1, "location": "Kampala", "activities": ["Arrival"], "accommodation": null, "description": null } ] },
+  { "type": "route", "total_days": 7, "steps": [ { "stop": "Bwindi", "entity_slug": "bwindi-impenetrable-national-park", "entity_type": "attraction", "duration_days": 3, "description": null, "hero_image_url": null } ] },
+  { "type": "experiences", "items": [ { "name": "Gorilla trekking", "description": null, "duration": "4 hours", "hero_image_url": null } ] },
+  { "type": "itinerary_actions", "suggestions": [ "Make it cheaper", "Reduce driving time", "Add a rest day" ] }
+]
+
+Current trip state (JSON):
+{TRIP_STATE}
 
 Available entity slugs in context: {ENTITY_SLUGS}
 Query: "{QUERY}"
@@ -616,6 +644,55 @@ export async function handleRecommendation({ query, contextSummary, entitySlugs,
   };
 }
 
+/**
+ * Handle trip restructuring — re-plan based on a constraint applied to the current trip board.
+ *
+ * @param {object} params
+ * @param {string} params.query - constraint description (e.g. "make it cheaper")
+ * @param {string} params.tripState - JSON string of current trip board state
+ * @param {string} params.contextSummary
+ * @param {string} params.entitySlugs
+ * @param {object} [params.aiService]
+ * @param {AbortSignal} [params.signal]
+ * @returns {Promise<{response_type: string, blocks: Array, suggestions: string[], actions: object}>}
+ */
+export async function restructureTrip({ query, tripState, contextSummary, entitySlugs, aiService: injectedService, env, signal }) {
+  const aiService = injectedService || getAIService(env || process.env);
+
+  const messages = RESTRUCTURE_PROMPT
+    .replace('{QUERY}', query || '')
+    .replace('{CONTEXT}', contextSummary || '')
+    .replace('{ENTITY_SLUGS}', entitySlugs || '')
+    .replace('{TRIP_STATE}', tripState || '{}');
+
+  const result = await aiService.run(
+    { task_type: ASK_TREK_TASK_TYPES.RESTRUCTURE, messages: [
+      { role: 'system', content: RESTRUCTURE_PROMPT },
+      { role: 'user', content: `Constraint: "${query}"\nContext: ${contextSummary || ''}\nEntity slugs: ${entitySlugs || ''}\nCurrent trip: ${tripState || '{}'}` },
+    ], public_cache_version: `restructure:${query}:${entitySlugs}` },
+    { signal }
+  );
+
+  const blocks = parseTrekResponse(result.text, 'restructure');
+  // For restructure, also enrich with site model data
+  try {
+    const { getSiteModel } = await import('../../src/lib/site-model.mjs');
+    const siteModel = await getSiteModel();
+    blocks.forEach((block, i) => {
+      blocks[i] = enrichBlock(block, 'restructure', siteModel);
+    });
+  } catch {
+    // site model may not be available — proceed with raw blocks
+  }
+
+  return {
+    response_type: 'restructure',
+    blocks,
+    suggestions: extractSuggestedQueries(blocks, query),
+    actions: { response_id: result.id, provider: result.provider, model: result.model, cached: result.cached },
+  };
+}
+
 // ── Prompt builder ────────────────────────────────────────────────────────────
 
 const INTENT_PROMPTS = {
@@ -656,6 +733,7 @@ export function buildAskTrekPrompt({ intent, query, contextSummary, entitySlugs 
 const VALID_BLOCK_TYPES = new Set([
   'text', 'route', 'experiences', 'accommodations', 'activities',
   'attractions', 'comparison', 'map', 'itinerary', 'actions', 'filters',
+  'itinerary_actions', 'booking',
 ]);
 
 /**
@@ -711,11 +789,12 @@ function enrichBlock(block, intent, siteModel) {
   }
   if (block.type === 'route' && Array.isArray(block.steps)) {
     block.steps = block.steps.map((step) => {
-      const slugMapName = `${step.entity_type}sBySlug`;
-      const map = siteModel[slugMapName];
+      const slugMapName = SLUG_MAP_NAMES[step.entity_type];
+      const map = slugMapName ? siteModel[slugMapName] : undefined;
       const entity = map?.get(step.entity_slug);
       if (entity) {
         step.hero_image_url = step.hero_image_url || entity.hero_image_url || null;
+        step.booking_offers = entity.bookingOffers || null;
       }
       return step;
     });
@@ -752,6 +831,7 @@ function enrichEntityItem(item, slugMap, siteModel, entityType) {
       internal_url: entity.internalUrl || `/${entityType}s/${entity.slug}`,
       country: entity.country ? { name: entity.country.name, slug: entity.country.slug } : undefined,
       region: entity.region ? { name: entity.region.name, slug: entity.region.slug } : undefined,
+      booking_offers: entity.bookingOffers || null,
     };
   }
   return item;
