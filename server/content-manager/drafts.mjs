@@ -1,6 +1,7 @@
 import { randomUUID } from 'node:crypto';
 import { AIError } from '../ai/errors.mjs';
 import { getTableName, filterToTableColumns, validateDraftData, ENTITY_TYPES } from './validate.mjs';
+import { triggerNetlifyRebuild } from '../knowledge/build-trigger.mjs';
 
 /**
  * Create a new draft (manual creation from admin UI or from research extraction).
@@ -401,6 +402,13 @@ export async function publishDraft(draftId, publisherId, client) {
     .single();
 
   if (draftUpdate.error) throw new AIError('STORAGE_ERROR');
+
+  // Trigger static site rebuild so the frontend reflects the new.
+  // This is a no-op if the deploy hook is not configured (e.g., local dev).
+  triggerNetlifyRebuild(client, {
+    entityType: draft.target_entity,
+    entityId: targetId,
+  }).catch(() => {});
 
   return { targetId, targetEntity: draft.target_entity, version: draftUpdate.data.version };
 }

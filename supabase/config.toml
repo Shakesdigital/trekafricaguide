@@ -16,4 +16,5 @@ sql_paths = [
   "./seed/20261005120100_seed_ask_trek_configs.sql",
   "./seed/20261005120200_seed_restructure_config.sql",
   "./seed/20261006000100_seed_autonomous_configs.sql",
+  "./seed/20261008000100_seed_deploy_hook_setting.sql",
 ]

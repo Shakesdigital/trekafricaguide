@@ -176,6 +176,11 @@ function createMockClient(tables = {}) {
   client._seed('cm_agent_log', tables.cm_agent_log || []);
   client._seed('cm_agent_approval_queue', tables.cm_agent_approval_queue || []);
 
+  // Seed site_settings with deploy hook (for build-trigger tests)
+  client._seed('site_settings', tables.site_settings || [
+    { group_name: 'deployment', key: 'netlify_deploy_hook', value: 'https://api.netlify.com/build_hooks/test-hook' },
+  ]);
+
   // Seed AI task config for autonomous ops
   client._seed('ai_task_config', tables.ai_task_config || [
     { task_type: 'autonomous_cycle', enabled: false, provider: 'primary', model: 'gpt-4', timeout_ms: 25000, max_retries: 1, max_output_tokens: 8192, cache_ttl_seconds: 0 },

@@ -19,6 +19,7 @@ import { FORBIDDEN_FIELDS as _FORBIDDEN_FIELDS, ENTITY_TYPES, getTableName } fro
 import { runDiscovery } from './discover.mjs';
 import { scanContentGaps, listOpportunities, updateOpportunityStatus, OPPORTUNITY_TYPES, CADENCES } from './opportunities.mjs';
 import { publishDraft } from '../content-manager/drafts.mjs';
+import { triggerNetlifyRebuild } from './build-trigger.mjs';
 import { findMediaForEntity } from './media.mjs';
 
 // ── Operation type constants ───────────────────────────────────────────────────
@@ -1086,6 +1087,15 @@ export async function approveApprovalItem(approvalId, reviewerId, client, notes,
     .single();
 
   if (updateError) throw new AIError('STORAGE_ERROR');
+
+  // Trigger static site rebuild for the changed entity.
+  // No-op if deploy hook is not configured.
+  if (item.entity_type && item.entity_id) {
+    triggerNetlifyRebuild(client, {
+      entityType: item.entity_type,
+      entityId: item.entity_id,
+    }).catch(() => {});
+  }
 
   // Log the approval action
   if (operationId) {
