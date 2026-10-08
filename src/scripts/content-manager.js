@@ -130,6 +130,7 @@ const tabLoaders = {
   published: loadPublished,
   sources: loadSources,
   activity: loadActivityLog,
+  autonomous: loadAutonomousOps,
 };
 
 // --- Research Queue ---
@@ -743,7 +744,142 @@ function initLogout() {
   });
 }
 
-// --- Init ---
+// --- Autonomous Operations ---
+
+async function loadAutonomousOps() {
+  const opsTbody = document.getElementById('cm-autonomous-ops-tbody');
+  const approvalTbody = document.getElementById('cm-autonomous-approval-tbody');
+
+  if (!opsTbody || !approvalTbody) return;
+
+  try {
+    // Load stats
+    const stats = await api('/cm-autonomous?resource=stats');
+    document.getElementById('cm-stat-pending').textContent = stats.approval_queue.pending;
+    document.getElementById('cm-stat-recent-ops').textContent = stats.recent_operations;
+    document.getElementById('cm-stat-recent-logs').textContent = stats.recent_logs;
+
+    // Load operations
+    const { operations } = await api('/cm-autonomous?limit=50');
+    if (!operations.length) {
+      opsTbody.innerHTML = '<tr><td colspan="5" class="admin-text-muted">No operations yet.</td></tr>';
+    } else {
+      opsTbody.innerHTML = operations.map((op) => `
+        <tr>
+          <td><code>${escapeHtml(op.operation_type)}</code></td>
+          <td>${statusBadge(op.status)}</td>
+          <td><small class="admin-text-muted">${formatDate(op.started_at)}</small></td>
+          <td><small class="admin-text-muted">${op.finished_at ? formatDate(op.finished_at) : '—'}</small></td>
+          <td>
+            ${op.stats ? `<small class="admin-text-muted">scanned: ${op.stats.scanned ?? 0}, drafts: ${op.stats.drafts_created ?? 0}, approvals: ${op.stats.approvals_pending ?? 0}</small>` : '—'}
+          </td>
+        </tr>
+      `).join('');
+    }
+
+    // Load approval queue
+    const { items } = await api('/cm-autonomous?resource=approvals&limit=50');
+    if (!items.length) {
+      approvalTbody.innerHTML = '<tr><td colspan="8" class="admin-text-muted">No items in approval queue.</td></tr>';
+    } else {
+      approvalTbody.innerHTML = items.map((item) => `
+        <tr data-approval-id="${item.id}">
+          <td>
+            <span class="admin-badge admin-badge-secondary">${escapeHtml(item.entity_type)}</span>
+            ${item.entity_slug ? `<small class="admin-text-muted">${escapeHtml(item.entity_slug)}</small>` : '—'}
+          </td>
+          <td><code>${escapeHtml(item.field_name)}</code></td>
+          <td><pre class="admin-code-block-small">${escapeHtml(JSON.stringify(item.current_value))}</pre></td>
+          <td><pre class="admin-code-block-small">${escapeHtml(JSON.stringify(item.proposed_value))}</pre></td>
+          <td>${item.priority_score.toFixed(1)}</td>
+          <td>${escapeHtml(item.reason || '—')}</td>
+          <td><small class="admin-text-muted">${formatDate(item.created_at)}</small></td>
+          <td>
+            <button class="admin-btn admin-btn-success admin-btn-small" data-action="approve-autonomous" data-approval-id="${item.id}">Approve</button>
+            <button class="admin-btn admin-btn-error admin-btn-small" data-action="reject-autonomous" data-approval-id="${item.id}">Reject</button>
+          </td>
+        </tr>
+      `).join('');
+    }
+
+    // Attach event listeners for approve/reject buttons
+    approvalTbody.querySelectorAll('[data-action="approve-autonomous"]').forEach((btn) => {
+      btn.addEventListener('click', async (e) => {
+        e.stopPropagation();
+        const approvalId = btn.dataset.approvalId;
+        if (confirm('Approve this change? It will be applied to the content record.')) {
+          try {
+            await api('/cm-autonomous', {
+              method: 'PATCH',
+              body: { approval_id: approvalId, action: 'approve' },
+            });
+            showSuccess('Approval applied.');
+            await loadAutonomousOps();
+          } catch (error) {
+            showError(`Failed: ${error.message}`);
+          }
+        }
+      });
+    });
+
+    approvalTbody.querySelectorAll('[data-action="reject-autonomous"]').forEach((btn) => {
+      btn.addEventListener('click', async (e) => {
+        e.stopPropagation();
+        const approvalId = btn.dataset.approvalId;
+        const notes = prompt('Rejection reason (optional):');
+        try {
+          await api('/cm-autonomous', {
+            method: 'PATCH',
+            body: { approval_id: approvalId, action: 'reject', notes },
+          });
+          showSuccess('Item rejected.');
+          await loadAutonomousOps();
+        } catch (error) {
+          showError(`Failed: ${error.message}`);
+        }
+      });
+    });
+
+  } catch (error) {
+    opsTbody.innerHTML = `<tr><td colspan="5" class="admin-alert admin-alert-error">Error: ${escapeHtml(error.message)}</td></tr>`;
+  }
+}
+
+// Autonomous tab sub-navigation
+function initAutonomousTabs() {
+  const subTabs = document.querySelectorAll('[data-autonomous-tab]');
+  const panels = document.querySelectorAll('#autonomous-operations, #autonomous-approval-queue');
+
+  subTabs.forEach((tab) => {
+    tab.addEventListener('click', (e) => {
+      e.preventDefault();
+      subTabs.forEach((t) => t.classList.toggle('is-active', t === tab));
+      panels.forEach((p) => p.classList.toggle('active', p.id === `autonomous-${tab.dataset.autonomousTab === 'operations' ? 'operations' : 'approval-queue'}`));
+    });
+  });
+}
+
+// Run cycle button
+function initRunCycle() {
+  const btn = document.getElementById('cm-run-cycle-btn');
+  btn?.addEventListener('click', async () => {
+    btn.disabled = true;
+    btn.textContent = 'Running…';
+    try {
+      const result = await api('/cm-autonomous', {
+        method: 'POST',
+        body: { cadence: 'daily' },
+      });
+      showSuccess(`Cycle complete. Operation: ${result.operation_id?.slice(0, 8)}…`);
+      await loadAutonomousOps();
+    } catch (error) {
+      showError(`Cycle failed: ${error.message}`);
+    } finally {
+      btn.disabled = false;
+      btn.textContent = 'Run Cycle (Daily)';
+    }
+  });
+}
 
 document.addEventListener('DOMContentLoaded', async () => {
   const loading = document.getElementById('cm-loading');
@@ -767,6 +903,8 @@ document.addEventListener('DOMContentLoaded', async () => {
   initTabs();
   initLogout();
   submitResearchForm();
+  initAutonomousTabs();
+  initRunCycle();
 
   // Attach filter listeners
   document.getElementById('cm-drafts-status-filter')?.addEventListener('change', loadDrafts);

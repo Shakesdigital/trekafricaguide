@@ -5,4 +5,15 @@ schemas = ["public", "graphql_public"]
 
 [db.seed]
 enabled = true
-sql_paths = ["./seed/20260830000200_seed_cms_content_and_media.sql"]
+sql_paths = [
+  "./seed/20260401000200_seed_trek_africa_launch.sql",
+  "./seed/20260830000200_seed_cms_content_and_media.sql",
+  "./seed/20261004000100_seed_ai_task_configs.sql",
+  "./seed/20261004000200_seed_content_manager_configs.sql",
+  "./seed/20261005000100_seed_knowledge_engine.sql",
+  "./seed/20261005000200_seed_knowledge_discovery_sources.sql",
+  "./seed/20261005000300_seed_opportunity_engine_configs.sql",
+  "./seed/20261005120100_seed_ask_trek_configs.sql",
+  "./seed/20261005120200_seed_restructure_config.sql",
+  "./seed/20261006000100_seed_autonomous_configs.sql",
+]

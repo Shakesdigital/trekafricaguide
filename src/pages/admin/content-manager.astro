@@ -47,6 +47,7 @@ layout: '../layouts/AdminLayout.astro'
         <a href="#" class="admin-tab" data-tab="published">Published</a>
         <a href="#" class="admin-tab" data-tab="sources">Sources</a>
         <a href="#" class="admin-tab" data-tab="activity">Activity Log</a>
+        <a href="#" class="admin-tab" data-tab="autonomous">Autonomous</a>
       </nav>
     </header>
 
@@ -253,4 +254,79 @@ layout: '../layouts/AdminLayout.astro'
       </section>
     </main>
   </div>
+
+  <!-- Autonomous Operations Tab -->
+  <section id="tab-autonomous" class="admin-tab-panel">
+    <div class="admin-panel">
+      <div class="admin-panel-header">
+        <h2>Autonomous Operations</h2>
+        <button id="cm-run-cycle-btn" class="admin-btn admin-btn-primary admin-btn-small">Run Cycle (Daily)</button>
+      </div>
+
+      <div id="cm-agent-stats" class="admin-grid admin-grid-3">
+        <div class="admin-stat-card">
+          <div class="admin-stat-value" id="cm-stat-pending">—</div>
+          <div class="admin-stat-label">Pending Approvals</div>
+        </div>
+        <div class="admin-stat-card">
+          <div class="admin-stat-value" id="cm-stat-recent-ops">—</div>
+          <div class="admin-stat-label">Recent Operations (24h)</div>
+        </div>
+        <div class="admin-stat-card">
+          <div class="admin-stat-value" id="cm-stat-recent-logs">—</div>
+          <div class="admin-stat-label">Recent Logs (24h)</div>
+        </div>
+      </div>
+
+      <div class="admin-tabs" style="margin-top: 1rem;">
+        <a href="#" class="admin-tab is-active" data-autonomous-tab="operations">Recent Operations</a>
+        <a href="#" class="admin-tab" data-autonomous-tab="approval-queue">Approval Queue</a>
+      </div>
+
+      <div class="admin-tab-panels" style="margin-top: 0;">
+        <!-- Operations -->
+        <section id="autonomous-operations" class="admin-tab-panel active">
+          <div class="admin-table-container">
+            <table class="admin-table">
+              <thead>
+                <tr>
+                  <th>Type</th>
+                  <th>Status</th>
+                  <th>Started</th>
+                  <th>Finished</th>
+                  <th>Stats</th>
+                </tr>
+              </thead>
+              <tbody id="cm-autonomous-ops-tbody">
+                <tr><td colspan="5" class="admin-text-muted">Loading…</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+
+        <!-- Approval Queue -->
+        <section id="autonomous-approval-queue" class="admin-tab-panel">
+          <div class="admin-table-container">
+            <table class="admin-table">
+              <thead>
+                <tr>
+                  <th>Entity</th>
+                  <th>Field</th>
+                  <th>Current</th>
+                  <th>Proposed</th>
+                  <th>Priority</th>
+                  <th>Reason</th>
+                  <th>Created</th>
+                  <th>Action</th>
+                </tr>
+              </thead>
+              <tbody id="cm-autonomous-approval-tbody">
+                <tr><td colspan="8" class="admin-text-muted">Loading…</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+      </div>
+    </div>
+  </section>
 </div>
