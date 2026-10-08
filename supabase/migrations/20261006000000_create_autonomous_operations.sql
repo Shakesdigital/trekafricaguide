@@ -145,9 +145,9 @@ create policy "CMS staff can read agent log"
   on public.cm_agent_log for select to authenticated
   using ((select private.has_cms_role(array['viewer', 'editor', 'admin', 'super_admin'])));
 
+-- cm_agent_log: system can insert, admins full access
 create policy "System can insert agent log"
   on public.cm_agent_log for insert to authenticated
-  using (true)
   with check ((select private.has_cms_role(array['admin', 'super_admin'])));
 
 -- cm_agent_approval_queue: admins manage, CMS staff read
