@@ -35,6 +35,7 @@ const { accommodation } = Astro.props;
       <div class="detail-main">
         <div class="detail-section"><h2>Why stay here and how to plan your stay</h2><EditorialText text={accommodation.listing_summary} /><EditorialText text={accommodation.practical_info} /></div>
         <div class="detail-section"><h2>Key amenities</h2><ul class="amenity-grid">{normalizeList(accommodation.amenities).map((item) => <li class="amenity">{item}</li>)}</ul></div>
+        {(accommodation.property_type || accommodation.price_label) && <div class="detail-section"><h2>Stay style and budget</h2><p>{accommodation.property_type}</p>{accommodation.price_label && <p><strong>Price category: {accommodation.price_label}.</strong> This describes general positioning; ask the property for current rates, seasonal changes and what is included.</p>}</div>}
         <ResearchNotes record={accommodation} />
         {accommodation.attraction && <div class="detail-section"><h2>Related attraction</h2><p><a href={`/attractions/${accommodation.attraction.slug}`}>{accommodation.attraction.name}</a></p><p>{accommodation.attraction.listing_summary}</p></div>}
       </div>
