@@ -1,0 +1,78 @@
+---
+const { videos = [] } = Astro.props;
+const films = videos.filter((video) => /^[\w-]{11}$/.test(video.id) && video.title && video.channel && video.checked_at && video.status === 'approved');
+const featured = films[0];
+---
+{featured && <section id="africa-films" class="section section--alt">
+  <div class="container">
+    <p class="eyebrow">Africa on film</p><h2>See where your next journey could take you.</h2>
+    <p>Explore African destinations through films from their tourism channels.</p>
+    <africa-film-gallery>
+      <iframe class="africa-film-player" src={`https://www.youtube-nocookie.com/embed/${featured.id}`} title={featured.title} loading="lazy" allow="encrypted-media; picture-in-picture; fullscreen" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>
+      <div class="africa-film-info" aria-live="polite">
+        <h3 data-film-title>{featured.title}</h3>
+        <p><span data-film-destination>{featured.destination}</span> · <span data-film-channel>{featured.channel}</span></p>
+        <a data-film-source href={`https://www.youtube.com/watch?v=${featured.id}`} target="_blank" rel="noopener noreferrer">Watch on YouTube ↗</a>
+      </div>
+      <div class="africa-film-controls"><h3>More places to explore</h3><div><button type="button" data-film-prev aria-label="Show previous videos">←</button><button type="button" data-film-next aria-label="Show more videos">→</button></div></div>
+      <div class="africa-film-track" aria-label="Choose a destination film" tabindex="0">
+        {films.map((film, index) => <a class="africa-film-choice" href={`https://www.youtube.com/watch?v=${film.id}`} data-film-id={film.id} data-film-title={film.title} data-film-channel={film.channel} data-film-destination={film.destination} aria-current={index === 0 ? 'true' : undefined}>
+          <img src={`https://i.ytimg.com/vi/${film.id}/hqdefault.jpg`} alt="" loading="lazy" width="480" height="360" />
+          <span>{film.destination}</span><strong>{film.title}</strong><small>{film.channel}</small>
+        </a>)}
+      </div>
+      <p class="africa-film-credit">Videos play through YouTube and remain with their original creators. YouTube may show advertising or restrict playback in some locations.</p>
+    </africa-film-gallery>
+  </div>
+</section>}
+<style>
+  africa-film-gallery { display: block; }
+  .africa-film-player { display: block; width: 100%; aspect-ratio: 16/9; border: 0; border-radius: .85rem; background: #13291f; }
+  .africa-film-info { padding-block: 1rem; }
+  .africa-film-info h3, .africa-film-info p { margin: 0 0 .5rem; }
+  .africa-film-info a { text-decoration: underline; }
+  .africa-film-controls { display: flex; justify-content: space-between; align-items: center; gap: 1rem; margin-top: 1rem; }
+  .africa-film-controls button { width: 2.75rem; height: 2.75rem; border-radius: .5rem; background: white; color: var(--brand-primary); border: 1px solid var(--line); cursor: pointer; font: inherit; }
+  .africa-film-track { display: flex; gap: 1rem; overflow-x: auto; scroll-snap-type: x mandatory; padding: .3rem .3rem 1rem; }
+  .africa-film-choice { display: flex; flex-direction: column; flex: 0 0 clamp(15rem, 27vw, 21rem); scroll-snap-align: start; padding: .65rem; border: 2px solid transparent; border-radius: .75rem; background: white; }
+  .africa-film-choice[aria-current="true"] { border-color: var(--brand-primary); }
+  .africa-film-choice img { width: 100%; height: auto; aspect-ratio: 16/9; object-fit: cover; border-radius: .45rem; }
+  .africa-film-choice span { color: var(--brand-secondary); font-size: .8rem; margin-top: .7rem; }
+  .africa-film-choice strong { line-height: 1.4; margin-block: .3rem; }
+  .africa-film-choice small { color: var(--muted); }
+  .africa-film-credit { color: var(--muted); font-size: .8rem; }
+  .africa-film-choice:focus-visible, .africa-film-controls button:focus-visible { outline: 3px solid var(--brand-primary); outline-offset: 2px; }
+</style>
+<script>
+  class AfricaFilmGallery extends HTMLElement {
+    connectedCallback() {
+      if (this.dataset.ready) return;
+      this.dataset.ready = 'true';
+      const player = this.querySelector('iframe');
+      const track = this.querySelector<HTMLElement>('.africa-film-track');
+      const choices = this.querySelectorAll<HTMLAnchorElement>('[data-film-id]');
+      choices.forEach((choice) => choice.addEventListener('click', (event) => {
+        if (event.metaKey || event.ctrlKey || event.shiftKey || event.altKey || !player) return;
+        event.preventDefault();
+        const id = choice.dataset.filmId;
+        if (!id || !/^[\w-]{11}$/.test(id)) return;
+        player.src = 'https://www.youtube-nocookie.com/embed/' + id;
+        player.title = choice.dataset.filmTitle || 'Africa travel film';
+        const title = this.querySelector('[data-film-title]:not(a)');
+        const channel = this.querySelector('span[data-film-channel]');
+        const destination = this.querySelector('span[data-film-destination]');
+        const source = this.querySelector<HTMLAnchorElement>('[data-film-source]');
+        if (title) title.textContent = player.title;
+        if (channel) channel.textContent = choice.dataset.filmChannel || '';
+        if (destination) destination.textContent = choice.dataset.filmDestination || '';
+        if (source) source.href = choice.href;
+        choices.forEach((item) => item.removeAttribute('aria-current'));
+        choice.setAttribute('aria-current', 'true');
+      }));
+      const move = (direction: number) => track?.scrollBy({ left: direction * track.clientWidth * .8, behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth' });
+      this.querySelector('[data-film-prev]')?.addEventListener('click', () => move(-1));
+      this.querySelector('[data-film-next]')?.addEventListener('click', () => move(1));
+    }
+  }
+  if (!customElements.get('africa-film-gallery')) customElements.define('africa-film-gallery', AfricaFilmGallery);
+</script>
