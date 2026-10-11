@@ -28,17 +28,18 @@ const { accommodation } = Astro.props;
         
       </div>
       <Gallery images={normalizeList(accommodation.gallery).length ? normalizeList(accommodation.gallery) : [accommodation.hero_image_url]} alt={accommodation.name} caption={photoContext(accommodation.hero_image_url)} />
-      <EditorialText text={accommodation.detail_intro || accommodation.listing_summary} class="detail-hero__summary" />
+      
     </div>
   </section>
   <section class="section">
     <div class="container detail-grid">
       <div class="detail-main">
+        <div class="detail-section"><EditorialText text={accommodation.detail_intro || accommodation.listing_summary} class="detail-hero__summary" /></div>
         <div class="detail-section"><h2>Why stay here and how to plan your stay</h2><EditorialText text={accommodation.listing_summary} /><EditorialText text={accommodation.practical_info} /></div>
         <div class="detail-section"><h2>Key amenities</h2><ul class="amenity-grid">{normalizeList(accommodation.amenities).map((item) => <li class="amenity">{item}</li>)}</ul></div>
         {(accommodation.property_type || accommodation.price_label) && <div class="detail-section"><h2>Stay style and budget</h2><p>{accommodation.property_type}</p>{accommodation.price_label && <p><strong>Price category: {accommodation.price_label}.</strong> This describes general positioning; ask the property for current rates, seasonal changes and what is included.</p>}</div>}
         <ResearchNotes record={accommodation} />
-        {accommodation.attraction && <div class="detail-section"><h2>Related attraction</h2><p><a href={`/attractions/${accommodation.attraction.slug}`}>{accommodation.attraction.name}</a></p><p>{accommodation.attraction.listing_summary}</p></div>}
+        {accommodation.attraction && <div class="detail-section"><h2>Related attraction</h2><div class="related-card-grid"><ListingCard item={accommodation.attraction} type="attraction" /></div></div>}
       </div>
       <aside class="detail-rail"><BookingOffers listing={accommodation} offers={accommodation.bookingOffers} /></aside>
     </div>
