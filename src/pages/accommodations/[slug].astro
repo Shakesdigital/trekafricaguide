@@ -25,9 +25,10 @@ const { accommodation } = Astro.props;
       <div class="listing-head">
         <p class="eyebrow">{accommodation.name} · {accommodation.location_name}, {accommodation.country.name}</p>
         <h1>{accommodation.name}</h1>
-        <EditorialText text={accommodation.detail_intro || accommodation.listing_summary} class="detail-hero__summary" />
+        
       </div>
       <Gallery images={normalizeList(accommodation.gallery).length ? normalizeList(accommodation.gallery) : [accommodation.hero_image_url]} alt={accommodation.name} caption={photoContext(accommodation.hero_image_url)} />
+      <EditorialText text={accommodation.detail_intro || accommodation.listing_summary} class="detail-hero__summary" />
     </div>
   </section>
   <section class="section">
