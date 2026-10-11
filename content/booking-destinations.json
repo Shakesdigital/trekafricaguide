@@ -1,0 +1,558 @@
+{
+  "accommodations": {
+    "casa-del-papa": {
+      "url": "https://www.booking.com/hotel/bj/casa-del-papa.fr.html",
+      "provider": "booking",
+      "title": "Casa Del Papa Resort",
+      "checked_at": "2026-10-11",
+      "evidence": {
+        "source_url": "https://www.booking.com/hotel/bj/casa-del-papa.fr.html",
+        "summary": "Primary property detail identifies Casa Del Papa Resort at Ouidah Plage, Benin."
+      }
+    },
+    "dar-said": {
+      "url": "https://www.booking.com/hotel/tn/dar-said.en-gb.html",
+      "provider": "booking",
+      "title": "Dar Said",
+      "checked_at": "2026-10-11",
+      "evidence": {
+        "source_url": "https://www.booking.com/hotel/tn/dar-said.en-gb.html?came_from_hotel_review=1&keep_landing=1",
+        "summary": "Primary detail identifies Rue Toumi, Sidi Bou Said, Tunisia; rejected Morocco namesakes."
+      }
+    },
+    "emerson-spice": {
+      "url": "https://www.expedia.com/es/Zanzibar-Town-Hoteles-Emerson-Spice-Hotel.h31570310.Informacion-Hotel",
+      "provider": "expedia",
+      "title": "Emerson Spice Hotel",
+      "checked_at": "2026-10-11",
+      "evidence": {
+        "source_url": "https://www.expedia.com/es/Zanzibar-Town-Hoteles-Emerson-Spice-Hotel.h31570310.Informacion-Hotel",
+        "summary": "Opened primary detail with property ID 31570310; identifies Emerson Spice Hotel in Stone Town, Zanzibar, with named rooms Belle, Violetta and Mimi."
+      }
+    },
+    "hilton-cabo-verde-sal-resort": {
+      "url": "https://www.booking.com/hotel/cv/hilton-cabo-verde-sal-resort.en-gb.html",
+      "provider": "booking",
+      "title": "Hilton Cabo Verde Sal Resort",
+      "checked_at": "2026-10-11",
+      "evidence": {
+        "source_url": "https://www.booking.com/hotel/cv/hilton-cabo-verde-sal-resort.en-gb.html",
+        "summary": "Primary detail identifies Hilton Cabo Verde Sal Resort in Santa Maria, Cape Verde."
+      }
+    },
+    "kruger-shalati": {
+      "url": "https://www.booking.com/hotel/za/kruger-shalati-the-train-on-the-bridge.html",
+      "provider": "booking",
+      "title": "Kruger Shalati - Train on The Bridge & Garden Suites",
+      "checked_at": "2026-10-11",
+      "evidence": {
+        "source_url": "https://www.booking.com/hotel/za/kruger-shalati-the-train-on-the-bridge.html",
+        "summary": "Primary detail identifies the train and garden suites property in Skukuza, South Africa."
+      }
+    },
+    "les-paletuviers": {
+      "url": "https://www.booking.com/hotel/sn/les-pala-c-tuviers.en-gb.html",
+      "provider": "booking",
+      "title": "Les Paletuviers",
+      "checked_at": "2026-10-11",
+      "evidence": {
+        "source_url": "https://www.booking.com/hotel/sn/les-pala-c-tuviers.en-gb.html?came_from_hotel_review=1&keep_landing=1",
+        "summary": "Primary detail identifies Toubakouta, Senegal; rejected Saint Martin apartment namesake."
+      }
+    },
+    "maribela-hotel": {
+      "url": "https://www.booking.com/hotel/et/maribela-lalibela.en-gb.html",
+      "provider": "booking",
+      "title": "Maribela Hotel",
+      "checked_at": "2026-10-11",
+      "evidence": {
+        "source_url": "https://www.booking.com/hotel/et/maribela-lalibela.en-gb.html",
+        "summary": "Primary property detail identifies Maribela Hotel in Lalibela, Ethiopia."
+      }
+    },
+    "marriott-mena-house-cairo": {
+      "url": "https://www.booking.com/hotel/eg/mena-house-oberoi.html",
+      "provider": "booking",
+      "title": "Marriott Mena House, Cairo",
+      "checked_at": "2026-10-11",
+      "evidence": {
+        "source_url": "https://www.booking.com/hotel/eg/mena-house-oberoi.html",
+        "summary": "Primary detail identifies Marriott Mena House at Pyramids Road, Giza, Cairo, Egypt; legacy Oberoi URL remains associated with current Marriott name."
+      }
+    },
+    "mount-nelson-a-belmond-hotel": {
+      "url": "https://www.booking.com/hotel/za/belmond-mount-nelson.en-gb.html",
+      "provider": "booking",
+      "title": "Mount Nelson, A Belmond Hotel, Cape Town",
+      "checked_at": "2026-10-11",
+      "evidence": {
+        "source_url": "https://www.booking.com/hotel/za/belmond-mount-nelson.en-gb.html",
+        "summary": "Primary detail identifies 76 Orange Street, Gardens, Cape Town, South Africa."
+      }
+    },
+    "ol-tukai-lodge-amboseli": {
+      "url": "https://www.booking.com/hotel/ke/ol-tukai-lodge-amboseli.da.html",
+      "provider": "booking",
+      "title": "Ol Tukai Lodge Amboseli",
+      "checked_at": "2026-10-11",
+      "evidence": {
+        "source_url": "https://www.booking.com/hotel/ke/ol-tukai-lodge-amboseli.da.html",
+        "summary": "Primary property detail identifies Ol Tukai Lodge Amboseli in Amboseli, Kenya. Danish locale retained as the directly indexed verified URL."
+      }
+    },
+    "paraa-safari-lodge": {
+      "url": "https://www.booking.com/hotel/ug/paraa-safari-lodge.html",
+      "provider": "booking",
+      "title": "Paraa Safari Lodge",
+      "checked_at": "2026-10-11",
+      "evidence": {
+        "source_url": "https://www.booking.com/hotel/ug/paraa-safari-lodge.html?came_from_hotel_review=1&keep_landing=1",
+        "summary": "Primary detail identifies Paraa, Uganda and explicitly describes Murchison Falls National Park accommodation."
+      }
+    },
+    "ridge-royal-hotel": {
+      "url": "https://www.booking.com/hotel/gh/ridge-royal-cape-coast.de.html",
+      "provider": "booking",
+      "title": "Ridge Royal Hotel Cape Coast",
+      "checked_at": "2026-10-11",
+      "evidence": {
+        "source_url": "https://www.booking.com/hotel/gh/ridge-royal-cape-coast.de.html",
+        "summary": "Primary property detail identifies Ridge Royal Hotel Cape Coast, Ghana; rejected Ridge Royal apartment in South Africa. German locale retained as directly indexed verified URL."
+      }
+    },
+    "serengeti-serena-safari-lodge": {
+      "url": "https://www.booking.com/hotel/tz/serengeti-serena-safari-lodge.en-gb.html",
+      "provider": "booking",
+      "title": "Serengeti Serena Safari Lodge",
+      "checked_at": "2026-10-11",
+      "evidence": {
+        "source_url": "https://www.booking.com/hotel/tz/serengeti-serena-safari-lodge.en-gb.html",
+        "summary": "Primary property detail identifies Serengeti National Park, Tanzania."
+      }
+    },
+    "sossusvlei-lodge": {
+      "url": "https://www.booking.com/hotel/na/sossusvlei-lodge.en-gb.html",
+      "provider": "booking",
+      "title": "Sossusvlei Lodge",
+      "checked_at": "2026-10-11",
+      "evidence": {
+        "source_url": "https://www.booking.com/hotel/na/sossusvlei-lodge.en-gb.html",
+        "summary": "Primary detail identifies Farm on D826, Sesriem, Namibia."
+      }
+    },
+    "the-place-resort-tokeh": {
+      "url": "https://www.expedia.com/Freetown-Hotels-The-Place-Resort-At-Tokeh-Beach.h7863256.Hotel-Information",
+      "provider": "expedia",
+      "title": "The Place Resort at Tokeh Beach",
+      "checked_at": "2026-10-11",
+      "evidence": {
+        "source_url": "https://www.expedia.com/Freetown-Hotels-The-Place-Resort-At-Tokeh-Beach.h7863256.Hotel-Information",
+        "summary": "Primary detail identifies Peninsula Road, Tokeh Beach, Freetown, Sierra Leone, with 50 rooms."
+      }
+    },
+    "victoria-falls-hotel": {
+      "url": "https://www.booking.com/hotel/zw/the-victoria-falls.en-gb.html",
+      "provider": "booking",
+      "title": "The Victoria Falls Hotel",
+      "checked_at": "2026-10-11",
+      "evidence": {
+        "source_url": "https://www.booking.com/hotel/zw/the-victoria-falls.en-gb.html",
+        "summary": "Primary detail identifies 1 Mallet Drive, Victoria Falls, Zimbabwe and historic 1904 hotel."
+      }
+    },
+    "camp-okavango": {
+      "status": "unavailable",
+      "reason": "No exact supported OTA property detail found after targeted Booking.com, Expedia, Hotels.com and Agoda searches; do not substitute Little Okavango Camp in Tanzania or other Botswana camps."
+    },
+    "governors-camp": {
+      "status": "unavailable",
+      "reason": "Expedia's own Musiara Gate hotel page links the exact listing, but opening it redirects to generic Expedia Hotels; no working supported alternative verified."
+    },
+    "mfuwe-lodge": {
+      "status": "unavailable",
+      "reason": "No exact supported OTA property detail found; Expedia regional mentions do not establish a bookable detail listing. Do not substitute Mushroom Lodge, Mopani or other Mfuwe-area properties."
+    },
+    "riad-rosemary": {
+      "status": "unavailable",
+      "reason": "No exact Booking.com, Expedia, Hotels.com or Agoda listing found; a Michelin Guide hotel detail is outside the requested supported OTA set."
+    },
+    "sabyinyo-silverback-lodge": {
+      "status": "unavailable",
+      "reason": "No exact supported OTA detail found under current or legacy Sabyinyo Silverback Lodge names."
+    },
+    "sanctuary-gorilla-forest-camp": {
+      "status": "unavailable",
+      "reason": "No exact supported OTA detail found under current or legacy Sanctuary Gorilla Forest Camp names."
+    },
+    "terres-touareg-guest-house": {
+      "status": "unavailable",
+      "reason": "No exact supported OTA detail found; official guesthouse page confirms Djanet property but is not an OTA."
+    },
+    "desert-luxury-camp": {
+      "status": "unavailable",
+      "reason": "The editorial property is the desertluxurycamp.com operator portfolio (Erg Chebbi or Erg Chigaga). Multiple OTA namesakes were found, but same-operator identity could not be confirmed. Do not publish these candidate links without operator confirmation."
+    }
+  },
+  "activities": {
+    "maasai-mara-balloon-safari": {
+      "url": "https://www.getyourguide.com/keekorok-l247032/maasai-mara-hot-air-balloon-safari-with-a-bush-breakfast-t254357/",
+      "provider": "getyourguide",
+      "title": "Maasai Mara balloon safari with champagne breakfast",
+      "operator": "Perfect Wilderness Tours and Safari",
+      "rating": 4.8,
+      "review_count": 36,
+      "notes": "Confirm your camp is in the pickup area. Flight operations depend on weather.",
+      "checked_at": "2026-10-11"
+    },
+    "bwindi-gorilla-trekking": {
+      "url": "https://www.getyourguide.com/kigali-l32466/1-day-gorilla-tour-in-bwindi-from-kigali-t792979/",
+      "provider": "getyourguide",
+      "title": "One-day Bwindi gorilla tour from Kigali",
+      "operator": "BUGOLI ADVENTURES LIMITED",
+      "rating": 4.8,
+      "review_count": 17,
+      "notes": "This is a cross-border day trip from Kigali, not a local Bwindi departure. Confirm permit costs, trekking sector, border documents and the full price before booking.",
+      "checked_at": "2026-10-11"
+    },
+    "amboseli-game-drive-safari": {
+      "url": "https://www.getyourguide.com/nairobi-l267/nairobi-day-tour-to-amboseli-national-park-maasai-village-t543578/",
+      "provider": "getyourguide",
+      "title": "Amboseli day tour from Nairobi",
+      "operator": "Niroskos Tours And Safaris",
+      "rating": 4.5,
+      "review_count": 408,
+      "notes": "A long day from Nairobi. Check park admission, vehicle upgrades and optional village charges separately; this is not an in-park lodge pickup by default.",
+      "checked_at": "2026-10-11"
+    },
+    "atlas-mountains-day-trip": {
+      "url": "https://www.getyourguide.com/asni-l115647/marrakech-atlas-mountains-ourika-5-valleys-day-tour-t11542/",
+      "provider": "getyourguide",
+      "title": "Atlas Mountains and five valleys day tour with lunch",
+      "operator": "Attractive Tours",
+      "rating": 4.9,
+      "review_count": 2301,
+      "notes": "Departs from Marrakech. Check the selected shared or private option and pickup arrangements.",
+      "checked_at": "2026-10-11"
+    },
+    "serengeti-balloon-safari": {
+      "url": "https://www.getyourguide.com/serengeti-national-park-l123040/serengeti-national-park-balloon-safari-at-dawn-t383490/",
+      "provider": "getyourguide",
+      "title": "Serengeti balloon safari at dawn",
+      "operator": "Serengeti Balloon Safaris",
+      "rating": 4.2,
+      "review_count": 14,
+      "notes": "A directly operated balloon experience with a modest review sample. Confirm launch area and lodge pickup; park entry is not included. Flights depend on weather.",
+      "checked_at": "2026-10-11"
+    },
+    "table-mountain-guided-hike": {
+      "url": "https://www.getyourguide.com/cape-town-l103/cape-town-table-mountain-hike-via-india-venster-t302403/",
+      "provider": "getyourguide",
+      "title": "Table Mountain guided hike via India Venster",
+      "operator": "Atlantic Outlook",
+      "rating": 5,
+      "review_count": 34,
+      "notes": "This route involves scrambling and requires good fitness and confidence on uneven ground. Confirm suitability and descent arrangements with the guide.",
+      "checked_at": "2026-10-11"
+    },
+    "cape-coast-kakum-guided-visit": {
+      "url": "https://www.getyourguide.com/accra-l506/from-accra-the-cape-coast-day-tour-guided-experience-t834942/",
+      "provider": "getyourguide",
+      "title": "Cape Coast Castle, Elmina Castle and Kakum tour",
+      "operator": "Expedition-Go Tours",
+      "rating": 4.7,
+      "review_count": 211,
+      "notes": "Full-day departure from Accra. Confirm which admissions and stops your selected option includes.",
+      "checked_at": "2026-10-11"
+    },
+    "victoria-falls-guided-walk": {
+      "url": "https://www.getyourguide.com/victoria-falls-town-l127068/zimbabwe-zambia-guided-tour-of-the-falls-from-both-sides-t414370/",
+      "provider": "getyourguide",
+      "title": "Guided Victoria Falls tour: Zimbabwe and Zambia",
+      "operator": "Cuckoo Safaris",
+      "rating": 4.7,
+      "review_count": 501,
+      "notes": "This option visits both countries. Confirm visa eligibility, border arrangements and park entrance charges before booking.",
+      "checked_at": "2026-10-11"
+    },
+    "okavango-mokoro-safari": {
+      "url": "https://www.getyourguide.com/maun-l116302/okavango-delta-full-day-mokorocanoe-tour-all-inclusive-t604726/",
+      "provider": "getyourguide",
+      "title": "Full-day Okavango mokoro and walking excursion",
+      "operator": "Kalahari Breeze Safari",
+      "rating": 4.7,
+      "review_count": 117,
+      "notes": "Departs from Maun and combines a mokoro outing with walking. This is not a vehicle game-drive package; confirm water conditions and pickup.",
+      "checked_at": "2026-10-11"
+    },
+    "volcanoes-gorilla-trek": {
+      "url": "https://www.getyourguide.com/kigali-l32466/kigali-rwanda-gorilla-tracking-in-volcanoes-national-park-t537766/",
+      "provider": "getyourguide",
+      "title": "Kigali: gorilla tracking in Volcanoes National Park",
+      "operator": "Vista Safaris",
+      "rating": 4.9,
+      "review_count": 37,
+      "notes": "The Rwanda gorilla permit is not included. Confirm the Rwanda option and the full permit-inclusive cost: reviews may cover different itinerary variants.",
+      "checked_at": "2026-10-11"
+    },
+    "giza-pyramids-guided-tour": {
+      "url": "https://www.getyourguide.com/cairo-l92/cairo-grand-egyptian-museum-pyramids-sphinx-tour-lunch-t851104/",
+      "provider": "getyourguide",
+      "title": "Cairo: Grand Egyptian Museum, Pyramids, Sphinx and lunch",
+      "operator": "OceanAir Travel",
+      "rating": 4.8,
+      "review_count": 4885,
+      "checked_at": "2026-10-11",
+      "evidence_url": "https://www.getyourguide.com/oceanair-egypt-s462166/",
+      "notes": "Departs from Cairo or Giza. Check the selected entrance-ticket option, hotel pickup zone and any extras before booking."
+    }
+  },
+  "attractions": {
+    "djanet-and-tassili": {
+      "url": "https://www.getyourguide.com/djanet-l232012/djanet-4-day-desert-adventure-in-tassili-n-ajjer-t1110780/",
+      "provider": "getyourguide",
+      "title": "Djanet: 4-Day Desert Adventure in Tassili N’Ajjer",
+      "operator": "Cozy Vibes Travel Algeria",
+      "rating": null,
+      "review_count": 0,
+      "notes": "Four-day desert itinerary from Djanet. This listing has no published product reviews yet. Confirm local permissions, transport and flight arrangements directly before booking.",
+      "checked_at": "2026-10-11",
+      "status": "review-limited"
+    },
+    "kruger-national-park": {
+      "url": "https://www.getyourguide.com/en-gb/skukuza-l192363/kruger-national-park-full-day-game-drive-with-pickup-t433574/",
+      "provider": "getyourguide",
+      "title": "Kruger National Park: Full-Day Game Drive with Pick-up",
+      "operator": "Inn Africa Camp & Tours- Game drives",
+      "rating": 4.5,
+      "review_count": 166,
+      "notes": "Full-day open-vehicle game drive. Confirm the pickup area; food and park conservation fees are extra.",
+      "checked_at": "2026-10-11",
+      "status": "candidate"
+    },
+    "lalibela": {
+      "url": null,
+      "provider": "getyourguide",
+      "title": null,
+      "operator": null,
+      "rating": null,
+      "review_count": null,
+      "notes": "HOLD: Lalibela is in Amhara. Parent task identified current do-not-travel advisory. Do not add promotional booking CTA or infer that an available OTA listing establishes travel safety.",
+      "checked_at": "2026-10-11",
+      "status": "hold"
+    },
+    "murchison-falls-national-park": {
+      "url": "https://www.getyourguide.com/masindi-l145511/uganda-2-day-murchison-falls-park-safari-with-boat-cruise-t820586/",
+      "provider": "getyourguide",
+      "title": "Uganda: 2-Day Murchison Falls Park Safari with Boat cruise",
+      "operator": "Kitenji Uganda Safaris and Tours",
+      "rating": 4.5,
+      "review_count": 12,
+      "notes": "Two-day safari with a boat cruise. The review sample is small and transport/value feedback is mixed; review recent comments and confirm the itinerary, vehicle and all inclusions before booking.",
+      "checked_at": "2026-10-11",
+      "status": "review-limited"
+    },
+    "namib-desert": {
+      "url": "https://www.getyourguide.com/en-gb/windhoek-l852/from-windhoek-budget-sossusvlei-guided-2-day-tour-t711874/",
+      "provider": "getyourguide",
+      "title": "From Windhoek: Budget Sossusvlei Guided 2-day Tour",
+      "operator": "Oombe Tours Transfer and Car Hire cc",
+      "rating": 4.9,
+      "review_count": 9,
+      "notes": "Two-day Sossusvlei journey from Windhoek. The high score is based on only nine reviews. Check the overnight stay, meals and transfers in your option.",
+      "checked_at": "2026-10-11",
+      "status": "review-limited"
+    },
+    "ouidah-and-ganvie": {
+      "url": "https://www.getyourguide.com/ganvie-l241520/explore-ganvie-ouidah-at-the-heart-of-history-and-traditions-t1144752/",
+      "provider": "getyourguide",
+      "title": "Explore Ganvié & Ouidah, at the heart of memory and traditions",
+      "operator": "Wa Africa",
+      "rating": 5,
+      "review_count": 1,
+      "notes": "Combines Ganvié and Ouidah. Only one review was available when checked; confirm pickup, boat safety equipment and the heritage itinerary.",
+      "checked_at": "2026-10-11",
+      "status": "review-limited"
+    },
+    "sahara-dunes": {
+      "url": "https://www.getyourguide.com/marrakesh-l208/3-day-desert-tour-from-marrakech-to-merzouga-t52681/",
+      "provider": "getyourguide",
+      "title": "From Marrakech: Merzouga 3-Day Desert Safari with Food",
+      "operator": "Ando Travel Ltd",
+      "rating": 4.7,
+      "review_count": 15137,
+      "notes": "Three-day Marrakech round trip to Merzouga/Erg Chebbi. Select the camp category carefully and check meal, camel and vehicle-transfer arrangements.",
+      "checked_at": "2026-10-11",
+      "status": "candidate"
+    },
+    "sal-island": {
+      "url": "https://www.getyourguide.com/santa-maria-cape-verde-l141321/cape-verde-6-hour-sal-experience-t268017/",
+      "provider": "getyourguide",
+      "title": "Sal: Island Experience Tour with a Certified Native Guide",
+      "operator": "Sal Experiences",
+      "rating": 4.8,
+      "review_count": 4340,
+      "notes": "Guided island circuit. Entrance fees and optional lunch cost extra; confirm pickup and the stops included.",
+      "checked_at": "2026-10-11",
+      "status": "candidate"
+    },
+    "sine-saloum-delta": {
+      "url": "https://www.getyourguide.com/dakar-l32481/dakar-saloum-islands-full-day-tour-with-lunch-drinks-t1243074/",
+      "provider": "getyourguide",
+      "title": "Dakar: Saloum Islands Full-Day Tour with Lunch & Drinks",
+      "operator": "Travel with ziggy",
+      "rating": 5,
+      "review_count": 1,
+      "notes": "Full-day Saloum excursion from Dakar/Petite Côte. Only one review was available when checked; confirm road transfers, boat arrangements and inclusions.",
+      "checked_at": "2026-10-11",
+      "status": "review-limited"
+    },
+    "south-luangwa": {
+      "url": "https://www.getyourguide.com/south-luangwa-national-park-l150352/south-luangwa-morning-park-game-drive-with-transfers-t1056815/",
+      "provider": "getyourguide",
+      "title": "South Luangwa: Morning Park Game Drive with Transfers",
+      "operator": "Ani & Mad Holidays Ltd",
+      "rating": null,
+      "review_count": 0,
+      "notes": "Morning game drive with accommodation transfers. This listing has no published product reviews yet. Confirm the pickup zone and park fees.",
+      "checked_at": "2026-10-11",
+      "status": "review-limited"
+    },
+    "tunis-and-sidi-bou-said": {
+      "url": "https://www.getyourguide.com/en-gb/tunis-l304/tunis-medina-carthage-sidi-bousaid-private-trip-w-lunch-t553079/",
+      "provider": "getyourguide",
+      "title": "Tunis: Medina, Carthage & Sidi Bousaid Private Day Trip",
+      "operator": "Didon Tours",
+      "rating": 4.8,
+      "review_count": 142,
+      "notes": "Private day trip through Tunis, Carthage and Sidi Bou Said. Confirm the exact museums and entrance tickets included in your option.",
+      "checked_at": "2026-10-11",
+      "status": "candidate"
+    },
+    "zanzibar": {
+      "url": "https://www.getyourguide.com/zanzibar-ville-l872/zanzibar-visite-des-epices-visite-de-stone-town-et-de-l-ile-prison-t645862/",
+      "provider": "getyourguide",
+      "title": "Zanzibar: Spice Tour, Stone Town tour & Prison Island",
+      "operator": "Tourice Travel & Tours",
+      "rating": null,
+      "review_count": null,
+      "notes": "Private spice farm, Stone Town and Prison Island outing. Confirm pickup, boat arrangements, admissions and meals. Read current reviews on the booking page.",
+      "checked_at": "2026-10-11",
+      "status": "candidate"
+    },
+    "tokeh-and-river-no2": {
+      "status": "unavailable",
+      "reason": "Focused GYG searches for Tokeh and River No. 2 returned no supported product listing. Do not substitute an unrelated country/category search URL."
+    },
+    "maasai-mara": {
+      "url": "https://www.getyourguide.com/keekorok-l247032/maasai-mara-hot-air-balloon-safari-with-a-bush-breakfast-t254357/",
+      "provider": "getyourguide",
+      "title": "Maasai Mara balloon safari with champagne breakfast",
+      "operator": "Perfect Wilderness Tours and Safari",
+      "rating": 4.8,
+      "review_count": 36,
+      "notes": "Confirm your camp is in the pickup area. Flight operations depend on weather.",
+      "checked_at": "2026-10-11"
+    },
+    "bwindi-impenetrable-national-park": {
+      "url": "https://www.getyourguide.com/kigali-l32466/1-day-gorilla-tour-in-bwindi-from-kigali-t792979/",
+      "provider": "getyourguide",
+      "title": "One-day Bwindi gorilla tour from Kigali",
+      "operator": "BUGOLI ADVENTURES LIMITED",
+      "rating": 4.8,
+      "review_count": 17,
+      "notes": "This is a cross-border day trip from Kigali, not a local Bwindi departure. Confirm permit costs, trekking sector, border documents and the full price before booking.",
+      "checked_at": "2026-10-11"
+    },
+    "amboseli-national-park": {
+      "url": "https://www.getyourguide.com/nairobi-l267/nairobi-day-tour-to-amboseli-national-park-maasai-village-t543578/",
+      "provider": "getyourguide",
+      "title": "Amboseli day tour from Nairobi",
+      "operator": "Niroskos Tours And Safaris",
+      "rating": 4.5,
+      "review_count": 408,
+      "notes": "A long day from Nairobi. Check park admission, vehicle upgrades and optional village charges separately; this is not an in-park lodge pickup by default.",
+      "checked_at": "2026-10-11"
+    },
+    "marrakech-and-atlas": {
+      "url": "https://www.getyourguide.com/asni-l115647/marrakech-atlas-mountains-ourika-5-valleys-day-tour-t11542/",
+      "provider": "getyourguide",
+      "title": "Atlas Mountains and five valleys day tour with lunch",
+      "operator": "Attractive Tours",
+      "rating": 4.9,
+      "review_count": 2301,
+      "notes": "Departs from Marrakech. Check the selected shared or private option and pickup arrangements.",
+      "checked_at": "2026-10-11"
+    },
+    "serengeti-national-park": {
+      "url": "https://www.getyourguide.com/serengeti-national-park-l123040/serengeti-national-park-balloon-safari-at-dawn-t383490/",
+      "provider": "getyourguide",
+      "title": "Serengeti balloon safari at dawn",
+      "operator": "Serengeti Balloon Safaris",
+      "rating": 4.2,
+      "review_count": 14,
+      "notes": "A directly operated balloon experience with a modest review sample. Confirm launch area and lodge pickup; park entry is not included. Flights depend on weather.",
+      "checked_at": "2026-10-11"
+    },
+    "cape-town": {
+      "url": "https://www.getyourguide.com/cape-town-l103/cape-town-table-mountain-hike-via-india-venster-t302403/",
+      "provider": "getyourguide",
+      "title": "Table Mountain guided hike via India Venster",
+      "operator": "Atlantic Outlook",
+      "rating": 5,
+      "review_count": 34,
+      "notes": "This route involves scrambling and requires good fitness and confidence on uneven ground. Confirm suitability and descent arrangements with the guide.",
+      "checked_at": "2026-10-11"
+    },
+    "cape-coast-kakum": {
+      "url": "https://www.getyourguide.com/accra-l506/from-accra-the-cape-coast-day-tour-guided-experience-t834942/",
+      "provider": "getyourguide",
+      "title": "Cape Coast Castle, Elmina Castle and Kakum tour",
+      "operator": "Expedition-Go Tours",
+      "rating": 4.7,
+      "review_count": 211,
+      "notes": "Full-day departure from Accra. Confirm which admissions and stops your selected option includes.",
+      "checked_at": "2026-10-11"
+    },
+    "victoria-falls": {
+      "url": "https://www.getyourguide.com/victoria-falls-town-l127068/zimbabwe-zambia-guided-tour-of-the-falls-from-both-sides-t414370/",
+      "provider": "getyourguide",
+      "title": "Guided Victoria Falls tour: Zimbabwe and Zambia",
+      "operator": "Cuckoo Safaris",
+      "rating": 4.7,
+      "review_count": 501,
+      "notes": "This option visits both countries. Confirm visa eligibility, border arrangements and park entrance charges before booking.",
+      "checked_at": "2026-10-11"
+    },
+    "okavango-delta": {
+      "url": "https://www.getyourguide.com/maun-l116302/okavango-delta-full-day-mokorocanoe-tour-all-inclusive-t604726/",
+      "provider": "getyourguide",
+      "title": "Full-day Okavango mokoro and walking excursion",
+      "operator": "Kalahari Breeze Safari",
+      "rating": 4.7,
+      "review_count": 117,
+      "notes": "Departs from Maun and combines a mokoro outing with walking. This is not a vehicle game-drive package; confirm water conditions and pickup.",
+      "checked_at": "2026-10-11"
+    },
+    "cairo-and-giza": {
+      "url": "https://www.getyourguide.com/cairo-l92/cairo-grand-egyptian-museum-pyramids-sphinx-tour-lunch-t851104/",
+      "provider": "getyourguide",
+      "title": "Cairo: Grand Egyptian Museum, Pyramids, Sphinx and lunch",
+      "operator": "OceanAir Travel",
+      "rating": 4.8,
+      "review_count": 4885,
+      "checked_at": "2026-10-11",
+      "evidence_url": "https://www.getyourguide.com/oceanair-egypt-s462166/",
+      "notes": "Departs from Cairo or Giza. Check the selected entrance-ticket option, hotel pickup zone and any extras before booking."
+    },
+    "volcanoes-national-park": {
+      "url": "https://www.getyourguide.com/kigali-l32466/kigali-rwanda-gorilla-tracking-in-volcanoes-national-park-t537766/",
+      "provider": "getyourguide",
+      "title": "Kigali: gorilla tracking in Volcanoes National Park",
+      "operator": "Vista Safaris",
+      "rating": 4.9,
+      "review_count": 37,
+      "notes": "The Rwanda gorilla permit is not included. Confirm the Rwanda option and the full permit-inclusive cost: reviews may cover different itinerary variants.",
+      "checked_at": "2026-10-11"
+    }
+  }
+}
