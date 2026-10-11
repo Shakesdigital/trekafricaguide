@@ -1,4 +1,6 @@
 ---
+import EditorialText from '../../components/EditorialText.astro';
+import ResearchNotes from '../../components/ResearchNotes.astro';
 import SiteLayout from '../../layouts/SiteLayout.astro';
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import Gallery from '../../components/Gallery.astro';
@@ -23,7 +25,7 @@ const { accommodation } = Astro.props;
       <div class="listing-head">
         <p class="eyebrow">{accommodation.name} · {accommodation.location_name}, {accommodation.country.name}</p>
         <h1>{accommodation.name}</h1>
-        <p class="detail-hero__summary">{accommodation.detail_intro || accommodation.listing_summary}</p>
+        <EditorialText text={accommodation.detail_intro || accommodation.listing_summary} class="detail-hero__summary" />
       </div>
       <Gallery images={normalizeList(accommodation.gallery).length ? normalizeList(accommodation.gallery) : [accommodation.hero_image_url]} alt={accommodation.name} caption={photoContext(accommodation.hero_image_url)} />
     </div>
@@ -31,8 +33,9 @@ const { accommodation } = Astro.props;
   <section class="section">
     <div class="container detail-grid">
       <div class="detail-main">
-        <div class="detail-section"><h2>Why stay here</h2><p>{accommodation.listing_summary}</p><p>{accommodation.practical_info}</p></div>
+        <div class="detail-section"><h2>Why stay here and how to plan your stay</h2><EditorialText text={accommodation.listing_summary} /><EditorialText text={accommodation.practical_info} /></div>
         <div class="detail-section"><h2>Key amenities</h2><ul class="amenity-grid">{normalizeList(accommodation.amenities).map((item) => <li class="amenity">{item}</li>)}</ul></div>
+        <ResearchNotes record={accommodation} />
         {accommodation.attraction && <div class="detail-section"><h2>Related attraction</h2><p><a href={`/attractions/${accommodation.attraction.slug}`}>{accommodation.attraction.name}</a></p><p>{accommodation.attraction.listing_summary}</p></div>}
       </div>
       <aside class="detail-rail"><BookingOffers listing={accommodation} offers={accommodation.bookingOffers} /></aside>
