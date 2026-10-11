@@ -1,13 +1,95 @@
 ---
 import ImageSlot from './ImageSlot.astro';
 import { photoLibrary } from '../lib/photo-library.js';
-import { resolveImage } from '../lib/images.mjs';
+import { normalizeList, resolveImage } from '../lib/images.mjs';
 const { images = [], alt = 'Travel gallery', caption = '' } = Astro.props;
-const gallery = images.length ? images : [null];
-const credits = [...new Set(gallery.map(resolveImage))].map((src) => photoLibrary.images[src]).filter(Boolean);
+const gallery = [...new Set(normalizeList(images).map(resolveImage).filter(Boolean))];
+const credits = gallery.map((src) => photoLibrary.images[src]).filter(Boolean);
+const imageAlt = (src, index) => photoLibrary.images[src]?.alt || `${alt} — photo ${index + 1}`;
 ---
-<div class={`gallery-grid ${gallery.length === 1 ? 'gallery-grid--single' : ''} ${gallery.length === 2 ? 'gallery-grid--pair' : ''}`} data-gallery>
-  {gallery.map((src, index) => <ImageSlot class="gallery-grid__slot" src={src} alt={photoLibrary.images[resolveImage(src)]?.alt || `${alt} ${index + 1}`} />)}
-</div>
+<detail-photo-gallery class="detail-photo-gallery">
+  {gallery.length > 0 ? <>
+    <div class={`detail-photo-gallery__grid detail-photo-gallery__grid--${Math.min(gallery.length, 5)}`}>
+      {gallery.slice(0, 5).map((src, index) => <a class="detail-photo-gallery__tile" href={src} data-photo-index={index} aria-label={`View photo ${index + 1} of ${gallery.length}: ${imageAlt(src, index)}`}>
+        <img src={src} alt={imageAlt(src, index)} loading={index === 0 ? 'eager' : 'lazy'} fetchpriority={index === 0 ? 'high' : 'auto'} />
+      </a>)}
+    </div>
+    <button class="detail-photo-gallery__all" type="button" data-open-photos hidden>See all {gallery.length} {gallery.length === 1 ? 'photo' : 'photos'}</button>
+    <dialog class="detail-photo-gallery__dialog" aria-label={`Photos of ${alt}`}>
+      <div class="detail-photo-gallery__toolbar"><strong>{alt}</strong><button type="button" data-close-photos autofocus>Close photos ✕</button></div>
+      <div class="detail-photo-gallery__collection">
+        {gallery.map((src, index) => <figure data-full-photo={index}>
+          <img src={src} alt={imageAlt(src, index)} loading="lazy" />
+          <figcaption>{index + 1} / {gallery.length} · {imageAlt(src, index)}</figcaption>
+        </figure>)}
+      </div>
+    </dialog>
+  </> : <ImageSlot alt={alt} class="detail-photo-gallery__empty" />}
+</detail-photo-gallery>
 {caption && <p class="photo-context">{caption}</p>}
 {credits.length > 0 && <p class="photo-credits">Photos: {credits.map((credit, index) => <span>{index > 0 && ' · '}<a href={credit.source_page}>{credit.creator}</a> (<a href={credit.license_url}>{credit.license}</a>)</span>)}. Displayed images may be resized or cropped. <a href="/photo-credits">Photo details</a>.</p>}
+
+<style>
+  .detail-photo-gallery { display: block; position: relative; margin-block: 1.25rem 1.5rem; }
+  .detail-photo-gallery__grid { display: grid; grid-template-columns: 2fr 1fr 1fr; grid-template-rows: repeat(2, minmax(0, 1fr)); gap: .5rem; height: clamp(20rem, 38vw, 32rem); border-radius: 1rem; overflow: hidden; }
+  .detail-photo-gallery__tile { display: block; min-width: 0; min-height: 0; overflow: hidden; background: #eef0ed; }
+  .detail-photo-gallery__tile:first-child { grid-row: 1 / -1; }
+  .detail-photo-gallery__tile img { display: block; width: 100%; height: 100%; max-height: none; object-fit: cover; border-radius: 0; transition: filter .2s ease; }
+  .detail-photo-gallery__tile:hover img { filter: brightness(.9); }
+  .detail-photo-gallery__tile:focus-visible { outline: 3px solid white; outline-offset: -6px; }
+  .detail-photo-gallery__grid--1 { grid-template-columns: 1fr; }
+  .detail-photo-gallery__grid--2 { grid-template-columns: 1fr 1fr; }
+  .detail-photo-gallery__grid--2 .detail-photo-gallery__tile { grid-row: 1 / -1; }
+  .detail-photo-gallery__grid--3 { grid-template-columns: 2fr 1fr; }
+  .detail-photo-gallery__grid--4 .detail-photo-gallery__tile:last-child { grid-column: 2 / -1; }
+  .detail-photo-gallery__all, .detail-photo-gallery__toolbar button { border: 1px solid #d6dcd7; background: white; color: #183c30; padding: .7rem 1rem; border-radius: .6rem; font: inherit; font-weight: 700; cursor: pointer; min-height: 44px; }
+  .detail-photo-gallery__all { position: absolute; right: 1rem; bottom: 1rem; box-shadow: 0 2px 10px #0002; }
+  .detail-photo-gallery__all[hidden] { display: none; }
+  .detail-photo-gallery__all:focus-visible, .detail-photo-gallery__toolbar button:focus-visible { outline: 3px solid #183c30; outline-offset: 3px; }
+  .detail-photo-gallery__dialog { width: min(70rem, 96vw); max-width: 96vw; max-height: 92dvh; padding: 0; border: 0; border-radius: 1rem; background: white; color: #183c30; }
+  .detail-photo-gallery__dialog::backdrop { background: #101c18d9; }
+  .detail-photo-gallery__toolbar { position: sticky; top: 0; z-index: 1; display: flex; align-items: center; justify-content: space-between; gap: 1rem; padding: 1rem; background: white; border-bottom: 1px solid #d6dcd7; }
+  .detail-photo-gallery__toolbar button { flex-shrink: 0; }
+  .detail-photo-gallery__collection { padding: 1rem; }
+  .detail-photo-gallery__collection figure { margin: 0 0 1.5rem; scroll-margin-top: 6rem; }
+  .detail-photo-gallery__collection img { display: block; width: 100%; height: auto; max-height: 72dvh; object-fit: contain; background: #f3f5f3; border-radius: .5rem; }
+  .detail-photo-gallery__collection figcaption { padding-top: .5rem; font-size: .875rem; }
+  .detail-photo-gallery :global(.detail-photo-gallery__empty) { min-height: 18rem; display: grid; place-content: center; gap: 1rem; background: #eef0ed; border-radius: 1rem; text-align: center; }
+  @media (max-width: 640px) {
+    .detail-photo-gallery__grid { display: flex; height: 21rem; overflow-x: auto; scroll-snap-type: x mandatory; gap: .4rem; }
+    .detail-photo-gallery__tile { flex: 0 0 88%; scroll-snap-align: start; }
+    .detail-photo-gallery__grid--1 .detail-photo-gallery__tile { flex-basis: 100%; }
+    .detail-photo-gallery__all { right: .75rem; bottom: 1rem; }
+    .detail-photo-gallery__toolbar { align-items: flex-start; font-size: .9rem; }
+  }
+  @media (prefers-reduced-motion: reduce) { .detail-photo-gallery__tile img { transition: none; } }
+</style>
+<script>
+  class DetailPhotoGallery extends HTMLElement {
+    connectedCallback() {
+      if (this.dataset.ready) return;
+      this.dataset.ready = 'true';
+      const dialog = this.querySelector('dialog');
+      const openButton = this.querySelector<HTMLButtonElement>('[data-open-photos]');
+      if (!dialog || !openButton) return;
+      let trigger: HTMLElement | null = null;
+      const open = (index: string, element: HTMLElement) => {
+        trigger = element;
+        dialog.showModal();
+        requestAnimationFrame(() => dialog.querySelector(`[data-full-photo="${index}"]`)?.scrollIntoView({ block: 'start' }));
+      };
+      openButton.hidden = false;
+      openButton.addEventListener('click', () => open('0', openButton));
+      this.querySelectorAll<HTMLAnchorElement>('[data-photo-index]').forEach((link) => {
+        link.addEventListener('click', (event) => {
+          if (event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
+          event.preventDefault();
+          open(link.dataset.photoIndex || '0', link);
+        });
+      });
+      this.querySelector('[data-close-photos]')?.addEventListener('click', () => dialog.close());
+      dialog.addEventListener('close', () => trigger?.focus({ preventScroll: true }));
+    }
+  }
+  if (!customElements.get('detail-photo-gallery')) customElements.define('detail-photo-gallery', DetailPhotoGallery);
+</script>
