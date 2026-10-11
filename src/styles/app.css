@@ -2594,3 +2594,5 @@ img.page-hero__slot {
 .related-card-grid .listing-card__image { aspect-ratio: 16 / 10; }
 .related-card-grid .listing-card__slot { width: 100%; height: 100%; object-fit: cover; }
 .detail-main > .detail-section:first-child > .detail-hero__summary { margin-top: 0; }
+
+@media (max-width:819px) { .detail-grid > .detail-rail { order: -1; } }
