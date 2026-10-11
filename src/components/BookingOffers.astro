@@ -4,19 +4,29 @@ const { listing, offers = [], affiliateId } = Astro.props;
 const views = bookingPresentations(listing, offers, { affiliateId });
 ---
 <div class="booking-panel">
-  <p class="booking-panel__eyebrow">Booking options</p>
+  <h2 class="booking-panel__title">Booking option</h2>
   {views.length ? <>
-    <h3>{listing.property_type ? 'Book a stay' : 'Book this activity'}</h3>
-    <div class="stack-grid">
+    <div class="booking-panel__actions">
       {views.map((view) => <div>
-        <p><strong>{view.title}</strong></p>
-        {view.operator && <p>Operated by {view.operator}</p>}
-        {view.reviewLabel && <p><small>{view.reviewLabel}</small></p>}
-        {view.notes && <p>{view.notes}</p>}
-        <a class="button button--full" href={view.href} target={view.target} rel={view.rel}>{view.label} ↗</a>
+        <a class="button booking-panel__cta" href={view.href} target={view.target} rel={view.rel}>{view.label} <span aria-hidden="true">↗</span></a>
+        {(view.notes || view.operator) && <details class="booking-panel__details"><summary>About this option</summary>
+          <p><strong>{view.title}</strong></p>
+          {view.operator && <p>Operated by {view.operator}</p>}
+          {view.reviewLabel && <p><small>{view.reviewLabel}</small></p>}
+          {view.notes && <p>{view.notes}</p>}
+        </details>}
       </div>)}
     </div>
-    <p><small>{views[0].disclosure}</small></p>
-    <p><small>Check current availability, inclusions, permits and cancellation terms before booking.</small></p>
+    <p class="booking-panel__terms">Check current availability, inclusions, permits and cancellation terms before booking.</p>
   </> : <p>A verified booking link for this specific listing is not yet available.</p>}
 </div>
+<style>
+  .booking-panel { position: sticky; top: 7rem; max-height: calc(100dvh - 8rem); overflow-y: auto; }
+  .booking-panel__title { margin: 0 0 1rem; font-size: 1.4rem; }
+  .booking-panel__actions { display: grid; grid-template-columns: minmax(0, 1fr); gap: 1rem; }
+  .booking-panel .booking-panel__cta { display: flex; width: 100%; min-height: 3.1rem; height: auto; padding: .85rem 1rem; border-radius: .55rem; box-sizing: border-box; line-height: 1.4; white-space: normal; overflow-wrap: normal; }
+  .booking-panel__terms { font-size: .85rem; line-height: 1.6; margin: 1rem 0 0; color: var(--muted); }
+  .booking-panel__details { margin-top: .85rem; font-size: .85rem; }
+  .booking-panel__details summary { cursor: pointer; font-weight: 700; }
+  @media (max-width: 819px) { .booking-panel { position: static; max-height: none; overflow: visible; } }
+</style>
