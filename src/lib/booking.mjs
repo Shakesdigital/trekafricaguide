@@ -1,4 +1,5 @@
-const DEFAULT_AFFILIATE_ID = '6a809892f76b8b75f2a2e6a4';
+import destinations from '../../content/booking-destinations.json';
+import { DEFAULT_AFFILIATE_ID } from '../config/site.mjs';
 const DEFAULT_MAX_AGE_DAYS = 90;
 const SUPPORTED_PROVIDERS = new Set([
   'booking',
@@ -6,7 +7,6 @@ const SUPPORTED_PROVIDERS = new Set([
   'hotelscom',
   'vrbo',
   'agoda',
-  'tripadvisor',
   'kayak',
   'getyourguide',
   'roam',
@@ -44,51 +44,93 @@ export function isOfferFresh(offer, now = new Date(), maxAgeDays = DEFAULT_MAX_A
   return ageMs >= 0 && ageMs <= maxAgeDays * 86400000;
 }
 
+const PROVIDER_NAMES = { booking: 'Booking.com', expedia: 'Expedia', hotelscom: 'Hotels.com', agoda: 'Agoda', vrbo: 'Vrbo', kayak: 'Kayak', getyourguide: 'GetYourGuide' };
+
+function listingFamily(listing) {
+  return listing?.routeFamily || (listing?.property_type ? 'accommodations' : null)
+    || Object.keys(destinations).find((family) => Object.hasOwn(destinations[family], listing?.slug || ''))
+    || (listing?.attraction_id ? 'activities' : 'attractions');
+}
+
+export function bookingDestination(listing) {
+  return destinations[listingFamily(listing)]?.[listing?.slug] || null;
+}
+
+function directProvider(value) {
+  const safe = safeExternalUrl(value);
+  if (!safe) return null;
+  const url = new URL(safe);
+  const host = url.hostname.toLowerCase();
+  const isHost = (domain) => host === domain || host.endsWith('.' + domain);
+  if (isHost('booking.com') && /^\/hotel\//.test(url.pathname)) return 'booking';
+  if (isHost('getyourguide.com') && /-t\d+\/?$/.test(url.pathname)) return 'getyourguide';
+  if (isHost('expedia.com') && /\.h\d+\.(?:Hotel-Information|Informacion-Hotel)/.test(url.pathname)) return 'expedia';
+  if (isHost('hotels.com') && /\/ho\d+\//.test(url.pathname)) return 'hotelscom';
+  if (isHost('agoda.com') && /\/hotel\//.test(url.pathname)) return 'agoda';
+  if (isHost('vrbo.com') && /\d/.test(url.pathname)) return 'vrbo';
+  return null;
+}
+
+export function affiliateExternalUrl(value) {
+  const source = safeExternalUrl(value);
+  if (!directProvider(source)) return source;
+  return buildStay22Url({ offer: { source_url: source } });
+}
+
 export function buildStay22Url({ listing, offer, search = {}, affiliateId } = {}) {
-  const sourceUrl = safeExternalUrl(offer?.source_url);
-  const fallback = sourceUrl || safeExternalUrl(listing?.booking_url);
-  if (!offer) return fallback;
-
-  const provider = String(offer.stay22_provider || 'roam').toLowerCase();
-  if (!SUPPORTED_PROVIDERS.has(provider)) return fallback;
-
-  const params = {
+  const selected = bookingDestination(listing);
+  if (selected?.status === 'unavailable' || selected?.status === 'hold') return null;
+  const source = safeExternalUrl(selected?.url || offer?.source_url || listing?.booking_url);
+  const provider = directProvider(source);
+  // Never disguise a destination search or an official supplier site as a bookable OTA product.
+  if (!provider) return null;
+  const family = listingFamily(listing);
+  const params = new URLSearchParams({
     aid: affiliateId || DEFAULT_AFFILIATE_ID,
-    hotelname: listing?.name || '',
-    campaign: `${listing?.property_type ? 'accommodation' : 'attraction'}_${listing?.slug || ''}`,
-  };
-
-  if (listing?.location_name) params.address = listing.location_name;
-
-  if (fallback) {
-    params.link = fallback;
-    delete params.address;
-    delete params.hotelname;
+    link: source,
+    roam: 'false',
+    campaign: (family + '_' + (listing?.slug || 'listing')).replace(/-/g, '_'),
+  });
+  for (const key of ['checkin', 'checkout', 'adults', 'children', 'childrenAges']) {
+    if (search[key] !== undefined && search[key] !== null && search[key] !== '' && search[key] !== 0) params.set(key, String(search[key]));
   }
-
-  for (const key of ['checkin', 'checkout', 'adults', 'children']) {
-    if (search[key] !== undefined && search[key] !== null && search[key] !== '' && search[key] !== 0) {
-      params[key] = String(search[key]);
-    }
-  }
-
-  const qs = new URLSearchParams(params);
-  return `https://www.stay22.com/allez/${encodeURIComponent(provider)}?${qs.toString()}`;
+  return 'https://www.stay22.com/allez/' + provider + '?' + params.toString();
 }
 
 export function offerPresentation({ listing, offer, search = {}, affiliateId, now = new Date() } = {}) {
   const href = buildStay22Url({ listing, offer, search, affiliateId });
   if (!href) return null;
-
+  const selected = bookingDestination(listing);
+  const provider = new URL(href).pathname.split('/').pop();
+  const stay = listingFamily(listing) === 'accommodations';
   return {
     href,
-    label: offer?.label || 'View details',
-    priceLabel: priceLabel(offer, now),
-    rel: offer?.affiliate_supported ? 'nofollow sponsored noopener' : 'nofollow noopener',
+    label: (stay ? 'Book a stay via ' : 'Book this activity via ') + PROVIDER_NAMES[provider],
+    provider,
+    providerDisplay: PROVIDER_NAMES[provider],
+    title: selected?.title || listing?.name,
+    operator: selected?.operator || null,
+    notes: selected?.notes || null,
+    reviewLabel: selected?.rating && selected?.review_count && Date.parse(selected.checked_at) <= Number(now) && Number(now) - Date.parse(selected.checked_at) < 90 * 86400000
+      ? selected.rating + '/5 from ' + selected.review_count + ' reviews on ' + PROVIDER_NAMES[provider] + ' (checked ' + selected.checked_at + '). Ratings can change.'
+      : null,
+    priceLabel: selected ? 'Check live availability and prices' : priceLabel(offer, now),
+    rel: 'nofollow sponsored noopener noreferrer',
     target: '_blank',
-    disclosure: 'Trek Africa Guide does not take payment on this page. Check current details on the provider site.',
-    affiliateSupported: !!offer?.affiliate_supported,
+    disclosure: 'Affiliate link: Trek Africa Guide may earn a commission if you book through this link. Booking and payment take place on the provider site.',
+    affiliateSupported: true,
   };
+}
+
+export function bookingPresentations(listing, offers = [], options = {}) {
+  const selected = bookingDestination(listing);
+  const candidates = selected ? [null] : (offers.length ? offers : [null]);
+  const seen = new Set();
+  return candidates.map((offer) => offerPresentation({ listing, offer, ...options })).filter((view) => {
+    if (!view || seen.has(view.href)) return false;
+    seen.add(view.href);
+    return true;
+  });
 }
 
 function priceLabel(offer, now) {
