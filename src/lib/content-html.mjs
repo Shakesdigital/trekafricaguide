@@ -1,3 +1,4 @@
+import { affiliateExternalUrl } from './booking.mjs';
 import sanitizeHtml from 'sanitize-html';
 
 export function safeExternalUrl(value) {
@@ -36,12 +37,14 @@ export function sanitizeRichText(value) {
     transformTags: {
       a: (tagName, attribs) => {
         if (!isAllowedHref(attribs.href)) return { tagName, attribs: {} };
+        const href = affiliateExternalUrl(attribs.href) || attribs.href;
+        const sponsored = href.includes('https://www.stay22.com/allez/');
         return {
           tagName,
           attribs: {
-            href: attribs.href,
+            href,
             target: '_blank',
-            rel: 'noopener noreferrer',
+            rel: sponsored ? 'nofollow sponsored noopener noreferrer' : 'noopener noreferrer',
           },
         };
       },
