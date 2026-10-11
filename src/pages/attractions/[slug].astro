@@ -24,9 +24,10 @@ const { attraction } = Astro.props;
       <div class="listing-head">
         <p class="eyebrow">{attraction.name} · {attraction.location_name}, {attraction.country.name}</p>
         <h1>{attraction.name}</h1>
-        <EditorialText text={attraction.detail_intro || attraction.listing_summary} class="detail-hero__summary" />
+        
       </div>
       <Gallery images={normalizeList(attraction.gallery).length ? normalizeList(attraction.gallery) : [attraction.hero_image_url]} alt={attraction.name} />
+      <EditorialText text={attraction.detail_intro || attraction.listing_summary} class="detail-hero__summary" />
     </div>
   </section>
   <section class="section">
