@@ -1,0 +1,38 @@
+[
+  {
+    "id": "9sVZrAkRcds",
+    "title": "Explore Uganda's Untamed Beauty with George the Poet",
+    "channel": "Uganda Tourism Board",
+    "destination": "Uganda",
+    "source_url": "https://exploreuganda.com/",
+    "channel_url": "https://www.youtube.com/@ugandatourismboard",
+    "status": "pending-license",
+    "license": "Open license not verified; ordinary YouTube embed requires owner's scope clarification.",
+    "checked_at": "2026-10-11",
+    "embed_evidence": "YouTube oEmbed returned iframe HTML; playback not tested."
+  },
+  {
+    "id": "2p9Qt60W91Q",
+    "title": "Visit Rwanda",
+    "channel": "Visit Rwanda",
+    "destination": "Rwanda",
+    "source_url": "https://visitrwanda.com/tourism/resources/",
+    "channel_url": "https://www.youtube.com/@VisitRwanda",
+    "status": "pending-license",
+    "license": "Open license not verified; ordinary YouTube embed requires owner's scope clarification.",
+    "checked_at": "2026-10-11",
+    "embed_evidence": "YouTube oEmbed returned iframe HTML; playback not tested."
+  },
+  {
+    "id": "omZNK3LvfA8",
+    "title": "Meet South Africa",
+    "channel": "South African Tourism UK",
+    "destination": "South Africa",
+    "source_url": "https://www.youtube.com/watch?v=omZNK3LvfA8",
+    "channel_url": "https://www.youtube.com/@visitsouthafricauk",
+    "status": "pending-license",
+    "license": "Open license not verified; ordinary YouTube embed requires owner's scope clarification.",
+    "checked_at": "2026-10-11",
+    "embed_evidence": "YouTube oEmbed returned iframe HTML; playback not tested."
+  }
+]
