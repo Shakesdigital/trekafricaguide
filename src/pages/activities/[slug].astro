@@ -1,5 +1,5 @@
 ---
-import { bookingPresentations, affiliateExternalUrl } from '../../lib/booking.mjs';
+import { affiliateExternalUrl } from '../../lib/booking.mjs';
 import BookingOffers from '../../components/BookingOffers.astro';
 import SiteLayout from '../../layouts/SiteLayout.astro';
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
@@ -16,21 +16,22 @@ export async function getStaticPaths() {
 const { activity } = Astro.props;
 const originalSource = safeExternalUrl(activity.source_url);
 const isOtaSource = originalSource && /getyourguide\.com|booking\.com|expedia\.com|hotels\.com/.test(new URL(originalSource).hostname);
-const sourceUrl = isOtaSource ? bookingPresentations(activity, activity.bookingOffers)[0]?.href : affiliateExternalUrl(originalSource);
+const sourceUrl = isOtaSource ? null : affiliateExternalUrl(originalSource);
 ---
 <SiteLayout model={model} title={activity.meta_title || activity.name} description={activity.meta_description || activity.listing_summary} image={activity.meta_image_url || activity.hero_image_url}>
   <section class="detail-hero"><div class="container">
     <Breadcrumbs items={[{ label: activity.country.name, href: `/countries/${activity.country.slug}` }, { label: activity.attraction.name, href: activity.attraction.internalUrl }, { label: activity.name }]} />
     <div class="listing-head"><p class="eyebrow">{activity.attraction.name} · {activity.country.name}</p><h1>{activity.name}</h1></div>
     <Gallery images={normalizeList(activity.gallery).length ? normalizeList(activity.gallery) : [activity.hero_image_url || activity.attraction.hero_image_url]} alt={activity.name} />
-      <p class="detail-hero__summary">{activity.listing_summary}</p>
+      
   </div></section>
   <section class="section"><div class="container detail-grid"><div class="detail-main">
+        <div class="detail-section"><p class="detail-hero__summary">{activity.listing_summary}</p></div>
     <div class="detail-section"><h2>About this activity</h2><div class="rich-text" set:html={sanitizeRichText(activity.full_description || activity.detail_intro || '')} /></div>
     <div class="detail-section"><h2>Highlights</h2><ul class="check-list">{normalizeList(activity.highlights).map((item) => <li>{item}</li>)}</ul></div>
     <div class="detail-section"><h2>Best time to participate</h2><div class="rich-text" set:html={sanitizeRichText(activity.best_time || '')} /></div>
     <div class="detail-section"><h2>Planning notes</h2><div class="rich-text" set:html={sanitizeRichText(activity.practical_info || '')} /></div>
-    <div class="detail-section"><h2>Attraction guide</h2><p><a href={activity.attraction.internalUrl}>{activity.attraction.name}</a></p>{sourceUrl && <p><a href={sourceUrl} target="_blank" rel={isOtaSource ? "nofollow sponsored noopener noreferrer" : "noopener noreferrer"}>{isOtaSource ? "Selected activity details and reviews" : "Activity information and source"} ↗</a></p>}</div>
+    <div class="detail-section"><h2>Attraction guide</h2><div class="related-card-grid"><ListingCard item={activity.attraction} type="attraction" /></div>{sourceUrl && <p><a href={sourceUrl} target="_blank" rel={isOtaSource ? "nofollow sponsored noopener noreferrer" : "noopener noreferrer"}>{isOtaSource ? "Selected activity details and reviews" : "Activity information and source"} ↗</a></p>}</div>
   </div><aside class="detail-rail"><BookingOffers listing={activity} offers={activity.bookingOffers} /></aside></div></section>
   <section class="section section--alt"><div class="container"><h2>Nearby stays</h2><div class="listing-grid">{activity.attraction.nearbyStays.map((item) => <ListingCard item={item} type="accommodation" />)}</div></div></section>
 </SiteLayout>
