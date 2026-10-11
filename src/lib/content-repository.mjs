@@ -3,6 +3,7 @@
 // so only published, currently visible records reach the page templates.
 
 import { readFile } from 'node:fs/promises';
+import { resolve } from 'node:path';
 import { createPublicClient } from './supabase.mjs';
 
 /**
@@ -62,7 +63,7 @@ const TABLE_NAMES = [
 ];
 const OPTIONAL_NEW_TABLES = new Set(['activities', 'travel_articles']);
 
-const EDITORIAL_OVERRIDE_PATH = new URL('../../content/editorial-overrides.json', import.meta.url);
+const EDITORIAL_OVERRIDE_PATH = resolve(process.cwd(), 'content/editorial-overrides.json');
 const EDITORIAL_FIELDS = {
   countries: new Set(['id', 'region_id', 'slug', 'name', 'hero_title', 'hero_text', 'overview', 'access_summary', 'best_time', 'planning_tips', 'hero_image_url', 'hero_image_alt', 'gallery', 'sort_order', 'status', 'published_at', 'featured']),
   attractions: new Set(['id', 'region_id', 'country_id', 'slug', 'name', 'location_name', 'hero_image_url', 'hero_image_alt', 'gallery', 'listing_summary', 'detail_intro', 'full_description', 'getting_there', 'best_time', 'practical_info', 'highlights', 'rating', 'review_count', 'price_label', 'booking_url', 'featured', 'sort_order', 'status', 'published_at']),
@@ -78,13 +79,12 @@ const REQUIRED_NEW_FIELDS = {
   travel_articles: ['title', 'excerpt', 'body'],
 };
 
-/** Read repository-managed editorial records. Only missing files are optional. */
+/** Read the committed repository-managed editorial records. */
 async function readEditorialOverrides() {
   try {
     return JSON.parse(await readFile(EDITORIAL_OVERRIDE_PATH, 'utf8'));
   } catch (error) {
-    if (error?.code === 'ENOENT') return {};
-    throw error;
+    throw new Error(`Failed to load required editorial overrides at ${EDITORIAL_OVERRIDE_PATH}: ${error.message}`);
   }
 }
 
