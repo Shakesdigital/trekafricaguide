@@ -1,0 +1,5 @@
+---
+const { text = '', class: className } = Astro.props;
+const paragraphs = String(text || '').split(/\n\s*\n/).map((part) => part.trim()).filter(Boolean);
+---
+{paragraphs.map((paragraph) => <p class={className}>{paragraph}</p>)}
