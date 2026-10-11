@@ -2,7 +2,7 @@
 import EditorialText from '../../components/EditorialText.astro';
 import ResearchNotes from '../../components/ResearchNotes.astro';
 import SiteLayout from '../../layouts/SiteLayout.astro';
-import PageHero from '../../components/PageHero.astro';
+import { normalizeList } from '../../lib/images.mjs';
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import ListingCard from '../../components/ListingCard.astro';
 import Gallery from '../../components/Gallery.astro';
@@ -19,13 +19,16 @@ const attractions = model.attractions.filter((item) => item.country_id === count
 const stays = model.accommodations.filter((item) => item.country_id === country.id);
 ---
 <SiteLayout model={model} title={country.name} description={country.hero_text || country.overview}>
-  <PageHero eyebrow="Destination guide" title={country.hero_title || country.name} text={country.hero_text || country.overview} image={country.hero_image_url} alt={country.hero_image_alt || country.name} />
-  <section class="detail-hero"><div class="container"><Breadcrumbs items={[{ label: country.region.name, href: `/regions/${country.region.slug}` }, { label: country.name }]} /></div></section>
+  <section class="detail-hero"><div class="container">
+    <Breadcrumbs items={[{ label: country.region.name, href: `/regions/${country.region.slug}` }, { label: country.name }]} />
+    <div class="listing-head"><p class="eyebrow">Destination guide</p><h1>{country.hero_title || country.name}</h1></div>
+    <Gallery images={normalizeList(country.gallery).length ? normalizeList(country.gallery) : [country.hero_image_url]} alt={country.hero_image_alt || country.name} />
+    <EditorialText text={country.hero_text} class="detail-hero__summary" />
+  </div></section>
   <section class="section">
     <div class="container detail-grid">
       <div class="detail-main">
         <div class="detail-section"><h2>Destination guide</h2><EditorialText text={country.overview} /></div>
-        {country.gallery?.length > 0 && <Gallery images={country.gallery} alt={country.name} />}
         <div class="detail-section"><h2>Getting around</h2><EditorialText text={country.access_summary} /></div>
         <div class="detail-section"><h2>Best time</h2><EditorialText text={country.best_time} /></div>
         <div class="detail-section"><h2>Planning notes</h2><EditorialText text={country.planning_tips} /></div>
