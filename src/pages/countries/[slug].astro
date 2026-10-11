@@ -1,4 +1,6 @@
 ---
+import EditorialText from '../../components/EditorialText.astro';
+import ResearchNotes from '../../components/ResearchNotes.astro';
 import SiteLayout from '../../layouts/SiteLayout.astro';
 import PageHero from '../../components/PageHero.astro';
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
@@ -22,11 +24,12 @@ const stays = model.accommodations.filter((item) => item.country_id === country.
   <section class="section">
     <div class="container detail-grid">
       <div class="detail-main">
-        <div class="detail-section"><h2>Destination guide</h2><p>{country.overview}</p></div>
+        <div class="detail-section"><h2>Destination guide</h2><EditorialText text={country.overview} /></div>
         {country.gallery?.length > 0 && <Gallery images={country.gallery} alt={country.name} />}
-        <div class="detail-section"><h2>Getting around</h2><p>{country.access_summary}</p></div>
-        <div class="detail-section"><h2>Best time</h2><p>{country.best_time}</p></div>
-        <div class="detail-section"><h2>Planning notes</h2><p>{country.planning_tips}</p></div>
+        <div class="detail-section"><h2>Getting around</h2><EditorialText text={country.access_summary} /></div>
+        <div class="detail-section"><h2>Best time</h2><EditorialText text={country.best_time} /></div>
+        <div class="detail-section"><h2>Planning notes</h2><EditorialText text={country.planning_tips} /></div>
+        <ResearchNotes record={country} />
       </div>
       <aside class="detail-rail"><div class="info-panel"><p class="eyebrow">Region</p><h3><a href={`/regions/${country.region.slug}`}>{country.region.name}</a></h3></div></aside>
     </div>
