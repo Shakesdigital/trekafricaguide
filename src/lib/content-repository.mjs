@@ -71,6 +71,10 @@ const EDITORIAL_FIELDS = {
   activities: new Set(['id', 'attraction_id', 'slug', 'name', 'location_name', 'listing_summary', 'detail_intro', 'full_description', 'highlights', 'best_time', 'practical_info', 'hero_image_url', 'hero_image_alt', 'gallery', 'booking_url', 'source_url', 'featured', 'sort_order', 'status', 'published_at', 'meta_title', 'meta_description', 'meta_image_url']),
   travel_articles: new Set(['id', 'slug', 'title', 'category', 'region', 'country', 'excerpt', 'body', 'read_time', 'hero_image_url', 'hero_image_alt', 'video_url', 'source_url', 'featured', 'sort_order', 'status', 'published_at', 'meta_title', 'meta_description', 'meta_image_url']),
 };
+for (const fields of Object.values(EDITORIAL_FIELDS)) {
+  for (const field of ['research_sources', 'last_researched', 'traveler_feedback', 'nearby_stay_options', 'source_url']) fields.add(field);
+}
+
 const REQUIRED_NEW_FIELDS = {
   countries: ['region_id', 'name', 'hero_title', 'hero_text', 'overview'],
   attractions: ['region_id', 'country_id', 'name', 'listing_summary', 'detail_intro'],
