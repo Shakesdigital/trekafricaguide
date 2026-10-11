@@ -27,12 +27,13 @@ const { attraction } = Astro.props;
         
       </div>
       <Gallery images={normalizeList(attraction.gallery).length ? normalizeList(attraction.gallery) : [attraction.hero_image_url]} alt={attraction.name} />
-      <EditorialText text={attraction.detail_intro || attraction.listing_summary} class="detail-hero__summary" />
+      
     </div>
   </section>
   <section class="section">
     <div class="container detail-grid">
       <div class="detail-main">
+        <div class="detail-section"><EditorialText text={attraction.detail_intro || attraction.listing_summary} class="detail-hero__summary" /></div>
         <div class="detail-section"><h2>What it is</h2><EditorialText text={attraction.full_description || attraction.listing_summary} /></div>
         <div class="detail-section"><h2>What draws people here</h2><ul class="check-list">{normalizeList(attraction.highlights).map((item) => <li>{item}</li>)}</ul></div>
         <div class="detail-section"><h2>How to get there</h2><EditorialText text={attraction.getting_there} /></div>
