@@ -25,16 +25,21 @@ const ALLOWED_TAGS = [
   'a',
 ];
 
-export function sanitizeRichText(value) {
+export function sanitizeRichText(value, { allowImages = false } = {}) {
   if (!value) return '';
 
+  let imageCount = 0;
   return sanitizeHtml(String(value), {
-    allowedTags: ALLOWED_TAGS,
+    allowedTags: allowImages ? [...ALLOWED_TAGS, 'img', 'figure', 'figcaption'] : ALLOWED_TAGS,
     allowedAttributes: {
       a: ['href', 'target', 'rel'],
+      img: ['src', 'alt', 'loading', 'decoding'],
     },
     allowedSchemes: ['http', 'https', 'mailto'],
+    allowedSchemesByTag: { img: ['http', 'https'] },
+    exclusiveFilter: (frame) => frame.tag === 'img' && (!safeExternalUrl(frame.attribs.src) || ++imageCount > 6),
     transformTags: {
+      img: (tagName, attribs) => ({ tagName, attribs: { src: safeExternalUrl(attribs.src), alt: attribs.alt || '', loading: 'lazy', decoding: 'async' } }),
       a: (tagName, attribs) => {
         if (!isAllowedHref(attribs.href)) return { tagName, attribs: {} };
         const href = affiliateExternalUrl(attribs.href) || attribs.href;
