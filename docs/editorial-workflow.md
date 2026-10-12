@@ -97,3 +97,7 @@ Names below preserve the current website labels. Each needs a full content/image
 - Inventoried public attraction/activity/accommodation/insight archives.
 - Updated the existing daily automation to include advance notices, Git publishing, all five page types, owner contributions and specific image shortfall reporting.
 - This document is the operating brief and backlog, not newly published travel content. No researched guide or photo package has yet been completed in this setup.
+
+## Progress — 12 October 2026
+
+Published [Table Mountain: plan for the weather, choose the right way up](https://trekafricaguide.com/travel-insights/table-mountain-weather-cableway-or-hike) with six distinct licensed photographs, current operator/park sources and dated traveler perspectives. Live HTML confirmed. [Daily evidence and backlog](editorial-research/2026-10-12-daily-content.md). Seven earlier additions remain drafts, and the three YouTube candidates remain pending-license. Next priority: Elmina Castle imagery and heritage guide completion.
