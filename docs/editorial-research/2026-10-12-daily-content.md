@@ -23,7 +23,7 @@ Checked 12 October 2026:
 - Internal links lead to Cape Town, Table Mountain guided hike and Mount Nelson guides. The review-source link uses the existing shared affiliate resolver; no extra Book CTA introduced.
 
 ## Publication
-Initial live lookup immediately after committing returned 404; deployment was not yet confirmed at that point.
+Initial live lookup immediately after committing returned 404. A subsequent minimal public fetch returned HTTP 200 and confirmed the new title, five inline figures (plus the cover), creator credits and 12 October research date. The article is live; no browser rendering or image playback test was performed.
 
 ## Backlog
 - Seven earlier additions remain drafts: Kibale National Park, Jozani Forest, Elmina Castle, Red Chilli Rest Camp, Buhoma Community Rest Camp, Desert Quiver Camp and Amboseli Serena Safari Lodge.
