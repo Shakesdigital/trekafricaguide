@@ -181,3 +181,7 @@ Brief code/data inspection only; no tests, browser QA or local build. Deployment
 ## Audit outcome
 
 19 property photographs across 10 of 28 records; one complete six-image set, one five-image set, and eight single-image sets. Buhoma Community Rest Camp gains a verified photo but remains a draft. Eighteen records still need a usable property photo. Fresh Commons exact-name searches covered the 19 records that lacked property heroes at the beginning of this pass. Additional Sossusvlei results remained unverified leads and were not published. These searches do not establish that no licensed photos exist elsewhere.
+
+## Deployment confirmation
+
+Commit c352d77 pushed to main. Public HTTP 200 HTML confirmed the homepage guide search, eight attraction cards, eight stay cards and absence of the check-in field. Ridge Royal has no scenery hero/gallery; Mount Nelson retains its photo gallery. This was markup inspection, not browser interaction testing.
