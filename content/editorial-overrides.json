@@ -397,6 +397,16 @@
           "url": "https://buhomacommunityrestcamp.com/",
           "description": "A community-run Buhoma stay with self-contained room options and forest outlooks. Positioning: Budget; check current rates and inclusions directly."
         }
+      ],
+      "hero_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/063_Mist_rising_from_the_Bwindi_Impenetrable_Forest_National_Park_Photo_by_Giles_Laurent.jpg/1280px-063_Mist_rising_from_the_Bwindi_Impenetrable_Forest_National_Park_Photo_by_Giles_Laurent.jpg",
+      "hero_image_alt": "Mist rising from the Bwindi Impenetrable Forest National Park",
+      "gallery": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/063_Mist_rising_from_the_Bwindi_Impenetrable_Forest_National_Park_Photo_by_Giles_Laurent.jpg/1280px-063_Mist_rising_from_the_Bwindi_Impenetrable_Forest_National_Park_Photo_by_Giles_Laurent.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/067_Mountain_gorilla_at_Bwindi_Impenetrable_Forest_National_Park_Photo_by_Giles_Laurent.jpg/1280px-067_Mountain_gorilla_at_Bwindi_Impenetrable_Forest_National_Park_Photo_by_Giles_Laurent.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Merops_gularis_australis%2C_Bwindi_Impenetrable_Forest%2C_Uganda_2.jpg/1280px-Merops_gularis_australis%2C_Bwindi_Impenetrable_Forest%2C_Uganda_2.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Bwindi_Impenetrable_National_Park_desde_el_Broadbill_Forest_Camp_20190925_085152.jpg/1280px-Bwindi_Impenetrable_National_Park_desde_el_Broadbill_Forest_Camp_20190925_085152.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Bwindi_impenetrable_Forest.jpg/1280px-Bwindi_impenetrable_Forest.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/070_Dark-capped_bulbul_at_Bwindi_Impenetrable_Forest_National_Park_Photo_by_Giles_Laurent.jpg/1280px-070_Dark-capped_bulbul_at_Bwindi_Impenetrable_Forest_National_Park_Photo_by_Giles_Laurent.jpg"
       ]
     },
     {
@@ -436,6 +446,16 @@
           "url": "https://www.serenahotels.com/amboseli/",
           "description": "A permanent Amboseli lodge with family configurations, balconies and room service. Positioning: Upscale safari lodge; check current rates and inclusions directly."
         }
+      ],
+      "hero_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Amboseli_National_Park_and_Mt._Kilimanjaro.jpg/1280px-Amboseli_National_Park_and_Mt._Kilimanjaro.jpg",
+      "hero_image_alt": "Amboseli National Park and Mt. Kilimanjaro",
+      "gallery": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Amboseli_National_Park_and_Mt._Kilimanjaro.jpg/1280px-Amboseli_National_Park_and_Mt._Kilimanjaro.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Amboseli_NP._Elephants.jpg/1280px-Amboseli_NP._Elephants.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/African_Elephant_from_Amboseli.jpg/1280px-African_Elephant_from_Amboseli.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Elephant_-_Amboseli_National_Park%2C_Kenya_%2854187030338%29.jpg/1280px-Elephant_-_Amboseli_National_Park%2C_Kenya_%2854187030338%29.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Sunrise%2C_Amboseli_National_Park%2C_Kenya.jpg/1280px-Sunrise%2C_Amboseli_National_Park%2C_Kenya.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/b/bc/Amboseli_National_Park_scenery.JPG"
       ]
     },
     {
@@ -474,6 +494,16 @@
           "url": "https://redchillihideaway.com/tour/red-chilli-rest-camp-murchison/",
           "description": "Tents, bandas and camping for travellers who prefer a simpler Murchison Falls stay. Positioning: Budget; check current rates and inclusions directly."
         }
+      ],
+      "hero_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Murchison_Falls%2C_Uganda_01.jpg/1280px-Murchison_Falls%2C_Uganda_01.jpg",
+      "hero_image_alt": "Murchison Falls, Uganda 01",
+      "gallery": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Murchison_Falls%2C_Uganda_01.jpg/1280px-Murchison_Falls%2C_Uganda_01.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/5/5a/Murchison_falls_national_park.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Murchison_Falls%2C_Uganda.jpg/1280px-Murchison_Falls%2C_Uganda.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Murchison_Falls%2C_Uganda_%2822516674255%29.jpg/1280px-Murchison_Falls%2C_Uganda_%2822516674255%29.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Wildlife_in_murchison_falls_national_park_Uganda.jpg/1280px-Wildlife_in_murchison_falls_national_park_Uganda.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Wildlife_in_Murchison_Falls_National_Park_Uganda_04.jpg/1280px-Wildlife_in_Murchison_Falls_National_Park_Uganda_04.jpg"
       ]
     },
     {
@@ -542,7 +572,17 @@
       "rating": null,
       "review_count": 0,
       "last_researched": "2026-10-11",
-      "traveler_feedback": "In a SafariBookings review dated 27 September 2026, Angie wished she had allocated more time to the Serengeti. Reviews by Elena on 25 September and Flavia on 20 September highlight wildlife and big-cat encounters. These enthusiastic individual reports illustrate the appeal of time in the park, but do not guarantee the same sightings or migration conditions."
+      "traveler_feedback": "In a SafariBookings review dated 27 September 2026, Angie wished she had allocated more time to the Serengeti. Reviews by Elena on 25 September and Flavia on 20 September highlight wildlife and big-cat encounters. These enthusiastic individual reports illustrate the appeal of time in the park, but do not guarantee the same sightings or migration conditions.",
+      "hero_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/029_African_buffalo_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg/1280px-029_African_buffalo_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg",
+      "hero_image_alt": "African buffalo in the Serengeti National Park",
+      "gallery": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/029_African_buffalo_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg/1280px-029_African_buffalo_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/003_Herd_of_Gazelles_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg/1280px-003_Herd_of_Gazelles_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/037_Cheetah_close-up_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg/1280px-037_Cheetah_close-up_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Serengeti_landscape_%288%29_%2828524158712%29.jpg/1280px-Serengeti_landscape_%288%29_%2828524158712%29.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/002_Male_Lion_prowling_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg/1280px-002_Male_Lion_prowling_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Serengeti_National_Park_20_-_Zebra_-_Equus_quagga.jpg/1280px-Serengeti_National_Park_20_-_Zebra_-_Equus_quagga.jpg"
+      ]
     },
     {
       "slug": "volcanoes-national-park",
@@ -650,7 +690,17 @@
       ],
       "rating": null,
       "review_count": 0,
-      "last_researched": "2026-10-11"
+      "last_researched": "2026-10-11",
+      "hero_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/The_Giza_Pyramid_Complex.jpg/1280px-The_Giza_Pyramid_Complex.jpg",
+      "hero_image_alt": "The Giza Pyramid Complex",
+      "gallery": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/The_Giza_Pyramid_Complex.jpg/1280px-The_Giza_Pyramid_Complex.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Giza_Pyramid.jpg/1280px-Giza_Pyramid.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/The_Great_Sphinx_of_Giza%2C_Cairo%2C_Egypt.jpg/1280px-The_Great_Sphinx_of_Giza%2C_Cairo%2C_Egypt.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Cairo_Citadel_and_Mosque_of_Muhammad_Ali.jpg/1280px-Cairo_Citadel_and_Mosque_of_Muhammad_Ali.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Cairo_Khan_El_Khili.jpg/1280px-Cairo_Khan_El_Khili.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Cairo_and_Nile_at_the_morning_vibe.jpg/1280px-Cairo_and_Nile_at_the_morning_vibe.jpg"
+      ]
     },
     {
       "slug": "marrakech-and-atlas",
@@ -1104,7 +1154,17 @@
       "published_at": null,
       "rating": null,
       "review_count": 0,
-      "last_researched": "2026-10-11"
+      "last_researched": "2026-10-11",
+      "hero_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Kibale_forest.jpg/1280px-Kibale_forest.jpg",
+      "hero_image_alt": "Kibale forest",
+      "gallery": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Kibale_forest.jpg/1280px-Kibale_forest.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Kibale_National_Park.jpg/1280px-Kibale_National_Park.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Chimpanzee%2C_Kibale_National_Park%2C_Uganda_%2852938250380%29.jpg/1280px-Chimpanzee%2C_Kibale_National_Park%2C_Uganda_%2852938250380%29.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/A_road_through_the_green_scenery_of_Kibale_National_Park_in_Western_Uganda_05.jpg/1280px-A_road_through_the_green_scenery_of_Kibale_National_Park_in_Western_Uganda_05.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Kibale_National_Park_20190920_100942.jpg/1280px-Kibale_National_Park_20190920_100942.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Kibale_NP_P1000256.JPG/1280px-Kibale_NP_P1000256.JPG"
+      ]
     },
     {
       "slug": "jozani-forest",
@@ -1138,7 +1198,17 @@
       "published_at": null,
       "rating": null,
       "review_count": 0,
-      "last_researched": "2026-10-11"
+      "last_researched": "2026-10-11",
+      "hero_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Jozani_Forest_at_Jozani_Chwaka_Bay_National_Park%2C_Kusini_DC%2C_South_Zanzibar%2C_Tanzania.jpg/1280px-Jozani_Forest_at_Jozani_Chwaka_Bay_National_Park%2C_Kusini_DC%2C_South_Zanzibar%2C_Tanzania.jpg",
+      "hero_image_alt": "Jozani Forest at Jozani Chwaka Bay National Park, Kusini DC, South Zanzibar, Tanzania",
+      "gallery": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Jozani_Forest_at_Jozani_Chwaka_Bay_National_Park%2C_Kusini_DC%2C_South_Zanzibar%2C_Tanzania.jpg/1280px-Jozani_Forest_at_Jozani_Chwaka_Bay_National_Park%2C_Kusini_DC%2C_South_Zanzibar%2C_Tanzania.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/b/b5/Jozani_forest%2C_Zanzibar.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Jozani_Forest_%2805810014%29_%288433997901%29.jpg/1280px-Jozani_Forest_%2805810014%29_%288433997901%29.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Colobo_rojo_de_Zanz%C3%ADbar_%28Piliocolobus_kirkii%29%2C_parque_nacional_de_la_Bah%C3%ADa_Jozani_Chwaka%2C_Zanz%C3%ADbar%2C_Tanzania%2C_2024-06-02%2C_DD_26.jpg/1280px-Colobo_rojo_de_Zanz%C3%ADbar_%28Piliocolobus_kirkii%29%2C_parque_nacional_de_la_Bah%C3%ADa_Jozani_Chwaka%2C_Zanz%C3%ADbar%2C_Tanzania%2C_2024-06-02%2C_DD_26.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Colobo_rojo_de_Zanz%C3%ADbar_%28Piliocolobus_kirkii%29%2C_parque_nacional_de_la_Bah%C3%ADa_Jozani_Chwaka%2C_Zanz%C3%ADbar%2C_Tanzania%2C_2024-06-02%2C_DD_19.jpg/1280px-Colobo_rojo_de_Zanz%C3%ADbar_%28Piliocolobus_kirkii%29%2C_parque_nacional_de_la_Bah%C3%ADa_Jozani_Chwaka%2C_Zanz%C3%ADbar%2C_Tanzania%2C_2024-06-02%2C_DD_19.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Colobo_rojo_de_Zanz%C3%ADbar_%28Piliocolobus_kirkii%29%2C_parque_nacional_de_la_Bah%C3%ADa_Jozani_Chwaka%2C_Zanz%C3%ADbar%2C_Tanzania%2C_2024-06-02%2C_DD_07.jpg/1280px-Colobo_rojo_de_Zanz%C3%ADbar_%28Piliocolobus_kirkii%29%2C_parque_nacional_de_la_Bah%C3%ADa_Jozani_Chwaka%2C_Zanz%C3%ADbar%2C_Tanzania%2C_2024-06-02%2C_DD_07.jpg"
+      ]
     },
     {
       "slug": "elmina-castle",
@@ -1172,7 +1242,17 @@
       "published_at": null,
       "rating": null,
       "review_count": 0,
-      "last_researched": "2026-10-11"
+      "last_researched": "2026-10-11",
+      "hero_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Elmina_Castle_-_Elmina.jpg/1280px-Elmina_Castle_-_Elmina.jpg",
+      "hero_image_alt": "Elmina Castle - Elmina",
+      "gallery": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Elmina_Castle_-_Elmina.jpg/1280px-Elmina_Castle_-_Elmina.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/6/64/Elmina_Castle.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Elmina_Castle_%281%29.jpg/1280px-Elmina_Castle_%281%29.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Elmina_Castle_-_Ghana.jpg/1280px-Elmina_Castle_-_Ghana.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Elmina_Castle_79.jpg/1280px-Elmina_Castle_79.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Elmina_Castle_Museum_%2810_of_22%29.jpg/1280px-Elmina_Castle_Museum_%2810_of_22%29.jpg"
+      ]
     }
   ],
   "accommodations": [
@@ -1624,7 +1704,17 @@
           "url": "https://www.belmond.com/en/hotels/africa/south-africa/mount-nelson-cape-town"
         }
       ],
-      "last_researched": "2026-10-11"
+      "last_researched": "2026-10-11",
+      "hero_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Mount_Nelson_Hotel.jpg/1280px-Mount_Nelson_Hotel.jpg",
+      "hero_image_alt": "Mount Nelson Hotel in Cape Town",
+      "gallery": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Mount_Nelson_Hotel.jpg/1280px-Mount_Nelson_Hotel.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/The_Mount_Nelson_Hotel.jpg/1280px-The_Mount_Nelson_Hotel.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/d/d2/Mount_Nelson_Hotel_%283464448937%29.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/7/74/Mount_Nelson_Hotel_%283464450061%29.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Mount_Nelson_Hotel_-_Cape_Town_%286191762891%29.jpg/1280px-Mount_Nelson_Hotel_-_Cape_Town_%286191762891%29.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Mount_Nelson_Hotel_-_Cape_Town_%286191763563%29.jpg/1280px-Mount_Nelson_Hotel_-_Cape_Town_%286191763563%29.jpg"
+      ]
     },
     {
       "region_id": 14,
@@ -2008,7 +2098,17 @@
           "url": "https://www.victoriafallshotel.com/rooms/6/stables-signature-wing-rooms"
         }
       ],
-      "last_researched": "2026-10-11"
+      "last_researched": "2026-10-11",
+      "hero_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/The_Victoria_Falls_Hotel.jpg/1280px-The_Victoria_Falls_Hotel.jpg",
+      "hero_image_alt": "The Victoria Falls Hotel",
+      "gallery": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/The_Victoria_Falls_Hotel.jpg/1280px-The_Victoria_Falls_Hotel.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Victoria_Falls_Hotel_from_behind.jpg/1280px-Victoria_Falls_Hotel_from_behind.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Entrance_to_Victoria_Falls_Hotel.jpg/1280px-Entrance_to_Victoria_Falls_Hotel.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Victoria_Falls_2012_05_23_1355_%287421822592%29.jpg/1280px-Victoria_Falls_2012_05_23_1355_%287421822592%29.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Victoria_Falls_2012_05_23_1360_%287421824082%29.jpg/1280px-Victoria_Falls_2012_05_23_1360_%287421824082%29.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Victoria_Falls_Bridge_from_gardens_of_Victoria_Falls_Hotel%2C_Zimbabwe.jpg/1280px-Victoria_Falls_Bridge_from_gardens_of_Victoria_Falls_Hotel%2C_Zimbabwe.jpg"
+      ]
     },
     {
       "slug": "red-chilli-rest-camp",
@@ -2164,7 +2264,21 @@
       "attraction_id": 49
     }
   ],
-  "activities": [],
+  "activities": [
+    {
+      "slug": "okavango-mokoro-safari",
+      "hero_image_url": "/images/editorial/okavango-mokoro-safari/guided-canoe.webp",
+      "hero_image_alt": "Two travelers seated in a mokoro with a guide poling through a reed-lined channel",
+      "gallery": [
+        "/images/editorial/okavango-mokoro-safari/guided-canoe.webp",
+        "/images/editorial/okavango-mokoro-safari/water-route.webp",
+        "/images/editorial/okavango-mokoro-safari/water-lily.webp",
+        "/images/editorial/okavango-mokoro-safari/poling-guide.webp",
+        "/images/editorial/okavango-mokoro-safari/quiet-observation.webp",
+        "/images/editorial/okavango-mokoro-safari/evening-channel.webp"
+      ]
+    }
+  ],
   "travel_articles": [
     {
       "slug": "table-mountain-weather-cableway-or-hike",

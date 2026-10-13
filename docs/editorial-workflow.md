@@ -32,8 +32,9 @@ Kaya reference URL is still needed. Study useful presentation patterns without c
 
 ## Photographs
 
-Every full destination, attraction, activity, accommodation and travel insight page needs 5–6 distinct, subject-specific real photographs; target six. Confirm identity/location and permitted reuse; retain credit, source, license, caption and alt text. A search result is not a license. Do not reuse generic Africa images to imply a particular property or activity, and do not pass generated scenery off as a real photograph.
-If suitable photos are unavailable, retain a draft and give the owner a precise image request (subject, view needed, intended page, required rights). Owner-supplied photos still need ownership or permission information.
+Every full destination, attraction, activity, accommodation and travel insight page needs 6–7 distinct images; target six. Prefer genuine free, subject-specific photographs and verify identity/location and reuse rights. Keep source, photographer, licence, date and accessible alt text. Do not repeat a photo across different detail-page collections; a canonical listing card may reuse its own page's feature image. A search result is not a licence.
+The owner explicitly authorized the built-in ChatGPT image generator as a fallback on 12 October 2026. Use natural photographic styling, without text overlays or illustration styling. Generated scenes can represent a general travel experience, but must not invent a named property's rooms, amenities, an actual visit or a particular operator. Keep provenance in expandable image credits and the source ledger, not labels over the images. The tool has no selectable model called Images 2.5; do not claim that model was used. Preserve legally required attribution discreetly. Generic destination views must not be represented as property photographs.
+If exact property photography is unavailable, record the missing subjects and use only accurate contextual imagery or retain the draft. Owner-supplied photos still need ownership or permission information.
 
 ## Optional owner contribution form
 
@@ -101,3 +102,7 @@ Names below preserve the current website labels. Each needs a full content/image
 ## Progress — 12 October 2026
 
 Published [Table Mountain: plan for the weather, choose the right way up](https://trekafricaguide.com/travel-insights/table-mountain-weather-cableway-or-hike) with six distinct licensed photographs, current operator/park sources and dated traveler perspectives. Live HTML confirmed. [Daily evidence and backlog](editorial-research/2026-10-12-daily-content.md). Seven earlier additions remain drafts, and the three YouTube candidates remain pending-license. Next priority: Elmina Castle imagery and heritage guide completion.
+
+## Progress — 13 October 2026
+
+Prepared six-image collections for eight attractions, two accommodations and the mokoro activity. Sixty licensed photographs and six generated representative images; no duplicated source-file hashes between these collections. Elmina, Kibale and Jozani keep draft status pending their remaining editorial review. The other eight collections update existing published pages. See [image rollout ledger](editorial-research/2026-10-13-image-rollout.md) for deployment status and remaining work. This is a partial rollout, not completion of the 85-page image inventory.

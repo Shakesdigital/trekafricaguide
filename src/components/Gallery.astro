@@ -5,6 +5,8 @@ import { normalizeList, resolveImage } from '../lib/images.mjs';
 const { images = [], alt = 'Travel gallery', caption = '' } = Astro.props;
 const gallery = [...new Set(normalizeList(images).map(resolveImage).filter(Boolean))];
 const credits = gallery.map((src) => photoLibrary.images[src]).filter(Boolean);
+const photographs = credits.filter((credit) => credit.kind !== 'generated');
+const hasGeneratedImages = credits.some((credit) => credit.kind === 'generated');
 const imageAlt = (src, index) => photoLibrary.images[src]?.alt || `${alt} — photo ${index + 1}`;
 ---
 <detail-photo-gallery class="detail-photo-gallery">
@@ -14,22 +16,30 @@ const imageAlt = (src, index) => photoLibrary.images[src]?.alt || `${alt} — ph
         <img src={src} alt={imageAlt(src, index)} loading={index === 0 ? 'eager' : 'lazy'} fetchpriority={index === 0 ? 'high' : 'auto'} />
       </a>)}
     </div>
-    <button class="detail-photo-gallery__all" type="button" data-open-photos hidden>See all {gallery.length} {gallery.length === 1 ? 'photo' : 'photos'}</button>
+    <button class="detail-photo-gallery__all" type="button" data-open-photos hidden>See all {gallery.length} {gallery.length === 1 ? 'image' : 'images'}</button>
     <dialog class="detail-photo-gallery__dialog" aria-label={`Photos of ${alt}`}>
       <div class="detail-photo-gallery__toolbar"><strong>{alt}</strong><button type="button" data-close-photos autofocus>Close photos ✕</button></div>
       <div class="detail-photo-gallery__collection">
         {gallery.map((src, index) => <figure data-full-photo={index}>
           <img src={src} alt={imageAlt(src, index)} loading="lazy" />
-          <figcaption>{index + 1} / {gallery.length} · {imageAlt(src, index)}</figcaption>
+          <figcaption>{index + 1} / {gallery.length}</figcaption>
         </figure>)}
       </div>
     </dialog>
   </> : <ImageSlot alt={alt} class="detail-photo-gallery__empty" />}
 </detail-photo-gallery>
-{caption && <p class="photo-context">{caption}</p>}
-{credits.length > 0 && <p class="photo-credits">Photos: {credits.map((credit, index) => <span>{index > 0 && ' · '}<a href={credit.source_page}>{credit.creator}</a> (<a href={credit.license_url}>{credit.license}</a>)</span>)}. Displayed images may be resized or cropped. <a href="/photo-credits">Photo details</a>.</p>}
+{(credits.length > 0 || caption) && <details class="photo-credits">
+  <summary>Image credits</summary>
+  {caption && <p>{caption}</p>}
+  {hasGeneratedImages && <p>Representative scenes generated with ChatGPT. These are not photographs of an actual visit or a particular operator.</p>}
+  {photographs.length > 0 && <p>Photography: {photographs.map((credit, index) => <span>{index > 0 && ' · '}<a href={credit.source_page}>{credit.creator}</a> (<a href={credit.license_url}>{credit.license}</a>)</span>)}. Images may be resized or cropped; share-alike licences continue to apply.</p>}
+  <p><a href="/photo-credits">Image sources and details</a></p>
+</details>}
 
 <style>
+  .photo-credits { margin: -.5rem 0 1.5rem; font-size: .8rem; color: #526159; }
+  .photo-credits summary { cursor: pointer; width: fit-content; padding: .35rem 0; }
+  .photo-credits p { margin: .4rem 0; }
   .detail-photo-gallery { display: block; position: relative; margin-block: 1.25rem 1.5rem; }
   .detail-photo-gallery__grid { display: grid; grid-template-columns: 2fr 1fr 1fr; grid-template-rows: repeat(2, minmax(0, 1fr)); gap: .5rem; height: clamp(20rem, 38vw, 32rem); border-radius: 1rem; overflow: hidden; }
   .detail-photo-gallery__tile { display: block; min-width: 0; min-height: 0; overflow: hidden; background: #eef0ed; }
