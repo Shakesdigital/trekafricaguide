@@ -224,9 +224,9 @@ export function buildSiteModel(tables, now = new Date()) {
 
   // Compute nearby stays (linked to this attraction)
   for (const attraction of attractions) {
-    const nearby = accommodations
-      .filter((s) => s.attraction_id === attraction.id)
-      .slice(0, 3);
+    const editorialStays = Array.isArray(attraction.nearby_stay_options) ? attraction.nearby_stay_options : [];
+    const nameKey = (name) => String(name || '').toLowerCase().replace(/[^a-z0-9]/g, '');
+    const nearby = accommodations.filter((s) => s.attraction_id === attraction.id || editorialStays.some((option) => option?.slug === s.slug || (option?.name && nameKey(option.name) === nameKey(s.name))));
     attraction.nearbyStays = nearby;
   }
 

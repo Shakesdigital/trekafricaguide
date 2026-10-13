@@ -3,7 +3,7 @@ import { affiliateExternalUrl } from '../lib/booking.mjs';
 import ListingCard from './ListingCard.astro';
 import { getSiteModel } from '../lib/site-model.mjs';
 import EditorialText from './EditorialText.astro';
-const { record = {} } = Astro.props;
+const { record = {}, showSources = false, showStayCards = true } = Astro.props;
 const sources = (Array.isArray(record.research_sources) ? record.research_sources : [])
   .filter((source) => source && typeof source.label === 'string')
   .map((source) => ({ ...source, url: affiliateExternalUrl(source.url) })).filter((source) => source.url);
@@ -21,6 +21,6 @@ const planningStays = relatedStays.filter((stay) => !stay.listing);
 const checked = typeof record.last_researched === 'string' && /^\d{4}-\d{2}-\d{2}$/.test(record.last_researched) ? record.last_researched : '';
 ---
 {record.traveler_feedback && <div class="detail-section"><h2>What travelers say</h2><EditorialText text={record.traveler_feedback} /></div>}
-{stayCards.length > 0 && <div class="detail-section"><h2>More nearby stays to consider</h2><div class="related-card-grid">{stayCards.map((item) => <ListingCard item={item} type="accommodation" />)}</div></div>}
+{showStayCards && stayCards.length > 0 && <div class="detail-section"><h2>More nearby stays to consider</h2><div class="related-card-grid">{stayCards.map((item) => <ListingCard item={item} type="accommodation" />)}</div></div>}
 {planningStays.length > 0 && <div class="detail-section"><h2>Further stay planning</h2><ul>{planningStays.map((stay) => <li><strong>{stay.name}</strong><p>{stay.description}</p></li>)}</ul></div>}
-{sources.length > 0 && <div class="detail-section"><h2>Sources and further planning</h2>{checked && <p><small>Research checked <time datetime={checked}>{checked}</time>. Confirm current access, availability and booking terms with the relevant provider.</small></p>}<ul>{sources.map((source) => <li><a href={source.url} target="_blank" rel={source.url.includes("stay22.com/allez/") ? "nofollow sponsored noopener noreferrer" : "noopener noreferrer"}>{source.label} ↗</a></li>)}</ul></div>}
+{showSources && sources.length > 0 && <div class="detail-section"><h2>Sources and further planning</h2>{checked && <p><small>Research checked <time datetime={checked}>{checked}</time>. Confirm current access, availability and booking terms with the relevant provider.</small></p>}<ul>{sources.map((source) => <li><a href={source.url} target="_blank" rel={source.url.includes("stay22.com/allez/") ? "nofollow sponsored noopener noreferrer" : "noopener noreferrer"}>{source.label} ↗</a></li>)}</ul></div>}

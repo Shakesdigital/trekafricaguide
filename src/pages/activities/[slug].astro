@@ -1,5 +1,4 @@
 ---
-import { affiliateExternalUrl } from '../../lib/booking.mjs';
 import BookingOffers from '../../components/BookingOffers.astro';
 import SiteLayout from '../../layouts/SiteLayout.astro';
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
@@ -7,16 +6,18 @@ import Gallery from '../../components/Gallery.astro';
 import ListingCard from '../../components/ListingCard.astro';
 import { getSiteModel } from '../../lib/site-model.mjs';
 import { normalizeList } from '../../lib/images.mjs';
-import { sanitizeRichText, safeExternalUrl } from '../../lib/content-html.mjs';
+import { linkAttractionMentions } from '../../lib/editorial-links.mjs';
 const model = await getSiteModel();
 export async function getStaticPaths() {
   const model = await getSiteModel();
   return model.activities.map((activity) => ({ params: { slug: activity.slug }, props: { activity } }));
 }
 const { activity } = Astro.props;
-const originalSource = safeExternalUrl(activity.source_url);
-const isOtaSource = originalSource && /getyourguide\.com|booking\.com|expedia\.com|hotels\.com/.test(new URL(originalSource).hostname);
-const sourceUrl = isOtaSource ? null : affiliateExternalUrl(originalSource);
+const relatedActivities = model.activities
+  .filter((item) => item.slug !== activity.slug && item.country.id === activity.country.id)
+  .sort((a, b) => Number(b.attraction_id === activity.attraction_id) - Number(a.attraction_id === activity.attraction_id))
+  .slice(0, 3);
+const activityText = (value) => linkAttractionMentions(value, model.attractions);
 ---
 <SiteLayout model={model} title={activity.meta_title || activity.name} description={activity.meta_description || activity.listing_summary} image={activity.meta_image_url || activity.hero_image_url}>
   <section class="detail-hero"><div class="container">
@@ -27,11 +28,11 @@ const sourceUrl = isOtaSource ? null : affiliateExternalUrl(originalSource);
   </div></section>
   <section class="section"><div class="container detail-grid"><div class="detail-main">
         <div class="detail-section"><p class="detail-hero__summary">{activity.listing_summary}</p></div>
-    <div class="detail-section"><h2>About this activity</h2><div class="rich-text" set:html={sanitizeRichText(activity.full_description || activity.detail_intro || '')} /></div>
+    <div class="detail-section"><h2>About this activity</h2><div class="rich-text" set:html={activityText(activity.full_description || activity.detail_intro || '')} /></div>
     <div class="detail-section"><h2>Highlights</h2><ul class="check-list">{normalizeList(activity.highlights).map((item) => <li>{item}</li>)}</ul></div>
-    <div class="detail-section"><h2>Best time to participate</h2><div class="rich-text" set:html={sanitizeRichText(activity.best_time || '')} /></div>
-    <div class="detail-section"><h2>Planning notes</h2><div class="rich-text" set:html={sanitizeRichText(activity.practical_info || '')} /></div>
-    <div class="detail-section"><h2>Attraction guide</h2><div class="related-card-grid"><ListingCard item={activity.attraction} type="attraction" /></div>{sourceUrl && <p><a href={sourceUrl} target="_blank" rel={isOtaSource ? "nofollow sponsored noopener noreferrer" : "noopener noreferrer"}>{isOtaSource ? "Selected activity details and reviews" : "Activity information and source"} ↗</a></p>}</div>
+    <div class="detail-section"><h2>Best time to participate</h2><div class="rich-text" set:html={activityText(activity.best_time || '')} /></div>
+    <div class="detail-section"><h2>Planning notes</h2><div class="rich-text" set:html={activityText(activity.practical_info || '')} /></div>
   </div><aside class="detail-rail"><BookingOffers listing={activity} offers={activity.bookingOffers} /></aside></div></section>
+  {relatedActivities.length > 0 && <section class="section section--alt"><div class="container"><h2>You may also like</h2><div class="listing-grid">{relatedActivities.map((item) => <ListingCard item={item} type="activity" />)}</div></div></section>}
   <section class="section section--alt"><div class="container"><h2>Nearby stays</h2><div class="listing-grid">{activity.attraction.nearbyStays.map((item) => <ListingCard item={item} type="accommodation" />)}</div></div></section>
 </SiteLayout>

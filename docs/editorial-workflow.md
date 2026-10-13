@@ -4,7 +4,7 @@ Owner's standing brief, updated 11 October 2026. Manage contributions through th
 
 ## Collaboration every six hours
 
-Schedule: 00:00, 06:00, 12:00 and 18:00 Africa/Kampala. Announce the chosen work before making changes and proceed without waiting for owner approval. Complete a manageable researched page, related group or maintenance improvement each run. Rotate destinations, attractions, activities, stays, listing cards and travel insights for solo, adventure, safari, budget, mid-range and cultural travelers. Preserve the current display style.
+Schedule: every six hours anchored at 11:00 Africa/Kampala — 11:00, 17:00, 23:00 and 05:00. Announce the chosen work before making changes and proceed without waiting for owner approval. Complete a manageable researched page, related group or maintenance improvement each run. Rotate destinations, attractions, activities, stays, listing cards and travel insights for solo, adventure, safari, budget, mid-range and cultural travelers. Preserve the current display style.
 
 Publish evidence-backed, complete content even when optional owner input would improve it, then request that input through the progress report. Unsupported claims, unlicensed images and broken records are not made publishable by a request for later review. Report live links versus drafts/pushed changes, image counts, sources, blockers and next priority. Send the report and a reminder about review areas to the owner's configured email recipient using the connected Gmail account; the address is held in the private automation configuration. Record send success locally and do not claim delivery when the tool fails.
 
@@ -28,6 +28,8 @@ The saved D:\\TrekAfricaGuide path was unavailable. Older project notes identify
 - Preserve existing page structure. Where dedicated fields do not exist, use supported rich-text sections rather than inventing non-rendered fields.
 
 ## Research and voice
+
+Attraction full-detail pages place Related activities after the main information/further stay planning and before Nearby stays. Activity pages use You may also like for other published activities in the same destination, prioritizing the same attraction, followed by Nearby stays. Reuse ListingCard and the existing full-width listing-grid without different card dimensions. Do not show empty related sections or invent related records. Keep published stay recommendations in the canonical Nearby stays grid rather than a second narrower card section. Remove the Attraction guide block from activity pages. Source sections are visible only in travel insights; preserve research evidence in records and ledgers. Required photo attribution remains available separately. Link natural mentions of published attractions within prose; avoid self-links, unpublished destinations and nested links. Exact attraction names are linked by the detail templates; write future mentions using the appropriate canonical name where natural.
 
 Use fresh official tourism, attraction, park, property and community sources. Record claim-level URLs and checked dates. Verify changing regulations, access, fees and seasonal operations when relevant. Distinguish factual evidence, traveler opinions and editorial inference.
 Traveler feedback must come from real attributable reviews, with platform/source links and date context, including meaningful drawbacks when supported. Never invent quotations, ratings, review totals or firsthand visits. Do not interpret operator marketing as independent traveler feedback.
