@@ -6,4 +6,4 @@
 - Both sections use unchanged ListingCard and listing-grid styles, matching existing card dimensions and responsive behavior.
 - Visible research source panels removed outside travel insights. Research records and discreet legally required image credits retained.
 - Added safe internal linking for exact published attraction names in attraction/activity prose. Existing links are preserved; attraction self-links are excluded. No new activity or stay records were fabricated.
-- No tests/builds run, per owner preference. Changed material inspected. Deployment confirmation pending at preparation.
+- No tests/builds run, per owner preference. Changed material inspected. Commits aecd35c and ab3efbf pushed; live HTTP 200 HTML confirmed Related activities on Amboseli's attraction page, You may also like on its activity page, removal of the old source/guide blocks, and internal prose links on the activity and Elmina pages. Both pages retain Nearby stays. Optional owner review requested by email after confirmation.
