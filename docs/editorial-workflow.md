@@ -120,3 +120,9 @@ Prepared six-image collections for eight attractions, two accommodations and the
 - Homepage includes Home navigation, featured attractions, stays and travel insights, with View More archive links.
 - Discover candidates through TripAdvisor, Expedia, Kayak, Booking.com, Hotels.com and Safari.com as well as official tourism/property/operator sources. Verify location and practical routes before assigning relationships, cross-check material facts and date review evidence. OTA presence is not permission to reuse photos or copy text. Preserve exact Stay22 booking destinations.
 - Follow the six-hour cadence anchored at 11:00 Kampala. Research sources remain in the editorial records even where source panels are hidden.
+
+## Accommodation photography and homepage search — 13 October 2026
+
+Accommodation heroes and galleries must depict the actual named property. Remove attraction/destination substitutes; retain a neutral no-photo state where identity and reuse rights cannot be verified. Do not generate imagined hotel rooms, pools or buildings. Target six distinct property photos and keep a per-property shortfall ledger for owner contributions. This supersedes earlier permission for destination-context accommodation imagery.
+
+Keep homepage featured attraction and stay carousels populated from published records; prioritize actual-property photos for stays. The homepage search covers destinations, attractions, activities, accommodations and travel insights, linking directly to internal guides. No check-in/check-out, guest or region booking fields in this ribbon.

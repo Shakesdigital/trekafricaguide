@@ -1310,7 +1310,10 @@
           "url": "https://desertdelta.com/camps/camp-okavango/"
         }
       ],
-      "last_researched": "2026-10-11"
+      "last_researched": "2026-10-11",
+      "hero_image_url": "",
+      "hero_image_alt": "Camp Okavango",
+      "gallery": []
     },
     {
       "region_id": 15,
@@ -1346,7 +1349,12 @@
           "url": "https://www.casadelpapa.com/fr/services"
         }
       ],
-      "last_researched": "2026-10-11"
+      "last_researched": "2026-10-11",
+      "hero_image_url": "/images/stock/starter/casa-del-papa.jpg",
+      "hero_image_alt": "Beach beside Casa del Papa resort, Benin",
+      "gallery": [
+        "/images/stock/starter/casa-del-papa.jpg"
+      ]
     },
     {
       "region_id": 17,
@@ -1376,7 +1384,10 @@
           "url": "https://www.darsaid.com.tn/en/"
         }
       ],
-      "last_researched": "2026-10-11"
+      "last_researched": "2026-10-11",
+      "hero_image_url": "",
+      "hero_image_alt": "Dar Saïd",
+      "gallery": []
     },
     {
       "region_id": 17,
@@ -1410,7 +1421,10 @@
           "url": "https://desertluxurycamp.com/contact-us/"
         }
       ],
-      "last_researched": "2026-10-11"
+      "last_researched": "2026-10-11",
+      "hero_image_url": "",
+      "hero_image_alt": "Desert Luxury Camp",
+      "gallery": []
     },
     {
       "region_id": 14,
@@ -1443,7 +1457,10 @@
           "url": "https://emersonspice.com/dining/"
         }
       ],
-      "last_researched": "2026-10-11"
+      "last_researched": "2026-10-11",
+      "hero_image_url": "",
+      "hero_image_alt": "Emerson Spice",
+      "gallery": []
     },
     {
       "region_id": 14,
@@ -1479,7 +1496,10 @@
           "url": "https://governorscamp.com/wp-content/uploads/2025/07/2026-Governors-Camp-Collection-RSP-rates.pdf"
         }
       ],
-      "last_researched": "2026-10-11"
+      "last_researched": "2026-10-11",
+      "hero_image_url": "",
+      "hero_image_alt": "Governors' Camp",
+      "gallery": []
     },
     {
       "region_id": 15,
@@ -1516,7 +1536,10 @@
           "url": "https://www.hilton.com/en/hotels/sidcvhi-hilton-cabo-verde-sal-resort/"
         }
       ],
-      "last_researched": "2026-10-11"
+      "last_researched": "2026-10-11",
+      "hero_image_url": "",
+      "hero_image_alt": "Hilton Cabo Verde Sal Resort",
+      "gallery": []
     },
     {
       "region_id": 16,
@@ -1553,7 +1576,12 @@
           "url": "https://www.krugershalati.com/faqs/"
         }
       ],
-      "last_researched": "2026-10-11"
+      "last_researched": "2026-10-11",
+      "hero_image_url": "/images/stock/starter/kruger-shalati.jpg",
+      "hero_image_alt": "Kruger Shalati hotel train on the bridge at Skukuza, South Africa",
+      "gallery": [
+        "/images/stock/starter/kruger-shalati.jpg"
+      ]
     },
     {
       "region_id": 15,
@@ -1587,7 +1615,10 @@
           "url": "https://lespaletuviers.com/fr/histoire/"
         }
       ],
-      "last_researched": "2026-10-11"
+      "last_researched": "2026-10-11",
+      "hero_image_url": "",
+      "hero_image_alt": "Les Palétuviers Boutique Hotel",
+      "gallery": []
     },
     {
       "region_id": 14,
@@ -1620,7 +1651,10 @@
           "url": "https://www.booking.com/hotel/et/maribela-lalibela.en-gb.html"
         }
       ],
-      "last_researched": "2026-10-11"
+      "last_researched": "2026-10-11",
+      "hero_image_url": "",
+      "hero_image_alt": "Maribela Hotel",
+      "gallery": []
     },
     {
       "region_id": 17,
@@ -1654,7 +1688,12 @@
           "url": "https://www.marriott.com/en-us/hotels/caimn-marriott-mena-house-cairo/overview/"
         }
       ],
-      "last_researched": "2026-10-11"
+      "last_researched": "2026-10-11",
+      "hero_image_url": "/images/stock/starter/marriott-mena-house-cairo.jpg",
+      "hero_image_alt": "Exterior of Mena House hotel in Giza, Egypt",
+      "gallery": [
+        "/images/stock/starter/marriott-mena-house-cairo.jpg"
+      ]
     },
     {
       "region_id": 16,
@@ -1690,7 +1729,12 @@
           "url": "https://bushcampcompany.com/pages/travel-information"
         }
       ],
-      "last_researched": "2026-10-11"
+      "last_researched": "2026-10-11",
+      "hero_image_url": "/images/stock/starter/mfuwe-lodge.jpg",
+      "hero_image_alt": "Thatched dining area and terrace at Mfuwe Lodge, Zambia",
+      "gallery": [
+        "/images/stock/starter/mfuwe-lodge.jpg"
+      ]
     },
     {
       "region_id": 16,
@@ -1727,7 +1771,7 @@
       ],
       "last_researched": "2026-10-11",
       "hero_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Mount_Nelson_Hotel.jpg/1280px-Mount_Nelson_Hotel.jpg",
-      "hero_image_alt": "Mount Nelson Hotel in Cape Town",
+      "hero_image_alt": "Mount Nelson, A Belmond Hotel — property photograph 1",
       "gallery": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Mount_Nelson_Hotel.jpg/1280px-Mount_Nelson_Hotel.jpg",
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/The_Mount_Nelson_Hotel.jpg/1280px-The_Mount_Nelson_Hotel.jpg",
@@ -1770,7 +1814,12 @@
           "url": "https://oltukailodge.com/downloads/rates-catalogue.pdf"
         }
       ],
-      "last_researched": "2026-10-11"
+      "last_researched": "2026-10-11",
+      "hero_image_url": "/images/stock/starter/ol-tukai-lodge-amboseli.jpg",
+      "hero_image_alt": "Main building of Ol Tukai Lodge illuminated at night, Amboseli, Kenya",
+      "gallery": [
+        "/images/stock/starter/ol-tukai-lodge-amboseli.jpg"
+      ]
     },
     {
       "region_id": 14,
@@ -1807,7 +1856,10 @@
           "url": "https://paraalodge.com/category/facilities/"
         }
       ],
-      "last_researched": "2026-10-11"
+      "last_researched": "2026-10-11",
+      "hero_image_url": "",
+      "hero_image_alt": "Paraa Safari Lodge",
+      "gallery": []
     },
     {
       "region_id": 17,
@@ -1843,7 +1895,10 @@
           "url": "https://rosemarymarrakech.com/rooms/"
         }
       ],
-      "last_researched": "2026-10-11"
+      "last_researched": "2026-10-11",
+      "hero_image_url": "",
+      "hero_image_alt": "Rosemary Marrakech",
+      "gallery": []
     },
     {
       "region_id": 15,
@@ -1876,7 +1931,10 @@
           "url": "https://ridgeroyalhotel.com.gh/packages/index.php"
         }
       ],
-      "last_researched": "2026-10-11"
+      "last_researched": "2026-10-11",
+      "hero_image_url": "",
+      "hero_image_alt": "Ridge Royal Hotel",
+      "gallery": []
     },
     {
       "region_id": 14,
@@ -1910,7 +1968,10 @@
           "url": "https://www.wildernessdestinations.com/africa/rwanda/volcanoes-national-park/sabyinyo-lodge"
         }
       ],
-      "last_researched": "2026-10-11"
+      "last_researched": "2026-10-11",
+      "hero_image_url": "",
+      "hero_image_alt": "Wilderness Sabyinyo",
+      "gallery": []
     },
     {
       "region_id": 14,
@@ -1944,7 +2005,10 @@
           "url": "https://www.abercrombiekent.com/stays/safari-lodges/gorilla-forest-lodge"
         }
       ],
-      "last_researched": "2026-10-11"
+      "last_researched": "2026-10-11",
+      "hero_image_url": "",
+      "hero_image_alt": "Gorilla Forest Lodge, an A&K Sanctuary",
+      "gallery": []
     },
     {
       "region_id": 14,
@@ -1979,7 +2043,12 @@
           "url": "https://www.serenahotels.com/serengeti"
         }
       ],
-      "last_researched": "2026-10-11"
+      "last_researched": "2026-10-11",
+      "hero_image_url": "/images/stock/starter/serengeti-serena-safari-lodge.jpg",
+      "hero_image_alt": "Thatched accommodation at Serengeti Serena Safari Lodge, Tanzania",
+      "gallery": [
+        "/images/stock/starter/serengeti-serena-safari-lodge.jpg"
+      ]
     },
     {
       "region_id": 16,
@@ -2015,7 +2084,12 @@
           "url": "https://www.sossusvleilodge.com/"
         }
       ],
-      "last_researched": "2026-10-11"
+      "last_researched": "2026-10-11",
+      "hero_image_url": "/images/stock/starter/sossusvlei-lodge.jpg",
+      "hero_image_alt": "Courtyard at Sossusvlei Lodge, Namibia",
+      "gallery": [
+        "/images/stock/starter/sossusvlei-lodge.jpg"
+      ]
     },
     {
       "region_id": 17,
@@ -2044,7 +2118,10 @@
           "url": "https://www.terres-touareg.com/en/guest-house/"
         }
       ],
-      "last_researched": "2026-10-11"
+      "last_researched": "2026-10-11",
+      "hero_image_url": "",
+      "hero_image_alt": "Terres Touareg Guest House",
+      "gallery": []
     },
     {
       "region_id": 15,
@@ -2078,7 +2155,10 @@
           "url": "https://www.sliepa.gov.sl/invest-in-sierra-leone/existing-investors/p/item/20852/the-place-tokeh-beach"
         }
       ],
-      "last_researched": "2026-10-11"
+      "last_researched": "2026-10-11",
+      "hero_image_url": "",
+      "hero_image_alt": "The Place Resort, Tokeh",
+      "gallery": []
     },
     {
       "region_id": 16,
@@ -2121,14 +2201,13 @@
       ],
       "last_researched": "2026-10-11",
       "hero_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/The_Victoria_Falls_Hotel.jpg/1280px-The_Victoria_Falls_Hotel.jpg",
-      "hero_image_alt": "The Victoria Falls Hotel",
+      "hero_image_alt": "The Victoria Falls Hotel — property photograph 1",
       "gallery": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/The_Victoria_Falls_Hotel.jpg/1280px-The_Victoria_Falls_Hotel.jpg",
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Victoria_Falls_Hotel_from_behind.jpg/1280px-Victoria_Falls_Hotel_from_behind.jpg",
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Entrance_to_Victoria_Falls_Hotel.jpg/1280px-Entrance_to_Victoria_Falls_Hotel.jpg",
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Victoria_Falls_2012_05_23_1355_%287421822592%29.jpg/1280px-Victoria_Falls_2012_05_23_1355_%287421822592%29.jpg",
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Victoria_Falls_2012_05_23_1360_%287421824082%29.jpg/1280px-Victoria_Falls_2012_05_23_1360_%287421824082%29.jpg",
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Victoria_Falls_Bridge_from_gardens_of_Victoria_Falls_Hotel%2C_Zimbabwe.jpg/1280px-Victoria_Falls_Bridge_from_gardens_of_Victoria_Falls_Hotel%2C_Zimbabwe.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Victoria_Falls_2012_05_23_1360_%287421824082%29.jpg/1280px-Victoria_Falls_2012_05_23_1360_%287421824082%29.jpg"
       ]
     },
     {
@@ -2165,7 +2244,10 @@
       "last_researched": "2026-10-11",
       "region_id": 14,
       "country_id": 55,
-      "attraction_id": 59
+      "attraction_id": 59,
+      "hero_image_url": "",
+      "hero_image_alt": "Red Chilli Rest Camp",
+      "gallery": []
     },
     {
       "slug": "buhoma-community-rest-camp",
@@ -2204,7 +2286,12 @@
       "last_researched": "2026-10-11",
       "region_id": 14,
       "country_id": 55,
-      "attraction_id": 50
+      "attraction_id": 50,
+      "hero_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Hotel_Buhoma_Comunity_Camp_20190923_154959.jpg/1280px-Hotel_Buhoma_Comunity_Camp_20190923_154959.jpg",
+      "hero_image_alt": "Hotel Buhoma Community Camp",
+      "gallery": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Hotel_Buhoma_Comunity_Camp_20190923_154959.jpg/1280px-Hotel_Buhoma_Comunity_Camp_20190923_154959.jpg"
+      ]
     },
     {
       "slug": "desert-quiver-camp",
@@ -2247,7 +2334,10 @@
       "last_researched": "2026-10-11",
       "region_id": 16,
       "country_id": 48,
-      "attraction_id": 60
+      "attraction_id": 60,
+      "hero_image_url": "",
+      "hero_image_alt": "Desert Quiver Camp",
+      "gallery": []
     },
     {
       "slug": "amboseli-serena-safari-lodge",
@@ -2282,7 +2372,10 @@
       "last_researched": "2026-10-11",
       "region_id": 14,
       "country_id": 46,
-      "attraction_id": 49
+      "attraction_id": 49,
+      "hero_image_url": "",
+      "hero_image_alt": "Amboseli Serena Safari Lodge",
+      "gallery": []
     }
   ],
   "activities": [

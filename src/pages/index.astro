@@ -2,15 +2,15 @@
 import SiteLayout from '../layouts/SiteLayout.astro';
 import CardCarousel from '../components/CardCarousel.astro';
 import ListingCard from '../components/ListingCard.astro';
-import SearchRibbon from '../components/SearchRibbon.astro';
+import GuideSearch from '../components/GuideSearch.astro';
 import ImageSlot from '../components/ImageSlot.astro';
 import { getSiteModel } from '../lib/site-model.mjs';
 
 const model = await getSiteModel();
 const hero = model.pageSections.find((section) => section.page_key === 'home' && section.section_key === 'hero');
-const featuredAttractions = model.attractions.filter((item) => item.featured);
+const featuredAttractions = [...model.attractions].sort((a, b) => Number(Boolean(b.featured)) - Number(Boolean(a.featured))).slice(0, 8);
 const featuredInsights = [...model.travelArticles].sort((a, b) => Number(Boolean(b.featured)) - Number(Boolean(a.featured))).slice(0, 8);
-const featuredStays = model.accommodations.filter((item) => item.featured);
+const featuredStays = [...model.accommodations].filter((item) => item.hero_image_url).sort((a, b) => Number(Boolean(b.featured)) - Number(Boolean(a.featured))).slice(0, 8);
 ---
 <SiteLayout model={model} title="Africa travel guide">
   <section class="hero">
@@ -35,7 +35,7 @@ const featuredStays = model.accommodations.filter((item) => item.featured);
 
   <section class="section">
     <div class="container">
-      <SearchRibbon />
+      <GuideSearch model={model} />
     </div>
   </section>
 

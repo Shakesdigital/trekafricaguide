@@ -6,7 +6,7 @@ import { photoLibrary } from '../lib/photo-library.js';
   <section class="section"><div class="container">
     <p class="eyebrow">The places behind the photographs</p>
     <h1>Photography credits</h1>
-    <p>Source photographs use the individual licences linked below. Images may be resized and cropped for display; share-alike licences continue to apply to the photographs. Destination photographs on accommodation listings show the surrounding area, unless identified as photographs of the property. Generated images are representative travel scenes created with ChatGPT, not photographs of a visit, a named operator or a property's facilities.</p>
+    <p>Source photographs use the individual licences linked below. Images may be resized and cropped for display; share-alike licences continue to apply to the photographs. Accommodation listings use photographs identified as the actual property. Where verified property photographs are unavailable, no destination image is substituted. Generated images are representative travel scenes created with ChatGPT, not photographs of a visit, a named operator or a property's facilities.</p>
     <div class="credit-grid">
       {Object.entries(photoLibrary.images).map(([src, credit]) => <figure>
         <img src={src} alt={credit.alt || credit.subject} loading="lazy" width="480" height="300" />

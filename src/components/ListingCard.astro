@@ -12,7 +12,7 @@ const location = [item.location_name, item.country?.name].filter(Boolean).join('
 ---
 <article class="listing-card" data-card-type={type} data-country={item.country?.slug || ''}>
   <a class="listing-card__image" href={href} aria-label={cta}>
-    <ImageSlot class="listing-card__slot" src={item.hero_image_url || item.image_slot} alt={item.hero_image_alt || title} />
+    <ImageSlot class="listing-card__slot" src={isStay ? item.hero_image_url : item.hero_image_url || item.image_slot} alt={item.hero_image_alt || title} />
   </a>
   <div class="listing-card__body">
     {isStay && photoContext(item.hero_image_url) && <small class="photo-context">{photoContext(item.hero_image_url)}</small>}

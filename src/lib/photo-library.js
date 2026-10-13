@@ -1,7 +1,7 @@
 // Curated source. Run node scripts/sync-photo-library.mjs after editing.
 // Curated free photography; source and licence metadata travel with each image.
 export const photoLibrary = {
-  "updated_at": "2026-10-01",
+  "updated_at": "2026-10-13",
   "images": {
     "/images/stock/destinations/bwindi-impenetrable-national-park.jpg": {
       "slug": "bwindi-impenetrable-national-park",
@@ -589,7 +589,7 @@ export const photoLibrary = {
       "changes": "Resized to 1280 pixels wide by Wikimedia; may be cropped for display."
     },
     "/images/stock/starter/casa-del-papa.jpg": {
-      "subject": "Casa Del Papa",
+      "subject": "Casa del Papa Resort & Spa",
       "alt": "Beach beside Casa del Papa resort, Benin",
       "title": "20170319-2017 A630563 (32907963173).jpg",
       "creator": "Dan Sloan",
@@ -599,10 +599,13 @@ export const photoLibrary = {
       "local_path": "/images/stock/starter/casa-del-papa.jpg",
       "sha256": "aaa0267724997ca56280eb5a7c94fabc153e8e6157de19cf2700a2a2de76b198",
       "property": true,
-      "changes": "Resized to 1280 pixels wide by Wikimedia; may be cropped for display."
+      "changes": "Resized to 1280 pixels wide by Wikimedia; may be cropped for display.",
+      "exact_subject_evidence": "Beach beside Casa del Papa resort, Benin; source Commons file title/description identifies the named accommodation.",
+      "checked_at": "2026-10-13",
+      "description": ""
     },
     "/images/stock/starter/kruger-shalati.jpg": {
-      "subject": "Kruger Shalati",
+      "subject": "Kruger Shalati — The Train on the Bridge",
       "alt": "Kruger Shalati hotel train on the bridge at Skukuza, South Africa",
       "title": "Kruger National Park (ZA), Skukuza, Kruger Shalati -- 2024 -- 0478.jpg",
       "creator": "Dietmar Rabich",
@@ -612,10 +615,13 @@ export const photoLibrary = {
       "local_path": "/images/stock/starter/kruger-shalati.jpg",
       "sha256": "ead9c428fee9550232da1dcf395915b3e1cf54c333bbea4a2f943c37a9413428",
       "property": true,
-      "changes": "Resized to 1280 pixels wide by Wikimedia; may be cropped for display."
+      "changes": "Resized to 1280 pixels wide by Wikimedia; may be cropped for display.",
+      "exact_subject_evidence": "Kruger Shalati hotel train on the bridge at Skukuza, South Africa; source Commons file title/description identifies the named accommodation.",
+      "checked_at": "2026-10-13",
+      "description": ""
     },
     "/images/stock/starter/marriott-mena-house-cairo.jpg": {
-      "subject": "Marriott Mena House Cairo",
+      "subject": "Marriott Mena House, Cairo",
       "alt": "Exterior of Mena House hotel in Giza, Egypt",
       "title": "2. Mena House Hotel 1 C.jpg",
       "creator": "Gerhard Haubold",
@@ -625,7 +631,10 @@ export const photoLibrary = {
       "local_path": "/images/stock/starter/marriott-mena-house-cairo.jpg",
       "sha256": "d831dd0574e21b9c45b450003b6921fdad563d5ef9dbc09d688f38f4e2ba58be",
       "property": true,
-      "changes": "Resized to 1280 pixels wide by Wikimedia; may be cropped for display."
+      "changes": "Resized to 1280 pixels wide by Wikimedia; may be cropped for display.",
+      "exact_subject_evidence": "Exterior of Mena House hotel in Giza, Egypt; source Commons file title/description identifies the named accommodation.",
+      "checked_at": "2026-10-13",
+      "description": ""
     },
     "/images/stock/starter/mfuwe-lodge.jpg": {
       "subject": "Mfuwe Lodge",
@@ -638,7 +647,10 @@ export const photoLibrary = {
       "local_path": "/images/stock/starter/mfuwe-lodge.jpg",
       "sha256": "234aedb3a4f81980f2d616962e348a1a05262175da6a36f7c4175e38c0e3f5ba",
       "property": true,
-      "changes": "Resized to 1280 pixels wide by Wikimedia; may be cropped for display."
+      "changes": "Resized to 1280 pixels wide by Wikimedia; may be cropped for display.",
+      "exact_subject_evidence": "Thatched dining area and terrace at Mfuwe Lodge, Zambia; source Commons file title/description identifies the named accommodation.",
+      "checked_at": "2026-10-13",
+      "description": ""
     },
     "/images/stock/starter/mount-nelson-a-belmond-hotel.jpg": {
       "subject": "Mount Nelson A Belmond Hotel",
@@ -664,7 +676,10 @@ export const photoLibrary = {
       "local_path": "/images/stock/starter/ol-tukai-lodge-amboseli.jpg",
       "sha256": "eaec9aa8c0737d45bb292034c5a4440c35201a7dc0d0727b1024ae07224e33f4",
       "property": true,
-      "changes": "Resized to 1280 pixels wide by Wikimedia; may be cropped for display."
+      "changes": "Resized to 1280 pixels wide by Wikimedia; may be cropped for display.",
+      "exact_subject_evidence": "Main building of Ol Tukai Lodge illuminated at night, Amboseli, Kenya; source Commons file title/description identifies the named accommodation.",
+      "checked_at": "2026-10-13",
+      "description": ""
     },
     "/images/stock/starter/serengeti-serena-safari-lodge.jpg": {
       "subject": "Serengeti Serena Safari Lodge",
@@ -677,7 +692,10 @@ export const photoLibrary = {
       "local_path": "/images/stock/starter/serengeti-serena-safari-lodge.jpg",
       "sha256": "e850e20c65d44740615b2ad3a8b07f31234845be953480e9ed03410e33a4c215",
       "property": true,
-      "changes": "Resized to 1280 pixels wide by Wikimedia; may be cropped for display."
+      "changes": "Resized to 1280 pixels wide by Wikimedia; may be cropped for display.",
+      "exact_subject_evidence": "Thatched accommodation at Serengeti Serena Safari Lodge, Tanzania; source Commons file title/description identifies the named accommodation.",
+      "checked_at": "2026-10-13",
+      "description": ""
     },
     "/images/stock/starter/sossusvlei-lodge.jpg": {
       "subject": "Sossusvlei Lodge",
@@ -690,7 +708,10 @@ export const photoLibrary = {
       "local_path": "/images/stock/starter/sossusvlei-lodge.jpg",
       "sha256": "3b53eb772175991dfc214b5a1a008022b6b4914129865506660f6f03f341c5f5",
       "property": true,
-      "changes": "Resized to 1280 pixels wide by Wikimedia; may be cropped for display."
+      "changes": "Resized to 1280 pixels wide by Wikimedia; may be cropped for display.",
+      "exact_subject_evidence": "Courtyard at Sossusvlei Lodge, Namibia; source Commons file title/description identifies the named accommodation.",
+      "checked_at": "2026-10-13",
+      "description": ""
     },
     "/images/stock/starter/victoria-falls-hotel.jpg": {
       "subject": "Victoria Falls Hotel",
@@ -1910,13 +1931,12 @@ export const photoLibrary = {
       "changes": "Resized by Wikimedia where necessary; may be cropped for display. Share-alike licences continue to apply."
     },
     "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Mount_Nelson_Hotel.jpg/1280px-Mount_Nelson_Hotel.jpg": {
-      "title": "Mount Nelson Hotel.jpg",
+      "title": "File:Mount Nelson Hotel.jpg",
       "description": "Mount Nelson Hotel.",
       "creator": "Axxter99",
       "license": "CC BY-SA 3.0",
       "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
       "source_page": "https://commons.wikimedia.org/wiki/File:Mount_Nelson_Hotel.jpg",
-      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Mount_Nelson_Hotel.jpg/1280px-Mount_Nelson_Hotel.jpg",
       "sha1": "cda6f83dfac9304351fbd3a88004ee7e61be0d3d",
       "date": "30 December 2014 (according to Exif data)",
       "width": 4128,
@@ -1925,21 +1945,21 @@ export const photoLibrary = {
       "restrictions": "",
       "property": true,
       "exact_subject_evidence": "Commons file description, title and hotel category identify this property or view from its grounds. Historical photograph; no claim of current room configuration.",
-      "alt": "Mount Nelson Hotel in Cape Town",
+      "alt": "Mount Nelson, A Belmond Hotel — property photograph 1",
       "subject": "Mount Nelson, A Belmond Hotel",
       "kind": "photograph",
       "exact_subject": true,
       "checked_date": "2026-10-13",
-      "changes": "Resized by Wikimedia where necessary; may be cropped for display. Share-alike licences continue to apply."
+      "changes": "Resized by Wikimedia where necessary; may be cropped for display. Share-alike licences continue to apply.",
+      "checked_at": "2026-10-13"
     },
     "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/The_Mount_Nelson_Hotel.jpg/1280px-The_Mount_Nelson_Hotel.jpg": {
-      "title": "The Mount Nelson Hotel.jpg",
+      "title": "File:The Mount Nelson Hotel.jpg",
       "description": "An old relic positioned in the Gardens area of Cape Town, the hotel has all the qualities of a colonial castle.",
       "creator": "Bernard303",
       "license": "CC BY-SA 4.0",
       "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
       "source_page": "https://commons.wikimedia.org/wiki/File:The_Mount_Nelson_Hotel.jpg",
-      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/The_Mount_Nelson_Hotel.jpg/1280px-The_Mount_Nelson_Hotel.jpg",
       "sha1": "ae4d271aacc59cc57f4cbb4deb62e385cf1cb355",
       "date": "2014-05-28 14:32:50",
       "width": 3264,
@@ -1948,21 +1968,21 @@ export const photoLibrary = {
       "restrictions": "",
       "property": true,
       "exact_subject_evidence": "Commons file description, title and hotel category identify this property or view from its grounds. Historical photograph; no claim of current room configuration.",
-      "alt": "Mount Nelson Hotel in Cape Town",
+      "alt": "Mount Nelson, A Belmond Hotel — property photograph 2",
       "subject": "Mount Nelson, A Belmond Hotel",
       "kind": "photograph",
       "exact_subject": true,
       "checked_date": "2026-10-13",
-      "changes": "Resized by Wikimedia where necessary; may be cropped for display. Share-alike licences continue to apply."
+      "changes": "Resized by Wikimedia where necessary; may be cropped for display. Share-alike licences continue to apply.",
+      "checked_at": "2026-10-13"
     },
     "https://upload.wikimedia.org/wikipedia/commons/d/d2/Mount_Nelson_Hotel_%283464448937%29.jpg": {
-      "title": "Mount Nelson Hotel (3464448937).jpg",
+      "title": "File:Mount Nelson Hotel (3464448937).jpg",
       "description": "Mount Nelson Hotel",
       "creator": "Geoffrey Hancock",
       "license": "CC BY-SA 2.0",
       "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
       "source_page": "https://commons.wikimedia.org/wiki/File:Mount_Nelson_Hotel_(3464448937).jpg",
-      "src": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Mount_Nelson_Hotel_%283464448937%29.jpg",
       "sha1": "1dd9087381bfd1cecf0542bb456c35f016331515",
       "date": "2009-02-13 22:05",
       "width": 1024,
@@ -1971,21 +1991,21 @@ export const photoLibrary = {
       "restrictions": "",
       "property": true,
       "exact_subject_evidence": "Commons file description, title and hotel category identify this property or view from its grounds. Historical photograph; no claim of current room configuration.",
-      "alt": "Mount Nelson Hotel in Cape Town",
+      "alt": "Mount Nelson, A Belmond Hotel — property photograph 3",
       "subject": "Mount Nelson, A Belmond Hotel",
       "kind": "photograph",
       "exact_subject": true,
       "checked_date": "2026-10-13",
-      "changes": "Resized by Wikimedia where necessary; may be cropped for display. Share-alike licences continue to apply."
+      "changes": "Resized by Wikimedia where necessary; may be cropped for display. Share-alike licences continue to apply.",
+      "checked_at": "2026-10-13"
     },
     "https://upload.wikimedia.org/wikipedia/commons/7/74/Mount_Nelson_Hotel_%283464450061%29.jpg": {
-      "title": "Mount Nelson Hotel (3464450061).jpg",
+      "title": "File:Mount Nelson Hotel (3464450061).jpg",
       "description": "Mount Nelson Hotel",
       "creator": "Geoffrey Hancock",
       "license": "CC BY-SA 2.0",
       "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
       "source_page": "https://commons.wikimedia.org/wiki/File:Mount_Nelson_Hotel_(3464450061).jpg",
-      "src": "https://upload.wikimedia.org/wikipedia/commons/7/74/Mount_Nelson_Hotel_%283464450061%29.jpg",
       "sha1": "2738e9a45c966f453f51d80eb9971451a9ddaa04",
       "date": "2009-02-13 21:36",
       "width": 683,
@@ -1994,21 +2014,21 @@ export const photoLibrary = {
       "restrictions": "",
       "property": true,
       "exact_subject_evidence": "Commons file description, title and hotel category identify this property or view from its grounds. Historical photograph; no claim of current room configuration.",
-      "alt": "Mount Nelson Hotel in Cape Town",
+      "alt": "Mount Nelson, A Belmond Hotel — property photograph 4",
       "subject": "Mount Nelson, A Belmond Hotel",
       "kind": "photograph",
       "exact_subject": true,
       "checked_date": "2026-10-13",
-      "changes": "Resized by Wikimedia where necessary; may be cropped for display. Share-alike licences continue to apply."
+      "changes": "Resized by Wikimedia where necessary; may be cropped for display. Share-alike licences continue to apply.",
+      "checked_at": "2026-10-13"
     },
     "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Mount_Nelson_Hotel_-_Cape_Town_%286191762891%29.jpg/1280px-Mount_Nelson_Hotel_-_Cape_Town_%286191762891%29.jpg": {
-      "title": "Mount Nelson Hotel - Cape Town (6191762891).jpg",
+      "title": "File:Mount Nelson Hotel - Cape Town (6191762891).jpg",
       "description": "afternoon tea",
       "creator": "Monica Kaneko from Sao Paulo, Brasil",
       "license": "CC BY-SA 2.0",
       "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
       "source_page": "https://commons.wikimedia.org/wiki/File:Mount_Nelson_Hotel_-_Cape_Town_(6191762891).jpg",
-      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Mount_Nelson_Hotel_-_Cape_Town_%286191762891%29.jpg/1280px-Mount_Nelson_Hotel_-_Cape_Town_%286191762891%29.jpg",
       "sha1": "ece65eaaf8226d95e97682d1c50cd7c1a5a9e108",
       "date": "2011-09-23 10:00",
       "width": 1504,
@@ -2017,21 +2037,21 @@ export const photoLibrary = {
       "restrictions": "",
       "property": true,
       "exact_subject_evidence": "Commons file description, title and hotel category identify this property or view from its grounds. Historical photograph; no claim of current room configuration.",
-      "alt": "Afternoon tea at Mount Nelson in Cape Town",
+      "alt": "Mount Nelson, A Belmond Hotel — property photograph 5",
       "subject": "Mount Nelson, A Belmond Hotel",
       "kind": "photograph",
       "exact_subject": true,
       "checked_date": "2026-10-13",
-      "changes": "Resized by Wikimedia where necessary; may be cropped for display. Share-alike licences continue to apply."
+      "changes": "Resized by Wikimedia where necessary; may be cropped for display. Share-alike licences continue to apply.",
+      "checked_at": "2026-10-13"
     },
     "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Mount_Nelson_Hotel_-_Cape_Town_%286191763563%29.jpg/1280px-Mount_Nelson_Hotel_-_Cape_Town_%286191763563%29.jpg": {
-      "title": "Mount Nelson Hotel - Cape Town (6191763563).jpg",
+      "title": "File:Mount Nelson Hotel - Cape Town (6191763563).jpg",
       "description": "afternoon tea",
       "creator": "Monica Kaneko from Sao Paulo, Brasil",
       "license": "CC BY-SA 2.0",
       "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
       "source_page": "https://commons.wikimedia.org/wiki/File:Mount_Nelson_Hotel_-_Cape_Town_(6191763563).jpg",
-      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Mount_Nelson_Hotel_-_Cape_Town_%286191763563%29.jpg/1280px-Mount_Nelson_Hotel_-_Cape_Town_%286191763563%29.jpg",
       "sha1": "4f1418668b5651a0585a09d4bc04233dc348b758",
       "date": "2011-09-23 10:32",
       "width": 1504,
@@ -2040,21 +2060,21 @@ export const photoLibrary = {
       "restrictions": "",
       "property": true,
       "exact_subject_evidence": "Commons file description, title and hotel category identify this property or view from its grounds. Historical photograph; no claim of current room configuration.",
-      "alt": "Afternoon tea at Mount Nelson in Cape Town",
+      "alt": "Mount Nelson, A Belmond Hotel — property photograph 6",
       "subject": "Mount Nelson, A Belmond Hotel",
       "kind": "photograph",
       "exact_subject": true,
       "checked_date": "2026-10-13",
-      "changes": "Resized by Wikimedia where necessary; may be cropped for display. Share-alike licences continue to apply."
+      "changes": "Resized by Wikimedia where necessary; may be cropped for display. Share-alike licences continue to apply.",
+      "checked_at": "2026-10-13"
     },
     "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/The_Victoria_Falls_Hotel.jpg/1280px-The_Victoria_Falls_Hotel.jpg": {
-      "title": "The Victoria Falls Hotel.jpg",
+      "title": "File:The Victoria Falls Hotel.jpg",
       "description": "The Victoria Falls Hotel",
       "creator": "Markmccauley",
       "license": "CC BY 4.0",
       "license_url": "https://creativecommons.org/licenses/by/4.0",
       "source_page": "https://commons.wikimedia.org/wiki/File:The_Victoria_Falls_Hotel.jpg",
-      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/The_Victoria_Falls_Hotel.jpg/1280px-The_Victoria_Falls_Hotel.jpg",
       "sha1": "64284b6c0e602337cbc5d2682b70a99d008699e6",
       "date": "2023-12-26 07:17:11",
       "width": 6028,
@@ -2063,21 +2083,21 @@ export const photoLibrary = {
       "restrictions": "",
       "property": true,
       "exact_subject_evidence": "Commons file description, title and hotel category identify this property or view from its grounds. Historical photograph; no claim of current room configuration.",
-      "alt": "The Victoria Falls Hotel",
+      "alt": "The Victoria Falls Hotel — property photograph 1",
       "subject": "The Victoria Falls Hotel",
       "kind": "photograph",
       "exact_subject": true,
       "checked_date": "2026-10-13",
-      "changes": "Resized by Wikimedia where necessary; may be cropped for display. Share-alike licences continue to apply."
+      "changes": "Resized by Wikimedia where necessary; may be cropped for display. Share-alike licences continue to apply.",
+      "checked_at": "2026-10-13"
     },
     "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Victoria_Falls_Hotel_from_behind.jpg/1280px-Victoria_Falls_Hotel_from_behind.jpg": {
-      "title": "Victoria Falls Hotel from behind.jpg",
+      "title": "File:Victoria Falls Hotel from behind.jpg",
       "description": "Victoria Falls Hotel",
       "creator": "SpringbokSam",
       "license": "CC BY-SA 4.0",
       "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
       "source_page": "https://commons.wikimedia.org/wiki/File:Victoria_Falls_Hotel_from_behind.jpg",
-      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Victoria_Falls_Hotel_from_behind.jpg/1280px-Victoria_Falls_Hotel_from_behind.jpg",
       "sha1": "8e9c362207a73372baa8bfb77c6e5889f7aaa05c",
       "date": "2015-01-04 09:13:57",
       "width": 3264,
@@ -2086,21 +2106,21 @@ export const photoLibrary = {
       "restrictions": "",
       "property": true,
       "exact_subject_evidence": "Commons file description, title and hotel category identify this property or view from its grounds. Historical photograph; no claim of current room configuration.",
-      "alt": "Victoria Falls Hotel from behind",
+      "alt": "The Victoria Falls Hotel — property photograph 2",
       "subject": "The Victoria Falls Hotel",
       "kind": "photograph",
       "exact_subject": true,
       "checked_date": "2026-10-13",
-      "changes": "Resized by Wikimedia where necessary; may be cropped for display. Share-alike licences continue to apply."
+      "changes": "Resized by Wikimedia where necessary; may be cropped for display. Share-alike licences continue to apply.",
+      "checked_at": "2026-10-13"
     },
     "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Entrance_to_Victoria_Falls_Hotel.jpg/1280px-Entrance_to_Victoria_Falls_Hotel.jpg": {
-      "title": "Entrance to Victoria Falls Hotel.jpg",
+      "title": "File:Entrance to Victoria Falls Hotel.jpg",
       "description": "Victoria Falls, Zimbabwe. This photograph was taken in July 2011.",
       "creator": "Nolabob",
       "license": "CC BY-SA 4.0",
       "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
       "source_page": "https://commons.wikimedia.org/wiki/File:Entrance_to_Victoria_Falls_Hotel.jpg",
-      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Entrance_to_Victoria_Falls_Hotel.jpg/1280px-Entrance_to_Victoria_Falls_Hotel.jpg",
       "sha1": "1cc6cdbd967b85e61ea7f88aef63384e71c7a529",
       "date": "2011-07-15 19:51:37",
       "width": 2816,
@@ -2109,21 +2129,21 @@ export const photoLibrary = {
       "restrictions": "",
       "property": true,
       "exact_subject_evidence": "Commons file description, title and hotel category identify this property or view from its grounds. Historical photograph; no claim of current room configuration.",
-      "alt": "Entrance to Victoria Falls Hotel",
+      "alt": "The Victoria Falls Hotel — property photograph 3",
       "subject": "The Victoria Falls Hotel",
       "kind": "photograph",
       "exact_subject": true,
       "checked_date": "2026-10-13",
-      "changes": "Resized by Wikimedia where necessary; may be cropped for display. Share-alike licences continue to apply."
+      "changes": "Resized by Wikimedia where necessary; may be cropped for display. Share-alike licences continue to apply.",
+      "checked_at": "2026-10-13"
     },
     "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Victoria_Falls_2012_05_23_1355_%287421822592%29.jpg/1280px-Victoria_Falls_2012_05_23_1355_%287421822592%29.jpg": {
-      "title": "Victoria Falls 2012 05 23 1355 (7421822592).jpg",
+      "title": "File:Victoria Falls 2012 05 23 1355 (7421822592).jpg",
       "description": "On the grounds of the Victoria Falls Hotel, an historic hotel at Victoria Falls, Zimbabwe. The hotel is dramatically situated, with a view of the Second Gorge and the Victoria Falls Bridge from its terrace as can be seen in the rear of this photo",
       "creator": "Harvey Barrison from Massapequa, NY, USA",
       "license": "CC BY-SA 2.0",
       "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
       "source_page": "https://commons.wikimedia.org/wiki/File:Victoria_Falls_2012_05_23_1355_(7421822592).jpg",
-      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Victoria_Falls_2012_05_23_1355_%287421822592%29.jpg/1280px-Victoria_Falls_2012_05_23_1355_%287421822592%29.jpg",
       "sha1": "216087f6cb8d552a2ac9866f1f6d31082a358d1b",
       "date": "2012-05-23 15:02",
       "width": 3415,
@@ -2132,21 +2152,21 @@ export const photoLibrary = {
       "restrictions": "",
       "property": true,
       "exact_subject_evidence": "Commons file description, title and hotel category identify this property or view from its grounds. Historical photograph; no claim of current room configuration.",
-      "alt": "Gardens and grounds of Victoria Falls Hotel, Zimbabwe",
+      "alt": "The Victoria Falls Hotel — property photograph 4",
       "subject": "The Victoria Falls Hotel",
       "kind": "photograph",
       "exact_subject": true,
       "checked_date": "2026-10-13",
-      "changes": "Resized by Wikimedia where necessary; may be cropped for display. Share-alike licences continue to apply."
+      "changes": "Resized by Wikimedia where necessary; may be cropped for display. Share-alike licences continue to apply.",
+      "checked_at": "2026-10-13"
     },
     "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Victoria_Falls_2012_05_23_1360_%287421824082%29.jpg/1280px-Victoria_Falls_2012_05_23_1360_%287421824082%29.jpg": {
-      "title": "Victoria Falls 2012 05 23 1360 (7421824082).jpg",
+      "title": "File:Victoria Falls 2012 05 23 1360 (7421824082).jpg",
       "description": "On the grounds of the Victoria Falls Hotel, an historic hotel at Victoria Falls, Zimbabwe.",
       "creator": "Harvey Barrison from Massapequa, NY, USA",
       "license": "CC BY-SA 2.0",
       "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
       "source_page": "https://commons.wikimedia.org/wiki/File:Victoria_Falls_2012_05_23_1360_(7421824082).jpg",
-      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Victoria_Falls_2012_05_23_1360_%287421824082%29.jpg/1280px-Victoria_Falls_2012_05_23_1360_%287421824082%29.jpg",
       "sha1": "20f1314e0dddc3458f847e1c226862659dcda89a",
       "date": "2012-05-23 15:20",
       "width": 3872,
@@ -2155,12 +2175,13 @@ export const photoLibrary = {
       "restrictions": "",
       "property": true,
       "exact_subject_evidence": "Commons file description, title and hotel category identify this property or view from its grounds. Historical photograph; no claim of current room configuration.",
-      "alt": "Gardens and grounds of Victoria Falls Hotel, Zimbabwe",
+      "alt": "The Victoria Falls Hotel — property photograph 5",
       "subject": "The Victoria Falls Hotel",
       "kind": "photograph",
       "exact_subject": true,
       "checked_date": "2026-10-13",
-      "changes": "Resized by Wikimedia where necessary; may be cropped for display. Share-alike licences continue to apply."
+      "changes": "Resized by Wikimedia where necessary; may be cropped for display. Share-alike licences continue to apply.",
+      "checked_at": "2026-10-13"
     },
     "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Victoria_Falls_Bridge_from_gardens_of_Victoria_Falls_Hotel%2C_Zimbabwe.jpg/1280px-Victoria_Falls_Bridge_from_gardens_of_Victoria_Falls_Hotel%2C_Zimbabwe.jpg": {
       "title": "Victoria Falls Bridge from gardens of Victoria Falls Hotel, Zimbabwe.jpg",
@@ -2184,6 +2205,25 @@ export const photoLibrary = {
       "exact_subject": true,
       "checked_date": "2026-10-13",
       "changes": "Resized by Wikimedia where necessary; may be cropped for display. Share-alike licences continue to apply."
+    },
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Hotel_Buhoma_Comunity_Camp_20190923_154959.jpg/1280px-Hotel_Buhoma_Comunity_Camp_20190923_154959.jpg": {
+      "title": "File:Hotel Buhoma Comunity Camp 20190923 154959.jpg",
+      "description": "Hotel Buhoma Comunity Camp",
+      "creator": "Josefito123",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Hotel_Buhoma_Comunity_Camp_20190923_154959.jpg",
+      "sha1": "dfc011eb5ee730e24eaa1f2909c068ea7563b7f7",
+      "date": "Taken on 23 September 2019, 15:49:59",
+      "width": 3096,
+      "height": 4128,
+      "categories": "Buhoma Community Rest Camp|Self-published work|Files with coordinates missing SDC location of creation|Uganda photographs taken on 2019-09-23|Bwindi Impenetrable National Park in the 2010s",
+      "restrictions": "",
+      "property": true,
+      "alt": "Hotel Buhoma Community Camp",
+      "exact_subject_evidence": "Commons title and description identify Hotel Buhoma Community Camp; Commons page gives creator and CC BY-SA 4.0 license.",
+      "subject": "Buhoma Community Rest Camp",
+      "checked_at": "2026-10-13"
     }
   },
   "listings": {
@@ -2842,117 +2882,97 @@ export const photoLibrary = {
     },
     "accommodations": {
       "camp-okavango": {
-        "hero_image_url": "/images/stock/destinations/okavango-delta.jpg",
-        "hero_image_alt": "Okavango Delta, Botswana",
+        "hero_image_url": "",
+        "hero_image_alt": "Camp Okavango",
         "replaces": [
           "/images/stock/destinations/okavango-delta.jpg"
         ],
-        "gallery": [
-          "/images/stock/destinations/okavango-delta.jpg",
-          "/images/stock/starter/okavango-delta.jpg"
-        ]
+        "gallery": []
       },
       "casa-del-papa": {
         "hero_image_url": "/images/stock/starter/casa-del-papa.jpg",
         "hero_image_alt": "Beach beside Casa del Papa resort, Benin",
         "replaces": [
-          "/images/stock/destinations/ouidah-and-ganvie.jpg"
+          "/images/stock/destinations/ouidah-and-ganvie.jpg",
+          "/images/stock/starter/casa-del-papa.jpg"
         ],
         "gallery": [
           "/images/stock/starter/casa-del-papa.jpg"
         ]
       },
       "dar-said": {
-        "hero_image_url": "/images/stock/destinations/tunis-and-sidi-bou-said.jpg",
-        "hero_image_alt": "Cafe des delices in Sidi Bou Said",
+        "hero_image_url": "",
+        "hero_image_alt": "Dar Saïd",
         "replaces": [
           "/images/stock/destinations/tunis-and-sidi-bou-said.jpg"
         ],
-        "gallery": [
-          "/images/stock/destinations/tunis-and-sidi-bou-said.jpg",
-          "/images/stock/starter/tunis-and-sidi-bou-said.jpg"
-        ]
+        "gallery": []
       },
       "desert-luxury-camp": {
-        "hero_image_url": "/images/stock/destinations/sahara-dunes.jpg",
-        "hero_image_alt": "Camel Tour on Erg Chebbi riding across the dunes",
+        "hero_image_url": "",
+        "hero_image_alt": "Desert Luxury Camp",
         "replaces": [
           "/images/stock/destinations/sahara-dunes.jpg"
         ],
-        "gallery": [
-          "/images/stock/destinations/sahara-dunes.jpg",
-          "/images/stock/starter/sahara-dunes.jpg"
-        ]
+        "gallery": []
       },
       "emerson-spice": {
-        "hero_image_url": "/images/stock/destinations/zanzibar.jpg",
-        "hero_image_alt": "Beach Scene at Mtoni Marine - Outside Stone Town - Zanzibar - Tanzania (8869338564)",
+        "hero_image_url": "",
+        "hero_image_alt": "Emerson Spice",
         "replaces": [
           "/images/stock/destinations/zanzibar.jpg"
         ],
-        "gallery": [
-          "/images/stock/destinations/zanzibar.jpg",
-          "/images/stock/starter/zanzibar.jpg"
-        ]
+        "gallery": []
       },
       "governors-camp": {
-        "hero_image_url": "/images/stock/destinations/maasai-mara.jpg",
-        "hero_image_alt": "Acacia tree on Maasai Mara landscape, Kenya",
+        "hero_image_url": "",
+        "hero_image_alt": "Governors' Camp",
         "replaces": [
           "/images/stock/destinations/maasai-mara.jpg"
         ],
-        "gallery": [
-          "/images/stock/destinations/maasai-mara.jpg",
-          "/images/stock/starter/maasai-mara.jpg"
-        ]
+        "gallery": []
       },
       "hilton-cabo-verde-sal-resort": {
-        "hero_image_url": "/images/stock/destinations/sal-island.jpg",
-        "hero_image_alt": "Fishing boats Santa Maria, Sal, Cape Verde (4334013911)",
+        "hero_image_url": "",
+        "hero_image_alt": "Hilton Cabo Verde Sal Resort",
         "replaces": [
           "/images/stock/destinations/sal-island.jpg"
         ],
-        "gallery": [
-          "/images/stock/destinations/sal-island.jpg",
-          "/images/stock/starter/sal-island.jpg"
-        ]
+        "gallery": []
       },
       "kruger-shalati": {
         "hero_image_url": "/images/stock/starter/kruger-shalati.jpg",
         "hero_image_alt": "Kruger Shalati hotel train on the bridge at Skukuza, South Africa",
         "replaces": [
-          "/images/stock/destinations/kruger-national-park.jpg"
+          "/images/stock/destinations/kruger-national-park.jpg",
+          "/images/stock/starter/kruger-shalati.jpg"
         ],
         "gallery": [
           "/images/stock/starter/kruger-shalati.jpg"
         ]
       },
       "les-paletuviers": {
-        "hero_image_url": "/images/stock/destinations/sine-saloum-delta.jpg",
-        "hero_image_alt": "A nesting site in the Sine-Saloum Delta, Senegal",
+        "hero_image_url": "",
+        "hero_image_alt": "Les Palétuviers Boutique Hotel",
         "replaces": [
           "/images/stock/destinations/sine-saloum-delta.jpg"
         ],
-        "gallery": [
-          "/images/stock/destinations/sine-saloum-delta.jpg"
-        ]
+        "gallery": []
       },
       "maribela-hotel": {
-        "hero_image_url": "/images/stock/destinations/lalibela.jpg",
-        "hero_image_alt": "Bete Giyorgis 03",
+        "hero_image_url": "",
+        "hero_image_alt": "Maribela Hotel",
         "replaces": [
           "/images/stock/destinations/lalibela.jpg"
         ],
-        "gallery": [
-          "/images/stock/destinations/lalibela.jpg",
-          "/images/stock/starter/lalibela.jpg"
-        ]
+        "gallery": []
       },
       "marriott-mena-house-cairo": {
         "hero_image_url": "/images/stock/starter/marriott-mena-house-cairo.jpg",
         "hero_image_alt": "Exterior of Mena House hotel in Giza, Egypt",
         "replaces": [
-          "/images/stock/destinations/cairo-and-giza.jpg"
+          "/images/stock/destinations/cairo-and-giza.jpg",
+          "/images/stock/starter/marriott-mena-house-cairo.jpg"
         ],
         "gallery": [
           "/images/stock/starter/marriott-mena-house-cairo.jpg"
@@ -2962,7 +2982,8 @@ export const photoLibrary = {
         "hero_image_url": "/images/stock/starter/mfuwe-lodge.jpg",
         "hero_image_alt": "Thatched dining area and terrace at Mfuwe Lodge, Zambia",
         "replaces": [
-          "/images/stock/destinations/south-luangwa.jpg"
+          "/images/stock/destinations/south-luangwa.jpg",
+          "/images/stock/starter/mfuwe-lodge.jpg"
         ],
         "gallery": [
           "/images/stock/starter/mfuwe-lodge.jpg"
@@ -2970,9 +2991,10 @@ export const photoLibrary = {
       },
       "mount-nelson-a-belmond-hotel": {
         "hero_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Mount_Nelson_Hotel.jpg/1280px-Mount_Nelson_Hotel.jpg",
-        "hero_image_alt": "Mount Nelson Hotel in Cape Town",
+        "hero_image_alt": "Mount Nelson, A Belmond Hotel — property photograph 1",
         "replaces": [
-          "/images/stock/destinations/cape-town.jpg"
+          "/images/stock/destinations/cape-town.jpg",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Mount_Nelson_Hotel.jpg/1280px-Mount_Nelson_Hotel.jpg"
         ],
         "gallery": [
           "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Mount_Nelson_Hotel.jpg/1280px-Mount_Nelson_Hotel.jpg",
@@ -2987,72 +3009,59 @@ export const photoLibrary = {
         "hero_image_url": "/images/stock/starter/ol-tukai-lodge-amboseli.jpg",
         "hero_image_alt": "Main building of Ol Tukai Lodge illuminated at night, Amboseli, Kenya",
         "replaces": [
-          "/images/stock/destinations/amboseli-national-park.jpg"
+          "/images/stock/destinations/amboseli-national-park.jpg",
+          "/images/stock/starter/ol-tukai-lodge-amboseli.jpg"
         ],
         "gallery": [
           "/images/stock/starter/ol-tukai-lodge-amboseli.jpg"
         ]
       },
       "paraa-safari-lodge": {
-        "hero_image_url": "/images/stock/destinations/murchison-falls-national-park.jpg",
-        "hero_image_alt": "Murchison Falls, Uganda (23475021234)",
+        "hero_image_url": "",
+        "hero_image_alt": "Paraa Safari Lodge",
         "replaces": [
           "/images/stock/destinations/murchison-falls-national-park.jpg"
         ],
-        "gallery": [
-          "/images/stock/destinations/murchison-falls-national-park.jpg",
-          "/images/stock/starter/murchison-falls-national-park.jpg"
-        ]
+        "gallery": []
       },
       "riad-rosemary": {
-        "hero_image_url": "/images/stock/destinations/marrakech-and-atlas.jpg",
-        "hero_image_alt": "Jemaa el-Fnaa Marrakech at sunset",
+        "hero_image_url": "",
+        "hero_image_alt": "Rosemary Marrakech",
         "replaces": [
           "/images/stock/destinations/marrakech-and-atlas.jpg"
         ],
-        "gallery": [
-          "/images/stock/destinations/marrakech-and-atlas.jpg",
-          "/images/stock/starter/marrakech-and-atlas.jpg"
-        ]
+        "gallery": []
       },
       "ridge-royal-hotel": {
-        "hero_image_url": "/images/stock/destinations/cape-coast-kakum.jpg",
-        "hero_image_alt": "CAPE COAST CASTLE, GHANA",
+        "hero_image_url": "",
+        "hero_image_alt": "Ridge Royal Hotel",
         "replaces": [
           "/images/stock/destinations/cape-coast-kakum.jpg"
         ],
-        "gallery": [
-          "/images/stock/destinations/cape-coast-kakum.jpg",
-          "/images/stock/starter/cape-coast-kakum.jpg"
-        ]
+        "gallery": []
       },
       "sabyinyo-silverback-lodge": {
-        "hero_image_url": "/images/stock/destinations/volcanoes-national-park.jpg",
-        "hero_image_alt": "Kinigi, Ruanda (46266779462)",
+        "hero_image_url": "",
+        "hero_image_alt": "Wilderness Sabyinyo",
         "replaces": [
           "/images/stock/destinations/volcanoes-national-park.jpg"
         ],
-        "gallery": [
-          "/images/stock/destinations/volcanoes-national-park.jpg",
-          "/images/stock/starter/volcanoes-national-park.jpg"
-        ]
+        "gallery": []
       },
       "sanctuary-gorilla-forest-camp": {
-        "hero_image_url": "/images/stock/destinations/bwindi-impenetrable-national-park.jpg",
-        "hero_image_alt": "Bwindi Impenetrable National Park 02",
+        "hero_image_url": "",
+        "hero_image_alt": "Gorilla Forest Lodge, an A&K Sanctuary",
         "replaces": [
           "/images/stock/destinations/bwindi-impenetrable-national-park.jpg"
         ],
-        "gallery": [
-          "/images/stock/destinations/bwindi-impenetrable-national-park.jpg",
-          "/images/stock/starter/bwindi-impenetrable-national-park.jpg"
-        ]
+        "gallery": []
       },
       "serengeti-serena-safari-lodge": {
         "hero_image_url": "/images/stock/starter/serengeti-serena-safari-lodge.jpg",
         "hero_image_alt": "Thatched accommodation at Serengeti Serena Safari Lodge, Tanzania",
         "replaces": [
-          "/images/stock/destinations/serengeti-national-park.jpg"
+          "/images/stock/destinations/serengeti-national-park.jpg",
+          "/images/stock/starter/serengeti-serena-safari-lodge.jpg"
         ],
         "gallery": [
           "/images/stock/starter/serengeti-serena-safari-lodge.jpg"
@@ -3062,47 +3071,69 @@ export const photoLibrary = {
         "hero_image_url": "/images/stock/starter/sossusvlei-lodge.jpg",
         "hero_image_alt": "Courtyard at Sossusvlei Lodge, Namibia",
         "replaces": [
-          "/images/stock/destinations/namib-desert.jpg"
+          "/images/stock/destinations/namib-desert.jpg",
+          "/images/stock/starter/sossusvlei-lodge.jpg"
         ],
         "gallery": [
           "/images/stock/starter/sossusvlei-lodge.jpg"
         ]
       },
       "terres-touareg-guest-house": {
-        "hero_image_url": "/images/stock/destinations/djanet-and-tassili.jpg",
-        "hero_image_alt": "Djanet region (Tassili, Algeria)",
+        "hero_image_url": "",
+        "hero_image_alt": "Terres Touareg Guest House",
         "replaces": [
           "/images/stock/destinations/djanet-and-tassili.jpg"
         ],
-        "gallery": [
-          "/images/stock/destinations/djanet-and-tassili.jpg"
-        ]
+        "gallery": []
       },
       "the-place-resort-tokeh": {
-        "hero_image_url": "/images/stock/destinations/tokeh-and-river-no2.jpg",
-        "hero_image_alt": "A Canoe At The River Number 2 - Sierra Leone",
+        "hero_image_url": "",
+        "hero_image_alt": "The Place Resort, Tokeh",
         "replaces": [
           "/images/stock/destinations/tokeh-and-river-no2.jpg"
         ],
-        "gallery": [
-          "/images/stock/destinations/tokeh-and-river-no2.jpg",
-          "/images/stock/starter/tokeh-and-river-no2.jpg"
-        ]
+        "gallery": []
       },
       "victoria-falls-hotel": {
         "hero_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/The_Victoria_Falls_Hotel.jpg/1280px-The_Victoria_Falls_Hotel.jpg",
-        "hero_image_alt": "The Victoria Falls Hotel",
+        "hero_image_alt": "The Victoria Falls Hotel — property photograph 1",
         "replaces": [
-          "/images/stock/destinations/victoria-falls.jpg"
+          "/images/stock/destinations/victoria-falls.jpg",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/The_Victoria_Falls_Hotel.jpg/1280px-The_Victoria_Falls_Hotel.jpg"
         ],
         "gallery": [
           "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/The_Victoria_Falls_Hotel.jpg/1280px-The_Victoria_Falls_Hotel.jpg",
           "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Victoria_Falls_Hotel_from_behind.jpg/1280px-Victoria_Falls_Hotel_from_behind.jpg",
           "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Entrance_to_Victoria_Falls_Hotel.jpg/1280px-Entrance_to_Victoria_Falls_Hotel.jpg",
           "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Victoria_Falls_2012_05_23_1355_%287421822592%29.jpg/1280px-Victoria_Falls_2012_05_23_1355_%287421822592%29.jpg",
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Victoria_Falls_2012_05_23_1360_%287421824082%29.jpg/1280px-Victoria_Falls_2012_05_23_1360_%287421824082%29.jpg",
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Victoria_Falls_Bridge_from_gardens_of_Victoria_Falls_Hotel%2C_Zimbabwe.jpg/1280px-Victoria_Falls_Bridge_from_gardens_of_Victoria_Falls_Hotel%2C_Zimbabwe.jpg"
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Victoria_Falls_2012_05_23_1360_%287421824082%29.jpg/1280px-Victoria_Falls_2012_05_23_1360_%287421824082%29.jpg"
         ]
+      },
+      "red-chilli-rest-camp": {
+        "hero_image_url": "",
+        "hero_image_alt": "Red Chilli Rest Camp",
+        "replaces": [],
+        "gallery": []
+      },
+      "buhoma-community-rest-camp": {
+        "hero_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Hotel_Buhoma_Comunity_Camp_20190923_154959.jpg/1280px-Hotel_Buhoma_Comunity_Camp_20190923_154959.jpg",
+        "hero_image_alt": "Hotel Buhoma Community Camp",
+        "replaces": [],
+        "gallery": [
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Hotel_Buhoma_Comunity_Camp_20190923_154959.jpg/1280px-Hotel_Buhoma_Comunity_Camp_20190923_154959.jpg"
+        ]
+      },
+      "desert-quiver-camp": {
+        "hero_image_url": "",
+        "hero_image_alt": "Desert Quiver Camp",
+        "replaces": [],
+        "gallery": []
+      },
+      "amboseli-serena-safari-lodge": {
+        "hero_image_url": "",
+        "hero_image_alt": "Amboseli Serena Safari Lodge",
+        "replaces": [],
+        "gallery": []
       }
     },
     "travel_articles": {
