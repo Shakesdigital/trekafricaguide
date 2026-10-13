@@ -19,7 +19,18 @@ Photographs include older property views. Capture dates are available through im
 
 ## Deployment
 
-Pending commit/push and live HTML confirmation at time of preparation. A successful push alone is not deployment confirmation.
+Content commit `5d485a5` pushed to main. On 13 October, live HTTP 200 responses confirmed all six expected image references and the compact credits on each of these eight public pages:
+
+- https://trekafricaguide.com/activities/okavango-mokoro-safari
+- https://trekafricaguide.com/attractions/amboseli-national-park
+- https://trekafricaguide.com/attractions/bwindi-impenetrable-national-park
+- https://trekafricaguide.com/attractions/cairo-and-giza
+- https://trekafricaguide.com/attractions/murchison-falls-national-park
+- https://trekafricaguide.com/attractions/serengeti-national-park
+- https://trekafricaguide.com/accommodations/mount-nelson-a-belmond-hotel
+- https://trekafricaguide.com/accommodations/victoria-falls-hotel
+
+This confirms deployed page HTML, not a full browser quality review or a guarantee about third-party image uptime. [Generation brief](2026-10-12-mokoro-generation-prompts.md). Elmina, Kibale and Jozani remain unpublished drafts.
 
 ## Remaining inventory and next priority
 
