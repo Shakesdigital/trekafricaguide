@@ -2,9 +2,13 @@
 
 Owner's standing brief, updated 11 October 2026. Manage contributions through the existing chat. The owner authorizes autonomous content selection, factual content edits, Git commits and pushes to the website repository. Preserve the existing visual layout. No routine tests or builds; inspect changed material. Do not claim publication until confirmed.
 
-## Daily collaboration
+## Collaboration every six hours
 
-At 09:00 Africa/Kampala, announce the proposed page/topic and scope BEFORE making changes. Incorporate owner corrections received during work; this notice does not require a daily approval response. Research and develop a manageable complete page or related group, then report published links versus drafts, photographs, evidence, blockers and next priority. Maintain a dated ledger here or in an adjacent editorial ledger. Prioritize quality over a page quota. An automated run is scheduled, not a promise of uninterrupted availability.
+Schedule: 00:00, 06:00, 12:00 and 18:00 Africa/Kampala. Announce the chosen work before making changes and proceed without waiting for owner approval. Complete a manageable researched page, related group or maintenance improvement each run. Rotate destinations, attractions, activities, stays, listing cards and travel insights for solo, adventure, safari, budget, mid-range and cultural travelers. Preserve the current display style.
+
+Publish evidence-backed, complete content even when optional owner input would improve it, then request that input through the progress report. Unsupported claims, unlicensed images and broken records are not made publishable by a request for later review. Report live links versus drafts/pushed changes, image counts, sources, blockers and next priority. Send the report and a reminder about review areas to the owner's configured email recipient using the connected Gmail account; the address is held in the private automation configuration. Record send success locally and do not claim delivery when the tool fails.
+
+The existing thread automation remains local. Its six-hour schedule does not establish execution while the computer/app is off; a cloud execution path is not configured. Keep that limitation explicit. Prioritize quality over quotas and respect usage limits.
 
 ## Publishing
 
