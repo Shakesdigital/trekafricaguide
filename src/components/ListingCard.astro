@@ -2,23 +2,25 @@
 import ImageSlot from './ImageSlot.astro';
 import { photoContext } from '../lib/photo-defaults.mjs';
 const { item, type = 'attraction' } = Astro.props;
+const isInsight = type === 'insight';
+const title = item.name || item.title;
 const isStay = type === 'accommodation';
 const isActivity = type === 'activity';
-const href = item.internalUrl || `/${isActivity ? 'activities' : isStay ? 'accommodations' : 'attractions'}/${item.slug}`;
-const cta = isActivity ? (item.cardCta || 'View Activity Detail') : isStay ? 'View stay' : 'View attraction detail';
+const href = item.internalUrl || `/${isInsight ? 'travel-insights' : isActivity ? 'activities' : isStay ? 'accommodations' : 'attractions'}/${item.slug}`;
+const cta = isInsight ? 'Read travel insight' : isActivity ? (item.cardCta || 'View Activity Detail') : isStay ? 'View stay' : 'View attraction detail';
 const location = [item.location_name, item.country?.name].filter(Boolean).join(', ');
 ---
 <article class="listing-card" data-card-type={type} data-country={item.country?.slug || ''}>
   <a class="listing-card__image" href={href} aria-label={cta}>
-    <ImageSlot class="listing-card__slot" src={item.hero_image_url || item.image_slot} alt={item.hero_image_alt || item.name} />
+    <ImageSlot class="listing-card__slot" src={item.hero_image_url || item.image_slot} alt={item.hero_image_alt || title} />
   </a>
   <div class="listing-card__body">
     {isStay && photoContext(item.hero_image_url) && <small class="photo-context">{photoContext(item.hero_image_url)}</small>}
-    <p class="listing-card__eyebrow">{item.name}{location ? ` · ${location}` : ''}</p>
-    <h3><a href={href}>{item.name}</a></h3>
-    <p>{item.listing_summary || item.detail_intro || item.overview}</p>
+    <p class="listing-card__eyebrow">{title}{location ? ` · ${location}` : ''}</p>
+    <h3><a href={href}>{title}</a></h3>
+    <p>{item.excerpt || item.listing_summary || item.detail_intro || item.overview}</p>
     <div class="listing-card__meta">
-      <span>{item.region?.name || item.country?.region?.name || ''}</span>
+      <span>{item.category || item.region?.name || item.country?.region?.name || ''}</span>
       {item.rating && <span>{item.rating} rating</span>}
     </div>
     <div class="listing-card__footer">

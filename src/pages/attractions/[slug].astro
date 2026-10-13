@@ -4,6 +4,7 @@ import ResearchNotes from '../../components/ResearchNotes.astro';
 import SiteLayout from '../../layouts/SiteLayout.astro';
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import Gallery from '../../components/Gallery.astro';
+import CardCarousel from '../../components/CardCarousel.astro';
 import ListingCard from '../../components/ListingCard.astro';
 import BookingOffers from '../../components/BookingOffers.astro';
 import { getSiteModel } from '../../lib/site-model.mjs';
@@ -45,6 +46,6 @@ const linkedAttractions = model.attractions.filter((item) => item.slug !== attra
       <aside class="detail-rail"><BookingOffers listing={attraction} offers={attraction.bookingOffers} /></aside>
     </div>
   </section>
-  {attraction.activities?.length > 0 && <section class="section section--alt"><div class="container"><h2>Related activities</h2><div class="listing-grid">{attraction.activities.map((item) => <ListingCard item={{...item, cardCta: 'View Activity Details'}} type="activity" />)}</div></div></section>}
-  <section class="section section--alt"><div class="container"><h2>Nearby stays</h2><div class="listing-grid">{attraction.nearbyStays.map((item) => <ListingCard item={item} type="accommodation" />)}</div></div></section>
+  {attraction.activities?.length > 0 && <section class="section section--alt"><div class="container"><h2>Related activities</h2><CardCarousel label="Related activities">{attraction.activities.map((item) => <ListingCard item={{...item, cardCta: 'View Activity Details'}} type="activity" />)}</CardCarousel></div></section>}
+  <section class="section section--alt"><div class="container"><h2>Nearby stays</h2><CardCarousel label="Nearby stays">{attraction.nearbyStays.map((item) => <ListingCard item={item} type="accommodation" />)}</CardCarousel></div></section>
 </SiteLayout>

@@ -94,16 +94,29 @@ if (navToggle && navMenu) {
   });
 }
 
-document.querySelectorAll('[data-listing-carousel]').forEach((listingCarousel) => {
-  const track = listingCarousel.querySelector('[data-carousel-track]');
-  const previous = listingCarousel.querySelector('[data-carousel-prev]');
-  const next = listingCarousel.querySelector('[data-carousel-next]');
+document.querySelectorAll('[data-listing-carousel]').forEach((carousel) => {
+  const track = carousel.querySelector('[data-carousel-track]');
+  const controls = carousel.querySelector('[data-carousel-controls]');
   if (!track) return;
-  const scrollByCard = (direction) => {
-    const firstItem = track.querySelector('.listing-carousel__item');
-    const amount = firstItem ? firstItem.getBoundingClientRect().width + 20 : track.clientWidth * 0.85;
-    track.scrollBy({ left: amount * direction, behavior: 'smooth' });
+  const move = (direction) => {
+    const first = track.firstElementChild;
+    const gap = parseFloat(getComputedStyle(track).columnGap) || 0;
+    const step = first ? first.getBoundingClientRect().width + gap : track.clientWidth;
+    const max = Math.max(0, track.scrollWidth - track.clientWidth);
+    const atStart = track.scrollLeft <= 2;
+    const atEnd = track.scrollLeft >= max - 2;
+    const left = direction > 0 && atEnd ? 0 : direction < 0 && atStart ? max
+      : Math.max(0, Math.min(max, track.scrollLeft + step * direction));
+    track.scrollTo({ left, behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth' });
   };
-  previous?.addEventListener('click', () => scrollByCard(-1));
-  next?.addEventListener('click', () => scrollByCard(1));
+  carousel.querySelector('[data-carousel-prev]')?.addEventListener('click', () => move(-1));
+  carousel.querySelector('[data-carousel-next]')?.addEventListener('click', () => move(1));
+  track.addEventListener('keydown', (event) => {
+    if (event.target !== track || !['ArrowLeft', 'ArrowRight'].includes(event.key)) return;
+    event.preventDefault();
+    move(event.key === 'ArrowRight' ? 1 : -1);
+  });
+  const update = () => { if (controls) controls.hidden = track.scrollWidth <= track.clientWidth + 2; };
+  new ResizeObserver(update).observe(track);
+  update();
 });

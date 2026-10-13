@@ -112,3 +112,11 @@ Published [Table Mountain: plan for the weather, choose the right way up](https:
 ## Progress — 13 October 2026
 
 Prepared six-image collections for eight attractions, two accommodations and the mokoro activity. Sixty licensed photographs and six generated representative images; no duplicated source-file hashes between these collections. Elmina, Kibale and Jozani keep draft status pending their remaining editorial review. The other eight collections update existing published pages. See [image rollout ledger](editorial-research/2026-10-13-image-rollout.md) for deployment status and remaining work. This is a partial rollout, not completion of the 85-page image inventory.
+
+## Card sections and nearby discovery — 13 October 2026
+
+- Use shared CardCarousel with ListingCard for homepage and full-detail card collections. Preserve archive grids, card widths, internal detail links, touch scrolling and previous/next wraparound. No autoplay.
+- Accommodation pages: Other Nearby Accommodations, then Nearby Attractions. Exclude the current stay and drafts; use recorded attraction/stay relationships, not country-wide proximity guesses. Keep an honest empty state until nearby guides exist.
+- Homepage includes Home navigation, featured attractions, stays and travel insights, with View More archive links.
+- Discover candidates through TripAdvisor, Expedia, Kayak, Booking.com, Hotels.com and Safari.com as well as official tourism/property/operator sources. Verify location and practical routes before assigning relationships, cross-check material facts and date review evidence. OTA presence is not permission to reuse photos or copy text. Preserve exact Stay22 booking destinations.
+- Follow the six-hour cadence anchored at 11:00 Kampala. Research sources remain in the editorial records even where source panels are hidden.

@@ -4,6 +4,7 @@ import ResearchNotes from '../../components/ResearchNotes.astro';
 import SiteLayout from '../../layouts/SiteLayout.astro';
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import Gallery from '../../components/Gallery.astro';
+import CardCarousel from '../../components/CardCarousel.astro';
 import ListingCard from '../../components/ListingCard.astro';
 import BookingOffers from '../../components/BookingOffers.astro';
 import { getSiteModel } from '../../lib/site-model.mjs';
@@ -38,11 +39,11 @@ const { accommodation } = Astro.props;
         <div class="detail-section"><h2>Why stay here and how to plan your stay</h2><EditorialText text={accommodation.listing_summary} /><EditorialText text={accommodation.practical_info} /></div>
         <div class="detail-section"><h2>Key amenities</h2><ul class="amenity-grid">{normalizeList(accommodation.amenities).map((item) => <li class="amenity">{item}</li>)}</ul></div>
         {(accommodation.property_type || accommodation.price_label) && <div class="detail-section"><h2>Stay style and budget</h2><p>{accommodation.property_type}</p>{accommodation.price_label && <p><strong>Price category: {accommodation.price_label}.</strong> This describes general positioning; ask the property for current rates, seasonal changes and what is included.</p>}</div>}
-        <ResearchNotes record={accommodation} />
-        {accommodation.attraction && <div class="detail-section"><h2>Related attraction</h2><div class="related-card-grid"><ListingCard item={accommodation.attraction} type="attraction" /></div></div>}
+        <ResearchNotes record={accommodation} showStayCards={false} />
       </div>
       <aside class="detail-rail"><BookingOffers listing={accommodation} offers={accommodation.bookingOffers} /></aside>
     </div>
   </section>
-  <section class="section section--alt"><div class="container"><h2>Nearby attractions</h2><div class="listing-grid">{accommodation.nearbyAttractions.map((item) => <ListingCard item={item} type="attraction" />)}</div></div></section>
+  <section class="section"><div class="container"><h2>Other Nearby Accommodations</h2>{accommodation.nearbyAccommodations.length ? <CardCarousel label="Other nearby accommodations">{accommodation.nearbyAccommodations.map((item) => <ListingCard item={item} type="accommodation" />)}</CardCarousel> : <p>More nearby stays will appear here as their guides are completed.</p>}</div></section>
+  <section class="section section--alt"><div class="container"><h2>Nearby Attractions</h2><CardCarousel label="Nearby Attractions">{accommodation.nearbyAttractions.map((item) => <ListingCard item={item} type="attraction" />)}</CardCarousel></div></section>
 </SiteLayout>

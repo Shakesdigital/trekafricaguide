@@ -1,6 +1,7 @@
 ---
 import SiteLayout from '../../layouts/SiteLayout.astro';
 import PageHero from '../../components/PageHero.astro';
+import CardCarousel from '../../components/CardCarousel.astro';
 import ListingCard from '../../components/ListingCard.astro';
 import { getSiteModel } from '../../lib/site-model.mjs';
 
@@ -12,8 +13,8 @@ export async function getStaticPaths() {
 const model = await getSiteModel();
 const { region } = Astro.props;
 const countries = model.countries.filter((country) => country.region_id === region.id);
-const attractions = model.attractions.filter((item) => item.region_id === region.id).slice(0, 6);
-const stays = model.accommodations.filter((item) => item.region_id === region.id).slice(0, 6);
+const attractions = model.attractions.filter((item) => item.region_id === region.id);
+const stays = model.accommodations.filter((item) => item.region_id === region.id);
 ---
 <SiteLayout model={model} title={region.name} description={region.hero_text || region.overview}>
   <PageHero eyebrow="Region" title={region.hero_title || region.name} text={region.hero_text || region.overview} image={region.hero_image_url} alt={region.hero_image_alt || region.name} />
@@ -29,6 +30,6 @@ const stays = model.accommodations.filter((item) => item.region_id === region.id
       </div>
     </div>
   </section>
-  <section class="section section--alt"><div class="container"><h2>Attractions</h2><div class="listing-grid">{attractions.map((item) => <ListingCard item={item} type="attraction" />)}</div></div></section>
-  <section class="section"><div class="container"><h2>Stays</h2><div class="listing-grid">{stays.map((item) => <ListingCard item={item} type="accommodation" />)}</div></div></section>
+  <section class="section section--alt"><div class="container"><h2>Attractions</h2><CardCarousel label="Attractions">{attractions.map((item) => <ListingCard item={item} type="attraction" />)}</CardCarousel></div></section>
+  <section class="section"><div class="container"><h2>Stays</h2><CardCarousel label="Stays">{stays.map((item) => <ListingCard item={item} type="accommodation" />)}</CardCarousel></div></section>
 </SiteLayout>

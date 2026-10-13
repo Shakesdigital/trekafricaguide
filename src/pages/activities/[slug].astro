@@ -3,6 +3,7 @@ import BookingOffers from '../../components/BookingOffers.astro';
 import SiteLayout from '../../layouts/SiteLayout.astro';
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import Gallery from '../../components/Gallery.astro';
+import CardCarousel from '../../components/CardCarousel.astro';
 import ListingCard from '../../components/ListingCard.astro';
 import { getSiteModel } from '../../lib/site-model.mjs';
 import { normalizeList } from '../../lib/images.mjs';
@@ -15,8 +16,7 @@ export async function getStaticPaths() {
 const { activity } = Astro.props;
 const relatedActivities = model.activities
   .filter((item) => item.slug !== activity.slug && item.country.id === activity.country.id)
-  .sort((a, b) => Number(b.attraction_id === activity.attraction_id) - Number(a.attraction_id === activity.attraction_id))
-  .slice(0, 3);
+  .sort((a, b) => Number(b.attraction_id === activity.attraction_id) - Number(a.attraction_id === activity.attraction_id));
 const activityText = (value) => linkAttractionMentions(value, model.attractions);
 ---
 <SiteLayout model={model} title={activity.meta_title || activity.name} description={activity.meta_description || activity.listing_summary} image={activity.meta_image_url || activity.hero_image_url}>
@@ -33,6 +33,6 @@ const activityText = (value) => linkAttractionMentions(value, model.attractions)
     <div class="detail-section"><h2>Best time to participate</h2><div class="rich-text" set:html={activityText(activity.best_time || '')} /></div>
     <div class="detail-section"><h2>Planning notes</h2><div class="rich-text" set:html={activityText(activity.practical_info || '')} /></div>
   </div><aside class="detail-rail"><BookingOffers listing={activity} offers={activity.bookingOffers} /></aside></div></section>
-  {relatedActivities.length > 0 && <section class="section section--alt"><div class="container"><h2>You may also like</h2><div class="listing-grid">{relatedActivities.map((item) => <ListingCard item={item} type="activity" />)}</div></div></section>}
-  <section class="section section--alt"><div class="container"><h2>Nearby stays</h2><div class="listing-grid">{activity.attraction.nearbyStays.map((item) => <ListingCard item={item} type="accommodation" />)}</div></div></section>
+  {relatedActivities.length > 0 && <section class="section section--alt"><div class="container"><h2>You may also like</h2><CardCarousel label="You may also like">{relatedActivities.map((item) => <ListingCard item={item} type="activity" />)}</CardCarousel></div></section>}
+  <section class="section section--alt"><div class="container"><h2>Nearby stays</h2><CardCarousel label="Nearby stays">{activity.attraction.nearbyStays.map((item) => <ListingCard item={item} type="accommodation" />)}</CardCarousel></div></section>
 </SiteLayout>

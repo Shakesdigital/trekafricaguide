@@ -230,12 +230,16 @@ export function buildSiteModel(tables, now = new Date()) {
     attraction.nearbyStays = nearby;
   }
 
-  // Compute nearby attractions for accommodations (attractions in same country)
+  // Use published attraction/stay relationships, not country-wide proximity guesses.
   for (const accommodation of accommodations) {
-    const nearby = attractions
-      .filter((a) => a.country_id === accommodation.country_id)
-      .slice(0, 3);
-    accommodation.nearbyAttractions = nearby;
+    accommodation.nearbyAttractions = attractions.filter((attraction) =>
+      attraction.nearbyStays.some((stay) => stay.id === accommodation.id));
+    const options = Array.isArray(accommodation.nearby_stay_options) ? accommodation.nearby_stay_options : [];
+    accommodation.nearbyAccommodations = accommodations.filter((stay) =>
+      stay.id !== accommodation.id && (
+        options.some((option) => option?.slug === stay.slug) ||
+        accommodation.nearbyAttractions.some((attraction) => attraction.nearbyStays.some((item) => item.id === stay.id))
+      ));
   }
 
   // Build settings from site_settings

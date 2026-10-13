@@ -2596,3 +2596,22 @@ img.page-hero__slot {
 .detail-main > .detail-section:first-child > .detail-hero__summary { margin-top: 0; }
 
 @media (max-width:819px) { .detail-grid > .detail-rail { order: -1; } }
+
+/* Full-width tracks retain the same card widths as the archive grids. */
+.card-carousel { display: block; min-width: 0; }
+.card-carousel__controls { display: flex; justify-content: flex-end; gap: .65rem; margin-bottom: .8rem; }
+.card-carousel__controls[hidden] { display: none; }
+.card-carousel .listing-carousel__button { display: inline-flex; }
+.card-carousel .listing-carousel__track > * { min-width: 0; height: 100%; scroll-snap-align: start; }
+.card-carousel .listing-carousel__track { grid-auto-columns: calc((100% - 2.5rem) / 3); }
+.card-carousel--regions .listing-carousel__track { grid-auto-columns: calc((100% - 1.25rem) / 2); }
+.card-carousel .listing-carousel__track:focus-visible { outline: 2px solid var(--brand-primary); outline-offset: 4px; }
+@media (min-width: 820px) and (max-width: 1080px) {
+  .card-carousel .listing-carousel__track { grid-auto-columns: calc((100% - 1.25rem) / 2); }
+}
+@media (max-width: 819px) {
+  .card-carousel .listing-carousel__track { grid-auto-columns: 100%; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .card-carousel .listing-carousel__track { scroll-behavior: auto; }
+}
