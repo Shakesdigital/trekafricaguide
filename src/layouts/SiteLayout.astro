@@ -3,9 +3,14 @@ import '../styles/app.css';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import siteScript from '../scripts/site.js?url';
-import { DEFAULT_BRAND, SITE_URL } from '../config/site.mjs';
+import { DEFAULT_BRAND, DEFAULT_AFFILIATE_ID, SITE_URL } from '../config/site.mjs';
 import { getSiteModel } from '../lib/site-model.mjs';
 
+// Resolve the live Stay22 affiliate ID at build time from the environment,
+// falling back to the publishable default. This keeps the LMA tracker
+// (lmaID) in sync with STAY22_AFFILIATE_ID so affiliate attribution stays
+// correct across environments without requiring a source code change.
+const stay22AffiliateId = (typeof process !== 'undefined' && process.env?.STAY22_AFFILIATE_ID) || DEFAULT_AFFILIATE_ID;
 const model = Astro.props.model || await getSiteModel();
 const settings = model.settings || {};
 const brand = {
@@ -43,6 +48,20 @@ const image = Astro.props.image || settings['seo.default_og_image'];
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet" />
     <style is:inline set:html={`:root { --brand-primary: ${brand.primary}; --brand-secondary: ${brand.secondary}; --brand-accent: ${brand.accent}; }`}></style>
+    <!-- Stay22 LetMeAllez affiliate tracking — injects partner widgets on booking pages.
+         lmaID is the publishable affiliate identifier (public value only; no secret keys).
+         Async script tag so it never blocks page render. -->
+    <script is:inline define:vars={{ lmaID: stay22AffiliateId }}>
+      (function (s, t, a, y, twenty, two) {
+        s.Stay22 = s.Stay22 || {};
+        s.Stay22.params = { lmaID: lmaID };
+        twenty = t.createElement(a);
+        two = t.getElementsByTagName(a)[0];
+        twenty.async = 1;
+        twenty.src = y;
+        two.parentNode.insertBefore(twenty, two);
+      })(window, document, 'script', 'https://scripts.stay22.com/letmeallez.js');
+    </script>
     <script is:inline define:vars={{ suggestions: JSON.stringify(model.searchSuggestions || []) }}>
       window.trekSearchSuggestions = JSON.parse(suggestions);
     </script>
