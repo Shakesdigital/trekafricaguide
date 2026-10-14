@@ -1,7 +1,7 @@
 // Curated source. Run node scripts/sync-photo-library.mjs after editing.
 // Curated free photography; source and licence metadata travel with each image.
 export const photoLibrary = {
-  "updated_at": "2026-10-13",
+  "updated_at": "2026-10-14",
   "images": {
     "/images/stock/destinations/bwindi-impenetrable-national-park.jpg": {
       "slug": "bwindi-impenetrable-national-park",
@@ -2224,6 +2224,372 @@ export const photoLibrary = {
       "exact_subject_evidence": "Commons title and description identify Hotel Buhoma Community Camp; Commons page gives creator and CC BY-SA 4.0 license.",
       "subject": "Buhoma Community Rest Camp",
       "checked_at": "2026-10-13"
+    },
+    "/images/editorial/paraa-safari-lodge/guest-room.jpg": {
+      "subject": "Paraa Safari Lodge",
+      "alt": "Twin guest room with balcony at Paraa Safari Lodge, photographed in 2017",
+      "creator": "Venture Uganda Travel",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "source_page": "https://www.flickr.com/photos/138780739@N06/40706178341",
+      "date": "2017-07-31",
+      "checked_at": "2026-10-14",
+      "property": true,
+      "sha256": "6a3aa0ab375a87fa829c00a1bc17a9457a68d2deeacd966982cb34060e3aba49",
+      "exact_subject_evidence": "Source photograph titled Paraa Safari Lodge-Murchison Falls NP; visually inspected guest room. Flickr JSON-LD license CC BY 2.0 confirmed.",
+      "changes": "Downloaded unchanged; may be cropped by page layout."
+    },
+    "/images/editorial/emerson-spice/property-1.jpg": {
+      "source_page": "https://www.flickr.com/photos/14146962@N07/8462493250",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "creator": "TravelingOtter",
+      "creator_url": "https://www.flickr.com/photos/14146962@N07",
+      "alt": "Emerson Spice Hotel in Stone Town, Zanzibar",
+      "date": null,
+      "indexed_on": "2018-12-20T20:51:17.277318Z",
+      "property": true,
+      "exact_subject_evidence": "Emerson Spice Hotel - Stone Town, Zanzibar | TravelingOtter | Flickr; Flickr shows CC BY-SA 2.0.",
+      "source_title": "Emerson Spice Hotel - Stone Town, Zanzibar",
+      "dimensions": {
+        "width": 1024,
+        "height": 683
+      },
+      "reuse_note": "Commercial reuse allowed with attribution; adaptations must use CC BY-SA 2.0.",
+      "original_image_url": "https://live.staticflickr.com/8099/8462493250_1ab10bd6ca_b.jpg",
+      "sha256": "fa2f461477f9dfcab7d114725fd7301bc235b70cad79dc7afee5924c330e909f",
+      "subject": "Emerson Spice",
+      "checked_at": "2026-10-14"
+    },
+    "/images/editorial/emerson-spice/property-2.jpg": {
+      "source_page": "https://www.flickr.com/photos/14146962@N07/8462493718",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "creator": "TravelingOtter",
+      "creator_url": "https://www.flickr.com/photos/14146962@N07",
+      "alt": "Aida Suite terrace at Emerson Spice Hotel, Stone Town, Zanzibar",
+      "date": null,
+      "indexed_on": "2018-12-20T20:51:17.277318Z",
+      "property": true,
+      "exact_subject_evidence": "Aida Suite Terrace - Emerson Spice Hotel, Stone Town, Zanz… | Flickr; Flickr shows CC BY-SA 2.0.",
+      "source_title": "Aida Suite Terrace - Emerson Spice Hotel, Stone Town, Zanzibar",
+      "dimensions": {
+        "width": 1024,
+        "height": 683
+      },
+      "reuse_note": "Commercial reuse allowed with attribution; adaptations must use CC BY-SA 2.0.",
+      "original_image_url": "https://live.staticflickr.com/8512/8462493718_c0806864b5_b.jpg",
+      "sha256": "09d01523e508795226cbdecd398a12f0fd7236221194a1ed0142ea54cb4cf0df",
+      "subject": "Emerson Spice",
+      "checked_at": "2026-10-14"
+    },
+    "/images/editorial/emerson-spice/property-3.jpg": {
+      "source_page": "https://www.flickr.com/photos/14146962@N07/8462494380",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "creator": "TravelingOtter",
+      "creator_url": "https://www.flickr.com/photos/14146962@N07",
+      "alt": "Aida Suite bathroom at Emerson Spice Hotel, Stone Town, Zanzibar",
+      "date": null,
+      "indexed_on": "2020-04-06T21:29:21.805080Z",
+      "property": true,
+      "exact_subject_evidence": "Aida Suite Bathroom - Emerson Spice Hotel, Stone Town, Zan… | Flickr; Flickr shows CC BY-SA 2.0.",
+      "source_title": "Aida Suite Bathroom - Emerson Spice Hotel, Stone Town, Zanzibar",
+      "dimensions": {
+        "width": 683,
+        "height": 1024
+      },
+      "reuse_note": "Commercial reuse allowed with attribution; adaptations must use CC BY-SA 2.0.",
+      "original_image_url": "https://live.staticflickr.com/8086/8462494380_2d0c6c9abc_b.jpg",
+      "sha256": "4a55c1564a3b3d31c2d3cb368e4e6ffafbc8a627a8d4132894a2a7b97882c54c",
+      "subject": "Emerson Spice",
+      "checked_at": "2026-10-14"
+    },
+    "/images/editorial/emerson-spice/property-4.jpg": {
+      "source_page": "https://www.flickr.com/photos/14146962@N07/8462494928",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "creator": "TravelingOtter",
+      "creator_url": "https://www.flickr.com/photos/14146962@N07",
+      "alt": "Upstairs area of the Aida Suite at Emerson Spice Hotel, Stone Town, Zanzibar",
+      "date": null,
+      "indexed_on": "2020-04-06T21:29:21.805080Z",
+      "property": true,
+      "exact_subject_evidence": "Aida Suite Upstairs - Emerson Spice Hotel, Stone Town, Zan… | Flickr; Flickr shows CC BY-SA 2.0.",
+      "source_title": "Aida Suite Upstairs - Emerson Spice Hotel, Stone Town, Zanzibar",
+      "dimensions": {
+        "width": 1024,
+        "height": 683
+      },
+      "reuse_note": "Commercial reuse allowed with attribution; adaptations must use CC BY-SA 2.0.",
+      "original_image_url": "https://live.staticflickr.com/8377/8462494928_ea4d03a0e9_b.jpg",
+      "sha256": "7f8023f9adc7f9b21d9814d2381faa0bec9f1702c680b98316285e97b9c48af0",
+      "subject": "Emerson Spice",
+      "checked_at": "2026-10-14"
+    },
+    "/images/editorial/emerson-spice/property-5.jpg": {
+      "source_page": "https://www.flickr.com/photos/14146962@N07/8461397703",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "creator": "TravelingOtter",
+      "creator_url": "https://www.flickr.com/photos/14146962@N07",
+      "alt": "Aida Suite bedroom at Emerson Spice Hotel, Stone Town, Zanzibar",
+      "date": null,
+      "indexed_on": "2020-04-06T21:29:21.805080Z",
+      "property": true,
+      "exact_subject_evidence": "Aida Suite Bedroom - Emerson Spice Hotel, Stone Town, Zanz… | Flickr; Flickr shows CC BY-SA 2.0.",
+      "source_title": "Aida Suite Bedroom - Emerson Spice Hotel, Stone Town, Zanzibar",
+      "dimensions": {
+        "width": 1024,
+        "height": 683
+      },
+      "reuse_note": "Commercial reuse allowed with attribution; adaptations must use CC BY-SA 2.0.",
+      "original_image_url": "https://live.staticflickr.com/8103/8461397703_4420b56c92_b.jpg",
+      "sha256": "e239fd08a7af14d39b91ba26827fb324cd9575197793480c9151c8530dcb8a9c",
+      "subject": "Emerson Spice",
+      "checked_at": "2026-10-14"
+    },
+    "/images/editorial/emerson-spice/property-6.jpg": {
+      "source_page": "https://www.flickr.com/photos/14146962@N07/8462497044",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "creator": "TravelingOtter",
+      "creator_url": "https://www.flickr.com/photos/14146962@N07",
+      "alt": "Aida Suite bedroom at Emerson Spice Hotel, Stone Town, Zanzibar",
+      "date": null,
+      "indexed_on": "2018-12-20T20:51:17.277318Z",
+      "property": true,
+      "exact_subject_evidence": "Aida Suite Bedroom - Emerson Spice Hotel, Stone Town, Zanz… | Flickr; Flickr shows CC BY-SA 2.0.",
+      "source_title": "Aida Suite Bedroom - Emerson Spice Hotel, Stone Town, Zanzibar",
+      "dimensions": {
+        "width": 1024,
+        "height": 683
+      },
+      "reuse_note": "Commercial reuse allowed with attribution; adaptations must use CC BY-SA 2.0.",
+      "original_image_url": "https://live.staticflickr.com/8389/8462497044_7f7224a0e5_b.jpg",
+      "sha256": "0f0b06dbb56395a1ce4e806b512b902c0d606983ac2a4c2b6f5bb8880997a538",
+      "subject": "Emerson Spice",
+      "checked_at": "2026-10-14"
+    },
+    "/images/editorial/desert-quiver-camp/property-1.jpg": {
+      "source_page": "https://www.flickr.com/photos/76319087@N08/25799086877",
+      "license": "CC0 1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "creator": "www.wbayer.com - www.facebook.com/wbayercom",
+      "creator_url": "https://www.flickr.com/photos/76319087@N08",
+      "alt": "Desert Quiver Camp, Namibia",
+      "date": null,
+      "indexed_on": "2018-12-10T16:06:38.566303Z",
+      "property": true,
+      "exact_subject_evidence": "Desert Quiver Camp | Un endroit d'une grande beauté, éloigné… | Flickr; Flickr shows CC0 (Public Domain Dedication).",
+      "source_title": "Desert Quiver Camp",
+      "dimensions": {
+        "width": 1024,
+        "height": 494
+      },
+      "reuse_note": "CC0 dedication shown on live Flickr page.",
+      "original_image_url": "https://live.staticflickr.com/4696/25799086877_c79bdc1aea_b.jpg",
+      "sha256": "0a31ecaeb3b8be3ad314528bae9689ad3f64b1cb93a2eadd12aaf53f003b3f1e",
+      "subject": "Desert Quiver Camp",
+      "checked_at": "2026-10-14"
+    },
+    "/images/editorial/desert-quiver-camp/property-2.jpg": {
+      "source_page": "https://www.flickr.com/photos/76319087@N08/39960031154",
+      "license": "CC0 1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "creator": "www.wbayer.com - www.facebook.com/wbayercom",
+      "creator_url": "https://www.flickr.com/photos/76319087@N08",
+      "alt": "Desert Quiver Camp, Namibia",
+      "date": null,
+      "indexed_on": "2018-11-09T10:31:06.910129Z",
+      "property": true,
+      "exact_subject_evidence": "Desert Quiver Camp | Un endroit d'une grande beauté, éloigné… | Flickr; Flickr shows CC0 (Public Domain Dedication).",
+      "source_title": "Desert Quiver Camp",
+      "dimensions": {
+        "width": 1024,
+        "height": 576
+      },
+      "reuse_note": "CC0 dedication shown on live Flickr page.",
+      "original_image_url": "https://live.staticflickr.com/4651/39960031154_ce51228546_b.jpg",
+      "sha256": "3b94d68c68183ca15afcd277063ff9a0e0ce579673dc4c1720e356f388ebe575",
+      "subject": "Desert Quiver Camp",
+      "checked_at": "2026-10-14"
+    },
+    "/images/editorial/desert-quiver-camp/property-3.jpg": {
+      "source_page": "https://www.flickr.com/photos/76319087@N08/39960031204",
+      "license": "CC0 1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "creator": "www.wbayer.com - www.facebook.com/wbayercom",
+      "creator_url": "https://www.flickr.com/photos/76319087@N08",
+      "alt": "Desert Quiver Camp, Namibia",
+      "date": null,
+      "indexed_on": "2018-11-09T10:31:06.910129Z",
+      "property": true,
+      "exact_subject_evidence": "Desert Quiver Camp | Un endroit d'une grande beauté, éloigné… | Flickr; Flickr shows CC0 (Public Domain Dedication).",
+      "source_title": "Desert Quiver Camp",
+      "dimensions": {
+        "width": 1024,
+        "height": 507
+      },
+      "reuse_note": "CC0 dedication shown on live Flickr page.",
+      "original_image_url": "https://live.staticflickr.com/4663/39960031204_91e2b353eb_b.jpg",
+      "sha256": "9ce11447f354688ea871ebb3231bc41aa758355350598d037b5ed7ea3ffbcfb9",
+      "subject": "Desert Quiver Camp",
+      "checked_at": "2026-10-14"
+    },
+    "/images/editorial/desert-quiver-camp/property-4.jpg": {
+      "source_page": "https://www.flickr.com/photos/76319087@N08/39960031374",
+      "license": "CC0 1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "creator": "www.wbayer.com - www.facebook.com/wbayercom",
+      "creator_url": "https://www.flickr.com/photos/76319087@N08",
+      "alt": "Desert Quiver Camp, Namibia",
+      "date": null,
+      "indexed_on": "2018-12-18T00:05:24.829892Z",
+      "property": true,
+      "exact_subject_evidence": "Desert Quiver Camp | Un endroit d'une grande beauté, éloigné… | Flickr; Flickr shows CC0 (Public Domain Dedication).",
+      "source_title": "Desert Quiver Camp",
+      "dimensions": {
+        "width": 1024,
+        "height": 1024
+      },
+      "reuse_note": "CC0 dedication shown on live Flickr page.",
+      "original_image_url": "https://live.staticflickr.com/4756/39960031374_241a80b2f4_b.jpg",
+      "sha256": "afe85c5ad706449baad9c9a6a459efd3858b08e0e07866ee409c7c7f722303e9",
+      "subject": "Desert Quiver Camp",
+      "checked_at": "2026-10-14"
+    },
+    "/images/editorial/desert-quiver-camp/property-5.jpg": {
+      "source_page": "https://www.flickr.com/photos/76319087@N08/40627810712",
+      "license": "CC0 1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "creator": "www.wbayer.com - www.facebook.com/wbayercom",
+      "creator_url": "https://www.flickr.com/photos/76319087@N08",
+      "alt": "Desert Quiver Camp, Namibia",
+      "date": null,
+      "indexed_on": "2018-11-09T10:31:06.910129Z",
+      "property": true,
+      "exact_subject_evidence": "Desert Quiver Camp | Un endroit d'une grande beauté, éloigné… | Flickr; Flickr shows CC0 (Public Domain Dedication).",
+      "source_title": "Desert Quiver Camp",
+      "dimensions": {
+        "width": 1024,
+        "height": 578
+      },
+      "reuse_note": "CC0 dedication shown on live Flickr page.",
+      "original_image_url": "https://live.staticflickr.com/4615/40627810712_893e1d5420_b.jpg",
+      "sha256": "120353f752de1a8e441d52eac96d00020ff8e93fba84eb31fde3e311456e883b",
+      "subject": "Desert Quiver Camp",
+      "checked_at": "2026-10-14"
+    },
+    "/images/editorial/desert-quiver-camp/property-6.jpg": {
+      "source_page": "https://www.flickr.com/photos/76319087@N08/40669838441",
+      "license": "CC0 1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "creator": "www.wbayer.com - www.facebook.com/wbayercom",
+      "creator_url": "https://www.flickr.com/photos/76319087@N08",
+      "alt": "Desert Quiver Camp, Namibia",
+      "date": null,
+      "indexed_on": "2020-03-18T05:39:42.561619Z",
+      "property": true,
+      "exact_subject_evidence": "Desert Quiver Camp | Un endroit d'une grande beauté, éloigné… | Flickr; Flickr shows CC0 (Public Domain Dedication).",
+      "source_title": "Desert Quiver Camp",
+      "dimensions": {
+        "width": 1024,
+        "height": 644
+      },
+      "reuse_note": "CC0 dedication shown on live Flickr page.",
+      "original_image_url": "https://live.staticflickr.com/4657/40669838441_eac49c2fea_b.jpg",
+      "sha256": "bd688b7a97373376d0224e27f0e6544b1ade2a575ca318f1fafbb84d4b3eb59d",
+      "subject": "Desert Quiver Camp",
+      "checked_at": "2026-10-14"
+    },
+    "/images/editorial/amboseli-serena-safari-lodge/property-1.jpg": {
+      "source_page": "https://www.flickr.com/photos/23401669@N00/7793471050",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "creator": "Son of Groucho",
+      "creator_url": "https://www.flickr.com/photos/23401669@N00",
+      "alt": "Entrance to Amboseli Serena Lodge, Amboseli, Kenya",
+      "date": null,
+      "indexed_on": "2020-04-13T03:48:20.931999Z",
+      "property": true,
+      "exact_subject_evidence": "Flickr page title names Amboseli Serena Lodge; page description says “Entrance” and links the Serena Amboseli hotel site; Flickr tags include amboseliserenalodge and Kenya.",
+      "source_title": "Amboseli Serena Lodge 1",
+      "dimensions": {
+        "width": 1024,
+        "height": 680
+      },
+      "reuse_note": "Commercial reuse allowed with attribution.",
+      "original_image_url": "https://live.staticflickr.com/8303/7793471050_1cf1a6200f_b.jpg",
+      "sha256": "bf043d34fbddb4f4b8a5f03c5652bb88340e5d26fe05ae09c7b2e3af4ce7acd7",
+      "subject": "Amboseli Serena Safari Lodge",
+      "checked_at": "2026-10-14"
+    },
+    "/images/editorial/amboseli-serena-safari-lodge/property-2.jpg": {
+      "source_page": "https://www.flickr.com/photos/23401669@N00/7793475228",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "creator": "Son of Groucho",
+      "creator_url": "https://www.flickr.com/photos/23401669@N00",
+      "alt": "Amboseli Serena Lodge, Amboseli, Kenya",
+      "date": null,
+      "indexed_on": "2016-11-16T20:33:29.637870Z",
+      "property": true,
+      "exact_subject_evidence": "Flickr page title names Amboseli Serena Lodge; Flickr tags include amboseliserenalodge and Kenya; page links the Serena Amboseli hotel site.",
+      "source_title": "Amboseli Serena Lodge 2",
+      "dimensions": {
+        "width": 1024,
+        "height": 680
+      },
+      "reuse_note": "Commercial reuse allowed with attribution.",
+      "original_image_url": "https://live.staticflickr.com/8446/7793475228_6b1c2e8186_b.jpg",
+      "sha256": "97f8633e795460790dec7ebdf8b6aab6db4a4970716607e3c42483404dcca78c",
+      "subject": "Amboseli Serena Safari Lodge",
+      "checked_at": "2026-10-14"
+    },
+    "/images/editorial/amboseli-serena-safari-lodge/property-3.jpg": {
+      "source_page": "https://www.flickr.com/photos/84563311@N00/3362895839",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "creator": "otherpaths",
+      "creator_url": "https://www.flickr.com/photos/84563311@N00",
+      "alt": "Serena Amboseli Safari Lodge, Kenya",
+      "date": null,
+      "indexed_on": "2020-04-24T04:58:26.460252Z",
+      "property": true,
+      "exact_subject_evidence": "Flickr page title exactly names Serena Amboseli Safari Lodge; page description locates it in Kenya.",
+      "source_title": "Serena Amboseli Safari Lodge",
+      "dimensions": {
+        "width": 1024,
+        "height": 768
+      },
+      "reuse_note": "Commercial reuse allowed with attribution; adaptations must use CC BY-SA 2.0.",
+      "original_image_url": "https://live.staticflickr.com/3611/3362895839_9798c2837a_b.jpg",
+      "sha256": "4231a24d208cdebc7493b1a4af28ec29554128262894387edbecd1001a3beafb",
+      "subject": "Amboseli Serena Safari Lodge",
+      "checked_at": "2026-10-14"
+    },
+    "/images/editorial/amboseli-serena-safari-lodge/property-4.jpg": {
+      "source_page": "https://www.flickr.com/photos/85552144@N00/5821129727",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "creator": "robgrowler",
+      "creator_url": "https://www.flickr.com/photos/85552144@N00",
+      "alt": "Room 17 at Serena Lodge, Amboseli, Kenya",
+      "date": null,
+      "indexed_on": "2020-04-16T17:09:31.045072Z",
+      "property": true,
+      "exact_subject_evidence": "Room 17, Serena Lodge | digs are awesome | Rob Growler | Flickr; Flickr shows CC BY 2.0.",
+      "source_title": "Room 17, Serena Lodge",
+      "dimensions": {
+        "width": 1024,
+        "height": 768
+      },
+      "reuse_note": "Commercial reuse allowed with attribution.",
+      "original_image_url": "https://live.staticflickr.com/3009/5821129727_cd65eb3e4b_b.jpg",
+      "sha256": "bc2f83f192b59c6764d78977e7b6e675a95d951a42d70c016a80d211d321bce4",
+      "subject": "Amboseli Serena Safari Lodge",
+      "checked_at": "2026-10-14"
     }
   },
   "listings": {
@@ -2917,12 +3283,19 @@ export const photoLibrary = {
         "gallery": []
       },
       "emerson-spice": {
-        "hero_image_url": "",
-        "hero_image_alt": "Emerson Spice",
+        "hero_image_url": "/images/editorial/emerson-spice/property-1.jpg",
+        "hero_image_alt": "Emerson Spice Hotel in Stone Town, Zanzibar",
         "replaces": [
           "/images/stock/destinations/zanzibar.jpg"
         ],
-        "gallery": []
+        "gallery": [
+          "/images/editorial/emerson-spice/property-1.jpg",
+          "/images/editorial/emerson-spice/property-2.jpg",
+          "/images/editorial/emerson-spice/property-3.jpg",
+          "/images/editorial/emerson-spice/property-4.jpg",
+          "/images/editorial/emerson-spice/property-5.jpg",
+          "/images/editorial/emerson-spice/property-6.jpg"
+        ]
       },
       "governors-camp": {
         "hero_image_url": "",
@@ -3017,12 +3390,14 @@ export const photoLibrary = {
         ]
       },
       "paraa-safari-lodge": {
-        "hero_image_url": "",
-        "hero_image_alt": "Paraa Safari Lodge",
+        "hero_image_url": "/images/editorial/paraa-safari-lodge/guest-room.jpg",
+        "hero_image_alt": "Twin guest room with balcony at Paraa Safari Lodge, photographed in 2017",
         "replaces": [
           "/images/stock/destinations/murchison-falls-national-park.jpg"
         ],
-        "gallery": []
+        "gallery": [
+          "/images/editorial/paraa-safari-lodge/guest-room.jpg"
+        ]
       },
       "riad-rosemary": {
         "hero_image_url": "",
@@ -3124,16 +3499,28 @@ export const photoLibrary = {
         ]
       },
       "desert-quiver-camp": {
-        "hero_image_url": "",
-        "hero_image_alt": "Desert Quiver Camp",
+        "hero_image_url": "/images/editorial/desert-quiver-camp/property-1.jpg",
+        "hero_image_alt": "Desert Quiver Camp, Namibia",
         "replaces": [],
-        "gallery": []
+        "gallery": [
+          "/images/editorial/desert-quiver-camp/property-1.jpg",
+          "/images/editorial/desert-quiver-camp/property-2.jpg",
+          "/images/editorial/desert-quiver-camp/property-3.jpg",
+          "/images/editorial/desert-quiver-camp/property-4.jpg",
+          "/images/editorial/desert-quiver-camp/property-5.jpg",
+          "/images/editorial/desert-quiver-camp/property-6.jpg"
+        ]
       },
       "amboseli-serena-safari-lodge": {
-        "hero_image_url": "",
-        "hero_image_alt": "Amboseli Serena Safari Lodge",
+        "hero_image_url": "/images/editorial/amboseli-serena-safari-lodge/property-1.jpg",
+        "hero_image_alt": "Entrance to Amboseli Serena Lodge, Amboseli, Kenya",
         "replaces": [],
-        "gallery": []
+        "gallery": [
+          "/images/editorial/amboseli-serena-safari-lodge/property-1.jpg",
+          "/images/editorial/amboseli-serena-safari-lodge/property-2.jpg",
+          "/images/editorial/amboseli-serena-safari-lodge/property-3.jpg",
+          "/images/editorial/amboseli-serena-safari-lodge/property-4.jpg"
+        ]
       }
     },
     "travel_articles": {

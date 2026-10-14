@@ -1458,9 +1458,16 @@
         }
       ],
       "last_researched": "2026-10-11",
-      "hero_image_url": "",
-      "hero_image_alt": "Emerson Spice",
-      "gallery": []
+      "hero_image_url": "/images/editorial/emerson-spice/property-1.jpg",
+      "hero_image_alt": "Emerson Spice Hotel in Stone Town, Zanzibar",
+      "gallery": [
+        "/images/editorial/emerson-spice/property-1.jpg",
+        "/images/editorial/emerson-spice/property-2.jpg",
+        "/images/editorial/emerson-spice/property-3.jpg",
+        "/images/editorial/emerson-spice/property-4.jpg",
+        "/images/editorial/emerson-spice/property-5.jpg",
+        "/images/editorial/emerson-spice/property-6.jpg"
+      ]
     },
     {
       "region_id": 14,
@@ -1857,9 +1864,11 @@
         }
       ],
       "last_researched": "2026-10-11",
-      "hero_image_url": "",
-      "hero_image_alt": "Paraa Safari Lodge",
-      "gallery": []
+      "hero_image_url": "/images/editorial/paraa-safari-lodge/guest-room.jpg",
+      "hero_image_alt": "Twin guest room with balcony at Paraa Safari Lodge, photographed in 2017",
+      "gallery": [
+        "/images/editorial/paraa-safari-lodge/guest-room.jpg"
+      ]
     },
     {
       "region_id": 17,
@@ -2304,7 +2313,7 @@
       "location_name": "Near Sesriem, Namibia",
       "listing_summary": "Air-conditioned self-catering chalets five kilometres from the Sesriem entrance.",
       "detail_intro": "Desert Quiver Camp provides a self-catering alternative near Sesriem, five kilometres from the Sossusvlei entrance gate. Its twenty-four units combine air-conditioned twin bedrooms and en-suite bathrooms with patios, kitchenettes and barbecue areas. Granite outcrops and desert views shape the setting, while private parking makes the layout particularly suited to a self-drive Namibia itinerary.\n\nThe main building has a bar and swimming pool, and communal boma areas offer space for groups. Travellers who prefer not to cook can arrange meals at nearby Sossusvlei Lodge, but the operator explicitly states that guests need their own transport for that arrangement. This is a good fit for visitors who want more control over meals and daily timing while staying close to Sesriem. It is outside the park, so sunrise access must still be planned around current gate rules. Compare the complete cost of food, activities and driving with a catered lodge rather than using the room price alone.",
-      "practical_info": "Bring your own vehicle or arrange a transport plan before booking: the operator states that shuttles and transfers to the nearby lodge restaurant are unavailable. The kitchenette includes a hob and fridge, with utensil boxes supplied through reception under a refundable-deposit arrangement. Confirm the current deposit and equipment list so you know what to pack.\n\nFresh food can be pre-ordered or ordered at reception before the stated cutoff; submit dietary preferences and supplies early if arriving late. Ask about meal bookings at Sossusvlei Lodge and travel time after dark. A sleeper couch can accommodate two small children under the operator's published conditions, but verify ages and occupancy directly. Pool use is for paying guests and children require supervision. Confirm current Wi-Fi arrangements, as the operator's homepage and factsheet describe access differently. This entry remains a draft pending approved real photographs of the chalets, shared areas and setting.",
+      "practical_info": "Bring your own vehicle or arrange a transport plan before booking: the operator states that shuttles and transfers to the nearby lodge restaurant are unavailable. The kitchenette includes a hob and fridge, with utensil boxes supplied through reception under a refundable-deposit arrangement. Confirm the current deposit and equipment list so you know what to pack.\n\nFresh food can be pre-ordered or ordered at reception before the stated cutoff; submit dietary preferences and supplies early if arriving late. Ask about meal bookings at Sossusvlei Lodge and travel time after dark. A sleeper couch can accommodate two small children under the operator's published conditions, but verify ages and occupancy directly. Pool use is for paying guests and children require supervision. Confirm current Wi-Fi arrangements, as the operator's homepage and factsheet describe access differently.",
       "amenities": [
         "Air-conditioned chalets",
         "En-suite bathrooms",
@@ -2335,9 +2344,16 @@
       "region_id": 16,
       "country_id": 48,
       "attraction_id": 60,
-      "hero_image_url": "",
-      "hero_image_alt": "Desert Quiver Camp",
-      "gallery": []
+      "hero_image_url": "/images/editorial/desert-quiver-camp/property-1.jpg",
+      "hero_image_alt": "Desert Quiver Camp, Namibia",
+      "gallery": [
+        "/images/editorial/desert-quiver-camp/property-1.jpg",
+        "/images/editorial/desert-quiver-camp/property-2.jpg",
+        "/images/editorial/desert-quiver-camp/property-3.jpg",
+        "/images/editorial/desert-quiver-camp/property-4.jpg",
+        "/images/editorial/desert-quiver-camp/property-5.jpg",
+        "/images/editorial/desert-quiver-camp/property-6.jpg"
+      ]
     },
     {
       "slug": "amboseli-serena-safari-lodge",
@@ -2373,9 +2389,14 @@
       "region_id": 14,
       "country_id": 46,
       "attraction_id": 49,
-      "hero_image_url": "",
-      "hero_image_alt": "Amboseli Serena Safari Lodge",
-      "gallery": []
+      "hero_image_url": "/images/editorial/amboseli-serena-safari-lodge/property-1.jpg",
+      "hero_image_alt": "Entrance to Amboseli Serena Lodge, Amboseli, Kenya",
+      "gallery": [
+        "/images/editorial/amboseli-serena-safari-lodge/property-1.jpg",
+        "/images/editorial/amboseli-serena-safari-lodge/property-2.jpg",
+        "/images/editorial/amboseli-serena-safari-lodge/property-3.jpg",
+        "/images/editorial/amboseli-serena-safari-lodge/property-4.jpg"
+      ]
     }
   ],
   "activities": [
