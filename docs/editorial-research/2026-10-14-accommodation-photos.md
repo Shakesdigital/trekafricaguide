@@ -50,3 +50,10 @@ Collections shorter than six remain incomplete. Existing drafts stay drafts. Pho
 Wetu Sabyinyo and Desert Quiver media-library terms require an agreement with the image owner, so download availability was not treated as a license. Dar Said’s mksfca room photo is CC BY-NC-ND and Stephen Sizer’s Paraa image is all-rights-reserved; neither was reused. Camp Okavango’s media library requires agent access; no account or agreement was created.
 
 Brief data/diff inspection only; no tests, browser QA or local build. Deployment evidence to follow.
+
+
+## 16:30 Kampala follow-up — deployment and report
+
+Confirmed public HTML on 14 October: Emerson Spice and Paraa Safari Lodge both returned HTTP 200 and contained all six and one expected new image paths respectively. First JPEG asset for each also returned HTTP 200 with image/jpeg content type. This is independent deployment evidence for photo commit 445cc8b; no browser QA, tests or build were run.
+
+Report sent to the authorized owner address; Gmail SENT ID `1a13aa065b0071a3`. Drafts remain unchanged: Desert Quiver six photos pending final editorial review; Amboseli Serena four photos needs two more. The parent photo task remains in progress. Next bounded step: Desert Quiver final editorial review using existing sources and photos.

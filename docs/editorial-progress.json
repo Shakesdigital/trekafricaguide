@@ -1,7 +1,7 @@
 {
   "updated_at": "2026-10-14",
   "timezone": "Africa/Kampala",
-  "next_scheduled_start": "2026-10-14T16:30:00+03:00",
+  "next_scheduled_start": "2026-10-14T19:30:00+03:00",
   "cadence_hours": 3,
   "active_task": {
     "id": "accommodation-property-photos",
@@ -14,8 +14,8 @@
       "Keep incomplete new guides as drafts, complete their editorial review before publication.",
       "Send owner a confirmed progress report and save its send receipt."
     ],
-    "last_completed_action": "Added 17 licensed photos to four accommodation records; commit 445cc8b successfully pushed to main.",
-    "next_action": "Confirm deployed gallery images on Emerson Spice (six) and Paraa Safari Lodge (one), then record the result and email the pending photo-batch report. Do not redo image research for these files.",
+    "last_completed_action": "Confirmed live Emerson Spice six image paths and Paraa one image path, both pages HTTP 200 and first JPEG assets HTTP 200; emailed report 1a13aa065b0071a3.",
+    "next_action": "Finish Desert Quiver Camp final editorial review using saved sources and six verified property photos. Check factual completeness and canonical relationships; publish only if ready, then confirm live and report. Do not repeat photo research.",
     "subtasks": [
       {
         "id": "source-four-property-batch",
@@ -30,8 +30,18 @@
       },
       {
         "id": "confirm-live-and-report",
-        "status": "review",
-        "note": "Push confirmed; last live check predated completed upload. No completion email sent for this batch yet."
+        "status": "complete",
+        "note": "Live HTML includes all seven expected image paths across two pages; first JPEG asset per page HTTP 200. Gmail SENT 1a13aa065b0071a3. No tests/build/browser QA."
+      },
+      {
+        "id": "desert-quiver-final-review",
+        "status": "queued",
+        "acceptance_criteria": [
+          "Review saved factual evidence, copy and canonical relationships.",
+          "Retain six licensed exact-property photos and credits.",
+          "If editorially complete, publish and confirm live separately from push; otherwise checkpoint exact remaining gaps.",
+          "Send owner report."
+        ]
       },
       {
         "id": "remaining-photo-gaps",
@@ -199,5 +209,6 @@
     "After quota interruption resume at next eligible scheduled run; do not assume immediate credit-reset wakeup.",
     "No routine tests/builds or repeated broad audits."
   ],
-  "next_task_selection": "After current task is complete, prioritize evidenced accuracy, usability and discoverability gaps; record rationale."
+  "next_task_selection": "After current task is complete, prioritize evidenced accuracy, usability and discoverability gaps; record rationale.",
+  "last_run": "2026-10-14T16:30:00+03:00"
 }
