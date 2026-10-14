@@ -1,0 +1,203 @@
+{
+  "updated_at": "2026-10-14",
+  "timezone": "Africa/Kampala",
+  "next_scheduled_start": "2026-10-14T16:30:00+03:00",
+  "cadence_hours": 3,
+  "active_task": {
+    "id": "accommodation-property-photos",
+    "status": "in_progress",
+    "objective": "Complete verified exact-property photo collections for the accommodation records without using attraction substitutes or fabricated hotel images. Target six distinct reusable photographs per property.",
+    "acceptance_criteria": [
+      "Verify exact property identity and reuse rights; retain creator/source/license and alt text.",
+      "Record remaining photo shortfalls honestly; resolve required review before completion.",
+      "Publish ready existing-page updates and verify live pages separately from push.",
+      "Keep incomplete new guides as drafts, complete their editorial review before publication.",
+      "Send owner a confirmed progress report and save its send receipt."
+    ],
+    "last_completed_action": "Added 17 licensed photos to four accommodation records; commit 445cc8b successfully pushed to main.",
+    "next_action": "Confirm deployed gallery images on Emerson Spice (six) and Paraa Safari Lodge (one), then record the result and email the pending photo-batch report. Do not redo image research for these files.",
+    "subtasks": [
+      {
+        "id": "source-four-property-batch",
+        "status": "complete",
+        "commit": "445cc8b",
+        "counts": {
+          "paraa-safari-lodge": 1,
+          "emerson-spice": 6,
+          "desert-quiver-camp": 6,
+          "amboseli-serena-safari-lodge": 4
+        }
+      },
+      {
+        "id": "confirm-live-and-report",
+        "status": "review",
+        "note": "Push confirmed; last live check predated completed upload. No completion email sent for this batch yet."
+      },
+      {
+        "id": "remaining-photo-gaps",
+        "status": "queued",
+        "note": "Select one property or one small collection per run. Preserve prior rejected-source evidence; require owner agreement for Wetu libraries."
+      }
+    ],
+    "review_items": [
+      "Desert Quiver Camp has six photos but remains draft pending final editorial review.",
+      "Amboseli Serena remains draft with four photos; needs at least two more."
+    ],
+    "files": [
+      "content/editorial-overrides.json",
+      "src/lib/photo-library.js",
+      "public/photo-library.js",
+      "docs/editorial-research/2026-10-14-accommodation-photos.md"
+    ],
+    "research_cache": "C:/Users/TECH DEAL/.codex/artifacts/trek-photo-audit",
+    "photo_inventory": [
+      {
+        "slug": "camp-okavango",
+        "count": 0,
+        "status": "existing published"
+      },
+      {
+        "slug": "casa-del-papa",
+        "count": 1,
+        "status": "existing published"
+      },
+      {
+        "slug": "dar-said",
+        "count": 0,
+        "status": "existing published"
+      },
+      {
+        "slug": "desert-luxury-camp",
+        "count": 0,
+        "status": "existing published"
+      },
+      {
+        "slug": "emerson-spice",
+        "count": 6,
+        "status": "existing published"
+      },
+      {
+        "slug": "governors-camp",
+        "count": 0,
+        "status": "existing published"
+      },
+      {
+        "slug": "hilton-cabo-verde-sal-resort",
+        "count": 0,
+        "status": "existing published"
+      },
+      {
+        "slug": "kruger-shalati",
+        "count": 1,
+        "status": "existing published"
+      },
+      {
+        "slug": "les-paletuviers",
+        "count": 0,
+        "status": "existing published"
+      },
+      {
+        "slug": "maribela-hotel",
+        "count": 0,
+        "status": "existing published"
+      },
+      {
+        "slug": "marriott-mena-house-cairo",
+        "count": 1,
+        "status": "existing published"
+      },
+      {
+        "slug": "mfuwe-lodge",
+        "count": 1,
+        "status": "existing published"
+      },
+      {
+        "slug": "mount-nelson-a-belmond-hotel",
+        "count": 6,
+        "status": "existing published"
+      },
+      {
+        "slug": "ol-tukai-lodge-amboseli",
+        "count": 1,
+        "status": "existing published"
+      },
+      {
+        "slug": "paraa-safari-lodge",
+        "count": 1,
+        "status": "existing published"
+      },
+      {
+        "slug": "riad-rosemary",
+        "count": 0,
+        "status": "existing published"
+      },
+      {
+        "slug": "ridge-royal-hotel",
+        "count": 0,
+        "status": "existing published"
+      },
+      {
+        "slug": "sabyinyo-silverback-lodge",
+        "count": 0,
+        "status": "existing published"
+      },
+      {
+        "slug": "sanctuary-gorilla-forest-camp",
+        "count": 0,
+        "status": "existing published"
+      },
+      {
+        "slug": "serengeti-serena-safari-lodge",
+        "count": 1,
+        "status": "existing published"
+      },
+      {
+        "slug": "sossusvlei-lodge",
+        "count": 1,
+        "status": "existing published"
+      },
+      {
+        "slug": "terres-touareg-guest-house",
+        "count": 0,
+        "status": "existing published"
+      },
+      {
+        "slug": "the-place-resort-tokeh",
+        "count": 0,
+        "status": "existing published"
+      },
+      {
+        "slug": "victoria-falls-hotel",
+        "count": 5,
+        "status": "existing published"
+      },
+      {
+        "slug": "red-chilli-rest-camp",
+        "count": 0,
+        "status": "draft"
+      },
+      {
+        "slug": "buhoma-community-rest-camp",
+        "count": 1,
+        "status": "draft"
+      },
+      {
+        "slug": "desert-quiver-camp",
+        "count": 6,
+        "status": "draft"
+      },
+      {
+        "slug": "amboseli-serena-safari-lodge",
+        "count": 4,
+        "status": "draft"
+      }
+    ]
+  },
+  "rules": [
+    "One active parent task; finish started/review items before choosing new work.",
+    "Checkpoint before expensive operations and after completed changes.",
+    "After quota interruption resume at next eligible scheduled run; do not assume immediate credit-reset wakeup.",
+    "No routine tests/builds or repeated broad audits."
+  ],
+  "next_task_selection": "After current task is complete, prioritize evidenced accuracy, usability and discoverability gaps; record rationale."
+}

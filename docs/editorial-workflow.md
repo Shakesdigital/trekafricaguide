@@ -2,13 +2,13 @@
 
 Owner's standing brief, updated 11 October 2026. Manage contributions through the existing chat. The owner authorizes autonomous content selection, factual content edits, Git commits and pushes to the website repository. Preserve the existing visual layout. No routine tests or builds; inspect changed material. Do not claim publication until confirmed.
 
-## Collaboration every six hours
+## Collaboration every three hours
 
-Schedule: every six hours anchored at 11:00 Africa/Kampala — 11:00, 17:00, 23:00 and 05:00. Announce the chosen work before making changes and proceed without waiting for owner approval. Complete a manageable researched page, related group or maintenance improvement each run. Rotate destinations, attractions, activities, stays, listing cards and travel insights for solo, adventure, safari, budget, mid-range and cultural travelers. Preserve the current display style.
+Schedule: every three hours, next start 14 October 2026 at 16:30 Africa/Kampala, then 19:30, 22:30, 01:30, 04:30, 07:30, 10:30 and 13:30. Announce the chosen work before making changes and proceed without waiting for owner approval. Complete a manageable researched page, related group or maintenance improvement each run. Rotate destinations, attractions, activities, stays, listing cards and travel insights for solo, adventure, safari, budget, mid-range and cultural travelers. Preserve the current display style.
 
 Publish evidence-backed, complete content even when optional owner input would improve it, then request that input through the progress report. Unsupported claims, unlicensed images and broken records are not made publishable by a request for later review. Report live links versus drafts/pushed changes, image counts, sources, blockers and next priority. Send the report and a reminder about review areas to the owner's configured email recipient using the connected Gmail account; the address is held in the private automation configuration. Record send success locally and do not claim delivery when the tool fails.
 
-The existing thread automation remains local. Its six-hour schedule does not establish execution while the computer/app is off; a cloud execution path is not configured. Keep that limitation explicit. Prioritize quality over quotas and respect usage limits.
+The existing thread automation remains local. Its three-hour schedule does not establish execution while the computer/app is off; a cloud execution path is not configured. Keep that limitation explicit. Prioritize quality over quotas and respect usage limits.
 
 ## Publishing
 
@@ -119,10 +119,18 @@ Prepared six-image collections for eight attractions, two accommodations and the
 - Accommodation pages: Other Nearby Accommodations, then Nearby Attractions. Exclude the current stay and drafts; use recorded attraction/stay relationships, not country-wide proximity guesses. Keep an honest empty state until nearby guides exist.
 - Homepage includes Home navigation, featured attractions, stays and travel insights, with View More archive links.
 - Discover candidates through TripAdvisor, Expedia, Kayak, Booking.com, Hotels.com and Safari.com as well as official tourism/property/operator sources. Verify location and practical routes before assigning relationships, cross-check material facts and date review evidence. OTA presence is not permission to reuse photos or copy text. Preserve exact Stay22 booking destinations.
-- Follow the six-hour cadence anchored at 11:00 Kampala. Research sources remain in the editorial records even where source panels are hidden.
+- Follow the three-hour cadence anchored at 16:30 Kampala. Research sources remain in the editorial records even where source panels are hidden.
 
 ## Accommodation photography and homepage search — 13 October 2026
 
 Accommodation heroes and galleries must depict the actual named property. Remove attraction/destination substitutes; retain a neutral no-photo state where identity and reuse rights cannot be verified. Do not generate imagined hotel rooms, pools or buildings. Target six distinct property photos and keep a per-property shortfall ledger for owner contributions. This supersedes earlier permission for destination-context accommodation imagery.
 
 Keep homepage featured attraction and stay carousels populated from published records; prioritize actual-property photos for stays. The homepage search covers destinations, attractions, activities, accommodations and travel insights, linking directly to internal guides. No check-in/check-out, guest or region booking fields in this ribbon.
+
+## Property-photo progress — 14 October 2026
+
+See [accommodation photo additions](editorial-research/2026-10-14-accommodation-photos.md). Added 17 verified real-property photos: Paraa 1, Emerson Spice 6, Desert Quiver 6, Amboseli Serena 4. Desert Quiver and Amboseli Serena remain drafts. Fourteen accommodation records still need a first usable property photo. Openverse discovery followed by original Flickr license checks succeeded where exact Commons searches had failed. Do not repeat rejected Wetu downloads without owner agreement, NC-only Flickr licenses, namesake properties or wildlife-only images. Prioritize Desert Quiver final editorial review and the remaining photo gaps.
+
+## Checkpoint-first execution — 14 October 2026
+
+Read docs/editorial-progress.json first. Complete one bounded subtask per run, resuming active and review work before new tasks. Save the exact next action, sources, files, commit/deployment state and blockers after each meaningful step. Finish the parent task before selecting another by urgent user value and discoverability. If credits become unavailable, resume the checkpoint at the next eligible scheduled run after credits return; no immediate reset-trigger wakeup is configured. Do not treat optional owner feedback as a new approval gate. This replaces older batch-size and schedule instructions.
