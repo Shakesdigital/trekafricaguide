@@ -17,6 +17,12 @@ const { story } = Astro.props;
     <header class="article-heading"><p class="eyebrow">{story.category}{story.read_time ? ` · ${story.read_time}` : ''}</p><h1>{story.title}</h1><p class="article-deck">{story.excerpt}</p></header>
     <ImageSlot src={story.hero_image_url} alt={story.hero_image_alt || story.title} class="article-cover" />
     {story.video_url && <VideoStory url={story.video_url} title={story.title} />}
-    <div class="article-body rich-text" set:html={sanitizeRichText(story.body || '')} />
+    <div class="article-body rich-text" set:html={sanitizeRichText(story.body || '', { allowImages: true })} />
   </div></section>
 </SiteLayout>
+
+<style>
+  .article-body :global(figure) { margin: 2rem 0; }
+  .article-body :global(img) { display: block; max-width: 100%; width: 100%; height: auto; max-height: 44rem; object-fit: contain; border-radius: .75rem; }
+  .article-body :global(figcaption) { margin-top: .6rem; font-size: .8rem; line-height: 1.6; color: var(--muted); }
+</style>

@@ -1,0 +1,10 @@
+---
+const { label = 'Explore more', regions = false } = Astro.props;
+---
+<div class:list={['listing-carousel', 'card-carousel', { 'card-carousel--regions': regions }]} data-listing-carousel role="region" aria-label={label} aria-roledescription="carousel">
+  <div class="card-carousel__controls" data-carousel-controls hidden>
+    <button class="listing-carousel__button" type="button" data-carousel-prev aria-label={`Previous ${label.toLowerCase()}`}>←</button>
+    <button class="listing-carousel__button" type="button" data-carousel-next aria-label={`Next ${label.toLowerCase()}`}>→</button>
+  </div>
+  <div class="listing-carousel__track" data-carousel-track tabindex="0" aria-label={`${label}: scroll or use the arrow buttons`}><slot /></div>
+</div>

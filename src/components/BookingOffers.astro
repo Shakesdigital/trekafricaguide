@@ -1,23 +1,32 @@
 ---
-import { offerPresentation } from '../lib/booking.mjs';
-const { listing, offers = [], affiliateId = '6a809892f76b8b75f2a2e6a4' } = Astro.props;
-const views = offers.map((offer) => offerPresentation({ listing, offer, affiliateId })).filter(Boolean);
+import { bookingPresentations } from '../lib/booking.mjs';
+const { listing, offers = [], affiliateId } = Astro.props;
+const views = bookingPresentations(listing, offers, { affiliateId });
 ---
-{views.length > 0 && (
-  <div class="booking-panel">
-    <p class="booking-panel__eyebrow">External booking options</p>
-    <h3>Continue on a provider site</h3>
-    <p>Trek Africa Guide does not take payment on this page. Check live availability, rates, permits, inclusions, and terms on the provider site.</p>
-    <div class="stack-grid">
-      {views.map((view) => (
-        <a class="button button--full" href={view.href} target={view.target} rel={view.rel}>
-          {view.label}
-        </a>
-      ))}
+<div class="booking-panel">
+  <h2 class="booking-panel__title">Booking option</h2>
+  {views.length ? <>
+    <div class="booking-panel__actions">
+      {views.map((view) => <div>
+        <a class="button booking-panel__cta" href={view.href} target={view.target} rel={view.rel}>{view.label} <span aria-hidden="true">↗</span></a>
+        {(view.notes || view.operator) && <details class="booking-panel__details"><summary>About this option</summary>
+          <p><strong>{view.title}</strong></p>
+          {view.operator && <p>Operated by {view.operator}</p>}
+          {view.reviewLabel && <p><small>{view.reviewLabel}</small></p>}
+          {view.notes && <p>{view.notes}</p>}
+        </details>}
+      </div>)}
     </div>
-    <ul class="booking-trust">
-      <li>{views[0].disclosure}</li>
-      <li>Provider terms, cancellation rules, and live rates can change.</li>
-    </ul>
-  </div>
-)}
+    <p class="booking-panel__terms">Check current availability, inclusions, permits and cancellation terms before booking.</p>
+  </> : <p>A verified booking link for this specific listing is not yet available.</p>}
+</div>
+<style>
+  .booking-panel { position: sticky; top: 7rem; max-height: calc(100dvh - 8rem); overflow-y: auto; }
+  .booking-panel__title { margin: 0 0 1rem; font-size: 1.4rem; }
+  .booking-panel__actions { display: grid; grid-template-columns: minmax(0, 1fr); gap: 1rem; }
+  .booking-panel .booking-panel__cta { display: flex; width: 100%; min-height: 3.1rem; height: auto; padding: .85rem 1rem; border-radius: .55rem; box-sizing: border-box; line-height: 1.4; white-space: normal; overflow-wrap: normal; }
+  .booking-panel__terms { font-size: .85rem; line-height: 1.6; margin: 1rem 0 0; color: var(--muted); }
+  .booking-panel__details { margin-top: .85rem; font-size: .85rem; }
+  .booking-panel__details summary { cursor: pointer; font-weight: 700; }
+  @media (max-width: 819px) { .booking-panel { position: static; max-height: none; overflow: visible; } }
+</style>

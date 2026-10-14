@@ -2,6 +2,8 @@
 // Reads public Supabase tables, validates the, and applies publication
 // so only published, currently visible records reach the page templates.
 
+import { readFile } from 'node:fs/promises';
+import { resolve } from 'node:path';
 import { createPublicClient } from './supabase.mjs';
 
 /**
@@ -61,6 +63,87 @@ const TABLE_NAMES = [
 ];
 const OPTIONAL_NEW_TABLES = new Set(['activities', 'travel_articles']);
 
+const EDITORIAL_OVERRIDE_PATH = resolve(process.cwd(), 'content/editorial-overrides.json');
+const EDITORIAL_FIELDS = {
+  countries: new Set(['id', 'region_id', 'slug', 'name', 'hero_title', 'hero_text', 'overview', 'access_summary', 'best_time', 'planning_tips', 'hero_image_url', 'hero_image_alt', 'gallery', 'sort_order', 'status', 'published_at', 'featured']),
+  attractions: new Set(['id', 'region_id', 'country_id', 'slug', 'name', 'location_name', 'hero_image_url', 'hero_image_alt', 'gallery', 'listing_summary', 'detail_intro', 'full_description', 'getting_there', 'best_time', 'practical_info', 'highlights', 'rating', 'review_count', 'price_label', 'booking_url', 'featured', 'sort_order', 'status', 'published_at']),
+  accommodations: new Set(['id', 'region_id', 'country_id', 'attraction_id', 'slug', 'name', 'property_type', 'location_name', 'hero_image_url', 'hero_image_alt', 'gallery', 'listing_summary', 'detail_intro', 'practical_info', 'amenities', 'rating', 'review_count', 'price_label', 'booking_url', 'featured', 'sort_order', 'status', 'published_at']),
+  activities: new Set(['id', 'attraction_id', 'slug', 'name', 'location_name', 'listing_summary', 'detail_intro', 'full_description', 'highlights', 'best_time', 'practical_info', 'hero_image_url', 'hero_image_alt', 'gallery', 'booking_url', 'source_url', 'featured', 'sort_order', 'status', 'published_at', 'meta_title', 'meta_description', 'meta_image_url']),
+  travel_articles: new Set(['id', 'slug', 'title', 'category', 'region', 'country', 'excerpt', 'body', 'read_time', 'hero_image_url', 'hero_image_alt', 'video_url', 'source_url', 'featured', 'sort_order', 'status', 'published_at', 'meta_title', 'meta_description', 'meta_image_url']),
+};
+for (const fields of Object.values(EDITORIAL_FIELDS)) {
+  for (const field of ['research_sources', 'last_researched', 'traveler_feedback', 'nearby_stay_options', 'source_url']) fields.add(field);
+}
+
+const REQUIRED_NEW_FIELDS = {
+  countries: ['region_id', 'name', 'hero_title', 'hero_text', 'overview'],
+  attractions: ['region_id', 'country_id', 'name', 'listing_summary', 'detail_intro'],
+  accommodations: ['region_id', 'country_id', 'name', 'listing_summary', 'detail_intro'],
+  activities: ['attraction_id', 'name', 'listing_summary'],
+  travel_articles: ['title', 'excerpt', 'body'],
+};
+
+/** Read the committed repository-managed editorial records. */
+async function readEditorialOverrides() {
+  try {
+    return JSON.parse(await readFile(EDITORIAL_OVERRIDE_PATH, 'utf8'));
+  } catch (error) {
+    throw new Error(`Failed to load required editorial overrides at ${EDITORIAL_OVERRIDE_PATH}: ${error.message}`);
+  }
+}
+
+/**
+ * Merge only editorial entity rows, keyed by id or slug, before publication filtering.
+ * Existing IDs remain owned by Supabase; new records receive build-only IDs.
+ */
+export function mergeEditorialOverrides(tables, overrides) {
+  if (!overrides || typeof overrides !== 'object' || Array.isArray(overrides)) {
+    throw new Error('Editorial overrides must be a JSON object keyed by supported table');
+  }
+  for (const table of Object.keys(overrides)) {
+    if (!Object.hasOwn(EDITORIAL_FIELDS, table)) {
+      throw new Error(`Editorial overrides cannot modify "${table}"`);
+    }
+    const entries = overrides[table];
+    if (!Array.isArray(entries)) throw new Error(`Editorial overrides for ${table} must be an array`);
+    const rows = [...(tables[table] || [])];
+    const seenSlugs = new Set();
+    for (const entry of entries) {
+      if (!entry || typeof entry !== 'object' || Array.isArray(entry)) {
+        throw new Error(`Editorial override in ${table} must be an object`);
+      }
+      for (const key of Object.keys(entry)) {
+        if (!EDITORIAL_FIELDS[table].has(key)) throw new Error(`Unsupported ${table} field: ${key}`);
+      }
+      if (typeof entry.slug !== 'string' || !/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(entry.slug)) {
+        throw new Error(`Editorial override in ${table} needs a lowercase route slug`);
+      }
+      if (seenSlugs.has(entry.slug)) throw new Error(`Duplicate editorial slug in ${table}: ${entry.slug}`);
+      seenSlugs.add(entry.slug);
+
+      const byId = entry.id == null ? -1 : rows.findIndex((row) => row.id != null && String(row.id) === String(entry.id));
+      const bySlug = rows.findIndex((row) => row.slug === entry.slug);
+      if (byId >= 0 && bySlug >= 0 && byId !== bySlug) {
+        throw new Error(`Editorial override in ${table} matches different rows by id and slug`);
+      }
+      const index = byId >= 0 ? byId : bySlug;
+      const merged = index >= 0
+        ? { ...rows[index], ...entry, id: rows[index].id }
+        : { ...entry, id: entry.id ?? `repo:${table}:${entry.slug}` };
+
+      for (const field of REQUIRED_NEW_FIELDS[table]) {
+        if (merged[field] == null || merged[field] === '') {
+          throw new Error(`Editorial record ${table}/${entry.slug} needs ${field}`);
+        }
+      }
+      if (index >= 0) rows[index] = merged;
+      else rows.push(merged);
+    }
+    tables[table] = rows;
+  }
+  return tables;
+}
+
 /**
  * Load published records from all content tables.
  * Each query uses select('*') and checks { data, error } on every result.
@@ -88,6 +171,9 @@ export async function loadPublishedTables(client, now = new Date()) {
 
     tables[table] = data;
   }
+
+  // Repository overrides affect editorial rows only and still pass through publication filtering.
+  mergeEditorialOverrides(tables, await readEditorialOverrides());
 
   // Publication filtering
   tables.regions = visibleRecords(tables.regions, now);

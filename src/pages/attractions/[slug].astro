@@ -1,7 +1,10 @@
 ---
+import EditorialText from '../../components/EditorialText.astro';
+import ResearchNotes from '../../components/ResearchNotes.astro';
 import SiteLayout from '../../layouts/SiteLayout.astro';
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import Gallery from '../../components/Gallery.astro';
+import CardCarousel from '../../components/CardCarousel.astro';
 import ListingCard from '../../components/ListingCard.astro';
 import BookingOffers from '../../components/BookingOffers.astro';
 import { getSiteModel } from '../../lib/site-model.mjs';
@@ -14,6 +17,7 @@ export async function getStaticPaths() {
 
 const model = await getSiteModel();
 const { attraction } = Astro.props;
+const linkedAttractions = model.attractions.filter((item) => item.slug !== attraction.slug);
 ---
 <SiteLayout model={model} title={attraction.name} description={attraction.listing_summary || attraction.detail_intro}>
   <section class="detail-hero">
@@ -22,23 +26,26 @@ const { attraction } = Astro.props;
       <div class="listing-head">
         <p class="eyebrow">{attraction.name} · {attraction.location_name}, {attraction.country.name}</p>
         <h1>{attraction.name}</h1>
-        <p class="detail-hero__summary">{attraction.detail_intro || attraction.listing_summary}</p>
+        
       </div>
       <Gallery images={normalizeList(attraction.gallery).length ? normalizeList(attraction.gallery) : [attraction.hero_image_url]} alt={attraction.name} />
+      
     </div>
   </section>
   <section class="section">
     <div class="container detail-grid">
       <div class="detail-main">
-        <div class="detail-section"><h2>What it is</h2><p>{attraction.full_description || attraction.listing_summary}</p></div>
+        <div class="detail-section"><EditorialText attractions={linkedAttractions} text={attraction.detail_intro || attraction.listing_summary} class="detail-hero__summary" /></div>
+        <div class="detail-section"><h2>What it is</h2><EditorialText attractions={linkedAttractions} text={attraction.full_description || attraction.listing_summary} /></div>
         <div class="detail-section"><h2>What draws people here</h2><ul class="check-list">{normalizeList(attraction.highlights).map((item) => <li>{item}</li>)}</ul></div>
-        <div class="detail-section"><h2>How to get there</h2><p>{attraction.getting_there}</p></div>
-        <div class="detail-section"><h2>Best time</h2><p>{attraction.best_time}</p></div>
-        <div class="detail-section"><h2>Planning notes</h2><p>{attraction.practical_info}</p></div>
+        <div class="detail-section"><h2>How to get there</h2><EditorialText attractions={linkedAttractions} text={attraction.getting_there} /></div>
+        <div class="detail-section"><h2>Best time</h2><EditorialText attractions={linkedAttractions} text={attraction.best_time} /></div>
+        <div class="detail-section"><h2>Planning notes</h2><EditorialText attractions={linkedAttractions} text={attraction.practical_info} /></div>
+        <ResearchNotes record={attraction} showStayCards={false} />
       </div>
       <aside class="detail-rail"><BookingOffers listing={attraction} offers={attraction.bookingOffers} /></aside>
     </div>
   </section>
-  {attraction.activities?.length > 0 && <section class="section section--alt"><div class="container"><h2>Activities done here</h2><div class="listing-grid">{attraction.activities.map((item) => <ListingCard item={{...item, cardCta: 'View Activity Details'}} type="activity" />)}</div></div></section>}
-  <section class="section section--alt"><div class="container"><h2>Nearby stays</h2><div class="listing-grid">{attraction.nearbyStays.map((item) => <ListingCard item={item} type="accommodation" />)}</div></div></section>
+  {attraction.activities?.length > 0 && <section class="section section--alt"><div class="container"><h2>Related activities</h2><CardCarousel label="Related activities">{attraction.activities.map((item) => <ListingCard item={{...item, cardCta: 'View Activity Details'}} type="activity" />)}</CardCarousel></div></section>}
+  <section class="section section--alt"><div class="container"><h2>Nearby stays</h2><CardCarousel label="Nearby stays">{attraction.nearbyStays.map((item) => <ListingCard item={item} type="accommodation" />)}</CardCarousel></div></section>
 </SiteLayout>

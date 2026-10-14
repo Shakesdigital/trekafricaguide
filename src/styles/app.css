@@ -2587,3 +2587,41 @@ img.page-hero__slot {
     background: rgba(197, 109, 61, 0.9);
     color: white;
 }
+
+/* Related guides use the same cards as listing pages, sized for the reading column. */
+.related-card-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 18rem), 1fr)); gap: 1.25rem; }
+.related-card-grid .listing-card { min-width: 0; }
+.related-card-grid .listing-card__image { aspect-ratio: 16 / 10; }
+.related-card-grid .listing-card__slot { width: 100%; height: 100%; object-fit: cover; }
+.detail-main > .detail-section:first-child > .detail-hero__summary { margin-top: 0; }
+
+@media (max-width:819px) { .detail-grid > .detail-rail { order: -1; } }
+
+/* Full-width tracks retain the same card widths as the archive grids. */
+.card-carousel { display: block; min-width: 0; }
+.card-carousel__controls { display: flex; justify-content: flex-end; gap: .65rem; margin-bottom: .8rem; }
+.card-carousel__controls[hidden] { display: none; }
+.card-carousel .listing-carousel__button { display: inline-flex; }
+.card-carousel .listing-carousel__track > * { min-width: 0; height: 100%; scroll-snap-align: start; }
+.card-carousel .listing-carousel__track { grid-auto-columns: calc((100% - 2.5rem) / 3); }
+.card-carousel--regions .listing-carousel__track { grid-auto-columns: calc((100% - 1.25rem) / 2); }
+.card-carousel .listing-carousel__track:focus-visible { outline: 2px solid var(--brand-primary); outline-offset: 4px; }
+@media (min-width: 820px) and (max-width: 1080px) {
+  .card-carousel .listing-carousel__track { grid-auto-columns: calc((100% - 1.25rem) / 2); }
+}
+@media (max-width: 819px) {
+  .card-carousel .listing-carousel__track { grid-auto-columns: 100%; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .card-carousel .listing-carousel__track { scroll-behavior: auto; }
+}
+
+.guide-search { padding: clamp(1.2rem, 3vw, 2rem); border: 1px solid var(--line-strong); border-radius: 1.2rem; background: white; box-shadow: var(--shadow); }
+.guide-search__form { display: flex; align-items: flex-end; gap: 1rem; }
+.guide-search__form label { display: grid; flex: 1; gap: .65rem; font-weight: 700; }
+.guide-search__form input { width: 100%; min-width: 0; padding: .85rem 1rem; border: 1px solid var(--line-strong); border-radius: .6rem; font: inherit; font-weight: 400; }
+.guide-search__results { list-style: none; padding: 0; margin: 1rem 0 0; max-height: 28rem; overflow-y: auto; }
+.guide-search__results a { display: grid; gap: .25rem; padding: .85rem .5rem; border-bottom: 1px solid var(--line-strong); }
+.guide-search__results small { color: var(--text-muted); }
+.guide-search [hidden] { display: none; }
+@media (max-width: 819px) { .guide-search__form { display: grid; } }

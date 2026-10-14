@@ -2,6 +2,8 @@
 import SiteLayout from '../../layouts/SiteLayout.astro';
 import ImageSlot from '../../components/ImageSlot.astro';
 import VideoStory from '../../components/VideoStory.astro';
+import AfricaFilmGallery from '../../components/AfricaFilmGallery.astro';
+import travelVideos from '../../../content/travel-videos.json';
 import { getSiteModel } from '../../lib/site-model.mjs';
 import { plainText } from '../../lib/content-html.mjs';
 const model = await getSiteModel();
@@ -17,7 +19,7 @@ const hero = model.pageSections.find((s) => s.page_key === 'travel-insights' && 
     <p class="eyebrow">{hero?.eyebrow || 'The Trek Africa journal'}</p>
     <h1>{hero?.title || 'A little closer to Africa.'}</h1>
     <p>{plainText(hero?.body) || 'Places to linger. Stories to take with you. Practical ideas for a journey that feels your own.'}</p>
-    <nav class="journal-jumps" aria-label="Explore Travel Insights"><a href="#stories">Read the stories</a><a href="#in-pictures">Africa in pictures</a>{videos.length > 0 && <a href="#watch">Watch & explore</a>}</nav>
+    <nav class="journal-jumps" aria-label="Explore Travel Insights"><a href="#stories">Read the stories</a><a href="#in-pictures">Africa in pictures</a>{travelVideos.some((film) => film.status === "approved") && <a href="#africa-films">Africa on film</a>}{videos.length > 0 && <a href="#watch">Watch & explore</a>}</nav>
   </div></section>
   <section class="section"><div class="container">
     {featured ? <div class="insights-layout">
@@ -42,6 +44,7 @@ const hero = model.pageSections.find((s) => s.page_key === 'travel-insights' && 
       </aside>
     </div> : <div><h2>Stories are on their way.</h2><p>In the meantime, explore our destination guides.</p><a class="button" href="/countries">Explore destinations</a></div>}
   </div></section>
+  <AfricaFilmGallery videos={travelVideos} />
   {videos.length > 0 && <section id="watch" class="section section--alt"><div class="container"><p class="eyebrow">Moving stories</p><h2>Watch & explore.</h2><div class="journal-video-grid">{videos.map((story) => <article><VideoStory url={story.video_url} title={story.title} /><h3><a href={story.internalUrl}>{story.title}</a></h3></article>)}</div></div></section>}
   {stories.length > 0 && <section id="in-pictures" class="section section--alt"><div class="container"><p class="eyebrow">Africa in pictures</p><h2>A place worth a closer look.</h2><div class="journal-photo-grid">{stories.filter((story) => story.hero_image_url).slice(0, 4).map((story) => <a class="journal-photo" href={story.internalUrl}><ImageSlot class="insight-image" src={story.hero_image_url} alt={story.hero_image_alt || story.title} /><span>{story.country || story.category}<strong>{story.title}</strong></span></a>)}</div></div></section>}
 </SiteLayout>

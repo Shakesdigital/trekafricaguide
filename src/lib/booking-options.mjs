@@ -2,7 +2,7 @@
 // Preserves the existing Stay22 affiliate integration. All external links are
 // validated through safeExternalUrl (rejects non-http(s) schemes).
 
-import { buildStay22Url, offerPresentation, safeExternalUrl, isOfferFresh, SUPPORTED_PROVIDERS } from './booking.mjs';
+import { bookingPresentations, DEFAULT_AFFILIATE_ID, SUPPORTED_PROVIDERS } from './booking.mjs';
 
 // ── Provider display names ──────────────────────────────────────────────────────
 
@@ -12,7 +12,6 @@ const PROVIDER_DISPLAY = {
   hotelscom: 'Hotels.com',
   vrbo: 'VRBO',
   agoda: 'Agoda',
-  tripadvisor: 'TripAdvisor',
   kayak: 'Kayak',
   getyourguide: 'GetYourGuide',
   roam: 'Roam',
@@ -33,52 +32,9 @@ const PROVIDER_DISPLAY = {
  */
 export function resolveBookingOptions(entity, options = {}) {
   if (!entity) return [];
-  const offers = entity.bookingOffers || [];
-  if (!Array.isArray(offers) || offers.length === 0) {
-    return [];
-  }
-
-  const { affiliateId, search = {}, now } = options;
-  const result = [];
-
-  for (const offer of offers) {
-    // Use offerPresentation which handles Stay22 wrapping + safe URLs
-    const presentation = offerPresentation({
-      listing: toListing(entity),
-      offer,
-      search,
-      affiliateId,
-      now,
-    });
-
-    if (!presentation) continue;
-
-    const provider = String(offer.stay22_provider || offer.provider || 'roam').toLowerCase();
-    const isDirect = offer.affiliate_supported !== true;
-
-    // If the offer is not affiliate-supported, use the direct source_url (if safe)
-    let href = presentation.href;
-    if (isDirect) {
-      const directUrl = safeExternalUrl(offer.source_url);
-      if (directUrl) {
-        href = directUrl;
-      }
-    }
-
-    result.push({
-      href,
-      label: presentation.label || offer.label || `View on ${PROVIDER_DISPLAY[provider] || provider}`,
-      provider,
-      providerDisplay: PROVIDER_DISPLAY[provider] || provider,
-      priceLabel: presentation.priceLabel || null,
-      isExternal: true,
-      rel: presentation.rel || 'nofollow noopener',
-      disclosure: presentation.disclosure,
-      affiliateSupported: !!offer.affiliate_supported,
-    });
-  }
-
-  return result;
+  return bookingPresentations(entity, entity.bookingOffers || [], options).map((view) => ({
+    ...view, isExternal: true,
+  }));
 }
 
 /**
@@ -99,7 +55,7 @@ export function getPrimaryBookingOption(entity, options = {}) {
 
 /**
  * Build a "Book Now" link object suitable for rendering in the Trip Board.
- * Falls back to a Stay22 searchbar if no specific offer exists.
+ * Exact listings never fall back to a destination search.
  *
  * @param {object} entity
  * @param {object} [options]
@@ -117,7 +73,9 @@ export function buildBookingLink(entity, options = {}) {
     };
   }
 
-  // Fallback: Stay22 searchbar based on location_name
+  if (entity?.slug && (entity?.property_type || ['activities', 'attractions', 'accommodations'].includes(entity?.routeFamily))) return null;
+
+  // Destination searches remain explicitly labelled as searches.
   const fallbackUrl = buildSearchbarUrl(entity, options);
   if (fallbackUrl) {
     return {
@@ -146,7 +104,7 @@ export function buildSearchbarUrl(entity, options = {}) {
   // requires a listing model; instead we build the URL directly
   // Using the same pattern as Stay22LinkBuilder::searchbar
   const params = new URLSearchParams({
-    aid: options.affiliateId || process.env.STAY22_AFFILIATE_ID || '',
+    aid: options.affiliateId || DEFAULT_AFFILIATE_ID,
     address,
     campaign: 'searchbar',
   });
@@ -159,26 +117,6 @@ export function buildSearchbarUrl(entity, options = {}) {
   }
 
   return `https://www.stay22.com/allez/searchbar?${params.toString()}`;
-}
-
-// ── Helpers ────────────────────────────────────────────────────────────────────
-
-/**
- * Convert a site-model entity to the shape expected by booking.mjs offerPresentation.
- */
-function toListing(entity) {
-  // Determine property_type from entity shape
-  let propertyType = 'accommodation';
-  if (entity.bookingOffers) propertyType = 'accommodation';
-  // Could extend to detect 'attraction' or 'activity' but booking.mjs handles it
-
-  return {
-    slug: entity.slug || '',
-    name: entity.name || entity.title || '',
-    property_type: propertyType,
-    location_name: entity.location_name || '',
-    booking_url: entity.booking_url || null,
-  };
 }
 
 export { PROVIDER_DISPLAY, SUPPORTED_PROVIDERS };

@@ -1,0 +1,6 @@
+---
+import { escapeEditorialText, linkAttractionMentions } from '../lib/editorial-links.mjs';
+const { text = '', class: className, attractions = [] } = Astro.props;
+const paragraphs = String(text || '').split(/\n\s*\n/).map((part) => part.trim()).filter(Boolean);
+---
+{paragraphs.map((paragraph) => <p class={className} set:html={linkAttractionMentions(escapeEditorialText(paragraph), attractions)} />)}

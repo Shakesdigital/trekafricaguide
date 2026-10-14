@@ -224,18 +224,22 @@ export function buildSiteModel(tables, now = new Date()) {
 
   // Compute nearby stays (linked to this attraction)
   for (const attraction of attractions) {
-    const nearby = accommodations
-      .filter((s) => s.attraction_id === attraction.id)
-      .slice(0, 3);
+    const editorialStays = Array.isArray(attraction.nearby_stay_options) ? attraction.nearby_stay_options : [];
+    const nameKey = (name) => String(name || '').toLowerCase().replace(/[^a-z0-9]/g, '');
+    const nearby = accommodations.filter((s) => s.attraction_id === attraction.id || editorialStays.some((option) => option?.slug === s.slug || (option?.name && nameKey(option.name) === nameKey(s.name))));
     attraction.nearbyStays = nearby;
   }
 
-  // Compute nearby attractions for accommodations (attractions in same country)
+  // Use published attraction/stay relationships, not country-wide proximity guesses.
   for (const accommodation of accommodations) {
-    const nearby = attractions
-      .filter((a) => a.country_id === accommodation.country_id)
-      .slice(0, 3);
-    accommodation.nearbyAttractions = nearby;
+    accommodation.nearbyAttractions = attractions.filter((attraction) =>
+      attraction.nearbyStays.some((stay) => stay.id === accommodation.id));
+    const options = Array.isArray(accommodation.nearby_stay_options) ? accommodation.nearby_stay_options : [];
+    accommodation.nearbyAccommodations = accommodations.filter((stay) =>
+      stay.id !== accommodation.id && (
+        options.some((option) => option?.slug === stay.slug) ||
+        accommodation.nearbyAttractions.some((attraction) => attraction.nearbyStays.some((item) => item.id === stay.id))
+      ));
   }
 
   // Build settings from site_settings
