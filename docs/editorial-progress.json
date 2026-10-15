@@ -1,7 +1,7 @@
 {
   "updated_at": "2026-10-15",
   "timezone": "Africa/Kampala",
-  "next_scheduled_start": "2026-10-15T07:30:00+03:00",
+  "next_scheduled_start": "2026-10-15T10:30:00+03:00",
   "cadence_hours": 3,
   "active_task": {
     "id": "accommodation-property-photos",
@@ -14,8 +14,8 @@
       "Keep incomplete new guides as drafts, complete their editorial review before publication.",
       "Send owner a confirmed progress report and save its send receipt."
     ],
-    "last_completed_action": "Desert Quiver desk review: checked official homepage, retained six licensed photos and draft status, qualified gate distance; identified missing verified OTA booking destination and price-category evidence.",
-    "next_action": "Continue Desert Quiver review: verify an exact OTA property URL for Stay22, support or revise midrange positioning using official rates, and add clearly attributed traveler perspectives. Reuse official homepage and existing photo manifest; verify canonical IDs 16/48/60 before publication.",
+    "last_completed_action": "Saved exact Desert Quiver Booking.com /hotel/ destination in shared Stay22 registry, based on indexed property identity cross-check. Direct fetch challenged; no rate or attribution claims.",
+    "next_action": "Finish Desert Quiver price positioning using official rates, add attributed traveler context, and verify canonical IDs 16/48/60. Booking destination is now recorded; do not repeat OTA search. Keep draft until ready, then publish and confirm live.",
     "subtasks": [
       {
         "id": "source-four-property-batch",
@@ -51,7 +51,7 @@
       }
     ],
     "review_items": [
-      "Desert Quiver: six licensed photos ready; pending exact OTA destination, price positioning, attributed traveler context and final canonical relationship check.",
+      "Desert Quiver: six licensed photos and exact OTA destination ready; pending price positioning, traveler context and canonical relationship check.",
       "Amboseli Serena remains draft with four photos; needs at least two more."
     ],
     "files": [
@@ -211,5 +211,5 @@
     "No routine tests/builds or repeated broad audits."
   ],
   "next_task_selection": "After current task is complete, prioritize evidenced accuracy, usability and discoverability gaps; record rationale.",
-  "last_run": "2026-10-15T06:59:45+03:00"
+  "last_run": "2026-10-15T07:32:16+03:00"
 }

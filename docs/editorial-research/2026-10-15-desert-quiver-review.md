@@ -11,3 +11,9 @@ No desert-quiver-camp entry found in content/booking-destinations.json. Draft bo
 Next bounded work: exact OTA match, rate positioning, attributed traveler paragraph, canonical relationship confirmation, then publish if complete. No image rediscovery needed. No tests, build or browser QA run; reviewed record and template only. No owner approval required for ready content. Current edits affect a draft only.
 
 Owner report sent to authorized address; Gmail SENT ID: 1a13dbb613196e26.
+
+## 07:30 run — exact booking destination
+
+Added https://www.booking.com/hotel/na/desert-quiver-camp.en-gb.html to content/booking-destinations.json under accommodations/desert-quiver-camp, provider booking. Indexed property page identifies Farm On D826 / C27, Sesriem and self-catering units, matching official property identity. Direct fetch returned JavaScript verification. No current rate, availability, rating or affiliate-attribution claim made. Registry uses existing shared Stay22 resolver; no generic search URL. Six photos preserved, record still draft. Remaining work: price positioning, traveler context and canonical relationships before publication. No tests/builds run.
+
+07:30 report Gmail SENT ID: 1a13dd6645a24092.

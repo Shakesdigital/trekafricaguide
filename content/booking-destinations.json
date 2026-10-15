@@ -191,6 +191,16 @@
     "desert-luxury-camp": {
       "status": "unavailable",
       "reason": "The editorial property is the desertluxurycamp.com operator portfolio (Erg Chebbi or Erg Chigaga). Multiple OTA namesakes were found, but same-operator identity could not be confirmed. Do not publish these candidate links without operator confirmation."
+    },
+    "desert-quiver-camp": {
+      "url": "https://www.booking.com/hotel/na/desert-quiver-camp.en-gb.html",
+      "provider": "booking",
+      "title": "Desert Quiver Camp",
+      "checked_at": "2026-10-15",
+      "evidence": {
+        "source_url": "https://www.booking.com/hotel/na/desert-quiver-camp.en-gb.html",
+        "summary": "Indexed Booking.com property detail identifies Desert Quiver Camp at Farm On D826 / C27, Sossusvlei, Sesriem, Namibia. Self-catering units and gate proximity match official property site. Direct retrieval on 15 October returned JavaScript verification; live rates, availability and affiliate attribution not verified."
+      }
     }
   },
   "activities": {
