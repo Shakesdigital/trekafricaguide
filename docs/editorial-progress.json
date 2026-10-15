@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-14",
+  "updated_at": "2026-10-15",
   "timezone": "Africa/Kampala",
-  "next_scheduled_start": "2026-10-14T19:30:00+03:00",
+  "next_scheduled_start": "2026-10-15T07:30:00+03:00",
   "cadence_hours": 3,
   "active_task": {
     "id": "accommodation-property-photos",
@@ -14,8 +14,8 @@
       "Keep incomplete new guides as drafts, complete their editorial review before publication.",
       "Send owner a confirmed progress report and save its send receipt."
     ],
-    "last_completed_action": "Confirmed live Emerson Spice six image paths and Paraa one image path, both pages HTTP 200 and first JPEG assets HTTP 200; emailed report 1a13aa065b0071a3.",
-    "next_action": "Finish Desert Quiver Camp final editorial review using saved sources and six verified property photos. Check factual completeness and canonical relationships; publish only if ready, then confirm live and report. Do not repeat photo research.",
+    "last_completed_action": "Desert Quiver desk review: checked official homepage, retained six licensed photos and draft status, qualified gate distance; identified missing verified OTA booking destination and price-category evidence.",
+    "next_action": "Continue Desert Quiver review: verify an exact OTA property URL for Stay22, support or revise midrange positioning using official rates, and add clearly attributed traveler perspectives. Reuse official homepage and existing photo manifest; verify canonical IDs 16/48/60 before publication.",
     "subtasks": [
       {
         "id": "source-four-property-batch",
@@ -35,13 +35,14 @@
       },
       {
         "id": "desert-quiver-final-review",
-        "status": "queued",
+        "status": "in_progress",
         "acceptance_criteria": [
           "Review saved factual evidence, copy and canonical relationships.",
           "Retain six licensed exact-property photos and credits.",
           "If editorially complete, publish and confirm live separately from push; otherwise checkpoint exact remaining gaps.",
           "Send owner report."
-        ]
+        ],
+        "note": "Initial review completed; corrections remain. No public publication claimed. See 2026-10-15-desert-quiver-review.md."
       },
       {
         "id": "remaining-photo-gaps",
@@ -50,7 +51,7 @@
       }
     ],
     "review_items": [
-      "Desert Quiver Camp has six photos but remains draft pending final editorial review.",
+      "Desert Quiver: six licensed photos ready; pending exact OTA destination, price positioning, attributed traveler context and final canonical relationship check.",
       "Amboseli Serena remains draft with four photos; needs at least two more."
     ],
     "files": [
@@ -210,5 +211,5 @@
     "No routine tests/builds or repeated broad audits."
   ],
   "next_task_selection": "After current task is complete, prioritize evidenced accuracy, usability and discoverability gaps; record rationale.",
-  "last_run": "2026-10-14T16:30:00+03:00"
+  "last_run": "2026-10-15T06:59:45+03:00"
 }
