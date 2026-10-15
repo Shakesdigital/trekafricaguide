@@ -14,8 +14,8 @@
       "Keep incomplete new guides as drafts, complete their editorial review before publication.",
       "Send owner a confirmed progress report and save its send receipt."
     ],
-    "last_completed_action": "Saved exact Desert Quiver Booking.com /hotel/ destination in shared Stay22 registry, based on indexed property identity cross-check. Direct fetch challenged; no rate or attribution claims.",
-    "next_action": "Complete and publish Desert Quiver guide, exact booking destination and canonical listing in one task, then confirm live. Six photos already ready.",
+    "last_completed_action": "Desert Quiver full guide published in cc1393b and live-confirmed HTTP 200 with six photos and exact booking destination; archive and Namib Desert cards confirmed. Email SENT 1a13e26685473355.",
+    "next_action": "Complete Amboseli Serena property photo collection: reuse four verified photos and rejected-source evidence, seek two additional exact-property licensed photos. Treat complete collection as one task; if genuinely unavailable document missing subjects. Then finish its full guide/booking/cards as the linked task.",
     "subtasks": [
       {
         "id": "source-four-property-batch",
@@ -35,14 +35,14 @@
       },
       {
         "id": "desert-quiver-final-review",
-        "status": "in_progress",
+        "status": "complete",
         "acceptance_criteria": [
           "Review saved factual evidence, copy and canonical relationships.",
           "Retain six licensed exact-property photos and credits.",
           "If editorially complete, publish and confirm live separately from push; otherwise checkpoint exact remaining gaps.",
           "Send owner report."
         ],
-        "note": "Initial review completed; corrections remain. No public publication claimed. See 2026-10-15-desert-quiver-review.md."
+        "note": "Desert Quiver full guide published in cc1393b and live-confirmed HTTP 200 with six photos and exact booking destination; archive and Namib Desert cards confirmed. Email SENT 1a13e26685473355."
       },
       {
         "id": "remaining-photo-gaps",
@@ -51,7 +51,6 @@
       }
     ],
     "review_items": [
-      "Desert Quiver: six licensed photos and exact OTA destination ready; pending price positioning, traveler context and canonical relationship check.",
       "Amboseli Serena remains draft with four photos; needs at least two more."
     ],
     "files": [
@@ -195,7 +194,7 @@
       {
         "slug": "desert-quiver-camp",
         "count": 6,
-        "status": "draft"
+        "status": "published; live confirmed 2026-10-15"
       },
       {
         "slug": "amboseli-serena-safari-lodge",
@@ -211,5 +210,6 @@
     "No routine tests/builds or repeated broad audits."
   ],
   "next_task_selection": "After current task is complete, prioritize evidenced accuracy, usability and discoverability gaps; record rationale.",
-  "last_run": "2026-10-15T07:32:16+03:00"
+  "last_run": "2026-10-15T07:32:16+03:00",
+  "task_magnitude": "One complete full guide plus booking and listing cards, or one full property photo collection; do not schedule isolated paragraphs/links."
 }
