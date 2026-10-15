@@ -134,3 +134,7 @@ See [accommodation photo additions](editorial-research/2026-10-14-accommodation-
 ## Checkpoint-first execution — 14 October 2026
 
 Read docs/editorial-progress.json first. Complete one bounded subtask per run, resuming active and review work before new tasks. Save the exact next action, sources, files, commit/deployment state and blockers after each meaningful step. Finish the parent task before selecting another by urgent user value and discoverability. If credits become unavailable, resume the checkpoint at the next eligible scheduled run after credits return; no immediate reset-trigger wakeup is configured. Do not treat optional owner feedback as a new approval gate. This replaces older batch-size and schedule instructions.
+
+
+## Task magnitude — 15 October 2026
+One task means one complete useful deliverable: for example, a researched full accommodation guide plus exact Stay22 booking destination and canonical listing card/relationships. Finish this together rather than scheduling individual paragraphs or links. A full photo collection may be the next linked task; ready factual text can publish with verified existing photos or an honest neutral no-photo state. Never fabricate property photos. Resume unfinished deliverables first; checkpoint real blockers/usage interruptions. Three-hour cadence unchanged.

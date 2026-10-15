@@ -15,7 +15,7 @@
       "Send owner a confirmed progress report and save its send receipt."
     ],
     "last_completed_action": "Saved exact Desert Quiver Booking.com /hotel/ destination in shared Stay22 registry, based on indexed property identity cross-check. Direct fetch challenged; no rate or attribution claims.",
-    "next_action": "Finish Desert Quiver price positioning using official rates, add attributed traveler context, and verify canonical IDs 16/48/60. Booking destination is now recorded; do not repeat OTA search. Keep draft until ready, then publish and confirm live.",
+    "next_action": "Complete and publish Desert Quiver guide, exact booking destination and canonical listing in one task, then confirm live. Six photos already ready.",
     "subtasks": [
       {
         "id": "source-four-property-batch",

@@ -2306,14 +2306,14 @@
       "slug": "desert-quiver-camp",
       "featured": false,
       "sort_order": 126,
-      "status": "draft",
+      "status": "published",
       "published_at": null,
       "name": "Desert Quiver Camp",
       "property_type": "Self-catering camp",
       "location_name": "Near Sesriem, Namibia",
       "listing_summary": "Air-conditioned self-catering chalets roughly five kilometres from the Sesriem entrance.",
       "detail_intro": "Desert Quiver Camp provides a self-catering alternative near Sesriem, roughly five kilometres from the Sesriem entrance gate for Sossusvlei. Its twenty-four units combine air-conditioned twin bedrooms and en-suite bathrooms with patios, kitchenettes and barbecue areas. Granite outcrops and desert views shape the setting, while private parking makes the layout particularly suited to a self-drive Namibia itinerary.\n\nThe main building has a bar and swimming pool, and communal boma areas offer space for groups. Travellers who prefer not to cook can arrange meals at nearby Sossusvlei Lodge, but the operator explicitly states that guests need their own transport for that arrangement. This is a good fit for visitors who want more control over meals and daily timing while staying close to Sesriem. It is outside the park, so sunrise access must still be planned around current gate rules. Compare the complete cost of food, activities and driving with a catered lodge rather than using the room price alone.",
-      "practical_info": "Bring your own vehicle or arrange a transport plan before booking: the operator states that shuttles and transfers to the nearby lodge restaurant are unavailable. The kitchenette includes a hob and fridge, with utensil boxes supplied through reception under a refundable-deposit arrangement. Confirm the current deposit and equipment list so you know what to pack.\n\nFresh food can be pre-ordered or ordered at reception before the stated cutoff; submit dietary preferences and supplies early if arriving late. Ask about meal bookings at Sossusvlei Lodge and travel time after dark. A sleeper couch can accommodate two small children under the operator's published conditions, but verify ages and occupancy directly. Pool use is for paying guests and children require supervision. Confirm current Wi-Fi arrangements, as the operator's homepage and factsheet describe access differently.",
+      "practical_info": "Bring your own vehicle or arrange a transport plan before booking: the operator states that shuttles and transfers to the nearby lodge restaurant are unavailable. The kitchenette includes a hob and fridge, with utensil boxes supplied through reception under a refundable-deposit arrangement. Confirm the current deposit and equipment list so you know what to pack.\n\nFresh food can be pre-ordered or ordered at reception before the stated cutoff; submit dietary preferences and supplies early if arriving late. Ask about meal bookings at Sossusvlei Lodge and travel time after dark. A sleeper couch can accommodate two small children under the operator's published conditions, but verify ages and occupancy directly. Pool use is for paying guests and children require supervision. Confirm current Wi-Fi arrangements, as the operator's homepage and factsheet describe access differently.\n\nBudget planning: we position this as a comfortable mid-range self-catering stay based on its private facilities and published tariffs, rather than a budget campsite or an all-inclusive luxury lodge. The official 2026 room-only rack rate is N$1,490 per person sharing in low season and N$1,617.50 in high season; the corresponding single-occupancy rates are N$2,210 and N$2,395 per night. These published figures include VAT and the tourism levy. Meal packages cost more, and activities and transport need a separate budget. Rates were checked on 15 October 2026; confirm your dates, occupancy, meal plan and cancellation terms before paying. The seasonal table specifies per-person pricing, despite conflicting generic wording further down the terms page. Ask for a written total for your party.\n\nPlan your stay around the Namib Desert and Sossusvlei visit rather than treating the gate as the dunes themselves. The camp is outside the park: confirm opening times and the onward route before an early start. Nearby Sossusvlei Lodge provides a catered alternative and an adventure centre; book activities and confirm transport separately. Allow a relaxed return to the chalet instead of combining a dune visit with an overambitious onward drive.",
       "amenities": [
         "Air-conditioned chalets",
         "En-suite bathrooms",
@@ -2328,7 +2328,7 @@
       "rating": null,
       "review_count": 0,
       "price_label": "Midrange self-catering",
-      "booking_url": "https://www.desertquivercamp.com/",
+      "booking_url": "https://www.booking.com/hotel/na/desert-quiver-camp.en-gb.html",
       "source_url": "https://www.desertquivercamp.com/",
       "research_sources": [
         {
@@ -2338,6 +2338,14 @@
         {
           "label": "Desert Quiver Camp — reception and facilities",
           "url": "https://desertquivercamp.com/onsite-facilities.html"
+        },
+        {
+          "label": "Official 2026 and 2027 rack rates and terms",
+          "url": "https://www.desertquivercamp.com/rates.html"
+        },
+        {
+          "label": "Booking.com property and selected guest feedback; indexed excerpts checked 15 October 2026",
+          "url": "https://www.booking.com/hotel/na/desert-quiver-camp.html"
         }
       ],
       "last_researched": "2026-10-15",
@@ -2353,7 +2361,8 @@
         "/images/editorial/desert-quiver-camp/property-4.jpg",
         "/images/editorial/desert-quiver-camp/property-5.jpg",
         "/images/editorial/desert-quiver-camp/property-6.jpg"
-      ]
+      ],
+      "traveler_feedback": "Booking.com guest excerpts available when researched on 15 October 2026 praise the chalet comfort, desert setting and proximity to the park entrance. Alex notes that the camp is outside the park; Megan describes spacious cabins and enjoying a self-barbecue meal, while Arno highlights the barbecue facilities. These are selected individual experiences, not a guarantee of your stay. The excerpts did not show stay dates, and direct access required JavaScript verification, so no current aggregate rating is reproduced. For planning, weigh the cooking flexibility against the need to organise groceries and drive to off-site meals."
     },
     {
       "slug": "amboseli-serena-safari-lodge",
