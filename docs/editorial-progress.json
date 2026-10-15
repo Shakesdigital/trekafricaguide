@@ -1,7 +1,7 @@
 {
   "updated_at": "2026-10-16",
   "timezone": "Africa/Kampala",
-  "next_scheduled_start": "2026-10-16T01:30:00+03:00",
+  "next_scheduled_start": "2026-10-16T04:30:00+03:00",
   "cadence_hours": 3,
   "active_task": {
     "id": "accommodation-property-photos",
@@ -14,8 +14,8 @@
       "Keep incomplete new guides as drafts, complete their editorial review before publication.",
       "Send owner a confirmed progress report and save its send receipt."
     ],
-    "last_completed_action": "Red Chilli guide live-confirmed after 00d9c66: detail HTTP 200 with bridge correction, exact booking destination and Stay22; archive and Murchison cards present. Email SENT 1a1416c1fe8691cb.",
-    "next_action": "Source complete Red Chilli Rest Camp property photo collection (six subjects: exterior, furnished tent, basic banda, en-suite/family interior, shared facilities, dining/grounds). Reuse prior rejected evidence and verify exact Murchison property, not Kampala. Published guide uses neutral no-photo display.",
+    "last_completed_action": "Red Chilli photo search: Openverse commercial-license results are wildlife-only; official gallery has exact property subjects but no verified reuse permission. Zero images installed.",
+    "next_action": "Continue unblocked accommodation work with full Buhoma Community Rest Camp guide, exact booking destination and cards using its one verified photo. Red Chilli six-photo collection remains awaiting licensed property images; reuse saved candidate search, do not repeat wildlife results.",
     "subtasks": [
       {
         "id": "source-four-property-batch",
@@ -65,6 +65,11 @@
         "status": "complete",
         "commit": "00d9c66",
         "note": "Red Chilli guide live-confirmed after 00d9c66: detail HTTP 200 with bridge correction, exact booking destination and Stay22; archive and Murchison cards present. Email SENT 1a1416c1fe8691cb."
+      },
+      {
+        "id": "red-chilli-photo-collection",
+        "status": "blocked",
+        "note": "No suitable reusable property photos found; official gallery candidates require permission. See 2026-10-16-red-chilli-photo-review.md."
       }
     ],
     "review_items": [
@@ -219,9 +224,10 @@
         "status": "published; live confirmed 2026-10-15"
       }
     ],
-    "current_subtask": "red-chilli-photo-collection",
+    "current_subtask": "buhoma-community-rest-camp-guide",
     "blockers": [
-      "Amboseli Serena photo collection needs two suitable reusable property photos: pool and dining/common area. Focused search found no suitable additions."
+      "Amboseli Serena photo collection needs two suitable reusable property photos: pool and dining/common area. Focused search found no suitable additions.",
+      "Red Chilli: six property photos need reuse permission or owner originals; official gallery identified but not licensed for reuse."
     ]
   },
   "rules": [
@@ -231,6 +237,6 @@
     "No routine tests/builds or repeated broad audits."
   ],
   "next_task_selection": "After current task is complete, prioritize evidenced accuracy, usability and discoverability gaps; record rationale.",
-  "last_run": "2026-10-16T00:05:29+03:00",
+  "last_run": "2026-10-16T01:27:55+03:00",
   "task_magnitude": "One complete full guide plus booking and listing cards, or one full property photo collection; do not schedule isolated paragraphs/links."
 }
