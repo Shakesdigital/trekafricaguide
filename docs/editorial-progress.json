@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-15",
+  "updated_at": "2026-10-16",
   "timezone": "Africa/Kampala",
   "next_scheduled_start": "2026-10-15T22:30:00+03:00",
   "cadence_hours": 3,
@@ -14,8 +14,8 @@
       "Keep incomplete new guides as drafts, complete their editorial review before publication.",
       "Send owner a confirmed progress report and save its send receipt."
     ],
-    "last_completed_action": "Amboseli Serena guide live-confirmed after 8485bed: HTTP 200, four image paths, exact Booking.com destination and Stay22; archive and Amboseli attraction cards present. Email SENT 1a140a7182a61396.",
-    "next_action": "Complete Red Chilli Rest Camp existing draft as one full guide, exact suitable booking destination and canonical card task. Reuse saved research; seek actual reusable photos or retain neutral no-photo display. Reason: existing draft and missing essential accommodation coverage in Murchison group. Amboseli two-photo gap remains blocked pending suitable source/owner photos.",
+    "last_completed_action": "Red Chilli full guide completed with bridge correction, dated balanced feedback and exact booking registry. Published in working content with no-photo presentation; push/live pending.",
+    "next_action": "Push Red Chilli guide and verify detail/archive/Murchison cards, then send report. Six property-photo subjects remain missing.",
     "subtasks": [
       {
         "id": "source-four-property-batch",

@@ -2223,14 +2223,14 @@
       "slug": "red-chilli-rest-camp",
       "featured": false,
       "sort_order": 124,
-      "status": "draft",
+      "status": "published",
       "published_at": null,
       "name": "Red Chilli Rest Camp",
       "property_type": "Rest camp",
       "location_name": "Paraa, Murchison Falls National Park, Uganda",
       "listing_summary": "Tents, bandas and camping for travellers who prefer a simpler Murchison Falls stay.",
       "detail_intro": "Red Chilli Rest Camp offers a deliberately simpler way to stay in the Paraa area of Murchison Falls National Park. The operator identifies furnished safari tents, basic bandas, en-suite bandas and family accommodation, as well as pitches for travellers bringing their own tent. This range lets visitors choose between a private bathroom and shared facilities instead of paying for features they do not need.\n\nThe camp is a useful alternative to a large safari lodge when the priority is park outings and a lower accommodation budget. Basic tents come with twin beds and linen, while some bandas add fans, sockets and private bathrooms. Family units have separate bedrooms and living space. The setting remains a wildlife area, with the operator noting visits by animals around camp. Choose it with realistic expectations about power hours and the selected accommodation category. A budget label describes the operator's positioning; it does not mean that park fees, transport and guided activities disappear from the total safari cost.",
-      "practical_info": "Read the differences between room categories before booking. Basic tents and bandas use shared ablutions, while the quoted en-suite category provides a private bathroom. Ask about generator operating hours, fan use, charging and hot-water arrangements for the exact unit. Campers should confirm pitch availability and what equipment they must bring.\n\nThe operator's page still refers to the old Paraa ferry in its directions. Obtain current arrival and river-crossing instructions directly rather than using that historic wording as a transport plan. Confirm meal availability and the separately charged cost of park entry, game drives and Nile boat outings. Keep vehicles, guiding and activity reservations coordinated with camp arrival. Follow staff instructions around animals, especially after dark, and use agreed routes between accommodation and shared facilities. Ask for cancellation terms and payment arrangements. This new catalogue entry remains a draft until genuine property photographs with appropriate reuse permission are available.",
+      "practical_info": "Read the differences between room categories before booking. Basic tents and bandas use shared ablutions, while the quoted en-suite category provides a private bathroom. Ask about generator operating hours, fan use, charging and hot-water arrangements for the exact unit. Campers should confirm pitch availability and what equipment they must bring.\n\nThe operator confirms that a bridge has replaced the Paraa ferry, although older ferry references remain elsewhere on its page. Ask for current gate and bridge directions before departure; do not plan around the obsolete ferry timetable. Confirm meal availability and the separately charged cost of park entry, game drives and Nile boat outings. Keep vehicles, guiding and activity reservations coordinated with camp arrival. Follow staff instructions around animals, especially after dark, and use agreed routes between accommodation and shared facilities. Ask for cancellation terms and payment arrangements.\n\nChoose the Murchison Rest Camp when booking, rather than the operator’s separate Kampala Hideaway. If arriving by public transport, arrange the final transfer into the park in advance; reaching Masindi or Pakwach is not the same as reaching the camp. Ask for a written total covering the chosen tent, banda or pitch, meals, transfer and activities. Budget positioning reflects simpler accommodation and the operator’s stated low-to-mid-budget focus, not an all-inclusive safari price.\n\nCheck connectivity directly before relying on it: the operator states no Wi-Fi, while Booking.com displays Wi-Fi review information. Likewise, ask about power and fan availability for your specific unit instead of assuming overnight electricity. Plan Murchison Falls National Park drives and Nile outings around confirmed operator times, allowing breaks rather than fitting every activity into arrival day.",
       "amenities": [
         "Camping pitches",
         "Furnished safari tents",
@@ -2242,21 +2242,26 @@
       "rating": null,
       "review_count": 0,
       "price_label": "Budget",
-      "booking_url": "https://redchillihideaway.com/tour/red-chilli-rest-camp-murchison/",
+      "booking_url": "https://www.booking.com/hotel/ug/red-chilli-rest-camp.html",
       "source_url": "https://redchillihideaway.com/tour/red-chilli-rest-camp-murchison/",
       "research_sources": [
         {
           "label": "Red Chilli — official rest camp accommodation",
           "url": "https://redchillihideaway.com/tour/red-chilli-rest-camp-murchison/"
+        },
+        {
+          "label": "Booking.com dated guest reviews, checked 16 October 2026",
+          "url": "https://www.booking.com/reviews/ug/hotel/red-chilli-rest-camp.html"
         }
       ],
-      "last_researched": "2026-10-11",
+      "last_researched": "2026-10-16",
       "region_id": 14,
       "country_id": 55,
       "attraction_id": 59,
       "hero_image_url": "",
       "hero_image_alt": "Red Chilli Rest Camp",
-      "gallery": []
+      "gallery": [],
+      "traveler_feedback": "Booking.com reviews checked on 16 October 2026 describe both value and practical compromises. Tony, reviewing a February 2026 stay, praised the welcoming communal atmosphere and value while describing the shared showers and toilets as basic. Michelle, reviewing a March 2026 stay, liked the spacious, clean rooms and quiet setting but reported limited meal choices and inconsistent power in some rooms. Henrik’s February 2026 review also raised heat and overnight fan availability. These are individual experiences in different room categories, not guarantees of current conditions; confirm dietary needs, bathroom type and electricity arrangements before booking."
     },
     {
       "slug": "buhoma-community-rest-camp",

@@ -211,6 +211,16 @@
         "source_url": "https://www.booking.com/hotel/ke/amboseli-serena-safari-lodge.en-gb.html",
         "summary": "Indexed Booking.com exact property page identifies Amboseli Serena Safari Lodge, Kenya; name/location cross-checked with Serena official Amboseli page. Direct request returned JavaScript verification. No availability, current price, aggregate rating or affiliate attribution independently verified."
       }
+    },
+    "red-chilli-rest-camp": {
+      "url": "https://www.booking.com/hotel/ug/red-chilli-rest-camp.html",
+      "provider": "booking",
+      "title": "Red Chilli Rest Camp",
+      "checked_at": "2026-10-16",
+      "evidence": {
+        "source_url": "https://www.booking.com/reviews/ug/hotel/red-chilli-rest-camp.html",
+        "summary": "Booking.com review page names Red Chilli Rest Camp on Main Road Murchison Falls National Park, Uganda, matching official Murchison property. Exact /hotel/ destination returns JS verification. Do not confuse with Kampala Hideaway; no live prices/availability or attribution verified."
+      }
     }
   },
   "activities": {
