@@ -201,6 +201,16 @@
         "source_url": "https://www.booking.com/hotel/na/desert-quiver-camp.en-gb.html",
         "summary": "Indexed Booking.com property detail identifies Desert Quiver Camp at Farm On D826 / C27, Sossusvlei, Sesriem, Namibia. Self-catering units and gate proximity match official property site. Direct retrieval on 15 October returned JavaScript verification; live rates, availability and affiliate attribution not verified."
       }
+    },
+    "amboseli-serena-safari-lodge": {
+      "url": "https://www.booking.com/hotel/ke/amboseli-serena-safari-lodge.en-gb.html",
+      "provider": "booking",
+      "title": "Amboseli Serena Safari Lodge",
+      "checked_at": "2026-10-15",
+      "evidence": {
+        "source_url": "https://www.booking.com/hotel/ke/amboseli-serena-safari-lodge.en-gb.html",
+        "summary": "Indexed Booking.com exact property page identifies Amboseli Serena Safari Lodge, Kenya; name/location cross-checked with Serena official Amboseli page. Direct request returned JavaScript verification. No availability, current price, aggregate rating or affiliate attribution independently verified."
+      }
     }
   },
   "activities": {

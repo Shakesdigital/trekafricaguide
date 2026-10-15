@@ -2368,14 +2368,14 @@
       "slug": "amboseli-serena-safari-lodge",
       "featured": false,
       "sort_order": 127,
-      "status": "draft",
+      "status": "published",
       "published_at": null,
       "name": "Amboseli Serena Safari Lodge",
       "property_type": "Safari lodge",
       "location_name": "Amboseli National Park, Kenya",
       "listing_summary": "A permanent Amboseli lodge with family configurations, balconies and room service.",
       "detail_intro": "Amboseli Serena Safari Lodge is a permanent lodge inside Amboseli National Park, with accommodation inspired by a Maasai manyatta. Single-storey buildings open toward landscaped grounds, and room interiors use wildlife murals and locally inspired colours. The operator lists standard rooms, a suite and family arrangements, giving it a useful range for travellers planning a conventional lodge-based safari.\n\nPrivate balconies, complimentary wireless internet and room service add everyday comfort between park outings. Families can investigate interconnecting rooms or dedicated family accommodation, while couples and friends can choose the bed configuration that fits their party. This is an alternative to Ol Tukai for travellers comparing permanent lodges within the same park. Its value depends on the exact package, guiding and room arrangement rather than a generic promise of luxury. Amboseli's wildlife and mountain visibility change with conditions, so reserve enough time for outings and avoid treating a photograph of Kilimanjaro as a guaranteed view during your stay.",
-      "practical_info": "Request the actual room or family configuration in writing. The operator describes interconnecting rooms and dedicated two-bedroom family rooms with a shared bathroom; those layouts serve different needs and should not be conflated. Confirm occupancy limits, children's ages and any extra-bed charges before paying.\n\nClarify whether game drives, transport and park entry are included in your quote or supplied by your safari operator. Arrange arrival instructions, the airstrip pickup if relevant and any early meal needed for an outing. Free Wi-Fi and room service are confirmed on the current official page, but do not assume every optional activity is complimentary. Discuss accessible routes and steps directly because a single-storey description alone cannot establish full accessibility. Check the meal plan, drinks, taxes and cancellation conditions in the booking terms. This new page is a draft until genuine property photographs with permission are supplied; destination images should not be used to imply that a room or facility has been visually verified.",
+      "practical_info": "Request the actual room or family configuration in writing. The operator describes interconnecting rooms and dedicated two-bedroom family rooms with a shared bathroom; those layouts serve different needs and should not be conflated. Confirm occupancy limits, children's ages and any extra-bed charges before paying.\n\nClarify whether game drives, transport and park entry are included in your quote or supplied by your safari operator. Arrange arrival instructions, the airstrip pickup if relevant and any early meal needed for an outing. Free Wi-Fi and room service are confirmed on the current official page, but do not assume every optional activity is complimentary. Discuss accessible routes and steps directly because a single-storey description alone cannot establish full accessibility. Check the meal plan, drinks, taxes and cancellation conditions in the booking terms.\n\nArrival and route planning: arrange the road transfer with your lodge or safari operator before setting off, including the park gate to use and the expected arrival window. If flying to Amboseli, confirm the airstrip pickup and luggage allowance with the flight operator. A room reservation alone does not establish that these transfers are included. Allow time for park-entry formalities and avoid building your arrival day around a tightly timed game drive.\n\nWe describe this as an upscale, serviced safari lodge on the basis of its accommodation and facilities; this is editorial positioning, not a fixed price band or a promise that every package is luxury. It is not a budget campsite. Compare quotes for the same room occupancy, meal plan, game drives, guide, transfers, park charges and drinks. Solo travelers should request the single-occupancy total, and families should check whether connecting rooms or a family unit give the better fit. Rates vary by dates and inclusions; no live price or availability is guaranteed.\n\nUse the lodge as a base for Amboseli National Park outings, with breaks between drives rather than an overpacked daily schedule. Ask your guide about current ground conditions and suitable departure times. Mountain views depend on cloud cover. Ol Tukai Lodge is another permanent lodge in the same park to compare; proximity does not mean transport between properties is included.",
       "amenities": [
         "Private balconies",
         "Complimentary Wi-Fi",
@@ -2386,15 +2386,23 @@
       "rating": null,
       "review_count": 0,
       "price_label": "Upscale safari lodge",
-      "booking_url": "https://www.serenahotels.com/amboseli/",
+      "booking_url": "https://www.booking.com/hotel/ke/amboseli-serena-safari-lodge.en-gb.html",
       "source_url": "https://www.serenahotels.com/amboseli/",
       "research_sources": [
         {
           "label": "Serena Hotels — official Amboseli accommodation",
           "url": "https://www.serenahotels.com/amboseli/"
+        },
+        {
+          "label": "Booking.com exact Amboseli Serena property listing; indexed identity checked 15 October 2026",
+          "url": "https://www.booking.com/hotel/ke/amboseli-serena-safari-lodge.en-gb.html"
+        },
+        {
+          "label": "Tripadvisor property review summary checked 15 October 2026",
+          "url": "https://www.tripadvisor.com/Hotel_Review-g1600222-d305100-Reviews-Amboseli_Serena_Safari_Lodge-Amboseli_National_Park_Amboseli_Eco_system_Rift_Valley_Pr.html"
         }
       ],
-      "last_researched": "2026-10-11",
+      "last_researched": "2026-10-15",
       "region_id": 14,
       "country_id": 46,
       "attraction_id": 49,
@@ -2405,7 +2413,8 @@
         "/images/editorial/amboseli-serena-safari-lodge/property-2.jpg",
         "/images/editorial/amboseli-serena-safari-lodge/property-3.jpg",
         "/images/editorial/amboseli-serena-safari-lodge/property-4.jpg"
-      ]
+      ],
+      "traveler_feedback": "Tripadvisor’s property-page summary, checked on 15 October 2026, highlights guest praise for cleanliness and maintained facilities. Booking.com’s indexed property summary also highlights attentive staff and the location for nature trips. These are platform summaries rather than a representative survey or a promise about every stay. Direct Booking.com retrieval required JavaScript verification, and individual stay dates were not available in the retrieved excerpts, so we do not reproduce a current rating or review count. Read recent detailed reviews for your room category, meal expectations and any service concerns before choosing a package."
     }
   ],
   "activities": [
