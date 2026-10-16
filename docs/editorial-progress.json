@@ -5,7 +5,7 @@
   "cadence_hours": 3,
   "active_task": {
     "id": "accommodation-property-photos",
-    "status": "in_progress",
+    "status": "backlog",
     "objective": "Complete verified exact-property photo collections for the accommodation records without using attraction substitutes or fabricated hotel images. Target six distinct reusable photographs per property.",
     "acceptance_criteria": [
       "Verify exact property identity and reuse rights; retain creator/source/license and alt text.",
@@ -15,7 +15,7 @@
       "Send owner a confirmed progress report and save its send receipt."
     ],
     "last_completed_action": "Buhoma six-photo gallery published 0e74d75; live HTTP 200 includes five new paths and new JPEG HTTP 200. Email SENT 1a14332db5006a7b.",
-    "next_action": "Complete Victoria Falls Hotel six-photo collection from existing five; reuse saved sources and check one additional exact-property licensed view.",
+    "next_action": "Return to accommodation photo collections on the next accommodation turn; prioritize Victoria Falls Hotel five-photo collection.",
     "subtasks": [
       {
         "id": "source-four-property-batch",
@@ -255,7 +255,7 @@
   "last_run": "2026-10-16T07:35:05+03:00",
   "task_magnitude": "One complete full guide plus booking and listing cards, or one full property photo collection; do not schedule isolated paragraphs/links.",
   "country_destinations_feature": {
-    "status": "ready_to_publish",
+    "status": "complete",
     "guides": [
       "uganda/buhoma",
       "south-africa/cape-town",
@@ -266,6 +266,15 @@
       0,
       0
     ],
-    "next_action": "Push and confirm new routes, country cards and guide search; preserve accommodation photo backlog."
+    "next_action": "Push and confirm new routes, country cards and guide search; preserve accommodation photo backlog.",
+    "commit": "0d19186",
+    "live_verification": "All three detail URLs HTTP 200 with expected h1 and planning/stay sections; each parent country has one destination card; homepage includes all three search destinations.",
+    "email_id": "1a143a69416cf3d1"
+  },
+  "rotation": {
+    "last_completed_category": "destinations",
+    "next_category": "travel_insights",
+    "next_deliverable": "One researched practical travel insight linked to the new local destination guides, with image follow-up recorded if needed.",
+    "rule": "Finish interrupted individual deliverables, then switch category. Outstanding category-wide photo backlog does not prevent rotation."
   }
 }

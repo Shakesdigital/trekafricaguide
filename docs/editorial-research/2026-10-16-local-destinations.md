@@ -33,3 +33,6 @@ All seed hero URLs are null and galleries empty: **0/6 each, 18 photos outstandi
 - Unguja: Stone Town streets, historic doors, seafront, public urban space, accurately identified coast, island landscape. Do not depict a generic coast as a named hotel.
 
 Preserve creator, source, licence, identity/location evidence and alt text. Current missing photographs do not change the existing accommodation image shortfalls or require replacement of exact-property photography.
+
+## Live publication
+Commit 0d19186 pushed; all three nested guides returned HTTP 200 with expected titles and planning/stay sections. Uganda, South Africa and Tanzania pages each contain one destination card. Homepage guide search includes all three URLs. No tests/build/browser QA run. Automation now rotates content categories after each complete deliverable; next category travel insights.

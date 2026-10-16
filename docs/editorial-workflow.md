@@ -140,3 +140,6 @@ Read docs/editorial-progress.json first. Complete one bounded subtask per run, r
 
 ## Task magnitude — 15 October 2026
 One task means one complete useful deliverable: for example, a researched full accommodation guide plus exact Stay22 booking destination and canonical listing card/relationships. Finish this together rather than scheduling individual paragraphs or links. A full photo collection may be the next linked task; ready factual text can publish with verified existing photos or an honest neutral no-photo state. Never fabricate property photos. Resume unfinished deliverables first; checkpoint real blockers/usage interruptions. Three-hour cadence unchanged.
+
+## Balanced content rotation — 16 October 2026
+Finish an individual deliverable and required fixes, then switch content category: accommodations, travel insights, activities, attractions, country/local destinations. Resume interrupted deliverables first, but keep category-wide image gaps as a backlog rather than blocking other categories. Record last/next category in the progress ledger. Exact OTA detail-page destinations through Stay22 are mandatory for booking CTAs; suppress unavailable/unverified matches, never substitute searches or homepages. Three-hour schedule unchanged.
