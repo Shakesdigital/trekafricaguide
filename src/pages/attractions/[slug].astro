@@ -47,5 +47,5 @@ const linkedAttractions = model.attractions.filter((item) => item.slug !== attra
     </div>
   </section>
   {attraction.activities?.length > 0 && <section class="section section--alt"><div class="container"><h2>Related activities</h2><CardCarousel label="Related activities">{attraction.activities.map((item) => <ListingCard item={{...item, cardCta: 'View Activity Details'}} type="activity" />)}</CardCarousel></div></section>}
-  <section class="section section--alt"><div class="container"><h2>Nearby stays</h2><CardCarousel label="Nearby stays">{attraction.nearbyStays.map((item) => <ListingCard item={item} type="accommodation" />)}</CardCarousel></div></section>
+  {attraction.nearbyStays.length > 0 && <section class="section section--alt"><div class="container"><h2>Nearby stays</h2><CardCarousel label="Nearby stays">{attraction.nearbyStays.map((item) => <ListingCard item={item} type="accommodation" />)}</CardCarousel></div></section>}
 </SiteLayout>

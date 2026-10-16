@@ -278,17 +278,15 @@
     "rule": "Finish interrupted individual deliverables, then switch category. Outstanding category-wide photo backlog does not prevent rotation."
   },
   "current_deliverable": {
-    "id": "stone-town-walking-tour",
-    "category": "activities",
-    "status": "complete",
-    "next_action": "Rotate to attractions; review unfinished Jozani or Kibale guide against existing research before choosing a new attraction.",
-    "sources": [
-      "https://www.getyourguide.com/zanzibar-tsiti-l872/kameni-grad-vodjeni-istorijski-obilazak-grada-t566480/",
-      "https://whc.unesco.org/en/list/173/"
-    ],
-    "photo_count": 0,
-    "commit": "fbcdf36",
-    "live_verification": "Activity, Unguja and Zanzibar HTTP200 with title; exact Stay22 GYG product566480 href in live HTML; neutral hero confirmed.",
-    "email_id": "1a144ee7afd56b75"
+    "id": "jozani-attraction-publication",
+    "category": "attractions",
+    "status": "ready_to_publish",
+    "next_action": "Commit, push and confirm Jozani guide and Unguja card; report six existing photos and booking/stay gaps.",
+    "acceptance_criteria": [
+      "Complete guide with honest booking/nearby limitations",
+      "Unguja relationship",
+      "Live publication confirmation",
+      "Owner report"
+    ]
   }
 }
