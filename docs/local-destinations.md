@@ -19,3 +19,6 @@ The country detail page adds a **Destinations in [country]** carousel only when 
 5. Inspect changed records, relationships and templates. No routine tests, builds or browser QA. Commit/push only within current authorization and report live deployment separately.
 
 Initial guides: Buhoma (Uganda), Cape Town (South Africa), and Unguja (Tanzania). Each starts with zero dedicated photographs; all three need six distinct images. Existing property images are unchanged.
+
+## Country and region navigation
+Region detail pages display country-name tabs in a full-width strip after the hero, before the overview. Country detail pages use the same strip for published local destinations. DestinationTabs reuses the shared carousel controls (wraparound arrows, touch scrolling, reduced motion); links open canonical detail pages. Empty sections are omitted; arrows appear only when the tabs overflow. Keep attraction/stay carousels unchanged.

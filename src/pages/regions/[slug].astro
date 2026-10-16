@@ -1,5 +1,6 @@
 ---
 import SiteLayout from '../../layouts/SiteLayout.astro';
+import DestinationTabs from '../../components/DestinationTabs.astro';
 import PageHero from '../../components/PageHero.astro';
 import CardCarousel from '../../components/CardCarousel.astro';
 import ListingCard from '../../components/ListingCard.astro';
@@ -18,16 +19,14 @@ const stays = model.accommodations.filter((item) => item.region_id === region.id
 ---
 <SiteLayout model={model} title={region.name} description={region.hero_text || region.overview}>
   <PageHero eyebrow="Region" title={region.hero_title || region.name} text={region.hero_text || region.overview} image={region.hero_image_url} alt={region.hero_image_alt || region.name} />
+  <DestinationTabs items={countries} label={`Countries in ${region.name}`} />
   <section class="section">
-    <div class="container two-column">
+    <div class="container">
       <div class="info-panel">
         <h2>Regional overview</h2>
         <p>{region.overview}</p>
       </div>
-      <div class="info-panel">
-        <h2>Countries to compare</h2>
-        <ul class="bullet-list">{countries.map((country) => <li><a href={`/countries/${country.slug}`}>{country.name}</a></li>)}</ul>
-      </div>
+
     </div>
   </section>
   <section class="section section--alt"><div class="container"><h2>Attractions</h2><CardCarousel label="Attractions">{attractions.map((item) => <ListingCard item={item} type="attraction" />)}</CardCarousel></div></section>

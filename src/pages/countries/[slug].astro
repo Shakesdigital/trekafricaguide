@@ -1,4 +1,5 @@
 ---
+import DestinationTabs from '../../components/DestinationTabs.astro';
 import EditorialText from '../../components/EditorialText.astro';
 import ResearchNotes from '../../components/ResearchNotes.astro';
 import SiteLayout from '../../layouts/SiteLayout.astro';
@@ -25,11 +26,12 @@ const destinations = model.localDestinations.filter((item) => item.country.slug 
     <Breadcrumbs items={[{ label: country.region.name, href: `/regions/${country.region.slug}` }, { label: country.name }]} />
     <div class="listing-head"><p class="eyebrow">Destination guide</p><h1>{country.hero_title || country.name}</h1></div>
     <Gallery images={normalizeList(country.gallery).length ? normalizeList(country.gallery) : [country.hero_image_url]} alt={country.hero_image_alt || country.name} />
-    <EditorialText text={country.hero_text} class="detail-hero__summary" />
   </div></section>
+  <DestinationTabs items={destinations} label={`Destinations in ${country.name}`} />
   <section class="section">
     <div class="container detail-grid">
       <div class="detail-main">
+        <EditorialText text={country.hero_text} class="detail-hero__summary" />
         <div class="detail-section"><h2>Destination guide</h2><EditorialText text={country.overview} /></div>
         <div class="detail-section"><h2>Getting around</h2><EditorialText text={country.access_summary} /></div>
         <div class="detail-section"><h2>Best time</h2><EditorialText text={country.best_time} /></div>
@@ -39,7 +41,6 @@ const destinations = model.localDestinations.filter((item) => item.country.slug 
       <aside class="detail-rail"><div class="info-panel"><p class="eyebrow">Region</p><h3><a href={`/regions/${country.region.slug}`}>{country.region.name}</a></h3></div></aside>
     </div>
   </section>
-  {destinations.length > 0 && <section class="section section--alt"><div class="container"><h2>Destinations in {country.name}</h2><CardCarousel label={`Destinations in ${country.name}`}>{destinations.map((item) => <ListingCard item={item} type="destination" />)}</CardCarousel></div></section>}
   <section class="section section--alt"><div class="container"><h2>Attractions in {country.name}</h2><CardCarousel>{attractions.map((item) => <ListingCard item={item} type="attraction" />)}</CardCarousel></div></section>
   <section class="section"><div class="container"><h2>Nearby stays</h2><CardCarousel label="Nearby stays">{stays.map((item) => <ListingCard item={item} type="accommodation" />)}</CardCarousel></div></section>
 </SiteLayout>

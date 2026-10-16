@@ -1,0 +1,29 @@
+---
+const { items = [], label = 'Explore destinations' } = Astro.props;
+---
+{items.length > 0 && <section class="destination-tabs" aria-label={label}>
+  <div class="container">
+    <h2>{label}</h2>
+    <nav class="destination-tabs__carousel" data-listing-carousel aria-label={label}>
+      <div class="destination-tabs__controls" data-carousel-controls hidden>
+        <button class="listing-carousel__button" type="button" data-carousel-prev aria-label={`Previous ${label.toLowerCase()}`}>←</button>
+        <button class="listing-carousel__button" type="button" data-carousel-next aria-label={`Next ${label.toLowerCase()}`}>→</button>
+      </div>
+      <div class="destination-tabs__track" data-carousel-track tabindex="0" aria-label={`${label}: scroll or use arrow keys`}>
+        {items.map((item) => <a class="destination-tabs__link" href={item.internalUrl}>{item.name}</a>)}
+      </div>
+    </nav>
+  </div>
+</section>}
+<style>
+  .destination-tabs { width: 100%; padding: 1.5rem 0; background: var(--surface, #f6f7f3); border-block: 1px solid #e3e7df; }
+  .destination-tabs h2 { font-size: 1.15rem; margin: 0 0 .85rem; }
+  .destination-tabs__carousel { min-width: 0; }
+  .destination-tabs__controls { display: flex; justify-content: flex-end; gap: .5rem; margin-bottom: .65rem; }
+  .destination-tabs__controls[hidden] { display: none; }
+  .destination-tabs__controls .listing-carousel__button { display: inline-flex; }
+  .destination-tabs__track { display: flex; gap: .65rem; overflow-x: auto; scroll-snap-type: x proximity; padding: .25rem .15rem .65rem; scrollbar-width: thin; }
+  .destination-tabs__link { flex: 0 0 auto; scroll-snap-align: start; display: inline-flex; align-items: center; justify-content: center; min-height: 44px; padding: .6rem 1.1rem; border: 1px solid #cbd5c8; border-radius: .6rem; background: white; color: var(--brand-primary, #244d35); font-weight: 600; text-decoration: none; white-space: nowrap; }
+  .destination-tabs__link:hover { background: #edf3e9; border-color: currentColor; }
+  .destination-tabs__link:focus-visible, .destination-tabs__track:focus-visible { outline: 2px solid var(--brand-primary, #244d35); outline-offset: 2px; }
+</style>
