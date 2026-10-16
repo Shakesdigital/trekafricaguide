@@ -14,8 +14,8 @@
       "Keep incomplete new guides as drafts, complete their editorial review before publication.",
       "Send owner a confirmed progress report and save its send receipt."
     ],
-    "last_completed_action": "Prepared five visually inspected USAID public-domain photographs; Buhoma gallery now six including existing verified photo. Publication pending.",
-    "next_action": "Commit and push Buhoma photo collection, confirm live gallery, email owner.",
+    "last_completed_action": "Buhoma six-photo gallery published 0e74d75; live HTTP 200 includes five new paths and new JPEG HTTP 200. Email SENT 1a14332db5006a7b.",
+    "next_action": "Complete Victoria Falls Hotel six-photo collection from existing five; reuse saved sources and check one additional exact-property licensed view.",
     "subtasks": [
       {
         "id": "source-four-property-batch",
@@ -76,6 +76,14 @@
         "status": "complete",
         "commit": "e1cb69a",
         "note": "Guide/cards live; active booking CTA explicitly unavailable and tracked separately."
+      },
+      {
+        "id": "buhoma-photo-collection",
+        "status": "complete",
+        "commit": "0e74d75",
+        "photo_count": 6,
+        "email_id": "1a14332db5006a7b",
+        "live_verification": "HTTP 200 page contains all five new paths; JPEG HTTP 200 image/jpeg."
       }
     ],
     "review_items": [
@@ -230,7 +238,7 @@
         "status": "published; live confirmed 2026-10-15"
       }
     ],
-    "current_subtask": "buhoma-photo-collection",
+    "current_subtask": "victoria-falls-hotel-photo-collection",
     "blockers": [
       "Amboseli Serena photo collection needs two suitable reusable property photos: pool and dining/common area. Focused search found no suitable additions.",
       "Red Chilli: six property photos need reuse permission or owner originals; official gallery identified but not licensed for reuse.",
