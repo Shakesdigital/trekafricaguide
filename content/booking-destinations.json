@@ -221,6 +221,17 @@
         "source_url": "https://www.booking.com/reviews/ug/hotel/red-chilli-rest-camp.html",
         "summary": "Booking.com review page names Red Chilli Rest Camp on Main Road Murchison Falls National Park, Uganda, matching official Murchison property. Exact /hotel/ destination returns JS verification. Do not confuse with Kampala Hideaway; no live prices/availability or attribution verified."
       }
+    },
+    "buhoma-community-rest-camp": {
+      "url": "https://www.booking.com/hotel/ug/buhoma-community-rest-camp-kanungu.en-gb.html",
+      "provider": "booking",
+      "title": "Buhoma Community Rest Camp",
+      "status": "unavailable",
+      "checked_at": "2026-10-16",
+      "evidence": {
+        "source_url": "https://www.booking.com/hotel/ug/buhoma-community-rest-camp-kanungu.en-gb.html",
+        "summary": "Exact Buhoma property identifiable, but listing states not taking reservations and no review score. Shared resolver must suppress booking CTA; do not substitute Buhoma Lodge or Haven Lodge."
+      }
     }
   },
   "activities": {

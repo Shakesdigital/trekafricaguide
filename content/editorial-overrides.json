@@ -2267,14 +2267,14 @@
       "slug": "buhoma-community-rest-camp",
       "featured": false,
       "sort_order": 125,
-      "status": "draft",
+      "status": "published",
       "published_at": null,
       "name": "Buhoma Community Rest Camp",
       "property_type": "Community lodge",
       "location_name": "Buhoma, Bwindi area, Uganda",
       "listing_summary": "A community-run Buhoma stay with self-contained room options and forest outlooks.",
       "detail_intro": "Buhoma Community Rest Camp is a community-based accommodation enterprise in Buhoma, associated with the Buhoma-Mukono Community Development Association. The operator dates its beginnings to 1993 and links the stay to local development projects. Its terraces look toward the rainforest, giving travellers a place to pause close to the area's gorilla-trekking activity.\n\nThe current official page lists self-contained single, double and triple rooms, a restaurant and room service. This gives guests a simpler alternative to the luxury lodges around Bwindi while retaining a room-based stay. The community connection is a concrete reason to consider it, especially for travellers who want accommodation spending to support locally managed tourism. It is specifically a Buhoma option: the name Bwindi covers several trekking sectors, and choosing a room here is most useful when the permit and the rest of the itinerary match the Buhoma side. Verify the precise room offered rather than assuming that older descriptions represent today's full inventory.",
-      "practical_info": "Arrange the stay alongside a permit for the correct trekking sector. Ask the camp to confirm the journey to the briefing point and any transport required, then obtain the permit separately or through a licensed operator. A room booking does not automatically secure gorilla access.\n\nRequest a self-contained room if a private bathroom matters, and state whether you need single, double or triple occupancy. The official website describes airport pickups from Entebbe or Kihihi by arrangement; confirm the vehicle, total cost and travel time before booking flights. Ask about meals, packed lunches and dietary needs in advance. Older sources list tents, dormitories and camping, but these are not asserted in this new entry because the current operator page emphasises room types instead. Confirm electricity, hot water, Wi-Fi and accessibility if essential. This draft has researched text but requires genuine property photographs and reuse permission before publication, rather than substituting unrelated forest images for the accommodation.",
+      "practical_info": "Arrange the stay alongside a permit for the correct trekking sector. Ask the camp to confirm the journey to the briefing point and any transport required, then obtain the permit separately or through a licensed operator. A room booking does not automatically secure gorilla access.\n\nRequest a self-contained room if a private bathroom matters, and state whether you need single, double or triple occupancy. The official website describes airport pickups from Entebbe or Kihihi by arrangement; confirm the vehicle, total cost and travel time before booking flights. Ask about meals, packed lunches and dietary needs in advance. Older sources list tents, dormitories and camping, but these are not asserted in this new entry because the current operator page emphasises room types instead. Confirm electricity, hot water, Wi-Fi and accessibility if essential.\n\nBudget planning: the operator describes the camp as budget accommodation. Request a dated quote for your room occupancy and meal plan, with transfer, guiding and permit costs shown separately. This is not an all-inclusive gorilla safari price. A solo traveler should confirm the single-room total; a group should compare actual bed and bathroom arrangements rather than relying on the word camp.\n\nPlan arrival with enough time to settle in before trekking, and confirm your permit sector before committing to transport. Bwindi Impenetrable National Park has multiple access areas; a Buhoma stay should not be treated as interchangeable with accommodation serving another sector. Any additional community visit should be arranged through the organisers, with consent for photography and a clear explanation of who benefits.\n\nBooking update checked on 16 October 2026: the exact Booking.com listing says it is not taking reservations. This does not establish that the camp itself is closed. Confirm current arrangements through the official operator contact page before making travel commitments; no alternative hotel or generic search is substituted in the booking card.",
       "amenities": [
         "Self-contained single, double and triple rooms",
         "Restaurant",
@@ -2295,9 +2295,17 @@
         {
           "label": "Kanungu District — local accommodation inventory",
           "url": "https://kanungu.go.ug/opportunites/tourism-status-kanungu"
+        },
+        {
+          "label": "Exact Booking.com property listing — reservations unavailable, no review score; checked 16 October 2026",
+          "url": "https://www.booking.com/hotel/ug/buhoma-community-rest-camp-kanungu.en-gb.html"
+        },
+        {
+          "label": "Official operator contact and booking enquiry details",
+          "url": "https://buhomacommunityrestcamp.com/get-in-touch-with-us/"
         }
       ],
-      "last_researched": "2026-10-11",
+      "last_researched": "2026-10-16",
       "region_id": 14,
       "country_id": 55,
       "attraction_id": 50,
@@ -2305,7 +2313,8 @@
       "hero_image_alt": "Hotel Buhoma Community Camp",
       "gallery": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Hotel_Buhoma_Comunity_Camp_20190923_154959.jpg/1280px-Hotel_Buhoma_Comunity_Camp_20190923_154959.jpg"
-      ]
+      ],
+      "traveler_feedback": "The exact Booking.com listing checked on 16 October 2026 displayed no review score and was not accepting reservations. That provides too little evidence for a reliable guest-consensus summary. We have therefore not assigned a rating, invented traveler quotations or transferred reviews from the similarly named Buhoma Lodge or Haven Lodge. Ask for recent room photographs and details of bathrooms, meals and transfers when comparing this stay; the community background describes its ownership model, not a guarantee of an individual guest experience."
     },
     {
       "slug": "desert-quiver-camp",
