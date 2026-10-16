@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-16",
+  "updated_at": "2026-10-17",
   "timezone": "Africa/Kampala",
-  "next_scheduled_start": "2026-10-16T22:30:00+03:00",
+  "next_scheduled_start": "2026-10-17T04:30:00+03:00",
   "cadence_hours": 3,
   "active_task": {
     "id": "accommodation-property-photos",
@@ -252,7 +252,7 @@
     "No routine tests/builds or repeated broad audits."
   ],
   "next_task_selection": "After current task is complete, prioritize evidenced accuracy, usability and discoverability gaps; record rationale.",
-  "last_run": "2026-10-16T22:34:49+03:00",
+  "last_run": "2026-10-17T01:42:30+03:00",
   "task_magnitude": "One complete full guide plus booking and listing cards, or one full property photo collection; do not schedule isolated paragraphs/links.",
   "country_destinations_feature": {
     "status": "complete",
@@ -263,7 +263,7 @@
     ],
     "photo_counts": [
       0,
-      0,
+      6,
       0
     ],
     "next_action": "Push and confirm new routes, country cards and guide search; preserve accommodation photo backlog.",
@@ -273,24 +273,25 @@
   },
   "rotation": {
     "last_completed_category": "accommodations",
-    "next_category": "destinations",
-    "next_deliverable": "Complete Cape Town local destination photo collection; six licensed subject-specific photos, credits and live confirmation.",
+    "next_category": "travel insights",
+    "next_deliverable": "Choose one complete planning insight beyond current catalogue coverage; candidate: choosing a Cape Town base by outing pattern (City Bowl, Sea Point, Atlantic seaboard). Research, write, and publish at the next 04:30 Kampala run.",
     "rule": "Finish interrupted individual deliverables, then switch category. Outstanding category-wide photo backlog does not prevent rotation."
   },
   "current_deliverable": {
-    "id": "victoria-falls-hotel-photo-collection",
-    "category": "accommodations",
-    "status": "complete",
-    "next_action": "Rotate to destinations: Cape Town photo collection.",
+    "id": "cape-town-photo-collection",
+    "category": "destinations",
+    "status": "in_progress",
+    "next_action": "Push the six-photo collection, confirm the guide and new assets live, send the owner report, and record delivery evidence.",
     "acceptance_criteria": [
-      "Six distinct exact-property photos",
+      "Six distinct, location-verified Cape Town photos",
       "Source/license/date credits",
       "Live confirmation",
       "Owner email"
     ],
-    "commit": "8d7038c",
-    "live_verification": "Page HTTP200 includes new image and Ryan McFarland credit; image HTTP200 image/jpeg.",
-    "email_id": "1a1463b5f193707d"
+    "photo_count": 6,
+    "commit": null,
+    "live_verification": null,
+    "email_id": null
   },
-  "next_scheduled_run": "2026-10-17T01:30:00+03:00"
+  "next_scheduled_run": "2026-10-17T04:30:00+03:00"
 }

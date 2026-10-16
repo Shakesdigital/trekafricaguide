@@ -1,7 +1,7 @@
 // Curated source. Run node scripts/sync-photo-library.mjs after editing.
 // Curated free photography; source and licence metadata travel with each image.
 export const photoLibrary = {
-  "updated_at": "2026-10-16",
+  "updated_at": "2026-10-17",
   "images": {
     "/images/stock/destinations/bwindi-impenetrable-national-park.jpg": {
       "slug": "bwindi-impenetrable-national-park",
@@ -183,6 +183,90 @@ export const photoLibrary = {
       "exact_subject": true,
       "subject": "Cape Town",
       "alt": "Cape Town - Table Mountain seen from Company's Garden",
+      "property": false
+    },
+    "/images/editorial/cape-town/bo-kaap-houses.jpg": {
+      "slug": "cape-town-bo-kaap-houses",
+      "local_path": "/images/editorial/cape-town/bo-kaap-houses.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Bo-Kaap,_Cape_Town_(P1050993).jpg",
+      "creator": "Matti Blume",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "date": "2018-07-23",
+      "sha256": "70037a82ca6983a7b743d4b81982bf5018ca6ea993b22cb450e66e90b02daa82",
+      "exact_subject": true,
+      "subject": "Bo-Kaap, Cape Town",
+      "alt": "Colorful houses on a Bo-Kaap street in Cape Town",
+      "property": false
+    },
+    "/images/editorial/cape-town/camps-bay-beach.jpg": {
+      "slug": "cape-town-camps-bay-beach",
+      "local_path": "/images/editorial/cape-town/camps-bay-beach.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Camps_Bay,_Cape_Town.jpg",
+      "creator": "Time00",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "date": "2016-11-27",
+      "sha256": "2aff33ed1502052e6a1426efe47386da4dff898f57dcdd0f205feddac5eb45eb",
+      "exact_subject": true,
+      "subject": "Camps Bay, Cape Town",
+      "alt": "People spending time on Camps Bay beach beneath the Twelve Apostles",
+      "property": false
+    },
+    "/images/editorial/cape-town/va-waterfront-harbor.jpg": {
+      "slug": "cape-town-va-waterfront-harbor",
+      "local_path": "/images/editorial/cape-town/va-waterfront-harbor.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Cape_Town_(ZA),_Waterfront,_Hafen,_Schiffe_--_2024_--_2879.jpg",
+      "creator": "Dietmar Rabich",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "date": "2024-02-29",
+      "sha256": "3b7359aa2fdb2160178043c281fcaea34b9e695a2f8e628cabc4712d3272d50f",
+      "exact_subject": true,
+      "subject": "V&A Waterfront harbor, Cape Town",
+      "alt": "Working boats moored in Cape Town harbor at the V&A Waterfront",
+      "property": false
+    },
+    "/images/editorial/cape-town/sea-point-coast.jpg": {
+      "slug": "cape-town-sea-point-coast",
+      "local_path": "/images/editorial/cape-town/sea-point-coast.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Cape_Town_(ZA),_Sea_Point_Promenade_--_2024_--_3586.jpg",
+      "creator": "Dietmar Rabich",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "date": "2024-03-02",
+      "sha256": "c6badbabdf63accc2f27fe4471b29a403fd559139addcc5a6baf9bfaeda9627c",
+      "exact_subject": true,
+      "subject": "Sea Point coast, Cape Town",
+      "alt": "Rocky shoreline and ocean off Sea Point in Cape Town",
+      "property": false
+    },
+    "/images/editorial/cape-town/city-bowl-from-table-mountain.jpg": {
+      "slug": "cape-town-city-bowl-view",
+      "local_path": "/images/editorial/cape-town/city-bowl-from-table-mountain.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:City_Bowl,_Cape_Town_(P1050341).jpg",
+      "creator": "Matti Blume",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "date": "2018-07-17",
+      "sha256": "4134a84b4667e73159799f130cb12f2de79e8e3ac8c900864e741b35a2630b7a",
+      "exact_subject": true,
+      "subject": "City Bowl, Cape Town",
+      "alt": "Cape Town's City Bowl and harbor seen from Table Mountain",
+      "property": false
+    },
+    "/images/editorial/cape-town/companys-garden.jpg": {
+      "slug": "cape-town-companys-garden",
+      "local_path": "/images/editorial/cape-town/companys-garden.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Cape_Town_(ZA),_Company's_Garden_--_2024_--_3457.jpg",
+      "creator": "Dietmar Rabich",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "date": "2024-03-02",
+      "sha256": "ec88f859be9e32da015c568a1c9001089c6de671f4fd4257b4d1cf1301943542",
+      "exact_subject": true,
+      "subject": "Company's Garden, Cape Town",
+      "alt": "Formal garden beds among mature trees at Company's Garden in Cape Town",
       "property": false
     },
     "/images/stock/destinations/kruger-national-park.jpg": {
@@ -3622,6 +3706,21 @@ export const photoLibrary = {
           "/images/editorial/amboseli-serena-safari-lodge/property-2.jpg",
           "/images/editorial/amboseli-serena-safari-lodge/property-3.jpg",
           "/images/editorial/amboseli-serena-safari-lodge/property-4.jpg"
+        ]
+      }
+    },
+    "local_destinations": {
+      "cape-town": {
+        "hero_image_url": "/images/editorial/cape-town/city-bowl-from-table-mountain.jpg",
+        "hero_image_alt": "Cape Town's City Bowl and harbor seen from Table Mountain",
+        "replaces": [],
+        "gallery": [
+          "/images/editorial/cape-town/city-bowl-from-table-mountain.jpg",
+          "/images/editorial/cape-town/camps-bay-beach.jpg",
+          "/images/editorial/cape-town/bo-kaap-houses.jpg",
+          "/images/editorial/cape-town/va-waterfront-harbor.jpg",
+          "/images/editorial/cape-town/sea-point-coast.jpg",
+          "/images/editorial/cape-town/companys-garden.jpg"
         ]
       }
     },

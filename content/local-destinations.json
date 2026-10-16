@@ -81,10 +81,17 @@
     "travel_insight_slugs": [
       "cape-town-before-or-after-safari"
     ],
-    "hero_image_url": null,
-    "hero_image_alt": "Cape Town, South Africa",
-    "gallery": [],
-    "last_researched": "2026-10-16",
+    "hero_image_url": "/images/editorial/cape-town/city-bowl-from-table-mountain.jpg",
+    "hero_image_alt": "Cape Town's City Bowl and harbor seen from Table Mountain",
+    "gallery": [
+      "/images/editorial/cape-town/city-bowl-from-table-mountain.jpg",
+      "/images/editorial/cape-town/camps-bay-beach.jpg",
+      "/images/editorial/cape-town/bo-kaap-houses.jpg",
+      "/images/editorial/cape-town/va-waterfront-harbor.jpg",
+      "/images/editorial/cape-town/sea-point-coast.jpg",
+      "/images/editorial/cape-town/companys-garden.jpg"
+    ],
+    "last_researched": "2026-10-17",
     "research_sources": [
       {
         "label": "Cape Town Tourism: Table Mountain visitor context",
