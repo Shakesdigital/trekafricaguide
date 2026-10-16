@@ -6,6 +6,7 @@ import { loadContent } from './content-repository.mjs';
 import { createPublicClient } from './supabase.mjs';
 import { readBuildEnv } from './env.mjs';
 import { applyPhotoDefaults } from './photo-defaults.mjs';
+import { buildLocalDestinations } from './local-destinations.mjs';
 
 let cachedModelPromise = null;
 
@@ -256,8 +257,18 @@ export function buildSiteModel(tables, now = new Date()) {
       (a.page_key || '').localeCompare(b.page_key || '') ||
       (a.section_key || '').localeCompare(b.section_key || ''));
 
-  // Search suggestions from countries, attractions, and accommodations
+  const travelArticles = [...(tables.travel_articles || [])].filter((story) => isPublished(story, now)).sort(sortByFeaturedThenOrder).map((story) => {
+    assertRouteSlug(story.slug, 'travel-insights');
+    const words = (story.body || '').replace(/<[^>]*>/g, ' ').trim().split(/\s+/).filter(Boolean).length;
+    return { ...story, internalUrl: '/travel-insights/' + story.slug, read_time: story.read_time || Math.max(1, Math.ceil(words / 200)) + ' min read' };
+  });
+  const localDestinations = buildLocalDestinations(tables.local_destinations || [], { countries, attractions, accommodations, activities, travelArticles }, now);
+
+  // Local guides carry their explicit nested URL for search navigation.
   const searchSuggestions = [];
+  for (const destination of localDestinations) {
+    searchSuggestions.push({ label: destination.name, type: 'destination', value: destination.slug, url: destination.internalUrl, context: destination.country.name });
+  }
   for (const country of countries) {
     searchSuggestions.push({ label: country.name, type: 'country', value: country.slug, context: country.region?.name });
   }
@@ -291,11 +302,8 @@ export function buildSiteModel(tables, now = new Date()) {
     attractions,
     accommodations,
     activities,
-    travelArticles: [...(tables.travel_articles || [])].filter((story) => isPublished(story, now)).sort(sortByFeaturedThenOrder).map((story) => {
-      assertRouteSlug(story.slug, 'travel-insights');
-      const words = (story.body || '').replace(/<[^>]*>/g, ' ').trim().split(/\s+/).filter(Boolean).length;
-      return { ...story, internalUrl: '/travel-insights/' + story.slug, read_time: story.read_time || Math.max(1, Math.ceil(words / 200)) + ' min read' };
-    }),
+    travelArticles,
+    localDestinations,
     districts,
     regionsBySlug,
     countriesBySlug,

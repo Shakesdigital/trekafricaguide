@@ -19,6 +19,8 @@ The saved D:\\TrekAfricaGuide path was unavailable. Older project notes identify
 
 ## Page requirements
 
+Local destinations (cities, areas and islands) now use `content/local-destinations.json`; follow [Local destination authoring](local-destinations.md) for fields, explicit country/attraction/activity/stay links, publication rules, shared country cards and nested detail pages. Future editorial runs may add complete researched local guides through this collection. Keep the existing accommodation photography checkpoint active; the new local guides have their own six-photo follow-up in the feature ledger.
+
 - Destinations: why visit, local context, principal and lesser-covered attractions, seasonal tradeoffs, access and suggested routes, linked activities/stays, and practical travel insights.
 - Attractions: appeal and overview, how to get there, best time, realistic planning routes, sourced traveler perspectives, image-led activity listings and nearby stays.
 - Activities: full overview, highlights, best time, routes/planning, related attraction guide, sourced traveler perspectives, and nearby stays. Research duration and suitability instead of inventing them.

@@ -2,6 +2,8 @@
 import SiteLayout from '../../layouts/SiteLayout.astro';
 import PageHero from '../../components/PageHero.astro';
 import ImageSlot from '../../components/ImageSlot.astro';
+import ListingCard from '../../components/ListingCard.astro';
+import CardCarousel from '../../components/CardCarousel.astro';
 import { getSiteModel } from '../../lib/site-model.mjs';
 const model = await getSiteModel();
 ---
@@ -30,4 +32,5 @@ const model = await getSiteModel();
       </div>
     </div>
   </section>
+  {model.localDestinations.length > 0 && <section class="section section--alt"><div class="container"><h2>Cities, areas and islands to explore</h2><p>Open a local guide for attractions, things to do and places to stay within each country.</p><CardCarousel label="Local destination guides">{model.localDestinations.map((item) => <ListingCard item={item} type="destination" />)}</CardCarousel></div></section>}
 </SiteLayout>

@@ -1,7 +1,7 @@
 ---
 const { model } = Astro.props;
 const groups = [
-  ['Destination', model.countries], ['Attraction', model.attractions],
+  ['Country', model.countries], ['Destination', model.localDestinations || []], ['Attraction', model.attractions],
   ['Activity', model.activities], ['Accommodation', model.accommodations],
   ['Travel insight', model.travelArticles]
 ];

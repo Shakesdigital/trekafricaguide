@@ -6,8 +6,9 @@ const isInsight = type === 'insight';
 const title = item.name || item.title;
 const isStay = type === 'accommodation';
 const isActivity = type === 'activity';
+const isDestination = type === 'destination';
 const href = item.internalUrl || `/${isInsight ? 'travel-insights' : isActivity ? 'activities' : isStay ? 'accommodations' : 'attractions'}/${item.slug}`;
-const cta = isInsight ? 'Read travel insight' : isActivity ? (item.cardCta || 'View Activity Detail') : isStay ? 'View stay' : 'View attraction detail';
+const cta = isDestination ? 'View destination guide' : isInsight ? 'Read travel insight' : isActivity ? (item.cardCta || 'View Activity Detail') : isStay ? 'View stay' : 'View attraction detail';
 const location = [item.location_name, item.country?.name].filter(Boolean).join(', ');
 ---
 <article class="listing-card" data-card-type={type} data-country={item.country?.slug || ''}>

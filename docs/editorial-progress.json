@@ -253,5 +253,19 @@
   ],
   "next_task_selection": "After current task is complete, prioritize evidenced accuracy, usability and discoverability gaps; record rationale.",
   "last_run": "2026-10-16T07:35:05+03:00",
-  "task_magnitude": "One complete full guide plus booking and listing cards, or one full property photo collection; do not schedule isolated paragraphs/links."
+  "task_magnitude": "One complete full guide plus booking and listing cards, or one full property photo collection; do not schedule isolated paragraphs/links.",
+  "country_destinations_feature": {
+    "status": "ready_to_publish",
+    "guides": [
+      "uganda/buhoma",
+      "south-africa/cape-town",
+      "tanzania/unguja"
+    ],
+    "photo_counts": [
+      0,
+      0,
+      0
+    ],
+    "next_action": "Push and confirm new routes, country cards and guide search; preserve accommodation photo backlog."
+  }
 }

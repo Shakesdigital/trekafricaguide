@@ -18,6 +18,7 @@ const model = await getSiteModel();
 const { country } = Astro.props;
 const attractions = model.attractions.filter((item) => item.country_id === country.id);
 const stays = model.accommodations.filter((item) => item.country_id === country.id);
+const destinations = model.localDestinations.filter((item) => item.country.slug === country.slug);
 ---
 <SiteLayout model={model} title={country.name} description={country.hero_text || country.overview}>
   <section class="detail-hero"><div class="container">
@@ -38,6 +39,7 @@ const stays = model.accommodations.filter((item) => item.country_id === country.
       <aside class="detail-rail"><div class="info-panel"><p class="eyebrow">Region</p><h3><a href={`/regions/${country.region.slug}`}>{country.region.name}</a></h3></div></aside>
     </div>
   </section>
+  {destinations.length > 0 && <section class="section section--alt"><div class="container"><h2>Destinations in {country.name}</h2><CardCarousel label={`Destinations in ${country.name}`}>{destinations.map((item) => <ListingCard item={item} type="destination" />)}</CardCarousel></div></section>}
   <section class="section section--alt"><div class="container"><h2>Attractions in {country.name}</h2><CardCarousel>{attractions.map((item) => <ListingCard item={item} type="attraction" />)}</CardCarousel></div></section>
   <section class="section"><div class="container"><h2>Nearby stays</h2><CardCarousel label="Nearby stays">{stays.map((item) => <ListingCard item={item} type="accommodation" />)}</CardCarousel></div></section>
 </SiteLayout>

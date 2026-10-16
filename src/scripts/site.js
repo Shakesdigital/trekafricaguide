@@ -4,6 +4,7 @@ document.querySelectorAll('[data-search-ribbon]').forEach((ribbon) => {
   const stay = ribbon.querySelector('[data-stay-fields]');
   const attraction = ribbon.querySelector('[data-attraction-fields]');
   const suggestions = window.trekSearchSuggestions || [];
+  const destinationUrl = (item) => item?.type === 'destination' && /^\/countries\/[a-z0-9-]+\/[a-z0-9-]+$/.test(item.url || '') ? item.url : '';
   const modes = ribbon.querySelectorAll('[data-search-mode]');
   const setMode = (mode) => {
     modes.forEach((button) => button.classList.toggle('is-active', button.dataset.searchMode === mode));
@@ -45,15 +46,27 @@ document.querySelectorAll('[data-search-ribbon]').forEach((ribbon) => {
       option.textContent = item.context ? `${item.label} · ${item.context}` : item.label;
       option.dataset.label = item.label;
       option.setAttribute('role', 'option');
-      option.tabIndex = -1;
-      option.addEventListener('click', () => {
+      option.tabIndex = 0;
+      const choose = () => {
         input.value = item.label;
         close();
+        const url = destinationUrl(item);
+        if (url) window.location.assign(url);
+      };
+      option.addEventListener('click', choose);
+      option.addEventListener('keydown', (event) => {
+        if (event.key === 'Enter' || event.key === ' ') { event.preventDefault(); choose(); }
+        if (event.key === 'Escape') { close(); input.focus(); }
       });
       list.append(option);
     });
     list.hidden = !list.children.length;
     input.setAttribute('aria-expanded', String(!list.hidden));
+  });
+  ribbon.addEventListener('submit', (event) => {
+    const query = input?.value.trim().toLowerCase();
+    const item = suggestions.find((suggestion) => destinationUrl(suggestion) && suggestion.label.toLowerCase() === query);
+    if (item) { event.preventDefault(); window.location.assign(destinationUrl(item)); }
   });
   document.addEventListener('click', (event) => {
     if (!ribbon.contains(event.target)) close();

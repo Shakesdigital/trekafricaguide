@@ -1,0 +1,104 @@
+[
+  {
+    "slug": "buhoma",
+    "country_slug": "uganda",
+    "name": "Buhoma",
+    "category": "Forest gateway",
+    "hero_title": "Buhoma: a base for northern Bwindi",
+    "listing_summary": "Plan a northern Bwindi stay around your trekking sector, with time for forest walks and community-led experiences near Buhoma.",
+    "overview": "Buhoma is a gateway to the northern side of Bwindi Impenetrable National Park in southwestern Uganda. The surrounding steep forest landscape makes this a place to settle into, with gorilla tracking as the main reason many visitors come. A stay here can also include guided forest exploration and a locally hosted village experience.\n\nThe important distinction is between the park as a whole and your actual starting point. Buhoma is one base within a much larger trekking destination. Choose it when it fits the sector on your permit, rather than assuming any accommodation around Bwindi works for every departure. The published Bwindi guide explains the wider park; this guide helps you organize a stay on its northern edge.",
+    "highlights": [
+      "A base for a confirmed Buhoma-sector gorilla trek",
+      "Guided forest walks and birding when locally available",
+      "Community-hosted experiences arranged with the hosts",
+      "Published local stays with their own full property guides"
+    ],
+    "access_summary": "Uganda Wildlife Authority describes road approaches to Buhoma through Kihihi and from the Queen Elizabeth National Park area, and identifies Kihihi airstrip as the northern park's air connection. These still require an onward road transfer. Ask your lodge or operator to confirm the current route, road conditions and collection point.\n\nArrive before your trekking day and confirm the reporting location with your booking provider. Treat a transfer between Bwindi sectors as a separate journey. Avoid building a plan around a short map distance without checking the actual road route.",
+    "best_time": "Choose dates around your confirmed gorilla permit and ability to manage forest conditions. Rain and slippery ground remain part of a rainforest visit. Ask the local team about conditions for the particular walks you want, and carry waterproof layers and footwear with grip. A visit with time for walks benefits from spare time to adapt the day's plan to conditions.",
+    "planning_tips": "A practical starting plan is an arrival day, your main trekking day and onward travel after a second night; add another day if forest walks, birding or a hosted community visit matter to you. This is an editorial pacing suggestion, not a fixed tour duration.\n\nBuhoma Community Rest Camp and the published Gorilla Forest Camp guide are relevant options to compare here. Check each property's current name, room type, access and inclusions directly. Reserve permits separately unless your quotation explicitly includes them. For community activities, ask who leads the experience, how payment reaches the hosts and whether photography is welcome.",
+    "attraction_slugs": ["bwindi-impenetrable-national-park"],
+    "activity_slugs": ["bwindi-gorilla-trekking"],
+    "accommodation_slugs": ["buhoma-community-rest-camp", "sanctuary-gorilla-forest-camp"],
+    "travel_insight_slugs": ["plan-first-east-africa-safari"],
+    "hero_image_url": null,
+    "hero_image_alt": "Buhoma, northern Bwindi, Uganda",
+    "gallery": [],
+    "last_researched": "2026-10-16",
+    "research_sources": [
+      { "label": "Uganda Wildlife Authority: Bwindi location, Buhoma road approaches and Kihihi air access", "url": "https://ugandawildlife.org/national-parks/bwindi-impenetrable-national-park/" },
+      { "label": "Uganda Wildlife Authority: gorilla tracking and forest conditions", "url": "https://ugandawildlife.org/activities/gorilla-tracking/" },
+      { "label": "Buhoma Community Rest Camp: local accommodation and experiences", "url": "https://buhomacommunityrestcamp.com/" }
+    ],
+    "sort_order": 1,
+    "status": "published",
+    "published_at": "2026-10-16T00:00:00Z"
+  },
+  {
+    "slug": "cape-town",
+    "country_slug": "south-africa",
+    "name": "Cape Town",
+    "category": "City",
+    "hero_title": "Cape Town: city days between mountain and coast",
+    "listing_summary": "Build a flexible city stay around Table Mountain, neighborhood time and coastal outings, with a published central stay to compare.",
+    "overview": "Cape Town works well as a destination in its own right or as a city chapter before or after a safari. Table Mountain provides the most obvious geographical anchor, while the city offers neighborhood exploration, food, waterfront time and access to the wider peninsula. The existing Cape Town attraction guide focuses on the mountain experience and nearby planning; use this local destination guide to put it into a broader stay.\n\nResist assigning every day to a long excursion. Group outings by area and leave a clear-weather opportunity for the mountain. A guided hike and a cableway visit involve different preparation and should be chosen deliberately, rather than treated as interchangeable ways to fill an afternoon.",
+    "highlights": [
+      "Table Mountain as the main mountain outing",
+      "A guided-hike option with its own activity guide",
+      "Time for the central city and waterfront",
+      "A slower city stay linked to a wider South Africa route"
+    ],
+    "access_summary": "Choose a base with reference to the outings you want to make. Cape Town Tourism lists public transport, metered taxis, ride-hailing and car hire among the ways to get around. Compare the actual routes and service coverage for your plans before deciding whether to rent a car.\n\nArrange an arrival transfer with a clear meeting point, and confirm how you will return from each outing. For Table Mountain, establish whether you are meeting a hiking guide or visiting the cableway station. Check the operator's current status before leaving, and keep an alternative city activity available.",
+    "best_time": "Cape Town Tourism describes January and February as mostly dry summer months that can also be windy and busy. March and April offer a transition into autumn, with major events affecting some weekends. Winter brings a different balance of city experiences and less reliable outdoor weather.\n\nPick the season for your preferred activities, then keep individual mountain days flexible. A summer booking still needs a weather plan, and a winter visit benefits from options beyond outdoor sightseeing.",
+    "planning_tips": "For an initial visit, consider one day for orientation and the central city, a flexible mountain day and a separate day for a coastal outing. Add time if you want a wider peninsula or winelands itinerary. This is suggested pacing rather than a promise that every route fits a particular day.\n\nThe Mount Nelson guide offers one published central accommodation option; compare its location and room offering with your plans and budget. Open the Table Mountain activity guide for hike-specific preparation, and the Cape Town travel insight for ideas about placing the city before or after a safari. Check current attraction opening arrangements and transport with the operators when reserving.",
+    "attraction_slugs": ["cape-town"],
+    "activity_slugs": ["table-mountain-guided-hike"],
+    "accommodation_slugs": ["mount-nelson-a-belmond-hotel"],
+    "travel_insight_slugs": ["cape-town-before-or-after-safari"],
+    "hero_image_url": null,
+    "hero_image_alt": "Cape Town, South Africa",
+    "gallery": [],
+    "last_researched": "2026-10-16",
+    "research_sources": [
+      { "label": "Cape Town Tourism: Table Mountain visitor context", "url": "https://www.capetown.travel/top-attractions/tablemountain/" },
+      { "label": "Cape Town Tourism: seasons and event tradeoffs", "url": "https://www.capetown.travel/the-best-time-of-year-to-visit-cape-town/" },
+      { "label": "Cape Town Tourism: local transport choices", "url": "https://www.capetown.travel/getting-around-cape-town/" }
+    ],
+    "sort_order": 2,
+    "status": "published",
+    "published_at": "2026-10-16T00:00:00Z"
+  },
+  {
+    "slug": "unguja",
+    "country_slug": "tanzania",
+    "name": "Unguja (Zanzibar Island)",
+    "category": "Island",
+    "hero_title": "Unguja: Stone Town and time on the coast",
+    "listing_summary": "Give Stone Town its own place in a Zanzibar island stay, then choose a coastal base that matches the experience you want.",
+    "overview": "Unguja is the island that many travelers mean when they say Zanzibar. Stone Town lies on its western side and provides a distinct heritage-focused chapter alongside a coastal stay. Its streets and buildings reflect the history of a Swahili trading town and its connections across the Indian Ocean. UNESCO recognizes this urban heritage, including the relationship between its narrow lanes, seafront and public spaces.\n\nUse the published Zanzibar attraction guide for the wider island overview. Here, start by deciding how much time to give Stone Town and whether you also want a separate beach base. A hotel in the historic town suits a different rhythm from a coastal resort; consider them as separate parts of the route rather than interchangeable accommodation locations.",
+    "highlights": [
+      "Stone Town's Swahili urban heritage and historic streets",
+      "A town stay with time for local guiding and food",
+      "A separate coastal chapter chosen around your interests",
+      "A practical connection with a mainland Tanzania safari"
+    ],
+    "access_summary": "Confirm the island arrival point, arrival time and onward transfer with your accommodation before booking the full route. If you are combining a mainland safari with Zanzibar, allow time for that connection and compare the actual departure and arrival points.\n\nFor a Stone Town stay, ask the hotel where a vehicle can meet you and how luggage reaches the entrance through the historic streets. Arrange coastal transfers separately, with the exact village and property name on the booking. Do not assume every beach base is a convenient day-trip starting point for town.",
+    "best_time": "The Zanzibar Commission for Tourism identifies June to October as a generally favorable dry-season window. Use that as a seasonal starting point, then confirm conditions for your chosen coastal activities with the local operator. A town-focused visit and a trip centered on water activities do not have identical weather priorities. Leave flexible time for outdoor plans.",
+    "planning_tips": "Consider an arrival and orientation day in Stone Town, another day for a guided heritage visit and independent time, then a transfer to your chosen coastal base. This is an editorial starting itinerary, not a required tour length. The UNESCO description provides historical context; it does not confirm that every individual monument is currently open. Check access before planning visits around a specific building.\n\nEmerson Spice is a published stay in Stone Town, with its own property guide and exact-property photographs. It is listed here for its town location, not as a beach resort. Ask about the room and access arrangements that matter to you. For a safari combination, open the linked Serengeti and Zanzibar planning insight rather than assuming the island is a short overland extension of the parks.",
+    "attraction_slugs": ["zanzibar"],
+    "activity_slugs": [],
+    "accommodation_slugs": ["emerson-spice"],
+    "travel_insight_slugs": ["combine-serengeti-and-zanzibar"],
+    "hero_image_url": null,
+    "hero_image_alt": "Unguja and Stone Town, Zanzibar, Tanzania",
+    "gallery": [],
+    "last_researched": "2026-10-16",
+    "research_sources": [
+      { "label": "UNESCO: Stone Town location and Swahili urban heritage", "url": "https://whc.unesco.org/en/list/173/" },
+      { "label": "Zanzibar Commission for Tourism: island and dry-season overview", "url": "https://www.zanzibartourism.go.tz/" },
+      { "label": "Emerson Spice: Stone Town location and property identity", "url": "https://emersonspice.com/" }
+    ],
+    "sort_order": 3,
+    "status": "published",
+    "published_at": "2026-10-16T00:00:00Z"
+  }
+]

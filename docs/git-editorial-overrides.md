@@ -1,5 +1,7 @@
 # Repository editorial overrides
 
+For cities, areas and islands within a country, use the separate [local destination collection](local-destinations.md) in `content/local-destinations.json`. Do not add a Supabase table or place these records in the five-table override object.
+
 Edit [`content/editorial-overrides.json`](../content/editorial-overrides.json) to maintain countries, attractions, accommodations, activities, and travel insights through Git. The build still loads its required Supabase content first; these rows are then merged before normal publication filtering. Supabase connection or query errors still fail the build.
 
 Each top-level key is one supported table and its value is an array of records. Match an existing record by its stable `id` or `slug`; supplied fields replace those values while omitted fields stay as they are. Existing Supabase IDs are preserved. New records need a unique lowercase `slug`, the required fields for their type, and `status: "published"` to appear publicly. Unpublished or future-dated records remain hidden under the usual publication rules. New records get a build-only ID of `repo:<table>:<slug>`.

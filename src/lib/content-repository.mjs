@@ -64,6 +64,7 @@ const TABLE_NAMES = [
 const OPTIONAL_NEW_TABLES = new Set(['activities', 'travel_articles']);
 
 const EDITORIAL_OVERRIDE_PATH = resolve(process.cwd(), 'content/editorial-overrides.json');
+const LOCAL_DESTINATIONS_PATH = resolve(process.cwd(), 'content/local-destinations.json');
 const EDITORIAL_FIELDS = {
   countries: new Set(['id', 'region_id', 'slug', 'name', 'hero_title', 'hero_text', 'overview', 'access_summary', 'best_time', 'planning_tips', 'hero_image_url', 'hero_image_alt', 'gallery', 'sort_order', 'status', 'published_at', 'featured']),
   attractions: new Set(['id', 'region_id', 'country_id', 'slug', 'name', 'location_name', 'hero_image_url', 'hero_image_alt', 'gallery', 'listing_summary', 'detail_intro', 'full_description', 'getting_there', 'best_time', 'practical_info', 'highlights', 'rating', 'review_count', 'price_label', 'booking_url', 'featured', 'sort_order', 'status', 'published_at']),
@@ -174,6 +175,14 @@ export async function loadPublishedTables(client, now = new Date()) {
 
   // Repository overrides affect editorial rows only and still pass through publication filtering.
   mergeEditorialOverrides(tables, await readEditorialOverrides());
+  // Git-managed only: do not query a new Supabase table.
+  try {
+    const destinations = JSON.parse(await readFile(LOCAL_DESTINATIONS_PATH, 'utf8'));
+    if (!Array.isArray(destinations)) throw new Error('expected an array');
+    tables.local_destinations = visibleRecords(destinations, now);
+  } catch (error) {
+    throw new Error(`Failed to load local destinations at ${LOCAL_DESTINATIONS_PATH}: ${error.message}`);
+  }
 
   // Publication filtering
   tables.regions = visibleRecords(tables.regions, now);
@@ -230,6 +239,7 @@ export async function loadContent({ env, client, now = new Date(), fixturePath }
     return {
       regions: visibleRecords(raw.regions || [], nowDate),
       countries: visibleRecords(raw.countries || [], nowDate),
+      local_destinations: visibleRecords(raw.local_destinations || [], nowDate),
       districts: visibleRecords(raw.districts || [], nowDate),
       attractions: visibleRecords(raw.attractions || [], nowDate),
       activities: visibleRecords(raw.activities || [], nowDate),
