@@ -2670,6 +2670,22 @@ export const photoLibrary = {
       "property": true,
       "checked_at": "2026-10-16",
       "capture_date": "2017-09-11"
+    },
+    "/images/editorial/victoria-falls-hotel/garden-facade-2010.jpg": {
+      "slug": "victoria-falls-hotel",
+      "local_path": "/images/editorial/victoria-falls-hotel/garden-facade-2010.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Victoria_Falls_Hotel.jpg",
+      "creator": "Ryan McFarland",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "sha256": "a460e142ed91d59eec555f6864911f09f954700011c39ec67a6dccc6000e0543",
+      "exact_subject": true,
+      "subject": "Victoria Falls Hotel",
+      "alt": "Victoria Falls Hotel facade beyond a garden path and red planters, photographed in April 2010",
+      "caption": "Hotel facade and garden, April 2010. Ryan McFarland, CC BY 2.0. Original image unchanged.",
+      "property": true,
+      "checked_at": "2026-10-16",
+      "capture_date": "2010-04-05"
     }
   },
   "listings": {
@@ -3561,7 +3577,8 @@ export const photoLibrary = {
           "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Victoria_Falls_Hotel_from_behind.jpg/1280px-Victoria_Falls_Hotel_from_behind.jpg",
           "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Entrance_to_Victoria_Falls_Hotel.jpg/1280px-Entrance_to_Victoria_Falls_Hotel.jpg",
           "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Victoria_Falls_2012_05_23_1355_%287421822592%29.jpg/1280px-Victoria_Falls_2012_05_23_1355_%287421822592%29.jpg",
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Victoria_Falls_2012_05_23_1360_%287421824082%29.jpg/1280px-Victoria_Falls_2012_05_23_1360_%287421824082%29.jpg"
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Victoria_Falls_2012_05_23_1360_%287421824082%29.jpg/1280px-Victoria_Falls_2012_05_23_1360_%287421824082%29.jpg",
+          "/images/editorial/victoria-falls-hotel/garden-facade-2010.jpg"
         ]
       },
       "red-chilli-rest-camp": {
