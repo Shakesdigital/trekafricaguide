@@ -1,7 +1,7 @@
 {
   "updated_at": "2026-10-16",
   "timezone": "Africa/Kampala",
-  "next_scheduled_start": "2026-10-16T07:30:00+03:00",
+  "next_scheduled_start": "2026-10-16T10:30:00+03:00",
   "cadence_hours": 3,
   "active_task": {
     "id": "accommodation-property-photos",
@@ -14,8 +14,8 @@
       "Keep incomplete new guides as drafts, complete their editorial review before publication.",
       "Send owner a confirmed progress report and save its send receipt."
     ],
-    "last_completed_action": "Buhoma guide e1cb69a live-confirmed HTTP 200 with existing photo and unavailable booking message; archive/Bwindi cards confirmed.",
-    "next_action": "Source complete Buhoma Community Rest Camp photo collection, reusing existing one licensed image. Need five additional actual-property photos; booking activation remains blocked until exact OTA accepts reservations. Do not repeat completed guide research.",
+    "last_completed_action": "Prepared five visually inspected USAID public-domain photographs; Buhoma gallery now six including existing verified photo. Publication pending.",
+    "next_action": "Commit and push Buhoma photo collection, confirm live gallery, email owner.",
     "subtasks": [
       {
         "id": "source-four-property-batch",
@@ -216,7 +216,7 @@
       },
       {
         "slug": "buhoma-community-rest-camp",
-        "count": 1,
+        "count": 6,
         "status": "published; live confirmed 2026-10-16"
       },
       {
@@ -234,7 +234,7 @@
     "blockers": [
       "Amboseli Serena photo collection needs two suitable reusable property photos: pool and dining/common area. Focused search found no suitable additions.",
       "Red Chilli: six property photos need reuse permission or owner originals; official gallery identified but not licensed for reuse.",
-      "Buhoma exact Booking.com listing not taking reservations; no active affiliate booking CTA until reverified. Five more property photos needed."
+      "Buhoma exact Booking.com listing not taking reservations; no active affiliate booking CTA until reverified."
     ]
   },
   "rules": [
@@ -244,6 +244,6 @@
     "No routine tests/builds or repeated broad audits."
   ],
   "next_task_selection": "After current task is complete, prioritize evidenced accuracy, usability and discoverability gaps; record rationale.",
-  "last_run": "2026-10-16T04:35:01+03:00",
+  "last_run": "2026-10-16T07:35:05+03:00",
   "task_magnitude": "One complete full guide plus booking and listing cards, or one full property photo collection; do not schedule isolated paragraphs/links."
 }

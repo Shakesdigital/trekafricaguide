@@ -1,7 +1,7 @@
 // Curated source. Run node scripts/sync-photo-library.mjs after editing.
 // Curated free photography; source and licence metadata travel with each image.
 export const photoLibrary = {
-  "updated_at": "2026-10-14",
+  "updated_at": "2026-10-16",
   "images": {
     "/images/stock/destinations/bwindi-impenetrable-national-park.jpg": {
       "slug": "bwindi-impenetrable-national-park",
@@ -2590,6 +2590,86 @@ export const photoLibrary = {
       "sha256": "bc2f83f192b59c6764d78977e7b6e675a95d951a42d70c016a80d211d321bce4",
       "subject": "Amboseli Serena Safari Lodge",
       "checked_at": "2026-10-14"
+    },
+    "/images/editorial/buhoma-community-rest-camp/usaid-25422642687.jpg": {
+      "slug": "buhoma-community-rest-camp",
+      "local_path": "/images/editorial/buhoma-community-rest-camp/usaid-25422642687.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:USAID_Measuring_Impact_Conservation_Enterprise_Retrospective_(Uganda;_International_Gorilla_Conservation_Program)_(25422642687).jpg",
+      "creator": "Jason Houston for USAID",
+      "license": "Public domain (USAID)",
+      "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov-USAID",
+      "sha256": "df687d2c610de18650cf94675f1e3f18d6938e63707153fa16e7aef37e4c4280",
+      "exact_subject": true,
+      "subject": "Buhoma Community Rest Camp",
+      "alt": "Open-sided dining and lounge area at Buhoma Community Rest Camp, September 2017",
+      "caption": "Open-sided dining and lounge area at Buhoma Community Rest Camp, September 2017",
+      "property": true,
+      "checked_at": "2026-10-16",
+      "capture_date": "2017-09-11"
+    },
+    "/images/editorial/buhoma-community-rest-camp/usaid-38484041190.jpg": {
+      "slug": "buhoma-community-rest-camp",
+      "local_path": "/images/editorial/buhoma-community-rest-camp/usaid-38484041190.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:USAID_Measuring_Impact_Conservation_Enterprise_Retrospective_(Uganda;_International_Gorilla_Conservation_Program)_(38484041190).jpg",
+      "creator": "Jason Houston for USAID",
+      "license": "Public domain (USAID)",
+      "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov-USAID",
+      "sha256": "fd9ac51bcbb5aa4929e10e03d310676dd9aae94a26047f4882a1e7d6df5f0f57",
+      "exact_subject": true,
+      "subject": "Buhoma Community Rest Camp",
+      "alt": "Buhoma Community Rest Camp cottages and garden paths, September 2017",
+      "caption": "Buhoma Community Rest Camp cottages and garden paths, September 2017",
+      "property": true,
+      "checked_at": "2026-10-16",
+      "capture_date": "2017-09-11"
+    },
+    "/images/editorial/buhoma-community-rest-camp/usaid-40248730392.jpg": {
+      "slug": "buhoma-community-rest-camp",
+      "local_path": "/images/editorial/buhoma-community-rest-camp/usaid-40248730392.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:USAID_Measuring_Impact_Conservation_Enterprise_Retrospective_(Uganda;_International_Gorilla_Conservation_Program)_(40248730392).jpg",
+      "creator": "Jason Houston for USAID",
+      "license": "Public domain (USAID)",
+      "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov-USAID",
+      "sha256": "7bd3bd7baf11dc7e75ac0102d61ec7430b24c151c81f0393e86ca19856e3b9a7",
+      "exact_subject": true,
+      "subject": "Buhoma Community Rest Camp",
+      "alt": "Raised accommodation and wooded path at Buhoma Community Rest Camp, September 2017",
+      "caption": "Raised accommodation and wooded path at Buhoma Community Rest Camp, September 2017",
+      "property": true,
+      "checked_at": "2026-10-16",
+      "capture_date": "2017-09-11"
+    },
+    "/images/editorial/buhoma-community-rest-camp/usaid-40293923761.jpg": {
+      "slug": "buhoma-community-rest-camp",
+      "local_path": "/images/editorial/buhoma-community-rest-camp/usaid-40293923761.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:USAID_Measuring_Impact_Conservation_Enterprise_Retrospective_(Uganda;_International_Gorilla_Conservation_Program)_(40293923761).jpg",
+      "creator": "Jason Houston for USAID",
+      "license": "Public domain (USAID)",
+      "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov-USAID",
+      "sha256": "64fa4174e82cf5c209d3e824f85d991f1ef6f5dc1a9fddecaf45402ade5282f4",
+      "exact_subject": true,
+      "subject": "Buhoma Community Rest Camp",
+      "alt": "Bush Baby accommodation entrance at Buhoma Community Rest Camp, September 2017",
+      "caption": "Bush Baby accommodation entrance at Buhoma Community Rest Camp, September 2017",
+      "property": true,
+      "checked_at": "2026-10-16",
+      "capture_date": "2017-09-11"
+    },
+    "/images/editorial/buhoma-community-rest-camp/usaid-26421439078.jpg": {
+      "slug": "buhoma-community-rest-camp",
+      "local_path": "/images/editorial/buhoma-community-rest-camp/usaid-26421439078.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:USAID_Measuring_Impact_Conservation_Enterprise_Retrospective_(Uganda;_International_Gorilla_Conservation_Program)_(26421439078).jpg",
+      "creator": "Jason Houston for USAID",
+      "license": "Public domain (USAID)",
+      "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov-USAID",
+      "sha256": "9024641fb92399a311d6aee57da907f19a863f82a1b3d9b505104dd12c9e94e9",
+      "exact_subject": true,
+      "subject": "Buhoma Community Rest Camp",
+      "alt": "Painted shop front and basket display at the community craft shop on Buhoma camp grounds, September 2017",
+      "caption": "Painted shop front and basket display at the community craft shop on Buhoma camp grounds, September 2017",
+      "property": true,
+      "checked_at": "2026-10-16",
+      "capture_date": "2017-09-11"
     }
   },
   "listings": {
@@ -3495,7 +3575,12 @@ export const photoLibrary = {
         "hero_image_alt": "Hotel Buhoma Community Camp",
         "replaces": [],
         "gallery": [
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Hotel_Buhoma_Comunity_Camp_20190923_154959.jpg/1280px-Hotel_Buhoma_Comunity_Camp_20190923_154959.jpg"
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Hotel_Buhoma_Comunity_Camp_20190923_154959.jpg/1280px-Hotel_Buhoma_Comunity_Camp_20190923_154959.jpg",
+          "/images/editorial/buhoma-community-rest-camp/usaid-25422642687.jpg",
+          "/images/editorial/buhoma-community-rest-camp/usaid-38484041190.jpg",
+          "/images/editorial/buhoma-community-rest-camp/usaid-40248730392.jpg",
+          "/images/editorial/buhoma-community-rest-camp/usaid-40293923761.jpg",
+          "/images/editorial/buhoma-community-rest-camp/usaid-26421439078.jpg"
         ]
       },
       "desert-quiver-camp": {
