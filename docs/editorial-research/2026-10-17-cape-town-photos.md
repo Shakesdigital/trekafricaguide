@@ -15,8 +15,10 @@ Six distinct, location-specific photographs were added to the published Cape Tow
 
 The Camps Bay frame includes beach visitors; Commons identifies the scene as Camps Bay and documents its reuse license. It is ordinary travel context and does not imply endorsement. The harbor photograph shows working harbor boats, not a hotel or cruise service. All image files are stored locally; no external image hotlinks are used.
 
-## Publication and next work
+## Push, live check and report
 
-Publication evidence, owner email receipt, and commit are appended after push/live confirmation. No tests, build, or browser QA run, per standing instructions.
+Photo commit `6b9f944` was included in combined pushed main commit `4f76457`. The guide URL returned HTTP 200 with its expected title, but its HTML still contained none of the six new image paths. Each new image URL returned 404 on two checks, including a second check after about one minute. The homepage returned HTTP 200 with zero Google tag loader matches. Netlify project/deployment status lookup failed because both connected accounts require reauthentication. The site deployment is therefore pending; the photographs and GA change are not confirmed live.
 
-After this destination collection, the next rotation is travel insights. Select one complete planning insight beyond existing catalogue coverage, record why it fills a distinct traveler need, and execute it at the next 04:30 Kampala run; do not begin it during this run.
+Owner email sent to `fsddanmugisa@gmail.com`; Gmail SENT ID `1a146e93732e7847`. The report includes the confirmed guide URL, six sources and licenses, the live gap, the next insight candidate, and a request for input. No tests, build, or browser QA run, per standing instructions.
+
+At the next 04:30 Kampala run, resume by confirming the Cape Town gallery and homepage GA loader are both live before rotating categories. Then proceed to travel insights: a guide to choosing a Cape Town base by outing pattern (City Bowl, Sea Point, Atlantic seaboard), distinct from the existing “Cape Town Before or After Safari?” article. This next insight is only selected; no work on it has begun.
