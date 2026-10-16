@@ -345,6 +345,18 @@
       "checked_at": "2026-10-11",
       "evidence_url": "https://www.getyourguide.com/oceanair-egypt-s462166/",
       "notes": "Departs from Cairo or Giza. Check the selected entrance-ticket option, hotel pickup zone and any extras before booking."
+    },
+    "stone-town-historical-walking-tour": {
+      "url": "https://www.getyourguide.com/zanzibar-tsiti-l872/kameni-grad-vodjeni-istorijski-obilazak-grada-t566480/",
+      "provider": "getyourguide",
+      "title": "Stone Town: Guided Historical Walking City Tour",
+      "operator": "Zanziworld Tours",
+      "checked_at": "2026-10-16",
+      "notes": "Exact product 566480 identified from a retrieved listing. Live refresh was blocked; confirm current availability and meeting/pickup arrangements. Historical review sample is small; no current ranking claimed.",
+      "evidence": {
+        "source_url": "https://www.getyourguide.com/zanzibar-tsiti-l872/kameni-grad-vodjeni-istorijski-obilazak-grada-t566480/",
+        "summary": "Retrieved listing identifies product/operator. Direct HTTP refresh 403; current rates, availability and review totals not confirmed."
+      }
     }
   },
   "attractions": {

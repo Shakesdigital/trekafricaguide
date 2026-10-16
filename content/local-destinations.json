@@ -123,7 +123,9 @@
     "attraction_slugs": [
       "zanzibar"
     ],
-    "activity_slugs": [],
+    "activity_slugs": [
+      "stone-town-historical-walking-tour"
+    ],
     "accommodation_slugs": [
       "emerson-spice"
     ],

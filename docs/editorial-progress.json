@@ -278,19 +278,14 @@
     "rule": "Finish interrupted individual deliverables, then switch category. Outstanding category-wide photo backlog does not prevent rotation."
   },
   "current_deliverable": {
-    "id": "bwindi-sector-stay-insight",
-    "category": "travel_insights",
-    "status": "complete",
-    "acceptance_criteria": [
-      "Original sourced practical article",
-      "Link from Buhoma guide",
-      "Publish and confirm live",
-      "Email owner"
+    "id": "stone-town-walking-tour",
+    "category": "activities",
+    "status": "ready_to_publish",
+    "next_action": "Push and confirm exact Stay22 target, internal cards and neutral gallery.",
+    "sources": [
+      "https://www.getyourguide.com/zanzibar-tsiti-l872/kameni-grad-vodjeni-istorijski-obilazak-grada-t566480/",
+      "https://whc.unesco.org/en/list/173/"
     ],
-    "next_action": "Rotate to one new activity guide and verified exact OTA booking destination.",
-    "photo_count": 0,
-    "commit": "7a579ac",
-    "live_verification": "Article and Buhoma guide HTTP 200 with article title and link.",
-    "email_id": "1a14443ab535e1d7"
+    "photo_count": 0
   }
 }

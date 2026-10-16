@@ -134,7 +134,7 @@ export function buildSiteModel(tables, now = new Date()) {
     const attraction = attractionsById.get(activity.attraction_id);
     if (!attraction) throw new Error(`Activity ${activity.slug} has missing attraction ${activity.attraction_id}`);
     const joined = { ...activity, attraction, country: attraction.country, region: attraction.region,
-      hero_image_url: activity.hero_image_url || attraction.hero_image_url,
+      hero_image_url: activity.hero_image_url === null ? null : activity.hero_image_url || attraction.hero_image_url,
       heroMedia: resolveHeroMedia(forEntity(tables.media_assets, 'activity', activity.id)),
       internalUrl: `/activities/${activity.slug}`, routeFamily: 'activities' };
     activitiesById.set(activity.id, joined);

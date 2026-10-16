@@ -23,7 +23,7 @@ const activityText = (value) => linkAttractionMentions(value, model.attractions)
   <section class="detail-hero"><div class="container">
     <Breadcrumbs items={[{ label: activity.country.name, href: `/countries/${activity.country.slug}` }, { label: activity.attraction.name, href: activity.attraction.internalUrl }, { label: activity.name }]} />
     <div class="listing-head"><p class="eyebrow">{activity.attraction.name} · {activity.country.name}</p><h1>{activity.name}</h1></div>
-    <Gallery images={normalizeList(activity.gallery).length ? normalizeList(activity.gallery) : [activity.hero_image_url || activity.attraction.hero_image_url]} alt={activity.name} />
+    <Gallery images={normalizeList(activity.gallery).length ? normalizeList(activity.gallery) : [activity.hero_image_url]} alt={activity.name} />
       
   </div></section>
   <section class="section"><div class="container detail-grid"><div class="detail-main">
