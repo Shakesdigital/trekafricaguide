@@ -214,8 +214,8 @@
       },
       {
         "slug": "victoria-falls-hotel",
-        "count": 5,
-        "status": "existing published"
+        "count": 6,
+        "status": "published; live confirmed 2026-10-16"
       },
       {
         "slug": "red-chilli-rest-camp",
@@ -238,7 +238,7 @@
         "status": "published; live confirmed 2026-10-15"
       }
     ],
-    "current_subtask": "victoria-falls-hotel-photo-collection",
+    "current_subtask": "Backlog; Victoria Falls Hotel collection completed. Rotate categories.",
     "blockers": [
       "Amboseli Serena photo collection needs two suitable reusable property photos: pool and dining/common area. Focused search found no suitable additions.",
       "Red Chilli: six property photos need reuse permission or owner originals; official gallery identified but not licensed for reuse.",
@@ -252,7 +252,7 @@
     "No routine tests/builds or repeated broad audits."
   ],
   "next_task_selection": "After current task is complete, prioritize evidenced accuracy, usability and discoverability gaps; record rationale.",
-  "last_run": "2026-10-16T19:28:45+03:00",
+  "last_run": "2026-10-16T22:34:49+03:00",
   "task_magnitude": "One complete full guide plus booking and listing cards, or one full property photo collection; do not schedule isolated paragraphs/links.",
   "country_destinations_feature": {
     "status": "complete",
@@ -272,21 +272,25 @@
     "email_id": "1a143a69416cf3d1"
   },
   "rotation": {
-    "last_completed_category": "attractions",
-    "next_category": "accommodations",
-    "next_deliverable": "Complete Victoria Falls Hotel six-photo collection from five verified photographs.",
+    "last_completed_category": "accommodations",
+    "next_category": "destinations",
+    "next_deliverable": "Complete Cape Town local destination photo collection; six licensed subject-specific photos, credits and live confirmation.",
     "rule": "Finish interrupted individual deliverables, then switch category. Outstanding category-wide photo backlog does not prevent rotation."
   },
   "current_deliverable": {
     "id": "victoria-falls-hotel-photo-collection",
     "category": "accommodations",
-    "status": "in_progress",
-    "next_action": "Brief diff review, commit/push and live confirmation.",
+    "status": "complete",
+    "next_action": "Rotate to destinations: Cape Town photo collection.",
     "acceptance_criteria": [
       "Six distinct exact-property photos",
       "Source/license/date credits",
       "Live confirmation",
       "Owner email"
-    ]
-  }
+    ],
+    "commit": "8d7038c",
+    "live_verification": "Page HTTP200 includes new image and Ryan McFarland credit; image HTTP200 image/jpeg.",
+    "email_id": "1a1463b5f193707d"
+  },
+  "next_scheduled_run": "2026-10-17T01:30:00+03:00"
 }
