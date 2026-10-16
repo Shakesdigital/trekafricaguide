@@ -143,3 +143,6 @@ One task means one complete useful deliverable: for example, a researched full a
 
 ## Balanced content rotation — 16 October 2026
 Finish an individual deliverable and required fixes, then switch content category: accommodations, travel insights, activities, attractions, country/local destinations. Resume interrupted deliverables first, but keep category-wide image gaps as a backlog rather than blocking other categories. Record last/next category in the progress ledger. Exact OTA detail-page destinations through Stay22 are mandatory for booking CTAs; suppress unavailable/unverified matches, never substitute searches or homepages. Three-hour schedule unchanged.
+
+## Broader African coverage — 16 October 2026
+The owner encourages researched new coverage beyond the current catalogue: countries, local destinations, attractions, activities, accommodations, culture, food, arts, history, community-led experiences and practical insights. Choose useful coverage gaps across Africa while rotating content categories. Stay within supported fields/templates and canonical relationships; preserve factual, media-rights and exact OTA booking requirements. Complete one useful deliverable per task, with image gaps tracked separately.
