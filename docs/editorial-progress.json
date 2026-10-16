@@ -1,7 +1,7 @@
 {
   "updated_at": "2026-10-16",
   "timezone": "Africa/Kampala",
-  "next_scheduled_start": "2026-10-16T19:30:00+03:00",
+  "next_scheduled_start": "2026-10-16T22:30:00+03:00",
   "cadence_hours": 3,
   "active_task": {
     "id": "accommodation-property-photos",
@@ -252,7 +252,7 @@
     "No routine tests/builds or repeated broad audits."
   ],
   "next_task_selection": "After current task is complete, prioritize evidenced accuracy, usability and discoverability gaps; record rationale.",
-  "last_run": "2026-10-16T16:32:44+03:00",
+  "last_run": "2026-10-16T19:28:45+03:00",
   "task_magnitude": "One complete full guide plus booking and listing cards, or one full property photo collection; do not schedule isolated paragraphs/links.",
   "country_destinations_feature": {
     "status": "complete",
@@ -272,21 +272,29 @@
     "email_id": "1a143a69416cf3d1"
   },
   "rotation": {
-    "last_completed_category": "activities",
-    "next_category": "attractions",
-    "next_deliverable": "Finish an image-ready attraction draft using saved research, prioritizing Jozani for the Unguja cluster.",
+    "last_completed_category": "attractions",
+    "next_category": "accommodations",
+    "next_deliverable": "Complete Victoria Falls Hotel six-photo collection from five verified photographs.",
     "rule": "Finish interrupted individual deliverables, then switch category. Outstanding category-wide photo backlog does not prevent rotation."
   },
   "current_deliverable": {
     "id": "jozani-attraction-publication",
     "category": "attractions",
-    "status": "ready_to_publish",
-    "next_action": "Commit, push and confirm Jozani guide and Unguja card; report six existing photos and booking/stay gaps.",
+    "status": "complete",
+    "next_action": "Rotate to accommodations; resume Victoria Falls Hotel image collection.",
     "acceptance_criteria": [
       "Complete guide with honest booking/nearby limitations",
       "Unguja relationship",
       "Live publication confirmation",
       "Owner report"
+    ],
+    "commit": "6bfc91a",
+    "live_verification": "Jozani and Unguja HTTP200; six gallery references, feedback, unavailable booking message confirmed.",
+    "email_id": "1a1458ea539e2153",
+    "followups": [
+      "Exact OTA match",
+      "Verified nearby stay records",
+      "Dedicated activity records"
     ]
   }
 }
