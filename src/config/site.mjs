@@ -28,5 +28,6 @@ export const DEFAULT_BRAND = Object.freeze({
 // Feature flag: restaurants are disabled in the Astro migration.
 export const RESTAURANTS_ENABLED = false;
 
-// Stay22 default affiliate ID (public publishable identifier only).
-export const DEFAULT_AFFILIATE_ID = '6a809892f76b8b75f2a2e6a4';
+// Distinct public IDs verified from the active Stay22 script configuration.
+export const DEFAULT_AFFILIATE_ID = 'trekafricaguide';
+export const STAY22_SCRIPT_ID = '6a809892f76b8b75f2a2e6a4';
