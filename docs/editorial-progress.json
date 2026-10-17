@@ -272,28 +272,39 @@
     "email_id": "1a143a69416cf3d1"
   },
   "rotation": {
-    "last_completed_category": "destinations",
-    "next_category": "travel_insights",
-    "next_deliverable": "Choosing a Cape Town base by outing pattern; researched practical guide with canonical related links, image backlog if necessary, publication and owner report.",
+    "last_completed_category": "travel_insights",
+    "next_category": "activities",
+    "next_deliverable": "Select one well-sourced activity for the next content run; consider a locally guided food or craft experience in Marrakech as a new-coverage candidate after confirming current provider details, cultural context and fit with published guides.",
     "rule": "Finish interrupted individual deliverables, then switch category. Outstanding category-wide photo backlog does not prevent rotation."
   },
   "current_deliverable": {
-    "id": "cape-town-photo-collection",
-    "category": "destinations",
-    "status": "complete",
-    "next_action": "Rotate to travel insights: choosing a Cape Town base by planned outings.",
+    "id": "cape-town-base-by-outings-insight",
+    "category": "travel_insights",
+    "status": "in_progress",
+    "next_action": "Research and publish a new Cape Town base-by-outings travel insight, add it to Cape Town related insights, record image shortfall separately, push main and confirm deployment outcome, then send the owner report.",
     "acceptance_criteria": [
-      "Six distinct, location-verified Cape Town photos",
-      "Source/license/date credits",
-      "Live confirmation",
-      "Owner email"
+      "New, distinct practical travel insight based on City Bowl, Sea Point and Atlantic Seaboard outing patterns",
+      "Exact official source URLs and research date stored in content and source ledger",
+      "Canonical Cape Town and published guide links; travel_insight_slugs relation updated",
+      "Complete text publishable with neutral image state; explicit six-photo follow-up recorded",
+      "Push main and separately confirm live outcome",
+      "Owner email with send receipt"
     ],
-    "photo_count": 6,
-    "commit": "6b9f944 (included in pushed main 4f76457)",
-    "live_verification": "2026-10-17 04:33 Kampala: Cape Town HTML includes all six gallery paths and creator/license credits; all six assets HTTP200 image/jpeg. Homepage, Cape Town and Victoria Falls Hotel each contain one GA loader immediately after head.",
-    "email_id": "1a14780582259d3e"
+    "research_checked": "2026-10-17",
+    "sources_checked": [
+      "https://www.capetown.travel/the-best-areas-to-stay-in-cape-town/",
+      "https://www.capetown.travel/areas/central-city/",
+      "https://www.capetown.travel/areas/atlantic-seaboard/",
+      "https://www.capetown.travel/sea-point/",
+      "https://www.capetown.travel/getting-around-cape-town-heres-your-complete-transport-guide/",
+      "https://www.myciti.org.za/en/routes-stops/route-stop-station-map/",
+      "https://www.capetown.travel/neighbourhood/camps-bay/"
+    ],
+    "image_count": 0,
+    "image_followup": "Six distinct insight-specific photographs required; do not borrow Cape Town local-destination or other existing galleries.",
+    "checkpoint": "Draft complete and content JSON/relationship inspected; seven exact official source URLs and 2026-10-17 checked date are recorded in the insight and dated ledger. No tests/build/browser QA. Next: brief diff review, commit/push main, bounded live check, then Gmail owner report."
   },
-  "next_scheduled_run": "2026-10-17T07:30:00+03:00",
+  "next_scheduled_run": "2026-10-17T10:30:00+03:00",
   "analytics_installation": {
     "measurement_id": "G-ZWBZRQPBK7",
     "commit": "4f76457",
