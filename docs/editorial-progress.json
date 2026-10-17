@@ -278,34 +278,33 @@
     "rule": "Finish interrupted individual deliverables, then switch category. Outstanding category-wide photo backlog does not prevent rotation."
   },
   "current_deliverable": {
-    "id": "cape-town-base-by-outings-insight",
-    "category": "travel_insights",
-    "status": "complete",
-    "next_action": "At 10:30 Kampala, begin the activities category; assess a locally guided Marrakech food or craft experience as a new-coverage candidate after source and cultural-context checks.",
+    "id": "marrakech-medina-street-food-walk",
+    "category": "activities",
+    "status": "drafted",
+    "next_action": "Inspect the activity, OTA registry and dated ledger diff; update this checkpoint, commit/push main, confirm the live activity page and exact Stay22 destination plus parent attraction/card relationship, then send the authorized owner email.",
     "acceptance_criteria": [
-      "New, distinct practical travel insight based on City Bowl, Sea Point and Atlantic Seaboard outing patterns",
-      "Exact official source URLs and research date stored in content and source ledger",
-      "Canonical Cape Town and published guide links; travel_insight_slugs relation updated",
-      "Complete text publishable with neutral image state; explicit six-photo follow-up recorded",
-      "Push main and separately confirm live outcome",
+      "Complete evidence-backed guide to a verified Marrakech Medina food-walk product",
+      "Canonical Marrakech And Atlas attraction ID 58 parent and exact GetYourGuide product relationship",
+      "Official tourism/heritage context and dated exact-product traveler feedback stored in the dated ledger",
+      "Neutral image state and explicit six-photo follow-up recorded",
+      "Push main and separately confirm live page, listing relationship and Stay22 destination",
       "Owner email with send receipt"
     ],
     "research_checked": "2026-10-17",
     "sources_checked": [
-      "https://www.capetown.travel/the-best-areas-to-stay-in-cape-town/",
-      "https://www.capetown.travel/areas/central-city/",
-      "https://www.capetown.travel/areas/atlantic-seaboard/",
-      "https://www.capetown.travel/sea-point/",
-      "https://www.capetown.travel/getting-around-cape-town-heres-your-complete-transport-guide/",
-      "https://www.myciti.org.za/en/routes-stops/route-stop-station-map/",
-      "https://www.capetown.travel/neighbourhood/camps-bay/"
+      "https://whc.unesco.org/en/list/331/",
+      "https://ich.unesco.org/en/RL/lespace-culturel-de-la-place-jemaa-el-fna-00014",
+      "https://www.visitmorocco.com/en/travel-info/food-drinks",
+      "https://www.visitmorocco.com/en/travel/marrakech/shopping",
+      "https://www.getyourguide.com/en-gb/argana-l191087/marrakech-street-food-tour-with-a-local-guide-t490970/"
     ],
     "image_count": 0,
-    "image_followup": "Six distinct insight-specific photographs required; do not borrow Cape Town local-destination or other existing galleries.",
-    "commit": "660fe3d",
-    "live_verification": "2026-10-17 07:35 Kampala: first request returned 404; after one 60-second interval retry, the exact insight URL returned HTTP 200 with expected title, City Bowl section and MyCiTi source list.",
-    "email_id": "1a148262f1ce457e",
-    "checkpoint": "Complete: content and Cape Town relation pushed in 660fe3d; live page confirmed after one bounded retry; owner report sent via Gmail, SENT ID 1a148262f1ce457e. Seven official sources and 0/6 insight-specific photo count are in the dated ledger. No tests/build/browser QA. Next category activities at 10:30 Kampala."
+    "image_followup": "Six distinct Marrakech food-walk photos required; do not borrow the parent attraction gallery, use OTA photos, or depict this named guide without permission.",
+    "booking_product": "GetYourGuide 490970, exact product detail checked 2026-10-17; provider Reiseführer Abdo. Product page lists 4.8/5 from 4,104 reviews, three hours, Argana start/finish; recent verified feedback includes Sep 2026 reviews with both praise and practical caveats.",
+    "commit": null,
+    "live_verification": null,
+    "email_id": null,
+    "checkpoint": "Draft saved 2026-10-17 Kampala in editorial-overrides.json, booking-destinations.json and dated source ledger. Parent attraction ID 58 and exact GYG 490970 destination recorded; 0/6 neutral photos. Diff inspection, push, live HTTP/Stay22/relationship check and owner report remain. If deployment is pending, keep this deliverable active and retain last completed category travel_insights."
   },
   "next_scheduled_run": "2026-10-17T10:30:00+03:00",
   "analytics_installation": {

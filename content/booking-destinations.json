@@ -357,6 +357,20 @@
         "source_url": "https://www.getyourguide.com/zanzibar-tsiti-l872/kameni-grad-vodjeni-istorijski-obilazak-grada-t566480/",
         "summary": "Retrieved listing identifies product/operator. Direct HTTP refresh 403; current rates, availability and review totals not confirmed."
       }
+    },
+    "marrakech-medina-street-food-tour": {
+      "url": "https://www.getyourguide.com/en-gb/argana-l191087/marrakech-street-food-tour-with-a-local-guide-t490970/",
+      "provider": "getyourguide",
+      "title": "Marrakech: Street Food Tour with a Local Guide",
+      "operator": "Reiseführer Abdo",
+      "rating": 4.8,
+      "review_count": 4104,
+      "checked_at": "2026-10-17",
+      "notes": "Exact product 490970. About three hours; Café Restaurant Argana start/finish; food and drinks included. Confirm selected date, accessibility and dietary arrangements; current price and availability vary.",
+      "evidence": {
+        "source_url": "https://www.getyourguide.com/en-gb/argana-l191087/marrakech-street-food-tour-with-a-local-guide-t490970/",
+        "summary": "Exact detail checked 2026-10-17 identifies product 490970 and provider Reiseführer Abdo, itinerary, duration, meeting point and inclusions. Displayed 4.8/5 from 4,104 reviews; September 2026 feedback includes positive experiences and practical caveats."
+      }
     }
   },
   "attractions": {
