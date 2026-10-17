@@ -1,7 +1,7 @@
 {
   "updated_at": "2026-10-17",
   "timezone": "Africa/Kampala",
-  "next_scheduled_start": "2026-10-17T13:30:00+03:00",
+  "next_scheduled_start": "2026-10-17T19:30:00+03:00",
   "cadence_hours": 3,
   "active_task": {
     "id": "accommodation-property-photos",
@@ -252,7 +252,7 @@
     "No routine tests/builds or repeated broad audits."
   ],
   "next_task_selection": "After current task is complete, prioritize evidenced accuracy, usability and discoverability gaps; record rationale.",
-  "last_run": "2026-10-17T07:35:57+03:00",
+  "last_run": "2026-10-17T16:38:57+03:00",
   "task_magnitude": "One complete full guide plus booking and listing cards, or one full property photo collection; do not schedule isolated paragraphs/links.",
   "country_destinations_feature": {
     "status": "complete",
@@ -272,41 +272,47 @@
     "email_id": "1a143a69416cf3d1"
   },
   "rotation": {
-    "last_completed_category": "activities",
-    "next_category": "attractions",
-    "next_deliverable": "Review and complete one existing attraction draft or guide, prioritizing a documented accuracy or visitor-planning gap.",
+    "last_completed_category": "attractions",
+    "next_category": "accommodations",
+    "next_deliverable": "Complete one evidence-backed accommodation guide or photo collection, selecting the next property from the documented backlog.",
     "rule": "Finish interrupted individual deliverables, then switch category. Outstanding category-wide photo backlog does not prevent rotation."
   },
   "current_deliverable": {
-    "id": "marrakech-medina-street-food-walk",
-    "category": "activities",
-    "status": "live_confirmed_pending_owner_report",
-    "next_action": "At the next scheduled run, begin the attractions category and complete one evidenced attraction guide or correction. Keep the six Marrakech activity photos as a separate follow-up.",
+    "id": "kibale-national-park",
+    "category": "attractions",
+    "status": "complete",
+    "next_action": "Complete. Rotate to accommodations at the next scheduled run; keep existing accommodation photo gaps in their separate backlog.",
     "acceptance_criteria": [
-      "Complete evidence-backed guide to a verified Marrakech Medina food-walk product",
-      "Canonical Marrakech And Atlas attraction ID 58 parent and exact GetYourGuide product relationship",
-      "Official tourism/heritage context and dated exact-product traveler feedback stored in the dated ledger",
-      "Neutral image state and explicit six-photo follow-up recorded",
-      "Push main and separately confirm live page, listing relationship and Stay22 destination",
-      "Owner email with send receipt"
+      "Complete evidence-backed Kibale attraction guide and retain six verified licensed photos",
+      "Preserve canonical East Africa region and Uganda country relationship",
+      "Record official guidance, traveler feedback, variable conditions and source URLs",
+      "Publish and separately confirm live page, country listing card and any booking CTA",
+      "Send owner email and record its receipt"
     ],
     "research_checked": "2026-10-17",
     "sources_checked": [
-      "https://whc.unesco.org/en/list/331/",
-      "https://ich.unesco.org/en/RL/lespace-culturel-de-la-place-jemaa-el-fna-00014",
-      "https://www.visitmorocco.com/en/travel-info/food-drinks",
-      "https://www.visitmorocco.com/en/travel/marrakech/shopping",
-      "https://www.getyourguide.com/en-gb/argana-l191087/marrakech-street-food-tour-with-a-local-guide-t490970/"
+      "https://ugandawildlife.org/national-parks/kibale-national-park/",
+      "https://ugandawildlife.org/national_parks/kibale/",
+      "https://ugandawildlife.org/activities/chimpanzee-tracking/",
+      "https://ugandawildlife.org/wp-content/uploads/2024/07/Guidelines-for-the-management-of-gorilla-and-chimpanzee-tracking-JULY-2024.pdf",
+      "https://www.tripadvisor.com/Attraction_Review-g608446-d6199605-Reviews-Kibale_Forest_National_Park-Fort_Portal_Western_Region.html"
     ],
-    "image_count": 0,
-    "image_followup": "Six distinct Marrakech food-walk photos required; do not borrow the parent attraction gallery, use OTA photos, or depict this named guide without permission.",
-    "booking_product": "GetYourGuide 490970, exact product detail checked 2026-10-17; provider Reiseführer Abdo. Product page lists 4.8/5 from 4,104 reviews, three hours, Argana start/finish; recent verified feedback includes Sep 2026 reviews with both praise and practical caveats.",
-    "commit": "413168a",
-    "live_verification": "2026-10-17 Kampala: first request returned 404; after the single 60-second retry the activity page returned HTTP 200 with expected h1. Exact CTA uses Stay22/GetYourGuide, affiliate ID 6a809892f76b8b75f2a2e6a4, roam=false and link=https://www.getyourguide.com/en-gb/argana-l191087/marrakech-street-food-tour-with-a-local-guide-t490970/; CTA campaign=activities_marrakech_medina_street_food_tour. Page HTML links parent attraction Marrakech and Atlas plus nearby Rosemary Marrakech stay.",
-    "email_id": "1a148cdf8dbabb76",
-    "checkpoint": "Complete: activity/booking/ledger pushed in 413168a; live page HTTP 200 after one 60-second retry. Stay22 CTA uses the exact GYG 490970 detail destination; live parent and nearby-stay links confirmed. Owner report sent to fsddanmugisa@gmail.com, Gmail SENT ID 1a148cdf8dbabb76. Photos 0/6 with linked follow-up. No tests/build/browser QA. Next category attractions at 13:30 Kampala."
+    "image_count": 6,
+    "image_followup": "None for this guide; the six licensed images and their attribution metadata were already recorded in the 2026-10-13 photo-source ledger.",
+    "booking_product": null,
+    "commit": "ff77f17",
+    "live_verification": "2026-10-17 Kampala: first attraction request returned 404; after the single 60-second retry the page returned HTTP 200 with the expected h1 and exactly six distinct Kibale Wikimedia photo URLs. Uganda country page returned HTTP 200 with Kibale attraction card. Stay22 loader appears in the shared head, but no page-specific booking CTA/product destination is present. No Kibale-specific stay/activity record exists in the checked content catalogue.",
+    "email_id": "1a14a1631d139b10",
+    "checkpoint": "Complete: guide and dated research ledger pushed in ff77f17; attraction page HTTP 200 after one 60-second retry, six distinct licensed image URLs confirmed, Uganda country card confirmed. Owner report sent to fsddanmugisa@gmail.com with Gmail SENT ID 1a14a1631d139b10. UWA pages differ on some departure and minimum-age details and the linked tariff period has expired; guide directs travelers to confirm current terms. Ratings, prices and booking products omitted. No tests/build/browser QA. Next category accommodations at 19:30 Kampala."
   },
-  "next_scheduled_run": "2026-10-17T13:30:00+03:00",
+  "previous_deliverable_correction": {
+    "id": "marrakech-medina-street-food-walk",
+    "status": "complete",
+    "commit": "413168a",
+    "email_id": "1a148cdf8dbabb76",
+    "note": "Live page and booking relationship were confirmed and the owner report was already sent. Corrected the stale pending-owner-report status without resending the email."
+  },
+  "next_scheduled_run": "2026-10-17T19:30:00+03:00",
   "analytics_installation": {
     "measurement_id": "G-ZWBZRQPBK7",
     "commit": "4f76457",
