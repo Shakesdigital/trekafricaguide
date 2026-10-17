@@ -27,7 +27,6 @@
       "sanctuary-gorilla-forest-camp"
     ],
     "travel_insight_slugs": [
-      "plan-first-east-africa-safari",
       "choose-bwindi-sector-before-booking-stay"
     ],
     "hero_image_url": null,
@@ -79,7 +78,6 @@
       "mount-nelson-a-belmond-hotel"
     ],
     "travel_insight_slugs": [
-      "cape-town-before-or-after-safari",
       "choose-cape-town-base-by-outings"
     ],
     "hero_image_url": "/images/editorial/cape-town/city-bowl-from-table-mountain.jpg",
@@ -138,9 +136,7 @@
     "accommodation_slugs": [
       "emerson-spice"
     ],
-    "travel_insight_slugs": [
-      "combine-serengeti-and-zanzibar"
-    ],
+    "travel_insight_slugs": [],
     "hero_image_url": null,
     "hero_image_alt": "Unguja and Stone Town, Zanzibar, Tanzania",
     "gallery": [],

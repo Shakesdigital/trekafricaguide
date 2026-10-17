@@ -153,3 +153,6 @@ Remove public affiliate disclosure and commission wording and remove public cont
 
 ## Country tabs refinement — 17 October 2026
 Homepage and Destinations archive use compact name-only tabs sized like region tabs, with no flags, scrollbar, pause button or arrow controls. Preserve automatic looping, touch scrolling and hover/focus/reduced-motion safeguards. This supersedes the earlier flag-card styling.
+
+## Travel Insights catalogue — 17 October 2026
+Owner removed the ten original development-seed insights from public publication. Keep their draft overrides; do not restore them through routine editorial runs. Retain the researched Table Mountain, Bwindi-sector and Cape Town-base insights and add newly researched original articles normally. See 2026-10-17-insight-cleanup ledger.

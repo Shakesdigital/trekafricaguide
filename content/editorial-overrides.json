@@ -2613,18 +2613,89 @@
       "published_at": "2026-10-17T00:00:00Z",
       "last_researched": "2026-10-17",
       "research_sources": [
-        { "label": "Cape Town Tourism: visitor areas and neighborhoods", "url": "https://www.capetown.travel/the-best-areas-to-stay-in-cape-town/" },
-        { "label": "Cape Town Tourism: central city and City Bowl", "url": "https://www.capetown.travel/areas/central-city/" },
-        { "label": "Cape Town Tourism: Atlantic Seaboard neighborhoods", "url": "https://www.capetown.travel/areas/atlantic-seaboard/" },
-        { "label": "Cape Town Tourism: Sea Point and neighborhood guide", "url": "https://www.capetown.travel/sea-point/" },
-        { "label": "Cape Town Tourism: getting around", "url": "https://www.capetown.travel/getting-around-cape-town-heres-your-complete-transport-guide/" },
-        { "label": "MyCiTi: current route and stop map", "url": "https://www.myciti.org.za/en/routes-stops/route-stop-station-map/" },
-        { "label": "Cape Town Tourism: Camps Bay neighborhood", "url": "https://www.capetown.travel/neighbourhood/camps-bay/" }
+        {
+          "label": "Cape Town Tourism: visitor areas and neighborhoods",
+          "url": "https://www.capetown.travel/the-best-areas-to-stay-in-cape-town/"
+        },
+        {
+          "label": "Cape Town Tourism: central city and City Bowl",
+          "url": "https://www.capetown.travel/areas/central-city/"
+        },
+        {
+          "label": "Cape Town Tourism: Atlantic Seaboard neighborhoods",
+          "url": "https://www.capetown.travel/areas/atlantic-seaboard/"
+        },
+        {
+          "label": "Cape Town Tourism: Sea Point and neighborhood guide",
+          "url": "https://www.capetown.travel/sea-point/"
+        },
+        {
+          "label": "Cape Town Tourism: getting around",
+          "url": "https://www.capetown.travel/getting-around-cape-town-heres-your-complete-transport-guide/"
+        },
+        {
+          "label": "MyCiTi: current route and stop map",
+          "url": "https://www.myciti.org.za/en/routes-stops/route-stop-station-map/"
+        },
+        {
+          "label": "Cape Town Tourism: Camps Bay neighborhood",
+          "url": "https://www.capetown.travel/neighbourhood/camps-bay/"
+        }
       ],
       "sort_order": 3,
       "featured": false,
       "meta_title": "Where to Stay in Cape Town: Choose a Base by Your Plans",
       "meta_description": "Compare the City Bowl, Sea Point and Cape Town’s Atlantic Seaboard by the outings you plan, with current route-planning links."
+    },
+    {
+      "slug": "plan-first-east-africa-safari",
+      "status": "draft",
+      "featured": false
+    },
+    {
+      "slug": "uganda-vs-kenya-first-time-safari",
+      "status": "draft",
+      "featured": false
+    },
+    {
+      "slug": "combine-serengeti-and-zanzibar",
+      "status": "draft",
+      "featured": false
+    },
+    {
+      "slug": "best-time-southern-africa",
+      "status": "draft",
+      "featured": false
+    },
+    {
+      "slug": "cape-town-before-or-after-safari",
+      "status": "draft",
+      "featured": false
+    },
+    {
+      "slug": "morocco-sahara-itinerary",
+      "status": "draft",
+      "featured": false
+    },
+    {
+      "slug": "cairo-giza-without-burning-out",
+      "status": "draft",
+      "featured": false
+    },
+    {
+      "slug": "africa-trip-safety-basics",
+      "status": "draft",
+      "featured": false
+    },
+    {
+      "slug": "cultural-etiquette-local-communities",
+      "status": "draft",
+      "featured": false
+    },
+    {
+      "slug": "ghana-senegal-slow-travel",
+      "status": "draft",
+      "featured": false
     }
   ]
 }
