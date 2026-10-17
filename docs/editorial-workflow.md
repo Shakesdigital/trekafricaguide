@@ -146,3 +146,7 @@ Finish an individual deliverable and required fixes, then switch content categor
 
 ## Broader African coverage — 16 October 2026
 The owner encourages researched new coverage beyond the current catalogue: countries, local destinations, attractions, activities, accommodations, culture, food, arts, history, community-led experiences and practical insights. Choose useful coverage gaps across Africa while rotating content categories. Stay within supported fields/templates and canonical relationships; preserve factual, media-rights and exact OTA booking requirements. Complete one useful deliverable per task, with image gaps tracked separately.
+
+## Owner override — 17 October 2026
+
+Remove public affiliate disclosure and commission wording and remove public contact pages/details. Preserve Stay22 tracking and exact OTA redirects, including the configured affiliate ID. Do not change private owner contact records or research/history evidence.

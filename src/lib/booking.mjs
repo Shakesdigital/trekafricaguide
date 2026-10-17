@@ -117,7 +117,6 @@ export function offerPresentation({ listing, offer, search = {}, affiliateId, no
     priceLabel: selected ? 'Check live availability and prices' : priceLabel(offer, now),
     rel: 'nofollow sponsored noopener noreferrer',
     target: '_blank',
-    disclosure: 'Affiliate link: Trek Africa Guide may earn a commission if you book through this link. Booking and payment take place on the provider site.',
     affiliateSupported: true,
   };
 }

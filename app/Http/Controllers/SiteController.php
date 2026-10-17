@@ -242,13 +242,6 @@ class SiteController extends Controller
         ]));
     }
 
-    public function contact()
-    {
-        return view('site.contact', $this->shared([
-            'title' => 'Contact',
-        ]));
-    }
-
     private function shared(array $payload = []): array
     {
         $settings = SiteSetting::query()->get()->pluck('value', 'key');
@@ -270,12 +263,6 @@ class SiteController extends Controller
                 ['label' => 'Accommodations', 'route' => 'accommodations.index'],
                 ['label' => 'Destinations', 'route' => 'countries.index'],
                 ['label' => 'Regions', 'route' => 'regions.index'],
-            ],
-            'contact' => [
-                'email' => $settings['contact_email'] ?? 'hello@trekafricaguide.com',
-                'phone' => $settings['contact_phone'] ?? '+256 700 000 000',
-                'address' => $settings['contact_address'] ?? 'Kampala, Uganda',
-                'note' => $settings['contact_note'] ?? 'These contact details are placeholders and can be updated by the Trek Africa Guide team.',
             ],
             'regionsNav' => $regions,
             'filterRegions' => $regions,

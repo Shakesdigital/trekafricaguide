@@ -94,14 +94,10 @@
                     <h4>How It Works</h4>
                     <ul>
                         <li><a href="{{ url('/about') }}">About Us</a></li>
-                        <li><a href="{{ route('contact') }}">Contact</a></li>
                         <li><a href="{{ route('contact') }}">Travel Insights</a></li>
                         <li><a href="{{ route('countries.index') }}">Compare before booking</a></li>
                     </ul>
                 </div>
-            </div>
-            <div class="container disclaimer-row">
-                <p><strong>Affiliate Notice:</strong> Trek Africa Guide is a directory and editorial research platform. Booking buttons redirect to partner landing pages such as TravelPayouts-powered offers, Viator, and GetYourGuide.</p>
             </div>
             <div class="container footer-bottom">
                 <p>&copy; {{ date('Y') }} Trek Africa Guide. All rights reserved.</p>

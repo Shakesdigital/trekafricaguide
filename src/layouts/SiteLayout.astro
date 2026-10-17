@@ -21,11 +21,6 @@ const brand = {
   accent: settings['branding.accent_color'] || DEFAULT_BRAND.accent,
   logo: settings['branding.logo_path'] || DEFAULT_BRAND.logo,
 };
-const contact = {
-  email: settings['contact.contact_email'],
-  phone: settings['contact.contact_phone'],
-  address: settings['contact.contact_address'],
-};
 const title = Astro.props.title ? `${Astro.props.title} | ${brand.name}` : brand.name;
 const description = Astro.props.description || settings['seo.default_meta_description'] || DEFAULT_BRAND.tagline;
 const canonical = Astro.props.canonical || new URL(Astro.url.pathname, SITE_URL).toString();
@@ -68,7 +63,7 @@ const image = Astro.props.image || settings['seo.default_og_image'];
         twenty.async = 1;
         twenty.src = y;
         two.parentNode.insertBefore(twenty, two);
-      })(window, document, 'script', 'https://scripts.stay22.com/letmeallez.js');
+      })(window, document, 'script', 'https://lma.stay22.com/letmeallez.js');
     </script>
     <script is:inline define:vars={{ suggestions: JSON.stringify(model.searchSuggestions || []) }}>
       window.trekSearchSuggestions = JSON.parse(suggestions);
@@ -79,7 +74,7 @@ const image = Astro.props.image || settings['seo.default_og_image'];
     <main>
       <slot />
     </main>
-    <Footer brand={brand} regions={model.regions} contact={contact} />
+    <Footer brand={brand} regions={model.regions} />
     <script type="module" src={siteScript}></script>
   </body>
 </html>

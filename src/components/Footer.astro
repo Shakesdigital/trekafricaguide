@@ -1,5 +1,5 @@
 ---
-const { brand, regions = [], contact = {} } = Astro.props;
+const { brand, regions = [] } = Astro.props;
 ---
 <footer class="site-footer">
   <div class="container footer-grid">
@@ -24,19 +24,9 @@ const { brand, regions = [], contact = {} } = Astro.props;
         {regions.map((region) => <li><a href={`/regions/${region.slug}`}>{region.name}</a></li>)}
       </ul>
     </div>
-    <div>
-      <h4>Contact</h4>
-      <ul>
-        <li><a href={`mailto:${contact.email || 'hello@trekafricaguide.com'}`}>{contact.email || 'hello@trekafricaguide.com'}</a></li>
-        <li>{contact.phone || '+256 700 000 000'}</li>
-        <li>{contact.address || 'Kampala, Uganda'}</li>
-        <li><a href="/contact">Contact page</a></li>
-      </ul>
-    </div>
   </div>
   <div class="container footer-note">
     <p><a href="/photo-credits">Photography credits and licences</a></p>
-    <p>Trek Africa Guide may earn a commission from bookings made through affiliate links.</p>
     <p>Trek Africa Guide is an independent planning guide. Booking links open external provider pages where you should verify live availability, rates, inclusions, permits, and final terms before paying.</p>
   </div>
 </footer>

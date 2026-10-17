@@ -12,7 +12,6 @@ export const ROUTES = {
   accommodations: '/accommodations',
   activities: '/activities',
   travelInsights: '/travel-insights',
-  contact: '/contact',
 };
 
 export const INTERNAL_ROUTE_FAMILIES = ['regions', 'countries', 'attractions', 'accommodations', 'activities', 'travel-insights'];

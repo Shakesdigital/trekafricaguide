@@ -19,7 +19,7 @@ Route::get('/attractions/{attraction:slug}', [SiteController::class, 'attraction
 Route::get('/accommodations', [SiteController::class, 'accommodations'])->name('accommodations.index');
 Route::get('/accommodations/{accommodation:slug}', [SiteController::class, 'accommodation'])->name('accommodations.show');
 
-Route::get('/contact', [SiteController::class, 'contact'])->name('contact');
+Route::redirect('/contact', '/')->name('contact');
 
 Route::redirect('/destinations', '/attractions', 301);
 Route::redirect('/safaris-tours', '/attractions', 301);

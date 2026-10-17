@@ -82,7 +82,6 @@ export function buildBookingLink(entity, options = {}) {
       href: fallbackUrl,
       label: 'Search on Stay22',
       isExternal: true,
-      disclosure: 'Trek Africa Guide links to Stay22 for accommodation searches. You are leaving Trek Africa Guide.',
       rel: 'nofollow sponsored noopener',
       priceLabel: null,
     };

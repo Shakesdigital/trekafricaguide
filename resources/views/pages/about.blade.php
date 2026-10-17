@@ -28,7 +28,6 @@
             <h2>How we think about trust</h2>
             <p>Trek Africa Guide is not a direct booking agency. We review destinations, surface relevant listings, and then redirect users to partner landing pages when they are ready to continue.</p>
             <ul class="bullet-list">
-                <li>Affiliate transparency on every commercial call to action</li>
                 <li>Destination fit and route logic over hype-heavy selling</li>
                 <li>Local context, realistic pacing, and honest travel expectations</li>
             </ul>

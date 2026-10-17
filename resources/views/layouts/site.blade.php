@@ -89,7 +89,6 @@
                     <li><a href="{{ route('countries.index') }}">Destinations</a></li>
                     <li><a href="{{ route('attractions.index') }}">Attractions</a></li>
                     <li><a href="{{ route('accommodations.index') }}">Accommodations</a></li>
-                    <li><a href="{{ route('contact') }}">Contact</a></li>
                 </ul>
             </div>
             <div>
@@ -103,10 +102,6 @@
             <div>
                 <h4>Contact</h4>
                 <ul>
-                    <li><a href="mailto:{{ $contact['email'] ?? 'hello@trekafricaguide.com' }}">{{ $contact['email'] ?? 'hello@trekafricaguide.com' }}</a></li>
-                    <li>{{ $contact['phone'] ?? '+256 700 000 000' }}</li>
-                    <li>{{ $contact['address'] ?? 'Kampala, Uganda' }}</li>
-                    <li><a href="{{ route('contact') }}">Contact page</a></li>
                 </ul>
             </div>
         </div>
