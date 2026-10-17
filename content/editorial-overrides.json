@@ -1133,7 +1133,7 @@
       "full_description": "Kibale lies in western Uganda’s Albertine Rift landscape. Uganda Wildlife Authority (UWA) presents the Kanyanchu Primate Walk as the principal visitor experience and offers both chimpanzee tracking and a separate, longer habituation experience. These are distinct products with different time commitments; a standard tracking permit does not include a full-day habituation visit or research access. Tracking is led by UWA guides and requires a valid, verified permit. The forest walk can take several hours as guides follow the chimpanzees’ movements, and the permitted observation time is limited. A sighting is never guaranteed.\n\nThe forest is also worth experiencing at a slower pace. UWA identifies a range of primates and birds in the park; visitors who have extra time can ask the authority or their locally based guide what nature walks are operating and where they begin. Leave space for rest after the trek rather than stacking it onto a long road transfer.\n\nKibale suits travelers who value wildlife, walking and close attention to forest habitat, and who can be comfortable with mud, uneven footing and a variable pace. It is less suitable for a rushed stopover or anyone expecting a vehicle-based safari. Discuss mobility or health concerns with UWA before booking and follow the ranger’s instructions throughout.",
       "getting_there": "Kibale is reached by road from Kampala through Fort Portal, with the exact journey time depending on traffic, roadworks, weather and the final destination. UWA’s current park page gives a route distance and indicative drive time, but treat that as a planning estimate and recheck it close to travel. Fort Portal is a useful staging town; the Kanyanchu Visitor Centre and individual lodges are farther along local roads, so confirm the correct turn-off and transfer with your host. UWA also describes domestic-flight options via nearby airstrips followed by a road transfer; confirm schedules and onward transport with the carrier and UWA. Do not plan a same-day long-distance arrival immediately before a fixed trek departure.",
       "best_time": "UWA says chimpanzee tracking and habituation operate year-round. Its visitor information notes a tradeoff: wetter conditions can mean mud underfoot, while chimpanzees may range deeper into the forest during drier periods. Rain and trail conditions vary, and neither season guarantees easier walking or a sighting. Choose dates around permit availability, allow flexibility in the itinerary and check current trail and departure information before setting out.",
-      "practical_info": "Book and verify the correct UWA activity and date in advance. UWA’s public pages currently differ on departure times and minimum age, and published tariff material may have expired; contact UWA or a licensed operator for the terms that apply to your visit rather than relying on an old rate or schedule. Ask where and when to report, what the permit includes, how long the walk may take, what footwear and rain protection are appropriate, and what support is available for mobility needs. Tracking must be accompanied by UWA staff. Follow the briefing, keep the prescribed distance, do not call to or chase chimpanzees, and do not enter the forest when ill. Prices and availability are omitted because current terms require direct confirmation. No nearby stay or bookable activity card is attached: the existing content catalogue has no verified Kibale-specific record, and no exact current booking product has been matched.",
+      "practical_info": "Book and verify the correct UWA activity and date in advance. UWA’s public pages currently differ on departure times and minimum age, and published tariff material may have expired; contact UWA or a licensed operator for the terms that apply to your visit rather than relying on an old rate or schedule. Ask where and when to report, what the permit includes, how long the walk may take, what footwear and rain protection are appropriate, and what support is available for mobility needs. Tracking must be accompanied by UWA staff. Follow the briefing, keep the prescribed distance, do not call to or chase chimpanzees, and do not enter the forest when ill. Prices and availability are omitted because current terms require direct confirmation. A nearby stay option is now included below: Kibale Forest Camp, which the operator places near the chimpanzee-tracking departure area. Confirm your reporting point, transfer and schedule with UWA and the camp; the accommodation rate does not include the permit or park entry. No bookable chimpanzee activity card is attached because no exact current tour product has been matched.",
       "highlights": [
         "Ranger-led chimpanzee tracking at Kanyanchu",
         "A rainforest walk with variable terrain and pace",
@@ -1291,6 +1291,55 @@
     }
   ],
   "accommodations": [
+    {
+      "region_id": 14,
+      "country_id": 55,
+      "attraction_id": "repo:attractions:kibale-national-park",
+      "slug": "kibale-forest-camp",
+      "name": "Kibale Forest Camp",
+      "property_type": "Tented camp",
+      "location_name": "Kibale National Park forest edge, Kyenjojo District, western Uganda",
+      "listing_summary": "Choose between a shared-bathroom Explorer’s Tent and an en-suite safari tent at this forest-edge base for Kibale chimpanzee tracking.",
+      "detail_intro": "Kibale Forest Camp is a forest-edge base for visitors whose plans center on chimpanzee tracking in Kibale National Park. The Nature Lodges property page places the camp close to the tracking departure area and describes forest and wetland views from its restaurant. This makes it useful for a trek-focused itinerary, but guests should confirm the precise reporting point, transfer arrangements and start time with the lodge and Uganda Wildlife Authority (UWA); a long same-day drive from Kampala can make a fixed morning departure difficult.\n\nRoom choice changes the experience and the price. Luxury Safari Tents have twin or double beds, an en-suite bathroom with hot water and a verandah. Explorer’s Tents have twin or double beds and a small terrace, with flush toilets and hot showers in a shared block a short walk away. The camp therefore suits travelers who want to keep their overnight base close to the forest and can choose between simpler shared facilities and more privacy. It is not a vehicle-safari lodge, and no chimpanzee sighting is guaranteed.",
+      "practical_info": "The official property page lists 2026 bed-and-breakfast rates per unit per night: Explorer’s Tent $50 single or $80 double/twin; Luxury Safari Tent $105 single or $145 double/twin. These are the operator’s stated 2026 rates, not a quote or confirmation of availability. Ask for current rates for your exact dates, meal plan and room category; half/full board and the published 2027 rates are handled separately. The operator says activities are arranged through the lodge and billed separately, and park entry fees are not included. Chimpanzee permits and current UWA rules must be confirmed separately before payment.\n\nA double-storey thatched restaurant, camp-ground trails and birding are described by the operator. Ask about current activity arrangements, dietary needs, transport, arrival after dark, room accessibility and the distance from your selected tent to the shared facilities. The forest setting brings nighttime sounds; a Tripadvisor reviewer describing a September 2026 stay recommended earplugs for light sleepers. Other recent traveler comments praised meals and staff, but these individual reports do not guarantee service or quiet. The Booking.com detail page is for Kibale Forest Camp by NATURE LODGES LTD in Kibale, Kyenjojo, Uganda; compare the room and cancellation terms on that exact page. No Booking.com rating, current availability or live OTA price is asserted here.\n\nFor a realistic plan, arrive with time to settle before a permit departure and arrange the return transfer and onward journey in advance. Use the linked Kibale National Park guide for park planning, then ask both UWA and the camp to confirm the current meeting point, permit arrangements and transport. This listing has no reuse-cleared property photographs yet; the neutral image slot is intentional.",
+      "amenities": [
+        "Luxury Safari Tents with en-suite bathrooms and hot water",
+        "Explorer’s Tents with shared flush toilets and hot showers",
+        "Restaurant",
+        "Forest-edge and garden setting",
+        "Camp-ground trails",
+        "Birding arrangements through the lodge"
+      ],
+      "price_label": "Budget to mid-range; official 2026 B&B rates vary by tent and occupancy",
+      "booking_url": "https://www.booking.com/hotel/ug/kibale-forest-camp-kyenjojo.en-gb.html",
+      "source_url": "https://naturelodgesuganda.com/lodges/kibale-forest-camp/",
+      "research_sources": [
+        {
+          "label": "Nature Lodges Uganda: Kibale Forest Camp, tents and official 2026 rates",
+          "url": "https://naturelodgesuganda.com/lodges/kibale-forest-camp/"
+        },
+        {
+          "label": "Booking.com: exact Kibale Forest Camp by Nature Lodges listing",
+          "url": "https://www.booking.com/hotel/ug/kibale-forest-camp-kyenjojo.en-gb.html"
+        },
+        {
+          "label": "Tripadvisor: Kibale Forest Camp traveler reviews",
+          "url": "https://www.tripadvisor.com/Hotel_Review-g1553443-d1553442-Reviews-Kibale_Forest_Camp-Kibale_National_Park_Western_Region.html"
+        },
+        {
+          "label": "Uganda Wildlife Authority: Kibale National Park access and visitor information",
+          "url": "https://ugandawildlife.org/national-parks/kibale-national-park/"
+        }
+      ],
+      "traveler_feedback": "Tripadvisor comments dated 2025–26 include praise for meals, staff and the forest setting; a September 2026 reviewer noted nighttime forest sounds and suggested earplugs for light sleepers. These are subjective individual accounts, not an overall rating or a service guarantee. The exact Booking.com page could be identified, but its reviews and live availability could not be independently checked.",
+      "last_researched": "2026-10-17",
+      "status": "published",
+      "rating": null,
+      "review_count": 0,
+      "hero_image_url": "",
+      "hero_image_alt": "No licensed property photograph available",
+      "gallery": []
+    },
     {
       "region_id": 16,
       "country_id": 41,

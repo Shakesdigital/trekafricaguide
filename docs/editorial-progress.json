@@ -252,7 +252,7 @@
     "No routine tests/builds or repeated broad audits."
   ],
   "next_task_selection": "After current task is complete, prioritize evidenced accuracy, usability and discoverability gaps; record rationale.",
-  "last_run": "2026-10-17T16:38:57+03:00",
+  "last_run": "2026-10-17T19:30:00+03:00",
   "task_magnitude": "One complete full guide plus booking and listing cards, or one full property photo collection; do not schedule isolated paragraphs/links.",
   "country_destinations_feature": {
     "status": "complete",
@@ -272,38 +272,47 @@
     "email_id": "1a143a69416cf3d1"
   },
   "rotation": {
-    "last_completed_category": "attractions",
-    "next_category": "accommodations",
-    "next_deliverable": "Complete one evidence-backed accommodation guide or photo collection, selecting the next property from the documented backlog.",
-    "rule": "Finish interrupted individual deliverables, then switch category. Outstanding category-wide photo backlog does not prevent rotation."
+    "last_completed_category": "accommodations",
+    "next_category": "travel insights",
+    "next_deliverable": "Publish one practical Kibale or western Uganda planning insight, prioritizing a sourced question not already answered by the accommodation guide.",
+    "rule": "Finish the individual deliverable and report its live state, then rotate. Track exact-property photo gaps separately."
   },
   "current_deliverable": {
-    "id": "kibale-national-park",
-    "category": "attractions",
-    "status": "complete",
-    "next_action": "Complete. Rotate to accommodations at the next scheduled run; keep existing accommodation photo gaps in their separate backlog.",
-    "acceptance_criteria": [
-      "Complete evidence-backed Kibale attraction guide and retain six verified licensed photos",
-      "Preserve canonical East Africa region and Uganda country relationship",
-      "Record official guidance, traveler feedback, variable conditions and source URLs",
-      "Publish and separately confirm live page, country listing card and any booking CTA",
-      "Send owner email and record its receipt"
-    ],
+    "id": "kibale-forest-camp",
+    "category": "accommodations",
+    "status": "prepared_pending_push",
+    "objective": "Publish a complete, evidence-backed stay guide with a canonical Kibale attraction relationship and exact Booking.com detail destination through the existing Stay22 resolver.",
     "research_checked": "2026-10-17",
     "sources_checked": [
-      "https://ugandawildlife.org/national-parks/kibale-national-park/",
-      "https://ugandawildlife.org/national_parks/kibale/",
-      "https://ugandawildlife.org/activities/chimpanzee-tracking/",
-      "https://ugandawildlife.org/wp-content/uploads/2024/07/Guidelines-for-the-management-of-gorilla-and-chimpanzee-tracking-JULY-2024.pdf",
-      "https://www.tripadvisor.com/Attraction_Review-g608446-d6199605-Reviews-Kibale_Forest_National_Park-Fort_Portal_Western_Region.html"
+      "https://naturelodgesuganda.com/lodges/kibale-forest-camp/",
+      "https://www.booking.com/hotel/ug/kibale-forest-camp-kyenjojo.en-gb.html",
+      "https://www.tripadvisor.com/Hotel_Review-g1553443-d1553442-Reviews-Kibale_Forest_Camp-Kibale_National_Park_Western_Region.html",
+      "https://ugandawildlife.org/national-parks/kibale-national-park/"
     ],
-    "image_count": 6,
-    "image_followup": "None for this guide; the six licensed images and their attribution metadata were already recorded in the 2026-10-13 photo-source ledger.",
-    "booking_product": null,
-    "commit": "ff77f17",
-    "live_verification": "2026-10-17 Kampala: first attraction request returned 404; after the single 60-second retry the page returned HTTP 200 with the expected h1 and exactly six distinct Kibale Wikimedia photo URLs. Uganda country page returned HTTP 200 with Kibale attraction card. Stay22 loader appears in the shared head, but no page-specific booking CTA/product destination is present. No Kibale-specific stay/activity record exists in the checked content catalogue.",
-    "email_id": "1a14a1631d139b10",
-    "checkpoint": "Complete: guide and dated research ledger pushed in ff77f17; attraction page HTTP 200 after one 60-second retry, six distinct licensed image URLs confirmed, Uganda country card confirmed. Owner report sent to fsddanmugisa@gmail.com with Gmail SENT ID 1a14a1631d139b10. UWA pages differ on some departure and minimum-age details and the linked tariff period has expired; guide directs travelers to confirm current terms. Ratings, prices and booking products omitted. No tests/build/browser QA. Next category accommodations at 19:30 Kampala."
+    "canonical_ids": {
+      "region": 14,
+      "country": 55,
+      "attraction": "repo:attractions:kibale-national-park",
+      "new_accommodation": "repo:accommodations:kibale-forest-camp"
+    },
+    "booking_product": "https://www.booking.com/hotel/ug/kibale-forest-camp-kyenjojo.en-gb.html",
+    "image_count": 0,
+    "image_followup": "Six exact-property photographs with verified reuse rights remain. No OTA or official-site image reused; neutral image state retained.",
+    "files": [
+      "content/editorial-overrides.json",
+      "content/booking-destinations.json",
+      "docs/editorial-research/2026-10-17-kibale-forest-camp.md"
+    ],
+    "status_note": "Official 2026 B&B rates are on the operator site and explicitly time-limited. Booking.com search result confirms exact listing identity/location, but its detail page was inaccessible for independent rating, availability, OTA price and review verification; none are claimed. Current UWA permit/reporting terms must be confirmed directly.",
+    "live_verification": "Pending commit/push and bounded public HTTP check.",
+    "email_id": null,
+    "next_action": "Inspect diff, commit and push; check the new accommodation page, Stay22 destination and Kibale attraction nearby-stay card; report exact image gap and next category.",
+    "previous_deliverable": {
+      "id": "kibale-national-park",
+      "status": "complete",
+      "commit": "ff77f17",
+      "email_id": "1a14a1631d139b10"
+    }
   },
   "previous_deliverable_correction": {
     "id": "marrakech-medina-street-food-walk",
@@ -312,7 +321,7 @@
     "email_id": "1a148cdf8dbabb76",
     "note": "Live page and booking relationship were confirmed and the owner report was already sent. Corrected the stale pending-owner-report status without resending the email."
   },
-  "next_scheduled_run": "2026-10-17T19:30:00+03:00",
+  "next_scheduled_run": "2026-10-17T22:30:00+03:00",
   "analytics_installation": {
     "measurement_id": "G-ZWBZRQPBK7",
     "commit": "4f76457",

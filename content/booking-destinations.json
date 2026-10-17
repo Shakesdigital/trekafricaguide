@@ -1,5 +1,15 @@
 {
   "accommodations": {
+    "kibale-forest-camp": {
+      "url": "https://www.booking.com/hotel/ug/kibale-forest-camp-kyenjojo.en-gb.html",
+      "provider": "booking",
+      "title": "Kibale Forest Camp by NATURE LODGES LTD",
+      "checked_at": "2026-10-17",
+      "evidence": {
+        "source_url": "https://www.booking.com/hotel/ug/kibale-forest-camp-kyenjojo.en-gb.html",
+        "summary": "The exact Booking.com detail page names Kibale Forest Camp by NATURE LODGES LTD and gives Kibale, Kyenjojo, Uganda. Property identity and operating company cross-checked against Nature Lodges Uganda's current official property page. Direct Booking.com detail content could not be retrieved; no OTA rating, review count, rates, availability or attribution claims are made."
+      }
+    },
     "casa-del-papa": {
       "url": "https://www.booking.com/hotel/bj/casa-del-papa.fr.html",
       "provider": "booking",
