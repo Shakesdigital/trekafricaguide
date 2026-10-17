@@ -3,6 +3,7 @@ import SiteLayout from '../layouts/SiteLayout.astro';
 import CardCarousel from '../components/CardCarousel.astro';
 import ListingCard from '../components/ListingCard.astro';
 import GuideSearch from '../components/GuideSearch.astro';
+import DestinationTabs from '../components/DestinationTabs.astro';
 import ImageSlot from '../components/ImageSlot.astro';
 import { getSiteModel } from '../lib/site-model.mjs';
 
@@ -32,6 +33,7 @@ const featuredStays = [...model.accommodations].filter((item) => item.hero_image
       </div>
     </div>
   </section>
+  <DestinationTabs items={model.countries} label="Explore countries" flags autoplay />
 
   <section class="section">
     <div class="container">

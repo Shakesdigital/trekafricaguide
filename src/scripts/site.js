@@ -133,3 +133,50 @@ document.querySelectorAll('[data-listing-carousel]').forEach((carousel) => {
   new ResizeObserver(update).observe(track);
   update();
 });
+
+document.querySelectorAll('[data-destination-carousel="autoplay"]').forEach((carousel) => {
+  const track = carousel.querySelector('[data-carousel-track]');
+  const pauseButton = carousel.querySelector('[data-carousel-pause]');
+  if (!track || !pauseButton) return;
+  const reducedMotion = matchMedia('(prefers-reduced-motion: reduce)');
+  const interval = 4200;
+  let timer;
+  let paused = reducedMotion.matches;
+
+  const stop = () => { window.clearInterval(timer); timer = undefined; };
+  const start = () => {
+    stop();
+    if (paused || document.hidden || carousel.matches(':hover') || carousel.contains(document.activeElement)) return;
+    timer = window.setInterval(() => {
+      const links = [...track.querySelectorAll('.destination-tabs__link')];
+      if (links.length < 2) return;
+      const trackLeft = track.getBoundingClientRect().left;
+      const next = links.find((link) => link.getBoundingClientRect().left > trackLeft + 2);
+      const left = next ? track.scrollLeft + next.getBoundingClientRect().left - trackLeft : 0;
+      track.scrollTo({ left, behavior: 'smooth' });
+    }, interval);
+  };
+  const syncPauseButton = () => {
+    pauseButton.textContent = paused ? 'Play' : 'Pause';
+    pauseButton.setAttribute('aria-pressed', String(paused));
+  };
+  pauseButton.addEventListener('click', () => {
+    paused = !paused;
+    syncPauseButton();
+    start();
+  });
+  carousel.addEventListener('mouseenter', stop);
+  carousel.addEventListener('mouseleave', start);
+  carousel.addEventListener('focusin', stop);
+  carousel.addEventListener('focusout', (event) => {
+    if (!carousel.contains(event.relatedTarget)) start();
+  });
+  document.addEventListener('visibilitychange', start);
+  reducedMotion.addEventListener?.('change', () => {
+    if (reducedMotion.matches) paused = true;
+    syncPauseButton();
+    start();
+  });
+  syncPauseButton();
+  start();
+});

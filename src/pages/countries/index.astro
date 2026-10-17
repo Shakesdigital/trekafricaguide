@@ -4,11 +4,13 @@ import PageHero from '../../components/PageHero.astro';
 import ImageSlot from '../../components/ImageSlot.astro';
 import ListingCard from '../../components/ListingCard.astro';
 import CardCarousel from '../../components/CardCarousel.astro';
+import DestinationTabs from '../../components/DestinationTabs.astro';
 import { getSiteModel } from '../../lib/site-model.mjs';
 const model = await getSiteModel();
 ---
 <SiteLayout model={model} title="Destinations">
   <PageHero eyebrow="Destinations" title="Country guides for choosing the right route." text="Start with fit, access, timing, and the attractions each country does best." image="image-slot:destinations-index-hero" />
+  <DestinationTabs items={model.countries} label="Explore countries" flags autoplay />
   <section class="section">
     <div class="container">
       <form class="filter-form">
