@@ -22,3 +22,7 @@ Photo commit `6b9f944` was included in combined pushed main commit `4f76457`. Th
 Owner email sent to `fsddanmugisa@gmail.com`; Gmail SENT ID `1a146e93732e7847`. The report includes the confirmed guide URL, six sources and licenses, the live gap, the next insight candidate, and a request for input. No tests, build, or browser QA run, per standing instructions.
 
 At the next 04:30 Kampala run, resume by confirming the Cape Town gallery and homepage GA loader are both live before rotating categories. Then proceed to travel insights: a guide to choosing a Cape Town base by outing pattern (City Bowl, Sea Point, Atlantic seaboard), distinct from the existing “Cape Town Before or After Safari?” article. This next insight is only selected; no work on it has begun.
+
+## Publication confirmed — 04:33 Kampala
+
+Cape Town live HTML includes all six gallery paths and Matti Blume, Time00, Dietmar Rabich and CC BY-SA 4.0 credits. All six image URLs return HTTP 200 image/jpeg; three transient TLS failures succeeded on retry. Homepage, Cape Town and Victoria Falls Hotel each contain exactly one GA loader immediately after head. Analytics account event receipt was not checked. Prior deployment gap resolved without new content changes. Confirmation email SENT ID: 1a14780582259d3e. Rotate next to the selected travel insight; no tests/builds run.

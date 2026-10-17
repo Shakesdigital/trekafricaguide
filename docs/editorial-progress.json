@@ -252,7 +252,7 @@
     "No routine tests/builds or repeated broad audits."
   ],
   "next_task_selection": "After current task is complete, prioritize evidenced accuracy, usability and discoverability gaps; record rationale.",
-  "last_run": "2026-10-17T01:42:30+03:00",
+  "last_run": "2026-10-17T04:33:28+03:00",
   "task_magnitude": "One complete full guide plus booking and listing cards, or one full property photo collection; do not schedule isolated paragraphs/links.",
   "country_destinations_feature": {
     "status": "complete",
@@ -266,22 +266,22 @@
       6,
       0
     ],
-    "next_action": "Confirm the Cape Town six-photo guide collection is live before rotating to a travel insight.",
+    "next_action": "Cape Town photos live; Buhoma and Unguja each retain six-photo backlog.",
     "commit": "0d19186",
     "live_verification": "All three detail URLs HTTP 200 with expected h1 and planning/stay sections; each parent country has one destination card; homepage includes all three search destinations.",
     "email_id": "1a143a69416cf3d1"
   },
   "rotation": {
-    "last_completed_category": "accommodations",
-    "next_category": "destinations",
-    "next_deliverable": "Deployment confirmation pending: verify the Cape Town gallery and homepage GA loader are live, then rotate to travel insights. Selected next insight candidate: choosing a Cape Town base by outing pattern (City Bowl, Sea Point, Atlantic seaboard), distinct from the existing Cape Town-before-or-after-safari article.",
+    "last_completed_category": "destinations",
+    "next_category": "travel_insights",
+    "next_deliverable": "Choosing a Cape Town base by outing pattern; researched practical guide with canonical related links, image backlog if necessary, publication and owner report.",
     "rule": "Finish interrupted individual deliverables, then switch category. Outstanding category-wide photo backlog does not prevent rotation."
   },
   "current_deliverable": {
     "id": "cape-town-photo-collection",
     "category": "destinations",
-    "status": "pushed_pending_deployment",
-    "next_action": "Recheck live deployment for the guide gallery, six assets, and homepage GA loader before rotation.",
+    "status": "complete",
+    "next_action": "Rotate to travel insights: choosing a Cape Town base by planned outings.",
     "acceptance_criteria": [
       "Six distinct, location-verified Cape Town photos",
       "Source/license/date credits",
@@ -290,8 +290,14 @@
     ],
     "photo_count": 6,
     "commit": "6b9f944 (included in pushed main 4f76457)",
-    "live_verification": "Guide URL HTTP 200 and expected title; still old HTML without new photo paths. All six image URLs 404 after two checks about one minute apart. Homepage HTTP 200 with zero GA loader matches. Netlify status lookup unavailable: both connected accounts require reauthentication.",
-    "email_id": "1a146e93732e7847"
+    "live_verification": "2026-10-17 04:33 Kampala: Cape Town HTML includes all six gallery paths and creator/license credits; all six assets HTTP200 image/jpeg. Homepage, Cape Town and Victoria Falls Hotel each contain one GA loader immediately after head.",
+    "email_id": "1a14780582259d3e"
   },
-  "next_scheduled_run": "2026-10-17T04:30:00+03:00"
+  "next_scheduled_run": "2026-10-17T07:30:00+03:00",
+  "analytics_installation": {
+    "measurement_id": "G-ZWBZRQPBK7",
+    "commit": "4f76457",
+    "status": "live_html_confirmed",
+    "evidence": "One loader immediately after head on homepage, Cape Town guide and Victoria Falls Hotel; Analytics event receipt not checked."
+  }
 }
