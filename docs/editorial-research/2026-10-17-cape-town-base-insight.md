@@ -20,10 +20,12 @@ The guide recommends grouping planned outings, comparing a property's exact addr
 
 ## Links and publication state
 
-The insight links to the canonical Cape Town local guide, Cape Town attraction guide, Table Mountain guided-hike activity, Mount Nelson accommodation guide and the existing before/after-safari insight. Source and photo credits are recorded in supported content fields; there are no inline external images. Publication in the Git content layer is prepared independently of live deployment confirmation.
+The insight links to the canonical Cape Town local guide, Cape Town attraction guide, Table Mountain guided-hike activity, Mount Nelson accommodation guide and the existing before/after-safari insight. Source and photo credits are recorded in supported content fields; there are no inline external images. Commit `660fe3d` was pushed to `main`. The exact guide URL, https://trekafricaguide.com/travel-insights/choose-cape-town-base-by-outings, returned HTTP 404 on the first request. After one 60-second wait, a second request returned HTTP 200 with the expected page title, City Bowl section and MyCiTi source list. The page is confirmed live. Its hero remains intentionally neutral until the separate six-photo collection is completed.
 
 ## Checkpoint
 
-- Content and canonical relationship are drafted; JSON parsed and required fields/relationship inspected.
+- Content and canonical relationship were pushed and live-confirmed after one bounded retry.
 - No tests, build or browser QA run, per standing instructions.
-- Next: inspect final diff, update progress checkpoint, commit and push `main`, perform one bounded live HTTP check, send the specified Gmail report and store its send ID. If deployment is still pending, keep task active and record that state.
+- Owner report sent to fsddanmugisa@gmail.com with subject “Trek Africa Guide update — 17 October 2026, 07:30 Kampala”; Gmail SENT ID `1a148262f1ce457e`. The three-hour schedule resumes at 10:30 Kampala with activities.
+
+Owner update emailed to fsddanmugisa@gmail.com with subject 'Trek Africa Guide update — 17 October 2026, 07:30 Kampala'; Gmail SENT ID 1a148262f1ce457e.

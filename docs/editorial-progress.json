@@ -252,7 +252,7 @@
     "No routine tests/builds or repeated broad audits."
   ],
   "next_task_selection": "After current task is complete, prioritize evidenced accuracy, usability and discoverability gaps; record rationale.",
-  "last_run": "2026-10-17T04:33:28+03:00",
+  "last_run": "2026-10-17T07:35:57+03:00",
   "task_magnitude": "One complete full guide plus booking and listing cards, or one full property photo collection; do not schedule isolated paragraphs/links.",
   "country_destinations_feature": {
     "status": "complete",
@@ -280,8 +280,8 @@
   "current_deliverable": {
     "id": "cape-town-base-by-outings-insight",
     "category": "travel_insights",
-    "status": "in_progress",
-    "next_action": "Research and publish a new Cape Town base-by-outings travel insight, add it to Cape Town related insights, record image shortfall separately, push main and confirm deployment outcome, then send the owner report.",
+    "status": "complete",
+    "next_action": "At 10:30 Kampala, begin the activities category; assess a locally guided Marrakech food or craft experience as a new-coverage candidate after source and cultural-context checks.",
     "acceptance_criteria": [
       "New, distinct practical travel insight based on City Bowl, Sea Point and Atlantic Seaboard outing patterns",
       "Exact official source URLs and research date stored in content and source ledger",
@@ -302,7 +302,10 @@
     ],
     "image_count": 0,
     "image_followup": "Six distinct insight-specific photographs required; do not borrow Cape Town local-destination or other existing galleries.",
-    "checkpoint": "Draft complete and content JSON/relationship inspected; seven exact official source URLs and 2026-10-17 checked date are recorded in the insight and dated ledger. No tests/build/browser QA. Next: brief diff review, commit/push main, bounded live check, then Gmail owner report."
+    "commit": "660fe3d",
+    "live_verification": "2026-10-17 07:35 Kampala: first request returned 404; after one 60-second interval retry, the exact insight URL returned HTTP 200 with expected title, City Bowl section and MyCiTi source list.",
+    "email_id": "1a148262f1ce457e",
+    "checkpoint": "Complete: content and Cape Town relation pushed in 660fe3d; live page confirmed after one bounded retry; owner report sent via Gmail, SENT ID 1a148262f1ce457e. Seven official sources and 0/6 insight-specific photo count are in the dated ledger. No tests/build/browser QA. Next category activities at 10:30 Kampala."
   },
   "next_scheduled_run": "2026-10-17T10:30:00+03:00",
   "analytics_installation": {
