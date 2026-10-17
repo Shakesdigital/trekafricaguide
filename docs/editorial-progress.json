@@ -272,16 +272,16 @@
     "email_id": "1a143a69416cf3d1"
   },
   "rotation": {
-    "last_completed_category": "travel_insights",
-    "next_category": "activities",
-    "next_deliverable": "Select one well-sourced activity for the next content run; consider a locally guided food or craft experience in Marrakech as a new-coverage candidate after confirming current provider details, cultural context and fit with published guides.",
+    "last_completed_category": "activities",
+    "next_category": "attractions",
+    "next_deliverable": "Review and complete one existing attraction draft or guide, prioritizing a documented accuracy or visitor-planning gap.",
     "rule": "Finish interrupted individual deliverables, then switch category. Outstanding category-wide photo backlog does not prevent rotation."
   },
   "current_deliverable": {
     "id": "marrakech-medina-street-food-walk",
     "category": "activities",
-    "status": "drafted",
-    "next_action": "Inspect the activity, OTA registry and dated ledger diff; update this checkpoint, commit/push main, confirm the live activity page and exact Stay22 destination plus parent attraction/card relationship, then send the authorized owner email.",
+    "status": "live_confirmed_pending_owner_report",
+    "next_action": "Send the authorized owner report for this live guide, save the Gmail SENT ID, then checkpoint the final receipt. Next category is attractions.",
     "acceptance_criteria": [
       "Complete evidence-backed guide to a verified Marrakech Medina food-walk product",
       "Canonical Marrakech And Atlas attraction ID 58 parent and exact GetYourGuide product relationship",
@@ -301,10 +301,10 @@
     "image_count": 0,
     "image_followup": "Six distinct Marrakech food-walk photos required; do not borrow the parent attraction gallery, use OTA photos, or depict this named guide without permission.",
     "booking_product": "GetYourGuide 490970, exact product detail checked 2026-10-17; provider Reiseführer Abdo. Product page lists 4.8/5 from 4,104 reviews, three hours, Argana start/finish; recent verified feedback includes Sep 2026 reviews with both praise and practical caveats.",
-    "commit": null,
-    "live_verification": null,
+    "commit": "413168a",
+    "live_verification": "2026-10-17 Kampala: first request returned 404; after the single 60-second retry the activity page returned HTTP 200 with expected h1. Exact CTA uses Stay22/GetYourGuide, affiliate ID 6a809892f76b8b75f2a2e6a4, roam=false and link=https://www.getyourguide.com/en-gb/argana-l191087/marrakech-street-food-tour-with-a-local-guide-t490970/; CTA campaign=activities_marrakech_medina_street_food_tour. Page HTML links parent attraction Marrakech and Atlas plus nearby Rosemary Marrakech stay.",
     "email_id": null,
-    "checkpoint": "Draft saved 2026-10-17 Kampala in editorial-overrides.json, booking-destinations.json and dated source ledger. Parent attraction ID 58 and exact GYG 490970 destination recorded; 0/6 neutral photos. Diff inspection, push, live HTTP/Stay22/relationship check and owner report remain. If deployment is pending, keep this deliverable active and retain last completed category travel_insights."
+    "checkpoint": "Activity and exact booking destination pushed in 413168a; live activity page HTTP 200 after one 60-second retry. Stay22 CTA resolves to the exact GYG 490970 detail page, and live HTML includes the canonical Marrakech parent and Rosemary stay guide. Owner report and send receipt pending. Photography 0/6. Next category attractions after report."
   },
   "next_scheduled_run": "2026-10-17T10:30:00+03:00",
   "analytics_installation": {
