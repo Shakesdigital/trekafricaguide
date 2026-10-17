@@ -1128,17 +1128,17 @@
       "region_id": 14,
       "country_id": 55,
       "location_name": "Western Uganda",
-      "listing_summary": "A forest-focused Uganda stop for authorized chimpanzee tracking and a slower look at primate habitat.",
-      "detail_intro": "Kibale offers a forest experience that complements Uganda's gorilla and savannah routes rather than repeating them. Chimpanzee tracking is the principal reason many travelers come, but the visit is also an opportunity to pay attention to the sounds, vegetation and smaller-scale life of a tropical forest. The walking and wildlife behavior differ from a game drive, so the itinerary should allow preparation and flexibility. Choose accommodation and transport around the confirmed activity meeting point, and arrive with enough time to rest before the outing.",
-      "full_description": "Uganda Wildlife Authority identifies Kibale as a destination for chimpanzee tracking and describes additional primate diversity within the forest. A standard visitor activity should be distinguished from a habituation product or a research program; access to one does not imply access to the others.\n\nOur recommendation is to reserve the official activity first and build a short forest stay around it, rather than attempting a trek during a long transfer between parks. Ask the provider what time you must report, how much walking may be involved and what participation conditions apply. Keep another period free for a locally guided nature experience or rest, depending on the demands of the main outing.",
-      "getting_there": "Arrange the road transfer to the actual lodge and the designated activity starting point in the Kibale area. Use current directions from the authority or provider rather than navigating only to the park's name. If combining Kibale with other western Uganda parks, give each transfer a realistic day allocation.",
-      "best_time": "UWA describes chimpanzee activities as operating through the year. Forest conditions and walking remain weather-dependent, so ask about current footing and what to bring. Choose dates that allow a confirmed reservation and an unhurried arrival rather than assuming every day can accommodate a last-minute visit.",
-      "practical_info": "Confirm permit terms, reporting time, transport, guide arrangements and any minimum participation requirements. Explain fitness or mobility concerns before booking. Follow the ranger's rules around wildlife and do not expect close contact. New nearby-stay recommendations require property-specific research; no accommodation proximity is assumed solely from a regional label.",
+      "listing_summary": "Plan a guided chimpanzee trek in Kibale’s rainforest, with time for the journey, changing forest conditions and a proper ranger briefing.",
+      "detail_intro": "Kibale National Park protects a large tract of western Uganda’s tropical forest and is best known to visitors for ranger-led chimpanzee tracking. The experience is a walk through a living forest, not a staged wildlife encounter: chimpanzees move freely, the route and effort vary, and sightings cannot be promised. Birdlife, other primates and the forest itself add interest, but the main trek deserves its own unhurried day. Plan around the named visitor centre, a confirmed permit and enough time to arrive rested.",
+      "full_description": "Kibale lies in western Uganda’s Albertine Rift landscape. Uganda Wildlife Authority (UWA) presents the Kanyanchu Primate Walk as the principal visitor experience and offers both chimpanzee tracking and a separate, longer habituation experience. These are distinct products with different time commitments; a standard tracking permit does not include a full-day habituation visit or research access. Tracking is led by UWA guides and requires a valid, verified permit. The forest walk can take several hours as guides follow the chimpanzees’ movements, and the permitted observation time is limited. A sighting is never guaranteed.\n\nThe forest is also worth experiencing at a slower pace. UWA identifies a range of primates and birds in the park; visitors who have extra time can ask the authority or their locally based guide what nature walks are operating and where they begin. Leave space for rest after the trek rather than stacking it onto a long road transfer.\n\nKibale suits travelers who value wildlife, walking and close attention to forest habitat, and who can be comfortable with mud, uneven footing and a variable pace. It is less suitable for a rushed stopover or anyone expecting a vehicle-based safari. Discuss mobility or health concerns with UWA before booking and follow the ranger’s instructions throughout.",
+      "getting_there": "Kibale is reached by road from Kampala through Fort Portal, with the exact journey time depending on traffic, roadworks, weather and the final destination. UWA’s current park page gives a route distance and indicative drive time, but treat that as a planning estimate and recheck it close to travel. Fort Portal is a useful staging town; the Kanyanchu Visitor Centre and individual lodges are farther along local roads, so confirm the correct turn-off and transfer with your host. UWA also describes domestic-flight options via nearby airstrips followed by a road transfer; confirm schedules and onward transport with the carrier and UWA. Do not plan a same-day long-distance arrival immediately before a fixed trek departure.",
+      "best_time": "UWA says chimpanzee tracking and habituation operate year-round. Its visitor information notes a tradeoff: wetter conditions can mean mud underfoot, while chimpanzees may range deeper into the forest during drier periods. Rain and trail conditions vary, and neither season guarantees easier walking or a sighting. Choose dates around permit availability, allow flexibility in the itinerary and check current trail and departure information before setting out.",
+      "practical_info": "Book and verify the correct UWA activity and date in advance. UWA’s public pages currently differ on departure times and minimum age, and published tariff material may have expired; contact UWA or a licensed operator for the terms that apply to your visit rather than relying on an old rate or schedule. Ask where and when to report, what the permit includes, how long the walk may take, what footwear and rain protection are appropriate, and what support is available for mobility needs. Tracking must be accompanied by UWA staff. Follow the briefing, keep the prescribed distance, do not call to or chase chimpanzees, and do not enter the forest when ill. Prices and availability are omitted because current terms require direct confirmation. No nearby stay or bookable activity card is attached: the existing content catalogue has no verified Kibale-specific record, and no exact current booking product has been matched.",
       "highlights": [
-        "Authorized chimpanzee tracking",
-        "A forest complement to a western Uganda safari",
-        "Primate and habitat interpretation",
-        "A stay planned around the confirmed activity point"
+        "Ranger-led chimpanzee tracking at Kanyanchu",
+        "A rainforest walk with variable terrain and pace",
+        "Other primates and forest birdlife",
+        "A year-round experience shaped by season and chimpanzee movements"
       ],
       "research_sources": [
         {
@@ -1148,15 +1148,24 @@
         {
           "label": "UWA: chimpanzee tracking",
           "url": "https://ugandawildlife.org/activities/chimpanzee-tracking/"
+        },
+        {
+          "label": "UWA: chimpanzee tracking guidance (July 2024)",
+          "url": "https://ugandawildlife.org/wp-content/uploads/2024/07/Guidelines-for-the-management-of-gorilla-and-chimpanzee-tracking-JULY-2024.pdf"
+        },
+        {
+          "label": "Tripadvisor: Kibale Forest National Park traveler reviews",
+          "url": "https://www.tripadvisor.com/Attraction_Review-g608446-d6199605-Reviews-Kibale_Forest_National_Park-Fort_Portal_Western_Region.html"
         }
       ],
-      "status": "draft",
-      "published_at": null,
+      "traveler_feedback": "In a Tripadvisor review dated January 2026, a visitor described their guide as knowledgeable and praised the explanations about the chimpanzee group, while also warning that biting ants made covering up useful. This is one traveler’s account, not a guarantee about a particular guide, trek or wildlife encounter. Check current clothing advice with UWA.",
+      "status": "published",
+      "published_at": "2026-10-17T16:30:00+03:00",
       "rating": null,
       "review_count": 0,
-      "last_researched": "2026-10-11",
+      "last_researched": "2026-10-17",
       "hero_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Kibale_forest.jpg/1280px-Kibale_forest.jpg",
-      "hero_image_alt": "Kibale forest",
+      "hero_image_alt": "Green rainforest canopy in Kibale National Park, Uganda",
       "gallery": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Kibale_forest.jpg/1280px-Kibale_forest.jpg",
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Kibale_National_Park.jpg/1280px-Kibale_National_Park.jpg",
