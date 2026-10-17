@@ -10,7 +10,7 @@ const model = await getSiteModel();
 ---
 <SiteLayout model={model} title="Destinations">
   <PageHero eyebrow="Destinations" title="Country guides for choosing the right route." text="Start with fit, access, timing, and the attractions each country does best." image="image-slot:destinations-index-hero" />
-  <DestinationTabs items={model.countries} label="Explore countries" flags autoplay />
+  <DestinationTabs items={model.countries} label="Explore countries" minimal autoplay />
   <section class="section">
     <div class="container">
       <form class="filter-form">

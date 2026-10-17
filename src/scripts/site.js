@@ -137,7 +137,7 @@ document.querySelectorAll('[data-listing-carousel]').forEach((carousel) => {
 document.querySelectorAll('[data-destination-carousel="autoplay"]').forEach((carousel) => {
   const track = carousel.querySelector('[data-carousel-track]');
   const pauseButton = carousel.querySelector('[data-carousel-pause]');
-  if (!track || !pauseButton) return;
+  if (!track) return;
   const reducedMotion = matchMedia('(prefers-reduced-motion: reduce)');
   const interval = 4200;
   let timer;
@@ -152,15 +152,17 @@ document.querySelectorAll('[data-destination-carousel="autoplay"]').forEach((car
       if (links.length < 2) return;
       const trackLeft = track.getBoundingClientRect().left;
       const next = links.find((link) => link.getBoundingClientRect().left > trackLeft + 2);
-      const left = next ? track.scrollLeft + next.getBoundingClientRect().left - trackLeft : 0;
+      const max = Math.max(0, track.scrollWidth - track.clientWidth);
+      const left = track.scrollLeft >= max - 2 ? 0 : next ? track.scrollLeft + next.getBoundingClientRect().left - trackLeft : 0;
       track.scrollTo({ left, behavior: 'smooth' });
     }, interval);
   };
   const syncPauseButton = () => {
+    if (!pauseButton) return;
     pauseButton.textContent = paused ? 'Play' : 'Pause';
     pauseButton.setAttribute('aria-pressed', String(paused));
   };
-  pauseButton.addEventListener('click', () => {
+  pauseButton?.addEventListener('click', () => {
     paused = !paused;
     syncPauseButton();
     start();

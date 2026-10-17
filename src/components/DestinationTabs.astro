@@ -1,17 +1,17 @@
 ---
 import { COUNTRY_FLAG_ISO } from '../lib/country-flags.mjs';
-const { items = [], label = 'Explore destinations', flags = false, autoplay = false } = Astro.props;
+const { items = [], label = 'Explore destinations', flags = false, autoplay = false, minimal = false } = Astro.props;
 ---
 {items.length > 0 && <section class="destination-tabs" aria-label={label}>
   <div class="container">
     <h2>{label}</h2>
     <nav class="destination-tabs__carousel" data-listing-carousel data-destination-carousel={autoplay ? 'autoplay' : undefined} aria-label={label}>
-      <div class="destination-tabs__controls" data-carousel-controls hidden>
+      {!minimal && <div class="destination-tabs__controls" data-carousel-controls hidden>
         <button class="listing-carousel__button" type="button" data-carousel-prev aria-label={`Previous ${label.toLowerCase()}`}>←</button>
         <button class="listing-carousel__button" type="button" data-carousel-next aria-label={`Next ${label.toLowerCase()}`}>→</button>
         {autoplay && <button class="listing-carousel__button" type="button" data-carousel-pause aria-pressed="false">Pause</button>}
-      </div>
-      <div class="destination-tabs__track" data-carousel-track tabindex="0" aria-label={`${label}: scroll or use arrow keys`}>
+      </div>}
+      <div class:list={["destination-tabs__track", { "destination-tabs__track--minimal": minimal }]} data-carousel-track tabindex="0" aria-label={`${label}: scroll or use arrow keys`}>
         {items.map((item) => <a class:list={['destination-tabs__link', { 'destination-tabs__link--flag': flags }]} href={item.internalUrl}>
           {flags && COUNTRY_FLAG_ISO[item.slug] && <img class="destination-tabs__flag" src={`/flags/${COUNTRY_FLAG_ISO[item.slug]}.svg`} alt="" loading="lazy" width="60" height="40" />}
           <span>{item.name}</span>
@@ -28,6 +28,8 @@ const { items = [], label = 'Explore destinations', flags = false, autoplay = fa
   .destination-tabs__controls[hidden] { display: none; }
   .destination-tabs__controls .listing-carousel__button { display: inline-flex; }
   .destination-tabs__track { display: flex; gap: .65rem; overflow-x: auto; scroll-snap-type: x proximity; padding: .25rem .15rem .65rem; scrollbar-width: thin; }
+  .destination-tabs__track--minimal { scrollbar-width: none; }
+  .destination-tabs__track--minimal::-webkit-scrollbar { display: none; }
   .destination-tabs__link { flex: 0 0 auto; scroll-snap-align: start; display: inline-flex; align-items: center; justify-content: center; min-height: 44px; padding: .6rem 1.1rem; border: 1px solid #cbd5c8; border-radius: .6rem; background: white; color: var(--brand-primary, #244d35); font-weight: 600; text-decoration: none; white-space: nowrap; }
   .destination-tabs__link--flag { flex-direction: column; gap: .45rem; min-width: 112px; min-height: 94px; padding: .65rem .85rem; }
   .destination-tabs__flag { display: block; width: 60px; height: 40px; object-fit: cover; border: 1px solid rgba(20, 37, 59, .14); border-radius: .15rem; }

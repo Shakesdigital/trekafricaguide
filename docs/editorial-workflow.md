@@ -150,3 +150,6 @@ The owner encourages researched new coverage beyond the current catalogue: count
 ## Owner override — 17 October 2026
 
 Remove public affiliate disclosure and commission wording and remove public contact pages/details. Preserve Stay22 tracking and exact OTA redirects, including the configured affiliate ID. Do not change private owner contact records or research/history evidence.
+
+## Country tabs refinement — 17 October 2026
+Homepage and Destinations archive use compact name-only tabs sized like region tabs, with no flags, scrollbar, pause button or arrow controls. Preserve automatic looping, touch scrolling and hover/focus/reduced-motion safeguards. This supersedes the earlier flag-card styling.
