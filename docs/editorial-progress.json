@@ -280,7 +280,7 @@
   "current_deliverable": {
     "id": "kibale-forest-camp",
     "category": "accommodations",
-    "status": "prepared_pending_push",
+    "status": "complete",
     "objective": "Publish a complete, evidence-backed stay guide with a canonical Kibale attraction relationship and exact Booking.com detail destination through the existing Stay22 resolver.",
     "research_checked": "2026-10-17",
     "sources_checked": [
@@ -304,15 +304,17 @@
       "docs/editorial-research/2026-10-17-kibale-forest-camp.md"
     ],
     "status_note": "Official 2026 B&B rates are on the operator site and explicitly time-limited. Booking.com search result confirms exact listing identity/location, but its detail page was inaccessible for independent rating, availability, OTA price and review verification; none are claimed. Current UWA permit/reporting terms must be confirmed directly.",
-    "live_verification": "Pending commit/push and bounded public HTTP check.",
-    "email_id": null,
-    "next_action": "Inspect diff, commit and push; check the new accommodation page, Stay22 destination and Kibale attraction nearby-stay card; report exact image gap and next category.",
+    "live_verification": "2026-10-17 Kampala: accommodation page returned HTTP 404 on the first request; after the single 60-second retry all three requested public pages returned HTTP 200. Accommodation h1 is Kibale Forest Camp. Its CTA href is https://www.stay22.com/allez/booking?aid=trekafricaguide&link=https%3A%2F%2Fwww.booking.com%2Fhotel%2Fug%2Fkibale-forest-camp-kyenjojo.en-gb.html&roam=false&campaign=accommodations_kibale_forest_camp. Kibale attraction and Uganda country pages both link to /accommodations/kibale-forest-camp. No property photos are present.",
+    "email_id": "1a14ab908a405642",
+    "next_action": "Complete. Next category: travel insights at 22:30 Kampala; choose a practical Kibale or western Uganda planning question. Track six property-photo rights gaps separately.",
     "previous_deliverable": {
       "id": "kibale-national-park",
       "status": "complete",
       "commit": "ff77f17",
       "email_id": "1a14a1631d139b10"
-    }
+    },
+    "content_commit": "d99459b",
+    "checkpoint": "Guide, exact Booking.com destination, Stay22 redirect, canonical attraction relationship and source ledger completed in d99459b and confirmed live. Owner email SENT 1a14ab908a405642. Exact-property photo gallery remains 0/6; requested subjects recorded in email and source ledger. Booking.com rating, reviews, live rates and availability were not independently verified. Official 2026 B&B rate sheet is time-limited; confirm all room/permit/transfer terms before payment. No tests, build or browser QA."
   },
   "previous_deliverable_correction": {
     "id": "marrakech-medina-street-food-walk",

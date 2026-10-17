@@ -27,5 +27,9 @@ Canonical relationships: East Africa region ID `14`, Uganda country ID `55`, att
 ## Remaining work
 
 - Six exact-property images with verified reuse rights; none included now.
-- Live publication check is pending push/deployment; no test, build or browser QA requested.
+- Page, attraction relationship and Stay22 booking destination are live-confirmed; no test, build or browser QA was run.
 - Confirm any public rate refresh when the official 2027 rate page is available; do not replace with OTA or search prices without rechecking.
+
+## Publication checkpoint — 17 October 2026, Kampala
+
+Pushed in content commit `d99459b`. First public accommodation request returned HTTP 404; after the single 60-second retry, `/accommodations/kibale-forest-camp`, `/attractions/kibale-national-park`, and `/countries/uganda` each returned HTTP 200. Both Kibale and Uganda pages contain the canonical accommodation-card link. The accommodation CTA uses the exact Booking.com destination through Stay22 with the existing affiliate aid; the separate loader remains unchanged. Gmail report sent to the authorized owner address; SENT message ID `1a14ab908a405642`. Image count remains 0/6. No tests, build or browser QA were run.
