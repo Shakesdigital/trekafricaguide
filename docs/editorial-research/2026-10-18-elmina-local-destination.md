@@ -43,4 +43,8 @@ Recommend a trusted locally led Elmina town experience and a verified Elmina-bas
 
 ## Publication checkpoint
 
-Draft saved in `content/local-destinations.json` using only documented fields. Live state is pending push/deployment and separate HTTP confirmation. No tests, build or browser QA were run; changed record fields and explicit relationships were inspected.
+Content saved in `content/local-destinations.json` using only documented fields and committed/pushed to `main` as `4ef39be`. Netlify's published deploy still reports the previous commit `ebd0b87` (ready deploy `6ad4c59e14442e35bb96e339`). On 18 October, `/countries/ghana/elmina` returned HTTP 404; `/countries/ghana` and the homepage returned HTTP 200 without the new destination route/card. Live publication is not confirmed. Recheck deployment and separately confirm detail, country card and search route before marking complete.
+
+Owner checkpoint report sent to `fsddanmugisa@gmail.com`; Gmail SENT message ID `1a14f3f984ff0f25`.
+
+No tests, build or browser QA were run; changed record fields and explicit relationships were inspected.

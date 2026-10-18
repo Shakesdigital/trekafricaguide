@@ -280,7 +280,7 @@
   "current_deliverable": {
     "id": "elmina-local-destination",
     "category": "destinations",
-    "status": "draft_checkpoint",
+    "status": "pushed_live_unconfirmed",
     "objective": "Publish a source-backed Elmina local guide with respectful heritage context, route and season planning, and explicit internal links to verified regional guides.",
     "research_checked": "2026-10-18",
     "sources_checked": [
@@ -296,18 +296,18 @@
       "content/local-destinations.json",
       "docs/editorial-research/2026-10-18-elmina-local-destination.md"
     ],
-    "status_note": "Content and research ledger prepared. Before push: final supported-field and relationship inspection; no activities, stay or insight cards because none is verified as locally relevant. The published Cape Coast hotel was excluded because the destination template would label it 'Stays around Elmina'.",
-    "next_action": "Push authorized main change, confirm production deploy and page/country/search separately, then send the owner report and save the Gmail SENT receipt.",
+    "status_note": "Commit 4ef39be is pushed to main. Netlify's published deploy still reports prior commit ebd0b87 (deploy 6ad4c59e14442e35bb96e339, ready). Production /countries/ghana/elmina returned HTTP 404; Ghana country and homepage returned HTTP 200 without the new guide/card/search route. Live publication is not confirmed. No activities, stay or insight cards are linked; the Cape Coast hotel was excluded because the shared template would label it 'Stays around Elmina'.",
+    "next_action": "Recheck for a published deploy of 4ef39be on the next scheduled run, then confirm destination detail, Ghana card and search route. If the published deploy remains on ebd0b87, investigate deployment connection before claiming live status. After live confirmation, rotate to attractions.",
     "previous_deliverable": {
       "id": "plan-kibale-around-chimpanzee-trek",
       "status": "complete_live_confirmed",
       "commit": "045a4d9",
       "email_id": "1a14f22cbbbd3042"
     },
-    "checkpoint": "Elmina source-backed draft and photo backlog saved. Live publication not yet attempted.",
-    "commit": null,
-    "live_verification": null,
-    "email_id": null
+    "checkpoint": "Commit 4ef39be pushed 2026-10-18. Netlify published deploy still points to prior ebd0b87; destination HTTP 404, country/homepage HTTP 200 without route/card. Owner checkpoint report sent; deployment live status remains unconfirmed.",
+    "commit": "4ef39be",
+    "live_verification": "2026-10-18: published Netlify deploy 6ad4c59e14442e35bb96e339 is ready at ebd0b87, not the Elmina commit. /countries/ghana/elmina HTTP 404; /countries/ghana and / HTTP 200 but no new guide route/card found. Deployment pending/unconfirmed; do not claim live.",
+    "email_id": "1a14f3f984ff0f25"
   },
   "previous_deliverable_correction": {
     "id": "marrakech-medina-street-food-walk",
