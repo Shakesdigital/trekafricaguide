@@ -280,7 +280,7 @@
   "current_deliverable": {
     "id": "plan-kibale-around-chimpanzee-trek",
     "category": "travel insights",
-    "status": "in_progress",
+    "status": "published_pending_live_confirmation",
     "objective": "Publish a practical, source-backed Kibale itinerary insight explaining how to pace the road journey around a chimpanzee trek without repeating the park guide or accommodation listing.",
     "research_checked": "2026-10-18",
     "sources_checked": [
@@ -294,15 +294,18 @@
       "content/editorial-overrides.json",
       "docs/editorial-research/2026-10-18-plan-kibale-around-chimpanzee-trek.md"
     ],
-    "status_note": "UWA route facts used as estimates. UWA operational claims conflict across material; insight omits current permit rules, prices, ages and departure times and advises direct confirmation.",
-    "next_action": "Commit and push; check live insight URL plus linked Kibale park and camp pages; email the authorized owner with confirmed/pending status.",
+    "status_note": "Owner report sent; the insight returned HTTP 404 twice including after one 60-second retry, so public publication is unconfirmed. Park and camp pages are HTTP 200. Six-image follow-up remains.",
+    "next_action": "Next scheduled run: check deployment state and insight URL once; if still missing, investigate the deploy/build record before another publish attempt. Then resume the next category: destinations.",
     "previous_deliverable": {
       "id": "kibale-forest-camp",
       "status": "complete",
       "commit": "d99459b",
       "email_id": "1a14ab908a405642"
     },
-    "checkpoint": "Content prepared. Full final/live report pending push and live check."
+    "checkpoint": "Content pushed in 045a4d9. Live insight 404 twice; linked pages 200. Owner email SENT 1a14d6f18cd306ec. Next scheduled run 10:30 Kampala 2026-10-18; check deploy state once, then destination category.",
+    "commit": "045a4d9",
+    "live_verification": "After push 045a4d9, Kibale park and Kibale Forest Camp pages returned HTTP 200 and both link to each other. The insight URL returned 404 on initial request and once after 60 seconds; deployment/live status remains unconfirmed. No further retry this run.",
+    "email_id": "1a14d6f18cd306ec"
   },
   "previous_deliverable_correction": {
     "id": "marrakech-medina-street-food-walk",

@@ -16,4 +16,4 @@ The article does not assert current permit availability, rules, age eligibility,
 
 ## Publication checkpoint
 
-Content record added to content/editorial-overrides.json. Commit and live status to be recorded after push and bounded live check. No tests, build or browser QA requested or run.
+Content record added to content/editorial-overrides.json. Commit `045a4d9` pushed to `main`. On 18 October, the insight URL returned HTTP 404 on the initial live request and after one 60-second retry. The related Kibale park and camp pages returned HTTP 200 and both link to each other. Insight deployment remains unconfirmed; next action is to check the deploy state on the next scheduled run. Owner report sent to the authorized address; Gmail SENT message ID `1a14d6f18cd306ec`. No tests, build or browser QA were run.
