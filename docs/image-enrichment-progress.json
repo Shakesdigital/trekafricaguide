@@ -4,7 +4,7 @@
     "id": "unguja-local-destination-photo-collection",
     "page_url": "https://trekafricaguide.com/countries/tanzania/unguja",
     "page_type": "local_destination",
-    "status": "prepared_push_pending",
+    "status": "pushed_live_unconfirmed",
     "previous_photo_count": 0,
     "photo_count": 6,
     "checked_date": "2026-10-18",
@@ -20,10 +20,10 @@
       "public/images/editorial/unguja/stone-town-lane-2002.jpg",
       "public/images/editorial/unguja/stone-town-waterfront.jpg"
     ],
-    "live_verification": "pending",
-    "commit": null,
+    "live_verification": "2026-10-18: Netlify production deploy 6ad4c59e14442e35bb96e339 is still ready at ebd0b87ba551db6449fb61e6339b586bd33f6fda, not 31253b2. Guide URL returns HTTP 200 but no new gallery paths or credits; all six new image URLs return 404. Live publication not confirmed.",
+    "commit": "31253b2",
     "email_id": null,
-    "note": "All six distinct Commons files visually reviewed; subject, original file page, creator and reuse terms are recorded in the dated source ledger and image library. No selected source duplicates another detail-page collection. Rejected a similarly named Commons ferry-jump photograph after visual review; it is distinct from the existing Mtoni Marine photo and neither was reused. Removed a pre-existing trailing comma from the Elmina record in content/local-destinations.json, introduced by 4ef39be, as a syntax-only repair so the collection parses; deployment effect pending."
+    "note": "Commit 31253b2 pushed to origin/main. All six distinct Commons files visually reviewed; subject, original file page, creator and reuse terms are recorded in the dated source ledger and image library. No selected source duplicates another detail-page collection. Rejected a similarly named Commons ferry-jump photograph after visual review; it is distinct from the existing Mtoni Marine photo and neither was reused. Removed a pre-existing trailing comma from the Elmina record in content/local-destinations.json, introduced by 4ef39be, as a syntax-only repair so the collection parses. Deployment remains stale; see live_verification."
   },
   "follow_ups": []
 }
