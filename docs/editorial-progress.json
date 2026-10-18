@@ -325,7 +325,7 @@
   },
   "recent_manual_batch": {
     "id": "first-three-travel-insights-depth",
-    "status": "drafting_complete_uncommitted",
+    "status": "stay_roundups_drafted_uncommitted",
     "checked": "2026-10-18",
     "slugs": [
       "table-mountain-weather-cableway-or-hike",
@@ -341,8 +341,13 @@
       "choose-bwindi-sector-before-booking-stay": 0,
       "choose-cape-town-base-by-outings": 0
     },
-    "next_action": "Briefly inspect supported fields, links, image count, and HTML structure; commit and push the batch; independently check distinctive new content on all three live URLs. Preserve the pending Elmina deployment checkpoint.",
-    "commit": null,
-    "live_verification": null
+    "next_action": "Commit and push researched accommodation roundups for the three insights, then verify distinctive updated text and transformed Stay22 URLs on all three public pages. Narrative commit cdc8b37 remains pushed; live check returned HTTP 200 but old content. Preserve pending Elmina deployment checkpoint.",
+    "commit": "cdc8b37",
+    "live_verification": "2026-10-18: all three article URLs HTTP 200, but new narrative FAQ/section text absent; page content still predates cdc8b37.",
+    "roundups": {
+      "table-mountain-weather-cableway-or-hike": 5,
+      "choose-bwindi-sector-before-booking-stay": 4,
+      "choose-cape-town-base-by-outings": 5
+    }
   }
 }
