@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-17",
+  "updated_at": "2026-10-18",
   "timezone": "Africa/Kampala",
   "next_scheduled_start": "2026-10-17T19:30:00+03:00",
   "cadence_hours": 3,
@@ -252,7 +252,7 @@
     "No routine tests/builds or repeated broad audits."
   ],
   "next_task_selection": "After current task is complete, prioritize evidenced accuracy, usability and discoverability gaps; record rationale.",
-  "last_run": "2026-10-17T19:30:00+03:00",
+  "last_run": "2026-10-18T08:02:00+03:00",
   "task_magnitude": "One complete full guide plus booking and listing cards, or one full property photo collection; do not schedule isolated paragraphs/links.",
   "country_destinations_feature": {
     "status": "complete",
@@ -272,49 +272,37 @@
     "email_id": "1a143a69416cf3d1"
   },
   "rotation": {
-    "last_completed_category": "accommodations",
-    "next_category": "travel insights",
-    "next_deliverable": "Publish one practical Kibale or western Uganda planning insight, prioritizing a sourced question not already answered by the accommodation guide.",
+    "last_completed_category": "travel insights",
+    "next_category": "destinations",
+    "next_deliverable": "Add a complete destination guide in a country/local area with a verified geographic relationship, route context and useful internal links; prioritize geographic breadth beyond the recent Uganda/Kibale cluster.",
     "rule": "Finish the individual deliverable and report its live state, then rotate. Track exact-property photo gaps separately."
   },
   "current_deliverable": {
-    "id": "kibale-forest-camp",
-    "category": "accommodations",
-    "status": "complete",
-    "objective": "Publish a complete, evidence-backed stay guide with a canonical Kibale attraction relationship and exact Booking.com detail destination through the existing Stay22 resolver.",
-    "research_checked": "2026-10-17",
+    "id": "plan-kibale-around-chimpanzee-trek",
+    "category": "travel insights",
+    "status": "in_progress",
+    "objective": "Publish a practical, source-backed Kibale itinerary insight explaining how to pace the road journey around a chimpanzee trek without repeating the park guide or accommodation listing.",
+    "research_checked": "2026-10-18",
     "sources_checked": [
-      "https://naturelodgesuganda.com/lodges/kibale-forest-camp/",
-      "https://www.booking.com/hotel/ug/kibale-forest-camp-kyenjojo.en-gb.html",
-      "https://www.tripadvisor.com/Hotel_Review-g1553443-d1553442-Reviews-Kibale_Forest_Camp-Kibale_National_Park_Western_Region.html",
-      "https://ugandawildlife.org/national-parks/kibale-national-park/"
+      "https://ugandawildlife.org/national-parks/kibale-national-park/",
+      "https://ugandawildlife.org/activities/chimpanzee-tracking/",
+      "https://naturelodgesuganda.com/lodges/kibale-forest-camp/"
     ],
-    "canonical_ids": {
-      "region": 14,
-      "country": 55,
-      "attraction": "repo:attractions:kibale-national-park",
-      "new_accommodation": "repo:accommodations:kibale-forest-camp"
-    },
-    "booking_product": "https://www.booking.com/hotel/ug/kibale-forest-camp-kyenjojo.en-gb.html",
     "image_count": 0,
-    "image_followup": "Six exact-property photographs with verified reuse rights remain. No OTA or official-site image reused; neutral image state retained.",
+    "image_followup": "Six licensed Kibale/travel-context photographs remain; no images borrowed from the park or camp gallery.",
     "files": [
       "content/editorial-overrides.json",
-      "content/booking-destinations.json",
-      "docs/editorial-research/2026-10-17-kibale-forest-camp.md"
+      "docs/editorial-research/2026-10-18-plan-kibale-around-chimpanzee-trek.md"
     ],
-    "status_note": "Official 2026 B&B rates are on the operator site and explicitly time-limited. Booking.com search result confirms exact listing identity/location, but its detail page was inaccessible for independent rating, availability, OTA price and review verification; none are claimed. Current UWA permit/reporting terms must be confirmed directly.",
-    "live_verification": "2026-10-17 Kampala: accommodation page returned HTTP 404 on the first request; after the single 60-second retry all three requested public pages returned HTTP 200. Accommodation h1 is Kibale Forest Camp. Its CTA href is https://www.stay22.com/allez/booking?aid=trekafricaguide&link=https%3A%2F%2Fwww.booking.com%2Fhotel%2Fug%2Fkibale-forest-camp-kyenjojo.en-gb.html&roam=false&campaign=accommodations_kibale_forest_camp. Kibale attraction and Uganda country pages both link to /accommodations/kibale-forest-camp. No property photos are present.",
-    "email_id": "1a14ab908a405642",
-    "next_action": "Complete. Next category: travel insights at 22:30 Kampala; choose a practical Kibale or western Uganda planning question. Track six property-photo rights gaps separately.",
+    "status_note": "UWA route facts used as estimates. UWA operational claims conflict across material; insight omits current permit rules, prices, ages and departure times and advises direct confirmation.",
+    "next_action": "Commit and push; check live insight URL plus linked Kibale park and camp pages; email the authorized owner with confirmed/pending status.",
     "previous_deliverable": {
-      "id": "kibale-national-park",
+      "id": "kibale-forest-camp",
       "status": "complete",
-      "commit": "ff77f17",
-      "email_id": "1a14a1631d139b10"
+      "commit": "d99459b",
+      "email_id": "1a14ab908a405642"
     },
-    "content_commit": "d99459b",
-    "checkpoint": "Guide, exact Booking.com destination, Stay22 redirect, canonical attraction relationship and source ledger completed in d99459b and confirmed live. Owner email SENT 1a14ab908a405642. Exact-property photo gallery remains 0/6; requested subjects recorded in email and source ledger. Booking.com rating, reviews, live rates and availability were not independently verified. Official 2026 B&B rate sheet is time-limited; confirm all room/permit/transfer terms before payment. No tests, build or browser QA."
+    "checkpoint": "Content prepared. Full final/live report pending push and live check."
   },
   "previous_deliverable_correction": {
     "id": "marrakech-medina-street-food-walk",
@@ -323,7 +311,7 @@
     "email_id": "1a148cdf8dbabb76",
     "note": "Live page and booking relationship were confirmed and the owner report was already sent. Corrected the stale pending-owner-report status without resending the email."
   },
-  "next_scheduled_run": "2026-10-17T22:30:00+03:00",
+  "next_scheduled_run": "2026-10-18T10:30:00+03:00",
   "analytics_installation": {
     "measurement_id": "G-ZWBZRQPBK7",
     "commit": "4f76457",
