@@ -325,7 +325,7 @@
   },
   "recent_manual_batch": {
     "id": "first-three-travel-insights-depth",
-    "status": "stay_roundups_drafted_uncommitted",
+    "status": "three_insights_pushed_live_unconfirmed",
     "checked": "2026-10-18",
     "slugs": [
       "table-mountain-weather-cableway-or-hike",
@@ -341,9 +341,9 @@
       "choose-bwindi-sector-before-booking-stay": 0,
       "choose-cape-town-base-by-outings": 0
     },
-    "next_action": "Commit and push researched accommodation roundups for the three insights, then verify distinctive updated text and transformed Stay22 URLs on all three public pages. Narrative commit cdc8b37 remains pushed; live check returned HTTP 200 but old content. Preserve pending Elmina deployment checkpoint.",
-    "commit": "cdc8b37",
-    "live_verification": "2026-10-18: all three article URLs HTTP 200, but new narrative FAQ/section text absent; page content still predates cdc8b37.",
+    "next_action": "Public pages returned HTTP 200 but still served old content on bounded checks after the final push; verify deployment propagation before marking these edits live. Preserve pending Elmina deployment checkpoint.",
+    "commit": "cdc8b37; 0f2abca; 0a871c1",
+    "live_verification": "2026-10-18: all three URLs returned HTTP 200 after cdc8b37, but updated sections were absent. Retry after 0f2abca timed out or returned empty responses; after 0a871c1 Cape Town returned HTTP 200 with both new stay markers absent. Live content remains unconfirmed.",
     "roundups": {
       "table-mountain-weather-cableway-or-hike": 5,
       "choose-bwindi-sector-before-booking-stay": 4,
