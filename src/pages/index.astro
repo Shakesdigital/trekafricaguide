@@ -33,6 +33,21 @@ const featuredStays = [...model.accommodations].filter((item) => item.hero_image
       </div>
     </div>
   </section>
+  <section class="home-intro section section--alt">
+    <div class="container home-intro__grid">
+      <div class="home-intro__image">
+        <ImageSlot class="home-intro__slot" src="image-slot:home-intro-africa-map" alt="Waterways and islands of Botswana’s Okavango Delta" />
+        <span class="home-intro__caption">A continent of distinct routes and places</span>
+      </div>
+      <div class="home-intro__copy">
+        <p class="eyebrow">A guide to travelling Africa</p>
+        <h2>Plan with a clearer sense of place.</h2>
+        <p>Trek Africa Guide is an independent African travel catalogue and planning companion. Explore destinations, discover attractions and activities, and compare stays that fit your route.</p>
+        <p>Use our guides to plan with context, then continue to trusted booking providers to confirm current availability, rates, inclusions, permits and terms before paying.</p>
+        <a class="button" href="/about-us">Read More About Trek Africa Guide</a>
+      </div>
+    </div>
+  </section>
   <DestinationTabs items={model.countries} label="Explore countries" minimal autoplay />
 
   <section class="section">

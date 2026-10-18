@@ -5,8 +5,6 @@ const { brand, regions = [] } = Astro.props;
   <div class="container footer-grid">
     <div>
       <h3>{brand.name}</h3>
-      <p>{brand.tagline}</p>
-      <p>Use each guide to understand the destination, compare nearby stays, and continue to trusted external booking pages when the fit feels right.</p>
     </div>
     <div>
       <h4>Explore</h4>
@@ -16,6 +14,7 @@ const { brand, regions = [] } = Astro.props;
         <li><a href="/activities">Activities</a></li>
         <li><a href="/accommodations">Accommodations</a></li>
         <li><a href="/travel-insights">Travel Insights</a></li>
+        <li><a href="/about-us">About Trek Africa Guide</a></li>
       </ul>
     </div>
     <div>
@@ -24,8 +23,5 @@ const { brand, regions = [] } = Astro.props;
         {regions.map((region) => <li><a href={`/regions/${region.slug}`}>{region.name}</a></li>)}
       </ul>
     </div>
-  </div>
-  <div class="container footer-note">
-    <p>Trek Africa Guide is an independent planning guide. Booking links open external provider pages where you should verify live availability, rates, inclusions, permits, and final terms before paying.</p>
   </div>
 </footer>

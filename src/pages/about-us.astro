@@ -1,0 +1,28 @@
+import SiteLayout from '../layouts/SiteLayout.astro';
+import { getSiteModel } from '../lib/site-model.mjs';
+
+const model = await getSiteModel();
+---
+<SiteLayout model={model} title="About Trek Africa Guide" description="Learn how Trek Africa Guide helps travellers explore African destinations and plan with useful context.">
+  <section class="about-intro section">
+    <div class="container about-intro__inner">
+      <p class="eyebrow">About Trek Africa Guide</p>
+      <h1>Useful context for choosing your own way through Africa.</h1>
+      <p class="about-intro__lead">Trek Africa Guide is an independent travel catalogue and planning guide for people exploring the continent, from first safari ideas to slower, more independent routes.</p>
+    </div>
+  </section>
+  <section class="section section--alt about-purpose">
+    <div class="container about-purpose__grid">
+      <div>
+        <p class="eyebrow">Our purpose</p>
+        <h2>Make the pieces of a trip easier to bring together.</h2>
+      </div>
+      <div class="about-purpose__copy">
+        <p>Planning a journey across Africa often means weighing very different places, distances and ways to travel. Our guides bring destinations, attractions, activities and nearby stays together so you can explore options with a stronger sense of how they fit.</p>
+        <p>Whether you are travelling solo, building an adventure route, arranging a safari or keeping to a considered budget, use the information as a starting point and shape the trip around your interests and circumstances.</p>
+        <p>Trek Africa Guide provides planning context. Booking links open external provider pages, where you should confirm current availability, rates, inclusions, permits and final terms before paying.</p>
+        <a class="button button--ghost" href="/countries">Explore destinations</a>
+      </div>
+    </div>
+  </section>
+</SiteLayout>

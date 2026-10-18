@@ -343,6 +343,72 @@ img.gallery-grid__slot {
     margin-bottom: 1rem;
 }
 
+.home-intro__grid,
+.about-purpose__grid {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    gap: clamp(2rem, 6vw, 5rem);
+    align-items: center;
+}
+
+.home-intro__image {
+    position: relative;
+    min-height: 24rem;
+    overflow: hidden;
+    background: #dce4df;
+}
+
+img.home-intro__slot {
+    width: 100%;
+    height: 100%;
+    min-height: 24rem;
+    object-fit: cover;
+}
+
+.home-intro__caption {
+    position: absolute;
+    inset: auto 0 0;
+    padding: 2.5rem 1.25rem 1rem;
+    color: white;
+    background: linear-gradient(transparent, rgba(15, 32, 24, 0.78));
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+.home-intro__copy h2,
+.about-purpose h2 {
+    max-width: 16ch;
+}
+
+.home-intro__copy p:not(.eyebrow),
+.about-purpose__copy p {
+    max-width: 43rem;
+    line-height: 1.75;
+}
+
+.home-intro__copy .button {
+    margin-top: 0.75rem;
+}
+
+.about-intro__inner {
+    max-width: 850px;
+}
+
+.about-intro h1 {
+    max-width: 17ch;
+    font-size: clamp(2.5rem, 5vw, 4.7rem);
+}
+
+.about-intro__lead {
+    max-width: 47rem;
+    font-size: 1.2rem;
+    line-height: 1.75;
+}
+
+.about-purpose__grid {
+    align-items: start;
+}
+
 .button {
     display: inline-flex;
     align-items: center;
@@ -1405,6 +1471,16 @@ img.gallery-grid__slot {
     .stack-grid,
     .footer-grid {
         grid-template-columns: minmax(0, 1fr);
+    }
+
+    .home-intro__grid,
+    .about-purpose__grid {
+        grid-template-columns: minmax(0, 1fr);
+    }
+
+    .home-intro__image,
+    img.home-intro__slot {
+        min-height: 18rem;
     }
 
     .listing-carousel {
