@@ -274,38 +274,40 @@
   "rotation": {
     "last_completed_category": "travel insights",
     "next_category": "destinations",
-    "next_deliverable": "Add a complete destination guide in a country/local area with a verified geographic relationship, route context and useful internal links; prioritize geographic breadth beyond the recent Uganda/Kibale cluster.",
+    "next_deliverable": "Elmina, Ghana local destination guide in progress; confirm separate regional attractions and omit unrelated same-country stays.",
     "rule": "Finish the individual deliverable and report its live state, then rotate. Track exact-property photo gaps separately."
   },
   "current_deliverable": {
-    "id": "plan-kibale-around-chimpanzee-trek",
-    "category": "travel insights",
-    "status": "published_live_confirmed",
-    "objective": "Publish a practical, source-backed Kibale itinerary insight explaining how to pace the road journey around a chimpanzee trek without repeating the park guide or accommodation listing.",
+    "id": "elmina-local-destination",
+    "category": "destinations",
+    "status": "draft_checkpoint",
+    "objective": "Publish a source-backed Elmina local guide with respectful heritage context, route and season planning, and explicit internal links to verified regional guides.",
     "research_checked": "2026-10-18",
     "sources_checked": [
-      "https://ugandawildlife.org/national-parks/kibale-national-park/",
-      "https://ugandawildlife.org/activities/chimpanzee-tracking/",
-      "https://naturelodgesuganda.com/lodges/kibale-forest-camp/"
+      "https://whc.unesco.org/en/list/34/",
+      "https://visitghana.com/central-region/",
+      "https://visitghana.com/elmina-castle-2/",
+      "https://visitghana.com/getting-around-ghana/",
+      "https://visitghana.com/wp-content/uploads/2023/05/Welcome-Ghana-Passport-Brochure-compressed.pdf"
     ],
     "image_count": 0,
-    "image_followup": "Six licensed Kibale/travel-context photographs remain; no images borrowed from the park or camp gallery.",
+    "image_followup": "0/6 licensed Elmina-specific photos; six distinct subject targets recorded in the local destination research ledger for the separate image-enrichment workflow. No image sourcing performed.",
     "files": [
-      "content/editorial-overrides.json",
-      "docs/editorial-research/2026-10-18-plan-kibale-around-chimpanzee-trek.md"
+      "content/local-destinations.json",
+      "docs/editorial-research/2026-10-18-elmina-local-destination.md"
     ],
-    "status_note": "Live publication confirmed 2026-10-18: homepage HTTP 200 with updated About CTA, /about-us HTTP 200, and insight HTTP 200 with expected H1. Netlify current published deploy state ready (6ad4c16f9d0358f2c71d1980). Six-image follow-up remains.",
-    "next_action": "Next scheduled run: rotate to destinations; choose a complete, source-backed guide with geographic breadth beyond the Uganda/Kibale cluster. Keep Kibale six-photo follow-up in backlog.",
+    "status_note": "Content and research ledger prepared. Before push: final supported-field and relationship inspection; no activities, stay or insight cards because none is verified as locally relevant. The published Cape Coast hotel was excluded because the destination template would label it 'Stays around Elmina'.",
+    "next_action": "Push authorized main change, confirm production deploy and page/country/search separately, then send the owner report and save the Gmail SENT receipt.",
     "previous_deliverable": {
-      "id": "kibale-forest-camp",
-      "status": "complete",
-      "commit": "d99459b",
-      "email_id": "1a14ab908a405642"
+      "id": "plan-kibale-around-chimpanzee-trek",
+      "status": "complete_live_confirmed",
+      "commit": "045a4d9",
+      "email_id": "1a14f22cbbbd3042"
     },
-    "checkpoint": "Kibale insight publication confirmed live on 2026-10-18 after corrective commits ed89cd6 and 58e9f60 reached the current ready Netlify deploy. Homepage CTA and About page also confirmed HTTP 200. Owner report SENT; see email_id. Next category: destinations.",
-    "commit": "045a4d9",
-    "live_verification": "2026-10-18: homepage HTTP 200, contains Read More About Trek Africa Guide; /about-us HTTP 200; /travel-insights/plan-kibale-around-chimpanzee-trek HTTP 200 with H1 How to Plan Kibale Around a Chimpanzee Trek. Netlify current published deploy id 6ad4c16f9d0358f2c71d1980, state ready. No tests/build/browser QA.",
-    "email_id": "1a14f22cbbbd3042"
+    "checkpoint": "Elmina source-backed draft and photo backlog saved. Live publication not yet attempted.",
+    "commit": null,
+    "live_verification": null,
+    "email_id": null
   },
   "previous_deliverable_correction": {
     "id": "marrakech-medina-street-food-walk",

@@ -158,5 +158,59 @@
     "sort_order": 3,
     "status": "published",
     "published_at": "2026-10-16T00:00:00Z"
+  },
+  {
+    "slug": "elmina",
+    "country_slug": "ghana",
+    "name": "Elmina",
+    "category": "Coastal heritage town",
+    "hero_title": "Elmina: a coastal heritage base",
+    "listing_summary": "Plan a thoughtful Elmina visit around its coastal history, with time for reflection and separately arranged trips to Cape Coast and Kakum.",
+    "overview": "Elmina is a coastal town in Ghana's Central Region, best known to many visitors for St. George's Castle, also called Elmina Castle. UNESCO records the castle as part of Ghana's collective Forts and Castles World Heritage property and dates its construction to 1482. The coast's trading history includes the enslavement and forced movement of African people; a visit calls for context and reflection, not treating the site as a scenic backdrop.\n\nGive the castle its own unhurried visit and use informed interpretation to understand how its role changed over time. Ghana's Tourism Authority also identifies Fort St. Jago (Fort Coenraadsburg) across the lagoon from the castle; confirm current access before making a plan around it. Elmina is also a living town, not only a heritage stop. The authority lists the local Edina Buronya celebration and the region's fishing communities; check current community guidance and annual dates before planning around an event.\n\nThe published Elmina Castle guide covers the site itself. Cape Coast Castle and Kakum National Park are separate regional outings, not attractions within the castle grounds. Allow enough time for the transfers and for each experience to stand on its own.",
+    "highlights": [
+      "Thoughtful guided interpretation at Elmina Castle",
+      "A coastal town with living community and fishing contexts",
+      "Separate regional outings to Cape Coast and Kakum",
+      "A slower itinerary that leaves room for reflection"
+    ],
+    "access_summary": "Plan an overland arrival to Elmina and confirm the current route, realistic journey estimate, exact drop-off and return pickup with your transport provider or accommodation. Travel time from Accra varies with route, traffic and stops; no fixed duration is promised here. If arriving through Cape Coast, arrange a separate road transfer to Elmina rather than assuming the two castle sites are a walk between one another.\n\nFor solo and budget travel, compare a shared public-transport journey plus the final local transfer with a private return quote. Confirm where the return vehicle will meet you, what waiting time costs and whether the quote includes a guide or admissions. Check road conditions and event-day arrangements close to travel. The Ghana Tourism Authority lists taxis and shared minibuses among transport options nationally, but it does not establish a local timetable or guarantee a particular service for your date.",
+    "best_time": "Ghana Tourism Authority's national planning guide describes November to March and July to August as generally drier travel periods in southern Ghana, with rainier periods around April to June and September to mid-November; it notes that Central Region rains can be heavier and last longer. These are broad seasonal patterns rather than a forecast. Keep flexibility for outdoor walking in wetter months and check local conditions near departure.\n\nA heritage-focused visit can work across seasons, but choose a comfortable time of day, carry water and rain protection as conditions require, and ask the site about current opening and access before setting a tight onward connection. If you hope to attend Edina Buronya or another local celebration, verify dates and any visitor guidance with the organizers rather than relying on an old calendar listing.",
+    "planning_tips": "A relaxed outline is to arrive and settle in on day one, devote a substantial block on day two to Elmina Castle and leave the remainder of the day flexible, then choose either Cape Coast Castle or Kakum for a separate outing. Add another night if you want to visit both. This is editorial pacing advice, not a fixed tour or promise about transfer times. Ask the castle directly about current hours, admissions, photography rules, accessible routes and opportunities to rest; do not assume the historic site is step-free.\n\nEngage with local guides and community experiences by prior agreement. Ask before photographing people, homes, fishing activity or ceremonies, and respect any restricted areas. Visitors approaching the history of enslavement may want time afterward without another scheduled attraction.\n\nNo Elmina-based accommodation or activity guide is currently published. Choose a property only after verifying its address and transfer arrangements for your dates; a hotel in Cape Coast would be a separate regional base rather than an Elmina stay.",
+    "attraction_slugs": [
+      "elmina-castle",
+      "cape-coast-kakum"
+    ],
+    "activity_slugs": [],
+    "accommodation_slugs": [],
+    "travel_insight_slugs": [],
+    "hero_image_url": null,
+    "hero_image_alt": "Elmina town and coastal heritage in Ghana's Central Region",
+    "gallery": [],
+    "last_researched": "2026-10-18",
+    "research_sources": [
+      {
+        "label": "UNESCO World Heritage Centre: Ghana's Forts and Castles",
+        "url": "https://whc.unesco.org/en/list/34/"
+      },
+      {
+        "label": "Ghana Tourism Authority: Elmina Castle and Fort St. Jago location context",
+        "url": "https://visitghana.com/elmina-castle-2/"
+      },
+      {
+        "label": "Ghana Tourism Authority: Central Region, Edina Buronya and Kakum context",
+        "url": "https://visitghana.com/central-region/"
+      },
+      {
+        "label": "Ghana Tourism Authority: getting around Ghana",
+        "url": "https://visitghana.com/getting-around-ghana/"
+      },
+      {
+        "label": "Ghana Tourism Authority: national planning brochure and seasonal guidance",
+        "url": "https://visitghana.com/wp-content/uploads/2023/05/Welcome-Ghana-Passport-Brochure-compressed.pdf"
+      },
+    ],
+    "sort_order": 4,
+    "status": "published",
+    "published_at": "2026-10-18T13:30:00Z"
   }
 ]
