@@ -322,5 +322,27 @@
     "commit": "4f76457",
     "status": "live_html_confirmed",
     "evidence": "One loader immediately after head on homepage, Cape Town guide and Victoria Falls Hotel; Analytics event receipt not checked."
+  },
+  "recent_manual_batch": {
+    "id": "first-three-travel-insights-depth",
+    "status": "drafting_complete_uncommitted",
+    "checked": "2026-10-18",
+    "slugs": [
+      "table-mountain-weather-cableway-or-hike",
+      "choose-bwindi-sector-before-booking-stay",
+      "choose-cape-town-base-by-outings"
+    ],
+    "files": [
+      "content/editorial-overrides.json",
+      "docs/editorial-research/2026-10-18-first-three-insights-depth.md"
+    ],
+    "photo_counts": {
+      "table-mountain-weather-cableway-or-hike": 6,
+      "choose-bwindi-sector-before-booking-stay": 0,
+      "choose-cape-town-base-by-outings": 0
+    },
+    "next_action": "Briefly inspect supported fields, links, image count, and HTML structure; commit and push the batch; independently check distinctive new content on all three live URLs. Preserve the pending Elmina deployment checkpoint.",
+    "commit": null,
+    "live_verification": null
   }
 }
