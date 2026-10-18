@@ -280,7 +280,7 @@
   "current_deliverable": {
     "id": "plan-kibale-around-chimpanzee-trek",
     "category": "travel insights",
-    "status": "published_pending_live_confirmation",
+    "status": "published_live_confirmed",
     "objective": "Publish a practical, source-backed Kibale itinerary insight explaining how to pace the road journey around a chimpanzee trek without repeating the park guide or accommodation listing.",
     "research_checked": "2026-10-18",
     "sources_checked": [
@@ -294,18 +294,18 @@
       "content/editorial-overrides.json",
       "docs/editorial-research/2026-10-18-plan-kibale-around-chimpanzee-trek.md"
     ],
-    "status_note": "Owner report sent; the insight returned HTTP 404 twice including after one 60-second retry, so public publication is unconfirmed. Park and camp pages are HTTP 200. Six-image follow-up remains.",
-    "next_action": "Next scheduled run: check deployment state and insight URL once; if still missing, investigate the deploy/build record before another publish attempt. Then resume the next category: destinations.",
+    "status_note": "Live publication confirmed 2026-10-18: homepage HTTP 200 with updated About CTA, /about-us HTTP 200, and insight HTTP 200 with expected H1. Netlify current published deploy state ready (6ad4c16f9d0358f2c71d1980). Six-image follow-up remains.",
+    "next_action": "Next scheduled run: rotate to destinations; choose a complete, source-backed guide with geographic breadth beyond the Uganda/Kibale cluster. Keep Kibale six-photo follow-up in backlog.",
     "previous_deliverable": {
       "id": "kibale-forest-camp",
       "status": "complete",
       "commit": "d99459b",
       "email_id": "1a14ab908a405642"
     },
-    "checkpoint": "Content pushed in 045a4d9. Live insight 404 twice; linked pages 200. Owner email SENT 1a14d6f18cd306ec. Next scheduled run 10:30 Kampala 2026-10-18; check deploy state once, then destination category.",
+    "checkpoint": "Kibale insight publication confirmed live on 2026-10-18 after corrective commits ed89cd6 and 58e9f60 reached the current ready Netlify deploy. Homepage CTA and About page also confirmed HTTP 200. Owner report SENT; see email_id. Next category: destinations.",
     "commit": "045a4d9",
-    "live_verification": "After push 045a4d9, Kibale park and Kibale Forest Camp pages returned HTTP 200 and both link to each other. The insight URL returned 404 on initial request and once after 60 seconds; deployment/live status remains unconfirmed. No further retry this run.",
-    "email_id": "1a14d6f18cd306ec"
+    "live_verification": "2026-10-18: homepage HTTP 200, contains Read More About Trek Africa Guide; /about-us HTTP 200; /travel-insights/plan-kibale-around-chimpanzee-trek HTTP 200 with H1 How to Plan Kibale Around a Chimpanzee Trek. Netlify current published deploy id 6ad4c16f9d0358f2c71d1980, state ready. No tests/build/browser QA.",
+    "email_id": "1a14f22cbbbd3042"
   },
   "previous_deliverable_correction": {
     "id": "marrakech-medina-street-food-walk",

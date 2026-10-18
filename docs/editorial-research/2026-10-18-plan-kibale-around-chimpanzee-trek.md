@@ -17,3 +17,9 @@ The article does not assert current permit availability, rules, age eligibility,
 ## Publication checkpoint
 
 Content record added to content/editorial-overrides.json. Commit `045a4d9` pushed to `main`. On 18 October, the insight URL returned HTTP 404 on the initial live request and after one 60-second retry. The related Kibale park and camp pages returned HTTP 200 and both link to each other. Insight deployment remains unconfirmed; next action is to check the deploy state on the next scheduled run. Owner report sent to the authorized address; Gmail SENT message ID `1a14d6f18cd306ec`. No tests, build or browser QA were run.
+
+## Live publication confirmation — 18 October 2026
+
+After corrective commits ed89cd6 and 58e9f60 reached the current Netlify deploy, the homepage returned HTTP 200 and included the updated Read More About Trek Africa Guide CTA; /about-us returned HTTP 200; and /travel-insights/plan-kibale-around-chimpanzee-trek returned HTTP 200 with the expected H1, How to Plan Kibale Around a Chimpanzee Trek. Netlify reports current deploy 6ad4c16f9d0358f2c71d1980 as ready. Publication is confirmed. The insight still has 0/6 photos; six licensed subject-specific images remain a follow-up. No tests, build or browser QA were run.
+
+Owner progress report sent to fsddanmugisa@gmail.com; Gmail SENT message ID 1a14f22cbbbd3042.
