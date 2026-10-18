@@ -137,9 +137,16 @@
       "emerson-spice"
     ],
     "travel_insight_slugs": [],
-    "hero_image_url": null,
-    "hero_image_alt": "Unguja and Stone Town, Zanzibar, Tanzania",
-    "gallery": [],
+    "hero_image_url": "/images/editorial/unguja/stone-town-waterfront.jpg",
+    "hero_image_alt": "Stone Town's waterfront promenade and Indian Ocean, Unguja, Zanzibar",
+    "gallery": [
+      "/images/editorial/unguja/stone-town-waterfront.jpg",
+      "/images/editorial/unguja/stone-town-lane-2002.jpg",
+      "/images/editorial/unguja/forodhani-harbour-gardens.jpg",
+      "/images/editorial/unguja/stone-town-carved-upper-door.jpg",
+      "/images/editorial/unguja/nungwi-north-coast.jpg",
+      "/images/editorial/unguja/stone-town-carved-door.jpg"
+    ],
     "last_researched": "2026-10-16",
     "research_sources": [
       {
@@ -207,7 +214,7 @@
       {
         "label": "Ghana Tourism Authority: national planning brochure and seasonal guidance",
         "url": "https://visitghana.com/wp-content/uploads/2023/05/Welcome-Ghana-Passport-Brochure-compressed.pdf"
-      },
+      }
     ],
     "sort_order": 4,
     "status": "published",

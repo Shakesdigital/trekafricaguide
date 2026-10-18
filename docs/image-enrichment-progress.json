@@ -1,0 +1,29 @@
+{
+  "updated_at": "2026-10-18",
+  "current_run": {
+    "id": "unguja-local-destination-photo-collection",
+    "page_url": "https://trekafricaguide.com/countries/tanzania/unguja",
+    "page_type": "local_destination",
+    "status": "prepared_push_pending",
+    "previous_photo_count": 0,
+    "photo_count": 6,
+    "checked_date": "2026-10-18",
+    "source_ledger": "docs/editorial-research/2026-10-18-unguja-photo-enrichment.md",
+    "files": [
+      "content/local-destinations.json",
+      "src/lib/photo-library.js",
+      "public/photo-library.js",
+      "public/images/editorial/unguja/forodhani-harbour-gardens.jpg",
+      "public/images/editorial/unguja/nungwi-north-coast.jpg",
+      "public/images/editorial/unguja/stone-town-carved-door.jpg",
+      "public/images/editorial/unguja/stone-town-carved-upper-door.jpg",
+      "public/images/editorial/unguja/stone-town-lane-2002.jpg",
+      "public/images/editorial/unguja/stone-town-waterfront.jpg"
+    ],
+    "live_verification": "pending",
+    "commit": null,
+    "email_id": null,
+    "note": "All six distinct Commons files visually reviewed; subject, original file page, creator and reuse terms are recorded in the dated source ledger and image library. No selected source duplicates another detail-page collection. Rejected a similarly named Commons ferry-jump photograph after visual review; it is distinct from the existing Mtoni Marine photo and neither was reused. Removed a pre-existing trailing comma from the Elmina record in content/local-destinations.json, introduced by 4ef39be, as a syntax-only repair so the collection parses; deployment effect pending."
+  },
+  "follow_ups": []
+}
