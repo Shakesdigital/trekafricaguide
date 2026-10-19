@@ -274,40 +274,39 @@
   "rotation": {
     "last_completed_category": "destinations",
     "next_category": "attractions",
-    "next_deliverable": "Select one source-backed attraction guide beyond recent Uganda coverage, with canonical country links and honest image/booking gaps.",
+    "next_deliverable": "Finish Sine-Saloum Delta attraction guide publication confirmation, then rotate to accommodations.",
     "rule": "Finish the individual deliverable and report its live state, then rotate. Track exact-property photo gaps separately."
   },
   "current_deliverable": {
-    "id": "elmina-local-destination",
-    "category": "destinations",
-    "status": "published_live_confirmed",
-    "objective": "Publish a source-backed Elmina local guide with respectful heritage context, route and season planning, and explicit internal links to verified regional guides.",
-    "research_checked": "2026-10-18",
+    "id": "sine-saloum-attraction-guide",
+    "category": "attractions",
+    "status": "guide_complete_live_confirmation_pending",
+    "objective": "Expand the underdeveloped Sine-Saloum attraction guide with source-backed cultural landscape context, realistic route and seasonal planning, dated traveler perspectives, and canonical Senegal stay relationship.",
+    "research_checked": "2026-10-19",
     "sources_checked": [
-      "https://whc.unesco.org/en/list/34/",
-      "https://visitghana.com/central-region/",
-      "https://visitghana.com/elmina-castle-2/",
-      "https://visitghana.com/getting-around-ghana/",
-      "https://visitghana.com/wp-content/uploads/2023/05/Welcome-Ghana-Passport-Brochure-compressed.pdf"
+      "https://whc.unesco.org/en/list/1359/",
+      "https://www.unesco.org/en/articles/ancestral-shellfish-harvesting-living-heritage-women-saloum-delta",
+      "https://mcat.gouv.sn/climate/",
+      "https://www.visitezlesenegal.com/en/destinations/sine-saloum/",
+      "https://www.tripadvisor.co.uk/Attraction_Review-g1439769-d479357-Reviews-Parc_National_du_Delta_du_Saloum-Ndangane_Fatick_Region.html",
+      "https://www.getyourguide.com/dakar-l32481/dakar-saloum-islands-full-day-tour-with-lunch-drinks-t1243074/",
+      "https://commons.wikimedia.org/wiki/File:A_nesting_site_in_the_Sine-Saloum_Delta,_Senegal.jpg"
     ],
-    "image_count": 0,
-    "image_followup": "0/6 licensed Elmina-specific photos; six distinct subject targets recorded in the local destination research ledger for the separate image-enrichment workflow. No image sourcing performed.",
+    "image_count": 1,
+    "image_followup": "1/6 dedicated, rights-verified Sine-Saloum attraction photos: exact-location Commons nesting-site image retained (Issathiome, CC BY-SA 4.0); five precise subject targets and ethical limits are in the research ledger for the separate image workflow.",
     "files": [
-      "content/local-destinations.json",
-      "docs/editorial-research/2026-10-18-elmina-local-destination.md"
+      "content/editorial-overrides.json",
+      "docs/editorial-research/2026-10-19-sine-saloum-attraction.md"
     ],
-    "status_note": "Deployment blocker resolved by 39f0ffd. Elmina detail, Ghana country card and homepage search route confirmed HTTP 200 on 19 October.",
-    "next_action": "Next category: attractions; live confirmation report sent.",
+    "status_note": "Guide, exact GetYourGuide product through the shared destination registry/resolver, canonical country and stay relationships, and one existing licensed location-specific image inspected. Not yet committed, pushed or live-confirmed. Previous Elmina guide remains published and unchanged.",
+    "next_action": "Commit and push the guide, then check the public Sine-Saloum attraction URL and record deployment result separately.",
+    "checkpoint": "Research and guide complete. One verified location-specific hero retained; five-photo follow-up recorded. Commit/push and live verification remain.",
     "previous_deliverable": {
-      "id": "plan-kibale-around-chimpanzee-trek",
-      "status": "complete_live_confirmed",
-      "commit": "045a4d9",
-      "email_id": "1a14f22cbbbd3042"
-    },
-    "checkpoint": "Deployment blocker resolved by 39f0ffd. Elmina detail, Ghana country card and homepage search route confirmed HTTP 200 on 19 October.",
-    "commit": "4ef39be",
-    "live_verification": "Deployment blocker resolved by 39f0ffd. Elmina detail, Ghana country card and homepage search route confirmed HTTP 200 on 19 October.",
-    "email_id": "1a14f3f984ff0f25"
+      "id": "elmina-local-destination",
+      "status": "published_live_confirmed",
+      "commit": "4ef39be",
+      "email_id": "1a14f3f984ff0f25"
+    }
   },
   "previous_deliverable_correction": {
     "id": "marrakech-medina-street-food-walk",
