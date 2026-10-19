@@ -17,3 +17,7 @@ The retained hero source is [Diego Delso's Victoria Falls photograph](https://co
 A proposed sixth new image, [Victoria Falls - Zimbabwe - panoramio.jpg](https://commons.wikimedia.org/wiki/File:Victoria_Falls_-_Zimbabwe_-_panoramio.jpg), had an accessible license page but its Wikimedia file redirect returned HTTP 429 during download; it was not used. The hotel collection's bridge photograph [Victoria Falls Bridge from gardens of Victoria Falls Hotel, Zimbabwe](https://commons.wikimedia.org/wiki/File:Victoria_Falls_Bridge_from_gardens_of_Victoria_Falls_Hotel,_Zimbabwe.jpg) was excluded to prevent duplicate source use. The gallery renderer shows five tiles and exposes all six through “See all”; no layout or tracking changes.
 
 This is a photo-only change. No factual guide copy, canonicals, redirects, related records, GA, Stay22, disclosure, footer credits, or contact details were changed. Push and live confirmation remain pending.
+
+## Resumption correction — 19 October 2026
+
+Remote main contains b14f458; all five new files were confirmed in the live page with HTTP 200 image/jpeg. The retained Diego Delso image also occurs in other detail-page mappings, contrary to the earlier uniqueness claim. Remove it from this collection and use the new Devil’s Cataract photo as hero. Publish five verified photographs as a useful partial collection; one further unique relevant photograph is needed for the six-image minimum. No other guide changed.

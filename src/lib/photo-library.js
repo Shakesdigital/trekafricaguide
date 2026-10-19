@@ -3216,8 +3216,8 @@ export const photoLibrary = {
         ]
       },
       "victoria-falls": {
-        "hero_image_url": "/images/stock/destinations/victoria-falls.jpg",
-        "hero_image_alt": "Cataratas Victoria, Zambia-Zimbabue, 2018-07-27, DD 04",
+        "hero_image_url": "/images/editorial/victoria-falls/victoria-falls-devils-cataract.jpg",
+        "hero_image_alt": "Devil's Cataract at Victoria Falls with spray and a rainbow",
         "replaces": [
           "/images/stock/destinations/victoria-falls.jpg"
         ],
@@ -3226,8 +3226,7 @@ export const photoLibrary = {
           "/images/editorial/victoria-falls/victoria-falls-rainforest.jpg",
           "/images/editorial/victoria-falls/victoria-falls-zimbabwe-panorama.jpg",
           "/images/editorial/victoria-falls/victoria-falls-bridge-zambezi.jpg",
-          "/images/editorial/victoria-falls/victoria-falls-viewpoint.jpg",
-          "/images/stock/destinations/victoria-falls.jpg"
+          "/images/editorial/victoria-falls/victoria-falls-viewpoint.jpg"
         ]
       },
       "volcanoes-national-park": {

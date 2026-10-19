@@ -4,9 +4,9 @@
     "id": "victoria-falls-attraction-photo-collection",
     "page_url": "https://trekafricaguide.com/attractions/victoria-falls",
     "page_type": "attraction",
-    "status": "commit_created_pending_push",
+    "status": "correction_pending_publication",
     "previous_photo_count": 2,
-    "photo_count": 6,
+    "photo_count": 5,
     "new_photo_count": 5,
     "checked_date": "2026-10-19",
     "source_ledger": "docs/editorial-research/2026-10-19-victoria-falls-photo-enrichment.md",
@@ -17,8 +17,8 @@
       "docs/editorial-research/2026-10-19-victoria-falls-photo-enrichment.md",
       "public/images/editorial/victoria-falls/"
     ],
-    "live_verification": "Not confirmed: production page and assets were not checked because the commit did not reach main.",
-    "next_action": "Push local commit b14f458414ab43ed9137003e8a61a561057fdbb8 to origin/main; then check live page and five new JPEGs, update checkpoint, and report deployment state.",
+    "live_verification": "All five new JPEGs confirmed HTTP 200 image/jpeg and present in live page. Removing retained hero because it is also assigned to other detail collections; five-photo partial collection pending correction publication.",
+    "next_action": "Confirm five-photo corrected gallery and new hero live, then report; sixth unique relevant licensed image remains a gap.",
     "note": "Five newly sourced, licensed Commons photos visually reviewed; existing Diego Delso photo remains as the sixth unique gallery image and hero. A proposed sixth new Commons file returned HTTP 429 during download and was excluded. The Victoria Falls Hotel bridge-from-gardens photo was excluded to prevent duplicate detail-collection sourcing.",
     "commit": "b14f458414ab43ed9137003e8a61a561057fdbb8",
     "email_id": "1a1549527013d4dd",
@@ -32,7 +32,7 @@
     "new_gallery_references": 6,
     "sampled_asset": "nungwi-north-coast.jpg",
     "sampled_asset_http": 200,
-    "published_deploy": "6ad4c695fa6fb724f23bb4f7",
+    "published_deploy": "6ad5c695fa6fb724f23bb4f7",
     "netlify_site_id": "d32d59a3-f819-4e66-9e79-ce47e04ce22d",
     "next_action": "Resolved: all six Unguja image paths and JPEG assets were confirmed live. Continue attraction rotation; original observation retained below.",
     "notification": "No duplicate email: unchanged pending publication; prior report receipt retained.",
@@ -75,27 +75,6 @@
       "note": "Commit 31253b2 pushed to origin/main. All six distinct Commons files visually reviewed; subject, original file page, creator and reuse terms are recorded in the dated source ledger and image library. No selected source duplicates another detail-page collection. Rejected a similarly named Commons ferry-jump photograph after visual review; it is distinct from the existing Mtoni Marine photo and neither was reused. Removed a pre-existing trailing comma from the Elmina record in content/local-destinations.json, introduced by 4ef39be, as a syntax-only repair so the collection parses. Historical deployment note: the earlier pending check below was superseded by live confirmation at 2026-10-19 15:19 Africa/Kampala.",
       "publication_email_id": "1a1541a74afa6ffa",
       "next_action": "Rotate to one published attraction with missing or unsuitable photos; review latest editorial activity and source inventory before selection."
-    },
-    {
-      "id": "victoria-falls-attraction-photo-collection",
-      "page_url": "https://trekafricaguide.com/attractions/victoria-falls",
-      "page_type": "attraction",
-      "status": "pushed_pending_live_confirmation",
-      "previous_photo_count": 2,
-      "photo_count": 6,
-      "new_photo_count": 5,
-      "checked_date": "2026-10-19",
-      "source_ledger": "docs/editorial-research/2026-10-19-victoria-falls-photo-enrichment.md",
-      "files": [
-        "src/lib/photo-library.js",
-        "public/photo-library.js",
-        "docs/image-enrichment-progress.json",
-        "docs/editorial-research/2026-10-19-victoria-falls-photo-enrichment.md",
-        "public/images/editorial/victoria-falls/"
-      ],
-      "live_verification": "Pending push and production check.",
-      "next_action": "After push, confirm live guide contains all six image paths and each new JPEG returns HTTP 200; report deployment state accurately.",
-      "note": "Five newly sourced, licensed Commons photos visually reviewed; existing Diego Delso photo remains as the sixth unique gallery image and hero. A proposed sixth new Commons file returned HTTP 429 during download and was excluded. The Victoria Falls Hotel bridge-from-gardens photo was excluded to prevent duplicate detail-collection sourcing."
     }
   ]
 }
