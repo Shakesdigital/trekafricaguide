@@ -4,7 +4,7 @@
     "id": "victoria-falls-attraction-photo-collection",
     "page_url": "https://trekafricaguide.com/attractions/victoria-falls",
     "page_type": "attraction",
-    "status": "pushed_pending_live_confirmation",
+    "status": "commit_created_pending_push",
     "previous_photo_count": 2,
     "photo_count": 6,
     "new_photo_count": 5,
@@ -17,9 +17,12 @@
       "docs/editorial-research/2026-10-19-victoria-falls-photo-enrichment.md",
       "public/images/editorial/victoria-falls/"
     ],
-    "live_verification": "Pending push and production check.",
-    "next_action": "After push, confirm live guide contains all six image paths and each new JPEG returns HTTP 200; report deployment state accurately.",
-    "note": "Five newly sourced, licensed Commons photos visually reviewed; existing Diego Delso photo remains as the sixth unique gallery image and hero. A proposed sixth new Commons file returned HTTP 429 during download and was excluded. The Victoria Falls Hotel bridge-from-gardens photo was excluded to prevent duplicate detail-collection sourcing."
+    "live_verification": "Not confirmed: production page and assets were not checked because the commit did not reach main.",
+    "next_action": "Push local commit b14f458414ab43ed9137003e8a61a561057fdbb8 to origin/main; then check live page and five new JPEGs, update checkpoint, and report deployment state.",
+    "note": "Five newly sourced, licensed Commons photos visually reviewed; existing Diego Delso photo remains as the sixth unique gallery image and hero. A proposed sixth new Commons file returned HTTP 429 during download and was excluded. The Victoria Falls Hotel bridge-from-gardens photo was excluded to prevent duplicate detail-collection sourcing.",
+    "commit": "b14f458414ab43ed9137003e8a61a561057fdbb8",
+    "email_id": "1a1549527013d4dd",
+    "publication_email_id": "1a1549527013d4dd"
   },
   "follow_ups": [],
   "last_pending_check": {
