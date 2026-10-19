@@ -2878,6 +2878,91 @@ export const photoLibrary = {
       "capture_date": "2004-03-02",
       "exact_subject_evidence": "Commons description identifies a carved door in Stone Town, the historic part of Zanzibar City; image shows the full doorway and carved surround.",
       "reuse_note": "Attribution required; unchanged original JPEG."
+    },
+    "/images/editorial/victoria-falls/victoria-falls-devils-cataract.jpg": {
+      "slug": "victoria-falls-devils-cataract",
+      "local_path": "/images/editorial/victoria-falls/victoria-falls-devils-cataract.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Victoria_Falls_Waterfall-Devils-Cataract.jpg",
+      "creator": "Ralf Junghanns (Pradatsch)",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "date": "2014-02-24",
+      "sha256": "3a8f9b486075f1154cda08e88412a07b9174d09e83117b9250689d311a5de3a9",
+      "exact_subject": true,
+      "subject": "Victoria Falls",
+      "alt": "Devil’s Cataract at Victoria Falls with spray and a rainbow",
+      "property": false,
+      "checked_at": "2026-10-19",
+      "exact_subject_evidence": "Victoria Falls, Zimbabwe; Devil’s Cataract, western section; Commons page includes coordinates -17.923498,25.847241.",
+      "reuse_note": "Reuse allowed under the stated Creative Commons license; attribution and license link retained. No modifications."
+    },
+    "/images/editorial/victoria-falls/victoria-falls-rainforest.jpg": {
+      "slug": "victoria-falls-rainforest",
+      "local_path": "/images/editorial/victoria-falls/victoria-falls-rainforest.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Rainforest_around_the_Victoria_falls_in_Zimbabwe.jpg",
+      "creator": "BetterWORLDphoto",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "date": "2011-11-21",
+      "sha256": "bb2c5aeeb31eb96cfd6afd3b74487f435999bf15e430b1e2821d1d395302f9af",
+      "exact_subject": true,
+      "subject": "Victoria Falls",
+      "alt": "A footpath through the spray-fed rainforest around Victoria Falls",
+      "property": false,
+      "checked_at": "2026-10-19",
+      "exact_subject_evidence": "Creator describes rich vegetation around Victoria Falls, Zimbabwe; Commons categorizes Victoria Falls Rainforest.",
+      "reuse_note": "Reuse allowed under the stated Creative Commons license; attribution and license link retained. No modifications."
+    },
+    "/images/editorial/victoria-falls/victoria-falls-zimbabwe-panorama.jpg": {
+      "slug": "victoria-falls-zimbabwe-panorama",
+      "local_path": "/images/editorial/victoria-falls/victoria-falls-zimbabwe-panorama.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Victoria_Falls_from_Zimbabwe.jpg",
+      "creator": "Chris Eason",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "date": "2006-07-23",
+      "sha256": "ed62188726c484d84780463f1716b4506024cd89f3e2b669697d100c23e553c6",
+      "exact_subject": true,
+      "subject": "Victoria Falls",
+      "alt": "Panoramic view of Victoria Falls from the Zimbabwe side",
+      "property": false,
+      "checked_at": "2026-10-19",
+      "exact_subject_evidence": "Creator describes panorama from Zimbabwean side; Commons records viewpoint coordinates -17.925659,25.855636 and rainbow category.",
+      "reuse_note": "Reuse allowed under the stated Creative Commons license; attribution and license link retained. No modifications."
+    },
+    "/images/editorial/victoria-falls/victoria-falls-bridge-zambezi.jpg": {
+      "slug": "victoria-falls-bridge-zambezi",
+      "local_path": "/images/editorial/victoria-falls/victoria-falls-bridge-zambezi.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Victoria_Falls_Bridge_and_Zambezi_river.jpg",
+      "creator": "Ninaras",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "date": "2014-06-15",
+      "sha256": "9169b90bbcb354fb816c951bd99cdb9e7bbcf2392e73c4455fb585d76bd77283",
+      "exact_subject": true,
+      "subject": "Victoria Falls",
+      "alt": "Victoria Falls Bridge spanning the Zambezi River between Zambia and Zimbabwe",
+      "property": false,
+      "checked_at": "2026-10-19",
+      "exact_subject_evidence": "Creator describes Victoria Falls Bridge at the Zambia–Zimbabwe border over the Zambezi; file page provides original-work and license statement.",
+      "reuse_note": "Reuse allowed under the stated Creative Commons license; attribution and license link retained. No modifications."
+    },
+    "/images/editorial/victoria-falls/victoria-falls-viewpoint.jpg": {
+      "slug": "victoria-falls-viewpoint",
+      "local_path": "/images/editorial/victoria-falls/victoria-falls-viewpoint.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:1_Victoria_Falls.jpg",
+      "creator": "PLBechly",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "date": "2011-08-24",
+      "sha256": "55d8c5a9981a15acfd038b4eeb63768d4a8914fb6d5fb199d9727d7ad77354b3",
+      "exact_subject": true,
+      "subject": "Victoria Falls",
+      "alt": "Water spilling over the wide brink of Victoria Falls",
+      "property": false,
+      "checked_at": "2026-10-19",
+      "exact_subject_evidence": "Creator caption and structured data identify Victoria Falls, Zimbabwe; Commons depicts item Victoria Falls.",
+      "reuse_note": "Reuse allowed under the stated Creative Commons license; attribution and license link retained. No modifications."
     }
   },
   "listings": {
@@ -3137,8 +3222,12 @@ export const photoLibrary = {
           "/images/stock/destinations/victoria-falls.jpg"
         ],
         "gallery": [
-          "/images/stock/destinations/victoria-falls.jpg",
-          "/images/stock/starter/victoria-falls.jpg"
+          "/images/editorial/victoria-falls/victoria-falls-devils-cataract.jpg",
+          "/images/editorial/victoria-falls/victoria-falls-rainforest.jpg",
+          "/images/editorial/victoria-falls/victoria-falls-zimbabwe-panorama.jpg",
+          "/images/editorial/victoria-falls/victoria-falls-bridge-zambezi.jpg",
+          "/images/editorial/victoria-falls/victoria-falls-viewpoint.jpg",
+          "/images/stock/destinations/victoria-falls.jpg"
         ]
       },
       "volcanoes-national-park": {

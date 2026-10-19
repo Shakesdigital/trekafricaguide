@@ -1,44 +1,98 @@
 {
   "updated_at": "2026-10-19",
   "current_run": {
-    "id": "unguja-local-destination-photo-collection",
-    "page_url": "https://trekafricaguide.com/countries/tanzania/unguja",
-    "page_type": "local_destination",
-    "status": "complete_live_confirmed",
-    "previous_photo_count": 0,
+    "id": "victoria-falls-attraction-photo-collection",
+    "page_url": "https://trekafricaguide.com/attractions/victoria-falls",
+    "page_type": "attraction",
+    "status": "pushed_pending_live_confirmation",
+    "previous_photo_count": 2,
     "photo_count": 6,
-    "checked_date": "2026-10-18",
-    "source_ledger": "docs/editorial-research/2026-10-18-unguja-photo-enrichment.md",
+    "new_photo_count": 5,
+    "checked_date": "2026-10-19",
+    "source_ledger": "docs/editorial-research/2026-10-19-victoria-falls-photo-enrichment.md",
     "files": [
-      "content/local-destinations.json",
       "src/lib/photo-library.js",
       "public/photo-library.js",
-      "public/images/editorial/unguja/forodhani-harbour-gardens.jpg",
-      "public/images/editorial/unguja/nungwi-north-coast.jpg",
-      "public/images/editorial/unguja/stone-town-carved-door.jpg",
-      "public/images/editorial/unguja/stone-town-carved-upper-door.jpg",
-      "public/images/editorial/unguja/stone-town-lane-2002.jpg",
-      "public/images/editorial/unguja/stone-town-waterfront.jpg"
+      "docs/image-enrichment-progress.json",
+      "docs/editorial-research/2026-10-19-victoria-falls-photo-enrichment.md",
+      "public/images/editorial/victoria-falls/"
     ],
-    "live_verification": "2026-10-19 15:19 Africa/Kampala: production guide HTTP 200 includes all six expected Unguja paths; all six image assets return HTTP 200 image/jpeg. Publication confirmed. Cause of earlier deployment delay not established.",
-    "commit": "31253b2",
-    "email_id": "1a1507dd5e18bd1d",
-    "note": "Commit 31253b2 pushed to origin/main. All six distinct Commons files visually reviewed; subject, original file page, creator and reuse terms are recorded in the dated source ledger and image library. No selected source duplicates another detail-page collection. Rejected a similarly named Commons ferry-jump photograph after visual review; it is distinct from the existing Mtoni Marine photo and neither was reused. Removed a pre-existing trailing comma from the Elmina record in content/local-destinations.json, introduced by 4ef39be, as a syntax-only repair so the collection parses. Deployment remains stale; see live_verification.",
-    "publication_email_id": "1a1541a74afa6ffa",
-    "next_action": "Rotate to one published attraction with missing or unsuitable photos; review latest editorial activity and source inventory before selection."
+    "live_verification": "Pending push and production check.",
+    "next_action": "After push, confirm live guide contains all six image paths and each new JPEG returns HTTP 200; report deployment state accurately.",
+    "note": "Five newly sourced, licensed Commons photos visually reviewed; existing Diego Delso photo remains as the sixth unique gallery image and hero. A proposed sixth new Commons file returned HTTP 429 during download and was excluded. The Victoria Falls Hotel bridge-from-gardens photo was excluded to prevent duplicate detail-collection sourcing."
   },
   "follow_ups": [],
   "last_pending_check": {
     "checked_at": "2026-10-19T09:33:42+03:00",
     "status": "resolved_live_confirmed",
     "page_http": 200,
-    "new_gallery_references": 0,
+    "new_gallery_references": 6,
     "sampled_asset": "nungwi-north-coast.jpg",
-    "sampled_asset_http": 404,
-    "published_deploy": "6ad4c59e14442e35bb96e339",
+    "sampled_asset_http": 200,
+    "published_deploy": "6ad4c695fa6fb724f23bb4f7",
     "netlify_site_id": "d32d59a3-f819-4e66-9e79-ce47e04ce22d",
-    "next_action": "Inspect latest failed build or Git-trigger status via Netlify deployment dashboard; confirm pending Unguja gallery before new collection.",
+    "next_action": "Resolved: all six Unguja image paths and JPEG assets were confirmed live. Continue attraction rotation; original observation retained below.",
     "notification": "No duplicate email: unchanged pending publication; prior report receipt retained.",
-    "investigation": "Netlify current deploy unchanged. GitHub main has no commit statuses and zero check runs. Netlify connector exposes only known deploy/current deploy reads, not latest builds; browser inventory has only MCP Apps, so dashboard inspection unavailable. Root cause remains unconfirmed."
-  }
+    "investigation": "Netlify current deploy unchanged. GitHub main has no commit statuses and zero check runs. Netlify connector exposes only known deploy/current deploy reads, not latest builds; browser inventory has only MCP Apps, so dashboard inspection unavailable. Root cause remains unconfirmed.",
+    "resolved_at": "2026-10-19 15:19 Africa/Kampala",
+    "historical_observation": {
+      "checked_at": "2026-10-19T09:33:42+03:00",
+      "page_http": 200,
+      "new_gallery_references": 0,
+      "sampled_asset": "nungwi-north-coast.jpg",
+      "sampled_asset_http": 404,
+      "deploy": "6ad4c59e14442e35bb96e339",
+      "investigation": "At that time the sampled asset was 404 and the cause was not established; subsequent confirmation on the resolved deploy supersedes it."
+    }
+  },
+  "completed_runs": [
+    {
+      "id": "unguja-local-destination-photo-collection",
+      "page_url": "https://trekafricaguide.com/countries/tanzania/unguja",
+      "page_type": "local_destination",
+      "status": "complete_live_confirmed",
+      "previous_photo_count": 0,
+      "photo_count": 6,
+      "checked_date": "2026-10-18",
+      "source_ledger": "docs/editorial-research/2026-10-18-unguja-photo-enrichment.md",
+      "files": [
+        "content/local-destinations.json",
+        "src/lib/photo-library.js",
+        "public/photo-library.js",
+        "public/images/editorial/unguja/forodhani-harbour-gardens.jpg",
+        "public/images/editorial/unguja/nungwi-north-coast.jpg",
+        "public/images/editorial/unguja/stone-town-carved-door.jpg",
+        "public/images/editorial/unguja/stone-town-carved-upper-door.jpg",
+        "public/images/editorial/unguja/stone-town-lane-2002.jpg",
+        "public/images/editorial/unguja/stone-town-waterfront.jpg"
+      ],
+      "live_verification": "2026-10-19 15:19 Africa/Kampala: production guide HTTP 200 includes all six expected Unguja paths; all six image assets return HTTP 200 image/jpeg. Publication confirmed. Cause of earlier deployment delay not established.",
+      "commit": "31253b2",
+      "email_id": "1a1507dd5e18bd1d",
+      "note": "Commit 31253b2 pushed to origin/main. All six distinct Commons files visually reviewed; subject, original file page, creator and reuse terms are recorded in the dated source ledger and image library. No selected source duplicates another detail-page collection. Rejected a similarly named Commons ferry-jump photograph after visual review; it is distinct from the existing Mtoni Marine photo and neither was reused. Removed a pre-existing trailing comma from the Elmina record in content/local-destinations.json, introduced by 4ef39be, as a syntax-only repair so the collection parses. Historical deployment note: the earlier pending check below was superseded by live confirmation at 2026-10-19 15:19 Africa/Kampala.",
+      "publication_email_id": "1a1541a74afa6ffa",
+      "next_action": "Rotate to one published attraction with missing or unsuitable photos; review latest editorial activity and source inventory before selection."
+    },
+    {
+      "id": "victoria-falls-attraction-photo-collection",
+      "page_url": "https://trekafricaguide.com/attractions/victoria-falls",
+      "page_type": "attraction",
+      "status": "pushed_pending_live_confirmation",
+      "previous_photo_count": 2,
+      "photo_count": 6,
+      "new_photo_count": 5,
+      "checked_date": "2026-10-19",
+      "source_ledger": "docs/editorial-research/2026-10-19-victoria-falls-photo-enrichment.md",
+      "files": [
+        "src/lib/photo-library.js",
+        "public/photo-library.js",
+        "docs/image-enrichment-progress.json",
+        "docs/editorial-research/2026-10-19-victoria-falls-photo-enrichment.md",
+        "public/images/editorial/victoria-falls/"
+      ],
+      "live_verification": "Pending push and production check.",
+      "next_action": "After push, confirm live guide contains all six image paths and each new JPEG returns HTTP 200; report deployment state accurately.",
+      "note": "Five newly sourced, licensed Commons photos visually reviewed; existing Diego Delso photo remains as the sixth unique gallery image and hero. A proposed sixth new Commons file returned HTTP 429 during download and was excluded. The Victoria Falls Hotel bridge-from-gardens photo was excluded to prevent duplicate detail-collection sourcing."
+    }
+  ]
 }
