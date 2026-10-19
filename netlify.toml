@@ -1,6 +1,6 @@
 [build]
   publish = "dist"
-  command = "npx npm@latest ci && node scripts/write-public-config.mjs && npx astro build"
+  command = "npm ci && npm run build"
 
 [build.environment]
   NODE_VERSION = "22"
