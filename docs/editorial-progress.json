@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-18",
+  "updated_at": "2026-10-19",
   "timezone": "Africa/Kampala",
   "next_scheduled_start": "2026-10-17T19:30:00+03:00",
   "cadence_hours": 3,
@@ -252,7 +252,7 @@
     "No routine tests/builds or repeated broad audits."
   ],
   "next_task_selection": "After current task is complete, prioritize evidenced accuracy, usability and discoverability gaps; record rationale.",
-  "last_run": "2026-10-18T08:02:00+03:00",
+  "last_run": "2026-10-19T16:30:00+03:00",
   "task_magnitude": "One complete full guide plus booking and listing cards, or one full property photo collection; do not schedule isolated paragraphs/links.",
   "country_destinations_feature": {
     "status": "complete",
@@ -272,15 +272,15 @@
     "email_id": "1a143a69416cf3d1"
   },
   "rotation": {
-    "last_completed_category": "travel insights",
-    "next_category": "destinations",
-    "next_deliverable": "Elmina, Ghana local destination guide in progress; confirm separate regional attractions and omit unrelated same-country stays.",
+    "last_completed_category": "destinations",
+    "next_category": "attractions",
+    "next_deliverable": "Select one source-backed attraction guide beyond recent Uganda coverage, with canonical country links and honest image/booking gaps.",
     "rule": "Finish the individual deliverable and report its live state, then rotate. Track exact-property photo gaps separately."
   },
   "current_deliverable": {
     "id": "elmina-local-destination",
     "category": "destinations",
-    "status": "pushed_live_unconfirmed",
+    "status": "published_live_confirmed",
     "objective": "Publish a source-backed Elmina local guide with respectful heritage context, route and season planning, and explicit internal links to verified regional guides.",
     "research_checked": "2026-10-18",
     "sources_checked": [
@@ -296,17 +296,17 @@
       "content/local-destinations.json",
       "docs/editorial-research/2026-10-18-elmina-local-destination.md"
     ],
-    "status_note": "Commit 4ef39be is pushed to main. Netlify's published deploy still reports prior commit ebd0b87 (deploy 6ad4c59e14442e35bb96e339, ready). Production /countries/ghana/elmina returned HTTP 404; Ghana country and homepage returned HTTP 200 without the new guide/card/search route. Live publication is not confirmed. No activities, stay or insight cards are linked; the Cape Coast hotel was excluded because the shared template would label it 'Stays around Elmina'.",
-    "next_action": "Recheck for a published deploy of 4ef39be on the next scheduled run, then confirm destination detail, Ghana card and search route. If the published deploy remains on ebd0b87, investigate deployment connection before claiming live status. After live confirmation, rotate to attractions.",
+    "status_note": "Deployment blocker resolved by 39f0ffd. Elmina detail, Ghana country card and homepage search route confirmed HTTP 200 on 19 October.",
+    "next_action": "Next category: attractions; live confirmation report sent.",
     "previous_deliverable": {
       "id": "plan-kibale-around-chimpanzee-trek",
       "status": "complete_live_confirmed",
       "commit": "045a4d9",
       "email_id": "1a14f22cbbbd3042"
     },
-    "checkpoint": "Commit 4ef39be pushed 2026-10-18. Netlify published deploy still points to prior ebd0b87; destination HTTP 404, country/homepage HTTP 200 without route/card. Owner checkpoint report sent; deployment live status remains unconfirmed.",
+    "checkpoint": "Deployment blocker resolved by 39f0ffd. Elmina detail, Ghana country card and homepage search route confirmed HTTP 200 on 19 October.",
     "commit": "4ef39be",
-    "live_verification": "2026-10-18: published Netlify deploy 6ad4c59e14442e35bb96e339 is ready at ebd0b87, not the Elmina commit. /countries/ghana/elmina HTTP 404; /countries/ghana and / HTTP 200 but no new guide route/card found. Deployment pending/unconfirmed; do not claim live.",
+    "live_verification": "Deployment blocker resolved by 39f0ffd. Elmina detail, Ghana country card and homepage search route confirmed HTTP 200 on 19 October.",
     "email_id": "1a14f3f984ff0f25"
   },
   "previous_deliverable_correction": {
@@ -316,7 +316,7 @@
     "email_id": "1a148cdf8dbabb76",
     "note": "Live page and booking relationship were confirmed and the owner report was already sent. Corrected the stale pending-owner-report status without resending the email."
   },
-  "next_scheduled_run": "2026-10-18T10:30:00+03:00",
+  "next_scheduled_run": "2026-10-19T19:30:00+03:00",
   "analytics_installation": {
     "measurement_id": "G-ZWBZRQPBK7",
     "commit": "4f76457",
@@ -325,8 +325,8 @@
   },
   "recent_manual_batch": {
     "id": "first-three-travel-insights-depth",
-    "status": "three_insights_pushed_live_unconfirmed",
-    "checked": "2026-10-18",
+    "status": "published_live_confirmed",
+    "checked": "2026-10-19",
     "slugs": [
       "table-mountain-weather-cableway-or-hike",
       "choose-bwindi-sector-before-booking-stay",
@@ -341,13 +341,19 @@
       "choose-bwindi-sector-before-booking-stay": 0,
       "choose-cape-town-base-by-outings": 0
     },
-    "next_action": "Public pages returned HTTP 200 but still served old content on bounded checks after the final push; verify deployment propagation before marking these edits live. Preserve pending Elmina deployment checkpoint.",
+    "next_action": "Image follow-ups remain with separate image automation.",
     "commit": "cdc8b37; 0f2abca; 0a871c1",
-    "live_verification": "2026-10-18: all three URLs returned HTTP 200 after cdc8b37, but updated sections were absent. Retry after 0f2abca timed out or returned empty responses; after 0a871c1 Cape Town returned HTTP 200 with both new stay markers absent. Live content remains unconfirmed.",
+    "live_verification": "All three URLs HTTP 200; Table Mountain and Cape Town contain Never@home; Bwindi contains Ruhondeza.",
     "roundups": {
-      "table-mountain-weather-cableway-or-hike": 5,
+      "table-mountain-weather-cableway-or-hike": 6,
       "choose-bwindi-sector-before-booking-stay": 4,
-      "choose-cape-town-base-by-outings": 5
+      "choose-cape-town-base-by-outings": 6
     }
+  },
+  "publication_recovery_report": {
+    "checked": "2026-10-19",
+    "status": "sent",
+    "next_action": "Next category: attractions.",
+    "email_id": "1a1545afb9de818e"
   }
 }
