@@ -132,9 +132,14 @@ export function mergeEditorialOverrides(tables, overrides) {
         ? { ...rows[index], ...entry, id: rows[index].id }
         : { ...entry, id: entry.id ?? `repo:${table}:${entry.slug}` };
 
-      for (const field of REQUIRED_NEW_FIELDS[table]) {
-        if (merged[field] == null || merged[field] === '') {
-          throw new Error(`Editorial record ${table}/${entry.slug} needs ${field}`);
+      // Draft overrides also act as unpublication records. They may intentionally
+      // lack content (or have no remaining base row), and are filtered below.
+      // Keep completeness checks for every non-draft record, including scheduled ones.
+      if (merged.status !== 'draft') {
+        for (const field of REQUIRED_NEW_FIELDS[table]) {
+          if (merged[field] == null || merged[field] === '') {
+            throw new Error(`Editorial record ${table}/${entry.slug} needs ${field}`);
+          }
         }
       }
       if (index >= 0) rows[index] = merged;
