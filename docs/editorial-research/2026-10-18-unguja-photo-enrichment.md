@@ -30,3 +30,7 @@ Production remains unchanged: guide HTTP 200 with zero new Unguja image referenc
 ## Pending check — 19 October 2026, 09:33 Kampala
 
 Unchanged: guide HTTP 200 with zero Unguja image references; sampled Nungwi image HTTP 404; Netlify current deploy remains 6ad4c59e14442e35bb96e339. GitHub main reports no commit statuses and zero check runs. Dashboard inspection is unavailable because browser inventory exposes only MCP Apps; connector cannot list latest builds. Root cause remains unconfirmed. Retain pending collection; no new image work or duplicate email. Next: inspect Netlify build history when dashboard access is available, then confirm gallery/assets.
+
+## Publication confirmed — 19 October 2026, 15:19 Kampala
+
+Live guide HTTP 200 contains all six expected Unguja image paths. Each of the six assets returns HTTP 200 with image/jpeg. Collection now confirmed live: 0 to 6 photographs. Earlier deployment delay resolved for this collection; root cause not established. Owner publication email sent via Gmail, ID 1a1541a74afa6ffa. Optional further variety: east-coast or island-interior subjects; minimum target met. Next rotate to a published attraction image gap after reviewing current records. No tests/builds or editorial checkpoint changes.
