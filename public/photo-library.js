@@ -2963,6 +2963,23 @@ export const photoLibrary = {
       "checked_at": "2026-10-19",
       "exact_subject_evidence": "Creator caption and structured data identify Victoria Falls, Zimbabwe; Commons depicts item Victoria Falls.",
       "reuse_note": "Reuse allowed under the stated Creative Commons license; attribution and license link retained. No modifications."
+    },
+    "/images/editorial/victoria-falls/victoria-falls-knife-edge-zambia.jpg": {
+      "slug": "victoria-falls-knife-edge-zambia",
+      "local_path": "/images/editorial/victoria-falls/victoria-falls-knife-edge-zambia.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Victoria_Falls_Bridge_from_the_Knife_Edge_Bridge_trail.jpg",
+      "creator": "Dicklyon",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "date": "2022-04-21",
+      "sha256": "56a387d3a8424733752dd98c3cbe8a58dd0fd568d365079de4bc6b65e5a67c76",
+      "exact_subject": true,
+      "subject": "Victoria Falls, Zambia-side Knife Edge trail",
+      "alt": "Victoria Falls Bridge seen from the Zambia-side Knife Edge trail, with spray and a rainbow",
+      "property": false,
+      "checked_at": "2026-10-19",
+      "exact_subject_evidence": "Commons file description identifies the Victoria Falls Bridge from the Knife Edge trail near the falls on the Zambia side; coordinates -17.926397,25.858939. Visually inspected downloaded image shows the bridge, spray and rainbow.",
+      "reuse_note": "CC BY-SA 4.0 permits commercial sharing and adaptation with attribution and share-alike. Creator and license are credited in this source record. Downloaded Commons 1920px thumbnail (display dimensions 1600x641); no further changes."
     }
   },
   "listings": {
@@ -3226,7 +3243,8 @@ export const photoLibrary = {
           "/images/editorial/victoria-falls/victoria-falls-rainforest.jpg",
           "/images/editorial/victoria-falls/victoria-falls-zimbabwe-panorama.jpg",
           "/images/editorial/victoria-falls/victoria-falls-bridge-zambezi.jpg",
-          "/images/editorial/victoria-falls/victoria-falls-viewpoint.jpg"
+          "/images/editorial/victoria-falls/victoria-falls-viewpoint.jpg",
+          "/images/editorial/victoria-falls/victoria-falls-knife-edge-zambia.jpg"
         ]
       },
       "volcanoes-national-park": {

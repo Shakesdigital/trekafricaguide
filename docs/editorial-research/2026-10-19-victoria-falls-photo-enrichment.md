@@ -25,3 +25,15 @@ Remote main contains b14f458; all five new files were confirmed in the live page
 ## Corrected partial collection live - 19 October 2026, 21:42 Kampala
 
 Correction 438d09b confirmed live: detail HTTP 200, See all 5 images, reused former hero absent from gallery. All five new JPEGs checked HTTP 200 image/jpeg. Earlier six-photo statements are superseded: current collection is five. Next: one additional unique licensed photo, preferably a Zambia-side viewpoint. Gmail publication receipt 1a155788f91b705f. No tests/builds or editorial progress changes.
+
+## Sixth photograph added — 19 October 2026
+
+The collection now reaches six distinct photos. The added file is a Zambia-side viewpoint that complements the existing Zimbabwe-side panorama and bridge images without repeating a source or file. It was visually inspected after downloading the Commons 1920px thumbnail (1600 × 641 pixels); the thumbnail itself was not further edited.
+
+| File | Alt text | Creator; capture date | Licence; restrictions | Source and exact-subject evidence | SHA-256; checked |
+|---|---|---|---|---|---|
+| `victoria-falls-knife-edge-zambia.jpg` | Victoria Falls Bridge seen from the Zambia-side Knife Edge trail, with spray and a rainbow | Dicklyon; 2022-04-21 | CC BY-SA 4.0; requires attribution and share-alike on adaptations | [Wikimedia Commons file page](https://commons.wikimedia.org/wiki/File:Victoria_Falls_Bridge_from_the_Knife_Edge_Bridge_trail.jpg) identifies the bridge from the Knife Edge trail near the falls on the Zambia side; viewpoint coordinates -17.926397, 25.858939. | `56a387d3a8424733752dd98c3cbe8a58dd0fd568d365079de4bc6b65e5a67c76`; checked 2026-10-19 |
+
+The source URL and SHA-256 were compared against all 161 then-existing image records in the curated photo library; neither matched. Creator, source, license URL, capture date, exact-subject evidence, descriptive alt text, and reuse restrictions are in both photo library files. Current gallery count is six; publish and confirm the new asset before marking the addition live.
+
+This addendum supersedes the prior “sixth new source was rate-limited” note for the current collection. The five earlier new photos and the corrected removal of the reused hero remain unchanged.

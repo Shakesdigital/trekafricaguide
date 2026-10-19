@@ -4,10 +4,10 @@
     "id": "victoria-falls-attraction-photo-collection",
     "page_url": "https://trekafricaguide.com/attractions/victoria-falls",
     "page_type": "attraction",
-    "status": "partial_collection_live_confirmed",
+    "status": "six_photo_collection_pending_push",
     "previous_photo_count": 2,
-    "photo_count": 5,
-    "new_photo_count": 5,
+    "photo_count": 6,
+    "new_photo_count": 6,
     "checked_date": "2026-10-19",
     "source_ledger": "docs/editorial-research/2026-10-19-victoria-falls-photo-enrichment.md",
     "files": [
@@ -18,12 +18,24 @@
       "public/images/editorial/victoria-falls/"
     ],
     "live_verification": "2026-10-19 21:42 Kampala: guide HTTP 200 shows See all 5 images; reused stock photo absent from gallery. All five new JPEGs checked HTTP 200 image/jpeg during preceding resumption. Correction 438d09b confirmed live.",
-    "next_action": "Source one further distinct licensed Victoria Falls image, preferably Zambia-side viewpoint, to reach six; preserve existing five.",
+    "next_action": "Commit and push sixth photo to main; confirm live guide shows See all 6 and the new JPEG returns HTTP 200 image/jpeg, then email count 5→6 and record receipt.",
     "note": "Five new licensed Commons photographs are live. Former retained Diego Delso hero removed because it occurs in other detail-page mappings; new Devils Cataract image is hero. Sixth new candidate previously rate-limited. No active deployment blocker.",
     "commit": "b14f458414ab43ed9137003e8a61a561057fdbb8",
     "email_id": "1a1549527013d4dd",
     "publication_email_id": "1a155788f91b705f",
-    "correction_commit": "438d09b"
+    "correction_commit": "438d09b",
+    "sixth_photo": {
+      "file": "public/images/editorial/victoria-falls/victoria-falls-knife-edge-zambia.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Victoria_Falls_Bridge_from_the_Knife_Edge_Bridge_trail.jpg",
+      "creator": "Dicklyon",
+      "captured": "2022-04-21",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sha256": "56a387d3a8424733752dd98c3cbe8a58dd0fd568d365079de4bc6b65e5a67c76",
+      "checked": "2026-10-19",
+      "visual_review": "Shows Victoria Falls Bridge, spray and rainbow from the Zambia-side Knife Edge trail; 1600x641 Commons thumbnail visually inspected.",
+      "duplicate_check": "No source URL or SHA-256 match among 161 existing photo-library image assignments."
+    }
   },
   "follow_ups": [],
   "last_pending_check": {
