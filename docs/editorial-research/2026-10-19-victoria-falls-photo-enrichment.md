@@ -37,3 +37,7 @@ The collection now reaches six distinct photos. The added file is a Zambia-side 
 The source URL and SHA-256 were compared against all 161 then-existing image records in the curated photo library; neither matched. Creator, source, license URL, capture date, exact-subject evidence, descriptive alt text, and reuse restrictions are in both photo library files. Current gallery count is six; publish and confirm the new asset before marking the addition live.
 
 This addendum supersedes the prior “sixth new source was rate-limited” note for the current collection. The five earlier new photos and the corrected removal of the reused hero remain unchanged.
+
+## Live confirmation — 19 October 2026, 23:23 Kampala
+
+Commit 927fa7c pushed to main. The live Victoria Falls attraction page returns HTTP 200, includes “See all 6 images,” and contains the new Knife Edge image path. The new JPEG returns HTTP 200 with `image/jpeg` when requested with a cache-busting query. A bare asset request initially returned a stale-edge 404; the cache-busted request and updated guide confirm the current live asset. The image collection is complete at six distinct photos. Next editorial category: accommodations.
