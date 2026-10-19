@@ -27,7 +27,7 @@
   },
   "follow_ups": [],
   "last_pending_check": {
-    "checked_at": "2026-10-19T00:11:47+03:00",
+    "checked_at": "2026-10-19T09:33:42+03:00",
     "status": "unchanged_pending",
     "page_http": 200,
     "new_gallery_references": 0,
@@ -36,6 +36,7 @@
     "published_deploy": "6ad4c59e14442e35bb96e339",
     "netlify_site_id": "d32d59a3-f819-4e66-9e79-ce47e04ce22d",
     "next_action": "Inspect latest failed build or Git-trigger status via Netlify deployment dashboard; confirm pending Unguja gallery before new collection.",
-    "notification": "No duplicate email: unchanged pending publication; prior report receipt retained."
+    "notification": "No duplicate email: unchanged pending publication; prior report receipt retained.",
+    "investigation": "Netlify current deploy unchanged. GitHub main has no commit statuses and zero check runs. Netlify connector exposes only known deploy/current deploy reads, not latest builds; browser inventory has only MCP Apps, so dashboard inspection unavailable. Root cause remains unconfirmed."
   }
 }

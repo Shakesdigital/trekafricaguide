@@ -26,3 +26,7 @@ Commit `31253b2` is pushed to `origin/main`. Live publication is not confirmed: 
 ## Pending check — 19 October 2026, 00:11 Kampala
 
 Production remains unchanged: guide HTTP 200 with zero new Unguja image references; sampled Nungwi asset HTTP 404. Netlify project lookup confirms published deploy 6ad4c59e14442e35bb96e339 remains current. No new collection started, no duplicate email sent, and no editorial checkpoint changed. Next action is to inspect latest failed-build/Git-trigger evidence in Netlify; the published-deploy API alone does not identify why newer commits have not deployed.
+
+## Pending check — 19 October 2026, 09:33 Kampala
+
+Unchanged: guide HTTP 200 with zero Unguja image references; sampled Nungwi image HTTP 404; Netlify current deploy remains 6ad4c59e14442e35bb96e339. GitHub main reports no commit statuses and zero check runs. Dashboard inspection is unavailable because browser inventory exposes only MCP Apps; connector cannot list latest builds. Root cause remains unconfirmed. Retain pending collection; no new image work or duplicate email. Next: inspect Netlify build history when dashboard access is available, then confirm gallery/assets.
