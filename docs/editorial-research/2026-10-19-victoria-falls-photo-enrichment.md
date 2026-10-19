@@ -21,3 +21,7 @@ This is a photo-only change. No factual guide copy, canonicals, redirects, relat
 ## Resumption correction — 19 October 2026
 
 Remote main contains b14f458; all five new files were confirmed in the live page with HTTP 200 image/jpeg. The retained Diego Delso image also occurs in other detail-page mappings, contrary to the earlier uniqueness claim. Remove it from this collection and use the new Devil’s Cataract photo as hero. Publish five verified photographs as a useful partial collection; one further unique relevant photograph is needed for the six-image minimum. No other guide changed.
+
+## Corrected partial collection live - 19 October 2026, 21:42 Kampala
+
+Correction 438d09b confirmed live: detail HTTP 200, See all 5 images, reused former hero absent from gallery. All five new JPEGs checked HTTP 200 image/jpeg. Earlier six-photo statements are superseded: current collection is five. Next: one additional unique licensed photo, preferably a Zambia-side viewpoint. Gmail publication receipt 1a155788f91b705f. No tests/builds or editorial progress changes.
