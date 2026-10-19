@@ -38,4 +38,4 @@ Helpful future input: a recommended local guide or community-run outing with a v
 
 ## Publication checkpoint
 
-Edited only the Sine-Saloum record in `content/editorial-overrides.json` and added this research ledger. The nearby stay and exact OTA relationships were already canonical. One exact-location photo is retained, with five additional images outstanding. Live state is not yet confirmed.
+Edited only the Sine-Saloum record in `content/editorial-overrides.json` and added this research ledger. The nearby stay and exact OTA relationships were already canonical. One exact-location photo is retained, with five additional images outstanding. Commit `e090558` is pushed to main; the public guide and hero JPEG returned HTTP 200 on 19 October. Owner report SENT via Gmail as `1a155afd41d9f45d`. No tests or build were run.

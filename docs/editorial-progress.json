@@ -272,15 +272,15 @@
     "email_id": "1a143a69416cf3d1"
   },
   "rotation": {
-    "last_completed_category": "destinations",
-    "next_category": "attractions",
-    "next_deliverable": "Finish Sine-Saloum Delta attraction guide publication confirmation, then rotate to accommodations.",
+    "last_completed_category": "attractions",
+    "next_category": "accommodations",
+    "next_deliverable": "Choose one complete accommodation-category deliverable; resume the tracked photo backlog only where the next collection can be completed with verified property-specific imagery.",
     "rule": "Finish the individual deliverable and report its live state, then rotate. Track exact-property photo gaps separately."
   },
   "current_deliverable": {
     "id": "sine-saloum-attraction-guide",
     "category": "attractions",
-    "status": "guide_complete_live_confirmation_pending",
+    "status": "published_live_confirmed",
     "objective": "Expand the underdeveloped Sine-Saloum attraction guide with source-backed cultural landscape context, realistic route and seasonal planning, dated traveler perspectives, and canonical Senegal stay relationship.",
     "research_checked": "2026-10-19",
     "sources_checked": [
@@ -298,9 +298,12 @@
       "content/editorial-overrides.json",
       "docs/editorial-research/2026-10-19-sine-saloum-attraction.md"
     ],
-    "status_note": "Guide, exact GetYourGuide product through the shared destination registry/resolver, canonical country and stay relationships, and one existing licensed location-specific image inspected. Not yet committed, pushed or live-confirmed. Previous Elmina guide remains published and unchanged.",
-    "next_action": "Commit and push the guide, then check the public Sine-Saloum attraction URL and record deployment result separately.",
-    "checkpoint": "Research and guide complete. One verified location-specific hero retained; five-photo follow-up recorded. Commit/push and live verification remain.",
+    "status_note": "Commit e090558 is pushed after the image-enrichment commits already on main. Public attraction HTML is HTTP 200 with the expected heading, canonical stay, licensed hero and exact GetYourGuide product resolved through Stay22; hero JPEG is HTTP 200 image/jpeg. Previous Elmina guide remains published and unchanged.",
+    "next_action": "Next category: accommodations. Five further licensed, location-specific attraction photos remain a separate image-workflow follow-up.",
+    "checkpoint": "Guide committed and pushed as e090558; public page and hero asset live-confirmed 19 October. One location-specific hero is live; five-photo follow-up recorded separately. Owner email SENT 1a155afd41d9f45d.",
+    "commit": "e090558",
+    "live_verification": "https://trekafricaguide.com/attractions/sine-saloum-delta returned HTTP 200 with H1 'Sine Saloum Delta', Les Palétuviers stay card, exact GetYourGuide Stay22 link and licensed hero path. Hero JPEG returned HTTP 200 image/jpeg.",
+    "email_id": "1a155afd41d9f45d",
     "previous_deliverable": {
       "id": "elmina-local-destination",
       "status": "published_live_confirmed",
