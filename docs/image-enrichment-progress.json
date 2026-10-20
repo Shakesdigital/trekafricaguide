@@ -4,7 +4,7 @@
     "id": "marrakech-medina-street-food-photo-enrichment",
     "page_url": "https://trekafricaguide.com/activities/marrakech-medina-street-food-tour/",
     "page_type": "activity",
-    "status": "live_gallery_confirmed_one_asset_pending",
+    "status": "complete_live_confirmed",
     "previous_photo_count": 0,
     "photo_count": 6,
     "new_photo_count": 6,
@@ -23,8 +23,8 @@
       "docs/editorial-research/2026-10-20-marrakech-medina-street-food-photo-enrichment.md",
       "docs/image-enrichment-progress.json"
     ],
-    "live_verification": "2026-10-20 04:25 Africa/Kampala: production detail page HTTP 200, shows See all 6, and references all six expected paths. Five assets returned HTTP 200 image/jpeg; medina-street.jpg returned HTTP 404. Deployment is live with one asset still pending availability.",
-    "next_action": "Check medina-street.jpg availability in a later scheduled run; then continue the image-gap rotation.",
+    "live_verification": "2026-10-20 04:25 Africa/Kampala: production detail page HTTP 200, shows See all 6, and references all six expected paths. Five assets returned HTTP 200 image/jpeg; medina-street.jpg returned HTTP 404. Deployment is live with one asset still pending availability. Follow-up in same run: medina-street.jpg now returns HTTP 200 image/jpeg at both plain and cache-bypassed URL; all six assets confirmed available.",
+    "next_action": "Rotate to a published travel insight with missing relevant photos; no pending Marrakech asset.",
     "note": "Six visually inspected, distinct contextual Commons photographs added. Five visible tiles plus See all 6; none represents the named tour or its guide/participants. No copy edits.",
     "email_id": "1a156eadd451a52b",
     "report_sent_at": "2026-10-20 04:26 Africa/Kampala"
