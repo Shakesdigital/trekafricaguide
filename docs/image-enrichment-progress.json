@@ -1,49 +1,32 @@
 {
   "updated_at": "2026-10-20",
   "current_run": {
-    "id": "kibale-forest-camp-property-photo-rights-review",
-    "page_url": "https://trekafricaguide.com/accommodations/kibale-forest-camp/",
-    "page_type": "accommodation",
-    "status": "blocked_no_reusable_exact_property_photos",
+    "id": "victoria-falls-zambezi-rafting-six-photo-gallery",
+    "page_url": "https://trekafricaguide.com/activities/victoria-falls-zambezi-white-water-rafting/",
+    "page_type": "activity",
+    "status": "published_pending_live_verification",
     "previous_photo_count": 0,
-    "photo_count": 0,
-    "new_photo_count": 0,
+    "photo_count": 6,
+    "new_photo_count": 6,
     "checked_date": "2026-10-20",
-    "source_ledger": "docs/editorial-research/2026-10-20-kibale-forest-camp-image-review.md",
+    "source_ledger": "docs/editorial-research/2026-10-20-victoria-falls-rafting-photo-enrichment.md",
     "files": [
-      "docs/image-enrichment-progress.json",
-      "docs/editorial-research/2026-10-20-kibale-forest-camp-image-review.md"
+      "content/editorial-overrides.json",
+      "src/lib/photo-library.js",
+      "public/photo-library.js",
+      "docs/editorial-research/2026-10-20-victoria-falls-rafting-photo-enrichment.md",
+      "docs/image-enrichment-progress.json"
     ],
-    "live_verification": "2026-10-20 Africa/Kampala: production accommodation detail HTTP 200; gallery rendered the neutral empty-state element with the camp name and no property image.",
-    "next_action": "Review published zero-photo Red Chilli Rest Camp for exact-property reusable images; revisit Kibale Forest Camp only if licensed property photos or direct owner permission become available.",
-    "note": "Focused review found the operator gallery without reuse terms, an exact-camp Flickr photo marked All rights reserved, and reusable Commons park forest imagery that is not the camp. No candidate was copied or used as a property substitute.",
-    "commit": "c34afd2",
-    "email_id": "1a158cc324843fdc",
-    "report_sent_at": "2026-10-20 13:12 Africa/Kampala"
+    "live_verification": "Source files and gallery metadata committed locally; production check pending after push/deploy.",
+    "next_action": "Verify published activity gallery shows all six images and each image URL returns HTTP 200; then record receipt for owner email.",
+    "note": "Six visually inspected Creative Commons images depict Zambezi rafting near Victoria Falls or the Batoka Gorge river. No operator, named participant, or tour-participant claim is attached. Duplicates were checked by source URL and SHA-256 against the photo library."
   },
   "follow_ups": [],
   "last_pending_check": {
-    "checked_at": "2026-10-19T09:33:42+03:00",
-    "status": "resolved_live_confirmed",
-    "page_http": 200,
-    "new_gallery_references": 6,
-    "sampled_asset": "nungwi-north-coast.jpg",
-    "sampled_asset_http": 200,
-    "published_deploy": "6ad5c695fa6fb724f23bb4f7",
-    "netlify_site_id": "d32d59a3-f819-4e66-9e79-ce47e04ce22d",
-    "next_action": "Resolved: all six Unguja image paths and JPEG assets were confirmed live. Continue attraction rotation; original observation retained below.",
-    "notification": "No duplicate email: unchanged pending publication; prior report receipt retained.",
-    "investigation": "Historical deployment delay resolved by draft-validation fix 39f0ffd and subsequent live verification; do not treat as active blocker.",
-    "resolved_at": "2026-10-19 15:19 Africa/Kampala",
-    "historical_observation": {
-      "checked_at": "2026-10-19T09:33:42+03:00",
-      "page_http": 200,
-      "new_gallery_references": 0,
-      "sampled_asset": "nungwi-north-coast.jpg",
-      "sampled_asset_http": 404,
-      "deploy": "6ad4c59e14442e35bb96e339",
-      "investigation": "At that time the sampled asset was 404 and the cause was not established; subsequent confirmation on the resolved deploy supersedes it."
-    }
+    "checked_at": "2026-10-20",
+    "status": "awaiting_deploy",
+    "page_url": "https://trekafricaguide.com/activities/victoria-falls-zambezi-white-water-rafting/",
+    "note": "No post-push live verification yet."
   },
   "completed_runs": [
     {
@@ -210,6 +193,27 @@
       "commit": "9d2e5d5",
       "email_id": "1a1583638931b365",
       "report_sent_at": "2026-10-20 10:29 Africa/Kampala"
+    },
+    {
+      "id": "kibale-forest-camp-property-photo-rights-review",
+      "page_url": "https://trekafricaguide.com/accommodations/kibale-forest-camp/",
+      "page_type": "accommodation",
+      "status": "blocked_no_reusable_exact_property_photos",
+      "previous_photo_count": 0,
+      "photo_count": 0,
+      "new_photo_count": 0,
+      "checked_date": "2026-10-20",
+      "source_ledger": "docs/editorial-research/2026-10-20-kibale-forest-camp-image-review.md",
+      "files": [
+        "docs/image-enrichment-progress.json",
+        "docs/editorial-research/2026-10-20-kibale-forest-camp-image-review.md"
+      ],
+      "live_verification": "2026-10-20 Africa/Kampala: production accommodation detail HTTP 200; gallery rendered the neutral empty-state element with the camp name and no property image.",
+      "next_action": "Review published zero-photo Red Chilli Rest Camp for exact-property reusable images; revisit Kibale Forest Camp only if licensed property photos or direct owner permission become available.",
+      "note": "Focused review found the operator gallery without reuse terms, an exact-camp Flickr photo marked All rights reserved, and reusable Commons park forest imagery that is not the camp. No candidate was copied or used as a property substitute.",
+      "commit": "c34afd2",
+      "email_id": "1a158cc324843fdc",
+      "report_sent_at": "2026-10-20 13:12 Africa/Kampala"
     }
   ]
 }
