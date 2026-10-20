@@ -4,7 +4,7 @@
     "id": "sine-saloum-delta-attraction-photo-enrichment",
     "page_url": "https://trekafricaguide.com/attractions/sine-saloum-delta/",
     "page_type": "attraction",
-    "status": "pushed_pending_live",
+    "status": "complete_live_confirmed",
     "previous_photo_count": 1,
     "photo_count": 6,
     "new_photo_count": 6,
@@ -23,9 +23,12 @@
       "docs/editorial-research/2026-10-20-sine-saloum-photo-enrichment.md",
       "docs/image-enrichment-progress.json"
     ],
-    "live_verification": "Pending post-push production page and asset check.",
-    "next_action": "Verify Sine-Saloum detail gallery and all six image assets live; report actual state and receipt, then rotate to the next eligible attraction.",
-    "note": "Replaced the previously shared stock hero because it is also assigned to the Senegal country detail. Six new distinct licensed exact-delta photos are used in this attraction detail gallery."
+    "live_verification": "2026-10-20 10:28 Africa/Kampala: production attraction detail HTTP 200, includes all six expected image paths and “See all 6”; all six assets return HTTP 200 image/jpeg.",
+    "next_action": "Rotate to the next published attraction with an image gap; continue checking source uniqueness across every detail collection.",
+    "note": "Replaced the previously shared stock hero because it is also assigned to the Senegal country detail. Six new distinct licensed exact-delta photos are used in this attraction detail gallery.",
+    "commit": "9d2e5d5",
+    "email_id": "1a1583638931b365",
+    "report_sent_at": "2026-10-20 10:29 Africa/Kampala"
   },
   "follow_ups": [],
   "last_pending_check": {
