@@ -1,24 +1,33 @@
 {
   "updated_at": "2026-10-20",
   "current_run": {
-    "id": "les-paletuviers-photo-source-review",
-    "page_url": "https://trekafricaguide.com/accommodations/les-paletuviers",
-    "page_type": "accommodation",
-    "status": "blocked_no_reusable_exact_property_photos",
+    "id": "marrakech-medina-street-food-photo-enrichment",
+    "page_url": "https://trekafricaguide.com/activities/marrakech-medina-street-food-tour/",
+    "page_type": "activity",
+    "status": "pushed_pending_live",
     "previous_photo_count": 0,
-    "photo_count": 0,
-    "new_photo_count": 0,
+    "photo_count": 6,
+    "new_photo_count": 6,
     "checked_date": "2026-10-20",
-    "source_ledger": "docs/editorial-research/2026-10-20-les-paletuviers-photo-review.md",
+    "source_ledger": "docs/editorial-research/2026-10-20-marrakech-medina-street-food-photo-enrichment.md",
     "files": [
-      "docs/image-enrichment-progress.json",
-      "docs/editorial-research/2026-10-20-les-paletuviers-photo-review.md"
+      "content/editorial-overrides.json",
+      "src/lib/photo-library.js",
+      "public/photo-library.js",
+      "public/images/editorial/marrakech-food-walk/food-stall-square.jpg",
+      "public/images/editorial/marrakech-food-walk/argana-square-stalls.jpg",
+      "public/images/editorial/marrakech-food-walk/juice-vendor-jemaa.jpg",
+      "public/images/editorial/marrakech-food-walk/spice-market-marrakech.jpg",
+      "public/images/editorial/marrakech-food-walk/medina-street.jpg",
+      "public/images/editorial/marrakech-food-walk/fruit-stalls-square.jpg",
+      "docs/editorial-research/2026-10-20-marrakech-medina-street-food-photo-enrichment.md",
+      "docs/image-enrichment-progress.json"
     ],
-    "live_verification": "2026-10-20 04:03 Africa/Kampala: existing live hotel guide https://trekafricaguide.com/accommodations/les-paletuviers/ HTTP 200; detail gallery remains in empty/no-photo state. Separate previously published Victoria Falls Knife Edge JPEG bare URL returns HTTP 200 image/jpeg; earlier stale-edge 404 is resolved.",
-    "next_action": "Continue accommodation rotation with another published zero-photo property and a focused search for licensed exact-property photography.",
-    "note": "Exact-property IMAGO image is paid rights-managed; Commons result depicts regional mangroves, not the hotel; official gallery and third-party guest images lacked verified reuse rights. Retained neutral no-photo behavior; no image or copy changes.",
-    "email_id": "1a156d3776e5aaf3",
-    "report_sent_at": "2026-10-20 04:03 Africa/Kampala"
+    "live_verification": "Pending bounded production check after push.",
+    "next_action": "Rotate to the next published travel-insight/activity image gap, following current rotation.",
+    "note": "Six visually inspected, distinct contextual Commons photographs added. Five visible tiles plus See all 6; none represents the named tour or its guide/participants. No copy edits.",
+    "email_id": null,
+    "report_sent_at": null
   },
   "follow_ups": [],
   "last_pending_check": {

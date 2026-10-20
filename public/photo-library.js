@@ -1,7 +1,7 @@
 // Curated source. Run node scripts/sync-photo-library.mjs after editing.
 // Curated free photography; source and licence metadata travel with each image.
 export const photoLibrary = {
-  "updated_at": "2026-10-18",
+  "updated_at": "2026-10-20",
   "images": {
     "/images/stock/destinations/bwindi-impenetrable-national-park.jpg": {
       "slug": "bwindi-impenetrable-national-park",
@@ -2980,6 +2980,120 @@ export const photoLibrary = {
       "checked_at": "2026-10-19",
       "exact_subject_evidence": "Commons file description identifies the Victoria Falls Bridge from the Knife Edge trail near the falls on the Zambia side; coordinates -17.926397,25.858939. Visually inspected downloaded image shows the bridge, spray and rainbow.",
       "reuse_note": "CC BY-SA 4.0 permits commercial sharing and adaptation with attribution and share-alike. Creator and license are credited in this source record. Downloaded Commons 1920px thumbnail (display dimensions 1600x641); no further changes."
+    },
+    "/images/editorial/marrakech-food-walk/argana-square-stalls.jpg": {
+      "slug": "marrakech-medina-street-food-tour-argana-square-stalls",
+      "local_path": "/images/editorial/marrakech-food-walk/argana-square-stalls.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Marrakesh_Jamaa_El_Fna_Food_stalls_seen_from_Cafe_Argana_at_night_1.jpg",
+      "creator": "Ymblanter",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sha256": "100c23e1885d087b5345ac685b561a5e712db56dcd42dfc35e4244955e9dfdab",
+      "exact_subject": true,
+      "subject": "Street-food market and medina context for Marrakech, Morocco",
+      "alt": "Jemaa el-Fnaa food stalls at night seen from Café Argana in Marrakech.",
+      "property": false,
+      "kind": "photograph",
+      "date": "2009-04-27",
+      "source_revision_date": null,
+      "checked_date": "2026-10-20",
+      "evidence": "Commons caption identifies food stalls seen from Cafe Argana at night, Jamaa El Fna, Marrakesh; camera coordinates 31.626590,-7.988970.",
+      "restrictions": "Attribution and share-alike for adaptations; served as a resized Wikimedia thumbnail. No endorsement implied."
+    },
+    "/images/editorial/marrakech-food-walk/food-stall-square.jpg": {
+      "slug": "marrakech-medina-street-food-tour-food-stall-square",
+      "local_path": "/images/editorial/marrakech-food-walk/food-stall-square.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Food_stall,_Marrakech.JPG",
+      "creator": "Tomkeene",
+      "license": "Public domain",
+      "license_url": "https://commons.wikimedia.org/wiki/File:Food_stall,_Marrakech.JPG",
+      "sha256": "215b8d40c04b79a32f6e8eb56624ce99dfc03bcc368de2b0e2868d7180d3437a",
+      "exact_subject": true,
+      "subject": "Street-food market and medina context for Marrakech, Morocco",
+      "alt": "Chefs working at a public food stall in Jemaa el-Fnaa, Marrakech.",
+      "property": false,
+      "kind": "photograph",
+      "date": null,
+      "source_revision_date": "2006-08-14 (original upload; capture date not stated)",
+      "checked_date": "2026-10-20",
+      "evidence": "Commons file description identifies chefs working at a food stall in Djeema El-Fna, Marrakech; file released worldwide to the public domain by its author.",
+      "restrictions": "Source page records a worldwide public-domain release; source and creator retained for attribution context."
+    },
+    "/images/editorial/marrakech-food-walk/juice-vendor-jemaa.jpg": {
+      "slug": "marrakech-medina-street-food-tour-juice-vendor-jemaa",
+      "local_path": "/images/editorial/marrakech-food-walk/juice-vendor-jemaa.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:120402-F-NI989-158_(Marrakech).jpg",
+      "creator": "Staff Sgt. Benjamin Wilson / USAFE AFAFRICA",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "sha256": "acaa73d0cc3c8a93e68042b60e235b7430be177884373a063e61a72b582cbdfc",
+      "exact_subject": true,
+      "subject": "Street-food market and medina context for Marrakech, Morocco",
+      "alt": "A vendor pours fresh orange juice at Jemaa el-Fnaa in Marrakech.",
+      "property": false,
+      "kind": "photograph",
+      "date": "2012-04-03",
+      "source_revision_date": null,
+      "checked_date": "2026-10-20",
+      "evidence": "Commons caption identifies a man pouring fresh orange juice in Jemaa el Fna, Marrakech, on 3 April 2012; credits U.S. Air Force / Staff Sgt. Benjamin Wilson.",
+      "restrictions": "Attribution required with license link and changes indicated. No endorsement or connection to the named tour is implied."
+    },
+    "/images/editorial/marrakech-food-walk/spice-market-marrakech.jpg": {
+      "slug": "marrakech-medina-street-food-tour-spice-market-marrakech",
+      "local_path": "/images/editorial/marrakech-food-walk/spice-market-marrakech.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Spice_market_in_Marrakech,_20250125_1101_7186.jpg",
+      "creator": "Jakub Hałun",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "sha256": "17e82678b3044e64c4f4cd4b0be44e5ea7e85fa79e695d0fccdb5bc8cbdfc428",
+      "exact_subject": true,
+      "subject": "Street-food market and medina context for Marrakech, Morocco",
+      "alt": "Spices displayed at a market stall in Marrakech.",
+      "property": false,
+      "kind": "photograph",
+      "date": "2025-01-25",
+      "source_revision_date": null,
+      "checked_date": "2026-10-20",
+      "evidence": "Commons file description identifies a Marrakech spice market; geotag 31.619929,-7.983758; visually inspected.",
+      "restrictions": "Attribution required with license link and changes indicated."
+    },
+    "/images/editorial/marrakech-food-walk/medina-street.jpg": {
+      "slug": "marrakech-medina-street-food-tour-medina-street",
+      "local_path": "/images/editorial/marrakech-food-walk/medina-street.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Medina_of_Marrakesh_on_the_streets_of_medina.jpg",
+      "creator": "Elena Tatiana Chis",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sha256": "d065a4588c24e3eabdc4f6119d1712b695773305e9ac4a1b3ab28e9de76decee",
+      "exact_subject": true,
+      "subject": "Street-food market and medina context for Marrakech, Morocco",
+      "alt": "A market lane in the Marrakech medina with pedestrians and open shops.",
+      "property": false,
+      "kind": "photograph",
+      "date": "2015-11-06",
+      "source_revision_date": null,
+      "checked_date": "2026-10-20",
+      "evidence": "Commons file title identifies a street in the Marrakesh medina; file page records the image date; visually inspected.",
+      "restrictions": "Attribution and share-alike for adaptations; served as a resized Wikimedia thumbnail. No endorsement implied."
+    },
+    "/images/editorial/marrakech-food-walk/fruit-stalls-square.jpg": {
+      "slug": "marrakech-medina-street-food-tour-fruit-stalls-square",
+      "local_path": "/images/editorial/marrakech-food-walk/fruit-stalls-square.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:ElFnaaFruitBooths.jpg",
+      "creator": "Elgaard",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sha256": "092c8d2de6ea06255edaa932f13628d70d0c1a802d08e19be8a87968e54e1ac3",
+      "exact_subject": true,
+      "subject": "Street-food market and medina context for Marrakech, Morocco",
+      "alt": "Fruit stalls and evening visitors at Jemaa el-Fnaa in Marrakech.",
+      "property": false,
+      "kind": "photograph",
+      "date": "2014-11-29",
+      "source_revision_date": null,
+      "checked_date": "2026-10-20",
+      "evidence": "Commons file description identifies fruit-sale booths at Jemaa El Fnaa, Marrakech; visually inspected.",
+      "restrictions": "Attribution and share-alike for adaptations; served as a resized Wikimedia thumbnail. No endorsement implied."
     }
   },
   "listings": {
@@ -3637,6 +3751,19 @@ export const photoLibrary = {
         "gallery": [
           "/images/stock/starter/volcanoes-national-park.jpg",
           "/images/stock/destinations/volcanoes-national-park.jpg"
+        ]
+      },
+      "marrakech-medina-street-food-tour": {
+        "hero_image_url": "/images/editorial/marrakech-food-walk/food-stall-square.jpg",
+        "hero_image_alt": "Chefs working at a public food stall in Jemaa el-Fnaa, Marrakech.",
+        "replaces": [],
+        "gallery": [
+          "/images/editorial/marrakech-food-walk/food-stall-square.jpg",
+          "/images/editorial/marrakech-food-walk/argana-square-stalls.jpg",
+          "/images/editorial/marrakech-food-walk/juice-vendor-jemaa.jpg",
+          "/images/editorial/marrakech-food-walk/spice-market-marrakech.jpg",
+          "/images/editorial/marrakech-food-walk/medina-street.jpg",
+          "/images/editorial/marrakech-food-walk/fruit-stalls-square.jpg"
         ]
       }
     },
