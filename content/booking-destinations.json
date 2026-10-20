@@ -114,10 +114,10 @@
       "url": "https://www.booking.com/hotel/ug/paraa-safari-lodge.html",
       "provider": "booking",
       "title": "Paraa Safari Lodge",
-      "checked_at": "2026-10-11",
+      "checked_at": "2026-10-20",
       "evidence": {
-        "source_url": "https://www.booking.com/hotel/ug/paraa-safari-lodge.html?came_from_hotel_review=1&keep_landing=1",
-        "summary": "Primary detail identifies Paraa, Uganda and explicitly describes Murchison Falls National Park accommodation."
+        "source_url": "https://www.booking.com/hotel/ug/paraa-safari-lodge.en-gb.html",
+        "summary": "Exact Paraa Safari Lodge listing identifies the property in Paraa, Uganda and accommodation in Murchison Falls National Park. On 20 October 2026, the indexed listing stated it was not accepting reservations on Booking.com. Preserve this exact property match; availability is unconfirmed and can change."
       }
     },
     "ridge-royal-hotel": {
