@@ -252,7 +252,7 @@
     "No routine tests/builds or repeated broad audits."
   ],
   "next_task_selection": "After current task is complete, prioritize evidenced accuracy, usability and discoverability gaps; record rationale.",
-  "last_run": "2026-10-20T04:40:00+03:00",
+  "last_run": "2026-10-20T04:41:00+03:00",
   "task_magnitude": "One complete full guide plus booking and listing cards, or one full property photo collection; do not schedule isolated paragraphs/links.",
   "country_destinations_feature": {
     "status": "complete",
@@ -280,7 +280,7 @@
   "current_deliverable": {
     "id": "plan-sossusvlei-sunrise-from-sesriem",
     "category": "travel_insights",
-    "status": "pushed_not_live_confirmed",
+    "status": "published_live_confirmed",
     "objective": "Create a focused, sourced Namibia insight on planning a Sossusvlei/Deadvlei sunrise day from Sesriem, including park access, drive/walk sequence, overnight base, tradeoffs, packing and FAQs.",
     "research_checked": "2026-10-20",
     "sources_checked": [
@@ -308,10 +308,11 @@
       "docs/editorial-research/2026-10-20-sossusvlei-sunrise-day.md"
     ],
     "checkpoint": "Selected after inventory review: four published insights cover Table Mountain, Bwindi, Cape Town and Kibale; no Sossusvlei planning insight was published. Complete guide written with official permit, seasonal, park and property sources; May 2026 access reversal reported with explicit same-week confirmation caveat. Four exact Booking.com stay links checked; no rates or review claims. No hero image; separate 12-subject photo follow-up recorded.",
-    "status_note": "Pushed in 0cc1ce5. Public route returned the site 404 page on 20 October 2026; do not claim live until deployment exposes the new article body.",
-    "live_verification": "First post-push GET to https://trekafricaguide.com/travel-insights/plan-sossusvlei-sunrise-from-sesriem returned HTTP 404 and the site not-found page. Distinctive article text was absent.",
+    "status_note": "Pushed in 0cc1ce5. Netlify production deploy 6ad6c65d0b60aa17fd2cfd7f completed ready; the early 404 was during deployment.",
+    "live_verification": "https://trekafricaguide.com/travel-insights/plan-sossusvlei-sunrise-from-sesriem returned HTTP 200 and contained distinctive route guidance, the 2026 access caveat, exact stay links, Namib Desert canonical guide link and Stay22 loader.",
     "commit": "0cc1ce5",
-    "email_id": "1a156f765fe8fbb3"
+    "email_id": "1a156f86afebc1ab",
+    "email_note": "Initial report SENT 1a156f765fe8fbb3 noted deployment pending; follow-up in same thread confirmed live publication."
   },
   "previous_deliverable_correction": {
     "id": "marrakech-medina-street-food-walk",
