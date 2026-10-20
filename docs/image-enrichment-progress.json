@@ -14,7 +14,7 @@
       "docs/image-enrichment-progress.json",
       "docs/editorial-research/2026-10-20-les-paletuviers-photo-review.md"
     ],
-    "live_verification": "No content changes were made to this page; no deployment check was needed. Existing page remains at zero property photos.",
+    "live_verification": "2026-10-20 04:03 Africa/Kampala: existing live hotel guide https://trekafricaguide.com/accommodations/les-paletuviers/ HTTP 200; detail gallery remains in empty/no-photo state. Separate previously published Victoria Falls Knife Edge JPEG bare URL returns HTTP 200 image/jpeg; earlier stale-edge 404 is resolved.",
     "next_action": "Continue accommodation rotation with another published zero-photo property and a focused search for licensed exact-property photography.",
     "note": "Exact-property IMAGO image is paid rights-managed; Commons result depicts regional mangroves, not the hotel; official gallery and third-party guest images lacked verified reuse rights. Retained neutral no-photo behavior; no image or copy changes."
   },
@@ -84,7 +84,7 @@
         "docs/image-enrichment-progress.json",
         "docs/editorial-research/2026-10-20-les-paletuviers-photo-review.md"
       ],
-      "live_verification": "No content changes were made to this page; no deployment check was needed. Existing page remains at zero property photos.",
+      "live_verification": "2026-10-20 04:03 Africa/Kampala: existing live hotel guide https://trekafricaguide.com/accommodations/les-paletuviers/ HTTP 200; detail gallery remains in empty/no-photo state. Separate previously published Victoria Falls Knife Edge JPEG bare URL returns HTTP 200 image/jpeg; earlier stale-edge 404 is resolved.",
       "next_action": "Continue accommodation rotation with another published zero-photo property and a focused search for licensed exact-property photography.",
       "note": "Exact-property IMAGO image is paid rights-managed; Commons result depicts regional mangroves, not the hotel; official gallery and third-party guest images lacked verified reuse rights. Retained neutral no-photo behavior; no image or copy changes."
     }
