@@ -280,7 +280,7 @@
   "current_deliverable": {
     "id": "victoria-falls-zambezi-white-water-rafting",
     "category": "activities",
-    "status": "published_pending_deploy",
+    "status": "complete_live_confirmed",
     "objective": "Publish a practical Wild Horizons-only guide to Zimbabwe-side Zambezi white-water rafting below Victoria Falls, with supported season and route context, access demands, fit, packing, canonical attraction/stay relations, and a separate exact-product booking verification gap.",
     "research_checked": "2026-10-20",
     "sources_checked": [
@@ -298,7 +298,13 @@
     ],
     "checkpoint": "The activity record has been inspected and is marked published. Reader-facing claims use only Wild Horizons official activity, season and terms pages plus the official hotel address. No OTA/Stay22 CTA is present because the exact GetYourGuide product does not identify pickup country; marketplace-derived route, date and eligibility claims were removed. Hero remains null, gallery empty, canonical attraction id 70/stay id 72 retained. Ready to commit/push and verify live page body and related stay.",
     "booking_gap": "No OTA/Stay22 CTA: exact GYG product labels Zambia but its town transfer text omits country/pickup; operator must confirm the exact departure side and lodging zone.",
-    "next_action": "Commit and push this guide and ledger; verify public page body and nearby stay; email owner with exact booking-gap and neutral photo status, then record receipt."
+    "next_action": "Complete. Next category attractions at scheduled run.",
+    "commit": "b2b2b3a",
+    "push": "origin/main",
+    "netlify_deploy": "6ad7428ae2e75da451aad26a",
+    "live_url": "https://trekafricaguide.com/activities/victoria-falls-zambezi-white-water-rafting",
+    "live_verification": "Production deploy 6ad7428ae2e75da451aad26a ready for commit b2b2b3a. Public detail URL returned HTTP 200; HTML contains distinctive Wild Horizons guide copy, “July to early December” official season guidance, and the Victoria Falls Hotel nearby relationship. No GYG text or booking CTA in guide body. Site-wide Stay22 script remains; no per-activity mapping.",
+    "email_id": "1a158dd7473826a5"
   },
   "previous_deliverable_correction": {
     "id": "marrakech-medina-street-food-walk",
