@@ -252,7 +252,7 @@
     "No routine tests/builds or repeated broad audits."
   ],
   "next_task_selection": "After current task is complete, prioritize evidenced accuracy, usability and discoverability gaps; record rationale.",
-  "last_run": "2026-10-20T04:04:00+03:00",
+  "last_run": "2026-10-20T04:39:00+03:00",
   "task_magnitude": "One complete full guide plus booking and listing cards, or one full property photo collection; do not schedule isolated paragraphs/links.",
   "country_destinations_feature": {
     "status": "complete",
@@ -272,38 +272,42 @@
     "email_id": "1a143a69416cf3d1"
   },
   "rotation": {
-    "last_completed_category": "accommodations",
-    "next_category": "travel_insights",
-    "next_deliverable": "Choose one evidence-backed travel insight; preserve the separate exact-property photo backlog.",
+    "last_completed_category": "travel_insights",
+    "next_category": "activities",
+    "next_deliverable": "Select one complete activity guide or closely related activity group; retain separate image follow-ups.",
     "rule": "Finish the individual deliverable and report its live state, then rotate. Track exact-property photo gaps separately."
   },
   "current_deliverable": {
-    "id": "paraa-safari-lodge-guide-refresh",
-    "category": "accommodations",
-    "status": "published_live_confirmed",
-    "objective": "Refresh the published Paraa Safari Lodge guide with current renovation context, useful park access and fit/tradeoffs, verified amenities and canonical Murchison Falls relationship; retain exact Booking destination and one licensed exact-property photo.",
+    "id": "plan-sossusvlei-sunrise-from-sesriem",
+    "category": "travel_insights",
+    "status": "ready_for_commit",
+    "objective": "Create a focused, sourced Namibia insight on planning a Sossusvlei/Deadvlei sunrise day from Sesriem, including park access, drive/walk sequence, overnight base, tradeoffs, packing and FAQs.",
     "research_checked": "2026-10-20",
     "sources_checked": [
-      "https://paraalodge.com/",
-      "https://paraalodge.com/accommodation/",
-      "https://paraalodge.com/restaurant-cuisine/",
-      "https://ugandawildlife.org/news/guidelines-on-transiting-through-murchison-falls-national-park/",
-      "https://www.booking.com/hotel/ug/paraa-safari-lodge.html",
-      "https://www.tripadvisor.com/Hotel_Review-g27694141-d1164594-Reviews-Paraa_Safari_Lodge-Paraa_Northern_Region.html"
+      "https://www.meft.gov.na/frequently-asked-questions/what-are-the-entry-permit-requirements-for-the-various-parks-in-namibia-/136/",
+      "https://www.meft.gov.na/news/299/Clarification-on-the-Shuttle-Concession-for-Sossusvlei--Namib-Naukluft-Park/",
+      "https://informante.web.na/?p=394001",
+      "https://www.nwr.com.na/resorts/sesriem-campsite/",
+      "https://www.meft.gov.na/files/files/Namib%20Naukluft%20Management%20Plan.pdf",
+      "https://whc.unesco.org/en/list/1430/",
+      "https://www.sossus-oasis.com/directions.html",
+      "https://www.sossusvleilodge.com/",
+      "https://www.desertquivercamp.com/downloads/DesertQuiverCamp_factsheet.pdf",
+      "https://www.deadvalleylodge.com/",
+      "https://www.booking.com/hotel/na/sossus-oasis-campsite.en-gb.html",
+      "https://www.booking.com/hotel/na/sossusvlei-lodge.en-gb.html",
+      "https://www.booking.com/hotel/na/desert-quiver-camp.en-gb.html",
+      "https://www.booking.com/hotel/na/dead-valley-lodge.en-gb.html",
+      "https://visitnamibia.com.na/wp-content/uploads/2022/03/Self-drive.pdf",
+      "https://www.nwr.com.na/resorts/sossus-dune-lodge/"
     ],
-    "image_count": 1,
-    "image_followup": "One exact-property image retained: verified 2017 guest-room photo, Venture Uganda Travel, CC BY 2.0. Five further distinct images needed for the six-image target; 15 rights-cleared exact-property subject candidates recorded in the research ledger for separate photo sourcing.",
+    "image_count": 0,
+    "image_followup": "No image added; neutral treatment retained. Separate rights-cleared photo targets: Sesriem entrance and sign; internal gate signage; park road/speed sign; 2x4 parking area; shuttle loading point; 4x4 sand-track entrance; Deadvlei approach walk; camelthorn forms and pale pan; Big Daddy climb route; Dune 45 roadside approach; Sesriem Canyon entrance; pre-dawn water/sun-protection kit.",
     "files": [
       "content/editorial-overrides.json",
-      "content/booking-destinations.json",
-      "docs/editorial-research/2026-10-20-paraa-safari-lodge.md"
+      "docs/editorial-research/2026-10-20-sossusvlei-sunrise-day.md"
     ],
-    "checkpoint": "Guide and OTA/source records pushed in dd3d932. Public page verification confirmed distinctive refurbishment and outdated-ferry warnings plus exact Stay22 destination. Owner report sent.",
-    "status_note": "Exact Booking.com listing and Stay22 mapping retained; the listing reported it was not accepting reservations when checked. Current operator material confirms refurbishment is ongoing; traveler reports differ on rooms/shared spaces. No current rates or availability asserted.",
-    "next_action": "Next category: travel_insights. Continue Paraa exact-property photo sourcing separately.",
-    "live_verification": "https://trekafricaguide.com/accommodations/paraa-safari-lodge returned HTTP 200 with new refurbishment, room-category, and Paraa–Pakwach Bridge guidance; old placeholder copy absent. Exact Stay22 booking CTA resolves to https://www.booking.com/hotel/ug/paraa-safari-lodge.html. Existing credited 2017 property image remains.",
-    "commit": "dd3d932",
-    "email_id": "1a156d636301d965"
+    "checkpoint": "Selected after inventory review: four published insights cover Table Mountain, Bwindi, Cape Town and Kibale; no Sossusvlei planning insight is published. Do not edit the general best-time-southern-africa draft placeholder. Complete guide written with official permit, seasonal, park and property sources; May 2026 access reversal reported with explicit same-week confirmation caveat. Four exact Booking.com stay links checked; no rates or review claims. No hero image; separate 12-subject photo follow-up recorded."
   },
   "previous_deliverable_correction": {
     "id": "marrakech-medina-street-food-walk",
@@ -312,7 +316,7 @@
     "email_id": "1a148cdf8dbabb76",
     "note": "Live page and booking relationship were confirmed and the owner report was already sent. Corrected the stale pending-owner-report status without resending the email."
   },
-  "next_scheduled_run": "2026-10-20T04:30:00+03:00",
+  "next_scheduled_run": "2026-10-20T07:30:00+03:00",
   "analytics_installation": {
     "measurement_id": "G-ZWBZRQPBK7",
     "commit": "4f76457",
