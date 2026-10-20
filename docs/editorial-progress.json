@@ -14,7 +14,7 @@
       "Keep incomplete new guides as drafts, complete their editorial review before publication.",
       "Send owner a confirmed progress report and save its send receipt."
     ],
-    "last_completed_action": "Buhoma six-photo gallery published 0e74d75; live HTTP 200 includes five new paths and new JPEG HTTP 200. Email SENT 1a14332db5006a7b.",
+    "last_completed_action": "Paraa Safari Lodge guide refresh published in dd3d932 and live-confirmed with exact Stay22 listing; existing one licensed room photo retained. Email SENT 1a156d636301d965.",
     "next_action": "Separate photo follow-up: source five further licensed exact-property Paraa Lodge images from the 15 documented current-property subject targets; next editorial rotation is travel insights.",
     "subtasks": [
       {
@@ -252,7 +252,7 @@
     "No routine tests/builds or repeated broad audits."
   ],
   "next_task_selection": "After current task is complete, prioritize evidenced accuracy, usability and discoverability gaps; record rationale.",
-  "last_run": "2026-10-20T04:02:00+03:00",
+  "last_run": "2026-10-20T04:04:00+03:00",
   "task_magnitude": "One complete full guide plus booking and listing cards, or one full property photo collection; do not schedule isolated paragraphs/links.",
   "country_destinations_feature": {
     "status": "complete",
@@ -280,7 +280,7 @@
   "current_deliverable": {
     "id": "paraa-safari-lodge-guide-refresh",
     "category": "accommodations",
-    "status": "ready_for_commit",
+    "status": "published_live_confirmed",
     "objective": "Refresh the published Paraa Safari Lodge guide with current renovation context, useful park access and fit/tradeoffs, verified amenities and canonical Murchison Falls relationship; retain exact Booking destination and one licensed exact-property photo.",
     "research_checked": "2026-10-20",
     "sources_checked": [
@@ -298,10 +298,12 @@
       "content/booking-destinations.json",
       "docs/editorial-research/2026-10-20-paraa-safari-lodge.md"
     ],
-    "checkpoint": "Source-backed guide and exact-OTA evidence recorded. Canonical Uganda and Murchison Falls links preserved. Existing licensed image retained. Changes ready for commit; deployment and owner report pending.",
+    "checkpoint": "Guide and OTA/source records pushed in dd3d932. Public page verification confirmed distinctive refurbishment and outdated-ferry warnings plus exact Stay22 destination. Owner report sent.",
     "status_note": "Exact Booking.com listing and Stay22 mapping retained; the listing reported it was not accepting reservations when checked. Current operator material confirms refurbishment is ongoing; traveler reports differ on rooms/shared spaces. No current rates or availability asserted.",
-    "next_action": "After publication/live check and owner report, rotate to travel insights. Keep Paraa photo follow-up separate.",
-    "live_verification": "Pending push and public page inspection."
+    "next_action": "Next category: travel_insights. Continue Paraa exact-property photo sourcing separately.",
+    "live_verification": "https://trekafricaguide.com/accommodations/paraa-safari-lodge returned HTTP 200 with new refurbishment, room-category, and Paraa–Pakwach Bridge guidance; old placeholder copy absent. Exact Stay22 booking CTA resolves to https://www.booking.com/hotel/ug/paraa-safari-lodge.html. Existing credited 2017 property image remains.",
+    "commit": "dd3d932",
+    "email_id": "1a156d636301d965"
   },
   "previous_deliverable_correction": {
     "id": "marrakech-medina-street-food-walk",
