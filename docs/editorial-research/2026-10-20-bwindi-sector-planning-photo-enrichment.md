@@ -69,3 +69,7 @@ Six original Commons photographs visually inspected and added as inline article 
 - Subject evidence: Commons file title identifies a two-year-old Mubare Group gorilla in Buhoma; image visually inspected. Illustrative wildlife photograph, not a sighting guarantee.
 - Alt: A young mountain gorilla from the Mubare Group in Buhoma, Bwindi.
 - Restrictions: Follow linked license attribution and share-alike terms. No people are identified as tour participants; wildlife image does not promise a sighting.
+
+## Pending recheck - 20 October 2026, 18:29 Kampala
+
+All six new image URLs still return 404. Netlify project reports current ready deploy 6ad74f454e777f521c626f7a, commit 313c1fb, published 11:24 UTC, preceding Bwindi image commit 1fcb0de. GitHub main status has no entries. Root cause not established; do not conflate this with the resolved Oct19 validation error. No new collection or duplicate email; resume publication confirmation first.

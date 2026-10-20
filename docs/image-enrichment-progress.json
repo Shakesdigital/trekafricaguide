@@ -25,7 +25,7 @@
   },
   "follow_ups": [],
   "last_pending_check": {
-    "checked_at": "2026-10-20 16:26 Africa/Kampala",
+    "checked_at": "2026-10-20 18:29 Africa/Kampala",
     "status": "pending_deployment",
     "page_url": "https://trekafricaguide.com/travel-insights/choose-bwindi-sector-before-booking-stay/",
     "asset_count": 6,
@@ -37,7 +37,10 @@
       404,
       404
     ],
-    "gallery_text": "No new figures present in production markup."
+    "gallery_text": "No new figures present in production markup.",
+    "published_commit": "313c1fb68eb0af27b7bce0a7c3b2c5f297d4c986",
+    "published_deploy": "6ad74f454e777f521c626f7a",
+    "note": "Unchanged pending: all six image URLs still 404. Netlify current deploy is ready at rafting checkpoint 313c1fb, before Bwindi photo commit 1fcb0de. No failure cause established; not the resolved Oct19 draft-validation blocker. No new collection or duplicate email."
   },
   "completed_runs": [
     {
