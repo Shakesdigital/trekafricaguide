@@ -252,7 +252,7 @@
     "No routine tests/builds or repeated broad audits."
   ],
   "next_task_selection": "After current task is complete, prioritize evidenced accuracy, usability and discoverability gaps; record rationale.",
-  "last_run": "2026-10-20T07:30:00+03:00",
+  "last_run": "2026-10-20T10:34:00+03:00",
   "task_magnitude": "One complete full guide plus booking and listing cards, or one full property photo collection; do not schedule isolated paragraphs/links.",
   "country_destinations_feature": {
     "status": "complete",
@@ -280,7 +280,7 @@
   "current_deliverable": {
     "id": "victoria-falls-zambezi-white-water-rafting",
     "category": "activities",
-    "status": "ready_for_review",
+    "status": "in_progress",
     "objective": "Publish a complete practical guide for the Zimbabwe-side guided Zambezi white-water rafting trip below Victoria Falls, with seasonal river-route differences, suitability, approach hikes, packing, exact GetYourGuide listing and canonical Victoria Falls relationships.",
     "research_checked": "2026-10-20",
     "sources_checked": [
@@ -296,8 +296,9 @@
       "content/booking-destinations.json",
       "docs/editorial-research/2026-10-20-victoria-falls-rafting.md"
     ],
-    "checkpoint": "Complete guide/source ledger drafted and attached to canonical Victoria Falls attraction id 70 and nearby stay id 72. Exact GYG product 850717 names Wild Horizons but is categorized and image-labeled Zambia; it only says Victoria Falls Town pickup. Since that does not verify Zimbabwe-side departure/pickup, no OTA CTA or booking registry mapping is enabled; record the exact location gap and follow up with operator before adding Stay22. Neutral hero and empty gallery retained. Ready to commit/push, then verify live body and related stay; do not report a booking CTA.",
-    "booking_gap": "Exact OTA product 850717 provider is Wild Horizons, but page/category and supplier images identify Zambia while operator page says Zimbabwe. “Victoria Falls Town” transfers lack a specified country/pickup point. No CTA/mapping until exact pickup side is verified."
+    "checkpoint": "Worker usage limit interrupted publication. Local commit 54aead3 is unpushed; branch ahead 1 behind 2. Activity withheld as draft: OTA pickup country unverified; remove remaining OTA-derived route/eligibility details and replace with operator-only verified facts before publication. OTA review removed. No email sent for this interrupted run.",
+    "booking_gap": "Exact OTA product 850717 provider is Wild Horizons, but page/category and supplier images identify Zambia while operator page says Zimbabwe. “Victoria Falls Town” transfers lack a specified country/pickup point. No CTA/mapping until exact pickup side is verified.",
+    "next_action": "Recheck official Wild Horizons details; remove unverified OTA-derived claims; inspect and publish complete guide without CTA unless exact departure verified; integrate remote changes, push, confirm live and email owner."
   },
   "previous_deliverable_correction": {
     "id": "marrakech-medina-street-food-walk",
