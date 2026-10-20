@@ -5,6 +5,7 @@ Page: https://trekafricaguide.com/travel-insights/choose-bwindi-sector-before-bo
 Six original Commons photographs visually inspected and added as inline article figures. Each source and local image hash was checked against the existing photo library and local public image collection; no matching source URLs or SHA-256 hashes were found. The inline renderer permits up to six images and sanitizes image URLs; the figures use absolute same-site HTTPS URLs. No factual article prose was changed. Captions preserve creator, source and license.
 
 ## rushaga-village.jpg
+- Commons revision ID: 1107287623
 - Source: https://commons.wikimedia.org/wiki/File:The_village_of_Rushaga,_in_Uganda_on_the_border_of_Bwindi_Impenetrable_National_Park_(3).jpg
 - Creator: Hanay
 - License: CC BY-SA 3.0; https://creativecommons.org/licenses/by-sa/3.0/
@@ -15,6 +16,7 @@ Six original Commons photographs visually inspected and added as inline article 
 - Restrictions: Follow linked license attribution and share-alike terms. No people are identified as tour participants; wildlife image does not promise a sighting.
 
 ## bwindi-roadside-village.jpg
+- Commons revision ID: 679368702
 - Source: https://commons.wikimedia.org/wiki/File:Village_Bwindi.jpg
 - Creator: Lowcarb23
 - License: CC BY-SA 4.0; https://creativecommons.org/licenses/by-sa/4.0/
@@ -25,6 +27,7 @@ Six original Commons photographs visually inspected and added as inline article 
 - Restrictions: Follow linked license attribution and share-alike terms. No people are identified as tour participants; wildlife image does not promise a sighting.
 
 ## nkuringo-valley.jpg
+- Commons revision ID: 943975743
 - Source: https://commons.wikimedia.org/wiki/File:USAID_Measuring_Impact_Conservation_Enterprise_Retrospective_(Uganda%3B_International_Gorilla_Conservation_Program)_(25422552517).jpg
 - Creator: Jason Houston for USAID
 - License: Public domain (U.S. federal government work); https://creativecommons.org/publicdomain/mark/1.0/
@@ -35,6 +38,7 @@ Six original Commons photographs visually inspected and added as inline article 
 - Restrictions: U.S. federal public domain; credit is courtesy only; no endorsement implied.
 
 ## ruhija-landscape.jpg
+- Commons revision ID: 1140554667
 - Source: https://commons.wikimedia.org/wiki/File:Paisaje_en_Ruhija,_Rubanda,_Uganda,_2024-02-01,_DD_82.jpg
 - Creator: Diego Delso
 - License: CC BY-SA 4.0; https://creativecommons.org/licenses/by-sa/4.0/
@@ -45,6 +49,7 @@ Six original Commons photographs visually inspected and added as inline article 
 - Restrictions: Follow linked license attribution and share-alike terms. No people are identified as tour participants; wildlife image does not promise a sighting.
 
 ## bwindi-forest-rubanda.jpg
+- Commons revision ID: 779067457
 - Source: https://commons.wikimedia.org/wiki/File:A_view_of_Bwindi_Impenetrable_Forest.jpg
 - Creator: Estherkmugarura
 - License: CC BY-SA 4.0; https://creativecommons.org/licenses/by-sa/4.0/
@@ -55,6 +60,7 @@ Six original Commons photographs visually inspected and added as inline article 
 - Restrictions: Follow linked license attribution and share-alike terms. No people are identified as tour participants; wildlife image does not promise a sighting.
 
 ## buhoma-mubare-gorilla.jpg
+- Commons revision ID: 1237614896
 - Source: https://commons.wikimedia.org/wiki/File:Mountain_gorilla,_2-year-old,_Mubare_Group,_Buhoma,_Bwindi_Impenetrable_Forest,_Uganda.jpg
 - Creator: Charles J. Sharp
 - License: CC BY-SA 4.0; https://creativecommons.org/licenses/by-sa/4.0/

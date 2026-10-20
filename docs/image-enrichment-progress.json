@@ -18,23 +18,26 @@
       "docs/editorial-research/2026-10-20-bwindi-sector-planning-photo-enrichment.md",
       "docs/image-enrichment-progress.json"
     ],
-    "note": "Six distinct, visually inspected photos illustrate the four sectors and forest setting; one documented Mubare Group gorilla image is illustrative and makes no sighting guarantee. Duplicate source URLs and image hashes were checked against all photo-library images and local public assets. No operator or trek-participant identity is inferred."
+    "note": "Six distinct, visually inspected photos illustrate the four sectors and forest setting; one documented Mubare Group gorilla image is illustrative and makes no sighting guarantee. Duplicate source URLs and image hashes were checked against all photo-library images and local public assets. No operator or trek-participant identity is inferred.",
+    "email_id": "1a1597ef00913ee0",
+    "report_sent_at": "2026-10-20 16:27 Africa/Kampala",
+    "live_verification": "2026-10-20 16:26 Africa/Kampala: production insight HTTP 200 but still served prior markup with zero new image figures; all six new asset URLs returned HTTP 404 after one bounded deploy interval."
   },
   "follow_ups": [],
   "last_pending_check": {
-    "checked_at": "2026-10-20 14:23 Africa/Kampala",
-    "status": "live_verified",
-    "page_url": "https://trekafricaguide.com/activities/victoria-falls-zambezi-white-water-rafting/",
+    "checked_at": "2026-10-20 16:26 Africa/Kampala",
+    "status": "pending_deployment",
+    "page_url": "https://trekafricaguide.com/travel-insights/choose-bwindi-sector-before-booking-stay/",
     "asset_count": 6,
     "asset_http_statuses": [
-      200,
-      200,
-      200,
-      200,
-      200,
-      200
+      404,
+      404,
+      404,
+      404,
+      404,
+      404
     ],
-    "gallery_text": "See all 6"
+    "gallery_text": "No new figures present in production markup."
   },
   "completed_runs": [
     {
