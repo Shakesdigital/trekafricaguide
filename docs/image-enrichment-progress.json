@@ -1,33 +1,31 @@
 {
   "updated_at": "2026-10-20",
   "current_run": {
-    "id": "elmina-local-destination-photo-enrichment",
-    "page_url": "https://trekafricaguide.com/countries/ghana/elmina/",
-    "page_type": "local_destination",
-    "status": "complete_live_confirmed",
-    "previous_photo_count": 0,
+    "id": "sine-saloum-delta-attraction-photo-enrichment",
+    "page_url": "https://trekafricaguide.com/attractions/sine-saloum-delta/",
+    "page_type": "attraction",
+    "status": "pushed_pending_live",
+    "previous_photo_count": 1,
     "photo_count": 6,
     "new_photo_count": 6,
     "checked_date": "2026-10-20",
-    "source_ledger": "docs/editorial-research/2026-10-20-elmina-photo-enrichment.md",
+    "source_ledger": "docs/editorial-research/2026-10-20-sine-saloum-photo-enrichment.md",
     "files": [
-      "content/local-destinations.json",
+      "content/editorial-overrides.json",
       "src/lib/photo-library.js",
       "public/photo-library.js",
-      "public/images/editorial/elmina/town-overview.jpg",
-      "public/images/editorial/elmina/colonial-town-street.jpg",
-      "public/images/editorial/elmina/downtown-elmina-archive.jpg",
-      "public/images/editorial/elmina/benya-lagoon-fishing-boats.jpg",
-      "public/images/editorial/elmina/elmina-port-fishing-boats.jpg",
-      "public/images/editorial/elmina/fishing-harbour-2025.jpg",
-      "docs/editorial-research/2026-10-20-elmina-photo-enrichment.md",
+      "/images/editorial/sine-saloum/mangrove-channel.jpg",
+      "/images/editorial/sine-saloum/riverbank-pirogue.jpg",
+      "/images/editorial/sine-saloum/mangrove-river-landscape.jpg",
+      "/images/editorial/sine-saloum/saloum-birds-in-flight.jpg",
+      "/images/editorial/sine-saloum/missirah-delta-shoreline.jpg",
+      "/images/editorial/sine-saloum/saloum-shore-crab.jpg",
+      "docs/editorial-research/2026-10-20-sine-saloum-photo-enrichment.md",
       "docs/image-enrichment-progress.json"
     ],
-    "live_verification": "2026-10-20 06:23 Africa/Kampala: production detail page HTTP 200, contains all six expected gallery references; all six JPEG assets return HTTP 200.",
-    "next_action": "Rotate to another published zero-photo destination; prioritize feasible licensed exact-location collections.",
-    "note": "Six distinct exact-Elmina Commons photos, not the Castle attraction collection. Hero uses first gallery image; total collection remains six.",
-    "email_id": "1a157565b99649ad",
-    "report_sent_at": "2026-10-20 06:24 Africa/Kampala"
+    "live_verification": "Pending post-push production page and asset check.",
+    "next_action": "Verify Sine-Saloum detail gallery and all six image assets live; report actual state and receipt, then rotate to the next eligible attraction.",
+    "note": "Replaced the previously shared stock hero because it is also assigned to the Senegal country detail. Six new distinct licensed exact-delta photos are used in this attraction detail gallery."
   },
   "follow_ups": [],
   "last_pending_check": {
@@ -159,6 +157,35 @@
       "email_id": "1a156fd008ee3089",
       "report_sent_at": "2026-10-20 04:46 Africa/Kampala",
       "commit": "ccd536d"
+    },
+    {
+      "id": "elmina-local-destination-photo-enrichment",
+      "page_url": "https://trekafricaguide.com/countries/ghana/elmina/",
+      "page_type": "local_destination",
+      "status": "complete_live_confirmed",
+      "previous_photo_count": 0,
+      "photo_count": 6,
+      "new_photo_count": 6,
+      "checked_date": "2026-10-20",
+      "source_ledger": "docs/editorial-research/2026-10-20-elmina-photo-enrichment.md",
+      "files": [
+        "content/local-destinations.json",
+        "src/lib/photo-library.js",
+        "public/photo-library.js",
+        "public/images/editorial/elmina/town-overview.jpg",
+        "public/images/editorial/elmina/colonial-town-street.jpg",
+        "public/images/editorial/elmina/downtown-elmina-archive.jpg",
+        "public/images/editorial/elmina/benya-lagoon-fishing-boats.jpg",
+        "public/images/editorial/elmina/elmina-port-fishing-boats.jpg",
+        "public/images/editorial/elmina/fishing-harbour-2025.jpg",
+        "docs/editorial-research/2026-10-20-elmina-photo-enrichment.md",
+        "docs/image-enrichment-progress.json"
+      ],
+      "live_verification": "2026-10-20 06:23 Africa/Kampala: production detail page HTTP 200, contains all six expected gallery references; all six JPEG assets return HTTP 200.",
+      "next_action": "Rotate to another published zero-photo destination; prioritize feasible licensed exact-location collections.",
+      "note": "Six distinct exact-Elmina Commons photos, not the Castle attraction collection. Hero uses first gallery image; total collection remains six.",
+      "email_id": "1a157565b99649ad",
+      "report_sent_at": "2026-10-20 06:24 Africa/Kampala"
     }
   ]
 }
