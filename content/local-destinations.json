@@ -190,9 +190,16 @@
     "activity_slugs": [],
     "accommodation_slugs": [],
     "travel_insight_slugs": [],
-    "hero_image_url": null,
-    "hero_image_alt": "Elmina town and coastal heritage in Ghana's Central Region",
-    "gallery": [],
+    "hero_image_url": "/images/editorial/elmina/town-overview.jpg",
+    "hero_image_alt": "Elmina’s coastal town and fishing harbor viewed from above.",
+    "gallery": [
+      "/images/editorial/elmina/town-overview.jpg",
+      "/images/editorial/elmina/colonial-town-street.jpg",
+      "/images/editorial/elmina/downtown-elmina-archive.jpg",
+      "/images/editorial/elmina/benya-lagoon-fishing-boats.jpg",
+      "/images/editorial/elmina/elmina-port-fishing-boats.jpg",
+      "/images/editorial/elmina/fishing-harbour-2025.jpg"
+    ],
     "last_researched": "2026-10-18",
     "research_sources": [
       {
