@@ -251,8 +251,8 @@
     "After quota interruption resume at next eligible scheduled run; do not assume immediate credit-reset wakeup.",
     "No routine tests/builds or repeated broad audits."
   ],
-  "next_task_selection": "After current task is complete, prioritize evidenced accuracy, usability and discoverability gaps; record rationale.",
-  "last_run": "2026-10-20T16:30:00+03:00",
+  "next_task_selection": "Before rotating to destinations, confirm the production deployment for Kwame Nkrumah Memorial Park commit 6ddb2d0 and verify the public page body and Ghana listing.",
+  "last_run": "2026-10-20T16:54:00+03:00",
   "task_magnitude": "One complete full guide plus booking and listing cards, or one full property photo collection; do not schedule isolated paragraphs/links.",
   "country_destinations_feature": {
     "status": "complete",
@@ -280,7 +280,7 @@
   "current_deliverable": {
     "id": "kwame-nkrumah-memorial-park",
     "category": "attractions",
-    "status": "published_pending_deploy",
+    "status": "pushed_pending_publication_verification",
     "objective": "Add a new, practical Accra heritage attraction guide for Kwame Nkrumah Memorial Park with accurate cultural context, visitor access/hours, a suggested sequence, an attributed dated traveler perspective, and only verified canonical relationships.",
     "research_checked": "2026-10-20",
     "sources_checked": [
@@ -299,9 +299,10 @@
       "docs/editorial-research/2026-10-20-kwame-nkrumah-memorial-park.md",
       "docs/editorial-progress.json"
     ],
-    "checkpoint": "Final content inspection complete: removed duplicated traveler perspective from body because the dedicated traveler-feedback section presents it. All official-source facts, access and suggested sequence retained; neutral no-photo state and no booking CTA preserved. Ready to commit/push and verify.",
-    "next_action": "Commit and push, verify the public attraction page and Ghana card, then email the owner and record the receipt.",
-    "booking_gap": "No exact OTA CTA included; official park visitor page supplies current hours/rates/contact. No published Accra hotel is geographically nearby."
+    "checkpoint": "Guide content and source ledger committed and pushed as 6ddb2d0. Netlify project still reports published commit 313c1fb ready; public attraction URL returned HTTP 404 at 2026-10-20 16:54 Kampala. No build failure evidence and no deploy trigger/history tool available. Owner report sent with pushed-but-unverified status (Gmail 1a15997b9529b931). Keep deliverable pending until live confirmation.",
+    "next_action": "Confirm the deployment for commit 6ddb2d0, then verify the distinctive attraction text and Ghana listing/card on the public site before rotating to destinations.",
+    "booking_gap": "No exact OTA CTA included; official park visitor page supplies current hours/rates/contact. No published Accra hotel is geographically nearby.",
+    "email_id": "1a15997b9529b931"
   },
   "previous_deliverable_correction": {
     "id": "marrakech-medina-street-food-walk",
