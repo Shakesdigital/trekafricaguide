@@ -1,33 +1,31 @@
 {
   "updated_at": "2026-10-20",
   "current_run": {
-    "id": "marrakech-medina-street-food-photo-enrichment",
-    "page_url": "https://trekafricaguide.com/activities/marrakech-medina-street-food-tour/",
-    "page_type": "activity",
-    "status": "complete_live_confirmed",
+    "id": "cape-town-base-by-outings-photo-enrichment",
+    "page_url": "https://trekafricaguide.com/travel-insights/choose-cape-town-base-by-outings/",
+    "page_type": "travel_insight",
+    "status": "pushed_pending_live",
     "previous_photo_count": 0,
     "photo_count": 6,
     "new_photo_count": 6,
     "checked_date": "2026-10-20",
-    "source_ledger": "docs/editorial-research/2026-10-20-marrakech-medina-street-food-photo-enrichment.md",
+    "source_ledger": "docs/editorial-research/2026-10-20-cape-town-base-by-outings-photo-enrichment.md",
     "files": [
       "content/editorial-overrides.json",
       "src/lib/photo-library.js",
       "public/photo-library.js",
-      "public/images/editorial/marrakech-food-walk/food-stall-square.jpg",
-      "public/images/editorial/marrakech-food-walk/argana-square-stalls.jpg",
-      "public/images/editorial/marrakech-food-walk/juice-vendor-jemaa.jpg",
-      "public/images/editorial/marrakech-food-walk/spice-market-marrakech.jpg",
-      "public/images/editorial/marrakech-food-walk/medina-street.jpg",
-      "public/images/editorial/marrakech-food-walk/fruit-stalls-square.jpg",
-      "docs/editorial-research/2026-10-20-marrakech-medina-street-food-photo-enrichment.md",
+      "public/images/editorial/cape-town-base-by-outings/city-bowl-dawn.jpg",
+      "public/images/editorial/cape-town-base-by-outings/city-hall-grand-parade.jpg",
+      "public/images/editorial/cape-town-base-by-outings/long-shortmarket-street.jpg",
+      "public/images/editorial/cape-town-base-by-outings/sea-point-beach.jpg",
+      "public/images/editorial/cape-town-base-by-outings/sea-point-promenade-coast.jpg",
+      "public/images/editorial/cape-town-base-by-outings/camps-bay-panorama.jpg",
+      "docs/editorial-research/2026-10-20-cape-town-base-by-outings-photo-enrichment.md",
       "docs/image-enrichment-progress.json"
     ],
-    "live_verification": "2026-10-20 04:25 Africa/Kampala: production detail page HTTP 200, shows See all 6, and references all six expected paths. Five assets returned HTTP 200 image/jpeg; medina-street.jpg returned HTTP 404. Deployment is live with one asset still pending availability. Follow-up in same run: medina-street.jpg now returns HTTP 200 image/jpeg at both plain and cache-bypassed URL; all six assets confirmed available.",
-    "next_action": "Rotate to a published travel insight with missing relevant photos; no pending Marrakech asset.",
-    "note": "Six visually inspected, distinct contextual Commons photographs added. Five visible tiles plus See all 6; none represents the named tour or its guide/participants. No copy edits.",
-    "email_id": "1a156eadd451a52b",
-    "report_sent_at": "2026-10-20 04:26 Africa/Kampala"
+    "live_verification": "Pending post-push deployment check.",
+    "next_action": "Verify production detail page shows all six figures/assets; then report and rotate to next published zero-photo insight.",
+    "note": "Six unique, visually inspected contextual Commons photographs. Alternate sources from existing Cape Town local guide; no accommodation/property representation. Hero remains unset."
   },
   "follow_ups": [],
   "last_pending_check": {
@@ -100,6 +98,35 @@
       "note": "Exact-property IMAGO image is paid rights-managed; Commons result depicts regional mangroves, not the hotel; official gallery and third-party guest images lacked verified reuse rights. Retained neutral no-photo behavior; no image or copy changes.",
       "email_id": "1a156d3776e5aaf3",
       "report_sent_at": "2026-10-20 04:03 Africa/Kampala"
+    },
+    {
+      "id": "marrakech-medina-street-food-photo-enrichment",
+      "page_url": "https://trekafricaguide.com/activities/marrakech-medina-street-food-tour/",
+      "page_type": "activity",
+      "status": "complete_live_confirmed",
+      "previous_photo_count": 0,
+      "photo_count": 6,
+      "new_photo_count": 6,
+      "checked_date": "2026-10-20",
+      "source_ledger": "docs/editorial-research/2026-10-20-marrakech-medina-street-food-photo-enrichment.md",
+      "files": [
+        "content/editorial-overrides.json",
+        "src/lib/photo-library.js",
+        "public/photo-library.js",
+        "public/images/editorial/marrakech-food-walk/food-stall-square.jpg",
+        "public/images/editorial/marrakech-food-walk/argana-square-stalls.jpg",
+        "public/images/editorial/marrakech-food-walk/juice-vendor-jemaa.jpg",
+        "public/images/editorial/marrakech-food-walk/spice-market-marrakech.jpg",
+        "public/images/editorial/marrakech-food-walk/medina-street.jpg",
+        "public/images/editorial/marrakech-food-walk/fruit-stalls-square.jpg",
+        "docs/editorial-research/2026-10-20-marrakech-medina-street-food-photo-enrichment.md",
+        "docs/image-enrichment-progress.json"
+      ],
+      "live_verification": "2026-10-20 04:25 Africa/Kampala: production detail page HTTP 200, shows See all 6, and references all six expected paths. Five assets returned HTTP 200 image/jpeg; medina-street.jpg returned HTTP 404. Deployment is live with one asset still pending availability. Follow-up in same run: medina-street.jpg now returns HTTP 200 image/jpeg at both plain and cache-bypassed URL; all six assets confirmed available.",
+      "next_action": "Rotate to a published travel insight with missing relevant photos; no pending Marrakech asset.",
+      "note": "Six visually inspected, distinct contextual Commons photographs added. Five visible tiles plus See all 6; none represents the named tour or its guide/participants. No copy edits.",
+      "email_id": "1a156eadd451a52b",
+      "report_sent_at": "2026-10-20 04:26 Africa/Kampala"
     }
   ]
 }
