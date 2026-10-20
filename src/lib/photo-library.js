@@ -3095,9 +3095,9 @@ export const photoLibrary = {
       "evidence": "Commons file description identifies fruit-sale booths at Jemaa El Fnaa, Marrakech; visually inspected.",
       "restrictions": "Attribution and share-alike for adaptations; served as a resized Wikimedia thumbnail. No endorsement implied."
     },
-    "/public/images/editorial/cape-town-base-by-outings/city-bowl-dawn.jpg": {
+    "/images/editorial/cape-town-base-by-outings/city-bowl-dawn.jpg": {
       "slug": "choose-cape-town-base-by-outings",
-      "local_path": "/public/images/editorial/cape-town-base-by-outings/city-bowl-dawn.jpg",
+      "local_path": "/images/editorial/cape-town-base-by-outings/city-bowl-dawn.jpg",
       "source_page": "https://commons.wikimedia.org/wiki/File:Cape_Town_City_Bowl_and_Table_Mountain_at_dawn.jpg",
       "creator": "Daniel Case",
       "license": "CC BY-SA 3.0",
@@ -3115,9 +3115,9 @@ export const photoLibrary = {
       "evidence": "Commons description identifies City Bowl and Table Mountain.",
       "restrictions": "Photo license only; no implied endorsement or separate personality/property rights. Preserve attribution and share-alike terms."
     },
-    "/public/images/editorial/cape-town-base-by-outings/city-hall-grand-parade.jpg": {
+    "/images/editorial/cape-town-base-by-outings/city-hall-grand-parade.jpg": {
       "slug": "choose-cape-town-base-by-outings",
-      "local_path": "/public/images/editorial/cape-town-base-by-outings/city-hall-grand-parade.jpg",
+      "local_path": "/images/editorial/cape-town-base-by-outings/city-hall-grand-parade.jpg",
       "source_page": "https://commons.wikimedia.org/wiki/File:Cape_Town_City_hall_and_Grand_Parade_panorama.JPG",
       "creator": "Disc ott",
       "license": "CC BY-SA 3.0",
@@ -3135,9 +3135,9 @@ export const photoLibrary = {
       "evidence": "Commons title, description and geotag identify City Hall and Grand Parade.",
       "restrictions": "Photo license only; no implied endorsement or separate personality/property rights. Preserve attribution and share-alike terms."
     },
-    "/public/images/editorial/cape-town-base-by-outings/long-shortmarket-street.jpg": {
+    "/images/editorial/cape-town-base-by-outings/long-shortmarket-street.jpg": {
       "slug": "choose-cape-town-base-by-outings",
-      "local_path": "/public/images/editorial/cape-town-base-by-outings/long-shortmarket-street.jpg",
+      "local_path": "/images/editorial/cape-town-base-by-outings/long-shortmarket-street.jpg",
       "source_page": "https://commons.wikimedia.org/wiki/File:Cape_Town_(ZA),_Long_Street-Shortmarket_Street,_Eckgeb%C3%A4ude_--_2024_--_3531.jpg",
       "creator": "Dietmar Rabich",
       "license": "CC BY-SA 4.0",
@@ -3155,9 +3155,9 @@ export const photoLibrary = {
       "evidence": "Commons description identifies this City Bowl street corner.",
       "restrictions": "Photo license only; no implied endorsement or separate personality/property rights. Preserve attribution and share-alike terms."
     },
-    "/public/images/editorial/cape-town-base-by-outings/sea-point-beach.jpg": {
+    "/images/editorial/cape-town-base-by-outings/sea-point-beach.jpg": {
       "slug": "choose-cape-town-base-by-outings",
-      "local_path": "/public/images/editorial/cape-town-base-by-outings/sea-point-beach.jpg",
+      "local_path": "/images/editorial/cape-town-base-by-outings/sea-point-beach.jpg",
       "source_page": "https://commons.wikimedia.org/wiki/File:Sea_Point_Beach.jpg",
       "creator": "Hilton1949",
       "license": "CC BY-SA 3.0",
@@ -3175,9 +3175,9 @@ export const photoLibrary = {
       "evidence": "Commons description identifies Sea Point Beach with the Promenade.",
       "restrictions": "Photo license only; no implied endorsement or separate personality/property rights. Preserve attribution and share-alike terms."
     },
-    "/public/images/editorial/cape-town-base-by-outings/sea-point-promenade-coast.jpg": {
+    "/images/editorial/cape-town-base-by-outings/sea-point-promenade-coast.jpg": {
       "slug": "choose-cape-town-base-by-outings",
-      "local_path": "/public/images/editorial/cape-town-base-by-outings/sea-point-promenade-coast.jpg",
+      "local_path": "/images/editorial/cape-town-base-by-outings/sea-point-promenade-coast.jpg",
       "source_page": "https://commons.wikimedia.org/wiki/File:Cape_Town_(ZA),_Sea_Point_Promenade_--_2024_--_3629.jpg",
       "creator": "Dietmar Rabich",
       "license": "CC BY-SA 4.0",
@@ -3195,9 +3195,9 @@ export const photoLibrary = {
       "evidence": "Commons description and geotag identify Sea Point Promenade.",
       "restrictions": "Photo license only; no implied endorsement or separate personality/property rights. Preserve attribution and share-alike terms."
     },
-    "/public/images/editorial/cape-town-base-by-outings/camps-bay-panorama.jpg": {
+    "/images/editorial/cape-town-base-by-outings/camps-bay-panorama.jpg": {
       "slug": "choose-cape-town-base-by-outings",
-      "local_path": "/public/images/editorial/cape-town-base-by-outings/camps-bay-panorama.jpg",
+      "local_path": "/images/editorial/cape-town-base-by-outings/camps-bay-panorama.jpg",
       "source_page": "https://commons.wikimedia.org/wiki/File:Camps_Bay_%E2%80%93_Cape_Town_suburbs,_beach,_Lion%27s_Head,_Twelve_Apostles.jpg",
       "creator": "Krigore",
       "license": "CC BY-SA 4.0",

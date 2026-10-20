@@ -4,7 +4,7 @@
     "id": "cape-town-base-by-outings-photo-enrichment",
     "page_url": "https://trekafricaguide.com/travel-insights/choose-cape-town-base-by-outings/",
     "page_type": "travel_insight",
-    "status": "pushed_pending_live",
+    "status": "republished_live_check_pending",
     "previous_photo_count": 0,
     "photo_count": 6,
     "new_photo_count": 6,
@@ -25,7 +25,7 @@
     ],
     "live_verification": "Pending post-push deployment check.",
     "next_action": "Verify production detail page shows all six figures/assets; then report and rotate to next published zero-photo insight.",
-    "note": "Six unique, visually inspected contextual Commons photographs. Alternate sources from existing Cape Town local guide; no accommodation/property representation. Hero remains unset."
+    "note": "Six unique, visually inspected contextual Commons photographs. Alternate sources from existing Cape Town local guide; no accommodation/property representation. Hero remains unset. Corrected figure URLs to same-site absolute HTTPS paths accepted by existing sanitizer; original relative paths were stripped."
   },
   "follow_ups": [],
   "last_pending_check": {
