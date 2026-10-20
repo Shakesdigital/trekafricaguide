@@ -1,44 +1,22 @@
 {
-  "updated_at": "2026-10-19",
+  "updated_at": "2026-10-20",
   "current_run": {
-    "id": "victoria-falls-attraction-photo-collection",
-    "page_url": "https://trekafricaguide.com/attractions/victoria-falls",
-    "page_type": "attraction",
-    "status": "complete_live_confirmed",
-    "previous_photo_count": 2,
-    "photo_count": 6,
-    "new_photo_count": 6,
-    "checked_date": "2026-10-19",
-    "source_ledger": "docs/editorial-research/2026-10-19-victoria-falls-photo-enrichment.md",
+    "id": "les-paletuviers-photo-source-review",
+    "page_url": "https://trekafricaguide.com/accommodations/les-paletuviers",
+    "page_type": "accommodation",
+    "status": "blocked_no_reusable_exact_property_photos",
+    "previous_photo_count": 0,
+    "photo_count": 0,
+    "new_photo_count": 0,
+    "checked_date": "2026-10-20",
+    "source_ledger": "docs/editorial-research/2026-10-20-les-paletuviers-photo-review.md",
     "files": [
-      "src/lib/photo-library.js",
-      "public/photo-library.js",
       "docs/image-enrichment-progress.json",
-      "docs/editorial-research/2026-10-19-victoria-falls-photo-enrichment.md",
-      "public/images/editorial/victoria-falls/"
+      "docs/editorial-research/2026-10-20-les-paletuviers-photo-review.md"
     ],
-    "live_verification": "2026-10-19 23:23 Africa/Kampala: live guide https://trekafricaguide.com/attractions/victoria-falls/ HTTP 200; page contains See all 6 images and the new Knife Edge image path. New JPEG returned HTTP 200 image/jpeg with a cache-busting query. Bare image URL initially returned a stale-edge 404 before cache-bust; current deployment content is live.",
-    "next_action": "Victoria Falls now has six distinct live images. Next editorial category: accommodations; continue with the tracked verified-property photo backlog.",
-    "note": "Five new licensed Commons photographs are live. Former retained Diego Delso hero removed because it occurs in other detail-page mappings; new Devils Cataract image is hero. Sixth new candidate previously rate-limited. No active deployment blocker.",
-    "commit": "927fa7c97e4502a46156218ab15649edf2ee39f2",
-    "email_id": "1a1549527013d4dd",
-    "publication_email_id": "1a155788f91b705f",
-    "correction_commit": "438d09b",
-    "sixth_photo": {
-      "file": "public/images/editorial/victoria-falls/victoria-falls-knife-edge-zambia.jpg",
-      "source_page": "https://commons.wikimedia.org/wiki/File:Victoria_Falls_Bridge_from_the_Knife_Edge_Bridge_trail.jpg",
-      "creator": "Dicklyon",
-      "captured": "2022-04-21",
-      "license": "CC BY-SA 4.0",
-      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
-      "sha256": "56a387d3a8424733752dd98c3cbe8a58dd0fd568d365079de4bc6b65e5a67c76",
-      "checked": "2026-10-19",
-      "visual_review": "Shows Victoria Falls Bridge, spray and rainbow from the Zambia-side Knife Edge trail; 1600x641 Commons thumbnail visually inspected.",
-      "duplicate_check": "No source URL or SHA-256 match among 161 existing photo-library image assignments."
-    },
-    "current_round_before_photo_count": 5,
-    "sixth_photo_email_id": "1a155d654f3bbe0e",
-    "sixth_photo_report_sent_at": "2026-10-19 23:24 Africa/Kampala"
+    "live_verification": "No content changes were made to this page; no deployment check was needed. Existing page remains at zero property photos.",
+    "next_action": "Continue accommodation rotation with another published zero-photo property and a focused search for licensed exact-property photography.",
+    "note": "Exact-property IMAGO image is paid rights-managed; Commons result depicts regional mangroves, not the hotel; official gallery and third-party guest images lacked verified reuse rights. Retained neutral no-photo behavior; no image or copy changes."
   },
   "follow_ups": [],
   "last_pending_check": {
@@ -91,6 +69,24 @@
       "note": "Commit 31253b2 pushed to origin/main. All six distinct Commons files visually reviewed; subject, original file page, creator and reuse terms are recorded in the dated source ledger and image library. No selected source duplicates another detail-page collection. Rejected a similarly named Commons ferry-jump photograph after visual review; it is distinct from the existing Mtoni Marine photo and neither was reused. Removed a pre-existing trailing comma from the Elmina record in content/local-destinations.json, introduced by 4ef39be, as a syntax-only repair so the collection parses. Historical deployment note: the earlier pending check below was superseded by live confirmation at 2026-10-19 15:19 Africa/Kampala.",
       "publication_email_id": "1a1541a74afa6ffa",
       "next_action": "Rotate to one published attraction with missing or unsuitable photos; review latest editorial activity and source inventory before selection."
+    },
+    {
+      "id": "les-paletuviers-photo-source-review",
+      "page_url": "https://trekafricaguide.com/accommodations/les-paletuviers",
+      "page_type": "accommodation",
+      "status": "blocked_no_reusable_exact_property_photos",
+      "previous_photo_count": 0,
+      "photo_count": 0,
+      "new_photo_count": 0,
+      "checked_date": "2026-10-20",
+      "source_ledger": "docs/editorial-research/2026-10-20-les-paletuviers-photo-review.md",
+      "files": [
+        "docs/image-enrichment-progress.json",
+        "docs/editorial-research/2026-10-20-les-paletuviers-photo-review.md"
+      ],
+      "live_verification": "No content changes were made to this page; no deployment check was needed. Existing page remains at zero property photos.",
+      "next_action": "Continue accommodation rotation with another published zero-photo property and a focused search for licensed exact-property photography.",
+      "note": "Exact-property IMAGO image is paid rights-managed; Commons result depicts regional mangroves, not the hotel; official gallery and third-party guest images lacked verified reuse rights. Retained neutral no-photo behavior; no image or copy changes."
     }
   ]
 }
