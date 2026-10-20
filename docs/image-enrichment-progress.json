@@ -17,9 +17,9 @@
     "live_verification": "2026-10-20 Africa/Kampala: production accommodation detail HTTP 200; gallery rendered the neutral empty-state element with the camp name and no property image.",
     "next_action": "Review published zero-photo Red Chilli Rest Camp for exact-property reusable images; revisit Kibale Forest Camp only if licensed property photos or direct owner permission become available.",
     "note": "Focused review found the operator gallery without reuse terms, an exact-camp Flickr photo marked All rights reserved, and reusable Commons park forest imagery that is not the camp. No candidate was copied or used as a property substitute.",
-    "commit": null,
-    "email_id": null,
-    "report_sent_at": null
+    "commit": "c34afd2",
+    "email_id": "1a158cc324843fdc",
+    "report_sent_at": "2026-10-20 13:12 Africa/Kampala"
   },
   "follow_ups": [],
   "last_pending_check": {
