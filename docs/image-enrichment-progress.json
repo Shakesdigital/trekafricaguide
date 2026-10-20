@@ -4,7 +4,7 @@
     "id": "victoria-falls-zambezi-rafting-six-photo-gallery",
     "page_url": "https://trekafricaguide.com/activities/victoria-falls-zambezi-white-water-rafting/",
     "page_type": "activity",
-    "status": "published_pending_live_verification",
+    "status": "live_verified",
     "previous_photo_count": 0,
     "photo_count": 6,
     "new_photo_count": 6,
@@ -17,16 +17,27 @@
       "docs/editorial-research/2026-10-20-victoria-falls-rafting-photo-enrichment.md",
       "docs/image-enrichment-progress.json"
     ],
-    "live_verification": "Source files and gallery metadata committed locally; production check pending after push/deploy.",
-    "next_action": "Verify published activity gallery shows all six images and each image URL returns HTTP 200; then record receipt for owner email.",
-    "note": "Six visually inspected Creative Commons images depict Zambezi rafting near Victoria Falls or the Batoka Gorge river. No operator, named participant, or tour-participant claim is attached. Duplicates were checked by source URL and SHA-256 against the photo library."
+    "live_verification": "2026-10-20 Africa/Kampala: production activity page HTTP 200 and markup displays “See all 6”; all six distinct image asset URLs returned HTTP 200 with image/jpeg.",
+    "next_action": "Rotate to another published zero-photo activity or attraction; retain blocked property-rights follow-ups unless new licensed exact-property evidence appears.",
+    "note": "Six visually inspected Creative Commons images depict Zambezi rafting near Victoria Falls or the Batoka Gorge river. No operator, named participant, or tour-participant claim is attached. Duplicates were checked by source URL and SHA-256 against the photo library.",
+    "email_id": "1a1590d5a34f4b6c",
+    "report_sent_at": "2026-10-20 14:23 Africa/Kampala"
   },
   "follow_ups": [],
   "last_pending_check": {
-    "checked_at": "2026-10-20",
-    "status": "awaiting_deploy",
+    "checked_at": "2026-10-20 14:23 Africa/Kampala",
+    "status": "live_verified",
     "page_url": "https://trekafricaguide.com/activities/victoria-falls-zambezi-white-water-rafting/",
-    "note": "No post-push live verification yet."
+    "asset_count": 6,
+    "asset_http_statuses": [
+      200,
+      200,
+      200,
+      200,
+      200,
+      200
+    ],
+    "gallery_text": "See all 6"
   },
   "completed_runs": [
     {
