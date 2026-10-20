@@ -1,34 +1,25 @@
 {
   "updated_at": "2026-10-20",
   "current_run": {
-    "id": "sine-saloum-delta-attraction-photo-enrichment",
-    "page_url": "https://trekafricaguide.com/attractions/sine-saloum-delta/",
-    "page_type": "attraction",
-    "status": "complete_live_confirmed",
-    "previous_photo_count": 1,
-    "photo_count": 6,
-    "new_photo_count": 6,
+    "id": "kibale-forest-camp-property-photo-rights-review",
+    "page_url": "https://trekafricaguide.com/accommodations/kibale-forest-camp/",
+    "page_type": "accommodation",
+    "status": "blocked_no_reusable_exact_property_photos",
+    "previous_photo_count": 0,
+    "photo_count": 0,
+    "new_photo_count": 0,
     "checked_date": "2026-10-20",
-    "source_ledger": "docs/editorial-research/2026-10-20-sine-saloum-photo-enrichment.md",
+    "source_ledger": "docs/editorial-research/2026-10-20-kibale-forest-camp-image-review.md",
     "files": [
-      "content/editorial-overrides.json",
-      "src/lib/photo-library.js",
-      "public/photo-library.js",
-      "/images/editorial/sine-saloum/mangrove-channel.jpg",
-      "/images/editorial/sine-saloum/riverbank-pirogue.jpg",
-      "/images/editorial/sine-saloum/mangrove-river-landscape.jpg",
-      "/images/editorial/sine-saloum/saloum-birds-in-flight.jpg",
-      "/images/editorial/sine-saloum/missirah-delta-shoreline.jpg",
-      "/images/editorial/sine-saloum/saloum-shore-crab.jpg",
-      "docs/editorial-research/2026-10-20-sine-saloum-photo-enrichment.md",
-      "docs/image-enrichment-progress.json"
+      "docs/image-enrichment-progress.json",
+      "docs/editorial-research/2026-10-20-kibale-forest-camp-image-review.md"
     ],
-    "live_verification": "2026-10-20 10:28 Africa/Kampala: production attraction detail HTTP 200, includes all six expected image paths and “See all 6”; all six assets return HTTP 200 image/jpeg.",
-    "next_action": "Rotate to the next published attraction with an image gap; continue checking source uniqueness across every detail collection.",
-    "note": "Replaced the previously shared stock hero because it is also assigned to the Senegal country detail. Six new distinct licensed exact-delta photos are used in this attraction detail gallery.",
-    "commit": "9d2e5d5",
-    "email_id": "1a1583638931b365",
-    "report_sent_at": "2026-10-20 10:29 Africa/Kampala"
+    "live_verification": "2026-10-20 Africa/Kampala: production accommodation detail HTTP 200; gallery rendered the neutral empty-state element with the camp name and no property image.",
+    "next_action": "Review published zero-photo Red Chilli Rest Camp for exact-property reusable images; revisit Kibale Forest Camp only if licensed property photos or direct owner permission become available.",
+    "note": "Focused review found the operator gallery without reuse terms, an exact-camp Flickr photo marked All rights reserved, and reusable Commons park forest imagery that is not the camp. No candidate was copied or used as a property substitute.",
+    "commit": null,
+    "email_id": null,
+    "report_sent_at": null
   },
   "follow_ups": [],
   "last_pending_check": {
@@ -189,6 +180,36 @@
       "note": "Six distinct exact-Elmina Commons photos, not the Castle attraction collection. Hero uses first gallery image; total collection remains six.",
       "email_id": "1a157565b99649ad",
       "report_sent_at": "2026-10-20 06:24 Africa/Kampala"
+    },
+    {
+      "id": "sine-saloum-delta-attraction-photo-enrichment",
+      "page_url": "https://trekafricaguide.com/attractions/sine-saloum-delta/",
+      "page_type": "attraction",
+      "status": "complete_live_confirmed",
+      "previous_photo_count": 1,
+      "photo_count": 6,
+      "new_photo_count": 6,
+      "checked_date": "2026-10-20",
+      "source_ledger": "docs/editorial-research/2026-10-20-sine-saloum-photo-enrichment.md",
+      "files": [
+        "content/editorial-overrides.json",
+        "src/lib/photo-library.js",
+        "public/photo-library.js",
+        "/images/editorial/sine-saloum/mangrove-channel.jpg",
+        "/images/editorial/sine-saloum/riverbank-pirogue.jpg",
+        "/images/editorial/sine-saloum/mangrove-river-landscape.jpg",
+        "/images/editorial/sine-saloum/saloum-birds-in-flight.jpg",
+        "/images/editorial/sine-saloum/missirah-delta-shoreline.jpg",
+        "/images/editorial/sine-saloum/saloum-shore-crab.jpg",
+        "docs/editorial-research/2026-10-20-sine-saloum-photo-enrichment.md",
+        "docs/image-enrichment-progress.json"
+      ],
+      "live_verification": "2026-10-20 10:28 Africa/Kampala: production attraction detail HTTP 200, includes all six expected image paths and “See all 6”; all six assets return HTTP 200 image/jpeg.",
+      "next_action": "Rotate to the next published attraction with an image gap; continue checking source uniqueness across every detail collection.",
+      "note": "Replaced the previously shared stock hero because it is also assigned to the Senegal country detail. Six new distinct licensed exact-delta photos are used in this attraction detail gallery.",
+      "commit": "9d2e5d5",
+      "email_id": "1a1583638931b365",
+      "report_sent_at": "2026-10-20 10:29 Africa/Kampala"
     }
   ]
 }
