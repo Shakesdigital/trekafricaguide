@@ -1,27 +1,24 @@
 {
   "updated_at": "2026-10-20",
   "current_run": {
-    "id": "victoria-falls-zambezi-rafting-six-photo-gallery",
-    "page_url": "https://trekafricaguide.com/activities/victoria-falls-zambezi-white-water-rafting/",
-    "page_type": "activity",
-    "status": "live_verified",
+    "id": "bwindi-sector-planning-six-inline-photos",
+    "page_url": "https://trekafricaguide.com/travel-insights/choose-bwindi-sector-before-booking-stay/",
+    "page_type": "travel_insight",
+    "status": "pushed_pending_live_verification",
     "previous_photo_count": 0,
     "photo_count": 6,
     "new_photo_count": 6,
     "checked_date": "2026-10-20",
-    "source_ledger": "docs/editorial-research/2026-10-20-victoria-falls-rafting-photo-enrichment.md",
+    "source_ledger": "docs/editorial-research/2026-10-20-bwindi-sector-planning-photo-enrichment.md",
     "files": [
       "content/editorial-overrides.json",
       "src/lib/photo-library.js",
       "public/photo-library.js",
-      "docs/editorial-research/2026-10-20-victoria-falls-rafting-photo-enrichment.md",
+      "public/images/editorial/bwindi-sector-planning/",
+      "docs/editorial-research/2026-10-20-bwindi-sector-planning-photo-enrichment.md",
       "docs/image-enrichment-progress.json"
     ],
-    "live_verification": "2026-10-20 Africa/Kampala: production activity page HTTP 200 and markup displays “See all 6”; all six distinct image asset URLs returned HTTP 200 with image/jpeg.",
-    "next_action": "Rotate to another published zero-photo activity or attraction; retain blocked property-rights follow-ups unless new licensed exact-property evidence appears.",
-    "note": "Six visually inspected Creative Commons images depict Zambezi rafting near Victoria Falls or the Batoka Gorge river. No operator, named participant, or tour-participant claim is attached. Duplicates were checked by source URL and SHA-256 against the photo library.",
-    "email_id": "1a1590d5a34f4b6c",
-    "report_sent_at": "2026-10-20 14:23 Africa/Kampala"
+    "note": "Six distinct, visually inspected photos illustrate the four sectors and forest setting; one documented Mubare Group gorilla image is illustrative and makes no sighting guarantee. Duplicate source URLs and image hashes were checked against all photo-library images and local public assets. No operator or trek-participant identity is inferred."
   },
   "follow_ups": [],
   "last_pending_check": {
@@ -225,6 +222,29 @@
       "commit": "c34afd2",
       "email_id": "1a158cc324843fdc",
       "report_sent_at": "2026-10-20 13:12 Africa/Kampala"
+    },
+    {
+      "id": "victoria-falls-zambezi-rafting-six-photo-gallery",
+      "page_url": "https://trekafricaguide.com/activities/victoria-falls-zambezi-white-water-rafting/",
+      "page_type": "activity",
+      "status": "live_verified",
+      "previous_photo_count": 0,
+      "photo_count": 6,
+      "new_photo_count": 6,
+      "checked_date": "2026-10-20",
+      "source_ledger": "docs/editorial-research/2026-10-20-victoria-falls-rafting-photo-enrichment.md",
+      "files": [
+        "content/editorial-overrides.json",
+        "src/lib/photo-library.js",
+        "public/photo-library.js",
+        "docs/editorial-research/2026-10-20-victoria-falls-rafting-photo-enrichment.md",
+        "docs/image-enrichment-progress.json"
+      ],
+      "live_verification": "2026-10-20 Africa/Kampala: production activity page HTTP 200 and markup displays “See all 6”; all six distinct image asset URLs returned HTTP 200 with image/jpeg.",
+      "next_action": "Rotate to another published zero-photo activity or attraction; retain blocked property-rights follow-ups unless new licensed exact-property evidence appears.",
+      "note": "Six visually inspected Creative Commons images depict Zambezi rafting near Victoria Falls or the Batoka Gorge river. No operator, named participant, or tour-participant claim is attached. Duplicates were checked by source URL and SHA-256 against the photo library.",
+      "email_id": "1a1590d5a34f4b6c",
+      "report_sent_at": "2026-10-20 14:23 Africa/Kampala"
     }
   ]
 }
