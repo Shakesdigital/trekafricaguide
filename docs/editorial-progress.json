@@ -272,23 +272,25 @@
     "email_id": "1a143a69416cf3d1"
   },
   "rotation": {
-    "last_completed_category": "activities",
-    "next_category": "attractions",
-    "next_deliverable": "Choose one complete, new attraction guide supported by existing canonical country/region data.",
+    "last_completed_category": "attractions",
+    "next_category": "destinations",
+    "next_deliverable": "Choose one useful new or materially incomplete country/local destination guide after this attraction.",
     "rule": "Finish the individual deliverable and report its live state, then rotate. Track exact-property photo gaps separately."
   },
   "current_deliverable": {
     "id": "kwame-nkrumah-memorial-park",
     "category": "attractions",
-    "status": "research_in_progress",
+    "status": "published_pending_deploy",
     "objective": "Add a new, practical Accra heritage attraction guide for Kwame Nkrumah Memorial Park with accurate cultural context, visitor access/hours, a suggested sequence, an attributed dated traveler perspective, and only verified canonical relationships.",
     "research_checked": "2026-10-20",
     "sources_checked": [
       "https://knmp.gov.gh/new/visiting-hours-rates/",
+      "https://knmp.gov.gh/new/",
+      "https://knmp.gov.gh/new/mausoleum/",
       "https://gmmb.gov.gh/museums/",
       "https://www.tripadvisor.com/Attraction_Review-g293797-d478885-Reviews-Kwame_Nkrumah_Memorial_Park-Accra_Greater_Accra.html",
-      "https://www.gov.uk/foreign-travel-advice/ghana",
-      "https://travel.state.gov/en/international-travel/travel-advisories/ghana.html"
+      "https://travel.state.gov/en/international-travel/travel-advisories/ghana.html",
+      "https://www.gov.uk/foreign-travel-advice/ghana"
     ],
     "image_count": 0,
     "image_followup": "Photo-library audit found no exact Kwame Nkrumah Memorial Park asset. Use a neutral no-photo state and track 8–12 exact-site subjects separately; do not substitute generic Accra or Ghana scenery.",
@@ -297,8 +299,9 @@
       "docs/editorial-research/2026-10-20-kwame-nkrumah-memorial-park.md",
       "docs/editorial-progress.json"
     ],
-    "checkpoint": "Selection after Victoria Falls rafting: Kwame Nkrumah Memorial Park is absent from all 24 canonical attraction rows and existing attraction overrides. New record will use country_id 45 (Ghana), region_id 15 (West Africa). Official KNMP visitor page confirms location at Prof. Atta Mills High Street, taxi/trotro/Metro bus/ride-hail access, hours and fee categories; GMMB confirms museum. No Ghana stay linked geographically near Accra; do not invent nearby-stay relation. Photo audit found no exact asset; neutral state planned. Before Simien Mountains, official advice check found U.S. Do Not Travel for Amhara and FCDO against all travel, so that unsafe current route was not chosen.",
-    "next_action": "Complete a bounded official-source and traveler review synthesis; write the new attraction with exact supported fields, zero-photo neutral hero, and ledger; inspect, push, verify public and send owner report."
+    "checkpoint": "Final content inspection complete: removed duplicated traveler perspective from body because the dedicated traveler-feedback section presents it. All official-source facts, access and suggested sequence retained; neutral no-photo state and no booking CTA preserved. Ready to commit/push and verify.",
+    "next_action": "Commit and push, verify the public attraction page and Ghana card, then email the owner and record the receipt.",
+    "booking_gap": "No exact OTA CTA included; official park visitor page supplies current hours/rates/contact. No published Accra hotel is geographically nearby."
   },
   "previous_deliverable_correction": {
     "id": "marrakech-medina-street-food-walk",

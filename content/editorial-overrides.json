@@ -1312,6 +1312,65 @@
           "description": "Cape Coast base on Residential Road; arrange a separate transfer to Elmina and confirm the complete room and transport quotation."
         }
       ]
+    },
+    {
+      "slug": "kwame-nkrumah-memorial-park",
+      "name": "Kwame Nkrumah Memorial Park",
+      "region_id": 15,
+      "country_id": 45,
+      "location_name": "Accra, Ghana",
+      "listing_summary": "A museum, mausoleum and landscaped memorial to Ghana’s first president and a leading Pan-African figure, set on Accra’s High Street.",
+      "detail_intro": "Kwame Nkrumah Memorial Park brings a national story into a compact Accra visit: a museum and library, the mausoleum, and open grounds around one of Ghana’s defining independence-era figures. A guided or self-paced visit can give the displays room to speak; the setting works best when treated as a place of history and reflection, not a quick monument stop.",
+      "full_description": "The park is a memorial to Kwame Nkrumah, Ghana’s first president and a central figure in the country’s independence and Pan-African histories. The site’s museum, library, guided tours, mausoleum and grounds let visitors move between political biography, public memory and architecture. The memorial’s own interpretation explains the mausoleum’s forms through Akan and Pan-African symbols; take those meanings as the site’s explanation of its design.\n\nA memorial necessarily presents a chosen account. Use the exhibits and a guide as an entry into Nkrumah’s life and Ghana’s independence, while leaving room for the wider range of people, ideas and debates behind that history. The Ghana Museums and Monuments Board lists the park museum among the museums it supports, and describes its museum network as a way to encounter the country’s history and culture.\n\nA useful suggested sequence is to begin with the museum or a park guide, so the outdoor memorial spaces have some historical context. Continue to the mausoleum and statue, then the Freedom Wall, Declaration Ground, gardens and fountains. This is a visitor-planning suggestion, not a fixed official route. The site lists each of these spaces, but does not publish a visit duration or promise that every area will be open during a particular event; check with the park before travelling if a specific feature matters to you.\n\nIf you want to extend the outing, the park’s official visitor page describes the Arts Centre as adjacent and Independence Square as nearby. Makola Market and Jamestown Lighthouse are also among the Accra places it lists, but they are separate city stops: confirm transport and opening details rather than assuming they fit into a short walk. Keep the park as the anchor if your main interest is the memorial and museum.\n\nThe park is on Prof. Atta Mills High Street in central Accra. Its official visitor information lists taxi, trotro, Metro bus and Uber as ways to reach it. Use the address and GPS code in the planning notes, and confirm the best drop-off point with your driver. If you are continuing elsewhere in the city, arrange the next leg separately rather than assuming the same fare or journey time.",
+      "getting_there": "The park gives its address as Prof. Atta Mills High Street, Accra, with GPS code GA-184-8219. Its official visitor page lists taxi, trotro, Metro bus and Uber as transport options. Traffic and departure point determine travel time, so use the exact address with your driver or transit app and confirm where the vehicle can drop you. The park is near Independence Square; the Arts Centre is described by the park as adjacent. No airport journey time is stated here.",
+      "best_time": "The park publishes daily hours rather than a season-specific visiting window: Monday–Saturday 9:00 a.m.–7:00 p.m. and Sunday 10:00 a.m.–7:00 p.m. An earlier arrival is a sensible choice if you want to give the museum and grounds room in one visit, but the park does not publish a typical visit length or crowd forecast. Check its notices for holidays, events or temporary closures before setting out.",
+      "practical_info": "As listed on the park’s official hours-and-rates page checked 20 October 2026, adult entry is GHS 100 for non-Ghanaians and GHS 25 for Ghanaians; separate tertiary and child categories are also listed. Fees can change, so confirm the current category and amount with the park before visiting. The site offers a museum, library and guided tours; contact the park if you need to confirm a tour, an exhibit or accessibility arrangements. Allow time for both indoor interpretation and outdoor memorial spaces, and be prepared to spend part of the visit in the sun.",
+      "highlights": [
+        "Museum and library focused on Nkrumah’s life, work and political legacy",
+        "Mausoleum and memorial architecture with symbolism explained by the park",
+        "Freedom Wall, Declaration Ground, statue, gardens and fountains",
+        "Central Accra setting near Independence Square and adjacent to the Arts Centre"
+      ],
+      "hero_image_url": null,
+      "hero_image_alt": null,
+      "gallery": [],
+      "featured": false,
+      "sort_order": 28,
+      "status": "published",
+      "published_at": "2026-10-20",
+      "research_sources": [
+        {
+          "label": "Kwame Nkrumah Memorial Park: visiting hours, rates, access and nearby places",
+          "url": "https://knmp.gov.gh/new/visiting-hours-rates/"
+        },
+        {
+          "label": "Kwame Nkrumah Memorial Park: site, grounds and institutional overview",
+          "url": "https://knmp.gov.gh/new/"
+        },
+        {
+          "label": "Kwame Nkrumah Memorial Park: mausoleum and design interpretation",
+          "url": "https://knmp.gov.gh/new/mausoleum/"
+        },
+        {
+          "label": "Ghana Museums and Monuments Board: museum network and Kwame Nkrumah Memorial Park Museum",
+          "url": "https://gmmb.gov.gh/museums/"
+        },
+        {
+          "label": "Tripadvisor: dated visitor review (visited June 2025; written 23 February 2026)",
+          "url": "https://www.tripadvisor.com/Attraction_Review-g293797-d478885-Reviews-Kwame_Nkrumah_Memorial_Park-Accra_Greater_Accra.html"
+        },
+        {
+          "label": "U.S. Department of State: Ghana travel advisory checked 20 October 2026",
+          "url": "https://travel.state.gov/en/international-travel/travel-advisories/ghana.html"
+        },
+        {
+          "label": "UK FCDO: Ghana travel advice checked 20 October 2026",
+          "url": "https://www.gov.uk/foreign-travel-advice/ghana"
+        }
+      ],
+      "last_researched": "2026-10-20",
+      "traveler_feedback": "A TripAdvisor visitor who visited in June 2025 and published their review on 23 February 2026 described the mausoleum visit as moving and said photographs and personal objects in the museum made Nkrumah’s story more tangible. This is one visitor’s perspective, not a guarantee of the current displays or guiding.",
+      "source_url": "https://knmp.gov.gh/new/visiting-hours-rates/"
     }
   ],
   "accommodations": [
