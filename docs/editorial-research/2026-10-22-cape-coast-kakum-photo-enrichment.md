@@ -19,4 +19,4 @@ The existing two generic stock images were replaced by this six-image collection
 
 ## Publication record
 
-Repository build-input syntax, JSON parsing and the mirrored photo-library check were run as required by the deployment runbook; no tests or full build were run. Live page/assets are not claimed until checked after push.
+Repository build-input syntax, JSON parsing and the mirrored photo-library check passed as required by the deployment runbook; no tests or full build were run. Commit `789e711` was pushed to `origin/main`. At 01:35 Africa/Kampala on 22 October 2026, the production attraction page returned HTTP 200 and contained all six gallery image filenames; each plain JPEG URL returned HTTP 200 `image/jpeg`.
