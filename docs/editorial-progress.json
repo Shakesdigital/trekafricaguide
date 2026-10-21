@@ -302,7 +302,9 @@
         "outcome": "Upload began but CLI exited 1 with Failed to deploy site: 500 Internal Server Error; no deployment ID returned. Netlify history remains latest ready commit 2f52453 and the new destination URL returns HTTP 404.",
         "next_action": "Use project dashboard to trigger latest main; do not infer a build failure from the API 500."
       }
-    ]
+    ],
+    "email_id": "1a15f5c15a937193",
+    "email_followup_id": "1a15f5c15a937193"
   },
   "previous_deliverable_correction": {
     "id": "marrakech-medina-street-food-walk",
