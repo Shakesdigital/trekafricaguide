@@ -252,7 +252,7 @@
     "No routine tests/builds or repeated broad audits."
   ],
   "next_task_selection": "Finish the Kwame Nkrumah Memorial Park production deploy and verify it before rotating to destinations.",
-  "last_run": "2026-10-21T19:52:00+03:00",
+  "last_run": "2026-10-21T22:30:00+03:00",
   "task_magnitude": "One complete full guide plus booking and listing cards, or one full property photo collection; do not schedule isolated paragraphs/links.",
   "country_destinations_feature": {
     "status": "complete",
@@ -272,15 +272,15 @@
     "email_id": "1a143a69416cf3d1"
   },
   "rotation": {
-    "last_completed_category": "attractions",
-    "next_category": "destinations",
-    "next_deliverable": "Choose one useful new or materially incomplete country/local destination guide after this attraction.",
+    "last_completed_category": "destinations",
+    "next_category": "accommodations",
+    "next_deliverable": "Complete one useful accommodation guide with exact property evidence and canonical relationships.",
     "rule": "Finish the individual deliverable and report its live state, then rotate. Track exact-property photo gaps separately."
   },
   "current_deliverable": {
     "id": "sine-saloum-delta-local-destination",
     "category": "destinations",
-    "status": "pending_netlify_deploy",
+    "status": "complete",
     "objective": "Publish a practical Senegal Sine-Saloum local-destination guide with accurate base selection, road and boat planning, broad seasonal guidance and only geographically verified attraction/stay relationships.",
     "research_checked": "2026-10-21",
     "image_count": 0,
@@ -290,8 +290,8 @@
       "docs/editorial-research/2026-10-21-sine-saloum-local-destination.md",
       "docs/editorial-progress.json"
     ],
-    "checkpoint": "Guide and research ledger pushed in 843db84 after the focused build-input guard passed. The destination route still returns HTTP 404. Netlify MCP deploy-site uploaded repeatedly then exited 1 with Failed to deploy site: 500 Internal Server Error and returned no deployment ID. Deploy history still lists latest ready commit 2f52453. The exact destination image already belongs to the attraction guide and was not reused; destination image count remains 0. Owner was sent the pending-live status, source links and explicit dashboard action; Gmail receipt 1a15f5c15a937193.",
-    "next_action": "Trigger latest main commit 843db84 from the Netlify project dashboard after the deploy-site API 500; then confirm deploy ready, HTTP 200 on the destination route and the Senegal country card before marking complete.",
+    "checkpoint": "Live destination HTTP 200 with distinctive new hero text; Senegal country HTTP 200 contains the nested destination link. Prior upload API failure no longer blocks publication. Confirmed 21 October 2026, 22:30 Kampala. Owner follow-up SENT 1a15ff081c74129b.",
+    "next_action": "Rotate to one accommodation guide; retain six dedicated destination photo subjects in backlog.",
     "booking_gap": "Destination guides have no hotel-booking surrogate; existing stay card is a canonical nearby property relationship, with its normal detail-page booking behavior.",
     "deployment_attempts": [
       {
@@ -304,7 +304,14 @@
       }
     ],
     "email_id": "1a15f5c15a937193",
-    "email_followup_id": "1a15f5c15a937193"
+    "email_followup_id": "1a15ff081c74129b",
+    "live_verification": {
+      "checked": "2026-10-21T22:30:00+03:00",
+      "url": "https://trekafricaguide.com/countries/senegal/sine-saloum-delta",
+      "status": 200,
+      "distinctive_text": "Choose a Sine-Saloum base",
+      "country_card_confirmed": true
+    }
   },
   "previous_deliverable_correction": {
     "id": "marrakech-medina-street-food-walk",
@@ -313,7 +320,7 @@
     "email_id": "1a148cdf8dbabb76",
     "note": "Live page and booking relationship were confirmed and the owner report was already sent. Corrected the stale pending-owner-report status without resending the email."
   },
-  "next_scheduled_run": "2026-10-21T22:30:00+03:00",
+  "next_scheduled_run": "2026-10-22T01:30:00+03:00",
   "analytics_installation": {
     "measurement_id": "G-ZWBZRQPBK7",
     "commit": "4f76457",

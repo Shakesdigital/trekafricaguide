@@ -20,3 +20,7 @@ The photo library contains one licensed, location-specific Sine-Saloum image, bu
 ## Relationships
 
 Linked the existing published attraction `sine-saloum-delta` for heritage/ecology detail and the existing published stay `les-paletuviers`, whose official site places it in Toubacouta. No activity or insight relationship was added because no separate published record was verified as a better local fit. No booking CTA is added to the destination page.
+
+## Publication closure — 22:30 Kampala
+
+Destination route returned HTTP 200 with distinctive hero text, and Senegal country HTML contained its nested destination link. The previous upload API 500 no longer blocks this publication. No new images or drafts; no tests or build run for this read-only confirmation. Owner follow-up SENT `1a15ff081c74129b`. Next category: accommodations.
