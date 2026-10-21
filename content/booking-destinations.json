@@ -63,11 +63,11 @@
     "les-paletuviers": {
       "url": "https://www.booking.com/hotel/sn/les-pala-c-tuviers.en-gb.html",
       "provider": "booking",
-      "title": "Les Paletuviers",
-      "checked_at": "2026-10-11",
+      "title": "Les Palétuviers — Toubakouta, Senegal",
+      "checked_at": "2026-10-22",
       "evidence": {
-        "source_url": "https://www.booking.com/hotel/sn/les-pala-c-tuviers.en-gb.html?came_from_hotel_review=1&keep_landing=1",
-        "summary": "Primary detail identifies Toubakouta, Senegal; rejected Saint Martin apartment namesake."
+        "source_url": "https://www.booking.com/hotel/sn/les-pala-c-tuviers.en-gb.html",
+        "summary": "Rechecked 22 October 2026: the Booking.com detail page identifies the exact Les Palétuviers hotel in Toubakouta, Senegal. Matches the official property and existing accommodation record. No rate, availability, rating or review count copied into site content."
       }
     },
     "maribela-hotel": {

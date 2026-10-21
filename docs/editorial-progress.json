@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-21",
+  "updated_at": "2026-10-22",
   "timezone": "Africa/Kampala",
   "next_scheduled_start": "2026-10-17T19:30:00+03:00",
   "cadence_hours": 3,
@@ -252,7 +252,7 @@
     "No routine tests/builds or repeated broad audits."
   ],
   "next_task_selection": "Finish the Kwame Nkrumah Memorial Park production deploy and verify it before rotating to destinations.",
-  "last_run": "2026-10-21T22:30:00+03:00",
+  "last_run": "2026-10-22T01:32:00+03:00",
   "task_magnitude": "One complete full guide plus booking and listing cards, or one full property photo collection; do not schedule isolated paragraphs/links.",
   "country_destinations_feature": {
     "status": "complete",
@@ -278,40 +278,22 @@
     "rule": "Finish the individual deliverable and report its live state, then rotate. Track exact-property photo gaps separately."
   },
   "current_deliverable": {
-    "id": "sine-saloum-delta-local-destination",
-    "category": "destinations",
-    "status": "complete",
-    "objective": "Publish a practical Senegal Sine-Saloum local-destination guide with accurate base selection, road and boat planning, broad seasonal guidance and only geographically verified attraction/stay relationships.",
-    "research_checked": "2026-10-21",
+    "id": "les-paletuviers-accommodation-refresh",
+    "category": "accommodations",
+    "status": "drafted",
+    "objective": "Refresh the existing Les Palétuviers accommodation guide with current official room, location and transfer facts, balanced dated traveler perspectives, and exact Booking.com destination evidence through the shared Stay22 resolver.",
+    "research_checked": "2026-10-22",
     "image_count": 0,
-    "image_followup": "Do not reuse the exact Sine-Saloum Commons image already assigned to the attraction page. Keep the destination neutral and track six distinct licensed local-destination subjects separately.",
+    "image_followup": "Preserve neutral gallery. The 20 October photo audit found no licensed exact-property images. Keep six exact-property photo subjects (exterior/grounds, reception/common areas, restaurant/dining, and accurately identified room categories) in the separate image backlog.",
     "files": [
-      "content/local-destinations.json",
-      "docs/editorial-research/2026-10-21-sine-saloum-local-destination.md",
+      "content/editorial-overrides.json",
+      "content/booking-destinations.json",
+      "docs/editorial-research/2026-10-22-les-paletuviers-guide-refresh.md",
       "docs/editorial-progress.json"
     ],
-    "checkpoint": "Live destination HTTP 200 with distinctive new hero text; Senegal country HTTP 200 contains the nested destination link. Prior upload API failure no longer blocks publication. Confirmed 21 October 2026, 22:30 Kampala. Owner follow-up SENT 1a15ff081c74129b.",
-    "next_action": "Rotate to one accommodation guide; retain six dedicated destination photo subjects in backlog.",
-    "booking_gap": "Destination guides have no hotel-booking surrogate; existing stay card is a canonical nearby property relationship, with its normal detail-page booking behavior.",
-    "deployment_attempts": [
-      {
-        "time": "2026-10-21T19:50:00+03:00",
-        "site_id": "d32d59a3-f819-4e66-9e79-ce47e04ce22d",
-        "commit": "843db84",
-        "procedure": "Netlify MCP deploy-site; executed returned CLI command from repository root",
-        "outcome": "Upload began but CLI exited 1 with Failed to deploy site: 500 Internal Server Error; no deployment ID returned. Netlify history remains latest ready commit 2f52453 and the new destination URL returns HTTP 404.",
-        "next_action": "Use project dashboard to trigger latest main; do not infer a build failure from the API 500."
-      }
-    ],
-    "email_id": "1a15f5c15a937193",
-    "email_followup_id": "1a15ff081c74129b",
-    "live_verification": {
-      "checked": "2026-10-21T22:30:00+03:00",
-      "url": "https://trekafricaguide.com/countries/senegal/sine-saloum-delta",
-      "status": 200,
-      "distinctive_text": "Choose a Sine-Saloum base",
-      "country_card_confirmed": true
-    }
+    "checkpoint": "Existing Les Palétuviers guide refreshed with current official rooms/transfers, current Booking.com exact listing evidence, and individual January/February 2026 traveler perspectives. Exact Stay22 target is unchanged and verified on the existing live page. Photo count remains 0 per the 20 October image-license audit. Focused input validation and post-push deployment confirmation remain.",
+    "next_action": "Run focused build-input guard and briefly inspect changed records; commit/push, wait for Netlify ready and verify live copy plus the exact Booking.com Stay22 target.",
+    "booking_gap": "Exact Booking.com property destination already exists in the shared accommodation registry and is being rechecked; no rate or availability claims."
   },
   "previous_deliverable_correction": {
     "id": "marrakech-medina-street-food-walk",
@@ -320,7 +302,7 @@
     "email_id": "1a148cdf8dbabb76",
     "note": "Live page and booking relationship were confirmed and the owner report was already sent. Corrected the stale pending-owner-report status without resending the email."
   },
-  "next_scheduled_run": "2026-10-22T01:30:00+03:00",
+  "next_scheduled_run": "2026-10-22T04:30:00+03:00",
   "analytics_installation": {
     "measurement_id": "G-ZWBZRQPBK7",
     "commit": "4f76457",
