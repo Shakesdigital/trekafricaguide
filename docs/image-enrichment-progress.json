@@ -18,8 +18,8 @@
       "docs/editorial-research/2026-10-21-buhoma-photo-enrichment.md",
       "docs/image-enrichment-progress.json"
     ],
-    "note": "Three visually reviewed, distinct and licensed exact-Buhoma photographs: archival 2017 trek departure, a separate 2017 park-headquarters briefing and a 2016 female Mubare Group gorilla. The library dedup check covered source pages and hashes against all local image assets. Excluded the archival Batwa performance frame, a visitor-center construction photo and identifiable community-conflict portraits. This is a useful partial collection; it does not meet the six-photo target. No factual text was changed.",
-    "next_action": "Confirm the Buhoma detail page and all three assets live; then source a current Buhoma village/forest-edge overview, exact-location approach view, forest-walk/birding context and consent-appropriate community-hosted setting.",
+    "note": "Three visually reviewed, distinct and licensed exact-Buhoma photographs: archival 2017 trek departure, a separate 2017 park-headquarters briefing and a 2016 female Mubare Group gorilla. The library dedup check covered source pages and hashes against all local image assets. Excluded the archival Batwa performance frame, a visitor-center construction photo and identifiable community-conflict portraits. This is a useful partial collection; it does not meet the six-photo target. No factual text was changed. Focused rights follow-up on 2026-10-21 found no additional eligible exact-Buhoma image; rejected rights-restricted, non-commercial, under-resolution, unclear-license and unlicensed gallery leads are recorded in the source ledger. No live recheck or duplicate email.",
+    "next_action": "Rotate to a different published attraction with an image gap and feasible licensed sources. Buhoma remains a three-photo partial; revisit only if new reusable exact-place evidence appears.",
     "commit": "f2ae5be",
     "live_verification": "2026-10-21 19:54 Africa/Kampala: production Buhoma detail HTTP 200 shows See all 3 and references all three expected image paths; all three plain JPEG URLs return HTTP 200 image/jpeg.",
     "email_id": "1a15f6378371b81c",

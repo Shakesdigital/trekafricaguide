@@ -47,3 +47,16 @@ Remaining photo gaps: a current, non-property Buhoma village/forest-edge overvie
 ## Publication record
 
 Commit `f2ae5be` pushed to the existing Git-triggered Netlify deployment path. The repository build-input syntax, JSON and photo-library mirror check passed; no test suite or full build was run. At 19:54 Africa/Kampala on 21 October 2026, the production Buhoma page returned HTTP 200, displayed “See all 3,” and referenced all three new image paths; each plain JPEG URL returned HTTP 200 `image/jpeg`. Publication report sent to the configured recipient; Gmail receipt ID `1a15f6378371b81c`.
+
+
+## Focused rights follow-up — 21 October 2026
+
+A focused search for the remaining village/forest-edge, approach-road and forest-walk/birding context found no new image suitable for this commercial travel guide. These newly checked leads are recorded to prevent repeating unchanged searches:
+
+- https://www.flickr.com/photos/zacharycava/54412471314 — Buhoma-area landscape photographed 26 January 2025; the Flickr page marks it “All rights reserved,” with no reuse permission found.
+- https://www.flickr.com/photos/nikborrow/21107940875 — Buhoma-area Augur Buzzard image under CC BY-NC 2.0; the non-commercial restriction does not allow use here.
+- https://commons.wikimedia.org/wiki/File:Colius_striatus.jpg — exact-Buhoma speckled mousebird. The Commons derivative is only 355 × 397 pixels, too small for this gallery; its reported CC BY-SA 3.0 source lineage does not address the resolution limitation.
+- BirdForum results attributed to “kiboko_mark” for Buhoma/Bwindi sunbirds — exact-location wording appeared in results, but no clear reuse license was available on the surfaced pages.
+- https://havenlodgebuhomacommunity.com/buhoma-wildlife-and-landscape-gallery/ — area wildlife/landscape gallery with no license permitting republication identified; do not copy its images.
+
+No images were added, and no live-page recheck or email was made. Keep the three-photo Buhoma collection and remaining contextual gaps in the backlog. Next action: rotate to a different published attraction with an image gap and a feasible licensed source pool; revisit Buhoma only if new reusable exact-place evidence appears.
