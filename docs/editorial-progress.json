@@ -251,8 +251,8 @@
     "After quota interruption resume at next eligible scheduled run; do not assume immediate credit-reset wakeup.",
     "No routine tests/builds or repeated broad audits."
   ],
-  "next_task_selection": "Before rotating to destinations, confirm the production deployment for Kwame Nkrumah Memorial Park commit 6ddb2d0 and verify the public page body and Ghana listing.",
-  "last_run": "2026-10-20T16:54:00+03:00",
+  "next_task_selection": "Resolve and verify the pending Kwame Nkrumah Memorial Park production deployment before rotating to destinations.",
+  "last_run": "2026-10-21T08:11:00+03:00",
   "task_magnitude": "One complete full guide plus booking and listing cards, or one full property photo collection; do not schedule isolated paragraphs/links.",
   "country_destinations_feature": {
     "status": "complete",
@@ -299,10 +299,21 @@
       "docs/editorial-research/2026-10-20-kwame-nkrumah-memorial-park.md",
       "docs/editorial-progress.json"
     ],
-    "checkpoint": "Guide content and source ledger committed and pushed as 6ddb2d0. Netlify project still reports published commit 313c1fb ready; public attraction URL returned HTTP 404 at 2026-10-20 16:54 Kampala. No build failure evidence and no deploy trigger/history tool available. Owner report sent with pushed-but-unverified status (Gmail 1a15997b9529b931). Keep deliverable pending until live confirmation.",
-    "next_action": "Confirm the deployment for commit 6ddb2d0, then verify the distinctive attraction text and Ghana listing/card on the public site before rotating to destinations.",
+    "checkpoint": "Guide content is committed and pushed (6ddb2d0; progress checkpoint 3c907d3; shared head currently 90e3730). Live attraction URL still 404 and Ghana page lacks the attraction card. Netlify project/get-deploy only exposes old ready production deploy 6ad74f454e777f521c626f7a at commit 313c1fb; no newer build/deploy ID or build failure is exposed. Supported Netlify deploy-site action (site d32d59a3-f819-4e66-9e79-ce47e04ce22d) returned an npx @netlify/mcp command; running it uploaded the repository then exited 1 with HTTP 500 Internal Server Error, no deploy ID. Netlify CLI status check timed out without account/build details. This is a deploy-service error, not evidence of a failed build. Owner follow-up sent with dashboard retry action; retain pending status until live confirmation.",
+    "next_action": "Production deployment is unresolved: request one retry through Netlify dashboard for latest main; verify attraction body and Ghana country card before rotating to destinations.",
     "booking_gap": "No exact OTA CTA included; official park visitor page supplies current hours/rates/contact. No published Accra hotel is geographically nearby.",
-    "email_id": "1a15997b9529b931"
+    "email_id": "1a15997b9529b931",
+    "deployment_attempts": [
+      {
+        "time": "2026-10-21T08:11:00+03:00",
+        "site_id": "d32d59a3-f819-4e66-9e79-ce47e04ce22d",
+        "procedure": "Netlify MCP deploy-site; run returned npx @netlify/mcp@latest --site-id <site id> --proxy-path <temporary credential> --no-wait from repository root",
+        "outcome": "Repository upload began; CLI exited 1: Failed to deploy site: 500 Internal Server Error. No deployment ID or build record returned. Project API still reports only old ready deploy 6ad74f454e777f521c626f7a, commit 313c1fb.",
+        "note": "Do not infer a build failure. Next try latest main through Netlify dashboard after the API 500; confirm live body/card before completion.",
+        "owner_followup_email_id": "1a15ce1f38fd5a0b"
+      }
+    ],
+    "email_followup_id": "1a15ce1f38fd5a0b"
   },
   "previous_deliverable_correction": {
     "id": "marrakech-medina-street-food-walk",
