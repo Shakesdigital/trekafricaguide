@@ -73,3 +73,7 @@ Six original Commons photographs visually inspected and added as inline article 
 ## Pending recheck - 20 October 2026, 18:29 Kampala
 
 All six new image URLs still return 404. Netlify project reports current ready deploy 6ad74f454e777f521c626f7a, commit 313c1fb, published 11:24 UTC, preceding Bwindi image commit 1fcb0de. GitHub main status has no entries. Root cause not established; do not conflate this with the resolved Oct19 validation error. No new collection or duplicate email; resume publication confirmation first.
+
+## Publication confirmed - 21 October 2026, 13:16 Kampala
+
+Article HTTP 200 contains all six expected image references. All six plain JPEG URLs HTTP 200 image/jpeg. Prior pending state resolved; zero to six photographs confirmed live. Publication email sent, Gmail ID 1a15df681ac3f218. No tests/builds or editorial checkpoint changes. Next rotation: destination photo gap.

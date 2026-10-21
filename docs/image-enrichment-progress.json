@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-10-20",
+  "updated_at": "2026-10-21",
   "current_run": {
     "id": "bwindi-sector-planning-six-inline-photos",
     "page_url": "https://trekafricaguide.com/travel-insights/choose-bwindi-sector-before-booking-stay/",
     "page_type": "travel_insight",
-    "status": "pushed_pending_live_verification",
+    "status": "complete_live_confirmed",
     "previous_photo_count": 0,
     "photo_count": 6,
     "new_photo_count": 6,
@@ -21,12 +21,14 @@
     "note": "Six distinct, visually inspected photos illustrate the four sectors and forest setting; one documented Mubare Group gorilla image is illustrative and makes no sighting guarantee. Duplicate source URLs and image hashes were checked against all photo-library images and local public assets. No operator or trek-participant identity is inferred.",
     "email_id": "1a1597ef00913ee0",
     "report_sent_at": "2026-10-20 16:27 Africa/Kampala",
-    "live_verification": "2026-10-20 16:26 Africa/Kampala: production insight HTTP 200 but still served prior markup with zero new image figures; all six new asset URLs returned HTTP 404 after one bounded deploy interval."
+    "live_verification": "2026-10-21 13:16 Africa/Kampala: production article HTTP 200 contains all six expected image references; all six plain JPEG URLs HTTP 200 image/jpeg. Previous deployment pending state resolved.",
+    "publication_email_id": "1a15df681ac3f218",
+    "next_action": "Rotate to a published destination photo gap after reviewing current editorial activity."
   },
   "follow_ups": [],
   "last_pending_check": {
     "checked_at": "2026-10-20 18:29 Africa/Kampala",
-    "status": "pending_deployment",
+    "status": "resolved_live_confirmed",
     "page_url": "https://trekafricaguide.com/travel-insights/choose-bwindi-sector-before-booking-stay/",
     "asset_count": 6,
     "asset_http_statuses": [
@@ -40,7 +42,8 @@
     "gallery_text": "No new figures present in production markup.",
     "published_commit": "313c1fb68eb0af27b7bce0a7c3b2c5f297d4c986",
     "published_deploy": "6ad74f454e777f521c626f7a",
-    "note": "Unchanged pending: all six image URLs still 404. Netlify current deploy is ready at rafting checkpoint 313c1fb, before Bwindi photo commit 1fcb0de. No failure cause established; not the resolved Oct19 draft-validation blocker. No new collection or duplicate email."
+    "note": "Unchanged pending: all six image URLs still 404. Netlify current deploy is ready at rafting checkpoint 313c1fb, before Bwindi photo commit 1fcb0de. No failure cause established; not the resolved Oct19 draft-validation blocker. No new collection or duplicate email.",
+    "resolved_at": "2026-10-21 13:16 Africa/Kampala"
   },
   "completed_runs": [
     {
