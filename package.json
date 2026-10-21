@@ -4,7 +4,8 @@
     "type": "module",
     "scripts": {
         "dev": "astro dev",
-        "build": "node scripts/write-public-config.mjs && astro build",
+        "check:build-inputs": "node scripts/check-build-inputs.mjs",
+        "build": "npm run check:build-inputs && node scripts/write-public-config.mjs && astro build",
         "build:fixture": "node scripts/build-fixture.mjs",
         "test": "node --test tests/node/**/*.test.mjs tests/js/**/*.test.mjs",
         "verify": "npm test && npm run build"

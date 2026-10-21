@@ -3568,7 +3568,7 @@ export const photoLibrary = {
       "checked_at": "2026-10-20",
       "exact_subject_evidence": "Commons file page category places the view at Batoka Gorge, Victoria Falls; image depicts the Zambezi within the gorge.",
       "reuse_note": "Creative Commons reuse permitted with attribution and license link; preserve attribution and note any changes. No operator or participant identity is inferred."
-    }
+    },
     "/images/editorial/bwindi-sector-planning/rushaga-village.jpg": {
           "slug": "bwindi-sector-planning-rushaga-village",
           "local_path": "/images/editorial/bwindi-sector-planning/rushaga-village.jpg",
