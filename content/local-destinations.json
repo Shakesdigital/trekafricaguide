@@ -29,9 +29,13 @@
     "travel_insight_slugs": [
       "choose-bwindi-sector-before-booking-stay"
     ],
-    "hero_image_url": null,
-    "hero_image_alt": "Buhoma, northern Bwindi, Uganda",
-    "gallery": [],
+    "hero_image_url": "/images/editorial/buhoma-local-destination/trek-departure-2017.jpg",
+    "hero_image_alt": "Visitors setting out for gorilla tracking from Buhoma in September 2017; archival image, not current departure information",
+    "gallery": [
+      "/images/editorial/buhoma-local-destination/trek-departure-2017.jpg",
+      "/images/editorial/buhoma-local-destination/mubare-female-gorilla.jpg",
+      "/images/editorial/buhoma-local-destination/park-headquarters-briefing-2017.jpg"
+    ],
     "last_researched": "2026-10-16",
     "research_sources": [
       {

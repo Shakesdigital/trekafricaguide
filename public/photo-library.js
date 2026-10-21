@@ -1,7 +1,7 @@
 // Curated source. Run node scripts/sync-photo-library.mjs after editing.
 // Curated free photography; source and licence metadata travel with each image.
 export const photoLibrary = {
-  "updated_at": "2026-10-20",
+  "updated_at": "2026-10-21",
   "images": {
     "/images/stock/destinations/bwindi-impenetrable-national-park.jpg": {
       "slug": "bwindi-impenetrable-national-park",
@@ -3683,6 +3683,60 @@ export const photoLibrary = {
           "exact_subject_evidence": "Commons file title identifies a two-year-old Mubare Group gorilla in Buhoma; image visually inspected. Illustrative wildlife photograph, not a sighting guarantee.",
           "reuse_note": "Reuse permitted under the linked Creative Commons license; retain attribution and share-alike terms where applicable."
     },
+    "/images/editorial/buhoma-local-destination/trek-departure-2017.jpg": {
+      "slug": "buhoma-local-destination-trek-departure-2017",
+      "local_path": "/images/editorial/buhoma-local-destination/trek-departure-2017.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:USAID_Measuring_Impact_Conservation_Enterprise_Retrospective_(Uganda;_International_Gorilla_Conservation_Program)_(25422585587).jpg",
+      "creator": "Jason Houston for USAID; source account USAID Biodiversity & Forestry",
+      "license": "Public domain (U.S. federal work; Commons Public Domain Mark review)",
+      "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "date": "2017-09-10",
+      "sha256": "cca8478835712d77bb668e2e3aad71b5741ab5219d328408806fae2e3c148d3b",
+      "exact_subject": true,
+      "subject": "Visitors begin a gorilla-tracking hike in Buhoma, Bwindi, in September 2017.",
+      "alt": "Visitors setting out for gorilla tracking from Buhoma in September 2017; archival image, not current departure information.",
+      "property": false,
+      "kind": "photograph",
+      "checked_at": "2026-10-21",
+      "exact_subject_evidence": "Commons file description identifies Buhoma and the Buhoma departure; visually inspected. The photograph records a 2017 departure and is not presented as a current operator, participant, or schedule.",
+      "reuse_note": "Commons identifies this as a U.S. federal government work and records a Public Domain Mark review. No endorsement is implied; identifiable visitors appear in a dated documentary context."
+    },
+    "/images/editorial/buhoma-local-destination/mubare-female-gorilla.jpg": {
+      "slug": "buhoma-local-destination-mubare-female-gorilla",
+      "local_path": "/images/editorial/buhoma-local-destination/mubare-female-gorilla.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Mountain_gorilla_(Gorilla_beringei_beringei)_female_eating_root.jpg",
+      "creator": "Charles J. Sharp",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "date": "2016-10-23",
+      "sha256": "8fe8489648ecbb246f9cbd8e204bb38f5a035ba00eea1e9eb1b20a654b6600fc",
+      "exact_subject": true,
+      "subject": "A female mountain gorilla eating a root in the Mubare Group, Buhoma sector.",
+      "alt": "Female mountain gorilla eating a root in the Mubare Group, Buhoma sector; illustrative, not a sighting guarantee.",
+      "property": false,
+      "kind": "photograph",
+      "checked_at": "2026-10-21",
+      "exact_subject_evidence": "Commons identifies the Mubare Group and Buhoma sector; camera coordinates are -0.975000, 29.636000. Visually inspected. Illustrative wildlife photograph, not a sighting guarantee.",
+      "reuse_note": "Retain photographer attribution and CC BY-SA 4.0 terms for this resized copy."
+    },
+    "/images/editorial/buhoma-local-destination/park-headquarters-briefing-2017.jpg": {
+      "slug": "buhoma-local-destination-park-headquarters-briefing-2017",
+      "local_path": "/images/editorial/buhoma-local-destination/park-headquarters-briefing-2017.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:USAID_Measuring_Impact_Conservation_Enterprise_Retrospective_(Uganda;_International_Gorilla_Conservation_Program)_(40248679412).jpg",
+      "creator": "Jason Houston for USAID; source account USAID Biodiversity & Forestry",
+      "license": "Public domain (U.S. federal work; Commons Public Domain Mark review)",
+      "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "date": "2017-09-10",
+      "sha256": "26770cad2ff14db6e61855aa7220f955fa260d6bc53a16224def6348f5352dc8",
+      "exact_subject": true,
+      "subject": "A Bwindi ranger briefs visitors at park headquarters in Buhoma, September 2017.",
+      "alt": "A Bwindi ranger briefs visitors at park headquarters in Buhoma in September 2017; archival image.",
+      "property": false,
+      "kind": "photograph",
+      "checked_at": "2026-10-21",
+      "exact_subject_evidence": "Commons file description identifies the Buhoma park headquarters and a briefing before gorilla tracking; visually inspected. Not presented as current staffing or departure information.",
+      "reuse_note": "Commons identifies this as a U.S. federal government work and records a Public Domain Mark review. No endorsement is implied; identifiable visitors appear in a dated documentary context."
+    },
   },
   "listings": {
     "attractions": {
@@ -4657,6 +4711,16 @@ export const photoLibrary = {
       }
     },
     "local_destinations": {
+      "buhoma": {
+        "hero_image_url": "/images/editorial/buhoma-local-destination/trek-departure-2017.jpg",
+        "hero_image_alt": "Visitors setting out for gorilla tracking from Buhoma in September 2017; archival image, not current departure information",
+        "replaces": [],
+        "gallery": [
+          "/images/editorial/buhoma-local-destination/trek-departure-2017.jpg",
+          "/images/editorial/buhoma-local-destination/mubare-female-gorilla.jpg",
+          "/images/editorial/buhoma-local-destination/park-headquarters-briefing-2017.jpg"
+        ]
+      },
       "cape-town": {
         "hero_image_url": "/images/editorial/cape-town/city-bowl-from-table-mountain.jpg",
         "hero_image_alt": "Cape Town's City Bowl and harbor seen from Table Mountain",

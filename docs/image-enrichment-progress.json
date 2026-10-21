@@ -1,29 +1,25 @@
 {
   "updated_at": "2026-10-21",
   "current_run": {
-    "id": "bwindi-sector-planning-six-inline-photos",
-    "page_url": "https://trekafricaguide.com/travel-insights/choose-bwindi-sector-before-booking-stay/",
-    "page_type": "travel_insight",
-    "status": "complete_live_confirmed",
+    "id": "buhoma-local-destination-three-photo-partial",
+    "page_url": "https://trekafricaguide.com/countries/uganda/buhoma/",
+    "page_type": "local_destination",
+    "status": "prepared_pending_publish",
     "previous_photo_count": 0,
-    "photo_count": 6,
-    "new_photo_count": 6,
-    "checked_date": "2026-10-20",
-    "source_ledger": "docs/editorial-research/2026-10-20-bwindi-sector-planning-photo-enrichment.md",
+    "photo_count": 3,
+    "new_photo_count": 3,
+    "checked_date": "2026-10-21",
+    "source_ledger": "docs/editorial-research/2026-10-21-buhoma-photo-enrichment.md",
     "files": [
-      "content/editorial-overrides.json",
+      "content/local-destinations.json",
       "src/lib/photo-library.js",
       "public/photo-library.js",
-      "public/images/editorial/bwindi-sector-planning/",
-      "docs/editorial-research/2026-10-20-bwindi-sector-planning-photo-enrichment.md",
+      "public/images/editorial/buhoma-local-destination/",
+      "docs/editorial-research/2026-10-21-buhoma-photo-enrichment.md",
       "docs/image-enrichment-progress.json"
     ],
-    "note": "Six distinct, visually inspected photos illustrate the four sectors and forest setting; one documented Mubare Group gorilla image is illustrative and makes no sighting guarantee. Duplicate source URLs and image hashes were checked against all photo-library images and local public assets. No operator or trek-participant identity is inferred.",
-    "email_id": "1a1597ef00913ee0",
-    "report_sent_at": "2026-10-20 16:27 Africa/Kampala",
-    "live_verification": "2026-10-21 13:16 Africa/Kampala: production article HTTP 200 contains all six expected image references; all six plain JPEG URLs HTTP 200 image/jpeg. Previous deployment pending state resolved.",
-    "publication_email_id": "1a15df681ac3f218",
-    "next_action": "Rotate to a published destination photo gap after reviewing current editorial activity."
+    "note": "Three visually reviewed, distinct and licensed exact-Buhoma photographs: archival 2017 trek departure, a separate 2017 park-headquarters briefing and a 2016 female Mubare Group gorilla. The library dedup check covered source pages and hashes against all local image assets. Excluded the archival Batwa performance frame, a visitor-center construction photo and identifiable community-conflict portraits. This is a useful partial collection; it does not meet the six-photo target. No factual text was changed.",
+    "next_action": "Confirm the Buhoma detail page and all three assets live; then source a current Buhoma village/forest-edge overview, exact-location approach view, forest-walk/birding context and consent-appropriate community-hosted setting."
   },
   "follow_ups": [],
   "last_pending_check": {
@@ -254,6 +250,31 @@
       "note": "Six visually inspected Creative Commons images depict Zambezi rafting near Victoria Falls or the Batoka Gorge river. No operator, named participant, or tour-participant claim is attached. Duplicates were checked by source URL and SHA-256 against the photo library.",
       "email_id": "1a1590d5a34f4b6c",
       "report_sent_at": "2026-10-20 14:23 Africa/Kampala"
+    },
+    {
+      "id": "bwindi-sector-planning-six-inline-photos",
+      "page_url": "https://trekafricaguide.com/travel-insights/choose-bwindi-sector-before-booking-stay/",
+      "page_type": "travel_insight",
+      "status": "complete_live_confirmed",
+      "previous_photo_count": 0,
+      "photo_count": 6,
+      "new_photo_count": 6,
+      "checked_date": "2026-10-20",
+      "source_ledger": "docs/editorial-research/2026-10-20-bwindi-sector-planning-photo-enrichment.md",
+      "files": [
+        "content/editorial-overrides.json",
+        "src/lib/photo-library.js",
+        "public/photo-library.js",
+        "public/images/editorial/bwindi-sector-planning/",
+        "docs/editorial-research/2026-10-20-bwindi-sector-planning-photo-enrichment.md",
+        "docs/image-enrichment-progress.json"
+      ],
+      "note": "Six distinct, visually inspected photos illustrate the four sectors and forest setting; one documented Mubare Group gorilla image is illustrative and makes no sighting guarantee. Duplicate source URLs and image hashes were checked against all photo-library images and local public assets. No operator or trek-participant identity is inferred.",
+      "email_id": "1a1597ef00913ee0",
+      "report_sent_at": "2026-10-20 16:27 Africa/Kampala",
+      "live_verification": "2026-10-21 13:16 Africa/Kampala: production article HTTP 200 contains all six expected image references; all six plain JPEG URLs HTTP 200 image/jpeg. Previous deployment pending state resolved.",
+      "publication_email_id": "1a15df681ac3f218",
+      "next_action": "Rotate to a published destination photo gap after reviewing current editorial activity."
     }
   ]
 }
