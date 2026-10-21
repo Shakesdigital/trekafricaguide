@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-20",
+  "updated_at": "2026-10-21",
   "timezone": "Africa/Kampala",
   "next_scheduled_start": "2026-10-17T19:30:00+03:00",
   "cadence_hours": 3,
@@ -252,7 +252,7 @@
     "No routine tests/builds or repeated broad audits."
   ],
   "next_task_selection": "Finish the Kwame Nkrumah Memorial Park production deploy and verify it before rotating to destinations.",
-  "last_run": "2026-10-21T08:58:00+03:00",
+  "last_run": "2026-10-21T09:03:00+03:00",
   "task_magnitude": "One complete full guide plus booking and listing cards, or one full property photo collection; do not schedule isolated paragraphs/links.",
   "country_destinations_feature": {
     "status": "complete",
@@ -280,7 +280,7 @@
   "current_deliverable": {
     "id": "kwame-nkrumah-memorial-park",
     "category": "attractions",
-    "status": "fix_ready_to_deploy",
+    "status": "complete",
     "objective": "Add a new, practical Accra heritage attraction guide for Kwame Nkrumah Memorial Park with accurate cultural context, visitor access/hours, a suggested sequence, an attributed dated traveler perspective, and only verified canonical relationships.",
     "research_checked": "2026-10-20",
     "sources_checked": [
@@ -299,10 +299,10 @@
       "docs/editorial-research/2026-10-20-kwame-nkrumah-memorial-park.md",
       "docs/editorial-progress.json"
     ],
-    "checkpoint": "Root cause reproduced and fixed: missing comma after the Batoka Gorge photo record in both photo-library mirrors, introduced by 1fcb0de. Build-input guard passes; mirrors regenerated and equal. Local Astro build now passes compilation but cannot finish because its Supabase regions fetch fails in this environment. Earlier Netlify MCP upload returned HTTP 500 with no deployment ID; current failure cannot be called a build failure. Netlify deploy-site fallback and verification steps are documented. Latest-main production deploy and page verification remain pending.",
-    "next_action": "Push the syntax repair and build-input guard, deploy latest main through Netlify, capture the deploy result, and verify the Kwame body text and Ghana listing card.",
+    "checkpoint": "Root cause reproduced and fixed: missing comma after Batoka Gorge photo record in both photo-library mirrors, introduced by 1fcb0de. Prebuild guard and both syntax checks pass. Latest-main deploy 6ad854c3122dcb59f8688acd (build 6ad854c3122dcb59f8688acb) is ready on production commit 1b60200486538d36905fccfbad6c0139ed493160. Kwame page and Ghana card verified HTTP 200 with distinctive guide body/card text. Owner final report sent; Gmail receipt 1a15d0d5336c4372.",
+    "next_action": "Next rotation: destinations. Maintain separate photo follow-up for Kwame Nkrumah Memorial Park.",
     "booking_gap": "No exact OTA CTA included; official park visitor page supplies current hours/rates/contact. No published Accra hotel is geographically nearby.",
-    "email_id": "1a15997b9529b931",
+    "email_id": "1a15d0d5336c4372",
     "deployment_attempts": [
       {
         "time": "2026-10-21T08:11:00+03:00",
@@ -311,9 +311,17 @@
         "outcome": "Repository upload began; CLI exited 1: Failed to deploy site: 500 Internal Server Error. No deployment ID or build record returned. Project API still reports only old ready deploy 6ad74f454e777f521c626f7a, commit 313c1fb.",
         "note": "Do not infer a build failure. Next try latest main through Netlify dashboard after the API 500; confirm live body/card before completion.",
         "owner_followup_email_id": "1a15ce1f38fd5a0b"
+      },
+      {
+        "time": "2026-10-21T09:01:00+03:00",
+        "site_id": "d32d59a3-f819-4e66-9e79-ce47e04ce22d",
+        "deploy_id": "6ad854c3122dcb59f8688acd",
+        "build_id": "6ad854c3122dcb59f8688acb",
+        "commit": "1b60200486538d36905fccfbad6c0139ed493160",
+        "outcome": "Netlify deploy state ready; production Kwame guide URL and Ghana country card HTTP 200; distinctive guide body marker present."
       }
     ],
-    "email_followup_id": "1a15ce1f38fd5a0b",
+    "email_followup_id": "1a15d0d5336c4372",
     "root_cause": "Commit 1fcb0de omitted a comma after the Victoria Falls rafting Batoka Gorge photo record in both source and public photo-library modules. node --check reproduced SyntaxError: Unexpected string at the following Bwindi image key in both files. This parser error prevented Astro route generation; it is distinct from the subsequent deploy-site API 500.",
     "fix_and_guard": {
       "files": [
@@ -336,7 +344,7 @@
     "email_id": "1a148cdf8dbabb76",
     "note": "Live page and booking relationship were confirmed and the owner report was already sent. Corrected the stale pending-owner-report status without resending the email."
   },
-  "next_scheduled_run": "2026-10-20T19:30:00+03:00",
+  "next_scheduled_run": "2026-10-21T10:30:00+03:00",
   "analytics_installation": {
     "measurement_id": "G-ZWBZRQPBK7",
     "commit": "4f76457",
