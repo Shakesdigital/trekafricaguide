@@ -46,4 +46,4 @@ Remaining photo gaps: a current, non-property Buhoma village/forest-edge overvie
 
 ## Publication record
 
-Prepared for the existing Git-triggered Netlify deployment path. The source edit was kept to the destination’s image fields, image library/mirror, this ledger and `docs/image-enrichment-progress.json`. Only the required repository build-input check is planned; no test suite or full build was requested.
+Commit `f2ae5be` pushed to the existing Git-triggered Netlify deployment path. The repository build-input syntax, JSON and photo-library mirror check passed; no test suite or full build was run. At 19:54 Africa/Kampala on 21 October 2026, the production Buhoma page returned HTTP 200, displayed “See all 3,” and referenced all three new image paths; each plain JPEG URL returned HTTP 200 `image/jpeg`. Publication report sent to the configured recipient; Gmail receipt ID `1a15f6378371b81c`.

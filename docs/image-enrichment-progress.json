@@ -4,7 +4,7 @@
     "id": "buhoma-local-destination-three-photo-partial",
     "page_url": "https://trekafricaguide.com/countries/uganda/buhoma/",
     "page_type": "local_destination",
-    "status": "prepared_pending_publish",
+    "status": "live_confirmed_partial",
     "previous_photo_count": 0,
     "photo_count": 3,
     "new_photo_count": 3,
@@ -19,7 +19,11 @@
       "docs/image-enrichment-progress.json"
     ],
     "note": "Three visually reviewed, distinct and licensed exact-Buhoma photographs: archival 2017 trek departure, a separate 2017 park-headquarters briefing and a 2016 female Mubare Group gorilla. The library dedup check covered source pages and hashes against all local image assets. Excluded the archival Batwa performance frame, a visitor-center construction photo and identifiable community-conflict portraits. This is a useful partial collection; it does not meet the six-photo target. No factual text was changed.",
-    "next_action": "Confirm the Buhoma detail page and all three assets live; then source a current Buhoma village/forest-edge overview, exact-location approach view, forest-walk/birding context and consent-appropriate community-hosted setting."
+    "next_action": "Confirm the Buhoma detail page and all three assets live; then source a current Buhoma village/forest-edge overview, exact-location approach view, forest-walk/birding context and consent-appropriate community-hosted setting.",
+    "commit": "f2ae5be",
+    "live_verification": "2026-10-21 19:54 Africa/Kampala: production Buhoma detail HTTP 200 shows See all 3 and references all three expected image paths; all three plain JPEG URLs return HTTP 200 image/jpeg.",
+    "email_id": "1a15f6378371b81c",
+    "report_sent_at": "2026-10-21 19:55 Africa/Kampala"
   },
   "follow_ups": [],
   "last_pending_check": {
