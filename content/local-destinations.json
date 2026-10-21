@@ -226,5 +226,52 @@
     "sort_order": 4,
     "status": "published",
     "published_at": "2026-10-18T13:30:00Z"
+  },
+  {
+    "slug": "sine-saloum-delta",
+    "country_slug": "senegal",
+    "name": "Sine-Saloum Delta",
+    "category": "River delta",
+    "hero_title": "Choose a Sine-Saloum base before you book the boat",
+    "listing_summary": "Plan around one delta base and its actual pirogue departure; Toubacouta, Ndangane and the wider Saloum are not interchangeable.",
+    "overview": "The Sine-Saloum is a lived-in estuary of mangrove channels, islands, Atlantic water and dry woodland. UNESCO recognizes the Saloum Delta as a cultural landscape: the listed property covers 145,811 hectares and includes brackish channels, mangroves and evidence of a long history of fishing and shellfish gathering. That scale matters to a visit: this is a region, not one dock or a single day-trip loop.\n\nStart by choosing the town or lodge that fits the outing you want. Toubacouta and Ndangane are among the distinct settlements in the wider delta. Ask where your pirogue actually leaves and which waterways it will explore before you book. For the cultural landscape and heritage context, see the separate Sine-Saloum attraction guide.",
+    "highlights": [
+      "Mangrove channels and island scenery explored by locally arranged pirogue",
+      "Fishing and shellfish gathering remain part of the area’s living landscape",
+      "Toubacouta and Ndangane serve different departure points across a large delta"
+    ],
+    "access_summary": "Treat the road journey and the boat outing as two separate legs. From Dakar or a Petite Côte stop, arrange the road transfer to your named accommodation or embarkation point with the property or local operator; confirm the pickup, likely arrival window and return before departure. Allow flexibility for traffic and road conditions.\n\nThe delta stretches among separate settlements and waterways, so a stay in one town does not automatically use the same landing or pirogue route as another. For a Toubacouta base, Les Palétuviers identifies its location with that community; confirm whether your chosen outing departs there or needs a separate transfer. If you are comparing Ndangane or another base, ask the same questions before choosing your accommodation.",
+    "best_time": "Destination Senegal describes a broad dry season from November to May and a rainy season from June to October, while noting that conditions vary by region and that rains last longer in the south. Use that as a planning guide rather than a delta-specific forecast. A drier window may simplify outdoor transfers; during wetter months, keep the road arrival and pirogue outing flexible and reconfirm arrangements near travel.\n\nBirdlife and water conditions vary, and no particular sighting or route is assured. Check a current local forecast and ask your host how conditions affect the planned departure for your dates.",
+    "planning_tips": "For a first visit, plan two nights in one base: arrive by road, confirm the boat plan with your host, then set aside a full, unhurried day for one locally arranged water outing. Keep the next morning flexible instead of stacking a second distant departure onto the same stay. This is a suggested pace, not an operator itinerary.\n\nBefore setting out, ask who operates the pirogue, where it leaves, how long the outing is expected to take, whether a local guide is included, what food or landing stops are planned, and how return transport works. Ask about engine noise if quiet birdwatching matters to you. Shell mounds are cultural places and some contain burial sites; visit only where local guidance confirms access is welcome, and do not treat an island landing as automatically permitted. Carry sun and rain protection suited to the forecast, and ask before photographing people or their work.\n\nFor a nearby base in Toubacouta, the published Les Palétuviers Boutique Hotel guide is linked below; review its own details and confirm the transfer and excursion arrangements directly.",
+    "attraction_slugs": [
+      "sine-saloum-delta"
+    ],
+    "activity_slugs": [],
+    "accommodation_slugs": [
+      "les-paletuviers"
+    ],
+    "travel_insight_slugs": [],
+    "last_researched": "2026-10-21",
+    "research_sources": [
+      {
+        "url": "https://www.visitezlesenegal.com/en/destinations/sine-saloum/",
+        "label": "Agence Sénégalaise de Promotion Touristique: Sine-Saloum destination"
+      },
+      {
+        "url": "https://www.visitezlesenegal.com/en/climat/",
+        "label": "Agence Sénégalaise de Promotion Touristique: weather and seasons"
+      },
+      {
+        "url": "https://whc.unesco.org/en/list/1359/",
+        "label": "UNESCO World Heritage Centre: Saloum Delta"
+      },
+      {
+        "url": "https://lespaletuviers.com/fr/",
+        "label": "Les Palétuviers Boutique Hotel: location in Toubacouta"
+      }
+    ],
+    "sort_order": 1,
+    "status": "published",
+    "published_at": "2026-10-21T16:40:00Z"
   }
 ]
