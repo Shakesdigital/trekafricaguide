@@ -1,29 +1,24 @@
 {
-  "updated_at": "2026-10-21",
+  "updated_at": "2026-10-22",
   "current_run": {
-    "id": "buhoma-local-destination-three-photo-partial",
-    "page_url": "https://trekafricaguide.com/countries/uganda/buhoma/",
-    "page_type": "local_destination",
-    "status": "live_confirmed_partial",
-    "previous_photo_count": 0,
-    "photo_count": 3,
-    "new_photo_count": 3,
-    "checked_date": "2026-10-21",
-    "source_ledger": "docs/editorial-research/2026-10-21-buhoma-photo-enrichment.md",
+    "id": "cape-coast-kakum-attraction-photo-enrichment",
+    "page_url": "https://trekafricaguide.com/attractions/cape-coast-kakum/",
+    "page_type": "attraction",
+    "status": "ready_to_publish_pending_live",
+    "previous_photo_count": 2,
+    "photo_count": 6,
+    "new_photo_count": 6,
+    "checked_date": "2026-10-22",
+    "source_ledger": "docs/editorial-research/2026-10-22-cape-coast-kakum-photo-enrichment.md",
     "files": [
-      "content/local-destinations.json",
       "src/lib/photo-library.js",
       "public/photo-library.js",
-      "public/images/editorial/buhoma-local-destination/",
-      "docs/editorial-research/2026-10-21-buhoma-photo-enrichment.md",
+      "public/images/editorial/cape-coast-kakum/",
+      "docs/editorial-research/2026-10-22-cape-coast-kakum-photo-enrichment.md",
       "docs/image-enrichment-progress.json"
     ],
-    "note": "Three visually reviewed, distinct and licensed exact-Buhoma photographs: archival 2017 trek departure, a separate 2017 park-headquarters briefing and a 2016 female Mubare Group gorilla. The library dedup check covered source pages and hashes against all local image assets. Excluded the archival Batwa performance frame, a visitor-center construction photo and identifiable community-conflict portraits. This is a useful partial collection; it does not meet the six-photo target. No factual text was changed. Focused rights follow-up on 2026-10-21 found no additional eligible exact-Buhoma image; rejected rights-restricted, non-commercial, under-resolution, unclear-license and unlicensed gallery leads are recorded in the source ledger. No live recheck or duplicate email.",
-    "next_action": "Rotate to a different published attraction with an image gap and feasible licensed sources. Buhoma remains a three-photo partial; revisit only if new reusable exact-place evidence appears.",
-    "commit": "f2ae5be",
-    "live_verification": "2026-10-21 19:54 Africa/Kampala: production Buhoma detail HTTP 200 shows See all 3 and references all three expected image paths; all three plain JPEG URLs return HTTP 200 image/jpeg.",
-    "email_id": "1a15f6378371b81c",
-    "report_sent_at": "2026-10-21 19:55 Africa/Kampala"
+    "note": "Replaced two generic stock images with six visually inspected licensed photographs: five Kakum National Park forest/canopy contexts and Cape Coast Castle entrance. Original source/license/creator/capture date/evidence and local SHA-256 are in the ledger and photo library. Exact source URL and hash dedup was checked against all assignments and local public images. No copy changes.",
+    "next_action": "Push the image and provenance changes to origin/main, then confirm the live attraction page includes all six gallery images and each plain image URL returns image/jpeg; send one owner report with the receipt ID."
   },
   "follow_ups": [],
   "last_pending_check": {
@@ -279,6 +274,31 @@
       "live_verification": "2026-10-21 13:16 Africa/Kampala: production article HTTP 200 contains all six expected image references; all six plain JPEG URLs HTTP 200 image/jpeg. Previous deployment pending state resolved.",
       "publication_email_id": "1a15df681ac3f218",
       "next_action": "Rotate to a published destination photo gap after reviewing current editorial activity."
+    },
+    {
+      "id": "buhoma-local-destination-three-photo-partial",
+      "page_url": "https://trekafricaguide.com/countries/uganda/buhoma/",
+      "page_type": "local_destination",
+      "status": "live_confirmed_partial",
+      "previous_photo_count": 0,
+      "photo_count": 3,
+      "new_photo_count": 3,
+      "checked_date": "2026-10-21",
+      "source_ledger": "docs/editorial-research/2026-10-21-buhoma-photo-enrichment.md",
+      "files": [
+        "content/local-destinations.json",
+        "src/lib/photo-library.js",
+        "public/photo-library.js",
+        "public/images/editorial/buhoma-local-destination/",
+        "docs/editorial-research/2026-10-21-buhoma-photo-enrichment.md",
+        "docs/image-enrichment-progress.json"
+      ],
+      "note": "Three visually reviewed, distinct and licensed exact-Buhoma photographs: archival 2017 trek departure, a separate 2017 park-headquarters briefing and a 2016 female Mubare Group gorilla. The library dedup check covered source pages and hashes against all local image assets. Excluded the archival Batwa performance frame, a visitor-center construction photo and identifiable community-conflict portraits. This is a useful partial collection; it does not meet the six-photo target. No factual text was changed. Focused rights follow-up on 2026-10-21 found no additional eligible exact-Buhoma image; rejected rights-restricted, non-commercial, under-resolution, unclear-license and unlicensed gallery leads are recorded in the source ledger. No live recheck or duplicate email.",
+      "next_action": "Rotate to a different published attraction with an image gap and feasible licensed sources. Buhoma remains a three-photo partial; revisit only if new reusable exact-place evidence appears.",
+      "commit": "f2ae5be",
+      "live_verification": "2026-10-21 19:54 Africa/Kampala: production Buhoma detail HTTP 200 shows See all 3 and references all three expected image paths; all three plain JPEG URLs return HTTP 200 image/jpeg.",
+      "email_id": "1a15f6378371b81c",
+      "report_sent_at": "2026-10-21 19:55 Africa/Kampala"
     }
   ]
 }

@@ -1,7 +1,7 @@
 // Curated source. Run node scripts/sync-photo-library.mjs after editing.
 // Curated free photography; source and licence metadata travel with each image.
 export const photoLibrary = {
-  "updated_at": "2026-10-21",
+  "updated_at": "2026-10-22",
   "images": {
     "/images/stock/destinations/bwindi-impenetrable-national-park.jpg": {
       "slug": "bwindi-impenetrable-national-park",
@@ -3737,6 +3737,120 @@ export const photoLibrary = {
       "exact_subject_evidence": "Commons file description identifies the Buhoma park headquarters and a briefing before gorilla tracking; visually inspected. Not presented as current staffing or departure information.",
       "reuse_note": "Commons identifies this as a U.S. federal government work and records a Public Domain Mark review. No endorsement is implied; identifiable visitors appear in a dated documentary context."
     },
+    "/images/editorial/cape-coast-kakum/kakum-canopy-walkway-2025.jpg": {
+      "slug": "cape-coast-kakum",
+      "local_path": "/images/editorial/cape-coast-kakum/kakum-canopy-walkway-2025.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Canopy_walkway_at_Kakum_National_Park_2025.jpg",
+      "source_title": "Canopy walkway at Kakum National Park 2025.jpg",
+      "creator": "Afus199620",
+      "license": "CC0 1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "date": "2025-07-18",
+      "sha256": "91ce6bd1ee8cf070824a91393c92a1a9dc56f78155ab28e77260a44a5d35828f",
+      "exact_subject": true,
+      "subject": "Suspended canopy walkway above the rainforest at Kakum National Park.",
+      "alt": "A suspended walkway crosses above the rainforest canopy at Kakum National Park.",
+      "property": false,
+      "kind": "photograph",
+      "checked_at": "2026-10-22",
+      "exact_subject_evidence": "Commons own-work description names Kakum National Park; capture coordinates 5.353564, -1.383625. Visually inspected; no people visible.",
+      "reuse_note": "CC0 dedication verified on the Commons file page; no attribution required, credit retained as provenance. Resized to 1,280px wide; not otherwise edited."
+    },
+    "/images/editorial/cape-coast-kakum/kakum-forest-canopy-view-2025.jpg": {
+      "slug": "cape-coast-kakum",
+      "local_path": "/images/editorial/cape-coast-kakum/kakum-forest-canopy-view-2025.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Kakum_National_Park_2025.jpg",
+      "source_title": "Kakum National Park 2025.jpg",
+      "creator": "Afus199620",
+      "license": "CC0 1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "date": "2025-07-18",
+      "sha256": "ed8558d9e453a983e2dd17a5612a46f268202230d114a5749797403db7777606",
+      "exact_subject": true,
+      "subject": "Forest canopy viewed from a vantage point in Kakum National Park.",
+      "alt": "A broad view across forest canopy in Kakum National Park.",
+      "property": false,
+      "kind": "photograph",
+      "checked_at": "2026-10-22",
+      "exact_subject_evidence": "Commons description identifies a view over the forest in Kakum National Park; camera coordinates 5.353539, -1.382750. Visually inspected.",
+      "reuse_note": "CC0 dedication verified on the Commons file page; no attribution required, credit retained as provenance. Resized to 1,280px wide; not otherwise edited."
+    },
+    "/images/editorial/cape-coast-kakum/kakum-trail-to-canopy-walk.jpg": {
+      "slug": "cape-coast-kakum",
+      "local_path": "/images/editorial/cape-coast-kakum/kakum-trail-to-canopy-walk.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Kakum_Forest.jpg",
+      "source_title": "Kakum Forest.jpg",
+      "creator": "ArabaDankwa",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "date": "2019-05-30",
+      "sha256": "31e71961efd5b07d8b7a2f2a34c9d70b6242dbe12a6d3c45afc3b0f26a444705",
+      "exact_subject": true,
+      "subject": "Forest trail toward the canopy walkway at Kakum National Park.",
+      "alt": "A visitor walks a forest trail toward the Kakum National Park canopy walkway.",
+      "property": false,
+      "kind": "photograph",
+      "checked_at": "2026-10-22",
+      "exact_subject_evidence": "Commons caption explicitly says the image is en route to the Kakum National Park canopy walkway. Visually inspected; person is shown from behind without identification.",
+      "reuse_note": "CC BY-SA 4.0 requires attribution, license link and share-alike for the resized version. Resized to 1,280px wide; no other edits or identity inference."
+    },
+    "/images/editorial/cape-coast-kakum/kakum-forest-walk.jpg": {
+      "slug": "cape-coast-kakum",
+      "local_path": "/images/editorial/cape-coast-kakum/kakum-forest-walk.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Forest_walk_at_Kakum_National_Park.jpg",
+      "source_title": "Forest walk at Kakum National Park.jpg",
+      "creator": "Minham0910",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "date": "2014-02-11",
+      "sha256": "c08233558120107c6cb89ecad33e6f71a1dcccff330e66cfa681cbbad21980e3",
+      "exact_subject": true,
+      "subject": "Forest interior on a walk in Kakum National Park.",
+      "alt": "Tall trees and dense foliage along a forest walk in Kakum National Park.",
+      "property": false,
+      "kind": "photograph",
+      "checked_at": "2026-10-22",
+      "exact_subject_evidence": "Commons file description names a forest walk in Kakum National Park and Ghanaian Natural Heritage. Visually inspected.",
+      "reuse_note": "CC BY-SA 3.0 requires attribution, license link and share-alike for the resized version. Resized to 1,280px wide; no other edits."
+    },
+    "/images/editorial/cape-coast-kakum/kakum-park-path.jpg": {
+      "slug": "cape-coast-kakum",
+      "local_path": "/images/editorial/cape-coast-kakum/kakum-park-path.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Paths_in_the_park.jpg",
+      "source_title": "Paths in the park.jpg",
+      "creator": "Kobebigs",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "date": "2014-07-13",
+      "sha256": "686ee8e26536fd05f244596a4ac3e25cdc8c6ff3d21820227475445bb2e8c6f4",
+      "exact_subject": true,
+      "subject": "A stone path through Kakum National Park.",
+      "alt": "A stone path winds through forest in Kakum National Park.",
+      "property": false,
+      "kind": "photograph",
+      "checked_at": "2026-10-22",
+      "exact_subject_evidence": "Commons file description identifies the location as Kakum National Park. Visually inspected.",
+      "reuse_note": "CC BY-SA 4.0 requires attribution, license link and share-alike for the resized version. Resized to 1,280px wide; no other edits."
+    },
+    "/images/editorial/cape-coast-kakum/cape-coast-castle-entrance-2025.jpg": {
+      "slug": "cape-coast-kakum",
+      "local_path": "/images/editorial/cape-coast-kakum/cape-coast-castle-entrance-2025.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Entrance_of_Cape_Coast_Castle.jpg",
+      "source_title": "Entrance of Cape Coast Castle.jpg",
+      "creator": "Afus199620",
+      "license": "CC0 1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "date": "2025-07-18",
+      "sha256": "6b363f4361185c6527e022110231cffed421872dbab79603b33c368fb09b5f9",
+      "exact_subject": true,
+      "subject": "Entrance to Cape Coast Castle in Cape Coast, Ghana.",
+      "alt": "The white entrance façade of Cape Coast Castle in Cape Coast, Ghana.",
+      "property": false,
+      "kind": "photograph",
+      "checked_at": "2026-10-22",
+      "exact_subject_evidence": "Commons description names Cape Coast Castle; capture coordinates 5.103964, -1.241494. Visually inspected; people near the entrance are not identified.",
+      "reuse_note": "CC0 dedication verified on the Commons file page; no attribution required, credit retained as provenance. Resized to 1,280px wide; no other edits."
+    },
   },
   "listings": {
     "attractions": {
@@ -3786,14 +3900,19 @@ export const photoLibrary = {
         ]
       },
       "cape-coast-kakum": {
-        "hero_image_url": "/images/stock/destinations/cape-coast-kakum.jpg",
-        "hero_image_alt": "CAPE COAST CASTLE, GHANA",
+        "hero_image_url": "/images/editorial/cape-coast-kakum/kakum-canopy-walkway-2025.jpg",
+        "hero_image_alt": "A suspended walkway crosses above the rainforest canopy at Kakum National Park.",
         "replaces": [
-          "/images/stock/destinations/cape-coast-kakum.jpg"
-        ],
-        "gallery": [
           "/images/stock/destinations/cape-coast-kakum.jpg",
           "/images/stock/starter/cape-coast-kakum.jpg"
+        ],
+        "gallery": [
+          "/images/editorial/cape-coast-kakum/kakum-canopy-walkway-2025.jpg",
+          "/images/editorial/cape-coast-kakum/kakum-forest-canopy-view-2025.jpg",
+          "/images/editorial/cape-coast-kakum/kakum-trail-to-canopy-walk.jpg",
+          "/images/editorial/cape-coast-kakum/kakum-forest-walk.jpg",
+          "/images/editorial/cape-coast-kakum/kakum-park-path.jpg",
+          "/images/editorial/cape-coast-kakum/cape-coast-castle-entrance-2025.jpg"
         ]
       },
       "cape-town": {
