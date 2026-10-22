@@ -797,6 +797,23 @@ export const photoLibrary = {
       "checked_at": "2026-10-13",
       "description": ""
     },
+    "/images/editorial/sossusvlei-lodge/property-patio-2010.jpg": {
+      "subject": "Sossusvlei Lodge covered patio and desert view",
+      "alt": "Namibian desert viewed from a shaded patio at Sossusvlei Lodge",
+      "title": "DSC02675 - Namibia 2010 Sossusvlei (32043106841).jpg",
+      "creator": "Heribert Bechen, 5 million visits - many thanks!",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "source_page": "https://commons.wikimedia.org/wiki/File:DSC02675_-_Namibia_2010_Sossusvlei_(32043106841).jpg",
+      "local_path": "/images/editorial/sossusvlei-lodge/property-patio-2010.jpg",
+      "sha256": "da023a344375e1c3cc16dd091f08b810535b172aa829137db736ec8f29893061",
+      "property": true,
+      "changes": "Resized to 1280 pixels wide by Wikimedia; no other changes.",
+      "exact_subject_evidence": "Commons source description explicitly identifies Sossusvlei Lodge and links its property website. The image visibly shows a roofed patio looking out across desert; it does not establish a room category or current conditions.",
+      "checked_at": "2026-10-22",
+      "captured_at": "2010-02-24",
+      "description": "View from a shaded patio at Sossusvlei Lodge, photographed 24 February 2010. Archival property photograph; it does not establish the present view or room category."
+    },
     "/images/stock/starter/victoria-falls-hotel.jpg": {
       "subject": "Victoria Falls Hotel",
       "alt": "Exterior of Victoria Falls Hotel, Zimbabwe",
@@ -5469,7 +5486,8 @@ export const photoLibrary = {
           "/images/stock/starter/sossusvlei-lodge.jpg"
         ],
         "gallery": [
-          "/images/stock/starter/sossusvlei-lodge.jpg"
+          "/images/stock/starter/sossusvlei-lodge.jpg",
+          "/images/editorial/sossusvlei-lodge/property-patio-2010.jpg"
         ]
       },
       "terres-touareg-guest-house": {

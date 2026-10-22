@@ -1,28 +1,29 @@
 {
   "updated_at": "2026-10-22",
   "current_run": {
-    "id": "maasai-mara-attraction-six-photo-enrichment",
-    "page_url": "https://trekafricaguide.com/attractions/maasai-mara/",
-    "page_type": "attraction",
-    "status": "complete_live_confirmed",
-    "previous_photo_count": 2,
-    "photo_count": 6,
-    "new_photo_count": 6,
+    "id": "sossusvlei-lodge-one-photo-property-partial",
+    "page_url": "https://trekafricaguide.com/accommodations/sossusvlei-lodge/",
+    "page_type": "accommodation",
+    "status": "pushed_pending_live",
+    "previous_photo_count": 1,
+    "photo_count": 2,
+    "new_photo_count": 1,
     "checked_date": "2026-10-22",
-    "source_ledger": "docs/editorial-research/2026-10-22-maasai-mara-attraction-photo-enrichment.md",
+    "source_ledger": "docs/editorial-research/2026-10-22-sossusvlei-lodge-photo-enrichment.md",
     "files": [
+      "content/editorial-overrides.json",
       "src/lib/photo-library.js",
       "public/photo-library.js",
-      "public/images/editorial/maasai-mara-attraction/",
-      "docs/editorial-research/2026-10-22-maasai-mara-attraction-photo-enrichment.md",
+      "public/images/editorial/sossusvlei-lodge/property-patio-2010.jpg",
+      "docs/editorial-research/2026-10-22-sossusvlei-lodge-photo-enrichment.md",
       "docs/image-enrichment-progress.json"
     ],
-    "note": "Replaced two generic/default images with six distinct exact-Maasai-Mara licensed Commons photographs showing the landscape and wildlife. All six visually inspected; original source, author, licence version, capture date, evidence, alt, caption, restrictions and SHA-256 are recorded in the source ledger and library. Source URLs and hashes checked against all other photo-library records and local public images; no duplicates. No guide prose, relationships, layout or tracking changed.",
-    "next_action": "Rotate to another published attraction with a verified image gap; inspect current assignments before selecting sources.",
-    "commit": "d38887c5bfabfe50bd203c4dbba63ed8ca61dac0",
-    "live_verification": "2026-10-22 14:20 Africa/Kampala: production attraction page HTTP 200 includes all six expected image filenames and See all 6. All six plain JPEG URLs return HTTP 200 image/jpeg; a transient no-response for the landscape URL resolved on the immediate retry.",
-    "email_id": "1a163572e83b5dbe",
-    "report_sent_at": "2026-10-22 14:20 Africa/Kampala"
+    "note": "Added one visually inspected, exact-property Commons image to the existing one-photo gallery. Creator, CC BY-SA 2.0 evidence, Flickr review, capture/check dates, subject, alt, archival caption, restrictions and SHA-256 are recorded in the library and dated ledger. Source URL and image hash were checked against all photo-library records and local public images; no duplicates. Focused review found no eligible current room, bathroom, reception, pool, dining or activity-centre views. No factual prose, relationships, layout, booking or tracking changed.",
+    "next_action": "Continue accommodation rotation to another published property with newly evidenced licensed exact-property photography; do not repeat unchanged blocked searches.",
+    "commit": null,
+    "live_verification": null,
+    "email_id": null,
+    "report_sent_at": null
   },
   "follow_ups": [],
   "last_pending_check": {
@@ -429,6 +430,30 @@
       "live_verification": "2026-10-22 12:31 Africa/Kampala: production Sine-Saloum page HTTP 200 includes all six image filenames and See all 6; all six plain JPEG URLs return HTTP 200 image/jpeg.",
       "email_id": "1a162f3feb42d4d6",
       "report_sent_at": "2026-10-22 12:32 Africa/Kampala"
+    },
+    {
+      "id": "maasai-mara-attraction-six-photo-enrichment",
+      "page_url": "https://trekafricaguide.com/attractions/maasai-mara/",
+      "page_type": "attraction",
+      "status": "complete_live_confirmed",
+      "previous_photo_count": 2,
+      "photo_count": 6,
+      "new_photo_count": 6,
+      "checked_date": "2026-10-22",
+      "source_ledger": "docs/editorial-research/2026-10-22-maasai-mara-attraction-photo-enrichment.md",
+      "files": [
+        "src/lib/photo-library.js",
+        "public/photo-library.js",
+        "public/images/editorial/maasai-mara-attraction/",
+        "docs/editorial-research/2026-10-22-maasai-mara-attraction-photo-enrichment.md",
+        "docs/image-enrichment-progress.json"
+      ],
+      "note": "Replaced two generic/default images with six distinct exact-Maasai-Mara licensed Commons photographs showing the landscape and wildlife. All six visually inspected; original source, author, licence version, capture date, evidence, alt, caption, restrictions and SHA-256 are recorded in the source ledger and library. Source URLs and hashes checked against all other photo-library records and local public images; no duplicates. No guide prose, relationships, layout or tracking changed.",
+      "next_action": "Rotate to another published attraction with a verified image gap; inspect current assignments before selecting sources.",
+      "commit": "d38887c5bfabfe50bd203c4dbba63ed8ca61dac0",
+      "live_verification": "2026-10-22 14:20 Africa/Kampala: production attraction page HTTP 200 includes all six expected image filenames and See all 6. All six plain JPEG URLs return HTTP 200 image/jpeg; a transient no-response for the landscape URL resolved on the immediate retry.",
+      "email_id": "1a163572e83b5dbe",
+      "report_sent_at": "2026-10-22 14:20 Africa/Kampala"
     }
   ]
 }
