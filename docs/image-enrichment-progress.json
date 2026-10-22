@@ -1,29 +1,29 @@
 {
   "updated_at": "2026-10-22",
   "current_run": {
-    "id": "kibale-chimp-trek-insight-six-image-enrichment",
-    "page_url": "https://trekafricaguide.com/travel-insights/plan-kibale-around-chimpanzee-trek/",
+    "id": "victoria-falls-cross-border-first-visit-six-photo-enrichment",
+    "page_url": "https://trekafricaguide.com/travel-insights/plan-your-victoria-falls-visit",
     "page_type": "travel_insight",
-    "status": "complete_live_confirmed",
+    "status": "pending_publication",
     "previous_photo_count": 0,
     "photo_count": 6,
     "new_photo_count": 6,
     "checked_date": "2026-10-22",
-    "source_ledger": "docs/editorial-research/2026-10-22-kibale-chimp-trek-image-enrichment.md",
+    "source_ledger": "docs/editorial-research/2026-10-22-victoria-falls-first-visit-photo-enrichment.md",
     "files": [
       "content/editorial-overrides.json",
       "src/lib/photo-library.js",
       "public/photo-library.js",
-      "public/images/editorial/plan-kibale-around-chimp-trek/",
-      "docs/editorial-research/2026-10-22-kibale-chimp-trek-image-enrichment.md",
+      "public/images/editorial/victoria-falls-first-visit/",
+      "docs/editorial-research/2026-10-22-victoria-falls-first-visit-photo-enrichment.md",
       "docs/image-enrichment-progress.json"
     ],
-    "note": "Added one Commons-licensed chimpanzee hero and five inline figures to the published insight. All six visuals were reviewed and selected for relevant, distinct contexts: Kibale chimpanzee, forest road, dated Kanyanchu direction sign, forest trail, second chimpanzee view, and park-entry monument. Original source/licence/creator/capture date/evidence/check date/alt/caption/restrictions and SHA-256 are documented in the ledger and photo library. Verified no source URL or hash duplicated any local public image or other detail-page assignment. No factual prose or renderer changes. Commit c799c54 prepared for the existing main deployment path. Production page and all six assets were confirmed live; report sent to the authorized recipient.",
-    "next_action": "Rotate to another published activity or travel insight with missing or unsuitable imagery; review its current full content and source/hash inventory before selection.",
-    "commit": "c799c54",
-    "live_verification": "2026-10-22 06:34 Africa/Kampala: production detail HTTP 200 with title and all six expected image filenames; all six plain image URLs returned HTTP 200 image/jpeg.",
-    "email_id": "1a161ace3fb60824",
-    "report_sent_at": "2026-10-22 06:35 Africa/Kampala"
+    "note": "Added a Commons-licensed hero and five same-site inline photographs to the newly published Victoria Falls cross-border planning insight. The six visuals show distinct Zimbabwe/Zambia falls viewpoints, rainforest, Knife Edge footbridge, Victoria Falls Bridge and upstream Zambezi. All six were visually inspected. Source/license/creator/capture date/evidence/check date/alt/caption/restrictions and SHA-256 records are in the photo library and dated ledger. Source URL and hashes were deduplicated against all photo-library assignments and local public images. No article prose or renderer changed.",
+    "next_action": "Confirm the published insight contains all six images and verify all six plain image URLs; then report once.",
+    "commit": null,
+    "live_verification": null,
+    "email_id": null,
+    "report_sent_at": null
   },
   "follow_ups": [],
   "last_pending_check": {
