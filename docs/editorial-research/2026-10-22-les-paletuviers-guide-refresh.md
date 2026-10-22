@@ -22,3 +22,7 @@ Retained the existing neutral gallery with zero property images. The 20 October 
 ## Stay22
 
 Before the edit, the public accommodation page returned HTTP 200 and its CTA resolved to `https://www.stay22.com/allez/booking` with `link=https%3A%2F%2Fwww.booking.com%2Fhotel%2Fsn%2Fles-pala-c-tuviers.en-gb.html` and `aid=trekafricaguide`. The shared resolver and affiliate configuration remain unchanged.
+
+## Publication record
+
+Pushed in commit `865c666` after rebasing the concurrent Cape Coast/Kakum photo commits. Netlify deploy `6ad93e6d26c9d823e3d6148f` is ready for commit `865c66692454600dac896c1fbbd8d5811eaa0295`. On 22 October 2026 the public accommodation page returned HTTP 200 and contained the new room-choice paragraph, the Banjul border/vehicle-arrangement caveat, the exact Booking.com Stay22 target, and the linked Senegal country card. The owner update was sent to the authorized address; Gmail message ID `1a16123844c97033`.

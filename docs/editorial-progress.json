@@ -251,8 +251,8 @@
     "After quota interruption resume at next eligible scheduled run; do not assume immediate credit-reset wakeup.",
     "No routine tests/builds or repeated broad audits."
   ],
-  "next_task_selection": "Finish the Kwame Nkrumah Memorial Park production deploy and verify it before rotating to destinations.",
-  "last_run": "2026-10-22T01:32:00+03:00",
+  "next_task_selection": "Complete one travel insight linked to existing canonical guides.",
+  "last_run": "2026-10-22T04:05:00+03:00",
   "task_magnitude": "One complete full guide plus booking and listing cards, or one full property photo collection; do not schedule isolated paragraphs/links.",
   "country_destinations_feature": {
     "status": "complete",
@@ -272,15 +272,15 @@
     "email_id": "1a143a69416cf3d1"
   },
   "rotation": {
-    "last_completed_category": "destinations",
-    "next_category": "accommodations",
-    "next_deliverable": "Complete one useful accommodation guide with exact property evidence and canonical relationships.",
+    "last_completed_category": "accommodations",
+    "next_category": "travel_insights",
+    "next_deliverable": "Complete one useful travel insight linked to existing canonical guides.",
     "rule": "Finish the individual deliverable and report its live state, then rotate. Track exact-property photo gaps separately."
   },
   "current_deliverable": {
     "id": "les-paletuviers-accommodation-refresh",
     "category": "accommodations",
-    "status": "drafted",
+    "status": "complete",
     "objective": "Refresh the existing Les Palétuviers accommodation guide with current official room, location and transfer facts, balanced dated traveler perspectives, and exact Booking.com destination evidence through the shared Stay22 resolver.",
     "research_checked": "2026-10-22",
     "image_count": 0,
@@ -291,9 +291,20 @@
       "docs/editorial-research/2026-10-22-les-paletuviers-guide-refresh.md",
       "docs/editorial-progress.json"
     ],
-    "checkpoint": "Existing Les Palétuviers guide refreshed with current official rooms/transfers, current Booking.com exact listing evidence, and individual January/February 2026 traveler perspectives. Exact Stay22 target is unchanged and verified on the existing live page. Photo count remains 0 per the 20 October image-license audit. Focused input validation and post-push deployment confirmation remain.",
-    "next_action": "Run focused build-input guard and briefly inspect changed records; commit/push, wait for Netlify ready and verify live copy plus the exact Booking.com Stay22 target.",
-    "booking_gap": "Exact Booking.com property destination already exists in the shared accommodation registry and is being rechecked; no rate or availability claims."
+    "checkpoint": "Guide and exact Booking.com registry evidence committed in 865c666 and live in Netlify deploy 6ad93e6d26c9d823e3d6148f (ready, commit 865c66692454600dac896c1fbbd8d5811eaa0295). On 22 October 2026 the accommodation URL returned HTTP 200 with the new room-choice paragraph, Banjul transfer caveat, exact Booking.com Stay22 target, and Senegal country card. Focused input guard passed. Photo count remains 0 per the 20 October image-license audit. Owner email sent; receipt 1a16123844c97033 recorded.",
+    "next_action": "Rotate to one travel insight and retain the six-photo property backlog.",
+    "booking_gap": "No booking gap: exact Booking.com property detail is present in the shared registry and the live Stay22 target. No rate or availability claims.",
+    "email_id": "1a16123844c97033",
+    "live_verification": {
+      "checked": "2026-10-22T04:05:00+03:00",
+      "url": "https://trekafricaguide.com/accommodations/les-paletuviers",
+      "status": 200,
+      "distinctive_text": "Room choice matters here.",
+      "stay22_exact_booking_target": true,
+      "senegal_country_card": true,
+      "netlify_deploy_id": "6ad93e6d26c9d823e3d6148f",
+      "netlify_commit": "865c66692454600dac896c1fbbd8d5811eaa0295"
+    }
   },
   "previous_deliverable_correction": {
     "id": "marrakech-medina-street-food-walk",
