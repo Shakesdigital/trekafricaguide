@@ -1,0 +1,13 @@
+---
+const { model, kind, types = [] } = Astro.props;
+---
+<form class="filter-form" data-directory-form role="search">
+  <label>Search<input name="q" type="search" placeholder="Name, destination, or keyword" /></label>
+  <label>Region<select name="region"><option value="">All regions</option>{model.regions.map(region => <option value={region.slug}>{region.name}</option>)}</select></label>
+  {kind !== 'countries' && <label>Country<select name="country"><option value="">All countries</option>{model.countries.map(country => <option value={country.slug} data-region={country.region.slug}>{country.name}</option>)}</select></label>}
+  {kind === 'accommodations' && <label>Property type<select name="property_type"><option value="">All property types</option>{types.map(type => <option value={type}>{type}</option>)}</select></label>}
+  <button class="button" type="submit">Search</button>
+  <button class="button button--ghost" type="reset">Clear filters</button>
+</form>
+<p data-directory-count role="status" aria-live="polite" aria-atomic="true"></p>
+<p data-directory-empty hidden>No listings match these filters. Try another search or clear the filters.</p>

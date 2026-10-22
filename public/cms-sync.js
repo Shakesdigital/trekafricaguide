@@ -53,7 +53,7 @@
     return (tpl.innerHTML || '').trim();
   };
   const rich = (value) => sanitizeHtml(value);
-  // Strip markup to plain text — for card summaries sourced from rich fields.
+  // Strip markup to plain text â€” for card summaries sourced from rich fields.
   const plain = (value) => String(value ?? '').replace(/<[^>]*>/g, ' ').replace(/\s+/g, ' ').trim();
 
   // Minimal spacing for rich-text blocks (site stylesheet already styles p/ul/h2/h3).
@@ -92,7 +92,7 @@
     return `${roots[name]}${slug ? `/${slug}` : ''}`;
   };
 
-  // Shared pure rules from cms-core.js — kept in sync with the PHP backend.
+  // Shared pure rules from cms-core.js â€” kept in sync with the PHP backend.
   const CmsCore = (typeof window !== 'undefined' && window.CmsCore) ? window.CmsCore : null;
 
   // Stay22 link builder: delegates to shared CmsCore for parity with PHP Stay22LinkBuilder.
@@ -210,7 +210,7 @@
 
   const metaBar = (rating, reviews, items = []) => `
     <div class="listing-meta">
-      ${items.filter((i) => i && i.text).map((i) => `<span class="listing-meta__sep">·</span><span class="listing-meta__item">${icon(i.icon)} ${esc(i.text)}</span>`).join('')}
+      ${items.filter((i) => i && i.text).map((i) => `<span class="listing-meta__sep">Â·</span><span class="listing-meta__item">${icon(i.icon)} ${esc(i.text)}</span>`).join('')}
     </div>`;
 
   const listingHero = ({ eyebrow, title, summary, rating, reviews, meta = [], images, image, alt }) => `
@@ -266,10 +266,29 @@
   };
 
   function renderIndex(kind, title, body, items, cardBuilder) {
+    const directory = ['countries', 'attractions', 'accommodations'].includes(kind);
+    const options = (rows, region = false) => rows.map(row => `<option value="${esc(row.slug)}"${region ? ` data-region="${esc(getRegion(row.region_id)?.slug || '')}"` : ''}>${esc(row.name)}</option>`).join('');
+    const types = [...new Set(items.map(item => item.property_type).filter(Boolean))].sort();
+    const filters = directory ? `<form class="filter-form" data-directory-form role="search">
+      <label>Search<input type="search" name="q" placeholder="Name, destination, or keyword"></label>
+      <label>Region<select name="region"><option value="">All regions</option>${options(tables.regions || [])}</select></label>
+      ${kind !== 'countries' ? `<label>Country<select name="country"><option value="">All countries</option>${options(tables.countries || [], true)}</select></label>` : ''}
+      ${kind === 'accommodations' ? `<label>Property type<select name="property_type"><option value="">All property types</option>${types.map(type => `<option value="${esc(type)}">${esc(type)}</option>`).join('')}</select></label>` : ''}
+      ${kind === 'accommodations' ? `<label>Check in<input name="checkin" type="date"></label><label>Check out<input name="checkout" type="date"></label><label>Adults<input name="adults" type="number" min="1" value="2"></label><label>Children<input name="children" type="number" min="0" value="0"></label><label>Rooms<input name="rooms" type="number" min="1" value="1"></label>` : kind === 'attractions' ? `<label>Travel date<input name="travel_date" type="date"></label><label>Travelers<input name="adults" type="number" min="1" value="2"></label>` : ''}
+      <button class="button" type="submit">Search</button><button class="button button--ghost" type="reset">Clear filters</button>
+      </form>${kind !== 'countries' ? '<p>Dates and traveler numbers are planning preferences; check live availability with the booking provider.</p>' : ''}<p data-directory-count role="status" aria-live="polite" aria-atomic="true"></p><p data-directory-empty hidden>No listings match these filters. Try another search or clear the filters.</p>` : '';
+    const cards = directory ? items.map(item => {
+      const country = kind === 'countries' ? item : getCountry(item.country_id);
+      const region = getRegion(item.region_id || country?.region_id);
+      const attraction = getAttraction(item.attraction_id);
+      const district = (tables.districts || []).find(row => Number(row.id) === Number(item.district_id));
+      const search = [item.name, item.location_name, item.listing_summary, item.detail_intro, item.overview, country?.name, region?.name, item.property_type, attraction?.name, district?.name].filter(Boolean).join(' ');
+      return `<div style="display:contents" data-directory-item data-country="${esc(country?.slug || '')}" data-region="${esc(region?.slug || '')}" data-property-type="${esc(item.property_type || '')}" data-search="${esc(search)}">${cardBuilder(item)}</div>`;
+    }) : filterDirectory(items).map(cardBuilder);
     main.innerHTML = `
       ${pageHero({ eyebrow: title, title, body, image: `image-slot:${kind === 'countries' ? 'destinations' : kind}-index-hero`, alt: `${title} destination landscape` })}
-      ${['attractions', 'accommodations'].includes(kind) ? `<section class="section section--compact"><div class="container">${ribbonMarkup(kind)}</div></section>` : ''}
-      <section class="section"><div class="container">${grid(filterDirectory(items).map(cardBuilder))}</div></section>`;
+      <section class="section"><div class="container"${directory ? ` data-directory="${kind}"` : ''}>${filters}${grid(cards)}</div></section>`;
+    if (directory) import('/directory-filters.js').then(module => module.initDirectoryFilters(main)).catch(error => console.warn('Directory filters could not load:', error));
   }
 
   function renderHome() {
@@ -310,7 +329,7 @@
   function activityCard(item) {
     const attraction = getAttraction(item.attraction_id);
     const country = attraction && getCountry(attraction.country_id);
-    return listingCard({ href: route('activities', item.slug), image: item.hero_image_url || attraction?.hero_image_url, title: item.name, summary: item.listing_summary, eyebrow: [attraction?.name, country?.name].filter(Boolean).join(' · '), chips: [country?.name], entity: item, entityType: 'activity', cta: 'View Activity Detail' });
+    return listingCard({ href: route('activities', item.slug), image: item.hero_image_url || attraction?.hero_image_url, title: item.name, summary: item.listing_summary, eyebrow: [attraction?.name, country?.name].filter(Boolean).join(' Â· '), chips: [country?.name], entity: item, entityType: 'activity', cta: 'View Activity Detail' });
   }
 
   function accommodationCard(item) {
@@ -370,7 +389,7 @@
     const highlights = lines(item.highlights);
     const attractionBookingUrl = stay22Link(item, { source_url: item.booking_url, stay22_provider: 'getyourguide', affiliate_supported: true }, liveSearch());
     main.innerHTML = `
-      ${listingHero({ eyebrow: `${country?.name || ''} • ${region?.name || ''}`, title: item.name, summary: item.listing_summary, rating: item.rating, reviews: item.review_count, meta: [{ icon: 'pin', text: item.location_name }, { icon: 'tag', text: item.price_label }], images: item.gallery, image: item.hero_image_url, alt: item.hero_image_alt })}
+      ${listingHero({ eyebrow: `${country?.name || ''} â€¢ ${region?.name || ''}`, title: item.name, summary: item.listing_summary, rating: item.rating, reviews: item.review_count, meta: [{ icon: 'pin', text: item.location_name }, { icon: 'tag', text: item.price_label }], images: item.gallery, image: item.hero_image_url, alt: item.hero_image_alt })}
       <section class="section"><div class="container detail-grid"><div class="detail-main">
         ${factStrip([fact('pin', 'Where', item.location_name), fact('compass', 'Region', region?.name), fact('tag', 'Typical cost', item.price_label)])}
         <div class="detail-section"><h2>About this attraction</h2><div class="rich-text">${rich(item.detail_intro)}</div></div>
@@ -395,7 +414,7 @@
     const amenities = lines(item.amenities);
     const stayBookingUrl = stay22Link(item, { source_url: item.booking_url, stay22_provider: 'booking', affiliate_supported: true }, liveSearch());
     main.innerHTML = `
-      ${listingHero({ eyebrow: `${country?.name || ''}${item.property_type ? ` • ${item.property_type}` : ''}`, title: item.name, summary: item.listing_summary, rating: item.rating, reviews: item.review_count, meta: [{ icon: 'pin', text: item.location_name }, { icon: 'tag', text: item.price_label }], images: item.gallery, image: item.hero_image_url, alt: item.hero_image_alt })}
+      ${listingHero({ eyebrow: `${country?.name || ''}${item.property_type ? ` â€¢ ${item.property_type}` : ''}`, title: item.name, summary: item.listing_summary, rating: item.rating, reviews: item.review_count, meta: [{ icon: 'pin', text: item.location_name }, { icon: 'tag', text: item.price_label }], images: item.gallery, image: item.hero_image_url, alt: item.hero_image_alt })}
       <section class="section"><div class="container detail-grid"><div class="detail-main">
         ${factStrip([fact('bed', 'Property', item.property_type), fact('pin', 'Location', item.location_name), fact('tag', 'From', item.price_label)])}
         <div class="detail-section"><h2>About this stay</h2><div class="rich-text">${rich(item.detail_intro)}</div></div>
@@ -413,8 +432,8 @@
     const country = attraction && getCountry(attraction.country_id);
     const highlights = lines(item.highlights);
     const stays = (tables.accommodations || []).filter((stay) => Number(stay.attraction_id) === Number(attraction?.id)).slice(0, 4);
-    main.innerHTML = `${listingHero({ eyebrow: `${country?.name || ''} • ${attraction?.name || ''}`, title: item.name, summary: item.listing_summary, images: item.gallery, image: item.hero_image_url || attraction?.hero_image_url, alt: item.hero_image_alt || item.name })}
-      <section class="section"><div class="container detail-grid"><div class="detail-main"><div class="detail-section"><h2>About this activity</h2><div class="rich-text">${rich(item.full_description)}</div></div>${highlights.length ? `<div class="detail-section"><h2>Highlights</h2>${checkList(highlights)}</div>` : ''}<div class="detail-section"><h2>Best time to participate</h2><div class="rich-text">${rich(item.best_time)}</div></div><div class="detail-section"><h2>Planning notes</h2><div class="rich-text">${rich(item.practical_info)}</div></div>${item.source_url ? `<p><a href="${esc(item.source_url)}" target="_blank" rel="noopener">Activity information and source ↗</a></p>` : ''}<p><a href="${route('attractions', attraction?.slug)}">${esc(attraction?.name || 'Attraction guide')}</a></p></div>${bookingPanel({ eyebrow: 'Booking information', price: '', where: item.location_name, cta: 'Book this activity', url: item.booking_url || '#', trust: [{ icon: 'shield', text: 'Opens an external provider page' }, { icon: 'info', text: 'No payment is taken on this page' }] })}</div></section>
+    main.innerHTML = `${listingHero({ eyebrow: `${country?.name || ''} â€¢ ${attraction?.name || ''}`, title: item.name, summary: item.listing_summary, images: item.gallery, image: item.hero_image_url || attraction?.hero_image_url, alt: item.hero_image_alt || item.name })}
+      <section class="section"><div class="container detail-grid"><div class="detail-main"><div class="detail-section"><h2>About this activity</h2><div class="rich-text">${rich(item.full_description)}</div></div>${highlights.length ? `<div class="detail-section"><h2>Highlights</h2>${checkList(highlights)}</div>` : ''}<div class="detail-section"><h2>Best time to participate</h2><div class="rich-text">${rich(item.best_time)}</div></div><div class="detail-section"><h2>Planning notes</h2><div class="rich-text">${rich(item.practical_info)}</div></div>${item.source_url ? `<p><a href="${esc(item.source_url)}" target="_blank" rel="noopener">Activity information and source â†—</a></p>` : ''}<p><a href="${route('attractions', attraction?.slug)}">${esc(attraction?.name || 'Attraction guide')}</a></p></div>${bookingPanel({ eyebrow: 'Booking information', price: '', where: item.location_name, cta: 'Book this activity', url: item.booking_url || '#', trust: [{ icon: 'shield', text: 'Opens an external provider page' }, { icon: 'info', text: 'No payment is taken on this page' }] })}</div></section>
       <section class="section section--alt"><div class="container"><div class="section-heading"><p class="eyebrow">Nearby stays</p><h2>Stay near ${esc(attraction?.name || '')}</h2></div>${grid(stays.map(accommodationCard))}</div></section>`;
   }
 
@@ -425,7 +444,7 @@
     const attraction = getAttraction(item.attraction_id);
     const stays = (tables.accommodations || []).filter((stay) => Number(stay.country_id) === Number(item.country_id)).slice(0, 4);
     main.innerHTML = `
-      ${listingHero({ eyebrow: `${country?.name || ''}${item.cuisine ? ` • ${item.cuisine}` : ''}`, title: item.name, summary: item.listing_summary, rating: item.rating, reviews: item.review_count, meta: [{ icon: 'utensils', text: item.cuisine }, { icon: 'tag', text: item.price_label }], images: item.gallery, image: item.hero_image_url, alt: item.hero_image_alt })}
+      ${listingHero({ eyebrow: `${country?.name || ''}${item.cuisine ? ` â€¢ ${item.cuisine}` : ''}`, title: item.name, summary: item.listing_summary, rating: item.rating, reviews: item.review_count, meta: [{ icon: 'utensils', text: item.cuisine }, { icon: 'tag', text: item.price_label }], images: item.gallery, image: item.hero_image_url, alt: item.hero_image_alt })}
       <section class="section"><div class="container detail-grid"><div class="detail-main">
         ${factStrip([fact('utensils', 'Cuisine', item.cuisine), fact('pin', 'Location', item.location_name), fact('tag', 'Price', item.price_label)])}
         <div class="detail-section"><h2>About this restaurant</h2><div class="rich-text">${rich(item.detail_intro)}</div></div>

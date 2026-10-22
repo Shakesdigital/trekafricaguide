@@ -11,7 +11,7 @@ const href = item.internalUrl || `/${isInsight ? 'travel-insights' : isActivity 
 const cta = isDestination ? 'View destination guide' : isInsight ? 'Read travel insight' : isActivity ? (item.cardCta || 'View Activity Detail') : isStay ? 'View stay' : 'View attraction detail';
 const location = [item.location_name, item.country?.name].filter(Boolean).join(', ');
 ---
-<article class="listing-card" data-card-type={type} data-country={item.country?.slug || ''}>
+<article class="listing-card" data-directory-item data-region={item.region?.slug || item.country?.region?.slug || ''} data-property-type={item.property_type || ''} data-search={[item.name, item.location_name, item.listing_summary, item.detail_intro, item.country?.name, item.region?.name, item.property_type, item.attraction?.name, item.district?.name].filter(Boolean).join(' ')} data-card-type={type} data-country={item.country?.slug || ''}>
   <a class="listing-card__image" href={href} aria-label={cta}>
     <ImageSlot class="listing-card__slot" src={isStay ? item.hero_image_url : item.hero_image_url || item.image_slot} alt={item.hero_image_alt || title} />
   </a>

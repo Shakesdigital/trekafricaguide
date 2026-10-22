@@ -72,5 +72,6 @@ const image = Astro.props.image || settings['seo.default_og_image'];
     </main>
     <Footer brand={brand} regions={model.regions} />
     <script type="module" src={siteScript}></script>
+    <script is:inline type="module" src="/directory-filters.js"></script>
   </body>
 </html>
