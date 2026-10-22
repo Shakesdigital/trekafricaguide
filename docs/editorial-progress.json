@@ -272,15 +272,15 @@
     "email_id": "1a143a69416cf3d1"
   },
   "rotation": {
-    "last_completed_category": "accommodations",
-    "next_category": "travel_insights",
-    "next_deliverable": "Complete one useful travel insight linked to existing canonical guides.",
+    "last_completed_category": "travel_insights",
+    "next_category": "activities",
+    "next_deliverable": "Complete one useful activity guide with exact operator evidence.",
     "rule": "Finish the individual deliverable and report its live state, then rotate. Track exact-property photo gaps separately."
   },
   "current_deliverable": {
     "id": "victoria-falls-cross-border-first-visit",
     "category": "travel_insights",
-    "status": "pending_publication",
+    "status": "complete",
     "objective": "Publish a sourced first-visit plan for Victoria Falls that helps travelers choose a Zambia or Zimbabwe base, decide whether a cross-border day is worthwhile, and pace the waterfall around current conditions and onward travel.",
     "research_checked": "2026-10-22",
     "image_count": 0,
@@ -290,9 +290,17 @@
       "docs/editorial-research/2026-10-22-victoria-falls-first-visit.md",
       "docs/editorial-progress.json"
     ],
-    "checkpoint": "Final copy inspected and build-input guard passed. Worker usage interruption recovered directly; committing complete article and ledger, awaiting live confirmation.",
-    "next_action": "Run npm run check:build-inputs, inspect supported fields and exact Stay22-resolved OTA links, then commit/push and verify distinctive live article text and linked canonical guide before emailing owner.",
-    "booking_gap": "No generic booking destination used. Six direct exact Booking.com property detail links in the insight are transformed by the shared Stay22 resolver; only one local canonical property guide exists (Zimbabwe side), so no new local stay records or cross-border relationships were added."
+    "checkpoint": "Published c0690a5; live HTTP 200 with three-night outline, Zambian falls-area section and Stay22 links. Owner email SENT 1a161de96d22c988. Build-input checks passed; no full suite/build. Worker usage interruption recovered.",
+    "next_action": "Rotate to activities; retain six-image insight backlog.",
+    "booking_gap": "No generic booking destination used. Six direct exact Booking.com property detail links in the insight are transformed by the shared Stay22 resolver; only one local canonical property guide exists (Zimbabwe side), so no new local stay records or cross-border relationships were added.",
+    "email_id": "1a161de96d22c988",
+    "live_verification": {
+      "checked": "2026-10-22",
+      "url": "https://trekafricaguide.com/travel-insights/plan-your-victoria-falls-visit",
+      "status": 200,
+      "distinctive_text": "A flexible three-night outline",
+      "stay22_present": true
+    }
   },
   "previous_deliverable_correction": {
     "id": "marrakech-medina-street-food-walk",
