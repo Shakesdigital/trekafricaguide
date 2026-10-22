@@ -276,6 +276,16 @@
     ],
     "sort_order": 1,
     "status": "published",
-    "published_at": "2026-10-21T16:40:00Z"
+    "published_at": "2026-10-21T16:40:00Z",
+    "hero_image_url": "/images/editorial/sine-saloum-destination/toubacouta-quay-2025.jpg",
+    "hero_image_alt": "People at Toubacouta quay in July 2025; location photo, not a confirmed trip departure",
+    "gallery": [
+      "/images/editorial/sine-saloum-destination/toubacouta-quay-2025.jpg",
+      "/images/editorial/sine-saloum-destination/niodior-island-shore-2006.jpg",
+      "/images/editorial/sine-saloum-destination/mar-lodj-bolong-mangroves-2006.jpg",
+      "/images/editorial/sine-saloum-destination/saloum-bolong-birds-2024.jpg",
+      "/images/editorial/sine-saloum-destination/saloum-pirogue-excursion-2023.jpg",
+      "/images/editorial/sine-saloum-destination/saloum-island-pirogue-2023.jpg"
+    ]
   }
 ]
