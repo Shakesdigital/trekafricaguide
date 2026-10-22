@@ -4,7 +4,7 @@
     "id": "stone-town-historical-walking-tour-six-photo-enrichment",
     "page_url": "https://trekafricaguide.com/activities/stone-town-historical-walking-tour/",
     "page_type": "activity",
-    "status": "pending_publication",
+    "status": "complete_live_confirmed",
     "previous_photo_count": 0,
     "photo_count": 6,
     "new_photo_count": 6,
@@ -19,11 +19,11 @@
       "docs/image-enrichment-progress.json"
     ],
     "note": "Six distinct Commons photographs illustrate Stone Town’s Darajani market, an archival alley scene and historic architecture. Captions state capture dates and avoid asserting the chosen tour visits a pictured landmark; the House of Wonders is explicitly dated to its 2021 exterior renovation. Creator, licence version, source evidence, dates, alt text, restrictions and SHA-256 are documented in the dated ledger and photo library. No URL/hash duplicate across other library assignments; no factual activity copy changed.",
-    "next_action": "Run the required photo-library mirror sync and narrow build-input check; commit/push only own image scope; then verify the published activity and every new plain image URL before emailing.",
-    "commit": null,
-    "live_verification": null,
-    "email_id": null,
-    "report_sent_at": null
+    "next_action": "Rotate to another published activity or attraction with an evidenced photo gap; review the full page and deduplicate source URL and image hash against all detail collections.",
+    "commit": "6a7a090",
+    "live_verification": "2026-10-22 10:36 Africa/Kampala: production activity page HTTP 200; all six expected image filenames present and gallery shows See all 6. All six plain JPEG URLs return HTTP 200 image/jpeg.",
+    "email_id": "1a1628bd89f1530f",
+    "report_sent_at": "2026-10-22 10:38 Africa/Kampala"
   },
   "follow_ups": [],
   "last_pending_check": {
