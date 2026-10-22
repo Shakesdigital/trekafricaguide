@@ -4,7 +4,7 @@
     "id": "sine-saloum-local-destination-six-photo-enrichment",
     "page_url": "https://trekafricaguide.com/countries/senegal/sine-saloum-delta/",
     "page_type": "local_destination",
-    "status": "pending_publication",
+    "status": "complete_live_confirmed",
     "previous_photo_count": 0,
     "photo_count": 6,
     "new_photo_count": 6,
@@ -19,11 +19,11 @@
       "docs/image-enrichment-progress.json"
     ],
     "note": "Six distinct Commons photographs illustrate Toubacouta quay, Niodior island shore, a bolong near Mar Lodj, protected-waterway birds and two different pirogue contexts. Exact source, creator, capture date, licence/release, subject evidence, alt text, restrictions and SHA-256 are recorded in the dated ledger and photo library. Source URLs and file hashes were checked against all other image assignments and local assets, including the separate six-photo attraction collection; no duplicates. No factual guide copy or relationships changed.",
-    "next_action": "Run required build-input/mirror check, commit/push only this destination image scope, then confirm live guide and every new plain image URL before emailing.",
-    "commit": null,
-    "live_verification": null,
-    "email_id": null,
-    "report_sent_at": null
+    "next_action": "Rotate to another published destination, activity, or attraction with a verified image gap; review current assignments before selection.",
+    "commit": "89a3b7179ed0ef3d7fe8d25647e188ff92ed9aac",
+    "live_verification": "2026-10-22 12:31 Africa/Kampala: production Sine-Saloum page HTTP 200 includes all six image filenames and See all 6; all six plain JPEG URLs return HTTP 200 image/jpeg.",
+    "email_id": "1a162f3feb42d4d6",
+    "report_sent_at": "2026-10-22 12:32 Africa/Kampala"
   },
   "follow_ups": [],
   "last_pending_check": {
