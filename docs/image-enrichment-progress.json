@@ -4,7 +4,7 @@
     "id": "kibale-chimp-trek-insight-six-image-enrichment",
     "page_url": "https://trekafricaguide.com/travel-insights/plan-kibale-around-chimpanzee-trek/",
     "page_type": "travel_insight",
-    "status": "pending_publication",
+    "status": "published_pending_live_check",
     "previous_photo_count": 0,
     "photo_count": 6,
     "new_photo_count": 6,
@@ -18,9 +18,9 @@
       "docs/editorial-research/2026-10-22-kibale-chimp-trek-image-enrichment.md",
       "docs/image-enrichment-progress.json"
     ],
-    "note": "Added one Commons-licensed chimpanzee hero and five inline figures to the published insight. All six visuals were reviewed and selected for relevant, distinct contexts: Kibale chimpanzee, forest road, dated Kanyanchu direction sign, forest trail, second chimpanzee view, and park-entry monument. Original source/licence/creator/capture date/evidence/check date/alt/caption/restrictions and SHA-256 are documented in the ledger and photo library. Verified no source URL or hash duplicated any local public image or other detail-page assignment. No factual prose or renderer changes.",
+    "note": "Added one Commons-licensed chimpanzee hero and five inline figures to the published insight. All six visuals were reviewed and selected for relevant, distinct contexts: Kibale chimpanzee, forest road, dated Kanyanchu direction sign, forest trail, second chimpanzee view, and park-entry monument. Original source/licence/creator/capture date/evidence/check date/alt/caption/restrictions and SHA-256 are documented in the ledger and photo library. Verified no source URL or hash duplicated any local public image or other detail-page assignment. No factual prose or renderer changes. Commit c799c54 prepared for the existing main deployment path.",
     "next_action": "Rotate to another published activity or travel insight with missing or unsuitable imagery; review its current full content and source/hash inventory before selection.",
-    "commit": null,
+    "commit": "c799c54",
     "live_verification": null,
     "email_id": null,
     "report_sent_at": null
