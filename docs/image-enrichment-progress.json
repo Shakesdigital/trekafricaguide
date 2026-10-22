@@ -22,8 +22,8 @@
     "next_action": "Rotate to another published activity, attraction or destination with a verified image gap; inspect current image assignments before selection.",
     "commit": "261545f",
     "live_verification": "2026-10-22 08:29 Africa/Kampala: production travel insight HTTP 200 contains all six expected image filenames; all six plain JPEG URLs return HTTP 200 image/jpeg.",
-    "email_id": null,
-    "report_sent_at": null
+    "email_id": "1a162160a66a88aa",
+    "report_sent_at": "2026-10-22 08:29 Africa/Kampala"
   },
   "follow_ups": [],
   "last_pending_check": {
