@@ -20,7 +20,9 @@
     "note": "Replaced two generic stock images with six visually inspected licensed photographs: five Kakum National Park forest/canopy contexts and Cape Coast Castle entrance. Original source/license/creator/capture date/evidence and local SHA-256 are in the ledger and photo library. Exact source URL and hash dedup was checked against all assignments and local public images. No copy changes.",
     "next_action": "Rotate to another published attraction with a missing or unsuitable photo collection; review current editorial activity and global source inventory before selection.",
     "commit": "789e711",
-    "live_verification": "2026-10-22 01:35 Africa/Kampala: production attraction detail HTTP 200 contains all six expected image filenames; all six plain JPEG URLs return HTTP 200 image/jpeg."
+    "live_verification": "2026-10-22 01:35 Africa/Kampala: production attraction detail HTTP 200 contains all six expected image filenames; all six plain JPEG URLs return HTTP 200 image/jpeg.",
+    "email_id": "1a1612367c43087f",
+    "report_sent_at": "2026-10-22 01:35 Africa/Kampala"
   },
   "follow_ups": [],
   "last_pending_check": {
@@ -303,4 +305,4 @@
       "report_sent_at": "2026-10-21 19:55 Africa/Kampala"
     }
   ]
-}
+}\n
