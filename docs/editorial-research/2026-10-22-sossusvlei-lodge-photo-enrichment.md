@@ -19,3 +19,5 @@ The focused Commons review visually inspected 13 candidate images returned for S
 ## Integration and publication
 
 The new photograph is recorded in `src/lib/photo-library.js`, mirrored to `public/photo-library.js` by `node scripts/sync-photo-library.mjs`, and assigned to the existing accommodation gallery in `content/editorial-overrides.json`. The dated image checkpoint is `docs/image-enrichment-progress.json`. No renderer changes were needed.
+
+Commit `3415492` was pushed to `origin/main`. At 16:31 Africa/Kampala on 22 October 2026, the production accommodation page returned HTTP 200, included the new filename and “See all 2”; the plain JPEG URL returned HTTP 200 `image/jpeg` (340,868 bytes). A concise update was sent to the authorized recipient at 16:32 Africa/Kampala; Gmail message ID `1a163d0002fb4640`.

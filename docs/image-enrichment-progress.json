@@ -4,7 +4,7 @@
     "id": "sossusvlei-lodge-one-photo-property-partial",
     "page_url": "https://trekafricaguide.com/accommodations/sossusvlei-lodge/",
     "page_type": "accommodation",
-    "status": "pushed_pending_live",
+    "status": "complete_live_confirmed",
     "previous_photo_count": 1,
     "photo_count": 2,
     "new_photo_count": 1,
@@ -20,10 +20,10 @@
     ],
     "note": "Added one visually inspected, exact-property Commons image to the existing one-photo gallery. Creator, CC BY-SA 2.0 evidence, Flickr review, capture/check dates, subject, alt, archival caption, restrictions and SHA-256 are recorded in the library and dated ledger. Source URL and image hash were checked against all photo-library records and local public images; no duplicates. Focused review found no eligible current room, bathroom, reception, pool, dining or activity-centre views. No factual prose, relationships, layout, booking or tracking changed.",
     "next_action": "Continue accommodation rotation to another published property with newly evidenced licensed exact-property photography; do not repeat unchanged blocked searches.",
-    "commit": null,
-    "live_verification": null,
-    "email_id": null,
-    "report_sent_at": null
+    "commit": "3415492868f74d86528943fd8e9fe5a585857a38",
+    "live_verification": "2026-10-22 16:31 Africa/Kampala: production accommodation page HTTP 200 includes property-patio-2010.jpg and See all 2. The plain image URL returns HTTP 200 image/jpeg (340868 bytes).",
+    "email_id": "1a163d0002fb4640",
+    "report_sent_at": "2026-10-22 16:32 Africa/Kampala"
   },
   "follow_ups": [],
   "last_pending_check": {
