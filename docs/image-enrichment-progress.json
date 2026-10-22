@@ -1,29 +1,29 @@
 {
   "updated_at": "2026-10-22",
   "current_run": {
-    "id": "victoria-falls-cross-border-first-visit-six-photo-enrichment",
-    "page_url": "https://trekafricaguide.com/travel-insights/plan-your-victoria-falls-visit",
-    "page_type": "travel_insight",
-    "status": "complete_live_confirmed",
+    "id": "stone-town-historical-walking-tour-six-photo-enrichment",
+    "page_url": "https://trekafricaguide.com/activities/stone-town-historical-walking-tour/",
+    "page_type": "activity",
+    "status": "pending_publication",
     "previous_photo_count": 0,
     "photo_count": 6,
     "new_photo_count": 6,
     "checked_date": "2026-10-22",
-    "source_ledger": "docs/editorial-research/2026-10-22-victoria-falls-first-visit-photo-enrichment.md",
+    "source_ledger": "docs/editorial-research/2026-10-22-stone-town-walking-tour-photo-enrichment.md",
     "files": [
       "content/editorial-overrides.json",
       "src/lib/photo-library.js",
       "public/photo-library.js",
-      "public/images/editorial/victoria-falls-first-visit/",
-      "docs/editorial-research/2026-10-22-victoria-falls-first-visit-photo-enrichment.md",
+      "public/images/editorial/stone-town-walking-tour/",
+      "docs/editorial-research/2026-10-22-stone-town-walking-tour-photo-enrichment.md",
       "docs/image-enrichment-progress.json"
     ],
-    "note": "Six visually inspected, distinct Creative Commons photographs support the article’s Zimbabwe/Zambia falls viewpoints, rainforest, Knife Edge, Victoria Falls Bridge and upstream Zambezi context. Original source pages, creators, licence versions, capture dates, evidence, review date, alt text, captions, restrictions and SHA-256 hashes are recorded in the source ledger and photo library. No duplicates against other library assignments; no article prose changes.",
-    "next_action": "Rotate to another published activity, attraction or destination with a verified image gap; inspect current image assignments before selection.",
-    "commit": "261545f",
-    "live_verification": "2026-10-22 08:29 Africa/Kampala: production travel insight HTTP 200 contains all six expected image filenames; all six plain JPEG URLs return HTTP 200 image/jpeg.",
-    "email_id": "1a162160a66a88aa",
-    "report_sent_at": "2026-10-22 08:29 Africa/Kampala"
+    "note": "Six distinct Commons photographs illustrate Stone Town’s Darajani market, an archival alley scene and historic architecture. Captions state capture dates and avoid asserting the chosen tour visits a pictured landmark; the House of Wonders is explicitly dated to its 2021 exterior renovation. Creator, licence version, source evidence, dates, alt text, restrictions and SHA-256 are documented in the dated ledger and photo library. No URL/hash duplicate across other library assignments; no factual activity copy changed.",
+    "next_action": "Run the required photo-library mirror sync and narrow build-input check; commit/push only own image scope; then verify the published activity and every new plain image URL before emailing.",
+    "commit": null,
+    "live_verification": null,
+    "email_id": null,
+    "report_sent_at": null
   },
   "follow_ups": [],
   "last_pending_check": {
@@ -355,6 +355,31 @@
       "live_verification": "2026-10-22 04:19 Africa/Kampala: production accommodation detail HTTP 200; page includes See all 9 and all three new image filenames. All three plain JPEG URLs return HTTP 200 image/jpeg.",
       "email_id": "1a16131935e37816",
       "report_sent_at": "2026-10-22 04:20 Africa/Kampala"
+    },
+    {
+      "id": "victoria-falls-cross-border-first-visit-six-photo-enrichment",
+      "page_url": "https://trekafricaguide.com/travel-insights/plan-your-victoria-falls-visit",
+      "page_type": "travel_insight",
+      "status": "complete_live_confirmed",
+      "previous_photo_count": 0,
+      "photo_count": 6,
+      "new_photo_count": 6,
+      "checked_date": "2026-10-22",
+      "source_ledger": "docs/editorial-research/2026-10-22-victoria-falls-first-visit-photo-enrichment.md",
+      "files": [
+        "content/editorial-overrides.json",
+        "src/lib/photo-library.js",
+        "public/photo-library.js",
+        "public/images/editorial/victoria-falls-first-visit/",
+        "docs/editorial-research/2026-10-22-victoria-falls-first-visit-photo-enrichment.md",
+        "docs/image-enrichment-progress.json"
+      ],
+      "note": "Six visually inspected, distinct Creative Commons photographs support the article’s Zimbabwe/Zambia falls viewpoints, rainforest, Knife Edge, Victoria Falls Bridge and upstream Zambezi context. Original source pages, creators, licence versions, capture dates, evidence, review date, alt text, captions, restrictions and SHA-256 hashes are recorded in the source ledger and photo library. No duplicates against other library assignments; no article prose changes.",
+      "next_action": "Rotate to another published activity, attraction or destination with a verified image gap; inspect current image assignments before selection.",
+      "commit": "261545f",
+      "live_verification": "2026-10-22 08:29 Africa/Kampala: production travel insight HTTP 200 contains all six expected image filenames; all six plain JPEG URLs return HTTP 200 image/jpeg.",
+      "email_id": "1a162160a66a88aa",
+      "report_sent_at": "2026-10-22 08:29 Africa/Kampala"
     }
   ]
 }
