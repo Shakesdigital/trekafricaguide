@@ -4,7 +4,7 @@
     "id": "victoria-falls-cross-border-first-visit-six-photo-enrichment",
     "page_url": "https://trekafricaguide.com/travel-insights/plan-your-victoria-falls-visit",
     "page_type": "travel_insight",
-    "status": "pending_publication",
+    "status": "complete_live_confirmed",
     "previous_photo_count": 0,
     "photo_count": 6,
     "new_photo_count": 6,
@@ -18,10 +18,10 @@
       "docs/editorial-research/2026-10-22-victoria-falls-first-visit-photo-enrichment.md",
       "docs/image-enrichment-progress.json"
     ],
-    "note": "Added a Commons-licensed hero and five same-site inline photographs to the newly published Victoria Falls cross-border planning insight. The six visuals show distinct Zimbabwe/Zambia falls viewpoints, rainforest, Knife Edge footbridge, Victoria Falls Bridge and upstream Zambezi. All six were visually inspected. Source/license/creator/capture date/evidence/check date/alt/caption/restrictions and SHA-256 records are in the photo library and dated ledger. Source URL and hashes were deduplicated against all photo-library assignments and local public images. No article prose or renderer changed.",
-    "next_action": "Confirm the published insight contains all six images and verify all six plain image URLs; then report once.",
-    "commit": null,
-    "live_verification": null,
+    "note": "Six visually inspected, distinct Creative Commons photographs support the article’s Zimbabwe/Zambia falls viewpoints, rainforest, Knife Edge, Victoria Falls Bridge and upstream Zambezi context. Original source pages, creators, licence versions, capture dates, evidence, review date, alt text, captions, restrictions and SHA-256 hashes are recorded in the source ledger and photo library. No duplicates against other library assignments; no article prose changes.",
+    "next_action": "Rotate to another published activity, attraction or destination with a verified image gap; inspect current image assignments before selection.",
+    "commit": "261545f",
+    "live_verification": "2026-10-22 08:29 Africa/Kampala: production travel insight HTTP 200 contains all six expected image filenames; all six plain JPEG URLs return HTTP 200 image/jpeg.",
     "email_id": null,
     "report_sent_at": null
   },
