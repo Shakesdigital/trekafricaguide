@@ -25,4 +25,4 @@ All source pages and assets were checked on 22 October 2026. Licenses below are 
 
 ## Publication record
 
-Gallery data was added to `content/editorial-overrides.json` and `src/lib/photo-library.js`; `public/photo-library.js` is the generated mirror. The run checkpoint is `docs/image-enrichment-progress.json`. Commit, deployment, live-page/assets, and notification receipt details are recorded there after publication.
+Gallery data was added to `content/editorial-overrides.json` and `src/lib/photo-library.js`; `public/photo-library.js` is the generated mirror. The run checkpoint is `docs/image-enrichment-progress.json`. Commit `d9854c8` was pushed to `origin/main`. On 22 October 2026 at 04:19 Africa/Kampala, the production detail page returned HTTP 200, showed “See all 9,” and referenced all three new files; each plain JPEG URL returned HTTP 200 `image/jpeg`. The required `npm run check:build-inputs` passed after syncing the public photo-library mirror. A concise report was sent to the authorized recipient at 04:20 Africa/Kampala; Gmail message ID `1a16131935e37816`.

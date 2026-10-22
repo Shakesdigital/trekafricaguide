@@ -4,7 +4,7 @@
     "id": "victoria-falls-hotel-accommodation-photo-enrichment",
     "page_url": "https://trekafricaguide.com/accommodations/victoria-falls-hotel/",
     "page_type": "accommodation",
-    "status": "published_pending_live_check",
+    "status": "live_confirmed_partial",
     "previous_photo_count": 6,
     "photo_count": 9,
     "new_photo_count": 3,
@@ -23,9 +23,9 @@
     "note": "Added three visually inspected, distinct exact-property licensed images (May 2012 terrace/facade; July 2019 historical hotel-kitchen staff; October 2012 hotel-branded tableware) to the existing six-photo gallery. Original pages, creator/license versions, evidence, capture/check dates, alt/captions, restrictions and SHA-256 hashes are recorded in the dated ledger and photo library. Deduplicated source URLs and hashes across all local image assignments. No guide prose or renderer changes. Nine useful photos are published as a partial collection; no rooms or bathrooms had verified reusable images.",
     "next_action": "Only revisit this property if newly verifiable reusable room, bathroom, reception, or current dining imagery is found; do not repeat the broad Commons search. Otherwise rotate to another published property with newly evidenced licensed imagery.",
     "commit": "5dd2ec5",
-    "live_verification": null,
-    "email_id": null,
-    "report_sent_at": null
+    "live_verification": "2026-10-22 04:19 Africa/Kampala: production accommodation detail HTTP 200; page includes See all 9 and all three new image filenames. All three plain JPEG URLs return HTTP 200 image/jpeg.",
+    "email_id": "1a16131935e37816",
+    "report_sent_at": "2026-10-22 04:20 Africa/Kampala"
   },
   "follow_ups": [],
   "last_pending_check": {
