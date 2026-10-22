@@ -1,28 +1,31 @@
 {
   "updated_at": "2026-10-22",
   "current_run": {
-    "id": "cape-coast-kakum-attraction-photo-enrichment",
-    "page_url": "https://trekafricaguide.com/attractions/cape-coast-kakum/",
-    "page_type": "attraction",
-    "status": "complete_live_confirmed",
-    "previous_photo_count": 2,
-    "photo_count": 6,
-    "new_photo_count": 6,
+    "id": "victoria-falls-hotel-accommodation-photo-enrichment",
+    "page_url": "https://trekafricaguide.com/accommodations/victoria-falls-hotel/",
+    "page_type": "accommodation",
+    "status": "published_pending_live_check",
+    "previous_photo_count": 6,
+    "photo_count": 9,
+    "new_photo_count": 3,
     "checked_date": "2026-10-22",
-    "source_ledger": "docs/editorial-research/2026-10-22-cape-coast-kakum-photo-enrichment.md",
+    "source_ledger": "docs/editorial-research/2026-10-22-victoria-falls-hotel-photo-enrichment.md",
     "files": [
+      "content/editorial-overrides.json",
       "src/lib/photo-library.js",
       "public/photo-library.js",
-      "public/images/editorial/cape-coast-kakum/",
-      "docs/editorial-research/2026-10-22-cape-coast-kakum-photo-enrichment.md",
+      "public/images/editorial/victoria-falls-hotel/hotel-terrace-and-facade-2012.jpg",
+      "public/images/editorial/victoria-falls-hotel/hotel-kitchen-chefs-2019.jpg",
+      "public/images/editorial/victoria-falls-hotel/hotel-branded-tableware-2012.jpg",
+      "docs/editorial-research/2026-10-22-victoria-falls-hotel-photo-enrichment.md",
       "docs/image-enrichment-progress.json"
     ],
-    "note": "Replaced two generic stock images with six visually inspected licensed photographs: five Kakum National Park forest/canopy contexts and Cape Coast Castle entrance. Original source/license/creator/capture date/evidence and local SHA-256 are in the ledger and photo library. Exact source URL and hash dedup was checked against all assignments and local public images. No copy changes.",
-    "next_action": "Rotate to another published attraction with a missing or unsuitable photo collection; review current editorial activity and global source inventory before selection.",
-    "commit": "789e711",
-    "live_verification": "2026-10-22 01:35 Africa/Kampala: production attraction detail HTTP 200 contains all six expected image filenames; all six plain JPEG URLs return HTTP 200 image/jpeg.",
-    "email_id": "1a1612367c43087f",
-    "report_sent_at": "2026-10-22 01:35 Africa/Kampala"
+    "note": "Added three visually inspected, distinct exact-property licensed images (May 2012 terrace/facade; July 2019 historical hotel-kitchen staff; October 2012 hotel-branded tableware) to the existing six-photo gallery. Original pages, creator/license versions, evidence, capture/check dates, alt/captions, restrictions and SHA-256 hashes are recorded in the dated ledger and photo library. Deduplicated source URLs and hashes across all local image assignments. No guide prose or renderer changes. Nine useful photos are published as a partial collection; no rooms or bathrooms had verified reusable images.",
+    "next_action": "Only revisit this property if newly verifiable reusable room, bathroom, reception, or current dining imagery is found; do not repeat the broad Commons search. Otherwise rotate to another published property with newly evidenced licensed imagery.",
+    "commit": "5dd2ec5",
+    "live_verification": null,
+    "email_id": null,
+    "report_sent_at": null
   },
   "follow_ups": [],
   "last_pending_check": {
@@ -303,6 +306,30 @@
       "live_verification": "2026-10-21 19:54 Africa/Kampala: production Buhoma detail HTTP 200 shows See all 3 and references all three expected image paths; all three plain JPEG URLs return HTTP 200 image/jpeg.",
       "email_id": "1a15f6378371b81c",
       "report_sent_at": "2026-10-21 19:55 Africa/Kampala"
+    },
+    {
+      "id": "cape-coast-kakum-attraction-photo-enrichment",
+      "page_url": "https://trekafricaguide.com/attractions/cape-coast-kakum/",
+      "page_type": "attraction",
+      "status": "complete_live_confirmed",
+      "previous_photo_count": 2,
+      "photo_count": 6,
+      "new_photo_count": 6,
+      "checked_date": "2026-10-22",
+      "source_ledger": "docs/editorial-research/2026-10-22-cape-coast-kakum-photo-enrichment.md",
+      "files": [
+        "src/lib/photo-library.js",
+        "public/photo-library.js",
+        "public/images/editorial/cape-coast-kakum/",
+        "docs/editorial-research/2026-10-22-cape-coast-kakum-photo-enrichment.md",
+        "docs/image-enrichment-progress.json"
+      ],
+      "note": "Replaced two generic stock images with six visually inspected licensed photographs: five Kakum National Park forest/canopy contexts and Cape Coast Castle entrance. Original source/license/creator/capture date/evidence and local SHA-256 are in the ledger and photo library. Exact source URL and hash dedup was checked against all assignments and local public images. No copy changes.",
+      "next_action": "Rotate to another published attraction with a missing or unsuitable photo collection; review current editorial activity and global source inventory before selection.",
+      "commit": "789e711",
+      "live_verification": "2026-10-22 01:35 Africa/Kampala: production attraction detail HTTP 200 contains all six expected image filenames; all six plain JPEG URLs return HTTP 200 image/jpeg.",
+      "email_id": "1a1612367c43087f",
+      "report_sent_at": "2026-10-22 01:35 Africa/Kampala"
     }
   ]
-}\n
+}
