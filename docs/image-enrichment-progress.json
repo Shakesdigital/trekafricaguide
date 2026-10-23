@@ -1,28 +1,29 @@
 {
   "updated_at": "2026-10-23",
   "current_run": {
-    "id": "table-mountain-guided-hike-six-photo-enrichment",
-    "page_url": "https://trekafricaguide.com/activities/table-mountain-guided-hike/",
-    "page_type": "activity",
-    "status": "complete_live_confirmed",
+    "id": "plan-sossusvlei-sunrise-from-sesriem-six-inline-photo-enrichment",
+    "page_url": "https://trekafricaguide.com/travel-insights/plan-sossusvlei-sunrise-from-sesriem/",
+    "page_type": "travel_insight",
+    "status": "prepared_pending_publication",
     "previous_photo_count": 0,
     "photo_count": 6,
     "new_photo_count": 6,
     "checked_date": "2026-10-23",
-    "source_ledger": "docs/editorial-research/2026-10-23-table-mountain-guided-hike-photo-enrichment.md",
+    "source_ledger": "docs/editorial-research/2026-10-23-plan-sossusvlei-sunrise-photo-enrichment.md",
     "files": [
+      "content/editorial-overrides.json",
       "src/lib/photo-library.js",
       "public/photo-library.js",
-      "public/images/editorial/table-mountain-guided-hike/",
-      "docs/editorial-research/2026-10-23-table-mountain-guided-hike-photo-enrichment.md",
+      "public/images/editorial/plan-sossusvlei-sunrise-sesriem/",
+      "docs/editorial-research/2026-10-23-plan-sossusvlei-sunrise-photo-enrichment.md",
       "docs/image-enrichment-progress.json"
     ],
-    "note": "Six visually inspected, distinct CC BY-SA Commons photographs show Table Mountain hiking trails and hikers. Captions explicitly state that pictured people are not participants in the linked activity and do not claim its route. Exact source pages, creator, licence, capture/check date, evidence, alt/caption, restrictions, thumbnail changes and SHA-256 are recorded in the library and ledger. New source URLs and file hashes were compared against all other library assignments and every local public image; no duplicates. The prior generic Cape Town image was removed from this activity gallery. No factual guide text, renderer, relationships, UI or tracking changed. Production URL and all six plain image assets were confirmed live after push. One report sent to fsddanmugisa@gmail.com; receipt recorded.",
-    "next_action": "Rotate to another published destination, activity, or attraction with a verified image gap; inspect current assignments and ledgers first.",
-    "commit": "af9b0ba",
-    "live_verification": "2026-10-23 12:32 Africa/Kampala: production activity page HTTP 200 with title Table Mountain guided hike | Trek Africa Guide; all six expected filenames appear in rendered page HTML. All six plain JPEG URLs return HTTP 200 image/jpeg: initial-ascent 751132 B; Platteklip trail 1476674 B; upper view 241328 B; hikers 531182 B; gorge view 576475 B; trailhead sign 566838 B. No separate deployment record checked.",
-    "email_id": "1a1681b44ab4bd41",
-    "report_sent_at": "2026-10-23 12:33 Africa/Kampala"
+    "note": "Added six visually inspected licensed Commons photographs as contextual figures to the previously unillustrated published insight. Captions clarify archival context and avoid current route/condition or operator/participant claims. Exact source pages, creator, license, capture/check dates, evidence, alt, reuse restrictions and SHA-256 are in the library and dated ledger. Source URLs and file hashes checked against all other assignments and all 558 local public images; no duplicates. Existing article prose, design, route IDs, tracking, stay IDs, redirects and canonicals were preserved.",
+    "next_action": "Commit and push the prepared photo additions; verify the live article page and each new image asset; send one owner report and record its receipt.",
+    "commit": null,
+    "live_verification": null,
+    "email_id": null,
+    "report_sent_at": null
   },
   "follow_ups": [],
   "last_pending_check": {
@@ -45,6 +46,30 @@
     "resolved_at": "2026-10-21 13:16 Africa/Kampala"
   },
   "completed_runs": [
+    {
+      "id": "table-mountain-guided-hike-six-photo-enrichment",
+      "page_url": "https://trekafricaguide.com/activities/table-mountain-guided-hike/",
+      "page_type": "activity",
+      "status": "complete_live_confirmed",
+      "previous_photo_count": 0,
+      "photo_count": 6,
+      "new_photo_count": 6,
+      "checked_date": "2026-10-23",
+      "source_ledger": "docs/editorial-research/2026-10-23-table-mountain-guided-hike-photo-enrichment.md",
+      "files": [
+        "src/lib/photo-library.js",
+        "public/photo-library.js",
+        "public/images/editorial/table-mountain-guided-hike/",
+        "docs/editorial-research/2026-10-23-table-mountain-guided-hike-photo-enrichment.md",
+        "docs/image-enrichment-progress.json"
+      ],
+      "note": "Six visually inspected, distinct CC BY-SA Commons photographs show Table Mountain hiking trails and hikers. Captions explicitly state that pictured people are not participants in the linked activity and do not claim its route. Exact source pages, creator, licence, capture/check date, evidence, alt/caption, restrictions, thumbnail changes and SHA-256 are recorded in the library and ledger. New source URLs and file hashes were compared against all other library assignments and every local public image; no duplicates. The prior generic Cape Town image was removed from this activity gallery. No factual guide text, renderer, relationships, UI or tracking changed. Production URL and all six plain image assets were confirmed live after push. One report sent to fsddanmugisa@gmail.com; receipt recorded.",
+      "next_action": "Rotate to another published destination, activity, or attraction with a verified image gap; inspect current assignments and ledgers first.",
+      "commit": "af9b0ba",
+      "live_verification": "2026-10-23 12:32 Africa/Kampala: production activity page HTTP 200 with title Table Mountain guided hike | Trek Africa Guide; all six expected filenames appear in rendered page HTML. All six plain JPEG URLs return HTTP 200 image/jpeg: initial-ascent 751132 B; Platteklip trail 1476674 B; upper view 241328 B; hikers 531182 B; gorge view 576475 B; trailhead sign 566838 B. No separate deployment record checked.",
+      "email_id": "1a1681b44ab4bd41",
+      "report_sent_at": "2026-10-23 12:33 Africa/Kampala"
+    },
     {
       "id": "sossusvlei-lodge-one-photo-property-partial",
       "page_url": "https://trekafricaguide.com/accommodations/sossusvlei-lodge/",
