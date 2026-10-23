@@ -2,6 +2,17 @@ import { sanitizeRichText } from './content-html.mjs';
 
 export const escapeEditorialText = (value) => String(value || '').replace(/[&<>"']/g, (character) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[character]));
 
+// Authoring supports both plain paragraphs and sanitized rich text. Never escape
+// an HTML document as a paragraph: that exposes its markup to readers.
+export function renderEditorialText(value, attractions = []) {
+  const text = String(value || '').trim();
+  if (!text) return '';
+  const html = /<\/?[a-z][^>]*>/i.test(text)
+    ? text
+    : text.split(/\n\s*\n/).map((part) => `<p>${escapeEditorialText(part.trim())}</p>`).join('');
+  return linkAttractionMentions(html, attractions);
+}
+
 const attractionAliases = {
   'bwindi-impenetrable-national-park': ['Bwindi', 'Bwindi Impenetrable Forest'],
   'murchison-falls-national-park': ['Murchison Falls'],

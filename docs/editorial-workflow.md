@@ -167,3 +167,7 @@ Keep the homepage introduction directly after the hero and before the country ta
 
 ## Travel Insights catalogue — 17 October 2026
 Owner removed the ten original development-seed insights from public publication. Keep their draft overrides; do not restore them through routine editorial runs. Retain the researched Table Mountain, Bwindi-sector and Cape Town-base insights and add newly researched original articles normally. See 2026-10-17-insight-cleanup ledger.
+
+## Rendered readability gate — 23 October 2026
+
+Publication must show readable paragraphs and working labeled links, never literal HTML tags or Markdown link syntax. Use EditorialText for mixed plain/rich editorial prose and the shared sanitizer for article HTML. Do not escape a whole HTML document into text. The production build checks every generated HTML page and fails on exposed markup. After deployment, inspect the changed page’s rendered text and actual anchor destinations; HTTP 200 or matching words alone is insufficient. Fix any failures before selecting new editorial work.

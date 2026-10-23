@@ -426,5 +426,18 @@
         "stay22_present": true
       }
     }
-  ]
+  ],
+  "rendering_correction": {
+    "status": "in_progress",
+    "date": "2026-10-23",
+    "reason": "Owner reported literal HTML on Great Zimbabwe; emergency readability fix overrides rotation.",
+    "files": [
+      "src/components/EditorialText.astro",
+      "src/lib/editorial-links.mjs",
+      "scripts/check-rendered-content.mjs",
+      "package.json"
+    ],
+    "completed": "Shared sanitized rich-text rendering fixed; focused real-content, plain-text, unsafe HTML and guard checks passed.",
+    "next_action": "Push main; confirm production deployment and actual live paragraphs/anchors; email owner."
+  }
 }
