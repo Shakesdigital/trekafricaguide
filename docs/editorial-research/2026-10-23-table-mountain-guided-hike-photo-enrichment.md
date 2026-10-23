@@ -1,8 +1,10 @@
 # Table Mountain guided hike photo enrichment — 23 October 2026
 
-**Page:** https://trekafricaguide.com/activities/table-mountain-guided-hike/  
-**Before:** the published activity had no gallery (`gallery: null`) and used a generic Cape Town destination image.  
-**After:** six distinct, visually inspected, licensed Table Mountain hiking and trail photographs assigned to the activity gallery.  
+**Page:** https://trekafricaguide.com/activities/table-mountain-guided-hike/
+
+**Before:** the published activity had no gallery (`gallery: null`) and used a generic Cape Town destination image.
+
+**After:** six distinct, visually inspected, licensed Table Mountain hiking and trail photographs assigned to the activity gallery.
 **Checked:** 23 October 2026 (Africa/Kampala)
 
 ## Page and caption review
