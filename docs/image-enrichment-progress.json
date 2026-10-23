@@ -1,29 +1,24 @@
 {
   "updated_at": "2026-10-23",
   "current_run": {
-    "id": "plan-sossusvlei-sunrise-from-sesriem-six-inline-photo-enrichment",
-    "page_url": "https://trekafricaguide.com/travel-insights/plan-sossusvlei-sunrise-from-sesriem/",
-    "page_type": "travel_insight",
-    "status": "complete_live_confirmed",
-    "previous_photo_count": 0,
+    "id": "cape-town-attraction-six-photo-enrichment",
+    "page_url": "https://trekafricaguide.com/attractions/cape-town/",
+    "page_type": "attraction",
+    "status": "collection_ready_pending_publication",
+    "previous_photo_count": 1,
     "photo_count": 6,
     "new_photo_count": 6,
     "checked_date": "2026-10-23",
-    "source_ledger": "docs/editorial-research/2026-10-23-plan-sossusvlei-sunrise-photo-enrichment.md",
+    "source_ledger": "docs/editorial-research/2026-10-23-cape-town-attraction-photo-enrichment.md",
     "files": [
-      "content/editorial-overrides.json",
       "src/lib/photo-library.js",
       "public/photo-library.js",
-      "public/images/editorial/plan-sossusvlei-sunrise-sesriem/",
-      "docs/editorial-research/2026-10-23-plan-sossusvlei-sunrise-photo-enrichment.md",
+      "public/images/editorial/cape-town-attraction/",
+      "docs/editorial-research/2026-10-23-cape-town-attraction-photo-enrichment.md",
       "docs/image-enrichment-progress.json"
     ],
-    "note": "Added six visually inspected licensed Commons photographs as contextual figures to the previously unillustrated published insight. Captions clarify archival context and avoid current route/condition or operator/participant claims. Exact source pages, creator, license, capture/check dates, evidence, alt, reuse restrictions and SHA-256 are in the library and dated ledger. Source URLs and file hashes checked against all other assignments and all 558 local public images; no duplicates. Existing article prose, design, route IDs, tracking, stay IDs, redirects and canonicals were preserved. Corrected six inline image src values to absolute site URLs required by the insight HTML sanitizer after production markup inspection; then confirmed all six rendered paths and plain assets live.",
-    "next_action": "Rotate to another published destination, activity, or attraction with a verified image gap; inspect current assignments and ledgers first.",
-    "commit": "c935205 + 14eb424",
-    "live_verification": "2026-10-23 16:37 Africa/Kampala: Netlify production deploy 6adb62a1a8e27d9fcbe227a ready for commit 14eb424. Production insight page HTTP 200 contains all six full HTTPS image paths; all six plain asset URLs return HTTP 200 image/jpeg: dunes/shadows 233320 B; Dune 45 visitor 114398 B; D826 road 373123 B; Deadvlei 161071 B; Sesriem Canyon 405508 B; broad dunes 424984 B.",
-    "email_id": "1a168fae0933bc9a",
-    "report_sent_at": "2026-10-23 16:38 Africa/Kampala"
+    "note": "Selected six location-specific images after checking the full guide mapping. All six source pages, creators, licence terms and capture dates were verified and the source previews visually inspected. Global source-page and SHA-256 deduplication against library records, other public images and the six new files passed. Replaced the generic Cape Town stock image. The City Hall candidate was excluded because its source page was already used in the Cape Town base insight. No guide prose, layout, relationships, tracking, redirects or canonicals changed.",
+    "next_action": "Sync the public photo library, run the required narrow syntax/JSON checks, publish safely, then confirm production detail page and all six plain assets before reporting."
   },
   "follow_ups": [],
   "last_pending_check": {
@@ -46,6 +41,31 @@
     "resolved_at": "2026-10-21 13:16 Africa/Kampala"
   },
   "completed_runs": [
+    {
+      "id": "plan-sossusvlei-sunrise-from-sesriem-six-inline-photo-enrichment",
+      "page_url": "https://trekafricaguide.com/travel-insights/plan-sossusvlei-sunrise-from-sesriem/",
+      "page_type": "travel_insight",
+      "status": "complete_live_confirmed",
+      "previous_photo_count": 0,
+      "photo_count": 6,
+      "new_photo_count": 6,
+      "checked_date": "2026-10-23",
+      "source_ledger": "docs/editorial-research/2026-10-23-plan-sossusvlei-sunrise-photo-enrichment.md",
+      "files": [
+        "content/editorial-overrides.json",
+        "src/lib/photo-library.js",
+        "public/photo-library.js",
+        "public/images/editorial/plan-sossusvlei-sunrise-sesriem/",
+        "docs/editorial-research/2026-10-23-plan-sossusvlei-sunrise-photo-enrichment.md",
+        "docs/image-enrichment-progress.json"
+      ],
+      "note": "Added six visually inspected licensed Commons photographs as contextual figures to the previously unillustrated published insight. Captions clarify archival context and avoid current route/condition or operator/participant claims. Exact source pages, creator, license, capture/check dates, evidence, alt, reuse restrictions and SHA-256 are in the library and dated ledger. Source URLs and file hashes checked against all other assignments and all 558 local public images; no duplicates. Existing article prose, design, route IDs, tracking, stay IDs, redirects and canonicals were preserved. Corrected six inline image src values to absolute site URLs required by the insight HTML sanitizer after production markup inspection; then confirmed all six rendered paths and plain assets live.",
+      "next_action": "Rotate to another published destination, activity, or attraction with a verified image gap; inspect current assignments and ledgers first.",
+      "commit": "c935205 + 14eb424",
+      "live_verification": "2026-10-23 16:37 Africa/Kampala: Netlify production deploy 6adb62a1a8e27d9fcbe227a ready for commit 14eb424. Production insight page HTTP 200 contains all six full HTTPS image paths; all six plain asset URLs return HTTP 200 image/jpeg: dunes/shadows 233320 B; Dune 45 visitor 114398 B; D826 road 373123 B; Deadvlei 161071 B; Sesriem Canyon 405508 B; broad dunes 424984 B.",
+      "email_id": "1a168fae0933bc9a",
+      "report_sent_at": "2026-10-23 16:38 Africa/Kampala"
+    },
     {
       "id": "table-mountain-guided-hike-six-photo-enrichment",
       "page_url": "https://trekafricaguide.com/activities/table-mountain-guided-hike/",

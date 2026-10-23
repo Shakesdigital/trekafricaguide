@@ -4928,6 +4928,120 @@ export const photoLibrary = {
       "captured_at": "2005-09",
       "exact_subject_evidence": "Commons description places the dunes near Sossusvlei in Namib-Naukluft National Park; creator and September 2005 capture date are listed on the source page.",
       "reuse_note": "Attribute Winfried Bruenken (Amrum), link CC BY-SA 2.5, indicate resizing, and do not imply endorsement; share-alike applies to adaptations where required. Dunes near Sossusvlei, photographed in September 2005; the archival image is illustrative, not a current conditions report."
+    },
+    "/images/editorial/cape-town-attraction/castle-of-good-hope-2017.jpg": {
+      "slug": "castle-of-good-hope-2017",
+      "local_path": "/images/editorial/cape-town-attraction/castle-of-good-hope-2017.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Castle_of_Good_Hope_Cape_Town.jpg",
+      "creator": "Mattias Hill",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "date": "2017-05-27",
+      "sha256": "343beb1a449e2a21892f321c7829165be16f2d8ea633fd83568e9442ca2b131f",
+      "exact_subject": true,
+      "subject": "Castle of Good Hope bastion fort",
+      "alt": "The Castle of Good Hope’s stone bastions and moat reflect its 17th-century Cape Town setting.",
+      "property": false,
+      "changes": "Wikimedia Commons 1280-pixel thumbnail; no further edits.",
+      "checked_at": "2026-10-23",
+      "captured_at": "2017-05-27",
+      "exact_subject_evidence": "Commons description identifies the Cape Town fort; the photograph visibly shows its bastion walls and moat.",
+      "reuse_note": "Attribute Mattias Hill, link the CC BY-SA 3.0 licence and note 1280-pixel resizing; no endorsement. The 2017 view does not report current access or conditions."
+    },
+    "/images/editorial/cape-town-attraction/cape-point-trailhead-2007.jpg": {
+      "slug": "cape-point-trailhead-2007",
+      "local_path": "/images/editorial/cape-town-attraction/cape-point-trailhead-2007.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Cape_Point_South_Africa.jpg",
+      "creator": "PIERRE ANDRE LECLERCQ",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "date": "2007-09-20",
+      "sha256": "5781ee7281ef4e34ad49ef93a3a286cc996ce45980bf271998c3d9e43669aa96",
+      "exact_subject": true,
+      "subject": "Cape Point lighthouse approach",
+      "alt": "A Cape Point sign marks an exposed fynbos path toward the lighthouse area.",
+      "property": false,
+      "changes": "Wikimedia Commons 1280-pixel thumbnail; no further edits.",
+      "checked_at": "2026-10-23",
+      "captured_at": "2007-09-20",
+      "exact_subject_evidence": "Commons category and geolocation identify Cape Point and the old lighthouse; visible site sign corroborates the location.",
+      "reuse_note": "Attribute PIERRE ANDRE LECLERCQ, link CC BY-SA 4.0, note resizing; no endorsement. Archival image does not establish current access or trail conditions."
+    },
+    "/images/editorial/cape-town-attraction/signal-hill-lookout-2019.jpg": {
+      "slug": "signal-hill-lookout-2019",
+      "local_path": "/images/editorial/cape-town-attraction/signal-hill-lookout-2019.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Signal_hill_(Cape_Town_).jpg",
+      "creator": "Kademo80",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "date": "2019-05-14",
+      "sha256": "817f9f5ec5aaf0929a54e49f319647305b2b5cb2b32aa843ae99ecd4f002a799",
+      "exact_subject": true,
+      "subject": "Signal Hill coastal lookout",
+      "alt": "A railed Signal Hill lookout faces the Atlantic coast and Cape Town suburbs below.",
+      "property": false,
+      "changes": "Wikimedia Commons 1280-pixel thumbnail; no further edits.",
+      "checked_at": "2026-10-23",
+      "captured_at": "2019-05-14",
+      "exact_subject_evidence": "Commons category and coordinates place the view at Signal Hill; the photograph shows its coastal overlook.",
+      "reuse_note": "Attribute Kademo80, link CC BY-SA 4.0, note resizing; no endorsement. Padlocks are incidental, not a visitor recommendation or current amenity claim."
+    },
+    "/images/editorial/cape-town-attraction/bo-kaap-wale-street-2014.jpg": {
+      "slug": "bo-kaap-wale-street-2014",
+      "local_path": "/images/editorial/cape-town-attraction/bo-kaap-wale-street-2014.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Bo_Kaap_street_view_Cape_Town.jpg",
+      "creator": "Kotivalo",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "date": "2014-08-26",
+      "sha256": "13c6cd145e1ede82eda3b7d12508ee52efad6305f9768ddc8ca7cb35f7cde2f3",
+      "exact_subject": true,
+      "subject": "Wale Street in Bo-Kaap",
+      "alt": "A brightly painted building fronts Wale Street in Cape Town’s Bo-Kaap neighborhood.",
+      "property": false,
+      "changes": "Wikimedia Commons 1280-pixel thumbnail; no further edits.",
+      "checked_at": "2026-10-23",
+      "captured_at": "2014-08-26",
+      "exact_subject_evidence": "Commons category identifies Wale Street, Bo-Kaap; source page records the capture date.",
+      "reuse_note": "Attribute Kotivalo, link CC BY-SA 4.0, note resizing; no endorsement. Respect residents’ privacy; this archival scene is not permission to photograph people or homes."
+    },
+    "/images/editorial/cape-town-attraction/kirstenbosch-fynbos-garden-2013.jpg": {
+      "slug": "kirstenbosch-fynbos-garden-2013",
+      "local_path": "/images/editorial/cape-town-attraction/kirstenbosch-fynbos-garden-2013.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Kirstenbosch_botanical_garden_-_fynbos_-_cape_town.jpg",
+      "creator": "Abu Shawka",
+      "license": "CC0 1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "date": "2013-08-10",
+      "sha256": "d8bc6c725c21ffe223d720f1584f5bf18a92c531f0c10fca9d1b2ddbe9a2386f",
+      "exact_subject": true,
+      "subject": "Fynbos planting at Kirstenbosch",
+      "alt": "Fynbos flowers and mountain-backed planting at Kirstenbosch National Botanical Garden.",
+      "property": false,
+      "changes": "Wikimedia Commons 1280-pixel thumbnail; no further edits.",
+      "checked_at": "2026-10-23",
+      "captured_at": "2013-08-10",
+      "exact_subject_evidence": "Commons page identifies a fynbos garden at Kirstenbosch in Cape Town; the pictured planting and mountain support the subject.",
+      "reuse_note": "Abu Shawka dedicated this work to CC0 1.0; attribution is courteous. Resized to 1280 pixels. Archival garden appearance is not a bloom forecast."
+    },
+    "/images/editorial/cape-town-attraction/lions-head-from-cbd-2026.jpg": {
+      "slug": "lions-head-from-cbd-2026",
+      "local_path": "/images/editorial/cape-town-attraction/lions-head-from-cbd-2026.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Lion%27s_Head_from_Cape_Town_CBD_(Landscape).jpg",
+      "creator": "Husskeyy",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "date": "2026-01-19",
+      "sha256": "6a523d71fa6630300ac097cde388c498d9cf3d84207a8894bb2b7f4a0f40fc40",
+      "exact_subject": true,
+      "subject": "Lion’s Head above central Cape Town",
+      "alt": "Lion’s Head rises above central Cape Town neighborhoods in a broad daylight view.",
+      "property": false,
+      "changes": "Wikimedia Commons 1280-pixel thumbnail; no further edits.",
+      "checked_at": "2026-10-23",
+      "captured_at": "2026-01-19",
+      "exact_subject_evidence": "Commons title identifies Lion’s Head from Cape Town CBD and records the 19 January 2026 capture date.",
+      "reuse_note": "Attribute Husskeyy, link CC BY-SA 4.0 and note resizing; no endorsement. Dated view is not a current visibility or weather report."
     }
   },
   "listings": {
@@ -5007,13 +5121,18 @@ export const photoLibrary = {
         ]
       },
       "cape-town": {
-        "hero_image_url": "/images/stock/destinations/cape-town.jpg",
-        "hero_image_alt": "Cape Town - Table Mountain seen from Company's Garden",
+        "hero_image_url": "/images/editorial/cape-town-attraction/castle-of-good-hope-2017.jpg",
+        "hero_image_alt": "The Castle of Good Hope’s stone bastions and moat reflect its 17th-century Cape Town setting.",
         "replaces": [
           "/images/stock/destinations/cape-town.jpg"
         ],
         "gallery": [
-          "/images/stock/destinations/cape-town.jpg"
+          "/images/editorial/cape-town-attraction/castle-of-good-hope-2017.jpg",
+          "/images/editorial/cape-town-attraction/cape-point-trailhead-2007.jpg",
+          "/images/editorial/cape-town-attraction/signal-hill-lookout-2019.jpg",
+          "/images/editorial/cape-town-attraction/bo-kaap-wale-street-2014.jpg",
+          "/images/editorial/cape-town-attraction/kirstenbosch-fynbos-garden-2013.jpg",
+          "/images/editorial/cape-town-attraction/lions-head-from-cbd-2026.jpg"
         ]
       },
       "djanet-and-tassili": {
@@ -5551,13 +5670,18 @@ export const photoLibrary = {
         ]
       },
       "table-mountain-guided-hike": {
-        "hero_image_url": "/images/stock/destinations/cape-town.jpg",
-        "hero_image_alt": "Cape Town - Table Mountain seen from Company's Garden",
+        "hero_image_url": "/images/editorial/table-mountain-guided-hike/table-mountain-hikers-platteklip-2018.jpg",
+        "hero_image_alt": "Hikers follow a rocky trail uphill across Table Mountain's fynbos-covered slope.",
         "replaces": [
           "/images/stock/destinations/cape-town.jpg"
         ],
         "gallery": [
-          "/images/stock/destinations/cape-town.jpg"
+          "/images/editorial/table-mountain-guided-hike/table-mountain-hikers-platteklip-2018.jpg",
+          "/images/editorial/table-mountain-guided-hike/initial-ascent-table-mountain-2020.jpg",
+          "/images/editorial/table-mountain-guided-hike/platteklip-upper-view-2018.jpg",
+          "/images/editorial/table-mountain-guided-hike/table-mountain-trailhead-sign-2018.jpg",
+          "/images/editorial/table-mountain-guided-hike/platteklip-gorge-trail-2018.jpg",
+          "/images/editorial/table-mountain-guided-hike/table-mountain-platteklip-view-2018.jpg"
         ]
       },
       "cape-coast-kakum-guided-visit": {
@@ -5593,7 +5717,6 @@ export const photoLibrary = {
           "/images/stock/destinations/okavango-delta.jpg"
         ]
       },
-
       "volcanoes-gorilla-trek": {
         "hero_image_url": "/images/stock/starter/volcanoes-national-park.jpg",
         "hero_image_alt": "Female mountain gorilla in Volcanoes National Park, Rwanda",
@@ -5642,21 +5765,6 @@ export const photoLibrary = {
           "/images/editorial/stone-town-walking-tour/house-of-wonders-renovation-2021.jpg",
           "/images/editorial/stone-town-walking-tour/anglican-cathedral-2021.jpg",
           "/images/editorial/stone-town-walking-tour/hindu-temple-stone-town-2005.jpg"
-        ]
-      },
-      "table-mountain-guided-hike": {
-        "hero_image_url": "/images/editorial/table-mountain-guided-hike/table-mountain-hikers-platteklip-2018.jpg",
-        "hero_image_alt": "Hikers follow a rocky trail uphill across Table Mountain's fynbos-covered slope.",
-        "replaces": [
-          "/images/stock/destinations/cape-town.jpg"
-        ],
-        "gallery": [
-          "/images/editorial/table-mountain-guided-hike/table-mountain-hikers-platteklip-2018.jpg",
-          "/images/editorial/table-mountain-guided-hike/initial-ascent-table-mountain-2020.jpg",
-          "/images/editorial/table-mountain-guided-hike/platteklip-upper-view-2018.jpg",
-          "/images/editorial/table-mountain-guided-hike/table-mountain-trailhead-sign-2018.jpg",
-          "/images/editorial/table-mountain-guided-hike/platteklip-gorge-trail-2018.jpg",
-          "/images/editorial/table-mountain-guided-hike/table-mountain-platteklip-view-2018.jpg"
         ]
       }
     },
