@@ -251,8 +251,8 @@
     "After quota interruption resume at next eligible scheduled run; do not assume immediate credit-reset wakeup.",
     "No routine tests/builds or repeated broad audits."
   ],
-  "next_task_selection": "Refresh one Cairo–Giza guided activity, then rotate to attractions.",
-  "last_run": "2026-10-23T10:50:00+03:00",
+  "next_task_selection": "Complete one attraction guide beyond the recent Egypt activity, then rotate to destinations.",
+  "last_run": "2026-10-23T10:55:00+03:00",
   "task_magnitude": "One complete full guide plus booking and listing cards, or one full property photo collection; do not schedule isolated paragraphs/links.",
   "country_destinations_feature": {
     "status": "complete",
@@ -272,15 +272,15 @@
     "email_id": "1a143a69416cf3d1"
   },
   "rotation": {
-    "last_completed_category": "travel_insights",
-    "next_category": "activities",
-    "next_deliverable": "Complete one useful activity guide with exact operator evidence.",
+    "last_completed_category": "activities",
+    "next_category": "attractions",
+    "next_deliverable": "Complete one useful attraction guide with current official access evidence.",
     "rule": "Finish the individual deliverable and report its live state, then rotate. Track exact-property photo gaps separately."
   },
   "current_deliverable": {
     "id": "giza-pyramids-guided-tour-refresh",
     "category": "activities",
-    "status": "draft_ready",
+    "status": "complete",
     "objective": "Refresh the existing Giza pyramids and Grand Egyptian Museum day-tour guide with current official entry/logistics, exact GetYourGuide product facts, balanced limits and correct canonical links.",
     "research_checked": "2026-10-23",
     "image_count": 0,
@@ -294,9 +294,19 @@
       "docs/editorial-progress.json"
     ],
     "checkpoint": "Completed focused full guide for existing activity giza-pyramids-guided-tour (ID 10), related to published Cairo and Giza attraction ID 51. Exact GYG product 851104 (OceanAir Travels) supplies the route and pickup claims; its ticket-option language and legacy museum-status note remain flagged for traveler confirmation against official GEM and Egyptian Monuments sources. Removed two duplicated activity image assignments while preserving originals in the attraction gallery. Added dated claim ledger and six-subject separate photo backlog.",
-    "next_action": "Run npm run check:build-inputs and inspect the concise diff; then commit/push and confirm the production page before marking complete and emailing the owner.",
+    "next_action": "Activity page is live-confirmed; owner report sent and recorded below. Continue next rotation with an attraction guide.",
     "booking_gap": "Exact GYG product is present; verify selected ticket option and current museum availability because the OTA page carries stale museum-status wording. No ratings or review totals unless independently confirmed.",
-    "last_updated": "2026-10-23T10:50:00+03:00"
+    "email_id": "1a167c431a3102a8",
+    "live_verification": {
+      "checked": "2026-10-23",
+      "url": "https://trekafricaguide.com/activities/giza-pyramids-guided-tour",
+      "status": 200,
+      "distinctive_text": "The GetYourGuide tour from OceanAir Travels",
+      "canonical_attraction": "/attractions/cairo-and-giza",
+      "stay22_target": "Exact t851104 product resolved through Stay22",
+      "activity_images": 0
+    },
+    "last_updated": "2026-10-23T10:55:00+03:00"
   },
   "previous_deliverable_correction": {
     "id": "marrakech-medina-street-food-walk",
