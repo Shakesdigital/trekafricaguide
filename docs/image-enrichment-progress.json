@@ -1,33 +1,28 @@
 {
   "updated_at": "2026-10-23",
   "current_run": {
-    "id": "kwame-nkrumah-memorial-park-six-photo-enrichment",
-    "page_url": "https://trekafricaguide.com/attractions/kwame-nkrumah-memorial-park/",
-    "page_type": "attraction",
-    "status": "complete_live_confirmed",
+    "id": "table-mountain-guided-hike-six-photo-enrichment",
+    "page_url": "https://trekafricaguide.com/activities/table-mountain-guided-hike/",
+    "page_type": "activity",
+    "status": "prepared_pending_publication",
     "previous_photo_count": 0,
     "photo_count": 6,
     "new_photo_count": 6,
     "checked_date": "2026-10-23",
-    "source_ledger": "docs/editorial-research/2026-10-23-kwame-nkrumah-memorial-park-photo-enrichment.md",
+    "source_ledger": "docs/editorial-research/2026-10-23-table-mountain-guided-hike-photo-enrichment.md",
     "files": [
       "src/lib/photo-library.js",
       "public/photo-library.js",
-      "public/images/editorial/kwame-nkrumah-memorial-park/park-aerial-2023.jpg",
-      "public/images/editorial/kwame-nkrumah-memorial-park/night-fountain-walkway-2023.jpg",
-      "public/images/editorial/kwame-nkrumah-memorial-park/monument-framed-entrance-2023.jpg",
-      "public/images/editorial/kwame-nkrumah-memorial-park/illuminated-courtyard-2023.jpg",
-      "public/images/editorial/kwame-nkrumah-memorial-park/mausoleum-statue-foreground-2023.jpg",
-      "public/images/editorial/kwame-nkrumah-memorial-park/central-walkway-2023.jpg",
-      "docs/editorial-research/2026-10-23-kwame-nkrumah-memorial-park-photo-enrichment.md",
+      "public/images/editorial/table-mountain-guided-hike/",
+      "docs/editorial-research/2026-10-23-table-mountain-guided-hike-photo-enrichment.md",
       "docs/image-enrichment-progress.json"
     ],
-    "note": "Six visually inspected 2023 Commons images of the exact Accra memorial park added to its published empty gallery. All six are CC BY-SA 4.0, with creator/license/date/evidence/alt/restriction and SHA-256 recorded in the library and source ledger. Source URL and SHA-256 dedup against all library assignments and local public images found no duplicates. The existing renderer, guide claims and all site-wide UI/tracking settings remain untouched.",
-    "next_action": "Rotate to another published attraction or activity with an evidenced image gap; inspect current assignments and ledgers first. No blocker.",
-    "commit": "77e690c75a81ca95a40a44b6c74db5919db64ac3",
-    "live_verification": "2026-10-23 10:59 Africa/Kampala: Netlify production deploy 6adb137e5ca452306eb366eb for commit 77e690c reported ready. Production attraction page HTTP 200 includes all six filenames and See all 6. All six plain image URLs return HTTP 200 image/jpeg: park-aerial 297639 B; central-walkway 238624 B; night-fountain-walkway 251980 B; illuminated-courtyard 227315 B; monument-framed-entrance 624167 B; mausoleum-statue-foreground 304547 B.",
-    "email_id": "1a167c542e32b46c",
-    "report_sent_at": "2026-10-23 10:59 Africa/Kampala"
+    "note": "Six visually inspected, distinct CC BY-SA Commons photographs show Table Mountain hiking trails and hikers. Captions explicitly state that pictured people are not participants in the linked activity and do not claim its route. Exact source pages, creator, licence, capture/check date, evidence, alt/caption, restrictions, thumbnail changes and SHA-256 are recorded in the library and ledger. New source URLs and file hashes were compared against all other library assignments and every local public image; no duplicates. The prior generic Cape Town image was removed from this activity gallery. No factual guide text, renderer, relationships, UI or tracking changed.",
+    "next_action": "Commit and push the six-photo gallery; verify the live activity page and each new image asset; send one owner update and record its receipt.",
+    "commit": null,
+    "live_verification": null,
+    "email_id": null,
+    "report_sent_at": null
   },
   "follow_ups": [],
   "last_pending_check": {
@@ -483,6 +478,35 @@
       "live_verification": "2026-10-22 14:20 Africa/Kampala: production attraction page HTTP 200 includes all six expected image filenames and See all 6. All six plain JPEG URLs return HTTP 200 image/jpeg; a transient no-response for the landscape URL resolved on the immediate retry.",
       "email_id": "1a163572e83b5dbe",
       "report_sent_at": "2026-10-22 14:20 Africa/Kampala"
+    },
+    {
+      "id": "kwame-nkrumah-memorial-park-six-photo-enrichment",
+      "page_url": "https://trekafricaguide.com/attractions/kwame-nkrumah-memorial-park/",
+      "page_type": "attraction",
+      "status": "complete_live_confirmed",
+      "previous_photo_count": 0,
+      "photo_count": 6,
+      "new_photo_count": 6,
+      "checked_date": "2026-10-23",
+      "source_ledger": "docs/editorial-research/2026-10-23-kwame-nkrumah-memorial-park-photo-enrichment.md",
+      "files": [
+        "src/lib/photo-library.js",
+        "public/photo-library.js",
+        "public/images/editorial/kwame-nkrumah-memorial-park/park-aerial-2023.jpg",
+        "public/images/editorial/kwame-nkrumah-memorial-park/night-fountain-walkway-2023.jpg",
+        "public/images/editorial/kwame-nkrumah-memorial-park/monument-framed-entrance-2023.jpg",
+        "public/images/editorial/kwame-nkrumah-memorial-park/illuminated-courtyard-2023.jpg",
+        "public/images/editorial/kwame-nkrumah-memorial-park/mausoleum-statue-foreground-2023.jpg",
+        "public/images/editorial/kwame-nkrumah-memorial-park/central-walkway-2023.jpg",
+        "docs/editorial-research/2026-10-23-kwame-nkrumah-memorial-park-photo-enrichment.md",
+        "docs/image-enrichment-progress.json"
+      ],
+      "note": "Six visually inspected 2023 Commons images of the exact Accra memorial park added to its published empty gallery. All six are CC BY-SA 4.0, with creator/license/date/evidence/alt/restriction and SHA-256 recorded in the library and source ledger. Source URL and SHA-256 dedup against all library assignments and local public images found no duplicates. The existing renderer, guide claims and all site-wide UI/tracking settings remain untouched.",
+      "next_action": "Rotate to another published attraction or activity with an evidenced image gap; inspect current assignments and ledgers first. No blocker.",
+      "commit": "77e690c75a81ca95a40a44b6c74db5919db64ac3",
+      "live_verification": "2026-10-23 10:59 Africa/Kampala: Netlify production deploy 6adb137e5ca452306eb366eb for commit 77e690c reported ready. Production attraction page HTTP 200 includes all six filenames and See all 6. All six plain image URLs return HTTP 200 image/jpeg: park-aerial 297639 B; central-walkway 238624 B; night-fountain-walkway 251980 B; illuminated-courtyard 227315 B; monument-framed-entrance 624167 B; mausoleum-statue-foreground 304547 B.",
+      "email_id": "1a167c542e32b46c",
+      "report_sent_at": "2026-10-23 10:59 Africa/Kampala"
     }
   ]
 }
