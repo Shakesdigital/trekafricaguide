@@ -11,6 +11,7 @@
     "checked_date": "2026-10-23",
     "source_ledger": "docs/editorial-research/2026-10-23-marriott-mena-house-photo-enrichment.md",
     "files": [
+      "content/editorial-overrides.json",
       "src/lib/photo-library.js",
       "public/photo-library.js",
       "public/images/editorial/marriott-mena-house-cairo/",
