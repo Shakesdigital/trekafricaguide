@@ -251,8 +251,8 @@
     "After quota interruption resume at next eligible scheduled run; do not assume immediate credit-reset wakeup.",
     "No routine tests/builds or repeated broad audits."
   ],
-  "next_task_selection": "Complete one attraction guide beyond the recent Egypt activity, then rotate to destinations.",
-  "last_run": "2026-10-23T10:55:00+03:00",
+  "next_task_selection": "Add one new Great Zimbabwe National Monument attraction guide, then rotate to destinations.",
+  "last_run": "2026-10-23T16:30:00+03:00",
   "task_magnitude": "One complete full guide plus booking and listing cards, or one full property photo collection; do not schedule isolated paragraphs/links.",
   "country_destinations_feature": {
     "status": "complete",
@@ -274,39 +274,26 @@
   "rotation": {
     "last_completed_category": "activities",
     "next_category": "attractions",
-    "next_deliverable": "Complete one useful attraction guide with current official access evidence.",
+    "next_deliverable": "Complete one useful new attraction guide with current official access evidence.",
     "rule": "Finish the individual deliverable and report its live state, then rotate. Track exact-property photo gaps separately."
   },
   "current_deliverable": {
-    "id": "giza-pyramids-guided-tour-refresh",
-    "category": "activities",
-    "status": "complete",
-    "objective": "Refresh the existing Giza pyramids and Grand Egyptian Museum day-tour guide with current official entry/logistics, exact GetYourGuide product facts, balanced limits and correct canonical links.",
+    "id": "great-zimbabwe-national-monument-guide",
+    "category": "attractions",
+    "status": "draft_ready",
+    "objective": "Add a useful, sourced attraction guide for Great Zimbabwe National Monument, grounded in UNESCO and National Museums and Monuments of Zimbabwe information, and linked to the existing Zimbabwe country.",
     "research_checked": "2026-10-23",
     "image_count": 0,
-    "image_followup": "Removed two duplicate activity assignments while preserving the attraction images and their provenance. Activity gallery is neutral with 0 images; six distinct activity-specific subjects are recorded in the separate photo backlog.",
+    "image_followup": "Photo library has no verified Great Zimbabwe-specific collection. Keep this guide neutral with 0 photos and record six distinct monument-specific subjects separately; do not reuse Victoria Falls images.",
     "files": [
       "content/editorial-overrides.json",
-      "content/booking-destinations.json",
-      "src/lib/photo-library.js",
-      "public/photo-library.js",
-      "docs/editorial-research/2026-10-23-giza-pyramids-museum-day-tour.md",
+      "docs/editorial-research/2026-10-23-great-zimbabwe-national-monument.md",
       "docs/editorial-progress.json"
     ],
-    "checkpoint": "Completed focused full guide for existing activity giza-pyramids-guided-tour (ID 10), related to published Cairo and Giza attraction ID 51. Exact GYG product 851104 (OceanAir Travels) supplies the route and pickup claims; its ticket-option language and legacy museum-status note remain flagged for traveler confirmation against official GEM and Egyptian Monuments sources. Removed two duplicated activity image assignments while preserving originals in the attraction gallery. Added dated claim ledger and six-subject separate photo backlog.",
-    "next_action": "Activity page is live-confirmed; owner report sent and recorded below. Continue next rotation with an attraction guide.",
-    "booking_gap": "Exact GYG product is present; verify selected ticket option and current museum availability because the OTA page carries stale museum-status wording. No ratings or review totals unless independently confirmed.",
-    "email_id": "1a167c431a3102a8",
-    "live_verification": {
-      "checked": "2026-10-23",
-      "url": "https://trekafricaguide.com/activities/giza-pyramids-guided-tour",
-      "status": 200,
-      "distinctive_text": "The GetYourGuide tour from OceanAir Travels",
-      "canonical_attraction": "/attractions/cairo-and-giza",
-      "stay22_target": "Exact t851104 product resolved through Stay22",
-      "activity_images": 0
-    },
-    "last_updated": "2026-10-23T10:55:00+03:00"
+    "checkpoint": "Drafted new Great Zimbabwe attraction with the three UNESCO-described zones, Shona historical context, present sacred significance, access from Masvingo, NMMZ hours reconfirmation, uneven terrain and a dated 2025 visitor perspective. Exact sources and limits are in docs/editorial-research/2026-10-23-great-zimbabwe-national-monument.md. No exact booking product or geographically nearby published stay was verified, so neither is added. Gallery remains neutral (0 images); six monument-specific subjects tracked separately.",
+    "next_action": "Inspect changed record and source ledger, run npm run check:build-inputs, then safely commit/push and verify unique live text plus Zimbabwe country relationship before owner email.",
+    "booking_gap": "No exact bookable attraction ticket or tour has been verified; omit booking CTA. Do not attach Victoria Falls Hotel as nearby; it is a separate regional destination.",
+    "last_updated": "2026-10-23T16:30:00+03:00"
   },
   "previous_deliverable_correction": {
     "id": "marrakech-medina-street-food-walk",
@@ -315,7 +302,7 @@
     "email_id": "1a148cdf8dbabb76",
     "note": "Live page and booking relationship were confirmed and the owner report was already sent. Corrected the stale pending-owner-report status without resending the email."
   },
-  "next_scheduled_run": "2026-10-23T13:30:00+03:00",
+  "next_scheduled_run": "2026-10-23T19:30:00+03:00",
   "analytics_installation": {
     "measurement_id": "G-ZWBZRQPBK7",
     "commit": "4f76457",
@@ -394,6 +381,14 @@
     "email_id": "1a16281372dec628"
   },
   "completed_deliverable_history": [
+    {
+      "id": "giza-pyramids-guided-tour-refresh",
+      "category": "activities",
+      "status": "complete",
+      "commit": "fcdba65",
+      "email_id": "1a167c431a3102a8",
+      "note": "Live page verified HTTP 200 with distinctive body, canonical Cairo/Giza link and exact Stay22 t851104 target; neutral 0-photo activity collection after removing two duplicate attraction assignments. Progress receipt committed in 718d56d."
+    },
     {
       "id": "victoria-falls-cross-border-first-visit",
       "category": "travel_insights",

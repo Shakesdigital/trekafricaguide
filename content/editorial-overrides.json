@@ -1371,6 +1371,52 @@
       "last_researched": "2026-10-20",
       "traveler_feedback": "A TripAdvisor visitor who visited in June 2025 and published their review on 23 February 2026 described the mausoleum visit as moving and said photographs and personal objects in the museum made Nkrumah’s story more tangible. This is one visitor’s perspective, not a guarantee of the current displays or guiding.",
       "source_url": "https://knmp.gov.gh/new/visiting-hours-rates/"
+    },
+    {
+      "region_id": 16,
+      "country_id": 57,
+      "slug": "great-zimbabwe-national-monument",
+      "name": "Great Zimbabwe National Monument",
+      "location_name": "Masvingo Province, Zimbabwe",
+      "hero_image_url": null,
+      "hero_image_alt": "Great Zimbabwe National Monument in Masvingo Province, Zimbabwe",
+      "gallery": [],
+      "listing_summary": "Walk among the Hill Ruins, Great Enclosure and Valley Ruins of the Shona-built city that became Zimbabwe’s national emblem. Plan the visit from Masvingo and allow time for uneven paths, a steep hill section and respectful care at a living sacred heritage site.",
+      "detail_intro": "Great Zimbabwe is an extensive stone-built archaeological landscape near Masvingo, not a single enclosure to view from the road. Its dry-stone architecture and surviving settlement areas tell the story of Shona communities who built and inhabited a major regional centre between the 11th and 15th centuries. The best visit gives the three main areas time to make sense and treats the site as a continuing place of cultural and spiritual importance.",
+      "full_description": "<p>The monument is organized around three groups: the Hill Ruins, the Great Enclosure and the Valley Ruins. On the granite hill, walls shape a series of enclosures and narrow, partly covered passages. Below, the Great Enclosure’s carefully coursed stone wall surrounds former living spaces and a narrow passage leading toward its tall conical tower. The Valley Ruins are dispersed residential ensembles rather than one single building. Moving between these different forms helps visitors read the site as a lived city and trading centre, not simply a collection of dramatic walls.</p><p>UNESCO dates the main city to about 1100–1450 and records trade evidence including beads and porcelain from Asia and gold and Arab coins from Kilwa. The monument was built by Shona communities; the name Zimbabwe is associated with “house in stone.” The carved soapstone birds found here became a national emblem. UNESCO also notes that the site continues to hold spiritual significance for contemporary communities, so follow staff instructions, respect restricted or sacred areas, and ask before photographing people or ceremonies. See the <a href=\"https://whc.unesco.org/en/list/364/\">UNESCO World Heritage description</a> for the historical and conservation context.</p><p>For a practical visit, use Masvingo as your staging point: UNESCO places the monument about 30 km from the city. Arrange the last road transfer with your accommodation or transport provider; confirm pickup, return time and whether the driver will wait. Set aside a substantial part of the day for the site rather than treating it as a quick roadside stop. A suggested sequence is to ask staff whether the Hill Ruins are open and suitable for you, start there while you are fresh, then continue to the Great Enclosure and Valley Ruins. The hill includes climbs and narrow passages; if heat, balance or mobility affect your day, ask staff to help prioritize a more comfortable route.</p><p>A Tripadvisor visitor who went in August 2025 and posted on 2 September described the paths as well marked and the museum collection as worthwhile, while warning that the shop and restaurant were basic and not reliable as a lunch plan. That is one traveler’s account, not a current facilities guarantee. Confirm what is open with the National Museums and Monuments of Zimbabwe (NMMZ), the monument’s manager, before you set out.</p>",
+      "highlights": [
+        "Hill Ruins with granite enclosures and narrow passages",
+        "The Great Enclosure’s monumental wall and conical tower",
+        "Valley Ruins that reveal settlement beyond the hilltop complex",
+        "Shona stone architecture and a site of continuing cultural significance"
+      ],
+      "getting_there": "Great Zimbabwe lies about 30 km from Masvingo. Travel by road to Masvingo, then arrange a separate local transfer to the monument; confirm the pickup, return time and whether the driver will wait. If you are coming from Harare or Bulawayo, verify the current intercity transport schedule and leave enough margin for the final leg. NMMZ is the monument authority; confirm the last-leg transfer, return arrangements and current visitor information before travel.",
+      "best_time": "Contact NMMZ before your visit to confirm the monument opening and last-entry times. Arriving earlier leaves more flexibility for the hill section and the spread-out enclosures. A visitor in August 2025 also recommended an early start to avoid the heat; treat that as personal advice, check the forecast for your date and carry water and sun protection. No fixed month guarantees comfortable walking or particular site conditions.",
+      "practical_info": "Wear secure walking shoes for rocky ground, slopes and uneven historic surfaces. Carry drinking water, sun protection and any personal medication; do not rely on the shop or restaurant for a full meal until you have confirmed current service. Ask NMMZ staff what route and guide options are available, which areas are open, and whether photography or access restrictions apply. Do not climb on or remove material from the walls. Visitors with reduced mobility or a strong aversion to heights or enclosed passages should ask about alternatives before starting the Hill Ruins. Confirm current admission charges and accepted payment methods directly with NMMZ before setting out.",
+      "research_sources": [
+        {
+          "label": "UNESCO World Heritage Centre: Great Zimbabwe National Monument history, layout, significance and location",
+          "url": "https://whc.unesco.org/en/list/364/"
+        },
+        {
+          "label": "National Museums and Monuments of Zimbabwe: current visitor information and daily hours",
+          "url": "https://www.nmmz.co.zw/"
+        },
+        {
+          "label": "NMMZ: contacts and monument visitor questions",
+          "url": "https://www.nmmz.co.zw/contacts/"
+        },
+        {
+          "label": "Tripadvisor: dated Great Zimbabwe visitor review (visited August 2025; posted 2 September 2025)",
+          "url": "https://www.tripadvisor.com/Attraction_Review-g316121-d1424573-Reviews-Great_Zimbabwe_National_Monument-Masvingo_Masvingo_Province.html"
+        }
+      ],
+      "traveler_feedback": "One Tripadvisor visitor who went in August 2025 and posted on 2 September described the site as well marked and the museum collection as worthwhile, but said the shop and restaurant were basic and advised against relying on them for lunch. This is one individual report, not a guarantee of current facilities or conditions.",
+      "last_researched": "2026-10-23",
+      "featured": false,
+      "sort_order": 29,
+      "published_at": "2026-10-23",
+      "status": "published"
     }
   ],
   "accommodations": [
