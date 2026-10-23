@@ -4,7 +4,7 @@
     "id": "plan-sossusvlei-sunrise-from-sesriem-six-inline-photo-enrichment",
     "page_url": "https://trekafricaguide.com/travel-insights/plan-sossusvlei-sunrise-from-sesriem/",
     "page_type": "travel_insight",
-    "status": "prepared_pending_publication",
+    "status": "complete_live_confirmed",
     "previous_photo_count": 0,
     "photo_count": 6,
     "new_photo_count": 6,
@@ -18,12 +18,12 @@
       "docs/editorial-research/2026-10-23-plan-sossusvlei-sunrise-photo-enrichment.md",
       "docs/image-enrichment-progress.json"
     ],
-    "note": "Added six visually inspected licensed Commons photographs as contextual figures to the previously unillustrated published insight. Captions clarify archival context and avoid current route/condition or operator/participant claims. Exact source pages, creator, license, capture/check dates, evidence, alt, reuse restrictions and SHA-256 are in the library and dated ledger. Source URLs and file hashes checked against all other assignments and all 558 local public images; no duplicates. Existing article prose, design, route IDs, tracking, stay IDs, redirects and canonicals were preserved.",
-    "next_action": "Commit and push the prepared photo additions; verify the live article page and each new image asset; send one owner report and record its receipt.",
-    "commit": null,
-    "live_verification": null,
-    "email_id": null,
-    "report_sent_at": null
+    "note": "Added six visually inspected licensed Commons photographs as contextual figures to the previously unillustrated published insight. Captions clarify archival context and avoid current route/condition or operator/participant claims. Exact source pages, creator, license, capture/check dates, evidence, alt, reuse restrictions and SHA-256 are in the library and dated ledger. Source URLs and file hashes checked against all other assignments and all 558 local public images; no duplicates. Existing article prose, design, route IDs, tracking, stay IDs, redirects and canonicals were preserved. Corrected six inline image src values to absolute site URLs required by the insight HTML sanitizer after production markup inspection; then confirmed all six rendered paths and plain assets live.",
+    "next_action": "Rotate to another published destination, activity, or attraction with a verified image gap; inspect current assignments and ledgers first.",
+    "commit": "c935205 + 14eb424",
+    "live_verification": "2026-10-23 16:37 Africa/Kampala: Netlify production deploy 6adb62a1a8e27d9fcbe227a ready for commit 14eb424. Production insight page HTTP 200 contains all six full HTTPS image paths; all six plain asset URLs return HTTP 200 image/jpeg: dunes/shadows 233320 B; Dune 45 visitor 114398 B; D826 road 373123 B; Deadvlei 161071 B; Sesriem Canyon 405508 B; broad dunes 424984 B.",
+    "email_id": "1a168fae0933bc9a",
+    "report_sent_at": "2026-10-23 16:38 Africa/Kampala"
   },
   "follow_ups": [],
   "last_pending_check": {
