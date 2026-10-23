@@ -428,7 +428,7 @@
     }
   ],
   "rendering_correction": {
-    "status": "in_progress",
+    "status": "complete",
     "date": "2026-10-23",
     "reason": "Owner reported literal HTML on Great Zimbabwe; emergency readability fix overrides rotation.",
     "files": [
@@ -438,6 +438,10 @@
       "package.json"
     ],
     "completed": "Shared sanitized rich-text rendering fixed; focused real-content, plain-text, unsafe HTML and guard checks passed.",
-    "next_action": "Push main; confirm production deployment and actual live paragraphs/anchors; email owner."
+    "next_action": "Resume destination category rotation; retain readability gate for every publication.",
+    "commit": "37a6a22",
+    "deployment": "6adba96ad5fe9f4ba4d990a4",
+    "live_verification": "2026-10-23: Great Zimbabwe HTTP 200, real rich-text paragraphs and UNESCO anchor; no exposed markup. Five other content-type live pages passed.",
+    "email_id": "1a16a11360677d0a"
   }
 }
