@@ -4,7 +4,7 @@
     "id": "kwame-nkrumah-memorial-park-six-photo-enrichment",
     "page_url": "https://trekafricaguide.com/attractions/kwame-nkrumah-memorial-park/",
     "page_type": "attraction",
-    "status": "pushed_pending_live",
+    "status": "complete_live_confirmed",
     "previous_photo_count": 0,
     "photo_count": 6,
     "new_photo_count": 6,
@@ -23,11 +23,11 @@
       "docs/image-enrichment-progress.json"
     ],
     "note": "Six visually inspected 2023 Commons images of the exact Accra memorial park added to its published empty gallery. All six are CC BY-SA 4.0, with creator/license/date/evidence/alt/restriction and SHA-256 recorded in the library and source ledger. Source URL and SHA-256 dedup against all library assignments and local public images found no duplicates. The existing renderer, guide claims and all site-wide UI/tracking settings remain untouched.",
-    "next_action": "After pushing the image commit, verify the production page and every image URL, send one owner update, then record the live/email receipt.",
-    "commit": null,
-    "live_verification": null,
-    "email_id": null,
-    "report_sent_at": null
+    "next_action": "Rotate to another published attraction or activity with an evidenced image gap; inspect current assignments and ledgers first. No blocker.",
+    "commit": "77e690c75a81ca95a40a44b6c74db5919db64ac3",
+    "live_verification": "2026-10-23 10:59 Africa/Kampala: Netlify production deploy 6adb137e5ca452306eb366eb for commit 77e690c reported ready. Production attraction page HTTP 200 includes all six filenames and See all 6. All six plain image URLs return HTTP 200 image/jpeg: park-aerial 297639 B; central-walkway 238624 B; night-fountain-walkway 251980 B; illuminated-courtyard 227315 B; monument-framed-entrance 624167 B; mausoleum-statue-foreground 304547 B.",
+    "email_id": "1a167c542e32b46c",
+    "report_sent_at": "2026-10-23 10:59 Africa/Kampala"
   },
   "follow_ups": [],
   "last_pending_check": {
