@@ -4,7 +4,7 @@
     "id": "marriott-mena-house-cairo-eight-photo-enrichment",
     "page_url": "https://trekafricaguide.com/accommodations/marriott-mena-house-cairo",
     "page_type": "accommodation",
-    "status": "in_progress",
+    "status": "complete_live_confirmed",
     "previous_photo_count": 1,
     "photo_count": 9,
     "new_photo_count": 8,
@@ -19,7 +19,11 @@
       "docs/image-enrichment-progress.json"
     ],
     "note": "Added eight distinct exact-Mena-House photos from Ovedc’s 2017 Commons series under CC BY-SA 4.0. All selected previews, source-page metadata and licence terms were checked. Exact-property evidence includes the Mena House file description/category and camera coordinates at the property. Global source URL and SHA-256 deduplication passed against the full library and public images. The existing hotel exterior remains; gallery now has nine exact-property photos. Excluded repetitive, indistinct and people-dominated candidates. No guide prose, layout, links, booking IDs, analytics, redirects or canonicals changed.",
-    "next_action": "Confirm the live accommodation page and every new asset, then send the authorized owner report once."
+    "next_action": "One further distinct, free-licensed exact-property image would bring the accommodation gallery to the 10-image minimum; otherwise rotate to another underfilled gallery. No blocker.",
+    "commit": "d425db2",
+    "live_verification": "2026-10-23 23:25 Africa/Kampala: Netlify production deploy 6adbc263db4f2750360b8e0f is ready for d425db2. Live accommodation page HTTP 200 includes See all 9 images and all eight new image filenames. Each direct image URL returns HTTP 200 image/jpeg: lobby-reception 276444 B; staircase 587640 B; artwork-corridor 185825 B; lounge-seating 474539 B; courtyard-night 482343 B; entrance-hall-fountain 168991 B; meeting-room 106560 B; columned-interior 228766 B.",
+    "email_id": "1a16a71af17f0a38",
+    "report_sent_at": "2026-10-23 23:26 Africa/Kampala"
   },
   "follow_ups": [],
   "last_pending_check": {
