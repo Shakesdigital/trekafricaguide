@@ -4,7 +4,7 @@
     "id": "cape-town-attraction-six-photo-enrichment",
     "page_url": "https://trekafricaguide.com/attractions/cape-town/",
     "page_type": "attraction",
-    "status": "collection_ready_pending_publication",
+    "status": "complete_live_confirmed",
     "previous_photo_count": 1,
     "photo_count": 6,
     "new_photo_count": 6,
@@ -18,7 +18,11 @@
       "docs/image-enrichment-progress.json"
     ],
     "note": "Selected six location-specific images after checking the full guide mapping. All six source pages, creators, licence terms and capture dates were verified and the source previews visually inspected. Global source-page and SHA-256 deduplication against library records, other public images and the six new files passed. Replaced the generic Cape Town stock image. The City Hall candidate was excluded because its source page was already used in the Cape Town base insight. No guide prose, layout, relationships, tracking, redirects or canonicals changed.",
-    "next_action": "Sync the public photo library, run the required narrow syntax/JSON checks, publish safely, then confirm production detail page and all six plain assets before reporting."
+    "next_action": "Rotate to another published attraction, activity, or destination with a weak or missing image gallery; inspect current assignments and ledgers first.",
+    "commit": "73f18d9",
+    "live_verification": "2026-10-23 21:45 Africa/Kampala: production attraction page HTTP 200 contains all six expected image filenames. Each plain asset URL returns HTTP 200 image/jpeg: Castle of Good Hope 243051 B; Cape Point 437953 B; Signal Hill 440950 B; Bo-Kaap 263305 B; Kirstenbosch 547395 B; Lion’s Head 199580 B.",
+    "email_id": "1a16a14cace3ebcd",
+    "report_sent_at": "2026-10-23 21:45 Africa/Kampala"
   },
   "follow_ups": [],
   "last_pending_check": {
