@@ -1,28 +1,24 @@
 {
   "updated_at": "2026-10-23",
   "current_run": {
-    "id": "cape-town-attraction-six-photo-enrichment",
-    "page_url": "https://trekafricaguide.com/attractions/cape-town/",
-    "page_type": "attraction",
-    "status": "complete_live_confirmed",
+    "id": "marriott-mena-house-cairo-eight-photo-enrichment",
+    "page_url": "https://trekafricaguide.com/accommodations/marriott-mena-house-cairo",
+    "page_type": "accommodation",
+    "status": "in_progress",
     "previous_photo_count": 1,
-    "photo_count": 6,
-    "new_photo_count": 6,
+    "photo_count": 9,
+    "new_photo_count": 8,
     "checked_date": "2026-10-23",
-    "source_ledger": "docs/editorial-research/2026-10-23-cape-town-attraction-photo-enrichment.md",
+    "source_ledger": "docs/editorial-research/2026-10-23-marriott-mena-house-photo-enrichment.md",
     "files": [
       "src/lib/photo-library.js",
       "public/photo-library.js",
-      "public/images/editorial/cape-town-attraction/",
-      "docs/editorial-research/2026-10-23-cape-town-attraction-photo-enrichment.md",
+      "public/images/editorial/marriott-mena-house-cairo/",
+      "docs/editorial-research/2026-10-23-marriott-mena-house-photo-enrichment.md",
       "docs/image-enrichment-progress.json"
     ],
-    "note": "Selected six location-specific images after checking the full guide mapping. All six source pages, creators, licence terms and capture dates were verified and the source previews visually inspected. Global source-page and SHA-256 deduplication against library records, other public images and the six new files passed. Replaced the generic Cape Town stock image. The City Hall candidate was excluded because its source page was already used in the Cape Town base insight. No guide prose, layout, relationships, tracking, redirects or canonicals changed.",
-    "next_action": "Rotate to another published attraction, activity, or destination with a weak or missing image gallery; inspect current assignments and ledgers first.",
-    "commit": "73f18d9",
-    "live_verification": "2026-10-23 21:45 Africa/Kampala: production attraction page HTTP 200 contains all six expected image filenames. Each plain asset URL returns HTTP 200 image/jpeg: Castle of Good Hope 243051 B; Cape Point 437953 B; Signal Hill 440950 B; Bo-Kaap 263305 B; Kirstenbosch 547395 B; Lion’s Head 199580 B.",
-    "email_id": "1a16a14cace3ebcd",
-    "report_sent_at": "2026-10-23 21:45 Africa/Kampala"
+    "note": "Added eight distinct exact-Mena-House photos from Ovedc’s 2017 Commons series under CC BY-SA 4.0. All selected previews, source-page metadata and licence terms were checked. Exact-property evidence includes the Mena House file description/category and camera coordinates at the property. Global source URL and SHA-256 deduplication passed against the full library and public images. The existing hotel exterior remains; gallery now has nine exact-property photos. Excluded repetitive, indistinct and people-dominated candidates. No guide prose, layout, links, booking IDs, analytics, redirects or canonicals changed.",
+    "next_action": "Confirm the live accommodation page and every new asset, then send the authorized owner report once."
   },
   "follow_ups": [],
   "last_pending_check": {
@@ -45,6 +41,30 @@
     "resolved_at": "2026-10-21 13:16 Africa/Kampala"
   },
   "completed_runs": [
+    {
+      "id": "cape-town-attraction-six-photo-enrichment",
+      "page_url": "https://trekafricaguide.com/attractions/cape-town/",
+      "page_type": "attraction",
+      "status": "complete_live_confirmed",
+      "previous_photo_count": 1,
+      "photo_count": 6,
+      "new_photo_count": 6,
+      "checked_date": "2026-10-23",
+      "source_ledger": "docs/editorial-research/2026-10-23-cape-town-attraction-photo-enrichment.md",
+      "files": [
+        "src/lib/photo-library.js",
+        "public/photo-library.js",
+        "public/images/editorial/cape-town-attraction/",
+        "docs/editorial-research/2026-10-23-cape-town-attraction-photo-enrichment.md",
+        "docs/image-enrichment-progress.json"
+      ],
+      "note": "Selected six location-specific images after checking the full guide mapping. All six source pages, creators, licence terms and capture dates were verified and the source previews visually inspected. Global source-page and SHA-256 deduplication against library records, other public images and the six new files passed. Replaced the generic Cape Town stock image. The City Hall candidate was excluded because its source page was already used in the Cape Town base insight. No guide prose, layout, relationships, tracking, redirects or canonicals changed.",
+      "next_action": "Rotate to another published attraction, activity, or destination with a weak or missing image gallery; inspect current assignments and ledgers first.",
+      "commit": "73f18d9",
+      "live_verification": "2026-10-23 21:45 Africa/Kampala: production attraction page HTTP 200 contains all six expected image filenames. Each plain asset URL returns HTTP 200 image/jpeg: Castle of Good Hope 243051 B; Cape Point 437953 B; Signal Hill 440950 B; Bo-Kaap 263305 B; Kirstenbosch 547395 B; Lion’s Head 199580 B.",
+      "email_id": "1a16a14cace3ebcd",
+      "report_sent_at": "2026-10-23 21:45 Africa/Kampala"
+    },
     {
       "id": "plan-sossusvlei-sunrise-from-sesriem-six-inline-photo-enrichment",
       "page_url": "https://trekafricaguide.com/travel-insights/plan-sossusvlei-sunrise-from-sesriem/",
