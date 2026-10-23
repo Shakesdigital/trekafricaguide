@@ -251,8 +251,8 @@
     "After quota interruption resume at next eligible scheduled run; do not assume immediate credit-reset wakeup.",
     "No routine tests/builds or repeated broad audits."
   ],
-  "next_task_selection": "Finish the Victoria Falls first-visit travel insight, then rotate to activities.",
-  "last_run": "2026-10-22T10:30:00+03:00",
+  "next_task_selection": "Refresh one Cairo–Giza guided activity, then rotate to attractions.",
+  "last_run": "2026-10-23T10:50:00+03:00",
   "task_magnitude": "One complete full guide plus booking and listing cards, or one full property photo collection; do not schedule isolated paragraphs/links.",
   "country_destinations_feature": {
     "status": "complete",
@@ -278,29 +278,25 @@
     "rule": "Finish the individual deliverable and report its live state, then rotate. Track exact-property photo gaps separately."
   },
   "current_deliverable": {
-    "id": "victoria-falls-cross-border-first-visit",
-    "category": "travel_insights",
-    "status": "complete",
-    "objective": "Publish a sourced first-visit plan for Victoria Falls that helps travelers choose a Zambia or Zimbabwe base, decide whether a cross-border day is worthwhile, and pace the waterfall around current conditions and onward travel.",
-    "research_checked": "2026-10-22",
+    "id": "giza-pyramids-guided-tour-refresh",
+    "category": "activities",
+    "status": "draft_ready",
+    "objective": "Refresh the existing Giza pyramids and Grand Egyptian Museum day-tour guide with current official entry/logistics, exact GetYourGuide product facts, balanced limits and correct canonical links.",
+    "research_checked": "2026-10-23",
     "image_count": 0,
-    "image_followup": "Keep neutral imagery. Track six distinct licensed Victoria Falls insight subjects in the separate photo backlog; do not reuse any photo already assigned to the attraction or accommodation detail pages.",
+    "image_followup": "Removed two duplicate activity assignments while preserving the attraction images and their provenance. Activity gallery is neutral with 0 images; six distinct activity-specific subjects are recorded in the separate photo backlog.",
     "files": [
       "content/editorial-overrides.json",
-      "docs/editorial-research/2026-10-22-victoria-falls-first-visit.md",
+      "content/booking-destinations.json",
+      "src/lib/photo-library.js",
+      "public/photo-library.js",
+      "docs/editorial-research/2026-10-23-giza-pyramids-museum-day-tour.md",
       "docs/editorial-progress.json"
     ],
-    "checkpoint": "Published c0690a5; live HTTP 200 with three-night outline, Zambian falls-area section and Stay22 links. Owner email SENT 1a161de96d22c988. Build-input checks passed; no full suite/build. Worker usage interruption recovered.",
-    "next_action": "Rotate to activities; retain six-image insight backlog.",
-    "booking_gap": "No generic booking destination used. Six direct exact Booking.com property detail links in the insight are transformed by the shared Stay22 resolver; only one local canonical property guide exists (Zimbabwe side), so no new local stay records or cross-border relationships were added.",
-    "email_id": "1a161de96d22c988",
-    "live_verification": {
-      "checked": "2026-10-22",
-      "url": "https://trekafricaguide.com/travel-insights/plan-your-victoria-falls-visit",
-      "status": 200,
-      "distinctive_text": "A flexible three-night outline",
-      "stay22_present": true
-    }
+    "checkpoint": "Completed focused full guide for existing activity giza-pyramids-guided-tour (ID 10), related to published Cairo and Giza attraction ID 51. Exact GYG product 851104 (OceanAir Travels) supplies the route and pickup claims; its ticket-option language and legacy museum-status note remain flagged for traveler confirmation against official GEM and Egyptian Monuments sources. Removed two duplicated activity image assignments while preserving originals in the attraction gallery. Added dated claim ledger and six-subject separate photo backlog.",
+    "next_action": "Run npm run check:build-inputs and inspect the concise diff; then commit/push and confirm the production page before marking complete and emailing the owner.",
+    "booking_gap": "Exact GYG product is present; verify selected ticket option and current museum availability because the OTA page carries stale museum-status wording. No ratings or review totals unless independently confirmed.",
+    "last_updated": "2026-10-23T10:50:00+03:00"
   },
   "previous_deliverable_correction": {
     "id": "marrakech-medina-street-food-walk",
@@ -309,7 +305,7 @@
     "email_id": "1a148cdf8dbabb76",
     "note": "Live page and booking relationship were confirmed and the owner report was already sent. Corrected the stale pending-owner-report status without resending the email."
   },
-  "next_scheduled_run": "2026-10-22T13:30:00+03:00",
+  "next_scheduled_run": "2026-10-23T13:30:00+03:00",
   "analytics_installation": {
     "measurement_id": "G-ZWBZRQPBK7",
     "commit": "4f76457",
@@ -386,5 +382,32 @@
     "action": "No new research-heavy deliverable started under owner near-limit conservation instruction. Existing insight complete; activities next. Schedule unchanged.",
     "next_action": "Recheck available usage, then select one activity with a published attraction and verify exact operator/booking evidence before drafting.",
     "email_id": "1a16281372dec628"
-  }
+  },
+  "completed_deliverable_history": [
+    {
+      "id": "victoria-falls-cross-border-first-visit",
+      "category": "travel_insights",
+      "status": "complete",
+      "objective": "Publish a sourced first-visit plan for Victoria Falls that helps travelers choose a Zambia or Zimbabwe base, decide whether a cross-border day is worthwhile, and pace the waterfall around current conditions and onward travel.",
+      "research_checked": "2026-10-22",
+      "image_count": 0,
+      "image_followup": "Keep neutral imagery. Track six distinct licensed Victoria Falls insight subjects in the separate photo backlog; do not reuse any photo already assigned to the attraction or accommodation detail pages.",
+      "files": [
+        "content/editorial-overrides.json",
+        "docs/editorial-research/2026-10-22-victoria-falls-first-visit.md",
+        "docs/editorial-progress.json"
+      ],
+      "checkpoint": "Published c0690a5; live HTTP 200 with three-night outline, Zambian falls-area section and Stay22 links. Owner email SENT 1a161de96d22c988. Build-input checks passed; no full suite/build. Worker usage interruption recovered.",
+      "next_action": "Rotate to activities; retain six-image insight backlog.",
+      "booking_gap": "No generic booking destination used. Six direct exact Booking.com property detail links in the insight are transformed by the shared Stay22 resolver; only one local canonical property guide exists (Zimbabwe side), so no new local stay records or cross-border relationships were added.",
+      "email_id": "1a161de96d22c988",
+      "live_verification": {
+        "checked": "2026-10-22",
+        "url": "https://trekafricaguide.com/travel-insights/plan-your-victoria-falls-visit",
+        "status": 200,
+        "distinctive_text": "A flexible three-night outline",
+        "stay22_present": true
+      }
+    }
+  ]
 }

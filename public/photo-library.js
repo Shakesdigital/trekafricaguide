@@ -5220,17 +5220,7 @@ export const photoLibrary = {
           "/images/stock/destinations/okavango-delta.jpg"
         ]
       },
-      "giza-pyramids-guided-tour": {
-        "hero_image_url": "/images/stock/starter/cairo-and-giza.jpg",
-        "hero_image_alt": "The pyramids on the Giza plateau, Egypt",
-        "replaces": [
-          "/images/stock/destinations/cairo-and-giza.jpg"
-        ],
-        "gallery": [
-          "/images/stock/starter/cairo-and-giza.jpg",
-          "/images/stock/destinations/cairo-and-giza.jpg"
-        ]
-      },
+
       "volcanoes-gorilla-trek": {
         "hero_image_url": "/images/stock/starter/volcanoes-national-park.jpg",
         "hero_image_alt": "Female mountain gorilla in Volcanoes National Park, Rwanda",
