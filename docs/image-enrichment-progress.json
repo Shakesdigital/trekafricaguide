@@ -1,38 +1,28 @@
 {
   "updated_at": "2026-10-24",
   "current_run": {
-    "id": "giza-pyramids-guided-tour-six-no-attribution-photo-enrichment",
-    "page_url": "https://trekafricaguide.com/activities/giza-pyramids-guided-tour/",
-    "page_type": "activity",
-    "status": "complete_live_confirmed",
-    "previous_photo_count": 0,
-    "photo_count": 6,
-    "new_photo_count": 6,
+    "id": "kwame-nkrumah-memorial-park-four-photo-daylight-supplement",
+    "page_url": "https://trekafricaguide.com/attractions/kwame-nkrumah-memorial-park/",
+    "page_type": "attraction",
+    "status": "published_pending_live_confirmation",
+    "previous_photo_count": 6,
+    "photo_count": 10,
+    "new_photo_count": 4,
     "checked_date": "2026-10-24",
-    "source_ledger": "docs/editorial-research/2026-10-24-giza-pyramids-guided-tour-photo-enrichment.md",
+    "source_ledger": "docs/editorial-research/2026-10-24-kwame-nkrumah-memorial-park-photo-supplement.md",
     "files": [
-      "content/editorial-overrides.json",
       "src/lib/photo-library.js",
       "public/photo-library.js",
-      "public/images/editorial/giza-pyramids-guided-tour/",
-      "docs/editorial-research/2026-10-24-giza-pyramids-guided-tour-photo-enrichment.md",
+      "public/images/editorial/kwame-nkrumah-memorial-park/daylight-memorial-walkway.jpg",
+      "public/images/editorial/kwame-nkrumah-memorial-park/daylight-reflecting-pool-statues.jpg",
+      "public/images/editorial/kwame-nkrumah-memorial-park/daylight-mausoleum-facade.jpg",
+      "public/images/editorial/kwame-nkrumah-memorial-park/daylight-nkrumah-statue-detail.jpg",
+      "docs/editorial-research/2026-10-24-kwame-nkrumah-memorial-park-photo-supplement.md",
       "docs/image-enrichment-progress.json"
     ],
-    "note": "Added six distinct, visually reviewed exact-location Pexels photos to the previously empty Giza pyramids and Grand Egyptian Museum activity gallery. All source pages are free to use under the no-attribution-required Pexels License; no public source credits are shown. Creator, source-page ID, terms, available capture/publication dates, evidence, alt text, SHA-256 and CDN transformation are recorded internally. Source-page and hash deduplication found no matches in the existing library or public assets. Guide copy, tour details, design and tracking are unchanged. Published detail and all six image assets verified; the private report was sent without source links.",
-    "next_action": "Rotate to a different published guide with an evidenced image gap, applying the owner preference for no-public-attribution-only assets until updated.",
-    "commit": "2a8608d7caa6f4d4a7f18d412afaa6b7bbcf4fcb",
-    "netlify_deploy": "6adc94597840a0c0a0e39ee8",
-    "live_verification": "2026-10-24 14:21 Africa/Kampala: Netlify production deploy 6adc94597840a0c0a0e39ee8 reported ready for commit 2a8608d7caa6f4d4a7f18d412afaa6b7bbcf4fcb. Production activity detail page returned HTTP 200 and contains all six gallery entries (last item captioned 6 / 6). Each of six plain image URLs returned HTTP 200 image/jpeg with content lengths matching the local assets.",
-    "asset_http_statuses": [
-      200,
-      200,
-      200,
-      200,
-      200,
-      200
-    ],
-    "email_id": "1a16da5d06e9ed54",
-    "report_sent_at": "2026-10-24 14:22 Africa/Kampala"
+    "note": "Added four visually reviewed, distinct daylight photos to the existing six-image Kwame Nkrumah Memorial Park collection. New sources are exact Accra location Pexels photos under a license that does not require attribution. Internal records retain creator, source URL, date evidence, license, alt, location evidence and SHA-256. Source and hash duplicates were checked against all existing assignments and local public assets. The prior six CC BY-SA images and required public credits remain unchanged. No copy or site behavior changed.",
+    "next_action": "Continue with another underfilled published page with verifiable no-public-attribution photographs.",
+    "started_at": "2026-10-24 16:22 Africa/Kampala"
   },
   "follow_ups": [],
   "last_pending_check": {
@@ -615,6 +605,40 @@
       "live_verification": "2026-10-23 10:59 Africa/Kampala: Netlify production deploy 6adb137e5ca452306eb366eb for commit 77e690c reported ready. Production attraction page HTTP 200 includes all six filenames and See all 6. All six plain image URLs return HTTP 200 image/jpeg: park-aerial 297639 B; central-walkway 238624 B; night-fountain-walkway 251980 B; illuminated-courtyard 227315 B; monument-framed-entrance 624167 B; mausoleum-statue-foreground 304547 B.",
       "email_id": "1a167c542e32b46c",
       "report_sent_at": "2026-10-23 10:59 Africa/Kampala"
+    },
+    {
+      "id": "giza-pyramids-guided-tour-six-no-attribution-photo-enrichment",
+      "page_url": "https://trekafricaguide.com/activities/giza-pyramids-guided-tour/",
+      "page_type": "activity",
+      "status": "complete_live_confirmed",
+      "previous_photo_count": 0,
+      "photo_count": 6,
+      "new_photo_count": 6,
+      "checked_date": "2026-10-24",
+      "source_ledger": "docs/editorial-research/2026-10-24-giza-pyramids-guided-tour-photo-enrichment.md",
+      "files": [
+        "content/editorial-overrides.json",
+        "src/lib/photo-library.js",
+        "public/photo-library.js",
+        "public/images/editorial/giza-pyramids-guided-tour/",
+        "docs/editorial-research/2026-10-24-giza-pyramids-guided-tour-photo-enrichment.md",
+        "docs/image-enrichment-progress.json"
+      ],
+      "note": "Added six distinct, visually reviewed exact-location Pexels photos to the previously empty Giza pyramids and Grand Egyptian Museum activity gallery. All source pages are free to use under the no-attribution-required Pexels License; no public source credits are shown. Creator, source-page ID, terms, available capture/publication dates, evidence, alt text, SHA-256 and CDN transformation are recorded internally. Source-page and hash deduplication found no matches in the existing library or public assets. Guide copy, tour details, design and tracking are unchanged. Published detail and all six image assets verified; the private report was sent without source links.",
+      "next_action": "Rotate to a different published guide with an evidenced image gap, applying the owner preference for no-public-attribution-only assets until updated.",
+      "commit": "2a8608d7caa6f4d4a7f18d412afaa6b7bbcf4fcb",
+      "netlify_deploy": "6adc94597840a0c0a0e39ee8",
+      "live_verification": "2026-10-24 14:21 Africa/Kampala: Netlify production deploy 6adc94597840a0c0a0e39ee8 reported ready for commit 2a8608d7caa6f4d4a7f18d412afaa6b7bbcf4fcb. Production activity detail page returned HTTP 200 and contains all six gallery entries (last item captioned 6 / 6). Each of six plain image URLs returned HTTP 200 image/jpeg with content lengths matching the local assets.",
+      "asset_http_statuses": [
+        200,
+        200,
+        200,
+        200,
+        200,
+        200
+      ],
+      "email_id": "1a16da5d06e9ed54",
+      "report_sent_at": "2026-10-24 14:22 Africa/Kampala"
     }
   ]
 }
