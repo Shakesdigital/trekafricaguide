@@ -468,5 +468,28 @@
     "live_receipt": "docs/editorial-research/2026-10-24-activity-live-receipt.json",
     "image_summary": "Unchanged: five collections of six; eight collections of two; Giza zero. No image licence audit implied.",
     "verification": "Brief JSON/content inspection, 24 internal HTTP checks and 14 live rendered checks. No test suite or local build. Existing production exposed-markup guard preserved."
-  }
+  },
+  "latest_run_checkpoint": {
+    "at": "2026-10-24T16:32:42Z",
+    "status": "booking_recheck_complete_holds_retained",
+    "five_hour_used_percent": 2,
+    "weekly_used_percent": 51,
+    "completed": "Reopened exact Giza t851104 and Cape Coast t834942 pages; both returned generic platform shells. Targeted exact-product searches returned no results. No evidence to restore CTAs; no public content or images changed.",
+    "next_action": "Proceed to the destination category next run. Keep these two supplier-dependent CTA holds in backlog rather than repeatedly blocking editorial rotation.",
+    "schedule": "Unchanged",
+    "email_id": "1a16ed7db28261e8"
+  },
+  "usage_deferral_history": [
+    {
+      "at": "2026-10-24T13:33:08Z",
+      "status": "deferred_usage_limit",
+      "five_hour_used_percent": 99,
+      "weekly_used_percent": 51,
+      "ordinary_usage_allowed": true,
+      "completed": "Reviewed current checkpoint; all 14 activity revisions already complete and live-confirmed. No new content changes.",
+      "next_action": "At next invocation, check usage, then recheck held Giza/Cape Coast exact product details before choosing the next destination deliverable.",
+      "schedule": "Unchanged; no guarantee of immediate execution at usage reset.",
+      "email_id": "1a16e1f6156b2df7"
+    }
+  ]
 }
