@@ -251,9 +251,12 @@
       "title": "Maasai Mara balloon safari with champagne breakfast",
       "operator": "Perfect Wilderness Tours and Safari",
       "rating": 4.8,
-      "review_count": 36,
+      "review_count": 37,
       "notes": "Confirm your camp is in the pickup area. Flight operations depend on weather.",
-      "checked_at": "2026-10-11"
+      "checked_at": "2026-10-24",
+      "evidence": {
+        "review_check": "Exact product and review aggregate retrieved 24 October 2026; scores may change. Individual evidence in 2026-10-24 activity research ledgers."
+      }
     },
     "bwindi-gorilla-trekking": {
       "url": "https://www.getyourguide.com/kigali-l32466/1-day-gorilla-tour-in-bwindi-from-kigali-t792979/",
@@ -263,7 +266,10 @@
       "rating": 4.8,
       "review_count": 17,
       "notes": "This is a cross-border day trip from Kigali, not a local Bwindi departure. Confirm permit costs, trekking sector, border documents and the full price before booking.",
-      "checked_at": "2026-10-11"
+      "checked_at": "2026-10-24",
+      "evidence": {
+        "review_check": "Exact product and review aggregate retrieved 24 October 2026; scores may change. Individual evidence in 2026-10-24 activity research ledgers."
+      }
     },
     "amboseli-game-drive-safari": {
       "url": "https://www.getyourguide.com/nairobi-l267/nairobi-day-tour-to-amboseli-national-park-maasai-village-t543578/",
@@ -271,9 +277,12 @@
       "title": "Amboseli day tour from Nairobi",
       "operator": "Niroskos Tours And Safaris",
       "rating": 4.5,
-      "review_count": 408,
+      "review_count": 452,
       "notes": "A long day from Nairobi. Check park admission, vehicle upgrades and optional village charges separately; this is not an in-park lodge pickup by default.",
-      "checked_at": "2026-10-11"
+      "checked_at": "2026-10-24",
+      "evidence": {
+        "review_check": "Exact product and review aggregate retrieved 24 October 2026; scores may change. Individual evidence in 2026-10-24 activity research ledgers."
+      }
     },
     "atlas-mountains-day-trip": {
       "url": "https://www.getyourguide.com/asni-l115647/marrakech-atlas-mountains-ourika-5-valleys-day-tour-t11542/",
@@ -281,9 +290,12 @@
       "title": "Atlas Mountains and five valleys day tour with lunch",
       "operator": "Attractive Tours",
       "rating": 4.9,
-      "review_count": 2301,
+      "review_count": 2304,
       "notes": "Departs from Marrakech. Check the selected shared or private option and pickup arrangements.",
-      "checked_at": "2026-10-11"
+      "checked_at": "2026-10-24",
+      "evidence": {
+        "review_check": "Exact product and review aggregate retrieved 24 October 2026; scores may change. Individual evidence in 2026-10-24 activity research ledgers."
+      }
     },
     "serengeti-balloon-safari": {
       "url": "https://www.getyourguide.com/serengeti-national-park-l123040/serengeti-national-park-balloon-safari-at-dawn-t383490/",
@@ -293,7 +305,10 @@
       "rating": 4.2,
       "review_count": 14,
       "notes": "A directly operated balloon experience with a modest review sample. Confirm launch area and lodge pickup; park entry is not included. Flights depend on weather.",
-      "checked_at": "2026-10-11"
+      "checked_at": "2026-10-24",
+      "evidence": {
+        "review_check": "Exact product and review aggregate retrieved 24 October 2026; scores may change. Individual evidence in 2026-10-24 activity research ledgers."
+      }
     },
     "table-mountain-guided-hike": {
       "url": "https://www.getyourguide.com/cape-town-l103/cape-town-table-mountain-hike-via-india-venster-t302403/",
@@ -303,17 +318,21 @@
       "rating": 5,
       "review_count": 34,
       "notes": "This route involves scrambling and requires good fitness and confidence on uneven ground. Confirm suitability and descent arrangements with the guide.",
-      "checked_at": "2026-10-11"
+      "checked_at": "2026-10-24",
+      "evidence": {
+        "review_check": "Exact product and review aggregate retrieved 24 October 2026; scores may change. Individual evidence in 2026-10-24 activity research ledgers."
+      }
     },
     "cape-coast-kakum-guided-visit": {
       "url": "https://www.getyourguide.com/accra-l506/from-accra-the-cape-coast-day-tour-guided-experience-t834942/",
       "provider": "getyourguide",
       "title": "Cape Coast Castle, Elmina Castle and Kakum tour",
       "operator": "Expedition-Go Tours",
-      "rating": 4.7,
-      "review_count": 211,
       "notes": "Full-day departure from Accra. Confirm which admissions and stops your selected option includes.",
-      "checked_at": "2026-10-11"
+      "checked_at": "2026-10-11",
+      "status": "hold",
+      "last_attempted_at": "2026-10-24",
+      "hold_reason": "Product detail could not be reconfirmed: retrieval returned a generic page shell. Keep original exact URL; do not substitute search results. Recheck before enabling CTA."
     },
     "victoria-falls-guided-walk": {
       "url": "https://www.getyourguide.com/victoria-falls-town-l127068/zimbabwe-zambia-guided-tour-of-the-falls-from-both-sides-t414370/",
@@ -321,9 +340,12 @@
       "title": "Guided Victoria Falls tour: Zimbabwe and Zambia",
       "operator": "Cuckoo Safaris",
       "rating": 4.7,
-      "review_count": 501,
+      "review_count": 516,
       "notes": "This option visits both countries. Confirm visa eligibility, border arrangements and park entrance charges before booking.",
-      "checked_at": "2026-10-11"
+      "checked_at": "2026-10-24",
+      "evidence": {
+        "review_check": "Exact product and review aggregate retrieved 24 October 2026; scores may change. Individual evidence in 2026-10-24 activity research ledgers."
+      }
     },
     "okavango-mokoro-safari": {
       "url": "https://www.getyourguide.com/maun-l116302/okavango-delta-full-day-mokorocanoe-tour-all-inclusive-t604726/",
@@ -331,9 +353,12 @@
       "title": "Full-day Okavango mokoro and walking excursion",
       "operator": "Kalahari Breeze Safari",
       "rating": 4.7,
-      "review_count": 117,
+      "review_count": 119,
       "notes": "Departs from Maun and combines a mokoro outing with walking. This is not a vehicle game-drive package; confirm water conditions and pickup.",
-      "checked_at": "2026-10-11"
+      "checked_at": "2026-10-24",
+      "evidence": {
+        "review_check": "Exact product and review aggregate retrieved 24 October 2026; scores may change. Individual evidence in 2026-10-24 activity research ledgers."
+      }
     },
     "volcanoes-gorilla-trek": {
       "url": "https://www.getyourguide.com/kigali-l32466/kigali-rwanda-gorilla-tracking-in-volcanoes-national-park-t537766/",
@@ -341,9 +366,12 @@
       "title": "Kigali: gorilla tracking in Volcanoes National Park",
       "operator": "Vista Safaris",
       "rating": 4.9,
-      "review_count": 37,
+      "review_count": 39,
       "notes": "The Rwanda gorilla permit is not included. Confirm the Rwanda option and the full permit-inclusive cost: reviews may cover different itinerary variants.",
-      "checked_at": "2026-10-11"
+      "checked_at": "2026-10-24",
+      "evidence": {
+        "review_check": "Exact product and review aggregate retrieved 24 October 2026; scores may change. Individual evidence in 2026-10-24 activity research ledgers."
+      }
     },
     "giza-pyramids-guided-tour": {
       "url": "https://www.getyourguide.com/cairo-l92/cairo-grand-egyptian-museum-pyramids-sphinx-tour-lunch-t851104/",
@@ -352,7 +380,10 @@
       "operator": "OceanAir Travels",
       "checked_at": "2026-10-23",
       "evidence_url": "https://www.getyourguide.com/cairo-l92/cairo-grand-egyptian-museum-pyramids-sphinx-tour-lunch-t851104/",
-      "notes": "Exact combined Cairo/Giza tour, product 851104. The OTA page currently retains a museum-status note that conflicts with the official GEM visit pages. Confirm the current museum route, ticket option and pickup address with the operator before paying; no review total or score asserted."
+      "notes": "Exact combined Cairo/Giza tour, product 851104. The OTA page currently retains a museum-status note that conflicts with the official GEM visit pages. Confirm the current museum route, ticket option and pickup address with the operator before paying; no review total or score asserted.",
+      "status": "hold",
+      "last_attempted_at": "2026-10-24",
+      "hold_reason": "Product detail could not be reconfirmed: retrieval returned a generic page shell. Keep original exact URL; do not substitute search results. Recheck before enabling CTA."
     },
     "stone-town-historical-walking-tour": {
       "url": "https://www.getyourguide.com/zanzibar-tsiti-l872/kameni-grad-vodjeni-istorijski-obilazak-grada-t566480/",
@@ -372,12 +403,13 @@
       "title": "Marrakech: Street Food Tour with a Local Guide",
       "operator": "Reiseführer Abdo",
       "rating": 4.8,
-      "review_count": 4104,
-      "checked_at": "2026-10-17",
+      "review_count": 4299,
+      "checked_at": "2026-10-24",
       "notes": "Exact product 490970. About three hours; Café Restaurant Argana start/finish; food and drinks included. Confirm selected date, accessibility and dietary arrangements; current price and availability vary.",
       "evidence": {
         "source_url": "https://www.getyourguide.com/en-gb/argana-l191087/marrakech-street-food-tour-with-a-local-guide-t490970/",
-        "summary": "Exact detail checked 2026-10-17 identifies product 490970 and provider Reiseführer Abdo, itinerary, duration, meeting point and inclusions. Displayed 4.8/5 from 4,104 reviews; September 2026 feedback includes positive experiences and practical caveats."
+        "summary": "Exact detail checked 2026-10-17 identifies product 490970 and provider Reiseführer Abdo, itinerary, duration, meeting point and inclusions. Displayed 4.8/5 from 4,104 reviews; September 2026 feedback includes positive experiences and practical caveats.",
+        "review_check": "Exact product and review aggregate retrieved 24 October 2026; scores may change. Individual evidence in 2026-10-24 activity research ledgers."
       }
     }
   },

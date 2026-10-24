@@ -1,0 +1,172 @@
+{
+  "records": [
+    {
+      "slug": "bwindi-gorilla-trekking",
+      "issues": [],
+      "galleryOverride": null
+    },
+    {
+      "slug": "volcanoes-gorilla-trek",
+      "issues": [],
+      "galleryOverride": null
+    },
+    {
+      "slug": "table-mountain-guided-hike",
+      "issues": [],
+      "galleryOverride": null
+    },
+    {
+      "slug": "atlas-mountains-day-trip",
+      "issues": [],
+      "galleryOverride": null
+    },
+    {
+      "slug": "marrakech-medina-street-food-tour",
+      "issues": [],
+      "galleryOverride": 6
+    },
+    {
+      "slug": "stone-town-historical-walking-tour",
+      "issues": [],
+      "galleryOverride": 6
+    },
+    {
+      "slug": "giza-pyramids-guided-tour",
+      "issues": [],
+      "galleryOverride": 0
+    },
+    {
+      "slug": "maasai-mara-balloon-safari",
+      "issues": [],
+      "galleryOverride": null
+    },
+    {
+      "slug": "amboseli-game-drive-safari",
+      "issues": [],
+      "galleryOverride": null
+    },
+    {
+      "slug": "serengeti-balloon-safari",
+      "issues": [],
+      "galleryOverride": null
+    },
+    {
+      "slug": "okavango-mokoro-safari",
+      "issues": [],
+      "galleryOverride": 6
+    },
+    {
+      "slug": "cape-coast-kakum-guided-visit",
+      "issues": [],
+      "galleryOverride": null
+    },
+    {
+      "slug": "victoria-falls-guided-walk",
+      "issues": [],
+      "galleryOverride": null
+    },
+    {
+      "slug": "victoria-falls-zambezi-white-water-rafting",
+      "issues": [],
+      "galleryOverride": 6
+    }
+  ],
+  "internal_links": [
+    {
+      "path": "/travel-insights/choose-bwindi-sector-before-booking-stay",
+      "status": 200
+    },
+    {
+      "path": "/accommodations/buhoma-community-rest-camp",
+      "status": 200
+    },
+    {
+      "path": "/accommodations/sanctuary-gorilla-forest-camp",
+      "status": 200
+    },
+    {
+      "path": "/attractions/volcanoes-national-park",
+      "status": 200
+    },
+    {
+      "path": "/accommodations/sabyinyo-silverback-lodge",
+      "status": 200
+    },
+    {
+      "path": "/travel-insights/table-mountain-weather-cableway-or-hike",
+      "status": 200
+    },
+    {
+      "path": "/accommodations/mount-nelson-a-belmond-hotel",
+      "status": 200
+    },
+    {
+      "path": "/attractions/cape-town",
+      "status": 200
+    },
+    {
+      "path": "/accommodations/riad-rosemary",
+      "status": 200
+    },
+    {
+      "path": "/attractions/marrakech-and-atlas",
+      "status": 200
+    },
+    {
+      "path": "/activities/atlas-mountains-day-trip",
+      "status": 200
+    },
+    {
+      "path": "/countries/tanzania/unguja",
+      "status": 200
+    },
+    {
+      "path": "/accommodations/emerson-spice",
+      "status": 200
+    },
+    {
+      "path": "/attractions/zanzibar",
+      "status": 200
+    },
+    {
+      "path": "/accommodations/marriott-mena-house-cairo",
+      "status": 200
+    },
+    {
+      "path": "/attractions/cairo-and-giza",
+      "status": 200
+    },
+    {
+      "path": "/attractions/maasai-mara",
+      "status": 200
+    },
+    {
+      "path": "/attractions/amboseli-national-park",
+      "status": 200
+    },
+    {
+      "path": "/attractions/serengeti-national-park",
+      "status": 200
+    },
+    {
+      "path": "/attractions/okavango-delta",
+      "status": 200
+    },
+    {
+      "path": "/attractions/cape-coast-kakum",
+      "status": 200
+    },
+    {
+      "path": "/attractions/victoria-falls",
+      "status": 200
+    },
+    {
+      "path": "/travel-insights/plan-your-victoria-falls-visit",
+      "status": 200
+    },
+    {
+      "path": "/accommodations/victoria-falls-hotel",
+      "status": 200
+    }
+  ]
+}
