@@ -1,25 +1,25 @@
 {
   "updated_at": "2026-10-24",
   "current_run": {
-    "id": "optional-image-attribution-rendering-update",
-    "page_url": "https://trekafricaguide.com/photo-credits",
-    "page_type": "shared_gallery_rendering",
-    "status": "complete_live_confirmed",
+    "id": "kruger-national-park-seven-no-attribution-photo-enrichment",
+    "page_url": "https://trekafricaguide.com/attractions/kruger-national-park/",
+    "page_type": "attraction",
+    "status": "in_progress",
+    "previous_photo_count": 2,
+    "photo_count": 9,
+    "new_photo_count": 7,
     "checked_date": "2026-10-24",
-    "source_ledger": "docs/editorial-research/2026-10-24-optional-image-attribution-rendering.md",
+    "source_ledger": "docs/editorial-research/2026-10-24-kruger-national-park-cc0-photo-enrichment.md",
     "files": [
-      "src/lib/photo-attribution.mjs",
-      "src/components/Gallery.astro",
-      "src/pages/photo-credits.astro",
-      "docs/editorial-research/2026-10-24-optional-image-attribution-rendering.md",
+      "content/editorial-overrides.json",
+      "src/lib/photo-library.js",
+      "public/photo-library.js",
+      "public/images/editorial/kruger-national-park/",
+      "docs/editorial-research/2026-10-24-kruger-national-park-cc0-photo-enrichment.md",
       "docs/image-enrichment-progress.json"
     ],
-    "note": "Hide optional visible credits for CC0/public-domain and generated image records while retaining attribution-required credits and fail-closed behavior for unknown rights. Source metadata and images remain unchanged. No source quotations or URLs are included in external reporting.",
-    "next_action": "Resume the next image-enrichment heartbeat under the owner’s current restriction: add no new attribution-required photographs; keep mandatory credits intact and provenance internal.",
-    "commit": "3a0165c",
-    "live_verification": "2026-10-24 07:00 Africa/Kampala: production deploy 6adc2d095b5070ce28fe5aed is ready for 3a0165c431f9652f46c2542d2618e0c731dca428. Public photo-credits page and Cape Town attraction detail both returned HTTP 200. Photo-credits page contains neither CC0 nor Public domain visible labels; detail gallery retains mandatory CC BY-SA attribution links.",
-    "email_id": "1a16c113b1eb5e4c",
-    "report_sent_at": "2026-10-24 07:00 Africa/Kampala"
+    "note": "Added seven distinct exact-Kruger Commons photos with verified CC0/public-domain terms only. Kept both existing gallery images, including the existing required-attribution hero, unchanged. Visually reviewed every selected photo; global source-page and SHA-256 comparisons found no duplicates. Internal provenance includes creator, source page and revision, licence, capture/check date, evidence, alt text, rights notes and local hashes. No prose or protected site behavior changed.",
+    "next_action": "Run required syntax, JSON and photo-library mirror checks; publish from this isolated worktree, verify the live detail page and all seven new image assets, then send one source-free private report and record its receipt."
   },
   "follow_ups": [],
   "last_pending_check": {

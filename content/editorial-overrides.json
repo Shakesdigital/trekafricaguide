@@ -640,7 +640,18 @@
       ],
       "rating": null,
       "review_count": 0,
-      "last_researched": "2026-10-11"
+      "last_researched": "2026-10-11",
+      "gallery": [
+        "/images/stock/destinations/kruger-national-park.jpg",
+        "/images/stock/starter/kruger-national-park.jpg",
+        "/images/editorial/kruger-national-park/barbet-at-letaba-2018.jpg",
+        "/images/editorial/kruger-national-park/elephant-herd-river-2025.jpg",
+        "/images/editorial/kruger-national-park/elephant-mudbath-2016.jpg",
+        "/images/editorial/kruger-national-park/giraffe-family-2025.jpg",
+        "/images/editorial/kruger-national-park/knp-woodland-2015.jpg",
+        "/images/editorial/kruger-national-park/lions-resting-2007.jpg",
+        "/images/editorial/kruger-national-park/white-rhino-oxpecker-2016.jpg"
+      ]
     },
     {
       "slug": "cape-town",
