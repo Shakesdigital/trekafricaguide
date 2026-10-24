@@ -4,7 +4,7 @@
     "id": "kruger-national-park-seven-no-attribution-photo-enrichment",
     "page_url": "https://trekafricaguide.com/attractions/kruger-national-park/",
     "page_type": "attraction",
-    "status": "in_progress",
+    "status": "complete_live_confirmed",
     "previous_photo_count": 2,
     "photo_count": 9,
     "new_photo_count": 7,
@@ -18,8 +18,12 @@
       "docs/editorial-research/2026-10-24-kruger-national-park-cc0-photo-enrichment.md",
       "docs/image-enrichment-progress.json"
     ],
-    "note": "Added seven distinct exact-Kruger Commons photos with verified CC0/public-domain terms only. Kept both existing gallery images, including the existing required-attribution hero, unchanged. Visually reviewed every selected photo; global source-page and SHA-256 comparisons found no duplicates. Internal provenance includes creator, source page and revision, licence, capture/check date, evidence, alt text, rights notes and local hashes. No prose or protected site behavior changed.",
-    "next_action": "Run required syntax, JSON and photo-library mirror checks; publish from this isolated worktree, verify the live detail page and all seven new image assets, then send one source-free private report and record its receipt."
+    "note": "Added seven distinct exact-Kruger Commons photos with verified CC0/public-domain terms only. Kept both existing gallery images, including the existing required-attribution hero, unchanged. Visually reviewed every selected photo; global source-page and SHA-256 comparisons found no duplicates. Internal provenance includes creator, source page and revision, licence, capture/check date, evidence, alt text, rights notes and local hashes. No prose or protected site behavior changed. Verified live gallery and assets after publication; report sent without source links.",
+    "next_action": "Rotate to a viable published guide with an evidenced image gap; inspect current assignments and ledgers first. Add only verified no-public-attribution images until the owner updates this preference.",
+    "commit": "095133becb5143b9d26aa9ee99e8b09fa678e260",
+    "live_verification": "2026-10-24 08:28 Africa/Kampala: production detail page returned HTTP 200, includes all seven new filenames, and displays View photo 1 of 9. All seven plain image URLs returned HTTP 200 image/jpeg with nonzero matching content lengths.",
+    "email_id": "1a16c624d9f07abf",
+    "report_sent_at": "2026-10-24 08:29 Africa/Kampala"
   },
   "follow_ups": [],
   "last_pending_check": {
