@@ -272,10 +272,11 @@
     "email_id": "1a143a69416cf3d1"
   },
   "rotation": {
-    "last_completed_category": "attractions",
+    "last_completed_category": "activities",
     "next_category": "destinations",
     "next_deliverable": "Complete one useful country or local destination guide, rotating beyond recent Egypt and southern Africa coverage.",
-    "rule": "Finish the individual deliverable and report its live state, then rotate. Track exact-property photo gaps separately."
+    "rule": "Finish the individual deliverable and report its live state, then rotate. Track exact-property photo gaps separately.",
+    "override_reason": "Owner explicitly requested all existing activity pages; complete batch precedes normal rotation."
   },
   "current_deliverable": {
     "id": "great-zimbabwe-national-monument-guide",
@@ -445,7 +446,7 @@
     "email_id": "1a16a11360677d0a"
   },
   "activity_revision": {
-    "status": "in_progress",
+    "status": "complete",
     "scope": "All 14 live activity detail pages; explicit owner request overrides category rotation.",
     "started": "2026-10-24",
     "acceptance": [
@@ -453,14 +454,19 @@
       "Retain source evidence, exact booking destinations, canonical relationships and honest image gaps",
       "Publish and confirm rendered readability and links on all 14 pages"
     ],
-    "next_action": "Inspect all 14 merged activity records, internal links and rendered text, then commit and publish.",
-    "completed": "All 14 guides rewritten; ten rating snapshots refreshed; Giza and Cape Coast CTA held because current exact product detail could not be reconfirmed; rafting remains without a verified OTA match.",
+    "next_action": "Recheck held Giza/Cape Coast product details before reenabling CTA; keep photo follow-ups separate. Resume destination category as next new deliverable.",
+    "completed": "All 14 existing activity guides revised and published; 14 live pages show new copy, genuine prose anchors and no exposed markup. Eleven exact Stay22 CTA targets match; Giza and Cape Coast holds verified; rafting no CTA.",
     "files": [
       "content/editorial-overrides.json",
       "content/booking-destinations.json",
       "docs/editorial-research/2026-10-24-activity-parent-patches.json",
       "docs/editorial-research/2026-10-24-activity-worker-patches.json"
     ],
-    "publication": "Not committed or pushed yet; no live change claimed."
+    "publication": "Netlify ready 6adc486ae65261f52cda4fbd, commit b6c0d582fb31c2facf88612e939bebf7c8390bc8, published 2026-10-24T05:56:31.019Z. Live receipt checked 2026-10-24T10:33:30.460Z.",
+    "commit": "b6c0d58",
+    "email_id": "1a16d7a1936dcd8c",
+    "live_receipt": "docs/editorial-research/2026-10-24-activity-live-receipt.json",
+    "image_summary": "Unchanged: five collections of six; eight collections of two; Giza zero. No image licence audit implied.",
+    "verification": "Brief JSON/content inspection, 24 internal HTTP checks and 14 live rendered checks. No test suite or local build. Existing production exposed-markup guard preserved."
   }
 }
