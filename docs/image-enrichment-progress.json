@@ -4,7 +4,7 @@
     "id": "kwame-nkrumah-memorial-park-four-photo-daylight-supplement",
     "page_url": "https://trekafricaguide.com/attractions/kwame-nkrumah-memorial-park/",
     "page_type": "attraction",
-    "status": "pushed_deployment_blocked",
+    "status": "complete_live_confirmed",
     "previous_photo_count": 6,
     "photo_count": 10,
     "new_photo_count": 4,
@@ -21,19 +21,22 @@
       "docs/image-enrichment-progress.json"
     ],
     "note": "Added four visually reviewed, distinct daylight photos to the existing six-image Kwame Nkrumah Memorial Park collection. New sources are exact Accra location Pexels photos under a license that does not require attribution. Internal records retain creator, source URL, date evidence, license, alt, location evidence and SHA-256. Source and hash duplicates were checked against all existing assignments and local public assets. The prior six CC BY-SA images and required public credits remain unchanged. No copy or site behavior changed.",
-    "next_action": "Restore an authorized Netlify production deploy path, publish commit e9506f89540abd7af2288be7c4c08e5099343447, then confirm the guide shows 10 images and all four assets are live.",
+    "next_action": "Rotate to another guide with an evidenced image gap using only verified no-public-attribution photos.",
     "started_at": "2026-10-24 16:22 Africa/Kampala",
     "commit": "e9506f89540abd7af2288be7c4c08e5099343447",
-    "live_verification": "2026-10-24 16:29 Africa/Kampala: GitHub main contains the change, but production Netlify still serves previous deploy 6adc9504e65261f52ce810c8 at commit 3884f483. Detail page returned HTTP 200 without the four new filenames; all four expected new image URLs returned HTTP 404. Netlify CLI reports not logged in. Netlify connector has no deploy action, and the available UI inventory reports no browsers or apps. No live publication or source links are claimed.",
+    "live_verification": "2026-10-24 20:11 Africa/Kampala: Production page shows all 10 gallery photos, including all four additions. Each new plain image URL returned HTTP 200. Netlify reports production deploy 6adce3657840a0c0a0febd96 ready for main commit 92e88032f6324a89499efb809c6216277d31d99b.",
     "asset_http_statuses": [
-      404,
-      404,
-      404,
-      404
+      200,
+      200,
+      200,
+      200
     ],
-    "blocker": "No authenticated Netlify CLI or working browser UI deployment path in this environment; existing Netlify production deploy remains previous commit.",
+    "blocker": "Resolved: production deploy 6adce3657840a0c0a0febd96 now serves main commit 92e8803.",
     "email_id": "1a16e1c9240f5b4a",
-    "report_sent_at": "2026-10-24 16:32 Africa/Kampala"
+    "report_sent_at": "2026-10-24 16:32 Africa/Kampala",
+    "netlify_deploy": "6adce3657840a0c0a0febd96",
+    "recovery_email_id": "1a16ee5aa43d19e4",
+    "recovery_report_sent_at": "2026-10-24 20:11 Africa/Kampala"
   },
   "follow_ups": [],
   "last_pending_check": {
