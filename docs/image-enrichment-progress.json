@@ -4,7 +4,7 @@
     "id": "giza-pyramids-guided-tour-six-no-attribution-photo-enrichment",
     "page_url": "https://trekafricaguide.com/activities/giza-pyramids-guided-tour/",
     "page_type": "activity",
-    "status": "in_progress",
+    "status": "complete_live_confirmed",
     "previous_photo_count": 0,
     "photo_count": 6,
     "new_photo_count": 6,
@@ -18,8 +18,21 @@
       "docs/editorial-research/2026-10-24-giza-pyramids-guided-tour-photo-enrichment.md",
       "docs/image-enrichment-progress.json"
     ],
-    "note": "Added six distinct, visually reviewed exact-location Pexels photos to the previously empty Giza pyramids and Grand Egyptian Museum activity gallery. All source pages are free to use under the no-attribution-required Pexels License; no public source credits are shown. Creator, source-page ID, terms, available capture/publication dates, evidence, alt text, SHA-256 and CDN transformation are recorded internally. Source-page and hash deduplication found no matches in the existing library or public assets. Guide copy, tour details, design and tracking are unchanged.",
-    "next_action": "Run the required syntax, JSON and photo-library mirror checks; safely publish from this isolated worktree and verify the production detail and all six assets; then send one source-free owner report and record its receipt."
+    "note": "Added six distinct, visually reviewed exact-location Pexels photos to the previously empty Giza pyramids and Grand Egyptian Museum activity gallery. All source pages are free to use under the no-attribution-required Pexels License; no public source credits are shown. Creator, source-page ID, terms, available capture/publication dates, evidence, alt text, SHA-256 and CDN transformation are recorded internally. Source-page and hash deduplication found no matches in the existing library or public assets. Guide copy, tour details, design and tracking are unchanged. Published detail and all six image assets verified; the private report was sent without source links.",
+    "next_action": "Rotate to a different published guide with an evidenced image gap, applying the owner preference for no-public-attribution-only assets until updated.",
+    "commit": "2a8608d7caa6f4d4a7f18d412afaa6b7bbcf4fcb",
+    "netlify_deploy": "6adc94597840a0c0a0e39ee8",
+    "live_verification": "2026-10-24 14:21 Africa/Kampala: Netlify production deploy 6adc94597840a0c0a0e39ee8 reported ready for commit 2a8608d7caa6f4d4a7f18d412afaa6b7bbcf4fcb. Production activity detail page returned HTTP 200 and contains all six gallery entries (last item captioned 6 / 6). Each of six plain image URLs returned HTTP 200 image/jpeg with content lengths matching the local assets.",
+    "asset_http_statuses": [
+      200,
+      200,
+      200,
+      200,
+      200,
+      200
+    ],
+    "email_id": "1a16da5d06e9ed54",
+    "report_sent_at": "2026-10-24 14:22 Africa/Kampala"
   },
   "follow_ups": [],
   "last_pending_check": {
