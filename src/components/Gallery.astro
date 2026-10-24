@@ -1,12 +1,12 @@
 ---
 import ImageSlot from './ImageSlot.astro';
 import { photoLibrary } from '../lib/photo-library.js';
+import { requiresPublicAttribution } from '../lib/photo-attribution.mjs';
 import { normalizeList, resolveImage } from '../lib/images.mjs';
 const { images = [], alt = 'Travel gallery', caption = '' } = Astro.props;
 const gallery = [...new Set(normalizeList(images).map(resolveImage).filter(Boolean))];
 const credits = gallery.map((src) => photoLibrary.images[src]).filter(Boolean);
-const photographs = credits.filter((credit) => credit.kind !== 'generated');
-const hasGeneratedImages = credits.some((credit) => credit.kind === 'generated');
+const attributionCredits = credits.filter(requiresPublicAttribution);
 const imageAlt = (src, index) => photoLibrary.images[src]?.alt || `${alt} — photo ${index + 1}`;
 ---
 <detail-photo-gallery class="detail-photo-gallery">
@@ -28,12 +28,11 @@ const imageAlt = (src, index) => photoLibrary.images[src]?.alt || `${alt} — ph
     </dialog>
   </> : <ImageSlot alt={alt} class="detail-photo-gallery__empty" />}
 </detail-photo-gallery>
-{(credits.length > 0 || caption) && <details class="photo-credits">
+{(attributionCredits.length > 0 || caption) && <details class="photo-credits">
   <summary>Image credits</summary>
   {caption && <p>{caption}</p>}
-  {hasGeneratedImages && <p>Representative scenes generated with ChatGPT. These are not photographs of an actual visit or a particular operator.</p>}
-  {photographs.length > 0 && <p>Photography: {photographs.map((credit, index) => <span>{index > 0 && ' · '}<a href={credit.source_page}>{credit.creator}</a> (<a href={credit.license_url}>{credit.license}</a>)</span>)}. Images may be resized or cropped; share-alike licences continue to apply.</p>}
-  <p><a href="/photo-credits">Image sources and details</a></p>
+  {attributionCredits.length > 0 && <p>Photography: {attributionCredits.map((credit, index) => <span>{index > 0 && ' · '}<a href={credit.source_page}>{credit.creator}</a> (<a href={credit.license_url}>{credit.license}</a>)</span>)}. Images may be resized or cropped; share-alike licences continue to apply.</p>}
+  {attributionCredits.length > 0 && <p><a href="/photo-credits">Image sources and details</a></p>}
 </details>}
 
 <style>

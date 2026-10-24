@@ -1,16 +1,18 @@
 ---
 import SiteLayout from '../layouts/SiteLayout.astro';
 import { photoLibrary } from '../lib/photo-library.js';
+import { requiresPublicAttribution } from '../lib/photo-attribution.mjs';
+const requiredCredits = Object.entries(photoLibrary.images).filter(([, credit]) => requiresPublicAttribution(credit));
 ---
 <SiteLayout title="Photography credits" description="Sources, photographers and reuse licences for our destination photography.">
   <section class="section"><div class="container">
     <p class="eyebrow">The places behind the photographs</p>
     <h1>Photography credits</h1>
-    <p>Source photographs use the individual licences linked below. Images may be resized and cropped for display; share-alike licences continue to apply to the photographs. Accommodation listings use photographs identified as the actual property. Where verified property photographs are unavailable, no destination image is substituted. Generated images are representative travel scenes created with ChatGPT, not photographs of a visit, a named operator or a property's facilities.</p>
+    <p>The images below have licence terms that require visible attribution. Creator, source and licence details are listed for each. Images may be resized and cropped for display; share-alike licences continue to apply to the photographs.</p>
     <div class="credit-grid">
-      {Object.entries(photoLibrary.images).map(([src, credit]) => <figure>
+      {requiredCredits.map(([src, credit]) => <figure>
         <img src={src} alt={credit.alt || credit.subject} loading="lazy" width="480" height="300" />
-        <figcaption><strong>{credit.subject}</strong><br />{credit.title || credit.alt}<br />{credit.kind === 'generated' ? <>Generated with ChatGPT for Trek Africa Guide; representative scene.</> : <>{credit.creator} · <a href={credit.license_url}>{credit.license}</a><br />{credit.date && <>Photographed: {credit.date}<br /></>}<a href={credit.source_page}>Original photograph and licence</a></>}</figcaption>
+        <figcaption><strong>{credit.subject}</strong><br />{credit.title || credit.alt}<br />{credit.creator} · <a href={credit.license_url}>{credit.license}</a><br />{credit.date && <>Photographed: {credit.date}<br /></>}<a href={credit.source_page}>Original photograph and licence</a></figcaption>
       </figure>)}
     </div>
   </div></section>
