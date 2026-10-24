@@ -31,7 +31,9 @@
       404,
       404
     ],
-    "blocker": "No authenticated Netlify CLI or working browser UI deployment path in this environment; existing Netlify production deploy remains previous commit."
+    "blocker": "No authenticated Netlify CLI or working browser UI deployment path in this environment; existing Netlify production deploy remains previous commit.",
+    "email_id": "1a16e1c9240f5b4a",
+    "report_sent_at": "2026-10-24 16:32 Africa/Kampala"
   },
   "follow_ups": [],
   "last_pending_check": {
