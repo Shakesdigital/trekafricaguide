@@ -13,7 +13,14 @@ export default async (request) => {
     await requireAdmin(request, client);
     const mirror = await client.from('editorial_documents').select('slug').limit(1);
     if (mirror.error || !mirror.data?.length) return json({ error: 'CMS synchronization has not been activated yet.' }, 503);
-    const hook = process.env.NETLIFY_DEPLOY_HOOK;
+    let hook = process.env.NETLIFY_DEPLOY_HOOK;
+    if (!hook) {
+      // Private fallback for hosts where environment updates are unavailable.
+      // This RPC is executable only with the server's service credentials.
+      const setting = await client.rpc('get_editorial_publish_hook');
+      if (setting.error) return json({ error: 'Publishing configuration is unavailable. Your saved content remains in the CMS.' }, 503);
+      hook = setting.data;
+    }
     if (!hook) return json({ error: 'Saved content is safe. Website publishing needs the server deploy hook configured.' }, 503);
     const url = new URL(hook);
     if (url.protocol !== 'https:' || url.hostname !== 'api.netlify.com' || !url.pathname.startsWith('/build_hooks/')) {
