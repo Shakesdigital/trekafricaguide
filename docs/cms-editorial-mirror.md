@@ -8,12 +8,18 @@ The live runtime configuration confirms editorialMirrorEnabled=true. Source comm
 edc4cf530cb98f892e8f5f96feb055fe96f3913c deployed ready as
 6addf06ba686821f70781b18 at 2026-10-25 12:05:38 UTC.
 
-The CMS's immediate Publish website action still needs a real server-side
-NETLIFY_DEPLOY_HOOK. The local saved value was a placeholder, and the connected
-Netlify tools cannot create hooks. The owner has been asked to configure one for
-main. Saving to the CMS works independently; the next successful production build
-(including an ordinary automation push) consumes those saved revisions. Do not
-claim an immediate publishing request succeeded until the hook is configured.
+The Publish website connection is configured. The owner supplied the hook; it is
+stored in private.editorial_publish_settings, with RLS and no browser grants.
+Only the service-role-only get_editorial_publish_hook RPC can retrieve it for
+the publishing server, after the existing administrator authentication check.
+The Netlify environment connector reported success but did not persist its write,
+so the private database setting is the active fallback. No hook URL is committed.
+
+The supplied hook accepted POST with HTTP 200. Deployment
+6ade76954872188a6ac8c660 is ready for commit
+5aa595973f4587704445ef6bc1ee6fe5206cace5, published 2026-10-25 21:38:07 UTC
+(26 October 2026, 00:38 Kampala). An interactive owner-session save-and-publish
+round trip was not performed. No test suite or local build was run.
 
 Backups outside the repository: ../trek-cms-native-backup-20261025.json (88 native
 records, including unpublished records), and ../trek-cms-git-backup-20261025/.
@@ -74,7 +80,8 @@ created through the existing authoring workflow and arrive on the next build.
    `SUPABASE_URL` on the authorized Netlify site's build/functions scopes. Never
    put a secret key in runtime-config.js or browser code. Netlify currently has a
    variable named SUPABASE_SECRET_KEY; its permissions have not been verified.
-5. Configure `NETLIFY_DEPLOY_HOOK` on the server (pending). Activation is now
+5. The hook is configured in the private database fallback. A server-only
+   `NETLIFY_DEPLOY_HOOK` environment value remains an optional override. Activation is now
    versioned as `EDITORIAL_CMS_SYNC=true` in netlify.toml production environment.
    The connector reported an environment upsert but the key did not persist, so
    the repository setting is authoritative. The hook is withheld from public runtime
@@ -134,3 +141,10 @@ is not exposed in public runtime configuration.
 Applied migrations: editorial_mirror, cms_own_profile_read and
 editorial_mirror_input_guards. The latter rejects null revisions and empty/null
 imports. Publication still follows draft/date filtering after reconciliation.
+
+## Publishing usage
+
+Open /cms-editorial.html with the existing owner CMS login. Save revision, then
+choose Publish website. An accepted request starts a deployment; the published
+website updates only when that deployment succeeds. Anonymous publishing returns
+401. The public configuration and CMS HTML contain no build hook URL.
