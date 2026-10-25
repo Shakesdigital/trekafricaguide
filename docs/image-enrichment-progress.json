@@ -1,50 +1,31 @@
 {
   "updated_at": "2026-10-25",
   "current_run": {
-    "id": "livingstone-four-no-attribution-photo-enrichment",
-    "page_url": "https://trekafricaguide.com/countries/zambia/livingstone/",
-    "page_type": "local_destination",
-    "status": "complete_live_confirmed",
-    "previous_photo_count": 0,
-    "photo_count": 4,
+    "id": "okavango-delta-four-no-attribution-photo-enrichment",
+    "page_url": "https://trekafricaguide.com/attractions/okavango-delta/",
+    "page_type": "attraction",
+    "status": "pending_publication",
+    "previous_photo_count": 2,
+    "photo_count": 6,
     "new_photo_count": 4,
     "checked_date": "2026-10-25",
-    "source_ledger": "docs/editorial-research/2026-10-25-livingstone-photo-enrichment.md",
+    "source_ledger": "docs/editorial-research/2026-10-25-okavango-delta-photo-enrichment.md",
     "files": [
-      "content/local-destinations.json",
       "src/lib/photo-library.js",
       "public/photo-library.js",
       "public/photo-defaults.js",
-      "public/images/editorial/livingstone-local-destination/victoria-falls-gorge-ana-kenk.jpg",
-      "public/images/editorial/livingstone-local-destination/mosi-oa-tunya-gorge-bridge-eston-oboch.jpg",
-      "public/images/editorial/livingstone-local-destination/boiling-pot-river-ed-wingate.jpg",
-      "public/images/editorial/livingstone-local-destination/zambezi-elephant-cruise-nicole-olwagen.jpg",
-      "docs/editorial-research/2026-10-25-livingstone-photo-enrichment.md",
+      "public/images/editorial/okavango-delta-attraction/okavango-cheetah-cub-catherine-merlin.jpg",
+      "public/images/editorial/okavango-delta-attraction/okavango-lion-cub-colin-watts.jpg",
+      "public/images/editorial/okavango-delta-attraction/okavango-hippos-crossing-colin-watts.jpg",
+      "public/images/editorial/okavango-delta-attraction/okavango-helmeted-guineafowl-secret-travel-guide.jpg",
+      "docs/editorial-research/2026-10-25-okavango-delta-photo-enrichment.md",
       "docs/image-enrichment-progress.json"
     ],
-    "note": "Added four visually inspected photographs to the previously image-empty Livingstone destination. All four match a named Zambia-side falls or local Zambezi setting, and their Pexels/Unsplash licenses do not require public attribution. Internal records retain the source, creator, license, date evidence, exact-location evidence, alt text, transformations and SHA-256. Global source and hash dedup found no matches. This is a partial collection: eligible town, museum and crafts photographs were not established. Guide prose and protected site behavior were not changed.",
-    "next_action": "Continue the Livingstone photo backlog only when precise no-attribution sources for the town, museum or locally made crafts with required consent are available; otherwise rotate to a separate evidenced image gap.",
-    "started_at": "2026-10-25 15:12 Africa/Kampala",
-    "initial_live_verification": "2026-10-25 15:12 Africa/Kampala: production Livingstone detail page returned HTTP 200 with no gallery photo controls or Livingstone image assets before this update.",
-    "source_ledger_date": "2026-10-25",
-    "commit": "e17a704b9a7da66ef373460f507ebe7352f79678",
-    "pushed_at": "2026-10-25 15:14 Africa/Kampala",
-    "netlify_deploy": "6addf2a7501e6b6e1ac6e177",
-    "live_verification": "2026-10-25 15:17 Africa/Kampala: Netlify production deploy 6addf2a7501e6b6e1ac6e177 is ready for main commit e17a704b9a7da66ef373460f507ebe7352f79678. The production Livingstone detail page returned HTTP 200, displays See all 4 and contains all four new gallery filenames. All four plain image URLs returned HTTP 200 image/jpeg and matched local byte counts.",
-    "asset_http_statuses": [
-      200,
-      200,
-      200,
-      200
-    ],
-    "asset_content_lengths": [
-      208762,
-      270564,
-      1184116,
-      399868
-    ],
-    "email_id": "1a172ff892a2a8f6",
-    "report_sent_at": "2026-10-25 15:18 Africa/Kampala"
+    "note": "Added four visually reviewed, exact-Okavango-Delta wildlife photographs under the no-attribution-required Unsplash License. The actual gallery increased from two to six; its two existing attribution-required photographs and credits remain unchanged. Internal metadata retains source, creator, license, publication-date evidence, location evidence, alt text, transformation and SHA-256. Global URL and hash dedup found no duplicates. Wildlife images illustrate the regional habitat and do not promise sightings at a camp or excursion. No prose or protected site behavior changed.",
+    "next_action": "Rotate to another underfilled guide only after checking rendered/library counts; keep existing required-credit images in place and add only exact-subject photos with verified no-public-attribution rights.",
+    "started_at": "2026-10-25 15:28 Africa/Kampala",
+    "initial_live_verification": "2026-10-25 15:28 Africa/Kampala: production Okavango Delta attraction page returned HTTP 200 and showed See all 2 before these additions.",
+    "source_ledger_date": "2026-10-25"
   },
   "follow_ups": [],
   "last_pending_check": {
@@ -785,6 +766,52 @@
       ],
       "email_id": "1a171872d0e4c15e",
       "report_sent_at": "2026-10-25 08:27 Africa/Kampala"
+    },
+    {
+      "id": "livingstone-four-no-attribution-photo-enrichment",
+      "page_url": "https://trekafricaguide.com/countries/zambia/livingstone/",
+      "page_type": "local_destination",
+      "status": "complete_live_confirmed",
+      "previous_photo_count": 0,
+      "photo_count": 4,
+      "new_photo_count": 4,
+      "checked_date": "2026-10-25",
+      "source_ledger": "docs/editorial-research/2026-10-25-livingstone-photo-enrichment.md",
+      "files": [
+        "content/local-destinations.json",
+        "src/lib/photo-library.js",
+        "public/photo-library.js",
+        "public/photo-defaults.js",
+        "public/images/editorial/livingstone-local-destination/victoria-falls-gorge-ana-kenk.jpg",
+        "public/images/editorial/livingstone-local-destination/mosi-oa-tunya-gorge-bridge-eston-oboch.jpg",
+        "public/images/editorial/livingstone-local-destination/boiling-pot-river-ed-wingate.jpg",
+        "public/images/editorial/livingstone-local-destination/zambezi-elephant-cruise-nicole-olwagen.jpg",
+        "docs/editorial-research/2026-10-25-livingstone-photo-enrichment.md",
+        "docs/image-enrichment-progress.json"
+      ],
+      "note": "Added four visually inspected photographs to the previously image-empty Livingstone destination. All four match a named Zambia-side falls or local Zambezi setting, and their Pexels/Unsplash licenses do not require public attribution. Internal records retain the source, creator, license, date evidence, exact-location evidence, alt text, transformations and SHA-256. Global source and hash dedup found no matches. This is a partial collection: eligible town, museum and crafts photographs were not established. Guide prose and protected site behavior were not changed.",
+      "next_action": "Continue the Livingstone photo backlog only when precise no-attribution sources for the town, museum or locally made crafts with required consent are available; otherwise rotate to a separate evidenced image gap.",
+      "started_at": "2026-10-25 15:12 Africa/Kampala",
+      "initial_live_verification": "2026-10-25 15:12 Africa/Kampala: production Livingstone detail page returned HTTP 200 with no gallery photo controls or Livingstone image assets before this update.",
+      "source_ledger_date": "2026-10-25",
+      "commit": "e17a704b9a7da66ef373460f507ebe7352f79678",
+      "pushed_at": "2026-10-25 15:14 Africa/Kampala",
+      "netlify_deploy": "6addf2a7501e6b6e1ac6e177",
+      "live_verification": "2026-10-25 15:17 Africa/Kampala: Netlify production deploy 6addf2a7501e6b6e1ac6e177 is ready for main commit e17a704b9a7da66ef373460f507ebe7352f79678. The production Livingstone detail page returned HTTP 200, displays See all 4 and contains all four new gallery filenames. All four plain image URLs returned HTTP 200 image/jpeg and matched local byte counts.",
+      "asset_http_statuses": [
+        200,
+        200,
+        200,
+        200
+      ],
+      "asset_content_lengths": [
+        208762,
+        270564,
+        1184116,
+        399868
+      ],
+      "email_id": "1a172ff892a2a8f6",
+      "report_sent_at": "2026-10-25 15:18 Africa/Kampala"
     }
   ]
 }
