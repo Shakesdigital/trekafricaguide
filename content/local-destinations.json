@@ -310,9 +310,14 @@
     "travel_insight_slugs": [
       "plan-your-victoria-falls-visit"
     ],
-    "hero_image_url": null,
-    "hero_image_alt": "",
-    "gallery": [],
+    "hero_image_url": "/images/editorial/livingstone-local-destination/victoria-falls-gorge-ana-kenk.jpg",
+    "hero_image_alt": "Victoria Falls pours into its rocky gorge from a viewpoint in Livingstone, Zambia.",
+    "gallery": [
+      "/images/editorial/livingstone-local-destination/victoria-falls-gorge-ana-kenk.jpg",
+      "/images/editorial/livingstone-local-destination/mosi-oa-tunya-gorge-bridge-eston-oboch.jpg",
+      "/images/editorial/livingstone-local-destination/boiling-pot-river-ed-wingate.jpg",
+      "/images/editorial/livingstone-local-destination/zambezi-elephant-cruise-nicole-olwagen.jpg"
+    ],
     "last_researched": "2026-10-25",
     "research_sources": [
       {

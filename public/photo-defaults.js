@@ -2,6 +2,8 @@ import { photoLibrary } from './photo-library.js';
 
 // Shared by the static website and the CMS. Never replace an editor's new photo.
 export function applyPhotoDefaults(table, row) {
+  // Defaults were applied before mirroring; an editor may deliberately clear a photo.
+  if (row.__cms_mirrored) return row;
   const starter = photoLibrary.listings[table]?.[row.slug];
   if (!starter) return row;
   const result = { ...row };

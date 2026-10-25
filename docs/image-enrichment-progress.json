@@ -1,46 +1,32 @@
 {
   "updated_at": "2026-10-25",
   "current_run": {
-    "id": "serengeti-balloon-safari-four-no-attribution-photo-enrichment",
-    "page_url": "https://trekafricaguide.com/activities/serengeti-balloon-safari/",
-    "page_type": "activity",
-    "status": "complete_live_confirmed",
-    "previous_photo_count": 2,
-    "photo_count": 6,
+    "id": "livingstone-four-no-attribution-photo-enrichment",
+    "page_url": "https://trekafricaguide.com/countries/zambia/livingstone/",
+    "page_type": "local_destination",
+    "status": "pending_publication",
+    "previous_photo_count": 0,
+    "photo_count": 4,
     "new_photo_count": 4,
     "checked_date": "2026-10-25",
-    "source_ledger": "docs/editorial-research/2026-10-25-serengeti-balloon-safari-photo-enrichment.md",
+    "source_ledger": "docs/editorial-research/2026-10-25-livingstone-photo-enrichment.md",
     "files": [
+      "content/local-destinations.json",
       "src/lib/photo-library.js",
       "public/photo-library.js",
-      "public/images/editorial/serengeti-balloon-safari/balloon-over-serengeti-plain.jpg",
-      "public/images/editorial/serengeti-balloon-safari/seronera-balloon-on-field.jpg",
-      "public/images/editorial/serengeti-balloon-safari/serengeti-balloon-dawn.jpg",
-      "public/images/editorial/serengeti-balloon-safari/serengeti-balloon-national-park.jpg",
-      "docs/editorial-research/2026-10-25-serengeti-balloon-safari-photo-enrichment.md",
+      "public/photo-defaults.js",
+      "public/images/editorial/livingstone-local-destination/victoria-falls-gorge-ana-kenk.jpg",
+      "public/images/editorial/livingstone-local-destination/mosi-oa-tunya-gorge-bridge-eston-oboch.jpg",
+      "public/images/editorial/livingstone-local-destination/boiling-pot-river-ed-wingate.jpg",
+      "public/images/editorial/livingstone-local-destination/zambezi-elephant-cruise-nicole-olwagen.jpg",
+      "docs/editorial-research/2026-10-25-livingstone-photo-enrichment.md",
       "docs/image-enrichment-progress.json"
     ],
-    "note": "Added four visually reviewed Serengeti/Seronera balloon photographs to the existing two-photo Serengeti balloon safari activity gallery. All four are exact activity/location sources under the no-attribution-required Pexels License. Internal metadata and ledger retain source, creator, date evidence, license, location support, alt text, limitations and SHA-256. Global source URL and image hash dedup found no duplicates. The two existing CC BY-SA photos and required credits remain untouched. No copy, CTA, page layout, tracking or site behavior changed.",
-    "next_action": "Rotate to another underfilled guide; retain the owner preference for verified no-public-attribution photos and leave existing required credits unchanged.",
-    "started_at": "2026-10-25 08:18 Africa/Kampala",
-    "initial_live_verification": "2026-10-25: Production activity page returned HTTP 200 and reported See all 2 before this collection.",
-    "commit": "5601168",
-    "netlify_deploy": "6add92db7750d2cb04545c0c",
-    "live_verification": "2026-10-25 08:27 Africa/Kampala: Netlify production deploy 6add92db7750d2cb04545c0c reports ready for main commit 560116813dacc4ce755e88c1b9d7739e3d8c9812. Production activity page returned HTTP 200, says See all 6 and contains all four new filenames. All four assets returned HTTP 200 image/jpeg with byte counts matching local files.",
-    "asset_http_statuses": [
-      200,
-      200,
-      200,
-      200
-    ],
-    "asset_content_lengths": [
-      490455,
-      504645,
-      144679,
-      542125
-    ],
-    "email_id": "1a171872d0e4c15e",
-    "report_sent_at": "2026-10-25 08:27 Africa/Kampala"
+    "note": "Added four visually inspected photographs to the previously image-empty Livingstone destination. All four match a named Zambia-side falls or local Zambezi setting, and their Pexels/Unsplash licenses do not require public attribution. Internal records retain the source, creator, license, date evidence, exact-location evidence, alt text, transformations and SHA-256. Global source and hash dedup found no matches. This is a partial collection: eligible town, museum and crafts photographs were not established. Guide prose and protected site behavior were not changed.",
+    "next_action": "Continue the Livingstone photo backlog only when precise no-attribution sources for the town, museum or locally made crafts with required consent are available; otherwise rotate to a separate evidenced image gap.",
+    "started_at": "2026-10-25 15:12 Africa/Kampala",
+    "initial_live_verification": "2026-10-25 15:12 Africa/Kampala: production Livingstone detail page returned HTTP 200 with no gallery photo controls or Livingstone image assets before this update.",
+    "source_ledger_date": "2026-10-25"
   },
   "follow_ups": [],
   "last_pending_check": {
@@ -739,6 +725,48 @@
       ],
       "email_id": "1a1717d9280e725e",
       "report_sent_at": "2026-10-25 08:16 Africa/Kampala"
+    },
+    {
+      "id": "serengeti-balloon-safari-four-no-attribution-photo-enrichment",
+      "page_url": "https://trekafricaguide.com/activities/serengeti-balloon-safari/",
+      "page_type": "activity",
+      "status": "complete_live_confirmed",
+      "previous_photo_count": 2,
+      "photo_count": 6,
+      "new_photo_count": 4,
+      "checked_date": "2026-10-25",
+      "source_ledger": "docs/editorial-research/2026-10-25-serengeti-balloon-safari-photo-enrichment.md",
+      "files": [
+        "src/lib/photo-library.js",
+        "public/photo-library.js",
+        "public/images/editorial/serengeti-balloon-safari/balloon-over-serengeti-plain.jpg",
+        "public/images/editorial/serengeti-balloon-safari/seronera-balloon-on-field.jpg",
+        "public/images/editorial/serengeti-balloon-safari/serengeti-balloon-dawn.jpg",
+        "public/images/editorial/serengeti-balloon-safari/serengeti-balloon-national-park.jpg",
+        "docs/editorial-research/2026-10-25-serengeti-balloon-safari-photo-enrichment.md",
+        "docs/image-enrichment-progress.json"
+      ],
+      "note": "Added four visually reviewed Serengeti/Seronera balloon photographs to the existing two-photo Serengeti balloon safari activity gallery. All four are exact activity/location sources under the no-attribution-required Pexels License. Internal metadata and ledger retain source, creator, date evidence, license, location support, alt text, limitations and SHA-256. Global source URL and image hash dedup found no duplicates. The two existing CC BY-SA photos and required credits remain untouched. No copy, CTA, page layout, tracking or site behavior changed.",
+      "next_action": "Rotate to another underfilled guide; retain the owner preference for verified no-public-attribution photos and leave existing required credits unchanged.",
+      "started_at": "2026-10-25 08:18 Africa/Kampala",
+      "initial_live_verification": "2026-10-25: Production activity page returned HTTP 200 and reported See all 2 before this collection.",
+      "commit": "5601168",
+      "netlify_deploy": "6add92db7750d2cb04545c0c",
+      "live_verification": "2026-10-25 08:27 Africa/Kampala: Netlify production deploy 6add92db7750d2cb04545c0c reports ready for main commit 560116813dacc4ce755e88c1b9d7739e3d8c9812. Production activity page returned HTTP 200, says See all 6 and contains all four new filenames. All four assets returned HTTP 200 image/jpeg with byte counts matching local files.",
+      "asset_http_statuses": [
+        200,
+        200,
+        200,
+        200
+      ],
+      "asset_content_lengths": [
+        490455,
+        504645,
+        144679,
+        542125
+      ],
+      "email_id": "1a171872d0e4c15e",
+      "report_sent_at": "2026-10-25 08:27 Africa/Kampala"
     }
   ]
 }
