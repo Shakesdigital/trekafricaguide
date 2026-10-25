@@ -4,7 +4,7 @@
     "id": "zanzibar-attraction-four-no-attribution-photo-enrichment",
     "page_url": "https://trekafricaguide.com/attractions/zanzibar/",
     "page_type": "attraction",
-    "status": "pushed_pending_publication",
+    "status": "complete_live_confirmed",
     "previous_photo_count": 2,
     "photo_count": 6,
     "new_photo_count": 4,
@@ -21,13 +21,28 @@
       "docs/image-enrichment-progress.json"
     ],
     "note": "Added four visually reviewed exact-location photographs to the Zanzibar attraction gallery, increasing it from two to six. All four are Pexels License photos with verified no-attribution requirements; source, creator, date evidence, license, exact-location evidence, alt text, limitations and SHA-256 remain internal. Global source URL and image hash dedup found no duplicates. Existing two photos, hero, guide copy, tracking and site behavior remain unchanged.",
-    "next_action": "Push the collection and confirm the live guide includes six photos and each of the four plain image assets returns HTTP 200.",
+    "next_action": "Rotate to another underfilled guide; continue using only verified no-public-attribution images until the owner changes this preference.",
     "started_at": "2026-10-25 08:10 Africa/Kampala",
     "initial_live_verification": "2026-10-25: Production Zanzibar attraction page returned HTTP 200 and reported See all 2 before this collection.",
     "source_ledger_date": "2026-10-25",
     "commit": "b06217e",
     "pushed_at": "2026-10-25 08:15 Africa/Kampala",
-    "live_verification": "Awaiting the Netlify production deploy for main commit b06217e. The previous live check showed the page’s original two-photo gallery; no publication claim has been made."
+    "live_verification": "2026-10-25 08:16 Africa/Kampala: Netlify production deploy 6add9064be2cd6add2c9bf23 reports ready for main commit cef3eb39. Production Zanzibar attraction page returned HTTP 200, says See all 6, and contains all four new filenames. Each new image asset returned HTTP 200 image/jpeg with expected local byte count.",
+    "netlify_deploy": "6add9064be2cd6add2c9bf23",
+    "asset_http_statuses": [
+      200,
+      200,
+      200,
+      200
+    ],
+    "asset_content_lengths": [
+      508323,
+      343664,
+      572778,
+      545690
+    ],
+    "email_id": "1a1717d9280e725e",
+    "report_sent_at": "2026-10-25 08:16 Africa/Kampala"
   },
   "follow_ups": [],
   "last_pending_check": {
