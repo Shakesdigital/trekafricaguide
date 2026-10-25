@@ -4,7 +4,7 @@
     "id": "zanzibar-attraction-four-no-attribution-photo-enrichment",
     "page_url": "https://trekafricaguide.com/attractions/zanzibar/",
     "page_type": "attraction",
-    "status": "integrated_pending_deploy",
+    "status": "pushed_pending_publication",
     "previous_photo_count": 2,
     "photo_count": 6,
     "new_photo_count": 4,
@@ -24,7 +24,10 @@
     "next_action": "Push the collection and confirm the live guide includes six photos and each of the four plain image assets returns HTTP 200.",
     "started_at": "2026-10-25 08:10 Africa/Kampala",
     "initial_live_verification": "2026-10-25: Production Zanzibar attraction page returned HTTP 200 and reported See all 2 before this collection.",
-    "source_ledger_date": "2026-10-25"
+    "source_ledger_date": "2026-10-25",
+    "commit": "b06217e",
+    "pushed_at": "2026-10-25 08:15 Africa/Kampala",
+    "live_verification": "Awaiting the Netlify production deploy for main commit b06217e. The previous live check showed the page’s original two-photo gallery; no publication claim has been made."
   },
   "follow_ups": [],
   "last_pending_check": {
