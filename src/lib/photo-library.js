@@ -1,7 +1,7 @@
 // Curated source. Run node scripts/sync-photo-library.mjs after editing.
 // Curated free photography; source and licence metadata travel with each image.
 export const photoLibrary = {
-  "updated_at": "2026-10-24",
+  "updated_at": "2026-10-25",
   "images": {
     "/images/editorial/kwame-nkrumah-memorial-park/park-aerial-2023.jpg": {
       "slug": "kwame-nkrumah-memorial-park-aerial-2023",
@@ -5563,6 +5563,98 @@ export const photoLibrary = {
       "checked_at": "2026-10-24",
       "exact_subject_evidence": "The Pexels photo page title identifies the Kwame Nkrumah statue in Accra, Ghana; the page describes the bronze statue and marks the photo free to use. Visual review confirms the statue and memorial structure. Capture date is not stated on the source page.",
       "reuse_note": "The Pexels image page marks the photo free to use. The official Pexels License allows website use and does not require attribution. No public credit is shown under the owner preference. Memorial-place illustration only; it does not imply affiliation or endorsement."
+    },
+    "/images/editorial/zanzibar/zanzibar-beachfront.jpg": {
+      "slug": "zanzibar-beachfront",
+      "local_path": "/images/editorial/zanzibar/zanzibar-beachfront.jpg",
+      "source_page": "https://www.pexels.com/photo/scenic-beachfront-in-zanzibar-tanzania-at-sunset-37087505/",
+      "source_revision": "Pexels photo 37087505",
+      "creator": "Laura Meinhardt",
+      "license": "Pexels License",
+      "license_url": "https://www.pexels.com/license/",
+      "date": "2026-03-22",
+      "source_published_at": "2026-04-14",
+      "captured_at": "2026-03-22",
+      "sha256": "336b3fd096fe07ce0078bff060455e1767a136d03b251e31268ba9c7b03939d7",
+      "exact_subject": true,
+      "subject": "Palm-lined Zanzibar beach and thatched beachfront structures",
+      "alt": "Palm-lined shore and simple thatched structures along a Zanzibar beach.",
+      "property": false,
+      "kind": "photograph",
+      "requires_attribution": false,
+      "changes": "Downloaded from the Pexels CDN at 1800 pixels wide with aspect ratio preserved; no other edits.",
+      "checked_at": "2026-10-25",
+      "exact_subject_evidence": "Pexels identifies the location as Zanzibar, Mjini Magharibi Region, Tanzania, and describes a tropical beach with palms and bungalows. Visual review confirms a shoreline, palms and thatched buildings; the scene is not presented as a named property.",
+      "reuse_note": "The Pexels source page marks this photo free to use. The official Pexels License permits website use without attribution. Public credit is not required under the owner preference. It illustrates a beach scene and does not imply endorsement by a property or operator."
+    },
+    "/images/editorial/zanzibar/stone-town-aerial.jpg": {
+      "slug": "zanzibar-stone-town-aerial",
+      "local_path": "/images/editorial/zanzibar/stone-town-aerial.jpg",
+      "source_page": "https://www.pexels.com/photo/aerial-view-of-city-buildings-near-body-of-water-7101641/",
+      "source_revision": "Pexels photo 7101641",
+      "creator": "George John",
+      "license": "Pexels License",
+      "license_url": "https://www.pexels.com/license/",
+      "date": "2020-12-31",
+      "source_published_at": "2021-03-10",
+      "captured_at": "2020-12-31",
+      "sha256": "c3869f727cc570f3332ff892557aea567113f92432176b7012458f9c1681ed94",
+      "exact_subject": true,
+      "subject": "Stone Town rooftops and coastline from above",
+      "alt": "Stone Town’s closely packed rooftops meet the Indian Ocean coastline in an aerial view.",
+      "property": false,
+      "kind": "photograph",
+      "requires_attribution": false,
+      "changes": "Downloaded from the Pexels CDN at 1800 pixels wide with aspect ratio preserved; no other edits.",
+      "checked_at": "2026-10-25",
+      "exact_subject_evidence": "The Pexels page locates the aerial photograph in Zanzibar City, Tanzania and describes Stone Town's historic architecture and coastline. Visual review confirms the dense historic rooftops along the shore.",
+      "reuse_note": "The Pexels source page marks this photo free to use. The official Pexels License permits website use without attribution. Public credit is not required under the owner preference. It is a location illustration, not a statement about present-day access or a specific operator."
+    },
+    "/images/editorial/zanzibar/jozani-red-colobus.jpg": {
+      "slug": "zanzibar-jozani-colobus-monkey",
+      "local_path": "/images/editorial/zanzibar/jozani-red-colobus.jpg",
+      "source_page": "https://www.pexels.com/photo/little-monkey-27669236/",
+      "source_revision": "Pexels photo 27669236",
+      "creator": "Oljamu",
+      "license": "Pexels License",
+      "license_url": "https://www.pexels.com/license/",
+      "date": "2024-07-24",
+      "source_published_at": "2024-08-09",
+      "captured_at": "2024-07-24",
+      "sha256": "961b9ebb3ac618c0e45a8a9afc0cb9a9342dd06166fa0dc8bacbf6bdba130934",
+      "exact_subject": true,
+      "subject": "Colobus monkey in Jozani Forest, Unguja",
+      "alt": "A colobus monkey peers through leafy branches at Jozani Forest on Unguja.",
+      "property": false,
+      "kind": "photograph",
+      "requires_attribution": false,
+      "changes": "Downloaded from the Pexels CDN at 1800 pixels wide with aspect ratio preserved; no other edits.",
+      "checked_at": "2026-10-25",
+      "exact_subject_evidence": "The Pexels page locates the photograph at Jozani, Unguja South Region, and identifies the pictured animal as a Zanzibar Red Colobus. Visual review confirms a colobus monkey in leafy forest; alt text describes the visible animal and location without relying on the species label.",
+      "reuse_note": "The Pexels source page marks this photo free to use. The official Pexels License permits website use without attribution. Public credit is not required under the owner preference. Wildlife location illustration only; it does not promise a sighting or endorse a guide."
+    },
+    "/images/editorial/zanzibar/zanzibar-dhow-boats.jpg": {
+      "slug": "zanzibar-waterfront-dhow-boats",
+      "local_path": "/images/editorial/zanzibar/zanzibar-dhow-boats.jpg",
+      "source_page": "https://www.pexels.com/photo/boats-in-blue-sea-10294338/",
+      "source_revision": "Pexels photo 10294338",
+      "creator": "Keegan Checks",
+      "license": "Pexels License",
+      "license_url": "https://www.pexels.com/license/",
+      "date": null,
+      "source_published_at": "2021-11-19",
+      "captured_at": null,
+      "sha256": "a0648c695d334ed6da75310e62cd2026e9f608496aa3237ca9fba144fd01590a",
+      "exact_subject": true,
+      "subject": "Traditional boats at a Zanzibar waterfront",
+      "alt": "Wooden dhows moored off a Zanzibar waterfront, with an open-air seating terrace in the foreground.",
+      "property": false,
+      "kind": "photograph",
+      "requires_attribution": false,
+      "changes": "Downloaded from the Pexels CDN at 1800 pixels wide with aspect ratio preserved; no other edits.",
+      "checked_at": "2026-10-25",
+      "exact_subject_evidence": "The Pexels page locates the image in Zanzibar, Mjini Magharibi Region, Tanzania and describes traditional dhow boats. Visual review confirms several wooden boats at a waterfront; capture date is not stated on the source page.",
+      "reuse_note": "The Pexels source page marks this photo free to use. The official Pexels License permits website use without attribution. Public credit is not required under the owner preference. The waterfront view does not promise that pictured seating or boats are available to visitors."
     }
   },
   "listings": {
@@ -5886,7 +5978,11 @@ export const photoLibrary = {
         ],
         "gallery": [
           "/images/stock/destinations/zanzibar.jpg",
-          "/images/stock/starter/zanzibar.jpg"
+          "/images/stock/starter/zanzibar.jpg",
+          "/images/editorial/zanzibar/zanzibar-beachfront.jpg",
+          "/images/editorial/zanzibar/stone-town-aerial.jpg",
+          "/images/editorial/zanzibar/jozani-red-colobus.jpg",
+          "/images/editorial/zanzibar/zanzibar-dhow-boats.jpg"
         ]
       },
       "elmina-castle": {

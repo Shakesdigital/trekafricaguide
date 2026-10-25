@@ -1,42 +1,30 @@
 {
-  "updated_at": "2026-10-24",
+  "updated_at": "2026-10-25",
   "current_run": {
-    "id": "kwame-nkrumah-memorial-park-four-photo-daylight-supplement",
-    "page_url": "https://trekafricaguide.com/attractions/kwame-nkrumah-memorial-park/",
+    "id": "zanzibar-attraction-four-no-attribution-photo-enrichment",
+    "page_url": "https://trekafricaguide.com/attractions/zanzibar/",
     "page_type": "attraction",
-    "status": "complete_live_confirmed",
-    "previous_photo_count": 6,
-    "photo_count": 10,
+    "status": "integrated_pending_deploy",
+    "previous_photo_count": 2,
+    "photo_count": 6,
     "new_photo_count": 4,
-    "checked_date": "2026-10-24",
-    "source_ledger": "docs/editorial-research/2026-10-24-kwame-nkrumah-memorial-park-photo-supplement.md",
+    "checked_date": "2026-10-25",
+    "source_ledger": "docs/editorial-research/2026-10-25-zanzibar-attraction-photo-enrichment.md",
     "files": [
       "src/lib/photo-library.js",
       "public/photo-library.js",
-      "public/images/editorial/kwame-nkrumah-memorial-park/daylight-memorial-walkway.jpg",
-      "public/images/editorial/kwame-nkrumah-memorial-park/daylight-reflecting-pool-statues.jpg",
-      "public/images/editorial/kwame-nkrumah-memorial-park/daylight-mausoleum-facade.jpg",
-      "public/images/editorial/kwame-nkrumah-memorial-park/daylight-nkrumah-statue-detail.jpg",
-      "docs/editorial-research/2026-10-24-kwame-nkrumah-memorial-park-photo-supplement.md",
+      "public/images/editorial/zanzibar/zanzibar-beachfront.jpg",
+      "public/images/editorial/zanzibar/stone-town-aerial.jpg",
+      "public/images/editorial/zanzibar/jozani-red-colobus.jpg",
+      "public/images/editorial/zanzibar/zanzibar-dhow-boats.jpg",
+      "docs/editorial-research/2026-10-25-zanzibar-attraction-photo-enrichment.md",
       "docs/image-enrichment-progress.json"
     ],
-    "note": "Added four visually reviewed, distinct daylight photos to the existing six-image Kwame Nkrumah Memorial Park collection. New sources are exact Accra location Pexels photos under a license that does not require attribution. Internal records retain creator, source URL, date evidence, license, alt, location evidence and SHA-256. Source and hash duplicates were checked against all existing assignments and local public assets. The prior six CC BY-SA images and required public credits remain unchanged. No copy or site behavior changed.",
-    "next_action": "Rotate to another guide with an evidenced image gap using only verified no-public-attribution photos.",
-    "started_at": "2026-10-24 16:22 Africa/Kampala",
-    "commit": "e9506f89540abd7af2288be7c4c08e5099343447",
-    "live_verification": "2026-10-24 20:11 Africa/Kampala: Production page shows all 10 gallery photos, including all four additions. Each new plain image URL returned HTTP 200. Netlify reports production deploy 6adce3657840a0c0a0febd96 ready for main commit 92e88032f6324a89499efb809c6216277d31d99b.",
-    "asset_http_statuses": [
-      200,
-      200,
-      200,
-      200
-    ],
-    "blocker": "Resolved: production deploy 6adce3657840a0c0a0febd96 now serves main commit 92e8803.",
-    "email_id": "1a16e1c9240f5b4a",
-    "report_sent_at": "2026-10-24 16:32 Africa/Kampala",
-    "netlify_deploy": "6adce3657840a0c0a0febd96",
-    "recovery_email_id": "1a16ee5aa43d19e4",
-    "recovery_report_sent_at": "2026-10-24 20:11 Africa/Kampala"
+    "note": "Added four visually reviewed exact-location photographs to the Zanzibar attraction gallery, increasing it from two to six. All four are Pexels License photos with verified no-attribution requirements; source, creator, date evidence, license, exact-location evidence, alt text, limitations and SHA-256 remain internal. Global source URL and image hash dedup found no duplicates. Existing two photos, hero, guide copy, tracking and site behavior remain unchanged.",
+    "next_action": "Push the collection and confirm the live guide includes six photos and each of the four plain image assets returns HTTP 200.",
+    "started_at": "2026-10-25 08:10 Africa/Kampala",
+    "initial_live_verification": "2026-10-25: Production Zanzibar attraction page returned HTTP 200 and reported See all 2 before this collection.",
+    "source_ledger_date": "2026-10-25"
   },
   "follow_ups": [],
   "last_pending_check": {
@@ -653,6 +641,44 @@
       ],
       "email_id": "1a16da5d06e9ed54",
       "report_sent_at": "2026-10-24 14:22 Africa/Kampala"
+    },
+    {
+      "id": "kwame-nkrumah-memorial-park-four-photo-daylight-supplement",
+      "page_url": "https://trekafricaguide.com/attractions/kwame-nkrumah-memorial-park/",
+      "page_type": "attraction",
+      "status": "complete_live_confirmed",
+      "previous_photo_count": 6,
+      "photo_count": 10,
+      "new_photo_count": 4,
+      "checked_date": "2026-10-24",
+      "source_ledger": "docs/editorial-research/2026-10-24-kwame-nkrumah-memorial-park-photo-supplement.md",
+      "files": [
+        "src/lib/photo-library.js",
+        "public/photo-library.js",
+        "public/images/editorial/kwame-nkrumah-memorial-park/daylight-memorial-walkway.jpg",
+        "public/images/editorial/kwame-nkrumah-memorial-park/daylight-reflecting-pool-statues.jpg",
+        "public/images/editorial/kwame-nkrumah-memorial-park/daylight-mausoleum-facade.jpg",
+        "public/images/editorial/kwame-nkrumah-memorial-park/daylight-nkrumah-statue-detail.jpg",
+        "docs/editorial-research/2026-10-24-kwame-nkrumah-memorial-park-photo-supplement.md",
+        "docs/image-enrichment-progress.json"
+      ],
+      "note": "Added four visually reviewed, distinct daylight photos to the existing six-image Kwame Nkrumah Memorial Park collection. New sources are exact Accra location Pexels photos under a license that does not require attribution. Internal records retain creator, source URL, date evidence, license, alt, location evidence and SHA-256. Source and hash duplicates were checked against all existing assignments and local public assets. The prior six CC BY-SA images and required public credits remain unchanged. No copy or site behavior changed.",
+      "next_action": "Rotate to another guide with an evidenced image gap using only verified no-public-attribution photos.",
+      "started_at": "2026-10-24 16:22 Africa/Kampala",
+      "commit": "e9506f89540abd7af2288be7c4c08e5099343447",
+      "live_verification": "2026-10-24 20:11 Africa/Kampala: Production page shows all 10 gallery photos, including all four additions. Each new plain image URL returned HTTP 200. Netlify reports production deploy 6adce3657840a0c0a0febd96 ready for main commit 92e88032f6324a89499efb809c6216277d31d99b.",
+      "asset_http_statuses": [
+        200,
+        200,
+        200,
+        200
+      ],
+      "blocker": "Resolved: production deploy 6adce3657840a0c0a0febd96 now serves main commit 92e8803.",
+      "email_id": "1a16e1c9240f5b4a",
+      "report_sent_at": "2026-10-24 16:32 Africa/Kampala",
+      "netlify_deploy": "6adce3657840a0c0a0febd96",
+      "recovery_email_id": "1a16ee5aa43d19e4",
+      "recovery_report_sent_at": "2026-10-24 20:11 Africa/Kampala"
     }
   ]
 }
