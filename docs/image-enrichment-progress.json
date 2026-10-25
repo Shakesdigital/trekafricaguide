@@ -4,7 +4,7 @@
     "id": "serengeti-balloon-safari-four-no-attribution-photo-enrichment",
     "page_url": "https://trekafricaguide.com/activities/serengeti-balloon-safari/",
     "page_type": "activity",
-    "status": "integrated_pending_deploy",
+    "status": "complete_live_confirmed",
     "previous_photo_count": 2,
     "photo_count": 6,
     "new_photo_count": 4,
@@ -21,9 +21,26 @@
       "docs/image-enrichment-progress.json"
     ],
     "note": "Added four visually reviewed Serengeti/Seronera balloon photographs to the existing two-photo Serengeti balloon safari activity gallery. All four are exact activity/location sources under the no-attribution-required Pexels License. Internal metadata and ledger retain source, creator, date evidence, license, location support, alt text, limitations and SHA-256. Global source URL and image hash dedup found no duplicates. The two existing CC BY-SA photos and required credits remain untouched. No copy, CTA, page layout, tracking or site behavior changed.",
-    "next_action": "Publish the integrated collection, confirm the activity page shows six images and all four plain assets return HTTP 200, then report once without photo source links.",
+    "next_action": "Rotate to another underfilled guide; retain the owner preference for verified no-public-attribution photos and leave existing required credits unchanged.",
     "started_at": "2026-10-25 08:18 Africa/Kampala",
-    "initial_live_verification": "2026-10-25: Production activity page returned HTTP 200 and reported See all 2 before this collection."
+    "initial_live_verification": "2026-10-25: Production activity page returned HTTP 200 and reported See all 2 before this collection.",
+    "commit": "5601168",
+    "netlify_deploy": "6add92db7750d2cb04545c0c",
+    "live_verification": "2026-10-25 08:27 Africa/Kampala: Netlify production deploy 6add92db7750d2cb04545c0c reports ready for main commit 560116813dacc4ce755e88c1b9d7739e3d8c9812. Production activity page returned HTTP 200, says See all 6 and contains all four new filenames. All four assets returned HTTP 200 image/jpeg with byte counts matching local files.",
+    "asset_http_statuses": [
+      200,
+      200,
+      200,
+      200
+    ],
+    "asset_content_lengths": [
+      490455,
+      504645,
+      144679,
+      542125
+    ],
+    "email_id": "1a171872d0e4c15e",
+    "report_sent_at": "2026-10-25 08:27 Africa/Kampala"
   },
   "follow_ups": [],
   "last_pending_check": {
