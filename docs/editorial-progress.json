@@ -503,5 +503,28 @@
     "commit": "ee1a97a",
     "publication": "Ready deploy 6add8f314921a4abe0de580e, commit ee1a97a. Live guide HTTP 200 with new prose, no exposed markup; Zambia page and homepage search contain canonical URL.",
     "email_id": "1a171797d7a74bc3"
+  },
+  "cms_editorial_mirror": {
+    "status": "implementation_prepared_activation_blocked",
+    "requested_at": "2026-10-25",
+    "objective": "Make automated guide content editable in the CMS while preserving simultaneous manual edits",
+    "categories": [
+      "countries",
+      "attractions",
+      "activities",
+      "accommodations",
+      "travel_articles",
+      "local_destinations"
+    ],
+    "checkpoint": "Revisioned mirror, protected merge/save RPCs, editor and opt-in build integration prepared. Supabase project access denied; migration and backfill not applied. Feature remains disabled.",
+    "files": [
+      "docs/cms-editorial-mirror.md",
+      "supabase/migrations/20261025000100_editorial_mirror.sql",
+      "server/content-manager/editorial-mirror.mjs",
+      "public/cms-editorial.html",
+      "public/cms-editorial.js"
+    ],
+    "next_action": "Reconnect Supabase to rftoaaehhenhnziukgpl, inspect roles/schema, back up native content, apply migration, activate and confirm CMS save/publication round trip.",
+    "verification": "Inspection only; no tests or local build. No live synchronization claim."
   }
 }

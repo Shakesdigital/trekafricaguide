@@ -158,6 +158,12 @@ export function mergeEditorialOverrides(tables, overrides) {
  * @returns {Promise<RawTables>}
  */
 export async function loadPublishedTables(client, now = new Date()) {
+  const mirrorEnabled = process.env.EDITORIAL_CMS_SYNC === 'true';
+  let mirror;
+  if (mirrorEnabled) {
+    mirror = await import('../../server/content-manager/editorial-mirror.mjs');
+    client = mirror.createEditorialClient();
+  }
   const tables = {};
 
   for (const table of TABLE_NAMES) {
@@ -184,12 +190,15 @@ export async function loadPublishedTables(client, now = new Date()) {
   try {
     const destinations = JSON.parse(await readFile(LOCAL_DESTINATIONS_PATH, 'utf8'));
     if (!Array.isArray(destinations)) throw new Error('expected an array');
-    tables.local_destinations = visibleRecords(destinations, now);
+    tables.local_destinations = destinations;
   } catch (error) {
     throw new Error(`Failed to load local destinations at ${LOCAL_DESTINATIONS_PATH}: ${error.message}`);
   }
 
-  // Publication filtering
+  if (mirrorEnabled) await mirror.reconcileEditorialMirror(tables, client);
+
+  // Publication filtering always follows the merged CMS revision, including drafts.
+  tables.local_destinations = visibleRecords(tables.local_destinations, now);
   tables.regions = visibleRecords(tables.regions, now);
   tables.countries = visibleRecords(tables.countries, now);
   tables.attractions = visibleRecords(tables.attractions, now);

@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Editorial workspace — Trek Africa Guide</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <script src="/runtime-config.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <style>
+    :root{--ink:#14253b;--paper:#fbf8f1;--line:rgba(20,37,59,.13);--green:#1d4f3a;--gold:#8a6231;--red:#912a2a;--muted:#627083}*{box-sizing:border-box}body{margin:0;background:radial-gradient(circle at top left,rgba(197,181,128,.14),transparent 32%),var(--paper);color:var(--ink);font:15px/1.55 Manrope,system-ui,sans-serif}button,input,select,textarea{font:inherit}a{color:inherit}.top{display:flex;align-items:center;justify-content:space-between;padding:1rem clamp(1rem,4vw,3rem);background:#123321;color:white}.brand{font-weight:800}.top a{padding:.5rem .8rem;border:1px solid #ffffff55;border-radius:8px;text-decoration:none}.wrap{max-width:1320px;margin:auto;padding:2rem clamp(1rem,4vw,3rem)}h1,h2,h3{font-family:'Instrument Serif',Georgia,serif;font-weight:400;line-height:1.1}h1{font-size:2.5rem;margin:0 0 .4rem}h2{font-size:1.65rem;margin:.2rem 0 1rem}.intro{color:var(--muted);max-width:850px;margin:0 0 1.4rem}.notice{padding:.9rem 1rem;background:#f1ead9;border:1px solid #d6c9a7;border-radius:12px;margin-bottom:1.4rem}.toolbar{display:grid;grid-template-columns:minmax(220px,1fr) 220px 180px;gap:.7rem;margin-bottom:1rem}.control,select,textarea{width:100%;border:1px solid var(--line);border-radius:9px;padding:.7rem .8rem;background:#fff;color:var(--ink)}.layout{display:grid;grid-template-columns:minmax(260px, .8fr) minmax(0,1.7fr);gap:1rem;align-items:start}.panel{border:1px solid var(--line);border-radius:16px;background:#fff;padding:1.1rem;box-shadow:0 10px 30px #14253b0a}.results{max-height:68vh;overflow:auto}.record{display:block;width:100%;text-align:left;padding:.8rem;border:0;border-bottom:1px solid var(--line);background:white;color:inherit;cursor:pointer}.record:hover,.record.active{background:#f3f1e9}.record strong{display:block;overflow-wrap:anywhere}.record small{color:var(--muted)}.tag{display:inline-block;background:#eaf0eb;color:var(--green);border-radius:99px;padding:.12rem .5rem;font-size:.75rem;font-weight:700;margin-top:.35rem}.tag.draft{background:#f4ecdd;color:#755526}.meta{display:flex;gap:.5rem;flex-wrap:wrap;color:var(--muted);font-size:.85rem;margin-bottom:1rem}.field-grid{display:grid;grid-template-columns:1fr 1fr;gap:.8rem}.field{display:grid;gap:.3rem}.field.full{grid-column:1/-1}.field label{font-size:.82rem;font-weight:800}.field input,.field textarea{min-width:0}.field textarea{min-height:92px;resize:vertical}.field input:disabled{background:#f4f4f0;color:#586273}.check{display:flex;align-items:center;gap:.55rem;min-height:42px}.check input{width:18px;height:18px}.actions{display:flex;align-items:center;gap:.6rem;margin-top:1rem;flex-wrap:wrap}.btn{border:0;border-radius:9px;background:var(--green);color:white;padding:.7rem 1rem;font-weight:800;cursor:pointer}.btn.secondary{background:#eee9df;color:var(--ink)}.btn:disabled{opacity:.55;cursor:wait}.status{margin-left:auto;font-size:.88rem;color:var(--muted)}.status.error{color:var(--red)}.status.ok{color:var(--green)}details{margin-top:1.1rem;border-top:1px solid var(--line);padding-top:.75rem}details summary{cursor:pointer;font-weight:800}.json-area{font:13px/1.5 ui-monospace,monospace;min-height:220px;margin-top:.7rem}.conflicts{background:#fff3e3;border:1px solid #e5c894;border-radius:10px;padding:.75rem;margin:.7rem 0}.empty{padding:1.5rem;text-align:center;color:var(--muted)}.hidden{display:none!important}@media(max-width:850px){.layout{grid-template-columns:1fr}.results{max-height:34vh}.toolbar{grid-template-columns:1fr 1fr}.toolbar input{grid-column:1/-1}}@media(max-width:520px){.field-grid,.toolbar{grid-template-columns:1fr}.field.full{grid-column:auto}.status{margin:0;width:100%}}
+  </style>
+</head>
+<body>
+  <header class="top"><div class="brand">🌍 TrekAfrica · Editorial</div><a href="/cms.html">← Main CMS / sign in</a></header>
+  <main class="wrap">
+    <h1>Editorial workspace</h1>
+    <p class="intro">Edit the structured content used by the editorial automation workflow. Your signed-in CMS session is reused here. Document IDs and slugs stay fixed; use the advanced editor for other structured values.</p>
+    <div class="notice"><strong>How changes go live:</strong> Saving stores a new CMS revision. Publish the website to make this revision live. This workspace edits automation content without overwriting newer manual edits; revision conflicts are shown before a save can proceed.</div>
+    <div id="setupNotice" class="notice hidden"><strong>Editorial workspace setup is pending.</strong> This workspace is disabled until <code>editorialMirrorEnabled</code> is enabled in the public runtime configuration.</div>
+    <div id="loginNotice" class="panel hidden">Sign in through the <a href="/cms.html">main CMS</a>, then return here. This workspace uses the same Supabase session.</div>
+    <div id="workspace" class="hidden">
+      <div class="toolbar"><input id="search" class="control" type="search" placeholder="Search title, slug, or content…" aria-label="Search documents"><select id="entityFilter" aria-label="Filter category"><option value="">All categories</option></select><select id="statusFilter" aria-label="Filter status"><option value="">All statuses</option><option value="draft">Draft</option><option value="published">Published</option></select></div>
+      <div class="layout"><section class="panel results" aria-label="Editorial documents"><h2>Documents <span id="count"></span></h2><div id="records"></div></section>
+        <section class="panel" id="editor"><div class="empty">Choose a document to edit.</div></section>
+      </div>
+    </div>
+  </main>
+  <script src="/cms-editorial.js"></script>
+</body>
+</html>

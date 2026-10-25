@@ -1011,6 +1011,9 @@
         <span class="nav-icon">⚙️</span> Settings
         <span class="nav-badge" id="badge-site_settings">–</span>
       </button>
+      <a class="nav-item" href="/cms-editorial.html" style="text-decoration:none">
+        <span class="nav-icon">✍️</span> Editorial workspace
+      </a>
     </nav>
 
     <div class="sidebar-footer">
@@ -1307,6 +1310,10 @@ function singularLabel(tab) {
 //  DATA LOADING
 // ═══════════════════════════════════════════════════════════════
 async function loadTab(tab) {
+  if (TREK_CONFIG.editorialMirrorEnabled && ['countries','attractions','activities','accommodations','travel_articles','local_destinations'].includes(tab)) {
+    window.location.assign('/cms-editorial.html?entity=' + encodeURIComponent(tab));
+    return;
+  }
   if (!tab) { toast('Cannot load tab: resource is null', 'error'); return; }
   const page = document.getElementById(`page-${tab}`);
   if (!page) { toast(`Element not found: page-${tab}`, 'error'); return; }
