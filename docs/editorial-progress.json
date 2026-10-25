@@ -491,5 +491,18 @@
       "schedule": "Unchanged; no guarantee of immediate execution at usage reset.",
       "email_id": "1a16e1f6156b2df7"
     }
-  ]
+  ],
+  "destination_livingstone": {
+    "status": "in_progress",
+    "started": "2026-10-25",
+    "scope": "One Livingstone local destination guide under Zambia, neutral imagery and relevant cross-border insight link.",
+    "acceptance": "Sourced practical guide, valid country parent, no cross-country related cards, publication and live verification.",
+    "next_action": "Commit/push, confirm live guide, country tab and search relationship; report owner.",
+    "completed": "Full guide drafted with four sources, no cross-country card assignments and six-subject photo backlog.",
+    "files": [
+      "content/local-destinations.json",
+      "docs/editorial-research/2026-10-25-livingstone-destination.md"
+    ],
+    "images": 0
+  }
 }

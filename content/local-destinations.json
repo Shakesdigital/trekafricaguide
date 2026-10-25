@@ -287,5 +287,52 @@
       "/images/editorial/sine-saloum-destination/saloum-pirogue-excursion-2023.jpg",
       "/images/editorial/sine-saloum-destination/saloum-island-pirogue-2023.jpg"
     ]
+  },
+  {
+    "slug": "livingstone",
+    "country_slug": "zambia",
+    "name": "Livingstone",
+    "category": "River and heritage town",
+    "hero_title": "Livingstone: make time for Zambia beyond the falls",
+    "listing_summary": "Plan a Zambia-side base for Victoria Falls, with time for Livingstone Museum, town life and the Upper Zambezi. Choose your accommodation location and border crossings deliberately.",
+    "overview": "Livingstone offers a different rhythm from a visit built entirely around the waterfall. Give the town a place in the itinerary: Livingstone Museum brings archaeology, natural history and Zambian cultural history into the journey, while the river and falls provide the outdoor counterpart. The National Museums Board lists five permanent galleries, including a David Livingstone collection; the museum is an opportunity to look beyond the explorer's story to the country around you.\n\nThis is a useful base for travellers who want to combine the Zambia-side falls with time in a working town. A museum visit followed by lunch and a short walk is a worthwhile quieter day between outdoor excursions. The museum lists a restaurant and craft shop, though opening arrangements should be confirmed. Around shops and markets, give traders space, ask before photographing people and treat a purchase as a conversation rather than a photo opportunity.\n\nChoose Livingstone for the experiences you want on this side of the border. Victoria Falls Town is in Zimbabwe: an appealing hotel or activity there is not automatically a local option for a Zambia stay. A two-country visit can work well, but it adds entry formalities and transfers. The linked first-visit insight explains that choice in detail.",
+    "highlights": [
+      "Give Livingstone Museum time alongside the waterfall",
+      "Choose between a town base and a river-oriented stay",
+      "Plan Zambia-side outings before adding a border crossing"
+    ],
+    "access_summary": "Harry Mwaanga Nkumbula International Airport serves Livingstone. Confirm the airport name on the ticket and arrange transport to your actual accommodation: Victoria Falls Airport is in Zimbabwe and requires a different arrival plan. Ask the accommodation to identify the meeting point, transfer inclusions and who to contact if the flight changes. Do not rely on an airport name that simply says Victoria Falls region.\n\nIf arriving by road from Zimbabwe, allow a separate block for immigration and the onward transfer. Requirements depend on nationality, passport, purpose, transit and permission to re-enter the country you leave. Zambia's Department of Immigration separates visa-free, visa-on-arrival and advance-visa categories; check the official category for each traveller and the rules of every country in the route. Information checked 25 October 2026. A tour booking or a driver offering border assistance does not itself grant entry.\n\nFor local outings, agree collection and return addresses before paying. A town-based room, a riverside lodge and accommodation near the falls can involve different daily transfers. Ask for the actual route and current travel estimate rather than assuming that every Livingstone address is walkable from the same sights.",
+    "best_time": "For comfortable town exploration, June–August is a useful starting window: Zambia's Department of Immigration describes this as the cooler part of the dry season. September–October tends to be hotter. Waterfall conditions follow the river as well as local weather; the regional tourism guide describes stronger flows broadly around February–April and much lower water later in the dry season, with substantial variation between years.\n\nChoose dates around your main reason for visiting. Strong flow can mean more spray and obscured views; low water can leave parts of the Zambia-side falls exposed. River activities have their own operating limits. Confirm current conditions and departure arrangements rather than expecting every cruise, island visit or rafting route to operate throughout a chosen month.",
+    "planning_tips": "Suggested three-night plan: arrive and settle into your base on the first day; give the Zambia-side falls a dedicated outing on the second; use the third for the museum and an optional operator-led Upper Zambezi cruise. Keep departure day simple. This is an editorial pacing suggestion, not a fixed package, and it can be shortened by choosing fewer outings rather than compressing everything.\n\nCompare accommodation by the cost and effort of the whole stay. A room near town services may suit travellers who want independent meals and museum time. A river-oriented property may suit those prioritising time at the lodge, provided its transfers and meal arrangements fit the budget. Ask what is included in each quotation; do not assume a room rate covers park entry, cruises or transport. No Zimbabwe-side property is presented here as a nearby Zambia stay.\n\nPack walking shoes with grip, sun protection, a reusable water bottle and a small waterproof pouch for the falls. A light warm layer is useful for cooler-season early starts; rain protection depends on both the forecast and spray. Follow park barriers and the operator's instructions on river outings. Confirm accessibility with the particular site or provider rather than assuming all viewpoints and boats have the same access.\n\nBefore committing, read recent feedback for the exact accommodation or excursion, paying attention to transfer coverage, meal arrangements and time allowed at stops. A review of another river cruise or a Zimbabwe departure cannot establish those details for your booking.",
+    "attraction_slugs": [],
+    "activity_slugs": [],
+    "accommodation_slugs": [],
+    "travel_insight_slugs": [
+      "plan-your-victoria-falls-visit"
+    ],
+    "hero_image_url": null,
+    "hero_image_alt": "",
+    "gallery": [],
+    "last_researched": "2026-10-25",
+    "research_sources": [
+      {
+        "label": "National Museums Board: Livingstone Museum collections and visitor facilities",
+        "url": "https://nmb.co.zm/livingstone-museum/"
+      },
+      {
+        "label": "Zambia Department of Immigration: visitor categories and seasonal overview",
+        "url": "https://www.zambiaimmigration.gov.zm/for-visitors/"
+      },
+      {
+        "label": "Regional tourism guide: Livingstone airport, town activities and variable falls seasons",
+        "url": "https://www.zambiatourism.com/towns/livingstone/"
+      },
+      {
+        "label": "Regional airport information: Harry Mwaanga Nkumbula International Airport",
+        "url": "https://www.zambiatourism.com/travel-info/airports/harry-mwaanga-nkumbula-international-airport/"
+      }
+    ],
+    "sort_order": 6,
+    "status": "published"
   }
 ]
