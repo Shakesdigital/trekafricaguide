@@ -6,7 +6,7 @@
   const entities = ['countries','attractions','accommodations','activities','travel_articles','local_destinations'];
   const entityNames = {countries:'Countries',attractions:'Attractions',accommodations:'Accommodations',activities:'Activities',travel_articles:'Travel articles',local_destinations:'Local destinations'};
   const $ = id => document.getElementById(id);
-  let docs = [], selected = null, session = null, saving = false, dirty = false, formDirty = new Set();
+  let docs = [], selected = null, session = null, saving = false, dirty = false, formDirty = new Set(), cmsRole = '';
   const entityFilter = $('entityFilter');
   for (const e of entities) { const o=document.createElement('option'); o.value=e; o.textContent=entityNames[e]; entityFilter.append(o); }
   function esc(s){return String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}
