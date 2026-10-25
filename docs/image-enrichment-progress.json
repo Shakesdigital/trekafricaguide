@@ -4,7 +4,7 @@
     "id": "okavango-delta-four-no-attribution-photo-enrichment",
     "page_url": "https://trekafricaguide.com/attractions/okavango-delta/",
     "page_type": "attraction",
-    "status": "pending_publication",
+    "status": "complete_live_confirmed",
     "previous_photo_count": 2,
     "photo_count": 6,
     "new_photo_count": 4,
@@ -25,7 +25,23 @@
     "next_action": "Rotate to another underfilled guide only after checking rendered/library counts; keep existing required-credit images in place and add only exact-subject photos with verified no-public-attribution rights.",
     "started_at": "2026-10-25 15:28 Africa/Kampala",
     "initial_live_verification": "2026-10-25 15:28 Africa/Kampala: production Okavango Delta attraction page returned HTTP 200 and showed See all 2 before these additions.",
-    "source_ledger_date": "2026-10-25"
+    "source_ledger_date": "2026-10-25",
+    "commit": "860b1c6a7a2a48b989569dfcf1684c30af4ca9e8",
+    "pushed_at": "2026-10-25 15:30 Africa/Kampala",
+    "netlify_deploy": "6addf633ef2de43f7e33d083",
+    "live_verification": "2026-10-25 15:31 Africa/Kampala: Netlify production deploy 6addf633ef2de43f7e33d083 is ready for main commit 860b1c6a7a2a48b989569dfcf1684c30af4ca9e8. The production Okavango Delta attraction page returned HTTP 200, displays See all 6 and contains all four new gallery filenames. All four new image URLs returned HTTP 200 image/jpeg and matched local byte counts.",
+    "asset_http_statuses": [
+      200,
+      200,
+      200,
+      200
+    ],
+    "asset_content_lengths": [
+      207579,
+      334666,
+      428574,
+      243105
+    ]
   },
   "follow_ups": [],
   "last_pending_check": {
