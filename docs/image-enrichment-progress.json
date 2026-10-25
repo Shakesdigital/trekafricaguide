@@ -1,48 +1,29 @@
 {
   "updated_at": "2026-10-25",
   "current_run": {
-    "id": "zanzibar-attraction-four-no-attribution-photo-enrichment",
-    "page_url": "https://trekafricaguide.com/attractions/zanzibar/",
-    "page_type": "attraction",
-    "status": "complete_live_confirmed",
+    "id": "serengeti-balloon-safari-four-no-attribution-photo-enrichment",
+    "page_url": "https://trekafricaguide.com/activities/serengeti-balloon-safari/",
+    "page_type": "activity",
+    "status": "integrated_pending_deploy",
     "previous_photo_count": 2,
     "photo_count": 6,
     "new_photo_count": 4,
     "checked_date": "2026-10-25",
-    "source_ledger": "docs/editorial-research/2026-10-25-zanzibar-attraction-photo-enrichment.md",
+    "source_ledger": "docs/editorial-research/2026-10-25-serengeti-balloon-safari-photo-enrichment.md",
     "files": [
       "src/lib/photo-library.js",
       "public/photo-library.js",
-      "public/images/editorial/zanzibar/zanzibar-beachfront.jpg",
-      "public/images/editorial/zanzibar/stone-town-aerial.jpg",
-      "public/images/editorial/zanzibar/jozani-red-colobus.jpg",
-      "public/images/editorial/zanzibar/zanzibar-dhow-boats.jpg",
-      "docs/editorial-research/2026-10-25-zanzibar-attraction-photo-enrichment.md",
+      "public/images/editorial/serengeti-balloon-safari/balloon-over-serengeti-plain.jpg",
+      "public/images/editorial/serengeti-balloon-safari/seronera-balloon-on-field.jpg",
+      "public/images/editorial/serengeti-balloon-safari/serengeti-balloon-dawn.jpg",
+      "public/images/editorial/serengeti-balloon-safari/serengeti-balloon-national-park.jpg",
+      "docs/editorial-research/2026-10-25-serengeti-balloon-safari-photo-enrichment.md",
       "docs/image-enrichment-progress.json"
     ],
-    "note": "Added four visually reviewed exact-location photographs to the Zanzibar attraction gallery, increasing it from two to six. All four are Pexels License photos with verified no-attribution requirements; source, creator, date evidence, license, exact-location evidence, alt text, limitations and SHA-256 remain internal. Global source URL and image hash dedup found no duplicates. Existing two photos, hero, guide copy, tracking and site behavior remain unchanged.",
-    "next_action": "Rotate to another underfilled guide; continue using only verified no-public-attribution images until the owner changes this preference.",
-    "started_at": "2026-10-25 08:10 Africa/Kampala",
-    "initial_live_verification": "2026-10-25: Production Zanzibar attraction page returned HTTP 200 and reported See all 2 before this collection.",
-    "source_ledger_date": "2026-10-25",
-    "commit": "b06217e",
-    "pushed_at": "2026-10-25 08:15 Africa/Kampala",
-    "live_verification": "2026-10-25 08:16 Africa/Kampala: Netlify production deploy 6add9064be2cd6add2c9bf23 reports ready for main commit cef3eb39. Production Zanzibar attraction page returned HTTP 200, says See all 6, and contains all four new filenames. Each new image asset returned HTTP 200 image/jpeg with expected local byte count.",
-    "netlify_deploy": "6add9064be2cd6add2c9bf23",
-    "asset_http_statuses": [
-      200,
-      200,
-      200,
-      200
-    ],
-    "asset_content_lengths": [
-      508323,
-      343664,
-      572778,
-      545690
-    ],
-    "email_id": "1a1717d9280e725e",
-    "report_sent_at": "2026-10-25 08:16 Africa/Kampala"
+    "note": "Added four visually reviewed Serengeti/Seronera balloon photographs to the existing two-photo Serengeti balloon safari activity gallery. All four are exact activity/location sources under the no-attribution-required Pexels License. Internal metadata and ledger retain source, creator, date evidence, license, location support, alt text, limitations and SHA-256. Global source URL and image hash dedup found no duplicates. The two existing CC BY-SA photos and required credits remain untouched. No copy, CTA, page layout, tracking or site behavior changed.",
+    "next_action": "Publish the integrated collection, confirm the activity page shows six images and all four plain assets return HTTP 200, then report once without photo source links.",
+    "started_at": "2026-10-25 08:18 Africa/Kampala",
+    "initial_live_verification": "2026-10-25: Production activity page returned HTTP 200 and reported See all 2 before this collection."
   },
   "follow_ups": [],
   "last_pending_check": {
@@ -697,6 +678,50 @@
       "netlify_deploy": "6adce3657840a0c0a0febd96",
       "recovery_email_id": "1a16ee5aa43d19e4",
       "recovery_report_sent_at": "2026-10-24 20:11 Africa/Kampala"
+    },
+    {
+      "id": "zanzibar-attraction-four-no-attribution-photo-enrichment",
+      "page_url": "https://trekafricaguide.com/attractions/zanzibar/",
+      "page_type": "attraction",
+      "status": "complete_live_confirmed",
+      "previous_photo_count": 2,
+      "photo_count": 6,
+      "new_photo_count": 4,
+      "checked_date": "2026-10-25",
+      "source_ledger": "docs/editorial-research/2026-10-25-zanzibar-attraction-photo-enrichment.md",
+      "files": [
+        "src/lib/photo-library.js",
+        "public/photo-library.js",
+        "public/images/editorial/zanzibar/zanzibar-beachfront.jpg",
+        "public/images/editorial/zanzibar/stone-town-aerial.jpg",
+        "public/images/editorial/zanzibar/jozani-red-colobus.jpg",
+        "public/images/editorial/zanzibar/zanzibar-dhow-boats.jpg",
+        "docs/editorial-research/2026-10-25-zanzibar-attraction-photo-enrichment.md",
+        "docs/image-enrichment-progress.json"
+      ],
+      "note": "Added four visually reviewed exact-location photographs to the Zanzibar attraction gallery, increasing it from two to six. All four are Pexels License photos with verified no-attribution requirements; source, creator, date evidence, license, exact-location evidence, alt text, limitations and SHA-256 remain internal. Global source URL and image hash dedup found no duplicates. Existing two photos, hero, guide copy, tracking and site behavior remain unchanged.",
+      "next_action": "Rotate to another underfilled guide; continue using only verified no-public-attribution images until the owner changes this preference.",
+      "started_at": "2026-10-25 08:10 Africa/Kampala",
+      "initial_live_verification": "2026-10-25: Production Zanzibar attraction page returned HTTP 200 and reported See all 2 before this collection.",
+      "source_ledger_date": "2026-10-25",
+      "commit": "b06217e",
+      "pushed_at": "2026-10-25 08:15 Africa/Kampala",
+      "live_verification": "2026-10-25 08:16 Africa/Kampala: Netlify production deploy 6add9064be2cd6add2c9bf23 reports ready for main commit cef3eb39. Production Zanzibar attraction page returned HTTP 200, says See all 6, and contains all four new filenames. Each new image asset returned HTTP 200 image/jpeg with expected local byte count.",
+      "netlify_deploy": "6add9064be2cd6add2c9bf23",
+      "asset_http_statuses": [
+        200,
+        200,
+        200,
+        200
+      ],
+      "asset_content_lengths": [
+        508323,
+        343664,
+        572778,
+        545690
+      ],
+      "email_id": "1a1717d9280e725e",
+      "report_sent_at": "2026-10-25 08:16 Africa/Kampala"
     }
   ]
 }
