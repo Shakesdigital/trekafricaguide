@@ -1,0 +1,26 @@
+{
+  "checked": "2026-10-25T05:12:02.717Z",
+  "results": [
+    {
+      "path": "/countries/zambia/livingstone",
+      "status": 200,
+      "hasDestination": true,
+      "newText": true,
+      "exposedMarkup": false
+    },
+    {
+      "path": "/countries/zambia",
+      "status": 200,
+      "hasDestination": true,
+      "newText": false,
+      "exposedMarkup": false
+    },
+    {
+      "path": "/",
+      "status": 200,
+      "hasDestination": true,
+      "newText": false,
+      "exposedMarkup": false
+    }
+  ]
+}

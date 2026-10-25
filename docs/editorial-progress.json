@@ -272,9 +272,9 @@
     "email_id": "1a143a69416cf3d1"
   },
   "rotation": {
-    "last_completed_category": "activities",
-    "next_category": "destinations",
-    "next_deliverable": "Complete one useful country or local destination guide, rotating beyond recent Egypt and southern Africa coverage.",
+    "last_completed_category": "destinations",
+    "next_category": "accommodations",
+    "next_deliverable": "One complete accommodation guide or exact-property photo collection, selected from the current backlog.",
     "rule": "Finish the individual deliverable and report its live state, then rotate. Track exact-property photo gaps separately.",
     "override_reason": "Owner explicitly requested all existing activity pages; complete batch precedes normal rotation."
   },
@@ -470,14 +470,10 @@
     "verification": "Brief JSON/content inspection, 24 internal HTTP checks and 14 live rendered checks. No test suite or local build. Existing production exposed-markup guard preserved."
   },
   "latest_run_checkpoint": {
-    "at": "2026-10-24T16:32:42Z",
-    "status": "booking_recheck_complete_holds_retained",
-    "five_hour_used_percent": 2,
-    "weekly_used_percent": 51,
-    "completed": "Reopened exact Giza t851104 and Cape Coast t834942 pages; both returned generic platform shells. Targeted exact-product searches returned no results. No evidence to restore CTAs; no public content or images changed.",
-    "next_action": "Proceed to the destination category next run. Keep these two supplier-dependent CTA holds in backlog rather than repeatedly blocking editorial rotation.",
-    "schedule": "Unchanged",
-    "email_id": "1a16ed7db28261e8"
+    "status": "complete",
+    "task": "livingstone-destination",
+    "email_id": "1a171797d7a74bc3",
+    "next_action": "Accommodation category; do not repeat completed activity or destination work."
   },
   "usage_deferral_history": [
     {
@@ -493,16 +489,19 @@
     }
   ],
   "destination_livingstone": {
-    "status": "in_progress",
+    "status": "complete",
     "started": "2026-10-25",
     "scope": "One Livingstone local destination guide under Zambia, neutral imagery and relevant cross-border insight link.",
     "acceptance": "Sourced practical guide, valid country parent, no cross-country related cards, publication and live verification.",
-    "next_action": "Commit/push, confirm live guide, country tab and search relationship; report owner.",
+    "next_action": "Rotate to accommodation; retain six-photo Livingstone follow-up and supplier CTA holds in backlog.",
     "completed": "Full guide drafted with four sources, no cross-country card assignments and six-subject photo backlog.",
     "files": [
       "content/local-destinations.json",
       "docs/editorial-research/2026-10-25-livingstone-destination.md"
     ],
-    "images": 0
+    "images": 0,
+    "commit": "ee1a97a",
+    "publication": "Ready deploy 6add8f314921a4abe0de580e, commit ee1a97a. Live guide HTTP 200 with new prose, no exposed markup; Zambia page and homepage search contain canonical URL.",
+    "email_id": "1a171797d7a74bc3"
   }
 }
