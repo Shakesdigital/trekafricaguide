@@ -4,7 +4,7 @@
     "id": "livingstone-four-no-attribution-photo-enrichment",
     "page_url": "https://trekafricaguide.com/countries/zambia/livingstone/",
     "page_type": "local_destination",
-    "status": "pending_publication",
+    "status": "complete_live_confirmed",
     "previous_photo_count": 0,
     "photo_count": 4,
     "new_photo_count": 4,
@@ -26,7 +26,23 @@
     "next_action": "Continue the Livingstone photo backlog only when precise no-attribution sources for the town, museum or locally made crafts with required consent are available; otherwise rotate to a separate evidenced image gap.",
     "started_at": "2026-10-25 15:12 Africa/Kampala",
     "initial_live_verification": "2026-10-25 15:12 Africa/Kampala: production Livingstone detail page returned HTTP 200 with no gallery photo controls or Livingstone image assets before this update.",
-    "source_ledger_date": "2026-10-25"
+    "source_ledger_date": "2026-10-25",
+    "commit": "e17a704b9a7da66ef373460f507ebe7352f79678",
+    "pushed_at": "2026-10-25 15:14 Africa/Kampala",
+    "netlify_deploy": "6addf2a7501e6b6e1ac6e177",
+    "live_verification": "2026-10-25 15:17 Africa/Kampala: Netlify production deploy 6addf2a7501e6b6e1ac6e177 is ready for main commit e17a704b9a7da66ef373460f507ebe7352f79678. The production Livingstone detail page returned HTTP 200, displays See all 4 and contains all four new gallery filenames. All four plain image URLs returned HTTP 200 image/jpeg and matched local byte counts.",
+    "asset_http_statuses": [
+      200,
+      200,
+      200,
+      200
+    ],
+    "asset_content_lengths": [
+      208762,
+      270564,
+      1184116,
+      399868
+    ]
   },
   "follow_ups": [],
   "last_pending_check": {
