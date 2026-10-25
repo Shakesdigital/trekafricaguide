@@ -96,3 +96,11 @@ Implementation inspection only: no test suite or local build was run, per owner
 preference. Database permissions and runtime behavior remain unverified pending
 activation. Reference: Supabase database functions and row-level security docs,
 checked 25 October 2026.
+
+## Deployment receipt
+
+Code commit `bb618cd11932dee922303ea5fec82d9ee9a2bd40` deployed ready as
+`6adda3e6d08c1e234ab8241a` at 2026-10-25 06:39:02 UTC. The editor HTML,
+script and runtime configuration returned HTTP 200. The live configuration
+confirms `editorialMirrorEnabled: false`. This verifies inactive code delivery,
+not database synchronization or authenticated editing.

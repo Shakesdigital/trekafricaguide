@@ -505,7 +505,7 @@
     "email_id": "1a171797d7a74bc3"
   },
   "cms_editorial_mirror": {
-    "status": "implementation_prepared_activation_blocked",
+    "status": "code_published_activation_blocked",
     "requested_at": "2026-10-25",
     "objective": "Make automated guide content editable in the CMS while preserving simultaneous manual edits",
     "categories": [
@@ -516,7 +516,7 @@
       "travel_articles",
       "local_destinations"
     ],
-    "checkpoint": "Revisioned mirror, protected merge/save RPCs, editor and opt-in build integration prepared. Supabase project access denied; migration and backfill not applied. Feature remains disabled.",
+    "checkpoint": "Editor and opt-in integration published; correct role initialization confirmed in live script. Runtime configuration confirms synchronization disabled. Supabase project permission denied: no migration, backfill or CMS save round trip performed.",
     "files": [
       "docs/cms-editorial-mirror.md",
       "supabase/migrations/20261025000100_editorial_mirror.sql",
@@ -525,6 +525,18 @@
       "public/cms-editorial.js"
     ],
     "next_action": "Reconnect Supabase to rftoaaehhenhnziukgpl, inspect roles/schema, back up native content, apply migration, activate and confirm CMS save/publication round trip.",
-    "verification": "Inspection only; no tests or local build. No live synchronization claim."
+    "verification": "Inspection only; no tests or local build. No live synchronization claim.",
+    "code_commit": "bb618cd11932dee922303ea5fec82d9ee9a2bd40",
+    "deployment": {
+      "id": "6adda3e6d08c1e234ab8241a",
+      "state": "ready",
+      "published_at": "2026-10-25T06:39:02.640Z",
+      "live_checks": {
+        "/cms-editorial.html": 200,
+        "/cms-editorial.js": 200,
+        "/runtime-config.js": 200
+      },
+      "mirror_enabled": false
+    }
   }
 }
