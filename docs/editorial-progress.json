@@ -505,7 +505,7 @@
     "email_id": "1a171797d7a74bc3"
   },
   "cms_editorial_mirror": {
-    "status": "activation_in_progress",
+    "status": "active_publish_hook_pending",
     "requested_at": "2026-10-25",
     "objective": "Make automated guide content editable in the CMS while preserving simultaneous manual edits",
     "categories": [
@@ -516,7 +516,7 @@
       "travel_articles",
       "local_destinations"
     ],
-    "checkpoint": "Correct project access restored; native 88-record backup and Git content backup saved outside repository. Mirror migration applied. Existing confirmed owner CMS login has admin profile. Preparing production import and publishing configuration.",
+    "checkpoint": "Production mirror active: 113 records, 103 published and 10 drafts; zero conflicts and content/baseline differences. Native tables preserved and backed up. Existing owner CMS account has admin role and own-profile read access. Immediate Publish website button needs NETLIFY_DEPLOY_HOOK; next successful production build incorporates manual changes.",
     "files": [
       "docs/cms-editorial-mirror.md",
       "supabase/migrations/20261025000100_editorial_mirror.sql",
@@ -524,19 +524,31 @@
       "public/cms-editorial.html",
       "public/cms-editorial.js"
     ],
-    "next_action": "Enable server synchronization and import, verify content counts/permissions and production deployment.",
-    "verification": "Inspection only; no tests or local build. No live synchronization claim.",
-    "code_commit": "bb618cd11932dee922303ea5fec82d9ee9a2bd40",
+    "next_action": "Owner to configure production main-branch NETLIFY_DEPLOY_HOOK in Netlify; then confirm immediate CMS publishing. No need to reconnect Supabase again.",
+    "verification": "Ready deployment; live HTTP 200 and mirror-enabled configuration; DB counts/source parity and role grants checked. No test suite/local build or interactive owner save round trip.",
+    "code_commit": "edc4cf530cb98f892e8f5f96feb055fe96f3913c",
     "deployment": {
-      "id": "6adda3e6d08c1e234ab8241a",
+      "id": "6addf06ba686821f70781b18",
       "state": "ready",
-      "published_at": "2026-10-25T06:39:02.640Z",
-      "live_checks": {
-        "/cms-editorial.html": 200,
-        "/cms-editorial.js": 200,
-        "/runtime-config.js": 200
-      },
-      "mirror_enabled": false
+      "published_at": "2026-10-25T12:05:38.915Z",
+      "mirror_enabled": true
+    },
+    "counts": {
+      "total": 113,
+      "published": 103,
+      "drafts": 10,
+      "countries": 19,
+      "attractions": 29,
+      "accommodations": 29,
+      "activities": 14,
+      "local_destinations": 6,
+      "travel_articles_published": 6
+    },
+    "backup": "../trek-cms-native-backup-20261025.json",
+    "images_added": 0,
+    "owner_report": {
+      "gmail_message_id": "1a172f77fc9c1124",
+      "sent_at": "2026-10-25T15:09:00+03:00"
     }
   }
 }
