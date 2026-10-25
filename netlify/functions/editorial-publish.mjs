@@ -9,8 +9,10 @@ export default async (request) => {
   if (request.method !== 'POST') return json({ error: 'Method not allowed' }, 405);
   if (!request.headers.get('authorization')) return json({ error: 'Sign in to the CMS first.' }, 401);
   try {
-    await requireAdmin(request, createEditorialClient());
-    if (process.env.EDITORIAL_CMS_SYNC !== 'true') return json({ error: 'CMS synchronization has not been activated yet.' }, 503);
+    const client = createEditorialClient();
+    await requireAdmin(request, client);
+    const mirror = await client.from('editorial_documents').select('slug').limit(1);
+    if (mirror.error || !mirror.data?.length) return json({ error: 'CMS synchronization has not been activated yet.' }, 503);
     const hook = process.env.NETLIFY_DEPLOY_HOOK;
     if (!hook) return json({ error: 'Saved content is safe. Website publishing needs the server deploy hook configured.' }, 503);
     const url = new URL(hook);

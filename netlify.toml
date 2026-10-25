@@ -5,6 +5,11 @@
 [build.environment]
   NODE_VERSION = "22"
 
+# Keep activation versioned and production-only. Preview builds must not import
+# their branch content into the production CMS database.
+[context.production.environment]
+  EDITORIAL_CMS_SYNC = "true"
+
 # Headers for performance — cache hashed Vite assets aggressively
 [[headers]]
   for = "/build/*"
