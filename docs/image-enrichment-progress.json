@@ -1,49 +1,26 @@
 {
-  "updated_at": "2026-10-25",
+  "updated_at": "2026-10-26",
   "current_run": {
-    "id": "okavango-delta-four-no-attribution-photo-enrichment",
-    "page_url": "https://trekafricaguide.com/attractions/okavango-delta/",
+    "id": "south-luangwa-four-no-attribution-photo-enrichment",
+    "page_url": "https://trekafricaguide.com/attractions/south-luangwa/",
     "page_type": "attraction",
-    "status": "complete_live_confirmed",
+    "status": "ready_for_publication",
     "previous_photo_count": 2,
     "photo_count": 6,
     "new_photo_count": 4,
-    "checked_date": "2026-10-25",
-    "source_ledger": "docs/editorial-research/2026-10-25-okavango-delta-photo-enrichment.md",
+    "checked_date": "2026-10-26",
+    "source_ledger": "docs/editorial-research/2026-10-26-south-luangwa-photo-enrichment.md",
     "files": [
       "src/lib/photo-library.js",
       "public/photo-library.js",
-      "public/photo-defaults.js",
-      "public/images/editorial/okavango-delta-attraction/okavango-cheetah-cub-catherine-merlin.jpg",
-      "public/images/editorial/okavango-delta-attraction/okavango-lion-cub-colin-watts.jpg",
-      "public/images/editorial/okavango-delta-attraction/okavango-hippos-crossing-colin-watts.jpg",
-      "public/images/editorial/okavango-delta-attraction/okavango-helmeted-guineafowl-secret-travel-guide.jpg",
-      "docs/editorial-research/2026-10-25-okavango-delta-photo-enrichment.md",
+      "public/images/editorial/south-luangwa-attraction/",
+      "docs/editorial-research/2026-10-26-south-luangwa-photo-enrichment.md",
       "docs/image-enrichment-progress.json"
     ],
-    "note": "Added four visually reviewed, exact-Okavango-Delta wildlife photographs under the no-attribution-required Unsplash License. The actual gallery increased from two to six; its two existing attribution-required photographs and credits remain unchanged. Internal metadata retains source, creator, license, publication-date evidence, location evidence, alt text, transformation and SHA-256. Global URL and hash dedup found no duplicates. Wildlife images illustrate the regional habitat and do not promise sightings at a camp or excursion. No prose or protected site behavior changed.",
-    "next_action": "Rotate to another underfilled guide only after checking rendered/library counts; keep existing required-credit images in place and add only exact-subject photos with verified no-public-attribution rights.",
-    "started_at": "2026-10-25 15:28 Africa/Kampala",
-    "initial_live_verification": "2026-10-25 15:28 Africa/Kampala: production Okavango Delta attraction page returned HTTP 200 and showed See all 2 before these additions.",
-    "source_ledger_date": "2026-10-25",
-    "commit": "860b1c6a7a2a48b989569dfcf1684c30af4ca9e8",
-    "pushed_at": "2026-10-25 15:30 Africa/Kampala",
-    "netlify_deploy": "6addf633ef2de43f7e33d083",
-    "live_verification": "2026-10-25 15:31 Africa/Kampala: Netlify production deploy 6addf633ef2de43f7e33d083 is ready for main commit 860b1c6a7a2a48b989569dfcf1684c30af4ca9e8. The production Okavango Delta attraction page returned HTTP 200, displays See all 6 and contains all four new gallery filenames. All four new image URLs returned HTTP 200 image/jpeg and matched local byte counts.",
-    "asset_http_statuses": [
-      200,
-      200,
-      200,
-      200
-    ],
-    "asset_content_lengths": [
-      207579,
-      334666,
-      428574,
-      243105
-    ],
-    "email_id": "1a1730d03b3eb1d7",
-    "report_sent_at": "2026-10-25 15:32 Africa/Kampala"
+    "note": "Added four visually reviewed exact-location South Luangwa wildlife photographs under Unsplash License terms requiring no public attribution. Existing two attribution-required photos remain unchanged. Internal metadata retains source, creator, license, publication/location evidence, alt text, transforms and SHA-256. Global source URL and hash dedup found no matches. No prose or protected site behavior changed.",
+    "next_action": "Verify production page and all four assets after safe main publication; then send one source-free owner report.",
+    "started_at": "2026-10-26 03:50 Africa/Kampala",
+    "initial_live_verification": "Production South Luangwa attraction page returned HTTP 200 and reported See all 2 before additions."
   },
   "follow_ups": [],
   "last_pending_check": {
@@ -66,6 +43,51 @@
     "resolved_at": "2026-10-21 13:16 Africa/Kampala"
   },
   "completed_runs": [
+    {
+      "id": "okavango-delta-four-no-attribution-photo-enrichment",
+      "page_url": "https://trekafricaguide.com/attractions/okavango-delta/",
+      "page_type": "attraction",
+      "status": "complete_live_confirmed",
+      "previous_photo_count": 2,
+      "photo_count": 6,
+      "new_photo_count": 4,
+      "checked_date": "2026-10-25",
+      "source_ledger": "docs/editorial-research/2026-10-25-okavango-delta-photo-enrichment.md",
+      "files": [
+        "src/lib/photo-library.js",
+        "public/photo-library.js",
+        "public/photo-defaults.js",
+        "public/images/editorial/okavango-delta-attraction/okavango-cheetah-cub-catherine-merlin.jpg",
+        "public/images/editorial/okavango-delta-attraction/okavango-lion-cub-colin-watts.jpg",
+        "public/images/editorial/okavango-delta-attraction/okavango-hippos-crossing-colin-watts.jpg",
+        "public/images/editorial/okavango-delta-attraction/okavango-helmeted-guineafowl-secret-travel-guide.jpg",
+        "docs/editorial-research/2026-10-25-okavango-delta-photo-enrichment.md",
+        "docs/image-enrichment-progress.json"
+      ],
+      "note": "Added four visually reviewed, exact-Okavango-Delta wildlife photographs under the no-attribution-required Unsplash License. The actual gallery increased from two to six; its two existing attribution-required photographs and credits remain unchanged. Internal metadata retains source, creator, license, publication-date evidence, location evidence, alt text, transformation and SHA-256. Global URL and hash dedup found no duplicates. Wildlife images illustrate the regional habitat and do not promise sightings at a camp or excursion. No prose or protected site behavior changed.",
+      "next_action": "Rotate to another underfilled guide only after checking rendered/library counts; keep existing required-credit images in place and add only exact-subject photos with verified no-public-attribution rights.",
+      "started_at": "2026-10-25 15:28 Africa/Kampala",
+      "initial_live_verification": "2026-10-25 15:28 Africa/Kampala: production Okavango Delta attraction page returned HTTP 200 and showed See all 2 before these additions.",
+      "source_ledger_date": "2026-10-25",
+      "commit": "860b1c6a7a2a48b989569dfcf1684c30af4ca9e8",
+      "pushed_at": "2026-10-25 15:30 Africa/Kampala",
+      "netlify_deploy": "6addf633ef2de43f7e33d083",
+      "live_verification": "2026-10-25 15:31 Africa/Kampala: Netlify production deploy 6addf633ef2de43f7e33d083 is ready for main commit 860b1c6a7a2a48b989569dfcf1684c30af4ca9e8. The production Okavango Delta attraction page returned HTTP 200, displays See all 6 and contains all four new gallery filenames. All four new image URLs returned HTTP 200 image/jpeg and matched local byte counts.",
+      "asset_http_statuses": [
+        200,
+        200,
+        200,
+        200
+      ],
+      "asset_content_lengths": [
+        207579,
+        334666,
+        428574,
+        243105
+      ],
+      "email_id": "1a1730d03b3eb1d7",
+      "report_sent_at": "2026-10-25 15:32 Africa/Kampala"
+    },
     {
       "id": "kruger-national-park-seven-no-attribution-photo-enrichment",
       "page_url": "https://trekafricaguide.com/attractions/kruger-national-park/",
