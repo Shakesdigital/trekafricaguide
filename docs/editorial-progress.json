@@ -279,34 +279,12 @@
     "override_reason": "Owner explicitly requested all existing activity pages; complete batch precedes normal rotation."
   },
   "current_deliverable": {
-    "id": "great-zimbabwe-national-monument-guide",
-    "category": "attractions",
-    "status": "complete",
-    "objective": "Add a useful, sourced attraction guide for Great Zimbabwe National Monument, grounded in UNESCO and National Museums and Monuments of Zimbabwe information, and linked to the existing Zimbabwe country.",
-    "research_checked": "2026-10-23",
-    "image_count": 0,
-    "image_followup": "Photo library has no verified Great Zimbabwe-specific collection. Keep this guide neutral with 0 photos and record six distinct monument-specific subjects separately; do not reuse Victoria Falls images.",
-    "files": [
-      "content/editorial-overrides.json",
-      "docs/editorial-research/2026-10-23-great-zimbabwe-national-monument.md",
-      "docs/editorial-progress.json"
-    ],
-    "checkpoint": "Drafted new Great Zimbabwe attraction with the three UNESCO-described zones, Shona historical context, present sacred significance, access from Masvingo, NMMZ hours reconfirmation, uneven terrain and a dated 2025 visitor perspective. Exact sources and limits are in docs/editorial-research/2026-10-23-great-zimbabwe-national-monument.md. No exact booking product or geographically nearby published stay was verified, so neither is added. Gallery remains neutral (0 images); six monument-specific subjects tracked separately.",
-    "next_action": "Live page, Zimbabwe country card and owner email are confirmed; next rotation: destination guide.",
-    "booking_gap": "No exact bookable attraction ticket or tour has been verified; omit booking CTA. No nearby published stay is geographically verified. Victoria Falls Hotel is a separate regional destination and was not attached.",
-    "commit": "2b384b2",
-    "email_id": "1a168ff331ad1fae",
-    "live_verification": {
-      "checked": "2026-10-23T17:00:00+03:00",
-      "url": "https://trekafricaguide.com/attractions/great-zimbabwe-national-monument",
-      "status": 200,
-      "distinctive_text": "Great Zimbabwe is an extensive stone-built archaeological landscape",
-      "country_page": "https://trekafricaguide.com/countries/zimbabwe",
-      "country_card": true,
-      "source_link": "https://whc.unesco.org/en/list/364/",
-      "image_count": 0
-    },
-    "last_updated": "2026-10-23T17:00:00+03:00"
+    "id": "jollyboys-livingstone-guide",
+    "status": "in_progress",
+    "category": "accommodations",
+    "last_action": "Verified official room information, exact Expedia identity and Zambia canonical IDs.",
+    "next_action": "Write complete guide, link Livingstone, publish and confirm CMS mirror and live page.",
+    "photo_followup": "Six licensed exact-property photos: exterior, private room, dorm, kitchen, pool, communal dining."
   },
   "previous_deliverable_correction": {
     "id": "marrakech-medina-street-food-walk",
@@ -557,7 +535,7 @@
       "browser_access": false,
       "deployment_id": "6ade76954872188a6ac8c660",
       "deployed_commit": "5aa595973f4587704445ef6bc1ee6fe5206cace5",
-      "published_at": "2026-10-25T21:38:07.670Z",
+      "published_at": "2026-10-25T21:38:07.67Z",
       "owner_session_round_trip": "not performed",
       "report_message_id": "1a175021c6bf291c"
     }

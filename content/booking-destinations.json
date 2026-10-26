@@ -242,6 +242,16 @@
         "source_url": "https://www.booking.com/hotel/ug/buhoma-community-rest-camp-kanungu.en-gb.html",
         "summary": "Exact Buhoma property identifiable, but listing states not taking reservations and no review score. Shared resolver must suppress booking CTA; do not substitute Buhoma Lodge or Haven Lodge."
       }
+    },
+    "jollyboys-backpackers": {
+      "url": "https://www.expedia.com/Livingstone-Hotels-Jollyboys-Backpackers.h14704528.Hotel-Information",
+      "provider": "expedia",
+      "title": "Jollyboys Backpackers",
+      "checked_at": "2026-10-26",
+      "evidence": {
+        "source_url": "https://www.expedia.com/Livingstone-Hotels-Jollyboys-Backpackers.h14704528.Hotel-Information",
+        "summary": "Exact property ID 14704528 identifies Jollyboys Backpackers at 34 Kanyanta Road, Livingstone. Official property and regional tourism sources cross-check identity. No current price, numerical rating or affiliate attribution verification claimed."
+      }
     }
   },
   "activities": {

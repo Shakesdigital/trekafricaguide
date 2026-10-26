@@ -2670,6 +2670,61 @@
         "/images/editorial/amboseli-serena-safari-lodge/property-4.jpg"
       ],
       "traveler_feedback": "Tripadvisor’s property-page summary, checked on 15 October 2026, highlights guest praise for cleanliness and maintained facilities. Booking.com’s indexed property summary also highlights attentive staff and the location for nature trips. These are platform summaries rather than a representative survey or a promise about every stay. Direct Booking.com retrieval required JavaScript verification, and individual stay dates were not available in the retrieved excerpts, so we do not reproduce a current rating or review count. Read recent detailed reviews for your room category, meal expectations and any service concerns before choosing a package."
+    },
+    {
+      "slug": "jollyboys-backpackers",
+      "name": "Jollyboys Backpackers",
+      "region_id": 16,
+      "country_id": 56,
+      "attraction_id": null,
+      "property_type": "Backpacker hostel and private rooms",
+      "location_name": "34 Kanyanta Road, Livingstone, Zambia",
+      "hero_image_url": "",
+      "hero_image_alt": "",
+      "gallery": [],
+      "featured": false,
+      "sort_order": 130,
+      "status": "published",
+      "published_at": null,
+      "rating": null,
+      "review_count": null,
+      "price_label": "Budget-oriented; compare room types and inclusions",
+      "booking_url": "https://www.expedia.com/Livingstone-Hotels-Jollyboys-Backpackers.h14704528.Hotel-Information",
+      "listing_summary": "A central Livingstone base with dorms, private rooms, a pool and self-catering facilities, suited to independent travellers combining town time with Zambia-side falls outings.",
+      "detail_intro": "Livingstone Museum, shops and markets give a stay at Jollyboys Backpackers a town-centred rhythm. This is a useful choice if you want to make your own meal arrangements, meet other travellers and leave room for a museum visit between outdoor excursions. Africa’s Eden places the property close to the museum, cafes and grocery shops; the address is 34 Kanyanta Road, Livingstone, Zambia.\n\nThe accommodation spans dorm beds, basic private rooms with shared facilities and ensuite rooms. Choose the category deliberately: privacy, bathroom arrangements and cooling can matter more than the headline nightly rate. The property lists air conditioning in its ensuite rooms and eight-bed dorms, while basic rooms use fans. A private room can suit couples or friends who want access to shared facilities without sleeping in a dorm.\n\nZambia Tourism lists a pool, restaurant and bar, self-catering facilities and an activity desk. That combination makes Jollyboys a practical budget-oriented base for solo travellers and small groups. It also gives you a choice between cooking and buying meals. A social hostel suits travellers who enjoy shared spaces; those prioritising seclusion should ask about room position and evening noise before booking. No particular room rate or quiet atmosphere is guaranteed.\n\nSuggested first afternoon: settle in, ask reception about the next day’s transport, then leave time for Livingstone Museum and a meal in town or at the property. Keep the falls for a separate outing rather than squeezing them between airport arrival and dinner. This is a suggested pace, not an included itinerary. The <a href=\"/countries/zambia/livingstone\">Livingstone guide</a> explains the town and river choices in more detail.",
+      "practical_info": "Arrival and departures: book your flight to Harry Mwaanga Nkumbula International Airport in Livingstone (LVI) if you want a Zambia-side arrival. Jollyboys advertises airport pickup with at least 24 hours’ notice. Send the flight details and obtain confirmation of the meeting point; clarify any late-arrival arrangements and the separate cost of the return airport journey. Victoria Falls Airport is in Zimbabwe and requires a different transfer and border plan.\n\nGetting to the falls: the property advertises a complimentary shuttle. Confirm the current departure, seat arrangements and return transport before planning around it. A room booking does not establish that park admission or an excursion is included. Keep Zambia-side visits and cross-border outings distinct; see <a href=\"/travel-insights/plan-your-victoria-falls-visit\">planning a first Victoria Falls visit</a> for the wider route choice.\n\nPlanning a day: allow breakfast time before any fixed pickup, take the agreed transport to the falls, and leave the afternoon flexible for the pool or town. Activity bookings made through the hostel are supplied by independent companies with their own terms. Request the actual operator, meeting point, inclusions and cancellation policy before paying.\n\nRoom and budget checks: compare the total for the same occupancy, bathroom type, meals and transfers. Bring a padlock for a dorm locker. Confirm towels for your room category, and ask about steps, bathroom access and the route to shared facilities if mobility is a consideration. Shared accommodation descriptions alone cannot establish accessibility. For hot-weather travel, confirm the cooling in the exact room booked rather than assuming every room has air conditioning.\n\nPack practical footwear for outings, a waterproof pouch for falls spray and a light layer for cooler early starts. Keep the day’s timing flexible around weather and river conditions. The town and seasonal planning advice in the linked Livingstone guide can help you choose dates; the hostel’s availability does not guarantee that a particular river activity will operate.\n\nRates and conditions vary by dates and booking channel. Read the terms attached to the selected rate, including meals, airport pickup, departure transfer and cancellation. Ask before photographing other guests or people in town.",
+      "amenities": [
+        "Swimming pool",
+        "Restaurant and bar",
+        "Self-catering facilities",
+        "Activity desk",
+        "Dorms and private rooms",
+        "Air conditioning in selected room categories"
+      ],
+      "traveler_feedback": "Expedia’s verified guest feedback, checked 26 October 2026, includes Kathy’s June 2026 review praising the staff and atmosphere after a May stay. Wojciech’s January 2025 review praised cleanliness and staff but reported a long breakfast wait. Mei Fang’s October 2025 review described a comfortable air-conditioned room while highlighting confusion over airport pickup versus drop-off. These are individual experiences, not a guarantee about your room or service. Confirm both transfer directions and allow time for meals before an excursion; read recent reviews for your chosen room category.",
+      "research_sources": [
+        {
+          "label": "Jollyboys official room types and booking conditions",
+          "url": "https://backpackzambia.com/backpackers-accommodation/"
+        },
+        {
+          "label": "Jollyboys official FAQs",
+          "url": "https://backpackzambia.com/faqs/"
+        },
+        {
+          "label": "Zambia Tourism property listing",
+          "url": "https://www.zambiatourism.com/listing/jollyboys-backpackers/"
+        },
+        {
+          "label": "Africa’s Eden location and accommodation overview",
+          "url": "https://africaseden.travel/members/jollyboys-backpackers-camp/"
+        },
+        {
+          "label": "Expedia exact property and dated guest feedback, checked 26 October 2026",
+          "url": "https://www.expedia.com/Livingstone-Hotels-Jollyboys-Backpackers.h14704528.Hotel-Information"
+        }
+      ],
+      "last_researched": "2026-10-26"
     }
   ],
   "activities": [

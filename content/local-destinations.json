@@ -306,7 +306,9 @@
     "planning_tips": "Suggested three-night plan: arrive and settle into your base on the first day; give the Zambia-side falls a dedicated outing on the second; use the third for the museum and an optional operator-led Upper Zambezi cruise. Keep departure day simple. This is an editorial pacing suggestion, not a fixed package, and it can be shortened by choosing fewer outings rather than compressing everything.\n\nCompare accommodation by the cost and effort of the whole stay. A room near town services may suit travellers who want independent meals and museum time. A river-oriented property may suit those prioritising time at the lodge, provided its transfers and meal arrangements fit the budget. Ask what is included in each quotation; do not assume a room rate covers park entry, cruises or transport. No Zimbabwe-side property is presented here as a nearby Zambia stay.\n\nPack walking shoes with grip, sun protection, a reusable water bottle and a small waterproof pouch for the falls. A light warm layer is useful for cooler-season early starts; rain protection depends on both the forecast and spray. Follow park barriers and the operator's instructions on river outings. Confirm accessibility with the particular site or provider rather than assuming all viewpoints and boats have the same access.\n\nBefore committing, read recent feedback for the exact accommodation or excursion, paying attention to transfer coverage, meal arrangements and time allowed at stops. A review of another river cruise or a Zimbabwe departure cannot establish those details for your booking.",
     "attraction_slugs": [],
     "activity_slugs": [],
-    "accommodation_slugs": [],
+    "accommodation_slugs": [
+      "jollyboys-backpackers"
+    ],
     "travel_insight_slugs": [
       "plan-your-victoria-falls-visit"
     ],
