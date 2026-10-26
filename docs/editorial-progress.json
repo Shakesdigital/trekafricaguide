@@ -279,14 +279,17 @@
     "override_reason": null
   },
   "current_deliverable": {
-    "id": "jollyboys-livingstone-guide",
-    "status": "complete",
-    "category": "accommodations",
-    "last_action": "Guide and Livingstone card live HTTP 200; exact Expedia through Stay22; CMS published mirror confirmed at 04d60e3. Owner report sent.",
-    "next_action": "Rotate to Travel Insights; retain six-photo property follow-up.",
-    "photo_followup": "Six licensed exact-property photos: exterior, private room, dorm, kitchen, pool, communal dining.",
-    "commit": "04d60e3228104ff51a56d6888f417e04c17ea3e3",
-    "report_message_id": "1a1766e69e71c12a"
+    "id": "victoria-falls-livingstone-planning",
+    "category": "travel_insights",
+    "status": "in_progress",
+    "last_action": "Reviewed complete existing insight and fresh National Museums Board evidence; reuse dated Jollyboys research.",
+    "next_action": "Add complete town-base decision and alternative day, publish and confirm CMS/live.",
+    "acceptance_criteria": [
+      "Useful Zambia town-base choice and suggested town day",
+      "Internal Livingstone and Jollyboys links",
+      "Preserve six licensed images and original entry-check dates",
+      "Live and CMS confirmation and owner report"
+    ]
   },
   "previous_deliverable_correction": {
     "id": "marrakech-medina-street-food-walk",
@@ -336,33 +339,14 @@
     "email_id": "1a1545afb9de818e"
   },
   "previous_completed_deliverable": {
-    "id": "les-paletuviers-accommodation-refresh",
-    "category": "accommodations",
+    "id": "jollyboys-livingstone-guide",
     "status": "complete",
-    "objective": "Refresh the existing Les Palétuviers accommodation guide with current official room, location and transfer facts, balanced dated traveler perspectives, and exact Booking.com destination evidence through the shared Stay22 resolver.",
-    "research_checked": "2026-10-22",
-    "image_count": 0,
-    "image_followup": "Preserve neutral gallery. The 20 October photo audit found no licensed exact-property images. Keep six exact-property photo subjects (exterior/grounds, reception/common areas, restaurant/dining, and accurately identified room categories) in the separate image backlog.",
-    "files": [
-      "content/editorial-overrides.json",
-      "content/booking-destinations.json",
-      "docs/editorial-research/2026-10-22-les-paletuviers-guide-refresh.md",
-      "docs/editorial-progress.json"
-    ],
-    "checkpoint": "Guide and exact Booking.com registry evidence committed in 865c666 and live in Netlify deploy 6ad93e6d26c9d823e3d6148f (ready, commit 865c66692454600dac896c1fbbd8d5811eaa0295). On 22 October 2026 the accommodation URL returned HTTP 200 with the new room-choice paragraph, Banjul transfer caveat, exact Booking.com Stay22 target, and Senegal country card. Focused input guard passed. Photo count remains 0 per the 20 October image-license audit. Owner email sent; receipt 1a16123844c97033 recorded.",
-    "next_action": "Rotate to one travel insight and retain the six-photo property backlog.",
-    "booking_gap": "No booking gap: exact Booking.com property detail is present in the shared registry and the live Stay22 target. No rate or availability claims.",
-    "email_id": "1a16123844c97033",
-    "live_verification": {
-      "checked": "2026-10-22T04:05:00+03:00",
-      "url": "https://trekafricaguide.com/accommodations/les-paletuviers",
-      "status": 200,
-      "distinctive_text": "Room choice matters here.",
-      "stay22_exact_booking_target": true,
-      "senegal_country_card": true,
-      "netlify_deploy_id": "6ad93e6d26c9d823e3d6148f",
-      "netlify_commit": "865c66692454600dac896c1fbbd8d5811eaa0295"
-    }
+    "category": "accommodations",
+    "last_action": "Guide and Livingstone card live HTTP 200; exact Expedia through Stay22; CMS published mirror confirmed at 04d60e3. Owner report sent.",
+    "next_action": "Rotate to Travel Insights; retain six-photo property follow-up.",
+    "photo_followup": "Six licensed exact-property photos: exterior, private room, dorm, kitchen, pool, communal dining.",
+    "commit": "04d60e3228104ff51a56d6888f417e04c17ea3e3",
+    "report_message_id": "1a1766e69e71c12a"
   },
   "usage_checkpoint": {
     "checked": "2026-10-22T10:30:00+03:00",
