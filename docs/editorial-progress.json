@@ -272,19 +272,21 @@
     "email_id": "1a143a69416cf3d1"
   },
   "rotation": {
-    "last_completed_category": "destinations",
-    "next_category": "accommodations",
-    "next_deliverable": "One complete accommodation guide or exact-property photo collection, selected from the current backlog.",
+    "last_completed_category": "accommodations",
+    "next_category": "travel_insights",
+    "next_deliverable": "One complete travel-planning insight selected from coverage gaps.",
     "rule": "Finish the individual deliverable and report its live state, then rotate. Track exact-property photo gaps separately.",
-    "override_reason": "Owner explicitly requested all existing activity pages; complete batch precedes normal rotation."
+    "override_reason": null
   },
   "current_deliverable": {
     "id": "jollyboys-livingstone-guide",
-    "status": "in_progress",
+    "status": "complete",
     "category": "accommodations",
-    "last_action": "Verified official room information, exact Expedia identity and Zambia canonical IDs.",
-    "next_action": "Write complete guide, link Livingstone, publish and confirm CMS mirror and live page.",
-    "photo_followup": "Six licensed exact-property photos: exterior, private room, dorm, kitchen, pool, communal dining."
+    "last_action": "Guide and Livingstone card live HTTP 200; exact Expedia through Stay22; CMS published mirror confirmed at 04d60e3. Owner report sent.",
+    "next_action": "Rotate to Travel Insights; retain six-photo property follow-up.",
+    "photo_followup": "Six licensed exact-property photos: exterior, private room, dorm, kitchen, pool, communal dining.",
+    "commit": "04d60e3228104ff51a56d6888f417e04c17ea3e3",
+    "report_message_id": "1a1766e69e71c12a"
   },
   "previous_deliverable_correction": {
     "id": "marrakech-medina-street-food-walk",
