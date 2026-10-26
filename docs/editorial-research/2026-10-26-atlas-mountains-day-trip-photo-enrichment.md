@@ -13,3 +13,5 @@ Each original was inspected before download and the production CDN rendition was
 The live-count method was corrected during this run: do not infer a zero gallery from an empty photo override or from filtering inline images by the site's own host. Count all rendered inline image hosts and the renderer's gallery defaults/assignments. Earlier checks mistakenly missed externally hosted inline photos; verified Kibale and Table Mountain insight pages each have six inline images and were not edited here.
 
 Initial live state: `https://trekafricaguide.com/activities/atlas-mountains-day-trip/` returned HTTP 200 and displayed the two-image gallery before these additions.
+
+Production confirmation: Netlify deploy 6adef55e67c571e0272c2990 is ready for commit cfd3793e10911cf7e9702fea3c2e09db7d2ed139. On 26 October 2026 at 09:44 Africa/Kampala, the live activity detail returned HTTP 200, displayed See all 5 and included all three added filenames. Each plain JPEG asset returned HTTP 200 image/jpeg; content lengths matched the local files (418261, 372388 and 449407 bytes). The source-free owner update was sent at 09:46 Africa/Kampala; receipt ID 1a176f16ef522f9a.
