@@ -1,38 +1,25 @@
 {
   "updated_at": "2026-10-26",
   "current_run": {
-    "id": "volcanoes-gorilla-trek-one-no-attribution-photo-enrichment",
-    "page_url": "https://trekafricaguide.com/activities/volcanoes-gorilla-trek/",
-    "page_type": "activity",
-    "status": "complete_live_confirmed",
-    "previous_photo_count": 2,
-    "photo_count": 3,
-    "new_photo_count": 1,
+    "id": "great-zimbabwe-no-eligible-photo-source-checkpoint",
+    "page_url": "https://trekafricaguide.com/attractions/great-zimbabwe-national-monument/",
+    "page_type": "attraction",
+    "status": "no_eligible_source_checkpoint",
+    "previous_photo_count": 0,
+    "photo_count": 0,
+    "new_photo_count": 0,
     "checked_date": "2026-10-26",
-    "source_ledger": "docs/editorial-research/2026-10-26-volcanoes-gorilla-trek-photo-enrichment.md",
+    "source_ledger": "docs/editorial-research/2026-10-26-great-zimbabwe-photo-source-checkpoint.md",
     "files": [
-      "src/lib/photo-library.js",
-      "public/photo-library.js",
-      "public/images/editorial/volcanoes-gorilla-trek/kinigi-silverback-ana-kenk.jpg",
-      "docs/editorial-research/2026-10-26-volcanoes-gorilla-trek-photo-enrichment.md",
+      "docs/editorial-research/2026-10-26-great-zimbabwe-photo-source-checkpoint.md",
       "docs/image-enrichment-progress.json"
     ],
-    "note": "Added one visually inspected Kinigi gorilla photograph under the no-attribution-required Pexels License to the activity gallery, increasing it from two to three. Source and exact Kinigi location evidence, creator, license, dates, alt, transformation and SHA-256 are recorded internally. Global source/hash dedup found no matches. Other regional search results did not establish a second suitable exact-subject image; no broad search or prose edit was made.",
-    "next_action": "Rotate to a different underfilled published guide with exact, verified no-public-attribution images; preserve existing required-credit photos.",
-    "started_at": "2026-10-26 21:31 Africa/Kampala",
-    "initial_live_verification": "Production activity page returned HTTP 200 and displayed See all 2 before the addition.",
-    "commit": "484c9d1a119c4d783d1c1e6a01d41615173ff09d",
-    "pushed_at": "2026-10-26 21:31 Africa/Kampala",
-    "netlify_deploy": "6adf9cb0930f5cf01ac5f3eb",
-    "live_verification": "2026-10-26 21:33 Africa/Kampala: Netlify production deploy 6adf9cb0930f5cf01ac5f3eb is ready for commit 484c9d1a119c4d783d1c1e6a01d41615173ff09d. Production activity page returned HTTP 200, shows See all 3 and includes the new filename. The plain JPEG asset returned HTTP 200 image/jpeg with content length matching the local file.",
-    "asset_http_statuses": [
-      200
-    ],
-    "asset_content_lengths": [
-      400312
-    ],
-    "email_id": "1a1797d4493d95b6",
-    "report_sent_at": "2026-10-26 21:34 Africa/Kampala"
+    "note": "The live published guide has zero assigned/default gallery photos and no inline image tags. A bounded Pexels/Unsplash/UNESCO source pass found no source meeting both exact-location evidence and the current no-public-attribution preference. UNESCO exact-site photos checked are CC BY-NC-SA 3.0 IGO and require attribution. No code, guide copy or assets changed; this is a research checkpoint, not a deployment failure.",
+    "next_action": "Keep the six exact subject gaps in the existing attraction ledger. Revisit only with a photo-specific source that verifies Great Zimbabwe and has no public-attribution requirement; otherwise rotate to another eligible guide.",
+    "started_at": "2026-10-26 23:14 Africa/Kampala",
+    "initial_live_verification": "Production detail returned HTTP 200 with no gallery control and no inline image tags; curated assignment/default count is also zero.",
+    "email_id": "1a179d9e5f0ddc12",
+    "report_sent_at": "2026-10-26 23:15 Africa/Kampala"
   },
   "follow_ups": [],
   "last_pending_check": {
@@ -982,6 +969,40 @@
       ],
       "email_id": "1a176f16ef522f9a",
       "report_sent_at": "2026-10-26 09:46 Africa/Kampala"
+    },
+    {
+      "id": "volcanoes-gorilla-trek-one-no-attribution-photo-enrichment",
+      "page_url": "https://trekafricaguide.com/activities/volcanoes-gorilla-trek/",
+      "page_type": "activity",
+      "status": "complete_live_confirmed",
+      "previous_photo_count": 2,
+      "photo_count": 3,
+      "new_photo_count": 1,
+      "checked_date": "2026-10-26",
+      "source_ledger": "docs/editorial-research/2026-10-26-volcanoes-gorilla-trek-photo-enrichment.md",
+      "files": [
+        "src/lib/photo-library.js",
+        "public/photo-library.js",
+        "public/images/editorial/volcanoes-gorilla-trek/kinigi-silverback-ana-kenk.jpg",
+        "docs/editorial-research/2026-10-26-volcanoes-gorilla-trek-photo-enrichment.md",
+        "docs/image-enrichment-progress.json"
+      ],
+      "note": "Added one visually inspected Kinigi gorilla photograph under the no-attribution-required Pexels License to the activity gallery, increasing it from two to three. Source and exact Kinigi location evidence, creator, license, dates, alt, transformation and SHA-256 are recorded internally. Global source/hash dedup found no matches. Other regional search results did not establish a second suitable exact-subject image; no broad search or prose edit was made.",
+      "next_action": "Rotate to a different underfilled published guide with exact, verified no-public-attribution images; preserve existing required-credit photos.",
+      "started_at": "2026-10-26 21:31 Africa/Kampala",
+      "initial_live_verification": "Production activity page returned HTTP 200 and displayed See all 2 before the addition.",
+      "commit": "484c9d1a119c4d783d1c1e6a01d41615173ff09d",
+      "pushed_at": "2026-10-26 21:31 Africa/Kampala",
+      "netlify_deploy": "6adf9cb0930f5cf01ac5f3eb",
+      "live_verification": "2026-10-26 21:33 Africa/Kampala: Netlify production deploy 6adf9cb0930f5cf01ac5f3eb is ready for commit 484c9d1a119c4d783d1c1e6a01d41615173ff09d. Production activity page returned HTTP 200, shows See all 3 and includes the new filename. The plain JPEG asset returned HTTP 200 image/jpeg with content length matching the local file.",
+      "asset_http_statuses": [
+        200
+      ],
+      "asset_content_lengths": [
+        400312
+      ],
+      "email_id": "1a1797d4493d95b6",
+      "report_sent_at": "2026-10-26 21:34 Africa/Kampala"
     }
   ]
 }
