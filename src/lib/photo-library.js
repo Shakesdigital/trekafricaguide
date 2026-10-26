@@ -3,6 +3,28 @@
 export const photoLibrary = {
   "updated_at": "2026-10-26",
   "images": {
+    "/images/editorial/volcanoes-gorilla-trek/kinigi-silverback-ana-kenk.jpg": {
+      "slug": "kinigi-silverback-ana-kenk",
+      "local_path": "/images/editorial/volcanoes-gorilla-trek/kinigi-silverback-ana-kenk.jpg",
+      "source_page": "https://www.pexels.com/photo/majestic-silverback-gorilla-in-rwandan-wilderness-36478037/",
+      "source_revision": "Pexels photo 36478037",
+      "creator": "Ana Kenk",
+      "license": "Pexels License",
+      "license_url": "https://www.pexels.com/license/",
+      "source_published_at": "2026-03-08",
+      "captured_at": "2022-11-16",
+      "sha256": "cba886951272f4aeb495ca3186e973922e8219e2809a6878f8c595e863c0dcd8",
+      "exact_subject": true,
+      "subject": "Silverback mountain gorilla in Kinigi, Volcanoes National Park area, Rwanda",
+      "alt": "A silverback gorilla rests among lush forest plants in Kinigi, Rwanda.",
+      "property": false,
+      "kind": "photograph",
+      "requires_attribution": false,
+      "changes": "Downloaded from the Pexels CDN at 1800 pixels wide with aspect ratio preserved; no other edits.",
+      "checked_at": "2026-10-26",
+      "exact_subject_evidence": "The Pexels photo page describes a silverback gorilla in the lush forests of Kinigi, Northern Province, Rwanda, and lists the capture date. Visual review confirms a silverback in forest vegetation. Kinigi is the named registration and briefing area in this activity guide.",
+      "reuse_note": "The Pexels License permits website use without attribution. This is an illustrative mountain-gorilla photograph and does not imply a guaranteed sighting, individual animal, group, or visitor experience."
+    },
     "/images/editorial/atlas-mountains-day-trip/atlas-mountains-road-pierre-matile.jpg": {
       "slug": "atlas-mountains-road-pierre-matile",
       "local_path": "/images/editorial/atlas-mountains-day-trip/atlas-mountains-road-pierre-matile.jpg",
@@ -6864,7 +6886,8 @@ export const photoLibrary = {
         ],
         "gallery": [
           "/images/stock/starter/volcanoes-national-park.jpg",
-          "/images/stock/destinations/volcanoes-national-park.jpg"
+          "/images/stock/destinations/volcanoes-national-park.jpg",
+          "/images/editorial/volcanoes-gorilla-trek/kinigi-silverback-ana-kenk.jpg"
         ]
       },
       "marrakech-medina-street-food-tour": {

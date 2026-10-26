@@ -1,42 +1,26 @@
 {
   "updated_at": "2026-10-26",
   "current_run": {
-    "id": "atlas-mountains-day-trip-three-no-attribution-photo-enrichment",
-    "page_url": "https://trekafricaguide.com/activities/atlas-mountains-day-trip/",
+    "id": "volcanoes-gorilla-trek-one-no-attribution-photo-enrichment",
+    "page_url": "https://trekafricaguide.com/activities/volcanoes-gorilla-trek/",
     "page_type": "activity",
-    "status": "complete_live_confirmed",
+    "status": "ready_for_publication",
     "previous_photo_count": 2,
-    "photo_count": 5,
-    "new_photo_count": 3,
+    "photo_count": 3,
+    "new_photo_count": 1,
     "checked_date": "2026-10-26",
-    "source_ledger": "docs/editorial-research/2026-10-26-atlas-mountains-day-trip-photo-enrichment.md",
+    "source_ledger": "docs/editorial-research/2026-10-26-volcanoes-gorilla-trek-photo-enrichment.md",
     "files": [
       "src/lib/photo-library.js",
       "public/photo-library.js",
-      "public/images/editorial/atlas-mountains-day-trip/",
-      "docs/editorial-research/2026-10-26-atlas-mountains-day-trip-photo-enrichment.md",
+      "public/images/editorial/volcanoes-gorilla-trek/kinigi-silverback-ana-kenk.jpg",
+      "docs/editorial-research/2026-10-26-volcanoes-gorilla-trek-photo-enrichment.md",
       "docs/image-enrichment-progress.json"
     ],
-    "note": "Added three visually inspected Atlas/Marrakech activity-context photographs under the Pexels License, which does not require public attribution. Oukaimeden is an exact named stop; other images provide regional context without asserting the tour route. Internal records retain source, creator, license, dates, evidence, alt and SHA-256. Global source/hash dedup found no duplicates. Corrected live count method: include all inline image hosts and gallery defaults/assignments; prior host-only checks falsely returned zero for externally hosted inline galleries. No guide prose or protected site behavior changed.",
-    "next_action": "Rotate to a different underfilled published guide with exact, verified no-public-attribution images; retain existing required-credit photos.",
-    "started_at": "2026-10-26 09:37 Africa/Kampala",
-    "initial_live_verification": "Production detail page returned HTTP 200 and showed See all 2 before this update.",
-    "commit": "cfd3793e10911cf7e9702fea3c2e09db7d2ed139",
-    "pushed_at": "2026-10-26 09:39 Africa/Kampala",
-    "netlify_deploy": "6adef55e67c571e0272c2990",
-    "live_verification": "2026-10-26 09:44 Africa/Kampala: Netlify production deploy 6adef55e67c571e0272c2990 is ready for commit cfd3793e10911cf7e9702fea3c2e09db7d2ed139. Production activity page returned HTTP 200, shows See all 5 and includes all three added filenames. Each plain JPEG URL returned HTTP 200 image/jpeg with content length matching the local asset.",
-    "asset_http_statuses": [
-      200,
-      200,
-      200
-    ],
-    "asset_content_lengths": [
-      418261,
-      372388,
-      449407
-    ],
-    "email_id": "1a176f16ef522f9a",
-    "report_sent_at": "2026-10-26 09:46 Africa/Kampala"
+    "note": "Added one visually inspected Kinigi gorilla photograph under the no-attribution-required Pexels License to the activity gallery, increasing it from two to three. Source and exact Kinigi location evidence, creator, license, dates, alt, transformation and SHA-256 are recorded internally. Global source/hash dedup found no matches. Other regional search results did not establish a second suitable exact-subject image; no broad search or prose edit was made.",
+    "next_action": "Run the required narrow input/mirror check; commit and push this focused addition; confirm the production page and new image asset; then send one source-free owner update.",
+    "started_at": "2026-10-26 21:31 Africa/Kampala",
+    "initial_live_verification": "Production activity page returned HTTP 200 and displayed See all 2 before the addition."
   },
   "follow_ups": [],
   "last_pending_check": {
@@ -948,6 +932,44 @@
       ],
       "email_id": "1a17679f4f3dc17a",
       "report_sent_at": "2026-10-26 07:32 Africa/Kampala"
+    },
+    {
+      "id": "atlas-mountains-day-trip-three-no-attribution-photo-enrichment",
+      "page_url": "https://trekafricaguide.com/activities/atlas-mountains-day-trip/",
+      "page_type": "activity",
+      "status": "complete_live_confirmed",
+      "previous_photo_count": 2,
+      "photo_count": 5,
+      "new_photo_count": 3,
+      "checked_date": "2026-10-26",
+      "source_ledger": "docs/editorial-research/2026-10-26-atlas-mountains-day-trip-photo-enrichment.md",
+      "files": [
+        "src/lib/photo-library.js",
+        "public/photo-library.js",
+        "public/images/editorial/atlas-mountains-day-trip/",
+        "docs/editorial-research/2026-10-26-atlas-mountains-day-trip-photo-enrichment.md",
+        "docs/image-enrichment-progress.json"
+      ],
+      "note": "Added three visually inspected Atlas/Marrakech activity-context photographs under the Pexels License, which does not require public attribution. Oukaimeden is an exact named stop; other images provide regional context without asserting the tour route. Internal records retain source, creator, license, dates, evidence, alt and SHA-256. Global source/hash dedup found no duplicates. Corrected live count method: include all inline image hosts and gallery defaults/assignments; prior host-only checks falsely returned zero for externally hosted inline galleries. No guide prose or protected site behavior changed.",
+      "next_action": "Rotate to a different underfilled published guide with exact, verified no-public-attribution images; retain existing required-credit photos.",
+      "started_at": "2026-10-26 09:37 Africa/Kampala",
+      "initial_live_verification": "Production detail page returned HTTP 200 and showed See all 2 before this update.",
+      "commit": "cfd3793e10911cf7e9702fea3c2e09db7d2ed139",
+      "pushed_at": "2026-10-26 09:39 Africa/Kampala",
+      "netlify_deploy": "6adef55e67c571e0272c2990",
+      "live_verification": "2026-10-26 09:44 Africa/Kampala: Netlify production deploy 6adef55e67c571e0272c2990 is ready for commit cfd3793e10911cf7e9702fea3c2e09db7d2ed139. Production activity page returned HTTP 200, shows See all 5 and includes all three added filenames. Each plain JPEG URL returned HTTP 200 image/jpeg with content length matching the local asset.",
+      "asset_http_statuses": [
+        200,
+        200,
+        200
+      ],
+      "asset_content_lengths": [
+        418261,
+        372388,
+        449407
+      ],
+      "email_id": "1a176f16ef522f9a",
+      "report_sent_at": "2026-10-26 09:46 Africa/Kampala"
     }
   ]
 }
