@@ -1,25 +1,26 @@
 {
-  "updated_at": "2026-10-26",
+  "updated_at": "2026-10-27",
   "current_run": {
-    "id": "great-zimbabwe-no-eligible-photo-source-checkpoint",
-    "page_url": "https://trekafricaguide.com/attractions/great-zimbabwe-national-monument/",
-    "page_type": "attraction",
-    "status": "no_eligible_source_checkpoint",
-    "previous_photo_count": 0,
-    "photo_count": 0,
-    "new_photo_count": 0,
-    "checked_date": "2026-10-26",
-    "source_ledger": "docs/editorial-research/2026-10-26-great-zimbabwe-photo-source-checkpoint.md",
+    "id": "cape-coast-elmina-kakum-activity-three-no-attribution-images",
+    "page_url": "https://trekafricaguide.com/activities/cape-coast-kakum-guided-visit/",
+    "page_type": "activity",
+    "status": "ready_for_required_checks",
+    "previous_photo_count": 2,
+    "photo_count": 5,
+    "new_photo_count": 3,
+    "checked_date": "2026-10-27",
+    "source_ledger": "docs/editorial-research/2026-10-27-cape-coast-kakum-guided-visit-photo-enrichment.md",
     "files": [
-      "docs/editorial-research/2026-10-26-great-zimbabwe-photo-source-checkpoint.md",
+      "src/lib/photo-library.js",
+      "public/photo-library.js",
+      "public/images/editorial/cape-coast-kakum-guided-visit/",
+      "docs/editorial-research/2026-10-27-cape-coast-kakum-guided-visit-photo-enrichment.md",
       "docs/image-enrichment-progress.json"
     ],
-    "note": "The live published guide has zero assigned/default gallery photos and no inline image tags. A bounded Pexels/Unsplash/UNESCO source pass found no source meeting both exact-location evidence and the current no-public-attribution preference. UNESCO exact-site photos checked are CC BY-NC-SA 3.0 IGO and require attribution. No code, guide copy or assets changed; this is a research checkpoint, not a deployment failure.",
-    "next_action": "Keep the six exact subject gaps in the existing attraction ledger. Revisit only with a photo-specific source that verifies Great Zimbabwe and has no public-attribution requirement; otherwise rotate to another eligible guide.",
-    "started_at": "2026-10-26 23:14 Africa/Kampala",
-    "initial_live_verification": "Production detail returned HTTP 200 with no gallery control and no inline image tags; curated assignment/default count is also zero.",
-    "email_id": "1a179d9e5f0ddc12",
-    "report_sent_at": "2026-10-26 23:15 Africa/Kampala"
+    "started_at": "2026-10-27 01:20 Africa/Kampala",
+    "initial_live_verification": "Production activity detail returned HTTP 200 and rendered two assigned gallery images before enrichment; the curated gallery assignment also contained two images.",
+    "note": "Added three visually inspected Pexels-license photographs with no public-attribution requirement to the two existing images. All subjects are exact places covered by the guide: Cape Coast Castle, Elmina Castle, and Elmina harbor. Existing two images and hero assignment remain unchanged. Source pages, creators, license evidence, capture/publication dates, exact-subject evidence, and SHA-256 values are retained internally; URL/hash dedup against all local public assets was clean. Generic Kakum walkway candidates were not used because sources did not identify Kakum.",
+    "next_action": "Run mandatory photo-library sync and narrow build-input/mirror checks; commit/push only task-owned files, confirm production deployment and all five page images, then send one source-free owner report and record its Gmail receipt."
   },
   "follow_ups": [],
   "last_pending_check": {
@@ -42,6 +43,27 @@
     "resolved_at": "2026-10-21 13:16 Africa/Kampala"
   },
   "completed_runs": [
+    {
+      "id": "great-zimbabwe-no-eligible-photo-source-checkpoint",
+      "page_url": "https://trekafricaguide.com/attractions/great-zimbabwe-national-monument/",
+      "page_type": "attraction",
+      "status": "no_eligible_source_checkpoint",
+      "previous_photo_count": 0,
+      "photo_count": 0,
+      "new_photo_count": 0,
+      "checked_date": "2026-10-26",
+      "source_ledger": "docs/editorial-research/2026-10-26-great-zimbabwe-photo-source-checkpoint.md",
+      "files": [
+        "docs/editorial-research/2026-10-26-great-zimbabwe-photo-source-checkpoint.md",
+        "docs/image-enrichment-progress.json"
+      ],
+      "note": "The live published guide has zero assigned/default gallery photos and no inline image tags. A bounded Pexels/Unsplash/UNESCO source pass found no source meeting both exact-location evidence and the current no-public-attribution preference. UNESCO exact-site photos checked are CC BY-NC-SA 3.0 IGO and require attribution. No code, guide copy or assets changed; this is a research checkpoint, not a deployment failure.",
+      "next_action": "Keep the six exact subject gaps in the existing attraction ledger. Revisit only with a photo-specific source that verifies Great Zimbabwe and has no public-attribution requirement; otherwise rotate to another eligible guide.",
+      "started_at": "2026-10-26 23:14 Africa/Kampala",
+      "initial_live_verification": "Production detail returned HTTP 200 with no gallery control and no inline image tags; curated assignment/default count is also zero.",
+      "email_id": "1a179d9e5f0ddc12",
+      "report_sent_at": "2026-10-26 23:15 Africa/Kampala"
+    },
     {
       "id": "south-luangwa-four-no-attribution-photo-enrichment",
       "page_url": "https://trekafricaguide.com/attractions/south-luangwa/",

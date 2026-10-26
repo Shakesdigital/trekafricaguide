@@ -1,7 +1,7 @@
 // Curated source. Run node scripts/sync-photo-library.mjs after editing.
 // Curated free photography; source and licence metadata travel with each image.
 export const photoLibrary = {
-  "updated_at": "2026-10-26",
+  "updated_at": "2026-10-27",
   "images": {
     "/images/editorial/volcanoes-gorilla-trek/kinigi-silverback-ana-kenk.jpg": {
       "slug": "kinigi-silverback-ana-kenk",
@@ -6176,6 +6176,72 @@ export const photoLibrary = {
       "checked_at": "2026-10-25",
       "exact_subject_evidence": "The Pexels page title and description specifically identify Serengeti National Park in Tanzania. Visual review shows a single balloon over a high, wide grassland perspective. No capture or publication date is stated on the source page.",
       "reuse_note": "The Pexels source page marks the photo free to use. The official Pexels License permits website use without attribution. Public credit is not required under the owner preference. This illustrates the location and activity only; it does not imply affiliation with or endorsement of the linked operator or its passengers."
+    },
+    "/images/editorial/cape-coast-kakum-guided-visit/cape-coast-castle-coastal-cannon-abubakarr-kabia.jpg": {
+      "slug": "cape-coast-castle-coastal-cannon-abubakarr-kabia",
+      "local_path": "/images/editorial/cape-coast-kakum-guided-visit/cape-coast-castle-coastal-cannon-abubakarr-kabia.jpg",
+      "source_page": "https://www.pexels.com/photo/historical-coastal-view-from-cape-coast-castle-34725454/",
+      "source_revision": "Pexels photo 34725454, checked 2026-10-27",
+      "creator": "AbuBakarr Kabia",
+      "license": "Pexels License",
+      "license_url": "https://www.pexels.com/license/",
+      "source_published_at": "2025-11-14",
+      "captured_at": "2025-05-11",
+      "sha256": "ba9ded5069e44cc3b630fa7363c5ab9be353aa35bd745266e49482472fe2ee90",
+      "exact_subject": true,
+      "subject": "Cape Coast Castle seaward wall and cannons, Cape Coast, Ghana",
+      "alt": "Cannons along the outer wall of Cape Coast Castle overlook the ocean.",
+      "property": false,
+      "kind": "photograph",
+      "requires_attribution": false,
+      "changes": "Downloaded from the Pexels CDN at 1800 pixels wide with aspect ratio preserved; no other edits.",
+      "checked_at": "2026-10-27",
+      "exact_subject_evidence": "Pexels photo page explicitly identifies Cape Coast Castle in Ghana and records capture at Cape Coast on 11 May 2025; visually inspected image shows cannons on the seaward fort wall. The view is descriptive and does not romanticize the site’s history.",
+      "reuse_note": "Pexels marks this image free to use; the Pexels License permits website reuse without public attribution. Internal creator and rights provenance is retained. This image illustrates a named location only and does not imply this guide’s tour operator, visitors or current operating conditions."
+    },
+    "/images/editorial/cape-coast-kakum-guided-visit/elmina-castle-archway-kevin-quarshie.jpg": {
+      "slug": "elmina-castle-archway-kevin-quarshie",
+      "local_path": "/images/editorial/cape-coast-kakum-guided-visit/elmina-castle-archway-kevin-quarshie.jpg",
+      "source_page": "https://www.pexels.com/photo/facade-of-elmina-castle-14780914/",
+      "source_revision": "Pexels photo 14780914, checked 2026-10-27",
+      "creator": "Kevin Quarshie",
+      "license": "Pexels License",
+      "license_url": "https://www.pexels.com/license/",
+      "source_published_at": null,
+      "captured_at": "2018-07-15",
+      "sha256": "8819e1d537f0421d259c0347aa8ff1ddfb4374f9a5aafd3cebc4e7e54a667249",
+      "exact_subject": true,
+      "subject": "Historic Elmina Castle archway and seaward view, Elmina, Ghana",
+      "alt": "An archway at Elmina Castle frames a view toward the sea.",
+      "property": false,
+      "kind": "photograph",
+      "requires_attribution": false,
+      "changes": "Downloaded from the Pexels CDN at 1800 pixels wide with aspect ratio preserved; no other edits.",
+      "checked_at": "2026-10-27",
+      "exact_subject_evidence": "Pexels photo page identifies Elmina Castle and says the image looks through a castle archway toward the sea; it records capture at Elmina on 15 July 2018. Visual inspection confirms the identified archway.",
+      "reuse_note": "Pexels marks this image free to use; the Pexels License permits website reuse without public attribution. Internal creator and rights provenance is retained. This image illustrates a named location only and does not imply this guide’s tour operator, visitors or current operating conditions."
+    },
+    "/images/editorial/cape-coast-kakum-guided-visit/elmina-fishing-harbor-niyi-david.jpg": {
+      "slug": "elmina-fishing-harbor-niyi-david",
+      "local_path": "/images/editorial/cape-coast-kakum-guided-visit/elmina-fishing-harbor-niyi-david.jpg",
+      "source_page": "https://www.pexels.com/photo/elmina-fishing-community-27640704/",
+      "source_revision": "Pexels photo 27640704, checked 2026-10-27",
+      "creator": "Niyi David",
+      "license": "Pexels License",
+      "license_url": "https://www.pexels.com/license/",
+      "source_published_at": "2024-08-08",
+      "captured_at": "2015-04-03",
+      "sha256": "816996b9fb0dc181609041485ff1bcd4d783bfd1d1c385b6276f40df8fdd214b",
+      "exact_subject": true,
+      "subject": "Fishing harbor and coastal town of Elmina, Central Region, Ghana",
+      "alt": "Fishing boats fill Elmina’s harbor beside the coastal town.",
+      "property": false,
+      "kind": "photograph",
+      "requires_attribution": false,
+      "changes": "Downloaded from the Pexels CDN at 1800 pixels wide with aspect ratio preserved; no other edits.",
+      "checked_at": "2026-10-27",
+      "exact_subject_evidence": "Pexels photo page identifies Elmina, Central Region, Ghana, describes its fishing port and town, and records capture on 3 April 2015 and publication on 8 August 2024. Visual inspection shows harbor boats and the surrounding town.",
+      "reuse_note": "Pexels marks this image free to use; the Pexels License permits website reuse without public attribution. Internal creator and rights provenance is retained. This image illustrates a named location only and does not imply this guide’s tour operator, visitors or current operating conditions."
     }
   },
   "listings": {
@@ -6853,7 +6919,10 @@ export const photoLibrary = {
         ],
         "gallery": [
           "/images/stock/starter/cape-coast-kakum.jpg",
-          "/images/stock/destinations/cape-coast-kakum.jpg"
+          "/images/stock/destinations/cape-coast-kakum.jpg",
+          "/images/editorial/cape-coast-kakum-guided-visit/cape-coast-castle-coastal-cannon-abubakarr-kabia.jpg",
+          "/images/editorial/cape-coast-kakum-guided-visit/elmina-castle-archway-kevin-quarshie.jpg",
+          "/images/editorial/cape-coast-kakum-guided-visit/elmina-fishing-harbor-niyi-david.jpg"
         ]
       },
       "victoria-falls-guided-walk": {
