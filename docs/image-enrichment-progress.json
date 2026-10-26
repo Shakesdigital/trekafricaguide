@@ -4,7 +4,7 @@
     "id": "volcanoes-gorilla-trek-one-no-attribution-photo-enrichment",
     "page_url": "https://trekafricaguide.com/activities/volcanoes-gorilla-trek/",
     "page_type": "activity",
-    "status": "ready_for_publication",
+    "status": "complete_live_confirmed",
     "previous_photo_count": 2,
     "photo_count": 3,
     "new_photo_count": 1,
@@ -18,9 +18,21 @@
       "docs/image-enrichment-progress.json"
     ],
     "note": "Added one visually inspected Kinigi gorilla photograph under the no-attribution-required Pexels License to the activity gallery, increasing it from two to three. Source and exact Kinigi location evidence, creator, license, dates, alt, transformation and SHA-256 are recorded internally. Global source/hash dedup found no matches. Other regional search results did not establish a second suitable exact-subject image; no broad search or prose edit was made.",
-    "next_action": "Run the required narrow input/mirror check; commit and push this focused addition; confirm the production page and new image asset; then send one source-free owner update.",
+    "next_action": "Rotate to a different underfilled published guide with exact, verified no-public-attribution images; preserve existing required-credit photos.",
     "started_at": "2026-10-26 21:31 Africa/Kampala",
-    "initial_live_verification": "Production activity page returned HTTP 200 and displayed See all 2 before the addition."
+    "initial_live_verification": "Production activity page returned HTTP 200 and displayed See all 2 before the addition.",
+    "commit": "484c9d1a119c4d783d1c1e6a01d41615173ff09d",
+    "pushed_at": "2026-10-26 21:31 Africa/Kampala",
+    "netlify_deploy": "6adf9cb0930f5cf01ac5f3eb",
+    "live_verification": "2026-10-26 21:33 Africa/Kampala: Netlify production deploy 6adf9cb0930f5cf01ac5f3eb is ready for commit 484c9d1a119c4d783d1c1e6a01d41615173ff09d. Production activity page returned HTTP 200, shows See all 3 and includes the new filename. The plain JPEG asset returned HTTP 200 image/jpeg with content length matching the local file.",
+    "asset_http_statuses": [
+      200
+    ],
+    "asset_content_lengths": [
+      400312
+    ],
+    "email_id": "1a1797d4493d95b6",
+    "report_sent_at": "2026-10-26 21:34 Africa/Kampala"
   },
   "follow_ups": [],
   "last_pending_check": {
