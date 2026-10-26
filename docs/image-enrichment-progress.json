@@ -4,7 +4,7 @@
     "id": "south-luangwa-four-no-attribution-photo-enrichment",
     "page_url": "https://trekafricaguide.com/attractions/south-luangwa/",
     "page_type": "attraction",
-    "status": "publication_pending",
+    "status": "complete_live_confirmed",
     "previous_photo_count": 2,
     "photo_count": 6,
     "new_photo_count": 4,
@@ -18,13 +18,27 @@
       "docs/image-enrichment-progress.json"
     ],
     "note": "Added four visually reviewed exact-location South Luangwa wildlife photographs under Unsplash License terms requiring no public attribution. Existing two attribution-required photos remain unchanged. Internal metadata retains source, creator, license, publication/location evidence, alt text, transforms and SHA-256. Global source URL and hash dedup found no matches. No prose or protected site behavior changed.",
-    "next_action": "Verify production page and all four assets after safe main publication; then send one source-free owner report.",
+    "next_action": "Rotate to another underfilled guide using only verified no-public-attribution photos; retain existing attribution-required images.",
     "started_at": "2026-10-26 03:50 Africa/Kampala",
     "initial_live_verification": "Production South Luangwa attraction page returned HTTP 200 and reported See all 2 before additions.",
     "commit": "78b9467",
     "pushed_at": "2026-10-26 04:02 Africa/Kampala",
-    "blocker": "The connected Netlify account exposes read-only deploy inspection but no deploy/build action. Its current ready production deploy still serves commit 8fa8c52; the South Luangwa page remains at See all 2. No live publication or email is claimed. Resume by triggering the existing production build through the authorized Netlify deployment path, then verify all four assets before owner reporting.",
-    "live_verification": "2026-10-26 04:03 Africa/Kampala: production detail page HTTP 200 but still reports See all 2 and lacks new filenames; not yet deployed."
+    "live_verification": "2026-10-26 07:17 Africa/Kampala: Netlify production deploy 6aded3d9b08991d070d0e687 is ready for main commit 78b94672b19cc0dff10521fdbbfdd2f9c9d8834f. Production detail page returned HTTP 200, displays See all 6 and contains all four new filenames. All four image URLs returned HTTP 200 image/jpeg and matched local byte counts.",
+    "netlify_deploy": "6aded3d9b08991d070d0e687",
+    "asset_http_statuses": [
+      200,
+      200,
+      200,
+      200
+    ],
+    "asset_content_lengths": [
+      306191,
+      273207,
+      310321,
+      425035
+    ],
+    "email_id": "1a1766d6fac32c20",
+    "report_sent_at": "2026-10-26 07:17 Africa/Kampala"
   },
   "follow_ups": [],
   "last_pending_check": {
