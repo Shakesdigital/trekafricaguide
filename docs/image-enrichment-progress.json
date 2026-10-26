@@ -4,7 +4,7 @@
     "id": "namib-desert-attraction-four-no-attribution-photo-enrichment",
     "page_url": "https://trekafricaguide.com/attractions/namib-desert/",
     "page_type": "attraction",
-    "status": "ready_for_publication",
+    "status": "complete_live_confirmed",
     "previous_photo_count": 2,
     "photo_count": 6,
     "new_photo_count": 4,
@@ -18,9 +18,27 @@
       "docs/image-enrichment-progress.json"
     ],
     "note": "Added four visually reviewed Sossusvlei/Deadvlei scenes to the two-image attraction gallery. All four are Pexels License photographs; terms require no public attribution. Existing photos remain unchanged. Internal metadata records creators, source versions, checked license/location/date evidence, alt text, CDN scaling and SHA-256. Global source URL and hash dedup found no duplicates. No guide prose or protected site behavior changed.",
-    "next_action": "Confirm production page and four new assets after safe main publication; then send one source-free owner report.",
+    "next_action": "Rotate to another underfilled guide with verified exact-subject no-public-attribution sources; preserve existing attribution-required photos.",
     "started_at": "2026-10-26 07:27 Africa/Kampala",
-    "initial_live_verification": "Production Namib Desert attraction page returned HTTP 200 and displayed See all 2 before these additions."
+    "initial_live_verification": "Production Namib Desert attraction page returned HTTP 200 and displayed See all 2 before these additions.",
+    "commit": "9fe3ee5ff77f5a30af8d6d820aa07e120a0ccf4e",
+    "pushed_at": "2026-10-26 07:29 Africa/Kampala",
+    "netlify_deploy": "6aded71f98a66ef237eaf671",
+    "live_verification": "2026-10-26 07:32 Africa/Kampala: Netlify production deploy 6aded71f98a66ef237eaf671 is ready for main commit 9fe3ee5ff77f5a30af8d6d820aa07e120a0ccf4e. Production detail page returned HTTP 200, displays See all 6 and contains all four new filenames. All four image URLs returned HTTP 200 image/jpeg and matched local byte counts.",
+    "asset_http_statuses": [
+      200,
+      200,
+      200,
+      200
+    ],
+    "asset_content_lengths": [
+      1144210,
+      219969,
+      161516,
+      308299
+    ],
+    "email_id": "1a17679f4f3dc17a",
+    "report_sent_at": "2026-10-26 07:32 Africa/Kampala"
   },
   "follow_ups": [],
   "last_pending_check": {
