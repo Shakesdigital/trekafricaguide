@@ -1,44 +1,26 @@
 {
   "updated_at": "2026-10-26",
   "current_run": {
-    "id": "south-luangwa-four-no-attribution-photo-enrichment",
-    "page_url": "https://trekafricaguide.com/attractions/south-luangwa/",
+    "id": "namib-desert-attraction-four-no-attribution-photo-enrichment",
+    "page_url": "https://trekafricaguide.com/attractions/namib-desert/",
     "page_type": "attraction",
-    "status": "complete_live_confirmed",
+    "status": "ready_for_publication",
     "previous_photo_count": 2,
     "photo_count": 6,
     "new_photo_count": 4,
     "checked_date": "2026-10-26",
-    "source_ledger": "docs/editorial-research/2026-10-26-south-luangwa-photo-enrichment.md",
+    "source_ledger": "docs/editorial-research/2026-10-26-namib-desert-photo-enrichment.md",
     "files": [
       "src/lib/photo-library.js",
       "public/photo-library.js",
-      "public/images/editorial/south-luangwa-attraction/",
-      "docs/editorial-research/2026-10-26-south-luangwa-photo-enrichment.md",
+      "public/images/editorial/namib-desert-attraction/",
+      "docs/editorial-research/2026-10-26-namib-desert-photo-enrichment.md",
       "docs/image-enrichment-progress.json"
     ],
-    "note": "Added four visually reviewed exact-location South Luangwa wildlife photographs under Unsplash License terms requiring no public attribution. Existing two attribution-required photos remain unchanged. Internal metadata retains source, creator, license, publication/location evidence, alt text, transforms and SHA-256. Global source URL and hash dedup found no matches. No prose or protected site behavior changed.",
-    "next_action": "Rotate to another underfilled guide using only verified no-public-attribution photos; retain existing attribution-required images.",
-    "started_at": "2026-10-26 03:50 Africa/Kampala",
-    "initial_live_verification": "Production South Luangwa attraction page returned HTTP 200 and reported See all 2 before additions.",
-    "commit": "78b9467",
-    "pushed_at": "2026-10-26 04:02 Africa/Kampala",
-    "live_verification": "2026-10-26 07:17 Africa/Kampala: Netlify production deploy 6aded3d9b08991d070d0e687 is ready for main commit 78b94672b19cc0dff10521fdbbfdd2f9c9d8834f. Production detail page returned HTTP 200, displays See all 6 and contains all four new filenames. All four image URLs returned HTTP 200 image/jpeg and matched local byte counts.",
-    "netlify_deploy": "6aded3d9b08991d070d0e687",
-    "asset_http_statuses": [
-      200,
-      200,
-      200,
-      200
-    ],
-    "asset_content_lengths": [
-      306191,
-      273207,
-      310321,
-      425035
-    ],
-    "email_id": "1a1766d6fac32c20",
-    "report_sent_at": "2026-10-26 07:17 Africa/Kampala"
+    "note": "Added four visually reviewed Sossusvlei/Deadvlei scenes to the two-image attraction gallery. All four are Pexels License photographs; terms require no public attribution. Existing photos remain unchanged. Internal metadata records creators, source versions, checked license/location/date evidence, alt text, CDN scaling and SHA-256. Global source URL and hash dedup found no duplicates. No guide prose or protected site behavior changed.",
+    "next_action": "Confirm production page and four new assets after safe main publication; then send one source-free owner report.",
+    "started_at": "2026-10-26 07:27 Africa/Kampala",
+    "initial_live_verification": "Production Namib Desert attraction page returned HTTP 200 and displayed See all 2 before these additions."
   },
   "follow_ups": [],
   "last_pending_check": {
@@ -61,6 +43,46 @@
     "resolved_at": "2026-10-21 13:16 Africa/Kampala"
   },
   "completed_runs": [
+    {
+      "id": "south-luangwa-four-no-attribution-photo-enrichment",
+      "page_url": "https://trekafricaguide.com/attractions/south-luangwa/",
+      "page_type": "attraction",
+      "status": "complete_live_confirmed",
+      "previous_photo_count": 2,
+      "photo_count": 6,
+      "new_photo_count": 4,
+      "checked_date": "2026-10-26",
+      "source_ledger": "docs/editorial-research/2026-10-26-south-luangwa-photo-enrichment.md",
+      "files": [
+        "src/lib/photo-library.js",
+        "public/photo-library.js",
+        "public/images/editorial/south-luangwa-attraction/",
+        "docs/editorial-research/2026-10-26-south-luangwa-photo-enrichment.md",
+        "docs/image-enrichment-progress.json"
+      ],
+      "note": "Added four visually reviewed exact-location South Luangwa wildlife photographs under Unsplash License terms requiring no public attribution. Existing two attribution-required photos remain unchanged. Internal metadata retains source, creator, license, publication/location evidence, alt text, transforms and SHA-256. Global source URL and hash dedup found no matches. No prose or protected site behavior changed.",
+      "next_action": "Rotate to another underfilled guide using only verified no-public-attribution photos; retain existing attribution-required images.",
+      "started_at": "2026-10-26 03:50 Africa/Kampala",
+      "initial_live_verification": "Production South Luangwa attraction page returned HTTP 200 and reported See all 2 before additions.",
+      "commit": "78b9467",
+      "pushed_at": "2026-10-26 04:02 Africa/Kampala",
+      "live_verification": "2026-10-26 07:17 Africa/Kampala: Netlify production deploy 6aded3d9b08991d070d0e687 is ready for main commit 78b94672b19cc0dff10521fdbbfdd2f9c9d8834f. Production detail page returned HTTP 200, displays See all 6 and contains all four new filenames. All four image URLs returned HTTP 200 image/jpeg and matched local byte counts.",
+      "netlify_deploy": "6aded3d9b08991d070d0e687",
+      "asset_http_statuses": [
+        200,
+        200,
+        200,
+        200
+      ],
+      "asset_content_lengths": [
+        306191,
+        273207,
+        310321,
+        425035
+      ],
+      "email_id": "1a1766d6fac32c20",
+      "report_sent_at": "2026-10-26 07:17 Africa/Kampala"
+    },
     {
       "id": "okavango-delta-four-no-attribution-photo-enrichment",
       "page_url": "https://trekafricaguide.com/attractions/okavango-delta/",

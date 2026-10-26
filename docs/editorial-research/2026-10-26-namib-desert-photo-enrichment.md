@@ -1,0 +1,14 @@
+# Namib Desert attraction photo enrichment — 26 October 2026
+
+Four visually reviewed Sossusvlei/Deadvlei photographs were added to the two-image Namib Desert gallery. The existing dune and ripple images remain unchanged. Each selected source page identifies the local scene, and the Pexels License permits website use without public attribution. No guide prose, tracking, layout or relationships changed.
+
+| Local file | Creator/source | Location and rights evidence | Date / visual review |
+| --- | --- | --- | --- |
+| `public/images/editorial/namib-desert-attraction/namib-desert-sossusvlei-cracked-pan-red-dune-hub-jacqu.jpg` | Hub JACQU, https://www.pexels.com/photo/sossusvlei-desert-landscape-with-sand-dunes-35043950/ | Page identifies Sossusvlei, Hardap Region, Namibia; free use. Pexels License checked 26 October 2026; no credit required. | Published 2025-12-03; captured 2025-11-27. Red dune above textured dry pan; photo page contains camera/capture details. |
+| `public/images/editorial/namib-desert-attraction/namib-desert-deadvlei-trees-wendy-r.jpg` | Wendy R, https://www.pexels.com/photo/leafless-trees-near-a-desert-10259907/ | Page locates the photo in Sossusvlei and identifies Deadvlei; free use. Pexels License checked 26 October 2026; no credit required. | Capture and publication dates not stated. Visually reviewed leafless trees, pale pan and red dune. |
+| `public/images/editorial/namib-desert-attraction/namib-desert-deadvlei-tree-panorama-hans-lutjes.jpg` | Hans Lutjes, https://www.pexels.com/photo/two-dead-trees-in-the-desert-with-sand-dunes-in-the-background-27441219/ | Page describes the image as captured at Deadvlei, Namibia; free use. Pexels License checked 26 October 2026; no credit required. | Published 2024-07-28; captured 2024-07-02. Wide panorama shows two dead trees, pan and dunes. |
+| `public/images/editorial/namib-desert-attraction/namib-desert-dune-walkers-rino-adamo.jpg` | Rino Adamo, https://www.pexels.com/photo/magnificent-dunes-and-desert-landscape-in-namibia-34799621/ | Page describes Sossusvlei and the Namib Desert, Namibia; free use. Pexels License checked 26 October 2026; no credit required. | Published 2025-11-19; captured 2019-08-14. Distant walkers on a dune ridge above the pale pan; no operator or group identification. |
+
+Internal image records retain source revision, creator, license, date/location evidence, alt text, transformation and SHA-256. Global source-page and image-hash comparisons found no duplicates. The varied scenes supplement the existing dune-sunrise and dune-ripple images with Deadvlei's trees, the dry pan and a dune ridge. These images illustrate the region and do not claim current access, conditions or a specific visitor experience. No public attribution text was added.
+
+Page: `https://trekafricaguide.com/attractions/namib-desert/`.
