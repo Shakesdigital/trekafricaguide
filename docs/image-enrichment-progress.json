@@ -4,7 +4,7 @@
     "id": "cape-coast-elmina-kakum-activity-three-no-attribution-images",
     "page_url": "https://trekafricaguide.com/activities/cape-coast-kakum-guided-visit/",
     "page_type": "activity",
-    "status": "ready_for_required_checks",
+    "status": "complete_live_confirmed",
     "previous_photo_count": 2,
     "photo_count": 5,
     "new_photo_count": 3,
@@ -19,8 +19,33 @@
     ],
     "started_at": "2026-10-27 01:20 Africa/Kampala",
     "initial_live_verification": "Production activity detail returned HTTP 200 and rendered two assigned gallery images before enrichment; the curated gallery assignment also contained two images.",
-    "note": "Added three visually inspected Pexels-license photographs with no public-attribution requirement to the two existing images. All subjects are exact places covered by the guide: Cape Coast Castle, Elmina Castle, and Elmina harbor. Existing two images and hero assignment remain unchanged. Source pages, creators, license evidence, capture/publication dates, exact-subject evidence, and SHA-256 values are retained internally; URL/hash dedup against all local public assets was clean. Generic Kakum walkway candidates were not used because sources did not identify Kakum.",
-    "next_action": "Run mandatory photo-library sync and narrow build-input/mirror checks; commit/push only task-owned files, confirm production deployment and all five page images, then send one source-free owner report and record its Gmail receipt."
+    "note": "Added three visually inspected Pexels-license photographs with no public-attribution requirement to the two existing images. All subjects are exact places covered by the guide: Cape Coast Castle, Elmina Castle, and Elmina harbor. Existing two images and hero assignment remain unchanged. Source pages, creators, license evidence, capture/publication dates, exact-subject evidence, and SHA-256 values are retained internally; URL/hash dedup against all local public assets was clean. Generic Kakum walkway candidates were not used because sources did not identify Kakum. Narrow syntax/JSON/mirror checks and git diff --check passed. Commit 0f66ff1 is production-published; live detail returned HTTP 200 with five images and all three new filenames, and each new JPEG returned HTTP 200 image/jpeg with matching content length. Source-free owner email sent; Gmail receipt 1a17a50554c7123d.",
+    "next_action": "Run mandatory photo-library sync and narrow build-input/mirror checks; commit/push only task-owned files, confirm production deployment and all five page images, then send one source-free owner report and record its Gmail receipt.",
+    "published_commit": "0f66ff195c79cc617048ce8a88e2ffcf3db57fc2",
+    "published_deploy": "6adfd2a0965aa770b66aad4f",
+    "live_confirmation": {
+      "checked_at": "2026-10-27 01:24 Africa/Kampala",
+      "page_http_status": 200,
+      "gallery_count": 5,
+      "all_new_image_filenames_in_page": true,
+      "asset_http_statuses": [
+        200,
+        200,
+        200
+      ],
+      "asset_content_types": [
+        "image/jpeg",
+        "image/jpeg",
+        "image/jpeg"
+      ],
+      "asset_content_lengths": [
+        759612,
+        717368,
+        428855
+      ]
+    },
+    "email_id": "1a17a50554c7123d",
+    "report_sent_at": "2026-10-27 01:24 Africa/Kampala"
   },
   "follow_ups": [],
   "last_pending_check": {
