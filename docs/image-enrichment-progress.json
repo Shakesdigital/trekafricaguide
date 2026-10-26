@@ -1,44 +1,26 @@
 {
   "updated_at": "2026-10-26",
   "current_run": {
-    "id": "namib-desert-attraction-four-no-attribution-photo-enrichment",
-    "page_url": "https://trekafricaguide.com/attractions/namib-desert/",
-    "page_type": "attraction",
-    "status": "complete_live_confirmed",
+    "id": "atlas-mountains-day-trip-three-no-attribution-photo-enrichment",
+    "page_url": "https://trekafricaguide.com/activities/atlas-mountains-day-trip/",
+    "page_type": "activity",
+    "status": "ready_for_publication",
     "previous_photo_count": 2,
-    "photo_count": 6,
-    "new_photo_count": 4,
+    "photo_count": 5,
+    "new_photo_count": 3,
     "checked_date": "2026-10-26",
-    "source_ledger": "docs/editorial-research/2026-10-26-namib-desert-photo-enrichment.md",
+    "source_ledger": "docs/editorial-research/2026-10-26-atlas-mountains-day-trip-photo-enrichment.md",
     "files": [
       "src/lib/photo-library.js",
       "public/photo-library.js",
-      "public/images/editorial/namib-desert-attraction/",
-      "docs/editorial-research/2026-10-26-namib-desert-photo-enrichment.md",
+      "public/images/editorial/atlas-mountains-day-trip/",
+      "docs/editorial-research/2026-10-26-atlas-mountains-day-trip-photo-enrichment.md",
       "docs/image-enrichment-progress.json"
     ],
-    "note": "Added four visually reviewed Sossusvlei/Deadvlei scenes to the two-image attraction gallery. All four are Pexels License photographs; terms require no public attribution. Existing photos remain unchanged. Internal metadata records creators, source versions, checked license/location/date evidence, alt text, CDN scaling and SHA-256. Global source URL and hash dedup found no duplicates. No guide prose or protected site behavior changed.",
-    "next_action": "Rotate to another underfilled guide with verified exact-subject no-public-attribution sources; preserve existing attribution-required photos.",
-    "started_at": "2026-10-26 07:27 Africa/Kampala",
-    "initial_live_verification": "Production Namib Desert attraction page returned HTTP 200 and displayed See all 2 before these additions.",
-    "commit": "9fe3ee5ff77f5a30af8d6d820aa07e120a0ccf4e",
-    "pushed_at": "2026-10-26 07:29 Africa/Kampala",
-    "netlify_deploy": "6aded71f98a66ef237eaf671",
-    "live_verification": "2026-10-26 07:32 Africa/Kampala: Netlify production deploy 6aded71f98a66ef237eaf671 is ready for main commit 9fe3ee5ff77f5a30af8d6d820aa07e120a0ccf4e. Production detail page returned HTTP 200, displays See all 6 and contains all four new filenames. All four image URLs returned HTTP 200 image/jpeg and matched local byte counts.",
-    "asset_http_statuses": [
-      200,
-      200,
-      200,
-      200
-    ],
-    "asset_content_lengths": [
-      1144210,
-      219969,
-      161516,
-      308299
-    ],
-    "email_id": "1a17679f4f3dc17a",
-    "report_sent_at": "2026-10-26 07:32 Africa/Kampala"
+    "note": "Added three visually inspected Atlas/Marrakech activity-context photographs under the Pexels License, which does not require public attribution. Oukaimeden is an exact named stop; other images provide regional context without asserting the tour route. Internal records retain source, creator, license, dates, evidence, alt and SHA-256. Global source/hash dedup found no duplicates. Corrected live count method: include all inline image hosts and gallery defaults/assignments; prior host-only checks falsely returned zero for externally hosted inline galleries. No guide prose or protected site behavior changed.",
+    "next_action": "Publish the focused three-image addition, confirm actual live detail page and all three assets, and send one source-free owner update.",
+    "started_at": "2026-10-26 09:37 Africa/Kampala",
+    "initial_live_verification": "Production detail page returned HTTP 200 and showed See all 2 before this update."
   },
   "follow_ups": [],
   "last_pending_check": {
@@ -910,6 +892,46 @@
       ],
       "email_id": "1a172ff892a2a8f6",
       "report_sent_at": "2026-10-25 15:18 Africa/Kampala"
+    },
+    {
+      "id": "namib-desert-attraction-four-no-attribution-photo-enrichment",
+      "page_url": "https://trekafricaguide.com/attractions/namib-desert/",
+      "page_type": "attraction",
+      "status": "complete_live_confirmed",
+      "previous_photo_count": 2,
+      "photo_count": 6,
+      "new_photo_count": 4,
+      "checked_date": "2026-10-26",
+      "source_ledger": "docs/editorial-research/2026-10-26-namib-desert-photo-enrichment.md",
+      "files": [
+        "src/lib/photo-library.js",
+        "public/photo-library.js",
+        "public/images/editorial/namib-desert-attraction/",
+        "docs/editorial-research/2026-10-26-namib-desert-photo-enrichment.md",
+        "docs/image-enrichment-progress.json"
+      ],
+      "note": "Added four visually reviewed Sossusvlei/Deadvlei scenes to the two-image attraction gallery. All four are Pexels License photographs; terms require no public attribution. Existing photos remain unchanged. Internal metadata records creators, source versions, checked license/location/date evidence, alt text, CDN scaling and SHA-256. Global source URL and hash dedup found no duplicates. No guide prose or protected site behavior changed.",
+      "next_action": "Rotate to another underfilled guide with verified exact-subject no-public-attribution sources; preserve existing attribution-required photos.",
+      "started_at": "2026-10-26 07:27 Africa/Kampala",
+      "initial_live_verification": "Production Namib Desert attraction page returned HTTP 200 and displayed See all 2 before these additions.",
+      "commit": "9fe3ee5ff77f5a30af8d6d820aa07e120a0ccf4e",
+      "pushed_at": "2026-10-26 07:29 Africa/Kampala",
+      "netlify_deploy": "6aded71f98a66ef237eaf671",
+      "live_verification": "2026-10-26 07:32 Africa/Kampala: Netlify production deploy 6aded71f98a66ef237eaf671 is ready for main commit 9fe3ee5ff77f5a30af8d6d820aa07e120a0ccf4e. Production detail page returned HTTP 200, displays See all 6 and contains all four new filenames. All four image URLs returned HTTP 200 image/jpeg and matched local byte counts.",
+      "asset_http_statuses": [
+        200,
+        200,
+        200,
+        200
+      ],
+      "asset_content_lengths": [
+        1144210,
+        219969,
+        161516,
+        308299
+      ],
+      "email_id": "1a17679f4f3dc17a",
+      "report_sent_at": "2026-10-26 07:32 Africa/Kampala"
     }
   ]
 }
