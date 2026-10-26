@@ -436,10 +436,11 @@
     "verification": "Brief JSON/content inspection, 24 internal HTTP checks and 14 live rendered checks. No test suite or local build. Existing production exposed-markup guard preserved."
   },
   "latest_run_checkpoint": {
-    "status": "complete",
-    "task": "livingstone-destination",
-    "email_id": "1a171797d7a74bc3",
-    "next_action": "Accommodation category; do not repeat completed activity or destination work."
+    "date": "2026-10-27",
+    "action": "Bounded recheck of Giza 851104 and Cape Coast/Kakum 834942: generic shells again; retain holds.",
+    "public_changes": false,
+    "next_action": "Select new activity with accessible official evidence; do not repeat unchanged holds next run.",
+    "ledger": "docs/editorial-research/2026-10-27-activity-booking-recheck.md"
   },
   "usage_deferral_history": [
     {
