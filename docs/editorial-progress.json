@@ -272,24 +272,26 @@
     "email_id": "1a143a69416cf3d1"
   },
   "rotation": {
-    "last_completed_category": "accommodations",
-    "next_category": "travel_insights",
-    "next_deliverable": "One complete travel-planning insight selected from coverage gaps.",
+    "last_completed_category": "travel_insights",
+    "next_category": "activities",
+    "next_deliverable": "One complete activity guide or substantial activity improvement with exact booking destination when verified.",
     "rule": "Finish the individual deliverable and report its live state, then rotate. Track exact-property photo gaps separately.",
     "override_reason": null
   },
   "current_deliverable": {
     "id": "victoria-falls-livingstone-planning",
     "category": "travel_insights",
-    "status": "in_progress",
-    "last_action": "Reviewed complete existing insight and fresh National Museums Board evidence; reuse dated Jollyboys research.",
-    "next_action": "Add complete town-base decision and alternative day, publish and confirm CMS/live.",
+    "status": "complete",
+    "last_action": "Live HTTP 200 confirms new section, Livingstone and Jollyboys links; CMS source 557ba73 includes section. Owner email sent.",
+    "next_action": "Rotate to one complete activity deliverable.",
     "acceptance_criteria": [
       "Useful Zambia town-base choice and suggested town day",
       "Internal Livingstone and Jollyboys links",
       "Preserve six licensed images and original entry-check dates",
       "Live and CMS confirmation and owner report"
-    ]
+    ],
+    "commit": "557ba73f1c353da0539cd88d8f764b1da1fec8a8",
+    "report_message_id": "1a1767f5822b840a"
   },
   "previous_deliverable_correction": {
     "id": "marrakech-medina-street-food-walk",
