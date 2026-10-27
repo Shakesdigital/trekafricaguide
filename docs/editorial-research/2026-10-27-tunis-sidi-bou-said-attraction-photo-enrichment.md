@@ -13,3 +13,12 @@ All three source pages and the official Pexels License were checked on 27 Octobe
 ## Publication record
 
 Pending the mandatory narrow input and mirror checks, commit/push, production deployment, page/assets confirmation and a source-free owner report.
+
+## Publication record
+
+- Commit: 65857ca8cdd9a36b6cbaa36f957e14d297cf2ae6; pushed to `main`.
+- Netlify production deploy 6ae00b6c81a9cc592a3ab244 is ready for the same commit.
+- At 05:26 Africa/Kampala, the detail page returned HTTP 200, displayed “See all 5 images,” contained all three new filenames and retained both original visible creator credits.
+- All three plain JPEG URLs returned HTTP 200 with `image/jpeg`; response lengths matched the local files (1,092,660; 1,385,250; 1,274,614 bytes).
+- Source-free owner report sent at 05:27 Africa/Kampala; Gmail receipt `1a17b2e21759f26b`.
+- Required checks passed: photo-library sync, build-input syntax/JSON/mirror check, gallery count 5, and `git diff --check`. No test suite or general build was run.

@@ -4,7 +4,7 @@
     "id": "tunis-sidi-bou-said-attraction-three-no-attribution-photo-enrichment",
     "page_url": "https://trekafricaguide.com/attractions/tunis-and-sidi-bou-said/",
     "page_type": "attraction",
-    "status": "ready_for_required_checks",
+    "status": "complete_live_confirmed",
     "previous_photo_count": 2,
     "photo_count": 5,
     "new_photo_count": 3,
@@ -20,7 +20,33 @@
     "started_at": "2026-10-27 05:23 Africa/Kampala",
     "initial_live_verification": "Production attraction detail returned HTTP 200 and rendered the two default gallery images; curated gallery assignment also contained two. Existing CC BY-SA photos, hero and visible credits remain unchanged.",
     "note": "Three visually inspected exact-location Pexels License photographs added for Sidi Bou Said alley, Carthage ruins and Tunis Medina. Attribution is not required by the checked license; existing required-credit photos remain unchanged. Full guide reviewed; source, creator, checked license evidence, date/version, exact-location evidence, transformation, alt text and SHA-256 recorded internally. Global source URL/hash dedup was clean.",
-    "next_action": "Run mandatory photo-library sync and narrow input/mirror checks, commit and push only this runs files, verify production detail and all five gallery assets, then send one source-free owner report and record the receipt."
+    "next_action": "Rotate to another underfilled guide with verified exact-subject no-public-attribution photos; preserve existing required-credit photos.",
+    "published_commit": "65857ca8cdd9a36b6cbaa36f957e14d297cf2ae6",
+    "published_deploy": "6ae00b6c81a9cc592a3ab244",
+    "live_confirmation": {
+      "checked_at": "2026-10-27 05:26 Africa/Kampala",
+      "page_http_status": 200,
+      "gallery_count": 5,
+      "all_new_image_filenames_in_page": true,
+      "existing_attribution_still_visible": true,
+      "asset_http_statuses": [
+        200,
+        200,
+        200
+      ],
+      "asset_content_types": [
+        "image/jpeg",
+        "image/jpeg",
+        "image/jpeg"
+      ],
+      "asset_content_lengths": [
+        1092660,
+        1385250,
+        1274614
+      ]
+    },
+    "email_id": "1a17b2e21759f26b",
+    "report_sent_at": "2026-10-27 05:27 Africa/Kampala"
   },
   "follow_ups": [],
   "last_pending_check": {
