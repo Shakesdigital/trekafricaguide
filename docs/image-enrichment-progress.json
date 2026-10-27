@@ -4,7 +4,7 @@
     "id": "maasai-mara-balloon-safari-four-no-attribution-photo-enrichment",
     "page_url": "https://trekafricaguide.com/activities/maasai-mara-balloon-safari/",
     "page_type": "activity",
-    "status": "publication_pending",
+    "status": "complete_live_confirmed",
     "previous_photo_count": 2,
     "photo_count": 6,
     "new_photo_count": 4,
@@ -20,7 +20,35 @@
     "started_at": "2026-10-27 15:11 Africa/Kampala",
     "initial_live_verification": "Production activity detail returned HTTP 200 and displayed See all 2 images. Two existing gallery assignments/defaults are the activity’s collection; logo and related-card images are separate page elements. Existing hero and assigned photos remain unchanged.",
     "note": "Added four visually reviewed, exact-Maasai-Mara balloon photographs under Pexels and Unsplash licenses that do not require public attribution. Subjects vary across aerial sunrise view, balloon over plains, an aerial balloon/wildebeest scene and a dawn lift. Full guide reviewed; no copy or protected site behavior changed. Source URLs, creators, license evidence/version, page and capture dates where stated, exact-location evidence, alt text and SHA-256 are recorded internally. Global source URL and SHA-256 dedup against the library and all local public image files found no matches. Gallery total is six.",
-    "next_action": "Complete narrow required photo-library mirror/build-input syntax and JSON checks, commit and push only task files, verify the production detail and all four new assets, then send one source-free owner report and save its Gmail receipt."
+    "next_action": "Rotate to one genuinely underfilled guide with exact-subject, no-public-attribution photos; count rendered gallery defaults and all inline images before selecting.",
+    "published_commit": "899c4c2390316ba105c45eb33a51eb21a2c3e979",
+    "published_deploy": "6ae0964c3abe29cd46d9119e",
+    "live_confirmation": {
+      "checked_at": "2026-10-27 15:19 Africa/Kampala",
+      "page_http_status": 200,
+      "gallery_count": 6,
+      "all_new_image_filenames_in_page": true,
+      "asset_http_statuses": [
+        200,
+        200,
+        200,
+        200
+      ],
+      "asset_content_types": [
+        "image/jpeg",
+        "image/jpeg",
+        "image/jpeg",
+        "image/jpeg"
+      ],
+      "asset_content_lengths": [
+        145480,
+        423167,
+        595593,
+        777378
+      ]
+    },
+    "email_id": "1a17d4d406da42f7",
+    "report_sent_at": "2026-10-27 15:20 Africa/Kampala"
   },
   "follow_ups": [],
   "last_pending_check": {

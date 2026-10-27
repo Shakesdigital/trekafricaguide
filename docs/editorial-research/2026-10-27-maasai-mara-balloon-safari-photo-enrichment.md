@@ -17,4 +17,4 @@ The Pexels and Unsplash CDN renditions are 1,800 pixels wide with source aspect 
 
 ## Publication record
 
-The required photo-library mirror and narrow build-input syntax/JSON checks, plus `git diff --check`, must pass before publication. After commit, verify the production activity detail and all four plain JPEG URLs, then send one source-free owner report and record its Gmail receipt in `docs/image-enrichment-progress.json`.
+The photo-library mirror and narrow build-input syntax/JSON checks, plus `git diff --check`, passed before publication. Commit `899c4c2390316ba105c45eb33a51eb21a2c3e979` deployed to production as Netlify deploy `6ae0964c3abe29cd46d9119e` (ready, production context). At 15:19 Africa/Kampala the production detail returned HTTP 200 and displayed all six images; each of the four new JPEG URLs returned HTTP 200 with `image/jpeg` and content lengths 145480, 423167, 595593 and 777378 bytes. One source-free owner report was sent at 15:20 Africa/Kampala; Gmail receipt `1a17d4d406da42f7`.
