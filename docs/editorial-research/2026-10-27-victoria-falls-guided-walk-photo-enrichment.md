@@ -17,4 +17,4 @@ The four exact source-page URLs were not present in the existing source library 
 
 ## Publication record
 
-Narrow photo-library mirror and build-input syntax/JSON checks and `git diff --check` passed before publication. Deployment, live page/assets, and the source-free owner email receipt will be recorded after the production deployment is confirmed.
+Narrow photo-library mirror and build-input syntax/JSON checks and `git diff --check` passed before publication. Commit `ae6f2719b3aa94157eb7fd3ff0904b4899c1e5bc` deployed to production as Netlify deploy `6ae0b35e1fbf9e467d5df64a` (ready, production context). At 17:22 Africa/Kampala the production detail returned HTTP 200 and displayed all six images; each new JPEG URL returned HTTP 200 with `image/jpeg` and content lengths 388635, 1744457, 422414 and 338386 bytes. One source-free owner report was sent at 17:23 Africa/Kampala; Gmail receipt `1a17dbeb4012cb5e`.

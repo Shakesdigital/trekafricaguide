@@ -4,7 +4,7 @@
     "id": "victoria-falls-guided-walk-four-no-attribution-photo-enrichment",
     "page_url": "https://trekafricaguide.com/activities/victoria-falls-guided-walk/",
     "page_type": "activity",
-    "status": "publication_pending",
+    "status": "complete_live_confirmed",
     "previous_photo_count": 2,
     "photo_count": 6,
     "new_photo_count": 4,
@@ -20,7 +20,35 @@
     "started_at": "2026-10-27 17:14 Africa/Kampala",
     "initial_live_verification": "Production activity detail returned HTTP 200 and rendered See all 2 images. The curated activity gallery had two existing assignments; other image tags belong to branding and related cards. Existing hero and assigned images remain unchanged.",
     "note": "Added four visually inspected exact-Victoria-Falls photographs under the Pexels License, which does not require public attribution. Subjects: visitor at a Zimbabwe-side viewpoint, aerial falls and gorge, the bridge from Zambia, and Zambian cliff cascades. Full guide reviewed; no prose or protected behavior changed. Creator, source URL/revision, license, page/capture dates where stated, exact location evidence, alt text and SHA-256 are recorded internally. Global source URL and SHA-256 dedup against current photo library, research records and all 644 public images found no matches. The gallery total is six.",
-    "next_action": "Commit and push only these image files, library metadata/assignment and internal records; verify the production detail and four assets, then send one source-free owner update and record its Gmail receipt."
+    "next_action": "Rotate to another genuinely underfilled guide with exact-subject, no-public-attribution photographs; count rendered gallery defaults and any inline article images first.",
+    "published_commit": "ae6f2719b3aa94157eb7fd3ff0904b4899c1e5bc",
+    "published_deploy": "6ae0b35e1fbf9e467d5df64a",
+    "live_confirmation": {
+      "checked_at": "2026-10-27 17:22 Africa/Kampala",
+      "page_http_status": 200,
+      "gallery_count": 6,
+      "all_new_image_filenames_in_page": true,
+      "asset_http_statuses": [
+        200,
+        200,
+        200,
+        200
+      ],
+      "asset_content_types": [
+        "image/jpeg",
+        "image/jpeg",
+        "image/jpeg",
+        "image/jpeg"
+      ],
+      "asset_content_lengths": [
+        388635,
+        1744457,
+        422414,
+        338386
+      ]
+    },
+    "email_id": "1a17dbeb4012cb5e",
+    "report_sent_at": "2026-10-27 17:23 Africa/Kampala"
   },
   "follow_ups": [],
   "last_pending_check": {
