@@ -1,50 +1,26 @@
 {
   "updated_at": "2026-10-27",
   "current_run": {
-    "id": "amboseli-game-drive-safari-one-no-attribution-photo-enrichment",
-    "page_url": "https://trekafricaguide.com/activities/amboseli-game-drive-safari/",
-    "page_type": "activity",
-    "status": "complete_live_confirmed_partial",
+    "id": "marrakech-and-atlas-attraction-four-no-attribution-photo-enrichment",
+    "page_url": "https://trekafricaguide.com/attractions/marrakech-and-atlas/",
+    "page_type": "attraction",
+    "status": "publication_pending",
     "previous_photo_count": 2,
-    "photo_count": 3,
-    "new_photo_count": 1,
+    "photo_count": 6,
+    "new_photo_count": 4,
     "checked_date": "2026-10-27",
-    "source_ledger": "docs/editorial-research/2026-10-27-amboseli-game-drive-safari-photo-enrichment.md",
+    "source_ledger": "docs/editorial-research/2026-10-27-marrakech-and-atlas-attraction-photo-enrichment.md",
     "files": [
       "src/lib/photo-library.js",
       "public/photo-library.js",
-      "public/images/editorial/amboseli-game-drive-safari/",
-      "docs/editorial-research/2026-10-27-amboseli-game-drive-safari-photo-enrichment.md",
+      "public/images/editorial/marrakech-and-atlas/",
+      "docs/editorial-research/2026-10-27-marrakech-and-atlas-attraction-photo-enrichment.md",
       "docs/image-enrichment-progress.json"
     ],
-    "started_at": "2026-10-27 09:19 Africa/Kampala",
-    "initial_live_verification": "Production activity detail returned HTTP 200. Curated gallery contained two assigned images. The complete page also includes distinct inline park images and accommodation recommendation imagery; the seven unique image URLs are not a gallery count. Existing credits are retained.",
-    "note": "Added one visually reviewed exact-Amboseli zebra photograph under Pexels License, which does not require public attribution. Full guide reviewed and caption aligns to its Kenya Wildlife Service-led wildlife/habitat context without implying any specific game-drive route or sighting. Source version, creator, license, dates, exact-location evidence, alt text and SHA-256 are recorded internally; global URL/hash dedup was clean. A bounded location-specific search produced only this eligible Pexels photo; other Kajiado results did not confirm the park. Specific missing subjects are varied park habitats/wetland and additional wildlife scenes with explicit Amboseli evidence.",
-    "next_action": "Seek further clearly Amboseli-specific, varied no-public-attribution sources only when new exact-location evidence is available; current bounded source pass found one eligible Pexels photograph. Do not substitute generic Kajiado wildlife.",
-    "published_commit": "468d1b5eab9eb088b7ee2c6b0da382feebe5227b",
-    "published_deploy": "6ae044bd2b21feeef3276cde",
-    "live_confirmation": {
-      "checked_at": "2026-10-27 09:32 Africa/Kampala",
-      "page_http_status": 200,
-      "gallery_count": 3,
-      "all_new_image_filenames_in_page": true,
-      "existing_attribution_still_visible": true,
-      "visible_existing_credits": [
-        "Ray in Manila",
-        "Fernando Anuang"
-      ],
-      "asset_http_statuses": [
-        200
-      ],
-      "asset_content_types": [
-        "image/jpeg"
-      ],
-      "asset_content_lengths": [
-        397301
-      ]
-    },
-    "email_id": "1a17c0e85d9eacdf",
-    "report_sent_at": "2026-10-27 09:32 Africa/Kampala"
+    "started_at": "2026-10-27 11:13 Africa/Kampala",
+    "initial_live_verification": "Production detail returned HTTP 200 and rendered See all 2 images. Two existing detail gallery images were assigned. The page also contains logo and related-card images, not extra inline article gallery images. Existing hero and gallery assets remain unchanged.",
+    "note": "Added four visually inspected exact-Marrakesh photographs under the Pexels License, which does not require public attribution. The subjects are a medina souk, medina alley, Koutoubia rooftop cityscape and Jardin Majorelle. Full guide reviewed; no prose or protected site behavior changed. Source URLs, creators, license/version evidence, publication and capture dates, exact-location evidence, alt text and SHA-256 are recorded internally. Global source URL and SHA-256 dedup against the photo library and all local public image files found no matches. The new gallery total is six.",
+    "next_action": "Complete narrow mandatory input and library-mirror checks; commit/push only these task files; confirm production page and all four image assets; send one source-free owner report and save its receipt."
   },
   "follow_ups": [],
   "last_pending_check": {
@@ -1246,6 +1222,52 @@
       },
       "email_id": "1a17bbcd3b7c1418",
       "report_sent_at": "2026-10-27 08:02 Africa/Kampala"
+    },
+    {
+      "id": "amboseli-game-drive-safari-one-no-attribution-photo-enrichment",
+      "page_url": "https://trekafricaguide.com/activities/amboseli-game-drive-safari/",
+      "page_type": "activity",
+      "status": "complete_live_confirmed_partial",
+      "previous_photo_count": 2,
+      "photo_count": 3,
+      "new_photo_count": 1,
+      "checked_date": "2026-10-27",
+      "source_ledger": "docs/editorial-research/2026-10-27-amboseli-game-drive-safari-photo-enrichment.md",
+      "files": [
+        "src/lib/photo-library.js",
+        "public/photo-library.js",
+        "public/images/editorial/amboseli-game-drive-safari/",
+        "docs/editorial-research/2026-10-27-amboseli-game-drive-safari-photo-enrichment.md",
+        "docs/image-enrichment-progress.json"
+      ],
+      "started_at": "2026-10-27 09:19 Africa/Kampala",
+      "initial_live_verification": "Production activity detail returned HTTP 200. Curated gallery contained two assigned images. The complete page also includes distinct inline park images and accommodation recommendation imagery; the seven unique image URLs are not a gallery count. Existing credits are retained.",
+      "note": "Added one visually reviewed exact-Amboseli zebra photograph under Pexels License, which does not require public attribution. Full guide reviewed and caption aligns to its Kenya Wildlife Service-led wildlife/habitat context without implying any specific game-drive route or sighting. Source version, creator, license, dates, exact-location evidence, alt text and SHA-256 are recorded internally; global URL/hash dedup was clean. A bounded location-specific search produced only this eligible Pexels photo; other Kajiado results did not confirm the park. Specific missing subjects are varied park habitats/wetland and additional wildlife scenes with explicit Amboseli evidence.",
+      "next_action": "Seek further clearly Amboseli-specific, varied no-public-attribution sources only when new exact-location evidence is available; current bounded source pass found one eligible Pexels photograph. Do not substitute generic Kajiado wildlife.",
+      "published_commit": "468d1b5eab9eb088b7ee2c6b0da382feebe5227b",
+      "published_deploy": "6ae044bd2b21feeef3276cde",
+      "live_confirmation": {
+        "checked_at": "2026-10-27 09:32 Africa/Kampala",
+        "page_http_status": 200,
+        "gallery_count": 3,
+        "all_new_image_filenames_in_page": true,
+        "existing_attribution_still_visible": true,
+        "visible_existing_credits": [
+          "Ray in Manila",
+          "Fernando Anuang"
+        ],
+        "asset_http_statuses": [
+          200
+        ],
+        "asset_content_types": [
+          "image/jpeg"
+        ],
+        "asset_content_lengths": [
+          397301
+        ]
+      },
+      "email_id": "1a17c0e85d9eacdf",
+      "report_sent_at": "2026-10-27 09:32 Africa/Kampala"
     }
   ]
 }
