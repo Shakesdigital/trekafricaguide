@@ -4,7 +4,7 @@
     "id": "djanet-tassili-attraction-five-no-attribution-photo-enrichment",
     "page_url": "https://trekafricaguide.com/attractions/djanet-and-tassili/",
     "page_type": "attraction",
-    "status": "ready_for_required_checks",
+    "status": "complete_live_confirmed",
     "previous_photo_count": 1,
     "photo_count": 6,
     "new_photo_count": 5,
@@ -20,7 +20,39 @@
     "started_at": "2026-10-27 07:20 Africa/Kampala",
     "initial_live_verification": "Production detail returned HTTP 200. Curated attraction gallery contains one assigned Djanet/Tassili image, reused as its hero. The page also embeds one distinct Commons image, so there are two distinct existing page images; gallery and inline/default counts were considered separately. Existing CC BY-SA image and its visible credit remain unchanged.",
     "note": "Added five visually inspected Pexels License photographs with no public-attribution requirement: two Djanet desert landscapes, a Djanet canyon oasis, Tassili sandstone formations and Djanet prehistoric rock engraving. Full guide reviewed; sources, creators, license evidence, versions, dates where stated, exact-location evidence, alt text and hashes are retained internally. Global source URL and local-image hash dedup were clean. No prose or protected site behavior changed.",
-    "next_action": "Run mandatory photo-library sync and narrow syntax/JSON/mirror checks, commit/push only this run, verify the production detail and all six gallery assets, then send one source-free owner report and save the receipt."
+    "next_action": "Rotate to another underfilled guide with verified exact-subject no-public-attribution photographs; preserve existing required-credit images.",
+    "published_commit": "c216633239d9ea107020a4efe33b4c238f218349",
+    "published_deploy": "6ae02feb223d51f0f4caff25",
+    "live_confirmation": {
+      "checked_at": "2026-10-27 08:01 Africa/Kampala",
+      "page_http_status": 200,
+      "gallery_count": 6,
+      "all_new_image_filenames_in_page": true,
+      "existing_attribution_still_visible": true,
+      "asset_http_statuses": [
+        200,
+        200,
+        200,
+        200,
+        200
+      ],
+      "asset_content_types": [
+        "image/jpeg",
+        "image/jpeg",
+        "image/jpeg",
+        "image/jpeg",
+        "image/jpeg"
+      ],
+      "asset_content_lengths": [
+        452232,
+        600619,
+        1788437,
+        1046597,
+        726574
+      ]
+    },
+    "email_id": "1a17bbcd3b7c1418",
+    "report_sent_at": "2026-10-27 08:02 Africa/Kampala"
   },
   "follow_ups": [],
   "last_pending_check": {

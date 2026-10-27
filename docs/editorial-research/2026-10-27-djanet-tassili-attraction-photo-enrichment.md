@@ -15,3 +15,12 @@ All five Pexels source pages and the official Pexels License were checked on 27 
 ## Publication record
 
 Pending required narrow checks, safe commit/push, production deployment confirmation, live detail and asset checks, and one source-free owner report.
+
+## Publication record
+
+- Content commit `c216633239d9ea107020a4efe33b4c238f218349` was pushed to `main` after rebasing over the concurrent Great Zimbabwe editorial commit `e6927c1906ab9c2f2f91e3c746c6c4be3fa69a87`; no unrelated changes were staged or overwritten.
+- Netlify production deploy `6ae02feb223d51f0f4caff25` is ready for the content commit.
+- At 08:01 Africa/Kampala, the production detail page returned HTTP 200, displayed “See all 6 images,” contained all five new filenames and retained the existing visible Rabahlaouar credit.
+- All five plain JPEG URLs returned HTTP 200 with `image/jpeg`; response lengths match local files (452,232; 600,619; 1,788,437; 1,046,597; 726,574 bytes).
+- A source-free owner report was sent at 08:02 Africa/Kampala; Gmail receipt `1a17bbcd3b7c1418`.
+- Required checks passed: photo-library sync, build-input syntax/JSON/mirror check, gallery count 6 and `git diff --check`. No test suite or general build was run.
