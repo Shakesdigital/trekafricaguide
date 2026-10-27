@@ -1,52 +1,26 @@
 {
   "updated_at": "2026-10-27",
   "current_run": {
-    "id": "tunis-sidi-bou-said-attraction-three-no-attribution-photo-enrichment",
-    "page_url": "https://trekafricaguide.com/attractions/tunis-and-sidi-bou-said/",
+    "id": "djanet-tassili-attraction-five-no-attribution-photo-enrichment",
+    "page_url": "https://trekafricaguide.com/attractions/djanet-and-tassili/",
     "page_type": "attraction",
-    "status": "complete_live_confirmed",
-    "previous_photo_count": 2,
-    "photo_count": 5,
-    "new_photo_count": 3,
+    "status": "ready_for_required_checks",
+    "previous_photo_count": 1,
+    "photo_count": 6,
+    "new_photo_count": 5,
     "checked_date": "2026-10-27",
-    "source_ledger": "docs/editorial-research/2026-10-27-tunis-sidi-bou-said-attraction-photo-enrichment.md",
+    "source_ledger": "docs/editorial-research/2026-10-27-djanet-tassili-attraction-photo-enrichment.md",
     "files": [
       "src/lib/photo-library.js",
       "public/photo-library.js",
-      "public/images/editorial/tunis-sidi-bou-said-attraction/",
-      "docs/editorial-research/2026-10-27-tunis-sidi-bou-said-attraction-photo-enrichment.md",
+      "public/images/editorial/djanet-tassili-attraction/",
+      "docs/editorial-research/2026-10-27-djanet-tassili-attraction-photo-enrichment.md",
       "docs/image-enrichment-progress.json"
     ],
-    "started_at": "2026-10-27 05:23 Africa/Kampala",
-    "initial_live_verification": "Production attraction detail returned HTTP 200 and rendered the two default gallery images; curated gallery assignment also contained two. Existing CC BY-SA photos, hero and visible credits remain unchanged.",
-    "note": "Three visually inspected exact-location Pexels License photographs added for Sidi Bou Said alley, Carthage ruins and Tunis Medina. Attribution is not required by the checked license; existing required-credit photos remain unchanged. Full guide reviewed; source, creator, checked license evidence, date/version, exact-location evidence, transformation, alt text and SHA-256 recorded internally. Global source URL/hash dedup was clean.",
-    "next_action": "Rotate to another underfilled guide with verified exact-subject no-public-attribution photos; preserve existing required-credit photos.",
-    "published_commit": "65857ca8cdd9a36b6cbaa36f957e14d297cf2ae6",
-    "published_deploy": "6ae00b6c81a9cc592a3ab244",
-    "live_confirmation": {
-      "checked_at": "2026-10-27 05:26 Africa/Kampala",
-      "page_http_status": 200,
-      "gallery_count": 5,
-      "all_new_image_filenames_in_page": true,
-      "existing_attribution_still_visible": true,
-      "asset_http_statuses": [
-        200,
-        200,
-        200
-      ],
-      "asset_content_types": [
-        "image/jpeg",
-        "image/jpeg",
-        "image/jpeg"
-      ],
-      "asset_content_lengths": [
-        1092660,
-        1385250,
-        1274614
-      ]
-    },
-    "email_id": "1a17b2e21759f26b",
-    "report_sent_at": "2026-10-27 05:27 Africa/Kampala"
+    "started_at": "2026-10-27 07:20 Africa/Kampala",
+    "initial_live_verification": "Production detail returned HTTP 200. Curated attraction gallery contains one assigned Djanet/Tassili image, reused as its hero. The page also embeds one distinct Commons image, so there are two distinct existing page images; gallery and inline/default counts were considered separately. Existing CC BY-SA image and its visible credit remain unchanged.",
+    "note": "Added five visually inspected Pexels License photographs with no public-attribution requirement: two Djanet desert landscapes, a Djanet canyon oasis, Tassili sandstone formations and Djanet prehistoric rock engraving. Full guide reviewed; sources, creators, license evidence, versions, dates where stated, exact-location evidence, alt text and hashes are retained internally. Global source URL and local-image hash dedup were clean. No prose or protected site behavior changed.",
+    "next_action": "Run mandatory photo-library sync and narrow syntax/JSON/mirror checks, commit/push only this run, verify the production detail and all six gallery assets, then send one source-free owner report and save the receipt."
   },
   "follow_ups": [],
   "last_pending_check": {
@@ -1146,6 +1120,54 @@
       },
       "email_id": "1a17abd7bc6e902b",
       "report_sent_at": "2026-10-27 03:23 Africa/Kampala"
+    },
+    {
+      "id": "tunis-sidi-bou-said-attraction-three-no-attribution-photo-enrichment",
+      "page_url": "https://trekafricaguide.com/attractions/tunis-and-sidi-bou-said/",
+      "page_type": "attraction",
+      "status": "complete_live_confirmed",
+      "previous_photo_count": 2,
+      "photo_count": 5,
+      "new_photo_count": 3,
+      "checked_date": "2026-10-27",
+      "source_ledger": "docs/editorial-research/2026-10-27-tunis-sidi-bou-said-attraction-photo-enrichment.md",
+      "files": [
+        "src/lib/photo-library.js",
+        "public/photo-library.js",
+        "public/images/editorial/tunis-sidi-bou-said-attraction/",
+        "docs/editorial-research/2026-10-27-tunis-sidi-bou-said-attraction-photo-enrichment.md",
+        "docs/image-enrichment-progress.json"
+      ],
+      "started_at": "2026-10-27 05:23 Africa/Kampala",
+      "initial_live_verification": "Production attraction detail returned HTTP 200 and rendered the two default gallery images; curated gallery assignment also contained two. Existing CC BY-SA photos, hero and visible credits remain unchanged.",
+      "note": "Three visually inspected exact-location Pexels License photographs added for Sidi Bou Said alley, Carthage ruins and Tunis Medina. Attribution is not required by the checked license; existing required-credit photos remain unchanged. Full guide reviewed; source, creator, checked license evidence, date/version, exact-location evidence, transformation, alt text and SHA-256 recorded internally. Global source URL/hash dedup was clean.",
+      "next_action": "Rotate to another underfilled guide with verified exact-subject no-public-attribution photos; preserve existing required-credit photos.",
+      "published_commit": "65857ca8cdd9a36b6cbaa36f957e14d297cf2ae6",
+      "published_deploy": "6ae00b6c81a9cc592a3ab244",
+      "live_confirmation": {
+        "checked_at": "2026-10-27 05:26 Africa/Kampala",
+        "page_http_status": 200,
+        "gallery_count": 5,
+        "all_new_image_filenames_in_page": true,
+        "existing_attribution_still_visible": true,
+        "asset_http_statuses": [
+          200,
+          200,
+          200
+        ],
+        "asset_content_types": [
+          "image/jpeg",
+          "image/jpeg",
+          "image/jpeg"
+        ],
+        "asset_content_lengths": [
+          1092660,
+          1385250,
+          1274614
+        ]
+      },
+      "email_id": "1a17b2e21759f26b",
+      "report_sent_at": "2026-10-27 05:27 Africa/Kampala"
     }
   ]
 }
