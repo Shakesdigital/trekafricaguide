@@ -6484,6 +6484,28 @@ export const photoLibrary = {
       "checked_at": "2026-10-27",
       "exact_subject_evidence": "The Pexels page identifies Djanet, Wilaya d'Illizi, Algeria and describes ancient giraffe engravings, with publication and capture dates. Visual review confirms animal figures on a sandstone panel.",
       "reuse_note": "The Pexels License allows website reuse without public attribution. Creator and rights evidence remain internal. Use respectful framing and do not encourage touching, tracing, wetting or otherwise disturbing protected rock art."
+    },
+    "/images/editorial/amboseli-game-drive-safari/amboseli-zebras-kilimanjaro-wladimir-kuhne.jpg": {
+      "slug": "amboseli-zebras-kilimanjaro-wladimir-kuhne",
+      "local_path": "/images/editorial/amboseli-game-drive-safari/amboseli-zebras-kilimanjaro-wladimir-kuhne.jpg",
+      "source_page": "https://www.pexels.com/photo/group-of-zebras-grazing-grass-in-savanna-amboseli-national-park-in-kenya-19171291/",
+      "source_revision": "Pexels photo 19171291, checked 2026-10-27",
+      "creator": "Wladimir Kühne",
+      "license": "Pexels License",
+      "license_url": "https://www.pexels.com/license/",
+      "source_published_at": "2023-11-18",
+      "captured_at": null,
+      "sha256": "f5577f8160d20887774cfbd6640aeecaeb0069257cad979270012f7e1af7289f",
+      "exact_subject": true,
+      "subject": "Zebras graze beneath acacias with Mount Kilimanjaro at Amboseli National Park, Kenya",
+      "alt": "Zebras graze beneath acacia trees with Mount Kilimanjaro behind them at Amboseli.",
+      "property": false,
+      "kind": "photograph",
+      "requires_attribution": false,
+      "changes": "Downloaded at 2,000 pixels wide and stored as JPEG; no other edits.",
+      "checked_at": "2026-10-27",
+      "exact_subject_evidence": "The Pexels photo title identifies Amboseli National Park in Kenya; its description says zebras graze beneath acacias with Mount Kilimanjaro in the background, and lists Kajiado County, Kenya. Visual inspection confirms the zebras, acacia trees and mountain. The source page does not state a capture date.",
+      "reuse_note": "The Pexels License permits website reuse without public attribution. Creator and license evidence remain internal. Wildlife is shown in a natural landscape; this does not imply a particular operator, vehicle, route or guaranteed sighting."
     }
   },
   "listings": {
@@ -7117,7 +7139,8 @@ export const photoLibrary = {
         ],
         "gallery": [
           "/images/stock/starter/amboseli-national-park.jpg",
-          "/images/stock/destinations/amboseli-national-park.jpg"
+          "/images/stock/destinations/amboseli-national-park.jpg",
+          "/images/editorial/amboseli-game-drive-safari/amboseli-zebras-kilimanjaro-wladimir-kuhne.jpg"
         ]
       },
       "atlas-mountains-day-trip": {
