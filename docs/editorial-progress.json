@@ -281,16 +281,22 @@
   "current_deliverable": {
     "id": "great-zimbabwe-guided-monument-visit",
     "category": "activities",
-    "status": "in_progress",
-    "last_action": "Selected a new on-site guided visit under published Great Zimbabwe attraction; official NMMZ, UNESCO and exact hotel operator sources checked 2026-10-27. No exact OTA product or tour-specific dated review verified.",
-    "next_action": "Draft/publish complete guide without booking CTA; inspect main content, commit/push and confirm live deployment. Preserve six-photo follow-up.",
+    "status": "complete",
+    "last_action": "Guide and CMS mirror published at c9f6b05; production page HTTP 200 confirms updated practical copy, canonical attraction link and no unsupported booking CTA.",
+    "next_action": "Rotate to attractions; keep six-photo guide collection and exact OTA discovery as separate follow-ups.",
     "acceptance_criteria": [
       "Complete original guide using the existing published Great Zimbabwe attraction as parent",
       "Use current official operating facts distinctly from UNESCO history; no inferred duration or access claims",
       "Omit booking CTA without exact verified OTA product; preserve six-photo follow-up",
       "Live HTTP 200 confirmation and CMS mirror via production deployment"
     ],
-    "checkpoint": "docs/editorial-research/2026-10-27-great-zimbabwe-guided-visit-checkpoint.md"
+    "checkpoint": "docs/editorial-research/2026-10-27-great-zimbabwe-guided-visit-checkpoint.md",
+    "commit": "c9f6b05f49d54bf06ba10ae4b415863b865f4fca",
+    "live_url": "https://trekafricaguide.com/activities/great-zimbabwe-guided-monument-visit/",
+    "live_verification": "2026-10-27: HTTP 200; heading, operator route, canonical Great Zimbabwe attraction link and practical provider-confirmation advice present; no CTA. No exposed research-process language.",
+    "images": 0,
+    "booking_gap": "No exact active OTA listing verified; no direct CTA. Research gap retained in the evidence ledger.",
+    "report_message_id": "1a17bbe6835f76d2"
   },
   "previous_deliverable_correction": {
     "id": "marrakech-medina-street-food-walk",
@@ -436,9 +442,9 @@
   },
   "latest_run_checkpoint": {
     "date": "2026-10-27",
-    "action": "Started new Great Zimbabwe guided monument visit activity using existing attraction parent; official source and exact operator evidence gathered.",
-    "public_changes": false,
-    "next_action": "Complete guide, publish with zero photos/no booking CTA if no exact OTA match, and confirm production HTML.",
+    "action": "Published new Great Zimbabwe guided monument visit activity under existing canonical attraction, with neutral zero-photo presentation and no unsupported booking CTA.",
+    "public_changes": true,
+    "next_action": "Rotate to attractions; track six licensed activity photos and exact OTA discovery separately.",
     "ledger": "docs/editorial-research/2026-10-27-great-zimbabwe-guided-visit-checkpoint.md"
   },
   "usage_deferral_history": [

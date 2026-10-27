@@ -17,6 +17,12 @@ All source pages checked 27 October 2026. Focused OTA lookup did not establish a
 - No nearby stay is assigned. A tour departure at Great Zimbabwe Hotel does not establish that other accommodation records are nearby.
 - Current photo library has no verified dedicated six-image collection for this new activity. Publish with the neutral zero-photo presentation and track six separately licensed subjects: monument-tour orientation/entrance, Hill Complex path and enclosures, Great Enclosure wall and tower, Valley Ruins, museum exterior or rights-cleared display, and interpretive walk with guide/visitors only with permission.
 
-## Next action
+## Publication receipt — 27 October 2026
 
-Draft and inspect a complete activity record, research ledger, and progress checkpoint; commit/push to `main`, then verify the live detail page and report its actual deployment state.
+- Published commit (content): `c9f6b05f49d54bf06ba10ae4b415863b865f4fca`; CMS editorial mirror published at the same commit.
+- Live page: https://trekafricaguide.com/activities/great-zimbabwe-guided-monument-visit/ — HTTP 200, correct heading, operator route, canonical parent link, practical provider-confirmation advice, no CTA, and no research-process language.
+- Media count: 0; neutral no-photo display. Six-image follow-up remains open for licensed monument-tour orientation/entrance, Hill Complex, Great Enclosure, Valley Ruins, museum, and guided interpretation imagery with any people photographed only with permission.
+- Booking gap remains: no exact current OTA listing verified; do not add a generic search or direct product CTA without verifying the specific tour destination through the shared resolver.
+- Rotation: activity deliverable complete; next new category is attractions.
+
+Owner report sent: Gmail 1a17bbe6835f76d2.
