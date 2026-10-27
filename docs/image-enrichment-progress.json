@@ -1,55 +1,26 @@
 {
   "updated_at": "2026-10-27",
   "current_run": {
-    "id": "marrakech-and-atlas-attraction-four-no-attribution-photo-enrichment",
-    "page_url": "https://trekafricaguide.com/attractions/marrakech-and-atlas/",
-    "page_type": "attraction",
-    "status": "complete_live_confirmed",
+    "id": "maasai-mara-balloon-safari-four-no-attribution-photo-enrichment",
+    "page_url": "https://trekafricaguide.com/activities/maasai-mara-balloon-safari/",
+    "page_type": "activity",
+    "status": "publication_pending",
     "previous_photo_count": 2,
     "photo_count": 6,
     "new_photo_count": 4,
     "checked_date": "2026-10-27",
-    "source_ledger": "docs/editorial-research/2026-10-27-marrakech-and-atlas-attraction-photo-enrichment.md",
+    "source_ledger": "docs/editorial-research/2026-10-27-maasai-mara-balloon-safari-photo-enrichment.md",
     "files": [
       "src/lib/photo-library.js",
       "public/photo-library.js",
-      "public/images/editorial/marrakech-and-atlas/",
-      "docs/editorial-research/2026-10-27-marrakech-and-atlas-attraction-photo-enrichment.md",
+      "public/images/editorial/maasai-mara-balloon-safari/",
+      "docs/editorial-research/2026-10-27-maasai-mara-balloon-safari-photo-enrichment.md",
       "docs/image-enrichment-progress.json"
     ],
-    "started_at": "2026-10-27 11:13 Africa/Kampala",
-    "initial_live_verification": "Production detail returned HTTP 200 and rendered See all 2 images. Two existing detail gallery images were assigned. The page also contains logo and related-card images, not extra inline article gallery images. Existing hero and gallery assets remain unchanged.",
-    "note": "Added four visually inspected exact-Marrakesh photographs under the Pexels License, which does not require public attribution. The subjects are a medina souk, medina alley, Koutoubia rooftop cityscape and Jardin Majorelle. Full guide reviewed; no prose or protected site behavior changed. Source URLs, creators, license/version evidence, publication and capture dates, exact-location evidence, alt text and SHA-256 are recorded internally. Global source URL and SHA-256 dedup against the photo library and all local public image files found no matches. The new gallery total is six.",
-    "next_action": "Rotate to another genuinely underfilled guide with exact-location evidence; preserve existing required-credit images and verify actual rendered gallery counts.",
-    "published_commit": "f07b8d83da957dd93031e41cda883e100c5e7984",
-    "published_deploy": "6ae05f3c900c697e170e3f39",
-    "live_confirmation": {
-      "checked_at": "2026-10-27 11:23 Africa/Kampala",
-      "page_http_status": 200,
-      "gallery_count": 6,
-      "all_new_image_filenames_in_page": true,
-      "existing_attribution_still_visible": true,
-      "asset_http_statuses": [
-        200,
-        200,
-        200,
-        200
-      ],
-      "asset_content_types": [
-        "image/jpeg",
-        "image/jpeg",
-        "image/jpeg",
-        "image/jpeg"
-      ],
-      "asset_content_lengths": [
-        526155,
-        1312439,
-        780446,
-        845605
-      ]
-    },
-    "email_id": "1a17c75f3eae2a59",
-    "report_sent_at": "2026-10-27 11:24 Africa/Kampala"
+    "started_at": "2026-10-27 15:11 Africa/Kampala",
+    "initial_live_verification": "Production activity detail returned HTTP 200 and displayed See all 2 images. Two existing gallery assignments/defaults are the activity’s collection; logo and related-card images are separate page elements. Existing hero and assigned photos remain unchanged.",
+    "note": "Added four visually reviewed, exact-Maasai-Mara balloon photographs under Pexels and Unsplash licenses that do not require public attribution. Subjects vary across aerial sunrise view, balloon over plains, an aerial balloon/wildebeest scene and a dawn lift. Full guide reviewed; no copy or protected site behavior changed. Source URLs, creators, license evidence/version, page and capture dates where stated, exact-location evidence, alt text and SHA-256 are recorded internally. Global source URL and SHA-256 dedup against the library and all local public image files found no matches. Gallery total is six.",
+    "next_action": "Complete narrow required photo-library mirror/build-input syntax and JSON checks, commit and push only task files, verify the production detail and all four new assets, then send one source-free owner report and save its Gmail receipt."
   },
   "follow_ups": [],
   "last_pending_check": {
@@ -1297,6 +1268,57 @@
       },
       "email_id": "1a17c0e85d9eacdf",
       "report_sent_at": "2026-10-27 09:32 Africa/Kampala"
+    },
+    {
+      "id": "marrakech-and-atlas-attraction-four-no-attribution-photo-enrichment",
+      "page_url": "https://trekafricaguide.com/attractions/marrakech-and-atlas/",
+      "page_type": "attraction",
+      "status": "complete_live_confirmed",
+      "previous_photo_count": 2,
+      "photo_count": 6,
+      "new_photo_count": 4,
+      "checked_date": "2026-10-27",
+      "source_ledger": "docs/editorial-research/2026-10-27-marrakech-and-atlas-attraction-photo-enrichment.md",
+      "files": [
+        "src/lib/photo-library.js",
+        "public/photo-library.js",
+        "public/images/editorial/marrakech-and-atlas/",
+        "docs/editorial-research/2026-10-27-marrakech-and-atlas-attraction-photo-enrichment.md",
+        "docs/image-enrichment-progress.json"
+      ],
+      "started_at": "2026-10-27 11:13 Africa/Kampala",
+      "initial_live_verification": "Production detail returned HTTP 200 and rendered See all 2 images. Two existing detail gallery images were assigned. The page also contains logo and related-card images, not extra inline article gallery images. Existing hero and gallery assets remain unchanged.",
+      "note": "Added four visually inspected exact-Marrakesh photographs under the Pexels License, which does not require public attribution. The subjects are a medina souk, medina alley, Koutoubia rooftop cityscape and Jardin Majorelle. Full guide reviewed; no prose or protected site behavior changed. Source URLs, creators, license/version evidence, publication and capture dates, exact-location evidence, alt text and SHA-256 are recorded internally. Global source URL and SHA-256 dedup against the photo library and all local public image files found no matches. The new gallery total is six.",
+      "next_action": "Rotate to another genuinely underfilled guide with exact-location evidence; preserve existing required-credit images and verify actual rendered gallery counts.",
+      "published_commit": "f07b8d83da957dd93031e41cda883e100c5e7984",
+      "published_deploy": "6ae05f3c900c697e170e3f39",
+      "live_confirmation": {
+        "checked_at": "2026-10-27 11:23 Africa/Kampala",
+        "page_http_status": 200,
+        "gallery_count": 6,
+        "all_new_image_filenames_in_page": true,
+        "existing_attribution_still_visible": true,
+        "asset_http_statuses": [
+          200,
+          200,
+          200,
+          200
+        ],
+        "asset_content_types": [
+          "image/jpeg",
+          "image/jpeg",
+          "image/jpeg",
+          "image/jpeg"
+        ],
+        "asset_content_lengths": [
+          526155,
+          1312439,
+          780446,
+          845605
+        ]
+      },
+      "email_id": "1a17c75f3eae2a59",
+      "report_sent_at": "2026-10-27 11:24 Africa/Kampala"
     }
   ]
 }
