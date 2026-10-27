@@ -12,4 +12,4 @@ Each source page and the official Pexels License were checked on 27 October 2026
 
 ## Publication record
 
-Pending required narrow input and mirror checks, commit/push, deployment, live page/assets confirmation and a source-free owner report.
+Repository input syntax, JSON and public photo-library mirror checks passed; `git diff --check` passed. Commit `61117ae` was pushed to `main`. Netlify production deployment `6adfee9dd664a1cf1591e595` is ready for that commit. On 27 October 2026 at 03:23 Africa/Kampala, the production guide returned HTTP 200 and showed five images plus both existing CC BY-SA credit notices. Each new JPEG returned HTTP 200 with `image/jpeg`, and all three filenames appeared in the page. A source-free owner email was sent; Gmail receipt/message ID is `1a17abd7bc6e902b`.

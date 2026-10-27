@@ -4,7 +4,7 @@
     "id": "sal-island-attraction-three-no-attribution-photo-enrichment",
     "page_url": "https://trekafricaguide.com/attractions/sal-island/",
     "page_type": "attraction",
-    "status": "ready_for_required_checks",
+    "status": "complete_live_confirmed",
     "previous_photo_count": 2,
     "photo_count": 5,
     "new_photo_count": 3,
@@ -19,8 +19,34 @@
     ],
     "started_at": "2026-10-27 03:20 Africa/Kampala",
     "initial_live_verification": "Production attraction detail returned HTTP 200 and displayed See all 2 images. The visible existing CC BY-SA credits, hero assignment and two gallery assignments were recorded and will remain unchanged.",
-    "note": "Added three visually inspected Pexels-license photographs with no public-attribution requirement, representing Santa Maria beach, Pedra Lume harbor and a Santa Maria building silhouette. Existing two required-credit images, visible credits and hero remain unchanged. Full guide reviewed; captions avoid claiming current swimming conditions or identifying the building as a venue. Source, creator, license evidence, dates where stated, exact-subject evidence, transformation and local SHA-256 are retained internally. Source URL and hash dedup against all local public images found no matches.",
-    "next_action": "Run mandatory photo-library sync and narrow build-input/mirror checks; commit/push only task-owned files, confirm production deployment and all five image URLs, then send a source-free report and record its Gmail receipt."
+    "note": "Added three visually inspected Pexels-license photographs with no public-attribution requirement, representing Santa Maria beach, Pedra Lume harbor and a Santa Maria building silhouette. Existing two required-credit images, visible credits and hero remain unchanged. Full guide reviewed; captions avoid claiming current swimming conditions or identifying the building as a venue. Source, creator, license evidence, dates where stated, exact-subject evidence, transformation and local SHA-256 are retained internally. Source URL and hash dedup against all local public images found no matches. Narrow syntax/JSON/mirror checks and git diff --check passed. Commit 61117ae is production-published; live guide returned HTTP 200 with five images and both original credit notices, plus all three new filenames. Each new JPEG returned HTTP 200 image/jpeg with matching content length. Source-free owner email sent; Gmail receipt 1a17abd7bc6e902b.",
+    "next_action": "Run mandatory photo-library sync and narrow build-input/mirror checks; commit/push only task-owned files, confirm production deployment and all five image URLs, then send a source-free report and record its Gmail receipt.",
+    "published_commit": "61117ae5844a8e1e058b1c4354070095a8134234",
+    "published_deploy": "6adfee9dd664a1cf1591e595",
+    "live_confirmation": {
+      "checked_at": "2026-10-27 03:23 Africa/Kampala",
+      "page_http_status": 200,
+      "gallery_count": 5,
+      "all_new_image_filenames_in_page": true,
+      "existing_attribution_still_visible": true,
+      "asset_http_statuses": [
+        200,
+        200,
+        200
+      ],
+      "asset_content_types": [
+        "image/jpeg",
+        "image/jpeg",
+        "image/jpeg"
+      ],
+      "asset_content_lengths": [
+        549316,
+        581782,
+        207403
+      ]
+    },
+    "email_id": "1a17abd7bc6e902b",
+    "report_sent_at": "2026-10-27 03:23 Africa/Kampala"
   },
   "follow_ups": [],
   "last_pending_check": {
