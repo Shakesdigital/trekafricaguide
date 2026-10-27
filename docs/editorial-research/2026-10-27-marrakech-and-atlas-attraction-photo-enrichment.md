@@ -17,4 +17,4 @@ The Pexels CDN supplied each image at 1,800 pixels wide with aspect ratio preser
 
 ## Publication record
 
-Narrow photo-library mirror and build-input syntax/JSON checks, plus `git diff --check`, are required before publication. Production detail and all four new image URLs must be checked after the commit deploys. The source-free owner email and Gmail receipt will be recorded in `docs/image-enrichment-progress.json` after live confirmation.
+The required photo-library mirror and narrow build-input syntax/JSON checks passed, as did `git diff --check`. Content commit `f07b8d83da957dd93031e41cda883e100c5e7984` was pushed to `main`. Netlify production deploy `6ae05f3c900c697e170e3f39` is ready for that commit. On 27 October 2026 at 11:23 Africa/Kampala, the live attraction detail returned HTTP 200 and displayed “See all 6 images”; all four new filenames appeared in the gallery. The four plain image assets returned HTTP 200 with `image/jpeg` and these content lengths, in table order: 526155, 1312439, 780446 and 845605 bytes. A source-free owner email was sent at 11:24 Africa/Kampala; Gmail receipt/message ID `1a17c75f3eae2a59`.
