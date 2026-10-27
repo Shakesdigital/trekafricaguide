@@ -1,0 +1,15 @@
+# Sal Island attraction photo enrichment — 27 October 2026
+
+Guide: https://trekafricaguide.com/attractions/sal-island/. The live article and curated assignment both contained two gallery images before this update; the existing images use CC BY-SA and their gallery, hero and visible credits remain unchanged. The full guide covers Santa Maria’s beach and town setting, island outings, water sports and the need to check local sea conditions. Three exact-location photographs were added alongside the two current images, bringing the collection to five. No guide copy or recommendation was changed.
+
+Each source page and the official Pexels License were checked on 27 October 2026. The pages mark the images free to use, and the license permits reuse without public attribution. Creator, source version, license, dates where stated, exact-subject evidence and local SHA-256 are recorded in the curated image library. All three files were visually inspected. JPEGs were resized to 1,800 pixels wide with aspect ratio preserved using Windows GDI+; PNG originals were converted to JPEG. No other edits were made. Source URL and SHA-256 dedup was checked against all image records and local public assets; no matches were found.
+
+| Local file | Pexels source page / version | Creator; license | Page date / capture date | SHA-256 | Alt text and evidence |
+|---|---|---|---|---|---|
+| `santa-maria-beach-rob-mowe.jpg` | https://www.pexels.com/photo/cloudy-day-27833070/; photo 27833070, checked 2026-10-27 | Rob Mowe; Pexels License | 2024-08-17 / not stated | `cd0b5772d106a9d7410646924f5cb532137daa9abad8421be35bad3de7f1da0b` | “A thatched beach umbrella stands on the sand in Santa Maria, Sal.” The page names Santa Maria, Sal, Cabo Verde and describes a beach; visual review confirms an umbrella by the sea. It does not imply safe swimming or current conditions. |
+| `pedra-lume-fishing-boats-rob-mowe.jpg` | https://www.pexels.com/photo/colorful-fishing-boats-in-pedra-lume-cabo-verde-28486941/; photo 28486941, checked 2026-10-27 | Rob Mowe; Pexels License | not stated / not stated | `7e78973dd9137b00f13e15ad47c224f43df38122efd965c2a7e25a096a0d258e` | “Fishing boats are moored in Pedra Lume harbor on Sal Island.” The page title, description and location tags identify Pedra Lume harbor, Sal; visual review shows small colorful boats in the sheltered harbor. |
+| `santa-maria-building-at-dusk-rob-mowe.jpg` | https://www.pexels.com/photo/building-silhouette-at-sunset-21049190/; photo 21049190, checked 2026-10-27 | Rob Mowe; Pexels License | 2024-04-06 / not stated | `c5d98a5c6295fb56341b6f0d70c6747d1a54e7378d6e333d5dff6a33d4134d4d` | “A building in Santa Maria is silhouetted against the setting sun.” The page names Santa Maria, Sal, Cabo Verde; visual review confirms the silhouette. The building is not identified as a particular venue. |
+
+## Publication record
+
+Pending required narrow input and mirror checks, commit/push, deployment, live page/assets confirmation and a source-free owner report.
