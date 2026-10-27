@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-22",
+  "updated_at": "2026-10-27",
   "timezone": "Africa/Kampala",
   "next_scheduled_start": "2026-10-17T19:30:00+03:00",
   "cadence_hours": 3,
@@ -272,26 +272,25 @@
     "email_id": "1a143a69416cf3d1"
   },
   "rotation": {
-    "last_completed_category": "travel_insights",
-    "next_category": "activities",
-    "next_deliverable": "One complete activity guide or substantial activity improvement with exact booking destination when verified.",
+    "last_completed_category": "activities",
+    "next_category": "attractions",
+    "next_deliverable": "One new attraction guide or substantial sourced improvement; carry the Great Zimbabwe activity photo and OTA follow-ups separately.",
     "rule": "Finish the individual deliverable and report its live state, then rotate. Track exact-property photo gaps separately.",
     "override_reason": null
   },
   "current_deliverable": {
-    "id": "victoria-falls-livingstone-planning",
-    "category": "travel_insights",
-    "status": "complete",
-    "last_action": "Live HTTP 200 confirms new section, Livingstone and Jollyboys links; CMS source 557ba73 includes section. Owner email sent.",
-    "next_action": "Rotate to one complete activity deliverable.",
+    "id": "great-zimbabwe-guided-monument-visit",
+    "category": "activities",
+    "status": "in_progress",
+    "last_action": "Selected a new on-site guided visit under published Great Zimbabwe attraction; official NMMZ, UNESCO and exact hotel operator sources checked 2026-10-27. No exact OTA product or tour-specific dated review verified.",
+    "next_action": "Draft/publish complete guide without booking CTA; inspect main content, commit/push and confirm live deployment. Preserve six-photo follow-up.",
     "acceptance_criteria": [
-      "Useful Zambia town-base choice and suggested town day",
-      "Internal Livingstone and Jollyboys links",
-      "Preserve six licensed images and original entry-check dates",
-      "Live and CMS confirmation and owner report"
+      "Complete original guide using the existing published Great Zimbabwe attraction as parent",
+      "Use current official operating facts distinctly from UNESCO history; no inferred duration or access claims",
+      "Omit booking CTA without exact verified OTA product; preserve six-photo follow-up",
+      "Live HTTP 200 confirmation and CMS mirror via production deployment"
     ],
-    "commit": "557ba73f1c353da0539cd88d8f764b1da1fec8a8",
-    "report_message_id": "1a1767f5822b840a"
+    "checkpoint": "docs/editorial-research/2026-10-27-great-zimbabwe-guided-visit-checkpoint.md"
   },
   "previous_deliverable_correction": {
     "id": "marrakech-medina-street-food-walk",
@@ -437,10 +436,10 @@
   },
   "latest_run_checkpoint": {
     "date": "2026-10-27",
-    "action": "Bounded recheck of Giza 851104 and Cape Coast/Kakum 834942: generic shells again; retain holds.",
+    "action": "Started new Great Zimbabwe guided monument visit activity using existing attraction parent; official source and exact operator evidence gathered.",
     "public_changes": false,
-    "next_action": "Select new activity with accessible official evidence; do not repeat unchanged holds next run.",
-    "ledger": "docs/editorial-research/2026-10-27-activity-booking-recheck.md"
+    "next_action": "Complete guide, publish with zero photos/no booking CTA if no exact OTA match, and confirm production HTML.",
+    "ledger": "docs/editorial-research/2026-10-27-great-zimbabwe-guided-visit-checkpoint.md"
   },
   "usage_deferral_history": [
     {

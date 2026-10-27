@@ -3311,6 +3311,60 @@
         "Choose a walking pace and route suited to current conditions"
       ],
       "meta_description": "A guided cross-border visit compares Zimbabwe and Zambia viewpoints; plan for separate park entries, passport and immigration checks, a long exposed walk and"
+    },
+    {
+      "slug": "great-zimbabwe-guided-monument-visit",
+      "attraction_id": "repo:attractions:great-zimbabwe-national-monument",
+      "name": "Great Zimbabwe guided monument visit",
+      "location_name": "Great Zimbabwe National Monument, Masvingo Province, Zimbabwe",
+      "listing_summary": "Walk the Hill Complex, Great Enclosure and Valley Ruins with an on-site guide. Compare the monument authority’s guide options with Great Zimbabwe Hotel’s listed 2–3 hour tour, and confirm meeting point, admissions, current hours and route before setting out.",
+      "detail_intro": "A guided visit can connect Great Zimbabwe’s separated stone-built areas into a story of settlement, architecture and trade. Choose the guide arrangement and walking plan first: the monument is an extensive archaeological landscape, and the hotel’s advertised tour is one specific product rather than proof that every visit follows the same route.",
+      "full_description": "<p>Great Zimbabwe is best understood by moving between its distinct areas rather than viewing one enclosure in isolation. The National Museums and Monuments of Zimbabwe (NMMZ), which manages the monument, identifies the Hill Complex, Great Enclosure, Valley Ruins and surrounding settlement remains. A guide can help explain how dry-stone construction, settlement patterns and archaeological finds fit together. The monument’s official page also identifies guided tours and a site museum with objects recovered here, including the Zimbabwe birds. Read our <a href=\"/attractions/great-zimbabwe-national-monument\">Great Zimbabwe National Monument guide</a> for the broader visit and access context.</p><h3>Choose the guide arrangement</h3><p>NMMZ lists guided tours among the activities at the site and says tour guides are provided through its Masvingo regional office. Separately, Great Zimbabwe Hotel advertises a Monument Tour that covers the Hill Complex, Great Enclosure and Valley Ruins, with an optional museum visit. The hotel gives an approximate duration of two to three hours and says departures leave from its lobby. Treat those details as the hotel’s current advertised product, not a promise about an NMMZ guide or every tour. Before travelling, contact the provider you intend to use to confirm the guide, date, meeting point, language, route and whether museum entry or monument admission is included.</p><p>A useful sequence is to begin with the Hill Complex if your guide confirms it is open and the climb suits your group, then continue to the Great Enclosure and the more dispersed Valley Ruins. Allow time for the guide’s interpretation and pauses; if you have less time, ask which areas can be covered without rushing. The museum can add archaeological context, but confirm its current opening and whether it fits within the tour slot. These are planning suggestions: the operator or NMMZ may adjust the route for access, conservation work or conditions on the day.</p><h3>Getting there and making a day of it</h3><p>NMMZ places Great Zimbabwe about 27 kilometres southeast of Masvingo. Arrange your road transfer to the monument separately unless your chosen operator explicitly confirms transport. The hotel tour’s stated lobby departure does not establish pickup from Masvingo town or another hotel. Confirm where you must arrive, how you will return, the expected finish time and whether the driver waits. Do not plan a tight onward connection around an approximate tour duration.</p><p>The NMMZ homepage currently lists opening hours of 08:00–16:30 daily (checked 27 October 2026). Verify those hours, last entry, admission, payment methods and any area closures directly with NMMZ before travel. The full site is an outdoor walk across separate areas, including a climb at the Hill Complex. Wear secure footwear, carry water and sun protection, and ask the guide which sections are appropriate for your party. If steep or uneven walking is a concern, discuss a modified route before starting rather than assuming the tour is step-free.</p><h3>History, season and respectful visiting</h3><p>UNESCO describes the monument as a major Shona-built centre dating mainly from the 11th to 15th centuries and notes its continuing spiritual significance to contemporary communities. A guided walk is an opportunity to learn about a living heritage place as well as its archaeological record. Follow staff directions, keep to authorized paths and do not climb on, move or remove stones. Ask before photographing people or any activity taking place at the site.</p><p>Because the experience depends on outdoor walking and current site operations, check the forecast and reconfirm the tour and opening arrangements for your date. The official sources reviewed do not establish a season when every route or viewpoint is reliably available. If rain, heat or conservation work changes the plan, follow the guide’s instructions and treat the revised route as part of the visit rather than seeking closed areas.</p><h3>Booking and feedback</h3><p>Great Zimbabwe Hotel publishes its tour on its own website, but a focused search did not verify an exact active OTA listing for this product, so this guide has no third-party booking button. Contact the chosen provider through its official channel and get the tour date, meeting point, admissions, transport, cancellation terms and duration confirmed in writing. No attributable, dated review of this specific tour was verified for this guide; we therefore do not summarize traveler feedback or imply a consensus.</p><p>Pack a small day bag with water, sun protection, comfortable walking shoes, any personal medication and a light layer suited to the forecast. Bring a camera only if you can use it without stepping off the route or disturbing other visitors. Give the guide time for questions and interpretation; the value of the walk is in understanding the place, not checking off every wall as quickly as possible.</p>",
+      "highlights": [
+        "Connect the Hill Complex, Great Enclosure and Valley Ruins with a guide",
+        "Add the site museum if its current opening and tour timing allow",
+        "Plan a separate Masvingo transfer and confirm the exact meeting point",
+        "Learn about Great Zimbabwe as both an archaeological site and living heritage place"
+      ],
+      "best_time": "<p>Check the forecast and confirm the provider’s schedule, NMMZ opening hours, last entry and current access to each area for your date. NMMZ currently lists daily hours of 08:00–16:30 (checked 27 October 2026), while the hotel separately advertises multiple tour departures; neither source guarantees a particular route or start time on a future date. No month guarantees comfortable walking or unrestricted access.</p>",
+      "practical_info": "<p>Great Zimbabwe Hotel advertises a two-to-three-hour Monument Tour from its lobby; NMMZ also lists guided tours at the monument. These are separate arrangements. Confirm the provider, guide, date, language, meeting point, transport, route, admission and museum inclusion, payment and cancellation terms directly. NMMZ places the monument 27 km southeast of Masvingo and currently lists opening hours as 08:00–16:30 daily; reconfirm current details and last entry. Expect outdoor walking between areas and a climb at the Hill Complex. Ask about route suitability or alternatives before beginning. Bring water, sun protection, secure footwear and personal medication. Stay on authorized paths and follow conservation and photography rules.</p>",
+      "hero_image_url": null,
+      "hero_image_alt": "",
+      "gallery": [],
+      "research_sources": [
+        {
+          "label": "National Museums and Monuments of Zimbabwe: Southern Region / Masvingo, site layout, guided tours, museum and current regional access information; checked 27 October 2026",
+          "url": "https://www.nmmz.co.zw/southern-region-masvingo/",
+          "checked_at": "2026-10-27"
+        },
+        {
+          "label": "National Museums and Monuments of Zimbabwe: homepage and currently listed daily opening hours; reconfirm before travel",
+          "url": "https://www.nmmz.co.zw/",
+          "checked_at": "2026-10-27"
+        },
+        {
+          "label": "Great Zimbabwe Hotel: exact on-site Monument Tour product, advertised route, approximate duration and lobby departure; checked 27 October 2026",
+          "url": "https://greatzimbabwehotels.com/great-zimbabwe-tour/",
+          "checked_at": "2026-10-27"
+        },
+        {
+          "label": "UNESCO World Heritage Centre: Great Zimbabwe history and heritage significance (historical context, not current visitor logistics); checked 27 October 2026",
+          "url": "https://whc.unesco.org/en/list/364/",
+          "checked_at": "2026-10-27"
+        },
+        {
+          "label": "OTA search: no exact current third-party booking listing verified for this specific guided monument tour; no booking CTA added",
+          "url": "https://www.getyourguide.com/s/?q=Great%20Zimbabwe%20guided%20monument%20tour",
+          "checked_at": "2026-10-27"
+        }
+      ],
+      "last_researched": "2026-10-27",
+      "source_url": "https://greatzimbabwehotels.com/great-zimbabwe-tour/",
+      "featured": false,
+      "sort_order": 15,
+      "status": "published",
+      "published_at": "2026-10-27",
+      "meta_description": "Plan a guided Great Zimbabwe visit across the Hill Complex, Great Enclosure and Valley Ruins, with current access, walking and meeting-point checks."
     }
   ],
   "travel_articles": [
