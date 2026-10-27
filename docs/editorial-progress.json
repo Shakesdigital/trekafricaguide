@@ -272,31 +272,32 @@
     "email_id": "1a143a69416cf3d1"
   },
   "rotation": {
-    "last_completed_category": "activities",
-    "next_category": "attractions",
-    "next_deliverable": "One new attraction guide or substantial sourced improvement; carry the Great Zimbabwe activity photo and OTA follow-ups separately.",
+    "last_completed_category": "attractions",
+    "next_category": "accommodations",
+    "next_deliverable": "One complete accommodation guide or exact-property photo collection; keep the Sal Island sixth-photo follow-up separate.",
     "rule": "Finish the individual deliverable and report its live state, then rotate. Track exact-property photo gaps separately.",
     "override_reason": null
   },
   "current_deliverable": {
-    "id": "great-zimbabwe-guided-monument-visit",
-    "category": "activities",
-    "status": "complete",
-    "last_action": "Guide and CMS mirror published at c9f6b05; production page HTTP 200 confirms updated practical copy, canonical attraction link and no unsupported booking CTA.",
-    "next_action": "Rotate to attractions; keep six-photo guide collection and exact OTA discovery as separate follow-ups.",
+    "id": "sal-island-attraction-refresh",
+    "category": "attractions",
+    "status": "in_progress",
+    "last_action": "Expanded the existing Sal Island guide with primary-source island context, transport, seasons, a practical route and attributed 2025 visitor perspectives. The original 5-photo collection and canonical relationships are preserved.",
+    "next_action": "Commit and push; confirm production HTML and CMS mirror, send owner report, then record receipt and rotate to accommodations. One licensed sixth-photo subject remains with image follow-up.",
     "acceptance_criteria": [
-      "Complete original guide using the existing published Great Zimbabwe attraction as parent",
-      "Use current official operating facts distinctly from UNESCO history; no inferred duration or access claims",
-      "Omit booking CTA without exact verified OTA product; preserve six-photo follow-up",
-      "Live HTTP 200 confirmation and CMS mirror via production deployment"
+      "Complete a sourced full-guide improvement while retaining Sal Island attraction ID 64 and country/region relationships",
+      "Use current official tourism and cultural-heritage sources; distinguish country-wide season guidance from Sal-specific conditions",
+      "Attribute traveler feedback with dates and preserve the five existing licensed photos without adding an unverified image",
+      "Confirm production HTTP content and CMS mirror, then save owner email receipt"
     ],
-    "checkpoint": "docs/editorial-research/2026-10-27-great-zimbabwe-guided-visit-checkpoint.md",
-    "commit": "c9f6b05f49d54bf06ba10ae4b415863b865f4fca",
-    "live_url": "https://trekafricaguide.com/activities/great-zimbabwe-guided-monument-visit/",
-    "live_verification": "2026-10-27: HTTP 200; heading, operator route, canonical Great Zimbabwe attraction link and practical provider-confirmation advice present; no CTA. No exposed research-process language.",
-    "images": 0,
-    "booking_gap": "No exact active OTA listing verified; no direct CTA. Research gap retained in the evidence ledger.",
-    "report_message_id": "1a17bbe6835f76d2"
+    "checkpoint": "docs/editorial-research/2026-10-27-sal-island-attraction-refresh.md",
+    "commit": null,
+    "live_url": "https://trekafricaguide.com/attractions/sal-island/",
+    "live_verification": "Pending deployment and HTTP confirmation.",
+    "images": 5,
+    "photo_followup": "One additional distinct, licensed Sal Island photograph remains open in docs/editorial-research/2026-10-27-sal-island-attraction-photo-enrichment.md.",
+    "booking_gap": "No attraction-level booking CTA added; excursion routes and current operating details should be confirmed with the chosen provider.",
+    "report_message_id": null
   },
   "previous_deliverable_correction": {
     "id": "marrakech-medina-street-food-walk",
@@ -442,10 +443,10 @@
   },
   "latest_run_checkpoint": {
     "date": "2026-10-27",
-    "action": "Published new Great Zimbabwe guided monument visit activity under existing canonical attraction, with neutral zero-photo presentation and no unsupported booking CTA.",
-    "public_changes": true,
-    "next_action": "Rotate to attractions; track six licensed activity photos and exact OTA discovery separately.",
-    "ledger": "docs/editorial-research/2026-10-27-great-zimbabwe-guided-visit-checkpoint.md"
+    "action": "Refreshing the existing Sal Island attraction with official island and heritage sources, detailed access/season planning, and dated traveler perspectives; publication proof and owner email pending.",
+    "public_changes": false,
+    "next_action": "Confirm deployment and CMS mirror, report to owner, retain one-photo follow-up, then rotate to accommodations.",
+    "ledger": "docs/editorial-research/2026-10-27-sal-island-attraction-refresh.md"
   },
   "usage_deferral_history": [
     {
