@@ -19,4 +19,10 @@ Traveler feedback is attributed to dated Tripadvisor reviews of Buracona: the Ju
 
 ## Publication receipt
 
-Pending content commit, production deployment, HTTP verification, CMS mirror query and owner email receipt.
+- Commit `f9647cbf775e7c46883a20195fc4e8cd658fcda9` pushed to `main`.
+- Netlify production deploy `6ae0592e02af74c9e1774ef8` reached `ready` for that exact commit on 27 October 2026.
+- Production guide https://trekafricaguide.com/attractions/sal-island/ returned HTTP 200 and contains the new Pedra de Lume section, suggested itinerary and dated traveler-feedback material.
+- Supabase `public.editorial_documents` confirms the published Sal Island attraction (ID 64) with country ID 42, region ID 15 and matching `source_commit`.
+- Existing five-image collection remains; no new image or license claim was added. The separate image follow-up records the sixth-image gap.
+- Owner report sent to the configured recipient on 27 October 2026 at 10:58 Africa/Kampala. Gmail message ID `1a17c5dd3c8daa8f`.
+- Next editorial category: accommodations.

@@ -281,9 +281,9 @@
   "current_deliverable": {
     "id": "sal-island-attraction-refresh",
     "category": "attractions",
-    "status": "in_progress",
-    "last_action": "Expanded the existing Sal Island guide with primary-source island context, transport, seasons, a practical route and attributed 2025 visitor perspectives. The original 5-photo collection and canonical relationships are preserved.",
-    "next_action": "Commit and push; confirm production HTML and CMS mirror, send owner report, then record receipt and rotate to accommodations. One licensed sixth-photo subject remains with image follow-up.",
+    "status": "complete",
+    "last_action": "Sal Island attraction guide published and CMS mirrored at f9647cb; production HTTP 200 confirms the new Pedra de Lume, practical itinerary and traveler-feedback copy. Owner report sent.",
+    "next_action": "Rotate to accommodations. Keep the one-photo Sal Island follow-up separate.",
     "acceptance_criteria": [
       "Complete a sourced full-guide improvement while retaining Sal Island attraction ID 64 and country/region relationships",
       "Use current official tourism and cultural-heritage sources; distinguish country-wide season guidance from Sal-specific conditions",
@@ -291,13 +291,13 @@
       "Confirm production HTTP content and CMS mirror, then save owner email receipt"
     ],
     "checkpoint": "docs/editorial-research/2026-10-27-sal-island-attraction-refresh.md",
-    "commit": null,
+    "commit": "f9647cbf775e7c46883a20195fc4e8cd658fcda9",
     "live_url": "https://trekafricaguide.com/attractions/sal-island/",
-    "live_verification": "Pending deployment and HTTP confirmation.",
+    "live_verification": "2026-10-27: Netlify production deployment 6ae0592e02af74c9e1774ef8 ready for f9647cbf775e7c46883a20195fc4e8cd658fcda9. Production URL HTTP 200 with revised description, Pedra de Lume, suggested route and attributed feedback. CMS mirror confirms published attraction ID 64, country ID 42, region ID 15 and matching source_commit.",
     "images": 5,
     "photo_followup": "One additional distinct, licensed Sal Island photograph remains open in docs/editorial-research/2026-10-27-sal-island-attraction-photo-enrichment.md.",
     "booking_gap": "No attraction-level booking CTA added; excursion routes and current operating details should be confirmed with the chosen provider.",
-    "report_message_id": null
+    "report_message_id": "1a17c5dd3c8daa8f"
   },
   "previous_deliverable_correction": {
     "id": "marrakech-medina-street-food-walk",
@@ -443,9 +443,9 @@
   },
   "latest_run_checkpoint": {
     "date": "2026-10-27",
-    "action": "Refreshing the existing Sal Island attraction with official island and heritage sources, detailed access/season planning, and dated traveler perspectives; publication proof and owner email pending.",
-    "public_changes": false,
-    "next_action": "Confirm deployment and CMS mirror, report to owner, retain one-photo follow-up, then rotate to accommodations.",
+    "action": "Published Sal Island attraction guide refresh using official tourism/heritage sources and dated traveler perspectives; HTTP 200, CMS source_commit and owner email receipt confirmed.",
+    "public_changes": true,
+    "next_action": "Rotate to accommodations; retain one licensed Sal Island photo follow-up.",
     "ledger": "docs/editorial-research/2026-10-27-sal-island-attraction-refresh.md"
   },
   "usage_deferral_history": [
