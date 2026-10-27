@@ -17,3 +17,12 @@ The bounded search found other Kajiado County wildlife photographs, but their so
 ## Publication record
 
 Pending the required narrow checks, commit/push, production deploy confirmation, live detail and asset verification, and one source-free owner report.
+
+## Publication record
+
+- Commit `468d1b5eab9eb088b7ee2c6b0da382feebe5227b` was pushed to `main`.
+- Netlify production deploy `6ae044bd2b21feeef3276cde` is ready for this commit.
+- At 09:32 Africa/Kampala, the production activity detail returned HTTP 200, displayed “See all 3 images,” included the new image file and still showed the existing credits for Ray in Manila and Fernando Anuang.
+- The new plain JPEG returned HTTP 200 with `image/jpeg` and 397,301 bytes, matching the local asset.
+- A source-free owner report was sent at 09:32 Africa/Kampala; Gmail receipt `1a17c0e85d9eacdf`.
+- Required checks passed: photo-library sync, build-input syntax/JSON/mirror check, gallery count 3 and `git diff --check`. No test suite or general build was run.
