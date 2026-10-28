@@ -175,3 +175,7 @@ Publication must show readable paragraphs and working labeled links, never liter
 ## Photo enrichment — 28 October 2026
 
 Added four verified, no-public-attribution images to the Lalibela attraction gallery, raising the rendered collection from two to six. Production deployment is ready and the six-photo gallery plus all four image assets were confirmed live. Existing required image credits, the guide’s Amhara travel warning, and its historical/contextual framing remain intact. Full source and verification record: [Lalibela image enrichment](editorial-research/2026-10-28-lalibela-attraction-photo-enrichment.md).
+
+## Photo enrichment — 28 October 2026 (Sahara Dunes)
+
+Added four verified Merzouga/Erg Chebbi photographs requiring no public attribution to the Sahara Dunes attraction gallery, raising it from two to six. Production deploy `6ae1beddb5fdb2bf6c70e357` is ready for commit `95266d0`; the live page returns HTTP 200, shows “See all 6 images,” includes all four additions, and all four JPEG assets return HTTP 200. Existing CC BY-SA photo credits and the guide's distinction between Merzouga/Erg Chebbi and Erg Chigaga remain intact. Full provenance and verification: [Sahara Dunes image enrichment](editorial-research/2026-10-28-sahara-dunes-attraction-photo-enrichment.md).

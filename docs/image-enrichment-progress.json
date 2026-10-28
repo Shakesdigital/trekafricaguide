@@ -4,7 +4,7 @@
     "id": "sahara-dunes-attraction-four-no-attribution-photo-enrichment",
     "page_url": "https://trekafricaguide.com/attractions/sahara-dunes/",
     "page_type": "attraction",
-    "status": "pending_publish",
+    "status": "complete_live_confirmed",
     "previous_photo_count": 2,
     "photo_count": 6,
     "new_photo_count": 4,
@@ -20,7 +20,40 @@
       "docs/editorial-research/2026-10-28-sahara-dunes-attraction-photo-enrichment.md",
       "docs/image-enrichment-progress.json"
     ],
-    "next_action": "Push own changes while preserving concurrent editorial; confirm production deployment, six-photo gallery and four image assets. Send one source-free report and record receipt."
+    "next_action": "Rotate to another viable underfilled published guide; preserve existing required credits and exact-location/no-public-attribution standards.",
+    "published_commit": "95266d0e25905a9596afd1d262a8fa5634c28414",
+    "pushed_at": "2026-10-28 12:22 Africa/Kampala",
+    "netlify_deploy": "6ae1beddb5fdb2bf6c70e357",
+    "live_verification": {
+      "checked_at": "2026-10-28 12:24 Africa/Kampala",
+      "deploy_state": "ready",
+      "deployed_commit": "95266d0e25905a9596afd1d262a8fa5634c28414",
+      "page_http_status": 200,
+      "gallery_count": 6,
+      "all_new_image_filenames_in_full_gallery": true,
+      "see_all_text": "See all 6 images",
+      "existing_attribution_still_visible": true,
+      "asset_http_statuses": [
+        200,
+        200,
+        200,
+        200
+      ],
+      "asset_content_types": [
+        "image/jpeg",
+        "image/jpeg",
+        "image/jpeg",
+        "image/jpeg"
+      ],
+      "asset_content_lengths": [
+        124116,
+        335340,
+        75683,
+        365738
+      ]
+    },
+    "email_id": "1a181d3aa75c63f3",
+    "report_sent_at": "2026-10-28 12:25 Africa/Kampala"
   },
   "follow_ups": [],
   "last_pending_check": {
@@ -43,6 +76,114 @@
     "resolved_at": "2026-10-21 13:16 Africa/Kampala"
   },
   "completed_runs": [
+    {
+      "id": "sahara-dunes-attraction-four-no-attribution-photo-enrichment",
+      "page_url": "https://trekafricaguide.com/attractions/sahara-dunes/",
+      "page_type": "attraction",
+      "status": "complete_live_confirmed",
+      "previous_photo_count": 2,
+      "photo_count": 6,
+      "new_photo_count": 4,
+      "checked_date": "2026-10-28",
+      "started_at": "2026-10-28 12:16 Africa/Kampala",
+      "initial_live_verification": "Production detail returned HTTP 200; full gallery had two curated destination/starter assignments, with zero inline article images. The full guide was reviewed; it distinguishes Merzouga/Erg Chebbi from Erg Chigaga. Existing CC BY-SA images and credits remain unchanged.",
+      "note": "Added four visually reviewed, exact Merzouga/Erg Chebbi Pexels License images requiring no public attribution. People are not presented as Trek Africa Guide participants or operators; images do not purport to depict Erg Chigaga or a specific camp. Internal source, creator, license, exact-location evidence, dates, alt, restrictions, transform and SHA-256 are recorded. Source URL and global existing-asset hash dedup were clear. Guide copy/protected behavior unchanged.",
+      "source_ledger": "docs/editorial-research/2026-10-28-sahara-dunes-attraction-photo-enrichment.md",
+      "files": [
+        "src/lib/photo-library.js",
+        "public/photo-library.js",
+        "public/images/editorial/sahara-dunes-attraction/",
+        "docs/editorial-research/2026-10-28-sahara-dunes-attraction-photo-enrichment.md",
+        "docs/image-enrichment-progress.json"
+      ],
+      "next_action": "Rotate to another viable underfilled published guide; preserve existing required credits and exact-location/no-public-attribution standards.",
+      "published_commit": "95266d0e25905a9596afd1d262a8fa5634c28414",
+      "pushed_at": "2026-10-28 12:22 Africa/Kampala",
+      "netlify_deploy": "6ae1beddb5fdb2bf6c70e357",
+      "live_verification": {
+        "checked_at": "2026-10-28 12:24 Africa/Kampala",
+        "deploy_state": "ready",
+        "deployed_commit": "95266d0e25905a9596afd1d262a8fa5634c28414",
+        "page_http_status": 200,
+        "gallery_count": 6,
+        "all_new_image_filenames_in_full_gallery": true,
+        "see_all_text": "See all 6 images",
+        "existing_attribution_still_visible": true,
+        "asset_http_statuses": [
+          200,
+          200,
+          200,
+          200
+        ],
+        "asset_content_types": [
+          "image/jpeg",
+          "image/jpeg",
+          "image/jpeg",
+          "image/jpeg"
+        ],
+        "asset_content_lengths": [
+          124116,
+          335340,
+          75683,
+          365738
+        ]
+      },
+      "email_id": "1a181d3aa75c63f3",
+      "report_sent_at": "2026-10-28 12:25 Africa/Kampala"
+    },
+    {
+      "id": "sahara-dunes-attraction-four-no-attribution-photo-enrichment",
+      "page_url": "https://trekafricaguide.com/attractions/sahara-dunes/",
+      "page_type": "attraction",
+      "status": "complete_live_confirmed",
+      "previous_photo_count": 2,
+      "photo_count": 6,
+      "new_photo_count": 4,
+      "checked_date": "2026-10-28",
+      "started_at": "2026-10-28 12:16 Africa/Kampala",
+      "initial_live_verification": "Production detail returned HTTP 200; full gallery had two curated destination/starter assignments, with zero inline article images. The full guide was reviewed; it distinguishes Merzouga/Erg Chebbi from Erg Chigaga. Existing CC BY-SA images and credits remain unchanged.",
+      "note": "Added four visually reviewed, exact Merzouga/Erg Chebbi Pexels License images requiring no public attribution. People are not presented as Trek Africa Guide participants or operators; images do not purport to depict Erg Chigaga or a specific camp. Internal source, creator, license, exact-location evidence, dates, alt, restrictions, transform and SHA-256 are recorded. Source URL and global existing-asset hash dedup were clear. Guide copy/protected behavior unchanged.",
+      "source_ledger": "docs/editorial-research/2026-10-28-sahara-dunes-attraction-photo-enrichment.md",
+      "files": [
+        "src/lib/photo-library.js",
+        "public/photo-library.js",
+        "public/images/editorial/sahara-dunes-attraction/",
+        "docs/editorial-research/2026-10-28-sahara-dunes-attraction-photo-enrichment.md",
+        "docs/image-enrichment-progress.json"
+      ],
+      "next_action": "Rotate to another viable underfilled published guide; preserve existing required credits and exact-location/no-public-attribution standards.",
+      "published_commit": "95266d0e25905a9596afd1d262a8fa5634c28414",
+      "pushed_at": "2026-10-28 12:22 Africa/Kampala",
+      "netlify_deploy": "6ae1beddb5fdb2bf6c70e357",
+      "live_verification": {
+        "checked_at": "2026-10-28 12:24 Africa/Kampala",
+        "deploy_state": "ready",
+        "deployed_commit": "95266d0e25905a9596afd1d262a8fa5634c28414",
+        "page_http_status": 200,
+        "gallery_count": 6,
+        "all_new_image_filenames_in_full_gallery": true,
+        "see_all_text": "See all 6 images",
+        "existing_attribution_still_visible": true,
+        "asset_http_statuses": [
+          200,
+          200,
+          200,
+          200
+        ],
+        "asset_content_types": [
+          "image/jpeg",
+          "image/jpeg",
+          "image/jpeg",
+          "image/jpeg"
+        ],
+        "asset_content_lengths": [
+          124116,
+          335340,
+          75683,
+          365738
+        ]
+      }
+    },
     {
       "id": "cape-coast-elmina-kakum-activity-three-no-attribution-images",
       "page_url": "https://trekafricaguide.com/activities/cape-coast-kakum-guided-visit/",
@@ -1430,4 +1571,4 @@
       "report_sent_at": "2026-10-28 10:14 Africa/Kampala"
     }
   ]
-}\n
+}

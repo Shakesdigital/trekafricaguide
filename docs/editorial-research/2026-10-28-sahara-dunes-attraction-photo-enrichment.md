@@ -20,3 +20,5 @@ Full source URLs, license URL, dates, location evidence, descriptive alt text, p
 ## Publishing
 
 Initial changes add four gallery images, taking the collection from two to six. After push, verify the exact deployment commit, live gallery filenames/count and all four JPEG response types/sizes. Record the resulting deployment, live state and single source-free owner report receipt here and in `docs/image-enrichment-progress.json`.
+
+Production publication confirmed 28 October 2026 at 12:24 Africa/Kampala. Commit `95266d0e25905a9596afd1d262a8fa5634c28414` was pushed to `main`; Netlify production deploy `6ae1beddb5fdb2bf6c70e357` is `ready` for that exact commit. At verification, the page returned HTTP 200, contains all four added filenames, and gallery markup reports six photos (`See all 6 images`). The existing credit panel remains present in the page. All four new assets returned HTTP 200 and `image/jpeg`; response byte lengths match local files: 124116, 335340, 75683, 365738. Source-free owner email receipt is recorded in the progress ledger.
