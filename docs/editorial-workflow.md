@@ -171,3 +171,7 @@ Owner removed the ten original development-seed insights from public publication
 ## Rendered readability gate — 23 October 2026
 
 Publication must show readable paragraphs and working labeled links, never literal HTML tags or Markdown link syntax. Use EditorialText for mixed plain/rich editorial prose and the shared sanitizer for article HTML. Do not escape a whole HTML document into text. The production build checks every generated HTML page and fails on exposed markup. After deployment, inspect the changed page’s rendered text and actual anchor destinations; HTTP 200 or matching words alone is insufficient. Fix any failures before selecting new editorial work.
+
+## Photo enrichment — 28 October 2026
+
+Added four verified, no-public-attribution images to the Lalibela attraction gallery, raising the rendered collection from two to six. Production deployment is ready and the six-photo gallery plus all four image assets were confirmed live. Existing required image credits, the guide’s Amhara travel warning, and its historical/contextual framing remain intact. Full source and verification record: [Lalibela image enrichment](editorial-research/2026-10-28-lalibela-attraction-photo-enrichment.md).

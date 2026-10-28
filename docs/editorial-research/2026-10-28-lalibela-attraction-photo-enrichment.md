@@ -19,4 +19,6 @@ Full source URLs, license URL, page/capture dates where available, exact-locatio
 
 ## Publishing
 
-Pending. Commit, push, deployment readiness, production gallery count, and individual image responses will be recorded in `docs/image-enrichment-progress.json`. Send one private source-free progress report after confirming production; record the Gmail receipt there.
+Commit `8de03e7020f92634b5440f2bd830fc4e8838f2b6` was pushed to `main` at 10:12 Africa/Kampala. Netlify production deploy `6ae1a06b29b508cb73d759ab` is ready for that exact commit. At 10:14, the production page returned HTTP 200, reports “See all 6 images,” and includes all four new gallery files in the six-photo full collection. Its opening grid shows five tiles, with the sixth available in the full gallery. The pre-existing credit panel remains visible for the two attribution-required images. Each new asset returned HTTP 200 and `image/jpeg`; response lengths match the local JPEGs: 433750, 399193, 655414, and 302867 bytes. The Gmail receipt is recorded in the progress ledger after the source-free owner update.
+
+Owner update sent 28 October 2026 at 10:14 Africa/Kampala; Gmail receipt 1a1815d323424e96.
