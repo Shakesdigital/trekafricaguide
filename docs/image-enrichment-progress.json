@@ -1,63 +1,26 @@
 {
   "updated_at": "2026-10-28",
   "current_run": {
-    "id": "lalibela-attraction-four-no-attribution-photo-enrichment",
-    "page_url": "https://trekafricaguide.com/attractions/lalibela/",
+    "id": "sahara-dunes-attraction-four-no-attribution-photo-enrichment",
+    "page_url": "https://trekafricaguide.com/attractions/sahara-dunes/",
     "page_type": "attraction",
-    "status": "complete_live_confirmed",
+    "status": "pending_publish",
     "previous_photo_count": 2,
     "photo_count": 6,
     "new_photo_count": 4,
     "checked_date": "2026-10-28",
-    "started_at": "2026-10-28 10:01 Africa/Kampala",
-    "initial_live_verification": "Before editing, production page returned HTTP 200. Main content contained exactly two gallery assignments from the destination and starter defaults and no inline article images. Existing two CC BY-SA photos and visible credits retained.",
-    "note": "Added four visually reviewed exact-Lalibela photographs under the Pexels License, which requires no public attribution. One depicts Bete Giyorgis aerially, one visitors at a Lalibela church in 2018, one an Ethiopian Orthodox priest with a Lalibela cross, and one a person by carved church stonework. Exact-location evidence, source URLs, creators, available capture/publication dates, current license terms, alt text, limitations, transformations, and SHA-256 are recorded internally. Global source URL and SHA-256 comparisons found no duplicates. The guide was fully reviewed; its Amhara travel warning and contextual framing remain unchanged. Gallery assignments total six; no inline article images.",
-    "source_ledger": "docs/editorial-research/2026-10-28-lalibela-attraction-photo-enrichment.md",
+    "started_at": "2026-10-28 12:16 Africa/Kampala",
+    "initial_live_verification": "Production detail returned HTTP 200; full gallery had two curated destination/starter assignments, with zero inline article images. The full guide was reviewed; it distinguishes Merzouga/Erg Chebbi from Erg Chigaga. Existing CC BY-SA images and credits remain unchanged.",
+    "note": "Added four visually reviewed, exact Merzouga/Erg Chebbi Pexels License images requiring no public attribution. People are not presented as Trek Africa Guide participants or operators; images do not purport to depict Erg Chigaga or a specific camp. Internal source, creator, license, exact-location evidence, dates, alt, restrictions, transform and SHA-256 are recorded. Source URL and global existing-asset hash dedup were clear. Guide copy/protected behavior unchanged.",
+    "source_ledger": "docs/editorial-research/2026-10-28-sahara-dunes-attraction-photo-enrichment.md",
     "files": [
       "src/lib/photo-library.js",
       "public/photo-library.js",
-      "public/images/editorial/lalibela-attraction/st-george-church-aerial-ludo-van-den-nouweland.jpg",
-      "public/images/editorial/lalibela-attraction/rock-hewn-church-visitors-estella.jpg",
-      "public/images/editorial/lalibela-attraction/lalibela-priest-cross-ludo-van-den-nouweland.jpg",
-      "public/images/editorial/lalibela-attraction/lalibela-church-stonework-ludo-van-den-nouweland.jpg",
-      "docs/editorial-research/2026-10-28-lalibela-attraction-photo-enrichment.md",
+      "public/images/editorial/sahara-dunes-attraction/",
+      "docs/editorial-research/2026-10-28-sahara-dunes-attraction-photo-enrichment.md",
       "docs/image-enrichment-progress.json"
     ],
-    "next_action": "Rotate to another viable underfilled published guide; keep exact-subject evidence and no-public-attribution licensing preference.",
-    "published_commit": "8de03e7020f92634b5440f2bd830fc4e8838f2b6",
-    "pushed_at": "2026-10-28 10:12 Africa/Kampala",
-    "netlify_deploy": "6ae1a06b29b508cb73d759ab",
-    "live_verification": {
-      "checked_at": "2026-10-28 10:14 Africa/Kampala",
-      "deploy_state": "ready",
-      "deployed_commit": "8de03e7020f92634b5440f2bd830fc4e8838f2b6",
-      "page_http_status": 200,
-      "gallery_count": 6,
-      "all_new_image_filenames_in_full_gallery": true,
-      "visible_grid_tiles": 5,
-      "see_all_text": "See all 6 images",
-      "existing_attribution_still_visible": true,
-      "asset_http_statuses": [
-        200,
-        200,
-        200,
-        200
-      ],
-      "asset_content_types": [
-        "image/jpeg",
-        "image/jpeg",
-        "image/jpeg",
-        "image/jpeg"
-      ],
-      "asset_content_lengths": [
-        433750,
-        399193,
-        655414,
-        302867
-      ]
-    },
-    "email_id": "1a1815d323424e96",
-    "report_sent_at": "2026-10-28 10:14 Africa/Kampala"
+    "next_action": "Push own changes while preserving concurrent editorial; confirm production deployment, six-photo gallery and four image assets. Send one source-free report and record receipt."
   },
   "follow_ups": [],
   "last_pending_check": {
@@ -1467,4 +1430,4 @@
       "report_sent_at": "2026-10-28 10:14 Africa/Kampala"
     }
   ]
-}
+}\n
