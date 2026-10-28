@@ -20,3 +20,5 @@ Each source URL, creator, license URL, available date, location evidence, descri
 ## Publication record
 
 Initial collection change adds four images to the two defaults, for six total. No guide text, linked product, credits, layout or tracking behavior was altered. The narrow photo-library sync/build-input check, safe push, production deployment, live gallery/assets, source-free owner email and receipt are recorded below after confirmation.
+
+Production publication was confirmed on 28 October 2026 at 18:23 Africa/Kampala. Commit `d08478037e6e6590c69c14d8d544a5ccaaed4d1b` was pushed to `main`; Netlify production deploy `6ae213168da5203ee3e719fb` is ready for that exact commit. The live detail returned HTTP 200, reports “See all 6 images,” contains all four new photos, and still shows both existing creator credits. Each new asset returned HTTP 200 `image/jpeg`, with response lengths matching local files: 603766, 458371, 567153 and 571743 bytes. A source-free owner update was sent at 18:24 Africa/Kampala; its Gmail receipt is in the progress ledger.
