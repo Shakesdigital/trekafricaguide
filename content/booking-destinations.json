@@ -121,13 +121,13 @@
       }
     },
     "ridge-royal-hotel": {
-      "url": "https://www.booking.com/hotel/gh/ridge-royal-cape-coast.de.html",
+      "url": "https://www.booking.com/hotel/gh/ridge-royal-cape-coast.en-gb.html",
       "provider": "booking",
       "title": "Ridge Royal Hotel Cape Coast",
-      "checked_at": "2026-10-11",
+      "checked_at": "2026-10-28",
       "evidence": {
-        "source_url": "https://www.booking.com/hotel/gh/ridge-royal-cape-coast.de.html",
-        "summary": "Primary property detail identifies Ridge Royal Hotel Cape Coast, Ghana; rejected Ridge Royal apartment in South Africa. German locale retained as directly indexed verified URL."
+        "source_url": "https://www.booking.com/hotel/gh/ridge-royal-cape-coast.en-gb.html",
+        "summary": "Rechecked 28 October 2026: the English Booking.com exact property detail names Ridge Royal Hotel Cape Coast and gives Number 1, 2nd Ridge, Cape Coast, Ghana. The page lists accommodation and facilities for this specific property. No rates, availability, score or review total is copied into the guide."
       }
     },
     "serengeti-serena-safari-lodge": {

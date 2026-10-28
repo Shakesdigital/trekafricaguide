@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-27",
+  "updated_at": "2026-10-28",
   "timezone": "Africa/Kampala",
   "next_scheduled_start": "2026-10-17T19:30:00+03:00",
   "cadence_hours": 3,
@@ -442,11 +442,11 @@
     "verification": "Brief JSON/content inspection, 24 internal HTTP checks and 14 live rendered checks. No test suite or local build. Existing production exposed-markup guard preserved."
   },
   "latest_run_checkpoint": {
-    "date": "2026-10-27",
-    "action": "Published Sal Island attraction guide refresh using official tourism/heritage sources and dated traveler perspectives; HTTP 200, CMS source_commit and owner email receipt confirmed.",
-    "public_changes": true,
-    "next_action": "Rotate to accommodations; retain one licensed Sal Island photo follow-up.",
-    "ledger": "docs/editorial-research/2026-10-27-sal-island-attraction-refresh.md"
+    "date": "2026-10-28",
+    "action": "Completed the Ridge Royal Hotel full researched accommodation refresh, retained its published Cape Coast–Kakum relationship, updated the exact Booking.com detail target for Stay22, and kept its gallery neutral with a six-subject photo backlog. CMS currently matches the prior Git text; no manual field divergence found.",
+    "public_changes": false,
+    "next_action": "Briefly inspect the final diff, reconcile concurrent main commits without touching the unrelated deployment ZIP, push, confirm live content/Stay22/CMS source_commit, then send and record the authorized owner report.",
+    "ledger": "docs/editorial-research/2026-10-28-ridge-royal-hotel.md"
   },
   "usage_deferral_history": [
     {
@@ -534,5 +534,12 @@
       "owner_session_round_trip": "not performed",
       "report_message_id": "1a175021c6bf291c"
     }
+  },
+  "accommodation_ridge_royal": {
+    "status": "in_progress",
+    "started": "2026-10-28",
+    "objective": "Complete Ridge Royal Hotel full researched accommodation guide refresh with exact Stay22 property destination, canonical local relationships and verified publication.",
+    "checkpoint": "Research and edited guide/source ledger are complete. Official property, current room, amenities and dining pages plus dated Tripadvisor feedback are recorded. Exact English Booking.com detail is selected for Stay22; direct detail prompts bot verification, so no OTA rates, availability or current review data are claimed. Canonical published relation is Cape Coast Kakum; CMS fields matched the previous Git copy. Gallery stays neutral; six exact-property photo subjects remain in the separate backlog.",
+    "next_action": "Briefly inspect diff, commit/push main after safely rebasing over concurrent main commits; verify live page copy and Stay22 destination, CMS source_commit; send owner report and save receipt."
   }
 }
