@@ -1,54 +1,29 @@
 {
-  "updated_at": "2026-10-27",
+  "updated_at": "2026-10-28",
   "current_run": {
-    "id": "victoria-falls-guided-walk-four-no-attribution-photo-enrichment",
-    "page_url": "https://trekafricaguide.com/activities/victoria-falls-guided-walk/",
-    "page_type": "activity",
-    "status": "complete_live_confirmed",
+    "id": "lalibela-attraction-four-no-attribution-photo-enrichment",
+    "page_url": "https://trekafricaguide.com/attractions/lalibela/",
+    "page_type": "attraction",
+    "status": "pending_push",
     "previous_photo_count": 2,
     "photo_count": 6,
     "new_photo_count": 4,
-    "checked_date": "2026-10-27",
-    "source_ledger": "docs/editorial-research/2026-10-27-victoria-falls-guided-walk-photo-enrichment.md",
+    "checked_date": "2026-10-28",
+    "started_at": "2026-10-28 10:01 Africa/Kampala",
+    "initial_live_verification": "Before editing, production page returned HTTP 200. Main content contained exactly two gallery assignments from the destination and starter defaults and no inline article images. Existing two CC BY-SA photos and visible credits retained.",
+    "note": "Added four visually reviewed exact-Lalibela photographs under the Pexels License, which requires no public attribution. One depicts Bete Giyorgis aerially, one visitors at a Lalibela church in 2018, one an Ethiopian Orthodox priest with a Lalibela cross, and one a person by carved church stonework. Exact-location evidence, source URLs, creators, available capture/publication dates, current license terms, alt text, limitations, transformations, and SHA-256 are recorded internally. Global source URL and SHA-256 comparisons found no duplicates. The guide was fully reviewed; its Amhara travel warning and contextual framing remain unchanged. Gallery assignments total six; no inline article images.",
+    "source_ledger": "docs/editorial-research/2026-10-28-lalibela-attraction-photo-enrichment.md",
     "files": [
       "src/lib/photo-library.js",
       "public/photo-library.js",
-      "public/images/editorial/victoria-falls-guided-walk/",
-      "docs/editorial-research/2026-10-27-victoria-falls-guided-walk-photo-enrichment.md",
+      "public/images/editorial/lalibela-attraction/st-george-church-aerial-ludo-van-den-nouweland.jpg",
+      "public/images/editorial/lalibela-attraction/rock-hewn-church-visitors-estella.jpg",
+      "public/images/editorial/lalibela-attraction/lalibela-priest-cross-ludo-van-den-nouweland.jpg",
+      "public/images/editorial/lalibela-attraction/lalibela-church-stonework-ludo-van-den-nouweland.jpg",
+      "docs/editorial-research/2026-10-28-lalibela-attraction-photo-enrichment.md",
       "docs/image-enrichment-progress.json"
     ],
-    "started_at": "2026-10-27 17:14 Africa/Kampala",
-    "initial_live_verification": "Production activity detail returned HTTP 200 and rendered See all 2 images. The curated activity gallery had two existing assignments; other image tags belong to branding and related cards. Existing hero and assigned images remain unchanged.",
-    "note": "Added four visually inspected exact-Victoria-Falls photographs under the Pexels License, which does not require public attribution. Subjects: visitor at a Zimbabwe-side viewpoint, aerial falls and gorge, the bridge from Zambia, and Zambian cliff cascades. Full guide reviewed; no prose or protected behavior changed. Creator, source URL/revision, license, page/capture dates where stated, exact location evidence, alt text and SHA-256 are recorded internally. Global source URL and SHA-256 dedup against current photo library, research records and all 644 public images found no matches. The gallery total is six.",
-    "next_action": "Rotate to another genuinely underfilled guide with exact-subject, no-public-attribution photographs; count rendered gallery defaults and any inline article images first.",
-    "published_commit": "ae6f2719b3aa94157eb7fd3ff0904b4899c1e5bc",
-    "published_deploy": "6ae0b35e1fbf9e467d5df64a",
-    "live_confirmation": {
-      "checked_at": "2026-10-27 17:22 Africa/Kampala",
-      "page_http_status": 200,
-      "gallery_count": 6,
-      "all_new_image_filenames_in_page": true,
-      "asset_http_statuses": [
-        200,
-        200,
-        200,
-        200
-      ],
-      "asset_content_types": [
-        "image/jpeg",
-        "image/jpeg",
-        "image/jpeg",
-        "image/jpeg"
-      ],
-      "asset_content_lengths": [
-        388635,
-        1744457,
-        422414,
-        338386
-      ]
-    },
-    "email_id": "1a17dbeb4012cb5e",
-    "report_sent_at": "2026-10-27 17:23 Africa/Kampala"
+    "next_action": "Commit and push only this enrichment; verify the production deployment, six-photo gallery, all four asset responses and byte counts; send one private source-free progress email and record its receipt."
   },
   "follow_ups": [],
   "last_pending_check": {
