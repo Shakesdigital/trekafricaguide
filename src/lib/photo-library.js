@@ -6941,6 +6941,86 @@ export const photoLibrary = {
       "checked_at": "2026-10-27",
       "exact_subject_evidence": "The Pexels photo title identifies Amboseli National Park in Kenya; its description says zebras graze beneath acacias with Mount Kilimanjaro in the background, and lists Kajiado County, Kenya. Visual inspection confirms the zebras, acacia trees and mountain. The source page does not state a capture date.",
       "reuse_note": "The Pexels License permits website reuse without public attribution. Creator and license evidence remain internal. Wildlife is shown in a natural landscape; this does not imply a particular operator, vehicle, route or guaranteed sighting."
+    },
+    "/images/editorial/bwindi-gorilla-trekking/bwindi-gorilla-nathalie-lays.jpg": {
+      "slug": "bwindi-gorilla-nathalie-lays.jpg",
+      "local_path": "/images/editorial/bwindi-gorilla-trekking/bwindi-gorilla-nathalie-lays.jpg",
+      "source_page": "https://unsplash.com/photos/a-gorilla-standing-in-the-middle-of-a-forest-Lb65e5jMBMo",
+      "source_revision": "Unsplash photo Lb65e5jMBMo, checked 2026-10-28",
+      "creator": "Nathalie Lays",
+      "license": "Unsplash License",
+      "license_url": "https://unsplash.com/license",
+      "source_published_at": "2025-01-11",
+      "sha256": "30170fbf6a92f40c5d6d4f50a7ffbb3049e0fbeec8661acadddd090a97823c6f",
+      "exact_subject": true,
+      "subject": "Mountain gorilla in Bwindi Impenetrable Forest, Uganda",
+      "alt": "A mountain gorilla resting among dense foliage in Bwindi Impenetrable Forest, Uganda; illustrative, not a guaranteed trek sighting.",
+      "property": false,
+      "kind": "photograph",
+      "requires_attribution": false,
+      "changes": "Downloaded from the Unsplash CDN at 1800 pixels wide with aspect ratio preserved; no other edits.",
+      "checked_at": "2026-10-28",
+      "reuse_note": "Unsplash License permits commercial website use without public attribution. The image is illustrative and is not a guaranteed wildlife sighting or representation of a particular trekking group, operator, or visitor."
+    },
+    "/images/editorial/bwindi-gorilla-trekking/bwindi-mother-juvenile-2h-media.jpg": {
+      "slug": "bwindi-mother-juvenile-2h-media.jpg",
+      "local_path": "/images/editorial/bwindi-gorilla-trekking/bwindi-mother-juvenile-2h-media.jpg",
+      "source_page": "https://unsplash.com/photos/a-gorilla-in-the-forest-FKcRXTOHG8M",
+      "source_revision": "Unsplash photo FKcRXTOHG8M, checked 2026-10-28",
+      "creator": "2H Media",
+      "license": "Unsplash License",
+      "license_url": "https://unsplash.com/license",
+      "source_published_at": "2022-11-30",
+      "sha256": "7d0c5d2b52d790d6c0bb7a00b29d83d3c608dac0f6e0ee51e2936fb6d6111799",
+      "exact_subject": true,
+      "subject": "A mother mountain gorilla and her juvenile in Bwindi Impenetrable Forest, Uganda",
+      "alt": "A mother mountain gorilla with her juvenile in Bwindi Impenetrable Forest, Uganda; illustrative, not a guaranteed trek sighting.",
+      "property": false,
+      "kind": "photograph",
+      "requires_attribution": false,
+      "changes": "Downloaded from the Unsplash CDN at 1800 pixels wide with aspect ratio preserved; no other edits.",
+      "checked_at": "2026-10-28",
+      "reuse_note": "Unsplash License permits commercial website use without public attribution. The image is illustrative and is not a guaranteed wildlife sighting or representation of a particular trekking group, operator, or visitor."
+    },
+    "/images/editorial/bwindi-gorilla-trekking/bwindi-gorilla-closeup-gabriel-schumacher.jpg": {
+      "slug": "bwindi-gorilla-closeup-gabriel-schumacher.jpg",
+      "local_path": "/images/editorial/bwindi-gorilla-trekking/bwindi-gorilla-closeup-gabriel-schumacher.jpg",
+      "source_page": "https://unsplash.com/photos/a-close-up-of-a-gorilla-near-a-tree-6JKdaD3soBc",
+      "source_revision": "Unsplash photo 6JKdaD3soBc, checked 2026-10-28",
+      "creator": "Gabriel Schumacher",
+      "license": "Unsplash License",
+      "license_url": "https://unsplash.com/license",
+      "source_published_at": "2024-03-23",
+      "sha256": "b454e03e29df7fec376b692337efb63380cee587b48bb20fd2567821124d2813",
+      "exact_subject": true,
+      "subject": "An endangered mountain gorilla in Bwindi Impenetrable Forest, Uganda",
+      "alt": "Close view of an endangered mountain gorilla near a tree in Bwindi Impenetrable National Park, Uganda; illustrative, not a guaranteed trek sighting.",
+      "property": false,
+      "kind": "photograph",
+      "requires_attribution": false,
+      "changes": "Downloaded from the Unsplash CDN at 1800 pixels wide with aspect ratio preserved; no other edits.",
+      "checked_at": "2026-10-28",
+      "reuse_note": "Unsplash License permits commercial website use without public attribution. The image is illustrative and is not a guaranteed wildlife sighting or representation of a particular trekking group, operator, or visitor."
+    },
+    "/images/editorial/bwindi-gorilla-trekking/bwindi-gorillas-2017-ylenia-vimercati-molano.jpg": {
+      "slug": "bwindi-gorillas-2017-ylenia-vimercati-molano.jpg",
+      "local_path": "/images/editorial/bwindi-gorilla-trekking/bwindi-gorillas-2017-ylenia-vimercati-molano.jpg",
+      "source_page": "https://unsplash.com/photos/black-gorilla-on-green-grass-during-daytime-NrrzGBcU6aM",
+      "source_revision": "Unsplash photo NrrzGBcU6aM, checked 2026-10-28",
+      "creator": "Ylenia Vimercati Molano",
+      "license": "Unsplash License",
+      "license_url": "https://unsplash.com/license",
+      "source_published_at": "2021-05-04",
+      "sha256": "3be196fd5600ea4d717d6bc5228000c285048e8e15d010dbd4fde0fdf7331295",
+      "exact_subject": true,
+      "subject": "Gorillas in Bwindi Impenetrable Forest, Uganda; source notes 2017",
+      "alt": "Two mountain gorillas among vegetation in Bwindi Impenetrable Forest, Uganda, photographed in 2017; illustrative, not a guaranteed trek sighting.",
+      "property": false,
+      "kind": "photograph",
+      "requires_attribution": false,
+      "changes": "Downloaded from the Unsplash CDN at 1800 pixels wide with aspect ratio preserved; no other edits.",
+      "checked_at": "2026-10-28",
+      "reuse_note": "Unsplash License permits commercial website use without public attribution. The image is illustrative and is not a guaranteed wildlife sighting or representation of a particular trekking group, operator, or visitor."
     }
   },
   "listings": {
@@ -7579,7 +7659,11 @@ export const photoLibrary = {
         ],
         "gallery": [
           "/images/stock/starter/bwindi-impenetrable-national-park.jpg",
-          "/images/stock/destinations/bwindi-impenetrable-national-park.jpg"
+          "/images/stock/destinations/bwindi-impenetrable-national-park.jpg",
+          "/images/editorial/bwindi-gorilla-trekking/bwindi-gorilla-nathalie-lays.jpg",
+          "/images/editorial/bwindi-gorilla-trekking/bwindi-mother-juvenile-2h-media.jpg",
+          "/images/editorial/bwindi-gorilla-trekking/bwindi-gorilla-closeup-gabriel-schumacher.jpg",
+          "/images/editorial/bwindi-gorilla-trekking/bwindi-gorillas-2017-ylenia-vimercati-molano.jpg"
         ]
       },
       "amboseli-game-drive-safari": {
@@ -7660,12 +7744,12 @@ export const photoLibrary = {
         ],
         "gallery": [
           "/images/stock/starter/victoria-falls.jpg",
-          "/images/stock/destinations/victoria-falls.jpg"
-,
+          "/images/stock/destinations/victoria-falls.jpg",
           "/images/editorial/victoria-falls-guided-walk/falls-viewpoint-rishab-negi.jpg",
           "/images/editorial/victoria-falls-guided-walk/falls-aerial-babijaphoto-jb.jpg",
           "/images/editorial/victoria-falls-guided-walk/falls-bridge-kabwe-kabwe.jpg",
-          "/images/editorial/victoria-falls-guided-walk/falls-zambia-cliffs-benjamin-schaeuffele.jpg"        ]
+          "/images/editorial/victoria-falls-guided-walk/falls-zambia-cliffs-benjamin-schaeuffele.jpg"
+        ]
       },
       "okavango-mokoro-safari": {
         "hero_image_url": "/images/stock/starter/okavango-delta.jpg",

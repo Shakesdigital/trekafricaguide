@@ -1,61 +1,43 @@
 {
   "updated_at": "2026-10-28",
   "current_run": {
-    "id": "sahara-dunes-attraction-four-no-attribution-photo-enrichment",
-    "page_url": "https://trekafricaguide.com/attractions/sahara-dunes/",
-    "page_type": "attraction",
-    "status": "complete_live_confirmed",
+    "id": "bwindi-gorilla-trekking-four-no-attribution-photos",
+    "page_url": "https://trekafricaguide.com/activities/bwindi-gorilla-trekking/",
+    "page_type": "activity",
+    "status": "pending_publish",
     "previous_photo_count": 2,
     "photo_count": 6,
     "new_photo_count": 4,
     "checked_date": "2026-10-28",
-    "started_at": "2026-10-28 12:16 Africa/Kampala",
-    "initial_live_verification": "Production detail returned HTTP 200; full gallery had two curated destination/starter assignments, with zero inline article images. The full guide was reviewed; it distinguishes Merzouga/Erg Chebbi from Erg Chigaga. Existing CC BY-SA images and credits remain unchanged.",
-    "note": "Added four visually reviewed, exact Merzouga/Erg Chebbi Pexels License images requiring no public attribution. People are not presented as Trek Africa Guide participants or operators; images do not purport to depict Erg Chigaga or a specific camp. Internal source, creator, license, exact-location evidence, dates, alt, restrictions, transform and SHA-256 are recorded. Source URL and global existing-asset hash dedup were clear. Guide copy/protected behavior unchanged.",
-    "source_ledger": "docs/editorial-research/2026-10-28-sahara-dunes-attraction-photo-enrichment.md",
+    "started_at": "2026-10-28 18:19 Africa/Kampala",
+    "initial_live_verification": "Before editing, production detail returned HTTP 200 with two photo-library gallery assignments and no inline article photographs. Full guide review showed variable UWA-guided trekking across four Bwindi sectors, with a separate Kigali day-trip option. Existing default photo credits to Diego Delso and Thomas Fuhrmann (CC BY-SA 4.0) are unchanged.",
+    "note": "Four visually reviewed Unsplash License photos explicitly located in Bwindi, Uganda, requiring no public attribution. They depict individual, close-up, and family/group mountain gorilla scenes; all are illustrative and not guaranteed sightings or representations of any specific tour, operator, visitors or Kigali departure. No Rwanda imagery included. Source URLs/creators/licenses/dates/location evidence/alt/restrictions/transforms/hashes recorded; source page IDs and global SHA-256 dedup verified. Guide copy/protected behavior and existing required credits unchanged.",
+    "source_ledger": "docs/editorial-research/2026-10-28-bwindi-gorilla-trekking-photo-enrichment.md",
     "files": [
       "src/lib/photo-library.js",
       "public/photo-library.js",
-      "public/images/editorial/sahara-dunes-attraction/",
-      "docs/editorial-research/2026-10-28-sahara-dunes-attraction-photo-enrichment.md",
+      "public/images/editorial/bwindi-gorilla-trekking/",
+      "docs/editorial-research/2026-10-28-bwindi-gorilla-trekking-photo-enrichment.md",
       "docs/image-enrichment-progress.json"
     ],
-    "next_action": "Rotate to another viable underfilled published guide; preserve existing required credits and exact-location/no-public-attribution standards.",
-    "published_commit": "95266d0e25905a9596afd1d262a8fa5634c28414",
-    "pushed_at": "2026-10-28 12:22 Africa/Kampala",
-    "netlify_deploy": "6ae1beddb5fdb2bf6c70e357",
-    "live_verification": {
-      "checked_at": "2026-10-28 12:24 Africa/Kampala",
-      "deploy_state": "ready",
-      "deployed_commit": "95266d0e25905a9596afd1d262a8fa5634c28414",
-      "page_http_status": 200,
-      "gallery_count": 6,
-      "all_new_image_filenames_in_full_gallery": true,
-      "see_all_text": "See all 6 images",
-      "existing_attribution_still_visible": true,
-      "asset_http_statuses": [
-        200,
-        200,
-        200,
-        200
-      ],
-      "asset_content_types": [
-        "image/jpeg",
-        "image/jpeg",
-        "image/jpeg",
-        "image/jpeg"
-      ],
-      "asset_content_lengths": [
-        124116,
-        335340,
-        75683,
-        365738
-      ]
-    },
-    "email_id": "1a181d3aa75c63f3",
-    "report_sent_at": "2026-10-28 12:25 Africa/Kampala"
+    "next_action": "Publish own verified gallery changes, confirm production deploy/page/assets and send one source-free owner report with receipt."
   },
-  "follow_ups": [],
+  "follow_ups": [
+    {
+      "id": "bwindi-gorilla-trekking-interrupted-2026-10-28",
+      "status": "verified_pending_publish",
+      "page_url": "https://trekafricaguide.com/activities/bwindi-gorilla-trekking/",
+      "note": "Four source pages identify Bwindi, Uganda; current Unsplash License terms allow commercial use without attribution. All four images were downloaded and visually inspected. Source IDs are new and SHA-256 values are unique against local public images. The 2-photo live gallery baseline, full guide/geography and unchanged CC BY-SA credits were confirmed. Dated provenance ledger written before publication work. No email sent yet.",
+      "files": [
+        "src/lib/photo-library.js",
+        "public/photo-library.js",
+        "public/images/editorial/bwindi-gorilla-trekking/",
+        "docs/editorial-research/2026-10-28-bwindi-gorilla-trekking-photo-enrichment.md",
+        "docs/image-enrichment-progress.json"
+      ],
+      "next_action": "Resume existing local candidates; verify exact location, license, visual subjects and global dedup, write source ledger, then publish only if supported."
+    }
+  ],
   "last_pending_check": {
     "checked_at": "2026-10-20 18:29 Africa/Kampala",
     "status": "resolved_live_confirmed",
