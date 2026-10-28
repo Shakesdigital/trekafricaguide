@@ -272,32 +272,25 @@
     "email_id": "1a143a69416cf3d1"
   },
   "rotation": {
-    "last_completed_category": "attractions",
-    "next_category": "accommodations",
-    "next_deliverable": "One complete accommodation guide or exact-property photo collection; keep the Sal Island sixth-photo follow-up separate.",
+    "last_completed_category": "accommodations",
+    "next_category": "travel_insights",
+    "next_deliverable": "One complete useful Travel Insight; keep property-photo gaps as separate follow-ups.",
     "rule": "Finish the individual deliverable and report its live state, then rotate. Track exact-property photo gaps separately.",
     "override_reason": null
   },
   "current_deliverable": {
-    "id": "sal-island-attraction-refresh",
-    "category": "attractions",
+    "id": "ridge-royal-hotel-refresh",
+    "category": "accommodations",
     "status": "complete",
-    "last_action": "Sal Island attraction guide published and CMS mirrored at f9647cb; production HTTP 200 confirms the new Pedra de Lume, practical itinerary and traveler-feedback copy. Owner report sent.",
-    "next_action": "Rotate to accommodations. Keep the one-photo Sal Island follow-up separate.",
-    "acceptance_criteria": [
-      "Complete a sourced full-guide improvement while retaining Sal Island attraction ID 64 and country/region relationships",
-      "Use current official tourism and cultural-heritage sources; distinguish country-wide season guidance from Sal-specific conditions",
-      "Attribute traveler feedback with dates and preserve the five existing licensed photos without adding an unverified image",
-      "Confirm production HTTP content and CMS mirror, then save owner email receipt"
-    ],
-    "checkpoint": "docs/editorial-research/2026-10-27-sal-island-attraction-refresh.md",
-    "commit": "f9647cbf775e7c46883a20195fc4e8cd658fcda9",
-    "live_url": "https://trekafricaguide.com/attractions/sal-island/",
-    "live_verification": "2026-10-27: Netlify production deployment 6ae0592e02af74c9e1774ef8 ready for f9647cbf775e7c46883a20195fc4e8cd658fcda9. Production URL HTTP 200 with revised description, Pedra de Lume, suggested route and attributed feedback. CMS mirror confirms published attraction ID 64, country ID 42, region ID 15 and matching source_commit.",
-    "images": 5,
-    "photo_followup": "One additional distinct, licensed Sal Island photograph remains open in docs/editorial-research/2026-10-27-sal-island-attraction-photo-enrichment.md.",
-    "booking_gap": "No attraction-level booking CTA added; excursion routes and current operating details should be confirmed with the chosen provider.",
-    "report_message_id": "1a17c5dd3c8daa8f"
+    "last_action": "Published Ridge Royal Hotel accommodation refresh with exact Booking.com detail destination in Stay22 and retained Cape Coast Kakum relationship; live page, CTA, CMS source_commit and owner email are confirmed.",
+    "next_action": "Next editorial category: travel insights. Keep the separate Ridge Royal six-photo shortfall and other licensed property-photo backlogs tracked independently.",
+    "checkpoint": "docs/editorial-research/2026-10-28-ridge-royal-hotel.md",
+    "commit": "a28e2547734700e6af6b2a4a8f2ed3ae20f2a0f6",
+    "live_url": "https://trekafricaguide.com/accommodations/ridge-royal-hotel",
+    "live_verification": "HTTP 200; refreshed text and anchor destinations confirmed; no exposed markup.",
+    "images": 0,
+    "photo_followup": "Separate six-subject exact-property collection: exterior/signage, standard room, chalet, bathroom, dining room, pool/gym or grounds.",
+    "report_message_id": "1a1815e6cc730e2f"
   },
   "previous_deliverable_correction": {
     "id": "marrakech-medina-street-food-walk",
@@ -566,5 +559,12 @@
     "live_verification": "HTTP 200; refreshed text and anchor destinations confirmed; no exposed markup.",
     "email_id": "1a1815e6cc730e2f",
     "next_category": "travel_insights"
+  },
+  "checkpoint_reconciliation": {
+    "date": "2026-10-28",
+    "status": "complete",
+    "action": "Aligned stale current_deliverable and rotation with the existing Ridge Royal publication and owner-report receipt. No website content changed.",
+    "next_action": "Travel Insights category next.",
+    "report_message_id": "1a1820e854da38bf"
   }
 }
