@@ -238,7 +238,7 @@
         "status": "published; live confirmed 2026-10-15"
       }
     ],
-    "current_subtask": "Backlog; Victoria Falls Hotel collection completed. Rotate categories.",
+    "current_subtask": "Photo enrichments remain a separate backlog. Ridge Royal Hotel full accommodation refresh completed and live-confirmed 2026-10-28; next category is travel insights.",
     "blockers": [
       "Amboseli Serena photo collection needs two suitable reusable property photos: pool and dining/common area. Focused search found no suitable additions.",
       "Red Chilli: six property photos need reuse permission or owner originals; official gallery identified but not licensed for reuse.",
@@ -443,10 +443,21 @@
   },
   "latest_run_checkpoint": {
     "date": "2026-10-28",
-    "action": "Completed the Ridge Royal Hotel full researched accommodation refresh, retained its published Cape Coast–Kakum relationship, updated the exact Booking.com detail target for Stay22, and kept its gallery neutral with a six-subject photo backlog. CMS currently matches the prior Git text; no manual field divergence found.",
-    "public_changes": false,
-    "next_action": "Briefly inspect the final diff, reconcile concurrent main commits without touching the unrelated deployment ZIP, push, confirm live content/Stay22/CMS source_commit, then send and record the authorized owner report.",
-    "ledger": "docs/editorial-research/2026-10-28-ridge-royal-hotel.md"
+    "action": "Published Ridge Royal Hotel accommodation refresh with exact Booking.com detail destination in Stay22 and retained Cape Coast Kakum relationship; live page, CTA, CMS source_commit and owner email are confirmed.",
+    "public_changes": true,
+    "next_action": "Next editorial category: travel insights. Keep the separate Ridge Royal six-photo shortfall and other licensed property-photo backlogs tracked independently.",
+    "ledger": "docs/editorial-research/2026-10-28-ridge-royal-hotel.md",
+    "commit": "a28e2547734700e6af6b2a4a8f2ed3ae20f2a0f6",
+    "deployment_id": "6ae1a086ef6e56d297b99290",
+    "live_verification": {
+      "url": "https://trekafricaguide.com/accommodations/ridge-royal-hotel",
+      "status": 200,
+      "source_commit": "a28e2547734700e6af6b2a4a8f2ed3ae20f2a0f6",
+      "stay22_destination": "https://www.booking.com/hotel/gh/ridge-royal-cape-coast.en-gb.html",
+      "canonical_attraction": "/attractions/cape-coast-kakum",
+      "images": 0
+    },
+    "email_id": "1a1815e6cc730e2f"
   },
   "usage_deferral_history": [
     {
@@ -536,10 +547,24 @@
     }
   },
   "accommodation_ridge_royal": {
-    "status": "in_progress",
+    "status": "complete",
     "started": "2026-10-28",
-    "objective": "Complete Ridge Royal Hotel full researched accommodation guide refresh with exact Stay22 property destination, canonical local relationships and verified publication.",
-    "checkpoint": "Research and edited guide/source ledger are complete. Official property, current room, amenities and dining pages plus dated Tripadvisor feedback are recorded. Exact English Booking.com detail is selected for Stay22; direct detail prompts bot verification, so no OTA rates, availability or current review data are claimed. Canonical published relation is Cape Coast Kakum; CMS fields matched the previous Git copy. Gallery stays neutral; six exact-property photo subjects remain in the separate backlog.",
-    "next_action": "Briefly inspect diff, commit/push main after safely rebasing over concurrent main commits; verify live page copy and Stay22 destination, CMS source_commit; send owner report and save receipt."
+    "completed": "Full accommodation guide refresh, exact Stay22 destination, published production update and CMS mirror confirmation.",
+    "files": [
+      "content/editorial-overrides.json",
+      "content/booking-destinations.json",
+      "docs/editorial-research/2026-10-28-ridge-royal-hotel.md",
+      "docs/editorial-progress.json"
+    ],
+    "category": "accommodations",
+    "images": 0,
+    "image_followup": "Separate six-subject exact-property collection: exterior/signage, standard room, chalet, bathroom, dining room, pool/gym or grounds.",
+    "booking_destination": "Exact English Booking.com property detail; Stay22 wrapper encodes this URL. Search result confirmed the matching name/address; direct Booking detail prompted bot verification, so no live rate, availability or Booking review claims were made.",
+    "commit": "a28e2547734700e6af6b2a4a8f2ed3ae20f2a0f6",
+    "deployment_id": "6ae1a086ef6e56d297b99290",
+    "cms_source_commit": "a28e2547734700e6af6b2a4a8f2ed3ae20f2a0f6",
+    "live_verification": "HTTP 200; refreshed text and anchor destinations confirmed; no exposed markup.",
+    "email_id": "1a1815e6cc730e2f",
+    "next_category": "travel_insights"
   }
 }

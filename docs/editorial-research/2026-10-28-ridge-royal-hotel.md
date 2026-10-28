@@ -35,3 +35,14 @@ No property photographs were added; the page retains its neutral image state bec
 - Status before this refresh: the existing ID 65 record was already published and the live detail returned HTTP 200.
 - Researched guide text, source ledger and exact Booking.com registry target are edited; no photos were added. CMS currently matches the old Git copy with no manual field divergence.
 - Next: concise diff review; commit/push main with concurrent history reconciled and unrelated deployment ZIP untouched; verify production page content/CTA, Netlify deployment and CMS `source_commit`; send the authorized owner report and record its receipt.
+
+
+## Publication receipt
+
+- Content commit `a28e2547734700e6af6b2a4a8f2ed3ae20f2a0f6` pushed to `main` after rebasing over concurrent photo updates; unrelated deployment ZIP remained untouched.
+- Netlify production deploy `6ae1a086ef6e56d297b99290` is `ready` for that exact commit.
+- Live accommodation page https://trekafricaguide.com/accommodations/ridge-royal-hotel returned HTTP 200. Rendered output contains updated room, meal, budget and dated-feedback copy; the Tripadvisor anchor points to its review page; the Stay22 CTA encodes the exact English Booking.com detail URL; the canonical attraction card links to `/attractions/cape-coast-kakum`; no literal markup is exposed.
+- Supabase `public.editorial_documents` reports the accommodation as published with `source_commit` matching `a28e2547734700e6af6b2a4a8f2ed3ae20f2a0f6`.
+- Owner progress email SENT 28 October 2026 at 10:16 Africa/Kampala; Gmail message ID `1a1815e6cc730e2f`.
+- No test suite or browser QA was run. Production build was triggered by the authorized main-branch push.
+- Next content category: travel insights. The six-photo property follow-up remains separate.
