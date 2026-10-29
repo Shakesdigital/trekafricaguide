@@ -281,12 +281,18 @@
   "current_deliverable": {
     "id": "sossusvlei-sunrise-from-sesriem",
     "category": "travel_insights",
-    "status": "in_progress",
-    "last_action": "Drafted a new Sesriem-based Sossusvlei planning insight with cautious treatment of changed final-section access rules.",
-    "next_action": "Publish to main, verify production content and CMS source_commit, send owner report, and record receipt.",
+    "status": "complete",
+    "last_action": "Published Sossusvlei-at-first-light Travel Insight; production page, linked guides, source section and CMS mirror source_commit confirmed; owner report sent.",
+    "next_action": "Next category: destinations. Track the separate six-subject licensed-photo follow-up.",
     "checkpoint": "docs/editorial-research/2026-10-29-sossusvlei-sunrise.md",
     "photo_followup": "Six separately sourced images: Sesriem outer gate, inner access sign, Dune 45, Deadvlei pan and camelthorn trees, Sossusvlei pan/dune edge, Sesriem Canyon. Keep neutral until accurately identified reusable files are available.",
-    "images": 0
+    "images": 0,
+    "commit": "a66f54faba567ba8c1e6e9c0c091b1f977a319f5",
+    "live_url": "https://trekafricaguide.com/travel-insights/plan-a-sossusvlei-sunrise-from-sesriem/",
+    "deployment_id": "6ae2fd17895fdf686b13157e",
+    "cms_source_commit": "8e6d0d83a269205465e503f7bd546f4081478970",
+    "live_verification": "HTTP 200; title, new body, internal links, official visa link and visible sources confirmed; no exposed markup.",
+    "email_id": "1a186aeff55ad4a2"
   },
   "previous_deliverable_correction": {
     "id": "marrakech-medina-street-food-walk",
@@ -387,6 +393,14 @@
         "distinctive_text": "A flexible three-night outline",
         "stay22_present": true
       }
+    },
+    {
+      "id": "sossusvlei-sunrise-from-sesriem",
+      "category": "travel_insights",
+      "status": "complete",
+      "commit": "a66f54faba567ba8c1e6e9c0c091b1f977a319f5",
+      "email_id": "1a186aeff55ad4a2",
+      "note": "Live HTTP 200; Netlify deployment ready for article commit and subsequent photo-only main deploy also ready; CMS source_commit 8e6d0d83a269205465e503f7bd546f4081478970 matches current deployment."
     }
   ],
   "rendering_correction": {
@@ -432,11 +446,19 @@
   },
   "latest_run_checkpoint": {
     "date": "2026-10-29",
-    "action": "Prepared a substantial Sossusvlei-at-first-light Travel Insight focused on Sesriem lodging/access choices, current final-section transport uncertainty and realistic two-night pacing.",
-    "public_changes": false,
-    "next_action": "Publish and verify production, confirm CMS source_commit, and send the owner report. Keep the six-photo insight follow-up separate.",
+    "action": "Published Sossusvlei-at-first-light Travel Insight; production page, linked guides, source section and CMS mirror source_commit confirmed; owner report sent.",
+    "public_changes": true,
+    "next_action": "Next category: destinations. Retain six-subject licensed-photo follow-up.",
     "ledger": "docs/editorial-research/2026-10-29-sossusvlei-sunrise.md",
-    "image_count": 0
+    "commit": "a66f54faba567ba8c1e6e9c0c091b1f977a319f5",
+    "deployment_id": "6ae2fd17895fdf686b13157e",
+    "live_verification": {
+      "url": "https://trekafricaguide.com/travel-insights/plan-a-sossusvlei-sunrise-from-sesriem/",
+      "status": 200,
+      "source_commit": "8e6d0d83a269205465e503f7bd546f4081478970",
+      "images": 0
+    },
+    "email_id": "1a186aeff55ad4a2"
   },
   "usage_deferral_history": [
     {

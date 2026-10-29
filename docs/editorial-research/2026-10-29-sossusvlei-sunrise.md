@@ -27,3 +27,12 @@ No suitable, verified and licensed subject-specific set was added. Keep the page
 ## Publication checkpoint
 
 The new published Travel Insight record is in `content/editorial-overrides.json`. Next: inspect the scoped diff, commit and push to `main` after fast-forward/rebase reconciliation, verify the production page and its rendered internal links with a brief public HTTP check, confirm the CMS mirror `source_commit`, send the authorized owner update and record its receipt. No tests, local build or browser QA are planned.
+
+## Publication receipt
+
+- Editorial commit `a66f54faba567ba8c1e6e9c0c091b1f977a319f5` was rebased over the intervening photo commits and pushed to `main`; the unrelated deployment ZIP remained untouched.
+- Netlify deployment `6ae2fd17895fdf686b13157e` is `ready` for the article commit. A subsequent photo-only deployment `8e6d0d83a269205465e503f7bd546f4081478970` is also ready and includes the article.
+- The public article URL returned HTTP 200. Rendered page inspection confirmed the new title and body, both internal guide links, official visa portal, visible source section and no exposed markup.
+- Supabase `public.editorial_documents` confirms entity `travel_articles`, slug `plan-a-sossusvlei-sunrise-from-sesriem`, status `published`, title and 9,579-character body. Its `source_commit` matches the latest production build, `8e6d0d83a269205465e503f7bd546f4081478970`.
+- Owner report sent to the configured address on 29 October 2026; Gmail message ID `1a186aeff55ad4a2`.
+- No tests, local build or browser QA were run. The authorized main push triggered the production build. Six accurate, licensed image subjects remain tracked separately; current image count is zero.
