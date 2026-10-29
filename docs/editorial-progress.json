@@ -272,25 +272,21 @@
     "email_id": "1a143a69416cf3d1"
   },
   "rotation": {
-    "last_completed_category": "accommodations",
-    "next_category": "travel_insights",
-    "next_deliverable": "One complete useful Travel Insight; keep property-photo gaps as separate follow-ups.",
+    "last_completed_category": "travel_insights",
+    "next_category": "destinations",
+    "next_deliverable": "One complete destination guide, while keeping all existing exact-property and insight photo gaps separate.",
     "rule": "Finish the individual deliverable and report its live state, then rotate. Track exact-property photo gaps separately.",
     "override_reason": null
   },
   "current_deliverable": {
-    "id": "ridge-royal-hotel-refresh",
-    "category": "accommodations",
-    "status": "complete",
-    "last_action": "Published Ridge Royal Hotel accommodation refresh with exact Booking.com detail destination in Stay22 and retained Cape Coast Kakum relationship; live page, CTA, CMS source_commit and owner email are confirmed.",
-    "next_action": "Next editorial category: travel insights. Keep the separate Ridge Royal six-photo shortfall and other licensed property-photo backlogs tracked independently.",
-    "checkpoint": "docs/editorial-research/2026-10-28-ridge-royal-hotel.md",
-    "commit": "a28e2547734700e6af6b2a4a8f2ed3ae20f2a0f6",
-    "live_url": "https://trekafricaguide.com/accommodations/ridge-royal-hotel",
-    "live_verification": "HTTP 200; refreshed text and anchor destinations confirmed; no exposed markup.",
-    "images": 0,
-    "photo_followup": "Separate six-subject exact-property collection: exterior/signage, standard room, chalet, bathroom, dining room, pool/gym or grounds.",
-    "report_message_id": "1a1815e6cc730e2f"
+    "id": "sossusvlei-sunrise-from-sesriem",
+    "category": "travel_insights",
+    "status": "in_progress",
+    "last_action": "Drafted a new Sesriem-based Sossusvlei planning insight with cautious treatment of changed final-section access rules.",
+    "next_action": "Publish to main, verify production content and CMS source_commit, send owner report, and record receipt.",
+    "checkpoint": "docs/editorial-research/2026-10-29-sossusvlei-sunrise.md",
+    "photo_followup": "Six separately sourced images: Sesriem outer gate, inner access sign, Dune 45, Deadvlei pan and camelthorn trees, Sossusvlei pan/dune edge, Sesriem Canyon. Keep neutral until accurately identified reusable files are available.",
+    "images": 0
   },
   "previous_deliverable_correction": {
     "id": "marrakech-medina-street-food-walk",
@@ -435,22 +431,12 @@
     "verification": "Brief JSON/content inspection, 24 internal HTTP checks and 14 live rendered checks. No test suite or local build. Existing production exposed-markup guard preserved."
   },
   "latest_run_checkpoint": {
-    "date": "2026-10-28",
-    "action": "Published Ridge Royal Hotel accommodation refresh with exact Booking.com detail destination in Stay22 and retained Cape Coast Kakum relationship; live page, CTA, CMS source_commit and owner email are confirmed.",
-    "public_changes": true,
-    "next_action": "Next editorial category: travel insights. Keep the separate Ridge Royal six-photo shortfall and other licensed property-photo backlogs tracked independently.",
-    "ledger": "docs/editorial-research/2026-10-28-ridge-royal-hotel.md",
-    "commit": "a28e2547734700e6af6b2a4a8f2ed3ae20f2a0f6",
-    "deployment_id": "6ae1a086ef6e56d297b99290",
-    "live_verification": {
-      "url": "https://trekafricaguide.com/accommodations/ridge-royal-hotel",
-      "status": 200,
-      "source_commit": "a28e2547734700e6af6b2a4a8f2ed3ae20f2a0f6",
-      "stay22_destination": "https://www.booking.com/hotel/gh/ridge-royal-cape-coast.en-gb.html",
-      "canonical_attraction": "/attractions/cape-coast-kakum",
-      "images": 0
-    },
-    "email_id": "1a1815e6cc730e2f"
+    "date": "2026-10-29",
+    "action": "Prepared a substantial Sossusvlei-at-first-light Travel Insight focused on Sesriem lodging/access choices, current final-section transport uncertainty and realistic two-night pacing.",
+    "public_changes": false,
+    "next_action": "Publish and verify production, confirm CMS source_commit, and send the owner report. Keep the six-photo insight follow-up separate.",
+    "ledger": "docs/editorial-research/2026-10-29-sossusvlei-sunrise.md",
+    "image_count": 0
   },
   "usage_deferral_history": [
     {
