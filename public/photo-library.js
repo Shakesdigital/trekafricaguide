@@ -1,7 +1,7 @@
 // Curated source. Run node scripts/sync-photo-library.mjs after editing.
 // Curated free photography; source and licence metadata travel with each image.
 export const photoLibrary = {
-  "updated_at": "2026-10-28",
+  "updated_at": "2026-10-29",
   "images": {
     "/images/editorial/sahara-dunes-attraction/erg-chebbi-dunes-kees-van-leeuwen.jpg": {
       "slug": "erg-chebbi-dunes-kees-van-leeuwen",
@@ -7021,6 +7021,86 @@ export const photoLibrary = {
       "changes": "Downloaded from the Unsplash CDN at 1800 pixels wide with aspect ratio preserved; no other edits.",
       "checked_at": "2026-10-28",
       "reuse_note": "Unsplash License permits commercial website use without public attribution. The image is illustrative and is not a guaranteed wildlife sighting or representation of a particular trekking group, operator, or visitor."
+    },
+    "/images/editorial/botswana-country/botswana-chobe-elephants-ed-wingate.jpg": {
+      "slug": "botswana-chobe-elephants-ed-wingate",
+      "local_path": "/images/editorial/botswana-country/botswana-chobe-elephants-ed-wingate.jpg",
+      "source_page": "https://unsplash.com/photos/elephants-gathered-near-a-watering-hole-in-a-dry-landscape-lY0s8dN3g1U",
+      "source_revision": "Unsplash photo lY0s8dN3g1U, checked 2026-10-29",
+      "creator": "Ed Wingate",
+      "license": "Unsplash License",
+      "license_url": "https://unsplash.com/license",
+      "source_published_at": "2025-09-30",
+      "sha256": "d93898751c14198fdf1431be1d1d8c0fd5e05e12c4ac0b31f2a662d46216f35a",
+      "exact_subject": true,
+      "subject": "Elephants and deer drinking from a river in Chobe National Park, Botswana",
+      "alt": "Elephants and deer drink from a river in Chobe National Park, Botswana; an illustrative regional wildlife photo.",
+      "property": false,
+      "kind": "photograph",
+      "requires_attribution": false,
+      "changes": "Downloaded from the Unsplash CDN at up to 1800 pixels wide with aspect ratio preserved; no other edits.",
+      "checked_at": "2026-10-29",
+      "reuse_note": "Unsplash License permits commercial website use without public attribution. This is an illustrative regional example and does not imply a particular camp, itinerary, operator, or guaranteed wildlife sighting."
+    },
+    "/images/editorial/botswana-country/botswana-okavango-aerial-ulrico-zampa.jpg": {
+      "slug": "botswana-okavango-aerial-ulrico-zampa",
+      "local_path": "/images/editorial/botswana-country/botswana-okavango-aerial-ulrico-zampa.jpg",
+      "source_page": "https://unsplash.com/photos/a-large-body-of-water-surrounded-by-land-ruFG9syHEn4",
+      "source_revision": "Unsplash photo ruFG9syHEn4, checked 2026-10-29",
+      "creator": "Ulrico Zampa",
+      "license": "Unsplash License",
+      "license_url": "https://unsplash.com/license",
+      "source_published_at": "2023-04-02",
+      "sha256": "ae4ef0ad313361e6527b4865a0759acbef5d8a309ecf6732dbce814878cab293",
+      "exact_subject": true,
+      "subject": "A large body of water surrounded by land in the Okavango Delta, Botswana",
+      "alt": "Aerial view across water and vegetated land in the Okavango Delta, Botswana.",
+      "property": false,
+      "kind": "photograph",
+      "requires_attribution": false,
+      "changes": "Downloaded from the Unsplash CDN at up to 1800 pixels wide with aspect ratio preserved; no other edits.",
+      "checked_at": "2026-10-29",
+      "reuse_note": "Unsplash License permits commercial website use without public attribution. This is an illustrative regional example and does not imply a particular camp, itinerary, operator, or guaranteed wildlife sighting."
+    },
+    "/images/editorial/botswana-country/botswana-chobe-lioness-cub-geranimo.jpg": {
+      "slug": "botswana-chobe-lioness-cub-geranimo",
+      "local_path": "/images/editorial/botswana-country/botswana-chobe-lioness-cub-geranimo.jpg",
+      "source_page": "https://unsplash.com/photos/two-lioness-on-green-plants-yKiLWMWquKE",
+      "source_revision": "Unsplash photo yKiLWMWquKE, checked 2026-10-29",
+      "creator": "Geranimo",
+      "license": "Unsplash License",
+      "license_url": "https://unsplash.com/license",
+      "source_published_at": "2017-08-31",
+      "sha256": "8648de05364e5702c19ede98bddd0f344cecd784e97b304c2a005a649a03a343",
+      "exact_subject": true,
+      "subject": "A lioness and her cub in Chobe National Park, Botswana",
+      "alt": "A lioness and cub among green plants in Chobe National Park, Botswana; an illustrative regional wildlife photo.",
+      "property": false,
+      "kind": "photograph",
+      "requires_attribution": false,
+      "changes": "Downloaded from the Unsplash CDN at up to 1800 pixels wide with aspect ratio preserved; no other edits.",
+      "checked_at": "2026-10-29",
+      "reuse_note": "Unsplash License permits commercial website use without public attribution. This is an illustrative regional example and does not imply a particular camp, itinerary, operator, or guaranteed wildlife sighting."
+    },
+    "/images/editorial/botswana-country/botswana-chobe-sable-antelope-chris-stenger.jpg": {
+      "slug": "botswana-chobe-sable-antelope-chris-stenger",
+      "local_path": "/images/editorial/botswana-country/botswana-chobe-sable-antelope-chris-stenger.jpg",
+      "source_page": "https://unsplash.com/photos/black-and-brown-animal-on-brown-grass-field-during-daytime-_7g_bqkihsc",
+      "source_revision": "Unsplash photo _7g_bqkihsc, checked 2026-10-29",
+      "creator": "Chris Stenger",
+      "license": "Unsplash License",
+      "license_url": "https://unsplash.com/license",
+      "source_published_at": "2021-03-08",
+      "sha256": "27facc302b929f3ab53016f23aac57c036c424e9104a9c47dbc85d84f39f9179",
+      "exact_subject": true,
+      "subject": "A sable antelope standing in dry grass in Chobe National Park, Botswana",
+      "alt": "Sable antelope in Chobe National Park, Botswana; an illustrative regional wildlife photo.",
+      "property": false,
+      "kind": "photograph",
+      "requires_attribution": false,
+      "changes": "Downloaded from the Unsplash CDN at up to 1800 pixels wide with aspect ratio preserved; no other edits.",
+      "checked_at": "2026-10-29",
+      "reuse_note": "Unsplash License permits commercial website use without public attribution. This is an illustrative regional example and does not imply a particular camp, itinerary, operator, or guaranteed wildlife sighting."
     }
   },
   "listings": {
@@ -7450,7 +7530,11 @@ export const photoLibrary = {
         "replaces": [],
         "gallery": [
           "/images/stock/destinations/okavango-delta.jpg",
-          "/images/stock/starter/okavango-delta.jpg"
+          "/images/stock/starter/okavango-delta.jpg",
+          "/images/editorial/botswana-country/botswana-chobe-elephants-ed-wingate.jpg",
+          "/images/editorial/botswana-country/botswana-okavango-aerial-ulrico-zampa.jpg",
+          "/images/editorial/botswana-country/botswana-chobe-lioness-cub-geranimo.jpg",
+          "/images/editorial/botswana-country/botswana-chobe-sable-antelope-chris-stenger.jpg"
         ]
       },
       "cabo-verde": {
