@@ -1,55 +1,36 @@
 {
   "updated_at": "2026-10-29",
   "current_run": {
-    "id": "sierra-leone-country-two-no-attribution-photo-enrichment",
-    "page_url": "https://trekafricaguide.com/countries/sierra-leone",
-    "page_type": "country",
-    "status": "complete_live_confirmed",
-    "previous_photo_count": 2,
-    "photo_count": 4,
-    "new_photo_count": 2,
+    "id": "volcanoes-gorilla-trek-no-new-photo-repeat-gap-checkpoint",
+    "page_url": "https://trekafricaguide.com/activities/volcanoes-gorilla-trek/",
+    "page_type": "activity",
+    "status": "no_new_photo_repeat_gap_checkpoint",
+    "previous_photo_count": 3,
+    "photo_count": 3,
+    "new_photo_count": 0,
     "checked_date": "2026-10-29",
-    "started_at": "2026-10-29 16:14 Africa/Kampala",
-    "initial_live_verification": "Production country page returned HTTP 200 with two assigned gallery images: River Number Two canoe and Tokeh Beach, both existing CC BY-SA images. There are no inline article images. Full guide covers Freetown Peninsula, Tokeh and River Number Two; existing required credits remain unchanged.",
-    "note": "Added two visually inspected Unsplash License photos requiring no public attribution: people-free seating at Lumley Beach in Freetown and a Freetown city-to-coast panorama. Exact location evidence is on both primary source pages. New source URLs and SHA-256 hashes were checked against existing photo records and all public image files; no duplicates. Other bounded candidates showed identifiable residents/minors, private homes or unrelated beach waste and were excluded. This is a useful partial set; guide copy and protected behavior are unchanged.",
-    "source_ledger": "docs/editorial-research/2026-10-29-sierra-leone-country-photo-enrichment.md",
+    "started_at": "2026-10-29 18:10 Africa/Kampala",
+    "initial_live_verification": "Production activity page returned HTTP 200 and displayed See all 3 images: two existing default images and the previously added Kinigi silverback. There are no inline article photographs. Full guide reviewed; it describes Kinigi registration, ranger-led forest terrain, variable walk length and permits/transfers.",
+    "note": "This preserves the already-documented exhausted three-photo partial from 2026-10-26; it is not a new sourcing failure. One bounded non-portrait source screen did not establish a suitable new exact-Rwanda image with no public attribution. Other results were another gorilla portrait, a view of Bisate Lodge rather than a trek/briefing location, or scenery without Rwanda location evidence. No images/assets/library entries or guide copy changed.",
+    "source_ledger": "docs/editorial-research/2026-10-29-volcanoes-gorilla-trek-photo-checkpoint.md",
     "files": [
-      "src/lib/photo-library.js",
-      "public/photo-library.js",
-      "public/images/editorial/sierra-leone-country/",
-      "docs/editorial-research/2026-10-29-sierra-leone-country-photo-enrichment.md",
-      "docs/image-enrichment-progress.json",
+      "docs/editorial-research/2026-10-29-volcanoes-gorilla-trek-photo-checkpoint.md",
       "docs/image-enrichment-progress.json"
     ],
-    "next_action": "Continue only if distinct, exact-location Sierra Leone photos with no public-attribution requirements are found; otherwise rotate to another evidenced gap.",
-    "published_commit": "eef2c7a4bef1f5e832641bdef2cf2cdf57258e24",
-    "pushed_at": "2026-10-29 16:50 Africa/Kampala",
-    "netlify_deploy": "6ae34f3ca3ac7b81469b2a48",
+    "next_action": "Select a genuinely fresh underfilled published guide on the next run; do not repeat this partial unless a distinct, exact-Rwanda, no-public-attribution source emerges.",
+    "netlify_deploy": "6ae35cb3748b95060edf00d0",
     "live_verification": {
-      "checked_at": "2026-10-29 16:52 Africa/Kampala",
-      "deploy_state": "ready",
-      "deployed_commit": "eef2c7a4bef1f5e832641bdef2cf2cdf57258e24",
+      "checked_at": "2026-10-29 18:14 Africa/Kampala",
+      "deploy_state": "no_content_change",
+      "current_production_deploy": "6ae35cb3748b95060edf00d0",
+      "deployed_commit": "ed2df1ad314c6b402c9ac6d81e282c47cd429f96",
       "page_http_status": 200,
-      "gallery_count": 4,
-      "all_new_image_filenames_in_full_gallery": true,
-      "visible_grid_tiles": 4,
-      "see_all_text": "See all 4 images",
-      "existing_attribution_still_visible": true,
-      "asset_http_statuses": [
-        200,
-        200
-      ],
-      "asset_content_types": [
-        "image/jpeg",
-        "image/jpeg"
-      ],
-      "asset_content_lengths": [
-        253246,
-        256193
-      ]
+      "gallery_count": 3,
+      "see_all_text": "See all 3 images",
+      "note": "No page or asset changes in this run. The current production deploy is ready for ed2df1a; the live activity remains unchanged."
     },
-    "email_id": "1a187ef71a01be31",
-    "report_sent_at": "2026-10-29 16:53 Africa/Kampala"
+    "email_id": "1a1883aa6be2a4e9",
+    "report_sent_at": "2026-10-29 18:15 Africa/Kampala"
   },
   "follow_ups": [
     {
@@ -91,6 +72,38 @@
     "resolved_at": "2026-10-21 13:16 Africa/Kampala"
   },
   "completed_runs": [
+    {
+      "id": "volcanoes-gorilla-trek-no-new-photo-repeat-gap-checkpoint",
+      "page_url": "https://trekafricaguide.com/activities/volcanoes-gorilla-trek/",
+      "page_type": "activity",
+      "status": "no_new_photo_repeat_gap_checkpoint",
+      "previous_photo_count": 3,
+      "photo_count": 3,
+      "new_photo_count": 0,
+      "checked_date": "2026-10-29",
+      "started_at": "2026-10-29 18:10 Africa/Kampala",
+      "initial_live_verification": "Production activity page returned HTTP 200 and displayed See all 3 images: two existing default images and the previously added Kinigi silverback. There are no inline article photographs. Full guide reviewed; it describes Kinigi registration, ranger-led forest terrain, variable walk length and permits/transfers.",
+      "note": "This preserves the already-documented exhausted three-photo partial from 2026-10-26; it is not a new sourcing failure. One bounded non-portrait source screen did not establish a suitable new exact-Rwanda image with no public attribution. Other results were another gorilla portrait, a view of Bisate Lodge rather than a trek/briefing location, or scenery without Rwanda location evidence. No images/assets/library entries or guide copy changed.",
+      "source_ledger": "docs/editorial-research/2026-10-29-volcanoes-gorilla-trek-photo-checkpoint.md",
+      "files": [
+        "docs/editorial-research/2026-10-29-volcanoes-gorilla-trek-photo-checkpoint.md",
+        "docs/image-enrichment-progress.json"
+      ],
+      "next_action": "Select a genuinely fresh underfilled published guide on the next run; do not repeat this partial unless a distinct, exact-Rwanda, no-public-attribution source emerges.",
+      "netlify_deploy": "6ae35cb3748b95060edf00d0",
+      "live_verification": {
+        "checked_at": "2026-10-29 18:14 Africa/Kampala",
+        "deploy_state": "no_content_change",
+        "current_production_deploy": "6ae35cb3748b95060edf00d0",
+        "deployed_commit": "ed2df1ad314c6b402c9ac6d81e282c47cd429f96",
+        "page_http_status": 200,
+        "gallery_count": 3,
+        "see_all_text": "See all 3 images",
+        "note": "No page or asset changes in this run. The current production deploy is ready for ed2df1a; the live activity remains unchanged."
+      },
+      "email_id": "1a1883aa6be2a4e9",
+      "report_sent_at": "2026-10-29 18:15 Africa/Kampala"
+    },
     {
       "id": "sierra-leone-country-two-no-attribution-photo-enrichment",
       "page_url": "https://trekafricaguide.com/countries/sierra-leone",
