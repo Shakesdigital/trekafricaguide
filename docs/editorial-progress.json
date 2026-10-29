@@ -281,9 +281,9 @@
   "current_deliverable": {
     "id": "sossusvlei-sunrise-from-sesriem",
     "category": "travel_insights",
-    "status": "complete",
-    "last_action": "Published and corrected the Sossusvlei insight: fixed its Namib attraction link, replaced nonofficial lodging domains with NWR official sources, and narrowed concession attribution to the actual MEFT statement.",
-    "next_action": "Next category: destinations. Keep the separate six-subject licensed-photo follow-up.",
+    "status": "withdrawn_by_owner",
+    "last_action": "Owner requested removal on 29 October 2026. Article set to draft; do not republish or continue its photo collection without a new owner request.",
+    "next_action": "Confirm public removal, then retain destinations as next category.",
     "checkpoint": "docs/editorial-research/2026-10-29-sossusvlei-sunrise.md",
     "photo_followup": "Six separately sourced images: Sesriem outer gate, inner access sign, Dune 45, Deadvlei pan and camelthorn trees, Sossusvlei pan/dune edge, Sesriem Canyon. Keep neutral until accurately identified reusable files are available.",
     "images": 0,
@@ -601,5 +601,8 @@
     "action": "Aligned stale current_deliverable and rotation with the existing Ridge Royal publication and owner-report receipt. No website content changed.",
     "next_action": "Travel Insights category next.",
     "report_message_id": "1a1820e854da38bf"
-  }
+  },
+  "owner_removed_articles": [
+    "plan-a-sossusvlei-sunrise-from-sesriem"
+  ]
 }

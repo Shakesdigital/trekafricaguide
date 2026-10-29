@@ -1029,12 +1029,30 @@
       "getting_there": "Amílcar Cabral International Airport serves Sal. Confirm the exact airport on your ticket and arrange the onward transfer to your named accommodation, especially if it is outside Santa Maria. For island sightseeing, ask the driver or operator which stops are included, how long you can remain at each, whether pickup and return are door-to-door, and what happens if sea or wind conditions change. Sal is relatively flat, but distances between the southern resort area, central settlements and northern coast still make a planned vehicle useful for a multi-stop outing. If continuing to another island, compare current ferry and flight schedules before buying connecting transport or booking consecutive nights; the national tourism authority confirms that inter-island links use both modes.",
       "best_time": "Cabo Verde’s official tourism guidance describes November to July as the dry season, generally favorable for beach-focused travel, and August to October as hotter, more humid, and occasionally rainy. This is broad national guidance rather than a Sal-specific forecast. Sal is exposed to Atlantic wind: wind sports may appeal in breezier conditions, while swimming and boat plans need a same-day local assessment. The Blue Eye’s appearance is light-dependent, so visitors commonly aim around midday, but weather, crowding and the sun’s position can alter the experience. Check current sea state and site access locally instead of treating any month or hour as a guarantee.",
       "practical_info": "A balanced first stay can use three unhurried blocks: settle into Santa Maria and the beach; take a dedicated island outing to the north and/or Pedra de Lume; then keep a flexible day for wind sports, a boat outing or more town time. Add days if you want lessons or multiple water activities. This is an editorial pacing suggestion, not a packaged itinerary.\n\nBefore booking a circuit, compare its exact stops and time at each stop. A September 2025 Tripadvisor visitor liked the island circuit but wished for more time at Buracona; another 2025 family review described difficulty finding the route after leaving Palmeira. In contrast, a July 2025 reviewer criticized queues and the short window of the blue light effect. These individual reports suggest asking about the planned arrival time, time allowed, route guidance and whether stops are fixed. They do not predict current queues, conditions or service.\n\nSea access varies along Sal’s coast. Ask a qualified local operator about surf, currents and suitable entry points before swimming, snorkeling, diving or taking a boat. Do not enter the natural pools or exposed shoreline because a photograph shows someone doing so. For kiteboarding, windsurfing or surfing, confirm equipment, instruction level and cancellation terms directly. At Pedra de Lume, follow the heritage site’s access instructions and avoid touching or removing material. Ask before photographing residents, workers or private property.\n\nChoose accommodation by the trip you want: Santa Maria is useful for combining beach time with town services; a resort outside town may suit a self-contained stay but needs you to check shuttle schedules and meal arrangements. Sal’s international airport and popular beach infrastructure make travel relatively straightforward, but an all-inclusive shoreline holiday will reveal less of everyday island life unless you deliberately leave time for town, local food and the historic salt landscape. Bring sun protection, water, footwear suitable for rough volcanic surfaces and a light wind layer; keep your phone and valuables secure around water and boat transfers.",
-      "highlights": ["Beach and town time in Santa Maria", "The historic salt landscape inside Pedra de Lume’s volcanic crater", "A north-coast outing to Buracona and other named island sites", "Wind and sea activities chosen to match the day’s conditions", "A compact island base with straightforward onward planning"],
+      "highlights": [
+        "Beach and town time in Santa Maria",
+        "The historic salt landscape inside Pedra de Lume’s volcanic crater",
+        "A north-coast outing to Buracona and other named island sites",
+        "Wind and sea activities chosen to match the day’s conditions",
+        "A compact island base with straightforward onward planning"
+      ],
       "research_sources": [
-        {"label": "Cabo Verde tourism authority: Sal Island, airport and named places", "url": "https://turismo.cv/page/sal"},
-        {"label": "Cabo Verde Institute of Cultural Heritage: Pedra de Lume salt works and historic industrial settlement", "url": "https://ipc.cv/en/monumento-e-sitio/salinas-de-pedra-de-lume-patrimonio-nacional/"},
-        {"label": "Cabo Verde tourism authority: national seasonal guidance and transport between islands", "url": "https://www.visit-caboverde.com/en/travel-wise/faq"},
-        {"label": "Tripadvisor: Buracona visitor feedback with dated 2025 reviews", "url": "https://www.tripadvisor.com/Attraction_Review-g482847-d2364257-Reviews-Buracona_Olho_Azul-Ilha_do_Sal.html"}
+        {
+          "label": "Cabo Verde tourism authority: Sal Island, airport and named places",
+          "url": "https://turismo.cv/page/sal"
+        },
+        {
+          "label": "Cabo Verde Institute of Cultural Heritage: Pedra de Lume salt works and historic industrial settlement",
+          "url": "https://ipc.cv/en/monumento-e-sitio/salinas-de-pedra-de-lume-patrimonio-nacional/"
+        },
+        {
+          "label": "Cabo Verde tourism authority: national seasonal guidance and transport between islands",
+          "url": "https://www.visit-caboverde.com/en/travel-wise/faq"
+        },
+        {
+          "label": "Tripadvisor: Buracona visitor feedback with dated 2025 reviews",
+          "url": "https://www.tripadvisor.com/Attraction_Review-g482847-d2364257-Reviews-Buracona_Olho_Azul-Ilha_do_Sal.html"
+        }
       ],
       "traveler_feedback": "Tripadvisor traveler perspectives checked 27 October 2026: visitors writing in July and September 2025 described Buracona’s blue light effect as most striking around midday; one island-circuit visitor wanted more time at the stop, while another reviewer mentioned queues and difficulty finding the turnoff from Palmeira. These are individual experiences and may not reflect current operations. No aggregate Sal Island rating, review total or firsthand visit is claimed.",
       "rating": null,
@@ -3810,7 +3828,7 @@
         }
       ],
       "last_researched": "2026-10-29",
-      "status": "published",
+      "status": "draft",
       "published_at": "2026-10-29T00:00:00+03:00",
       "featured": false,
       "sort_order": 57,
