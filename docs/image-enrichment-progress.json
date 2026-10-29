@@ -4,7 +4,7 @@
     "id": "botswana-country-four-no-attribution-photo-enrichment",
     "page_url": "https://trekafricaguide.com/countries/botswana/",
     "page_type": "country",
-    "status": "pending_publish",
+    "status": "complete_live_confirmed",
     "previous_photo_count": 2,
     "photo_count": 6,
     "new_photo_count": 4,
@@ -20,7 +20,40 @@
       "docs/editorial-research/2026-10-29-botswana-country-photo-enrichment.md",
       "docs/image-enrichment-progress.json"
     ],
-    "next_action": "Publish own gallery changes while preserving concurrent editorial; confirm production deploy, six-photo page and four JPEG assets; then send one source-free owner report and record receipt."
+    "next_action": "Rotate from country guides to another viable underfilled category while preserving exact-location and no-public-attribution standards.",
+    "published_commit": "58645e226d84da3fe6578e1cb2a824b7dec800a5",
+    "pushed_at": "2026-10-29 10:58 Africa/Kampala",
+    "netlify_deploy": "6ae2fc9ae84ce5170d22ed7d",
+    "live_verification": {
+      "checked_at": "2026-10-29 11:00 Africa/Kampala",
+      "deploy_state": "ready",
+      "deployed_commit": "58645e226d84da3fe6578e1cb2a824b7dec800a5",
+      "page_http_status": 200,
+      "gallery_count": 6,
+      "all_new_image_filenames_in_full_gallery": true,
+      "see_all_text": "See all 6 images",
+      "existing_attribution_still_visible": true,
+      "asset_http_statuses": [
+        200,
+        200,
+        200,
+        200
+      ],
+      "asset_content_types": [
+        "image/jpeg",
+        "image/jpeg",
+        "image/jpeg",
+        "image/jpeg"
+      ],
+      "asset_content_lengths": [
+        533332,
+        508020,
+        288016,
+        536227
+      ]
+    },
+    "email_id": "1a186acb41f0de7c",
+    "report_sent_at": "2026-10-29 11:00 Africa/Kampala"
   },
   "follow_ups": [
     {
@@ -62,6 +95,61 @@
     "resolved_at": "2026-10-21 13:16 Africa/Kampala"
   },
   "completed_runs": [
+    {
+      "id": "botswana-country-four-no-attribution-photo-enrichment",
+      "page_url": "https://trekafricaguide.com/countries/botswana/",
+      "page_type": "country",
+      "status": "complete_live_confirmed",
+      "previous_photo_count": 2,
+      "photo_count": 6,
+      "new_photo_count": 4,
+      "checked_date": "2026-10-29",
+      "started_at": "2026-10-29 10:52 Africa/Kampala",
+      "initial_live_verification": "Production country detail returned HTTP 200; its full gallery showed two default/assigned Okavango photos, with no inline article images. The full guide covers the Okavango Delta, Chobe, wetland/dryland settings and conservation travel. Existing credits to Joachim Huber (CC BY-SA 2.0) and Mmuso Nare (CC BY-SA 4.0) remain unchanged.",
+      "note": "Added four visually reviewed Unsplash License images requiring no public attribution: exact Chobe river wildlife, an Okavango Delta aerial, Chobe lioness/cub, and Chobe sable antelope. The source pages identify these Botswana locations. Source IDs are absent from existing photo records and global local SHA-256 dedup is clear. These are regional examples, not guaranteed sightings or specific itinerary/camp/operator imagery. No copy or protected site behavior changed.",
+      "source_ledger": "docs/editorial-research/2026-10-29-botswana-country-photo-enrichment.md",
+      "files": [
+        "src/lib/photo-library.js",
+        "public/photo-library.js",
+        "public/images/editorial/botswana-country/",
+        "docs/editorial-research/2026-10-29-botswana-country-photo-enrichment.md",
+        "docs/image-enrichment-progress.json"
+      ],
+      "next_action": "Rotate from country guides to another viable underfilled category while preserving exact-location and no-public-attribution standards.",
+      "published_commit": "58645e226d84da3fe6578e1cb2a824b7dec800a5",
+      "pushed_at": "2026-10-29 10:58 Africa/Kampala",
+      "netlify_deploy": "6ae2fc9ae84ce5170d22ed7d",
+      "live_verification": {
+        "checked_at": "2026-10-29 11:00 Africa/Kampala",
+        "deploy_state": "ready",
+        "deployed_commit": "58645e226d84da3fe6578e1cb2a824b7dec800a5",
+        "page_http_status": 200,
+        "gallery_count": 6,
+        "all_new_image_filenames_in_full_gallery": true,
+        "see_all_text": "See all 6 images",
+        "existing_attribution_still_visible": true,
+        "asset_http_statuses": [
+          200,
+          200,
+          200,
+          200
+        ],
+        "asset_content_types": [
+          "image/jpeg",
+          "image/jpeg",
+          "image/jpeg",
+          "image/jpeg"
+        ],
+        "asset_content_lengths": [
+          533332,
+          508020,
+          288016,
+          536227
+        ]
+      },
+      "email_id": "1a186acb41f0de7c",
+      "report_sent_at": "2026-10-29 11:00 Africa/Kampala"
+    },
     {
       "id": "bwindi-gorilla-trekking-four-no-attribution-photos",
       "page_url": "https://trekafricaguide.com/activities/bwindi-gorilla-trekking/",

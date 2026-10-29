@@ -20,3 +20,5 @@ The photo library records each source URL and revision, creator, license and lic
 ## Publication record
 
 Four images bring the assigned collection from two to six. The old CC BY/CC BY-SA photos remain, with their visible credits. No source links or new public attribution are added to page copy. Record the confirmed commit, deployment, live gallery/assets and one source-free owner report below.
+
+Production publication was confirmed on 29 October 2026 at 11:00 Africa/Kampala. Commit `58645e226d84da3fe6578e1cb2a824b7dec800a5` was pushed to `main`; Netlify production deploy `6ae2fc9ae84ce5170d22ed7d` is ready for that exact commit. The live country page returned HTTP 200, reports “See all 6 images,” contains all four new filenames, and still displays the original creator credits. Each new asset returned HTTP 200 `image/jpeg`; response lengths match local files: 533332, 508020, 288016 and 536227 bytes. One source-free owner email was sent at 11:00 Africa/Kampala; its Gmail receipt is recorded in the progress ledger.
