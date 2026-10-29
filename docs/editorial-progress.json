@@ -282,17 +282,33 @@
     "id": "sossusvlei-sunrise-from-sesriem",
     "category": "travel_insights",
     "status": "complete",
-    "last_action": "Published Sossusvlei-at-first-light Travel Insight; production page, linked guides, source section and CMS mirror source_commit confirmed; owner report sent.",
-    "next_action": "Next category: destinations. Track the separate six-subject licensed-photo follow-up.",
+    "last_action": "Published and corrected the Sossusvlei insight: fixed its Namib attraction link, replaced nonofficial lodging domains with NWR official sources, and narrowed concession attribution to the actual MEFT statement.",
+    "next_action": "Next category: destinations. Keep the separate six-subject licensed-photo follow-up.",
     "checkpoint": "docs/editorial-research/2026-10-29-sossusvlei-sunrise.md",
     "photo_followup": "Six separately sourced images: Sesriem outer gate, inner access sign, Dune 45, Deadvlei pan and camelthorn trees, Sossusvlei pan/dune edge, Sesriem Canyon. Keep neutral until accurately identified reusable files are available.",
     "images": 0,
-    "commit": "a66f54faba567ba8c1e6e9c0c091b1f977a319f5",
+    "commit": "e418749a355c34129015045c30862fea7cffa8d2",
     "live_url": "https://trekafricaguide.com/travel-insights/plan-a-sossusvlei-sunrise-from-sesriem/",
-    "deployment_id": "6ae2fd17895fdf686b13157e",
-    "cms_source_commit": "8e6d0d83a269205465e503f7bd546f4081478970",
-    "live_verification": "HTTP 200; title, new body, internal links, official visa link and visible sources confirmed; no exposed markup.",
-    "email_id": "1a186aeff55ad4a2"
+    "deployment_id": "6ae3211dd5bbb794c3bfcfbb",
+    "cms_source_commit": "e418749a355c34129015045c30862fea7cffa8d2",
+    "live_verification": "HTTP 200; Namib Desert canonical attraction link, official NWR sources and revised MEFT concession attribution confirmed; visible sources; no exposed markup.",
+    "email_id": "1a186aeff55ad4a2",
+    "review_correction": {
+      "commit": "6c5eb3d53fd316c624856330341567be534a8e81",
+      "final_commit": "e418749a355c34129015045c30862fea7cffa8d2",
+      "deployment_id": "6ae3211dd5bbb794c3bfcfbb",
+      "cms_source_commit": "e418749a355c34129015045c30862fea7cffa8d2",
+      "live_verification": "HTTP 200; Namib Desert canonical attraction link, official NWR sources and revised MEFT concession attribution confirmed; visible sources; no exposed markup.",
+      "email_ids": [
+        "1a187388b5d57fb4",
+        "1a1873a32bc36ab1"
+      ],
+      "next_category": "destinations"
+    },
+    "email_ids": [
+      "1a187388b5d57fb4",
+      "1a1873a32bc36ab1"
+    ]
   },
   "previous_deliverable_correction": {
     "id": "marrakech-medina-street-food-walk",
@@ -400,7 +416,19 @@
       "status": "complete",
       "commit": "a66f54faba567ba8c1e6e9c0c091b1f977a319f5",
       "email_id": "1a186aeff55ad4a2",
-      "note": "Live HTTP 200; Netlify deployment ready for article commit and subsequent photo-only main deploy also ready; CMS source_commit 8e6d0d83a269205465e503f7bd546f4081478970 matches current deployment."
+      "note": "Live HTTP 200; Netlify deployment ready for article commit and subsequent photo-only main deploy also ready; CMS source_commit 8e6d0d83a269205465e503f7bd546f4081478970 matches current deployment. Review correction published and CMS source_commit verified; next priority remains destinations.",
+      "review_correction": {
+        "commit": "6c5eb3d53fd316c624856330341567be534a8e81",
+        "final_commit": "e418749a355c34129015045c30862fea7cffa8d2",
+        "deployment_id": "6ae3211dd5bbb794c3bfcfbb",
+        "cms_source_commit": "e418749a355c34129015045c30862fea7cffa8d2",
+        "live_verification": "HTTP 200; Namib Desert canonical attraction link, official NWR sources and revised MEFT concession attribution confirmed; visible sources; no exposed markup.",
+        "email_ids": [
+          "1a187388b5d57fb4",
+          "1a1873a32bc36ab1"
+        ],
+        "next_category": "destinations"
+      }
     }
   ],
   "rendering_correction": {
@@ -446,19 +474,18 @@
   },
   "latest_run_checkpoint": {
     "date": "2026-10-29",
-    "action": "Published Sossusvlei-at-first-light Travel Insight; production page, linked guides, source section and CMS mirror source_commit confirmed; owner report sent.",
+    "action": "Completed a review correction to the Sossusvlei Travel Insight: repaired the Namib Desert internal link, replaced nonofficial NWR-looking domains with official Namibia Wildlife Resorts sources, and narrowed MEFT concession attribution.",
     "public_changes": true,
-    "next_action": "Next category: destinations. Retain six-subject licensed-photo follow-up.",
+    "next_action": "Next category remains destinations; keep the six-subject insight photo backlog separate.",
     "ledger": "docs/editorial-research/2026-10-29-sossusvlei-sunrise.md",
-    "commit": "a66f54faba567ba8c1e6e9c0c091b1f977a319f5",
-    "deployment_id": "6ae2fd17895fdf686b13157e",
+    "commit": "e418749a355c34129015045c30862fea7cffa8d2",
+    "deployment_id": "6ae3211dd5bbb794c3bfcfbb",
     "live_verification": {
       "url": "https://trekafricaguide.com/travel-insights/plan-a-sossusvlei-sunrise-from-sesriem/",
       "status": 200,
-      "source_commit": "8e6d0d83a269205465e503f7bd546f4081478970",
-      "images": 0
+      "source_commit": "e418749a355c34129015045c30862fea7cffa8d2"
     },
-    "email_id": "1a186aeff55ad4a2"
+    "email_id": "1a187388b5d57fb4"
   },
   "usage_deferral_history": [
     {
