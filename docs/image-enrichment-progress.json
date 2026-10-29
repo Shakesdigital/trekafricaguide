@@ -18,7 +18,19 @@
       "docs/image-enrichment-progress.json"
     ],
     "next_action": "Seek clearly public memorial architecture or unoccupied lake/boat imagery with exact-location evidence and no public attribution; otherwise rotate to a viable underfilled guide.",
-    "committed_at": "2026-10-29 12:21 Africa/Kampala"
+    "committed_at": "2026-10-29 12:21 Africa/Kampala",
+    "email_id": "1a186f7df73c2704",
+    "report_sent_at": "2026-10-29 12:22 Africa/Kampala",
+    "live_verification": {
+      "checked_at": "2026-10-29 12:23 Africa/Kampala",
+      "deploy_state": "no_content_change",
+      "current_production_deploy": "6ae2fddbbce95ad4642bf928",
+      "deployed_commit": "0281ca31c22a35d04dc01af58c40fadc22fa4409",
+      "page_http_status": 200,
+      "gallery_count": 2,
+      "all_new_image_filenames_in_full_gallery": true,
+      "note": "This run added no production assets or page changes. Netlify current production deploy remains 0281ca3; live page still returns HTTP 200 and displays See all 2 images. No asset checks apply."
+    }
   },
   "follow_ups": [
     {
@@ -78,7 +90,19 @@
         "docs/image-enrichment-progress.json"
       ],
       "next_action": "Seek clearly public memorial architecture or unoccupied lake/boat imagery with exact-location evidence and no public attribution; otherwise rotate to a viable underfilled guide.",
-      "committed_at": "2026-10-29 12:21 Africa/Kampala"
+      "committed_at": "2026-10-29 12:21 Africa/Kampala",
+      "email_id": "1a186f7df73c2704",
+      "report_sent_at": "2026-10-29 12:22 Africa/Kampala",
+      "live_verification": {
+        "checked_at": "2026-10-29 12:23 Africa/Kampala",
+        "deploy_state": "no_content_change",
+        "current_production_deploy": "6ae2fddbbce95ad4642bf928",
+        "deployed_commit": "0281ca31c22a35d04dc01af58c40fadc22fa4409",
+        "page_http_status": 200,
+        "gallery_count": 2,
+        "all_new_image_filenames_in_full_gallery": true,
+        "note": "This run added no production assets or page changes. Netlify current production deploy remains 0281ca3; live page still returns HTTP 200 and displays See all 2 images. No asset checks apply."
+      }
     },
     {
       "id": "botswana-country-four-no-attribution-photo-enrichment",
