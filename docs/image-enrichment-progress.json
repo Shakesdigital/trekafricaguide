@@ -1,36 +1,33 @@
 {
   "updated_at": "2026-10-29",
   "current_run": {
-    "id": "volcanoes-gorilla-trek-no-new-photo-repeat-gap-checkpoint",
-    "page_url": "https://trekafricaguide.com/activities/volcanoes-gorilla-trek/",
-    "page_type": "activity",
-    "status": "no_new_photo_repeat_gap_checkpoint",
-    "previous_photo_count": 3,
-    "photo_count": 3,
-    "new_photo_count": 0,
+    "id": "zimbabwe-country-victoria-falls-photo-enrichment",
+    "page_url": "https://trekafricaguide.com/countries/zimbabwe",
+    "page_type": "country",
+    "status": "assets_prepared_awaiting_publication",
+    "previous_photo_count": 2,
+    "photo_count": 6,
+    "new_photo_count": 4,
     "checked_date": "2026-10-29",
-    "started_at": "2026-10-29 18:10 Africa/Kampala",
-    "initial_live_verification": "Production activity page returned HTTP 200 and displayed See all 3 images: two existing default images and the previously added Kinigi silverback. There are no inline article photographs. Full guide reviewed; it describes Kinigi registration, ranger-led forest terrain, variable walk length and permits/transfers.",
-    "note": "This preserves the already-documented exhausted three-photo partial from 2026-10-26; it is not a new sourcing failure. One bounded non-portrait source screen did not establish a suitable new exact-Rwanda image with no public attribution. Other results were another gorilla portrait, a view of Bisate Lodge rather than a trek/briefing location, or scenery without Rwanda location evidence. No images/assets/library entries or guide copy changed.",
-    "source_ledger": "docs/editorial-research/2026-10-29-volcanoes-gorilla-trek-photo-checkpoint.md",
+    "started_at": "2026-10-29 20:15 Africa/Kampala",
+    "initial_live_verification": "Production Zimbabwe country guide returned HTTP 200 and displayed two images: the existing Victoria Falls destination default and rainforest starter default. No inline article photographs. Full guide reviewed for Zimbabwe-side Falls focus, spray-fed rainforest, variable river conditions, access and cross-border planning.",
+    "note": "Added four distinct Pexels photographs of Victoria Falls in Zimbabwe with verified no-public-attribution licensing. Each source page, creator, available publication/capture dates, exact-location evidence, visual review, and file SHA-256 are recorded in the source ledger and curated library. Existing defaults and all other credited images remain unchanged. Four source URLs and SHA-256 values were checked against the global image library; no duplicates found. Photo-library mirror sync and npm run check:build-inputs passed. Awaiting commit, push, automatic deployment and production image verification.",
+    "source_ledger": "docs/editorial-research/2026-10-29-zimbabwe-country-photo-enrichment.md",
     "files": [
-      "docs/editorial-research/2026-10-29-volcanoes-gorilla-trek-photo-checkpoint.md",
+      "src/lib/photo-library.js",
+      "public/photo-library.js",
+      "public/images/editorial/zimbabwe-country/",
+      "docs/editorial-research/2026-10-29-zimbabwe-country-photo-enrichment.md",
       "docs/image-enrichment-progress.json"
     ],
-    "next_action": "Select a genuinely fresh underfilled published guide on the next run; do not repeat this partial unless a distinct, exact-Rwanda, no-public-attribution source emerges.",
-    "netlify_deploy": "6ae35cb3748b95060edf00d0",
-    "live_verification": {
-      "checked_at": "2026-10-29 18:14 Africa/Kampala",
-      "deploy_state": "no_content_change",
-      "current_production_deploy": "6ae35cb3748b95060edf00d0",
-      "deployed_commit": "ed2df1ad314c6b402c9ac6d81e282c47cd429f96",
-      "page_http_status": 200,
-      "gallery_count": 3,
-      "see_all_text": "See all 3 images",
-      "note": "No page or asset changes in this run. The current production deploy is ready for ed2df1a; the live activity remains unchanged."
-    },
-    "email_id": "1a1883aa6be2a4e9",
-    "report_sent_at": "2026-10-29 18:15 Africa/Kampala"
+    "next_action": "Commit only this run’s files and push to main, confirm the automatic production deploy, page gallery count and new asset responses, then send the single source-free owner report and save its receipt.",
+    "publication": {
+      "commit": null,
+      "netlify_deploy": null,
+      "live_verification": null,
+      "email_id": null,
+      "report_sent_at": null
+    }
   },
   "follow_ups": [
     {
