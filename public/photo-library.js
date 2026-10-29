@@ -7101,6 +7101,48 @@ export const photoLibrary = {
       "changes": "Downloaded from the Unsplash CDN at up to 1800 pixels wide with aspect ratio preserved; no other edits.",
       "checked_at": "2026-10-29",
       "reuse_note": "Unsplash License permits commercial website use without public attribution. This is an illustrative regional example and does not imply a particular camp, itinerary, operator, or guaranteed wildlife sighting."
+    },
+    "/images/editorial/sierra-leone-country/lumley-beach-seating-random-institute.jpg": {
+      "slug": "lumley-beach-seating-random-institute",
+      "local_path": "/images/editorial/sierra-leone-country/lumley-beach-seating-random-institute.jpg",
+      "source_page": "https://unsplash.com/photos/green-and-yellow-wooden-swing-bench-on-beach-during-daytime-K5f0LovYoy0",
+      "source_revision": "Unsplash photo K5f0LovYoy0, checked 2026-10-29",
+      "creator": "Random Institute",
+      "license": "Unsplash License",
+      "license_url": "https://unsplash.com/license",
+      "source_published_at": "2020-02-25",
+      "sha256": "b20a1164ac22e1497a199ffd26acb5ad31c9e23f0799da8007648d978a7a6820",
+      "exact_subject": true,
+      "subject": "Beach bar seating on Lumley Beach Road, Freetown, Sierra Leone",
+      "alt": "Plastic chairs and parasols stand on Lumley Beach in Freetown, Sierra Leone.",
+      "property": false,
+      "kind": "photograph",
+      "requires_attribution": false,
+      "changes": "Downloaded from the Unsplash CDN at 1400 pixels wide with aspect ratio preserved; JPEG quality 82; no other edits.",
+      "checked_at": "2026-10-29",
+      "exact_subject_evidence": "The Unsplash source page describes seating at a beach bar and restaurant on Lumley Beach in Freetown and gives Lumley Beach Road, Freetown, Sierra Leone as the location. Visual review confirms chairs, parasol, sand and a beachfront building, with no people or visible brand.",
+      "reuse_note": "Unsplash License permits website use without public attribution. This is an illustrative Lumley beach scene, not Tokeh, River Number Two, a named hotel or a statement about current swimming conditions."
+    },
+    "/images/editorial/sierra-leone-country/freetown-coastline-bunting-kargbo.jpg": {
+      "slug": "freetown-coastline-bunting-kargbo",
+      "local_path": "/images/editorial/sierra-leone-country/freetown-coastline-bunting-kargbo.jpg",
+      "source_page": "https://unsplash.com/photos/a-view-of-a-city-with-a-large-body-of-water-in-the-background-pcNIJPMPY9M",
+      "source_revision": "Unsplash photo pcNIJPMPY9M, checked 2026-10-29",
+      "creator": "Bunting Amir Kargbo",
+      "license": "Unsplash License",
+      "license_url": "https://unsplash.com/license",
+      "source_published_at": "2021-09-26",
+      "sha256": "49fb7d2e2db801f0392dbd2200fa026e65ae5a34393f66188fde39a65ff4318c",
+      "exact_subject": true,
+      "subject": "Freetown cityscape and Atlantic coastline, Sierra Leone",
+      "alt": "Freetown buildings overlook the coastline and water in Sierra Leone.",
+      "property": false,
+      "kind": "photograph",
+      "requires_attribution": false,
+      "changes": "Downloaded from the Unsplash CDN at 1400 pixels wide with aspect ratio preserved; JPEG quality 82; no other edits.",
+      "checked_at": "2026-10-29",
+      "exact_subject_evidence": "The Unsplash source page identifies Freetown, Sierra Leone and names Bunting Amir Kargbo as photographer. Visual review confirms an urban waterfront panorama without identifiable people.",
+      "reuse_note": "Unsplash License permits website use without public attribution. This is an urban orientation view of Freetown, not a Tokeh or River Number Two scene, a visitor's trip or current coastal conditions."
     }
   },
   "listings": {
@@ -7623,7 +7665,9 @@ export const photoLibrary = {
         "replaces": [],
         "gallery": [
           "/images/stock/destinations/tokeh-and-river-no2.jpg",
-          "/images/stock/starter/tokeh-and-river-no2.jpg"
+          "/images/stock/starter/tokeh-and-river-no2.jpg",
+          "/images/editorial/sierra-leone-country/lumley-beach-seating-random-institute.jpg",
+          "/images/editorial/sierra-leone-country/freetown-coastline-bunting-kargbo.jpg"
         ]
       },
       "south-africa": {

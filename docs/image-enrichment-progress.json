@@ -1,36 +1,26 @@
 {
   "updated_at": "2026-10-29",
   "current_run": {
-    "id": "ouidah-ganvie-no-eligible-source-checkpoint",
-    "page_url": "https://trekafricaguide.com/attractions/ouidah-and-ganvie/",
-    "page_type": "attraction",
-    "status": "no_eligible_source_checkpoint",
+    "id": "sierra-leone-country-two-no-attribution-photo-enrichment",
+    "page_url": "https://trekafricaguide.com/countries/sierra-leone",
+    "page_type": "country",
+    "status": "published_pending_live_confirmation",
     "previous_photo_count": 2,
-    "photo_count": 2,
-    "new_photo_count": 0,
+    "photo_count": 4,
+    "new_photo_count": 2,
     "checked_date": "2026-10-29",
-    "started_at": "2026-10-29 12:16 Africa/Kampala",
-    "initial_live_verification": "Production attraction returned HTTP 200. Full gallery has two existing assignments and no inline article images. Full guide reviewed: it asks visitors to obtain permission before photographing people, homes, or religious activity. Existing required credits remain untouched.",
-    "note": "Bounded source review found exact-location Ganvie/Ouidah results but no candidate supported for responsible use under the guide's explicit privacy guidance. Excluded a Ganvie group-of-boats photo pending people/permission inspection context; excluded Ganvie and Ouidah dwelling imagery absent permission; excluded an Ouidah-tagged resort dock as mismatched to the guide. No images/assets/library entries changed. Specific candidate evidence and URLs are in the internal source ledger.",
-    "source_ledger": "docs/editorial-research/2026-10-29-ouidah-ganvie-photo-enrichment.md",
+    "started_at": "2026-10-29 16:14 Africa/Kampala",
+    "initial_live_verification": "Production country page returned HTTP 200 with two assigned gallery images: River Number Two canoe and Tokeh Beach, both existing CC BY-SA images. There are no inline article images. Full guide covers Freetown Peninsula, Tokeh and River Number Two; existing required credits remain unchanged.",
+    "note": "Added two visually inspected Unsplash License photos requiring no public attribution: people-free seating at Lumley Beach in Freetown and a Freetown city-to-coast panorama. Exact location evidence is on both primary source pages. New source URLs and SHA-256 hashes were checked against existing photo records and all public image files; no duplicates. Other bounded candidates showed identifiable residents/minors, private homes or unrelated beach waste and were excluded. This is a useful partial set; guide copy and protected behavior are unchanged.",
+    "source_ledger": "docs/editorial-research/2026-10-29-sierra-leone-country-photo-enrichment.md",
     "files": [
-      "docs/editorial-research/2026-10-29-ouidah-ganvie-photo-enrichment.md",
+      "src/lib/photo-library.js",
+      "public/photo-library.js",
+      "public/images/editorial/sierra-leone-country/",
+      "docs/editorial-research/2026-10-29-sierra-leone-country-photo-enrichment.md",
       "docs/image-enrichment-progress.json"
     ],
-    "next_action": "Seek clearly public memorial architecture or unoccupied lake/boat imagery with exact-location evidence and no public attribution; otherwise rotate to a viable underfilled guide.",
-    "committed_at": "2026-10-29 12:21 Africa/Kampala",
-    "email_id": "1a186f7df73c2704",
-    "report_sent_at": "2026-10-29 12:22 Africa/Kampala",
-    "live_verification": {
-      "checked_at": "2026-10-29 12:23 Africa/Kampala",
-      "deploy_state": "no_content_change",
-      "current_production_deploy": "6ae2fddbbce95ad4642bf928",
-      "deployed_commit": "0281ca31c22a35d04dc01af58c40fadc22fa4409",
-      "page_http_status": 200,
-      "gallery_count": 2,
-      "all_new_image_filenames_in_full_gallery": true,
-      "note": "This run added no production assets or page changes. Netlify current production deploy remains 0281ca3; live page still returns HTTP 200 and displays See all 2 images. No asset checks apply."
-    }
+    "next_action": "Continue only if distinct, exact-location Sierra Leone photos with no public-attribution requirements are found; otherwise rotate to another evidenced gap."
   },
   "follow_ups": [
     {
