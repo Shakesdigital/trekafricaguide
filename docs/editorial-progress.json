@@ -272,21 +272,26 @@
     "email_id": "1a143a69416cf3d1"
   },
   "rotation": {
-    "last_completed_category": "destinations",
-    "next_category": "accommodations",
-    "next_deliverable": "Complete Kampala accommodation guide for Fairway Boutique Hotel; keep exact-property photos as a separate follow-up.",
+    "last_completed_category": "accommodations",
+    "next_category": "travel_insights",
+    "next_deliverable": "Select one practical, source-backed Travel Insight; keep the exact-property Fairway photo follow-up separate.",
     "rule": "Finish the individual deliverable and report its live state, then rotate. Track exact-property photo gaps separately.",
     "override_reason": null
   },
   "current_deliverable": {
     "id": "fairway-boutique-hotel",
     "category": "accommodations",
-    "status": "ready_for_publication",
-    "last_action": "Completed full guide and claim-level ledger. Added the canonical property, exact Booking.com record for the existing Stay22 resolver, and the explicit Kampala local-destination stay relationship. Zero property images; six exact subjects logged.",
-    "next_action": "Briefly inspect changed copy and relationships, commit and push main, confirm Netlify production and live page, update CMS mirror receipt if present, send owner email and save ID.",
+    "status": "complete",
+    "last_action": "Pushed and published; live guide HTTP 200 with new copy, Kampala relationship, verified Agoda feedback and exact Booking.com Stay22 CTA. CMS mirror record is published at the same source commit. Owner report sent.",
+    "next_action": "Rotate to Travel Insights; retain the separate six-subject Fairway property-photo backlog.",
     "checkpoint": "docs/editorial-research/2026-10-30-fairway-boutique-hotel.md",
-    "photo_followup": "Zero property images; six distinct exact-property subjects required. No generic Kampala or golf-course scenery as hotel imagery.",
-    "images": 0
+    "photo_followup": "Zero licensed Fairway property images; six exact-property subjects documented. No city/golf-course scenery substituted.",
+    "images": 0,
+    "live_url": "https://trekafricaguide.com/accommodations/fairway-boutique-hotel/",
+    "email_id": "1a18e50d7bfd92db",
+    "commit": "217ae4903921dd1c9bf1415246557ebd19e6ddd7",
+    "deploy_id": "6ae4f15ba21d87fc6ce5e7ef",
+    "cms_source_commit": "217ae4903921dd1c9bf1415246557ebd19e6ddd7"
   },
   "previous_deliverable_correction": {
     "id": "marrakech-medina-street-food-walk",
@@ -452,10 +457,19 @@
   },
   "latest_run_checkpoint": {
     "date": "2026-10-30",
-    "action": "Completed the researched Fairway Boutique Hotel guide and Kampala relationship; preparing publication.",
+    "action": "Published the Fairway Boutique Hotel guide and explicit Kampala stay relationship; confirmed the production route and CMS mirror, then sent the owner report.",
     "public_changes": true,
-    "next_action": "Inspect content, push main, verify live guide and report to owner.",
-    "ledger": "docs/editorial-research/2026-10-30-fairway-boutique-hotel.md"
+    "next_action": "Travel Insights category; Fairway photo collection remains a separate six-subject follow-up.",
+    "ledger": "docs/editorial-research/2026-10-30-fairway-boutique-hotel.md",
+    "commit": "217ae4903921dd1c9bf1415246557ebd19e6ddd7",
+    "deployment_id": "6ae4f15ba21d87fc6ce5e7ef",
+    "live_verification": {
+      "url": "https://trekafricaguide.com/accommodations/fairway-boutique-hotel/",
+      "status": 200,
+      "source_commit": "217ae4903921dd1c9bf1415246557ebd19e6ddd7",
+      "checks": "HTTP 200; rendered Fairway guide text, Kampala guide link, dated Agoda traveler-feedback section and booking-panel Stay22 link to exact Booking.com detail."
+    },
+    "email_id": "1a18e50d7bfd92db"
   },
   "usage_deferral_history": [
     {
@@ -574,5 +588,27 @@
   },
   "owner_removed_articles": [
     "plan-a-sossusvlei-sunrise-from-sesriem"
-  ]
+  ],
+  "accommodation_fairway_boutique_hotel": {
+    "status": "complete",
+    "started": "2026-10-30",
+    "scope": "One researched Kampala stay guide for Fairway Boutique Hotel, canonically related to Uganda and the Kampala local destination.",
+    "files": [
+      "content/editorial-overrides.json",
+      "content/booking-destinations.json",
+      "content/local-destinations.json",
+      "docs/editorial-research/2026-10-30-fairway-boutique-hotel.md",
+      "docs/editorial-progress.json"
+    ],
+    "category": "accommodations",
+    "images": 0,
+    "image_followup": "Six distinct licensed exact-property photos: exterior/signage, standard double room, standard twin room, executive room/balcony, pool/poolside and Asian Fusion Restaurant interior/courtyard.",
+    "booking_destination": "Exact Fairway Boutique Hotel Kampala Booking.com detail page registered in the existing Stay22 resolver. No rate, availability, review score or count published.",
+    "commit": "217ae4903921dd1c9bf1415246557ebd19e6ddd7",
+    "deployment_id": "6ae4f15ba21d87fc6ce5e7ef",
+    "cms_source_commit": "217ae4903921dd1c9bf1415246557ebd19e6ddd7",
+    "live_verification": "HTTP 200; new guide content, Kampala internal link, dated Agoda feedback and Stay22-resolved exact-property booking link confirmed.",
+    "email_id": "1a18e50d7bfd92db",
+    "next_category": "travel_insights"
+  }
 }

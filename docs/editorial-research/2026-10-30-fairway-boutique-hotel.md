@@ -25,3 +25,14 @@ Zero licensed property images. Six exact-property subjects remain: (1) Kafu Road
 ## Publication status
 
 Guide and cross-link are prepared. Commit/push, production confirmation, live-page inspection and owner email remain pending.
+
+## Publication record
+
+- Content commit pushed to `main`: `217ae4903921dd1c9bf1415246557ebd19e6ddd7`.
+- Netlify production deploy `6ae4f15ba21d87fc6ce5e7ef` is ready for that commit (published 30 October 2026 at 19:35 UTC).
+- Live URL: https://trekafricaguide.com/accommodations/fairway-boutique-hotel/ — HTTP 200. Rendered page contains the Fairway guide, Kampala guide link, dated traveler-feedback section and booking-panel Stay22 link wrapping the exact Booking.com Fairway detail URL.
+- Read-only CMS mirror query confirms `accommodations/fairway-boutique-hotel` is published with `source_commit` matching the deploy commit.
+- Owner report SENT to the configured recipient on 30 October 2026. Gmail message ID: `1a18e50d7bfd92db`.
+- No tests, local build or browser QA were run. Only a brief production HTTP/content inspection was made.
+
+Next editorial category: Travel Insights. Keep the Fairway six-photo collection in its own follow-up. No drafts or blockers for this guide.
