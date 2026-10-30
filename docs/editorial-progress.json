@@ -274,41 +274,20 @@
   "rotation": {
     "last_completed_category": "travel_insights",
     "next_category": "destinations",
-    "next_deliverable": "One complete destination guide, while keeping all existing exact-property and insight photo gaps separate.",
+    "next_deliverable": "Kampala local destination guide; retain six-photo backlog separately.",
     "rule": "Finish the individual deliverable and report its live state, then rotate. Track exact-property photo gaps separately.",
     "override_reason": null
   },
   "current_deliverable": {
-    "id": "sossusvlei-sunrise-from-sesriem",
-    "category": "travel_insights",
-    "status": "withdrawn_by_owner",
-    "last_action": "Owner requested removal on 29 October 2026. Article set to draft; do not republish or continue its photo collection without a new owner request.",
-    "next_action": "Confirm public removal, then retain destinations as next category.",
-    "checkpoint": "docs/editorial-research/2026-10-29-sossusvlei-sunrise.md",
-    "photo_followup": "Six separately sourced images: Sesriem outer gate, inner access sign, Dune 45, Deadvlei pan and camelthorn trees, Sossusvlei pan/dune edge, Sesriem Canyon. Keep neutral until accurately identified reusable files are available.",
+    "id": "kampala-local-destination",
+    "category": "destinations",
+    "status": "content_complete_pending_publication",
+    "last_action": "Completed the researched Kampala guide, including museum closure and 2026 Martyrs Day postponement caveats; Kampala has no relevant published city attraction/stay cards.",
+    "next_action": "Inspect the scoped diff, reconcile and push main; confirm production page and country/search discovery, then send one owner report. Keep six accurate licensed photos as a separate follow-up.",
+    "checkpoint": "docs/editorial-research/2026-10-30-kampala-local-destination.md",
+    "photo_followup": "Source six distinct, location-accurate, licensed Kampala subjects; no images borrowed from other detail pages.",
     "images": 0,
-    "commit": "e418749a355c34129015045c30862fea7cffa8d2",
-    "live_url": "https://trekafricaguide.com/travel-insights/plan-a-sossusvlei-sunrise-from-sesriem/",
-    "deployment_id": "6ae3211dd5bbb794c3bfcfbb",
-    "cms_source_commit": "e418749a355c34129015045c30862fea7cffa8d2",
-    "live_verification": "HTTP 200; Namib Desert canonical attraction link, official NWR sources and revised MEFT concession attribution confirmed; visible sources; no exposed markup.",
-    "email_id": "1a186aeff55ad4a2",
-    "review_correction": {
-      "commit": "6c5eb3d53fd316c624856330341567be534a8e81",
-      "final_commit": "e418749a355c34129015045c30862fea7cffa8d2",
-      "deployment_id": "6ae3211dd5bbb794c3bfcfbb",
-      "cms_source_commit": "e418749a355c34129015045c30862fea7cffa8d2",
-      "live_verification": "HTTP 200; Namib Desert canonical attraction link, official NWR sources and revised MEFT concession attribution confirmed; visible sources; no exposed markup.",
-      "email_ids": [
-        "1a187388b5d57fb4",
-        "1a1873a32bc36ab1"
-      ],
-      "next_category": "destinations"
-    },
-    "email_ids": [
-      "1a187388b5d57fb4",
-      "1a1873a32bc36ab1"
-    ]
+    "live_url": "https://trekafricaguide.com/countries/uganda/kampala"
   },
   "previous_deliverable_correction": {
     "id": "marrakech-medina-street-food-walk",

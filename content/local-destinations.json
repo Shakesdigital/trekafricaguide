@@ -341,5 +341,72 @@
     ],
     "sort_order": 6,
     "status": "published"
+  },
+  {
+    "slug": "kampala",
+    "country_slug": "uganda",
+    "name": "Kampala",
+    "category": "Capital city",
+    "hero_title": "Kampala: plan the city by neighborhood and purpose",
+    "listing_summary": "Use Kampala for Buganda heritage, living city culture and a measured start or finish to a Uganda route; group visits by area and leave room for traffic.",
+    "overview": "Kampala is Uganda’s capital and a useful place to understand the country beyond its national parks. Its identity is closely connected to Buganda, while the city is also a national centre where many communities, faiths and food traditions meet. Rather than trying to collect landmarks in one rushed circuit, choose a few places with distinct stories and give each the time and respect it deserves.\n\nThe Kasubi Royal Tombs are a meaningful starting point for Buganda history. The tombs are a UNESCO World Heritage property and a royal burial place; they are a living cultural and spiritual site, so follow the guidance of custodians and ask before taking photographs. The Buganda Kingdom's official visitor information says the sacred site welcomes respectful visitors, but confirm current admission, hours and any ceremony-related access directly before setting out. Kampala’s places of worship span several faiths, including the Baha’i House of Worship, the Uganda National Mosque and historic Christian cathedrals. Visit as a guest: check access in advance, dress modestly and avoid interrupting prayer or ceremonies.\n\nThe Uganda National Museum would normally add national cultural and natural-history context, but its official portal currently says it is temporarily closed for renovations. Do not build a fixed itinerary around it until the museum confirms reopening. In the meantime, the city’s markets, galleries, performances and food give a broader sense of contemporary Kampala; choose venues directly and treat them as working community spaces, not staged attractions.",
+    "highlights": [
+      "Buganda royal heritage at Kasubi, with respectful site etiquette",
+      "A range of active religious and cultural institutions",
+      "Markets, food and performing arts across a working capital",
+      "A flexible stop before or after a longer Uganda overland route"
+    ],
+    "access_summary": "Most international arrivals land at Entebbe International Airport, outside Kampala. The Kampala–Entebbe Expressway is a toll road linking the airport with the capital, but the city transfer still depends on traffic, your destination and the time of day. Arrange a pickup with your accommodation or a transport provider, agree the meeting point and confirm how toll charges are handled. Do not plan a tight onward connection from a map estimate.\n\nInside Kampala, arrange point-to-point transport for the day and group visits by area. The official city tourism portal lists tour providers and several ways to explore, but it does not establish a dependable public-transport timetable for each sight. Ask your accommodation to help confirm a driver or guide and the return pickup. If you use a local minibus or motorcycle taxi, understand the route and safety tradeoffs first; official UK travel advice cautions against both, and recommendations vary by traveller and provider.\n\nFor a wider Uganda trip, treat Kampala as a gateway rather than a day-trip base for distant parks. The published Bwindi, Kibale and Murchison Falls guides cover separate regions and road journeys. Confirm the actual departure point, overnight stops and current route with your operator before committing to the next leg.",
+    "best_time": "Kampala can be visited throughout the year, but rain can slow road transfers and make walking between stops less comfortable. Uganda’s Ministry of Water and Environment describes March–May and September–December as the country’s main rainfall periods, with local variation; its September–December 2026 outlook anticipated near-normal to above-normal rain in much of the country. Check the current forecast close to travel rather than relying on a fixed dry-season promise.\n\nFor a city-focused visit, the practical choice is often the date that gives you time to move at an unhurried pace. In wetter periods, keep an indoor cultural option and add extra transfer flexibility. Around public holidays or large religious events, confirm site access and road arrangements directly. Martyrs Day is normally marked on 3 June, and Namugongo can draw large pilgrimage crowds when celebrations proceed. The Government postponed the 2026 celebration; check the current programme and local advice before planning a visit around a future date.",
+    "planning_tips": "For a first visit, allow two or three nights if you want both heritage and unstructured city time. One day could focus on Kasubi and nearby western-city stops; use another for a prearranged visit to a place of worship or cultural venue and an evening meal. Add time for a guided walk or market visit only when the organizer explains the route, duration, group size and photography expectations. This is suggested pacing, not a prescribed tour. Namugongo lies beyond the central sightseeing area, so plan it as its own outing rather than squeezing it between nearby stops.\n\nMake food part of the plan. Ask for matooke or luwombo at a restaurant that serves Ugandan dishes, and check ingredients if you have dietary needs. The Kampala city portal describes local and international dining; choosing a restaurant close to your other plans reduces unnecessary cross-city transfers. Markets are places of work: ask before photographing vendors or customers, do not block trading areas, and agree any guided visit with a named local host.\n\nStay in a part of the city that suits your arrival and planned visits, then compare each property’s exact address and pickup arrangements. No Kampala-specific attraction, activity or accommodation guide is currently published in this collection, so this page intentionally has no related listing cards. The national park guides are useful for onward planning, not nearby city excursions.\n\nSecurity and transport advice changes and depends on your nationality. As checked 30 October 2026, the UK Foreign, Commonwealth & Development Office advises visitors to Kampala to remain alert, avoid demonstrations and take care with valuables and transport. It notes crime risks after dark and advises against matatus and boda-bodas on safety grounds. Read your own government’s current Uganda advice, ask your accommodation about local conditions and use transport you have assessed as suitable. This summary is not a guarantee of safety.\n\nPack light rain protection, comfortable shoes with grip, sun protection and a modest layer for religious sites. Carry only what you need for the day, keep valuables out of sight and confirm photography rules and access directly with each host. Before departure, reconfirm the airport pickup, toll arrangements, site opening and any onward park transfer. No fixed rates or journey times are quoted because they vary by date and provider.",
+    "attraction_slugs": [],
+    "activity_slugs": [],
+    "accommodation_slugs": [],
+    "travel_insight_slugs": [],
+    "last_researched": "2026-10-30",
+    "research_sources": [
+      {
+        "label": "Kampala Capital City Authority: official Visit Kampala portal and city context",
+        "url": "https://visitkampala.kcca.go.ug/"
+      },
+      {
+        "label": "Kampala Capital City Authority: Kasubi Royal Tombs location and site context",
+        "url": "https://visitkampala.kcca.go.ug/business_details/kasubi-royal-tombs"
+      },
+      {
+        "label": "State House Uganda: 2026 Martyrs Day postponement and event context",
+        "url": "https://statehouse.go.ug/government-postpones-martyrs-day-celebrations-over-ebola-outbreak-risks/"
+      },
+      {
+        "label": "UNESCO World Heritage Centre: Kasubi Tombs",
+        "url": "https://whc.unesco.org/en/list/1022/"
+      },
+      {
+        "label": "Buganda Kingdom: sacred royal tombs and visitor guidance",
+        "url": "https://buganda.or.ug/royal-tombs/"
+      },
+      {
+        "label": "Kampala–Entebbe Expressway: airport-to-city link",
+        "url": "https://kee.go.ug/"
+      },
+      {
+        "label": "Uganda Museums and Monuments portal: current museum closure, collections and visitor information",
+        "url": "https://museums.tourism.go.ug/plan-your-visit/"
+      },
+      {
+        "label": "Ministry of Water and Environment: September–December 2026 seasonal rainfall outlook",
+        "url": "https://wids.mwe.go.ug/"
+      },
+      {
+        "label": "UK Foreign, Commonwealth & Development Office: Uganda regional and safety advice, checked 30 October 2026",
+        "url": "https://www.gov.uk/foreign-travel-advice/uganda/safety-and-security"
+      },
+      {
+        "label": "UK Foreign, Commonwealth & Development Office: Kampala regional advice, checked 30 October 2026",
+        "url": "https://www.gov.uk/foreign-travel-advice/uganda/regional-risks"
+      }
+    ],
+    "sort_order": 7,
+    "status": "published"
   }
 ]
