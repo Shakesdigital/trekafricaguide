@@ -4,7 +4,7 @@
     "id": "kampala-local-destination-four-image-partial-enrichment",
     "page_url": "https://trekafricaguide.com/countries/uganda/kampala/",
     "page_type": "local_destination",
-    "status": "pushed_live_verification_pending",
+    "status": "live_confirmed_partial",
     "previous_photo_count": 0,
     "photo_count": 4,
     "new_photo_count": 4,
@@ -19,7 +19,40 @@
       "docs/editorial-research/2026-10-30-kampala-photo-enrichment.md",
       "docs/image-enrichment-progress.json"
     ],
-    "next_action": "Push the owned image commit to main; confirm automatic production deploy, the Kampala page displays See all 4 images, and all four JPEG assets return HTTP 200; send one source-free owner receipt and record its message ID."
+    "next_action": "Pursue only new credible no-public-attribution sources or owner-provided licensed originals for exact Kasubi/religious-site context, named-restaurant food and Kampala arts/craft venues; do not reuse required-attribution photos or imply visit/endorsement.",
+    "initial_live_verification": "Production local-destination page returned HTTP 200 and displayed See all 4 images; all four new assets returned HTTP 200 image/jpeg.",
+    "publication": {
+      "commit": "fec4bd21a2454dae2406089e03731c57acdbca3f",
+      "netlify_deploy": "6ae49a2ba55faa460121ee41",
+      "live_verification": {
+        "checked_at": "2026-10-30 16:23 Africa/Kampala",
+        "deploy_state": "ready",
+        "deployed_commit": "fec4bd21a2454dae2406089e03731c57acdbca3f",
+        "page_http_status": 200,
+        "gallery_count": 4,
+        "see_all_text": "See all 4 images",
+        "new_asset_http_statuses": {
+          "kampala-city-view-pexels-39554460.jpeg": 200,
+          "market-scene-pexels-35890028.jpeg": 200,
+          "kampala-rolex-vendor-pexels-10411247.jpeg": 200,
+          "banana-vendor-kampala-pexels-31121005.jpeg": 200
+        },
+        "new_asset_content_type": "image/jpeg",
+        "new_asset_bytes": {
+          "kampala-city-view-pexels-39554460.jpeg": 628111,
+          "market-scene-pexels-35890028.jpeg": 603199,
+          "kampala-rolex-vendor-pexels-10411247.jpeg": 432050,
+          "banana-vendor-kampala-pexels-31121005.jpeg": 248447
+        },
+        "note": "Live page serves the four-image gallery and all four new local JPEG assets."
+      },
+      "email_id": "1a18cfbae99fda1c",
+      "report_sent_at": "2026-10-30 16:24 Africa/Kampala"
+    },
+    "published_commit": "fec4bd21a2454dae2406089e03731c57acdbca3f",
+    "netlify_deploy": "6ae49a2ba55faa460121ee41",
+    "email_id": "1a18cfbae99fda1c",
+    "report_sent_at": "2026-10-30 16:24 Africa/Kampala"
   },
   "follow_ups": [
     {
@@ -1918,7 +1951,7 @@
       "id": "kampala-local-destination-four-image-partial-enrichment",
       "page_url": "https://trekafricaguide.com/countries/uganda/kampala/",
       "page_type": "local_destination",
-      "status": "pushed_live_verification_pending",
+      "status": "live_confirmed_partial",
       "previous_photo_count": 0,
       "photo_count": 4,
       "new_photo_count": 4,
@@ -1933,7 +1966,40 @@
         "docs/editorial-research/2026-10-30-kampala-photo-enrichment.md",
         "docs/image-enrichment-progress.json"
       ],
-      "next_action": "Push the owned image commit to main; confirm automatic production deploy, the Kampala page displays See all 4 images, and all four JPEG assets return HTTP 200; send one source-free owner receipt and record its message ID."
+      "next_action": "Pursue only new credible no-public-attribution sources or owner-provided licensed originals for exact Kasubi/religious-site context, named-restaurant food and Kampala arts/craft venues; do not reuse required-attribution photos or imply visit/endorsement.",
+      "initial_live_verification": "Production local-destination page returned HTTP 200 and displayed See all 4 images; all four new assets returned HTTP 200 image/jpeg.",
+      "publication": {
+        "commit": "fec4bd21a2454dae2406089e03731c57acdbca3f",
+        "netlify_deploy": "6ae49a2ba55faa460121ee41",
+        "live_verification": {
+          "checked_at": "2026-10-30 16:23 Africa/Kampala",
+          "deploy_state": "ready",
+          "deployed_commit": "fec4bd21a2454dae2406089e03731c57acdbca3f",
+          "page_http_status": 200,
+          "gallery_count": 4,
+          "see_all_text": "See all 4 images",
+          "new_asset_http_statuses": {
+            "kampala-city-view-pexels-39554460.jpeg": 200,
+            "market-scene-pexels-35890028.jpeg": 200,
+            "kampala-rolex-vendor-pexels-10411247.jpeg": 200,
+            "banana-vendor-kampala-pexels-31121005.jpeg": 200
+          },
+          "new_asset_content_type": "image/jpeg",
+          "new_asset_bytes": {
+            "kampala-city-view-pexels-39554460.jpeg": 628111,
+            "market-scene-pexels-35890028.jpeg": 603199,
+            "kampala-rolex-vendor-pexels-10411247.jpeg": 432050,
+            "banana-vendor-kampala-pexels-31121005.jpeg": 248447
+          },
+          "note": "Live page serves the four-image gallery and all four new local JPEG assets."
+        },
+        "email_id": "1a18cfbae99fda1c",
+        "report_sent_at": "2026-10-30 16:24 Africa/Kampala"
+      },
+      "published_commit": "fec4bd21a2454dae2406089e03731c57acdbca3f",
+      "netlify_deploy": "6ae49a2ba55faa460121ee41",
+      "email_id": "1a18cfbae99fda1c",
+      "report_sent_at": "2026-10-30 16:24 Africa/Kampala"
     }
   ]
 }

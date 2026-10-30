@@ -6,6 +6,8 @@ Added a four-image partial gallery to the newly published Git-managed Kampala lo
 
 The selected Pexels photos are varied Kampala-specific context: elevated city buildings, a Kampala market street, a street vendor preparing Ugandan rolex, and a banana seller moving through Kampala traffic. Each Pexels source page gives Kampala location/context; the files were visually inspected. Pexels' current license permits website use without required attribution. Images do not imply the publisher visited, participated, endorses a person/business, or recommends a specific stall, market, restaurant, or service.
 
+One additional Pexels Kampala street-scene photo (ID 35603022) was visually reviewed but excluded because a large KFC billboard dominates the frame, making it a poor fit for this guide and creating avoidable brand-placement ambiguity. It was removed and is not assigned.
+
 ## New image records
 
 | Asset | Exact source and evidence | Creator / date | Alt text / limitations | SHA-256 |
@@ -23,4 +25,4 @@ The collection remains partial. A Kasubi Tombs image and the exact Baha'i Temple
 
 ## Publication and receipt
 
-Pending main push: production guide and assets must be checked separately. Use the existing Git-managed local-destination collection; there is no CMS mirror to update. Do not claim live completion until the deployed Kampala route displays four images and all four image assets return HTTP 200 as JPEG. Owner report and send receipt remain pending.
+Published in commit `fec4bd21a2454dae2406089e03731c57acdbca3f`; the matching Netlify production deploy `6ae49a2ba55faa460121ee41` is ready. On 30 October 2026 at 16:23 Kampala, the live route returned HTTP 200 and displayed “See all 4 images.” All four image assets returned HTTP 200 with `image/jpeg`: `kampala-city-view-pexels-39554460.jpeg` (628111 bytes), `market-scene-pexels-35890028.jpeg` (603199 bytes), `kampala-rolex-vendor-pexels-10411247.jpeg` (432050 bytes), and `banana-vendor-kampala-pexels-31121005.jpeg` (248447 bytes). Owner progress email sent at 16:24 Kampala, Gmail message ID `1a18cfbae99fda1c`.
