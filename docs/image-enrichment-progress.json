@@ -1,58 +1,25 @@
 {
   "updated_at": "2026-10-30",
   "current_run": {
-    "id": "kampala-local-destination-four-image-partial-enrichment",
-    "page_url": "https://trekafricaguide.com/countries/uganda/kampala/",
-    "page_type": "local_destination",
-    "status": "live_confirmed_partial",
+    "id": "fairway-boutique-hotel-no-eligible-photo-checkpoint",
+    "page_url": "https://trekafricaguide.com/accommodations/fairway-boutique-hotel/",
+    "page_type": "accommodation",
+    "status": "no_eligible_photo_checkpoint",
     "previous_photo_count": 0,
-    "photo_count": 4,
-    "new_photo_count": 4,
+    "photo_count": 0,
+    "new_photo_count": 0,
     "checked_date": "2026-10-30",
-    "started_at": "2026-10-30 16:10 Africa/Kampala",
-    "note": "Added four visually reviewed, distinct Kampala-specific Pexels photos: city view, market street, Ugandan rolex vendor, and banana vendor. Each source has verified Pexels no-public-attribution rights and Kampala context; exact page and full provenance are recorded in the dated ledger and photo library. Global source-URL and SHA-256 deduplication against library records and all 671 public image files found no match. Photo defaults assign all four to the new published local-destination guide. No guide copy, relationships, credits, layout, analytics or booking behavior changed.",
-    "source_ledger": "docs/editorial-research/2026-10-30-kampala-photo-enrichment.md",
+    "started_at": "2026-10-30 23:16 Africa/Kampala",
+    "initial_live_verification": "Production page returned HTTP 200 with no property gallery; its one image tag is site chrome. The accommodation override has blank hero_image_url and an empty gallery, with no photo-library default.",
+    "note": "Full published guide reviewed. One bounded exact-property rights review found official hotel gallery imagery, OTA imagery and third-party publication imagery without a verified reuse license; exact-name Pexels and Unsplash searches returned no results. No image was downloaded, assigned or visually/hash reviewed because no candidate met both exact-property identity and verified no-public-attribution rights. Existing credits and guide copy remain unchanged.",
+    "source_ledger": "docs/editorial-research/2026-10-30-fairway-boutique-hotel-photo-checkpoint.md",
     "files": [
-      "src/lib/photo-library.js",
-      "public/photo-library.js",
-      "public/images/editorial/kampala/",
-      "docs/editorial-research/2026-10-30-kampala-photo-enrichment.md",
+      "docs/editorial-research/2026-10-30-fairway-boutique-hotel-photo-checkpoint.md",
       "docs/image-enrichment-progress.json"
     ],
-    "next_action": "Pursue only new credible no-public-attribution sources or owner-provided licensed originals for exact Kasubi/religious-site context, named-restaurant food and Kampala arts/craft venues; do not reuse required-attribution photos or imply visit/endorsement.",
-    "initial_live_verification": "Production local-destination page returned HTTP 200 and displayed See all 4 images; all four new assets returned HTTP 200 image/jpeg.",
-    "publication": {
-      "commit": "fec4bd21a2454dae2406089e03731c57acdbca3f",
-      "netlify_deploy": "6ae49a2ba55faa460121ee41",
-      "live_verification": {
-        "checked_at": "2026-10-30 16:23 Africa/Kampala",
-        "deploy_state": "ready",
-        "deployed_commit": "fec4bd21a2454dae2406089e03731c57acdbca3f",
-        "page_http_status": 200,
-        "gallery_count": 4,
-        "see_all_text": "See all 4 images",
-        "new_asset_http_statuses": {
-          "kampala-city-view-pexels-39554460.jpeg": 200,
-          "market-scene-pexels-35890028.jpeg": 200,
-          "kampala-rolex-vendor-pexels-10411247.jpeg": 200,
-          "banana-vendor-kampala-pexels-31121005.jpeg": 200
-        },
-        "new_asset_content_type": "image/jpeg",
-        "new_asset_bytes": {
-          "kampala-city-view-pexels-39554460.jpeg": 628111,
-          "market-scene-pexels-35890028.jpeg": 603199,
-          "kampala-rolex-vendor-pexels-10411247.jpeg": 432050,
-          "banana-vendor-kampala-pexels-31121005.jpeg": 248447
-        },
-        "note": "Live page serves the four-image gallery and all four new local JPEG assets."
-      },
-      "email_id": "1a18cfbae99fda1c",
-      "report_sent_at": "2026-10-30 16:24 Africa/Kampala"
-    },
-    "published_commit": "fec4bd21a2454dae2406089e03731c57acdbca3f",
-    "netlify_deploy": "6ae49a2ba55faa460121ee41",
-    "email_id": "1a18cfbae99fda1c",
-    "report_sent_at": "2026-10-30 16:24 Africa/Kampala"
+    "next_action": "Keep the neutral property-photo state. Reopen only for owner-supplied originals with permission, written hotel reuse permission, or a distinct exact-property no-public-attribution lead; do not repeat the generic source search.",
+    "email_id": "1a18e772a102a712",
+    "report_sent_at": "2026-10-30 23:18 Africa/Kampala"
   },
   "follow_ups": [
     {
@@ -2000,6 +1967,27 @@
       "netlify_deploy": "6ae49a2ba55faa460121ee41",
       "email_id": "1a18cfbae99fda1c",
       "report_sent_at": "2026-10-30 16:24 Africa/Kampala"
+    },
+    {
+      "id": "fairway-boutique-hotel-no-eligible-photo-checkpoint",
+      "page_url": "https://trekafricaguide.com/accommodations/fairway-boutique-hotel/",
+      "page_type": "accommodation",
+      "status": "no_eligible_photo_checkpoint",
+      "previous_photo_count": 0,
+      "photo_count": 0,
+      "new_photo_count": 0,
+      "checked_date": "2026-10-30",
+      "started_at": "2026-10-30 23:16 Africa/Kampala",
+      "initial_live_verification": "Production page returned HTTP 200 with no property gallery; its one image tag is site chrome. The accommodation override has blank hero_image_url and an empty gallery, with no photo-library default.",
+      "note": "Full published guide reviewed. One bounded exact-property rights review found official hotel gallery imagery, OTA imagery and third-party publication imagery without a verified reuse license; exact-name Pexels and Unsplash searches returned no results. No image was downloaded, assigned or visually/hash reviewed because no candidate met both exact-property identity and verified no-public-attribution rights. Existing credits and guide copy remain unchanged.",
+      "source_ledger": "docs/editorial-research/2026-10-30-fairway-boutique-hotel-photo-checkpoint.md",
+      "files": [
+        "docs/editorial-research/2026-10-30-fairway-boutique-hotel-photo-checkpoint.md",
+        "docs/image-enrichment-progress.json"
+      ],
+      "next_action": "Keep the neutral property-photo state. Reopen only for owner-supplied originals with permission, written hotel reuse permission, or a distinct exact-property no-public-attribution lead; do not repeat the generic source search.",
+      "email_id": "1a18e772a102a712",
+      "report_sent_at": "2026-10-30 23:18 Africa/Kampala"
     }
   ]
 }
