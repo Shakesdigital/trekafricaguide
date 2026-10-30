@@ -1,56 +1,23 @@
 {
   "updated_at": "2026-10-30",
   "current_run": {
-    "id": "atlas-mountains-day-trip-no-new-exact-stop-photo-checkpoint",
-    "page_url": "https://trekafricaguide.com/activities/atlas-mountains-day-trip/",
-    "page_type": "activity",
-    "status": "no_new_eligible_photo_live_confirmed",
-    "previous_photo_count": 5,
-    "photo_count": 5,
+    "id": "underfilled-page-inventory-maribela-no-eligible-photo-checkpoint",
+    "page_url": "https://trekafricaguide.com/accommodations/maribela-hotel/",
+    "page_type": "accommodation",
+    "status": "no_new_eligible_photo",
+    "previous_photo_count": 1,
+    "photo_count": 1,
     "new_photo_count": 0,
     "checked_date": "2026-10-30",
-    "started_at": "2026-10-30 10:56 Africa/Kampala",
-    "initial_live_verification": "Production activity returned HTTP 200 and displayed See all 5 images: two existing defaults and three earlier Atlas activity photographs. Twelve total img tags include gallery/modal repeats, logo and linked-card imagery; there are no additional inline guide photographs.",
-    "note": "One bounded exact Oukaïmeden search returned the already-used image. A new Pexels regional field/village photograph was visually inspected and excluded because its source only established Morocco/Atlas context, not a named route stop, and the preview did not visibly show the range. No image or site-content changes made. The prior five-image partial remains accurately counted.",
-    "source_ledger": "docs/editorial-research/2026-10-30-atlas-mountains-day-trip-photo-checkpoint.md",
+    "started_at": "2026-10-30 12:18 Africa/Kampala",
+    "initial_live_verification": "No production verification performed: this run made no public-site or image changes.",
+    "note": "Refreshed photo inventory and performed one bounded Maribela Hotel rights review after reading the full guide. The page has one destination-context default and no exact-property photo collection. Hotel promotional material and general Lalibela photography did not provide a verified exact-property image with a no-public-attribution license. No image downloaded or assigned. Historical guide security advice remains unchanged.",
+    "source_ledger": "docs/editorial-research/2026-10-30-underfilled-page-inventory.md",
     "files": [
-      "docs/editorial-research/2026-10-30-atlas-mountains-day-trip-photo-checkpoint.md",
+      "docs/editorial-research/2026-10-30-underfilled-page-inventory.md",
       "docs/image-enrichment-progress.json"
     ],
-    "next_action": "Rotate to a genuinely fresh published guide with an evidenced image gap; do not revisit Atlas without a distinct exact-stop or otherwise useful regional image lead.",
-    "publication": {
-      "commit": "34be6ad1b652ab38069f66e8162f87b1581014bc",
-      "netlify_deploy": "6ae381d65d9be983c4fafb7f",
-      "live_verification": {
-        "checked_at": "2026-10-30 11:07 Africa/Kampala",
-        "deploy_state": "prior_ready_no_content_change",
-        "current_production_deploy": "6ae381d65d9be983c4fafb7f",
-        "deployed_commit": "d4e2bf002dc610bdb96d7c9861f28e557601a1aa",
-        "page_http_status": 200,
-        "gallery_count": 5,
-        "see_all_text": "See all 5 images",
-        "new_asset_http_statuses": [],
-        "note": "Production page remains unchanged at five gallery images; this run added no assets or assignments. The docs-only checkpoint commit does not alter page content."
-      },
-      "email_id": "1a18bdb601a5a9cc",
-      "report_sent_at": "2026-10-30 11:09 Africa/Kampala"
-    },
-    "published_commit": "34be6ad1b652ab38069f66e8162f87b1581014bc",
-    "pushed_at": "2026-10-30 11:08 Africa/Kampala",
-    "netlify_deploy": "6ae381d65d9be983c4fafb7f",
-    "live_verification": {
-      "checked_at": "2026-10-30 11:07 Africa/Kampala",
-      "deploy_state": "prior_ready_no_content_change",
-      "current_production_deploy": "6ae381d65d9be983c4fafb7f",
-      "deployed_commit": "d4e2bf002dc610bdb96d7c9861f28e557601a1aa",
-      "page_http_status": 200,
-      "gallery_count": 5,
-      "see_all_text": "See all 5 images",
-      "new_asset_http_statuses": [],
-      "note": "Production page remains unchanged at five gallery images; this run added no assets or assignments. The docs-only checkpoint commit does not alter page content."
-    },
-    "email_id": "1a18bdb601a5a9cc",
-    "report_sent_at": "2026-10-30 11:09 Africa/Kampala"
+    "next_action": "Inspect newly published content and concrete image leads first; review an underfilled property only when a new exact-property source lead or owner-provided licensed originals justify a bounded rights check. Do not repeat unchanged exhausted searches."
   },
   "follow_ups": [
     {
@@ -1925,6 +1892,25 @@
       },
       "email_id": "1a18bdb601a5a9cc",
       "report_sent_at": "2026-10-30 11:09 Africa/Kampala"
+    },
+    {
+      "id": "underfilled-page-inventory-maribela-no-eligible-photo-checkpoint",
+      "page_url": "https://trekafricaguide.com/accommodations/maribela-hotel/",
+      "page_type": "accommodation",
+      "status": "no_new_eligible_photo",
+      "previous_photo_count": 1,
+      "photo_count": 1,
+      "new_photo_count": 0,
+      "checked_date": "2026-10-30",
+      "started_at": "2026-10-30 12:18 Africa/Kampala",
+      "initial_live_verification": "No production verification performed: this run made no public-site or image changes.",
+      "note": "Refreshed photo inventory and performed one bounded Maribela Hotel rights review after reading the full guide. The page has one destination-context default and no exact-property photo collection. Hotel promotional material and general Lalibela photography did not provide a verified exact-property image with a no-public-attribution license. No image downloaded or assigned. Historical guide security advice remains unchanged.",
+      "source_ledger": "docs/editorial-research/2026-10-30-underfilled-page-inventory.md",
+      "files": [
+        "docs/editorial-research/2026-10-30-underfilled-page-inventory.md",
+        "docs/image-enrichment-progress.json"
+      ],
+      "next_action": "Inspect newly published content and concrete image leads first; review an underfilled property only when a new exact-property source lead or owner-provided licensed originals justify a bounded rights check. Do not repeat unchanged exhausted searches."
     }
   ]
 }
