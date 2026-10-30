@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-28",
+  "updated_at": "2026-10-30",
   "timezone": "Africa/Kampala",
   "next_scheduled_start": "2026-10-17T19:30:00+03:00",
   "cadence_hours": 3,
@@ -272,22 +272,25 @@
     "email_id": "1a143a69416cf3d1"
   },
   "rotation": {
-    "last_completed_category": "travel_insights",
-    "next_category": "destinations",
-    "next_deliverable": "Kampala local destination guide; retain six-photo backlog separately.",
+    "last_completed_category": "destinations",
+    "next_category": "accommodations",
+    "next_deliverable": "Rotate to accommodations; select a verified Kampala property if evidence supports a useful city relationship.",
     "rule": "Finish the individual deliverable and report its live state, then rotate. Track exact-property photo gaps separately.",
     "override_reason": null
   },
   "current_deliverable": {
     "id": "kampala-local-destination",
     "category": "destinations",
-    "status": "editorial_correction_pending_publication",
-    "last_action": "Completed the researched Kampala guide and incorporated parent review: removed implementation-facing copy and boilerplate, tightened transport and safety wording, and limited event planning to current programme checks.",
-    "next_action": "Push the editorial correction, confirm the matching production deploy and rendered page/country/search paths, then send one owner report. Keep six accurate licensed photos as a separate follow-up.",
+    "status": "complete",
+    "last_action": "Correction cc0c0d4 confirmed live on ready deploy 6ae47436aef685698b05420e; Kampala, Uganda card and homepage search verified. Owner email SENT 1a18d0171113e7ca.",
+    "next_action": "Rotate to accommodations; select a verified Kampala property if evidence supports a useful city relationship.",
     "checkpoint": "docs/editorial-research/2026-10-30-kampala-local-destination.md",
-    "photo_followup": "Source six distinct, location-accurate, licensed Kampala subjects; no images borrowed from other detail pages.",
-    "images": 0,
-    "live_url": "https://trekafricaguide.com/countries/uganda/kampala"
+    "photo_followup": "Separate image run confirmed four licensed photos live; two further distinct licensed subjects needed: Kasubi context and a verified religious-site exterior.",
+    "images": 4,
+    "live_url": "https://trekafricaguide.com/countries/uganda/kampala",
+    "email_id": "1a18d0171113e7ca",
+    "commit": "cc0c0d46459235b47468b4655baf64f81150e24a",
+    "deploy_id": "6ae47436aef685698b05420e"
   },
   "previous_deliverable_correction": {
     "id": "marrakech-medina-street-food-walk",
