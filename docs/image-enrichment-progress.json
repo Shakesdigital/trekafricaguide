@@ -1,34 +1,25 @@
 {
   "updated_at": "2026-10-30",
   "current_run": {
-    "id": "underfilled-page-inventory-maribela-no-eligible-photo-checkpoint",
-    "page_url": "https://trekafricaguide.com/accommodations/maribela-hotel/",
-    "page_type": "accommodation",
-    "status": "no_new_eligible_photo",
-    "previous_photo_count": 1,
-    "photo_count": 1,
-    "new_photo_count": 0,
+    "id": "kampala-local-destination-four-image-partial-enrichment",
+    "page_url": "https://trekafricaguide.com/countries/uganda/kampala/",
+    "page_type": "local_destination",
+    "status": "pushed_live_verification_pending",
+    "previous_photo_count": 0,
+    "photo_count": 4,
+    "new_photo_count": 4,
     "checked_date": "2026-10-30",
-    "started_at": "2026-10-30 12:18 Africa/Kampala",
-    "initial_live_verification": "No production verification performed: this run made no public-site or image changes.",
-    "note": "Refreshed photo inventory and performed one bounded Maribela Hotel rights review after reading the full guide. The page has one destination-context default and no exact-property photo collection. Hotel promotional material and general Lalibela photography did not provide a verified exact-property image with a no-public-attribution license. No image downloaded or assigned. Historical guide security advice remains unchanged.",
-    "source_ledger": "docs/editorial-research/2026-10-30-underfilled-page-inventory.md",
+    "started_at": "2026-10-30 16:10 Africa/Kampala",
+    "note": "Added four visually reviewed, distinct Kampala-specific Pexels photos: city view, market street, Ugandan rolex vendor, and banana vendor. Each source has verified Pexels no-public-attribution rights and Kampala context; exact page and full provenance are recorded in the dated ledger and photo library. Global source-URL and SHA-256 deduplication against library records and all 671 public image files found no match. Photo defaults assign all four to the new published local-destination guide. No guide copy, relationships, credits, layout, analytics or booking behavior changed.",
+    "source_ledger": "docs/editorial-research/2026-10-30-kampala-photo-enrichment.md",
     "files": [
-      "docs/editorial-research/2026-10-30-underfilled-page-inventory.md",
+      "src/lib/photo-library.js",
+      "public/photo-library.js",
+      "public/images/editorial/kampala/",
+      "docs/editorial-research/2026-10-30-kampala-photo-enrichment.md",
       "docs/image-enrichment-progress.json"
     ],
-    "next_action": "Inspect newly published content and concrete image leads first; review an underfilled property only when a new exact-property source lead or owner-provided licensed originals justify a bounded rights check. Do not repeat unchanged exhausted searches.",
-    "published_commit": "1b8ec936d2b1ae2c2dd0af06b1c45a7f477cfb2d",
-    "pushed_at": "2026-10-30 12:25 Africa/Kampala",
-    "email_id": "1a18c2097ccde599",
-    "report_sent_at": "2026-10-30 12:25 Africa/Kampala",
-    "publication": {
-      "commit": "1b8ec936d2b1ae2c2dd0af06b1c45a7f477cfb2d",
-      "deploy_state": "docs_only_no_content_deploy_expected",
-      "email_id": "1a18c2097ccde599",
-      "report_sent_at": "2026-10-30 12:25 Africa/Kampala",
-      "note": "No public page or image changed; deployment and live-page verification were not applicable."
-    }
+    "next_action": "Push the owned image commit to main; confirm automatic production deploy, the Kampala page displays See all 4 images, and all four JPEG assets return HTTP 200; send one source-free owner receipt and record its message ID."
   },
   "follow_ups": [
     {
@@ -1922,6 +1913,27 @@
         "docs/image-enrichment-progress.json"
       ],
       "next_action": "Inspect newly published content and concrete image leads first; review an underfilled property only when a new exact-property source lead or owner-provided licensed originals justify a bounded rights check. Do not repeat unchanged exhausted searches."
+    },
+    {
+      "id": "kampala-local-destination-four-image-partial-enrichment",
+      "page_url": "https://trekafricaguide.com/countries/uganda/kampala/",
+      "page_type": "local_destination",
+      "status": "pushed_live_verification_pending",
+      "previous_photo_count": 0,
+      "photo_count": 4,
+      "new_photo_count": 4,
+      "checked_date": "2026-10-30",
+      "started_at": "2026-10-30 16:10 Africa/Kampala",
+      "note": "Added four visually reviewed, distinct Kampala-specific Pexels photos: city view, market street, Ugandan rolex vendor, and banana vendor. Each source has verified Pexels no-public-attribution rights and Kampala context; exact page and full provenance are recorded in the dated ledger and photo library. Global source-URL and SHA-256 deduplication against library records and all 671 public image files found no match. Photo defaults assign all four to the new published local-destination guide. No guide copy, relationships, credits, layout, analytics or booking behavior changed.",
+      "source_ledger": "docs/editorial-research/2026-10-30-kampala-photo-enrichment.md",
+      "files": [
+        "src/lib/photo-library.js",
+        "public/photo-library.js",
+        "public/images/editorial/kampala/",
+        "docs/editorial-research/2026-10-30-kampala-photo-enrichment.md",
+        "docs/image-enrichment-progress.json"
+      ],
+      "next_action": "Push the owned image commit to main; confirm automatic production deploy, the Kampala page displays See all 4 images, and all four JPEG assets return HTTP 200; send one source-free owner receipt and record its message ID."
     }
   ]
 }

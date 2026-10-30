@@ -1,7 +1,7 @@
 // Curated source. Run node scripts/sync-photo-library.mjs after editing.
 // Curated free photography; source and licence metadata travel with each image.
 export const photoLibrary = {
-  "updated_at": "2026-10-29",
+  "updated_at": "2026-10-30",
   "images": {
     "/images/editorial/sahara-dunes-attraction/erg-chebbi-dunes-kees-van-leeuwen.jpg": {
       "slug": "erg-chebbi-dunes-kees-van-leeuwen",
@@ -7231,6 +7231,92 @@ export const photoLibrary = {
       "checked_at": "2026-10-29",
       "exact_subject_evidence": "The Pexels photo page identifies Victoria Falls and Zimbabwe as the location, lists publication on 18 December 2025, and describes water surrounded by lush greenery. Visual review confirms a single large plunge into the dark gorge with spray and vegetation around the cliff edge. Capture date is not stated.",
       "reuse_note": "The Pexels License allows website use without public attribution. The waterfall appearance is seasonal and should not be read as a current-flow guarantee."
+    },
+    "/images/editorial/kampala/market-scene-pexels-35890028.jpeg": {
+      "slug": "kampala-market-scene-pexels-35890028",
+      "local_path": "/images/editorial/kampala/market-scene-pexels-35890028.jpeg",
+      "source_page": "https://www.pexels.com/photo/vibrant-kampala-market-scene-with-tuk-tuk-35890028/",
+      "source_revision": "Pexels photo 35890028, checked 2026-10-30",
+      "creator": "josh_ dago__",
+      "license": "Pexels License",
+      "license_url": "https://www.pexels.com/license/",
+      "source_published_at": "2026-01-29",
+      "captured_at": "2025-05-10",
+      "sha256": "07164ff5266fa493bc763f68b12ebe4c52761419b239d3fa830c954d50846163",
+      "exact_subject": true,
+      "subject": "A Kampala street market with vendors, pedestrians and a tuk-tuk",
+      "alt": "Pedestrians, market stalls and a tuk-tuk on a Kampala market street.",
+      "property": false,
+      "kind": "photograph",
+      "requires_attribution": false,
+      "changes": "Downloaded from the Pexels CDN at 1600 pixels wide with aspect ratio preserved; no other edits.",
+      "checked_at": "2026-10-30",
+      "exact_subject_evidence": "The Pexels photo page identifies Kampala, Central Region, Uganda and describes a street market with vendors, pedestrians and a tuk-tuk; capture date 10 May 2025. Visual inspection confirms a public street market scene.",
+      "reuse_note": "Pexels License permits website use and does not require public attribution. This photo documents Kampala context; it does not imply that the person or business endorses Trek Africa Guide or that the publisher visited the location."
+    },
+    "/images/editorial/kampala/kampala-rolex-vendor-pexels-10411247.jpeg": {
+      "slug": "kampala-rolex-vendor-pexels-10411247",
+      "local_path": "/images/editorial/kampala/kampala-rolex-vendor-pexels-10411247.jpeg",
+      "source_page": "https://www.pexels.com/photo/man-in-black-suit-selling-ugandanrolex-10411247/",
+      "source_revision": "Pexels photo 10411247, checked 2026-10-30",
+      "creator": "Prince Beguin",
+      "license": "Pexels License",
+      "license_url": "https://www.pexels.com/license/",
+      "source_published_at": "2021-12-01",
+      "captured_at": "2020-12-16",
+      "sha256": "916064ea0bd94a1d750452af550e63d34aea4620bfe57dcad32401859a5bfd14",
+      "exact_subject": true,
+      "subject": "A street vendor preparing a Ugandan rolex in Kampala",
+      "alt": "A street vendor prepares a Ugandan rolex at a roadside stall in Kampala.",
+      "property": false,
+      "kind": "photograph",
+      "requires_attribution": false,
+      "changes": "Downloaded from the Pexels CDN at 1600 pixels wide with aspect ratio preserved; no other edits.",
+      "checked_at": "2026-10-30",
+      "exact_subject_evidence": "The Pexels page identifies Kampala, Central Region, Uganda and describes a street vendor making/serving a Ugandan rolex; captured 16 December 2020. Visual review shows the vendor and roadside preparation scene.",
+      "reuse_note": "Pexels License permits website use and does not require public attribution. This photo documents Kampala context; it does not imply that the person or business endorses Trek Africa Guide or that the publisher visited the location."
+    },
+    "/images/editorial/kampala/banana-vendor-kampala-pexels-31121005.jpeg": {
+      "slug": "kampala-banana-vendor-pexels-31121005",
+      "local_path": "/images/editorial/kampala/banana-vendor-kampala-pexels-31121005.jpeg",
+      "source_page": "https://www.pexels.com/photo/street-vendor-carrying-bananas-in-kampala-31121005/",
+      "source_revision": "Pexels photo 31121005, checked 2026-10-30",
+      "creator": "Frostee Lens Ug",
+      "license": "Pexels License",
+      "license_url": "https://www.pexels.com/license/",
+      "sha256": "4ddc9e84c9867248534521ed7fbfbe5f72b6ef851e882674b12f50293c4279de",
+      "exact_subject": true,
+      "subject": "A banana seller carrying produce through Kampala traffic",
+      "alt": "A banana seller carries a basket through traffic in Kampala, Uganda.",
+      "property": false,
+      "kind": "photograph",
+      "requires_attribution": false,
+      "changes": "Downloaded from the Pexels CDN at 1600 pixels wide with aspect ratio preserved; no other edits.",
+      "checked_at": "2026-10-30",
+      "exact_subject_evidence": "The Pexels title and location metadata identify a street vendor carrying bananas in Kampala, Central Region, Uganda. Visual review shows a back-facing vendor carrying a basket through traffic; no participation or specific itinerary is implied.",
+      "reuse_note": "Pexels License permits website use and does not require public attribution. This photo documents Kampala context; it does not imply that the person or business endorses Trek Africa Guide or that the publisher visited the location."
+    },
+    "/images/editorial/kampala/kampala-city-view-pexels-39554460.jpeg": {
+      "slug": "kampala-city-view-pexels-39554460",
+      "local_path": "/images/editorial/kampala/kampala-city-view-pexels-39554460.jpeg",
+      "source_page": "https://www.pexels.com/fr-fr/photo/vue-aerienne-de-la-ville-de-kampala-en-ouganda-39554460/",
+      "source_revision": "Pexels photo 39554460, checked 2026-10-30",
+      "creator": "Phinley Sperrer",
+      "license": "Pexels License",
+      "license_url": "https://www.pexels.com/license/",
+      "source_published_at": "2026-09-16",
+      "captured_at": "2026-07-30",
+      "sha256": "f03afc8d80fdcd47e1e3938912407651fbb3739572d93ece6646f81fd204dc82",
+      "exact_subject": true,
+      "subject": "An elevated view across Kampala’s central urban skyline",
+      "alt": "An elevated view across Kampala’s dense central buildings and skyline.",
+      "property": false,
+      "kind": "photograph",
+      "requires_attribution": false,
+      "changes": "Downloaded from the Pexels CDN at 1600 pixels wide with aspect ratio preserved; no other edits.",
+      "checked_at": "2026-10-30",
+      "exact_subject_evidence": "The Pexels page identifies Kampala, Uganda and describes an elevated city skyline view; it records capture on 30 July 2026 and publication on 16 September 2026. Visual review shows a broad view over central urban buildings.",
+      "reuse_note": "Pexels License permits website use and does not require public attribution. This photo documents Kampala context; it does not imply that the person or business endorses Trek Africa Guide or that the publisher visited the location."
     }
   },
   "listings": {
@@ -8375,6 +8461,17 @@ export const photoLibrary = {
           "/images/editorial/sine-saloum-destination/saloum-bolong-birds-2024.jpg",
           "/images/editorial/sine-saloum-destination/saloum-pirogue-excursion-2023.jpg",
           "/images/editorial/sine-saloum-destination/saloum-island-pirogue-2023.jpg"
+        ]
+      },
+      "kampala": {
+        "hero_image_url": "/images/editorial/kampala/kampala-city-view-pexels-39554460.jpeg",
+        "hero_image_alt": "An elevated view across Kampala’s dense central buildings and skyline.",
+        "replaces": [],
+        "gallery": [
+          "/images/editorial/kampala/kampala-city-view-pexels-39554460.jpeg",
+          "/images/editorial/kampala/market-scene-pexels-35890028.jpeg",
+          "/images/editorial/kampala/kampala-rolex-vendor-pexels-10411247.jpeg",
+          "/images/editorial/kampala/banana-vendor-kampala-pexels-31121005.jpeg"
         ]
       }
     },
