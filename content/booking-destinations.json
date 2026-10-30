@@ -252,6 +252,16 @@
         "source_url": "https://www.expedia.com/Livingstone-Hotels-Jollyboys-Backpackers.h14704528.Hotel-Information",
         "summary": "Exact property ID 14704528 identifies Jollyboys Backpackers at 34 Kanyanta Road, Livingstone. Official property and regional tourism sources cross-check identity. No current price, numerical rating or affiliate attribution verification claimed."
       }
+    },
+    "fairway-boutique-hotel": {
+      "url": "https://www.booking.com/hotel/ug/fairway-amp-spa.en-gb.html",
+      "provider": "booking",
+      "title": "Fairway Boutique Hotel - Kampala, Uganda",
+      "checked_at": "2026-10-30",
+      "evidence": {
+        "source_url": "https://www.booking.com/hotel/ug/fairway-amp-spa.en-gb.html",
+        "summary": "The exact Booking.com detail page identifies Fairway Boutique Hotel in Kampala, Uganda. Its property name and city were cross-checked against Fairway Hotel’s official site and the Agoda listing at Plot 3 Kafu Road, Nakasero. No live rate, availability, Booking.com review score or review count is used."
+      }
     }
   },
   "activities": {

@@ -274,23 +274,19 @@
   "rotation": {
     "last_completed_category": "destinations",
     "next_category": "accommodations",
-    "next_deliverable": "Rotate to accommodations; select a verified Kampala property if evidence supports a useful city relationship.",
+    "next_deliverable": "Complete Kampala accommodation guide for Fairway Boutique Hotel; keep exact-property photos as a separate follow-up.",
     "rule": "Finish the individual deliverable and report its live state, then rotate. Track exact-property photo gaps separately.",
     "override_reason": null
   },
   "current_deliverable": {
-    "id": "kampala-local-destination",
-    "category": "destinations",
-    "status": "complete",
-    "last_action": "Correction cc0c0d4 confirmed live on ready deploy 6ae47436aef685698b05420e; Kampala, Uganda card and homepage search verified. Owner email SENT 1a18d0171113e7ca.",
-    "next_action": "Rotate to accommodations; select a verified Kampala property if evidence supports a useful city relationship.",
-    "checkpoint": "docs/editorial-research/2026-10-30-kampala-local-destination.md",
-    "photo_followup": "Separate image run confirmed four licensed photos live; two further distinct licensed subjects needed: Kasubi context and a verified religious-site exterior.",
-    "images": 4,
-    "live_url": "https://trekafricaguide.com/countries/uganda/kampala",
-    "email_id": "1a18d0171113e7ca",
-    "commit": "cc0c0d46459235b47468b4655baf64f81150e24a",
-    "deploy_id": "6ae47436aef685698b05420e"
+    "id": "fairway-boutique-hotel",
+    "category": "accommodations",
+    "status": "ready_for_publication",
+    "last_action": "Completed full guide and claim-level ledger. Added the canonical property, exact Booking.com record for the existing Stay22 resolver, and the explicit Kampala local-destination stay relationship. Zero property images; six exact subjects logged.",
+    "next_action": "Briefly inspect changed copy and relationships, commit and push main, confirm Netlify production and live page, update CMS mirror receipt if present, send owner email and save ID.",
+    "checkpoint": "docs/editorial-research/2026-10-30-fairway-boutique-hotel.md",
+    "photo_followup": "Zero property images; six distinct exact-property subjects required. No generic Kampala or golf-course scenery as hotel imagery.",
+    "images": 0
   },
   "previous_deliverable_correction": {
     "id": "marrakech-medina-street-food-walk",
@@ -455,19 +451,11 @@
     "verification": "Brief JSON/content inspection, 24 internal HTTP checks and 14 live rendered checks. No test suite or local build. Existing production exposed-markup guard preserved."
   },
   "latest_run_checkpoint": {
-    "date": "2026-10-29",
-    "action": "Completed a review correction to the Sossusvlei Travel Insight: repaired the Namib Desert internal link, replaced nonofficial NWR-looking domains with official Namibia Wildlife Resorts sources, and narrowed MEFT concession attribution.",
+    "date": "2026-10-30",
+    "action": "Completed the researched Fairway Boutique Hotel guide and Kampala relationship; preparing publication.",
     "public_changes": true,
-    "next_action": "Next category remains destinations; keep the six-subject insight photo backlog separate.",
-    "ledger": "docs/editorial-research/2026-10-29-sossusvlei-sunrise.md",
-    "commit": "e418749a355c34129015045c30862fea7cffa8d2",
-    "deployment_id": "6ae3211dd5bbb794c3bfcfbb",
-    "live_verification": {
-      "url": "https://trekafricaguide.com/travel-insights/plan-a-sossusvlei-sunrise-from-sesriem/",
-      "status": 200,
-      "source_commit": "e418749a355c34129015045c30862fea7cffa8d2"
-    },
-    "email_id": "1a187388b5d57fb4"
+    "next_action": "Inspect content, push main, verify live guide and report to owner.",
+    "ledger": "docs/editorial-research/2026-10-30-fairway-boutique-hotel.md"
   },
   "usage_deferral_history": [
     {
