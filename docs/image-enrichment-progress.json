@@ -17,7 +17,18 @@
       "docs/editorial-research/2026-10-30-underfilled-page-inventory.md",
       "docs/image-enrichment-progress.json"
     ],
-    "next_action": "Inspect newly published content and concrete image leads first; review an underfilled property only when a new exact-property source lead or owner-provided licensed originals justify a bounded rights check. Do not repeat unchanged exhausted searches."
+    "next_action": "Inspect newly published content and concrete image leads first; review an underfilled property only when a new exact-property source lead or owner-provided licensed originals justify a bounded rights check. Do not repeat unchanged exhausted searches.",
+    "published_commit": "1b8ec936d2b1ae2c2dd0af06b1c45a7f477cfb2d",
+    "pushed_at": "2026-10-30 12:25 Africa/Kampala",
+    "email_id": "1a18c2097ccde599",
+    "report_sent_at": "2026-10-30 12:25 Africa/Kampala",
+    "publication": {
+      "commit": "1b8ec936d2b1ae2c2dd0af06b1c45a7f477cfb2d",
+      "deploy_state": "docs_only_no_content_deploy_expected",
+      "email_id": "1a18c2097ccde599",
+      "report_sent_at": "2026-10-30 12:25 Africa/Kampala",
+      "note": "No public page or image changed; deployment and live-page verification were not applicable."
+    }
   },
   "follow_ups": [
     {
