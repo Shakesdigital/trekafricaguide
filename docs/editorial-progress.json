@@ -281,9 +281,9 @@
   "current_deliverable": {
     "id": "kampala-local-destination",
     "category": "destinations",
-    "status": "content_complete_pending_publication",
-    "last_action": "Completed the researched Kampala guide, including museum closure and 2026 Martyrs Day postponement caveats; Kampala has no relevant published city attraction/stay cards.",
-    "next_action": "Inspect the scoped diff, reconcile and push main; confirm production page and country/search discovery, then send one owner report. Keep six accurate licensed photos as a separate follow-up.",
+    "status": "editorial_correction_pending_publication",
+    "last_action": "Completed the researched Kampala guide and incorporated parent review: removed implementation-facing copy and boilerplate, tightened transport and safety wording, and limited event planning to current programme checks.",
+    "next_action": "Push the editorial correction, confirm the matching production deploy and rendered page/country/search paths, then send one owner report. Keep six accurate licensed photos as a separate follow-up.",
     "checkpoint": "docs/editorial-research/2026-10-30-kampala-local-destination.md",
     "photo_followup": "Source six distinct, location-accurate, licensed Kampala subjects; no images borrowed from other detail pages.",
     "images": 0,
