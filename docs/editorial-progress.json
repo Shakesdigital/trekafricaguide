@@ -457,12 +457,18 @@
   },
   "latest_run_checkpoint": {
     "date": "2026-10-31",
-    "action": "A previously owner-withdrawn Cairo/Giza starter was mistakenly changed to published in commit 5db2b30. The explicit 17 October cleanup record was then found. Immediately restored status=draft, retained text only for internal reference, and added the full withdrawn-starter set to the no-restore list.",
+    "action": "Confirmed owner-withdrawn Cairo/Giza insight restored to draft. Corrective production deploy 6ae54631a13f9e76755ad7c4 ran source commit e76fa0e1fabff6accb474fe108613fc324d9a7ec; the public URL returns HTTP 404 Page not found. No guide remains public.",
     "public_changes": false,
-    "next_action": "Confirm corrective draft commit is pushed; verify public Cairo/Giza insight remains unavailable and production deploy does not contain the withdrawn article. No owner email was sent. Resume a genuinely new travel insight on the next run after checking removal ledgers before selection.",
+    "next_action": "Send one truthful correction/run report to the owner; no email was sent about the erroneous publication. At the next run select a legitimate non-withdrawn travel insight only after checking editorial cleanup ledgers.",
     "ledger": "docs/editorial-research/2026-10-31-cairo-giza-without-burning-out.md",
     "status": "withdrawn_do_not_restore",
-    "commit": "pending",
+    "commit": "e76fa0e1fabff6accb474fe108613fc324d9a7ec",
+    "deployment_id": "6ae54631a13f9e76755ad7c4",
+    "live_verification": {
+      "url": "https://trekafricaguide.com/travel-insights/cairo-giza-without-burning-out/",
+      "status": 404,
+      "distinctive_text": "Page not found | Trek Africa Guide"
+    },
     "email_id": null
   },
   "usage_deferral_history": [
@@ -625,6 +631,12 @@
       "docs/editorial-research/2026-10-31-cairo-giza-without-burning-out.md"
     ],
     "live_url": "https://trekafricaguide.com/travel-insights/cairo-giza-without-burning-out",
-    "email_id": null
+    "email_id": null,
+    "corrective_commit": "e76fa0e1fabff6accb474fe108613fc324d9a7ec",
+    "deployment_id": "6ae54631a13f9e76755ad7c4",
+    "live_verification": {
+      "status": 404,
+      "text": "Page not found | Trek Africa Guide"
+    }
   }
 }
