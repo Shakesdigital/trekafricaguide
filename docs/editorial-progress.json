@@ -469,7 +469,8 @@
       "status": 404,
       "distinctive_text": "Page not found | Trek Africa Guide"
     },
-    "email_id": null
+    "email_id": "1a18f9cbf6f92a98",
+    "email_sent_at": "2026-10-31T04:39:24+03:00"
   },
   "usage_deferral_history": [
     {
@@ -631,12 +632,13 @@
       "docs/editorial-research/2026-10-31-cairo-giza-without-burning-out.md"
     ],
     "live_url": "https://trekafricaguide.com/travel-insights/cairo-giza-without-burning-out",
-    "email_id": null,
+    "email_id": "1a18f9cbf6f92a98",
     "corrective_commit": "e76fa0e1fabff6accb474fe108613fc324d9a7ec",
     "deployment_id": "6ae54631a13f9e76755ad7c4",
     "live_verification": {
       "status": 404,
       "text": "Page not found | Trek Africa Guide"
-    }
+    },
+    "email_sent_at": "2026-10-31T04:39:24+03:00"
   }
 }
