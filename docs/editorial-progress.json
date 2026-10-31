@@ -457,14 +457,13 @@
   },
   "latest_run_checkpoint": {
     "date": "2026-10-31",
-    "action": "Completed the Cairo/Giza pacing insight copy and claim-level source ledger. Neutral image state retained; article is ready for publication.",
+    "action": "A previously owner-withdrawn Cairo/Giza starter was mistakenly changed to published in commit 5db2b30. The explicit 17 October cleanup record was then found. Immediately restored status=draft, retained text only for internal reference, and added the full withdrawn-starter set to the no-restore list.",
     "public_changes": false,
-    "next_action": "Briefly inspect article/anchors, commit and push the insight, confirm production deployment + live URL + CMS source commit, then send/save the owner report. Next category after this insight: activity; keep its six-subject photo backlog separate.",
+    "next_action": "Confirm corrective draft commit is pushed; verify public Cairo/Giza insight remains unavailable and production deploy does not contain the withdrawn article. No owner email was sent. Resume a genuinely new travel insight on the next run after checking removal ledgers before selection.",
     "ledger": "docs/editorial-research/2026-10-31-cairo-giza-without-burning-out.md",
-    "status": "ready_to_publish",
-    "photo_followup": "Six distinct licensed image subjects for this insight: Giza plateau wide context; Great Pyramid and plateau route; Sphinx/Khafre temple context; official GEM exterior; GEM gallery with verified current identity; central Cairo street/museum context. Do not reuse photos assigned to Cairo/Giza attraction or Giza activity pages.",
-    "article": "cairo-giza-without-burning-out",
-    "image_count": 0
+    "status": "withdrawn_do_not_restore",
+    "commit": "pending",
+    "email_id": null
   },
   "usage_deferral_history": [
     {
@@ -582,6 +581,16 @@
     "report_message_id": "1a1820e854da38bf"
   },
   "owner_removed_articles": [
+    "plan-first-east-africa-safari",
+    "uganda-vs-kenya-first-time-safari",
+    "combine-serengeti-and-zanzibar",
+    "best-time-southern-africa",
+    "cape-town-before-or-after-safari",
+    "morocco-sahara-itinerary",
+    "cairo-giza-without-burning-out",
+    "africa-trip-safety-basics",
+    "cultural-etiquette-local-communities",
+    "ghana-senegal-slow-travel",
     "plan-a-sossusvlei-sunrise-from-sesriem"
   ],
   "accommodation_fairway_boutique_hotel": {
@@ -607,18 +616,15 @@
     "next_category": "travel_insights"
   },
   "travel_insight_cairo_giza_without_burning_out": {
-    "status": "ready_to_publish",
+    "status": "withdrawn_do_not_restore",
     "date": "2026-10-31",
-    "category": "travel_insights",
-    "scope": "Substantially complete existing first-visit Cairo/Giza pacing concept: Giza Plateau, GEM, central Cairo; three-day suggestion, transport distinctions, passport-specific entry caveats, packing, FAQs and internal links.",
+    "correction": "The Cairo/Giza migration-seeded development starter was explicitly removed by owner request in docs/editorial-research/2026-10-17-insight-cleanup.md. Its copy was briefly marked published erroneously in commit 5db2b30; immediately restored to draft in this correction. Retain private text/research for context only; never republish or restore this slug. Do not send the planned owner report email for that erroneous publication.",
     "files": [
       "content/editorial-overrides.json",
-      "docs/editorial-research/2026-10-31-cairo-giza-without-burning-out.md",
-      "docs/editorial-progress.json"
+      "docs/editorial-progress.json",
+      "docs/editorial-research/2026-10-31-cairo-giza-without-burning-out.md"
     ],
-    "image_count": 0,
-    "image_followup": "Six separately sourced/licensed distinct visual subjects are listed in the ledger; no other page images were reused.",
-    "sources_checked": "Official MoTA Giza Plateau, Egyptian Monuments ticketing, official GEM visit/ticketing, Cairo Governorate metro (2026), Egypt e-Visa portal/FAQ and Experience Egypt; checked 2026-10-31.",
-    "next_category": "activities"
+    "live_url": "https://trekafricaguide.com/travel-insights/cairo-giza-without-burning-out",
+    "email_id": null
   }
 }

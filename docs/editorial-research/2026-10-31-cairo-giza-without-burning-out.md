@@ -16,3 +16,8 @@ Completed the existing unpublished `cairo-giza-without-burning-out` concept as a
 ## Publication state
 
 Draft and fact notes complete; no photographs added (0/6). Next: inspect article JSON and link targets, commit/push main, confirm Netlify deployment and live route, confirm CMS source commit, then send one owner email and save its receipt.
+
+
+## Withdrawal correction — 31 October 2026
+
+The existing migration-seeded Cairo/Giza draft was mistakenly marked published in commit `5db2b30` before the 17 October owner cleanup ledger was found. That earlier record explicitly lists this exact slug among ten owner-removed development starters. The mistake is corrected: the Git override is back to `draft`; researched copy is retained only in this internal record/repository history and must never be restored to the public site. All ten removed starter slugs plus the separately withdrawn Sossusvlei development placeholder are now recorded in `owner_removed_articles`. No owner email was sent. The last confirmed production response for the insight URL was a page-not-found response (HTTP status indicated by the site content; the PowerShell request did not expose its status cleanly); verify exact 404 after the correction deploy.
