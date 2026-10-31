@@ -456,20 +456,15 @@
     "verification": "Brief JSON/content inspection, 24 internal HTTP checks and 14 live rendered checks. No test suite or local build. Existing production exposed-markup guard preserved."
   },
   "latest_run_checkpoint": {
-    "date": "2026-10-30",
-    "action": "Published the Fairway Boutique Hotel guide and explicit Kampala stay relationship; confirmed the production route and CMS mirror, then sent the owner report.",
-    "public_changes": true,
-    "next_action": "Travel Insights category; Fairway photo collection remains a separate six-subject follow-up.",
-    "ledger": "docs/editorial-research/2026-10-30-fairway-boutique-hotel.md",
-    "commit": "217ae4903921dd1c9bf1415246557ebd19e6ddd7",
-    "deployment_id": "6ae4f15ba21d87fc6ce5e7ef",
-    "live_verification": {
-      "url": "https://trekafricaguide.com/accommodations/fairway-boutique-hotel/",
-      "status": 200,
-      "source_commit": "217ae4903921dd1c9bf1415246557ebd19e6ddd7",
-      "checks": "HTTP 200; rendered Fairway guide text, Kampala guide link, dated Agoda traveler-feedback section and booking-panel Stay22 link to exact Booking.com detail."
-    },
-    "email_id": "1a18e50d7bfd92db"
+    "date": "2026-10-31",
+    "action": "Completed the Cairo/Giza pacing insight copy and claim-level source ledger. Neutral image state retained; article is ready for publication.",
+    "public_changes": false,
+    "next_action": "Briefly inspect article/anchors, commit and push the insight, confirm production deployment + live URL + CMS source commit, then send/save the owner report. Next category after this insight: activity; keep its six-subject photo backlog separate.",
+    "ledger": "docs/editorial-research/2026-10-31-cairo-giza-without-burning-out.md",
+    "status": "ready_to_publish",
+    "photo_followup": "Six distinct licensed image subjects for this insight: Giza plateau wide context; Great Pyramid and plateau route; Sphinx/Khafre temple context; official GEM exterior; GEM gallery with verified current identity; central Cairo street/museum context. Do not reuse photos assigned to Cairo/Giza attraction or Giza activity pages.",
+    "article": "cairo-giza-without-burning-out",
+    "image_count": 0
   },
   "usage_deferral_history": [
     {
@@ -610,5 +605,20 @@
     "live_verification": "HTTP 200; new guide content, Kampala internal link, dated Agoda feedback and Stay22-resolved exact-property booking link confirmed.",
     "email_id": "1a18e50d7bfd92db",
     "next_category": "travel_insights"
+  },
+  "travel_insight_cairo_giza_without_burning_out": {
+    "status": "ready_to_publish",
+    "date": "2026-10-31",
+    "category": "travel_insights",
+    "scope": "Substantially complete existing first-visit Cairo/Giza pacing concept: Giza Plateau, GEM, central Cairo; three-day suggestion, transport distinctions, passport-specific entry caveats, packing, FAQs and internal links.",
+    "files": [
+      "content/editorial-overrides.json",
+      "docs/editorial-research/2026-10-31-cairo-giza-without-burning-out.md",
+      "docs/editorial-progress.json"
+    ],
+    "image_count": 0,
+    "image_followup": "Six separately sourced/licensed distinct visual subjects are listed in the ledger; no other page images were reused.",
+    "sources_checked": "Official MoTA Giza Plateau, Egyptian Monuments ticketing, official GEM visit/ticketing, Cairo Governorate metro (2026), Egypt e-Visa portal/FAQ and Experience Egypt; checked 2026-10-31.",
+    "next_category": "activities"
   }
 }
