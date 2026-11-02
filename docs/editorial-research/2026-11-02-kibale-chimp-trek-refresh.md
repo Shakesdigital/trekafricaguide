@@ -16,4 +16,4 @@ Expanded the travel-choice context: use the direct Kampala–Fort Portal highway
 
 ## Publication record
 
-Beginning checkpoint only; changes, push, production deploy and live page confirmation pending.
+Commit `669bb4e8272e5e3dcec180a42c18e12b046cccf5` was pushed to `main`. Supabase `public.editorial_documents` confirms the published Kibale document is imported at `source_commit` `669bb4e8272e5e3dcec180a42c18e12b046cccf5`. Production remains on Netlify deploy `6ae546e40b91beaebda69a4b`, commit `131eaae9f8a7f7d8a3066b3c62465eb82c17fe12`; the live page is HTTP 200 but still shows the earlier copy. This environment has no Netlify CLI login (`netlify status`: “Not logged in”) and the connected Netlify project tool only reads deploys, so production publication and live text confirmation remain blocked pending an authenticated publish action. No email sent before live confirmation.

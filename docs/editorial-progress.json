@@ -281,11 +281,17 @@
   "current_deliverable": {
     "id": "plan-kibale-around-chimpanzee-trek",
     "category": "travel_insights",
-    "status": "in_progress",
-    "last_action": "Expanded the published Kibale insight with UWA-backed Mbarara circuit and air access choices; preserved existing trek pacing, photos and page relationships.",
-    "next_action": "Commit and push, confirm production deploy and live text, then send owner report.",
+    "status": "published_pending_deploy",
+    "last_action": "Commit 669bb4e8272e5e3dcec180a42c18e12b046cccf5 pushed to main; Supabase CMS mirror confirms the published Kibale document at the same source_commit.",
+    "next_action": "Production publish and live text verification pending: Netlify CLI is not authenticated in this environment and connected Netlify project tools are read-only. Send one owner report after a live deploy.",
     "checkpoint": "docs/editorial-research/2026-11-02-kibale-chimp-trek-refresh.md",
-    "images": 5
+    "images": 5,
+    "commit": "669bb4e8272e5e3dcec180a42c18e12b046cccf5",
+    "cms_source_commit": "669bb4e8272e5e3dcec180a42c18e12b046cccf5",
+    "previous_live_deploy": "6ae546e40b91beaebda69a4b",
+    "previous_live_commit": "131eaae9f8a7f7d8a3066b3c62465eb82c17fe12",
+    "live_url": "https://trekafricaguide.com/travel-insights/plan-kibale-around-chimpanzee-trek/",
+    "live_status": "HTTP 200, old text remains; deploy required"
   },
   "previous_deliverable_correction": {
     "id": "marrakech-medina-street-food-walk",
