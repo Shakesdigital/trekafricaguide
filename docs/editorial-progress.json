@@ -460,11 +460,31 @@
   },
   "latest_run_checkpoint": {
     "date": "2026-11-04",
-    "status": "in_progress",
-    "action": "Completed the researched content draft for a new Murchison Falls Nile launch-trip activity; neutral zero-photo and no-exact-product-CTA decisions are documented.",
-    "public_changes": false,
-    "next_action": "Briefly inspect the activity JSON/render inputs, commit and push main, then confirm production deployment and rendered distinctive text before reporting.",
-    "ledger": "docs/editorial-research/2026-11-04-murchison-nile-launch-trip.md"
+    "status": "complete",
+    "action": "Published the new Murchison Falls Nile launch-trip guide on main; production deploy is ready and distinctive rendered copy, canonical links, honest no-CTA state and CMS mirror were confirmed.",
+    "public_changes": true,
+    "content_commit": "9db77e5370256e8328a22d6ff8eda92c1bbbad83",
+    "deployment_id": "6aeb2c10cb34a5f01e699a5a",
+    "live_verification": {
+      "url": "https://trekafricaguide.com/activities/murchison-falls-nile-launch-trip/",
+      "status": 200,
+      "checked_at": "2026-11-04T16:00+03:00",
+      "distinctive_text": "The upstream launch trip is one of the most useful ways to understand how the Victoria Nile shapes Murchison Falls National Park.",
+      "canonical_stay": "Paraa Safari Lodge",
+      "traveler_feedback": "KTP310"
+    },
+    "cms_mirror": {
+      "entity": "activities",
+      "slug": "murchison-falls-nile-launch-trip",
+      "status": "published",
+      "source_commit": "9db77e5370256e8328a22d6ff8eda92c1bbbad83"
+    },
+    "email_id": "1a1a6a642fef8c2c",
+    "email_sent_at": "2026-11-04T16:01+03:00",
+    "push_receipt": "git push origin main succeeded: da3d9b2..9db77e5. This checkpoint/report receipt is being committed to main.",
+    "ledger": "docs/editorial-research/2026-11-04-murchison-nile-launch-trip.md",
+    "image_count": 0,
+    "next_action": "Rotate to attractions; separately source six licensed launch-trip-specific images, without reusing park-attraction photos."
   },
   "usage_deferral_history": [
     {
@@ -636,7 +656,7 @@
     "email_sent_at": "2026-10-31T04:39:24+03:00"
   },
   "activity_murchison_falls_launch_trip": {
-    "status": "draft_complete_pending_publish",
+    "status": "complete",
     "started": "2026-11-04",
     "scope": "New upstream Paraa-to-Fajao Gorge Nile launch-trip guide associated with existing Murchison Falls National Park attraction id 59.",
     "files": [
@@ -647,7 +667,21 @@
     "images": 0,
     "image_followup": "Six distinct licensed Murchison launch-trip subjects: Paraa jetty/embarkation, covered launch boat, Nile riverbank habitat, hippos from safe boat distance, river birds, and boat approach/view of Fajao Gorge/falls. Do not reuse park-attraction photos; no scenic view should imply a guaranteed close approach.",
     "booking_cta": "No exact current OTA listing verified; no booking CTA.",
-    "next_action": "Inspect authoring data, publish via main, and verify live rendered copy and Netlify source commit.",
-    "completed": "Original activity guide researched and drafted with current UWA/park access, operator logistics, dated traveler perspectives and no unsupported booking CTA."
+    "next_action": "Next editorial category: attractions. Follow up separately with six verified, licensed activity-specific images.",
+    "completed": "Production guide live and CMS mirror confirmed at content commit 9db77e5370256e8328a22d6ff8eda92c1bbbad83; page HTTP 200 with specific copy and canonical links. Owner report SENT 1a1a6a642fef8c2c.",
+    "publication": {
+      "content_commit": "9db77e5370256e8328a22d6ff8eda92c1bbbad83",
+      "pushed_to": "main",
+      "push_result": "success",
+      "deployment_id": "6aeb2c10cb34a5f01e699a5a",
+      "deployment_state": "ready",
+      "published_at": "2026-11-04T12:59:44Z",
+      "live_url": "https://trekafricaguide.com/activities/murchison-falls-nile-launch-trip/",
+      "live_http_status": 200,
+      "live_distinctive_text": "The upstream launch trip is one of the most useful ways to understand how the Victoria Nile shapes Murchison Falls National Park.",
+      "cms_source_commit": "9db77e5370256e8328a22d6ff8eda92c1bbbad83",
+      "email_id": "1a1a6a642fef8c2c",
+      "email_sent_at": "2026-11-04T16:01+03:00"
+    }
   }
 }

@@ -15,3 +15,11 @@ The next activity guide is the upstream Nile launch trip from Paraa to the base 
 ## Publication status
 
 Content is drafted as a new published activity under attraction id 59. It still needs JSON/render-input inspection, main-branch commit and push, then separate Netlify/live-text confirmation. No tests, local build or browser QA are planned.
+## Production and owner-report receipt — 4 November 2026
+
+- Content commit `9db77e5370256e8328a22d6ff8eda92c1bbbad83` was pushed successfully to `main`.
+- Netlify production deploy `6aeb2c10cb34a5f01e699a5a` reached `ready`, published 2026-11-04 12:59:44 UTC from that exact commit.
+- Live URL `https://trekafricaguide.com/activities/murchison-falls-nile-launch-trip/` returned HTTP 200. The title, distinctive upstream-trip paragraph, canonical Paraa Safari Lodge and Murchison Falls links, dated KTP310 feedback, and no-verified-booking-link state were confirmed in rendered HTML.
+- Supabase `public.editorial_documents` contains the published activity with source commit `9db77e5370256e8328a22d6ff8eda92c1bbbad83` and expected detail intro.
+- Owner report sent to `fsddanmugisa@gmail.com`; Gmail SENT ID `1a1a6a642fef8c2c`.
+- No tests, local build or browser QA. The neutral photo state and six distinct-image follow-up remain open. Next category: attractions.
