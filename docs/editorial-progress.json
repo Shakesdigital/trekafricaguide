@@ -459,21 +459,12 @@
     "verification": "Brief JSON/content inspection, 24 internal HTTP checks and 14 live rendered checks. No test suite or local build. Existing production exposed-markup guard preserved."
   },
   "latest_run_checkpoint": {
-    "date": "2026-10-31",
-    "action": "Confirmed owner-withdrawn Cairo/Giza insight restored to draft. Corrective production deploy 6ae54631a13f9e76755ad7c4 ran source commit e76fa0e1fabff6accb474fe108613fc324d9a7ec; the public URL returns HTTP 404 Page not found. No guide remains public.",
+    "date": "2026-11-04",
+    "status": "in_progress",
+    "action": "Completed the researched content draft for a new Murchison Falls Nile launch-trip activity; neutral zero-photo and no-exact-product-CTA decisions are documented.",
     "public_changes": false,
-    "next_action": "Send one truthful correction/run report to the owner; no email was sent about the erroneous publication. At the next run select a legitimate non-withdrawn travel insight only after checking editorial cleanup ledgers.",
-    "ledger": "docs/editorial-research/2026-10-31-cairo-giza-without-burning-out.md",
-    "status": "withdrawn_do_not_restore",
-    "commit": "e76fa0e1fabff6accb474fe108613fc324d9a7ec",
-    "deployment_id": "6ae54631a13f9e76755ad7c4",
-    "live_verification": {
-      "url": "https://trekafricaguide.com/travel-insights/cairo-giza-without-burning-out/",
-      "status": 404,
-      "distinctive_text": "Page not found | Trek Africa Guide"
-    },
-    "email_id": "1a18f9cbf6f92a98",
-    "email_sent_at": "2026-10-31T04:39:24+03:00"
+    "next_action": "Briefly inspect the activity JSON/render inputs, commit and push main, then confirm production deployment and rendered distinctive text before reporting.",
+    "ledger": "docs/editorial-research/2026-11-04-murchison-nile-launch-trip.md"
   },
   "usage_deferral_history": [
     {
@@ -643,5 +634,20 @@
       "text": "Page not found | Trek Africa Guide"
     },
     "email_sent_at": "2026-10-31T04:39:24+03:00"
+  },
+  "activity_murchison_falls_launch_trip": {
+    "status": "draft_complete_pending_publish",
+    "started": "2026-11-04",
+    "scope": "New upstream Paraa-to-Fajao Gorge Nile launch-trip guide associated with existing Murchison Falls National Park attraction id 59.",
+    "files": [
+      "content/editorial-overrides.json",
+      "docs/editorial-research/2026-11-04-murchison-nile-launch-trip.md",
+      "docs/editorial-progress.json"
+    ],
+    "images": 0,
+    "image_followup": "Six distinct licensed Murchison launch-trip subjects: Paraa jetty/embarkation, covered launch boat, Nile riverbank habitat, hippos from safe boat distance, river birds, and boat approach/view of Fajao Gorge/falls. Do not reuse park-attraction photos; no scenic view should imply a guaranteed close approach.",
+    "booking_cta": "No exact current OTA listing verified; no booking CTA.",
+    "next_action": "Inspect authoring data, publish via main, and verify live rendered copy and Netlify source commit.",
+    "completed": "Original activity guide researched and drafted with current UWA/park access, operator logistics, dated traveler perspectives and no unsupported booking CTA."
   }
 }
