@@ -1,25 +1,50 @@
 {
-  "updated_at": "2026-10-30",
+  "updated_at": "2026-11-04",
   "current_run": {
-    "id": "fairway-boutique-hotel-no-eligible-photo-checkpoint",
-    "page_url": "https://trekafricaguide.com/accommodations/fairway-boutique-hotel/",
-    "page_type": "accommodation",
-    "status": "no_eligible_photo_checkpoint",
+    "id": "murchison-falls-nile-launch-trip-five-image-partial-enrichment",
+    "page_url": "https://trekafricaguide.com/activities/murchison-falls-nile-launch-trip/",
+    "page_type": "activity",
+    "status": "local_assets_assigned_pending_publication",
     "previous_photo_count": 0,
-    "photo_count": 0,
-    "new_photo_count": 0,
-    "checked_date": "2026-10-30",
-    "started_at": "2026-10-30 23:16 Africa/Kampala",
-    "initial_live_verification": "Production page returned HTTP 200 with no property gallery; its one image tag is site chrome. The accommodation override has blank hero_image_url and an empty gallery, with no photo-library default.",
-    "note": "Full published guide reviewed. One bounded exact-property rights review found official hotel gallery imagery, OTA imagery and third-party publication imagery without a verified reuse license; exact-name Pexels and Unsplash searches returned no results. No image was downloaded, assigned or visually/hash reviewed because no candidate met both exact-property identity and verified no-public-attribution rights. Existing credits and guide copy remain unchanged.",
-    "source_ledger": "docs/editorial-research/2026-10-30-fairway-boutique-hotel-photo-checkpoint.md",
+    "photo_count": 5,
+    "new_photo_count": 5,
+    "checked_date": "2026-11-04",
+    "started_at": "2026-11-04 17:14 Africa/Kampala",
+    "initial_live_verification": "Production page returned HTTP 200 with zero own gallery images, no inline photographs, and no Murchison activity photo-library default. Three image tags were the site logo and two nearby listing cards, excluded from the own-guide count.",
+    "note": "Full guide reviewed. Five visually inspected, exact-place no-public-attribution images selected from two CC0 and three Unsplash-licensed source pages: passenger launch, hippo recorded during a three-hour falls trip, falls water, sunset Nile boat in the park, and park riverbank photographed from a boat. Exact routes/operators are not inferred from park-wide scenes. Source URL and SHA-256 dedup checks against the library and all 670 public image assets found no matches. The Murchison activity guide and existing credits are unchanged. A sixth distinctive river species photo from the exact upstream trip remains open.",
+    "source_ledger": "docs/editorial-research/2026-11-04-murchison-nile-launch-trip-photo-enrichment.md",
     "files": [
-      "docs/editorial-research/2026-10-30-fairway-boutique-hotel-photo-checkpoint.md",
+      "src/lib/photo-library.js",
+      "public/photo-library.js",
+      "public/images/editorial/murchison-falls-nile-launch-trip/",
+      "docs/editorial-research/2026-11-04-murchison-nile-launch-trip-photo-enrichment.md",
       "docs/image-enrichment-progress.json"
     ],
-    "next_action": "Keep the neutral property-photo state. Reopen only for owner-supplied originals with permission, written hotel reuse permission, or a distinct exact-property no-public-attribution lead; do not repeat the generic source search.",
-    "email_id": "1a18e772a102a712",
-    "report_sent_at": "2026-10-30 23:18 Africa/Kampala"
+    "next_action": "Sync the photo-library mirror, run the mandatory build-input/mirror check, commit and push only this image collection, then confirm the automatic production deploy, five-image guide gallery and all five new JPEG assets before reporting.",
+    "selected_images": [
+      "murchison-falls-cruise-ssemmanda-will.jpg",
+      "murchison-nile-hippo-ivan-sabayuki.jpg",
+      "murchison-falls-river-view-ivan-sabayuki.jpg",
+      "murchison-nile-boat-sunset-omoniyi-david.jpg",
+      "murchison-riverbank-from-boat-bmkme.jpg"
+    ],
+    "excluded_candidate_count": 3,
+    "excluded_candidates": [
+      {
+        "subject": "Murchison park elephant track",
+        "reason": "Park-wide land-safari context rather than Nile launch trip."
+      },
+      {
+        "subject": "Other Murchison launch and wildlife Commons results",
+        "reason": "CC BY-SA requires public attribution."
+      },
+      {
+        "subject": "1936 motor launch archive",
+        "reason": "Historical craft is not useful evidence of current visitor boats."
+      }
+    ],
+    "email_id": null,
+    "report_sent_at": null
   },
   "follow_ups": [
     {
