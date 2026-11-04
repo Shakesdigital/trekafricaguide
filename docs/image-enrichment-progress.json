@@ -4,7 +4,7 @@
     "id": "murchison-falls-nile-launch-trip-five-image-partial-enrichment",
     "page_url": "https://trekafricaguide.com/activities/murchison-falls-nile-launch-trip/",
     "page_type": "activity",
-    "status": "local_assets_assigned_pending_publication",
+    "status": "published_live_confirmed",
     "previous_photo_count": 0,
     "photo_count": 5,
     "new_photo_count": 5,
@@ -20,7 +20,7 @@
       "docs/editorial-research/2026-11-04-murchison-nile-launch-trip-photo-enrichment.md",
       "docs/image-enrichment-progress.json"
     ],
-    "next_action": "Sync the photo-library mirror, run the mandatory build-input/mirror check, commit and push only this image collection, then confirm the automatic production deploy, five-image guide gallery and all five new JPEG assets before reporting.",
+    "next_action": "No further work for this collection. Reopen the specific river-species gap only with a credible exact-upstream-trip no-public-attribution source lead.",
     "selected_images": [
       "murchison-falls-cruise-ssemmanda-will.jpg",
       "murchison-nile-hippo-ivan-sabayuki.jpg",
@@ -43,8 +43,34 @@
         "reason": "Historical craft is not useful evidence of current visitor boats."
       }
     ],
-    "email_id": null,
-    "report_sent_at": null
+    "email_id": "1a1a6fba269f4202",
+    "report_sent_at": "2026-11-04 17:34 Africa/Kampala",
+    "published_commit": "8ea8be80249c7a3671ead8de438d088703255386",
+    "netlify_deploy": "6aeb41caa268eaa19a7c4cd4",
+    "live_verification": {
+      "checked_at": "2026-11-04 17:34 Africa/Kampala",
+      "deploy_state": "ready",
+      "deployed_commit": "8ea8be80249c7a3671ead8de438d088703255386",
+      "page_http_status": 200,
+      "gallery_count": 5,
+      "see_all_text": "See all 5 images",
+      "new_asset_http_statuses": {
+        "murchison-falls-cruise-ssemmanda-will.jpg": 200,
+        "murchison-falls-river-view-ivan-sabayuki.jpg": 200,
+        "murchison-nile-boat-sunset-omoniyi-david.jpg": 200,
+        "murchison-nile-hippo-ivan-sabayuki.jpg": 200,
+        "murchison-riverbank-from-boat-bmkme.jpg": 200
+      },
+      "new_asset_content_type": "image/jpeg",
+      "new_asset_bytes": {
+        "murchison-falls-cruise-ssemmanda-will.jpg": 1141863,
+        "murchison-falls-river-view-ivan-sabayuki.jpg": 331265,
+        "murchison-nile-boat-sunset-omoniyi-david.jpg": 125464,
+        "murchison-nile-hippo-ivan-sabayuki.jpg": 180813,
+        "murchison-riverbank-from-boat-bmkme.jpg": 1590947
+      },
+      "note": "Production serves the five-image guide gallery and all five new JPEG assets."
+    }
   },
   "follow_ups": [
     {
