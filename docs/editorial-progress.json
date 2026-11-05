@@ -272,9 +272,9 @@
     "email_id": "1a143a69416cf3d1"
   },
   "rotation": {
-    "last_completed_category": "travel_insights",
-    "next_category": "activities",
-    "next_deliverable": "Select one useful researched activity guide; preserve withdrawn articles.",
+    "last_completed_category": "activities",
+    "next_category": "attractions",
+    "next_deliverable": "Select one useful researched attraction guide; preserve withdrawn articles.",
     "rule": "Finish the individual deliverable and report its live state, then rotate. Track exact-property photo gaps separately.",
     "override_reason": null
   },
@@ -683,5 +683,20 @@
       "email_id": "1a1a6a642fef8c2c",
       "email_sent_at": "2026-11-04T16:01+03:00"
     }
+  },
+  "attraction_cape_coast_kakum": {
+    "status": "in_progress",
+    "date": "2026-11-05",
+    "scope": "Expanded existing Cape Coast Kakum attraction guide in place; no new canonical records or relationship changes.",
+    "files": [
+      "content/editorial-overrides.json",
+      "docs/editorial-research/2026-11-05-cape-coast-kakum-attraction.md",
+      "docs/editorial-progress.json"
+    ],
+    "image_count": 6,
+    "image_note": "Preserved six previously verified licensed images; no image changes. See 2026-10-22 photo ledger.",
+    "source_count": 7,
+    "next_category": "attractions",
+    "publication": "Pending push/deployment/live confirmation."
   }
 }
