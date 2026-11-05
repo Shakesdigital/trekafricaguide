@@ -1,76 +1,51 @@
 {
-  "updated_at": "2026-11-04",
+  "updated_at": "2026-11-05",
   "current_run": {
-    "id": "murchison-falls-nile-launch-trip-five-image-partial-enrichment",
-    "page_url": "https://trekafricaguide.com/activities/murchison-falls-nile-launch-trip/",
-    "page_type": "activity",
-    "status": "published_live_confirmed",
+    "id": "fort-portal-local-destination-five-image-partial-enrichment",
+    "page_url": "https://trekafricaguide.com/countries/uganda/fort-portal/",
+    "page_type": "local-destination",
+    "status": "local_assets_assigned_pending_publication",
     "previous_photo_count": 0,
     "photo_count": 5,
     "new_photo_count": 5,
-    "checked_date": "2026-11-04",
-    "started_at": "2026-11-04 17:14 Africa/Kampala",
-    "initial_live_verification": "Production page returned HTTP 200 with zero own gallery images, no inline photographs, and no Murchison activity photo-library default. Three image tags were the site logo and two nearby listing cards, excluded from the own-guide count.",
-    "note": "Full guide reviewed. Five visually inspected, exact-place no-public-attribution images selected from two CC0 and three Unsplash-licensed source pages: passenger launch, hippo recorded during a three-hour falls trip, falls water, sunset Nile boat in the park, and park riverbank photographed from a boat. Exact routes/operators are not inferred from park-wide scenes. Source URL and SHA-256 dedup checks against the library and all 670 public image assets found no matches. The Murchison activity guide and existing credits are unchanged. A sixth distinctive river species photo from the exact upstream trip remains open.",
-    "source_ledger": "docs/editorial-research/2026-11-04-murchison-nile-launch-trip-photo-enrichment.md",
+    "checked_date": "2026-11-05",
+    "started_at": "2026-11-05 12:15 Africa/Kampala",
+    "initial_live_verification": "Published guide record had no hero_image_url or gallery, so it rendered zero dedicated guide photos. The previous editorial publication receipt confirms its nested route returned HTTP 200; site chrome is excluded from the own-gallery count.",
+    "note": "Full Fort Portal guide and photo follow-up ledger reviewed. Five exact-context, visually inspected no-public-attribution photos assigned: Fort Portal tea road, Mpanga market produce, Lake Kigere, Nyakasura Falls, and Fort Portal-region Rwenzori landscape. Source pages are not duplicates in the existing photo library; SHA-256 checks against all 680 public image assets found no matches. No Kibale or accommodation collection was reused. Town-centre/civic, Karuziika Palace, and Amabere cave images remain open because available exact Commons images require public attribution.",
+    "source_ledger": "docs/editorial-research/2026-11-05-fort-portal-photo-enrichment.md",
     "files": [
+      "content/local-destinations.json",
       "src/lib/photo-library.js",
       "public/photo-library.js",
-      "public/images/editorial/murchison-falls-nile-launch-trip/",
-      "docs/editorial-research/2026-11-04-murchison-nile-launch-trip-photo-enrichment.md",
+      "public/images/editorial/fort-portal-local-destination/",
+      "docs/editorial-research/2026-11-05-fort-portal-photo-enrichment.md",
       "docs/image-enrichment-progress.json"
     ],
-    "next_action": "No further work for this collection. Reopen the specific river-species gap only with a credible exact-upstream-trip no-public-attribution source lead.",
+    "next_action": "Commit and push only the Fort Portal image collection, confirm the automatic production deployment, live five-image guide and five JPEG assets, then send one source-free owner report and record the receipt.",
     "selected_images": [
-      "murchison-falls-cruise-ssemmanda-will.jpg",
-      "murchison-nile-hippo-ivan-sabayuki.jpg",
-      "murchison-falls-river-view-ivan-sabayuki.jpg",
-      "murchison-nile-boat-sunset-omoniyi-david.jpg",
-      "murchison-riverbank-from-boat-bmkme.jpg"
+      "fort-portal-mpanga-market-ivan-sabayuki.jpg",
+      "fort-portal-tea-field-michael-starkie.jpg",
+      "fort-portal-lake-kigere-alvinategyeka.jpg",
+      "fort-portal-nyakasura-falls-alvinategyeka.jpg",
+      "fort-portal-rwenzori-landscape-itote-rubombora.jpg"
     ],
     "excluded_candidate_count": 3,
     "excluded_candidates": [
       {
-        "subject": "Murchison park elephant track",
-        "reason": "Park-wide land-safari context rather than Nile launch trip."
+        "subject": "Fort Portal city-centre/civic view",
+        "reason": "Exact city-view Commons candidates require CC BY public attribution."
       },
       {
-        "subject": "Other Murchison launch and wildlife Commons results",
-        "reason": "CC BY-SA requires public attribution."
+        "subject": "Karuziika Palace exterior",
+        "reason": "Available exact palace image requires CC BY-SA public attribution; no approved public-viewpoint rights-cleared photo found."
       },
       {
-        "subject": "1936 motor launch archive",
-        "reason": "Historical craft is not useful evidence of current visitor boats."
+        "subject": "Amabere cave interior/approach",
+        "reason": "Available exact cave images require CC BY-SA public attribution; no no-attribution source selected."
       }
     ],
-    "email_id": "1a1a6fba269f4202",
-    "report_sent_at": "2026-11-04 17:34 Africa/Kampala",
-    "published_commit": "8ea8be80249c7a3671ead8de438d088703255386",
-    "netlify_deploy": "6aeb41caa268eaa19a7c4cd4",
-    "live_verification": {
-      "checked_at": "2026-11-04 17:34 Africa/Kampala",
-      "deploy_state": "ready",
-      "deployed_commit": "8ea8be80249c7a3671ead8de438d088703255386",
-      "page_http_status": 200,
-      "gallery_count": 5,
-      "see_all_text": "See all 5 images",
-      "new_asset_http_statuses": {
-        "murchison-falls-cruise-ssemmanda-will.jpg": 200,
-        "murchison-falls-river-view-ivan-sabayuki.jpg": 200,
-        "murchison-nile-boat-sunset-omoniyi-david.jpg": 200,
-        "murchison-nile-hippo-ivan-sabayuki.jpg": 200,
-        "murchison-riverbank-from-boat-bmkme.jpg": 200
-      },
-      "new_asset_content_type": "image/jpeg",
-      "new_asset_bytes": {
-        "murchison-falls-cruise-ssemmanda-will.jpg": 1141863,
-        "murchison-falls-river-view-ivan-sabayuki.jpg": 331265,
-        "murchison-nile-boat-sunset-omoniyi-david.jpg": 125464,
-        "murchison-nile-hippo-ivan-sabayuki.jpg": 180813,
-        "murchison-riverbank-from-boat-bmkme.jpg": 1590947
-      },
-      "note": "Production serves the five-image guide gallery and all five new JPEG assets."
-    }
+    "email_id": null,
+    "report_sent_at": null
   },
   "follow_ups": [
     {
@@ -2039,6 +2014,20 @@
       "next_action": "Keep the neutral property-photo state. Reopen only for owner-supplied originals with permission, written hotel reuse permission, or a distinct exact-property no-public-attribution lead; do not repeat the generic source search.",
       "email_id": "1a18e772a102a712",
       "report_sent_at": "2026-10-30 23:18 Africa/Kampala"
+    },
+    {
+      "id": "murchison-falls-nile-launch-trip-five-image-partial-enrichment",
+      "page_url": "https://trekafricaguide.com/activities/murchison-falls-nile-launch-trip/",
+      "page_type": "activity",
+      "status": "published_live_confirmed",
+      "previous_photo_count": 0,
+      "photo_count": 5,
+      "new_photo_count": 5,
+      "published_commit": "8ea8be80249c7a3671ead8de438d088703255386",
+      "netlify_deploy": "6aeb41caa268eaa19a7c4cd4",
+      "email_id": "1a1a6fba269f4202",
+      "report_sent_at": "2026-11-04 17:34 Africa/Kampala",
+      "note": "Preserved previous live-confirmed run when beginning the Fort Portal local destination."
     }
   ]
 }

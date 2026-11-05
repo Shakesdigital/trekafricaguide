@@ -466,6 +466,15 @@
       }
     ],
     "sort_order": 8,
-    "status": "published"
+    "status": "published",
+    "hero_image_url": "/images/editorial/fort-portal-local-destination/fort-portal-mpanga-market-ivan-sabayuki.jpg",
+    "hero_image_alt": "Fresh produce arranged at a stall in Mpanga market, Fort Portal.",
+    "gallery": [
+      "/images/editorial/fort-portal-local-destination/fort-portal-mpanga-market-ivan-sabayuki.jpg",
+      "/images/editorial/fort-portal-local-destination/fort-portal-tea-field-michael-starkie.jpg",
+      "/images/editorial/fort-portal-local-destination/fort-portal-rwenzori-landscape-itote-rubombora.jpg",
+      "/images/editorial/fort-portal-local-destination/fort-portal-lake-kigere-alvinategyeka.jpg",
+      "/images/editorial/fort-portal-local-destination/fort-portal-nyakasura-falls-alvinategyeka.jpg"
+    ]
   }
 ]
