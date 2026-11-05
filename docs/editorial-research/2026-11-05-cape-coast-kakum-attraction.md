@@ -18,4 +18,12 @@ Expanded the existing published Cape Coast Kakum attraction (canonical slug `cap
 
 The existing gallery retains six distinct photographs, five depicting Kakum forest/canopy and one Cape Coast Castle entrance. Their capture dates, photographers, licences and subject checks are recorded in [the 22 October photo ledger](2026-10-22-cape-coast-kakum-photo-enrichment.md). No images were added, removed or reused in this copy update.
 
-Publication is pending the Git push and production deployment. The guide will be marked live only after the production page returns successfully and distinctive text, linked dated feedback and the six-image gallery are confirmed in rendered HTML. No tests, local build or browser QA are planned.
+## Publication receipt
+
+- Commit `865b432d21b2aa2f62e6488b5719037ac25ffb01` was pushed to `main`.
+- Netlify production deploy `6aec1757443221f32617eeb2` reached `ready` from that exact commit at 2026-11-05 05:43:36 UTC.
+- The canonical page returned HTTP 200 at 08:44 Africa/Kampala. Its distinct new opening, linked dated TripAdvisor accounts, two-day outline and six unique existing gallery files were confirmed in rendered HTML; no formatting leak was found.
+- Supabase `public.editorial_documents` shows the attraction `published` with source commit `865b432d21b2aa2f62e6488b5719037ac25ffb01`.
+- No tests, local build or browser QA were run.
+
+Owner update emailed to `fsddanmugisa@gmail.com`; Gmail SENT ID `1a1aa3d95306e3ab` (2026-11-05 08:45 Africa/Kampala). The recurring three-hour schedule remains local and will not execute while the computer/app is off; no cloud execution path is configured.

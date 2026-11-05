@@ -272,9 +272,9 @@
     "email_id": "1a143a69416cf3d1"
   },
   "rotation": {
-    "last_completed_category": "activities",
-    "next_category": "attractions",
-    "next_deliverable": "Select one useful researched attraction guide; preserve withdrawn articles.",
+    "last_completed_category": "attractions",
+    "next_category": "travel_insights",
+    "next_deliverable": "Select one useful researched travel insight; do not restore withdrawn articles.",
     "rule": "Finish the individual deliverable and report its live state, then rotate. Track exact-property photo gaps separately.",
     "override_reason": null
   },
@@ -459,32 +459,37 @@
     "verification": "Brief JSON/content inspection, 24 internal HTTP checks and 14 live rendered checks. No test suite or local build. Existing production exposed-markup guard preserved."
   },
   "latest_run_checkpoint": {
-    "date": "2026-11-04",
+    "date": "2026-11-05",
     "status": "complete",
-    "action": "Published the new Murchison Falls Nile launch-trip guide on main; production deploy is ready and distinctive rendered copy, canonical links, honest no-CTA state and CMS mirror were confirmed.",
+    "action": "Expanded and production-published the existing Cape Coast Kakum attraction guide with current official practical guidance, directly linked dated visitor perspectives, and paced itinerary advice.",
     "public_changes": true,
-    "content_commit": "9db77e5370256e8328a22d6ff8eda92c1bbbad83",
-    "deployment_id": "6aeb2c10cb34a5f01e699a5a",
+    "content_commit": "865b432d21b2aa2f62e6488b5719037ac25ffb01",
+    "deployment_id": "6aec1757443221f32617eeb2",
     "live_verification": {
-      "url": "https://trekafricaguide.com/activities/murchison-falls-nile-launch-trip/",
+      "url": "https://trekafricaguide.com/attractions/cape-coast-kakum/",
       "status": 200,
-      "checked_at": "2026-11-04T16:00+03:00",
-      "distinctive_text": "The upstream launch trip is one of the most useful ways to understand how the Victoria Nile shapes Murchison Falls National Park.",
-      "canonical_stay": "Paraa Safari Lodge",
-      "traveler_feedback": "KTP310"
+      "checked_at": "2026-11-05T08:44+03:00",
+      "distinctive_text": "Cape Coast Castle and Kakum National Park offer two very different ways to understand Ghana’s Central Region.",
+      "traveler_feedback": "Linked TripAdvisor visitor accounts dated Mar/Sep 2026 at Kakum and Oct 2025 (published Feb 2026) at Cape Coast Castle.",
+      "images": 6
     },
     "cms_mirror": {
-      "entity": "activities",
-      "slug": "murchison-falls-nile-launch-trip",
+      "entity": "attractions",
+      "slug": "cape-coast-kakum",
       "status": "published",
-      "source_commit": "9db77e5370256e8328a22d6ff8eda92c1bbbad83"
+      "source_commit": "865b432d21b2aa2f62e6488b5719037ac25ffb01"
     },
-    "email_id": "1a1a6a642fef8c2c",
-    "email_sent_at": "2026-11-04T16:01+03:00",
-    "push_receipt": "git push origin main succeeded: da3d9b2..9db77e5. This checkpoint/report receipt is being committed to main.",
-    "ledger": "docs/editorial-research/2026-11-04-murchison-nile-launch-trip.md",
-    "image_count": 0,
-    "next_action": "Rotate to attractions; separately source six licensed launch-trip-specific images, without reusing park-attraction photos."
+    "image_count": 6,
+    "new_images": 0,
+    "ledger": "docs/editorial-research/2026-11-05-cape-coast-kakum-attraction.md",
+    "next_action": "Rotate to travel insights; preserve the existing six-photo gallery.",
+    "email_id": "1a1aa3d95306e3ab",
+    "email_sent_at": "2026-11-05T08:45+03:00",
+    "communication": {
+      "sent_to": "fsddanmugisa@gmail.com",
+      "gmail_id": "1a1aa3d95306e3ab",
+      "scheduler_note": "The recurring three-hour schedule is local and does not execute while the computer/app is off; no cloud execution path is configured."
+    }
   },
   "usage_deferral_history": [
     {
@@ -685,7 +690,7 @@
     }
   },
   "attraction_cape_coast_kakum": {
-    "status": "in_progress",
+    "status": "complete",
     "date": "2026-11-05",
     "scope": "Expanded existing Cape Coast Kakum attraction guide in place; no new canonical records or relationship changes.",
     "files": [
@@ -696,7 +701,21 @@
     "image_count": 6,
     "image_note": "Preserved six previously verified licensed images; no image changes. See 2026-10-22 photo ledger.",
     "source_count": 7,
-    "next_category": "attractions",
-    "publication": "Pending push/deployment/live confirmation."
+    "next_category": "travel_insights",
+    "publication": "Netlify production deploy ready; live guide and Supabase editorial mirror confirmed.",
+    "commit": "865b432d21b2aa2f62e6488b5719037ac25ffb01",
+    "deployment_id": "6aec1757443221f32617eeb2",
+    "cms_source_commit": "865b432d21b2aa2f62e6488b5719037ac25ffb01",
+    "live_url": "https://trekafricaguide.com/attractions/cape-coast-kakum/",
+    "live_verification": {
+      "status": 200,
+      "checked_at": "2026-11-05T08:44+03:00",
+      "distinctive_text": "Cape Coast Castle and Kakum National Park offer two very different ways to understand Ghana’s Central Region",
+      "dated_traveler_links": true,
+      "unique_existing_gallery_images": 6,
+      "formatting_leak": false
+    },
+    "email_id": "1a1aa3d95306e3ab",
+    "email_sent_at": "2026-11-05T08:45+03:00"
   }
 }
