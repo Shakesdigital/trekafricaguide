@@ -18,6 +18,11 @@ A new city-level local guide under the existing published Uganda country. Canoni
 
 Neutral image state: zero dedicated local-destination images. Six-photo follow-up subjects: Fort Portal civic/central-town view; Karuziika Palace exterior only from an approved public viewpoint; Amabere Ga Nyinamwiru cave approach; an accurately located crater-lake scene with verified identity and access; tea-growing landscape from a permission-cleared location; and local produce/Tooro food prepared with photographer rights and consent/privacy respected. Do not reuse Kibale, Kampala or accommodation galleries.
 
-## Publication
+## Publication receipt
 
-Pending main push, production deployment and live confirmation. No local build, tests or browser QA are planned.
+- Commit `5eebeca3ef5767436543201392a3fde770263d0f` was pushed to `main`.
+- Netlify production deploy `6aec35041eb3a65f599fd7b2` reached ready from that exact commit at 2026-11-05 07:50:04 UTC.
+- At 10:51 Africa/Kampala, the nested guide, parent Uganda page and homepage each returned HTTP 200. Rendered text confirmed the Fort Portal introduction; the Uganda destination card links to `/countries/uganda/fort-portal`, and the homepage includes a Fort Portal entry. No image collection was borrowed from another detail page.
+- Supabase `public.editorial_documents` contains `fort-portal` with status `published` and source commit `5eebeca3ef5767436543201392a3fde770263d0f`.
+- Owner update emailed to `fsddanmugisa@gmail.com`; Gmail SENT ID `1a1aab12a79d95ed` (2026-11-05 10:52 Africa/Kampala).
+- No tests, local build or browser QA were run. The recurring three-hour automation is local and does not execute while the computer/app is off; no cloud execution path is configured.
