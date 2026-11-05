@@ -273,28 +273,27 @@
   },
   "rotation": {
     "last_completed_category": "attractions",
-    "next_category": "travel_insights",
-    "next_deliverable": "Select one useful researched travel insight; do not restore withdrawn articles.",
+    "next_category": "destinations",
+    "next_deliverable": "Add one useful new local destination under an existing published country; keep canonical local links geographically accurate.",
     "rule": "Finish the individual deliverable and report its live state, then rotate. Track exact-property photo gaps separately.",
-    "override_reason": null
+    "override_reason": "Owner heartbeat explicitly selected the country/local-destination category after the Cape Coast Kakum attraction."
   },
   "current_deliverable": {
-    "id": "plan-kibale-around-chimpanzee-trek",
-    "category": "travel_insights",
-    "status": "complete",
-    "last_action": "Public page HTTP 200; exact new route paragraph and Checked 2 November 2026 source date confirmed in rendered HTML. Production delay resolved.",
-    "next_action": "Rotate to activities; keep sixth licensed Kibale image follow-up separate.",
-    "checkpoint": "docs/editorial-research/2026-11-02-kibale-chimp-trek-refresh.md",
-    "images": 5,
-    "commit": "669bb4e8272e5e3dcec180a42c18e12b046cccf5",
-    "cms_source_commit": "669bb4e8272e5e3dcec180a42c18e12b046cccf5",
-    "previous_live_deploy": "6ae546e40b91beaebda69a4b",
-    "previous_live_commit": "131eaae9f8a7f7d8a3066b3c62465eb82c17fe12",
-    "live_url": "https://trekafricaguide.com/travel-insights/plan-kibale-around-chimpanzee-trek/",
-    "live_status": "HTTP 200 with exact updated route paragraph and dated source section",
-    "email_id": "1a19a8731143f011",
-    "email_status": "live confirmation sent",
-    "publication_acceptance": "complete: updated rendered content independently confirmed"
+    "id": "fort-portal",
+    "category": "destinations",
+    "status": "in_progress",
+    "last_action": "Selected new Fort Portal local-destination guide under Uganda; validated the existing published Kibale National Park relationship.",
+    "next_action": "Complete source-backed plain-text guide, image follow-up, push, live check and owner report.",
+    "checkpoint": "docs/editorial-research/2026-11-05-fort-portal-local-destination.md",
+    "images": 0,
+    "relationships": {
+      "attraction_slugs": [
+        "kibale-national-park"
+      ],
+      "activity_slugs": [],
+      "accommodation_slugs": [],
+      "travel_insight_slugs": []
+    }
   },
   "previous_deliverable_correction": {
     "id": "marrakech-medina-street-food-walk",
@@ -460,36 +459,10 @@
   },
   "latest_run_checkpoint": {
     "date": "2026-11-05",
-    "status": "complete",
-    "action": "Expanded and production-published the existing Cape Coast Kakum attraction guide with current official practical guidance, directly linked dated visitor perspectives, and paced itinerary advice.",
-    "public_changes": true,
-    "content_commit": "865b432d21b2aa2f62e6488b5719037ac25ffb01",
-    "deployment_id": "6aec1757443221f32617eeb2",
-    "live_verification": {
-      "url": "https://trekafricaguide.com/attractions/cape-coast-kakum/",
-      "status": 200,
-      "checked_at": "2026-11-05T08:44+03:00",
-      "distinctive_text": "Cape Coast Castle and Kakum National Park offer two very different ways to understand Ghana’s Central Region.",
-      "traveler_feedback": "Linked TripAdvisor visitor accounts dated Mar/Sep 2026 at Kakum and Oct 2025 (published Feb 2026) at Cape Coast Castle.",
-      "images": 6
-    },
-    "cms_mirror": {
-      "entity": "attractions",
-      "slug": "cape-coast-kakum",
-      "status": "published",
-      "source_commit": "865b432d21b2aa2f62e6488b5719037ac25ffb01"
-    },
-    "image_count": 6,
-    "new_images": 0,
-    "ledger": "docs/editorial-research/2026-11-05-cape-coast-kakum-attraction.md",
-    "next_action": "Rotate to travel insights; preserve the existing six-photo gallery.",
-    "email_id": "1a1aa3d95306e3ab",
-    "email_sent_at": "2026-11-05T08:45+03:00",
-    "communication": {
-      "sent_to": "fsddanmugisa@gmail.com",
-      "gmail_id": "1a1aa3d95306e3ab",
-      "scheduler_note": "The recurring three-hour schedule is local and does not execute while the computer/app is off; no cloud execution path is configured."
-    }
+    "status": "in_progress",
+    "action": "Selected Fort Portal as one new local destination under Uganda after the Cape Coast Kakum attraction deliverable.",
+    "public_changes": false,
+    "next_action": "Complete the new Fort Portal guide and confirm production/live state."
   },
   "usage_deferral_history": [
     {

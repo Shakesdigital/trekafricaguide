@@ -410,5 +410,62 @@
     ],
     "sort_order": 7,
     "status": "published"
+  },
+  {
+    "slug": "fort-portal",
+    "country_slug": "uganda",
+    "name": "Fort Portal",
+    "category": "City",
+    "hero_title": "Fort Portal: town time, Tooro culture and a route to Kibale",
+    "listing_summary": "Use Fort Portal as a town base for Tooro heritage, crater-country walks, local food and a carefully paced journey to Kibale National Park.",
+    "overview": "Fort Portal is a regional city in western Uganda and the centre of the Tooro sub-region. Its role is more than a stop between Kampala and a national park: the city is an administrative and commercial hub, with living Tooro cultural institutions, a city tourism office, markets and access roads into the surrounding highlands. Fort Portal’s place in Uganda’s tourism identity is official, but its appeal is best understood through the mix of town life and day trips rather than as a single packaged attraction.\n\nThe city council identifies Karuziika Palace, Amabere Ga Nyinamwiru caves, nearby crater lakes, tea-growing landscapes and Kibale Forest among the visitor interests around Fort Portal. These places are spread across the wider area; a list on a map does not make them one walkable circuit. Use the city as a base, choose a couple of outings that fit your interests, and check current access with the responsible host before you set off.\n\nTooro heritage is living culture, not a performance available on demand. The council describes the palace as the seat of the Tooro Kingdom. Ask the city tourism office or a local guide what visitors may see and when, and follow directions about photography, ceremonies and spaces that are not open to the public. A conversation about local history is more useful when it comes from a willing host than from treating community life as a spectacle.",
+    "access_summary": "Travel to Fort Portal by road from Kampala on the Kampala–Fort Portal route, confirming your departure point, operator, schedule, luggage rules and arrival transfer before booking. Uganda Wildlife Authority’s current Kibale guidance describes the fully surfaced Kampala–Fort Portal highway and gives an indicative six-hour road journey to Kibale National Park; it says the park is about a further hour from Fort Portal. That is a park access estimate, not a guaranteed city-to-city travel time. Leave a buffer for traffic, weather and the road beyond town. UWA also mentions charter flights to Fort Portal; confirm that a suitable charter is actually operating for your dates, as this is not presented as a regular commercial service.\n\nFor crater-lake and cave visits, arrange a local driver or guide who can identify the exact access point and return plan. Fort Portal City Council lists Amabere Ga Nyinamwiru about 7 km from town, but ask about the current route, entry arrangements and ground conditions. Do not assume a park-area lodge or a distant lake is a central-city stay.",
+    "best_time": "Plan for the particular outing rather than relying on a fixed dry-season promise. Uganda’s Department of Meteorological Services identifies March–May and September–December as the country’s main rainfall seasons. Its September 2026 seasonal outlook expected near-normal to above-normal rainfall in western Uganda for the September–December period; this is a time-limited forecast, not a year-round climate guarantee. Rain can alter road and path conditions, especially around outdoor walks. Check the current district and short-range forecast before departure, allow flexibility in the itinerary, and ask your guide whether a crater or cave outing is suitable that day.",
+    "planning_tips": "Allow two or three nights if you want both time in town and an outing beyond it. On arrival day, settle in and explore the central area at an easy pace rather than combining the drive from Kampala with a strenuous walk. Ask a local guide or the City tourism office to confirm access before visiting Karuziika Palace or the Amabere caves. Fort Portal City Council places the caves roughly 7 km from town; discuss the path, steps and surfaces in advance if mobility is a concern. For crater-lake viewpoints, confirm the specific lake, land access and guide arrangement. Some lakes have cultural significance to nearby communities; follow local guidance and do not enter private or restricted places.\n\nA separate day for Kibale National Park makes the route easier to manage. UWA currently gives about an hour’s drive between Fort Portal and the park and lists scheduled Kanyanchu chimpanzee-tracking departures on its park page. Permit details, reporting time and rules can change, so confirm the exact slot and meeting point with UWA before arranging transport. If your permit has an early start, consider whether the confirmed road and lodge plan leaves enough margin; do not combine the Kampala–Fort Portal transfer and a fixed morning trek on the same day. The linked Kibale guide covers the park itself. No accommodation card is shown here because the published Kibale Forest Camp is park-side rather than a Fort Portal city property.\n\nFood is a useful way to meet the region through its everyday life. Fort Portal’s local culture guide describes Tooro dishes such as matooke with groundnut sauce, firinda and kalo, alongside produce sold in town markets. Menus vary: ask what is available that day and mention dietary needs before ordering. If you visit a market, remember it is a place where people work; ask before photographing sellers or customers, keep trading space clear and buy through the vendor rather than staging a scene. Pack light rain protection, shoes with grip for uneven paths, and a warmer layer for wet or cool evenings.",
+    "attraction_slugs": [
+      "kibale-national-park"
+    ],
+    "activity_slugs": [],
+    "accommodation_slugs": [],
+    "travel_insight_slugs": [],
+    "highlights": [
+      "Karuziika Palace and the living heritage of the Tooro Kingdom",
+      "Day walks to crater-country viewpoints and the Amabere Ga Nyinamwiru caves",
+      "Tooro food and produce markets in a working regional city",
+      "A practical road base for Kibale National Park"
+    ],
+    "last_researched": "2026-11-05",
+    "research_sources": [
+      {
+        "label": "Fort Portal City Council: Tourism and regional attractions (checked 2026-11-05)",
+        "url": "https://fortportalcity.go.ug/who-we-are/"
+      },
+      {
+        "label": "Fort Portal City Council: Tourism unit and visitor-information role (checked 2026-11-05)",
+        "url": "https://fortportalcity.go.ug/tourism/"
+      },
+      {
+        "label": "Fort Portal City Council: city and Tooro history (checked 2026-11-05)",
+        "url": "https://fortportalcity.go.ug/history-of-fortportal/"
+      },
+      {
+        "label": "Uganda Wildlife Authority: Kibale access route, current park information and Kanyanchu departures (checked 2026-11-05)",
+        "url": "https://ugandawildlife.org/national-parks/kibale-national-park/"
+      },
+      {
+        "label": "Uganda Department of Meteorological Services: September–December 2026 climate outlook (issued Sep 2026; checked 2026-11-05)",
+        "url": "https://wids.mwe.go.ug/portal"
+      },
+      {
+        "label": "Discover Fort Portal: Tooro food and culture (checked 2026-11-05)",
+        "url": "https://discoverfortportal.com/culture/"
+      },
+      {
+        "label": "GAIN/ICLEI: CityFood Handbook, Fort Portal city food system and markets (checked 2026-11-05)",
+        "url": "https://www.gainhealth.org/sites/default/files/publications/documents/en-cityfood-market-handbook-for-healthy-and-resilient-cities_second-edition-2.pdf"
+      }
+    ],
+    "sort_order": 8,
+    "status": "published"
   }
 ]
