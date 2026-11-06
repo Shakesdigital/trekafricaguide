@@ -1,6 +1,36 @@
 {
   "updated_at": "2026-11-07",
-  "current_run": null,
+  "current_run": {
+    "id": "cape-coast-kakum-guided-visit-two-photo-additions-2026-11-07",
+    "page_url": "https://trekafricaguide.com/activities/cape-coast-kakum-guided-visit/",
+    "page_type": "activity",
+    "status": "local_ready_for_publication",
+    "previous_photo_count": 5,
+    "photo_count": 7,
+    "new_photo_count": 2,
+    "checked_date": "2026-11-07",
+    "started_at": "2026-11-07 23:17 UTC",
+    "initial_live_verification": "Production activity guide returned HTTP 200 and was read in full. Its hero plus gallery contain five distinct guide image paths; repeated modal/gallery renderings and the site logo were excluded. No inline body image is present.",
+    "source_ledger": "docs/editorial-research/2026-11-07-cape-coast-kakum-guided-visit-photo-follow-up.md",
+    "note": "Added two distinct Kakum canopy images under Unsplash License, which requires no public attribution. The two new source IDs are unassigned and the files have no SHA-256 matches across public/images. Both Commons CC0 leads from the prior Kakum attraction gallery were excluded to avoid cross-collection source reuse. Existing activity assets, copy and credits are unchanged.",
+    "files": [
+      "src/lib/photo-library.js",
+      "public/photo-library.js",
+      "public/images/editorial/cape-coast-kakum-guided-visit/kakum-canopy-visitor-orva-studio.jpg",
+      "public/images/editorial/cape-coast-kakum-guided-visit/kakum-canopy-forest-bridge-julian-morenz.jpg",
+      "docs/editorial-research/2026-11-07-cape-coast-kakum-guided-visit-photo-follow-up.md",
+      "docs/image-enrichment-progress.json"
+    ],
+    "selected_images": [
+      "kakum-canopy-visitor-orva-studio.jpg",
+      "kakum-canopy-forest-bridge-julian-morenz.jpg"
+    ],
+    "next_action": "Commit and push the collection, verify its automatic production deployment and all seven distinct image paths and both new JPEG assets, send one source-free owner report and record the receipt.",
+    "mandatory_input_check": "Passed npm run check:build-inputs after syncing src/lib/photo-library.js to public/photo-library.js; checked 2026-11-07.",
+    "published_commit": null,
+    "netlify_deploy": null,
+    "email_id": null
+  },
   "follow_ups": [
     {
       "id": "bwindi-gorilla-trekking-interrupted-2026-10-28",

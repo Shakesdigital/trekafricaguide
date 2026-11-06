@@ -3,6 +3,52 @@
 export const photoLibrary = {
   "updated_at": "2026-11-07",
   "images": {
+    "/images/editorial/cape-coast-kakum-guided-visit/kakum-canopy-visitor-orva-studio.jpg": {
+      "slug": "kakum-canopy-visitor-orva-studio",
+      "local_path": "/images/editorial/cape-coast-kakum-guided-visit/kakum-canopy-visitor-orva-studio.jpg",
+      "source_page": "https://unsplash.com/photos/woman-walking-on-hanging-bridge-Y5biRJCR-Q4",
+      "source_revision": "Unsplash photo Y5biRJCR-Q4, checked 2026-11-07",
+      "creator": "orva studio",
+      "license": "Unsplash License",
+      "license_url": "https://unsplash.com/license",
+      "source_published_at": "2019-07-07",
+      "captured_at": null,
+      "sha256": "54eb8a93e9b06c15b696763894e549ef14440ef99a0e2a435edd8da4288c4a68",
+      "exact_subject": true,
+      "subject": "Visitors on the Kakum canopy walkway in Cape Coast, Ghana",
+      "alt": "Visitors walk along the suspended Kakum canopy walkway above the rainforest.",
+      "caption": "Visitors cross a Kakum canopy bridge in this source photo (published 2019); they are not identified as participants in the linked guided visit.",
+      "property": false,
+      "kind": "photograph",
+      "requires_attribution": false,
+      "changes": "Downloaded from Unsplash CDN at 1,800 pixels wide, JPEG quality 85, aspect ratio preserved; no other edits.",
+      "checked_at": "2026-11-07",
+      "exact_subject_evidence": "The Unsplash page describes the scene as Kakum canopy and lists Kakum Canopy, Cape Coast, Ghana. Visual inspection confirms visitors on a suspended bridge over dense forest. Published 2019-07-07; no capture date stated.",
+      "reuse_note": "Unsplash License permits reuse without public attribution. Creator and source are retained internally. The people shown belong to the source photograph; no link to this tour, its operator or its participants is implied."
+    },
+    "/images/editorial/cape-coast-kakum-guided-visit/kakum-canopy-forest-bridge-julian-morenz.jpg": {
+      "slug": "kakum-canopy-forest-bridge-julian-morenz",
+      "local_path": "/images/editorial/cape-coast-kakum-guided-visit/kakum-canopy-forest-bridge-julian-morenz.jpg",
+      "source_page": "https://unsplash.com/photos/a-suspension-bridge-in-the-middle-of-a-forest-bOpUEDL6Mjg",
+      "source_revision": "Unsplash photo bOpUEDL6Mjg, checked 2026-11-07",
+      "creator": "Julian Morenz",
+      "license": "Unsplash License",
+      "license_url": "https://unsplash.com/license",
+      "source_published_at": "2024-09-24",
+      "captured_at": null,
+      "sha256": "fcb943bde872264482d13330016de251db7ee493d9bbdc0e0bc6f00d66453238",
+      "exact_subject": true,
+      "subject": "Suspension walkway through forest at Kakum National Park, Ghana",
+      "alt": "A narrow suspension walkway recedes into the forest at Kakum National Park.",
+      "caption": "The Kakum canopy walkway recedes through the forest; the image does not identify a particular tour route or guide.",
+      "property": false,
+      "kind": "photograph",
+      "requires_attribution": false,
+      "changes": "Downloaded from Unsplash CDN at 1,800 pixels wide, JPEG quality 85, aspect ratio preserved; no other edits.",
+      "checked_at": "2026-11-07",
+      "exact_subject_evidence": "The Unsplash page identifies the location as Kakum National Park and tags Ghana, rainforest and suspension bridge. Visual inspection confirms a narrow suspended walkway inside dense forest. Published 2024-09-24; no capture date stated.",
+      "reuse_note": "Unsplash License permits reuse without public attribution. Creator and source are retained internally. This is Kakum setting context and makes no claim about current access or the linked operator's route."
+    },
     "/images/editorial/south-africa-country/boulders-beach-joshua-kettle.jpg": {
       "slug": "boulders-beach-joshua-kettle",
       "local_path": "/images/editorial/south-africa-country/boulders-beach-joshua-kettle.jpg",
@@ -9520,7 +9566,9 @@ export const photoLibrary = {
           "/images/stock/destinations/cape-coast-kakum.jpg",
           "/images/editorial/cape-coast-kakum-guided-visit/cape-coast-castle-coastal-cannon-abubakarr-kabia.jpg",
           "/images/editorial/cape-coast-kakum-guided-visit/elmina-castle-archway-kevin-quarshie.jpg",
-          "/images/editorial/cape-coast-kakum-guided-visit/elmina-fishing-harbor-niyi-david.jpg"
+          "/images/editorial/cape-coast-kakum-guided-visit/elmina-fishing-harbor-niyi-david.jpg",
+          "/images/editorial/cape-coast-kakum-guided-visit/kakum-canopy-visitor-orva-studio.jpg",
+          "/images/editorial/cape-coast-kakum-guided-visit/kakum-canopy-forest-bridge-julian-morenz.jpg"
         ]
       },
       "victoria-falls-guided-walk": {
