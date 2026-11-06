@@ -1,0 +1,122 @@
+﻿page,title,distinct own img paths,distinct card img paths,status
+/,Explore Africa with context.,2,23,ok
+/accommodations,Stays that support the route.,1,14,ok
+/accommodations/amboseli-serena-safari-lodge,Amboseli Serena Safari Lodge,4,2,ok
+/accommodations/buhoma-community-rest-camp,Buhoma Community Rest Camp,6,1,ok
+/accommodations/camp-okavango,Camp Okavango,0,1,ok
+/accommodations/casa-del-papa,Casa del Papa Resort & Spa,1,1,ok
+/accommodations/dar-said,Dar Saïd,0,1,ok
+/accommodations/desert-luxury-camp,Desert Luxury Camp,0,1,ok
+/accommodations/desert-quiver-camp,Desert Quiver Camp,6,2,ok
+/accommodations/emerson-spice,Emerson Spice,6,1,ok
+/accommodations/fairway-boutique-hotel,Fairway Boutique Hotel,0,0,ok
+/accommodations/governors-camp,Governors' Camp,0,1,ok
+/accommodations/hilton-cabo-verde-sal-resort,Hilton Cabo Verde Sal Resort,0,1,ok
+/accommodations/jollyboys-backpackers,Jollyboys Backpackers,0,0,ok
+/accommodations/kibale-forest-camp,Kibale Forest Camp,0,1,ok
+/accommodations/kruger-shalati,Kruger Shalati — The Train on the Bridge,1,1,ok
+/accommodations/les-paletuviers,Les Palétuviers Boutique Hotel,0,1,ok
+/accommodations/maribela-hotel,Maribela Hotel,0,1,ok
+/accommodations/marriott-mena-house-cairo,"Marriott Mena House, Cairo",9,1,ok
+/accommodations/mfuwe-lodge,Mfuwe Lodge,1,1,ok
+/accommodations/mount-nelson-a-belmond-hotel,"Mount Nelson, A Belmond Hotel",6,1,ok
+/accommodations/ol-tukai-lodge-amboseli,Ol Tukai Lodge Amboseli,1,2,ok
+/accommodations/paraa-safari-lodge,Paraa Safari Lodge,1,1,ok
+/accommodations/red-chilli-rest-camp,Red Chilli Rest Camp,0,2,ok
+/accommodations/riad-rosemary,Rosemary Marrakech,0,1,ok
+/accommodations/ridge-royal-hotel,Ridge Royal Hotel,0,2,ok
+/accommodations/sabyinyo-silverback-lodge,Wilderness Sabyinyo,0,1,ok
+/accommodations/sanctuary-gorilla-forest-camp,"Gorilla Forest Lodge, an A&K Sanctuary",0,2,ok
+/accommodations/serengeti-serena-safari-lodge,Serengeti Serena Safari Lodge,1,1,ok
+/accommodations/sossusvlei-lodge,Sossusvlei Lodge,2,2,ok
+/accommodations/terres-touareg-guest-house,Terres Touareg Guest House,0,1,ok
+/accommodations/the-place-resort-tokeh,"The Place Resort, Tokeh",0,1,ok
+/accommodations/victoria-falls-hotel,The Victoria Falls Hotel,9,1,ok
+/activities,Choose the experiences that make the journey.,1,14,ok
+/activities/amboseli-game-drive-safari,Guided wildlife game drives,3,3,ok
+/activities/atlas-mountains-day-trip,Atlas Mountains guided day trip,5,1,ok
+/activities/bwindi-gorilla-trekking,Mountain gorilla trekking,6,2,ok
+/activities/cape-coast-kakum-guided-visit,"Cape Coast, Elmina and Kakum guided visit",5,0,ok
+/activities/giza-pyramids-guided-tour,Giza pyramids and Grand Egyptian Museum guided day tour,6,1,ok
+/activities/great-zimbabwe-guided-monument-visit,Great Zimbabwe guided monument visit,0,2,ok
+/activities/maasai-mara-balloon-safari,Sunrise hot-air balloon safari,6,1,ok
+/activities/marrakech-medina-street-food-tour,Marrakech Medina street-food tour,6,1,ok
+/activities/murchison-falls-nile-launch-trip,Murchison Falls Nile launch trip,5,2,ok
+/activities/okavango-mokoro-safari,Okavango mokoro and wildlife safari,6,0,ok
+/activities/serengeti-balloon-safari,Serengeti balloon safari at dawn,6,2,ok
+/activities/stone-town-historical-walking-tour,Stone Town historical walking tour,6,2,ok
+/activities/table-mountain-guided-hike,Table Mountain guided hike,6,1,ok
+/activities/victoria-falls-guided-walk,Guided Victoria Falls walk from both sides,6,2,ok
+/activities/victoria-falls-zambezi-white-water-rafting,Victoria Falls Zambezi white-water rafting,6,2,ok
+/activities/volcanoes-gorilla-trek,Volcanoes National Park gorilla trekking,3,0,ok
+/attractions,Attractions that shape the trip.,1,28,ok
+/attractions/amboseli-national-park,Amboseli National Park,6,3,ok
+/attractions/bwindi-impenetrable-national-park,Bwindi Impenetrable National Park,6,2,ok
+/attractions/cairo-and-giza,Cairo And Giza,6,1,ok
+/attractions/cape-coast-kakum,Cape Coast Kakum,6,1,ok
+/attractions/cape-town,Cape Town,6,2,ok
+/attractions/djanet-and-tassili,Djanet And Tassili,6,0,ok
+/attractions/elmina-castle,Elmina Castle,6,0,ok
+/attractions/great-zimbabwe-national-monument,Great Zimbabwe National Monument,0,0,ok
+/attractions/jozani-forest,Jozani Forest,6,0,ok
+/attractions/kibale-national-park,Kibale National Park,6,0,ok
+/attractions/kruger-national-park,Kruger National Park,9,1,ok
+/attractions/kwame-nkrumah-memorial-park,Kwame Nkrumah Memorial Park,10,0,ok
+/attractions/lalibela,Lalibela,6,0,ok
+/attractions/maasai-mara,Maasai Mara,6,1,ok
+/attractions/marrakech-and-atlas,Marrakech And Atlas,6,2,ok
+/attractions/murchison-falls-national-park,Murchison Falls National Park,6,2,ok
+/attractions/namib-desert,Namib Desert,6,2,ok
+/attractions/okavango-delta,Okavango Delta,6,1,ok
+/attractions/ouidah-and-ganvie,Ouidah And Ganvie,2,1,ok
+/attractions/sahara-dunes,Sahara Dunes,6,0,ok
+/attractions/sal-island,Sal Island,5,0,ok
+/attractions/serengeti-national-park,Serengeti National Park,6,2,ok
+/attractions/sine-saloum-delta,Sine Saloum Delta,6,0,ok
+/attractions/south-luangwa,South Luangwa,6,1,ok
+/attractions/tokeh-and-river-no2,Tokeh And River No2,2,0,ok
+/attractions/tunis-and-sidi-bou-said,Tunis And Sidi Bou Said,5,0,ok
+/attractions/victoria-falls,Victoria Falls,6,3,ok
+/attractions/volcanoes-national-park,Volcanoes National Park,2,1,ok
+/attractions/zanzibar,Zanzibar,6,2,ok
+/countries,Country guides for choosing the right route.,1,27,ok
+/countries/algeria,Algeria offers Saharan and archaeological rewards,1,1,ok
+/countries/benin,Benin rewards cultural curiosity,2,2,ok
+/countries/botswana,Botswana is high-value conservation travel,6,1,ok
+/countries/cabo-verde,Cabo Verde combines island leisure and winter sun,2,1,ok
+/countries/egypt,Egypt delivers iconic heritage and monuments,2,2,ok
+/countries/ethiopia,Ethiopia appeals to heritage-seeking travelers,2,1,ok
+/countries/ghana,Ghana is an accessible West Africa gateway,2,3,ok
+/countries/ghana/elmina,Elmina: a coastal heritage base,6,2,ok
+/countries/kenya,Kenya remains the clearest first-time safari gateway,2,4,ok
+/countries/morocco,Morocco blends medina culture and desert,2,2,ok
+/countries/namibia,Namibia is a road-trip landscape,2,3,ok
+/countries/rwanda,"Rwanda offers premium, compact primate travel",2,1,ok
+/countries/senegal,Senegal balances urban energy and coastal heritage,1,1,ok
+/countries/senegal/sine-saloum-delta,Choose a Sine-Saloum base before you book the boat,6,1,ok
+/countries/sierra-leone,Sierra Leone offers uncrowded Atlantic escapes,4,1,ok
+/countries/south-africa,South Africa is the versatile region,2,4,ok
+/countries/south-africa/cape-town,Cape Town: city days between mountain and coast,6,3,ok
+/countries/tanzania,Tanzania delivers cinematic safari landscapes,2,5,ok
+/countries/tanzania/unguja,Unguja: Stone Town and time on the coast,6,4,ok
+/countries/tunisia,Tunisia combines medina and Roman ruins,2,1,ok
+/countries/uganda,Uganda is known as the Pearl of Africa,2,5,ok
+/countries/uganda/buhoma,Buhoma: a base for northern Bwindi,3,5,ok
+/countries/uganda/fort-portal,"Fort Portal: town time, Tooro culture and a route to Kibale",5,3,ok
+/countries/uganda/kampala,Kampala: plan the city by neighborhood and purpose,4,2,ok
+/countries/zambia,Zambia is revered for walking safaris,2,2,ok
+/countries/zambia/livingstone,Livingstone: make time for Zambia beyond the falls,4,1,ok
+/countries/zimbabwe,Zimbabwe delivers falls and strong guiding,6,2,ok
+/regions,Choose the Africa region that fits the trip.,1,4,ok
+/regions/east-africa,"East Africa is where classic safari meets the Indian Ocean, primate forests, and highland culture.",1,16,ok
+/regions/northern-africa,"Northern Africa is made for medinas, antiquities, desert routes, coast, and food-led travel.",1,6,ok
+/regions/southern-africa,"Southern Africa is built for city-and-bush travel, desert roads, waterfalls, and refined wilderness.",1,12,ok
+/regions/west-africa,"West Africa is rich in heritage, coast, music, food, and slower discovery.",1,8,ok
+/travel-insights,A little closer to Africa.,3,0,ok
+/travel-insights/cape-town-before-or-after-safari,,,,404 Client Error: Not Found for url: https://trekafricaguide.com/travel-insights/cape-town-before-or-after-safari/
+/travel-insights/choose-bwindi-sector-before-booking-stay,Choose your Bwindi trekking sector before booking a stay,6,0,ok
+/travel-insights/choose-cape-town-base-by-outings,Where to stay in Cape Town: choose your base by the days you plan,6,0,ok
+/travel-insights/plan-kibale-around-chimpanzee-trek,How to Plan Kibale Around a Chimpanzee Trek,6,0,ok
+/travel-insights/plan-sossusvlei-sunrise-from-sesriem,Plan a Sossusvlei sunrise day from Sesriem,6,0,ok
+/travel-insights/plan-your-victoria-falls-visit,A first visit to Victoria Falls: choose your side and give the river room,6,0,ok
+/travel-insights/table-mountain-weather-cableway-or-hike,"Table Mountain: plan for the weather, choose the right way up",6,0,ok

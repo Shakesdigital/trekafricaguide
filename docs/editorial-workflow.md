@@ -179,3 +179,13 @@ Added four verified, no-public-attribution images to the Lalibela attraction gal
 ## Photo enrichment — 28 October 2026 (Sahara Dunes)
 
 Added four verified Merzouga/Erg Chebbi photographs requiring no public attribution to the Sahara Dunes attraction gallery, raising it from two to six. Production deploy `6ae1beddb5fdb2bf6c70e357` is ready for commit `95266d0`; the live page returns HTTP 200, shows “See all 6 images,” includes all four additions, and all four JPEG assets return HTTP 200. Existing CC BY-SA photo credits and the guide's distinction between Merzouga/Erg Chebbi and Erg Chigaga remain intact. Full provenance and verification: [Sahara Dunes image enrichment](editorial-research/2026-10-28-sahara-dunes-attraction-photo-enrichment.md).
+
+## Image automation selection from the live site — 6 November 2026
+
+On each image heartbeat, begin with the public home page and the five live directories. Follow their links, including regional and local destination pages and pagination, to discover published guides. Use the previous live inventory as a queue, refresh it regularly and check the selected page on production before researching. An unchanged Git revision or empty deployment queue is never a reason to skip this selection. Git supplies edit history, rights evidence and a safe publishing path.
+
+Prioritize pages with zero dedicated photos, then missing subjects on underfilled pages. Rotate the five sections. Aim for 7–12 distinct relevant photographs on destination, attraction, activity and insight detail pages and 10–15 verified exact-property photographs on stays. Review landing pages for missing visual context and card coverage separately. Do not force a detail gallery onto a directory. Count cover, gallery and inline photos once each, excluding logos, related cards and repeated modal views. Inspect visible subjects before treating a numerical target as complete.
+
+When a specific subject has only attribution-required or unverified photography, record the gap and move to the next actionable page even if the repository has had no updates. Keep existing required credits until the owner decides. Record production verification and send a single private report for a completed collection as previously instructed.
+
+The [initial live inventory](editorial-research/2026-11-06-live-image-inventory.csv) records the distinct image paths in each page's main content separately from card paths. These are screening counts, not a visual or licensing assessment. The one recorded 404 is excluded from published guide totals.
