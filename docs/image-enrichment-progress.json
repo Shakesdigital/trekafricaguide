@@ -4,7 +4,7 @@
     "id": "namibia-country-five-photo-context-enrichment",
     "page_url": "https://trekafricaguide.com/countries/namibia/",
     "page_type": "country",
-    "status": "implementation_saved_publication_pending",
+    "status": "published_live_confirmed",
     "previous_photo_count": 2,
     "photo_count": 7,
     "new_photo_count": 5,
@@ -29,8 +29,42 @@
       "spitzkoppe-rocks-nir-himi.jpg"
     ],
     "next_action": "After live verification, continue with the next fresh live-site zero-image guide or new credible photo lead; do not reuse Sossusvlei insight sources.",
-    "report_status": "No second email sent under parent instruction; the earlier heartbeat receipt 1a1b26ba099ca22d covered only the preceding no-photo rights review.",
-    "mandatory_input_check": "Passed npm run check:build-inputs after syncing src/lib/photo-library.js to public/photo-library.js; checked 2026-11-06."
+    "report_status": "No second email sent per parent instruction; the earlier heartbeat receipt 1a1b26ba099ca22d covered only the preceding no-photo rights review.",
+    "mandatory_input_check": "Passed npm run check:build-inputs after syncing src/lib/photo-library.js to public/photo-library.js; checked 2026-11-06.",
+    "published_commit": "c4c89e5d0a8a6d6c9963af05796a63dedbe5ec54",
+    "pushed_at": "2026-11-06 20:02 UTC",
+    "netlify_deploy": "6aee3255d324953210104e27",
+    "live_verification": {
+      "checked_at": "2026-11-06 20:03 UTC",
+      "deploy_state": "ready",
+      "deployed_commit": "c4c89e5d0a8a6d6c9963af05796a63dedbe5ec54",
+      "page_http_status": 200,
+      "distinct_detail_image_count": 7,
+      "see_all_text": "See all 7 images",
+      "new_image_filenames_in_gallery": 5,
+      "old_attribution_credits_present": true,
+      "asset_http_statuses": [
+        200,
+        200,
+        200,
+        200,
+        200
+      ],
+      "asset_content_types": [
+        "image/jpeg",
+        "image/jpeg",
+        "image/jpeg",
+        "image/jpeg",
+        "image/jpeg"
+      ],
+      "asset_content_lengths": [
+        1009096,
+        892532,
+        464580,
+        418641,
+        1516677
+      ]
+    }
   },
   "follow_ups": [
     {
