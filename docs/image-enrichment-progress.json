@@ -4,7 +4,7 @@
     "id": "kibale-insight-dawn-photo-seventh-image-enrichment",
     "page_url": "https://trekafricaguide.com/travel-insights/plan-kibale-around-chimpanzee-trek/",
     "page_type": "travel_insight",
-    "status": "ready_to_publish",
+    "status": "published_live_confirmed",
     "previous_photo_count": 6,
     "photo_count": 7,
     "new_photo_count": 1,
@@ -23,8 +23,25 @@
     "selected_images": [
       "kibale-dawn-fort-portal-kamwenge-ivan-sabayuki.jpg"
     ],
-    "next_action": "Commit and push own image/content/ledger changes, confirm the automatic production deployment and seven-image live gallery, then send one source-free owner report and checkpoint the Gmail receipt.",
-    "mandatory_input_check": "Passed npm run check:build-inputs after syncing src/lib/photo-library.js to public/photo-library.js; checked 2026-11-06."
+    "next_action": "Prioritize a bounded no-public-attribution source review for the newly published Volcanoes golden monkey trekking activity; do not use Rwanda photos to imply another country or reuse existing gorilla imagery.",
+    "mandatory_input_check": "Passed npm run check:build-inputs after syncing src/lib/photo-library.js to public/photo-library.js; checked 2026-11-06.",
+    "published_commit": "2a9ef256e1b012a998c305e0642f91683753796c",
+    "pushed_at": "2026-11-06 15:32 Africa/Kampala",
+    "netlify_deploy": "6aedc8f4c2d1b35a4d26a8d5",
+    "live_verification": {
+      "checked_at": "2026-11-06 15:33 Africa/Kampala",
+      "deploy_state": "ready",
+      "deployed_commit": "2a9ef256e1b012a998c305e0642f91683753796c",
+      "page_http_status": 200,
+      "rendered_image_count": 7,
+      "new_image_present": true,
+      "new_asset_http_status": 200,
+      "new_asset_content_type": "image/jpeg",
+      "new_asset_content_length": 171826,
+      "note": "Production insight HTML contains seven Kibale collection image paths including the new dawn file; no gallery “See all” control is used for this inline travel insight."
+    },
+    "email_id": "1a1b0dbbe1d1bec0",
+    "report_sent_at": "2026-11-06 15:34 Africa/Kampala"
   },
   "follow_ups": [
     {
