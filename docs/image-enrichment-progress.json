@@ -1,54 +1,46 @@
 {
   "updated_at": "2026-11-07",
   "current_run": {
-    "id": "south-africa-country-five-photo-enrichment-2026-11-07",
-    "page_url": "https://trekafricaguide.com/countries/south-africa/",
-    "page_type": "country",
+    "id": "volcanoes-national-park-attraction-four-photo-enrichment",
+    "page_url": "https://trekafricaguide.com/attractions/volcanoes-national-park/",
+    "page_type": "attraction",
     "status": "published_live_confirmed",
     "previous_photo_count": 2,
-    "photo_count": 7,
-    "new_photo_count": 5,
+    "photo_count": 6,
+    "new_photo_count": 4,
     "checked_date": "2026-11-07",
-    "started_at": "2026-11-07 00:19 Africa/Kampala",
-    "initial_live_verification": "Production guide returned HTTP 200 and was reviewed in full. It had two dedicated images (Cape Town/Table Mountain and Kruger) and four related-card images, excluded from the own-page count. Existing credits are preserved.",
-    "source_ledger": "docs/editorial-research/2026-11-07-south-africa-country-photo-enrichment.md",
-    "note": "Added five visually reviewed, location-verified images under Unsplash License: Boulders Beach penguins, Mnweni Drakensberg, Stellenbosch vineyard, Kruger lion, and Cape Point coast. All permit use without public attribution. Source IDs and public-image SHA-256 comparisons found no duplicates. The existing two images and credits remain unchanged; no copy or protected feature changed.",
+    "started_at": "2026-11-07 00:44 Africa/Kampala",
+    "initial_live_verification": "Production attraction page returned HTTP 200 and was reviewed in full before sourcing: volcanic highland setting, gorilla and golden-monkey tracking pattern, Kinigi briefing logistics, Musanze bases, transfers and the three-day outline. Two dedicated images existed (Nina R CC BY 2.0 and Charles J. Sharp CC BY-SA 4.0); hero and both credits unchanged.",
+    "source_ledger": "docs/editorial-research/2026-11-07-volcanoes-national-park-attraction-photo-enrichment.md",
+    "note": "Added four visually reviewed exact-location photographs requiring no public attribution: the Musanze volcanic skyline (Unsplash), Mount Bisoke, Mount Karisimbi from Kinigi and Kinigi potato-sack farmland (Pexels). Source page IDs and downloaded SHA-256 hashes were checked against the whole library and all public images; no duplicates; excluded candidates (Bisate Lodge framing, country-level-only Rwanda tags, paid Unsplash+ and non-Rwanda volcano results) are recorded in the ledger. This is a six-photo partial; specific remaining subjects are documented. No copy, tracking, booking, canonical or layout change.",
     "files": [
       "src/lib/photo-library.js",
       "public/photo-library.js",
-      "public/images/editorial/south-africa-country/",
-      "docs/editorial-research/2026-11-07-south-africa-country-photo-enrichment.md",
+      "public/images/editorial/volcanoes-national-park-attraction/",
+      "docs/editorial-research/2026-11-07-volcanoes-national-park-attraction-photo-enrichment.md",
       "docs/image-enrichment-progress.json"
     ],
     "selected_images": [
-      "boulders-beach-joshua-kettle.jpg",
-      "mnweni-mountain-arthur-hickinbotham.jpg",
-      "stellenbosch-vineyard-ben.jpg",
-      "kruger-lion-jonathan-gensicke.jpg",
-      "cape-point-coastline-martijn-vonk.jpg"
+      "musanze-volcano-peak-tamrat-touloumon.jpg",
+      "bisoke-virunga-view-muganineza-arsene.jpg",
+      "kinigi-karisimbi-lone-tree-muganineza-arsene.jpg",
+      "kinigi-potato-sacks-mountains-muganineza-arsene.jpg"
     ],
-    "next_action": "Select a fresh live zero-image guide with an eligible exact-location no-public-attribution photo lead; avoid previously exhausted searches.",
-    "mandatory_input_check": "Passed npm run check:build-inputs after syncing photo-library source to public mirror; checked 2026-11-07.",
-    "published_commit": "2b58f65dae3be416f67c68c80c5b34a4d215b20d",
-    "netlify_deploy": "6aee4a7079cee9020f895a01",
-    "email_id": "1a1b2d4bc82dc3f8",
-    "pushed_at": "2026-11-06 21:45 UTC",
-    "initial_deploy_attempt": {
-      "deploy": "6aee48c6e97944e7f4774903",
-      "state": "error",
-      "reason": "Photo-library public mirror was stale after rebasing on the newly published Nyungwe guide; post-rebase required check detected the drift. Synced the mirror, reran the check successfully, and pushed follow-up commit 2b58f65."
-    },
+    "next_action": "Rotate to the next underfilled page from a refreshed live inventory; golden-monkey activity page can reopen only if a source page locates the animals to Volcanoes NP with no-public-attribution rights (Pexels leads existed but lacked park-specific location evidence this run).",
+    "mandatory_input_check": "Passed npm run check:build-inputs after node scripts/sync-photo-library.mjs; checked 2026-11-07.",
+    "report_status": "NOT SENT: no connected Gmail or Gmail send API available in the OpenCode harness (the Codex Gmail connector credentials are not accessible here). Owner report content prepared; send must be completed by the next able run. Honest non-send recorded.",
+    "email_id": null,
+    "published_commit": "d77fece",
+    "pushed_at": "2026-11-07 01:01 Africa/Kampala",
     "live_verification": {
-      "checked_at": "2026-11-06 21:46 UTC (2026-11-07 00:46 Africa/Kampala)",
-      "deploy_state": "ready",
-      "deployed_commit": "2b58f65dae3be416f67c68c80c5b34a4d215b20d",
+      "checked_at": "2026-11-07 01:04-01:12 Africa/Kampala",
+      "deployment": "Deploy confirmed by production page-content polling; deploy ID not retrievable in this harness.",
+      "deployed_commit": "d77fece",
       "page_http_status": 200,
-      "distinct_detail_image_count": 7,
-      "see_all_text": "See all 7 images",
-      "new_image_filenames_in_gallery": 5,
-      "old_attribution_credits_present": true,
+      "see_all_text": "See all 6 images",
+      "distinct_own_image_count": 6,
+      "all_new_image_filenames_in_full_gallery": true,
       "asset_http_statuses": [
-        200,
         200,
         200,
         200,
@@ -58,19 +50,16 @@
         "image/jpeg",
         "image/jpeg",
         "image/jpeg",
-        "image/jpeg",
         "image/jpeg"
       ],
       "asset_content_lengths": [
-        410716,
-        527265,
-        291075,
-        487784,
-        670806
-      ]
-    },
-    "report_status": "Sent one source-free owner report after South Africa deploy/page/assets were verified. It also confirmed the Namibia five-photo addition is live at seven total because the prior note covered research only.",
-    "report_sent_at": "2026-11-07 00:46 Africa/Kampala"
+        405525,
+        996810,
+        1009642,
+        719950
+      ],
+      "note": "All four byte counts match the committed local files exactly. Nyungwe detail page still returned 404 at the same check time; that content belongs to the separate editorial run."
+    }
   },
   "follow_ups": [
     {
