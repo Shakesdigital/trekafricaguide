@@ -4,7 +4,7 @@
     "id": "morocco-country-five-image-enrichment",
     "page_url": "https://trekafricaguide.com/countries/morocco/",
     "page_type": "country",
-    "status": "local_unpublished_verification_pending",
+    "status": "published_live_confirmed",
     "previous_photo_count": 2,
     "photo_count": 7,
     "new_photo_count": 5,
@@ -27,7 +27,42 @@
       "fez-medina-aerial-kyle-frost.jpg",
       "merzouga-dunes-francesco-ungaro.jpg"
     ],
-    "next_action": "Run the required build-input check, synchronize the public photo library, publish own changes, then confirm the production gallery and image assets before sending one owner report."
+    "next_action": "Continue zero-photo accommodation review when a new exact-property no-public-attribution photo lead is available; Jollyboys Backpackers is the next unreviewed candidate.",
+    "published_commit": "aff62250e288e31fc1fc57a8b88e0b868fdd5ce5",
+    "pushed_at": "2026-11-06 11:49 Africa/Kampala",
+    "netlify_deploy": "6aed94b1cd2d30fff4973473",
+    "live_verification": {
+      "checked_at": "2026-11-06 11:52 Africa/Kampala",
+      "deploy_state": "ready",
+      "deployed_commit": "aff62250e288e31fc1fc57a8b88e0b868fdd5ce5",
+      "page_http_status": 200,
+      "gallery_count": 7,
+      "see_all_text": "See all 7 images",
+      "all_new_image_filenames_in_full_gallery": true,
+      "asset_http_statuses": [
+        200,
+        200,
+        200,
+        200,
+        200
+      ],
+      "asset_content_types": [
+        "image/jpeg",
+        "image/jpeg",
+        "image/jpeg",
+        "image/jpeg",
+        "image/jpeg"
+      ],
+      "asset_content_lengths": [
+        555737,
+        279223,
+        496627,
+        728813,
+        207923
+      ]
+    },
+    "email_id": "1a1b00f98d2d3c56",
+    "report_sent_at": "2026-11-06 11:52 Africa/Kampala"
   },
   "follow_ups": [
     {
