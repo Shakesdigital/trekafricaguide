@@ -6,3 +6,5 @@ Evidence reviewed on 6 November:
 https://visitrwanda.com/itineraries/gorilla-tracking/ | Visit Rwanda: three-day gorilla and golden monkey itinerary
 https://visitrwanda.com/interests/primate-tracking/ | Visit Rwanda: primate tracking departures
 https://visitrwanda.com/interests/gorilla-tracking/ | Visit Rwanda: gorilla briefing and allocation
+
+Published fbb6a69 and confirmed HTTP 200 with the revised copy and both activity links. CMS matched without conflicts. Gmail SENT 1a1b1e6d81b0f64d.

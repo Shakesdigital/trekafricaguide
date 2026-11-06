@@ -272,25 +272,25 @@
     "email_id": "1a143a69416cf3d1"
   },
   "rotation": {
-    "last_completed_category": "activities",
-    "next_category": "attractions",
-    "next_deliverable": "Check an attraction page for an unanswered planning question, or research one new evidenced attraction record; travel insights returned HTTP-checked categories earlier in the week.",
+    "last_completed_category": "attractions",
+    "next_category": "destinations",
+    "next_deliverable": "Select a destination planning gap from the live site.",
     "rule": "Finish the individual deliverable and report its live state, then rotate. Track exact-property photo gaps separately.",
     "override_reason": null
   },
   "current_deliverable": {
-    "id": "volcanoes-golden-monkey-trekking",
-    "category": "activities",
+    "id": "volcanoes-two-mornings",
+    "category": "attractions",
     "date": "2026-11-06",
     "status": "complete",
-    "content_commit": "f8da4c6",
-    "live_url": "https://trekafricaguide.com/activities/volcanoes-golden-monkey-trekking/",
-    "live_verification": "HTTP 200 with distinctive copy, internal links and exact GetYourGuide booking card (4.8/5 from 6 reviews, checked 2026-11-06); archive shows card and 17 activities; no markup leak",
-    "cms": "Reconciliation not yet performed from this environment; CMS mirror must reflect commit f8da4c6 at next CMS access",
-    "email_id": null,
-    "ledger": "docs/editorial-research/2026-11-06-volcanoes-golden-monkey-trek.md",
-    "images": 0,
-    "next_action": "Next editorial category: attractions. Six-photo golden-monkey collection remains a separate image follow-up."
+    "content_commit": "fbb6a69",
+    "live_url": "https://trekafricaguide.com/attractions/volcanoes-national-park/",
+    "live_verification": "HTTP 200 with two-morning copy and both activity links",
+    "cms": "Matched fbb6a69 without conflicts",
+    "images": 2,
+    "email_id": "1a1b1e6d81b0f64d",
+    "ledger": "docs/editorial-research/2026-11-06-volcanoes-two-mornings.md",
+    "next_action": "Select a destination planning gap from the live site."
   },
   "previous_deliverable_correction": {
     "id": "marrakech-medina-street-food-walk",
@@ -457,14 +457,14 @@
   "latest_run_checkpoint": {
     "date": "2026-11-06",
     "status": "complete",
-    "content_commit": "f8da4c6",
-    "live_url": "https://trekafricaguide.com/activities/volcanoes-golden-monkey-trekking/",
-    "live_verification": "HTTP 200; distinctive copy, internal gorilla-trip/Sabyinyo/attraction links, GetYourGuide booking card via Stay22 with dated review label, no markup leak; archive card and count 17 confirmed",
-    "cms": "Mirror reconciliation pending (not performable from this environment); CMS must reflect f8da4c6 at next access",
-    "email_id": null,
-    "ledger": "docs/editorial-research/2026-11-06-volcanoes-golden-monkey-trek.md",
-    "images": 0,
-    "next_action": "Next editorial category: attractions; six-photo collection backlog unchanged."
+    "content_commit": "fbb6a69",
+    "live_url": "https://trekafricaguide.com/attractions/volcanoes-national-park/",
+    "live_verification": "HTTP 200 with two-morning copy and both activity links",
+    "cms": "Matched fbb6a69 without conflicts",
+    "images": 2,
+    "email_id": "1a1b1e6d81b0f64d",
+    "ledger": "docs/editorial-research/2026-11-06-volcanoes-two-mornings.md",
+    "next_action": "Select a destination planning gap from the live site."
   },
   "activity_volcanoes_golden_monkey_trek": {
     "status": "complete",
