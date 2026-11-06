@@ -1,5 +1,10 @@
 # Trek Africa Guide editorial workflow
 
+## Choose content from the live website — 6 November 2026
+
+Begin scheduled content work on trekafricaguide.com. Use all five public directories, their pagination, country tabs, search and internal detail links to maintain a rolling whole-site content inventory. Read guides as a traveller: identify an actual unanswered planning question and record the live URL, evidence, reader impact and next editorial category. Review the selected live page on every run; refresh the wider inventory periodically. Select one gap, including new coverage where useful, independently of Git activity or image deployments. An unchanged repository, clean working tree or empty deployment queue is never a stop condition for editorial work. If one candidate is blocked, record the dependency and pursue another evidenced gap. Research and develop original, sourced copy first. Save it through the supported Trek Africa Guide CMS revision workflow, then reconcile the same fields in Git without overwriting staff edits, push, and verify distinctive rendered content and related links on production. If a content type has no CMS authoring path, record the limitation, choose a CMS-supported deliverable, or hold the completed draft; do not claim a CMS save or silently substitute Git-first publishing. Use Git for continuity, implementation constraints, synchronization and verification, not for deciding whether readers need content. Preserve photo rights, booking rules, removal decisions, rotation, cadence and private reporting.
+
+
 Owner's standing brief, updated 11 October 2026. Manage contributions through the existing chat. The owner authorizes autonomous content selection, factual content edits, Git commits and pushes to the website repository. Preserve the existing visual layout. No routine tests or builds; inspect changed material. Do not claim publication until confirmed.
 
 ## Collaboration every three hours
