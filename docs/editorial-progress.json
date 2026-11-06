@@ -455,16 +455,17 @@
     "verification": "Brief JSON/content inspection, 24 internal HTTP checks and 14 live rendered checks. No test suite or local build. Existing production exposed-markup guard preserved."
   },
   "latest_run_checkpoint": {
-    "date": "2026-11-06",
-    "status": "complete",
-    "content_commit": "58bebf5",
-    "live_url": "https://trekafricaguide.com/countries/tunisia/",
-    "live_verification": "HTTP 200 with Tunis Marine route and both canonical attraction and stay paths",
-    "cms": "Matched without conflicts",
-    "images": 2,
-    "email_id": "1a1b2669b83a8b60",
-    "ledger": "docs/editorial-research/2026-11-06-tunisia-coastal-transfer.md",
-    "next_action": "Select an accommodation planning gap from a live page."
+    "date": "2026-11-07",
+    "run": "editorial content run (attractions)",
+    "status": "blocked_production_publication",
+    "content_commit": "6eceae8",
+    "live_url": "https://trekafricaguide.com/attractions/nyungwe-national-park/",
+    "live_verification": "BLOCKED: detail 404 and archive/search omit the slug while deploys whose trees include the record are confirmed live (SA image artifacts and live /photo-library.js carry the same-tree changes); other repo-published records appear in homepage search, so only this row is dropped. Local checks pass; the production mirror path is not reproducible from this environment (service-role creds are Netlify-held; .env.netlify holds placeholders).",
+    "cms": "Suspected sync_editorial_documents drop (possible pre-existing draft binding or a manual status edit on a pre-seeded nyungwe document, or a deploy-order race with the concurrent image automation, which observed and reported the same 404). Preserve staff revisions; inspect editorial_documents before touching the record.",
+    "email_id": null,
+    "ledger": "docs/editorial-research/2026-11-07-nyungwe-national-park.md",
+    "images": 6,
+    "next_action": "With production-side access: check editorial_documents row nyungwe-national-park (entity attractions), then one clean owner publish or deploy; retry verification without new research (record copy is finished and lodged in overrides)."
   },
   "activity_volcanoes_golden_monkey_trek": {
     "status": "complete",
@@ -480,7 +481,28 @@
     "image_followup": "Six distinct licensed golden-monkey subjects: Kinigi trailhead/registration, bamboo-forest interior, golden monkeys at safe distance, ranger briefing, forest trail light, trekkers following rangers. Do not reuse attraction or gorilla-trek photos.",
     "booking_destination": "GetYourGuide product t850037 \"Golden Monkey Trekking with lunch\", operator Private Tours /Rwanda, 4.8/5 from 6 reviews (checked 2026-11-06), advertised USD 320 including the USD 100 RDB ticket; exact product page via shared Stay22 resolver.",
     "key_facts_checked": "RDB golden-monkeys portal (fees, age 12, max 16, 07:00 reporting, once-daily Kinigi excursion), Visit Rwanda primate-tracking (Karisimbi/Sabyinyo groups), Visit Rwanda weather, migration.gov.rw entry pointer; all 2026-11-06.",
-    "next_action": "Next editorial category: attractions."
+    "publication": {
+      "content_commit": "f8da4c6",
+      "live_http_status": 200,
+      "email_id": null
+    },
+    "note": "Live page re-verified 2026-11-07; unchanged by this run."
+  },
+  "attraction_nyungwe_blocked_publication": {
+    "status": "blocked_production_publication",
+    "started": "2026-11-07",
+    "category": "attractions",
+    "scope": "New Nyungwe National Park attraction record (Rwanda, region 14 / country 49) with six Commons-verified licensed images and exact photo-library catalog + assignment entries.",
+    "blocker_evidence": "Multiple live checks 2026-11-07 00:36-01:05 EAT: detail 404; archive, homepage search omit slug; cache-busted fetches confirm artifact-side absence; concurrent image automation independently recorded the same observation in docs/image-enrichment-progress.json.",
+    "verification_facts": "check-build-inputs passed; check-rendered-content passed (37 pages); remote tip contains the record (is-ancestor verified); live /photo-library.js contains all six Nyungwe entries, proving the bundling layer reached production.",
+    "files": [
+      "content/editorial-overrides.json",
+      "src/lib/photo-library.js",
+      "public/photo-library.js",
+      "docs/editorial-research/2026-11-07-nyungwe-national-park.md"
+    ],
+    "do_not": "Do not duplicate the record or force-remove it; do not treat the 404 as missing content in Git; preserve any CMS-side manual edits when reconciling.",
+    "next_action": "Production-side reconciliation (CMS/service-role): inspect editorial_documents attractions/nyungwe-national-park, resolve conflict or draft binding, then owner publish/clean deploy and verify."
   },
   "usage_deferral_history": [
     {
