@@ -9,3 +9,5 @@ CMS-ready insertion for travel_articles / plan-kibale-around-chimpanzee-trek, bo
 
 Evidence checked 6 November: [Uganda Wildlife Authority](https://ugandawildlife.org/national-parks/kibale-national-park/) for Kanyanchu departures, registration, briefing and variable walk duration. [Live Fort Portal guide](https://trekafricaguide.com/countries/uganda/fort-portal/) for city-market context, including its documented Mpanga Market photograph. Sequencing, comparison, breakfast and luggage arrangements are suggestions. No new images or booking destinations. Public copy pending authenticated CMS administrator save, followed by Git sync and live verification.
 Owner report sent, Gmail ID 1a1af2a3948cdce4.
+
+Publication completed 6 November 2026 under the revised workflow. Website commit caa2ba8. New text confirmed on production and in the CMS mirror. Owner email 1a1af68e5f8f9b60. Earlier pending instructions are superseded.

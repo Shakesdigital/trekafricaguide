@@ -272,44 +272,25 @@
     "email_id": "1a143a69416cf3d1"
   },
   "rotation": {
-    "last_completed_category": "destinations",
-    "next_category": "activities",
-    "next_deliverable": "Choose one useful researched activity guide with verified canonical relationships; keep image work separate.",
+    "last_completed_category": "travel_insights",
+    "next_category": "accommodations",
+    "next_deliverable": "Review a live accommodation coverage gap.",
     "rule": "Finish the individual deliverable and report its live state, then rotate. Track exact-property photo gaps separately.",
     "override_reason": null
   },
   "current_deliverable": {
-    "id": "fort-portal",
-    "category": "destinations",
+    "id": "carthage-and-kibale-draft-publication",
+    "date": "2026-11-06",
     "status": "complete",
-    "last_action": "Fort Portal nested guide is live-confirmed with its Uganda country card and homepage search entry. CMS mirror is published from the content commit.",
-    "next_action": "Rotate to activities; retain the six-photo Fort Portal follow-up.",
-    "checkpoint": "docs/editorial-research/2026-11-05-fort-portal-local-destination.md",
-    "images": 0,
-    "relationships": {
-      "attraction_slugs": [
-        "kibale-national-park"
-      ],
-      "activity_slugs": [],
-      "accommodation_slugs": [],
-      "travel_insight_slugs": []
-    },
-    "commit": "5eebeca3ef5767436543201392a3fde770263d0f",
-    "cms_source_commit": "5eebeca3ef5767436543201392a3fde770263d0f",
-    "deployment_id": "6aec35041eb3a65f599fd7b2",
-    "live_url": "https://trekafricaguide.com/countries/uganda/fort-portal",
-    "live_status": "HTTP 200 with distinctive Fort Portal copy; Uganda country card and homepage search entry confirmed.",
-    "email_id": "1a1aab12a79d95ed",
-    "email_status": "live confirmation sent",
-    "publication_acceptance": "complete: production deploy and required route relationships confirmed",
-    "photo_followup": [
-      "Fort Portal civic/central-town view",
-      "Karuziika Palace exterior from approved public viewpoint",
-      "Amabere Ga Nyinamwiru caves",
-      "Verified crater lake view and access",
-      "Tea landscape from permission-cleared location",
-      "Local produce/Tooro meal with rights and consent"
-    ]
+    "content_commit": "caa2ba8",
+    "live_verification": "Both pages HTTP 200 with new copy; Kibale links Fort Portal.",
+    "cms": "Both updated documents match source commit and have zero conflicts.",
+    "email_id": "1a1af68e5f8f9b60",
+    "ledgers": [
+      "docs/editorial-research/2026-11-06-tunis-carthage-route-cms-draft.md",
+      "docs/editorial-research/2026-11-06-kibale-overnight-cms-draft.md"
+    ],
+    "next_action": "Review a live accommodation coverage gap."
   },
   "previous_deliverable_correction": {
     "id": "marrakech-medina-street-food-walk",
@@ -474,45 +455,17 @@
     "verification": "Brief JSON/content inspection, 24 internal HTTP checks and 14 live rendered checks. No test suite or local build. Existing production exposed-markup guard preserved."
   },
   "latest_run_checkpoint": {
-    "date": "2026-11-05",
+    "date": "2026-11-06",
     "status": "complete",
-    "action": "Added and production-published one new Fort Portal local destination under Uganda, with only the geographically relevant Kibale attraction card and a six-subject photo follow-up.",
-    "public_changes": true,
-    "content_commit": "5eebeca3ef5767436543201392a3fde770263d0f",
-    "deployment_id": "6aec35041eb3a65f599fd7b2",
-    "live_verification": {
-      "url": "https://trekafricaguide.com/countries/uganda/fort-portal",
-      "status": 200,
-      "checked_at": "2026-11-05T10:51+03:00",
-      "distinctive_text": "Fort Portal is a regional city in western Uganda and the centre of the Tooro sub-region.",
-      "country_card": {
-        "url": "https://trekafricaguide.com/countries/uganda",
-        "status": 200,
-        "canonical_destination_url_present": true
-      },
-      "homepage_search_relationship": {
-        "url": "https://trekafricaguide.com/",
-        "status": 200,
-        "fort_portal_entry_present": true
-      }
-    },
-    "cms_mirror": {
-      "entity": "local-destinations",
-      "slug": "fort-portal",
-      "status": "published",
-      "source_commit": "5eebeca3ef5767436543201392a3fde770263d0f"
-    },
-    "image_count": 0,
-    "new_images": 0,
-    "email_id": "1a1aab12a79d95ed",
-    "email_sent_at": "2026-11-05T10:52+03:00",
-    "communication": {
-      "sent_to": "fsddanmugisa@gmail.com",
-      "gmail_id": "1a1aab12a79d95ed",
-      "scheduler_note": "Recurring three-hour automation is local and does not run while the computer/app is off; no cloud execution path is configured."
-    },
-    "ledger": "docs/editorial-research/2026-11-05-fort-portal-local-destination.md",
-    "next_action": "Rotate to activities; retain the Fort Portal six-photo backlog."
+    "content_commit": "caa2ba8",
+    "live_verification": "Both pages HTTP 200 with new copy; Kibale links Fort Portal.",
+    "cms": "Both updated documents match source commit and have zero conflicts.",
+    "email_id": "1a1af68e5f8f9b60",
+    "ledgers": [
+      "docs/editorial-research/2026-11-06-tunis-carthage-route-cms-draft.md",
+      "docs/editorial-research/2026-11-06-kibale-overnight-cms-draft.md"
+    ],
+    "next_action": "Review a live accommodation coverage gap."
   },
   "usage_deferral_history": [
     {
@@ -769,15 +722,5 @@
     "email_id": "1a1aab12a79d95ed",
     "email_sent_at": "2026-11-05T10:52+03:00",
     "next_category": "activities"
-  },
-  "cms_first_pending_2026_11_06": {
-    "last_completed_publication": "fort-portal",
-    "current_category": "travel_insights",
-    "next_research_category": "accommodations",
-    "pending": [
-      "docs/editorial-research/2026-11-06-tunis-carthage-route-cms-draft.md",
-      "docs/editorial-research/2026-11-06-kibale-overnight-cms-draft.md"
-    ],
-    "checkpoint": "Both documents at revision 2; connected CMS role cannot save published pages. Kibale and Fort Portal verified on production. Ready for administrator save, then Git content sync and production confirmation. Zero images added."
   }
 }

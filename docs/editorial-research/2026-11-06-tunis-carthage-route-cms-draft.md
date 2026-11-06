@@ -33,3 +33,5 @@ Supabase SQL tool context returned `auth.uid() = null`, `auth.role() = null`, an
 ## Owner report receipt
 
 Sent 6 November 2026, 06:43 Africa/Kampala, to the configured owner recipient. Gmail SENT ID: `1a1aef5a4a2eb5f3`. The report states the draft is not published, identifies the CMS authentication blocker, lists the official sources, and gives the authenticated CMS save/publish next step.
+
+Publication completed 6 November 2026 under the revised workflow. Website commit caa2ba8. New text confirmed on production and in the CMS mirror. Owner email 1a1af68e5f8f9b60. Earlier pending instructions are superseded.
