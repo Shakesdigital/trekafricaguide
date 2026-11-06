@@ -1,38 +1,6 @@
 {
   "updated_at": "2026-11-07",
-  "current_run": {
-    "id": "south-africa-country-five-photo-enrichment-2026-11-07",
-    "page_url": "https://trekafricaguide.com/countries/south-africa/",
-    "page_type": "country",
-    "status": "awaiting_publication",
-    "previous_photo_count": 2,
-    "photo_count": 7,
-    "new_photo_count": 5,
-    "checked_date": "2026-11-07",
-    "started_at": "2026-11-07 00:19 Africa/Kampala",
-    "initial_live_verification": "Production guide returned HTTP 200 and was reviewed in full. It had two dedicated images (Cape Town/Table Mountain and Kruger) and four related-card images, excluded from the own-page count. Existing credits are preserved.",
-    "source_ledger": "docs/editorial-research/2026-11-07-south-africa-country-photo-enrichment.md",
-    "note": "Added five visually reviewed, location-verified images under Unsplash License: Boulders Beach penguins, Mnweni Drakensberg, Stellenbosch vineyard, Kruger lion, and Cape Point coast. All permit use without public attribution. Source IDs and public-image SHA-256 comparisons found no duplicates. The existing two images and credits remain unchanged; no copy or protected feature changed.",
-    "files": [
-      "src/lib/photo-library.js",
-      "public/photo-library.js",
-      "public/images/editorial/south-africa-country/",
-      "docs/editorial-research/2026-11-07-south-africa-country-photo-enrichment.md",
-      "docs/image-enrichment-progress.json"
-    ],
-    "selected_images": [
-      "boulders-beach-joshua-kettle.jpg",
-      "mnweni-mountain-arthur-hickinbotham.jpg",
-      "stellenbosch-vineyard-ben.jpg",
-      "kruger-lion-jonathan-gensicke.jpg",
-      "cape-point-coastline-martijn-vonk.jpg"
-    ],
-    "next_action": "Push own collection commit, confirm exact automatic deployment and all five live assets, send one owner report including Namibia live result, then persist receipt.",
-    "mandatory_input_check": "Passed npm run check:build-inputs after syncing photo-library source to public mirror; checked 2026-11-07.",
-    "published_commit": null,
-    "netlify_deploy": null,
-    "email_id": null
-  },
+  "current_run": null,
   "follow_ups": [
     {
       "id": "bwindi-gorilla-trekking-interrupted-2026-10-28",
@@ -73,6 +41,72 @@
     "resolved_at": "2026-10-21 13:16 Africa/Kampala"
   },
   "completed_runs": [
+    {
+      "id": "south-africa-country-five-photo-enrichment-2026-11-07",
+      "page_url": "https://trekafricaguide.com/countries/south-africa/",
+      "page_type": "country",
+      "status": "published_live_confirmed",
+      "previous_photo_count": 2,
+      "photo_count": 7,
+      "new_photo_count": 5,
+      "checked_date": "2026-11-07",
+      "started_at": "2026-11-07 00:19 Africa/Kampala",
+      "initial_live_verification": "Production guide returned HTTP 200 and was reviewed in full. It had two dedicated images (Cape Town/Table Mountain and Kruger) and four related-card images, excluded from the own-page count. Existing credits are preserved.",
+      "source_ledger": "docs/editorial-research/2026-11-07-south-africa-country-photo-enrichment.md",
+      "note": "Added five visually reviewed, location-verified images under Unsplash License: Boulders Beach penguins, Mnweni Drakensberg, Stellenbosch vineyard, Kruger lion, and Cape Point coast. All permit use without public attribution. Source IDs and public-image SHA-256 comparisons found no duplicates. The existing two images and credits remain unchanged; no copy or protected feature changed.",
+      "files": [
+        "src/lib/photo-library.js",
+        "public/photo-library.js",
+        "public/images/editorial/south-africa-country/",
+        "docs/editorial-research/2026-11-07-south-africa-country-photo-enrichment.md",
+        "docs/image-enrichment-progress.json"
+      ],
+      "selected_images": [
+        "boulders-beach-joshua-kettle.jpg",
+        "mnweni-mountain-arthur-hickinbotham.jpg",
+        "stellenbosch-vineyard-ben.jpg",
+        "kruger-lion-jonathan-gensicke.jpg",
+        "cape-point-coastline-martijn-vonk.jpg"
+      ],
+      "next_action": "Push own collection commit, confirm exact automatic deployment and all five live assets, send one owner report including Namibia live result, then persist receipt.",
+      "mandatory_input_check": "Passed npm run check:build-inputs after syncing photo-library source to public mirror; checked 2026-11-07.",
+      "published_commit": "d545ce453c5c91a0ab36fe789b937e66c1f45ebe",
+      "netlify_deploy": null,
+      "email_id": null,
+      "pushed_at": "2026-11-07 00:37:55 Africa/Kampala (observed on origin/main)",
+      "report_status": "NOT SENT: no connected Gmail or Gmail send API is available in the current harness (OpenCode). Codex Gmail connector credentials are not accessible here. Owner report must be sent by the next able run; page and asset evidence recorded above.",
+      "live_verification": {
+        "checked_at": "2026-11-07 00:42-00:47 Africa/Kampala",
+        "deployment": "Deploy confirmed by production page content polling; deploy ID not retrievable without Netlify API access in this harness.",
+        "deployed_commit": "d545ce4 (production serves the five new images)",
+        "page_http_status": 200,
+        "see_all_text": "See all 7 images",
+        "distinct_own_image_count": 7,
+        "all_new_image_filenames_in_full_gallery": true,
+        "asset_http_statuses": [
+          200,
+          200,
+          200,
+          200,
+          200
+        ],
+        "asset_content_types": [
+          "image/jpeg",
+          "image/jpeg",
+          "image/jpeg",
+          "image/jpeg",
+          "image/jpeg"
+        ],
+        "asset_content_lengths": [
+          410716,
+          527265,
+          291075,
+          487784,
+          670806
+        ],
+        "note": "All five byte counts match the committed local files exactly. Page rendered \"See all 7 images\" and all five new filenames."
+      }
+    },
     {
       "id": "namibia-country-five-photo-context-enrichment",
       "page_url": "https://trekafricaguide.com/countries/namibia/",
@@ -2586,6 +2620,25 @@
       },
       "email_id": "1a1b26ba099ca22d",
       "report_sent_at": "2026-11-06 19:51 UTC (22:51 Africa/Kampala)"
+    }
+  ],
+  "review_checkpoints": [
+    {
+      "id": "the-place-resort-tokeh-exact-property-review",
+      "page_url": "https://trekafricaguide.com/accommodations/the-place-resort-tokeh/",
+      "page_type": "accommodation",
+      "status": "no_eligible_exact_property_photo",
+      "checked_date": "2026-11-07",
+      "published_commit_of_run": null,
+      "note": "Live page HTTP 200 reviewed in full: no dedicated property images; guide text was re-read before sourcing. Bounded review found no photo establishing exact-property identity for The Place Resort, Tokeh with verified no-public-attribution rights: Unsplash has one aerial view of Tokeh village beaches (Unsplash License, radwan skeiky, published 2021-01-23) but its page identifies Tokeh village beaches, not the resort itself, so it cannot be a property photo under the exact-property rule; Pexels results for \"tokeh\" are unrelated; Wikimedia Commons has no Tokeh Beach or property files. Official resort imagery remains rights-restricted. Recording this gap; page stays in neutral no-photo presentation. Scenery remains available as exact-location context only for the separate /attractions/tokeh-and-river-no2 page if that page is revised.",
+      "next_action": "Zero-photo accommodation pages now all have recorded rights gaps; rotate to underfilled attraction/activity/insight pages (live inventory), e.g. Volcanoes National Park attraction (2 dedicated photos as of 2026-11-06 inventory)."
+    }
+  ],
+  "environment_observations": [
+    {
+      "observed_at": "2026-11-07 00:47 Africa/Kampala",
+      "observation": "Commit 6eceae8 (2026-11-07 00:34) published the /attractions/nyungwe-national-park record, but production returns 404 for the detail URL and the Rwanda country page does not link it even after deploy d545ce4 was confirmed ready. The override record appears to lack required attraction fields (listing_summary/detail_intro) per docs/git-editorial-overrides.md. This is the separate editorial automation's content change; not fixed from the image run to avoid conflicting writes.",
+      "action": "Reported in chat to owner; no files of the editorial run touched."
     }
   ]
 }
