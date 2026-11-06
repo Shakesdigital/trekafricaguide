@@ -590,7 +590,7 @@
       "full_description": "Visit Rwanda describes a mosaic of mountain ecosystems that includes bamboo and evergreen forest as well as higher open vegetation. Gorilla trekking is the best-known attraction, but the wider highland setting also supports other guided experiences. Ask about current availability and requirements for each activity separately; a gorilla permit does not automatically cover another trek.\n\nOur planning recommendation is to spend the previous night near the park and leave flexibility after the main trek. Travelers who want to connect wildlife and culture should consider adding time in Kigali or another Rwanda region, rather than adding several strenuous activities to one short stay. The best lodge is not necessarily the most expensive: a clear transfer plan, appropriate room access and helpful preparation can matter more than decorative features.",
       "getting_there": "Arrange a road transfer from Kigali to the Musanze/park area, with the exact lodge and briefing point confirmed in advance. Ask the provider for a current travel estimate and avoid relying on an arrival flight that leaves little recovery time before an early start. A national itinerary can continue toward Lake Kivu or other parks, but those transfers need their own time allocation.",
       "best_time": "June to mid-September is generally drier, although rain remains possible. Rwanda's rainy periods typically run from mid-February to May and mid-September to mid-December. Forest walks can be muddy in any season, so choose dates around confirmed permits and prepare for changing conditions.",
-      "practical_info": "Explain mobility, fitness and support needs before booking, and check the authority's current participation requirements. Confirm what transport, meals, equipment and porter arrangements are included. Allow a flexible afternoon after trekking. Nearby stays should be compared by access to the meeting point as well as amenities; a scenic location alone does not establish an easy transfer.",
+      "practical_info": "If you want to see both gorillas and golden monkeys, book two mornings at Kinigi. Golden monkey tracking has one morning departure from park headquarters. By the time a gorilla group comes back from the forest, that departure has already gone. Confirm a separate permit for each outing before choosing your lodge dates.\n\nA suggested three-day visit starts with the drive north from Kigali and a night near Musanze or Kinigi. On the second morning, meet the gorilla guides at Kinigi headquarters. Visit Rwanda lists a 7 a.m. gathering and assigns groups on the day according to fitness. Tell the guides how you cope with slopes and arrange with your driver for the onward journey to the trailhead. Leave the afternoon open and sleep locally again. On the third morning, return to Kinigi for the golden monkey walk before continuing your journey. If you have only one morning, choose the species you most want to track before paying for transport.\n\nExplain mobility, fitness and support needs before booking, and check the authority's current participation requirements. Confirm what transport, meals, equipment and porter arrangements are included. Allow a flexible afternoon after trekking. Nearby stays should be compared by access to the meeting point as well as amenities; a scenic location alone does not establish an easy transfer.",
       "highlights": [
         "Ranger-led mountain gorilla trekking",
         "Volcanic highland scenery and forest habitats",
@@ -609,11 +609,23 @@
         {
           "label": "Official tourism seasonal guidance",
           "url": "https://visitrwanda.com/facts/weather/"
+        },
+        {
+          "label": "Visit Rwanda: three-day gorilla and golden monkey itinerary",
+          "url": "https://visitrwanda.com/itineraries/gorilla-tracking/"
+        },
+        {
+          "label": "Visit Rwanda: primate tracking departures",
+          "url": "https://visitrwanda.com/interests/primate-tracking/"
+        },
+        {
+          "label": "Visit Rwanda: gorilla briefing and allocation",
+          "url": "https://visitrwanda.com/interests/gorilla-tracking/"
         }
       ],
       "rating": null,
       "review_count": 0,
-      "last_researched": "2026-10-11"
+      "last_researched": "2026-11-06"
     },
     {
       "slug": "kruger-national-park",
