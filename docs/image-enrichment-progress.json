@@ -4,7 +4,7 @@
     "id": "tunis-carthage-route-two-image-follow-up",
     "page_url": "https://trekafricaguide.com/attractions/tunis-and-sidi-bou-said/",
     "page_type": "attraction",
-    "status": "local_unpublished_verification_pending",
+    "status": "published_live_confirmed",
     "previous_photo_count": 5,
     "photo_count": 7,
     "new_photo_count": 2,
@@ -24,7 +24,33 @@
       "antonine-baths-waterfront-jona-lendering.jpg",
       "magon-punic-house-foundations-jona-lendering.jpg"
     ],
-    "next_action": "Synchronize the public photo library, run the required build-input check, publish these own changes, then confirm the live seven-image page and both assets before sending one source-free owner report."
+    "next_action": "Refresh the live directories and inventory on the next turn; select a new underfilled travel insight or attraction only when fresh published content or a precise eligible image lead makes it actionable.",
+    "published_commit": "4115dc704ac1d21826bf8ac40921c99700801c0e",
+    "pushed_at": "2026-11-06 13:24 Africa/Kampala",
+    "netlify_deploy": "6aedaad65c6de1b89f042ecb",
+    "live_verification": {
+      "checked_at": "2026-11-06 13:25 Africa/Kampala",
+      "deploy_state": "ready",
+      "deployed_commit": "4115dc704ac1d21826bf8ac40921c99700801c0e",
+      "page_http_status": 200,
+      "gallery_count": 7,
+      "see_all_text": "See all 7 images",
+      "all_new_image_filenames_in_full_gallery": true,
+      "asset_http_statuses": [
+        200,
+        200
+      ],
+      "asset_content_types": [
+        "image/jpeg",
+        "image/jpeg"
+      ],
+      "asset_content_lengths": [
+        205004,
+        295564
+      ]
+    },
+    "email_id": "1a1b0650cf7cac9d",
+    "report_sent_at": "2026-11-06 13:26 Africa/Kampala"
   },
   "follow_ups": [
     {
