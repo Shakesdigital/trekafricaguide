@@ -1,0 +1,27 @@
+# Morocco country-guide photo enrichment — 6 November 2026
+
+## Selection and existing gallery
+
+The 6 November live image inventory reports two own-gallery images for `https://trekafricaguide.com/countries/morocco/`. The complete live guide was read. Its visible gallery contains the Jemaa el-Fnaa sunset and Imlil beneath the High Atlas, both with existing CC BY-SA 4.0 credits. These images and credits remain unchanged. The guide describes the country's medinas, mountain routes, Atlantic coast, and desert camps, and cautions readers to name routes and overnight stops rather than treating distant destinations as a simple city add-on.
+
+The live gallery therefore grows from two to seven images. The five additions show distinct places and settings: Chefchaouen from a hillside, Aït Benhaddou's ksar, Essaouira harbor, Fez medina rooftops, and Merzouga dunes. They add country context to the guide without implying that a listed operator, hotel, activity, or itinerary includes any of these sites.
+
+## Source and visual records
+
+Each Unsplash photo page was checked on 6 November 2026. The page identifies the photographer, specific location, publication date, and Unsplash License; the Unsplash License permits commercial use without public attribution. All five source-page identifiers and local SHA-256 hashes were checked against the photo library and all public image assets before assignment. No URL or hash duplicates were found. Files were downloaded from the Unsplash CDN at 1,800 pixels wide and JPEG quality 85, preserving aspect ratio without other edits. Visual review found no AI-generated appearance or identifiable close-up subjects.
+
+| Local file | Source and creator | Source publication date | Exact-subject and visual evidence; alt text | SHA-256 |
+|---|---|---|---|---|
+| `public/images/editorial/morocco-country/chefchaouen-hillside-marco-di-norcia.jpg` | [Unsplash photo page](https://unsplash.com/photos/a-view-of-a-blue-city-from-a-hill-hHphIawFUY8), Marco di Norcia | 2024-10-25 | The page identifies Chefchaouen, Morocco, and describes a hillside view of the blue city. Visual review confirms blue-and-white buildings across the hillside and distant mountains. Alt: “Blue and white buildings of Chefchaouen spread across a hillside beneath the Rif Mountains.” | `36fceeeb8fd17edb83e037db883b0eab1e28fa038364b011098d329f09987484` |
+| `public/images/editorial/morocco-country/ait-benhaddou-ksar-othmane-bekkari.jpg` | [Unsplash photo page](https://unsplash.com/photos/a-large-building-on-a-hill-6m8QW74rHHU), Othmane Bekkari | 2022-11-20 | The page identifies Aït Ben Haddou, Morocco, and tags the kasbah. Visual review confirms the hilltop fortification and earthen settlement. Alt: “The mud-brick ksar and hilltop fortification at Aït Benhaddou.” | `5c5f12b6d8d9a8363ed8adf6ee98ddfbe8a84df03cfa17295c76bd77a9db9443` |
+| `public/images/editorial/morocco-country/essaouira-fishing-harbor-sheila-c.jpg` | [Unsplash photo page](https://unsplash.com/photos/many-blue-fishing-boats-docked-in-a-harbor-8id5xX3sE4w), Sheila C | 2025-09-21 | The page identifies Essaouira, Morocco, and describes blue fishing boats in its harbor. Visual review confirms the dense harbor of boats. Alt: “Rows of blue fishing boats fill the harbor at Essaouira.” | `1e2fa50e6152755922410321906b47c0ac927af963962494dda6aa36b394ee86` |
+| `public/images/editorial/morocco-country/fez-medina-aerial-kyle-frost.jpg` | [Unsplash photo page](https://unsplash.com/photos/aerial-view-of-city-buildings-during-daytime-uuFcJnLi540), Kyle Frost | 2020-02-26 | The page describes the medina in Fez, Morocco, and marks Fez as the location. Visual review confirms the dense urban medina rooftops. Alt: “Dense rooftops fill the historic medina of Fez.” | `29875407fded9cee8a41f3ef36f5c93e52009ce0e7985a5140a8e582ca399b31` |
+| `public/images/editorial/morocco-country/merzouga-dunes-francesco-ungaro.jpg` | [Unsplash photo page](https://unsplash.com/photos/desert-during-sunset-p7McNhaF6DY), Francesco Ungaro | 2018-04-12 | The page locates the dunes at Merzouga, Morocco. Visual review confirms curved sand dunes in warm low light, with no people, animals, or camp. Alt: “Curving sand dunes cast long shadows near Merzouga at sunset.” | `c4932e6a1d252d5b904e7a6b5585d44ff06b67b699f380b334664e810e9c1031` |
+
+## Accommodation-first rights triage
+
+An accommodation-first pass checked exact-property leads for Governors' Camp, Red Chilli Rest Camp, and Camp Okavango. The Governors' Camp exact-property Commons photograph found was CC BY 2.0 and requires public attribution, so it was excluded. Red Chilli Rest Camp and Camp Okavango have property/gallery imagery on official or travel-industry pages, but no verified no-public-attribution license applicable to this use; Wetu's terms also require an agreement with the image owner and a public credit. No accommodation image was downloaded or assigned. These are limited source outcomes for this pass, not a claim that every underfilled property has been exhausted.
+
+## Remaining gaps
+
+The Morocco gallery now has seven distinct images. Any further additions should address a specific new guide need rather than repeat these places or the existing Marrakech and Imlil views. Accommodation gaps should reopen when a source establishes both exact property identity and an applicable no-public-attribution license, or when the owner supplies originals with documented reuse permission.

@@ -1,72 +1,33 @@
 {
   "updated_at": "2026-11-06",
   "current_run": {
-    "id": "great-zimbabwe-guided-visit-six-image-enrichment",
-    "page_url": "https://trekafricaguide.com/activities/great-zimbabwe-guided-monument-visit/",
-    "page_type": "activity",
-    "status": "published_live_confirmed",
-    "previous_photo_count": 0,
-    "photo_count": 6,
-    "new_photo_count": 6,
+    "id": "morocco-country-five-image-enrichment",
+    "page_url": "https://trekafricaguide.com/countries/morocco/",
+    "page_type": "country",
+    "status": "local_unpublished_verification_pending",
+    "previous_photo_count": 2,
+    "photo_count": 7,
+    "new_photo_count": 5,
     "checked_date": "2026-11-06",
-    "started_at": "2026-11-06 09:22 Africa/Kampala",
-    "initial_live_verification": "Newly published activity guide returned HTTP 200 and had no own gallery or inline photos. Full guide reviewed; it covers the Hill Complex, Great Enclosure, Valley Ruins, optional museum, current access/meeting point and route suitability.",
-    "source_ledger": "docs/editorial-research/2026-11-06-great-zimbabwe-guided-visit-photo-enrichment.md",
-    "note": "Six exact Great Zimbabwe archive photos were visually reviewed; Commons file records document public-domain use without public attribution. Subjects include Great Enclosure, Hill Complex, circumferential wall, conical tower and a 1983 visitor scene. Dates are disclosed and no current operator/participant inference is made. Source URLs and SHA-256 checked against library/all public assets; no duplicates. Previous monument guide unchanged; no copy or protected feature edited.",
+    "started_at": "2026-11-06 11:30 Africa/Kampala",
+    "initial_live_verification": "Production guide returned HTTP 200 and its gallery shows two images: Jemaa el-Fnaa and Imlil/High Atlas. Full guide reviewed. Existing CC BY-SA 4.0 images and credits are preserved.",
+    "source_ledger": "docs/editorial-research/2026-11-06-morocco-country-photo-enrichment.md",
+    "note": "Five visually inspected, exact-location Unsplash License photos added: Chefchaouen hillside, Ait Benhaddou ksar, Essaouira harbor, Fez medina and Merzouga dunes. Their source page IDs are unique across the current library and SHA-256 checks found no matches across public images. The five scenes diversify medina, heritage, coast and desert contexts. Accommodation-first checks of Governors Camp, Red Chilli Rest Camp and Camp Okavango found no qualifying exact-property photo with no public-attribution rights.",
     "files": [
       "src/lib/photo-library.js",
       "public/photo-library.js",
-      "public/images/editorial/great-zimbabwe-guided-monument-visit/",
-      "docs/editorial-research/2026-11-06-great-zimbabwe-guided-visit-photo-enrichment.md",
+      "public/images/editorial/morocco-country/",
+      "docs/editorial-research/2026-11-06-morocco-country-photo-enrichment.md",
       "docs/image-enrichment-progress.json"
     ],
     "selected_images": [
-      "great-enclosure-1997-janderk.jpg",
-      "great-enclosure-interior-1997-janderk.jpg",
-      "hill-complex-1997-janderk.jpg",
-      "outer-wall-1983-ulamm.jpg",
-      "conical-tower-1906-maciver.jpg",
-      "great-zimbabwe-visitors-1983-ulamm.jpg"
+      "chefchaouen-hillside-marco-di-norcia.jpg",
+      "ait-benhaddou-ksar-othmane-bekkari.jpg",
+      "essaouira-fishing-harbor-sheila-c.jpg",
+      "fez-medina-aerial-kyle-frost.jpg",
+      "merzouga-dunes-francesco-ungaro.jpg"
     ],
-    "next_action": "Select another underfilled non-country guide from the live image inventory and verify exact-location no-public-attribution source availability before work.",
-    "email_id": "1a1af941311e7c4d",
-    "published_commit": "2872e9093478319ad91261bfbee56393e6df4c66",
-    "pushed_at": "2026-11-06 09:32 Africa/Kampala",
-    "netlify_deploy": "6aed755f6eea9706eb24eb1b",
-    "live_verification": {
-      "checked_at": "2026-11-06 09:38 Africa/Kampala",
-      "deploy_state": "ready",
-      "deployed_commit": "2872e9093478319ad91261bfbee56393e6df4c66",
-      "page_http_status": 200,
-      "gallery_count": 6,
-      "see_all_text": "See all 6 images",
-      "all_new_image_filenames_in_full_gallery": true,
-      "asset_http_statuses": [
-        200,
-        200,
-        200,
-        200,
-        200,
-        200
-      ],
-      "asset_content_types": [
-        "image/jpeg",
-        "image/jpeg",
-        "image/jpeg",
-        "image/jpeg",
-        "image/jpeg",
-        "image/jpeg"
-      ],
-      "asset_content_lengths": [
-        722681,
-        165946,
-        165875,
-        909520,
-        125459,
-        817149
-      ]
-    },
-    "report_sent_at": "2026-11-06 09:38 Africa/Kampala"
+    "next_action": "Run the required build-input check, synchronize the public photo library, publish own changes, then confirm the production gallery and image assets before sending one owner report."
   },
   "follow_ups": [
     {
@@ -2254,6 +2215,74 @@
       "email_id": "1a1a6fba269f4202",
       "report_sent_at": "2026-11-04 17:34 Africa/Kampala",
       "note": "Preserved previous live-confirmed run when beginning the Fort Portal local destination."
+    },
+    {
+      "id": "great-zimbabwe-guided-visit-six-image-enrichment",
+      "page_url": "https://trekafricaguide.com/activities/great-zimbabwe-guided-monument-visit/",
+      "page_type": "activity",
+      "status": "published_live_confirmed",
+      "previous_photo_count": 0,
+      "photo_count": 6,
+      "new_photo_count": 6,
+      "checked_date": "2026-11-06",
+      "started_at": "2026-11-06 09:22 Africa/Kampala",
+      "initial_live_verification": "Newly published activity guide returned HTTP 200 and had no own gallery or inline photos. Full guide reviewed; it covers the Hill Complex, Great Enclosure, Valley Ruins, optional museum, current access/meeting point and route suitability.",
+      "source_ledger": "docs/editorial-research/2026-11-06-great-zimbabwe-guided-visit-photo-enrichment.md",
+      "note": "Six exact Great Zimbabwe archive photos were visually reviewed; Commons file records document public-domain use without public attribution. Subjects include Great Enclosure, Hill Complex, circumferential wall, conical tower and a 1983 visitor scene. Dates are disclosed and no current operator/participant inference is made. Source URLs and SHA-256 checked against library/all public assets; no duplicates. Previous monument guide unchanged; no copy or protected feature edited.",
+      "files": [
+        "src/lib/photo-library.js",
+        "public/photo-library.js",
+        "public/images/editorial/great-zimbabwe-guided-monument-visit/",
+        "docs/editorial-research/2026-11-06-great-zimbabwe-guided-visit-photo-enrichment.md",
+        "docs/image-enrichment-progress.json"
+      ],
+      "selected_images": [
+        "great-enclosure-1997-janderk.jpg",
+        "great-enclosure-interior-1997-janderk.jpg",
+        "hill-complex-1997-janderk.jpg",
+        "outer-wall-1983-ulamm.jpg",
+        "conical-tower-1906-maciver.jpg",
+        "great-zimbabwe-visitors-1983-ulamm.jpg"
+      ],
+      "next_action": "Select another underfilled non-country guide from the live image inventory and verify exact-location no-public-attribution source availability before work.",
+      "email_id": "1a1af941311e7c4d",
+      "published_commit": "2872e9093478319ad91261bfbee56393e6df4c66",
+      "pushed_at": "2026-11-06 09:32 Africa/Kampala",
+      "netlify_deploy": "6aed755f6eea9706eb24eb1b",
+      "live_verification": {
+        "checked_at": "2026-11-06 09:38 Africa/Kampala",
+        "deploy_state": "ready",
+        "deployed_commit": "2872e9093478319ad91261bfbee56393e6df4c66",
+        "page_http_status": 200,
+        "gallery_count": 6,
+        "see_all_text": "See all 6 images",
+        "all_new_image_filenames_in_full_gallery": true,
+        "asset_http_statuses": [
+          200,
+          200,
+          200,
+          200,
+          200,
+          200
+        ],
+        "asset_content_types": [
+          "image/jpeg",
+          "image/jpeg",
+          "image/jpeg",
+          "image/jpeg",
+          "image/jpeg",
+          "image/jpeg"
+        ],
+        "asset_content_lengths": [
+          722681,
+          165946,
+          165875,
+          909520,
+          125459,
+          817149
+        ]
+      },
+      "report_sent_at": "2026-11-06 09:38 Africa/Kampala"
     }
   ]
 }
