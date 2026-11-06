@@ -7957,7 +7957,30 @@ export const photoLibrary = {
       "checked_at": "2026-11-04",
       "exact_subject_evidence": "The Commons page identifies the photograph as a shoreline along a river or lake within Murchison Falls National Park and states that it was taken from a moving boat. It does not identify the waterway or route. Visual review confirms water and vegetated riverbank from boat level.",
       "reuse_note": "The photographer dedicated this file under CC0 1.0; no public attribution is required. It is a general park-from-boat scene and is not represented as the exact upstream route, current river condition, or a specific operator."
-    }
+    },
+    "/images/editorial/plan-kibale-around-chimp-trek/kibale-dawn-fort-portal-kamwenge-ivan-sabayuki.jpg": {
+      "slug": "kibale-dawn-fort-portal-kamwenge-ivan-sabayuki",
+      "local_path": "/images/editorial/plan-kibale-around-chimp-trek/kibale-dawn-fort-portal-kamwenge-ivan-sabayuki.jpg",
+      "source_page": "https://unsplash.com/photos/a-sunset-over-a-forest-k12dnEEB55o",
+      "source_revision": "Unsplash photo k12dnEEB55o; checked 2026-11-06",
+      "creator": "Ivan Sabayuki",
+      "license": "Unsplash License",
+      "license_url": "https://unsplash.com/license",
+      "source_published_at": "2022-08-30",
+      "captured_at": null,
+      "sha256": "7217f30ff3f045e7a7217faa04fb2922d955c272c1a3d652d5b396f6a6a3b217",
+      "exact_subject": true,
+      "subject": "Sunrise near Kibale National Park on the Fort Portal–Kamwenge road, Uganda",
+      "alt": "Sunrise over forested ridges near Kibale National Park, along the Fort Portal–Kamwenge road.",
+      "caption": "Sunrise near Kibale National Park on the Fort Portal–Kamwenge road (published 2022). This regional archival view is not a required trek departure time.",
+      "property": false,
+      "kind": "photograph",
+      "requires_attribution": false,
+      "changes": "Downloaded as JPEG from the Unsplash CDN at 1,800 pixels wide and quality 85; aspect ratio preserved.",
+      "checked_at": "2026-11-06",
+      "exact_subject_evidence": "The Unsplash photo page states: ‘Sunrise near Kibale national park in Uganda on the road from Fort Portal to Kamwenge very early in the morning around 7:30am.’ It names the location as Kibale National Park, Fortportal Kamwenge Rd, Fort Portal, Uganda. Visual review confirms sunrise over forested ridges and mist. The page gives publication date 2022-08-30 but no capture date.",
+      "reuse_note": "The Unsplash License permits commercial and non-commercial reuse without public attribution. Creator and source version are retained internally. This archival regional view does not establish a trek departure time or current conditions."
+    },
   },
     "/images/editorial/fort-portal-local-destination/fort-portal-tea-field-michael-starkie.jpg": {
       "slug": "fort-portal-tea-field-michael-starkie",

@@ -1,56 +1,30 @@
 {
   "updated_at": "2026-11-06",
   "current_run": {
-    "id": "tunis-carthage-route-two-image-follow-up",
-    "page_url": "https://trekafricaguide.com/attractions/tunis-and-sidi-bou-said/",
-    "page_type": "attraction",
-    "status": "published_live_confirmed",
-    "previous_photo_count": 5,
+    "id": "kibale-insight-dawn-photo-seventh-image-enrichment",
+    "page_url": "https://trekafricaguide.com/travel-insights/plan-kibale-around-chimpanzee-trek/",
+    "page_type": "travel_insight",
+    "status": "ready_to_publish",
+    "previous_photo_count": 6,
     "photo_count": 7,
-    "new_photo_count": 2,
+    "new_photo_count": 1,
     "checked_date": "2026-11-06",
-    "started_at": "2026-11-06 13:14 Africa/Kampala",
-    "initial_live_verification": "Production attraction returned HTTP 200 and displayed five gallery images. Full guide reviewed; its newly published two-stop route names the Antonine Baths and Magon Quarter. Existing credited images and credits remain unchanged.",
-    "source_ledger": "docs/editorial-research/2026-11-06-tunis-carthage-route-photo-enrichment.md",
-    "note": "Two visually reviewed Livius photographs with CC0 1.0 source-page licenses added: Antonine Baths coastal ruins and Magon Quarter House A foundations. One additional baths view was excluded as repetitive. Both source pages and downloaded SHA-256 values were checked against all photo-library sources and public image hashes; no matches. No copy or protected feature changed.",
+    "started_at": "2026-11-06 12:16 UTC (15:16 Africa/Kampala)",
+    "initial_live_verification": "Production page returned HTTP 200 and displayed the existing six-image collection before editing. Full page reviewed; the new photo illustrates the early regional road context described in Day 1.",
+    "source_ledger": "docs/editorial-research/2026-11-06-kibale-dawn-image-enrichment.md",
+    "note": "Added one visually inspected Unsplash License photo with exact Kibale-area Fort Portal–Kamwenge road context and no public-attribution requirement. The page now contains a seventh inline figure, with a caption that does not imply a trek departure time or current conditions. Global source-page and SHA-256 dedup found no existing assignment or public-file match. A duplicate Mpanga Market photo was excluded because it already appears in the separate Fort Portal guide. Existing required credits and all factual copy/protected features remain unchanged.",
     "files": [
+      "content/editorial-overrides.json",
       "src/lib/photo-library.js",
-      "public/photo-library.js",
-      "public/images/editorial/tunis-carthage-route/",
-      "docs/editorial-research/2026-11-06-tunis-carthage-route-photo-enrichment.md",
+      "public/images/editorial/plan-kibale-around-chimp-trek/kibale-dawn-fort-portal-kamwenge-ivan-sabayuki.jpg",
+      "docs/editorial-research/2026-11-06-kibale-dawn-image-enrichment.md",
       "docs/image-enrichment-progress.json"
     ],
     "selected_images": [
-      "antonine-baths-waterfront-jona-lendering.jpg",
-      "magon-punic-house-foundations-jona-lendering.jpg"
+      "kibale-dawn-fort-portal-kamwenge-ivan-sabayuki.jpg"
     ],
-    "next_action": "Refresh the live directories and inventory on the next turn; select a new underfilled travel insight or attraction only when fresh published content or a precise eligible image lead makes it actionable.",
-    "published_commit": "4115dc704ac1d21826bf8ac40921c99700801c0e",
-    "pushed_at": "2026-11-06 13:24 Africa/Kampala",
-    "netlify_deploy": "6aedaad65c6de1b89f042ecb",
-    "live_verification": {
-      "checked_at": "2026-11-06 13:25 Africa/Kampala",
-      "deploy_state": "ready",
-      "deployed_commit": "4115dc704ac1d21826bf8ac40921c99700801c0e",
-      "page_http_status": 200,
-      "gallery_count": 7,
-      "see_all_text": "See all 7 images",
-      "all_new_image_filenames_in_full_gallery": true,
-      "asset_http_statuses": [
-        200,
-        200
-      ],
-      "asset_content_types": [
-        "image/jpeg",
-        "image/jpeg"
-      ],
-      "asset_content_lengths": [
-        205004,
-        295564
-      ]
-    },
-    "email_id": "1a1b0650cf7cac9d",
-    "report_sent_at": "2026-11-06 13:26 Africa/Kampala"
+    "next_action": "Commit and push own image/content/ledger changes, confirm the automatic production deployment and seven-image live gallery, then send one source-free owner report and checkpoint the Gmail receipt.",
+    "mandatory_input_check": "Passed npm run check:build-inputs after syncing src/lib/photo-library.js to public/photo-library.js; checked 2026-11-06."
   },
   "follow_ups": [
     {
@@ -2370,6 +2344,58 @@
       },
       "email_id": "1a1b00f98d2d3c56",
       "report_sent_at": "2026-11-06 11:52 Africa/Kampala"
+    },
+    {
+      "id": "tunis-carthage-route-two-image-follow-up",
+      "page_url": "https://trekafricaguide.com/attractions/tunis-and-sidi-bou-said/",
+      "page_type": "attraction",
+      "status": "published_live_confirmed",
+      "previous_photo_count": 5,
+      "photo_count": 7,
+      "new_photo_count": 2,
+      "checked_date": "2026-11-06",
+      "started_at": "2026-11-06 13:14 Africa/Kampala",
+      "initial_live_verification": "Production attraction returned HTTP 200 and displayed five gallery images. Full guide reviewed; its newly published two-stop route names the Antonine Baths and Magon Quarter. Existing credited images and credits remain unchanged.",
+      "source_ledger": "docs/editorial-research/2026-11-06-tunis-carthage-route-photo-enrichment.md",
+      "note": "Two visually reviewed Livius photographs with CC0 1.0 source-page licenses added: Antonine Baths coastal ruins and Magon Quarter House A foundations. One additional baths view was excluded as repetitive. Both source pages and downloaded SHA-256 values were checked against all photo-library sources and public image hashes; no matches. No copy or protected feature changed.",
+      "files": [
+        "src/lib/photo-library.js",
+        "public/photo-library.js",
+        "public/images/editorial/tunis-carthage-route/",
+        "docs/editorial-research/2026-11-06-tunis-carthage-route-photo-enrichment.md",
+        "docs/image-enrichment-progress.json"
+      ],
+      "selected_images": [
+        "antonine-baths-waterfront-jona-lendering.jpg",
+        "magon-punic-house-foundations-jona-lendering.jpg"
+      ],
+      "next_action": "Refresh the live directories and inventory on the next turn; select a new underfilled travel insight or attraction only when fresh published content or a precise eligible image lead makes it actionable.",
+      "published_commit": "4115dc704ac1d21826bf8ac40921c99700801c0e",
+      "pushed_at": "2026-11-06 13:24 Africa/Kampala",
+      "netlify_deploy": "6aedaad65c6de1b89f042ecb",
+      "live_verification": {
+        "checked_at": "2026-11-06 13:25 Africa/Kampala",
+        "deploy_state": "ready",
+        "deployed_commit": "4115dc704ac1d21826bf8ac40921c99700801c0e",
+        "page_http_status": 200,
+        "gallery_count": 7,
+        "see_all_text": "See all 7 images",
+        "all_new_image_filenames_in_full_gallery": true,
+        "asset_http_statuses": [
+          200,
+          200
+        ],
+        "asset_content_types": [
+          "image/jpeg",
+          "image/jpeg"
+        ],
+        "asset_content_lengths": [
+          205004,
+          295564
+        ]
+      },
+      "email_id": "1a1b0650cf7cac9d",
+      "report_sent_at": "2026-11-06 13:26 Africa/Kampala"
     }
   ]
 }
