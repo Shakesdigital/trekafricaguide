@@ -4,7 +4,7 @@
     "id": "south-africa-country-five-photo-enrichment-2026-11-07",
     "page_url": "https://trekafricaguide.com/countries/south-africa/",
     "page_type": "country",
-    "status": "awaiting_publication",
+    "status": "published_live_confirmed",
     "previous_photo_count": 2,
     "photo_count": 7,
     "new_photo_count": 5,
@@ -27,11 +27,50 @@
       "kruger-lion-jonathan-gensicke.jpg",
       "cape-point-coastline-martijn-vonk.jpg"
     ],
-    "next_action": "Push own collection commit, confirm exact automatic deployment and all five live assets, send one owner report including Namibia live result, then persist receipt.",
+    "next_action": "Select a fresh live zero-image guide with an eligible exact-location no-public-attribution photo lead; avoid previously exhausted searches.",
     "mandatory_input_check": "Passed npm run check:build-inputs after syncing photo-library source to public mirror; checked 2026-11-07.",
-    "published_commit": null,
-    "netlify_deploy": null,
-    "email_id": null
+    "published_commit": "2b58f65dae3be416f67c68c80c5b34a4d215b20d",
+    "netlify_deploy": "6aee4a7079cee9020f895a01",
+    "email_id": "1a1b2d4bc82dc3f8",
+    "pushed_at": "2026-11-06 21:45 UTC",
+    "initial_deploy_attempt": {
+      "deploy": "6aee48c6e97944e7f4774903",
+      "state": "error",
+      "reason": "Photo-library public mirror was stale after rebasing on the newly published Nyungwe guide; post-rebase required check detected the drift. Synced the mirror, reran the check successfully, and pushed follow-up commit 2b58f65."
+    },
+    "live_verification": {
+      "checked_at": "2026-11-06 21:46 UTC (2026-11-07 00:46 Africa/Kampala)",
+      "deploy_state": "ready",
+      "deployed_commit": "2b58f65dae3be416f67c68c80c5b34a4d215b20d",
+      "page_http_status": 200,
+      "distinct_detail_image_count": 7,
+      "see_all_text": "See all 7 images",
+      "new_image_filenames_in_gallery": 5,
+      "old_attribution_credits_present": true,
+      "asset_http_statuses": [
+        200,
+        200,
+        200,
+        200,
+        200
+      ],
+      "asset_content_types": [
+        "image/jpeg",
+        "image/jpeg",
+        "image/jpeg",
+        "image/jpeg",
+        "image/jpeg"
+      ],
+      "asset_content_lengths": [
+        410716,
+        527265,
+        291075,
+        487784,
+        670806
+      ]
+    },
+    "report_status": "Sent one source-free owner report after South Africa deploy/page/assets were verified. It also confirmed the Namibia five-photo addition is live at seven total because the prior note covered research only.",
+    "report_sent_at": "2026-11-07 00:46 Africa/Kampala"
   },
   "follow_ups": [
     {

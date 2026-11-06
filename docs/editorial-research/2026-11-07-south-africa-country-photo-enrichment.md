@@ -21,4 +21,6 @@ Source photo IDs were searched across the library and research ledger; none had 
 
 ## Count and publication
 
-Production verification will be recorded in `docs/image-enrichment-progress.json` after the push and automatic deployment. The live inventory has been updated from two to seven guide images; four related-card images remain separate from this count.
+The production page returned HTTP 200 after deploy `6aee4a7079cee9020f895a01` became ready for commit `2b58f65`. The page renders “See all 7 images” and contains each of the five new filenames. All five image assets returned HTTP 200 with `image/jpeg` content type and nonzero lengths: 410,716; 527,265; 291,075; 487,784; and 670,806 bytes. The previous required attribution is still present. The live guide now has seven distinct own-page images; four related-card images are not included in that count.
+
+The first deploy attempt failed because the photo-library source and public mirror diverged during rebase. The post-rebase required input check caught this; the mirror was synced, the check passed, and the subsequent automatic deployment completed successfully.
