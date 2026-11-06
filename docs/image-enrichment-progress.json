@@ -1,77 +1,34 @@
 {
-  "updated_at": "2026-11-05",
+  "updated_at": "2026-11-06",
   "current_run": {
-    "id": "fort-portal-local-destination-five-image-partial-enrichment",
-    "page_url": "https://trekafricaguide.com/countries/uganda/fort-portal/",
-    "page_type": "local-destination",
-    "status": "published_live_confirmed",
-    "previous_photo_count": 0,
-    "photo_count": 5,
+    "id": "egypt-country-five-image-enrichment",
+    "page_url": "https://trekafricaguide.com/countries/egypt/",
+    "page_type": "country",
+    "status": "local_assets_assigned_pending_publication",
+    "previous_photo_count": 2,
+    "photo_count": 7,
     "new_photo_count": 5,
-    "checked_date": "2026-11-05",
-    "started_at": "2026-11-05 12:15 Africa/Kampala",
-    "initial_live_verification": "Published guide record had no hero_image_url or gallery, so it rendered zero dedicated guide photos. The previous editorial publication receipt confirms its nested route returned HTTP 200; site chrome is excluded from the own-gallery count.",
-    "note": "Full Fort Portal guide and photo follow-up ledger reviewed. Five exact-context, visually inspected no-public-attribution photos assigned: Fort Portal tea road, Mpanga market produce, Lake Kigere, Nyakasura Falls, and Fort Portal-region Rwenzori landscape. Source pages are not duplicates in the existing photo library; SHA-256 checks against all 680 public image assets found no matches. No Kibale or accommodation collection was reused. Town-centre/civic, Karuziika Palace, and Amabere cave images remain open because available exact Commons images require public attribution.",
-    "source_ledger": "docs/editorial-research/2026-11-05-fort-portal-photo-enrichment.md",
+    "checked_date": "2026-11-06",
+    "started_at": "2026-11-06 16:30 Africa/Kampala",
+    "initial_live_verification": "Live inventory and page show two assigned gallery images, both Cairo/Giza pyramid panoramas. The full Egypt guide was reviewed; no additional inline gallery hosts or default image assignment were omitted.",
+    "source_ledger": "docs/editorial-research/2026-11-06-egypt-country-photo-enrichment.md",
+    "note": "Five exact Cairo/Giza-context Unsplash License photos were visually reviewed, source-page and SHA-256 deduplicated against the photo library, and assigned. Both existing CC BY-SA pyramid images and their credits remain unchanged. New subjects: Tahrir Egyptian Museum exterior, Grand Egyptian Museum relief, Muhammad Ali Mosque at the Citadel, Khan el-Khalili alley, and Nile/Cairo skyline. No guide copy or protected feature changed.",
     "files": [
-      "content/local-destinations.json",
       "src/lib/photo-library.js",
       "public/photo-library.js",
-      "public/images/editorial/fort-portal-local-destination/",
-      "docs/editorial-research/2026-11-05-fort-portal-photo-enrichment.md",
+      "public/images/editorial/egypt-country/",
+      "docs/editorial-research/2026-11-06-egypt-country-photo-enrichment.md",
       "docs/image-enrichment-progress.json"
     ],
-    "next_action": "Keep the neutral image state for city-centre, Karuziika Palace and Amabere cave subjects. Reopen only with owner-supplied/permission-cleared originals or credible exact-subject no-public-attribution photo leads.",
     "selected_images": [
-      "fort-portal-mpanga-market-ivan-sabayuki.jpg",
-      "fort-portal-tea-field-michael-starkie.jpg",
-      "fort-portal-lake-kigere-alvinategyeka.jpg",
-      "fort-portal-nyakasura-falls-alvinategyeka.jpg",
-      "fort-portal-rwenzori-landscape-itote-rubombora.jpg"
+      "egyptian-museum-tahrir-dilip-poddar.jpg",
+      "grand-egyptian-museum-hieroglyphs-suzi-kim.jpg",
+      "muhammad-ali-mosque-martijn-vonk.jpg",
+      "khan-el-khalili-alley-thales-botelho.jpg",
+      "cairo-nile-skyline-mohamed-sabry.jpg"
     ],
-    "excluded_candidate_count": 3,
-    "excluded_candidates": [
-      {
-        "subject": "Fort Portal city-centre/civic view",
-        "reason": "Exact city-view Commons candidates require CC BY public attribution."
-      },
-      {
-        "subject": "Karuziika Palace exterior",
-        "reason": "Available exact palace image requires CC BY-SA public attribution; no approved public-viewpoint rights-cleared photo found."
-      },
-      {
-        "subject": "Amabere cave interior/approach",
-        "reason": "Available exact cave images require CC BY-SA public attribution; no no-attribution source selected."
-      }
-    ],
-    "email_id": "1a1ab1af2a028d0e",
-    "report_sent_at": "2026-11-05 12:47 Africa/Kampala",
-    "published_commit": "f1ad2fb6c32ad0088cdb0fcc9831069e00624e6c",
-    "netlify_deploy": "6aec503c2d843969cbedfd47",
-    "live_verification": {
-      "checked_at": "2026-11-05 12:47 Africa/Kampala",
-      "deploy_state": "ready",
-      "deployed_commit": "f1ad2fb6c32ad0088cdb0fcc9831069e00624e6c",
-      "page_http_status": 200,
-      "gallery_count": 5,
-      "see_all_text": "See all 5 images",
-      "new_asset_http_statuses": {
-        "fort-portal-mpanga-market-ivan-sabayuki.jpg": 200,
-        "fort-portal-tea-field-michael-starkie.jpg": 200,
-        "fort-portal-rwenzori-landscape-itote-rubombora.jpg": 200,
-        "fort-portal-lake-kigere-alvinategyeka.jpg": 200,
-        "fort-portal-nyakasura-falls-alvinategyeka.jpg": 200
-      },
-      "new_asset_content_type": "image/jpeg",
-      "new_asset_bytes": {
-        "fort-portal-mpanga-market-ivan-sabayuki.jpg": 470588,
-        "fort-portal-tea-field-michael-starkie.jpg": 314882,
-        "fort-portal-rwenzori-landscape-itote-rubombora.jpg": 191328,
-        "fort-portal-lake-kigere-alvinategyeka.jpg": 701634,
-        "fort-portal-nyakasura-falls-alvinategyeka.jpg": 498923
-      },
-      "note": "Production serves the five-image Fort Portal guide gallery and all five new JPEG assets."
-    }
+    "next_action": "Confirm this exact Egypt gallery and all five JPEG assets on the deployed production site; send the source-free owner receipt and record its ID.",
+    "email_id": null
   },
   "follow_ups": [
     {
@@ -113,6 +70,79 @@
     "resolved_at": "2026-10-21 13:16 Africa/Kampala"
   },
   "completed_runs": [
+    {
+      "id": "fort-portal-local-destination-five-image-partial-enrichment",
+      "page_url": "https://trekafricaguide.com/countries/uganda/fort-portal/",
+      "page_type": "local-destination",
+      "status": "published_live_confirmed",
+      "previous_photo_count": 0,
+      "photo_count": 5,
+      "new_photo_count": 5,
+      "checked_date": "2026-11-05",
+      "started_at": "2026-11-05 12:15 Africa/Kampala",
+      "initial_live_verification": "Published guide record had no hero_image_url or gallery, so it rendered zero dedicated guide photos. The previous editorial publication receipt confirms its nested route returned HTTP 200; site chrome is excluded from the own-gallery count.",
+      "note": "Full Fort Portal guide and photo follow-up ledger reviewed. Five exact-context, visually inspected no-public-attribution photos assigned: Fort Portal tea road, Mpanga market produce, Lake Kigere, Nyakasura Falls, and Fort Portal-region Rwenzori landscape. Source pages are not duplicates in the existing photo library; SHA-256 checks against all 680 public image assets found no matches. No Kibale or accommodation collection was reused. Town-centre/civic, Karuziika Palace, and Amabere cave images remain open because available exact Commons images require public attribution.",
+      "source_ledger": "docs/editorial-research/2026-11-05-fort-portal-photo-enrichment.md",
+      "files": [
+        "content/local-destinations.json",
+        "src/lib/photo-library.js",
+        "public/photo-library.js",
+        "public/images/editorial/fort-portal-local-destination/",
+        "docs/editorial-research/2026-11-05-fort-portal-photo-enrichment.md",
+        "docs/image-enrichment-progress.json"
+      ],
+      "next_action": "Keep the neutral image state for city-centre, Karuziika Palace and Amabere cave subjects. Reopen only with owner-supplied/permission-cleared originals or credible exact-subject no-public-attribution photo leads.",
+      "selected_images": [
+        "fort-portal-mpanga-market-ivan-sabayuki.jpg",
+        "fort-portal-tea-field-michael-starkie.jpg",
+        "fort-portal-lake-kigere-alvinategyeka.jpg",
+        "fort-portal-nyakasura-falls-alvinategyeka.jpg",
+        "fort-portal-rwenzori-landscape-itote-rubombora.jpg"
+      ],
+      "excluded_candidate_count": 3,
+      "excluded_candidates": [
+        {
+          "subject": "Fort Portal city-centre/civic view",
+          "reason": "Exact city-view Commons candidates require CC BY public attribution."
+        },
+        {
+          "subject": "Karuziika Palace exterior",
+          "reason": "Available exact palace image requires CC BY-SA public attribution; no approved public-viewpoint rights-cleared photo found."
+        },
+        {
+          "subject": "Amabere cave interior/approach",
+          "reason": "Available exact cave images require CC BY-SA public attribution; no no-attribution source selected."
+        }
+      ],
+      "email_id": "1a1ab1af2a028d0e",
+      "report_sent_at": "2026-11-05 12:47 Africa/Kampala",
+      "published_commit": "f1ad2fb6c32ad0088cdb0fcc9831069e00624e6c",
+      "netlify_deploy": "6aec503c2d843969cbedfd47",
+      "live_verification": {
+        "checked_at": "2026-11-05 12:47 Africa/Kampala",
+        "deploy_state": "ready",
+        "deployed_commit": "f1ad2fb6c32ad0088cdb0fcc9831069e00624e6c",
+        "page_http_status": 200,
+        "gallery_count": 5,
+        "see_all_text": "See all 5 images",
+        "new_asset_http_statuses": {
+          "fort-portal-mpanga-market-ivan-sabayuki.jpg": 200,
+          "fort-portal-tea-field-michael-starkie.jpg": 200,
+          "fort-portal-rwenzori-landscape-itote-rubombora.jpg": 200,
+          "fort-portal-lake-kigere-alvinategyeka.jpg": 200,
+          "fort-portal-nyakasura-falls-alvinategyeka.jpg": 200
+        },
+        "new_asset_content_type": "image/jpeg",
+        "new_asset_bytes": {
+          "fort-portal-mpanga-market-ivan-sabayuki.jpg": 470588,
+          "fort-portal-tea-field-michael-starkie.jpg": 314882,
+          "fort-portal-rwenzori-landscape-itote-rubombora.jpg": 191328,
+          "fort-portal-lake-kigere-alvinategyeka.jpg": 701634,
+          "fort-portal-nyakasura-falls-alvinategyeka.jpg": 498923
+        },
+        "note": "Production serves the five-image Fort Portal guide gallery and all five new JPEG assets."
+      }
+    },
     {
       "id": "volcanoes-gorilla-trek-no-new-photo-repeat-gap-checkpoint",
       "page_url": "https://trekafricaguide.com/activities/volcanoes-gorilla-trek/",
