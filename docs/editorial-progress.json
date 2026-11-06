@@ -272,25 +272,25 @@
     "email_id": "1a143a69416cf3d1"
   },
   "rotation": {
-    "last_completed_category": "attractions",
-    "next_category": "destinations",
-    "next_deliverable": "Select a destination planning gap from the live site.",
+    "last_completed_category": "destinations",
+    "next_category": "accommodations",
+    "next_deliverable": "Select an accommodation planning gap from a live page.",
     "rule": "Finish the individual deliverable and report its live state, then rotate. Track exact-property photo gaps separately.",
     "override_reason": null
   },
   "current_deliverable": {
-    "id": "volcanoes-two-mornings",
-    "category": "attractions",
+    "id": "tunisia-coastal-transfer",
+    "category": "destinations",
     "date": "2026-11-06",
     "status": "complete",
-    "content_commit": "fbb6a69",
-    "live_url": "https://trekafricaguide.com/attractions/volcanoes-national-park/",
-    "live_verification": "HTTP 200 with two-morning copy and both activity links",
-    "cms": "Matched fbb6a69 without conflicts",
+    "content_commit": "58bebf5",
+    "live_url": "https://trekafricaguide.com/countries/tunisia/",
+    "live_verification": "HTTP 200 with Tunis Marine route and both canonical attraction and stay paths",
+    "cms": "Matched without conflicts",
     "images": 2,
-    "email_id": "1a1b1e6d81b0f64d",
-    "ledger": "docs/editorial-research/2026-11-06-volcanoes-two-mornings.md",
-    "next_action": "Select a destination planning gap from the live site."
+    "email_id": "1a1b2669b83a8b60",
+    "ledger": "docs/editorial-research/2026-11-06-tunisia-coastal-transfer.md",
+    "next_action": "Select an accommodation planning gap from a live page."
   },
   "previous_deliverable_correction": {
     "id": "marrakech-medina-street-food-walk",
@@ -457,14 +457,14 @@
   "latest_run_checkpoint": {
     "date": "2026-11-06",
     "status": "complete",
-    "content_commit": "fbb6a69",
-    "live_url": "https://trekafricaguide.com/attractions/volcanoes-national-park/",
-    "live_verification": "HTTP 200 with two-morning copy and both activity links",
-    "cms": "Matched fbb6a69 without conflicts",
+    "content_commit": "58bebf5",
+    "live_url": "https://trekafricaguide.com/countries/tunisia/",
+    "live_verification": "HTTP 200 with Tunis Marine route and both canonical attraction and stay paths",
+    "cms": "Matched without conflicts",
     "images": 2,
-    "email_id": "1a1b1e6d81b0f64d",
-    "ledger": "docs/editorial-research/2026-11-06-volcanoes-two-mornings.md",
-    "next_action": "Select a destination planning gap from the live site."
+    "email_id": "1a1b2669b83a8b60",
+    "ledger": "docs/editorial-research/2026-11-06-tunisia-coastal-transfer.md",
+    "next_action": "Select an accommodation planning gap from a live page."
   },
   "activity_volcanoes_golden_monkey_trek": {
     "status": "complete",
