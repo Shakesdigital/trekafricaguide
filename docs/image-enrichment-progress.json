@@ -1,47 +1,30 @@
 {
   "updated_at": "2026-11-06",
   "current_run": {
-    "id": "kibale-insight-dawn-photo-seventh-image-enrichment",
-    "page_url": "https://trekafricaguide.com/travel-insights/plan-kibale-around-chimpanzee-trek/",
-    "page_type": "travel_insight",
-    "status": "published_live_confirmed",
-    "previous_photo_count": 6,
-    "photo_count": 7,
+    "id": "volcanoes-golden-monkey-sabyinyo-context-partial",
+    "page_url": "https://trekafricaguide.com/activities/volcanoes-golden-monkey-trekking/",
+    "page_type": "activity",
+    "status": "implementation_saved_publication_pending",
+    "previous_photo_count": 0,
+    "photo_count": 1,
     "new_photo_count": 1,
     "checked_date": "2026-11-06",
-    "started_at": "2026-11-06 12:16 UTC (15:16 Africa/Kampala)",
-    "initial_live_verification": "Production page returned HTTP 200 and displayed the existing six-image collection before editing. Full page reviewed; the new photo illustrates the early regional road context described in Day 1.",
-    "source_ledger": "docs/editorial-research/2026-11-06-kibale-dawn-image-enrichment.md",
-    "note": "Added one visually inspected Unsplash License photo with exact Kibale-area Fort Portal–Kamwenge road context and no public-attribution requirement. The page now contains a seventh inline figure, with a caption that does not imply a trek departure time or current conditions. Global source-page and SHA-256 dedup found no existing assignment or public-file match. A duplicate Mpanga Market photo was excluded because it already appears in the separate Fort Portal guide. Existing required credits and all factual copy/protected features remain unchanged.",
+    "started_at": "2026-11-06 17:19 UTC (20:19 Africa/Kampala)",
+    "initial_live_verification": "Production activity page returned HTTP 200 and was reviewed in full. Its own gallery was empty; the single live image was a related mountain-gorilla card and excluded from this page count.",
+    "source_ledger": "docs/editorial-research/2026-11-06-volcanoes-golden-monkey-photo-enrichment.md",
+    "note": "Added one visually reviewed Commons CC0 1.0 Mount Sabyinyo/Volcanoes National Park setting image. It is directly relevant to the guide’s named Sabyinyo bamboo-zone group, but shows neither monkeys nor a trek. The golden-monkey photo requiring CC BY-SA and generic Rwanda portraits without exact park evidence were excluded. Full public-image SHA-256 and photo-library source URL checks found no duplicates. Kinigi, bamboo-route, monkey and trek-participation subjects remain specific documented gaps. Existing credits and all page copy remain unchanged.",
     "files": [
-      "content/editorial-overrides.json",
       "src/lib/photo-library.js",
-      "public/images/editorial/plan-kibale-around-chimp-trek/kibale-dawn-fort-portal-kamwenge-ivan-sabayuki.jpg",
-      "docs/editorial-research/2026-11-06-kibale-dawn-image-enrichment.md",
+      "public/photo-library.js",
+      "public/images/editorial/volcanoes-golden-monkey-trekking/sabyinyo-volcanoes-national-park-happy-gentille.jpg",
+      "docs/editorial-research/2026-11-06-volcanoes-golden-monkey-photo-enrichment.md",
+      "docs/editorial-research/2026-11-06-live-image-inventory.csv",
       "docs/image-enrichment-progress.json"
     ],
     "selected_images": [
-      "kibale-dawn-fort-portal-kamwenge-ivan-sabayuki.jpg"
+      "sabyinyo-volcanoes-national-park-happy-gentille.jpg"
     ],
-    "next_action": "Prioritize a bounded no-public-attribution source review for the newly published Volcanoes golden monkey trekking activity; do not use Rwanda photos to imply another country or reuse existing gorilla imagery.",
-    "mandatory_input_check": "Passed npm run check:build-inputs after syncing src/lib/photo-library.js to public/photo-library.js; checked 2026-11-06.",
-    "published_commit": "2a9ef256e1b012a998c305e0642f91683753796c",
-    "pushed_at": "2026-11-06 15:32 Africa/Kampala",
-    "netlify_deploy": "6aedc8f4c2d1b35a4d26a8d5",
-    "live_verification": {
-      "checked_at": "2026-11-06 15:33 Africa/Kampala",
-      "deploy_state": "ready",
-      "deployed_commit": "2a9ef256e1b012a998c305e0642f91683753796c",
-      "page_http_status": 200,
-      "rendered_image_count": 7,
-      "new_image_present": true,
-      "new_asset_http_status": 200,
-      "new_asset_content_type": "image/jpeg",
-      "new_asset_content_length": 171826,
-      "note": "Production insight HTML contains seven Kibale collection image paths including the new dawn file; no gallery “See all” control is used for this inline travel insight."
-    },
-    "email_id": "1a1b0dbbe1d1bec0",
-    "report_sent_at": "2026-11-06 15:34 Africa/Kampala"
+    "next_action": "After production confirms the partial image, continue with a fresh live-page candidate. Reopen Golden Monkey only for a credible exact-location no-public-attribution photo lead or owner-provided licensed original."
   },
   "follow_ups": [
     {
@@ -2413,6 +2396,49 @@
       },
       "email_id": "1a1b0650cf7cac9d",
       "report_sent_at": "2026-11-06 13:26 Africa/Kampala"
+    },
+    {
+      "id": "kibale-insight-dawn-photo-seventh-image-enrichment",
+      "page_url": "https://trekafricaguide.com/travel-insights/plan-kibale-around-chimpanzee-trek/",
+      "page_type": "travel_insight",
+      "status": "published_live_confirmed",
+      "previous_photo_count": 6,
+      "photo_count": 7,
+      "new_photo_count": 1,
+      "checked_date": "2026-11-06",
+      "started_at": "2026-11-06 12:16 UTC (15:16 Africa/Kampala)",
+      "initial_live_verification": "Production page returned HTTP 200 and displayed the existing six-image collection before editing. Full page reviewed; the new photo illustrates the early regional road context described in Day 1.",
+      "source_ledger": "docs/editorial-research/2026-11-06-kibale-dawn-image-enrichment.md",
+      "note": "Added one visually inspected Unsplash License photo with exact Kibale-area Fort Portal–Kamwenge road context and no public-attribution requirement. The page now contains a seventh inline figure, with a caption that does not imply a trek departure time or current conditions. Global source-page and SHA-256 dedup found no existing assignment or public-file match. A duplicate Mpanga Market photo was excluded because it already appears in the separate Fort Portal guide. Existing required credits and all factual copy/protected features remain unchanged.",
+      "files": [
+        "content/editorial-overrides.json",
+        "src/lib/photo-library.js",
+        "public/images/editorial/plan-kibale-around-chimp-trek/kibale-dawn-fort-portal-kamwenge-ivan-sabayuki.jpg",
+        "docs/editorial-research/2026-11-06-kibale-dawn-image-enrichment.md",
+        "docs/image-enrichment-progress.json"
+      ],
+      "selected_images": [
+        "kibale-dawn-fort-portal-kamwenge-ivan-sabayuki.jpg"
+      ],
+      "next_action": "Prioritize a bounded no-public-attribution source review for the newly published Volcanoes golden monkey trekking activity; do not use Rwanda photos to imply another country or reuse existing gorilla imagery.",
+      "mandatory_input_check": "Passed npm run check:build-inputs after syncing src/lib/photo-library.js to public/photo-library.js; checked 2026-11-06.",
+      "published_commit": "2a9ef256e1b012a998c305e0642f91683753796c",
+      "pushed_at": "2026-11-06 15:32 Africa/Kampala",
+      "netlify_deploy": "6aedc8f4c2d1b35a4d26a8d5",
+      "live_verification": {
+        "checked_at": "2026-11-06 15:33 Africa/Kampala",
+        "deploy_state": "ready",
+        "deployed_commit": "2a9ef256e1b012a998c305e0642f91683753796c",
+        "page_http_status": 200,
+        "rendered_image_count": 7,
+        "new_image_present": true,
+        "new_asset_http_status": 200,
+        "new_asset_content_type": "image/jpeg",
+        "new_asset_content_length": 171826,
+        "note": "Production insight HTML contains seven Kibale collection image paths including the new dawn file; no gallery “See all” control is used for this inline travel insight."
+      },
+      "email_id": "1a1b0dbbe1d1bec0",
+      "report_sent_at": "2026-11-06 15:34 Africa/Kampala"
     }
   ]
 }

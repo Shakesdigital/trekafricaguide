@@ -7981,7 +7981,6 @@ export const photoLibrary = {
       "exact_subject_evidence": "The Unsplash photo page states: ‘Sunrise near Kibale national park in Uganda on the road from Fort Portal to Kamwenge very early in the morning around 7:30am.’ It names the location as Kibale National Park, Fortportal Kamwenge Rd, Fort Portal, Uganda. Visual review confirms sunrise over forested ridges and mist. The page gives publication date 2022-08-30 but no capture date.",
       "reuse_note": "The Unsplash License permits commercial and non-commercial reuse without public attribution. Creator and source version are retained internally. This archival regional view does not establish a trek departure time or current conditions."
     },
-  },
     "/images/editorial/fort-portal-local-destination/fort-portal-tea-field-michael-starkie.jpg": {
       "slug": "fort-portal-tea-field-michael-starkie",
       "local_path": "/images/editorial/fort-portal-local-destination/fort-portal-tea-field-michael-starkie.jpg",
@@ -8087,6 +8086,30 @@ export const photoLibrary = {
       "exact_subject_evidence": "The Commons file names Nyakasura Falls and Fort Portal. Visual review confirms falling water surrounded by forest; slight water-motion blur is visible.",
       "reuse_note": "The creator dedicated the file under CC0 1.0; no public attribution is required. The guide lists the nearby Amabere caves separately; this waterfall photo does not represent cave interiors or access conditions."
     },
+    "/images/editorial/volcanoes-golden-monkey-trekking/sabyinyo-volcanoes-national-park-happy-gentille.jpg": {
+      "slug": "sabyinyo-volcanoes-national-park-happy-gentille",
+      "local_path": "/images/editorial/volcanoes-golden-monkey-trekking/sabyinyo-volcanoes-national-park-happy-gentille.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:The_Majestic_Sabyinyo_Volcano_in_Volcanoes_National_Park,_Rwanda.jpg",
+      "source_revision": "Wikimedia Commons file revision 1280452164; checked 2026-11-06",
+      "creator": "Happy Gentille",
+      "license": "CC0 1.0 Universal",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "source_published_at": "2026-04-24",
+      "captured_at": null,
+      "sha256": "BFC6BAAB97DE52488965BF1CF9C4076DDB27052F60376BBA23CD447E04849969",
+      "exact_subject": true,
+      "subject": "Mount Sabyinyo and Afro-montane forest in Volcanoes National Park, Rwanda",
+      "alt": "Jagged Mount Sabyinyo rises above forest in Volcanoes National Park, Rwanda.",
+      "caption": "Mount Sabyinyo and the forested park setting; the golden monkeys and trek are not shown. The guide notes a habituated group in Sabyinyo's bamboo zone.",
+      "property": false,
+      "kind": "photograph",
+      "requires_attribution": false,
+      "changes": "Downloaded the original Commons JPEG; no edits.",
+      "checked_at": "2026-11-06",
+      "exact_subject_evidence": "The Commons file caption and description identify Mount Sabyinyo in Rwanda's Volcanoes National Park, and visually show its jagged forested peaks. The published Golden Monkey guide, citing Visit Rwanda, states one habituated group is tracked in the bamboo zone on Mount Sabyinyo. This is park-context scenery, not a photo of monkeys, trekkers or a trail. Commons lists the work date as 24 April 2026 and identifies Happy Gentille as the author; no capture date is stated.",
+      "reuse_note": "The individual file page dedicates the image under CC0 1.0 Universal, which requires no public attribution. The creator, page revision, license and evidence are retained internally. No inference about wildlife sightings, trek participation, facilities or trail conditions is made."
+    },
+  },
   "listings": {
     "attractions": {
       "kwame-nkrumah-memorial-park": {
@@ -8864,6 +8887,14 @@ export const photoLibrary = {
           "/images/stock/starter/volcanoes-national-park.jpg",
           "/images/stock/destinations/volcanoes-national-park.jpg",
           "/images/editorial/volcanoes-gorilla-trek/kinigi-silverback-ana-kenk.jpg"
+        ]
+      },
+      "volcanoes-golden-monkey-trekking": {
+        "hero_image_url": "/images/editorial/volcanoes-golden-monkey-trekking/sabyinyo-volcanoes-national-park-happy-gentille.jpg",
+        "hero_image_alt": "Jagged Mount Sabyinyo rises above forest in Volcanoes National Park, Rwanda.",
+        "replaces": [],
+        "gallery": [
+          "/images/editorial/volcanoes-golden-monkey-trekking/sabyinyo-volcanoes-national-park-happy-gentille.jpg"
         ]
       },
       "marrakech-medina-street-food-tour": {
