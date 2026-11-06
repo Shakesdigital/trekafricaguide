@@ -1217,6 +1217,65 @@
       "last_researched": "2026-10-11"
     },
     {
+      "slug": "nyungwe-national-park",
+      "name": "Nyungwe National Park",
+      "region_id": 14,
+      "country_id": 49,
+      "location_name": "Western Province, Rwanda",
+      "listing_summary": "One of Africa's oldest rainforests, with a 70 m-high canopy walkway, early-morning chimpanzee tracking and steep, well-kept forest trails for primate and bird lovers.",
+      "detail_intro": "Nyungwe National Park protects a mountainous tract of montane rainforest whose visiting style is very different from the savannah parks. The two signature experiences are the treetop canopy walkway above a forest ravine and early chimpanzee tracking at dawn, and every guided outing finishes with wet boots, cold morning air and a slow return — so plan Nyungwe as the focus of a day or two, not a stop on the way.",
+      "full_description": "Visit Rwanda describes Nyungwe as one of the oldest rainforests in Africa, rich in biodiversity and spectacularly beautiful, with a small chimpanzee population and twelve further primate species, including the Albertine Rift endemic L'Hoest's monkey.\n\nThe canopy walkway is the visit most people can actually schedule. A 160-metre suspension bridge hangs 70 metres above a ravine in the montane forest, reached as part of a guided tour along the Igishigishigi trail, or when hiking the longer Imbaraga or Umuyove trails. Walkers cover about an hour of trail from the Uwinka Reception Centre before the bridge; Visit Rwanda's guidance notes the path passes countless butterflies, orchids and colourful birds — many endemic to the region — and the forest holds 13 primate species, so the day can be more than a bridge photo. The slopes are steep but the footpaths are maintained; they turn muddy after rain, so footwear and a light waterproof matter more than heavy luggage.\n\nChimpanzee tracking is scheduled differently from anything else in Rwanda. Per Visit Rwanda, tracking starts early at 5.30 am and can take from an hour to several hours, following the calls and movements of a small, mobile population; once found, the viewing time is limited to one hour. Permits are arranged through the official online channel, an RDB office or a tour operator, and a sighting is never guaranteed — the walk is the experience, and the encounter is the reward if the forest allows it. Compared with Volcanoes' short, fixed daily schedule (see our <a href=\"/activities/volcanoes-golden-monkey-trekking\">golden monkey guide</a> for that park's pattern), Nyungwe rewards flexibility: two days let you pair the dawn chimp walk one day with the canopy walkway the next, instead of stacking both into one exhausting morning.\n\nWho it suits: walkers who enjoy a full morning on forested gradient, photographers who accept that wildlife does not perform on cue, and birders — the Albertine Rift endemics Visit Rwanda lists are a real part of the day. If you expect vehicle-based game viewing, this is the wrong park: Nyungwe is experienced on foot, at altitude, in cool mountain air. Discuss fitness, mobility and support needs with a guide before booking, and carry what you would for any rainforest walk: grip-soled footwear, layers, rain protection and drinking water.\n\nWe deliberately publish no fixed drive times here: the journey from Kigali or any regional base is road-based, and the right estimate depends on your exact route, traffic and onward destination. Ask your accommodation or operator for a current estimate and treat it as planning guidance rather than a timetable.",
+      "getting_there": "Nyungwe is reached by road from Kigali or from the Lake Kivu side of the country, and there is no simple flight-and-transfer pattern to plan around. The right journey estimate depends entirely on your starting point, route and traffic, so ask your operator or accommodation for a current estimate rather than planning from a fixed figure we have not verified. A chimpanzee start at 5.30 am makes a same-day arrival a poor match: overnight near the park where your permit provider and accommodation agree, and confirm the reporting point — the Uwinka Reception Centre serves the canopy walkway trails — with whoever issues your bookings.",
+      "best_time": "Nyungwe is experienced on foot all year, and Visit Rwanda notes more chance of rain in the afternoons — plan the main walking day for an early departure. Rwanda's rainy seasons run mid-February to May and mid-September to mid-December; the dry season, June to mid-September, leaves roads and paths easier per Visit Rwanda's weather guidance, which is worth rechecking close to travel. Mountain forest is damp in any month: mud is normal rather than exceptional, and neither season guarantees a chimpanzee sighting or a dry trail.",
+      "practical_info": "Before booking, confirm who runs your chosen activity, the reporting point and time, what the fee covers and the cancellation terms. Visit Rwanda's canopy-walkway listing currently quotes USD 5 for Rwandan and EAC citizens, USD 20 for foreign residents and USD 40 for international visitors, and recommends suitable footwear and a lightweight raincoat — treat those figures as a prompt to reconfirm at booking, not as locked prices, and note WE carry no current chimpanzee-permit figure because none could be freshly verified in official material this month. Boots, a raincoat and a walking stick can be rented from park headquarters; ask your guide whether that arrangement covers your group. Walk the trail at the pace the ranger sets: keep to permitted paths, leave wildlife to move freely, carry out all litter, and confirm before photographing staff or other visitors. Keep daypacks light and camera gear dry; the walkway tour ends back at the trailhead, so leave what you will not use with a plan you have confirmed with your transport. No exact current third-party booking product has been verified for this park, so no booking card is attached.",
+      "highlights": [
+        "Cross the 160 m canopy walkway, 70 m above a forest ravine",
+        "Dawn chimpanzee tracking with a one-hour viewing limit",
+        "Thirteen primate species, including the Albertine-Rift L'Hoest's monkey",
+        "A one-hour forest walk from Uwinka with butterflies, orchids and endemic birds"
+      ],
+      "research_sources": [
+        {
+          "label": "Visit Rwanda, Nyungwe National Park destination page: oldest-rainforest claim, biodiversity and primate list; checked 7 November 2026",
+          "url": "https://visitrwanda.com/destinations/nyungwe-national-park-2/",
+          "checked_at": "2026-11-07"
+        },
+        {
+          "label": "Visit Rwanda, Canopy Walkway: dimensions, trail access, Uwinka walk, seasonal notes, cost categories and kit; checked 7 November 2026",
+          "url": "https://visitrwanda.com/interests/canopy-walkway/",
+          "checked_at": "2026-11-07"
+        },
+        {
+          "label": "Visit Rwanda, Primate Tracking: chimpanzee schedule, start and duration, one-hour limit, official booking channels and terrain; checked 7 November 2026",
+          "url": "https://visitrwanda.com/interests/primate-tracking/",
+          "checked_at": "2026-11-07"
+        },
+        {
+          "label": "Visit Rwanda, Weather: rain seasons and dry-season path conditions; checked 7 November 2026",
+          "url": "https://visitrwanda.com/facts/weather/",
+          "checked_at": "2026-11-07"
+        }
+      ],
+      "traveler_feedback": "",
+      "hero_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Nyungwe_Canopy_Walk.jpg/1280px-Nyungwe_Canopy_Walk.jpg",
+      "hero_image_alt": "Visitors cross the 160-metre canopy walkway suspended between trees at Nyungwe National Park, Rwanda",
+      "gallery": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Nyungwe_Canopy_Walk.jpg/1280px-Nyungwe_Canopy_Walk.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Nyungwe_Inside_Canopy_Walk.jpg/1280px-Nyungwe_Inside_Canopy_Walk.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Mother_chimpanzee_and_its_baby_ready_to_have_a_picture_%2Cfrom_Nyungwe_National_Parc.jpg/1280px-Mother_chimpanzee_and_its_baby_ready_to_have_a_picture_%2Cfrom_Nyungwe_National_Parc.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Multi-male_unit_of_Rwenzori_colobus_in_Nyungwe_.jpg/1280px-Multi-male_unit_of_Rwenzori_colobus_in_Nyungwe_.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Sunrisenyungwe.jpg/1280px-Sunrisenyungwe.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/9/98/Isumo_Waterfall_in_Nyungwe_Forest.jpg"
+      ],
+      "status": "published",
+      "published_at": "2026-11-07",
+      "rating": null,
+      "review_count": 0,
+      "last_researched": "2026-11-07",
+      "source_url": null,
+      "booking_url": null
+    },
+    {
       "slug": "kibale-national-park",
       "name": "Kibale National Park",
       "region_id": 14,
