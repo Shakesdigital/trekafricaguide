@@ -1,39 +1,6 @@
 {
   "updated_at": "2026-11-07",
-  "current_run": {
-    "id": "great-zimbabwe-attraction-seven-photo-enrichment",
-    "page_url": "https://trekafricaguide.com/attractions/great-zimbabwe-national-monument/",
-    "page_type": "attraction",
-    "status": "pushed_awaiting_live_confirmation",
-    "previous_photo_count": 0,
-    "photo_count": 7,
-    "new_photo_count": 7,
-    "checked_date": "2026-11-07",
-    "started_at": "2026-11-07 01:16 Africa/Kampala",
-    "initial_live_verification": "Reopened after the owner extended image rights to CC/credit-bearing free stock images. The monument overview had zero dedicated photos; the earlier no-attribution rights exhaustion no longer binds. Page review will follow production confirmation (fresh gallery).",
-    "source_ledger": "docs/editorial-research/2026-11-07-great-zimbabwe-attraction-photo-enrichment.md",
-    "note": "Seven visually inspected Commons photographs added as a new gallery: Great Enclosure wall, Hill Complex walls, curved passage, Conical Tower panorama (hero), enclosure seen from the hillside, Hill Complex dome edge and the kopje context view. All credit-bearing CC licences (BY/BY-SA); credits render in the existing gallery block. sha1 values recorded; source IDs unique in the library; no guide copy or protected feature changed.",
-    "files": [
-      "src/lib/photo-library.js",
-      "public/photo-library.js",
-      "docs/editorial-research/2026-11-07-great-zimbabwe-attraction-photo-enrichment.md",
-      "docs/image-enrichment-progress.json"
-    ],
-    "selected_images": [
-      "Wall_of_the_great_enclosure,_Great_Zimbabwe.JPG",
-      "Hill_Complex_-_Great_Zimbabwe_(2).jpg",
-      "Curved_passageways_circling_the_Great_Enclosure_Great_Zimbabwe.jpg",
-      "Conical_Tower_-_Great_Enclosure_V_(33736897638).jpg",
-      "Great-Zimbabwe-still-standing_strong.jpg",
-      "The_Great_Zimbabwe_Hill_Complex.jpg",
-      "Groß_Simbabwe,_Hügelsiedlung.JPG"
-    ],
-    "next_action": "Confirm the new gallery and its credits on production after the deploy build, then move ownership of this collection to completed_runs; follow with more re-opened blocked collections (e.g. Jollyboys Backpackers, golden-monkey subjects) under the new rights decision.",
-    "mandatory_input_check": "Passed npm run check:build-inputs after node scripts/sync-photo-library.mjs; checked 2026-11-07.",
-    "published_commit": null,
-    "pushed_at": null,
-    "report_status": "NOT SENT: no connected Gmail/API in this harness; owner receives this progress in chat instead."
-  },
+  "current_run": null,
   "follow_ups": [
     {
       "id": "bwindi-gorilla-trekking-interrupted-2026-10-28",
@@ -74,6 +41,52 @@
     "resolved_at": "2026-10-21 13:16 Africa/Kampala"
   },
   "completed_runs": [
+    {
+      "id": "great-zimbabwe-attraction-seven-photo-enrichment",
+      "page_url": "https://trekafricaguide.com/attractions/great-zimbabwe-national-monument/",
+      "page_type": "attraction",
+      "status": "published_live_confirmed",
+      "previous_photo_count": 0,
+      "photo_count": 7,
+      "new_photo_count": 7,
+      "checked_date": "2026-11-07",
+      "started_at": "2026-11-07 01:16 Africa/Kampala",
+      "initial_live_verification": "Reopened after the owner extended image rights to CC/credit-bearing free stock images. The monument overview had zero dedicated photos; the earlier no-attribution rights exhaustion no longer binds. Page review will follow production confirmation (fresh gallery).",
+      "source_ledger": "docs/editorial-research/2026-11-07-great-zimbabwe-attraction-photo-enrichment.md",
+      "note": "Seven visually inspected Commons photographs added as a new gallery: Great Enclosure wall, Hill Complex walls, curved passage, Conical Tower panorama (hero), enclosure seen from the hillside, Hill Complex dome edge and the kopje context view. All credit-bearing CC licences (BY/BY-SA); credits render in the existing gallery block. sha1 values recorded; source IDs unique in the library; no guide copy or protected feature changed.",
+      "files": [
+        "src/lib/photo-library.js",
+        "public/photo-library.js",
+        "docs/editorial-research/2026-11-07-great-zimbabwe-attraction-photo-enrichment.md",
+        "docs/image-enrichment-progress.json"
+      ],
+      "selected_images": [
+        "Wall_of_the_great_enclosure,_Great_Zimbabwe.JPG",
+        "Hill_Complex_-_Great_Zimbabwe_(2).jpg",
+        "Curved_passageways_circling_the_Great_Enclosure_Great_Zimbabwe.jpg",
+        "Conical_Tower_-_Great_Enclosure_V_(33736897638).jpg",
+        "Great-Zimbabwe-still-standing_strong.jpg",
+        "The_Great_Zimbabwe_Hill_Complex.jpg",
+        "Groß_Simbabwe,_Hügelsiedlung.JPG"
+      ],
+      "next_action": "Confirm the new gallery and its credits on production after the deploy build, then move ownership of this collection to completed_runs; follow with more re-opened blocked collections (e.g. Jollyboys Backpackers, golden-monkey subjects) under the new rights decision.",
+      "mandatory_input_check": "Passed npm run check:build-inputs after node scripts/sync-photo-library.mjs; checked 2026-11-07.",
+      "published_commit": "cb41f65",
+      "pushed_at": "2026-11-07 01:25 Africa/Kampala",
+      "report_status": "NOT SENT: no connected Gmail/API in this harness; owner receives this progress in chat instead.",
+      "live_verification": {
+        "checked_at": "2026-11-07 01:3x Africa/Kampala",
+        "deployment": "Deploy confirmed by production page-content polling; deploy ID not retrievable in this harness.",
+        "deployed_commit": "cb41f65",
+        "page_http_status": 200,
+        "see_all_text": "See all 7 images",
+        "distinct_own_image_count": 7,
+        "all_new_filenames_in_full_gallery": true,
+        "credits_block_present": true,
+        "commons_thumb_asset_http_statuses": [],
+        "note": "Live gallery credits each creator and licence; share-alike note rendered."
+      }
+    },
     {
       "id": "namibia-country-five-photo-context-enrichment",
       "page_url": "https://trekafricaguide.com/countries/namibia/",
