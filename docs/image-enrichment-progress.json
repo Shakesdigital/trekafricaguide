@@ -1,72 +1,35 @@
 {
   "updated_at": "2026-11-06",
   "current_run": {
-    "id": "senegal-country-six-image-enrichment",
-    "page_url": "https://trekafricaguide.com/countries/senegal/",
-    "page_type": "country",
-    "status": "published_live_confirmed",
-    "previous_photo_count": 1,
-    "photo_count": 7,
+    "id": "great-zimbabwe-guided-visit-six-image-enrichment",
+    "page_url": "https://trekafricaguide.com/activities/great-zimbabwe-guided-monument-visit/",
+    "page_type": "activity",
+    "status": "local_assets_assigned_pending_publication",
+    "previous_photo_count": 0,
+    "photo_count": 6,
     "new_photo_count": 6,
     "checked_date": "2026-11-06",
-    "started_at": "2026-11-06 07:24 Africa/Kampala",
-    "initial_live_verification": "Live inventory and full rendered guide reviewed. Gallery had one own image, the Sine-Saloum delta nesting-site photograph with CC BY-SA 4.0 credit; no missed inline images or extra defaults.",
-    "source_ledger": "docs/editorial-research/2026-11-06-senegal-country-photo-enrichment.md",
-    "note": "Six exact-context Unsplash License photographs were visually reviewed and globally source/hash deduplicated: Dakar Renaissance Monument sunset, Dakar shoreline, Lac Rose salt boats, Saint-Louis pirogue harbor, Gorée harbor building and Gorée Fort from the water. Existing credited Sine-Saloum delta photo and credit unchanged. No guide copy or protected feature changed.",
+    "started_at": "2026-11-06 09:22 Africa/Kampala",
+    "initial_live_verification": "Newly published activity guide returned HTTP 200 and had no own gallery or inline photos. Full guide reviewed; it covers the Hill Complex, Great Enclosure, Valley Ruins, optional museum, current access/meeting point and route suitability.",
+    "source_ledger": "docs/editorial-research/2026-11-06-great-zimbabwe-guided-visit-photo-enrichment.md",
+    "note": "Six exact Great Zimbabwe archive photos were visually reviewed; Commons file records document public-domain use without public attribution. Subjects include Great Enclosure, Hill Complex, circumferential wall, conical tower and a 1983 visitor scene. Dates are disclosed and no current operator/participant inference is made. Source URLs and SHA-256 checked against library/all public assets; no duplicates. Previous monument guide unchanged; no copy or protected feature edited.",
     "files": [
       "src/lib/photo-library.js",
       "public/photo-library.js",
-      "public/images/editorial/senegal-country/",
-      "docs/editorial-research/2026-11-06-senegal-country-photo-enrichment.md",
+      "public/images/editorial/great-zimbabwe-guided-monument-visit/",
+      "docs/editorial-research/2026-11-06-great-zimbabwe-guided-visit-photo-enrichment.md",
       "docs/image-enrichment-progress.json"
     ],
     "selected_images": [
-      "dakar-renaissance-sunset-bamby-diagne.jpg",
-      "dakar-coastline-mouhamadou-sall.jpg",
-      "lac-rose-aerial-curioso-photography.jpg",
-      "saint-louis-pirogue-harbor-baptiste-riethmann.jpg",
-      "goree-harbor-building-e-diop.jpg",
-      "goree-fort-boat-dodji-abah-dakou.jpg"
+      "great-enclosure-1997-janderk.jpg",
+      "great-enclosure-interior-1997-janderk.jpg",
+      "hill-complex-1997-janderk.jpg",
+      "outer-wall-1983-ulamm.jpg",
+      "conical-tower-1906-maciver.jpg",
+      "great-zimbabwe-visitors-1983-ulamm.jpg"
     ],
-    "next_action": "Choose a genuinely underfilled country guide from the live inventory; Morocco is the next suggested country candidate, subject to its prior image research ledger.",
-    "email_id": "1a1af2e512150dda",
-    "published_commit": "2dc650c0c49a5f6ac8f1728a450bd85caa4b7a65",
-    "pushed_at": "2026-11-06 07:43 Africa/Kampala",
-    "netlify_deploy": "6aed5b1f14d2166acd35a245",
-    "live_verification": {
-      "checked_at": "2026-11-06 07:46 Africa/Kampala",
-      "deploy_state": "ready",
-      "deployed_commit": "2dc650c0c49a5f6ac8f1728a450bd85caa4b7a65",
-      "page_http_status": 200,
-      "gallery_count": 7,
-      "see_all_text": "See all 7 images",
-      "all_new_image_filenames_in_full_gallery": true,
-      "asset_http_statuses": [
-        200,
-        200,
-        200,
-        200,
-        200,
-        200
-      ],
-      "asset_content_types": [
-        "image/jpeg",
-        "image/jpeg",
-        "image/jpeg",
-        "image/jpeg",
-        "image/jpeg",
-        "image/jpeg"
-      ],
-      "asset_content_lengths": [
-        207777,
-        263839,
-        440227,
-        220858,
-        473314,
-        239785
-      ]
-    },
-    "report_sent_at": "2026-11-06 07:47 Africa/Kampala"
+    "next_action": "Verify the activity gallery and all six JPEGs on production; send one source-free private update and record the email receipt.",
+    "email_id": null
   },
   "follow_ups": [
     {
@@ -108,6 +71,74 @@
     "resolved_at": "2026-10-21 13:16 Africa/Kampala"
   },
   "completed_runs": [
+    {
+      "id": "senegal-country-six-image-enrichment",
+      "page_url": "https://trekafricaguide.com/countries/senegal/",
+      "page_type": "country",
+      "status": "published_live_confirmed",
+      "previous_photo_count": 1,
+      "photo_count": 7,
+      "new_photo_count": 6,
+      "checked_date": "2026-11-06",
+      "started_at": "2026-11-06 07:24 Africa/Kampala",
+      "initial_live_verification": "Live inventory and full rendered guide reviewed. Gallery had one own image, the Sine-Saloum delta nesting-site photograph with CC BY-SA 4.0 credit; no missed inline images or extra defaults.",
+      "source_ledger": "docs/editorial-research/2026-11-06-senegal-country-photo-enrichment.md",
+      "note": "Six exact-context Unsplash License photographs were visually reviewed and globally source/hash deduplicated: Dakar Renaissance Monument sunset, Dakar shoreline, Lac Rose salt boats, Saint-Louis pirogue harbor, Gorée harbor building and Gorée Fort from the water. Existing credited Sine-Saloum delta photo and credit unchanged. No guide copy or protected feature changed.",
+      "files": [
+        "src/lib/photo-library.js",
+        "public/photo-library.js",
+        "public/images/editorial/senegal-country/",
+        "docs/editorial-research/2026-11-06-senegal-country-photo-enrichment.md",
+        "docs/image-enrichment-progress.json"
+      ],
+      "selected_images": [
+        "dakar-renaissance-sunset-bamby-diagne.jpg",
+        "dakar-coastline-mouhamadou-sall.jpg",
+        "lac-rose-aerial-curioso-photography.jpg",
+        "saint-louis-pirogue-harbor-baptiste-riethmann.jpg",
+        "goree-harbor-building-e-diop.jpg",
+        "goree-fort-boat-dodji-abah-dakou.jpg"
+      ],
+      "next_action": "Choose a genuinely underfilled country guide from the live inventory; Morocco is the next suggested country candidate, subject to its prior image research ledger.",
+      "email_id": "1a1af2e512150dda",
+      "published_commit": "2dc650c0c49a5f6ac8f1728a450bd85caa4b7a65",
+      "pushed_at": "2026-11-06 07:43 Africa/Kampala",
+      "netlify_deploy": "6aed5b1f14d2166acd35a245",
+      "live_verification": {
+        "checked_at": "2026-11-06 07:46 Africa/Kampala",
+        "deploy_state": "ready",
+        "deployed_commit": "2dc650c0c49a5f6ac8f1728a450bd85caa4b7a65",
+        "page_http_status": 200,
+        "gallery_count": 7,
+        "see_all_text": "See all 7 images",
+        "all_new_image_filenames_in_full_gallery": true,
+        "asset_http_statuses": [
+          200,
+          200,
+          200,
+          200,
+          200,
+          200
+        ],
+        "asset_content_types": [
+          "image/jpeg",
+          "image/jpeg",
+          "image/jpeg",
+          "image/jpeg",
+          "image/jpeg",
+          "image/jpeg"
+        ],
+        "asset_content_lengths": [
+          207777,
+          263839,
+          440227,
+          220858,
+          473314,
+          239785
+        ]
+      },
+      "report_sent_at": "2026-11-06 07:47 Africa/Kampala"
+    },
     {
       "id": "egypt-country-five-image-enrichment",
       "page_url": "https://trekafricaguide.com/countries/egypt/",
