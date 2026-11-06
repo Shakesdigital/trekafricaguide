@@ -1,6 +1,77 @@
 {
   "updated_at": "2026-11-07",
-  "current_run": null,
+  "current_run": {
+    "id": "south-africa-country-five-photo-enrichment-2026-11-07",
+    "page_url": "https://trekafricaguide.com/countries/south-africa/",
+    "page_type": "country",
+    "status": "published_live_confirmed",
+    "previous_photo_count": 2,
+    "photo_count": 7,
+    "new_photo_count": 5,
+    "checked_date": "2026-11-07",
+    "started_at": "2026-11-07 00:19 Africa/Kampala",
+    "initial_live_verification": "Production guide returned HTTP 200 and was reviewed in full. It had two dedicated images (Cape Town/Table Mountain and Kruger) and four related-card images, excluded from the own-page count. Existing credits are preserved.",
+    "source_ledger": "docs/editorial-research/2026-11-07-south-africa-country-photo-enrichment.md",
+    "note": "Added five visually reviewed, location-verified images under Unsplash License: Boulders Beach penguins, Mnweni Drakensberg, Stellenbosch vineyard, Kruger lion, and Cape Point coast. All permit use without public attribution. Source IDs and public-image SHA-256 comparisons found no duplicates. The existing two images and credits remain unchanged; no copy or protected feature changed.",
+    "files": [
+      "src/lib/photo-library.js",
+      "public/photo-library.js",
+      "public/images/editorial/south-africa-country/",
+      "docs/editorial-research/2026-11-07-south-africa-country-photo-enrichment.md",
+      "docs/image-enrichment-progress.json"
+    ],
+    "selected_images": [
+      "boulders-beach-joshua-kettle.jpg",
+      "mnweni-mountain-arthur-hickinbotham.jpg",
+      "stellenbosch-vineyard-ben.jpg",
+      "kruger-lion-jonathan-gensicke.jpg",
+      "cape-point-coastline-martijn-vonk.jpg"
+    ],
+    "next_action": "Select a fresh live zero-image guide with an eligible exact-location no-public-attribution photo lead; avoid previously exhausted searches.",
+    "mandatory_input_check": "Passed npm run check:build-inputs after syncing photo-library source to public mirror; checked 2026-11-07.",
+    "published_commit": "2b58f65dae3be416f67c68c80c5b34a4d215b20d",
+    "netlify_deploy": "6aee4a7079cee9020f895a01",
+    "email_id": "1a1b2d4bc82dc3f8",
+    "pushed_at": "2026-11-06 21:45 UTC",
+    "initial_deploy_attempt": {
+      "deploy": "6aee48c6e97944e7f4774903",
+      "state": "error",
+      "reason": "Photo-library public mirror was stale after rebasing on the newly published Nyungwe guide; post-rebase required check detected the drift. Synced the mirror, reran the check successfully, and pushed follow-up commit 2b58f65."
+    },
+    "live_verification": {
+      "checked_at": "2026-11-06 21:46 UTC (2026-11-07 00:46 Africa/Kampala)",
+      "deploy_state": "ready",
+      "deployed_commit": "2b58f65dae3be416f67c68c80c5b34a4d215b20d",
+      "page_http_status": 200,
+      "distinct_detail_image_count": 7,
+      "see_all_text": "See all 7 images",
+      "new_image_filenames_in_gallery": 5,
+      "old_attribution_credits_present": true,
+      "asset_http_statuses": [
+        200,
+        200,
+        200,
+        200,
+        200
+      ],
+      "asset_content_types": [
+        "image/jpeg",
+        "image/jpeg",
+        "image/jpeg",
+        "image/jpeg",
+        "image/jpeg"
+      ],
+      "asset_content_lengths": [
+        410716,
+        527265,
+        291075,
+        487784,
+        670806
+      ]
+    },
+    "report_status": "Sent one source-free owner report after South Africa deploy/page/assets were verified. It also confirmed the Namibia five-photo addition is live at seven total because the prior note covered research only.",
+    "report_sent_at": "2026-11-07 00:46 Africa/Kampala"
+  },
   "follow_ups": [
     {
       "id": "bwindi-gorilla-trekking-interrupted-2026-10-28",
@@ -41,72 +112,6 @@
     "resolved_at": "2026-10-21 13:16 Africa/Kampala"
   },
   "completed_runs": [
-    {
-      "id": "south-africa-country-five-photo-enrichment-2026-11-07",
-      "page_url": "https://trekafricaguide.com/countries/south-africa/",
-      "page_type": "country",
-      "status": "published_live_confirmed",
-      "previous_photo_count": 2,
-      "photo_count": 7,
-      "new_photo_count": 5,
-      "checked_date": "2026-11-07",
-      "started_at": "2026-11-07 00:19 Africa/Kampala",
-      "initial_live_verification": "Production guide returned HTTP 200 and was reviewed in full. It had two dedicated images (Cape Town/Table Mountain and Kruger) and four related-card images, excluded from the own-page count. Existing credits are preserved.",
-      "source_ledger": "docs/editorial-research/2026-11-07-south-africa-country-photo-enrichment.md",
-      "note": "Added five visually reviewed, location-verified images under Unsplash License: Boulders Beach penguins, Mnweni Drakensberg, Stellenbosch vineyard, Kruger lion, and Cape Point coast. All permit use without public attribution. Source IDs and public-image SHA-256 comparisons found no duplicates. The existing two images and credits remain unchanged; no copy or protected feature changed.",
-      "files": [
-        "src/lib/photo-library.js",
-        "public/photo-library.js",
-        "public/images/editorial/south-africa-country/",
-        "docs/editorial-research/2026-11-07-south-africa-country-photo-enrichment.md",
-        "docs/image-enrichment-progress.json"
-      ],
-      "selected_images": [
-        "boulders-beach-joshua-kettle.jpg",
-        "mnweni-mountain-arthur-hickinbotham.jpg",
-        "stellenbosch-vineyard-ben.jpg",
-        "kruger-lion-jonathan-gensicke.jpg",
-        "cape-point-coastline-martijn-vonk.jpg"
-      ],
-      "next_action": "Push own collection commit, confirm exact automatic deployment and all five live assets, send one owner report including Namibia live result, then persist receipt.",
-      "mandatory_input_check": "Passed npm run check:build-inputs after syncing photo-library source to public mirror; checked 2026-11-07.",
-      "published_commit": "d545ce453c5c91a0ab36fe789b937e66c1f45ebe",
-      "netlify_deploy": null,
-      "email_id": null,
-      "pushed_at": "2026-11-07 00:37:55 Africa/Kampala (observed on origin/main)",
-      "report_status": "NOT SENT: no connected Gmail or Gmail send API is available in the current harness (OpenCode). Codex Gmail connector credentials are not accessible here. Owner report must be sent by the next able run; page and asset evidence recorded above.",
-      "live_verification": {
-        "checked_at": "2026-11-07 00:42-00:47 Africa/Kampala",
-        "deployment": "Deploy confirmed by production page content polling; deploy ID not retrievable without Netlify API access in this harness.",
-        "deployed_commit": "d545ce4 (production serves the five new images)",
-        "page_http_status": 200,
-        "see_all_text": "See all 7 images",
-        "distinct_own_image_count": 7,
-        "all_new_image_filenames_in_full_gallery": true,
-        "asset_http_statuses": [
-          200,
-          200,
-          200,
-          200,
-          200
-        ],
-        "asset_content_types": [
-          "image/jpeg",
-          "image/jpeg",
-          "image/jpeg",
-          "image/jpeg",
-          "image/jpeg"
-        ],
-        "asset_content_lengths": [
-          410716,
-          527265,
-          291075,
-          487784,
-          670806
-        ],
-        "note": "All five byte counts match the committed local files exactly. Page rendered \"See all 7 images\" and all five new filenames."
-      }
-    },
     {
       "id": "namibia-country-five-photo-context-enrichment",
       "page_url": "https://trekafricaguide.com/countries/namibia/",
@@ -185,7 +190,7 @@
       "started_at": "2026-11-06 07:24 Africa/Kampala",
       "initial_live_verification": "Live inventory and full rendered guide reviewed. Gallery had one own image, the Sine-Saloum delta nesting-site photograph with CC BY-SA 4.0 credit; no missed inline images or extra defaults.",
       "source_ledger": "docs/editorial-research/2026-11-06-senegal-country-photo-enrichment.md",
-      "note": "Six exact-context Unsplash License photographs were visually reviewed and globally source/hash deduplicated: Dakar Renaissance Monument sunset, Dakar shoreline, Lac Rose salt boats, Saint-Louis pirogue harbor, Gorée harbor building and Gorée Fort from the water. Existing credited Sine-Saloum delta photo and credit unchanged. No guide copy or protected feature changed.",
+      "note": "Six exact-context Unsplash License photographs were visually reviewed and globally source/hash deduplicated: Dakar Renaissance Monument sunset, Dakar shoreline, Lac Rose salt boats, Saint-Louis pirogue harbor, Gor├⌐e harbor building and Gor├⌐e Fort from the water. Existing credited Sine-Saloum delta photo and credit unchanged. No guide copy or protected feature changed.",
       "files": [
         "src/lib/photo-library.js",
         "public/photo-library.js",
@@ -909,7 +914,7 @@
       "note": "Selected six location-specific images after checking the full guide mapping. All six source pages, creators, licence terms and capture dates were verified and the source previews visually inspected. Global source-page and SHA-256 deduplication against library records, other public images and the six new files passed. Replaced the generic Cape Town stock image. The City Hall candidate was excluded because its source page was already used in the Cape Town base insight. No guide prose, layout, relationships, tracking, redirects or canonicals changed.",
       "next_action": "Rotate to another published attraction, activity, or destination with a weak or missing image gallery; inspect current assignments and ledgers first.",
       "commit": "73f18d9",
-      "live_verification": "2026-10-23 21:45 Africa/Kampala: production attraction page HTTP 200 contains all six expected image filenames. Each plain asset URL returns HTTP 200 image/jpeg: Castle of Good Hope 243051 B; Cape Point 437953 B; Signal Hill 440950 B; Bo-Kaap 263305 B; Kirstenbosch 547395 B; Lion’s Head 199580 B.",
+      "live_verification": "2026-10-23 21:45 Africa/Kampala: production attraction page HTTP 200 contains all six expected image filenames. Each plain asset URL returns HTTP 200 image/jpeg: Castle of Good Hope 243051 B; Cape Point 437953 B; Signal Hill 440950 B; Bo-Kaap 263305 B; Kirstenbosch 547395 B; LionΓÇÖs Head 199580 B.",
       "email_id": "1a16a14cace3ebcd",
       "report_sent_at": "2026-10-23 21:45 Africa/Kampala"
     },
@@ -1145,7 +1150,7 @@
         "docs/editorial-research/2026-10-20-sine-saloum-photo-enrichment.md",
         "docs/image-enrichment-progress.json"
       ],
-      "live_verification": "2026-10-20 10:28 Africa/Kampala: production attraction detail HTTP 200, includes all six expected image paths and “See all 6”; all six assets return HTTP 200 image/jpeg.",
+      "live_verification": "2026-10-20 10:28 Africa/Kampala: production attraction detail HTTP 200, includes all six expected image paths and ΓÇ£See all 6ΓÇ¥; all six assets return HTTP 200 image/jpeg.",
       "next_action": "Rotate to the next published attraction with an image gap; continue checking source uniqueness across every detail collection.",
       "note": "Replaced the previously shared stock hero because it is also assigned to the Senegal country detail. Six new distinct licensed exact-delta photos are used in this attraction detail gallery.",
       "commit": "9d2e5d5",
@@ -1190,7 +1195,7 @@
         "docs/editorial-research/2026-10-20-victoria-falls-rafting-photo-enrichment.md",
         "docs/image-enrichment-progress.json"
       ],
-      "live_verification": "2026-10-20 Africa/Kampala: production activity page HTTP 200 and markup displays “See all 6”; all six distinct image asset URLs returned HTTP 200 with image/jpeg.",
+      "live_verification": "2026-10-20 Africa/Kampala: production activity page HTTP 200 and markup displays ΓÇ£See all 6ΓÇ¥; all six distinct image asset URLs returned HTTP 200 with image/jpeg.",
       "next_action": "Rotate to another published zero-photo activity or attraction; retain blocked property-rights follow-ups unless new licensed exact-property evidence appears.",
       "note": "Six visually inspected Creative Commons images depict Zambezi rafting near Victoria Falls or the Batoka Gorge river. No operator, named participant, or tour-participant claim is attached. Duplicates were checked by source URL and SHA-256 against the photo library.",
       "email_id": "1a1590d5a34f4b6c",
@@ -1315,7 +1320,7 @@
         "docs/editorial-research/2026-10-22-victoria-falls-first-visit-photo-enrichment.md",
         "docs/image-enrichment-progress.json"
       ],
-      "note": "Six visually inspected, distinct Creative Commons photographs support the article’s Zimbabwe/Zambia falls viewpoints, rainforest, Knife Edge, Victoria Falls Bridge and upstream Zambezi context. Original source pages, creators, licence versions, capture dates, evidence, review date, alt text, captions, restrictions and SHA-256 hashes are recorded in the source ledger and photo library. No duplicates against other library assignments; no article prose changes.",
+      "note": "Six visually inspected, distinct Creative Commons photographs support the articleΓÇÖs Zimbabwe/Zambia falls viewpoints, rainforest, Knife Edge, Victoria Falls Bridge and upstream Zambezi context. Original source pages, creators, licence versions, capture dates, evidence, review date, alt text, captions, restrictions and SHA-256 hashes are recorded in the source ledger and photo library. No duplicates against other library assignments; no article prose changes.",
       "next_action": "Rotate to another published activity, attraction or destination with a verified image gap; inspect current image assignments before selection.",
       "commit": "261545f",
       "live_verification": "2026-10-22 08:29 Africa/Kampala: production travel insight HTTP 200 contains all six expected image filenames; all six plain JPEG URLs return HTTP 200 image/jpeg.",
@@ -1340,7 +1345,7 @@
         "docs/editorial-research/2026-10-22-stone-town-walking-tour-photo-enrichment.md",
         "docs/image-enrichment-progress.json"
       ],
-      "note": "Six distinct Commons photographs illustrate Stone Town’s Darajani market, an archival alley scene and historic architecture. Captions state capture dates and avoid asserting the chosen tour visits a pictured landmark; the House of Wonders is explicitly dated to its 2021 exterior renovation. Creator, licence version, source evidence, dates, alt text, restrictions and SHA-256 are documented in the dated ledger and photo library. No URL/hash duplicate across other library assignments; no factual activity copy changed.",
+      "note": "Six distinct Commons photographs illustrate Stone TownΓÇÖs Darajani market, an archival alley scene and historic architecture. Captions state capture dates and avoid asserting the chosen tour visits a pictured landmark; the House of Wonders is explicitly dated to its 2021 exterior renovation. Creator, licence version, source evidence, dates, alt text, restrictions and SHA-256 are documented in the dated ledger and photo library. No URL/hash duplicate across other library assignments; no factual activity copy changed.",
       "next_action": "Rotate to another published activity or attraction with an evidenced photo gap; review the full page and deduplicate source URL and image hash against all detail collections.",
       "commit": "6a7a090",
       "live_verification": "2026-10-22 10:36 Africa/Kampala: production activity page HTTP 200; all six expected image filenames present and gallery shows See all 6. All six plain JPEG URLs return HTTP 200 image/jpeg.",
@@ -2006,7 +2011,7 @@
         "docs/image-enrichment-progress.json"
       ],
       "started_at": "2026-10-27 15:11 Africa/Kampala",
-      "initial_live_verification": "Production activity detail returned HTTP 200 and displayed See all 2 images. Two existing gallery assignments/defaults are the activity’s collection; logo and related-card images are separate page elements. Existing hero and assigned photos remain unchanged.",
+      "initial_live_verification": "Production activity detail returned HTTP 200 and displayed See all 2 images. Two existing gallery assignments/defaults are the activityΓÇÖs collection; logo and related-card images are separate page elements. Existing hero and assigned photos remain unchanged.",
       "note": "Added four visually reviewed, exact-Maasai-Mara balloon photographs under Pexels and Unsplash licenses that do not require public attribution. Subjects vary across aerial sunrise view, balloon over plains, an aerial balloon/wildebeest scene and a dawn lift. Full guide reviewed; no copy or protected site behavior changed. Source URLs, creators, license evidence/version, page and capture dates where stated, exact-location evidence, alt text and SHA-256 are recorded internally. Global source URL and SHA-256 dedup against the library and all local public image files found no matches. Gallery total is six.",
       "next_action": "Rotate to one genuinely underfilled guide with exact-subject, no-public-attribution photos; count rendered gallery defaults and all inline images before selecting.",
       "published_commit": "899c4c2390316ba105c45eb33a51eb21a2c3e979",
@@ -2171,7 +2176,7 @@
       "checked_date": "2026-10-30",
       "started_at": "2026-10-30 10:56 Africa/Kampala",
       "initial_live_verification": "Production activity returned HTTP 200 and displayed See all 5 images: two existing defaults and three earlier Atlas activity photographs. Twelve total img tags include gallery/modal repeats, logo and linked-card imagery; there are no additional inline guide photographs.",
-      "note": "One bounded exact Oukaïmeden search returned the already-used image. A new Pexels regional field/village photograph was visually inspected and excluded because its source only established Morocco/Atlas context, not a named route stop, and the preview did not visibly show the range. No image or site-content changes made. The prior five-image partial remains accurately counted.",
+      "note": "One bounded exact Ouka├»meden search returned the already-used image. A new Pexels regional field/village photograph was visually inspected and excluded because its source only established Morocco/Atlas context, not a named route stop, and the preview did not visibly show the range. No image or site-content changes made. The prior five-image partial remains accurately counted.",
       "source_ledger": "docs/editorial-research/2026-10-30-atlas-mountains-day-trip-photo-checkpoint.md",
       "files": [
         "docs/editorial-research/2026-10-30-atlas-mountains-day-trip-photo-checkpoint.md",
@@ -2516,7 +2521,7 @@
       "started_at": "2026-11-06 12:16 UTC (15:16 Africa/Kampala)",
       "initial_live_verification": "Production page returned HTTP 200 and displayed the existing six-image collection before editing. Full page reviewed; the new photo illustrates the early regional road context described in Day 1.",
       "source_ledger": "docs/editorial-research/2026-11-06-kibale-dawn-image-enrichment.md",
-      "note": "Added one visually inspected Unsplash License photo with exact Kibale-area Fort Portal–Kamwenge road context and no public-attribution requirement. The page now contains a seventh inline figure, with a caption that does not imply a trek departure time or current conditions. Global source-page and SHA-256 dedup found no existing assignment or public-file match. A duplicate Mpanga Market photo was excluded because it already appears in the separate Fort Portal guide. Existing required credits and all factual copy/protected features remain unchanged.",
+      "note": "Added one visually inspected Unsplash License photo with exact Kibale-area Fort PortalΓÇôKamwenge road context and no public-attribution requirement. The page now contains a seventh inline figure, with a caption that does not imply a trek departure time or current conditions. Global source-page and SHA-256 dedup found no existing assignment or public-file match. A duplicate Mpanga Market photo was excluded because it already appears in the separate Fort Portal guide. Existing required credits and all factual copy/protected features remain unchanged.",
       "files": [
         "content/editorial-overrides.json",
         "src/lib/photo-library.js",
@@ -2542,7 +2547,7 @@
         "new_asset_http_status": 200,
         "new_asset_content_type": "image/jpeg",
         "new_asset_content_length": 171826,
-        "note": "Production insight HTML contains seven Kibale collection image paths including the new dawn file; no gallery “See all” control is used for this inline travel insight."
+        "note": "Production insight HTML contains seven Kibale collection image paths including the new dawn file; no gallery ΓÇ£See allΓÇ¥ control is used for this inline travel insight."
       },
       "email_id": "1a1b0dbbe1d1bec0",
       "report_sent_at": "2026-11-06 15:34 Africa/Kampala"
@@ -2559,7 +2564,7 @@
       "started_at": "2026-11-06 17:19 UTC (20:19 Africa/Kampala)",
       "initial_live_verification": "Production activity page returned HTTP 200 and was reviewed in full. Its own gallery was empty; the single live image was a related mountain-gorilla card and excluded from this page count.",
       "source_ledger": "docs/editorial-research/2026-11-06-volcanoes-golden-monkey-photo-enrichment.md",
-      "note": "Added one visually reviewed Commons CC0 1.0 Mount Sabyinyo/Volcanoes National Park setting image. It is directly relevant to the guide’s named Sabyinyo bamboo-zone group, but shows neither monkeys nor a trek. The golden-monkey photo requiring CC BY-SA and generic Rwanda portraits without exact park evidence were excluded. Full public-image SHA-256 and photo-library source URL checks found no duplicates. Kinigi, bamboo-route, monkey and trek-participation subjects remain specific documented gaps. Existing credits and all page copy remain unchanged.",
+      "note": "Added one visually reviewed Commons CC0 1.0 Mount Sabyinyo/Volcanoes National Park setting image. It is directly relevant to the guideΓÇÖs named Sabyinyo bamboo-zone group, but shows neither monkeys nor a trek. The golden-monkey photo requiring CC BY-SA and generic Rwanda portraits without exact park evidence were excluded. Full public-image SHA-256 and photo-library source URL checks found no duplicates. Kinigi, bamboo-route, monkey and trek-participation subjects remain specific documented gaps. Existing credits and all page copy remain unchanged.",
       "files": [
         "src/lib/photo-library.js",
         "public/photo-library.js",
@@ -2629,16 +2634,16 @@
       "page_type": "accommodation",
       "status": "no_eligible_exact_property_photo",
       "checked_date": "2026-11-07",
-      "published_commit_of_run": null,
-      "note": "Live page HTTP 200 reviewed in full: no dedicated property images; guide text was re-read before sourcing. Bounded review found no photo establishing exact-property identity for The Place Resort, Tokeh with verified no-public-attribution rights: Unsplash has one aerial view of Tokeh village beaches (Unsplash License, radwan skeiky, published 2021-01-23) but its page identifies Tokeh village beaches, not the resort itself, so it cannot be a property photo under the exact-property rule; Pexels results for \"tokeh\" are unrelated; Wikimedia Commons has no Tokeh Beach or property files. Official resort imagery remains rights-restricted. Recording this gap; page stays in neutral no-photo presentation. Scenery remains available as exact-location context only for the separate /attractions/tokeh-and-river-no2 page if that page is revised.",
-      "next_action": "Zero-photo accommodation pages now all have recorded rights gaps; rotate to underfilled attraction/activity/insight pages (live inventory), e.g. Volcanoes National Park attraction (2 dedicated photos as of 2026-11-06 inventory)."
+      "note": "Live page HTTP 200 reviewed in full before sourcing: zero dedicated property images, one regional attraction card excluded. Bounded review found no photo establishing exact-property identity for The Place Resort, Tokeh under verified no-public-attribution rights: the only Unsplash hit is an aerial of Tokeh village beaches (Unsplash License, radwan skeiky, published 2021-01-23) whose page identifies the village beaches, not the resort, so it cannot be a property photo under the exact-property rule; Pexels \"tokeh\" results are unrelated; Wikimedia Commons has no Tokeh Beach/property files and the prior 2026-10-13 worries about ambiguous \"The Place Resort\" Commons candidates stand. Resort-owned/OTA imagery remains rights-restricted. Gap recorded: exterior/grounds, villas, restaurant, meeting spaces, property-side bay views. Page keeps neutral no-photo presentation.",
+      "ledger": "docs/editorial-research/2026-11-07-the-place-resort-tokeh-photo-review.md",
+      "next_action": "Zero-photo accommodation pages now all carry recorded rights gaps; rotate to underfilled attraction/activity/insight pages (2026-11-06 inventory), e.g. Volcanoes National Park attraction at 2 dedicated photos."
     }
   ],
   "environment_observations": [
     {
       "observed_at": "2026-11-07 00:47 Africa/Kampala",
-      "observation": "Commit 6eceae8 (2026-11-07 00:34) published the /attractions/nyungwe-national-park record, but production returns 404 for the detail URL and the Rwanda country page does not link it even after deploy d545ce4 was confirmed ready. The override record appears to lack required attraction fields (listing_summary/detail_intro) per docs/git-editorial-overrides.md. This is the separate editorial automation's content change; not fixed from the image run to avoid conflicting writes.",
-      "action": "Reported in chat to owner; no files of the editorial run touched."
+      "observation": "Commit 6eceae8 published /attractions/nyungwe-national-park in overrides, but production returned 404 for the detail URL and the Rwanda country page did not link it while deploy for 2b58f65 served the South Africa update. Follow-up commit 2b58f65 (\"Sync photo library after Nyungwe rebase\") by the editorial run suggests active repair; rechecked after the next deploy.",
+      "action": "Reported to owner via chat. No editorial files touched by the image run."
     }
   ]
 }
