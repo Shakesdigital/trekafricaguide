@@ -1,34 +1,36 @@
 {
   "updated_at": "2026-11-06",
   "current_run": {
-    "id": "terres-touareg-exact-property-no-eligible-photo-review",
-    "page_url": "https://trekafricaguide.com/accommodations/terres-touareg-guest-house/",
-    "page_type": "accommodation",
-    "status": "reviewed_no_eligible_photo",
-    "previous_photo_count": 0,
-    "photo_count": 0,
-    "new_photo_count": 0,
+    "id": "namibia-country-five-photo-context-enrichment",
+    "page_url": "https://trekafricaguide.com/countries/namibia/",
+    "page_type": "country",
+    "status": "implementation_saved_publication_pending",
+    "previous_photo_count": 2,
+    "photo_count": 7,
+    "new_photo_count": 5,
     "checked_date": "2026-11-06",
-    "started_at": "2026-11-06 19:44 UTC (22:44 Africa/Kampala)",
-    "initial_live_verification": "Production property page returned HTTP 200 and was reviewed in full. It has no dedicated property images; the non-logo image is a regional Djanet card and was excluded.",
-    "source_ledger": "docs/editorial-research/2026-11-06-terres-touareg-exact-property-photo-review.md",
-    "note": "A bounded exact-property review found only operator-owned imagery without a verified republication license and third-party/management-supplied pictures without file-level no-public-attribution reuse rights. No image was downloaded or assigned. The page remains neutral at zero exact-property photos. Independently corrected the stale Great Zimbabwe guided-visit inventory row to six dedicated photos and two related cards after live HTML inspection; its separate monument attraction remains zero and its prior exhausted rights review was not repeated.",
+    "started_at": "2026-11-06 19:55 UTC (22:55 Africa/Kampala)",
+    "initial_live_verification": "Production country page returned HTTP 200 and was reviewed in full. It had two distinct dedicated Sossusvlei images and three related cards; both existing image credits are retained.",
+    "source_ledger": "docs/editorial-research/2026-11-06-namibia-country-image-enrichment.md",
+    "note": "Added five visually reviewed, exact-location images under Unsplash License: Fish River Canyon, Etosha elephant, Etosha springbok, Skeleton Coast shipwreck shore and Spitzkoppe. All require no public attribution. Source photo IDs and public-image SHA-256 scan found no duplicates. The existing Sossusvlei photos and their CC BY-SA credits remain unchanged. No factual copy or protected features changed.",
     "files": [
-      "docs/editorial-research/2026-11-06-terres-touareg-exact-property-photo-review.md",
+      "src/lib/photo-library.js",
+      "public/photo-library.js",
+      "public/images/editorial/namibia-country-guide/",
+      "docs/editorial-research/2026-11-06-namibia-country-image-enrichment.md",
       "docs/editorial-research/2026-11-06-live-image-inventory.csv",
       "docs/image-enrichment-progress.json"
     ],
-    "selected_images": [],
-    "next_action": "Review The Place Resort, Tokeh as the next unreviewed exact-property candidate. Reopen Terres Touareg only for owner originals, written permission, or a specific exact-property no-public-attribution photo lead.",
-    "live_verification": {
-      "checked_at": "2026-11-06 19:49 UTC (22:49 Africa/Kampala)",
-      "page_http_status": 200,
-      "distinct_property_image_count": 0,
-      "regional_card_image_count": 1,
-      "new_asset": null
-    },
-    "email_id": "1a1b26ba099ca22d",
-    "report_sent_at": "2026-11-06 19:51 UTC (22:51 Africa/Kampala)"
+    "selected_images": [
+      "fish-river-canyon-joshua-kettle.jpg",
+      "etosha-elephant-marie-rouilly.jpg",
+      "etosha-springbok-wietse-jongsma.jpg",
+      "skeleton-coast-andrew-svk.jpg",
+      "spitzkoppe-rocks-nir-himi.jpg"
+    ],
+    "next_action": "After live verification, continue with the next fresh live-site zero-image guide or new credible photo lead; do not reuse Sossusvlei insight sources.",
+    "report_status": "No second email sent under parent instruction; the earlier heartbeat receipt 1a1b26ba099ca22d covered only the preceding no-photo rights review.",
+    "mandatory_input_check": "Passed npm run check:build-inputs after syncing src/lib/photo-library.js to public/photo-library.js; checked 2026-11-06."
   },
   "follow_ups": [
     {
@@ -2487,6 +2489,36 @@
       },
       "email_id": "1a1b1f29f2fa1822",
       "report_sent_at": "2026-11-06 17:40 UTC (20:40 Africa/Kampala)"
+    },
+    {
+      "id": "terres-touareg-exact-property-no-eligible-photo-review",
+      "page_url": "https://trekafricaguide.com/accommodations/terres-touareg-guest-house/",
+      "page_type": "accommodation",
+      "status": "reviewed_no_eligible_photo",
+      "previous_photo_count": 0,
+      "photo_count": 0,
+      "new_photo_count": 0,
+      "checked_date": "2026-11-06",
+      "started_at": "2026-11-06 19:44 UTC (22:44 Africa/Kampala)",
+      "initial_live_verification": "Production property page returned HTTP 200 and was reviewed in full. It has no dedicated property images; the non-logo image is a regional Djanet card and was excluded.",
+      "source_ledger": "docs/editorial-research/2026-11-06-terres-touareg-exact-property-photo-review.md",
+      "note": "A bounded exact-property review found only operator-owned imagery without a verified republication license and third-party/management-supplied pictures without file-level no-public-attribution reuse rights. No image was downloaded or assigned. The page remains neutral at zero exact-property photos. Independently corrected the stale Great Zimbabwe guided-visit inventory row to six dedicated photos and two related cards after live HTML inspection; its separate monument attraction remains zero and its prior exhausted rights review was not repeated.",
+      "files": [
+        "docs/editorial-research/2026-11-06-terres-touareg-exact-property-photo-review.md",
+        "docs/editorial-research/2026-11-06-live-image-inventory.csv",
+        "docs/image-enrichment-progress.json"
+      ],
+      "selected_images": [],
+      "next_action": "Review The Place Resort, Tokeh as the next unreviewed exact-property candidate. Reopen Terres Touareg only for owner originals, written permission, or a specific exact-property no-public-attribution photo lead.",
+      "live_verification": {
+        "checked_at": "2026-11-06 19:49 UTC (22:49 Africa/Kampala)",
+        "page_http_status": 200,
+        "distinct_property_image_count": 0,
+        "regional_card_image_count": 1,
+        "new_asset": null
+      },
+      "email_id": "1a1b26ba099ca22d",
+      "report_sent_at": "2026-11-06 19:51 UTC (22:51 Africa/Kampala)"
     }
   ]
 }
