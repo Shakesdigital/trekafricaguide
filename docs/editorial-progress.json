@@ -272,25 +272,25 @@
     "email_id": "1a143a69416cf3d1"
   },
   "rotation": {
-    "last_completed_category": "travel_insights",
-    "next_category": "accommodations",
-    "next_deliverable": "Review a live accommodation coverage gap.",
+    "last_completed_category": "accommodations",
+    "next_category": "activities",
+    "next_deliverable": "Check an activity detail page for an unanswered planning question.",
     "rule": "Finish the individual deliverable and report its live state, then rotate. Track exact-property photo gaps separately.",
     "override_reason": null
   },
   "current_deliverable": {
-    "id": "carthage-and-kibale-draft-publication",
+    "id": "dar-said-arrival",
+    "category": "accommodations",
     "date": "2026-11-06",
     "status": "complete",
-    "content_commit": "caa2ba8",
-    "live_verification": "Both pages HTTP 200 with new copy; Kibale links Fort Portal.",
-    "cms": "Both updated documents match source commit and have zero conflicts.",
-    "email_id": "1a1af68e5f8f9b60",
-    "ledgers": [
-      "docs/editorial-research/2026-11-06-tunis-carthage-route-cms-draft.md",
-      "docs/editorial-research/2026-11-06-kibale-overnight-cms-draft.md"
-    ],
-    "next_action": "Review a live accommodation coverage gap."
+    "content_commit": "11093f2",
+    "live_url": "https://trekafricaguide.com/accommodations/dar-said/",
+    "live_verification": "HTTP 200 with unavoidable stairs and attributed guest reference",
+    "cms": "CMS contains copy, no conflicts at bdada71",
+    "email_id": "1a1b066acc681ca0",
+    "ledger": "docs/editorial-research/2026-11-06-dar-said-arrival.md",
+    "images": 0,
+    "next_action": "Check an activity detail page for an unanswered planning question."
   },
   "previous_deliverable_correction": {
     "id": "marrakech-medina-street-food-walk",
@@ -457,15 +457,14 @@
   "latest_run_checkpoint": {
     "date": "2026-11-06",
     "status": "complete",
-    "content_commit": "caa2ba8",
-    "live_verification": "Both pages HTTP 200 with new copy; Kibale links Fort Portal.",
-    "cms": "Both updated documents match source commit and have zero conflicts.",
-    "email_id": "1a1af68e5f8f9b60",
-    "ledgers": [
-      "docs/editorial-research/2026-11-06-tunis-carthage-route-cms-draft.md",
-      "docs/editorial-research/2026-11-06-kibale-overnight-cms-draft.md"
-    ],
-    "next_action": "Review a live accommodation coverage gap."
+    "content_commit": "11093f2",
+    "live_url": "https://trekafricaguide.com/accommodations/dar-said/",
+    "live_verification": "HTTP 200 with unavoidable stairs and attributed guest reference",
+    "cms": "CMS contains copy, no conflicts at bdada71",
+    "email_id": "1a1b066acc681ca0",
+    "ledger": "docs/editorial-research/2026-11-06-dar-said-arrival.md",
+    "images": 0,
+    "next_action": "Check an activity detail page for an unanswered planning question."
   },
   "usage_deferral_history": [
     {
