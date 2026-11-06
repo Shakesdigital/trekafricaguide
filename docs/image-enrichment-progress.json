@@ -4,7 +4,7 @@
     "id": "cape-coast-kakum-guided-visit-two-photo-additions-2026-11-07",
     "page_url": "https://trekafricaguide.com/activities/cape-coast-kakum-guided-visit/",
     "page_type": "activity",
-    "status": "local_ready_for_publication",
+    "status": "published_live_confirmed",
     "previous_photo_count": 5,
     "photo_count": 7,
     "new_photo_count": 2,
@@ -25,11 +25,37 @@
       "kakum-canopy-visitor-orva-studio.jpg",
       "kakum-canopy-forest-bridge-julian-morenz.jpg"
     ],
-    "next_action": "Commit and push the collection, verify its automatic production deployment and all seven distinct image paths and both new JPEG assets, send one source-free owner report and record the receipt.",
+    "next_action": "Select a fresh zero-image guide with precise eligible photos; do not repeat exhausted searches.",
     "mandatory_input_check": "Passed npm run check:build-inputs after syncing src/lib/photo-library.js to public/photo-library.js; checked 2026-11-07.",
-    "published_commit": null,
-    "netlify_deploy": null,
-    "email_id": null
+    "published_commit": "73d1325fa42b6287ed59e302bda8e6c095cb5d01",
+    "netlify_deploy": "6aee633901345c4eb42ec723",
+    "email_id": "1a1b337a0c675f5f",
+    "pushed_at": "2026-11-06 23:31 UTC",
+    "live_verification": {
+      "checked_at": "2026-11-06 23:32 UTC (2026-11-07 02:32 Africa/Kampala)",
+      "deploy_state": "ready",
+      "deployed_commit": "73d1325fa42b6287ed59e302bda8e6c095cb5d01",
+      "page_http_status": 200,
+      "distinct_detail_image_count": 7,
+      "see_all_text": "See all 7 images",
+      "new_image_filenames_in_gallery": 2,
+      "existing_gallery_assignments_unchanged": true,
+      "existing_required_attribution_records_unchanged": true,
+      "asset_http_statuses": [
+        200,
+        200
+      ],
+      "asset_content_types": [
+        "image/jpeg",
+        "image/jpeg"
+      ],
+      "asset_content_lengths": [
+        801153,
+        983641
+      ]
+    },
+    "report_status": "One source-free owner report sent after production confirmation; Gmail message id 1a1b337a0c675f5f.",
+    "report_sent_at": "2026-11-06 23:35 UTC (2026-11-07 02:35 Africa/Kampala)"
   },
   "follow_ups": [
     {
@@ -2658,4 +2684,4 @@
       "effect": "Reopens previously attribution-blocked collections. Facts: discreet legally required credits stay visible via the existing gallery credit block; provenance ledgers remain internal per the 23 October reporting preference; the Freddy/owner decision overruling the no-public-attribution operating rule is the stated reason; existing attribution-required photos stay as-is."
     }
   ]
-}
+}\n

@@ -18,4 +18,4 @@ The potential Kakum Commons CC0 leads were not assigned because those exact sour
 
 ## Publication checkpoint
 
-Pending the source/public library sync and required build-input check, explicit commit/push, automatic production deployment, and live page/gallery plus JPEG verification. Send one source-free owner report only after live verification; record its receipt in `docs/image-enrichment-progress.json`.
+The photo-library source and public mirror were synced; `npm run check:build-inputs` passed. Commit `73d1325fa42b6287ed59e302bda8e6c095cb5d01` was pushed to `main`. Netlify production deploy `6aee633901345c4eb42ec723` is ready for that exact commit. The production guide returns HTTP 200, shows “See all 7 images,” and contains both new filenames. Both new JPEG assets return HTTP 200 with `image/jpeg`: 801,153 bytes and 983,641 bytes. The prior gallery assignments and image records remain unchanged. One source-free owner report was sent after this confirmation at 2026-11-06 23:35 UTC (2026-11-07 02:35 Kampala). Gmail message id: 1a1b337a0c675f5f; recorded in the progress checkpoint.
