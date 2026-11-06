@@ -347,14 +347,26 @@
     {
       "slug": "tunisia",
       "overview": "Tunisia's capital region offers a compact but varied cultural stay when its parts are given enough attention. Tunis, Carthage and Sidi Bou Said are related geographically but provide different experiences: city exploration, archaeological interpretation and a hillside coastal setting. Planning them as separate blocks of time helps prevent the visit from becoming a rapid sequence of photographs.\n\nOur recommendation is to select a base according to where you want to spend most of the time, then plan transport between areas. A coast-oriented stay and a central-city stay create different daily routines. In Carthage, the historical remains are distributed through a modern setting, so a guide or clearly planned route is useful. In Sidi Bou Said, leave time to walk at a comfortable pace and respect residents' privacy.",
-      "access_summary": "Confirm the airport transfer and the exact hotel neighborhood. The tourism board describes the TGM link between Tunis and coastal suburbs; check current operation before relying on it. A prearranged vehicle can connect dispersed archaeological sites, with the route and charge agreed in advance.",
+      "access_summary": "For a first night in central Tunis, arrange the journey from Tunis-Carthage airport to your hotel first. Leave the medina for a city day and start your coastal outing at Tunis Marine, the city terminus for the TGM suburban railway towards La Marsa. Before boarding, tell station staff which Carthage site you want to visit and check which stops are being served that day. The Antonine Baths and the Magon Quarter are separate entrances. Pick the one you most want to see before deciding where to get off.\n\nOne suggested day pairs a morning at Carthage with an afternoon in Sidi Bou Said. Check the return service to Tunis before heading up into the village. If rail service is interrupted or the group needs to minimise walking, agree a taxi pickup at the entrance to your chosen monument and a second meeting point for the return from Sidi Bou Said. If your hotel is in the village, reverse the emphasis: settle in after the airport transfer, visit Carthage from your coastal base and reserve a separate day for central Tunis.",
       "best_time": "Choose dates and daily start times that suit outdoor walking. Exposed ruins and shaded city streets can feel different on the same day. Verify the opening arrangements of individual museums and monuments and keep a coastal outing flexible if weather is poor.",
       "planning_tips": "Ask which sites a ticket or tour includes and whether transport between them is covered. Check stairs, gradients and walking surfaces if mobility is a concern. Compare accommodation by neighborhood and practical access rather than a broad city label. Verify current official entry and travel guidance before making final arrangements.",
-      "last_researched": "2026-10-11",
+      "last_researched": "2026-11-06",
       "research_sources": [
         {
           "label": "Tunisian tourism board: Carthage and Sidi Bou Said",
           "url": "https://www.discovertunisia.com/en/discover/around-carthage-and-sidi-bou-said"
+        },
+        {
+          "label": "TRANSTU: main TGM stations",
+          "url": "https://www.transtu.tn/fr/faq"
+        },
+        {
+          "label": "TRANSTU: network map and route planner",
+          "url": "https://www.transtu.tn/fr/carte"
+        },
+        {
+          "label": "AMVPPC: Magon Quarter",
+          "url": "https://www.patrimoinedetunisie.com.tn/en/monuments/the-magon-quarter/overview/"
         }
       ]
     }
