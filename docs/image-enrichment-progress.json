@@ -1,70 +1,37 @@
 {
-  "updated_at": "2026-11-06",
+  "updated_at": "2026-11-07",
   "current_run": {
-    "id": "namibia-country-five-photo-context-enrichment",
-    "page_url": "https://trekafricaguide.com/countries/namibia/",
+    "id": "south-africa-country-five-photo-enrichment-2026-11-07",
+    "page_url": "https://trekafricaguide.com/countries/south-africa/",
     "page_type": "country",
-    "status": "published_live_confirmed",
+    "status": "awaiting_publication",
     "previous_photo_count": 2,
     "photo_count": 7,
     "new_photo_count": 5,
-    "checked_date": "2026-11-06",
-    "started_at": "2026-11-06 19:55 UTC (22:55 Africa/Kampala)",
-    "initial_live_verification": "Production country page returned HTTP 200 and was reviewed in full. It had two distinct dedicated Sossusvlei images and three related cards; both existing image credits are retained.",
-    "source_ledger": "docs/editorial-research/2026-11-06-namibia-country-image-enrichment.md",
-    "note": "Added five visually reviewed, exact-location images under Unsplash License: Fish River Canyon, Etosha elephant, Etosha springbok, Skeleton Coast shipwreck shore and Spitzkoppe. All require no public attribution. Source photo IDs and public-image SHA-256 scan found no duplicates. The existing Sossusvlei photos and their CC BY-SA credits remain unchanged. No factual copy or protected features changed.",
+    "checked_date": "2026-11-07",
+    "started_at": "2026-11-07 00:19 Africa/Kampala",
+    "initial_live_verification": "Production guide returned HTTP 200 and was reviewed in full. It had two dedicated images (Cape Town/Table Mountain and Kruger) and four related-card images, excluded from the own-page count. Existing credits are preserved.",
+    "source_ledger": "docs/editorial-research/2026-11-07-south-africa-country-photo-enrichment.md",
+    "note": "Added five visually reviewed, location-verified images under Unsplash License: Boulders Beach penguins, Mnweni Drakensberg, Stellenbosch vineyard, Kruger lion, and Cape Point coast. All permit use without public attribution. Source IDs and public-image SHA-256 comparisons found no duplicates. The existing two images and credits remain unchanged; no copy or protected feature changed.",
     "files": [
       "src/lib/photo-library.js",
       "public/photo-library.js",
-      "public/images/editorial/namibia-country-guide/",
-      "docs/editorial-research/2026-11-06-namibia-country-image-enrichment.md",
-      "docs/editorial-research/2026-11-06-live-image-inventory.csv",
+      "public/images/editorial/south-africa-country/",
+      "docs/editorial-research/2026-11-07-south-africa-country-photo-enrichment.md",
       "docs/image-enrichment-progress.json"
     ],
     "selected_images": [
-      "fish-river-canyon-joshua-kettle.jpg",
-      "etosha-elephant-marie-rouilly.jpg",
-      "etosha-springbok-wietse-jongsma.jpg",
-      "skeleton-coast-andrew-svk.jpg",
-      "spitzkoppe-rocks-nir-himi.jpg"
+      "boulders-beach-joshua-kettle.jpg",
+      "mnweni-mountain-arthur-hickinbotham.jpg",
+      "stellenbosch-vineyard-ben.jpg",
+      "kruger-lion-jonathan-gensicke.jpg",
+      "cape-point-coastline-martijn-vonk.jpg"
     ],
-    "next_action": "After live verification, continue with the next fresh live-site zero-image guide or new credible photo lead; do not reuse Sossusvlei insight sources.",
-    "report_status": "No second email sent per parent instruction; the earlier heartbeat receipt 1a1b26ba099ca22d covered only the preceding no-photo rights review.",
-    "mandatory_input_check": "Passed npm run check:build-inputs after syncing src/lib/photo-library.js to public/photo-library.js; checked 2026-11-06.",
-    "published_commit": "c4c89e5d0a8a6d6c9963af05796a63dedbe5ec54",
-    "pushed_at": "2026-11-06 20:02 UTC",
-    "netlify_deploy": "6aee3255d324953210104e27",
-    "live_verification": {
-      "checked_at": "2026-11-06 20:03 UTC",
-      "deploy_state": "ready",
-      "deployed_commit": "c4c89e5d0a8a6d6c9963af05796a63dedbe5ec54",
-      "page_http_status": 200,
-      "distinct_detail_image_count": 7,
-      "see_all_text": "See all 7 images",
-      "new_image_filenames_in_gallery": 5,
-      "old_attribution_credits_present": true,
-      "asset_http_statuses": [
-        200,
-        200,
-        200,
-        200,
-        200
-      ],
-      "asset_content_types": [
-        "image/jpeg",
-        "image/jpeg",
-        "image/jpeg",
-        "image/jpeg",
-        "image/jpeg"
-      ],
-      "asset_content_lengths": [
-        1009096,
-        892532,
-        464580,
-        418641,
-        1516677
-      ]
-    }
+    "next_action": "Push own collection commit, confirm exact automatic deployment and all five live assets, send one owner report including Namibia live result, then persist receipt.",
+    "mandatory_input_check": "Passed npm run check:build-inputs after syncing photo-library source to public mirror; checked 2026-11-07.",
+    "published_commit": null,
+    "netlify_deploy": null,
+    "email_id": null
   },
   "follow_ups": [
     {
@@ -106,6 +73,72 @@
     "resolved_at": "2026-10-21 13:16 Africa/Kampala"
   },
   "completed_runs": [
+    {
+      "id": "namibia-country-five-photo-context-enrichment",
+      "page_url": "https://trekafricaguide.com/countries/namibia/",
+      "page_type": "country",
+      "status": "published_live_confirmed",
+      "previous_photo_count": 2,
+      "photo_count": 7,
+      "new_photo_count": 5,
+      "checked_date": "2026-11-06",
+      "started_at": "2026-11-06 19:55 UTC (22:55 Africa/Kampala)",
+      "initial_live_verification": "Production country page returned HTTP 200 and was reviewed in full. It had two distinct dedicated Sossusvlei images and three related cards; both existing image credits are retained.",
+      "source_ledger": "docs/editorial-research/2026-11-06-namibia-country-image-enrichment.md",
+      "note": "Added five visually reviewed, exact-location images under Unsplash License: Fish River Canyon, Etosha elephant, Etosha springbok, Skeleton Coast shipwreck shore and Spitzkoppe. All require no public attribution. Source photo IDs and public-image SHA-256 scan found no duplicates. The existing Sossusvlei photos and their CC BY-SA credits remain unchanged. No factual copy or protected features changed.",
+      "files": [
+        "src/lib/photo-library.js",
+        "public/photo-library.js",
+        "public/images/editorial/namibia-country-guide/",
+        "docs/editorial-research/2026-11-06-namibia-country-image-enrichment.md",
+        "docs/editorial-research/2026-11-06-live-image-inventory.csv",
+        "docs/image-enrichment-progress.json"
+      ],
+      "selected_images": [
+        "fish-river-canyon-joshua-kettle.jpg",
+        "etosha-elephant-marie-rouilly.jpg",
+        "etosha-springbok-wietse-jongsma.jpg",
+        "skeleton-coast-andrew-svk.jpg",
+        "spitzkoppe-rocks-nir-himi.jpg"
+      ],
+      "next_action": "After live verification, continue with the next fresh live-site zero-image guide or new credible photo lead; do not reuse Sossusvlei insight sources.",
+      "report_status": "No second email sent per parent instruction; the earlier heartbeat receipt 1a1b26ba099ca22d covered only the preceding no-photo rights review.",
+      "mandatory_input_check": "Passed npm run check:build-inputs after syncing src/lib/photo-library.js to public/photo-library.js; checked 2026-11-06.",
+      "published_commit": "c4c89e5d0a8a6d6c9963af05796a63dedbe5ec54",
+      "pushed_at": "2026-11-06 20:02 UTC",
+      "netlify_deploy": "6aee3255d324953210104e27",
+      "live_verification": {
+        "checked_at": "2026-11-06 20:03 UTC",
+        "deploy_state": "ready",
+        "deployed_commit": "c4c89e5d0a8a6d6c9963af05796a63dedbe5ec54",
+        "page_http_status": 200,
+        "distinct_detail_image_count": 7,
+        "see_all_text": "See all 7 images",
+        "new_image_filenames_in_gallery": 5,
+        "old_attribution_credits_present": true,
+        "asset_http_statuses": [
+          200,
+          200,
+          200,
+          200,
+          200
+        ],
+        "asset_content_types": [
+          "image/jpeg",
+          "image/jpeg",
+          "image/jpeg",
+          "image/jpeg",
+          "image/jpeg"
+        ],
+        "asset_content_lengths": [
+          1009096,
+          892532,
+          464580,
+          418641,
+          1516677
+        ]
+      }
+    },
     {
       "id": "senegal-country-six-image-enrichment",
       "page_url": "https://trekafricaguide.com/countries/senegal/",
