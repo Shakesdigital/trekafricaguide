@@ -4,7 +4,7 @@
     "id": "great-zimbabwe-guided-visit-six-image-enrichment",
     "page_url": "https://trekafricaguide.com/activities/great-zimbabwe-guided-monument-visit/",
     "page_type": "activity",
-    "status": "local_assets_assigned_pending_publication",
+    "status": "published_live_confirmed",
     "previous_photo_count": 0,
     "photo_count": 6,
     "new_photo_count": 6,
@@ -28,8 +28,45 @@
       "conical-tower-1906-maciver.jpg",
       "great-zimbabwe-visitors-1983-ulamm.jpg"
     ],
-    "next_action": "Verify the activity gallery and all six JPEGs on production; send one source-free private update and record the email receipt.",
-    "email_id": null
+    "next_action": "Select another underfilled non-country guide from the live image inventory and verify exact-location no-public-attribution source availability before work.",
+    "email_id": "1a1af941311e7c4d",
+    "published_commit": "2872e9093478319ad91261bfbee56393e6df4c66",
+    "pushed_at": "2026-11-06 09:32 Africa/Kampala",
+    "netlify_deploy": "6aed755f6eea9706eb24eb1b",
+    "live_verification": {
+      "checked_at": "2026-11-06 09:38 Africa/Kampala",
+      "deploy_state": "ready",
+      "deployed_commit": "2872e9093478319ad91261bfbee56393e6df4c66",
+      "page_http_status": 200,
+      "gallery_count": 6,
+      "see_all_text": "See all 6 images",
+      "all_new_image_filenames_in_full_gallery": true,
+      "asset_http_statuses": [
+        200,
+        200,
+        200,
+        200,
+        200,
+        200
+      ],
+      "asset_content_types": [
+        "image/jpeg",
+        "image/jpeg",
+        "image/jpeg",
+        "image/jpeg",
+        "image/jpeg",
+        "image/jpeg"
+      ],
+      "asset_content_lengths": [
+        722681,
+        165946,
+        165875,
+        909520,
+        125459,
+        817149
+      ]
+    },
+    "report_sent_at": "2026-11-06 09:38 Africa/Kampala"
   },
   "follow_ups": [
     {
