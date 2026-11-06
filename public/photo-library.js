@@ -9040,12 +9040,12 @@ export const photoLibrary = {
         "replaces": [],
         "gallery": [
           "/images/stock/destinations/cape-town.jpg",
-        "/images/stock/destinations/kruger-national-park.jpg",
-        "/images/editorial/south-africa-country/boulders-beach-joshua-kettle.jpg",
-        "/images/editorial/south-africa-country/mnweni-mountain-arthur-hickinbotham.jpg",
-        "/images/editorial/south-africa-country/stellenbosch-vineyard-ben.jpg",
-        "/images/editorial/south-africa-country/kruger-lion-jonathan-gensicke.jpg",
-        "/images/editorial/south-africa-country/cape-point-coastline-martijn-vonk.jpg"
+          "/images/stock/destinations/kruger-national-park.jpg",
+          "/images/editorial/south-africa-country/boulders-beach-joshua-kettle.jpg",
+          "/images/editorial/south-africa-country/mnweni-mountain-arthur-hickinbotham.jpg",
+          "/images/editorial/south-africa-country/stellenbosch-vineyard-ben.jpg",
+          "/images/editorial/south-africa-country/kruger-lion-jonathan-gensicke.jpg",
+          "/images/editorial/south-africa-country/cape-point-coastline-martijn-vonk.jpg"
         ]
       },
       "tanzania": {
