@@ -4,7 +4,7 @@
     "id": "egypt-country-five-image-enrichment",
     "page_url": "https://trekafricaguide.com/countries/egypt/",
     "page_type": "country",
-    "status": "local_assets_assigned_pending_publication",
+    "status": "published_live_confirmed",
     "previous_photo_count": 2,
     "photo_count": 7,
     "new_photo_count": 5,
@@ -27,8 +27,42 @@
       "khan-el-khalili-alley-thales-botelho.jpg",
       "cairo-nile-skyline-mohamed-sabry.jpg"
     ],
-    "next_action": "Confirm this exact Egypt gallery and all five JPEG assets on the deployed production site; send the source-free owner receipt and record its ID.",
-    "email_id": null
+    "next_action": "Select the next genuinely underfilled country guide from the live inventory; avoid duplicate Cairo/Giza subjects and preserve all existing required credits.",
+    "email_id": "1a1aef794fe040ca",
+    "published_commit": "23ff2ccc0078c567512250c2b138061065c6e230",
+    "pushed_at": "2026-11-06 06:44 Africa/Kampala",
+    "netlify_deploy": "6aed4d458f87f998cad2ea83",
+    "live_verification": {
+      "checked_at": "2026-11-06 06:46 Africa/Kampala",
+      "deploy_state": "ready",
+      "deployed_commit": "23ff2ccc0078c567512250c2b138061065c6e230",
+      "page_http_status": 200,
+      "gallery_count": 7,
+      "see_all_text": "See all 7 images",
+      "all_new_image_filenames_in_full_gallery": true,
+      "asset_http_statuses": [
+        200,
+        200,
+        200,
+        200,
+        200
+      ],
+      "asset_content_types": [
+        "image/jpeg",
+        "image/jpeg",
+        "image/jpeg",
+        "image/jpeg",
+        "image/jpeg"
+      ],
+      "asset_content_lengths": [
+        243773,
+        336639,
+        232488,
+        452514,
+        312307
+      ]
+    },
+    "report_sent_at": "2026-11-06 06:47 Africa/Kampala"
   },
   "follow_ups": [
     {
