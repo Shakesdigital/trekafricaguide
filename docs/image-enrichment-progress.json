@@ -1,65 +1,38 @@
 {
   "updated_at": "2026-11-07",
   "current_run": {
-    "id": "volcanoes-national-park-attraction-four-photo-enrichment",
-    "page_url": "https://trekafricaguide.com/attractions/volcanoes-national-park/",
+    "id": "great-zimbabwe-attraction-seven-photo-enrichment",
+    "page_url": "https://trekafricaguide.com/attractions/great-zimbabwe-national-monument/",
     "page_type": "attraction",
-    "status": "published_live_confirmed",
-    "previous_photo_count": 2,
-    "photo_count": 6,
-    "new_photo_count": 4,
+    "status": "pushed_awaiting_live_confirmation",
+    "previous_photo_count": 0,
+    "photo_count": 7,
+    "new_photo_count": 7,
     "checked_date": "2026-11-07",
-    "started_at": "2026-11-07 00:44 Africa/Kampala",
-    "initial_live_verification": "Production attraction page returned HTTP 200 and was reviewed in full before sourcing: volcanic highland setting, gorilla and golden-monkey tracking pattern, Kinigi briefing logistics, Musanze bases, transfers and the three-day outline. Two dedicated images existed (Nina R CC BY 2.0 and Charles J. Sharp CC BY-SA 4.0); hero and both credits unchanged.",
-    "source_ledger": "docs/editorial-research/2026-11-07-volcanoes-national-park-attraction-photo-enrichment.md",
-    "note": "Added four visually reviewed exact-location photographs requiring no public attribution: the Musanze volcanic skyline (Unsplash), Mount Bisoke, Mount Karisimbi from Kinigi and Kinigi potato-sack farmland (Pexels). Source page IDs and downloaded SHA-256 hashes were checked against the whole library and all public images; no duplicates; excluded candidates (Bisate Lodge framing, country-level-only Rwanda tags, paid Unsplash+ and non-Rwanda volcano results) are recorded in the ledger. This is a six-photo partial; specific remaining subjects are documented. No copy, tracking, booking, canonical or layout change.",
+    "started_at": "2026-11-07 01:16 Africa/Kampala",
+    "initial_live_verification": "Reopened after the owner extended image rights to CC/credit-bearing free stock images. The monument overview had zero dedicated photos; the earlier no-attribution rights exhaustion no longer binds. Page review will follow production confirmation (fresh gallery).",
+    "source_ledger": "docs/editorial-research/2026-11-07-great-zimbabwe-attraction-photo-enrichment.md",
+    "note": "Seven visually inspected Commons photographs added as a new gallery: Great Enclosure wall, Hill Complex walls, curved passage, Conical Tower panorama (hero), enclosure seen from the hillside, Hill Complex dome edge and the kopje context view. All credit-bearing CC licences (BY/BY-SA); credits render in the existing gallery block. sha1 values recorded; source IDs unique in the library; no guide copy or protected feature changed.",
     "files": [
       "src/lib/photo-library.js",
       "public/photo-library.js",
-      "public/images/editorial/volcanoes-national-park-attraction/",
-      "docs/editorial-research/2026-11-07-volcanoes-national-park-attraction-photo-enrichment.md",
+      "docs/editorial-research/2026-11-07-great-zimbabwe-attraction-photo-enrichment.md",
       "docs/image-enrichment-progress.json"
     ],
     "selected_images": [
-      "musanze-volcano-peak-tamrat-touloumon.jpg",
-      "bisoke-virunga-view-muganineza-arsene.jpg",
-      "kinigi-karisimbi-lone-tree-muganineza-arsene.jpg",
-      "kinigi-potato-sacks-mountains-muganineza-arsene.jpg"
+      "Wall_of_the_great_enclosure,_Great_Zimbabwe.JPG",
+      "Hill_Complex_-_Great_Zimbabwe_(2).jpg",
+      "Curved_passageways_circling_the_Great_Enclosure_Great_Zimbabwe.jpg",
+      "Conical_Tower_-_Great_Enclosure_V_(33736897638).jpg",
+      "Great-Zimbabwe-still-standing_strong.jpg",
+      "The_Great_Zimbabwe_Hill_Complex.jpg",
+      "Groß_Simbabwe,_Hügelsiedlung.JPG"
     ],
-    "next_action": "Rotate to the next underfilled page from a refreshed live inventory; golden-monkey activity page can reopen only if a source page locates the animals to Volcanoes NP with no-public-attribution rights (Pexels leads existed but lacked park-specific location evidence this run).",
+    "next_action": "Confirm the new gallery and its credits on production after the deploy build, then move ownership of this collection to completed_runs; follow with more re-opened blocked collections (e.g. Jollyboys Backpackers, golden-monkey subjects) under the new rights decision.",
     "mandatory_input_check": "Passed npm run check:build-inputs after node scripts/sync-photo-library.mjs; checked 2026-11-07.",
-    "report_status": "NOT SENT: no connected Gmail or Gmail send API available in the OpenCode harness (the Codex Gmail connector credentials are not accessible here). Owner report content prepared; send must be completed by the next able run. Honest non-send recorded.",
-    "email_id": null,
-    "published_commit": "d77fece",
-    "pushed_at": "2026-11-07 01:01 Africa/Kampala",
-    "live_verification": {
-      "checked_at": "2026-11-07 01:04-01:12 Africa/Kampala",
-      "deployment": "Deploy confirmed by production page-content polling; deploy ID not retrievable in this harness.",
-      "deployed_commit": "d77fece",
-      "page_http_status": 200,
-      "see_all_text": "See all 6 images",
-      "distinct_own_image_count": 6,
-      "all_new_image_filenames_in_full_gallery": true,
-      "asset_http_statuses": [
-        200,
-        200,
-        200,
-        200
-      ],
-      "asset_content_types": [
-        "image/jpeg",
-        "image/jpeg",
-        "image/jpeg",
-        "image/jpeg"
-      ],
-      "asset_content_lengths": [
-        405525,
-        996810,
-        1009642,
-        719950
-      ],
-      "note": "All four byte counts match the committed local files exactly. Nyungwe detail page still returned 404 at the same check time; that content belongs to the separate editorial run."
-    }
+    "published_commit": null,
+    "pushed_at": null,
+    "report_status": "NOT SENT: no connected Gmail/API in this harness; owner receives this progress in chat instead."
   },
   "follow_ups": [
     {
@@ -2633,6 +2606,13 @@
       "observed_at": "2026-11-07 00:47 Africa/Kampala",
       "observation": "Commit 6eceae8 published /attractions/nyungwe-national-park in overrides, but production returned 404 for the detail URL and the Rwanda country page did not link it while deploy for 2b58f65 served the South Africa update. Follow-up commit 2b58f65 (\"Sync photo library after Nyungwe rebase\") by the editorial run suggests active repair; rechecked after the next deploy.",
       "action": "Reported to owner via chat. No editorial files touched by the image run."
+    }
+  ],
+  "owner_decisions": [
+    {
+      "decided_on": "2026-11-07",
+      "source": "Owner instruction in chat: search all free stock sites for images that specifically depict these areas; Creative Commons images that require credit may be used (\"they don't necessarily have to have photo credit as long as it is ... creative commons usage that specifically depicts these areas\").",
+      "effect": "Reopens previously attribution-blocked collections. Facts: discreet legally required credits stay visible via the existing gallery credit block; provenance ledgers remain internal per the 23 October reporting preference; the Freddy/owner decision overruling the no-public-attribution operating rule is the stated reason; existing attribution-required photos stay as-is."
     }
   ]
 }
