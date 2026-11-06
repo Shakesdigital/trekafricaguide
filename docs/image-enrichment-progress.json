@@ -4,7 +4,7 @@
     "id": "senegal-country-six-image-enrichment",
     "page_url": "https://trekafricaguide.com/countries/senegal/",
     "page_type": "country",
-    "status": "local_assets_assigned_pending_publication",
+    "status": "published_live_confirmed",
     "previous_photo_count": 1,
     "photo_count": 7,
     "new_photo_count": 6,
@@ -28,8 +28,45 @@
       "goree-harbor-building-e-diop.jpg",
       "goree-fort-boat-dodji-abah-dakou.jpg"
     ],
-    "next_action": "Confirm the seven-photo Senegal country gallery and all six JPEGs on production, then send the single source-free owner report and checkpoint its receipt.",
-    "email_id": null
+    "next_action": "Choose a genuinely underfilled country guide from the live inventory; Morocco is the next suggested country candidate, subject to its prior image research ledger.",
+    "email_id": "1a1af2e512150dda",
+    "published_commit": "2dc650c0c49a5f6ac8f1728a450bd85caa4b7a65",
+    "pushed_at": "2026-11-06 07:43 Africa/Kampala",
+    "netlify_deploy": "6aed5b1f14d2166acd35a245",
+    "live_verification": {
+      "checked_at": "2026-11-06 07:46 Africa/Kampala",
+      "deploy_state": "ready",
+      "deployed_commit": "2dc650c0c49a5f6ac8f1728a450bd85caa4b7a65",
+      "page_http_status": 200,
+      "gallery_count": 7,
+      "see_all_text": "See all 7 images",
+      "all_new_image_filenames_in_full_gallery": true,
+      "asset_http_statuses": [
+        200,
+        200,
+        200,
+        200,
+        200,
+        200
+      ],
+      "asset_content_types": [
+        "image/jpeg",
+        "image/jpeg",
+        "image/jpeg",
+        "image/jpeg",
+        "image/jpeg",
+        "image/jpeg"
+      ],
+      "asset_content_lengths": [
+        207777,
+        263839,
+        440227,
+        220858,
+        473314,
+        239785
+      ]
+    },
+    "report_sent_at": "2026-11-06 07:47 Africa/Kampala"
   },
   "follow_ups": [
     {
