@@ -769,5 +769,15 @@
     "email_id": "1a1aab12a79d95ed",
     "email_sent_at": "2026-11-05T10:52+03:00",
     "next_category": "activities"
+  },
+  "cms_first_pending_2026_11_06": {
+    "last_completed_publication": "fort-portal",
+    "current_category": "travel_insights",
+    "next_research_category": "accommodations",
+    "pending": [
+      "docs/editorial-research/2026-11-06-tunis-carthage-route-cms-draft.md",
+      "docs/editorial-research/2026-11-06-kibale-overnight-cms-draft.md"
+    ],
+    "checkpoint": "Both documents at revision 2; connected CMS role cannot save published pages. Kibale and Fort Portal verified on production. Ready for administrator save, then Git content sync and production confirmation. Zero images added."
   }
 }
