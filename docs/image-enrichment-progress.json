@@ -1,68 +1,35 @@
 {
   "updated_at": "2026-11-06",
   "current_run": {
-    "id": "egypt-country-five-image-enrichment",
-    "page_url": "https://trekafricaguide.com/countries/egypt/",
+    "id": "senegal-country-six-image-enrichment",
+    "page_url": "https://trekafricaguide.com/countries/senegal/",
     "page_type": "country",
-    "status": "published_live_confirmed",
-    "previous_photo_count": 2,
+    "status": "local_assets_assigned_pending_publication",
+    "previous_photo_count": 1,
     "photo_count": 7,
-    "new_photo_count": 5,
+    "new_photo_count": 6,
     "checked_date": "2026-11-06",
-    "started_at": "2026-11-06 16:30 Africa/Kampala",
-    "initial_live_verification": "Live inventory and page show two assigned gallery images, both Cairo/Giza pyramid panoramas. The full Egypt guide was reviewed; no additional inline gallery hosts or default image assignment were omitted.",
-    "source_ledger": "docs/editorial-research/2026-11-06-egypt-country-photo-enrichment.md",
-    "note": "Five exact Cairo/Giza-context Unsplash License photos were visually reviewed, source-page and SHA-256 deduplicated against the photo library, and assigned. Both existing CC BY-SA pyramid images and their credits remain unchanged. New subjects: Tahrir Egyptian Museum exterior, Grand Egyptian Museum relief, Muhammad Ali Mosque at the Citadel, Khan el-Khalili alley, and Nile/Cairo skyline. No guide copy or protected feature changed.",
+    "started_at": "2026-11-06 07:24 Africa/Kampala",
+    "initial_live_verification": "Live inventory and full rendered guide reviewed. Gallery had one own image, the Sine-Saloum delta nesting-site photograph with CC BY-SA 4.0 credit; no missed inline images or extra defaults.",
+    "source_ledger": "docs/editorial-research/2026-11-06-senegal-country-photo-enrichment.md",
+    "note": "Six exact-context Unsplash License photographs were visually reviewed and globally source/hash deduplicated: Dakar Renaissance Monument sunset, Dakar shoreline, Lac Rose salt boats, Saint-Louis pirogue harbor, Gorée harbor building and Gorée Fort from the water. Existing credited Sine-Saloum delta photo and credit unchanged. No guide copy or protected feature changed.",
     "files": [
       "src/lib/photo-library.js",
       "public/photo-library.js",
-      "public/images/editorial/egypt-country/",
-      "docs/editorial-research/2026-11-06-egypt-country-photo-enrichment.md",
+      "public/images/editorial/senegal-country/",
+      "docs/editorial-research/2026-11-06-senegal-country-photo-enrichment.md",
       "docs/image-enrichment-progress.json"
     ],
     "selected_images": [
-      "egyptian-museum-tahrir-dilip-poddar.jpg",
-      "grand-egyptian-museum-hieroglyphs-suzi-kim.jpg",
-      "muhammad-ali-mosque-martijn-vonk.jpg",
-      "khan-el-khalili-alley-thales-botelho.jpg",
-      "cairo-nile-skyline-mohamed-sabry.jpg"
+      "dakar-renaissance-sunset-bamby-diagne.jpg",
+      "dakar-coastline-mouhamadou-sall.jpg",
+      "lac-rose-aerial-curioso-photography.jpg",
+      "saint-louis-pirogue-harbor-baptiste-riethmann.jpg",
+      "goree-harbor-building-e-diop.jpg",
+      "goree-fort-boat-dodji-abah-dakou.jpg"
     ],
-    "next_action": "Select the next genuinely underfilled country guide from the live inventory; avoid duplicate Cairo/Giza subjects and preserve all existing required credits.",
-    "email_id": "1a1aef794fe040ca",
-    "published_commit": "23ff2ccc0078c567512250c2b138061065c6e230",
-    "pushed_at": "2026-11-06 06:44 Africa/Kampala",
-    "netlify_deploy": "6aed4d458f87f998cad2ea83",
-    "live_verification": {
-      "checked_at": "2026-11-06 06:46 Africa/Kampala",
-      "deploy_state": "ready",
-      "deployed_commit": "23ff2ccc0078c567512250c2b138061065c6e230",
-      "page_http_status": 200,
-      "gallery_count": 7,
-      "see_all_text": "See all 7 images",
-      "all_new_image_filenames_in_full_gallery": true,
-      "asset_http_statuses": [
-        200,
-        200,
-        200,
-        200,
-        200
-      ],
-      "asset_content_types": [
-        "image/jpeg",
-        "image/jpeg",
-        "image/jpeg",
-        "image/jpeg",
-        "image/jpeg"
-      ],
-      "asset_content_lengths": [
-        243773,
-        336639,
-        232488,
-        452514,
-        312307
-      ]
-    },
-    "report_sent_at": "2026-11-06 06:47 Africa/Kampala"
+    "next_action": "Confirm the seven-photo Senegal country gallery and all six JPEGs on production, then send the single source-free owner report and checkpoint its receipt.",
+    "email_id": null
   },
   "follow_ups": [
     {
@@ -104,6 +71,70 @@
     "resolved_at": "2026-10-21 13:16 Africa/Kampala"
   },
   "completed_runs": [
+    {
+      "id": "egypt-country-five-image-enrichment",
+      "page_url": "https://trekafricaguide.com/countries/egypt/",
+      "page_type": "country",
+      "status": "published_live_confirmed",
+      "previous_photo_count": 2,
+      "photo_count": 7,
+      "new_photo_count": 5,
+      "checked_date": "2026-11-06",
+      "started_at": "2026-11-06 16:30 Africa/Kampala",
+      "initial_live_verification": "Live inventory and page show two assigned gallery images, both Cairo/Giza pyramid panoramas. The full Egypt guide was reviewed; no additional inline gallery hosts or default image assignment were omitted.",
+      "source_ledger": "docs/editorial-research/2026-11-06-egypt-country-photo-enrichment.md",
+      "note": "Five exact Cairo/Giza-context Unsplash License photos were visually reviewed, source-page and SHA-256 deduplicated against the photo library, and assigned. Both existing CC BY-SA pyramid images and their credits remain unchanged. New subjects: Tahrir Egyptian Museum exterior, Grand Egyptian Museum relief, Muhammad Ali Mosque at the Citadel, Khan el-Khalili alley, and Nile/Cairo skyline. No guide copy or protected feature changed.",
+      "files": [
+        "src/lib/photo-library.js",
+        "public/photo-library.js",
+        "public/images/editorial/egypt-country/",
+        "docs/editorial-research/2026-11-06-egypt-country-photo-enrichment.md",
+        "docs/image-enrichment-progress.json"
+      ],
+      "selected_images": [
+        "egyptian-museum-tahrir-dilip-poddar.jpg",
+        "grand-egyptian-museum-hieroglyphs-suzi-kim.jpg",
+        "muhammad-ali-mosque-martijn-vonk.jpg",
+        "khan-el-khalili-alley-thales-botelho.jpg",
+        "cairo-nile-skyline-mohamed-sabry.jpg"
+      ],
+      "next_action": "Select the next genuinely underfilled country guide from the live inventory; avoid duplicate Cairo/Giza subjects and preserve all existing required credits.",
+      "email_id": "1a1aef794fe040ca",
+      "published_commit": "23ff2ccc0078c567512250c2b138061065c6e230",
+      "pushed_at": "2026-11-06 06:44 Africa/Kampala",
+      "netlify_deploy": "6aed4d458f87f998cad2ea83",
+      "live_verification": {
+        "checked_at": "2026-11-06 06:46 Africa/Kampala",
+        "deploy_state": "ready",
+        "deployed_commit": "23ff2ccc0078c567512250c2b138061065c6e230",
+        "page_http_status": 200,
+        "gallery_count": 7,
+        "see_all_text": "See all 7 images",
+        "all_new_image_filenames_in_full_gallery": true,
+        "asset_http_statuses": [
+          200,
+          200,
+          200,
+          200,
+          200
+        ],
+        "asset_content_types": [
+          "image/jpeg",
+          "image/jpeg",
+          "image/jpeg",
+          "image/jpeg",
+          "image/jpeg"
+        ],
+        "asset_content_lengths": [
+          243773,
+          336639,
+          232488,
+          452514,
+          312307
+        ]
+      },
+      "report_sent_at": "2026-11-06 06:47 Africa/Kampala"
+    },
     {
       "id": "fort-portal-local-destination-five-image-partial-enrichment",
       "page_url": "https://trekafricaguide.com/countries/uganda/fort-portal/",
