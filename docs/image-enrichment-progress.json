@@ -1,48 +1,34 @@
 {
   "updated_at": "2026-11-06",
   "current_run": {
-    "id": "volcanoes-golden-monkey-sabyinyo-context-partial",
-    "page_url": "https://trekafricaguide.com/activities/volcanoes-golden-monkey-trekking/",
-    "page_type": "activity",
-    "status": "published_live_confirmed_partial",
+    "id": "terres-touareg-exact-property-no-eligible-photo-review",
+    "page_url": "https://trekafricaguide.com/accommodations/terres-touareg-guest-house/",
+    "page_type": "accommodation",
+    "status": "reviewed_no_eligible_photo",
     "previous_photo_count": 0,
-    "photo_count": 1,
-    "new_photo_count": 1,
+    "photo_count": 0,
+    "new_photo_count": 0,
     "checked_date": "2026-11-06",
-    "started_at": "2026-11-06 17:19 UTC (20:19 Africa/Kampala)",
-    "initial_live_verification": "Production activity page returned HTTP 200 and was reviewed in full. Its own gallery was empty; the single live image was a related mountain-gorilla card and excluded from this page count.",
-    "source_ledger": "docs/editorial-research/2026-11-06-volcanoes-golden-monkey-photo-enrichment.md",
-    "note": "Added one visually reviewed Commons CC0 1.0 Mount Sabyinyo/Volcanoes National Park setting image. It is directly relevant to the guide’s named Sabyinyo bamboo-zone group, but shows neither monkeys nor a trek. The golden-monkey photo requiring CC BY-SA and generic Rwanda portraits without exact park evidence were excluded. Full public-image SHA-256 and photo-library source URL checks found no duplicates. Kinigi, bamboo-route, monkey and trek-participation subjects remain specific documented gaps. Existing credits and all page copy remain unchanged.",
+    "started_at": "2026-11-06 19:44 UTC (22:44 Africa/Kampala)",
+    "initial_live_verification": "Production property page returned HTTP 200 and was reviewed in full. It has no dedicated property images; the non-logo image is a regional Djanet card and was excluded.",
+    "source_ledger": "docs/editorial-research/2026-11-06-terres-touareg-exact-property-photo-review.md",
+    "note": "A bounded exact-property review found only operator-owned imagery without a verified republication license and third-party/management-supplied pictures without file-level no-public-attribution reuse rights. No image was downloaded or assigned. The page remains neutral at zero exact-property photos. Independently corrected the stale Great Zimbabwe guided-visit inventory row to six dedicated photos and two related cards after live HTML inspection; its separate monument attraction remains zero and its prior exhausted rights review was not repeated.",
     "files": [
-      "src/lib/photo-library.js",
-      "public/photo-library.js",
-      "public/images/editorial/volcanoes-golden-monkey-trekking/sabyinyo-volcanoes-national-park-happy-gentille.jpg",
-      "docs/editorial-research/2026-11-06-volcanoes-golden-monkey-photo-enrichment.md",
+      "docs/editorial-research/2026-11-06-terres-touareg-exact-property-photo-review.md",
       "docs/editorial-research/2026-11-06-live-image-inventory.csv",
       "docs/image-enrichment-progress.json"
     ],
-    "selected_images": [
-      "sabyinyo-volcanoes-national-park-happy-gentille.jpg"
-    ],
-    "next_action": "After production confirms the partial image, continue with a fresh live-page candidate. Reopen Golden Monkey only for a credible exact-location no-public-attribution photo lead or owner-provided licensed original.",
-    "mandatory_input_check": "Passed npm run check:build-inputs after syncing the source library to the public mirror; checked 2026-11-06.",
-    "published_commit": "e8d063b48d43556c741d2f18fc0d54ec6533bcf8",
-    "pushed_at": "2026-11-06 17:38 UTC (20:38 Africa/Kampala)",
-    "netlify_deploy": "6aee1097539c3994652ea9ba",
+    "selected_images": [],
+    "next_action": "Review The Place Resort, Tokeh as the next unreviewed exact-property candidate. Reopen Terres Touareg only for owner originals, written permission, or a specific exact-property no-public-attribution photo lead.",
     "live_verification": {
-      "checked_at": "2026-11-06 17:40 UTC (20:40 Africa/Kampala)",
-      "deploy_state": "ready",
-      "deployed_commit": "e8d063b48d43556c741d2f18fc0d54ec6533bcf8",
+      "checked_at": "2026-11-06 19:49 UTC (22:49 Africa/Kampala)",
       "page_http_status": 200,
-      "distinct_dedicated_image_count": 1,
-      "new_image_present": true,
-      "asset_http_status": 200,
-      "asset_content_type": "image/jpeg",
-      "asset_content_length": 54480,
-      "note": "Live page HTML contains the same hero/gallery path twice as presentation, but it resolves to one distinct image. The related gorilla card is not part of the dedicated count."
+      "distinct_property_image_count": 0,
+      "regional_card_image_count": 1,
+      "new_asset": null
     },
-    "email_id": "1a1b1f29f2fa1822",
-    "report_sent_at": "2026-11-06 17:40 UTC (20:40 Africa/Kampala)"
+    "email_id": "1a1b26ba099ca22d",
+    "report_sent_at": "2026-11-06 19:51 UTC (22:51 Africa/Kampala)"
   },
   "follow_ups": [
     {
@@ -2457,6 +2443,50 @@
       },
       "email_id": "1a1b0dbbe1d1bec0",
       "report_sent_at": "2026-11-06 15:34 Africa/Kampala"
+    },
+    {
+      "id": "volcanoes-golden-monkey-sabyinyo-context-partial",
+      "page_url": "https://trekafricaguide.com/activities/volcanoes-golden-monkey-trekking/",
+      "page_type": "activity",
+      "status": "published_live_confirmed_partial",
+      "previous_photo_count": 0,
+      "photo_count": 1,
+      "new_photo_count": 1,
+      "checked_date": "2026-11-06",
+      "started_at": "2026-11-06 17:19 UTC (20:19 Africa/Kampala)",
+      "initial_live_verification": "Production activity page returned HTTP 200 and was reviewed in full. Its own gallery was empty; the single live image was a related mountain-gorilla card and excluded from this page count.",
+      "source_ledger": "docs/editorial-research/2026-11-06-volcanoes-golden-monkey-photo-enrichment.md",
+      "note": "Added one visually reviewed Commons CC0 1.0 Mount Sabyinyo/Volcanoes National Park setting image. It is directly relevant to the guide’s named Sabyinyo bamboo-zone group, but shows neither monkeys nor a trek. The golden-monkey photo requiring CC BY-SA and generic Rwanda portraits without exact park evidence were excluded. Full public-image SHA-256 and photo-library source URL checks found no duplicates. Kinigi, bamboo-route, monkey and trek-participation subjects remain specific documented gaps. Existing credits and all page copy remain unchanged.",
+      "files": [
+        "src/lib/photo-library.js",
+        "public/photo-library.js",
+        "public/images/editorial/volcanoes-golden-monkey-trekking/sabyinyo-volcanoes-national-park-happy-gentille.jpg",
+        "docs/editorial-research/2026-11-06-volcanoes-golden-monkey-photo-enrichment.md",
+        "docs/editorial-research/2026-11-06-live-image-inventory.csv",
+        "docs/image-enrichment-progress.json"
+      ],
+      "selected_images": [
+        "sabyinyo-volcanoes-national-park-happy-gentille.jpg"
+      ],
+      "next_action": "After production confirms the partial image, continue with a fresh live-page candidate. Reopen Golden Monkey only for a credible exact-location no-public-attribution photo lead or owner-provided licensed original.",
+      "mandatory_input_check": "Passed npm run check:build-inputs after syncing the source library to the public mirror; checked 2026-11-06.",
+      "published_commit": "e8d063b48d43556c741d2f18fc0d54ec6533bcf8",
+      "pushed_at": "2026-11-06 17:38 UTC (20:38 Africa/Kampala)",
+      "netlify_deploy": "6aee1097539c3994652ea9ba",
+      "live_verification": {
+        "checked_at": "2026-11-06 17:40 UTC (20:40 Africa/Kampala)",
+        "deploy_state": "ready",
+        "deployed_commit": "e8d063b48d43556c741d2f18fc0d54ec6533bcf8",
+        "page_http_status": 200,
+        "distinct_dedicated_image_count": 1,
+        "new_image_present": true,
+        "asset_http_status": 200,
+        "asset_content_type": "image/jpeg",
+        "asset_content_length": 54480,
+        "note": "Live page HTML contains the same hero/gallery path twice as presentation, but it resolves to one distinct image. The related gorilla card is not part of the dedicated count."
+      },
+      "email_id": "1a1b1f29f2fa1822",
+      "report_sent_at": "2026-11-06 17:40 UTC (20:40 Africa/Kampala)"
     }
   ]
 }
