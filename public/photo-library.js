@@ -3,6 +3,50 @@
 export const photoLibrary = {
   "updated_at": "2026-11-06",
   "images": {
+    "/images/editorial/tunis-carthage-route/antonine-baths-waterfront-jona-lendering.jpg": {
+      "slug": "antonine-baths-waterfront-jona-lendering",
+      "local_path": "/images/editorial/tunis-carthage-route/antonine-baths-waterfront-jona-lendering.jpg",
+      "source_page": "https://www.livius.org/pictures/tunisia/carthage/carthage-antonine-baths/carthage-antonine-baths-view-1/",
+      "source_revision": "Livius image page modified 2020-08-05; checked 2026-11-06",
+      "creator": "Jona Lendering",
+      "license": "CC0 1.0 Universal",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "source_published_at": null,
+      "captured_at": null,
+      "sha256": "0d336b119647bb53f8ae6c1adea6d2f40a1c8f5a1b5c2d1736eda56cc80dd92c",
+      "exact_subject": true,
+      "subject": "The Antonine Baths ruins at Carthage beside the coast",
+      "alt": "Ruins of the Antonine Baths extend along the coast at Carthage.",
+      "property": false,
+      "kind": "photograph",
+      "requires_attribution": false,
+      "changes": "Used the publicly accessible Livius image file as served; no edits.",
+      "checked_at": "2026-11-06",
+      "exact_subject_evidence": "The Livius photo page names the Antonine Baths at Carthage and labels the image as a view of the Baths. Visual inspection confirms low archaeological ruins and surviving columns beside the sea. The page gives a historical site date of about 150 CE, not a photograph date, and does not state when the photo was captured.",
+      "reuse_note": "The individual image page states CC0 1.0 Universal, which requires no public attribution. Creator and source version remain recorded internally. This image illustrates the named site and does not imply a tour, guide or included visit."
+    },
+    "/images/editorial/tunis-carthage-route/magon-punic-house-foundations-jona-lendering.jpg": {
+      "slug": "magon-punic-house-foundations-jona-lendering",
+      "local_path": "/images/editorial/tunis-carthage-route/magon-punic-house-foundations-jona-lendering.jpg",
+      "source_page": "https://www.livius.org/pictures/tunisia/carthage/carthage-quartier-de-magon/carthage-quartier-de-magon-house-a/",
+      "source_revision": "Livius image page modified 2020-09-24; checked 2026-11-06",
+      "creator": "Jona Lendering",
+      "license": "CC0 1.0 Universal",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "source_published_at": null,
+      "captured_at": null,
+      "sha256": "3a665777ba13f03b06a03066a8694c6166cccf0e55619f191459e5bdaad7276c",
+      "exact_subject": true,
+      "subject": "House A foundations in Carthage's Punic Magon Quarter",
+      "alt": "Low stone foundations from a Punic residential house in Carthage’s Magon Quarter.",
+      "property": false,
+      "kind": "photograph",
+      "requires_attribution": false,
+      "changes": "Used the publicly accessible Livius image file as served; no edits.",
+      "checked_at": "2026-11-06",
+      "exact_subject_evidence": "The Livius photo page identifies House A in the Magon Quarter at Carthage, tags it as a house and categorizes it as Punic. The page describes the site's historical period as about 500 to 200 BCE; this is not a photo date. Visual inspection confirms exposed low foundations in a coastal setting. No capture date is stated.",
+      "reuse_note": "The individual image page states CC0 1.0 Universal, which requires no public attribution. Creator and source version remain recorded internally. This image illustrates the named archaeological area and does not imply a tour or included visit."
+    },
     "/images/editorial/morocco-country/chefchaouen-hillside-marco-di-norcia.jpg": {
       "slug": "chefchaouen-hillside-marco-di-norcia",
       "local_path": "/images/editorial/morocco-country/chefchaouen-hillside-marco-di-norcia.jpg",
@@ -8339,7 +8383,9 @@ export const photoLibrary = {
           "/images/stock/starter/tunis-and-sidi-bou-said.jpg",
           "/images/editorial/tunis-sidi-bou-said-attraction/sidi-bou-said-alley-memory-lane.jpg",
           "/images/editorial/tunis-sidi-bou-said-attraction/carthage-mediterranean-ruins-halil-cihat-daricioglu.jpg",
-          "/images/editorial/tunis-sidi-bou-said-attraction/tunis-medina-market-amine-mayoufi.jpg"
+          "/images/editorial/tunis-sidi-bou-said-attraction/tunis-medina-market-amine-mayoufi.jpg",
+          "/images/editorial/tunis-carthage-route/antonine-baths-waterfront-jona-lendering.jpg",
+          "/images/editorial/tunis-carthage-route/magon-punic-house-foundations-jona-lendering.jpg"
         ]
       },
       "victoria-falls": {

@@ -1,68 +1,30 @@
 {
   "updated_at": "2026-11-06",
   "current_run": {
-    "id": "morocco-country-five-image-enrichment",
-    "page_url": "https://trekafricaguide.com/countries/morocco/",
-    "page_type": "country",
-    "status": "published_live_confirmed",
-    "previous_photo_count": 2,
+    "id": "tunis-carthage-route-two-image-follow-up",
+    "page_url": "https://trekafricaguide.com/attractions/tunis-and-sidi-bou-said/",
+    "page_type": "attraction",
+    "status": "local_unpublished_verification_pending",
+    "previous_photo_count": 5,
     "photo_count": 7,
-    "new_photo_count": 5,
+    "new_photo_count": 2,
     "checked_date": "2026-11-06",
-    "started_at": "2026-11-06 11:30 Africa/Kampala",
-    "initial_live_verification": "Production guide returned HTTP 200 and its gallery shows two images: Jemaa el-Fnaa and Imlil/High Atlas. Full guide reviewed. Existing CC BY-SA 4.0 images and credits are preserved.",
-    "source_ledger": "docs/editorial-research/2026-11-06-morocco-country-photo-enrichment.md",
-    "note": "Five visually inspected, exact-location Unsplash License photos added: Chefchaouen hillside, Ait Benhaddou ksar, Essaouira harbor, Fez medina and Merzouga dunes. Their source page IDs are unique across the current library and SHA-256 checks found no matches across public images. The five scenes diversify medina, heritage, coast and desert contexts. Accommodation-first checks of Governors Camp, Red Chilli Rest Camp and Camp Okavango found no qualifying exact-property photo with no public-attribution rights.",
+    "started_at": "2026-11-06 13:14 Africa/Kampala",
+    "initial_live_verification": "Production attraction returned HTTP 200 and displayed five gallery images. Full guide reviewed; its newly published two-stop route names the Antonine Baths and Magon Quarter. Existing credited images and credits remain unchanged.",
+    "source_ledger": "docs/editorial-research/2026-11-06-tunis-carthage-route-photo-enrichment.md",
+    "note": "Two visually reviewed Livius photographs with CC0 1.0 source-page licenses added: Antonine Baths coastal ruins and Magon Quarter House A foundations. One additional baths view was excluded as repetitive. Both source pages and downloaded SHA-256 values were checked against all photo-library sources and public image hashes; no matches. No copy or protected feature changed.",
     "files": [
       "src/lib/photo-library.js",
       "public/photo-library.js",
-      "public/images/editorial/morocco-country/",
-      "docs/editorial-research/2026-11-06-morocco-country-photo-enrichment.md",
+      "public/images/editorial/tunis-carthage-route/",
+      "docs/editorial-research/2026-11-06-tunis-carthage-route-photo-enrichment.md",
       "docs/image-enrichment-progress.json"
     ],
     "selected_images": [
-      "chefchaouen-hillside-marco-di-norcia.jpg",
-      "ait-benhaddou-ksar-othmane-bekkari.jpg",
-      "essaouira-fishing-harbor-sheila-c.jpg",
-      "fez-medina-aerial-kyle-frost.jpg",
-      "merzouga-dunes-francesco-ungaro.jpg"
+      "antonine-baths-waterfront-jona-lendering.jpg",
+      "magon-punic-house-foundations-jona-lendering.jpg"
     ],
-    "next_action": "Continue zero-photo accommodation review when a new exact-property no-public-attribution photo lead is available; Jollyboys Backpackers is the next unreviewed candidate.",
-    "published_commit": "aff62250e288e31fc1fc57a8b88e0b868fdd5ce5",
-    "pushed_at": "2026-11-06 11:49 Africa/Kampala",
-    "netlify_deploy": "6aed94b1cd2d30fff4973473",
-    "live_verification": {
-      "checked_at": "2026-11-06 11:52 Africa/Kampala",
-      "deploy_state": "ready",
-      "deployed_commit": "aff62250e288e31fc1fc57a8b88e0b868fdd5ce5",
-      "page_http_status": 200,
-      "gallery_count": 7,
-      "see_all_text": "See all 7 images",
-      "all_new_image_filenames_in_full_gallery": true,
-      "asset_http_statuses": [
-        200,
-        200,
-        200,
-        200,
-        200
-      ],
-      "asset_content_types": [
-        "image/jpeg",
-        "image/jpeg",
-        "image/jpeg",
-        "image/jpeg",
-        "image/jpeg"
-      ],
-      "asset_content_lengths": [
-        555737,
-        279223,
-        496627,
-        728813,
-        207923
-      ]
-    },
-    "email_id": "1a1b00f98d2d3c56",
-    "report_sent_at": "2026-11-06 11:52 Africa/Kampala"
+    "next_action": "Synchronize the public photo library, run the required build-input check, publish these own changes, then confirm the live seven-image page and both assets before sending one source-free owner report."
   },
   "follow_ups": [
     {
@@ -2318,6 +2280,70 @@
         ]
       },
       "report_sent_at": "2026-11-06 09:38 Africa/Kampala"
+    },
+    {
+      "id": "morocco-country-five-image-enrichment",
+      "page_url": "https://trekafricaguide.com/countries/morocco/",
+      "page_type": "country",
+      "status": "published_live_confirmed",
+      "previous_photo_count": 2,
+      "photo_count": 7,
+      "new_photo_count": 5,
+      "checked_date": "2026-11-06",
+      "started_at": "2026-11-06 11:30 Africa/Kampala",
+      "initial_live_verification": "Production guide returned HTTP 200 and its gallery shows two images: Jemaa el-Fnaa and Imlil/High Atlas. Full guide reviewed. Existing CC BY-SA 4.0 images and credits are preserved.",
+      "source_ledger": "docs/editorial-research/2026-11-06-morocco-country-photo-enrichment.md",
+      "note": "Five visually inspected, exact-location Unsplash License photos added: Chefchaouen hillside, Ait Benhaddou ksar, Essaouira harbor, Fez medina and Merzouga dunes. Their source page IDs are unique across the current library and SHA-256 checks found no matches across public images. The five scenes diversify medina, heritage, coast and desert contexts. Accommodation-first checks of Governors Camp, Red Chilli Rest Camp and Camp Okavango found no qualifying exact-property photo with no public-attribution rights.",
+      "files": [
+        "src/lib/photo-library.js",
+        "public/photo-library.js",
+        "public/images/editorial/morocco-country/",
+        "docs/editorial-research/2026-11-06-morocco-country-photo-enrichment.md",
+        "docs/image-enrichment-progress.json"
+      ],
+      "selected_images": [
+        "chefchaouen-hillside-marco-di-norcia.jpg",
+        "ait-benhaddou-ksar-othmane-bekkari.jpg",
+        "essaouira-fishing-harbor-sheila-c.jpg",
+        "fez-medina-aerial-kyle-frost.jpg",
+        "merzouga-dunes-francesco-ungaro.jpg"
+      ],
+      "next_action": "Continue zero-photo accommodation review when a new exact-property no-public-attribution photo lead is available; Jollyboys Backpackers is the next unreviewed candidate.",
+      "published_commit": "aff62250e288e31fc1fc57a8b88e0b868fdd5ce5",
+      "pushed_at": "2026-11-06 11:49 Africa/Kampala",
+      "netlify_deploy": "6aed94b1cd2d30fff4973473",
+      "live_verification": {
+        "checked_at": "2026-11-06 11:52 Africa/Kampala",
+        "deploy_state": "ready",
+        "deployed_commit": "aff62250e288e31fc1fc57a8b88e0b868fdd5ce5",
+        "page_http_status": 200,
+        "gallery_count": 7,
+        "see_all_text": "See all 7 images",
+        "all_new_image_filenames_in_full_gallery": true,
+        "asset_http_statuses": [
+          200,
+          200,
+          200,
+          200,
+          200
+        ],
+        "asset_content_types": [
+          "image/jpeg",
+          "image/jpeg",
+          "image/jpeg",
+          "image/jpeg",
+          "image/jpeg"
+        ],
+        "asset_content_lengths": [
+          555737,
+          279223,
+          496627,
+          728813,
+          207923
+        ]
+      },
+      "email_id": "1a1b00f98d2d3c56",
+      "report_sent_at": "2026-11-06 11:52 Africa/Kampala"
     }
   ]
 }
