@@ -4,7 +4,7 @@
     "id": "tokeh-and-river-no2-one-exact-unsplash-photo-2026-11-07",
     "page_url": "https://trekafricaguide.com/attractions/tokeh-and-river-no2/",
     "page_type": "attraction",
-    "status": "local_ready_for_publication",
+    "status": "published_live_confirmed",
     "previous_photo_count": 2,
     "photo_count": 3,
     "new_photo_count": 1,
@@ -23,12 +23,29 @@
     "selected_images": [
       "tokeh-aerial-pier-radwan-skeiky.jpg"
     ],
-    "next_action": "Sync the generated photo-library mirror and run the required narrow input check; commit and push own files, confirm automatic deployment and production page plus image asset, then send one source-free owner report and save its receipt.",
-    "mandatory_input_check": null,
-    "published_commit": null,
-    "netlify_deploy": null,
-    "email_id": null,
-    "report_status": "Waiting for required input check, publication and production proof."
+    "next_action": "Rotate to a fresh live zero-image guide with a precise source requiring no public attribution. Reopen Tokeh / River Number Two only for a new eligible no-attribution lead.",
+    "mandatory_input_check": "Passed npm run check:build-inputs after syncing the generated photo-library mirror; 2026-11-07.",
+    "published_commit": "38c5a18115bb23612eaa030cd59c194857b1ea44",
+    "netlify_deploy": "6aee836aa59434c84d14bf84",
+    "email_id": "1a1b3b46a83a9914",
+    "report_status": "One source-free owner report sent after production verification; Gmail message id 1a1b3b46a83a9914.",
+    "pushed_at": "2026-11-07 01:46 UTC",
+    "live_verification": {
+      "checked_at": "2026-11-07 01:51 UTC (04:51 Africa/Kampala)",
+      "deploy_state": "ready",
+      "deployed_commit": "38c5a18115bb23612eaa030cd59c194857b1ea44",
+      "page_http_status": 200,
+      "distinct_detail_image_count": 3,
+      "see_all_text": "See all 3 images",
+      "new_image_filename_present": true,
+      "new_image_markup_references": 2,
+      "existing_required_attribution_block_visible": true,
+      "existing_gallery_assignments_unchanged": true,
+      "asset_http_status": 200,
+      "asset_content_type": "image/jpeg",
+      "asset_content_length": 382979
+    },
+    "report_sent_at": "2026-11-07 01:51 UTC (04:51 Africa/Kampala)"
   },
   "follow_ups": [
     {
