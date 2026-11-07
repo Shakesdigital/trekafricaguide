@@ -184,7 +184,11 @@
     },
     "riad-rosemary": {
       "status": "unavailable",
-      "reason": "No exact Booking.com, Expedia, Hotels.com or Agoda listing found; a Michelin Guide hotel detail is outside the requested supported OTA set."
+      "checked_at": "2026-11-07",
+      "evidence": {
+        "source_url": "https://rosemarymarrakech.com/",
+        "summary": "Rechecked 7 November 2026 with fresh web searches: the property (LRNCE-designed riad, Riad Zitoun Jdid, five rooms) shows an official direct-sales site and directory listings only; no supported OTA detail was found. Booking.com's indexed Marrakech results contain only namesakes (Riad Rose Meryam in the Mechouar-Kasbah district; a Rosemary apartment), which are different properties. Keep the booking CTA suppressed rather than matching a namesake."
+      }
     },
     "sabyinyo-silverback-lodge": {
       "status": "unavailable",
