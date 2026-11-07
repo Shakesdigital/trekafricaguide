@@ -1,61 +1,34 @@
 {
   "updated_at": "2026-11-07",
   "current_run": {
-    "id": "cape-coast-kakum-guided-visit-two-photo-additions-2026-11-07",
-    "page_url": "https://trekafricaguide.com/activities/cape-coast-kakum-guided-visit/",
-    "page_type": "activity",
-    "status": "published_live_confirmed",
-    "previous_photo_count": 5,
-    "photo_count": 7,
-    "new_photo_count": 2,
+    "id": "tokeh-and-river-no2-one-exact-unsplash-photo-2026-11-07",
+    "page_url": "https://trekafricaguide.com/attractions/tokeh-and-river-no2/",
+    "page_type": "attraction",
+    "status": "local_ready_for_publication",
+    "previous_photo_count": 2,
+    "photo_count": 3,
+    "new_photo_count": 1,
     "checked_date": "2026-11-07",
-    "started_at": "2026-11-07 23:17 UTC",
-    "initial_live_verification": "Production activity guide returned HTTP 200 and was read in full. Its hero plus gallery contain five distinct guide image paths; repeated modal/gallery renderings and the site logo were excluded. No inline body image is present.",
-    "source_ledger": "docs/editorial-research/2026-11-07-cape-coast-kakum-guided-visit-photo-follow-up.md",
-    "note": "Added two distinct Kakum canopy images under Unsplash License, which requires no public attribution. The two new source IDs are unassigned and the files have no SHA-256 matches across public/images. Both Commons CC0 leads from the prior Kakum attraction gallery were excluded to avoid cross-collection source reuse. Existing activity assets, copy and credits are unchanged.",
+    "started_at": "2026-11-07 01:18 UTC (04:18 Africa/Kampala)",
+    "initial_live_verification": "Production guide returned HTTP 200 and was reviewed in full. Its gallery has two distinct guide images (a River Number Two canoe and palm-lined Tokeh Beach); repeated carousel rendering and the nearby stay card were excluded. No inline body photograph was present.",
+    "source_ledger": "docs/editorial-research/2026-11-07-tokeh-and-river-no2-photo-enrichment.md",
+    "note": "Added one visually reviewed aerial Tokeh Beach and pier image from Unsplash under its License, which requires no public attribution. The source page identifies Tokeh, Sierra Leone; source URL is not assigned elsewhere and SHA-256 has no match across the other 722 public/images files. Exact Tokeh / River Number Two Commons candidates requiring credit were excluded under the current no-new-public-attribution instruction. Existing gallery assignments and required credits remain unchanged.",
     "files": [
       "src/lib/photo-library.js",
       "public/photo-library.js",
-      "public/images/editorial/cape-coast-kakum-guided-visit/kakum-canopy-visitor-orva-studio.jpg",
-      "public/images/editorial/cape-coast-kakum-guided-visit/kakum-canopy-forest-bridge-julian-morenz.jpg",
-      "docs/editorial-research/2026-11-07-cape-coast-kakum-guided-visit-photo-follow-up.md",
+      "public/images/editorial/tokeh-and-river-no2/tokeh-aerial-pier-radwan-skeiky.jpg",
+      "docs/editorial-research/2026-11-07-tokeh-and-river-no2-photo-enrichment.md",
       "docs/image-enrichment-progress.json"
     ],
     "selected_images": [
-      "kakum-canopy-visitor-orva-studio.jpg",
-      "kakum-canopy-forest-bridge-julian-morenz.jpg"
+      "tokeh-aerial-pier-radwan-skeiky.jpg"
     ],
-    "next_action": "Select a fresh zero-image guide with precise eligible photos; do not repeat exhausted searches.",
-    "mandatory_input_check": "Passed npm run check:build-inputs after syncing src/lib/photo-library.js to public/photo-library.js; checked 2026-11-07.",
-    "published_commit": "73d1325fa42b6287ed59e302bda8e6c095cb5d01",
-    "netlify_deploy": "6aee633901345c4eb42ec723",
-    "email_id": "1a1b337a0c675f5f",
-    "pushed_at": "2026-11-06 23:31 UTC",
-    "live_verification": {
-      "checked_at": "2026-11-06 23:32 UTC (2026-11-07 02:32 Africa/Kampala)",
-      "deploy_state": "ready",
-      "deployed_commit": "73d1325fa42b6287ed59e302bda8e6c095cb5d01",
-      "page_http_status": 200,
-      "distinct_detail_image_count": 7,
-      "see_all_text": "See all 7 images",
-      "new_image_filenames_in_gallery": 2,
-      "existing_gallery_assignments_unchanged": true,
-      "existing_required_attribution_records_unchanged": true,
-      "asset_http_statuses": [
-        200,
-        200
-      ],
-      "asset_content_types": [
-        "image/jpeg",
-        "image/jpeg"
-      ],
-      "asset_content_lengths": [
-        801153,
-        983641
-      ]
-    },
-    "report_status": "One source-free owner report sent after production confirmation; Gmail message id 1a1b337a0c675f5f.",
-    "report_sent_at": "2026-11-06 23:35 UTC (2026-11-07 02:35 Africa/Kampala)"
+    "next_action": "Sync the generated photo-library mirror and run the required narrow input check; commit and push own files, confirm automatic deployment and production page plus image asset, then send one source-free owner report and save its receipt.",
+    "mandatory_input_check": null,
+    "published_commit": null,
+    "netlify_deploy": null,
+    "email_id": null,
+    "report_status": "Waiting for required input check, publication and production proof."
   },
   "follow_ups": [
     {
@@ -2656,6 +2629,63 @@
       },
       "email_id": "1a1b26ba099ca22d",
       "report_sent_at": "2026-11-06 19:51 UTC (22:51 Africa/Kampala)"
+    },
+    {
+      "id": "cape-coast-kakum-guided-visit-two-photo-additions-2026-11-07",
+      "page_url": "https://trekafricaguide.com/activities/cape-coast-kakum-guided-visit/",
+      "page_type": "activity",
+      "status": "published_live_confirmed",
+      "previous_photo_count": 5,
+      "photo_count": 7,
+      "new_photo_count": 2,
+      "checked_date": "2026-11-07",
+      "started_at": "2026-11-07 23:17 UTC",
+      "initial_live_verification": "Production activity guide returned HTTP 200 and was read in full. Its hero plus gallery contain five distinct guide image paths; repeated modal/gallery renderings and the site logo were excluded. No inline body image is present.",
+      "source_ledger": "docs/editorial-research/2026-11-07-cape-coast-kakum-guided-visit-photo-follow-up.md",
+      "note": "Added two distinct Kakum canopy images under Unsplash License, which requires no public attribution. The two new source IDs are unassigned and the files have no SHA-256 matches across public/images. Both Commons CC0 leads from the prior Kakum attraction gallery were excluded to avoid cross-collection source reuse. Existing activity assets, copy and credits are unchanged.",
+      "files": [
+        "src/lib/photo-library.js",
+        "public/photo-library.js",
+        "public/images/editorial/cape-coast-kakum-guided-visit/kakum-canopy-visitor-orva-studio.jpg",
+        "public/images/editorial/cape-coast-kakum-guided-visit/kakum-canopy-forest-bridge-julian-morenz.jpg",
+        "docs/editorial-research/2026-11-07-cape-coast-kakum-guided-visit-photo-follow-up.md",
+        "docs/image-enrichment-progress.json"
+      ],
+      "selected_images": [
+        "kakum-canopy-visitor-orva-studio.jpg",
+        "kakum-canopy-forest-bridge-julian-morenz.jpg"
+      ],
+      "next_action": "Select a fresh zero-image guide with precise eligible photos; do not repeat exhausted searches.",
+      "mandatory_input_check": "Passed npm run check:build-inputs after syncing src/lib/photo-library.js to public/photo-library.js; checked 2026-11-07.",
+      "published_commit": "73d1325fa42b6287ed59e302bda8e6c095cb5d01",
+      "netlify_deploy": "6aee633901345c4eb42ec723",
+      "email_id": "1a1b337a0c675f5f",
+      "pushed_at": "2026-11-06 23:31 UTC",
+      "live_verification": {
+        "checked_at": "2026-11-06 23:32 UTC (2026-11-07 02:32 Africa/Kampala)",
+        "deploy_state": "ready",
+        "deployed_commit": "73d1325fa42b6287ed59e302bda8e6c095cb5d01",
+        "page_http_status": 200,
+        "distinct_detail_image_count": 7,
+        "see_all_text": "See all 7 images",
+        "new_image_filenames_in_gallery": 2,
+        "existing_gallery_assignments_unchanged": true,
+        "existing_required_attribution_records_unchanged": true,
+        "asset_http_statuses": [
+          200,
+          200
+        ],
+        "asset_content_types": [
+          "image/jpeg",
+          "image/jpeg"
+        ],
+        "asset_content_lengths": [
+          801153,
+          983641
+        ]
+      },
+      "report_status": "One source-free owner report sent after production confirmation; Gmail message id 1a1b337a0c675f5f.",
+      "report_sent_at": "2026-11-06 23:35 UTC (2026-11-07 02:35 Africa/Kampala)"
     }
   ],
   "review_checkpoints": [
@@ -2684,4 +2714,4 @@
       "effect": "Reopens previously attribution-blocked collections. Facts: discreet legally required credits stay visible via the existing gallery credit block; provenance ledgers remain internal per the 23 October reporting preference; the Freddy/owner decision overruling the no-public-attribution operating rule is the stated reason; existing attribution-required photos stay as-is."
     }
   ]
-}\n
+}

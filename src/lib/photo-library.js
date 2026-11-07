@@ -3,6 +3,29 @@
 export const photoLibrary = {
   "updated_at": "2026-11-07",
   "images": {
+    "/images/editorial/tokeh-and-river-no2/tokeh-aerial-pier-radwan-skeiky.jpg": {
+      "slug": "tokeh-aerial-pier-radwan-skeiky",
+      "local_path": "/images/editorial/tokeh-and-river-no2/tokeh-aerial-pier-radwan-skeiky.jpg",
+      "source_page": "https://unsplash.com/photos/aerial-view-of-body-of-water-during-daytime-VCsLRRvKE1c",
+      "source_revision": "Unsplash photo VCsLRRvKE1c, checked 2026-11-07",
+      "creator": "Radwan Skeiky",
+      "license": "Unsplash License",
+      "license_url": "https://unsplash.com/license",
+      "source_published_at": "2021-01-23",
+      "captured_at": null,
+      "sha256": "2d7ccc5631ca9e417965bd789d32972219ee6e02b6aee132bdc7d6b4e5fd427b",
+      "exact_subject": true,
+      "subject": "Aerial view of Tokeh beach and pier, Sierra Leone",
+      "alt": "Aerial view of a long pier extending from Tokeh beach into turquoise water.",
+      "caption": "An aerial view of Tokeh beach and its pier; this source photo shows the beach setting, not a specific property or current conditions.",
+      "property": false,
+      "kind": "photograph",
+      "requires_attribution": false,
+      "changes": "Downloaded from the Unsplash CDN at 1,800 pixels wide, JPEG quality 85, with aspect ratio preserved; no other edits.",
+      "checked_at": "2026-11-07",
+      "exact_subject_evidence": "The Unsplash page describes the scene as the turquoise beaches of Tokeh village and lists its location as Tokeh, Sierra Leone. Visual inspection confirms a long pier, pale beach and turquoise water. Published 2021-01-23; no capture date stated.",
+      "reuse_note": "Unsplash License permits reuse without public attribution. Creator and source remain in the internal provenance record. Do not imply the image depicts a named resort or current beach conditions."
+    },
     "/images/editorial/cape-coast-kakum-guided-visit/kakum-canopy-visitor-orva-studio.jpg": {
       "slug": "kakum-canopy-visitor-orva-studio",
       "local_path": "/images/editorial/cape-coast-kakum-guided-visit/kakum-canopy-visitor-orva-studio.jpg",
@@ -9078,7 +9101,8 @@ export const photoLibrary = {
         ],
         "gallery": [
           "/images/stock/destinations/tokeh-and-river-no2.jpg",
-          "/images/stock/starter/tokeh-and-river-no2.jpg"
+          "/images/stock/starter/tokeh-and-river-no2.jpg",
+          "/images/editorial/tokeh-and-river-no2/tokeh-aerial-pier-radwan-skeiky.jpg"
         ]
       },
       "tunis-and-sidi-bou-said": {
