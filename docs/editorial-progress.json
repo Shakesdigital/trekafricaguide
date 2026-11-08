@@ -456,16 +456,16 @@
   },
   "latest_run_checkpoint": {
     "date": "2026-11-08",
-    "run": "editorial photo follow-up close-out (accommodation, Paraa Safari Lodge)",
-    "status": "complete",
-    "content_commit": null,
-    "live_url": "https://trekafricaguide.com/accommodations/paraa-safari-lodge/",
-    "live_verification": "Confirmed this run: accommodation detail URL returned HTTP 200 with rendered guide copy, a single distinct gallery image and the Venture Uganda Travel CC BY 2.0 credit; no server-side markup leak. Prior guide-refresh content retained.",
-    "cms": "Pending: no Trek Africa Guide Project in Supabase MCP scope; service-role access to editorial_documents remains Netlify-held.",
+    "run": "Kibale chimpanzee trek activity guide — cross-checkout consolidation and publish attempt",
+    "status": "deliverable_ready_publication_blocked",
+    "content_commit": "0bd40e7",
+    "live_url": "https://trekafricaguide.com/activities/kibale-chimpanzee-trekking/ (pending)",
+    "live_verification": "Not live: git push returned 403 Permission denied to Shakesdigital this run (token read-only); no publication receipt fabricated. Local artifact verified in tug dist build: reference h2 flow present, no markup leak.",
+    "push": "403 again this run. Owner action: grant the OpenBot GitHub app write on Shakesdigital/trekafricaguide, or restore a push-enabled token. Netlify deploys from the pushed repo, so publication is blocked behind this.",
+    "cms": "Pending: TREK_SUPABASE_PUBLISHABLE not set in run environment; .env.netlify in both checkouts holds placeholder values (your-project.supabase.co / sb_publishable_example). Owner action: set TREK_SUPABASE_PUBLISHABLE (and real SUPABASE_URL) so mirror reconcile can read public tables; editorial_documents stays unreadable without service-role regardless.",
     "email_id": null,
-    "ledger": "docs/editorial-research/2026-11-08-paraa-safari-lodge-photo-shortfall.md",
-    "images": 1,
-    "next_action": "Await owner-supplied licensed/original Paraa property photos for the missing subjects, or owner-approved representative direction that does not invent named-property rooms or amenities; next editorial rotation is travel insights."
+    "images": 0,
+    "next_action": "Owner grants push rights → push 0bd40e7, wait Netlify deploy, verify the activity URL HTTP 200 + rendered copy + photo assets, then reconcile CMS and send owner report; owner supplies publishable key in env for the public-tables read."
   },
   "latest_run_checkpoint_2026_11_07": {
     "date": "2026-11-07",
@@ -776,7 +776,7 @@
     "next_category": "activities"
   },
   "activity_kibale_chimpanzee_trek": {
-    "status": "pushed_pending_live_confirmation",
+    "status": "committed_local_push_blocked_403",
     "started": "2026-11-08",
     "scope": "New activity landing page: Kibale National Park chimpanzee trek (Kanyanchu Primate Walk) under the repo-managed Kibale National Park attraction, following the golden monkey activity format; no booking CTA pending a verified exact operator listing.",
     "files": [
@@ -790,9 +790,10 @@
     "key_facts_checked": "UWA Kibale park page (Kanyanchu flagship, habituated since 1993, >90% sighting success, 08:00/11:00/14:00 slots, groups of six, one hour with chimps, min age 16, 2–5h walks) and UWA tariff card (rules set, min-age 12 divergence, operator-only booking, expired validity) — both checked 8 November 2026; Feb 2026 circular via secondary summary with confirm-with-UWA caveat.",
     "cms": "Production build runs EDITORIAL_CMS_SYNC=true (deploy imports the document). publishable key cannot read editorial_documents (RLS 401); owner/list CMS check to confirm the row after deploy.",
     "related_blocker_note": "Nyungwe production block still open from 2026-11-07; service-role CMS access still missing; not touched.",
-    "commit": null,
+    "commit": "0bd40e7",
     "live_verification": null,
     "next_action": "Confirm production page HTTP 200 with rendered text after Netlify deploy; fill commit + live_verification here; send owner report.",
-    "next_category": "travel_insights"
+    "next_category": "travel_insights",
+    "commit_note": "Cherry-picked 2026-11-08 into canonical checkout main from tug checkout (original locally-authored as 6a9bc95); production-data build validation pending real SUPABASE_PUBLISHABLE_KEY (env files hold placeholders); fixture build passed; built page in tug dist verified: full golden-monkey h2 flow present, no markup leak."
   }
 }
