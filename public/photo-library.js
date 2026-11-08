@@ -1,7 +1,7 @@
 // Curated source. Run node scripts/sync-photo-library.mjs after editing.
 // Curated free photography; source and licence metadata travel with each image.
 export const photoLibrary = {
-  "updated_at": "2026-11-07",
+  "updated_at": "2026-11-08",
   "images": {
     "/images/editorial/tokeh-and-river-no2/tokeh-aerial-pier-radwan-skeiky.jpg": {
       "slug": "tokeh-aerial-pier-radwan-skeiky",
@@ -4434,6 +4434,98 @@ export const photoLibrary = {
       "property": true,
       "checked_at": "2026-10-16",
       "capture_date": "2010-04-05"
+    },
+    "/images/editorial/jollyboys-backpackers/jollyboys-pool-jacuzzi-2019.jpg": {
+      "slug": "jollyboys-backpackers",
+      "local_path": "/images/editorial/jollyboys-backpackers/jollyboys-pool-jacuzzi-2019.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Jollyboys_Backpackers,_Livingstone,_Zambia_(48597822296).jpg",
+      "source_revision": "Commons file 48597822296, checked 2026-11-08",
+      "creator": "Fabio Achilli (travelourplanet.com)",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "source_published_at": "2021-09-12",
+      "captured_at": "2019-08-17",
+      "sha256": "c2b6331add3d51f612f4f3a8ee1f26cad9905be0a375583bfc26c8c89f05cfb0",
+      "exact_subject": true,
+      "subject": "Jollyboys Backpackers swimming pool",
+      "alt": "Swimming pool with a small plunge pool set among rocks, shaded loungers and palm trees at Jollyboys Backpackers in Livingstone.",
+      "caption": "Swimming pool and plunge pool with shading loungers at Jollyboys Backpackers, photographed August 2019. Fabio Achilli, CC BY 2.0. Original image unchanged.",
+      "property": true,
+      "kind": "photograph",
+      "requires_attribution": true,
+      "changes": "Downloaded from the Wikimedia Commons thumbnail service at 1,280 pixels wide with aspect ratio preserved; no other edits.",
+      "checked_at": "2026-11-08",
+      "exact_subject_evidence": "Commons file title, description and Flickr-derived categories (Swimming pools in Zambia, Livingstone (Zambia), Flickr images reviewed by FlickreviewR 2) name Jollyboys Backpackers, Livingstone, Zambia. Visual inspection confirms the property's pool, plunge pool seating, loungers and bar building. Captured 2019-08-17 (DateTimeOriginal); Commons upload 2021-09-12, CC BY 2.0 with FlickreviewR review.",
+      "reuse_note": "CC BY 2.0 permits commercial reuse with attribution, which the photo credit block renders. Shows the property as photographed in August 2019; not a promise of current facilities."
+    },
+    "/images/editorial/jollyboys-backpackers/jollyboys-pool-garden-2019.jpg": {
+      "slug": "jollyboys-backpackers",
+      "local_path": "/images/editorial/jollyboys-backpackers/jollyboys-pool-garden-2019.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Jollyboys_Backpackers,_Livingstone,_Zambia_(48597826216).jpg",
+      "source_revision": "Commons file 48597826216, checked 2026-11-08",
+      "creator": "Fabio Achilli (travelourplanet.com)",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "source_published_at": "2021-09-12",
+      "captured_at": "2019-08-17",
+      "sha256": "e88317ce69aa11a786ad451fcfa40bb96a0e6ad9c41b05ec3f654bf6372eeee1",
+      "exact_subject": true,
+      "subject": "Jollyboys Backpackers pool and garden grounds",
+      "alt": "Green poolside garden with shaded loungers and everyday seating at Jollyboys Backpackers in Livingstone.",
+      "caption": "Poolside loungers and garden seating at Jollyboys Backpackers, photographed August 2019. Fabio Achilli, CC BY 2.0. Original image unchanged.",
+      "property": true,
+      "kind": "photograph",
+      "requires_attribution": true,
+      "changes": "Downloaded from the Wikimedia Commons thumbnail service at 1,280 pixels wide with aspect ratio preserved; no other edits.",
+      "checked_at": "2026-11-08",
+      "exact_subject_evidence": "Commons file title, description and Flickr-derived categories (Swimming pools in Zambia, Livingstone (Zambia), Flickr images reviewed by FlickreviewR 2) name Jollyboys Backpackers, Livingstone, Zambia. Visual inspection confirms the pool edge, loungers and planted grounds. Captured 2019-08-17 (DateTimeOriginal); Commons upload 2021-09-12, CC BY 2.0 with FlickreviewR review.",
+      "reuse_note": "CC BY 2.0 permits commercial reuse with attribution, which the photo credit block renders. Shows the property as photographed in August 2019; not a promise of current facilities."
+    },
+    "/images/editorial/jollyboys-backpackers/jollyboys-communal-lounge-2019.jpg": {
+      "slug": "jollyboys-backpackers",
+      "local_path": "/images/editorial/jollyboys-backpackers/jollyboys-communal-lounge-2019.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Jollyboys_Backpackers,_Livingstone,_Zambia_(48597953352).jpg",
+      "source_revision": "Commons file 48597953352, checked 2026-11-08",
+      "creator": "Fabio Achilli (travelourplanet.com)",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "source_published_at": "2021-09-12",
+      "captured_at": "2019-08-17",
+      "sha256": "8edf98f4b2c811a9b21045ce2cd0bb97059ceb7019982a60e37684b8520d109c",
+      "exact_subject": true,
+      "subject": "Jollyboys Backpackers communal lounge",
+      "alt": "Sunken cushioned seating pit under an open thatched roof beside a wooden staircase in a Jollyboys Backpackers lounge.",
+      "caption": "Cushioned seating in the open-sided communal lounge at Jollyboys Backpackers, photographed August 2019. Fabio Achilli, CC BY 2.0. Original image unchanged.",
+      "property": true,
+      "kind": "photograph",
+      "requires_attribution": true,
+      "changes": "Downloaded from the Wikimedia Commons thumbnail service at 1,280 pixels wide with aspect ratio preserved; no other edits.",
+      "checked_at": "2026-11-08",
+      "exact_subject_evidence": "Commons file title and description name Jollyboys Backpackers, Livingstone, Zambia; Flickr-derived categories include Livingstone (Zambia) and a FlickreviewR 2 review. Visual inspection confirms an inside-the-property lounge with communal seating. Captured 2019-08-17 (DateTimeOriginal); Commons upload 2021-09-12, CC BY 2.0.",
+      "reuse_note": "CC BY 2.0 permits commercial reuse with attribution, which the photo credit block renders. Shows the property as photographed in August 2019; not a promise of current facilities."
+    },
+    "/images/editorial/jollyboys-backpackers/jollyboys-bar-courtyard-2019.jpg": {
+      "slug": "jollyboys-backpackers",
+      "local_path": "/images/editorial/jollyboys-backpackers/jollyboys-bar-courtyard-2019.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Jollyboys_Backpackers,_Livingstone,_Zambia_(48597817331).jpg",
+      "source_revision": "Commons file 48597817331, checked 2026-11-08",
+      "creator": "Fabio Achilli (travelourplanet.com)",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "source_published_at": "2021-09-12",
+      "captured_at": "2019-08-17",
+      "sha256": "0d308b475352f24d5d5d068a26fb083d399593f5d6f0be927e41111bc64e723f",
+      "exact_subject": true,
+      "subject": "Jollyboys Backpackers bar and dining courtyard",
+      "alt": "Guests seated at tables in the open-air bar and dining courtyard of Jollyboys Backpackers, seen through an archway.",
+      "caption": "Open-air bar and dining courtyard with guests at Jollyboys Backpackers, photographed August 2019. Fabio Achilli, CC BY 2.0. The people shown are from the source photograph; they are not identified guests of this guide. Original image unchanged.",
+      "property": true,
+      "kind": "photograph",
+      "requires_attribution": true,
+      "changes": "Downloaded from the Wikimedia Commons thumbnail service at 1,280 pixels wide with aspect ratio preserved; no other edits.",
+      "checked_at": "2026-11-08",
+      "exact_subject_evidence": "Commons file title and description name Jollyboys Backpackers, Livingstone, Zambia; Flickr-derived categories include Livingstone (Zambia) and a FlickreviewR 2 review. Visual inspection confirms a bar counter, dining tables and the property's courtyard. Captured 2019-08-17 (DateTimeOriginal); Commons upload 2021-09-12, CC BY 2.0.",
+      "reuse_note": "CC BY 2.0 permits commercial reuse with attribution, which the photo credit block renders. Faces of identifiable guests appear in a candid scene; no particular visitor, service quality or current setup is implied."
     },
     "/images/editorial/unguja/stone-town-waterfront.jpg": {
       "slug": "unguja",
@@ -9998,6 +10090,17 @@ export const photoLibrary = {
           "/images/editorial/amboseli-serena-safari-lodge/property-2.jpg",
           "/images/editorial/amboseli-serena-safari-lodge/property-3.jpg",
           "/images/editorial/amboseli-serena-safari-lodge/property-4.jpg"
+        ]
+      },
+      "jollyboys-backpackers": {
+        "hero_image_url": "/images/editorial/jollyboys-backpackers/jollyboys-pool-jacuzzi-2019.jpg",
+        "hero_image_alt": "Swimming pool with shaded loungers and palm trees at Jollyboys Backpackers, Livingstone, August 2019",
+        "replaces": [],
+        "gallery": [
+          "/images/editorial/jollyboys-backpackers/jollyboys-pool-jacuzzi-2019.jpg",
+          "/images/editorial/jollyboys-backpackers/jollyboys-pool-garden-2019.jpg",
+          "/images/editorial/jollyboys-backpackers/jollyboys-communal-lounge-2019.jpg",
+          "/images/editorial/jollyboys-backpackers/jollyboys-bar-courtyard-2019.jpg"
         ]
       }
     },
