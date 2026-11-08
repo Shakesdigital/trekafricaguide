@@ -27,7 +27,7 @@
     "attractions/great-zimbabwe": "All GYG candidates are cross-city transfer products (Harare 14h t741591, Bulawayo t1480708/t1048201); the activity copy directs readers to arrange transfers separately — logistics mismatch, not an exact on-site visit.",
     "attractions/kwame-nkrumah-memorial-park": "GYG search returned no Ghana product (generic fallback only).",
     "attractions/kibale-national-park": "No verified exact operator listing; canonical no-bookable-card position per 2026-11-08 editorial record.",
-    "attractions/nyungwe-national-park": "Deferred: production detail 404 (CMS publication blocker); booking row untestable until resolved.",
+    "attractions/nyungwe-national-park": "Unblocked 8 November: the former CMS 404 publication blocker is resolved (page republished; live HTTP 200 with exact title re-verified by this agent today, also independently by the image agent). Re-research an exact GetYourGuide/other OTA listing for Nyungwe when the queue rotation reaches it; do not add a row before that research is verified.",
     "activities/victoria-falls-zambezi-white-water-rafting": "No CTA is the editor-recorded position.",
     "accommodations_unavailable": ["camp-okavango", "governors-camp", "mfuwe-lodge", "riad-rosemary", "sabyinyo-silverback-lodge", "sanctuary-gorilla-forest-camp", "terres-touareg-guest-house", "desert-luxury-camp", "buhoma-community-rest-camp (listing not taking reservations)"],
     "giza_and_lalibela_holds": "Previous holds unchanged this run (OceanAir shell caveat; Amhara advisory)."
