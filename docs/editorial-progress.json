@@ -252,7 +252,7 @@
     "No routine tests/builds or repeated broad audits."
   ],
   "next_task_selection": "Complete one destination guide, then rotate to accommodations.",
-  "last_run": "2026-11-08T19:05:00+03:00",
+  "last_run": "2026-11-08T19:45:00+03:00",
   "task_magnitude": "One complete full guide plus booking and listing cards, or one full property photo collection; do not schedule isolated paragraphs/links.",
   "country_destinations_feature": {
     "status": "complete",
@@ -787,5 +787,26 @@
       "checked_at": "2026-11-08",
       "live_distinctive_text": "Kibale National Park chimpanzee trek | Trek Africa Guide"
     }
+  },
+  "travel_insight_tunis_first_night": {
+    "status": "pushed_pending_live_confirmation",
+    "started": "2026-11-08",
+    "scope": "New travel insight: Tunis first-night base decision (medina vs Sidi Bou Said coast), arrival logistics, effect on the Carthage day, confirm-before-booking and packing guidance. Answers the 2026-11-06 Tunisia-country-page queue item without repeating the published transport/route detail.",
+    "files": [
+      "content/editorial-overrides.json",
+      "docs/editorial-research/2026-11-08-tunis-first-night-insight.md",
+      "docs/editorial-progress.json"
+    ],
+    "category": "travel_insights",
+    "images": 0,
+    "image_followup": "Six distinct subjects distinct from the Tunisia country/attraction gallery backlogs: Tunis Marine platform, medina lane at first light, airport-arrival kerb, Antonine Baths colonnade, Magon Quarter corridor, Sidi Bou Said stairway view.",
+    "booking_destination": "One exact-property link on the city side (Booking.com /hotel/tn/dar-el-medina-tunis.html from search-verified evidence; direct platform fetch automation-blocked — Ridge Royal standard). Coast side links the published Dar Said guide; no new booking-destinations entry, no rate/availability/review claims.",
+    "key_facts_checked": "TRANSTU TGM stations + ticket + winter 2026-27 timetable existence; AMVPPC Antonine Baths hours (winter/summer/Ramadan), grouped ticket, 12 DT non-resident at check, Magon Quarter character; UK FCDO entry requirements; Dar El Medina official site. All checked 8 November 2026 in the ledger.",
+    "cms": "Production deploy imports at source_commit; publishable key cannot read editorial_documents (RLS) — owner-side CMS check to confirm travel_articles/choose-first-night-tunis-medina-or-coast after deploy.",
+    "related_blocker_note": "Nyungwe production block still open from 2026-11-07; service-role CMS access still missing; not touched.",
+    "commit": null,
+    "live_verification": null,
+    "next_action": "Confirm production URL HTTP 200 with rendered text after the Netlify deploy; fill commit + live_verification; then rotate to destinations.",
+    "next_category": "destinations"
   }
 }
