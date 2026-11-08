@@ -1,47 +1,45 @@
 {
-  "updated_at": "2026-11-07",
+  "updated_at": "2026-11-08 19:57 Africa/Kampala",
   "current_run": {
-    "id": "jollyboys-backpackers-four-photo-licensed-gallery-2026-11-08",
-    "page_url": "https://trekafricaguide.com/accommodations/jollyboys-backpackers/",
-    "page_type": "accommodation",
+    "id": "volcanoes-golden-monkey-five-photo-credit-cc-second-pass-2026-11-08",
+    "page_url": "https://trekafricaguide.com/activities/volcanoes-golden-monkey-trekking/",
+    "page_type": "activity",
     "status": "published_live_confirmed",
-    "previous_photo_count": 0,
-    "photo_count": 4,
-    "new_photo_count": 4,
+    "previous_photo_count": 1,
+    "photo_count": 6,
+    "new_photo_count": 5,
     "checked_date": "2026-11-08",
-    "started_at": "2026-11-08 19:05 Africa/Kampala",
-    "initial_live_verification": "Production accommodation page returned HTTP 200 and was reviewed in full: published guide with no hero image and an empty gallery (zero dedicated photos).",
-    "source_ledger": "docs/editorial-research/2026-11-08-jollyboys-backpackers-photo-enrichment.md",
-    "note": "Reopened under the 2026-11-07 rights decision (credit-bearing CC stock acceptable). Added four visually inspected exact-property photographs from Wikimedia Commons (CC BY 2.0, Fabio Achilli / travelourplanet.com, captured 2019-08-17): hero pool with plunge pool, poolside garden, communal cushioned lounge under thatched roof, and open-air bar/dining courtyard. Stored locally as 1280px-wide JPEGs; source pages, licence, capture date and sha256 recorded in the library and ledger; credit block renders creator and CC BY 2.0 on production. Openverse commercial cross-check found no other eligible candidates. Missing verified exact-property subjects recorded in the ledger: street exterior/entrance, dorm interior, private room interior, communal kitchen/self-catering area (remaining leads are CC BY-NC/NC-SA, excluded).",
+    "started_at": "2026-11-08 19:07 Africa/Kampala",
+    "initial_live_verification": "No fresh pre-edit fetch in this run; baseline taken from the checkpoint (1 image, published_live_confirmed 2026-11-06 20:40 Kampala live verification) and the 2026-11-06 second-pass ledger, both confirming exactly one distinct dedicated image (Mount Sabyinyo setting) before this run.",
+    "source_ledger": "docs/editorial-research/2026-11-08-volcanoes-golden-monkey-second-pass.md",
+    "note": "Reopened under the owner's 2026-11-07 rights decision (credit-bearing CC acceptable; NC/ND still excluded). Added five visually inspected exact-Volcanoes-NP golden monkey photographs, all by Charles J. Sharp (Sharp Photography), Commons CC BY-SA 4.0, captured 2016-10-27: pair in undergrowth, upright foraging, eating bamboo, three-quarter portrait, frontal portrait. Local JPEGs at 1280px; Commons source pages, licence, capture/upload dates and SHA-256 recorded in the library and ledger; per-image captions and credit block render creator + CC BY-SA 4.0. Excluded: four iNaturalist/CC BY 4.0 Sloviak files (Virunga NP, DRC), Mgahinga Uganda file, Kabatwa/Rulindo-adjacent files without in-park evidence, and a Virunga-mountains-generic file. Shared-alike applies. Gallery now six images (target 7-12 for activities; specific remaining gaps recorded in the ledger: Kinigi briefing scene, trekkers on the bamboo-zone route, distinct bamboo-zone landscape).",
     "files": [
       "src/lib/photo-library.js",
       "public/photo-library.js",
-      "public/images/editorial/jollyboys-backpackers/",
-      "docs/editorial-research/2026-11-08-jollyboys-backpackers-photo-enrichment.md",
+      "public/images/editorial/volcanoes-golden-monkey-trekking/",
+      "docs/editorial-research/2026-11-08-volcanoes-golden-monkey-second-pass.md",
       "docs/image-enrichment-progress.json"
     ],
     "selected_images": [
-      "jollyboys-pool-jacuzzi-2019.jpg",
-      "jollyboys-pool-garden-2019.jpg",
-      "jollyboys-communal-lounge-2019.jpg",
-      "jollyboys-bar-courtyard-2019.jpg"
+      "golden-monkey-group-sabyinyo-2016-sharp.jpg",
+      "golden-monkey-foraging-bamboo-2016-sharp.jpg",
+      "golden-monkey-eating-bamboo-2016-sharp.jpg",
+      "golden-monkey-forest-2016-sharp.jpg",
+      "golden-monkey-portrait-2016-sharp.jpg"
     ],
-    "excluded_candidates_note": "Other same-subject Flickr leads (mwangee, Yuen-Ping) are CC BY-NC or CC BY-NC-SA (non-commercial) and excluded.",
-    "next_action": "Rotate to another reopened-by-rights collection (e.g. golden-monkey Trek exact-Volcanoes-NP subjects, Governors Camp, Camp Okavango, Desert Luxury Camp, Dar Said, Maribela Hotel, Riad Rosemary, Sabyinyo, Sanctuary Gorilla Forest Camp, Hilton Cabo Verde, The Place Resort Tokeh) or a fresh live-inventory zero-image page. Jollyboys remains open only for the four missing subjects.",
-    "mandatory_input_check": "Passed npm run check:build-inputs after node scripts/sync-photo-library.mjs; checked 2026-11-08.",
-    "published_commit": "a94a703",
-    "pushed_at": "2026-11-08 19:26 UTC (22:26 Africa/Kampala)",
-    "email_id": null,
-    "report_status": "NOT SENT: Gmail requires a sign-in in this harness browser (no saved session); owner receives this progress in chat instead. Subject prepared: \"Trek Africa Guide image update — [Kampala date/time]\".",
+    "excluded_candidates_note": "Wrong-park leads excluded: Virunga NP (DRC) iNaturalist set, Mgahinga (Uganda), Kabatwa village; no non-commercial or ND licences encountered in eligible subjects.",
+    "mandatory_input_check": "Passed node scripts/sync-photo-library.mjs and npm run check:build-inputs; checked 2026-11-08.",
+    "published_commit": "b979cf7",
+    "pushed_at": "2026-11-08 16:51 UTC (19:51 Africa/Kampala)",
+    "report_status": "NOT SENT: no email send tool/account available in this harness (same limitation as the 2026-11-08 Jollyboys run); owner receives this progress in chat. Subject prepared: 'Trek Africa Guide image update - [Kampala date/time]'.",
     "live_verification": {
-      "checked_at": "2026-11-08 19:40 UTC (22:40 Africa/Kampala)",
-      "deployed_commit": "a94a703",
+      "checked_at": "2026-11-08 16:57 UTC (19:57 Africa/Kampala)",
       "page_http_status": 200,
-      "see_all_text": "See all 4 images",
-      "distinct_detail_image_count": 4,
-      "all_new_filenames_in_gallery": true,
-      "credits_block_present": true,
+      "see_all_text": "See all 6 images",
+      "all_new_filenames_in_page": true,
+      "credits_present": true,
       "asset_http_statuses": [
+        200,
         200,
         200,
         200,
@@ -51,16 +49,19 @@
         "image/jpeg",
         "image/jpeg",
         "image/jpeg",
+        "image/jpeg",
         "image/jpeg"
       ],
       "asset_content_lengths": [
-        603318,
-        591513,
-        355917,
-        323814
+        443357,
+        690250,
+        279124,
+        458994,
+        552817
       ],
-      "note": "Production serves the four-image Jollyboys gallery and CC BY 2.0 credits."
-    }
+      "note": "Production serves the six-image golden monkey gallery; all five new assets return HTTP 200 image/jpeg with byte counts matching the locally stored originals."
+    },
+    "next_action": "Rotate to another reopened-by-rights collection or a fresh zero-image page; Jollyboys and Golden Monkey remain open only for their recorded missing subjects."
   },
   "follow_ups": [
     {
@@ -102,6 +103,68 @@
     "resolved_at": "2026-10-21 13:16 Africa/Kampala"
   },
   "completed_runs": [
+    {
+      "id": "jollyboys-backpackers-four-photo-licensed-gallery-2026-11-08",
+      "page_url": "https://trekafricaguide.com/accommodations/jollyboys-backpackers/",
+      "page_type": "accommodation",
+      "status": "published_live_confirmed",
+      "previous_photo_count": 0,
+      "photo_count": 4,
+      "new_photo_count": 4,
+      "checked_date": "2026-11-08",
+      "started_at": "2026-11-08 19:05 Africa/Kampala",
+      "initial_live_verification": "Production accommodation page returned HTTP 200 and was reviewed in full: published guide with no hero image and an empty gallery (zero dedicated photos).",
+      "source_ledger": "docs/editorial-research/2026-11-08-jollyboys-backpackers-photo-enrichment.md",
+      "note": "Reopened under the 2026-11-07 rights decision (credit-bearing CC stock acceptable). Added four visually inspected exact-property photographs from Wikimedia Commons (CC BY 2.0, Fabio Achilli / travelourplanet.com, captured 2019-08-17): hero pool with plunge pool, poolside garden, communal cushioned lounge under thatched roof, and open-air bar/dining courtyard. Stored locally as 1280px-wide JPEGs; source pages, licence, capture date and sha256 recorded in the library and ledger; credit block renders creator and CC BY 2.0 on production. Openverse commercial cross-check found no other eligible candidates. Missing verified exact-property subjects recorded in the ledger: street exterior/entrance, dorm interior, private room interior, communal kitchen/self-catering area (remaining leads are CC BY-NC/NC-SA, excluded).",
+      "files": [
+        "src/lib/photo-library.js",
+        "public/photo-library.js",
+        "public/images/editorial/jollyboys-backpackers/",
+        "docs/editorial-research/2026-11-08-jollyboys-backpackers-photo-enrichment.md",
+        "docs/image-enrichment-progress.json"
+      ],
+      "selected_images": [
+        "jollyboys-pool-jacuzzi-2019.jpg",
+        "jollyboys-pool-garden-2019.jpg",
+        "jollyboys-communal-lounge-2019.jpg",
+        "jollyboys-bar-courtyard-2019.jpg"
+      ],
+      "excluded_candidates_note": "Other same-subject Flickr leads (mwangee, Yuen-Ping) are CC BY-NC or CC BY-NC-SA (non-commercial) and excluded.",
+      "next_action": "Rotate to another reopened-by-rights collection (e.g. golden-monkey Trek exact-Volcanoes-NP subjects, Governors Camp, Camp Okavango, Desert Luxury Camp, Dar Said, Maribela Hotel, Riad Rosemary, Sabyinyo, Sanctuary Gorilla Forest Camp, Hilton Cabo Verde, The Place Resort Tokeh) or a fresh live-inventory zero-image page. Jollyboys remains open only for the four missing subjects.",
+      "mandatory_input_check": "Passed npm run check:build-inputs after node scripts/sync-photo-library.mjs; checked 2026-11-08.",
+      "published_commit": "a94a703",
+      "pushed_at": "2026-11-08 19:26 UTC (22:26 Africa/Kampala)",
+      "email_id": null,
+      "report_status": "NOT SENT: Gmail requires a sign-in in this harness browser (no saved session); owner receives this progress in chat instead. Subject prepared: \"Trek Africa Guide image update â€” [Kampala date/time]\".",
+      "live_verification": {
+        "checked_at": "2026-11-08 19:40 UTC (22:40 Africa/Kampala)",
+        "deployed_commit": "a94a703",
+        "page_http_status": 200,
+        "see_all_text": "See all 4 images",
+        "distinct_detail_image_count": 4,
+        "all_new_filenames_in_gallery": true,
+        "credits_block_present": true,
+        "asset_http_statuses": [
+          200,
+          200,
+          200,
+          200
+        ],
+        "asset_content_types": [
+          "image/jpeg",
+          "image/jpeg",
+          "image/jpeg",
+          "image/jpeg"
+        ],
+        "asset_content_lengths": [
+          603318,
+          591513,
+          355917,
+          323814
+        ],
+        "note": "Production serves the four-image Jollyboys gallery and CC BY 2.0 credits."
+      }
+    },
     {
       "id": "tokeh-and-river-no2-one-exact-unsplash-photo-2026-11-07",
       "page_url": "https://trekafricaguide.com/attractions/tokeh-and-river-no2/",
@@ -175,7 +238,7 @@
         "Conical_Tower_-_Great_Enclosure_V_(33736897638).jpg",
         "Great-Zimbabwe-still-standing_strong.jpg",
         "The_Great_Zimbabwe_Hill_Complex.jpg",
-        "Groß_Simbabwe,_Hügelsiedlung.JPG"
+        "GroÃŸ_Simbabwe,_HÃ¼gelsiedlung.JPG"
       ],
       "next_action": "Confirm the new gallery and its credits on production after the deploy build, then move ownership of this collection to completed_runs; follow with more re-opened blocked collections (e.g. Jollyboys Backpackers, golden-monkey subjects) under the new rights decision.",
       "mandatory_input_check": "Passed npm run check:build-inputs after node scripts/sync-photo-library.mjs; checked 2026-11-07.",
@@ -273,7 +336,7 @@
       "started_at": "2026-11-06 07:24 Africa/Kampala",
       "initial_live_verification": "Live inventory and full rendered guide reviewed. Gallery had one own image, the Sine-Saloum delta nesting-site photograph with CC BY-SA 4.0 credit; no missed inline images or extra defaults.",
       "source_ledger": "docs/editorial-research/2026-11-06-senegal-country-photo-enrichment.md",
-      "note": "Six exact-context Unsplash License photographs were visually reviewed and globally source/hash deduplicated: Dakar Renaissance Monument sunset, Dakar shoreline, Lac Rose salt boats, Saint-Louis pirogue harbor, Gor├⌐e harbor building and Gor├⌐e Fort from the water. Existing credited Sine-Saloum delta photo and credit unchanged. No guide copy or protected feature changed.",
+      "note": "Six exact-context Unsplash License photographs were visually reviewed and globally source/hash deduplicated: Dakar Renaissance Monument sunset, Dakar shoreline, Lac Rose salt boats, Saint-Louis pirogue harbor, Gorâ”œâŒe harbor building and Gorâ”œâŒe Fort from the water. Existing credited Sine-Saloum delta photo and credit unchanged. No guide copy or protected feature changed.",
       "files": [
         "src/lib/photo-library.js",
         "public/photo-library.js",
@@ -997,7 +1060,7 @@
       "note": "Selected six location-specific images after checking the full guide mapping. All six source pages, creators, licence terms and capture dates were verified and the source previews visually inspected. Global source-page and SHA-256 deduplication against library records, other public images and the six new files passed. Replaced the generic Cape Town stock image. The City Hall candidate was excluded because its source page was already used in the Cape Town base insight. No guide prose, layout, relationships, tracking, redirects or canonicals changed.",
       "next_action": "Rotate to another published attraction, activity, or destination with a weak or missing image gallery; inspect current assignments and ledgers first.",
       "commit": "73f18d9",
-      "live_verification": "2026-10-23 21:45 Africa/Kampala: production attraction page HTTP 200 contains all six expected image filenames. Each plain asset URL returns HTTP 200 image/jpeg: Castle of Good Hope 243051 B; Cape Point 437953 B; Signal Hill 440950 B; Bo-Kaap 263305 B; Kirstenbosch 547395 B; LionΓÇÖs Head 199580 B.",
+      "live_verification": "2026-10-23 21:45 Africa/Kampala: production attraction page HTTP 200 contains all six expected image filenames. Each plain asset URL returns HTTP 200 image/jpeg: Castle of Good Hope 243051 B; Cape Point 437953 B; Signal Hill 440950 B; Bo-Kaap 263305 B; Kirstenbosch 547395 B; LionÎ“Ã‡Ã–s Head 199580 B.",
       "email_id": "1a16a14cace3ebcd",
       "report_sent_at": "2026-10-23 21:45 Africa/Kampala"
     },
@@ -1233,7 +1296,7 @@
         "docs/editorial-research/2026-10-20-sine-saloum-photo-enrichment.md",
         "docs/image-enrichment-progress.json"
       ],
-      "live_verification": "2026-10-20 10:28 Africa/Kampala: production attraction detail HTTP 200, includes all six expected image paths and ΓÇ£See all 6ΓÇ¥; all six assets return HTTP 200 image/jpeg.",
+      "live_verification": "2026-10-20 10:28 Africa/Kampala: production attraction detail HTTP 200, includes all six expected image paths and Î“Ã‡Â£See all 6Î“Ã‡Â¥; all six assets return HTTP 200 image/jpeg.",
       "next_action": "Rotate to the next published attraction with an image gap; continue checking source uniqueness across every detail collection.",
       "note": "Replaced the previously shared stock hero because it is also assigned to the Senegal country detail. Six new distinct licensed exact-delta photos are used in this attraction detail gallery.",
       "commit": "9d2e5d5",
@@ -1278,7 +1341,7 @@
         "docs/editorial-research/2026-10-20-victoria-falls-rafting-photo-enrichment.md",
         "docs/image-enrichment-progress.json"
       ],
-      "live_verification": "2026-10-20 Africa/Kampala: production activity page HTTP 200 and markup displays ΓÇ£See all 6ΓÇ¥; all six distinct image asset URLs returned HTTP 200 with image/jpeg.",
+      "live_verification": "2026-10-20 Africa/Kampala: production activity page HTTP 200 and markup displays Î“Ã‡Â£See all 6Î“Ã‡Â¥; all six distinct image asset URLs returned HTTP 200 with image/jpeg.",
       "next_action": "Rotate to another published zero-photo activity or attraction; retain blocked property-rights follow-ups unless new licensed exact-property evidence appears.",
       "note": "Six visually inspected Creative Commons images depict Zambezi rafting near Victoria Falls or the Batoka Gorge river. No operator, named participant, or tour-participant claim is attached. Duplicates were checked by source URL and SHA-256 against the photo library.",
       "email_id": "1a1590d5a34f4b6c",
@@ -1403,7 +1466,7 @@
         "docs/editorial-research/2026-10-22-victoria-falls-first-visit-photo-enrichment.md",
         "docs/image-enrichment-progress.json"
       ],
-      "note": "Six visually inspected, distinct Creative Commons photographs support the articleΓÇÖs Zimbabwe/Zambia falls viewpoints, rainforest, Knife Edge, Victoria Falls Bridge and upstream Zambezi context. Original source pages, creators, licence versions, capture dates, evidence, review date, alt text, captions, restrictions and SHA-256 hashes are recorded in the source ledger and photo library. No duplicates against other library assignments; no article prose changes.",
+      "note": "Six visually inspected, distinct Creative Commons photographs support the articleÎ“Ã‡Ã–s Zimbabwe/Zambia falls viewpoints, rainforest, Knife Edge, Victoria Falls Bridge and upstream Zambezi context. Original source pages, creators, licence versions, capture dates, evidence, review date, alt text, captions, restrictions and SHA-256 hashes are recorded in the source ledger and photo library. No duplicates against other library assignments; no article prose changes.",
       "next_action": "Rotate to another published activity, attraction or destination with a verified image gap; inspect current image assignments before selection.",
       "commit": "261545f",
       "live_verification": "2026-10-22 08:29 Africa/Kampala: production travel insight HTTP 200 contains all six expected image filenames; all six plain JPEG URLs return HTTP 200 image/jpeg.",
@@ -1428,7 +1491,7 @@
         "docs/editorial-research/2026-10-22-stone-town-walking-tour-photo-enrichment.md",
         "docs/image-enrichment-progress.json"
       ],
-      "note": "Six distinct Commons photographs illustrate Stone TownΓÇÖs Darajani market, an archival alley scene and historic architecture. Captions state capture dates and avoid asserting the chosen tour visits a pictured landmark; the House of Wonders is explicitly dated to its 2021 exterior renovation. Creator, licence version, source evidence, dates, alt text, restrictions and SHA-256 are documented in the dated ledger and photo library. No URL/hash duplicate across other library assignments; no factual activity copy changed.",
+      "note": "Six distinct Commons photographs illustrate Stone TownÎ“Ã‡Ã–s Darajani market, an archival alley scene and historic architecture. Captions state capture dates and avoid asserting the chosen tour visits a pictured landmark; the House of Wonders is explicitly dated to its 2021 exterior renovation. Creator, licence version, source evidence, dates, alt text, restrictions and SHA-256 are documented in the dated ledger and photo library. No URL/hash duplicate across other library assignments; no factual activity copy changed.",
       "next_action": "Rotate to another published activity or attraction with an evidenced photo gap; review the full page and deduplicate source URL and image hash against all detail collections.",
       "commit": "6a7a090",
       "live_verification": "2026-10-22 10:36 Africa/Kampala: production activity page HTTP 200; all six expected image filenames present and gallery shows See all 6. All six plain JPEG URLs return HTTP 200 image/jpeg.",
@@ -2094,7 +2157,7 @@
         "docs/image-enrichment-progress.json"
       ],
       "started_at": "2026-10-27 15:11 Africa/Kampala",
-      "initial_live_verification": "Production activity detail returned HTTP 200 and displayed See all 2 images. Two existing gallery assignments/defaults are the activityΓÇÖs collection; logo and related-card images are separate page elements. Existing hero and assigned photos remain unchanged.",
+      "initial_live_verification": "Production activity detail returned HTTP 200 and displayed See all 2 images. Two existing gallery assignments/defaults are the activityÎ“Ã‡Ã–s collection; logo and related-card images are separate page elements. Existing hero and assigned photos remain unchanged.",
       "note": "Added four visually reviewed, exact-Maasai-Mara balloon photographs under Pexels and Unsplash licenses that do not require public attribution. Subjects vary across aerial sunrise view, balloon over plains, an aerial balloon/wildebeest scene and a dawn lift. Full guide reviewed; no copy or protected site behavior changed. Source URLs, creators, license evidence/version, page and capture dates where stated, exact-location evidence, alt text and SHA-256 are recorded internally. Global source URL and SHA-256 dedup against the library and all local public image files found no matches. Gallery total is six.",
       "next_action": "Rotate to one genuinely underfilled guide with exact-subject, no-public-attribution photos; count rendered gallery defaults and all inline images before selecting.",
       "published_commit": "899c4c2390316ba105c45eb33a51eb21a2c3e979",
@@ -2259,7 +2322,7 @@
       "checked_date": "2026-10-30",
       "started_at": "2026-10-30 10:56 Africa/Kampala",
       "initial_live_verification": "Production activity returned HTTP 200 and displayed See all 5 images: two existing defaults and three earlier Atlas activity photographs. Twelve total img tags include gallery/modal repeats, logo and linked-card imagery; there are no additional inline guide photographs.",
-      "note": "One bounded exact Ouka├»meden search returned the already-used image. A new Pexels regional field/village photograph was visually inspected and excluded because its source only established Morocco/Atlas context, not a named route stop, and the preview did not visibly show the range. No image or site-content changes made. The prior five-image partial remains accurately counted.",
+      "note": "One bounded exact Oukaâ”œÂ»meden search returned the already-used image. A new Pexels regional field/village photograph was visually inspected and excluded because its source only established Morocco/Atlas context, not a named route stop, and the preview did not visibly show the range. No image or site-content changes made. The prior five-image partial remains accurately counted.",
       "source_ledger": "docs/editorial-research/2026-10-30-atlas-mountains-day-trip-photo-checkpoint.md",
       "files": [
         "docs/editorial-research/2026-10-30-atlas-mountains-day-trip-photo-checkpoint.md",
@@ -2604,7 +2667,7 @@
       "started_at": "2026-11-06 12:16 UTC (15:16 Africa/Kampala)",
       "initial_live_verification": "Production page returned HTTP 200 and displayed the existing six-image collection before editing. Full page reviewed; the new photo illustrates the early regional road context described in Day 1.",
       "source_ledger": "docs/editorial-research/2026-11-06-kibale-dawn-image-enrichment.md",
-      "note": "Added one visually inspected Unsplash License photo with exact Kibale-area Fort PortalΓÇôKamwenge road context and no public-attribution requirement. The page now contains a seventh inline figure, with a caption that does not imply a trek departure time or current conditions. Global source-page and SHA-256 dedup found no existing assignment or public-file match. A duplicate Mpanga Market photo was excluded because it already appears in the separate Fort Portal guide. Existing required credits and all factual copy/protected features remain unchanged.",
+      "note": "Added one visually inspected Unsplash License photo with exact Kibale-area Fort PortalÎ“Ã‡Ã´Kamwenge road context and no public-attribution requirement. The page now contains a seventh inline figure, with a caption that does not imply a trek departure time or current conditions. Global source-page and SHA-256 dedup found no existing assignment or public-file match. A duplicate Mpanga Market photo was excluded because it already appears in the separate Fort Portal guide. Existing required credits and all factual copy/protected features remain unchanged.",
       "files": [
         "content/editorial-overrides.json",
         "src/lib/photo-library.js",
@@ -2630,7 +2693,7 @@
         "new_asset_http_status": 200,
         "new_asset_content_type": "image/jpeg",
         "new_asset_content_length": 171826,
-        "note": "Production insight HTML contains seven Kibale collection image paths including the new dawn file; no gallery ΓÇ£See allΓÇ¥ control is used for this inline travel insight."
+        "note": "Production insight HTML contains seven Kibale collection image paths including the new dawn file; no gallery Î“Ã‡Â£See allÎ“Ã‡Â¥ control is used for this inline travel insight."
       },
       "email_id": "1a1b0dbbe1d1bec0",
       "report_sent_at": "2026-11-06 15:34 Africa/Kampala"
@@ -2647,7 +2710,7 @@
       "started_at": "2026-11-06 17:19 UTC (20:19 Africa/Kampala)",
       "initial_live_verification": "Production activity page returned HTTP 200 and was reviewed in full. Its own gallery was empty; the single live image was a related mountain-gorilla card and excluded from this page count.",
       "source_ledger": "docs/editorial-research/2026-11-06-volcanoes-golden-monkey-photo-enrichment.md",
-      "note": "Added one visually reviewed Commons CC0 1.0 Mount Sabyinyo/Volcanoes National Park setting image. It is directly relevant to the guideΓÇÖs named Sabyinyo bamboo-zone group, but shows neither monkeys nor a trek. The golden-monkey photo requiring CC BY-SA and generic Rwanda portraits without exact park evidence were excluded. Full public-image SHA-256 and photo-library source URL checks found no duplicates. Kinigi, bamboo-route, monkey and trek-participation subjects remain specific documented gaps. Existing credits and all page copy remain unchanged.",
+      "note": "Added one visually reviewed Commons CC0 1.0 Mount Sabyinyo/Volcanoes National Park setting image. It is directly relevant to the guideÎ“Ã‡Ã–s named Sabyinyo bamboo-zone group, but shows neither monkeys nor a trek. The golden-monkey photo requiring CC BY-SA and generic Rwanda portraits without exact park evidence were excluded. Full public-image SHA-256 and photo-library source URL checks found no duplicates. Kinigi, bamboo-route, monkey and trek-participation subjects remain specific documented gaps. Existing credits and all page copy remain unchanged.",
       "files": [
         "src/lib/photo-library.js",
         "public/photo-library.js",
