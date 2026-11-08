@@ -465,7 +465,8 @@
     "cms": "Pending: TREK_SUPABASE_PUBLISHABLE not set in run environment; .env.netlify in both checkouts holds placeholder values (your-project.supabase.co / sb_publishable_example). Owner action: set TREK_SUPABASE_PUBLISHABLE (and real SUPABASE_URL) so mirror reconcile can read public tables; editorial_documents stays unreadable without service-role regardless.",
     "email_id": null,
     "images": 0,
-    "next_action": "Owner grants push rights → push 0bd40e7, wait Netlify deploy, verify the activity URL HTTP 200 + rendered copy + photo assets, then reconcile CMS and send owner report; owner supplies publishable key in env for the public-tables read."
+    "next_action": "Owner grants push rights → push 0bd40e7, wait Netlify deploy, verify the activity URL HTTP 200 + rendered copy + photo assets, then reconcile CMS and send owner report; owner supplies publishable key in env for the public-tables read.",
+    "email_status": "Prepared but NOT sent: Gmail sign-in required in agent browser (routine-run policy: report required sign-in, no takeover). Owner: danmugisa@gmail.com — body covers shipped deliverable, live receipt (none — push 403), photo summary (0 new photos: no inventable imagery), blockers (push rights, publishable key env, Gmail sign-in)."
   },
   "latest_run_checkpoint_2026_11_07": {
     "date": "2026-11-07",
