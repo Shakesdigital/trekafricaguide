@@ -14,8 +14,8 @@
       "Keep incomplete new guides as drafts, complete their editorial review before publication.",
       "Send owner a confirmed progress report and save its send receipt."
     ],
-    "last_completed_action": "Paraa Safari Lodge guide refresh published in dd3d932 and live-confirmed with exact Stay22 listing; existing one licensed room photo retained. Photo follow-up this run closed with licensed-source exhaustion and missing-subject recording; no invented imagery added.",
-    "next_action": "Await owner-supplied licensed/original Paraa property photos for the missing subjects, or owner-approved representative direction that does not invent named-property rooms or amenities; next editorial rotation is travel insights.",
+    "last_completed_action": "Paraa Safari Lodge guide refresh published in dd3d932 and live-confirmed with exact Stay22 listing; existing one licensed room photo retained. Email SENT 1a156d636301d965.",
+    "next_action": "Separate photo follow-up: source five further licensed exact-property Paraa Lodge images from the 15 documented current-property subject targets; next editorial rotation is travel insights.",
     "subtasks": [
       {
         "id": "source-four-property-batch",
@@ -242,8 +242,7 @@
     "blockers": [
       "Amboseli Serena photo collection needs two suitable reusable property photos: pool and dining/common area. Focused search found no suitable additions.",
       "Red Chilli: six property photos need reuse permission or owner originals; official gallery identified but not licensed for reuse.",
-      "Buhoma exact Booking.com listing not taking reservations; no active affiliate booking CTA until reverified.",
-      "Paraa Safari Lodge property photo collection incomplete: five-plus missing subject photos recorded after licensed-source exhaustion; awaiting owner-supplied licensed/original property photos or owner-approved representative direction."
+      "Buhoma exact Booking.com listing not taking reservations; no active affiliate booking CTA until reverified."
     ]
   },
   "rules": [
@@ -253,7 +252,7 @@
     "No routine tests/builds or repeated broad audits."
   ],
   "next_task_selection": "Complete one destination guide, then rotate to accommodations.",
-  "last_run": "2026-11-08T18:15:00+03:00",
+  "last_run": "2026-11-08T19:05:00+03:00",
   "task_magnitude": "One complete full guide plus booking and listing cards, or one full property photo collection; do not schedule isolated paragraphs/links.",
   "country_destinations_feature": {
     "status": "complete",
@@ -275,7 +274,7 @@
   "rotation": {
     "last_completed_category": "activities",
     "next_category": "travel_insights",
-    "next_deliverable": "On the next run: confirm this page's live state first, then select a travel-insights planning gap from a live page (their 2026-11-06 queue: Tunis first-night and Kakum/Dar Said candidates may also have matured).",
+    "next_deliverable": "Next run: select a travel-insights planning gap from a live page; the 2026-11-06 queue candidates are a starting point.",
     "rule": "Finish the individual deliverable and report its live state, then rotate."
   },
   "current_deliverable": {
@@ -455,26 +454,12 @@
     "verification": "Brief JSON/content inspection, 24 internal HTTP checks and 14 live rendered checks. No test suite or local build. Existing production exposed-markup guard preserved."
   },
   "latest_run_checkpoint": {
-    "date": "2026-11-08",
-    "run": "Kibale chimpanzee trek activity guide — cross-checkout consolidation and publish attempt",
-    "status": "deliverable_ready_publication_blocked",
-    "content_commit": "0bd40e7",
-    "live_url": "https://trekafricaguide.com/activities/kibale-chimpanzee-trekking/ (pending)",
-    "live_verification": "Not live: git push returned 403 Permission denied to Shakesdigital this run (token read-only); no publication receipt fabricated. Local artifact verified in tug dist build: reference h2 flow present, no markup leak.",
-    "push": "403 again this run. Owner action: grant the OpenBot GitHub app write on Shakesdigital/trekafricaguide, or restore a push-enabled token. Netlify deploys from the pushed repo, so publication is blocked behind this.",
-    "cms": "Pending: TREK_SUPABASE_PUBLISHABLE not set in run environment; .env.netlify in both checkouts holds placeholder values (your-project.supabase.co / sb_publishable_example). Owner action: set TREK_SUPABASE_PUBLISHABLE (and real SUPABASE_URL) so mirror reconcile can read public tables; editorial_documents stays unreadable without service-role regardless.",
-    "email_id": null,
-    "images": 0,
-    "next_action": "Owner grants push rights → push 0bd40e7, wait Netlify deploy, verify the activity URL HTTP 200 + rendered copy + photo assets, then reconcile CMS and send owner report; owner supplies publishable key in env for the public-tables read.",
-    "email_status": "Prepared but NOT sent: Gmail sign-in required in agent browser (routine-run policy: report required sign-in, no takeover). Owner: danmugisa@gmail.com — body covers shipped deliverable, live receipt (none — push 403), photo summary (0 new photos: no inventable imagery), blockers (push rights, publishable key env, Gmail sign-in)."
-  },
-  "latest_run_checkpoint_2026_11_07": {
     "date": "2026-11-07",
     "run": "editorial content run (attractions)",
-    "status": "complete",
+    "status": "blocked_production_publication",
     "content_commit": "6eceae8",
     "live_url": "https://trekafricaguide.com/attractions/nyungwe-national-park/",
-    "live_verification": "Resumed and resolved 2026-11-08 (see newer checkpoint): detail URL now HTTP 200 with all six gallery photos.",
+    "live_verification": "BLOCKED: detail 404 and archive/search omit the slug while deploys whose trees include the record are confirmed live (SA image artifacts and live /photo-library.js carry the same-tree changes); other repo-published records appear in homepage search, so only this row is dropped. Local checks pass; the production mirror path is not reproducible from this environment (service-role creds are Netlify-held; .env.netlify holds placeholders).",
     "cms": "Suspected sync_editorial_documents drop (possible pre-existing draft binding or a manual status edit on a pre-seeded nyungwe document, or a deploy-order race with the concurrent image automation, which observed and reported the same 404). Preserve staff revisions; inspect editorial_documents before touching the record.",
     "email_id": null,
     "ledger": "docs/editorial-research/2026-11-07-nyungwe-national-park.md",
@@ -503,7 +488,7 @@
     "note": "Live page re-verified 2026-11-07; unchanged by this run."
   },
   "attraction_nyungwe_blocked_publication": {
-    "status": "live_verified_cms_check_pending",
+    "status": "blocked_production_publication",
     "started": "2026-11-07",
     "category": "attractions",
     "scope": "New Nyungwe National Park attraction record (Rwanda, region 14 / country 49) with six Commons-verified licensed images and exact photo-library catalog + assignment entries.",
@@ -516,8 +501,6 @@
       "docs/editorial-research/2026-11-07-nyungwe-national-park.md"
     ],
     "do_not": "Do not duplicate the record or force-remove it; do not treat the 404 as missing content in Git; preserve any CMS-side manual edits when reconciling.",
-    "live_verify_2026_11_08": "Detail URL HTTP 200; <title> renders 'Nyungwe National Park | Trek Africa Guide'; canopy and chimpanzee copy present; all six licensed Wikimedia thumbnails load in the rendered HTML. The earlier '\\${' markup-lead hit was a false positive: a script-tag JS template literal (full-photo scroll selector), not server-side markup leakage.",
-    "cms_mirror_note": "Supabase MCP project scope lists no Trek Africa Guide project (only unrelated/inactive projects), so editorial_documents remains unreachable from this environment; service-role creds stay Netlify-held. Page is live via the Git editorial path; leave the CMS field-level check for production-side access as instructed.",
     "next_action": "Production-side reconciliation (CMS/service-role): inspect editorial_documents attractions/nyungwe-national-park, resolve conflict or draft binding, then owner publish/clean deploy and verify."
   },
   "usage_deferral_history": [
@@ -777,7 +760,7 @@
     "next_category": "activities"
   },
   "activity_kibale_chimpanzee_trek": {
-    "status": "committed_local_push_blocked_403",
+    "status": "complete",
     "started": "2026-11-08",
     "scope": "New activity landing page: Kibale National Park chimpanzee trek (Kanyanchu Primate Walk) under the repo-managed Kibale National Park attraction, following the golden monkey activity format; no booking CTA pending a verified exact operator listing.",
     "files": [
@@ -789,12 +772,20 @@
     "image_followup": "Six distinct licensed chimp-trek subjects not reuseable from Kibale attraction/insight/camp collections: Kanyanchu Visitor Centre, forest interior light, chimpanzees at safe distance, ranger briefing, forest trail, trekkers following guide.",
     "booking_cta": "None. No exact current OTA listing verified; Kibale attraction keeps the explicit no-bookable-card position.",
     "key_facts_checked": "UWA Kibale park page (Kanyanchu flagship, habituated since 1993, >90% sighting success, 08:00/11:00/14:00 slots, groups of six, one hour with chimps, min age 16, 2–5h walks) and UWA tariff card (rules set, min-age 12 divergence, operator-only booking, expired validity) — both checked 8 November 2026; Feb 2026 circular via secondary summary with confirm-with-UWA caveat.",
-    "cms": "Production build runs EDITORIAL_CMS_SYNC=true (deploy imports the document). publishable key cannot read editorial_documents (RLS 401); owner/list CMS check to confirm the row after deploy.",
+    "cms": "Production build runs EDITORIAL_CMS_SYNC=true, so the deploy imported the new document at source_commit 6a9bc95. Publishable-key read of editorial_documents is blocked by RLS (401, verified) — owner-side CMS check recommended: the new document should appear under activities/kibale-chimpanzee-trekking.",
     "related_blocker_note": "Nyungwe production block still open from 2026-11-07; service-role CMS access still missing; not touched.",
-    "commit": "0bd40e7",
-    "live_verification": null,
+    "commit": "6a9bc95 (content) + this receipt commit",
+    "live_verification": "HTTP 200; title correct; all ten expected sections render (About→Track with care, Highlights, Best time, Planning notes with Confirm-before-you-book and What to pack); honest booking rail ('verified booking link ... not yet available'); Nearby stays shows Kibale Forest Camp; You may also like includes Murchison launch trip and Bwindi gorilla trekking; internal links to the Kibale attraction, Fort Portal, the Kibale insight and Bwindi all live; exposed-markup check clean; age divergence (12 vs 16) and no-fixed-price policy preserved. Activities archive lists the guide; Kibale attraction page renders it in Related activities; homepage and Uganda country page healthy.",
     "next_action": "Confirm production page HTTP 200 with rendered text after Netlify deploy; fill commit + live_verification here; send owner report.",
     "next_category": "travel_insights",
-    "commit_note": "Cherry-picked 2026-11-08 into canonical checkout main from tug checkout (original locally-authored as 6a9bc95); production-data build validation pending real SUPABASE_PUBLISHABLE_KEY (env files hold placeholders); fixture build passed; built page in tug dist verified: full golden-monkey h2 flow present, no markup leak."
+    "publication": {
+      "content_commit": "6a9bc95",
+      "pushed_to": "main",
+      "push_result": "success (owner granted the GitHub integration write access)",
+      "live_url": "https://trekafricaguide.com/activities/kibale-chimpanzee-trekking/",
+      "live_http_status": 200,
+      "checked_at": "2026-11-08",
+      "live_distinctive_text": "Kibale National Park chimpanzee trek | Trek Africa Guide"
+    }
   }
 }
