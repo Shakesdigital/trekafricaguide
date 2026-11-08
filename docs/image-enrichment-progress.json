@@ -32,7 +32,7 @@
     "published_commit": "a94a703",
     "pushed_at": "2026-11-08 19:26 UTC (22:26 Africa/Kampala)",
     "email_id": null,
-    "report_status": "NOT SENT: no Gmail send tool in this harness; owner receives this progress in chat instead.",
+    "report_status": "NOT SENT: Gmail requires a sign-in in this harness browser (no saved session); owner receives this progress in chat instead. Subject prepared: \"Trek Africa Guide image update — [Kampala date/time]\".",
     "live_verification": {
       "checked_at": "2026-11-08 19:40 UTC (22:40 Africa/Kampala)",
       "deployed_commit": "a94a703",
