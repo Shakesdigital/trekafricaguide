@@ -31,13 +31,13 @@
       }
     },
     "emerson-spice": {
-      "url": "https://www.expedia.com/Zanzibar-Town-Hotels-Emerson-Spice-Hotel.h31570310.Hotel-Information",
-      "provider": "expedia",
-      "title": "Emerson Spice Hotel",
+      "url": "https://www.booking.com/hotel/tz/emersonspice.en-gb.html",
+      "provider": "booking",
+      "title": "Emerson Spice, Zanzibar City (Stone Town)",
       "checked_at": "2026-11-08",
       "evidence": {
-        "source_url": "https://www.expedia.com/Zanzibar-Town-Hotels-Emerson-Spice-Hotel.h31570310.Hotel-Information",
-        "summary": "Rechecked 8 November 2026: the previous Spanish-locale URL demoted through the Stay22 wrapper to an Expedia destination search for Kiponda, Zanzibar. The English property-detail URL (property ID 31570310, rooms Belle, Violetta and Mimi) redirects through the Stay22 wrapper to the h31570310 Hotel-Information property page in redirect-chain checks. Expedia intermittently returns rate-limited search fallbacks on retry requests; a production-link browser click-through is recorded separately. No rate, availability, rating or review claims made."
+        "source_url": "https://www.booking.com/hotel/tz/emersonspice.en-gb.html",
+        "summary": "8 November 2026: the Expedia property-detail URL (property ID 31570310, rooms Belle, Violetta and Mimi) demoted in real-browser click-throughs through the Stay22 wrapper to an Expedia Hotel-Search page for Kiponda/Zanzibar rather than the property page; server-side retries alternated between the property page and rate-limited search fallbacks, so the Expedia entry could not be trusted. Switched to the exact Booking.com property listing identified by search-engine retrieval as 'Emerson Spice, Zanzibar City' (Stone Town Beach about 300 m); the Stay22 wrapper preserves the /hotel/tz/emersonspice.html detail path, matching the verified pattern of the other Booking.com entries. Do not confuse with Emerson on Hurumzi, a different property. Direct Booking.com detail content is bot-walled to automated retrieval; no rate, availability, rating or review claims made."
       }
     },
     "hilton-cabo-verde-sal-resort": {
@@ -154,11 +154,9 @@
       "url": "https://www.expedia.com/Freetown-Hotels-The-Place-Resort-At-Tokeh-Beach.h7863256.Hotel-Information",
       "provider": "expedia",
       "title": "The Place Resort at Tokeh Beach",
-      "checked_at": "2026-10-11",
-      "evidence": {
-        "source_url": "https://www.expedia.com/Freetown-Hotels-The-Place-Resort-At-Tokeh-Beach.h7863256.Hotel-Information",
-        "summary": "Primary detail identifies Peninsula Road, Tokeh Beach, Freetown, Sierra Leone, with 50 rooms."
-      }
+      "status": "hold",
+      "checked_at": "2026-11-08",
+      "hold_reason": "Stay22 maps the exact Expedia property (h7863256) but real-browser click-throughs through the wrapper land on an Expedia Hotel-Search page for Tokeh (regionId/selected=7863256) rather than the property detail page; a search-page landing must not ship as a booking CTA. No exact Booking.com, Agoda or other supported OTA listing for this property has been verified (search-engine checks on 8 November 2026 found no Booking.com property page). Keep the recorded exact Expedia URL for recheck; do not substitute namesakes or a Tokeh-area search."
     },
     "victoria-falls-hotel": {
       "url": "https://www.booking.com/hotel/zw/the-victoria-falls.en-gb.html",

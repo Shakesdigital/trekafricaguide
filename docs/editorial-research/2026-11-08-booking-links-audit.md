@@ -35,11 +35,13 @@ registry links; targeted fixes. No editorial or image agent files were touched.
 
 ## Fixes and additions this run
 
-1. ** accommodations/emerson-spice ** — registry URL switched from the Spanish-locale page
-   (`/es/…Informacion-Hotel`) to the English property-detail URL
-   (`https://www.expedia.com/Zanzibar-Town-Hotels-Emerson-Spice-Hotel.h31570310.Hotel-Information`).
-   The Spanish URL demoted to a Kiponda destination search in every chain check; the English
-   URL redirects to the property page. Evidence limitations disclosed in the registry.
+1. **accommodations/emerson-spice** — two-step fix, final state is the Booking.com entry.
+   First pass switched the Spanish-locale Expedia URL to its English property-detail form
+   (property ID 31570310) after wrapper-chain checks suggested the property page; a deployed
+   real-browser click-through refuted this (Hotel-Search landing), so the entry was switched to
+   the exact Booking.com listing `/hotel/tz/emersonspice.en-gb.html`, whose wrapper preserves
+   the detail path (matching the 20 verified Booking.com entries). Registry evidence carries
+   the full rationale and the Emerson-on-Hurumzi namesake warning.
 2. **activities/cape-coast-kakum-guided-visit** — hold lifted. The 2026-10-24 hold followed a
    non-browser retrieval returning a page shell. The exact product page (834942) was retrieved
    in a browser session today: Expedition-Go Tours, 4.7/5 from 220 reviews, itinerary covers
@@ -73,11 +75,23 @@ registry links; targeted fixes. No editorial or image agent files were touched.
   untestable; deferred until the publication blocker resolves.
 - **activities/victoria-falls-zambezi-white-water-rafting**: no CTA is the editor-recorded
   position. Untouched.
-- **Unverified-at-scale limitation**: this run verified landing URLs and product identity.
-  Payment/checkout completion, affiliate attribution and live rates were not, and per prior
-  rules are never, verified.
-- **tokeh (accommodations/the-place-resort-tokeh)**: left registered (exact Expedia property
-  h7863256); flip-flop landing behavior documented above; browser click-through pending below.
+- **Verification-method limitation**: server-side wrapper-chain checks alone are sufficient
+  evidence for the GetYourGuide and Booking.com landings observed across all sampled links, but
+  not for Expedia entries, where real-browser click-through is required before any Expedia link
+  is trusted. Payment/checkout completion, affiliate attribution and live rates were not, and
+  per prior rules are never, verified.
+## Real-browser click-through results (production links, 8 November)
+
+- **emerson-spice (after the English-Expedia fix)**: production click-through landed on an
+  Expedia Hotel-Search page for Kiponda/Zanzibar, not the property page. Decision: the
+  registry entry was switched to the exact Booking.com property listing
+  `/hotel/tz/emersonspice.en-gb.html` ("Emerson Spice, Zanzibar City", Stone Town Beach about
+  300 m; do not confuse with Emerson on Hurumzi), whose Stay22 wrapper preserves the exact
+  detail path. Re-verified after redeploy (see checkpoint).
+- **the-place-resort-tokeh**: production click-through landed on an Expedia Hotel-Search page
+  for Tokeh (`selected=7863256`), not the property page. Held per audit rules.
+
+## Gaps held, with reasons
 
 ## Next audit priority
 

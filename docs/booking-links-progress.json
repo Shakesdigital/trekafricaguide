@@ -2,35 +2,52 @@
   "updated_at": "2026-11-08",
   "owner": "booking-links audit agent",
   "ledger": "docs/editorial-research/2026-11-08-booking-links-audit.md",
-  "this_run": {
+  "run_1": {
     "verified_active_links": 56,
     "verified_ok": 54,
     "verified_ambiguous": 2,
-    "ambiguous": ["accommodations/emerson-spice (fixed)", "accommodations/the-place-resort-tokeh (pending browser click-through)"],
-    "fixed": 1,
-    "added": 2,
-    "holds_lifted": 1,
     "changes": [
-      { "slug": "accommodations/emerson-spice", "change": "URL switched to English Expedia property detail (property 31570310); es-locale URL demoted to a Kiponda destination search through the wrapper", "verified": "wrapper chain redirects to property page; browser click-through below" },
       { "slug": "activities/cape-coast-kakum-guided-visit", "change": "2026-10-24 hold lifted after browser recheck; 4.7/220 evidence added", "verified": "browser 2026-11-08" },
       { "slug": "attractions/cape-coast-kakum", "change": "review aggregate refreshed 4.7/211 -> 4.7/220", "verified": "browser 2026-11-08" },
       { "slug": "attractions/jozani-forest", "change": "NEW entry: GYG t968921 Jozani Forest Nature Walk and Wildlife Tour, Zanzibar blessing tours and safari, 5/2 (review-limited disclosed)", "verified": "browser 2026-11-08" },
       { "slug": "attractions/elmina-castle", "change": "NEW entry: GYG t834942 Castle Coast day tour (exact product shared with the existing Cape Coast attraction entry, per registry precedent)", "verified": "browser 2026-11-08" }
-    ]
+    ],
+    "commit": "4e080ae"
+  },
+  "run_2_browser_verification": {
+    "finding": "Real-browser click-throughs of production links showed the two Expedia accommodation entries land on Expedia Hotel-Search pages, not property detail pages; server-side 429 alternation was Expedia rate-limit noise, not proof.",
+    "changes": [
+      { "slug": "accommodations/emerson-spice", "change": "Switched to exact Booking.com property listing /hotel/tz/emersonspice.en-gb.html (Stay22 wrapper preserves the detail path); es-locale URL had demoted to a Kiponda destination search, and both Expedia URL variants demote to Hotel-Search in-browser", "verified": "wrapper chain preserves /hotel/tz/emersonspice.html; production re-click recorded below" },
+      { "slug": "accommodations/the-place-resort-tokeh", "change": "Held: exact Expedia property h7863256 mapped by Stay22 but browser landing is Hotel-Search; no verified exact Booking.com/Agoda listing; URL kept for recheck", "verified": "browser 2026-11-08" }
+    ],
+    "method_rule": "Server-side wrapper chains are accepted evidence for getyourguide and booking landings; every expedia entry requires a real-browser click-through before being trusted."
   },
   "gaps_held": {
+    "accommodations/the-place-resort-tokeh": "Browser landing is Expedia Hotel-Search; search pages must not ship; recheck and provider switch pending.",
     "attractions/great-zimbabwe": "All GYG candidates are cross-city transfer products (Harare 14h t741591, Bulawayo t1480708/t1048201); the activity copy directs readers to arrange transfers separately — logistics mismatch, not an exact on-site visit.",
     "attractions/kwame-nkrumah-memorial-park": "GYG search returned no Ghana product (generic fallback only).",
     "attractions/kibale-national-park": "No verified exact operator listing; canonical no-bookable-card position per 2026-11-08 editorial record.",
     "attractions/nyungwe-national-park": "Deferred: production detail 404 (CMS publication blocker); booking row untestable until resolved.",
     "activities/victoria-falls-zambezi-white-water-rafting": "No CTA is the editor-recorded position.",
     "accommodations_unavailable": ["camp-okavango", "governors-camp", "mfuwe-lodge", "riad-rosemary", "sabyinyo-silverback-lodge", "sanctuary-gorilla-forest-camp", "terres-touareg-guest-house", "desert-luxury-camp", "buhoma-community-rest-camp (listing not taking reservations)"],
-    "giza_and_stone_town_previous_holds": "attractions/lalibela hold per advisory; giza hold combo (OceanAir shell) unchanged and left untouched this run"
+    "giza_and_lalibela_holds": "Previous holds unchanged this run (OceanAir shell caveat; Amhara advisory)."
+  },
+  "production_verification": {
+    "deploy_with_run_1": {
+      "checked_at": "2026-11-08",
+      "jozani": "attractions/jozani-forest/ contains Stay22 t968921 link",
+      "elmina": "attractions/elmina-castle/ contains Stay22 t834942 link",
+      "emerson": "accommodations/emerson-spice/ contains the Stay22 expedia link (run-1 state)",
+      "method": "HTTP 200 + presence checks on production HTML"
+    }
   },
   "constraints_kept": {
-    "editorial_agents": "No files of editorial/image agents staged or modified; dist/ artifacts left untouched; deploy-*.zip untouched.",
+    "editorial_agents": "No files of editorial/image agents staged or modified; dist/ artifacts and deploy-*.zip untouched.",
     "verify_standard": "Landings + product identity verified; checkout, attribution and rates never claimed."
   },
-  "browser_clickthroughs": [],
-  "next_action": "Click-verify production emerson/tokeh/jozani/elmina links in a real browser, record results here; then re-research the eight unavailable accommodations and Great Zimbabwe/Kibale with browser sessions."
+  "browser_clickthroughs": [
+    { "slug": "accommodations/emerson-spice", "when": "2026-11-08", "result": "Expedia Hotel-Search landing -> provider switched to Booking.com exact listing" },
+    { "slug": "accommodations/the-place-resort-tokeh", "when": "2026-11-08", "result": "Expedia Hotel-Search landing -> held" }
+  ],
+  "next_action": "Re-verify production emerson (Booking.com path after run-2 deploy) and confirm tokeh CTA suppressed; then re-research the eight unavailable accommodations and Great Zimbabwe/Kibale gaps with real-browser sessions."
 }
