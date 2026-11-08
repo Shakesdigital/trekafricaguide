@@ -1,51 +1,66 @@
 {
   "updated_at": "2026-11-07",
   "current_run": {
-    "id": "tokeh-and-river-no2-one-exact-unsplash-photo-2026-11-07",
-    "page_url": "https://trekafricaguide.com/attractions/tokeh-and-river-no2/",
-    "page_type": "attraction",
+    "id": "jollyboys-backpackers-four-photo-licensed-gallery-2026-11-08",
+    "page_url": "https://trekafricaguide.com/accommodations/jollyboys-backpackers/",
+    "page_type": "accommodation",
     "status": "published_live_confirmed",
-    "previous_photo_count": 2,
-    "photo_count": 3,
-    "new_photo_count": 1,
-    "checked_date": "2026-11-07",
-    "started_at": "2026-11-07 01:18 UTC (04:18 Africa/Kampala)",
-    "initial_live_verification": "Production guide returned HTTP 200 and was reviewed in full. Its gallery has two distinct guide images (a River Number Two canoe and palm-lined Tokeh Beach); repeated carousel rendering and the nearby stay card were excluded. No inline body photograph was present.",
-    "source_ledger": "docs/editorial-research/2026-11-07-tokeh-and-river-no2-photo-enrichment.md",
-    "note": "Added one visually reviewed aerial Tokeh Beach and pier image from Unsplash under its License, which requires no public attribution. The source page identifies Tokeh, Sierra Leone; source URL is not assigned elsewhere and SHA-256 has no match across the other 722 public/images files. Exact Tokeh / River Number Two Commons candidates requiring credit were excluded under the current no-new-public-attribution instruction. Existing gallery assignments and required credits remain unchanged.",
+    "previous_photo_count": 0,
+    "photo_count": 4,
+    "new_photo_count": 4,
+    "checked_date": "2026-11-08",
+    "started_at": "2026-11-08 19:05 Africa/Kampala",
+    "initial_live_verification": "Production accommodation page returned HTTP 200 and was reviewed in full: published guide with no hero image and an empty gallery (zero dedicated photos).",
+    "source_ledger": "docs/editorial-research/2026-11-08-jollyboys-backpackers-photo-enrichment.md",
+    "note": "Reopened under the 2026-11-07 rights decision (credit-bearing CC stock acceptable). Added four visually inspected exact-property photographs from Wikimedia Commons (CC BY 2.0, Fabio Achilli / travelourplanet.com, captured 2019-08-17): hero pool with plunge pool, poolside garden, communal cushioned lounge under thatched roof, and open-air bar/dining courtyard. Stored locally as 1280px-wide JPEGs; source pages, licence, capture date and sha256 recorded in the library and ledger; credit block renders creator and CC BY 2.0 on production. Openverse commercial cross-check found no other eligible candidates. Missing verified exact-property subjects recorded in the ledger: street exterior/entrance, dorm interior, private room interior, communal kitchen/self-catering area (remaining leads are CC BY-NC/NC-SA, excluded).",
     "files": [
       "src/lib/photo-library.js",
       "public/photo-library.js",
-      "public/images/editorial/tokeh-and-river-no2/tokeh-aerial-pier-radwan-skeiky.jpg",
-      "docs/editorial-research/2026-11-07-tokeh-and-river-no2-photo-enrichment.md",
+      "public/images/editorial/jollyboys-backpackers/",
+      "docs/editorial-research/2026-11-08-jollyboys-backpackers-photo-enrichment.md",
       "docs/image-enrichment-progress.json"
     ],
     "selected_images": [
-      "tokeh-aerial-pier-radwan-skeiky.jpg"
+      "jollyboys-pool-jacuzzi-2019.jpg",
+      "jollyboys-pool-garden-2019.jpg",
+      "jollyboys-communal-lounge-2019.jpg",
+      "jollyboys-bar-courtyard-2019.jpg"
     ],
-    "next_action": "Rotate to a fresh live zero-image guide with a precise source requiring no public attribution. Reopen Tokeh / River Number Two only for a new eligible no-attribution lead.",
-    "mandatory_input_check": "Passed npm run check:build-inputs after syncing the generated photo-library mirror; 2026-11-07.",
-    "published_commit": "38c5a18115bb23612eaa030cd59c194857b1ea44",
-    "netlify_deploy": "6aee836aa59434c84d14bf84",
-    "email_id": "1a1b3b46a83a9914",
-    "report_status": "One source-free owner report sent after production verification; Gmail message id 1a1b3b46a83a9914.",
-    "pushed_at": "2026-11-07 01:46 UTC",
+    "excluded_candidates_note": "Other same-subject Flickr leads (mwangee, Yuen-Ping) are CC BY-NC or CC BY-NC-SA (non-commercial) and excluded.",
+    "next_action": "Rotate to another reopened-by-rights collection (e.g. golden-monkey Trek exact-Volcanoes-NP subjects, Governors Camp, Camp Okavango, Desert Luxury Camp, Dar Said, Maribela Hotel, Riad Rosemary, Sabyinyo, Sanctuary Gorilla Forest Camp, Hilton Cabo Verde, The Place Resort Tokeh) or a fresh live-inventory zero-image page. Jollyboys remains open only for the four missing subjects.",
+    "mandatory_input_check": "Passed npm run check:build-inputs after node scripts/sync-photo-library.mjs; checked 2026-11-08.",
+    "published_commit": "a94a703",
+    "pushed_at": "2026-11-08 19:26 UTC (22:26 Africa/Kampala)",
+    "email_id": null,
+    "report_status": "NOT SENT: no Gmail send tool in this harness; owner receives this progress in chat instead.",
     "live_verification": {
-      "checked_at": "2026-11-07 01:51 UTC (04:51 Africa/Kampala)",
-      "deploy_state": "ready",
-      "deployed_commit": "38c5a18115bb23612eaa030cd59c194857b1ea44",
+      "checked_at": "2026-11-08 19:40 UTC (22:40 Africa/Kampala)",
+      "deployed_commit": "a94a703",
       "page_http_status": 200,
-      "distinct_detail_image_count": 3,
-      "see_all_text": "See all 3 images",
-      "new_image_filename_present": true,
-      "new_image_markup_references": 2,
-      "existing_required_attribution_block_visible": true,
-      "existing_gallery_assignments_unchanged": true,
-      "asset_http_status": 200,
-      "asset_content_type": "image/jpeg",
-      "asset_content_length": 382979
-    },
-    "report_sent_at": "2026-11-07 01:51 UTC (04:51 Africa/Kampala)"
+      "see_all_text": "See all 4 images",
+      "distinct_detail_image_count": 4,
+      "all_new_filenames_in_gallery": true,
+      "credits_block_present": true,
+      "asset_http_statuses": [
+        200,
+        200,
+        200,
+        200
+      ],
+      "asset_content_types": [
+        "image/jpeg",
+        "image/jpeg",
+        "image/jpeg",
+        "image/jpeg"
+      ],
+      "asset_content_lengths": [
+        603318,
+        591513,
+        355917,
+        323814
+      ],
+      "note": "Production serves the four-image Jollyboys gallery and CC BY 2.0 credits."
+    }
   },
   "follow_ups": [
     {
@@ -87,6 +102,53 @@
     "resolved_at": "2026-10-21 13:16 Africa/Kampala"
   },
   "completed_runs": [
+    {
+      "id": "tokeh-and-river-no2-one-exact-unsplash-photo-2026-11-07",
+      "page_url": "https://trekafricaguide.com/attractions/tokeh-and-river-no2/",
+      "page_type": "attraction",
+      "status": "published_live_confirmed",
+      "previous_photo_count": 2,
+      "photo_count": 3,
+      "new_photo_count": 1,
+      "checked_date": "2026-11-07",
+      "started_at": "2026-11-07 01:18 UTC (04:18 Africa/Kampala)",
+      "initial_live_verification": "Production guide returned HTTP 200 and was reviewed in full. Its gallery has two distinct guide images (a River Number Two canoe and palm-lined Tokeh Beach); repeated carousel rendering and the nearby stay card were excluded. No inline body photograph was present.",
+      "source_ledger": "docs/editorial-research/2026-11-07-tokeh-and-river-no2-photo-enrichment.md",
+      "note": "Added one visually reviewed aerial Tokeh Beach and pier image from Unsplash under its License, which requires no public attribution. The source page identifies Tokeh, Sierra Leone; source URL is not assigned elsewhere and SHA-256 has no match across the other 722 public/images files. Exact Tokeh / River Number Two Commons candidates requiring credit were excluded under the current no-new-public-attribution instruction. Existing gallery assignments and required credits remain unchanged.",
+      "files": [
+        "src/lib/photo-library.js",
+        "public/photo-library.js",
+        "public/images/editorial/tokeh-and-river-no2/tokeh-aerial-pier-radwan-skeiky.jpg",
+        "docs/editorial-research/2026-11-07-tokeh-and-river-no2-photo-enrichment.md",
+        "docs/image-enrichment-progress.json"
+      ],
+      "selected_images": [
+        "tokeh-aerial-pier-radwan-skeiky.jpg"
+      ],
+      "next_action": "Rotate to a fresh live zero-image guide with a precise source requiring no public attribution. Reopen Tokeh / River Number Two only for a new eligible no-attribution lead.",
+      "mandatory_input_check": "Passed npm run check:build-inputs after syncing the generated photo-library mirror; 2026-11-07.",
+      "published_commit": "38c5a18115bb23612eaa030cd59c194857b1ea44",
+      "netlify_deploy": "6aee836aa59434c84d14bf84",
+      "email_id": "1a1b3b46a83a9914",
+      "report_status": "One source-free owner report sent after production verification; Gmail message id 1a1b3b46a83a9914.",
+      "pushed_at": "2026-11-07 01:46 UTC",
+      "live_verification": {
+        "checked_at": "2026-11-07 01:51 UTC (04:51 Africa/Kampala)",
+        "deploy_state": "ready",
+        "deployed_commit": "38c5a18115bb23612eaa030cd59c194857b1ea44",
+        "page_http_status": 200,
+        "distinct_detail_image_count": 3,
+        "see_all_text": "See all 3 images",
+        "new_image_filename_present": true,
+        "new_image_markup_references": 2,
+        "existing_required_attribution_block_visible": true,
+        "existing_gallery_assignments_unchanged": true,
+        "asset_http_status": 200,
+        "asset_content_type": "image/jpeg",
+        "asset_content_length": 382979
+      },
+      "report_sent_at": "2026-11-07 01:51 UTC (04:51 Africa/Kampala)"
+    },
     {
       "id": "great-zimbabwe-attraction-seven-photo-enrichment",
       "page_url": "https://trekafricaguide.com/attractions/great-zimbabwe-national-monument/",
