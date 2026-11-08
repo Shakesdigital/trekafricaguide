@@ -253,7 +253,7 @@
     "No routine tests/builds or repeated broad audits."
   ],
   "next_task_selection": "Complete one destination guide, then rotate to accommodations.",
-  "last_run": "2026-11-02T04:39:00+03:00",
+  "last_run": "2026-11-08T18:15:00+03:00",
   "task_magnitude": "One complete full guide plus booking and listing cards, or one full property photo collection; do not schedule isolated paragraphs/links.",
   "country_destinations_feature": {
     "status": "complete",
@@ -273,11 +273,10 @@
     "email_id": "1a143a69416cf3d1"
   },
   "rotation": {
-    "last_completed_category": "destinations",
-    "next_category": "accommodations",
-    "next_deliverable": "Select an accommodation planning gap from a live page.",
-    "rule": "Finish the individual deliverable and report its live state, then rotate. Track exact-property photo gaps separately.",
-    "override_reason": null
+    "last_completed_category": "activities",
+    "next_category": "travel_insights",
+    "next_deliverable": "On the next run: confirm this page's live state first, then select a travel-insights planning gap from a live page (their 2026-11-06 queue: Tunis first-night and Kakum/Dar Said candidates may also have matured).",
+    "rule": "Finish the individual deliverable and report its live state, then rotate."
   },
   "current_deliverable": {
     "id": "tunisia-coastal-transfer",
@@ -775,5 +774,25 @@
     "email_id": "1a1aab12a79d95ed",
     "email_sent_at": "2026-11-05T10:52+03:00",
     "next_category": "activities"
+  },
+  "activity_kibale_chimpanzee_trek": {
+    "status": "pushed_pending_live_confirmation",
+    "started": "2026-11-08",
+    "scope": "New activity landing page: Kibale National Park chimpanzee trek (Kanyanchu Primate Walk) under the repo-managed Kibale National Park attraction, following the golden monkey activity format; no booking CTA pending a verified exact operator listing.",
+    "files": [
+      "content/editorial-overrides.json",
+      "docs/editorial-research/2026-11-08-kibale-chimpanzee-trek.md",
+      "docs/editorial-progress.json"
+    ],
+    "images": 0,
+    "image_followup": "Six distinct licensed chimp-trek subjects not reuseable from Kibale attraction/insight/camp collections: Kanyanchu Visitor Centre, forest interior light, chimpanzees at safe distance, ranger briefing, forest trail, trekkers following guide.",
+    "booking_cta": "None. No exact current OTA listing verified; Kibale attraction keeps the explicit no-bookable-card position.",
+    "key_facts_checked": "UWA Kibale park page (Kanyanchu flagship, habituated since 1993, >90% sighting success, 08:00/11:00/14:00 slots, groups of six, one hour with chimps, min age 16, 2–5h walks) and UWA tariff card (rules set, min-age 12 divergence, operator-only booking, expired validity) — both checked 8 November 2026; Feb 2026 circular via secondary summary with confirm-with-UWA caveat.",
+    "cms": "Production build runs EDITORIAL_CMS_SYNC=true (deploy imports the document). publishable key cannot read editorial_documents (RLS 401); owner/list CMS check to confirm the row after deploy.",
+    "related_blocker_note": "Nyungwe production block still open from 2026-11-07; service-role CMS access still missing; not touched.",
+    "commit": null,
+    "live_verification": null,
+    "next_action": "Confirm production page HTTP 200 with rendered text after Netlify deploy; fill commit + live_verification here; send owner report.",
+    "next_category": "travel_insights"
   }
 }
