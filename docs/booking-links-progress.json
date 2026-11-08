@@ -46,8 +46,8 @@
     "verify_standard": "Landings + product identity verified; checkout, attribution and rates never claimed."
   },
   "browser_clickthroughs": [
-    { "slug": "accommodations/emerson-spice", "when": "2026-11-08", "result": "Expedia Hotel-Search landing -> provider switched to Booking.com exact listing" },
-    { "slug": "accommodations/the-place-resort-tokeh", "when": "2026-11-08", "result": "Expedia Hotel-Search landing -> held" }
+    { "slug": "accommodations/emerson-spice", "when": "2026-11-08", "result": "Expedia Hotel-Search landing -> provider switched to Booking.com exact listing; after run-2 deploy, production click-through landed on www.booking.com/hotel/tz/emersonspice.html (exact property detail page) — verified" },
+    { "slug": "accommodations/the-place-resort-tokeh", "when": "2026-11-08", "result": "Expedia Hotel-Search landing -> held; CTA confirmed suppressed on production after run-2 deploy" }
   ],
-  "next_action": "Re-verify production emerson (Booking.com path after run-2 deploy) and confirm tokeh CTA suppressed; then re-research the eight unavailable accommodations and Great Zimbabwe/Kibale gaps with real-browser sessions."
+  "next_action": "Re-research the eight unavailable accommodations (incl. a fresh Agoda pass for The Place Resort Tokeh) and the Great Zimbabwe/Kibale gaps with real-browser sessions; then sweep remaining attractions/destination pages for booking coverage."
 }
