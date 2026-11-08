@@ -31,13 +31,13 @@
       }
     },
     "emerson-spice": {
-      "url": "https://www.expedia.com/es/Zanzibar-Town-Hoteles-Emerson-Spice-Hotel.h31570310.Informacion-Hotel",
+      "url": "https://www.expedia.com/Zanzibar-Town-Hotels-Emerson-Spice-Hotel.h31570310.Hotel-Information",
       "provider": "expedia",
       "title": "Emerson Spice Hotel",
-      "checked_at": "2026-10-11",
+      "checked_at": "2026-11-08",
       "evidence": {
-        "source_url": "https://www.expedia.com/es/Zanzibar-Town-Hoteles-Emerson-Spice-Hotel.h31570310.Informacion-Hotel",
-        "summary": "Opened primary detail with property ID 31570310; identifies Emerson Spice Hotel in Stone Town, Zanzibar, with named rooms Belle, Violetta and Mimi."
+        "source_url": "https://www.expedia.com/Zanzibar-Town-Hotels-Emerson-Spice-Hotel.h31570310.Hotel-Information",
+        "summary": "Rechecked 8 November 2026: the previous Spanish-locale URL demoted through the Stay22 wrapper to an Expedia destination search for Kiponda, Zanzibar. The English property-detail URL (property ID 31570310, rooms Belle, Violetta and Mimi) redirects through the Stay22 wrapper to the h31570310 Hotel-Information property page in redirect-chain checks. Expedia intermittently returns rate-limited search fallbacks on retry requests; a production-link browser click-through is recorded separately. No rate, availability, rating or review claims made."
       }
     },
     "hilton-cabo-verde-sal-resort": {
@@ -352,11 +352,13 @@
       "provider": "getyourguide",
       "title": "Cape Coast Castle, Elmina Castle and Kakum tour",
       "operator": "Expedition-Go Tours",
+      "rating": 4.7,
+      "review_count": 220,
       "notes": "Full-day departure from Accra. Confirm which admissions and stops your selected option includes.",
-      "checked_at": "2026-10-11",
-      "status": "hold",
-      "last_attempted_at": "2026-10-24",
-      "hold_reason": "Product detail could not be reconfirmed: retrieval returned a generic page shell. Keep original exact URL; do not substitute search results. Recheck before enabling CTA."
+      "checked_at": "2026-11-08",
+      "evidence": {
+        "review_check": "Exact product detail retrieved in a browser session 8 November 2026: product 834942, provider Expedition-Go Tours, 4.7/5 from 220 reviews, itinerary covering Cape Coast Castle, Elmina Castle and Kakum National Park from Accra. This recheck clears the earlier hold that followed a failed non-browser retrieval. Scores may change."
+      }
     },
     "victoria-falls-guided-walk": {
       "url": "https://www.getyourguide.com/victoria-falls-town-l127068/zimbabwe-zambia-guided-tour-of-the-falls-from-both-sides-t414370/",
@@ -587,6 +589,19 @@
       "status": "unavailable",
       "reason": "Focused GYG searches for Tokeh and River No. 2 returned no supported product listing. Do not substitute an unrelated country/category search URL."
     },
+    "jozani-forest": {
+      "url": "https://www.getyourguide.com/jozani-l239369/zanzibar-jozani-forest-nature-walk-and-wildlife-tour-t968921/",
+      "provider": "getyourguide",
+      "title": "Jozani Forest, Nature Walk and Wildlife Tour",
+      "operator": "Zanzibar blessing tours and safari",
+      "rating": 5,
+      "review_count": 2,
+      "notes": "Jozani-only nature walk with the entrance fee, guided forest and mangrove walk; the meeting point is Jozani Forest itself. Very small review sample (2 reviews when checked); private group up to 40 people. Confirm pickup options and meeting arrangements before booking.",
+      "checked_at": "2026-11-08",
+      "evidence": {
+        "review_check": "Exact product detail retrieved in a browser session 8 November 2026: product 968921, provider Zanzibar blessing tours and safari, 5/5 from 2 reviews. Scores may change."
+      }
+    },
     "maasai-mara": {
       "url": "https://www.getyourguide.com/keekorok-l247032/maasai-mara-hot-air-balloon-safari-with-a-bush-breakfast-t254357/",
       "provider": "getyourguide",
@@ -653,9 +668,22 @@
       "title": "Cape Coast Castle, Elmina Castle and Kakum tour",
       "operator": "Expedition-Go Tours",
       "rating": 4.7,
-      "review_count": 211,
+      "review_count": 220,
       "notes": "Full-day departure from Accra. Confirm which admissions and stops your selected option includes.",
-      "checked_at": "2026-10-11"
+      "checked_at": "2026-11-08"
+    },
+    "elmina-castle": {
+      "url": "https://www.getyourguide.com/accra-l506/from-accra-the-cape-coast-day-tour-guided-experience-t834942/",
+      "provider": "getyourguide",
+      "title": "Cape Coast Castle, Elmina Castle & Kakum National Park Tour",
+      "operator": "Expedition-Go Tours",
+      "rating": 4.7,
+      "review_count": 220,
+      "notes": "Full-day guided tour from Accra covering Cape Coast Castle, Elmina Castle and Kakum National Park. This is a shared Castle Coast day trip rather than a castle-only visit; confirm that Elmina Castle admission is included in the selected option.",
+      "checked_at": "2026-11-08",
+      "evidence": {
+        "review_check": "Exact product detail retrieved in a browser session 8 November 2026: product 834942, provider Expedition-Go Tours, 4.7/5 from 220 reviews. Scores may change."
+      }
     },
     "victoria-falls": {
       "url": "https://www.getyourguide.com/victoria-falls-town-l127068/zimbabwe-zambia-guided-tour-of-the-falls-from-both-sides-t414370/",

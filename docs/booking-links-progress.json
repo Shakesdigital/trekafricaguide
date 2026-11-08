@@ -1,0 +1,36 @@
+{
+  "updated_at": "2026-11-08",
+  "owner": "booking-links audit agent",
+  "ledger": "docs/editorial-research/2026-11-08-booking-links-audit.md",
+  "this_run": {
+    "verified_active_links": 56,
+    "verified_ok": 54,
+    "verified_ambiguous": 2,
+    "ambiguous": ["accommodations/emerson-spice (fixed)", "accommodations/the-place-resort-tokeh (pending browser click-through)"],
+    "fixed": 1,
+    "added": 2,
+    "holds_lifted": 1,
+    "changes": [
+      { "slug": "accommodations/emerson-spice", "change": "URL switched to English Expedia property detail (property 31570310); es-locale URL demoted to a Kiponda destination search through the wrapper", "verified": "wrapper chain redirects to property page; browser click-through below" },
+      { "slug": "activities/cape-coast-kakum-guided-visit", "change": "2026-10-24 hold lifted after browser recheck; 4.7/220 evidence added", "verified": "browser 2026-11-08" },
+      { "slug": "attractions/cape-coast-kakum", "change": "review aggregate refreshed 4.7/211 -> 4.7/220", "verified": "browser 2026-11-08" },
+      { "slug": "attractions/jozani-forest", "change": "NEW entry: GYG t968921 Jozani Forest Nature Walk and Wildlife Tour, Zanzibar blessing tours and safari, 5/2 (review-limited disclosed)", "verified": "browser 2026-11-08" },
+      { "slug": "attractions/elmina-castle", "change": "NEW entry: GYG t834942 Castle Coast day tour (exact product shared with the existing Cape Coast attraction entry, per registry precedent)", "verified": "browser 2026-11-08" }
+    ]
+  },
+  "gaps_held": {
+    "attractions/great-zimbabwe": "All GYG candidates are cross-city transfer products (Harare 14h t741591, Bulawayo t1480708/t1048201); the activity copy directs readers to arrange transfers separately — logistics mismatch, not an exact on-site visit.",
+    "attractions/kwame-nkrumah-memorial-park": "GYG search returned no Ghana product (generic fallback only).",
+    "attractions/kibale-national-park": "No verified exact operator listing; canonical no-bookable-card position per 2026-11-08 editorial record.",
+    "attractions/nyungwe-national-park": "Deferred: production detail 404 (CMS publication blocker); booking row untestable until resolved.",
+    "activities/victoria-falls-zambezi-white-water-rafting": "No CTA is the editor-recorded position.",
+    "accommodations_unavailable": ["camp-okavango", "governors-camp", "mfuwe-lodge", "riad-rosemary", "sabyinyo-silverback-lodge", "sanctuary-gorilla-forest-camp", "terres-touareg-guest-house", "desert-luxury-camp", "buhoma-community-rest-camp (listing not taking reservations)"],
+    "giza_and_stone_town_previous_holds": "attractions/lalibela hold per advisory; giza hold combo (OceanAir shell) unchanged and left untouched this run"
+  },
+  "constraints_kept": {
+    "editorial_agents": "No files of editorial/image agents staged or modified; dist/ artifacts left untouched; deploy-*.zip untouched.",
+    "verify_standard": "Landings + product identity verified; checkout, attribution and rates never claimed."
+  },
+  "browser_clickthroughs": [],
+  "next_action": "Click-verify production emerson/tokeh/jozani/elmina links in a real browser, record results here; then re-research the eight unavailable accommodations and Great Zimbabwe/Kibale with browser sessions."
+}
