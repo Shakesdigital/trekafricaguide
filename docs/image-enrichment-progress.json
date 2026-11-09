@@ -1,54 +1,70 @@
 {
-  "updated_at": "2026-11-08 19:57 Africa/Kampala",
+  "updated_at": "2026-11-09 11:30 Africa/Kampala",
   "current_run": {
-    "id": "featured-image-audit-and-fairway-context-hero-2026-11-09",
-    "page_url": "https://trekafricaguide.com/accommodations/fairway-boutique-hotel/",
+    "id": "mfuwe-lodge-three-photo-gallery-2026-11-09",
+    "page_url": "https://trekafricaguide.com/accommodations/mfuwe-lodge/",
     "page_type": "accommodation",
     "status": "published_live_confirmed",
-    "previous_photo_count": 0,
-    "photo_count": 1,
-    "new_photo_count": 1,
+    "previous_photo_count": 1,
+    "photo_count": 4,
+    "new_photo_count": 3,
     "checked_date": "2026-11-09",
-    "started_at": "2026-11-09 05:55 Africa/Kampala",
-    "initial_live_verification": "Owner instruction: give every published detail article/page a featured image first, fuller galleries later in normal rotations. Production-side audit of all live detail pages found exactly one page missing a featured image: /accommodations/fairway-boutique-hotel/ (owner-removed insight 404 page out of scope).",
-    "source_ledger": "docs/editorial-research/2026-11-09-featured-image-audit-and-fairway-hero.md",
-    "note": "Fairway has no eligible exact-property photo by any source (official gallery/OTA without reuse permission; Commons, Openverse, Flickr CC exact-name, Pexels/Unsplash exact-name all checked; 2026-10-30 checkpoint agreed under the stricter rule). Used the platform's labeled destination-setting pattern: added a new distinct Pexels Kampala street photograph (35603022, Wings Panic, Pexels License, no attribution) as the hero with property:false, so cards and the gallery render \"Destination setting: … This is not a photograph of the accommodation.\" Source-ID dedup against the Kampala destination collection clear. No other pages changed.",
+    "started_at": "2026-11-09 06:07 Africa/Kampala",
+    "initial_live_verification": "Production accommodation page returned HTTP 200 and was reviewed in full: hero starter image plus a South Luangwa scenery card; zero dedicated property photos in the gallery (count 1, the starter itself).",
+    "source_ledger": "docs/editorial-research/2026-11-09-mfuwe-lodge-photo-enrichment.md",
+    "note": "Added three visually inspected exact-property photographs: thatched chalet exterior (Commons 'Mfuwe Chalet.jpg', Prabir K Bhattacharyya, CC BY-SA 3.0, captured 2011-09-16), chalet interior with riverside deck (Commons 'Mfuwe Lodge5.webp', Historybuff1028, CC0, captured 2025-09-16, webp converted to JPEG q90), and farm-to-table outdoor dining (Commons 'Mfuwe-Lodge-dining.jpg', Historybuff1028, CC0, captured 2025-08-13). Render fix required: src/lib/photo-defaults.mjs now replaces a gallery holding ONLY starter/default images with the curated override (Mfuwe's row kept the stock starter so the previous empty-gallery condition never applied); curator-owned galleries untouched; 3 unit tests added. Missing subjects recorded in the ledger: signature elephants-in-reception scene (only rights-clean Commons version carries a baked-in Travel+Leisure award overlay — excluded), pool, bush spa, bar interior, lounge, lodge exterior.",
     "files": [
       "src/lib/photo-library.js",
       "public/photo-library.js",
-      "public/images/editorial/fairway-boutique-hotel/kampala-street-life-pexels-35603022.jpeg",
-      "docs/editorial-research/2026-11-09-featured-image-audit-and-fairway-hero.md",
+      "src/lib/photo-defaults.mjs",
+      "tests/node/photo-defaults.test.mjs",
+      "public/images/editorial/mfuwe-lodge/",
+      "docs/editorial-research/2026-11-09-mfuwe-lodge-photo-enrichment.md",
       "docs/image-enrichment-progress.json"
     ],
     "selected_images": [
-      "kampala-street-life-pexels-35603022.jpeg"
+      "mfuwe-chalet-exterior-2011.jpg",
+      "mfuwe-chalet-interior-deck-2025.jpg",
+      "mfuwe-farm-to-table-2025.jpg"
     ],
-    "featured_image_audit": {
-      "checked_at": "2026-11-09 06:25 UTC (09:25 Africa/Kampala)",
-      "live_detail_pages_at_risk": "attractions, countries, local destinations, regions, activities and travel insights all have at least one featured image (verified individually)",
-      "pages_missing_before_this_run": [
-        "/accommodations/fairway-boutique-hotel/"
-      ],
-      "pages_missing_after_this_run": [],
-      "note": "Fuller galleries per page type (7-12 / 10-15) continue during the normal rotation; red-chilli and other permission-blocked property photos remain excluded."
-    },
-    "next_action": "Return to the rotation backlog: reopened-by-rights collections (Governors' Camp has exactly one eligible Commons photo so far; Mfuwe Lodge snapshot shows a rich exact-property CC0/CC-BY-SA pool for a later gallery run), then reopened missing-subject pages (golden monkey others, Jollyboys interior subjects). Re-run any new page through the featured-image audit when published.",
-    "mandatory_input_check": "Passed npm run check:build-inputs after node scripts/sync-photo-library.mjs; checked 2026-11-09.",
-    "published_commit": "642937d (merged as a9d37ae)",
-    "pushed_at": "2026-11-09 06:35 UTC (09:35 Africa/Kampala)",
+    "excluded_candidates_note": "Duplicate source excluded: 'Mfuwe Lodge Dining Area.jpg' is already live as the starter hero. 'Mfuwe Lodge1.webp' excluded (baked-in Travel+Leisure award overlay). 'Wild Dog in South Luangwa' excluded (game-drive subject, not the property). Marula Lodge and Hans Hillewaert wildlife files excluded (different property / scenery near the lodge).",
+    "mandatory_input_check": "Passed node scripts/sync-photo-library.mjs and npm run check:build-inputs; astro build plus check-rendered-content passed before deploy; photo-defaults unit tests 3/3 pass.",
+    "published_commit": "7746b55 (photos/ledger) and 7efe8ce (photo-defaults fix + tests)",
+    "pushed_at": "2026-11-09 03:37 UTC (photo commit) and 2026-11-09 07:19 UTC (render fix) — Africa/Kampala 06:37 and 10:19",
+    "deploy": "git push did not trigger a Netlify production build for 40+ minutes after the push. Production was then built and deployed from the linked local checkout via netlify CLI (site d32d59a3-f819-4e66-9e79-ce47e04ce22d, authenticated CLI user shakesdigital@gmail.com). Local build ran EDITORIAL_CMS_SYNC=false: the CMS mirror needs a service-role key this machine does not hold, so content renders from committed overrides and the publishable-key Supabase read. The deploy hook in .env.netlify is a placeholder (placeholder could not trigger anything).",
     "email_id": null,
-    "report_status": "NOT SENT: Gmail requires a sign-in in this harness browser; owner receives this progress in chat instead.",
+    "report_status": "NOT SENT: Gmail requires a sign-in in this harness browser (same limitation as prior runs); owner receives this progress in chat instead. Subject prepared: 'Trek Africa Guide image update — [Kampala date/time]'.",
     "live_verification": {
-      "checked_at": "2026-11-09 07:18 UTC (10:18 Africa/Kampala)",
-      "deployed_commit": "a9d37ae",
+      "checked_at": "2026-11-09 08:25-08:40 UTC (11:25-11:40 Africa/Kampala)",
       "page_http_status": 200,
-      "hero_image_present": "/images/editorial/fairway-boutique-hotel/kampala-street-life-pexels-35603022.jpeg",
-      "context_label_present": true,
-      "asset_http_status": 200,
-      "asset_content_type": "image/jpeg",
-      "asset_content_length": 429040,
-      "note": "Production serves the Fairway Boutique Hotel featured image with the neutral destination-setting label."
-    }
+      "see_all_text": "See all 4 images",
+      "all_new_filenames_in_page": true,
+      "credits_block_present": true,
+      "asset_http_statuses": [
+        200,
+        200,
+        200
+      ],
+      "asset_content_types": [
+        "image/jpeg",
+        "image/jpeg",
+        "image/jpeg"
+      ],
+      "asset_content_lengths": [
+        475363,
+        242757,
+        292463
+      ],
+      "regression_spot_checks": {
+        "jollyboys_backpackers_gallery": "See all 4 images (unchanged)",
+        "great_zimbabwe_gallery": "See all 7 images (unchanged)",
+        "fairway_boutique_hotel_hero": "kampala-street-life-pexels-35603022 present (unchanged)",
+        "bwindi_or_volcanoes_insight": "HTTP 200 with committed content (editorial automation page untouched)",
+        "homepage": "HTTP 200"
+      },
+      "note": "Production serves the four-image Mfuwe Lodge gallery including the CC BY-SA credit for the chalet exterior."
+    },
+    "next_action": "Rotation backlog: reopened-by-rights collections with thin pools (Governors' Camp has one eligible photo; golden-monkey missing bamboo-zone/Kinigi subjects; Jollyboys missing exterior/dorm/room/kitchen leads are CC BY-NC only), then fresh low-image pages. Watch: a plain git push may no longer trigger a Netlify build — the deploy hook in .env.netlify is a placeholder and a push sat pending until this run deployed via the linked Netlify CLI; future runs should trigger a build/deploy explicitly after pushing."
   },
   "follow_ups": [
     {
@@ -90,6 +106,56 @@
     "resolved_at": "2026-10-21 13:16 Africa/Kampala"
   },
   "completed_runs": [
+    {
+      "id": "featured-image-audit-and-fairway-context-hero-2026-11-09",
+      "page_url": "https://trekafricaguide.com/accommodations/fairway-boutique-hotel/",
+      "page_type": "accommodation",
+      "status": "published_live_confirmed",
+      "previous_photo_count": 0,
+      "photo_count": 1,
+      "new_photo_count": 1,
+      "checked_date": "2026-11-09",
+      "started_at": "2026-11-09 05:55 Africa/Kampala",
+      "initial_live_verification": "Owner instruction: give every published detail article/page a featured image first, fuller galleries later in normal rotations. Production-side audit of all live detail pages found exactly one page missing a featured image: /accommodations/fairway-boutique-hotel/ (owner-removed insight 404 page out of scope).",
+      "source_ledger": "docs/editorial-research/2026-11-09-featured-image-audit-and-fairway-hero.md",
+      "note": "Fairway has no eligible exact-property photo by any source (official gallery/OTA without reuse permission; Commons, Openverse, Flickr CC exact-name, Pexels/Unsplash exact-name all checked; 2026-10-30 checkpoint agreed under the stricter rule). Used the platform's labeled destination-setting pattern: added a new distinct Pexels Kampala street photograph (35603022, Wings Panic, Pexels License, no attribution) as the hero with property:false, so cards and the gallery render \"Destination setting: … This is not a photograph of the accommodation.\" Source-ID dedup against the Kampala destination collection clear. No other pages changed.",
+      "files": [
+        "src/lib/photo-library.js",
+        "public/photo-library.js",
+        "public/images/editorial/fairway-boutique-hotel/kampala-street-life-pexels-35603022.jpeg",
+        "docs/editorial-research/2026-11-09-featured-image-audit-and-fairway-hero.md",
+        "docs/image-enrichment-progress.json"
+      ],
+      "selected_images": [
+        "kampala-street-life-pexels-35603022.jpeg"
+      ],
+      "featured_image_audit": {
+        "checked_at": "2026-11-09 06:25 UTC (09:25 Africa/Kampala)",
+        "live_detail_pages_at_risk": "attractions, countries, local destinations, regions, activities and travel insights all have at least one featured image (verified individually)",
+        "pages_missing_before_this_run": [
+          "/accommodations/fairway-boutique-hotel/"
+        ],
+        "pages_missing_after_this_run": [],
+        "note": "Fuller galleries per page type (7-12 / 10-15) continue during the normal rotation; red-chilli and other permission-blocked property photos remain excluded."
+      },
+      "next_action": "Return to the rotation backlog: reopened-by-rights collections (Governors' Camp has exactly one eligible Commons photo so far; Mfuwe Lodge snapshot shows a rich exact-property CC0/CC-BY-SA pool for a later gallery run), then reopened missing-subject pages (golden monkey others, Jollyboys interior subjects). Re-run any new page through the featured-image audit when published.",
+      "mandatory_input_check": "Passed npm run check:build-inputs after node scripts/sync-photo-library.mjs; checked 2026-11-09.",
+      "published_commit": "642937d (merged as a9d37ae)",
+      "pushed_at": "2026-11-09 06:35 UTC (09:35 Africa/Kampala)",
+      "email_id": null,
+      "report_status": "NOT SENT: Gmail requires a sign-in in this harness browser; owner receives this progress in chat instead.",
+      "live_verification": {
+        "checked_at": "2026-11-09 07:18 UTC (10:18 Africa/Kampala)",
+        "deployed_commit": "a9d37ae",
+        "page_http_status": 200,
+        "hero_image_present": "/images/editorial/fairway-boutique-hotel/kampala-street-life-pexels-35603022.jpeg",
+        "context_label_present": true,
+        "asset_http_status": 200,
+        "asset_content_type": "image/jpeg",
+        "asset_content_length": 429040,
+        "note": "Production serves the Fairway Boutique Hotel featured image with the neutral destination-setting label."
+      }
+    },
     {
       "id": "volcanoes-golden-monkey-five-photo-credit-cc-second-pass-2026-11-08",
       "page_url": "https://trekafricaguide.com/activities/volcanoes-golden-monkey-trekking/",
