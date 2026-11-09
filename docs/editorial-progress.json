@@ -974,6 +974,26 @@
     "cms": "Production deploy imports at source_commit; publishable-key read of editorial_documents remains RLS-blocked by design — owner-side CMS check to confirm activities/nyungwe-canopy-walk after deploy.",
     "next_action": "Build, verify readable output, publish, live-verify, receipt commit; then rotate to accommodations.",
     "next_category": "accommodations",
-    "status": "pre_publish_checkpoint"
+    "status": "published_live_confirmed",
+    "content_commit": "7f74a04 (content) + this receipt commit",
+    "publication": {
+      "content_commit": "7f74a04a ship note: 7f74a04 \"Publish Nyungwe canopy walk guide\", pushed main 9 Nov 2026",
+      "pushed_to": "main",
+      "push_result": "success",
+      "pushed_at": "2026-11-09",
+      "live_url": "https://trekafricaguide.com/activities/nyungwe-canopy-walk/",
+      "live_http_status": 200,
+      "checked_at": "2026-11-09",
+      "live_checks": {
+        "detail": "HTTP 200 (31,811 bytes) ~46 s after push; h1/title \"Nyungwe National Park canopy walk\"; full h2 flow (About this activity, Highlights, Best time to participate, Planning notes, Booking option, You may also like, Nearby stays); distinctive copy (Igishigishigi, hourly Uwinka approach) renders; official fee table 5/20/40 with reconfirm hedge; verified day-trip product notes (EUR 260, listed US$155 park fee, 3.7/5 x 7, vertigo/under-6 restrictions, honest dated reviews; UK Oct 2025 drawback preserved); RDB low-season gorilla pairing present; no exposed markup.",
+        "booking": "Exact Stay22-wrapped GetYourGuide t937129 destination confirmed in production HTML (booking-destinations activities.nyungwe-canopy-walk).",
+        "cards": "You may also like renders the same-attraction-group cards (Volcanoes gorilla trek / golden monkey, matching the Kibale precedent). Nearby stays renders an honest empty rail (no Nyungwe-area stay record exists; none invented, controls hidden).",
+        "archive_home": "Activities archive lists the guide; homepage search lists it.",
+        "attraction": "Nyungwe National Park attraction page now renders Related activities with the new guide (3 matches in live HTML)."
+      },
+      "cms_source_commit": "imported at source_commit 7f74a04; publishable-key read of editorial_documents remains RLS-blocked — owner-side CMS check to confirm activities/nyungwe-canopy-walk",
+      "email_delta": null
+    },
+    "related_observation": "Pre-existing production anomaly (not introduced this run): the live south-luangwa attraction page still renders no Related activities card for the numerically-linked south-luangwa-walking-safari (attraction_id 67), while our local CMS_SYNC=false build renders the card and the live Nyungwe repo-prefixed pairing works. Diffs only under EDITORIAL_CMS_SYNC=true; likely the same editorial_documents draft-binding/clean-deploy dependency recorded since 2026-11-07 — publishable key cannot inspect it. Left untouched; flag as owner-side CMS check item alongside the new record."
   }
 }
