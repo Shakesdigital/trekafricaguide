@@ -623,9 +623,20 @@
   "travel_insight_slugs": [],
   "sort_order": 1,
   "status": "published",
-  "hero_image_url": "",
-  "hero_image_alt": "",
-  "gallery": [],
+  "hero_image_url": "/images/editorial/nairobi-local-destination/nairobi-giraffe-skyline-britam-2020.jpg",
+  "hero_image_alt": "A Maasai giraffe walks through Nairobi National Park with the hazy Nairobi city skyline behind it.",
+  "gallery": [
+   "/images/editorial/nairobi-local-destination/nairobi-giraffe-skyline-britam-2020.jpg",
+   "/images/editorial/nairobi-local-destination/nairobi-np-zebra-skyline-2025.jpg",
+   "/images/editorial/nairobi-local-destination/nairobi-np-ostrich-skyline-2025.jpg",
+   "/images/editorial/nairobi-local-destination/nairobi-city-skyline-dusk-2020.jpg",
+   "/images/editorial/nairobi-local-destination/nairobi-kicc-entrance-2025.jpg",
+   "/images/editorial/nairobi-local-destination/nairobi-museum-hominin-hall-2014.jpg",
+   "/images/editorial/nairobi-local-destination/nairobi-museum-gourd-culture-hall-2014.jpg",
+   "/images/editorial/nairobi-local-destination/nairobi-giraffe-centre-feeding-2019.jpg",
+   "/images/editorial/nairobi-local-destination/nairobi-matatu-street-2025.jpg",
+   "/images/editorial/nairobi-local-destination/nairobi-nyama-choma-grill-2021.jpg"
+  ],
   "last_researched": "2026-11-09",
   "research_sources": [
    {
