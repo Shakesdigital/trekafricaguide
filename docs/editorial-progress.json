@@ -910,6 +910,22 @@
     "key_facts_checked": "Visit Rwanda/RDB gorilla tracking (US$1,500 permit, age 15, 12 families, 8/family/day, 07:00 Kinigi, 0.5-4+h hikes at 2,500-4,000 m, 604 Virunga Massif, Irembo booking pointer); UWA Bwindi page (459 gorillas, 25 habituated groups/9 tourism, altitude 1,160-2,607 m, routes, Entebbe-Kisoro/Kihihi flights ~1h10m); UWA Conservation Tariff 2024-2026 PDF (Bwindi/Mgahinga permit US$800 FNR with inclusions; tariff-period caveat carried explicitly); Rwanda DGIE visa-on-arrival rules; EATV US$100/90 days via Irembo support pages. All checked 9 November 2026.",
     "booking_cta": "None. The comparison article sells no product; no booking-destinations entry added.",
     "next_category": "activities",
-    "next_action": "Push (after rebase onto the other agents' interleaved main), verify production URL HTTP 200 with rendered text and all planned sections; fill content_commit + live_verification here; commit receipt; rotate to activities."
+    "next_action": "Next run: activities category per rotation; six-subject photo backlog tracked in this key and the ledger.",
+    "status": "complete",
+    "publication": {
+      "content_commit": "aa0f21c",
+      "pushed_to": "main",
+      "push_result": "success (after two conflict rebase-rounds against other agents' interleaved main; other-agent Kigali Serena receipts and Mfuwe gallery commits preserved)",
+      "live_url": "https://trekafricaguide.com/travel-insights/choose-bwindi-or-volcanoes-gorilla-trek/",
+      "live_http_status": 200,
+      "checked_at": "2026-11-09",
+      "live_checks": {
+        "detail": "HTTP 200 (29,979 bytes); title \"Bwindi or Volcanoes: choosing where to trek mountain gorillas | Trek Africa Guide\"; planned content verified live: US$1,500 (RDB), US$800 + tariff caveat (UWA), East Africa Tourist Visa, Kinigi 07:00, Irembo, UWA two-border-crossings framing, Quick answers FAQ, packing, Sources and scope; internal links to both attraction pages, both gorilla activities, Kigali destination, Buhoma destination, Bwindi sector insight and both stay guides all live (spot-checked 200).",
+        "archive": "travel-insights archive HTTP 200 lists the guide.",
+        "markup_leak": false
+      },
+      "cms_source_commit": "imported at source_commit aa0f21c; publishable-key read of editorial_documents remains RLS-blocked — owner-side CMS check to confirm travel_articles/choose-bwindi-or-volcanoes-gorilla-trek",
+      "email_id": null
+    }
   }
 }
