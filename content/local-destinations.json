@@ -476,5 +476,55 @@
       "/images/editorial/fort-portal-local-destination/fort-portal-lake-kigere-alvinategyeka.jpg",
       "/images/editorial/fort-portal-local-destination/fort-portal-nyakasura-falls-alvinategyeka.jpg"
     ]
+  },
+  {
+    "slug": "kigali",
+    "country_slug": "rwanda",
+    "name": "Kigali",
+    "category": "City",
+    "hero_title": "Kigali: the hillside capital that starts, and softens, a gorilla journey",
+    "listing_summary": "Rwanda's capital is the resting-and-arrival base before the Volcanoes foothills: year-round green hills, the memorial's serious history, an easy-to-walk centre and the transfer morning every trek day depends on.",
+    "overview": "Kigali sits in the centre of Rwanda, spread across hills and valleys with road links over most of the country. Rwanda's tourism authority describes a low-key but dynamic capital of about one million people: wide tree-lined boulevards that are safe to stroll, a growing art scene and restaurants with hillside views. It was founded as an administrative post in 1907 and became the capital at independence in 1962, so its fabric is much newer than the African averages that visitors assume.\n\nThe districts divide the city usefully. The central business district rests on Nyarugenge Hill, the government quarter sits east on Kacyiru, and Nyarutarama Lake — Lover's Lake — borders one of the main valleys, where the tourism authority recommends the flat lakeside track as an easy urban walk with birds along it. The Kigali Cultural Village gives local artisans and food vendors a dedicated trading space, and it fits an unhurried city day rather than a checklist morning.\n\nNo visit to Rwanda is complete without time at the Kigali Genocide Memorial, which the authority describes as honouring the more than one million Rwandans killed in 1994 with three permanent exhibitions and burial gardens. Go with the seriousness the site asks for: follow the on-site guidance about photography and conduct, and give the visit enough quiet time either side rather than scheduling it tightly before a drive.\n\nMost gorilla visitors meet Kigali twice: as the arrival city and as the transfer half of the trek. The Volcanoes foothills are its working gateway — our Volcanoes National Park guide covers the reporting points near Kinigi, and both primate activity guides describe Kigali-morning logistics around them. Return to Kigali last, when a relaxed evening, an art gallery and a lake-path walk close the journey properly.",
+    "access_summary": "Kigali is the practical arrival city for a Volcanoes journey. The published Volcanoes guides describe Kigali-morning departure logistics for the golden monkey and gorilla excursions, with operator products advertising roughly two and a half hours of driving each way toward the Kinigi reporting area. Treat those figures as planning estimates and confirm the transfer from Kigali to your Volcanoes-area property and the next morning's meeting point with your provider. Avoid scheduling an early trek immediately after a late arrival; if combining several Rwandan regions, ask for a day-by-day transport plan rather than assuming a compact country means negligible transfer time. Within the city, the districts and the lakeside path are walkable, with taxis and arranged vehicles covering the hill-to-hill parts.",
+    "best_time": "The city itself is a year-round destination: hill weather is mild, and museum, gallery and memorial visits are not seasonal activities. Match it to the trek calendar — June to mid-September is generally drier, with rainy spells mid-February to May and mid-September to mid-December, and forest walks can be muddy in any season. Set the arrival and departure flights around the confirmed permit date, never the reverse.",
+    "planning_tips": "Build at least one full rested day in Kigali out of an early trek morning; the contrast is deliberate, since the trek is a significant physical experience deserving preparation and recovery. Confirm permit terms, transfer arrangements, meals and any mobility support separately, and ask providers to distinguish official requirements from their own recommendations. Treat the memorial visit as a set time slot with slower edges rather than an add-on, and follow its on-site guidance. Ask what the current gallery openings, craft markets and the cultural village are offering during your dates rather than trusting a static list.",
+    "attraction_slugs": [
+      "volcanoes-national-park"
+    ],
+    "activity_slugs": [
+      "volcanoes-gorilla-trek",
+      "volcanoes-golden-monkey-trekking"
+    ],
+    "accommodation_slugs": [],
+    "travel_insight_slugs": [],
+    "highlights": [
+      "The country's arrival gateway with the shortest road corridor to the Volcanoes reporting area",
+      "A deliberately rested city day: districts, a lakeside walk and hillside views",
+      "The Kigali Genocide Memorial with three permanent exhibitions and burial gardens",
+      "Kigali Cultural Village for local artisans and food vendors"
+    ],
+    "sort_order": 1,
+    "status": "published",
+    "hero_image_url": "",
+    "hero_image_alt": "",
+    "gallery": [],
+    "last_researched": "2026-11-09",
+    "research_sources": [
+      {
+        "label": "Visit Rwanda (RDB): Kigali city page — central position and road links, founding 1907/capital at 1962, districts (Nyarugenge CBD, Kacyiru), Nyarutarama/Lover's Lake walk, Kigali Cultural Village, Kigali Genocide Memorial description; checked 9 November 2026",
+        "url": "https://visitrwanda.com/kigali/",
+        "checked_at": "2026-11-09"
+      },
+      {
+        "label": "Visit Rwanda (RDB): Volcanoes National Park page — park in the far northwest, Karisimbi/Bisoke/Sabinyo/Gahinga/Muhabura volcanoes, Buhanga Eco-Park and Musanze Caves inside the park, gorilla and golden monkey tracking; checked 9 November 2026",
+        "url": "https://www.visitrwanda.com/national-parks/volcanoes-national-park/",
+        "checked_at": "2026-11-09"
+      },
+      {
+        "label": "Published on-site guides re-read 9 November 2026 for continuity: Rwanda country page (transfer-from-Kigali promise and Kigali-as-arrival-city framing) and the gorilla and golden monkey activity guides (Kigali-morning logistics, operator-advertised roughly two and a half hours driving each way via Kinigi products, at check 6 November 2026)",
+        "url": "https://trekafricaguide.com/countries/rwanda/",
+        "checked_at": "2026-11-09"
+      }
+    ]
   }
 ]

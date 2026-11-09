@@ -252,7 +252,7 @@
     "No routine tests/builds or repeated broad audits."
   ],
   "next_task_selection": "Complete one destination guide, then rotate to accommodations.",
-  "last_run": "2026-11-08T20:10:00+03:00",
+  "last_run": "2026-11-09T08:20:00+03:00",
   "task_magnitude": "One complete full guide plus booking and listing cards, or one full property photo collection; do not schedule isolated paragraphs/links.",
   "country_destinations_feature": {
     "status": "complete",
@@ -818,5 +818,26 @@
       "live_distinctive_text": "Where to spend your first night in Tunis: the medina or the Sidi Bou Said coast"
     },
     "rebase_note": "Other OpenBot agents pushed to main between runs (Jollyboys gallery, Nyungwe live-verification receipt, a parallel Kibale publish that was consolidated). Rebased onto their head; single-record state verified before deploy."
+  },
+  "local_destination_kigali": {
+    "status": "pushed_pending_live_confirmation",
+    "started": "2026-11-09",
+    "scope": "New local destination Kigali under Rwanda — the first Rwandan city guide, answering the country page's transfer-from-Kigali promise as an arrival/rest base for the Volcanoes journey. Relationships limited to the geographically honest Volcanoes gateway group.",
+    "files": [
+      "content/local-destinations.json",
+      "docs/editorial-research/2026-11-09-kigali-local-destination.md",
+      "docs/editorial-progress.json"
+    ],
+    "category": "destinations",
+    "images": 0,
+    "image_followup": "Six distinct subjects: Kigali hillside skyline, Nyarutarama lake track, Kigali Cultural Village stalls, CBD boulevard, memorial exterior (respecting on-site photography guidance), museum/gallery interior.",
+    "booking_cta": "None by design: destination pages carry no hotel-booking surrogate, and no Kigali-stay guide is published yet.",
+    "key_facts_checked": "Visit Rwanda Kigali + Volcanoes pages (RDB), both checked 9 November 2026; on-site continuity from the Rwanda country guide and both primate activity guides (transfer estimate kept as an attributed provider figure).",
+    "cms": "Production deploy imports at source_commit; publishable-key read of editorial_documents stays RLS-blocked — owner-side CMS check to confirm local_destinations/kigali after deploy.",
+    "related_blocker_note": "Booking-links audit and Nyungwe hold resolved by other agents (Nyungwe live 200, verified in our crawls).",
+    "commit": null,
+    "live_verification": null,
+    "next_action": "Confirm production URL HTTP 200 with rendered text after the Netlify deploy; fill commit + live_verification; rotate to accommodations.",
+    "next_category": "accommodations"
   }
 }
