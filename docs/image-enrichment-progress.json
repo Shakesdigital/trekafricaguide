@@ -71,11 +71,11 @@
       "mandatory_input_check": "Passed node scripts/sync-photo-library.mjs and npm run check:build-inputs; astro build plus check-rendered-content passed before deploy; photo-defaults unit tests 3/3 pass.",
       "published_commit": "7746b55 (photos/ledger) and 7efe8ce (photo-defaults fix + tests)",
       "pushed_at": "2026-11-09 03:37 UTC (photo commit) and 2026-11-09 07:19 UTC (render fix) — Africa/Kampala 06:37 and 10:19",
-      "deploy": "git push did not trigger a Netlify production build for 40+ minutes after the push. Production was then built and deployed from the linked local checkout via netlify CLI (site d32d59a3-f819-4e66-9e79-ce47e04ce22d, authenticated CLI user shakesdigital@gmail.com). Local build ran EDITORIAL_CMS_SYNC=false: the CMS mirror needs a service-role key this machine does not hold, so content renders from committed overrides and the publishable-key Supabase read. The deploy hook in .env.netlify is a placeholder (placeholder could not trigger anything).",
+      "deploy": "Two-stage: (1) git pushes 7746b55/7efe8ce did NOT trigger a Netlify production build for 40+ minutes (NETLIFY_DEPLOY_HOOK in .env.netlify is a placeholder); (2) deployed via the linked, owner-authenticated Netlify CLI. An intermediate CLI deploy (--dir dist, mirror-off local build) put the first three Mfuwe photos live at 08:25+03:00; the final authoritative deploy is the Netlify-managed repo build 6af15a0fec27e0ff12f886c9 (netlify.toml npm ci && npm run build, EDITORIAL_CMS_SYNC=true, CMS mirror imported 128 documents, deploy live) completed ~08:44+03:00 from the merged tree incl. the concurrent Governors' Camp / South Luangwa commits.",
       "email_id": null,
       "report_status": "NOT SENT: Gmail requires a sign-in in this harness browser (same limitation as prior runs); owner receives this progress in chat instead. Subject prepared: 'Trek Africa Guide image update — [Kampala date/time]'.",
       "live_verification": {
-        "checked_at": "2026-11-09 08:25-08:40 UTC (11:25-11:40 Africa/Kampala)",
+        "checked_at": "2026-11-09 re-checked 05:52-05:58 UTC (08:52-08:58 Africa/Kampala) on deploy 6af15a0f",
         "page_http_status": 200,
         "see_all_text": "See all 4 images",
         "all_new_filenames_in_page": true,
@@ -102,7 +102,8 @@
           "bwindi_or_volcanoes_insight": "HTTP 200 with committed content (editorial automation page untouched)",
           "homepage": "HTTP 200"
         },
-        "note": "Production serves the four-image Mfuwe Lodge gallery including the CC BY-SA credit for the chalet exterior."
+        "note": "Production serves the four-image Mfuwe Lodge gallery including the CC BY-SA credit for the chalet exterior.",
+        "final_recheck": "On the final deploy: page 200, See all 4 images, three new filenames present, CC BY-SA credit rendered, chalet asset 200 image/jpeg 475363. Jollyboys still See all 4; Fairway hero intact; Bwindi-or-Volcanoes insight 200. Concurrent-run observation: /activities/south-luangwa-walking-safari/ returns 404 on the current production deploy (slug absent from the final build; CMS mirror reports one document retaining manual edits needing review) — owned by the editorial automation; this run changed nothing of theirs."
       },
       "next_action": "Rotation backlog: reopened-by-rights collections with thin pools (Governors' Camp has one eligible photo; golden-monkey missing bamboo-zone/Kinigi subjects; Jollyboys missing exterior/dorm/room/kitchen leads are CC BY-NC only), then fresh low-image pages. Watch: a plain git push may no longer trigger a Netlify build — the deploy hook in .env.netlify is a placeholder and a push sat pending until this run deployed via the linked Netlify CLI; future runs should trigger a build/deploy explicitly after pushing."
     },
