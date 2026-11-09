@@ -2933,6 +2933,61 @@
       "hero_image_url": "",
       "hero_image_alt": "No licensed property photograph available",
       "gallery": []
+    },
+    {
+      "region_id": 14,
+      "country_id": 49,
+      "slug": "kigali-serena-hotel",
+      "name": "Kigali Serena Hotel",
+      "property_type": "City hotel",
+      "location_name": "Kigali city centre, Rwanda",
+      "listing_summary": "A full-service five-star city base in central Kigali with multiple room and suite categories, two restaurants, a health club and spa, a pool and extensive conference venues; confirm what your selected rate includes.",
+      "detail_intro": "Kigali Serena Hotel is the Serena group's five-star city property in central Kigali. Its operator describes a landmark hotel in the heart of the capital, about five minutes from the Central Business District and about twenty minutes from Kigali International Airport, serving diplomats, executives and leisure travellers. Rooms and suites come in several categories: standard, deluxe and superior rooms in queen, king and twin configurations of roughly 25 to 30 square metres, plus junior, executive and a three-bedroom presidential suite; rooms are described as air-conditioned with Wi-Fi, minibar, safe, tea and coffee facilities and bathtub-plus-shower bathrooms. Do not assume every category shares the same view, size or inclusions; confirm the exact room name and inclusions for your dates.\n\nOn-site facilities are unusually complete for a capital-city hotel: two restaurants (Sokoni, a poolside all-day venue with live music, and Milima, a garden-atrium restaurant), a guests-only Executive Lounge, 24-hour room service, the Maisha Spa and Health Club with pool, gym, sauna and steam room, and large conference and event venues including an 800-seat ballroom and a 500-seat auditorium. This makes it a practical choice for a comfortable pre- or post-trek stay in Kigali, or for travellers whose trip includes meetings. A five-star label reflects the operator's own positioning; it is not a live price comparison.",
+      "practical_info": "Use the booking panel to compare room categories and cancellation terms before paying. Rates, breakfast inclusion and airport-shuttle arrangements depend on your dates; no live price or availability is quoted here. Ask the hotel to confirm airport pickup, early check-in after your arrival flight, and any connecting-room or family needs in advance.\n\nFor city planning, use <a href=\"/countries/rwanda/kigali\">our Kigali guide</a>: it covers the districts, the Nyarutarama lake walk, the Kigali Cultural Village and the Kigali Genocide Memorial, along with the transfer morning that every Volcanoes trek day depends on. If your stay wraps around a trek, both Volcanoes primate activity guides describe Kigali-morning logistics; treat published driving-time figures as operator planning estimates and reconfirm your transfer with your provider.\n\nThis page has no licensed Kigali Serena property photographs. The neutral image slot is deliberate; city or poolside scenery from another source must not stand in for the hotel.",
+      "amenities": [
+        "Standard, deluxe and superior rooms in queen, king and twin configurations",
+        "Junior, executive and three-bedroom presidential suites",
+        "Sokoni poolside restaurant and Milima garden-atrium restaurant",
+        "Executive Lounge for in-house guests",
+        "24-hour room service",
+        "Maisha Spa and Health Club with pool, gym, sauna and steam room",
+        "Conference and event venues including ballroom and auditorium",
+        "Airport shuttle, taxi and limousine services (confirm arrangements and fees)",
+        "Complimentary high-speed Wi-Fi"
+      ],
+      "price_label": "Luxury (operator five-star positioning; not a live price comparison)",
+      "booking_url": "https://www.booking.com/hotel/rw/kigali-serena.en-gb.html",
+      "source_url": "https://www.serenahotels.com/kigali/",
+      "research_sources": [
+        {
+          "label": "Kigali Serena Hotel: official overview, room and suite categories, sizes and in-room features",
+          "url": "https://www.serenahotels.com/kigali/"
+        },
+        {
+          "label": "Kigali Serena Hotel: official dining venues, hours and Executive Lounge description",
+          "url": "https://www.serenahotels.com/kigali/"
+        },
+        {
+          "label": "Kigali Serena Hotel: official Maisha Spa, Health Club, meetings and event-facility descriptions",
+          "url": "https://www.serenahotels.com/kigali/"
+        },
+        {
+          "label": "Booking.com: exact Kigali Serena Hotel property detail (search-verified 9 November 2026; direct platform fetch automation-blocked, so no rate, availability or review-score claims are made)",
+          "url": "https://www.booking.com/hotel/rw/kigali-serena.en-gb.html"
+        },
+        {
+          "label": "Trek Africa Guide: Kigali local destination guide and visit-planning context",
+          "url": "https://trekafricaguide.com/countries/rwanda/kigali/"
+        }
+      ],
+      "last_researched": "2026-11-09",
+      "rating": null,
+      "review_count": 0,
+      "status": "published",
+      "published_at": null,
+      "hero_image_url": "",
+      "hero_image_alt": "Kigali Serena Hotel",
+      "gallery": []
     }
   ],
   "activities": [

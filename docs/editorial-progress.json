@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-06",
+  "updated_at": "2026-11-09",
   "timezone": "Africa/Kampala",
   "next_scheduled_start": "2026-10-17T19:30:00+03:00",
   "cadence_hours": 3,
@@ -454,17 +454,18 @@
     "verification": "Brief JSON/content inspection, 24 internal HTTP checks and 14 live rendered checks. No test suite or local build. Existing production exposed-markup guard preserved."
   },
   "latest_run_checkpoint": {
-    "date": "2026-11-07",
-    "run": "editorial content run (attractions)",
-    "status": "blocked_production_publication",
-    "content_commit": "6eceae8",
-    "live_url": "https://trekafricaguide.com/attractions/nyungwe-national-park/",
-    "live_verification": "BLOCKED: detail 404 and archive/search omit the slug while deploys whose trees include the record are confirmed live (SA image artifacts and live /photo-library.js carry the same-tree changes); other repo-published records appear in homepage search, so only this row is dropped. Local checks pass; the production mirror path is not reproducible from this environment (service-role creds are Netlify-held; .env.netlify holds placeholders).",
-    "cms": "Suspected sync_editorial_documents drop (possible pre-existing draft binding or a manual status edit on a pre-seeded nyungwe document, or a deploy-order race with the concurrent image automation, which observed and reported the same 404). Preserve staff revisions; inspect editorial_documents before touching the record.",
+    "date": "2026-11-09",
+    "run": "editorial content run (accommodations)",
+    "status": "commit_local_push_blocked",
+    "content_commit": "pending",
+    "live_url": "https://trekafricaguide.com/accommodations/kigali-serena-hotel/",
+    "live_verification": "LOCAL ONLY (2026-11-09): production build passed (check-build-inputs, 131 pages, readability guard 136 pages); rendered page verified with correct h1/h2 flow, exact Stay22 Booking.com link and internal Kigali link; production URL not reachable because git push is 403-blocked and Netlify has not received the commit.",
+    "cms": "editorial_documents read remains RLS-blocked for the publishable key; mirror status pending. Public-table reads confirmed (regions/countries/accommodations). Owner-side CMS check needed after push is restored.",
     "email_id": null,
-    "ledger": "docs/editorial-research/2026-11-07-nyungwe-national-park.md",
+    "ledger": "docs/editorial-research/2026-11-09-kigali-serena-hotel.md",
     "images": 6,
-    "next_action": "With production-side access: check editorial_documents row nyungwe-national-park (entity attractions), then one clean owner publish or deploy; retry verification without new research (record copy is finished and lodged in overrides)."
+    "image_note": "Zero gallery images published (none licensed yet); neutral no-photo slot used with explicit no-substitution statement. Six exact-property subject backlog recorded in ledger.",
+    "next_action": "With push rights restored: push, verify production URL HTTP 200 with rendered copy and owner-publish the CMS record; next editorial category is travel insights."
   },
   "activity_volcanoes_golden_monkey_trek": {
     "status": "complete",
@@ -848,5 +849,26 @@
       "checked_at": "2026-11-09",
       "live_distinctive_text": "Kigali, Rwanda | Trek Africa Guide"
     }
+  },
+  "accommodation_kigali_serena": {
+    "id": "kigali-serena-hotel",
+    "category": "accommodations",
+    "started": "2026-11-09",
+    "scope": "New Kigali Serena Hotel city-hotel accommodation record under Rwanda (region 14 east-africa, country 49 rwanda), related to the Kigali local destination stay cards; the first Kigali stay guide, filling the empty-stays record on the live Kigali page.",
+    "files": [
+      "content/editorial-overrides.json",
+      "content/booking-destinations.json",
+      "content/local-destinations.json",
+      "docs/editorial-research/2026-11-09-kigali-serena-hotel.md",
+      "docs/editorial-progress.json"
+    ],
+    "images": 0,
+    "image_followup": "Six exact-property subjects: fountain/entrance signage, Standard King room, Deluxe King room with its pool view, Milima garden-atrium interior, Maisha Spa with the 18 m pool and sundeck, Executive Lounge tented terrace. Licensed-reuse review only; no substitutes.",
+    "booking_destination": "Exact Booking.com property detail https://www.booking.com/hotel/rw/kigali-serena.en-gb.html, search-verified 9 November 2026; direct OTA fetch automation-blocked (Ridge Royal standard). Registered in content/booking-destinations.json so the shared Stay22 resolver wraps the exact URL; no rate, availability, rating or review-count published.",
+    "key_facts_checked": "Official Serena Kigali pages checked 9 November 2026 (operator positioning \"heart of the capital, five minutes from the CBD, 20 minutes from the airport\"; 148 rooms and 25 suites; standard/deluxe/superior room categories with sizes and in-room features; Sokoni and Milima restaurants, Executive Lounge, 24-hour room service; Maisha Spa and Health Club pool/gym/sauna/steam; ballroom and auditorium venues; airport shuttle/taxi/limousine services). Confirm-before-you-book hedges retained; no street address, no OTA scores, no invented reviews or dates.",
+    "live_reference_check": "2026-11-09, HTTP 200: golden monkey reference page renders all seven h2 sections (About this activity, Highlights, Best time to participate, Planning notes, Booking option, You may also like, Nearby stays); Fairway accommodation reference renders the site-standard accommodation flow (Why stay here and how to plan your stay, Key amenities, Stay style and budget, Booking option, Other Nearby Accommodations, Nearby Attractions). The new page matches the accommodation presentation.",
+    "next_action": "Confirm production URL HTTP 200 with rendered text after the owner restores push and Netlify deploys; fill content_commit + live_verification here; rotate to travel insights.",
+    "next_category": "travel_insights",
+    "render_checks": "Production build with EDITORIAL_CMS default settings: check-build-inputs passed; astro build 131 pages; check-rendered-content readability guard passed over 136 pages; Kigali destination dist page now renders the Kigali Serena stay card; no exposed markup in the new record."
   }
 }

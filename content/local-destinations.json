@@ -495,7 +495,9 @@
       "volcanoes-gorilla-trek",
       "volcanoes-golden-monkey-trekking"
     ],
-    "accommodation_slugs": [],
+    "accommodation_slugs": [
+      "kigali-serena-hotel"
+    ],
     "travel_insight_slugs": [],
     "highlights": [
       "The country's arrival gateway with the shortest road corridor to the Volcanoes reporting area",
