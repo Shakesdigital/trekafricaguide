@@ -8255,6 +8255,29 @@ export const photoLibrary = {
       "exact_subject_evidence": "The Pexels page identifies Kampala, Uganda and describes an elevated city skyline view; it records capture on 30 July 2026 and publication on 16 September 2026. Visual review shows a broad view over central urban buildings.",
       "reuse_note": "Pexels License permits website use and does not require public attribution. This photo documents Kampala context; it does not imply that the person or business endorses Trek Africa Guide or that the publisher visited the location."
     },
+    "/images/editorial/fairway-boutique-hotel/kampala-street-life-pexels-35603022.jpeg": {
+      "slug": "fairway-kampala-street-life-pexels-35603022",
+      "local_path": "/images/editorial/fairway-boutique-hotel/kampala-street-life-pexels-35603022.jpeg",
+      "source_page": "https://www.pexels.com/photo/bustling-street-scene-in-kampala-uganda-35603022/",
+      "source_revision": "Pexels photo 35603022, checked 2026-11-09",
+      "creator": "Wings Panic",
+      "license": "Pexels License",
+      "license_url": "https://www.pexels.com/license/",
+      "source_published_at": "2026-01-10",
+      "captured_at": null,
+      "sha256": "64c70f8c8cf4749afd0b2e7bff8663cfc2320bf587db7f82cbe02b020a75b5aa",
+      "exact_subject": true,
+      "subject": "A busy Kampala street with minibuses, motorcycles and everyday commerce",
+      "alt": "Everyday traffic and commerce on a busy Kampala street; the city setting around the Fairway Boutique Hotel, not a photograph of the hotel itself.",
+      "caption": "Kampala street life: the city setting around the Fairway Boutique Hotel. This source photo shows the surrounding city, not the hotel or its grounds.",
+      "property": false,
+      "kind": "photograph",
+      "requires_attribution": false,
+      "changes": "Downloaded from the Pexels CDN at 1,600 pixels wide with aspect ratio preserved; no other edits.",
+      "checked_at": "2026-11-09",
+      "exact_subject_evidence": "The Pexels page lists the subject as Kampala, Uganda with a vibrant street scene (photo 35603022, published 2026-01-10). Visual inspection confirms Kampala urban traffic, taxis, motorcycles and city commerce.",
+      "reuse_note": "Pexels License permits website use without public attribution. Used as a destination-setting photo for the Fairway Boutique Hotel listing; it must not be presented as a photograph of the hotel itself."
+    },
     "/images/editorial/murchison-falls-nile-launch-trip/murchison-falls-cruise-ssemmanda-will.jpg": {
       "slug": "murchison-falls-cruise-ssemmanda-will",
       "local_path": "/images/editorial/murchison-falls-nile-launch-trip/murchison-falls-cruise-ssemmanda-will.jpg",
@@ -10222,6 +10245,12 @@ export const photoLibrary = {
           "/images/editorial/jollyboys-backpackers/jollyboys-communal-lounge-2019.jpg",
           "/images/editorial/jollyboys-backpackers/jollyboys-bar-courtyard-2019.jpg"
         ]
+      },
+      "fairway-boutique-hotel": {
+        "hero_image_url": "/images/editorial/fairway-boutique-hotel/kampala-street-life-pexels-35603022.jpeg",
+        "hero_image_alt": "Everyday traffic and commerce on a busy Kampala street, the city setting around the Fairway Boutique Hotel",
+        "replaces": [],
+        "gallery": []
       }
     },
     "local_destinations": {
