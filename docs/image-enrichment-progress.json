@@ -1,5 +1,5 @@
 {
-  "updated_at": "09/11/2026 12:18:11 Africa/Kampala",
+  "updated_at": "2026-11-09 12:55 UTC (15:55 Africa/Kampala)",
   "follow_ups": [
     {
       "id": "bwindi-gorilla-trekking-interrupted-2026-10-28",
@@ -40,6 +40,65 @@
     "resolved_at": "2026-10-21 13:16 Africa/Kampala"
   },
   "completed_runs": [
+    {
+      "id": "nairobi-local-destination-ten-photo-commons-gallery-2026-11-09",
+      "page_url": "https://trekafricaguide.com/countries/kenya/nairobi/",
+      "page_type": "local-destination",
+      "status": "published_live_confirmed",
+      "previous_photo_count": 0,
+      "photo_count": 10,
+      "new_photo_count": 10,
+      "checked_date": "2026-11-09",
+      "started_at": "2026-11-09 12:07 UTC (15:07 Africa/Kampala)",
+      "initial_live_verification": "Production local-destination page returned HTTP 200 and was read in full: zero dedicated photos — no hero image and no gallery; the editorial automation had published it the same morning in a zero-photo honest state.",
+      "source_ledger": "docs/editorial-research/2026-11-09-nairobi-local-destination-photo-enrichment.md",
+      "note": "Added ten visually inspected exact-Nairobi photographs, all from Wikimedia Commons: Maasai giraffe with city skyline (hero), zebra with skyline, male Maasai ostrich with hazy skyline (the three Nairobi-NP-with-city compositions), CBD skyline at dusk, KICC main gate entrance (CC0, Francis Akuka for the Wikimedia Foundation), two 2014 Nairobi National Museum interiors (hominin skull hall, decorated-gourd culture hall — both Mike W.), Giraffe Centre feeding-platform view, a purple matatu in central traffic, and nyama choma over charcoal. All credit-bearing CC licences render in the gallery credit block; CC0 needs none. The dated 2005 pre-renovation museum facade was excluded in favour of current-building interiors. Repo synced to origin/main f3adc40 first.",
+      "files": [
+        "content/local-destinations.json",
+        "src/lib/photo-library.js",
+        "public/photo-library.js",
+        "public/images/editorial/nairobi-local-destination/",
+        "docs/editorial-research/2026-11-09-nairobi-local-destination-photo-enrichment.md",
+        "docs/image-enrichment-progress.json"
+      ],
+      "selected_images": [
+        "nairobi-giraffe-skyline-britam-2020.jpg",
+        "nairobi-np-zebra-skyline-2025.jpg",
+        "nairobi-np-ostrich-skyline-2025.jpg",
+        "nairobi-city-skyline-dusk-2020.jpg",
+        "nairobi-kicc-entrance-2025.jpg",
+        "nairobi-museum-hominin-hall-2014.jpg",
+        "nairobi-museum-gourd-culture-hall-2014.jpg",
+        "nairobi-giraffe-centre-feeding-2019.jpg",
+        "nairobi-matatu-street-2025.jpg",
+        "nairobi-nyama-choma-grill-2021.jpg"
+      ],
+      "excluded_candidates_note": "Nairobi Museum entrance 2.JPG (2005 pre-renovation facade) replaced by 2014 current-building interiors; montage composite and SGR-railway shots excluded as non-photo/composite or infrastructure-subject.",
+      "mandatory_input_check": "Passed node scripts/sync-photo-library.mjs and npm run check:build-inputs; checked 2026-11-09.",
+      "published_commit": "e72ed2f",
+      "pushed_at": "2026-11-09 12:2x UTC (15:2x Africa/Kampala)",
+      "netlify_deploy": "6af1ba03ce3ad7ad0f5952c2 (repo-triggered build, state ready) — this time the plain git push DID trigger a Netlify production build; no CLI deploy needed.",
+      "email_id": null,
+      "report_status": "NOT SENT: Gmail requires interactive sign-in in the harness browser (same standing limitation recorded by prior runs and today's editorial receipt); owner receives this progress in chat instead. Subject prepared: 'Trek Africa Guide image update — [Kampala date/time]'.",
+      "live_verification": {
+        "checked_at": "2026-11-09 12:4x UTC (15:4x Africa/Kampala) on deploy 6af1ba03",
+        "page_http_status": 200,
+        "see_all_text": "See all 10 images",
+        "hero_alt_present": true,
+        "all_new_filenames_in_page": true,
+        "credits_block_present": true,
+        "asset_http_statuses": [200, 200, 200, 200, 200, 200, 200, 200, 200, 200],
+        "asset_content_types": ["image/jpeg", "image/jpeg", "image/jpeg", "image/jpeg", "image/jpeg", "image/jpeg", "image/jpeg", "image/jpeg", "image/jpeg", "image/jpeg"],
+        "asset_content_lengths": [268865, 557019, 290708, 258239, 320070, 312445, 445529, 375495, 693149, 291771],
+        "regression_spot_checks": {
+          "homepage": "HTTP 200",
+          "jollyboys_backpackers_gallery": "See all 4 images (unchanged)",
+          "great_zimbabwe_gallery": "See all 7 images (unchanged)"
+        },
+        "note": "Production serves the ten-image Nairobi gallery; all ten new assets return HTTP 200 image/jpeg with byte counts matching the locally stored files."
+      },
+      "next_action": "Continue the zero-own-photo accommodation rotation: Dar Saïd, Maribela Hotel, Riad Rosemary, Sabyinyo Silverback Lodge, Sanctuary Gorilla Forest Camp, Hilton Cabo Verde Sal Resort — or enrich the fresh zero-photo Kigali/Maun local-destination pages (Kigali has a plausible Commons/free-stock city pool; verify exact subjects first). Nyungwe Top View Hill Hotel stays closed unless owner originals or written permission arrive (editorial already verified no licensed exact-property pool)."
+    },
     {
       "id": "camp-okavango-exact-property-no-eligible-photo-review",
       "page_url": "https://trekafricaguide.com/accommodations/camp-okavango/",
