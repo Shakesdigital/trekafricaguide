@@ -465,7 +465,14 @@
     "ledger": "docs/editorial-research/2026-11-09-kigali-serena-hotel.md",
     "images": 6,
     "image_note": "Zero licensed gallery photos; neutral slot honest; six exact-property subjects in ledger backlog.",
-    "next_action": "Rotate to travel insights on the next run; six-photo collections stay in the separate image backlog."
+    "next_action": "Rotate to travel insights on the next run; six-photo collections stay in the separate image backlog.",
+    "email_status": "required_signin_owner_gmail",
+    "email_note": "Owner progress email drafted for fsddanmugisa@gmail.com but NOT sent: Gmail opened to the Google sign-in page (no active owner session in the OpenBot browser). Routine rule: report a required sign-in instead of requesting takeover. Send the draft next run after the owner signs in once.",
+    "email_draft": {
+      "to": "fsddanmugisa@gmail.com",
+      "subject": "Trek Africa Guide — Kigali Serena stay guide shipped and live (run 2026-11-09)",
+      "body": "Hi Foscod,\n\nShipped this run: Kigali Serena Hotel — Kigali's first published stay guide (accommodations category). It fills the empty 'stays in Kigali' slot on the live Kigali destination guide, so the city that starts a Volcanoes journey now has arrival-evening and pre/post-trek base guidance.\n\nLive receipt: https://trekafricaguide.com/accommodations/kigali-serena-hotel/ — HTTP 200, verified today: correct h1/section flow (Why stay here, Key amenities, Stay style and budget, Booking option, Nearby cards), internal link to the Kigali guide, and the guide listed in the Kigali destination page, accommodations archive, homepage search and Rwanda country page. No exposed markup.\n\nBooking: exact Booking.com property detail (booking.com/hotel/rw/kigali-serena.en-gb.html) served through our Stay22 resolver; search-verified today; no rates, availability or review scores published because the OTA blocks direct automated fetches.\n\nCompletion detail: all property facts sourced from the official Serena Kigali pages (148 rooms, 25 suites, Sokoni/Milima dining, Executive Lounge, Maisha Spa, ballroom/auditorium). No street address published — the official page does not print one and nothing was guessed.\n\nPhotos: honest neutral slot again; six exact-property subjects recorded for the licensed photo backlog (entrance signage, Standard King, Deluxe King pool view, Milima atrium, Maisha Spa pool, Executive Lounge terrace).\n\nGood news on infrastructure: git push worked again this run (the read-only 403 is gone) — content commit fcc74b8 and the receipt commit went straight to main, so Netlify deployed without owner intervention.\n\nRemaining holds: Nyungwe CMS-side record confirmed resolved by the earlier hold unblock; Fairway and Paraa six-photo collections still waiting on owner-supplied licensed property photos; CMS owner-side check of accommodations/kigali-serena-hotel recommended after this deploy.\n\nNext category: travel insights.\n\n— Trek editorial automation\n"
+    }
   },
   "activity_volcanoes_golden_monkey_trek": {
     "status": "complete",
