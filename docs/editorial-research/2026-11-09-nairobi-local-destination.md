@@ -1,15 +1,15 @@
-# Nairobi local destination guide — 9 November 2026
+# Nairobi local destination guide â€” 9 November 2026
 
 ## Selection and scope
 
-Rotation reached destinations (accommodations inventory re-verified last run: all 32 ledger stays render live; Maun shipped earlier today by a parallel run). Kenya is the flagship safari country with no local-destination guide: Uganda has three (Buhoma, Kampala, Fort Portal), Zambia/South Africa/Tanzania/Ghana/Senegal/Rwanda/Botswana one each — while the Kenya country page heroes "smooth access from Nairobi" and instructs "Use Nairobi as a common planning gateway… Confirm the correct airstrip and transfer before booking a fly-in stay", yet no guide holds that planning decision. New local destination `nairobi` under Kenya, authored per docs/local-destinations.md. No changes to country/attraction/activity records; relationship arrays deliberately narrow (see below).
+Rotation reached destinations (accommodations inventory re-verified last run: all 32 ledger stays render live; Maun shipped earlier today by a parallel run). Kenya is the flagship safari country with no local-destination guide: Uganda has three (Buhoma, Kampala, Fort Portal), Zambia/South Africa/Tanzania/Ghana/Senegal/Rwanda/Botswana one each â€” while the Kenya country page heroes "smooth access from Nairobi" and instructs "Use Nairobi as a common planning gatewayâ€¦ Confirm the correct airstrip and transfer before booking a fly-in stay", yet no guide holds that planning decision. New local destination `nairobi` under Kenya, authored per docs/local-destinations.md. No changes to country/attraction/activity records; relationship arrays deliberately narrow (see below).
 
 ## Relationship decisions (geography-checked)
 
-- `attraction_slugs: ["maasai-mara", "amboseli-national-park"]` — both are Nairobi-gateway parks in the site's own guides (Mara road approach from Nairobi through Narok; Amboseli KWS Iremito/Kimana/Meshanani gates with Nairobi routes).
-- `activity_slugs: ["amboseli-game-drive-safari"]` — that guide's documented product is literally a Nairobi-departure day tour (already booking on site). **Maasai Mara balloon is excluded**: it departs pre-dawn inside the Mara camps, not a Nairobi-side outing.
-- `accommodation_slugs: []` — the three published Kenya stays (Governors' Camp, both Amboseli lodges) are inside Ambosei/Mara park areas, not Nairobi; honest empty state, matching the Kigali precedent.
-- `travel_insight_slugs: []` — no Kenya-specific insight is published.
+- `attraction_slugs: ["maasai-mara", "amboseli-national-park"]` â€” both are Nairobi-gateway parks in the site's own guides (Mara road approach from Nairobi through Narok; Amboseli KWS Iremito/Kimana/Meshanani gates with Nairobi routes).
+- `activity_slugs: ["amboseli-game-drive-safari"]` â€” that guide's documented product is literally a Nairobi-departure day tour (already booking on site). **Maasai Mara balloon is excluded**: it departs pre-dawn inside the Mara camps, not a Nairobi-side outing.
+- `accommodation_slugs: []` â€” the three published Kenya stays (Governors' Camp, both Amboseli lodges) are inside Amboseli/Mara park areas, not Nairobi; honest empty state, matching the Kigali precedent.
+- `travel_insight_slugs: []` â€” no Kenya-specific insight is published.
 
 ## Official evidence (checked 9 November 2026)
 
@@ -32,4 +32,4 @@ Rotation reached destinations (accommodations inventory re-verified last run: al
 ## Publication record
 
 - Content commit pushed to main; Netlify deploy follows; live verification recorded in the receipt commit to docs/editorial-progress.json.
-- CMS mirror: production deploy imports at source_commit; `editorial_documents` read remains RLS-blocked for the publishable key — owner-side CMS check of local_destinations/nairobi recommended.
+- CMS mirror: production deploy imports at source_commit; `editorial_documents` read remains RLS-blocked for the publishable key â€” owner-side CMS check of local_destinations/nairobi recommended.
