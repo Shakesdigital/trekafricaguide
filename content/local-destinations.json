@@ -1,532 +1,598 @@
 [
-  {
-    "slug": "buhoma",
-    "country_slug": "uganda",
-    "name": "Buhoma",
-    "category": "Forest gateway",
-    "hero_title": "Buhoma: a base for northern Bwindi",
-    "listing_summary": "Plan a northern Bwindi stay around your trekking sector, with time for forest walks and community-led experiences near Buhoma.",
-    "overview": "Buhoma is a gateway to the northern side of Bwindi Impenetrable National Park in southwestern Uganda. The surrounding steep forest landscape makes this a place to settle into, with gorilla tracking as the main reason many visitors come. A stay here can also include guided forest exploration and a locally hosted village experience.\n\nThe important distinction is between the park as a whole and your actual starting point. Buhoma is one base within a much larger trekking destination. Choose it when it fits the sector on your permit, rather than assuming any accommodation around Bwindi works for every departure. The published Bwindi guide explains the wider park; this guide helps you organize a stay on its northern edge.",
-    "highlights": [
-      "A base for a confirmed Buhoma-sector gorilla trek",
-      "Guided forest walks and birding when locally available",
-      "Community-hosted experiences arranged with the hosts",
-      "Published local stays with their own full property guides"
-    ],
-    "access_summary": "Uganda Wildlife Authority describes road approaches to Buhoma through Kihihi and from the Queen Elizabeth National Park area, and identifies Kihihi airstrip as the northern park's air connection. These still require an onward road transfer. Ask your lodge or operator to confirm the current route, road conditions and collection point.\n\nArrive before your trekking day and confirm the reporting location with your booking provider. Treat a transfer between Bwindi sectors as a separate journey. Avoid building a plan around a short map distance without checking the actual road route.",
-    "best_time": "Choose dates around your confirmed gorilla permit and ability to manage forest conditions. Rain and slippery ground remain part of a rainforest visit. Ask the local team about conditions for the particular walks you want, and carry waterproof layers and footwear with grip. A visit with time for walks benefits from spare time to adapt the day's plan to conditions.",
-    "planning_tips": "A practical starting plan is an arrival day, your main trekking day and onward travel after a second night; add another day if forest walks, birding or a hosted community visit matter to you. This is an editorial pacing suggestion, not a fixed tour duration.\n\nBuhoma Community Rest Camp and the published Gorilla Forest Camp guide are relevant options to compare here. Check each property's current name, room type, access and inclusions directly. Reserve permits separately unless your quotation explicitly includes them. For community activities, ask who leads the experience, how payment reaches the hosts and whether photography is welcome.",
-    "attraction_slugs": [
-      "bwindi-impenetrable-national-park"
-    ],
-    "activity_slugs": [
-      "bwindi-gorilla-trekking"
-    ],
-    "accommodation_slugs": [
-      "buhoma-community-rest-camp",
-      "sanctuary-gorilla-forest-camp"
-    ],
-    "travel_insight_slugs": [
-      "choose-bwindi-sector-before-booking-stay"
-    ],
-    "hero_image_url": "/images/editorial/buhoma-local-destination/trek-departure-2017.jpg",
-    "hero_image_alt": "Visitors setting out for gorilla tracking from Buhoma in September 2017; archival image, not current departure information",
-    "gallery": [
-      "/images/editorial/buhoma-local-destination/trek-departure-2017.jpg",
-      "/images/editorial/buhoma-local-destination/mubare-female-gorilla.jpg",
-      "/images/editorial/buhoma-local-destination/park-headquarters-briefing-2017.jpg"
-    ],
-    "last_researched": "2026-10-16",
-    "research_sources": [
-      {
-        "label": "Uganda Wildlife Authority: Bwindi location, Buhoma road approaches and Kihihi air access",
-        "url": "https://ugandawildlife.org/national-parks/bwindi-impenetrable-national-park/"
-      },
-      {
-        "label": "Uganda Wildlife Authority: gorilla tracking and forest conditions",
-        "url": "https://ugandawildlife.org/activities/gorilla-tracking/"
-      },
-      {
-        "label": "Buhoma Community Rest Camp: local accommodation and experiences",
-        "url": "https://buhomacommunityrestcamp.com/"
-      }
-    ],
-    "sort_order": 1,
-    "status": "published",
-    "published_at": "2026-10-16T00:00:00Z"
-  },
-  {
-    "slug": "cape-town",
-    "country_slug": "south-africa",
-    "name": "Cape Town",
-    "category": "City",
-    "hero_title": "Cape Town: city days between mountain and coast",
-    "listing_summary": "Build a flexible city stay around Table Mountain, neighborhood time and coastal outings, with a published central stay to compare.",
-    "overview": "Cape Town works well as a destination in its own right or as a city chapter before or after a safari. Table Mountain provides the most obvious geographical anchor, while the city offers neighborhood exploration, food, waterfront time and access to the wider peninsula. The existing Cape Town attraction guide focuses on the mountain experience and nearby planning; use this local destination guide to put it into a broader stay.\n\nResist assigning every day to a long excursion. Group outings by area and leave a clear-weather opportunity for the mountain. A guided hike and a cableway visit involve different preparation and should be chosen deliberately, rather than treated as interchangeable ways to fill an afternoon.",
-    "highlights": [
-      "Table Mountain as the main mountain outing",
-      "A guided-hike option with its own activity guide",
-      "Time for the central city and waterfront",
-      "A slower city stay linked to a wider South Africa route"
-    ],
-    "access_summary": "Choose a base with reference to the outings you want to make. Cape Town Tourism lists public transport, metered taxis, ride-hailing and car hire among the ways to get around. Compare the actual routes and service coverage for your plans before deciding whether to rent a car.\n\nArrange an arrival transfer with a clear meeting point, and confirm how you will return from each outing. For Table Mountain, establish whether you are meeting a hiking guide or visiting the cableway station. Check the operator's current status before leaving, and keep an alternative city activity available.",
-    "best_time": "Cape Town Tourism describes January and February as mostly dry summer months that can also be windy and busy. March and April offer a transition into autumn, with major events affecting some weekends. Winter brings a different balance of city experiences and less reliable outdoor weather.\n\nPick the season for your preferred activities, then keep individual mountain days flexible. A summer booking still needs a weather plan, and a winter visit benefits from options beyond outdoor sightseeing.",
-    "planning_tips": "For an initial visit, consider one day for orientation and the central city, a flexible mountain day and a separate day for a coastal outing. Add time if you want a wider peninsula or winelands itinerary. This is suggested pacing rather than a promise that every route fits a particular day.\n\nThe Mount Nelson guide offers one published central accommodation option; compare its location and room offering with your plans and budget. Open the Table Mountain activity guide for hike-specific preparation, and the Cape Town travel insight for ideas about placing the city before or after a safari. Check current attraction opening arrangements and transport with the operators when reserving.",
-    "attraction_slugs": [
-      "cape-town"
-    ],
-    "activity_slugs": [
-      "table-mountain-guided-hike"
-    ],
-    "accommodation_slugs": [
-      "mount-nelson-a-belmond-hotel"
-    ],
-    "travel_insight_slugs": [
-      "choose-cape-town-base-by-outings"
-    ],
-    "hero_image_url": "/images/editorial/cape-town/city-bowl-from-table-mountain.jpg",
-    "hero_image_alt": "Cape Town's City Bowl and harbor seen from Table Mountain",
-    "gallery": [
-      "/images/editorial/cape-town/city-bowl-from-table-mountain.jpg",
-      "/images/editorial/cape-town/camps-bay-beach.jpg",
-      "/images/editorial/cape-town/bo-kaap-houses.jpg",
-      "/images/editorial/cape-town/va-waterfront-harbor.jpg",
-      "/images/editorial/cape-town/sea-point-coast.jpg",
-      "/images/editorial/cape-town/companys-garden.jpg"
-    ],
-    "last_researched": "2026-10-17",
-    "research_sources": [
-      {
-        "label": "Cape Town Tourism: Table Mountain visitor context",
-        "url": "https://www.capetown.travel/top-attractions/tablemountain/"
-      },
-      {
-        "label": "Cape Town Tourism: seasons and event tradeoffs",
-        "url": "https://www.capetown.travel/the-best-time-of-year-to-visit-cape-town/"
-      },
-      {
-        "label": "Cape Town Tourism: local transport choices",
-        "url": "https://www.capetown.travel/getting-around-cape-town/"
-      }
-    ],
-    "sort_order": 2,
-    "status": "published",
-    "published_at": "2026-10-16T00:00:00Z"
-  },
-  {
-    "slug": "unguja",
-    "country_slug": "tanzania",
-    "name": "Unguja (Zanzibar Island)",
-    "category": "Island",
-    "hero_title": "Unguja: Stone Town and time on the coast",
-    "listing_summary": "Give Stone Town its own place in a Zanzibar island stay, then choose a coastal base that matches the experience you want.",
-    "overview": "Unguja is the island that many travelers mean when they say Zanzibar. Stone Town lies on its western side and provides a distinct heritage-focused chapter alongside a coastal stay. Its streets and buildings reflect the history of a Swahili trading town and its connections across the Indian Ocean. UNESCO recognizes this urban heritage, including the relationship between its narrow lanes, seafront and public spaces.\n\nUse the published Zanzibar attraction guide for the wider island overview. Here, start by deciding how much time to give Stone Town and whether you also want a separate beach base. A hotel in the historic town suits a different rhythm from a coastal resort; consider them as separate parts of the route rather than interchangeable accommodation locations.",
-    "highlights": [
-      "Stone Town's Swahili urban heritage and historic streets",
-      "A town stay with time for local guiding and food",
-      "A separate coastal chapter chosen around your interests",
-      "A practical connection with a mainland Tanzania safari"
-    ],
-    "access_summary": "Confirm the island arrival point, arrival time and onward transfer with your accommodation before booking the full route. If you are combining a mainland safari with Zanzibar, allow time for that connection and compare the actual departure and arrival points.\n\nFor a Stone Town stay, ask the hotel where a vehicle can meet you and how luggage reaches the entrance through the historic streets. Arrange coastal transfers separately, with the exact village and property name on the booking. Do not assume every beach base is a convenient day-trip starting point for town.",
-    "best_time": "The Zanzibar Commission for Tourism identifies June to October as a generally favorable dry-season window. Use that as a seasonal starting point, then confirm conditions for your chosen coastal activities with the local operator. A town-focused visit and a trip centered on water activities do not have identical weather priorities. Leave flexible time for outdoor plans.",
-    "planning_tips": "Consider an arrival and orientation day in Stone Town, another day for a guided heritage visit and independent time, then a transfer to your chosen coastal base. This is an editorial starting itinerary, not a required tour length. The UNESCO description provides historical context; it does not confirm that every individual monument is currently open. Check access before planning visits around a specific building.\n\nEmerson Spice is a published stay in Stone Town, with its own property guide and exact-property photographs. It is listed here for its town location, not as a beach resort. Ask about the room and access arrangements that matter to you. For a safari combination, open the linked Serengeti and Zanzibar planning insight rather than assuming the island is a short overland extension of the parks.",
-    "attraction_slugs": [
-      "zanzibar",
-      "jozani-forest"
-    ],
-    "activity_slugs": [
-      "stone-town-historical-walking-tour"
-    ],
-    "accommodation_slugs": [
-      "emerson-spice"
-    ],
-    "travel_insight_slugs": [],
-    "hero_image_url": "/images/editorial/unguja/stone-town-waterfront.jpg",
-    "hero_image_alt": "Stone Town's waterfront promenade and Indian Ocean, Unguja, Zanzibar",
-    "gallery": [
-      "/images/editorial/unguja/stone-town-waterfront.jpg",
-      "/images/editorial/unguja/stone-town-lane-2002.jpg",
-      "/images/editorial/unguja/forodhani-harbour-gardens.jpg",
-      "/images/editorial/unguja/stone-town-carved-upper-door.jpg",
-      "/images/editorial/unguja/nungwi-north-coast.jpg",
-      "/images/editorial/unguja/stone-town-carved-door.jpg"
-    ],
-    "last_researched": "2026-10-16",
-    "research_sources": [
-      {
-        "label": "UNESCO: Stone Town location and Swahili urban heritage",
-        "url": "https://whc.unesco.org/en/list/173/"
-      },
-      {
-        "label": "Zanzibar Commission for Tourism: island and dry-season overview",
-        "url": "https://www.zanzibartourism.go.tz/"
-      },
-      {
-        "label": "Emerson Spice: Stone Town location and property identity",
-        "url": "https://emersonspice.com/"
-      }
-    ],
-    "sort_order": 3,
-    "status": "published",
-    "published_at": "2026-10-16T00:00:00Z"
-  },
-  {
-    "slug": "elmina",
-    "country_slug": "ghana",
-    "name": "Elmina",
-    "category": "Coastal heritage town",
-    "hero_title": "Elmina: a coastal heritage base",
-    "listing_summary": "Plan a thoughtful Elmina visit around its coastal history, with time for reflection and separately arranged trips to Cape Coast and Kakum.",
-    "overview": "Elmina is a coastal town in Ghana's Central Region, best known to many visitors for St. George's Castle, also called Elmina Castle. UNESCO records the castle as part of Ghana's collective Forts and Castles World Heritage property and dates its construction to 1482. The coast's trading history includes the enslavement and forced movement of African people; a visit calls for context and reflection, not treating the site as a scenic backdrop.\n\nGive the castle its own unhurried visit and use informed interpretation to understand how its role changed over time. Ghana's Tourism Authority also identifies Fort St. Jago (Fort Coenraadsburg) across the lagoon from the castle; confirm current access before making a plan around it. Elmina is also a living town, not only a heritage stop. The authority lists the local Edina Buronya celebration and the region's fishing communities; check current community guidance and annual dates before planning around an event.\n\nThe published Elmina Castle guide covers the site itself. Cape Coast Castle and Kakum National Park are separate regional outings, not attractions within the castle grounds. Allow enough time for the transfers and for each experience to stand on its own.",
-    "highlights": [
-      "Thoughtful guided interpretation at Elmina Castle",
-      "A coastal town with living community and fishing contexts",
-      "Separate regional outings to Cape Coast and Kakum",
-      "A slower itinerary that leaves room for reflection"
-    ],
-    "access_summary": "Plan an overland arrival to Elmina and confirm the current route, realistic journey estimate, exact drop-off and return pickup with your transport provider or accommodation. Travel time from Accra varies with route, traffic and stops; no fixed duration is promised here. If arriving through Cape Coast, arrange a separate road transfer to Elmina rather than assuming the two castle sites are a walk between one another.\n\nFor solo and budget travel, compare a shared public-transport journey plus the final local transfer with a private return quote. Confirm where the return vehicle will meet you, what waiting time costs and whether the quote includes a guide or admissions. Check road conditions and event-day arrangements close to travel. The Ghana Tourism Authority lists taxis and shared minibuses among transport options nationally, but it does not establish a local timetable or guarantee a particular service for your date.",
-    "best_time": "Ghana Tourism Authority's national planning guide describes November to March and July to August as generally drier travel periods in southern Ghana, with rainier periods around April to June and September to mid-November; it notes that Central Region rains can be heavier and last longer. These are broad seasonal patterns rather than a forecast. Keep flexibility for outdoor walking in wetter months and check local conditions near departure.\n\nA heritage-focused visit can work across seasons, but choose a comfortable time of day, carry water and rain protection as conditions require, and ask the site about current opening and access before setting a tight onward connection. If you hope to attend Edina Buronya or another local celebration, verify dates and any visitor guidance with the organizers rather than relying on an old calendar listing.",
-    "planning_tips": "A relaxed outline is to arrive and settle in on day one, devote a substantial block on day two to Elmina Castle and leave the remainder of the day flexible, then choose either Cape Coast Castle or Kakum for a separate outing. Add another night if you want to visit both. This is editorial pacing advice, not a fixed tour or promise about transfer times. Ask the castle directly about current hours, admissions, photography rules, accessible routes and opportunities to rest; do not assume the historic site is step-free.\n\nEngage with local guides and community experiences by prior agreement. Ask before photographing people, homes, fishing activity or ceremonies, and respect any restricted areas. Visitors approaching the history of enslavement may want time afterward without another scheduled attraction.\n\nNo Elmina-based accommodation or activity guide is currently published. Choose a property only after verifying its address and transfer arrangements for your dates; a hotel in Cape Coast would be a separate regional base rather than an Elmina stay.",
-    "attraction_slugs": [
-      "elmina-castle",
-      "cape-coast-kakum"
-    ],
-    "activity_slugs": [],
-    "accommodation_slugs": [],
-    "travel_insight_slugs": [],
-    "hero_image_url": "/images/editorial/elmina/town-overview.jpg",
-    "hero_image_alt": "Elmina’s coastal town and fishing harbor viewed from above.",
-    "gallery": [
-      "/images/editorial/elmina/town-overview.jpg",
-      "/images/editorial/elmina/colonial-town-street.jpg",
-      "/images/editorial/elmina/downtown-elmina-archive.jpg",
-      "/images/editorial/elmina/benya-lagoon-fishing-boats.jpg",
-      "/images/editorial/elmina/elmina-port-fishing-boats.jpg",
-      "/images/editorial/elmina/fishing-harbour-2025.jpg"
-    ],
-    "last_researched": "2026-10-18",
-    "research_sources": [
-      {
-        "label": "UNESCO World Heritage Centre: Ghana's Forts and Castles",
-        "url": "https://whc.unesco.org/en/list/34/"
-      },
-      {
-        "label": "Ghana Tourism Authority: Elmina Castle and Fort St. Jago location context",
-        "url": "https://visitghana.com/elmina-castle-2/"
-      },
-      {
-        "label": "Ghana Tourism Authority: Central Region, Edina Buronya and Kakum context",
-        "url": "https://visitghana.com/central-region/"
-      },
-      {
-        "label": "Ghana Tourism Authority: getting around Ghana",
-        "url": "https://visitghana.com/getting-around-ghana/"
-      },
-      {
-        "label": "Ghana Tourism Authority: national planning brochure and seasonal guidance",
-        "url": "https://visitghana.com/wp-content/uploads/2023/05/Welcome-Ghana-Passport-Brochure-compressed.pdf"
-      }
-    ],
-    "sort_order": 4,
-    "status": "published",
-    "published_at": "2026-10-18T13:30:00Z"
-  },
-  {
-    "slug": "sine-saloum-delta",
-    "country_slug": "senegal",
-    "name": "Sine-Saloum Delta",
-    "category": "River delta",
-    "hero_title": "Choose a Sine-Saloum base before you book the boat",
-    "listing_summary": "Plan around one delta base and its actual pirogue departure; Toubacouta, Ndangane and the wider Saloum are not interchangeable.",
-    "overview": "The Sine-Saloum is a lived-in estuary of mangrove channels, islands, Atlantic water and dry woodland. UNESCO recognizes the Saloum Delta as a cultural landscape: the listed property covers 145,811 hectares and includes brackish channels, mangroves and evidence of a long history of fishing and shellfish gathering. That scale matters to a visit: this is a region, not one dock or a single day-trip loop.\n\nStart by choosing the town or lodge that fits the outing you want. Toubacouta and Ndangane are among the distinct settlements in the wider delta. Ask where your pirogue actually leaves and which waterways it will explore before you book. For the cultural landscape and heritage context, see the separate Sine-Saloum attraction guide.",
-    "highlights": [
-      "Mangrove channels and island scenery explored by locally arranged pirogue",
-      "Fishing and shellfish gathering remain part of the area’s living landscape",
-      "Toubacouta and Ndangane serve different departure points across a large delta"
-    ],
-    "access_summary": "Treat the road journey and the boat outing as two separate legs. From Dakar or a Petite Côte stop, arrange the road transfer to your named accommodation or embarkation point with the property or local operator; confirm the pickup, likely arrival window and return before departure. Allow flexibility for traffic and road conditions.\n\nThe delta stretches among separate settlements and waterways, so a stay in one town does not automatically use the same landing or pirogue route as another. For a Toubacouta base, Les Palétuviers identifies its location with that community; confirm whether your chosen outing departs there or needs a separate transfer. If you are comparing Ndangane or another base, ask the same questions before choosing your accommodation.",
-    "best_time": "Destination Senegal describes a broad dry season from November to May and a rainy season from June to October, while noting that conditions vary by region and that rains last longer in the south. Use that as a planning guide rather than a delta-specific forecast. A drier window may simplify outdoor transfers; during wetter months, keep the road arrival and pirogue outing flexible and reconfirm arrangements near travel.\n\nBirdlife and water conditions vary, and no particular sighting or route is assured. Check a current local forecast and ask your host how conditions affect the planned departure for your dates.",
-    "planning_tips": "For a first visit, plan two nights in one base: arrive by road, confirm the boat plan with your host, then set aside a full, unhurried day for one locally arranged water outing. Keep the next morning flexible instead of stacking a second distant departure onto the same stay. This is a suggested pace, not an operator itinerary.\n\nBefore setting out, ask who operates the pirogue, where it leaves, how long the outing is expected to take, whether a local guide is included, what food or landing stops are planned, and how return transport works. Ask about engine noise if quiet birdwatching matters to you. Shell mounds are cultural places and some contain burial sites; visit only where local guidance confirms access is welcome, and do not treat an island landing as automatically permitted. Carry sun and rain protection suited to the forecast, and ask before photographing people or their work.\n\nFor a nearby base in Toubacouta, the published Les Palétuviers Boutique Hotel guide is linked below; review its own details and confirm the transfer and excursion arrangements directly.",
-    "attraction_slugs": [
-      "sine-saloum-delta"
-    ],
-    "activity_slugs": [],
-    "accommodation_slugs": [
-      "les-paletuviers"
-    ],
-    "travel_insight_slugs": [],
-    "last_researched": "2026-10-21",
-    "research_sources": [
-      {
-        "url": "https://www.visitezlesenegal.com/en/destinations/sine-saloum/",
-        "label": "Agence Sénégalaise de Promotion Touristique: Sine-Saloum destination"
-      },
-      {
-        "url": "https://www.visitezlesenegal.com/en/climat/",
-        "label": "Agence Sénégalaise de Promotion Touristique: weather and seasons"
-      },
-      {
-        "url": "https://whc.unesco.org/en/list/1359/",
-        "label": "UNESCO World Heritage Centre: Saloum Delta"
-      },
-      {
-        "url": "https://lespaletuviers.com/fr/",
-        "label": "Les Palétuviers Boutique Hotel: location in Toubacouta"
-      }
-    ],
-    "sort_order": 1,
-    "status": "published",
-    "published_at": "2026-10-21T16:40:00Z",
-    "hero_image_url": "/images/editorial/sine-saloum-destination/toubacouta-quay-2025.jpg",
-    "hero_image_alt": "People at Toubacouta quay in July 2025; location photo, not a confirmed trip departure",
-    "gallery": [
-      "/images/editorial/sine-saloum-destination/toubacouta-quay-2025.jpg",
-      "/images/editorial/sine-saloum-destination/niodior-island-shore-2006.jpg",
-      "/images/editorial/sine-saloum-destination/mar-lodj-bolong-mangroves-2006.jpg",
-      "/images/editorial/sine-saloum-destination/saloum-bolong-birds-2024.jpg",
-      "/images/editorial/sine-saloum-destination/saloum-pirogue-excursion-2023.jpg",
-      "/images/editorial/sine-saloum-destination/saloum-island-pirogue-2023.jpg"
-    ]
-  },
-  {
-    "slug": "livingstone",
-    "country_slug": "zambia",
-    "name": "Livingstone",
-    "category": "River and heritage town",
-    "hero_title": "Livingstone: make time for Zambia beyond the falls",
-    "listing_summary": "Plan a Zambia-side base for Victoria Falls, with time for Livingstone Museum, town life and the Upper Zambezi. Choose your accommodation location and border crossings deliberately.",
-    "overview": "Livingstone offers a different rhythm from a visit built entirely around the waterfall. Give the town a place in the itinerary: Livingstone Museum brings archaeology, natural history and Zambian cultural history into the journey, while the river and falls provide the outdoor counterpart. The National Museums Board lists five permanent galleries, including a David Livingstone collection; the museum is an opportunity to look beyond the explorer's story to the country around you.\n\nThis is a useful base for travellers who want to combine the Zambia-side falls with time in a working town. A museum visit followed by lunch and a short walk is a worthwhile quieter day between outdoor excursions. The museum lists a restaurant and craft shop, though opening arrangements should be confirmed. Around shops and markets, give traders space, ask before photographing people and treat a purchase as a conversation rather than a photo opportunity.\n\nChoose Livingstone for the experiences you want on this side of the border. Victoria Falls Town is in Zimbabwe: an appealing hotel or activity there is not automatically a local option for a Zambia stay. A two-country visit can work well, but it adds entry formalities and transfers. The linked first-visit insight explains that choice in detail.",
-    "highlights": [
-      "Give Livingstone Museum time alongside the waterfall",
-      "Choose between a town base and a river-oriented stay",
-      "Plan Zambia-side outings before adding a border crossing"
-    ],
-    "access_summary": "Harry Mwaanga Nkumbula International Airport serves Livingstone. Confirm the airport name on the ticket and arrange transport to your actual accommodation: Victoria Falls Airport is in Zimbabwe and requires a different arrival plan. Ask the accommodation to identify the meeting point, transfer inclusions and who to contact if the flight changes. Do not rely on an airport name that simply says Victoria Falls region.\n\nIf arriving by road from Zimbabwe, allow a separate block for immigration and the onward transfer. Requirements depend on nationality, passport, purpose, transit and permission to re-enter the country you leave. Zambia's Department of Immigration separates visa-free, visa-on-arrival and advance-visa categories; check the official category for each traveller and the rules of every country in the route. Information checked 25 October 2026. A tour booking or a driver offering border assistance does not itself grant entry.\n\nFor local outings, agree collection and return addresses before paying. A town-based room, a riverside lodge and accommodation near the falls can involve different daily transfers. Ask for the actual route and current travel estimate rather than assuming that every Livingstone address is walkable from the same sights.",
-    "best_time": "For comfortable town exploration, June–August is a useful starting window: Zambia's Department of Immigration describes this as the cooler part of the dry season. September–October tends to be hotter. Waterfall conditions follow the river as well as local weather; the regional tourism guide describes stronger flows broadly around February–April and much lower water later in the dry season, with substantial variation between years.\n\nChoose dates around your main reason for visiting. Strong flow can mean more spray and obscured views; low water can leave parts of the Zambia-side falls exposed. River activities have their own operating limits. Confirm current conditions and departure arrangements rather than expecting every cruise, island visit or rafting route to operate throughout a chosen month.",
-    "planning_tips": "Suggested three-night plan: arrive and settle into your base on the first day; give the Zambia-side falls a dedicated outing on the second; use the third for the museum and an optional operator-led Upper Zambezi cruise. Keep departure day simple. This is an editorial pacing suggestion, not a fixed package, and it can be shortened by choosing fewer outings rather than compressing everything.\n\nCompare accommodation by the cost and effort of the whole stay. A room near town services may suit travellers who want independent meals and museum time. A river-oriented property may suit those prioritising time at the lodge, provided its transfers and meal arrangements fit the budget. Ask what is included in each quotation; do not assume a room rate covers park entry, cruises or transport. No Zimbabwe-side property is presented here as a nearby Zambia stay.\n\nPack walking shoes with grip, sun protection, a reusable water bottle and a small waterproof pouch for the falls. A light warm layer is useful for cooler-season early starts; rain protection depends on both the forecast and spray. Follow park barriers and the operator's instructions on river outings. Confirm accessibility with the particular site or provider rather than assuming all viewpoints and boats have the same access.\n\nBefore committing, read recent feedback for the exact accommodation or excursion, paying attention to transfer coverage, meal arrangements and time allowed at stops. A review of another river cruise or a Zimbabwe departure cannot establish those details for your booking.",
-    "attraction_slugs": [],
-    "activity_slugs": [],
-    "accommodation_slugs": [
-      "jollyboys-backpackers"
-    ],
-    "travel_insight_slugs": [
-      "plan-your-victoria-falls-visit"
-    ],
-    "hero_image_url": "/images/editorial/livingstone-local-destination/victoria-falls-gorge-ana-kenk.jpg",
-    "hero_image_alt": "Victoria Falls pours into its rocky gorge from a viewpoint in Livingstone, Zambia.",
-    "gallery": [
-      "/images/editorial/livingstone-local-destination/victoria-falls-gorge-ana-kenk.jpg",
-      "/images/editorial/livingstone-local-destination/mosi-oa-tunya-gorge-bridge-eston-oboch.jpg",
-      "/images/editorial/livingstone-local-destination/boiling-pot-river-ed-wingate.jpg",
-      "/images/editorial/livingstone-local-destination/zambezi-elephant-cruise-nicole-olwagen.jpg"
-    ],
-    "last_researched": "2026-10-25",
-    "research_sources": [
-      {
-        "label": "National Museums Board: Livingstone Museum collections and visitor facilities",
-        "url": "https://nmb.co.zm/livingstone-museum/"
-      },
-      {
-        "label": "Zambia Department of Immigration: visitor categories and seasonal overview",
-        "url": "https://www.zambiaimmigration.gov.zm/for-visitors/"
-      },
-      {
-        "label": "Regional tourism guide: Livingstone airport, town activities and variable falls seasons",
-        "url": "https://www.zambiatourism.com/towns/livingstone/"
-      },
-      {
-        "label": "Regional airport information: Harry Mwaanga Nkumbula International Airport",
-        "url": "https://www.zambiatourism.com/travel-info/airports/harry-mwaanga-nkumbula-international-airport/"
-      }
-    ],
-    "sort_order": 6,
-    "status": "published"
-  },
-  {
-    "slug": "kampala",
-    "country_slug": "uganda",
-    "name": "Kampala",
-    "category": "Capital city",
-    "hero_title": "Kampala: plan the city by neighborhood and purpose",
-    "listing_summary": "Use Kampala for Buganda heritage, living city culture and a measured start or finish to a Uganda route; group visits by area and leave room for traffic.",
-    "overview": "Kampala is Uganda’s capital and a useful place to understand the country beyond its national parks. Its identity is closely connected to Buganda, while the city is also a national centre where many communities, faiths and food traditions meet. Rather than trying to collect landmarks in one rushed circuit, choose a few places with distinct stories and give each the time and respect it deserves.\n\nThe Kasubi Royal Tombs are a meaningful starting point for Buganda history. The tombs are a UNESCO World Heritage property and a royal burial place; they are a living cultural and spiritual site, so follow the guidance of custodians and ask before taking photographs. The Buganda Kingdom's official visitor information says the sacred site welcomes respectful visitors, but confirm current admission, hours and any ceremony-related access directly before setting out. Kampala’s places of worship span several faiths, including the Baha’i House of Worship, the Uganda National Mosque and historic Christian cathedrals. Visit as a guest: check access in advance, dress modestly and avoid interrupting prayer or ceremonies.\n\nThe Uganda National Museum would normally add national cultural and natural-history context, but its official portal currently says it is temporarily closed for renovations. Do not build a fixed itinerary around it until the museum confirms reopening. In the meantime, the city’s markets, galleries, performances and food give a broader sense of contemporary Kampala; choose venues directly and treat them as working community spaces, not staged attractions.",
-    "highlights": [
-      "Buganda royal heritage at Kasubi, with respectful site etiquette",
-      "A range of active religious and cultural institutions",
-      "Markets, food and performing arts across a working capital",
-      "A flexible stop before or after a longer Uganda overland route"
-    ],
-    "access_summary": "Entebbe International Airport serves Kampala and lies outside the city. The Kampala–Entebbe Expressway is a toll road linking the airport with the capital, but the city transfer still depends on traffic, your destination and the time of day. Arrange a pickup with your accommodation or a transport provider, agree the meeting point and confirm how toll charges are handled. Do not plan a tight onward connection from a map estimate.\n\nInside Kampala, group visits by area. Ask your accommodation to arrange transport for the day, confirm the pickup location for each site and establish a return plan before setting out. Build the route around the actual sites you plan to visit, rather than assuming that nearby-looking stops share an easy transfer. If you use a local minibus or motorcycle taxi, understand the route and safety tradeoffs first; official UK travel advice cautions against both, and recommendations vary by traveller and provider.\n\nFor a wider Uganda trip, treat Kampala as a gateway rather than a day-trip base for distant parks.  Confirm the actual departure point, overnight stops and current route with your operator before committing to the next leg.",
-    "best_time": "Kampala can be visited throughout the year, but rain can slow road transfers and make walking between stops less comfortable. Uganda’s Ministry of Water and Environment describes March–May and September–December as the country’s main rainfall periods, with local variation; its September–December 2026 outlook anticipated near-normal to above-normal rain in much of the country. Check the current forecast close to travel rather than relying on a fixed dry-season promise.\n\nFor a city-focused visit, the practical choice is often the date that gives you time to move at an unhurried pace. In wetter periods, keep an indoor cultural option and add extra transfer flexibility. Around public holidays or large religious events, confirm site access and road arrangements directly. Martyrs Day is normally marked on 3 June and Namugongo can draw large pilgrimage crowds when celebrations proceed; check the current programme and local advice before planning a visit around that date.",
-    "planning_tips": "For a first visit, allow two or three nights if you want both heritage and unstructured city time. One day could focus on Kasubi and nearby western-city stops; use another for a prearranged visit to a place of worship or cultural venue and an evening meal. Add time for a guided walk or market visit only when the organizer explains the route, duration, group size and photography expectations. This is suggested pacing, not a prescribed tour. Namugongo lies beyond the central sightseeing area, so plan it as its own outing rather than squeezing it between nearby stops.\n\nMake food part of the plan. Ask for matooke or luwombo at a restaurant that serves Ugandan dishes, and check ingredients if you have dietary needs. Kampala's official city portal lists dining options; choosing a restaurant close to your other plans reduces unnecessary cross-city transfers. Markets are places of work: ask before photographing vendors or customers, do not block trading areas, and agree any guided visit with a named local host.\n\nStay in a part of the city that suits your arrival and planned visits, then compare each property’s exact address and pickup arrangements. The published national park guides cover separate regions and work as onward planning, not nearby city excursions.\n\nConsult your own government’s current Uganda advice. As checked 30 October 2026, the UK Foreign, Commonwealth & Development Office advises visitors to Kampala to remain alert, avoid demonstrations and take care with valuables and transport. It notes crime risks after dark and advises against matatus and boda-bodas on safety grounds. Ask your accommodation about local conditions and use transport you have assessed as suitable.\n\nPack light rain protection, comfortable shoes with grip, sun protection and a modest layer for religious sites. Carry only what you need for the day, keep valuables out of sight and confirm photography rules and access directly with each host. Before departure, reconfirm the airport pickup, toll arrangements, site opening and any onward park transfer.",
-    "attraction_slugs": [],
-    "activity_slugs": [],
-    "accommodation_slugs": [
-      "fairway-boutique-hotel"
-    ],
-    "travel_insight_slugs": [],
-    "last_researched": "2026-10-30",
-    "research_sources": [
-      {
-        "label": "Kampala Capital City Authority: official Visit Kampala portal and city context",
-        "url": "https://visitkampala.kcca.go.ug/"
-      },
-      {
-        "label": "Kampala Capital City Authority: Kasubi Royal Tombs location and site context",
-        "url": "https://visitkampala.kcca.go.ug/business_details/kasubi-royal-tombs"
-      },
-      {
-        "label": "Kampala Capital City Authority: Namugongo Martyrs Shrine and 3 June observance",
-        "url": "https://visitkampala.kcca.go.ug/business_details/namugongo-martyrs-shrine"
-      },
-      {
-        "label": "UNESCO World Heritage Centre: Kasubi Tombs",
-        "url": "https://whc.unesco.org/en/list/1022/"
-      },
-      {
-        "label": "Buganda Kingdom: sacred royal tombs and visitor guidance",
-        "url": "https://buganda.or.ug/royal-tombs/"
-      },
-      {
-        "label": "Kampala–Entebbe Expressway: airport-to-city link",
-        "url": "https://kee.go.ug/"
-      },
-      {
-        "label": "Uganda Museums and Monuments portal: current museum closure, collections and visitor information",
-        "url": "https://museums.tourism.go.ug/plan-your-visit/"
-      },
-      {
-        "label": "Ministry of Water and Environment: September–December 2026 seasonal rainfall outlook",
-        "url": "https://wids.mwe.go.ug/"
-      },
-      {
-        "label": "UK Foreign, Commonwealth & Development Office: Uganda regional and safety advice, checked 30 October 2026",
-        "url": "https://www.gov.uk/foreign-travel-advice/uganda/safety-and-security"
-      },
-      {
-        "label": "UK Foreign, Commonwealth & Development Office: Kampala regional advice, checked 30 October 2026",
-        "url": "https://www.gov.uk/foreign-travel-advice/uganda/regional-risks"
-      }
-    ],
-    "sort_order": 7,
-    "status": "published"
-  },
-  {
-    "slug": "fort-portal",
-    "country_slug": "uganda",
-    "name": "Fort Portal",
-    "category": "City",
-    "hero_title": "Fort Portal: town time, Tooro culture and a route to Kibale",
-    "listing_summary": "Use Fort Portal as a town base for Tooro heritage, crater-country walks, local food and a carefully paced journey to Kibale National Park.",
-    "overview": "Fort Portal is a regional city in western Uganda and the centre of the Tooro sub-region. Its role is more than a stop between Kampala and a national park: the city is an administrative and commercial hub, with living Tooro cultural institutions, a city tourism office, markets and access roads into the surrounding highlands. Fort Portal’s place in Uganda’s tourism identity is official, but its appeal is best understood through the mix of town life and day trips rather than as a single packaged attraction.\n\nThe city council identifies Karuziika Palace, Amabere Ga Nyinamwiru caves, nearby crater lakes, tea-growing landscapes and Kibale Forest among the visitor interests around Fort Portal. These places are spread across the wider area; a list on a map does not make them one walkable circuit. Use the city as a base, choose a couple of outings that fit your interests, and check current access with the responsible host before you set off.\n\nTooro heritage is living culture, not a performance available on demand. The council describes the palace as the seat of the Tooro Kingdom. Ask the city tourism office or a local guide what visitors may see and when, and follow directions about photography, ceremonies and spaces that are not open to the public. A conversation about local history is more useful when it comes from a willing host than from treating community life as a spectacle.",
-    "access_summary": "Travel to Fort Portal by road from Kampala on the Kampala–Fort Portal route, confirming your departure point, operator, schedule, luggage rules and arrival transfer before booking. Uganda Wildlife Authority’s current Kibale guidance describes the fully surfaced Kampala–Fort Portal highway and gives an indicative six-hour road journey to Kibale National Park; it says the park is about a further hour from Fort Portal. That is a park access estimate, not a guaranteed city-to-city travel time. Leave a buffer for traffic, weather and the road beyond town. UWA also mentions charter flights to Fort Portal; confirm that a suitable charter is actually operating for your dates, as this is not presented as a regular commercial service.\n\nFor crater-lake and cave visits, arrange a local driver or guide who can identify the exact access point and return plan. Fort Portal City Council lists Amabere Ga Nyinamwiru about 7 km from town, but ask about the current route, entry arrangements and ground conditions. Do not assume a park-area lodge or a distant lake is a central-city stay.",
-    "best_time": "Plan for the particular outing rather than relying on a fixed dry-season promise. Uganda’s Department of Meteorological Services identifies March–May and September–December as the country’s main rainfall seasons. Its September 2026 seasonal outlook expected near-normal to above-normal rainfall in western Uganda for the September–December period; this is a time-limited forecast, not a year-round climate guarantee. Rain can alter road and path conditions, especially around outdoor walks. Check the current district and short-range forecast before departure, allow flexibility in the itinerary, and ask your guide whether a crater or cave outing is suitable that day.",
-    "planning_tips": "Allow two or three nights if you want both time in town and an outing beyond it. On arrival day, settle in and explore the central area at an easy pace rather than combining the drive from Kampala with a strenuous walk. Ask a local guide or the City tourism office to confirm access before visiting Karuziika Palace or the Amabere caves. Fort Portal City Council places the caves roughly 7 km from town; discuss the path, steps and surfaces in advance if mobility is a concern. For crater-lake viewpoints, confirm the specific lake, land access and guide arrangement. Some lakes have cultural significance to nearby communities; follow local guidance and do not enter private or restricted places.\n\nA separate day for Kibale National Park makes the route easier to manage. UWA currently gives about an hour’s drive between Fort Portal and the park and lists scheduled Kanyanchu chimpanzee-tracking departures on its park page. Permit details, reporting time and rules can change, so confirm the exact slot and meeting point with UWA before arranging transport. If your permit has an early start, consider whether the confirmed road and lodge plan leaves enough margin; do not combine the Kampala–Fort Portal transfer and a fixed morning trek on the same day. The linked Kibale guide covers the park itself. No accommodation card is shown here because the published Kibale Forest Camp is park-side rather than a Fort Portal city property.\n\nFood is a useful way to meet the region through its everyday life. Fort Portal’s local culture guide describes Tooro dishes such as matooke with groundnut sauce, firinda and kalo, alongside produce sold in town markets. Menus vary: ask what is available that day and mention dietary needs before ordering. If you visit a market, remember it is a place where people work; ask before photographing sellers or customers, keep trading space clear and buy through the vendor rather than staging a scene. Pack light rain protection, shoes with grip for uneven paths, and a warmer layer for wet or cool evenings.",
-    "attraction_slugs": [
-      "kibale-national-park"
-    ],
-    "activity_slugs": [],
-    "accommodation_slugs": [],
-    "travel_insight_slugs": [],
-    "highlights": [
-      "Karuziika Palace and the living heritage of the Tooro Kingdom",
-      "Day walks to crater-country viewpoints and the Amabere Ga Nyinamwiru caves",
-      "Tooro food and produce markets in a working regional city",
-      "A practical road base for Kibale National Park"
-    ],
-    "last_researched": "2026-11-05",
-    "research_sources": [
-      {
-        "label": "Fort Portal City Council: Tourism and regional attractions (checked 2026-11-05)",
-        "url": "https://fortportalcity.go.ug/who-we-are/"
-      },
-      {
-        "label": "Fort Portal City Council: Tourism unit and visitor-information role (checked 2026-11-05)",
-        "url": "https://fortportalcity.go.ug/tourism/"
-      },
-      {
-        "label": "Fort Portal City Council: city and Tooro history (checked 2026-11-05)",
-        "url": "https://fortportalcity.go.ug/history-of-fortportal/"
-      },
-      {
-        "label": "Uganda Wildlife Authority: Kibale access route, current park information and Kanyanchu departures (checked 2026-11-05)",
-        "url": "https://ugandawildlife.org/national-parks/kibale-national-park/"
-      },
-      {
-        "label": "Uganda Department of Meteorological Services: September–December 2026 climate outlook (issued Sep 2026; checked 2026-11-05)",
-        "url": "https://wids.mwe.go.ug/portal"
-      },
-      {
-        "label": "Discover Fort Portal: Tooro food and culture (checked 2026-11-05)",
-        "url": "https://discoverfortportal.com/culture/"
-      },
-      {
-        "label": "GAIN/ICLEI: CityFood Handbook, Fort Portal city food system and markets (checked 2026-11-05)",
-        "url": "https://www.gainhealth.org/sites/default/files/publications/documents/en-cityfood-market-handbook-for-healthy-and-resilient-cities_second-edition-2.pdf"
-      }
-    ],
-    "sort_order": 8,
-    "status": "published",
-    "hero_image_url": "/images/editorial/fort-portal-local-destination/fort-portal-mpanga-market-ivan-sabayuki.jpg",
-    "hero_image_alt": "Fresh produce arranged at a stall in Mpanga market, Fort Portal.",
-    "gallery": [
-      "/images/editorial/fort-portal-local-destination/fort-portal-mpanga-market-ivan-sabayuki.jpg",
-      "/images/editorial/fort-portal-local-destination/fort-portal-tea-field-michael-starkie.jpg",
-      "/images/editorial/fort-portal-local-destination/fort-portal-rwenzori-landscape-itote-rubombora.jpg",
-      "/images/editorial/fort-portal-local-destination/fort-portal-lake-kigere-alvinategyeka.jpg",
-      "/images/editorial/fort-portal-local-destination/fort-portal-nyakasura-falls-alvinategyeka.jpg"
-    ]
-  },
-  {
-    "slug": "kigali",
-    "country_slug": "rwanda",
-    "name": "Kigali",
-    "category": "City",
-    "hero_title": "Kigali: the hillside capital that starts, and softens, a gorilla journey",
-    "listing_summary": "Rwanda's capital is the resting-and-arrival base before the Volcanoes foothills: year-round green hills, the memorial's serious history, an easy-to-walk centre and the transfer morning every trek day depends on.",
-    "overview": "Kigali sits in the centre of Rwanda, spread across hills and valleys with road links over most of the country. Rwanda's tourism authority describes a low-key but dynamic capital of about one million people: wide tree-lined boulevards that are safe to stroll, a growing art scene and restaurants with hillside views. It was founded as an administrative post in 1907 and became the capital at independence in 1962, so its fabric is much newer than the African averages that visitors assume.\n\nThe districts divide the city usefully. The central business district rests on Nyarugenge Hill, the government quarter sits east on Kacyiru, and Nyarutarama Lake — Lover's Lake — borders one of the main valleys, where the tourism authority recommends the flat lakeside track as an easy urban walk with birds along it. The Kigali Cultural Village gives local artisans and food vendors a dedicated trading space, and it fits an unhurried city day rather than a checklist morning.\n\nNo visit to Rwanda is complete without time at the Kigali Genocide Memorial, which the authority describes as honouring the more than one million Rwandans killed in 1994 with three permanent exhibitions and burial gardens. Go with the seriousness the site asks for: follow the on-site guidance about photography and conduct, and give the visit enough quiet time either side rather than scheduling it tightly before a drive.\n\nMost gorilla visitors meet Kigali twice: as the arrival city and as the transfer half of the trek. The Volcanoes foothills are its working gateway — our Volcanoes National Park guide covers the reporting points near Kinigi, and both primate activity guides describe Kigali-morning logistics around them. Return to Kigali last, when a relaxed evening, an art gallery and a lake-path walk close the journey properly.",
-    "access_summary": "Kigali is the practical arrival city for a Volcanoes journey. The published Volcanoes guides describe Kigali-morning departure logistics for the golden monkey and gorilla excursions, with operator products advertising roughly two and a half hours of driving each way toward the Kinigi reporting area. Treat those figures as planning estimates and confirm the transfer from Kigali to your Volcanoes-area property and the next morning's meeting point with your provider. Avoid scheduling an early trek immediately after a late arrival; if combining several Rwandan regions, ask for a day-by-day transport plan rather than assuming a compact country means negligible transfer time. Within the city, the districts and the lakeside path are walkable, with taxis and arranged vehicles covering the hill-to-hill parts.",
-    "best_time": "The city itself is a year-round destination: hill weather is mild, and museum, gallery and memorial visits are not seasonal activities. Match it to the trek calendar — June to mid-September is generally drier, with rainy spells mid-February to May and mid-September to mid-December, and forest walks can be muddy in any season. Set the arrival and departure flights around the confirmed permit date, never the reverse.",
-    "planning_tips": "Build at least one full rested day in Kigali out of an early trek morning; the contrast is deliberate, since the trek is a significant physical experience deserving preparation and recovery. Confirm permit terms, transfer arrangements, meals and any mobility support separately, and ask providers to distinguish official requirements from their own recommendations. Treat the memorial visit as a set time slot with slower edges rather than an add-on, and follow its on-site guidance. Ask what the current gallery openings, craft markets and the cultural village are offering during your dates rather than trusting a static list.",
-    "attraction_slugs": [
-      "volcanoes-national-park"
-    ],
-    "activity_slugs": [
-      "volcanoes-gorilla-trek",
-      "volcanoes-golden-monkey-trekking"
-    ],
-    "accommodation_slugs": [
-      "kigali-serena-hotel"
-    ],
-    "travel_insight_slugs": [],
-    "highlights": [
-      "The country's arrival gateway with the shortest road corridor to the Volcanoes reporting area",
-      "A deliberately rested city day: districts, a lakeside walk and hillside views",
-      "The Kigali Genocide Memorial with three permanent exhibitions and burial gardens",
-      "Kigali Cultural Village for local artisans and food vendors"
-    ],
-    "sort_order": 1,
-    "status": "published",
-    "hero_image_url": "",
-    "hero_image_alt": "",
-    "gallery": [],
-    "last_researched": "2026-11-09",
-    "research_sources": [
-      {
-        "label": "Visit Rwanda (RDB): Kigali city page — central position and road links, founding 1907/capital at 1962, districts (Nyarugenge CBD, Kacyiru), Nyarutarama/Lover's Lake walk, Kigali Cultural Village, Kigali Genocide Memorial description; checked 9 November 2026",
-        "url": "https://visitrwanda.com/kigali/",
-        "checked_at": "2026-11-09"
-      },
-      {
-        "label": "Visit Rwanda (RDB): Volcanoes National Park page — park in the far northwest, Karisimbi/Bisoke/Sabinyo/Gahinga/Muhabura volcanoes, Buhanga Eco-Park and Musanze Caves inside the park, gorilla and golden monkey tracking; checked 9 November 2026",
-        "url": "https://www.visitrwanda.com/national-parks/volcanoes-national-park/",
-        "checked_at": "2026-11-09"
-      },
-      {
-        "label": "Published on-site guides re-read 9 November 2026 for continuity: Rwanda country page (transfer-from-Kigali promise and Kigali-as-arrival-city framing) and the gorilla and golden monkey activity guides (Kigali-morning logistics, operator-advertised roughly two and a half hours driving each way via Kinigi products, at check 6 November 2026)",
-        "url": "https://trekafricaguide.com/countries/rwanda/",
-        "checked_at": "2026-11-09"
-      }
-    ]
-  }
+ {
+  "slug": "buhoma",
+  "country_slug": "uganda",
+  "name": "Buhoma",
+  "category": "Forest gateway",
+  "hero_title": "Buhoma: a base for northern Bwindi",
+  "listing_summary": "Plan a northern Bwindi stay around your trekking sector, with time for forest walks and community-led experiences near Buhoma.",
+  "overview": "Buhoma is a gateway to the northern side of Bwindi Impenetrable National Park in southwestern Uganda. The surrounding steep forest landscape makes this a place to settle into, with gorilla tracking as the main reason many visitors come. A stay here can also include guided forest exploration and a locally hosted village experience.\n\nThe important distinction is between the park as a whole and your actual starting point. Buhoma is one base within a much larger trekking destination. Choose it when it fits the sector on your permit, rather than assuming any accommodation around Bwindi works for every departure. The published Bwindi guide explains the wider park; this guide helps you organize a stay on its northern edge.",
+  "highlights": [
+   "A base for a confirmed Buhoma-sector gorilla trek",
+   "Guided forest walks and birding when locally available",
+   "Community-hosted experiences arranged with the hosts",
+   "Published local stays with their own full property guides"
+  ],
+  "access_summary": "Uganda Wildlife Authority describes road approaches to Buhoma through Kihihi and from the Queen Elizabeth National Park area, and identifies Kihihi airstrip as the northern park's air connection. These still require an onward road transfer. Ask your lodge or operator to confirm the current route, road conditions and collection point.\n\nArrive before your trekking day and confirm the reporting location with your booking provider. Treat a transfer between Bwindi sectors as a separate journey. Avoid building a plan around a short map distance without checking the actual road route.",
+  "best_time": "Choose dates around your confirmed gorilla permit and ability to manage forest conditions. Rain and slippery ground remain part of a rainforest visit. Ask the local team about conditions for the particular walks you want, and carry waterproof layers and footwear with grip. A visit with time for walks benefits from spare time to adapt the day's plan to conditions.",
+  "planning_tips": "A practical starting plan is an arrival day, your main trekking day and onward travel after a second night; add another day if forest walks, birding or a hosted community visit matter to you. This is an editorial pacing suggestion, not a fixed tour duration.\n\nBuhoma Community Rest Camp and the published Gorilla Forest Camp guide are relevant options to compare here. Check each property's current name, room type, access and inclusions directly. Reserve permits separately unless your quotation explicitly includes them. For community activities, ask who leads the experience, how payment reaches the hosts and whether photography is welcome.",
+  "attraction_slugs": [
+   "bwindi-impenetrable-national-park"
+  ],
+  "activity_slugs": [
+   "bwindi-gorilla-trekking"
+  ],
+  "accommodation_slugs": [
+   "buhoma-community-rest-camp",
+   "sanctuary-gorilla-forest-camp"
+  ],
+  "travel_insight_slugs": [
+   "choose-bwindi-sector-before-booking-stay"
+  ],
+  "hero_image_url": "/images/editorial/buhoma-local-destination/trek-departure-2017.jpg",
+  "hero_image_alt": "Visitors setting out for gorilla tracking from Buhoma in September 2017; archival image, not current departure information",
+  "gallery": [
+   "/images/editorial/buhoma-local-destination/trek-departure-2017.jpg",
+   "/images/editorial/buhoma-local-destination/mubare-female-gorilla.jpg",
+   "/images/editorial/buhoma-local-destination/park-headquarters-briefing-2017.jpg"
+  ],
+  "last_researched": "2026-10-16",
+  "research_sources": [
+   {
+    "label": "Uganda Wildlife Authority: Bwindi location, Buhoma road approaches and Kihihi air access",
+    "url": "https://ugandawildlife.org/national-parks/bwindi-impenetrable-national-park/"
+   },
+   {
+    "label": "Uganda Wildlife Authority: gorilla tracking and forest conditions",
+    "url": "https://ugandawildlife.org/activities/gorilla-tracking/"
+   },
+   {
+    "label": "Buhoma Community Rest Camp: local accommodation and experiences",
+    "url": "https://buhomacommunityrestcamp.com/"
+   }
+  ],
+  "sort_order": 1,
+  "status": "published",
+  "published_at": "2026-10-16T00:00:00Z"
+ },
+ {
+  "slug": "cape-town",
+  "country_slug": "south-africa",
+  "name": "Cape Town",
+  "category": "City",
+  "hero_title": "Cape Town: city days between mountain and coast",
+  "listing_summary": "Build a flexible city stay around Table Mountain, neighborhood time and coastal outings, with a published central stay to compare.",
+  "overview": "Cape Town works well as a destination in its own right or as a city chapter before or after a safari. Table Mountain provides the most obvious geographical anchor, while the city offers neighborhood exploration, food, waterfront time and access to the wider peninsula. The existing Cape Town attraction guide focuses on the mountain experience and nearby planning; use this local destination guide to put it into a broader stay.\n\nResist assigning every day to a long excursion. Group outings by area and leave a clear-weather opportunity for the mountain. A guided hike and a cableway visit involve different preparation and should be chosen deliberately, rather than treated as interchangeable ways to fill an afternoon.",
+  "highlights": [
+   "Table Mountain as the main mountain outing",
+   "A guided-hike option with its own activity guide",
+   "Time for the central city and waterfront",
+   "A slower city stay linked to a wider South Africa route"
+  ],
+  "access_summary": "Choose a base with reference to the outings you want to make. Cape Town Tourism lists public transport, metered taxis, ride-hailing and car hire among the ways to get around. Compare the actual routes and service coverage for your plans before deciding whether to rent a car.\n\nArrange an arrival transfer with a clear meeting point, and confirm how you will return from each outing. For Table Mountain, establish whether you are meeting a hiking guide or visiting the cableway station. Check the operator's current status before leaving, and keep an alternative city activity available.",
+  "best_time": "Cape Town Tourism describes January and February as mostly dry summer months that can also be windy and busy. March and April offer a transition into autumn, with major events affecting some weekends. Winter brings a different balance of city experiences and less reliable outdoor weather.\n\nPick the season for your preferred activities, then keep individual mountain days flexible. A summer booking still needs a weather plan, and a winter visit benefits from options beyond outdoor sightseeing.",
+  "planning_tips": "For an initial visit, consider one day for orientation and the central city, a flexible mountain day and a separate day for a coastal outing. Add time if you want a wider peninsula or winelands itinerary. This is suggested pacing rather than a promise that every route fits a particular day.\n\nThe Mount Nelson guide offers one published central accommodation option; compare its location and room offering with your plans and budget. Open the Table Mountain activity guide for hike-specific preparation, and the Cape Town travel insight for ideas about placing the city before or after a safari. Check current attraction opening arrangements and transport with the operators when reserving.",
+  "attraction_slugs": [
+   "cape-town"
+  ],
+  "activity_slugs": [
+   "table-mountain-guided-hike"
+  ],
+  "accommodation_slugs": [
+   "mount-nelson-a-belmond-hotel"
+  ],
+  "travel_insight_slugs": [
+   "choose-cape-town-base-by-outings"
+  ],
+  "hero_image_url": "/images/editorial/cape-town/city-bowl-from-table-mountain.jpg",
+  "hero_image_alt": "Cape Town's City Bowl and harbor seen from Table Mountain",
+  "gallery": [
+   "/images/editorial/cape-town/city-bowl-from-table-mountain.jpg",
+   "/images/editorial/cape-town/camps-bay-beach.jpg",
+   "/images/editorial/cape-town/bo-kaap-houses.jpg",
+   "/images/editorial/cape-town/va-waterfront-harbor.jpg",
+   "/images/editorial/cape-town/sea-point-coast.jpg",
+   "/images/editorial/cape-town/companys-garden.jpg"
+  ],
+  "last_researched": "2026-10-17",
+  "research_sources": [
+   {
+    "label": "Cape Town Tourism: Table Mountain visitor context",
+    "url": "https://www.capetown.travel/top-attractions/tablemountain/"
+   },
+   {
+    "label": "Cape Town Tourism: seasons and event tradeoffs",
+    "url": "https://www.capetown.travel/the-best-time-of-year-to-visit-cape-town/"
+   },
+   {
+    "label": "Cape Town Tourism: local transport choices",
+    "url": "https://www.capetown.travel/getting-around-cape-town/"
+   }
+  ],
+  "sort_order": 2,
+  "status": "published",
+  "published_at": "2026-10-16T00:00:00Z"
+ },
+ {
+  "slug": "unguja",
+  "country_slug": "tanzania",
+  "name": "Unguja (Zanzibar Island)",
+  "category": "Island",
+  "hero_title": "Unguja: Stone Town and time on the coast",
+  "listing_summary": "Give Stone Town its own place in a Zanzibar island stay, then choose a coastal base that matches the experience you want.",
+  "overview": "Unguja is the island that many travelers mean when they say Zanzibar. Stone Town lies on its western side and provides a distinct heritage-focused chapter alongside a coastal stay. Its streets and buildings reflect the history of a Swahili trading town and its connections across the Indian Ocean. UNESCO recognizes this urban heritage, including the relationship between its narrow lanes, seafront and public spaces.\n\nUse the published Zanzibar attraction guide for the wider island overview. Here, start by deciding how much time to give Stone Town and whether you also want a separate beach base. A hotel in the historic town suits a different rhythm from a coastal resort; consider them as separate parts of the route rather than interchangeable accommodation locations.",
+  "highlights": [
+   "Stone Town's Swahili urban heritage and historic streets",
+   "A town stay with time for local guiding and food",
+   "A separate coastal chapter chosen around your interests",
+   "A practical connection with a mainland Tanzania safari"
+  ],
+  "access_summary": "Confirm the island arrival point, arrival time and onward transfer with your accommodation before booking the full route. If you are combining a mainland safari with Zanzibar, allow time for that connection and compare the actual departure and arrival points.\n\nFor a Stone Town stay, ask the hotel where a vehicle can meet you and how luggage reaches the entrance through the historic streets. Arrange coastal transfers separately, with the exact village and property name on the booking. Do not assume every beach base is a convenient day-trip starting point for town.",
+  "best_time": "The Zanzibar Commission for Tourism identifies June to October as a generally favorable dry-season window. Use that as a seasonal starting point, then confirm conditions for your chosen coastal activities with the local operator. A town-focused visit and a trip centered on water activities do not have identical weather priorities. Leave flexible time for outdoor plans.",
+  "planning_tips": "Consider an arrival and orientation day in Stone Town, another day for a guided heritage visit and independent time, then a transfer to your chosen coastal base. This is an editorial starting itinerary, not a required tour length. The UNESCO description provides historical context; it does not confirm that every individual monument is currently open. Check access before planning visits around a specific building.\n\nEmerson Spice is a published stay in Stone Town, with its own property guide and exact-property photographs. It is listed here for its town location, not as a beach resort. Ask about the room and access arrangements that matter to you. For a safari combination, open the linked Serengeti and Zanzibar planning insight rather than assuming the island is a short overland extension of the parks.",
+  "attraction_slugs": [
+   "zanzibar",
+   "jozani-forest"
+  ],
+  "activity_slugs": [
+   "stone-town-historical-walking-tour"
+  ],
+  "accommodation_slugs": [
+   "emerson-spice"
+  ],
+  "travel_insight_slugs": [],
+  "hero_image_url": "/images/editorial/unguja/stone-town-waterfront.jpg",
+  "hero_image_alt": "Stone Town's waterfront promenade and Indian Ocean, Unguja, Zanzibar",
+  "gallery": [
+   "/images/editorial/unguja/stone-town-waterfront.jpg",
+   "/images/editorial/unguja/stone-town-lane-2002.jpg",
+   "/images/editorial/unguja/forodhani-harbour-gardens.jpg",
+   "/images/editorial/unguja/stone-town-carved-upper-door.jpg",
+   "/images/editorial/unguja/nungwi-north-coast.jpg",
+   "/images/editorial/unguja/stone-town-carved-door.jpg"
+  ],
+  "last_researched": "2026-10-16",
+  "research_sources": [
+   {
+    "label": "UNESCO: Stone Town location and Swahili urban heritage",
+    "url": "https://whc.unesco.org/en/list/173/"
+   },
+   {
+    "label": "Zanzibar Commission for Tourism: island and dry-season overview",
+    "url": "https://www.zanzibartourism.go.tz/"
+   },
+   {
+    "label": "Emerson Spice: Stone Town location and property identity",
+    "url": "https://emersonspice.com/"
+   }
+  ],
+  "sort_order": 3,
+  "status": "published",
+  "published_at": "2026-10-16T00:00:00Z"
+ },
+ {
+  "slug": "elmina",
+  "country_slug": "ghana",
+  "name": "Elmina",
+  "category": "Coastal heritage town",
+  "hero_title": "Elmina: a coastal heritage base",
+  "listing_summary": "Plan a thoughtful Elmina visit around its coastal history, with time for reflection and separately arranged trips to Cape Coast and Kakum.",
+  "overview": "Elmina is a coastal town in Ghana's Central Region, best known to many visitors for St. George's Castle, also called Elmina Castle. UNESCO records the castle as part of Ghana's collective Forts and Castles World Heritage property and dates its construction to 1482. The coast's trading history includes the enslavement and forced movement of African people; a visit calls for context and reflection, not treating the site as a scenic backdrop.\n\nGive the castle its own unhurried visit and use informed interpretation to understand how its role changed over time. Ghana's Tourism Authority also identifies Fort St. Jago (Fort Coenraadsburg) across the lagoon from the castle; confirm current access before making a plan around it. Elmina is also a living town, not only a heritage stop. The authority lists the local Edina Buronya celebration and the region's fishing communities; check current community guidance and annual dates before planning around an event.\n\nThe published Elmina Castle guide covers the site itself. Cape Coast Castle and Kakum National Park are separate regional outings, not attractions within the castle grounds. Allow enough time for the transfers and for each experience to stand on its own.",
+  "highlights": [
+   "Thoughtful guided interpretation at Elmina Castle",
+   "A coastal town with living community and fishing contexts",
+   "Separate regional outings to Cape Coast and Kakum",
+   "A slower itinerary that leaves room for reflection"
+  ],
+  "access_summary": "Plan an overland arrival to Elmina and confirm the current route, realistic journey estimate, exact drop-off and return pickup with your transport provider or accommodation. Travel time from Accra varies with route, traffic and stops; no fixed duration is promised here. If arriving through Cape Coast, arrange a separate road transfer to Elmina rather than assuming the two castle sites are a walk between one another.\n\nFor solo and budget travel, compare a shared public-transport journey plus the final local transfer with a private return quote. Confirm where the return vehicle will meet you, what waiting time costs and whether the quote includes a guide or admissions. Check road conditions and event-day arrangements close to travel. The Ghana Tourism Authority lists taxis and shared minibuses among transport options nationally, but it does not establish a local timetable or guarantee a particular service for your date.",
+  "best_time": "Ghana Tourism Authority's national planning guide describes November to March and July to August as generally drier travel periods in southern Ghana, with rainier periods around April to June and September to mid-November; it notes that Central Region rains can be heavier and last longer. These are broad seasonal patterns rather than a forecast. Keep flexibility for outdoor walking in wetter months and check local conditions near departure.\n\nA heritage-focused visit can work across seasons, but choose a comfortable time of day, carry water and rain protection as conditions require, and ask the site about current opening and access before setting a tight onward connection. If you hope to attend Edina Buronya or another local celebration, verify dates and any visitor guidance with the organizers rather than relying on an old calendar listing.",
+  "planning_tips": "A relaxed outline is to arrive and settle in on day one, devote a substantial block on day two to Elmina Castle and leave the remainder of the day flexible, then choose either Cape Coast Castle or Kakum for a separate outing. Add another night if you want to visit both. This is editorial pacing advice, not a fixed tour or promise about transfer times. Ask the castle directly about current hours, admissions, photography rules, accessible routes and opportunities to rest; do not assume the historic site is step-free.\n\nEngage with local guides and community experiences by prior agreement. Ask before photographing people, homes, fishing activity or ceremonies, and respect any restricted areas. Visitors approaching the history of enslavement may want time afterward without another scheduled attraction.\n\nNo Elmina-based accommodation or activity guide is currently published. Choose a property only after verifying its address and transfer arrangements for your dates; a hotel in Cape Coast would be a separate regional base rather than an Elmina stay.",
+  "attraction_slugs": [
+   "elmina-castle",
+   "cape-coast-kakum"
+  ],
+  "activity_slugs": [],
+  "accommodation_slugs": [],
+  "travel_insight_slugs": [],
+  "hero_image_url": "/images/editorial/elmina/town-overview.jpg",
+  "hero_image_alt": "Elmina’s coastal town and fishing harbor viewed from above.",
+  "gallery": [
+   "/images/editorial/elmina/town-overview.jpg",
+   "/images/editorial/elmina/colonial-town-street.jpg",
+   "/images/editorial/elmina/downtown-elmina-archive.jpg",
+   "/images/editorial/elmina/benya-lagoon-fishing-boats.jpg",
+   "/images/editorial/elmina/elmina-port-fishing-boats.jpg",
+   "/images/editorial/elmina/fishing-harbour-2025.jpg"
+  ],
+  "last_researched": "2026-10-18",
+  "research_sources": [
+   {
+    "label": "UNESCO World Heritage Centre: Ghana's Forts and Castles",
+    "url": "https://whc.unesco.org/en/list/34/"
+   },
+   {
+    "label": "Ghana Tourism Authority: Elmina Castle and Fort St. Jago location context",
+    "url": "https://visitghana.com/elmina-castle-2/"
+   },
+   {
+    "label": "Ghana Tourism Authority: Central Region, Edina Buronya and Kakum context",
+    "url": "https://visitghana.com/central-region/"
+   },
+   {
+    "label": "Ghana Tourism Authority: getting around Ghana",
+    "url": "https://visitghana.com/getting-around-ghana/"
+   },
+   {
+    "label": "Ghana Tourism Authority: national planning brochure and seasonal guidance",
+    "url": "https://visitghana.com/wp-content/uploads/2023/05/Welcome-Ghana-Passport-Brochure-compressed.pdf"
+   }
+  ],
+  "sort_order": 4,
+  "status": "published",
+  "published_at": "2026-10-18T13:30:00Z"
+ },
+ {
+  "slug": "sine-saloum-delta",
+  "country_slug": "senegal",
+  "name": "Sine-Saloum Delta",
+  "category": "River delta",
+  "hero_title": "Choose a Sine-Saloum base before you book the boat",
+  "listing_summary": "Plan around one delta base and its actual pirogue departure; Toubacouta, Ndangane and the wider Saloum are not interchangeable.",
+  "overview": "The Sine-Saloum is a lived-in estuary of mangrove channels, islands, Atlantic water and dry woodland. UNESCO recognizes the Saloum Delta as a cultural landscape: the listed property covers 145,811 hectares and includes brackish channels, mangroves and evidence of a long history of fishing and shellfish gathering. That scale matters to a visit: this is a region, not one dock or a single day-trip loop.\n\nStart by choosing the town or lodge that fits the outing you want. Toubacouta and Ndangane are among the distinct settlements in the wider delta. Ask where your pirogue actually leaves and which waterways it will explore before you book. For the cultural landscape and heritage context, see the separate Sine-Saloum attraction guide.",
+  "highlights": [
+   "Mangrove channels and island scenery explored by locally arranged pirogue",
+   "Fishing and shellfish gathering remain part of the area’s living landscape",
+   "Toubacouta and Ndangane serve different departure points across a large delta"
+  ],
+  "access_summary": "Treat the road journey and the boat outing as two separate legs. From Dakar or a Petite Côte stop, arrange the road transfer to your named accommodation or embarkation point with the property or local operator; confirm the pickup, likely arrival window and return before departure. Allow flexibility for traffic and road conditions.\n\nThe delta stretches among separate settlements and waterways, so a stay in one town does not automatically use the same landing or pirogue route as another. For a Toubacouta base, Les Palétuviers identifies its location with that community; confirm whether your chosen outing departs there or needs a separate transfer. If you are comparing Ndangane or another base, ask the same questions before choosing your accommodation.",
+  "best_time": "Destination Senegal describes a broad dry season from November to May and a rainy season from June to October, while noting that conditions vary by region and that rains last longer in the south. Use that as a planning guide rather than a delta-specific forecast. A drier window may simplify outdoor transfers; during wetter months, keep the road arrival and pirogue outing flexible and reconfirm arrangements near travel.\n\nBirdlife and water conditions vary, and no particular sighting or route is assured. Check a current local forecast and ask your host how conditions affect the planned departure for your dates.",
+  "planning_tips": "For a first visit, plan two nights in one base: arrive by road, confirm the boat plan with your host, then set aside a full, unhurried day for one locally arranged water outing. Keep the next morning flexible instead of stacking a second distant departure onto the same stay. This is a suggested pace, not an operator itinerary.\n\nBefore setting out, ask who operates the pirogue, where it leaves, how long the outing is expected to take, whether a local guide is included, what food or landing stops are planned, and how return transport works. Ask about engine noise if quiet birdwatching matters to you. Shell mounds are cultural places and some contain burial sites; visit only where local guidance confirms access is welcome, and do not treat an island landing as automatically permitted. Carry sun and rain protection suited to the forecast, and ask before photographing people or their work.\n\nFor a nearby base in Toubacouta, the published Les Palétuviers Boutique Hotel guide is linked below; review its own details and confirm the transfer and excursion arrangements directly.",
+  "attraction_slugs": [
+   "sine-saloum-delta"
+  ],
+  "activity_slugs": [],
+  "accommodation_slugs": [
+   "les-paletuviers"
+  ],
+  "travel_insight_slugs": [],
+  "last_researched": "2026-10-21",
+  "research_sources": [
+   {
+    "url": "https://www.visitezlesenegal.com/en/destinations/sine-saloum/",
+    "label": "Agence Sénégalaise de Promotion Touristique: Sine-Saloum destination"
+   },
+   {
+    "url": "https://www.visitezlesenegal.com/en/climat/",
+    "label": "Agence Sénégalaise de Promotion Touristique: weather and seasons"
+   },
+   {
+    "url": "https://whc.unesco.org/en/list/1359/",
+    "label": "UNESCO World Heritage Centre: Saloum Delta"
+   },
+   {
+    "url": "https://lespaletuviers.com/fr/",
+    "label": "Les Palétuviers Boutique Hotel: location in Toubacouta"
+   }
+  ],
+  "sort_order": 1,
+  "status": "published",
+  "published_at": "2026-10-21T16:40:00Z",
+  "hero_image_url": "/images/editorial/sine-saloum-destination/toubacouta-quay-2025.jpg",
+  "hero_image_alt": "People at Toubacouta quay in July 2025; location photo, not a confirmed trip departure",
+  "gallery": [
+   "/images/editorial/sine-saloum-destination/toubacouta-quay-2025.jpg",
+   "/images/editorial/sine-saloum-destination/niodior-island-shore-2006.jpg",
+   "/images/editorial/sine-saloum-destination/mar-lodj-bolong-mangroves-2006.jpg",
+   "/images/editorial/sine-saloum-destination/saloum-bolong-birds-2024.jpg",
+   "/images/editorial/sine-saloum-destination/saloum-pirogue-excursion-2023.jpg",
+   "/images/editorial/sine-saloum-destination/saloum-island-pirogue-2023.jpg"
+  ]
+ },
+ {
+  "slug": "livingstone",
+  "country_slug": "zambia",
+  "name": "Livingstone",
+  "category": "River and heritage town",
+  "hero_title": "Livingstone: make time for Zambia beyond the falls",
+  "listing_summary": "Plan a Zambia-side base for Victoria Falls, with time for Livingstone Museum, town life and the Upper Zambezi. Choose your accommodation location and border crossings deliberately.",
+  "overview": "Livingstone offers a different rhythm from a visit built entirely around the waterfall. Give the town a place in the itinerary: Livingstone Museum brings archaeology, natural history and Zambian cultural history into the journey, while the river and falls provide the outdoor counterpart. The National Museums Board lists five permanent galleries, including a David Livingstone collection; the museum is an opportunity to look beyond the explorer's story to the country around you.\n\nThis is a useful base for travellers who want to combine the Zambia-side falls with time in a working town. A museum visit followed by lunch and a short walk is a worthwhile quieter day between outdoor excursions. The museum lists a restaurant and craft shop, though opening arrangements should be confirmed. Around shops and markets, give traders space, ask before photographing people and treat a purchase as a conversation rather than a photo opportunity.\n\nChoose Livingstone for the experiences you want on this side of the border. Victoria Falls Town is in Zimbabwe: an appealing hotel or activity there is not automatically a local option for a Zambia stay. A two-country visit can work well, but it adds entry formalities and transfers. The linked first-visit insight explains that choice in detail.",
+  "highlights": [
+   "Give Livingstone Museum time alongside the waterfall",
+   "Choose between a town base and a river-oriented stay",
+   "Plan Zambia-side outings before adding a border crossing"
+  ],
+  "access_summary": "Harry Mwaanga Nkumbula International Airport serves Livingstone. Confirm the airport name on the ticket and arrange transport to your actual accommodation: Victoria Falls Airport is in Zimbabwe and requires a different arrival plan. Ask the accommodation to identify the meeting point, transfer inclusions and who to contact if the flight changes. Do not rely on an airport name that simply says Victoria Falls region.\n\nIf arriving by road from Zimbabwe, allow a separate block for immigration and the onward transfer. Requirements depend on nationality, passport, purpose, transit and permission to re-enter the country you leave. Zambia's Department of Immigration separates visa-free, visa-on-arrival and advance-visa categories; check the official category for each traveller and the rules of every country in the route. Information checked 25 October 2026. A tour booking or a driver offering border assistance does not itself grant entry.\n\nFor local outings, agree collection and return addresses before paying. A town-based room, a riverside lodge and accommodation near the falls can involve different daily transfers. Ask for the actual route and current travel estimate rather than assuming that every Livingstone address is walkable from the same sights.",
+  "best_time": "For comfortable town exploration, June–August is a useful starting window: Zambia's Department of Immigration describes this as the cooler part of the dry season. September–October tends to be hotter. Waterfall conditions follow the river as well as local weather; the regional tourism guide describes stronger flows broadly around February–April and much lower water later in the dry season, with substantial variation between years.\n\nChoose dates around your main reason for visiting. Strong flow can mean more spray and obscured views; low water can leave parts of the Zambia-side falls exposed. River activities have their own operating limits. Confirm current conditions and departure arrangements rather than expecting every cruise, island visit or rafting route to operate throughout a chosen month.",
+  "planning_tips": "Suggested three-night plan: arrive and settle into your base on the first day; give the Zambia-side falls a dedicated outing on the second; use the third for the museum and an optional operator-led Upper Zambezi cruise. Keep departure day simple. This is an editorial pacing suggestion, not a fixed package, and it can be shortened by choosing fewer outings rather than compressing everything.\n\nCompare accommodation by the cost and effort of the whole stay. A room near town services may suit travellers who want independent meals and museum time. A river-oriented property may suit those prioritising time at the lodge, provided its transfers and meal arrangements fit the budget. Ask what is included in each quotation; do not assume a room rate covers park entry, cruises or transport. No Zimbabwe-side property is presented here as a nearby Zambia stay.\n\nPack walking shoes with grip, sun protection, a reusable water bottle and a small waterproof pouch for the falls. A light warm layer is useful for cooler-season early starts; rain protection depends on both the forecast and spray. Follow park barriers and the operator's instructions on river outings. Confirm accessibility with the particular site or provider rather than assuming all viewpoints and boats have the same access.\n\nBefore committing, read recent feedback for the exact accommodation or excursion, paying attention to transfer coverage, meal arrangements and time allowed at stops. A review of another river cruise or a Zimbabwe departure cannot establish those details for your booking.",
+  "attraction_slugs": [],
+  "activity_slugs": [],
+  "accommodation_slugs": [
+   "jollyboys-backpackers"
+  ],
+  "travel_insight_slugs": [
+   "plan-your-victoria-falls-visit"
+  ],
+  "hero_image_url": "/images/editorial/livingstone-local-destination/victoria-falls-gorge-ana-kenk.jpg",
+  "hero_image_alt": "Victoria Falls pours into its rocky gorge from a viewpoint in Livingstone, Zambia.",
+  "gallery": [
+   "/images/editorial/livingstone-local-destination/victoria-falls-gorge-ana-kenk.jpg",
+   "/images/editorial/livingstone-local-destination/mosi-oa-tunya-gorge-bridge-eston-oboch.jpg",
+   "/images/editorial/livingstone-local-destination/boiling-pot-river-ed-wingate.jpg",
+   "/images/editorial/livingstone-local-destination/zambezi-elephant-cruise-nicole-olwagen.jpg"
+  ],
+  "last_researched": "2026-10-25",
+  "research_sources": [
+   {
+    "label": "National Museums Board: Livingstone Museum collections and visitor facilities",
+    "url": "https://nmb.co.zm/livingstone-museum/"
+   },
+   {
+    "label": "Zambia Department of Immigration: visitor categories and seasonal overview",
+    "url": "https://www.zambiaimmigration.gov.zm/for-visitors/"
+   },
+   {
+    "label": "Regional tourism guide: Livingstone airport, town activities and variable falls seasons",
+    "url": "https://www.zambiatourism.com/towns/livingstone/"
+   },
+   {
+    "label": "Regional airport information: Harry Mwaanga Nkumbula International Airport",
+    "url": "https://www.zambiatourism.com/travel-info/airports/harry-mwaanga-nkumbula-international-airport/"
+   }
+  ],
+  "sort_order": 6,
+  "status": "published"
+ },
+ {
+  "slug": "kampala",
+  "country_slug": "uganda",
+  "name": "Kampala",
+  "category": "Capital city",
+  "hero_title": "Kampala: plan the city by neighborhood and purpose",
+  "listing_summary": "Use Kampala for Buganda heritage, living city culture and a measured start or finish to a Uganda route; group visits by area and leave room for traffic.",
+  "overview": "Kampala is Uganda’s capital and a useful place to understand the country beyond its national parks. Its identity is closely connected to Buganda, while the city is also a national centre where many communities, faiths and food traditions meet. Rather than trying to collect landmarks in one rushed circuit, choose a few places with distinct stories and give each the time and respect it deserves.\n\nThe Kasubi Royal Tombs are a meaningful starting point for Buganda history. The tombs are a UNESCO World Heritage property and a royal burial place; they are a living cultural and spiritual site, so follow the guidance of custodians and ask before taking photographs. The Buganda Kingdom's official visitor information says the sacred site welcomes respectful visitors, but confirm current admission, hours and any ceremony-related access directly before setting out. Kampala’s places of worship span several faiths, including the Baha’i House of Worship, the Uganda National Mosque and historic Christian cathedrals. Visit as a guest: check access in advance, dress modestly and avoid interrupting prayer or ceremonies.\n\nThe Uganda National Museum would normally add national cultural and natural-history context, but its official portal currently says it is temporarily closed for renovations. Do not build a fixed itinerary around it until the museum confirms reopening. In the meantime, the city’s markets, galleries, performances and food give a broader sense of contemporary Kampala; choose venues directly and treat them as working community spaces, not staged attractions.",
+  "highlights": [
+   "Buganda royal heritage at Kasubi, with respectful site etiquette",
+   "A range of active religious and cultural institutions",
+   "Markets, food and performing arts across a working capital",
+   "A flexible stop before or after a longer Uganda overland route"
+  ],
+  "access_summary": "Entebbe International Airport serves Kampala and lies outside the city. The Kampala–Entebbe Expressway is a toll road linking the airport with the capital, but the city transfer still depends on traffic, your destination and the time of day. Arrange a pickup with your accommodation or a transport provider, agree the meeting point and confirm how toll charges are handled. Do not plan a tight onward connection from a map estimate.\n\nInside Kampala, group visits by area. Ask your accommodation to arrange transport for the day, confirm the pickup location for each site and establish a return plan before setting out. Build the route around the actual sites you plan to visit, rather than assuming that nearby-looking stops share an easy transfer. If you use a local minibus or motorcycle taxi, understand the route and safety tradeoffs first; official UK travel advice cautions against both, and recommendations vary by traveller and provider.\n\nFor a wider Uganda trip, treat Kampala as a gateway rather than a day-trip base for distant parks.  Confirm the actual departure point, overnight stops and current route with your operator before committing to the next leg.",
+  "best_time": "Kampala can be visited throughout the year, but rain can slow road transfers and make walking between stops less comfortable. Uganda’s Ministry of Water and Environment describes March–May and September–December as the country’s main rainfall periods, with local variation; its September–December 2026 outlook anticipated near-normal to above-normal rain in much of the country. Check the current forecast close to travel rather than relying on a fixed dry-season promise.\n\nFor a city-focused visit, the practical choice is often the date that gives you time to move at an unhurried pace. In wetter periods, keep an indoor cultural option and add extra transfer flexibility. Around public holidays or large religious events, confirm site access and road arrangements directly. Martyrs Day is normally marked on 3 June and Namugongo can draw large pilgrimage crowds when celebrations proceed; check the current programme and local advice before planning a visit around that date.",
+  "planning_tips": "For a first visit, allow two or three nights if you want both heritage and unstructured city time. One day could focus on Kasubi and nearby western-city stops; use another for a prearranged visit to a place of worship or cultural venue and an evening meal. Add time for a guided walk or market visit only when the organizer explains the route, duration, group size and photography expectations. This is suggested pacing, not a prescribed tour. Namugongo lies beyond the central sightseeing area, so plan it as its own outing rather than squeezing it between nearby stops.\n\nMake food part of the plan. Ask for matooke or luwombo at a restaurant that serves Ugandan dishes, and check ingredients if you have dietary needs. Kampala's official city portal lists dining options; choosing a restaurant close to your other plans reduces unnecessary cross-city transfers. Markets are places of work: ask before photographing vendors or customers, do not block trading areas, and agree any guided visit with a named local host.\n\nStay in a part of the city that suits your arrival and planned visits, then compare each property’s exact address and pickup arrangements. The published national park guides cover separate regions and work as onward planning, not nearby city excursions.\n\nConsult your own government’s current Uganda advice. As checked 30 October 2026, the UK Foreign, Commonwealth & Development Office advises visitors to Kampala to remain alert, avoid demonstrations and take care with valuables and transport. It notes crime risks after dark and advises against matatus and boda-bodas on safety grounds. Ask your accommodation about local conditions and use transport you have assessed as suitable.\n\nPack light rain protection, comfortable shoes with grip, sun protection and a modest layer for religious sites. Carry only what you need for the day, keep valuables out of sight and confirm photography rules and access directly with each host. Before departure, reconfirm the airport pickup, toll arrangements, site opening and any onward park transfer.",
+  "attraction_slugs": [],
+  "activity_slugs": [],
+  "accommodation_slugs": [
+   "fairway-boutique-hotel"
+  ],
+  "travel_insight_slugs": [],
+  "last_researched": "2026-10-30",
+  "research_sources": [
+   {
+    "label": "Kampala Capital City Authority: official Visit Kampala portal and city context",
+    "url": "https://visitkampala.kcca.go.ug/"
+   },
+   {
+    "label": "Kampala Capital City Authority: Kasubi Royal Tombs location and site context",
+    "url": "https://visitkampala.kcca.go.ug/business_details/kasubi-royal-tombs"
+   },
+   {
+    "label": "Kampala Capital City Authority: Namugongo Martyrs Shrine and 3 June observance",
+    "url": "https://visitkampala.kcca.go.ug/business_details/namugongo-martyrs-shrine"
+   },
+   {
+    "label": "UNESCO World Heritage Centre: Kasubi Tombs",
+    "url": "https://whc.unesco.org/en/list/1022/"
+   },
+   {
+    "label": "Buganda Kingdom: sacred royal tombs and visitor guidance",
+    "url": "https://buganda.or.ug/royal-tombs/"
+   },
+   {
+    "label": "Kampala–Entebbe Expressway: airport-to-city link",
+    "url": "https://kee.go.ug/"
+   },
+   {
+    "label": "Uganda Museums and Monuments portal: current museum closure, collections and visitor information",
+    "url": "https://museums.tourism.go.ug/plan-your-visit/"
+   },
+   {
+    "label": "Ministry of Water and Environment: September–December 2026 seasonal rainfall outlook",
+    "url": "https://wids.mwe.go.ug/"
+   },
+   {
+    "label": "UK Foreign, Commonwealth & Development Office: Uganda regional and safety advice, checked 30 October 2026",
+    "url": "https://www.gov.uk/foreign-travel-advice/uganda/safety-and-security"
+   },
+   {
+    "label": "UK Foreign, Commonwealth & Development Office: Kampala regional advice, checked 30 October 2026",
+    "url": "https://www.gov.uk/foreign-travel-advice/uganda/regional-risks"
+   }
+  ],
+  "sort_order": 7,
+  "status": "published"
+ },
+ {
+  "slug": "fort-portal",
+  "country_slug": "uganda",
+  "name": "Fort Portal",
+  "category": "City",
+  "hero_title": "Fort Portal: town time, Tooro culture and a route to Kibale",
+  "listing_summary": "Use Fort Portal as a town base for Tooro heritage, crater-country walks, local food and a carefully paced journey to Kibale National Park.",
+  "overview": "Fort Portal is a regional city in western Uganda and the centre of the Tooro sub-region. Its role is more than a stop between Kampala and a national park: the city is an administrative and commercial hub, with living Tooro cultural institutions, a city tourism office, markets and access roads into the surrounding highlands. Fort Portal’s place in Uganda’s tourism identity is official, but its appeal is best understood through the mix of town life and day trips rather than as a single packaged attraction.\n\nThe city council identifies Karuziika Palace, Amabere Ga Nyinamwiru caves, nearby crater lakes, tea-growing landscapes and Kibale Forest among the visitor interests around Fort Portal. These places are spread across the wider area; a list on a map does not make them one walkable circuit. Use the city as a base, choose a couple of outings that fit your interests, and check current access with the responsible host before you set off.\n\nTooro heritage is living culture, not a performance available on demand. The council describes the palace as the seat of the Tooro Kingdom. Ask the city tourism office or a local guide what visitors may see and when, and follow directions about photography, ceremonies and spaces that are not open to the public. A conversation about local history is more useful when it comes from a willing host than from treating community life as a spectacle.",
+  "access_summary": "Travel to Fort Portal by road from Kampala on the Kampala–Fort Portal route, confirming your departure point, operator, schedule, luggage rules and arrival transfer before booking. Uganda Wildlife Authority’s current Kibale guidance describes the fully surfaced Kampala–Fort Portal highway and gives an indicative six-hour road journey to Kibale National Park; it says the park is about a further hour from Fort Portal. That is a park access estimate, not a guaranteed city-to-city travel time. Leave a buffer for traffic, weather and the road beyond town. UWA also mentions charter flights to Fort Portal; confirm that a suitable charter is actually operating for your dates, as this is not presented as a regular commercial service.\n\nFor crater-lake and cave visits, arrange a local driver or guide who can identify the exact access point and return plan. Fort Portal City Council lists Amabere Ga Nyinamwiru about 7 km from town, but ask about the current route, entry arrangements and ground conditions. Do not assume a park-area lodge or a distant lake is a central-city stay.",
+  "best_time": "Plan for the particular outing rather than relying on a fixed dry-season promise. Uganda’s Department of Meteorological Services identifies March–May and September–December as the country’s main rainfall seasons. Its September 2026 seasonal outlook expected near-normal to above-normal rainfall in western Uganda for the September–December period; this is a time-limited forecast, not a year-round climate guarantee. Rain can alter road and path conditions, especially around outdoor walks. Check the current district and short-range forecast before departure, allow flexibility in the itinerary, and ask your guide whether a crater or cave outing is suitable that day.",
+  "planning_tips": "Allow two or three nights if you want both time in town and an outing beyond it. On arrival day, settle in and explore the central area at an easy pace rather than combining the drive from Kampala with a strenuous walk. Ask a local guide or the City tourism office to confirm access before visiting Karuziika Palace or the Amabere caves. Fort Portal City Council places the caves roughly 7 km from town; discuss the path, steps and surfaces in advance if mobility is a concern. For crater-lake viewpoints, confirm the specific lake, land access and guide arrangement. Some lakes have cultural significance to nearby communities; follow local guidance and do not enter private or restricted places.\n\nA separate day for Kibale National Park makes the route easier to manage. UWA currently gives about an hour’s drive between Fort Portal and the park and lists scheduled Kanyanchu chimpanzee-tracking departures on its park page. Permit details, reporting time and rules can change, so confirm the exact slot and meeting point with UWA before arranging transport. If your permit has an early start, consider whether the confirmed road and lodge plan leaves enough margin; do not combine the Kampala–Fort Portal transfer and a fixed morning trek on the same day. The linked Kibale guide covers the park itself. No accommodation card is shown here because the published Kibale Forest Camp is park-side rather than a Fort Portal city property.\n\nFood is a useful way to meet the region through its everyday life. Fort Portal’s local culture guide describes Tooro dishes such as matooke with groundnut sauce, firinda and kalo, alongside produce sold in town markets. Menus vary: ask what is available that day and mention dietary needs before ordering. If you visit a market, remember it is a place where people work; ask before photographing sellers or customers, keep trading space clear and buy through the vendor rather than staging a scene. Pack light rain protection, shoes with grip for uneven paths, and a warmer layer for wet or cool evenings.",
+  "attraction_slugs": [
+   "kibale-national-park"
+  ],
+  "activity_slugs": [],
+  "accommodation_slugs": [],
+  "travel_insight_slugs": [],
+  "highlights": [
+   "Karuziika Palace and the living heritage of the Tooro Kingdom",
+   "Day walks to crater-country viewpoints and the Amabere Ga Nyinamwiru caves",
+   "Tooro food and produce markets in a working regional city",
+   "A practical road base for Kibale National Park"
+  ],
+  "last_researched": "2026-11-05",
+  "research_sources": [
+   {
+    "label": "Fort Portal City Council: Tourism and regional attractions (checked 2026-11-05)",
+    "url": "https://fortportalcity.go.ug/who-we-are/"
+   },
+   {
+    "label": "Fort Portal City Council: Tourism unit and visitor-information role (checked 2026-11-05)",
+    "url": "https://fortportalcity.go.ug/tourism/"
+   },
+   {
+    "label": "Fort Portal City Council: city and Tooro history (checked 2026-11-05)",
+    "url": "https://fortportalcity.go.ug/history-of-fortportal/"
+   },
+   {
+    "label": "Uganda Wildlife Authority: Kibale access route, current park information and Kanyanchu departures (checked 2026-11-05)",
+    "url": "https://ugandawildlife.org/national-parks/kibale-national-park/"
+   },
+   {
+    "label": "Uganda Department of Meteorological Services: September–December 2026 climate outlook (issued Sep 2026; checked 2026-11-05)",
+    "url": "https://wids.mwe.go.ug/portal"
+   },
+   {
+    "label": "Discover Fort Portal: Tooro food and culture (checked 2026-11-05)",
+    "url": "https://discoverfortportal.com/culture/"
+   },
+   {
+    "label": "GAIN/ICLEI: CityFood Handbook, Fort Portal city food system and markets (checked 2026-11-05)",
+    "url": "https://www.gainhealth.org/sites/default/files/publications/documents/en-cityfood-market-handbook-for-healthy-and-resilient-cities_second-edition-2.pdf"
+   }
+  ],
+  "sort_order": 8,
+  "status": "published",
+  "hero_image_url": "/images/editorial/fort-portal-local-destination/fort-portal-mpanga-market-ivan-sabayuki.jpg",
+  "hero_image_alt": "Fresh produce arranged at a stall in Mpanga market, Fort Portal.",
+  "gallery": [
+   "/images/editorial/fort-portal-local-destination/fort-portal-mpanga-market-ivan-sabayuki.jpg",
+   "/images/editorial/fort-portal-local-destination/fort-portal-tea-field-michael-starkie.jpg",
+   "/images/editorial/fort-portal-local-destination/fort-portal-rwenzori-landscape-itote-rubombora.jpg",
+   "/images/editorial/fort-portal-local-destination/fort-portal-lake-kigere-alvinategyeka.jpg",
+   "/images/editorial/fort-portal-local-destination/fort-portal-nyakasura-falls-alvinategyeka.jpg"
+  ]
+ },
+ {
+  "slug": "kigali",
+  "country_slug": "rwanda",
+  "name": "Kigali",
+  "category": "City",
+  "hero_title": "Kigali: the hillside capital that starts, and softens, a gorilla journey",
+  "listing_summary": "Rwanda's capital is the resting-and-arrival base before the Volcanoes foothills: year-round green hills, the memorial's serious history, an easy-to-walk centre and the transfer morning every trek day depends on.",
+  "overview": "Kigali sits in the centre of Rwanda, spread across hills and valleys with road links over most of the country. Rwanda's tourism authority describes a low-key but dynamic capital of about one million people: wide tree-lined boulevards that are safe to stroll, a growing art scene and restaurants with hillside views. It was founded as an administrative post in 1907 and became the capital at independence in 1962, so its fabric is much newer than the African averages that visitors assume.\n\nThe districts divide the city usefully. The central business district rests on Nyarugenge Hill, the government quarter sits east on Kacyiru, and Nyarutarama Lake — Lover's Lake — borders one of the main valleys, where the tourism authority recommends the flat lakeside track as an easy urban walk with birds along it. The Kigali Cultural Village gives local artisans and food vendors a dedicated trading space, and it fits an unhurried city day rather than a checklist morning.\n\nNo visit to Rwanda is complete without time at the Kigali Genocide Memorial, which the authority describes as honouring the more than one million Rwandans killed in 1994 with three permanent exhibitions and burial gardens. Go with the seriousness the site asks for: follow the on-site guidance about photography and conduct, and give the visit enough quiet time either side rather than scheduling it tightly before a drive.\n\nMost gorilla visitors meet Kigali twice: as the arrival city and as the transfer half of the trek. The Volcanoes foothills are its working gateway — our Volcanoes National Park guide covers the reporting points near Kinigi, and both primate activity guides describe Kigali-morning logistics around them. Return to Kigali last, when a relaxed evening, an art gallery and a lake-path walk close the journey properly.",
+  "access_summary": "Kigali is the practical arrival city for a Volcanoes journey. The published Volcanoes guides describe Kigali-morning departure logistics for the golden monkey and gorilla excursions, with operator products advertising roughly two and a half hours of driving each way toward the Kinigi reporting area. Treat those figures as planning estimates and confirm the transfer from Kigali to your Volcanoes-area property and the next morning's meeting point with your provider. Avoid scheduling an early trek immediately after a late arrival; if combining several Rwandan regions, ask for a day-by-day transport plan rather than assuming a compact country means negligible transfer time. Within the city, the districts and the lakeside path are walkable, with taxis and arranged vehicles covering the hill-to-hill parts.",
+  "best_time": "The city itself is a year-round destination: hill weather is mild, and museum, gallery and memorial visits are not seasonal activities. Match it to the trek calendar — June to mid-September is generally drier, with rainy spells mid-February to May and mid-September to mid-December, and forest walks can be muddy in any season. Set the arrival and departure flights around the confirmed permit date, never the reverse.",
+  "planning_tips": "Build at least one full rested day in Kigali out of an early trek morning; the contrast is deliberate, since the trek is a significant physical experience deserving preparation and recovery. Confirm permit terms, transfer arrangements, meals and any mobility support separately, and ask providers to distinguish official requirements from their own recommendations. Treat the memorial visit as a set time slot with slower edges rather than an add-on, and follow its on-site guidance. Ask what the current gallery openings, craft markets and the cultural village are offering during your dates rather than trusting a static list.",
+  "attraction_slugs": [
+   "volcanoes-national-park"
+  ],
+  "activity_slugs": [
+   "volcanoes-gorilla-trek",
+   "volcanoes-golden-monkey-trekking"
+  ],
+  "accommodation_slugs": [
+   "kigali-serena-hotel"
+  ],
+  "travel_insight_slugs": [],
+  "highlights": [
+   "The country's arrival gateway with the shortest road corridor to the Volcanoes reporting area",
+   "A deliberately rested city day: districts, a lakeside walk and hillside views",
+   "The Kigali Genocide Memorial with three permanent exhibitions and burial gardens",
+   "Kigali Cultural Village for local artisans and food vendors"
+  ],
+  "sort_order": 1,
+  "status": "published",
+  "hero_image_url": "",
+  "hero_image_alt": "",
+  "gallery": [],
+  "last_researched": "2026-11-09",
+  "research_sources": [
+   {
+    "label": "Visit Rwanda (RDB): Kigali city page — central position and road links, founding 1907/capital at 1962, districts (Nyarugenge CBD, Kacyiru), Nyarutarama/Lover's Lake walk, Kigali Cultural Village, Kigali Genocide Memorial description; checked 9 November 2026",
+    "url": "https://visitrwanda.com/kigali/",
+    "checked_at": "2026-11-09"
+   },
+   {
+    "label": "Visit Rwanda (RDB): Volcanoes National Park page — park in the far northwest, Karisimbi/Bisoke/Sabinyo/Gahinga/Muhabura volcanoes, Buhanga Eco-Park and Musanze Caves inside the park, gorilla and golden monkey tracking; checked 9 November 2026",
+    "url": "https://www.visitrwanda.com/national-parks/volcanoes-national-park/",
+    "checked_at": "2026-11-09"
+   },
+   {
+    "label": "Published on-site guides re-read 9 November 2026 for continuity: Rwanda country page (transfer-from-Kigali promise and Kigali-as-arrival-city framing) and the gorilla and golden monkey activity guides (Kigali-morning logistics, operator-advertised roughly two and a half hours driving each way via Kinigi products, at check 6 November 2026)",
+    "url": "https://trekafricaguide.com/countries/rwanda/",
+    "checked_at": "2026-11-09"
+   }
+  ]
+ },
+ {
+  "slug": "maun",
+  "country_slug": "botswana",
+  "name": "Maun",
+  "category": "Town",
+  "hero_title": "Maun: Botswana's safari capital on the Delta's doorstep",
+  "listing_summary": "The northern town most Delta journeys start from: safari outfitters, a busy airport and the Thamalakane River, where a deliberate day or two before the camps beats treating the place as a corridor.",
+  "overview": "Maun sits on the southern fringes of the Okavango Delta, and Botswana's national tourism organisation is blunt about its character: the country's tourism capital, still carrying the feel of a dusty frontier town despite new malls, shops, hotels and guesthouses. It is the administrative centre of Ngamiland District, and safari companies and air-charter operators keep their offices here — their signposts dot the sandy parking lots on the road to the airport. The Thamalakane River meanders through town, the first hint of the water systems that make this part of Botswana different.\n\nThe town's history runs through the Batawana people, whose capital was set at their final resting point here in 1915 after earlier moves through Lake Ngami, Toteng and Tsao. The district's mix is wide — Hambukushu, Basubiya, Bayei and Banoka (the River Bushmen, the Delta's original inhabitants), Bakgalagadi and Baherero families — and the tourism organisation credits these communities with centuries of expert use of the Okavango's resources. Its own commentary makes a point worth planning around: tourists all too often treat Maun merely as transit, while the villages along the western fringes of the Delta and into the panhandle reward travellers who allow them time.\n\nPractically, Maun is where a Delta trip converges. The airport receives direct flights from Johannesburg and Gaborone, and our published guides carry the town reality: the mokoro activity guide describes a Maun-based full-day outing — a road transfer, a poler-guided mokoro journey and a walk — while the Delta attraction guide explains that the inner delta is reached largely by light aircraft, with camp experiences differing by location and month. Give the town a worked-in pace: supplies are easy to buy and repack for camp, and a quiet afternoon by the river does the itinerary more good than another rushed transfer.",
+  "highlights": [
+   "Gateway town for Okavango Delta journeys and often the traveller's first stop in Botswana",
+   "Direct scheduled flights from Johannesburg and Gaborone, with light-aircraft links onward to the camps",
+   "A genuine town with safari outfitters, riverside setting and supplied malls for pre-camp stocking",
+   "The 'people side' of the Delta: Batawana seat of power since 1915 and a wide cultural mix in the district"
+  ],
+  "access_summary": "Arrive by air: the Government of Botswana lists Maun among the country's principal airports, and Botswana Tourism notes the busy airport receives direct flights from Johannesburg and Gaborone. From town, two onward patterns apply, and the published Delta guides describe both: light-aircraft transfers into the inner delta — where tourism is limited to small, temporary tented camps with air access — and road-based day trips, such as the Maun-based mokoro outing our activity guide covers, which begins with a road transfer to a launch area. Confirm luggage limits for small aircraft, who meets you at the airstrip, and whether your next morning's transfer departs from town or the airport edge. Within Maun, the town and its supplied malls are compact enough to handle on foot or by taxi.",
+  "best_time": "Botswana's climate is semi-arid, and the national tourism organisation frames the year simply: winter, May to August, is the dry season with sunny cool-to-warm days and cold nights; rains fall in the summer months, peaking around January and February. The Okavango adds its own twist — UNESCO notes the annual flood arrives during the dry season, its pulse at its height around June and July, so the Delta is at its most concentrated while the country itself is driest. The tourism organisation's own take on the two alternatives: the green season turns the bush lush and is a haven for birders as migrants arrive, while the dry peak concentrates game as the rivers fill from the Okavango floods. Delta-side conditions still differ from launch point to launch point, so confirm water access for your dates.",
+  "planning_tips": "Plan Maun as a town with its own value rather than a corridor, because the tourism organisation says that transit treatment is exactly what most visitors get wrong. Build a rested first night around the river and the shopping centre before any early airstrip departure, and confirm separately: the camp's own transfer arrangements, small-aircraft baggage limits, any community or park charges included in a day trip, and the sequence from arrival flight to the next morning's onward move. If you want the district's cultural side, plan the villages along the western Delta fringes and the panhandle as their own time blocks, booked with organisers who can explain who leads the visit — do not crowd them into the margins of a transfer day.",
+  "attraction_slugs": [
+   "okavango-delta"
+  ],
+  "activity_slugs": [
+   "okavango-mokoro-safari"
+  ],
+  "accommodation_slugs": [
+   "camp-okavango"
+  ],
+  "travel_insight_slugs": [],
+  "sort_order": 1,
+  "status": "published",
+  "hero_image_url": "",
+  "hero_image_alt": "",
+  "gallery": [],
+  "last_researched": "2026-11-09",
+  "research_sources": [
+   {
+    "label": "Botswana Tourism Organisation: Maun town page — tourism capital on the southern fringes of the Okavango Delta, dusty frontier-town character, gateway into the Delta and often into Botswana, direct flights from Johannesburg and Gaborone at the busy airport, Ngamiland administrative centre, Batawana seat of power (capital Lake Ngami, Toteng, Tsao, then Maun in 1915), Hambukushu/Basubiya/Bayei/Banoka River Bushmen/Bakgalagadi/Baherero district mix, 'people side' of the Okavango overlooked by transit-minded visitors, safari companies and modern malls/shops/hotels, Thamalakane River through town; checked 9 November 2026",
+    "url": "https://www.botswanatourism.co.bw/explore/maun",
+    "checked_at": "2026-11-09"
+   },
+   {
+    "label": "UNESCO World Heritage Centre: Okavango Delta (inscribed 2014) — permanent marshlands and seasonally flooded plains, one of very few major interior delta systems that do not flow into a sea or ocean, annual flooding occurs during the dry season with the flood pulse at its height around June/July, Moremi Game Reserve protects about 40% of the property, inner-delta tourism limited to small temporary tented camps with air access, near-pristine wetland; checked 9 November 2026",
+    "url": "https://whc.unesco.org/en/list/1432/",
+    "checked_at": "2026-11-09"
+   },
+   {
+    "label": "Botswana Tourism Organisation: Climate page — semi-arid climate, rainy season in the summer months with January and February generally the peak, winter May to August the dry season with virtually no rainfall and sunny cool-to-warm days but nights that can fall rapidly, transitional April/early May and September/October still dry; checked 9 November 2026",
+    "url": "https://www.botswanatourism.co.bw/climate",
+    "checked_at": "2026-11-09"
+   },
+   {
+    "label": "Botswana Tourism Organisation: Time to Visit page — green season (wet, lush, game birthing, haven for birders as migratory birds arrive), peak season (winter dry colours, pools dry but rivers fill from the Okavango floods concentrating game); checked 9 November 2026",
+    "url": "https://www.botswanatourism.co.bw/travel-info/time-visit",
+    "checked_at": "2026-11-09"
+   },
+   {
+    "label": "Government of Botswana: About our country — airports in Gaborone, Francistown, Kasane and Maun; four-season/dry-winter seasonal framing; checked 9 November 2026",
+    "url": "https://www.gov.bw/about-our-country",
+    "checked_at": "2026-11-09"
+   },
+   {
+    "label": "Published on-site guides re-read 9 November 2026 for continuity: Okavango Delta attraction guide (gateway/airstrip transfer framing, baggage restrictions for small aircraft, camp-activities differ by location and month) and the Okavango mokoro activity guide (Maun-based full-day outing: road transfer, poler-guided mokoro, walk; confirm launch area and conditions); Camp Okavango stay guide (island retreat in the permanent delta) for the stays relationship",
+    "url": "https://trekafricaguide.com/attractions/okavango-delta/",
+    "checked_at": "2026-11-09"
+   }
+  ]
+ }
 ]
