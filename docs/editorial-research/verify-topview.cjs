@@ -1,0 +1,18 @@
+const fs=require('fs');
+const h=fs.readFileSync('dist/accommodations/nyungwe-top-view-hill-hotel/index.html','utf8');
+const txt=h.replace(/<script[\s\S]*?<\/script>/g,'').replace(/<style[\s\S]*?<\/style>/g,'');
+console.log('bytes',h.length);
+console.log('h2s:', [...h.matchAll(/<h2[^>]*>([\s\S]*?)<\/h2>/g)].map(m=>m[1].replace(/<[^>]+>/g,'').trim()).join(' | '));
+console.log('has title:', /<title>Nyungwe Top View Hill Hotel \| Trek Africa Guide/.test(h));
+console.log('honest rail:', txt.includes('A verified booking link for this specific listing is not yet available'));
+console.log('no exposed markup:', !txt.includes('&lt;a href') && !txt.includes('&lt;h2'));
+console.log('links:', ['attractions/nyungwe-national-park','activities/nyungwe-canopy-walk'].every(x=>h.includes(x)));
+console.log('facts:', ['12','February 2011','Bushekeri','Kivu','+250 787 109 335'].every(x=>txt.includes(x)));
+const idx=fs.readFileSync('dist/accommodations/index.html','utf8');
+console.log('archive lists:', idx.includes('nyungwe-top-view-hill-hotel'));
+const ny=fs.readFileSync('dist/attractions/nyungwe-national-park/index.html','utf8');
+console.log('attraction nearby stays card:', ny.includes('nyungwe-top-view-hill-hotel'));
+const cv=fs.readFileSync('dist/activities/nyungwe-canopy-walk/index.html','utf8');
+console.log('canopy nearby stays now has stay:', cv.includes('/accommodations/nyungwe-top-view-hill-hotel'));
+const rw=fs.readFileSync('dist/countries/rwanda/index.html','utf8');
+console.log('rwanda country lists stay:', rw.includes('nyungwe-top-view-hill-hotel'));
