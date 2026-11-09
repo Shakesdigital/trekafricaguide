@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-09T13:23:43.554Z",
+  "updated_at": "2026-11-09T15:20:00.000Z",
   "timezone": "Africa/Kampala",
   "next_scheduled_start": "2026-10-17T19:30:00+03:00",
   "cadence_hours": 3,
@@ -252,7 +252,7 @@
     "No routine tests/builds or repeated broad audits."
   ],
   "next_task_selection": "Rotate to destinations next run; re-verify the destination archive; owner-email send still blocked on Gmail sign-in.",
-  "last_run": "2026-11-09T13:23:43.555Z",
+  "last_run": "2026-11-09T15:20:00.000Z",
   "task_magnitude": "One complete full guide plus booking and listing cards, or one full property photo collection; do not schedule isolated paragraphs/links.",
   "country_destinations_feature": {
     "status": "complete",
@@ -443,6 +443,25 @@
     "live_receipt": "docs/editorial-research/2026-10-24-activity-live-receipt.json",
     "image_summary": "Unchanged: five collections of six; eight collections of two; Giza zero. No image licence audit implied.",
     "verification": "Brief JSON/content inspection, 24 internal HTTP checks and 14 live rendered checks. No test suite or local build. Existing production exposed-markup guard preserved."
+  },
+  "destination_marrakech": {
+    "id": "marrakech",
+    "category": "destinations",
+    "started": "2026-11-09",
+    "scope": "New Marrakech local destination guide under Morocco — the first Northern Africa destination on the site and the first destination under Morocco, planning the city behind the already-published Marrakech And Atlas attraction guide, the medina street-food tour + Atlas day-trip activities and the Rosemary Marrakech riad stay.",
+    "evidence": "Live Morocco country page (HTTP 200, 9 Nov 2026) has no Destinations in Morocco rail while planning Marrakech in its copy; the live Marrakech And Atlas attraction page renders Related activities + Nearby stays rails with no city guide; homepage search's 11 destination guides include zero from Northern Africa; content/local-destinations.json had no marrakech slug.",
+    "files": [
+      "content/local-destinations.json",
+      "docs/editorial-research/2026-11-09-marrakech-local-destination.md",
+      "docs/editorial-progress.json"
+    ],
+    "images": 0,
+    "image_followup": "Six distinct licensed Marrakech subjects, not reusable from other collections: Jemaa el-Fna square at dusk with food stalls, Koutoubia minaret against sky, riad courtyard interior, Majorelle Garden cobalt fountain/villa, souk lane with goods, Gueliz boulevard streetscape. Licensed-reuse review only; no substitutes.",
+    "booking_cta": "None by design: destination pages carry no hotel-booking surrogate; the stay surface is the published Rosemary Marrakech guide and the Atlas CTA lives on the attraction page (GetYourGuide t, held since 2026-10-11).",
+    "key_facts_checked": "MNTO Marrakech guide (Red-city greeting verbatim, riads as 'small oriental palaces overlooking a beautiful patio', Menara emblematic basin, Gueliz/Hivernage, official 3-day pacing with Majorelle/El Badi/Koutoubia, day-trip distances about 45 min/1 h/2.5 h, best time March–May + September–November with hot summers and mild winter days/cool evenings, Top-5 list, tanjia); UNESCO ICH Jemaa el-Fna (inscribed 2008/3.COM, proclaimed 2001, eleventh-century foundation, Medina-entrance triangular square, 1922 artistic-heritage protection, urbanisation + tourism as threats, cross-ref Medina of Marrakesh WHS 1985); UK FCDO Morocco entry requirements (90 tourist days, passport ≥3 months, entry-stamp caveat, closed dirham, 100,000-dirham declaration, British-passport scope carried); on-site Morocco country + Marrakech And Atlas attraction guides. All checked 9 November 2026.",
+    "not_claimed": "No Majorelle/Badi/Koutoubia fees or hours (officials not fetched this run); Medina of Marrakesh WHS 1985 status carried only via the UNESCO ICH record's own cross-reference (whc.unesco.org 446 fetch 404'd this run); no population/taxi/minaret-height figures.",
+    "next_action": "Build, verify readable output, publish, live-verify, receipt; rotate to accommodations next.",
+    "next_category": "accommodations"
   },
   "latest_run_checkpoint": {
     "date": "2026-11-09 (evening run)",
