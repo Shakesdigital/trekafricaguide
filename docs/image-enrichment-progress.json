@@ -1,5 +1,15 @@
 {
-  "updated_at": "2026-11-09 12:55 UTC (15:55 Africa/Kampala)",
+  "updated_at": "2026-11-09 18:07 UTC (21:07 Africa/Kampala)",
+  "blocked_runs": [
+    {
+      "id": "network-outage-no-research-2026-11-09-1807",
+      "scheduled_at": "2026-11-09 18:07 UTC (21:07 Africa/Kampala)",
+      "status": "blocked_network_outage",
+      "planned_target": "Dar Saïd accommodation page (https://trekafricaguide.com/accommodations/dar-said/) — live page verified HTTP 200 with zero dedicated photos (only the regional Tunis And Sidi Bou Said attraction card), next item in the zero-own-photo accommodation rotation.",
+      "note": "Run not started: machine-level network outage. Confirmed unreachable by TCP test and HTTPS attempts: github.com and api.github.com (git fetch failed 3x over ~4 minutes), commons.wikimedia.org, en.wikipedia.org, api.openverse.org (504) and unsplash.com (Fastly 151.101.x.x). Reachable: trekafricaguide.com, www.pexels.com, www.flickr.com. A rights-standard review is impossible without Wikimedia Commons/Openverse/Unsplash (a partial review would risk a false 'no eligible photos' conclusion), and no commit can be pushed or deployed. No website files touched; the separate editorial automation's working-tree changes were left untouched.",
+      "next_action": "On the next run, retry git fetch first; once GitHub is reachable again, complete the Dar Saïd exact-property review from the top of the rotation backlog."
+    }
+  ],
   "follow_ups": [
     {
       "id": "bwindi-gorilla-trekking-interrupted-2026-10-28",
