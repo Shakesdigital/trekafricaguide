@@ -1,71 +1,5 @@
 {
-  "updated_at": "2026-11-09 11:30 Africa/Kampala",
-  "current_run": {
-    "id": "mfuwe-lodge-three-photo-gallery-2026-11-09",
-    "page_url": "https://trekafricaguide.com/accommodations/mfuwe-lodge/",
-    "page_type": "accommodation",
-    "status": "published_live_confirmed",
-    "previous_photo_count": 1,
-    "photo_count": 4,
-    "new_photo_count": 3,
-    "checked_date": "2026-11-09",
-    "started_at": "2026-11-09 06:07 Africa/Kampala",
-    "initial_live_verification": "Production accommodation page returned HTTP 200 and was reviewed in full: hero starter image plus a South Luangwa scenery card; zero dedicated property photos in the gallery (count 1, the starter itself).",
-    "source_ledger": "docs/editorial-research/2026-11-09-mfuwe-lodge-photo-enrichment.md",
-    "note": "Added three visually inspected exact-property photographs: thatched chalet exterior (Commons 'Mfuwe Chalet.jpg', Prabir K Bhattacharyya, CC BY-SA 3.0, captured 2011-09-16), chalet interior with riverside deck (Commons 'Mfuwe Lodge5.webp', Historybuff1028, CC0, captured 2025-09-16, webp converted to JPEG q90), and farm-to-table outdoor dining (Commons 'Mfuwe-Lodge-dining.jpg', Historybuff1028, CC0, captured 2025-08-13). Render fix required: src/lib/photo-defaults.mjs now replaces a gallery holding ONLY starter/default images with the curated override (Mfuwe's row kept the stock starter so the previous empty-gallery condition never applied); curator-owned galleries untouched; 3 unit tests added. Missing subjects recorded in the ledger: signature elephants-in-reception scene (only rights-clean Commons version carries a baked-in Travel+Leisure award overlay — excluded), pool, bush spa, bar interior, lounge, lodge exterior.",
-    "files": [
-      "src/lib/photo-library.js",
-      "public/photo-library.js",
-      "src/lib/photo-defaults.mjs",
-      "tests/node/photo-defaults.test.mjs",
-      "public/images/editorial/mfuwe-lodge/",
-      "docs/editorial-research/2026-11-09-mfuwe-lodge-photo-enrichment.md",
-      "docs/image-enrichment-progress.json"
-    ],
-    "selected_images": [
-      "mfuwe-chalet-exterior-2011.jpg",
-      "mfuwe-chalet-interior-deck-2025.jpg",
-      "mfuwe-farm-to-table-2025.jpg"
-    ],
-    "excluded_candidates_note": "Duplicate source excluded: 'Mfuwe Lodge Dining Area.jpg' is already live as the starter hero. 'Mfuwe Lodge1.webp' excluded (baked-in Travel+Leisure award overlay). 'Wild Dog in South Luangwa' excluded (game-drive subject, not the property). Marula Lodge and Hans Hillewaert wildlife files excluded (different property / scenery near the lodge).",
-    "mandatory_input_check": "Passed node scripts/sync-photo-library.mjs and npm run check:build-inputs; astro build plus check-rendered-content passed before deploy; photo-defaults unit tests 3/3 pass.",
-    "published_commit": "7746b55 (photos/ledger) and 7efe8ce (photo-defaults fix + tests)",
-    "pushed_at": "2026-11-09 03:37 UTC (photo commit) and 2026-11-09 07:19 UTC (render fix) — Africa/Kampala 06:37 and 10:19",
-    "deploy": "git push did not trigger a Netlify production build for 40+ minutes after the push. Production was then built and deployed from the linked local checkout via netlify CLI (site d32d59a3-f819-4e66-9e79-ce47e04ce22d, authenticated CLI user shakesdigital@gmail.com). Local build ran EDITORIAL_CMS_SYNC=false: the CMS mirror needs a service-role key this machine does not hold, so content renders from committed overrides and the publishable-key Supabase read. The deploy hook in .env.netlify is a placeholder (placeholder could not trigger anything).",
-    "email_id": null,
-    "report_status": "NOT SENT: Gmail requires a sign-in in this harness browser (same limitation as prior runs); owner receives this progress in chat instead. Subject prepared: 'Trek Africa Guide image update — [Kampala date/time]'.",
-    "live_verification": {
-      "checked_at": "2026-11-09 08:25-08:40 UTC (11:25-11:40 Africa/Kampala)",
-      "page_http_status": 200,
-      "see_all_text": "See all 4 images",
-      "all_new_filenames_in_page": true,
-      "credits_block_present": true,
-      "asset_http_statuses": [
-        200,
-        200,
-        200
-      ],
-      "asset_content_types": [
-        "image/jpeg",
-        "image/jpeg",
-        "image/jpeg"
-      ],
-      "asset_content_lengths": [
-        475363,
-        242757,
-        292463
-      ],
-      "regression_spot_checks": {
-        "jollyboys_backpackers_gallery": "See all 4 images (unchanged)",
-        "great_zimbabwe_gallery": "See all 7 images (unchanged)",
-        "fairway_boutique_hotel_hero": "kampala-street-life-pexels-35603022 present (unchanged)",
-        "bwindi_or_volcanoes_insight": "HTTP 200 with committed content (editorial automation page untouched)",
-        "homepage": "HTTP 200"
-      },
-      "note": "Production serves the four-image Mfuwe Lodge gallery including the CC BY-SA credit for the chalet exterior."
-    },
-    "next_action": "Rotation backlog: reopened-by-rights collections with thin pools (Governors' Camp has one eligible photo; golden-monkey missing bamboo-zone/Kinigi subjects; Jollyboys missing exterior/dorm/room/kitchen leads are CC BY-NC only), then fresh low-image pages. Watch: a plain git push may no longer trigger a Netlify build — the deploy hook in .env.netlify is a placeholder and a push sat pending until this run deployed via the linked Netlify CLI; future runs should trigger a build/deploy explicitly after pushing."
-  },
+  "updated_at": "2026-11-09 12:10 Africa/Kampala",
   "follow_ups": [
     {
       "id": "bwindi-gorilla-trekking-interrupted-2026-10-28",
@@ -106,6 +40,72 @@
     "resolved_at": "2026-10-21 13:16 Africa/Kampala"
   },
   "completed_runs": [
+    {
+      "id": "mfuwe-lodge-three-photo-gallery-2026-11-09",
+      "page_url": "https://trekafricaguide.com/accommodations/mfuwe-lodge/",
+      "page_type": "accommodation",
+      "status": "published_live_confirmed",
+      "previous_photo_count": 1,
+      "photo_count": 4,
+      "new_photo_count": 3,
+      "checked_date": "2026-11-09",
+      "started_at": "2026-11-09 06:07 Africa/Kampala",
+      "initial_live_verification": "Production accommodation page returned HTTP 200 and was reviewed in full: hero starter image plus a South Luangwa scenery card; zero dedicated property photos in the gallery (count 1, the starter itself).",
+      "source_ledger": "docs/editorial-research/2026-11-09-mfuwe-lodge-photo-enrichment.md",
+      "note": "Added three visually inspected exact-property photographs: thatched chalet exterior (Commons 'Mfuwe Chalet.jpg', Prabir K Bhattacharyya, CC BY-SA 3.0, captured 2011-09-16), chalet interior with riverside deck (Commons 'Mfuwe Lodge5.webp', Historybuff1028, CC0, captured 2025-09-16, webp converted to JPEG q90), and farm-to-table outdoor dining (Commons 'Mfuwe-Lodge-dining.jpg', Historybuff1028, CC0, captured 2025-08-13). Render fix required: src/lib/photo-defaults.mjs now replaces a gallery holding ONLY starter/default images with the curated override (Mfuwe's row kept the stock starter so the previous empty-gallery condition never applied); curator-owned galleries untouched; 3 unit tests added. Missing subjects recorded in the ledger: signature elephants-in-reception scene (only rights-clean Commons version carries a baked-in Travel+Leisure award overlay — excluded), pool, bush spa, bar interior, lounge, lodge exterior.",
+      "files": [
+        "src/lib/photo-library.js",
+        "public/photo-library.js",
+        "src/lib/photo-defaults.mjs",
+        "tests/node/photo-defaults.test.mjs",
+        "public/images/editorial/mfuwe-lodge/",
+        "docs/editorial-research/2026-11-09-mfuwe-lodge-photo-enrichment.md",
+        "docs/image-enrichment-progress.json"
+      ],
+      "selected_images": [
+        "mfuwe-chalet-exterior-2011.jpg",
+        "mfuwe-chalet-interior-deck-2025.jpg",
+        "mfuwe-farm-to-table-2025.jpg"
+      ],
+      "excluded_candidates_note": "Duplicate source excluded: 'Mfuwe Lodge Dining Area.jpg' is already live as the starter hero. 'Mfuwe Lodge1.webp' excluded (baked-in Travel+Leisure award overlay). 'Wild Dog in South Luangwa' excluded (game-drive subject, not the property). Marula Lodge and Hans Hillewaert wildlife files excluded (different property / scenery near the lodge).",
+      "mandatory_input_check": "Passed node scripts/sync-photo-library.mjs and npm run check:build-inputs; astro build plus check-rendered-content passed before deploy; photo-defaults unit tests 3/3 pass.",
+      "published_commit": "7746b55 (photos/ledger) and 7efe8ce (photo-defaults fix + tests)",
+      "pushed_at": "2026-11-09 03:37 UTC (photo commit) and 2026-11-09 07:19 UTC (render fix) — Africa/Kampala 06:37 and 10:19",
+      "deploy": "git push did not trigger a Netlify production build for 40+ minutes after the push. Production was then built and deployed from the linked local checkout via netlify CLI (site d32d59a3-f819-4e66-9e79-ce47e04ce22d, authenticated CLI user shakesdigital@gmail.com). Local build ran EDITORIAL_CMS_SYNC=false: the CMS mirror needs a service-role key this machine does not hold, so content renders from committed overrides and the publishable-key Supabase read. The deploy hook in .env.netlify is a placeholder (placeholder could not trigger anything).",
+      "email_id": null,
+      "report_status": "NOT SENT: Gmail requires a sign-in in this harness browser (same limitation as prior runs); owner receives this progress in chat instead. Subject prepared: 'Trek Africa Guide image update — [Kampala date/time]'.",
+      "live_verification": {
+        "checked_at": "2026-11-09 08:25-08:40 UTC (11:25-11:40 Africa/Kampala)",
+        "page_http_status": 200,
+        "see_all_text": "See all 4 images",
+        "all_new_filenames_in_page": true,
+        "credits_block_present": true,
+        "asset_http_statuses": [
+          200,
+          200,
+          200
+        ],
+        "asset_content_types": [
+          "image/jpeg",
+          "image/jpeg",
+          "image/jpeg"
+        ],
+        "asset_content_lengths": [
+          475363,
+          242757,
+          292463
+        ],
+        "regression_spot_checks": {
+          "jollyboys_backpackers_gallery": "See all 4 images (unchanged)",
+          "great_zimbabwe_gallery": "See all 7 images (unchanged)",
+          "fairway_boutique_hotel_hero": "kampala-street-life-pexels-35603022 present (unchanged)",
+          "bwindi_or_volcanoes_insight": "HTTP 200 with committed content (editorial automation page untouched)",
+          "homepage": "HTTP 200"
+        },
+        "note": "Production serves the four-image Mfuwe Lodge gallery including the CC BY-SA credit for the chalet exterior."
+      },
+      "next_action": "Rotation backlog: reopened-by-rights collections with thin pools (Governors' Camp has one eligible photo; golden-monkey missing bamboo-zone/Kinigi subjects; Jollyboys missing exterior/dorm/room/kitchen leads are CC BY-NC only), then fresh low-image pages. Watch: a plain git push may no longer trigger a Netlify build — the deploy hook in .env.netlify is a placeholder and a push sat pending until this run deployed via the linked Netlify CLI; future runs should trigger a build/deploy explicitly after pushing."
+    },
     {
       "id": "featured-image-audit-and-fairway-context-hero-2026-11-09",
       "page_url": "https://trekafricaguide.com/accommodations/fairway-boutique-hotel/",
@@ -2971,5 +2971,65 @@
       "source": "Owner instruction in chat: search all free stock sites for images that specifically depict these areas; Creative Commons images that require credit may be used (\"they don't necessarily have to have photo credit as long as it is ... creative commons usage that specifically depicts these areas\").",
       "effect": "Reopens previously attribution-blocked collections. Facts: discreet legally required credits stay visible via the existing gallery credit block; provenance ledgers remain internal per the 23 October reporting preference; the Freddy/owner decision overruling the no-public-attribution operating rule is the stated reason; existing attribution-required photos stay as-is."
     }
-  ]
+  ],
+  "current_run": {
+    "id": "governors-camp-four-photo-licensed-gallery-2026-11-09",
+    "page_url": "https://trekafricaguide.com/accommodations/governors-camp/",
+    "page_type": "accommodation",
+    "status": "published_live_confirmed",
+    "previous_photo_count": 0,
+    "photo_count": 4,
+    "new_photo_count": 4,
+    "checked_date": "2026-11-09",
+    "started_at": "2026-11-09 08:10 Africa/Kampala",
+    "initial_live_verification": "Production accommodation page returned HTTP 200 and was reviewed in full: the published guide had no hero image and an empty gallery (detail-photo-gallery__empty neutral slot, zero dedicated photos).",
+    "source_ledger": "docs/editorial-research/2026-11-09-governors-camp-enrichment.md",
+    "note": "Reopened from the rotation backlog (Governors' Camp had exactly one eligible Commons lead and no published photos). Added four visually inspected exact-main-camp photographs: (1) riverside lawn with set lunch tables under riverine trees (Ninara, Commons CC BY 2.0, 2022-09-29 — the sole file in the dedicated Commons 'Governors Camp' category, kept separate from the parked sibling categories 'Little Governors Camp (Masai Mara)' and 'Governors Il Moran Camp'), used as hero; (2) 'Governors' Camp / Masai Mara / Kenya' inscribed welcome sign at Musiara airstrip (Stuart Price / Make It Kenya, Public Domain Mark 1.0 with requested credit rendered, 2015-09-30); (3) elephant drinking from a birdbath inside camp (Mara 1, Flickr CC BY 2.0, 2009-02-27); (4) sunrise silhouette of the fig tree on the Musiara marsh beside camp (Mara 1, Flickr CC BY 2.0, 2009-02-28) recorded property:false with an honest setting caption. Downloads stored locally at 1280px (Commons) / 1024px (Flickr large); source pages, licences, dates and SHA-256 recorded in the library and ledger; credit block renders creator + licence. Exclusions (all in ledger): 27-file Ninara set categorised Little Governors Camp (sibling property), Il Moran Camp files incl. flowcomm Flickr pair (sibling property), Make It Kenya Governor's Balloon Safari launch series naming Little Governor's Camp as the launch site, and the Governors' Camp Collection official/press photography (governorscamp.com, Audley, safari.com, Safari Bookings et al. — owner copyright, no reuse permission). Openverse exact-name pool reviewed to page 2; Pexels/Unsplash exact-name checks return none.",
+    "files": [
+      "src/lib/photo-library.js",
+      "public/photo-library.js",
+      "public/images/editorial/governors-camp/",
+      "docs/editorial-research/2026-11-09-governors-camp-enrichment.md",
+      "docs/image-enrichment-progress.json"
+    ],
+    "selected_images": [
+      "governors-riverside-mara-2022-ninara.jpg",
+      "governors-welcome-sign-musiara-airstrip-2015.jpg",
+      "governors-elephant-birdbath-2009.jpg",
+      "governors-fig-tree-marsh-sunrise-2009.jpg"
+    ],
+    "excluded_candidates_note": "Ninara Little Governors set (27 files), Il Moran Camp files (Commons + flowcomm Flickr), Governor's Balloon Safari launch series, and the Governors' Camp Collection official gallery photography excluded — sibling property / balloon activity naming Little Governor's Camp / owner copyright without reuse permission.",
+    "mandatory_input_check": "Passed node scripts/sync-photo-library.mjs and npm run check:build-inputs; checked 2026-11-09.",
+    "published_commit": "2bbdc87 (merged as 823736e with concurrent editorial-automation work f6b7ad3; untouched)",
+    "pushed_at": "2026-11-09 09:15 UTC (12:15 Africa/Kampala)",
+    "email_id": null,
+    "report_status": "NOT SENT: Gmail requires a sign-in in this harness browser (same limitation as prior runs); owner receives this progress in chat. Subject prepared: \"Trek Africa Guide image update — [Kampala date/time]\".",
+    "live_verification": {
+      "checked_at": "2026-11-09 09:20 UTC (12:20 Africa/Kampala)",
+      "page_http_status": 200,
+      "empty_slot_markup": false,
+      "all_four_filenames_in_page": true,
+      "credits_block": "of render rules (credit entries present for the four new photos)",
+      "asset_http_statuses": [
+        200,
+        200,
+        200,
+        200
+      ],
+      "asset_content_types": [
+        "image/jpeg",
+        "image/jpeg",
+        "image/jpeg",
+        "image/jpeg"
+      ],
+      "asset_content_lengths": [
+        697123,
+        248188,
+        179624,
+        116552
+      ],
+      "note": "Production serves the four-image Governors Camp gallery; all four asset URLs return HTTP 200 image/jpeg with byte counts matching the locally stored originals."
+    },
+    "next_action": "Governors' Camp remains open toward the 10–15 accommodation target only for newly surfaced exact-main-camp leads (verified missing subjects in the ledger: main tent exterior, tent interior, dining/mess tent, bar, river-bank paths, further in-camp wildlife). Next runs: re-run the featured-image audit on any newly published page, then continue the rotation backlog (Mfuwe Lodge CC0/CC-BY-SA deepening; reopened missing-subject pages golden-monkey and Jollyboys interiors). The small-4 partial is honest and live."
+  }
 }
