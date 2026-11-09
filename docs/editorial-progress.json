@@ -456,16 +456,16 @@
   "latest_run_checkpoint": {
     "date": "2026-11-09",
     "run": "editorial content run (accommodations)",
-    "status": "commit_local_push_blocked",
-    "content_commit": "pending",
+    "status": "published_live_confirmed",
+    "content_commit": "fcc74b8d643fde47f49c67d04c684fbbdae41cc1",
     "live_url": "https://trekafricaguide.com/accommodations/kigali-serena-hotel/",
-    "live_verification": "LOCAL ONLY (2026-11-09): production build passed (check-build-inputs, 131 pages, readability guard 136 pages); rendered page verified with correct h1/h2 flow, exact Stay22 Booking.com link and internal Kigali link; production URL not reachable because git push is 403-blocked and Netlify has not received the commit.",
-    "cms": "editorial_documents read remains RLS-blocked for the publishable key; mirror status pending. Public-table reads confirmed (regions/countries/accommodations). Owner-side CMS check needed after push is restored.",
+    "live_verification": "HTTP 200 with rendered copy, exact Stay22 booking destination, Kigali destination card, archive and homepage search entries; no exposed markup. Local build gates passed (check-build-inputs; 131 pages; readability guard 136 pages).",
+    "cms": "Mirror import runs at deploy with service role; publishable-key editorial_documents read stays blocked; pending owner-side CMS check.",
     "email_id": null,
     "ledger": "docs/editorial-research/2026-11-09-kigali-serena-hotel.md",
     "images": 6,
-    "image_note": "Zero gallery images published (none licensed yet); neutral no-photo slot used with explicit no-substitution statement. Six exact-property subject backlog recorded in ledger.",
-    "next_action": "With push rights restored: push, verify production URL HTTP 200 with rendered copy and owner-publish the CMS record; next editorial category is travel insights."
+    "image_note": "Zero licensed gallery photos; neutral slot honest; six exact-property subjects in ledger backlog.",
+    "next_action": "Rotate to travel insights on the next run; six-photo collections stay in the separate image backlog."
   },
   "activity_volcanoes_golden_monkey_trek": {
     "status": "complete",
@@ -869,6 +869,23 @@
     "live_reference_check": "2026-11-09, HTTP 200: golden monkey reference page renders all seven h2 sections (About this activity, Highlights, Best time to participate, Planning notes, Booking option, You may also like, Nearby stays); Fairway accommodation reference renders the site-standard accommodation flow (Why stay here and how to plan your stay, Key amenities, Stay style and budget, Booking option, Other Nearby Accommodations, Nearby Attractions). The new page matches the accommodation presentation.",
     "next_action": "Confirm production URL HTTP 200 with rendered text after the owner restores push and Netlify deploys; fill content_commit + live_verification here; rotate to travel insights.",
     "next_category": "travel_insights",
-    "render_checks": "Production build with EDITORIAL_CMS default settings: check-build-inputs passed; astro build 131 pages; check-rendered-content readability guard passed over 136 pages; Kigali destination dist page now renders the Kigali Serena stay card; no exposed markup in the new record."
+    "render_checks": "Production build with EDITORIAL_CMS default settings: check-build-inputs passed; astro build 131 pages; check-rendered-content readability guard passed over 136 pages; Kigali destination dist page now renders the Kigali Serena stay card; no exposed markup in the new record.",
+    "publication": {
+      "content_commit": "fcc74b8d643fde47f49c67d04c684fbbdae41cc1",
+      "pushed_to": "main",
+      "push_result": "success (push right restored; previous read-only 403 no longer observed)",
+      "pushed_at": "2026-11-09",
+      "live_url": "https://trekafricaguide.com/accommodations/kigali-serena-hotel/",
+      "live_http_status": 200,
+      "checked_at": "2026-11-09",
+      "live_distinctive_text": "Kigali Serena Hotel | Trek Africa Guide",
+      "live_checks": {
+        "detail": "HTTP 200; h1 \"Kigali Serena Hotel\"; h2 flow (Why stay here and how to plan your stay, Key amenities, Stay style and budget, Booking option, Other Nearby Accommodations, Nearby Attractions); exact Stay22-wrapped Booking.com destination accommodations_kigali_serena_hotel; specific copy verified (Sokoni, Milima, Maisha, presidential suite, Executive Lounge); internal link to /countries/rwanda/kigali lives; no exposed markup.",
+        "kigali_destination": "HTTP 200; stay card present with accommodations/kigali-serena-hotel link; seven Serena mentions.",
+        "archive_home_country": "Accommodations archive, homepage search and Rwanda country page each list the guide (slug link present)."
+      }
+    },
+    "commit": "fcc74b8 (content) + this receipt commit",
+    "cms": "Netlify deploy built from fcc74b8; the CMS mirror import runs server-side at deploy (service-role held there). Publishable-key read of editorial_documents remains blocked; mirror status pending — owner-side CMS check to confirm accommodations/kigali-serena-hotel."
   }
 }
