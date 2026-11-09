@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-09T09:22:50.908Z",
+  "updated_at": "2026-11-09T13:23:43.554Z",
   "timezone": "Africa/Kampala",
   "next_scheduled_start": "2026-10-17T19:30:00+03:00",
   "cadence_hours": 3,
@@ -251,8 +251,8 @@
     "After quota interruption resume at next eligible scheduled run; do not assume immediate credit-reset wakeup.",
     "No routine tests/builds or repeated broad audits."
   ],
-  "next_task_selection": "Complete one destination guide, then rotate to accommodations.",
-  "last_run": "2026-11-09T09:35:00+03:00",
+  "next_task_selection": "Rotate to destinations next run; re-verify the destination archive; owner-email send still blocked on Gmail sign-in.",
+  "last_run": "2026-11-09T13:23:43.555Z",
   "task_magnitude": "One complete full guide plus booking and listing cards, or one full property photo collection; do not schedule isolated paragraphs/links.",
   "country_destinations_feature": {
     "status": "complete",
@@ -445,26 +445,18 @@
     "verification": "Brief JSON/content inspection, 24 internal HTTP checks and 14 live rendered checks. No test suite or local build. Existing production exposed-markup guard preserved."
   },
   "latest_run_checkpoint": {
-    "date": "2026-11-09",
-    "run": "editorial content run (accommodations - Nyungwe Top View Hill Hotel)",
-    "status": "published_live_confirmed",
-    "content_commit": "6fadbde (content + receipt in one commit; pushed e675a7d..6fadbde, no rebase needed)",
-    "live_url": "https://trekafricaguide.com/accommodations/nyungwe-top-view-hill-hotel/",
-    "live_verification": "HTTP 200 (27,032 bytes = local dist size) shortly after push: title correct; site-standard accommodation h2 flow renders (Why stay here and how to plan your stay / Key amenities / Stay style and budget / What travelers say / Booking option / Other Nearby Accommodations / Nearby Attractions); official-site facts render (February 2011, Buvungira/Bushekeri, rondavel mezzanine, bottle-top bar, 12 sunrise/sunset-wing cottages, operator transport estimates attributed, +250 787 109 335); honest empty booking rail (no verified OTA product, by rule); no exposed markup; accommodations archive, the repo-managed Nyungwe attraction page nearby-stays rail and the Nyungwe canopy-walk activity page nearby-stays rail all now list the stay; Rwanda country page lists it.",
-    "evidence": "Live accommodations archive held 32 stays with no Nyungwe-area record; live Nyungwe attraction and canopy-walk pages rendered empty Nearby-stays rails (the canopy rail was created by design at publish on 2026-11-09 when \"no Nyungwe-area stay record exists; none invented\"). This run fills exactly that hole; Rwandan stays were only Volcanoes (Sabyinyo) and Kigali (Kigali Serena).",
-    "booking_note": "No booking CTA. Negative verifications 2026-11-09: no current Booking.com property listing in the live index (legacy FR reviews URL only; direct detail fetch redirected to an empty \"Luhonge: No properties found\" search), guessed One&Only Nyungwe House slug 404, and the official site has no working reservation endpoint (nyungwehotel.com/Accommodation returns a Laravel DB error). No booking-destinations entry added.",
-    "photos": "Zero-photo publish (no licensed exact-property photograph exists; official site images are operator-copyrighted; no substitutes per rule). Six-subject backlog in docs/editorial-research/2026-11-09-nyungwe-top-view-hill-hotel.md.",
-    "ledger": "docs/editorial-research/2026-11-09-nyungwe-top-view-hill-hotel.md",
-    "mirror_status": "pending",
-    "cms_mirror_note": "Publishable-key REST reads returned 404 for accommodations, activities and editorial_documents (schema cache not exposed to anon; unchanged from prior runs). No writes attempted (rule).",
-    "environment_note": "npm must be run through cmd (/c) in this shell (ExecutionPolicy); no other environment change.",
-    "email_status": "required_signin_owner_gmail",
-    "owner_email_draft": {
-      "prepared_at": "2026-11-09",
-      "to": "fsddanmugisa@gmail.com",
-      "subject": "Trek editorial run: Nyungwe Top View Hill Hotel stay guide live (run 2026-11-09 evening)",
-      "body": "Hi Foscod,\n\nShipped this run: the first Nyungwe-area accommodation guide - Nyungwe Top View Hill Hotel (accommodations category, per the rotation left at this last checkpoint). Evidence: the live archive held 32 stays with nothing in the Nyungwe area (Rwanda had only Sabyinyo for Volcanoes and Kigali Serena for the capital), and the live Nyungwe attraction and canopy-walk pages render empty Nearby-stays rails - a gap our own design left open until a real stay could be published.\n\nLive receipt: https://trekafricaguide.com/accommodations/nyungwe-top-view-hill-hotel/ - HTTP 200, verified minutes after push: site-standard accommodation h2 flow (Why stay here and how to plan your stay, Key amenities, Stay style and budget, What travelers say, Booking option, Other Nearby Accommodations, Nearby Attractions), clean rendered copy, no exposed markup, and both the attraction page's nearby-stays rail and the canopy-walk page's nearby-stays rail now include the hotel; accommodations archive and Rwanda country page list it.\n\nAll facts from the hotel's own site (nyungwehotel.com, linked as the official site from Google's hotel panel): Buvungira Cell, Bushekeri Sector siting under two km from the Kigali-Bukavu road; in operation since February 2011; two-tiered rondavel with mezzanine dining and its bottle-top bar; twelve sunrise/sunset-wing cottages named for their views; ground shuttle, conference room and a ticketing desk that also handles gorilla permits; operator's own transport-time estimates kept attributed (Kamembe airport, Lake Kivu shore, Bukavu). Visit Rwanda's hotel page is a broken lorem-ipsum template - disclosed, no facts drawn.\n\nPhotos: honest zero-photo state (official-site images are operator-copyrighted; no substitutes allowed); six-subject backlog logged. Booking: no CTA - no current Booking.com listing in the live index (direct fetch redirects to an empty search page), and the hotel site's own reservation page is a server error - so the page shows the honest 'verified booking link not yet available' rail. No rate, score or review reprinted (Google's 3-star listing with 152 reviews cited as positioning only).\n\nBlockers: owner Gmail still signed out - four run reports now wait on one sign-in (Kigali Serena, South Luangwa/Nyungwe-Kruger, Nairobi, this one). CMS mirror: publishable-key reads still 404 across tables - a CMS check of accommodations/nyungwe-top-view-hill-hotel recommended.\n\nCommit: 6fadbde on main (pushed).\n\nNext category: travel_insights.\n\n- Trek editorial automation\n"
-    }
+    "date": "2026-11-09 (evening run)",
+    "run": "editorial content run (travel insights - Plan a first Kenya safari)",
+    "status": "published_pushed_live_confirmed",
+    "content_commit": "b15e196 (content) — pushed to main 39543ef..b15e196; push worked this run, no 403",
+    "live_url": "https://trekafricaguide.com/travel-insights/plan-first-kenya-safari-mara-reserve-or-conservancy/",
+    "live_verification": "HTTP 200 (26,870 bytes) minutes after push, verified 2026-11-09: title correct; full article h2/h3 flow renders (gateway / reserve-vs-conservancy / timing-as-pattern / ask-before-pay checklist / route building); all 6 figure captions with creator+license attribution render; hero asset HTTP 200 (513,232 bytes = local dist size); the 5 internal links render as site-standard hrefs; /travel-insights/ archive (HTTP 200, 31,941 bytes) lists the new slug; no exposed markup.",
+    "evidence": "Live travel-insights archive holds 8 published stories with zero Kenya coverage (Uganda x3, South Africa x2, Tunisia/Namibia/Zambia-Zimbabwe x1 each), while the site's freshest cluster is Kenya (Nairobi destination shipped today) and its Kenya pages demand the planning decision no story holds: country page \"distinguish a migration pattern from a guaranteed crossing\"; Mara page \"no responsible itinerary should promise a river crossing on a fixed day\". Registry: plan-first-east-africa-safari and uganda-vs-kenya-first-time-safari exist only as legacy drafts, never completed deliverables, so no duplication.",
+    "deliverable_summary": "New travel insight \"Plan a first Kenya safari: reserve or conservancy, road or fly-in\" (Practical travel / East Africa / Kenya, 7 min read): gateway decision (Nairobi planning gateway, road via Narok vs fly-in Wilson Airport + airstrip-camp match), reserve vs conservancy trade (access models, park fees not included in accommodation rates per maasaimara.com), timing as pattern not appointment (Jul-Oct classic window per maasaimara.com month chart, live 15 Oct 2026 migration update as evidence, Mar-May low season sourced), ask-before-pay checklist, route building (one base, Amboseli pairing, balloon morning cross-link).",
+    "photos": "6 distinct licensed Wikimedia Commons files, all new to the library (6 prior Mara attraction/balloon collection files avoided): wildebeest Mara River jump (Danijel Mihajlovic CC BY-SA 4.0, 2020-09-14), cheetah past tour van (Michelle Juma CC BY-SA 4.0, 2018-12-10), safari vehicle under acacia (Daniel Case CC BY-SA 4.0, 2025-08-21), Olare Motorogi Conservancy hyena (Regina Hart CC BY-SA 2.0, 2019-12-19), Mara airstrip lapas (Ninara CC BY 2.0, 2022-09-29), wildebeest hillside near Sand River Gate (Daniel Case CC BY-SA 4.0, 2025-08-21). Downloaded via API after an initial 429 rate-limit burst, re-verified on Commons file pages, resized to 1800px JPEG q85, SHA-256 recorded in photo-library entries, on-caption attribution (licenses require it).",
+    "build_checks": "Production build 139 pages; readability guard passed on 144; local dist verified: article renders hero + 6 figures, all 6 local assets exist, archive + homepage search list the slug, all 5 internal links render as site-standard hrefs, zero JSON/markup leak in article body.",
+    "cms": "Publishable-key reconcile 2026-11-09: travel_articles filtered query returns 200 but empty for the new slug (server-side import lag, mirror pending); local_destinations and editorial_documents return 404 to anon (editorial_documents was 400 in earlier runs). No writes attempted by rule.",
+    "next_category": "destinations"
   },
   "activity_volcanoes_golden_monkey_trek": {
     "status": "complete",
@@ -1061,5 +1053,30 @@
     "live_verification": "HTTP 200 (27,032 bytes) shortly after push on 2026-11-09: site-standard accommodation h2 flow renders; official facts render; honest empty booking rail; no exposed markup; accommodations archive, Nyungwe attraction nearby-stays rail, canopy-walk nearby-stays rail and Rwanda country page all list the hotel.",
     "email_status": "required_signin_owner_gmail",
     "next_category": "travel_insights"
+  },
+  "travel_insight_plan_first_kenya_safari": {
+    "id": "plan-first-kenya-safari-mara-reserve-or-conservancy",
+    "category": "travel_insights",
+    "started": "2026-11-09",
+    "scope": "New published travel insight planning a first Kenya safari; gap: zero published Kenya stories while Uganda has three; Kenya pages hold demands (migration-not-promise language) no published story answers.",
+    "files": [
+      "content/editorial-overrides.json",
+      "src/lib/photo-library.js",
+      "public/photo-library.js",
+      "public/images/editorial/plan-first-kenya-safari-mara/ (6 files)",
+      "docs/editorial-research/2026-11-09-plan-first-kenya-safari-insight.md",
+      "docs/editorial-research/add-first-kenya-safari-insight.cjs",
+      "docs/editorial-research/verify-mara-insight.cjs",
+      "docs/editorial-research/fetch-mara-insight-photos.ps1"
+    ],
+    "images": 6,
+    "booking_cta": "None by design: insight pages carry no product CTA (house pattern); revenue surface goes to the Mara balloon activity card + stays rails via cross-links.",
+    "key_facts_checked": "maasaimara.com homepage (1,510 km2, 450+ birds, Big 5 year-round, Jun-Sep best / Jul-Oct classic / Mar-May low month chart, live migration update 15 Oct 2026, fees not included in accommodation rates, Mara as northern extension of Serengeti); magicalkenya.com Mara page (Maasai + Mara River naming, Big Five, balloon/walks/night-drive menu); site-internal Kenya country, Mara, Nairobi (+KAA Wilson 5 km Langata Road), Amboseli pages recovered live; KWS still unreachable, no fees reprinted beyond attributions to maasaimara.com.",
+    "commit": "b15e196",
+    "cms": "mirror pending (see latest_run_checkpoint)",
+    "live_verification": "HTTP 200 (26,870 bytes) confirmed minutes after push; hero asset 200 = local size; archive and homepage search list slug; all figures + attributions render; no markup leak.",
+    "email_status": "required_signin_owner_gmail",
+    "push_status": "pushed (39543ef..b15e196) — no 403 this run",
+    "next_category": "destinations"
   }
 }
