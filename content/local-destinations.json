@@ -619,7 +619,9 @@
   "activity_slugs": [
    "amboseli-game-drive-safari"
   ],
-  "accommodation_slugs": [],
+  "accommodation_slugs": [
+   "nairobi-serena-hotel"
+  ],
   "travel_insight_slugs": [],
   "sort_order": 1,
   "status": "published",
