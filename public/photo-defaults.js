@@ -16,7 +16,10 @@ export function applyPhotoDefaults(table, row) {
   if (typeof gallery === 'string') {
     try { gallery = JSON.parse(gallery); } catch { gallery = [gallery]; }
   }
-  if ('gallery' in starter && (!gallery || !gallery.length) && (useStarter || row.hero_image_url === starter.hero_image_url)) {
+  // A gallery holding only the starter/default images is default content, not editor curation.
+  const starterSet = new Set([...(starter.replaces || []), starter.hero_image_url]);
+  const isDefaultGallery = Array.isArray(gallery) && gallery.length > 0 && gallery.every((src) => starterSet.has(src));
+  if ('gallery' in starter && ((!gallery || !gallery.length) || isDefaultGallery) && (useStarter || row.hero_image_url === starter.hero_image_url)) {
     result.gallery = starter.gallery;
   }
   return result;

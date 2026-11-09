@@ -471,6 +471,18 @@
       "evidence": {
         "review_check": "Exact product and review aggregate read live 9 November 2026 (score 3.7/5 from 7 reviews). Dated reviews recorded in the research ledger; scores may change."
       }
+    },
+    "kruger-national-park-game-drive": {
+      "url": "https://www.getyourguide.com/en-gb/skukuza-l192363/kruger-national-park-full-day-game-drive-with-pickup-t433574/",
+      "provider": "getyourguide",
+      "title": "Kruger National Park: Full-Day Game Drive with Pickup",
+      "operator": "Inn Africa Camp & Tours- Game drives",
+      "rating": 4.5,
+      "review_count": 166,
+      "notes": "Full-day open-vehicle game drive. Confirm the pickup area; food and park conservation fees are extra.",
+      "checked_at": "2026-10-11",
+      "status": "active",
+      "verification_note": "Exact product re-verified live in search index 2026-11-09 (title and Big-5 open-vehicle description match); direct platform fetch automation-blocked, so no rate or availability claim is made."
     }
   },
   "attractions": {
