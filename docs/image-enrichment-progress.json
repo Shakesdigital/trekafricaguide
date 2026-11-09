@@ -1,67 +1,54 @@
 {
   "updated_at": "2026-11-08 19:57 Africa/Kampala",
   "current_run": {
-    "id": "volcanoes-golden-monkey-five-photo-credit-cc-second-pass-2026-11-08",
-    "page_url": "https://trekafricaguide.com/activities/volcanoes-golden-monkey-trekking/",
-    "page_type": "activity",
+    "id": "featured-image-audit-and-fairway-context-hero-2026-11-09",
+    "page_url": "https://trekafricaguide.com/accommodations/fairway-boutique-hotel/",
+    "page_type": "accommodation",
     "status": "published_live_confirmed",
-    "previous_photo_count": 1,
-    "photo_count": 6,
-    "new_photo_count": 5,
-    "checked_date": "2026-11-08",
-    "started_at": "2026-11-08 19:07 Africa/Kampala",
-    "initial_live_verification": "No fresh pre-edit fetch in this run; baseline taken from the checkpoint (1 image, published_live_confirmed 2026-11-06 20:40 Kampala live verification) and the 2026-11-06 second-pass ledger, both confirming exactly one distinct dedicated image (Mount Sabyinyo setting) before this run.",
-    "source_ledger": "docs/editorial-research/2026-11-08-volcanoes-golden-monkey-second-pass.md",
-    "note": "Reopened under the owner's 2026-11-07 rights decision (credit-bearing CC acceptable; NC/ND still excluded). Added five visually inspected exact-Volcanoes-NP golden monkey photographs, all by Charles J. Sharp (Sharp Photography), Commons CC BY-SA 4.0, captured 2016-10-27: pair in undergrowth, upright foraging, eating bamboo, three-quarter portrait, frontal portrait. Local JPEGs at 1280px; Commons source pages, licence, capture/upload dates and SHA-256 recorded in the library and ledger; per-image captions and credit block render creator + CC BY-SA 4.0. Excluded: four iNaturalist/CC BY 4.0 Sloviak files (Virunga NP, DRC), Mgahinga Uganda file, Kabatwa/Rulindo-adjacent files without in-park evidence, and a Virunga-mountains-generic file. Shared-alike applies. Gallery now six images (target 7-12 for activities; specific remaining gaps recorded in the ledger: Kinigi briefing scene, trekkers on the bamboo-zone route, distinct bamboo-zone landscape).",
+    "previous_photo_count": 0,
+    "photo_count": 1,
+    "new_photo_count": 1,
+    "checked_date": "2026-11-09",
+    "started_at": "2026-11-09 05:55 Africa/Kampala",
+    "initial_live_verification": "Owner instruction: give every published detail article/page a featured image first, fuller galleries later in normal rotations. Production-side audit of all live detail pages found exactly one page missing a featured image: /accommodations/fairway-boutique-hotel/ (owner-removed insight 404 page out of scope).",
+    "source_ledger": "docs/editorial-research/2026-11-09-featured-image-audit-and-fairway-hero.md",
+    "note": "Fairway has no eligible exact-property photo by any source (official gallery/OTA without reuse permission; Commons, Openverse, Flickr CC exact-name, Pexels/Unsplash exact-name all checked; 2026-10-30 checkpoint agreed under the stricter rule). Used the platform's labeled destination-setting pattern: added a new distinct Pexels Kampala street photograph (35603022, Wings Panic, Pexels License, no attribution) as the hero with property:false, so cards and the gallery render \"Destination setting: … This is not a photograph of the accommodation.\" Source-ID dedup against the Kampala destination collection clear. No other pages changed.",
     "files": [
       "src/lib/photo-library.js",
       "public/photo-library.js",
-      "public/images/editorial/volcanoes-golden-monkey-trekking/",
-      "docs/editorial-research/2026-11-08-volcanoes-golden-monkey-second-pass.md",
+      "public/images/editorial/fairway-boutique-hotel/kampala-street-life-pexels-35603022.jpeg",
+      "docs/editorial-research/2026-11-09-featured-image-audit-and-fairway-hero.md",
       "docs/image-enrichment-progress.json"
     ],
     "selected_images": [
-      "golden-monkey-group-sabyinyo-2016-sharp.jpg",
-      "golden-monkey-foraging-bamboo-2016-sharp.jpg",
-      "golden-monkey-eating-bamboo-2016-sharp.jpg",
-      "golden-monkey-forest-2016-sharp.jpg",
-      "golden-monkey-portrait-2016-sharp.jpg"
+      "kampala-street-life-pexels-35603022.jpeg"
     ],
-    "excluded_candidates_note": "Wrong-park leads excluded: Virunga NP (DRC) iNaturalist set, Mgahinga (Uganda), Kabatwa village; no non-commercial or ND licences encountered in eligible subjects.",
-    "mandatory_input_check": "Passed node scripts/sync-photo-library.mjs and npm run check:build-inputs; checked 2026-11-08.",
-    "published_commit": "b979cf7",
-    "pushed_at": "2026-11-08 16:51 UTC (19:51 Africa/Kampala)",
-    "report_status": "NOT SENT: no email send tool/account available in this harness (same limitation as the 2026-11-08 Jollyboys run); owner receives this progress in chat. Subject prepared: 'Trek Africa Guide image update - [Kampala date/time]'.",
-    "live_verification": {
-      "checked_at": "2026-11-08 16:57 UTC (19:57 Africa/Kampala)",
-      "page_http_status": 200,
-      "see_all_text": "See all 6 images",
-      "all_new_filenames_in_page": true,
-      "credits_present": true,
-      "asset_http_statuses": [
-        200,
-        200,
-        200,
-        200,
-        200
+    "featured_image_audit": {
+      "checked_at": "2026-11-09 06:25 UTC (09:25 Africa/Kampala)",
+      "live_detail_pages_at_risk": "attractions, countries, local destinations, regions, activities and travel insights all have at least one featured image (verified individually)",
+      "pages_missing_before_this_run": [
+        "/accommodations/fairway-boutique-hotel/"
       ],
-      "asset_content_types": [
-        "image/jpeg",
-        "image/jpeg",
-        "image/jpeg",
-        "image/jpeg",
-        "image/jpeg"
-      ],
-      "asset_content_lengths": [
-        443357,
-        690250,
-        279124,
-        458994,
-        552817
-      ],
-      "note": "Production serves the six-image golden monkey gallery; all five new assets return HTTP 200 image/jpeg with byte counts matching the locally stored originals."
+      "pages_missing_after_this_run": [],
+      "note": "Fuller galleries per page type (7-12 / 10-15) continue during the normal rotation; red-chilli and other permission-blocked property photos remain excluded."
     },
-    "next_action": "Rotate to another reopened-by-rights collection or a fresh zero-image page; Jollyboys and Golden Monkey remain open only for their recorded missing subjects."
+    "next_action": "Return to the rotation backlog: reopened-by-rights collections (Governors' Camp has exactly one eligible Commons photo so far; Mfuwe Lodge snapshot shows a rich exact-property CC0/CC-BY-SA pool for a later gallery run), then reopened missing-subject pages (golden monkey others, Jollyboys interior subjects). Re-run any new page through the featured-image audit when published.",
+    "mandatory_input_check": "Passed npm run check:build-inputs after node scripts/sync-photo-library.mjs; checked 2026-11-09.",
+    "published_commit": "642937d (merged as a9d37ae)",
+    "pushed_at": "2026-11-09 06:35 UTC (09:35 Africa/Kampala)",
+    "email_id": null,
+    "report_status": "NOT SENT: Gmail requires a sign-in in this harness browser; owner receives this progress in chat instead.",
+    "live_verification": {
+      "checked_at": "2026-11-09 07:18 UTC (10:18 Africa/Kampala)",
+      "deployed_commit": "a9d37ae",
+      "page_http_status": 200,
+      "hero_image_present": "/images/editorial/fairway-boutique-hotel/kampala-street-life-pexels-35603022.jpeg",
+      "context_label_present": true,
+      "asset_http_status": 200,
+      "asset_content_type": "image/jpeg",
+      "asset_content_length": 429040,
+      "note": "Production serves the Fairway Boutique Hotel featured image with the neutral destination-setting label."
+    }
   },
   "follow_ups": [
     {
@@ -103,6 +90,69 @@
     "resolved_at": "2026-10-21 13:16 Africa/Kampala"
   },
   "completed_runs": [
+    {
+      "id": "volcanoes-golden-monkey-five-photo-credit-cc-second-pass-2026-11-08",
+      "page_url": "https://trekafricaguide.com/activities/volcanoes-golden-monkey-trekking/",
+      "page_type": "activity",
+      "status": "published_live_confirmed",
+      "previous_photo_count": 1,
+      "photo_count": 6,
+      "new_photo_count": 5,
+      "checked_date": "2026-11-08",
+      "started_at": "2026-11-08 19:07 Africa/Kampala",
+      "initial_live_verification": "No fresh pre-edit fetch in this run; baseline taken from the checkpoint (1 image, published_live_confirmed 2026-11-06 20:40 Kampala live verification) and the 2026-11-06 second-pass ledger, both confirming exactly one distinct dedicated image (Mount Sabyinyo setting) before this run.",
+      "source_ledger": "docs/editorial-research/2026-11-08-volcanoes-golden-monkey-second-pass.md",
+      "note": "Reopened under the owner's 2026-11-07 rights decision (credit-bearing CC acceptable; NC/ND still excluded). Added five visually inspected exact-Volcanoes-NP golden monkey photographs, all by Charles J. Sharp (Sharp Photography), Commons CC BY-SA 4.0, captured 2016-10-27: pair in undergrowth, upright foraging, eating bamboo, three-quarter portrait, frontal portrait. Local JPEGs at 1280px; Commons source pages, licence, capture/upload dates and SHA-256 recorded in the library and ledger; per-image captions and credit block render creator + CC BY-SA 4.0. Excluded: four iNaturalist/CC BY 4.0 Sloviak files (Virunga NP, DRC), Mgahinga Uganda file, Kabatwa/Rulindo-adjacent files without in-park evidence, and a Virunga-mountains-generic file. Shared-alike applies. Gallery now six images (target 7-12 for activities; specific remaining gaps recorded in the ledger: Kinigi briefing scene, trekkers on the bamboo-zone route, distinct bamboo-zone landscape).",
+      "files": [
+        "src/lib/photo-library.js",
+        "public/photo-library.js",
+        "public/images/editorial/volcanoes-golden-monkey-trekking/",
+        "docs/editorial-research/2026-11-08-volcanoes-golden-monkey-second-pass.md",
+        "docs/image-enrichment-progress.json"
+      ],
+      "selected_images": [
+        "golden-monkey-group-sabyinyo-2016-sharp.jpg",
+        "golden-monkey-foraging-bamboo-2016-sharp.jpg",
+        "golden-monkey-eating-bamboo-2016-sharp.jpg",
+        "golden-monkey-forest-2016-sharp.jpg",
+        "golden-monkey-portrait-2016-sharp.jpg"
+      ],
+      "excluded_candidates_note": "Wrong-park leads excluded: Virunga NP (DRC) iNaturalist set, Mgahinga (Uganda), Kabatwa village; no non-commercial or ND licences encountered in eligible subjects.",
+      "mandatory_input_check": "Passed node scripts/sync-photo-library.mjs and npm run check:build-inputs; checked 2026-11-08.",
+      "published_commit": "b979cf7",
+      "pushed_at": "2026-11-08 16:51 UTC (19:51 Africa/Kampala)",
+      "report_status": "NOT SENT: no email send tool/account available in this harness (same limitation as the 2026-11-08 Jollyboys run); owner receives this progress in chat. Subject prepared: 'Trek Africa Guide image update - [Kampala date/time]'.",
+      "live_verification": {
+        "checked_at": "2026-11-08 16:57 UTC (19:57 Africa/Kampala)",
+        "page_http_status": 200,
+        "see_all_text": "See all 6 images",
+        "all_new_filenames_in_page": true,
+        "credits_present": true,
+        "asset_http_statuses": [
+          200,
+          200,
+          200,
+          200,
+          200
+        ],
+        "asset_content_types": [
+          "image/jpeg",
+          "image/jpeg",
+          "image/jpeg",
+          "image/jpeg",
+          "image/jpeg"
+        ],
+        "asset_content_lengths": [
+          443357,
+          690250,
+          279124,
+          458994,
+          552817
+        ],
+        "note": "Production serves the six-image golden monkey gallery; all five new assets return HTTP 200 image/jpeg with byte counts matching the locally stored originals."
+      },
+      "next_action": "Rotate to another reopened-by-rights collection or a fresh zero-image page; Jollyboys and Golden Monkey remain open only for their recorded missing subjects."
+    },
     {
       "id": "jollyboys-backpackers-four-photo-licensed-gallery-2026-11-08",
       "page_url": "https://trekafricaguide.com/accommodations/jollyboys-backpackers/",
