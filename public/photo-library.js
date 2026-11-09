@@ -1,7 +1,7 @@
 // Curated source. Run node scripts/sync-photo-library.mjs after editing.
 // Curated free photography; source and licence metadata travel with each image.
 export const photoLibrary = {
-  "updated_at": "2026-11-08",
+  "updated_at": "2026-11-09",
   "images": {
     "/images/editorial/tokeh-and-river-no2/tokeh-aerial-pier-radwan-skeiky.jpg": {
       "slug": "tokeh-aerial-pier-radwan-skeiky",
@@ -8278,6 +8278,75 @@ export const photoLibrary = {
       "exact_subject_evidence": "The Pexels page lists the subject as Kampala, Uganda with a vibrant street scene (photo 35603022, published 2026-01-10). Visual inspection confirms Kampala urban traffic, taxis, motorcycles and city commerce.",
       "reuse_note": "Pexels License permits website use without public attribution. Used as a destination-setting photo for the Fairway Boutique Hotel listing; it must not be presented as a photograph of the hotel itself."
     },
+    "/images/editorial/mfuwe-lodge/mfuwe-chalet-exterior-2011.jpg": {
+      "slug": "mfuwe-chalet-exterior-2011",
+      "local_path": "/images/editorial/mfuwe-lodge/mfuwe-chalet-exterior-2011.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Mfuwe_Chalet.jpg",
+      "source_revision": "Commons file Mfuwe Chalet.jpg, checked 2026-11-09",
+      "creator": "Prabir K Bhattacharyya",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "source_published_at": "2011-09-16",
+      "captured_at": "2011-09-16",
+      "sha256": "c08951b603bd20638ea69e5242cbaf3c94b83b00f41a2c12621618cc947d5b99",
+      "exact_subject": true,
+      "subject": "Mfuwe Lodge thatched chalet exterior on the riverside grounds",
+      "alt": "A thatched chalet exterior on a leaf-covered path beside the watercourse at Mfuwe Lodge, South Luangwa, Zambia.",
+      "caption": "Guest chalet on the riverside grounds of Mfuwe Lodge, photographed 16 September 2011. Prabir K Bhattacharyya, CC BY-SA 3.0. Original image unchanged.",
+      "property": true,
+      "kind": "photograph",
+      "requires_attribution": true,
+      "changes": "Downloaded from the Wikimedia Commons thumbnail service at 1,280 pixels wide with aspect ratio preserved; no other edits.",
+      "checked_at": "2026-11-09",
+      "exact_subject_evidence": "Commons file title and description name 'A Chalet at Mfuwe Lodge', captured 16 September 2011 by the contributor's own work. Visual inspection confirms a thatched-roof chalet with the Bushcamp Company heart emblem by the door on the lodge's lagoon-side path.",
+      "reuse_note": "CC BY-SA 3.0 permits commercial reuse with attribution under share-alike, which the photo credit block renders. Shows the property as photographed in September 2011; not a promise of current facilities."
+    },
+    "/images/editorial/mfuwe-lodge/mfuwe-chalet-interior-deck-2025.jpg": {
+      "slug": "mfuwe-chalet-interior-deck-2025",
+      "local_path": "/images/editorial/mfuwe-lodge/mfuwe-chalet-interior-deck-2025.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Mfuwe_Lodge5.webp",
+      "source_revision": "Commons file Mfuwe Lodge5.webp, checked 2026-11-09",
+      "creator": "Historybuff1028",
+      "license": "CC0 1.0 Universal Public Domain Dedication",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "source_published_at": "2026-06-30",
+      "captured_at": "2025-09-16",
+      "sha256": "cc181418156e50e5c3bbb6d87970d167282eda626bed30c85737b6d49f6334c",
+      "exact_subject": true,
+      "subject": "Mfuwe Lodge chalet interior with open deck onto the Luangwa floodplain",
+      "alt": "Chalet interior with hardwood floor, raffia chairs and an open deck overlooking the river plain at Mfuwe Lodge.",
+      "caption": "Chalet interior and riverside deck at Mfuwe Lodge, photographed 16 September 2025. Photograph dedicated to the public domain (CC0).",
+      "property": true,
+      "kind": "photograph",
+      "requires_attribution": false,
+      "changes": "Downloaded from the Wikimedia Commons thumbnail service at 1,280 pixels wide (webp) and converted to JPEG quality 90; decode/encode only, no other edits.",
+      "checked_at": "2026-11-09",
+      "exact_subject_evidence": "Commons file description names 'Chalet view at Mfuwe Lodge' by the contributing photographer's own work. Visual inspection confirms a reed-thatched chalet interior opening onto a deck above the Luangwa floodplain with an elephant grazing beyond the fence.",
+      "reuse_note": "The photographer dedicated this file under CC0 1.0; no public attribution is required. Shows the property as photographed in September 2025."
+    },
+    "/images/editorial/mfuwe-lodge/mfuwe-farm-to-table-2025.jpg": {
+      "slug": "mfuwe-farm-to-table-2025",
+      "local_path": "/images/editorial/mfuwe-lodge/mfuwe-farm-to-table-2025.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Mfuwe-Lodge-dining.jpg",
+      "source_revision": "Commons file Mfuwe-Lodge-dining.jpg, checked 2026-11-09",
+      "creator": "Historybuff1028",
+      "license": "CC0 1.0 Universal Public Domain Dedication",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "source_published_at": "2026-06-30",
+      "captured_at": "2025-08-13",
+      "sha256": "28136e54b78ad17ba2ae1d63546c7d17110fc10926508c9a17225e810fd5d381",
+      "exact_subject": true,
+      "subject": "Mfuwe Lodge farm-to-table outdoor dining and grill",
+      "alt": "A chef plating salads at a farm-to-table spread beside an open fire grill at Mfuwe Lodge.",
+      "caption": "Farm-to-table dining at Mfuwe Lodge, whose produce is grown at the Bushcamp Company farm, photographed 13 August 2025. Photograph dedicated to the public domain (CC0).",
+      "property": true,
+      "kind": "photograph",
+      "requires_attribution": false,
+      "changes": "Downloaded from the Wikimedia Commons thumbnail service at 1,280 pixels wide with aspect ratio preserved; no other edits.",
+      "checked_at": "2026-11-09",
+      "exact_subject_evidence": "Commons file description reads 'Mfuwe Lodge prides itself in offering a Farm-to-table experience. All produce is grown at the Bushcamp Company's farm.' Visual inspection confirms a chef plating salads beside an open-fire grill on the lodge grounds.",
+      "reuse_note": "The photographer dedicated this file under CC0 1.0; no public attribution is required. The chef appears in the source scene only and is not represented as a Trek Africa Guide staff member."
+    },
     "/images/editorial/murchison-falls-nile-launch-trip/murchison-falls-cruise-ssemmanda-will.jpg": {
       "slug": "murchison-falls-cruise-ssemmanda-will",
       "local_path": "/images/editorial/murchison-falls-nile-launch-trip/murchison-falls-cruise-ssemmanda-will.jpg",
@@ -10062,7 +10131,10 @@ export const photoLibrary = {
           "/images/stock/starter/mfuwe-lodge.jpg"
         ],
         "gallery": [
-          "/images/stock/starter/mfuwe-lodge.jpg"
+          "/images/stock/starter/mfuwe-lodge.jpg",
+          "/images/editorial/mfuwe-lodge/mfuwe-chalet-exterior-2011.jpg",
+          "/images/editorial/mfuwe-lodge/mfuwe-chalet-interior-deck-2025.jpg",
+          "/images/editorial/mfuwe-lodge/mfuwe-farm-to-table-2025.jpg"
         ]
       },
       "mount-nelson-a-belmond-hotel": {
