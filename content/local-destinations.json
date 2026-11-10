@@ -573,9 +573,17 @@
     "travel_insight_slugs": [],
     "sort_order": 1,
     "status": "published",
-    "hero_image_url": "",
-    "hero_image_alt": "",
-    "gallery": [],
+    "hero_image_url": "/images/editorial/maun-local-destination/maun-thamalakane-river-2021.jpg",
+    "hero_image_alt": "The Thamalakane River meanders through Maun beneath an open sky, with riverbank vegetation on the far side.",
+    "gallery": [
+      "/images/editorial/maun-local-destination/maun-thamalakane-river-2021.jpg",
+      "/images/editorial/maun-local-destination/maun-aerial-view-2005.jpg",
+      "/images/editorial/maun-local-destination/maun-city-street-2002.jpg",
+      "/images/editorial/maun-local-destination/maun-landing-approach-2007.jpg",
+      "/images/editorial/maun-local-destination/maun-airport-terminal-2009.jpg",
+      "/images/editorial/maun-local-destination/maun-maize-staple-food-2026.jpg",
+      "/images/editorial/maun-local-destination/maun-crocodile-farm-2018.jpg"
+    ],
     "last_researched": "2026-11-09",
     "research_sources": [
       {
