@@ -32,5 +32,8 @@ No booking-destination change: destination pages carry no hotel-booking surrogat
 
 ## Build and publish receipt
 
-- check-build-inputs passed; production build with production env (EDITORIAL_CMS_SYNC=false); readability guard passed. Dist verified before push.
-- Content commit + receipt commit pushed to main (see run log). Netlify deploy; live URL /countries/namibia/sesriem-sossusvlei/ verified HTTP 200 with sections, cards and country rail before report.
+- check-build-inputs passed; production build with production env (EDITORIAL_CMS_SYNC=false): 146 pages, readability guard passed on 151 pages (added-30 over build). Dist verified before push.
+- Content commit `467fa05` rebased over the Okavango-run receipt commits (progress.json conflict resolved in favour of upstream + fresh key) and pushed to main as `f44371a..467fa05`.
+- Live verification (2026-11-10, minutes after push): detail `https://trekafricaguide.com/countries/namibia/sesriem-sossusvlei/` HTTP 200 (32,682 B) with title "Sesriem & Sossusvlei, Namibia | Trek Africa Guide" and the standard 8-section h2 flow (Explore / Highlights / Getting there and around / Best time to visit / Planning your stay / Attractions to explore / Where to stay / Travel insights); distinctive copy renders (rawhide name origin, 334 km Windhoek distance); all cross-links present (attraction x5, both stays x3, insight x3); no exposed markup.
+- `/countries/namibia/` now renders the "Destinations in Namibia" rail (3 card refs); homepage lists the guide (3 refs); countries archive lists it (5 refs).
+- Zero-image publish; six-subject backlog in the ledger. CMS mirror: imported at source_commit `467fa05`; owner-side CMS check pending (RLS standard).

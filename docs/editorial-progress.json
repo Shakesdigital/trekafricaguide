@@ -1323,8 +1323,26 @@
     "key_facts_checked": "NWR Sesriem Campsite page fetched HTTP 200 10 Nov 2026: Sesriem Canyon about 1 km long / 30-40 m deep with rain-fed pools; rawhide six-thong name origin; distance table Windhoek 334 km, Sossusvlei 60 km, Etosha 750 km; Elim Dune listed attraction with sunset drive; filling station + shop at the Sesriem campsite; shuttle (2x4 to Deadvlei) listed arrangement with Nov 2026-Jun 2027 tariff values recorded in the LEDGER only (deliberately not printed as guide copy; readers directed to confirm with NWR). MEFT hosts transport-error again this run - permit/season facts carry their 20 Oct 2026 in-repo check dates (permits issued at gates, Sesriem office Namib-Naukluft permits only; most rain Jan-Mar). Access-rule flip-flop of 2026 handled with confirm-same-week posture; no fixed gate hour, no rule printed as guaranteed. UNESCO Namib Sand Sea context re-inherited with Oct 2026 dates.",
     "build_checks": "check-build-inputs passed; production build 146 pages (production env, EDITORIAL_CMS_SYNC=false); readability guard passed on 151; dist verified pre-push: standard 8-section h2 flow (Explore / Highlights / Getting there and around / Best time to visit / Planning your stay / Attractions to explore / Where to stay / Travel insights), all cross-links present (attraction x5, stays x3+3, insight x3, country x4), title correct, no markup leak.",
     "cms": "Production deploy imports the record at source_commit; publishable-key read of local_destinations stays blocked/404 - owner-side CMS check to confirm local_destinations/sesriem-sossusvlei (standard, pending).",
-    "next_action": "Receipt commit after live verification; rotate to accommodations.",
+    "next_action": "Rotate to accommodations next run; six-subject photo backlog in the ledger; CMS owner-side check pending (standard).",
     "next_category": "accommodations",
-    "status": "publish_live_verification_pending"
+    "status": "published_live_confirmed",
+    "content_commit": "467fa05",
+    "publication": {
+      "content_commit": "467fa05",
+      "pushed_to": "main",
+      "push_result": "success (f44371a..467fa05; progress.json rebase conflict against the Okavango-run receipt resolved in favour of upstream + fresh key)",
+      "pushed_at": "2026-11-10",
+      "live_url": "https://trekafricaguide.com/countries/namibia/sesriem-sossusvlei/",
+      "live_http_status": 200,
+      "checked_at": "2026-11-10",
+      "live_distinctive_text": "Sesriem & Sossusvlei, Namibia | Trek Africa Guide",
+      "live_checks": {
+        "detail": "HTTP 200 (32,682 B) minutes after push; full 8-section h2 flow; distinctive copy renders (rawhide name origin, 334 km Windhoek distance, 60 km corridor, 2x4 parking + confirm-same-week posture); no exposed markup.",
+        "country_rail": "Namibia country page now renders \"Destinations in Namibia\" (3 card refs) - was absent this morning.",
+        "archive_home": "Countries archive (5 refs) and homepage search (3 refs) list the guide.",
+        "internal_links": "Attraction (x5), both stay guides (x3 each) and the sunrise insight (x3) all render; all four targets are published pages."
+      },
+      "cms_source_commit": "imported at source_commit 467fa05; publishable-key read of local_destinations stays blocked - owner-side CMS check to confirm local_destinations/sesriem-sossusvlei"
+    }
   }
 }
