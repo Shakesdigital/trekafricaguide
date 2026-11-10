@@ -51,6 +51,90 @@
   },
   "completed_runs": [
     {
+      "id": "kigali-local-destination-eleven-photo-gallery-2026-11-10",
+      "page_url": "https://trekafricaguide.com/countries/rwanda/kigali/",
+      "page_type": "local-destination",
+      "status": "published_live_confirmed",
+      "previous_photo_count": 0,
+      "photo_count": 11,
+      "new_photo_count": 11,
+      "checked_date": "2026-11-10",
+      "started_at": "2026-11-10 07:07 UTC (10:07 Africa/Kampala)",
+      "initial_live_verification": "Production local-destination page HTTP 200, read in full: zero dedicated photos (no See-all text, no og:image, no kigali-local-destination references; only the golden-monkey activity card imagery, excluded as a card).",
+      "source_ledger": "docs/editorial-research/2026-11-10-kigali-local-destination-photo-enrichment.md",
+      "note": "Added eleven visually inspected exact-Kigali photographs covering six of the page-backlog subjects plus exact-subject extras. All Wikimedia Commons: convention centre aerial (hero) and dome exterior (CC BY-SA 4.0 Emmanuel Kwizera 2019 / CC0 Schlawgclart 2025), city bowl at dusk (GATETE Pacifique, CC BY-SA 4.0), skyline across green-hill valley (Alex shema, CC BY-SA 4.0), CBD street and high-angle boulevard (Umutaramyi CC0 / Emmanuel Kwizera CC BY-SA 4.0), memorial gardens with city beyond and entry lettering (Adam Jones CC BY-SA 3.0 x2, exterior/grounds only - interiors excluded on sensitivity), Kandt House Museum exterior (Adygrafix250, CC BY-SA 4.0), Amahoro Stadium facade (Nibeza, CC0), market fruit stall (Jenny Paul, CC BY-SA 4.0). All 1280px Commons thumbs, sha256 recorded. Missing subjects recorded in the ledger: Nyarutarama lakeside track, Kigali Cultural Village stalls, museum gallery interior, second market panorama (lead exists, rate-limited fetch).",
+      "files": [
+        "content/local-destinations.json",
+        "src/lib/photo-library.js",
+        "public/photo-library.js",
+        "public/images/editorial/kigali-local-destination/",
+        "docs/editorial-research/2026-11-10-kigali-local-destination-photo-enrichment.md",
+        "docs/image-enrichment-progress.json"
+      ],
+      "selected_images": [
+        "kigali-convention-centre-aerial-2019.jpg",
+        "kigali-city-panorama-dusk-2020.jpg",
+        "kigali-hills-view-2019.jpg",
+        "kigali-cbd-street-2024.jpg",
+        "kigali-high-angle-street-2018.jpg",
+        "kigali-memorial-grounds-2012.jpg",
+        "kigali-memorial-centre-sign-2012.jpg",
+        "kigali-kandt-house-museum-2024.jpg",
+        "kigali-convention-centre-dome-2025.jpg",
+        "kigali-amahoro-stadium-2026.jpg",
+        "kigali-market-produce-2018.jpg"
+      ],
+      "excluded_candidates_note": "Undersized files (Kigali-Skyline-NP-480, Kigali city view 512px), night panorama with lens flare, hazy skyline pair, through-window CBD pair, low-res RW Kigali 2013, second stadium view, 2007 museum facade; event/people-centred Commons files excluded as non-city-subject.",
+      "mandatory_input_check": "Passed node scripts/sync-photo-library.mjs and npm run check:build-inputs; checked 2026-11-10.",
+      "published_commit": "885fc8a",
+      "pushed_at": "2026-11-10 07:2x UTC (10:2x Africa/Kampala)",
+      "report_status": "NOT SENT: no Gmail send tool/account available in this harness (standing limitation); owner receives this progress in chat. Subject prepared: Trek Africa Guide image update - 2026-11-10 (Kampala time).",
+      "live_verification": {
+        "checked_at": "2026-11-10 07:2x UTC (10:2x Africa/Kampala) - one 45s poll cycle, page updated ~2.5 min after push",
+        "page_http_status": 200,
+        "see_all_text": "See all 11 images",
+        "hero_og_image": "/images/editorial/kigali-local-destination/kigali-convention-centre-aerial-2019.jpg",
+        "all_new_filenames_in_page": true,
+        "asset_http_statuses": [
+          200,
+          200,
+          200,
+          200,
+          200,
+          200,
+          200,
+          200,
+          200,
+          200,
+          200
+        ],
+        "asset_content_types": [
+          "image/jpeg"
+        ],
+        "asset_content_lengths": [
+          498002,
+          334533,
+          290594,
+          553853,
+          462649,
+          797254,
+          141505,
+          442497,
+          463627,
+          306207,
+          300025
+        ],
+        "regression_spot_checks": {
+          "dar_said_gallery": "See all 2 images (unchanged)",
+          "mfuwe_lodge_gallery": "See all 4 images (unchanged)",
+          "nairobi_local_destination_gallery": "See all 10 images (unchanged)",
+          "homepage": "HTTP 200"
+        },
+        "note": "Production serves the eleven-image Kigali gallery with an og:image hero; all eleven assets return HTTP 200 image/jpeg with byte counts matching the stored files."
+      },
+      "next_action": "Continue the zero-own-photo accommodation rotation: Maribela Hotel, Riad Rosemary, Sabyinyo Silverback Lodge, Sanctuary Gorilla Forest Camp, Hilton Cabo Verde Sal Resort; reopen Kigali only for its recorded missing subjects (Nyarutarama track, Cultural Village stalls, museum interior, Kimironko panorama)."
+    },
+    {
       "id": "dar-said-entrance-sign-two-photo-partial-gallery-2026-11-10",
       "page_url": "https://trekafricaguide.com/accommodations/dar-said/",
       "page_type": "accommodation",
@@ -91,9 +175,18 @@
         "gallery_tile_aria_present": true,
         "destination_setting_label": "not applicable (property:true exact-subject photos)",
         "all_new_filenames_in_page": true,
-        "asset_http_statuses": [200, 200],
-        "asset_content_types": ["image/jpeg", "image/jpeg"],
-        "asset_content_lengths": [89137, 149845],
+        "asset_http_statuses": [
+          200,
+          200
+        ],
+        "asset_content_types": [
+          "image/jpeg",
+          "image/jpeg"
+        ],
+        "asset_content_lengths": [
+          89137,
+          149845
+        ],
         "regression_spot_checks": {
           "jollyboys_backpackers_gallery": "HTTP 200, See all 4 images (unchanged)",
           "mfuwe_lodge_gallery": "HTTP 200, See all 4 images (unchanged)",
@@ -151,9 +244,42 @@
         "hero_alt_present": true,
         "all_new_filenames_in_page": true,
         "credits_block_present": true,
-        "asset_http_statuses": [200, 200, 200, 200, 200, 200, 200, 200, 200, 200],
-        "asset_content_types": ["image/jpeg", "image/jpeg", "image/jpeg", "image/jpeg", "image/jpeg", "image/jpeg", "image/jpeg", "image/jpeg", "image/jpeg", "image/jpeg"],
-        "asset_content_lengths": [268865, 557019, 290708, 258239, 320070, 312445, 445529, 375495, 693149, 291771],
+        "asset_http_statuses": [
+          200,
+          200,
+          200,
+          200,
+          200,
+          200,
+          200,
+          200,
+          200,
+          200
+        ],
+        "asset_content_types": [
+          "image/jpeg",
+          "image/jpeg",
+          "image/jpeg",
+          "image/jpeg",
+          "image/jpeg",
+          "image/jpeg",
+          "image/jpeg",
+          "image/jpeg",
+          "image/jpeg",
+          "image/jpeg"
+        ],
+        "asset_content_lengths": [
+          268865,
+          557019,
+          290708,
+          258239,
+          320070,
+          312445,
+          445529,
+          375495,
+          693149,
+          291771
+        ],
         "regression_spot_checks": {
           "homepage": "HTTP 200",
           "jollyboys_backpackers_gallery": "See all 4 images (unchanged)",
