@@ -7,18 +7,42 @@
     "verified_ok": 54,
     "verified_ambiguous": 2,
     "changes": [
-      { "slug": "activities/cape-coast-kakum-guided-visit", "change": "2026-10-24 hold lifted after browser recheck; 4.7/220 evidence added", "verified": "browser 2026-11-08" },
-      { "slug": "attractions/cape-coast-kakum", "change": "review aggregate refreshed 4.7/211 -> 4.7/220", "verified": "browser 2026-11-08" },
-      { "slug": "attractions/jozani-forest", "change": "NEW entry: GYG t968921 Jozani Forest Nature Walk and Wildlife Tour, Zanzibar blessing tours and safari, 5/2 (review-limited disclosed)", "verified": "browser 2026-11-08" },
-      { "slug": "attractions/elmina-castle", "change": "NEW entry: GYG t834942 Castle Coast day tour (exact product shared with the existing Cape Coast attraction entry, per registry precedent)", "verified": "browser 2026-11-08" }
+      {
+        "slug": "activities/cape-coast-kakum-guided-visit",
+        "change": "2026-10-24 hold lifted after browser recheck; 4.7/220 evidence added",
+        "verified": "browser 2026-11-08"
+      },
+      {
+        "slug": "attractions/cape-coast-kakum",
+        "change": "review aggregate refreshed 4.7/211 -> 4.7/220",
+        "verified": "browser 2026-11-08"
+      },
+      {
+        "slug": "attractions/jozani-forest",
+        "change": "NEW entry: GYG t968921 Jozani Forest Nature Walk and Wildlife Tour, Zanzibar blessing tours and safari, 5/2 (review-limited disclosed)",
+        "verified": "browser 2026-11-08"
+      },
+      {
+        "slug": "attractions/elmina-castle",
+        "change": "NEW entry: GYG t834942 Castle Coast day tour (exact product shared with the existing Cape Coast attraction entry, per registry precedent)",
+        "verified": "browser 2026-11-08"
+      }
     ],
     "commit": "4e080ae"
   },
   "run_2_browser_verification": {
     "finding": "Real-browser click-throughs of production links showed the two Expedia accommodation entries land on Expedia Hotel-Search pages, not property detail pages; server-side 429 alternation was Expedia rate-limit noise, not proof.",
     "changes": [
-      { "slug": "accommodations/emerson-spice", "change": "Switched to exact Booking.com property listing /hotel/tz/emersonspice.en-gb.html (Stay22 wrapper preserves the detail path); es-locale URL had demoted to a Kiponda destination search, and both Expedia URL variants demote to Hotel-Search in-browser", "verified": "wrapper chain preserves /hotel/tz/emersonspice.html; production re-click recorded below" },
-      { "slug": "accommodations/the-place-resort-tokeh", "change": "Held: exact Expedia property h7863256 mapped by Stay22 but browser landing is Hotel-Search; no verified exact Booking.com/Agoda listing; URL kept for recheck", "verified": "browser 2026-11-08" }
+      {
+        "slug": "accommodations/emerson-spice",
+        "change": "Switched to exact Booking.com property listing /hotel/tz/emersonspice.en-gb.html (Stay22 wrapper preserves the detail path); es-locale URL had demoted to a Kiponda destination search, and both Expedia URL variants demote to Hotel-Search in-browser",
+        "verified": "wrapper chain preserves /hotel/tz/emersonspice.html; production re-click recorded below"
+      },
+      {
+        "slug": "accommodations/the-place-resort-tokeh",
+        "change": "Held: exact Expedia property h7863256 mapped by Stay22 but browser landing is Hotel-Search; no verified exact Booking.com/Agoda listing; URL kept for recheck",
+        "verified": "browser 2026-11-08"
+      }
     ],
     "method_rule": "Server-side wrapper chains are accepted evidence for getyourguide and booking landings; every expedia entry requires a real-browser click-through before being trusted."
   },
@@ -29,7 +53,17 @@
     "attractions/kibale-national-park": "No verified exact operator listing; canonical no-bookable-card position per 2026-11-08 editorial record.",
     "attractions/nyungwe-national-park": "Unblocked 8 November: the former CMS 404 publication blocker is resolved (page republished; live HTTP 200 with exact title re-verified by this agent today, also independently by the image agent). Re-research an exact GetYourGuide/other OTA listing for Nyungwe when the queue rotation reaches it; do not add a row before that research is verified.",
     "activities/victoria-falls-zambezi-white-water-rafting": "No CTA is the editor-recorded position.",
-    "accommodations_unavailable": ["camp-okavango", "governors-camp", "mfuwe-lodge", "riad-rosemary", "sabyinyo-silverback-lodge", "sanctuary-gorilla-forest-camp", "terres-touareg-guest-house", "desert-luxury-camp", "buhoma-community-rest-camp (listing not taking reservations)"],
+    "accommodations_unavailable": [
+      "camp-okavango",
+      "governors-camp",
+      "mfuwe-lodge",
+      "riad-rosemary",
+      "sabyinyo-silverback-lodge",
+      "sanctuary-gorilla-forest-camp",
+      "terres-touareg-guest-house",
+      "desert-luxury-camp",
+      "buhoma-community-rest-camp (listing not taking reservations)"
+    ],
     "giza_and_lalibela_holds": "Previous holds unchanged this run (OceanAir shell caveat; Amhara advisory)."
   },
   "production_verification": {
@@ -46,13 +80,50 @@
     "verify_standard": "Landings + product identity verified; checkout, attribution and rates never claimed."
   },
   "browser_clickthroughs": [
-    { "slug": "accommodations/emerson-spice", "when": "2026-11-08", "result": "Expedia Hotel-Search landing -> provider switched to Booking.com exact listing; after run-2 deploy, production click-through landed on www.booking.com/hotel/tz/emersonspice.html (exact property detail page) — verified" },
-    { "slug": "accommodations/the-place-resort-tokeh", "when": "2026-11-08", "result": "Expedia Hotel-Search landing -> held; CTA confirmed suppressed on production after run-2 deploy" }
+    {
+      "slug": "accommodations/emerson-spice",
+      "when": "2026-11-08",
+      "result": "Expedia Hotel-Search landing -> provider switched to Booking.com exact listing; after run-2 deploy, production click-through landed on www.booking.com/hotel/tz/emersonspice.html (exact property detail page) — verified"
+    },
+    {
+      "slug": "accommodations/the-place-resort-tokeh",
+      "when": "2026-11-08",
+      "result": "Expedia Hotel-Search landing -> held; CTA confirmed suppressed on production after run-2 deploy"
+    }
   ],
   "next_action": "Re-research the eight unavailable accommodations (incl. a fresh Agoda pass for The Place Resort Tokeh) and the Great Zimbabwe/Kibale gaps with real-browser sessions; then sweep remaining attractions/destination pages for booking coverage.",
   "runs": [
-    { "date": "2026-11-10", "checked": 62, "pass": 62, "fail": 0, "fixes": 0, "notes": "Routine re-verification, second run of the day. 62 active links confirmed exact at server level: 39 GYG exact t-product landings (all location ids match sources), 22 Booking.com exact (/hotel/tn/dar-said.html detail page or dest_type=hotel single-property deep links incl. dar-said, which earlier runs under-counted; it has been in the registry since 2026-10-11 and its chain is exact), 1 Expedia (jollyboys). jollyboys fresh in-browser click-through re-attempt proxied by a direct property-URL fetch: still 429 bot-walled from this IP (same network challenge as the 05:30 run); server Stay22 landing unchanged (Hotel-Search, selected=14704528, byte-identical shape to the 2026-11-09 browser-verified exact state). Entry stays active; next rotation gets a real-browser attempt, escalate to hold only if the server landing shape changes." },
-    { "date": "2026-11-10", "checked": 61, "pass": 61, "fail": 0, "fixes": 0, "notes": "Routine re-verification. Registry now 61 active (39 GYG exact t-product landings; 21 Booking exact /hotel/ or dest_type=hotel single-property deep links, incl. the editorial agent's new nairobi-serena-hotel entry verified exact by this run). jollyboys-backpackers (only Expedia entry): server landing unchanged (Hotel-Search with selected=14704528, same shape browser-verified exact on 2026-11-09), but fresh real-browser click-through was blocked by Expedia's bot challenge — Chromium via REA/playwright terminated with 'You have been blocked' and the challenge cited a robot on the same network IP (41.210.143.221); landing identity could not be re-confirmed in-browser this run. Entry kept active (no change from its last browser-verified state); re-attempt browser verification next rotation, escalate to hold only if the server landing shape changes." },
-    { "date": "2026-11-09", "checked": 58, "pass": 58, "fail": 0, "fixes": 0, "notes": "Manual re-run (owner 'try again'). 24 GYG exact; 21 Booking.com exact (/hotel/ paths or dest_type=hotel single-property deep links, incl. emerson dest_id=12566246); jollyboys server-chain showed a search detour but real-browser click-through landed on its exact Expedia property page h14704528 — active retained, browser authoritative per method rule. No changes pushed." }
+    {
+      "date": "2026-11-10",
+      "checked": 63,
+      "pass": 63,
+      "fail": 0,
+      "fixes": 0,
+      "notes": "Routine re-verification, third run of the day. Registry now 63 active (editorial agent added activities/jozani-forest-guided-visit, GYG t968921, verified exact by this run — product matches the attractions/jozani-forest row precedent). 40 GYG exact t-product landings (t-IDs intact incl. t968921, t937129, t543578; .nl locale geo-redirects accepted, matching prior standard), 22 Booking.com exact (14 /hotel/ty/name.html detail paths + 8 dest_type=hotel single-property deep links), 1 Expedia (jollyboys): Stay22 chain now decodes to expedia.nl h14704528.Hotel-Information — exact property URL, an upgrade from the earlier Hotel-Search selected=14704528 shape; no regression. Fresh in-browser click-through NOT re-attempted this run: no local Playwright install available and Expedia bot-flagged this network IP in both earlier runs (REA and Playwright-driven Chromium both bounced); last in-browser verification remains 2026-11-09, server evidence today is exact-property (stronger than Hotel-Search), so no escalation. No changes pushed; no deploy."
+    },
+    {
+      "date": "2026-11-10",
+      "checked": 62,
+      "pass": 62,
+      "fail": 0,
+      "fixes": 0,
+      "notes": "Routine re-verification, second run of the day. 62 active links confirmed exact at server level: 39 GYG exact t-product landings (all location ids match sources), 22 Booking.com exact (/hotel/tn/dar-said.html detail page or dest_type=hotel single-property deep links incl. dar-said, which earlier runs under-counted; it has been in the registry since 2026-10-11 and its chain is exact), 1 Expedia (jollyboys). jollyboys fresh in-browser click-through re-attempt proxied by a direct property-URL fetch: still 429 bot-walled from this IP (same network challenge as the 05:30 run); server Stay22 landing unchanged (Hotel-Search, selected=14704528, byte-identical shape to the 2026-11-09 browser-verified exact state). Entry stays active; next rotation gets a real-browser attempt, escalate to hold only if the server landing shape changes."
+    },
+    {
+      "date": "2026-11-10",
+      "checked": 61,
+      "pass": 61,
+      "fail": 0,
+      "fixes": 0,
+      "notes": "Routine re-verification. Registry now 61 active (39 GYG exact t-product landings; 21 Booking exact /hotel/ or dest_type=hotel single-property deep links, incl. the editorial agent's new nairobi-serena-hotel entry verified exact by this run). jollyboys-backpackers (only Expedia entry): server landing unchanged (Hotel-Search with selected=14704528, same shape browser-verified exact on 2026-11-09), but fresh real-browser click-through was blocked by Expedia's bot challenge — Chromium via REA/playwright terminated with 'You have been blocked' and the challenge cited a robot on the same network IP (41.210.143.221); landing identity could not be re-confirmed in-browser this run. Entry kept active (no change from its last browser-verified state); re-attempt browser verification next rotation, escalate to hold only if the server landing shape changes."
+    },
+    {
+      "date": "2026-11-09",
+      "checked": 58,
+      "pass": 58,
+      "fail": 0,
+      "fixes": 0,
+      "notes": "Manual re-run (owner 'try again'). 24 GYG exact; 21 Booking.com exact (/hotel/ paths or dest_type=hotel single-property deep links, incl. emerson dest_id=12566246); jollyboys server-chain showed a search detour but real-browser click-through landed on its exact Expedia property page h14704528 — active retained, browser authoritative per method rule. No changes pushed."
+    }
   ]
 }
