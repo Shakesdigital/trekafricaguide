@@ -1395,5 +1395,28 @@
       "email_id": null
     },
     "note": "Two Sossusvlei sunrise insights pre-existed; the new page is the outing product guide, and the destination page links both. The April 2026 park-fee PDF is a scan and yielded no extractable figures."
+  },
+  "accommodation_zanzibar_white_sand": {
+    "id": "zanzibar-white-sand-luxury-villas",
+    "category": "accommodations",
+    "started": "2026-11-10",
+    "latest_run_note": "Scheduled 13:13Z routine run; executed on schedule.",
+    "selection_evidence": "Live Jozani Forest attraction page (HTTP 200, 39,562 B, 10 Nov 2026) renders no stay card and states editorially: 'No verified nearby property has yet been added to this attraction's stay list.' The Unguja destination page (HTTP 200) lists Jozani Forest as an attraction but only Emerson Spice (Stone Town) as a stay. Tanzania Tourism places Jozani Forest south of Chwaka Bay, about 40 km from Stone Town, and notes it 'can be done en route to Paje and southeastern places' (all fetched 10 Nov 2026). Paje Beach on Unguja's south-east coast is the evidenced coastal base beside Jozani; no Jozani-area accommodation exists anywhere on the site.",
+    "scope": "New accommodation guide: Zanzibar White Sand Luxury Villas & Spa, Paje Beach, Zanzibar, under repo:attractions:jozani-forest (country_id 53 Tanzania, region_id 14). Zero-image honest publish (no licensed property photographs; neutral image slot deliberate). Exact Booking.com detail page search-verified 10 Nov 2026; direct platform fetch blocked, so no rate, rating, availability or review-count claims. Internal links to the Unguja guide and the Jozani Forest guided walk; the stay is also added to Unguja's destination accommodation_slugs.",
+    "files": [
+      "content/editorial-overrides.json",
+      "content/booking-destinations.json",
+      "content/local-destinations.json",
+      "docs/editorial-research/2026-11-10-zanzibar-white-sand-accommodation.md",
+      "docs/editorial-progress.json"
+    ],
+    "images": 0,
+    "image_followup": "Six distinct licensed Paje subjects, not reusable from the Jozani, Zanzibar or Unguja collections: Paje Beach white sand at low tide, villa exterior with private pool, villa bedroom interior, garden-to-table dining setting, holistic spa treatment room, sunset over Paje Beach with dhows. Licensed-reuse review only; official-site imagery is operator-copyrighted.",
+    "booking_cta": "Exact Booking.com detail https://www.booking.com/hotel/tz/white-sand-luxury-villas-amp-spa.en-gb.html (search-verified 10 Nov 2026); Stay22-wrapped in the built page. No rate, availability, numeric rating or review-count claims; direct platform fetch automation-blocked.",
+    "key_facts_checked": "Official whitesandvillas.com (HTTP 200, 10 Nov 2026): Relais & Châteaux resort on Paje Beach, family-owned, 19 private villas and 3 Cinnamon rooms, villas with private pools, holistic spa, garden-to-table dining, One MICHELIN Key 2026 per the property site. AfricanMecca Safaris Jambiani & Paje guide (10 Nov 2026): property on Paje Beach, southern Zanzibar. Tanzania Tourism Jozani Chwaka Bay page (10 Nov 2026): largest nature forest on Zanzibar Island, south of Chwaka Bay, about 40 km from Stone Town, red colobus endemic; en route to Paje and southeastern places.",
+    "cms": "Production deploy imports at source_commit; publishable-key read of editorial_documents remains RLS-blocked by design — owner-side CMS check to confirm accommodations/zanzibar-white-sand-luxury-villas after deploy.",
+    "next_category": "travel_insights",
+    "next_action": "Build, verify readable output, publish, live-verify, receipt commit; then rotate to travel insights.",
+    "status": "in_progress"
   }
 }

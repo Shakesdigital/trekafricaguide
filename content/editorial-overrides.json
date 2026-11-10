@@ -3116,6 +3116,57 @@
       "hero_image_url": "",
       "hero_image_alt": "Nairobi Serena Hotel",
       "gallery": []
+    },
+    {
+      "region_id": 14,
+      "country_id": 53,
+      "slug": "zanzibar-white-sand-luxury-villas",
+      "name": "Zanzibar White Sand Luxury Villas & Spa",
+      "property_type": "Luxury villa resort",
+      "location_name": "Paje Beach, Zanzibar, Tanzania",
+      "listing_summary": "Family-owned Relais & Châteaux villa resort on Paje Beach, Zanzibar: 19 private villas with private pools, 3 Cinnamon rooms, a holistic spa and garden-to-table dining. A south-east-coast base in the same part of the island as Jozani Chwaka Bay National Park.",
+      "detail_intro": "Zanzibar White Sand Luxury Villas & Spa is a family-owned Relais & Châteaux resort on Paje Beach, on Zanzibar's south-east coast. The property comprises 19 private villas and 3 Cinnamon rooms, and the villas open onto private pools beside the white sand. The resort runs a holistic spa and garden-to-table dining, and its own site lists One MICHELIN Key in the 2026 MICHELIN Guide (checked 10 November 2026).\n\nPaje is a beach base on the south-east of Unguja Island. Jozani Chwaka Bay National Park lies inland toward Chwaka Bay, about 40 km from Stone Town (Tanzania Tourism Board, checked 10 November 2026). Guests planning a Jozani Forest visit should confirm the transfer route and timing with the property before booking; this page quotes no drive time.\n\nThis resort sits in the south-east part of the island, in the same region as the mangrove forest and red colobus habitat covered by our Jozani Forest guided walk activity. Combine a beach stay with the forest walk, and confirm the road transfer with the property before you pay.\n\nThis page has no licensed Zanzibar White Sand property photographs. The neutral image slot is deliberate; beach or forest scenery from another source must not stand in for the hotel.",
+      "practical_info": "Use the booking panel to compare room categories and cancellation terms before paying. Rates, breakfast inclusion and airport-transfer arrangements depend on your dates; no live price or availability is quoted here. Confirm the exact villa or room name and what your rate includes directly with the property.\n\nFor island planning, use <a href=\"/countries/tanzania/unguja\">our Unguja (Zanzibar Island) guide</a>: it covers Stone Town heritage, the coastal chapters and the route from the island's arrival points. For the forest visit, use <a href=\"/activities/jozani-forest-guided-visit\">our Jozani Forest guided walk</a>: it covers the red colobus, the mangrove boardwalk and what a standard guided visit includes. Confirm the transfer between Paje and Jozani with the property before booking.",
+      "amenities": [
+        "19 private villas with private pools on the white sand beach, plus 3 Cinnamon rooms",
+        "Relais & Châteaux membership; One MICHELIN Key 2026 per the property's own site (checked 10 November 2026)",
+        "Holistic spa",
+        "Garden-to-table dining",
+        "Family-owned resort"
+      ],
+      "price_label": "Luxury (Relais & Châteaux and MICHELIN Key evidence; not a live price comparison)",
+      "booking_url": "https://www.booking.com/hotel/tz/white-sand-luxury-villas-amp-spa.en-gb.html",
+      "source_url": "https://www.whitesandvillas.com/",
+      "research_sources": [
+        {
+          "label": "Zanzibar White Sand Luxury Villas & Spa: official overview, villa count, spa, dining and MICHELIN Key listing",
+          "url": "https://www.whitesandvillas.com/"
+        },
+        {
+          "label": "AfricanMecca Safaris: Jambiani & Paje accommodation guide placing the property on Paje Beach in southern Zanzibar",
+          "url": "https://www.africanmeccasafaris.com/travel-guide/tanzania/accommodation/zanzibar/southern/jambiani-paje/zanzibar-white-sand-luxury-villas-spa"
+        },
+        {
+          "label": "Tanzania Tourism Board: Jozani Chwaka Bay National Park location, forest and red colobus facts",
+          "url": "https://www.tanzaniatourism.com/safari/jozani-chwaka-bay-national-park"
+        },
+        {
+          "label": "Booking.com: exact property detail (search-verified 10 November 2026; direct platform fetch automation-blocked, so no rate, availability or review-score claims are made)",
+          "url": "https://www.booking.com/hotel/tz/white-sand-luxury-villas-amp-spa.en-gb.html"
+        },
+        {
+          "label": "Trek Africa Guide: Jozani Forest guided walk activity page",
+          "url": "https://trekafricaguide.com/activities/jozani-forest-guided-visit/"
+        }
+      ],
+      "last_researched": "2026-11-10",
+      "rating": null,
+      "review_count": 0,
+      "status": "published",
+      "published_at": null,
+      "hero_image_url": "",
+      "hero_image_alt": "Zanzibar White Sand Luxury Villas & Spa",
+      "gallery": []
     }
   ],
   "activities": [

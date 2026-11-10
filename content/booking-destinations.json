@@ -284,6 +284,16 @@
         "source_url": "https://www.booking.com/hotel/ke/nairobi-serena.html",
         "summary": "Search results (checked 9 November 2026) identify the exact Booking.com detail page \"Nairobi Serena Hotel, Kenyatta Avenue, 00100 Nairobi\" matching the official Serena property. Direct Booking.com detail fetch was automation-blocked (Ridge Royal standard), so no live rate, availability, numerical rating or review-count claim is made. Identity cross-checked against the official Serena Hotels site."
       }
+    },
+    "zanzibar-white-sand-luxury-villas": {
+      "url": "https://www.booking.com/hotel/tz/white-sand-luxury-villas-amp-spa.en-gb.html",
+      "provider": "booking",
+      "title": "Zanzibar White Sand Luxury Villas & Spa, Paje Beach, Zanzibar",
+      "checked_at": "2026-11-10",
+      "evidence": {
+        "source_url": "https://www.booking.com/hotel/tz/white-sand-luxury-villas-amp-spa.en-gb.html",
+        "summary": "Search results (checked 10 November 2026) identify the exact Booking.com detail page for Zanzibar White Sand Luxury Villas & Spa in Paje, Tanzania. Direct Booking.com detail fetch was automation-blocked (Ridge Royal standard), so no live rate, availability, numerical rating or review-count claim is made. Identity cross-checked against the property's official site (whitesandvillas.com)."
+      }
     }
   },
   "activities": {
