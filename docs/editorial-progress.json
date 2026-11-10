@@ -1344,5 +1344,15 @@
       },
       "cms_source_commit": "imported at source_commit 467fa05; publishable-key read of local_destinations stays blocked - owner-side CMS check to confirm local_destinations/sesriem-sossusvlei"
     }
+  },
+  "content_style_dash_fix": {
+    "id": "content-style-sentence-punctuation",
+    "category": "maintenance",
+    "title": "Spaced-dash and sentence-punctuation cleanup in published copy",
+    "scope": "Style maintenance pass over published reader-facing copy: replaced spaced hyphens used as sentence connectors with sentence punctuation in the Sesriem & Sossusvlei destination (access_summary and best_time sections), and changed the Elmina Castle hero image alt text from a spaced hyphen to a comma. Exact partner property titles in booking-destinations.json were left unchanged because they are listing names, not editorial prose. Future drafting uses full sentence punctuation and avoids spaced hyphens except where unavoidable. check-build-inputs passed; production build 146 pages; readability guard passed at 151 generated pages; dist/ not committed per repo rule.",
+    "files": ["content/local-destinations.json", "content/editorial-overrides.json"],
+    "images": 0,
+    "next_category": "accommodations",
+    "status": "pre_push"
   }
 }
