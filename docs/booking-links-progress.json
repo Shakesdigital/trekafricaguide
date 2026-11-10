@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T13:25:00.000Z",
+  "updated_at": "2026-11-10T17:25:00.000Z",
   "owner": "booking-links audit agent",
   "ledger": "docs/editorial-research/2026-11-08-booking-links-audit.md",
   "run_1": {
@@ -132,6 +132,14 @@
       "fail": 0,
       "fixes": 0,
       "notes": "Rotating slice re-verification at 13:25 UTC (full registry last verified 63/63 exact at the 10:00 UTC run). 5 Booking.com exact detail-path landings confirmed server-side: emerson-spice /hotel/tz/emersonspice.en-gb.html, dar-said /hotel/tn/dar-said.en-gb.html, ridge-royal-hotel /hotel/gh/ridge-royal-cape-coast.en-gb.html, fairway-boutique-hotel /hotel/ug/fairway-amp-spa.en-gb.html, victoria-falls-hotel /hotel/zw/the-victoria-falls.en-gb.html — each final URL is the exact property detail path, no redirect to a search page or namesake; bodies bot-walled HTTP 202 (Ridge Royal standard), identity via exact URL shape. 1 GYG (jozani-forest-guided-visit t968921) direct fetch 403 Cloudflare — limited evidence, relies on the 8 Nov browser session and 10 Nov platform listing confirmation; not counted as a failure. 1 Expedia (jollyboys-backpackers h14704528) re-probed 429 — server chain last decoded to the exact property page; kept active, real-browser re-attempt next rotation. Result: sampled slice exact, 0 failures, 0 fixes, no registry changes. Gap re-research (eight unavailable accommodations, Great Zimbabwe, Kibale) requires real-browser sessions unavailable this run; next_action unchanged."
+    },
+    {
+      "date": "2026-11-10",
+      "checked": 7,
+      "pass": 6,
+      "fail": 0,
+      "fixes": 0,
+      "notes": "Rotating slice re-verification at 17:25 UTC (scheduled 4-hour audit). Registry unchanged at 63 active links; no unfinished checkpoint priority (gap re-research of the eight unavailable accommodations, Great Zimbabwe and Kibale needs real-browser sessions, unavailable this run — no Playwright install and Expedia 429s this IP). Slice: casa-del-papa, hilton-cabo-verde-sal-resort, kruger-shalati, les-paletuviers (Booking.com detail URLs all HTTP 202 bot-walled, no redirect, final URL equals the recorded exact detail path — Ridge Royal standard, limited evidence, no rate/review/attribution claims); maasai-mara-balloon-safari and atlas-mountains-day-trip (GYG product pages live HTTP 200 with exact product content, t-IDs intact). 1 Expedia re-probe (jollyboys-backpackers h14704528): 429 again, held active, server chain last decoded to the exact property page, real-browser re-attempt next rotation — not counted as a failure. Production homepage polled HTTP 200; nothing changed in content/booking-destinations.json, so no rebuild, no deploy and no production click-verify of new/changed links. Result: sampled slice exact, 0 failures, 0 fixes, no registry changes. Gap class held unchanged (the-place-resort-tokeh Expedia Hotel-Search hold; eight unavailable accommodations; Great Zimbabwe; Kibale; nyungwe queued for re-research at queue rotation). next_action unchanged."
     }
   ]
 }
