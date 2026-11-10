@@ -1,5 +1,5 @@
 {
-    "updated_at": "2026-11-10 11:1x UTC (14:1x Africa/Kampala)",
+    "updated_at": "2026-11-10 13:1x UTC (16:1x Africa/Kampala)",
     "blocked_runs": [
         {
             "id": "network-outage-no-research-2026-11-09-1807",
@@ -3466,6 +3466,38 @@
                 "note": "Production serves the four-image Governors Camp gallery; all four asset URLs return HTTP 200 image/jpeg with byte counts matching the locally stored originals."
             },
             "next_action": "Governors' Camp remains open toward the 10â€“15 accommodation target only for newly surfaced exact-main-camp leads (verified missing subjects in the ledger: main tent exterior, tent interior, dining/mess tent, bar, river-bank paths, further in-camp wildlife). Next runs: re-run the featured-image audit on any newly published page, then continue the rotation backlog (Mfuwe Lodge CC0/CC-BY-SA deepening; reopened missing-subject pages golden-monkey and Jollyboys interiors). The small-4 partial is honest and live."
+        },
+        {
+            "id": "hilton-cabo-verde-sal-resort-exact-property-no-eligible-photo-review-2026-11-10",
+            "page_url": "https://trekafricaguide.com/accommodations/hilton-cabo-verde-sal-resort/",
+            "page_type": "accommodation",
+            "status": "reviewed_no_eligible_photo",
+            "previous_photo_count": 0,
+            "photo_count": 0,
+            "new_photo_count": 0,
+            "checked_date": "2026-11-10",
+            "started_at": "2026-11-10 13:07 UTC (16:07 Africa/Kampala)",
+            "initial_live_verification": "Production accommodation page HTTP 200, read in full: zero dedicated photos (blank hero_image_url and empty gallery array in the page override; only the regional /images/stock/destinations/sal-island.jpg card \"Fishing boats Santa Maria, Sal, Cape Verde\", excluded as a card).",
+            "source_ledger": "docs/editorial-research/2026-11-10-hilton-cabo-verde-sal-resort-exact-property-photo-review.md",
+            "note": "Bounded exact-name review across the free-stock families found the rights-clean exact-property pool empty: Wikimedia Commons exact name = 0 hits (broader Sal/Santa Maria hotel searches return only RIU and other Sal properties); Flickr licence-filtered (CC BY/BY-SA/CC0/PDM) exact-name searches = 0, and the \"Santa Maria Sal hotel\" pool holds a Sal church (CC BY-SA 2.0, not the hotel) plus Sergei Gussev's Hotel Flor do Sal in Viana do Castelo, Portugal (CC BY 2.0, wrong country); Openverse API unreachable (Cloudflare) with every other family empty; Pexels/Pixabay/StockSnap return only keyword-expanded Sal/Cabo Verde scenery generics (beaches, pier, kitesurfing, Pedra Lume, flags) - scenery-as-property, excluded; Unsplash = 0 results for the exact name and \"santa-maria-sal-hotel\". Operator/OTA imagery (hilton.com) is rights-reserved and excluded. No image downloaded or assigned; neutral presentation kept. Repo synced to origin/main 2cce7b6 first (editorial Sesriem & Sossusvlei receipt; untouched).",
+            "files": [
+                "docs/editorial-research/2026-11-10-hilton-cabo-verde-sal-resort-exact-property-photo-review.md",
+                "docs/image-enrichment-progress.json"
+            ],
+            "selected_images": [],
+            "excluded_candidates_note": "Flickr LeRoc Sal church CC BY-SA 2.0 (not the hotel); Sergei Gussev Hotel Flor do Sal, Portugal CC BY 2.0 (wrong country); Pexels/Pixabay/StockSnap Sal/Cabo Verde keyword generics (beach, pier, kitesurfing, Pedra Lume, sunset, flags); Commons RIU Funana/Garopa and other Sal hotels; hilton.com official/OTA imagery (rights-reserved).",
+            "mandatory_input_check": "No image or library change this run; review-only (no website files touched), so sync-photo-library and check:build-inputs were not required.",
+            "published_commit": null,
+            "email_id": null,
+            "report_status": "NOT SENT: no collection was published (nothing to report). Per the owner standard the report email is only sent when a collection is live-confirmed. No Gmail send tool/account available in this harness (standing limitation).",
+            "live_verification": {
+                "checked_at": "2026-11-10 13:1x UTC (16:1x Africa/Kampala)",
+                "page_http_status": 200,
+                "distinct_property_image_count": 0,
+                "regional_card_image_count": 1,
+                "new_asset": null
+            },
+            "next_action": "Continue the zero-own-photo accommodation rotation: The Place Resort Tokeh (review-recorded 2026-11-07 as no eligible exact-property photo), then reopen Hilton Cabo Verde Sal Resort only for owner originals, written operator permission, or a named rights-clean photographer set; missing subjects (exterior/signage, rooms, pool, restaurant, grounds) recorded in the ledger."
         }
     ],
     "review_checkpoints": [
@@ -3496,5 +3528,5 @@
     ],
     "current_run": null,
     "updated": 1,
-    "last_run_at": "2026-11-10 09:2x UTC (12:2x Africa/Kampala) — Riad Rosemary exact-property review, review-only (no eligible photo; all pools checked incl. Pexels/Unsplash via browser)"
+    "last_run_at": "2026-11-10 13:1x UTC (16:1x Africa/Kampala) — Hilton Cabo Verde Sal Resort exact-property review, review-only (no eligible photo; Commons, Flickr CC, Openverse, Pexels, Unsplash, Pixabay, StockSnap all checked)"
 }
