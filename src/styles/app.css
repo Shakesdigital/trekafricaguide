@@ -96,6 +96,85 @@ img.page-hero__slot {
     overflow-wrap: anywhere;
 }
 
+.topline-search {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 0.55rem;
+    flex: 0 1 24rem;
+    padding: 0.4rem 0.85rem;
+    background: rgba(255, 255, 255, 0.14);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 999px;
+    font-size: 0.85rem;
+}
+
+.topline-search svg {
+    flex: 0 0 auto;
+    opacity: 0.85;
+}
+
+.topline-search input {
+    flex: 1;
+    min-width: 0;
+    border: 0;
+    outline: none;
+    background: transparent;
+    color: #fff;
+    font: inherit;
+    letter-spacing: normal;
+}
+
+.topline-search input::placeholder {
+    color: rgba(255, 255, 255, 0.78);
+}
+
+.topline-search ul {
+    position: absolute;
+    z-index: 60;
+    inset: 100% 0 auto;
+    margin: 0.45rem 0 0;
+    padding: 0.3rem;
+    list-style: none;
+    background: #fff;
+    border: 1px solid var(--line);
+    border-radius: var(--radius-sm);
+    box-shadow: var(--shadow);
+}
+
+.topline-search li {
+    display: flex;
+    align-items: baseline;
+    gap: 0.4rem;
+    padding: 0.5rem 0.6rem;
+    color: var(--ink);
+    border-radius: 0.35rem;
+    cursor: pointer;
+}
+
+.topline-search li:hover,
+.topline-search li:focus {
+    background: var(--sand);
+    outline: none;
+}
+
+.topline-search a {
+    color: inherit;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.topline-search small {
+    color: var(--muted, rgba(20, 37, 59, 0.55));
+}
+
+@media (max-width: 819px) {
+    .topline-search {
+        flex: 0 1 auto;
+        width: 100%;
+    }
+}
+
 .site-header {
     position: sticky;
     top: 0;

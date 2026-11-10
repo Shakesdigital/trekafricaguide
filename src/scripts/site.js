@@ -73,6 +73,52 @@ document.querySelectorAll('[data-search-ribbon]').forEach((ribbon) => {
   });
 });
 
+document.querySelectorAll('[data-topline-search]').forEach((form) => {
+  const input = form.querySelector('[data-topline-input]');
+  const list = form.querySelector('[data-topline-results]');
+  const routes = { destination: (item) => item.url, country: (item) => `/countries/${item.value}`, attraction: (item) => `/attractions/${item.value}`, accommodation: (item) => `/accommodations/${item.value}` };
+  const options = () => (window.trekSearchSuggestions || [])
+    .map((item) => ({ label: item.label, context: item.context, url: routes[item.type]?.(item) }))
+    .filter((item) => item.url);
+  const close = () => { list.hidden = true; input.setAttribute('aria-expanded', 'false'); };
+  const choose = (item) => { close(); window.location.assign(item.url); };
+  input.addEventListener('input', () => {
+    const query = input.value.trim().toLowerCase();
+    list.innerHTML = '';
+    if (query) {
+      options()
+        .filter((item) => item.label.toLowerCase().includes(query))
+        .slice(0, 8)
+        .forEach((item) => {
+          const li = document.createElement('li');
+          li.setAttribute('role', 'option');
+          li.tabIndex = 0;
+          const link = document.createElement('a');
+          link.href = item.url;
+          link.textContent = item.label;
+          li.append(link);
+          if (item.context) { const small = document.createElement('small'); small.textContent = ' · ' + item.context; li.append(small); }
+          li.addEventListener('click', () => choose(item));
+          li.addEventListener('keydown', (event) => {
+            if (event.key === 'Enter') { event.preventDefault(); choose(item); }
+            if (event.key === 'Escape') { close(); input.focus(); }
+          });
+          list.append(li);
+        });
+    }
+    list.hidden = !list.children.length;
+    input.setAttribute('aria-expanded', String(!list.hidden));
+  });
+  form.addEventListener('submit', (event) => {
+    event.preventDefault();
+    const query = input.value.trim().toLowerCase();
+    const matches = options().filter((item) => item.label.toLowerCase().includes(query));
+    const target = matches.find((item) => item.label.toLowerCase() === query) || (matches.length === 1 ? matches[0] : null);
+    if (target) choose(target);
+  });
+  document.addEventListener('click', (event) => { if (!form.contains(event.target)) close(); });
+});
+
 document.querySelectorAll('[data-listing-archive]').forEach((archive) => {
   const select = archive.querySelector('[data-country-filter]');
   const cards = [...archive.querySelectorAll('[data-card-type]')];
