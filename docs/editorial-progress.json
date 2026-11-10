@@ -1352,7 +1352,20 @@
     "scope": "Style maintenance pass over published reader-facing copy: replaced spaced hyphens used as sentence connectors with sentence punctuation in the Sesriem & Sossusvlei destination (access_summary and best_time sections), and changed the Elmina Castle hero image alt text from a spaced hyphen to a comma. Exact partner property titles in booking-destinations.json were left unchanged because they are listing names, not editorial prose. Future drafting uses full sentence punctuation and avoids spaced hyphens except where unavoidable. check-build-inputs passed; production build 146 pages; readability guard passed at 151 generated pages; dist/ not committed per repo rule.",
     "files": ["content/local-destinations.json", "content/editorial-overrides.json"],
     "images": 0,
+    "content_commit": "ebb7af0",
     "next_category": "accommodations",
-    "status": "pre_push"
+    "status": "published_live_confirmed",
+    "publication": {
+      "content_commit": "ebb7af0",
+      "pushed_to": "main",
+      "push_result": "success (5274202..ebb7af0)",
+      "live_url": "https://trekafricaguide.com/countries/namibia/sesriem-sossusvlei/",
+      "live_http_status": 200,
+      "checked_at": "2026-11-10",
+      "live_checks": {
+        "detail": "HTTP 200; fixed sentence punctuation live ('here. Confirm' / 'here; map'), zero spaced hyphens on the detail page, no exposed markup.",
+        "country_rail": "Namibia country page still renders 'Destinations in Namibia' including Sesriem & Sossusvlei."
+      }
+    }
   }
 }
