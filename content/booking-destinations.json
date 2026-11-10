@@ -506,6 +506,19 @@
       "evidence": {
         "review_check": "Exact product (t968921) retrieved in a browser session 8 November 2026: 5/5 from 2 reviews, entrance fee + guided forest and mangrove walk. Platform's Jozani category listings confirmed the same product live 10 November 2026 (2–5 h, private group, pickup advertised, from USD 45). Direct fetch 403 (bot wall). Scores may change."
       }
+    },
+    "sossusvlei-guided-dune-excursion": {
+      "url": "https://www.getyourguide.com/sesriem-l143532/2-day-scenic-sossusvlei-adventure-tour-t1314104/",
+      "provider": "getyourguide",
+      "title": "2-Day Scenic Sossusvlei Adventure Tour",
+      "operator": "Desert Dunes and Dust Tours",
+      "rating": 5,
+      "review_count": 2,
+      "notes": "A two-day guided outing from Sesriem: gate report and the drive through the dunes, a Sossusvlei dune walk, overnight at Moon Mountain Lodge, Dune 45 in the morning and a Sesriem Canyon walk. Park fees, accommodation, meals and local beverages are included; the operator requires a minimum of two travelers. Two reviews only, so treat the 5.0 rating as a small sample. Confirm pickup scope and the current shuttle or 4x4 rule before booking.",
+      "checked_at": "2026-11-10",
+      "evidence": {
+        "review_check": "Exact product page, provider, inclusions, exclusions and review aggregate retrieved live 10 November 2026; scores may change. Details in the 2026-11-10 sossusvlei-guided-dune-excursion research ledger and docs/editorial-progress.json."
+      }
     }
   },
   "attractions": {

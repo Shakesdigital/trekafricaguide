@@ -811,7 +811,9 @@
     "attraction_slugs": [
       "namib-desert"
     ],
-    "activity_slugs": [],
+    "activity_slugs": [
+      "sossusvlei-guided-dune-excursion"
+    ],
     "accommodation_slugs": [
       "sossusvlei-lodge",
       "desert-quiver-camp"
