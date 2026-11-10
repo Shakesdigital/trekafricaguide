@@ -1,5 +1,5 @@
 {
-    "updated_at":  "2026-11-10 09:3x UTC (12:3x Africa/Kampala)",
+    "updated_at":  "2026-11-10 10:2x UTC (13:2x Africa/Kampala)",
     "blocked_runs":  [
                          {
                              "id":  "network-outage-no-research-2026-11-09-1807",
@@ -50,6 +50,52 @@
                                "resolved_at":  "2026-10-21 13:16 Africa/Kampala"
                            },
     "completed_runs":  [
+                           {
+                               "id":  "sabyinyo-silverback-lodge-entrance-sign-one-photo-partial-gallery-2026-11-10",
+                               "page_url":  "https://trekafricaguide.com/accommodations/sabyinyo-silverback-lodge/",
+                               "page_type": "accommodation",
+                               "status": "published_live_confirmed",
+                               "previous_photo_count": 0,
+                               "photo_count": 1,
+                               "new_photo_count": 1,
+                               "checked_date": "2026-11-10",
+                               "started_at": "2026-11-10 10:07 UTC (13:07 Africa/Kampala)",
+                               "initial_live_verification": "Production accommodation page HTTP 200, read in full: zero dedicated photos (no gallery, no See-all text, no og:image; only the regional Volcanoes National Park scenery card, excluded as a card).",
+                               "source_ledger": "docs/editorial-research/2026-11-10-sabyinyo-silverback-lodge-photo-enrichment.md",
+                               "note": "Bounded exact-name review across six source families found exactly one rights-clean exact-property photograph and published it as a verified partial collection: the lodge's wooden entrance signboard (hand-lettered SABYINYO SILVERBACK LODGE with altitude 8251 ft / 2515 m and coordinates S.01.24.900' E.029.34.225' matching the Kinigi location), photographed by guest Dan Dickinson (Flickr ltdan) on 2016-08-05, CC BY 2.0, attribution rendered in the gallery credit block. Wikimedia Commons has only volcano/bird files; Openverse/Flickr CC pool otherwise holds only CC BY-NC/ND lodge-or-cabin shots (dmitri_66, RandSnyder) and Uganda-side Mgahinga sets (Brian Harries); ltdan's full Rwanda series (23 photos enumerated) contains no second lodge frame (02 Serena pool is Kigali Serena Hotel, 05 volcano backdrop is uncertain scenery); Pexels/Unsplash/Pixabay are keyword-expanded generic pools with no property tie (checked via private browser); StockSnap zero results. Stored at the CDN's largest openly listed size (1024px wide), unchanged, SHA-256 recorded. Repo synced to origin/main 7a6b9b6 first (editorial Cairo publication + inspiration tagline commits; untouched).",
+                               "files": [
+                                             "src/lib/photo-library.js",
+                                             "public/photo-library.js",
+                                             "public/images/editorial/sabyinyo-silverback-lodge/",
+                                             "docs/editorial-research/2026-11-10-sabyinyo-silverback-lodge-photo-enrichment.md",
+                                             "docs/image-enrichment-progress.json"
+                                         ],
+                               "selected_images": [
+                                                     "sabyinyo-entrance-sign-2016-dickinson.jpg"
+                                                 ],
+                               "excluded_candidates_note": "dmitri_66 lodge/cabin series CC BY-NC 2.0 (non-commercial); RandSnyder 'Sabyinyo lit up' CC BY-NC-ND; Michael Davies CC BY-NC volcano-from-room views (scenery + NC); Brian Harries CC BY Mgahinga set (different park/country, not this property); Kigali Serena Hotel pool photo (different property); Commons volcano/gorilla/stamp files (not property subjects).",
+                               "mandatory_input_check": "Passed node scripts/sync-photo-library.mjs and npm run check:build-inputs; checked 2026-11-10.",
+                               "published_commit": "6185746",
+                               "pushed_at": "2026-11-10 10:1x UTC (13:1x Africa/Kampala)",
+                               "email_id": null,
+                               "report_status": "NOT SENT: no Gmail send tool/account is available in this harness (standing limitation recorded by prior runs and the editorial automation's 4779ce7 receipt); owner receives this progress in chat. Subject prepared: 'Trek Africa Guide image update — 2026-11-10 (Kampala time)'.",
+                               "live_verification": {
+                                                         "checked_at": "2026-11-10 13:15 Africa/Kampala — first poll at ~6 min after push, page already updated",
+                                                         "page_http_status": 200,
+                                                         "hero_og_image": "/images/editorial/sabyinyo-silverback-lodge/sabyinyo-entrance-sign-2016-dickinson.jpg",
+                                                         "see_all_text": "not rendered (single-image gallery)",
+                                                         "all_new_filenames_in_page": true,
+                                                         "asset_http_statuses": [200],
+                                                         "asset_content_types": ["image/jpeg"],
+                                                         "asset_content_lengths": [319016],
+                                                         "regression_spot_checks": {
+                                                                                        "dar_said_gallery": "HTTP 200, See all 2 images (unchanged)",
+                                                                                        "homepage": "HTTP 200"
+                                                                                    },
+                                                         "note": "Production serves the one-photo Sabyinyo entrance-sign gallery with the new hero; the asset returns HTTP 200 image/jpeg with a byte count exactly matching the stored file."
+                                                     },
+                               "next_action": "Continue the zero-own-photo accommodation rotation: Sanctuary Gorilla Forest Camp, Hilton Cabo Verde Sal Resort, The Place Resort Tokeh. Reopen Sabyinyo only for further rights-clean guest/photographer images (CC BY/BY-SA), owner originals, or written operator permission; missing subjects recorded in the ledger (cottages, rooms, dining, lounge/hearth, volcano-backdrop grounds)."
+                           },
                            {
                                "id":  "riad-rosemary-exact-property-no-eligible-photo-review",
                                "page_url":  "https://trekafricaguide.com/accommodations/riad-rosemary/",
