@@ -251,7 +251,7 @@
     "After quota interruption resume at next eligible scheduled run; do not assume immediate credit-reset wakeup.",
     "No routine tests/builds or repeated broad audits."
   ],
-  "next_task_selection": "Rotate to destinations next run; re-verify the destination archive; owner-email send still blocked on Gmail sign-in.",
+  "next_task_selection": "Rotate to activities next run; owner-email send still blocked on Gmail sign-in.",
   "last_run": "2026-11-09T15:20:00.000Z",
   "task_magnitude": "One complete full guide plus booking and listing cards, or one full property photo collection; do not schedule isolated paragraphs/links.",
   "country_destinations_feature": {
@@ -484,12 +484,16 @@
   "latest_run_checkpoint": {
     "date": "2026-11-10 (11:00 UTC scheduled run)",
     "run": "editorial content run (travel insights - Okavango trip planning)",
-    "status": "published_push_pending_live_check",
+    "status": "published_pushed_live_confirmed",
     "live_url": "https://trekafricaguide.com/travel-insights/plan-okavango-trip-water-and-land-camps/",
     "deliverable_summary": "New travel insight \"Plan an Okavango trip: water camp, land camp, or a Maun day\" (Practical travel, Southern Africa, Botswana): decision-order planning story - water levels before camp names (flood pulse in the dry season, UNESCO-recorded), water vs land camp with published Camp Okavango as the worked water example, Maun-then-light-aircraft transfer chain as one sequence, May-August vs flood timing, pre-payment checklist. No booking CTA by design.",
     "evidence": "Live insight archive (checked 10 Nov 2026): 10 published stories, zero Botswana stories, vs a five-page live Botswana cluster (country, Maun, Okavango Delta attraction, mokoro activity, Camp Okavango) each demanding planning decisions. No prior draft or registry entry for this slug.",
     "photos": "Six distinct new Wikimedia Commons files verified on file pages, downloaded at 1800px thumbs sequentially, SHA-256 recorded, visually inspected: zebra herd in flooded channel aerial (Diego Delso CC BY-SA 4.0 2018, hero), delta from Cessna 1,200 ft (Andrew Balet CC BY 2.5 2001), Mokoro Poler Trust guide (DDD DDD public domain 2003), water lilies channel (diego_cue CC BY-SA 3.0 2011), red lechwe floodplain (Cosal CC BY-SA 4.0 2019), palm-lined sunset (Markrosenrosen CC BY-SA 3.0 2011).",
-    "build_checks": "check-build-inputs passed; production build 145 pages; readability guard passed on 150; dist pre-push verification passed all 10 checks."
+    "build_checks": "check-build-inputs passed; production build 145 pages; readability guard passed on 150; dist pre-push verification passed all 10 checks.",
+    "content_commit": "1dd99f8 (content) + bdaab05 (ledger receipt); push d40ec7b..bdaab05 to main succeeded",
+    "live_verification": "2026-11-10, minutes after push: detail URL HTTP 200 (28,587 bytes); title correct; all 5 h3 decision sections render; UNESCO 2014/June-July facts render; zero markup leak; 6/6 gallery JPEG assets HTTP 200 image/jpeg; /travel-insights/ archive lists the story. Note: \"1,000th\" renders in body (checker query used 1000th).",
+    "cms": "Publishable-key reconcile 2026-11-10: travel_articles returns 200 (seeded drafts visible) but the new slug not yet imported (HEADS */*); local_destinations 404 Not Found; editorial_documents 401 to anon per RLS design - mirror status pending; no writes attempted.",
+    "per_asset_check": "6 JPEG assets image/jpeg HTTP 200: zebra aerial hero, water lilies, mokoro poler, Cessna aerial, red lechwe, sunset."
   },
   "activity_volcanoes_golden_monkey_trek": {
     "status": "complete",
@@ -1280,6 +1284,9 @@
       "/activities/okavango-mokoro-safari",
       "/accommodations/camp-okavango"
     ],
-    "pre_push_verification": "dist check all PASS (title, h3 flow, 6 new assets, licence captions, UNESCO facts, internal links, no booking anchors, no markup leak, hero, archive listing)."
+    "pre_push_verification": "dist check all PASS (title, h3 flow, 6 new assets, licence captions, UNESCO facts, internal links, no booking anchors, no markup leak, hero, archive listing).",
+    "status": "published_pushed_live_confirmed",
+    "content_commit": "1dd99f8 + receipt bdaab05",
+    "live_url": "https://trekafricaguide.com/travel-insights/plan-okavango-trip-water-and-land-camps/"
   }
 }
