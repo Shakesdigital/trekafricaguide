@@ -1434,6 +1434,20 @@
         "internal_links": "Detail page links to /countries/tanzania/unguja and /activities/jozani-forest-guided-visit; both render."
       },
       "cms_source_commit": "imported at source_commit 4fee989; publishable-key read of editorial_documents remains RLS-blocked by design — owner-side CMS check to confirm accommodations/zanzibar-white-sand-luxury-villas"
+    },
+    "quality_fix": {
+      "trigger": "Owner feedback: published guide fell below quality bar (vs Volcanoes golden monkey activity page and Sabyinyo lodge guide).",
+      "issues": "Zero images (neutral placeholder), thin detail_intro (4 paragraphs incl. no photos excuse), minimal practical_info (2 paragraphs), 5 amenities, no traveler_feedback section, empty Nearby Attractions carousel (attraction_id missing).",
+      "fixes": "Added 3 CC-licensed contextual Paje/Jambiani beach images with full photo-library metadata and on-page attribution; rewrote detail_intro to 2 substantive paragraphs (removed no photos excuse); expanded practical_info (airport transfer ~60 km, mobility/villa suitability, inclusive rate details, Wi-Fi, packing); added 2 amenities (Wi-Fi, airport transfer coordination); added traveler_feedback field (honest no verified reviews); added attraction_id repo:attractions:jozani-forest (Nearby Attractions now renders Jozani Forest card); populated hero_image_url, hero_image_alt, gallery.",
+      "images_added": [
+        "paje-beach-at-low-tide.jpg (CC BY-SA 2.0, Matt Kieffer 2008)",
+        "paje-zanzibar.jpg (CC BY-SA 4.0, Jadou5233 2019)",
+        "jambiani-dhow-race.jpg (CC BY-SA 4.0, Cécile Furet 2018)"
+      ],
+      "build": "check-build-inputs passed; 149 pages; readability guard 154; dist verified (3-image gallery, image credits, Jozani card, What travelers say section).",
+      "publish": "Content commit 9bed0ff pushed origin/main; Netlify deployed; LIVE HTTP 200 verified: 3 images load in gallery, image credits render, Jozani Forest card in Nearby Attractions, What travelers say section present, expanded practical_info renders.",
+      "receipt_commit": "9bed0ff",
+      "cms": "Imported at source_commit 9bed0ff; owner-side check pending (RLS standard)."
     }
   },
   "travel_insight_marrakech_riad_or_gueliz": {
