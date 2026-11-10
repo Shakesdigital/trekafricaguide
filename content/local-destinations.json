@@ -509,9 +509,21 @@
   ],
   "sort_order": 1,
   "status": "published",
-  "hero_image_url": "",
-  "hero_image_alt": "",
-  "gallery": [],
+  "hero_image_url": "/images/editorial/kigali-local-destination/kigali-convention-centre-aerial-2019.jpg",
+  "hero_image_alt": "An aerial view of the Kigali Convention Centre's layered dome beside its curved hotel wing and planted roundabout.",
+  "gallery": [
+   "/images/editorial/kigali-local-destination/kigali-convention-centre-aerial-2019.jpg",
+   "/images/editorial/kigali-local-destination/kigali-city-panorama-dusk-2020.jpg",
+   "/images/editorial/kigali-local-destination/kigali-hills-view-2019.jpg",
+   "/images/editorial/kigali-local-destination/kigali-cbd-street-2024.jpg",
+   "/images/editorial/kigali-local-destination/kigali-high-angle-street-2018.jpg",
+   "/images/editorial/kigali-local-destination/kigali-memorial-grounds-2012.jpg",
+   "/images/editorial/kigali-local-destination/kigali-memorial-centre-sign-2012.jpg",
+   "/images/editorial/kigali-local-destination/kigali-kandt-house-museum-2024.jpg",
+   "/images/editorial/kigali-local-destination/kigali-convention-centre-dome-2025.jpg",
+   "/images/editorial/kigali-local-destination/kigali-amahoro-stadium-2026.jpg",
+   "/images/editorial/kigali-local-destination/kigali-market-produce-2018.jpg"
+  ],
   "last_researched": "2026-11-09",
   "research_sources": [
    {
