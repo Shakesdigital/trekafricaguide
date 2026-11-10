@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10 06:3x UTC (09:3x Africa/Kampala)",
+  "updated_at": "2026-11-10 08:3x UTC (11:3x Africa/Kampala)",
   "blocked_runs": [
     {
       "id": "network-outage-no-research-2026-11-09-1807",
@@ -50,6 +50,38 @@
     "resolved_at": "2026-10-21 13:16 Africa/Kampala"
   },
   "completed_runs": [
+    {
+      "id": "maribela-hotel-exact-property-no-eligible-photo-review",
+      "page_url": "https://trekafricaguide.com/accommodations/maribela-hotel/",
+      "page_type": "accommodation",
+      "status": "reviewed_no_eligible_photo",
+      "previous_photo_count": 0,
+      "photo_count": 0,
+      "new_photo_count": 0,
+      "checked_date": "2026-11-10",
+      "started_at": "2026-11-10 08:07 UTC (11:07 Africa/Kampala)",
+      "initial_live_verification": "Production accommodation page HTTP 200, read in full: zero dedicated photos (no gallery, no See-all text, no og:image; only page text, the Booking rail and the Lalibela attraction card, excluded as a card).",
+      "source_ledger": "docs/editorial-research/2026-11-10-maribela-hotel-exact-property-photo-review.md",
+      "note": "Bounded exact-name review found the rights-clean pool empty. Wikimedia Commons full-text + insource 'Maribela' return only unrelated name-collisions (Venezuelan community photo set, Bolivian deputy portrait, PDFs); all Commons 'Lalibela hotel' files depict other properties (Alef Paradise, Megenagna, Panoramic View, Old Abyssinia Lodge, Roha). Openverse across five licence-filtered queries returns zero relevant hits; the single Lalibela-tagged Flickr item is CC BY-NC-ND and unrelated. Flickr 'maribela' results are the same name-collisions. Pexels/Unsplash exact-name checks were blocked this run (403/401 for programmatic access, no API key) and are recorded as incomplete, not exhaustive. No image downloaded or assigned; neutral presentation kept. Repo synced to origin/main 417e40a first (editorial Jozani Forest commits; untouched).",
+      "files": [
+        "docs/editorial-research/2026-11-10-maribela-hotel-exact-property-photo-review.md",
+        "docs/image-enrichment-progress.json"
+      ],
+      "selected_images": [],
+      "excluded_candidates_note": "All Commons/Openverse/Flickr candidates are name-collisions (different person/community) or other Lalibela properties; the only Lalibela-tagged Flickr photo is NC-ND. Pexels/Unsplash pool unknown (access-blocked).",
+      "mandatory_input_check": "No image or library change this run; review-only (no website files touched), so sync-photo-library and check:build-inputs were not required.",
+      "published_commit": null,
+      "email_id": null,
+      "report_status": "NOT SENT: no collection was published (nothing to report). Per the owner standard the report email is only sent when a collection is live-confirmed.",
+      "live_verification": {
+        "checked_at": "2026-11-10 08:3x UTC (11:3x Africa/Kampala)",
+        "page_http_status": 200,
+        "distinct_property_image_count": 0,
+        "regional_card_image_count": 0,
+        "new_asset": null
+      },
+      "next_action": "Continue the zero-own-photo accommodation rotation: Riad Rosemary, Sabyinyo Silverback Lodge, Sanctuary Gorilla Forest Camp, Hilton Cabo Verde Sal Resort, The Place Resort Tokeh. Reopen Maribela only for owner originals or written permission from the operator."
+    },
     {
       "id": "kigali-local-destination-eleven-photo-gallery-2026-11-10",
       "page_url": "https://trekafricaguide.com/countries/rwanda/kigali/",
