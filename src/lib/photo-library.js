@@ -8301,6 +8301,29 @@ export const photoLibrary = {
       "exact_subject_evidence": "Same HOTEL DAR SAID oval sign and lantern bracket as photo 38051443, visually confirmed from the full-resolution file after verifying the sign text on the first photo; second frame in the same photographer's set on the Pexels search results for the property name.",
       "reuse_note": "Pexels License permits website use without public attribution. Same entrance-sign subject as photo 38051443 from a different moment; not a promise of current facilities."
     },
+    "/images/editorial/sabyinyo-silverback-lodge/sabyinyo-entrance-sign-2016-dickinson.jpg": {
+      "slug": "sabyinyo-entrance-sign-2016-dickinson",
+      "local_path": "/images/editorial/sabyinyo-silverback-lodge/sabyinyo-entrance-sign-2016-dickinson.jpg",
+      "source_page": "https://www.flickr.com/photos/68219931@N00/28362113434",
+      "source_revision": "Flickr photo 28362113434, checked 2026-11-10",
+      "creator": "Dan Dickinson (ltdan)",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "source_published_at": "2016-08-14",
+      "captured_at": "2016-08-05",
+      "sha256": "32ba8d246e414eda2a7aa95d29aab1bec3ce38547a51cf43716212ed8f72b8eb",
+      "exact_subject": true,
+      "subject": "Sabyinyo Silverback Lodge wooden entrance signboard among greenery near Volcanoes National Park, Kinigi",
+      "alt": "Wooden SABYINYO SILVERBACK LODGE signboard recording its altitude and coordinates, standing among dense greenery.",
+      "caption": "Sabyinyo Silverback Lodge entrance signboard, photographed by Dan Dickinson. CC BY 2.0. Original image unchanged.",
+      "property": true,
+      "kind": "photograph",
+      "requires_attribution": true,
+      "changes": "Downloaded from the Flickr CDN at 1,024 pixels wide (the largest openly listed size); no other edits.",
+      "checked_at": "2026-11-10",
+      "exact_subject_evidence": "Visual inspection confirms the hand-lettered sign reads SABYINYO SILVERBACK LODGE with altitude 8251 ft / 2515 m and coordinates S.01.24.900' E.029.34.225', matching the lodge's Kinigi location near Volcanoes National Park headquarters. The Flickr page is titled '04 Sabyinyo Silverback Lodge', described by the photographer as 'Our home base for gorilla trekking. Amazing place, wonderful hosts.', taken 5 August 2016 and licensed CC BY 2.0.",
+      "reuse_note": "CC BY 2.0 permits website use with attribution; the credit renders in the gallery credit block. Guest photo of the entrance sign; not a promise of current facilities."
+    },
     "/images/editorial/fairway-boutique-hotel/kampala-street-life-pexels-35603022.jpeg": {
       "slug": "fairway-kampala-street-life-pexels-35603022",
       "local_path": "/images/editorial/fairway-boutique-hotel/kampala-street-life-pexels-35603022.jpeg",
@@ -11229,12 +11252,14 @@ export const photoLibrary = {
         "gallery": []
       },
       "sabyinyo-silverback-lodge": {
-        "hero_image_url": "",
-        "hero_image_alt": "Wilderness Sabyinyo",
+        "hero_image_url": "/images/editorial/sabyinyo-silverback-lodge/sabyinyo-entrance-sign-2016-dickinson.jpg",
+        "hero_image_alt": "Wooden SABYINYO SILVERBACK LODGE signboard recording its altitude and coordinates, standing among dense greenery",
         "replaces": [
           "/images/stock/destinations/volcanoes-national-park.jpg"
         ],
-        "gallery": []
+        "gallery": [
+          "/images/editorial/sabyinyo-silverback-lodge/sabyinyo-entrance-sign-2016-dickinson.jpg"
+        ]
       },
       "sanctuary-gorilla-forest-camp": {
         "hero_image_url": "",
