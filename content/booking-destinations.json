@@ -493,6 +493,19 @@
       "checked_at": "2026-10-11",
       "status": "active",
       "verification_note": "Exact product re-verified live in search index 2026-11-09 (title and Big-5 open-vehicle description match); direct platform fetch automation-blocked, so no rate or availability claim is made."
+    },
+    "jozani-forest-guided-visit": {
+      "url": "https://www.getyourguide.com/jozani-l239369/zanzibar-jozani-forest-nature-walk-and-wildlife-tour-t968921/",
+      "provider": "getyourguide",
+      "title": "Zanzibar: Jozani Forest, Nature Walk and Wildlife Tour",
+      "operator": "Zanzibar blessing tours and safari",
+      "rating": 5,
+      "review_count": 2,
+      "notes": "Jozani-only nature walk with the entrance fee, guided forest and mangrove walk; earlier metadata places the meeting point at Jozani Forest itself while the current listing advertises pickup. Very small review sample (2 reviews); private group. Confirm pickup coverage and meeting arrangements before booking. No rate or availability claims published.",
+      "checked_at": "2026-11-10",
+      "evidence": {
+        "review_check": "Exact product (t968921) retrieved in a browser session 8 November 2026: 5/5 from 2 reviews, entrance fee + guided forest and mangrove walk. Platform's Jozani category listings confirmed the same product live 10 November 2026 (2–5 h, private group, pickup advertised, from USD 45). Direct fetch 403 (bot wall). Scores may change."
+      }
     }
   },
   "attractions": {
