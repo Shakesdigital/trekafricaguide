@@ -272,9 +272,9 @@
     "email_id": "1a143a69416cf3d1"
   },
   "rotation": {
-    "last_completed_category": "accommodations",
-    "next_category": "travel_insights",
-    "next_deliverable": "Nairobi Serena Hotel accommodation published this run and live-verified; next run rotates to travel insights and re-verifies the travel-insights archive before picking the next evidenced story.",
+    "last_completed_category": "travel_insights",
+    "next_category": "activities",
+    "next_deliverable": "Tanzania Zanzibar-pairing insight published and live-verified 2026-11-10; next run rotates to activities before new attractions.",
     "rule": "Finish the individual deliverable and report its live state, then rotate."
   },
   "current_deliverable": {
@@ -1132,9 +1132,24 @@
     "image_followup": "Six distinct licensed subjects not reusable from attraction/destination collections: Seronera value plain at dawn, migration herd column across grassland, Grumeti river corridor, Stone Town dhow harbor at dusk, east-coast dawn beach empty, spice-farm interior. Licensed-reuse review only.",
     "booking_cta": "None by design: insight pages carry no product CTA; revenue surface goes to the two published activity cards (balloon / walking tour) and stay rails via cross-links.",
     "key_facts_checked": "On-site Serengeti attraction guide (TANAPA activities/gateways, Jun-Oct migration + Jan-Feb calving patterns, charge separation, baggage limits), Zanzibar attraction guide (ZCT experience menu, ferry/flight verify language), Unguja destination guide (ZCT Jun-Oct window, Stone Town + coast structure, the deferring pair line) — all live-checked 9 Nov 2026. ZCT seasonal claim carried with in-repo 2026-10-16 verification date (zanzibartourism.go.tz unreachable 9 Nov). No visa/insurance/schedule/price figures reprinted — deferred to operators and authorities (South Luangwa precedent). GitHub and all Tanzanian/UNESCO official hosts were unreachable during a partial network outage this run; git access restored via a local DoH-pinned CONNECT proxy (temp file, outside repo).",
-    "build_checks": "check-build-inputs + production build + readability guard results recorded after build in latest_run_checkpoint.",
+    "build_checks": "check-build-inputs passed; production build 142 pages; readability guard 147; dist inspected before push.",
     "next_category": "activities",
-    "network_note": "2026-11-09 19:13 UTC run executed during partial outage: github.com blocked until ~19:5x via proxy; UNESCO/Tanzania gov hosts + websearch degraded. If the outage persists next run, retry direct fetches first."
+    "network_note": "2026-11-09 19:13 UTC run executed during partial outage: github.com blocked until ~19:5x via proxy; UNESCO/Tanzania gov hosts + websearch degraded. If the outage persists next run, retry direct fetches first.",
+    "publication": {
+      "content_commit": "ad7a25f",
+      "pushed_to": "main",
+      "push_result": "success (rebased over other agents 954ebc0..8200d8f)",
+      "pushed_at": "2026-11-10",
+      "live_url": "https://trekafricaguide.com/travel-insights/pair-tanzania-safari-with-zanzibar-coast/",
+      "live_http_status": 200,
+      "checked_at": "2026-11-10",
+      "live_distinctive_text": "opposite ends of a long line"
+    },
+    "live_verification": {
+      "detail": "HTTP 200 (24,659 bytes) minutes after push; title correct (fixed duplicated | Trek Africa Guide suffix pre-push); all 7 h2 sections render; distinctive prose confirmed; no exposed markup.",
+      "cards": "Unguja destination page now renders the linked Serengeti-and-Zanzibar insight (travel_insight_slugs fix); travel-insights archive and homepage list the slug; all 8 internal links HTTP 200 on live.",
+      "cms": "Production deploy imports the record at source_commit ad7a25f (EDITORIAL_CMS_SYNC=true on Netlify); publishable-key read of editorial_documents stays RLS-blocked - owner-side CMS check pending (standard)."
+    }
   },
   "accommodation_nairobi_serena": {
     "id": "nairobi-serena-hotel",
