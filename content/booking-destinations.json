@@ -285,6 +285,16 @@
         "summary": "Search results (checked 9 November 2026) identify the exact Booking.com detail page \"Nairobi Serena Hotel, Kenyatta Avenue, 00100 Nairobi\" matching the official Serena property. Direct Booking.com detail fetch was automation-blocked (Ridge Royal standard), so no live rate, availability, numerical rating or review-count claim is made. Identity cross-checked against the official Serena Hotels site."
       }
     },
+    "mountains-of-the-moon-hotel": {
+      "url": "https://www.booking.com/hotel/ug/mountains-of-the-moon.en-gb.html",
+      "provider": "booking",
+      "title": "Mountains of the Moon Hotel",
+      "checked_at": "2026-11-10",
+      "evidence": {
+        "source_url": "https://www.booking.com/hotel/ug/mountains-of-the-moon.en-gb.html",
+        "summary": "Search results (checked 10 November 2026) identify the exact Booking.com detail page for Mountains of the Moon Hotel in Fort Portal, Uganda. Direct Booking.com detail fetch was automation-blocked (Ridge Royal standard), so no live rate, availability, numerical rating or review-count claim is made. Identity cross-checked against the property's official site (mountainsofthemoonhotel.com) with schema.org Hotel markup confirming address, phone, amenities and description."
+      }
+    },
     "zanzibar-white-sand-luxury-villas": {
       "url": "https://www.booking.com/hotel/tz/white-sand-luxury-villas-amp-spa.en-gb.html",
       "provider": "booking",

@@ -2936,6 +2936,60 @@
     },
     {
       "region_id": 14,
+      "country_id": 55,
+      "attraction_id": "repo:attractions:kibale-national-park",
+      "slug": "mountains-of-the-moon-hotel",
+      "name": "Mountains of the Moon Hotel",
+      "property_type": "Hotel",
+      "location_name": "Plot 29-33 Rukidi III Street, Fort Portal, Western Region, Uganda",
+      "listing_summary": "A historic city hotel on 15 acres of gardens with Rwenzori Mountain views, serving as a Fort Portal base for Tooro heritage and Kibale National Park.",
+      "detail_intro": "Mountains of the Moon Hotel is a long-established hotel in Fort Portal, the regional city of Uganda's Tooro sub-region. Its operator describes the property as set on 15 acres of landscaped gardens with views of the Rwenzori Mountains, placing it in the town rather than at the park edge. This makes it a practical city base for visitors who want to combine time in Fort Portal — Karuziika Palace, Amabere Ga Nyinamwiru caves, crater lakes, local markets — with a separate day trip to Kibale National Park for chimpanzee tracking.\n\nThe official website lists a swimming pool, restaurant, bar and wellness center among the facilities. Room categories and current rates are not published online; confirm the exact room type, bed configuration, view and inclusions for your dates directly with the property. A hotel photograph does not establish that every room shares the same garden or mountain outlook.\n\nFort Portal City Council identifies Karuziika Palace (the seat of the Tooro Kingdom) and Amabere Ga Nyinamwiru caves (about 7 km from town) among the visitor interests around the city. Uganda Wildlife Authority gives an indicative one-hour drive between Fort Portal and Kibale National Park, with scheduled Kanyanchu chimpanzee-tracking departures listed on the park page. Do not combine the Kampala–Fort Portal transfer and a fixed morning trek on the same day; allow margin for road conditions and permit reporting time.\n\nThis listing has no reuse-cleared property photographs yet; the neutral image slot is intentional.",
+      "practical_info": "Use the booking panel to compare room categories and cancellation terms before paying. Rates, meal basis, airport-transfer arrangements and any shuttle service depend on your dates; no live price or availability is quoted here. The property's official site gives the address as Plot 29-33 Rukidi III Street, Fort Portal, Western Region, Uganda, and a contact number of +256 775 557840. Ask the hotel to confirm airport pickup from Entebbe or Kasese, early check-in after a long road journey, and any accessibility requirements in advance.\n\nFor city and regional planning, use <a href=\"/countries/uganda/fort-portal\">our Fort Portal guide</a>: it covers Tooro heritage sites, crater-country walks, local food, markets and the practical road base for Kibale National Park. The linked <a href=\"/attractions/kibale-national-park\">Kibale National Park guide</a> and <a href=\"/activities/kibale-chimpanzee-trekking\">chimpanzee trek activity</a> cover the park itself, permit rules and tracking logistics. The park-side <a href=\"/accommodations/kibale-forest-camp\">Kibale Forest Camp</a> is a different product — forest-edge tents for trek-centric itineraries — so compare the town-hotel versus park-camp choice against your priorities.\n\nAgoda and Tripadvisor pages for this property exist but their reviews and live availability could not be independently verified; no attributable dated guest reviews are cited here.\n\nPack light rain protection, shoes with grip for uneven paths, and a warmer layer for cool evenings. Carry water and confirm photography rules at heritage sites before visiting.",
+      "amenities": [
+        "Swimming pool",
+        "Restaurant",
+        "Bar",
+        "Wellness center",
+        "15 acres of landscaped gardens",
+        "Rwenzori Mountain views (per operator)",
+        "Wi-Fi (confirm coverage and any charges)"
+      ],
+      "price_label": "Mid-range; operator positioning, not a live rate comparison",
+      "booking_url": "https://www.booking.com/hotel/ug/mountains-of-the-moon.en-gb.html",
+      "source_url": "https://mountainsofthemoonhotel.com/",
+      "research_sources": [
+        {
+          "label": "Mountains of the Moon Hotel: official website (schema.org Hotel markup with address, phone, amenities, description)",
+          "url": "https://mountainsofthemoonhotel.com/"
+        },
+        {
+          "label": "Booking.com: exact Mountains of the Moon Hotel property detail (search-verified 2026-11-10; direct fetch automation-blocked)",
+          "url": "https://www.booking.com/hotel/ug/mountains-of-the-moon.en-gb.html"
+        },
+        {
+          "label": "Fort Portal City Council: Tourism and regional attractions",
+          "url": "https://fortportalcity.go.ug/tourism/"
+        },
+        {
+          "label": "Fort Portal City Council: City history and Tooro heritage",
+          "url": "https://fortportalcity.go.ug/history-of-fortportal/"
+        },
+        {
+          "label": "Uganda Wildlife Authority: Kibale National Park access, visitor information and Kanyanchu departures",
+          "url": "https://ugandawildlife.org/national-parks/kibale-national-park/"
+        }
+      ],
+      "traveler_feedback": "No attributable dated guest reviews verified for this property as of 2026-11-10. Agoda and Tripadvisor pages exist but their reviews and live availability could not be independently checked.",
+      "last_researched": "2026-11-10",
+      "status": "published",
+      "rating": null,
+      "review_count": 0,
+      "hero_image_url": "",
+      "hero_image_alt": "No licensed property photograph available",
+      "gallery": []
+    },
+    {
+      "region_id": 14,
       "country_id": 49,
       "slug": "kigali-serena-hotel",
       "name": "Kigali Serena Hotel",
