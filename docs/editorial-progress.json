@@ -1290,5 +1290,41 @@
     "status": "published_pushed_live_confirmed",
     "content_commit": "1dd99f8 + receipt bdaab05",
     "live_url": "https://trekafricaguide.com/travel-insights/plan-okavango-trip-water-and-land-camps/"
+  },
+  "destination_sesriem_sossusvlei": {
+    "id": "sesriem-sossusvlei",
+    "category": "local-destinations",
+    "started": "2026-11-10",
+    "latest_run_note": "Scheduled 11:13Z routine run; executed on schedule (~11:14Z). Run opened by verifying the prior Okavango insight receipt live (HTTP 200, title verified).",
+    "scope": "New local destination Sesriem & Sossusvlei under Namibia - the country's first local destination, filling the standard destination rail that /countries/namibia never rendered. Namibia already published one attraction (namib-desert), two stays (sossusvlei-lodge, desert-quiver-camp) and a sunrise-planning insight, all pointing at one area with no anchor.",
+    "evidence": "Live /countries/namibia (HTTP 200, 35,290 B, 2026-11-10) renders NO Destinations rail and carries 14 Sesriem / 27 Sossusvlei mentions; live /attractions/namib-desert (HTTP 200, 33,869 B) instructs readers to \"Use Sesriem as the planning reference for the Sossusvlei area\" with no destination guide behind it (15 / 35 mentions).",
+    "files": [
+      "content/local-destinations.json",
+      "docs/editorial-research/2026-11-10-sesriem-sossusvlei-local-destination.md",
+      "docs/editorial-progress.json"
+    ],
+    "images": 0,
+    "image_followup": "Six distinct licensed subjects, not reusable from the Namib attraction, Sossusvlei Lodge or Desert Quiver Camp collections: 1 Sesriem outer gate/entry sign, 2 Sesriem Canyon gorge interior, 3 Dune 45 in early light, 4 Deadvlei pan with camelthorn skeletons, 5 Big Daddy climb route from below, 6 Elim Dune at sunset. Licensed-reuse review only.",
+    "booking_cta": "None by design: destination pages carry no hotel-booking surrogate; booking texture flows through the two linked stay guides' verified Booking.com destinations and the insight's cross-links. No booking-destinations.json change.",
+    "relationships": {
+      "country_slug": "namibia",
+      "attraction_slugs": [
+        "namib-desert"
+      ],
+      "activity_slugs": [],
+      "accommodation_slugs": [
+        "sossusvlei-lodge",
+        "desert-quiver-camp"
+      ],
+      "travel_insight_slugs": [
+        "plan-sossusvlei-sunrise-from-sesriem"
+      ]
+    },
+    "key_facts_checked": "NWR Sesriem Campsite page fetched HTTP 200 10 Nov 2026: Sesriem Canyon about 1 km long / 30-40 m deep with rain-fed pools; rawhide six-thong name origin; distance table Windhoek 334 km, Sossusvlei 60 km, Etosha 750 km; Elim Dune listed attraction with sunset drive; filling station + shop at the Sesriem campsite; shuttle (2x4 to Deadvlei) listed arrangement with Nov 2026-Jun 2027 tariff values recorded in the LEDGER only (deliberately not printed as guide copy; readers directed to confirm with NWR). MEFT hosts transport-error again this run - permit/season facts carry their 20 Oct 2026 in-repo check dates (permits issued at gates, Sesriem office Namib-Naukluft permits only; most rain Jan-Mar). Access-rule flip-flop of 2026 handled with confirm-same-week posture; no fixed gate hour, no rule printed as guaranteed. UNESCO Namib Sand Sea context re-inherited with Oct 2026 dates.",
+    "build_checks": "check-build-inputs passed; production build 146 pages (production env, EDITORIAL_CMS_SYNC=false); readability guard passed on 151; dist verified pre-push: standard 8-section h2 flow (Explore / Highlights / Getting there and around / Best time to visit / Planning your stay / Attractions to explore / Where to stay / Travel insights), all cross-links present (attraction x5, stays x3+3, insight x3, country x4), title correct, no markup leak.",
+    "cms": "Production deploy imports the record at source_commit; publishable-key read of local_destinations stays blocked/404 - owner-side CMS check to confirm local_destinations/sesriem-sossusvlei (standard, pending).",
+    "next_action": "Receipt commit after live verification; rotate to accommodations.",
+    "next_category": "accommodations",
+    "status": "publish_live_verification_pending"
   }
 }
