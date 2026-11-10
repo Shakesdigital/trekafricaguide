@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-09 18:07 UTC (21:07 Africa/Kampala)",
+  "updated_at": "2026-11-10 06:3x UTC (09:3x Africa/Kampala)",
   "blocked_runs": [
     {
       "id": "network-outage-no-research-2026-11-09-1807",
@@ -50,6 +50,60 @@
     "resolved_at": "2026-10-21 13:16 Africa/Kampala"
   },
   "completed_runs": [
+    {
+      "id": "dar-said-entrance-sign-two-photo-partial-gallery-2026-11-10",
+      "page_url": "https://trekafricaguide.com/accommodations/dar-said/",
+      "page_type": "accommodation",
+      "status": "published_live_confirmed",
+      "previous_photo_count": 0,
+      "photo_count": 2,
+      "new_photo_count": 2,
+      "checked_date": "2026-11-10",
+      "started_at": "2026-11-10 06:07 UTC (09:07 Africa/Kampala)",
+      "supersedes": "The 2026-11-10 02:18/03:07/04:07/05:07 scheduled runs never finalized (state sync and the CMS publish-path investigation only; no research ledgers or website files from them). This run syncs past their commits and completes the run the 2026-11-09 18:07 outage blocked.",
+      "initial_live_verification": "Production accommodation page HTTP 200, read in full: zero dedicated photos; only the regional Tunis And Sidi Bou Said attraction imagery. Publish-path check: production /photo-library.js carries the repo library (repo photo changes reach production on deploy), while page text is CMS-served (Supabase).",
+      "source_ledger": "docs/editorial-research/2026-11-10-dar-said-photo-enrichment.md",
+      "note": "Rights review found the exact-property pool nearly empty: Commons only has Marrakech's Dar Si Said museum files; Openverse/Flickr's only Hotel Dar Said interiors are CC BY-NC-ND (excluded); Unsplash's 'dar said' results are Marrakech-museum-clustered; Pexels courtyards by other photographers excluded as scenery-as-property. Published a verified partial collection: two exact-property photos of the hotel's HOTEL DAR SAID entrance sign on its whitewashed Sidi Bou Said facade (entrance-approach subject), Pexels License, no attribution required, photographer nomino. Pexels CDN originals 3448x4592 downloaded and locally resized to 1280px wide, no other edits; stored-file SHA-256s recorded in the library. Repo synced to origin/main 1781153 first (editorial Zanzibar insight commit; untouched).",
+      "files": [
+        "src/lib/photo-library.js",
+        "public/photo-library.js",
+        "public/images/editorial/dar-said/",
+        "docs/editorial-research/2026-11-10-dar-said-photo-enrichment.md",
+        "docs/image-enrichment-progress.json"
+      ],
+      "selected_images": [
+        "dar-said-entrance-sign-pigeon.jpg",
+        "dar-said-entrance-sign-bird.jpg"
+      ],
+      "excluded_candidates_note": "Flickr A05a/A05b exact-property room/bathroom shots CC BY-NC-ND (excluded, non-commercial+ND); Pexels courtyards 32969450/32969451 (different photographer, no property tie, scenery-as-property); Dar Al Annabi/Dar Zarrouk/Dar Ennabi/Dar Dalleji photos (sibling properties); Marrakech Dar Si Said museum files (different place); generic Sidi Bou Said scenery shots (not this property).",
+      "mandatory_input_check": "Passed node scripts/sync-photo-library.mjs and npm run check:build-inputs; checked 2026-11-10.",
+      "published_commit": "d90f666",
+      "pushed_at": "2026-11-10 06:2x UTC (09:2x Africa/Kampala)",
+      "deploy": "Plain git push triggered the Netlify production build within ~90 seconds this time (the placeholder deploy-hook concern from 2026-11-09 did not recur); no CLI deploy needed. Netlify CLI is linked and available as fallback (project trekafricaguide, project id d32d59a3 confirmed in status output).",
+      "email_id": null,
+      "report_status": "NOT SENT: no Gmail send tool/account is available in this harness (standing limitation recorded by prior runs; Gmail requires interactive sign-in in the harness browser). Owner receives this progress in chat. Subject prepared: 'Trek Africa Guide image update — 2026-11-10 (Kampala time)'.",
+      "live_verification": {
+        "checked_at": "2026-11-10 06:31 UTC (09:31 Africa/Kampala) — one poll at minutes:~1.5 after push, page already updated",
+        "page_http_status": 200,
+        "see_all_text": "See all 2 images",
+        "hero_alt_present": true,
+        "hero_loading_eager": true,
+        "gallery_tile_aria_present": true,
+        "destination_setting_label": "not applicable (property:true exact-subject photos)",
+        "all_new_filenames_in_page": true,
+        "asset_http_statuses": [200, 200],
+        "asset_content_types": ["image/jpeg", "image/jpeg"],
+        "asset_content_lengths": [89137, 149845],
+        "regression_spot_checks": {
+          "jollyboys_backpackers_gallery": "HTTP 200, See all 4 images (unchanged)",
+          "mfuwe_lodge_gallery": "HTTP 200, See all 4 images (unchanged)",
+          "nairobi_local_destination_gallery": "HTTP 200, See all 10 images (unchanged)",
+          "homepage": "HTTP 200"
+        },
+        "note": "Production serves the two-image Dar Saïd entrance-sign gallery; both assets return HTTP 200 image/jpeg with byte counts matching the locally stored files."
+      },
+      "next_action": "Dar Saïd stays open only for missing subjects (courtyard, room, breakfast area, hammam, terrace/grounds) — currently no rights-clean leads; reopen for owner originals or operator permission. Continue the zero-own-photo accommodation rotation: Maribela Hotel, Riad Rosemary, Sabyinyo Silverback Lodge, Sanctuary Gorilla Forest Camp, Hilton Cabo Verde Sal Resort — or the fresh zero-photo Kigali/Maun local-destination pages (verify exact subjects first)."
+    },
     {
       "id": "nairobi-local-destination-ten-photo-commons-gallery-2026-11-09",
       "page_url": "https://trekafricaguide.com/countries/kenya/nairobi/",
