@@ -1,5 +1,5 @@
 {
-    "updated_at": "2026-11-10 13:1x UTC (16:1x Africa/Kampala)",
+    "updated_at": "2026-11-10 14:34 UTC (17:34 Africa/Kampala)",
     "blocked_runs": [
         {
             "id": "network-outage-no-research-2026-11-09-1807",
@@ -3498,6 +3498,67 @@
                 "new_asset": null
             },
             "next_action": "Continue the zero-own-photo accommodation rotation: The Place Resort Tokeh (review-recorded 2026-11-07 as no eligible exact-property photo), then reopen Hilton Cabo Verde Sal Resort only for owner originals, written operator permission, or a named rights-clean photographer set; missing subjects (exterior/signage, rooms, pool, restaurant, grounds) recorded in the ledger."
+        },
+        {
+            "id": "amboseli-game-drive-gallery-extended-2026-11-10",
+            "page_url": "https://trekafricaguide.com/activities/amboseli-game-drive-safari/",
+            "page_type": "activity",
+            "status": "published_live_confirmed",
+            "previous_photo_count": 1,
+            "photo_count": 4,
+            "new_photo_count": 3,
+            "checked_date": "2026-11-10",
+            "started_at": "2026-11-10 14:07 UTC (17:07 Africa/Kampala)",
+            "initial_live_verification": "Production activity page HTTP 200, read in full: one dedicated editorial gallery photo (zebras, Pexels) plus a cross-property Amboseli Serena stay card (excluded as a card).",
+            "source_ledger": "docs/editorial-research/2026-11-10-amboseli-game-drive-photo-enrichment.md",
+            "note": "Extended the Amboseli game drive activity gallery toward the 7-12 target with three verified exact-subject Wikimedia Commons photographs (elephants crossing road; Kilimanjaro and elephants; male elephant in marsh), all CC-licensed (CC BY 4.0 x2, CC BY-SA 4.0 x1) with credits rendering in the gallery credit block. Repo synced to origin/main first (editorial Zanzibar publication untouched). No image is AI-fabricated, scenery-as-property, or a substitute for another property; SHA-256 duplicate check clean against the library. Published as a verified partial collection; missing subjects (vehicles, guides, herds at marsh, sundowner) recorded in the ledger.",
+            "files": [
+                "src/lib/photo-library.js",
+                "public/photo-library.js",
+                "public/images/editorial/amboseli-game-drive-safari/amboseli-elephants-crossing-road-ninaras.jpg",
+                "public/images/editorial/amboseli-game-drive-safari/amboseli-kilimanjaro-elephants-ninaras.jpg",
+                "public/images/editorial/amboseli-game-drive-safari/amboseli-male-elephant-babamarie.jpg",
+                "docs/editorial-research/2026-11-10-amboseli-game-drive-photo-enrichment.md",
+                "docs/image-enrichment-progress.json"
+            ],
+            "selected_images": [
+                "amboseli-elephants-crossing-road-ninaras.jpg",
+                "amboseli-kilimanjaro-elephants-ninaras.jpg",
+                "amboseli-male-elephant-babamarie.jpg"
+            ],
+            "excluded_candidates_note": "Commons search returned many eligible Amboseli frames; selected the three clearest exact-subject, appropriately-licensed frames. Other CC frames (e.g. Amboseli elephant banner, very wide short aspect) deferred for layout fit.",
+            "mandatory_input_check": "Passed node scripts/sync-photo-library.mjs and npm run check:build-inputs; photo-library src/public mirror in sync.",
+            "published_commit": "e4f4b7f",
+            "pushed_at": "2026-11-10 14:34 UTC (17:34 Africa/Kampala)",
+            "email_id": null,
+            "report_status": "NOT SENT: no Gmail send tool/account is available in this harness (standing limitation). Owner report recorded in this checkpoint instead. Subject prepared: 'Trek Africa Guide image update — 2026-11-10 (Kampala time)'",
+            "live_verification": {
+                "checked_at": "2026-11-10 14:34 UTC (17:34 Africa/Kampala)",
+                "page_http_status": 200,
+                "distinct_dedicated_image_count": 4,
+                "previous_dedicated_image_count": 1,
+                "new_assets": [
+                    "/images/editorial/amboseli-game-drive-safari/amboseli-elephants-crossing-road-ninaras.jpg",
+                    "/images/editorial/amboseli-game-drive-safari/amboseli-kilimanjaro-elephants-ninaras.jpg",
+                    "/images/editorial/amboseli-game-drive-safari/amboseli-male-elephant-babamarie.jpg"
+                ],
+                "asset_http_statuses": [
+                    200,
+                    200,
+                    200
+                ],
+                "asset_content_types": [
+                    "image/jpeg",
+                    "image/jpeg",
+                    "image/jpeg"
+                ],
+                "regression_spot_checks": {
+                    "amboseli_game_drive_gallery": "HTTP 200, all 3 new assets render with image/jpeg",
+                    "homepage": "HTTP 200"
+                },
+                "note": "Production serves the extended Amboseli game drive gallery; each new asset returns HTTP 200 image/jpeg."
+            },
+            "next_action": "Continue the underfilled activity/attraction rotation (atlas-mountains-day-trip and murchison-falls-nile-launch-trip at 5; volcanoes-gorilla-trek and okavango-mokoro-safari at 2-3) toward 7-12; Amboseli game drive remains open for further rights-clean Commons photos (vehicles, guides, herds at marsh). Reopen exhausted zero-photo accommodations only for owner originals, written operator permission, or named rights-clean photographer sets."
         }
     ],
     "review_checkpoints": [
@@ -3528,5 +3589,6 @@
     ],
     "current_run": null,
     "updated": 1,
-    "last_run_at": "2026-11-10 13:1x UTC (16:1x Africa/Kampala) — Hilton Cabo Verde Sal Resort exact-property review, review-only (no eligible photo; Commons, Flickr CC, Openverse, Pexels, Unsplash, Pixabay, StockSnap all checked)"
+    "last_run_at": "2026-11-10 13:1x UTC (16:1x Africa/Kampala) — Hilton Cabo Verde Sal Resort exact-property review, review-only (no eligible photo; Commons, Flickr CC, Openverse, Pexels, Unsplash, Pixabay, StockSnap all checked)",
+    "next_action": "Continue the underfilled activity/attraction rotation (atlas-mountains-day-trip and murchison-falls-nile-launch-trip at 5; volcanoes-gorilla-trek and okavango-mokoro-safari at 2-3) toward 7-12; Amboseli game drive remains open for further rights-clean Commons photos (vehicles, guides, herds at marsh). Reopen exhausted zero-photo accommodations only for owner originals, written operator permission, or named rights-clean photographer sets."
 }
