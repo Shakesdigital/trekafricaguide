@@ -140,7 +140,9 @@
   "accommodation_slugs": [
    "emerson-spice"
   ],
-  "travel_insight_slugs": [],
+  "travel_insight_slugs": [
+    "pair-tanzania-safari-with-zanzibar-coast"
+  ],
   "hero_image_url": "/images/editorial/unguja/stone-town-waterfront.jpg",
   "hero_image_alt": "Stone Town's waterfront promenade and Indian Ocean, Unguja, Zanzibar",
   "gallery": [

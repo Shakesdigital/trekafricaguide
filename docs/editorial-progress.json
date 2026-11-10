@@ -1116,6 +1116,26 @@
     "push_status": "pushed (39543ef..b15e196) — no 403 this run",
     "next_category": "destinations"
   },
+  "travel_insight_tanzania_zanzibar_pairing": {
+    "id": "pair-tanzania-safari-with-zanzibar-coast",
+    "category": "travel_insights",
+    "started": "2026-11-09",
+    "scope": "New original travel insight connecting the published Serengeti (mainland) and Zanzibar (island) halves of a Tanzania trip: route direction, gateway/connection reality, the June-October window that fits both halves, sizing each half, and a confirm-before-you-pay list. New slug written fresh; the removed owner seed combine-serengeti-and-zanzibar was NOT restored.",
+    "evidence": "The live Unguja destination page's Planning-your-stay section directs readers to a 'linked Serengeti and Zanzibar planning insight' while unguja.travel_insight_slugs was empty and no such insight exists live (checked 2026-11-09); the archive held nine stories with zero Tanzania coverage despite published Serengeti/Zanzibar/Jozani/Unguja/Emerson Spice/content.",
+    "files": [
+      "content/editorial-overrides.json",
+      "content/local-destinations.json",
+      "docs/editorial-research/2026-11-09-tanzania-zanzibar-pairing.md",
+      "docs/editorial-progress.json"
+    ],
+    "images": 0,
+    "image_followup": "Six distinct licensed subjects not reusable from attraction/destination collections: Seronera value plain at dawn, migration herd column across grassland, Grumeti river corridor, Stone Town dhow harbor at dusk, east-coast dawn beach empty, spice-farm interior. Licensed-reuse review only.",
+    "booking_cta": "None by design: insight pages carry no product CTA; revenue surface goes to the two published activity cards (balloon / walking tour) and stay rails via cross-links.",
+    "key_facts_checked": "On-site Serengeti attraction guide (TANAPA activities/gateways, Jun-Oct migration + Jan-Feb calving patterns, charge separation, baggage limits), Zanzibar attraction guide (ZCT experience menu, ferry/flight verify language), Unguja destination guide (ZCT Jun-Oct window, Stone Town + coast structure, the deferring pair line) — all live-checked 9 Nov 2026. ZCT seasonal claim carried with in-repo 2026-10-16 verification date (zanzibartourism.go.tz unreachable 9 Nov). No visa/insurance/schedule/price figures reprinted — deferred to operators and authorities (South Luangwa precedent). GitHub and all Tanzanian/UNESCO official hosts were unreachable during a partial network outage this run; git access restored via a local DoH-pinned CONNECT proxy (temp file, outside repo).",
+    "build_checks": "check-build-inputs + production build + readability guard results recorded after build in latest_run_checkpoint.",
+    "next_category": "activities",
+    "network_note": "2026-11-09 19:13 UTC run executed during partial outage: github.com blocked until ~19:5x via proxy; UNESCO/Tanzania gov hosts + websearch degraded. If the outage persists next run, retry direct fetches first."
+  },
   "accommodation_nairobi_serena": {
     "id": "nairobi-serena-hotel",
     "category": "accommodations",
