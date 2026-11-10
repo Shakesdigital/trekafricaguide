@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10",
+  "updated_at": "2026-11-10T13:25:00.000Z",
   "owner": "booking-links audit agent",
   "ledger": "docs/editorial-research/2026-11-08-booking-links-audit.md",
   "run_1": {
@@ -124,6 +124,14 @@
       "fail": 0,
       "fixes": 0,
       "notes": "Manual re-run (owner 'try again'). 24 GYG exact; 21 Booking.com exact (/hotel/ paths or dest_type=hotel single-property deep links, incl. emerson dest_id=12566246); jollyboys server-chain showed a search detour but real-browser click-through landed on its exact Expedia property page h14704528 — active retained, browser authoritative per method rule. No changes pushed."
+    },
+    {
+      "date": "2026-11-10",
+      "checked": 6,
+      "pass": 5,
+      "fail": 0,
+      "fixes": 0,
+      "notes": "Rotating slice re-verification at 13:25 UTC (full registry last verified 63/63 exact at the 10:00 UTC run). 5 Booking.com exact detail-path landings confirmed server-side: emerson-spice /hotel/tz/emersonspice.en-gb.html, dar-said /hotel/tn/dar-said.en-gb.html, ridge-royal-hotel /hotel/gh/ridge-royal-cape-coast.en-gb.html, fairway-boutique-hotel /hotel/ug/fairway-amp-spa.en-gb.html, victoria-falls-hotel /hotel/zw/the-victoria-falls.en-gb.html — each final URL is the exact property detail path, no redirect to a search page or namesake; bodies bot-walled HTTP 202 (Ridge Royal standard), identity via exact URL shape. 1 GYG (jozani-forest-guided-visit t968921) direct fetch 403 Cloudflare — limited evidence, relies on the 8 Nov browser session and 10 Nov platform listing confirmation; not counted as a failure. 1 Expedia (jollyboys-backpackers h14704528) re-probed 429 — server chain last decoded to the exact property page; kept active, real-browser re-attempt next rotation. Result: sampled slice exact, 0 failures, 0 fixes, no registry changes. Gap re-research (eight unavailable accommodations, Great Zimbabwe, Kibale) requires real-browser sessions unavailable this run; next_action unchanged."
     }
   ]
 }
