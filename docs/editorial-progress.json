@@ -1416,7 +1416,23 @@
     "key_facts_checked": "Official whitesandvillas.com (HTTP 200, 10 Nov 2026): Relais & Châteaux resort on Paje Beach, family-owned, 19 private villas and 3 Cinnamon rooms, villas with private pools, holistic spa, garden-to-table dining, One MICHELIN Key 2026 per the property site. AfricanMecca Safaris Jambiani & Paje guide (10 Nov 2026): property on Paje Beach, southern Zanzibar. Tanzania Tourism Jozani Chwaka Bay page (10 Nov 2026): largest nature forest on Zanzibar Island, south of Chwaka Bay, about 40 km from Stone Town, red colobus endemic; en route to Paje and southeastern places.",
     "cms": "Production deploy imports at source_commit; publishable-key read of editorial_documents remains RLS-blocked by design — owner-side CMS check to confirm accommodations/zanzibar-white-sand-luxury-villas after deploy.",
     "next_category": "travel_insights",
-    "next_action": "Build, verify readable output, publish, live-verify, receipt commit; then rotate to travel insights.",
-    "status": "in_progress"
+    "next_action": "Rotate to travel insights next run; six-subject photo backlog tracked in the ledger; CMS owner-side check pending (standard).",
+    "status": "published_live_confirmed",
+    "publication": {
+      "content_commit": "4fee989",
+      "pushed_to": "main",
+      "push_result": "success (0082958..4fee989 after rebase over concurrent sossusvlei dune-excursion receipt 38cda24)",
+      "pushed_at": "2026-11-10",
+      "live_url": "https://trekafricaguide.com/accommodations/zanzibar-white-sand-luxury-villas/",
+      "live_http_status": 200,
+      "checked_at": "2026-11-10",
+      "live_checks": {
+        "detail": "HTTP 200 (24,749 B); title \"Zanzibar White Sand Luxury Villas & Spa | Trek Africa Guide\"; listing_summary and detail_intro render (Paje Beach, 19 private villas, 3 Cinnamon rooms, holistic spa, garden-to-table dining, MICHELIN Key 2026 per property); full site-standard h2 flow (Why stay here..., Key amenities, Stay style and budget, Booking option, Other Nearby Accommodations, Nearby Attractions); exact Stay22-wrapped Booking.com detail URL with campaign accommodations_zanzibar_white_sand_luxury_villas; no exposed markup.",
+        "attraction": "Jozani Forest attraction page now renders the stay in its nearby-stays rail (was empty before this publish).",
+        "cards": "Unguja destination page (2 refs), Tanzania country page (3 refs) and accommodations archive (3 refs) list the guide.",
+        "internal_links": "Detail page links to /countries/tanzania/unguja and /activities/jozani-forest-guided-visit; both render."
+      },
+      "cms_source_commit": "imported at source_commit 4fee989; publishable-key read of editorial_documents remains RLS-blocked by design — owner-side CMS check to confirm accommodations/zanzibar-white-sand-luxury-villas"
+    }
   }
 }
