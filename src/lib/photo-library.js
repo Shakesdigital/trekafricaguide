@@ -8255,6 +8255,52 @@ export const photoLibrary = {
       "exact_subject_evidence": "The Pexels page identifies Kampala, Uganda and describes an elevated city skyline view; it records capture on 30 July 2026 and publication on 16 September 2026. Visual review shows a broad view over central urban buildings.",
       "reuse_note": "Pexels License permits website use and does not require public attribution. This photo documents Kampala context; it does not imply that the person or business endorses Trek Africa Guide or that the publisher visited the location."
     },
+    "/images/editorial/dar-said/dar-said-entrance-sign-pigeon.jpg": {
+      "slug": "dar-said-entrance-sign-pigeon",
+      "local_path": "/images/editorial/dar-said/dar-said-entrance-sign-pigeon.jpg",
+      "source_page": "https://www.pexels.com/photo/pigeon-on-lantern-by-hotel-dar-said-sign-38051443/",
+      "source_revision": "Pexels photo 38051443, checked 2026-11-10",
+      "creator": "nomino",
+      "license": "Pexels License",
+      "license_url": "https://www.pexels.com/license/",
+      "source_published_at": null,
+      "captured_at": null,
+      "sha256": "2122207f72b811b8bb601d26958854024dce394250f76fca4fd05120c2f9f3b3",
+      "exact_subject": true,
+      "subject": "Hotel Dar Said entrance sign and forged-iron lantern bracket on the whitewashed street facade, Sidi Bou Said",
+      "alt": "Pigeon perched on the lamp above the oval HOTEL DAR SAID sign mounted on the whitewashed street facade in Sidi Bou Said.",
+      "caption": "Hotel Dar Said entrance sign on its whitewashed Sidi Bou Said facade, photographed by nomino. Pexels License. Original image unchanged.",
+      "property": true,
+      "kind": "photograph",
+      "requires_attribution": false,
+      "changes": "Downloaded from the Pexels CDN and locally resized to 1,280 pixels wide with aspect ratio preserved; no other edits.",
+      "checked_at": "2026-11-10",
+      "exact_subject_evidence": "Visual inspection of the full-resolution photo confirms the oval sign reads HOTEL DAR SAID with Arabic lettering and DAR SAID SIDI BOU SAID/LA SANTÉ marks, matching the property identity recorded in the Dar Said arrival ledger (darsaid.com.tn, Sidi Bou Said, Tunis). Taken at the entrance bracket on the street wall.",
+      "reuse_note": "Pexels License permits website use without public attribution. Shows the entrance sign as photographed on an undated visit; not a promise of current facilities."
+    },
+    "/images/editorial/dar-said/dar-said-entrance-sign-bird.jpg": {
+      "slug": "dar-said-entrance-sign-bird",
+      "local_path": "/images/editorial/dar-said/dar-said-entrance-sign-bird.jpg",
+      "source_page": "https://www.pexels.com/photo/flying-bird-near-charming-hotel-sign-in-daylight-38051444/",
+      "source_revision": "Pexels photo 38051444, checked 2026-11-10",
+      "creator": "nomino",
+      "license": "Pexels License",
+      "license_url": "https://www.pexels.com/license/",
+      "source_published_at": null,
+      "captured_at": null,
+      "sha256": "d0c3bb9b8f17922f4f30f4a2e7fea3b509c49812754052d7edb17a2b6ce8020c",
+      "exact_subject": true,
+      "subject": "Hotel Dar Said entrance sign with a pigeon flying overhead, Sidi Bou Said",
+      "alt": "A pigeon flies past the lamp of the HOTEL DAR SAID entrance sign in Sidi Bou Said.",
+      "caption": "Hotel Dar Said entrance sign with a pigeon overhead, photographed by nomino. Pexels License. Original image unchanged.",
+      "property": true,
+      "kind": "photograph",
+      "requires_attribution": false,
+      "changes": "Downloaded from the Pexels CDN and locally resized to 1,280 pixels wide with aspect ratio preserved; no other edits.",
+      "checked_at": "2026-11-10",
+      "exact_subject_evidence": "Same HOTEL DAR SAID oval sign and lantern bracket as photo 38051443, visually confirmed from the full-resolution file after verifying the sign text on the first photo; second frame in the same photographer's set on the Pexels search results for the property name.",
+      "reuse_note": "Pexels License permits website use without public attribution. Same entrance-sign subject as photo 38051443 from a different moment; not a promise of current facilities."
+    },
     "/images/editorial/fairway-boutique-hotel/kampala-street-life-pexels-35603022.jpeg": {
       "slug": "fairway-kampala-street-life-pexels-35603022",
       "local_path": "/images/editorial/fairway-boutique-hotel/kampala-street-life-pexels-35603022.jpeg",
@@ -10622,12 +10668,15 @@ export const photoLibrary = {
         ]
       },
       "dar-said": {
-        "hero_image_url": "",
-        "hero_image_alt": "Dar Saïd",
+        "hero_image_url": "/images/editorial/dar-said/dar-said-entrance-sign-pigeon.jpg",
+        "hero_image_alt": "Pigeon perched on the lamp above the HOTEL DAR SAID entrance sign in Sidi Bou Said",
         "replaces": [
           "/images/stock/destinations/tunis-and-sidi-bou-said.jpg"
         ],
-        "gallery": []
+        "gallery": [
+          "/images/editorial/dar-said/dar-said-entrance-sign-pigeon.jpg",
+          "/images/editorial/dar-said/dar-said-entrance-sign-bird.jpg"
+        ]
       },
       "desert-luxury-camp": {
         "hero_image_url": "",
