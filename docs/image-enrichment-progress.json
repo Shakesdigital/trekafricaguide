@@ -1,5 +1,5 @@
 {
-    "updated_at": "2026-11-10 15:47 UTC (18:47 Africa/Kampala)",
+    "updated_at": "2026-11-10 19:45 UTC (22:45 Africa/Kampala)",
     "blocked_runs": [
         {
             "id": "network-outage-no-research-2026-11-09-1807",
@@ -3631,6 +3631,94 @@
                 "note": "Production serves the seven-image Maun gallery; all seven assets return HTTP 200 image/jpeg with byte counts matching the locally stored files."
             },
             "next_action": "Continue the rotation beyond the accommodation backlog (Dar Said, Maribela Hotel, Riad Rosemary, Sabyinyo Silverback Lodge, Sanctuary Gorilla Forest Camp and Hilton Cabo Verde Sal Resort all reviewed or completed this cycle): fresh zero- and low-image local-destination, attraction, activity and travel-insight pages, verifying exact subjects first. Reopen Dar Said only for missing subjects (courtyard, named room, breakfast area, hammam, terrace/grounds) - currently no rights-clean leads - for owner originals or operator permission."
+        },
+        {
+            "id": "volcanoes-national-park-four-photo-gallery-extension-2026-11-10",
+            "page_url": "https://trekafricaguide.com/attractions/volcanoes-national-park/",
+            "page_type": "attraction",
+            "status": "published_live_confirmed",
+            "previous_photo_count": 6,
+            "photo_count": 10,
+            "new_photo_count": 4,
+            "checked_date": "2026-11-10",
+            "started_at": "2026-11-10 19:07 UTC (22:07 Africa/Kampala)",
+            "initial_live_verification": "Production attraction page HTTP 200, read in full: 6 dedicated photos (2 stock + 4 editorial), gallery target 7-12. Source pool: Wikimedia Commons CC0/CC BY-SA 4.0 photos of exact park subjects.",
+            "source_ledger": "docs/editorial-research/2026-11-10-volcanoes-national-park-photo-enrichment.md",
+            "note": "Extended gallery from 6 to 10 photos using 4 rights-clean Wikimedia Commons images: Bisoke Crater Lake (Happy Gentille, CC0), Mount Gahinga volcano peak (Mahorogeoffrey, CC BY-SA 4.0), tourist rest area with Sabyinyo view (Maxime Ishmax, CC BY-SA 4.0), forest interior (Maxime Ishmax, CC BY-SA 4.0). All verified exact-park subjects. Repo synced to origin/main 7656274 first (editorial commits untouched).",
+            "files": [
+                "src/lib/photo-library.js",
+                "public/photo-library.js",
+                "public/images/editorial/volcanoes-national-park-attraction/bisoke-crater-lake-2026.jpg",
+                "public/images/editorial/volcanoes-national-park-attraction/forest-interior-trees-2018.jpg",
+                "public/images/editorial/volcanoes-national-park-attraction/gahinga-volcano-peak-2009.jpg",
+                "public/images/editorial/volcanoes-national-park-attraction/sabyinyo-view-tourist-rest-2018.jpg",
+                "docs/editorial-research/2026-11-10-volcanoes-national-park-photo-enrichment.md",
+                "docs/image-enrichment-progress.json"
+            ],
+            "selected_images": [
+                "bisoke-crater-lake-2026.jpg",
+                "forest-interior-trees-2018.jpg",
+                "gahinga-volcano-peak-2009.jpg",
+                "sabyinyo-view-tourist-rest-2018.jpg"
+            ],
+            "excluded_candidates_note": "Gorilla-centric photos (Emmanuel Kwizera, Nina R gorilla series, 2006 gorilla sets) excluded to avoid overlap with gorilla trekking activity page; Dave Proffer 2007 Flickr set (CC BY-NC-SA) excluded on non-commercial licence; park banner/logo files excluded.",
+            "mandatory_input_check": "Passed node scripts/sync-photo-library.mjs and npm run check:build-inputs; checked 2026-11-10.",
+            "published_commit": "8bd8273",
+            "pushed_at": "2026-11-10 19:45 UTC (22:45 Africa/Kampala)",
+            "email_id": null,
+            "report_status": "NOT SENT: no Gmail send tool/account available in this harness; owner receives this progress in chat. Subject prepared: Trek Africa Guide image update — 2026-11-10 (Kampala time).",
+            "live_verification": {
+                "checked_at": "2026-11-10 20:15 Africa/Kampala — page updated ~30 min after push",
+                "page_http_status": 200,
+                "see_all_text": "See all 10 images",
+                "hero_og_image": "/images/stock/destinations/volcanoes-national-park.jpg",
+                "all_new_filenames_in_page": true,
+                "asset_http_statuses": [
+                    200,
+                    200,
+                    200,
+                    200,
+                    200,
+                    200,
+                    200,
+                    200,
+                    200,
+                    200
+                ],
+                "asset_content_types": [
+                    "image/jpeg",
+                    "image/jpeg",
+                    "image/jpeg",
+                    "image/jpeg",
+                    "image/jpeg",
+                    "image/jpeg",
+                    "image/jpeg",
+                    "image/jpeg",
+                    "image/jpeg",
+                    "image/jpeg"
+                ],
+                "asset_content_lengths": [
+                    319874,
+                    405525,
+                    405525,
+                    996810,
+                    719950,
+                    1009642,
+                    127406,
+                    1188310,
+                    62087,
+                    420539
+                ],
+                "regression_spot_checks": {
+                    "sabyinyo_silverback_lodge_gallery": "HTTP 200, See all 1 images (unchanged)",
+                    "dar_said_gallery": "HTTP 200, See all 2 images (unchanged)",
+                    "kigali_local_destination_gallery": "HTTP 200, See all 11 images (unchanged)",
+                    "maun_local_destination_gallery": "HTTP 200, See all 7 images (unchanged)",
+                    "homepage": "HTTP 200"
+                },
+                "note": "Production serves the ten-image Volcanoes National Park gallery; all eight editorial assets plus two stock images return HTTP 200 image/jpeg with byte counts matching locally stored files."
+            },
+            "next_action": "Rotate to accommodations or travel insights per category rotation. Volcanoes NP attraction now at 10/12 target; remaining gaps (park HQ/briefing centre, bamboo zone trail, Kinigi village scenes) recorded for future runs. Reopened-by-rights collections: Governors Camp (4/15), Golden Monkey Trek (6/12), Jollyboys (4/15) remain open for their missing subjects."
         }
     ],
     "review_checkpoints": [
@@ -3662,5 +3750,5 @@
     "current_run": null,
     "updated": 1,
     "last_run_at": "2026-11-10 13:1x UTC (16:1x Africa/Kampala) — Hilton Cabo Verde Sal Resort exact-property review, review-only (no eligible photo; Commons, Flickr CC, Openverse, Pexels, Unsplash, Pixabay, StockSnap all checked)",
-    "next_action": "Continue the underfilled activity/attraction rotation (atlas-mountains-day-trip and murchison-falls-nile-launch-trip at 5; volcanoes-gorilla-trek and okavango-mokoro-safari at 2-3) toward 7-12; Amboseli game drive remains open for further rights-clean Commons photos (vehicles, guides, herds at marsh). Reopen exhausted zero-photo accommodations only for owner originals, written operator permission, or named rights-clean photographer sets."
+    "next_action": "Rotate to accommodations or travel insights per category rotation. Volcanoes NP attraction now at 10/12 target; remaining gaps (park HQ/briefing centre, bamboo zone trail, Kinigi village scenes) recorded for future runs. Reopened-by-rights collections: Governors Camp (4/15), Golden Monkey Trek (6/12), Jollyboys (4/15) remain open for their missing subjects."
 }
