@@ -272,9 +272,9 @@
     "email_id": "1a143a69416cf3d1"
   },
   "rotation": {
-    "last_completed_category": "travel_insights",
-    "next_category": "activities",
-    "next_deliverable": "Tanzania Zanzibar-pairing insight published and live-verified 2026-11-10; next run rotates to activities before new attractions.",
+    "last_completed_category": "activities",
+    "next_category": "destinations",
+    "next_deliverable": "Jozani Forest guided walk activity published and live-verified 2026-11-10; next run rotates to destinations before new attractions.",
     "rule": "Finish the individual deliverable and report its live state, then rotate."
   },
   "current_deliverable": {
@@ -1189,5 +1189,47 @@
     "next_action": "Rotate to travel insights next run; re-verify the travel-insights archive and pick the next evidenced story; six-property-photo backlog tracked in the ledger.",
     "status": "published_live_confirmed",
     "commit": "90a38b6 (content) + this receipt commit"
+  },
+  "activity_jozani_forest_guided_visit": {
+    "id": "jozani-forest-guided-visit",
+    "category": "activities",
+    "started": "2026-11-10",
+    "latest_run_note": "Scheduled 07:13Z routine run; executed on schedule (started ~07:14Z).",
+    "selection_evidence": "Live activities archive holds 20 guides, none covering Jozani (full crawl refresh 2026-11-10: home + five directories, all HTTP 200). The live Jozani attraction page leads with a nature-walk reading (red colobus observation, mangrove walk, accommodation-base routing) and carries a verified GetYourGuide product, while its review demand-pattern asks exactly what this guide answers (walking split between forest and mangrove, what is included).",
+    "scope": "New activity guide under the repo-managed Jozani Forest attraction (attraction_id repo:attractions:jozani-forest). Zero-image honest publish; no booking-destinations substitution.",
+    "files": [
+      "content/editorial-overrides.json",
+      "content/booking-destinations.json",
+      "docs/editorial-research/2026-11-10-jozani-guided-walk.md",
+      "docs/editorial-progress.json"
+    ],
+    "images": 0,
+    "image_followup": "Six distinct licensed Jozani subjects, not reusable from the attraction collection: red colobus in canopy at safe distance, forest path interior, mangrove boardwalk footbridge with roots and water, guide pointing out canopy subject, park gate/entrance sign, red mangrove prop-roots along the walkway. Licensed-reuse review only.",
+    "booking_destination": "Exact GetYourGuide product t968921 \"Zanzibar: Jozani Forest, Nature Walk and Wildlife Tour\" (Zanzibar blessing tours and safari): browser-verified 8 November 2026 (5/5 from 2 reviews; entrance fee + guided forest and mangrove walk, meeting point metadata) and confirmed unchanged on the platform's Jozani category listings 10 November 2026 (2–5 h, private group, pickup advertised, from USD 45). Registered as booking-destinations.activities[\"jozani-forest-guided-visit\"]; Stay22-wrapped in the built/live page (campaign activities_jozani_forest_guided_visit). Rating published with the small-sample caveat and \"(checked 2026-11-10)\" hedge; no rate or availability claims.",
+    "key_facts_checked": "Tanzania Tourism (national board) Jozani page fetched HTTP 200 10 Nov 2026: largest nature forest on Zanzibar, south of Chwaka Bay ~40 km from Stone Town, low-lying flood-prone ground, Jozani-Chwaka NP protection, endangered Zanzibar-only red colobus, Sykes' monkeys/bushbabies/duikers/40+ birds, \"en route to Paje and southeastern places\" usable; page booking panel treated as operator marketing (not used). Tanzania Immigration Service Department site HTTP 200 (e-Visa portal unreachable from this environment — no visa rules reprinted). ZCT and the Zanzibar forestry authority host (maliasilismz.go.tz) unreachable this run — no park-entry fee table printed; attraction page's honest-fee posture preserved. Tripadvisor park reviews reuse carries their 16 Oct 2026 retrieval date.",
+    "cms": "Production deploy imports at source_commit; publishable-key read of editorial_documents remains RLS-blocked — owner-side CMS check to confirm activities/jozani-forest-guided-visit after deploy.",
+    "next_action": "Rotate to destinations next run; six-subject photo backlog in the ledger; CMS owner-side check pending.",
+    "next_category": "destinations",
+    "status": "published_live_confirmed",
+    "content_commit": "9dc668a (content, rebased over other agents e72a7f8) + this receipt commit",
+    "publication": {
+      "content_commit": "9dc668a",
+      "pushed_to": "main",
+      "push_result": "success (e72a7f8..9dc668a after one rebase; dist-blot stash dropped per standing practice)",
+      "pushed_at": "2026-11-10",
+      "live_url": "https://trekafricaguide.com/activities/jozani-forest-guided-visit/",
+      "live_http_status": 200,
+      "checked_at": "2026-11-10",
+      "live_checks": {
+        "detail": "HTTP 200 (32,691 bytes) ~2 min after push; title \"Jozani Forest guided walk | Trek Africa Guide\"; all seven h2 sections render (About this activity, Highlights, Best time to participate, Planning notes, Booking option, You may also like, Nearby stays); distinctive copy (about 40 kilometres from Stone Town, USD 45 listing line, red colobus) renders; immigration.go.tz official link present; no exposed markup.",
+        "booking": "Booking rail renders the exact t968921 product (operator, 5/5 from 2 \"(checked 2026-11-10)\", pickup/meeting-point caveat, no rate claims); Stay22-wrapped destination confirmed in production HTML.",
+        "cards": "You may also like renders the same-country activity cards (Serengeti balloon, Stone Town walking tour); Nearby stays renders the attraction's honest empty rail (no Jozani-area stay record; none invented).",
+        "archive_home": "Activities archive and homepage search list the guide.",
+        "attraction": "Jozani attraction page now renders Related activities with the new guide.",
+        "internal_links": "All six spot-checked internal links HTTP 200 (jozani attraction, zanzibar, unguja destination, stone town tour, serengeti balloon, tanzania country)."
+      },
+      "cms_source_commit": "imported at source_commit 9dc668a; publishable-key read of editorial_documents remains RLS-blocked — owner-side CMS check to confirm activities/jozani-forest-guided-visit"
+    },
+    "build_checks": "check-build-inputs passed; production build 143 pages with production env (EDITORIAL_CMS_SYNC=false); readability guard passed on 148; dist verified pre-push (h2 flow, Stay22 t968921 link, archive + homepage listing, no markup leak)."
   }
 }
