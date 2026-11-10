@@ -1,5 +1,5 @@
 {
-    "updated_at": "2026-11-10 14:34 UTC (17:34 Africa/Kampala)",
+    "updated_at": "2026-11-10 15:47 UTC (18:47 Africa/Kampala)",
     "blocked_runs": [
         {
             "id": "network-outage-no-research-2026-11-09-1807",
@@ -3559,6 +3559,78 @@
                 "note": "Production serves the extended Amboseli game drive gallery; each new asset returns HTTP 200 image/jpeg."
             },
             "next_action": "Continue the underfilled activity/attraction rotation (atlas-mountains-day-trip and murchison-falls-nile-launch-trip at 5; volcanoes-gorilla-trek and okavango-mokoro-safari at 2-3) toward 7-12; Amboseli game drive remains open for further rights-clean Commons photos (vehicles, guides, herds at marsh). Reopen exhausted zero-photo accommodations only for owner originals, written operator permission, or named rights-clean photographer sets."
+        },
+        {
+            "id": "maun-local-destination-seven-photo-gallery-2026-11-10",
+            "page_url": "https://trekafricaguide.com/countries/botswana/maun/",
+            "page_type": "local-destination",
+            "status": "published_live_confirmed",
+            "previous_photo_count": 0,
+            "photo_count": 7,
+            "new_photo_count": 7,
+            "checked_date": "2026-11-10",
+            "started_at": "2026-11-10 15:07 UTC (18:07 Africa/Kampala)",
+            "initial_live_verification": "Production destination page HTTP 200, read in full: zero dedicated Maun photographs; the detail gallery rendered empty (gallery__empty placeholder). Only the regional Okavango Delta scenery card and the mokoro safari activity card were present - both excluded as listing cards. content/local-destinations.json confirmed hero_image_url and gallery both empty for the maun entry.",
+            "source_ledger": "docs/editorial-research/2026-11-10-maun-local-destination-photo-enrichment.md",
+            "note": "Rights review across Wikimedia Commons (primary pool), Openverse (504 on first request, then empty result set), Flickr CC and Unsplash/Pexels found seven distinct rights-clean exact-subject photographs of Maun: the Thamalakane river (Monamodi74, CC BY-SA 4.0, 2021), an aerial town view (jonrawlinson, CC BY 2.0, 2005), a 2002 street scene (Graf-flugplatz, CC BY-SA 3.0), a landing approach into Maun Airport (Benjamin Hollis, CC BY 2.0, 2012), the airport terminal (Passportguy, CC BY 2.0, 2009, stored at the Commons largest listed size 509x732 unchanged), staple maize food (Kentsem, CC0, 2026) and a crocodile farm near Maun (Diego Delso, CC BY-SA 4.0, 2018). No NC/ND, no OTA, no social thumbnails, no scenery-as-property (this is a destination page, so exact-place scenes are on-topic), no AI imagery. Published a verified partial gallery of 7 of the 7-12 destination target; missing subjects (market stalls, safari outfitters, boat launch area, lodges) recorded in the ledger. Repo synced to origin/main first (editorial Marrakech insight commits merged cleanly; their files untouched).",
+            "files": [
+                "src/lib/photo-library.js",
+                "public/photo-library.js",
+                "public/images/editorial/maun-local-destination/",
+                "content/local-destinations.json",
+                "docs/editorial-research/2026-11-10-maun-local-destination-photo-enrichment.md",
+                "docs/image-enrichment-progress.json"
+            ],
+            "selected_images": [
+                "maun-thamalakane-river-2021.jpg",
+                "maun-aerial-view-2005.jpg",
+                "maun-city-street-2002.jpg",
+                "maun-landing-approach-2007.jpg",
+                "maun-airport-terminal-2009.jpg",
+                "maun-maize-staple-food-2026.jpg",
+                "maun-crocodile-farm-2018.jpg"
+            ],
+            "excluded_candidates_note": "Maunbyplane.jpg (public domain but near-duplicate aerial subject of Maun_Botswana2.jpg); Maun Anflug1.jpg (CC BY-SA 3.0 but near-duplicate Thamalakane river subject); Openverse 504 then empty result set; Flickr CC search page is JS-rendered with no parseable exact-property leads.",
+            "mandatory_input_check": "Passed node scripts/sync-photo-library.mjs and npm run check:build-inputs; checked 2026-11-10.",
+            "published_commit": "c3080b9 (photos/ledger), merged into 7c61f8f with the editorial Marrakech insight publication",
+            "pushed_at": "2026-11-10 15:47 UTC (18:47 Africa/Kampala)",
+            "email_id": null,
+            "report_status": "NOT SENT: no Gmail send tool/account is available in this harness (standing limitation recorded by prior runs); owner receives this progress in chat instead. Subject prepared: \\u2018Trek Africa Guide image update \\u2014 2026-11-10 (Kampala time)\\u2019.",
+            "live_verification": {
+                "checked_at": "2026-11-10 15:45-15:47 UTC (18:45-18:47 Africa/Kampala)",
+                "page_http_status": 200,
+                "og_image": "/images/editorial/maun-local-destination/maun-thamalakane-river-2021.jpg",
+                "all_new_filenames_in_page": true,
+                "asset_http_statuses": [
+                    200,
+                    200,
+                    200,
+                    200,
+                    200,
+                    200,
+                    200
+                ],
+                "asset_content_types": [
+                    "image/jpeg",
+                    "image/jpeg",
+                    "image/jpeg",
+                    "image/jpeg",
+                    "image/jpeg",
+                    "image/jpeg",
+                    "image/jpeg"
+                ],
+                "asset_content_lengths": [
+                    271205,
+                    388990,
+                    426410,
+                    207685,
+                    117443,
+                    878798,
+                    352053
+                ],
+                "note": "Production serves the seven-image Maun gallery; all seven assets return HTTP 200 image/jpeg with byte counts matching the locally stored files."
+            },
+            "next_action": "Continue the rotation beyond the accommodation backlog (Dar Said, Maribela Hotel, Riad Rosemary, Sabyinyo Silverback Lodge, Sanctuary Gorilla Forest Camp and Hilton Cabo Verde Sal Resort all reviewed or completed this cycle): fresh zero- and low-image local-destination, attraction, activity and travel-insight pages, verifying exact subjects first. Reopen Dar Said only for missing subjects (courtyard, named room, breakfast area, hammam, terrace/grounds) - currently no rights-clean leads - for owner originals or operator permission."
         }
     ],
     "review_checkpoints": [
