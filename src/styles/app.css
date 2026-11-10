@@ -175,6 +175,21 @@ img.page-hero__slot {
     }
 }
 
+.topline-tagline {
+    flex: 1 1 auto;
+    text-align: right;
+    color: rgba(255, 255, 255, 0.86);
+}
+
+@media (max-width: 819px) {
+    .topline-tagline {
+        text-align: left;
+        font-size: 0.76rem;
+        color: rgba(255, 255, 255, 0.78);
+        max-width: 34rem;
+    }
+}
+
 .site-header {
     position: sticky;
     top: 0;
