@@ -1,5 +1,5 @@
 {
-    "updated_at": "2026-11-10 19:45 UTC (22:45 Africa/Kampala)",
+    "updated_at": "2026-11-11 03:41 UTC (06:41 Africa/Kampala)",
     "blocked_runs": [
         {
             "id": "network-outage-no-research-2026-11-09-1807",
@@ -14,8 +14,8 @@
             "scheduled_at": "2026-11-11 ~05:5x UTC (08:5x Africa/Kampala)",
             "status": "blocked_deploy_pending",
             "planned_target": "Sossusvlei Lodge accommodation page (https://trekafricaguide.com/accommodations/sossusvlei-lodge/) — gallery extended 2 -> 3 dedicated photos: added Frans-Banja Mulder CC BY 3.0 'View from Sossusvlei Lodge in Sesriem' (Wikimedia Commons File:View from Sossusvlei Lodge - panoramio.jpg, curid 46694630, captured 2006-09-19, original 876x584 JPEG, local sha256 64af6db17f56218e15d66921e2f6615d00567c4f6b3b2b3e1eba752bc2dd436c). Commit 2d31df3 pushed to Shakesdigital/trekafricaguide main; production /photo-library.js confirmed carrying the new entry, but page HTML still renders 'See all 2 images' after ~20 minutes — the Netlify production build (npm ci && npm run build) has not shipped the new gallery HTML.",
-            "note": "Images committed and pushed; public/photo-library.js regenerated via scripts/sync-photo-library.mjs and npm run check:build-inputs passed. Push reached GitHub but the live page has not updated within the ~15-minute heartbeat window, so this is NOT claimed as published and no email is attempted. Re-poll production until 'See all 3 images' renders, then verify each asset URL returns HTTP 200 image/jpeg; if the build fails, inspect Netlify build logs for the exact blocker.",
-            "next_action": "Re-poll https://trekafricaguide.com/accommodations/sossusvlei-lodge/ until it renders 'See all 3 images' including sossusvlei-lodge-view-from-lodge-2006.jpg; verify all three asset URLs return HTTP 200 image/jpeg; then finalize this run in completed_runs with live verification and commit/push the checkpoint. Owner email not attempted: no Gmail send tool in harness; record honestly here (email is sent only when a collection is live-confirmed).",
+            "note": "Images committed and pushed; public/photo-library.js regenerated via scripts/sync-photo-library.mjs and npm run check:build-inputs passed. Push reached GitHub (commit 2d31df3, contained in origin/main a307f75) but the live page still renders 'See all 2 images' as of this run's re-poll at 2026-11-11 03:41 UTC (06:41 Africa/Kampala) — the Netlify production build has not shipped the new gallery HTML well beyond the ~15-minute heartbeat window (~40+ minutes since push per the prior run's transcript). This is still NOT claimed as published; no asset verification is possible yet and no email is attempted. Re-poll production until 'See all 3 images' renders including sossusvlei-lodge-view-from-lodge-2006.jpg; then verify all three asset URLs return HTTP 200 image/jpeg; if the build fails, inspect Netlify build logs for the exact blocker.",
+            "next_action": "This run re-polled production at 2026-11-11 03:41 UTC (06:41 Africa/Kampala): page still renders 'See all 2 images'; blocker persists, checkpoint updated and pushed (this file only). Continue re-polling https://trekafricaguide.com/accommodations/sossusvlei-lodge/ until it renders 'See all 3 images' including sossusvlei-lodge-view-from-lodge-2006.jpg; verify all three asset URLs return HTTP 200 image/jpeg; then finalize this run in completed_runs with live verification and commit/push the checkpoint. Owner email not attempted: no Gmail send tool in harness; record honestly here (email is sent only when a collection is live-confirmed).",
             "files": [
                 "src/lib/photo-library.js",
                 "public/photo-library.js",
@@ -26,7 +26,15 @@
             "selected_images": [
                 "sossusvlei-lodge-view-from-lodge-2006.jpg"
             ],
-            "live_verification": null
+            "live_verification": {
+                "checked_at": "2026-11-11 03:41 UTC (06:41 Africa/Kampala)",
+                "page_http_status": 200,
+                "see_all_text": "See all 2 images",
+                "distinct_property_image_count": 2,
+                "new_asset": null,
+                "asset_http_statuses": [],
+                "note": "Production still serves the pre-push two-image gallery; the pushed third asset (sossusvlei-lodge-view-from-lodge-2006.jpg) is not yet live, so no HTTP 200 image/jpeg verification could be performed. Blocker persists beyond the ~15-minute heartbeat window."
+            }
         },
         {
             "id": "bwindi-gorilla-trekking-interrupted-2026-10-28",
