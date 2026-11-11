@@ -178,7 +178,11 @@
     },
     "mfuwe-lodge": {
       "status": "unavailable",
-      "reason": "No exact supported OTA property detail found; Expedia regional mentions do not establish a bookable detail listing. Do not substitute Mushroom Lodge, Mopani or other Mfuwe-area properties."
+      "checked_at": "2026-11-11",
+      "evidence": {
+        "source_url": "https://www.cntraveler.com/hotels/zambia/luangwa-valley/mfuwe-lodge",
+        "summary": "Rechecked 11 November 2026: the property sells direct through The Bushcamp Company (Condé Nast Traveler lists it with \"Book Now at Bush Camp Company — Powered By: Bush Camp Company\"). Booking.com's Mfuwe results list only other lodges (Royal South Luangwa, Thornicroft, Mopani, Msandile) and Expedia's Mfuwe hotels/lodges guides omit the property; a generic booking.com/hotel/zm/mfuwe-lodge URL returned no listing content. Keep the CTA suppressed rather than substituting another lodge."
+      }
     },
     "riad-rosemary": {
       "status": "unavailable",
