@@ -1718,7 +1718,23 @@
     "next_category": "activities",
     "next_action": "Rotate to activities next run; six-subject photo backlog tracked in the ledger; CMS owner-side check pending (standard).",
     "status": "published_live_confirmed",
-    "content_commit": "pending",
-    "publication": {}
+    "content_commit": "c180e9f",
+    "publication": {
+      "content_commit": "c180e9f",
+      "pushed_to": "main",
+      "push_result": "success (rebased over e894103, pushed as abe48e8)",
+      "pushed_at": "2026-11-11",
+      "live_url": "https://trekafricaguide.com/travel-insights/plan-first-egypt-visit-cairo-giza-nile-red-sea/",
+      "live_http_status": 200,
+      "checked_at": "2026-11-11",
+      "live_distinctive_text": "Plan a first Egypt visit: Cairo/Giza base, Nile journey, or Red Sea coast",
+      "live_checks": {
+        "detail": "HTTP 200; title correct; full h2 flow (The first choice that shapes everything, The second choice, The visa rule that changes the map, Museum tickets and pyramid interiors, Heat traffic and the daily rhythm, Confirm before you book, Packing from official recommendations, Three questions travelers actually ask, Continue planning, Sources and scope); distinctive copy renders (Giza-side vs central Cairo base, Sharm 15-day visa-free stamp, Cairo digital VOA Aug 2026, GEM/NMEC/Egyptian Museum separation, pyramid interiors, 45-90 min Giza-Downtown traffic); no exposed markup.",
+        "archive": "Travel insights archive HTTP 200 lists the guide with correct title and excerpt.",
+        "internal_links": "All 5 internal links HTTP 200: /countries/egypt/cairo/, /accommodations/marriott-mena-house-cairo/, /attractions/cairo-and-giza/, /activities/giza-pyramids-guided-tour/, /countries/egypt/.",
+        "markup_leak": false
+      },
+      "cms_source_commit": "imported at source_commit c180e9f; publishable-key read of editorial_documents remains RLS-blocked — owner-side CMS check to confirm travel-insights/plan-first-egypt-visit-cairo-giza-nile-red-sea"
+    }
   }
 }
