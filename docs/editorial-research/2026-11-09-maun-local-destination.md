@@ -51,7 +51,8 @@ Every candidate requires licensed-reuse review; no substitutes; never reuse the 
 
 ## Publication record
 
-- Content commit: pending
-- Receipt commit: pending
-- Live URL: https://trekafricaguide.com/countries/botswana/maun/ (verification pending)
+- Content commit: `b98aa43` on origin/main ("Publish Maun destination guide", rebased through interleaved Governors' Camp/Mfuwe commits from other agents; verified ancestor of main 11 Nov 2026)
+- Receipt commit: this file's update plus `docs/editorial-progress.json` `local_destination_maun` key
+- Live URL: https://trekafricaguide.com/countries/botswana/maun/ — **HTTP 200, verified 11 November 2026**: full h2 flow, all three related cards, "Destinations in Botswana" section live on the country page, countries archive + homepage search list the guide, no exposed markup or escaped prose (script: `verify-maun-live-final.cjs`)
+- Deploy note: git push alone did not trigger a Netlify build on 9 Nov (`NETLIFY_DEPLOY_HOOK` in the retired `.env.netlify` was a placeholder — the image agents documented this the same day and moved deploys to the owner-linked Netlify CLI). The Maun page reached production through that CLI-deploy path; no second content change was needed.
 - CMS mirror: imported at source_commit; owner-side CMS check pending (`local_destinations/maun`)
