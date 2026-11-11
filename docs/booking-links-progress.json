@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T13:33:39.719Z",
+  "updated_at": "2026-11-11T21:16:53.978Z",
   "owner": "booking-links audit agent",
   "ledger": "docs/editorial-research/2026-11-08-booking-links-audit.md",
   "run_1": {
@@ -68,7 +68,14 @@
     "accommodations/kigali-serena-hotel": "11 November 2026 live production Stay22 link opens a multi-property Booking.com searchresults.html page, not the exact property detail. Locale-free source also opens search. Suppress CTA until a replacement wrapped exact-detail landing is browser-verified.",
     "accommodations/nairobi-serena-hotel": "11 November 2026 live production Stay22 link opens a multi-property Booking.com searchresults.html page, not the exact property detail. Locale-free source also opens search. Suppress CTA until a replacement wrapped exact-detail landing is browser-verified.",
     "accommodations/zanzibar-white-sand-luxury-villas": "11 November 2026 live production Stay22 link opens a multi-property Booking.com searchresults.html page, not the exact property detail. Locale-free source also opens search. Suppress CTA until a replacement wrapped exact-detail landing is browser-verified.",
-    "accommodations/marriott-mena-house-cairo": "11 November 2026: Booking.com and the replacement Hotels.com ho654475 both fail exact-detail live click-through. Hotels.com initially rendered detail during candidate research, but the production click opened multi-property Hotel-Search results (browser content confirmed). Keep held until a stable exact wrapped detail landing is verified."
+    "accommodations/marriott-mena-house-cairo": "11 November 2026: Booking.com and the replacement Hotels.com ho654475 both fail exact-detail live click-through. Hotels.com initially rendered detail during candidate research, but the production click opened multi-property Hotel-Search results (browser content confirmed). Keep held until a stable exact wrapped detail landing is verified.",
+    "accommodations/maribela-hotel": "12 November 2026 (Kampala), midnight routine: production Stay22 click opens a multi-property search instead of the exact full property listing. Suppress booking option until a stable wrapped exact detail source is verified.",
+    "accommodations/paraa-safari-lodge": "12 November 2026 (Kampala), midnight routine: production Stay22 click opens a multi-property search instead of the exact full property listing. Suppress booking option until a stable wrapped exact detail source is verified.",
+    "accommodations/red-chilli-rest-camp": "12 November 2026 (Kampala), midnight routine: production Stay22 click opens a multi-property search instead of the exact full property listing. Suppress booking option until a stable wrapped exact detail source is verified.",
+    "accommodations/fairway-boutique-hotel": "12 November 2026 (Kampala), midnight routine: production Stay22 click opens a multi-property search instead of the exact full property listing. Suppress booking option until a stable wrapped exact detail source is verified.",
+    "accommodations/mountains-of-the-moon-hotel": "12 November 2026 (Kampala), midnight routine: production Stay22 click opens a multi-property search instead of the exact full property listing. Suppress booking option until a stable wrapped exact detail source is verified.",
+    "accommodations/jollyboys-backpackers": "12 November 2026 (Kampala), midnight routine: production Stay22 click opens a multi-property search instead of the exact full property listing. Suppress booking option until a stable wrapped exact detail source is verified.",
+    "accommodations/ol-tukai-lodge-amboseli": "12 November 2026 (Kampala), midnight routine: production Stay22 click opens a multi-property search instead of the exact full property listing. Suppress booking option until a stable wrapped exact detail source is verified."
   },
   "production_verification": {
     "deploy_with_run_1": {
@@ -113,7 +120,7 @@
       "result": "Expedia Hotel-Search landing -> held; CTA confirmed suppressed on production after run-2 deploy"
     }
   ],
-  "next_action": "Repair Marriott Mena House, Kigali Serena, Nairobi Serena and Zanzibar White Sand holds using stable exact wrapped detail sources. Continue real-browser rotation of remaining active hotel links, prioritizing Jollyboys Expedia and previously URL-only Booking.com checks; Governors Camp Agoda variants still demote to city search.",
+  "next_action": "Finish midnight publication verification first. Re-research stable exact wrapped sources for seven new search-landing holds (Maribela, Paraa, Red Chilli, Fairway, Mountains of the Moon, Jollyboys, Ol Tukai) plus Marriott Mena House, Kigali Serena, Nairobi Serena and Zanzibar White Sand. Preserve server/browser distinction; searchresults dest_type=hotel alone is insufficient.",
   "runs": [
     {
       "date": "2026-11-10",
@@ -203,6 +210,19 @@
       ],
       "production_deploy": "6af46e64b4157cf777c302fa",
       "verified_replacement_full_detail": 2
+    },
+    {
+      "date": "2026-11-12",
+      "scheduled_for": "2026-11-11T21:00:00Z",
+      "checked": 63,
+      "pass": 53,
+      "fail": 10,
+      "fixed": 3,
+      "added": 0,
+      "new_holds": 7,
+      "publication_status": "pending",
+      "ledger": "docs/editorial-research/2026-11-12-midnight-booking-links.md",
+      "notes": "Full no-argument verifier: 41 GetYourGuide matching t-product IDs (HTTP403; URL-only evidence), 19 Booking.com (9 exact detail paths HTTP202, 10 search-shaped), 1 Agoda exact detail path HTTP200, 1 Expedia and 1 Hotels.com. Browser production clicks rescued Kruger Shalati and Les Paletuviers to exact detail (server/browser disagreement); remaining 8 Booking search landings plus Expedia Jollyboys and Hotels.com Ol Tukai failed exact-detail standard. Initial result 53 pass / 10 fail; 3 Booking locale-free replacements rendered exact detail: Casa del Papa/Ouidah, Mount Nelson/Cape Town, Victoria Falls Hotel/Victoria Falls. Seven failed entries held. Jollyboys retried twice and Ol Tukai retried: multi-property search confirmed. Red Chilli locale-free and Paraa pt-br alternative also searched. Fairway locale-free failed. Prior four hotel holds remain. No updated review aggregate, rate, availability, checkout or affiliate attribution claim. Only requested check:build-inputs run; no test suite or local build."
     }
   ],
   "method_rule": "Booking.com searchresults.html with dest_type=hotel is NOT proof of an exact detail landing. Browser content wins over server URL shape; never count bot-walled bodies as verified full-detail pages. All providers require exact detail landings."
