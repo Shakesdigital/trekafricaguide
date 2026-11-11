@@ -252,7 +252,7 @@
     "No routine tests/builds or repeated broad audits."
   ],
   "next_task_selection": "Rotate to activities next run; owner-email send still blocked on Gmail sign-in.",
-  "last_run": "2026-11-11T16:15:00+03:00",
+  "last_run": "2026-11-11T07:13:00+03:00",
   "task_magnitude": "One complete full guide plus booking and listing cards, or one full property photo collection; do not schedule isolated paragraphs/links.",
   "country_destinations_feature": {
     "status": "complete",
@@ -272,15 +272,15 @@
     "email_id": "1a143a69416cf3d1"
   },
   "rotation": {
-    "last_completed_category": "accommodations",
-    "next_category": "travel_insights",
-    "next_deliverable": "Next run: select a travel-insights planning gap from the live directories; the 2026-11-06 queue candidates are a starting point. Musanze destination research banked for the following destinations turn.",
+    "last_completed_category": "travel_insights",
+    "next_category": "activities",
+    "next_deliverable": "Next run: select an activity gap from live directories; Egypt Giza day tour already published, Nyungwe canopy walk published, Jozani published, Sossusvlei dune excursion published. Next activities could be Atlas Mountains, Okavango mokoro, Victoria Falls walk, or new park activities.",
     "rule": "Finish the individual deliverable and report its live state, then rotate."
   },
   "current_deliverable": {
-    "category": "travel_insights - next run",
-    "rotation": "attractions after that",
-    "note": "Nairobi Serena shipped 2026-11-09 (content 90a38b6); next category: travel insights. Nyungwe numeric-vs-repo pairing anomaly remains an owner-side item."
+    "category": "activities - next run",
+    "rotation": "destinations after that",
+    "note": "Egypt first-visit travel insight published this run; next category: activities. Nyungwe numeric-vs-repo pairing anomaly remains an owner-side item."
   },
   "previous_deliverable_correction": {
     "id": "marrakech-medina-street-food-walk",
@@ -1697,5 +1697,28 @@
       }
     },
     "commit": "340c549 (content) + receipt commit"
+  },
+  "travel_insight_plan_first_egypt_visit": {
+    "id": "plan-first-egypt-visit-cairo-giza-nile-red-sea",
+    "category": "travel_insights",
+    "started": "2026-11-11",
+    "latest_run_note": "Scheduled routine run; executed on schedule.",
+    "selection_evidence": "Live travel-insights archive (HTTP 200, 11 Nov 2026) holds 13 stories; zero Egypt coverage. Live Egypt cluster (all HTTP 200): Egypt country guide, Cairo destination, Cairo & Giza attraction, Giza pyramids guided day tour activity, Marriott Mena House stay. Cairo destination explicitly frames the base decision: \"Plan the stay around one grouping decision before anything else: a Giza-side base for a monument-focused visit, or a central-city base for a museum-and-neighbourhoods visit\" — with no insight behind it. Northern Africa has only two insights (Tunis, Marrakech); Egypt has none.",
+    "scope": "New travel insight: plan-first-egypt-visit-cairo-giza-nile-red-sea (Practical travel, Egypt) — Giza-side vs central Cairo base decision, Cairo/Giza only vs Nile extension vs Red Sea extension, visa rule matrix (e-visa, VOA, new Cairo digital VOA Aug 2026, Sharm 15-day Sinai stamp), museum ticket separation (GEM, NMEC, Egyptian Museum), pyramid interiors, heat/traffic daily rhythm, confirm-before-you-book checklist, packing from official sources. Zero-image publish; six-subject photo backlog logged.",
+    "files": [
+      "content/editorial-overrides.json",
+      "docs/editorial-research/2026-11-11-egypt-first-visit-insight.md",
+      "docs/editorial-progress.json"
+    ],
+    "images": 0,
+    "image_followup": "Six distinct licensed subjects, not reusable from Cairo destination/Marriott Mena House collections: Giza plateau dawn silhouette, Grand Egyptian Museum exterior/atrium, Nile felucca at Cairo corniche sunset, Islamic Cairo market street (Khan el-Khalili/Muizz), Red Sea coral/beach scene, Luxor Temple/Karnak at night. Licensed-reuse review only; official-site imagery is authority-copyrighted.",
+    "booking_cta": "None by design: insight pages carry no product CTA (house pattern); revenue surface goes to published Giza day tour (GetYourGuide via Stay22) and Marriott Mena House (Booking.com via Stay22) cross-links. No booking-destinations.json change.",
+    "key_facts_checked": "UK FCDO Egypt entry requirements (passport 6 months, e-visa 3 months, VOA USD 30 cash, Cairo digital VOA USD 36 card from Aug 2026, Sharm 15-day free stamp, Taba/ferry cash-only, yellow fever cert) — checked 2026-11-11. Experience Egypt (Egyptian Tourism Authority) — four corridors (Nile, Red Sea, Med, Deserts), key museums (GEM, NMEC, Islamic Art, Egyptian Museum), Plan Your Trip structure — checked 2026-11-11. UNESCO Memphis and its Necropolis (ID 86, 1979) — Great Pyramid only surviving ancient wonder, Step Pyramid Djoser, 38+ pyramids, Law 117/1983 amended 2010, Giza Plateau Master Plan — checked 2026-11-11. On-site Cairo destination base decision framing, Giza activity ticket separation, Marriott Mena House Giza-vs-Cairo trade — all live HTTP 200 2026-11-11.",
+    "cms": "Production deploy imports at source_commit; publishable-key read of editorial_documents remains RLS-blocked by design — owner-side CMS check to confirm travel-insights/plan-first-egypt-visit-cairo-giza-nile-red-sea after deploy.",
+    "next_category": "activities",
+    "next_action": "Rotate to activities next run; six-subject photo backlog tracked in the ledger; CMS owner-side check pending (standard).",
+    "status": "published_live_confirmed",
+    "content_commit": "pending",
+    "publication": {}
   }
 }
