@@ -8,9 +8,26 @@
             "planned_target": "Dar SaÃ¯d accommodation page (https://trekafricaguide.com/accommodations/dar-said/) â€” live page verified HTTP 200 with zero dedicated photos (only the regional Tunis And Sidi Bou Said attraction card), next item in the zero-own-photo accommodation rotation.",
             "note": "Run not started: machine-level network outage. Confirmed unreachable by TCP test and HTTPS attempts: github.com and api.github.com (git fetch failed 3x over ~4 minutes), commons.wikimedia.org, en.wikipedia.org, api.openverse.org (504) and unsplash.com (Fastly 151.101.x.x). Reachable: trekafricaguide.com, www.pexels.com, www.flickr.com. A rights-standard review is impossible without Wikimedia Commons/Openverse/Unsplash (a partial review would risk a false 'no eligible photos' conclusion), and no commit can be pushed or deployed. No website files touched; the separate editorial automation's working-tree changes were left untouched.",
             "next_action": "On the next run, retry git fetch first; once GitHub is reachable again, complete the Dar SaÃ¯d exact-property review from the top of the rotation backlog."
-        }
-    ],
-    "follow_ups": [
+        },
+        {
+            "id": "sossusvlei-lodge-pushed-live-pending-2026-11-11",
+            "scheduled_at": "2026-11-11 ~05:5x UTC (08:5x Africa/Kampala)",
+            "status": "blocked_deploy_pending",
+            "planned_target": "Sossusvlei Lodge accommodation page (https://trekafricaguide.com/accommodations/sossusvlei-lodge/) — gallery extended 2 -> 3 dedicated photos: added Frans-Banja Mulder CC BY 3.0 'View from Sossusvlei Lodge in Sesriem' (Wikimedia Commons File:View from Sossusvlei Lodge - panoramio.jpg, curid 46694630, captured 2006-09-19, original 876x584 JPEG, local sha256 64af6db17f56218e15d66921e2f6615d00567c4f6b3b2b3e1eba752bc2dd436c). Commit 2d31df3 pushed to Shakesdigital/trekafricaguide main; production /photo-library.js confirmed carrying the new entry, but page HTML still renders 'See all 2 images' after ~20 minutes — the Netlify production build (npm ci && npm run build) has not shipped the new gallery HTML.",
+            "note": "Images committed and pushed; public/photo-library.js regenerated via scripts/sync-photo-library.mjs and npm run check:build-inputs passed. Push reached GitHub but the live page has not updated within the ~15-minute heartbeat window, so this is NOT claimed as published and no email is attempted. Re-poll production until 'See all 3 images' renders, then verify each asset URL returns HTTP 200 image/jpeg; if the build fails, inspect Netlify build logs for the exact blocker.",
+            "next_action": "Re-poll https://trekafricaguide.com/accommodations/sossusvlei-lodge/ until it renders 'See all 3 images' including sossusvlei-lodge-view-from-lodge-2006.jpg; verify all three asset URLs return HTTP 200 image/jpeg; then finalize this run in completed_runs with live verification and commit/push the checkpoint. Owner email not attempted: no Gmail send tool in harness; record honestly here (email is sent only when a collection is live-confirmed).",
+            "files": [
+                "src/lib/photo-library.js",
+                "public/photo-library.js",
+                "public/images/editorial/sossusvlei-lodge/sossusvlei-lodge-view-from-lodge-2006.jpg",
+                "docs/editorial-research/2026-11-11-sossusvlei-lodge-photo-enrichment.md",
+                "docs/image-enrichment-progress.json"
+            ],
+            "selected_images": [
+                "sossusvlei-lodge-view-from-lodge-2006.jpg"
+            ],
+            "live_verification": null
+        },
         {
             "id": "bwindi-gorilla-trekking-interrupted-2026-10-28",
             "status": "resolved_live_confirmed",
@@ -3749,6 +3766,6 @@
     ],
     "current_run": null,
     "updated": 1,
-    "last_run_at": "2026-11-10 13:1x UTC (16:1x Africa/Kampala) — Hilton Cabo Verde Sal Resort exact-property review, review-only (no eligible photo; Commons, Flickr CC, Openverse, Pexels, Unsplash, Pixabay, StockSnap all checked)",
-    "next_action": "Rotate to accommodations or travel insights per category rotation. Volcanoes NP attraction now at 10/12 target; remaining gaps (park HQ/briefing centre, bamboo zone trail, Kinigi village scenes) recorded for future runs. Reopened-by-rights collections: Governors Camp (4/15), Golden Monkey Trek (6/12), Jollyboys (4/15) remain open for their missing subjects."
+    "last_run_at": "2026-11-11 ~05:5x UTC (08:5x Africa/Kampala) — Sossusvlei Lodge accommodation gallery extended 2 -> 3 photos (Frans-Banja Mulder CC BY 3.0, Commons); commit 2d31df3 pushed to origin/main; production photo-library.js carries the new entry but page HTML still renders 'See all 2 images' after ~20 minutes — Netlify production build pending, live confirmation not yet achieved",
+    "next_action": "Re-poll https://trekafricaguide.com/accommodations/sossusvlei-lodge/ until production renders 'See all 3 images'; verify each asset URL (sossusvlei-lodge courtyard starter, property-patio-2010.jpg, sossusvlei-lodge-view-from-lodge-2006.jpg) returns HTTP 200 image/jpeg; then move this run into completed_runs with live verification and commit/push the checkpoint. No email attempted (no Gmail tool; email only when live-confirmed). Reopened-by-rights collections (Governors Camp 4/15, Golden Monkey Trek 6/12, Jollyboys 4/15) remain open for their missing subjects after this run resolves."
 }
