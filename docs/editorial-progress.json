@@ -272,9 +272,8 @@
     "email_id": "1a143a69416cf3d1"
   },
   "rotation": {
-    "last_completed_category": "travel_insights",
-    "next_category": "activities",
-    "next_deliverable": "Next run: select an activity gap from live directories; Egypt Giza day tour already published, Nyungwe canopy walk published, Jozani published, Sossusvlei dune excursion published. Next activities could be Atlas Mountains, Okavango mokoro, Victoria Falls walk, or new park activities.",
+    "last_completed_category": "local_destinations",
+    "next_category": "accommodations",
     "rule": "Finish the individual deliverable and report its live state, then rotate."
   },
   "current_deliverable": {
@@ -484,11 +483,13 @@
   "latest_run_checkpoint": {
     "date": "2026-11-11 (09:00 UTC scheduled run)",
     "run": "editorial content run (destinations - Musanze local destination)",
-    "status": "content_ready_push_pending",
-    "deliverable_summary": "New local destination Musanze, Rwanda: the second Rwandan destination guide, angled as the trailhead-side base that the transfer-morning insight and Volcanoes attraction both reference without a page.",
-    "evidence": "/countries/rwanda/musanze/ live 404 on 11 Nov 2026; Rwanda country page carried only Kigali.",
-    "photos": "Zero-image honest publish; six-subject backlog in the ledger.",
-    "cms": "Publishable-key reconcile pending this run; editorial_documents/local_destinations RLS/schema-blocked as before; no writes attempted.",
+    "status": "published_pushed_live_confirmed",
+    "live_url": "https://trekafricaguide.com/countries/rwanda/musanze/",
+    "deliverable_summary": "New local destination Musanze, Rwanda (destinations rotation): second Rwandan destination, the trailhead-side base behind the live Volcanoes three-day outline and the Kigali-Volcanoes transfer-morning insight; zero-image honest publish.",
+    "evidence": "/countries/rwanda/musanze/ live 404 on 11 Nov 2026 while Rwanda carried only Kigali.",
+    "photos": "Zero-image; six-subject backlog in the ledger (market streets, caves interior, Buhanga forest, Burera/Ruhondo lake, cycling centre, farmland with Virunga skyline).",
+    "cms": "Publishable-key reconcile 2026-11-11: travel_articles 200 (seeded only), local_destinations 404, editorial_documents 401; mirror pending; no writes attempted.",
+    "owner_email": "Draft prepared and stored in this file (owner_email_draft); owner Gmail sign-in state re-checked during the run.",
     "next_category": "accommodations"
   },
   "activity_volcanoes_golden_monkey_trek": {
@@ -1026,15 +1027,15 @@
     "commit": "dcd779a"
   },
   "email_status": {
-    "run": "2026-11-10 (morning run, Cairo destination)",
+    "run": "2026-11-11 (09:00 UTC run, Musanze destination)",
     "status": "blocked_owner_gmail_signed_out",
-    "detail": "Owner Gmail tab shows the signed-out Google Workspace marketing page (and an accounts.google.com sign-in identifier tab); no sendable session this run. Draft saved below; no takeover requested per routine rule. Sixth+ run awaiting one sign-in."
+    "detail": "Owner Gmail tab shows the accounts.google.com sign-in page (no active owner session in the OpenBot browser); no sendable session this run. Draft saved below; no takeover requested per routine rule."
   },
   "owner_email_draft": {
     "to": "fsddanmugisa@gmail.com",
-    "prepared_at": "2026-11-10T15:16:53.606Z",
-    "subject": "Trek Africa Guide — new travel insight live: Marrakech stay decision (run 10 Nov 15:00 UTC)",
-    "body": "Shipped this run: a new travel insight, \"Where to sleep in Marrakech: a medina riad or a Gueliz hotel\" — Northern Africa’s first story on the site, aimed at the stay decision the Marrakech cluster (destination page, attraction guide, two activities, Rosemary riad) was missing. Decision order: where your evenings happen, what a riad buys you, what Gueliz answers, the medina arrival test, noise/stairs/shared space, and a pre-payment checklist.\n\nLive receipt: https://trekafricaguide.com/travel-insights/where-to-sleep-in-marrakech-riad-or-gueliz/ — HTTP 200, all six gallery photos (Wikimedia Commons, CC-sourced: Jakub Hałun, L. Antoine, Petar Milošević, Val Traveler, Schorle, mwanasimba) serving 200, archive listing confirmed, no markup leak.\n\nBuild: commit f5b0d7c pushed to main (4ea679b..f5b0d7c), clean production build (149 pages), readability guard passed.\n\nBlockers: CMS mirror still pending — editorial_documents/travel_articles remain unreadable/seed-only to the publishable key; owner-side CMS check recommended. Owner Gmail was signed out this run, so this report was stored and sent manually/later. Booking note: Rosemary Marrakech still has no verified booking link; none was substituted.\n\nNext rotation: accommodations."
+    "prepared_at": "2026-11-11T09:11:18.408Z",
+    "subject": "Trek Africa Guide — new Musanze destination guide live (run 11 Nov 09:00 UTC)",
+    "body": "Shipped this run: a new local destination guide, Musanze, Rwanda — the second Rwandan destination on the site and the trailhead-side base page that two live guides referenced without a page behind it.\n\nEvidence: the live URL /countries/rwanda/musanze/ returned 404 before this run while Rwanda carried only the Kigali destination card; the live Volcanoes National Park attraction guide builds its suggested three-day outline on \"a night near Musanze or Kinigi\", and the Kigali–Volcanoes transfer-morning insight (published this morning) frames the \"sleep in Kigali or sleep near Kinigi?\" decision. This page answers that decision from the Musanze side.\n\nLive receipt: https://trekafricaguide.com/countries/rwanda/musanze/ — HTTP 200 verified minutes after push (commit ed7d493, pushed 66b1fc3..ed7d493). Full destination section flow renders; official Visit Rwanda facts render (1,850 m altitude, Kinigi headquarters 13 km away, Buhanga Eco-Park, Musanze Caves formed ~62 million years ago, the Burera/Ruhondo lakes, Africa Rising Cycling Centre, official what-to-wear guidance). Cards: Sabyinyo Silverback Lodge (Where to stay), both Volcanoes primate activities, the transfer-morning insight, and the Volcanoes attraction; Rwanda country page now lists Musanze in Destinations in Rwanda; homepage search lists it. No exposed markup.\n\nPhotos: zero-image honest publish again; six licensed Musanze subjects logged in the backlog (market streets, caves interior, Buhanga forest, Burera/Ruhondo lake with volcano backdrop, cycling centre, farmland with Virunga skyline).\n\nBlockers: owner Gmail still signed out — this report is a draft in docs/editorial-progress.json; one sign-in ships it (and the earlier stored drafts). CMS mirror still pending by design: travel_articles 200 (seeded row only), editorial_documents 401 to the publishable key, local_destinations 404 in the schema cache; owner-side CMS check to confirm local_destinations/musanze recommended.\n\nNext rotation: accommodations.\n\nYour input welcome: review the live Musanze page and the Kigali–Volcanoes transfer-morning insight when convenient."
   },
   "local_destination_nairobi": {
     "id": "nairobi",
@@ -1787,6 +1788,24 @@
     "build_checks": "check:build-inputs passed; production build 155 pages (EDITORIAL_CMS_SYNC=false); readability guard passed on 160; dist verified pre-push (title, 9-section h2 flow, all facts/cross-links, Rwanda country card, homepage search, no markup leak).",
     "next_category": "accommodations",
     "next_action": "Confirm production URL HTTP 200 after Netlify deploy and fill publication here; rotate to accommodations.",
-    "status": "content_ready_push_pending"
+    "status": "published_live_confirmed",
+    "publication": {
+      "content_commit": "ed7d493",
+      "pushed_to": "main",
+      "push_result": "success (66b1fc3..ed7d493)",
+      "pushed_at": "2026-11-11",
+      "live_url": "https://trekafricaguide.com/countries/rwanda/musanze/",
+      "live_http_status": 200,
+      "checked_at": "2026-11-11",
+      "live_distinctive_text": "Musanze, Rwanda | Trek Africa Guide",
+      "live_checks": {
+        "detail": "HTTP 200 (38,102 bytes) ~90 s after push (first check 404 pre-deploy); title correct; 9-section destination h2 flow (Explore Musanze, Highlights, Getting there and around, Best time to visit, Planning your stay, Attractions to explore, Things to do, Where to stay, Travel insights); distinctive copy renders (1,850 m, 13 km to Kinigi HQ, Buhanga Eco-Park, Burera/Ruhondo lakes, Africa Rising Cycling Centre, Musanze Caves, gaiters what-to-wear, Irembo); no exposed markup.",
+        "cards": "Where to stay renders Sabyinyo Silverback Lodge; Things to do renders both Volcanoes primate activity cards; Travel insights renders the transfer-morning insight; Attractions to explore renders Volcanoes NP.",
+        "country_rail": "Rwanda country page renders Destinations in Rwanda including Musanze (plus More destinations in Rwanda rail with Kigali).",
+        "internal_links": "All seven cross-link targets live HTTP 200 (Rwanda country, Kigali destination, Volcanoes attraction, both primate activities, Sabyinyo lodge, transfer-morning insight) and the travel-insights archive lists the cluster.",
+        "archive_home": "Homepage search lists /countries/rwanda/musanze."
+      },
+      "cms_source_commit": "imported at source_commit ed7d493; publishable-key reconcile 2026-11-11: travel_articles 200 (seeded row id:2 only), local_destinations 404 (schema cache), editorial_documents 401 to anon - mirror pending; owner-side CMS check to confirm local_destinations/musanze"
+    }
   }
 }
