@@ -81,16 +81,14 @@
       }
     },
     "marriott-mena-house-cairo": {
-      "url": "https://www.booking.com/hotel/eg/mena-house-oberoi.html",
-      "provider": "booking",
+      "url": "https://www.hotels.com/ho654475/marriott-mena-house-cairo-giza-egypt/",
+      "provider": "hotelscom",
       "title": "Marriott Mena House, Cairo",
       "checked_at": "2026-11-11",
       "evidence": {
-        "source_url": "https://www.booking.com/hotel/eg/mena-house-oberoi.html",
-        "summary": "Primary detail identifies Marriott Mena House at Pyramids Road, Giza, Cairo, Egypt; legacy Oberoi URL remains associated with current Marriott name."
-      },
-      "status": "hold",
-      "hold_reason": "Live production Stay22 click-through on 11 November 2026 opened a multi-property Booking.com searchresults.html page instead of the exact hotel detail page. Alternate locale source also failed. Preserve the exact source URL for repair; suppress booking CTA until a wrapped exact-detail landing is browser-verified."
+        "source_url": "https://www.hotels.com/ho654475/marriott-mena-house-cairo-giza-egypt/",
+        "summary": "11 November 2026: replacement Hotels.com source browser-verified through Stay22 to the exact full property-detail page with matching property name and location, gallery, rooms and policies. Replaces Booking.com search landing; prior hold lifted. Page load timed out but rendered detail content and exact property path were inspected. Numerical review evidence, rates, checkout and attribution not verified."
+      }
     },
     "mount-nelson-a-belmond-hotel": {
       "url": "https://www.booking.com/hotel/za/belmond-mount-nelson.en-gb.html",
@@ -103,16 +101,14 @@
       }
     },
     "ol-tukai-lodge-amboseli": {
-      "url": "https://www.booking.com/hotel/ke/ol-tukai-lodge-amboseli.da.html",
-      "provider": "booking",
+      "url": "https://www.hotels.com/ho508661/ol-tukai-lodge-amboseli-amboseli-kenya/",
+      "provider": "hotelscom",
       "title": "Ol Tukai Lodge Amboseli",
       "checked_at": "2026-11-11",
       "evidence": {
-        "source_url": "https://www.booking.com/hotel/ke/ol-tukai-lodge-amboseli.da.html",
-        "summary": "Primary property detail identifies Ol Tukai Lodge Amboseli in Amboseli, Kenya. Danish locale retained as the directly indexed verified URL."
-      },
-      "status": "hold",
-      "hold_reason": "Live production Stay22 click-through on 11 November 2026 opened a multi-property Booking.com searchresults.html page instead of the exact hotel detail page. Alternate locale source also failed. Preserve the exact source URL for repair; suppress booking CTA until a wrapped exact-detail landing is browser-verified."
+        "source_url": "https://www.hotels.com/ho508661/ol-tukai-lodge-amboseli-amboseli-kenya/",
+        "summary": "11 November 2026: replacement Hotels.com source browser-verified through Stay22 to the exact full property-detail page with matching property name and location, gallery, rooms and policies. Replaces Booking.com search landing; prior hold lifted. Page load timed out but rendered detail content and exact property path were inspected. Numerical review evidence, rates, checkout and attribution not verified."
+      }
     },
     "paraa-safari-lodge": {
       "url": "https://www.booking.com/hotel/ug/paraa-safari-lodge.html",
@@ -280,41 +276,47 @@
       "url": "https://www.booking.com/hotel/rw/kigali-serena.en-gb.html",
       "provider": "booking",
       "title": "Kigali Serena Hotel",
-      "checked_at": "2026-11-09",
+      "checked_at": "2026-11-11",
       "evidence": {
         "source_url": "https://www.booking.com/hotel/rw/kigali-serena.en-gb.html",
         "summary": "Search results (checked 9 November 2026) identify the exact Booking.com detail page \"Kigali Serena Hotel, Kigali\" with a five-star description matching the official Serena property. Direct Booking.com detail fetch was automation-blocked (Ridge Royal standard), so no live rate, availability, numerical rating or review-count claim is made. Identity cross-checked against the official Serena Hotels site."
-      }
+      },
+      "status": "hold",
+      "hold_reason": "11 November 2026 live production Stay22 link opens a multi-property Booking.com searchresults.html page, not the exact property detail. Locale-free source also opens search. Suppress CTA until a replacement wrapped exact-detail landing is browser-verified."
     },
     "nairobi-serena-hotel": {
       "url": "https://www.booking.com/hotel/ke/nairobi-serena.html",
       "provider": "booking",
       "title": "Nairobi Serena Hotel",
-      "checked_at": "2026-11-09",
+      "checked_at": "2026-11-11",
       "evidence": {
         "source_url": "https://www.booking.com/hotel/ke/nairobi-serena.html",
         "summary": "Search results (checked 9 November 2026) identify the exact Booking.com detail page \"Nairobi Serena Hotel, Kenyatta Avenue, 00100 Nairobi\" matching the official Serena property. Direct Booking.com detail fetch was automation-blocked (Ridge Royal standard), so no live rate, availability, numerical rating or review-count claim is made. Identity cross-checked against the official Serena Hotels site."
-      }
+      },
+      "status": "hold",
+      "hold_reason": "11 November 2026 live production Stay22 link opens a multi-property Booking.com searchresults.html page, not the exact property detail. Locale-free source also opens search. Suppress CTA until a replacement wrapped exact-detail landing is browser-verified."
     },
     "mountains-of-the-moon-hotel": {
-      "url": "https://www.booking.com/hotel/ug/mountains-of-the-moon.en-gb.html",
+      "url": "https://www.booking.com/hotel/ug/mountains-of-the-moon.html",
       "provider": "booking",
       "title": "Mountains of the Moon Hotel",
-      "checked_at": "2026-11-10",
+      "checked_at": "2026-11-11",
       "evidence": {
-        "source_url": "https://www.booking.com/hotel/ug/mountains-of-the-moon.en-gb.html",
-        "summary": "Search results (checked 10 November 2026) identify the exact Booking.com detail page for Mountains of the Moon Hotel in Fort Portal, Uganda. Direct Booking.com detail fetch was automation-blocked (Ridge Royal standard), so no live rate, availability, numerical rating or review-count claim is made. Identity cross-checked against the property's official site (mountainsofthemoonhotel.com) with schema.org Hotel markup confirming address, phone, amenities and description."
+        "source_url": "https://www.booking.com/hotel/ug/mountains-of-the-moon.html",
+        "summary": "11 November 2026: live Stay22 link using the en-gb source opened Fort Portal search results. Locale-free source was browser-verified through Stay22 to the full Mountains of the Moon Hotel Fort Portal detail page with availability, facilities, house rules and guest-review sections. Rates, checkout and attribution not verified."
       }
     },
     "zanzibar-white-sand-luxury-villas": {
       "url": "https://www.booking.com/hotel/tz/white-sand-luxury-villas-amp-spa.en-gb.html",
       "provider": "booking",
       "title": "Zanzibar White Sand Luxury Villas & Spa, Paje Beach, Zanzibar",
-      "checked_at": "2026-11-10",
+      "checked_at": "2026-11-11",
       "evidence": {
         "source_url": "https://www.booking.com/hotel/tz/white-sand-luxury-villas-amp-spa.en-gb.html",
         "summary": "Search results (checked 10 November 2026) identify the exact Booking.com detail page for Zanzibar White Sand Luxury Villas & Spa in Paje, Tanzania. Direct Booking.com detail fetch was automation-blocked (Ridge Royal standard), so no live rate, availability, numerical rating or review-count claim is made. Identity cross-checked against the property's official site (whitesandvillas.com)."
-      }
+      },
+      "status": "hold",
+      "hold_reason": "11 November 2026 live production Stay22 link opens a multi-property Booking.com searchresults.html page, not the exact property detail. Locale-free source also opens search. Suppress CTA until a replacement wrapped exact-detail landing is browser-verified."
     }
   },
   "activities": {

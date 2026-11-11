@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T09:36:29.964Z",
+  "updated_at": "2026-11-11T13:28:51.263Z",
   "owner": "booking-links audit agent",
   "ledger": "docs/editorial-research/2026-11-08-booking-links-audit.md",
   "run_1": {
@@ -64,9 +64,10 @@
       "buhoma-community-rest-camp (listing not taking reservations)"
     ],
     "giza_and_lalibela_holds": "Previous holds unchanged this run (OceanAir shell caveat; Amhara advisory).",
-    "accommodations/governors-camp": "Exact Agoda Governors Camp detail page found and browser-readable; Stay22 wrapper to locale-free source demotes to Agoda /search?city=16912. Kept unavailable; do not enable based on direct OTA page alone.",
-    "accommodations/marriott-mena-house-cairo": "Live production Stay22 click-through on 11 November 2026 opened a multi-property Booking.com searchresults.html page instead of the exact hotel detail page. Alternate locale source also failed. Preserve the exact source URL for repair; suppress booking CTA until a wrapped exact-detail landing is browser-verified.",
-    "accommodations/ol-tukai-lodge-amboseli": "Live production Stay22 click-through on 11 November 2026 opened a multi-property Booking.com searchresults.html page instead of the exact hotel detail page. Alternate locale source also failed. Preserve the exact source URL for repair; suppress booking CTA until a wrapped exact-detail landing is browser-verified."
+    "accommodations/governors-camp": "11 November 2026: exact en-nz Agoda variant through Stay22 still opens Masai Mara city search. Kept unavailable; direct property listing alone is insufficient.",
+    "accommodations/kigali-serena-hotel": "11 November 2026 live production Stay22 link opens a multi-property Booking.com searchresults.html page, not the exact property detail. Locale-free source also opens search. Suppress CTA until a replacement wrapped exact-detail landing is browser-verified.",
+    "accommodations/nairobi-serena-hotel": "11 November 2026 live production Stay22 link opens a multi-property Booking.com searchresults.html page, not the exact property detail. Locale-free source also opens search. Suppress CTA until a replacement wrapped exact-detail landing is browser-verified.",
+    "accommodations/zanzibar-white-sand-luxury-villas": "11 November 2026 live production Stay22 link opens a multi-property Booking.com searchresults.html page, not the exact property detail. Locale-free source also opens search. Suppress CTA until a replacement wrapped exact-detail landing is browser-verified."
   },
   "production_verification": {
     "deploy_with_run_1": {
@@ -102,7 +103,7 @@
       "result": "Expedia Hotel-Search landing -> held; CTA confirmed suppressed on production after run-2 deploy"
     }
   ],
-  "next_action": "Recheck remaining Booking.com hotel deep-link/search landings in a real browser (previous dest_type=hotel acceptance was insufficient), prioritizing Marriott Mena House and Ol Tukai alternate exact OTA sources. Recheck Governors Camp Agoda locale/detail variants; Continue unavailable accommodation and attraction rotation.",
+  "next_action": "Continue browser rotation of remaining active hotel Stay22 links, prioritizing Jollyboys Expedia and other Booking.com entries previously accepted via searchresults dest_type=hotel. Repair new Kigali Serena, Nairobi Serena and Zanzibar White Sand holds via exact alternate OTA detail sources; Governors Camp Agoda still demotes to city search.",
   "runs": [
     {
       "date": "2026-11-10",
@@ -171,6 +172,21 @@
         "276f2d1"
       ],
       "production_deploy": "6af43695aacba8a8489da2ba"
+    },
+    {
+      "date": "2026-11-11",
+      "scheduled_for": "2026-11-11T13:22:00Z",
+      "checked": 4,
+      "verified_full_detail": 0,
+      "limited_url_evidence": 0,
+      "fail": 4,
+      "fixed": 3,
+      "added": 0,
+      "new_holds": 3,
+      "restored_booking_options": 2,
+      "gap_candidates_checked": 3,
+      "publication_status": "awaiting_production",
+      "notes": "Direct execution under plan-high-build-light. Synced origin/main e7655c3; read all three checkpoints. Rotating live wrapper slice: Kigali Serena, Nairobi Serena, Mountains of the Moon and Zanzibar White Sand each opened city search results in browser. Mountains of the Moon repaired via locale-free Booking source; full detail rendered in browser. Other three held after locale-free sources also failed (Nairobi was already locale-free). Previous priority holds Marriott Mena House and Ol Tukai restored via exact Hotels.com ho654475 and ho508661 detail pages through Stay22; matching names/locations, galleries, rooms and policies rendered despite navigation timeouts. Kigali Agoda and Governors Camp en-nz Agoda variants both demoted to city search. No checkout, rates, review aggregates or attribution verified. Only registry and own checkpoint changed; unrelated files and deploy archives preserved. No local tests/build; configured Netlify production build will rebuild data."
     }
   ],
   "method_rule": "Booking.com searchresults.html with dest_type=hotel is NOT proof of an exact detail landing. Browser content wins over server URL shape; never count bot-walled bodies as verified full-detail pages. All providers require exact detail landings."
