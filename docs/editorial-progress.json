@@ -1506,5 +1506,47 @@
     "cms_status": "pending (anon read blocked/lagging by design; source_commit f5b0d7c)",
     "next_action": "Rotate to accommodations next run; six-subject photo follow-ups already tracked in the ledger (Rosemary property photos require owner-side imagery rights decision); CMS owner-side check pending (standard).",
     "next_category": "accommodations"
+  },
+  "accommodation_mountains_of_the_moon_hotel": {
+    "id": "mountains-of-the-moon-hotel",
+    "category": "accommodations",
+    "started": "2026-11-10",
+    "latest_run_note": "Scheduled 19:13Z routine run; executed on schedule.",
+    "selection_evidence": "Live Fort Portal destination page (HTTP 200, 10 Nov 2026) explicitly states: 'No accommodation card is shown here because the published Kibale Forest Camp is park-side rather than a Fort Portal city property.' This evidenced gap in the accommodations rotation — a published destination guide with an empty Where to stay rail.",
+    "scope": "New accommodation guide: Mountains of the Moon Hotel, Fort Portal city hotel on 15 acres with Rwenzori Mountain views. Serves as a town base for Tooro heritage (Karuziika Palace, Amabere caves, crater lakes) and Kibale National Park (chimpanzee tracking). Zero-image honest publish; six-subject photo backlog logged. Exact Booking.com detail page search-verified 10 Nov 2026 (direct fetch automation-blocked; Ridge Royal standard). Internal links to Fort Portal destination, Kibale National Park attraction, Kibale chimpanzee trek activity, and Kibale Forest Camp (park-side contrast). Added to Fort Portal destination accommodation_slugs.",
+    "files": [
+      "content/editorial-overrides.json",
+      "content/booking-destinations.json",
+      "content/local-destinations.json",
+      "docs/editorial-research/2026-11-10-mountains-of-the-moon-fort-portal.md",
+      "docs/editorial-progress.json"
+    ],
+    "images": 0,
+    "image_followup": "Six distinct licensed Fort Portal subjects, not reusable from Kibale/other collections: hotel exterior from Rukidi III Street, main building with Rwenzori backdrop, 15-acre gardens, standard room interior, restaurant/dining area, swimming pool with mountain view. Licensed-reuse review only; official-site imagery is operator-copyrighted.",
+    "booking_cta": "Exact Booking.com detail https://www.booking.com/hotel/ug/mountains-of-the-moon.en-gb.html (search-verified 10 Nov 2026); Stay22-wrapped in built page (campaign accommodations_mountains_of_the_moon_hotel). No rate, availability, numerical rating or review-count claims; direct platform fetch automation-blocked (Ridge Royal standard).",
+    "key_facts_checked": "Official website schema.org Hotel markup (address: Plot 29-33 Rukidi III Street, Fort Portal, Western Region, Uganda; phone: +256 775 557840; amenities: swimming pool, restaurant, bar, wellness center; description: 15 acres landscaped gardens with Rwenzori views) — checked 2026-11-10. Booking.com exact property detail page (search-verified 2026-11-10). Fort Portal City Council tourism page (Karuziika Palace, Amabere caves ~7 km, crater lakes) — checked 2026-11-05. Uganda Wildlife Authority Kibale page (~1 hour drive Fort Portal to park, Kanyanchu departures) — checked 2026-11-05.",
+    "cms": "Production deploy imports at source_commit; publishable-key read of editorial_documents remains RLS-blocked by design — owner-side CMS check to confirm accommodations/mountains-of-the-moon-hotel after deploy.",
+    "next_category": "travel_insights",
+    "next_action": "Rotate to travel insights next run; six-subject photo backlog tracked in the ledger; CMS owner-side check pending (standard).",
+    "status": "published_live_confirmed",
+    "content_commit": "bfd6839",
+    "publication": {
+      "content_commit": "bfd6839",
+      "pushed_to": "main",
+      "push_result": "success (rebased over 8bd8273; pushed as 568718f)",
+      "pushed_at": "2026-11-10",
+      "live_url": "https://trekafricaguide.com/accommodations/mountains-of-the-moon-hotel/",
+      "live_http_status": 200,
+      "checked_at": "2026-11-10",
+      "live_distinctive_text": "Mountains of the Moon Hotel | Trek Africa Guide",
+      "live_checks": {
+        "detail": "HTTP 200; title correct; full h2 flow (Why stay here and how to plan your stay, Key amenities, Stay style and budget, What travelers say, Booking option, Other Nearby Accommodations, Nearby Attractions); distinctive copy renders (15 acres, Rwenzori views, Plot 29-33 Rukidi III Street, Karuziika Palace, Amabere caves, Kibale Forest Camp contrast); honest What travelers say section ('No attributable dated guest reviews verified...'); Stay22-wrapped Booking.com link with campaign accommodations_mountains_of_the_moon_hotel; no exposed markup.",
+        "booking": "Exact Stay22-wrapped Booking.com destination confirmed in production HTML (campaign accommodations_mountains_of_the_moon_hotel).",
+        "cards": "Other Nearby Accommodations renders Kibale Forest Camp (park-side contrast). Nearby Attractions renders Kibale National Park. Fort Portal destination page now renders Where to stay section with Mountains of the Moon Hotel card (was empty before this publish).",
+        "archive_home": "Accommodations archive and Uganda country page list the guide.",
+        "internal_links": "Detail page links to /countries/uganda/fort-portal, /attractions/kibale-national-park, /activities/kibale-chimpanzee-trekking, /accommodations/kibale-forest-camp; all render."
+      },
+      "cms_source_commit": "imported at source_commit bfd6839; publishable-key read of editorial_documents remains RLS-blocked by design — owner-side CMS check to confirm accommodations/mountains-of-the-moon-hotel"
+    }
   }
 }
