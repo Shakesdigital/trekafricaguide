@@ -272,10 +272,9 @@
     "email_id": "1a143a69416cf3d1"
   },
   "rotation": {
-    "last_completed_category": "activities",
-    "next_category": "accommodations",
-    "next_deliverable": "Sossusvlei guided dune excursion published 2026-11-10 (activities rotation); next run rotates to accommodations / new destinations before insights.",
-    "rule": "Finish the individual deliverable and report its live state, then rotate."
+    "last_completed_category": "travel_insights",
+    "next_category": "activities",
+    "next_deliverable": "Kigali–Volcanoes transfer morning travel insight published 2026-11-11 (travel insights rotation); next: one evidenced activities gap."
   },
   "current_deliverable": {
     "category": "travel_insights - next run",
@@ -1548,5 +1547,28 @@
       },
       "cms_source_commit": "imported at source_commit bfd6839; publishable-key read of editorial_documents remains RLS-blocked by design — owner-side CMS check to confirm accommodations/mountains-of-the-moon-hotel"
     }
+  },
+  "travel_insight_kigali_volcanoes_transfer_morning": {
+    "id": "plan-kigali-volcanoes-transfer-morning",
+    "category": "travel_insights",
+    "started": "2026-11-11",
+    "latest_run_note": "Routine run executed after internet-outage interruption; receipt for previous publish (accommodation_mountains_of_the_moon_hotel) committed and pushed first (3a8c74d).",
+    "selection_evidence": "Live Kigali destination page (HTTP 200, 11 Nov 2026) explicitly frames Kigali as 'the transfer half of the trek' and advises against scheduling an early trek after a late arrival; live travel-insights directory carries 12 stories and zero Rwanda articles; no insight connects the published Kigali destination, Volcanoes National Park attraction and both Volcanoes primate activity guides. Duplication check: choose-bwindi-or-volcanoes-gorilla-trek compares countries/permits/gateways, plan-kibale-around-chimpanzee-trek is Uganda-specific — no overlap.",
+    "scope": "New travel insight: Kigali–Volcanoes transfer morning planning — Kigali vs Musanze/Kinigi base decision, the fixed 7 a.m. Kinigi reporting spine, realistic 4 a.m. departure framing, split-stay shape for two-trek trips, arrival-day and visa-on-arrival guidance (all-country VOA from 1 Jan 2018; AU/Commonwealth/La Francophonie 30-day fee waiver; $50 single-entry ceiling), packing from official RDB recommendations. Zero-image publish; six-subject photo backlog logged. Kigali travel_insight_slugs updated.",
+    "files": [
+      "content/editorial-overrides.json",
+      "content/local-destinations.json",
+      "docs/editorial-research/2026-11-11-kigali-volcanoes-transfer-morning.md",
+      "docs/editorial-progress.json"
+    ],
+    "images": 0,
+    "image_followup": "Six distinct licensed subjects, not reusable from Volcanoes attraction/activity galleries: Kinigi HQ morning briefing area, bamboo-forest trek trail, licensed mountain gorilla family shot, Kigali skyline at dusk (distinct from destination gallery), Kigali–Musanze corridor road with volcano backdrop, porter/ranger at trailhead. Official Visit Rwanda imagery is RDB copyright; check credits before reuse.",
+    "booking_cta": "None (no verified OTA product for insights). Official Irembo permit portal (irembo.gov.rw gorilla tracking) and RDB booking portal linked as official channels only.",
+    "key_facts_checked": "Visit Rwanda (RDB) Gorilla Tracking page: 7 a.m. Kinigi gathering, family allocation by fitness, hikes 30 min–4+ hrs at 2,500–4,000 m, 12 habituated families, 8 permits/troop/day, 96/day, US $1,500 permit, min age 15, Irembo booking, packing recommendations — checked 2026-11-11. Visit Rwanda Volcanoes NP destination page: Virunga context, what-to-wear — checked 2026-11-11. Rwanda DGIE visa-on-arrival page: all-country VOA from 1 Jan 2018, AU/Commonwealth/La Francophonie 30-day fee waiver, Irembo online option, US $50 single-entry ceiling — checked 2026-11-11. Transfer ~2.5 h each way carried as operator-advertised estimate from our own guides.",
+    "cms": "Production deploy imports at source_commit; publishable-key read of editorial_documents remains RLS-blocked by design — owner-side CMS check to confirm travel-insights/plan-kigali-volcanoes-transfer-morning after deploy.",
+    "next_category": "activities",
+    "next_action": "Rotate to activities next run; six-subject photo backlog tracked in the ledger; CMS owner-side check pending (standard).",
+    "status": "published",
+    "content_commit": "pending"
   }
 }
