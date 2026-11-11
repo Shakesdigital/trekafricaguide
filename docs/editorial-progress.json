@@ -1568,7 +1568,24 @@
     "cms": "Production deploy imports at source_commit; publishable-key read of editorial_documents remains RLS-blocked by design — owner-side CMS check to confirm travel-insights/plan-kigali-volcanoes-transfer-morning after deploy.",
     "next_category": "activities",
     "next_action": "Rotate to activities next run; six-subject photo backlog tracked in the ledger; CMS owner-side check pending (standard).",
-    "status": "published",
-    "content_commit": "pending"
+    "status": "published_live_confirmed",
+    "content_commit": "6251b17",
+    "publication": {
+      "content_commit": "6251b17",
+      "pushed_to": "main",
+      "push_result": "success",
+      "pushed_at": "2026-11-11",
+      "live_url": "https://trekafricaguide.com/travel-insights/plan-kigali-volcanoes-transfer-morning/",
+      "live_http_status": 200,
+      "checked_at": "2026-11-11",
+      "live_distinctive_text": "Kigali to Volcanoes transfer morning: Kigali or Kinigi base? | Trek Africa Guide",
+      "live_checks": {
+        "detail": "HTTP 200 ~1 min after push; title correct; full h2 flow (The morning you are scheduling around, Sleep in Kigali or sleep near Kinigi?, Arrival day and entry checked, Confirm before you settle on a base, What to pack, Three questions travelers actually ask, Continue planning, Sources and scope); distinctive copy renders (US $1,500 permit, 7 a.m. Kinigi gathering, visa on arrival from 1 January 2018, US $50 single-entry ceiling); no exposed markup.",
+        "archive": "Travel insights archive lists the new story.",
+        "parent": "Kigali destination page links the insight via travel_insight_slugs card.",
+        "internal_links": "Kigali destination, Volcanoes attraction, both Volcanoes activity guides, Kigali Serena accommodation, Bwindi-or-Volcanoes insight, Rwanda country page all resolve (country page HTTP 200 checked)."
+      },
+      "cms_source_commit": "imported at source_commit 6251b17; publishable-key read of editorial_documents remains RLS-blocked by design — owner-side CMS check to confirm travel-insights/plan-kigali-volcanoes-transfer-morning"
+    }
   }
 }
