@@ -40,11 +40,10 @@ The property sells direct through The Bushcamp Company. No exact OTA property de
 
 ## Publication record
 
-(to be filled with real commit hashes and live-check results after validation, push and deployment — never pre-filled)
-
-- Content commit: pending
+- Content commit: 9e38952 (the Mfuwe Lodge content edits travelled in this pushed commit — a concurrent agent committed the shared content files at 07:49 while my edits were in the working tree, and the commit went live; single-record state verified before this run's own push)
+- Ledger commit: a65c947
 - Live URL: https://trekafricaguide.com/accommodations/mfuwe-lodge/
-- Live HTTP status: pending
-- Live checks: pending
-- Receipt commit: pending
+- Live HTTP status: 200 (checked 2026-11-11, page length matches the locally built page byte-for-byte at 32,117)
+- Live checks: new distinctive copy present (inside-the-park framing, 18-chalet breakdown, MFU/Proflight access and 23 kg note, three-season framing, no-OTA hedge, wafwa/wild-mango detail); honest booking rail retained ("not yet available", no Stay22 CTA on the page); nearby-attraction card (South Luangwa) present; no exposed markup; hero + 3-image editorial gallery intact and first JPEG asset HTTP 200 image/jpeg; accommodations archive and Zambia country page both carry the record.
+- Receipt commit: (this file's next commit)
 - CMS: production build ran EDITORIAL_CMS_SYNC=true, so the deploy imported the document at source_commit; publishable-key reads of editorial_documents are RLS-blocked (401, verified pattern) — owner-side CMS check pending: the updated document should appear under accommodations/mfuwe-lodge.
