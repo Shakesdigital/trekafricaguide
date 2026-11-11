@@ -32,8 +32,16 @@
         "see_all_text": "See all 2 images",
         "distinct_property_image_count": 2,
         "new_asset": null,
-        "asset_http_statuses": [200, 200, 200],
-        "asset_content_types": ["image/jpeg", "image/jpeg", "image/jpeg"],
+        "asset_http_statuses": [
+          200,
+          200,
+          200
+        ],
+        "asset_content_types": [
+          "image/jpeg",
+          "image/jpeg",
+          "image/jpeg"
+        ],
         "note": "Page HTTP 200 but still renders 'See all 2 images'; new asset absent from page HTML. All three asset URLs return HTTP 200 image/jpeg including the pushed 2006 view (620510 bytes, matches local file) - asset file is live, production page HTML/gallery has not shipped the pushed entry after ~70+ minutes since commit 2d31df3. Blocker persists; not claimed as published."
       }
     },
@@ -77,6 +85,78 @@
   },
   "completed_runs": [
     null,
+    {
+      "id": "volcanoes-gorilla-trek-gallery-3-to-7-2026-11-11",
+      "page_url": "https://trekafricaguide.com/activities/volcanoes-gorilla-trek/",
+      "page_type": "activity",
+      "status": "published_live_confirmed",
+      "previous_photo_count": 3,
+      "photo_count": 7,
+      "new_photo_count": 4,
+      "checked_date": "2026-11-11",
+      "started_at": "2026-11-11 08:07 UTC (11:07 Africa/Kampala)",
+      "initial_live_verification": "Production activity page HTTP 200, read in full: 3 dedicated photos (2 stock, 1 Pexels); gallery renders 'See all 3 images'.",
+      "source_ledger": "docs/editorial-research/2026-11-11-volcanoes-gorilla-trek-photo-enrichment.md",
+      "note": "Added four rights-clean exact-subject Volcanoes National Park gorilla photographs from Wikimedia Commons (CC BY 2.0 / CC BY-SA 4.0): female gorilla (Derek Keats, 2006), gorilla group (Mahorogeoffrey, 2019), Susa group gorilla in Karisimbi thicket (Emmanuel Kwizera, 2019), gorillas at Volcanoes NP (Voyager, 2017). All verified exact Volcanoes NP location; exact-location rule applied (excluded Mgahinga, Bwindi, Virunga NP files). Gallery extended 3 -> 7 toward 7-12 activity target. Repo synced to origin/main (editorial automation changes merged; untracked files untouched).",
+      "files": [
+        "src/lib/photo-library.js",
+        "public/photo-library.js",
+        "public/images/editorial/volcanoes-gorilla-trek/vnp-female-gorilla-2006-keats.jpg",
+        "public/images/editorial/volcanoes-gorilla-trek/vnp-gorillas-group-2019-mahorogeoffrey.jpg",
+        "public/images/editorial/volcanoes-gorilla-trek/vnp-susa-group-gorilla-2019-kwizera.jpg",
+        "public/images/editorial/volcanoes-gorilla-trek/vnp-gorillas-2017-voyager.jpg",
+        "docs/editorial-research/2026-11-11-volcanoes-gorilla-trek-photo-enrichment.md",
+        "docs/image-enrichment-progress.json"
+      ],
+      "selected_images": [
+        "vnp-female-gorilla-2006-keats.jpg",
+        "vnp-gorillas-group-2019-mahorogeoffrey.jpg",
+        "vnp-susa-group-gorilla-2019-kwizera.jpg",
+        "vnp-gorillas-2017-voyager.jpg"
+      ],
+      "excluded_candidates_note": "Mgahinga NP files (different park), Virunga NP DRC files, generic 'mountain gorilla' without park evidence, ND/NC licences, files with tourist interaction as primary subject.",
+      "mandatory_input_check": "Passed node scripts/sync-photo-library.mjs and npm run check:build-inputs; checked 2026-11-11.",
+      "published_commit": "d140e85",
+      "pushed_at": "2026-11-11 08:1x UTC (11:1x Africa/Kampala)",
+      "email_id": null,
+      "report_status": "NOT SENT: no Gmail send tool/account available in this harness (standing limitation); owner receives this progress in chat. Subject prepared: 'Trek Africa Guide image update — 2026-11-11 (Kampala time)'.",
+      "live_verification": {
+        "checked_at": "2026-11-11 08:02 UTC (11:02 Africa/Kampala)",
+        "page_http_status": 200,
+        "see_all_text": "See all 7 images",
+        "hero_og_image": "/images/stock/starter/volcanoes-national-park.jpg",
+        "all_new_filenames_in_page": true,
+        "asset_http_statuses": [
+          200,
+          200,
+          200,
+          200,
+          200,
+          200,
+          200
+        ],
+        "asset_content_types": [
+          "image/jpeg",
+          "image/jpeg",
+          "image/jpeg",
+          "image/jpeg",
+          "image/jpeg",
+          "image/jpeg",
+          "image/jpeg"
+        ],
+        "asset_content_lengths": [
+          379793,
+          748773,
+          400312,
+          153639,
+          87659,
+          1861385,
+          1974985
+        ],
+        "note": "Production serves the seven-image Volcanoes gorilla trek gallery with stock hero; all seven assets return HTTP 200 image/jpeg with byte counts matching the stored files."
+      },
+      "next_action": "Rotate to another underfilled category (attractions, travel insights, or accommodations). Reopened-by-rights collections: Governors Camp (4/15), Golden Monkey Trek (6/12), Jollyboys (4/15) remain open for missing subjects. Sossusvlei Lodge run still blocked_deploy_pending (gallery HTML not shipped)."
+    },
     {
       "id": "gorilla-forest-lodge-aka-sanctuary-exact-property-no-eligible-photo-review",
       "page_url": "https://trekafricaguide.com/accommodations/sanctuary-gorilla-forest-camp/",
@@ -3775,8 +3855,8 @@
     }
   ],
   "updated": 1,
-  "last_run_at": "2026-11-11 ~05:5x UTC (08:5x Africa/Kampala) — Sossusvlei Lodge accommodation gallery extended 2 -> 3 photos (Frans-Banja Mulder CC BY 3.0, Commons); commit 2d31df3 pushed to origin/main; production photo-library.js carries the new entry but page HTML still renders 'See all 2 images' after ~20 minutes — Netlify production build pending, live confirmation not yet achieved",
-  "next_action": "Re-poll https://trekafricaguide.com/accommodations/sossusvlei-lodge/ until production renders 'See all 3 images'; verify each asset URL (sossusvlei-lodge courtyard starter, property-patio-2010.jpg, sossusvlei-lodge-view-from-lodge-2006.jpg) returns HTTP 200 image/jpeg; then move this run into completed_runs with live verification and commit/push the checkpoint. No email attempted (no Gmail tool; email only when live-confirmed). Reopened-by-rights collections (Governors Camp 4/15, Golden Monkey Trek 6/12, Jollyboys 4/15) remain open for their missing subjects after this run resolves.",
+  "last_run_at": "2026-11-11 08:02 UTC (11:02 Africa/Kampala) — Volcanoes gorilla trek activity gallery extended 3 -> 7 photos (4 new CC BY/CC BY-SA from Wikimedia Commons); commit d140e85 pushed to origin/main; production page renders \"See all 7 images\", all 7 asset URLs HTTP 200 image/jpeg",
+  "next_action": "Sossusvlei Lodge run still blocked_deploy_pending (re-poll until \"See all 3 images\" renders). Next enrichment: rotate to another underfilled category (attractions, travel insights, or accommodations). Reopened-by-rights collections: Governors Camp (4/15), Golden Monkey Trek (6/12), Jollyboys (4/15) remain open for missing subjects.",
   "current_run": {
     "id": "volcanoes-golden-monkey-six-photo-gap-fill-third-pass-2026-11-11",
     "page_url": "https://trekafricaguide.com/activities/volcanoes-golden-monkey-trekking/",
