@@ -71,24 +71,26 @@
       }
     },
     "maribela-hotel": {
-      "url": "https://www.booking.com/hotel/et/maribela-lalibela.en-gb.html",
+      "url": "https://www.booking.com/hotel/et/maribela-lalibela.html",
       "provider": "booking",
       "title": "Maribela Hotel",
-      "checked_at": "2026-10-11",
+      "checked_at": "2026-11-11",
       "evidence": {
-        "source_url": "https://www.booking.com/hotel/et/maribela-lalibela.en-gb.html",
-        "summary": "Primary property detail identifies Maribela Hotel in Lalibela, Ethiopia."
+        "source_url": "https://www.booking.com/hotel/et/maribela-lalibela.html",
+        "summary": "Real-browser Stay22 check on 11 November 2026: the previous en-gb URL opened a multi-property Lalibela search despite dest_type=hotel. The locale-free source opens the full Maribela Hotel detail page in Lalibela. No rates, availability, numerical review or attribution claims made."
       }
     },
     "marriott-mena-house-cairo": {
       "url": "https://www.booking.com/hotel/eg/mena-house-oberoi.html",
       "provider": "booking",
       "title": "Marriott Mena House, Cairo",
-      "checked_at": "2026-10-11",
+      "checked_at": "2026-11-11",
       "evidence": {
         "source_url": "https://www.booking.com/hotel/eg/mena-house-oberoi.html",
         "summary": "Primary detail identifies Marriott Mena House at Pyramids Road, Giza, Cairo, Egypt; legacy Oberoi URL remains associated with current Marriott name."
-      }
+      },
+      "status": "hold",
+      "hold_reason": "Live production Stay22 click-through on 11 November 2026 opened a multi-property Booking.com searchresults.html page instead of the exact hotel detail page. Alternate locale source also failed. Preserve the exact source URL for repair; suppress booking CTA until a wrapped exact-detail landing is browser-verified."
     },
     "mount-nelson-a-belmond-hotel": {
       "url": "https://www.booking.com/hotel/za/belmond-mount-nelson.en-gb.html",
@@ -104,11 +106,13 @@
       "url": "https://www.booking.com/hotel/ke/ol-tukai-lodge-amboseli.da.html",
       "provider": "booking",
       "title": "Ol Tukai Lodge Amboseli",
-      "checked_at": "2026-10-11",
+      "checked_at": "2026-11-11",
       "evidence": {
         "source_url": "https://www.booking.com/hotel/ke/ol-tukai-lodge-amboseli.da.html",
         "summary": "Primary property detail identifies Ol Tukai Lodge Amboseli in Amboseli, Kenya. Danish locale retained as the directly indexed verified URL."
-      }
+      },
+      "status": "hold",
+      "hold_reason": "Live production Stay22 click-through on 11 November 2026 opened a multi-property Booking.com searchresults.html page instead of the exact hotel detail page. Alternate locale source also failed. Preserve the exact source URL for repair; suppress booking CTA until a wrapped exact-detail landing is browser-verified."
     },
     "paraa-safari-lodge": {
       "url": "https://www.booking.com/hotel/ug/paraa-safari-lodge.html",

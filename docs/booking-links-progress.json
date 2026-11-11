@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T17:25:00.000Z",
+  "updated_at": "2026-11-11T09:31:55.747Z",
   "owner": "booking-links audit agent",
   "ledger": "docs/editorial-research/2026-11-08-booking-links-audit.md",
   "run_1": {
@@ -64,7 +64,10 @@
       "desert-luxury-camp",
       "buhoma-community-rest-camp (listing not taking reservations)"
     ],
-    "giza_and_lalibela_holds": "Previous holds unchanged this run (OceanAir shell caveat; Amhara advisory)."
+    "giza_and_lalibela_holds": "Previous holds unchanged this run (OceanAir shell caveat; Amhara advisory).",
+    "accommodations/governors-camp": "Exact Agoda Governors Camp detail page found and browser-readable; Stay22 wrapper to locale-free source demotes to Agoda /search?city=16912. Kept unavailable; do not enable based on direct OTA page alone.",
+    "accommodations/marriott-mena-house-cairo": "Live production Stay22 click-through on 11 November 2026 opened a multi-property Booking.com searchresults.html page instead of the exact hotel detail page. Alternate locale source also failed. Preserve the exact source URL for repair; suppress booking CTA until a wrapped exact-detail landing is browser-verified.",
+    "accommodations/ol-tukai-lodge-amboseli": "Live production Stay22 click-through on 11 November 2026 opened a multi-property Booking.com searchresults.html page instead of the exact hotel detail page. Alternate locale source also failed. Preserve the exact source URL for repair; suppress booking CTA until a wrapped exact-detail landing is browser-verified."
   },
   "production_verification": {
     "deploy_with_run_1": {
@@ -91,7 +94,7 @@
       "result": "Expedia Hotel-Search landing -> held; CTA confirmed suppressed on production after run-2 deploy"
     }
   ],
-  "next_action": "Re-research the eight unavailable accommodations (incl. a fresh Agoda pass for The Place Resort Tokeh) and the Great Zimbabwe/Kibale gaps with real-browser sessions; then sweep remaining attractions/destination pages for booking coverage.",
+  "next_action": "FIRST verify this run publication and Maribela production click if pending. Then recheck remaining Booking.com hotel deep-link/search landings in a real browser (previous dest_type=hotel acceptance was insufficient), prioritizing Marriott Mena House and Ol Tukai alternate exact OTA sources. Recheck Governors Camp Agoda locale/detail variants; new exact Tokeh Agoda candidate https://www.agoda.com/en-ie/the-place-resort-at-tokeh-beach-h88167521/hotel/toke-sl.html needs Stay22 exact-detail verification. Continue unavailable accommodation and attraction rotation.",
   "runs": [
     {
       "date": "2026-11-10",
@@ -140,6 +143,20 @@
       "fail": 0,
       "fixes": 0,
       "notes": "Rotating slice re-verification at 17:25 UTC (scheduled 4-hour audit). Registry unchanged at 63 active links; no unfinished checkpoint priority (gap re-research of the eight unavailable accommodations, Great Zimbabwe and Kibale needs real-browser sessions, unavailable this run — no Playwright install and Expedia 429s this IP). Slice: casa-del-papa, hilton-cabo-verde-sal-resort, kruger-shalati, les-paletuviers (Booking.com detail URLs all HTTP 202 bot-walled, no redirect, final URL equals the recorded exact detail path — Ridge Royal standard, limited evidence, no rate/review/attribution claims); maasai-mara-balloon-safari and atlas-mountains-day-trip (GYG product pages live HTTP 200 with exact product content, t-IDs intact). 1 Expedia re-probe (jollyboys-backpackers h14704528): 429 again, held active, server chain last decoded to the exact property page, real-browser re-attempt next rotation — not counted as a failure. Production homepage polled HTTP 200; nothing changed in content/booking-destinations.json, so no rebuild, no deploy and no production click-verify of new/changed links. Result: sampled slice exact, 0 failures, 0 fixes, no registry changes. Gap class held unchanged (the-place-resort-tokeh Expedia Hotel-Search hold; eight unavailable accommodations; Great Zimbabwe; Kibale; nyungwe queued for re-research at queue rotation). next_action unchanged."
+    },
+    {
+      "date": "2026-11-11",
+      "scheduled_for": "2026-11-11T09:22:00Z",
+      "checked": 8,
+      "verified_full_detail": 1,
+      "limited_url_evidence": 4,
+      "fail": 3,
+      "fixed": 1,
+      "added": 0,
+      "new_holds": 2,
+      "notes": "Live-page wrapper slice: Maribela, Marriott Mena House, Mount Nelson, Ol Tukai, Paraa, Serengeti Serena, Serengeti balloon t383490, Table Mountain t302403. Browser confirmed Mount Nelson exact full-detail; Paraa/Serengeti paths exact server-side but HTTP202; GYG paths exact but HTTP403. Three search landings browser-confirmed: Maribela repaired via locale-free URL; Marriott and Ol Tukai held after alternate locale also failed. Prior counts of searchresults dest_type=hotel as exact are not reliable. Governors Camp direct Agoda page matched name/location but wrapper demoted to city search; kept unavailable. Tokeh direct Agoda detail candidate found, wrapper not yet checked. Publication pending.",
+      "publication_status": "pending"
     }
-  ]
+  ],
+  "method_rule": "Booking.com searchresults.html with dest_type=hotel is NOT proof of an exact detail landing. Browser content wins over server URL shape; never count bot-walled bodies as verified full-detail pages. All providers require exact detail landings."
 }
