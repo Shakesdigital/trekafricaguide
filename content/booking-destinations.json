@@ -81,14 +81,16 @@
       }
     },
     "marriott-mena-house-cairo": {
-      "url": "https://www.hotels.com/ho654475/marriott-mena-house-cairo-giza-egypt/",
-      "provider": "hotelscom",
+      "url": "https://www.booking.com/hotel/eg/mena-house-oberoi.html",
+      "provider": "booking",
       "title": "Marriott Mena House, Cairo",
       "checked_at": "2026-11-11",
       "evidence": {
-        "source_url": "https://www.hotels.com/ho654475/marriott-mena-house-cairo-giza-egypt/",
-        "summary": "11 November 2026: replacement Hotels.com source browser-verified through Stay22 to the exact full property-detail page with matching property name and location, gallery, rooms and policies. Replaces Booking.com search landing; prior hold lifted. Page load timed out but rendered detail content and exact property path were inspected. Numerical review evidence, rates, checkout and attribution not verified."
-      }
+        "source_url": "https://www.booking.com/hotel/eg/mena-house-oberoi.html",
+        "summary": "Primary detail identifies Marriott Mena House at Pyramids Road, Giza, Cairo, Egypt; legacy Oberoi URL remains associated with current Marriott name."
+      },
+      "status": "hold",
+      "hold_reason": "11 November 2026: Booking.com and the replacement Hotels.com ho654475 both fail exact-detail live click-through. Hotels.com initially rendered detail during candidate research, but the production click opened multi-property Hotel-Search results (browser content confirmed). Keep held until a stable exact wrapped detail landing is verified."
     },
     "mount-nelson-a-belmond-hotel": {
       "url": "https://www.booking.com/hotel/za/belmond-mount-nelson.en-gb.html",
