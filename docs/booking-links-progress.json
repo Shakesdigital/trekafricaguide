@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T09:34:05.358Z",
+  "updated_at": "2026-11-11T09:36:29.964Z",
   "owner": "booking-links audit agent",
   "ledger": "docs/editorial-research/2026-11-08-booking-links-audit.md",
   "run_1": {
@@ -75,6 +75,15 @@
       "elmina": "attractions/elmina-castle/ contains Stay22 t834942 link",
       "emerson": "accommodations/emerson-spice/ contains the Stay22 expedia link (run-1 state)",
       "method": "HTTP 200 + presence checks on production HTML"
+    },
+    "2026-11-11T09:22:00Z": {
+      "checked_at": "2026-11-11T09:36:29.964Z",
+      "deploy_id": "6af43695aacba8a8489da2ba",
+      "commit": "276f2d1051987b22897acfe67dae63e6b2ec7b93",
+      "maribela": "Production source is locale-free /hotel/et/maribela-lalibela.html; real-browser wrapped landing renders Maribela Hotel full detail.",
+      "tokeh": "Production Agoda wrapper lands on /en-ie/the-place-resort-at-tokeh-beach-h88167521/hotel/toke-sl.html, heading The Place Resort At Tokeh Beach, Peninsula Road/Toke; exact full detail.",
+      "holds": "Marriott Mena House and Ol Tukai each return HTTP200 with no Stay22 booking href.",
+      "limits": "Four sampled links have URL-only evidence due HTTP202/403 bodies. Ratings, availability, checkout and attribution not verified."
     }
   },
   "constraints_kept": {
@@ -93,7 +102,7 @@
       "result": "Expedia Hotel-Search landing -> held; CTA confirmed suppressed on production after run-2 deploy"
     }
   ],
-  "next_action": "FIRST verify this run publication and Maribela/Tokeh production clicks if pending. Then recheck remaining Booking.com hotel deep-link/search landings in a real browser (previous dest_type=hotel acceptance was insufficient), prioritizing Marriott Mena House and Ol Tukai alternate exact OTA sources. Recheck Governors Camp Agoda locale/detail variants; Continue unavailable accommodation and attraction rotation.",
+  "next_action": "Recheck remaining Booking.com hotel deep-link/search landings in a real browser (previous dest_type=hotel acceptance was insufficient), prioritizing Marriott Mena House and Ol Tukai alternate exact OTA sources. Recheck Governors Camp Agoda locale/detail variants; Continue unavailable accommodation and attraction rotation.",
   "runs": [
     {
       "date": "2026-11-10",
@@ -153,10 +162,15 @@
       "fixed": 2,
       "added": 0,
       "new_holds": 2,
-      "notes": "Live-page wrapper slice: Maribela, Marriott Mena House, Mount Nelson, Ol Tukai, Paraa, Serengeti Serena, Serengeti balloon t383490, Table Mountain t302403. Browser confirmed Mount Nelson exact full-detail; Paraa/Serengeti paths exact server-side but HTTP202; GYG paths exact but HTTP403. Three search landings browser-confirmed: Maribela repaired via locale-free URL; Marriott and Ol Tukai held after alternate locale also failed. Prior counts of searchresults dest_type=hotel as exact are not reliable. Governors Camp direct Agoda page matched name/location but wrapper demoted to city search; kept unavailable. Tokeh restored via exact Agoda property h88167521: wrapped browser landing has exact property name, Peninsula Road/Toke address, room options and full detail tabs. Review score/count not verified and disclosed. Publication pending.",
-      "publication_status": "pending",
+      "notes": "Live-page wrapper slice: Maribela, Marriott Mena House, Mount Nelson, Ol Tukai, Paraa, Serengeti Serena, Serengeti balloon t383490, Table Mountain t302403. Browser confirmed Mount Nelson exact full-detail; Paraa/Serengeti paths exact server-side but HTTP202; GYG paths exact but HTTP403. Three search landings browser-confirmed: Maribela repaired via locale-free URL; Marriott and Ol Tukai held after alternate locale also failed. Prior counts of searchresults dest_type=hotel as exact are not reliable. Governors Camp direct Agoda page matched name/location but wrapper demoted to city search; kept unavailable. Tokeh restored via exact Agoda property h88167521: wrapped browser landing has exact property name, Peninsula Road/Toke address, room options and full detail tabs. Review score/count not verified and disclosed. Published and live-confirmed: Maribela production wrapper opens full Booking.com Maribela detail page; Tokeh production wrapper opens exact Agoda property detail page. Marriott Mena House and Ol Tukai production pages HTTP200 with no Stay22 booking anchor. Netlify production build ready for 276f2d1 at 09:35:36 UTC. No local rebuild or test suite run; Netlify ran the configured production build. Other agents files and existing deploy archives preserved.",
+      "publication_status": "live_confirmed",
       "restored_booking_options": 1,
-      "gap_candidates_checked": 2
+      "gap_candidates_checked": 2,
+      "content_commits": [
+        "f9964da",
+        "276f2d1"
+      ],
+      "production_deploy": "6af43695aacba8a8489da2ba"
     }
   ],
   "method_rule": "Booking.com searchresults.html with dest_type=hotel is NOT proof of an exact detail landing. Browser content wins over server URL shape; never count bot-walled bodies as verified full-detail pages. All providers require exact detail landings."
