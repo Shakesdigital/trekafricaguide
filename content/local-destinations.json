@@ -935,7 +935,9 @@
     "accommodation_slugs": [
       "great-zimbabwe-hotel"
     ],
-    "travel_insight_slugs": [],
+    "travel_insight_slugs": [
+      "plan-great-zimbabwe-monument-days-from-masvingo"
+    ],
     "highlights": [
       "About 27-30 km from Great Zimbabwe National Monument, the UNESCO World Heritage site the country is named for",
       "Lake Mutirikwi and the Kyle Recreational Park: boating, bass fishing and white-rhino game viewing about 25-30 km east of town",
