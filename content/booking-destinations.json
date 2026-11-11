@@ -55,11 +55,14 @@
       "url": "https://www.booking.com/hotel/za/kruger-shalati-the-train-on-the-bridge.html",
       "provider": "booking",
       "title": "Kruger Shalati - Train on The Bridge & Garden Suites",
-      "checked_at": "2026-10-11",
+      "checked_at": "2026-11-12",
       "evidence": {
         "source_url": "https://www.booking.com/hotel/za/kruger-shalati-the-train-on-the-bridge.html",
-        "summary": "Primary detail identifies the train and garden suites property in Skukuza, South Africa."
-      }
+        "summary": "Primary detail identifies the train and garden suites property in Skukuza, South Africa.",
+        "redirect_check": "12 November 2026 midnight routine: wrapped browser landings alternate between property detail and multi-property search; publication click-through did not establish a stable exact listing. Held until a reliable exact-detail source is verified."
+      },
+      "status": "hold",
+      "hold_reason": "12 November 2026 midnight routine: wrapped browser landings alternate between property detail and multi-property search; publication click-through did not establish a stable exact listing. Held until a reliable exact-detail source is verified."
     },
     "les-paletuviers": {
       "url": "https://www.booking.com/hotel/sn/les-pala-c-tuviers.en-gb.html",
@@ -175,15 +178,17 @@
       "notes": "Review evidence is limited: no current guest rating or review count verified. Check the provider for room availability and terms."
     },
     "victoria-falls-hotel": {
-      "url": "https://www.booking.com/hotel/zw/the-victoria-falls.html",
+      "url": "https://www.booking.com/hotel/zw/the-victoria-falls.en-gb.html",
       "provider": "booking",
       "title": "The Victoria Falls Hotel",
       "checked_at": "2026-11-12",
       "evidence": {
-        "source_url": "https://www.booking.com/hotel/zw/the-victoria-falls.html",
+        "source_url": "https://www.booking.com/hotel/zw/the-victoria-falls.en-gb.html",
         "summary": "Primary detail identifies 1 Mallet Drive, Victoria Falls, Zimbabwe and historic 1904 hotel.",
-        "redirect_check": "12 November 2026 (Kampala), midnight routine: existing production Stay22 click opened a multi-property search. Locale-free exact source through the same resolver rendered the matching full property detail page in browser. Navigation sometimes timed out after property content rendered. No rates, availability, updated review aggregates, checkout or attribution verified."
-      }
+        "redirect_check": "12 November 2026 midnight routine: wrapped browser landings alternate between property detail and multi-property search; publication click-through did not establish a stable exact listing. Held until a reliable exact-detail source is verified."
+      },
+      "status": "hold",
+      "hold_reason": "12 November 2026 midnight routine: wrapped browser landings alternate between property detail and multi-property search; publication click-through did not establish a stable exact listing. Held until a reliable exact-detail source is verified."
     },
     "camp-okavango": {
       "status": "unavailable",

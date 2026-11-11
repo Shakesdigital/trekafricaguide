@@ -11,3 +11,7 @@ Repaired Casa del Papa, Mount Nelson and Victoria Falls Hotel using locale-free 
 Research references: https://www.booking.com/hotel/ug/red-chilli-rest-camp.en-gb.html ; https://www.booking.com/hotel/ug/paraa-safari-lodge.pt-br.html . No updated numerical reviews copied. Availability, rates, checkout and attribution unverified.
 
 Publication: pending.
+
+## Publication correction
+
+71e46cc deployed ready as 6af4db6962c42a8ec096076c. Live clicks opened Casa del Papa and Mount Nelson in new browser tabs despite target modification; inspected exact names/addresses, property paths, availability, facilities and house rules in those tabs. Victoria Falls Hotel live click demoted to search; withdrew replacement and held original source. Earlier Kruger Shalati popup also showed Skukuza search, despite later exact detail; held as unstable. Corrected initial classification: **52 pass / 11 fail**. Final proposed changes: **2 repairs / 9 new holds**. Previous pass counts above are superseded. Pending correction deploy verification.
