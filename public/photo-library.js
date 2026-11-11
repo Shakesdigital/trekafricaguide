@@ -1,7 +1,7 @@
 // Curated source. Run node scripts/sync-photo-library.mjs after editing.
 // Curated free photography; source and licence metadata travel with each image.
 export const photoLibrary = {
-  "updated_at": "2026-11-10",
+  "updated_at": "2026-11-11",
   "images": {
     "/images/editorial/marrakech-riad-or-gueliz/gueliz-avenue-2006.jpg": {
       "slug": "gueliz-avenue-2006-mwanasimba",
@@ -2460,6 +2460,29 @@ export const photoLibrary = {
       "checked_at": "2026-10-22",
       "captured_at": "2010-02-24",
       "description": "View from a shaded patio at Sossusvlei Lodge, photographed 24 February 2010. Archival property photograph; it does not establish the present view or room category."
+    },
+    "/images/editorial/sossusvlei-lodge/sossusvlei-lodge-view-from-lodge-2006.jpg": {
+      "slug": "sossusvlei-lodge",
+      "local_path": "/images/editorial/sossusvlei-lodge/sossusvlei-lodge-view-from-lodge-2006.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:View_from_Sossusvlei_Lodge_-_panoramio.jpg",
+      "source_revision": "Commons file curid 46694630, checked 2026-11-11",
+      "creator": "Frans-Banja Mulder",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "source_published_at": null,
+      "captured_at": "2006-09-19",
+      "sha256": "64af6db17f56218e15d66921e2f6615d00567c4f6b3b2b3e1eba752bc2dd436c",
+      "exact_subject": true,
+      "subject": "Desert view from Sossusvlei Lodge near Sesriem, Namibia",
+      "alt": "Desert slopes and open Namib-Naukluft scenery seen from the grounds of Sossusvlei Lodge at Sesriem.",
+      "caption": "View from Sossusvlei Lodge in Sesriem, photographed 19 September 2006. Frans-Banja Mulder, CC BY 3.0 via Wikimedia Commons. Original image unchanged.",
+      "property": true,
+      "kind": "photograph",
+      "requires_attribution": true,
+      "changes": "Downloaded from the Wikimedia Commons original at 876 pixels wide, the largest openly listed size; aspect ratio preserved; no other edits.",
+      "checked_at": "2026-11-11",
+      "exact_subject_evidence": "Commons description 'View from Sossusvlei Lodge in Sesriem'; GPS -24.483790/15.799627 places it at Sesriem; DateTimeOriginal 2006-09-19; cc-by-3.0 licence verified on the file page.",
+      "reuse_note": "CC BY 3.0 permits commercial reuse with attribution, which the photo credit block renders. Shows the lodge's desert setting as photographed in 2006; not a promise of current facilities."
     },
     "/images/stock/starter/victoria-falls-hotel.jpg": {
       "subject": "Victoria Falls Hotel",
@@ -12108,7 +12131,8 @@ export const photoLibrary = {
         ],
         "gallery": [
           "/images/stock/starter/sossusvlei-lodge.jpg",
-          "/images/editorial/sossusvlei-lodge/property-patio-2010.jpg"
+          "/images/editorial/sossusvlei-lodge/property-patio-2010.jpg",
+          "/images/editorial/sossusvlei-lodge/sossusvlei-lodge-view-from-lodge-2006.jpg"
         ]
       },
       "terres-touareg-guest-house": {
