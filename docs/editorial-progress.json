@@ -1587,5 +1587,52 @@
       },
       "cms_source_commit": "imported at source_commit 6251b17; publishable-key read of editorial_documents remains RLS-blocked by design — owner-side CMS check to confirm travel-insights/plan-kigali-volcanoes-transfer-morning"
     }
+  },
+  "activity_kibale_chimpanzee_habituation": {
+    "id": "kibale-chimpanzee-habituation-experience",
+    "category": "activities",
+    "started": "2026-11-11",
+    "latest_run_note": "Scheduled routine run; resumed checkpointed deliverable from 01:13Z run (build_checks were pending). Build passed, published, live verified.",
+    "selection_evidence": "Live activities/kibale-chimpanzee-trekking (HTTP 200, 11 Nov 2026) defers readers to 'a separate, longer habituation experience run by UWA in Kibale' and live attractions/kibale-national-park (HTTP 200) states the two are 'distinct products with different time commitments' — with no habituation guide anywhere on the site (22 published activities; slug absent from overrides).",
+    "scope": "New activity guide for UWA's Kibale Chimpanzee Habituation Experience: full forest day with a semi-habituated group, contrast with the standard one-hour Kanyanchu window, operator-only permit booking under the Kibale price-discipline policy (no rate reprinted), UWA year-round + rainy-season best-time guidance, honest no-booking-link state. Zero-image publish; six-subject backlog in the ledger. Published trek record updated: deferral sentence now links the new guide and its 'full-morning' highlight corrected to 'full-day' (matches UWA's whole-day description).",
+    "files": [
+      "content/editorial-overrides.json",
+      "docs/editorial-research/2026-11-11-kibale-habituation-experience.md",
+      "docs/editorial-progress.json"
+    ],
+    "images": 0,
+    "image_followup": "Six distinct licensed subjects, not reusable from Kibale attraction/trek/Kibale Forest Camp collections: semi-habituated group moving through understorey, ranger/researcher observing at distance, dawn canopy light, chimpanzees feeding in fig tree, Kanyanchu visitor centre sign/trailhead, forest path in rain. Official UWA imagery is authority-copyrighted.",
+    "booking_cta": "None by design: no verified OTA product for a UWA permit-based habituation experience; book via UWA or a UTB-licensed operator. No booking-destinations.json change.",
+    "key_facts_checked": "UWA Chimpanzee habituation page (HTTP 200, 11 Nov 2026): visitors spend the whole day with the chimpanzees (page typo 'while day' noted in ledger); runs all year round; best time to track is the rainy season despite the mud; dry season pushes chimps deeper into the forest. UWA Kibale park page (HTTP 200, 11 Nov 2026): CHE described as extended period following a semi-habituated group as they go about their day; at least 12 communities, four habituated for tourism and research; Kanyantale most prominent, open daily since 1993; Kanyanchu departures 08:00/11:00/14:00; sighting success >90%. UWA tariff card PDF reachable 11 Nov 2026 (content reviewed 8 Nov 2026); rates not reprinted (Kibale discipline: documents differ, 2027 tariff announced). UWA habituation page publishes no CHE schedule/group size/age/meal inclusion — guide instructs written confirmation with operator.",
+    "build_checks": "check-build-inputs passed; production build 152 pages; readability guard passed on 157 pages; dist inspected pre-push (full h2 flow, honest booking rail, You may also like + Nearby stays cards, no markup leak).",
+    "cms": "Production deploy imports at source_commit; publishable-key read of editorial_documents remains RLS-blocked by design — owner-side CMS check to confirm activities/kibale-chimpanzee-habituation-experience after deploy.",
+    "next_category": "accommodations",
+    "next_action": "Rotate to accommodations next run; six-subject photo backlog tracked in the ledger; CMS owner-side check pending (standard).",
+    "status": "published_live_confirmed",
+    "content_commit": "d772ceb",
+    "publication": {
+      "content_commit": "d772ceb",
+      "pushed_to": "main",
+      "push_result": "success (rebased over 2d31df3)",
+      "pushed_at": "2026-11-11",
+      "live_url": "https://trekafricaguide.com/activities/kibale-chimpanzee-habituation-experience/",
+      "live_http_status": 200,
+      "checked_at": "2026-11-11",
+      "live_distinctive_text": "Kibale chimpanzee habituation experience | Trek Africa Guide",
+      "live_checks": {
+        "detail": "HTTP 200; title correct; full h2 flow (About this activity, Highlights, Best time to participate, Planning notes, Booking option, You may also like, Nearby stays); distinctive copy renders (full forest day, semi-habituated group, UWA whole-day description, rainy season guidance, Kanyantale community, 12+ communities); honest Booking option ('A verified booking link for this specific listing is not yet available.'); no exposed markup.",
+        "booking": "Honest no-booking-link state by design; no Stay22 CTA.",
+        "cards": "You may also like renders same-attraction-group cards (Kibale chimpanzee trek, Bwindi gorilla trekking, Murchison Falls Nile launch trip). Nearby stays renders Kibale Forest Camp and Mountains of the Moon Hotel.",
+        "archive_home": "Activities archive and homepage search list the guide.",
+        "attraction": "Kibale National Park attraction page now renders Related activities with the new guide.",
+        "cross_links": "Kibale chimpanzee trek page deferral sentence now links the new guide; highlight updated from 'full-morning' to 'full-day'."
+      },
+      "cms_source_commit": "imported at source_commit d772ceb; publishable-key read of editorial_documents remains RLS-blocked by design — owner-side CMS check to confirm activities/kibale-chimpanzee-habituation-experience"
+    }
+  },
+  "rotation": {
+    "last_completed_category": "activities",
+    "next_category": "accommodations",
+    "next_deliverable": "Kibale chimpanzee habituation experience published 2026-11-11 (activities rotation); next: one evidenced accommodations gap."
   }
 }
