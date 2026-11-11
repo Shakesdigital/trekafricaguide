@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T21:20:42.948Z",
+  "updated_at": "2026-11-11T21:22:59.652Z",
   "owner": "booking-links audit agent",
   "ledger": "docs/editorial-research/2026-11-08-booking-links-audit.md",
   "run_1": {
@@ -104,6 +104,17 @@
       "mountains_of_the_moon": "Production Stay22 click opened Booking.com /hotel/ug/mountains-of-the-moon.html; exact Fort Portal property with availability, facilities, house rules, FAQs and reviews sections.",
       "holds": "Marriott Mena House, Kigali Serena, Nairobi Serena and Zanzibar White Sand: HTTP200 with no Stay22 booking anchor.",
       "limits": "Hotels.com navigation timed out during some candidate checks although detail content rendered. Marriott later demoted to search and was restored to hold. No rates, checkout, review aggregates or attribution verified."
+    },
+    "2026-11-11T21:00:00Z": {
+      "checked_at": "2026-11-11T21:22:59.652Z",
+      "deploy_id": "6af4dc3de1ea7bd1ea99a71a",
+      "commit": "954cdb6",
+      "repairs": [
+        "Casa del Papa: /hotel/bj/casa-del-papa.html, Ouidah Plage address; full property sections",
+        "Mount Nelson: /hotel/za/belmond-mount-nelson.html, 76 Orange Street Cape Town; full property sections"
+      ],
+      "holds": "Nine affected production pages HTTP200 and own Stay22 source absent; nine new holds retained. Prior four hotel holds unchanged.",
+      "limits": "50 URL-only pass checks due bot-walled response bodies. Les Paletuviers and the two replacements full detail in browser; Agoda exact URL HTTP200. No purchase or attribution verification."
     }
   },
   "constraints_kept": {
@@ -122,7 +133,7 @@
       "result": "Expedia Hotel-Search landing -> held; CTA confirmed suppressed on production after run-2 deploy"
     }
   ],
-  "next_action": "Finish midnight correction publication verification, then research stable exact wrapped sources for nine newly held hotel links plus Marriott Mena House, Kigali Serena, Nairobi Serena and Zanzibar White Sand. Count popup results and unstable search/detail alternation; searchresults dest_type=hotel alone is insufficient.",
+  "next_action": "Research stable exact wrapped replacements for nine newly held hotel links (Victoria Falls, Kruger Shalati, Maribela, Paraa, Red Chilli, Fairway, Mountains of the Moon, Jollyboys, Ol Tukai), plus prior Marriott Mena House, Kigali Serena, Nairobi Serena and Zanzibar White Sand holds. Recheck Casa del Papa and Mount Nelson stability in the next rotation. Inspect popups; searchresults dest_type=hotel alone is insufficient.",
   "runs": [
     {
       "date": "2026-11-10",
@@ -222,12 +233,15 @@
       "fixed": 2,
       "added": 0,
       "new_holds": 9,
-      "publication_status": "pending",
+      "publication_status": "live_confirmed",
       "ledger": "docs/editorial-research/2026-11-12-midnight-booking-links.md",
-      "notes": "Full no-argument verifier: 41 GetYourGuide matching t-product IDs (HTTP403; URL-only evidence), 19 Booking.com (9 exact detail paths HTTP202, 10 search-shaped), 1 Agoda exact detail path HTTP200, 1 Expedia and 1 Hotels.com. Browser production clicks rescued Kruger Shalati and Les Paletuviers to exact detail (server/browser disagreement); remaining 8 Booking search landings plus Expedia Jollyboys and Hotels.com Ol Tukai failed exact-detail standard. Initial result 53 pass / 10 fail; 3 Booking locale-free replacements rendered exact detail: Casa del Papa/Ouidah, Mount Nelson/Cape Town, Victoria Falls Hotel/Victoria Falls. Seven failed entries held. Jollyboys retried twice and Ol Tukai retried: multi-property search confirmed. Red Chilli locale-free and Paraa pt-br alternative also searched. Fairway locale-free failed. Prior four hotel holds remain. No updated review aggregate, rate, availability, checkout or affiliate attribution claim. Only requested check:build-inputs run; no test suite or local build. Post-publication correction: Casa del Papa and Mount Nelson production clicks opened popups with exact property paths, names/addresses, availability/facilities/house rules sections. Victoria Falls replacement reverted and held after live click opened search. Kruger Shalati also held: an earlier production-click popup showed Skukuza search despite later detail landing; instability disqualifies it. Corrected initial classification 52 pass / 11 fail, final two repairs and nine holds.",
+      "notes": "Full designated no-argument verifier checked 63 active entries. Final initial-link classification 52 pass / 11 fail: 41 GetYourGuide exact matching product IDs HTTP403 (URL-only), 9 Booking exact detail paths HTTP202 (URL-only), 1 Agoda exact path HTTP200, 1 Booking (Les Paletuviers) server search shape rescued to full property detail by browser click. Eleven failing/unstable hotel links: Casa del Papa, Mount Nelson, Victoria Falls Hotel, Kruger Shalati, Maribela, Paraa, Red Chilli, Fairway, Mountains of the Moon, Jollyboys and Ol Tukai. Two repaired via locale-free Booking source (Casa del Papa and Mount Nelson); post-deploy production clicks opened exact property detail in popups with matching name/address and availability/facilities/house rules. Victoria Falls candidate failed publication click and was withdrawn; Kruger Shalati alternated detail and search, held as unstable. Nine new holds; seven other failed original links confirmed multi-property search. Focused replacement research and locale retries did not provide stable exact replacements. Final 954cdb6 production deploy ready, published 2026-11-11T21:21:40.060Z. All eleven affected production pages HTTP200; two repaired source links present, nine held own-source links absent. Required check:build-inputs passed; no local build or tests. No rates, availability, updated review aggregates, checkout or attribution verified. Unrelated work and deploy archives preserved.",
       "content_commits": [
-        "71e46cc"
-      ]
+        "71e46cc",
+        "954cdb6"
+      ],
+      "production_deploy": "6af4dc3de1ea7bd1ea99a71a",
+      "remaining_active": 54
     }
   ],
   "method_rule": "Booking.com searchresults.html with dest_type=hotel is NOT proof of an exact detail landing. Browser content wins over server URL shape; never count bot-walled bodies as verified full-detail pages. All providers require exact detail landings."

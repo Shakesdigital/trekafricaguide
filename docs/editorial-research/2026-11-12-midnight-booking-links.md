@@ -15,3 +15,7 @@ Publication: pending.
 ## Publication correction
 
 71e46cc deployed ready as 6af4db6962c42a8ec096076c. Live clicks opened Casa del Papa and Mount Nelson in new browser tabs despite target modification; inspected exact names/addresses, property paths, availability, facilities and house rules in those tabs. Victoria Falls Hotel live click demoted to search; withdrew replacement and held original source. Earlier Kruger Shalati popup also showed Skukuza search, despite later exact detail; held as unstable. Corrected initial classification: **52 pass / 11 fail**. Final proposed changes: **2 repairs / 9 new holds**. Previous pass counts above are superseded. Pending correction deploy verification.
+
+## Final publication receipt
+
+Correction 954cdb6 deployed ready as 6af4dc3de1ea7bd1ea99a71a, published 11 November 2026 21:21:40 UTC. All eleven affected production pages HTTP200. Casa del Papa and Mount Nelson contain the repaired locale-free sources, with live click-through exact full-detail verification above. Nine held sources absent, including Victoria Falls and Kruger Shalati. Final classification: 63 checked, 52 initial passes (50 URL-only bot-wall evidence), 11 initial failures/unstable, 2 repaired, 9 new holds, 54 active links remaining. No new entries. check:build-inputs passed after final content changes; no tests or local build. Local verifier results and helper scripts remain in the agent booking-audit folder; unrelated checkout files unchanged.
