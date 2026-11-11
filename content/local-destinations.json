@@ -503,7 +503,9 @@
     "accommodation_slugs": [
       "kigali-serena-hotel"
     ],
-    "travel_insight_slugs": [],
+    "travel_insight_slugs": [
+      "plan-kigali-volcanoes-transfer-morning"
+    ],
     "highlights": [
       "The country's arrival gateway with the shortest road corridor to the Volcanoes reporting area",
       "A deliberately rested city day: districts, a lakeside walk and hillside views",
@@ -527,7 +529,7 @@
       "/images/editorial/kigali-local-destination/kigali-amahoro-stadium-2026.jpg",
       "/images/editorial/kigali-local-destination/kigali-market-produce-2018.jpg"
     ],
-    "last_researched": "2026-11-09",
+    "last_researched": "2026-11-11",
     "research_sources": [
       {
         "label": "Visit Rwanda (RDB): Kigali city page — central position and road links, founding 1907/capital at 1962, districts (Nyarugenge CBD, Kacyiru), Nyarutarama/Lover's Lake walk, Kigali Cultural Village, Kigali Genocide Memorial description; checked 9 November 2026",
