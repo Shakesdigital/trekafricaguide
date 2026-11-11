@@ -3326,6 +3326,79 @@
       "hero_image_alt": "No licensed property photograph available",
       "gallery": [],
       "traveler_feedback": "Booking.com: 9.2/10 (Wonderful) from 196 reviews (categories: Cleanliness 9.4, Comfort 9.4, Facilities 9.1, Location 8.8, Staff 9.6, Value 8.8, Free WiFi 9.0) — checked 11 November 2026; Expedia 9.4/10, Google 4.6/5, TripAdvisor 4.8/5 (2,068+ verified reviews) per official site. Awards: TripAdvisor Travellers' Choice 2023, Hotels.com Superb 2022, Booking.com Traveller Review Awards 2023. Individual reviews cited (2025): Ashley (US, Apr 2025) — 'great vibes, new menu, entertainment, upgrades'; Ahmad (US) — 'nicest property on the coast, European owned/operated'; Serenity (Ghana) — 'beautiful, well maintained, perfect for exploring Cape Coast and Elmina'. Published reviews are subjective accounts, not a service guarantee."
+    },
+    {
+      "region_id": 16,
+      "country_id": 57,
+      "attraction_id": "repo:attractions:great-zimbabwe-national-monument",
+      "slug": "great-zimbabwe-hotel",
+      "name": "Great Zimbabwe Hotel",
+      "property_type": "Hotel",
+      "location_name": "700m from Great Zimbabwe National Monument, Masvingo Province, Zimbabwe",
+      "listing_summary": "A longstanding hotel 700m from the UNESCO World Heritage Great Zimbabwe National Monument, with stonework-inspired architecture, a Monument Tour from the lobby, pool, restaurant, bar, campsite and conference facilities. The practical base for a monument visit.",
+      "detail_intro": "<p>Great Zimbabwe Hotel is a longstanding hospitality establishment located 700 metres from the iconic Great Zimbabwe National Monument, a UNESCO World Heritage Site and the largest ancient stone structure in sub-Saharan Africa. The hotel was originally established in the early 20th century to serve the growing number of tourists and archaeologists visiting the monument following its global recognition. Built to blend with its ancient surroundings, the hotel reflects the architectural style and stonework themes inspired by the Great Zimbabwe ruins themselves.</p><p>The property offers three room categories: Standard Room with a king-sized bed, en-suite bathroom with high-pressure shower, 12-hour room service, complimentary Wi-Fi, daily housekeeping, work desk, hairdryer, in-room safe and iron; Executive Room with a separate bedroom and lounge area, high-speed internet and 12-hour room service; and Deluxe Twin Room with two double beds, a walk-in shower, complimentary high-speed Wi-Fi, 12-hour room service and a dedicated work desk. All rooms are designed for both leisure and business travellers.</p><p>Facilities include a swimming pool, restaurant, curio shop, bar, an exclusive campsite within the hotel grounds, and multiple conference rooms with capacities from small boardrooms to large auditoriums equipped with advanced audiovisual technology. The hotel operates its own Monument Tour — a guided 2-3 hour visit covering the Hill Complex, Great Enclosure and Valley Ruins with optional museum visit, departing from the hotel lobby with multiple daily departures.</p><p>Additional activities offered include Lake Mutirikwi Adventures, Kyle Game Park Safari and Cultural Evenings. The hotel's ticketing desk can assist with monument admissions and transport for park visits. Contact: +263 772 132 153-5, +263 772 132 171-3, VoIP +263 8677 007 458, reservations@greatzimbabwehotels.com.</p>",
+      "practical_info": "<p>Use the booking panel to compare room categories and cancellation terms before paying. Rates, breakfast inclusion and airport-transfer arrangements depend on your dates; no live price or availability is quoted here. Confirm the exact room name and what your rate includes directly with the property.</p><p>For monument planning, use <a href=\"/attractions/great-zimbabwe-national-monument\">our Great Zimbabwe National Monument guide</a>: it covers the Hill Complex, Great Enclosure, Valley Ruins, access from Masvingo (27 km) and the National Museums and Monuments of Zimbabwe (NMMZ) opening hours (08:00–16:30 daily, checked 27 October 2026). For the guided visit, use <a href=\"/activities/great-zimbabwe-guided-monument-visit\">our Great Zimbabwe guided monument visit guide</a>: it covers the NMMZ guide options and the hotel's advertised Monument Tour, with meeting-point, admission and transport checks.</p><p>Book direct by phone or email (+263 772 132 153-5, reservations@greatzimbabwehotels.com). At our 11 November 2026 check no exact Booking.com property-detail page for Great Zimbabwe Hotel could be verified — search results returned Mineheart Great Zimbabwe Lodge (a different property, 2.8 km from the monument) and other Masvingo listings. The hotel's own site had no working online reservation form. The booking panel on this page stays deliberately empty rather than pointing at an unverified listing. Ask the property in writing to confirm room category (Standard, Executive, Deluxe Twin), meal basis, Monument Tour inclusion and transfer costs before paying.</p><p>This page has no licensed Great Zimbabwe Hotel property photographs. The neutral image slot is deliberate; monument or landscape scenery from another source must not stand in for the hotel.</p>",
+      "amenities": [
+        "Standard Room: king bed, en-suite with high-pressure shower, 12-hour room service, Wi-Fi, work desk, safe, hairdryer, iron",
+        "Executive Room: separate bedroom and lounge, high-speed internet, 12-hour room service",
+        "Deluxe Twin Room: two double beds, walk-in shower, high-speed Wi-Fi, 12-hour room service, work desk",
+        "Swimming pool",
+        "Restaurant",
+        "Curio shop",
+        "Bar",
+        "Exclusive campsite within hotel grounds (monument minutes away)",
+        "Conference facilities: multiple rooms, boardrooms to auditoriums, AV technology",
+        "Monument Tour: guided 2-3 hours, Hill Complex, Great Enclosure, Valley Ruins, optional museum, lobby departure"
+      ],
+      "price_label": "Mid-range (operator positioning; not a live price comparison)",
+      "booking_url": null,
+      "source_url": "https://greatzimbabwehotels.com/",
+      "research_sources": [
+        {
+          "label": "Great Zimbabwe Hotel: official home page — history, location (700m from monument), room categories, facilities, activities, contacts; checked 11 November 2026",
+          "url": "https://greatzimbabwehotels.com/",
+          "checked_at": "2026-11-11"
+        },
+        {
+          "label": "Great Zimbabwe Hotel: official rooms page — Standard, Executive, Deluxe Twin room descriptions with amenities; checked 11 November 2026",
+          "url": "https://greatzimbabwehotels.com/rooms/",
+          "checked_at": "2026-11-11"
+        },
+        {
+          "label": "Great Zimbabwe Hotel: official Monument Tour page — 2-3 hour guided tour, Hill Complex/Great Enclosure/Valley Ruins, lobby departure, multiple daily departures, contact details; checked 11 November 2026",
+          "url": "https://greatzimbabwehotels.com/great-zimbabwe-tour/",
+          "checked_at": "2026-11-11"
+        },
+        {
+          "label": "Trek Africa Guide: Great Zimbabwe guided monument visit activity page — references hotel's Monument Tour and lobby departure; checked 11 November 2026",
+          "url": "https://trekafricaguide.com/activities/great-zimbabwe-guided-monument-visit/",
+          "checked_at": "2026-11-11"
+        },
+        {
+          "label": "Trek Africa Guide: Great Zimbabwe National Monument attraction page — no Nearby stays section, confirms 27 km from Masvingo, NMMZ 08:00–16:30 hours; checked 11 November 2026",
+          "url": "https://trekafricaguide.com/attractions/great-zimbabwe-national-monument/",
+          "checked_at": "2026-11-11"
+        },
+        {
+          "label": "Booking.com search for Great Zimbabwe Hotel — no exact property listing found; Mineheart Great Zimbabwe Lodge (different property) and other Masvingo properties returned; checked 11 November 2026",
+          "url": "https://www.booking.com/searchresults.html?ss=Great+Zimbabwe+Hotel",
+          "checked_at": "2026-11-11"
+        },
+        {
+          "label": "UNESCO World Heritage Centre: Great Zimbabwe National Monument history and heritage significance (historical context, not current visitor logistics); checked 27 October 2026",
+          "url": "https://whc.unesco.org/en/list/364/",
+          "checked_at": "2026-10-27"
+        }
+      ],
+      "traveler_feedback": "No attributable dated guest reviews verified for Great Zimbabwe Hotel at time of publication.",
+      "last_researched": "2026-11-11",
+      "rating": null,
+      "review_count": 0,
+      "status": "published",
+      "published_at": null,
+      "hero_image_url": "",
+      "hero_image_alt": "No licensed property photograph available",
+      "gallery": []
     }
   ],
   "activities": [
