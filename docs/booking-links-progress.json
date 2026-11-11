@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T21:32:25.553Z",
+  "updated_at": "2026-11-11T21:35:25.518Z",
   "owner": "booking-links audit agent",
   "ledger": "docs/editorial-research/2026-11-08-booking-links-audit.md",
   "run_1": {
@@ -115,6 +115,18 @@
       ],
       "holds": "Nine affected production pages HTTP200 and own Stay22 source absent; nine new holds retained. Prior four hotel holds unchanged.",
       "limits": "50 URL-only pass checks due bot-walled response bodies. Les Paletuviers and the two replacements full detail in browser; Agoda exact URL HTTP200. No purchase or attribution verification."
+    },
+    "2026-11-11T21:22:00Z": {
+      "checked_at": "2026-11-11T21:35:25.518Z",
+      "commit": "e8c46d6",
+      "deploy_id": "6af4df1d8906c2b57d227730",
+      "held_pages": [
+        "casa-del-papa",
+        "mount-nelson-a-belmond-hotel",
+        "les-paletuviers"
+      ],
+      "result": "All three production pages HTTP200; fresh browser confirms zero Stay22 anchors; booking section remains without an outbound booking option.",
+      "limits": "Only one active link full-detail identity verified this run; 50 provisional passes use limited URL-only evidence. No checkout or attribution verified."
     }
   },
   "constraints_kept": {
@@ -255,9 +267,13 @@
       "added": 0,
       "new_holds": 3,
       "remaining_active": 51,
-      "publication_status": "pending",
-      "notes": "Ran designated no-argument verifier across all 54 active entries: 41 GetYourGuide matching t-product IDs HTTP403; 10 Booking exact paths HTTP202; two Booking search shapes HTTP202; one Agoda exact path HTTP200. These are URL-only observations, not body/identity verification. Fresh production clicks: Kibale Forest Camp rendered exact full property detail (Kyenjojo, Uganda; facilities and house rules; zero search cards), rescuing its server search shape. Les Paletuviers opened Toubakouta search with 19 property cards; Casa del Papa opened Ouidah search with 25 cards; Mount Nelson opened Cape Town search with many properties. Previous locale-free repairs therefore unstable; hold all three. No search shape counted as exact based on dest_type=hotel. Priority research: exact Paraa Agoda listing found; wrapped candidate demoted to /search and never rendered property detail; prior hold retained. Maribela search found existing Booking source only, no verified alternate. Remaining prior holds unchanged. No rates, review aggregates, checkout or attribution verified. Unrelated files and deploy archives preserved.",
-      "ledger": "docs/editorial-research/2026-11-12-0022-booking-links.md"
+      "publication_status": "live_confirmed",
+      "notes": "Ran designated no-argument verifier across all 54 active entries: 41 GetYourGuide matching t-product IDs HTTP403; 10 Booking exact paths HTTP202; two Booking search shapes HTTP202; one Agoda exact path HTTP200. These are URL-only observations, not body/identity verification. Fresh production clicks: Kibale Forest Camp rendered exact full property detail (Kyenjojo, Uganda; facilities and house rules; zero search cards), rescuing its server search shape. Les Paletuviers opened Toubakouta search with 19 property cards; Casa del Papa opened Ouidah search with 25 cards; Mount Nelson opened Cape Town search with many properties. Previous locale-free repairs therefore unstable; hold all three. No search shape counted as exact based on dest_type=hotel. Priority research: exact Paraa Agoda listing found; wrapped candidate demoted to /search and never rendered property detail; prior hold retained. Maribela search found existing Booking source only, no verified alternate. Remaining prior holds unchanged. No rates, review aggregates, checkout or attribution verified. Unrelated files and deploy archives preserved. Production deployment ready for e8c46d6, published 2026-11-11T21:33:56.276Z. All three affected production pages HTTP200 and no own-source links; fresh browser inspection confirmed zero Stay22 anchors on all three. Required check:build-inputs passed. No local tests/build. Private verifier results overwritten and two audit helper scripts retained.",
+      "ledger": "docs/editorial-research/2026-11-12-0022-booking-links.md",
+      "content_commits": [
+        "e8c46d6"
+      ],
+      "production_deploy": "6af4df1d8906c2b57d227730"
     }
   ],
   "method_rule": "Booking.com searchresults.html with dest_type=hotel is NOT proof of an exact detail landing. Browser content wins over server URL shape; never count bot-walled bodies as verified full-detail pages. All providers require exact detail landings."
