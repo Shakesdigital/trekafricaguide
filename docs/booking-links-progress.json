@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T09:31:55.747Z",
+  "updated_at": "2026-11-11T09:34:05.358Z",
   "owner": "booking-links audit agent",
   "ledger": "docs/editorial-research/2026-11-08-booking-links-audit.md",
   "run_1": {
@@ -47,7 +47,6 @@
     "method_rule": "Server-side wrapper chains are accepted evidence for getyourguide and booking landings; every expedia entry requires a real-browser click-through before being trusted."
   },
   "gaps_held": {
-    "accommodations/the-place-resort-tokeh": "Browser landing is Expedia Hotel-Search; search pages must not ship; recheck and provider switch pending.",
     "attractions/great-zimbabwe": "All GYG candidates are cross-city transfer products (Harare 14h t741591, Bulawayo t1480708/t1048201); the activity copy directs readers to arrange transfers separately — logistics mismatch, not an exact on-site visit.",
     "attractions/kwame-nkrumah-memorial-park": "GYG search returned no Ghana product (generic fallback only).",
     "attractions/kibale-national-park": "No verified exact operator listing; canonical no-bookable-card position per 2026-11-08 editorial record.",
@@ -94,7 +93,7 @@
       "result": "Expedia Hotel-Search landing -> held; CTA confirmed suppressed on production after run-2 deploy"
     }
   ],
-  "next_action": "FIRST verify this run publication and Maribela production click if pending. Then recheck remaining Booking.com hotel deep-link/search landings in a real browser (previous dest_type=hotel acceptance was insufficient), prioritizing Marriott Mena House and Ol Tukai alternate exact OTA sources. Recheck Governors Camp Agoda locale/detail variants; new exact Tokeh Agoda candidate https://www.agoda.com/en-ie/the-place-resort-at-tokeh-beach-h88167521/hotel/toke-sl.html needs Stay22 exact-detail verification. Continue unavailable accommodation and attraction rotation.",
+  "next_action": "FIRST verify this run publication and Maribela/Tokeh production clicks if pending. Then recheck remaining Booking.com hotel deep-link/search landings in a real browser (previous dest_type=hotel acceptance was insufficient), prioritizing Marriott Mena House and Ol Tukai alternate exact OTA sources. Recheck Governors Camp Agoda locale/detail variants; Continue unavailable accommodation and attraction rotation.",
   "runs": [
     {
       "date": "2026-11-10",
@@ -151,11 +150,13 @@
       "verified_full_detail": 1,
       "limited_url_evidence": 4,
       "fail": 3,
-      "fixed": 1,
+      "fixed": 2,
       "added": 0,
       "new_holds": 2,
-      "notes": "Live-page wrapper slice: Maribela, Marriott Mena House, Mount Nelson, Ol Tukai, Paraa, Serengeti Serena, Serengeti balloon t383490, Table Mountain t302403. Browser confirmed Mount Nelson exact full-detail; Paraa/Serengeti paths exact server-side but HTTP202; GYG paths exact but HTTP403. Three search landings browser-confirmed: Maribela repaired via locale-free URL; Marriott and Ol Tukai held after alternate locale also failed. Prior counts of searchresults dest_type=hotel as exact are not reliable. Governors Camp direct Agoda page matched name/location but wrapper demoted to city search; kept unavailable. Tokeh direct Agoda detail candidate found, wrapper not yet checked. Publication pending.",
-      "publication_status": "pending"
+      "notes": "Live-page wrapper slice: Maribela, Marriott Mena House, Mount Nelson, Ol Tukai, Paraa, Serengeti Serena, Serengeti balloon t383490, Table Mountain t302403. Browser confirmed Mount Nelson exact full-detail; Paraa/Serengeti paths exact server-side but HTTP202; GYG paths exact but HTTP403. Three search landings browser-confirmed: Maribela repaired via locale-free URL; Marriott and Ol Tukai held after alternate locale also failed. Prior counts of searchresults dest_type=hotel as exact are not reliable. Governors Camp direct Agoda page matched name/location but wrapper demoted to city search; kept unavailable. Tokeh restored via exact Agoda property h88167521: wrapped browser landing has exact property name, Peninsula Road/Toke address, room options and full detail tabs. Review score/count not verified and disclosed. Publication pending.",
+      "publication_status": "pending",
+      "restored_booking_options": 1,
+      "gap_candidates_checked": 2
     }
   ],
   "method_rule": "Booking.com searchresults.html with dest_type=hotel is NOT proof of an exact detail landing. Browser content wins over server URL shape; never count bot-walled bodies as verified full-detail pages. All providers require exact detail landings."

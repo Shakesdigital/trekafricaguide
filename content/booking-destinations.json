@@ -155,12 +155,15 @@
       }
     },
     "the-place-resort-tokeh": {
-      "url": "https://www.expedia.com/Freetown-Hotels-The-Place-Resort-At-Tokeh-Beach.h7863256.Hotel-Information",
-      "provider": "expedia",
-      "title": "The Place Resort at Tokeh Beach",
-      "status": "hold",
-      "checked_at": "2026-11-08",
-      "hold_reason": "Stay22 maps the exact Expedia property (h7863256) but real-browser click-throughs through the wrapper land on an Expedia Hotel-Search page for Tokeh (regionId/selected=7863256) rather than the property detail page; a search-page landing must not ship as a booking CTA. No exact Booking.com, Agoda or other supported OTA listing for this property has been verified (search-engine checks on 8 November 2026 found no Booking.com property page). Keep the recorded exact Expedia URL for recheck; do not substitute namesakes or a Tokeh-area search."
+      "url": "https://www.agoda.com/en-ie/the-place-resort-at-tokeh-beach-h88167521/hotel/toke-sl.html",
+      "provider": "agoda",
+      "title": "The Place Resort At Tokeh Beach",
+      "checked_at": "2026-11-11",
+      "evidence": {
+        "source_url": "https://www.agoda.com/en-ie/the-place-resort-at-tokeh-beach-h88167521/hotel/toke-sl.html",
+        "summary": "Browser-verified 11 November 2026: Stay22 Agoda redirect opens this full property detail listing, naming The Place Resort At Tokeh Beach at Peninsula Road, Toke, Sierra Leone, with overview, rooms and facilities. Replaces held Expedia search-page landing. No numerical review score/count was verified; no current price, availability, checkout or affiliate attribution claim."
+      },
+      "notes": "Review evidence is limited: no current guest rating or review count verified. Check the provider for room availability and terms."
     },
     "victoria-falls-hotel": {
       "url": "https://www.booking.com/hotel/zw/the-victoria-falls.en-gb.html",
