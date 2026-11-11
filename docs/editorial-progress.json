@@ -1705,7 +1705,16 @@
       "build": "check-build-inputs passed; production build 154 pages; readability guard passed on 159; dist verified (detail_intro renders 5 <p> tags in detail-hero__summary; practical_info renders 7 <p> tags in Why stay here section).",
       "publish": "Content commit add0f4c pushed origin/main; Netlify deployed; LIVE HTTP 200 verified: paragraph breaks render correctly.",
       "receipt_commit": "add0f4c",
-      "cms": "Imported at source_commit add0f4c; owner-side check pending (RLS standard)."
+      "cms": "Imported at source_commit add0f4c; owner-side check pending (RLS standard).",
+      "second_pass": {
+        "date": "2026-11-11",
+        "trigger": "Live page still rendered practical_info as single block because renderEditorialText detects HTML anchors and treats content as pre-formatted HTML, skipping paragraph wrapping.",
+        "fix": "Wrapped each practical_info paragraph in explicit <p> tags in JSON. Now renders 7 separate <p> tags in live page.",
+        "build": "check-build-inputs passed; production build 154 pages; readability guard passed on 159.",
+        "publish": "Content commit a4080a0 pushed origin/main; Netlify deployed; LIVE HTTP 200 verified: 7 <p> tags render in Why stay here section.",
+        "receipt_commit": "a4080a0",
+        "cms": "Imported at source_commit a4080a0; owner-side check pending (RLS standard)."
+      }
     }
   },
   "travel_insight_plan_first_egypt_visit": {
