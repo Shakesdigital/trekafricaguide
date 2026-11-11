@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11 07:57 Africa/Kampala",
+  "updated_at": "2026-11-11 10:25 Africa/Kampala",
   "blocked_runs": [
     {
       "id": "network-outage-no-research-2026-11-09-1807",
@@ -14,7 +14,7 @@
       "scheduled_at": "2026-11-11 ~05:5x UTC (08:5x Africa/Kampala)",
       "status": "blocked_deploy_pending",
       "planned_target": "Sossusvlei Lodge accommodation page (https://trekafricaguide.com/accommodations/sossusvlei-lodge/) — gallery extended 2 -> 3 dedicated photos: added Frans-Banja Mulder CC BY 3.0 'View from Sossusvlei Lodge in Sesriem' (Wikimedia Commons File:View from Sossusvlei Lodge - panoramio.jpg, curid 46694630, captured 2006-09-19, original 876x584 JPEG, local sha256 64af6db17f56218e15d66921e2f6615d00567c4f6b3b2b3e1eba752bc2dd436c). Commit 2d31df3 pushed to Shakesdigital/trekafricaguide main; production /photo-library.js confirmed carrying the new entry, but page HTML still renders 'See all 2 images' after ~20 minutes — the Netlify production build (npm ci && npm run build) has not shipped the new gallery HTML.",
-      "note": "This run re-polled production at 2026-11-11 07:09 UTC (07:09 Africa/Kampala): page still renders 'See all 2 images'; blocker persists, checkpoint updated and pushed (this file only). Continue re-polling https://trekafricaguide.com/accommodations/sossusvlei-lodge/ until it renders 'See all 3 images' including sossusvlei-lodge-view-from-lodge-2006.jpg; verify all three asset URLs return HTTP 200 image/jpeg; then finalize this run in completed_runs with live verification and commit/push the checkpoint. Owner email not attempted: no Gmail send tool in harness; record honestly here (email is sent only when a collection is live-confirmed).",
+      "note": "This run re-polled production from 07:08-07:25 UTC (10:08-10:25 Africa/Kampala, 15 attempts): page still renders 'See all 2 images'; the new asset sossusvlei-lodge-view-from-lodge-2006.jpg is absent from page HTML. All three gallery asset URLs verified HTTP 200 image/jpeg - starter sossusvlei-lodge.jpg, property-patio-2010.jpg, and the pushed 2006 view (Content-Length 620510 bytes matches local file exactly) - so the image file itself is live, but the production page HTML/gallery has not shipped the pushed entry after ~70+ minutes since commit 2d31df3. Blocker persists (stale/not-shipped production gallery HTML, not a rights or asset problem); not claimed as published. No Gmail send tool in harness; owner email not attempted (email only when a collection is live-confirmed).",
       "next_action": "Continue re-polling https://trekafricaguide.com/accommodations/sossusvlei-lodge/ until it renders 'See all 3 images' including sossusvlei-lodge-view-from-lodge-2006.jpg; verify all three asset URLs return HTTP 200 image/jpeg; then finalize this run in completed_runs with live verification and commit/push the checkpoint.",
       "files": [
         "src/lib/photo-library.js",
@@ -27,13 +27,14 @@
         "sossusvlei-lodge-view-from-lodge-2006.jpg"
       ],
       "live_verification": {
-        "checked_at": "2026-11-11 07:09 UTC (07:09 Africa/Kampala)",
+        "checked_at": "2026-11-11 07:25 UTC (10:25 Africa/Kampala)",
         "page_http_status": 200,
         "see_all_text": "See all 2 images",
         "distinct_property_image_count": 2,
         "new_asset": null,
-        "asset_http_statuses": [],
-        "note": "Production still serves the pre-push two-image gallery; the pushed third asset (sossusvlei-lodge-view-from-lodge-2006.jpg) is not yet live (~70 minutes since push), so no HTTP 200 image/jpeg verification could be performed. Blocker persists beyond the ~15-minute heartbeat window."
+        "asset_http_statuses": [200, 200, 200],
+        "asset_content_types": ["image/jpeg", "image/jpeg", "image/jpeg"],
+        "note": "Page HTTP 200 but still renders 'See all 2 images'; new asset absent from page HTML. All three asset URLs return HTTP 200 image/jpeg including the pushed 2006 view (620510 bytes, matches local file) - asset file is live, production page HTML/gallery has not shipped the pushed entry after ~70+ minutes since commit 2d31df3. Blocker persists; not claimed as published."
       }
     },
     {
