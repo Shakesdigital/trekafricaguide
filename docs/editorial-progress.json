@@ -1696,7 +1696,17 @@
         "internal_links": "Detail page links to /countries/ghana/elmina, /attractions/elmina-castle, /attractions/cape-coast-kakum, /accommodations/ridge-royal-hotel; all render."
       }
     },
-    "commit": "340c549 (content) + receipt commit"
+    "commit": "340c549 (content) + receipt commit",
+    "format_fix": {
+      "date": "2026-11-11",
+      "trigger": "Owner feedback: long paragraphs in detail_intro and practical_info discourage reading; break into scannable blocks per Volcanoes golden monkey quality bar.",
+      "issues": "detail_intro was one 5-sentence paragraph; practical_info was one 7-sentence paragraph with mixed topics (rates, house rules, destination links, transfer, mobility, fees).",
+      "fixes": "detail_intro split into 5 short paragraphs (location → rooms/amenities → tours → community impact → nearby attractions). practical_info split into 7 paragraphs by topic: room rates list, inclusions disclaimer, Booking.com house rules, destination guide links, airport transfer/mobility, fee exclusions, Wi-Fi rating.",
+      "build": "check-build-inputs passed; production build 154 pages; readability guard passed on 159; dist verified (detail_intro renders 5 <p> tags in detail-hero__summary; practical_info renders 7 <p> tags in Why stay here section).",
+      "publish": "Content commit add0f4c pushed origin/main; Netlify deployed; LIVE HTTP 200 verified: paragraph breaks render correctly.",
+      "receipt_commit": "add0f4c",
+      "cms": "Imported at source_commit add0f4c; owner-side check pending (RLS standard)."
+    }
   },
   "travel_insight_plan_first_egypt_visit": {
     "id": "plan-first-egypt-visit-cairo-giza-nile-red-sea",
