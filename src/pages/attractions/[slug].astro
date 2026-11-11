@@ -7,6 +7,8 @@ import Gallery from '../../components/Gallery.astro';
 import CardCarousel from '../../components/CardCarousel.astro';
 import ListingCard from '../../components/ListingCard.astro';
 import BookingOffers from '../../components/BookingOffers.astro';
+import SidebarExtras from '../../components/SidebarExtras.astro';
+import { relatedSidebar } from '../../lib/related-sidebar.mjs';
 import { getSiteModel } from '../../lib/site-model.mjs';
 import { normalizeList } from '../../lib/images.mjs';
 
@@ -18,6 +20,7 @@ export async function getStaticPaths() {
 const model = await getSiteModel();
 const { attraction } = Astro.props;
 const linkedAttractions = model.attractions.filter((item) => item.slug !== attraction.slug);
+const sidebar = relatedSidebar(model, attraction, 'attraction');
 ---
 <SiteLayout model={model} title={attraction.name} description={attraction.listing_summary || attraction.detail_intro}>
   <section class="detail-hero">
@@ -43,7 +46,7 @@ const linkedAttractions = model.attractions.filter((item) => item.slug !== attra
         <div class="detail-section"><h2>Planning notes</h2><EditorialText attractions={linkedAttractions} text={attraction.practical_info} /></div>
         <ResearchNotes record={attraction} showStayCards={false} />
       </div>
-      <aside class="detail-rail"><BookingOffers listing={attraction} offers={attraction.bookingOffers} /></aside>
+      <aside class="detail-rail"><BookingOffers listing={attraction} offers={attraction.bookingOffers} /><SidebarExtras {...sidebar} /></aside>
     </div>
   </section>
   {attraction.activities?.length > 0 && <section class="section section--alt"><div class="container"><h2>Related activities</h2><CardCarousel label="Related activities">{attraction.activities.map((item) => <ListingCard item={{...item, cardCta: 'View Activity Details'}} type="activity" />)}</CardCarousel></div></section>}

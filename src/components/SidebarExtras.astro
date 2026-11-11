@@ -1,0 +1,21 @@
+---
+import VideoStory from './VideoStory.astro';
+const { stories = [], video } = Astro.props;
+---
+{stories.length > 0 && <section class="info-panel sidebar-extra" aria-labelledby="related-insights-title">
+  <h2 id="related-insights-title">Related travel insights</h2>
+  <ul>{stories.map((story) => <li><a href={story.internalUrl}>{story.title}<span aria-hidden="true">↗</span></a></li>)}</ul>
+</section>}
+{video && <section class="info-panel sidebar-extra" aria-labelledby="related-video-title">
+  <h2 id="related-video-title">Watch the place</h2>
+  <VideoStory url={video.url} title={video.title} />
+  <p><a href={video.url} target="_blank" rel="noopener noreferrer">Watch on YouTube ↗</a></p>
+</section>}
+<style>
+  .sidebar-extra h2 { margin: 0 0 .85rem; font-size: 1.4rem; }
+  .sidebar-extra ul { list-style: none; margin: 0; padding: 0; }
+  .sidebar-extra li + li { border-top: 1px solid var(--line); }
+  .sidebar-extra li a { display: flex; justify-content: space-between; gap: .75rem; padding: .7rem 0; line-height: 1.4; }
+  .sidebar-extra p { margin: .7rem 0 0; font-size: .85rem; }
+  .sidebar-extra :global(.journal-video) { display: block; width: 100%; border-radius: .55rem; }
+</style>

@@ -2,6 +2,8 @@
 import SiteLayout from '../../../layouts/SiteLayout.astro';
 import Breadcrumbs from '../../../components/Breadcrumbs.astro';
 import Gallery from '../../../components/Gallery.astro';
+import SidebarExtras from '../../../components/SidebarExtras.astro';
+import { relatedSidebar } from '../../../lib/related-sidebar.mjs';
 import EditorialText from '../../../components/EditorialText.astro';
 import CardCarousel from '../../../components/CardCarousel.astro';
 import ListingCard from '../../../components/ListingCard.astro';
@@ -18,6 +20,7 @@ const model = await getSiteModel();
 const { destination } = Astro.props;
 const country = destination.country;
 const otherDestinations = model.localDestinations.filter((item) => item.country.slug === country.slug && item.slug !== destination.slug);
+const sidebar = relatedSidebar(model, destination, 'destination');
 ---
 <SiteLayout model={model} title={destination.meta_title || `${destination.name}, ${country.name}`} description={destination.listing_summary} image={destination.hero_image_url}>
   <section class="detail-hero"><div class="container">
@@ -34,7 +37,7 @@ const otherDestinations = model.localDestinations.filter((item) => item.country.
       <div class="detail-section"><h2>Best time to visit</h2><EditorialText text={destination.best_time} /></div>
       <div class="detail-section"><h2>Planning your stay</h2><EditorialText text={destination.planning_tips} attractions={destination.attractions} /></div>
     </div>
-    <aside class="detail-rail"><div class="info-panel"><p class="eyebrow">Country guide</p><h3><a href={country.internalUrl}>{country.name}</a></h3><p>Plan the wider route, then choose the places and stays that fit your visit.</p></div></aside>
+    <aside class="detail-rail"><div class="info-panel"><p class="eyebrow">Country guide</p><h3><a href={country.internalUrl}>{country.name}</a></h3><p>Plan the wider route, then choose the places and stays that fit your visit.</p></div><SidebarExtras {...sidebar} /></aside>
   </div></section>
   {destination.attractions.length > 0 && <section class="section section--alt"><div class="container"><h2>Attractions to explore</h2><CardCarousel label={`Attractions around ${destination.name}`}>{destination.attractions.map((item) => <ListingCard item={item} type="attraction" />)}</CardCarousel></div></section>}
   {destination.activities.length > 0 && <section class="section"><div class="container"><h2>Things to do</h2><CardCarousel label={`Things to do around ${destination.name}`}>{destination.activities.map((item) => <ListingCard item={item} type="activity" />)}</CardCarousel></div></section>}

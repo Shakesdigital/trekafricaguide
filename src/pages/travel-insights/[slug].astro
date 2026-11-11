@@ -1,6 +1,7 @@
 ---
 import SiteLayout from '../../layouts/SiteLayout.astro';
-import VideoStory from '../../components/VideoStory.astro';
+import SidebarExtras from '../../components/SidebarExtras.astro';
+import { relatedSidebar } from '../../lib/related-sidebar.mjs';
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import ImageSlot from '../../components/ImageSlot.astro';
 import { getSiteModel } from '../../lib/site-model.mjs';
@@ -11,17 +12,23 @@ export async function getStaticPaths() {
   return model.travelArticles.map((story) => ({ params: { slug: story.slug }, props: { story } }));
 }
 const { story } = Astro.props;
+const sidebar = relatedSidebar(model, story, 'insight');
 ---
 <SiteLayout model={model} title={story.meta_title || story.title} description={story.meta_description || story.excerpt} image={story.meta_image_url || story.hero_image_url}>
   <section class="section"><div class="container article-container"><Breadcrumbs items={[{ label: 'Travel Insights', href: '/travel-insights' }, { label: story.title }]} />
     <header class="article-heading"><p class="eyebrow">{story.category}{story.read_time ? ` · ${story.read_time}` : ''}</p><h1>{story.title}</h1><p class="article-deck">{story.excerpt}</p></header>
     <ImageSlot src={story.hero_image_url} alt={story.hero_image_alt || story.title} class="article-cover" />
-    {story.video_url && <VideoStory url={story.video_url} title={story.title} />}
-    <div class="article-body rich-text" set:html={sanitizeRichText(story.body || '', { allowImages: true })} />
+    <div class="detail-grid article-detail-grid">
+      <div class="article-body rich-text" set:html={sanitizeRichText(story.body || '', { allowImages: true })} />
+      {(sidebar.stories.length > 0 || sidebar.video) && <aside class="detail-rail" aria-label="Related reading and video"><SidebarExtras {...sidebar} /></aside>}
+    </div>
   </div></section>
 </SiteLayout>
 
 <style>
+  .article-detail-grid { margin-top: 2.5rem; }
+  .article-body { margin: 0; min-width: 0; }
+  @media (max-width: 819px) { .article-detail-grid { display: flex; flex-direction: column; } .article-detail-grid .detail-rail { order: 1; } }
   .article-body :global(figure) { margin: 2rem 0; }
   .article-body :global(img) { display: block; max-width: 100%; width: 100%; height: auto; max-height: 44rem; object-fit: contain; border-radius: .75rem; }
   .article-body :global(figcaption) { margin-top: .6rem; font-size: .8rem; line-height: 1.6; color: var(--muted); }

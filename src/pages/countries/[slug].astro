@@ -8,6 +8,8 @@ import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import CardCarousel from '../../components/CardCarousel.astro';
 import ListingCard from '../../components/ListingCard.astro';
 import Gallery from '../../components/Gallery.astro';
+import SidebarExtras from '../../components/SidebarExtras.astro';
+import { relatedSidebar } from '../../lib/related-sidebar.mjs';
 import { getSiteModel } from '../../lib/site-model.mjs';
 
 export async function getStaticPaths() {
@@ -20,6 +22,7 @@ const { country } = Astro.props;
 const attractions = model.attractions.filter((item) => item.country_id === country.id);
 const stays = model.accommodations.filter((item) => item.country_id === country.id);
 const destinations = model.localDestinations.filter((item) => item.country.slug === country.slug);
+const sidebar = relatedSidebar(model, country, 'country');
 ---
 <SiteLayout model={model} title={country.name} description={country.hero_text || country.overview}>
   <section class="detail-hero"><div class="container">
@@ -38,7 +41,7 @@ const destinations = model.localDestinations.filter((item) => item.country.slug 
         <div class="detail-section"><h2>Planning notes</h2><EditorialText text={country.planning_tips} /></div>
         <ResearchNotes record={country} />
       </div>
-      <aside class="detail-rail"><div class="info-panel"><p class="eyebrow">Region</p><h3><a href={`/regions/${country.region.slug}`}>{country.region.name}</a></h3></div></aside>
+      <aside class="detail-rail"><div class="info-panel"><p class="eyebrow">Region</p><h3><a href={`/regions/${country.region.slug}`}>{country.region.name}</a></h3></div><SidebarExtras {...sidebar} /></aside>
     </div>
   </section>
   <section class="section section--alt"><div class="container"><h2>Attractions in {country.name}</h2><CardCarousel>{attractions.map((item) => <ListingCard item={item} type="attraction" />)}</CardCarousel></div></section>

@@ -1005,8 +1005,15 @@ img.home-intro__slot {
 }
 
 .detail-rail {
-    position: relative;
+    position: sticky;
+    top: 6rem;
+    align-self: start;
+    display: grid;
+    gap: 1rem;
+    max-height: calc(100dvh - 7rem);
+    overflow-y: auto;
 }
+@media (max-width:819px) { .detail-rail { position: static; max-height: none; overflow: visible; } }
 
 .journal-masthead { padding: clamp(3rem, 7vw, 6rem) 0 2.5rem; border-bottom: 1px solid var(--line); }
 .journal-masthead h1 { max-width: 14ch; font-size: clamp(3.2rem, 7vw, 6rem); line-height: 1.03; margin: .5rem 0 1.2rem; }
@@ -1057,8 +1064,7 @@ img.home-intro__slot {
 @media (max-width: 600px) { .insight-feature { grid-template-columns: 1fr; } .insight-feature__image { min-height: 15rem; } .insight-row { grid-template-columns: 1fr; } .insight-row__image { height: 13rem; } }
 
 .booking-panel {
-    position: sticky;
-    top: 6rem;
+    position: static;
 }
 
 .booking-panel__eyebrow {
