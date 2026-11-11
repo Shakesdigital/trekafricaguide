@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T13:32:14.883Z",
+  "updated_at": "2026-11-11T13:33:39.719Z",
   "owner": "booking-links audit agent",
   "ledger": "docs/editorial-research/2026-11-08-booking-links-audit.md",
   "run_1": {
@@ -86,6 +86,15 @@
       "tokeh": "Production Agoda wrapper lands on /en-ie/the-place-resort-at-tokeh-beach-h88167521/hotel/toke-sl.html, heading The Place Resort At Tokeh Beach, Peninsula Road/Toke; exact full detail.",
       "holds": "Marriott Mena House and Ol Tukai each return HTTP200 with no Stay22 booking href.",
       "limits": "Four sampled links have URL-only evidence due HTTP202/403 bodies. Ratings, availability, checkout and attribution not verified."
+    },
+    "2026-11-11T13:22:00Z": {
+      "checked_at": "2026-11-11T13:33:39.719Z",
+      "deploy_id": "6af46e64b4157cf777c302fa",
+      "commit": "a623b85",
+      "ol_tukai": "Production Stay22 click opened Hotels.com /ho508661/ol-tukai-lodge-amboseli-amboseli-kenya/; full property heading, Amboseli location, gallery, rooms/policies. Delayed recheck still exact detail.",
+      "mountains_of_the_moon": "Production Stay22 click opened Booking.com /hotel/ug/mountains-of-the-moon.html; exact Fort Portal property with availability, facilities, house rules, FAQs and reviews sections.",
+      "holds": "Marriott Mena House, Kigali Serena, Nairobi Serena and Zanzibar White Sand: HTTP200 with no Stay22 booking anchor.",
+      "limits": "Hotels.com navigation timed out during some candidate checks although detail content rendered. Marriott later demoted to search and was restored to hold. No rates, checkout, review aggregates or attribution verified."
     }
   },
   "constraints_kept": {
@@ -104,7 +113,7 @@
       "result": "Expedia Hotel-Search landing -> held; CTA confirmed suppressed on production after run-2 deploy"
     }
   ],
-  "next_action": "Continue browser rotation of remaining active hotel Stay22 links, prioritizing Jollyboys Expedia and other Booking.com entries previously accepted via searchresults dest_type=hotel. Repair new Kigali Serena, Nairobi Serena and Zanzibar White Sand holds via exact alternate OTA detail sources; Governors Camp Agoda still demotes to city search.",
+  "next_action": "Repair Marriott Mena House, Kigali Serena, Nairobi Serena and Zanzibar White Sand holds using stable exact wrapped detail sources. Continue real-browser rotation of remaining active hotel links, prioritizing Jollyboys Expedia and previously URL-only Booking.com checks; Governors Camp Agoda variants still demote to city search.",
   "runs": [
     {
       "date": "2026-11-10",
@@ -186,8 +195,14 @@
       "new_holds": 3,
       "restored_booking_options": 1,
       "gap_candidates_checked": 3,
-      "publication_status": "correcting_live_regression",
-      "notes": "Direct execution under plan-high-build-light. Synced origin/main e7655c3; read all three checkpoints. Rotating live wrapper slice: Kigali Serena, Nairobi Serena, Mountains of the Moon and Zanzibar White Sand each opened city search results in browser. Mountains of the Moon repaired via locale-free Booking source; full detail rendered in browser. Other three held after locale-free sources also failed (Nairobi was already locale-free). Previous priority holds Marriott Mena House and Ol Tukai restored via exact Hotels.com ho654475 and ho508661 detail pages through Stay22; matching names/locations, galleries, rooms and policies rendered despite navigation timeouts. Kigali Agoda and Governors Camp en-nz Agoda variants both demoted to city search. No checkout, rates, review aggregates or attribution verified. Only registry and own checkpoint changed; unrelated files and deploy archives preserved. No local tests/build; configured Netlify production build will rebuild data. Post-publication check: Marriott Hotels.com live click opened Hotel-Search with multiple properties despite prior candidate detail landing. Restoration withdrawn and original Booking source/hold restored. Ol Tukai live wrapper rendered exact Hotels.com detail; Mountains of the Moon live click rendered exact Booking.com full detail. Final outcome is two fixes (one restored option), three new holds, Marriott hold retained."
+      "publication_status": "live_confirmed",
+      "notes": "Direct execution under plan-high-build-light. Synced origin/main e7655c3; read all three checkpoints. Rotating live wrapper slice: Kigali Serena, Nairobi Serena, Mountains of the Moon and Zanzibar White Sand each opened city search results in browser. Mountains of the Moon repaired via locale-free Booking source; full detail rendered in browser. Other three held after locale-free sources also failed (Nairobi was already locale-free). Previous priority holds Marriott Mena House and Ol Tukai restored via exact Hotels.com ho654475 and ho508661 detail pages through Stay22; matching names/locations, galleries, rooms and policies rendered despite navigation timeouts. Kigali Agoda and Governors Camp en-nz Agoda variants both demoted to city search. No checkout, rates, review aggregates or attribution verified. Only registry and own checkpoint changed; unrelated files and deploy archives preserved. No local tests/build; configured Netlify production build will rebuild data. Post-publication check: Marriott Hotels.com live click opened Hotel-Search with multiple properties despite prior candidate detail landing. Restoration withdrawn and original Booking source/hold restored. Ol Tukai live wrapper rendered exact Hotels.com detail; Mountains of the Moon live click rendered exact Booking.com full detail. Final outcome is two fixes (one restored option), three new holds, Marriott hold retained. Final production deploy ready: a623b85. All four held pages HTTP200 with no Stay22 anchor; Ol Tukai wrapped production landing remains exact Hotels.com detail on delayed recheck; Mountains of the Moon production click opens exact full Booking.com detail. Production builds completed; no local test suite/build run.",
+      "content_commits": [
+        "ab00464",
+        "a623b85"
+      ],
+      "production_deploy": "6af46e64b4157cf777c302fa",
+      "verified_replacement_full_detail": 2
     }
   ],
   "method_rule": "Booking.com searchresults.html with dest_type=hotel is NOT proof of an exact detail landing. Browser content wins over server URL shape; never count bot-walled bodies as verified full-detail pages. All providers require exact detail landings."
