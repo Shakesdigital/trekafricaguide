@@ -19,7 +19,9 @@
         "source_url": "https://www.booking.com/hotel/bj/casa-del-papa.html",
         "summary": "Primary property detail identifies Casa Del Papa Resort at Ouidah Plage, Benin.",
         "redirect_check": "12 November 2026 (Kampala), midnight routine: existing production Stay22 click opened a multi-property search. Locale-free exact source through the same resolver rendered the matching full property detail page in browser. Navigation sometimes timed out after property content rendered. No rates, availability, updated review aggregates, checkout or attribution verified."
-      }
+      },
+      "status": "hold",
+      "hold_reason": "12 November 2026 (Kampala), scheduled 21:22 UTC audit: fresh production Stay22 click opened a multi-property Booking.com search page. Earlier exact detail observations are unstable; suppress until a reliable wrapped full-detail listing is verified."
     },
     "dar-said": {
       "url": "https://www.booking.com/hotel/tn/dar-said.en-gb.html",
@@ -68,11 +70,13 @@
       "url": "https://www.booking.com/hotel/sn/les-pala-c-tuviers.en-gb.html",
       "provider": "booking",
       "title": "Les Palétuviers — Toubakouta, Senegal",
-      "checked_at": "2026-10-22",
+      "checked_at": "2026-11-12",
       "evidence": {
         "source_url": "https://www.booking.com/hotel/sn/les-pala-c-tuviers.en-gb.html",
         "summary": "Rechecked 22 October 2026: the Booking.com detail page identifies the exact Les Palétuviers hotel in Toubakouta, Senegal. Matches the official property and existing accommodation record. No rate, availability, rating or review count copied into site content."
-      }
+      },
+      "status": "hold",
+      "hold_reason": "12 November 2026 (Kampala), scheduled 21:22 UTC audit: fresh production Stay22 click opened a multi-property Booking.com search page. Earlier exact detail observations are unstable; suppress until a reliable wrapped full-detail listing is verified."
     },
     "maribela-hotel": {
       "url": "https://www.booking.com/hotel/et/maribela-lalibela.html",
@@ -108,7 +112,9 @@
         "source_url": "https://www.booking.com/hotel/za/belmond-mount-nelson.html",
         "summary": "Primary detail identifies 76 Orange Street, Gardens, Cape Town, South Africa.",
         "redirect_check": "12 November 2026 (Kampala), midnight routine: existing production Stay22 click opened a multi-property search. Locale-free exact source through the same resolver rendered the matching full property detail page in browser. Navigation sometimes timed out after property content rendered. No rates, availability, updated review aggregates, checkout or attribution verified."
-      }
+      },
+      "status": "hold",
+      "hold_reason": "12 November 2026 (Kampala), scheduled 21:22 UTC audit: fresh production Stay22 click opened a multi-property Booking.com search page. Earlier exact detail observations are unstable; suppress until a reliable wrapped full-detail listing is verified."
     },
     "ol-tukai-lodge-amboseli": {
       "url": "https://www.hotels.com/ho508661/ol-tukai-lodge-amboseli-amboseli-kenya/",

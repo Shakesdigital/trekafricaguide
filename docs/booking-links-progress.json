@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T21:22:59.652Z",
+  "updated_at": "2026-11-11T21:32:25.553Z",
   "owner": "booking-links audit agent",
   "ledger": "docs/editorial-research/2026-11-08-booking-links-audit.md",
   "run_1": {
@@ -133,7 +133,7 @@
       "result": "Expedia Hotel-Search landing -> held; CTA confirmed suppressed on production after run-2 deploy"
     }
   ],
-  "next_action": "Research stable exact wrapped replacements for nine newly held hotel links (Victoria Falls, Kruger Shalati, Maribela, Paraa, Red Chilli, Fairway, Mountains of the Moon, Jollyboys, Ol Tukai), plus prior Marriott Mena House, Kigali Serena, Nairobi Serena and Zanzibar White Sand holds. Recheck Casa del Papa and Mount Nelson stability in the next rotation. Inspect popups; searchresults dest_type=hotel alone is insufficient.",
+  "next_action": "Research stable exact wrapped OTA replacements for 16 held accommodations, starting with Casa del Papa, Mount Nelson, Les Paletuviers and prior Victoria Falls/Kruger Shalati/Paraa holds. Do not restore locale-free Booking links from one successful observation; they have repeatedly alternated detail and search. Rotate active accommodation browser checks next (Dar Said, Emerson Spice, Hilton Cabo Verde, Ridge Royal).",
   "runs": [
     {
       "date": "2026-11-10",
@@ -242,6 +242,22 @@
       ],
       "production_deploy": "6af4dc3de1ea7bd1ea99a71a",
       "remaining_active": 54
+    },
+    {
+      "date": "2026-11-12",
+      "scheduled_for": "2026-11-11T21:22:00Z",
+      "checked": 54,
+      "pass": 51,
+      "fail": 3,
+      "verified_full_detail": 1,
+      "limited_url_evidence": 50,
+      "fixed": 0,
+      "added": 0,
+      "new_holds": 3,
+      "remaining_active": 51,
+      "publication_status": "pending",
+      "notes": "Ran designated no-argument verifier across all 54 active entries: 41 GetYourGuide matching t-product IDs HTTP403; 10 Booking exact paths HTTP202; two Booking search shapes HTTP202; one Agoda exact path HTTP200. These are URL-only observations, not body/identity verification. Fresh production clicks: Kibale Forest Camp rendered exact full property detail (Kyenjojo, Uganda; facilities and house rules; zero search cards), rescuing its server search shape. Les Paletuviers opened Toubakouta search with 19 property cards; Casa del Papa opened Ouidah search with 25 cards; Mount Nelson opened Cape Town search with many properties. Previous locale-free repairs therefore unstable; hold all three. No search shape counted as exact based on dest_type=hotel. Priority research: exact Paraa Agoda listing found; wrapped candidate demoted to /search and never rendered property detail; prior hold retained. Maribela search found existing Booking source only, no verified alternate. Remaining prior holds unchanged. No rates, review aggregates, checkout or attribution verified. Unrelated files and deploy archives preserved.",
+      "ledger": "docs/editorial-research/2026-11-12-0022-booking-links.md"
     }
   ],
   "method_rule": "Booking.com searchresults.html with dest_type=hotel is NOT proof of an exact detail landing. Browser content wins over server URL shape; never count bot-walled bodies as verified full-detail pages. All providers require exact detail landings."
