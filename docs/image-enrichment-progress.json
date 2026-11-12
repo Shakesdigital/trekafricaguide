@@ -1,5 +1,5 @@
 {
-  "updated_at": "12/11/2026, 17:11 Africa/Kampala",
+  "updated_at": "2026-11-12 17:23 Africa/Kampala",
   "blocked_runs": [
     {
       "id": "network-outage-no-research-2026-11-09-1807",
@@ -9,42 +9,7 @@
       "note": "Run not started: machine-level network outage. Confirmed unreachable by TCP test and HTTPS attempts: github.com and api.github.com (git fetch failed 3x over ~4 minutes), commons.wikimedia.org, en.wikipedia.org, api.openverse.org (504) and unsplash.com (Fastly 151.101.x.x). Reachable: trekafricaguide.com, www.pexels.com, www.flickr.com. A rights-standard review is impossible without Wikimedia Commons/Openverse/Unsplash (a partial review would risk a false 'no eligible photos' conclusion), and no commit can be pushed or deployed. No website files touched; the separate editorial automation's working-tree changes were left untouched.",
       "next_action": "On the next run, retry git fetch first; once GitHub is reachable again, complete the Dar SaÃ¯d exact-property review from the top of the rotation backlog."
     },
-    {
-      "id": "sossusvlei-lodge-pushed-live-pending-2026-11-11",
-      "scheduled_at": "2026-11-11 ~05:5x UTC (08:5x Africa/Kampala)",
-      "status": "blocked_deploy_pending",
-      "planned_target": "Sossusvlei Lodge accommodation page (https://trekafricaguide.com/accommodations/sossusvlei-lodge/) — gallery extended 2 -> 3 dedicated photos: added Frans-Banja Mulder CC BY 3.0 'View from Sossusvlei Lodge in Sesriem' (Wikimedia Commons File:View from Sossusvlei Lodge - panoramio.jpg, curid 46694630, captured 2006-09-19, original 876x584 JPEG, local sha256 64af6db17f56218e15d66921e2f6615d00567c4f6b3b2b3e1eba752bc2dd436c). Commit 2d31df3 pushed to Shakesdigital/trekafricaguide main; production /photo-library.js confirmed carrying the new entry, but page HTML still renders 'See all 2 images' after ~20 minutes — the Netlify production build (npm ci && npm run build) has not shipped the new gallery HTML.",
-      "note": "This run re-polled production from 07:08-07:25 UTC (10:08-10:25 Africa/Kampala, 15 attempts) on 2026-11-11, and again at 03:08 UTC (06:08 Africa/Kampala) on 2026-11-12: page still renders 'See all 2 images'; the new asset sossusvlei-lodge-view-from-lodge-2006.jpg is absent from page HTML. All three gallery asset URLs verified HTTP 200 image/jpeg - starter sossusvlei-lodge.jpg, property-patio-2010.jpg, and the pushed 2006 view (Content-Length 620510 bytes matches local file exactly) - so the image file itself is live, but the production page HTML/gallery has not shipped the pushed entry after ~21+ hours since commit 2d31df3. Blocker persists (stale/not-shipped production gallery HTML, not a rights or asset problem); not claimed as published. No Gmail send tool in harness; owner email not attempted (email only when a collection is live-confirmed). Per protocol (~15 min guideline), this blocker is now recorded as persistent; the run remains in blocked_runs pending resolution.",
-      "next_action": "Continue re-polling https://trekafricaguide.com/accommodations/sossusvlei-lodge/ until it renders 'See all 3 images' including sossusvlei-lodge-view-from-lodge-2006.jpg; verify all three asset URLs return HTTP 200 image/jpeg; then finalize this run in completed_runs with live verification and commit/push the checkpoint.",
-      "files": [
-        "src/lib/photo-library.js",
-        "public/photo-library.js",
-        "public/images/editorial/sossusvlei-lodge/sossusvlei-lodge-view-from-lodge-2006.jpg",
-        "docs/editorial-research/2026-11-11-sossusvlei-lodge-photo-enrichment.md",
-        "docs/image-enrichment-progress.json"
-      ],
-      "selected_images": [
-        "sossusvlei-lodge-view-from-lodge-2006.jpg"
-      ],
-      "live_verification": {
-        "checked_at": "2026-11-12 03:08 UTC (06:08 Africa/Kampala)",
-        "page_http_status": 200,
-        "see_all_text": "See all 2 images",
-        "distinct_property_image_count": 2,
-        "new_asset": null,
-        "asset_http_statuses": [
-          200,
-          200,
-          200
-        ],
-        "asset_content_types": [
-          "image/jpeg",
-          "image/jpeg",
-          "image/jpeg"
-        ],
-        "note": "Page HTTP 200 but still renders 'See all 2 images'; new asset absent from page HTML. All three asset URLs return HTTP 200 image/jpeg including the pushed 2006 view (620510 bytes, matches local file) - asset file is live, production page HTML/gallery has not shipped the pushed entry after ~21+ hours since commit 2d31df3. Blocker persists; not claimed as published."
-      }
-    },
+
     {
       "id": "bwindi-gorilla-trekking-interrupted-2026-10-28",
       "status": "resolved_live_confirmed",
@@ -4063,7 +4028,52 @@
         "distinct_property_image_count": 0,
         "new_asset": null
       },
-      "next_action": "Continue the zero-photo accommodation rotation with Fairway Boutique Hotel or Hilton Cabo Verde Sal Resort; seek exact-property licensed photos or owner originals. Re-poll Sossusvlei Lodge stale gallery."
+      "next_action": "Continue the low-photo page rotation; Sossusvlei Lodge now renders its verified three-image gallery. Prioritize newly published zero-photo pages and owner-licensed property imagery."
+    }
+,
+    {
+      "id": "sossusvlei-lodge-pushed-live-pending-2026-11-11",
+      "scheduled_at": "2026-11-11 ~05:5x UTC (08:5x Africa/Kampala)",
+      "status": "published_live_confirmed_partial",
+      "planned_target": "Sossusvlei Lodge accommodation page (https://trekafricaguide.com/accommodations/sossusvlei-lodge/) — gallery extended 2 -> 3 dedicated photos: added Frans-Banja Mulder CC BY 3.0 'View from Sossusvlei Lodge in Sesriem' (Wikimedia Commons File:View from Sossusvlei Lodge - panoramio.jpg, curid 46694630, captured 2006-09-19, original 876x584 JPEG, local sha256 64af6db17f56218e15d66921e2f6615d00567c4f6b3b2b3e1eba752bc2dd436c). Commit 2d31df3 pushed to Shakesdigital/trekafricaguide main; production /photo-library.js confirmed carrying the new entry, but page HTML still renders 'See all 2 images' after ~20 minutes — the Netlify production build (npm ci && npm run build) has not shipped the new gallery HTML.",
+      "note": "This run re-polled production from 07:08-07:25 UTC (10:08-10:25 Africa/Kampala, 15 attempts) on 2026-11-11, and again at 03:08 UTC (06:08 Africa/Kampala) on 2026-11-12: page still renders 'See all 2 images'; the new asset sossusvlei-lodge-view-from-lodge-2006.jpg is absent from page HTML. All three gallery asset URLs verified HTTP 200 image/jpeg - starter sossusvlei-lodge.jpg, property-patio-2010.jpg, and the pushed 2006 view (Content-Length 620510 bytes matches local file exactly) - so the image file itself is live, but the production page HTML/gallery has not shipped the pushed entry after ~21+ hours since commit 2d31df3. Blocker persists (stale/not-shipped production gallery HTML, not a rights or asset problem); not claimed as published. No Gmail send tool in harness; owner email not attempted (email only when a collection is live-confirmed). Per protocol (~15 min guideline), this blocker is now recorded as persistent; the run remains in blocked_runs pending resolution. Resolved 2026-11-12: editorial-overrides.json explicitly listed only two images and overrode the three-image photo library. Commit 437dcf9 added the verified third path to the page override; Netlify production deploy 6af5cbaf92ac4e8216e7aed9 is ready.",
+      "next_action": "Continue low-photo page rotation; Sossusvlei Lodge needs seven more exact-property licensed photos to reach the accommodation target.",
+      "files": [
+        "src/lib/photo-library.js",
+        "public/photo-library.js",
+        "public/images/editorial/sossusvlei-lodge/sossusvlei-lodge-view-from-lodge-2006.jpg",
+        "docs/editorial-research/2026-11-11-sossusvlei-lodge-photo-enrichment.md",
+        "docs/image-enrichment-progress.json"
+      ],
+      "selected_images": [
+        "sossusvlei-lodge-view-from-lodge-2006.jpg"
+      ],
+      "live_verification": {
+        "checked_at": "2026-11-12 17:23 Africa/Kampala",
+        "page_http_status": 200,
+        "see_all_text": "See all 3 images",
+        "distinct_property_image_count": 3,
+        "all_new_filenames_in_page": true,
+        "asset_http_statuses": [
+          200,
+          200,
+          200
+        ],
+        "asset_content_types": [
+          "image/jpeg",
+          "image/jpeg",
+          "image/jpeg"
+        ],
+        "deploy_id": "6af5cbaf92ac4e8216e7aed9"
+      },
+      "page_url": "https://trekafricaguide.com/accommodations/sossusvlei-lodge/",
+      "page_type": "accommodation",
+      "previous_photo_count": 2,
+      "photo_count": 3,
+      "new_photo_count": 1,
+      "completed_at": "2026-11-12 17:23 Africa/Kampala",
+      "published_commit": "437dcf9",
+      "report_status": "SENT to fsddanmugisa@gmail.com after live confirmation; Gmail message 1a1d0261b0891265."
     }
   ],
   "review_checkpoints": [
