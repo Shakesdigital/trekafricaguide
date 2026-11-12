@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12 17:23 Africa/Kampala",
+  "updated_at": "2026-11-12 17:31 Africa/Kampala",
   "blocked_runs": [
     {
       "id": "network-outage-no-research-2026-11-09-1807",
@@ -4029,8 +4029,7 @@
         "new_asset": null
       },
       "next_action": "Continue the low-photo page rotation; Sossusvlei Lodge now renders its verified three-image gallery. Prioritize newly published zero-photo pages and owner-licensed property imagery."
-    }
-,
+    },
     {
       "id": "sossusvlei-lodge-pushed-live-pending-2026-11-11",
       "scheduled_at": "2026-11-11 ~05:5x UTC (08:5x Africa/Kampala)",
@@ -4074,6 +4073,38 @@
       "completed_at": "2026-11-12 17:23 Africa/Kampala",
       "published_commit": "437dcf9",
       "report_status": "SENT to fsddanmugisa@gmail.com after live confirmation; Gmail message 1a1d0261b0891265."
+    },
+    {
+        "id":  "consolidated-missed-hourly-sweep-2026-11-12-1727",
+        "status":  "reviewed_no_eligible_photo",
+        "page_url":  "https://trekafricaguide.com/accommodations/accra-city-hotel/",
+        "page_type":  "accommodation",
+        "started_at":  "2026-11-12 17:27 Africa/Kampala",
+        "completed_at":  "2026-11-12 17:31 Africa/Kampala",
+        "substitutes_for":  [
+                                "2026-11-12 07:07 Africa/Kampala",
+                                "2026-11-12 11:07 Africa/Kampala",
+                                "2026-11-12 12:07 Africa/Kampala",
+                                "2026-11-12 13:07 Africa/Kampala",
+                                "2026-11-12 14:07 Africa/Kampala",
+                                "2026-11-12 15:07 Africa/Kampala",
+                                "2026-11-12 16:07 Africa/Kampala"
+                            ],
+        "previous_photo_count":  0,
+        "photo_count":  0,
+        "new_photo_count":  0,
+        "source_ledger":  "docs/editorial-research/2026-11-12-accra-city-hotel-catchup-photo-review.md",
+        "note":  "Checkpoint and origin/main history had no completed image run for the listed slots. One consolidated catch-up reviewed the newly published zero-photo Accra City Hotel page; no verified exact-property licensed image was found. Sossusvlei Lodge pending third photo was repaired and separately live-confirmed; no gallery duplicated. Hourly cadence unchanged.",
+        "selected_images":  [
+                            ],
+        "report_status":  "NOT SENT: no new collection published in this sweep; earlier Sossusvlei live-confirmed repair report was sent.",
+        "live_verification":  {
+                                  "checked_at":  "2026-11-12 17:30 Africa/Kampala",
+                                  "page_http_status":  200,
+                                  "distinct_property_image_count":  0,
+                                  "new_asset":  null
+                              },
+        "next_action":  "Continue low-photo rotation; seek exact-property rights-clean photos for Accra City Hotel or owner originals. Do not repeat the missed slots; normal hourly cadence resumes."
     }
   ],
   "review_checkpoints": [
@@ -4104,7 +4135,7 @@
   ],
   "updated": 1,
   "last_run_at": "2026-11-11 12:18 UTC (15:18 Africa/Kampala) — Sal Island attraction gallery extended 5 -> 9 photos (4 new CC BY-SA 3.0 from Wikimedia Commons); commit 3240f05 pushed to origin/main; production page renders \"See all 9 images\", all 9 asset URLs HTTP 200 image/jpeg",
-  "next_action": "Continue the zero-photo accommodation rotation with Fairway Boutique Hotel or Hilton Cabo Verde Sal Resort; seek exact-property licensed photos or owner originals. Re-poll Sossusvlei Lodge stale gallery.",
+  "next_action": "Consolidated missed-slot sweep complete; continue normal hourly low-photo rotation. Accra City Hotel remains zero-photo pending exact-property licensed images or owner originals.",
   "current_run": {
     "id": "volcanoes-golden-monkey-six-photo-gap-fill-third-pass-2026-11-11",
     "page_url": "https://trekafricaguide.com/activities/volcanoes-golden-monkey-trekking/",
