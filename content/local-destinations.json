@@ -1207,9 +1207,12 @@
     "travel_insight_slugs": [],
     "sort_order": 1,
     "status": "published",
-    "hero_image_url": "",
-    "hero_image_alt": "",
-    "gallery": [],
+    "hero_image_url": "/images/editorial/tokeh-river-number-two/tokeh-fishing-boats-2016.jpg",
+    "hero_image_alt": "Fishing and transport boats at Tokeh Beach, Sierra Leone.",
+    "gallery": [
+      "/images/editorial/tokeh-river-number-two/tokeh-fishing-boats-2016.jpg",
+      "/images/editorial/tokeh-river-number-two/river-number-two-beach-2007.jpg"
+    ],
     "last_researched": "2026-11-12",
     "research_sources": [
       {

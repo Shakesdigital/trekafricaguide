@@ -3,6 +3,52 @@
 export const photoLibrary = {
   "updated_at": "2026-11-11",
   "images": {
+    "/images/editorial/tokeh-river-number-two/tokeh-fishing-boats-2016.jpg": {
+      "slug": "tokeh-fishing-boats-2016",
+      "local_path": "/images/editorial/tokeh-river-number-two/tokeh-fishing-boats-2016.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Hodroj_Houssein-Tokey_Beach_(IMG_2218).jpg",
+      "source_revision": "Wikimedia Commons file page checked 2026-11-12",
+      "creator": "Hodroj Houssein",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "source_published_at": null,
+      "captured_at": "2016-01-03",
+      "sha256": "a472fed22a4289172b57f4a5670d3e41bb337004613736797691e3173e52f483",
+      "exact_subject": true,
+      "subject": "Fishing boats on Tokeh Beach",
+      "alt": "Fishing and transport boats at Tokeh Beach, Sierra Leone.",
+      "caption": "Fishing boats on Tokeh Beach (CC BY-SA 4.0, Hodroj Houssein via Wikimedia Commons).",
+      "property": false,
+      "kind": "photograph",
+      "requires_attribution": true,
+      "changes": "Original Commons JPEG; no edits.",
+      "checked_at": "2026-11-12",
+      "exact_subject_evidence": "Commons file description and camera coordinates identify Tokey Beach, Sierra Leone.",
+      "reuse_note": "Credit creator and license on page; share-alike applies where specified."
+    },
+    "/images/editorial/tokeh-river-number-two/river-number-two-beach-2007.jpg": {
+      "slug": "river-number-two-beach-2007",
+      "local_path": "/images/editorial/tokeh-river-number-two/river-number-two-beach-2007.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:River_No._2_Beach_(Sierra_Leone).jpg",
+      "source_revision": "Wikimedia Commons file page checked 2026-11-12",
+      "creator": "Christian Trede",
+      "license": "Attribution",
+      "license_url": "https://commons.wikimedia.org/wiki/Template:Attribution",
+      "source_published_at": null,
+      "captured_at": "2007-04",
+      "sha256": "4dcfa2b6a7369d7a8c84141a20ba52dbb1d2a60803f0ef398ce11e0e6374c88a",
+      "exact_subject": true,
+      "subject": "River Number Two Beach",
+      "alt": "River Number Two Beach on Sierra Leone’s Freetown Peninsula.",
+      "caption": "River Number Two Beach (Attribution, Christian Trede via Wikimedia Commons).",
+      "property": false,
+      "kind": "photograph",
+      "requires_attribution": true,
+      "changes": "Original Commons JPEG; no edits.",
+      "checked_at": "2026-11-12",
+      "exact_subject_evidence": "Commons original description identifies River No. 2 Beach, Freetown Peninsula.",
+      "reuse_note": "Credit creator and license on page; share-alike applies where specified."
+    },
     "/images/editorial/kasane-local-destination/kasane-chobe-river-aerial-2022.jpg": {
       "slug": "kasane-chobe-river-aerial-2022",
       "local_path": "/images/editorial/kasane-local-destination/kasane-chobe-river-aerial-2022.jpg",
@@ -12872,6 +12918,15 @@ export const photoLibrary = {
       }
     },
     "local_destinations": {
+      "tokeh-river-number-two": {
+        "hero_image_url": "/images/editorial/tokeh-river-number-two/tokeh-fishing-boats-2016.jpg",
+        "hero_image_alt": "Fishing and transport boats at Tokeh Beach, Sierra Leone.",
+        "replaces": [],
+        "gallery": [
+          "/images/editorial/tokeh-river-number-two/tokeh-fishing-boats-2016.jpg",
+          "/images/editorial/tokeh-river-number-two/river-number-two-beach-2007.jpg"
+        ]
+      },
       "buhoma": {
         "hero_image_url": "/images/editorial/buhoma-local-destination/trek-departure-2017.jpg",
         "hero_image_alt": "Visitors setting out for gorilla tracking from Buhoma in September 2017; archival image, not current departure information",
