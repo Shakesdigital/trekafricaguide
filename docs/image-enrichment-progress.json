@@ -1,5 +1,5 @@
-﻿{
-    "updated_at":  "2026-11-13 01:10 Africa/Kampala",
+{
+    "updated_at":  "2026-11-13 02:10 Africa/Kampala",
     "blocked_runs":  [
                          {
                              "id":  "network-outage-no-research-2026-11-09-1807",
@@ -48,6 +48,27 @@
                                "resolved_at":  "2026-10-21 13:16 Africa/Kampala"
                            },
     "completed_runs":  [
+                           {
+                               "id": "sal-destination-gallery-0-to-2-2026-11-13-0207",
+                               "page_url": "https://trekafricaguide.com/countries/cabo-verde/sal/",
+                               "page_type": "destination",
+                               "status": "published_live_confirmed",
+                               "previous_photo_count": 0,
+                               "photo_count": 2,
+                               "new_photo_count": 2,
+                               "started_at": "2026-11-13 02:07 Africa/Kampala",
+                               "source_ledger": "docs/editorial-research/2026-11-13-sal-destination-photo-enrichment.md",
+                               "published_commit": "ebfb0e3",
+                               "live_verification": "Production page renders See all 2 images; both JPEG asset URLs returned HTTP 200 image/jpeg.",
+                               "missing_subjects": [
+                                   "Buracona Blue Eye",
+                                   "Ponta Preta shore",
+                                   "Espargos streets",
+                                   "Palmeira harbour",
+                                   "Santa Maria pier"
+                               ],
+                               "report_status": "Owner email not yet attempted."
+                           },
                            {
                                "id": "great-zimbabwe-hotel-rights-review-2026-11-13-0107",
                                "page_url": "https://trekafricaguide.com/accommodations/great-zimbabwe-hotel/",
