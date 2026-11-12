@@ -490,7 +490,8 @@
     "photos": "Zero-image; missing subjects ledgered (exterior, room categories, pool, spa, restaurant, private beach).",
     "cms": "Publishable-key reconcile run 2026-11-12; editorial_documents RLS-blocked; mirror pending; no writes attempted.",
     "owner_email": "Draft prepared; owner Gmail sign-in state re-checked during the run.",
-    "next_category": "destinations"
+    "next_category": "destinations",
+    "content_commit": "93687a5"
   },
   "activity_volcanoes_golden_monkey_trek": {
     "status": "complete",
@@ -1027,9 +1028,9 @@
     "commit": "dcd779a"
   },
   "email_status": {
-    "run": "2026-11-11 (09:00 UTC run, Musanze destination)",
+    "run": "2026-11-12 (09:00 UTC run, Elmina stay rail)",
     "status": "blocked_owner_gmail_signed_out",
-    "detail": "Owner Gmail tab shows the accounts.google.com sign-in page (no active owner session in the OpenBot browser); no sendable session this run. Draft saved below; no takeover requested per routine rule."
+    "detail": "Owner Gmail tab re-checked this run: accounts.google.com sign-in page only; no active owner session in the OpenBot browser. Draft saved; no takeover requested per routine rule."
   },
   "owner_email_draft": {
     "to": "fsddanmugisa@gmail.com",
@@ -1980,7 +1981,22 @@
     "image_followup": "Six exact-property subjects ledgered; reopen on owner originals or written permission.",
     "key_facts_checked": "Live Elmina destination and Lemon Beach pages (12 Nov); Commons/Flickr/Openverse/Unsplash/Pexels/Pixabay exact-property searches (12 Nov); same-country binding country_id 45.",
     "next_category": "destinations",
-    "next_action": "Rotate to destinations next run; Lemon Beach photo backlog tracked in ledger; CMS owner-side check pending (standard)."
+    "next_action": "Rotate to destinations next run; Lemon Beach photo backlog tracked in ledger; CMS owner-side check pending (standard).",
+    "content_commit": "93687a5",
+    "publication": {
+      "content_commit": "93687a5",
+      "pushed_to": "main",
+      "push_result": "success (fast-forward over 3e619db; prior 403 read-only-token blocker no longer reproduces)",
+      "pushed_at": "2026-11-12",
+      "live_url": "https://trekafricaguide.com/countries/ghana/elmina/",
+      "live_http_status": 200,
+      "checked_at": "2026-11-12",
+      "live_checks": {
+        "detail": "HTTP 200; title Elmina, Ghana | Trek Africa Guide; new Where to stay h2 renders with Lemon Beach Resort accommodation card linking /accommodations/lemon-beach-resort-elmina/; all prior sections unchanged; no markup leak.",
+        "crosslink": "Lemon Beach page (HTTP 200) already linked back to the Elmina guide; now bidirectional.",
+        "guard": "Build readability guard passed: 167 pages."
+      }
+    }
   },
   "next_category": "destinations"
 }
