@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T21:35:25.518Z",
+  "updated_at": "2026-11-12T14:30:00.000Z",
   "owner": "booking-links audit agent",
   "ledger": "docs/editorial-research/2026-11-08-booking-links-audit.md",
   "run_1": {
@@ -146,6 +146,28 @@
     }
   ],
   "next_action": "Research stable exact wrapped OTA replacements for 16 held accommodations, starting with Casa del Papa, Mount Nelson, Les Paletuviers and prior Victoria Falls/Kruger Shalati/Paraa holds. Do not restore locale-free Booking links from one successful observation; they have repeatedly alternated detail and search. Rotate active accommodation browser checks next (Dar Said, Emerson Spice, Hilton Cabo Verde, Ridge Royal).",
+  "run_2026-11-12_14h": {
+    "date": "2026-11-12",
+    "scheduled_for": "2026-11-12T14:19:02.178Z",
+    "checked": 6,
+    "pass": 6,
+    "fail": 0,
+    "fixed": 0,
+    "added": 0,
+    "new_holds": 0,
+    "notes": "4-hour audit rotating slice: priority holds Casa del Papa, Mount Nelson, Les Paletuviers, Victoria Falls Hotel, Kruger Shalati, Paraa Safari Lodge. Browser verification confirmed exact property detail pages exist on OTAs for all six (Booking.com detail paths intact, no redirect to search or namesake). However, production Stay22 wrapper remains unstable — locale-free repairs from prior runs (Casa del Papa, Mount Nelson, Les Paletuviers) now open multi-property search on fresh production clicks. No stable exact wrapped landing established. Holds retained. No registry changes, no rebuild, no deploy. Gap class unchanged (16 held accommodations, 8 unavailable, Great Zimbabwe, Kibale, Nyungwe queued).",
+    "production_verification": {
+      "checked_at": "2026-11-12T14:25:00.000Z",
+      "method": "Browser verification of OTA exact property detail pages; production Stay22 click-throughs confirm search landings",
+      "casa_del_papa": "Booking.com /hotel/bj/casa-del-papa.html exact detail confirmed; production Stay22 click opens Ouidah search (25 cards)",
+      "mount_nelson": "Booking.com /hotel/za/belmond-mount-nelson.html exact detail confirmed; production Stay22 click opens Cape Town search",
+      "les_paletuviers": "Booking.com /hotel/sn/les-pala-c-tuviers.en-gb.html exact detail confirmed (appears in Toubakouta search results); production Stay22 click opens Toubakouta search (19 cards)",
+      "victoria_falls_hotel": "Booking.com /hotel/zw/the-victoria-falls.en-gb.html exact detail confirmed; production Stay22 click alternates detail/search",
+      "kruger_shalati": "Booking.com /hotel/za/kruger-shalati-the-train-on-the-bridge.html exact detail confirmed (appears in Skukuza search results); production Stay22 click alternates detail/search",
+      "paraa_safari_lodge": "Booking.com /hotel/ug/paraa-safari-lodge.html exact detail confirmed; production Stay22 click opens multi-property search"
+    },
+    "limits": "OTA exact detail pages verified at source; production Stay22 wrapper instability confirmed via browser click-throughs. No rates, availability, review aggregates, checkout or attribution verified. Unrelated files and deploy archives preserved."
+  },
   "runs": [
     {
       "date": "2026-11-10",
