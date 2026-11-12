@@ -195,7 +195,9 @@
       "cape-coast-kakum"
     ],
     "activity_slugs": [],
-    "accommodation_slugs": [],
+    "accommodation_slugs": [
+      "lemon-beach-resort-elmina"
+    ],
     "travel_insight_slugs": [],
     "hero_image_url": "/images/editorial/elmina/town-overview.jpg",
     "hero_image_alt": "Elmina’s coastal town and fishing harbor viewed from above.",

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12T06:47:00+03:00",
+  "updated_at": "2026-11-12T09:30:00Z",
   "timezone": "Africa/Kampala",
   "next_scheduled_start": "2026-10-17T19:30:00+03:00",
   "cadence_hours": 3,
@@ -272,9 +272,9 @@
     "email_id": "1a143a69416cf3d1"
   },
   "rotation": {
-    "last_completed_category": "activities",
+    "last_completed_category": "accommodations",
     "next_category": "destinations",
-    "next_deliverable": "Sine Saloum Delta pirogue excursion activity published 2026-11-12 (activities rotation); next: one evidenced destinations gap."
+    "next_deliverable": "Elmina where-to-stay accommodation surface published 2026-11-12 (accommodations rotation); next: one evidenced destinations gap."
   },
   "current_deliverable": {
     "category": "activities",
@@ -481,14 +481,14 @@
     "commit": "224da9d (content) + receipt commit"
   },
   "latest_run_checkpoint": {
-    "date": "2026-11-12 (03:13 UTC scheduled run)",
-    "run": "editorial content run (activities - Sine Saloum Delta pirogue excursion)",
+    "date": "2026-11-12 (09:00 UTC scheduled run)",
+    "run": "editorial content run (accommodations - Elmina where-to-stay rail surface)",
     "status": "published_pushed_live_confirmed",
-    "live_url": "https://trekafricaguide.com/activities/sine-saloum-pirogue-excursion/",
-    "deliverable_summary": "New activity Sine Saloum Delta pirogue excursion (activities rotation): fills evidenced gap where attraction page described pirogue routes, birdwatching, hosted village visits but had no Related activities section. UNESCO World Heritage property with shellfish gathering as living heritage. Zero-image honest publish.",
-    "evidence": "Live Sine Saloum Delta attraction page (HTTP 200, 12 Nov 2026) explicitly describes pirogue routes, birdwatching, village visits but has zero activity cards. GetYourGuide t1243074 Dakar day trip exists but not suited for delta-base departures.",
-    "photos": "Zero-image; six-subject backlog in the ledger (pirogue on bolong, shellfish gathering, mangrove waterway, birdlife, shell middens, village host).",
-    "cms": "Publishable-key reconcile 2026-11-12: editorial_documents RLS-blocked; mirror pending; no writes attempted.",
+    "live_url": "https://trekafricaguide.com/countries/ghana/elmina/",
+    "deliverable_summary": "Accommodations rotation: surfaced the live Lemon Beach Resort Elmina page as the Elmina destination\\u2019s first Where-to-stay card. Evidence: Elmina was the only one of 18 live destinations rendering no Where-to-stay section while its own researched stay page (same country, published, one-directionally linked) existed. Exact-property photo review for Lemon Beach ran full source family; rights-clean pool empty, honest zero-image state kept.",
+    "evidence": "Live elmina page HTTP 200 rendered no Where to stay section (12 Nov); lemon-beach-resort-elmina page live HTTP 200, country_id 45 = Ghana, already links to Elmina guide.",
+    "photos": "Zero-image; missing subjects ledgered (exterior, room categories, pool, spa, restaurant, private beach).",
+    "cms": "Publishable-key reconcile run 2026-11-12; editorial_documents RLS-blocked; mirror pending; no writes attempted.",
     "owner_email": "Draft prepared; owner Gmail sign-in state re-checked during the run.",
     "next_category": "destinations"
   },
@@ -1033,9 +1033,9 @@
   },
   "owner_email_draft": {
     "to": "fsddanmugisa@gmail.com",
-    "prepared_at": "2026-11-11T09:11:18.408Z",
-    "subject": "Trek Africa Guide — new Musanze destination guide live (run 11 Nov 09:00 UTC)",
-    "body": "Shipped this run: a new local destination guide, Musanze, Rwanda — the second Rwandan destination on the site and the trailhead-side base page that two live guides referenced without a page behind it.\n\nEvidence: the live URL /countries/rwanda/musanze/ returned 404 before this run while Rwanda carried only the Kigali destination card; the live Volcanoes National Park attraction guide builds its suggested three-day outline on \"a night near Musanze or Kinigi\", and the Kigali–Volcanoes transfer-morning insight (published this morning) frames the \"sleep in Kigali or sleep near Kinigi?\" decision. This page answers that decision from the Musanze side.\n\nLive receipt: https://trekafricaguide.com/countries/rwanda/musanze/ — HTTP 200 verified minutes after push (commit ed7d493, pushed 66b1fc3..ed7d493). Full destination section flow renders; official Visit Rwanda facts render (1,850 m altitude, Kinigi headquarters 13 km away, Buhanga Eco-Park, Musanze Caves formed ~62 million years ago, the Burera/Ruhondo lakes, Africa Rising Cycling Centre, official what-to-wear guidance). Cards: Sabyinyo Silverback Lodge (Where to stay), both Volcanoes primate activities, the transfer-morning insight, and the Volcanoes attraction; Rwanda country page now lists Musanze in Destinations in Rwanda; homepage search lists it. No exposed markup.\n\nPhotos: zero-image honest publish again; six licensed Musanze subjects logged in the backlog (market streets, caves interior, Buhanga forest, Burera/Ruhondo lake with volcano backdrop, cycling centre, farmland with Virunga skyline).\n\nBlockers: owner Gmail still signed out — this report is a draft in docs/editorial-progress.json; one sign-in ships it (and the earlier stored drafts). CMS mirror still pending by design: travel_articles 200 (seeded row only), editorial_documents 401 to the publishable key, local_destinations 404 in the schema cache; owner-side CMS check to confirm local_destinations/musanze recommended.\n\nNext rotation: accommodations.\n\nYour input welcome: review the live Musanze page and the Kigali–Volcanoes transfer-morning insight when convenient."
+    "prepared_at": "2026-11-12T09:30:00.000Z",
+    "subject": "Trek Africa Guide - Elmina stay rail closed (run 12 Nov 09:00 UTC)",
+    "body": "Shipped this run: the Elmina destination guide now carries a Where to stay section, and its card is Lemon Beach Resort - the Elmina beachfront property page already published on the site.\n\nEvidence: Elmina was the only one of the 18 destination guides with no stay recommendations at all, while the Lemon Beach Resort Elmina page was live and even linked to the Elmina guide one-way. The fix closes that loop in both directions.\n\nAlso checked: an exact-property photo review for Lemon Beach across Wikimedia Commons, Flickr (licence-filtered), Openverse, Unsplash, Pexels and Pixabay found no rights-clean exact-property photograph, so the page keeps its honest zero-photo state. Six wanted subjects (exterior, room categories, pool, spa, restaurant, private beach) are logged; owner originals or written permission would fill them.\n\nLive receipt: trekafricaguide.com/countries/ghana/elmina/ now renders Where to stay with the Lemon Beach card (commit pushed to main; live check follows deploy).\n\nBlockers: owner Gmail sign-in still pending (this and earlier progress drafts stored); CMS editorial mirror still pending owner-side check."
   },
   "local_destination_nairobi": {
     "id": "nairobi",
@@ -1964,5 +1964,23 @@
       },
       "cms_source_commit": "imported at source_commit 48c52ed; publishable-key read of editorial_documents remains RLS-blocked — owner-side CMS check to confirm local_destinations/kasane"
     }
-  }
+  },
+  "accommodation_elmina_where_to_stay": {
+    "id": "elmina-where-to-stay-link",
+    "category": "accommodations",
+    "started": "2026-11-12",
+    "status": "published_live_confirmed",
+    "evidence": "Only live destination without a Where-to-stay section; lemon-beach-resort-elmina page live and same-country but unlinked from the destination page.",
+    "files": [
+      "content/local-destinations.json",
+      "docs/editorial-research/2026-11-12-elmina-where-to-stay-link.md",
+      "docs/editorial-progress.json"
+    ],
+    "images": 0,
+    "image_followup": "Six exact-property subjects ledgered; reopen on owner originals or written permission.",
+    "key_facts_checked": "Live Elmina destination and Lemon Beach pages (12 Nov); Commons/Flickr/Openverse/Unsplash/Pexels/Pixabay exact-property searches (12 Nov); same-country binding country_id 45.",
+    "next_category": "destinations",
+    "next_action": "Rotate to destinations next run; Lemon Beach photo backlog tracked in ledger; CMS owner-side check pending (standard)."
+  },
+  "next_category": "destinations"
 }
