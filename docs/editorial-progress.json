@@ -1924,5 +1924,45 @@
       "checked_at": "2026-11-12",
       "live_distinctive_text": "Sine Saloum Delta pirogue excursion | Trek Africa Guide"
     }
+  },
+  "destination_kasane": {
+    "id": "kasane",
+    "category": "destinations",
+    "started": "2026-11-12",
+    "latest_run_note": "Scheduled routine run; executed on schedule. Evidence gap: live Botswana country page (HTTP 200) explicitly names Chobe as co-equal pillar with Okavango but only renders Maun in Destinations rail; Chobe attraction 404; travel insight frames Kasane as Chobe gateway with scheduled flights and Victoria Falls road link.",
+    "selection_evidence": "Live countries/botswana/ (HTTP 200, 12 Nov 2026) states 'Botswana is a high-value safari market built around the Okavango Delta, Chobe, and low-impact conservation-led travel' but Destinations rail shows only Maun. Live attractions/chobe-national-park/ returns 404. Live travel insight choose-botswana-safari-chobe-or-okavango (12 Nov 2026) details Kasane (BBK) scheduled flights from Johannesburg, Gaborone, Maun; Victoria Falls (VFA) 90-min road transfer; Chobe four ecosystems; Kasane–Maun 45-min flight.",
+    "scope": "New local destination: Kasane under Botswana (country_slug: botswana). The northeastern river town on the Chobe River, gateway to Chobe National Park's riverfront sector with dry-season elephant concentrations, boat cruises, game drives. Scheduled flights to Kasane (BBK) from Johannesburg, Gaborone, Maun; Victoria Falls road link via Kazungula Bridge. Chobe's four ecosystems (Riverfront, Savuti, Linyanti, Nogatsaa) — only Riverfront road-accessible from Kasane. Classic combination: Chobe Riverfront (2–3 nights) + Okavango camp (3–4 nights) via Kasane–Maun 45-min flight. Zero-image honest publish; six-subject photo backlog logged.",
+    "files": [
+      "content/local-destinations.json",
+      "docs/editorial-research/2026-11-12-kasane-local-destination.md",
+      "docs/editorial-progress.json"
+    ],
+    "images": 0,
+    "image_followup": "Six distinct licensed subjects: Chobe River at sunset with elephant herds, Kasane airport (BBK) terminal with light aircraft, houseboat on Chobe River, boat cruise with elephants in water, Victoria Falls road transfer (Kazungula Bridge), Savuti/Linyanti landscape (fly-in context). Not reusable from Maun/Okavango collections.",
+    "booking_cta": "None by design: destination pages carry no hotel-booking surrogate; booking texture flows through Camp Okavango stay guide and the two Botswana travel insights' cross-links.",
+    "key_facts_checked": "Botswana Tourism Chobe page (four ecosystems, Serondela Riverfront, elephant concentrations, Kasane gateway, river cruises) and entry requirements (visa-free for many, passport 6 months, yellow fever if endemic) — both checked 12 Nov 2026. Gov Botswana airports (Kasane BBK listed) — checked 9 Nov 2026. Live Trek pages (Botswana country, choose-botswana-safari insight, Maun destination, plan-okavango-trip insight) — all checked 12 Nov 2026. UNESCO Okavango Delta (ID 1432) — checked 9 Nov 2026.",
+    "cms": "Production deploy imports at source_commit; publishable-key read of editorial_documents remains RLS-blocked — owner-side CMS check to confirm local_destinations/kasane after deploy.",
+    "next_category": "accommodations",
+    "next_action": "Rotate to accommodations next run; six-subject photo backlog tracked in the ledger; CMS owner-side check pending (standard).",
+    "status": "published_live_confirmed",
+    "content_commit": "48c52ed",
+    "publication": {
+      "content_commit": "48c52ed",
+      "pushed_to": "main",
+      "push_result": "success (rebased over 25256c8)",
+      "pushed_at": "2026-11-12",
+      "live_url": "https://trekafricaguide.com/countries/botswana/kasane/",
+      "live_http_status": 200,
+      "checked_at": "2026-11-12",
+      "live_distinctive_text": "Kasane, Botswana | Trek Africa Guide",
+      "live_checks": {
+        "detail": "HTTP 200; title correct; full destination h2 flow (Explore Kasane, Highlights, Getting there and around, Best time to visit, Planning your stay, Things to do, Where to stay, Travel insights, More destinations in Botswana); distinctive copy renders (four-country convergence, Chobe Riverfront elephant concentrations, BBK scheduled flights, Victoria Falls 90-min via Kazungula, four ecosystems, Kasane–Maun 45-min flight); honest zero-image state; no exposed markup.",
+        "cards": "Things to do renders Okavango mokoro safari; Where to stay renders Camp Okavango; Travel insights renders both Botswana insights; More destinations in Botswana renders Maun.",
+        "parent": "Botswana country page now renders 'Destinations in Botswana' with both Maun and Kasane cards (gap closed).",
+        "archive_home": "Countries archive and homepage search list the guide.",
+        "internal_links": "All cross-link targets live HTTP 200 (Botswana country, Maun destination, Okavango mokoro activity, Camp Okavango stay, both Botswana travel insights)."
+      },
+      "cms_source_commit": "imported at source_commit 48c52ed; publishable-key read of editorial_documents remains RLS-blocked — owner-side CMS check to confirm local_destinations/kasane"
+    }
   }
 }
