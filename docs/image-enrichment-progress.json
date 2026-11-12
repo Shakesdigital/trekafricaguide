@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12 09:11 Africa/Kampala",
+  "updated_at": "2026-11-12 10:11 Africa/Kampala",
   "blocked_runs": [
     {
       "id": "network-outage-no-research-2026-11-09-1807",
@@ -4023,6 +4023,25 @@
         "new_asset": null
       },
       "next_action": "Continue zero-photo accommodation rotation; request owner originals or written permission for Ridge Royal Hotel. Re-poll Sossusvlei Lodge stale gallery."
+    },
+    {
+      "id": "red-chilli-rest-camp-no-eligible-photo-review-2026-11-12",
+      "page_url": "https://trekafricaguide.com/accommodations/red-chilli-rest-camp/",
+      "page_type": "accommodation",
+      "status": "reviewed_no_eligible_photo",
+      "previous_photo_count": 0,
+      "photo_count": 0,
+      "new_photo_count": 0,
+      "checked_date": "2026-11-12",
+      "started_at": "2026-11-12 10:07 Africa/Kampala",
+      "source_ledger": "docs/editorial-research/2026-11-12-red-chilli-rest-camp-photo-review.md",
+      "note": "Live page HTTP 200 with no gallery. Exact-property free-stock search produced no licensed candidate; operator photos are rights-reserved. No public image change. Sossusvlei Lodge still displays See all 2 images and omits the pushed third asset.",
+      "files": [
+        "docs/editorial-research/2026-11-12-red-chilli-rest-camp-photo-review.md",
+        "docs/image-enrichment-progress.json"
+      ],
+      "email_id": null,
+      "report_status": "No publication, so owner email was not attempted."
     }
   ],
   "review_checkpoints": [
@@ -4053,7 +4072,7 @@
   ],
   "updated": 1,
   "last_run_at": "2026-11-11 12:18 UTC (15:18 Africa/Kampala) — Sal Island attraction gallery extended 5 -> 9 photos (4 new CC BY-SA 3.0 from Wikimedia Commons); commit 3240f05 pushed to origin/main; production page renders \"See all 9 images\", all 9 asset URLs HTTP 200 image/jpeg",
-  "next_action": "Re-poll Sossusvlei Lodge stale production gallery; continue zero-photo accommodation rotation with Terres Touareg Guest House, Red Chilli Rest Camp, Fairway Boutique Hotel or Hilton Cabo Verde Sal Resort. Ridge Royal Hotel requires owner originals or written permission.",
+  "next_action": "Continue reviewing new exact-property licensed leads across zero-photo accommodations; Sossusvlei Lodge remains live-deployment pending at two rendered images.",
   "current_run": {
     "id": "volcanoes-golden-monkey-six-photo-gap-fill-third-pass-2026-11-11",
     "page_url": "https://trekafricaguide.com/activities/volcanoes-golden-monkey-trekking/",
