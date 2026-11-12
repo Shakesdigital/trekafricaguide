@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12T14:30:00.000Z",
+  "updated_at": "2026-11-12T21:15:00.000Z"
   "owner": "booking-links audit agent",
   "ledger": "docs/editorial-research/2026-11-08-booking-links-audit.md",
   "run_1": {
@@ -296,6 +296,17 @@
         "e8c46d6"
       ],
       "production_deploy": "6af4df1d8906c2b57d227730"
+    },
+    {
+      "date": "2026-11-12",
+      "scheduled_for": "2026-11-12T21:00:00Z",
+      "checked": 51,
+      "pass": 48,
+      "fail": 3,
+      "fixed": 3,
+      "added": 0,
+      "new_holds": 0,
+      "notes": "Scheduled midnight routine re-verification. Verifier checked 51 active entries: 41 GetYourGuide exact t-product IDs (HTTP403, URL-only), 7 Booking.com exact /hotel/ paths (HTTP202, URL-only), 1 Agoda exact path (HTTP200), 3 Booking.com entries that redirected to searchresults.html (kibale-forest-camp, hilton-cabo-verde-sal-resort, desert-quiver-camp). Fixed all three by switching from .en-gb locale variants to locale-free canonical /hotel/ paths verified via browser search: kibale-forest-camp -> /hotel/ug/kibale-forest-camp-kyenjojo.html, hilton-cabo-verde-sal-resort -> /hotel/cv/hilton-cabo-verde-sal-resort.html, desert-quiver-camp -> /hotel/na/desert-quiver-camp.html. Each browser search confirmed exact property identity at source. check:build-inputs passed. No deploy triggered yet (push pending).
     }
   ],
   "method_rule": "Booking.com searchresults.html with dest_type=hotel is NOT proof of an exact detail landing. Browser content wins over server URL shape; never count bot-walled bodies as verified full-detail pages. All providers require exact detail landings."

@@ -1,13 +1,13 @@
 {
   "accommodations": {
     "kibale-forest-camp": {
-      "url": "https://www.booking.com/hotel/ug/kibale-forest-camp-kyenjojo.en-gb.html",
+      "url": "https://www.booking.com/hotel/ug/kibale-forest-camp-kyenjojo.html",
       "provider": "booking",
       "title": "Kibale Forest Camp by NATURE LODGES LTD",
-      "checked_at": "2026-10-17",
+      "checked_at": "2026-11-12",
       "evidence": {
-        "source_url": "https://www.booking.com/hotel/ug/kibale-forest-camp-kyenjojo.en-gb.html",
-        "summary": "The exact Booking.com detail page names Kibale Forest Camp by NATURE LODGES LTD and gives Kibale, Kyenjojo, Uganda. Property identity and operating company cross-checked against Nature Lodges Uganda's current official property page. Direct Booking.com detail content could not be retrieved; no OTA rating, review count, rates, availability or attribution claims are made."
+        "source_url": "https://www.booking.com/hotel/ug/kibale-forest-camp-kyenjojo.html",
+        "summary": "12 November 2026 (Kampala), scheduled routine: browser search for 'Kibale Forest Camp Uganda' returned the exact property detail page at /hotel/ug/kibale-forest-camp-kyenjojo.html (locale-free), identifying Kibale Forest Camp by NATURE LODGES LTD in Kyenjojo, Uganda. Switched from .en-gb variant which redirected to search. Direct detail content bot-walled; no OTA rating, review count, rates, availability or attribution claims made."
       }
     },
     "casa-del-papa": {
@@ -44,13 +44,13 @@
       }
     },
     "hilton-cabo-verde-sal-resort": {
-      "url": "https://www.booking.com/hotel/cv/hilton-cabo-verde-sal-resort.en-gb.html",
+      "url": "https://www.booking.com/hotel/cv/hilton-cabo-verde-sal-resort.html",
       "provider": "booking",
       "title": "Hilton Cabo Verde Sal Resort",
-      "checked_at": "2026-10-11",
+      "checked_at": "2026-11-12",
       "evidence": {
-        "source_url": "https://www.booking.com/hotel/cv/hilton-cabo-verde-sal-resort.en-gb.html",
-        "summary": "Primary detail identifies Hilton Cabo Verde Sal Resort in Santa Maria, Cape Verde."
+        "source_url": "https://www.booking.com/hotel/cv/hilton-cabo-verde-sal-resort.html",
+        "summary": "12 November 2026 (Kampala), scheduled routine: browser search for 'Hilton Cabo Verde Sal Resort' returned the exact property detail page at /hotel/cv/hilton-cabo-verde-sal-resort.html (locale-free), identifying Hilton Cabo Verde Sal Resort in Santa Maria, Cape Verde. Switched from .en-gb variant which redirected to search. Direct detail content bot-walled; no OTA rating, review count, rates, availability or attribution claims made."
       }
     },
     "kruger-shalati": {
@@ -237,13 +237,13 @@
       "reason": "The editorial property is the desertluxurycamp.com operator portfolio (Erg Chebbi or Erg Chigaga). Multiple OTA namesakes were found, but same-operator identity could not be confirmed. Do not publish these candidate links without operator confirmation."
     },
     "desert-quiver-camp": {
-      "url": "https://www.booking.com/hotel/na/desert-quiver-camp.en-gb.html",
+      "url": "https://www.booking.com/hotel/na/desert-quiver-camp.html",
       "provider": "booking",
       "title": "Desert Quiver Camp",
-      "checked_at": "2026-10-15",
+      "checked_at": "2026-11-12",
       "evidence": {
-        "source_url": "https://www.booking.com/hotel/na/desert-quiver-camp.en-gb.html",
-        "summary": "Indexed Booking.com property detail identifies Desert Quiver Camp at Farm On D826 / C27, Sossusvlei, Sesriem, Namibia. Self-catering units and gate proximity match official property site. Direct retrieval on 15 October returned JavaScript verification; live rates, availability and affiliate attribution not verified."
+        "source_url": "https://www.booking.com/hotel/na/desert-quiver-camp.html",
+        "summary": "12 November 2026 (Kampala), scheduled routine: browser search for 'Desert Quiver Camp Namibia' returned the exact property detail page at /hotel/na/desert-quiver-camp.html (locale-free), identifying Desert Quiver Camp at Farm On D826/C27, Sesriem, Namibia. Switched from .en-gb variant which redirected to search. Direct detail content bot-walled; no OTA rating, review count, rates, availability or affiliate attribution verified."
       }
     },
     "amboseli-serena-safari-lodge": {
