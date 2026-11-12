@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12 06:30 Africa/Kampala",
+  "updated_at": "2026-11-12 17:31 Africa/Kampala",
   "blocked_runs": [
     {
       "id": "network-outage-no-research-2026-11-09-1807",
@@ -9,42 +9,7 @@
       "note": "Run not started: machine-level network outage. Confirmed unreachable by TCP test and HTTPS attempts: github.com and api.github.com (git fetch failed 3x over ~4 minutes), commons.wikimedia.org, en.wikipedia.org, api.openverse.org (504) and unsplash.com (Fastly 151.101.x.x). Reachable: trekafricaguide.com, www.pexels.com, www.flickr.com. A rights-standard review is impossible without Wikimedia Commons/Openverse/Unsplash (a partial review would risk a false 'no eligible photos' conclusion), and no commit can be pushed or deployed. No website files touched; the separate editorial automation's working-tree changes were left untouched.",
       "next_action": "On the next run, retry git fetch first; once GitHub is reachable again, complete the Dar SaÃ¯d exact-property review from the top of the rotation backlog."
     },
-    {
-      "id": "sossusvlei-lodge-pushed-live-pending-2026-11-11",
-      "scheduled_at": "2026-11-11 ~05:5x UTC (08:5x Africa/Kampala)",
-      "status": "blocked_deploy_pending",
-      "planned_target": "Sossusvlei Lodge accommodation page (https://trekafricaguide.com/accommodations/sossusvlei-lodge/) — gallery extended 2 -> 3 dedicated photos: added Frans-Banja Mulder CC BY 3.0 'View from Sossusvlei Lodge in Sesriem' (Wikimedia Commons File:View from Sossusvlei Lodge - panoramio.jpg, curid 46694630, captured 2006-09-19, original 876x584 JPEG, local sha256 64af6db17f56218e15d66921e2f6615d00567c4f6b3b2b3e1eba752bc2dd436c). Commit 2d31df3 pushed to Shakesdigital/trekafricaguide main; production /photo-library.js confirmed carrying the new entry, but page HTML still renders 'See all 2 images' after ~20 minutes — the Netlify production build (npm ci && npm run build) has not shipped the new gallery HTML.",
-      "note": "This run re-polled production from 07:08-07:25 UTC (10:08-10:25 Africa/Kampala, 15 attempts) on 2026-11-11, and again at 03:08 UTC (06:08 Africa/Kampala) on 2026-11-12: page still renders 'See all 2 images'; the new asset sossusvlei-lodge-view-from-lodge-2006.jpg is absent from page HTML. All three gallery asset URLs verified HTTP 200 image/jpeg - starter sossusvlei-lodge.jpg, property-patio-2010.jpg, and the pushed 2006 view (Content-Length 620510 bytes matches local file exactly) - so the image file itself is live, but the production page HTML/gallery has not shipped the pushed entry after ~21+ hours since commit 2d31df3. Blocker persists (stale/not-shipped production gallery HTML, not a rights or asset problem); not claimed as published. No Gmail send tool in harness; owner email not attempted (email only when a collection is live-confirmed). Per protocol (~15 min guideline), this blocker is now recorded as persistent; the run remains in blocked_runs pending resolution.",
-      "next_action": "Continue re-polling https://trekafricaguide.com/accommodations/sossusvlei-lodge/ until it renders 'See all 3 images' including sossusvlei-lodge-view-from-lodge-2006.jpg; verify all three asset URLs return HTTP 200 image/jpeg; then finalize this run in completed_runs with live verification and commit/push the checkpoint.",
-      "files": [
-        "src/lib/photo-library.js",
-        "public/photo-library.js",
-        "public/images/editorial/sossusvlei-lodge/sossusvlei-lodge-view-from-lodge-2006.jpg",
-        "docs/editorial-research/2026-11-11-sossusvlei-lodge-photo-enrichment.md",
-        "docs/image-enrichment-progress.json"
-      ],
-      "selected_images": [
-        "sossusvlei-lodge-view-from-lodge-2006.jpg"
-      ],
-      "live_verification": {
-        "checked_at": "2026-11-12 03:08 UTC (06:08 Africa/Kampala)",
-        "page_http_status": 200,
-        "see_all_text": "See all 2 images",
-        "distinct_property_image_count": 2,
-        "new_asset": null,
-        "asset_http_statuses": [
-          200,
-          200,
-          200
-        ],
-        "asset_content_types": [
-          "image/jpeg",
-          "image/jpeg",
-          "image/jpeg"
-        ],
-        "note": "Page HTTP 200 but still renders 'See all 2 images'; new asset absent from page HTML. All three asset URLs return HTTP 200 image/jpeg including the pushed 2006 view (620510 bytes, matches local file) - asset file is live, production page HTML/gallery has not shipped the pushed entry after ~21+ hours since commit 2d31df3. Blocker persists; not claimed as published."
-      }
-    },
+
     {
       "id": "bwindi-gorilla-trekking-interrupted-2026-10-28",
       "status": "resolved_live_confirmed",
@@ -84,6 +49,28 @@
     "resolved_at": "2026-10-21 13:16 Africa/Kampala"
   },
   "completed_runs": [
+    {
+      "id": "les-paletuviers-bounded-rights-review-2026-11-12",
+      "page_url": "https://trekafricaguide.com/accommodations/les-paletuviers/",
+      "page_type": "accommodation",
+      "status": "reviewed_no_eligible_photo",
+      "previous_photo_count": 0,
+      "photo_count": 0,
+      "new_photo_count": 0,
+      "checked_date": "2026-11-12",
+      "started_at": "2026-11-12 08:15 Africa/Kampala",
+      "source_ledger": "docs/editorial-research/2026-11-12-les-paletuviers-photo-review.md",
+      "note": "Live page has zero dedicated hotel photos. Exact-property Flickr pontoon image is All rights reserved; Wikimedia Commons search returned unrelated Les Paletuviers Matanda in Cameroon; Unsplash result was Belize mangroves. No rights-clean exact-property candidate verified in this bounded review. No gallery or asset change.",
+      "files": [
+        "docs/editorial-research/2026-11-12-les-paletuviers-photo-review.md",
+        "docs/image-enrichment-progress.json"
+      ],
+      "selected_images": [],
+      "published_commit": null,
+      "email_id": null,
+      "report_status": "NOT SENT: no collection published.",
+      "next_action": "Continue low-photo rotation; seek owner originals or written permission for Les Paletuviers, or choose another underfilled page. Re-poll Sossusvlei Lodge pending gallery deployment."
+    },
     null,
     {
       "id": "sal-island-attraction-gallery-5-to-9-2026-11-11",
@@ -3979,6 +3966,145 @@
         "note": "Production serves the eight-image Jollyboys Backpackers gallery; all eight assets return HTTP 200 image/jpeg with byte counts matching the stored files."
       },
       "next_action": "Sossusvlei Lodge run still blocked_deploy_pending (re-poll until 'See all 3 images' renders). Continue reopened-by-rights collections: Governors Camp (4/15). Rotate to another underfilled category (zero-photo accommodations: Hilton Cabo Verde Sal Resort, The Place Resort Tokeh, Ridge Royal Hotel, Les Paletuviers, Terres Touareg Guest House, Red Chilli Rest Camp, Fairway Boutique Hotel)."
+    },
+    {
+      "id": "ridge-royal-hotel-bounded-rights-review-2026-11-12",
+      "page_url": "https://trekafricaguide.com/accommodations/ridge-royal-hotel/",
+      "page_type": "accommodation",
+      "status": "reviewed_no_eligible_photo",
+      "started_at": "2026-11-12 09:07 Africa/Kampala",
+      "completed_at": "2026-11-12 09:11 Africa/Kampala",
+      "previous_photo_count": 0,
+      "photo_count": 0,
+      "new_photo_count": 0,
+      "source_ledger": "docs/editorial-research/2026-11-12-ridge-royal-hotel-photo-review.md",
+      "note": "Live page has no dedicated gallery. Bounded exact-property source review found no eligible reusable photograph; nearby Cape Coast imagery and unlicensed hotel photos excluded. Sossusvlei Lodge re-poll still showed See all 2 images. No gallery published.",
+      "selected_images": [],
+      "report_status": "NOT SENT: no collection was live-confirmed this run.",
+      "live_verification": {
+        "checked_at": "2026-11-12 09:11 Africa/Kampala",
+        "page_http_status": 200,
+        "distinct_property_image_count": 0,
+        "new_asset": null
+      },
+      "next_action": "Continue zero-photo accommodation rotation; request owner originals or written permission for Ridge Royal Hotel. Re-poll Sossusvlei Lodge stale gallery."
+    },
+    {
+      "id": "red-chilli-rest-camp-no-eligible-photo-review-2026-11-12",
+      "page_url": "https://trekafricaguide.com/accommodations/red-chilli-rest-camp/",
+      "page_type": "accommodation",
+      "status": "reviewed_no_eligible_photo",
+      "previous_photo_count": 0,
+      "photo_count": 0,
+      "new_photo_count": 0,
+      "checked_date": "2026-11-12",
+      "started_at": "2026-11-12 10:07 Africa/Kampala",
+      "source_ledger": "docs/editorial-research/2026-11-12-red-chilli-rest-camp-photo-review.md",
+      "note": "Live page HTTP 200 with no gallery. Exact-property free-stock search produced no licensed candidate; operator photos are rights-reserved. No public image change. Sossusvlei Lodge still displays See all 2 images and omits the pushed third asset.",
+      "files": [
+        "docs/editorial-research/2026-11-12-red-chilli-rest-camp-photo-review.md",
+        "docs/image-enrichment-progress.json"
+      ],
+      "email_id": null,
+      "report_status": "No publication, so owner email was not attempted."
+    },
+    {
+      "id": "terres-touareg-rights-review-2026-11-12-1707",
+      "page_url": "https://trekafricaguide.com/accommodations/terres-touareg-guest-house/",
+      "page_type": "accommodation",
+      "status": "reviewed_no_eligible_photo",
+      "started_at": "2026-11-12 17:07 Africa/Kampala",
+      "completed_at": "12/11/2026, 17:11 Africa/Kampala",
+      "previous_photo_count": 0,
+      "photo_count": 0,
+      "new_photo_count": 0,
+      "source_ledger": "docs/editorial-research/2026-11-12-terres-touareg-photo-review.md",
+      "note": "Live accommodation page HTTP 200 with no dedicated gallery. Exact-property Wikimedia Commons file search returned no matches; web search found the operator guest-house page but no reusable photo licence. No photo assigned. Sossusvlei Lodge production still renders See all 2 images.",
+      "selected_images": [],
+      "report_status": "NOT SENT: no collection was published and live-confirmed this run.",
+      "live_verification": {
+        "checked_at": "12/11/2026, 17:11 Africa/Kampala",
+        "page_http_status": 200,
+        "distinct_property_image_count": 0,
+        "new_asset": null
+      },
+      "next_action": "Continue the low-photo page rotation; Sossusvlei Lodge now renders its verified three-image gallery. Prioritize newly published zero-photo pages and owner-licensed property imagery."
+    },
+    {
+      "id": "sossusvlei-lodge-pushed-live-pending-2026-11-11",
+      "scheduled_at": "2026-11-11 ~05:5x UTC (08:5x Africa/Kampala)",
+      "status": "published_live_confirmed_partial",
+      "planned_target": "Sossusvlei Lodge accommodation page (https://trekafricaguide.com/accommodations/sossusvlei-lodge/) — gallery extended 2 -> 3 dedicated photos: added Frans-Banja Mulder CC BY 3.0 'View from Sossusvlei Lodge in Sesriem' (Wikimedia Commons File:View from Sossusvlei Lodge - panoramio.jpg, curid 46694630, captured 2006-09-19, original 876x584 JPEG, local sha256 64af6db17f56218e15d66921e2f6615d00567c4f6b3b2b3e1eba752bc2dd436c). Commit 2d31df3 pushed to Shakesdigital/trekafricaguide main; production /photo-library.js confirmed carrying the new entry, but page HTML still renders 'See all 2 images' after ~20 minutes — the Netlify production build (npm ci && npm run build) has not shipped the new gallery HTML.",
+      "note": "This run re-polled production from 07:08-07:25 UTC (10:08-10:25 Africa/Kampala, 15 attempts) on 2026-11-11, and again at 03:08 UTC (06:08 Africa/Kampala) on 2026-11-12: page still renders 'See all 2 images'; the new asset sossusvlei-lodge-view-from-lodge-2006.jpg is absent from page HTML. All three gallery asset URLs verified HTTP 200 image/jpeg - starter sossusvlei-lodge.jpg, property-patio-2010.jpg, and the pushed 2006 view (Content-Length 620510 bytes matches local file exactly) - so the image file itself is live, but the production page HTML/gallery has not shipped the pushed entry after ~21+ hours since commit 2d31df3. Blocker persists (stale/not-shipped production gallery HTML, not a rights or asset problem); not claimed as published. No Gmail send tool in harness; owner email not attempted (email only when a collection is live-confirmed). Per protocol (~15 min guideline), this blocker is now recorded as persistent; the run remains in blocked_runs pending resolution. Resolved 2026-11-12: editorial-overrides.json explicitly listed only two images and overrode the three-image photo library. Commit 437dcf9 added the verified third path to the page override; Netlify production deploy 6af5cbaf92ac4e8216e7aed9 is ready.",
+      "next_action": "Continue low-photo page rotation; Sossusvlei Lodge needs seven more exact-property licensed photos to reach the accommodation target.",
+      "files": [
+        "src/lib/photo-library.js",
+        "public/photo-library.js",
+        "public/images/editorial/sossusvlei-lodge/sossusvlei-lodge-view-from-lodge-2006.jpg",
+        "docs/editorial-research/2026-11-11-sossusvlei-lodge-photo-enrichment.md",
+        "docs/image-enrichment-progress.json"
+      ],
+      "selected_images": [
+        "sossusvlei-lodge-view-from-lodge-2006.jpg"
+      ],
+      "live_verification": {
+        "checked_at": "2026-11-12 17:23 Africa/Kampala",
+        "page_http_status": 200,
+        "see_all_text": "See all 3 images",
+        "distinct_property_image_count": 3,
+        "all_new_filenames_in_page": true,
+        "asset_http_statuses": [
+          200,
+          200,
+          200
+        ],
+        "asset_content_types": [
+          "image/jpeg",
+          "image/jpeg",
+          "image/jpeg"
+        ],
+        "deploy_id": "6af5cbaf92ac4e8216e7aed9"
+      },
+      "page_url": "https://trekafricaguide.com/accommodations/sossusvlei-lodge/",
+      "page_type": "accommodation",
+      "previous_photo_count": 2,
+      "photo_count": 3,
+      "new_photo_count": 1,
+      "completed_at": "2026-11-12 17:23 Africa/Kampala",
+      "published_commit": "437dcf9",
+      "report_status": "SENT to fsddanmugisa@gmail.com after live confirmation; Gmail message 1a1d0261b0891265."
+    },
+    {
+        "id":  "consolidated-missed-hourly-sweep-2026-11-12-1727",
+        "status":  "reviewed_no_eligible_photo",
+        "page_url":  "https://trekafricaguide.com/accommodations/accra-city-hotel/",
+        "page_type":  "accommodation",
+        "started_at":  "2026-11-12 17:27 Africa/Kampala",
+        "completed_at":  "2026-11-12 17:31 Africa/Kampala",
+        "substitutes_for":  [
+                                "2026-11-12 07:07 Africa/Kampala",
+                                "2026-11-12 11:07 Africa/Kampala",
+                                "2026-11-12 12:07 Africa/Kampala",
+                                "2026-11-12 13:07 Africa/Kampala",
+                                "2026-11-12 14:07 Africa/Kampala",
+                                "2026-11-12 15:07 Africa/Kampala",
+                                "2026-11-12 16:07 Africa/Kampala"
+                            ],
+        "previous_photo_count":  0,
+        "photo_count":  0,
+        "new_photo_count":  0,
+        "source_ledger":  "docs/editorial-research/2026-11-12-accra-city-hotel-catchup-photo-review.md",
+        "note":  "Checkpoint and origin/main history had no completed image run for the listed slots. One consolidated catch-up reviewed the newly published zero-photo Accra City Hotel page; no verified exact-property licensed image was found. Sossusvlei Lodge pending third photo was repaired and separately live-confirmed; no gallery duplicated. Hourly cadence unchanged.",
+        "selected_images":  [
+                            ],
+        "report_status":  "NOT SENT: no new collection published in this sweep; earlier Sossusvlei live-confirmed repair report was sent.",
+        "live_verification":  {
+                                  "checked_at":  "2026-11-12 17:30 Africa/Kampala",
+                                  "page_http_status":  200,
+                                  "distinct_property_image_count":  0,
+                                  "new_asset":  null
+                              },
+        "next_action":  "Continue low-photo rotation; seek exact-property rights-clean photos for Accra City Hotel or owner originals. Do not repeat the missed slots; normal hourly cadence resumes."
     }
   ],
   "review_checkpoints": [
@@ -4009,7 +4135,7 @@
   ],
   "updated": 1,
   "last_run_at": "2026-11-11 12:18 UTC (15:18 Africa/Kampala) — Sal Island attraction gallery extended 5 -> 9 photos (4 new CC BY-SA 3.0 from Wikimedia Commons); commit 3240f05 pushed to origin/main; production page renders \"See all 9 images\", all 9 asset URLs HTTP 200 image/jpeg",
-  "next_action": "Sossusvlei Lodge run still blocked_deploy_pending (re-poll until 'See all 3 images' renders). Continue reopened-by-rights collections: Governors Camp (4/15). Rotate to another underfilled category (zero-photo accommodations: Hilton Cabo Verde Sal Resort, The Place Resort Tokeh, Ridge Royal Hotel, Les Paletuviers, Terres Touareg Guest House, Red Chilli Rest Camp, Fairway Boutique Hotel).",
+  "next_action": "Consolidated missed-slot sweep complete; continue normal hourly low-photo rotation. Accra City Hotel remains zero-photo pending exact-property licensed images or owner originals.",
   "current_run": {
     "id": "volcanoes-golden-monkey-six-photo-gap-fill-third-pass-2026-11-11",
     "page_url": "https://trekafricaguide.com/activities/volcanoes-golden-monkey-trekking/",
@@ -4077,7 +4203,7 @@
     },
     "next_action": "Rotate to a fresh underfilled page. Note: the entire zero-image frontier is accommodations, and the eight reopened zero-photo accommodation collections (Governors Camp, Camp Okavango, Desert Luxury Camp, Dar Said, Maribela, Riad Rosemary, Sanctuary Gorilla Forest Camp, The Place Tokeh, plus Fairway, Kibale Forest Camp, Red Chilli, Ridge Royal, Terres Touareg, Sabyinyo, Hilton Cabo Verde, Les Paletuviers) had no exact-property free-stock leads in this run Openverse/Commons probes (Governors Camp results were all sibling properties Il Moran and Little Governors, excluded as another-property). Next useful rotations: other-category insufficient collections, or owner-supplied property photos."
   },
-  {
+  "latest_review": {
     "id": "casa-del-papa-exact-property-no-eligible-photo-review",
     "page_url": "https://trekafricaguide.com/accommodations/casa-del-papa/",
     "page_type": "accommodation",
@@ -4109,5 +4235,4 @@
     },
     "next_action": "Continue the low-photo accommodation rotation: Kruger Shalati (1/15), Les Paletuviers (0/15), Marriott Mena House Cairo (1/15), Mfuwe Lodge (1/15), Ol Tukai Lodge Amboseli (1/15), Paraa Safari Lodge (1/15), Ridge Royal Hotel (0/15), Serengeti Serena Safari Lodge (1/15), Terres Touareg Guest House (0/15), Red Chilli Rest Camp (0/15). Reopen Casa del Papa only for owner originals, written operator permission, or a named rights-clean photographer set whose source page specifically depicts this property."
   }
-]
 }

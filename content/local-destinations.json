@@ -195,7 +195,9 @@
       "cape-coast-kakum"
     ],
     "activity_slugs": [],
-    "accommodation_slugs": [],
+    "accommodation_slugs": [
+      "lemon-beach-resort-elmina"
+    ],
     "travel_insight_slugs": [],
     "hero_image_url": "/images/editorial/elmina/town-overview.jpg",
     "hero_image_alt": "Elmina’s coastal town and fishing harbor viewed from above.",
@@ -623,6 +625,83 @@
     ]
   },
   {
+    "slug": "kasane",
+    "country_slug": "botswana",
+    "name": "Kasane",
+    "category": "Town",
+    "hero_title": "Kasane: the riverfront gateway to Chobe's elephant herds",
+    "listing_summary": "Botswana's northeastern river town on the Chobe River, with scheduled flights, a 90-minute road link to Victoria Falls, and the launch point for dry-season boat cruises among hundreds of elephants.",
+    "overview": "Kasane sits at the convergence of four countries — Botswana, Namibia, Zambia, and Zimbabwe — on the banks of the Chobe River in Botswana's far northeast. It is the practical gateway to Chobe National Park's riverfront, the park's most accessible and wildlife-dense sector, where dry-season elephant concentrations draw visitors to morning and late-afternoon boat cruises. Botswana Tourism describes the riverfront as the area where 'elephants cross from Botswana into Namibia' and where herds of hundreds gather at the river to drink, bathe, and cross from June to October.\n\nThe town's airport (BBK) receives scheduled flights from Johannesburg, Gaborone, and Maun, making it a direct entry point for a Chobe-focused safari. Victoria Falls (VFA) in Zimbabwe is a 90-minute road transfer via the Kazungula Bridge, adding the waterfall as a practical bonus day. This cross-border access is a distinctive feature: a Kasane stay can open both the Chobe riverfront and a Victoria Falls day without an additional flight.\n\nChobe National Park spans four ecosystems, but only the Riverfront is practically reached from Kasane by road. The Savuti Marsh, Linyanti Swamps, and Nogatsaa sectors require fly-in camps and separate logistics. Botswana Tourism notes that Savuti offers predator densities and seasonal zebra migrations, while Linyanti provides a remote wetland experience — both are distinct products from the Kasane-based riverfront outing. A Kasane stay therefore centres on the riverfront: boat cruises, game drives in the Serondela area, and the town's own services (fuel, supplies, ATMs, casual dining).\n\nFor travellers combining Chobe with the Okavango Delta, the Kasane–Maun light-aircraft flight (45 minutes) is the standard link. The classic two-area itinerary pairs 2–3 nights on the Chobe Riverfront with 3–4 nights at an Okavango camp, using Maun as the Delta gateway. Our published travel insight on choosing between Chobe and Okavango, and the Okavango trip-planning insight, detail this combination.\n\nKasane is a working river town, not a polished tourist hub. Its value is access: the Chobe River is the daily stage, and the town's services support the logistics of early cruises and park entry. Give it a deliberate night before the first cruise rather than treating it as a same-day transfer point.",
+    "highlights": [
+      "Chobe Riverfront: dry-season elephant concentrations (June–October) viewed from boat cruises and game drives based in Kasane",
+      "Scheduled flights to Kasane (BBK) from Johannesburg, Gaborone, and Maun; Victoria Falls (VFA) 90-minute road transfer via Kazungula Bridge",
+      "Chobe's four ecosystems: Riverfront (Kasane base), Savuti Marsh, Linyanti Swamps, Nogatsaa — only Riverfront is road-accessible from town",
+      "Classic Botswana combination: Chobe Riverfront (2–3 nights) + Okavango camp (3–4 nights) linked by 45-minute Kasane–Maun flight"
+    ],
+    "access_summary": "Arrive by air: Kasane Airport (BBK) has scheduled service from Johannesburg, Gaborone, and Maun. Confirm the airline, baggage allowance (typically 20 kg soft bag for light aircraft), and onward transfer to your lodge. By road from Victoria Falls (VFA): the Kazungula Bridge crossing takes about 90 minutes including border formalities; carry passports, vehicle papers, and yellow fever certificate if required. Do not assume a same-day Victoria Falls arrival and Chobe cruise is reliable — allow a buffer.\n\nWithin Kasane, the town centre, fuel stations, and most riverfront lodges are a short drive from the airport. Boat cruises depart from designated jetties on the Chobe River; confirm the departure point, lifejackets, guide, and return plan with your operator. Chobe National Park entry permits are purchased at the Sedudu gate; park fees are not published online — confirm current rates with your operator or the Department of Wildlife and National Parks. The Savuti, Linyanti, and Nogatsaa sectors are not reachable by road from Kasane; they require separate fly-in arrangements.",
+    "best_time": "Dry season (May–October) peaks for Chobe Riverfront wildlife concentrations: elephants, buffalo, and predators gather at the river, and boat cruises offer the most predictable viewing. June–August brings cold early mornings and nights; September–October is hotter. Green season (November–April) sees herds disperse inland — the riverfront is quieter, birding is exceptional with migrant arrivals, and dramatic skies suit photography. Green season rates are lower. Match your dates to the experience you want: volume and predictability (dry) or birding and solitude (green).",
+    "planning_tips": "Plan Kasane as a deliberate base, not a corridor. A useful shape: arrive and settle on day one; a morning boat cruise and an afternoon game drive on day two; a second cruise or a Victoria Falls day trip on day three. For a Chobe–Okavango combination, add the 45-minute flight to Maun and 3–4 nights at a Delta camp. Confirm separately: park entry fees, boat cruise inclusions (guide, lifejackets, refreshments), Victoria Falls border requirements (visa, yellow fever, vehicle papers), and light-aircraft baggage limits. Ask your operator to distinguish between the riverfront product and the fly-in Savuti/Linyanti products — they are different experiences with different logistics. Carry neutral-coloured layers, sun protection, binoculars, and a light rain jacket (November–March). Check Botswana Tourism entry requirements for your passport before booking.",
+    "attraction_slugs": [],
+    "activity_slugs": [
+      "okavango-mokoro-safari"
+    ],
+    "accommodation_slugs": [
+      "camp-okavango"
+    ],
+    "travel_insight_slugs": [
+      "choose-botswana-safari-chobe-or-okavango",
+      "plan-okavango-trip-water-and-land-camps"
+    ],
+    "hero_image_url": "",
+    "hero_image_alt": "",
+    "gallery": [],
+    "last_researched": "2026-11-12",
+    "research_sources": [
+      {
+        "label": "Botswana Tourism Organisation: Chobe page — four ecosystems (Riverfront, Savuti, Linyanti, Nogatsaa), Serondela Riverfront, elephant concentrations, Kasane gateway, river cruises; checked 12 November 2026",
+        "url": "https://www.botswanatourism.co.bw/explore/chobe",
+        "checked_at": "2026-11-12"
+      },
+      {
+        "label": "Botswana Tourism Organisation: entry requirements — visa-free for many, passport 6 months, yellow fever if from endemic country; checked 12 November 2026",
+        "url": "https://www.botswanatourism.co.bw/travel-info/entry-requirements",
+        "checked_at": "2026-11-12"
+      },
+      {
+        "label": "Government of Botswana: airports — Kasane (BBK) listed among principal airports with Gaborone, Francistown, Maun; checked 9 November 2026",
+        "url": "https://www.gov.bw/about-our-country",
+        "checked_at": "2026-11-09"
+      },
+      {
+        "label": "Live Trek Africa Guide: Botswana country page — names Okavango Delta and Chobe as co-equal pillars, only Maun destination rendered; checked 12 November 2026",
+        "url": "https://trekafricaguide.com/countries/botswana/",
+        "checked_at": "2026-11-12"
+      },
+      {
+        "label": "Live Trek Africa Guide: Choose your Botswana safari travel insight — Kasane (BBK) scheduled flights, Victoria Falls 90-min transfer, Chobe four ecosystems, Kasane–Maun 45-min flight; checked 12 November 2026",
+        "url": "https://trekafricaguide.com/travel-insights/choose-botswana-safari-chobe-or-okavango/",
+        "checked_at": "2026-11-12"
+      },
+      {
+        "label": "Live Trek Africa Guide: Maun destination page — continuity for gateway pairing; checked 12 November 2026",
+        "url": "https://trekafricaguide.com/countries/botswana/maun/",
+        "checked_at": "2026-11-12"
+      },
+      {
+        "label": "Live Trek Africa Guide: Plan an Okavango trip travel insight — combination logistics, Maun gateway; checked 12 November 2026",
+        "url": "https://trekafricaguide.com/travel-insights/plan-okavango-trip-water-and-land-camps/",
+        "checked_at": "2026-11-12"
+      },
+      {
+        "label": "UNESCO World Heritage Centre: Okavango Delta (ID 1432) — inscribed 2014, flood pulse June/July, Moremi protects 40%; checked 9 November 2026",
+        "url": "https://whc.unesco.org/en/list/1432/",
+        "checked_at": "2026-11-09"
+      }
+    ],
+    "sort_order": 2,
+    "status": "published"
+  },
+  {
     "slug": "nairobi",
     "country_slug": "kenya",
     "name": "Nairobi",
@@ -1030,6 +1109,70 @@
         "label": "Published on-site guides re-read 11 November 2026 for continuity: live Tunisia country guide (Tunis Marine TGM start, base-choosing structure), live Tunis And Sidi Bou Said attraction guide (two-stop Carthage plan, separate entrances), live Dar Saïd stay guide and the live 'Where to spend your first night in Tunis' insight (medina vs coast decision; TRANSTU TGM principal stations + daily ticket + winter timetable and AMVPPC seasonal hours/grouped ticket carried with that insight's 8 November 2026 check dates because the operator and heritage-agency hosts did not resolve during this run)",
         "url": "https://trekafricaguide.com/countries/tunisia/",
         "checked_at": "2026-11-11"
+      }
+    ]
+  },
+  {
+    "slug": "sal",
+    "country_slug": "cabo-verde",
+    "name": "Sal",
+    "category": "Island",
+    "hero_title": "Sal: the island of sun and sea where a Cabo Verde trip starts",
+    "listing_summary": "Cabo Verde's main tourist island — more than half the country's overnight stays — built around Santa Maria's white-sand beach, the Pedra de Lume salt crater and a north-coast outing to Buracona, with the island's stay guide already published.",
+    "overview": "Sal is the island that carries most of Cabo Verde's tourism: the national tourism institute states the island is responsible for more than 50% of the whole archipelago's overnight stays. The name itself is the island's history — the institute traces it to the salt industry that thrived here from the eighteenth to the mid-twentieth century, and the Pedra de Lume salt works whose exploitation began in 1804 still shape the island's story: since 2003 the salines have been a protected national landscape, and from 2014 a natural, historical and cultural heritage site where guided tours let visitors float in the saline waters.\n\nGeographically the institute's island page keeps it simple: a flat volcanic island of 215 square kilometres that 'resembling the lunar surface' rises only to Monte Grande at 406 metres, home to roughly 35,000 people, with the administrative capital at Espargos beside Amílcar Cabral International Airport. The south is the sandy side — dunes stretching to the horizon and the white-sand beaches of Santa Maria and Ponta Preta — while the north holds the Terra Boa marshlands and the named coastal sights the tourism institute lists as must-visits: Murdeira Bay, Rabo de Junco, Buracona with its 'Blue Eye' light effect in a coastal lava cave, Ponta Preta and the Cave of Love (Gruta do Amor).\n\nThe town of Santa Maria is where a first stay almost always begins. The institute's page describes it as 'caressed by an 8 km stretch of pristine white sandy beach' running from the pier to Ponta Preta through Ponta do Sinó, and the municipality celebrates the Santa Maria Beach Festival there over two days each September. Our published Sal Island attraction guide builds its whole first-visit plan on this arrangement: settle into Santa Maria for arrival and beach time, take one dedicated island outing north and/or to Pedra de Lume, then keep a flexible final day for wind, sea conditions and the water-sport briefing that deserves its own time.",
+    "highlights": [
+      "Cabo Verde's main tourist island, credited by the national tourism institute with more than 50% of the country's overnight stays",
+      "Santa Maria: the pier-to-Ponta-Preta white-sand beach the institute describes as an 8 km stretch, with bars, restaurants and water activities",
+      "The Pedra de Lume salt flats inside a volcanic crater — protected since 2003, national heritage since 2014, floatable on guided tours",
+      "A north-coast outing to named sights: Murdeira Bay, Rabo de Junco, Buracona's Blue Eye, Ponta Preta and the Cave of Love"
+    ],
+    "access_summary": "Arrive through Amílcar Cabral International Airport, which sits close to Espargos, the island's capital, and arrange the onward transfer to your named accommodation — our published attraction guide notes the transfer to resorts outside Santa Maria is the first thing to confirm. For island sightseeing, the attraction guide's advice applies: ask the driver or operator which stops are included, how long you can remain at each, whether pickup and return are door-to-door, and what happens if sea or wind conditions change. Sal is flat but the distances between the southern resort area, Espargos and the north coast still make a planned vehicle useful for a multi-stop outing. If continuing to another island, compare current ferry and flight schedules before buying connecting transport or booking consecutive nights.",
+    "best_time": "The national tourism institute describes a warm tropical dry climate that 'allows the tourist to enjoy the paradisiacal beaches or the famous salt flats for 365 days a year', and the official seasonal guidance carried in our attraction guide splits it practically: November to July as the dry season, generally favourable for beach-focused travel, and August to October as hotter, more humid and occasionally rainy. Sal is exposed to Atlantic wind, so wind sports may appeal in breezier conditions while swimming and boat plans need a same-day local assessment. The Blue Eye's appearance is light-dependent — visitors commonly aim around midday, but weather, crowding and the sun's position alter the experience. Check current sea state and site access locally instead of treating any month or hour as a guarantee.",
+    "planning_tips": "Plan Sal in three unhurried blocks, as our published attraction guide suggests: settle into Santa Maria and the beach first, take a dedicated half- or full-day road outing for selected north-coast stops and/or Pedra de Lume, then keep a flexible final day for wind sports, a boat outing or more town time. Treat a Pedra de Lume visit as a cultural and geological site rather than a novelty float — confirm bathing access and conditions locally and protect eyes and skin from concentrated salt water. Walk only on marked or permitted viewing areas at Buracona and the north coast, and do not approach exposed surf ledges or assume natural pools are safe for swimming. A guided island circuit reduces navigation but limits time at each stop; a private or self-arranged route offers more control only if transport, road conditions and site access are confirmed. Compare accommodation by actual location relative to your plans — beach frontage does not necessarily mean an easy walk to town — and our published island stay guide covers the property in detail.",
+    "attraction_slugs": [
+      "sal-island"
+    ],
+    "activity_slugs": [],
+    "accommodation_slugs": [
+      "hilton-cabo-verde-sal-resort"
+    ],
+    "travel_insight_slugs": [],
+    "sort_order": 1,
+    "status": "published",
+    "hero_image_url": "",
+    "hero_image_alt": "",
+    "gallery": [],
+    "last_researched": "2026-11-12",
+    "research_sources": [
+      {
+        "label": "Instituto do Turismo de Cabo Verde (turismo.cv): Sal island page — salt-industry name origin, flat lunar-like terrain, dry climate 365 days, more than 50% of archipelago overnight stays, Murdeira/Rabo de Junco/Buracona/Ponta Preta/Cave of Love highlights, international airport; checked 12 November 2026",
+        "url": "https://www.turismo.cv/page/sal",
+        "checked_at": "2026-11-12"
+      },
+      {
+        "label": "Instituto do Turismo de Cabo Verde (visit-caboverde.com): Sal island page — 215 km², Monte Grande 406 m, ~35,000 inhabitants, Espargos capital beside Amílcar Cabral airport, sighted 3 December 1460, Pedra de Lume salt works from 1804 protected 2003/heritage 2014, Santa Maria 8 km beach stretch, Seven Wonders claim, September music festival; checked 12 November 2026",
+        "url": "https://www.visit-caboverde.com/en/islands/sal-island",
+        "checked_at": "2026-11-12"
+      },
+      {
+        "label": "Câmara Municipal do Sal: Sal turístico — four population points, the island's tourism-based offer, Santa Maria Beach Festival 15 September over two days; checked 12 November 2026",
+        "url": "https://www.camaramunicipaldosal.com/sal-turistico?lang=en",
+        "checked_at": "2026-11-12"
+      },
+      {
+        "label": "Live Trek Africa Guide: Sal Island attraction guide — Santa Maria-first plan, Blue Eye light-dependence, Pedra de Lume heritage framing, three-block first stay, Nov–July vs Aug–Oct national season guidance; checked 12 November 2026",
+        "url": "https://trekafricaguide.com/attractions/sal-island/",
+        "checked_at": "2026-11-12"
+      },
+      {
+        "label": "Live Trek Africa Guide: Cabo Verde country page — HTTP 200 rendering no Destinations rail; checked 12 November 2026",
+        "url": "https://trekafricaguide.com/countries/cabo-verde/",
+        "checked_at": "2026-11-12"
+      },
+      {
+        "label": "Live Trek Africa Guide: Hilton Cabo Verde Sal Resort stay guide — the island's published accommodation page; checked 12 November 2026",
+        "url": "https://trekafricaguide.com/accommodations/hilton-cabo-verde-sal-resort/",
+        "checked_at": "2026-11-12"
       }
     ]
   }
