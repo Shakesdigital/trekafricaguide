@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11 12:30 Africa/Kampala",
+  "updated_at": "2026-11-12 06:30 Africa/Kampala",
   "blocked_runs": [
     {
       "id": "network-outage-no-research-2026-11-09-1807",
@@ -14,7 +14,7 @@
       "scheduled_at": "2026-11-11 ~05:5x UTC (08:5x Africa/Kampala)",
       "status": "blocked_deploy_pending",
       "planned_target": "Sossusvlei Lodge accommodation page (https://trekafricaguide.com/accommodations/sossusvlei-lodge/) — gallery extended 2 -> 3 dedicated photos: added Frans-Banja Mulder CC BY 3.0 'View from Sossusvlei Lodge in Sesriem' (Wikimedia Commons File:View from Sossusvlei Lodge - panoramio.jpg, curid 46694630, captured 2006-09-19, original 876x584 JPEG, local sha256 64af6db17f56218e15d66921e2f6615d00567c4f6b3b2b3e1eba752bc2dd436c). Commit 2d31df3 pushed to Shakesdigital/trekafricaguide main; production /photo-library.js confirmed carrying the new entry, but page HTML still renders 'See all 2 images' after ~20 minutes — the Netlify production build (npm ci && npm run build) has not shipped the new gallery HTML.",
-      "note": "This run re-polled production from 07:08-07:25 UTC (10:08-10:25 Africa/Kampala, 15 attempts): page still renders 'See all 2 images'; the new asset sossusvlei-lodge-view-from-lodge-2006.jpg is absent from page HTML. All three gallery asset URLs verified HTTP 200 image/jpeg - starter sossusvlei-lodge.jpg, property-patio-2010.jpg, and the pushed 2006 view (Content-Length 620510 bytes matches local file exactly) - so the image file itself is live, but the production page HTML/gallery has not shipped the pushed entry after ~70+ minutes since commit 2d31df3. Blocker persists (stale/not-shipped production gallery HTML, not a rights or asset problem); not claimed as published. No Gmail send tool in harness; owner email not attempted (email only when a collection is live-confirmed).",
+      "note": "This run re-polled production from 07:08-07:25 UTC (10:08-10:25 Africa/Kampala, 15 attempts) on 2026-11-11, and again at 03:08 UTC (06:08 Africa/Kampala) on 2026-11-12: page still renders 'See all 2 images'; the new asset sossusvlei-lodge-view-from-lodge-2006.jpg is absent from page HTML. All three gallery asset URLs verified HTTP 200 image/jpeg - starter sossusvlei-lodge.jpg, property-patio-2010.jpg, and the pushed 2006 view (Content-Length 620510 bytes matches local file exactly) - so the image file itself is live, but the production page HTML/gallery has not shipped the pushed entry after ~21+ hours since commit 2d31df3. Blocker persists (stale/not-shipped production gallery HTML, not a rights or asset problem); not claimed as published. No Gmail send tool in harness; owner email not attempted (email only when a collection is live-confirmed). Per protocol (~15 min guideline), this blocker is now recorded as persistent; the run remains in blocked_runs pending resolution.",
       "next_action": "Continue re-polling https://trekafricaguide.com/accommodations/sossusvlei-lodge/ until it renders 'See all 3 images' including sossusvlei-lodge-view-from-lodge-2006.jpg; verify all three asset URLs return HTTP 200 image/jpeg; then finalize this run in completed_runs with live verification and commit/push the checkpoint.",
       "files": [
         "src/lib/photo-library.js",
@@ -27,7 +27,7 @@
         "sossusvlei-lodge-view-from-lodge-2006.jpg"
       ],
       "live_verification": {
-        "checked_at": "2026-11-11 07:25 UTC (10:25 Africa/Kampala)",
+        "checked_at": "2026-11-12 03:08 UTC (06:08 Africa/Kampala)",
         "page_http_status": 200,
         "see_all_text": "See all 2 images",
         "distinct_property_image_count": 2,
@@ -42,7 +42,7 @@
           "image/jpeg",
           "image/jpeg"
         ],
-        "note": "Page HTTP 200 but still renders 'See all 2 images'; new asset absent from page HTML. All three asset URLs return HTTP 200 image/jpeg including the pushed 2006 view (620510 bytes, matches local file) - asset file is live, production page HTML/gallery has not shipped the pushed entry after ~70+ minutes since commit 2d31df3. Blocker persists; not claimed as published."
+        "note": "Page HTTP 200 but still renders 'See all 2 images'; new asset absent from page HTML. All three asset URLs return HTTP 200 image/jpeg including the pushed 2006 view (620510 bytes, matches local file) - asset file is live, production page HTML/gallery has not shipped the pushed entry after ~21+ hours since commit 2d31df3. Blocker persists; not claimed as published."
       }
     },
     {
@@ -4076,5 +4076,38 @@
       "note": "Production serves the twelve-image golden monkey gallery; all six new assets return HTTP 200 image/jpeg with byte counts matching the locally stored originals."
     },
     "next_action": "Rotate to a fresh underfilled page. Note: the entire zero-image frontier is accommodations, and the eight reopened zero-photo accommodation collections (Governors Camp, Camp Okavango, Desert Luxury Camp, Dar Said, Maribela, Riad Rosemary, Sanctuary Gorilla Forest Camp, The Place Tokeh, plus Fairway, Kibale Forest Camp, Red Chilli, Ridge Royal, Terres Touareg, Sabyinyo, Hilton Cabo Verde, Les Paletuviers) had no exact-property free-stock leads in this run Openverse/Commons probes (Governors Camp results were all sibling properties Il Moran and Little Governors, excluded as another-property). Next useful rotations: other-category insufficient collections, or owner-supplied property photos."
+  },
+  {
+    "id": "casa-del-papa-exact-property-no-eligible-photo-review",
+    "page_url": "https://trekafricaguide.com/accommodations/casa-del-papa/",
+    "page_type": "accommodation",
+    "status": "reviewed_no_eligible_photo",
+    "previous_photo_count": 1,
+    "photo_count": 1,
+    "new_photo_count": 0,
+    "checked_date": "2026-11-12",
+    "started_at": "2026-11-12 03:07 UTC (06:07 Africa/Kampala)",
+    "initial_live_verification": "Production accommodation page HTTP 200, read in full: 1 dedicated photo (beach beside resort); gallery renders 'See all 1 image'.",
+    "source_ledger": "docs/editorial-research/2026-11-12-casa-del-papa-exact-property-photo-review.md",
+    "note": "Bounded exact-name review across all six source families found the rights-clean pool empty beyond the one existing photo. Wikimedia Commons: 0 hits for 'Casa del Papa Benin'; broader searches return only false PDF matches. Flickr CC: 5 results, all generic West African scenery (Ghana, Nigeria, Philippines, Venezuela, Cotonou figurines) — none name or tie to the property; scenery-as-property excluded. Openverse: unreachable (Cloudflare). Pexels: keyword-expanded Ouidah/Benin scenery only ('bungalows on water in Ouidah', 'circular hut', 'ceremonial figurines in Cotonou') — none specifically depict Casa del Papa; scenery-as-property excluded. Unsplash: 0 photos. Pixabay/StockSnap: 0 results. Operator/OTA imagery: rights-reserved, excluded. The one existing beach photo remains; no new image downloaded or assigned.",
+    "files": [
+      "docs/editorial-research/2026-11-12-casa-del-papa-exact-property-photo-review.md",
+      "docs/image-enrichment-progress.json"
+    ],
+    "selected_images": [],
+    "excluded_candidates_note": "All Flickr CC results are generic West African scenes with no property tie; Pexels 'bungalows on water in Ouidah' is scenery-as-property without property identification; all other sources empty or false matches.",
+    "mandatory_input_check": "No image or library change this run; review-only (no website files touched), so sync-photo-library and check:build-inputs were not required.",
+    "published_commit": null,
+    "email_id": null,
+    "report_status": "NOT SENT: no collection was published (nothing to report). Per the owner standard the report email is only sent when a collection is live-confirmed.",
+    "live_verification": {
+      "checked_at": "2026-11-12 03:25 UTC (06:25 Africa/Kampala)",
+      "page_http_status": 200,
+      "distinct_property_image_count": 1,
+      "regional_card_image_count": 1,
+      "new_asset": null
+    },
+    "next_action": "Continue the low-photo accommodation rotation: Kruger Shalati (1/15), Les Paletuviers (0/15), Marriott Mena House Cairo (1/15), Mfuwe Lodge (1/15), Ol Tukai Lodge Amboseli (1/15), Paraa Safari Lodge (1/15), Ridge Royal Hotel (0/15), Serengeti Serena Safari Lodge (1/15), Terres Touareg Guest House (0/15), Red Chilli Rest Camp (0/15). Reopen Casa del Papa only for owner originals, written operator permission, or a named rights-clean photographer set whose source page specifically depicts this property."
   }
+]
 }
