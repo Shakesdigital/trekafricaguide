@@ -272,9 +272,9 @@
     "email_id": "1a143a69416cf3d1"
   },
   "rotation": {
-    "last_completed_category": "accommodations",
-    "next_category": "travel_insights",
-    "rule": "Finish the individual deliverable and report its live state, then rotate."
+    "last_completed_category": "travel_insights",
+    "next_category": "activities",
+    "next_deliverable": "Botswana Chobe vs Okavango travel insight published 2026-11-12 (travel insights rotation); next: one evidenced activities gap."
   },
   "current_deliverable": {
     "category": "activities - next run",
@@ -1846,6 +1846,45 @@
         "archive_home": "Accommodations archive and homepage search list the guide."
       },
       "cms_source_commit": "imported at source_commit 0e8c748; publishable-key read of editorial_documents remains RLS-blocked by design — owner-side CMS check to confirm accommodations/great-zimbabwe-hotel"
+    }
+  },
+  "travel_insight_choose_botswana_safari": {
+    "id": "choose-botswana-safari-chobe-or-okavango",
+    "category": "travel_insights",
+    "started": "2026-11-12",
+    "latest_run_note": "Scheduled routine run; executed on schedule. Evidence gap: Botswana country page names Chobe and Okavango as co-equal safari pillars but only Okavango had a travel insight; Chobe attraction page 404, no Chobe activity, no Chobe travel insight.",
+    "selection_evidence": "Live countries/botswana/ (HTTP 200) explicitly names both Okavango and Chobe as co-equal pillars but only links Okavango insight. Live attractions/chobe-national-park/ returns 404. Live activities/okavango-mokoro-safari/ is only Botswana activity. Live travel-insights/plan-okavango-trip-water-and-land-camps/ is Okavango-only. Reader has no framework for Chobe vs Okavango choice, Chobe internal zones, or how to combine.",
+    "scope": "New travel insight: choose-botswana-safari-chobe-or-okavango (Practical travel, Botswana) — Chobe riverfront vs Okavango Delta decision, Chobe four ecosystems (Riverfront, Savuti, Linyanti, Nogatsaa), Okavango water/land camp split, seasonal patterns (dry vs green), gateway logistics (Victoria Falls/Kasane vs Maun), combination logistics (Kasane–Maun flight), budget/camp style differences, entry requirements, packing. Zero-image honest publish; six-subject photo backlog logged.",
+    "files": [
+      "content/editorial-overrides.json",
+      "docs/editorial-research/2026-11-12-botswana-chobe-vs-okavango.md",
+      "docs/editorial-progress.json"
+    ],
+    "images": 0,
+    "image_followup": "Six distinct licensed subjects: Chobe Riverfront elephant herd at sunset, Savuti Marsh predator scene, Linyanti concession walking safari, Okavango mokoro in channel, Maun-Kasane aerial (Delta to Chobe transition), Victoria Falls to Kasane road transfer.",
+    "booking_cta": "None by design (insight pages carry no product CTA). Revenue surface goes to published Okavango mokoro activity (GetYourGuide via Stay22) and Camp Okavango (Booking.com via Stay22) cross-links.",
+    "key_facts_checked": "Botswana Tourism Organisation Chobe page (four ecosystems, Serondela Riverfront, Savuti, Linyanti, Nogatsaa, Kasane gateway, river cruises) and Okavango page (UNESCO, mokoro, flood peaks June–Aug, Maun gateway) — both checked 12 Nov 2026. Botswana Tourism entry requirements (visa-free for many, passport 6 months, yellow fever if endemic). Live Trek Africa Guide pages checked 12 Nov 2026: countries/botswana/ (both areas named, only Okavango insight linked), travel-insights/plan-okavango-trip-water-and-land-camps/ (Okavango-only), activities/okavango-mokoro-safari/ (only Botswana activity), attractions/chobe-national-park/ (404). All checked 12 Nov 2026.",
+    "cms": "Production deploy imports at source_commit; publishable-key read of editorial_documents remains RLS-blocked by design — owner-side CMS check to confirm travel_insights/choose-botswana-safari-chobe-or-okavango after deploy.",
+    "next_category": "activities",
+    "next_action": "Rotate to activities next run; six-subject photo backlog tracked in the ledger; CMS owner-side check pending (standard).",
+    "status": "published_live_confirmed",
+    "content_commit": "37b0bee",
+    "publication": {
+      "content_commit": "37b0bee",
+      "pushed_to": "main",
+      "push_result": "success",
+      "pushed_at": "2026-11-12",
+      "live_url": "https://trekafricaguide.com/travel-insights/choose-botswana-safari-chobe-or-okavango/",
+      "live_http_status": 200,
+      "checked_at": "2026-11-12",
+      "live_distinctive_text": "Choose your Botswana safari: Chobe riverfront or Okavango Delta? | Trek Africa Guide",
+      "live_checks": {
+        "detail": "HTTP 200; title correct; full article body renders (What Chobe delivers, What Okavango delivers, Choosing by season, Combining Chobe and Okavango, Gateway logistics, Budget and camp style, Confirm before you book, Entry requirements, What to pack, Sources and scope); distinctive copy renders (four ecosystems, Riverfront/Savuti/Linyanti/Nogatsaa, Kasane/Maun gateways, Kasane–Maun 45 min flight, USD 800–2,500+ Okavango camps, dry vs green season guidance); no exposed markup.",
+        "archive": "Travel insights archive lists the new insight.",
+        "parent": "Botswana country page links the insight via travel_insight_slugs card.",
+        "cross_links": "Okavango travel insight (plan-okavango-trip-water-and-land-camps) links the new insight as related reading."
+      },
+      "cms_source_commit": "imported at source_commit 37b0bee; publishable-key read of editorial_documents remains RLS-blocked by design — owner-side CMS check to confirm travel_insights/choose-botswana-safari-chobe-or-okavango"
     }
   }
 }
