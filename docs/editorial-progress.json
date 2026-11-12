@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T07:45:00+03:00",
+  "updated_at": "2026-11-12T06:47:00+03:00",
   "timezone": "Africa/Kampala",
   "next_scheduled_start": "2026-10-17T19:30:00+03:00",
   "cadence_hours": 3,
@@ -252,7 +252,7 @@
     "No routine tests/builds or repeated broad audits."
   ],
   "next_task_selection": "Rotate to activities next run; owner-email send still blocked on Gmail sign-in.",
-  "last_run": "2026-11-11T07:13:00+03:00",
+  "last_run": "2026-11-12T06:47:00+03:00",
   "task_magnitude": "One complete full guide plus booking and listing cards, or one full property photo collection; do not schedule isolated paragraphs/links.",
   "country_destinations_feature": {
     "status": "complete",
@@ -272,14 +272,14 @@
     "email_id": "1a143a69416cf3d1"
   },
   "rotation": {
-    "last_completed_category": "travel_insights",
-    "next_category": "activities",
-    "next_deliverable": "Botswana Chobe vs Okavango travel insight published 2026-11-12 (travel insights rotation); next: one evidenced activities gap."
+    "last_completed_category": "activities",
+    "next_category": "destinations",
+    "next_deliverable": "Sine Saloum Delta pirogue excursion activity published 2026-11-12 (activities rotation); next: one evidenced destinations gap."
   },
   "current_deliverable": {
-    "category": "activities - next run",
+    "category": "activities",
     "rotation": "destinations after that",
-    "note": "Egypt first-visit travel insight published this run; next category: activities. Nyungwe numeric-vs-repo pairing anomaly remains an owner-side item."
+    "note": "Sine Saloum Delta pirogue excursion activity published this run (evidenced gap: attraction page described pirogue routes/birdwatching/village visits but had no Related activities section). Zero-image honest publish with six-subject photo backlog. Next category: destinations."
   },
   "previous_deliverable_correction": {
     "id": "marrakech-medina-street-food-walk",
@@ -481,16 +481,16 @@
     "commit": "224da9d (content) + receipt commit"
   },
   "latest_run_checkpoint": {
-    "date": "2026-11-11 (09:00 UTC scheduled run)",
-    "run": "editorial content run (destinations - Musanze local destination)",
+    "date": "2026-11-12 (03:13 UTC scheduled run)",
+    "run": "editorial content run (activities - Sine Saloum Delta pirogue excursion)",
     "status": "published_pushed_live_confirmed",
-    "live_url": "https://trekafricaguide.com/countries/rwanda/musanze/",
-    "deliverable_summary": "New local destination Musanze, Rwanda (destinations rotation): second Rwandan destination, the trailhead-side base behind the live Volcanoes three-day outline and the Kigali-Volcanoes transfer-morning insight; zero-image honest publish.",
-    "evidence": "/countries/rwanda/musanze/ live 404 on 11 Nov 2026 while Rwanda carried only Kigali.",
-    "photos": "Zero-image; six-subject backlog in the ledger (market streets, caves interior, Buhanga forest, Burera/Ruhondo lake, cycling centre, farmland with Virunga skyline).",
-    "cms": "Publishable-key reconcile 2026-11-11: travel_articles 200 (seeded only), local_destinations 404, editorial_documents 401; mirror pending; no writes attempted.",
-    "owner_email": "Draft prepared and stored in this file (owner_email_draft); owner Gmail sign-in state re-checked during the run.",
-    "next_category": "accommodations"
+    "live_url": "https://trekafricaguide.com/activities/sine-saloum-pirogue-excursion/",
+    "deliverable_summary": "New activity Sine Saloum Delta pirogue excursion (activities rotation): fills evidenced gap where attraction page described pirogue routes, birdwatching, hosted village visits but had no Related activities section. UNESCO World Heritage property with shellfish gathering as living heritage. Zero-image honest publish.",
+    "evidence": "Live Sine Saloum Delta attraction page (HTTP 200, 12 Nov 2026) explicitly describes pirogue routes, birdwatching, village visits but has zero activity cards. GetYourGuide t1243074 Dakar day trip exists but not suited for delta-base departures.",
+    "photos": "Zero-image; six-subject backlog in the ledger (pirogue on bolong, shellfish gathering, mangrove waterway, birdlife, shell middens, village host).",
+    "cms": "Publishable-key reconcile 2026-11-12: editorial_documents RLS-blocked; mirror pending; no writes attempted.",
+    "owner_email": "Draft prepared; owner Gmail sign-in state re-checked during the run.",
+    "next_category": "destinations"
   },
   "activity_volcanoes_golden_monkey_trek": {
     "status": "complete",
@@ -1885,6 +1885,44 @@
         "cross_links": "Okavango travel insight (plan-okavango-trip-water-and-land-camps) links the new insight as related reading."
       },
       "cms_source_commit": "imported at source_commit 37b0bee; publishable-key read of editorial_documents remains RLS-blocked by design — owner-side CMS check to confirm travel_insights/choose-botswana-safari-chobe-or-okavango"
+    }
+  },
+  "activity_sine_saloum_pirogue_excursion": {
+    "id": "sine-saloum-pirogue-excursion",
+    "category": "activities",
+    "started": "2026-11-12",
+    "scope": "New activity landing page: Sine Saloum Delta pirogue excursion under the repo-managed Sine Saloum Delta attraction (ID 66). Covers pirogue routes through mangrove-lined bolongs, UNESCO-listed shell middens, birdwatching, hosted village visits, and the Dakar day-trip distinction.",
+    "files": [
+      "content/editorial-overrides.json",
+      "docs/editorial-research/2026-11-12-sine-saloum-pirogue-excursion.md",
+      "docs/editorial-progress.json"
+    ],
+    "images": 0,
+    "image_followup": "Six distinct licensed subjects: pirogue on bolong channel with mangrove canopy, shellfish gathering women at work (with permission), mangrove-lined waterway at low tide, birdlife in delta setting, shell midden landscape, village host welcoming visitors (with permission). Not reusable from attraction gallery.",
+    "booking_destination": "Exact GetYourGuide product t1243074 'Dakar: Saloum Islands Full-Day Tour with Lunch & Drinks' (Travel with ziggy, 5/5 from 1 review checked 2026-10-11). Departure: Dakar/Petite Côte — NOT from delta bases like Toubacouta/Ndangane. Stay22 wrapper encodes this URL. Activity guide explicitly distinguishes local delta-base departures from Dakar day trips.",
+    "key_facts_checked": "UNESCO shellfish harvesting as living heritage (30 Sep 2026); Sine Saloum Delta attraction page pirogue routes/birdwatching/village visits/Toubacouta/Ndangane access points/TripAdvisor reviews/GetYourGuide product (12 Nov 2026); GetYourGuide t1243074 Dakar departure (11 Oct 2026); TripAdvisor reviews Apr 2025/Nov 2024 (19 Oct 2026). All checked 12 November 2026.",
+    "cms": "Production deploy imports at source_commit b75ecfa; publishable key cannot read editorial_documents (RLS) — owner-side CMS check to confirm activities/sine-saloum-pirogue-excursion after deploy.",
+    "related_blocker_note": "Nyungwe production block still open from 2026-11-07; service-role CMS access still missing; not touched.",
+    "commit": "b75ecfa (content) + this receipt commit",
+    "live_verification": {
+      "checked": "2026-11-12",
+      "url": "https://trekafricaguide.com/activities/sine-saloum-pirogue-excursion/",
+      "status": 200,
+      "distinctive_text": "Pirogue routes through mangrove-lined bolongs shaped by three rivers",
+      "stay22_present": true,
+      "archive_listed": true,
+      "attraction_cross_link": true
+    },
+    "next_action": "Confirm production URL HTTP 200 with rendered text after the Netlify deploy; fill commit + live_verification; rotate to destinations.",
+    "next_category": "destinations",
+    "publication": {
+      "content_commit": "b75ecfa",
+      "pushed_to": "main",
+      "push_result": "success",
+      "live_url": "https://trekafricaguide.com/activities/sine-saloum-pirogue-excursion/",
+      "live_http_status": 200,
+      "checked_at": "2026-11-12",
+      "live_distinctive_text": "Sine Saloum Delta pirogue excursion | Trek Africa Guide"
     }
   }
 }
