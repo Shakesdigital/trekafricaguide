@@ -3,6 +3,26 @@
 export const photoLibrary = {
   "updated_at": "2026-11-11",
   "images": {
+    "/images/editorial/sal-destination/santa-maria-beach-2007.jpg": {
+      "slug": "santa-maria-beach-2007", "local_path": "/images/editorial/sal-destination/santa-maria-beach-2007.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Santa_Maria_1_(Sal,_Cabo_Verde).JPG", "source_revision": "Commons file page checked 2026-11-13",
+      "creator": "Manuel de Sousa", "license": "CC BY-SA 3.0", "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "source_published_at": "2007-09-29", "captured_at": "2007-09-29", "sha256": "d9bb3e84de2e04c1f25319eb8b69ce4017b6ebfe38c36ec5ee611287286b3e8a",
+      "exact_subject": true, "subject": "Santa Maria Beach, Sal", "alt": "Boats on Santa Maria Beach on Sal island, Cabo Verde.",
+      "caption": "Santa Maria Beach (CC BY-SA 3.0, Manuel de Sousa via Wikimedia Commons).", "property": false, "kind": "photograph", "requires_attribution": true,
+      "changes": "Original Commons JPEG; no edits.", "checked_at": "2026-11-13", "exact_subject_evidence": "Commons file description names Santa Maria on Sal island.",
+      "reuse_note": "Commercial reuse permitted with attribution; share-alike applies."
+    },
+    "/images/editorial/sal-destination/pedra-lume-harbour-2007.jpg": {
+      "slug": "pedra-lume-harbour-2007", "local_path": "/images/editorial/sal-destination/pedra-lume-harbour-2007.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Pedra_Lume_Cabo_Verde.jpg", "source_revision": "Commons file page checked 2026-11-13",
+      "creator": "Ingo Wölbern", "license": "Public domain", "license_url": "https://commons.wikimedia.org/wiki/File:Pedra_Lume_Cabo_Verde.jpg",
+      "source_published_at": "2007-10-21", "captured_at": "2007-10-05", "sha256": "a97ba2d198dd2a026c31783e3a4d2361e77acde6da812272c2d4029e88cf868c",
+      "exact_subject": true, "subject": "Pedra de Lume harbour, Sal", "alt": "Pedra de Lume harbour and former salt conveyor on Sal island.",
+      "caption": "Pedra de Lume harbour (public domain, Ingo Wölbern via Wikimedia Commons).", "property": false, "kind": "photograph", "requires_attribution": false,
+      "changes": "Original Commons JPEG; no edits.", "checked_at": "2026-11-13", "exact_subject_evidence": "Commons file description identifies Pedra de Lume harbour on Sal.",
+      "reuse_note": "Creator released the file to the public domain."
+    },
     "/images/editorial/tokeh-river-number-two/tokeh-fishing-boats-2016.jpg": {
       "slug": "tokeh-fishing-boats-2016",
       "local_path": "/images/editorial/tokeh-river-number-two/tokeh-fishing-boats-2016.jpg",
@@ -12918,6 +12938,15 @@ export const photoLibrary = {
       }
     },
     "local_destinations": {
+      "sal": {
+        "hero_image_url": "/images/editorial/sal-destination/santa-maria-beach-2007.jpg",
+        "hero_image_alt": "Boats on Santa Maria Beach on Sal island, Cabo Verde.",
+        "replaces": [],
+        "gallery": [
+          "/images/editorial/sal-destination/santa-maria-beach-2007.jpg",
+          "/images/editorial/sal-destination/pedra-lume-harbour-2007.jpg"
+        ]
+      },
       "tokeh-river-number-two": {
         "hero_image_url": "/images/editorial/tokeh-river-number-two/tokeh-fishing-boats-2016.jpg",
         "hero_image_alt": "Fishing and transport boats at Tokeh Beach, Sierra Leone.",
