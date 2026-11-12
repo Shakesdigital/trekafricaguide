@@ -652,9 +652,13 @@
       "choose-botswana-safari-chobe-or-okavango",
       "plan-okavango-trip-water-and-land-camps"
     ],
-    "hero_image_url": "",
-    "hero_image_alt": "",
-    "gallery": [],
+    "hero_image_url": "/images/editorial/kasane-local-destination/kasane-chobe-river-aerial-2022.jpg",
+    "hero_image_alt": "Aerial view of the Chobe River and floodplain at Kasane, Botswana.",
+    "gallery": [
+      "/images/editorial/kasane-local-destination/kasane-chobe-river-aerial-2022.jpg",
+      "/images/editorial/kasane-local-destination/kasane-street-2011.jpg",
+      "/images/editorial/kasane-local-destination/kasane-river-2014.jpg"
+    ],
     "last_researched": "2026-11-12",
     "research_sources": [
       {

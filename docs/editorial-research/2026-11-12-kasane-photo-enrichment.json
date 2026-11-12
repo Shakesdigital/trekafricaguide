@@ -1,0 +1,47 @@
+{
+  "page": "https://trekafricaguide.com/countries/botswana/kasane/",
+  "before": 0,
+  "after": 3,
+  "files": [
+    {
+      "source_page": "https://commons.wikimedia.org/wiki/File:Chobe_River_at_Kasane.jpg",
+      "creator": "Dicklyon",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "captured_at": "2022-04-22",
+      "checked_at": "2026-11-12",
+      "sha256": "a63f33b3cd3f64592a4ae7dedf2be087f405e57471170d53aff2e0ccc5340efe",
+      "alt": "Aerial view of the Chobe River and floodplain at Kasane, Botswana.",
+      "local_path": "/images/editorial/kasane-local-destination/kasane-chobe-river-aerial-2022.jpg"
+    },
+    {
+      "source_page": "https://commons.wikimedia.org/wiki/File:Kasane_01.jpg",
+      "creator": "LBM1948",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "captured_at": "2011-08-17",
+      "checked_at": "2026-11-12",
+      "sha256": "3459fffa557bd95ac48e9f246ad2b98914144254eee634f9c71ca19cee196905",
+      "alt": "A street in Kasane, Botswana.",
+      "local_path": "/images/editorial/kasane-local-destination/kasane-street-2011.jpg"
+    },
+    {
+      "source_page": "https://commons.wikimedia.org/wiki/File:Kasane_-_Botswana_-_panoramio.jpg",
+      "creator": "Pavel Špindler",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "captured_at": null,
+      "checked_at": "2026-11-12",
+      "sha256": "54a9cac69f9c1c2db06be95f7b29f68acab40da5c6c7cca845eaced6bac81ac7",
+      "alt": "The Chobe River at Kasane on the Botswana–Namibia border.",
+      "local_path": "/images/editorial/kasane-local-destination/kasane-river-2014.jpg"
+    }
+  ],
+  "missing_subjects": [
+    "Kasane Airport terminal",
+    "Boat cruise with elephants in the water",
+    "Kazungula Bridge",
+    "Savuti or Linyanti landscape"
+  ],
+  "note": "Three distinct exact Kasane subjects; partial collection. Commons source pages and licensing checked 2026-11-12."
+}
