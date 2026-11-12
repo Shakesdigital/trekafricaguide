@@ -272,8 +272,8 @@
     "email_id": "1a143a69416cf3d1"
   },
   "rotation": {
-    "last_completed_category": "local_destinations",
-    "next_category": "accommodations",
+    "last_completed_category": "accommodations",
+    "next_category": "travel_insights",
     "rule": "Finish the individual deliverable and report its live state, then rotate."
   },
   "current_deliverable": {
@@ -481,13 +481,14 @@
     "commit": "224da9d (content) + receipt commit"
   },
   "latest_run_checkpoint": {
-    "date": "2026-11-11 (15:00 UTC scheduled run)",
-    "run": "editorial content run (destinations - Tunis local destination)",
+    "date": "2026-11-11 (09:00 UTC scheduled run)",
+    "run": "editorial content run (destinations - Musanze local destination)",
     "status": "published_pushed_live_confirmed",
-    "live_url": "https://trekafricaguide.com/countries/tunisia/tunis/",
-    "deliverable_summary": "New destination guide Tunis, Tunisia — the first Tunisia destination page; facts from UNESCO ref 36, the Urban Heritage Atlas and fresh UK FCDO reads; Dar Said stay card and the first-night insight card added.",
-    "evidence": "Live Tunisia country page rendered no Destinations rail on 11 Nov 2026 while the country cluster was otherwise published; 16 local-destination records with no tunis slug.",
-    "cms": "Publishable-key reconcile 2026-11-11: travel_articles 200 (seeded rows only), local_destinations 404, editorial_documents 400 (RLS); mirror pending; no writes attempted.",
+    "live_url": "https://trekafricaguide.com/countries/rwanda/musanze/",
+    "deliverable_summary": "New local destination Musanze, Rwanda (destinations rotation): second Rwandan destination, the trailhead-side base behind the live Volcanoes three-day outline and the Kigali-Volcanoes transfer-morning insight; zero-image honest publish.",
+    "evidence": "/countries/rwanda/musanze/ live 404 on 11 Nov 2026 while Rwanda carried only Kigali.",
+    "photos": "Zero-image; six-subject backlog in the ledger (market streets, caves interior, Buhanga forest, Burera/Ruhondo lake, cycling centre, farmland with Virunga skyline).",
+    "cms": "Publishable-key reconcile 2026-11-11: travel_articles 200 (seeded only), local_destinations 404, editorial_documents 401; mirror pending; no writes attempted.",
     "owner_email": "Draft prepared and stored in this file (owner_email_draft); owner Gmail sign-in state re-checked during the run.",
     "next_category": "accommodations"
   },
@@ -1026,15 +1027,15 @@
     "commit": "dcd779a"
   },
   "email_status": {
-    "run": "2026-11-11 (15:00 UTC run, Tunis destination)",
+    "run": "2026-11-11 (09:00 UTC run, Musanze destination)",
     "status": "blocked_owner_gmail_signed_out",
-    "detail": "Owner Gmail tab still shows the Google sign-in page (no active owner session in the OpenBot browser), re-checked 11 Nov 2026 during this run; draft saved below, no takeover requested per routine rule."
+    "detail": "Owner Gmail tab shows the accounts.google.com sign-in page (no active owner session in the OpenBot browser); no sendable session this run. Draft saved below; no takeover requested per routine rule."
   },
   "owner_email_draft": {
     "to": "fsddanmugisa@gmail.com",
-    "prepared_at": "2026-11-11T18:35:00+03:00",
-    "subject": "Trek Africa Guide — first Tunisia destination page live (run 11 Nov 15:00 UTC)",
-    "body": "Shipped this run: the Tunis destination guide (https://trekafricaguide.com/countries/tunisia/tunis/) — the FIRST destination page under Tunisia.\n\nEvidence: the live Tunisia country page rendered no 'Destinations in Tunisia' rail this morning, even though the whole Tunisia cluster was already published (country guide, Tunis And Sidi Bou Said attraction, Dar Said stay, first-night planning insight). The site's 16 local-destination records had no tunis slug, so the capital had no anchor page.\n\nLive receipt: HTTP 200 verified ~60 s after push (commit fcfa9d1). The page renders the standard 8-section destination flow, UNESCO Medina of Tunis facts (inscribed 1979, criteria ii/iii/v, 296.41 ha, founded 698 A.D., ~700 monuments, 88 nationally listed), the Creative City of Crafts and Folk Art 2017 note, FCDO entry rules (90-day visa-free, passport valid for duration of stay — checked fresh today), the TGM-from-Tunis-Marine corridor and the Ramadan festival note. The Tunisia country page now renders its first destination card; all three cards (attraction, Dar Said stay, first-night insight) are live and linked.\n\nPhotos: honest zero-photo publish; six licensed Tunis subjects logged for the photo backlog (Zitouna courtyard, Souq el-Attarine lane, Bab El-Bhar square, Tunis Marine platform, Ville Nouvelle boulevard, medina rooftop view).\n\nBlockers: owner Gmail still signed out — this report is a draft in docs/editorial-progress.json; one sign-in ships it plus the earlier stored drafts (Great Zimbabwe insight, South Luangwa, Kigali Serena, Top View Hill). CMS mirror still pending on publishable-key reads (travel_articles 200 seeded only; local_destinations 404; editorial_documents 400 RLS) — owner-side CMS check to confirm local_destinations/tunis.\n\nNext run: accommodations rotation."
+    "prepared_at": "2026-11-11T09:11:18.408Z",
+    "subject": "Trek Africa Guide — new Musanze destination guide live (run 11 Nov 09:00 UTC)",
+    "body": "Shipped this run: a new local destination guide, Musanze, Rwanda — the second Rwandan destination on the site and the trailhead-side base page that two live guides referenced without a page behind it.\n\nEvidence: the live URL /countries/rwanda/musanze/ returned 404 before this run while Rwanda carried only the Kigali destination card; the live Volcanoes National Park attraction guide builds its suggested three-day outline on \"a night near Musanze or Kinigi\", and the Kigali–Volcanoes transfer-morning insight (published this morning) frames the \"sleep in Kigali or sleep near Kinigi?\" decision. This page answers that decision from the Musanze side.\n\nLive receipt: https://trekafricaguide.com/countries/rwanda/musanze/ — HTTP 200 verified minutes after push (commit ed7d493, pushed 66b1fc3..ed7d493). Full destination section flow renders; official Visit Rwanda facts render (1,850 m altitude, Kinigi headquarters 13 km away, Buhanga Eco-Park, Musanze Caves formed ~62 million years ago, the Burera/Ruhondo lakes, Africa Rising Cycling Centre, official what-to-wear guidance). Cards: Sabyinyo Silverback Lodge (Where to stay), both Volcanoes primate activities, the transfer-morning insight, and the Volcanoes attraction; Rwanda country page now lists Musanze in Destinations in Rwanda; homepage search lists it. No exposed markup.\n\nPhotos: zero-image honest publish again; six licensed Musanze subjects logged in the backlog (market streets, caves interior, Buhanga forest, Burera/Ruhondo lake with volcano backdrop, cycling centre, farmland with Virunga skyline).\n\nBlockers: owner Gmail still signed out — this report is a draft in docs/editorial-progress.json; one sign-in ships it (and the earlier stored drafts). CMS mirror still pending by design: travel_articles 200 (seeded row only), editorial_documents 401 to the publishable key, local_destinations 404 in the schema cache; owner-side CMS check to confirm local_destinations/musanze recommended.\n\nNext rotation: accommodations.\n\nYour input welcome: review the live Musanze page and the Kigali–Volcanoes transfer-morning insight when convenient."
   },
   "local_destination_nairobi": {
     "id": "nairobi",
@@ -1807,162 +1808,44 @@
       "cms_source_commit": "imported at source_commit ed7d493; publishable-key reconcile 2026-11-11: travel_articles 200 (seeded row id:2 only), local_destinations 404 (schema cache), editorial_documents 401 to anon - mirror pending; owner-side CMS check to confirm local_destinations/musanze"
     }
   },
-  "destination_masvingo": {
-    "id": "masvingo",
-    "category": "local-destinations",
+  "accommodation_great_zimbabwe_hotel": {
+    "id": "great-zimbabwe-hotel",
+    "category": "accommodations",
     "started": "2026-11-11",
-    "latest_run_note": "Scheduled 11:00Z routine run; executed on schedule. Accommodations rotation was filled this round by another agent's Great Zimbabwe Hotel guide (0e8c748); this run took the destinations category per that guide's own ledger gap.",
-    "selection_evidence": "Live /countries/zimbabwe/masvingo/ returned HTTP 404 (11 Nov 2026) while the live Zimbabwe country page renders no Destinations rail and homepage search lists zero Zimbabwe destinations; the live Great Zimbabwe National Monument attraction guide instructs readers to 'Plan the visit from Masvingo' and the same-day Great Zimbabwe Hotel guide's ledger records the missing Masvingo destination page.",
-    "scope": "New local destination Masvingo under Zimbabwe: province capital and nearest town to Great Zimbabwe National Monument (~27-30 km, UNESCO ID 364), Lake Mutirikwi and the Kyle Recreational Park, Chesvingo Karanga Village; confirm-provider hedges for fees/transport. Zero-image honest publish; six-subject backlog in the ledger.",
-    "files": [
-      "content/local-destinations.json",
-      "docs/editorial-research/2026-11-11-masvingo-destination.md",
-      "docs/editorial-research/add-masvingo-destination.cjs",
-      "docs/editorial-research/check-masvingo-dist.mjs",
-      "docs/editorial-progress.json"
-    ],
-    "images": 0,
-    "image_followup": "Six distinct licensed Masvingo subjects, not reusable from monument/hotel collections: Masvingo town centre streetscape, Great Zimbabwe Enclosure wall (if not already covered by the monument collection), Lake Mutirikwi from the dam wall, Kyle Recreational Park white rhino, Chesvingo Karanga Village cultural scene, Beza Range landscape. Licensed-reuse review only; no substitutes.",
-    "booking_cta": "None by design: destination pages carry no hotel-booking surrogate; the stay surface is the published Great Zimbabwe Hotel guide (no verified exact OTA listing for that property).",
-    "relationships": {
-      "country_slug": "zimbabwe",
-      "attraction_slugs": [
-        "great-zimbabwe-national-monument"
-      ],
-      "activity_slugs": [
-        "great-zimbabwe-guided-monument-visit"
-      ],
-      "accommodation_slugs": [
-        "great-zimbabwe-hotel"
-      ],
-      "travel_insight_slugs": []
-    },
-    "key_facts_checked": "UNESCO ID 364 (inscribed 1986, criteria i/iii/vi, 722 ha, ~30 km from Masvingo, 14th-century population >10,000, abandoned ~1450, Zimbabwe Birds, NMMZ, living sacred site); ZimParks Lake Kyle Recreational Park (169 sq km, ~30 km east, Beza Range 1,455 m, 25+ mammals incl white rhino, 35+ birds); Masvingo Publicity Association (27 km, city of almost 20,000 Shona 12th-15th C, Lake Mutirikwi formed 1961 ~25 km, Chesvingo Karanga Village 40 km); greatzimbabwewhs.com (founded 1890, name sequence Fort Victoria/Victoria 1929/Nyanda 1982/Masvingo 'fortifications'); greatzimbabweguide.com (A4 freight corridor, ~4 h Harare/Bulawayo, no reliable public transport to monument, charter-only airport) — all checked 11 November 2026. Carried conflicts with attribution (lake size, distance, city population).",
-    "build_checks": "check:build-inputs passed; production build 157 pages (EDITORIAL_CMS_SYNC=false); readability guard passed on 162 pages; dist verified pre-push (title, 8-section h2 flow, all facts and three cards, country rail, homepage search, no markup leak).",
-    "status": "published_live_confirmed",
-    "commit": "e5b88c0 (content) + this receipt commit",
-    "publication": {
-      "content_commit": "e5b88c0",
-      "pushed_to": "main",
-      "push_result": "success (0e8c748..e5b88c0)",
-      "pushed_at": "2026-11-11",
-      "live_url": "https://trekafricaguide.com/countries/zimbabwe/masvingo/",
-      "live_http_status": 200,
-      "checked_at": "2026-11-11",
-      "live_distinctive_text": "Masvingo, Zimbabwe | Trek Africa Guide",
-      "live_checks": {
-        "detail": "HTTP 200 (35,312 bytes) ~60 s after push; title correct; 8-section destination h2 flow (Explore Masvingo, Highlights, Getting there and around, Best time to visit, Planning your stay, Attractions to explore, Things to do, Where to stay); distinctive copy renders (fortifications name origin, Lake Mutirikwi, Chesvingo Karanga Village, Beza Range, 1986, 722 hectares, white rhino, UNESCO 30 km vs association 27 km attribution); no exposed markup.",
-        "cards": "Attractions to explore renders Great Zimbabwe National Monument; Things to do renders the guided monument visit; Where to stay renders Great Zimbabwe Hotel; all three targets HTTP 200.",
-        "country_rail": "Zimbabwe country page now renders 'Destinations in Zimbabwe' with the Masvingo card (was absent before this publish).",
-        "archive_home": "Homepage search lists /countries/zimbabwe/masvingo.",
-        "cms": "Publishable-key REST reads 2026-11-11: travel_articles 404, local_destinations 404, editorial_documents 404 (schema cache; previous runs travel_articles 200 seeded / editorial_documents 401). Mirror pending; no writes attempted; owner-side CMS check to confirm local_destinations/masvingo."
-      }
-    },
-    "next_category": "travel_insights",
-    "next_action": "Rotate to travel insights next run; six-subject photo backlog tracked in the ledger; CMS owner-side check pending (standard)."
-  },
-  "travel_insight_great_zimbabwe_monument_days": {
-    "id": "plan-great-zimbabwe-monument-days-from-masvingo",
-    "category": "travel_insights",
-    "started": "2026-11-11",
-    "latest_run_note": "Scheduled 13:00 UTC routine run; executed on schedule (started ~13:05Z). Checkout: C:/Users/FOSCOD/.codex/artifacts/trek-photo-site (old C:/Users/TECH DEAL path no longer exists on this machine; brief re-read from the routine task text).",
-    "selection_evidence": "Live travel-insights archive (HTTP 200, 11 Nov 2026) holds 14 stories with zero Zimbabwe coverage, while the site completed a full Zimbabwe cluster the same day (country guide, Great Zimbabwe monument attraction, guided monument visit activity, Great Zimbabwe Hotel stay, Masvingo destination). The live Masvingo destination page rendered no Travel insights card at all (travel_insight_slugs empty; zero travel-insights refs in live HTML). The live monument attraction instructs \"Plan the visit from Masvingo and allow time for uneven paths, a steep hill section\" with no pacing/road/second-day answer anywhere. Duplicate check passed against all 14 published slugs (Victoria Falls insight covers the falls only).",
-    "scope": "New travel insight: pacing a Great Zimbabwe monument trip — one Masvingo night or two, the A4 road plan (~4 h Harare/Bulawayo, ~8 h Victoria Falls, attributed planning figures), the no-scheduled-transport reality and shuttle/minibus options, a four-hour monument-morning plan (gates usually 08:00-17:00 per the dated travel guide), Hill Complex difficulty and living-sacred-site etiquette, guide-or-not, second-day Murray McDougall lake circuit (\"Zimbabwe's garden route\") + Lake Kyle Recreational Park + Chesvingo Karanga Village, April-September window, confirm-before-you-book checklist (dated US$15 non-resident fee hedge), FAQ and continue-planning rails. Masvingo destination travel_insight_slugs updated — the page's first insight card.",
+    "latest_run_note": "Scheduled routine run; executed on schedule.",
+    "selection_evidence": "Live /attractions/great-zimbabwe-national-monument/ (HTTP 200, 11 Nov 2026) renders no Nearby stays section; the activity guide /activities/great-zimbabwe-guided-monument-visit/ explicitly references 'Great Zimbabwe Hotel's listed 2–3 hour tour' and lobby departure with no accommodation guide behind it. No Masvingo local destination page exists.",
+    "scope": "New accommodation guide: Great Zimbabwe Hotel, 700m from Great Zimbabwe National Monument, Masvingo Province, Zimbabwe. Longstanding hotel (early 20th century) with stonework-inspired architecture. Three room categories (Standard, Executive, Deluxe Twin). Facilities: pool, restaurant, curio shop, bar, exclusive campsite, conference rooms. Operator-run Monument Tour (2-3 hours, lobby departure). Additional activities: Lake Mutirikwi Adventures, Kyle Game Park Safari, Cultural Evenings. Zero-image honest publish; six-subject photo backlog logged. No verified Booking.com listing (honest no-booking-link state). Internal links to Great Zimbabwe National Monument attraction and guided monument visit activity.",
     "files": [
       "content/editorial-overrides.json",
-      "content/local-destinations.json",
-      "src/lib/photo-library.js",
-      "public/photo-library.js",
-      "public/images/editorial/plan-great-zimbabwe-monument-days-from-masvingo/ (6 files)",
-      "docs/editorial-research/2026-11-11-great-zimbabwe-insight-ledger.md",
-      "docs/editorial-research/download-great-zimbabwe-insight-photos.mjs",
-      "docs/editorial-research/add-great-zimbabwe-insight.mjs",
-      "docs/editorial-research/insert-great-zimbabwe-photo-library.mjs",
-      "docs/editorial-research/check-great-zimbabwe-dist.mjs",
-      "docs/editorial-progress.json"
-    ],
-    "images": 6,
-    "image_note": "Six licensed Commons photographs, all distinct from the guided-monument-visit activity collection (Jan Derk/ulamm/Maciver) and the monument attraction's thumb gallery (Klinzing/Hill Complex/amanderson2/Moore Tower V): Schertzer x2 (CC BY 3.0, 2015), Bell aerial (CC BY-SA 4.0, 2015), Moore western entrance (CC BY-SA 2.0, 2019), Realtino Masvingo city centre (CC BY-SA 4.0, 2020), MaiTynoe Lake Kyle (CC BY-SA 4.0, 2011). SHA-256 recorded in photo-library entries; attribution on-page in figure captions.",
-    "booking_cta": "None by design: insight pages carry no product CTA (Marrakech/Tunis/Egypt precedents); no booking-destinations.json change.",
-    "key_facts_checked": "greatzimbabweguide.com travel guide (last updated March 2024, fetched 11 Nov 2026): 25 km from Masvingo, ~4 h Harare/Bulawayo, ~8 h Victoria Falls, A4 freight-corridor routing + left turn, no scheduled reliable public transport (hotel shuttles; minibus + walk-past-hotel ~2 km), charter-only airport, US$5/US$15 entry incl museum (dated March 2024, hedged), gates usually 08:00-17:00 with 09:00 arrival, ~4 h recommended, sandy bumpy paths, Hill Complex single-file steep, guide optional, toilets only at gate/museum, ATMs 25 km away, April-September best / rains Nov-Mar. greatzimbabwewhs.com (fetched 11 Nov 2026): Murray McDougall Drive \"Zimbabwe's garden route\" (60 km tar + 25 km dirt, rejoins A9, full day), Lake Mutirikwi 1961 second-largest-after-Kariba claim, Masvingo name sequence. ZimParks Lake Kyle page (fetched 11 Nov 2026): 169 km², ~30 km east, ruins to its south. UNESCO facts carried from the morning Masvingo record (whc.unesco.org re-fetch 403 this run, disclosed). All on-site cluster pages live HTTP 200.",
-    "build_checks": "check:build-inputs passed; production build 158 pages (EDITORIAL_CMS_SYNC=false); readability guard passed on 163 pages; dist verified pre-push (title, 9 h2 sections, 6 figures, all facts, Masvingo insight card, archive + homepage listing, no markup leak).",
-    "cms": "Publishable-key REST reads 2026-11-11: travel_articles 200 (seeded rows only, ids 1-10), local_destinations 404 (schema cache), editorial_documents 400 (RLS). Production deploy imports at source_commit server-side; mirror pending — owner-side CMS check to confirm travel_articles/plan-great-zimbabwe-monument-days-from-masvingo. No writes attempted.",
-    "next_category": "destinations",
-    "next_action": "Rotate to destinations next run; CMS owner-side check pending (standard); owner Gmail sign-in still required to ship stored email drafts.",
-    "status": "published_pushed_live_confirmed",
-    "content_commit": "a319936",
-    "publication": {
-      "content_commit": "a319936",
-      "pushed_to": "main",
-      "push_result": "success (0dd2cdd..a319936)",
-      "pushed_at": "2026-11-11",
-      "live_url": "https://trekafricaguide.com/travel-insights/plan-great-zimbabwe-monument-days-from-masvingo/",
-      "live_http_status": 200,
-      "checked_at": "2026-11-11",
-      "live_distinctive_text": "Plan Great Zimbabwe monument days: pacing the site, the road, and the lake",
-      "live_checks": {
-        "detail": "HTTP 200 (34,497 bytes) ~75 s after push; title correct; 9 h2 sections render (decision, road plan, pacing, second day, when to go, confirm before you book, FAQ, continue planning, sources and scope); distinctive copy verified live (Murray McDougall, US$15 dated hedge, A4 freight, 169 sq km, Chesvingo, white rhino); six figures render; no exposed markup.",
-        "assets": "6/6 /images/editorial/plan-great-zimbabwe-monument-days-from-masvingo/*.jpg live HTTP 200 image/jpeg.",
-        "masvingo_card": "Masvingo destination page (HTTP 200) now renders the insight card — the page's first Travel insights entry.",
-        "archive_home": "Travel-insights archive and homepage search list the insight.",
-        "cluster_links": "All cross-link targets live HTTP 200 (Zimbabwe country, Masvingo destination, monument attraction, guided monument visit activity, Great Zimbabwe Hotel, Victoria Falls insight)."
-      }
-    }
-  },
-  "destination_tunis": {
-    "id": "tunis",
-    "category": "local-destinations",
-    "started": "2026-11-11",
-    "latest_run_note": "Scheduled 15:00 UTC routine run; executed on schedule.",
-    "selection_evidence": "Live /countries/tunisia/ (HTTP 200, 32,509 B, 11 Nov 2026) renders no Destinations in Tunisia rail while content/local-destinations.json held 16 records with no tunis slug; the live Tunisia cluster (country guide, tunis-and-sidi-bou-said attraction, dar-said stay, choose-first-night-tunis-medina-or-coast insight) was otherwise complete, so the capital had no anchor and the country page never rendered a destination rail. Duplicate check passed.",
-    "scope": "New local destination Tunis under Tunisia: UNESCO Medina of Tunis ref 36 framing (inscribed 1979, criteria ii/iii/v, 296.41 ha, founded 698 A.D., ~700 monuments, 88 nationally listed), the TGM corridor from Tunis Marine, FCDO entry rules, Ramadan festival note, confirm-provider hedges. Zero-image honest publish; six-subject backlog in the ledger.",
-    "files": [
-      "content/local-destinations.json",
-      "docs/editorial-research/2026-11-11-tunis-local-destination.md",
-      "docs/editorial-research/add-tunis-destination.cjs",
-      "docs/editorial-research/check-tunis-dist.mjs",
-      "docs/editorial-research/verify-live-tunis.mjs",
+      "docs/editorial-research/2026-11-11-great-zimbabwe-hotel.md",
       "docs/editorial-progress.json"
     ],
     "images": 0,
-    "image_followup": "Six distinct licensed Tunis subjects, not reusable from the attraction/stay collections: Zitouna Mosque courtyard, Souq el-Attarine lane with sabat shade, Bab El-Bhar gate square, Tunis Marine TGM platform, Ville Nouvelle boulevard, rooftop view over medina minarets. Licensed-reuse review only; no substitutes.",
-    "booking_cta": "None by design: destination pages carry no hotel-booking surrogate; the stay surface is the published Dar Said guide and the insight links the exact Dar El Medina listing.",
-    "relationships": {
-      "country_slug": "tunisia",
-      "attraction_slugs": [
-        "tunis-and-sidi-bou-said"
-      ],
-      "activity_slugs": [],
-      "accommodation_slugs": [
-        "dar-said"
-      ],
-      "travel_insight_slugs": [
-        "choose-first-night-tunis-medina-or-coast"
-      ]
-    },
-    "key_facts_checked": "UNESCO ref 36 (whc.unesco.org/en/list/36/ fetched 11 Nov 2026) and the Urban Heritage Atlas page (fetched): 296.41 ha, buffer 190.19 ha, criteria (ii)(iii)(v), 698 A.D., 8th-century medina + 13th-century north/south suburbs, ~700 monuments, 88 nationally listed, Law 35-1994, over one million inhabitants / 212 km2 metro, Creative City of Crafts and Folk Art 2017, Ramadan festival per site-manager contribution. UK FCDO Tunisia entry requirements fetched 11 Nov 2026 (passport valid for duration of stay, 90-day visa-free, stamp, overstay fine, parts-of-Tunisia advisory). TRANSTU TGM + AMVPPC seasonal hours carried from the live insight with its 8 Nov 2026 check dates (transtu.com.tn did not resolve this run). On-site continuity: Tunisia country, Tunis And Sidi Bou Said attraction, Dar Said stay, first-night insight, all live 11 Nov.",
-    "build_checks": "check:build-inputs passed; production build 159 pages; readability guard passed on 164; dist verified pre-push (title, 8-section h2 flow per empty-activity house pattern, 10/10 facts, three cards, no CTA anchors, no markup leak).",
-    "cms": "Publishable-key REST reads 2026-11-11: travel_articles 200 (seeded rows only), local_destinations 404 (schema cache), editorial_documents 400 (RLS). Mirror pending; no writes attempted; owner-side CMS check to confirm local_destinations/tunis.",
+    "image_followup": "Six distinct licensed subjects not reusable from other collections: hotel exterior with stonework themes, Standard Room interior, Executive Room lounge/bedroom, Deluxe Twin Room, swimming pool and restaurant/curio shop area, campsite within hotel grounds. Official site imagery is operator-copyrighted; licensed-reuse review only.",
+    "booking_cta": "None. No exact verified current OTA product: Booking.com search for 'Great Zimbabwe Hotel' returned Mineheart Great Zimbabwe Lodge (different property, 2.8 km away) and other Masvingo listings. Hotel's own site had no working online reservation form. Direct booking by phone/email only.",
+    "key_facts_checked": "Official greatzimbabwehotels.com home/rooms/tour pages (location 700m from monument, room categories with amenities, Monument Tour product, contacts); existing Trek Africa Guide activity/attraction guides (cross-references); Booking.com search (no exact listing, checked 11 Nov 2026); UNESCO Great Zimbabwe (historical context). All checked 11 November 2026.",
+    "cms": "Production deploy imports at source_commit; publishable-key read of editorial_documents remains RLS-blocked by design — owner-side CMS check to confirm accommodations/great-zimbabwe-hotel after deploy.",
+    "next_category": "travel_insights",
+    "next_action": "Rotate to travel insights next run; six-subject photo backlog tracked in the ledger; CMS owner-side check pending (standard).",
     "status": "published_live_confirmed",
-    "commit": "fcfa9d1 (content) + this receipt commit",
+    "content_commit": "0e8c748",
     "publication": {
-      "content_commit": "fcfa9d1",
+      "content_commit": "0e8c748",
       "pushed_to": "main",
-      "push_result": "success (1552927..fcfa9d1)",
+      "push_result": "success (rebased over 765aedd; pushed as 0e8c748)",
       "pushed_at": "2026-11-11",
-      "live_url": "https://trekafricaguide.com/countries/tunisia/tunis/",
+      "live_url": "https://trekafricaguide.com/accommodations/great-zimbabwe-hotel/",
       "live_http_status": 200,
       "checked_at": "2026-11-11",
-      "live_distinctive_text": "Tunis, Tunisia | Trek Africa Guide",
+      "live_distinctive_text": "Great Zimbabwe Hotel | Trek Africa Guide",
       "live_checks": {
-        "detail": "HTTP 200 (35,233 B) ~60 s after push (first checks 404 pre-deploy); 8-section destination h2 flow; distinctive copy renders (296.41 ha, 698 A.D., 700 monuments, 88 listed, Creative City 2017, 90 days, Tunis Marine, Ramadan); no exposed markup.",
-        "cards": "Attractions (tunis-and-sidi-bou-said), Where to stay (dar-said), Travel insights (choose-first-night-tunis-medina-or-coast) render; all three targets HTTP 200.",
-        "country_rail": "Tunisia country page now renders Destinations in Tunisia with the Tunis card (was absent before this publish).",
-        "archive_home": "Homepage search lists /countries/tunisia/tunis.",
-        "cms": "Publishable-key reads as recorded under cms; mirror pending."
-      }
-    },
-    "next_category": "accommodations",
-    "next_action": "Rotate to accommodations next run; six-subject photo backlog tracked in the ledger; CMS owner-side check pending (standard)."
+        "detail": "HTTP 200; title correct; breadcrumb Home > Southern Africa > Zimbabwe > Great Zimbabwe Hotel; detail_intro renders 4 <p> tags; practical_info renders 5 <p> tags; all sections present (Why stay here, Key amenities, Stay style and budget, What travelers say, Booking option, Other Nearby Accommodations, Nearby Attractions); honest no-booking-link state; honest no-photo state; no exposed markup.",
+        "booking": "Honest no-booking-link state by design; no Stay22 CTA.",
+        "cards": "Nearby Attractions renders Great Zimbabwe National Monument card (attraction_id repo:attractions:great-zimbabwe-national-monument). Other Nearby Accommodations renders honest empty state.",
+        "cross_links": "Great Zimbabwe National Monument attraction page now renders Nearby stays with Great Zimbabwe Hotel card. Accommodations archive lists the guide. All internal links (attraction, activity) HTTP 200.",
+        "archive_home": "Accommodations archive and homepage search list the guide."
+      },
+      "cms_source_commit": "imported at source_commit 0e8c748; publishable-key read of editorial_documents remains RLS-blocked by design — owner-side CMS check to confirm accommodations/great-zimbabwe-hotel"
+    }
   }
 }
