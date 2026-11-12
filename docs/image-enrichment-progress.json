@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12 06:30 Africa/Kampala",
+  "updated_at": "2026-11-12 08:25 Africa/Kampala",
   "blocked_runs": [
     {
       "id": "network-outage-no-research-2026-11-09-1807",
@@ -84,6 +84,28 @@
     "resolved_at": "2026-10-21 13:16 Africa/Kampala"
   },
   "completed_runs": [
+    {
+      "id": "les-paletuviers-bounded-rights-review-2026-11-12",
+      "page_url": "https://trekafricaguide.com/accommodations/les-paletuviers/",
+      "page_type": "accommodation",
+      "status": "reviewed_no_eligible_photo",
+      "previous_photo_count": 0,
+      "photo_count": 0,
+      "new_photo_count": 0,
+      "checked_date": "2026-11-12",
+      "started_at": "2026-11-12 08:15 Africa/Kampala",
+      "source_ledger": "docs/editorial-research/2026-11-12-les-paletuviers-photo-review.md",
+      "note": "Live page has zero dedicated hotel photos. Exact-property Flickr pontoon image is All rights reserved; Wikimedia Commons search returned unrelated Les Paletuviers Matanda in Cameroon; Unsplash result was Belize mangroves. No rights-clean exact-property candidate verified in this bounded review. No gallery or asset change.",
+      "files": [
+        "docs/editorial-research/2026-11-12-les-paletuviers-photo-review.md",
+        "docs/image-enrichment-progress.json"
+      ],
+      "selected_images": [],
+      "published_commit": null,
+      "email_id": null,
+      "report_status": "NOT SENT: no collection published.",
+      "next_action": "Continue low-photo rotation; seek owner originals or written permission for Les Paletuviers, or choose another underfilled page. Re-poll Sossusvlei Lodge pending gallery deployment."
+    },
     null,
     {
       "id": "sal-island-attraction-gallery-5-to-9-2026-11-11",
@@ -4077,7 +4099,7 @@
     },
     "next_action": "Rotate to a fresh underfilled page. Note: the entire zero-image frontier is accommodations, and the eight reopened zero-photo accommodation collections (Governors Camp, Camp Okavango, Desert Luxury Camp, Dar Said, Maribela, Riad Rosemary, Sanctuary Gorilla Forest Camp, The Place Tokeh, plus Fairway, Kibale Forest Camp, Red Chilli, Ridge Royal, Terres Touareg, Sabyinyo, Hilton Cabo Verde, Les Paletuviers) had no exact-property free-stock leads in this run Openverse/Commons probes (Governors Camp results were all sibling properties Il Moran and Little Governors, excluded as another-property). Next useful rotations: other-category insufficient collections, or owner-supplied property photos."
   },
-  {
+  "latest_review": {
     "id": "casa-del-papa-exact-property-no-eligible-photo-review",
     "page_url": "https://trekafricaguide.com/accommodations/casa-del-papa/",
     "page_type": "accommodation",
@@ -4109,5 +4131,4 @@
     },
     "next_action": "Continue the low-photo accommodation rotation: Kruger Shalati (1/15), Les Paletuviers (0/15), Marriott Mena House Cairo (1/15), Mfuwe Lodge (1/15), Ol Tukai Lodge Amboseli (1/15), Paraa Safari Lodge (1/15), Ridge Royal Hotel (0/15), Serengeti Serena Safari Lodge (1/15), Terres Touareg Guest House (0/15), Red Chilli Rest Camp (0/15). Reopen Casa del Papa only for owner originals, written operator permission, or a named rights-clean photographer set whose source page specifically depicts this property."
   }
-]
 }
