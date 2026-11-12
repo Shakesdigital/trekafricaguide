@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12 17:31 Africa/Kampala",
+  "updated_at": "2026-11-12 18:12 Africa/Kampala",
   "blocked_runs": [
     {
       "id": "network-outage-no-research-2026-11-09-1807",
@@ -9,7 +9,6 @@
       "note": "Run not started: machine-level network outage. Confirmed unreachable by TCP test and HTTPS attempts: github.com and api.github.com (git fetch failed 3x over ~4 minutes), commons.wikimedia.org, en.wikipedia.org, api.openverse.org (504) and unsplash.com (Fastly 151.101.x.x). Reachable: trekafricaguide.com, www.pexels.com, www.flickr.com. A rights-standard review is impossible without Wikimedia Commons/Openverse/Unsplash (a partial review would risk a false 'no eligible photos' conclusion), and no commit can be pushed or deployed. No website files touched; the separate editorial automation's working-tree changes were left untouched.",
       "next_action": "On the next run, retry git fetch first; once GitHub is reachable again, complete the Dar SaÃ¯d exact-property review from the top of the rotation backlog."
     },
-
     {
       "id": "bwindi-gorilla-trekking-interrupted-2026-10-28",
       "status": "resolved_live_confirmed",
@@ -4075,36 +4074,64 @@
       "report_status": "SENT to fsddanmugisa@gmail.com after live confirmation; Gmail message 1a1d0261b0891265."
     },
     {
-        "id":  "consolidated-missed-hourly-sweep-2026-11-12-1727",
-        "status":  "reviewed_no_eligible_photo",
-        "page_url":  "https://trekafricaguide.com/accommodations/accra-city-hotel/",
-        "page_type":  "accommodation",
-        "started_at":  "2026-11-12 17:27 Africa/Kampala",
-        "completed_at":  "2026-11-12 17:31 Africa/Kampala",
-        "substitutes_for":  [
-                                "2026-11-12 07:07 Africa/Kampala",
-                                "2026-11-12 11:07 Africa/Kampala",
-                                "2026-11-12 12:07 Africa/Kampala",
-                                "2026-11-12 13:07 Africa/Kampala",
-                                "2026-11-12 14:07 Africa/Kampala",
-                                "2026-11-12 15:07 Africa/Kampala",
-                                "2026-11-12 16:07 Africa/Kampala"
-                            ],
-        "previous_photo_count":  0,
-        "photo_count":  0,
-        "new_photo_count":  0,
-        "source_ledger":  "docs/editorial-research/2026-11-12-accra-city-hotel-catchup-photo-review.md",
-        "note":  "Checkpoint and origin/main history had no completed image run for the listed slots. One consolidated catch-up reviewed the newly published zero-photo Accra City Hotel page; no verified exact-property licensed image was found. Sossusvlei Lodge pending third photo was repaired and separately live-confirmed; no gallery duplicated. Hourly cadence unchanged.",
-        "selected_images":  [
-                            ],
-        "report_status":  "NOT SENT: no new collection published in this sweep; earlier Sossusvlei live-confirmed repair report was sent.",
-        "live_verification":  {
-                                  "checked_at":  "2026-11-12 17:30 Africa/Kampala",
-                                  "page_http_status":  200,
-                                  "distinct_property_image_count":  0,
-                                  "new_asset":  null
-                              },
-        "next_action":  "Continue low-photo rotation; seek exact-property rights-clean photos for Accra City Hotel or owner originals. Do not repeat the missed slots; normal hourly cadence resumes."
+      "id": "consolidated-missed-hourly-sweep-2026-11-12-1727",
+      "status": "reviewed_no_eligible_photo",
+      "page_url": "https://trekafricaguide.com/accommodations/accra-city-hotel/",
+      "page_type": "accommodation",
+      "started_at": "2026-11-12 17:27 Africa/Kampala",
+      "completed_at": "2026-11-12 17:31 Africa/Kampala",
+      "substitutes_for": [
+        "2026-11-12 07:07 Africa/Kampala",
+        "2026-11-12 11:07 Africa/Kampala",
+        "2026-11-12 12:07 Africa/Kampala",
+        "2026-11-12 13:07 Africa/Kampala",
+        "2026-11-12 14:07 Africa/Kampala",
+        "2026-11-12 15:07 Africa/Kampala",
+        "2026-11-12 16:07 Africa/Kampala"
+      ],
+      "previous_photo_count": 0,
+      "photo_count": 0,
+      "new_photo_count": 0,
+      "source_ledger": "docs/editorial-research/2026-11-12-accra-city-hotel-catchup-photo-review.md",
+      "note": "Checkpoint and origin/main history had no completed image run for the listed slots. One consolidated catch-up reviewed the newly published zero-photo Accra City Hotel page; no verified exact-property licensed image was found. Sossusvlei Lodge pending third photo was repaired and separately live-confirmed; no gallery duplicated. Hourly cadence unchanged.",
+      "selected_images": [],
+      "report_status": "NOT SENT: no new collection published in this sweep; earlier Sossusvlei live-confirmed repair report was sent.",
+      "live_verification": {
+        "checked_at": "2026-11-12 17:30 Africa/Kampala",
+        "page_http_status": 200,
+        "distinct_property_image_count": 0,
+        "new_asset": null
+      },
+      "next_action": "Continue low-photo rotation; seek exact-property rights-clean photos for Accra City Hotel or owner originals. Do not repeat the missed slots; normal hourly cadence resumes."
+    },
+    {
+      "id": "kasane-destination-gallery-2026-11-12-1807",
+      "status": "published_live_confirmed_partial",
+      "page_url": "https://trekafricaguide.com/countries/botswana/kasane/",
+      "page_type": "destination",
+      "started_at": "2026-11-12 18:07 Africa/Kampala",
+      "completed_at": "2026-11-12 18:12 Africa/Kampala",
+      "previous_photo_count": 0,
+      "photo_count": 3,
+      "new_photo_count": 3,
+      "source_ledger": "docs/editorial-research/2026-11-12-kasane-photo-enrichment.json",
+      "published_commit": "5d9edf5",
+      "live_verification": {
+        "page_http_status": 200,
+        "see_all_text": "See all 3 images",
+        "asset_http_statuses": [
+          200,
+          200,
+          200
+        ],
+        "asset_content_types": [
+          "image/jpeg",
+          "image/jpeg",
+          "image/jpeg"
+        ]
+      },
+      "report_status": "SENT to fsddanmugisa@gmail.com after live confirmation; Gmail message 1a1d0518ce9b50d4.",
+      "next_action": "Continue low-photo rotation; Kasane still needs airport, boat cruise, Kazungula Bridge and Savuti/Linyanti subjects toward 7–12 destination target."
     }
   ],
   "review_checkpoints": [
@@ -4135,7 +4162,7 @@
   ],
   "updated": 1,
   "last_run_at": "2026-11-11 12:18 UTC (15:18 Africa/Kampala) — Sal Island attraction gallery extended 5 -> 9 photos (4 new CC BY-SA 3.0 from Wikimedia Commons); commit 3240f05 pushed to origin/main; production page renders \"See all 9 images\", all 9 asset URLs HTTP 200 image/jpeg",
-  "next_action": "Consolidated missed-slot sweep complete; continue normal hourly low-photo rotation. Accra City Hotel remains zero-photo pending exact-property licensed images or owner originals.",
+  "next_action": "Continue low-photo rotation; Kasane has three live-confirmed licensed photos and needs four or more distinct subjects toward target. Review new Tokeh/Sal destinations and exact-property accommodations.",
   "current_run": {
     "id": "volcanoes-golden-monkey-six-photo-gap-fill-third-pass-2026-11-11",
     "page_url": "https://trekafricaguide.com/activities/volcanoes-golden-monkey-trekking/",
