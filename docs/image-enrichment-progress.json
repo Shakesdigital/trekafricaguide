@@ -1,13 +1,13 @@
-{
-    "updated_at":  "2026-11-12 23:09 Africa/Kampala",
+﻿{
+    "updated_at":  "2026-11-13 00:09 Africa/Kampala",
     "blocked_runs":  [
                          {
                              "id":  "network-outage-no-research-2026-11-09-1807",
                              "scheduled_at":  "2026-11-09 18:07 UTC (21:07 Africa/Kampala)",
                              "status":  "blocked_network_outage",
-                             "planned_target":  "Dar SaÃƒÂ¯d accommodation page (https://trekafricaguide.com/accommodations/dar-said/) Ã¢â‚¬â€ live page verified HTTP 200 with zero dedicated photos (only the regional Tunis And Sidi Bou Said attraction card), next item in the zero-own-photo accommodation rotation.",
+                             "planned_target":  "Dar SaÃƒÆ’Ã‚Â¯d accommodation page (https://trekafricaguide.com/accommodations/dar-said/) ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â live page verified HTTP 200 with zero dedicated photos (only the regional Tunis And Sidi Bou Said attraction card), next item in the zero-own-photo accommodation rotation.",
                              "note":  "Run not started: machine-level network outage. Confirmed unreachable by TCP test and HTTPS attempts: github.com and api.github.com (git fetch failed 3x over ~4 minutes), commons.wikimedia.org, en.wikipedia.org, api.openverse.org (504) and unsplash.com (Fastly 151.101.x.x). Reachable: trekafricaguide.com, www.pexels.com, www.flickr.com. A rights-standard review is impossible without Wikimedia Commons/Openverse/Unsplash (a partial review would risk a false \u0027no eligible photos\u0027 conclusion), and no commit can be pushed or deployed. No website files touched; the separate editorial automation\u0027s working-tree changes were left untouched.",
-                             "next_action":  "On the next run, retry git fetch first; once GitHub is reachable again, complete the Dar SaÃƒÂ¯d exact-property review from the top of the rotation backlog."
+                             "next_action":  "On the next run, retry git fetch first; once GitHub is reachable again, complete the Dar SaÃƒÆ’Ã‚Â¯d exact-property review from the top of the rotation backlog."
                          },
                          {
                              "id":  "bwindi-gorilla-trekking-interrupted-2026-10-28",
@@ -107,7 +107,7 @@
                                "published_commit":  "3240f05",
                                "pushed_at":  "2026-11-11 12:1x UTC (15:1x Africa/Kampala)",
                                "email_id":  null,
-                               "report_status":  "NOT SENT: no Gmail send tool/account available in this harness (standing limitation); owner receives this progress in chat. Subject prepared: \u0027Trek Africa Guide image update â€” 2026-11-11 (Kampala time)\u0027.",
+                               "report_status":  "NOT SENT: no Gmail send tool/account available in this harness (standing limitation); owner receives this progress in chat. Subject prepared: \u0027Trek Africa Guide image update Ã¢â‚¬â€ 2026-11-11 (Kampala time)\u0027.",
                                "live_verification":  {
                                                          "checked_at":  "2026-11-11 12:18 UTC (15:18 Africa/Kampala)",
                                                          "page_http_status":  200,
@@ -185,7 +185,7 @@
                                "published_commit":  "d140e85",
                                "pushed_at":  "2026-11-11 08:1x UTC (11:1x Africa/Kampala)",
                                "email_id":  null,
-                               "report_status":  "NOT SENT: no Gmail send tool/account available in this harness (standing limitation); owner receives this progress in chat. Subject prepared: \u0027Trek Africa Guide image update â€” 2026-11-11 (Kampala time)\u0027.",
+                               "report_status":  "NOT SENT: no Gmail send tool/account available in this harness (standing limitation); owner receives this progress in chat. Subject prepared: \u0027Trek Africa Guide image update Ã¢â‚¬â€ 2026-11-11 (Kampala time)\u0027.",
                                "live_verification":  {
                                                          "checked_at":  "2026-11-11 08:02 UTC (11:02 Africa/Kampala)",
                                                          "page_http_status":  200,
@@ -285,9 +285,9 @@
                                "published_commit":  "6185746",
                                "pushed_at":  "2026-11-10 10:1x UTC (13:1x Africa/Kampala)",
                                "email_id":  null,
-                               "report_status":  "NOT SENT: no Gmail send tool/account is available in this harness (standing limitation recorded by prior runs and the editorial automation\u0027s 4779ce7 receipt); owner receives this progress in chat. Subject prepared: \u0027Trek Africa Guide image update â€” 2026-11-10 (Kampala time)\u0027.",
+                               "report_status":  "NOT SENT: no Gmail send tool/account is available in this harness (standing limitation recorded by prior runs and the editorial automation\u0027s 4779ce7 receipt); owner receives this progress in chat. Subject prepared: \u0027Trek Africa Guide image update Ã¢â‚¬â€ 2026-11-10 (Kampala time)\u0027.",
                                "live_verification":  {
-                                                         "checked_at":  "2026-11-10 13:15 Africa/Kampala â€” first poll at ~6 min after push, page already updated",
+                                                         "checked_at":  "2026-11-10 13:15 Africa/Kampala Ã¢â‚¬â€ first poll at ~6 min after push, page already updated",
                                                          "page_http_status":  200,
                                                          "hero_og_image":  "/images/editorial/sabyinyo-silverback-lodge/sabyinyo-entrance-sign-2016-dickinson.jpg",
                                                          "see_all_text":  "not rendered (single-image gallery)",
@@ -321,7 +321,7 @@
                                "started_at":  "2026-11-10 09:07 UTC (12:07 Africa/Kampala)",
                                "initial_live_verification":  "Production accommodation page HTTP 200, read in full: zero dedicated photos (no gallery, no See-all text, no og:image; only the regional Marrakech And Atlas attraction card, excluded as a card).",
                                "source_ledger":  "docs/editorial-research/2026-11-10-riad-rosemary-exact-property-photo-review.md",
-                               "note":  "Bounded exact-name review found the rights-clean pool empty, and this run CLOSED the Pexels/Unsplash gap that the Maribela run left incomplete (programmatic API 403/401 standing) by using the OpenBot private browser. Wikimedia Commons exact-pair search: 0. Openverse all-CC exact-pair: 0. Flickr licence-filtered exact phrase: 0 matches; \u0027Rosemary Marrakech\u0027 returned only Roubicek \u0027Rosemary\u0027 (Mark Rowland) CC BY-ND 2.0 taken 2010 Ã¢â‚¬â€ predates the hotel (opened Sept 2023) AND is ND, excluded twice over; \u0027Rosemary riad\u0027 returned only a 2007 jbolles Flickr-Toys collage naming a houseplant. Unsplash \u0027rosemary marrakech\u0027 (browser): exactly 1 result Ã¢â‚¬â€ Louis Hansel rosemary-french-fries, food name-collision. Pexels \u0027riad rosemary\u0027 (browser): generic Moroccan riad stock (Ouarzazate pool courtyard, Hotel Riad Rah, unattributed Marrakech interiors) Ã¢â‚¬â€ no property tie. Pixabay (browser): OR-broadened herb/food results, no property subject. Licensed press/blog/OTA imagery (Marina Denisova for AD/Cotemaison, Duke Wright blog, africanstays gallery, operator site + LRNCE Instagram) is All Rights Reserved / OTA-style and excluded by standard. No image downloaded or assigned; neutral presentation kept. Repo synced to origin/main 1901f48 first (editorial Jozani receipts; untouched).",
+                               "note":  "Bounded exact-name review found the rights-clean pool empty, and this run CLOSED the Pexels/Unsplash gap that the Maribela run left incomplete (programmatic API 403/401 standing) by using the OpenBot private browser. Wikimedia Commons exact-pair search: 0. Openverse all-CC exact-pair: 0. Flickr licence-filtered exact phrase: 0 matches; \u0027Rosemary Marrakech\u0027 returned only Roubicek \u0027Rosemary\u0027 (Mark Rowland) CC BY-ND 2.0 taken 2010 ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â predates the hotel (opened Sept 2023) AND is ND, excluded twice over; \u0027Rosemary riad\u0027 returned only a 2007 jbolles Flickr-Toys collage naming a houseplant. Unsplash \u0027rosemary marrakech\u0027 (browser): exactly 1 result ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â Louis Hansel rosemary-french-fries, food name-collision. Pexels \u0027riad rosemary\u0027 (browser): generic Moroccan riad stock (Ouarzazate pool courtyard, Hotel Riad Rah, unattributed Marrakech interiors) ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â no property tie. Pixabay (browser): OR-broadened herb/food results, no property subject. Licensed press/blog/OTA imagery (Marina Denisova for AD/Cotemaison, Duke Wright blog, africanstays gallery, operator site + LRNCE Instagram) is All Rights Reserved / OTA-style and excluded by standard. No image downloaded or assigned; neutral presentation kept. Repo synced to origin/main 1901f48 first (editorial Jozani receipts; untouched).",
                                "files":  [
                                              "docs/editorial-research/2026-11-10-riad-rosemary-exact-property-photo-review.md",
                                              "docs/image-enrichment-progress.json"
@@ -329,7 +329,7 @@
                                "selected_images":  [
 
                                                    ],
-                               "excluded_candidates_note":  "Marina Denisova press sets (AD Middle East, Cotemaison), Duke Wright blog photography, africanstays OTA gallery, operator rosemarymarrakech.com and LRNCE Instagram Ã¢â‚¬â€ all rights-reserved or OTA/social, excluded; Flickr name-collisions predating the 2023 opening; Pexels/Pixabay generic riad or herb-photography results with no property tie.",
+                               "excluded_candidates_note":  "Marina Denisova press sets (AD Middle East, Cotemaison), Duke Wright blog photography, africanstays OTA gallery, operator rosemarymarrakech.com and LRNCE Instagram ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â all rights-reserved or OTA/social, excluded; Flickr name-collisions predating the 2023 opening; Pexels/Pixabay generic riad or herb-photography results with no property tie.",
                                "mandatory_input_check":  "No image or library change this run; review-only (no website files touched), so sync-photo-library and check:build-inputs were not required.",
                                "published_commit":  null,
                                "email_id":  null,
@@ -492,9 +492,9 @@
                                "pushed_at":  "2026-11-10 06:2x UTC (09:2x Africa/Kampala)",
                                "deploy":  "Plain git push triggered the Netlify production build within ~90 seconds this time (the placeholder deploy-hook concern from 2026-11-09 did not recur); no CLI deploy needed. Netlify CLI is linked and available as fallback (project trekafricaguide, project id d32d59a3 confirmed in status output).",
                                "email_id":  null,
-                               "report_status":  "NOT SENT: no Gmail send tool/account is available in this harness (standing limitation recorded by prior runs; Gmail requires interactive sign-in in the harness browser). Owner receives this progress in chat. Subject prepared: \u0027Trek Africa Guide image update Ã¢â‚¬â€ 2026-11-10 (Kampala time)\u0027.",
+                               "report_status":  "NOT SENT: no Gmail send tool/account is available in this harness (standing limitation recorded by prior runs; Gmail requires interactive sign-in in the harness browser). Owner receives this progress in chat. Subject prepared: \u0027Trek Africa Guide image update ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â 2026-11-10 (Kampala time)\u0027.",
                                "live_verification":  {
-                                                         "checked_at":  "2026-11-10 06:31 UTC (09:31 Africa/Kampala) Ã¢â‚¬â€ one poll at minutes:~1.5 after push, page already updated",
+                                                         "checked_at":  "2026-11-10 06:31 UTC (09:31 Africa/Kampala) ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â one poll at minutes:~1.5 after push, page already updated",
                                                          "page_http_status":  200,
                                                          "see_all_text":  "See all 2 images",
                                                          "hero_alt_present":  true,
@@ -520,9 +520,9 @@
                                                                                         "nairobi_local_destination_gallery":  "HTTP 200, See all 10 images (unchanged)",
                                                                                         "homepage":  "HTTP 200"
                                                                                     },
-                                                         "note":  "Production serves the two-image Dar SaÃƒÂ¯d entrance-sign gallery; both assets return HTTP 200 image/jpeg with byte counts matching the locally stored files."
+                                                         "note":  "Production serves the two-image Dar SaÃƒÆ’Ã‚Â¯d entrance-sign gallery; both assets return HTTP 200 image/jpeg with byte counts matching the locally stored files."
                                                      },
-                               "next_action":  "Dar SaÃƒÂ¯d stays open only for missing subjects (courtyard, room, breakfast area, hammam, terrace/grounds) Ã¢â‚¬â€ currently no rights-clean leads; reopen for owner originals or operator permission. Continue the zero-own-photo accommodation rotation: Maribela Hotel, Riad Rosemary, Sabyinyo Silverback Lodge, Sanctuary Gorilla Forest Camp, Hilton Cabo Verde Sal Resort Ã¢â‚¬â€ or the fresh zero-photo Kigali/Maun local-destination pages (verify exact subjects first)."
+                               "next_action":  "Dar SaÃƒÆ’Ã‚Â¯d stays open only for missing subjects (courtyard, room, breakfast area, hammam, terrace/grounds) ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â currently no rights-clean leads; reopen for owner originals or operator permission. Continue the zero-own-photo accommodation rotation: Maribela Hotel, Riad Rosemary, Sabyinyo Silverback Lodge, Sanctuary Gorilla Forest Camp, Hilton Cabo Verde Sal Resort ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â or the fresh zero-photo Kigali/Maun local-destination pages (verify exact subjects first)."
                            },
                            {
                                "id":  "nairobi-local-destination-ten-photo-commons-gallery-2026-11-09",
@@ -534,9 +534,9 @@
                                "new_photo_count":  10,
                                "checked_date":  "2026-11-09",
                                "started_at":  "2026-11-09 12:07 UTC (15:07 Africa/Kampala)",
-                               "initial_live_verification":  "Production local-destination page returned HTTP 200 and was read in full: zero dedicated photos Ã¢â‚¬â€ no hero image and no gallery; the editorial automation had published it the same morning in a zero-photo honest state.",
+                               "initial_live_verification":  "Production local-destination page returned HTTP 200 and was read in full: zero dedicated photos ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â no hero image and no gallery; the editorial automation had published it the same morning in a zero-photo honest state.",
                                "source_ledger":  "docs/editorial-research/2026-11-09-nairobi-local-destination-photo-enrichment.md",
-                               "note":  "Added ten visually inspected exact-Nairobi photographs, all from Wikimedia Commons: Maasai giraffe with city skyline (hero), zebra with skyline, male Maasai ostrich with hazy skyline (the three Nairobi-NP-with-city compositions), CBD skyline at dusk, KICC main gate entrance (CC0, Francis Akuka for the Wikimedia Foundation), two 2014 Nairobi National Museum interiors (hominin skull hall, decorated-gourd culture hall Ã¢â‚¬â€ both Mike W.), Giraffe Centre feeding-platform view, a purple matatu in central traffic, and nyama choma over charcoal. All credit-bearing CC licences render in the gallery credit block; CC0 needs none. The dated 2005 pre-renovation museum facade was excluded in favour of current-building interiors. Repo synced to origin/main f3adc40 first.",
+                               "note":  "Added ten visually inspected exact-Nairobi photographs, all from Wikimedia Commons: Maasai giraffe with city skyline (hero), zebra with skyline, male Maasai ostrich with hazy skyline (the three Nairobi-NP-with-city compositions), CBD skyline at dusk, KICC main gate entrance (CC0, Francis Akuka for the Wikimedia Foundation), two 2014 Nairobi National Museum interiors (hominin skull hall, decorated-gourd culture hall ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â both Mike W.), Giraffe Centre feeding-platform view, a purple matatu in central traffic, and nyama choma over charcoal. All credit-bearing CC licences render in the gallery credit block; CC0 needs none. The dated 2005 pre-renovation museum facade was excluded in favour of current-building interiors. Repo synced to origin/main f3adc40 first.",
                                "files":  [
                                              "content/local-destinations.json",
                                              "src/lib/photo-library.js",
@@ -561,9 +561,9 @@
                                "mandatory_input_check":  "Passed node scripts/sync-photo-library.mjs and npm run check:build-inputs; checked 2026-11-09.",
                                "published_commit":  "e72ed2f",
                                "pushed_at":  "2026-11-09 12:2x UTC (15:2x Africa/Kampala)",
-                               "netlify_deploy":  "6af1ba03ce3ad7ad0f5952c2 (repo-triggered build, state ready) Ã¢â‚¬â€ this time the plain git push DID trigger a Netlify production build; no CLI deploy needed.",
+                               "netlify_deploy":  "6af1ba03ce3ad7ad0f5952c2 (repo-triggered build, state ready) ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â this time the plain git push DID trigger a Netlify production build; no CLI deploy needed.",
                                "email_id":  null,
-                               "report_status":  "NOT SENT: Gmail requires interactive sign-in in the harness browser (same standing limitation recorded by prior runs and today\u0027s editorial receipt); owner receives this progress in chat instead. Subject prepared: \u0027Trek Africa Guide image update Ã¢â‚¬â€ [Kampala date/time]\u0027.",
+                               "report_status":  "NOT SENT: Gmail requires interactive sign-in in the harness browser (same standing limitation recorded by prior runs and today\u0027s editorial receipt); owner receives this progress in chat instead. Subject prepared: \u0027Trek Africa Guide image update ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â [Kampala date/time]\u0027.",
                                "live_verification":  {
                                                          "checked_at":  "2026-11-09 12:4x UTC (15:4x Africa/Kampala) on deploy 6af1ba03",
                                                          "page_http_status":  200,
@@ -614,7 +614,7 @@
                                                                                     },
                                                          "note":  "Production serves the ten-image Nairobi gallery; all ten new assets return HTTP 200 image/jpeg with byte counts matching the locally stored files."
                                                      },
-                               "next_action":  "Continue the zero-own-photo accommodation rotation: Dar SaÃƒÂ¯d, Maribela Hotel, Riad Rosemary, Sabyinyo Silverback Lodge, Sanctuary Gorilla Forest Camp, Hilton Cabo Verde Sal Resort Ã¢â‚¬â€ or enrich the fresh zero-photo Kigali/Maun local-destination pages (Kigali has a plausible Commons/free-stock city pool; verify exact subjects first). Nyungwe Top View Hill Hotel stays closed unless owner originals or written permission arrive (editorial already verified no licensed exact-property pool)."
+                               "next_action":  "Continue the zero-own-photo accommodation rotation: Dar SaÃƒÆ’Ã‚Â¯d, Maribela Hotel, Riad Rosemary, Sabyinyo Silverback Lodge, Sanctuary Gorilla Forest Camp, Hilton Cabo Verde Sal Resort ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â or enrich the fresh zero-photo Kigali/Maun local-destination pages (Kigali has a plausible Commons/free-stock city pool; verify exact subjects first). Nyungwe Top View Hill Hotel stays closed unless owner originals or written permission arrive (editorial already verified no licensed exact-property pool)."
                            },
                            {
                                "id":  "camp-okavango-exact-property-no-eligible-photo-review",
@@ -696,7 +696,7 @@
                                "started_at":  "2026-11-09 06:07 Africa/Kampala",
                                "initial_live_verification":  "Production accommodation page returned HTTP 200 and was reviewed in full: hero starter image plus a South Luangwa scenery card; zero dedicated property photos in the gallery (count 1, the starter itself).",
                                "source_ledger":  "docs/editorial-research/2026-11-09-mfuwe-lodge-photo-enrichment.md",
-                               "note":  "Added three visually inspected exact-property photographs: thatched chalet exterior (Commons \u0027Mfuwe Chalet.jpg\u0027, Prabir K Bhattacharyya, CC BY-SA 3.0, captured 2011-09-16), chalet interior with riverside deck (Commons \u0027Mfuwe Lodge5.webp\u0027, Historybuff1028, CC0, captured 2025-09-16, webp converted to JPEG q90), and farm-to-table outdoor dining (Commons \u0027Mfuwe-Lodge-dining.jpg\u0027, Historybuff1028, CC0, captured 2025-08-13). Render fix required: src/lib/photo-defaults.mjs now replaces a gallery holding ONLY starter/default images with the curated override (Mfuwe\u0027s row kept the stock starter so the previous empty-gallery condition never applied); curator-owned galleries untouched; 3 unit tests added. Missing subjects recorded in the ledger: signature elephants-in-reception scene (only rights-clean Commons version carries a baked-in Travel+Leisure award overlay Ã¢â‚¬â€ excluded), pool, bush spa, bar interior, lounge, lodge exterior.",
+                               "note":  "Added three visually inspected exact-property photographs: thatched chalet exterior (Commons \u0027Mfuwe Chalet.jpg\u0027, Prabir K Bhattacharyya, CC BY-SA 3.0, captured 2011-09-16), chalet interior with riverside deck (Commons \u0027Mfuwe Lodge5.webp\u0027, Historybuff1028, CC0, captured 2025-09-16, webp converted to JPEG q90), and farm-to-table outdoor dining (Commons \u0027Mfuwe-Lodge-dining.jpg\u0027, Historybuff1028, CC0, captured 2025-08-13). Render fix required: src/lib/photo-defaults.mjs now replaces a gallery holding ONLY starter/default images with the curated override (Mfuwe\u0027s row kept the stock starter so the previous empty-gallery condition never applied); curator-owned galleries untouched; 3 unit tests added. Missing subjects recorded in the ledger: signature elephants-in-reception scene (only rights-clean Commons version carries a baked-in Travel+Leisure award overlay ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â excluded), pool, bush spa, bar interior, lounge, lodge exterior.",
                                "files":  [
                                              "src/lib/photo-library.js",
                                              "public/photo-library.js",
@@ -714,10 +714,10 @@
                                "excluded_candidates_note":  "Duplicate source excluded: \u0027Mfuwe Lodge Dining Area.jpg\u0027 is already live as the starter hero. \u0027Mfuwe Lodge1.webp\u0027 excluded (baked-in Travel+Leisure award overlay). \u0027Wild Dog in South Luangwa\u0027 excluded (game-drive subject, not the property). Marula Lodge and Hans Hillewaert wildlife files excluded (different property / scenery near the lodge).",
                                "mandatory_input_check":  "Passed node scripts/sync-photo-library.mjs and npm run check:build-inputs; astro build plus check-rendered-content passed before deploy; photo-defaults unit tests 3/3 pass.",
                                "published_commit":  "7746b55 (photos/ledger) and 7efe8ce (photo-defaults fix + tests)",
-                               "pushed_at":  "2026-11-09 03:37 UTC (photo commit) and 2026-11-09 07:19 UTC (render fix) Ã¢â‚¬â€ Africa/Kampala 06:37 and 10:19",
+                               "pushed_at":  "2026-11-09 03:37 UTC (photo commit) and 2026-11-09 07:19 UTC (render fix) ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â Africa/Kampala 06:37 and 10:19",
                                "deploy":  "Two-stage: (1) git pushes 7746b55/7efe8ce did NOT trigger a Netlify production build for 40+ minutes (NETLIFY_DEPLOY_HOOK in .env.netlify is a placeholder); (2) deployed via the linked, owner-authenticated Netlify CLI. An intermediate CLI deploy (--dir dist, mirror-off local build) put the first three Mfuwe photos live at 08:25+03:00; the final authoritative deploy is the Netlify-managed repo build 6af15a0fec27e0ff12f886c9 (netlify.toml npm ci \u0026\u0026 npm run build, EDITORIAL_CMS_SYNC=true, CMS mirror imported 128 documents, deploy live) completed ~08:44+03:00 from the merged tree incl. the concurrent Governors\u0027 Camp / South Luangwa commits.",
                                "email_id":  null,
-                               "report_status":  "NOT SENT: Gmail requires a sign-in in this harness browser (same limitation as prior runs); owner receives this progress in chat instead. Subject prepared: \u0027Trek Africa Guide image update Ã¢â‚¬â€ [Kampala date/time]\u0027.",
+                               "report_status":  "NOT SENT: Gmail requires a sign-in in this harness browser (same limitation as prior runs); owner receives this progress in chat instead. Subject prepared: \u0027Trek Africa Guide image update ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â [Kampala date/time]\u0027.",
                                "live_verification":  {
                                                          "checked_at":  "2026-11-09 re-checked 05:52-05:58 UTC (08:52-08:58 Africa/Kampala) on deploy 6af15a0f",
                                                          "page_http_status":  200,
@@ -747,9 +747,9 @@
                                                                                         "homepage":  "HTTP 200"
                                                                                     },
                                                          "note":  "Production serves the four-image Mfuwe Lodge gallery including the CC BY-SA credit for the chalet exterior.",
-                                                         "final_recheck":  "On the final deploy: page 200, See all 4 images, three new filenames present, CC BY-SA credit rendered, chalet asset 200 image/jpeg 475363. Jollyboys still See all 4; Fairway hero intact; Bwindi-or-Volcanoes insight 200. Concurrent-run observation: /activities/south-luangwa-walking-safari/ returns 404 on the current production deploy (slug absent from the final build; CMS mirror reports one document retaining manual edits needing review) Ã¢â‚¬â€ owned by the editorial automation; this run changed nothing of theirs."
+                                                         "final_recheck":  "On the final deploy: page 200, See all 4 images, three new filenames present, CC BY-SA credit rendered, chalet asset 200 image/jpeg 475363. Jollyboys still See all 4; Fairway hero intact; Bwindi-or-Volcanoes insight 200. Concurrent-run observation: /activities/south-luangwa-walking-safari/ returns 404 on the current production deploy (slug absent from the final build; CMS mirror reports one document retaining manual edits needing review) ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â owned by the editorial automation; this run changed nothing of theirs."
                                                      },
-                               "next_action":  "Rotation backlog: reopened-by-rights collections with thin pools (Governors\u0027 Camp has one eligible photo; golden-monkey missing bamboo-zone/Kinigi subjects; Jollyboys missing exterior/dorm/room/kitchen leads are CC BY-NC only), then fresh low-image pages. Watch: a plain git push may no longer trigger a Netlify build Ã¢â‚¬â€ the deploy hook in .env.netlify is a placeholder and a push sat pending until this run deployed via the linked Netlify CLI; future runs should trigger a build/deploy explicitly after pushing."
+                               "next_action":  "Rotation backlog: reopened-by-rights collections with thin pools (Governors\u0027 Camp has one eligible photo; golden-monkey missing bamboo-zone/Kinigi subjects; Jollyboys missing exterior/dorm/room/kitchen leads are CC BY-NC only), then fresh low-image pages. Watch: a plain git push may no longer trigger a Netlify build ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â the deploy hook in .env.netlify is a placeholder and a push sat pending until this run deployed via the linked Netlify CLI; future runs should trigger a build/deploy explicitly after pushing."
                            },
                            {
                                "id":  "featured-image-audit-and-fairway-context-hero-2026-11-09",
@@ -763,7 +763,7 @@
                                "started_at":  "2026-11-09 05:55 Africa/Kampala",
                                "initial_live_verification":  "Owner instruction: give every published detail article/page a featured image first, fuller galleries later in normal rotations. Production-side audit of all live detail pages found exactly one page missing a featured image: /accommodations/fairway-boutique-hotel/ (owner-removed insight 404 page out of scope).",
                                "source_ledger":  "docs/editorial-research/2026-11-09-featured-image-audit-and-fairway-hero.md",
-                               "note":  "Fairway has no eligible exact-property photo by any source (official gallery/OTA without reuse permission; Commons, Openverse, Flickr CC exact-name, Pexels/Unsplash exact-name all checked; 2026-10-30 checkpoint agreed under the stricter rule). Used the platform\u0027s labeled destination-setting pattern: added a new distinct Pexels Kampala street photograph (35603022, Wings Panic, Pexels License, no attribution) as the hero with property:false, so cards and the gallery render \"Destination setting: Ã¢â‚¬Â¦ This is not a photograph of the accommodation.\" Source-ID dedup against the Kampala destination collection clear. No other pages changed.",
+                               "note":  "Fairway has no eligible exact-property photo by any source (official gallery/OTA without reuse permission; Commons, Openverse, Flickr CC exact-name, Pexels/Unsplash exact-name all checked; 2026-10-30 checkpoint agreed under the stricter rule). Used the platform\u0027s labeled destination-setting pattern: added a new distinct Pexels Kampala street photograph (35603022, Wings Panic, Pexels License, no attribution) as the hero with property:false, so cards and the gallery render \"Destination setting: ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦ This is not a photograph of the accommodation.\" Source-ID dedup against the Kampala destination collection clear. No other pages changed.",
                                "files":  [
                                              "src/lib/photo-library.js",
                                              "public/photo-library.js",
@@ -898,7 +898,7 @@
                                "published_commit":  "a94a703",
                                "pushed_at":  "2026-11-08 19:26 UTC (22:26 Africa/Kampala)",
                                "email_id":  null,
-                               "report_status":  "NOT SENT: Gmail requires a sign-in in this harness browser (no saved session); owner receives this progress in chat instead. Subject prepared: \"Trek Africa Guide image update ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â [Kampala date/time]\".",
+                               "report_status":  "NOT SENT: Gmail requires a sign-in in this harness browser (no saved session); owner receives this progress in chat instead. Subject prepared: \"Trek Africa Guide image update ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â [Kampala date/time]\".",
                                "live_verification":  {
                                                          "checked_at":  "2026-11-08 19:40 UTC (22:40 Africa/Kampala)",
                                                          "deployed_commit":  "a94a703",
@@ -1001,7 +1001,7 @@
                                                        "Conical_Tower_-_Great_Enclosure_V_(33736897638).jpg",
                                                        "Great-Zimbabwe-still-standing_strong.jpg",
                                                        "The_Great_Zimbabwe_Hill_Complex.jpg",
-                                                       "GroÃƒÆ’Ã…Â¸_Simbabwe,_HÃƒÆ’Ã‚Â¼gelsiedlung.JPG"
+                                                       "GroÃƒÆ’Ã†â€™Ãƒâ€¦Ã‚Â¸_Simbabwe,_HÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¼gelsiedlung.JPG"
                                                    ],
                                "next_action":  "Confirm the new gallery and its credits on production after the deploy build, then move ownership of this collection to completed_runs; follow with more re-opened blocked collections (e.g. Jollyboys Backpackers, golden-monkey subjects) under the new rights decision.",
                                "mandatory_input_check":  "Passed npm run check:build-inputs after node scripts/sync-photo-library.mjs; checked 2026-11-07.",
@@ -1101,7 +1101,7 @@
                                "started_at":  "2026-11-06 07:24 Africa/Kampala",
                                "initial_live_verification":  "Live inventory and full rendered guide reviewed. Gallery had one own image, the Sine-Saloum delta nesting-site photograph with CC BY-SA 4.0 credit; no missed inline images or extra defaults.",
                                "source_ledger":  "docs/editorial-research/2026-11-06-senegal-country-photo-enrichment.md",
-                               "note":  "Six exact-context Unsplash License photographs were visually reviewed and globally source/hash deduplicated: Dakar Renaissance Monument sunset, Dakar shoreline, Lac Rose salt boats, Saint-Louis pirogue harbor, GorÃƒÂ¢Ã¢â‚¬ÂÃ…â€œÃƒÂ¢Ã…â€™Ã‚Âe harbor building and GorÃƒÂ¢Ã¢â‚¬ÂÃ…â€œÃƒÂ¢Ã…â€™Ã‚Âe Fort from the water. Existing credited Sine-Saloum delta photo and credit unchanged. No guide copy or protected feature changed.",
+                               "note":  "Six exact-context Unsplash License photographs were visually reviewed and globally source/hash deduplicated: Dakar Renaissance Monument sunset, Dakar shoreline, Lac Rose salt boats, Saint-Louis pirogue harbor, GorÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã‚ÂÃƒâ€¦Ã¢â‚¬Å“ÃƒÆ’Ã‚Â¢Ãƒâ€¦Ã¢â‚¬â„¢Ãƒâ€šÃ‚Âe harbor building and GorÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã‚ÂÃƒâ€¦Ã¢â‚¬Å“ÃƒÆ’Ã‚Â¢Ãƒâ€¦Ã¢â‚¬â„¢Ãƒâ€šÃ‚Âe Fort from the water. Existing credited Sine-Saloum delta photo and credit unchanged. No guide copy or protected feature changed.",
                                "files":  [
                                              "src/lib/photo-library.js",
                                              "public/photo-library.js",
@@ -1825,7 +1825,7 @@
                                "note":  "Selected six location-specific images after checking the full guide mapping. All six source pages, creators, licence terms and capture dates were verified and the source previews visually inspected. Global source-page and SHA-256 deduplication against library records, other public images and the six new files passed. Replaced the generic Cape Town stock image. The City Hall candidate was excluded because its source page was already used in the Cape Town base insight. No guide prose, layout, relationships, tracking, redirects or canonicals changed.",
                                "next_action":  "Rotate to another published attraction, activity, or destination with a weak or missing image gallery; inspect current assignments and ledgers first.",
                                "commit":  "73f18d9",
-                               "live_verification":  "2026-10-23 21:45 Africa/Kampala: production attraction page HTTP 200 contains all six expected image filenames. Each plain asset URL returns HTTP 200 image/jpeg: Castle of Good Hope 243051 B; Cape Point 437953 B; Signal Hill 440950 B; Bo-Kaap 263305 B; Kirstenbosch 547395 B; LionÃƒÅ½Ã¢â‚¬Å“ÃƒÆ’Ã¢â‚¬Â¡ÃƒÆ’Ã¢â‚¬â€œs Head 199580 B.",
+                               "live_verification":  "2026-10-23 21:45 Africa/Kampala: production attraction page HTTP 200 contains all six expected image filenames. Each plain asset URL returns HTTP 200 image/jpeg: Castle of Good Hope 243051 B; Cape Point 437953 B; Signal Hill 440950 B; Bo-Kaap 263305 B; Kirstenbosch 547395 B; LionÃƒÆ’Ã…Â½ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“s Head 199580 B.",
                                "email_id":  "1a16a14cace3ebcd",
                                "report_sent_at":  "2026-10-23 21:45 Africa/Kampala"
                            },
@@ -2061,7 +2061,7 @@
                                              "docs/editorial-research/2026-10-20-sine-saloum-photo-enrichment.md",
                                              "docs/image-enrichment-progress.json"
                                          ],
-                               "live_verification":  "2026-10-20 10:28 Africa/Kampala: production attraction detail HTTP 200, includes all six expected image paths and ÃƒÅ½Ã¢â‚¬Å“ÃƒÆ’Ã¢â‚¬Â¡Ãƒâ€šÃ‚Â£See all 6ÃƒÅ½Ã¢â‚¬Å“ÃƒÆ’Ã¢â‚¬Â¡Ãƒâ€šÃ‚Â¥; all six assets return HTTP 200 image/jpeg.",
+                               "live_verification":  "2026-10-20 10:28 Africa/Kampala: production attraction detail HTTP 200, includes all six expected image paths and ÃƒÆ’Ã…Â½ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â£See all 6ÃƒÆ’Ã…Â½ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¥; all six assets return HTTP 200 image/jpeg.",
                                "next_action":  "Rotate to the next published attraction with an image gap; continue checking source uniqueness across every detail collection.",
                                "note":  "Replaced the previously shared stock hero because it is also assigned to the Senegal country detail. Six new distinct licensed exact-delta photos are used in this attraction detail gallery.",
                                "commit":  "9d2e5d5",
@@ -2106,7 +2106,7 @@
                                              "docs/editorial-research/2026-10-20-victoria-falls-rafting-photo-enrichment.md",
                                              "docs/image-enrichment-progress.json"
                                          ],
-                               "live_verification":  "2026-10-20 Africa/Kampala: production activity page HTTP 200 and markup displays ÃƒÅ½Ã¢â‚¬Å“ÃƒÆ’Ã¢â‚¬Â¡Ãƒâ€šÃ‚Â£See all 6ÃƒÅ½Ã¢â‚¬Å“ÃƒÆ’Ã¢â‚¬Â¡Ãƒâ€šÃ‚Â¥; all six distinct image asset URLs returned HTTP 200 with image/jpeg.",
+                               "live_verification":  "2026-10-20 Africa/Kampala: production activity page HTTP 200 and markup displays ÃƒÆ’Ã…Â½ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â£See all 6ÃƒÆ’Ã…Â½ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¥; all six distinct image asset URLs returned HTTP 200 with image/jpeg.",
                                "next_action":  "Rotate to another published zero-photo activity or attraction; retain blocked property-rights follow-ups unless new licensed exact-property evidence appears.",
                                "note":  "Six visually inspected Creative Commons images depict Zambezi rafting near Victoria Falls or the Batoka Gorge river. No operator, named participant, or tour-participant claim is attached. Duplicates were checked by source URL and SHA-256 against the photo library.",
                                "email_id":  "1a1590d5a34f4b6c",
@@ -2231,7 +2231,7 @@
                                              "docs/editorial-research/2026-10-22-victoria-falls-first-visit-photo-enrichment.md",
                                              "docs/image-enrichment-progress.json"
                                          ],
-                               "note":  "Six visually inspected, distinct Creative Commons photographs support the articleÃƒÅ½Ã¢â‚¬Å“ÃƒÆ’Ã¢â‚¬Â¡ÃƒÆ’Ã¢â‚¬â€œs Zimbabwe/Zambia falls viewpoints, rainforest, Knife Edge, Victoria Falls Bridge and upstream Zambezi context. Original source pages, creators, licence versions, capture dates, evidence, review date, alt text, captions, restrictions and SHA-256 hashes are recorded in the source ledger and photo library. No duplicates against other library assignments; no article prose changes.",
+                               "note":  "Six visually inspected, distinct Creative Commons photographs support the articleÃƒÆ’Ã…Â½ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“s Zimbabwe/Zambia falls viewpoints, rainforest, Knife Edge, Victoria Falls Bridge and upstream Zambezi context. Original source pages, creators, licence versions, capture dates, evidence, review date, alt text, captions, restrictions and SHA-256 hashes are recorded in the source ledger and photo library. No duplicates against other library assignments; no article prose changes.",
                                "next_action":  "Rotate to another published activity, attraction or destination with a verified image gap; inspect current image assignments before selection.",
                                "commit":  "261545f",
                                "live_verification":  "2026-10-22 08:29 Africa/Kampala: production travel insight HTTP 200 contains all six expected image filenames; all six plain JPEG URLs return HTTP 200 image/jpeg.",
@@ -2256,7 +2256,7 @@
                                              "docs/editorial-research/2026-10-22-stone-town-walking-tour-photo-enrichment.md",
                                              "docs/image-enrichment-progress.json"
                                          ],
-                               "note":  "Six distinct Commons photographs illustrate Stone TownÃƒÅ½Ã¢â‚¬Å“ÃƒÆ’Ã¢â‚¬Â¡ÃƒÆ’Ã¢â‚¬â€œs Darajani market, an archival alley scene and historic architecture. Captions state capture dates and avoid asserting the chosen tour visits a pictured landmark; the House of Wonders is explicitly dated to its 2021 exterior renovation. Creator, licence version, source evidence, dates, alt text, restrictions and SHA-256 are documented in the dated ledger and photo library. No URL/hash duplicate across other library assignments; no factual activity copy changed.",
+                               "note":  "Six distinct Commons photographs illustrate Stone TownÃƒÆ’Ã…Â½ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“s Darajani market, an archival alley scene and historic architecture. Captions state capture dates and avoid asserting the chosen tour visits a pictured landmark; the House of Wonders is explicitly dated to its 2021 exterior renovation. Creator, licence version, source evidence, dates, alt text, restrictions and SHA-256 are documented in the dated ledger and photo library. No URL/hash duplicate across other library assignments; no factual activity copy changed.",
                                "next_action":  "Rotate to another published activity or attraction with an evidenced photo gap; review the full page and deduplicate source URL and image hash against all detail collections.",
                                "commit":  "6a7a090",
                                "live_verification":  "2026-10-22 10:36 Africa/Kampala: production activity page HTTP 200; all six expected image filenames present and gallery shows See all 6. All six plain JPEG URLs return HTTP 200 image/jpeg.",
@@ -2922,7 +2922,7 @@
                                              "docs/image-enrichment-progress.json"
                                          ],
                                "started_at":  "2026-10-27 15:11 Africa/Kampala",
-                               "initial_live_verification":  "Production activity detail returned HTTP 200 and displayed See all 2 images. Two existing gallery assignments/defaults are the activityÃƒÅ½Ã¢â‚¬Å“ÃƒÆ’Ã¢â‚¬Â¡ÃƒÆ’Ã¢â‚¬â€œs collection; logo and related-card images are separate page elements. Existing hero and assigned photos remain unchanged.",
+                               "initial_live_verification":  "Production activity detail returned HTTP 200 and displayed See all 2 images. Two existing gallery assignments/defaults are the activityÃƒÆ’Ã…Â½ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“s collection; logo and related-card images are separate page elements. Existing hero and assigned photos remain unchanged.",
                                "note":  "Added four visually reviewed, exact-Maasai-Mara balloon photographs under Pexels and Unsplash licenses that do not require public attribution. Subjects vary across aerial sunrise view, balloon over plains, an aerial balloon/wildebeest scene and a dawn lift. Full guide reviewed; no copy or protected site behavior changed. Source URLs, creators, license evidence/version, page and capture dates where stated, exact-location evidence, alt text and SHA-256 are recorded internally. Global source URL and SHA-256 dedup against the library and all local public image files found no matches. Gallery total is six.",
                                "next_action":  "Rotate to one genuinely underfilled guide with exact-subject, no-public-attribution photos; count rendered gallery defaults and all inline images before selecting.",
                                "published_commit":  "899c4c2390316ba105c45eb33a51eb21a2c3e979",
@@ -3087,7 +3087,7 @@
                                "checked_date":  "2026-10-30",
                                "started_at":  "2026-10-30 10:56 Africa/Kampala",
                                "initial_live_verification":  "Production activity returned HTTP 200 and displayed See all 5 images: two existing defaults and three earlier Atlas activity photographs. Twelve total img tags include gallery/modal repeats, logo and linked-card imagery; there are no additional inline guide photographs.",
-                               "note":  "One bounded exact OukaÃƒÂ¢Ã¢â‚¬ÂÃ…â€œÃƒâ€šÃ‚Â»meden search returned the already-used image. A new Pexels regional field/village photograph was visually inspected and excluded because its source only established Morocco/Atlas context, not a named route stop, and the preview did not visibly show the range. No image or site-content changes made. The prior five-image partial remains accurately counted.",
+                               "note":  "One bounded exact OukaÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã‚ÂÃƒâ€¦Ã¢â‚¬Å“ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â»meden search returned the already-used image. A new Pexels regional field/village photograph was visually inspected and excluded because its source only established Morocco/Atlas context, not a named route stop, and the preview did not visibly show the range. No image or site-content changes made. The prior five-image partial remains accurately counted.",
                                "source_ledger":  "docs/editorial-research/2026-10-30-atlas-mountains-day-trip-photo-checkpoint.md",
                                "files":  [
                                              "docs/editorial-research/2026-10-30-atlas-mountains-day-trip-photo-checkpoint.md",
@@ -3436,7 +3436,7 @@
                                "started_at":  "2026-11-06 12:16 UTC (15:16 Africa/Kampala)",
                                "initial_live_verification":  "Production page returned HTTP 200 and displayed the existing six-image collection before editing. Full page reviewed; the new photo illustrates the early regional road context described in Day 1.",
                                "source_ledger":  "docs/editorial-research/2026-11-06-kibale-dawn-image-enrichment.md",
-                               "note":  "Added one visually inspected Unsplash License photo with exact Kibale-area Fort PortalÃƒÅ½Ã¢â‚¬Å“ÃƒÆ’Ã¢â‚¬Â¡ÃƒÆ’Ã‚Â´Kamwenge road context and no public-attribution requirement. The page now contains a seventh inline figure, with a caption that does not imply a trek departure time or current conditions. Global source-page and SHA-256 dedup found no existing assignment or public-file match. A duplicate Mpanga Market photo was excluded because it already appears in the separate Fort Portal guide. Existing required credits and all factual copy/protected features remain unchanged.",
+                               "note":  "Added one visually inspected Unsplash License photo with exact Kibale-area Fort PortalÃƒÆ’Ã…Â½ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â´Kamwenge road context and no public-attribution requirement. The page now contains a seventh inline figure, with a caption that does not imply a trek departure time or current conditions. Global source-page and SHA-256 dedup found no existing assignment or public-file match. A duplicate Mpanga Market photo was excluded because it already appears in the separate Fort Portal guide. Existing required credits and all factual copy/protected features remain unchanged.",
                                "files":  [
                                              "content/editorial-overrides.json",
                                              "src/lib/photo-library.js",
@@ -3462,7 +3462,7 @@
                                                          "new_asset_http_status":  200,
                                                          "new_asset_content_type":  "image/jpeg",
                                                          "new_asset_content_length":  171826,
-                                                         "note":  "Production insight HTML contains seven Kibale collection image paths including the new dawn file; no gallery ÃƒÅ½Ã¢â‚¬Å“ÃƒÆ’Ã¢â‚¬Â¡Ãƒâ€šÃ‚Â£See allÃƒÅ½Ã¢â‚¬Å“ÃƒÆ’Ã¢â‚¬Â¡Ãƒâ€šÃ‚Â¥ control is used for this inline travel insight."
+                                                         "note":  "Production insight HTML contains seven Kibale collection image paths including the new dawn file; no gallery ÃƒÆ’Ã…Â½ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â£See allÃƒÆ’Ã…Â½ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¥ control is used for this inline travel insight."
                                                      },
                                "email_id":  "1a1b0dbbe1d1bec0",
                                "report_sent_at":  "2026-11-06 15:34 Africa/Kampala"
@@ -3479,7 +3479,7 @@
                                "started_at":  "2026-11-06 17:19 UTC (20:19 Africa/Kampala)",
                                "initial_live_verification":  "Production activity page returned HTTP 200 and was reviewed in full. Its own gallery was empty; the single live image was a related mountain-gorilla card and excluded from this page count.",
                                "source_ledger":  "docs/editorial-research/2026-11-06-volcanoes-golden-monkey-photo-enrichment.md",
-                               "note":  "Added one visually reviewed Commons CC0 1.0 Mount Sabyinyo/Volcanoes National Park setting image. It is directly relevant to the guideÃƒÅ½Ã¢â‚¬Å“ÃƒÆ’Ã¢â‚¬Â¡ÃƒÆ’Ã¢â‚¬â€œs named Sabyinyo bamboo-zone group, but shows neither monkeys nor a trek. The golden-monkey photo requiring CC BY-SA and generic Rwanda portraits without exact park evidence were excluded. Full public-image SHA-256 and photo-library source URL checks found no duplicates. Kinigi, bamboo-route, monkey and trek-participation subjects remain specific documented gaps. Existing credits and all page copy remain unchanged.",
+                               "note":  "Added one visually reviewed Commons CC0 1.0 Mount Sabyinyo/Volcanoes National Park setting image. It is directly relevant to the guideÃƒÆ’Ã…Â½ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“s named Sabyinyo bamboo-zone group, but shows neither monkeys nor a trek. The golden-monkey photo requiring CC BY-SA and generic Rwanda portraits without exact park evidence were excluded. Full public-image SHA-256 and photo-library source URL checks found no duplicates. Kinigi, bamboo-route, monkey and trek-participation subjects remain specific documented gaps. Existing credits and all page copy remain unchanged.",
                                "files":  [
                                              "src/lib/photo-library.js",
                                              "public/photo-library.js",
@@ -3612,7 +3612,7 @@
                                "started_at":  "2026-11-09 08:10 Africa/Kampala",
                                "initial_live_verification":  "Production accommodation page returned HTTP 200 and was reviewed in full: the published guide had no hero image and an empty gallery (detail-photo-gallery__empty neutral slot, zero dedicated photos).",
                                "source_ledger":  "docs/editorial-research/2026-11-09-governors-camp-enrichment.md",
-                               "note":  "Reopened from the rotation backlog (Governors\u0027 Camp had exactly one eligible Commons lead and no published photos). Added four visually inspected exact-main-camp photographs: (1) riverside lawn with set lunch tables under riverine trees (Ninara, Commons CC BY 2.0, 2022-09-29 Ã¢â‚¬â€ the sole file in the dedicated Commons \u0027Governors Camp\u0027 category, kept separate from the parked sibling categories \u0027Little Governors Camp (Masai Mara)\u0027 and \u0027Governors Il Moran Camp\u0027), used as hero; (2) \u0027Governors\u0027 Camp / Masai Mara / Kenya\u0027 inscribed welcome sign at Musiara airstrip (Stuart Price / Make It Kenya, Public Domain Mark 1.0 with requested credit rendered, 2015-09-30); (3) elephant drinking from a birdbath inside camp (Mara 1, Flickr CC BY 2.0, 2009-02-27); (4) sunrise silhouette of the fig tree on the Musiara marsh beside camp (Mara 1, Flickr CC BY 2.0, 2009-02-28) recorded property:false with an honest setting caption. Downloads stored locally at 1280px (Commons) / 1024px (Flickr large); source pages, licences, dates and SHA-256 recorded in the library and ledger; credit block renders creator + licence. Exclusions (all in ledger): 27-file Ninara set categorised Little Governors Camp (sibling property), Il Moran Camp files incl. flowcomm Flickr pair (sibling property), Make It Kenya Governor\u0027s Balloon Safari launch series naming Little Governor\u0027s Camp as the launch site, and the Governors\u0027 Camp Collection official/press photography (governorscamp.com, Audley, safari.com, Safari Bookings et al. Ã¢â‚¬â€ owner copyright, no reuse permission). Openverse exact-name pool reviewed to page 2; Pexels/Unsplash exact-name checks return none.",
+                               "note":  "Reopened from the rotation backlog (Governors\u0027 Camp had exactly one eligible Commons lead and no published photos). Added four visually inspected exact-main-camp photographs: (1) riverside lawn with set lunch tables under riverine trees (Ninara, Commons CC BY 2.0, 2022-09-29 ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â the sole file in the dedicated Commons \u0027Governors Camp\u0027 category, kept separate from the parked sibling categories \u0027Little Governors Camp (Masai Mara)\u0027 and \u0027Governors Il Moran Camp\u0027), used as hero; (2) \u0027Governors\u0027 Camp / Masai Mara / Kenya\u0027 inscribed welcome sign at Musiara airstrip (Stuart Price / Make It Kenya, Public Domain Mark 1.0 with requested credit rendered, 2015-09-30); (3) elephant drinking from a birdbath inside camp (Mara 1, Flickr CC BY 2.0, 2009-02-27); (4) sunrise silhouette of the fig tree on the Musiara marsh beside camp (Mara 1, Flickr CC BY 2.0, 2009-02-28) recorded property:false with an honest setting caption. Downloads stored locally at 1280px (Commons) / 1024px (Flickr large); source pages, licences, dates and SHA-256 recorded in the library and ledger; credit block renders creator + licence. Exclusions (all in ledger): 27-file Ninara set categorised Little Governors Camp (sibling property), Il Moran Camp files incl. flowcomm Flickr pair (sibling property), Make It Kenya Governor\u0027s Balloon Safari launch series naming Little Governor\u0027s Camp as the launch site, and the Governors\u0027 Camp Collection official/press photography (governorscamp.com, Audley, safari.com, Safari Bookings et al. ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â owner copyright, no reuse permission). Openverse exact-name pool reviewed to page 2; Pexels/Unsplash exact-name checks return none.",
                                "files":  [
                                              "src/lib/photo-library.js",
                                              "public/photo-library.js",
@@ -3626,12 +3626,12 @@
                                                        "governors-elephant-birdbath-2009.jpg",
                                                        "governors-fig-tree-marsh-sunrise-2009.jpg"
                                                    ],
-                               "excluded_candidates_note":  "Ninara Little Governors set (27 files), Il Moran Camp files (Commons + flowcomm Flickr), Governor\u0027s Balloon Safari launch series, and the Governors\u0027 Camp Collection official gallery photography excluded Ã¢â‚¬â€ sibling property / balloon activity naming Little Governor\u0027s Camp / owner copyright without reuse permission.",
+                               "excluded_candidates_note":  "Ninara Little Governors set (27 files), Il Moran Camp files (Commons + flowcomm Flickr), Governor\u0027s Balloon Safari launch series, and the Governors\u0027 Camp Collection official gallery photography excluded ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â sibling property / balloon activity naming Little Governor\u0027s Camp / owner copyright without reuse permission.",
                                "mandatory_input_check":  "Passed node scripts/sync-photo-library.mjs and npm run check:build-inputs; checked 2026-11-09.",
                                "published_commit":  "2bbdc87 (merged as 823736e with concurrent editorial-automation work f6b7ad3; untouched)",
                                "pushed_at":  "2026-11-09 09:15 UTC (12:15 Africa/Kampala)",
                                "email_id":  null,
-                               "report_status":  "NOT SENT: Gmail requires a sign-in in this harness browser (same limitation as prior runs); owner receives this progress in chat. Subject prepared: \"Trek Africa Guide image update Ã¢â‚¬â€ [Kampala date/time]\".",
+                               "report_status":  "NOT SENT: Gmail requires a sign-in in this harness browser (same limitation as prior runs); owner receives this progress in chat. Subject prepared: \"Trek Africa Guide image update ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â [Kampala date/time]\".",
                                "live_verification":  {
                                                          "checked_at":  "2026-11-09 09:20 UTC (12:20 Africa/Kampala)",
                                                          "page_http_status":  200,
@@ -3658,7 +3658,7 @@
                                                                                    ],
                                                          "note":  "Production serves the four-image Governors Camp gallery; all four asset URLs return HTTP 200 image/jpeg with byte counts matching the locally stored originals."
                                                      },
-                               "next_action":  "Governors\u0027 Camp remains open toward the 10Ã¢â‚¬â€œ15 accommodation target only for newly surfaced exact-main-camp leads (verified missing subjects in the ledger: main tent exterior, tent interior, dining/mess tent, bar, river-bank paths, further in-camp wildlife). Next runs: re-run the featured-image audit on any newly published page, then continue the rotation backlog (Mfuwe Lodge CC0/CC-BY-SA deepening; reopened missing-subject pages golden-monkey and Jollyboys interiors). The small-4 partial is honest and live."
+                               "next_action":  "Governors\u0027 Camp remains open toward the 10ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“15 accommodation target only for newly surfaced exact-main-camp leads (verified missing subjects in the ledger: main tent exterior, tent interior, dining/mess tent, bar, river-bank paths, further in-camp wildlife). Next runs: re-run the featured-image audit on any newly published page, then continue the rotation backlog (Mfuwe Lodge CC0/CC-BY-SA deepening; reopened missing-subject pages golden-monkey and Jollyboys interiors). The small-4 partial is honest and live."
                            },
                            {
                                "id":  "hilton-cabo-verde-sal-resort-exact-property-no-eligible-photo-review-2026-11-10",
@@ -3726,7 +3726,7 @@
                                "published_commit":  "e4f4b7f",
                                "pushed_at":  "2026-11-10 14:34 UTC (17:34 Africa/Kampala)",
                                "email_id":  null,
-                               "report_status":  "NOT SENT: no Gmail send tool/account is available in this harness (standing limitation). Owner report recorded in this checkpoint instead. Subject prepared: \u0027Trek Africa Guide image update â€” 2026-11-10 (Kampala time)\u0027",
+                               "report_status":  "NOT SENT: no Gmail send tool/account is available in this harness (standing limitation). Owner report recorded in this checkpoint instead. Subject prepared: \u0027Trek Africa Guide image update Ã¢â‚¬â€ 2026-11-10 (Kampala time)\u0027",
                                "live_verification":  {
                                                          "checked_at":  "2026-11-10 14:34 UTC (17:34 Africa/Kampala)",
                                                          "page_http_status":  200,
@@ -3861,9 +3861,9 @@
                                "published_commit":  "8bd8273",
                                "pushed_at":  "2026-11-10 19:45 UTC (22:45 Africa/Kampala)",
                                "email_id":  null,
-                               "report_status":  "NOT SENT: no Gmail send tool/account available in this harness; owner receives this progress in chat. Subject prepared: Trek Africa Guide image update â€” 2026-11-10 (Kampala time).",
+                               "report_status":  "NOT SENT: no Gmail send tool/account available in this harness; owner receives this progress in chat. Subject prepared: Trek Africa Guide image update Ã¢â‚¬â€ 2026-11-10 (Kampala time).",
                                "live_verification":  {
-                                                         "checked_at":  "2026-11-10 20:15 Africa/Kampala â€” page updated ~30 min after push",
+                                                         "checked_at":  "2026-11-10 20:15 Africa/Kampala Ã¢â‚¬â€ page updated ~30 min after push",
                                                          "page_http_status":  200,
                                                          "see_all_text":  "See all 10 images",
                                                          "hero_og_image":  "/images/stock/destinations/volcanoes-national-park.jpg",
@@ -3949,7 +3949,7 @@
                                "published_commit":  "4e057bc",
                                "pushed_at":  "2026-11-11 09:1x UTC (12:1x Africa/Kampala)",
                                "email_id":  null,
-                               "report_status":  "NOT SENT: no Gmail send tool/account available in this harness (standing limitation); owner receives this progress in chat. Subject prepared: \u0027Trek Africa Guide image update â€” 2026-11-11 (Kampala time)\u0027.",
+                               "report_status":  "NOT SENT: no Gmail send tool/account available in this harness (standing limitation); owner receives this progress in chat. Subject prepared: \u0027Trek Africa Guide image update Ã¢â‚¬â€ 2026-11-11 (Kampala time)\u0027.",
                                "live_verification":  {
                                                          "checked_at":  "2026-11-11 09:2x UTC (12:2x Africa/Kampala)",
                                                          "page_http_status":  200,
@@ -4061,7 +4061,7 @@
                                "id":  "sossusvlei-lodge-pushed-live-pending-2026-11-11",
                                "scheduled_at":  "2026-11-11 ~05:5x UTC (08:5x Africa/Kampala)",
                                "status":  "published_live_confirmed_partial",
-                               "planned_target":  "Sossusvlei Lodge accommodation page (https://trekafricaguide.com/accommodations/sossusvlei-lodge/) â€” gallery extended 2 -\u003e 3 dedicated photos: added Frans-Banja Mulder CC BY 3.0 \u0027View from Sossusvlei Lodge in Sesriem\u0027 (Wikimedia Commons File:View from Sossusvlei Lodge - panoramio.jpg, curid 46694630, captured 2006-09-19, original 876x584 JPEG, local sha256 64af6db17f56218e15d66921e2f6615d00567c4f6b3b2b3e1eba752bc2dd436c). Commit 2d31df3 pushed to Shakesdigital/trekafricaguide main; production /photo-library.js confirmed carrying the new entry, but page HTML still renders \u0027See all 2 images\u0027 after ~20 minutes â€” the Netlify production build (npm ci \u0026\u0026 npm run build) has not shipped the new gallery HTML.",
+                               "planned_target":  "Sossusvlei Lodge accommodation page (https://trekafricaguide.com/accommodations/sossusvlei-lodge/) Ã¢â‚¬â€ gallery extended 2 -\u003e 3 dedicated photos: added Frans-Banja Mulder CC BY 3.0 \u0027View from Sossusvlei Lodge in Sesriem\u0027 (Wikimedia Commons File:View from Sossusvlei Lodge - panoramio.jpg, curid 46694630, captured 2006-09-19, original 876x584 JPEG, local sha256 64af6db17f56218e15d66921e2f6615d00567c4f6b3b2b3e1eba752bc2dd436c). Commit 2d31df3 pushed to Shakesdigital/trekafricaguide main; production /photo-library.js confirmed carrying the new entry, but page HTML still renders \u0027See all 2 images\u0027 after ~20 minutes Ã¢â‚¬â€ the Netlify production build (npm ci \u0026\u0026 npm run build) has not shipped the new gallery HTML.",
                                "note":  "This run re-polled production from 07:08-07:25 UTC (10:08-10:25 Africa/Kampala, 15 attempts) on 2026-11-11, and again at 03:08 UTC (06:08 Africa/Kampala) on 2026-11-12: page still renders \u0027See all 2 images\u0027; the new asset sossusvlei-lodge-view-from-lodge-2006.jpg is absent from page HTML. All three gallery asset URLs verified HTTP 200 image/jpeg - starter sossusvlei-lodge.jpg, property-patio-2010.jpg, and the pushed 2006 view (Content-Length 620510 bytes matches local file exactly) - so the image file itself is live, but the production page HTML/gallery has not shipped the pushed entry after ~21+ hours since commit 2d31df3. Blocker persists (stale/not-shipped production gallery HTML, not a rights or asset problem); not claimed as published. No Gmail send tool in harness; owner email not attempted (email only when a collection is live-confirmed). Per protocol (~15 min guideline), this blocker is now recorded as persistent; the run remains in blocked_runs pending resolution. Resolved 2026-11-12: editorial-overrides.json explicitly listed only two images and overrode the three-image photo library. Commit 437dcf9 added the verified third path to the page override; Netlify production deploy 6af5cbaf92ac4e8216e7aed9 is ready.",
                                "next_action":  "Continue low-photo page rotation; Sossusvlei Lodge needs seven more exact-property licensed photos to reach the accommodation target.",
                                "files":  [
@@ -4161,7 +4161,7 @@
                                                                                  ]
                                                      },
                                "report_status":  "SENT to fsddanmugisa@gmail.com after live confirmation; Gmail message 1a1d0518ce9b50d4.",
-                               "next_action":  "Continue low-photo rotation; Kasane still needs airport, boat cruise, Kazungula Bridge and Savuti/Linyanti subjects toward 7â€“12 destination target."
+                               "next_action":  "Continue low-photo rotation; Kasane still needs airport, boat cruise, Kazungula Bridge and Savuti/Linyanti subjects toward 7Ã¢â‚¬â€œ12 destination target."
                            },
                            {
                                "id":  "tokeh-river-number-two-destination-2026-11-12-2307",
@@ -4190,6 +4190,24 @@
                                                      },
                                "report_status":  "SENT to fsddanmugisa@gmail.com after live confirmation; Gmail message 1a1d163d0ab03a6b.",
                                "next_action":  "Find five more exact-location licensed photos for Tokeh or rotate to another zero-image article."
+                           },
+                           {
+                               "id":  "hilton-cabo-verde-sal-resort-rights-review-2026-11-13-0007",
+                               "status":  "reviewed_no_eligible_photo",
+                               "page_url":  "https://trekafricaguide.com/accommodations/hilton-cabo-verde-sal-resort/",
+                               "page_type":  "accommodation",
+                               "started_at":  "2026-11-13 00:07 Africa/Kampala",
+                               "completed_at":  "2026-11-13 00:09 Africa/Kampala",
+                               "previous_photo_count":  0,
+                               "photo_count":  0,
+                               "new_photo_count":  0,
+                               "source_ledger":  "docs/editorial-research/2026-11-13-hilton-cabo-verde-sal-resort-photo-review.md",
+                               "note":  "Live page HTTP 200 and no dedicated gallery. Exact-property Wikimedia Commons file search returned no results. Focused web searches surfaced hotel listings and nearby Sal scenery, but no reusable exact-property photograph with verified licence. No image assigned.",
+                               "selected_images":  [
+
+                                                   ],
+                               "report_status":  "NOT SENT: no collection published.",
+                               "next_action":  "Rotate to another zero-photo published article; seek owner originals or licensed exact-property Hilton Cabo Verde photos."
                            }
                        ],
     "review_checkpoints":  [
@@ -4219,8 +4237,8 @@
                             }
                         ],
     "updated":  1,
-    "last_run_at":  "2026-11-11 12:18 UTC (15:18 Africa/Kampala) â€” Sal Island attraction gallery extended 5 -\u003e 9 photos (4 new CC BY-SA 3.0 from Wikimedia Commons); commit 3240f05 pushed to origin/main; production page renders \"See all 9 images\", all 9 asset URLs HTTP 200 image/jpeg",
-    "next_action":  "Continue zero-photo article rotation across attractions, activities, accommodations and travel insights; Tokeh destination needs five more distinct licensed exact-location subjects.",
+    "last_run_at":  "2026-11-11 12:18 UTC (15:18 Africa/Kampala) Ã¢â‚¬â€ Sal Island attraction gallery extended 5 -\u003e 9 photos (4 new CC BY-SA 3.0 from Wikimedia Commons); commit 3240f05 pushed to origin/main; production page renders \"See all 9 images\", all 9 asset URLs HTTP 200 image/jpeg",
+    "next_action":  "Rotate to another zero-photo published article; seek owner originals or licensed exact-property Hilton Cabo Verde photos.",
     "current_run":  {
                         "id":  "volcanoes-golden-monkey-six-photo-gap-fill-third-pass-2026-11-11",
                         "page_url":  "https://trekafricaguide.com/activities/volcanoes-golden-monkey-trekking/",
@@ -4300,7 +4318,7 @@
                           "started_at":  "2026-11-12 03:07 UTC (06:07 Africa/Kampala)",
                           "initial_live_verification":  "Production accommodation page HTTP 200, read in full: 1 dedicated photo (beach beside resort); gallery renders \u0027See all 1 image\u0027.",
                           "source_ledger":  "docs/editorial-research/2026-11-12-casa-del-papa-exact-property-photo-review.md",
-                          "note":  "Bounded exact-name review across all six source families found the rights-clean pool empty beyond the one existing photo. Wikimedia Commons: 0 hits for \u0027Casa del Papa Benin\u0027; broader searches return only false PDF matches. Flickr CC: 5 results, all generic West African scenery (Ghana, Nigeria, Philippines, Venezuela, Cotonou figurines) â€” none name or tie to the property; scenery-as-property excluded. Openverse: unreachable (Cloudflare). Pexels: keyword-expanded Ouidah/Benin scenery only (\u0027bungalows on water in Ouidah\u0027, \u0027circular hut\u0027, \u0027ceremonial figurines in Cotonou\u0027) â€” none specifically depict Casa del Papa; scenery-as-property excluded. Unsplash: 0 photos. Pixabay/StockSnap: 0 results. Operator/OTA imagery: rights-reserved, excluded. The one existing beach photo remains; no new image downloaded or assigned.",
+                          "note":  "Bounded exact-name review across all six source families found the rights-clean pool empty beyond the one existing photo. Wikimedia Commons: 0 hits for \u0027Casa del Papa Benin\u0027; broader searches return only false PDF matches. Flickr CC: 5 results, all generic West African scenery (Ghana, Nigeria, Philippines, Venezuela, Cotonou figurines) Ã¢â‚¬â€ none name or tie to the property; scenery-as-property excluded. Openverse: unreachable (Cloudflare). Pexels: keyword-expanded Ouidah/Benin scenery only (\u0027bungalows on water in Ouidah\u0027, \u0027circular hut\u0027, \u0027ceremonial figurines in Cotonou\u0027) Ã¢â‚¬â€ none specifically depict Casa del Papa; scenery-as-property excluded. Unsplash: 0 photos. Pixabay/StockSnap: 0 results. Operator/OTA imagery: rights-reserved, excluded. The one existing beach photo remains; no new image downloaded or assigned.",
                           "files":  [
                                         "docs/editorial-research/2026-11-12-casa-del-papa-exact-property-photo-review.md",
                                         "docs/image-enrichment-progress.json"
