@@ -1,5 +1,5 @@
 {
-    "updated_at":  "2026-11-13 03:12 Africa/Kampala",
+    "updated_at":  "2026-11-13 04:10 Africa/Kampala",
     "blocked_runs":  [
                          {
                              "id":  "network-outage-no-research-2026-11-09-1807",
@@ -48,6 +48,22 @@
                                "resolved_at":  "2026-10-21 13:16 Africa/Kampala"
                            },
     "completed_runs":  [
+                           {
+                               "id": "masvingo-dusk-gallery-1-to-2-2026-11-13-0407",
+                               "page_url": "https://trekafricaguide.com/countries/zimbabwe/masvingo/",
+                               "page_type": "destination",
+                               "status": "published_live_confirmed",
+                               "previous_photo_count": 1,
+                               "photo_count": 2,
+                               "new_photo_count": 1,
+                               "started_at": "2026-11-13 04:07 Africa/Kampala",
+                               "source_ledger": "docs/editorial-research/2026-11-13-masvingo-dusk-photo-enrichment.md",
+                               "published_commit": "a2ebc7e",
+                               "live_verification": "Production page renders the new Masvingo dusk gallery image; JPEG URL returned HTTP 200 image/jpeg at 04:10 Africa/Kampala.",
+                               "missing_subjects": ["civic centre", "library exterior", "residential streets", "Lake Mutirikwi approach", "another exact-city scene"],
+                               "report_status": "SENT to fsddanmugisa@gmail.com at 2026-11-13 04:10 Africa/Kampala",
+                               "email_id": "1a1d275211e07c29"
+                           },
                            {
                                "id": "masvingo-destination-gallery-0-to-1-2026-11-13-0307",
                                "page_url": "https://trekafricaguide.com/countries/zimbabwe/masvingo/",
@@ -4293,7 +4309,7 @@
                         ],
     "updated":  1,
     "last_run_at":  "2026-11-11 12:18 UTC (15:18 Africa/Kampala) Ã¢â‚¬â€ Sal Island attraction gallery extended 5 -\u003e 9 photos (4 new CC BY-SA 3.0 from Wikimedia Commons); commit 3240f05 pushed to origin/main; production page renders \"See all 9 images\", all 9 asset URLs HTTP 200 image/jpeg",
-    "next_action":  "Continue zero-photo page rotation across the five directories; Masvingo destination needs six more distinct exact-city subjects and Sal needs five more exact-island subjects.",
+    "next_action":  "Continue zero-photo page rotation across the five directories; Masvingo destination needs five more distinct exact-city subjects and Sal needs five more exact-island subjects.",
     "current_run":  {
                         "id":  "volcanoes-golden-monkey-six-photo-gap-fill-third-pass-2026-11-11",
                         "page_url":  "https://trekafricaguide.com/activities/volcanoes-golden-monkey-trekking/",
