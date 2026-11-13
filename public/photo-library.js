@@ -3,6 +3,27 @@
 export const photoLibrary = {
   "updated_at": "2026-11-13",
   "images": {
+    "/images/editorial/great-zimbabwe-monument/great-enclosure-2015-schertzer.jpg": {
+      "kind": "photograph", "slug": "great-enclosure-2015-schertzer", "local_path": "/images/editorial/great-zimbabwe-monument/great-enclosure-2015-schertzer.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Great_inclosure_-_Great_Zimbabwe_(15).jpg", "creator": "Fanny Schertzer",
+      "license": "CC BY 3.0", "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "captured_at": "2015", "sha256": "f199557603f8708d7c66f33e7238bb3218c9eda9eda10bb060ae0bb39bb38b04",
+      "exact_subject": true, "subject": "Dry-stone masonry at Great Zimbabwe National Monument",
+      "alt": "Close view of lichen-covered granite blocks in a dry-stone wall at Great Zimbabwe",
+      "caption": "Great Zimbabwe masonry (Fanny Schertzer, CC BY 3.0 via Wikimedia Commons).",
+      "property": false, "requires_attribution": true, "checked_at": "2026-11-13",
+      "changes": "Wikimedia Commons scaled JPEG; aspect ratio preserved.",
+      "exact_subject_evidence": "Commons file page identifies Great Zimbabwe; the image shows dry-stone masonry."
+    },
+    "/images/editorial/great-zimbabwe-monument/great-enclosure-path-illustration.png": {
+      "kind": "generated", "slug": "great-enclosure-path-illustration", "local_path": "/images/editorial/great-zimbabwe-monument/great-enclosure-path-illustration.png",
+      "subject": "Representative dry-stone wall and visitor path inspired by Great Zimbabwe",
+      "alt": "AI-generated illustration of a person walking beside an imagined dry-stone wall; not an actual photograph of Great Zimbabwe",
+      "creator": "ChatGPT for Trek Africa Guide", "date": "2026-11-13", "source_page": "/photo-credits", "license": "", "license_url": "",
+      "property": false, "exact_subject": false, "sha256": "383416fdca6a5dafbbf92f9207269f4132dd00cb26e2171a2de71078b80f2c43",
+      "generation_tool": "ChatGPT built-in image generator", "provenance": "Original representative composition; not documentary photography of an exact viewpoint."
+    },
+
     "/images/editorial/plan-first-ghana-trip/accra-independence-arch-sunset-2023.jpg": {"slug":"accra-independence-arch-sunset-2023","local_path":"/images/editorial/plan-first-ghana-trip/accra-independence-arch-sunset-2023.jpg","source_page":"https://commons.wikimedia.org/wiki/File:Independence_arch_at_sunset_2.jpg","creator":"Kwameghana (Bright Kwame Ayisi)","license":"CC0 1.0","license_url":"https://commons.wikimedia.org/wiki/File:Independence_arch_at_sunset_2.jpg","captured_at":"2023-10-08","sha256":"2bcd120cde76dc22c8ae5c1db2da83b00d6cf2bd873f2fec76a2defae68a5bf7","exact_subject":true,"subject":"Independence Arch and Black Star Square, Accra, at sunset","alt":"The Independence Arch in Accra photographed at sunset.","caption":"The Independence Arch at sunset (Kwameghana / Bright Kwame Ayisi, CC0 via Wikimedia Commons).","property":false,"kind":"photograph","requires_attribution":false,"changes":"Original Commons JPEG; no edits.","checked_at":"2026-11-13","exact_subject_evidence":"Commons file description identifies Independence Arch, Accra; public-domain (CC0) metadata and original file checked on 2026-11-13."},
     "/images/editorial/plan-first-ghana-trip/cape-coast-castle-2011.jpg": {"slug":"cape-coast-castle-2011","local_path":"/images/editorial/plan-first-ghana-trip/cape-coast-castle-2011.jpg","source_page":"https://commons.wikimedia.org/wiki/File:Cape_Coast_Castle,_Cape_Coast,_Ghana.JPG","creator":"Rjruiziii","license":"CC BY-SA 3.0","license_url":"https://creativecommons.org/licenses/by-sa/3.0/","captured_at":"2011-06-26","sha256":"4d62e2c223fb19154dee8d7d9523894aa0c9e2eb6950031b891dd4b3094141b4","exact_subject":true,"subject":"Cape Coast Castle exterior, Cape Coast, Central Region, Ghana","alt":"The white exterior walls of Cape Coast Castle seen from the sea side.","caption":"The sea-side walls of Cape Coast Castle (Rjruiziii, CC BY-SA 3.0 via Wikimedia Commons).","property":false,"kind":"photograph","requires_attribution":true,"changes":"Original Commons JPEG; no edits.","checked_at":"2026-11-13","exact_subject_evidence":"Commons file description identifies Cape Coast Castle, Ghana; CC BY-SA 3.0 metadata and original file checked on 2026-11-13."},
     "/images/editorial/plan-first-ghana-trip/kakum-canopy-walkway-2022.jpg": {"slug":"kakum-canopy-walkway-2022","local_path":"/images/editorial/plan-first-ghana-trip/kakum-canopy-walkway-2022.jpg","source_page":"https://commons.wikimedia.org/wiki/File:Canopy_walkway_in_Kakum_National_Park_2.jpg","creator":"daSupremo","license":"CC BY-SA 4.0","license_url":"https://creativecommons.org/licenses/by-sa/4.0/","captured_at":"2022-11-23","sha256":"b8d959aff2d4c99d61676735d769593a389c4d5a13a2eec05e9e2184b3d87330","exact_subject":true,"subject":"Kakum National Park canopy walkway above the rainforest, Central Region, Ghana","alt":"The suspended canopy walkway at Kakum National Park crossing above the rainforest.","caption":"The canopy walkway at Kakum National Park (daSupremo, CC BY-SA 4.0 via Wikimedia Commons).","property":false,"kind":"photograph","requires_attribution":true,"changes":"Original Commons JPEG; no edits.","checked_at":"2026-11-13","exact_subject_evidence":"Commons file description identifies the canopy walkway in Kakum National Park; CC BY-SA 4.0 metadata and original file checked on 2026-11-13."},
