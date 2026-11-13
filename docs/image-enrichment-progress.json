@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13 20:17 Africa/Kampala",
+  "updated_at": "2026-11-14 00:00 Africa/Kampala",
   "blocked_runs": [
     {
       "id": "network-outage-no-research-2026-11-09-1807",
@@ -49,6 +49,29 @@
   },
   "completed_runs": [
     {
+      "id": "ouidah-ganvie-place-context-2026-11-13-2107z",
+      "page_url": "https://trekafricaguide.com/attractions/ouidah-and-ganvie/",
+      "page_type": "attraction",
+      "status": "pending_deployment",
+      "started_at": "2026-11-13 21:07 UTC",
+      "previous_photo_count": 2,
+      "photo_count": 3,
+      "new_photo_count": 1,
+      "selected_images": [
+        "lakeshore-canoes-context.png"
+      ],
+      "source_ledger": "docs/editorial-research/2026-11-14-ouidah-ganvie-image-enrichment.md",
+      "mandatory_input_check": "Passed sync-photo-library and check:build-inputs; no test suite run.",
+      "missing_subjects": [
+        "Ouidah memorial",
+        "Ouidah historic architecture",
+        "sacred forest",
+        "Ganvié open-water setting"
+      ],
+      "report_status": "NOT SENT: awaiting live confirmation",
+      "next_action": "Rotate to another zero-to-two-image detail page; continue Ouidah and Ganvié toward 10–17 distinct images."
+    },
+    {
       "id": "sal-island-circuit-photo-and-context-2026-11-13-1707z",
       "page_url": "https://trekafricaguide.com/activities/sal-island-circuit-excursion/",
       "page_type": "activity",
@@ -57,10 +80,19 @@
       "previous_photo_count": 0,
       "photo_count": 2,
       "new_photo_count": 2,
-      "selected_images": ["pedra-lume-salt-fields-krisztian-tabori.jpg", "sal-island-guided-walk-context.png"],
+      "selected_images": [
+        "pedra-lume-salt-fields-krisztian-tabori.jpg",
+        "sal-island-guided-walk-context.png"
+      ],
       "source_ledger": "docs/editorial-research/2026-11-13-sal-island-circuit-image-enrichment.md",
       "mandatory_input_check": "Passed sync-photo-library and check:build-inputs; no test suite run.",
-      "missing_subjects": ["Santa Maria", "Murdeira Bay", "Palmeira", "Buracona", "additional Pedra de Lume views"],
+      "missing_subjects": [
+        "Santa Maria",
+        "Murdeira Bay",
+        "Palmeira",
+        "Buracona",
+        "additional Pedra de Lume views"
+      ],
       "published_commit": "05cfb7138e52c96875dc8bb81456689c667d0a2d",
       "netlify_deploy": "6af7457acbf653bf2fb77734",
       "live_verification": "Production page HTTP 200; See all 2 images; both filenames rendered; both new assets HTTP 200 with image/jpeg and image/png content types.",
@@ -79,12 +111,21 @@
       "photo_count": 5,
       "new_photo_count": 2,
       "source_ledger": "docs/editorial-research/2026-11-13-lalibela-image-enrichment-1307.md",
-      "selected_images": ["lalibela-church-worshipper-pexels-12344920.jpg", "ethiopian-injera-meal-context.png"],
+      "selected_images": [
+        "lalibela-church-worshipper-pexels-12344920.jpg",
+        "ethiopian-injera-meal-context.png"
+      ],
       "published_commit": "628930831dcdd76fd36e7fc1931dd100456d4deb",
       "netlify_deploy": "6af70dbd6724cdc46ad6d83d",
       "live_verification": "Production detail HTTP 200; See all 5 images; both filenames rendered; JPEG and PNG returned HTTP 200 with correct image content types.",
       "mandatory_input_check": "Passed sync-photo-library and check:build-inputs; no test suite run.",
-      "missing_subjects": ["Biete Mariam interior", "Lasta Tukuls", "Timkat pilgrims", "church trench system", "Biete Amanuel detail"],
+      "missing_subjects": [
+        "Biete Mariam interior",
+        "Lasta Tukuls",
+        "Timkat pilgrims",
+        "church trench system",
+        "Biete Amanuel detail"
+      ],
       "report_status": "SENT to fsddanmugisa@gmail.com after live confirmation",
       "email_id": "1a1d5101543ed893",
       "next_action": "Rotate to another low-image page; continue Lalibela toward 10-17 distinct images and replace its credited panorama only after a no-credit alternative is found."

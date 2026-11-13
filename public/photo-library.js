@@ -3,6 +3,13 @@
 export const photoLibrary = {
   "updated_at": "2026-11-13",
   "images": {
+    "/images/editorial/ouidah-and-ganvie/lakeshore-canoes-context.png": {
+      "kind": "generated", "slug": "lakeshore-canoes-context", "local_path": "/images/editorial/ouidah-and-ganvie/lakeshore-canoes-context.png",
+      "subject": "Representative southern Benin lakeshore context", "alt": "Empty wooden canoes beside reeds on a quiet tropical lakeshore",
+      "creator": "ChatGPT for Trek Africa Guide", "date": "2026-11-14", "source_page": "/photo-credits", "license": "", "license_url": "",
+      "property": false, "exact_subject": false, "sha256": "a1c808a15ec584386b31d7051ea0255d2b06d717358e80503d257cd4eeae971",
+      "generation_tool": "ChatGPT built-in image generator", "provenance": "Original illustrative lakeshore scene; not a documentary photograph of Ganvié, Lake Nokoué, or any exact site. No people depicted."
+    },
     "/images/editorial/sal-island-circuit-excursion/pedra-lume-salt-fields-krisztian-tabori.jpg": {
       "kind": "photograph", "slug": "pedra-lume-salt-fields-krisztian-tabori", "local_path": "/images/editorial/sal-island-circuit-excursion/pedra-lume-salt-fields-krisztian-tabori.jpg",
       "source_page": "https://unsplash.com/photos/salt-field-view-JjRZvgvwecU", "creator": "Krisztian Tabori", "license": "Unsplash License", "license_url": "https://unsplash.com/license", "source_published_at": "2018-12-19", "checked_at": "2026-11-13",
@@ -12110,7 +12117,8 @@ export const photoLibrary = {
         ],
         "gallery": [
           "/images/stock/destinations/ouidah-and-ganvie.jpg",
-          "/images/stock/starter/ouidah-and-ganvie.jpg"
+          "/images/stock/starter/ouidah-and-ganvie.jpg",
+      "/images/editorial/ouidah-and-ganvie/lakeshore-canoes-context.png"
         ]
       },
       "sahara-dunes": {
