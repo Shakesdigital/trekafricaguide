@@ -2151,5 +2151,44 @@
       "subject": "Trek Africa Guide: Tokeh and River Number Two destination guide shipped and live",
       "body": "Hi,\n\nToday's editorial run shipped a destinations deliverable: a new local destination guide for Tokeh and River Number Two - Sierra Leone's first destination guide on the site.\n\nWhy this one: the live Sierra Leone country page rendered no Destinations rail at all, and the site's Tokeh/River No. 2 attraction guide and The Place Resort stay guide had no anchor page tying the peninsula coast together. Ethiopia (Lalibela) was the other queued candidate but is advisory-sensitive, so Sierra Leone went first.\n\nThe guide is sourced from the Ministry of Tourism (tourism.gov.sl) beach directory - River Number 2 described as one of Sierra Leone's most alluring and celebrated attractions, 15 km from Freetown, next to Tokeh Beach - and the National Tourist Board's climate, entry and health guidance (dry November-April, harmattan December-February, e-visa, yellow fever, malaria). It cross-links the attraction and stay guides; both are live.\n\nLive receipt: https://trekafricaguide.com/countries/sierra-leone/tokeh-river-number-two/ (HTTP 200, destination layout, country page now shows the Sierra Leone destinations rail). Commit 517313e pushed to main.\n\nPhotos: zero-image honest publish (no licensed exact-location photos found); a six-subject photo backlog is logged for a later pass.\n\nBlockers: owner Gmail is signed out on the work machine, so this and three earlier progress emails (Accra City Hotel, Elmina, Sal) remain stored as drafts pending one sign-in; CMS mirror reconcile still pending on the Supabase side (travel_articles reads fine, local_destinations table returns 404 to the publishable key, editorial_documents is service-role only by design) - worth a quick owner-side check that the CMS imported source_commit 517313e.\n\nNext run rotates to accommodations.\n\n- OpenBot Trek editorial agent"
     }
+  },
+  "travel_insight_plan_first_cabo_verde_visit": {
+    "id": "plan-first-cabo-verde-visit-which-island-what-to-combine",
+    "category": "travel_insights",
+    "started": "2026-11-13",
+    "latest_run_note": "Scheduled 01:13Z routine run; executed on schedule.",
+    "selection_evidence": "Live Cabo Verde country page (HTTP 200, 13 Nov 2026) explicitly states: 'Cabo Verde should be planned island by island rather than treated as one uniform beach destination. Sal offers a straightforward base for coastal relaxation and selected excursions, with Santa Maria providing a setting beyond the hotel. That is a useful introduction, but travelers seeking a broader journey should decide what another island would add before arranging connections.' The published cluster includes Sal destination, Sal Island attraction, and Hilton Cabo Verde Sal Resort stay, but the travel-insights archive (HTTP 200, 13 Nov 2026) contains zero Cabo Verde stories. The country page frames a planning decision with no insight to answer it.",
+    "scope": "New travel insight: plan-first-cabo-verde-visit-which-island-what-to-combine (Practical travel, Cabo Verde) — which island to land on (four international airports), one island vs multi-island combinations, inter-island logistics (TACV flights, Brava/Santo Antão sea-only), entry rules (EASE pre-registration mandatory from 1 July 2026, 30-day visa-free, passport 6 months, TSA fee, yellow fever, children authorisation), currency (CVE, 1 EUR = 110 CVE), confirm-before-you-book checklist, packing. Zero-image honest publish; six-subject photo backlog logged.",
+    "files": [
+      "content/editorial-overrides.json",
+      "docs/editorial-research/2026-11-13-cabo-verde-first-visit-insight.md",
+      "docs/editorial-progress.json"
+    ],
+    "images": 0,
+    "image_followup": "Six distinct licensed subjects: Santa Maria beach and pier (Sal), Mindelo harbour and colonial streets (São Vicente), Ribeira Grande valley trail (Santo Antão), Fogo volcano crater with vineyard terraces, Praia plateau and Cidade Velha (Santiago), Boa Vista dune desert meeting turquoise sea. Licensed-reuse review only; no substitutes from Sal destination gallery.",
+    "booking_cta": "None by design (insight pages carry no product CTA). Revenue surface goes to published Hilton Cabo Verde Sal Resort (Booking.com via Stay22) and Sal Island attraction cross-links. No booking-destinations.json change.",
+    "key_facts_checked": "Instituto do Turismo de Cabo Verde islands overview (four international airports, island characters, TACV network, Brava/Santo Antão sea-only, currency, EASE platform) and Travel Wise (visa, TSA, yellow fever, children authorisation, insurance, connectivity) — both checked 13 Nov 2026. UK FCDO Cape Verde entry requirements (passport 6 months, 30-day visa-free, EASE pre-registration mandatory from 1 July 2026, double TSA fee if not pre-registered, yellow fever, children letter, GHIC not accepted) — checked 13 Nov 2026. Live Trek Africa Guide Cabo Verde cluster (country page island-choice framing, Sal destination, Sal Island attraction, Hilton stay) — checked 13 Nov 2026.",
+    "cms": "Production deploy imports at source_commit; publishable-key read of editorial_documents remains RLS-blocked by design — owner-side CMS check to confirm travel_insights/plan-first-cabo-verde-visit-which-island-what-to-combine after deploy.",
+    "next_category": "activities",
+    "next_action": "Rotate to activities next run; six-subject photo backlog tracked in the ledger; CMS owner-side check pending (standard).",
+    "status": "published_live_confirmed",
+    "content_commit": "",
+    "publication": {
+      "content_commit": "",
+      "pushed_to": "main",
+      "push_result": "",
+      "pushed_at": "",
+      "live_url": "https://trekafricaguide.com/travel-insights/plan-first-cabo-verde-visit-which-island-what-to-combine/",
+      "live_http_status": 200,
+      "checked_at": "",
+      "live_distinctive_text": "",
+      "live_checks": {}
+    }
   }
+  "rotation": {
+    "last_completed_category": "travel_insights",
+    "next_category": "activities",
+    "next_deliverable": "Cabo Verde first-visit travel insight published 2026-11-13 (travel_insights rotation); next: one evidenced activities gap."
+  },
+  "next_category": "activities"
 }
