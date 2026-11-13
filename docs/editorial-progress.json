@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T19:10:10.406Z",
+  "updated_at": "2026-11-13T22:33:58.375Z",
   "timezone": "Africa/Kampala",
   "next_scheduled_start": "2026-10-17T19:30:00+03:00",
   "cadence_hours": 3,
@@ -272,14 +272,14 @@
     "email_id": "1a143a69416cf3d1"
   },
   "rotation": {
-    "last_completed_category": "accommodations",
-    "next_category": "travel_insights",
-    "next_deliverable": "Maun Lodge accommodation guide published 2026-11-13 (accommodations rotation); next: one evidenced travel insights gap."
+    "last_completed_category": "activities",
+    "next_category": "destinations",
+    "next_deliverable": "Kwame Nkrumah Memorial Park guided visit published 2026-11-13 (activities rotation); next: one evidenced destinations gap."
   },
   "current_deliverable": {
-    "category": "activities",
-    "rotation": "destinations after that",
-    "note": "Sine Saloum Delta pirogue excursion activity published this run (evidenced gap: attraction page described pirogue routes/birdwatching/village visits but had no Related activities section). Zero-image honest publish with six-subject photo backlog. Next category: destinations."
+    "category": "destinations",
+    "rotation": "accommodations after that",
+    "note": "Kwame Nkrumah Memorial Park guided visit activity published this run (evidenced gap: attraction page described guided tours but had no Related activities section). Zero-image honest publish with six-subject photo backlog. Next category: destinations."
   },
   "previous_deliverable_correction": {
     "id": "marrakech-medina-street-food-walk",
@@ -2538,6 +2538,55 @@
       "status": "unsent - owner Gmail signed out (accounts.google.com sign-in tab open in the OpenBot browser, re-checked 13 Nov 2026); stored here for sending on one sign-in, together with the nine earlier pending drafts",
       "subject": "Trek Africa Guide: Victoria Falls destination guide shipped and live",
       "body": "Hi,\n\nToday's editorial run shipped a destinations deliverable: a new local destination guide for Victoria Falls, Zimbabwe - the site's Zimbabwe-side falls town.\n\nWhy this one: the live Zimbabwe country page's headline is \"Zimbabwe delivers falls and strong guiding\" and every hero photo is of the falls, yet its Destinations rail listed only Masvingo. Meanwhile a full Victoria Falls cluster already existed (attraction guide, The Victoria Falls Hotel stay guide with nine photos, two activities and a first-visit insight) with no destination anchor tying it together.\n\nThe guide is sourced from the Zimbabwe Tourism Authority's Mosi-oa-Tunya page (the \"Smoke that thunders\", the largest single curtain of falling water in the world, 70% of the views from the Zimbabwe rain forest, Livingstone 1855) and UK FCDO entry requirements checked today (KAZA Univisa US$50 for 30 days covering Zimbabwe-Zambia travel and Botswana day trips, e-visa at evisa.gov.zw, yellow-fever certificate, cash declaration limits). It cross-links the attraction, both activity guides, the hotel and the planning insight.\n\nLive receipt: https://trekafricaguide.com/countries/zimbabwe/victoria-falls/ (HTTP 200, full destination layout, six-photo gallery - all assets HTTP 200, credited on /photo-credits; the Zimbabwe country rail now lists Victoria Falls first). Commit e7a5e2e pushed to main.\n\nBlockers: owner Gmail is still signed out on the work machine, so this and nine earlier progress emails remain stored as drafts pending one sign-in to send all of them; CMS mirror reconcile still pending on the Supabase side (travel_articles reads fine, local_destinations 404 to the publishable key, editorial_documents service-role only by design) - a quick owner-side check that local_destinations/victoria-falls imported would confirm the mirror.\n\nNext run rotates to activities.\n\n- OpenBot Trek editorial agent"
+    }
+  },
+  "activity_kwame_nkrumah_memorial_park_guided_visit": {
+    "id": "kwame-nkrumah-memorial-park-guided-visit",
+    "category": "activities",
+    "started": "2026-11-13",
+    "latest_run_note": "Scheduled routine run; executed on schedule.",
+    "selection_evidence": "Live /attractions/kwame-nkrumah-memorial-park/ (HTTP 200, 13 Nov 2026) explicitly describes guided tours as a key experience and states 'The site offers a museum, library and guided tours; contact the park if you need to confirm a tour, an exhibit or accessibility arrangements' but renders NO Related activities section. The activities archive (26 published activities) held zero Ghana activities covering the Memorial Park.",
+    "scope": "New activity guide: kwame-nkrumah-memorial-park-guided-visit under repo-managed attraction kwame-nkrumah-memorial-park. Covers guided visit to museum, mausoleum, Freedom Wall, gardens; practical planning for half-day Accra heritage stop; entry fees (GHS 100 non-Ghanaians, GHS 25 Ghanaians); transport from central Accra; combination with Independence Square and Arts Centre. Zero-image honest publish; six-subject photo backlog logged.",
+    "files": [
+      "content/editorial-overrides.json",
+      "content/booking-destinations.json",
+      "docs/editorial-research/2026-11-13-kwame-nkrumah-memorial-park-guided-visit.md",
+      "docs/editorial-progress.json"
+    ],
+    "images": 0,
+    "image_followup": "Six distinct licensed subjects: mausoleum exterior with reflecting pools, museum interior with Nkrumah personal objects, Freedom Wall and Declaration Ground, gardens and fountains with statue, Independence Square view from park, Arts Centre adjacent market stalls. Licensed-reuse review only.",
+    "booking_destination": "Exact GetYourGuide product t642241 'Accra: Makola Market, Kwame Nkrumah Mausoleum & Jamestown' (Guide Kophi Tours), browser-verified 13 November 2026: 5.0/5 from 1 review (Alecia, US, 18 Apr 2026), From €60, 6 hours, English host, free cancellation 24h. Itinerary: Makola Market (45 min), Kwame Nkrumah Memorial Park & Mausoleum guided tour (45 min), Black Star Square (45 min), Arts Centre. Not suitable for mobility impairments. Memorial Park portion is 45 minutes of 6-hour tour. Registered as booking-destinations.activities['kwame-nkrumah-memorial-park-guided-visit']; Stay22-wrapped in built page (campaign activities_kwame_nkrumah_memorial_park_guided_visit).",
+    "key_facts_checked": "Park official visitor page (address, GPS, transport, hours, adjacent sites) and hours-and-rates page (Mon-Sat 9:00-19:00, Sun 10:00-19:00; GHS 100 non-Ghanaians, GHS 25 Ghanaians) - both checked 20 Oct/13 Nov 2026. Ghana Museums and Monuments Board listing. TripAdvisor review (Jun 2025 visit, published 23 Feb 2026). GetYourGuide t642241 browser-verified 13 Nov 2026. Trek Africa Guide attraction page (live) checked 13 Nov 2026.",
+    "cms": "Production deploy imports at source_commit; publishable-key read of editorial_documents remains RLS-blocked - owner-side CMS check to confirm activities/kwame-nkrumah-memorial-park-guided-visit after deploy.",
+    "next_category": "destinations",
+    "next_action": "Rotate to destinations next run; six-subject photo backlog tracked in the ledger; CMS owner-side check pending (standard).",
+    "status": "published_live_confirmed",
+    "content_commit": "786ee25",
+    "publication": {
+      "content_commit": "786ee25",
+      "pushed_to": "main",
+      "push_result": "success (rebased over 33b2c68)",
+      "pushed_at": "2026-11-13",
+      "live_url": "https://trekafricaguide.com/activities/kwame-nkrumah-memorial-park-guided-visit/",
+      "live_http_status": 200,
+      "checked_at": "2026-11-13",
+      "live_distinctive_text": "Kwame Nkrumah Memorial Park guided visit | Trek Africa Guide",
+      "live_checks": {
+        "detail": "HTTP 200; title correct; full activity h2 flow (About this activity, Highlights, Best time to participate, Planning notes, Booking option, You may also like, Nearby stays); distinctive copy renders (GHS 100/25 fees, Prof. Atta Mills High Street, GPS GA-184-8219, museum/mausoleum/Freedom Wall sequence, Independence Square/Arts Centre adjacency); honest zero-image state; no exposed markup.",
+        "booking": "Exact Stay22-wrapped GetYourGuide t642241 destination confirmed in production HTML (campaign activities_kwame_nkrumah_memorial_park_guided_visit).",
+        "cards": "You may also like renders Cape Coast, Elmina and Kakum guided visit (same-country activity). Nearby stays renders Accra City Hotel. Attraction page now renders Related activities with the new guide.",
+        "archive_home": "Activities archive (HTTP 200) lists 27 activities including the new guide; homepage search lists the guide.",
+        "attraction": "Live Kwame Nkrumah Memorial Park attraction page now renders Related activities with the new guide (slug present, 'Related activities' section present).",
+        "internal_links": "All cross-link targets live HTTP 200 (attraction, Accra City Hotel, Cape Coast activity, Ghana country page)."
+      },
+      "cms_source_commit": "imported at source_commit 786ee25; publishable-key read of editorial_documents remains RLS-blocked - owner-side CMS check to confirm activities/kwame-nkrumah-memorial-park-guided-visit"
+    },
+    "owner_email_draft": {
+      "prepared": "2026-11-13",
+      "to": "fsddanmugisa@gmail.com",
+      "status": "unsent - owner Gmail signed out (accounts.google.com sign-in tab open in the OpenBot browser, re-checked 13 Nov 2026); stored here for sending on one sign-in, together with the earlier pending drafts",
+      "subject": "Trek Africa Guide: Kwame Nkrumah Memorial Park guided visit shipped and live",
+      "body": "Hi,\n\nToday's editorial run shipped an activities deliverable: the first Ghana activity guide dedicated to the Kwame Nkrumah Memorial Park in Accra.\n\nWhy this one: the live Kwame Nkrumah Memorial Park attraction page explicitly frames guided tours as a key experience and states the site offers guided tours, but rendered no Related activities section, and none of the 26 published activity guides covered this major national memorial in the capital city.\n\nLive receipt: https://trekafricaguide.com/activities/kwame-nkrumah-memorial-park-guided-visit/ - HTTP 200, full activity layout matching the golden-monkey reference flow, clean rendered copy, no markup leak; the Accra City Hotel renders in Nearby stays; the activities archive and homepage list the guide; the attraction page now shows the Related activities card. Commit 786ee25 pushed to main.\n\nSourcing: stop-level facts from the park's official visitor page (address, GPS, hours, fees, transport, adjacent sites), Ghana Museums and Monuments Board, and the verified GetYourGuide product t642241 (Guide Kophi Tours - browser-verified today: 5.0/5 from 1 review, From EUR 60, 6 hours, includes 45-minute Memorial Park guided tour). Entry fees carried as GHS 100 non-Ghanaians / GHS 25 Ghanaians with reconfirm hedge. Zero-image honest publish; six licensed-subject photos logged for a later pass.\n\nBlockers: owner Gmail is still signed out on the work machine, so this and earlier progress emails remain stored as drafts pending one sign-in to send all of them; CMS mirror reconcile still pending on the Supabase side (publishable-key read stays blocked) - a quick owner-side check that activities/kwame-nkrumah-memorial-park-guided-visit imported would confirm the mirror.\n\nNext run rotates to destinations.\n\n- OpenBot Trek editorial agent"
     }
   }
 }
