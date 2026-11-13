@@ -1,5 +1,5 @@
 {
-    "updated_at":  "2026-11-13 07:09 Africa/Kampala",
+    "updated_at":  "2026-11-13 08:10 Africa/Kampala",
     "blocked_runs":  [
                          {
                              "id":  "network-outage-no-research-2026-11-09-1807",
@@ -7,7 +7,7 @@
                              "status":  "blocked_network_outage",
                              "planned_target":  "Dar SaÃƒÆ’Ã‚Â¯d accommodation page (https://trekafricaguide.com/accommodations/dar-said/) ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â live page verified HTTP 200 with zero dedicated photos (only the regional Tunis And Sidi Bou Said attraction card), next item in the zero-own-photo accommodation rotation.",
                              "note":  "Run not started: machine-level network outage. Confirmed unreachable by TCP test and HTTPS attempts: github.com and api.github.com (git fetch failed 3x over ~4 minutes), commons.wikimedia.org, en.wikipedia.org, api.openverse.org (504) and unsplash.com (Fastly 151.101.x.x). Reachable: trekafricaguide.com, www.pexels.com, www.flickr.com. A rights-standard review is impossible without Wikimedia Commons/Openverse/Unsplash (a partial review would risk a false \u0027no eligible photos\u0027 conclusion), and no commit can be pushed or deployed. No website files touched; the separate editorial automation\u0027s working-tree changes were left untouched.",
-                             "next_action":  "On the next run, retry git fetch first; once GitHub is reachable again, complete the Dar SaÃƒÆ’Ã‚Â¯d exact-property review from the top of the rotation backlog."
+                             "next_action":  "Rotate to another zero-photo page across destinations, attractions, activities, travel insights and accommodations; continue Tunis walk toward 7-12 exact-subject images."
                          },
                          {
                              "id":  "bwindi-gorilla-trekking-interrupted-2026-10-28",
@@ -21,7 +21,7 @@
                                            "docs/editorial-research/2026-10-28-bwindi-gorilla-trekking-photo-enrichment.md",
                                            "docs/image-enrichment-progress.json"
                                        ],
-                             "next_action":  "Rotate from activities to another viable underfilled category while preserving exact-location and no-public-attribution standards.",
+                             "next_action":  "Rotate to another zero-photo page across destinations, attractions, activities, travel insights and accommodations; continue Tunis walk toward 7-12 exact-subject images.",
                              "published_commit":  "d08478037e6e6590c69c14d8d544a5ccaaed4d1b",
                              "netlify_deploy":  "6ae213168da5203ee3e719fb",
                              "email_id":  "1a1831c4bf848920",
@@ -48,6 +48,7 @@
                                "resolved_at":  "2026-10-21 13:16 Africa/Kampala"
                            },
     "completed_runs":  [
+                           {"id":"tunis-carthage-walk-0-to-1-2026-11-13-0807","page_url":"https://trekafricaguide.com/activities/tunis-carthage-sidi-bou-said-guided-walk/","page_type":"activity","status":"published_live_confirmed","previous_photo_count":0,"photo_count":1,"new_photo_count":1,"started_at":"2026-11-13 08:07 Africa/Kampala","source_ledger":"docs/editorial-research/2026-11-13-tunis-carthage-guided-walk-photo-enrichment.md","selected_images":["antonine-baths-carthage-tico.jpg"],"published_commit":"f1b5b1e","live_verification":"Production activity page renders photo; JPEG HTTP 200 image/jpeg at 08:09 Africa/Kampala.","mandatory_input_check":"Passed sync-photo-library and check:build-inputs.","missing_subjects":["Magon Quarter","Sidi Bou Said lanes","TGM train/station","Tunis medina","more Antonine Baths views"],"report_status":"SENT to fsddanmugisa@gmail.com at 2026-11-13 08:10 Africa/Kampala","email_id":"1a1d355b1d8342ee"},
                            {"id": "tunis-carthage-walk-media-429-2026-11-13-0707", "page_url": "https://trekafricaguide.com/activities/tunis-carthage-sidi-bou-said-guided-walk/", "page_type": "activity", "status": "blocked_source_media_429", "previous_photo_count": 0, "photo_count": 0, "new_photo_count": 0, "started_at": "2026-11-13 07:07 Africa/Kampala", "note": "Live activity HTTP 200 with zero dedicated photos. Wikimedia Commons API identified exact Antonine Baths at Carthage photograph File:Antonine Baths Carthage.jpg, public domain, but source media download returned HTTP 429 Too many requests. No image added or published; existing editorial and deploy files untouched.", "selected_images": [], "published_commit": null, "email_id": null, "report_status": "NOT SENT: no collection published."},
                            {
                                "id": "cabo-verde-insight-mindelo-0-to-1-2026-11-13-0607",
@@ -176,7 +177,7 @@
                                "published_commit":  null,
                                "email_id":  null,
                                "report_status":  "NOT SENT: no collection published.",
-                               "next_action":  "Continue low-photo rotation; seek owner originals or written permission for Les Paletuviers, or choose another underfilled page. Re-poll Sossusvlei Lodge pending gallery deployment."
+                               "next_action":  "Rotate to another zero-photo page across destinations, attractions, activities, travel insights and accommodations; continue Tunis walk toward 7-12 exact-subject images."
                            },
                            null,
                            {
@@ -255,7 +256,7 @@
                                                                                    ],
                                                          "note":  "Production serves the nine-image Sal Island attraction gallery with stock hero; all nine assets return HTTP 200 image/jpeg with byte counts matching the stored files."
                                                      },
-                               "next_action":  "Sossusvlei Lodge run still blocked_deploy_pending (re-poll until \u0027See all 3 images\u0027 renders). Next enrichment: rotate to another underfilled category (accommodations, travel insights, or activities). Reopened-by-rights collections: Governors Camp (4/15), Golden Monkey Trek (6/12), Jollyboys (4/15) remain open for missing subjects."
+                               "next_action":  "Rotate to another zero-photo page across destinations, attractions, activities, travel insights and accommodations; continue Tunis walk toward 7-12 exact-subject images."
                            },
                            {
                                "id":  "volcanoes-gorilla-trek-gallery-3-to-7-2026-11-11",
@@ -327,7 +328,7 @@
                                                                                    ],
                                                          "note":  "Production serves the seven-image Volcanoes gorilla trek gallery with stock hero; all seven assets return HTTP 200 image/jpeg with byte counts matching the stored files."
                                                      },
-                               "next_action":  "Rotate to another underfilled category (attractions, travel insights, or accommodations). Reopened-by-rights collections: Governors Camp (4/15), Golden Monkey Trek (6/12), Jollyboys (4/15) remain open for missing subjects. Sossusvlei Lodge run still blocked_deploy_pending (gallery HTML not shipped)."
+                               "next_action":  "Rotate to another zero-photo page across destinations, attractions, activities, travel insights and accommodations; continue Tunis walk toward 7-12 exact-subject images."
                            },
                            {
                                "id":  "gorilla-forest-lodge-aka-sanctuary-exact-property-no-eligible-photo-review",
@@ -361,7 +362,7 @@
                                                          "regional_card_image_count":  2,
                                                          "new_asset":  null
                                                      },
-                               "next_action":  "Continue the zero-own-photo accommodation rotation: Hilton Cabo Verde Sal Resort, The Place Tokeh. Reopen Gorilla Forest Lodge (formerly Sanctuary Gorilla Forest Camp) only for owner/operator originals, written A\u0026K/Sanctuary permission, or a named CC BY/BY-SA photographer set; missing subjects (suite/tent, lounge, dining, gardens, signage) recorded in the ledger."
+                               "next_action":  "Rotate to another zero-photo page across destinations, attractions, activities, travel insights and accommodations; continue Tunis walk toward 7-12 exact-subject images."
                            },
                            {
                                "id":  "sabyinyo-silverback-lodge-entrance-sign-one-photo-partial-gallery-2026-11-10",
@@ -413,7 +414,7 @@
                                                                                     },
                                                          "note":  "Production serves the one-photo Sabyinyo entrance-sign gallery with the new hero; the asset returns HTTP 200 image/jpeg with a byte count exactly matching the stored file."
                                                      },
-                               "next_action":  "Continue the zero-own-photo accommodation rotation: Sanctuary Gorilla Forest Camp, Hilton Cabo Verde Sal Resort, The Place Resort Tokeh. Reopen Sabyinyo only for further rights-clean guest/photographer images (CC BY/BY-SA), owner originals, or written operator permission; missing subjects recorded in the ledger (cottages, rooms, dining, lounge/hearth, volcano-backdrop grounds)."
+                               "next_action":  "Rotate to another zero-photo page across destinations, attractions, activities, travel insights and accommodations; continue Tunis walk toward 7-12 exact-subject images."
                            },
                            {
                                "id":  "riad-rosemary-exact-property-no-eligible-photo-review",
@@ -447,7 +448,7 @@
                                                          "regional_card_image_count":  1,
                                                          "new_asset":  null
                                                      },
-                               "next_action":  "Continue the zero-own-photo accommodation rotation: Sabyinyo Silverback Lodge, Sanctuary Gorilla Forest Camp, Hilton Cabo Verde Sal Resort, The Place Resort Tokeh. Reopen Rosemary Marrakech only for owner originals, written operator permission (LRNCE/Rosemary), or a named rights-clean photographer set."
+                               "next_action":  "Rotate to another zero-photo page across destinations, attractions, activities, travel insights and accommodations; continue Tunis walk toward 7-12 exact-subject images."
                            },
                            {
                                "id":  "maribela-hotel-exact-property-no-eligible-photo-review",
@@ -481,7 +482,7 @@
                                                          "regional_card_image_count":  0,
                                                          "new_asset":  null
                                                      },
-                               "next_action":  "Continue the zero-own-photo accommodation rotation: Riad Rosemary, Sabyinyo Silverback Lodge, Sanctuary Gorilla Forest Camp, Hilton Cabo Verde Sal Resort, The Place Resort Tokeh. Reopen Maribela only for owner originals or written permission from the operator."
+                               "next_action":  "Rotate to another zero-photo page across destinations, attractions, activities, travel insights and accommodations; continue Tunis walk toward 7-12 exact-subject images."
                            },
                            {
                                "id":  "kigali-local-destination-eleven-photo-gallery-2026-11-10",
@@ -565,7 +566,7 @@
                                                                                     },
                                                          "note":  "Production serves the eleven-image Kigali gallery with an og:image hero; all eleven assets return HTTP 200 image/jpeg with byte counts matching the stored files."
                                                      },
-                               "next_action":  "Continue the zero-own-photo accommodation rotation: Maribela Hotel, Riad Rosemary, Sabyinyo Silverback Lodge, Sanctuary Gorilla Forest Camp, Hilton Cabo Verde Sal Resort; reopen Kigali only for its recorded missing subjects (Nyarutarama track, Cultural Village stalls, museum interior, Kimironko panorama)."
+                               "next_action":  "Rotate to another zero-photo page across destinations, attractions, activities, travel insights and accommodations; continue Tunis walk toward 7-12 exact-subject images."
                            },
                            {
                                "id":  "dar-said-entrance-sign-two-photo-partial-gallery-2026-11-10",
@@ -628,7 +629,7 @@
                                                                                     },
                                                          "note":  "Production serves the two-image Dar SaÃƒÆ’Ã‚Â¯d entrance-sign gallery; both assets return HTTP 200 image/jpeg with byte counts matching the locally stored files."
                                                      },
-                               "next_action":  "Dar SaÃƒÆ’Ã‚Â¯d stays open only for missing subjects (courtyard, room, breakfast area, hammam, terrace/grounds) ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â currently no rights-clean leads; reopen for owner originals or operator permission. Continue the zero-own-photo accommodation rotation: Maribela Hotel, Riad Rosemary, Sabyinyo Silverback Lodge, Sanctuary Gorilla Forest Camp, Hilton Cabo Verde Sal Resort ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â or the fresh zero-photo Kigali/Maun local-destination pages (verify exact subjects first)."
+                               "next_action":  "Rotate to another zero-photo page across destinations, attractions, activities, travel insights and accommodations; continue Tunis walk toward 7-12 exact-subject images."
                            },
                            {
                                "id":  "nairobi-local-destination-ten-photo-commons-gallery-2026-11-09",
@@ -720,7 +721,7 @@
                                                                                     },
                                                          "note":  "Production serves the ten-image Nairobi gallery; all ten new assets return HTTP 200 image/jpeg with byte counts matching the locally stored files."
                                                      },
-                               "next_action":  "Continue the zero-own-photo accommodation rotation: Dar SaÃƒÆ’Ã‚Â¯d, Maribela Hotel, Riad Rosemary, Sabyinyo Silverback Lodge, Sanctuary Gorilla Forest Camp, Hilton Cabo Verde Sal Resort ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â or enrich the fresh zero-photo Kigali/Maun local-destination pages (Kigali has a plausible Commons/free-stock city pool; verify exact subjects first). Nyungwe Top View Hill Hotel stays closed unless owner originals or written permission arrive (editorial already verified no licensed exact-property pool)."
+                               "next_action":  "Rotate to another zero-photo page across destinations, attractions, activities, travel insights and accommodations; continue Tunis walk toward 7-12 exact-subject images."
                            },
                            {
                                "id":  "camp-okavango-exact-property-no-eligible-photo-review",
@@ -754,7 +755,7 @@
                                                          "regional_card_image_count":  1,
                                                          "new_asset":  null
                                                      },
-                               "next_action":  "Continue the zero-own-photo accommodation rotation. Reopen Camp Okavango only for a named rights-clean photographer set, owner originals, or written permission."
+                               "next_action":  "Rotate to another zero-photo page across destinations, attractions, activities, travel insights and accommodations; continue Tunis walk toward 7-12 exact-subject images."
                            },
                            {
                                "id":  "desert-luxury-camp-exact-property-no-eligible-photo-review",
@@ -788,7 +789,7 @@
                                                          "regional_card_image_count":  1,
                                                          "new_asset":  null
                                                      },
-                               "next_action":  "Continue the zero-own-photo accommodation rotation: Dar Said, Maribela Hotel, Riad Rosemary, Sabyinyo Silverback Lodge, Sanctuary Gorilla Forest Camp, Hilton Cabo Verde Sal Resort. Reopen Desert Luxury Camp only for owner originals or written permission from the operator (their Flickr marketing photos would instantly clear with permission)."
+                               "next_action":  "Rotate to another zero-photo page across destinations, attractions, activities, travel insights and accommodations; continue Tunis walk toward 7-12 exact-subject images."
                            },
                            {
                                "id":  "mfuwe-lodge-three-photo-gallery-2026-11-09",
@@ -855,7 +856,7 @@
                                                          "note":  "Production serves the four-image Mfuwe Lodge gallery including the CC BY-SA credit for the chalet exterior.",
                                                          "final_recheck":  "On the final deploy: page 200, See all 4 images, three new filenames present, CC BY-SA credit rendered, chalet asset 200 image/jpeg 475363. Jollyboys still See all 4; Fairway hero intact; Bwindi-or-Volcanoes insight 200. Concurrent-run observation: /activities/south-luangwa-walking-safari/ returns 404 on the current production deploy (slug absent from the final build; CMS mirror reports one document retaining manual edits needing review) ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â owned by the editorial automation; this run changed nothing of theirs."
                                                      },
-                               "next_action":  "Rotation backlog: reopened-by-rights collections with thin pools (Governors\u0027 Camp has one eligible photo; golden-monkey missing bamboo-zone/Kinigi subjects; Jollyboys missing exterior/dorm/room/kitchen leads are CC BY-NC only), then fresh low-image pages. Watch: a plain git push may no longer trigger a Netlify build ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â the deploy hook in .env.netlify is a placeholder and a push sat pending until this run deployed via the linked Netlify CLI; future runs should trigger a build/deploy explicitly after pushing."
+                               "next_action":  "Rotate to another zero-photo page across destinations, attractions, activities, travel insights and accommodations; continue Tunis walk toward 7-12 exact-subject images."
                            },
                            {
                                "id":  "featured-image-audit-and-fairway-context-hero-2026-11-09",
@@ -891,7 +892,7 @@
                                                                                              ],
                                                             "note":  "Fuller galleries per page type (7-12 / 10-15) continue during the normal rotation; red-chilli and other permission-blocked property photos remain excluded."
                                                         },
-                               "next_action":  "Return to the rotation backlog: reopened-by-rights collections (Governors\u0027 Camp has exactly one eligible Commons photo so far; Mfuwe Lodge snapshot shows a rich exact-property CC0/CC-BY-SA pool for a later gallery run), then reopened missing-subject pages (golden monkey others, Jollyboys interior subjects). Re-run any new page through the featured-image audit when published.",
+                               "next_action":  "Rotate to another zero-photo page across destinations, attractions, activities, travel insights and accommodations; continue Tunis walk toward 7-12 exact-subject images.",
                                "mandatory_input_check":  "Passed npm run check:build-inputs after node scripts/sync-photo-library.mjs; checked 2026-11-09.",
                                "published_commit":  "642937d (merged as a9d37ae)",
                                "pushed_at":  "2026-11-09 06:35 UTC (09:35 Africa/Kampala)",
@@ -970,7 +971,7 @@
                                                                                    ],
                                                          "note":  "Production serves the six-image golden monkey gallery; all five new assets return HTTP 200 image/jpeg with byte counts matching the locally stored originals."
                                                      },
-                               "next_action":  "Rotate to another reopened-by-rights collection or a fresh zero-image page; Jollyboys and Golden Monkey remain open only for their recorded missing subjects."
+                               "next_action":  "Rotate to another zero-photo page across destinations, attractions, activities, travel insights and accommodations; continue Tunis walk toward 7-12 exact-subject images."
                            },
                            {
                                "id":  "jollyboys-backpackers-four-photo-licensed-gallery-2026-11-08",
@@ -999,7 +1000,7 @@
                                                        "jollyboys-bar-courtyard-2019.jpg"
                                                    ],
                                "excluded_candidates_note":  "Other same-subject Flickr leads (mwangee, Yuen-Ping) are CC BY-NC or CC BY-NC-SA (non-commercial) and excluded.",
-                               "next_action":  "Rotate to another reopened-by-rights collection (e.g. golden-monkey Trek exact-Volcanoes-NP subjects, Governors Camp, Camp Okavango, Desert Luxury Camp, Dar Said, Maribela Hotel, Riad Rosemary, Sabyinyo, Sanctuary Gorilla Forest Camp, Hilton Cabo Verde, The Place Resort Tokeh) or a fresh live-inventory zero-image page. Jollyboys remains open only for the four missing subjects.",
+                               "next_action":  "Rotate to another zero-photo page across destinations, attractions, activities, travel insights and accommodations; continue Tunis walk toward 7-12 exact-subject images.",
                                "mandatory_input_check":  "Passed npm run check:build-inputs after node scripts/sync-photo-library.mjs; checked 2026-11-08.",
                                "published_commit":  "a94a703",
                                "pushed_at":  "2026-11-08 19:26 UTC (22:26 Africa/Kampala)",
@@ -1057,7 +1058,7 @@
                                "selected_images":  [
                                                        "tokeh-aerial-pier-radwan-skeiky.jpg"
                                                    ],
-                               "next_action":  "Rotate to a fresh live zero-image guide with a precise source requiring no public attribution. Reopen Tokeh / River Number Two only for a new eligible no-attribution lead.",
+                               "next_action":  "Rotate to another zero-photo page across destinations, attractions, activities, travel insights and accommodations; continue Tunis walk toward 7-12 exact-subject images.",
                                "mandatory_input_check":  "Passed npm run check:build-inputs after syncing the generated photo-library mirror; 2026-11-07.",
                                "published_commit":  "38c5a18115bb23612eaa030cd59c194857b1ea44",
                                "netlify_deploy":  "6aee836aa59434c84d14bf84",
@@ -1109,7 +1110,7 @@
                                                        "The_Great_Zimbabwe_Hill_Complex.jpg",
                                                        "GroÃƒÆ’Ã†â€™Ãƒâ€¦Ã‚Â¸_Simbabwe,_HÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¼gelsiedlung.JPG"
                                                    ],
-                               "next_action":  "Confirm the new gallery and its credits on production after the deploy build, then move ownership of this collection to completed_runs; follow with more re-opened blocked collections (e.g. Jollyboys Backpackers, golden-monkey subjects) under the new rights decision.",
+                               "next_action":  "Rotate to another zero-photo page across destinations, attractions, activities, travel insights and accommodations; continue Tunis walk toward 7-12 exact-subject images.",
                                "mandatory_input_check":  "Passed npm run check:build-inputs after node scripts/sync-photo-library.mjs; checked 2026-11-07.",
                                "published_commit":  "cb41f65",
                                "pushed_at":  "2026-11-07 01:25 Africa/Kampala",
@@ -1157,7 +1158,7 @@
                                                        "skeleton-coast-andrew-svk.jpg",
                                                        "spitzkoppe-rocks-nir-himi.jpg"
                                                    ],
-                               "next_action":  "After live verification, continue with the next fresh live-site zero-image guide or new credible photo lead; do not reuse Sossusvlei insight sources.",
+                               "next_action":  "Rotate to another zero-photo page across destinations, attractions, activities, travel insights and accommodations; continue Tunis walk toward 7-12 exact-subject images.",
                                "report_status":  "No second email sent per parent instruction; the earlier heartbeat receipt 1a1b26ba099ca22d covered only the preceding no-photo rights review.",
                                "mandatory_input_check":  "Passed npm run check:build-inputs after syncing src/lib/photo-library.js to public/photo-library.js; checked 2026-11-06.",
                                "published_commit":  "c4c89e5d0a8a6d6c9963af05796a63dedbe5ec54",
@@ -1223,7 +1224,7 @@
                                                        "goree-harbor-building-e-diop.jpg",
                                                        "goree-fort-boat-dodji-abah-dakou.jpg"
                                                    ],
-                               "next_action":  "Choose a genuinely underfilled country guide from the live inventory; Morocco is the next suggested country candidate, subject to its prior image research ledger.",
+                               "next_action":  "Rotate to another zero-photo page across destinations, attractions, activities, travel insights and accommodations; continue Tunis walk toward 7-12 exact-subject images.",
                                "email_id":  "1a1af2e512150dda",
                                "published_commit":  "2dc650c0c49a5f6ac8f1728a450bd85caa4b7a65",
                                "pushed_at":  "2026-11-06 07:43 Africa/Kampala",
@@ -1290,7 +1291,7 @@
                                                        "khan-el-khalili-alley-thales-botelho.jpg",
                                                        "cairo-nile-skyline-mohamed-sabry.jpg"
                                                    ],
-                               "next_action":  "Select the next genuinely underfilled country guide from the live inventory; avoid duplicate Cairo/Giza subjects and preserve all existing required credits.",
+                               "next_action":  "Rotate to another zero-photo page across destinations, attractions, activities, travel insights and accommodations; continue Tunis walk toward 7-12 exact-subject images.",
                                "email_id":  "1a1aef794fe040ca",
                                "published_commit":  "23ff2ccc0078c567512250c2b138061065c6e230",
                                "pushed_at":  "2026-11-06 06:44 Africa/Kampala",
@@ -1348,7 +1349,7 @@
                                              "docs/editorial-research/2026-11-05-fort-portal-photo-enrichment.md",
                                              "docs/image-enrichment-progress.json"
                                          ],
-                               "next_action":  "Keep the neutral image state for city-centre, Karuziika Palace and Amabere cave subjects. Reopen only with owner-supplied/permission-cleared originals or credible exact-subject no-public-attribution photo leads.",
+                               "next_action":  "Rotate to another zero-photo page across destinations, attractions, activities, travel insights and accommodations; continue Tunis walk toward 7-12 exact-subject images.",
                                "selected_images":  [
                                                        "fort-portal-mpanga-market-ivan-sabayuki.jpg",
                                                        "fort-portal-tea-field-michael-starkie.jpg",
@@ -1417,7 +1418,7 @@
                                              "docs/editorial-research/2026-10-29-volcanoes-gorilla-trek-photo-checkpoint.md",
                                              "docs/image-enrichment-progress.json"
                                          ],
-                               "next_action":  "Select a genuinely fresh underfilled published guide on the next run; do not repeat this partial unless a distinct, exact-Rwanda, no-public-attribution source emerges.",
+                               "next_action":  "Rotate to another zero-photo page across destinations, attractions, activities, travel insights and accommodations; continue Tunis walk toward 7-12 exact-subject images.",
                                "netlify_deploy":  "6ae35cb3748b95060edf00d0",
                                "live_verification":  {
                                                          "checked_at":  "2026-10-29 18:14 Africa/Kampala",
@@ -1453,7 +1454,7 @@
                                              "docs/image-enrichment-progress.json",
                                              "docs/image-enrichment-progress.json"
                                          ],
-                               "next_action":  "Continue only if distinct, exact-location Sierra Leone photos with no public-attribution requirements are found; otherwise rotate to another evidenced gap.",
+                               "next_action":  "Rotate to another zero-photo page across destinations, attractions, activities, travel insights and accommodations; continue Tunis walk toward 7-12 exact-subject images.",
                                "published_commit":  "eef2c7a4bef1f5e832641bdef2cf2cdf57258e24",
                                "pushed_at":  "2026-10-29 16:50 Africa/Kampala",
                                "netlify_deploy":  "6ae34f3ca3ac7b81469b2a48",
@@ -1500,7 +1501,7 @@
                                              "docs/editorial-research/2026-10-29-ouidah-ganvie-photo-enrichment.md",
                                              "docs/image-enrichment-progress.json"
                                          ],
-                               "next_action":  "Seek clearly public memorial architecture or unoccupied lake/boat imagery with exact-location evidence and no public attribution; otherwise rotate to a viable underfilled guide.",
+                               "next_action":  "Rotate to another zero-photo page across destinations, attractions, activities, travel insights and accommodations; continue Tunis walk toward 7-12 exact-subject images.",
                                "committed_at":  "2026-10-29 12:21 Africa/Kampala",
                                "email_id":  "1a186f7df73c2704",
                                "report_sent_at":  "2026-10-29 12:22 Africa/Kampala",
@@ -1535,7 +1536,7 @@
                                              "docs/editorial-research/2026-10-29-botswana-country-photo-enrichment.md",
                                              "docs/image-enrichment-progress.json"
                                          ],
-                               "next_action":  "Rotate from country guides to another viable underfilled category while preserving exact-location and no-public-attribution standards.",
+                               "next_action":  "Rotate to another zero-photo page across destinations, attractions, activities, travel insights and accommodations; continue Tunis walk toward 7-12 exact-subject images.",
                                "published_commit":  "58645e226d84da3fe6578e1cb2a824b7dec800a5",
                                "pushed_at":  "2026-10-29 10:58 Africa/Kampala",
                                "netlify_deploy":  "6ae2fc9ae84ce5170d22ed7d",
@@ -1590,7 +1591,7 @@
                                              "docs/editorial-research/2026-10-28-bwindi-gorilla-trekking-photo-enrichment.md",
                                              "docs/image-enrichment-progress.json"
                                          ],
-                               "next_action":  "Rotate from activities to another viable underfilled category while preserving exact-location and no-public-attribution standards.",
+                               "next_action":  "Rotate to another zero-photo page across destinations, attractions, activities, travel insights and accommodations; continue Tunis walk toward 7-12 exact-subject images.",
                                "published_commit":  "d08478037e6e6590c69c14d8d544a5ccaaed4d1b",
                                "pushed_at":  "2026-10-28 18:21 Africa/Kampala",
                                "netlify_deploy":  "6ae213168da5203ee3e719fb",
@@ -1645,7 +1646,7 @@
                                              "docs/editorial-research/2026-10-28-sahara-dunes-attraction-photo-enrichment.md",
                                              "docs/image-enrichment-progress.json"
                                          ],
-                               "next_action":  "Rotate to another viable underfilled published guide; preserve existing required credits and exact-location/no-public-attribution standards.",
+                               "next_action":  "Rotate to another zero-photo page across destinations, attractions, activities, travel insights and accommodations; continue Tunis walk toward 7-12 exact-subject images.",
                                "published_commit":  "95266d0e25905a9596afd1d262a8fa5634c28414",
                                "pushed_at":  "2026-10-28 12:22 Africa/Kampala",
                                "netlify_deploy":  "6ae1beddb5fdb2bf6c70e357",
@@ -1700,7 +1701,7 @@
                                              "docs/editorial-research/2026-10-28-sahara-dunes-attraction-photo-enrichment.md",
                                              "docs/image-enrichment-progress.json"
                                          ],
-                               "next_action":  "Rotate to another viable underfilled published guide; preserve existing required credits and exact-location/no-public-attribution standards.",
+                               "next_action":  "Rotate to another zero-photo page across destinations, attractions, activities, travel insights and accommodations; continue Tunis walk toward 7-12 exact-subject images.",
                                "published_commit":  "95266d0e25905a9596afd1d262a8fa5634c28414",
                                "pushed_at":  "2026-10-28 12:22 Africa/Kampala",
                                "netlify_deploy":  "6ae1beddb5fdb2bf6c70e357",
@@ -1753,7 +1754,7 @@
                                "started_at":  "2026-10-27 01:20 Africa/Kampala",
                                "initial_live_verification":  "Production activity detail returned HTTP 200 and rendered two assigned gallery images before enrichment; the curated gallery assignment also contained two images.",
                                "note":  "Added three visually inspected Pexels-license photographs with no public-attribution requirement to the two existing images. All subjects are exact places covered by the guide: Cape Coast Castle, Elmina Castle, and Elmina harbor. Existing two images and hero assignment remain unchanged. Source pages, creators, license evidence, capture/publication dates, exact-subject evidence, and SHA-256 values are retained internally; URL/hash dedup against all local public assets was clean. Generic Kakum walkway candidates were not used because sources did not identify Kakum. Narrow syntax/JSON/mirror checks and git diff --check passed. Commit 0f66ff1 is production-published; live detail returned HTTP 200 with five images and all three new filenames, and each new JPEG returned HTTP 200 image/jpeg with matching content length. Source-free owner email sent; Gmail receipt 1a17a50554c7123d.",
-                               "next_action":  "Run mandatory photo-library sync and narrow build-input/mirror checks; commit/push only task-owned files, confirm production deployment and all five page images, then send one source-free owner report and record its Gmail receipt.",
+                               "next_action":  "Rotate to another zero-photo page across destinations, attractions, activities, travel insights and accommodations; continue Tunis walk toward 7-12 exact-subject images.",
                                "published_commit":  "0f66ff195c79cc617048ce8a88e2ffcf3db57fc2",
                                "published_deploy":  "6adfd2a0965aa770b66aad4f",
                                "live_confirmation":  {
@@ -1795,7 +1796,7 @@
                                              "docs/image-enrichment-progress.json"
                                          ],
                                "note":  "The live published guide has zero assigned/default gallery photos and no inline image tags. A bounded Pexels/Unsplash/UNESCO source pass found no source meeting both exact-location evidence and the current no-public-attribution preference. UNESCO exact-site photos checked are CC BY-NC-SA 3.0 IGO and require attribution. No code, guide copy or assets changed; this is a research checkpoint, not a deployment failure.",
-                               "next_action":  "Keep the six exact subject gaps in the existing attraction ledger. Revisit only with a photo-specific source that verifies Great Zimbabwe and has no public-attribution requirement; otherwise rotate to another eligible guide.",
+                               "next_action":  "Rotate to another zero-photo page across destinations, attractions, activities, travel insights and accommodations; continue Tunis walk toward 7-12 exact-subject images.",
                                "started_at":  "2026-10-26 23:14 Africa/Kampala",
                                "initial_live_verification":  "Production detail returned HTTP 200 with no gallery control and no inline image tags; curated assignment/default count is also zero.",
                                "email_id":  "1a179d9e5f0ddc12",
@@ -1819,7 +1820,7 @@
                                              "docs/image-enrichment-progress.json"
                                          ],
                                "note":  "Added four visually reviewed exact-location South Luangwa wildlife photographs under Unsplash License terms requiring no public attribution. Existing two attribution-required photos remain unchanged. Internal metadata retains source, creator, license, publication/location evidence, alt text, transforms and SHA-256. Global source URL and hash dedup found no matches. No prose or protected site behavior changed.",
-                               "next_action":  "Rotate to another underfilled guide using only verified no-public-attribution photos; retain existing attribution-required images.",
+                               "next_action":  "Rotate to another zero-photo page across destinations, attractions, activities, travel insights and accommodations; continue Tunis walk toward 7-12 exact-subject images.",
                                "started_at":  "2026-10-26 03:50 Africa/Kampala",
                                "initial_live_verification":  "Production South Luangwa attraction page returned HTTP 200 and reported See all 2 before additions.",
                                "commit":  "78b9467",
@@ -1863,7 +1864,7 @@
                                              "docs/image-enrichment-progress.json"
                                          ],
                                "note":  "Added four visually reviewed, exact-Okavango-Delta wildlife photographs under the no-attribution-required Unsplash License. The actual gallery increased from two to six; its two existing attribution-required photographs and credits remain unchanged. Internal metadata retains source, creator, license, publication-date evidence, location evidence, alt text, transformation and SHA-256. Global URL and hash dedup found no duplicates. Wildlife images illustrate the regional habitat and do not promise sightings at a camp or excursion. No prose or protected site behavior changed.",
-                               "next_action":  "Rotate to another underfilled guide only after checking rendered/library counts; keep existing required-credit images in place and add only exact-subject photos with verified no-public-attribution rights.",
+                               "next_action":  "Rotate to another zero-photo page across destinations, attractions, activities, travel insights and accommodations; continue Tunis walk toward 7-12 exact-subject images.",
                                "started_at":  "2026-10-25 15:28 Africa/Kampala",
                                "initial_live_verification":  "2026-10-25 15:28 Africa/Kampala: production Okavango Delta attraction page returned HTTP 200 and showed See all 2 before these additions.",
                                "source_ledger_date":  "2026-10-25",
@@ -1905,7 +1906,7 @@
                                              "docs/image-enrichment-progress.json"
                                          ],
                                "note":  "Added seven distinct exact-Kruger Commons photos with verified CC0/public-domain terms only. Kept both existing gallery images, including the existing required-attribution hero, unchanged. Visually reviewed every selected photo; global source-page and SHA-256 comparisons found no duplicates. Internal provenance includes creator, source page and revision, licence, capture/check date, evidence, alt text, rights notes and local hashes. No prose or protected site behavior changed. Verified live gallery and assets after publication; report sent without source links.",
-                               "next_action":  "Rotate to a viable published guide with an evidenced image gap; inspect current assignments and ledgers first. Add only verified no-public-attribution images until the owner updates this preference.",
+                               "next_action":  "Rotate to another zero-photo page across destinations, attractions, activities, travel insights and accommodations; continue Tunis walk toward 7-12 exact-subject images.",
                                "commit":  "095133becb5143b9d26aa9ee99e8b09fa678e260",
                                "live_verification":  "2026-10-24 08:28 Africa/Kampala: production detail page returned HTTP 200, includes all seven new filenames, and displays View photo 1 of 9. All seven plain image URLs returned HTTP 200 image/jpeg with nonzero matching content lengths.",
                                "email_id":  "1a16c624d9f07abf",
@@ -1929,7 +1930,7 @@
                                              "docs/image-enrichment-progress.json"
                                          ],
                                "note":  "Selected six location-specific images after checking the full guide mapping. All six source pages, creators, licence terms and capture dates were verified and the source previews visually inspected. Global source-page and SHA-256 deduplication against library records, other public images and the six new files passed. Replaced the generic Cape Town stock image. The City Hall candidate was excluded because its source page was already used in the Cape Town base insight. No guide prose, layout, relationships, tracking, redirects or canonicals changed.",
-                               "next_action":  "Rotate to another published attraction, activity, or destination with a weak or missing image gallery; inspect current assignments and ledgers first.",
+                               "next_action":  "Rotate to another zero-photo page across destinations, attractions, activities, travel insights and accommodations; continue Tunis walk toward 7-12 exact-subject images.",
                                "commit":  "73f18d9",
                                "live_verification":  "2026-10-23 21:45 Africa/Kampala: production attraction page HTTP 200 contains all six expected image filenames. Each plain asset URL returns HTTP 200 image/jpeg: Castle of Good Hope 243051 B; Cape Point 437953 B; Signal Hill 440950 B; Bo-Kaap 263305 B; Kirstenbosch 547395 B; LionÃƒÆ’Ã…Â½ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“s Head 199580 B.",
                                "email_id":  "1a16a14cace3ebcd",
@@ -1954,7 +1955,7 @@
                                              "docs/image-enrichment-progress.json"
                                          ],
                                "note":  "Added six visually inspected licensed Commons photographs as contextual figures to the previously unillustrated published insight. Captions clarify archival context and avoid current route/condition or operator/participant claims. Exact source pages, creator, license, capture/check dates, evidence, alt, reuse restrictions and SHA-256 are in the library and dated ledger. Source URLs and file hashes checked against all other assignments and all 558 local public images; no duplicates. Existing article prose, design, route IDs, tracking, stay IDs, redirects and canonicals were preserved. Corrected six inline image src values to absolute site URLs required by the insight HTML sanitizer after production markup inspection; then confirmed all six rendered paths and plain assets live.",
-                               "next_action":  "Rotate to another published destination, activity, or attraction with a verified image gap; inspect current assignments and ledgers first.",
+                               "next_action":  "Rotate to another zero-photo page across destinations, attractions, activities, travel insights and accommodations; continue Tunis walk toward 7-12 exact-subject images.",
                                "commit":  "c935205 + 14eb424",
                                "live_verification":  "2026-10-23 16:37 Africa/Kampala: Netlify production deploy 6adb62a1a8e27d9fcbe227a ready for commit 14eb424. Production insight page HTTP 200 contains all six full HTTPS image paths; all six plain asset URLs return HTTP 200 image/jpeg: dunes/shadows 233320 B; Dune 45 visitor 114398 B; D826 road 373123 B; Deadvlei 161071 B; Sesriem Canyon 405508 B; broad dunes 424984 B.",
                                "email_id":  "1a168fae0933bc9a",
@@ -1978,7 +1979,7 @@
                                              "docs/image-enrichment-progress.json"
                                          ],
                                "note":  "Six visually inspected, distinct CC BY-SA Commons photographs show Table Mountain hiking trails and hikers. Captions explicitly state that pictured people are not participants in the linked activity and do not claim its route. Exact source pages, creator, licence, capture/check date, evidence, alt/caption, restrictions, thumbnail changes and SHA-256 are recorded in the library and ledger. New source URLs and file hashes were compared against all other library assignments and every local public image; no duplicates. The prior generic Cape Town image was removed from this activity gallery. No factual guide text, renderer, relationships, UI or tracking changed. Production URL and all six plain image assets were confirmed live after push. One report sent to fsddanmugisa@gmail.com; receipt recorded.",
-                               "next_action":  "Rotate to another published destination, activity, or attraction with a verified image gap; inspect current assignments and ledgers first.",
+                               "next_action":  "Rotate to another zero-photo page across destinations, attractions, activities, travel insights and accommodations; continue Tunis walk toward 7-12 exact-subject images.",
                                "commit":  "af9b0ba",
                                "live_verification":  "2026-10-23 12:32 Africa/Kampala: production activity page HTTP 200 with title Table Mountain guided hike | Trek Africa Guide; all six expected filenames appear in rendered page HTML. All six plain JPEG URLs return HTTP 200 image/jpeg: initial-ascent 751132 B; Platteklip trail 1476674 B; upper view 241328 B; hikers 531182 B; gorge view 576475 B; trailhead sign 566838 B. No separate deployment record checked.",
                                "email_id":  "1a1681b44ab4bd41",
@@ -2003,7 +2004,7 @@
                                              "docs/image-enrichment-progress.json"
                                          ],
                                "note":  "Added one visually inspected, exact-property Commons image to the existing one-photo gallery. Creator, CC BY-SA 2.0 evidence, Flickr review, capture/check dates, subject, alt, archival caption, restrictions and SHA-256 are recorded in the library and dated ledger. Source URL and image hash were checked against all photo-library records and local public images; no duplicates. Focused review found no eligible current room, bathroom, reception, pool, dining or activity-centre views. No factual prose, relationships, layout, booking or tracking changed.",
-                               "next_action":  "Continue accommodation rotation to another published property with newly evidenced licensed exact-property photography; do not repeat unchanged blocked searches.",
+                               "next_action":  "Rotate to another zero-photo page across destinations, attractions, activities, travel insights and accommodations; continue Tunis walk toward 7-12 exact-subject images.",
                                "commit":  "3415492868f74d86528943fd8e9fe5a585857a38",
                                "live_verification":  "2026-10-22 16:31 Africa/Kampala: production accommodation page HTTP 200 includes property-patio-2010.jpg and See all 2. The plain image URL returns HTTP 200 image/jpeg (340868 bytes).",
                                "email_id":  "1a163d0002fb4640",
@@ -2034,7 +2035,7 @@
                                "email_id":  "1a1507dd5e18bd1d",
                                "note":  "Commit 31253b2 pushed to origin/main. All six distinct Commons files visually reviewed; subject, original file page, creator and reuse terms are recorded in the dated source ledger and image library. No selected source duplicates another detail-page collection. Rejected a similarly named Commons ferry-jump photograph after visual review; it is distinct from the existing Mtoni Marine photo and neither was reused. Removed a pre-existing trailing comma from the Elmina record in content/local-destinations.json, introduced by 4ef39be, as a syntax-only repair so the collection parses. Historical deployment note: the earlier pending check below was superseded by live confirmation at 2026-10-19 15:19 Africa/Kampala.",
                                "publication_email_id":  "1a1541a74afa6ffa",
-                               "next_action":  "Rotate to one published attraction with missing or unsuitable photos; review latest editorial activity and source inventory before selection."
+                               "next_action":  "Rotate to another zero-photo page across destinations, attractions, activities, travel insights and accommodations; continue Tunis walk toward 7-12 exact-subject images."
                            },
                            {
                                "id":  "les-paletuviers-photo-source-review",
@@ -2051,7 +2052,7 @@
                                              "docs/editorial-research/2026-10-20-les-paletuviers-photo-review.md"
                                          ],
                                "live_verification":  "2026-10-20 04:03 Africa/Kampala: existing live hotel guide https://trekafricaguide.com/accommodations/les-paletuviers/ HTTP 200; detail gallery remains in empty/no-photo state. Separate previously published Victoria Falls Knife Edge JPEG bare URL returns HTTP 200 image/jpeg; earlier stale-edge 404 is resolved.",
-                               "next_action":  "Continue accommodation rotation with another published zero-photo property and a focused search for licensed exact-property photography.",
+                               "next_action":  "Rotate to another zero-photo page across destinations, attractions, activities, travel insights and accommodations; continue Tunis walk toward 7-12 exact-subject images.",
                                "note":  "Exact-property IMAGO image is paid rights-managed; Commons result depicts regional mangroves, not the hotel; official gallery and third-party guest images lacked verified reuse rights. Retained neutral no-photo behavior; no image or copy changes.",
                                "email_id":  "1a156d3776e5aaf3",
                                "report_sent_at":  "2026-10-20 04:03 Africa/Kampala"
@@ -2080,7 +2081,7 @@
                                              "docs/image-enrichment-progress.json"
                                          ],
                                "live_verification":  "2026-10-20 04:25 Africa/Kampala: production detail page HTTP 200, shows See all 6, and references all six expected paths. Five assets returned HTTP 200 image/jpeg; medina-street.jpg returned HTTP 404. Deployment is live with one asset still pending availability. Follow-up in same run: medina-street.jpg now returns HTTP 200 image/jpeg at both plain and cache-bypassed URL; all six assets confirmed available.",
-                               "next_action":  "Rotate to a published travel insight with missing relevant photos; no pending Marrakech asset.",
+                               "next_action":  "Rotate to another zero-photo page across destinations, attractions, activities, travel insights and accommodations; continue Tunis walk toward 7-12 exact-subject images.",
                                "note":  "Six visually inspected, distinct contextual Commons photographs added. Five visible tiles plus See all 6; none represents the named tour or its guide/participants. No copy edits.",
                                "email_id":  "1a156eadd451a52b",
                                "report_sent_at":  "2026-10-20 04:26 Africa/Kampala"
@@ -2109,7 +2110,7 @@
                                              "docs/image-enrichment-progress.json"
                                          ],
                                "live_verification":  "2026-10-20 04:45 Africa/Kampala: production detail page HTTP 200, contains six figure elements, six expected image paths and six image tags (one separate site image); all six requested JPEG assets return HTTP 200 image/jpeg. Initial relative asset paths were stripped by sanitizer; corrected to same-site absolute HTTPS URLs in commit ccd536d and confirmed deployed.",
-                               "next_action":  "Rotate to another published travel insight without a useful relevant photo collection.",
+                               "next_action":  "Rotate to another zero-photo page across destinations, attractions, activities, travel insights and accommodations; continue Tunis walk toward 7-12 exact-subject images.",
                                "note":  "Six unique, visually inspected contextual Commons photographs. Alternate sources from existing Cape Town local guide; no accommodation/property representation. Hero remains unset. Corrected figure URLs to same-site absolute HTTPS paths accepted by existing sanitizer; original relative paths were stripped.",
                                "email_id":  "1a156fd008ee3089",
                                "report_sent_at":  "2026-10-20 04:46 Africa/Kampala",
@@ -2139,7 +2140,7 @@
                                              "docs/image-enrichment-progress.json"
                                          ],
                                "live_verification":  "2026-10-20 06:23 Africa/Kampala: production detail page HTTP 200, contains all six expected gallery references; all six JPEG assets return HTTP 200.",
-                               "next_action":  "Rotate to another published zero-photo destination; prioritize feasible licensed exact-location collections.",
+                               "next_action":  "Rotate to another zero-photo page across destinations, attractions, activities, travel insights and accommodations; continue Tunis walk toward 7-12 exact-subject images.",
                                "note":  "Six distinct exact-Elmina Commons photos, not the Castle attraction collection. Hero uses first gallery image; total collection remains six.",
                                "email_id":  "1a157565b99649ad",
                                "report_sent_at":  "2026-10-20 06:24 Africa/Kampala"
@@ -2168,7 +2169,7 @@
                                              "docs/image-enrichment-progress.json"
                                          ],
                                "live_verification":  "2026-10-20 10:28 Africa/Kampala: production attraction detail HTTP 200, includes all six expected image paths and ÃƒÆ’Ã…Â½ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â£See all 6ÃƒÆ’Ã…Â½ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¥; all six assets return HTTP 200 image/jpeg.",
-                               "next_action":  "Rotate to the next published attraction with an image gap; continue checking source uniqueness across every detail collection.",
+                               "next_action":  "Rotate to another zero-photo page across destinations, attractions, activities, travel insights and accommodations; continue Tunis walk toward 7-12 exact-subject images.",
                                "note":  "Replaced the previously shared stock hero because it is also assigned to the Senegal country detail. Six new distinct licensed exact-delta photos are used in this attraction detail gallery.",
                                "commit":  "9d2e5d5",
                                "email_id":  "1a1583638931b365",
@@ -2189,7 +2190,7 @@
                                              "docs/editorial-research/2026-10-20-kibale-forest-camp-image-review.md"
                                          ],
                                "live_verification":  "2026-10-20 Africa/Kampala: production accommodation detail HTTP 200; gallery rendered the neutral empty-state element with the camp name and no property image.",
-                               "next_action":  "Review published zero-photo Red Chilli Rest Camp for exact-property reusable images; revisit Kibale Forest Camp only if licensed property photos or direct owner permission become available.",
+                               "next_action":  "Rotate to another zero-photo page across destinations, attractions, activities, travel insights and accommodations; continue Tunis walk toward 7-12 exact-subject images.",
                                "note":  "Focused review found the operator gallery without reuse terms, an exact-camp Flickr photo marked All rights reserved, and reusable Commons park forest imagery that is not the camp. No candidate was copied or used as a property substitute.",
                                "commit":  "c34afd2",
                                "email_id":  "1a158cc324843fdc",
@@ -2213,7 +2214,7 @@
                                              "docs/image-enrichment-progress.json"
                                          ],
                                "live_verification":  "2026-10-20 Africa/Kampala: production activity page HTTP 200 and markup displays ÃƒÆ’Ã…Â½ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â£See all 6ÃƒÆ’Ã…Â½ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¥; all six distinct image asset URLs returned HTTP 200 with image/jpeg.",
-                               "next_action":  "Rotate to another published zero-photo activity or attraction; retain blocked property-rights follow-ups unless new licensed exact-property evidence appears.",
+                               "next_action":  "Rotate to another zero-photo page across destinations, attractions, activities, travel insights and accommodations; continue Tunis walk toward 7-12 exact-subject images.",
                                "note":  "Six visually inspected Creative Commons images depict Zambezi rafting near Victoria Falls or the Batoka Gorge river. No operator, named participant, or tour-participant claim is attached. Duplicates were checked by source URL and SHA-256 against the photo library.",
                                "email_id":  "1a1590d5a34f4b6c",
                                "report_sent_at":  "2026-10-20 14:23 Africa/Kampala"
@@ -2241,7 +2242,7 @@
                                "report_sent_at":  "2026-10-20 16:27 Africa/Kampala",
                                "live_verification":  "2026-10-21 13:16 Africa/Kampala: production article HTTP 200 contains all six expected image references; all six plain JPEG URLs HTTP 200 image/jpeg. Previous deployment pending state resolved.",
                                "publication_email_id":  "1a15df681ac3f218",
-                               "next_action":  "Rotate to a published destination photo gap after reviewing current editorial activity."
+                               "next_action":  "Rotate to another zero-photo page across destinations, attractions, activities, travel insights and accommodations; continue Tunis walk toward 7-12 exact-subject images."
                            },
                            {
                                "id":  "buhoma-local-destination-three-photo-partial",
@@ -2262,7 +2263,7 @@
                                              "docs/image-enrichment-progress.json"
                                          ],
                                "note":  "Three visually reviewed, distinct and licensed exact-Buhoma photographs: archival 2017 trek departure, a separate 2017 park-headquarters briefing and a 2016 female Mubare Group gorilla. The library dedup check covered source pages and hashes against all local image assets. Excluded the archival Batwa performance frame, a visitor-center construction photo and identifiable community-conflict portraits. This is a useful partial collection; it does not meet the six-photo target. No factual text was changed. Focused rights follow-up on 2026-10-21 found no additional eligible exact-Buhoma image; rejected rights-restricted, non-commercial, under-resolution, unclear-license and unlicensed gallery leads are recorded in the source ledger. No live recheck or duplicate email.",
-                               "next_action":  "Rotate to a different published attraction with an image gap and feasible licensed sources. Buhoma remains a three-photo partial; revisit only if new reusable exact-place evidence appears.",
+                               "next_action":  "Rotate to another zero-photo page across destinations, attractions, activities, travel insights and accommodations; continue Tunis walk toward 7-12 exact-subject images.",
                                "commit":  "f2ae5be",
                                "live_verification":  "2026-10-21 19:54 Africa/Kampala: production Buhoma detail HTTP 200 shows See all 3 and references all three expected image paths; all three plain JPEG URLs return HTTP 200 image/jpeg.",
                                "email_id":  "1a15f6378371b81c",
@@ -2286,7 +2287,7 @@
                                              "docs/image-enrichment-progress.json"
                                          ],
                                "note":  "Replaced two generic stock images with six visually inspected licensed photographs: five Kakum National Park forest/canopy contexts and Cape Coast Castle entrance. Original source/license/creator/capture date/evidence and local SHA-256 are in the ledger and photo library. Exact source URL and hash dedup was checked against all assignments and local public images. No copy changes.",
-                               "next_action":  "Rotate to another published attraction with a missing or unsuitable photo collection; review current editorial activity and global source inventory before selection.",
+                               "next_action":  "Rotate to another zero-photo page across destinations, attractions, activities, travel insights and accommodations; continue Tunis walk toward 7-12 exact-subject images.",
                                "commit":  "789e711",
                                "live_verification":  "2026-10-22 01:35 Africa/Kampala: production attraction detail HTTP 200 contains all six expected image filenames; all six plain JPEG URLs return HTTP 200 image/jpeg.",
                                "email_id":  "1a1612367c43087f",
@@ -2313,7 +2314,7 @@
                                              "docs/image-enrichment-progress.json"
                                          ],
                                "note":  "Added three visually inspected, distinct exact-property licensed images (May 2012 terrace/facade; July 2019 historical hotel-kitchen staff; October 2012 hotel-branded tableware) to the existing six-photo gallery. Original pages, creator/license versions, evidence, capture/check dates, alt/captions, restrictions and SHA-256 hashes are recorded in the dated ledger and photo library. Deduplicated source URLs and hashes across all local image assignments. No guide prose or renderer changes. Nine useful photos are published as a partial collection; no rooms or bathrooms had verified reusable images.",
-                               "next_action":  "Only revisit this property if newly verifiable reusable room, bathroom, reception, or current dining imagery is found; do not repeat the broad Commons search. Otherwise rotate to another published property with newly evidenced licensed imagery.",
+                               "next_action":  "Rotate to another zero-photo page across destinations, attractions, activities, travel insights and accommodations; continue Tunis walk toward 7-12 exact-subject images.",
                                "commit":  "d9854c8",
                                "live_verification":  "2026-10-22 04:19 Africa/Kampala: production accommodation detail HTTP 200; page includes See all 9 and all three new image filenames. All three plain JPEG URLs return HTTP 200 image/jpeg.",
                                "email_id":  "1a16131935e37816",
@@ -2338,7 +2339,7 @@
                                              "docs/image-enrichment-progress.json"
                                          ],
                                "note":  "Six visually inspected, distinct Creative Commons photographs support the articleÃƒÆ’Ã…Â½ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“s Zimbabwe/Zambia falls viewpoints, rainforest, Knife Edge, Victoria Falls Bridge and upstream Zambezi context. Original source pages, creators, licence versions, capture dates, evidence, review date, alt text, captions, restrictions and SHA-256 hashes are recorded in the source ledger and photo library. No duplicates against other library assignments; no article prose changes.",
-                               "next_action":  "Rotate to another published activity, attraction or destination with a verified image gap; inspect current image assignments before selection.",
+                               "next_action":  "Rotate to another zero-photo page across destinations, attractions, activities, travel insights and accommodations; continue Tunis walk toward 7-12 exact-subject images.",
                                "commit":  "261545f",
                                "live_verification":  "2026-10-22 08:29 Africa/Kampala: production travel insight HTTP 200 contains all six expected image filenames; all six plain JPEG URLs return HTTP 200 image/jpeg.",
                                "email_id":  "1a162160a66a88aa",
@@ -2363,7 +2364,7 @@
                                              "docs/image-enrichment-progress.json"
                                          ],
                                "note":  "Six distinct Commons photographs illustrate Stone TownÃƒÆ’Ã…Â½ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“s Darajani market, an archival alley scene and historic architecture. Captions state capture dates and avoid asserting the chosen tour visits a pictured landmark; the House of Wonders is explicitly dated to its 2021 exterior renovation. Creator, licence version, source evidence, dates, alt text, restrictions and SHA-256 are documented in the dated ledger and photo library. No URL/hash duplicate across other library assignments; no factual activity copy changed.",
-                               "next_action":  "Rotate to another published activity or attraction with an evidenced photo gap; review the full page and deduplicate source URL and image hash against all detail collections.",
+                               "next_action":  "Rotate to another zero-photo page across destinations, attractions, activities, travel insights and accommodations; continue Tunis walk toward 7-12 exact-subject images.",
                                "commit":  "6a7a090",
                                "live_verification":  "2026-10-22 10:36 Africa/Kampala: production activity page HTTP 200; all six expected image filenames present and gallery shows See all 6. All six plain JPEG URLs return HTTP 200 image/jpeg.",
                                "email_id":  "1a1628bd89f1530f",
@@ -2388,7 +2389,7 @@
                                              "docs/image-enrichment-progress.json"
                                          ],
                                "note":  "Six distinct Commons photographs illustrate Toubacouta quay, Niodior island shore, a bolong near Mar Lodj, protected-waterway birds and two different pirogue contexts. Exact source, creator, capture date, licence/release, subject evidence, alt text, restrictions and SHA-256 are recorded in the dated ledger and photo library. Source URLs and file hashes were checked against all other image assignments and local assets, including the separate six-photo attraction collection; no duplicates. No factual guide copy or relationships changed.",
-                               "next_action":  "Rotate to another published destination, activity, or attraction with a verified image gap; review current assignments before selection.",
+                               "next_action":  "Rotate to another zero-photo page across destinations, attractions, activities, travel insights and accommodations; continue Tunis walk toward 7-12 exact-subject images.",
                                "commit":  "89a3b7179ed0ef3d7fe8d25647e188ff92ed9aac",
                                "live_verification":  "2026-10-22 12:31 Africa/Kampala: production Sine-Saloum page HTTP 200 includes all six image filenames and See all 6; all six plain JPEG URLs return HTTP 200 image/jpeg.",
                                "email_id":  "1a162f3feb42d4d6",
@@ -2412,7 +2413,7 @@
                                              "docs/image-enrichment-progress.json"
                                          ],
                                "note":  "Replaced two generic/default images with six distinct exact-Maasai-Mara licensed Commons photographs showing the landscape and wildlife. All six visually inspected; original source, author, licence version, capture date, evidence, alt, caption, restrictions and SHA-256 are recorded in the source ledger and library. Source URLs and hashes checked against all other photo-library records and local public images; no duplicates. No guide prose, relationships, layout or tracking changed.",
-                               "next_action":  "Rotate to another published attraction with a verified image gap; inspect current assignments before selecting sources.",
+                               "next_action":  "Rotate to another zero-photo page across destinations, attractions, activities, travel insights and accommodations; continue Tunis walk toward 7-12 exact-subject images.",
                                "commit":  "d38887c5bfabfe50bd203c4dbba63ed8ca61dac0",
                                "live_verification":  "2026-10-22 14:20 Africa/Kampala: production attraction page HTTP 200 includes all six expected image filenames and See all 6. All six plain JPEG URLs return HTTP 200 image/jpeg; a transient no-response for the landscape URL resolved on the immediate retry.",
                                "email_id":  "1a163572e83b5dbe",
@@ -2441,7 +2442,7 @@
                                              "docs/image-enrichment-progress.json"
                                          ],
                                "note":  "Six visually inspected 2023 Commons images of the exact Accra memorial park added to its published empty gallery. All six are CC BY-SA 4.0, with creator/license/date/evidence/alt/restriction and SHA-256 recorded in the library and source ledger. Source URL and SHA-256 dedup against all library assignments and local public images found no duplicates. The existing renderer, guide claims and all site-wide UI/tracking settings remain untouched.",
-                               "next_action":  "Rotate to another published attraction or activity with an evidenced image gap; inspect current assignments and ledgers first. No blocker.",
+                               "next_action":  "Rotate to another zero-photo page across destinations, attractions, activities, travel insights and accommodations; continue Tunis walk toward 7-12 exact-subject images.",
                                "commit":  "77e690c75a81ca95a40a44b6c74db5919db64ac3",
                                "live_verification":  "2026-10-23 10:59 Africa/Kampala: Netlify production deploy 6adb137e5ca452306eb366eb for commit 77e690c reported ready. Production attraction page HTTP 200 includes all six filenames and See all 6. All six plain image URLs return HTTP 200 image/jpeg: park-aerial 297639 B; central-walkway 238624 B; night-fountain-walkway 251980 B; illuminated-courtyard 227315 B; monument-framed-entrance 624167 B; mausoleum-statue-foreground 304547 B.",
                                "email_id":  "1a167c542e32b46c",
@@ -2466,7 +2467,7 @@
                                              "docs/image-enrichment-progress.json"
                                          ],
                                "note":  "Added six distinct, visually reviewed exact-location Pexels photos to the previously empty Giza pyramids and Grand Egyptian Museum activity gallery. All source pages are free to use under the no-attribution-required Pexels License; no public source credits are shown. Creator, source-page ID, terms, available capture/publication dates, evidence, alt text, SHA-256 and CDN transformation are recorded internally. Source-page and hash deduplication found no matches in the existing library or public assets. Guide copy, tour details, design and tracking are unchanged. Published detail and all six image assets verified; the private report was sent without source links.",
-                               "next_action":  "Rotate to a different published guide with an evidenced image gap, applying the owner preference for no-public-attribution-only assets until updated.",
+                               "next_action":  "Rotate to another zero-photo page across destinations, attractions, activities, travel insights and accommodations; continue Tunis walk toward 7-12 exact-subject images.",
                                "commit":  "2a8608d7caa6f4d4a7f18d412afaa6b7bbcf4fcb",
                                "netlify_deploy":  "6adc94597840a0c0a0e39ee8",
                                "live_verification":  "2026-10-24 14:21 Africa/Kampala: Netlify production deploy 6adc94597840a0c0a0e39ee8 reported ready for commit 2a8608d7caa6f4d4a7f18d412afaa6b7bbcf4fcb. Production activity detail page returned HTTP 200 and contains all six gallery entries (last item captioned 6 / 6). Each of six plain image URLs returned HTTP 200 image/jpeg with content lengths matching the local assets.",
@@ -2502,7 +2503,7 @@
                                              "docs/image-enrichment-progress.json"
                                          ],
                                "note":  "Added four visually reviewed, distinct daylight photos to the existing six-image Kwame Nkrumah Memorial Park collection. New sources are exact Accra location Pexels photos under a license that does not require attribution. Internal records retain creator, source URL, date evidence, license, alt, location evidence and SHA-256. Source and hash duplicates were checked against all existing assignments and local public assets. The prior six CC BY-SA images and required public credits remain unchanged. No copy or site behavior changed.",
-                               "next_action":  "Rotate to another guide with an evidenced image gap using only verified no-public-attribution photos.",
+                               "next_action":  "Rotate to another zero-photo page across destinations, attractions, activities, travel insights and accommodations; continue Tunis walk toward 7-12 exact-subject images.",
                                "started_at":  "2026-10-24 16:22 Africa/Kampala",
                                "commit":  "e9506f89540abd7af2288be7c4c08e5099343447",
                                "live_verification":  "2026-10-24 20:11 Africa/Kampala: Production page shows all 10 gallery photos, including all four additions. Each new plain image URL returned HTTP 200. Netlify reports production deploy 6adce3657840a0c0a0febd96 ready for main commit 92e88032f6324a89499efb809c6216277d31d99b.",
@@ -2540,7 +2541,7 @@
                                              "docs/image-enrichment-progress.json"
                                          ],
                                "note":  "Added four visually reviewed exact-location photographs to the Zanzibar attraction gallery, increasing it from two to six. All four are Pexels License photos with verified no-attribution requirements; source, creator, date evidence, license, exact-location evidence, alt text, limitations and SHA-256 remain internal. Global source URL and image hash dedup found no duplicates. Existing two photos, hero, guide copy, tracking and site behavior remain unchanged.",
-                               "next_action":  "Rotate to another underfilled guide; continue using only verified no-public-attribution images until the owner changes this preference.",
+                               "next_action":  "Rotate to another zero-photo page across destinations, attractions, activities, travel insights and accommodations; continue Tunis walk toward 7-12 exact-subject images.",
                                "started_at":  "2026-10-25 08:10 Africa/Kampala",
                                "initial_live_verification":  "2026-10-25: Production Zanzibar attraction page returned HTTP 200 and reported See all 2 before this collection.",
                                "source_ledger_date":  "2026-10-25",
@@ -2584,7 +2585,7 @@
                                              "docs/image-enrichment-progress.json"
                                          ],
                                "note":  "Added four visually reviewed Serengeti/Seronera balloon photographs to the existing two-photo Serengeti balloon safari activity gallery. All four are exact activity/location sources under the no-attribution-required Pexels License. Internal metadata and ledger retain source, creator, date evidence, license, location support, alt text, limitations and SHA-256. Global source URL and image hash dedup found no duplicates. The two existing CC BY-SA photos and required credits remain untouched. No copy, CTA, page layout, tracking or site behavior changed.",
-                               "next_action":  "Rotate to another underfilled guide; retain the owner preference for verified no-public-attribution photos and leave existing required credits unchanged.",
+                               "next_action":  "Rotate to another zero-photo page across destinations, attractions, activities, travel insights and accommodations; continue Tunis walk toward 7-12 exact-subject images.",
                                "started_at":  "2026-10-25 08:18 Africa/Kampala",
                                "initial_live_verification":  "2026-10-25: Production activity page returned HTTP 200 and reported See all 2 before this collection.",
                                "commit":  "5601168",
@@ -2628,7 +2629,7 @@
                                              "docs/image-enrichment-progress.json"
                                          ],
                                "note":  "Added four visually inspected photographs to the previously image-empty Livingstone destination. All four match a named Zambia-side falls or local Zambezi setting, and their Pexels/Unsplash licenses do not require public attribution. Internal records retain the source, creator, license, date evidence, exact-location evidence, alt text, transformations and SHA-256. Global source and hash dedup found no matches. This is a partial collection: eligible town, museum and crafts photographs were not established. Guide prose and protected site behavior were not changed.",
-                               "next_action":  "Continue the Livingstone photo backlog only when precise no-attribution sources for the town, museum or locally made crafts with required consent are available; otherwise rotate to a separate evidenced image gap.",
+                               "next_action":  "Rotate to another zero-photo page across destinations, attractions, activities, travel insights and accommodations; continue Tunis walk toward 7-12 exact-subject images.",
                                "started_at":  "2026-10-25 15:12 Africa/Kampala",
                                "initial_live_verification":  "2026-10-25 15:12 Africa/Kampala: production Livingstone detail page returned HTTP 200 with no gallery photo controls or Livingstone image assets before this update.",
                                "source_ledger_date":  "2026-10-25",
@@ -2669,7 +2670,7 @@
                                              "docs/image-enrichment-progress.json"
                                          ],
                                "note":  "Added four visually reviewed Sossusvlei/Deadvlei scenes to the two-image attraction gallery. All four are Pexels License photographs; terms require no public attribution. Existing photos remain unchanged. Internal metadata records creators, source versions, checked license/location/date evidence, alt text, CDN scaling and SHA-256. Global source URL and hash dedup found no duplicates. No guide prose or protected site behavior changed.",
-                               "next_action":  "Rotate to another underfilled guide with verified exact-subject no-public-attribution sources; preserve existing attribution-required photos.",
+                               "next_action":  "Rotate to another zero-photo page across destinations, attractions, activities, travel insights and accommodations; continue Tunis walk toward 7-12 exact-subject images.",
                                "started_at":  "2026-10-26 07:27 Africa/Kampala",
                                "initial_live_verification":  "Production Namib Desert attraction page returned HTTP 200 and displayed See all 2 before these additions.",
                                "commit":  "9fe3ee5ff77f5a30af8d6d820aa07e120a0ccf4e",
@@ -2709,7 +2710,7 @@
                                              "docs/image-enrichment-progress.json"
                                          ],
                                "note":  "Added three visually inspected Atlas/Marrakech activity-context photographs under the Pexels License, which does not require public attribution. Oukaimeden is an exact named stop; other images provide regional context without asserting the tour route. Internal records retain source, creator, license, dates, evidence, alt and SHA-256. Global source/hash dedup found no duplicates. Corrected live count method: include all inline image hosts and gallery defaults/assignments; prior host-only checks falsely returned zero for externally hosted inline galleries. No guide prose or protected site behavior changed.",
-                               "next_action":  "Rotate to a different underfilled published guide with exact, verified no-public-attribution images; retain existing required-credit photos.",
+                               "next_action":  "Rotate to another zero-photo page across destinations, attractions, activities, travel insights and accommodations; continue Tunis walk toward 7-12 exact-subject images.",
                                "started_at":  "2026-10-26 09:37 Africa/Kampala",
                                "initial_live_verification":  "Production detail page returned HTTP 200 and showed See all 2 before this update.",
                                "commit":  "cfd3793e10911cf7e9702fea3c2e09db7d2ed139",
@@ -2747,7 +2748,7 @@
                                              "docs/image-enrichment-progress.json"
                                          ],
                                "note":  "Added one visually inspected Kinigi gorilla photograph under the no-attribution-required Pexels License to the activity gallery, increasing it from two to three. Source and exact Kinigi location evidence, creator, license, dates, alt, transformation and SHA-256 are recorded internally. Global source/hash dedup found no matches. Other regional search results did not establish a second suitable exact-subject image; no broad search or prose edit was made.",
-                               "next_action":  "Rotate to a different underfilled published guide with exact, verified no-public-attribution images; preserve existing required-credit photos.",
+                               "next_action":  "Rotate to another zero-photo page across destinations, attractions, activities, travel insights and accommodations; continue Tunis walk toward 7-12 exact-subject images.",
                                "started_at":  "2026-10-26 21:31 Africa/Kampala",
                                "initial_live_verification":  "Production activity page returned HTTP 200 and displayed See all 2 before the addition.",
                                "commit":  "484c9d1a119c4d783d1c1e6a01d41615173ff09d",
@@ -2783,7 +2784,7 @@
                                "started_at":  "2026-10-27 03:20 Africa/Kampala",
                                "initial_live_verification":  "Production attraction detail returned HTTP 200 and displayed See all 2 images. The visible existing CC BY-SA credits, hero assignment and two gallery assignments were recorded and will remain unchanged.",
                                "note":  "Added three visually inspected Pexels-license photographs with no public-attribution requirement, representing Santa Maria beach, Pedra Lume harbor and a Santa Maria building silhouette. Existing two required-credit images, visible credits and hero remain unchanged. Full guide reviewed; captions avoid claiming current swimming conditions or identifying the building as a venue. Source, creator, license evidence, dates where stated, exact-subject evidence, transformation and local SHA-256 are retained internally. Source URL and hash dedup against all local public images found no matches. Narrow syntax/JSON/mirror checks and git diff --check passed. Commit 61117ae is production-published; live guide returned HTTP 200 with five images and both original credit notices, plus all three new filenames. Each new JPEG returned HTTP 200 image/jpeg with matching content length. Source-free owner email sent; Gmail receipt 1a17abd7bc6e902b.",
-                               "next_action":  "Run mandatory photo-library sync and narrow build-input/mirror checks; commit/push only task-owned files, confirm production deployment and all five image URLs, then send a source-free report and record its Gmail receipt.",
+                               "next_action":  "Rotate to another zero-photo page across destinations, attractions, activities, travel insights and accommodations; continue Tunis walk toward 7-12 exact-subject images.",
                                "published_commit":  "61117ae5844a8e1e058b1c4354070095a8134234",
                                "published_deploy":  "6adfee9dd664a1cf1591e595",
                                "live_confirmation":  {
@@ -2831,7 +2832,7 @@
                                "started_at":  "2026-10-27 05:23 Africa/Kampala",
                                "initial_live_verification":  "Production attraction detail returned HTTP 200 and rendered the two default gallery images; curated gallery assignment also contained two. Existing CC BY-SA photos, hero and visible credits remain unchanged.",
                                "note":  "Three visually inspected exact-location Pexels License photographs added for Sidi Bou Said alley, Carthage ruins and Tunis Medina. Attribution is not required by the checked license; existing required-credit photos remain unchanged. Full guide reviewed; source, creator, checked license evidence, date/version, exact-location evidence, transformation, alt text and SHA-256 recorded internally. Global source URL/hash dedup was clean.",
-                               "next_action":  "Rotate to another underfilled guide with verified exact-subject no-public-attribution photos; preserve existing required-credit photos.",
+                               "next_action":  "Rotate to another zero-photo page across destinations, attractions, activities, travel insights and accommodations; continue Tunis walk toward 7-12 exact-subject images.",
                                "published_commit":  "65857ca8cdd9a36b6cbaa36f957e14d297cf2ae6",
                                "published_deploy":  "6ae00b6c81a9cc592a3ab244",
                                "live_confirmation":  {
@@ -2879,7 +2880,7 @@
                                "started_at":  "2026-10-27 07:20 Africa/Kampala",
                                "initial_live_verification":  "Production detail returned HTTP 200. Curated attraction gallery contains one assigned Djanet/Tassili image, reused as its hero. The page also embeds one distinct Commons image, so there are two distinct existing page images; gallery and inline/default counts were considered separately. Existing CC BY-SA image and its visible credit remain unchanged.",
                                "note":  "Added five visually inspected Pexels License photographs with no public-attribution requirement: two Djanet desert landscapes, a Djanet canyon oasis, Tassili sandstone formations and Djanet prehistoric rock engraving. Full guide reviewed; sources, creators, license evidence, versions, dates where stated, exact-location evidence, alt text and hashes are retained internally. Global source URL and local-image hash dedup were clean. No prose or protected site behavior changed.",
-                               "next_action":  "Rotate to another underfilled guide with verified exact-subject no-public-attribution photographs; preserve existing required-credit images.",
+                               "next_action":  "Rotate to another zero-photo page across destinations, attractions, activities, travel insights and accommodations; continue Tunis walk toward 7-12 exact-subject images.",
                                "published_commit":  "c216633239d9ea107020a4efe33b4c238f218349",
                                "published_deploy":  "6ae02feb223d51f0f4caff25",
                                "live_confirmation":  {
@@ -2933,7 +2934,7 @@
                                "started_at":  "2026-10-27 09:19 Africa/Kampala",
                                "initial_live_verification":  "Production activity detail returned HTTP 200. Curated gallery contained two assigned images. The complete page also includes distinct inline park images and accommodation recommendation imagery; the seven unique image URLs are not a gallery count. Existing credits are retained.",
                                "note":  "Added one visually reviewed exact-Amboseli zebra photograph under Pexels License, which does not require public attribution. Full guide reviewed and caption aligns to its Kenya Wildlife Service-led wildlife/habitat context without implying any specific game-drive route or sighting. Source version, creator, license, dates, exact-location evidence, alt text and SHA-256 are recorded internally; global URL/hash dedup was clean. A bounded location-specific search produced only this eligible Pexels photo; other Kajiado results did not confirm the park. Specific missing subjects are varied park habitats/wetland and additional wildlife scenes with explicit Amboseli evidence.",
-                               "next_action":  "Seek further clearly Amboseli-specific, varied no-public-attribution sources only when new exact-location evidence is available; current bounded source pass found one eligible Pexels photograph. Do not substitute generic Kajiado wildlife.",
+                               "next_action":  "Rotate to another zero-photo page across destinations, attractions, activities, travel insights and accommodations; continue Tunis walk toward 7-12 exact-subject images.",
                                "published_commit":  "468d1b5eab9eb088b7ee2c6b0da382feebe5227b",
                                "published_deploy":  "6ae044bd2b21feeef3276cde",
                                "live_confirmation":  {
@@ -2979,7 +2980,7 @@
                                "started_at":  "2026-10-27 11:13 Africa/Kampala",
                                "initial_live_verification":  "Production detail returned HTTP 200 and rendered See all 2 images. Two existing detail gallery images were assigned. The page also contains logo and related-card images, not extra inline article gallery images. Existing hero and gallery assets remain unchanged.",
                                "note":  "Added four visually inspected exact-Marrakesh photographs under the Pexels License, which does not require public attribution. The subjects are a medina souk, medina alley, Koutoubia rooftop cityscape and Jardin Majorelle. Full guide reviewed; no prose or protected site behavior changed. Source URLs, creators, license/version evidence, publication and capture dates, exact-location evidence, alt text and SHA-256 are recorded internally. Global source URL and SHA-256 dedup against the photo library and all local public image files found no matches. The new gallery total is six.",
-                               "next_action":  "Rotate to another genuinely underfilled guide with exact-location evidence; preserve existing required-credit images and verify actual rendered gallery counts.",
+                               "next_action":  "Rotate to another zero-photo page across destinations, attractions, activities, travel insights and accommodations; continue Tunis walk toward 7-12 exact-subject images.",
                                "published_commit":  "f07b8d83da957dd93031e41cda883e100c5e7984",
                                "published_deploy":  "6ae05f3c900c697e170e3f39",
                                "live_confirmation":  {
@@ -3030,7 +3031,7 @@
                                "started_at":  "2026-10-27 15:11 Africa/Kampala",
                                "initial_live_verification":  "Production activity detail returned HTTP 200 and displayed See all 2 images. Two existing gallery assignments/defaults are the activityÃƒÆ’Ã…Â½ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“s collection; logo and related-card images are separate page elements. Existing hero and assigned photos remain unchanged.",
                                "note":  "Added four visually reviewed, exact-Maasai-Mara balloon photographs under Pexels and Unsplash licenses that do not require public attribution. Subjects vary across aerial sunrise view, balloon over plains, an aerial balloon/wildebeest scene and a dawn lift. Full guide reviewed; no copy or protected site behavior changed. Source URLs, creators, license evidence/version, page and capture dates where stated, exact-location evidence, alt text and SHA-256 are recorded internally. Global source URL and SHA-256 dedup against the library and all local public image files found no matches. Gallery total is six.",
-                               "next_action":  "Rotate to one genuinely underfilled guide with exact-subject, no-public-attribution photos; count rendered gallery defaults and all inline images before selecting.",
+                               "next_action":  "Rotate to another zero-photo page across destinations, attractions, activities, travel insights and accommodations; continue Tunis walk toward 7-12 exact-subject images.",
                                "published_commit":  "899c4c2390316ba105c45eb33a51eb21a2c3e979",
                                "published_deploy":  "6ae0964c3abe29cd46d9119e",
                                "live_confirmation":  {
@@ -3083,7 +3084,7 @@
                                              "docs/editorial-research/2026-10-28-lalibela-attraction-photo-enrichment.md",
                                              "docs/image-enrichment-progress.json"
                                          ],
-                               "next_action":  "Rotate to another viable underfilled published guide; keep exact-subject evidence and no-public-attribution licensing preference.",
+                               "next_action":  "Rotate to another zero-photo page across destinations, attractions, activities, travel insights and accommodations; continue Tunis walk toward 7-12 exact-subject images.",
                                "published_commit":  "8de03e7020f92634b5440f2bd830fc4e8838f2b6",
                                "pushed_at":  "2026-10-28 10:12 Africa/Kampala",
                                "netlify_deploy":  "6ae1a06b29b508cb73d759ab",
@@ -3139,7 +3140,7 @@
                                              "docs/editorial-research/2026-10-29-zimbabwe-country-photo-enrichment.md",
                                              "docs/image-enrichment-progress.json"
                                          ],
-                               "next_action":  "Rotate to a genuinely fresh underfilled activity or travel insight after checking current editorial and image ledgers; do not repeat this completed country gallery.",
+                               "next_action":  "Rotate to another zero-photo page across destinations, attractions, activities, travel insights and accommodations; continue Tunis walk toward 7-12 exact-subject images.",
                                "publication":  {
                                                    "commit":  "ea9e4e1ef71e7b613f717ab2306f26f2161949f4",
                                                    "netlify_deploy":  "6ae3814ab2021285ea110e56",
@@ -3199,7 +3200,7 @@
                                              "docs/editorial-research/2026-10-30-atlas-mountains-day-trip-photo-checkpoint.md",
                                              "docs/image-enrichment-progress.json"
                                          ],
-                               "next_action":  "Rotate to a genuinely fresh published guide with an evidenced image gap; do not revisit Atlas without a distinct exact-stop or otherwise useful regional image lead.",
+                               "next_action":  "Rotate to another zero-photo page across destinations, attractions, activities, travel insights and accommodations; continue Tunis walk toward 7-12 exact-subject images.",
                                "publication":  {
                                                    "commit":  "34be6ad1b652ab38069f66e8162f87b1581014bc",
                                                    "netlify_deploy":  "6ae381d65d9be983c4fafb7f",
@@ -3255,7 +3256,7 @@
                                              "docs/editorial-research/2026-10-30-underfilled-page-inventory.md",
                                              "docs/image-enrichment-progress.json"
                                          ],
-                               "next_action":  "Inspect newly published content and concrete image leads first; review an underfilled property only when a new exact-property source lead or owner-provided licensed originals justify a bounded rights check. Do not repeat unchanged exhausted searches."
+                               "next_action":  "Rotate to another zero-photo page across destinations, attractions, activities, travel insights and accommodations; continue Tunis walk toward 7-12 exact-subject images."
                            },
                            {
                                "id":  "kampala-local-destination-four-image-partial-enrichment",
@@ -3276,7 +3277,7 @@
                                              "docs/editorial-research/2026-10-30-kampala-photo-enrichment.md",
                                              "docs/image-enrichment-progress.json"
                                          ],
-                               "next_action":  "Pursue only new credible no-public-attribution sources or owner-provided licensed originals for exact Kasubi/religious-site context, named-restaurant food and Kampala arts/craft venues; do not reuse required-attribution photos or imply visit/endorsement.",
+                               "next_action":  "Rotate to another zero-photo page across destinations, attractions, activities, travel insights and accommodations; continue Tunis walk toward 7-12 exact-subject images.",
                                "initial_live_verification":  "Production local-destination page returned HTTP 200 and displayed See all 4 images; all four new assets returned HTTP 200 image/jpeg.",
                                "publication":  {
                                                    "commit":  "fec4bd21a2454dae2406089e03731c57acdbca3f",
@@ -3328,7 +3329,7 @@
                                              "docs/editorial-research/2026-10-30-fairway-boutique-hotel-photo-checkpoint.md",
                                              "docs/image-enrichment-progress.json"
                                          ],
-                               "next_action":  "Keep the neutral property-photo state. Reopen only for owner-supplied originals with permission, written hotel reuse permission, or a distinct exact-property no-public-attribution lead; do not repeat the generic source search.",
+                               "next_action":  "Rotate to another zero-photo page across destinations, attractions, activities, travel insights and accommodations; continue Tunis walk toward 7-12 exact-subject images.",
                                "email_id":  "1a18e772a102a712",
                                "report_sent_at":  "2026-10-30 23:18 Africa/Kampala"
                            },
@@ -3374,7 +3375,7 @@
                                                        "conical-tower-1906-maciver.jpg",
                                                        "great-zimbabwe-visitors-1983-ulamm.jpg"
                                                    ],
-                               "next_action":  "Select another underfilled non-country guide from the live image inventory and verify exact-location no-public-attribution source availability before work.",
+                               "next_action":  "Rotate to another zero-photo page across destinations, attractions, activities, travel insights and accommodations; continue Tunis walk toward 7-12 exact-subject images.",
                                "email_id":  "1a1af941311e7c4d",
                                "published_commit":  "2872e9093478319ad91261bfbee56393e6df4c66",
                                "pushed_at":  "2026-11-06 09:32 Africa/Kampala",
@@ -3441,7 +3442,7 @@
                                                        "fez-medina-aerial-kyle-frost.jpg",
                                                        "merzouga-dunes-francesco-ungaro.jpg"
                                                    ],
-                               "next_action":  "Continue zero-photo accommodation review when a new exact-property no-public-attribution photo lead is available; Jollyboys Backpackers is the next unreviewed candidate.",
+                               "next_action":  "Rotate to another zero-photo page across destinations, attractions, activities, travel insights and accommodations; continue Tunis walk toward 7-12 exact-subject images.",
                                "published_commit":  "aff62250e288e31fc1fc57a8b88e0b868fdd5ce5",
                                "pushed_at":  "2026-11-06 11:49 Africa/Kampala",
                                "netlify_deploy":  "6aed94b1cd2d30fff4973473",
@@ -3502,7 +3503,7 @@
                                                        "antonine-baths-waterfront-jona-lendering.jpg",
                                                        "magon-punic-house-foundations-jona-lendering.jpg"
                                                    ],
-                               "next_action":  "Refresh the live directories and inventory on the next turn; select a new underfilled travel insight or attraction only when fresh published content or a precise eligible image lead makes it actionable.",
+                               "next_action":  "Rotate to another zero-photo page across destinations, attractions, activities, travel insights and accommodations; continue Tunis walk toward 7-12 exact-subject images.",
                                "published_commit":  "4115dc704ac1d21826bf8ac40921c99700801c0e",
                                "pushed_at":  "2026-11-06 13:24 Africa/Kampala",
                                "netlify_deploy":  "6aedaad65c6de1b89f042ecb",
@@ -3553,7 +3554,7 @@
                                "selected_images":  [
                                                        "kibale-dawn-fort-portal-kamwenge-ivan-sabayuki.jpg"
                                                    ],
-                               "next_action":  "Prioritize a bounded no-public-attribution source review for the newly published Volcanoes golden monkey trekking activity; do not use Rwanda photos to imply another country or reuse existing gorilla imagery.",
+                               "next_action":  "Rotate to another zero-photo page across destinations, attractions, activities, travel insights and accommodations; continue Tunis walk toward 7-12 exact-subject images.",
                                "mandatory_input_check":  "Passed npm run check:build-inputs after syncing src/lib/photo-library.js to public/photo-library.js; checked 2026-11-06.",
                                "published_commit":  "2a9ef256e1b012a998c305e0642f91683753796c",
                                "pushed_at":  "2026-11-06 15:32 Africa/Kampala",
@@ -3597,7 +3598,7 @@
                                "selected_images":  [
                                                        "sabyinyo-volcanoes-national-park-happy-gentille.jpg"
                                                    ],
-                               "next_action":  "After production confirms the partial image, continue with a fresh live-page candidate. Reopen Golden Monkey only for a credible exact-location no-public-attribution photo lead or owner-provided licensed original.",
+                               "next_action":  "Rotate to another zero-photo page across destinations, attractions, activities, travel insights and accommodations; continue Tunis walk toward 7-12 exact-subject images.",
                                "mandatory_input_check":  "Passed npm run check:build-inputs after syncing the source library to the public mirror; checked 2026-11-06.",
                                "published_commit":  "e8d063b48d43556c741d2f18fc0d54ec6533bcf8",
                                "pushed_at":  "2026-11-06 17:38 UTC (20:38 Africa/Kampala)",
@@ -3638,7 +3639,7 @@
                                "selected_images":  [
 
                                                    ],
-                               "next_action":  "Review The Place Resort, Tokeh as the next unreviewed exact-property candidate. Reopen Terres Touareg only for owner originals, written permission, or a specific exact-property no-public-attribution photo lead.",
+                               "next_action":  "Rotate to another zero-photo page across destinations, attractions, activities, travel insights and accommodations; continue Tunis walk toward 7-12 exact-subject images.",
                                "live_verification":  {
                                                          "checked_at":  "2026-11-06 19:49 UTC (22:49 Africa/Kampala)",
                                                          "page_http_status":  200,
@@ -3674,7 +3675,7 @@
                                                        "kakum-canopy-visitor-orva-studio.jpg",
                                                        "kakum-canopy-forest-bridge-julian-morenz.jpg"
                                                    ],
-                               "next_action":  "Select a fresh zero-image guide with precise eligible photos; do not repeat exhausted searches.",
+                               "next_action":  "Rotate to another zero-photo page across destinations, attractions, activities, travel insights and accommodations; continue Tunis walk toward 7-12 exact-subject images.",
                                "mandatory_input_check":  "Passed npm run check:build-inputs after syncing src/lib/photo-library.js to public/photo-library.js; checked 2026-11-07.",
                                "published_commit":  "73d1325fa42b6287ed59e302bda8e6c095cb5d01",
                                "netlify_deploy":  "6aee633901345c4eb42ec723",
@@ -3764,7 +3765,7 @@
                                                                                    ],
                                                          "note":  "Production serves the four-image Governors Camp gallery; all four asset URLs return HTTP 200 image/jpeg with byte counts matching the locally stored originals."
                                                      },
-                               "next_action":  "Governors\u0027 Camp remains open toward the 10ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“15 accommodation target only for newly surfaced exact-main-camp leads (verified missing subjects in the ledger: main tent exterior, tent interior, dining/mess tent, bar, river-bank paths, further in-camp wildlife). Next runs: re-run the featured-image audit on any newly published page, then continue the rotation backlog (Mfuwe Lodge CC0/CC-BY-SA deepening; reopened missing-subject pages golden-monkey and Jollyboys interiors). The small-4 partial is honest and live."
+                               "next_action":  "Rotate to another zero-photo page across destinations, attractions, activities, travel insights and accommodations; continue Tunis walk toward 7-12 exact-subject images."
                            },
                            {
                                "id":  "hilton-cabo-verde-sal-resort-exact-property-no-eligible-photo-review-2026-11-10",
@@ -3798,7 +3799,7 @@
                                                          "regional_card_image_count":  1,
                                                          "new_asset":  null
                                                      },
-                               "next_action":  "Continue the zero-own-photo accommodation rotation: The Place Resort Tokeh (review-recorded 2026-11-07 as no eligible exact-property photo), then reopen Hilton Cabo Verde Sal Resort only for owner originals, written operator permission, or a named rights-clean photographer set; missing subjects (exterior/signage, rooms, pool, restaurant, grounds) recorded in the ledger."
+                               "next_action":  "Rotate to another zero-photo page across destinations, attractions, activities, travel insights and accommodations; continue Tunis walk toward 7-12 exact-subject images."
                            },
                            {
                                "id":  "amboseli-game-drive-gallery-extended-2026-11-10",
@@ -3859,7 +3860,7 @@
                                                                                     },
                                                          "note":  "Production serves the extended Amboseli game drive gallery; each new asset returns HTTP 200 image/jpeg."
                                                      },
-                               "next_action":  "Continue the underfilled activity/attraction rotation (atlas-mountains-day-trip and murchison-falls-nile-launch-trip at 5; volcanoes-gorilla-trek and okavango-mokoro-safari at 2-3) toward 7-12; Amboseli game drive remains open for further rights-clean Commons photos (vehicles, guides, herds at marsh). Reopen exhausted zero-photo accommodations only for owner originals, written operator permission, or named rights-clean photographer sets."
+                               "next_action":  "Rotate to another zero-photo page across destinations, attractions, activities, travel insights and accommodations; continue Tunis walk toward 7-12 exact-subject images."
                            },
                            {
                                "id":  "maun-local-destination-seven-photo-gallery-2026-11-10",
@@ -3931,7 +3932,7 @@
                                                                                    ],
                                                          "note":  "Production serves the seven-image Maun gallery; all seven assets return HTTP 200 image/jpeg with byte counts matching the locally stored files."
                                                      },
-                               "next_action":  "Continue the rotation beyond the accommodation backlog (Dar Said, Maribela Hotel, Riad Rosemary, Sabyinyo Silverback Lodge, Sanctuary Gorilla Forest Camp and Hilton Cabo Verde Sal Resort all reviewed or completed this cycle): fresh zero- and low-image local-destination, attraction, activity and travel-insight pages, verifying exact subjects first. Reopen Dar Said only for missing subjects (courtyard, named room, breakfast area, hammam, terrace/grounds) - currently no rights-clean leads - for owner originals or operator permission."
+                               "next_action":  "Rotate to another zero-photo page across destinations, attractions, activities, travel insights and accommodations; continue Tunis walk toward 7-12 exact-subject images."
                            },
                            {
                                "id":  "volcanoes-national-park-four-photo-gallery-extension-2026-11-10",
@@ -4019,7 +4020,7 @@
                                                                                     },
                                                          "note":  "Production serves the ten-image Volcanoes National Park gallery; all eight editorial assets plus two stock images return HTTP 200 image/jpeg with byte counts matching locally stored files."
                                                      },
-                               "next_action":  "Rotate to accommodations or travel insights per category rotation. Volcanoes NP attraction now at 10/12 target; remaining gaps (park HQ/briefing centre, bamboo zone trail, Kinigi village scenes) recorded for future runs. Reopened-by-rights collections: Governors Camp (4/15), Golden Monkey Trek (6/12), Jollyboys (4/15) remain open for their missing subjects."
+                               "next_action":  "Rotate to another zero-photo page across destinations, attractions, activities, travel insights and accommodations; continue Tunis walk toward 7-12 exact-subject images."
                            },
                            {
                                "id":  "jollyboys-backpackers-gallery-4-to-8-2026-11-11",
@@ -4094,7 +4095,7 @@
                                                                                    ],
                                                          "note":  "Production serves the eight-image Jollyboys Backpackers gallery; all eight assets return HTTP 200 image/jpeg with byte counts matching the stored files."
                                                      },
-                               "next_action":  "Sossusvlei Lodge run still blocked_deploy_pending (re-poll until \u0027See all 3 images\u0027 renders). Continue reopened-by-rights collections: Governors Camp (4/15). Rotate to another underfilled category (zero-photo accommodations: Hilton Cabo Verde Sal Resort, The Place Resort Tokeh, Ridge Royal Hotel, Les Paletuviers, Terres Touareg Guest House, Red Chilli Rest Camp, Fairway Boutique Hotel)."
+                               "next_action":  "Rotate to another zero-photo page across destinations, attractions, activities, travel insights and accommodations; continue Tunis walk toward 7-12 exact-subject images."
                            },
                            {
                                "id":  "ridge-royal-hotel-bounded-rights-review-2026-11-12",
@@ -4118,7 +4119,7 @@
                                                          "distinct_property_image_count":  0,
                                                          "new_asset":  null
                                                      },
-                               "next_action":  "Continue zero-photo accommodation rotation; request owner originals or written permission for Ridge Royal Hotel. Re-poll Sossusvlei Lodge stale gallery."
+                               "next_action":  "Rotate to another zero-photo page across destinations, attractions, activities, travel insights and accommodations; continue Tunis walk toward 7-12 exact-subject images."
                            },
                            {
                                "id":  "red-chilli-rest-camp-no-eligible-photo-review-2026-11-12",
@@ -4161,7 +4162,7 @@
                                                          "distinct_property_image_count":  0,
                                                          "new_asset":  null
                                                      },
-                               "next_action":  "Continue the low-photo page rotation; Sossusvlei Lodge now renders its verified three-image gallery. Prioritize newly published zero-photo pages and owner-licensed property imagery."
+                               "next_action":  "Rotate to another zero-photo page across destinations, attractions, activities, travel insights and accommodations; continue Tunis walk toward 7-12 exact-subject images."
                            },
                            {
                                "id":  "sossusvlei-lodge-pushed-live-pending-2026-11-11",
@@ -4169,7 +4170,7 @@
                                "status":  "published_live_confirmed_partial",
                                "planned_target":  "Sossusvlei Lodge accommodation page (https://trekafricaguide.com/accommodations/sossusvlei-lodge/) Ã¢â‚¬â€ gallery extended 2 -\u003e 3 dedicated photos: added Frans-Banja Mulder CC BY 3.0 \u0027View from Sossusvlei Lodge in Sesriem\u0027 (Wikimedia Commons File:View from Sossusvlei Lodge - panoramio.jpg, curid 46694630, captured 2006-09-19, original 876x584 JPEG, local sha256 64af6db17f56218e15d66921e2f6615d00567c4f6b3b2b3e1eba752bc2dd436c). Commit 2d31df3 pushed to Shakesdigital/trekafricaguide main; production /photo-library.js confirmed carrying the new entry, but page HTML still renders \u0027See all 2 images\u0027 after ~20 minutes Ã¢â‚¬â€ the Netlify production build (npm ci \u0026\u0026 npm run build) has not shipped the new gallery HTML.",
                                "note":  "This run re-polled production from 07:08-07:25 UTC (10:08-10:25 Africa/Kampala, 15 attempts) on 2026-11-11, and again at 03:08 UTC (06:08 Africa/Kampala) on 2026-11-12: page still renders \u0027See all 2 images\u0027; the new asset sossusvlei-lodge-view-from-lodge-2006.jpg is absent from page HTML. All three gallery asset URLs verified HTTP 200 image/jpeg - starter sossusvlei-lodge.jpg, property-patio-2010.jpg, and the pushed 2006 view (Content-Length 620510 bytes matches local file exactly) - so the image file itself is live, but the production page HTML/gallery has not shipped the pushed entry after ~21+ hours since commit 2d31df3. Blocker persists (stale/not-shipped production gallery HTML, not a rights or asset problem); not claimed as published. No Gmail send tool in harness; owner email not attempted (email only when a collection is live-confirmed). Per protocol (~15 min guideline), this blocker is now recorded as persistent; the run remains in blocked_runs pending resolution. Resolved 2026-11-12: editorial-overrides.json explicitly listed only two images and overrode the three-image photo library. Commit 437dcf9 added the verified third path to the page override; Netlify production deploy 6af5cbaf92ac4e8216e7aed9 is ready.",
-                               "next_action":  "Continue low-photo page rotation; Sossusvlei Lodge needs seven more exact-property licensed photos to reach the accommodation target.",
+                               "next_action":  "Rotate to another zero-photo page across destinations, attractions, activities, travel insights and accommodations; continue Tunis walk toward 7-12 exact-subject images.",
                                "files":  [
                                              "src/lib/photo-library.js",
                                              "public/photo-library.js",
@@ -4238,7 +4239,7 @@
                                                          "distinct_property_image_count":  0,
                                                          "new_asset":  null
                                                      },
-                               "next_action":  "Continue low-photo rotation; seek exact-property rights-clean photos for Accra City Hotel or owner originals. Do not repeat the missed slots; normal hourly cadence resumes."
+                               "next_action":  "Rotate to another zero-photo page across destinations, attractions, activities, travel insights and accommodations; continue Tunis walk toward 7-12 exact-subject images."
                            },
                            {
                                "id":  "kasane-destination-gallery-2026-11-12-1807",
@@ -4267,7 +4268,7 @@
                                                                                  ]
                                                      },
                                "report_status":  "SENT to fsddanmugisa@gmail.com after live confirmation; Gmail message 1a1d0518ce9b50d4.",
-                               "next_action":  "Continue low-photo rotation; Kasane still needs airport, boat cruise, Kazungula Bridge and Savuti/Linyanti subjects toward 7Ã¢â‚¬â€œ12 destination target."
+                               "next_action":  "Rotate to another zero-photo page across destinations, attractions, activities, travel insights and accommodations; continue Tunis walk toward 7-12 exact-subject images."
                            },
                            {
                                "id":  "tokeh-river-number-two-destination-2026-11-12-2307",
@@ -4295,7 +4296,7 @@
                                                                                  ]
                                                      },
                                "report_status":  "SENT to fsddanmugisa@gmail.com after live confirmation; Gmail message 1a1d163d0ab03a6b.",
-                               "next_action":  "Find five more exact-location licensed photos for Tokeh or rotate to another zero-image article."
+                               "next_action":  "Rotate to another zero-photo page across destinations, attractions, activities, travel insights and accommodations; continue Tunis walk toward 7-12 exact-subject images."
                            },
                            {
                                "id":  "hilton-cabo-verde-sal-resort-rights-review-2026-11-13-0007",
@@ -4313,7 +4314,7 @@
 
                                                    ],
                                "report_status":  "NOT SENT: no collection published.",
-                               "next_action":  "Rotate to another zero-photo published article; seek owner originals or licensed exact-property Hilton Cabo Verde photos."
+                               "next_action":  "Rotate to another zero-photo page across destinations, attractions, activities, travel insights and accommodations; continue Tunis walk toward 7-12 exact-subject images."
                            }
                        ],
     "review_checkpoints":  [
@@ -4325,7 +4326,7 @@
                                    "checked_date":  "2026-11-07",
                                    "note":  "Live page HTTP 200 reviewed in full before sourcing: zero dedicated property images, one regional attraction card excluded. Bounded review found no photo establishing exact-property identity for The Place Resort, Tokeh under verified no-public-attribution rights: the only Unsplash hit is an aerial of Tokeh village beaches (Unsplash License, radwan skeiky, published 2021-01-23) whose page identifies the village beaches, not the resort, so it cannot be a property photo under the exact-property rule; Pexels \"tokeh\" results are unrelated; Wikimedia Commons has no Tokeh Beach/property files and the prior 2026-10-13 worries about ambiguous \"The Place Resort\" Commons candidates stand. Resort-owned/OTA imagery remains rights-restricted. Gap recorded: exterior/grounds, villas, restaurant, meeting spaces, property-side bay views. Page keeps neutral no-photo presentation.",
                                    "ledger":  "docs/editorial-research/2026-11-07-the-place-resort-tokeh-photo-review.md",
-                                   "next_action":  "Zero-photo accommodation pages now all carry recorded rights gaps; rotate to underfilled attraction/activity/insight pages (2026-11-06 inventory), e.g. Volcanoes National Park attraction at 2 dedicated photos."
+                                   "next_action":  "Rotate to another zero-photo page across destinations, attractions, activities, travel insights and accommodations; continue Tunis walk toward 7-12 exact-subject images."
                                }
                            ],
     "environment_observations":  [
@@ -4344,7 +4345,7 @@
                         ],
     "updated":  1,
     "last_run_at":  "2026-11-11 12:18 UTC (15:18 Africa/Kampala) Ã¢â‚¬â€ Sal Island attraction gallery extended 5 -\u003e 9 photos (4 new CC BY-SA 3.0 from Wikimedia Commons); commit 3240f05 pushed to origin/main; production page renders \"See all 9 images\", all 9 asset URLs HTTP 200 image/jpeg",
-    "next_action":  "Rotate to another zero-photo page across the five public directories. Cabo Verde insight now has one cover photo; further gallery growth needs explicit travel-insight renderer/data support.",
+    "next_action":  "Rotate to another zero-photo page across destinations, attractions, activities, travel insights and accommodations; continue Tunis walk toward 7-12 exact-subject images.",
     "current_run":  {
                         "id":  "volcanoes-golden-monkey-six-photo-gap-fill-third-pass-2026-11-11",
                         "page_url":  "https://trekafricaguide.com/activities/volcanoes-golden-monkey-trekking/",
@@ -4410,7 +4411,7 @@
                                                                             ],
                                                   "note":  "Production serves the twelve-image golden monkey gallery; all six new assets return HTTP 200 image/jpeg with byte counts matching the locally stored originals."
                                               },
-                        "next_action":  "Rotate to a fresh underfilled page. Note: the entire zero-image frontier is accommodations, and the eight reopened zero-photo accommodation collections (Governors Camp, Camp Okavango, Desert Luxury Camp, Dar Said, Maribela, Riad Rosemary, Sanctuary Gorilla Forest Camp, The Place Tokeh, plus Fairway, Kibale Forest Camp, Red Chilli, Ridge Royal, Terres Touareg, Sabyinyo, Hilton Cabo Verde, Les Paletuviers) had no exact-property free-stock leads in this run Openverse/Commons probes (Governors Camp results were all sibling properties Il Moran and Little Governors, excluded as another-property). Next useful rotations: other-category insufficient collections, or owner-supplied property photos."
+                        "next_action":  "Rotate to another zero-photo page across destinations, attractions, activities, travel insights and accommodations; continue Tunis walk toward 7-12 exact-subject images."
                     },
     "latest_review":  {
                           "id":  "casa-del-papa-exact-property-no-eligible-photo-review",
@@ -4444,6 +4445,6 @@
                                                     "regional_card_image_count":  1,
                                                     "new_asset":  null
                                                 },
-                          "next_action":  "Continue the low-photo accommodation rotation: Kruger Shalati (1/15), Les Paletuviers (0/15), Marriott Mena House Cairo (1/15), Mfuwe Lodge (1/15), Ol Tukai Lodge Amboseli (1/15), Paraa Safari Lodge (1/15), Ridge Royal Hotel (0/15), Serengeti Serena Safari Lodge (1/15), Terres Touareg Guest House (0/15), Red Chilli Rest Camp (0/15). Reopen Casa del Papa only for owner originals, written operator permission, or a named rights-clean photographer set whose source page specifically depicts this property."
+                          "next_action":  "Rotate to another zero-photo page across destinations, attractions, activities, travel insights and accommodations; continue Tunis walk toward 7-12 exact-subject images."
                       }
 }
