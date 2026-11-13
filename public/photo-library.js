@@ -3,6 +3,15 @@
 export const photoLibrary = {
   "updated_at": "2026-11-11",
   "images": {
+    "/images/editorial/great-zimbabwe-monument/great-zimbabwe-national-monument-david-holt.jpg": {
+      "slug": "great-zimbabwe-national-monument-david-holt", "local_path": "/images/editorial/great-zimbabwe-monument/great-zimbabwe-national-monument-david-holt.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Great_Zimbabwe_National_Monument.jpg", "creator": "David Holt London",
+      "license": "CC BY-SA 3.0", "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "captured_at": "1995", "sha256": "3c4700a3fd04cc21c27f674e8e306a85160f5a219e69bf5119338cfa8bd2d68e",
+      "exact_subject": true, "subject": "Great Zimbabwe National Monument, Zimbabwe", "alt": "Archival view of stone walls at Great Zimbabwe National Monument",
+      "caption": "Great Zimbabwe (David Holt London, CC BY-SA 3.0 via Wikimedia Commons).", "property": false, "kind": "photograph", "requires_attribution": true,
+      "changes": "Original Commons JPEG; no edits.", "checked_at": "2026-11-13", "exact_subject_evidence": "Commons file description names Great Zimbabwe National Monument and dates the scene to 1995."
+    },
     "/images/editorial/lalibela-local-destination/bete-ghiorgis-2004.jpg": {
       "slug": "bete-ghiorgis-2004", "local_path": "/images/editorial/lalibela-local-destination/bete-ghiorgis-2004.jpg",
       "source_page": "https://commons.wikimedia.org/wiki/File:Bet_Gyorgis_Lalibela.jpg", "creator": "Original Commons photographer (uncredited)",
