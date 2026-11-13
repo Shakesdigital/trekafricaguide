@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13 16:18 Africa/Kampala",
+  "updated_at": "2026-11-13 20:40 Africa/Kampala",
   "blocked_runs": [
     {
       "id": "network-outage-no-research-2026-11-09-1807",
@@ -48,6 +48,22 @@
     "resolved_at": "2026-10-21 13:16 Africa/Kampala"
   },
   "completed_runs": [
+    {
+      "id": "sal-island-circuit-photo-and-context-2026-11-13-1707z",
+      "page_url": "https://trekafricaguide.com/activities/sal-island-circuit-excursion/",
+      "page_type": "activity",
+      "status": "pushed_pending_live_confirmation",
+      "started_at": "2026-11-13 17:07 UTC",
+      "previous_photo_count": 0,
+      "photo_count": 2,
+      "new_photo_count": 2,
+      "selected_images": ["pedra-lume-salt-fields-krisztian-tabori.jpg", "sal-island-guided-walk-context.png"],
+      "source_ledger": "docs/editorial-research/2026-11-13-sal-island-circuit-image-enrichment.md",
+      "mandatory_input_check": "Passed sync-photo-library and check:build-inputs; no test suite run.",
+      "missing_subjects": ["Santa Maria", "Murdeira Bay", "Palmeira", "Buracona", "additional Pedra de Lume views"],
+      "report_status": "NOT SENT pending production confirmation",
+      "next_action": "Rotate to another zero-to-two-image detail page, then return to Sal circuit toward 10–17 distinct images."
+    },
     {
       "id": "lalibela-photo-and-food-context-2026-11-13-1307z",
       "page_url": "https://trekafricaguide.com/countries/ethiopia/lalibela/",

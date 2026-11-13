@@ -3,6 +3,17 @@
 export const photoLibrary = {
   "updated_at": "2026-11-13",
   "images": {
+    "/images/editorial/sal-island-circuit-excursion/pedra-lume-salt-fields-krisztian-tabori.jpg": {
+      "kind": "photograph", "slug": "pedra-lume-salt-fields-krisztian-tabori", "local_path": "/images/editorial/sal-island-circuit-excursion/pedra-lume-salt-fields-krisztian-tabori.jpg",
+      "source_page": "https://unsplash.com/photos/salt-field-view-JjRZvgvwecU", "creator": "Krisztian Tabori", "license": "Unsplash License", "license_url": "https://unsplash.com/license", "source_published_at": "2018-12-19", "checked_at": "2026-11-13",
+      "sha256": "5c81035cdb68c546a6e374c6b074c4eedb603930995ef8d00a30fa9b96395ad8", "exact_subject": true, "subject": "Pedra de Lume salt fields, Sal, Cabo Verde", "alt": "Salt pans and volcanic slopes at Pedra de Lume on Sal Island", "caption": "Salt pans at Pedra de Lume.", "property": false, "requires_attribution": false,
+      "changes": "Unsplash CDN JPEG at 1600 pixels wide; no other edits.", "exact_subject_evidence": "Unsplash page identifies Pedra Lume, Cape Verde and photographer Krisztian Tabori."
+    },
+    "/images/editorial/sal-island-circuit-excursion/sal-island-guided-walk-context.png": {
+      "kind": "generated", "slug": "sal-island-guided-walk-context", "local_path": "/images/editorial/sal-island-circuit-excursion/sal-island-guided-walk-context.png",
+      "subject": "Representative arid-island guided walk", "alt": "Travelers talking with a guide on a dry island path", "creator": "ChatGPT for Trek Africa Guide", "date": "2026-11-13", "source_page": "/photo-credits", "license": "", "license_url": "", "property": false, "exact_subject": false,
+      "sha256": "ae3a9168efaa8c7af15cf519beb4a6b100c290acd36d17ecee2c64dabe80ebc7", "generation_tool": "ChatGPT built-in image generator", "provenance": "Original representative scene, not a photograph of a specific tour, guide, travelers or Sal location."
+    },
     "/images/editorial/hotel-barmoi-freetown/lumley-beach-kefel.jpg": {
       "kind": "photograph", "slug": "lumley-beach-kefel-2005", "local_path": "/images/editorial/hotel-barmoi-freetown/lumley-beach-kefel.jpg",
       "source_page": "https://commons.wikimedia.org/wiki/File:Lumley_Beach_Freetown.JPG", "source_revision": "Wikimedia Commons file File:Lumley_Beach_Freetown.JPG, checked 2026-11-13",
@@ -12570,6 +12581,15 @@ export const photoLibrary = {
       }
     },
     "activities": {
+      "sal-island-circuit-excursion": {
+        "hero_image_url": "/images/editorial/sal-island-circuit-excursion/pedra-lume-salt-fields-krisztian-tabori.jpg",
+        "hero_image_alt": "Salt pans and volcanic slopes at Pedra de Lume on Sal Island",
+        "replaces": [],
+        "gallery": [
+          "/images/editorial/sal-island-circuit-excursion/pedra-lume-salt-fields-krisztian-tabori.jpg",
+          "/images/editorial/sal-island-circuit-excursion/sal-island-guided-walk-context.png"
+        ]
+      },
       "maasai-mara-balloon-safari": {
         "hero_image_url": "/images/stock/starter/maasai-mara.jpg",
         "hero_image_alt": "Hot-air balloon above the Maasai Mara plains, Kenya",
