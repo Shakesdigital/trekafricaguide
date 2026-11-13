@@ -3,6 +3,18 @@
 export const photoLibrary = {
   "updated_at": "2026-11-11",
   "images": {
+    "/images/editorial/cabo-2010-monte-cara.jpg": {
+      "slug": "cabo-2010-monte-cara", "local_path": "/images/editorial/cabo-2010-monte-cara.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Cabo_2010_Monte_Cara.jpg",
+      "creator": "ElsondeMadrid", "license": "Public domain", "license_url": "https://commons.wikimedia.org/wiki/File:Cabo_2010_Monte_Cara.jpg",
+      "captured_at": "2010-08-18", "sha256": "3268b54e0bbb8ea0f90662c5c4ea1214a872f19b837678394caf00d2bfa0c5cd",
+      "exact_subject": true, "subject": "Mindelo, Porto Grande Bay and Monte Cara, São Vicente, Cabo Verde",
+      "alt": "Mindelo rooftops overlooking Porto Grande Bay and Monte Cara on São Vicente, Cabo Verde.",
+      "caption": "Mindelo and Porto Grande Bay (ElsondeMadrid, public domain via Wikimedia Commons).",
+      "property": false, "kind": "photograph", "requires_attribution": false,
+      "changes": "Original Commons JPEG; no edits.", "checked_at": "2026-11-13",
+      "exact_subject_evidence": "Commons description identifies downtown Mindelo, Porto Grande Bay and Monte Cara; image visually inspected."
+    },
     "/images/editorial/masvingo-destination/masvingo-at-dusk-2019-realtino.jpg": {
       "slug": "masvingo-at-dusk-2019-realtino",
       "local_path": "/images/editorial/masvingo-destination/masvingo-at-dusk-2019-realtino.jpg",
