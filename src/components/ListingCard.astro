@@ -2,6 +2,7 @@
 import ImageSlot from './ImageSlot.astro';
 import { photoContext } from '../lib/photo-defaults.mjs';
 import { pickHero } from '../lib/images.mjs';
+import { photoLibrary } from '../lib/photo-library.js';
 const { item, type = 'attraction' } = Astro.props;
 const isInsight = type === 'insight';
 const title = item.name || item.title;
@@ -11,13 +12,16 @@ const isDestination = type === 'destination';
 const href = item.internalUrl || `/${isInsight ? 'travel-insights' : isActivity ? 'activities' : isStay ? 'accommodations' : 'attractions'}/${item.slug}`;
 const cta = isDestination ? 'View destination guide' : isInsight ? 'Read travel insight' : isActivity ? (item.cardCta || 'View Activity Detail') : isStay ? 'View stay' : 'View attraction detail';
 const location = [item.location_name, item.country?.name].filter(Boolean).join(', ');
+const cardImage = pickHero(item);
+const cardAlt = item.hero_image_url ? item.hero_image_alt || title : photoLibrary.images[cardImage]?.alt || title;
+const cardPhotoContext = isStay ? photoContext(cardImage) : '';
 ---
 <article class="listing-card" data-directory-item data-region={item.region?.slug || item.country?.region?.slug || ''} data-property-type={item.property_type || ''} data-search={[item.name, item.location_name, item.listing_summary, item.detail_intro, item.country?.name, item.region?.name, item.property_type, item.attraction?.name, item.district?.name].filter(Boolean).join(' ')} data-card-type={type} data-country={item.country?.slug || ''}>
   <a class="listing-card__image" href={href} aria-label={cta}>
-    <ImageSlot class="listing-card__slot" src={pickHero(item)} alt={item.hero_image_alt || title} />
+    <ImageSlot class="listing-card__slot" src={cardImage} alt={cardAlt} />
   </a>
   <div class="listing-card__body">
-    {isStay && photoContext(item.hero_image_url) && <small class="photo-context">{photoContext(item.hero_image_url)}</small>}
+    {cardPhotoContext && <small class="photo-context">{cardPhotoContext}</small>}
     <p class="listing-card__eyebrow">{title}{location ? ` · ${location}` : ''}</p>
     <h3><a href={href}>{title}</a></h3>
     <p>{item.excerpt || item.listing_summary || item.detail_intro || item.overview}</p>
