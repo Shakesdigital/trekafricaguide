@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T21:15:00.000Z",
+  "updated_at": "2026-11-13T21:30:00.000Z",
   "owner": "booking-links audit agent",
   "ledger": "docs/editorial-research/2026-11-08-booking-links-audit.md",
   "run_1": {
@@ -425,6 +425,20 @@
       ],
       "production_deploy": "BLOCKED: push rejected (non-fast-forward). origin/main has new commits (5b312c6, e7a5e2e) from other agents. Local commit 2deff79 on 87d12eb cannot fast-forward. Unstaged dist/ build files prevent rebase per protocol. Push blocker reported; deployment halted.
 "
+    },
+    {
+      "date": "2026-11-13",
+      "scheduled_for": "2026-11-13T21:22:00.000Z",
+      "checked": 45,
+      "pass": 45,
+      "fail": 0,
+      "fixed": 0,
+      "added": 0,
+      "new_holds": 0,
+      "notes": "Scheduled 4-hour audit rotating slice. Verified all 3 active accommodations' OTA source URLs are exact property detail pages: hilton-cabo-verde-sal-resort (Booking.com /hotel/cv/hilton-cabo-verde-sal-resort.html — HTTP202 bot-walled, exact detail path), the-place-resort-tokeh (Agoda /en-ie/the-place-resort-at-tokeh-beach-h88167521/hotel/toke-sl.html — HTTP200, exact property detail), amboseli-serena-safari-lodge (Booking.com /hotel/ke/amboseli-serena-safari-lodge.html — HTTP202 bot-walled, exact detail path). 42 GetYourGuide activity/attraction entries remain exact at t-product IDs (URL-only evidence, HTTP403). No failures, no registry changes, no rebuild, no deploy. Registry state unchanged: 45 active (3 accommodations, 20 activities, 22 attractions), 24 held (21 accommodations, 1 activity, 2 attractions), 10 unavailable.",
+      "limits": "OTA exact detail pages verified at source for active accommodations via URL path identity; production Stay22 wrapper instability persists for held entries. No rates, availability, review aggregates, checkout or attribution verified. Unrelated files and deploy archives preserved.",
+      "content_commits": [],
+      "production_deploy": "no changes to deploy"
     }
   ],
   "method_rule": "Booking.com searchresults.html with dest_type=hotel is NOT proof of an exact detail landing. Browser content wins over server URL shape; never count bot-walled bodies as verified full-detail pages. All providers require exact detail landings."
