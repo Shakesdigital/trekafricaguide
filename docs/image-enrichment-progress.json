@@ -1,5 +1,5 @@
 {
-    "updated_at":  "2026-11-13 02:10 Africa/Kampala",
+    "updated_at":  "2026-11-13 03:12 Africa/Kampala",
     "blocked_runs":  [
                          {
                              "id":  "network-outage-no-research-2026-11-09-1807",
@@ -48,6 +48,22 @@
                                "resolved_at":  "2026-10-21 13:16 Africa/Kampala"
                            },
     "completed_runs":  [
+                           {
+                               "id": "masvingo-destination-gallery-0-to-1-2026-11-13-0307",
+                               "page_url": "https://trekafricaguide.com/countries/zimbabwe/masvingo/",
+                               "page_type": "destination",
+                               "status": "published_live_confirmed",
+                               "previous_photo_count": 0,
+                               "photo_count": 1,
+                               "new_photo_count": 1,
+                               "started_at": "2026-11-13 03:07 Africa/Kampala",
+                               "source_ledger": "docs/editorial-research/2026-11-13-masvingo-destination-photo-enrichment.md",
+                               "published_commit": "79e0142",
+                               "live_verification": "Production page contains the new gallery image; JPEG asset returned HTTP 200 image/jpeg.",
+                               "missing_subjects": ["civic centre", "city library", "townscape at dusk", "local streets", "Lake Mutirikwi approach", "one more exact-city subject"],
+                               "report_status": "SENT to fsddanmugisa@gmail.com at 2026-11-13 03:12 Africa/Kampala",
+                               "email_id": "1a1d23f3f8525ac4"
+                           },
                            {
                                "id": "sal-destination-gallery-0-to-2-2026-11-13-0207",
                                "page_url": "https://trekafricaguide.com/countries/cabo-verde/sal/",
