@@ -3,6 +3,17 @@
 export const photoLibrary = {
   "updated_at": "2026-11-11",
   "images": {
+    "/images/editorial/masvingo-destination/masvingo-post-office-2023.jpg": {
+      "slug": "masvingo-post-office-2023",
+      "local_path": "/images/editorial/masvingo-destination/masvingo-post-office-2023.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Masvingo_PO.jpg",
+      "creator": "Fritz Joubert", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "captured_at": "2023-05-10", "sha256": "38983a4c4b4d4667dc91506db987e3e92e400c57733a9e0745d8f136bc118de6",
+      "exact_subject": true, "subject": "Masvingo post office, Zimbabwe", "alt": "The post office building in Masvingo, Zimbabwe.",
+      "caption": "Masvingo post office (Fritz Joubert, CC BY-SA 4.0 via Wikimedia Commons).", "property": false, "kind": "photograph",
+      "requires_attribution": true, "changes": "Original Wikimedia Commons JPEG; no edits.", "checked_at": "2026-11-13",
+      "exact_subject_evidence": "Commons file page identifies the Masvingo post office and credits the photographer's own work."
+    },
     "/images/editorial/sal-destination/santa-maria-beach-2007.jpg": {
       "slug": "santa-maria-beach-2007", "local_path": "/images/editorial/sal-destination/santa-maria-beach-2007.jpg",
       "source_page": "https://commons.wikimedia.org/wiki/File:Santa_Maria_1_(Sal,_Cabo_Verde).JPG", "source_revision": "Commons file page checked 2026-11-13",
@@ -12938,6 +12949,12 @@ export const photoLibrary = {
       }
     },
     "local_destinations": {
+      "masvingo": {
+        "hero_image_url": "/images/editorial/masvingo-destination/masvingo-post-office-2023.jpg",
+        "hero_image_alt": "The post office building in Masvingo, Zimbabwe.",
+        "replaces": [],
+        "gallery": ["/images/editorial/masvingo-destination/masvingo-post-office-2023.jpg"]
+      },
       "sal": {
         "hero_image_url": "/images/editorial/sal-destination/santa-maria-beach-2007.jpg",
         "hero_image_alt": "Boats on Santa Maria Beach on Sal island, Cabo Verde.",
