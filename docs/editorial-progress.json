@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T06:35:00Z",
+  "updated_at": "2026-11-13T05:30:00Z",
   "timezone": "Africa/Kampala",
   "next_scheduled_start": "2026-10-17T19:30:00+03:00",
   "cadence_hours": 3,
@@ -274,7 +274,7 @@
   "rotation": {
     "last_completed_category": "destinations",
     "next_category": "accommodations",
-    "next_deliverable": "Sal destination guide published 2026-11-12 (destinations rotation); next: one evidenced accommodations gap."
+    "next_deliverable": "Lalibela destination guide published 2026-11-13 (destinations rotation); next: one evidenced accommodations gap."
   },
   "current_deliverable": {
     "category": "activities",
@@ -2231,10 +2231,56 @@
       "cms_source_commit": "imported at source_commit 7a805d4; publishable-key read of editorial_documents remains RLS-blocked by design — owner-side CMS check to confirm activities/tunis-carthage-sidi-bou-said-guided-walk"
     }
   },
-  "rotation": {
-    "last_completed_category": "activities",
-    "next_category": "destinations",
-    "next_deliverable": "Tunis, Carthage and Sidi Bou Said guided walk published 2026-11-13 (activities rotation); next: one evidenced destinations gap."
-  },
-  "next_category": "destinations"
+  "destination_lalibela": {
+    "id": "lalibela",
+    "category": "destinations",
+    "started": "2026-11-13",
+    "latest_run_note": "Scheduled 05:13Z routine run; executed on schedule.",
+    "selection_evidence": "Live /countries/ethiopia/ (HTTP 200, 13 Nov 2026) has no Destinations rail; live /attractions/lalibela/ and /accommodations/maribela-hotel/ exist and are cross-linked but have no local destination anchor. Ethiopia is one of only two countries with an attraction+stay cluster but no destination guide. Progress file explicitly queues: 'Ethiopia (Lalibela — advisory-sensitive, queued)'.",
+    "scope": "New local destination Lalibela under Ethiopia (country_slug: ethiopia). Heritage town in the Amhara region, home to 11 UNESCO-inscribed rock-hewn churches (1978), active pilgrimage site since 12th century. Current formal do-not-travel advisory for Amhara region from both Smartraveller (Australia) and UK FCDO (checked 13 Nov 2026). Guide frames heritage understanding and future planning only; no recommendation to visit under present conditions. Zero-image honest publish; six-subject photo backlog logged.",
+    "files": [
+      "content/local-destinations.json",
+      "docs/editorial-research/2026-11-13-lalibela-local-destination.md",
+      "docs/editorial-progress.json"
+    ],
+    "images": 0,
+    "image_followup": "Six distinct licensed subjects: Biete Ghiorgis (St. George) cross-shaped church, Biete Mariam interior, Lasta Tukuls village, pilgrims at Timkat, church trench system, Biete Amanuel detail. Not reusable from Lalibela attraction gallery (6 images). Licensed-reuse review only.",
+    "booking_cta": "None by design: destination pages carry no hotel-booking surrogate; booking texture flows through the published Maribela Hotel stay guide (honest no-booking-link state) and the Lalibela attraction page.",
+    "relationships": {
+      "country_slug": "ethiopia",
+      "attraction_slugs": [
+        "lalibela"
+      ],
+      "activity_slugs": [],
+      "accommodation_slugs": [
+        "maribela-hotel"
+      ],
+      "travel_insight_slugs": []
+    },
+    "key_facts_checked": "UNESCO WHS 18 (inscription 1978, criteria i/ii/iii, 11 monolithic churches, two groups north/south of river Jordan, Biete Ghiorgis isolated, Lasta Tukuls village, pilgrimage since 12th c., conservation concerns, ~645 km from Addis Ababa) — checked 13 Nov 2026. Smartraveller Ethiopia: Do not travel to Amhara Regional State (where Lalibela is located), consular assistance extremely limited, updated 1 Oct 2026 still current 13 Nov 2026 — checked 13 Nov 2026. UK FCDO Ethiopia: Advises against all travel to Amhara region, flights suspended/cancelled at short notice, updated 30 Oct 2026 still current 13 Nov 2026 — checked 13 Nov 2026. Live Trek pages (Ethiopia country, Lalibela attraction, Maribela Hotel) — all checked 13 Nov 2026. Ethiopia visa (online), yellow fever required, malaria except >2000m — per FCDO/Smartraveller.",
+    "build_checks": "check-build-inputs passed; production build 169 pages (EDITORIAL_CMS_SYNC=false); readability guard passed on 174 pages; dist verified pre-push: standard 8-section destination h2 flow (Explore Lalibela, Highlights, Getting there and around, Best time to visit, Planning your stay, Attractions to explore, Where to stay, Travel insights), all cross-links present (attraction x1, stay x1, country x1), title correct, no markup leak.",
+    "cms": "Production deploy imports the record at source_commit; publishable-key read of local_destinations stays blocked/404 — owner-side CMS check to confirm local_destinations/lalibela (standard, pending).",
+    "next_action": "Rotate to accommodations next run; six-subject photo backlog tracked in the ledger; CMS owner-side check pending (standard).",
+    "next_category": "accommodations",
+    "status": "published_live_confirmed",
+    "content_commit": "21b21c4",
+    "publication": {
+      "content_commit": "21b21c4",
+      "pushed_to": "main",
+      "push_result": "success (da8c2c3..21b21c4)",
+      "pushed_at": "2026-11-13",
+      "live_url": "https://trekafricaguide.com/countries/ethiopia/lalibela/",
+      "live_http_status": 200,
+      "checked_at": "2026-11-13",
+      "live_distinctive_text": "Lalibela, Ethiopia | Trek Africa Guide",
+      "live_checks": {
+        "detail": "HTTP 200 (38,102 bytes); title correct; 8-section destination h2 flow; distinctive copy renders (UNESCO 1978, 11 monolithic churches, Biete Ghiorgis, Lasta Tukuls, Smartraveller/FCDO do-not-travel Amhara framing, Lalibela Airport LLI, 645 km from Addis, Timkat/Meskel religious feasts, visa/yellow fever/insurance caveats); honest zero-image state; no exposed markup.",
+        "cards": "Attractions to explore renders Lalibela attraction card; Where to stay renders Maribela Hotel card (both targets live HTTP 200).",
+        "country_rail": "Ethiopia country page now renders 'Destinations in Ethiopia' with Lalibela card (was absent this run).",
+        "archive_home": "Countries archive (Destinations page) lists ETHIOPIA → Lalibela card; homepage search lists the guide.",
+        "internal_links": "All cross-link targets live HTTP 200 (Ethiopia country, Lalibela attraction, Maribela Hotel stay)."
+      },
+      "cms_source_commit": "imported at source_commit 21b21c4; publishable-key read of local_destinations stays blocked — owner-side CMS check to confirm local_destinations/lalibela"
+    }
+  }
 }
