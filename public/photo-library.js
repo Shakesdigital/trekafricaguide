@@ -3,6 +3,15 @@
 export const photoLibrary = {
   "updated_at": "2026-11-11",
   "images": {
+    "/images/editorial/lalibela-local-destination/bete-ghiorgis-2004.jpg": {
+      "slug": "bete-ghiorgis-2004", "local_path": "/images/editorial/lalibela-local-destination/bete-ghiorgis-2004.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Bet_Gyorgis_Lalibela.jpg", "creator": "Original Commons photographer (uncredited)",
+      "license": "CC0 1.0", "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "captured_at": "2004-11-28", "sha256": "c069e97dbfa84b1a8ab2c30c8948ef2973f500d3ca25ef71da2c78600ab9a6f4",
+      "exact_subject": true, "subject": "Biete Ghiorgis, Lalibela, Ethiopia", "alt": "Archival view of the cross-shaped Biete Ghiorgis church carved into rock at Lalibela",
+      "caption": "Biete Ghiorgis, Lalibela (CC0 via Wikimedia Commons).", "property": false, "kind": "photograph", "requires_attribution": false,
+      "changes": "Original Commons JPEG; no edits.", "checked_at": "2026-11-13", "exact_subject_evidence": "Commons file category identifies Biete Ghiorgis; the image visibly shows its cross-shaped roof."
+    },
     "/images/editorial/lalibela-local-destination/lalibela-town-panorama-2012.jpg": {
       "slug": "lalibela-town-panorama-2012", "local_path": "/images/editorial/lalibela-local-destination/lalibela-town-panorama-2012.jpg",
       "source_page": "https://commons.wikimedia.org/wiki/File:View_of_Lalibela.jpg", "creator": "Bernard Gagnon",

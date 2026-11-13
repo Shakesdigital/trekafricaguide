@@ -13,3 +13,9 @@ Live page: https://trekafricaguide.com/countries/ethiopia/lalibela/ (HTTP 200 be
 - Distinct source photo; no existing use in the photo library.
 
 Remaining subjects: Biete Ghiorgis, Biete Mariam interior, Lasta Tukuls, Timkat pilgrims, church trench system, Biete Amanuel detail. The prior placeholder paths are not publishable assets. Do not reuse the existing Lalibela attraction collection across this destination collection.
+
+## 10:07 Africa/Kampala follow-up
+
+- Added Biete Ghiorgis roof view: https://commons.wikimedia.org/wiki/File:Bet_Gyorgis_Lalibela.jpg. Commons identifies the Biete Ghiorgis subject and CC0 1.0 dedication; structured data dates the photograph 28 November 2004. Original photographer is not credited on the source page. The visible cross-shaped carved roof confirms the subject. Original JPEG, no edits.
+- Local file: `public/images/editorial/lalibela-local-destination/bete-ghiorgis-2004.jpg`; SHA-256 `c069e97dbfa84b1a8ab2c30c8948ef2973f500d3ca25ef71da2c78600ab9a6f4`. Alt: archival view of the cross-shaped Biete Ghiorgis church carved into rock at Lalibela.
+- This is a distinct Commons file from the four images used by the Lalibela attraction collection. Destination gallery is now two, still below the seven-photo target. Remaining subjects: Biete Mariam interior, Lasta Tukuls, Timkat pilgrims, church trench system, Biete Amanuel detail.
