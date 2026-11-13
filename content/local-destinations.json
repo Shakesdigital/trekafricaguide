@@ -1275,16 +1275,9 @@
     "travel_insight_slugs": [],
     "sort_order": 20,
     "status": "published",
-    "hero_image_url": "/images/editorial/lalibela-local-destination/bete-ghiorgis-2018.jpg",
-    "hero_image_alt": "Archival 2018 view of Biete Ghiorgis, the cross-shaped rock-hewn Church of St. George at Lalibela; not current access information",
-    "gallery": [
-      "/images/editorial/lalibela-local-destination/bete-ghiorgis-2018.jpg",
-      "/images/editorial/lalibela-local-destination/bete-mariam-interior-2015.jpg",
-      "/images/editorial/lalibela-local-destination/lasta-tukuls-village.jpg",
-      "/images/editorial/lalibela-local-destination/pilgrims-timkat-2019.jpg",
-      "/images/editorial/lalibela-local-destination/church-trench-system.jpg",
-      "/images/editorial/lalibela-local-destination/bete-amanuel-detail.jpg"
-    ],
+    "hero_image_url": "/images/editorial/lalibela-local-destination/lalibela-town-panorama-2012.jpg",
+    "hero_image_alt": "Archival 2012 panorama of Lalibela town in Ethiopia; not current access information",
+    "gallery": ["/images/editorial/lalibela-local-destination/lalibela-town-panorama-2012.jpg"],
     "last_researched": "2026-11-13",
     "research_sources": [
       {

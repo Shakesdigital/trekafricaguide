@@ -3,6 +3,15 @@
 export const photoLibrary = {
   "updated_at": "2026-11-11",
   "images": {
+    "/images/editorial/lalibela-local-destination/lalibela-town-panorama-2012.jpg": {
+      "slug": "lalibela-town-panorama-2012", "local_path": "/images/editorial/lalibela-local-destination/lalibela-town-panorama-2012.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:View_of_Lalibela.jpg", "creator": "Bernard Gagnon",
+      "license": "CC BY-SA 3.0", "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "captured_at": "2012-11-08", "sha256": "ca50e3cd97ec6cc32483ece0b88a0f325e716c5be9575872ef6a998a3b99f5a6",
+      "exact_subject": true, "subject": "Lalibela town, Ethiopia", "alt": "Archival 2012 panorama of Lalibela town in Ethiopia; not current access information",
+      "caption": "Lalibela town (Bernard Gagnon, CC BY-SA 3.0 via Wikimedia Commons).", "property": false, "kind": "photograph", "requires_attribution": true,
+      "changes": "Original Commons JPEG; no edits.", "checked_at": "2026-11-13", "exact_subject_evidence": "Commons file description identifies Lalibela, Ethiopia and provides camera coordinates."
+    },
     "/images/editorial/tunis-carthage-guided-walk/antonine-baths-carthage-tico.jpg": {
       "slug": "antonine-baths-carthage-tico", "local_path": "/images/editorial/tunis-carthage-guided-walk/antonine-baths-carthage-tico.jpg",
       "source_page": "https://commons.wikimedia.org/wiki/File:Antonine_Baths_Carthage.jpg", "creator": "Tico", "license": "Public domain", "license_url": "https://commons.wikimedia.org/wiki/File:Antonine_Baths_Carthage.jpg",
