@@ -18,7 +18,7 @@ export const photoLibrary = {
     "/images/editorial/great-zimbabwe-monument/great-enclosure-path-illustration.png": {
       "kind": "generated", "slug": "great-enclosure-path-illustration", "local_path": "/images/editorial/great-zimbabwe-monument/great-enclosure-path-illustration.png",
       "subject": "Representative dry-stone wall and visitor path inspired by Great Zimbabwe",
-      "alt": "AI-generated illustration of a person walking beside an imagined dry-stone wall; not an actual photograph of Great Zimbabwe",
+      "alt": "A person walking beside dry-stone walls in a representative heritage-site scene",
       "creator": "ChatGPT for Trek Africa Guide", "date": "2026-11-13", "source_page": "/photo-credits", "license": "", "license_url": "",
       "property": false, "exact_subject": false, "sha256": "383416fdca6a5dafbbf92f9207269f4132dd00cb26e2171a2de71078b80f2c43",
       "generation_tool": "ChatGPT built-in image generator", "provenance": "Original representative composition; not documentary photography of an exact viewpoint."
@@ -34,7 +34,7 @@ export const photoLibrary = {
       "kind": "generated", "slug": "lalibela-highlands-illustration",
       "local_path": "/images/editorial/lalibela-local-destination/lalibela-highlands-illustration.png",
       "subject": "Representative Ethiopian highland scene near Lalibela",
-      "alt": "AI-generated illustration of Ethiopian highlands with two people walking beside rural homes; not an actual photograph of Lalibela",
+      "alt": "Two people walking beside rural homes in a highland landscape",
       "creator": "ChatGPT for Trek Africa Guide", "date": "2026-11-13",
       "source_page": "/photo-credits", "license": "", "license_url": "",
       "property": false, "exact_subject": false,
