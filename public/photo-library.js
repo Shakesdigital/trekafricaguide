@@ -3,6 +3,22 @@
 export const photoLibrary = {
   "updated_at": "2026-11-13",
   "images": {
+    "/images/editorial/lalibela-local-destination/lalibela-church-worshipper-pexels-12344920.jpg": {
+      "kind": "photograph", "slug": "lalibela-church-worshipper-pexels-12344920", "local_path": "/images/editorial/lalibela-local-destination/lalibela-church-worshipper-pexels-12344920.jpg",
+      "source_page": "https://www.pexels.com/photo/man-in-turban-sitting-on-ledge-using-phone-12344920/", "creator": "Ludo Van den Nouweland",
+      "license": "Pexels License", "license_url": "https://www.pexels.com/license/", "captured_at": "2017-11-13", "checked_at": "2026-11-13",
+      "sha256": "31fcaa5b3a5fbf2754f9c15f33ec41ebde9cfcf9e15d3360e8a26c91a9151c0d", "exact_subject": true,
+      "subject": "Man seated among the rock-hewn churches of Lalibela", "alt": "A man seated beside carved stonework at Lalibela's rock-hewn churches",
+      "caption": "A quiet moment among Lalibela's rock-hewn churches.", "property": false, "requires_attribution": false,
+      "changes": "Pexels image resized by its CDN to 1600 pixels; no other edits.", "exact_subject_evidence": "Pexels image page identifies Lalibela, Amhara, Ethiopia; camera and capture date provided."
+    },
+    "/images/editorial/lalibela-local-destination/ethiopian-injera-meal-context.png": {
+      "kind": "generated", "slug": "ethiopian-injera-meal-context", "local_path": "/images/editorial/lalibela-local-destination/ethiopian-injera-meal-context.png",
+      "subject": "Representative Ethiopian injera meal", "alt": "Injera served with vegetables and lentil dishes beside a cup of coffee",
+      "creator": "ChatGPT for Trek Africa Guide", "date": "2026-11-13", "source_page": "/photo-credits", "license": "", "license_url": "",
+      "property": false, "exact_subject": false, "sha256": "c052be53e5bb46097c9ec6549bb575ea0618c9a8967c70caf3e85c5cbe468e8e",
+      "generation_tool": "ChatGPT built-in image generator", "provenance": "Original contextual food composition; not documentary photography of a Lalibela restaurant or actual meal."
+    },
     "/images/editorial/great-zimbabwe-monument/great-enclosure-2015-schertzer.jpg": {
       "kind": "photograph", "slug": "great-enclosure-2015-schertzer", "local_path": "/images/editorial/great-zimbabwe-monument/great-enclosure-2015-schertzer.jpg",
       "source_page": "https://commons.wikimedia.org/wiki/File:Great_inclosure_-_Great_Zimbabwe_(15).jpg", "creator": "Fanny Schertzer",
