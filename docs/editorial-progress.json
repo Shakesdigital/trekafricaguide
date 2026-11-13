@@ -2400,5 +2400,45 @@
    }
   },
   "cms": "Publishable-key reconcile 2026-11-13: travel_articles 200 (rows present), local_destinations 404 (schema cache), editorial_documents 401 to anon (RLS by design); no writes attempted - owner-side CMS check to confirm accommodations/hotel-barmoi-freetown imported."
+ },
+ "travel_insight_plan_first_sierra_leone_visit": {
+  "id": "plan-first-sierra-leone-visit-freetown-peninsula-coast",
+  "category": "travel_insights",
+  "started": "2026-11-13",
+  "latest_run_note": "Scheduled 2h routine run; executed on schedule.",
+  "selection_evidence": "Live Sierra Leone country page (HTTP 200, 13 Nov 2026) explicitly frames a planning decision: 'Sierra Leone's Freetown Peninsula coast is a strong starting point... Tokeh and River Number Two provide different settings for accommodation and day visits, and their proximity should not obscure practical differences in access, services and community arrangements.' The published cluster includes Tokeh destination, Tokeh attraction, The Place Resort stay, and Hotel Barmoi stay — but the travel-insights archive (HTTP 200, 13 Nov 2026) contained zero Sierra Leone stories.",
+  "scope": "New travel insight: plan-first-sierra-leone-visit-freetown-peninsula-coast (Practical travel, Sierra Leone) — Freetown city vs Tokeh vs River Number Two base choice, visa and health declaration, Lungi ferry/helicopter transfer reality, seasonality (dry Nov–Apr, wet May–Oct, harmattan Dec–Feb), confirm-before-you-book checklist, packing from official sources. Zero-image honest publish; six-subject photo backlog logged.",
+  "files": [
+   "content/editorial-overrides.json",
+   "docs/editorial-research/2026-11-13-sierra-leone-first-visit-insight.md",
+   "docs/editorial-progress.json"
+  ],
+  "images": 0,
+  "image_followup": "Six distinct licensed subjects: Freetown Peninsula aerial coastline, River Number 2 estuary river-meets-ocean, Tokeh Beach crescent with fishing canoes, Lungi Airport ferry crossing Sierra Leone River, Tacugama Chimpanzee Sanctuary forest canopy, Bunce Island ruins vegetation-reclaimed. Licensed-reuse review only; no substitutes.",
+  "booking_cta": "None by design (insight pages carry no product CTA). Revenue surface goes to published Hotel Barmoi (Booking.com via Stay22) and The Place Resort (Agoda via Stay22) cross-links. No booking-destinations.json change.",
+  "key_facts_checked": "Sierra Leone Tourism official site (tourismsierraleone.com) homepage and FAQs (Vitals, Travelling to Sierra Leone, Health & Safety) — checked 13 November 2026. UK FCDO Sierra Leone travel advice (entry requirements; updated 19 June 2026, current 13 November 2026) — checked 13 November 2026. Sierra Leone eVisa portal (evisa.sl) — checked 13 November 2026. Ministry of Tourism beach directory (tourism.gov.sl/beaches/) — checked 12 November 2026. Live Trek Africa Guide Sierra Leone cluster (country page, Tokeh destination, Tokeh attraction, The Place Resort, Hotel Barmoi) — checked 13 November 2026.",
+  "cms": "Production deploy imports at source_commit; publishable-key read of editorial_documents remains RLS-blocked by design — owner-side CMS check to confirm travel_insights/plan-first-sierra-leone-visit-freetown-peninsula-coast after deploy.",
+  "next_category": "activities",
+  "next_action": "Rotate to activities next run; six-subject photo backlog tracked in the ledger; CMS owner-side check pending (standard).",
+  "status": "published_live_confirmed",
+  "content_commit": "e51ea66",
+  "publication": {
+   "content_commit": "e51ea66",
+   "pushed_to": "main",
+   "push_result": "success (4e27ebc..e51ea66)",
+   "pushed_at": "2026-11-13",
+   "live_url": "https://trekafricaguide.com/travel-insights/plan-first-sierra-leone-visit-freetown-peninsula-coast/",
+   "live_http_status": 200,
+   "checked_at": "2026-11-13",
+   "live_distinctive_text": "Plan a first Sierra Leone visit: Freetown, the peninsula coast, and what to pace",
+   "live_checks": {
+    "detail": "HTTP 200; title correct; full 10-h2 decision flow renders (The entry paperwork, Arrival and the transfer reality, The base choice, Seasonality and the daily rhythm, Beyond the peninsula, Money and daily practicalities, Confirm before you book, Packing from official recommendations, Three questions travelers actually ask, Continue planning, Sources and scope); distinctive copy renders (visa $80/$25, yellow fever cert, health declaration 72h, Ebola screening, Lungi ferry 30-40 min/helicopter 10 min, airport fees $25+$25, Tokeh 20 miles/ River Number Two 15 km, dry Nov-Apr/wet May-Oct/harmattan Dec-Feb, coastal 23-30°C); zero-image honest state; no exposed markup.",
+    "archive": "Travel insights archive HTTP 200 lists the new insight with correct title and excerpt.",
+    "parent": "Sierra Leone country page renders 'Related travel insights' with the new insight linked.",
+    "cross_links": "Tokeh destination, Tokeh attraction, The Place Resort, Hotel Barmoi all live HTTP 200 and linked from the insight.",
+    "internal_links": "All 4 internal links HTTP 200: /countries/sierra-leone/, /countries/sierra-leone/tokeh-river-number-two/, /attractions/tokeh-and-river-no2/, /accommodations/hotel-barmoi-freetown/."
+   },
+   "cms_source_commit": "imported at source_commit e51ea66; publishable-key read of editorial_documents remains RLS-blocked — owner-side CMS check to confirm travel_insights/plan-first-sierra-leone-visit-freetown-peninsula-coast"
+  }
  }
 }
