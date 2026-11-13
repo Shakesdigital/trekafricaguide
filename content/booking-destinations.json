@@ -637,6 +637,19 @@
       "evidence": {
         "review_check": "Exact product page opened and read live in a browser session 13 November 2026 (product ID 268017); 4.8/5 from 4,514 reviews; from EUR 35 per person; scores may change. The same product sits behind the Sal Island attraction page's booking CTA (booking-destinations.attractions['sal-island'])."
       }
+    },
+    "kwame-nkrumah-memorial-park-guided-visit": {
+      "url": "https://www.getyourguide.com/accra-l506/accra-makola-market-kwame-nkrumah-mausoleum-jamestown-t642241/",
+      "provider": "getyourguide",
+      "title": "Accra: Makola Market, Kwame Nkrumah Mausoleum & Jamestown",
+      "operator": "Guide Kophi Tours",
+      "rating": 5.0,
+      "review_count": 1,
+      "notes": "Half-day city circuit including Makola Market (45 min), Kwame Nkrumah Memorial Park & Mausoleum guided tour (45 min), Black Star Square guided tour (45 min), Arts Centre. Meeting point HQ9M+6V Accra. Not suitable for mobility impairments. Memorial Park portion is 45 minutes of a 6-hour tour.",
+      "checked_at": "2026-11-13",
+      "evidence": {
+        "review_check": "Exact product page opened and read live in a browser session 13 November 2026 (product ID 642241); 5.0/5 from 1 review (Alecia, US, 18 Apr 2026); From €60 per person, 6 hours, English host, free cancellation 24h; scores may change. Sample too small to be representative."
+      }
     }
   },
   "attractions": {
