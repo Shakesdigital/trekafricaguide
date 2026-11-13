@@ -3,6 +3,26 @@
 export const photoLibrary = {
   "updated_at": "2026-11-11",
   "images": {
+    "/images/editorial/great-zimbabwe-monument/great-enclosure-2015-schertzer.jpg": {
+      "kind": "photograph", "slug": "great-enclosure-2015-schertzer", "local_path": "/images/editorial/great-zimbabwe-monument/great-enclosure-2015-schertzer.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Great_inclosure_-_Great_Zimbabwe_(15).jpg", "creator": "Fanny Schertzer",
+      "license": "CC BY 3.0", "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "captured_at": "2015", "sha256": "f199557603f8708d7c66f33e7238bb3218c9eda9eda10bb060ae0bb39bb38b04",
+      "exact_subject": true, "subject": "Dry-stone masonry at Great Zimbabwe National Monument",
+      "alt": "Close view of lichen-covered granite blocks in a dry-stone wall at Great Zimbabwe",
+      "caption": "Great Zimbabwe masonry (Fanny Schertzer, CC BY 3.0 via Wikimedia Commons).",
+      "property": false, "requires_attribution": true, "checked_at": "2026-11-13",
+      "changes": "Wikimedia Commons scaled JPEG; aspect ratio preserved.",
+      "exact_subject_evidence": "Commons file page identifies Great Zimbabwe; the image shows dry-stone masonry."
+    },
+    "/images/editorial/great-zimbabwe-monument/great-enclosure-path-illustration.png": {
+      "kind": "generated", "slug": "great-enclosure-path-illustration", "local_path": "/images/editorial/great-zimbabwe-monument/great-enclosure-path-illustration.png",
+      "subject": "Representative dry-stone wall and visitor path inspired by Great Zimbabwe",
+      "alt": "AI-generated illustration of a person walking beside an imagined dry-stone wall; not an actual photograph of Great Zimbabwe",
+      "creator": "ChatGPT for Trek Africa Guide", "date": "2026-11-13", "source_page": "/photo-credits", "license": "", "license_url": "",
+      "property": false, "exact_subject": false, "sha256": "383416fdca6a5dafbbf92f9207269f4132dd00cb26e2171a2de71078b80f2c43",
+      "generation_tool": "ChatGPT built-in image generator", "provenance": "Original representative composition; not documentary photography of an exact viewpoint."
+    },
     "/images/editorial/lalibela-local-destination/lalibela-highlands-illustration.png": {
       "kind": "generated", "slug": "lalibela-highlands-illustration",
       "local_path": "/images/editorial/lalibela-local-destination/lalibela-highlands-illustration.png",
