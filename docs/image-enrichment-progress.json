@@ -1,5 +1,5 @@
 {
-    "updated_at":  "2026-11-13 04:10 Africa/Kampala",
+    "updated_at":  "2026-11-13 05:10 Africa/Kampala",
     "blocked_runs":  [
                          {
                              "id":  "network-outage-no-research-2026-11-09-1807",
@@ -48,6 +48,21 @@
                                "resolved_at":  "2026-10-21 13:16 Africa/Kampala"
                            },
     "completed_runs":  [
+                           {
+                               "id": "cabo-verde-insight-media-429-2026-11-13-0507",
+                               "page_url": "https://trekafricaguide.com/travel-insights/plan-first-cabo-verde-visit-which-island-what-to-combine/",
+                               "page_type": "travel_insight",
+                               "status": "blocked_source_media_429",
+                               "previous_photo_count": 0,
+                               "photo_count": 0,
+                               "new_photo_count": 0,
+                               "started_at": "2026-11-13 05:07 Africa/Kampala",
+                               "note": "Live insight HTTP 200 with zero dedicated photos. Wikimedia Commons API identified exact Mindelo harbour photograph Cabo 2010 Monte Cara.jpg, creator ElsondeMadrid, public domain, taken 2010-08-18; source media download returned HTTP 429 Too many requests, so no photo was added or published. Existing untracked editorial/deploy files untouched. No owner email: no live-confirmed collection.",
+                               "selected_images": [],
+                               "published_commit": null,
+                               "email_id": null,
+                               "report_status": "NOT SENT: no collection published."
+                           },
                            {
                                "id": "masvingo-dusk-gallery-1-to-2-2026-11-13-0407",
                                "page_url": "https://trekafricaguide.com/countries/zimbabwe/masvingo/",
@@ -4309,7 +4324,7 @@
                         ],
     "updated":  1,
     "last_run_at":  "2026-11-11 12:18 UTC (15:18 Africa/Kampala) Ã¢â‚¬â€ Sal Island attraction gallery extended 5 -\u003e 9 photos (4 new CC BY-SA 3.0 from Wikimedia Commons); commit 3240f05 pushed to origin/main; production page renders \"See all 9 images\", all 9 asset URLs HTTP 200 image/jpeg",
-    "next_action":  "Continue zero-photo page rotation across the five directories; Masvingo destination needs five more distinct exact-city subjects and Sal needs five more exact-island subjects.",
+    "next_action":  "Retry the zero-photo Cabo Verde first-visit insight when Wikimedia media delivery recovers; verify the Mindelo source image visually before publication. Continue five-directory rotation if it remains blocked.",
     "current_run":  {
                         "id":  "volcanoes-golden-monkey-six-photo-gap-fill-third-pass-2026-11-11",
                         "page_url":  "https://trekafricaguide.com/activities/volcanoes-golden-monkey-trekking/",
