@@ -19,7 +19,7 @@ const imageAlt = (src, index) => photoLibrary.images[src]?.alt || `${alt} — ph
       <div class="detail-photo-gallery__collection">
         {gallery.map((src, index) => <figure data-full-photo={index}>
           <img src={src} alt={imageAlt(src, index)} loading="lazy" />
-          <figcaption>{index + 1} / {gallery.length}</figcaption>
+          <figcaption>{index + 1} / {gallery.length}{photoLibrary.images[src]?.kind === 'generated' ? ' · AI-generated illustration' : ''}</figcaption>
         </figure>)}
       </div>
     </dialog>

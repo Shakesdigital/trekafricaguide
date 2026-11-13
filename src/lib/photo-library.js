@@ -3,6 +3,18 @@
 export const photoLibrary = {
   "updated_at": "2026-11-11",
   "images": {
+    "/images/editorial/lalibela-local-destination/lalibela-highlands-illustration.png": {
+      "kind": "generated", "slug": "lalibela-highlands-illustration",
+      "local_path": "/images/editorial/lalibela-local-destination/lalibela-highlands-illustration.png",
+      "subject": "Representative Ethiopian highland scene near Lalibela",
+      "alt": "AI-generated illustration of Ethiopian highlands with two people walking beside rural homes; not an actual photograph of Lalibela",
+      "creator": "ChatGPT for Trek Africa Guide", "date": "2026-11-13",
+      "source_page": "/photo-credits", "license": "", "license_url": "",
+      "property": false, "exact_subject": false,
+      "sha256": "1aab18529c19d147cf1d77b2213d82087c11e22708ba165de732bfe6689cd208",
+      "generation_tool": "ChatGPT built-in image generator",
+      "provenance": "Generated representative scene, not documentary photography of an exact Lalibela viewpoint or people."
+    },
     "/images/editorial/great-zimbabwe-monument/great-zimbabwe-national-monument-david-holt.jpg": {
       "slug": "great-zimbabwe-national-monument-david-holt", "local_path": "/images/editorial/great-zimbabwe-monument/great-zimbabwe-national-monument-david-holt.jpg",
       "source_page": "https://commons.wikimedia.org/wiki/File:Great_Zimbabwe_National_Monument.jpg", "creator": "David Holt London",
