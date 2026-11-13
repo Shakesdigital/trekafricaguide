@@ -3,6 +3,17 @@
 export const photoLibrary = {
   "updated_at": "2026-11-13",
   "images": {
+    "/images/editorial/sal-island-circuit-excursion/buracona-iwoelbern-public-domain.jpg": {
+      "kind": "photograph", "slug": "buracona-iwoelbern-public-domain", "local_path": "/images/editorial/sal-island-circuit-excursion/buracona-iwoelbern-public-domain.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Buracona_IW1.jpg", "creator": "Iwoelbern", "license": "Public domain (PD-self)", "license_url": "https://commons.wikimedia.org/wiki/File:Buracona_IW1.jpg", "captured_at": "2007-10-07", "checked_at": "2026-11-14",
+      "sha256": "ae2c7cb7f1bb156a13d941f799ea312fd194a01d7a86af25737135b81d6d6db1", "exact_subject": true, "subject": "Buracona coast, Sal, Cabo Verde", "alt": "Atlantic surf breaking against dark rocks at Buracona on Sal Island", "property": false, "requires_attribution": false,
+      "changes": "Downloaded original JPEG without edits.", "exact_subject_evidence": "Commons file description identifies Buracona on Sal's west coast; uploader dedicates own photo to the public domain worldwide."
+    },
+    "/images/editorial/sal-island-circuit-excursion/sal-volcanic-coast-context.png": {
+      "kind": "generated", "slug": "sal-volcanic-coast-context", "local_path": "/images/editorial/sal-island-circuit-excursion/sal-volcanic-coast-context.png",
+      "subject": "Representative arid volcanic coast", "alt": "Dark volcanic rocks and a clear tidal pool beside the Atlantic", "creator": "ChatGPT for Trek Africa Guide", "date": "2026-11-14", "source_page": "/photo-credits", "license": "", "license_url": "", "property": false, "exact_subject": false,
+      "sha256": "4f3ec6e56103f0ffa5ccf862cc530d84e5c38c19880c279644690b83abc112b9", "generation_tool": "ChatGPT built-in image generator", "provenance": "Original representative Sal-inspired coast scene; not documentary photography of Buracona or an exact location. No people depicted."
+    },
     "/images/editorial/ouidah-and-ganvie/lakeshore-canoes-context.png": {
       "kind": "generated", "slug": "lakeshore-canoes-context", "local_path": "/images/editorial/ouidah-and-ganvie/lakeshore-canoes-context.png",
       "subject": "Representative southern Benin lakeshore context", "alt": "Empty wooden canoes beside reeds on a quiet tropical lakeshore",
@@ -12595,7 +12606,8 @@ export const photoLibrary = {
         "replaces": [],
         "gallery": [
           "/images/editorial/sal-island-circuit-excursion/pedra-lume-salt-fields-krisztian-tabori.jpg",
-          "/images/editorial/sal-island-circuit-excursion/sal-island-guided-walk-context.png"
+          "/images/editorial/sal-island-circuit-excursion/buracona-iwoelbern-public-domain.jpg",
+          "/images/editorial/sal-island-circuit-excursion/sal-volcanic-coast-context.png"
         ]
       },
       "maasai-mara-balloon-safari": {

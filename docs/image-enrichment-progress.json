@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T21:17:16.714Z",
+  "updated_at": "2026-11-13T23:10:31.837Z",
   "blocked_runs": [
     {
       "id": "network-outage-no-research-2026-11-09-1807",
@@ -4563,31 +4563,20 @@
   ],
   "updated": 1,
   "last_run_at": "2026-11-11 12:18 UTC (15:18 Africa/Kampala) ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â Sal Island attraction gallery extended 5 -> 9 photos (4 new CC BY-SA 3.0 from Wikimedia Commons); commit 3240f05 pushed to origin/main; production page renders \"See all 9 images\", all 9 asset URLs HTTP 200 image/jpeg",
-  "next_action": "Rotate to another zero-to-two-image page; continue Great Zimbabwe toward 10–17 images in a later run.",
+  "next_action": "Rotate to another low-image category next run; continue Sal circuit toward 10–17 distinct views later.",
   "current_run": {
-    "id": "great-zimbabwe-attraction-complementary-images-2026-11-13",
-    "page_url": "https://trekafricaguide.com/attractions/great-zimbabwe-national-monument/",
-    "page_type": "attraction",
-    "status": "published_live_confirmed",
-    "previous_photo_count": 1,
+    "id": "sal-island-circuit-people-free-2026-11-14",
+    "page_url": "https://trekafricaguide.com/activities/sal-island-circuit-excursion/",
+    "page_type": "activity",
+    "status": "pending_deployment",
+    "previous_photo_count": 2,
     "photo_count": 3,
     "new_photo_count": 2,
-    "checked_date": "2026-11-13",
-    "source_ledger": "docs/editorial-research/2026-11-13-great-zimbabwe-attraction-image-enrichment.md",
-    "note": "One exact-site CC BY 3.0 photograph plus one labeled ChatGPT illustration. Earlier generated scene rejected for questionable tower placement.",
+    "removed_gallery_count": 1,
+    "source_ledger": "docs/editorial-research/2026-11-14-sal-island-circuit-photo-enrichment.md",
     "mandatory_input_check": "Passed sync-photo-library and check:build-inputs.",
-    "report_status": "SENT: Gmail id 1a1d4a13080ba1fc.",
-    "email_id": "1a1d4a13080ba1fc",
-    "published_commit": "69ca0e6",
-    "live_verification": {
-      "page_http_status": 200,
-      "gallery_text": "See all 3 images",
-      "photo_http_status": 200,
-      "photo_content_type": "image/jpeg",
-      "illustration_http_status": 200,
-      "illustration_content_type": "image/png"
-    },
-    "next_action": "Continue the collection toward 10–17 images."
+    "report_status": "NOT SENT: awaiting live confirmation.",
+    "next_action": "Rotate to another low-image category next run; continue Sal circuit toward 10–17 distinct views later."
   },
   "latest_review": {
     "id": "casa-del-papa-exact-property-no-eligible-photo-review",
