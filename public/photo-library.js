@@ -1,8 +1,108 @@
 // Curated source. Run node scripts/sync-photo-library.mjs after editing.
 // Curated free photography; source and licence metadata travel with each image.
 export const photoLibrary = {
-  "updated_at": "2026-11-11",
+  "updated_at": "2026-11-13",
   "images": {
+    "/images/editorial/hotel-barmoi-freetown/lumley-beach-kefel.jpg": {
+      "kind": "photograph", "slug": "lumley-beach-kefel-2005", "local_path": "/images/editorial/hotel-barmoi-freetown/lumley-beach-kefel.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Lumley_Beach_Freetown.JPG", "source_revision": "Wikimedia Commons file File:Lumley_Beach_Freetown.JPG, checked 2026-11-13",
+      "creator": "Hussein Kefel",
+      "license": "CC BY-SA 3.0", "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source_published_at": null, "captured_at": "2005-12-26", "sha256": "1c49eae9718472a2791d72acd51a9a617966c482b3b5e5fc09ce4e6d36cba77d",
+      "exact_subject": false, "subject": "Lumley Beach shoreline, Freetown, Sierra Leone",
+      "alt": "Lumley Beach in Freetown, Sierra Leone, with the Atlantic shoreline near the Aberdeen oceanfront where Hotel Barmoi stands.",
+      "caption": "Lumley Beach, Freetown (Hussein Kefel, CC BY-SA 3.0 via Wikimedia Commons). Contextual image of the beach about 400 m from Hotel Barmoi; not the property.",
+      "property": false, "requires_attribution": true, "checked_at": "2026-11-13",
+      "changes": "Wikimedia Commons scaled JPEG (1280px thumb) or original, aspect ratio preserved; no other edits.",
+      "exact_subject_evidence": "Commons description \"Lumley Beach of Freetown in Sierra Leone\"; DateTimeOriginal 26 December 2005; cc-by-sa-3.0.",
+      "reuse_note": "Attribution required: credit Hussein Kefel, CC BY-SA 3.0, source file page; share-alike terms continue to apply where applicable. Attribution appears on-page in the figure caption. Contextual beach image; not Hotel Barmoi or any property interior."
+    },
+    "/images/editorial/hotel-barmoi-freetown/aberdeen-freetown-mroue.jpg": {
+      "kind": "photograph", "slug": "aberdeen-freetown-mroue-2011", "local_path": "/images/editorial/hotel-barmoi-freetown/aberdeen-freetown-mroue.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Aberdeen,_Freetown,_Sierra_Leone_-_panoramio_-_Ghassan_Mroue.jpg", "source_revision": "Wikimedia Commons file File:Aberdeen,_Freetown,_Sierra_Leone_-_panoramio_-_Ghassan_Mroue.jpg, checked 2026-11-13",
+      "creator": "Ghassan Mroue",
+      "license": "CC BY-SA 3.0", "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source_published_at": null, "captured_at": "2011-07-20", "sha256": "06dc43ae54b08971f94fc9eb3be12a162a8e16fdbcd47981169a0a7c34352ef7",
+      "exact_subject": false, "subject": "Aberdeen district waterfront, Freetown, Sierra Leone",
+      "alt": "The Aberdeen district waterfront in Freetown, Sierra Leone, near Cape Road where Hotel Barmoi is located.",
+      "caption": "Aberdeen, Freetown (Ghassan Mroue, CC BY-SA 3.0 via Wikimedia Commons). Contextual image of the district where the hotel stands; not the property.",
+      "property": false, "requires_attribution": true, "checked_at": "2026-11-13",
+      "changes": "Wikimedia Commons scaled JPEG (1280px thumb) or original, aspect ratio preserved; no other edits.",
+      "exact_subject_evidence": "Commons description \"Aberdeen, Freetown, Sierra Leone\"; GPS 8.493256,-13.278319; Taken on 20 July 2011; cc-by-sa-3.0.",
+      "reuse_note": "Attribution required: credit Ghassan Mroue, CC BY-SA 3.0, source file page; share-alike terms continue to apply where applicable. Attribution appears on-page in the figure caption. Contextual location image; not Hotel Barmoi or any property interior."
+    },
+    "/images/editorial/hotel-barmoi-freetown/lumley-shore-mroue.jpg": {
+      "kind": "photograph", "slug": "lumley-shore-mroue-2009", "local_path": "/images/editorial/hotel-barmoi-freetown/lumley-shore-mroue.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Lumley_Shore_-_panoramio.jpg", "source_revision": "Wikimedia Commons file File:Lumley_Shore_-_panoramio.jpg, checked 2026-11-13",
+      "creator": "Ghassan Mroue",
+      "license": "CC BY-SA 3.0", "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source_published_at": null, "captured_at": "2009-11-16", "sha256": "90042ec1338d3d56b8597fbcd2abfae5a94eb4a12cb6c5e612cde27ad4f20cf0",
+      "exact_subject": false, "subject": "Lumley shore on the Freetown Peninsula Atlantic coast",
+      "alt": "The Atlantic shore at Lumley, Freetown, Sierra Leone, a short walk from the Aberdeen oceanfront.",
+      "caption": "Lumley shore, Freetown (Ghassan Mroue, CC BY-SA 3.0 via Wikimedia Commons). Contextual shoreline image; not the property.",
+      "property": false, "requires_attribution": true, "checked_at": "2026-11-13",
+      "changes": "Wikimedia Commons scaled JPEG (1280px thumb) or original, aspect ratio preserved; no other edits.",
+      "exact_subject_evidence": "Commons description \"lumley Shore\"; GPS 8.476787,-13.284874 (Lumley/Aberdeen area); Taken on 16 November 2009; cc-by-sa-3.0.",
+      "reuse_note": "Attribution required: credit Ghassan Mroue, CC BY-SA 3.0, source file page; share-alike terms continue to apply where applicable. Attribution appears on-page in the figure caption. Contextual shoreline image; not Hotel Barmoi or any property interior."
+    },
+    "/images/editorial/hotel-barmoi-freetown/cotton-tree-freetown-trede.jpg": {
+      "kind": "photograph", "slug": "cotton-tree-freetown-trede-2007", "local_path": "/images/editorial/hotel-barmoi-freetown/cotton-tree-freetown-trede.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Cotton_Tree_(Sierra_Leone).jpg", "source_revision": "Wikimedia Commons file File:Cotton_Tree_(Sierra_Leone).jpg, checked 2026-11-13",
+      "creator": "Christian Trede",
+      "license": "CC BY-SA 2.0 DE", "license_url": "https://creativecommons.org/licenses/by-sa/2.0/de/deed.en",
+      "source_published_at": null, "captured_at": "2007-04", "sha256": "27a7d7527b3142a2e7eb3e59973e7b7c322e0dcabe01476474d126b3759fd2b8",
+      "exact_subject": false, "subject": "The Cotton Tree landmark in central Freetown, Sierra Leone",
+      "alt": "The historic Cotton Tree standing in central Freetown, Sierra Leone, the city landmark most visitors see on a Freetown stay.",
+      "caption": "The Cotton Tree, central Freetown (Christian Trede, CC BY-SA 2.0 DE via Wikimedia Commons). City-context image for a Freetown hotel guide; not the property.",
+      "property": false, "requires_attribution": true, "checked_at": "2026-11-13",
+      "changes": "Wikimedia Commons scaled JPEG (1280px thumb) or original, aspect ratio preserved; no other edits.",
+      "exact_subject_evidence": "Commons description \"Cotton Tree, das Wahrzeichen von Freetown, Sierra Leone\"; DateTimeOriginal April 2007; cc-by-sa-2.0-de.",
+      "reuse_note": "Attribution required: credit Christian Trede, CC BY-SA 2.0 DE, source file page; share-alike terms continue to apply where applicable. Attribution appears on-page in the figure caption. Contextual city image; not Hotel Barmoi or any property interior."
+    },
+    "/images/editorial/hotel-barmoi-freetown/freetown-aerial-hond.jpg": {
+      "kind": "photograph", "slug": "freetown-aerial-hond-2004", "local_path": "/images/editorial/hotel-barmoi-freetown/freetown-aerial-hond.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Freetown-aerialview.jpg", "source_revision": "Wikimedia Commons file File:Freetown-aerialview.jpg, checked 2026-11-13",
+      "creator": "David Hond",
+      "license": "CC BY 2.0", "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "source_published_at": null, "captured_at": "2004-10-04", "sha256": "13ae49aacec724d89fd20b09519e47cb208a2712ad4a8d7a457c755e87aa8112",
+      "exact_subject": false, "subject": "Aerial view over Freetown harbour, Sierra Leone",
+      "alt": "Aerial view over Freetown and its harbour, Sierra Leone, the arrival city for a stay at Hotel Barmoi in Aberdeen.",
+      "caption": "Freetown from the air (David Hond, CC BY 2.0 via Wikimedia Commons). Arrival-city context image; not the property.",
+      "property": false, "requires_attribution": true, "checked_at": "2026-11-13",
+      "changes": "Wikimedia Commons scaled JPEG (1280px thumb) or original, aspect ratio preserved; no other edits.",
+      "exact_subject_evidence": "Commons description \"Aerial view of Freetown, Sierra Leone, a helicopter expedition to Lungii airport, over the Freetown Harbour\"; GPS 8.498391,-13.260841; DateTimeOriginal 2004-10-04; cc-by-2.0.",
+      "reuse_note": "Attribution required: credit David Hond, CC BY 2.0, source file page; share-alike terms continue to apply where applicable. Attribution appears on-page in the figure caption. Contextual arrival-city image; not Hotel Barmoi or any property interior."
+    },
+    "/images/editorial/hotel-barmoi-freetown/central-freetown-night-bangura.jpg": {
+      "kind": "photograph", "slug": "central-freetown-night-bangura-2014", "local_path": "/images/editorial/hotel-barmoi-freetown/central-freetown-night-bangura.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Central_Freetown_at_night,_Sierra_Leone._January1_2014_(3).jpg", "source_revision": "Wikimedia Commons file File:Central_Freetown_at_night,_Sierra_Leone._January1_2014_(3).jpg, checked 2026-11-13",
+      "creator": "Patrick S. Bangura",
+      "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source_published_at": null, "captured_at": "2014-01-01", "sha256": "a59f899de6543f359005bb464fc1aaecd7e2f15d7388df36a1d706553c1c2e81",
+      "exact_subject": false, "subject": "Central Freetown at night, Sierra Leone",
+      "alt": "Central Freetown in the evening, Sierra Leone, city context for the last night of a Sierra Leone trip.",
+      "caption": "Central Freetown at night, 1 January 2014 (Patrick S. Bangura, CC BY-SA 4.0 via Wikimedia Commons). City-context image; not the property.",
+      "property": false, "requires_attribution": true, "checked_at": "2026-11-13",
+      "changes": "Wikimedia Commons scaled JPEG (1280px thumb) or original, aspect ratio preserved; no other edits.",
+      "exact_subject_evidence": "Commons description \"A view of Central Freetown at night\"; title dates it January 2014; cc-by-sa-4.0.",
+      "reuse_note": "Attribution required: credit Patrick S. Bangura, CC BY-SA 4.0, source file page; share-alike terms continue to apply where applicable. Attribution appears on-page in the figure caption. Contextual city image; not Hotel Barmoi or any property interior."
+    },
+    "/images/editorial/lalibela-local-destination/lalibela-church-worshipper-pexels-12344920.jpg": {
+      "kind": "photograph", "slug": "lalibela-church-worshipper-pexels-12344920", "local_path": "/images/editorial/lalibela-local-destination/lalibela-church-worshipper-pexels-12344920.jpg",
+      "source_page": "https://www.pexels.com/photo/man-in-turban-sitting-on-ledge-using-phone-12344920/", "creator": "Ludo Van den Nouweland",
+      "license": "Pexels License", "license_url": "https://www.pexels.com/license/", "captured_at": "2017-11-13", "checked_at": "2026-11-13",
+      "sha256": "31fcaa5b3a5fbf2754f9c15f33ec41ebde9cfcf9e15d3360e8a26c91a9151c0d", "exact_subject": true,
+      "subject": "Man seated among the rock-hewn churches of Lalibela", "alt": "A man seated beside carved stonework at Lalibela's rock-hewn churches",
+      "caption": "A quiet moment among Lalibela's rock-hewn churches.", "property": false, "requires_attribution": false,
+      "changes": "Pexels image resized by its CDN to 1600 pixels; no other edits.", "exact_subject_evidence": "Pexels image page identifies Lalibela, Amhara, Ethiopia; camera and capture date provided."
+    },
+    "/images/editorial/lalibela-local-destination/ethiopian-injera-meal-context.png": {
+      "kind": "generated", "slug": "ethiopian-injera-meal-context", "local_path": "/images/editorial/lalibela-local-destination/ethiopian-injera-meal-context.png",
+      "subject": "Representative Ethiopian injera meal", "alt": "Injera served with vegetables and lentil dishes beside a cup of coffee",
+      "creator": "ChatGPT for Trek Africa Guide", "date": "2026-11-13", "source_page": "/photo-credits", "license": "", "license_url": "",
+      "property": false, "exact_subject": false, "sha256": "c052be53e5bb46097c9ec6549bb575ea0618c9a8967c70caf3e85c5cbe468e8e",
+      "generation_tool": "ChatGPT built-in image generator", "provenance": "Original contextual food composition; not documentary photography of a Lalibela restaurant or actual meal."
+    },
     "/images/editorial/great-zimbabwe-monument/great-enclosure-2015-schertzer.jpg": {
       "kind": "photograph", "slug": "great-enclosure-2015-schertzer", "local_path": "/images/editorial/great-zimbabwe-monument/great-enclosure-2015-schertzer.jpg",
       "source_page": "https://commons.wikimedia.org/wiki/File:Great_inclosure_-_Great_Zimbabwe_(15).jpg", "creator": "Fanny Schertzer",
@@ -18,16 +118,23 @@ export const photoLibrary = {
     "/images/editorial/great-zimbabwe-monument/great-enclosure-path-illustration.png": {
       "kind": "generated", "slug": "great-enclosure-path-illustration", "local_path": "/images/editorial/great-zimbabwe-monument/great-enclosure-path-illustration.png",
       "subject": "Representative dry-stone wall and visitor path inspired by Great Zimbabwe",
-      "alt": "AI-generated illustration of a person walking beside an imagined dry-stone wall; not an actual photograph of Great Zimbabwe",
+      "alt": "A person walking beside dry-stone walls in a representative heritage-site scene",
       "creator": "ChatGPT for Trek Africa Guide", "date": "2026-11-13", "source_page": "/photo-credits", "license": "", "license_url": "",
       "property": false, "exact_subject": false, "sha256": "383416fdca6a5dafbbf92f9207269f4132dd00cb26e2171a2de71078b80f2c43",
       "generation_tool": "ChatGPT built-in image generator", "provenance": "Original representative composition; not documentary photography of an exact viewpoint."
     },
+
+    "/images/editorial/plan-first-ghana-trip/accra-independence-arch-sunset-2023.jpg": {"slug":"accra-independence-arch-sunset-2023","local_path":"/images/editorial/plan-first-ghana-trip/accra-independence-arch-sunset-2023.jpg","source_page":"https://commons.wikimedia.org/wiki/File:Independence_arch_at_sunset_2.jpg","creator":"Kwameghana (Bright Kwame Ayisi)","license":"CC0 1.0","license_url":"https://commons.wikimedia.org/wiki/File:Independence_arch_at_sunset_2.jpg","captured_at":"2023-10-08","sha256":"2bcd120cde76dc22c8ae5c1db2da83b00d6cf2bd873f2fec76a2defae68a5bf7","exact_subject":true,"subject":"Independence Arch and Black Star Square, Accra, at sunset","alt":"The Independence Arch in Accra photographed at sunset.","caption":"The Independence Arch at sunset (Kwameghana / Bright Kwame Ayisi, CC0 via Wikimedia Commons).","property":false,"kind":"photograph","requires_attribution":false,"changes":"Original Commons JPEG; no edits.","checked_at":"2026-11-13","exact_subject_evidence":"Commons file description identifies Independence Arch, Accra; public-domain (CC0) metadata and original file checked on 2026-11-13."},
+    "/images/editorial/plan-first-ghana-trip/cape-coast-castle-2011.jpg": {"slug":"cape-coast-castle-2011","local_path":"/images/editorial/plan-first-ghana-trip/cape-coast-castle-2011.jpg","source_page":"https://commons.wikimedia.org/wiki/File:Cape_Coast_Castle,_Cape_Coast,_Ghana.JPG","creator":"Rjruiziii","license":"CC BY-SA 3.0","license_url":"https://creativecommons.org/licenses/by-sa/3.0/","captured_at":"2011-06-26","sha256":"4d62e2c223fb19154dee8d7d9523894aa0c9e2eb6950031b891dd4b3094141b4","exact_subject":true,"subject":"Cape Coast Castle exterior, Cape Coast, Central Region, Ghana","alt":"The white exterior walls of Cape Coast Castle seen from the sea side.","caption":"The sea-side walls of Cape Coast Castle (Rjruiziii, CC BY-SA 3.0 via Wikimedia Commons).","property":false,"kind":"photograph","requires_attribution":true,"changes":"Original Commons JPEG; no edits.","checked_at":"2026-11-13","exact_subject_evidence":"Commons file description identifies Cape Coast Castle, Ghana; CC BY-SA 3.0 metadata and original file checked on 2026-11-13."},
+    "/images/editorial/plan-first-ghana-trip/kakum-canopy-walkway-2022.jpg": {"slug":"kakum-canopy-walkway-2022","local_path":"/images/editorial/plan-first-ghana-trip/kakum-canopy-walkway-2022.jpg","source_page":"https://commons.wikimedia.org/wiki/File:Canopy_walkway_in_Kakum_National_Park_2.jpg","creator":"daSupremo","license":"CC BY-SA 4.0","license_url":"https://creativecommons.org/licenses/by-sa/4.0/","captured_at":"2022-11-23","sha256":"b8d959aff2d4c99d61676735d769593a389c4d5a13a2eec05e9e2184b3d87330","exact_subject":true,"subject":"Kakum National Park canopy walkway above the rainforest, Central Region, Ghana","alt":"The suspended canopy walkway at Kakum National Park crossing above the rainforest.","caption":"The canopy walkway at Kakum National Park (daSupremo, CC BY-SA 4.0 via Wikimedia Commons).","property":false,"kind":"photograph","requires_attribution":true,"changes":"Original Commons JPEG; no edits.","checked_at":"2026-11-13","exact_subject_evidence":"Commons file description identifies the canopy walkway in Kakum National Park; CC BY-SA 4.0 metadata and original file checked on 2026-11-13."},
+    "/images/editorial/plan-first-ghana-trip/elmina-castle-2023.jpg": {"slug":"elmina-castle-2023","local_path":"/images/editorial/plan-first-ghana-trip/elmina-castle-2023.jpg","source_page":"https://commons.wikimedia.org/wiki/File:Castle,_Elmina_(P1100187).jpg","creator":"Matti Blume","license":"CC BY-SA 4.0","license_url":"https://creativecommons.org/licenses/by-sa/4.0/","captured_at":"2023-02-09","sha256":"aa9d7bab0288fd58ecc52de88d89cf5ebdd37df026992d691473af7636e0dcc3","exact_subject":true,"subject":"Elmina Castle (St George's Castle), Elmina, Central Region, Ghana","alt":"The whitewashed walls and bastions of Elmina Castle, Ghana.","caption":"The walls and bastions of Elmina Castle (Matti Blume, CC BY-SA 4.0 via Wikimedia Commons).","property":false,"kind":"photograph","requires_attribution":true,"changes":"Original Commons JPEG; no edits.","checked_at":"2026-11-13","exact_subject_evidence":"Commons file description identifies Elmina Castle, Ghana; CC BY-SA 4.0 metadata and original file checked on 2026-11-13."},
+    "/images/editorial/plan-first-ghana-trip/kwame-nkrumah-memorial-park-2008.jpg": {"slug":"kwame-nkrumah-memorial-park-2008","local_path":"/images/editorial/plan-first-ghana-trip/kwame-nkrumah-memorial-park-2008.jpg","source_page":"https://commons.wikimedia.org/wiki/File:Kwame_Nkrumah_Memorial_Park.jpg","creator":"Erik B. Anderson","license":"CC BY-SA 4.0","license_url":"https://creativecommons.org/licenses/by-sa/4.0/","captured_at":"2008-10-10","sha256":"291ac1edc482dacc50fed7b115f7691217cec7c4c118ac911669881adacd49f0","exact_subject":true,"subject":"Kwame Nkrumah Memorial Park and mausoleum, Accra, Ghana","alt":"The fountains and mausoleum of the Kwame Nkrumah Memorial Park in Accra.","caption":"The Kwame Nkrumah Memorial Park fountains and mausoleum (Erik B. Anderson, CC BY-SA 4.0 via Wikimedia Commons).","property":false,"kind":"photograph","requires_attribution":true,"changes":"Original Commons JPEG; no edits.","checked_at":"2026-11-13","exact_subject_evidence":"Commons file description identifies Kwame Nkrumah Memorial Park, Accra; CC BY-SA 4.0 metadata and original file checked on 2026-11-13."},
+    "/images/editorial/plan-first-ghana-trip/jamestown-lighthouse-2017.jpg": {"slug":"jamestown-lighthouse-2017","local_path":"/images/editorial/plan-first-ghana-trip/jamestown-lighthouse-2017.jpg","source_page":"https://commons.wikimedia.org/wiki/File:Jamestown_Lighthouse_20170122.jpg","creator":"Gereon K.","license":"CC BY-SA 4.0","license_url":"https://creativecommons.org/licenses/by-sa/4.0/","captured_at":"2017-01-22","sha256":"da1649b79fb43b6db74c9e93ae3e13b8dab7e1a4cf48cd8bcec91afc6212807c","exact_subject":true,"subject":"Jamestown Lighthouse, Accra old town, Ghana","alt":"The red-and-white Jamestown Lighthouse in Accra’s old fishing quarter.","caption":"The Jamestown Lighthouse in Accra's old quarter (Gereon K., CC BY-SA 4.0 via Wikimedia Commons).","property":false,"kind":"photograph","requires_attribution":true,"changes":"Original Commons JPEG; no edits.","checked_at":"2026-11-13","exact_subject_evidence":"Commons file description identifies Jamestown Lighthouse, Accra; CC BY-SA 4.0 metadata and original file checked on 2026-11-13."},
     "/images/editorial/lalibela-local-destination/lalibela-highlands-illustration.png": {
       "kind": "generated", "slug": "lalibela-highlands-illustration",
       "local_path": "/images/editorial/lalibela-local-destination/lalibela-highlands-illustration.png",
       "subject": "Representative Ethiopian highland scene near Lalibela",
-      "alt": "AI-generated illustration of Ethiopian highlands with two people walking beside rural homes; not an actual photograph of Lalibela",
+      "alt": "Two people walking beside rural homes in a highland landscape",
       "creator": "ChatGPT for Trek Africa Guide", "date": "2026-11-13",
       "source_page": "/photo-credits", "license": "", "license_url": "",
       "property": false, "exact_subject": false,
