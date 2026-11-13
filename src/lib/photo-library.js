@@ -3,6 +3,13 @@
 export const photoLibrary = {
   "updated_at": "2026-11-11",
   "images": {
+    "/images/editorial/tunis-carthage-guided-walk/antonine-baths-carthage-tico.jpg": {
+      "slug": "antonine-baths-carthage-tico", "local_path": "/images/editorial/tunis-carthage-guided-walk/antonine-baths-carthage-tico.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Antonine_Baths_Carthage.jpg", "creator": "Tico", "license": "Public domain", "license_url": "https://commons.wikimedia.org/wiki/File:Antonine_Baths_Carthage.jpg",
+      "captured_at": null, "sha256": "6babeabf0b85da7c337fac280a6369fd79f68c14898c92be621313f450d0b313",
+      "exact_subject": true, "subject": "Antonine Baths at Carthage", "alt": "Ruins and columns of the Antonine Baths at Carthage.", "property": false, "kind": "photograph", "requires_attribution": false,
+      "checked_at": "2026-11-13", "exact_subject_evidence": "Commons file description identifies the ruins of the Antonine Baths at Carthage; public-domain metadata and original file were checked on 2026-11-13. Original upload date 2007-10-15; photo capture date not stated.", "changes": "Original JPEG, no edits."
+    },
     "/images/editorial/cabo-2010-monte-cara.jpg": {
       "slug": "cabo-2010-monte-cara", "local_path": "/images/editorial/cabo-2010-monte-cara.jpg",
       "source_page": "https://commons.wikimedia.org/wiki/File:Cabo_2010_Monte_Cara.jpg",
