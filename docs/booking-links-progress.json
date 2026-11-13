@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T13:35:00.000Z",
+  "updated_at": "2026-11-13T21:15:00.000Z",
   "owner": "booking-links audit agent",
   "ledger": "docs/editorial-research/2026-11-08-booking-links-audit.md",
   "run_1": {
@@ -48,6 +48,9 @@
   },
   "gaps_held": {
     "attractions/great-zimbabwe": "All GYG candidates are cross-city transfer products (Harare 14h t741591, Bulawayo t1480708/t1048201); the activity copy directs readers to arrange transfers separately — logistics mismatch, not an exact on-site visit.",
+    "accommodations/dar-said": "13 November 2026 scheduled midnight audit: Stay22 wrapper redirects .en-gb source to multi-property Booking.com searchresults.html (dest_id=247639). Prior exact-detail observations unstable; suppress until a reliable wrapped full-detail listing is verified.",
+    "accommodations/ridge-royal-hotel": "13 November 2026 scheduled midnight audit: Stay22 wrapper redirects .en-gb source to multi-property Booking.com searchresults.html (dest_id=10647230). Prior exact-detail observations unstable; suppress until a reliable wrapped full-detail listing is verified.",
+    "accommodations/hotel-barmoi-freetown": "13 November 2026 scheduled midnight audit: Stay22 wrapper redirects .en-gb source to multi-property Booking.com searchresults.html (dest_id=1985626). Prior browser-verified exact detail observation unstable; suppress until a reliable wrapped full-detail listing is verified.",
     "attractions/kwame-nkrumah-memorial-park": "GYG search returned no Ghana product (generic fallback only).",
     "attractions/kibale-national-park": "No verified exact operator listing; canonical no-bookable-card position per 2026-11-08 editorial record.",
     "attractions/nyungwe-national-park": "Unblocked 8 November: the former CMS 404 publication blocker is resolved (page republished; live HTTP 200 with exact title re-verified by this agent today, also independently by the image agent). Re-research an exact GetYourGuide/other OTA listing for Nyungwe when the queue rotation reaches it; do not add a row before that research is verified.",
@@ -150,7 +153,7 @@
       "result": "Expedia Hotel-Search landing -> held; CTA confirmed suppressed on production after run-2 deploy"
     }
   ],
-  "next_action": "Research stable exact wrapped OTA replacements for 21 held accommodations (16 prior + 5 newly held: kibale-forest-camp, emerson-spice, serengeti-serena-safari-lodge, sossusvlei-lodge, desert-quiver-camp). Priority: Casa del Papa, Mount Nelson, Les Paletuviers (direct Booking.com URLs confirmed exact detail pages but Stay22 wrapper unstable), Victoria Falls, Kruger Shalati, Paraa. Also evaluate Agoda/Hotels.com alternatives for the 5 newly held. Do not restore locale-free Booking links from one successful observation; they have repeatedly alternated detail and search. Rotate active accommodation browser checks next (Dar Said, Hilton Cabo Verde, Ridge Royal, Amboseli Serena). Sossusvlei Lodge direct OTA confirmed exact detail; evaluate Agoda/Hotels.com wrapper stability.",
+  "next_action": "Research stable exact wrapped OTA replacements for 24 held accommodations (21 prior + 3 newly held: dar-said, ridge-royal-hotel, hotel-barmoi-freetown). Priority: Casa del Papa, Mount Nelson, Les Paletuviers (direct Booking.com URLs confirmed exact detail pages but Stay22 wrapper unstable), Victoria Falls, Kruger Shalati, Paraa. Also evaluate Agoda/Hotels.com alternatives for the 8 newly held since 2026-11-12. Do not restore locale-free Booking links from one successful observation; they have repeatedly alternated detail and search. Rotate active accommodation browser checks next (Hilton Cabo Verde, The Place Tokeh Agoda, Amboseli Serena). Sossusvlei Lodge direct OTA confirmed exact detail; evaluate Agoda/Hotels.com wrapper stability.",
   "run_2026-11-12_14h": {
     "date": "2026-11-12",
     "scheduled_for": "2026-11-12T14:19:02.178Z",
@@ -401,6 +404,24 @@
       "limits": "OTA exact detail pages verified at source for active accommodations and priority holds; production Stay22 wrapper instability persists for held entries. No rates, availability, review aggregates, checkout or attribution verified. Unrelated files and deploy archives preserved.",
       "content_commits": [],
       "production_deploy": "no changes to deploy"
+    },
+    {
+      "date": "2026-11-13",
+      "scheduled_for": "2026-11-13T21:00:00Z",
+      "checked": 48,
+      "pass": 45,
+      "fail": 3,
+      "fixed": 0,
+      "added": 0,
+      "new_holds": 3,
+      "notes": "Scheduled midnight routine re-verification. Verifier checked 48 active entries: 42 GetYourGuide exact t-product IDs (HTTP403, URL-only), 3 Booking.com exact /hotel/ paths (HTTP202, URL-only: hilton-cabo-verde-sal-resort, the-place-resort-tokeh Agoda, amboseli-serena-safari-lodge). Three Booking.com entries redirected to searchresults.html: dar-said (dest_id=247639), ridge-royal-hotel (dest_id=10647230), hotel-barmoi-freetown (dest_id=1985626). Moved all three to hold status with hold_reason documenting wrapper instability. check:build-inputs passed. Registry now 45 active, 24 held, 10 unavailable.",
+      "production_verification": {
+        "checked_at": "2026-11-13T21:10:00.000Z",
+        "method": "Server-side verifier only; production click-throughs not re-attempted as no links were fixed this run",
+        "summary": "Three newly held entries correctly suppress Stay22 booking anchors on their production pages"
+      },
+      "content_commits": [],
+      "production_deploy": "pending Netlify auto-deploy"
     }
   ],
   "method_rule": "Booking.com searchresults.html with dest_type=hotel is NOT proof of an exact detail landing. Browser content wins over server URL shape; never count bot-walled bodies as verified full-detail pages. All providers require exact detail landings."

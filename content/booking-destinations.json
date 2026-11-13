@@ -30,10 +30,13 @@
       "url": "https://www.booking.com/hotel/tn/dar-said.en-gb.html",
       "provider": "booking",
       "title": "Dar Said",
-      "checked_at": "2026-10-11",
+      "checked_at": "2026-11-13",
+      "status": "hold",
+      "hold_reason": "13 November 2026 scheduled midnight audit: Stay22 wrapper redirects .en-gb source to multi-property Booking.com searchresults.html (dest_id=247639, dest_type=hotel). Prior exact-detail observations unstable; suppress until a reliable wrapped full-detail listing is verified.",
       "evidence": {
         "source_url": "https://www.booking.com/hotel/tn/dar-said.en-gb.html?came_from_hotel_review=1&keep_landing=1",
-        "summary": "Primary detail identifies Rue Toumi, Sidi Bou Said, Tunisia; rejected Morocco namesakes."
+        "summary": "Primary detail identifies Rue Toumi, Sidi Bou Said, Tunisia; rejected Morocco namesakes.",
+        "verification_2026-11-13": "Stay22 redirect chain lands on searchresults.html with dest_id=247639, dest_type=hotel; correct property appears in results but not exact detail page."
       }
     },
     "emerson-spice": {
@@ -152,10 +155,13 @@
       "url": "https://www.booking.com/hotel/gh/ridge-royal-cape-coast.en-gb.html",
       "provider": "booking",
       "title": "Ridge Royal Hotel Cape Coast",
-      "checked_at": "2026-10-28",
+      "checked_at": "2026-11-13",
+      "status": "hold",
+      "hold_reason": "13 November 2026 scheduled midnight audit: Stay22 wrapper redirects .en-gb source to multi-property Booking.com searchresults.html (dest_id=10647230, dest_type=hotel). Prior exact-detail observations unstable; suppress until a reliable wrapped full-detail listing is verified.",
       "evidence": {
         "source_url": "https://www.booking.com/hotel/gh/ridge-royal-cape-coast.en-gb.html",
-        "summary": "Rechecked 28 October 2026: the English Booking.com exact property detail names Ridge Royal Hotel Cape Coast and gives Number 1, 2nd Ridge, Cape Coast, Ghana. The page lists accommodation and facilities for this specific property. No rates, availability, score or review total is copied into the guide."
+        "summary": "Rechecked 28 October 2026: the English Booking.com exact property detail names Ridge Royal Hotel Cape Coast and gives Number 1, 2nd Ridge, Cape Coast, Ghana. The page lists accommodation and facilities for this specific property. No rates, availability, score or review total is copied into the guide.",
+        "verification_2026-11-13": "Stay22 redirect chain lands on searchresults.html with dest_id=10647230, dest_type=hotel; correct property appears in results but not exact detail page."
       }
     },
     "serengeti-serena-safari-lodge": {
@@ -375,9 +381,12 @@
       "provider": "booking",
       "title": "Hotel Barmoi, Freetown",
       "checked_at": "2026-11-13",
+      "status": "hold",
+      "hold_reason": "13 November 2026 scheduled midnight audit: Stay22 wrapper redirects .en-gb source to multi-property Booking.com searchresults.html (dest_id=1985626, dest_type=hotel). Prior browser-verified exact detail observation unstable; suppress until a reliable wrapped full-detail listing is verified.",
       "evidence": {
         "source_url": "https://www.booking.com/hotel/sl/barmoi.en-gb.html",
-        "summary": "Browser-verified 13 November 2026: the Booking.com Freetown city page lists Hotel Barmoi with its exact detail URL /hotel/sl/barmoi.html; opening the detail URL renders the full property page (75C Cape Road, Aberdeen, Freetown; 8.4 Very good from 118 reviews; room types, facilities and policies). A Stay22-wrapped test of this URL with the site campaign parameters opens the same exact property detail page, not a searchresults page."
+        "summary": "Browser-verified 13 November 2026: the Booking.com Freetown city page lists Hotel Barmoi with its exact detail URL /hotel/sl/barmoi.html; opening the detail URL renders the full property page (75C Cape Road, Aberdeen, Freetown; 8.4 Very good from 118 reviews; room types, facilities and policies). A Stay22-wrapped test of this URL with the site campaign parameters opens the same exact property detail page, not a searchresults page.",
+        "verification_2026-11-13": "Stay22 redirect chain lands on searchresults.html with dest_id=1985626, dest_type=hotel; correct property appears in results but not exact detail page."
       },
       "notes": "Exact OTA product verified in browser (see evidence). No current price, availability or affiliate attribution claim is made; review score quoted on-page with a checked date."
     }
