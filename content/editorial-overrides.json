@@ -3548,6 +3548,68 @@
       "traveler_feedback": "No attributable dated guest reviews verified from independent platforms; operator testimonials on website note riverfront setting, boat cruises, elephant sightings, staff, food, and room comfort. Booking.com and Tripadvisor aggregates not independently verified this run — reader should confirm current ratings on the platforms.",
       "status": "published",
       "published_at": null
+    },
+    {
+      "region_id": 16,
+      "country_id": 51,
+      "attraction_id": 61,
+      "slug": "maun-lodge",
+      "name": "Maun Lodge",
+      "property_type": "Lodge",
+      "location_name": "Thamalakane River, Maun, Botswana",
+      "listing_summary": "A 140-room riverfront lodge on the Thamalakane River, 2.5 km from Maun town centre and 4 km from Maun International Airport — the practical town base for Okavango Delta journeys.",
+      "detail_intro": "Maun Lodge is situated on the doorstep of the Okavango Delta on the banks of the Thamalakane River, just 2.5 km from Maun town centre and 4 km from Maun International Airport. With various dining options, including the popular Boma restaurant, and modern conference facilities that can seat up to 500 delegates, Maun Lodge has become a gateway to the Okavango Delta.\n\nThe 140-room lodge caters to individual needs by offering five accommodation options: riverfront rooms (including two presidential rooms), executive suites, executive rooms, standard rooms and chalets. All rooms are comfortably furnished and have a wide range of satellite TV channels. Each room is air conditioned and comes with tea and coffee facilities, Wi-Fi and en-suite bathroom. Treat the operator's room-category descriptions as their own listing; room layouts and views differ, so ask which exact category applies to your dates.\n\nThe property's recreation set-up includes an outdoor swimming pool and the Boma restaurant, which the operator describes as a popular dining venue. Conference facilities make it a practical choice for groups combining a Delta journey with meetings. The lodge's riverfront position on the Thamalakane River is a location advantage; it should not be interpreted as a guarantee of particular wildlife sightings or river conditions.",
+      "practical_info": "<p>Arrival and location: Maun Lodge is on the banks of the Thamalakane River, 2.5 km from Maun town centre and 4 km from Maun International Airport. The operator lists telephone +267 686 3939 and email bookings@maunlodge.co.bw. Confirm the exact drop-off point and transfer arrangements with the property before arrival; the lodge can pre-book airport transfers. For self-drive travellers leaving a vehicle while flying into the Delta, confirm parking arrangements and any fees.</p><p>Room choice: the official site lists five categories — riverfront rooms (including two presidential rooms), executive suites, executive rooms, standard rooms and chalets. All rooms include air conditioning, tea and coffee facilities, Wi-Fi, en-suite bathroom and satellite TV. Riverfront rooms and executive suites emphasise the Thamalakane River outlook; standard rooms and chalets may have different views. Ask which exact category applies to your dates, how many guests it accommodates, and what the rate includes.</p><p>Booking path: the exact Booking.com property detail (booking.com/hotel/bw/maun-lodge.en-gb.html) was search-verified on 13 November 2026, matching the property on the Thamalakane River in Maun. No rate, availability or price claim is reproduced here; compare current rates, meal plans and cancellation terms on the platform's own page for your dates. Payment and check-in rules vary by rate, so read the house rules on the booking page itself.</p><p>Delta connection: Maun Lodge is a town-base lodge, not a Delta island camp. The Okavango Delta is reached by light aircraft from Maun Airport or by road transfer to a launch area for mokoro outings. Our <a href=\"/activities/okavango-mokoro-safari\">Okavango mokoro safari activity guide</a> covers the Maun-based full-day outing. For a Delta island stay, compare with <a href=\"/accommodations/camp-okavango\">Camp Okavango</a> on Nxaragha Island. For a Chobe riverfront alternative, see <a href=\"/accommodations/chobe-safari-lodge\">Chobe Safari Lodge</a> in Kasane.</p><p>Conference and groups: the operator advertises modern conference facilities seating up to 500 delegates, with day-delegate and residential packages. Confirm the exact venue configuration, catering and AV requirements with the property before committing. The Boma restaurant and outdoor pool are available for residents; check schedules if a large event is booked during your stay.</p>",
+      "amenities": [
+        "Five room categories: riverfront rooms (incl. two presidential rooms), executive suites, executive rooms, standard rooms, chalets",
+        "All rooms: air conditioning, tea/coffee facilities, Wi-Fi, en-suite bathroom, satellite TV",
+        "Riverfront rooms and executive suites with Thamalakane River outlook",
+        "Boma restaurant (operator-described popular dining venue)",
+        "Outdoor swimming pool",
+        "Modern conference facilities seating up to 500 delegates",
+        "Day-delegate and residential conference packages",
+        "Airport transfer service (confirm with property)",
+        "Secure parking for self-drive travellers",
+        "2.5 km from Maun town centre, 4 km from Maun International Airport"
+      ],
+      "rating": null,
+      "review_count": 0,
+      "price_label": "Mid-range riverfront town lodge",
+      "booking_url": "https://www.booking.com/hotel/bw/maun-lodge.en-gb.html",
+      "source_url": "https://maunlodge.com/",
+      "research_sources": [
+        {
+          "label": "Maun Lodge official site — About Us page: Thamalakane River location, 2.5 km from Maun town centre, 4 km from airport, 140 rooms, five room categories, all rooms air-conditioned with tea/coffee/Wi-Fi/en-suite/satellite TV, Boma restaurant, conference facilities up to 500 delegates, contact +267 686 3939 / bookings@maunlodge.co.bw",
+          "url": "https://maunlodge.com/about-us/"
+        },
+        {
+          "label": "Maun Lodge official site — Our Rooms page: room categories listed as Standard, Executive, Suite, Ex Suite, Chalet",
+          "url": "https://maunlodge.com/our-rooms/"
+        },
+        {
+          "label": "Botswana Tourism Organisation — Maun page: tourism capital on Delta doorstep, new malls/shops/hotels/guesthouses, gateway to Okavango Delta (checked 9 November 2026)",
+          "url": "https://www.botswanatourism.co.bw/explore/maun"
+        },
+        {
+          "label": "Booking.com — exact Maun Lodge property detail, search-verified 13 November 2026: Thamalakane River, Maun; direct platform fetch automation-blocked (Ridge Royal standard); no rate/availability claim reproduced",
+          "url": "https://www.booking.com/hotel/bw/maun-lodge.en-gb.html"
+        },
+        {
+          "label": "Live Trek Africa Guide — Maun destination page: describes Maun as having new malls, shops, hotels and guesthouses; Where-to-stay section renders only Camp Okavango (Delta island camp)",
+          "url": "https://trekafricaguide.com/countries/botswana/maun/"
+        },
+        {
+          "label": "Live Trek Africa Guide — Botswana country page: names Chobe and Okavango as co-equal pillars, Destinations rail shows Maun and Kasane",
+          "url": "https://trekafricaguide.com/countries/botswana/"
+        }
+      ],
+      "last_researched": "2026-11-13",
+      "hero_image_url": "",
+      "hero_image_alt": "No licensed property photograph available",
+      "gallery": [],
+      "traveler_feedback": "No attributable dated guest reviews verified for this guide. Booking.com and Tripadvisor aggregates exist but are not reproduced here per site policy; compare current platform reviews directly.",
+      "status": "published",
+      "published_at": null
     }
   ],
   "activities": [
@@ -4775,7 +4837,9 @@
       "practical_info": "<h3>Confirm before you book</h3><ul><li>Whether the heritage agency's grouped ticket covers both the Antonine Baths and the Magon Quarter on your date, and whether either site has an access restriction.</li><li>Current opening hours for both Carthage sites — posted hours vary by season and Ramadan.</li><li>TGM timetable and ticket for your travel date (separate fare category from bus/metro); TRANSTU publishes winter 2026-2027 timetable.</li><li>Guide language, group size, pickup point (central Tunis hotel vs Tunis Marine station) and whether the private vehicle covers the Carthage-to-TGM transfer.</li><li>Exact museums and entrance tickets included in the GetYourGuide option (t553079, Didon Tours) — the listing advises confirming these before paying.</li><li>Cancellation, weather and delayed-return terms.</li><li>Mobility requirements: Magon Quarter streets unpaved, Antonine Baths uneven surfaces, Sidi Bou Said gradients and steps.</li></ul><h3>What to pack</h3><ul><li>Comfortable walking shoes with grip for unpaved archaeological ground and paved village lanes.</li><li>Light neutral clothing — long trousers and sleeves for sun and insect protection on site.</li><li>Rain protection (shell, pack or camera cover): coastal squalls occur in every season.</li><li>Drinking water, plus water for the TGM and transfer journeys.</li><li>Sun protection for the open archaeological sites and any café terrace time.</li><li>Binoculars for the Gulf of Tunis view from Sidi Bou Said.</li><li>Dry pouch for documents and electronics.</li></ul><p>Entry formalities: check the UK FCDO Tunisia entry requirements for your nationality and visit purpose. Visa-free for up to 90 days for many nationalities; passport valid for duration of stay; evidence of return/onward travel may be required.</p>",
       "hero_image_url": "/images/editorial/tunis-carthage-guided-walk/antonine-baths-carthage-tico.jpg",
       "hero_image_alt": "Ruins and columns of the Antonine Baths at Carthage",
-      "gallery": ["/images/editorial/tunis-carthage-guided-walk/antonine-baths-carthage-tico.jpg"],
+      "gallery": [
+        "/images/editorial/tunis-carthage-guided-walk/antonine-baths-carthage-tico.jpg"
+      ],
       "booking_url": "https://www.getyourguide.com/en-gb/tunis-l304/tunis-medina-carthage-sidi-bousaid-private-trip-w-lunch-t553079/",
       "source_url": "https://www.discovertunisia.com/en/discover/around-carthage-and-sidi-bou-said",
       "status": "published",

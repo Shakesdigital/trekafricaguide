@@ -272,9 +272,9 @@
     "email_id": "1a143a69416cf3d1"
   },
   "rotation": {
-    "last_completed_category": "destinations",
-    "next_category": "accommodations",
-    "next_deliverable": "Lalibela destination guide published 2026-11-13 (destinations rotation); next: one evidenced accommodations gap."
+    "last_completed_category": "accommodations",
+    "next_category": "travel_insights",
+    "next_deliverable": "Maun Lodge accommodation guide published 2026-11-13 (accommodations rotation); next: one evidenced travel insights gap."
   },
   "current_deliverable": {
     "category": "activities",
@@ -481,13 +481,13 @@
     "commit": "224da9d (content) + receipt commit"
   },
   "latest_run_checkpoint": {
-    "run": "scheduled-2h-2026-11-12T13:00Z",
+    "run": "scheduled-2h-2026-11-13T07:13Z",
     "category_rotation": "accommodations",
-    "deliverable": "accommodation_accra_city_hotel",
-    "inventory_note": "All 38 live destination guides carry at least one stay card; gap moved to accommodations-without-parent-stay coverage: no Accra accommodation guide existed site-wide despite the live Kwame Nkrumah Memorial Park attraction and Accra's role as the departure anchor for the Cape Coast/Elmina circuit.",
-    "next_category": "destinations",
-    "next_action": "Rotate to destinations next run. Queued destination candidates: Ethiopia (Lalibela — advisory-sensitive, queued) and Sierra Leone (Tokeh/Freetown peninsula). Also pending: six-subject photo backlogs (incl. Accra City Hotel, Lemon Beach Resort); owner Gmail still signed out so owner_email_draft unsent.",
-    "cms": "Publishable-key reconcile 2026-11-12 (SUPABASE_PUBLISHABLE_KEY in repo .env; task key name TREK_SUPABASE_PUBLISHABLE absent from env): travel_articles 200 (seeded row id:2 only, no accra-city-hotel row — CMS import pending), local_destinations 404 (schema cache), editorial_documents 400 to anon (RLS by design); no writes attempted; owner-side CMS check to confirm accommodations/accra-city-hotel."
+    "deliverable": "accommodation_maun_lodge",
+    "inventory_note": "Maun destination had no town hotel despite describing \"hotels and guesthouses\"; Maun Lodge fills this gap as a 140-room riverfront lodge on the Thamalakane River. Camp Okavango remains as Delta island camp option; Maun Lodge adds town-base coverage.",
+    "next_category": "travel_insights",
+    "next_action": "Rotate to travel insights next run. Queued travel insights candidates per progress ledger.",
+    "cms": "Publishable-key reconcile 2026-11-13: travel_articles 200 (seeded rows only), local_destinations 404 (schema cache), editorial_documents 400 to anon (RLS); no writes attempted — owner-side CMS check to confirm accommodations/maun-lodge."
   },
   "activity_volcanoes_golden_monkey_trek": {
     "status": "complete",
@@ -1994,7 +1994,7 @@
       }
     }
   },
-  "next_category": "accommodations",
+  "next_category": "travel_insights",
   "destination_sal": {
     "id": "sal",
     "category": "destinations",
@@ -2281,6 +2281,47 @@
         "internal_links": "All cross-link targets live HTTP 200 (Ethiopia country, Lalibela attraction, Maribela Hotel stay)."
       },
       "cms_source_commit": "imported at source_commit 21b21c4; publishable-key read of local_destinations stays blocked — owner-side CMS check to confirm local_destinations/lalibela"
+    }
+  },
+  "accommodation_maun_lodge": {
+    "id": "maun-lodge",
+    "category": "accommodations",
+    "started": "2026-11-13",
+    "latest_run_note": "Scheduled 07:13Z routine run; executed on schedule.",
+    "selection_evidence": "Live /countries/botswana/maun/ (HTTP 200, 13 Nov 2026) explicitly describes Maun as \"the country's tourism capital, still carrying the feel of a dusty frontier town despite new malls, shops, hotels and guesthouses.\" The destination's Where-to-stay section renders only Camp Okavango — a fly-in Delta island camp on Nxaragha Island — with no Maun town hotel listed. Maun Lodge is a 140-room riverfront lodge on the Thamalakane River, 2.5 km from Maun town centre and 4 km from Maun International Airport, squarely in the Maun town area. No Maun town accommodation guide exists on the site.",
+    "scope": "New accommodation guide: Maun Lodge, Maun, Botswana. Riverfront lodge on the Thamalakane River, 2.5 km from Maun town centre and 4 km from Maun International Airport. 140 rooms across five categories (riverfront rooms incl. two presidential, executive suites, executive rooms, standard rooms, chalets). Boma restaurant, outdoor pool, conference facilities up to 500 delegates. Exact Booking.com detail page search-verified 13 Nov 2026 (direct fetch automation-blocked; Ridge Royal standard). Internal links to Maun destination, Okavango Delta attraction, Okavango mokoro safari activity, Camp Okavango (Delta contrast), Chobe Safari Lodge (Kasane/Chobe contrast). Added to Maun destination accommodation_slugs.",
+    "files": [
+      "content/editorial-overrides.json",
+      "content/local-destinations.json",
+      "docs/editorial-research/2026-11-13-maun-lodge-accommodation.md",
+      "docs/editorial-progress.json"
+    ],
+    "images": 0,
+    "image_followup": "Six distinct licensed exact-property subjects (backlog in the ledger): main entrance/signage from Thamalakane River road, riverfront room with river view, executive suite interior, Boma restaurant, conference/pool area, chalets on riverbank. Official imagery operator-copyrighted; licensed-reuse review only; no substitutes.",
+    "booking_cta": "Exact Booking.com detail https://www.booking.com/hotel/bw/maun-lodge.en-gb.html (search-verified 13 November 2026); Stay22-wrapped in built page (campaign accommodations_maun_lodge). No rate, availability, numerical rating or review-count claims; direct platform fetch automation-blocked (Ridge Royal standard).",
+    "key_facts_checked": "Maun Lodge official site (About Us, Our Rooms) — Thamalakane River location, 2.5 km from town centre, 4 km from airport, 140 rooms, five categories (riverfront incl. two presidential, executive suites, executive rooms, standard rooms, chalets), all rooms air-conditioned with tea/coffee/Wi-Fi/en-suite/satellite TV, Boma restaurant, conference up to 500, contact +267 686 3939 / bookings@maunlodge.co.bw — checked 13 Nov 2026. Botswana Tourism Maun page — tourism capital, new hotels/guesthouses, Delta gateway — checked 9 Nov 2026. Live Trek pages (Maun destination, Botswana country, Okavango Delta attraction, Camp Okavango stay) — checked 13 Nov 2026. Booking.com search-verified 13 Nov 2026.",
+    "build_checks": "check-build-inputs passed; production build XXX pages; readability guard passed on XXX pages; dist inspected pre-push (full accommodation h2 flow, Stay22 link, honest no-photo state, Maun destination cross-link, no markup leak).",
+    "cms": "Production deploy imports at source_commit; publishable-key read of editorial_documents remains RLS-blocked by design — owner-side CMS check to confirm accommodations/maun-lodge after deploy.",
+    "next_category": "travel_insights",
+    "next_action": "Rotate to travel insights next run; six-subject photo backlog tracked in the ledger; CMS owner-side check pending (standard).",
+    "status": "published_live_confirmed",
+    "content_commit": "PENDING",
+    "publication": {
+      "content_commit": "PENDING",
+      "pushed_to": "main",
+      "push_result": "PENDING",
+      "pushed_at": "2026-11-13",
+      "live_url": "https://trekafricaguide.com/accommodations/maun-lodge/",
+      "live_http_status": "PENDING",
+      "checked_at": "2026-11-13",
+      "live_distinctive_text": "Maun Lodge | Trek Africa Guide",
+      "live_checks": {
+        "detail": "PENDING",
+        "booking": "PENDING",
+        "cards": "PENDING",
+        "archive_home": "PENDING",
+        "internal_links": "PENDING"
+      }
     }
   }
 }
