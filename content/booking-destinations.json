@@ -1,884 +1,895 @@
 {
-  "accommodations": {
-    "kibale-forest-camp": {
-      "url": "https://www.booking.com/hotel/ug/kibale-forest-camp-kyenjojo.html",
-      "provider": "booking",
-      "title": "Kibale Forest Camp by NATURE LODGES LTD",
-      "checked_at": "2026-11-13",
-      "status": "hold",
-      "hold_reason": "13 November 2026 scheduled 4-hour audit: Stay22 wrapper redirects locale-free source to multi-property Booking.com searchresults.html (dest_id=3678955). Prior exact-detail observations unstable; suppress until a reliable wrapped full-detail listing is verified.",
-      "evidence": {
-        "source_url": "https://www.booking.com/hotel/ug/kibale-forest-camp-kyenjojo.html",
-        "summary": "12 November 2026 (Kampala), scheduled routine: browser search for 'Kibale Forest Camp Uganda' returned the exact property detail page at /hotel/ug/kibale-forest-camp-kyenjojo.html (locale-free), identifying Kibale Forest Camp by NATURE LODGES LTD in Kyenjojo, Uganda. Switched from .en-gb variant which redirected to search. Direct detail content bot-walled; no OTA rating, review count, rates, availability or attribution claims made.",
-        "verification_2026-11-13": "Stay22 redirect chain lands on searchresults.html with dest_id=3678955, dest_type=hotel; correct property appears in results but not exact detail page."
-      }
-    },
-    "casa-del-papa": {
-      "url": "https://www.booking.com/hotel/bj/casa-del-papa.html",
-      "provider": "booking",
-      "title": "Casa Del Papa Resort",
-      "checked_at": "2026-11-12",
-      "evidence": {
-        "source_url": "https://www.booking.com/hotel/bj/casa-del-papa.html",
-        "summary": "Primary property detail identifies Casa Del Papa Resort at Ouidah Plage, Benin.",
-        "redirect_check": "12 November 2026 (Kampala), midnight routine: existing production Stay22 click opened a multi-property search. Locale-free exact source through the same resolver rendered the matching full property detail page in browser. Navigation sometimes timed out after property content rendered. No rates, availability, updated review aggregates, checkout or attribution verified."
-      },
-      "status": "hold",
-      "hold_reason": "12 November 2026 (Kampala), scheduled 21:22 UTC audit: fresh production Stay22 click opened a multi-property Booking.com search page. Earlier exact detail observations are unstable; suppress until a reliable wrapped full-detail listing is verified."
-    },
-    "dar-said": {
-      "url": "https://www.booking.com/hotel/tn/dar-said.en-gb.html",
-      "provider": "booking",
-      "title": "Dar Said",
-      "checked_at": "2026-10-11",
-      "evidence": {
-        "source_url": "https://www.booking.com/hotel/tn/dar-said.en-gb.html?came_from_hotel_review=1&keep_landing=1",
-        "summary": "Primary detail identifies Rue Toumi, Sidi Bou Said, Tunisia; rejected Morocco namesakes."
-      }
-    },
-    "emerson-spice": {
-      "url": "https://www.booking.com/hotel/tz/emersonspice.en-gb.html",
-      "provider": "booking",
-      "title": "Emerson Spice, Zanzibar City (Stone Town)",
-      "checked_at": "2026-11-13",
-      "status": "hold",
-      "hold_reason": "13 November 2026 scheduled 4-hour audit: Stay22 wrapper redirects .en-gb source to multi-property Booking.com searchresults.html (dest_id=12566246). Prior exact-detail observations unstable; suppress until a reliable wrapped full-detail listing is verified.",
-      "evidence": {
-        "source_url": "https://www.booking.com/hotel/tz/emersonspice.en-gb.html",
-        "summary": "8 November 2026: the Expedia property-detail URL (property ID 31570310, rooms Belle, Violetta and Mimi) demoted in real-browser click-throughs through the Stay22 wrapper to an Expedia Hotel-Search page for Kiponda/Zanzibar rather than the property page; server-side retries alternated between the property page and rate-limited search fallbacks, so the Expedia entry could not be trusted. Switched to the exact Booking.com property listing identified by search-engine retrieval as 'Emerson Spice, Zanzibar City' (Stone Town Beach about 300 m); the Stay22 wrapper preserves the /hotel/tz/emersonspice.html detail path, matching the verified pattern of the other Booking.com entries. Do not confuse with Emerson on Hurumzi, a different property. Direct Booking.com detail content is bot-walled to automated retrieval; no rate, availability, rating or review claims made.",
-        "verification_2026-11-13": "Stay22 redirect chain lands on searchresults.html with dest_id=12566246, dest_type=hotel; correct property appears in results but not exact detail page."
-      }
-    },
-    "hilton-cabo-verde-sal-resort": {
-      "url": "https://www.booking.com/hotel/cv/hilton-cabo-verde-sal-resort.html",
-      "provider": "booking",
-      "title": "Hilton Cabo Verde Sal Resort",
-      "checked_at": "2026-11-12",
-      "evidence": {
-        "source_url": "https://www.booking.com/hotel/cv/hilton-cabo-verde-sal-resort.html",
-        "summary": "12 November 2026 (Kampala), scheduled routine: browser search for 'Hilton Cabo Verde Sal Resort' returned the exact property detail page at /hotel/cv/hilton-cabo-verde-sal-resort.html (locale-free), identifying Hilton Cabo Verde Sal Resort in Santa Maria, Cape Verde. Switched from .en-gb variant which redirected to search. Direct detail content bot-walled; no OTA rating, review count, rates, availability or attribution claims made."
-      }
-    },
-    "kruger-shalati": {
-      "url": "https://www.booking.com/hotel/za/kruger-shalati-the-train-on-the-bridge.html",
-      "provider": "booking",
-      "title": "Kruger Shalati - Train on The Bridge & Garden Suites",
-      "checked_at": "2026-11-12",
-      "evidence": {
-        "source_url": "https://www.booking.com/hotel/za/kruger-shalati-the-train-on-the-bridge.html",
-        "summary": "Primary detail identifies the train and garden suites property in Skukuza, South Africa.",
-        "redirect_check": "12 November 2026 midnight routine: wrapped browser landings alternate between property detail and multi-property search; publication click-through did not establish a stable exact listing. Held until a reliable exact-detail source is verified."
-      },
-      "status": "hold",
-      "hold_reason": "12 November 2026 midnight routine: wrapped browser landings alternate between property detail and multi-property search; publication click-through did not establish a stable exact listing. Held until a reliable exact-detail source is verified."
-    },
-    "les-paletuviers": {
-      "url": "https://www.booking.com/hotel/sn/les-pala-c-tuviers.en-gb.html",
-      "provider": "booking",
-      "title": "Les Palétuviers — Toubakouta, Senegal",
-      "checked_at": "2026-11-12",
-      "evidence": {
-        "source_url": "https://www.booking.com/hotel/sn/les-pala-c-tuviers.en-gb.html",
-        "summary": "Rechecked 22 October 2026: the Booking.com detail page identifies the exact Les Palétuviers hotel in Toubakouta, Senegal. Matches the official property and existing accommodation record. No rate, availability, rating or review count copied into site content."
-      },
-      "status": "hold",
-      "hold_reason": "12 November 2026 (Kampala), scheduled 21:22 UTC audit: fresh production Stay22 click opened a multi-property Booking.com search page. Earlier exact detail observations are unstable; suppress until a reliable wrapped full-detail listing is verified."
-    },
-    "maribela-hotel": {
-      "url": "https://www.booking.com/hotel/et/maribela-lalibela.html",
-      "provider": "booking",
-      "title": "Maribela Hotel",
-      "checked_at": "2026-11-12",
-      "evidence": {
-        "source_url": "https://www.booking.com/hotel/et/maribela-lalibela.html",
-        "summary": "Real-browser Stay22 check on 11 November 2026: the previous en-gb URL opened a multi-property Lalibela search despite dest_type=hotel. The locale-free source opens the full Maribela Hotel detail page in Lalibela. No rates, availability, numerical review or attribution claims made.",
-        "redirect_check": "12 November 2026 (Kampala), midnight routine: production Stay22 click opens a multi-property search instead of the exact full property listing. Suppress booking option until a stable wrapped exact detail source is verified."
-      },
-      "status": "hold",
-      "hold_reason": "12 November 2026 (Kampala), midnight routine: production Stay22 click opens a multi-property search instead of the exact full property listing. Suppress booking option until a stable wrapped exact detail source is verified."
-    },
-    "marriott-mena-house-cairo": {
-      "url": "https://www.booking.com/hotel/eg/mena-house-oberoi.html",
-      "provider": "booking",
-      "title": "Marriott Mena House, Cairo",
-      "checked_at": "2026-11-11",
-      "evidence": {
-        "source_url": "https://www.booking.com/hotel/eg/mena-house-oberoi.html",
-        "summary": "Primary detail identifies Marriott Mena House at Pyramids Road, Giza, Cairo, Egypt; legacy Oberoi URL remains associated with current Marriott name."
-      },
-      "status": "hold",
-      "hold_reason": "11 November 2026: Booking.com and the replacement Hotels.com ho654475 both fail exact-detail live click-through. Hotels.com initially rendered detail during candidate research, but the production click opened multi-property Hotel-Search results (browser content confirmed). Keep held until a stable exact wrapped detail landing is verified."
-    },
-    "mount-nelson-a-belmond-hotel": {
-      "url": "https://www.booking.com/hotel/za/belmond-mount-nelson.html",
-      "provider": "booking",
-      "title": "Mount Nelson, A Belmond Hotel, Cape Town",
-      "checked_at": "2026-11-12",
-      "evidence": {
-        "source_url": "https://www.booking.com/hotel/za/belmond-mount-nelson.html",
-        "summary": "Primary detail identifies 76 Orange Street, Gardens, Cape Town, South Africa.",
-        "redirect_check": "12 November 2026 (Kampala), midnight routine: existing production Stay22 click opened a multi-property search. Locale-free exact source through the same resolver rendered the matching full property detail page in browser. Navigation sometimes timed out after property content rendered. No rates, availability, updated review aggregates, checkout or attribution verified."
-      },
-      "status": "hold",
-      "hold_reason": "12 November 2026 (Kampala), scheduled 21:22 UTC audit: fresh production Stay22 click opened a multi-property Booking.com search page. Earlier exact detail observations are unstable; suppress until a reliable wrapped full-detail listing is verified."
-    },
-    "ol-tukai-lodge-amboseli": {
-      "url": "https://www.hotels.com/ho508661/ol-tukai-lodge-amboseli-amboseli-kenya/",
-      "provider": "hotelscom",
-      "title": "Ol Tukai Lodge Amboseli",
-      "checked_at": "2026-11-12",
-      "evidence": {
-        "source_url": "https://www.hotels.com/ho508661/ol-tukai-lodge-amboseli-amboseli-kenya/",
-        "summary": "11 November 2026: replacement Hotels.com source browser-verified through Stay22 to the exact full property-detail page with matching property name and location, gallery, rooms and policies. Replaces Booking.com search landing; prior hold lifted. Page load timed out but rendered detail content and exact property path were inspected. Numerical review evidence, rates, checkout and attribution not verified.",
-        "redirect_check": "12 November 2026 (Kampala), midnight routine: production Stay22 click opens a multi-property search instead of the exact full property listing. Suppress booking option until a stable wrapped exact detail source is verified."
-      },
-      "status": "hold",
-      "hold_reason": "12 November 2026 (Kampala), midnight routine: production Stay22 click opens a multi-property search instead of the exact full property listing. Suppress booking option until a stable wrapped exact detail source is verified."
-    },
-    "paraa-safari-lodge": {
-      "url": "https://www.booking.com/hotel/ug/paraa-safari-lodge.html",
-      "provider": "booking",
-      "title": "Paraa Safari Lodge",
-      "checked_at": "2026-11-12",
-      "evidence": {
-        "source_url": "https://www.booking.com/hotel/ug/paraa-safari-lodge.en-gb.html",
-        "summary": "Exact Paraa Safari Lodge listing identifies the property in Paraa, Uganda and accommodation in Murchison Falls National Park. On 20 October 2026, the indexed listing stated it was not accepting reservations on Booking.com. Preserve this exact property match; availability is unconfirmed and can change.",
-        "redirect_check": "12 November 2026 (Kampala), midnight routine: production Stay22 click opens a multi-property search instead of the exact full property listing. Suppress booking option until a stable wrapped exact detail source is verified."
-      },
-      "status": "hold",
-      "hold_reason": "12 November 2026 (Kampala), midnight routine: production Stay22 click opens a multi-property search instead of the exact full property listing. Suppress booking option until a stable wrapped exact detail source is verified."
-    },
-    "ridge-royal-hotel": {
-      "url": "https://www.booking.com/hotel/gh/ridge-royal-cape-coast.en-gb.html",
-      "provider": "booking",
-      "title": "Ridge Royal Hotel Cape Coast",
-      "checked_at": "2026-10-28",
-      "evidence": {
-        "source_url": "https://www.booking.com/hotel/gh/ridge-royal-cape-coast.en-gb.html",
-        "summary": "Rechecked 28 October 2026: the English Booking.com exact property detail names Ridge Royal Hotel Cape Coast and gives Number 1, 2nd Ridge, Cape Coast, Ghana. The page lists accommodation and facilities for this specific property. No rates, availability, score or review total is copied into the guide."
-      }
-    },
-    "serengeti-serena-safari-lodge": {
-      "url": "https://www.booking.com/hotel/tz/serengeti-serena-safari-lodge.en-gb.html",
-      "provider": "booking",
-      "title": "Serengeti Serena Safari Lodge",
-      "checked_at": "2026-11-13",
-      "status": "hold",
-      "hold_reason": "13 November 2026 scheduled 4-hour audit: Stay22 wrapper redirects .en-gb source to multi-property Booking.com searchresults.html (dest_id=2357218). Suppress until a reliable wrapped full-detail listing is verified.",
-      "evidence": {
-        "source_url": "https://www.booking.com/hotel/tz/serengeti-serena-safari-lodge.en-gb.html",
-        "summary": "Primary property detail identifies Serengeti National Park, Tanzania.",
-        "verification_2026-11-13": "Stay22 redirect chain lands on searchresults.html with dest_id=2357218, dest_type=hotel; correct property appears in results but not exact detail page."
-      }
-    },
-    "sossusvlei-lodge": {
-      "url": "https://www.booking.com/hotel/na/sossusvlei-lodge.en-gb.html",
-      "provider": "booking",
-      "title": "Sossusvlei Lodge",
-      "checked_at": "2026-11-13",
-      "status": "hold",
-      "hold_reason": "13 November 2026 scheduled 4-hour audit: Stay22 wrapper redirects .en-gb source to multi-property Booking.com searchresults.html (dest_id=316567). Suppress until a reliable wrapped full-detail listing is verified.",
-      "evidence": {
-        "source_url": "https://www.booking.com/hotel/na/sossusvlei-lodge.en-gb.html",
-        "summary": "Primary detail identifies Farm on D826, Sesriem, Namibia.",
-        "verification_2026-11-13": "Stay22 redirect chain lands on searchresults.html with dest_id=316567, dest_type=hotel; correct property appears in results but not exact detail page."
-      }
-    },
-    "the-place-resort-tokeh": {
-      "url": "https://www.agoda.com/en-ie/the-place-resort-at-tokeh-beach-h88167521/hotel/toke-sl.html",
-      "provider": "agoda",
-      "title": "The Place Resort At Tokeh Beach",
-      "checked_at": "2026-11-11",
-      "evidence": {
-        "source_url": "https://www.agoda.com/en-ie/the-place-resort-at-tokeh-beach-h88167521/hotel/toke-sl.html",
-        "summary": "Browser-verified 11 November 2026: Stay22 Agoda redirect opens this full property detail listing, naming The Place Resort At Tokeh Beach at Peninsula Road, Toke, Sierra Leone, with overview, rooms and facilities. Replaces held Expedia search-page landing. No numerical review score/count was verified; no current price, availability, checkout or affiliate attribution claim."
-      },
-      "notes": "Review evidence is limited: no current guest rating or review count verified. Check the provider for room availability and terms."
-    },
-    "victoria-falls-hotel": {
-      "url": "https://www.booking.com/hotel/zw/the-victoria-falls.en-gb.html",
-      "provider": "booking",
-      "title": "The Victoria Falls Hotel",
-      "checked_at": "2026-11-12",
-      "evidence": {
-        "source_url": "https://www.booking.com/hotel/zw/the-victoria-falls.en-gb.html",
-        "summary": "Primary detail identifies 1 Mallet Drive, Victoria Falls, Zimbabwe and historic 1904 hotel.",
-        "redirect_check": "12 November 2026 midnight routine: wrapped browser landings alternate between property detail and multi-property search; publication click-through did not establish a stable exact listing. Held until a reliable exact-detail source is verified."
-      },
-      "status": "hold",
-      "hold_reason": "12 November 2026 midnight routine: wrapped browser landings alternate between property detail and multi-property search; publication click-through did not establish a stable exact listing. Held until a reliable exact-detail source is verified."
-    },
-    "camp-okavango": {
-      "status": "unavailable",
-      "reason": "No exact supported OTA property detail found after targeted Booking.com, Expedia, Hotels.com and Agoda searches; do not substitute Little Okavango Camp in Tanzania or other Botswana camps."
-    },
-    "governors-camp": {
-      "status": "unavailable",
-      "reason": "Expedia's own Musiara Gate hotel page links the exact listing, but opening it redirects to generic Expedia Hotels; no working supported alternative verified."
-    },
-    "mfuwe-lodge": {
-      "status": "unavailable",
-      "checked_at": "2026-11-11",
-      "evidence": {
-        "source_url": "https://www.cntraveler.com/hotels/zambia/luangwa-valley/mfuwe-lodge",
-        "summary": "Rechecked 11 November 2026: the property sells direct through The Bushcamp Company (Condé Nast Traveler lists it with \"Book Now at Bush Camp Company — Powered By: Bush Camp Company\"). Booking.com's Mfuwe results list only other lodges (Royal South Luangwa, Thornicroft, Mopani, Msandile) and Expedia's Mfuwe hotels/lodges guides omit the property; a generic booking.com/hotel/zm/mfuwe-lodge URL returned no listing content. Keep the CTA suppressed rather than substituting another lodge."
-      }
-    },
-    "riad-rosemary": {
-      "status": "unavailable",
-      "checked_at": "2026-11-07",
-      "evidence": {
-        "source_url": "https://rosemarymarrakech.com/",
-        "summary": "Rechecked 7 November 2026 with fresh web searches: the property (LRNCE-designed riad, Riad Zitoun Jdid, five rooms) shows an official direct-sales site and directory listings only; no supported OTA detail was found. Booking.com's indexed Marrakech results contain only namesakes (Riad Rose Meryam in the Mechouar-Kasbah district; a Rosemary apartment), which are different properties. Keep the booking CTA suppressed rather than matching a namesake."
-      }
-    },
-    "sabyinyo-silverback-lodge": {
-      "status": "unavailable",
-      "reason": "No exact supported OTA detail found under current or legacy Sabyinyo Silverback Lodge names."
-    },
-    "sanctuary-gorilla-forest-camp": {
-      "status": "unavailable",
-      "reason": "No exact supported OTA detail found under current or legacy Sanctuary Gorilla Forest Camp names."
-    },
-    "terres-touareg-guest-house": {
-      "status": "unavailable",
-      "reason": "No exact supported OTA detail found; official guesthouse page confirms Djanet property but is not an OTA."
-    },
-    "desert-luxury-camp": {
-      "status": "unavailable",
-      "reason": "The editorial property is the desertluxurycamp.com operator portfolio (Erg Chebbi or Erg Chigaga). Multiple OTA namesakes were found, but same-operator identity could not be confirmed. Do not publish these candidate links without operator confirmation."
-    },
-    "desert-quiver-camp": {
-      "url": "https://www.booking.com/hotel/na/desert-quiver-camp.html",
-      "provider": "booking",
-      "title": "Desert Quiver Camp",
-      "checked_at": "2026-11-13",
-      "status": "hold",
-      "hold_reason": "13 November 2026 scheduled 4-hour audit: Stay22 wrapper redirects locale-free source to multi-property Booking.com searchresults.html (dest_id=1582394). Prior exact-detail observations unstable; suppress until a reliable wrapped full-detail listing is verified.",
-      "evidence": {
-        "source_url": "https://www.booking.com/hotel/na/desert-quiver-camp.html",
-        "summary": "12 November 2026 (Kampala), scheduled routine: browser search for 'Desert Quiver Camp Namibia' returned the exact property detail page at /hotel/na/desert-quiver-camp.html (locale-free), identifying Desert Quiver Camp at Farm On D826/C27, Sesriem, Namibia. Switched from .en-gb variant which redirected to search. Direct detail content bot-walled; no OTA rating, review count, rates, availability or affiliate attribution verified.",
-        "verification_2026-11-13": "Stay22 redirect chain lands on searchresults.html with dest_id=1582394, dest_type=hotel; correct property appears in results but not exact detail page."
-      }
-    },
-    "amboseli-serena-safari-lodge": {
-      "url": "https://www.booking.com/hotel/ke/amboseli-serena-safari-lodge.en-gb.html",
-      "provider": "booking",
-      "title": "Amboseli Serena Safari Lodge",
-      "checked_at": "2026-10-15",
-      "evidence": {
-        "source_url": "https://www.booking.com/hotel/ke/amboseli-serena-safari-lodge.en-gb.html",
-        "summary": "Indexed Booking.com exact property page identifies Amboseli Serena Safari Lodge, Kenya; name/location cross-checked with Serena official Amboseli page. Direct request returned JavaScript verification. No availability, current price, aggregate rating or affiliate attribution independently verified."
-      }
-    },
-    "red-chilli-rest-camp": {
-      "url": "https://www.booking.com/hotel/ug/red-chilli-rest-camp.html",
-      "provider": "booking",
-      "title": "Red Chilli Rest Camp",
-      "checked_at": "2026-11-12",
-      "evidence": {
-        "source_url": "https://www.booking.com/reviews/ug/hotel/red-chilli-rest-camp.html",
-        "summary": "Booking.com review page names Red Chilli Rest Camp on Main Road Murchison Falls National Park, Uganda, matching official Murchison property. Exact /hotel/ destination returns JS verification. Do not confuse with Kampala Hideaway; no live prices/availability or attribution verified.",
-        "redirect_check": "12 November 2026 (Kampala), midnight routine: production Stay22 click opens a multi-property search instead of the exact full property listing. Suppress booking option until a stable wrapped exact detail source is verified."
-      },
-      "status": "hold",
-      "hold_reason": "12 November 2026 (Kampala), midnight routine: production Stay22 click opens a multi-property search instead of the exact full property listing. Suppress booking option until a stable wrapped exact detail source is verified."
-    },
-    "buhoma-community-rest-camp": {
-      "url": "https://www.booking.com/hotel/ug/buhoma-community-rest-camp-kanungu.en-gb.html",
-      "provider": "booking",
-      "title": "Buhoma Community Rest Camp",
-      "status": "unavailable",
-      "checked_at": "2026-10-16",
-      "evidence": {
-        "source_url": "https://www.booking.com/hotel/ug/buhoma-community-rest-camp-kanungu.en-gb.html",
-        "summary": "Exact Buhoma property identifiable, but listing states not taking reservations and no review score. Shared resolver must suppress booking CTA; do not substitute Buhoma Lodge or Haven Lodge."
-      }
-    },
-    "jollyboys-backpackers": {
-      "url": "https://www.expedia.com/Livingstone-Hotels-Jollyboys-Backpackers.h14704528.Hotel-Information",
-      "provider": "expedia",
-      "title": "Jollyboys Backpackers",
-      "checked_at": "2026-11-12",
-      "evidence": {
-        "source_url": "https://www.expedia.com/Livingstone-Hotels-Jollyboys-Backpackers.h14704528.Hotel-Information",
-        "summary": "Exact property ID 14704528 identifies Jollyboys Backpackers at 34 Kanyanta Road, Livingstone. Official property and regional tourism sources cross-check identity. No current price, numerical rating or affiliate attribution verification claimed.",
-        "redirect_check": "12 November 2026 (Kampala), midnight routine: production Stay22 click opens a multi-property search instead of the exact full property listing. Suppress booking option until a stable wrapped exact detail source is verified."
-      },
-      "status": "hold",
-      "hold_reason": "12 November 2026 (Kampala), midnight routine: production Stay22 click opens a multi-property search instead of the exact full property listing. Suppress booking option until a stable wrapped exact detail source is verified."
-    },
-    "fairway-boutique-hotel": {
-      "url": "https://www.booking.com/hotel/ug/fairway-amp-spa.en-gb.html",
-      "provider": "booking",
-      "title": "Fairway Boutique Hotel - Kampala, Uganda",
-      "checked_at": "2026-11-12",
-      "evidence": {
-        "source_url": "https://www.booking.com/hotel/ug/fairway-amp-spa.en-gb.html",
-        "summary": "The exact Booking.com detail page identifies Fairway Boutique Hotel in Kampala, Uganda. Its property name and city were cross-checked against Fairway Hotel’s official site and the Agoda listing at Plot 3 Kafu Road, Nakasero. No live rate, availability, Booking.com review score or review count is used.",
-        "redirect_check": "12 November 2026 (Kampala), midnight routine: production Stay22 click opens a multi-property search instead of the exact full property listing. Suppress booking option until a stable wrapped exact detail source is verified."
-      },
-      "status": "hold",
-      "hold_reason": "12 November 2026 (Kampala), midnight routine: production Stay22 click opens a multi-property search instead of the exact full property listing. Suppress booking option until a stable wrapped exact detail source is verified."
-    },
-    "kigali-serena-hotel": {
-      "url": "https://www.booking.com/hotel/rw/kigali-serena.en-gb.html",
-      "provider": "booking",
-      "title": "Kigali Serena Hotel",
-      "checked_at": "2026-11-11",
-      "evidence": {
-        "source_url": "https://www.booking.com/hotel/rw/kigali-serena.en-gb.html",
-        "summary": "Search results (checked 9 November 2026) identify the exact Booking.com detail page \"Kigali Serena Hotel, Kigali\" with a five-star description matching the official Serena property. Direct Booking.com detail fetch was automation-blocked (Ridge Royal standard), so no live rate, availability, numerical rating or review-count claim is made. Identity cross-checked against the official Serena Hotels site."
-      },
-      "status": "hold",
-      "hold_reason": "11 November 2026 live production Stay22 link opens a multi-property Booking.com searchresults.html page, not the exact property detail. Locale-free source also opens search. Suppress CTA until a replacement wrapped exact-detail landing is browser-verified."
-    },
-    "nairobi-serena-hotel": {
-      "url": "https://www.booking.com/hotel/ke/nairobi-serena.html",
-      "provider": "booking",
-      "title": "Nairobi Serena Hotel",
-      "checked_at": "2026-11-11",
-      "evidence": {
-        "source_url": "https://www.booking.com/hotel/ke/nairobi-serena.html",
-        "summary": "Search results (checked 9 November 2026) identify the exact Booking.com detail page \"Nairobi Serena Hotel, Kenyatta Avenue, 00100 Nairobi\" matching the official Serena property. Direct Booking.com detail fetch was automation-blocked (Ridge Royal standard), so no live rate, availability, numerical rating or review-count claim is made. Identity cross-checked against the official Serena Hotels site."
-      },
-      "status": "hold",
-      "hold_reason": "11 November 2026 live production Stay22 link opens a multi-property Booking.com searchresults.html page, not the exact property detail. Locale-free source also opens search. Suppress CTA until a replacement wrapped exact-detail landing is browser-verified."
-    },
-    "mountains-of-the-moon-hotel": {
-      "url": "https://www.booking.com/hotel/ug/mountains-of-the-moon.html",
-      "provider": "booking",
-      "title": "Mountains of the Moon Hotel",
-      "checked_at": "2026-11-12",
-      "evidence": {
-        "source_url": "https://www.booking.com/hotel/ug/mountains-of-the-moon.html",
-        "summary": "11 November 2026: live Stay22 link using the en-gb source opened Fort Portal search results. Locale-free source was browser-verified through Stay22 to the full Mountains of the Moon Hotel Fort Portal detail page with availability, facilities, house rules and guest-review sections. Rates, checkout and attribution not verified.",
-        "redirect_check": "12 November 2026 (Kampala), midnight routine: production Stay22 click opens a multi-property search instead of the exact full property listing. Suppress booking option until a stable wrapped exact detail source is verified."
-      },
-      "status": "hold",
-      "hold_reason": "12 November 2026 (Kampala), midnight routine: production Stay22 click opens a multi-property search instead of the exact full property listing. Suppress booking option until a stable wrapped exact detail source is verified."
-    },
-    "zanzibar-white-sand-luxury-villas": {
-      "url": "https://www.booking.com/hotel/tz/white-sand-luxury-villas-amp-spa.en-gb.html",
-      "provider": "booking",
-      "title": "Zanzibar White Sand Luxury Villas & Spa, Paje Beach, Zanzibar",
-      "checked_at": "2026-11-11",
-      "evidence": {
-        "source_url": "https://www.booking.com/hotel/tz/white-sand-luxury-villas-amp-spa.en-gb.html",
-        "summary": "Search results (checked 10 November 2026) identify the exact Booking.com detail page for Zanzibar White Sand Luxury Villas & Spa in Paje, Tanzania. Direct Booking.com detail fetch was automation-blocked (Ridge Royal standard), so no live rate, availability, numerical rating or review-count claim is made. Identity cross-checked against the property's official site (whitesandvillas.com)."
-      },
-      "status": "hold",
-      "hold_reason": "11 November 2026 live production Stay22 link opens a multi-property Booking.com searchresults.html page, not the exact property detail. Locale-free source also opens search. Suppress CTA until a replacement wrapped exact-detail landing is browser-verified."
-    }
+ "accommodations": {
+  "kibale-forest-camp": {
+   "url": "https://www.booking.com/hotel/ug/kibale-forest-camp-kyenjojo.html",
+   "provider": "booking",
+   "title": "Kibale Forest Camp by NATURE LODGES LTD",
+   "checked_at": "2026-11-13",
+   "status": "hold",
+   "hold_reason": "13 November 2026 scheduled 4-hour audit: Stay22 wrapper redirects locale-free source to multi-property Booking.com searchresults.html (dest_id=3678955). Prior exact-detail observations unstable; suppress until a reliable wrapped full-detail listing is verified.",
+   "evidence": {
+    "source_url": "https://www.booking.com/hotel/ug/kibale-forest-camp-kyenjojo.html",
+    "summary": "12 November 2026 (Kampala), scheduled routine: browser search for 'Kibale Forest Camp Uganda' returned the exact property detail page at /hotel/ug/kibale-forest-camp-kyenjojo.html (locale-free), identifying Kibale Forest Camp by NATURE LODGES LTD in Kyenjojo, Uganda. Switched from .en-gb variant which redirected to search. Direct detail content bot-walled; no OTA rating, review count, rates, availability or attribution claims made.",
+    "verification_2026-11-13": "Stay22 redirect chain lands on searchresults.html with dest_id=3678955, dest_type=hotel; correct property appears in results but not exact detail page."
+   }
   },
-  "activities": {
-    "maasai-mara-balloon-safari": {
-      "url": "https://www.getyourguide.com/keekorok-l247032/maasai-mara-hot-air-balloon-safari-with-a-bush-breakfast-t254357/",
-      "provider": "getyourguide",
-      "title": "Maasai Mara balloon safari with champagne breakfast",
-      "operator": "Perfect Wilderness Tours and Safari",
-      "rating": 4.8,
-      "review_count": 37,
-      "notes": "Confirm your camp is in the pickup area. Flight operations depend on weather.",
-      "checked_at": "2026-10-24",
-      "evidence": {
-        "review_check": "Exact product and review aggregate retrieved 24 October 2026; scores may change. Individual evidence in 2026-10-24 activity research ledgers."
-      }
-    },
-    "bwindi-gorilla-trekking": {
-      "url": "https://www.getyourguide.com/kigali-l32466/1-day-gorilla-tour-in-bwindi-from-kigali-t792979/",
-      "provider": "getyourguide",
-      "title": "One-day Bwindi gorilla tour from Kigali",
-      "operator": "BUGOLI ADVENTURES LIMITED",
-      "rating": 4.8,
-      "review_count": 17,
-      "notes": "This is a cross-border day trip from Kigali, not a local Bwindi departure. Confirm permit costs, trekking sector, border documents and the full price before booking.",
-      "checked_at": "2026-10-24",
-      "evidence": {
-        "review_check": "Exact product and review aggregate retrieved 24 October 2026; scores may change. Individual evidence in 2026-10-24 activity research ledgers."
-      }
-    },
-    "amboseli-game-drive-safari": {
-      "url": "https://www.getyourguide.com/nairobi-l267/nairobi-day-tour-to-amboseli-national-park-maasai-village-t543578/",
-      "provider": "getyourguide",
-      "title": "Amboseli day tour from Nairobi",
-      "operator": "Niroskos Tours And Safaris",
-      "rating": 4.5,
-      "review_count": 452,
-      "notes": "A long day from Nairobi. Check park admission, vehicle upgrades and optional village charges separately; this is not an in-park lodge pickup by default.",
-      "checked_at": "2026-10-24",
-      "evidence": {
-        "review_check": "Exact product and review aggregate retrieved 24 October 2026; scores may change. Individual evidence in 2026-10-24 activity research ledgers."
-      }
-    },
-    "atlas-mountains-day-trip": {
-      "url": "https://www.getyourguide.com/asni-l115647/marrakech-atlas-mountains-ourika-5-valleys-day-tour-t11542/",
-      "provider": "getyourguide",
-      "title": "Atlas Mountains and five valleys day tour with lunch",
-      "operator": "Attractive Tours",
-      "rating": 4.9,
-      "review_count": 2304,
-      "notes": "Departs from Marrakech. Check the selected shared or private option and pickup arrangements.",
-      "checked_at": "2026-10-24",
-      "evidence": {
-        "review_check": "Exact product and review aggregate retrieved 24 October 2026; scores may change. Individual evidence in 2026-10-24 activity research ledgers."
-      }
-    },
-    "serengeti-balloon-safari": {
-      "url": "https://www.getyourguide.com/serengeti-national-park-l123040/serengeti-national-park-balloon-safari-at-dawn-t383490/",
-      "provider": "getyourguide",
-      "title": "Serengeti balloon safari at dawn",
-      "operator": "Serengeti Balloon Safaris",
-      "rating": 4.2,
-      "review_count": 14,
-      "notes": "A directly operated balloon experience with a modest review sample. Confirm launch area and lodge pickup; park entry is not included. Flights depend on weather.",
-      "checked_at": "2026-10-24",
-      "evidence": {
-        "review_check": "Exact product and review aggregate retrieved 24 October 2026; scores may change. Individual evidence in 2026-10-24 activity research ledgers."
-      }
-    },
-    "table-mountain-guided-hike": {
-      "url": "https://www.getyourguide.com/cape-town-l103/cape-town-table-mountain-hike-via-india-venster-t302403/",
-      "provider": "getyourguide",
-      "title": "Table Mountain guided hike via India Venster",
-      "operator": "Atlantic Outlook",
-      "rating": 5,
-      "review_count": 34,
-      "notes": "This route involves scrambling and requires good fitness and confidence on uneven ground. Confirm suitability and descent arrangements with the guide.",
-      "checked_at": "2026-10-24",
-      "evidence": {
-        "review_check": "Exact product and review aggregate retrieved 24 October 2026; scores may change. Individual evidence in 2026-10-24 activity research ledgers."
-      }
-    },
-    "cape-coast-kakum-guided-visit": {
-      "url": "https://www.getyourguide.com/accra-l506/from-accra-the-cape-coast-day-tour-guided-experience-t834942/",
-      "provider": "getyourguide",
-      "title": "Cape Coast Castle, Elmina Castle and Kakum tour",
-      "operator": "Expedition-Go Tours",
-      "rating": 4.7,
-      "review_count": 220,
-      "notes": "Full-day departure from Accra. Confirm which admissions and stops your selected option includes.",
-      "checked_at": "2026-11-08",
-      "evidence": {
-        "review_check": "Exact product detail retrieved in a browser session 8 November 2026: product 834942, provider Expedition-Go Tours, 4.7/5 from 220 reviews, itinerary covering Cape Coast Castle, Elmina Castle and Kakum National Park from Accra. This recheck clears the earlier hold that followed a failed non-browser retrieval. Scores may change."
-      }
-    },
-    "victoria-falls-guided-walk": {
-      "url": "https://www.getyourguide.com/victoria-falls-town-l127068/zimbabwe-zambia-guided-tour-of-the-falls-from-both-sides-t414370/",
-      "provider": "getyourguide",
-      "title": "Guided Victoria Falls tour: Zimbabwe and Zambia",
-      "operator": "Cuckoo Safaris",
-      "rating": 4.7,
-      "review_count": 516,
-      "notes": "This option visits both countries. Confirm visa eligibility, border arrangements and park entrance charges before booking.",
-      "checked_at": "2026-10-24",
-      "evidence": {
-        "review_check": "Exact product and review aggregate retrieved 24 October 2026; scores may change. Individual evidence in 2026-10-24 activity research ledgers."
-      }
-    },
-    "okavango-mokoro-safari": {
-      "url": "https://www.getyourguide.com/maun-l116302/okavango-delta-full-day-mokorocanoe-tour-all-inclusive-t604726/",
-      "provider": "getyourguide",
-      "title": "Full-day Okavango mokoro and walking excursion",
-      "operator": "Kalahari Breeze Safari",
-      "rating": 4.7,
-      "review_count": 119,
-      "notes": "Departs from Maun and combines a mokoro outing with walking. This is not a vehicle game-drive package; confirm water conditions and pickup.",
-      "checked_at": "2026-10-24",
-      "evidence": {
-        "review_check": "Exact product and review aggregate retrieved 24 October 2026; scores may change. Individual evidence in 2026-10-24 activity research ledgers."
-      }
-    },
-    "volcanoes-gorilla-trek": {
-      "url": "https://www.getyourguide.com/kigali-l32466/kigali-rwanda-gorilla-tracking-in-volcanoes-national-park-t537766/",
-      "provider": "getyourguide",
-      "title": "Kigali: gorilla tracking in Volcanoes National Park",
-      "operator": "Vista Safaris",
-      "rating": 4.9,
-      "review_count": 39,
-      "notes": "The Rwanda gorilla permit is not included. Confirm the Rwanda option and the full permit-inclusive cost: reviews may cover different itinerary variants.",
-      "checked_at": "2026-10-24",
-      "evidence": {
-        "review_check": "Exact product and review aggregate retrieved 24 October 2026; scores may change. Individual evidence in 2026-10-24 activity research ledgers."
-      }
-    },
-    "giza-pyramids-guided-tour": {
-      "url": "https://www.getyourguide.com/cairo-l92/cairo-grand-egyptian-museum-pyramids-sphinx-tour-lunch-t851104/",
-      "provider": "getyourguide",
-      "title": "Cairo: Grand Egyptian Museum, Pyramids, Sphinx Tour & Lunch",
-      "operator": "OceanAir Travels",
-      "checked_at": "2026-10-23",
-      "evidence_url": "https://www.getyourguide.com/cairo-l92/cairo-grand-egyptian-museum-pyramids-sphinx-tour-lunch-t851104/",
-      "notes": "Exact combined Cairo/Giza tour, product 851104. The OTA page currently retains a museum-status note that conflicts with the official GEM visit pages. Confirm the current museum route, ticket option and pickup address with the operator before paying; no review total or score asserted.",
-      "status": "hold",
-      "last_attempted_at": "2026-10-24",
-      "hold_reason": "Product detail could not be reconfirmed: retrieval returned a generic page shell. Keep original exact URL; do not substitute search results. Recheck before enabling CTA."
-    },
-    "stone-town-historical-walking-tour": {
-      "url": "https://www.getyourguide.com/zanzibar-tsiti-l872/kameni-grad-vodjeni-istorijski-obilazak-grada-t566480/",
-      "provider": "getyourguide",
-      "title": "Stone Town: Guided Historical Walking City Tour",
-      "operator": "Zanziworld Tours",
-      "checked_at": "2026-10-16",
-      "notes": "Exact product 566480 identified from a retrieved listing. Live refresh was blocked; confirm current availability and meeting/pickup arrangements. Historical review sample is small; no current ranking claimed.",
-      "evidence": {
-        "source_url": "https://www.getyourguide.com/zanzibar-tsiti-l872/kameni-grad-vodjeni-istorijski-obilazak-grada-t566480/",
-        "summary": "Retrieved listing identifies product/operator. Direct HTTP refresh 403; current rates, availability and review totals not confirmed."
-      }
-    },
-    "marrakech-medina-street-food-tour": {
-      "url": "https://www.getyourguide.com/en-gb/argana-l191087/marrakech-street-food-tour-with-a-local-guide-t490970/",
-      "provider": "getyourguide",
-      "title": "Marrakech: Street Food Tour with a Local Guide",
-      "operator": "Reiseführer Abdo",
-      "rating": 4.8,
-      "review_count": 4299,
-      "checked_at": "2026-10-24",
-      "notes": "Exact product 490970. About three hours; Café Restaurant Argana start/finish; food and drinks included. Confirm selected date, accessibility and dietary arrangements; current price and availability vary.",
-      "evidence": {
-        "source_url": "https://www.getyourguide.com/en-gb/argana-l191087/marrakech-street-food-tour-with-a-local-guide-t490970/",
-        "summary": "Exact detail checked 2026-10-17 identifies product 490970 and provider Reiseführer Abdo, itinerary, duration, meeting point and inclusions. Displayed 4.8/5 from 4,104 reviews; September 2026 feedback includes positive experiences and practical caveats.",
-        "review_check": "Exact product and review aggregate retrieved 24 October 2026; scores may change. Individual evidence in 2026-10-24 activity research ledgers."
-      }
-    },
-    "volcanoes-golden-monkey-trekking": {
-      "url": "https://www.getyourguide.com/kigali-l32466/golden-monkey-trekking-with-lunch-t850037/",
-      "provider": "getyourguide",
-      "title": "Golden Monkey Trekking with lunch",
-      "operator": "Private Tours /Rwanda",
-      "rating": 4.8,
-      "review_count": 6,
-      "notes": "A full day from Kigali (about eight hours with transfers). The advertised fare includes the USD 100 golden monkey ticket, Kigali hotel pickup, driver-guide, lunch and water; confirm pickup coverage and cancellation terms before booking.",
-      "checked_at": "2026-11-06",
-      "evidence": {
-        "review_check": "Exact product and review aggregate retrieved 6 November 2026; scores may change. Dated reviews recorded in the 2026-11-06 research ledger."
-      }
-    },
-    "nyungwe-canopy-walk": {
-      "url": "https://www.getyourguide.com/kigali-l32466/kigali1-day-nyungwe-canopy-walk-waterfall-tour-adventure-t937129/",
-      "provider": "getyourguide",
-      "title": "Kigali: 1-Day Nyungwe Canopy Walk & Waterfall Tour",
-      "operator": "Vista Safaris",
-      "rating": 3.7,
-      "review_count": 7,
-      "notes": "Full-day Kigali round trip with accommodation pickup, park walk and Ndambarare waterfall. The listing describes park fees of US$155 per person as an additional charge; its own dimension copy differs from official figures. Confirm dates, inclusions and cancellation terms before booking. No rate or availability claims published.",
-      "checked_at": "2026-11-09",
-      "evidence": {
-        "review_check": "Exact product and review aggregate read live 9 November 2026 (score 3.7/5 from 7 reviews). Dated reviews recorded in the research ledger; scores may change."
-      }
-    },
-    "kruger-national-park-game-drive": {
-      "url": "https://www.getyourguide.com/en-gb/skukuza-l192363/kruger-national-park-full-day-game-drive-with-pickup-t433574/",
-      "provider": "getyourguide",
-      "title": "Kruger National Park: Full-Day Game Drive with Pickup",
-      "operator": "Inn Africa Camp & Tours- Game drives",
-      "rating": 4.5,
-      "review_count": 166,
-      "notes": "Full-day open-vehicle game drive. Confirm the pickup area; food and park conservation fees are extra.",
-      "checked_at": "2026-10-11",
-      "status": "active",
-      "verification_note": "Exact product re-verified live in search index 2026-11-09 (title and Big-5 open-vehicle description match); direct platform fetch automation-blocked, so no rate or availability claim is made."
-    },
-    "jozani-forest-guided-visit": {
-      "url": "https://www.getyourguide.com/jozani-l239369/zanzibar-jozani-forest-nature-walk-and-wildlife-tour-t968921/",
-      "provider": "getyourguide",
-      "title": "Zanzibar: Jozani Forest, Nature Walk and Wildlife Tour",
-      "operator": "Zanzibar blessing tours and safari",
-      "rating": 5,
-      "review_count": 2,
-      "notes": "Jozani-only nature walk with the entrance fee, guided forest and mangrove walk; earlier metadata places the meeting point at Jozani Forest itself while the current listing advertises pickup. Very small review sample (2 reviews); private group. Confirm pickup coverage and meeting arrangements before booking. No rate or availability claims published.",
-      "checked_at": "2026-11-10",
-      "evidence": {
-        "review_check": "Exact product (t968921) retrieved in a browser session 8 November 2026: 5/5 from 2 reviews, entrance fee + guided forest and mangrove walk. Platform's Jozani category listings confirmed the same product live 10 November 2026 (2–5 h, private group, pickup advertised, from USD 45). Direct fetch 403 (bot wall). Scores may change."
-      }
-    },
-    "sossusvlei-guided-dune-excursion": {
-      "url": "https://www.getyourguide.com/sesriem-l143532/2-day-scenic-sossusvlei-adventure-tour-t1314104/",
-      "provider": "getyourguide",
-      "title": "2-Day Scenic Sossusvlei Adventure Tour",
-      "operator": "Desert Dunes and Dust Tours",
-      "rating": 5,
-      "review_count": 2,
-      "notes": "A two-day guided outing from Sesriem: gate report and the drive through the dunes, a Sossusvlei dune walk, overnight at Moon Mountain Lodge, Dune 45 in the morning and a Sesriem Canyon walk. Park fees, accommodation, meals and local beverages are included; the operator requires a minimum of two travelers. Two reviews only, so treat the 5.0 rating as a small sample. Confirm pickup scope and the current shuttle or 4x4 rule before booking.",
-      "checked_at": "2026-11-10",
-      "evidence": {
-        "review_check": "Exact product page, provider, inclusions, exclusions and review aggregate retrieved live 10 November 2026; scores may change. Details in the 2026-11-10 sossusvlei-guided-dune-excursion research ledger and docs/editorial-progress.json."
-      }
-    }
+  "casa-del-papa": {
+   "url": "https://www.booking.com/hotel/bj/casa-del-papa.html",
+   "provider": "booking",
+   "title": "Casa Del Papa Resort",
+   "checked_at": "2026-11-12",
+   "evidence": {
+    "source_url": "https://www.booking.com/hotel/bj/casa-del-papa.html",
+    "summary": "Primary property detail identifies Casa Del Papa Resort at Ouidah Plage, Benin.",
+    "redirect_check": "12 November 2026 (Kampala), midnight routine: existing production Stay22 click opened a multi-property search. Locale-free exact source through the same resolver rendered the matching full property detail page in browser. Navigation sometimes timed out after property content rendered. No rates, availability, updated review aggregates, checkout or attribution verified."
+   },
+   "status": "hold",
+   "hold_reason": "12 November 2026 (Kampala), scheduled 21:22 UTC audit: fresh production Stay22 click opened a multi-property Booking.com search page. Earlier exact detail observations are unstable; suppress until a reliable wrapped full-detail listing is verified."
   },
-  "attractions": {
-    "djanet-and-tassili": {
-      "url": "https://www.getyourguide.com/djanet-l232012/djanet-4-day-desert-adventure-in-tassili-n-ajjer-t1110780/",
-      "provider": "getyourguide",
-      "title": "Djanet: 4-Day Desert Adventure in Tassili N’Ajjer",
-      "operator": "Cozy Vibes Travel Algeria",
-      "rating": null,
-      "review_count": 0,
-      "notes": "Four-day desert itinerary from Djanet. This listing has no published product reviews yet. Confirm local permissions, transport and flight arrangements directly before booking.",
-      "checked_at": "2026-10-11",
-      "status": "review-limited"
-    },
-    "kruger-national-park": {
-      "url": "https://www.getyourguide.com/en-gb/skukuza-l192363/kruger-national-park-full-day-game-drive-with-pickup-t433574/",
-      "provider": "getyourguide",
-      "title": "Kruger National Park: Full-Day Game Drive with Pick-up",
-      "operator": "Inn Africa Camp & Tours- Game drives",
-      "rating": 4.5,
-      "review_count": 166,
-      "notes": "Full-day open-vehicle game drive. Confirm the pickup area; food and park conservation fees are extra.",
-      "checked_at": "2026-10-11",
-      "status": "candidate"
-    },
-    "lalibela": {
-      "url": null,
-      "provider": "getyourguide",
-      "title": null,
-      "operator": null,
-      "rating": null,
-      "review_count": null,
-      "notes": "HOLD: Lalibela is in Amhara. Parent task identified current do-not-travel advisory. Do not add promotional booking CTA or infer that an available OTA listing establishes travel safety.",
-      "checked_at": "2026-10-11",
-      "status": "hold"
-    },
-    "murchison-falls-national-park": {
-      "url": "https://www.getyourguide.com/masindi-l145511/uganda-2-day-murchison-falls-park-safari-with-boat-cruise-t820586/",
-      "provider": "getyourguide",
-      "title": "Uganda: 2-Day Murchison Falls Park Safari with Boat cruise",
-      "operator": "Kitenji Uganda Safaris and Tours",
-      "rating": 4.5,
-      "review_count": 12,
-      "notes": "Two-day safari with a boat cruise. The review sample is small and transport/value feedback is mixed; review recent comments and confirm the itinerary, vehicle and all inclusions before booking.",
-      "checked_at": "2026-10-11",
-      "status": "review-limited"
-    },
-    "namib-desert": {
-      "url": "https://www.getyourguide.com/en-gb/windhoek-l852/from-windhoek-budget-sossusvlei-guided-2-day-tour-t711874/",
-      "provider": "getyourguide",
-      "title": "From Windhoek: Budget Sossusvlei Guided 2-day Tour",
-      "operator": "Oombe Tours Transfer and Car Hire cc",
-      "rating": 4.9,
-      "review_count": 9,
-      "notes": "Two-day Sossusvlei journey from Windhoek. The high score is based on only nine reviews. Check the overnight stay, meals and transfers in your option.",
-      "checked_at": "2026-10-11",
-      "status": "review-limited"
-    },
-    "ouidah-and-ganvie": {
-      "url": "https://www.getyourguide.com/ganvie-l241520/explore-ganvie-ouidah-at-the-heart-of-history-and-traditions-t1144752/",
-      "provider": "getyourguide",
-      "title": "Explore Ganvié & Ouidah, at the heart of memory and traditions",
-      "operator": "Wa Africa",
-      "rating": 5,
-      "review_count": 1,
-      "notes": "Combines Ganvié and Ouidah. Only one review was available when checked; confirm pickup, boat safety equipment and the heritage itinerary.",
-      "checked_at": "2026-10-11",
-      "status": "review-limited"
-    },
-    "sahara-dunes": {
-      "url": "https://www.getyourguide.com/marrakesh-l208/3-day-desert-tour-from-marrakech-to-merzouga-t52681/",
-      "provider": "getyourguide",
-      "title": "From Marrakech: Merzouga 3-Day Desert Safari with Food",
-      "operator": "Ando Travel Ltd",
-      "rating": 4.7,
-      "review_count": 15137,
-      "notes": "Three-day Marrakech round trip to Merzouga/Erg Chebbi. Select the camp category carefully and check meal, camel and vehicle-transfer arrangements.",
-      "checked_at": "2026-10-11",
-      "status": "candidate"
-    },
-    "sal-island": {
-      "url": "https://www.getyourguide.com/santa-maria-cape-verde-l141321/cape-verde-6-hour-sal-experience-t268017/",
-      "provider": "getyourguide",
-      "title": "Sal: Island Experience Tour with a Certified Native Guide",
-      "operator": "Sal Experiences",
-      "rating": 4.8,
-      "review_count": 4340,
-      "notes": "Guided island circuit. Entrance fees and optional lunch cost extra; confirm pickup and the stops included.",
-      "checked_at": "2026-10-11",
-      "status": "candidate"
-    },
-    "sine-saloum-delta": {
-      "url": "https://www.getyourguide.com/dakar-l32481/dakar-saloum-islands-full-day-tour-with-lunch-drinks-t1243074/",
-      "provider": "getyourguide",
-      "title": "Dakar: Saloum Islands Full-Day Tour with Lunch & Drinks",
-      "operator": "Travel with ziggy",
-      "rating": 5,
-      "review_count": 1,
-      "notes": "Full-day Saloum excursion from Dakar/Petite Côte. Only one review was available when checked; confirm road transfers, boat arrangements and inclusions.",
-      "checked_at": "2026-10-11",
-      "status": "review-limited"
-    },
-    "south-luangwa": {
-      "url": "https://www.getyourguide.com/south-luangwa-national-park-l150352/south-luangwa-morning-park-game-drive-with-transfers-t1056815/",
-      "provider": "getyourguide",
-      "title": "South Luangwa: Morning Park Game Drive with Transfers",
-      "operator": "Ani & Mad Holidays Ltd",
-      "rating": null,
-      "review_count": 0,
-      "notes": "Morning game drive with accommodation transfers. This listing has no published product reviews yet. Confirm the pickup zone and park fees.",
-      "checked_at": "2026-10-11",
-      "status": "review-limited"
-    },
-    "tunis-and-sidi-bou-said": {
-      "url": "https://www.getyourguide.com/en-gb/tunis-l304/tunis-medina-carthage-sidi-bousaid-private-trip-w-lunch-t553079/",
-      "provider": "getyourguide",
-      "title": "Tunis: Medina, Carthage & Sidi Bousaid Private Day Trip",
-      "operator": "Didon Tours",
-      "rating": 4.8,
-      "review_count": 142,
-      "notes": "Private day trip through Tunis, Carthage and Sidi Bou Said. Confirm the exact museums and entrance tickets included in your option.",
-      "checked_at": "2026-10-11",
-      "status": "candidate"
-    },
-    "zanzibar": {
-      "url": "https://www.getyourguide.com/zanzibar-ville-l872/zanzibar-visite-des-epices-visite-de-stone-town-et-de-l-ile-prison-t645862/",
-      "provider": "getyourguide",
-      "title": "Zanzibar: Spice Tour, Stone Town tour & Prison Island",
-      "operator": "Tourice Travel & Tours",
-      "rating": null,
-      "review_count": null,
-      "notes": "Private spice farm, Stone Town and Prison Island outing. Confirm pickup, boat arrangements, admissions and meals. Read current reviews on the booking page.",
-      "checked_at": "2026-10-11",
-      "status": "candidate"
-    },
-    "tokeh-and-river-no2": {
-      "status": "unavailable",
-      "reason": "Focused GYG searches for Tokeh and River No. 2 returned no supported product listing. Do not substitute an unrelated country/category search URL."
-    },
-    "jozani-forest": {
-      "url": "https://www.getyourguide.com/jozani-l239369/zanzibar-jozani-forest-nature-walk-and-wildlife-tour-t968921/",
-      "provider": "getyourguide",
-      "title": "Jozani Forest, Nature Walk and Wildlife Tour",
-      "operator": "Zanzibar blessing tours and safari",
-      "rating": 5,
-      "review_count": 2,
-      "notes": "Jozani-only nature walk with the entrance fee, guided forest and mangrove walk; the meeting point is Jozani Forest itself. Very small review sample (2 reviews when checked); private group up to 40 people. Confirm pickup options and meeting arrangements before booking.",
-      "checked_at": "2026-11-08",
-      "evidence": {
-        "review_check": "Exact product detail retrieved in a browser session 8 November 2026: product 968921, provider Zanzibar blessing tours and safari, 5/5 from 2 reviews. Scores may change."
-      }
-    },
-    "maasai-mara": {
-      "url": "https://www.getyourguide.com/keekorok-l247032/maasai-mara-hot-air-balloon-safari-with-a-bush-breakfast-t254357/",
-      "provider": "getyourguide",
-      "title": "Maasai Mara balloon safari with champagne breakfast",
-      "operator": "Perfect Wilderness Tours and Safari",
-      "rating": 4.8,
-      "review_count": 36,
-      "notes": "Confirm your camp is in the pickup area. Flight operations depend on weather.",
-      "checked_at": "2026-10-11"
-    },
-    "bwindi-impenetrable-national-park": {
-      "url": "https://www.getyourguide.com/kigali-l32466/1-day-gorilla-tour-in-bwindi-from-kigali-t792979/",
-      "provider": "getyourguide",
-      "title": "One-day Bwindi gorilla tour from Kigali",
-      "operator": "BUGOLI ADVENTURES LIMITED",
-      "rating": 4.8,
-      "review_count": 17,
-      "notes": "This is a cross-border day trip from Kigali, not a local Bwindi departure. Confirm permit costs, trekking sector, border documents and the full price before booking.",
-      "checked_at": "2026-10-11"
-    },
-    "amboseli-national-park": {
-      "url": "https://www.getyourguide.com/nairobi-l267/nairobi-day-tour-to-amboseli-national-park-maasai-village-t543578/",
-      "provider": "getyourguide",
-      "title": "Amboseli day tour from Nairobi",
-      "operator": "Niroskos Tours And Safaris",
-      "rating": 4.5,
-      "review_count": 408,
-      "notes": "A long day from Nairobi. Check park admission, vehicle upgrades and optional village charges separately; this is not an in-park lodge pickup by default.",
-      "checked_at": "2026-10-11"
-    },
-    "marrakech-and-atlas": {
-      "url": "https://www.getyourguide.com/asni-l115647/marrakech-atlas-mountains-ourika-5-valleys-day-tour-t11542/",
-      "provider": "getyourguide",
-      "title": "Atlas Mountains and five valleys day tour with lunch",
-      "operator": "Attractive Tours",
-      "rating": 4.9,
-      "review_count": 2301,
-      "notes": "Departs from Marrakech. Check the selected shared or private option and pickup arrangements.",
-      "checked_at": "2026-10-11"
-    },
-    "serengeti-national-park": {
-      "url": "https://www.getyourguide.com/serengeti-national-park-l123040/serengeti-national-park-balloon-safari-at-dawn-t383490/",
-      "provider": "getyourguide",
-      "title": "Serengeti balloon safari at dawn",
-      "operator": "Serengeti Balloon Safaris",
-      "rating": 4.2,
-      "review_count": 14,
-      "notes": "A directly operated balloon experience with a modest review sample. Confirm launch area and lodge pickup; park entry is not included. Flights depend on weather.",
-      "checked_at": "2026-10-11"
-    },
-    "cape-town": {
-      "url": "https://www.getyourguide.com/cape-town-l103/cape-town-table-mountain-hike-via-india-venster-t302403/",
-      "provider": "getyourguide",
-      "title": "Table Mountain guided hike via India Venster",
-      "operator": "Atlantic Outlook",
-      "rating": 5,
-      "review_count": 34,
-      "notes": "This route involves scrambling and requires good fitness and confidence on uneven ground. Confirm suitability and descent arrangements with the guide.",
-      "checked_at": "2026-10-11"
-    },
-    "cape-coast-kakum": {
-      "url": "https://www.getyourguide.com/accra-l506/from-accra-the-cape-coast-day-tour-guided-experience-t834942/",
-      "provider": "getyourguide",
-      "title": "Cape Coast Castle, Elmina Castle and Kakum tour",
-      "operator": "Expedition-Go Tours",
-      "rating": 4.7,
-      "review_count": 220,
-      "notes": "Full-day departure from Accra. Confirm which admissions and stops your selected option includes.",
-      "checked_at": "2026-11-08"
-    },
-    "elmina-castle": {
-      "url": "https://www.getyourguide.com/accra-l506/from-accra-the-cape-coast-day-tour-guided-experience-t834942/",
-      "provider": "getyourguide",
-      "title": "Cape Coast Castle, Elmina Castle & Kakum National Park Tour",
-      "operator": "Expedition-Go Tours",
-      "rating": 4.7,
-      "review_count": 220,
-      "notes": "Full-day guided tour from Accra covering Cape Coast Castle, Elmina Castle and Kakum National Park. This is a shared Castle Coast day trip rather than a castle-only visit; confirm that Elmina Castle admission is included in the selected option.",
-      "checked_at": "2026-11-08",
-      "evidence": {
-        "review_check": "Exact product detail retrieved in a browser session 8 November 2026: product 834942, provider Expedition-Go Tours, 4.7/5 from 220 reviews. Scores may change."
-      }
-    },
-    "victoria-falls": {
-      "url": "https://www.getyourguide.com/victoria-falls-town-l127068/zimbabwe-zambia-guided-tour-of-the-falls-from-both-sides-t414370/",
-      "provider": "getyourguide",
-      "title": "Guided Victoria Falls tour: Zimbabwe and Zambia",
-      "operator": "Cuckoo Safaris",
-      "rating": 4.7,
-      "review_count": 501,
-      "notes": "This option visits both countries. Confirm visa eligibility, border arrangements and park entrance charges before booking.",
-      "checked_at": "2026-10-11"
-    },
-    "okavango-delta": {
-      "url": "https://www.getyourguide.com/maun-l116302/okavango-delta-full-day-mokorocanoe-tour-all-inclusive-t604726/",
-      "provider": "getyourguide",
-      "title": "Full-day Okavango mokoro and walking excursion",
-      "operator": "Kalahari Breeze Safari",
-      "rating": 4.7,
-      "review_count": 117,
-      "notes": "Departs from Maun and combines a mokoro outing with walking. This is not a vehicle game-drive package; confirm water conditions and pickup.",
-      "checked_at": "2026-10-11"
-    },
-    "cairo-and-giza": {
-      "url": "https://www.getyourguide.com/cairo-l92/cairo-grand-egyptian-museum-pyramids-sphinx-tour-lunch-t851104/",
-      "provider": "getyourguide",
-      "title": "Cairo: Grand Egyptian Museum, Pyramids, Sphinx and lunch",
-      "operator": "OceanAir Travel",
-      "rating": 4.8,
-      "review_count": 4885,
-      "checked_at": "2026-10-11",
-      "evidence_url": "https://www.getyourguide.com/oceanair-egypt-s462166/",
-      "notes": "Departs from Cairo or Giza. Check the selected entrance-ticket option, hotel pickup zone and any extras before booking."
-    },
-    "volcanoes-national-park": {
-      "url": "https://www.getyourguide.com/kigali-l32466/kigali-rwanda-gorilla-tracking-in-volcanoes-national-park-t537766/",
-      "provider": "getyourguide",
-      "title": "Kigali: gorilla tracking in Volcanoes National Park",
-      "operator": "Vista Safaris",
-      "rating": 4.9,
-      "review_count": 37,
-      "notes": "The Rwanda gorilla permit is not included. Confirm the Rwanda option and the full permit-inclusive cost: reviews may cover different itinerary variants.",
-      "checked_at": "2026-10-11"
-    }
+  "dar-said": {
+   "url": "https://www.booking.com/hotel/tn/dar-said.en-gb.html",
+   "provider": "booking",
+   "title": "Dar Said",
+   "checked_at": "2026-10-11",
+   "evidence": {
+    "source_url": "https://www.booking.com/hotel/tn/dar-said.en-gb.html?came_from_hotel_review=1&keep_landing=1",
+    "summary": "Primary detail identifies Rue Toumi, Sidi Bou Said, Tunisia; rejected Morocco namesakes."
+   }
+  },
+  "emerson-spice": {
+   "url": "https://www.booking.com/hotel/tz/emersonspice.en-gb.html",
+   "provider": "booking",
+   "title": "Emerson Spice, Zanzibar City (Stone Town)",
+   "checked_at": "2026-11-13",
+   "status": "hold",
+   "hold_reason": "13 November 2026 scheduled 4-hour audit: Stay22 wrapper redirects .en-gb source to multi-property Booking.com searchresults.html (dest_id=12566246). Prior exact-detail observations unstable; suppress until a reliable wrapped full-detail listing is verified.",
+   "evidence": {
+    "source_url": "https://www.booking.com/hotel/tz/emersonspice.en-gb.html",
+    "summary": "8 November 2026: the Expedia property-detail URL (property ID 31570310, rooms Belle, Violetta and Mimi) demoted in real-browser click-throughs through the Stay22 wrapper to an Expedia Hotel-Search page for Kiponda/Zanzibar rather than the property page; server-side retries alternated between the property page and rate-limited search fallbacks, so the Expedia entry could not be trusted. Switched to the exact Booking.com property listing identified by search-engine retrieval as 'Emerson Spice, Zanzibar City' (Stone Town Beach about 300 m); the Stay22 wrapper preserves the /hotel/tz/emersonspice.html detail path, matching the verified pattern of the other Booking.com entries. Do not confuse with Emerson on Hurumzi, a different property. Direct Booking.com detail content is bot-walled to automated retrieval; no rate, availability, rating or review claims made.",
+    "verification_2026-11-13": "Stay22 redirect chain lands on searchresults.html with dest_id=12566246, dest_type=hotel; correct property appears in results but not exact detail page."
+   }
+  },
+  "hilton-cabo-verde-sal-resort": {
+   "url": "https://www.booking.com/hotel/cv/hilton-cabo-verde-sal-resort.html",
+   "provider": "booking",
+   "title": "Hilton Cabo Verde Sal Resort",
+   "checked_at": "2026-11-12",
+   "evidence": {
+    "source_url": "https://www.booking.com/hotel/cv/hilton-cabo-verde-sal-resort.html",
+    "summary": "12 November 2026 (Kampala), scheduled routine: browser search for 'Hilton Cabo Verde Sal Resort' returned the exact property detail page at /hotel/cv/hilton-cabo-verde-sal-resort.html (locale-free), identifying Hilton Cabo Verde Sal Resort in Santa Maria, Cape Verde. Switched from .en-gb variant which redirected to search. Direct detail content bot-walled; no OTA rating, review count, rates, availability or attribution claims made."
+   }
+  },
+  "kruger-shalati": {
+   "url": "https://www.booking.com/hotel/za/kruger-shalati-the-train-on-the-bridge.html",
+   "provider": "booking",
+   "title": "Kruger Shalati - Train on The Bridge & Garden Suites",
+   "checked_at": "2026-11-12",
+   "evidence": {
+    "source_url": "https://www.booking.com/hotel/za/kruger-shalati-the-train-on-the-bridge.html",
+    "summary": "Primary detail identifies the train and garden suites property in Skukuza, South Africa.",
+    "redirect_check": "12 November 2026 midnight routine: wrapped browser landings alternate between property detail and multi-property search; publication click-through did not establish a stable exact listing. Held until a reliable exact-detail source is verified."
+   },
+   "status": "hold",
+   "hold_reason": "12 November 2026 midnight routine: wrapped browser landings alternate between property detail and multi-property search; publication click-through did not establish a stable exact listing. Held until a reliable exact-detail source is verified."
+  },
+  "les-paletuviers": {
+   "url": "https://www.booking.com/hotel/sn/les-pala-c-tuviers.en-gb.html",
+   "provider": "booking",
+   "title": "Les Palétuviers — Toubakouta, Senegal",
+   "checked_at": "2026-11-12",
+   "evidence": {
+    "source_url": "https://www.booking.com/hotel/sn/les-pala-c-tuviers.en-gb.html",
+    "summary": "Rechecked 22 October 2026: the Booking.com detail page identifies the exact Les Palétuviers hotel in Toubakouta, Senegal. Matches the official property and existing accommodation record. No rate, availability, rating or review count copied into site content."
+   },
+   "status": "hold",
+   "hold_reason": "12 November 2026 (Kampala), scheduled 21:22 UTC audit: fresh production Stay22 click opened a multi-property Booking.com search page. Earlier exact detail observations are unstable; suppress until a reliable wrapped full-detail listing is verified."
+  },
+  "maribela-hotel": {
+   "url": "https://www.booking.com/hotel/et/maribela-lalibela.html",
+   "provider": "booking",
+   "title": "Maribela Hotel",
+   "checked_at": "2026-11-12",
+   "evidence": {
+    "source_url": "https://www.booking.com/hotel/et/maribela-lalibela.html",
+    "summary": "Real-browser Stay22 check on 11 November 2026: the previous en-gb URL opened a multi-property Lalibela search despite dest_type=hotel. The locale-free source opens the full Maribela Hotel detail page in Lalibela. No rates, availability, numerical review or attribution claims made.",
+    "redirect_check": "12 November 2026 (Kampala), midnight routine: production Stay22 click opens a multi-property search instead of the exact full property listing. Suppress booking option until a stable wrapped exact detail source is verified."
+   },
+   "status": "hold",
+   "hold_reason": "12 November 2026 (Kampala), midnight routine: production Stay22 click opens a multi-property search instead of the exact full property listing. Suppress booking option until a stable wrapped exact detail source is verified."
+  },
+  "marriott-mena-house-cairo": {
+   "url": "https://www.booking.com/hotel/eg/mena-house-oberoi.html",
+   "provider": "booking",
+   "title": "Marriott Mena House, Cairo",
+   "checked_at": "2026-11-11",
+   "evidence": {
+    "source_url": "https://www.booking.com/hotel/eg/mena-house-oberoi.html",
+    "summary": "Primary detail identifies Marriott Mena House at Pyramids Road, Giza, Cairo, Egypt; legacy Oberoi URL remains associated with current Marriott name."
+   },
+   "status": "hold",
+   "hold_reason": "11 November 2026: Booking.com and the replacement Hotels.com ho654475 both fail exact-detail live click-through. Hotels.com initially rendered detail during candidate research, but the production click opened multi-property Hotel-Search results (browser content confirmed). Keep held until a stable exact wrapped detail landing is verified."
+  },
+  "mount-nelson-a-belmond-hotel": {
+   "url": "https://www.booking.com/hotel/za/belmond-mount-nelson.html",
+   "provider": "booking",
+   "title": "Mount Nelson, A Belmond Hotel, Cape Town",
+   "checked_at": "2026-11-12",
+   "evidence": {
+    "source_url": "https://www.booking.com/hotel/za/belmond-mount-nelson.html",
+    "summary": "Primary detail identifies 76 Orange Street, Gardens, Cape Town, South Africa.",
+    "redirect_check": "12 November 2026 (Kampala), midnight routine: existing production Stay22 click opened a multi-property search. Locale-free exact source through the same resolver rendered the matching full property detail page in browser. Navigation sometimes timed out after property content rendered. No rates, availability, updated review aggregates, checkout or attribution verified."
+   },
+   "status": "hold",
+   "hold_reason": "12 November 2026 (Kampala), scheduled 21:22 UTC audit: fresh production Stay22 click opened a multi-property Booking.com search page. Earlier exact detail observations are unstable; suppress until a reliable wrapped full-detail listing is verified."
+  },
+  "ol-tukai-lodge-amboseli": {
+   "url": "https://www.hotels.com/ho508661/ol-tukai-lodge-amboseli-amboseli-kenya/",
+   "provider": "hotelscom",
+   "title": "Ol Tukai Lodge Amboseli",
+   "checked_at": "2026-11-12",
+   "evidence": {
+    "source_url": "https://www.hotels.com/ho508661/ol-tukai-lodge-amboseli-amboseli-kenya/",
+    "summary": "11 November 2026: replacement Hotels.com source browser-verified through Stay22 to the exact full property-detail page with matching property name and location, gallery, rooms and policies. Replaces Booking.com search landing; prior hold lifted. Page load timed out but rendered detail content and exact property path were inspected. Numerical review evidence, rates, checkout and attribution not verified.",
+    "redirect_check": "12 November 2026 (Kampala), midnight routine: production Stay22 click opens a multi-property search instead of the exact full property listing. Suppress booking option until a stable wrapped exact detail source is verified."
+   },
+   "status": "hold",
+   "hold_reason": "12 November 2026 (Kampala), midnight routine: production Stay22 click opens a multi-property search instead of the exact full property listing. Suppress booking option until a stable wrapped exact detail source is verified."
+  },
+  "paraa-safari-lodge": {
+   "url": "https://www.booking.com/hotel/ug/paraa-safari-lodge.html",
+   "provider": "booking",
+   "title": "Paraa Safari Lodge",
+   "checked_at": "2026-11-12",
+   "evidence": {
+    "source_url": "https://www.booking.com/hotel/ug/paraa-safari-lodge.en-gb.html",
+    "summary": "Exact Paraa Safari Lodge listing identifies the property in Paraa, Uganda and accommodation in Murchison Falls National Park. On 20 October 2026, the indexed listing stated it was not accepting reservations on Booking.com. Preserve this exact property match; availability is unconfirmed and can change.",
+    "redirect_check": "12 November 2026 (Kampala), midnight routine: production Stay22 click opens a multi-property search instead of the exact full property listing. Suppress booking option until a stable wrapped exact detail source is verified."
+   },
+   "status": "hold",
+   "hold_reason": "12 November 2026 (Kampala), midnight routine: production Stay22 click opens a multi-property search instead of the exact full property listing. Suppress booking option until a stable wrapped exact detail source is verified."
+  },
+  "ridge-royal-hotel": {
+   "url": "https://www.booking.com/hotel/gh/ridge-royal-cape-coast.en-gb.html",
+   "provider": "booking",
+   "title": "Ridge Royal Hotel Cape Coast",
+   "checked_at": "2026-10-28",
+   "evidence": {
+    "source_url": "https://www.booking.com/hotel/gh/ridge-royal-cape-coast.en-gb.html",
+    "summary": "Rechecked 28 October 2026: the English Booking.com exact property detail names Ridge Royal Hotel Cape Coast and gives Number 1, 2nd Ridge, Cape Coast, Ghana. The page lists accommodation and facilities for this specific property. No rates, availability, score or review total is copied into the guide."
+   }
+  },
+  "serengeti-serena-safari-lodge": {
+   "url": "https://www.booking.com/hotel/tz/serengeti-serena-safari-lodge.en-gb.html",
+   "provider": "booking",
+   "title": "Serengeti Serena Safari Lodge",
+   "checked_at": "2026-11-13",
+   "status": "hold",
+   "hold_reason": "13 November 2026 scheduled 4-hour audit: Stay22 wrapper redirects .en-gb source to multi-property Booking.com searchresults.html (dest_id=2357218). Suppress until a reliable wrapped full-detail listing is verified.",
+   "evidence": {
+    "source_url": "https://www.booking.com/hotel/tz/serengeti-serena-safari-lodge.en-gb.html",
+    "summary": "Primary property detail identifies Serengeti National Park, Tanzania.",
+    "verification_2026-11-13": "Stay22 redirect chain lands on searchresults.html with dest_id=2357218, dest_type=hotel; correct property appears in results but not exact detail page."
+   }
+  },
+  "sossusvlei-lodge": {
+   "url": "https://www.booking.com/hotel/na/sossusvlei-lodge.en-gb.html",
+   "provider": "booking",
+   "title": "Sossusvlei Lodge",
+   "checked_at": "2026-11-13",
+   "status": "hold",
+   "hold_reason": "13 November 2026 scheduled 4-hour audit: Stay22 wrapper redirects .en-gb source to multi-property Booking.com searchresults.html (dest_id=316567). Suppress until a reliable wrapped full-detail listing is verified.",
+   "evidence": {
+    "source_url": "https://www.booking.com/hotel/na/sossusvlei-lodge.en-gb.html",
+    "summary": "Primary detail identifies Farm on D826, Sesriem, Namibia.",
+    "verification_2026-11-13": "Stay22 redirect chain lands on searchresults.html with dest_id=316567, dest_type=hotel; correct property appears in results but not exact detail page."
+   }
+  },
+  "the-place-resort-tokeh": {
+   "url": "https://www.agoda.com/en-ie/the-place-resort-at-tokeh-beach-h88167521/hotel/toke-sl.html",
+   "provider": "agoda",
+   "title": "The Place Resort At Tokeh Beach",
+   "checked_at": "2026-11-11",
+   "evidence": {
+    "source_url": "https://www.agoda.com/en-ie/the-place-resort-at-tokeh-beach-h88167521/hotel/toke-sl.html",
+    "summary": "Browser-verified 11 November 2026: Stay22 Agoda redirect opens this full property detail listing, naming The Place Resort At Tokeh Beach at Peninsula Road, Toke, Sierra Leone, with overview, rooms and facilities. Replaces held Expedia search-page landing. No numerical review score/count was verified; no current price, availability, checkout or affiliate attribution claim."
+   },
+   "notes": "Review evidence is limited: no current guest rating or review count verified. Check the provider for room availability and terms."
+  },
+  "victoria-falls-hotel": {
+   "url": "https://www.booking.com/hotel/zw/the-victoria-falls.en-gb.html",
+   "provider": "booking",
+   "title": "The Victoria Falls Hotel",
+   "checked_at": "2026-11-12",
+   "evidence": {
+    "source_url": "https://www.booking.com/hotel/zw/the-victoria-falls.en-gb.html",
+    "summary": "Primary detail identifies 1 Mallet Drive, Victoria Falls, Zimbabwe and historic 1904 hotel.",
+    "redirect_check": "12 November 2026 midnight routine: wrapped browser landings alternate between property detail and multi-property search; publication click-through did not establish a stable exact listing. Held until a reliable exact-detail source is verified."
+   },
+   "status": "hold",
+   "hold_reason": "12 November 2026 midnight routine: wrapped browser landings alternate between property detail and multi-property search; publication click-through did not establish a stable exact listing. Held until a reliable exact-detail source is verified."
+  },
+  "camp-okavango": {
+   "status": "unavailable",
+   "reason": "No exact supported OTA property detail found after targeted Booking.com, Expedia, Hotels.com and Agoda searches; do not substitute Little Okavango Camp in Tanzania or other Botswana camps."
+  },
+  "governors-camp": {
+   "status": "unavailable",
+   "reason": "Expedia's own Musiara Gate hotel page links the exact listing, but opening it redirects to generic Expedia Hotels; no working supported alternative verified."
+  },
+  "mfuwe-lodge": {
+   "status": "unavailable",
+   "checked_at": "2026-11-11",
+   "evidence": {
+    "source_url": "https://www.cntraveler.com/hotels/zambia/luangwa-valley/mfuwe-lodge",
+    "summary": "Rechecked 11 November 2026: the property sells direct through The Bushcamp Company (Condé Nast Traveler lists it with \"Book Now at Bush Camp Company — Powered By: Bush Camp Company\"). Booking.com's Mfuwe results list only other lodges (Royal South Luangwa, Thornicroft, Mopani, Msandile) and Expedia's Mfuwe hotels/lodges guides omit the property; a generic booking.com/hotel/zm/mfuwe-lodge URL returned no listing content. Keep the CTA suppressed rather than substituting another lodge."
+   }
+  },
+  "riad-rosemary": {
+   "status": "unavailable",
+   "checked_at": "2026-11-07",
+   "evidence": {
+    "source_url": "https://rosemarymarrakech.com/",
+    "summary": "Rechecked 7 November 2026 with fresh web searches: the property (LRNCE-designed riad, Riad Zitoun Jdid, five rooms) shows an official direct-sales site and directory listings only; no supported OTA detail was found. Booking.com's indexed Marrakech results contain only namesakes (Riad Rose Meryam in the Mechouar-Kasbah district; a Rosemary apartment), which are different properties. Keep the booking CTA suppressed rather than matching a namesake."
+   }
+  },
+  "sabyinyo-silverback-lodge": {
+   "status": "unavailable",
+   "reason": "No exact supported OTA detail found under current or legacy Sabyinyo Silverback Lodge names."
+  },
+  "sanctuary-gorilla-forest-camp": {
+   "status": "unavailable",
+   "reason": "No exact supported OTA detail found under current or legacy Sanctuary Gorilla Forest Camp names."
+  },
+  "terres-touareg-guest-house": {
+   "status": "unavailable",
+   "reason": "No exact supported OTA detail found; official guesthouse page confirms Djanet property but is not an OTA."
+  },
+  "desert-luxury-camp": {
+   "status": "unavailable",
+   "reason": "The editorial property is the desertluxurycamp.com operator portfolio (Erg Chebbi or Erg Chigaga). Multiple OTA namesakes were found, but same-operator identity could not be confirmed. Do not publish these candidate links without operator confirmation."
+  },
+  "desert-quiver-camp": {
+   "url": "https://www.booking.com/hotel/na/desert-quiver-camp.html",
+   "provider": "booking",
+   "title": "Desert Quiver Camp",
+   "checked_at": "2026-11-13",
+   "status": "hold",
+   "hold_reason": "13 November 2026 scheduled 4-hour audit: Stay22 wrapper redirects locale-free source to multi-property Booking.com searchresults.html (dest_id=1582394). Prior exact-detail observations unstable; suppress until a reliable wrapped full-detail listing is verified.",
+   "evidence": {
+    "source_url": "https://www.booking.com/hotel/na/desert-quiver-camp.html",
+    "summary": "12 November 2026 (Kampala), scheduled routine: browser search for 'Desert Quiver Camp Namibia' returned the exact property detail page at /hotel/na/desert-quiver-camp.html (locale-free), identifying Desert Quiver Camp at Farm On D826/C27, Sesriem, Namibia. Switched from .en-gb variant which redirected to search. Direct detail content bot-walled; no OTA rating, review count, rates, availability or affiliate attribution verified.",
+    "verification_2026-11-13": "Stay22 redirect chain lands on searchresults.html with dest_id=1582394, dest_type=hotel; correct property appears in results but not exact detail page."
+   }
+  },
+  "amboseli-serena-safari-lodge": {
+   "url": "https://www.booking.com/hotel/ke/amboseli-serena-safari-lodge.en-gb.html",
+   "provider": "booking",
+   "title": "Amboseli Serena Safari Lodge",
+   "checked_at": "2026-10-15",
+   "evidence": {
+    "source_url": "https://www.booking.com/hotel/ke/amboseli-serena-safari-lodge.en-gb.html",
+    "summary": "Indexed Booking.com exact property page identifies Amboseli Serena Safari Lodge, Kenya; name/location cross-checked with Serena official Amboseli page. Direct request returned JavaScript verification. No availability, current price, aggregate rating or affiliate attribution independently verified."
+   }
+  },
+  "red-chilli-rest-camp": {
+   "url": "https://www.booking.com/hotel/ug/red-chilli-rest-camp.html",
+   "provider": "booking",
+   "title": "Red Chilli Rest Camp",
+   "checked_at": "2026-11-12",
+   "evidence": {
+    "source_url": "https://www.booking.com/reviews/ug/hotel/red-chilli-rest-camp.html",
+    "summary": "Booking.com review page names Red Chilli Rest Camp on Main Road Murchison Falls National Park, Uganda, matching official Murchison property. Exact /hotel/ destination returns JS verification. Do not confuse with Kampala Hideaway; no live prices/availability or attribution verified.",
+    "redirect_check": "12 November 2026 (Kampala), midnight routine: production Stay22 click opens a multi-property search instead of the exact full property listing. Suppress booking option until a stable wrapped exact detail source is verified."
+   },
+   "status": "hold",
+   "hold_reason": "12 November 2026 (Kampala), midnight routine: production Stay22 click opens a multi-property search instead of the exact full property listing. Suppress booking option until a stable wrapped exact detail source is verified."
+  },
+  "buhoma-community-rest-camp": {
+   "url": "https://www.booking.com/hotel/ug/buhoma-community-rest-camp-kanungu.en-gb.html",
+   "provider": "booking",
+   "title": "Buhoma Community Rest Camp",
+   "status": "unavailable",
+   "checked_at": "2026-10-16",
+   "evidence": {
+    "source_url": "https://www.booking.com/hotel/ug/buhoma-community-rest-camp-kanungu.en-gb.html",
+    "summary": "Exact Buhoma property identifiable, but listing states not taking reservations and no review score. Shared resolver must suppress booking CTA; do not substitute Buhoma Lodge or Haven Lodge."
+   }
+  },
+  "jollyboys-backpackers": {
+   "url": "https://www.expedia.com/Livingstone-Hotels-Jollyboys-Backpackers.h14704528.Hotel-Information",
+   "provider": "expedia",
+   "title": "Jollyboys Backpackers",
+   "checked_at": "2026-11-12",
+   "evidence": {
+    "source_url": "https://www.expedia.com/Livingstone-Hotels-Jollyboys-Backpackers.h14704528.Hotel-Information",
+    "summary": "Exact property ID 14704528 identifies Jollyboys Backpackers at 34 Kanyanta Road, Livingstone. Official property and regional tourism sources cross-check identity. No current price, numerical rating or affiliate attribution verification claimed.",
+    "redirect_check": "12 November 2026 (Kampala), midnight routine: production Stay22 click opens a multi-property search instead of the exact full property listing. Suppress booking option until a stable wrapped exact detail source is verified."
+   },
+   "status": "hold",
+   "hold_reason": "12 November 2026 (Kampala), midnight routine: production Stay22 click opens a multi-property search instead of the exact full property listing. Suppress booking option until a stable wrapped exact detail source is verified."
+  },
+  "fairway-boutique-hotel": {
+   "url": "https://www.booking.com/hotel/ug/fairway-amp-spa.en-gb.html",
+   "provider": "booking",
+   "title": "Fairway Boutique Hotel - Kampala, Uganda",
+   "checked_at": "2026-11-12",
+   "evidence": {
+    "source_url": "https://www.booking.com/hotel/ug/fairway-amp-spa.en-gb.html",
+    "summary": "The exact Booking.com detail page identifies Fairway Boutique Hotel in Kampala, Uganda. Its property name and city were cross-checked against Fairway Hotel’s official site and the Agoda listing at Plot 3 Kafu Road, Nakasero. No live rate, availability, Booking.com review score or review count is used.",
+    "redirect_check": "12 November 2026 (Kampala), midnight routine: production Stay22 click opens a multi-property search instead of the exact full property listing. Suppress booking option until a stable wrapped exact detail source is verified."
+   },
+   "status": "hold",
+   "hold_reason": "12 November 2026 (Kampala), midnight routine: production Stay22 click opens a multi-property search instead of the exact full property listing. Suppress booking option until a stable wrapped exact detail source is verified."
+  },
+  "kigali-serena-hotel": {
+   "url": "https://www.booking.com/hotel/rw/kigali-serena.en-gb.html",
+   "provider": "booking",
+   "title": "Kigali Serena Hotel",
+   "checked_at": "2026-11-11",
+   "evidence": {
+    "source_url": "https://www.booking.com/hotel/rw/kigali-serena.en-gb.html",
+    "summary": "Search results (checked 9 November 2026) identify the exact Booking.com detail page \"Kigali Serena Hotel, Kigali\" with a five-star description matching the official Serena property. Direct Booking.com detail fetch was automation-blocked (Ridge Royal standard), so no live rate, availability, numerical rating or review-count claim is made. Identity cross-checked against the official Serena Hotels site."
+   },
+   "status": "hold",
+   "hold_reason": "11 November 2026 live production Stay22 link opens a multi-property Booking.com searchresults.html page, not the exact property detail. Locale-free source also opens search. Suppress CTA until a replacement wrapped exact-detail landing is browser-verified."
+  },
+  "nairobi-serena-hotel": {
+   "url": "https://www.booking.com/hotel/ke/nairobi-serena.html",
+   "provider": "booking",
+   "title": "Nairobi Serena Hotel",
+   "checked_at": "2026-11-11",
+   "evidence": {
+    "source_url": "https://www.booking.com/hotel/ke/nairobi-serena.html",
+    "summary": "Search results (checked 9 November 2026) identify the exact Booking.com detail page \"Nairobi Serena Hotel, Kenyatta Avenue, 00100 Nairobi\" matching the official Serena property. Direct Booking.com detail fetch was automation-blocked (Ridge Royal standard), so no live rate, availability, numerical rating or review-count claim is made. Identity cross-checked against the official Serena Hotels site."
+   },
+   "status": "hold",
+   "hold_reason": "11 November 2026 live production Stay22 link opens a multi-property Booking.com searchresults.html page, not the exact property detail. Locale-free source also opens search. Suppress CTA until a replacement wrapped exact-detail landing is browser-verified."
+  },
+  "mountains-of-the-moon-hotel": {
+   "url": "https://www.booking.com/hotel/ug/mountains-of-the-moon.html",
+   "provider": "booking",
+   "title": "Mountains of the Moon Hotel",
+   "checked_at": "2026-11-12",
+   "evidence": {
+    "source_url": "https://www.booking.com/hotel/ug/mountains-of-the-moon.html",
+    "summary": "11 November 2026: live Stay22 link using the en-gb source opened Fort Portal search results. Locale-free source was browser-verified through Stay22 to the full Mountains of the Moon Hotel Fort Portal detail page with availability, facilities, house rules and guest-review sections. Rates, checkout and attribution not verified.",
+    "redirect_check": "12 November 2026 (Kampala), midnight routine: production Stay22 click opens a multi-property search instead of the exact full property listing. Suppress booking option until a stable wrapped exact detail source is verified."
+   },
+   "status": "hold",
+   "hold_reason": "12 November 2026 (Kampala), midnight routine: production Stay22 click opens a multi-property search instead of the exact full property listing. Suppress booking option until a stable wrapped exact detail source is verified."
+  },
+  "zanzibar-white-sand-luxury-villas": {
+   "url": "https://www.booking.com/hotel/tz/white-sand-luxury-villas-amp-spa.en-gb.html",
+   "provider": "booking",
+   "title": "Zanzibar White Sand Luxury Villas & Spa, Paje Beach, Zanzibar",
+   "checked_at": "2026-11-11",
+   "evidence": {
+    "source_url": "https://www.booking.com/hotel/tz/white-sand-luxury-villas-amp-spa.en-gb.html",
+    "summary": "Search results (checked 10 November 2026) identify the exact Booking.com detail page for Zanzibar White Sand Luxury Villas & Spa in Paje, Tanzania. Direct Booking.com detail fetch was automation-blocked (Ridge Royal standard), so no live rate, availability, numerical rating or review-count claim is made. Identity cross-checked against the property's official site (whitesandvillas.com)."
+   },
+   "status": "hold",
+   "hold_reason": "11 November 2026 live production Stay22 link opens a multi-property Booking.com searchresults.html page, not the exact property detail. Locale-free source also opens search. Suppress CTA until a replacement wrapped exact-detail landing is browser-verified."
+  },
+  "hotel-barmoi-freetown": {
+   "url": "https://www.booking.com/hotel/sl/barmoi.en-gb.html",
+   "provider": "booking",
+   "title": "Hotel Barmoi, Freetown",
+   "checked_at": "2026-11-13",
+   "evidence": {
+    "source_url": "https://www.booking.com/hotel/sl/barmoi.en-gb.html",
+    "summary": "Browser-verified 13 November 2026: the Booking.com Freetown city page lists Hotel Barmoi with its exact detail URL /hotel/sl/barmoi.html; opening the detail URL renders the full property page (75C Cape Road, Aberdeen, Freetown; 8.4 Very good from 118 reviews; room types, facilities and policies). A Stay22-wrapped test of this URL with the site campaign parameters opens the same exact property detail page, not a searchresults page."
+   },
+   "notes": "Exact OTA product verified in browser (see evidence). No current price, availability or affiliate attribution claim is made; review score quoted on-page with a checked date."
   }
+ },
+ "activities": {
+  "maasai-mara-balloon-safari": {
+   "url": "https://www.getyourguide.com/keekorok-l247032/maasai-mara-hot-air-balloon-safari-with-a-bush-breakfast-t254357/",
+   "provider": "getyourguide",
+   "title": "Maasai Mara balloon safari with champagne breakfast",
+   "operator": "Perfect Wilderness Tours and Safari",
+   "rating": 4.8,
+   "review_count": 37,
+   "notes": "Confirm your camp is in the pickup area. Flight operations depend on weather.",
+   "checked_at": "2026-10-24",
+   "evidence": {
+    "review_check": "Exact product and review aggregate retrieved 24 October 2026; scores may change. Individual evidence in 2026-10-24 activity research ledgers."
+   }
+  },
+  "bwindi-gorilla-trekking": {
+   "url": "https://www.getyourguide.com/kigali-l32466/1-day-gorilla-tour-in-bwindi-from-kigali-t792979/",
+   "provider": "getyourguide",
+   "title": "One-day Bwindi gorilla tour from Kigali",
+   "operator": "BUGOLI ADVENTURES LIMITED",
+   "rating": 4.8,
+   "review_count": 17,
+   "notes": "This is a cross-border day trip from Kigali, not a local Bwindi departure. Confirm permit costs, trekking sector, border documents and the full price before booking.",
+   "checked_at": "2026-10-24",
+   "evidence": {
+    "review_check": "Exact product and review aggregate retrieved 24 October 2026; scores may change. Individual evidence in 2026-10-24 activity research ledgers."
+   }
+  },
+  "amboseli-game-drive-safari": {
+   "url": "https://www.getyourguide.com/nairobi-l267/nairobi-day-tour-to-amboseli-national-park-maasai-village-t543578/",
+   "provider": "getyourguide",
+   "title": "Amboseli day tour from Nairobi",
+   "operator": "Niroskos Tours And Safaris",
+   "rating": 4.5,
+   "review_count": 452,
+   "notes": "A long day from Nairobi. Check park admission, vehicle upgrades and optional village charges separately; this is not an in-park lodge pickup by default.",
+   "checked_at": "2026-10-24",
+   "evidence": {
+    "review_check": "Exact product and review aggregate retrieved 24 October 2026; scores may change. Individual evidence in 2026-10-24 activity research ledgers."
+   }
+  },
+  "atlas-mountains-day-trip": {
+   "url": "https://www.getyourguide.com/asni-l115647/marrakech-atlas-mountains-ourika-5-valleys-day-tour-t11542/",
+   "provider": "getyourguide",
+   "title": "Atlas Mountains and five valleys day tour with lunch",
+   "operator": "Attractive Tours",
+   "rating": 4.9,
+   "review_count": 2304,
+   "notes": "Departs from Marrakech. Check the selected shared or private option and pickup arrangements.",
+   "checked_at": "2026-10-24",
+   "evidence": {
+    "review_check": "Exact product and review aggregate retrieved 24 October 2026; scores may change. Individual evidence in 2026-10-24 activity research ledgers."
+   }
+  },
+  "serengeti-balloon-safari": {
+   "url": "https://www.getyourguide.com/serengeti-national-park-l123040/serengeti-national-park-balloon-safari-at-dawn-t383490/",
+   "provider": "getyourguide",
+   "title": "Serengeti balloon safari at dawn",
+   "operator": "Serengeti Balloon Safaris",
+   "rating": 4.2,
+   "review_count": 14,
+   "notes": "A directly operated balloon experience with a modest review sample. Confirm launch area and lodge pickup; park entry is not included. Flights depend on weather.",
+   "checked_at": "2026-10-24",
+   "evidence": {
+    "review_check": "Exact product and review aggregate retrieved 24 October 2026; scores may change. Individual evidence in 2026-10-24 activity research ledgers."
+   }
+  },
+  "table-mountain-guided-hike": {
+   "url": "https://www.getyourguide.com/cape-town-l103/cape-town-table-mountain-hike-via-india-venster-t302403/",
+   "provider": "getyourguide",
+   "title": "Table Mountain guided hike via India Venster",
+   "operator": "Atlantic Outlook",
+   "rating": 5,
+   "review_count": 34,
+   "notes": "This route involves scrambling and requires good fitness and confidence on uneven ground. Confirm suitability and descent arrangements with the guide.",
+   "checked_at": "2026-10-24",
+   "evidence": {
+    "review_check": "Exact product and review aggregate retrieved 24 October 2026; scores may change. Individual evidence in 2026-10-24 activity research ledgers."
+   }
+  },
+  "cape-coast-kakum-guided-visit": {
+   "url": "https://www.getyourguide.com/accra-l506/from-accra-the-cape-coast-day-tour-guided-experience-t834942/",
+   "provider": "getyourguide",
+   "title": "Cape Coast Castle, Elmina Castle and Kakum tour",
+   "operator": "Expedition-Go Tours",
+   "rating": 4.7,
+   "review_count": 220,
+   "notes": "Full-day departure from Accra. Confirm which admissions and stops your selected option includes.",
+   "checked_at": "2026-11-08",
+   "evidence": {
+    "review_check": "Exact product detail retrieved in a browser session 8 November 2026: product 834942, provider Expedition-Go Tours, 4.7/5 from 220 reviews, itinerary covering Cape Coast Castle, Elmina Castle and Kakum National Park from Accra. This recheck clears the earlier hold that followed a failed non-browser retrieval. Scores may change."
+   }
+  },
+  "victoria-falls-guided-walk": {
+   "url": "https://www.getyourguide.com/victoria-falls-town-l127068/zimbabwe-zambia-guided-tour-of-the-falls-from-both-sides-t414370/",
+   "provider": "getyourguide",
+   "title": "Guided Victoria Falls tour: Zimbabwe and Zambia",
+   "operator": "Cuckoo Safaris",
+   "rating": 4.7,
+   "review_count": 516,
+   "notes": "This option visits both countries. Confirm visa eligibility, border arrangements and park entrance charges before booking.",
+   "checked_at": "2026-10-24",
+   "evidence": {
+    "review_check": "Exact product and review aggregate retrieved 24 October 2026; scores may change. Individual evidence in 2026-10-24 activity research ledgers."
+   }
+  },
+  "okavango-mokoro-safari": {
+   "url": "https://www.getyourguide.com/maun-l116302/okavango-delta-full-day-mokorocanoe-tour-all-inclusive-t604726/",
+   "provider": "getyourguide",
+   "title": "Full-day Okavango mokoro and walking excursion",
+   "operator": "Kalahari Breeze Safari",
+   "rating": 4.7,
+   "review_count": 119,
+   "notes": "Departs from Maun and combines a mokoro outing with walking. This is not a vehicle game-drive package; confirm water conditions and pickup.",
+   "checked_at": "2026-10-24",
+   "evidence": {
+    "review_check": "Exact product and review aggregate retrieved 24 October 2026; scores may change. Individual evidence in 2026-10-24 activity research ledgers."
+   }
+  },
+  "volcanoes-gorilla-trek": {
+   "url": "https://www.getyourguide.com/kigali-l32466/kigali-rwanda-gorilla-tracking-in-volcanoes-national-park-t537766/",
+   "provider": "getyourguide",
+   "title": "Kigali: gorilla tracking in Volcanoes National Park",
+   "operator": "Vista Safaris",
+   "rating": 4.9,
+   "review_count": 39,
+   "notes": "The Rwanda gorilla permit is not included. Confirm the Rwanda option and the full permit-inclusive cost: reviews may cover different itinerary variants.",
+   "checked_at": "2026-10-24",
+   "evidence": {
+    "review_check": "Exact product and review aggregate retrieved 24 October 2026; scores may change. Individual evidence in 2026-10-24 activity research ledgers."
+   }
+  },
+  "giza-pyramids-guided-tour": {
+   "url": "https://www.getyourguide.com/cairo-l92/cairo-grand-egyptian-museum-pyramids-sphinx-tour-lunch-t851104/",
+   "provider": "getyourguide",
+   "title": "Cairo: Grand Egyptian Museum, Pyramids, Sphinx Tour & Lunch",
+   "operator": "OceanAir Travels",
+   "checked_at": "2026-10-23",
+   "evidence_url": "https://www.getyourguide.com/cairo-l92/cairo-grand-egyptian-museum-pyramids-sphinx-tour-lunch-t851104/",
+   "notes": "Exact combined Cairo/Giza tour, product 851104. The OTA page currently retains a museum-status note that conflicts with the official GEM visit pages. Confirm the current museum route, ticket option and pickup address with the operator before paying; no review total or score asserted.",
+   "status": "hold",
+   "last_attempted_at": "2026-10-24",
+   "hold_reason": "Product detail could not be reconfirmed: retrieval returned a generic page shell. Keep original exact URL; do not substitute search results. Recheck before enabling CTA."
+  },
+  "stone-town-historical-walking-tour": {
+   "url": "https://www.getyourguide.com/zanzibar-tsiti-l872/kameni-grad-vodjeni-istorijski-obilazak-grada-t566480/",
+   "provider": "getyourguide",
+   "title": "Stone Town: Guided Historical Walking City Tour",
+   "operator": "Zanziworld Tours",
+   "checked_at": "2026-10-16",
+   "notes": "Exact product 566480 identified from a retrieved listing. Live refresh was blocked; confirm current availability and meeting/pickup arrangements. Historical review sample is small; no current ranking claimed.",
+   "evidence": {
+    "source_url": "https://www.getyourguide.com/zanzibar-tsiti-l872/kameni-grad-vodjeni-istorijski-obilazak-grada-t566480/",
+    "summary": "Retrieved listing identifies product/operator. Direct HTTP refresh 403; current rates, availability and review totals not confirmed."
+   }
+  },
+  "marrakech-medina-street-food-tour": {
+   "url": "https://www.getyourguide.com/en-gb/argana-l191087/marrakech-street-food-tour-with-a-local-guide-t490970/",
+   "provider": "getyourguide",
+   "title": "Marrakech: Street Food Tour with a Local Guide",
+   "operator": "Reiseführer Abdo",
+   "rating": 4.8,
+   "review_count": 4299,
+   "checked_at": "2026-10-24",
+   "notes": "Exact product 490970. About three hours; Café Restaurant Argana start/finish; food and drinks included. Confirm selected date, accessibility and dietary arrangements; current price and availability vary.",
+   "evidence": {
+    "source_url": "https://www.getyourguide.com/en-gb/argana-l191087/marrakech-street-food-tour-with-a-local-guide-t490970/",
+    "summary": "Exact detail checked 2026-10-17 identifies product 490970 and provider Reiseführer Abdo, itinerary, duration, meeting point and inclusions. Displayed 4.8/5 from 4,104 reviews; September 2026 feedback includes positive experiences and practical caveats.",
+    "review_check": "Exact product and review aggregate retrieved 24 October 2026; scores may change. Individual evidence in 2026-10-24 activity research ledgers."
+   }
+  },
+  "volcanoes-golden-monkey-trekking": {
+   "url": "https://www.getyourguide.com/kigali-l32466/golden-monkey-trekking-with-lunch-t850037/",
+   "provider": "getyourguide",
+   "title": "Golden Monkey Trekking with lunch",
+   "operator": "Private Tours /Rwanda",
+   "rating": 4.8,
+   "review_count": 6,
+   "notes": "A full day from Kigali (about eight hours with transfers). The advertised fare includes the USD 100 golden monkey ticket, Kigali hotel pickup, driver-guide, lunch and water; confirm pickup coverage and cancellation terms before booking.",
+   "checked_at": "2026-11-06",
+   "evidence": {
+    "review_check": "Exact product and review aggregate retrieved 6 November 2026; scores may change. Dated reviews recorded in the 2026-11-06 research ledger."
+   }
+  },
+  "nyungwe-canopy-walk": {
+   "url": "https://www.getyourguide.com/kigali-l32466/kigali1-day-nyungwe-canopy-walk-waterfall-tour-adventure-t937129/",
+   "provider": "getyourguide",
+   "title": "Kigali: 1-Day Nyungwe Canopy Walk & Waterfall Tour",
+   "operator": "Vista Safaris",
+   "rating": 3.7,
+   "review_count": 7,
+   "notes": "Full-day Kigali round trip with accommodation pickup, park walk and Ndambarare waterfall. The listing describes park fees of US$155 per person as an additional charge; its own dimension copy differs from official figures. Confirm dates, inclusions and cancellation terms before booking. No rate or availability claims published.",
+   "checked_at": "2026-11-09",
+   "evidence": {
+    "review_check": "Exact product and review aggregate read live 9 November 2026 (score 3.7/5 from 7 reviews). Dated reviews recorded in the research ledger; scores may change."
+   }
+  },
+  "kruger-national-park-game-drive": {
+   "url": "https://www.getyourguide.com/en-gb/skukuza-l192363/kruger-national-park-full-day-game-drive-with-pickup-t433574/",
+   "provider": "getyourguide",
+   "title": "Kruger National Park: Full-Day Game Drive with Pickup",
+   "operator": "Inn Africa Camp & Tours- Game drives",
+   "rating": 4.5,
+   "review_count": 166,
+   "notes": "Full-day open-vehicle game drive. Confirm the pickup area; food and park conservation fees are extra.",
+   "checked_at": "2026-10-11",
+   "status": "active",
+   "verification_note": "Exact product re-verified live in search index 2026-11-09 (title and Big-5 open-vehicle description match); direct platform fetch automation-blocked, so no rate or availability claim is made."
+  },
+  "jozani-forest-guided-visit": {
+   "url": "https://www.getyourguide.com/jozani-l239369/zanzibar-jozani-forest-nature-walk-and-wildlife-tour-t968921/",
+   "provider": "getyourguide",
+   "title": "Zanzibar: Jozani Forest, Nature Walk and Wildlife Tour",
+   "operator": "Zanzibar blessing tours and safari",
+   "rating": 5,
+   "review_count": 2,
+   "notes": "Jozani-only nature walk with the entrance fee, guided forest and mangrove walk; earlier metadata places the meeting point at Jozani Forest itself while the current listing advertises pickup. Very small review sample (2 reviews); private group. Confirm pickup coverage and meeting arrangements before booking. No rate or availability claims published.",
+   "checked_at": "2026-11-10",
+   "evidence": {
+    "review_check": "Exact product (t968921) retrieved in a browser session 8 November 2026: 5/5 from 2 reviews, entrance fee + guided forest and mangrove walk. Platform's Jozani category listings confirmed the same product live 10 November 2026 (2–5 h, private group, pickup advertised, from USD 45). Direct fetch 403 (bot wall). Scores may change."
+   }
+  },
+  "sossusvlei-guided-dune-excursion": {
+   "url": "https://www.getyourguide.com/sesriem-l143532/2-day-scenic-sossusvlei-adventure-tour-t1314104/",
+   "provider": "getyourguide",
+   "title": "2-Day Scenic Sossusvlei Adventure Tour",
+   "operator": "Desert Dunes and Dust Tours",
+   "rating": 5,
+   "review_count": 2,
+   "notes": "A two-day guided outing from Sesriem: gate report and the drive through the dunes, a Sossusvlei dune walk, overnight at Moon Mountain Lodge, Dune 45 in the morning and a Sesriem Canyon walk. Park fees, accommodation, meals and local beverages are included; the operator requires a minimum of two travelers. Two reviews only, so treat the 5.0 rating as a small sample. Confirm pickup scope and the current shuttle or 4x4 rule before booking.",
+   "checked_at": "2026-11-10",
+   "evidence": {
+    "review_check": "Exact product page, provider, inclusions, exclusions and review aggregate retrieved live 10 November 2026; scores may change. Details in the 2026-11-10 sossusvlei-guided-dune-excursion research ledger and docs/editorial-progress.json."
+   }
+  }
+ },
+ "attractions": {
+  "djanet-and-tassili": {
+   "url": "https://www.getyourguide.com/djanet-l232012/djanet-4-day-desert-adventure-in-tassili-n-ajjer-t1110780/",
+   "provider": "getyourguide",
+   "title": "Djanet: 4-Day Desert Adventure in Tassili N’Ajjer",
+   "operator": "Cozy Vibes Travel Algeria",
+   "rating": null,
+   "review_count": 0,
+   "notes": "Four-day desert itinerary from Djanet. This listing has no published product reviews yet. Confirm local permissions, transport and flight arrangements directly before booking.",
+   "checked_at": "2026-10-11",
+   "status": "review-limited"
+  },
+  "kruger-national-park": {
+   "url": "https://www.getyourguide.com/en-gb/skukuza-l192363/kruger-national-park-full-day-game-drive-with-pickup-t433574/",
+   "provider": "getyourguide",
+   "title": "Kruger National Park: Full-Day Game Drive with Pick-up",
+   "operator": "Inn Africa Camp & Tours- Game drives",
+   "rating": 4.5,
+   "review_count": 166,
+   "notes": "Full-day open-vehicle game drive. Confirm the pickup area; food and park conservation fees are extra.",
+   "checked_at": "2026-10-11",
+   "status": "candidate"
+  },
+  "lalibela": {
+   "url": null,
+   "provider": "getyourguide",
+   "title": null,
+   "operator": null,
+   "rating": null,
+   "review_count": null,
+   "notes": "HOLD: Lalibela is in Amhara. Parent task identified current do-not-travel advisory. Do not add promotional booking CTA or infer that an available OTA listing establishes travel safety.",
+   "checked_at": "2026-10-11",
+   "status": "hold"
+  },
+  "murchison-falls-national-park": {
+   "url": "https://www.getyourguide.com/masindi-l145511/uganda-2-day-murchison-falls-park-safari-with-boat-cruise-t820586/",
+   "provider": "getyourguide",
+   "title": "Uganda: 2-Day Murchison Falls Park Safari with Boat cruise",
+   "operator": "Kitenji Uganda Safaris and Tours",
+   "rating": 4.5,
+   "review_count": 12,
+   "notes": "Two-day safari with a boat cruise. The review sample is small and transport/value feedback is mixed; review recent comments and confirm the itinerary, vehicle and all inclusions before booking.",
+   "checked_at": "2026-10-11",
+   "status": "review-limited"
+  },
+  "namib-desert": {
+   "url": "https://www.getyourguide.com/en-gb/windhoek-l852/from-windhoek-budget-sossusvlei-guided-2-day-tour-t711874/",
+   "provider": "getyourguide",
+   "title": "From Windhoek: Budget Sossusvlei Guided 2-day Tour",
+   "operator": "Oombe Tours Transfer and Car Hire cc",
+   "rating": 4.9,
+   "review_count": 9,
+   "notes": "Two-day Sossusvlei journey from Windhoek. The high score is based on only nine reviews. Check the overnight stay, meals and transfers in your option.",
+   "checked_at": "2026-10-11",
+   "status": "review-limited"
+  },
+  "ouidah-and-ganvie": {
+   "url": "https://www.getyourguide.com/ganvie-l241520/explore-ganvie-ouidah-at-the-heart-of-history-and-traditions-t1144752/",
+   "provider": "getyourguide",
+   "title": "Explore Ganvié & Ouidah, at the heart of memory and traditions",
+   "operator": "Wa Africa",
+   "rating": 5,
+   "review_count": 1,
+   "notes": "Combines Ganvié and Ouidah. Only one review was available when checked; confirm pickup, boat safety equipment and the heritage itinerary.",
+   "checked_at": "2026-10-11",
+   "status": "review-limited"
+  },
+  "sahara-dunes": {
+   "url": "https://www.getyourguide.com/marrakesh-l208/3-day-desert-tour-from-marrakech-to-merzouga-t52681/",
+   "provider": "getyourguide",
+   "title": "From Marrakech: Merzouga 3-Day Desert Safari with Food",
+   "operator": "Ando Travel Ltd",
+   "rating": 4.7,
+   "review_count": 15137,
+   "notes": "Three-day Marrakech round trip to Merzouga/Erg Chebbi. Select the camp category carefully and check meal, camel and vehicle-transfer arrangements.",
+   "checked_at": "2026-10-11",
+   "status": "candidate"
+  },
+  "sal-island": {
+   "url": "https://www.getyourguide.com/santa-maria-cape-verde-l141321/cape-verde-6-hour-sal-experience-t268017/",
+   "provider": "getyourguide",
+   "title": "Sal: Island Experience Tour with a Certified Native Guide",
+   "operator": "Sal Experiences",
+   "rating": 4.8,
+   "review_count": 4340,
+   "notes": "Guided island circuit. Entrance fees and optional lunch cost extra; confirm pickup and the stops included.",
+   "checked_at": "2026-10-11",
+   "status": "candidate"
+  },
+  "sine-saloum-delta": {
+   "url": "https://www.getyourguide.com/dakar-l32481/dakar-saloum-islands-full-day-tour-with-lunch-drinks-t1243074/",
+   "provider": "getyourguide",
+   "title": "Dakar: Saloum Islands Full-Day Tour with Lunch & Drinks",
+   "operator": "Travel with ziggy",
+   "rating": 5,
+   "review_count": 1,
+   "notes": "Full-day Saloum excursion from Dakar/Petite Côte. Only one review was available when checked; confirm road transfers, boat arrangements and inclusions.",
+   "checked_at": "2026-10-11",
+   "status": "review-limited"
+  },
+  "south-luangwa": {
+   "url": "https://www.getyourguide.com/south-luangwa-national-park-l150352/south-luangwa-morning-park-game-drive-with-transfers-t1056815/",
+   "provider": "getyourguide",
+   "title": "South Luangwa: Morning Park Game Drive with Transfers",
+   "operator": "Ani & Mad Holidays Ltd",
+   "rating": null,
+   "review_count": 0,
+   "notes": "Morning game drive with accommodation transfers. This listing has no published product reviews yet. Confirm the pickup zone and park fees.",
+   "checked_at": "2026-10-11",
+   "status": "review-limited"
+  },
+  "tunis-and-sidi-bou-said": {
+   "url": "https://www.getyourguide.com/en-gb/tunis-l304/tunis-medina-carthage-sidi-bousaid-private-trip-w-lunch-t553079/",
+   "provider": "getyourguide",
+   "title": "Tunis: Medina, Carthage & Sidi Bousaid Private Day Trip",
+   "operator": "Didon Tours",
+   "rating": 4.8,
+   "review_count": 142,
+   "notes": "Private day trip through Tunis, Carthage and Sidi Bou Said. Confirm the exact museums and entrance tickets included in your option.",
+   "checked_at": "2026-10-11",
+   "status": "candidate"
+  },
+  "zanzibar": {
+   "url": "https://www.getyourguide.com/zanzibar-ville-l872/zanzibar-visite-des-epices-visite-de-stone-town-et-de-l-ile-prison-t645862/",
+   "provider": "getyourguide",
+   "title": "Zanzibar: Spice Tour, Stone Town tour & Prison Island",
+   "operator": "Tourice Travel & Tours",
+   "rating": null,
+   "review_count": null,
+   "notes": "Private spice farm, Stone Town and Prison Island outing. Confirm pickup, boat arrangements, admissions and meals. Read current reviews on the booking page.",
+   "checked_at": "2026-10-11",
+   "status": "candidate"
+  },
+  "tokeh-and-river-no2": {
+   "status": "unavailable",
+   "reason": "Focused GYG searches for Tokeh and River No. 2 returned no supported product listing. Do not substitute an unrelated country/category search URL."
+  },
+  "jozani-forest": {
+   "url": "https://www.getyourguide.com/jozani-l239369/zanzibar-jozani-forest-nature-walk-and-wildlife-tour-t968921/",
+   "provider": "getyourguide",
+   "title": "Jozani Forest, Nature Walk and Wildlife Tour",
+   "operator": "Zanzibar blessing tours and safari",
+   "rating": 5,
+   "review_count": 2,
+   "notes": "Jozani-only nature walk with the entrance fee, guided forest and mangrove walk; the meeting point is Jozani Forest itself. Very small review sample (2 reviews when checked); private group up to 40 people. Confirm pickup options and meeting arrangements before booking.",
+   "checked_at": "2026-11-08",
+   "evidence": {
+    "review_check": "Exact product detail retrieved in a browser session 8 November 2026: product 968921, provider Zanzibar blessing tours and safari, 5/5 from 2 reviews. Scores may change."
+   }
+  },
+  "maasai-mara": {
+   "url": "https://www.getyourguide.com/keekorok-l247032/maasai-mara-hot-air-balloon-safari-with-a-bush-breakfast-t254357/",
+   "provider": "getyourguide",
+   "title": "Maasai Mara balloon safari with champagne breakfast",
+   "operator": "Perfect Wilderness Tours and Safari",
+   "rating": 4.8,
+   "review_count": 36,
+   "notes": "Confirm your camp is in the pickup area. Flight operations depend on weather.",
+   "checked_at": "2026-10-11"
+  },
+  "bwindi-impenetrable-national-park": {
+   "url": "https://www.getyourguide.com/kigali-l32466/1-day-gorilla-tour-in-bwindi-from-kigali-t792979/",
+   "provider": "getyourguide",
+   "title": "One-day Bwindi gorilla tour from Kigali",
+   "operator": "BUGOLI ADVENTURES LIMITED",
+   "rating": 4.8,
+   "review_count": 17,
+   "notes": "This is a cross-border day trip from Kigali, not a local Bwindi departure. Confirm permit costs, trekking sector, border documents and the full price before booking.",
+   "checked_at": "2026-10-11"
+  },
+  "amboseli-national-park": {
+   "url": "https://www.getyourguide.com/nairobi-l267/nairobi-day-tour-to-amboseli-national-park-maasai-village-t543578/",
+   "provider": "getyourguide",
+   "title": "Amboseli day tour from Nairobi",
+   "operator": "Niroskos Tours And Safaris",
+   "rating": 4.5,
+   "review_count": 408,
+   "notes": "A long day from Nairobi. Check park admission, vehicle upgrades and optional village charges separately; this is not an in-park lodge pickup by default.",
+   "checked_at": "2026-10-11"
+  },
+  "marrakech-and-atlas": {
+   "url": "https://www.getyourguide.com/asni-l115647/marrakech-atlas-mountains-ourika-5-valleys-day-tour-t11542/",
+   "provider": "getyourguide",
+   "title": "Atlas Mountains and five valleys day tour with lunch",
+   "operator": "Attractive Tours",
+   "rating": 4.9,
+   "review_count": 2301,
+   "notes": "Departs from Marrakech. Check the selected shared or private option and pickup arrangements.",
+   "checked_at": "2026-10-11"
+  },
+  "serengeti-national-park": {
+   "url": "https://www.getyourguide.com/serengeti-national-park-l123040/serengeti-national-park-balloon-safari-at-dawn-t383490/",
+   "provider": "getyourguide",
+   "title": "Serengeti balloon safari at dawn",
+   "operator": "Serengeti Balloon Safaris",
+   "rating": 4.2,
+   "review_count": 14,
+   "notes": "A directly operated balloon experience with a modest review sample. Confirm launch area and lodge pickup; park entry is not included. Flights depend on weather.",
+   "checked_at": "2026-10-11"
+  },
+  "cape-town": {
+   "url": "https://www.getyourguide.com/cape-town-l103/cape-town-table-mountain-hike-via-india-venster-t302403/",
+   "provider": "getyourguide",
+   "title": "Table Mountain guided hike via India Venster",
+   "operator": "Atlantic Outlook",
+   "rating": 5,
+   "review_count": 34,
+   "notes": "This route involves scrambling and requires good fitness and confidence on uneven ground. Confirm suitability and descent arrangements with the guide.",
+   "checked_at": "2026-10-11"
+  },
+  "cape-coast-kakum": {
+   "url": "https://www.getyourguide.com/accra-l506/from-accra-the-cape-coast-day-tour-guided-experience-t834942/",
+   "provider": "getyourguide",
+   "title": "Cape Coast Castle, Elmina Castle and Kakum tour",
+   "operator": "Expedition-Go Tours",
+   "rating": 4.7,
+   "review_count": 220,
+   "notes": "Full-day departure from Accra. Confirm which admissions and stops your selected option includes.",
+   "checked_at": "2026-11-08"
+  },
+  "elmina-castle": {
+   "url": "https://www.getyourguide.com/accra-l506/from-accra-the-cape-coast-day-tour-guided-experience-t834942/",
+   "provider": "getyourguide",
+   "title": "Cape Coast Castle, Elmina Castle & Kakum National Park Tour",
+   "operator": "Expedition-Go Tours",
+   "rating": 4.7,
+   "review_count": 220,
+   "notes": "Full-day guided tour from Accra covering Cape Coast Castle, Elmina Castle and Kakum National Park. This is a shared Castle Coast day trip rather than a castle-only visit; confirm that Elmina Castle admission is included in the selected option.",
+   "checked_at": "2026-11-08",
+   "evidence": {
+    "review_check": "Exact product detail retrieved in a browser session 8 November 2026: product 834942, provider Expedition-Go Tours, 4.7/5 from 220 reviews. Scores may change."
+   }
+  },
+  "victoria-falls": {
+   "url": "https://www.getyourguide.com/victoria-falls-town-l127068/zimbabwe-zambia-guided-tour-of-the-falls-from-both-sides-t414370/",
+   "provider": "getyourguide",
+   "title": "Guided Victoria Falls tour: Zimbabwe and Zambia",
+   "operator": "Cuckoo Safaris",
+   "rating": 4.7,
+   "review_count": 501,
+   "notes": "This option visits both countries. Confirm visa eligibility, border arrangements and park entrance charges before booking.",
+   "checked_at": "2026-10-11"
+  },
+  "okavango-delta": {
+   "url": "https://www.getyourguide.com/maun-l116302/okavango-delta-full-day-mokorocanoe-tour-all-inclusive-t604726/",
+   "provider": "getyourguide",
+   "title": "Full-day Okavango mokoro and walking excursion",
+   "operator": "Kalahari Breeze Safari",
+   "rating": 4.7,
+   "review_count": 117,
+   "notes": "Departs from Maun and combines a mokoro outing with walking. This is not a vehicle game-drive package; confirm water conditions and pickup.",
+   "checked_at": "2026-10-11"
+  },
+  "cairo-and-giza": {
+   "url": "https://www.getyourguide.com/cairo-l92/cairo-grand-egyptian-museum-pyramids-sphinx-tour-lunch-t851104/",
+   "provider": "getyourguide",
+   "title": "Cairo: Grand Egyptian Museum, Pyramids, Sphinx and lunch",
+   "operator": "OceanAir Travel",
+   "rating": 4.8,
+   "review_count": 4885,
+   "checked_at": "2026-10-11",
+   "evidence_url": "https://www.getyourguide.com/oceanair-egypt-s462166/",
+   "notes": "Departs from Cairo or Giza. Check the selected entrance-ticket option, hotel pickup zone and any extras before booking."
+  },
+  "volcanoes-national-park": {
+   "url": "https://www.getyourguide.com/kigali-l32466/kigali-rwanda-gorilla-tracking-in-volcanoes-national-park-t537766/",
+   "provider": "getyourguide",
+   "title": "Kigali: gorilla tracking in Volcanoes National Park",
+   "operator": "Vista Safaris",
+   "rating": 4.9,
+   "review_count": 37,
+   "notes": "The Rwanda gorilla permit is not included. Confirm the Rwanda option and the full permit-inclusive cost: reviews may cover different itinerary variants.",
+   "checked_at": "2026-10-11"
+  }
+ }
 }

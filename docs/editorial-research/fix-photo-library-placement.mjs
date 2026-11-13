@@ -1,0 +1,17 @@
+import fs from 'node:fs';
+const p = new URL('../../src/lib/photo-library.js', import.meta.url);
+let m = fs.readFileSync(p, 'utf8');
+const start = m.indexOf('    "/images/editorial/hotel-barmoi-freetown/lumley-beach-kefel.jpg"');
+const endMarker = m.indexOf('\n  }', m.indexOf('central-freetown-night-bangura.jpg"'));
+if (start < 0 || endMarker < 0) throw new Error('markers not found ' + start + ' ' + endMarker);
+const block = m.slice(start, endMarker);
+m = m.slice(0, start) + m.slice(endMarker + 3);
+const li = m.indexOf('"listings"');
+if (li < 0) throw new Error('listings anchor not found');
+const close = m.lastIndexOf('\n  },', li);
+if (close < 0) throw new Error('images close not found');
+m = m.slice(0, close + 1) + block + '\n' + m.slice(close + 1);
+fs.writeFileSync(p, m);
+const mod = await import(new URL('../../src/lib/photo-library.js', import.meta.url).href + '?' + Date.now());
+const keys = Object.keys(mod.photoLibrary.images).filter((k) => k.includes('barmoi'));
+console.log('images entries:', keys.length, keys[0]);
