@@ -3,6 +3,17 @@
 export const photoLibrary = {
   "updated_at": "2026-11-11",
   "images": {
+    "/images/editorial/masvingo-destination/masvingo-at-dusk-2019-realtino.jpg": {
+      "slug": "masvingo-at-dusk-2019-realtino",
+      "local_path": "/images/editorial/masvingo-destination/masvingo-at-dusk-2019-realtino.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Masvingo_at_dusk.jpg",
+      "creator": "Realtino", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "captured_at": "2019-02-25", "sha256": "4d7d66008a7525eecb76fb1c5d2a95d7015b77ca130c3e4ec653837e7ec21935",
+      "exact_subject": true, "subject": "Masvingo at dusk, Zimbabwe", "alt": "A Masvingo street at dusk with cars and streetlights.",
+      "caption": "Masvingo at dusk (Realtino, CC BY-SA 4.0 via Wikimedia Commons).", "property": false, "kind": "photograph",
+      "requires_attribution": true, "changes": "Original Wikimedia Commons JPEG; no edits.", "checked_at": "2026-11-13",
+      "exact_subject_evidence": "Commons file page identifies Masvingo at dusk, photographer's own work, dated 25 February 2019."
+    },
     "/images/editorial/masvingo-destination/masvingo-post-office-2023.jpg": {
       "slug": "masvingo-post-office-2023",
       "local_path": "/images/editorial/masvingo-destination/masvingo-post-office-2023.jpg",
@@ -12953,7 +12964,7 @@ export const photoLibrary = {
         "hero_image_url": "/images/editorial/masvingo-destination/masvingo-post-office-2023.jpg",
         "hero_image_alt": "The post office building in Masvingo, Zimbabwe.",
         "replaces": [],
-        "gallery": ["/images/editorial/masvingo-destination/masvingo-post-office-2023.jpg"]
+        "gallery": ["/images/editorial/masvingo-destination/masvingo-post-office-2023.jpg", "/images/editorial/masvingo-destination/masvingo-at-dusk-2019-realtino.jpg"]
       },
       "sal": {
         "hero_image_url": "/images/editorial/sal-destination/santa-maria-beach-2007.jpg",
