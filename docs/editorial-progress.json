@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12T12:05:00Z",
+  "updated_at": "2026-11-13T01:35:00Z",
   "timezone": "Africa/Kampala",
   "next_scheduled_start": "2026-10-17T19:30:00+03:00",
   "cadence_hours": 3,
@@ -2172,17 +2172,23 @@
     "next_category": "activities",
     "next_action": "Rotate to activities next run; six-subject photo backlog tracked in the ledger; CMS owner-side check pending (standard).",
     "status": "published_live_confirmed",
-    "content_commit": "",
+    "content_commit": "5126075",
     "publication": {
-      "content_commit": "",
+      "content_commit": "5126075",
       "pushed_to": "main",
-      "push_result": "",
-      "pushed_at": "",
+      "push_result": "success (c26b8b0..5126075)",
+      "pushed_at": "2026-11-13",
       "live_url": "https://trekafricaguide.com/travel-insights/plan-first-cabo-verde-visit-which-island-what-to-combine/",
       "live_http_status": 200,
-      "checked_at": "",
-      "live_distinctive_text": "",
-      "live_checks": {}
+      "checked_at": "2026-11-13",
+      "live_distinctive_text": "Plan a first Cabo Verde visit: which island, what to combine, how to connect | Trek Africa Guide",
+      "live_checks": {
+        "detail": "HTTP 200; title correct; full article body renders (The first choice that shapes everything, The second choice, The entry rule that changes the map, Inter-island logistics, Money and daily rhythm, Confirm before you book, Packing from official recommendations, Three questions travelers actually ask, Continue planning, Sources and scope); distinctive copy renders (four international airports, Sal/Santiago/São Vicente/Boa Vista entry islands, Sal+Santiago 45-min flight, EASE pre-registration mandatory from 1 July 2026, double TSA fee at border if not pre-registered, 1 EUR = 110 CVE, Brava/Santo Antão sea-only access); no exposed markup.",
+        "archive": "Travel insights archive HTTP 200 lists the new insight with correct title and excerpt.",
+        "parent": "Cabo Verde country page renders 'Related travel insights' with the new insight linked.",
+        "cross_links": "Sal destination, Sal Island attraction, and Hilton Cabo Verde Sal Resort stay all live HTTP 200 and linked from the insight.",
+        "internal_links": "All 4 internal links HTTP 200: /countries/cabo-verde/, /countries/cabo-verde/sal/, /attractions/sal-island/, /accommodations/hilton-cabo-verde-sal-resort/."
+      }
     }
   }
   "rotation": {
