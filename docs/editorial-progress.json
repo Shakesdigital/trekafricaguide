@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T01:35:00Z",
+  "updated_at": "2026-11-13T06:35:00Z",
   "timezone": "Africa/Kampala",
   "next_scheduled_start": "2026-10-17T19:30:00+03:00",
   "cadence_hours": 3,
@@ -2190,11 +2190,51 @@
         "internal_links": "All 4 internal links HTTP 200: /countries/cabo-verde/, /countries/cabo-verde/sal/, /attractions/sal-island/, /accommodations/hilton-cabo-verde-sal-resort/."
       }
     }
-  }
-  "rotation": {
-    "last_completed_category": "travel_insights",
-    "next_category": "activities",
-    "next_deliverable": "Cabo Verde first-visit travel insight published 2026-11-13 (travel_insights rotation); next: one evidenced activities gap."
   },
-  "next_category": "activities"
+  "activity_tunis_carthage_sidi_bou_said_guided_walk": {
+    "id": "tunis-carthage-sidi-bou-said-guided-walk",
+    "category": "activities",
+    "started": "2026-11-13",
+    "latest_run_note": "Scheduled 03:13Z routine run; executed on schedule.",
+    "selection_evidence": "Live /attractions/tunis-and-sidi-bou-said/ (HTTP 200, 13 Nov 2026) describes a focused two-stop Carthage visit (Antonine Baths + Magon Quarter) and Sidi Bou Said village walking, with a verified GetYourGuide product (t553079) in its booking panel, but renders no Related activities section. The attraction page's 'What draws people here' lists Carthage's archaeological sites and Sidi Bou Said's streets as distinct draws, yet no activity guide existed for this walking combination.",
+    "scope": "New activity guide: tunis-carthage-sidi-bou-said-guided-walk under repo-managed attraction tunis-and-sidi-bou-said (id 69). Covers the Antonine Baths (Roman waterfront complex), the Magon Quarter (Punic domestic quarter, 5th c. BCE), Sidi Bou Said blue-and-white village walking, and the TGM coastal railway link (Tunis Marine → La Marsa). Zero-image honest publish; six-subject photo backlog logged. Exact GetYourGuide product t553079 (Didon Tours, 4.8/5 from 142 reviews checked 2026-10-11) registered as booking-destinations.activities[tunis_carthage_sidi_bou_said_guided_walk]; Stay22-wrapped in built page.",
+    "files": [
+      "content/editorial-overrides.json",
+      "docs/editorial-research/2026-11-13-tunis-carthage-sidi-bou-said-guided-walk.md",
+      "docs/editorial-progress.json"
+    ],
+    "images": 0,
+    "image_followup": "Six distinct licensed subjects: Antonine Baths coastal ruins at water's edge, Magon Quarter Punic house foundations and street layout, Sidi Bou Said blue-and-white alley with mashrabiya latticework, Sidi Chabaane café terrace view over Gulf of Tunis, TGM train at Tunis Marine station, Punic ports panorama from Byrsa hill. Licensed-reuse review only (Wikimedia Commons / official sources); no substitutes from attraction gallery.",
+    "booking_destination": "Exact GetYourGuide product t553079 'Tunis: Medina, Carthage & Sidi Bousaid Private Day Trip' (Didon Tours), 4.8/5 from 142 reviews (checked 2026-10-11 per attraction page). Registered as booking-destinations.activities[tunis_carthage_sidi_bou_said_guided_walk]; Stay22-wrapped in built page (campaign activities_tunis_carthage_sidi_bou_said_guided_walk). No rate/availability claims published.",
+    "key_facts_checked": "ONMT Discover Tunisia (Carthage founded by Phoenicians, Magon Quarter Punic houses, Punic ports, Sidi Bou Said blue-white village, mashrabiya latticework, Sidi Chabaane café, lighthouse, La Marsa/Gammarth beaches; checked 2026-11-13). AMVPPC Magon Quarter (5th c. BCE residential area, 2nd c. BCE redevelopment, houses up to 1,500 sq.m., underground cisterns, Punic mosaics, porticoed courtyards; checked 2026-11-13). TRANSTU FAQ (TGM stations Tunis Marine and La Marsa, TGM ticket fare category, winter 2026-2027 timetable exists; checked 2026-11-13). GetYourGuide t553079 (Didon Tours, private day trip through Tunis/Carthage/Sidi Bou Said, confirm exact museums/tickets; checked 2026-11-13). UK FCDO Tunisia entry requirements (visa-free up to 90 days, passport valid for stay, return/onward travel evidence; checked 2026-11-06 re-verified). Live Trek Africa Guide pages (attraction, Dar Said accommodation, Tunis first-night insight) — all checked 2026-11-13.",
+    "cms": "Production deploy imports at source_commit; publishable-key read of editorial_documents remains RLS-blocked by design — owner-side CMS check to confirm activities/tunis-carthage-sidi-bou-said-guided-walk after deploy.",
+    "next_category": "destinations",
+    "next_action": "Rotate to destinations next run; six-subject photo backlog tracked in the ledger; CMS owner-side check pending (standard).",
+    "status": "published_live_confirmed",
+    "content_commit": "7a805d4",
+    "publication": {
+      "content_commit": "7a805d4",
+      "pushed_to": "main",
+      "push_result": "success (ea54dff..7a805d4)",
+      "pushed_at": "2026-11-13",
+      "live_url": "https://trekafricaguide.com/activities/tunis-carthage-sidi-bou-said-guided-walk/",
+      "live_http_status": 200,
+      "checked_at": "2026-11-13",
+      "live_distinctive_text": "Tunis, Carthage and Sidi Bou Said guided walk | Trek Africa Guide",
+      "live_checks": {
+        "detail": "HTTP 200; title correct; full h2 flow (About this activity, Highlights, Best time to participate, Planning notes); distinctive copy renders (Antonine Baths, Magon Quarter, Punic mosaics, Sidi Bou Said mashrabiya, TGM railway, Sidi Chabaane café); honest zero-image state; no exposed markup.",
+        "booking": "Exact Stay22-wrapped GetYourGuide t553079 destination confirmed in production HTML (campaign activities_tunis_carthage_sidi_bou_said_guided_walk).",
+        "cards": "Nearby stays renders Dar Saïd (Sidi Bou Said). Attraction page now renders Related activities with the new guide.",
+        "archive_home": "Activities archive and homepage search list the guide.",
+        "internal_links": "All cross-link targets live HTTP 200 (attraction, Dar Said, Tunis first-night insight, Tunisia country page)."
+      },
+      "cms_source_commit": "imported at source_commit 7a805d4; publishable-key read of editorial_documents remains RLS-blocked by design — owner-side CMS check to confirm activities/tunis-carthage-sidi-bou-said-guided-walk"
+    }
+  },
+  "rotation": {
+    "last_completed_category": "activities",
+    "next_category": "destinations",
+    "next_deliverable": "Tunis, Carthage and Sidi Bou Said guided walk published 2026-11-13 (activities rotation); next: one evidenced destinations gap."
+  },
+  "next_category": "destinations"
 }
