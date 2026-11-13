@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-13T05:30:00Z",
+ "updated_at": "2026-11-13T13:23:15.699Z",
  "timezone": "Africa/Kampala",
  "next_scheduled_start": "2026-10-17T19:30:00+03:00",
  "cadence_hours": 3,
@@ -481,17 +481,18 @@
   "commit": "224da9d (content) + receipt commit"
  },
  "latest_run_checkpoint": {
-  "run": "scheduled-2h-2026-11-13T11:00Z",
-  "category_rotation": "travel_insights",
-  "deliverable": "travel_insight_plan_first_ghana_trip",
-  "inventory_note": "Travel-insights index (live HTTP 200, 13 Nov 2026) covered 14 countries with no dedicated Ghana planning story, while Ghana now has the site's densest West Africa cluster (Elmina destination, Cape Coast Kakum / Elmina Castle / Kwame Nkrumah Memorial Park attractions, three stay guides). New insight plan-first-ghana-trip-accra-and-the-castle-coast fills the gap and cross-links the whole cluster.",
-  "next_category": "accommodations",
-  "next_action": "Rotate to accommodations next run. Stay-guide backlog and country coverage checks per progress ledger.",
-  "live_receipt": "https://trekafricaguide.com/travel-insights/plan-first-ghana-trip-accra-and-the-castle-coast/ HTTP 200, 10 h2s, 6 distinct licensed photos all HTTP 200 image/jpeg, no markup leak.",
-  "commit": "5eaf7d1",
-  "push": "Pushed to main (612e380..5eaf7d1) — push worked, the earlier 403 read-only-token blocker did not reproduce.",
-  "cms": "Publishable-key reconcile 2026-11-13: travel_articles 200 (10 rows), local_destinations 404 (schema cache), editorial_documents 400 to anon (RLS); no writes attempted — owner-side CMS check to confirm travel_articles/plan-first-ghana-trip-accra-and-the-castle-coast imported.",
-  "email": "Owner progress email drafted and pending send (Gmail sign-in still pending on the work machine); draft stored below as owner_email_draft."
+  "run": "scheduled-2h-2026-11-13T13:00Z",
+  "category_rotation": "accommodations",
+  "deliverable": "accommodation_hotel_barmoi_freetown",
+  "inventory_note": "Whole-site inventory re-verified 13 Nov 2026: all 19 live destinations and 30 attraction pages carry at least one linked stay; Sierra Leone had exactly one stay site-wide, making a Freetown arrival-hub hotel the strongest evidenced accommodations gap.",
+  "next_category": "travel_insights",
+  "next_action": "Rotate to travel insights next run.",
+  "commit": "f05dfa1",
+  "push": "Pushed to main (7ed33c9..f05dfa1) after rebase over concurrent Lalibela commits.",
+  "corrective": "Jozani Forest attraction stale no-stay copy fixed (f05dfa1).",
+  "live_receipt": "https://trekafricaguide.com/accommodations/hotel-barmoi-freetown/ HTTP 200, 7 h2s, 6 distinct licensed photos all HTTP 200 image/jpeg, exact Stay22 Booking.com CTA, no markup leak. Corrective Jozani copy fix live-verified.",
+  "cms": "Publishable-key reconcile 2026-11-13: travel_articles 200, local_destinations 404 (schema cache), editorial_documents 401 to anon (RLS); no writes attempted.",
+  "email": "Owner progress email drafted and pending send (Gmail sign-in still pending on the work machine); draft stored below as owner_email_draft (seventh pending draft, one sign-in ships all)."
  },
  "activity_volcanoes_golden_monkey_trek": {
   "status": "complete",
@@ -1034,8 +1035,10 @@
  },
  "owner_email_draft": {
   "to": "fsddanmugisa@gmail.com",
-  "subject": "Trek editorial run 13 Nov: Ghana first-trip insight shipped and live",
-  "body": "Hi,\n\nToday's editorial run shipped a travel-insights deliverable: a new planning story, \"Plan a first Ghana trip: Accra arrival and the Cape Coast–Elmina castle circuit\".\n\nWhy this one: the live Travel Insights index covered 14 countries but had no dedicated Ghana planning story, while Ghana is now the site's densest West Africa cluster — the Ghana country guide, the Elmina destination, Cape Coast Kakum, Elmina Castle and Kwame Nkrumah Memorial Park attraction guides, and three stay guides. The new insight ties the cluster together with the decisions that actually shape a first trip: the visa timeline (10–15 days standard, express in-person), the yellow fever certificate and online health declaration, the first-night Accra base, and the paced castle circuit with Kakum on its own morning.\n\nLive receipt: https://trekafricaguide.com/travel-insights/plan-first-ghana-trip-accra-and-the-castle-coast/ — HTTP 200, 10-section decision flow, no markup leak. Commit 5eaf7d1 pushed to main (push worked this run; the earlier 403 blocker did not reproduce).\n\nPhotos: six distinct licensed photographs from Wikimedia Commons (CC0 and CC BY-SA 2.0–4.0), each with creator and licence credited in captions and registered in the photo-credits library — Independence Arch, Kwame Nkrumah Memorial Park, Jamestown Lighthouse, Cape Coast Castle, the Kakum canopy walkway and Elmina Castle. All six verified live.\n\nBlockers: owner Gmail is signed out on the work machine, so this progress email is stored as a draft pending one sign-in (alongside earlier drafts: Accra, Elmina, Sal, Tokeh, Maun); CMS editorial mirror reconcile still pending on the Supabase side — worth a quick owner-side check that the CMS imported source_commit 5eaf7d1.\n\nNext run rotates to accommodations.\n\n- OpenBot Trek editorial agent"
+  "subject": "Trek editorial run 13 Nov: Freetown stay guide shipped and live",
+  "body": "Hi,\n\nToday's editorial run shipped an accommodations deliverable: a new stay guide, \"Hotel Barmoi, Freetown\" (Aberdeen oceanfront, Cape Road).\n\nWhy this one: the live Sierra Leone country page listed exactly one stay for the whole country (The Place Resort at Tokeh), yet every Sierra Leone guide routes travelers through Freetown, the arrival hub across the harbour from Lungi airport. A city-side base was the strongest evidenced gap. The guide covers the oceanfront position about 400 m from Lumley Beach, room categories from Standard Double to the Penthouse Suite with sea views and balconies, pool, gym and restaurant, arrival transfer planning (Lungi is about 35 km), and check-in/payment practicalities.\n\nReceipts: the exact Booking.com detail page was verified in the browser and the Stay22-wrapped CTA tested to open the property page directly (not a search). Six distinct licensed Wikimedia Commons Freetown photos are in the gallery with on-site attribution (/photo-credits); the property's own photos stay out because they are operator-copyrighted, so six exact-property subjects are logged as the next photo backlog.\n\nLive receipt: https://trekafricaguide.com/accommodations/hotel-barmoi-freetown/ - HTTP 200, full site-standard section flow, no markup leak, all six photos HTTP 200. Commit f05dfa1 pushed to main after a rebase over the concurrent Lalibela commits.\n\nCorrective fix in the same run: the Jozani Forest attraction page still claimed \"no verified nearby property\" even though the Zanzibar White Sand stay card has rendered under it since 10 Nov; the stale sentence is now replaced and live-verified.\n\nBlockers: Gmail on the work machine is still signed out, so this is draft number seven pending one sign-in to send all of them. CMS mirror remains read-only from here (editorial_documents needs the Netlify-held service role); a quick owner-side check that accommodations/hotel-barmoi-freetown imported would confirm the mirror.\n\nNext rotation: travel insights.\n\n- Trek editorial agent\n",
+  "prepared_at": "2026-11-13T13:26:12.605Z",
+  "status": "pending_gmail_signin"
  },
  "local_destination_nairobi": {
   "id": "nairobi",
@@ -2342,5 +2345,53 @@
   "photos": "Six distinct licensed photographs downloaded into public/images/editorial/plan-first-ghana-trip/ and registered in both photo-library files: Independence Arch sunset (Kwameghana, CC0), Cape Coast Castle 2011 (Rjruiziii, CC BY-SA 3.0), Kakum canopy walkway 2022 (daSupremo, CC BY-SA 4.0), Elmina Castle 2023 (Matti Blume, CC BY-SA 4.0), Kwame Nkrumah Memorial Park 2008 (Erik B. Anderson, CC BY-SA 4.0), Jamestown Lighthouse 2017 (Gereon K., CC BY-SA 4.0). All six verified HTTP 200 image/jpeg live.",
   "quality_bar": "Rendered page checked against the insight-article layout of the site (hero cover, in-body figure cards with creator/licence captions, 10-h2 decision flow ending Confirm before you book / Three questions / Continue planning / Sources and scope). Built with the readability guard passing (176 pages).",
   "blockers": "Owner Gmail sign-in pending; CMS editorial mirror pending owner-side import check."
+ },
+ "accommodation_hotel_barmoi_freetown": {
+  "id": "hotel-barmoi-freetown",
+  "category": "accommodations",
+  "started": "2026-11-13",
+  "latest_run_note": "Scheduled 2h routine run; executed on schedule.",
+  "selection_evidence": "Live Sierra Leone country page (HTTP 200, 13 Nov 2026) lists exactly one stay for the whole country (The Place Resort, Tokeh); the 12 Nov Tokeh destination guide, Tokeh attraction guide and The Place Resort stay guide all route travelers through Freetown, and no Freetown accommodation guide exists anywhere on the site. Booking.com Freetown city page shows 71 Freetown properties; Hotel Barmoi is among the most-booked (8.4 Very good, 118 reviews).",
+  "scope": "New accommodation guide: Hotel Barmoi, 75C Cape Road, Aberdeen, Freetown (country_id 51, region_id 15, attraction_id 68 = tokeh-and-river-no2 cluster). Exact Booking.com detail product browser-verified and Stay22-wrapped (opens the exact property page, not search). Six distinct Wikimedia Commons contextual Freetown images with full metadata and /photo-credits attribution; six exact-property subjects logged as photo backlog. No live rates or availability claims.",
+  "files": [
+   "content/editorial-overrides.json",
+   "content/booking-destinations.json",
+   "src/lib/photo-library.js",
+   "public/photo-library.js",
+   "public/images/editorial/hotel-barmoi-freetown/* (6 files)",
+   "docs/editorial-research/2026-11-13-hotel-barmoi-freetown.md",
+   "docs/editorial-research/2026-11-13-hotel-barmoi-freetown-editorial.cjs",
+   "docs/editorial-research/2026-11-13-add-barmoi-photo-entries.mjs",
+   "docs/editorial-progress.json"
+  ],
+  "images": 6,
+  "image_note": "All six are contextual Wikimedia Commons images (operator property photography is copyrighted); attribution required and rendered on /photo-credits. Backlog subjects: hotel exterior on Cape Road, ocean-view room interior, suite with balcony, pool terrace, restaurant, Penthouse Suite patio.",
+  "booking_cta": "Exact Booking.com detail https://www.booking.com/hotel/sl/barmoi.en-gb.html browser-verified 13 Nov 2026; Stay22 wrap tested and confirmed to open the exact property page with campaign accommodations_hotel_barmoi_freetown. No rate, availability or review-count-as-guarantee claims; score quoted with a checked date.",
+  "key_facts_checked": "Official site hotelbarmoi.com (oceanfront Aberdeen, pool, gym, restaurant, shuttle, complimentary breakfast); Booking.com detail page (address, 8.4/118 reviews with sub-scores, room categories 25-60 m2, sea views, facilities, policies, Lumley Beach 400 m, Lungi airport 35 km); Booking.com Freetown city page. All checked 13 November 2026.",
+  "corrective_fix": {
+   "trigger": "Quality/accuracy: the live Jozani Forest attraction page still said \"No verified nearby property has yet been added to this attraction's stay list\" although its nearby-stays rail has rendered Zanzibar White Sand Luxury Villas & Spa since commit 9bed0ff (contradiction confirmed on the live page 13 Nov 2026).",
+   "fix": "Replaced the stale sentence in the attraction record with accurate copy; local dist verified: stale copy gone, stay card present."
+  },
+  "next_category": "travel_insights",
+  "next_action": "Rotate to travel insights next run; Barmoi photo backlog and CMS owner-side checks tracked in the ledger.",
+  "status": "published_live_confirmed",
+  "publication": {
+   "content_commit": "f05dfa1",
+   "pushed_to": "main",
+   "push_result": "success (rebased over concurrent Lalibela commits 7ed33c9; pushed as f05dfa1)",
+   "pushed_at": "2026-11-13",
+   "live_url": "https://trekafricaguide.com/accommodations/hotel-barmoi-freetown/",
+   "live_http_status": 200,
+   "checked_at": "2026-11-13",
+   "live_checks": {
+    "detail": "HTTP 200 (39,128 B); title \"Hotel Barmoi, Freetown | Trek Africa Guide\"; full site-standard h2 flow (Why stay here and how to plan your stay, Key amenities, Stay style and budget, What travelers say, Booking option, Other Nearby Accommodations, Nearby Attractions); no exposed markup.",
+    "booking": "Exact Stay22-wrapped Booking.com detail CTA with campaign accommodations_hotel_barmoi_freetown; wrapped URL browser-verified 13 Nov 2026 to open the exact property page.",
+    "cards": "Sierra Leone country page, tokeh-and-river-no2 attraction rail, accommodations archive and homepage search all list the guide (verified live).",
+    "cross_links": "Nearby Attractions renders the Tokeh and River Number Two card; Other Nearby Accommodations renders The Place Resort card.",
+    "images": "All six gallery JPEGs HTTP 200 image/jpeg; attribution rendered site-wide on /photo-credits.",
+    "corrective": "Jozani Forest attraction live page: stale \"No verified nearby property\" sentence gone; Zanzibar White Sand stay card present."
+   }
+  },
+  "cms": "Publishable-key reconcile 2026-11-13: travel_articles 200 (rows present), local_destinations 404 (schema cache), editorial_documents 401 to anon (RLS by design); no writes attempted - owner-side CMS check to confirm accommodations/hotel-barmoi-freetown imported."
  }
 }
