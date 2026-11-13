@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13 14:22 Africa/Kampala",
+  "updated_at": "2026-11-13 16:18 Africa/Kampala",
   "blocked_runs": [
     {
       "id": "network-outage-no-research-2026-11-09-1807",
@@ -48,6 +48,27 @@
     "resolved_at": "2026-10-21 13:16 Africa/Kampala"
   },
   "completed_runs": [
+    {
+      "id": "lalibela-photo-and-food-context-2026-11-13-1307z",
+      "page_url": "https://trekafricaguide.com/countries/ethiopia/lalibela/",
+      "page_type": "destination",
+      "status": "published_live_confirmed",
+      "started_at": "2026-11-13 13:07 UTC",
+      "confirmed_at": "2026-11-13 16:18 Africa/Kampala",
+      "previous_photo_count": 3,
+      "photo_count": 5,
+      "new_photo_count": 2,
+      "source_ledger": "docs/editorial-research/2026-11-13-lalibela-image-enrichment-1307.md",
+      "selected_images": ["lalibela-church-worshipper-pexels-12344920.jpg", "ethiopian-injera-meal-context.png"],
+      "published_commit": "628930831dcdd76fd36e7fc1931dd100456d4deb",
+      "netlify_deploy": "6af70dbd6724cdc46ad6d83d",
+      "live_verification": "Production detail HTTP 200; See all 5 images; both filenames rendered; JPEG and PNG returned HTTP 200 with correct image content types.",
+      "mandatory_input_check": "Passed sync-photo-library and check:build-inputs; no test suite run.",
+      "missing_subjects": ["Biete Mariam interior", "Lasta Tukuls", "Timkat pilgrims", "church trench system", "Biete Amanuel detail"],
+      "report_status": "SENT to fsddanmugisa@gmail.com after live confirmation",
+      "email_id": "1a1d5101543ed893",
+      "next_action": "Rotate to another low-image page; continue Lalibela toward 10-17 distinct images and replace its credited panorama only after a no-credit alternative is found."
+    },
     {
       "id": "generated-image-rotation-blocked-deploy-2026-11-13-1207",
       "page_url": "https://trekafricaguide.com/countries/ethiopia/lalibela/",
