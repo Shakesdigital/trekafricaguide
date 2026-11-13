@@ -420,8 +420,11 @@
         "method": "Server-side verifier only; production click-throughs not re-attempted as no links were fixed this run",
         "summary": "Three newly held entries correctly suppress Stay22 booking anchors on their production pages"
       },
-      "content_commits": [],
-      "production_deploy": "pending Netlify auto-deploy"
+      "content_commits": [
+        "2deff79"
+      ],
+      "production_deploy": "BLOCKED: push rejected (non-fast-forward). origin/main has new commits (5b312c6, e7a5e2e) from other agents. Local commit 2deff79 on 87d12eb cannot fast-forward. Unstaged dist/ build files prevent rebase per protocol. Push blocker reported; deployment halted.
+"
     }
   ],
   "method_rule": "Booking.com searchresults.html with dest_type=hotel is NOT proof of an exact detail landing. Browser content wins over server URL shape; never count bot-walled bodies as verified full-detail pages. All providers require exact detail landings."
