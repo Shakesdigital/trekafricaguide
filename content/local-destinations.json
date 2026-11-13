@@ -1246,5 +1246,77 @@
         "checked_at": "2026-11-12"
       }
     ]
+  },
+  {
+    "slug": "lalibela",
+    "country_slug": "ethiopia",
+    "name": "Lalibela",
+    "category": "Heritage town",
+    "hero_title": "Lalibela: Ethiopia's rock-hewn churches and the pilgrimage landscape",
+    "listing_summary": "Understand the sacred landscape of Lalibela's 11 medieval churches, the living pilgrimage tradition, and the current travel advisory that puts Amhara region access under formal do-not-travel guidance.",
+    "overview": "Lalibela is a high place of Ethiopian Christianity in the Amhara region, where 11 medieval monolithic churches were hewn from living rock in the 12th and 13th centuries. UNESCO inscribed the site in 1978 for its unique artistic achievement, its role as a substitute Jerusalem, and its testimony to medieval Ethiopian civilization. The churches remain active places of worship and pilgrimage, not simply historic monuments.\n\nThis guide exists for cultural understanding and future heritage planning. As of 13 November 2026, both Australia's Smartraveller and the UK FCDO advise against all travel to the Amhara region, where Lalibela is located. The security situation includes risks of terrorist attacks, kidnapping, civil unrest and armed conflict. Consular assistance in do-not-travel areas is extremely limited. A provider's willingness to accept a reservation does not establish that the route is appropriate, that transport will remain available, or that assistance can be obtained if conditions change.\n\nWhen conditions allow a responsible visit, the site warrants patient interpretation: the two main church groups north and south of the seasonal river Jordan, the isolated Biete Ghiorgis (House of St. George) connected by trenches, the extensive system of drainage ditches and ceremonial passages, and the neighbouring village of Lasta Tukuls with its distinctive two-storey circular houses. Local interpretation helps explain the relationship between the church groups, their spaces and worship. Ask about footwear, clothing, photography and services before visiting. Do not treat a ceremony as entertainment or assume access is unrestricted.",
+    "highlights": [
+      "11 medieval monolithic churches hewn from rock — UNESCO World Heritage since 1978",
+      "A living pilgrimage site for Ethiopian Orthodox Christians since the 12th century",
+      "Two main church groups north and south of the river Jordan, plus isolated Biete Ghiorgis",
+      "Lasta Tukuls: traditional two-storey circular village houses of local red stone",
+      "Current formal do-not-travel advisory for Amhara region (Smartraveller, FCDO)"
+    ],
+    "access_summary": "Do not rely on historical flight schedules or road itineraries. Lalibela Airport (LLI) has been served by domestic flights from Addis Ababa, but services can be suspended or cancelled at short notice due to the security situation. Check the current regional advisory before making any arrangements, then verify any essential travel directly with the airline and qualified local providers. The availability of a bookable flight or hotel is not evidence that leisure travel is advisable.\n\nRoad access from Addis Ababa (approximately 645 km) passes through areas with varying advisory levels; do not assume a mapped route is currently passable. Confirm current official regional advice and do not assume that an older visitor account establishes present access to a remote area.",
+    "best_time": "Seasonal sightseeing preferences are secondary to the current security situation. Reassess the advisory and practical access before considering a travel month. Religious observances — particularly the great feasts of the Ethiopian Christian calendar such as Timkat (Epiphany, January) and Meskel (Finding of the True Cross, September) — may change access and crowding, but dates and arrangements should only be investigated within a decision that it is appropriate to travel.",
+    "planning_tips": "Avoid nonrefundable leisure arrangements while the relevant official advice remains against travel. If planning for a future period, discuss walking surfaces, steps, religious etiquette and the time needed for each church group. Treat nearby accommodation information as reference material until both the property and regional access have been rechecked.\n\nVerify current entry requirements through official channels. Ethiopia requires a visa (online application). Yellow fever vaccination is required. Check insurance terms against the current advisory — many policies exclude or limit coverage for do-not-travel areas. Ensure any travel insurance covers medical evacuation, which may be the only option for serious illness or injury in remote areas.\n\nAt rock-art and archaeological sites, follow authorized access and photography rules and avoid touching or altering surfaces. Do not book remote travel solely on the basis of a low package price.",
+    "attraction_slugs": [
+      "lalibela"
+    ],
+    "activity_slugs": [],
+    "accommodation_slugs": [
+      "maribela-hotel"
+    ],
+    "travel_insight_slugs": [],
+    "sort_order": 20,
+    "status": "published",
+    "hero_image_url": "/images/editorial/lalibela-local-destination/bete-ghiorgis-2018.jpg",
+    "hero_image_alt": "Archival 2018 view of Biete Ghiorgis, the cross-shaped rock-hewn Church of St. George at Lalibela; not current access information",
+    "gallery": [
+      "/images/editorial/lalibela-local-destination/bete-ghiorgis-2018.jpg",
+      "/images/editorial/lalibela-local-destination/bete-mariam-interior-2015.jpg",
+      "/images/editorial/lalibela-local-destination/lasta-tukuls-village.jpg",
+      "/images/editorial/lalibela-local-destination/pilgrims-timkat-2019.jpg",
+      "/images/editorial/lalibela-local-destination/church-trench-system.jpg",
+      "/images/editorial/lalibela-local-destination/bete-amanuel-detail.jpg"
+    ],
+    "last_researched": "2026-11-13",
+    "research_sources": [
+      {
+        "label": "UNESCO World Heritage Centre: Rock-Hewn Churches, Lalibela (ID 18) — inscription 1978, criteria (i)(ii)(iii), 11 monolithic churches, two groups north/south of river Jordan, Biete Ghiorgis isolated, Lasta Tukuls village, pilgrimage since 12th century, conservation concerns (water damage, structural risks, shelter impacts); checked 13 November 2026",
+        "url": "https://whc.unesco.org/en/list/18",
+        "checked_at": "2026-11-13"
+      },
+      {
+        "label": "Smartraveller (Australia): Ethiopia travel advice — Overall 'Reconsider your need to travel'; Do not travel to Amhara Regional State (where Lalibela is located) due to security situation including terrorist attacks, kidnapping, civil unrest, armed conflict; consular assistance extremely limited in do-not-travel areas; updated 1 Oct 2026, still current 13 Nov 2026; checked 13 November 2026",
+        "url": "https://www.smartraveller.gov.au/destinations/africa/ethiopia",
+        "checked_at": "2026-11-13"
+      },
+      {
+        "label": "UK FCDO: Ethiopia foreign travel advice — Advises against all travel to Amhara region (where Lalibela is located); ongoing fighting in northern Ethiopia, flights suspended/cancelled at short notice; updated 30 Oct 2026, still current 13 Nov 2026; checked 13 November 2026",
+        "url": "https://www.gov.uk/foreign-travel-advice/ethiopia",
+        "checked_at": "2026-11-13"
+      },
+      {
+        "label": "Live Trek Africa Guide: Ethiopia country page — HTTP 200, frames Lalibela as heritage interest separated from travel decision, carries Smartraveller do-not-travel advisory for Amhara; checked 13 November 2026",
+        "url": "https://trekafricaguide.com/countries/ethiopia/",
+        "checked_at": "2026-11-13"
+      },
+      {
+        "label": "Live Trek Africa Guide: Lalibela attraction page — HTTP 200, 6 images, cultural context and planning considerations, not a recommendation to visit under present conditions; honest no-booking-link state; checked 13 November 2026",
+        "url": "https://trekafricaguide.com/attractions/lalibela/",
+        "checked_at": "2026-11-13"
+      },
+      {
+        "label": "Live Trek Africa Guide: Maribela Hotel stay guide — HTTP 200, retained for reference with explicit 'current Amhara advice is do not travel' framing; checked 13 November 2026",
+        "url": "https://trekafricaguide.com/accommodations/maribela-hotel/",
+        "checked_at": "2026-11-13"
+      }
+    ]
   }
 ]
