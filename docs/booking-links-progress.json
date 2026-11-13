@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T01:30:00.000Z",
+  "updated_at": "2026-11-13T05:35:00.000Z",
   "owner": "booking-links audit agent",
   "ledger": "docs/editorial-research/2026-11-08-booking-links-audit.md",
   "run_1": {
@@ -77,7 +77,12 @@
     "accommodations/jollyboys-backpackers": "12 November 2026 (Kampala), midnight routine: production Stay22 click opens a multi-property search instead of the exact full property listing. Suppress booking option until a stable wrapped exact detail source is verified.",
     "accommodations/ol-tukai-lodge-amboseli": "12 November 2026 (Kampala), midnight routine: production Stay22 click opens a multi-property search instead of the exact full property listing. Suppress booking option until a stable wrapped exact detail source is verified.",
     "accommodations/victoria-falls-hotel": "12 November 2026 midnight routine: wrapped browser landings alternate between property detail and multi-property search; publication click-through did not establish a stable exact listing. Held until a reliable exact-detail source is verified.",
-    "accommodations/kruger-shalati": "12 November 2026 midnight routine: wrapped browser landings alternate between property detail and multi-property search; publication click-through did not establish a stable exact listing. Held until a reliable exact-detail source is verified."
+    "accommodations/kruger-shalati": "12 November 2026 midnight routine: wrapped browser landings alternate between property detail and multi-property search; publication click-through did not establish a stable exact listing. Held until a reliable exact-detail source is verified.",
+    "accommodations/kibale-forest-camp": "13 November 2026 scheduled 4-hour audit: Stay22 wrapper redirects locale-free source to multi-property Booking.com searchresults.html (dest_id=3678955). Prior exact-detail observations unstable; suppress until a reliable wrapped full-detail listing is verified.",
+    "accommodations/emerson-spice": "13 November 2026 scheduled 4-hour audit: Stay22 wrapper redirects .en-gb source to multi-property Booking.com searchresults.html (dest_id=12566246). Prior exact-detail observations unstable; suppress until a reliable wrapped full-detail listing is verified.",
+    "accommodations/serengeti-serena-safari-lodge": "13 November 2026 scheduled 4-hour audit: Stay22 wrapper redirects .en-gb source to multi-property Booking.com searchresults.html (dest_id=2357218). Suppress until a reliable wrapped full-detail listing is verified.",
+    "accommodations/sossusvlei-lodge": "13 November 2026 scheduled 4-hour audit: Stay22 wrapper redirects .en-gb source to multi-property Booking.com searchresults.html (dest_id=316567). Suppress until a reliable wrapped full-detail listing is verified.",
+    "accommodations/desert-quiver-camp": "13 November 2026 scheduled 4-hour audit: Stay22 wrapper redirects locale-free source to multi-property Booking.com searchresults.html (dest_id=1582394). Prior exact-detail observations unstable; suppress until a reliable wrapped full-detail listing is verified."
   },
   "production_verification": {
     "deploy_with_run_1": {
@@ -341,6 +346,32 @@
         "mount_nelson": "Booking.com /hotel/za/belmond-mount-nelson.html exact detail confirmed: property name Mount Nelson A Belmond Hotel, 76 Orange Street Gardens Cape Town address, 184 reviews, room types, facilities, 7 restaurants rendered.",
         "les_paletuviers": "Booking.com /hotel/sn/les-pala-c-tuviers.en-gb.html exact detail confirmed: property name Les Palétuviers, Sine Saloum Toubakouta address, 149 reviews, room types (Bungalow, Family Room, Suite, Villa), facilities rendered."
       },
+      "content_commits": [],
+      "production_deploy": "no changes to deploy"
+    },
+    {
+      "date": "2026-11-13",
+      "scheduled_for": "2026-11-13T05:22:00Z",
+      "checked": 46,
+      "pass": 46,
+      "fail": 0,
+      "fixed": 0,
+      "added": 0,
+      "new_holds": 0,
+      "notes": "Scheduled 4-hour audit rotating slice. Verified all 5 active accommodations' OTA source URLs are exact property detail pages: hilton-cabo-verde-sal-resort (Booking.com /hotel/cv/hilton-cabo-verde-sal-resort.html — full detail with 954 reviews, rooms, facilities), dar-said (Booking.com /hotel/tn/dar-said.en-gb.html), ridge-royal-hotel (Booking.com /hotel/gh/ridge-royal-cape-coast.en-gb.html), the-place-resort-tokeh (Agoda /en-ie/the-place-resort-at-tokeh-beach-h88167521/hotel/toke-sl.html — exact property detail), amboseli-serena-safari-lodge (Booking.com /hotel/ke/amboseli-serena-safari-lodge.en-gb.html). 41 GYG activity/attraction entries remain exact at t-product IDs (URL-only evidence, HTTP403). Production verification of 7 held accommodation pages (Casa del Papa, Mount Nelson, Les Paletuviers, Victoria Falls, Kruger Shalati, Red Chilli, Fairway) confirmed all correctly suppress Stay22 booking anchors — each shows 'A verified booking link for this specific listing is not yet available.' No registry changes, no rebuild, no deploy. Registry state unchanged: 46 active (5 accommodations, 20 activities, 21 attractions), 23 held (21 accommodations, 1 activity, 1 attraction), 10 unavailable.",
+      "production_verification": {
+        "checked_at": "2026-11-13T05:30:00.000Z",
+        "method": "Browser inspection of live Trek Africa Guide accommodation pages",
+        "casa_del_papa": "HTTP200; booking section shows 'A verified booking link for this specific listing is not yet available.' — hold correctly enforced",
+        "mount_nelson_a_belmond_hotel": "HTTP200; booking section shows 'A verified booking link for this specific listing is not yet available.' — hold correctly enforced",
+        "les_paletuviers": "HTTP200; booking section shows 'A verified booking link for this specific listing is not yet available.' — hold correctly enforced",
+        "victoria_falls_hotel": "HTTP200; booking section shows 'A verified booking link for this specific listing is not yet available.' — hold correctly enforced",
+        "kruger_shalati": "HTTP200; booking section shows 'A verified booking link for this specific listing is not yet available.' — hold correctly enforced",
+        "red_chilli_rest_camp": "HTTP200; booking section shows 'A verified booking link for this specific listing is not yet available.' — hold correctly enforced",
+        "fairway_boutique_hotel": "HTTP200; booking section shows 'A verified booking link for this specific listing is not yet available.' — hold correctly enforced",
+        "hilton_cabo_verde_sal_resort": "Active accommodation; OTA source URL confirmed exact detail page at Booking.com (954 reviews, full property sections)"
+      },
+      "limits": "OTA exact detail pages verified at source for active accommodations; production Stay22 wrapper instability persists for held entries. No rates, availability, review aggregates, checkout or attribution verified. Unrelated files and deploy archives preserved.",
       "content_commits": [],
       "production_deploy": "no changes to deploy"
     }
