@@ -7,6 +7,7 @@ import ListingCard from '../../components/ListingCard.astro';
 import CardCarousel from '../../components/CardCarousel.astro';
 import DestinationTabs from '../../components/DestinationTabs.astro';
 import { getSiteModel } from '../../lib/site-model.mjs';
+import { pickHero } from '../../lib/images.mjs';
 const model = await getSiteModel();
 ---
 <SiteLayout model={model} title="Destinations">
@@ -18,7 +19,7 @@ const model = await getSiteModel();
       <div class="listing-grid">
         {model.countries.map((country) => (
           <article class="listing-card" data-directory-item data-region={country.region.slug} data-search={[country.name, country.hero_title, country.hero_text, country.overview, country.region.name].filter(Boolean).join(" ")}>
-            <a class="listing-card__image" href={`/countries/${country.slug}`}><ImageSlot class="listing-card__slot" src={country.hero_image_url} alt={country.hero_image_alt || country.name} /></a>
+            <a class="listing-card__image" href={`/countries/${country.slug}`}><ImageSlot class="listing-card__slot" src={pickHero(country)} alt={country.hero_image_alt || country.name} /></a>
             <div class="listing-card__body">
               <p class="listing-card__eyebrow">{country.name} · {country.region.name}</p>
               <h3><a href={`/countries/${country.slug}`}>{country.hero_title || country.name}</a></h3>

@@ -91,8 +91,8 @@ export function resolveImage(image) {
 /**
  * Pick the hero image for a listing following the priority:
  *   1. hero_image_url
- *   2. image-slot:KEY resolution
- *   3. first gallery image
+ *   2. first gallery image already used by the article
+ *   3. image-slot:KEY resolution
  *   4. null (no fallback)
  * @param {Object|null} listing
  * @returns {string|null}
@@ -100,8 +100,9 @@ export function resolveImage(image) {
 export function pickHero(listing) {
   if (!listing) return null;
   if (listing.hero_image_url) return listing.hero_image_url;
+  const gallery = normalizeList(listing.gallery);
+  if (gallery.length) return gallery[0];
   if (listing.image_slot) return resolveImage(listing.image_slot);
-  if (listing.gallery && listing.gallery.length) return listing.gallery[0];
   return null;
 }
 
