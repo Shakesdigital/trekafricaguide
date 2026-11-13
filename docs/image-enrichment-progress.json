@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T23:10:31.837Z",
+  "updated_at": "2026-11-13T23:13:05.806Z",
   "blocked_runs": [
     {
       "id": "network-outage-no-research-2026-11-09-1807",
@@ -4568,15 +4568,25 @@
     "id": "sal-island-circuit-people-free-2026-11-14",
     "page_url": "https://trekafricaguide.com/activities/sal-island-circuit-excursion/",
     "page_type": "activity",
-    "status": "pending_deployment",
+    "status": "published_live_confirmed",
     "previous_photo_count": 2,
     "photo_count": 3,
     "new_photo_count": 2,
     "removed_gallery_count": 1,
     "source_ledger": "docs/editorial-research/2026-11-14-sal-island-circuit-photo-enrichment.md",
     "mandatory_input_check": "Passed sync-photo-library and check:build-inputs.",
-    "report_status": "NOT SENT: awaiting live confirmation.",
-    "next_action": "Rotate to another low-image category next run; continue Sal circuit toward 10–17 distinct views later."
+    "report_status": "SENT to fsddanmugisa@gmail.com after live confirmation; Gmail message 1a1d72f6b02751ae.",
+    "next_action": "Rotate to another low-image category next run; continue Sal circuit toward 10–17 distinct views later.",
+    "published_commit": "ba8260d",
+    "email_id": "1a1d72f6b02751ae",
+    "live_verification": {
+      "checked_at": "2026-11-13T23:13:05.809Z",
+      "page_http_status": 200,
+      "gallery_text": "See all 3 images",
+      "photo_http_status": 200,
+      "generated_asset_http_status": 200,
+      "old_people_image_in_gallery": false
+    }
   },
   "latest_review": {
     "id": "casa-del-papa-exact-property-no-eligible-photo-review",
