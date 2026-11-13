@@ -4,10 +4,13 @@
       "url": "https://www.booking.com/hotel/ug/kibale-forest-camp-kyenjojo.html",
       "provider": "booking",
       "title": "Kibale Forest Camp by NATURE LODGES LTD",
-      "checked_at": "2026-11-12",
+      "checked_at": "2026-11-13",
+      "status": "hold",
+      "hold_reason": "13 November 2026 scheduled 4-hour audit: Stay22 wrapper redirects locale-free source to multi-property Booking.com searchresults.html (dest_id=3678955). Prior exact-detail observations unstable; suppress until a reliable wrapped full-detail listing is verified.",
       "evidence": {
         "source_url": "https://www.booking.com/hotel/ug/kibale-forest-camp-kyenjojo.html",
-        "summary": "12 November 2026 (Kampala), scheduled routine: browser search for 'Kibale Forest Camp Uganda' returned the exact property detail page at /hotel/ug/kibale-forest-camp-kyenjojo.html (locale-free), identifying Kibale Forest Camp by NATURE LODGES LTD in Kyenjojo, Uganda. Switched from .en-gb variant which redirected to search. Direct detail content bot-walled; no OTA rating, review count, rates, availability or attribution claims made."
+        "summary": "12 November 2026 (Kampala), scheduled routine: browser search for 'Kibale Forest Camp Uganda' returned the exact property detail page at /hotel/ug/kibale-forest-camp-kyenjojo.html (locale-free), identifying Kibale Forest Camp by NATURE LODGES LTD in Kyenjojo, Uganda. Switched from .en-gb variant which redirected to search. Direct detail content bot-walled; no OTA rating, review count, rates, availability or attribution claims made.",
+        "verification_2026-11-13": "Stay22 redirect chain lands on searchresults.html with dest_id=3678955, dest_type=hotel; correct property appears in results but not exact detail page."
       }
     },
     "casa-del-papa": {
@@ -37,10 +40,13 @@
       "url": "https://www.booking.com/hotel/tz/emersonspice.en-gb.html",
       "provider": "booking",
       "title": "Emerson Spice, Zanzibar City (Stone Town)",
-      "checked_at": "2026-11-08",
+      "checked_at": "2026-11-13",
+      "status": "hold",
+      "hold_reason": "13 November 2026 scheduled 4-hour audit: Stay22 wrapper redirects .en-gb source to multi-property Booking.com searchresults.html (dest_id=12566246). Prior exact-detail observations unstable; suppress until a reliable wrapped full-detail listing is verified.",
       "evidence": {
         "source_url": "https://www.booking.com/hotel/tz/emersonspice.en-gb.html",
-        "summary": "8 November 2026: the Expedia property-detail URL (property ID 31570310, rooms Belle, Violetta and Mimi) demoted in real-browser click-throughs through the Stay22 wrapper to an Expedia Hotel-Search page for Kiponda/Zanzibar rather than the property page; server-side retries alternated between the property page and rate-limited search fallbacks, so the Expedia entry could not be trusted. Switched to the exact Booking.com property listing identified by search-engine retrieval as 'Emerson Spice, Zanzibar City' (Stone Town Beach about 300 m); the Stay22 wrapper preserves the /hotel/tz/emersonspice.html detail path, matching the verified pattern of the other Booking.com entries. Do not confuse with Emerson on Hurumzi, a different property. Direct Booking.com detail content is bot-walled to automated retrieval; no rate, availability, rating or review claims made."
+        "summary": "8 November 2026: the Expedia property-detail URL (property ID 31570310, rooms Belle, Violetta and Mimi) demoted in real-browser click-throughs through the Stay22 wrapper to an Expedia Hotel-Search page for Kiponda/Zanzibar rather than the property page; server-side retries alternated between the property page and rate-limited search fallbacks, so the Expedia entry could not be trusted. Switched to the exact Booking.com property listing identified by search-engine retrieval as 'Emerson Spice, Zanzibar City' (Stone Town Beach about 300 m); the Stay22 wrapper preserves the /hotel/tz/emersonspice.html detail path, matching the verified pattern of the other Booking.com entries. Do not confuse with Emerson on Hurumzi, a different property. Direct Booking.com detail content is bot-walled to automated retrieval; no rate, availability, rating or review claims made.",
+        "verification_2026-11-13": "Stay22 redirect chain lands on searchresults.html with dest_id=12566246, dest_type=hotel; correct property appears in results but not exact detail page."
       }
     },
     "hilton-cabo-verde-sal-resort": {
@@ -156,20 +162,26 @@
       "url": "https://www.booking.com/hotel/tz/serengeti-serena-safari-lodge.en-gb.html",
       "provider": "booking",
       "title": "Serengeti Serena Safari Lodge",
-      "checked_at": "2026-10-11",
+      "checked_at": "2026-11-13",
+      "status": "hold",
+      "hold_reason": "13 November 2026 scheduled 4-hour audit: Stay22 wrapper redirects .en-gb source to multi-property Booking.com searchresults.html (dest_id=2357218). Suppress until a reliable wrapped full-detail listing is verified.",
       "evidence": {
         "source_url": "https://www.booking.com/hotel/tz/serengeti-serena-safari-lodge.en-gb.html",
-        "summary": "Primary property detail identifies Serengeti National Park, Tanzania."
+        "summary": "Primary property detail identifies Serengeti National Park, Tanzania.",
+        "verification_2026-11-13": "Stay22 redirect chain lands on searchresults.html with dest_id=2357218, dest_type=hotel; correct property appears in results but not exact detail page."
       }
     },
     "sossusvlei-lodge": {
       "url": "https://www.booking.com/hotel/na/sossusvlei-lodge.en-gb.html",
       "provider": "booking",
       "title": "Sossusvlei Lodge",
-      "checked_at": "2026-10-11",
+      "checked_at": "2026-11-13",
+      "status": "hold",
+      "hold_reason": "13 November 2026 scheduled 4-hour audit: Stay22 wrapper redirects .en-gb source to multi-property Booking.com searchresults.html (dest_id=316567). Suppress until a reliable wrapped full-detail listing is verified.",
       "evidence": {
         "source_url": "https://www.booking.com/hotel/na/sossusvlei-lodge.en-gb.html",
-        "summary": "Primary detail identifies Farm on D826, Sesriem, Namibia."
+        "summary": "Primary detail identifies Farm on D826, Sesriem, Namibia.",
+        "verification_2026-11-13": "Stay22 redirect chain lands on searchresults.html with dest_id=316567, dest_type=hotel; correct property appears in results but not exact detail page."
       }
     },
     "the-place-resort-tokeh": {
@@ -240,10 +252,13 @@
       "url": "https://www.booking.com/hotel/na/desert-quiver-camp.html",
       "provider": "booking",
       "title": "Desert Quiver Camp",
-      "checked_at": "2026-11-12",
+      "checked_at": "2026-11-13",
+      "status": "hold",
+      "hold_reason": "13 November 2026 scheduled 4-hour audit: Stay22 wrapper redirects locale-free source to multi-property Booking.com searchresults.html (dest_id=1582394). Prior exact-detail observations unstable; suppress until a reliable wrapped full-detail listing is verified.",
       "evidence": {
         "source_url": "https://www.booking.com/hotel/na/desert-quiver-camp.html",
-        "summary": "12 November 2026 (Kampala), scheduled routine: browser search for 'Desert Quiver Camp Namibia' returned the exact property detail page at /hotel/na/desert-quiver-camp.html (locale-free), identifying Desert Quiver Camp at Farm On D826/C27, Sesriem, Namibia. Switched from .en-gb variant which redirected to search. Direct detail content bot-walled; no OTA rating, review count, rates, availability or affiliate attribution verified."
+        "summary": "12 November 2026 (Kampala), scheduled routine: browser search for 'Desert Quiver Camp Namibia' returned the exact property detail page at /hotel/na/desert-quiver-camp.html (locale-free), identifying Desert Quiver Camp at Farm On D826/C27, Sesriem, Namibia. Switched from .en-gb variant which redirected to search. Direct detail content bot-walled; no OTA rating, review count, rates, availability or affiliate attribution verified.",
+        "verification_2026-11-13": "Stay22 redirect chain lands on searchresults.html with dest_id=1582394, dest_type=hotel; correct property appears in results but not exact detail page."
       }
     },
     "amboseli-serena-safari-lodge": {
