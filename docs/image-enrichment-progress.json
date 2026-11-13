@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-14 00:00 Africa/Kampala",
+  "updated_at": "2026-11-13T21:17:16.714Z",
   "blocked_runs": [
     {
       "id": "network-outage-no-research-2026-11-09-1807",
@@ -52,7 +52,7 @@
       "id": "ouidah-ganvie-place-context-2026-11-13-2107z",
       "page_url": "https://trekafricaguide.com/attractions/ouidah-and-ganvie/",
       "page_type": "attraction",
-      "status": "pending_deployment",
+      "status": "published_live_confirmed",
       "started_at": "2026-11-13 21:07 UTC",
       "previous_photo_count": 2,
       "photo_count": 3,
@@ -68,8 +68,13 @@
         "sacred forest",
         "Ganvié open-water setting"
       ],
-      "report_status": "NOT SENT: awaiting live confirmation",
-      "next_action": "Rotate to another zero-to-two-image detail page; continue Ouidah and Ganvié toward 10–17 distinct images."
+      "report_status": "SENT to fsddanmugisa@gmail.com after live confirmation",
+      "next_action": "Rotate to another zero-to-two-image detail page; continue Ouidah and Ganvié toward 10–17 distinct images.",
+      "published_commit": "eae1f814852380a707bc64b93c865daa18edbfe2",
+      "netlify_deploy": "6af77dbfeb96c53bc9a10af7",
+      "live_verification": "Production detail HTTP 200, See all 3 images, new asset path rendered; PNG asset HTTP 200 image/png, 2,524,568 bytes.",
+      "email_id": "1a1d6c55819090f5",
+      "report_sent_at": "2026-11-13T21:17:16.686Z"
     },
     {
       "id": "sal-island-circuit-photo-and-context-2026-11-13-1707z",
