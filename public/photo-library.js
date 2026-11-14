@@ -3,6 +3,17 @@
 export const photoLibrary = {
   "updated_at": "2026-11-13",
   "images": {
+    "/images/editorial/lalibela-local-destination/st-george-view-aldo-bordoni.jpg": {
+      "kind": "photograph", "slug": "st-george-view-aldo-bordoni", "local_path": "/images/editorial/lalibela-local-destination/st-george-view-aldo-bordoni.jpg",
+      "source_page": "https://www.pexels.com/pt-br/foto/iconica-igreja-escavada-na-rocha-de-lalibela-etiopia-39129271/", "creator": "Aldo Bordoni", "license": "Pexels License", "license_url": "https://www.pexels.com/license/", "captured_at": "2020-01-24", "checked_at": "2026-11-14",
+      "sha256": "7c07616cf4fded1758696bf8f90b754883694cab9f0dbbef8d6fbddef6b43f99", "exact_subject": true, "subject": "Biete Ghiorgis, Lalibela, Ethiopia", "alt": "Rock-hewn walls and entrance of Biete Ghiorgis church in Lalibela", "property": false, "requires_attribution": false,
+      "changes": "Pexels-hosted JPEG resized to 1600 pixels wide by Pexels image server; no local edits.", "exact_subject_evidence": "Pexels page identifies St George's Church, Lalibela; image shows the cross-shaped church facade."
+    },
+    "/images/editorial/lalibela-local-destination/highland-path-context.png": {
+      "kind": "generated", "slug": "highland-path-context", "local_path": "/images/editorial/lalibela-local-destination/highland-path-context.png",
+      "subject": "Representative northern Ethiopian highland path", "alt": "Stone path crossing dry hills with sparse trees", "creator": "ChatGPT for Trek Africa Guide", "date": "2026-11-14", "source_page": "/photo-credits", "license": "", "license_url": "", "property": false, "exact_subject": false,
+      "sha256": "7bba6cc05bce73bdc57994fbb19a1e644621d0f10a6287f2cf14e857ac8c7cb3", "generation_tool": "ChatGPT built-in image generator", "provenance": "Original representative northern Ethiopia inspired highland scene; not documentary photography of a specific Lalibela path. No people depicted."
+    },
     "/images/editorial/sal-island-circuit-excursion/buracona-iwoelbern-public-domain.jpg": {
       "kind": "photograph", "slug": "buracona-iwoelbern-public-domain", "local_path": "/images/editorial/sal-island-circuit-excursion/buracona-iwoelbern-public-domain.jpg",
       "source_page": "https://commons.wikimedia.org/wiki/File:Buracona_IW1.jpg", "creator": "Iwoelbern", "license": "Public domain (PD-self)", "license_url": "https://commons.wikimedia.org/wiki/File:Buracona_IW1.jpg", "captured_at": "2007-10-07", "checked_at": "2026-11-14",
