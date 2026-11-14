@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-14T01:07:00.000Z",
+  "updated_at": "2026-11-14T01:13:00.000Z",
   "blocked_runs": [
     {
       "id": "network-outage-no-research-2026-11-09-1807",
@@ -4568,14 +4568,16 @@
     "id": "lalibela-destination-2026-11-14-0107",
     "page_url": "https://trekafricaguide.com/countries/ethiopia/lalibela/",
     "page_type": "destination",
-    "status": "pending_publication",
+    "status": "published_live_confirmed",
     "previous_photo_count": 5,
     "photo_count": 6,
     "new_photo_count": 2,
     "removed_gallery_count": 1,
     "source_ledger": "docs/editorial-research/2026-11-14-lalibela-destination-photo-enrichment.md",
     "mandatory_input_check": "Passed sync-photo-library and check:build-inputs.",
-    "report_status": "NOT SENT: awaiting live confirmation.",
+    "published_commit": "99146b8",
+    "live_verification": { "page_http_status": 200, "gallery_text": "See all 6 images", "photo_http_status": 200, "generated_asset_http_status": 200 },
+    "report_status": "SENT to fsddanmugisa@gmail.com after live confirmation; Gmail message 1a1d79e98fc68345.",
     "next_action": "Continue Lalibela destination toward 10-17 distinct people-free images; rotate to a low-image travel insight or accommodation next run."
   },
   "current_run": {
