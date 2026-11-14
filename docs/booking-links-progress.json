@@ -473,7 +473,15 @@
       "content_commits": [
         "3bab6aa"
       ],
-      "production_deploy": "pending Netlify auto-deploy for 3bab6aa"
+      "production_deploy": "Netlify deploy completed for 3bab6aa; live verified 2026-11-14T09:41Z",
+      "production_verification": {
+        "checked_at": "2026-11-14T09:41:00.000Z",
+        "method": "Browser inspection of live Trek Africa Guide accommodation pages",
+        "casa_del_papa": "HTTP200; booking section shows 'Book a stay via Booking.com' with Stay22 link; campaign=trekafricaguide-casadelpapa active.",
+        "les_paletuviers": "HTTP200; booking section shows 'Book a stay via Booking.com' with Stay22 link; campaign=trekafricaguide-lespaletuviers active.",
+        "paraa_safari_lodge": "HTTP200; booking section shows 'Book a stay via Booking.com' with Stay22 link; campaign=trekafricaguide-paraasafarilodge active.",
+        "sossusvlei_lodge": "HTTP200; booking section shows 'Book a stay via Booking.com' with Stay22 link; campaign=trekafricaguide-sossusvleilodge active."
+      }
     }
   ],
   "method_rule": "Booking.com searchresults.html with dest_type=hotel is NOT proof of an exact detail landing. Browser content wins over server URL shape; never count bot-walled bodies as verified full-detail pages. All providers require exact detail landings."
