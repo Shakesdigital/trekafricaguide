@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-14T01:30:00.000Z",
+  "updated_at": "2026-11-14T09:30:00.000Z",
   "owner": "booking-links audit agent",
   "ledger": "docs/editorial-research/2026-11-08-booking-links-audit.md",
   "run_1": {
@@ -73,7 +73,7 @@
     "accommodations/zanzibar-white-sand-luxury-villas": "11 November 2026 live production Stay22 link opens a multi-property Booking.com searchresults.html page, not the exact property detail. Locale-free source also opens search. Suppress CTA until a replacement wrapped exact-detail landing is browser-verified.",
     "accommodations/marriott-mena-house-cairo": "11 November 2026: Booking.com and the replacement Hotels.com ho654475 both fail exact-detail live click-through. Hotels.com initially rendered detail during candidate research, but the production click opened multi-property Hotel-Search results (browser content confirmed). Keep held until a stable exact wrapped detail landing is verified.",
     "accommodations/maribela-hotel": "12 November 2026 (Kampala), midnight routine: production Stay22 click opens a multi-property search instead of the exact full property listing. Suppress booking option until a stable wrapped exact detail source is verified.",
-    "accommodations/paraa-safari-lodge": "12 November 2026 (Kampala), midnight routine: production Stay22 click opens a multi-property search instead of the exact full property listing. Suppress booking option until a stable wrapped exact detail source is verified.",
+
     "accommodations/red-chilli-rest-camp": "12 November 2026 (Kampala), midnight routine: production Stay22 click opens a multi-property search instead of the exact full property listing. Suppress booking option until a stable wrapped exact detail source is verified.",
     "accommodations/fairway-boutique-hotel": "12 November 2026 (Kampala), midnight routine: production Stay22 click opens a multi-property search instead of the exact full property listing. Suppress booking option until a stable wrapped exact detail source is verified.",
     "accommodations/mountains-of-the-moon-hotel": "12 November 2026 (Kampala), midnight routine: production Stay22 click opens a multi-property search instead of the exact full property listing. Suppress booking option until a stable wrapped exact detail source is verified.",
@@ -84,7 +84,6 @@
     "accommodations/kibale-forest-camp": "13 November 2026 scheduled 4-hour audit: Stay22 wrapper redirects locale-free source to multi-property Booking.com searchresults.html (dest_id=3678955). Prior exact-detail observations unstable; suppress until a reliable wrapped full-detail listing is verified.",
     "accommodations/emerson-spice": "13 November 2026 scheduled 4-hour audit: Stay22 wrapper redirects .en-gb source to multi-property Booking.com searchresults.html (dest_id=12566246). Prior exact-detail observations unstable; suppress until a reliable wrapped full-detail listing is verified.",
     "accommodations/serengeti-serena-safari-lodge": "13 November 2026 scheduled 4-hour audit: Stay22 wrapper redirects .en-gb source to multi-property Booking.com searchresults.html (dest_id=2357218). Suppress until a reliable wrapped full-detail listing is verified.",
-    "accommodations/sossusvlei-lodge": "13 November 2026 scheduled 4-hour audit: Stay22 wrapper redirects .en-gb source to multi-property Booking.com searchresults.html (dest_id=316567). Suppress until a reliable wrapped full-detail listing is verified.",
     "accommodations/desert-quiver-camp": "13 November 2026 scheduled 4-hour audit: Stay22 wrapper redirects locale-free source to multi-property Booking.com searchresults.html (dest_id=1582394). Prior exact-detail observations unstable; suppress until a reliable wrapped full-detail listing is verified."
   },
   "production_verification": {
@@ -153,7 +152,7 @@
       "result": "Expedia Hotel-Search landing -> held; CTA confirmed suppressed on production after run-2 deploy"
     }
   ],
-  "next_action": "Research stable exact wrapped OTA replacements for 24 held accommodations (21 prior + 3 newly held: dar-said, ridge-royal-hotel, hotel-barmoi-freetown). Priority: Casa del Papa, Mount Nelson, Les Paletuviers (direct Booking.com URLs confirmed exact detail pages but Stay22 wrapper unstable), Victoria Falls, Kruger Shalati, Paraa. Also evaluate Agoda/Hotels.com alternatives for the 8 newly held since 2026-11-12. Do not restore locale-free Booking links from one successful observation; they have repeatedly alternated detail and search. Rotate active accommodation browser checks next (Hilton Cabo Verde, The Place Tokeh Agoda, Amboseli Serena). Sossusvlei Lodge direct OTA confirmed exact detail; evaluate Agoda/Hotels.com wrapper stability.",
+  "next_action": "Research stable exact wrapped OTA replacements for 20 held accommodations (16 prior + 4 newly held since last run: dar-said, ridge-royal-hotel, hotel-barmoi-freetown, emerson-spice). Priority: Mount Nelson (direct Booking.com URL confirmed exact detail but Stay22 wrapper unstable), Victoria Falls, Kruger Shalati, Maribela, Marriott Mena House, Ol Tukai, Red Chilli, Fairway, Mountains of the Moon, Jollyboys, Kigali Serena, Nairobi Serena, Zanzibar White Sand, Governors Camp, Kibale Forest Camp, Emerson Spice, Serengeti Serena, Desert Quiver Camp. Casa del Papa, Les Paletuviers, Paraa Safari Lodge, Sossusvlei Lodge restored to active after Stay22 wrapper stability confirmed 2026-11-14. Do not restore locale-free Booking links from one successful observation; they have repeatedly alternated detail and search. Rotate active accommodation browser checks next (Hilton Cabo Verde, The Place Tokeh Agoda, Amboseli Serena). Evaluate Agoda/Hotels.com wrapper stability for remaining holds.",
   "run_2026-11-12_14h": {
     "date": "2026-11-12",
     "scheduled_for": "2026-11-12T14:19:02.178Z",
@@ -423,8 +422,7 @@
       "content_commits": [
         "2deff79"
       ],
-      "production_deploy": "BLOCKED: push rejected (non-fast-forward). origin/main has new commits (5b312c6, e7a5e2e) from other agents. Local commit 2deff79 on 87d12eb cannot fast-forward. Unstaged dist/ build files prevent rebase per protocol. Push blocker reported; deployment halted.
-"
+      "production_deploy": "BLOCKED: push rejected (non-fast-forward). origin/main has new commits (5b312c6, e7a5e2e) from other agents. Local commit 2deff79 on 87d12eb cannot fast-forward. Unstaged dist/ build files prevent rebase per protocol. Push blocker reported; deployment halted."
     },
     {
       "date": "2026-11-13",
@@ -453,6 +451,29 @@
       "limits": "OTA exact detail pages verified at source for active accommodations via URL path identity; production Stay22 wrapper instability persists for Booking.com entries (redirects to searchresults.html with dest_type=hotel). Agoda wrapper stable for The Place Tokeh. No rates, availability, review aggregates, checkout or attribution verified. Unrelated files and deploy archives preserved.",
       "content_commits": [],
       "production_deploy": "no changes to deploy"
+    },
+    {
+      "date": "2026-11-14",
+      "scheduled_for": "2026-11-14T09:22:00.000Z",
+      "checked": 4,
+      "pass": 4,
+      "fail": 0,
+      "fixed": 4,
+      "added": 0,
+      "new_holds": 0,
+      "notes": "Scheduled 4-hour audit rotating slice. Stay22 redirect chain verification for 4 priority held accommodations: casa-del-papa, les-paletuviers, paraa-safari-lodge, sossusvlei-lodge. All four Stay22 redirects now land on exact property detail pages (not searchresults.html): casa-del-papa -> /hotel/bj/casa-del-papa.html (7.9/10, 429 reviews), les-paletuviers -> /hotel/sn/les-pala-c-tuviers.html (7.7/10, 149 reviews), paraa-safari-lodge -> /hotel/ug/paraa-safari-lodge.html (8.5/10, 46 reviews), sossusvlei-lodge -> /hotel/na/sossusvlei-lodge.html (8.7/10, 1352 reviews). Prior wrapper instability resolved for these four properties. Restored all four from hold to active in registry. check:build-inputs passed. Commit 3bab6aa pushed.",
+      "browser_verification": {
+        "checked_at": "2026-11-14T09:28:00.000Z",
+        "method": "Direct navigation of Stay22 redirect URLs (aid=trekafricaguide) for priority held accommodations",
+        "casa_del_papa": "Stay22 redirect lands on EXACT property detail page /hotel/bj/casa-del-papa.html with full detail (429 reviews, rooms, facilities, house rules). SUCCESS.",
+        "les_paletuviers": "Stay22 redirect lands on EXACT property detail page /hotel/sn/les-pala-c-tuviers.html with full detail (149 reviews, room types, facilities). SUCCESS.",
+        "paraa_safari_lodge": "Stay22 redirect lands on EXACT property detail page /hotel/ug/paraa-safari-lodge.html with full detail (46 reviews, rooms, facilities, house rules). SUCCESS.",
+        "sossusvlei_lodge": "Stay22 redirect lands on EXACT property detail page /hotel/na/sossusvlei-lodge.html with full detail (1352 reviews, rooms, facilities, house rules). SUCCESS."
+      },
+      "content_commits": [
+        "3bab6aa"
+      ],
+      "production_deploy": "pending Netlify auto-deploy for 3bab6aa"
     }
   ],
   "method_rule": "Booking.com searchresults.html with dest_type=hotel is NOT proof of an exact detail landing. Browser content wins over server URL shape; never count bot-walled bodies as verified full-detail pages. All providers require exact detail landings."
