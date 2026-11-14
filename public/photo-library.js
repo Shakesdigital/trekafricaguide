@@ -3,6 +3,17 @@
 export const photoLibrary = {
   "updated_at": "2026-11-13",
   "images": {
+    "/images/editorial/choose-first-night-tunis/sidi-bou-said-street-pexels-24233192.jpg": {
+      "kind": "photograph", "slug": "sidi-bou-said-street-pexels-24233192", "local_path": "/images/editorial/choose-first-night-tunis/sidi-bou-said-street-pexels-24233192.jpg",
+      "source_page": "https://www.pexels.com/photo/sidewalk-cafe-in-old-town-in-tunisia-24233192/", "creator": "Mihaela David", "license": "Pexels License", "license_url": "https://www.pexels.com/license/", "checked_at": "2026-11-14",
+      "sha256": "a86f91592691340558bd244552e6b645f899f74be391579b721c810d69d5bba8", "exact_subject": true, "subject": "Sidi Bou Said, Tunisia", "alt": "Blue doors and a café line a cobbled street in Sidi Bou Said", "requires_attribution": false,
+      "changes": "Pexels CDN JPEG resized to 1600 pixels wide.", "exact_subject_evidence": "Pexels contributor labels the scene Sidi Bou Said, Tunisia; visual inspection confirms its blue and white street setting."
+    },
+    "/images/editorial/choose-first-night-tunis/medina-courtyard-context.png": {
+      "kind": "generated", "slug": "medina-courtyard-context", "local_path": "/images/editorial/choose-first-night-tunis/medina-courtyard-context.png",
+      "source": "OpenAI image generation", "generated_at": "2026-11-14", "sha256": "d589b112fc2535adbb0c39e103d5286dabe6c6005430d0d583ad51d58c31c262", "alt": "Sunlit courtyard with blue doors, tilework, an olive tree and a breakfast table", "exact_subject": false, "subject": "Generic Tunisian courtyard context", "requires_attribution": false,
+      "prompt_summary": "Realistic generic Tunisian guesthouse courtyard with no people or named property", "inspection": "Visual inspection found coherent architecture and objects; no specific property claim."
+    },
     "/images/editorial/kruger-attraction/elephant-graham-hunt.jpg": {
       "kind": "photograph", "slug": "elephant-graham-hunt", "local_path": "/images/editorial/kruger-attraction/elephant-graham-hunt.jpg",
       "source_page": "https://unsplash.com/photos/gray-elephant-in-woods-q-vG6Sm2e7Y", "creator": "Graham Hunt", "license": "Unsplash License", "license_url": "https://unsplash.com/license", "source_published_at": "2018-01-24", "checked_at": "2026-11-14",

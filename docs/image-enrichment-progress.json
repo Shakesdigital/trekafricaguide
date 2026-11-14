@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-14T06:01:30.453Z",
+  "updated_at": "2026-11-14T09:07:00Z",
   "blocked_runs": [
     {
       "id": "network-outage-no-research-2026-11-09-1807",
@@ -4563,22 +4563,20 @@
   ],
   "updated": 1,
   "last_run_at": "2026-11-11 12:18 UTC (15:18 Africa/Kampala) ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â Sal Island attraction gallery extended 5 -> 9 photos (4 new CC BY-SA 3.0 from Wikimedia Commons); commit 3240f05 pushed to origin/main; production page renders \"See all 9 images\", all 9 asset URLs HTTP 200 image/jpeg",
-  "next_action": "Rotate to low-image travel insight or accommodation next; continue Kruger later.",
+  "next_action": "Rotate to a low-image accommodation next; revisit Kruger pending deploy.",
   "most_recent_run": {
-    "id": "kruger-attraction-2026-11-14-0307",
-    "page_url": "https://trekafricaguide.com/attractions/kruger-national-park/",
-    "page_type": "attraction",
+    "id": "tunis-first-night-insight-2026-11-14-0907",
+    "page_url": "https://trekafricaguide.com/travel-insights/choose-first-night-tunis-medina-or-coast/",
+    "page_type": "travel_insight",
     "status": "pending_production_deploy",
-    "previous_photo_count": 2,
-    "photo_count": 4,
+    "previous_photo_count": 0,
+    "photo_count": 2,
     "new_photo_count": 2,
-    "source_ledger": "docs/editorial-research/2026-11-14-kruger-attraction-photo-enrichment.md",
-    "remaining_gap": "6-13 distinct images",
-    "report_status": "NOT SENT: publication not live-confirmed.",
-    "next_action": "Rotate to low-image travel insight or accommodation next; continue Kruger later.",
-    "published_commit": "f19aeb2",
+    "source_ledger": "docs/editorial-research/2026-11-14-tunis-first-night-photo-enrichment.md",
+    "remaining_gap": "8-15 distinct images",
     "mandatory_input_check": "Passed sync-photo-library and check:build-inputs.",
-    "live_verification": "Not confirmed: page returned HTTP 200 without new filenames during polling; later network checks stalled."
+    "report_status": "NOT SENT: awaiting live publication confirmation.",
+    "next_action": "Rotate to a low-image accommodation next; revisit Kruger pending deploy."
   },
   "current_run": {
     "id": "sal-island-circuit-people-free-2026-11-14",
