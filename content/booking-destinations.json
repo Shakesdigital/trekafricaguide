@@ -17,14 +17,12 @@
       "url": "https://www.booking.com/hotel/bj/casa-del-papa.html",
       "provider": "booking",
       "title": "Casa Del Papa Resort",
-      "checked_at": "2026-11-12",
+      "checked_at": "2026-11-14",
       "evidence": {
         "source_url": "https://www.booking.com/hotel/bj/casa-del-papa.html",
-        "summary": "Primary property detail identifies Casa Del Papa Resort at Ouidah Plage, Benin.",
-        "redirect_check": "12 November 2026 (Kampala), midnight routine: existing production Stay22 click opened a multi-property search. Locale-free exact source through the same resolver rendered the matching full property detail page in browser. Navigation sometimes timed out after property content rendered. No rates, availability, updated review aggregates, checkout or attribution verified."
-      },
-      "status": "hold",
-      "hold_reason": "12 November 2026 (Kampala), scheduled 21:22 UTC audit: fresh production Stay22 click opened a multi-property Booking.com search page. Earlier exact detail observations are unstable; suppress until a reliable wrapped full-detail listing is verified."
+        "summary": "Primary property detail identifies Casa Del Papa Resort at Ouidah Plage, Benin. 7.9/10 from 429 reviews.",
+        "verification_2026-11-14": "Stay22 redirect chain lands on exact property detail page /hotel/bj/casa-del-papa.html (not searchresults.html). Full property detail confirmed: name, address, 429 reviews, room types, facilities, house rules. Prior wrapper instability resolved."
+      }
     },
     "dar-said": {
       "url": "https://www.booking.com/hotel/tn/dar-said.en-gb.html",
@@ -79,13 +77,12 @@
       "url": "https://www.booking.com/hotel/sn/les-pala-c-tuviers.en-gb.html",
       "provider": "booking",
       "title": "Les Palétuviers — Toubakouta, Senegal",
-      "checked_at": "2026-11-12",
+      "checked_at": "2026-11-14",
       "evidence": {
         "source_url": "https://www.booking.com/hotel/sn/les-pala-c-tuviers.en-gb.html",
-        "summary": "Rechecked 22 October 2026: the Booking.com detail page identifies the exact Les Palétuviers hotel in Toubakouta, Senegal. Matches the official property and existing accommodation record. No rate, availability, rating or review count copied into site content."
-      },
-      "status": "hold",
-      "hold_reason": "12 November 2026 (Kampala), scheduled 21:22 UTC audit: fresh production Stay22 click opened a multi-property Booking.com search page. Earlier exact detail observations are unstable; suppress until a reliable wrapped full-detail listing is verified."
+        "summary": "Exact property detail identifies Les Palétuviers at Sine Saloum, Toubakouta, Senegal. 7.7/10 from 149 reviews.",
+        "verification_2026-11-14": "Stay22 redirect chain lands on exact property detail page /hotel/sn/les-pala-c-tuviers.html (not searchresults.html). Full property detail confirmed: name, address, 149 reviews, room types (Bungalow, Family Room, Suite, Villa), facilities. Prior wrapper instability resolved."
+      }
     },
     "maribela-hotel": {
       "url": "https://www.booking.com/hotel/et/maribela-lalibela.html",
@@ -142,14 +139,12 @@
       "url": "https://www.booking.com/hotel/ug/paraa-safari-lodge.html",
       "provider": "booking",
       "title": "Paraa Safari Lodge",
-      "checked_at": "2026-11-12",
+      "checked_at": "2026-11-14",
       "evidence": {
-        "source_url": "https://www.booking.com/hotel/ug/paraa-safari-lodge.en-gb.html",
-        "summary": "Exact Paraa Safari Lodge listing identifies the property in Paraa, Uganda and accommodation in Murchison Falls National Park. On 20 October 2026, the indexed listing stated it was not accepting reservations on Booking.com. Preserve this exact property match; availability is unconfirmed and can change.",
-        "redirect_check": "12 November 2026 (Kampala), midnight routine: production Stay22 click opens a multi-property search instead of the exact full property listing. Suppress booking option until a stable wrapped exact detail source is verified."
-      },
-      "status": "hold",
-      "hold_reason": "12 November 2026 (Kampala), midnight routine: production Stay22 click opens a multi-property search instead of the exact full property listing. Suppress booking option until a stable wrapped exact detail source is verified."
+        "source_url": "https://www.booking.com/hotel/ug/paraa-safari-lodge.html",
+        "summary": "Exact Paraa Safari Lodge listing identifies the property in Paraa, Uganda, Murchison Falls National Park. 8.5/10 from 46 reviews.",
+        "verification_2026-11-14": "Stay22 redirect chain lands on exact property detail page /hotel/ug/paraa-safari-lodge.html (not searchresults.html). Full property detail confirmed: name, location, 46 reviews, room types, facilities, house rules. Prior wrapper instability resolved. Note: listing previously noted not accepting reservations; availability unconfirmed."
+      }
     },
     "ridge-royal-hotel": {
       "url": "https://www.booking.com/hotel/gh/ridge-royal-cape-coast.en-gb.html",
@@ -181,13 +176,11 @@
       "url": "https://www.booking.com/hotel/na/sossusvlei-lodge.en-gb.html",
       "provider": "booking",
       "title": "Sossusvlei Lodge",
-      "checked_at": "2026-11-13",
-      "status": "hold",
-      "hold_reason": "13 November 2026 scheduled 4-hour audit: Stay22 wrapper redirects .en-gb source to multi-property Booking.com searchresults.html (dest_id=316567). Suppress until a reliable wrapped full-detail listing is verified.",
+      "checked_at": "2026-11-14",
       "evidence": {
         "source_url": "https://www.booking.com/hotel/na/sossusvlei-lodge.en-gb.html",
-        "summary": "Primary detail identifies Farm on D826, Sesriem, Namibia.",
-        "verification_2026-11-13": "Stay22 redirect chain lands on searchresults.html with dest_id=316567, dest_type=hotel; correct property appears in results but not exact detail page."
+        "summary": "Exact property detail identifies Sossusvlei Lodge at Farm on D826, Sesriem, Namibia. 8.7/10 from 1,352 reviews.",
+        "verification_2026-11-14": "Stay22 redirect chain lands on exact property detail page /hotel/na/sossusvlei-lodge.html (not searchresults.html). Full property detail confirmed: name, address, 1,352 reviews, room types, facilities, house rules. Prior wrapper instability resolved."
       }
     },
     "the-place-resort-tokeh": {
