@@ -3,6 +3,17 @@
 export const photoLibrary = {
   "updated_at": "2026-11-13",
   "images": {
+    "/images/editorial/kruger-attraction/elephant-graham-hunt.jpg": {
+      "kind": "photograph", "slug": "elephant-graham-hunt", "local_path": "/images/editorial/kruger-attraction/elephant-graham-hunt.jpg",
+      "source_page": "https://unsplash.com/photos/gray-elephant-in-woods-q-vG6Sm2e7Y", "creator": "Graham Hunt", "license": "Unsplash License", "license_url": "https://unsplash.com/license", "source_published_at": "2018-01-24", "checked_at": "2026-11-14",
+      "sha256": "5f633984d463c39686a1a5f426326bcc832fe7c2f29481b38448a7a21fcf6758", "exact_subject": true, "subject": "Elephant in Kruger National Park", "alt": "Elephant among trees and brush in Kruger National Park", "property": false, "requires_attribution": false,
+      "changes": "Unsplash CDN JPEG at 1600 pixels wide; no local edits.", "exact_subject_evidence": "Photographer's Unsplash page explicitly places the elephant encounter in Kruger National Park."
+    },
+    "/images/editorial/kruger-attraction/impala-watercourse-context.png": {
+      "kind": "generated", "slug": "impala-watercourse-context", "local_path": "/images/editorial/kruger-attraction/impala-watercourse-context.png",
+      "subject": "Representative southern African savanna wildlife", "alt": "Impala gathered near a shallow watercourse in dry savanna", "creator": "ChatGPT for Trek Africa Guide", "date": "2026-11-14", "source_page": "/photo-credits", "license": "", "license_url": "", "property": false, "exact_subject": false,
+      "sha256": "abe94a70a3295ecd0894b2e1a3b1f755b7016e7c0e522e8222270c3986eb6c02", "generation_tool": "ChatGPT built-in image generator", "provenance": "Original representative lowveld impala scene. Not a documentary image of Kruger National Park or a specific sighting."
+    },
     "/images/editorial/lalibela-local-destination/st-george-view-aldo-bordoni.jpg": {
       "kind": "photograph", "slug": "st-george-view-aldo-bordoni", "local_path": "/images/editorial/lalibela-local-destination/st-george-view-aldo-bordoni.jpg",
       "source_page": "https://www.pexels.com/pt-br/foto/iconica-igreja-escavada-na-rocha-de-lalibela-etiopia-39129271/", "creator": "Aldo Bordoni", "license": "Pexels License", "license_url": "https://www.pexels.com/license/", "captured_at": "2020-01-24", "checked_at": "2026-11-14",
@@ -12037,7 +12048,9 @@ export const photoLibrary = {
         ],
         "gallery": [
           "/images/stock/destinations/kruger-national-park.jpg",
-          "/images/stock/starter/kruger-national-park.jpg"
+          "/images/stock/starter/kruger-national-park.jpg",
+          "/images/editorial/kruger-attraction/elephant-graham-hunt.jpg",
+          "/images/editorial/kruger-attraction/impala-watercourse-context.png"
         ]
       },
       "lalibela": {
