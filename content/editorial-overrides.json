@@ -3667,6 +3667,60 @@
         "/images/editorial/hotel-barmoi-freetown/freetown-aerial-hond.jpg",
         "/images/editorial/hotel-barmoi-freetown/central-freetown-night-bangura.jpg"
       ]
+    },
+    {
+      "region_id": 16,
+      "country_id": 56,
+      "attraction_id": 70,
+      "slug": "royal-livingstone-hotel",
+      "name": "Royal Livingstone Hotel by Anantara",
+      "property_type": "Luxury hotel",
+      "location_name": "Mosi-oa-Tunya Road, Livingstone, Zambia",
+      "listing_summary": "A luxury hotel on the Zambezi River within Mosi-oa-Tunya National Park, five minutes' walk from Victoria Falls, with wildlife roaming the grounds.",
+      "detail_intro": "The Royal Livingstone Hotel by Anantara sits on the banks of the Zambezi River inside Mosi-oa-Tunya National Park, on Mosi-oa-Tunya Road in Livingstone. The operator describes it as a five-minute walk to Victoria Falls, with zebras, giraffes and buck roaming the manicured grounds. This is a river-oriented luxury stay -- distinct from a town-centre base -- for travellers who want the falls and the river at their doorstep.\n\nThe room range spans ten categories, all approximately 30 m2 with private balcony or terrace, butler service, and garden or Zambezi River views. Categories include Executive Garden Room, Premier Garden Balcony Room, Premier Garden Terrace Room, Deluxe Zambezi River View Room, Executive Zambezi River Room, Livingstone Suite, Livingstone Junior Suite, Grand Zambezi River Terrace Room, Grand Zambezi River Balcony Room, and Presidential Suite. Choose the view deliberately: a garden outlook is not the same as a river vista, and the operator's own descriptions distinguish them. The property is part of the Anantara Hotels & Resorts brand (Minor Hotels).\n\nFive restaurants and bars operate on site: The Old Drift Restaurant (international, breakfast/lunch/dinner, with halal, vegetarian, vegan and gluten-free options), Mukuni Boma (African cuisine, dinner), Kubu (international, lunch/dinner), The Travellers Bar (cocktail hour), and The Royal Livingstone Lounge (cocktail hour). Breakfast includes continental, full English/Irish, Italian, Asian, American, buffet and breakfast-to-go options, with dietary ranges covering halal, vegetarian, vegan, gluten-free and kosher.\n\nFacilities include an outdoor swimming pool, the Anantara Spa with wellness treatments and couples' massage, a fitness centre (Technogym), complimentary WiFi, free parking with valet, and airport shuttle service. The hotel is wheelchair-accessible with grab-rail toilets. Check-in is 14:00, check-out 11:00. No room rate, availability or live OTA score is published here; confirm current terms with the provider.",
+      "practical_info": "Arrival airport: Harry Mwanga Nkumbula International Airport (LVI) is 12 km away; the hotel advertises an airport shuttle -- confirm the meeting point, schedule and any surcharge in writing before landing. Victoria Falls Airport (Zimbabwe) is 26 km away and requires a cross-border transfer; do not assume the same shuttle covers both. Victoria Falls (Zambia side) is 2.5 km away per Booking.com; the operator describes a five-minute walk -- verify the current gate access and whether park entry is included with your stay.\n\nRoom choice determines the view and the daily rhythm: Deluxe and Executive Zambezi River rooms face the river; Garden rooms face the grounds. Grand Zambezi River Terrace and Balcony rooms add larger outdoor spaces. The Presidential Suite includes a separate living area. Ask for the exact room category, balcony or terrace configuration, and cooling system when requesting a quote. All rooms include a coffee machine, flat-screen TV, private bathroom with bath, and tea/coffee maker.\n\nDining: The Old Drift Restaurant serves breakfast, lunch and dinner with extensive dietary options. Mukuni Boma offers an African dinner experience. Kubu serves lunch and dinner. The Travellers Bar and The Royal Livingstone Lounge operate for cocktail hour. Confirm which meals are included in your rate; breakfast-to-go is available for early departures.\n\nWildlife on the grounds is an operator highlight -- zebras, giraffes and buck move freely. This is not a managed safari enclosure; do not approach or feed animals, and follow staff guidance. The pool area and restaurant terraces overlook the Zambezi with frequent wildlife sightings reported by guests.\n\nBorder crossing: if you plan a Zimbabwe-side falls visit, confirm the current KAZA Univisa eligibility, border hours, and whether your transfer vehicle crosses. A Zambia-side room and a Zimbabwe-side activity are in different countries; park tickets, shuttles and visas do not transfer. The linked Victoria Falls travel insight explains the two-side choice in detail.\n\nCancellation and prepayment terms vary by rate; read the conditions on the exact Booking.com detail page before paying. No rate, availability, live OTA rating or review count is asserted in this guide.",
+      "amenities": [
+        "Ten room categories (~30 m2) with private balcony/terrace and butler service",
+        "Zambezi River or garden views; choose category by outlook",
+        "Five restaurants: The Old Drift (international), Mukuni Boma (African), Kubu (international), The Travellers Bar, The Royal Livingstone Lounge",
+        "Breakfast: continental, full English/Irish, Italian, Asian, American, buffet, breakfast-to-go; halal, vegetarian, vegan, gluten-free, kosher options",
+        "Outdoor swimming pool overlooking the Zambezi River",
+        "Anantara Spa: wellness treatments, couples' massage",
+        "Fitness centre (Technogym equipment)",
+        "Complimentary WiFi, free parking with valet, airport shuttle",
+        "Wheelchair accessible; grab-rail toilets",
+        "Wildlife (zebra, giraffe, buck) roaming the grounds -- operator highlight, not a managed enclosure"
+      ],
+      "rating": null,
+      "review_count": 0,
+      "price_label": "Luxury",
+      "booking_url": "https://www.booking.com/hotel/zm/the-royal-livingstone.html",
+      "source_url": "https://www.anantara.com/en/royal-livingstone",
+      "research_sources": [
+        {
+          "label": "Anantara official -- Royal Livingstone Hotel page (rooms, dining, facilities, location, wildlife, contact, GPS)",
+          "url": "https://www.anantara.com/en/royal-livingstone"
+        },
+        {
+          "label": "Booking.com exact property detail -- Royal Livingstone Hotel by Anantara (browser-verified 14 November 2026)",
+          "url": "https://www.booking.com/hotel/zm/the-royal-livingstone.html"
+        },
+        {
+          "label": "Zambia Tourism -- Victoria Falls destination page (falls-area accommodation context)",
+          "url": "https://www.zambiatourism.com/destinations/waterfalls/victoria-falls/"
+        },
+        {
+          "label": "Trek Africa Guide -- Victoria Falls travel insight (lists Royal Livingstone as exact Booking.com property)",
+          "url": "https://trekafricaguide.com/travel-insights/plan-your-victoria-falls-visit/"
+        }
+      ],
+      "traveler_feedback": "Booking.com guest reviews (150, checked 2026-11-14) highlight the Zambezi River location, wildlife on grounds (zebra, giraffe), breakfast variety, and butler service. TripAdvisor shows 4.6/5 from 2,079 reviews. These are individual traveler accounts, not a site rating or service guarantee. No OTA rating or review count is published in the guide.",
+      "last_researched": "2026-11-14",
+      "status": "published",
+      "published_at": "2026-11-14T10:00:00Z",
+      "hero_image_url": "",
+      "hero_image_alt": "No licensed property photograph available",
+      "gallery": []
     }
   ],
   "activities": [

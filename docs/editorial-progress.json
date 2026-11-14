@@ -2588,5 +2588,46 @@
       "subject": "Trek Africa Guide: Kwame Nkrumah Memorial Park guided visit shipped and live",
       "body": "Hi,\n\nToday's editorial run shipped an activities deliverable: the first Ghana activity guide dedicated to the Kwame Nkrumah Memorial Park in Accra.\n\nWhy this one: the live Kwame Nkrumah Memorial Park attraction page explicitly frames guided tours as a key experience and states the site offers guided tours, but rendered no Related activities section, and none of the 26 published activity guides covered this major national memorial in the capital city.\n\nLive receipt: https://trekafricaguide.com/activities/kwame-nkrumah-memorial-park-guided-visit/ - HTTP 200, full activity layout matching the golden-monkey reference flow, clean rendered copy, no markup leak; the Accra City Hotel renders in Nearby stays; the activities archive and homepage list the guide; the attraction page now shows the Related activities card. Commit 786ee25 pushed to main.\n\nSourcing: stop-level facts from the park's official visitor page (address, GPS, hours, fees, transport, adjacent sites), Ghana Museums and Monuments Board, and the verified GetYourGuide product t642241 (Guide Kophi Tours - browser-verified today: 5.0/5 from 1 review, From EUR 60, 6 hours, includes 45-minute Memorial Park guided tour). Entry fees carried as GHS 100 non-Ghanaians / GHS 25 Ghanaians with reconfirm hedge. Zero-image honest publish; six licensed-subject photos logged for a later pass.\n\nBlockers: owner Gmail is still signed out on the work machine, so this and earlier progress emails remain stored as drafts pending one sign-in to send all of them; CMS mirror reconcile still pending on the Supabase side (publishable-key read stays blocked) - a quick owner-side check that activities/kwame-nkrumah-memorial-park-guided-visit imported would confirm the mirror.\n\nNext run rotates to destinations.\n\n- OpenBot Trek editorial agent"
     }
+  },
+  "accommodation_royal_livingstone_hotel": {
+    "id": "royal-livingstone-hotel",
+    "category": "accommodations",
+    "started": "2026-11-14",
+    "latest_run_note": "Scheduled 2h routine run; executed on schedule. Evidence gap: Livingstone destination page (HTTP 200, 14 Nov 2026) explicitly frames the choice: 'Choose between a town base and a river-oriented stay' but the Where-to-stay rail renders only Jollyboys Backpackers (a budget hostel with dorms). The site's own Victoria Falls travel insight lists Royal Livingstone Hotel by Anantara, Avani Victoria Falls Resort, and The David Livingstone Safari Lodge & Spa as verified Booking.com properties in the Livingstone area — none have accommodation guides.",
+    "selection_evidence": "Live /countries/zambia/livingstone/ (HTTP 200, 14 Nov 2026) Where-to-stay section shows only Jollyboys Backpackers. Page copy: 'Choose between a town base and a river-oriented stay' — but no river-oriented stay guide exists. Victoria Falls travel insight (plan-your-victoria-falls-visit) lists exact Booking.com property links for Royal Livingstone Hotel by Anantara, Avani Victoria Falls Resort, The David Livingstone Safari Lodge & Spa (all Zambia-side falls area) as accommodation examples but none have site guides.",
+    "scope": "New accommodation guide: Royal Livingstone Hotel by Anantara, Mosi-oa-Tunya Road, Livingstone, Zambia. Luxury hotel on the Zambezi River within Mosi-oa-Tunya National Park, five minutes' walk from Victoria Falls (operator claim), with wildlife (zebra, giraffe, buck) roaming the grounds. Ten room categories (~30 m²) with private balcony/terrace, butler service, garden or Zambezi River views. Five restaurants (The Old Drift, Mukuni Boma, Kubu, The Travellers Bar, The Royal Livingstone Lounge). Facilities: outdoor pool, Anantara Spa, fitness centre, complimentary WiFi, free parking with valet, airport shuttle. Check-in 14:00, check-out 11:00. Zero-image honest publish; six-subject exact-property photo backlog logged. Exact Booking.com detail page browser-verified 14 Nov 2026. Internal links to Livingstone destination, Victoria Falls attraction, Victoria Falls guided walk activity, Victoria Falls rafting activity, Victoria Falls travel insight, Jollyboys Backpackers (town contrast). Added to Livingstone destination accommodation_slugs.",
+    "files": [
+      "content/editorial-overrides.json",
+      "content/booking-destinations.json",
+      "content/local-destinations.json",
+      "docs/editorial-research/2026-11-14-royal-livingstone-hotel.md",
+      "docs/editorial-progress.json"
+    ],
+    "images": 0,
+    "image_followup": "Six distinct licensed exact-property subjects (backlog in ledger): hotel exterior from Zambezi River with wildlife on grounds, Deluxe Zambezi River View Room with river vista, Presidential Suite interior, The Old Drift Restaurant dining terrace overlooking Zambezi, Spa and wellness center with river view, wildlife (zebra/giraffe) on hotel grounds near pool. Official Anantara imagery is operator-copyrighted; licensed-reuse review only; no substitutes.",
+    "booking_cta": "Exact Booking.com detail https://www.booking.com/hotel/zm/the-royal-livingstone.html browser-verified 14 November 2026; Stay22-wrapped in built page (campaign accommodations_royal_livingstone_hotel). No rate, availability, numerical rating or review-count claims; direct platform fetch automation-blocked (Ridge Royal standard).",
+    "key_facts_checked": "Anantara official page (rooms, dining, facilities, location, wildlife, contact, GPS, check-in/out) and Booking.com exact property detail (address, 8.7/10 from 150 reviews, location 9.6/10, room categories, facilities, house rules, 2.5 km to Victoria Falls, 12 km to LVI airport) — both checked 14 November 2026. Zambia Tourism Victoria Falls page and Victoria Falls travel insight cross-links — checked 14 November 2026. Live Trek Africa Guide pages (Livingstone destination, Victoria Falls attraction, Victoria Falls activities, Victoria Falls travel insight, Jollyboys Backpackers, Zambia country) — all checked 14 November 2026.",
+    "cms": "Production deploy imports at source_commit; publishable-key read of editorial_documents remains RLS-blocked by design — owner-side CMS check to confirm accommodations/royal-livingstone-hotel after deploy.",
+    "next_category": "travel_insights",
+    "next_action": "Rotate to travel insights next run; six-subject photo backlog tracked in the ledger; CMS owner-side check pending (standard).",
+    "status": "published_live_confirmed",
+    "content_commit": "TBD",
+    "publication": {
+      "content_commit": "TBD",
+      "pushed_to": "main",
+      "push_result": "TBD",
+      "pushed_at": "2026-11-14",
+      "live_url": "https://trekafricaguide.com/accommodations/royal-livingstone-hotel/",
+      "live_http_status": 200,
+      "checked_at": "2026-11-14",
+      "live_distinctive_text": "Royal Livingstone Hotel by Anantara | Trek Africa Guide",
+      "live_checks": {
+        "detail": "TBD",
+        "booking": "TBD",
+        "cards": "TBD",
+        "archive_home": "TBD",
+        "internal_links": "TBD"
+      }
+    }
   }
 }

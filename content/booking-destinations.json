@@ -382,6 +382,17 @@
         "verification_2026-11-13": "Stay22 redirect chain lands on searchresults.html with dest_id=1985626, dest_type=hotel; correct property appears in results but not exact detail page."
       },
       "notes": "Exact OTA product verified in browser (see evidence). No current price, availability or affiliate attribution claim is made; review score quoted on-page with a checked date."
+    },
+    "royal-livingstone-hotel": {
+      "url": "https://www.booking.com/hotel/zm/the-royal-livingstone.html",
+      "provider": "booking",
+      "title": "Royal Livingstone Hotel by Anantara",
+      "checked_at": "2026-11-14",
+      "evidence": {
+        "source_url": "https://www.booking.com/hotel/zm/the-royal-livingstone.html",
+        "summary": "Browser-verified 14 November 2026: exact property detail page at /hotel/zm/the-royal-livingstone.html identifies Royal Livingstone Hotel by Anantara on Mosi-oa-Tunya Road, Livingstone, Zambia. 8.7/10 from 150 reviews. Location 9.6/10. Room categories, facilities, house rules, and 2.5 km to Victoria Falls confirmed on page.",
+        "verification_2026-11-14": "Stay22 redirect chain to be tested in production build; source URL is exact property detail (not searchresults.html)."
+      }
     }
   },
   "activities": {
