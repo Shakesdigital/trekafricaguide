@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-14T09:07:00Z",
+  "updated_at": "2026-11-14T09:16:00Z",
   "blocked_runs": [
     {
       "id": "network-outage-no-research-2026-11-09-1807",
@@ -4563,20 +4563,24 @@
   ],
   "updated": 1,
   "last_run_at": "2026-11-11 12:18 UTC (15:18 Africa/Kampala) ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â Sal Island attraction gallery extended 5 -> 9 photos (4 new CC BY-SA 3.0 from Wikimedia Commons); commit 3240f05 pushed to origin/main; production page renders \"See all 9 images\", all 9 asset URLs HTTP 200 image/jpeg",
-  "next_action": "Rotate to a low-image accommodation next; revisit Kruger pending deploy.",
+  "next_action": "Rotate to low-image accommodation next; investigate why earlier Kruger photo gallery is still absent from production.",
   "most_recent_run": {
     "id": "tunis-first-night-insight-2026-11-14-0907",
     "page_url": "https://trekafricaguide.com/travel-insights/choose-first-night-tunis-medina-or-coast/",
     "page_type": "travel_insight",
-    "status": "pending_production_deploy",
+    "status": "published_live_confirmed",
     "previous_photo_count": 0,
     "photo_count": 2,
     "new_photo_count": 2,
     "source_ledger": "docs/editorial-research/2026-11-14-tunis-first-night-photo-enrichment.md",
     "remaining_gap": "8-15 distinct images",
     "mandatory_input_check": "Passed sync-photo-library and check:build-inputs.",
-    "report_status": "NOT SENT: awaiting live publication confirmation.",
-    "next_action": "Rotate to a low-image accommodation next; revisit Kruger pending deploy."
+    "report_status": "SENT to fsddanmugisa@gmail.com after live confirmation",
+    "next_action": "Rotate to low-image accommodation next; investigate why earlier Kruger photo gallery is still absent from production.",
+    "published_commit": "d225206",
+    "netlify_deploy": "6af826ae6005b5baeaf4b3b9",
+    "live_verification": "Production detail and both new assets returned HTTP 200; HTML contains real photo three times and generated courtyard once.",
+    "email_id": "1a1d95911ab86f10"
   },
   "current_run": {
     "id": "sal-island-circuit-people-free-2026-11-14",
