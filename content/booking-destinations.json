@@ -268,13 +268,13 @@
       }
     },
     "amboseli-serena-safari-lodge": {
-      "url": "https://www.booking.com/hotel/ke/amboseli-serena-safari-lodge.en-gb.html",
+      "url": "https://www.booking.com/hotel/ke/amboseli-serena-safari-lodge.html",
       "provider": "booking",
       "title": "Amboseli Serena Safari Lodge",
-      "checked_at": "2026-10-15",
+      "checked_at": "2026-11-14",
       "evidence": {
-        "source_url": "https://www.booking.com/hotel/ke/amboseli-serena-safari-lodge.en-gb.html",
-        "summary": "Indexed Booking.com exact property page identifies Amboseli Serena Safari Lodge, Kenya; name/location cross-checked with Serena official Amboseli page. Direct request returned JavaScript verification. No availability, current price, aggregate rating or affiliate attribution independently verified."
+        "source_url": "https://www.booking.com/hotel/ke/amboseli-serena-safari-lodge.html",
+        "summary": "14 November 2026 scheduled 4-hour audit: switched from .en-gb variant which redirected to searchresults.html (dest_id=4722582). Locale-free canonical /hotel/ke/amboseli-serena-safari-lodge.html verified via browser search as exact property detail page for Amboseli Serena Safari Lodge, Kenya; name/location cross-checked with Serena official Amboseli page. Direct request returns JavaScript verification (bot-walled). No availability, current price, aggregate rating or affiliate attribution independently verified."
       }
     },
     "red-chilli-rest-camp": {
