@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-14T09:16:00Z",
+  "updated_at": "2026-11-14T11:07:00Z",
   "blocked_runs": [
     {
       "id": "network-outage-no-research-2026-11-09-1807",
@@ -48,6 +48,20 @@
     "resolved_at": "2026-10-21 13:16 Africa/Kampala"
   },
   "completed_runs": [
+    {
+      "id": "tunis-carthage-walk-photo-enrichment-2026-11-14-1107z",
+      "page_url": "https://trekafricaguide.com/activities/tunis-carthage-sidi-bou-said-guided-walk/",
+      "page_type": "activity",
+      "status": "pushed_pending_live_verification",
+      "previous_photo_count": 1,
+      "photo_count": 3,
+      "new_photo_count": 2,
+      "source_ledger": "docs/editorial-research/2026-11-14-tunis-carthage-walk-photo-enrichment.md",
+      "remaining_gap": "7-14 distinct images",
+      "mandatory_input_check": "Passed sync-photo-library and check:build-inputs; no test suite run.",
+      "report_status": "NOT SENT pending live confirmation",
+      "next_action": "Rotate to low-image accommodation or destination next; continue this activity toward 10-17 images."
+    },
     {
       "id": "ouidah-ganvie-place-context-2026-11-13-2107z",
       "page_url": "https://trekafricaguide.com/attractions/ouidah-and-ganvie/",

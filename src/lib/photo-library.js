@@ -3,6 +3,17 @@
 export const photoLibrary = {
   "updated_at": "2026-11-13",
   "images": {
+    "/images/editorial/tunis-carthage-guided-walk/carthage-ruins-pexels-6460892.jpg": {
+      "kind": "photograph", "slug": "carthage-ruins-pexels-6460892", "local_path": "/images/editorial/tunis-carthage-guided-walk/carthage-ruins-pexels-6460892.jpg",
+      "source_page": "https://www.pexels.com/photo/ancient-stone-ruins-in-carthage-6460892/", "creator": "Son Tung Tran", "license": "Pexels License", "license_url": "https://www.pexels.com/license/", "checked_at": "2026-11-14",
+      "sha256": "1fa3e6ddb5aa0dbdc83348536d556be9f378f44f623c5170123f3c0a8f9aca41", "exact_subject": true, "subject": "Ancient ruins at Carthage, Tunisia", "alt": "Weathered stone ruins at the Carthage archaeological site", "property": false, "requires_attribution": false,
+      "changes": "Pexels CDN JPEG resized to 1600 pixels wide.", "exact_subject_evidence": "Pexels contributor page locates the photographed ruins in Carthage, Tunisia; visual inspection shows the stone archaeological remains."
+    },
+    "/images/editorial/tunis-carthage-guided-walk/coastal-guided-walk-context.png": {
+      "kind": "generated", "slug": "coastal-guided-walk-context", "local_path": "/images/editorial/tunis-carthage-guided-walk/coastal-guided-walk-context.png",
+      "subject": "Representative Tunisian coastal village walking scene", "alt": "Travelers talking with a guide on a whitewashed coastal lane", "creator": "ChatGPT for Trek Africa Guide", "date": "2026-11-14", "property": false, "exact_subject": false, "requires_attribution": false,
+      "sha256": "14bdb4e503f723147aa01d118f0062afa40f09cb7af4207c628cecd164717ff3", "generation_tool": "ChatGPT built-in image generator", "provenance": "Original illustrative coastal walking scene; not documentary photography of a particular tour, guide, travelers or street."
+    },
     "/images/editorial/choose-first-night-tunis/sidi-bou-said-street-pexels-24233192.jpg": {
       "kind": "photograph", "slug": "sidi-bou-said-street-pexels-24233192", "local_path": "/images/editorial/choose-first-night-tunis/sidi-bou-said-street-pexels-24233192.jpg",
       "source_page": "https://www.pexels.com/photo/sidewalk-cafe-in-old-town-in-tunisia-24233192/", "creator": "Mihaela David", "license": "Pexels License", "license_url": "https://www.pexels.com/license/", "checked_at": "2026-11-14",
