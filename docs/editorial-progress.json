@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T22:33:58.375Z",
+  "updated_at": "2026-11-14T01:30:00.000Z",
   "timezone": "Africa/Kampala",
   "next_scheduled_start": "2026-10-17T19:30:00+03:00",
   "cadence_hours": 3,
@@ -272,14 +272,14 @@
     "email_id": "1a143a69416cf3d1"
   },
   "rotation": {
-    "last_completed_category": "activities",
-    "next_category": "destinations",
-    "next_deliverable": "Kwame Nkrumah Memorial Park guided visit published 2026-11-13 (activities rotation); next: one evidenced destinations gap."
+    "last_completed_category": "destinations",
+    "next_category": "accommodations",
+    "next_deliverable": "Ouidah and Ganvié local destination published 2026-11-14 (destinations rotation); next: one evidenced accommodations gap."
   },
   "current_deliverable": {
     "category": "destinations",
     "rotation": "accommodations after that",
-    "note": "Kwame Nkrumah Memorial Park guided visit activity published this run (evidenced gap: attraction page described guided tours but had no Related activities section). Zero-image honest publish with six-subject photo backlog. Next category: destinations."
+    "note": "Ouidah and Ganvié local destination published this run (evidenced gap: Benin country page frames Ouidah/Ganvié as key heritage destinations but rendered zero Destinations rail; Ouidah And Ganvie attraction + Casa del Papa stay exist but had no local destination anchor). Zero-image honest publish with six-subject photo backlog. Next category: accommodations."
   },
   "previous_deliverable_correction": {
     "id": "marrakech-medina-street-food-walk",
