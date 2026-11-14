@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-14T03:11:10.489Z",
+  "updated_at": "2026-11-14T06:01:30.453Z",
   "blocked_runs": [
     {
       "id": "network-outage-no-research-2026-11-09-1807",
@@ -4568,14 +4568,17 @@
     "id": "kruger-attraction-2026-11-14-0307",
     "page_url": "https://trekafricaguide.com/attractions/kruger-national-park/",
     "page_type": "attraction",
-    "status": "pending_publication",
+    "status": "pending_production_deploy",
     "previous_photo_count": 2,
     "photo_count": 4,
     "new_photo_count": 2,
     "source_ledger": "docs/editorial-research/2026-11-14-kruger-attraction-photo-enrichment.md",
     "remaining_gap": "6-13 distinct images",
-    "report_status": "NOT SENT pending live confirmation",
-    "next_action": "Rotate to low-image travel insight or accommodation next; continue Kruger later."
+    "report_status": "NOT SENT: publication not live-confirmed.",
+    "next_action": "Rotate to low-image travel insight or accommodation next; continue Kruger later.",
+    "published_commit": "f19aeb2",
+    "mandatory_input_check": "Passed sync-photo-library and check:build-inputs.",
+    "live_verification": "Not confirmed: page returned HTTP 200 without new filenames during polling; later network checks stalled."
   },
   "current_run": {
     "id": "sal-island-circuit-people-free-2026-11-14",
