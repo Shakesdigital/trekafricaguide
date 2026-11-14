@@ -37,7 +37,7 @@ export function sanitizeRichText(value, { allowImages = false } = {}) {
     },
     allowedSchemes: ['http', 'https', 'mailto'],
     allowedSchemesByTag: { img: ['http', 'https'] },
-    exclusiveFilter: (frame) => frame.tag === 'img' && (!safeExternalUrl(frame.attribs.src) || ++imageCount > 6),
+    exclusiveFilter: (frame) => frame.tag === 'img' && (!safeExternalUrl(frame.attribs.src) || ++imageCount > 17),
     transformTags: {
       img: (tagName, attribs) => ({ tagName, attribs: { src: safeExternalUrl(attribs.src), alt: attribs.alt || '', loading: 'lazy', decoding: 'async' } }),
       a: (tagName, attribs) => {
