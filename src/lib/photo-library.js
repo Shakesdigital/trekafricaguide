@@ -1,8 +1,112 @@
 // Curated source. Run node scripts/sync-photo-library.mjs after editing.
 // Curated free photography; source and licence metadata travel with each image.
 export const photoLibrary = {
-  "updated_at": "2026-11-13",
+  "updated_at": "2026-11-15",
   "images": {
+    "/images/editorial/marrakech-destination/jemaa-el-fna-market-day.jpg": {
+      "kind": "photograph", "slug": "jemaa-el-fna-market-day", "local_path": "/images/editorial/marrakech-destination/jemaa-el-fna-market-day.jpg",
+      "source_page": "https://www.pexels.com/photo/bustling-market-scene-in-marrakesh-medina-37651105/", "creator": "Margo Evardson", "license": "Pexels License", "license_url": "https://www.pexels.com/license/", "checked_at": "2026-11-15",
+      "sha256": "0e5249a648034f3e715226cc6422e732ddd0c91405ed74aa58d2bf74256f03c6", "exact_subject": true, "subject": "Jemaa el-Fnaa square, Marrakesh, Morocco",
+      "alt": "Market stalls and shoppers fill Jemaa el-Fnaa square in Marrakech on a sunny day.", "property": false, "requires_attribution": false,
+      "changes": "Pexels CDN JPEG resized to 1600 pixels wide; no other edits.",
+      "exact_subject_evidence": "Pexels photo page title 'Bustling Market Scene in Marrakesh Medina' and its description place the scene in Jemaa el-Fnaa square, Marrakech; the described market-square scene was confirmed in the downloaded file."
+    },
+    "/images/editorial/marrakech-destination/koutoubia-minaret-sunset.jpg": {
+      "kind": "photograph", "slug": "koutoubia-minaret-sunset", "local_path": "/images/editorial/marrakech-destination/koutoubia-minaret-sunset.jpg",
+      "source_page": "https://www.pexels.com/photo/koutoubia-mosque-at-sunset-marrakech-40675629/", "creator": "Desert Morocco Adventure Tours", "license": "Pexels License", "license_url": "https://www.pexels.com/license/", "checked_at": "2026-11-15",
+      "sha256": "afb326e68d9dd06a3abddcf942875336b182fd5206a384bbf7091f34f7882de1", "exact_subject": true, "subject": "Koutoubia Mosque minaret, Marrakesh, Morocco",
+      "alt": "The Koutoubia Mosque minaret silhouetted against a warm evening sky in Marrakech.", "property": false, "requires_attribution": false,
+      "changes": "Pexels CDN JPEG resized to 1600 pixels wide; no other edits.",
+      "exact_subject_evidence": "Pexels photo page is titled 'Koutoubia Mosque at Sunset, Marrakech' and its description names the Koutoubia Mosque in Marrakech; the square minaret against a sunset sky was confirmed in the downloaded file."
+    },
+    "/images/editorial/marrakech-destination/koutoubia-reflection-gardens.jpg": {
+      "kind": "photograph", "slug": "koutoubia-reflection-gardens", "local_path": "/images/editorial/marrakech-destination/koutoubia-reflection-gardens.jpg",
+      "source_page": "https://www.pexels.com/photo/koutoubia-mosque-reflection-in-marrakech-36658849/", "creator": "Sukran", "license": "Pexels License", "license_url": "https://www.pexels.com/license/", "checked_at": "2026-11-15",
+      "sha256": "0c5c9268120fd8ca3ad749e5fa46692094535a262d1886eb705071969936dc41", "exact_subject": true, "subject": "Koutoubia Mosque and its gardens, Marrakesh, Morocco",
+      "alt": "The Koutoubia Mosque minaret reflected in a garden pool in Marrakech.", "property": false, "requires_attribution": false,
+      "changes": "Pexels CDN JPEG resized to 1600 pixels wide; no other edits.",
+      "exact_subject_evidence": "Pexels photo page is titled 'Koutoubia Mosque Reflection in Marrakech' and describes the Koutoubia Mosque in Marrakech with its reflection in water and surrounding palms."
+    },
+    "/images/editorial/marrakech-destination/majorelle-blue-courtyard.jpg": {
+      "kind": "photograph", "slug": "majorelle-blue-courtyard", "local_path": "/images/editorial/marrakech-destination/majorelle-blue-courtyard.jpg",
+      "source_page": "https://www.pexels.com/photo/majorelle-blue-courtyard-in-jardin-majorelle-marrakech-37818900/", "creator": "Emre Kosak", "license": "Pexels License", "license_url": "https://www.pexels.com/license/", "checked_at": "2026-11-15",
+      "sha256": "2452e82e0728d61568e74620c129151bb8e16b189e3daf62ab956f0d63b1f688", "exact_subject": true, "subject": "Jardin Majorelle, Marrakesh, Morocco",
+      "alt": "Cobalt-blue walls and cacti in a courtyard at Jardin Majorelle in Marrakech.", "property": false, "requires_attribution": false,
+      "changes": "Pexels CDN JPEG resized to 1600 pixels wide; no other edits.",
+      "exact_subject_evidence": "Pexels photo page is titled 'Majorelle Blue Courtyard in Jardin Majorelle, Marrakech' and describes the Majorelle blue wall and Moorish tilework at Jardin Majorelle. The same shoot's companion files are already used on the Marrakech And Atlas attraction page; this file is a different frame and is used here only once."
+    },
+    "/images/editorial/marrakech-destination/el-badi-palace-pool.jpg": {
+      "kind": "photograph", "slug": "el-badi-palace-pool", "local_path": "/images/editorial/marrakech-destination/el-badi-palace-pool.jpg",
+      "source_page": "https://www.pexels.com/photo/el-badi-palace-in-marrakesh-15260622/", "creator": "Domenico Bertazzo", "license": "Pexels License", "license_url": "https://www.pexels.com/license/", "checked_at": "2026-11-15",
+      "sha256": "f8865a0da801feafb83e25fe1d4c1f09d356b230f1abdda9f7fe12e3b3e9348f", "exact_subject": true, "subject": "El Badi Palace, Marrakesh, Morocco",
+      "alt": "The long reflecting pool and ruined walls of El Badi Palace in Marrakech.", "property": false, "requires_attribution": false,
+      "changes": "Pexels CDN JPEG resized to 1600 pixels wide; no other edits.",
+      "exact_subject_evidence": "Pexels photo page is titled 'El Badi Palace in Marrakesh' and describes El Badi Palace in Marrakech with a reflecting pool in the foreground; the wide courtyard and pool were confirmed in the downloaded file."
+    },
+    "/images/editorial/marrakech-destination/menara-gardens-pavilion.jpg": {
+      "kind": "photograph", "slug": "menara-gardens-pavilion", "local_path": "/images/editorial/marrakech-destination/menara-gardens-pavilion.jpg",
+      "source_page": "https://www.pexels.com/photo/menara-gardens-in-marrakesh-morocco-8571073/", "creator": "Andre Manuel", "license": "Pexels License", "license_url": "https://www.pexels.com/license/", "checked_at": "2026-11-15",
+      "sha256": "40f238a438ea758a418b082b5b440621eb9a4be4c32c9f0711dbc94d1bae88f7", "exact_subject": true, "subject": "Menara Gardens, Marrakesh, Morocco",
+      "alt": "The pavilion at Menara Gardens reflected in its long basin in Marrakech.", "property": false, "requires_attribution": false,
+      "changes": "Pexels CDN JPEG resized to 1600 pixels wide; no other edits.",
+      "exact_subject_evidence": "Pexels photo page is titled 'Menara Gardens in Marrakesh, Morocco' and describes the Menara Gardens pavilion with water reflections in Marrakesh."
+    },
+    "/images/editorial/marrakech-destination/ben-youssef-madrasa-court.jpg": {
+      "kind": "photograph", "slug": "ben-youssef-madrasa-court", "local_path": "/images/editorial/marrakech-destination/ben-youssef-madrasa-court.jpg",
+      "source_page": "https://www.pexels.com/photo/courtyard-with-pool-of-aged-islamic-college-in-morocco-6441048/", "creator": "Piotr Arnoldes", "license": "Pexels License", "license_url": "https://www.pexels.com/license/", "checked_at": "2026-11-15",
+      "sha256": "639a0a5278e1ed825948a641518e49397f1d9cd0620f0938995982f8c2150acb", "exact_subject": true, "subject": "Ben Youssef Madrasa, Marrakesh, Morocco",
+      "alt": "Carved arches, stucco and a marble pool in the courtyard of Ben Youssef Madrasa in Marrakech.", "property": false, "requires_attribution": false,
+      "changes": "Pexels CDN JPEG resized to 1600 pixels wide; no other edits.",
+      "exact_subject_evidence": "Pexels photo page describes the ornate courtyard of Ben Youssef Madrasa in Marrakech; the courtyard with pool and carved arches was confirmed in the downloaded file."
+    },
+    "/images/editorial/marrakech-destination/marrakech-souk-alley.jpg": {
+      "kind": "photograph", "slug": "marrakech-souk-alley", "local_path": "/images/editorial/marrakech-destination/marrakech-souk-alley.jpg",
+      "source_page": "https://www.pexels.com/photo/sunlit-alley-in-marrakech-souk-29038454/", "creator": "Salaheddine Es-sellak", "license": "Pexels License", "license_url": "https://www.pexels.com/license/", "checked_at": "2026-11-15",
+      "sha256": "f19bbbdfc3619ce2766666951d7af2c1380bd3f3894da2fd9cb603cb015b0224", "exact_subject": true, "subject": "Marrakech souk, Morocco",
+      "alt": "Sunlit alley in the Marrakech souk with market stalls on both sides.", "property": false, "requires_attribution": false,
+      "changes": "Pexels CDN JPEG resized to 1600 pixels wide; no other edits.",
+      "exact_subject_evidence": "Pexels photo page is titled 'Sunlit Alley in Marrakech Souk' and describes an alleyway in Marrakech with sunrays on colourful market stalls."
+    },
+    "/images/editorial/marrakech-destination/marrakech-spice-market.jpg": {
+      "kind": "photograph", "slug": "marrakech-spice-market", "local_path": "/images/editorial/marrakech-destination/marrakech-spice-market.jpg",
+      "source_page": "https://www.pexels.com/photo/vibrant-spice-market-in-marrakech-morocco-35919230/", "creator": "Othmane Ettalbi", "license": "Pexels License", "license_url": "https://www.pexels.com/license/", "checked_at": "2026-11-15",
+      "sha256": "80dce942cb33361b7238d91e9da4c50a9b96a6c5dc2266b3a1e0ec617a71928b", "exact_subject": true, "subject": "Spice market, Marrakesh, Morocco",
+      "alt": "Cones of colourful spices at a market stall in Marrakech.", "property": false, "requires_attribution": false,
+      "changes": "Pexels CDN JPEG resized to 1600 pixels wide; no other edits.",
+      "exact_subject_evidence": "Pexels photo page is titled 'Vibrant Spice Market in Marrakech, Morocco' and describes colourful spices in a traditional Moroccan market."
+    },
+    "/images/editorial/marrakech-destination/marrakech-riad-courtyard.jpg": {
+      "kind": "photograph", "slug": "marrakech-riad-courtyard", "local_path": "/images/editorial/marrakech-destination/marrakech-riad-courtyard.jpg",
+      "source_page": "https://www.pexels.com/photo/interior-of-the-riad-palais-sebban-marrakesh-morocco-15531325/", "creator": "Moussa Idrissi", "license": "Pexels License", "license_url": "https://www.pexels.com/license/", "checked_at": "2026-11-15",
+      "sha256": "db4990858ef54bd94b9a22209e9a3c35271f912f09f28448eb171489b76930da", "exact_subject": true, "subject": "Traditional riad courtyard, Marrakesh, Morocco",
+      "alt": "A shaded riad courtyard with arches, a fountain and potted plants in Marrakech.", "property": false, "requires_attribution": false,
+      "changes": "Pexels CDN JPEG resized to 1600 pixels wide; no other edits.",
+      "exact_subject_evidence": "Pexels photo page is titled 'Interior of the Riad Palais Sebban, Marrakesh, Morocco' and describes a traditional riad courtyard in Marrakech. It illustrates riad architecture only and is not a photograph of any property published on this site."
+    },
+    "/images/editorial/marrakech-destination/marrakech-evening-market-stalls.jpg": {
+      "kind": "photograph", "slug": "marrakech-evening-market-stalls", "local_path": "/images/editorial/marrakech-destination/marrakech-evening-market-stalls.jpg",
+      "source_page": "https://www.pexels.com/photo/view-of-a-city-at-dusk-18274601/", "creator": "Philipp Martin", "license": "Pexels License", "license_url": "https://www.pexels.com/license/", "checked_at": "2026-11-15",
+      "sha256": "b9a4aa2d48168f77209a3ccf76af55af8a2645d7a00c48f2f2aa7e362eb9991a", "exact_subject": true, "subject": "Evening market street, Marrakesh, Morocco",
+      "alt": "Food stalls lit at dusk along a busy market street in Marrakech.", "property": false, "requires_attribution": false,
+      "changes": "Pexels CDN JPEG resized to 1600 pixels wide; no other edits.",
+      "exact_subject_evidence": "Pexels photo page describes a night market in Marrakech bustling with people under a dusky sky; the evening stall scene was confirmed in the downloaded file."
+    },
+    "/images/editorial/marrakech-destination/agafay-desert-camels.jpg": {
+      "kind": "photograph", "slug": "agafay-desert-camels", "local_path": "/images/editorial/marrakech-destination/agafay-desert-camels.jpg",
+      "source_page": "https://www.pexels.com/photo/camels-in-moroccan-desert-under-clear-blue-sky-35910049/", "creator": "Othmane Ettalbi", "license": "Pexels License", "license_url": "https://www.pexels.com/license/", "checked_at": "2026-11-15",
+      "sha256": "4bc3eb5b0493f2c0d500a4f5cbdffe1222ba281c54e8f04525d2ab027c76f1be", "exact_subject": true, "subject": "Agafay desert, Marrakesh-Safi, Morocco",
+      "alt": "Camels resting on the dry, rocky ground of the Agafay desert near Marrakech.", "property": false, "requires_attribution": false,
+      "changes": "Pexels CDN JPEG resized to 1600 pixels wide; no other edits.",
+      "exact_subject_evidence": "Pexels photo page describes camels resting in the Agafay Desert, Marrakesh-Safi, Morocco; the camels on dry stony ground were confirmed in the downloaded file."
+    },
+    "/images/editorial/marrakech-destination/ourika-valley-atlas.jpg": {
+      "kind": "photograph", "slug": "ourika-valley-atlas", "local_path": "/images/editorial/marrakech-destination/ourika-valley-atlas.jpg",
+      "source_page": "https://www.pexels.com/photo/breathtaking-view-of-ourika-valley-and-atlas-mountains-38084344/", "creator": "Zineb Dehbi", "license": "Pexels License", "license_url": "https://www.pexels.com/license/", "checked_at": "2026-11-15",
+      "sha256": "4cb6dddba26c9d73fc1f3ff0c2fde13c9f19b7818225bae3829595c1be293abb", "exact_subject": true, "subject": "Ourika Valley and the Atlas Mountains, Morocco",
+      "alt": "Green valley slopes and village buildings below the Atlas Mountains in the Ourika Valley.", "property": false, "requires_attribution": false,
+      "changes": "Pexels CDN JPEG resized to 1600 pixels wide; no other edits.",
+      "exact_subject_evidence": "Pexels photo page is titled 'Breathtaking View of Ourika Valley and Atlas Mountains' and describes Ourika Valley with the Atlas Mountains in Morocco."
+    },
     "/images/editorial/tunis-carthage-guided-walk/carthage-ruins-pexels-6460892.jpg": {
       "kind": "photograph", "slug": "carthage-ruins-pexels-6460892", "local_path": "/images/editorial/tunis-carthage-guided-walk/carthage-ruins-pexels-6460892.jpg",
       "source_page": "https://www.pexels.com/photo/ancient-stone-ruins-in-carthage-6460892/", "creator": "Son Tung Tran", "license": "Pexels License", "license_url": "https://www.pexels.com/license/", "checked_at": "2026-11-14",

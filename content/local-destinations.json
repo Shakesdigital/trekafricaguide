@@ -811,6 +811,23 @@
       "riad-rosemary"
     ],
     "travel_insight_slugs": [],
+    "hero_image_url": "/images/editorial/marrakech-destination/jemaa-el-fna-market-day.jpg",
+    "hero_image_alt": "Market stalls and shoppers fill Jemaa el-Fnaa square in Marrakech on a sunny day.",
+    "gallery": [
+      "/images/editorial/marrakech-destination/jemaa-el-fna-market-day.jpg",
+      "/images/editorial/marrakech-destination/koutoubia-minaret-sunset.jpg",
+      "/images/editorial/marrakech-destination/koutoubia-reflection-gardens.jpg",
+      "/images/editorial/marrakech-destination/majorelle-blue-courtyard.jpg",
+      "/images/editorial/marrakech-destination/el-badi-palace-pool.jpg",
+      "/images/editorial/marrakech-destination/menara-gardens-pavilion.jpg",
+      "/images/editorial/marrakech-destination/ben-youssef-madrasa-court.jpg",
+      "/images/editorial/marrakech-destination/marrakech-souk-alley.jpg",
+      "/images/editorial/marrakech-destination/marrakech-spice-market.jpg",
+      "/images/editorial/marrakech-destination/marrakech-riad-courtyard.jpg",
+      "/images/editorial/marrakech-destination/marrakech-evening-market-stalls.jpg",
+      "/images/editorial/marrakech-destination/agafay-desert-camels.jpg",
+      "/images/editorial/marrakech-destination/ourika-valley-atlas.jpg"
+    ],
     "sort_order": 1,
     "status": "published",
     "last_researched": "2026-11-09",
