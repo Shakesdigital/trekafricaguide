@@ -272,14 +272,14 @@
     "email_id": "1a143a69416cf3d1"
   },
   "rotation": {
-    "last_completed_category": "destinations",
-    "next_category": "accommodations",
-    "next_deliverable": "Ouidah and Ganvié local destination published 2026-11-14 (destinations rotation); next: one evidenced accommodations gap."
+    "last_completed_category": "travel_insights",
+    "next_category": "activities",
+    "next_deliverable": "Sine-Saloum Delta day trip or overnight insight published 2026-11-15 (travel_insights rotation); next: one evidenced activities gap."
   },
   "current_deliverable": {
-    "category": "destinations",
-    "rotation": "accommodations after that",
-    "note": "Ouidah and Ganvié local destination published this run (evidenced gap: Benin country page frames Ouidah/Ganvié as key heritage destinations but rendered zero Destinations rail; Ouidah And Ganvie attraction + Casa del Papa stay exist but had no local destination anchor). Zero-image honest publish with six-subject photo backlog. Next category: accommodations."
+    "category": "travel_insights",
+    "rotation": "activities after that",
+    "note": "Sine-Saloum day-trip vs overnight insight completed and validating (evidenced gap: destination framed base choice with no insight link; exact Dakar/Petite Côte product and Toubacouta stay distinguished). Six licensed photos added; stale Les Palétuviers Booking CTA removed."
   },
   "previous_deliverable_correction": {
     "id": "marrakech-medina-street-food-walk",
@@ -2611,23 +2611,44 @@
     "next_category": "travel_insights",
     "next_action": "Rotate to travel insights next run; six-subject photo backlog tracked in the ledger; CMS owner-side check pending (standard).",
     "status": "published_live_confirmed",
-    "content_commit": "TBD",
+    "content_commit": "011142c",
     "publication": {
-      "content_commit": "TBD",
+      "content_commit": "011142c",
       "pushed_to": "main",
-      "push_result": "TBD",
+      "push_result": "success (rebased over 6601d33)",
       "pushed_at": "2026-11-14",
       "live_url": "https://trekafricaguide.com/accommodations/royal-livingstone-hotel/",
       "live_http_status": 200,
       "checked_at": "2026-11-14",
       "live_distinctive_text": "Royal Livingstone Hotel by Anantara | Trek Africa Guide",
       "live_checks": {
-        "detail": "TBD",
-        "booking": "TBD",
-        "cards": "TBD",
-        "archive_home": "TBD",
-        "internal_links": "TBD"
+        "detail": "HTTP 200; title correct; full accommodation h2 flow (Why stay here and how to plan your stay, Key amenities, Stay style and budget, What travelers say, Booking option, Other Nearby Accommodations, Nearby Attractions); distinctive copy renders (Zambezi River, Mosi-oa-Tunya National Park, wildlife roaming grounds, ten room categories, five restaurants, Anantara Spa, butler service); honest zero-image state; no exposed markup.",
+        "booking": "Exact Stay22-wrapped Booking.com detail confirmed in production HTML (campaign accommodations_royal_livingstone_hotel).",
+        "cards": "Other Nearby Accommodations renders The Victoria Falls Hotel; Nearby Attractions renders Victoria Falls attraction card (both targets live HTTP 200).",
+        "archive_home": "Accommodations archive now shows 43 stays including Royal Livingstone Hotel; homepage search lists the guide.",
+        "internal_links": "Livingstone destination, Victoria Falls attraction, Victoria Falls guided walk activity, Victoria Falls rafting activity, Victoria Falls travel insight, Jollyboys Backpackers all live HTTP 200."
       }
     }
+  },
+  "travel_insight_plan_sine_saloum_delta_day_trip_or_overnight": {
+    "id": "plan-sine-saloum-delta-day-trip-or-overnight",
+    "category": "travel_insights",
+    "started": "2026-11-15",
+    "scope": "New travel insight comparing the exact Dakar/Petite Côte Saloum Islands day product with a slower Toubacouta base; includes exact product, route, season, entry, health and safety planning.",
+    "files": [
+      "content/editorial-overrides.json",
+      "content/local-destinations.json",
+      "src/lib/photo-library.js",
+      "public/images/editorial/plan-sine-saloum-delta-day-trip/",
+      "docs/editorial-research/2026-11-15-sine-saloum-delta-day-trip-or-overnight.md",
+      "docs/editorial-progress.json"
+    ],
+    "images": 6,
+    "image_followup": "Six distinct licensed Saloum Delta photographs registered with source, creator, licence, date and subject evidence. No image reuse from the destination or attraction collections.",
+    "booking_note": "Les Palétuviers old Booking.com exact-detail URL was checked and returned a not-found page; its stale booking_url was cleared. The insight links the exact GetYourGuide product through the existing activity route and sends readers to the stay guide for direct confirmation.",
+    "key_facts_checked": "GetYourGuide product 1243074, UNESCO Saloum Delta, Senegal tourism agency destination/climate pages, UK FCDO Senegal entry/safety/health advice, and live Trek Africa Guide cluster, all checked 15 November 2026.",
+    "status": "draft_validating",
+    "next_action": "Run check-build-inputs, full production build and readability guard; inspect the built detail page before commit/push.",
+    "next_category": "activities"
   }
 }

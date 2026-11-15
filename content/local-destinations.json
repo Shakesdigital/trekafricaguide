@@ -259,8 +259,10 @@
     "accommodation_slugs": [
       "les-paletuviers"
     ],
-    "travel_insight_slugs": [],
-    "last_researched": "2026-10-21",
+    "travel_insight_slugs": [
+      "plan-sine-saloum-delta-day-trip-or-overnight"
+    ],
+    "last_researched": "2026-11-15",
     "research_sources": [
       {
         "url": "https://www.visitezlesenegal.com/en/destinations/sine-saloum/",
@@ -277,6 +279,11 @@
       {
         "url": "https://lespaletuviers.com/fr/",
         "label": "Les Palétuviers Boutique Hotel: location in Toubacouta"
+      },
+      {
+        "label": "Trek Africa Guide: Sine-Saloum day trip or overnight insight, checked 15 November 2026",
+        "url": "https://trekafricaguide.com/travel-insights/plan-sine-saloum-delta-day-trip-or-overnight/",
+        "checked_at": "2026-11-15"
       }
     ],
     "sort_order": 1,
