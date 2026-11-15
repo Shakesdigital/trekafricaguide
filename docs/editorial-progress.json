@@ -279,7 +279,7 @@
   "current_deliverable": {
     "category": "travel_insights",
     "rotation": "activities after that",
-    "note": "Sine-Saloum day-trip vs overnight insight completed and validating (evidenced gap: destination framed base choice with no insight link; exact Dakar/Petite Côte product and Toubacouta stay distinguished). Six licensed photos added; stale Les Palétuviers Booking CTA removed."
+    "note": "Sine-Saloum day-trip vs overnight insight published live at source_commit 1f8979d; archive, country and destination links plus six images verified. CMS mirror imported at source_commit 1f8979d; owner-side CMS check pending."
   },
   "previous_deliverable_correction": {
     "id": "marrakech-medina-street-food-walk",
@@ -2647,8 +2647,27 @@
     "image_followup": "Six distinct licensed Saloum Delta photographs registered with source, creator, licence, date and subject evidence. No image reuse from the destination or attraction collections.",
     "booking_note": "Les Palétuviers old Booking.com exact-detail URL was checked and returned a not-found page; its stale booking_url was cleared. The insight links the exact GetYourGuide product through the existing activity route and sends readers to the stay guide for direct confirmation.",
     "key_facts_checked": "GetYourGuide product 1243074, UNESCO Saloum Delta, Senegal tourism agency destination/climate pages, UK FCDO Senegal entry/safety/health advice, and live Trek Africa Guide cluster, all checked 15 November 2026.",
-    "status": "draft_validating",
-    "next_action": "Run check-build-inputs, full production build and readability guard; inspect the built detail page before commit/push.",
-    "next_category": "activities"
+    "status": "published_live_confirmed",
+    "next_action": "Rotate to activities; CMS mirror import is production-managed and owner-side check remains pending.",
+    "next_category": "activities",
+    "content_commit": "1f8979d",
+    "publication": {
+      "content_commit": "1f8979d",
+      "pushed_to": "main",
+      "push_result": "success (922fcf3..1f8979d)",
+      "pushed_at": "2026-11-15",
+      "live_url": "https://trekafricaguide.com/travel-insights/plan-sine-saloum-delta-day-trip-or-overnight/",
+      "live_http_status": 200,
+      "checked_at": "2026-11-15",
+      "live_distinctive_text": "Sine-Saloum Delta: choose the day trip or an overnight base",
+      "live_checks": {
+        "detail": "HTTP 200; title correct; all 10 article h2 sections render; exact 10-hour product, 07:30–17:00 schedule, €165 from-price, route and inclusions render; no exposed article markup.",
+        "archive": "Travel-insights archive HTTP 200 lists the new article with the expected title.",
+        "parent": "Senegal country page HTTP 200 links the article in Related travel insights.",
+        "destination": "Sine-Saloum destination HTTP 200 links the article in its Travel insights section.",
+        "images": "All six article images return HTTP 200.",
+        "internal_links": "Article links to Senegal country, Sine-Saloum destination, Sine-Saloum attraction, Sine-Saloum pirogue excursion and Les Palétuviers stay; all checked HTTP 200."
+      }
+    }
   }
 }
