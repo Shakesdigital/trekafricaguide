@@ -4536,6 +4536,8 @@
     {
       "slug": "south-luangwa-walking-safari",
       "attraction_id": 67,
+      "status": "published",
+      "published_at": "2026-11-09T09:00:00Z",
       "name": "South Luangwa walking safari",
       "location_name": "South Luangwa National Park, Zambia",
       "listing_summary": "Walk the Luangwa bush on foot with a qualified walking guide and an armed ranger, from a few morning hours to multi-day mobile walks between remote camps. Confirm the walking model and season with the operator before booking.",
