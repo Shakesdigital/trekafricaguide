@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-14T01:30:00.000Z",
+  "updated_at": "2026-11-15T13:30:00.000Z",
   "timezone": "Africa/Kampala",
   "next_scheduled_start": "2026-10-17T19:30:00+03:00",
   "cadence_hours": 3,
@@ -1999,7 +1999,7 @@
       }
     }
   },
-  "next_category": "travel_insights",
+  "next_category": "accommodations",
   "destination_sal": {
     "id": "sal",
     "category": "destinations",
@@ -2682,5 +2682,44 @@
     "live_status": "After commit 388929a and after the 11:47Z production deploy of 1ccc468 (which contains the fix), /activities/south-luangwa-walking-safari/ still returned HTTP 404 and the archive still read 27 activities for ~20 minutes. The mirror row cannot be read with the publishable key (editorial_documents returns 42501 permission denied), and CMS writes are out of scope.",
     "next_action": "Owner-side CMS check: confirm whether editorial_documents holds an unpublished activities/south-luangwa-walking-safari document and publish it (or clear the stale draft) so the next production import keeps the repo record. No further repo change is needed.",
     "next_category": "activities"
+  },
+  "activity_ouidah_ganvie_heritage_excursion": {
+    "id": "ouidah-ganvie-heritage-excursion",
+    "category": "activities",
+    "started": "2026-11-15",
+    "status": "published_live_confirmed",
+    "selection_evidence": "Live activities archive (HTTP 200, 15 Nov 2026) had 27 published activities and no Benin activity; the live Ouidah and Ganvié attraction described separate memorial, sacred-site and lake-community experiences, the published destination had an empty activity rail, and the nearby Casa del Papa stay gave a concrete overnight relationship.",
+    "scope": "New activity guide under attraction_id 62 (Ouidah and Ganvié), comparing the exact seven-hour Cotonou/Wa Africa combined product with slower separate Ouidah and Ganvié outings. Includes memorial-route, sacred-site, pirogue, photography and entry guidance; zero-image honest publish with six-subject licensed-photo backlog.",
+    "files": [
+      "content/editorial-overrides.json",
+      "content/booking-destinations.json",
+      "content/local-destinations.json",
+      "docs/editorial-research/2026-11-15-ouidah-ganvie-heritage-excursion.md",
+      "docs/editorial-progress.json"
+    ],
+    "images": 0,
+    "image_followup": "Six licensed subjects only: Ouidah Route des Captifs; Door of No Return/Bateau de la Mémoire; Temple des Pythons exterior; Forêt sacrée de Kpassè entrance/sculptures; Ganvié stilt houses from a public boat route; resident-operated pirogue/market/daily-life scene with consent. No reuse from attraction/destination galleries and no generated substitutes.",
+    "booking_cta": "Exact GetYourGuide product t1144752, Wa Africa, mapped in booking-destinations.activities and Stay22-wrapped in the live page. The listing was checked 15 Nov 2026: seven hours, small group max 5, eight Cotonou hotel pickups, 2.5-hour Ganvié segment, 4.5-hour Ouidah segment, lunch, free cancellation up to 24h, and only two reviews (review-limited).",
+    "key_facts_checked": "Bénin Tourisme Ouidah, Ganvié, Route des Captifs and Forêt sacrée de Kpassè; UK FCDO Benin travel advice and entry requirements; Benin e-Visa portal; exact GetYourGuide t1144752 product; live Trek attraction, destination, Casa del Papa and Benin country pages. All checked 15 Nov 2026.",
+    "cms": "Production import runs from source commit; publishable key cannot read editorial_documents (RLS-blocked), so imported at source_commit 16a8fff; owner-side CMS check pending.",
+    "content_commit": "16a8fff",
+    "next_action": "Rotate to accommodations. Keep the South Luangwa CMS-mirror blocker separate; six-photo backlog remains.",
+    "next_category": "accommodations",
+    "publication": {
+      "content_commit": "16a8fff",
+      "pushed_to": "main",
+      "push_result": "success (9111844..16a8fff)",
+      "pushed_at": "2026-11-15",
+      "live_url": "https://trekafricaguide.com/activities/ouidah-ganvie-heritage-excursion/",
+      "live_http_status": 200,
+      "checked_at": "2026-11-15T13:26:12Z",
+      "live_distinctive_text": "Ouidah and Ganvié heritage excursion | Trek Africa Guide",
+      "live_checks": {
+        "detail": "HTTP 200; full activity h2 flow (About this activity, Highlights, Best time to participate, Planning notes, Booking option, Nearby stays); distinctive copy renders; honest zero-image state; no exposed markup.",
+        "booking": "Exact Stay22/GetYourGuide t1144752 destination and campaign activities_ouidah_ganvie_heritage_excursion render in live HTML; review-limited status visible.",
+        "cards": "Activities archive HTTP 200 now lists 28 activities; Ouidah and Ganvié destination HTTP 200 links the activity; Ouidah and Ganvié attraction HTTP 200 renders Related activities and the new guide.",
+        "internal_links": "Casa del Papa stay, Benin country and Ouidah and Ganvié destination all HTTP 200."
+      }
+    }
   }
 }
