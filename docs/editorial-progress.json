@@ -2669,5 +2669,18 @@
         "internal_links": "Article links to Senegal country, Sine-Saloum destination, Sine-Saloum attraction, Sine-Saloum pirogue excursion and Les Palétuviers stay; all checked HTTP 200."
       }
     }
+  },
+  "verification_south_luangwa_walking_safari_live_404": {
+    "id": "south-luangwa-walking-safari",
+    "category": "verification",
+    "started": "2026-11-15",
+    "status": "repo_fixed_live_blocked_by_cms_mirror",
+    "selection_evidence": "Live activities archive (HTTP 200, 15 Nov 2026) listed 27 activities while the repo holds 28; /activities/south-luangwa-walking-safari/ returned HTTP 404 despite being committed in a09e697 and present in a local production-parity build (179 pages, archive 28 activities, Related activities on the attraction page renders the card).",
+    "root_cause": "Production builds run with EDITORIAL_CMS_SYNC=true, so reconcileEditorialMirror replaces repo tables with documents returned from editorial_documents. The South Luangwa activity is absent/unpublished in that mirror, so it is dropped from the built site even though the repo record is published. Local builds (sync off) render it correctly.",
+    "fix_applied": "content/editorial-overrides.json now pins status \"published\" and published_at 2026-11-09T09:00:00Z on the activity so the repo record carries explicit publication metadata through the mirror import (commit 388929a).",
+    "build": "check-build-inputs passed; production-parity build (SUPABASE_URL/EDITORIAL_CMS_SYNC=false) 179 pages; readability guard passed on 184 pages; detail page shows About/Highlights/Best time/Planning notes/Nearby stays with no exposed markup.",
+    "live_status": "After commit 388929a and after the 11:47Z production deploy of 1ccc468 (which contains the fix), /activities/south-luangwa-walking-safari/ still returned HTTP 404 and the archive still read 27 activities for ~20 minutes. The mirror row cannot be read with the publishable key (editorial_documents returns 42501 permission denied), and CMS writes are out of scope.",
+    "next_action": "Owner-side CMS check: confirm whether editorial_documents holds an unpublished activities/south-luangwa-walking-safari document and publish it (or clear the stale draft) so the next production import keeps the repo record. No further repo change is needed.",
+    "next_category": "activities"
   }
 }
