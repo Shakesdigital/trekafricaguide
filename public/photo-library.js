@@ -12061,6 +12061,72 @@ export const photoLibrary = {
       "exact_subject_evidence": "Commons description \"Jollyboys Backpackers, Livingstone, Zambia\"; DateTimeOriginal 2019-08-17; cc-by-2.0; photographer Fabio Achilli.",
       "reuse_note": "Attribution required: credit Fabio Achilli, CC BY 2.0, source file page. Attribution appears on-page in the figure caption. Exact-property photograph of Jollyboys Backpackers bar courtyard in Livingstone."
     },
+    "/images/editorial/tunis-local-destination/tunis-medina-market-lanterns.jpg": {
+      "slug": "tunis-medina-market-lanterns", "local_path": "/images/editorial/tunis-local-destination/tunis-medina-market-lanterns.jpg",
+      "source_page": "https://www.pexels.com/photo/35893561/", "creator": "Memory Lane",
+      "license": "Pexels License", "license_url": "https://www.pexels.com/license/", "source_published_at": "2026-01-29", "checked_at": "2026-11-15",
+      "sha256": "6346a3bc380fe96ea5eae6b4f9a96087e5c5ee90eca46e6a470445dbb8bc3fc1", "exact_subject": true, "subject": "Market street in the Medina of Tunis, Tunisia",
+      "alt": "Colorful lanterns hang above a historic market street in the Medina of Tunis.", "caption": "Market street in the Medina of Tunis.",
+      "property": false, "kind": "photograph", "requires_attribution": false,
+      "changes": "Pexels CDN JPEG resized to 1600 pixels wide; no other edits.",
+      "exact_subject_evidence": "Pexels title and description identify the Tunis medina market street; downloaded frame visually confirmed lanterns and historic market architecture.",
+      "reuse_note": "Pexels License: free for commercial use; attribution not required."
+    },
+    "/images/editorial/tunis-local-destination/bab-el-bhar-gate.jpg": {
+      "slug": "bab-el-bhar-gate", "local_path": "/images/editorial/tunis-local-destination/bab-el-bhar-gate.jpg",
+      "source_page": "https://www.pexels.com/photo/16819833/", "creator": "Chermiti Mohamed",
+      "license": "Pexels License", "license_url": "https://www.pexels.com/license/", "source_published_at": "2023-05-14", "checked_at": "2026-11-15",
+      "sha256": "da51cf6df2eef191d1a80a42140e30495ea9f7a4c1d5ed4ecc15eed4ab01ef91", "exact_subject": true, "subject": "Bab el Bhar gate, Tunis, Tunisia",
+      "alt": "The stone arch of Bab el Bhar, with people passing through, in central Tunis.", "caption": "Bab el Bhar, the historic eastern gate of Tunis.",
+      "property": false, "kind": "photograph", "requires_attribution": false,
+      "changes": "Pexels CDN JPEG resized to 1600 pixels wide; no other edits.",
+      "exact_subject_evidence": "Pexels title and description identify Bab el Bhar in Tunis; downloaded frame visually confirmed the arched gate.",
+      "reuse_note": "Pexels License: free for commercial use; attribution not required."
+    },
+    "/images/editorial/tunis-local-destination/tunis-medina-market-alley.jpg": {
+      "slug": "tunis-medina-market-alley", "local_path": "/images/editorial/tunis-local-destination/tunis-medina-market-alley.jpg",
+      "source_page": "https://www.pexels.com/photo/29667461/", "creator": "Mahmoud Yahyaoui",
+      "license": "Pexels License", "license_url": "https://www.pexels.com/license/", "source_published_at": "2024-12-06", "checked_at": "2026-11-15",
+      "sha256": "16863c629646c7f2ed557fa7f314c767135ede4d242c020bdc3e9d4ef779324d", "exact_subject": true, "subject": "Market alley in the Medina of Tunis, Tunisia",
+      "alt": "Textiles and a Tunisian flag line a busy market alley in the Tunis medina.", "caption": "Market goods and Tunisian flags in the medina of Tunis.",
+      "property": false, "kind": "photograph", "requires_attribution": false,
+      "changes": "Pexels CDN JPEG resized to 1600 pixels wide; no other edits.",
+      "exact_subject_evidence": "Pexels title and description identify the Tunis medina market alley; downloaded frame visually confirmed market textiles and the flag.",
+      "reuse_note": "Pexels License: free for commercial use; attribution not required."
+    },
+    "/images/editorial/tunis-local-destination/ez-zitouna-mosque-street.jpg": {
+      "slug": "ez-zitouna-mosque-street", "local_path": "/images/editorial/tunis-local-destination/ez-zitouna-mosque-street.jpg",
+      "source_page": "https://www.pexels.com/photo/17917078/", "creator": "Amine Mayoufi",
+      "license": "Pexels License", "license_url": "https://www.pexels.com/license/", "source_published_at": "2023-08-09", "checked_at": "2026-11-15",
+      "sha256": "edbf760efa422fe0f484b166126af84bf5f1f0ca103c0fca76ca9414ed007187", "exact_subject": true, "subject": "Ez Zitouna Mosque, Tunis, Tunisia",
+      "alt": "A narrow street leads toward the tower of the Ez Zitouna Mosque in Tunis.", "caption": "A street leading toward the Ez Zitouna Mosque in Tunis.",
+      "property": false, "kind": "photograph", "requires_attribution": false,
+      "changes": "Pexels CDN JPEG resized to 1600 pixels wide; no other edits.",
+      "exact_subject_evidence": "Pexels title and description identify the Ez Zitouna Mosque in Tunis; downloaded frame visually confirmed the mosque tower above the street.",
+      "reuse_note": "Pexels License: free for commercial use; attribution not required."
+    },
+    "/images/editorial/tunis-local-destination/youssef-dey-mosque.jpg": {
+      "slug": "youssef-dey-mosque", "local_path": "/images/editorial/tunis-local-destination/youssef-dey-mosque.jpg",
+      "source_page": "https://www.pexels.com/photo/19138215/", "creator": "DigitalByNADAS Photography",
+      "license": "Pexels License", "license_url": "https://www.pexels.com/license/", "source_published_at": "2023-11-15", "checked_at": "2026-11-15",
+      "sha256": "628f585d2e0f3fe3509f0320cf15469ac8da6b241fa62ea8aa8fde26e2ece8df", "exact_subject": true, "subject": "Youssef Dey Mosque, Tunis, Tunisia",
+      "alt": "The historic minaret of the Youssef Dey Mosque rises above a street in Tunis.", "caption": "The Youssef Dey Mosque minaret in Tunis.",
+      "property": false, "kind": "photograph", "requires_attribution": false,
+      "changes": "Pexels CDN JPEG resized to 1600 pixels wide; no other edits.",
+      "exact_subject_evidence": "Pexels title and description identify the Youssef Dey Mosque in Tunis; downloaded frame visually confirmed its minaret and street setting.",
+      "reuse_note": "Pexels License: free for commercial use; attribution not required."
+    },
+    "/images/editorial/tunis-local-destination/tunis-historic-street.jpg": {
+      "slug": "tunis-historic-street", "local_path": "/images/editorial/tunis-local-destination/tunis-historic-street.jpg",
+      "source_page": "https://www.pexels.com/photo/31020148/", "creator": "Amine Mayoufi",
+      "license": "Pexels License", "license_url": "https://www.pexels.com/license/", "source_published_at": "2025-03-05", "checked_at": "2026-11-15",
+      "sha256": "6caca7bed7bff23c56d3900e590880a483edc783464584968062967e93163551", "exact_subject": true, "subject": "Historic street in Tunis, Tunisia",
+      "alt": "A narrow cobblestone street runs between historic buildings in Tunis.", "caption": "A historic cobblestone street in Tunis.",
+      "property": false, "kind": "photograph", "requires_attribution": false,
+      "changes": "Pexels CDN JPEG resized to 1600 pixels wide; no other edits.",
+      "exact_subject_evidence": "Pexels title and description identify the Tunis historic street; downloaded frame visually confirmed the cobblestone street and historic facades.",
+      "reuse_note": "Pexels License: free for commercial use; attribution not required."
+    }
   },
   "listings": {
     "attractions": {
@@ -13410,6 +13476,19 @@ export const photoLibrary = {
           "/images/editorial/sine-saloum-destination/saloum-bolong-birds-2024.jpg",
           "/images/editorial/sine-saloum-destination/saloum-pirogue-excursion-2023.jpg",
           "/images/editorial/sine-saloum-destination/saloum-island-pirogue-2023.jpg"
+        ]
+      },
+      "tunis": {
+        "hero_image_url": "/images/editorial/tunis-local-destination/tunis-medina-market-lanterns.jpg",
+        "hero_image_alt": "Colorful lanterns above a historic market street in the Medina of Tunis.",
+        "replaces": [],
+        "gallery": [
+          "/images/editorial/tunis-local-destination/tunis-medina-market-lanterns.jpg",
+          "/images/editorial/tunis-local-destination/bab-el-bhar-gate.jpg",
+          "/images/editorial/tunis-local-destination/tunis-medina-market-alley.jpg",
+          "/images/editorial/tunis-local-destination/ez-zitouna-mosque-street.jpg",
+          "/images/editorial/tunis-local-destination/youssef-dey-mosque.jpg",
+          "/images/editorial/tunis-local-destination/tunis-historic-street.jpg"
         ]
       },
       "kampala": {

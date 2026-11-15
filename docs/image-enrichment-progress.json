@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-15T05:07:00Z",
+  "updated_at": "2026-11-15T13:07:00Z",
   "blocked_runs": [
     {
       "id": "image-generation-service-unavailable-2026-11-15-0507",
@@ -56,6 +56,26 @@
     "resolved_at": "2026-10-21 13:16 Africa/Kampala"
   },
   "completed_runs": [
+    {
+      "id": "tunis-local-destination-gallery-2026-11-15-1307",
+      "page_url": "https://trekafricaguide.com/countries/tunisia/tunis/",
+      "page_type": "local_destination",
+      "status": "pushed_pending_live_verification",
+      "started_at": "2026-11-15T13:07:00Z",
+      "completed_at": null,
+      "previous_photo_count": 0,
+      "photo_count": 6,
+      "new_photo_count": 6,
+      "removed_gallery_count": 0,
+      "source_ledger": "docs/editorial-research/2026-11-15-tunis-local-destination-photo-enrichment.json",
+      "published_commit": null,
+      "mandatory_input_check": "Passed node scripts/sync-photo-library.mjs and npm run check:build-inputs; no test suite run.",
+      "rights_standard": "All six are Pexels License photographs of exact Tunis subjects; attribution not required. No new attribution-required photograph published.",
+      "generation_status": "Not attempted: the Radius image endpoint reported insufficient balance earlier in this run, and the collection was completed with real photography.",
+      "live_verification": null,
+      "report_status": "PENDING: owner email must be attempted only after production confirms the page and all six assets.",
+      "next_action": "Poll production until the gallery and all six asset URLs return HTTP 200; then update this checkpoint and send the owner email."
+    },
     {
       "id": "tunis-carthage-walk-photo-enrichment-2026-11-14-1107z",
       "page_url": "https://trekafricaguide.com/activities/tunis-carthage-sidi-bou-said-guided-walk/",
@@ -4643,8 +4663,8 @@
     }
   ],
   "updated": "2026-11-15",
-  "last_run_at": "2026-11-15 11:47 UTC (14:47 Africa/Kampala) Marrakech destination gallery extended 0 -> 13 Pexels-Licensed photographs; commit ab5cbfb pushed to origin/main; production page renders \"See all 13 images\" and all 13 asset URLs return HTTP 200 image/jpeg. Image generation was unavailable (402 on both providers). Owner email NOT sent (Gmail signed out).",
-  "next_action": "Rotate to another low-image page across destinations, attractions, activities, travel insights and accommodations; retry generated complementary scenes once a generation provider has credit; owner email for this Marrakech publication is pending a Gmail sign-in.",
+  "last_run_at": "2026-11-15T13:07:00Z Tunis local destination gallery extended 0 -> 6 Pexels-Licensed photographs; commit pending; deployment/live confirmation pending.",
+  "next_action": "Verify the Tunis production page and each new asset after the Netlify build; continue Tunis toward 10-17 distinct views and record remaining gaps.",
   "most_recent_run": {
     "id": "tunis-first-night-insight-2026-11-14-0907",
     "page_url": "https://trekafricaguide.com/travel-insights/choose-first-night-tunis-medina-or-coast/",
@@ -4664,59 +4684,24 @@
     "email_id": "1a1d95911ab86f10"
   },
   "current_run": {
-    "id": "marrakech-destination-gallery-2026-11-15-1107",
-    "status": "published_live_confirmed",
-    "page_url": "https://trekafricaguide.com/countries/morocco/marrakech/",
-    "page_type": "destination",
-    "started_at": "2026-11-15 11:07 UTC (14:07 Africa/Kampala)",
-    "completed_at": "2026-11-15 11:47 UTC (14:47 Africa/Kampala)",
+    "id": "tunis-local-destination-gallery-2026-11-15-1307",
+    "page_url": "https://trekafricaguide.com/countries/tunisia/tunis/",
+    "page_type": "local_destination",
+    "status": "pushed_pending_live_verification",
+    "started_at": "2026-11-15T13:07:00Z",
+    "completed_at": null,
     "previous_photo_count": 0,
-    "photo_count": 13,
-    "new_photo_count": 13,
+    "photo_count": 6,
+    "new_photo_count": 6,
     "removed_gallery_count": 0,
-    "source_ledger": "docs/editorial-research/2026-11-15-marrakech-destination-photo-enrichment.md",
-    "published_commit": "ab5cbfb",
-    "mandatory_input_check": "Passed node scripts/sync-photo-library.mjs and npm run check:build-inputs; local npm run build cannot complete on this machine because .env.local holds placeholder Supabase credentials.",
-    "rights_standard": "New photographs only from exact-subject assets whose verified terms allow commercial reuse without public attribution: all 13 are Pexels License (no credit required). No CC BY or CC BY-SA file was newly published and no existing credit line was changed.",
-    "generation_status": "BLOCKED: the Radius image endpoint returned 402 insufficient_balance and OpenRouter image endpoints returned 402 Insufficient credits, so no generated frame was produced. The collection is entirely real photography; generated complementary scenes remain a gap.",
-    "live_verification": {
-      "checked_at": "2026-11-15T11:45:04Z",
-      "page_http_status": 200,
-      "gallery_text": "See all 13 images",
-      "asset_http_statuses": [
-        200,
-        200,
-        200,
-        200,
-        200,
-        200,
-        200,
-        200,
-        200,
-        200,
-        200,
-        200,
-        200
-      ],
-      "asset_content_types": [
-        "image/jpeg",
-        "image/jpeg",
-        "image/jpeg",
-        "image/jpeg",
-        "image/jpeg",
-        "image/jpeg",
-        "image/jpeg",
-        "image/jpeg",
-        "image/jpeg",
-        "image/jpeg",
-        "image/jpeg",
-        "image/jpeg",
-        "image/jpeg"
-      ],
-      "new_asset": "jemaa-el-fna-market-day.jpg"
-    },
-    "report_status": "",
-    "next_action": "Rotate to another low-image page across destinations, attractions, activities, travel insights and accommodations; continue Marrakech toward 17 distinct views (Bab Agnaou, hammam and a generated riad-planning scene are the recorded gaps) when generation or a no-credit Bab Agnaou frame is available."
+    "source_ledger": "docs/editorial-research/2026-11-15-tunis-local-destination-photo-enrichment.json",
+    "published_commit": null,
+    "mandatory_input_check": "Passed node scripts/sync-photo-library.mjs and npm run check:build-inputs; no test suite run.",
+    "rights_standard": "All six are Pexels License photographs of exact Tunis subjects; attribution not required. No new attribution-required photograph published.",
+    "generation_status": "Not attempted: the Radius image endpoint reported insufficient balance earlier in this run, and the collection was completed with real photography.",
+    "live_verification": null,
+    "report_status": "PENDING: owner email must be attempted only after production confirms the page and all six assets.",
+    "next_action": "Poll production until the gallery and all six asset URLs return HTTP 200; then update this checkpoint and send the owner email."
   },
   "latest_review": {
     "id": "casa-del-papa-exact-property-no-eligible-photo-review",
