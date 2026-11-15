@@ -1,6 +1,14 @@
 {
-  "updated_at": "2026-11-14T11:07:00Z",
+  "updated_at": "2026-11-15T05:07:00Z",
   "blocked_runs": [
+    {
+      "id": "image-generation-service-unavailable-2026-11-15-0507",
+      "scheduled_at": "2026-11-15T05:07:00Z",
+      "status": "blocked_image_generation_service",
+      "planned_target": "https://trekafricaguide.com/activities/kwame-nkrumah-memorial-park-guided-visit/",
+      "note": "Online photo search found CC0 candidate images of exact Memorial Park exhibits on Wikimedia Commons. A search for Royal Livingstone Hotel returned attribution-required Commons images only, so the run rotated to the zero-image Memorial Park activity. ChatGPT built-in image generation failed twice with a connection error; no generated asset was returned to inspect. No website assets or gallery changed and no owner email was sent.",
+      "next_action": "Retry the Memorial Park activity after image generation is available; inspect CC0 exhibit candidates and generated contextual imagery before publication."
+    },
     {
       "id": "network-outage-no-research-2026-11-09-1807",
       "scheduled_at": "2026-11-09 18:07 UTC (21:07 Africa/Kampala)",
