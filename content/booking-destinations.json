@@ -654,6 +654,19 @@
       "evidence": {
         "review_check": "Exact product page opened and read live in a browser session 13 November 2026 (product ID 642241); 5.0/5 from 1 review (Alecia, US, 18 Apr 2026); From €60 per person, 6 hours, English host, free cancellation 24h; scores may change. Sample too small to be representative."
       }
+    },
+    "ouidah-ganvie-heritage-excursion": {
+      "url": "https://www.getyourguide.com/ganvie-l241520/explore-ganvie-ouidah-at-the-heart-of-history-and-traditions-t1144752/",
+      "provider": "getyourguide",
+      "title": "Explore Ganvié & Ouidah, at the heart of history and traditions",
+      "operator": "Wa Africa",
+      "rating": 5.0,
+      "review_count": 2,
+      "notes": "Seven-hour combined Cotonou departure: Ganvié and marine-life viewing for 2.5 hours, then lunch and a guided Ouidah walk for 4.5 hours. The exact product is review-limited; confirm pickup, boat, lifejackets, walking, admissions, accessibility and cancellation terms.",
+      "checked_at": "2026-11-15",
+      "evidence": {
+        "review_check": "Exact product page checked 15 November 2026: provider Wa Africa; 7 hours; small group max 5; pickup from eight Cotonou hotels; 2.5-hour Ganvié visit and 4.5-hour Ouidah visit; free cancellation up to 24 hours; displayed 5/5 from 2 reviews. Sample is too small to infer broad quality."
+      }
     }
   },
   "attractions": {

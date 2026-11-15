@@ -1428,7 +1428,9 @@
     "attraction_slugs": [
       "ouidah-and-ganvie"
     ],
-    "activity_slugs": [],
+    "activity_slugs": [
+      "ouidah-ganvie-heritage-excursion"
+    ],
     "accommodation_slugs": [
       "casa-del-papa"
     ],
@@ -1443,7 +1445,7 @@
       "/images/editorial/ouidah-ganvie-local-destination/ouidah-route-des-esclaves-tree-of-oblivion.jpg",
       "/images/editorial/ouidah-ganvie-local-destination/casa-del-papa-beach-lagoon.jpg"
     ],
-    "last_researched": "2026-11-14",
+    "last_researched": "2026-11-15",
     "research_sources": [
       {
         "label": "Benin Government: Attractions et monuments (checked 2026-11-14)",
