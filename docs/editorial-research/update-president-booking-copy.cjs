@@ -1,0 +1,10 @@
+const fs = require('fs');
+const p = 'content/editorial-overrides.json';
+let s = fs.readFileSync(p, 'utf8');
+const oldTxt = 'Cancellation and prepayment terms vary by rate type.';
+const newTxt = 'Cancellation and prepayment terms vary by rate type. Our on-page booking card is held back for now because the affiliate wrap of this URL does not yet land on the exact property page; the Booking.com page above remains the reference to open directly.';
+if (!s.includes(oldTxt)) throw new Error('booking paragraph not found');
+s = s.replace(oldTxt, newTxt);
+fs.writeFileSync(p, s);
+JSON.parse(s);
+console.log('copy updated');

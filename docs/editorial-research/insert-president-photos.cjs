@@ -1,0 +1,128 @@
+const fs = require('fs');
+const p = 'src/lib/photo-library.js';
+let s = fs.readFileSync(p, 'utf8');
+
+const dir = '/images/editorial/president-hotel-bantry-bay/';
+const entries = [
+  {
+    path: dir + 'bantry-bay-coastline.jpg',
+    slug: 'president-bantry-bay-coastline',
+    source_page: 'https://commons.wikimedia.org/wiki/File:Bantry_Bay_Cape_Town.jpg',
+    source_title: 'Bantry Bay Cape Town.jpg',
+    creator: 'SkyPixels',
+    license: 'CC BY-SA 4.0',
+    license_url: 'https://creativecommons.org/licenses/by-sa/4.0/',
+    sha256: 'f9fd85f360a7f69fde44f556b4be2ca0b63be67521de555dcccd15c6a927bd36',
+    sha1: '2fba8b77c5abff32ff19719dc15eab4a9d76cbe1',
+    revision_id: null,
+    revision_date: '2016-08-02',
+    date: '2016-08-02',
+    subject: "Bantry Bay coastline, Cape Town — the Atlantic shoreline at the President Hotel's Bantry Bay suburb",
+    alt: 'Rocky Bantry Bay coastline beneath the slopes of Lion\u2019s Head, Cape Town, where the President Hotel stands.',
+    evidence: 'Commons description: "Bantry Bay is an affluent suburb of Cape Town situated on the slopes of Lion\u2019s Head and overlooking a rocky coastline". Destination setting, not a photograph of the accommodation.',
+  },
+  {
+    path: dir + 'sea-point-promenade-coast.jpg',
+    slug: 'president-sea-point-promenade-coast',
+    source_page: 'https://commons.wikimedia.org/wiki/File:Cape_Town_(ZA),_Sea_Point_Promenade,_K%C3%BCste_--_2024_--_3632.jpg',
+    source_title: 'Cape Town (ZA), Sea Point Promenade, Küste -- 2024 -- 3632.jpg',
+    creator: 'Dietmar Rabich',
+    license: 'CC BY-SA 4.0',
+    license_url: 'https://creativecommons.org/licenses/by-sa/4.0/',
+    sha256: 'dcfe0b6f71aca7beee08b3a114cd4f0c61483946bf5c02594b5ab16e487682f5',
+    sha1: '1556e3da44e5768ad1a04d9a4cd4b74c84943e24',
+    revision_id: null,
+    revision_date: '2024-03-27',
+    date: '2024-03-02',
+    subject: 'Sea Point promenade coastline near the President Hotel',
+    alt: 'The Sea Point promenade follows the Atlantic coastline in Cape Town, a short walk from the President Hotel.',
+    evidence: 'Commons description: "Coast in Sea Point, Cape Town, Western Cape, South Africa". Destination setting, not a photograph of the accommodation.',
+  },
+  {
+    path: dir + 'sea-point-promenade-sunset.jpg',
+    slug: 'president-sea-point-promenade-sunset',
+    source_page: 'https://commons.wikimedia.org/wiki/File:Cape_Town_(ZA),_Sea_Point_Promenade,_Sonnenuntergang_--_2024_--_1835.jpg',
+    source_title: 'Cape Town (ZA), Sea Point Promenade, Sonnenuntergang -- 2024 -- 1835.jpg',
+    creator: 'Dietmar Rabich',
+    license: 'CC BY-SA 4.0',
+    license_url: 'https://creativecommons.org/licenses/by-sa/4.0/',
+    sha256: '1ce5fb19a83e44174308bbc3022a0a30d6c53605b42585fad29e94044b4ce14c',
+    sha1: '059555f2c20ea1c35500afeb79b2afa05770069f',
+    revision_id: null,
+    revision_date: '2024-03-15',
+    date: '2024-03-04',
+    subject: 'Sunset over the Sea Point promenade',
+    alt: 'Sunset over the Atlantic from the Sea Point promenade in Cape Town, near the President Hotel.',
+    evidence: 'Commons description: "Sunset, Sea Point, Cape Town, Western Cape, South Africa". Destination setting, not a photograph of the accommodation.',
+  },
+  {
+    path: dir + 'green-point-lighthouse.jpg',
+    slug: 'president-green-point-lighthouse',
+    source_page: 'https://commons.wikimedia.org/wiki/File:Cape_Town_(ZA),_Green_Point_Lighthouse_--_2024_--_3566.jpg',
+    source_title: 'Cape Town (ZA), Green Point Lighthouse -- 2024 -- 3566.jpg',
+    creator: 'Dietmar Rabich',
+    license: 'CC BY-SA 4.0',
+    license_url: 'https://creativecommons.org/licenses/by-sa/4.0/',
+    sha256: '6c0d8666b6543768cc7d6b4c1cb8ba16ac4b390ca35baa5ec56b5f8ab213dc98',
+    sha1: 'bd057fc83a54b334b9bae40d4c3a340c73a2ce2d',
+    revision_id: null,
+    revision_date: '2024-03-27',
+    date: '2024-03-02',
+    subject: 'Green Point Lighthouse, Cape Town — landmark between Sea Point and the city centre',
+    alt: 'Green Point Lighthouse in Cape Town, between the Sea Point shore and the city centre.',
+    evidence: 'Commons description: "Green Point Lighthouse, Cape Town, Western Cape, South Africa". Destination setting, not a photograph of the accommodation.',
+  },
+  {
+    path: dir + 'sea-point-view.jpg',
+    slug: 'president-sea-point-view',
+    source_page: 'https://commons.wikimedia.org/wiki/File:Sea_Point,_Cape_Town,_South_Africa_(Unsplash).jpg',
+    source_title: 'Sea Point, Cape Town, South Africa (Unsplash).jpg',
+    creator: "John O'Nolan johnonolan",
+    license: 'CC0',
+    license_url: 'https://creativecommons.org/publicdomain/zero/1.0/',
+    sha256: 'ef66c7611bb5f92d5e508798600030e3d7dde96a950f1cb0274648d40ec7cc06',
+    sha1: '13fbc28f332c069d503be6143c7c6679d4c5372c',
+    revision_id: null,
+    revision_date: '2017-08-22',
+    date: '2017-03-25',
+    subject: 'Sea Point, Cape Town — the neighborhood base of the President Hotel',
+    alt: 'A view across Sea Point, Cape Town, the seaside neighborhood around the President Hotel.',
+    evidence: 'Commons description: "Sea Point, Cape Town, South Africa". Destination setting, not a photograph of the accommodation.',
+  },
+  {
+    path: dir + 'sea-point-aerial.jpg',
+    slug: 'president-sea-point-aerial',
+    source_page: 'https://commons.wikimedia.org/wiki/File:Aerial_View_of_Sea_Point,_Cape_Town_South_Africa.jpg',
+    source_title: 'Aerial View of Sea Point, Cape Town South Africa.jpg',
+    creator: 'Hilton1949',
+    license: 'CC BY-SA 3.0',
+    license_url: 'https://creativecommons.org/licenses/by-sa/3.0/',
+    sha256: '6fa90664c79d57d3f5b4c2b9a585c0c98f6cccb6de24f60fe8798ac204d9b4b9',
+    sha1: 'f7a3752a15558e3869ec4ca225735a0aacad87be',
+    revision_id: null,
+    revision_date: '2011-03-08',
+    date: '2009-06-29',
+    subject: 'Aerial view of Sea Point, Cape Town',
+    alt: 'Aerial view over Sea Point, Cape Town, showing the shore and the neighborhood around the President Hotel.',
+    evidence: 'Commons description: "Aerial View of Sea Point, Cape Town South Africa". Destination setting, not a photograph of the accommodation.',
+  },
+];
+
+const block = entries.map(e => `    ${JSON.stringify(e.path)}: {
+      "slug": ${JSON.stringify(e.slug)}, "local_path": ${JSON.stringify(e.path)},
+      "source_page": ${JSON.stringify(e.source_page)}, "source_title": ${JSON.stringify(e.source_title)}, "creator": ${JSON.stringify(e.creator)},
+      "license": ${JSON.stringify(e.license)}, "license_url": ${JSON.stringify(e.license_url)},
+      "sha256": ${JSON.stringify(e.sha256)}, "source_sha1": ${JSON.stringify(e.sha1)}, "source_revision_id": ${JSON.stringify(e.revision_id)}, "source_revision_date": ${JSON.stringify(e.revision_date)},
+      "checked_date": "2026-11-16", "date": ${JSON.stringify(e.date)},
+      "exact_subject": false, "subject": ${JSON.stringify(e.subject)}, "kind": "photograph",
+      "alt": ${JSON.stringify(e.alt)},
+      "exact_subject_evidence": ${JSON.stringify(e.evidence)},
+      "restrictions": "Destination-setting image, explicitly labelled as not a photograph of the accommodation. Photo licence only; no endorsement or separate personality/property rights. Follow attribution and share-alike terms where applicable."
+    },`).join('\n');
+
+const marker = '  },\n  "listings": {';
+if (!s.includes(marker)) throw new Error('marker not found');
+s = s.replace(marker, block + '\n  },\n  "listings": {');
+s = s.replace('"updated_at": "2026-11-15"', '"updated_at": "2026-11-16"');
+fs.writeFileSync(p, s);
+console.log('inserted', entries.length, 'entries; file bytes', s.length);

@@ -1,7 +1,7 @@
 // Curated source. Run node scripts/sync-photo-library.mjs after editing.
 // Curated free photography; source and licence metadata travel with each image.
 export const photoLibrary = {
-  "updated_at": "2026-11-15",
+  "updated_at": "2026-11-16",
   "images": {
     "/images/editorial/marrakech-destination/jemaa-el-fna-market-day.jpg": {
       "kind": "photograph", "slug": "jemaa-el-fna-market-day", "local_path": "/images/editorial/marrakech-destination/jemaa-el-fna-market-day.jpg",
@@ -12126,6 +12126,72 @@ export const photoLibrary = {
       "checked_at": "2026-11-11",
       "exact_subject_evidence": "Commons description \"Jollyboys Backpackers, Livingstone, Zambia\"; DateTimeOriginal 2019-08-17; cc-by-2.0; photographer Fabio Achilli.",
       "reuse_note": "Attribution required: credit Fabio Achilli, CC BY 2.0, source file page. Attribution appears on-page in the figure caption. Exact-property photograph of Jollyboys Backpackers bar courtyard in Livingstone."
+    },
+    "/images/editorial/president-hotel-bantry-bay/bantry-bay-coastline.jpg": {
+      "slug": "president-bantry-bay-coastline", "local_path": "/images/editorial/president-hotel-bantry-bay/bantry-bay-coastline.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Bantry_Bay_Cape_Town.jpg", "source_title": "Bantry Bay Cape Town.jpg", "creator": "SkyPixels",
+      "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "sha256": "f9fd85f360a7f69fde44f556b4be2ca0b63be67521de555dcccd15c6a927bd36", "source_sha1": "2fba8b77c5abff32ff19719dc15eab4a9d76cbe1", "source_revision_id": null, "source_revision_date": "2016-08-02",
+      "checked_date": "2026-11-16", "date": "2016-08-02",
+      "exact_subject": false, "subject": "Bantry Bay coastline, Cape Town — the Atlantic shoreline at the President Hotel's Bantry Bay suburb", "kind": "photograph",
+      "alt": "Rocky Bantry Bay coastline beneath the slopes of Lion’s Head, Cape Town, where the President Hotel stands.",
+      "exact_subject_evidence": "Commons description: \"Bantry Bay is an affluent suburb of Cape Town situated on the slopes of Lion’s Head and overlooking a rocky coastline\". Destination setting, not a photograph of the accommodation.",
+      "restrictions": "Destination-setting image, explicitly labelled as not a photograph of the accommodation. Photo licence only; no endorsement or separate personality/property rights. Follow attribution and share-alike terms where applicable."
+    },
+    "/images/editorial/president-hotel-bantry-bay/sea-point-promenade-coast.jpg": {
+      "slug": "president-sea-point-promenade-coast", "local_path": "/images/editorial/president-hotel-bantry-bay/sea-point-promenade-coast.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Cape_Town_(ZA),_Sea_Point_Promenade,_K%C3%BCste_--_2024_--_3632.jpg", "source_title": "Cape Town (ZA), Sea Point Promenade, Küste -- 2024 -- 3632.jpg", "creator": "Dietmar Rabich",
+      "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "sha256": "dcfe0b6f71aca7beee08b3a114cd4f0c61483946bf5c02594b5ab16e487682f5", "source_sha1": "1556e3da44e5768ad1a04d9a4cd4b74c84943e24", "source_revision_id": null, "source_revision_date": "2024-03-27",
+      "checked_date": "2026-11-16", "date": "2024-03-02",
+      "exact_subject": false, "subject": "Sea Point promenade coastline near the President Hotel", "kind": "photograph",
+      "alt": "The Sea Point promenade follows the Atlantic coastline in Cape Town, a short walk from the President Hotel.",
+      "exact_subject_evidence": "Commons description: \"Coast in Sea Point, Cape Town, Western Cape, South Africa\". Destination setting, not a photograph of the accommodation.",
+      "restrictions": "Destination-setting image, explicitly labelled as not a photograph of the accommodation. Photo licence only; no endorsement or separate personality/property rights. Follow attribution and share-alike terms where applicable."
+    },
+    "/images/editorial/president-hotel-bantry-bay/sea-point-promenade-sunset.jpg": {
+      "slug": "president-sea-point-promenade-sunset", "local_path": "/images/editorial/president-hotel-bantry-bay/sea-point-promenade-sunset.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Cape_Town_(ZA),_Sea_Point_Promenade,_Sonnenuntergang_--_2024_--_1835.jpg", "source_title": "Cape Town (ZA), Sea Point Promenade, Sonnenuntergang -- 2024 -- 1835.jpg", "creator": "Dietmar Rabich",
+      "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "sha256": "1ce5fb19a83e44174308bbc3022a0a30d6c53605b42585fad29e94044b4ce14c", "source_sha1": "059555f2c20ea1c35500afeb79b2afa05770069f", "source_revision_id": null, "source_revision_date": "2024-03-15",
+      "checked_date": "2026-11-16", "date": "2024-03-04",
+      "exact_subject": false, "subject": "Sunset over the Sea Point promenade", "kind": "photograph",
+      "alt": "Sunset over the Atlantic from the Sea Point promenade in Cape Town, near the President Hotel.",
+      "exact_subject_evidence": "Commons description: \"Sunset, Sea Point, Cape Town, Western Cape, South Africa\". Destination setting, not a photograph of the accommodation.",
+      "restrictions": "Destination-setting image, explicitly labelled as not a photograph of the accommodation. Photo licence only; no endorsement or separate personality/property rights. Follow attribution and share-alike terms where applicable."
+    },
+    "/images/editorial/president-hotel-bantry-bay/green-point-lighthouse.jpg": {
+      "slug": "president-green-point-lighthouse", "local_path": "/images/editorial/president-hotel-bantry-bay/green-point-lighthouse.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Cape_Town_(ZA),_Green_Point_Lighthouse_--_2024_--_3566.jpg", "source_title": "Cape Town (ZA), Green Point Lighthouse -- 2024 -- 3566.jpg", "creator": "Dietmar Rabich",
+      "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "sha256": "6c0d8666b6543768cc7d6b4c1cb8ba16ac4b390ca35baa5ec56b5f8ab213dc98", "source_sha1": "bd057fc83a54b334b9bae40d4c3a340c73a2ce2d", "source_revision_id": null, "source_revision_date": "2024-03-27",
+      "checked_date": "2026-11-16", "date": "2024-03-02",
+      "exact_subject": false, "subject": "Green Point Lighthouse, Cape Town — landmark between Sea Point and the city centre", "kind": "photograph",
+      "alt": "Green Point Lighthouse in Cape Town, between the Sea Point shore and the city centre.",
+      "exact_subject_evidence": "Commons description: \"Green Point Lighthouse, Cape Town, Western Cape, South Africa\". Destination setting, not a photograph of the accommodation.",
+      "restrictions": "Destination-setting image, explicitly labelled as not a photograph of the accommodation. Photo licence only; no endorsement or separate personality/property rights. Follow attribution and share-alike terms where applicable."
+    },
+    "/images/editorial/president-hotel-bantry-bay/sea-point-view.jpg": {
+      "slug": "president-sea-point-view", "local_path": "/images/editorial/president-hotel-bantry-bay/sea-point-view.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Sea_Point,_Cape_Town,_South_Africa_(Unsplash).jpg", "source_title": "Sea Point, Cape Town, South Africa (Unsplash).jpg", "creator": "John O'Nolan johnonolan",
+      "license": "CC0", "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "sha256": "ef66c7611bb5f92d5e508798600030e3d7dde96a950f1cb0274648d40ec7cc06", "source_sha1": "13fbc28f332c069d503be6143c7c6679d4c5372c", "source_revision_id": null, "source_revision_date": "2017-08-22",
+      "checked_date": "2026-11-16", "date": "2017-03-25",
+      "exact_subject": false, "subject": "Sea Point, Cape Town — the neighborhood base of the President Hotel", "kind": "photograph",
+      "alt": "A view across Sea Point, Cape Town, the seaside neighborhood around the President Hotel.",
+      "exact_subject_evidence": "Commons description: \"Sea Point, Cape Town, South Africa\". Destination setting, not a photograph of the accommodation.",
+      "restrictions": "Destination-setting image, explicitly labelled as not a photograph of the accommodation. Photo licence only; no endorsement or separate personality/property rights. Follow attribution and share-alike terms where applicable."
+    },
+    "/images/editorial/president-hotel-bantry-bay/sea-point-aerial.jpg": {
+      "slug": "president-sea-point-aerial", "local_path": "/images/editorial/president-hotel-bantry-bay/sea-point-aerial.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Aerial_View_of_Sea_Point,_Cape_Town_South_Africa.jpg", "source_title": "Aerial View of Sea Point, Cape Town South Africa.jpg", "creator": "Hilton1949",
+      "license": "CC BY-SA 3.0", "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "sha256": "6fa90664c79d57d3f5b4c2b9a585c0c98f6cccb6de24f60fe8798ac204d9b4b9", "source_sha1": "f7a3752a15558e3869ec4ca225735a0aacad87be", "source_revision_id": null, "source_revision_date": "2011-03-08",
+      "checked_date": "2026-11-16", "date": "2009-06-29",
+      "exact_subject": false, "subject": "Aerial view of Sea Point, Cape Town", "kind": "photograph",
+      "alt": "Aerial view over Sea Point, Cape Town, showing the shore and the neighborhood around the President Hotel.",
+      "exact_subject_evidence": "Commons description: \"Aerial View of Sea Point, Cape Town South Africa\". Destination setting, not a photograph of the accommodation.",
+      "restrictions": "Destination-setting image, explicitly labelled as not a photograph of the accommodation. Photo licence only; no endorsement or separate personality/property rights. Follow attribution and share-alike terms where applicable."
     },
   },
   "listings": {
