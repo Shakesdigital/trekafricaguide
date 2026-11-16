@@ -18,12 +18,14 @@
       "url": "https://www.booking.com/hotel/bj/casa-del-papa.html",
       "provider": "booking",
       "title": "Casa Del Papa Resort",
-      "checked_at": "2026-11-14",
+      "checked_at": "2026-11-16",
       "evidence": {
         "source_url": "https://www.booking.com/hotel/bj/casa-del-papa.html",
         "summary": "Primary property detail identifies Casa Del Papa Resort at Ouidah Plage, Benin. 7.9/10 from 429 reviews.",
         "verification_2026-11-14": "Stay22 redirect chain lands on exact property detail page /hotel/bj/casa-del-papa.html (not searchresults.html). Full property detail confirmed: name, address, 429 reviews, room types, facilities, house rules. Prior wrapper instability resolved."
-      }
+      },
+      "status": "hold",
+      "hold_reason": "16 November 2026 scheduled 4-hour audit: Stay22 wrap of /hotel/bj/casa-del-papa.html alternates between searchresults.html (dest_id=1805469) and exact detail page across retries. Wrapper unstable."
     },
     "dar-said": {
       "url": "https://www.booking.com/hotel/tn/dar-said.en-gb.html",
@@ -55,7 +57,7 @@
       "url": "https://www.booking.com/hotel/cv/hilton-cabo-verde-sal-resort.html",
       "provider": "booking",
       "title": "Hilton Cabo Verde Sal Resort",
-      "checked_at": "2026-11-12",
+      "checked_at": "2026-11-16",
       "evidence": {
         "source_url": "https://www.booking.com/hotel/cv/hilton-cabo-verde-sal-resort.html",
         "summary": "12 November 2026 (Kampala), scheduled routine: browser search for 'Hilton Cabo Verde Sal Resort' returned the exact property detail page at /hotel/cv/hilton-cabo-verde-sal-resort.html (locale-free), identifying Hilton Cabo Verde Sal Resort in Santa Maria, Cape Verde. Switched from .en-gb variant which redirected to search. Direct detail content bot-walled; no OTA rating, review count, rates, availability or attribution claims made."
@@ -78,7 +80,7 @@
       "url": "https://www.booking.com/hotel/sn/les-pala-c-tuviers.en-gb.html",
       "provider": "booking",
       "title": "Les Palétuviers — Toubakouta, Senegal",
-      "checked_at": "2026-11-14",
+      "checked_at": "2026-11-16",
       "evidence": {
         "source_url": "https://www.booking.com/hotel/sn/les-pala-c-tuviers.en-gb.html",
         "summary": "Exact property detail identifies Les Palétuviers at Sine Saloum, Toubakouta, Senegal. 7.7/10 from 149 reviews.",
@@ -114,7 +116,7 @@
       "url": "https://www.booking.com/hotel/za/belmond-mount-nelson.html",
       "provider": "booking",
       "title": "Mount Nelson, A Belmond Hotel, Cape Town",
-      "checked_at": "2026-11-15",
+      "checked_at": "2026-11-16",
       "rating": "9.7/10",
       "review_count": 184,
       "evidence": {
@@ -140,12 +142,14 @@
       "url": "https://www.booking.com/hotel/ug/paraa-safari-lodge.html",
       "provider": "booking",
       "title": "Paraa Safari Lodge",
-      "checked_at": "2026-11-14",
+      "checked_at": "2026-11-16",
       "evidence": {
         "source_url": "https://www.booking.com/hotel/ug/paraa-safari-lodge.html",
         "summary": "Exact Paraa Safari Lodge listing identifies the property in Paraa, Uganda, Murchison Falls National Park. 8.5/10 from 46 reviews.",
         "verification_2026-11-14": "Stay22 redirect chain lands on exact property detail page /hotel/ug/paraa-safari-lodge.html (not searchresults.html). Full property detail confirmed: name, location, 46 reviews, room types, facilities, house rules. Prior wrapper instability resolved. Note: listing previously noted not accepting reservations; availability unconfirmed."
-      }
+      },
+      "status": "hold",
+      "hold_reason": "16 November 2026 scheduled 4-hour audit: Stay22 wrap of /hotel/ug/paraa-safari-lodge.html alternates between searchresults.html (dest_id=1693415) and exact detail page across retries. Wrapper unstable."
     },
     "ridge-royal-hotel": {
       "url": "https://www.booking.com/hotel/gh/ridge-royal-cape-coast.en-gb.html",
@@ -178,7 +182,7 @@
       "url": "https://www.booking.com/hotel/na/sossusvlei-lodge.en-gb.html",
       "provider": "booking",
       "title": "Sossusvlei Lodge",
-      "checked_at": "2026-11-14",
+      "checked_at": "2026-11-16",
       "evidence": {
         "source_url": "https://www.booking.com/hotel/na/sossusvlei-lodge.en-gb.html",
         "summary": "Exact property detail identifies Sossusvlei Lodge at Farm on D826, Sesriem, Namibia. 8.7/10 from 1,352 reviews.",
@@ -189,7 +193,7 @@
       "url": "https://www.agoda.com/en-ie/the-place-resort-at-tokeh-beach-h88167521/hotel/toke-sl.html",
       "provider": "agoda",
       "title": "The Place Resort At Tokeh Beach",
-      "checked_at": "2026-11-11",
+      "checked_at": "2026-11-16",
       "evidence": {
         "source_url": "https://www.agoda.com/en-ie/the-place-resort-at-tokeh-beach-h88167521/hotel/toke-sl.html",
         "summary": "Browser-verified 11 November 2026: Stay22 Agoda redirect opens this full property detail listing, naming The Place Resort At Tokeh Beach at Peninsula Road, Toke, Sierra Leone, with overview, rooms and facilities. Replaces held Expedia search-page landing. No numerical review score/count was verified; no current price, availability, checkout or affiliate attribution claim."
@@ -267,7 +271,7 @@
       "url": "https://www.booking.com/hotel/ke/amboseli-serena-safari-lodge.html",
       "provider": "booking",
       "title": "Amboseli Serena Safari Lodge",
-      "checked_at": "2026-11-14",
+      "checked_at": "2026-11-16",
       "evidence": {
         "source_url": "https://www.booking.com/hotel/ke/amboseli-serena-safari-lodge.html",
         "summary": "14 November 2026 scheduled 4-hour audit: switched from .en-gb variant which redirected to searchresults.html (dest_id=4722582). Locale-free canonical /hotel/ke/amboseli-serena-safari-lodge.html verified via browser search as exact property detail page for Amboseli Serena Safari Lodge, Kenya; name/location cross-checked with Serena official Amboseli page. Direct request returns JavaScript verification (bot-walled). No availability, current price, aggregate rating or affiliate attribution independently verified."
@@ -393,7 +397,7 @@
       "url": "https://www.booking.com/hotel/zm/the-royal-livingstone.html",
       "provider": "booking",
       "title": "Royal Livingstone Hotel by Anantara",
-      "checked_at": "2026-11-14",
+      "checked_at": "2026-11-16",
       "evidence": {
         "source_url": "https://www.booking.com/hotel/zm/the-royal-livingstone.html",
         "summary": "Browser-verified 14 November 2026: exact property detail page at /hotel/zm/the-royal-livingstone.html identifies Royal Livingstone Hotel by Anantara on Mosi-oa-Tunya Road, Livingstone, Zambia. 8.7/10 from 150 reviews. Location 9.6/10. Room categories, facilities, house rules, and 2.5 km to Victoria Falls confirmed on page.",

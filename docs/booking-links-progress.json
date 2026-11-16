@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-15T13:22:00.000Z",
+  "updated_at": "2026-11-16T13:22:00.000Z",
   "owner": "booking-links audit agent",
   "ledger": "docs/editorial-research/2026-11-08-booking-links-audit.md",
   "run_1": {
@@ -83,7 +83,9 @@
     "accommodations/kibale-forest-camp": "13 November 2026 scheduled 4-hour audit: Stay22 wrapper redirects locale-free source to multi-property Booking.com searchresults.html (dest_id=3678955). Prior exact-detail observations unstable; suppress until a reliable wrapped full-detail listing is verified.",
     "accommodations/emerson-spice": "13 November 2026 scheduled 4-hour audit: Stay22 wrapper redirects .en-gb source to multi-property Booking.com searchresults.html (dest_id=12566246). Prior exact-detail observations unstable; suppress until a reliable wrapped full-detail listing is verified.",
     "accommodations/serengeti-serena-safari-lodge": "13 November 2026 scheduled 4-hour audit: Stay22 wrapper redirects .en-gb source to multi-property Booking.com searchresults.html (dest_id=2357218). Suppress until a reliable wrapped full-detail listing is verified.",
-    "accommodations/desert-quiver-camp": "13 November 2026 scheduled 4-hour audit: Stay22 wrapper redirects locale-free source to multi-property Booking.com searchresults.html (dest_id=1582394). Prior exact-detail observations unstable; suppress until a reliable wrapped full-detail listing is verified."
+    "accommodations/desert-quiver-camp": "13 November 2026 scheduled 4-hour audit: Stay22 wrapper redirects locale-free source to multi-property Booking.com searchresults.html (dest_id=1582394). Prior exact-detail observations unstable; suppress until a reliable wrapped full-detail listing is verified.",
+    "accommodations/casa-del-papa": "16 November 2026 scheduled 4-hour audit: Stay22 wrap of /hotel/bj/casa-del-papa.html alternates between searchresults.html (dest_id=1805469, dest_type=hotel) and the exact detail page across retries. Wrapper instability confirmed. Suppress CTA until a stable exact-detail landing is verified.",
+    "accommodations/paraa-safari-lodge": "16 November 2026 scheduled 4-hour audit: Stay22 wrap of /hotel/ug/paraa-safari-lodge.html alternates between searchresults.html (dest_id=1693415, dest_type=hotel) and the exact detail page across retries. Wrapper instability confirmed. Suppress CTA until a stable exact-detail landing is verified."
   },
   "production_verification": {
     "deploy_with_run_1": {
@@ -152,7 +154,7 @@
       "result": "Expedia Hotel-Search landing -> held; CTA confirmed suppressed on production after run-2 deploy"
     }
   ],
-  "next_action": "Research exact wrapped replacements for the remaining held accommodations, prioritising stays whose direct detail is real but whose wrap alternates (fairway-boutique-hotel, kigali-serena-hotel, amboseli-serena-safari-lodge). For city-search holds (Victoria Falls, Kruger Shalati, Maribela, Kibale, Desert Quiver, Red Chilli, Mountains of the Moon, Nairobi Serena, White Sand, Serengeti Serena, Ol Tukai, Jollyboys) find an exact OTA detail URL rather than retrying the same Booking.com path. Also fix the two booking test imports (ERR_IMPORT_ATTRIBUTE_MISSING) separately from content edits.",
+  "next_action": "Continue chipping at the 20 held accommodations. The wrapper alternates between exact detail and searchresults for many Booking.com entries (casa-del-papa, paraa, mount-nelson, etc.) — these are not permanently broken but unreliable. Priority: research exact wrapped replacements for the largest holds (victoria-falls-hotel, kruger-shalati, maribela-hotel, kibale-forest-camp, desert-quiver-camp, red-chilli-rest-camp, mountains-of-the-moon-hotel, nairobi-serena-hotel, zanzibar-white-sand-luxury-villas, serengeti-serena-safari-lodge) and retry wraps for alternating ones (casa-del-papa, paraa) with multiple attempts.",
   "run_2026-11-12_14h": {
     "date": "2026-11-12",
     "scheduled_for": "2026-11-12T14:19:02.178Z",
@@ -497,6 +499,19 @@
       "content_commits": [],
       "production_deploy": "Netlify ready 6af9b95ecb2cd269cc5308bf (main production). Commit 4a0b6fc pushed and live CTA confirmed.",
       "production_verification": "15 Nov 2026 ~13:55 UTC: https://trekafricaguide.com/accommodations/mount-nelson-a-belmond-hotel/ shows Book a stay via Booking.com. A real click opened https://www.booking.com/hotel/za/belmond-mount-nelson.html in a new tab: h1 Mount Nelson, A Belmond Hotel, Cape Town; 76 Orange Street, Gardens, 8001 Cape Town; Reserve; 9.7 Exceptional from 184 reviews; not searchresults.html. Earlier in the same minute before cache roll-out the CTA was still absent; the published URL then had it."
+    },
+    {
+      "date": "2026-11-16",
+      "scheduled_for": "2026-11-16T13:22:00.000Z",
+      "checked": 9,
+      "pass": 6,
+      "fail": 2,
+      "fixed": 0,
+      "added": 0,
+      "new_holds": 2,
+      "notes": "Scheduled 4-hour audit rotating slice. Server-side Stay22 redirect chain verification for all 9 active accommodations. PASS (exact detail landing): hilton-cabo-verde-sal-resort, les-paletuviers, mount-nelson-a-belmond-hotel, sossusvlei-lodge, amboseli-serena-safari-lodge, royal-livingstone-hotel (all Booking.com /hotel/ paths), the-place-resort-tokeh (Agoda exact property, HTTP 200). NEW HOLDS (wrapper alternates between detail and searchresults.html): casa-del-papa (searchresults dest_id=1805469 then exact detail on retry) and paraa-safari-lodge (alternates searchresults dest_id=1693415 / exact detail across 3 attempts). Both moved to hold. check:build-inputs not yet run (pending).",
+      "content_commits": [],
+      "production_deploy": "pending"
     }
   ],
   "method_rule": "Booking.com searchresults.html with dest_type=hotel is NOT proof of an exact detail landing. Browser content wins over server URL shape; never count bot-walled bodies as verified full-detail pages. All providers require exact detail landings."
