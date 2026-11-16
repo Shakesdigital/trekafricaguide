@@ -1549,5 +1549,63 @@
     "sort_order": 3,
     "status": "published",
     "published_at": "2026-11-16T00:00:00Z"
+  },
+  {
+    "slug": "serengeti",
+    "country_slug": "tanzania",
+    "name": "Serengeti",
+    "category": "Park and plains",
+    "hero_title": "Serengeti: choosing your time in the endless plains",
+    "listing_summary": "Plan a Serengeti stay around one region, the season you actually need, and the transfers that make the distances workable.",
+    "overview": "Serengeti National Park is a large, changing wildlife landscape rather than a single viewpoint, and UNESCO describes its 1.5 million hectares of savannah as the stage for the largest remaining unaltered animal migration on earth. Grasslands, river corridors, woodlands and rocky outcrops (kopjes) give different parts of the park their own character, so the real planning decision is which region, in which month, for how long.\n\nThe published Serengeti National Park attraction guide explains the park as a whole and its visitor activities. This guide helps you organize a stay inside or beside it: matching your base to the season you need, keeping the distances realistic, and separating what your camp charges from what the park, the airstrip and optional activities charge.\n\nA visit does not need to chase the migration to succeed. Resident wildlife in the Seronera valley and the kopjes rewards a slower stay in any month, and UNESCO lists the park’s predator and ungulate populations among the highest concentrations in the world. Treat the movement of the herds as one interest among several, not the only measure of a good trip.",
+    "highlights": [
+      "Wildlife viewing across plains, river country and kopjes in one park",
+      "Seasonal migration and calving interest, verified against your dates",
+      "Optional balloon excursions with verified operators",
+      "A published in-park stay with its own full property guide"
+    ],
+    "access_summary": "The park sits in northern Tanzania, and UNESCO records its property area as 1,476,300 hectares with Mara, Arusha and Shinyanga provinces around it. TANAPA identifies Arusha and Kilimanjaro as the principal planning gateways; from there, road itineraries and light-aircraft itineraries trade cost, time and baggage limits. The published attraction guide carries the transfer detail; confirm your final airstrip against your camp and book the last leg as its own step.\n\nThe Serengeti Serena Safari Lodge guide records an Arusha distance of 335 km by road and a Seronera airstrip 27 km from that lodge, with published check-in and check-out times. Use those figures as an example of why airstrip-to-camp distance matters, then confirm the numbers for your own dates. The published Serengeti balloon safari guide covers the launch-side logistics for an added excursion.",
+    "best_time": "TANAPA highlights June to October for dry-season migration travel and January to February for calving interest, while location matters as much as the month: the herds move, and the same camp can be far from the action a brochure shows. UNESCO notes that only the Mara River flows perennially through the park, which shapes where wildlife concentrates in dry months. Ask your chosen camp about recent conditions and seasonal openings, and carry the same patience with river crossings as with the rest of the plan.",
+    "planning_tips": "A workable first structure is several nights in one chosen area, adding a second only when the season or your interests justify the transfer. In your quotation, keep accommodation charges separate from park, concession, transport and optional activity charges, and check baggage limits for any light-aircraft sector.\n\nSerengeti Serena Safari Lodge has its own full property guide on this site and is the published in-park stay; compare its room categories, published from-rates and what sits inside and outside the room rate directly with the operator. No verified booking link exists for that property yet, so treat any third-party booking route you find as unverified until the owner publishes one. The paired Tanzania insight explains how a Serengeti itinerary combines with Zanzibar without stealing days from the park.",
+    "attraction_slugs": [
+      "serengeti-national-park"
+    ],
+    "activity_slugs": [
+      "serengeti-balloon-safari"
+    ],
+    "accommodation_slugs": [
+      "serengeti-serena-safari-lodge"
+    ],
+    "travel_insight_slugs": [
+      "pair-tanzania-safari-with-zanzibar-coast"
+    ],
+    "hero_image_url": "/images/editorial/serengeti-local-destination/plaines-du-serengeti.jpg",
+    "hero_image_alt": "Open short-grass Serengeti plains under a broad sky, with small scattered trees at the horizon",
+    "gallery": [
+      "/images/editorial/serengeti-local-destination/plaines-du-serengeti.jpg",
+      "/images/editorial/serengeti-local-destination/great-migration-kogatende.jpg",
+      "/images/editorial/serengeti-local-destination/zebras-among-acacias.jpg",
+      "/images/editorial/serengeti-local-destination/cheetah-shade-solitary-tree.jpg",
+      "/images/editorial/serengeti-local-destination/lioness-atop-kopje.jpg",
+      "/images/editorial/serengeti-local-destination/masai-giraffe-serengeti.jpg"
+    ],
+    "last_researched": "2026-11-16",
+    "research_sources": [
+      {
+        "label": "UNESCO World Heritage: Serengeti National Park (property 156, inscribed 1981, criteria vii and x)",
+        "url": "https://whc.unesco.org/en/list/156/"
+      },
+      {
+        "label": "TANAPA: Serengeti visitor overview and habitats (carried from the published attraction record, last verified in repo 2026-10-11)",
+        "url": "https://tanzaniaparks.go.tz/serengeti"
+      },
+      {
+        "label": "Serena Hotels: Serengeti Serena Safari Lodge operator page",
+        "url": "https://www.serenahotels.com/serengeti"
+      }
+    ],
+    "sort_order": 24,
+    "status": "published",
+    "published_at": "2026-11-16T00:00:00Z"
   }
 ]
