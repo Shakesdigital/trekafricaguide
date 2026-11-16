@@ -171,6 +171,30 @@ export const photoLibrary = {
       "source": "OpenAI image generation", "generated_at": "2026-11-14", "sha256": "d589b112fc2535adbb0c39e103d5286dabe6c6005430d0d583ad51d58c31c262", "alt": "Sunlit courtyard with blue doors, tilework, an olive tree and a breakfast table", "exact_subject": false, "subject": "Generic Tunisian courtyard context", "requires_attribution": false,
       "prompt_summary": "Realistic generic Tunisian guesthouse courtyard with no people or named property", "inspection": "Visual inspection found coherent architecture and objects; no specific property claim."
     },
+    "/images/editorial/choose-first-night-tunis/carthage-flag-building.jpg": {
+      "kind": "photograph", "slug": "carthage-flag-building", "local_path": "/images/editorial/choose-first-night-tunis/carthage-flag-building.jpg",
+      "source_page": "https://www.pexels.com/photo/tunisian-flag-waving-on-carthage-building-29679569/", "creator": "Mahmoud Yahyaoui", "license": "Pexels License", "license_url": "https://www.pexels.com/license/", "checked_at": "2026-11-16",
+      "sha256": "6be2c41156a67a9d4ab7aa6f1017cee0e8c28b1bd8ffcd721cf4f36442f8cd3f", "exact_subject": true, "subject": "Tunisian flag at a building in Carthage, Tunisia", "alt": "Tunisian flag waving at a building in Carthage on a sunny day", "requires_attribution": false,
+      "changes": "Pexels CDN JPEG resized to 1600 pixels wide.", "exact_subject_evidence": "Pexels photo page titled 'Tunisian Flag Waving on Carthage Building' places the scene at a building in Carthage, Tunis Governorate, Tunisia; its description reads 'Tunisian flag waving at a building in Carthage, Tunisia on a sunny day.'"
+    },
+    "/images/editorial/choose-first-night-tunis/tunis-rooftops-minaret.jpg": {
+      "kind": "photograph", "slug": "tunis-rooftops-minaret", "local_path": "/images/editorial/choose-first-night-tunis/tunis-rooftops-minaret.jpg",
+      "source_page": "https://www.pexels.com/photo/rooftop-satellite-dishes-and-minaret-in-tunis-29787870/", "creator": "Mahmoud Yahyaoui", "license": "Pexels License", "license_url": "https://www.pexels.com/license/", "checked_at": "2026-11-16",
+      "sha256": "be0442b983d2e6edf46fb0d4b2ccc00a822a5d61fd7bf906ff0d769fc0b06cee", "exact_subject": true, "subject": "Tunis urban rooftops beneath a minaret, Tunisia", "alt": "Urban rooftops with satellite dishes beneath a towering minaret in Tunis", "requires_attribution": false,
+      "changes": "Pexels CDN JPEG resized to 1600 pixels wide.", "exact_subject_evidence": "Pexels photo page titled 'Rooftop Satellite Dishes and Minaret in Tunis' places the scene in Tunis, Tunis Governorate, Tunisia; description reads 'Urban rooftops with satellite dishes beneath a towering minaret in Tunis, Tunisia.'"
+    },
+    "/images/editorial/choose-first-night-tunis/tunis-souk-elderly-merchant.jpg": {
+      "kind": "photograph", "slug": "tunis-souk-elderly-merchant", "local_path": "/images/editorial/choose-first-night-tunis/tunis-souk-elderly-merchant.jpg",
+      "source_page": "https://www.pexels.com/photo/old-man-in-tunisia-s-souk-eating-bread-27685454/", "creator": "Mahmoud Yahyaoui", "license": "Pexels License", "license_url": "https://www.pexels.com/license/", "checked_at": "2026-11-16",
+      "sha256": "958235b72d6781646b66eb40da8ebdac4354df88ee8f91190aea32032a49006e", "exact_subject": true, "subject": "Elderly merchant in a Tunis souk shop, Tunisia", "alt": "An elderly merchant sits in a Tunis souk shop surrounded by traditional wares", "requires_attribution": false,
+      "changes": "Pexels CDN JPEG resized to 1600 pixels wide.", "exact_subject_evidence": "Pexels photo page titled 'Old Man in Tunisia's Souk Eating Bread' places the scene in a Tunis souk, Tunis Governorate, Tunisia; description reads 'An elderly merchant sits in a Tunis souk shop surrounded by traditional wares.'"
+    },
+    "/images/editorial/choose-first-night-tunis/carthage-shoreline-aerial.jpg": {
+      "kind": "photograph", "slug": "carthage-shoreline-aerial", "local_path": "/images/editorial/choose-first-night-tunis/carthage-shoreline-aerial.jpg",
+      "source_page": "https://www.pexels.com/photo/harbor-in-tunis-in-sunlight-20190784/", "creator": "Mahmoud Yahyaoui", "license": "Pexels License", "license_url": "https://www.pexels.com/license/", "checked_at": "2026-11-16",
+      "sha256": "96550fd6f6a0dfe8280388abe0bd87d9f71d0ce3127c33072ef6ae6172f200ae", "exact_subject": true, "subject": "Carthage shoreline aerial view, Tunisia", "alt": "Aerial view of the Carthage shoreline and Mediterranean Sea in Tunisia", "requires_attribution": false,
+      "changes": "Pexels CDN JPEG resized to 1600 pixels wide.", "exact_subject_evidence": "Pexels photo page (location Carthage, Tunis Governorate, Tunisia) describes an aerial view of the Carthage shoreline in Tunisia; its Mediterranean Sea framing was confirmed in the downloaded file."
+    },
     "/images/editorial/kruger-attraction/elephant-graham-hunt.jpg": {
       "kind": "photograph", "slug": "elephant-graham-hunt", "local_path": "/images/editorial/kruger-attraction/elephant-graham-hunt.jpg",
       "source_page": "https://unsplash.com/photos/gray-elephant-in-woods-q-vG6Sm2e7Y", "creator": "Graham Hunt", "license": "Unsplash License", "license_url": "https://unsplash.com/license", "source_published_at": "2018-01-24", "checked_at": "2026-11-14",
