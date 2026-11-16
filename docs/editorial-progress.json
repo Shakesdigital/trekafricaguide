@@ -487,8 +487,8 @@
     "inventory_note": "Rolling inventory maintained 16 November 2026 from live directories: accommodations archive (45 stays; Cape Town one stay), Cape Town destination page (\"one published central accommodation option\"), base-by-outings insight (six properties named, one covered), activities archive and travel-insights archive re-checked for duplicate slugs. Previous 16 Nov runs shipped travel insights (Lalibela decision story) and Tunis photo enrichment; accommodations rotation due.",
     "next_category": "destinations",
     "next_action": "Rotate to destinations next run. Check the live destinations archive for an evidenced gap before writing (flagged in the ledger); six-photo property backlog and the President Stay22-wrap recheck remain open items.",
-    "commit": "see publication.content_commit",
-    "push": "see publication.push_result",
+    "commit": "4f6e242 (content) + this receipt commit",
+    "push": "success (d6b419b..4f6e242)",
     "live_receipt": "see publication.live_url / live_checks",
     "cms": "Publishable-key reconcile: travel_articles 200; local_destinations 404 (schema cache); editorial_documents 401 RLS-blocked by design. No writes. Owner-side CMS check pending for accommodations/president-hotel-bantry-bay.",
     "email": "Owner email prepared as draft (Gmail signed out in the OpenBot browser, re-checked 16 Nov 2026); stored in accommodation_president_hotel_bantry_bay.owner_email_draft."
@@ -2871,6 +2871,23 @@
       "body": "Hi,\n\nToday's editorial run shipped an accommodations deliverable: a new stay guide for the President Hotel in Bantry Bay, Cape Town — the first Sea Point/Atlantic Seaboard stay in the catalogue.\n\nWhy this one: the live Cape Town destination page itself states that only one central accommodation option (Mount Nelson) is published, and the \"Where to stay in Cape Town\" insight names six properties across City Bowl, Sea Point and Camps Bay — yet only Mount Nelson had a site guide. The insight's Sea Point base had nothing behind it. The new guide anchors that choice: room families with operator-listed from-rates (Classic from R4,000, Suites from R5,000, Apartments from R7,000 per person per night), five on-site dining venues, the spa and infinity pool, Saunders' Rock 100 m away, and unusually well-documented inclusion provision (accessible rooms, Deafgard devices, guide dogs, kosher-experienced kitchen, Crescent Rating 5/7, Autism SA-trained staff).\n\nSourcing: the hotel's official site and the exact Booking.com property page, both checked today (Booking.com: 8.5/10 from 2,822 reviews, location 9.4; no rating or review count is published in the guide copy). Six licensed destination-setting photographs are registered with creator, source, licence and alt text — no free-licence photo of the property itself exists, so each image is labelled as a destination setting, not the hotel.\n\nLive receipt: https://trekafricaguide.com/accommodations/president-hotel-bantry-bay/ — HTTP 200, full accommodation layout matching the house flow, six gallery images all referenceable, credited on /photo-credits, no markup leak.\n\nOne booking note: the exact Booking.com detail URL verifies cleanly, but the affiliate wrap of it currently lands on a single-destination results page instead of the exact detail page, so the booking card is deliberately held back (house rule from the Kibale precedent) and the page points readers to the exact Booking.com page directly. A one-line wrap recheck reactivates the card.\n\nBlockers: owner Gmail is still signed out on the work machine, so this joins the pending draft queue — one sign-in ships it with the earlier drafts. CMS mirror: travel_articles reads fine (200), local_destinations 404 to the publishable key, editorial_documents service-role-only by design — a quick owner-side CMS check that accommodations/president-hotel-bantry-bay imported would confirm the mirror.\n\nNext run rotates to destinations.\n\n- OpenBot Trek editorial agent",
       "prepared_at": "2026-11-16T14:30:00Z",
       "status": "pending_gmail_signin"
+    },
+    "publication": {
+      "content_commit": "4f6e242",
+      "pushed_to": "main",
+      "push_result": "success (d6b419b..4f6e242)",
+      "pushed_at": "2026-11-16T14:20:00Z",
+      "live_url": "https://trekafricaguide.com/accommodations/president-hotel-bantry-bay/",
+      "live_http_status": 200,
+      "checked_at": "2026-11-16",
+      "live_distinctive_text": "President Hotel | Trek Africa Guide",
+      "live_checks": {
+        "detail": "HTTP 200; title correct; full accommodation h2 flow (Why stay here and how to plan your stay, Key amenities, Stay style and budget, What travelers say, Booking option, Other Nearby Accommodations, Nearby Attractions); distinctive copy renders (R4,000/R5,000/R7,000 operator-listed rates, Saunders’ Rock 100 m, Cove Wellness Spa, Green Key, Crescent Rating 5/7); six destination-setting gallery images render and are labelled as not property photographs; honest no-affiliate-CTA booking panel; no exposed markup.",
+        "archive": "Accommodations archive lists the new stay.",
+        "destination": "Cape Town destination Where-to-stay rail now lists President Hotel alongside Mount Nelson.",
+        "internal_links": "Cape Town destination, Cape Town attraction, Table Mountain guided hike, Mount Nelson, Cape Town base-by-outings insight all live HTTP 200."
+      },
+      "cms_source_commit": "imported at source_commit 4f6e242; publishable-key read of editorial_documents stays RLS-blocked (401 42501) - owner-side CMS check to confirm accommodations/president-hotel-bantry-bay"
     }
   }
 }
