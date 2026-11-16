@@ -4748,7 +4748,7 @@
         "new_asset": "tunis-souk-elderly-merchant.jpg",
         "note": "Production serves the choose-first-night-tunis insight; page HTTP 200 and all four new assets return HTTP 200 image/jpeg with filenames present in the rendered markup."
       },
-      "report_status": "PENDING: live-confirmed, preparing owner email",
+      "report_status": "NOT SENT: live-confirmed, but no Gmail sign-in/account access in this harness (mail.google.com shows a sign-in page; routine-run guidance bars a takeover for a sign-in that needs the user). Owner receives this progress in chat.",
       "email_id": null,
       "report_sent_at": null
     }
