@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-16T01:35:00.000Z",
+  "updated_at": "2026-11-16T08:55:00.000Z",
   "timezone": "Africa/Kampala",
   "next_scheduled_start": "2026-10-17T19:30:00+03:00",
   "cadence_hours": 3,
@@ -272,9 +272,9 @@
     "email_id": "1a143a69416cf3d1"
   },
   "rotation": {
-    "last_completed_category": "accommodations",
-    "next_category": "destinations",
-    "next_deliverable": "Serengeti Serena Safari Lodge depth refresh published 2026-11-16 (accommodations rotation); next: one evidenced destinations gap, with Tanzania mainland (Serengeti/Arusha gateway) still the flagged candidate and no published mainland destination for the country page to link."
+    "last_completed_category": "destinations",
+    "next_category": "travel_insights",
+    "next_deliverable": "Accra local destination guide published 2026-11-16 (destinations rotation, source_commit fe227d6); next: one evidenced travel-insights gap."
   },
   "current_deliverable": {
     "category": "travel_insights",
@@ -481,16 +481,16 @@
     "commit": "224da9d (content) + receipt commit"
   },
   "latest_run_checkpoint": {
-    "run": "scheduled-2h-2026-11-16T01:13Z",
-    "category_rotation": "accommodations",
-    "deliverable": "accommodation_serengeti_serena_safari_lodge",
-    "inventory_note": "Live crawl refreshed 16 Nov 2026 (>6h since 2026-11-10 07:13Z crawl): home and /countries /attractions /activities /accommodations /travel-insights all HTTP 200; 43 stays, 30 attractions, 29 repo activities with 27 live, 31 travel insights, 19 countries with 23 local destinations. All 30 attraction pages render Nearby stays; all 43 accommodation pages render 6-8 h2 sections; no empty Where-to-stay rail remains on any destination. New defect recorded for a later run: 25 of 43 accommodation pages render an empty 'Other Nearby Accommodations' section with the placeholder sentence 'More nearby stays will appear here as their guides are completed', against the standing instruction not to show empty related sections.",
-    "next_category": "destinations",
-    "next_action": "Rotate to destinations next run; the Tanzania mainland gateway (Serengeti/Arusha) is the flagged candidate.",
-    "commit": "2bbc41a (content) + receipt commit",
-    "push": "Content pushed to main 9f07082..2bbc41a.",
-    "live_receipt": "https://trekafricaguide.com/accommodations/serengeti-serena-safari-lodge/ HTTP 200 with the refreshed copy, six sections, three resolving internal links and no exposed markup; archive, Tanzania country, Serengeti attraction and the pairing insight all HTTP 200.",
-    "cms": "Imported at source_commit 2bbc41a; editorial_documents unreadable with the publishable key (RLS) - owner-side CMS check pending.",
+    "run": "scheduled-2h-2026-11-16T08:18Z (manual catch-up run after the 03:13/05:13/07:56Z runs did not post a report)",
+    "category_rotation": "destinations",
+    "deliverable": "destination_accra",
+    "inventory_note": "No new crawl needed: the last crawl recorded in run-log.md was 16 November 2026 01:13Z, inside the 6-hour window. Evidence came from that crawl plus the newest repo commits (a3f7f54 Tunis photo enrichment). Live checks 16 November 2026: Ghana country page Destinations rail held Elmina only; Accra City Hotel, Kwame Nkrumah Memorial Park attraction, its guided-visit activity and the Ghana first-trip insight all HTTP 200; no /countries/ghana/accra/ page existed.",
+    "next_category": "travel_insights",
+    "next_action": "Rotate to travel insights next run. Flagged candidate: a first-visit planning story that uses the newly published Accra destination, or another evidenced insight gap; check the live insights archive before writing.",
+    "commit": "fe227d6 (content) + receipt commit",
+    "push": "Content pushed to main a3f7f54..fe227d6.",
+    "live_receipt": "https://trekafricaguide.com/countries/ghana/accra/ HTTP 200, 43,698 bytes, all six content sections, distinctive copy present, Ghana country page now lists Accra and Elmina in its destinations rail, no exposed markup.",
+    "cms": "Imported at source_commit fe227d6; editorial_documents unreadable with the publishable key (RLS) - owner-side CMS check pending.",
     "email": "No owner email sent; this routine reports in chat only."
   },
   "activity_volcanoes_golden_monkey_trek": {
@@ -2751,5 +2751,45 @@
     "push": "2bbc41a pushed to origin/main (9f07082..2bbc41a)",
     "live_receipt": "https://trekafricaguide.com/accommodations/serengeti-serena-safari-lodge/ HTTP 200, 35,341 bytes, 16 Nov 2026: distinctive copy present (335 km, 27 km, USD 728, USD 928, 12:30, Makonde, Kogatende, reservations@serena.co.tz), all six h2 sections, honest no-booking-link state, three internal links resolve HTTP 200, no exposed markup.",
     "cms": "Production deploy imports at source_commit 2bbc41a; publishable key cannot read editorial_documents (RLS), so imported at source_commit; owner-side CMS check pending."
+  },
+  "destination_accra": {
+    "run": "2026-11-16T08:18Z catch-up (destinations rotation)",
+    "category": "destinations",
+    "record": "content/local-destinations.json -> accra (country ghana), sort_order 3, published_at 2026-11-16T00:00:00Z",
+    "live_url": "https://trekafricaguide.com/countries/ghana/accra/",
+    "gap": "Ghana country page carried a Destinations rail with Elmina only, while Accra held a published attraction, a published guided-visit activity and a published downtown stay, and the country page and Ghana insight both frame Accra as the arrival base.",
+    "reader_impact": "Accra is the arrival point for almost every Ghana itinerary through Kotoka International Airport; there was no page to plan an arrival day, the historic districts, or the onward coast transfer.",
+    "sources": [
+      "https://visitghana.com/greater-accra-region/ (GTA, checked 2026-11-16)",
+      "https://visitghana.com/getting-around-ghana/ (GTA, checked 2026-11-16)",
+      "https://visitghana.com/travel-information/ (GTA, checked 2026-11-16)",
+      "https://knmp.gov.gh/new/visiting-hours-rates/ (KNMP, checked 2026-11-16)",
+      "https://knmp.gov.gh/new/ (KNMP, checked 2026-11-16)",
+      "https://gacl.com.gh/ (Ghana Airports Company Limited, checked 2026-11-16)",
+      "https://www.gov.uk/foreign-travel-advice/ghana (UK FCDO, still current 16 November 2026)",
+      "https://www.gov.uk/foreign-travel-advice/ghana/entry-requirements (UK FCDO, checked 2026-11-16)"
+    ],
+    "relationships": {
+      "attractions": [
+        "kwame-nkrumah-memorial-park"
+      ],
+      "activities": [
+        "kwame-nkrumah-memorial-park-guided-visit"
+      ],
+      "accommodations": [
+        "accra-city-hotel"
+      ],
+      "travel_insights": [
+        "plan-first-ghana-trip-accra-and-the-castle-coast"
+      ]
+    },
+    "gates": "check-build-inputs passed; production-parity build 181 pages; readability guard passed on 186 pages; built page checked for six content sections, four card sections, meta description and no exposed markup.",
+    "content_commit": "fe227d6",
+    "push": "a3f7f54..fe227d6 (origin/main)",
+    "live_verification": "Detail HTTP 200 (43,698 bytes, 16 November 2026); Ghana country page now links Accra and Elmina; Accra City Hotel, Kwame Nkrumah Memorial Park attraction and guided-visit activity, and the Ghana insight all HTTP 200.",
+    "cms": "Imported at source_commit fe227d6; editorial_documents unreadable with the publishable key (RLS) - owner-side CMS check pending. No CMS writes.",
+    "photos": "None added (zero-image honest publish); six-subject exact-location photo backlog in docs/editorial-research/2026-11-16-accra-local-destination.md, no reuse and no generated substitute.",
+    "research_ledger": "docs/editorial-research/2026-11-16-accra-local-destination.md",
+    "next_category": "travel_insights"
   }
 }
