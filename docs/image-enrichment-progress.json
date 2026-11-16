@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-16T12:30:00Z",
+  "updated_at": "2026-11-16T13:10:00Z",
   "blocked_runs": [
     {
       "id": "image-generation-service-unavailable-2026-11-15-0507",
@@ -4714,6 +4714,43 @@
       },
       "report_status": "",
       "next_action": "Rotate to another low-image page across destinations, attractions, activities, travel insights and accommodations; continue Marrakech toward 17 distinct views (Bab Agnaou, hammam and a generated riad-planning scene are the recorded gaps) when generation or a no-credit Bab Agnaou frame is available."
+    },
+    {
+      "id": "choose-first-night-tunis-photo-enrichment-2026-11-16-1230z",
+      "status": "published_live_confirmed",
+      "page_url": "https://trekafricaguide.com/travel-insights/choose-first-night-tunis-medina-or-coast/",
+      "page_type": "travel_insight",
+      "started_at": "2026-11-16 12:30 UTC (15:30 Africa/Kampala)",
+      "previous_photo_count": 2,
+      "photo_count": 6,
+      "new_photo_count": 4,
+      "source_ledger": "docs/editorial-research/2026-11-16-choose-first-night-tunis-photo-enrichment.md",
+      "rights_standard": "New photographs only from exact-subject assets whose verified terms allow commercial reuse without public attribution: all 4 are Pexels License (no credit required). No CC BY or CC BY-SA file was newly published and no existing credit line was changed.",
+      "generation_status": "BLOCKED: no generation provider credit available (Radius/OpenRouter returned 402 in the prior run; ChatGPT built-in image generation previously failed with connection errors). No synthetic frame produced this run. Generated complementary scenes (Sidi Bou Said bay view, Tunis medina dawn) remain a gap.",
+      "next_action": "Send owner email at fsddanmugisa@gmail.com after this live confirmation; otherwise record non-send. Continue choose-first-night-tunis toward 10-17 distinct images (gap: Sidi Bou Said bay view, Tunis medina/dawn).",
+      "published_commit": "a7091f2",
+      "live_verification": {
+        "checked_at": "2026-11-16",
+        "page_http_status": 200,
+        "gallery_text": "Four new figure blocks rendered in the insight body; no See-all gallery on this insight page.",
+        "asset_http_statuses": [
+          200,
+          200,
+          200,
+          200
+        ],
+        "asset_content_types": [
+          "image/jpeg",
+          "image/jpeg",
+          "image/jpeg",
+          "image/jpeg"
+        ],
+        "new_asset": "tunis-souk-elderly-merchant.jpg",
+        "note": "Production serves the choose-first-night-tunis insight; page HTTP 200 and all four new assets return HTTP 200 image/jpeg with filenames present in the rendered markup."
+      },
+      "report_status": "PENDING: live-confirmed, preparing owner email",
+      "email_id": null,
+      "report_sent_at": null
     }
   ],
   "review_checkpoints": [
@@ -4763,20 +4800,7 @@
     "live_verification": "Production detail and both new assets returned HTTP 200; HTML contains real photo three times and generated courtyard once.",
     "email_id": "1a1d95911ab86f10"
   },
-  "current_run": {
-    "id": "choose-first-night-tunis-photo-enrichment-2026-11-16-1230z",
-    "status": "in_progress",
-    "page_url": "https://trekafricaguide.com/travel-insights/choose-first-night-tunis-medina-or-coast/",
-    "page_type": "travel_insight",
-    "started_at": "2026-11-16 12:30 UTC (15:30 Africa/Kampala)",
-    "previous_photo_count": 2,
-    "photo_count": 6,
-    "new_photo_count": 4,
-    "source_ledger": "docs/editorial-research/2026-11-16-choose-first-night-tunis-photo-enrichment.md",
-    "rights_standard": "New photographs only from exact-subject assets whose verified terms allow commercial reuse without public attribution: all 4 are Pexels License (no credit required). No CC BY or CC BY-SA file was newly published and no existing credit line was changed.",
-    "generation_status": "BLOCKED: no generation provider credit available (Radius/OpenRouter returned 402 in the prior run; ChatGPT built-in image generation previously failed with connection errors). No synthetic frame produced this run. Generated complementary scenes (Sidi Bou Said bay view, Tunis medina dawn) remain a gap.",
-    "next_action": "Publish, push, verify live, then record the gap to the 10-17 target (Sidi Bou Said bay view and Tunis medina/dawn among missing subjects)."
-  },
+  "current_run": null,
   "latest_review": {
     "id": "casa-del-papa-exact-property-no-eligible-photo-review",
     "page_url": "https://trekafricaguide.com/accommodations/casa-del-papa/",
