@@ -57,6 +57,37 @@
   },
   "completed_runs": [
     {
+      "id": "kigali-serena-hotel-rights-review-2026-11-16-1307z",
+      "page_url": "https://trekafricaguide.com/accommodations/kigali-serena-hotel/",
+      "page_type": "accommodation",
+      "status": "reviewed_no_eligible_photo",
+      "previous_photo_count": 0,
+      "photo_count": 0,
+      "new_photo_count": 0,
+      "checked_date": "2026-11-16",
+      "started_at": "2026-11-16 13:07 UTC (16:07 Africa/Kampala)",
+      "source_ledger": "docs/editorial-research/2026-11-16-kigali-serena-photo-review.md",
+      "initial_live_verification": "Production accommodation page HTTP 200, read in full: zero dedicated photos (only the site logo; no og:image). Page copy states the neutral image slot is deliberate and that city/poolside scenery from another source must not stand in for the hotel.",
+      "note": "Bounded exact-property rights review for Kigali Serena Hotel (Serena group five-star city property, central Kigali). Wikimedia Commons search \"Kigali Serena Hotel\": zero results. Pexels search \"kigali serena hotel\": no exact-subject property frames; generic Kigali cityscapes/skylines/street scenes plus a different hotel (Monomotapa Hotel, Harare). Openverse API unreachable (timed out; previously 504). No rights-clean exact-subject photograph found under a commercial-reuse no-attribution licence. Serena Hotels operator imagery is rights-reserved brand photography, excluded by standard. AI generation not used: for accommodations, imagined rooms/facilities must never be presented as actual property photos. No image downloaded; no gallery or asset change.",
+      "selected_images": [],
+      "excluded_candidates_note": "Generic Kigali/Rwanda Pexels frames (cityscape, skyline, street scenes) are not exact-property subjects; Monomotapa Hotel Harare frame is a different property; operator brand photography is All Rights Reserved.",
+      "mandatory_input_check": "No image or library change this run; review-only. sync-photo-library.mjs and npm run check:build-inputs re-ran clean on the unchanged library.",
+      "published_commit": null,
+      "email_id": null,
+      "report_status": "NOT SENT: no collection published/live-confirmed; owner receives this progress in chat.",
+      "rights_evidence": {
+        "sources_checked": [
+          "Wikimedia Commons",
+          "Pexels",
+          "Openverse"
+        ],
+        "commons_results": 0,
+        "pexels_exact_subject_results": 0,
+        "openverse": "unreachable"
+      },
+      "next_action": "Rotate to another zero-photo page across destinations, attractions, activities, travel insights and accommodations; Kigali Serena remains a zero-image page pending a future rights-clean exact-subject photo."
+    },
+    {
       "id": "tunis-carthage-guided-walk-7-photo-enrichment-2026-11-16-1007z",
       "page_url": "https://trekafricaguide.com/activities/tunis-carthage-sidi-bou-said-guided-walk/",
       "page_type": "activity",
