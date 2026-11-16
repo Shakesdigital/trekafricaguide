@@ -118,6 +118,48 @@ export const photoLibrary = {
       "subject": "Representative Tunisian coastal village walking scene", "alt": "Travelers talking with a guide on a whitewashed coastal lane", "creator": "ChatGPT for Trek Africa Guide", "date": "2026-11-14", "property": false, "exact_subject": false, "requires_attribution": false,
       "sha256": "14bdb4e503f723147aa01d118f0062afa40f09cb7af4207c628cecd164717ff3", "generation_tool": "ChatGPT built-in image generator", "provenance": "Original illustrative coastal walking scene; not documentary photography of a particular tour, guide, travelers or street."
     },
+    "/images/editorial/tunis-carthage-guided-walk/tunis-bab-el-bhar-sea-gate.jpg": {
+      "kind": "photograph", "slug": "tunis-bab-el-bhar-sea-gate", "local_path": "/images/editorial/tunis-carthage-guided-walk/tunis-bab-el-bhar-sea-gate.jpg",
+      "source_page": "https://www.pexels.com/photo/bab-el-bhar-in-tunis-16819833/", "creator": "Pexels contributor", "license": "Pexels License", "license_url": "https://www.pexels.com/license/", "checked_at": "2026-11-16",
+      "sha256": "da51cf6df2eef191d1a80a42140e30495ea9f7a4c1d5ed4ecc15eed4ab01ef91", "exact_subject": true, "subject": "Bab el Bhar (Sea Gate), Tunis, Tunisia", "alt": "The historic Bab el Bhar Sea Gate entrance to the Tunis medina on a sunny day", "property": false, "requires_attribution": false,
+      "changes": "Pexels CDN JPEG at 1600 pixels wide; no local edits.", "exact_subject_evidence": "Pexels photo page titled 'Bab el Bhar in Tunis' identifies the Sea Gate entrance to the medina."
+    },
+    "/images/editorial/tunis-carthage-guided-walk/tunis-sidi-bou-said-blue-alley.jpg": {
+      "kind": "photograph", "slug": "tunis-sidi-bou-said-blue-alley", "local_path": "/images/editorial/tunis-carthage-guided-walk/tunis-sidi-bou-said-blue-alley.jpg",
+      "source_page": "https://www.pexels.com/photo/charming-cobblestone-alley-in-sidi-bou-said-32335919/", "creator": "Pexels contributor", "license": "Pexels License", "license_url": "https://www.pexels.com/license/", "checked_at": "2026-11-16",
+      "sha256": "e6aa3207da304ebfab8b7d9f90e559c99ff4e5e3cb014a73e41588e21fbc43a7", "exact_subject": true, "subject": "Cobblestone alley in Sidi Bou Said, Tunisia", "alt": "Blue-and-white cobblestone alley in Sidi Bou Said, Tunisia", "property": false, "requires_attribution": false,
+      "changes": "Pexels CDN JPEG at 1600 pixels wide; no local edits.", "exact_subject_evidence": "Pexels photo page titled 'Charming Cobblestone Alley in Sidi Bou Said' identifies the location."
+    },
+    "/images/editorial/tunis-carthage-guided-walk/tunis-youssef-dey-mosque.jpg": {
+      "kind": "photograph", "slug": "tunis-youssef-dey-mosque", "local_path": "/images/editorial/tunis-carthage-guided-walk/tunis-youssef-dey-mosque.jpg",
+      "source_page": "https://www.pexels.com/photo/youssef-dey-mosque-in-tunis-tunisia-19138215/", "creator": "Pexels contributor", "license": "Pexels License", "license_url": "https://www.pexels.com/license/", "checked_at": "2026-11-16",
+      "sha256": "628f585d2e0f3fe3509f0320cf15469ac8da6b241fa62ea8aa8fde26e2ece8df", "exact_subject": true, "subject": "Youssef Dey Mosque, Tunis, Tunisia", "alt": "The historic Youssef Dey Mosque in Tunis Medina, Tunisia", "property": false, "requires_attribution": false,
+      "changes": "Pexels CDN JPEG at 1600 pixels wide; no local edits.", "exact_subject_evidence": "Pexels photo page titled 'Youssef Dey Mosque in Tunis, Tunisia' identifies the mosque."
+    },
+    "/images/editorial/tunis-carthage-guided-walk/tunis-ez-zitouna-mosque-tower.jpg": {
+      "kind": "photograph", "slug": "tunis-ez-zitouna-mosque-tower", "local_path": "/images/editorial/tunis-carthage-guided-walk/tunis-ez-zitouna-mosque-tower.jpg",
+      "source_page": "https://www.pexels.com/photo/tower-of-ez-zitouna-mosque-in-tunis-17917078/", "creator": "Pexels contributor", "license": "Pexels License", "license_url": "https://www.pexels.com/license/", "checked_at": "2026-11-16",
+      "sha256": "edbf760efa422fe0f484b166126af84bf5f1f0ca103c0fca76ca9414ed007187", "exact_subject": true, "subject": "Ez Zitouna Mosque tower, Tunis, Tunisia", "alt": "The minaret tower of Ez Zitouna Mosque in Tunis, Tunisia", "property": false, "requires_attribution": false,
+      "changes": "Pexels CDN JPEG at 1600 pixels wide; no local edits.", "exact_subject_evidence": "Pexels photo page titled 'Tower of Ez Zitouna Mosque in Tunis' identifies the mosque tower."
+    },
+    "/images/editorial/tunis-carthage-guided-walk/tunis-medina-market-street.jpg": {
+      "kind": "photograph", "slug": "tunis-medina-market-street", "local_path": "/images/editorial/tunis-carthage-guided-walk/tunis-medina-market-street.jpg",
+      "source_page": "https://www.pexels.com/photo/bustling-market-street-in-tunis-medina-31020142/", "creator": "Pexels contributor", "license": "Pexels License", "license_url": "https://www.pexels.com/license/", "checked_at": "2026-11-16",
+      "sha256": "ae98aea7649658e4243d53479b46b1ab85ad154210d1c835338fc43f6f0f9f91", "exact_subject": true, "subject": "Market street in Tunis Medina, Tunisia", "alt": "Vibrant market street in the Medina of Tunis with traditional architecture", "property": false, "requires_attribution": false,
+      "changes": "Pexels CDN JPEG at 1600 pixels wide; no local edits.", "exact_subject_evidence": "Pexels photo page titled 'Bustling Market Street in Tunis Medina' identifies the location."
+    },
+    "/images/editorial/tunis-carthage-guided-walk/tunis-medina-cobblestone-alley.jpg": {
+      "kind": "photograph", "slug": "tunis-medina-cobblestone-alley", "local_path": "/images/editorial/tunis-carthage-guided-walk/tunis-medina-cobblestone-alley.jpg",
+      "source_page": "https://www.pexels.com/photo/charming-alleyway-in-medina-of-tunis-tunisia-38002209/", "creator": "Pexels contributor", "license": "Pexels License", "license_url": "https://www.pexels.com/license/", "checked_at": "2026-11-16",
+      "sha256": "4c3133ed663b59d3bf722e6d8727f78d8d21efd940dc180ff0eeb613bf44f042", "exact_subject": true, "subject": "Cobblestone alley in Tunis Medina, Tunisia", "alt": "Cobblestone alley in the historic Medina of Tunis", "property": false, "requires_attribution": false,
+      "changes": "Pexels CDN JPEG at 1600 pixels wide; no local edits.", "exact_subject_evidence": "Pexels photo page titled 'Charming Alleyway in Medina of Tunis, Tunisia' identifies the location."
+    },
+    "/images/editorial/tunis-carthage-guided-walk/tunis-cityscape-skyline.jpg": {
+      "kind": "photograph", "slug": "tunis-cityscape-skyline", "local_path": "/images/editorial/tunis-carthage-guided-walk/tunis-cityscape-skyline.jpg",
+      "source_page": "https://www.pexels.com/photo/panoramic-view-of-tunisian-city-skyline-38224352/", "creator": "Pexels contributor", "license": "Pexels License", "license_url": "https://www.pexels.com/license/", "checked_at": "2026-11-16",
+      "sha256": "a804f7213df2e02c303bd20b845eed8df1606ff4910329c8ee71c6d65fcce049", "exact_subject": true, "subject": "Tunis city skyline, Tunisia", "alt": "Panoramic view of Tunisian city skyline under clear skies", "property": false, "requires_attribution": false,
+      "changes": "Pexels CDN JPEG at 1600 pixels wide; no local edits.", "exact_subject_evidence": "Pexels photo page titled 'Panoramic View of Tunisian City Skyline' identifies the location."
+    },
     "/images/editorial/choose-first-night-tunis/sidi-bou-said-street-pexels-24233192.jpg": {
       "kind": "photograph", "slug": "sidi-bou-said-street-pexels-24233192", "local_path": "/images/editorial/choose-first-night-tunis/sidi-bou-said-street-pexels-24233192.jpg",
       "source_page": "https://www.pexels.com/photo/sidewalk-cafe-in-old-town-in-tunisia-24233192/", "creator": "Mihaela David", "license": "Pexels License", "license_url": "https://www.pexels.com/license/", "checked_at": "2026-11-14",
