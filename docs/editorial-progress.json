@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-15T13:30:00.000Z",
+  "updated_at": "2026-11-16T01:35:00.000Z",
   "timezone": "Africa/Kampala",
   "next_scheduled_start": "2026-10-17T19:30:00+03:00",
   "cadence_hours": 3,
@@ -272,9 +272,9 @@
     "email_id": "1a143a69416cf3d1"
   },
   "rotation": {
-    "last_completed_category": "travel_insights",
-    "next_category": "activities",
-    "next_deliverable": "Sine-Saloum Delta day trip or overnight insight published 2026-11-15 (travel_insights rotation); next: one evidenced activities gap."
+    "last_completed_category": "accommodations",
+    "next_category": "destinations",
+    "next_deliverable": "Serengeti Serena Safari Lodge depth refresh published 2026-11-16 (accommodations rotation); next: one evidenced destinations gap, with Tanzania mainland (Serengeti/Arusha gateway) still the flagged candidate and no published mainland destination for the country page to link."
   },
   "current_deliverable": {
     "category": "travel_insights",
@@ -481,17 +481,17 @@
     "commit": "224da9d (content) + receipt commit"
   },
   "latest_run_checkpoint": {
-    "run": "scheduled-2h-2026-11-13T19:00Z",
-    "category_rotation": "destinations",
-    "deliverable": "destination_victoria_falls",
-    "inventory_note": "Rolling whole-site inventory maintained via live country-page reads: Zimbabwe country page renders a Destinations rail with only Masvingo while its hero headline is \"Zimbabwe delivers falls and strong guiding\" and every hero photo is of the falls; the Victoria Falls attraction + Victoria Falls Hotel + two activities + one insight cluster had no destination anchor. Tanzania flagged as the next candidate (no mainland destination for the Serengeti/Arusha gateway).",
-    "next_category": "activities",
-    "next_action": "Rotate to activities next run.",
-    "commit": "e7a5e2e (content) + receipt commit",
-    "push": "Content pushed to main (87d12eb..e7a5e2e); push working, brief 403 note obsolete.",
-    "live_receipt": "https://trekafricaguide.com/countries/zimbabwe/victoria-falls/ HTTP 200, full 9-section destination flow, distinctive copy (ZTA Smoke-that-thunders / 70% / 1855, FCDO KAZA US$50 + evisa.gov.zw + cash rules), six-photo gallery all HTTP 200 image/jpeg, country rail now lists Victoria Falls first, all cross-link cards live, no markup leak.",
-    "cms": "Publishable-key reconcile 2026-11-13: travel_articles 200, local_destinations 404 (schema cache), editorial_documents 401 to anon (RLS by design); no writes attempted - owner-side check to confirm local_destinations/victoria-falls.",
-    "email": "Owner progress email drafted and pending send (Gmail signed out in the OpenBot browser, re-checked 13 Nov 2026); draft stored in the record (tenth pending draft, one sign-in ships all)."
+    "run": "scheduled-2h-2026-11-16T01:13Z",
+    "category_rotation": "accommodations",
+    "deliverable": "accommodation_serengeti_serena_safari_lodge",
+    "inventory_note": "Live crawl refreshed 16 Nov 2026 (>6h since 2026-11-10 07:13Z crawl): home and /countries /attractions /activities /accommodations /travel-insights all HTTP 200; 43 stays, 30 attractions, 29 repo activities with 27 live, 31 travel insights, 19 countries with 23 local destinations. All 30 attraction pages render Nearby stays; all 43 accommodation pages render 6-8 h2 sections; no empty Where-to-stay rail remains on any destination. New defect recorded for a later run: 25 of 43 accommodation pages render an empty 'Other Nearby Accommodations' section with the placeholder sentence 'More nearby stays will appear here as their guides are completed', against the standing instruction not to show empty related sections.",
+    "next_category": "destinations",
+    "next_action": "Rotate to destinations next run; the Tanzania mainland gateway (Serengeti/Arusha) is the flagged candidate.",
+    "commit": "2bbc41a (content) + receipt commit",
+    "push": "Content pushed to main 9f07082..2bbc41a.",
+    "live_receipt": "https://trekafricaguide.com/accommodations/serengeti-serena-safari-lodge/ HTTP 200 with the refreshed copy, six sections, three resolving internal links and no exposed markup; archive, Tanzania country, Serengeti attraction and the pairing insight all HTTP 200.",
+    "cms": "Imported at source_commit 2bbc41a; editorial_documents unreadable with the publishable key (RLS) - owner-side CMS check pending.",
+    "email": "No owner email sent; this routine reports in chat only."
   },
   "activity_volcanoes_golden_monkey_trek": {
     "status": "complete",
@@ -1999,7 +1999,7 @@
       }
     }
   },
-  "next_category": "accommodations",
+  "next_category": "destinations",
   "destination_sal": {
     "id": "sal",
     "category": "destinations",
@@ -2721,5 +2721,35 @@
         "internal_links": "Casa del Papa stay, Benin country and Ouidah and Ganvié destination all HTTP 200."
       }
     }
+  },
+  "accommodation_serengeti_serena_safari_lodge": {
+    "id": "serengeti-serena-safari-lodge",
+    "category": "accommodations",
+    "started": "2026-11-16",
+    "status": "published_live_confirmed",
+    "run": "scheduled-2h-2026-11-16T01:13Z",
+    "selection_evidence": "Live /accommodations/serengeti-serena-safari-lodge/ (HTTP 200, 16 Nov 2026) ran to ~512 words across six sections, the shortest of the three Tanzania stays and well below pages that already meet the house bar (Accra City Hotel 1,287 words; Chobe Safari Lodge 1,027; Royal Livingstone 1,016). It carried no room mix, no areas, no distances or arrival times, no statement of what sits inside and outside the room rate, and no verified booking route beyond the operator home page. It is also the only published mainland Tanzania stay and the only published property inside the park, so it is the page readers reach after choosing a Serengeti itinerary.",
+    "scope": "Depth repair of the existing accommodation record: room categories and areas (24 double, 25 twin, 6 triple, 10 triple king, plus the 32 sqm Serengeti Suite; 26 sqm standards), published from-rates with check date and the missing board basis (USD 728 standard / USD 928 suite), Arusha 335 km and Seronera airstrip 27 km with 12:30 check-in and 10:00 check-out, the chargeable-item structure, park and concession fee handling, family/accessibility/medical facts, entry and health essentials, and an explicit no-verified-booking-link state. Zero-image publish; six-subject exact-property photo backlog in the ledger.",
+    "files": [
+      "content/editorial-overrides.json",
+      "docs/editorial-research/2026-11-16-serengeti-serena-safari-lodge.md",
+      "docs/editorial-progress.json"
+    ],
+    "images": 0,
+    "image_followup": "Six licensed exact-property subjects only: rondavel cluster and infinity pool from the lodge approach; standard room with private balcony; Serengeti Suite sitting room; dining room or terrace; bush dining setup on the plains used by the lodge; balloon or open-sided game-drive vehicle at the lodge. No reuse from the Serengeti attraction gallery and no generated substitute for a named property.",
+    "research": {
+      "checked": "2026-11-16",
+      "operator_page": "https://www.serenahotels.com/serengeti",
+      "operator_fact_sheet": "https://document-tc.galaxy.tf/wdpdf-9syay6fpzi88mibs6fj0hzx86/home_cms-document.pdf",
+      "park_tariffs": "https://www.tanzaniaparks.go.tz/tourism/visitor-information/tariff (edition 2023/24, marked valid until June 2024 - no figure quoted)",
+      "unesco": "https://whc.unesco.org/en/list/156 (ref. 156, inscribed 1981)",
+      "travel_advice": "https://www.gov.uk/foreign-travel-advice/tanzania/entry-requirements",
+      "booking_verification": "Booking.com search and guessed hotel-detail paths all returned HTTP 202 bot challenges under 4 KB on 16 Nov 2026; no exact property-detail URL verified, so the honest no-booking-link state is retained."
+    },
+    "gates": "check-build-inputs passed; production build 180 pages; readability guard passed on 185 generated pages; built detail page checked for six h2 sections, 19 paragraphs, three internal links, meta description, no exposed markup.",
+    "commit": "2bbc41a",
+    "push": "2bbc41a pushed to origin/main (9f07082..2bbc41a)",
+    "live_receipt": "https://trekafricaguide.com/accommodations/serengeti-serena-safari-lodge/ HTTP 200, 35,341 bytes, 16 Nov 2026: distinctive copy present (335 km, 27 km, USD 728, USD 928, 12:30, Makonde, Kogatende, reservations@serena.co.tz), all six h2 sections, honest no-booking-link state, three internal links resolve HTTP 200, no exposed markup.",
+    "cms": "Production deploy imports at source_commit 2bbc41a; publishable key cannot read editorial_documents (RLS), so imported at source_commit; owner-side CMS check pending."
   }
 }
