@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-16T13:22:00.000Z",
+  "updated_at": "2026-11-16T13:30:00.000Z",
   "owner": "booking-links audit agent",
   "ledger": "docs/editorial-research/2026-11-08-booking-links-audit.md",
   "run_1": {
@@ -511,7 +511,13 @@
       "new_holds": 2,
       "notes": "Scheduled 4-hour audit rotating slice. Server-side Stay22 redirect chain verification for all 9 active accommodations. PASS (exact detail landing): hilton-cabo-verde-sal-resort, les-paletuviers, mount-nelson-a-belmond-hotel, sossusvlei-lodge, amboseli-serena-safari-lodge, royal-livingstone-hotel (all Booking.com /hotel/ paths), the-place-resort-tokeh (Agoda exact property, HTTP 200). NEW HOLDS (wrapper alternates between detail and searchresults.html): casa-del-papa (searchresults dest_id=1805469 then exact detail on retry) and paraa-safari-lodge (alternates searchresults dest_id=1693415 / exact detail across 3 attempts). Both moved to hold. check:build-inputs not yet run (pending).",
       "content_commits": [],
-      "production_deploy": "pending"
+      "production_deploy": "e9383f8 pushed; live-verified both held pages suppress Stay22 links",
+      "production_verification": {
+        "checked_at": "2026-11-16T13:30:00Z",
+        "method": "HTTP check for stay22.com/allez anchor absence on production",
+        "casa_del_papa": "HTTP 200; no Stay22 allez link; 'not yet available' message present",
+        "paraa_safari_lodge": "HTTP 200; no Stay22 allez link; 'not yet available' message present"
+      }
     }
   ],
   "method_rule": "Booking.com searchresults.html with dest_type=hotel is NOT proof of an exact detail landing. Browser content wins over server URL shape; never count bot-walled bodies as verified full-detail pages. All providers require exact detail landings."
