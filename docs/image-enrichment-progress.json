@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-17T09:39:31.000Z",
+  "updated_at": "2026-11-17T13:16:26.596Z",
   "blocked_runs": [
     {
       "id": "image-generation-service-unavailable-2026-11-15-0507",
@@ -34,6 +34,22 @@
       "netlify_deploy": "6ae213168da5203ee3e719fb",
       "email_id": "1a1831c4bf848920",
       "report_sent_at": "2026-10-28 18:24 Africa/Kampala"
+    },
+    {
+      "id": "decide-lalibela-rotation-blocked-2026-11-17-1307z",
+      "scheduled_at": "2026-11-17T13:07:00.000Z",
+      "status": "blocked_push_unrelated_histories",
+      "page_url": "https://trekafricaguide.com/travel-insights/decide-lalibela-under-do-not-travel-advice/",
+      "page_type": "travel_insight",
+      "previous_photo_count": 2,
+      "photo_count": 2,
+      "new_photo_count": 0,
+      "note": "Selected live travel-insight page (HTTP 200, 2 dedicated Pexels-Licence photos) for the two-hour rotation after the Sierra Leone country run. Nothing was published and no new photo was added: (1) git push origin main is rejected non-fast-forward because origin/main was force-updated to an unrelated commit (57c8739 \"Add Nyungwe chimpanzee tracking activity page\") and local main shares no merge-base with it; force-push would destroy origin's commit, and merging/publishing the 843 local commits would violate \"commit only own files\". (2) Rights-standard sourcing found no usable no-credit photo: Pexels.com blocked (HTTP 403); Wikimedia Commons Lalibela rock-hewn church candidates are all CC BY / CC BY-SA (attribution-required, excluded); Unsplash search returned results but exact-subject Lalibela verification was not completed and no asset can be published without a successful push; ChatGPT built-in image generation is blocked on provider credits. Per standard, no attribution-required, unclear-rights, or unverified photo was added; no public citation/credit/AI label would be added. Routine stays on.",
+      "next_action": "At the next scheduled run, do not force-push and do not merge-publish foreign history. Reconcile origin/main so a fast-forward push is possible before attempting publication; then resume the zero-to-two-image rotation across destinations, attractions, activities, travel insights and accommodations. Record this blocker; do not claim publication and do not send the owner email (requires live confirmation).",
+      "mandatory_input_check": "Not run: no image or library change this run; review/blocked run only.",
+      "published_commit": null,
+      "email_id": null,
+      "report_status": "NOT SENT: no collection published/live-confirmed; owner receives this progress in chat."
     }
   ],
   "last_pending_check": {
