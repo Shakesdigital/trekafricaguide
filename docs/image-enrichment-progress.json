@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-17T13:16:26.596Z",
+  "updated_at": "2026-11-17T15:07:00.000Z",
   "blocked_runs": [
     {
       "id": "image-generation-service-unavailable-2026-11-15-0507",
@@ -50,6 +50,22 @@
       "published_commit": null,
       "email_id": null,
       "report_status": "NOT SENT: no collection published/live-confirmed; owner receives this progress in chat."
+    },
+    {
+      "id": "push-unrelated-histories-still-blocked-2026-11-17-1507z",
+      "scheduled_at": "2026-11-17T15:07:00.000Z",
+      "status": "blocked_push_unrelated_histories",
+      "page_url": "https://trekafricaguide.com/accommodations/camp-okavango/",
+      "page_type": "accommodation",
+      "previous_photo_count": 0,
+      "photo_count": 0,
+      "new_photo_count": 0,
+      "note": "Rotation target after the 13:07Z travel-insight run: live accommodation page (HTTP 200, zero dedicated photos, no og:image, no See-all text). Git reconciliation re-attempted: git rebase origin/main conflicts continuously (824 local commits replayed onto an unrelated tree; trees differ by roughly 2,261 files) and was aborted with git rebase --abort, restoring main to 531ddf1 with a clean working tree. origin/main advanced to 8057b70 after fetch (57c8739..8057b70); local main and origin/main remain unrelated histories with no merge-base and trees too divergent for rebase. git push origin main stays rejected non-fast-forward; force-push would destroy origin's Nyungwe/kenya-safari commits, and merge-publishing the 844 local commits (mixed Codex/editorial/OpenBot/Shakesdigital history, only some OpenBot-owned) would violate \"commit only own files\". No publication path exists this run without a prohibited operation. Rights-standard sourcing: Pexels.com blocked (HTTP 403 standing); Wikimedia Commons reachable but exact-phrase \"Camp Okavango\" search returns no exact-subject Camp Okavango, Botswana lodge files — only a general Okavango Delta leopard tree and Gunns Camp bulbul frames (CC BY-SA 2.0, attribution-required, excluded) plus a Mombo Camp frame (different property). ChatGPT built-in image generation unavailable in this harness (no image-generation tool; historically provider-credits/connection blocked). Per standard, no attribution-required, unclear-rights, or unverified photo was added; no public citation/credit/AI label would be added. Nothing was published, no gallery or asset changed, no owner email sent. Routine stays on.",
+      "next_action": "Reconcile origin/main so a fast-forward push is possible (rebase local main onto origin/main, or resolve the unrelated-histories divergence by another non-destructive means) before attempting publication; then resume the zero-to-two-image rotation across destinations, attractions, activities, travel insights and accommodations. Camp Okavango remains a zero-image page pending a future rights-clean exact-subject photo. Do not force-push and do not merge-publish foreign history.",
+      "mandatory_input_check": "Not run: no image or library change this run; review/blocked run only.",
+      "published_commit": null,
+      "email_id": null,
+      "report_status": "NOT SENT: no collection published/live-confirmed (push blocked; Gmail also requires interactive owner sign-in, a standing limitation); owner receives this progress in chat."
     }
   ],
   "last_pending_check": {
