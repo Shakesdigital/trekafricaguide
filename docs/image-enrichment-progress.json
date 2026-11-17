@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-16T13:10:00Z",
+  "updated_at": "2026-11-17T09:20:53.745Z",
   "blocked_runs": [
     {
       "id": "image-generation-service-unavailable-2026-11-15-0507",
@@ -4782,6 +4782,49 @@
       "report_status": "NOT SENT: live-confirmed, but no Gmail sign-in/account access in this harness (mail.google.com shows a sign-in page; routine-run guidance bars a takeover for a sign-in that needs the user). Owner receives this progress in chat.",
       "email_id": null,
       "report_sent_at": null
+    },
+    {
+      "id": "lalibela-do-not-travel-insight-2-photo-enrichment-2026-11-17-0927z",
+      "page_url": "https://trekafricaguide.com/travel-insights/decide-lalibela-under-do-not-travel-advice/",
+      "page_type": "travel_insight",
+      "status": "published_live_confirmed",
+      "started_at": "2026-11-17 09:27 UTC (12:27 Africa/Kampala)",
+      "previous_photo_count": 0,
+      "photo_count": 2,
+      "new_photo_count": 2,
+      "checked_date": "2026-11-17",
+      "source_ledger": "docs/editorial-research/2026-11-17-lalibela-do-not-travel-photo-enrichment.md",
+      "initial_live_verification": "Production insight page HTTP 200, read in full: zero dedicated photos before this run; no og:image. Page copy is a do-not-travel advisory for Lalibela (Amhara) with no booking CTA.",
+      "note": "Bounded exact-subject rights search for Lalibela, Ethiopia found two Pexels-License (commercial reuse, no public attribution) photographs not already used on the Lalibela attraction or destination pages: a person in cultural clothing beside the ancient stone walls (Ludo Van den Nouweland, Pexels ID 12344942, 2022) and visitors at a rock-hewn church (Estella, Pexels ID 7438884, 2021). Both downloaded from the Pexels CDN, resized to 1600 pixels wide, SHA-256 recorded, and added to the insight body as figures with natural descriptive alt text. Image generation remains blocked (provider credits unavailable), so no synthetic frame added. No CC BY / CC BY-SA / attribution-required photos published. Rights evidence (source, creator, licence, check date, SHA-256) is in src/lib/photo-library.js; no public credits, citations, or AI labels, per owner preference.",
+      "selected_images": [
+        "lalibela-person-cultural-clothing-walls.jpg",
+        "lalibela-rock-hewn-church-family-estella.jpg"
+      ],
+      "excluded_candidates_note": "Wikimedia Commons Lalibela results are CC BY-SA / CC BY (attribution required, excluded for new publish); only the Pexels no-attribution pool was used. No imagined rooms or facilities involved (not an accommodation page).",
+      "mandatory_input_check": "Passed node scripts/sync-photo-library.mjs and npm run check:build-inputs.",
+      "remaining_gap": "8-15 distinct images toward 10-17 target",
+      "published_commit": "8991908",
+      "live_verification": {
+        "checked_at": "2026-11-17 09:37 UTC (12:37 Africa/Kampala)",
+        "page_http_status": 200,
+        "all_new_filenames_in_page": true,
+        "asset_http_statuses": [
+          200,
+          200
+        ],
+        "asset_content_types": [
+          "image/jpeg",
+          "image/jpeg"
+        ],
+        "asset_content_lengths": [
+          671700,
+          388696
+        ],
+        "note": "Production serves the two-image Lalibela do-not-travel insight gallery; both new filenames render in page markup and both assets return HTTP 200 image/jpeg with byte counts matching the stored files."
+      },
+      "email_id": null,
+      "report_status": "NOT SENT: live-confirmed, but mail.google.com shows a sign-in page and there is no Gmail login/secret tool available; routine-run guidance bars a takeover for a sign-in that needs the user. Recorded as non-send; owner receives this progress in chat.",
+      "next_action": "Rotate to another zero-photo page across destinations, attractions, activities, travel insights and accommodations; continue Lalibela insight toward 10-17 distinct images."
     }
   ],
   "review_checkpoints": [
