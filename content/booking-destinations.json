@@ -415,6 +415,59 @@
         "source_url": "https://www.booking.com/hotel/za/president-cape-town.en-gb.html",
         "summary": "Browser session 16 November 2026: exact property detail page resolves directly (not searchresults). Confirmed: President Hotel, 4 Alexander Road, Bantry Bay, Sea Point, 8001 Cape Town; 8.5/10 from 2,822 reviews; location 9.4; check-in 14:00-00:00, check-out 06:00-11:00; 16 room types across Classic, Suite, One/Two-Bedroom Apartment, Presidential Two Bedroom Apartment and Studio families; Green Key certification; Queens Beach 150 m; airport 24 km. Same URL the live Cape Town base-by-outings insight has linked since 18 October 2026."
       }
+    },
+    "maun-lodge": {
+      "url": "https://www.booking.com/hotel/bw/maun-lodge.en-gb.html",
+      "provider": "booking",
+      "title": "Maun Lodge",
+      "checked_at": "2026-11-17",
+      "evidence": {
+        "source_url": "https://www.booking.com/hotel/bw/maun-lodge.en-gb.html",
+        "summary": "17 November 2026 scheduled 4-hour audit: exact Booking.com property detail opened in a browser session; property name Maun Lodge, 459 Tawana Road, PO Box 376, Maun, Botswana, Guest reviews (517), Reserve present, Facilities and House rules rendered, no multi-property results. Direct URL identical to the editorial booking_url already published on the page.",
+        "redirect_check": "17 November 2026: 26 server-side Stay22 allez/booking wraps of this exact URL, all 26 landed on /hotel/bw/maun-lodge*.html detail pages and none on searchresults.html. Earlier 15 November wraps of the same URL also landed on the exact detail. No rates, availability, review aggregates, checkout, commission or attribution verified."
+      }
+    },
+    "chobe-safari-lodge": {
+      "url": "https://www.booking.com/hotel/bw/chobe-safari-lodge.en-gb.html",
+      "provider": "booking",
+      "title": "The Chobe Safari Lodge",
+      "checked_at": "2026-11-17",
+      "status": "hold",
+      "hold_reason": "17 November 2026 scheduled 4-hour audit: the exact Booking.com property detail resolves correctly in a browser (property The Chobe Safari Lodge, President Avenue, Kasane, Botswana, Guest reviews (168), 8.7 Excellent from 168 reviews, Reserve, Facilities and House rules), but the Stay22 wrap of the same URL alternates between searchresults.html for Kasane (49 properties, Chobe Safari Lodge first) and the exact detail page. Wrapper instability, the casa-del-papa and paraa-safari-lodge precedent: suppress the registry booking option until a stable exact-detail landing is verified.",
+      "evidence": {
+        "source_url": "https://www.booking.com/hotel/bw/chobe-safari-lodge.en-gb.html",
+        "summary": "17 November 2026 scheduled 4-hour audit: direct Booking.com detail confirmed in a browser session: The Chobe Safari Lodge, President Avenue, Kasane, 168 reviews, 8.7 Excellent, room types, facilities, house rules. Direct URL identical to the editorial booking_url already published on the page.",
+        "verification_2026-11-17": "Server-side wraps of the .en-gb URL landed on the exact detail 5/10, 5/8 and 3/7 times across three batches and on searchresults.html otherwise. The .en-us and locale-free variants landed on the exact detail in the same batches, so the instability follows the wrapper rather than the source path. The en-gb URL is kept because it is the canonical path the editorial record and the published page already use.",
+        "limits": "No rates, availability, review scores beyond the 17 November reading, checkout, commission or attribution verified."
+      }
+    },
+    "accra-city-hotel": {
+      "url": "https://www.booking.com/hotel/gh/accra-city-hotel.en-gb.html",
+      "provider": "booking",
+      "title": "Accra City Hotel",
+      "checked_at": "2026-11-17",
+      "status": "hold",
+      "hold_reason": "17 November 2026 scheduled 4-hour audit: the exact Booking.com property detail resolves correctly in a browser (property Accra City Hotel, Barnes Road, PO Box 12720, Accra, Ghana, Guest reviews (111), 8.1 Very Good from 111 reviews, Reserve, Facilities and House rules), but the Stay22 wrap of the same URL alternates between searchresults.html for Accra and the exact detail page (3/10, 3/14 and 3/7 detail landings across batches). Wrapper instability, the casa-del-papa and paraa-safari-lodge precedent: suppress the registry booking option until a stable exact-detail landing is verified.",
+      "evidence": {
+        "source_url": "https://www.booking.com/hotel/gh/accra-city-hotel.en-gb.html",
+        "summary": "17 November 2026 scheduled 4-hour audit: direct Booking.com detail confirmed in a browser session: Accra City Hotel, Barnes Road, Accra, 111 reviews, 8.1 Very Good, 4 out of 5 stars, Preferred property, room types, facilities, house rules. Direct URL identical to the editorial booking_url already published on the page.",
+        "verification_2026-11-17": "The locale-free /hotel/gh/accra-city-hotel.html and the .en-gb URL both landed on the exact detail in browser checks, but server-side wraps alternated: 3/10, 3/14 and 3/7 for the en-gb URL and 2/7 plus 8/14 for the locale-free URL. No exact-detail source produced a stable wrapped landing.",
+        "limits": "No rates, availability, review scores beyond the 17 November reading, checkout, commission or attribution verified."
+      }
+    },
+    "lemon-beach-resort-elmina": {
+      "url": "https://www.booking.com/hotel/gh/lemon-beach-resort-elmina.html",
+      "provider": "booking",
+      "title": "Lemon Beach Resort",
+      "checked_at": "2026-11-17",
+      "status": "hold",
+      "hold_reason": "17 November 2026 scheduled 4-hour audit: the exact Booking.com property detail resolves correctly in a browser (property Lemon Beach Resort, Komenda 1, Elmina, Ghana, Guest reviews (197), 9.2 Wonderful from 197 reviews, Reserve, Facilities and House rules), but the Stay22 wrap of the same URL alternates between searchresults.html for Elmina (9 properties) and the exact detail page (8/14 and 7/10 detail landings, 6/14 and 3/10 search). Wrapper instability, the casa-del-papa and paraa-safari-lodge precedent: suppress the registry booking option until a stable exact-detail landing is verified.",
+      "evidence": {
+        "source_url": "https://www.booking.com/hotel/gh/lemon-beach-resort-elmina.html",
+        "summary": "17 November 2026 scheduled 4-hour audit: direct Booking.com detail confirmed in a browser session: Lemon Beach Resort, Komenda 1, Elmina, Ghana, beachfront and private beach, 197 reviews, 9.2 Wonderful, 4 out of 5 stars, room types, facilities, house rules. Direct URL identical to the editorial booking_url already published on the page. The .en-gb variant was also checked and its wrap alternated even more strongly toward search (1/7 detail).",
+        "verification_2026-11-17": "Server-side wraps of the locale-free URL landed on the exact detail 8/14 and 7/10 times across two batches and on searchresults.html otherwise; the .en-gb variant landed on the exact detail only 1/7 times. No exact-detail source produced a stable wrapped landing.",
+        "limits": "No rates, availability, review scores beyond the 17 November reading, checkout, commission or attribution verified."
+      }
     }
   },
   "activities": {
@@ -688,6 +741,36 @@
       "checked_at": "2026-11-15",
       "evidence": {
         "review_check": "Exact product page checked 15 November 2026: provider Wa Africa; 7 hours; small group max 5; pickup from eight Cotonou hotels; 2.5-hour Ganvié visit and 4.5-hour Ouidah visit; free cancellation up to 24 hours; displayed 5/5 from 2 reviews. Sample is too small to infer broad quality."
+      }
+    },
+    "tunis-carthage-sidi-bou-said-guided-walk": {
+      "url": "https://www.getyourguide.com/en-gb/tunis-l304/tunis-medina-carthage-sidi-bousaid-private-trip-w-lunch-t553079/",
+      "provider": "getyourguide",
+      "title": "Tunis: Medina, Carthage & Sidi Bou Said Private Day Trip",
+      "operator": "Didon Tours",
+      "rating": 4.8,
+      "review_count": 147,
+      "notes": "Private day trip with hotel pickup, 6 hours. Confirm the pickup side, guide language and whether the Bardo Museum option is included before booking.",
+      "checked_at": "2026-11-17",
+      "evidence": {
+        "source_url": "https://www.getyourguide.com/en-gb/tunis-l304/tunis-medina-carthage-sidi-bousaid-private-trip-w-lunch-t553079/",
+        "summary": "17 November 2026 scheduled 4-hour audit: exact GetYourGuide product page read in a browser session. Page title Tunis: Medina, Carthage and Sidi Bou Said Private Day Trip, Top rated 4.8 from 147 reviews, Activity provider Didon Tours, Product ID 553079, Duration 6 hours, from EUR 49 per person, hotel pickup included, free cancellation up to 24 hours. Locale-free /tunis-l304/ path loads the same product; no search or fallback page.",
+        "limits": "No live availability, price at a chosen date, checkout or attribution verified."
+      }
+    },
+    "sine-saloum-pirogue-excursion": {
+      "url": "https://www.getyourguide.com/dakar-l32481/dakar-saloum-islands-full-day-tour-with-lunch-drinks-t1243074/",
+      "provider": "getyourguide",
+      "title": "Dakar: Saloum Islands Full-Day Tour with Lunch & Drinks",
+      "operator": "Travel with ziggy",
+      "rating": 5.0,
+      "review_count": 1,
+      "notes": "Review evidence is limited: 1 review at the 17 November 2026 check. Confirm the launch point, whether the pirogue leg matches the itinerary and what the floating-platform stop includes.",
+      "checked_at": "2026-11-17",
+      "evidence": {
+        "source_url": "https://www.getyourguide.com/dakar-l32481/dakar-saloum-islands-full-day-tour-with-lunch-drinks-t1243074/",
+        "summary": "17 November 2026 scheduled 4-hour audit: exact GetYourGuide product page read in a browser session. Page title Dakar: Saloum Islands Full-Day Tour with Lunch and Drinks, 5.0 from 1 review, Activity provider Travel with ziggy, Product ID 1243074, Duration 10 hours, meeting point Monument de la Renaissance Africaine, Dakar, from EUR 165 per person, free cancellation up to 24 hours.",
+        "limits": "Limited review evidence (1 review). No live availability, price at a chosen date, checkout or attribution verified."
       }
     }
   },
