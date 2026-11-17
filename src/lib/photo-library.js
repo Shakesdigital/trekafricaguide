@@ -12330,6 +12330,26 @@ export const photoLibrary = {
       "checked_at": "2026-11-16",
       "exact_subject_evidence": "The Commons file page title and the creator's own-work statement identify a Masai giraffe in Serengeti National Park, photographed 11 July 2024.",
       "reuse_note": "CC BY-SA 4.0 permits reuse with attribution and share-alike; the photograph appears on the /photo-credits page with creator, source and licence. Resize and crop for display only."
+    },
+    "/images/editorial/decide-lalibela-under-do-not-travel-advice/lalibela-person-cultural-clothing-walls.jpg": {
+      "kind": "photograph", "slug": "lalibela-person-cultural-clothing-walls", "local_path": "/images/editorial/decide-lalibela-under-do-not-travel-advice/lalibela-person-cultural-clothing-walls.jpg",
+      "source_page": "https://www.pexels.com/photo/person-in-a-turban-wrapped-in-a-gown-standing-by-a-wall-12344942/",
+      "creator": "Ludo Van den Nouweland", "license": "Pexels License", "license_url": "https://www.pexels.com/license/", "checked_at": "2026-11-17",
+      "sha256": "7ae36ff66cc676abdec52df5c7086850afe9fc0a3a2ce6c9e74aacfee4a9d532", "exact_subject": true, "subject": "Person in cultural clothing standing by the ancient stone walls of Lalibela, Ethiopia",
+      "alt": "A person in traditional Ethiopian clothing stands beside the ancient stone walls of the rock-hewn church area in Lalibela.", "property": false, "requires_attribution": false,
+      "changes": "Pexels CDN JPEG resized to 1600 pixels wide; no other edits.",
+      "exact_subject_evidence": "Pexels photo page title and description place the person in cultural clothing at the ancient stone walls of Lalibela, Ethiopia; the Lalibela setting was confirmed in the downloaded file.",
+      "reuse_note": "Pexels License allows commercial reuse without attribution; no public credit entry is shown."
+    },
+    "/images/editorial/decide-lalibela-under-do-not-travel-advice/lalibela-rock-hewn-church-family-estella.jpg": {
+      "kind": "photograph", "slug": "lalibela-rock-hewn-church-family-estella", "local_path": "/images/editorial/decide-lalibela-under-do-not-travel-advice/lalibela-rock-hewn-church-family-estella.jpg",
+      "source_page": "https://www.pexels.com/photo/family-visiting-one-of-the-rock-hewn-churches-in-lalibela-7438884/",
+      "creator": "Estella", "license": "Pexels License", "license_url": "https://www.pexels.com/license/", "checked_at": "2026-11-17",
+      "sha256": "f33d9de5f929cd722dc7d299e5498968805e8378e4dd104c7343898b7a44e6cc", "exact_subject": true, "subject": "Family visiting a rock-hewn church in Lalibela, Ethiopia",
+      "alt": "Visitors look across toward a rock-hewn church in Lalibela, Ethiopia.", "property": false, "requires_attribution": false,
+      "changes": "Pexels CDN JPEG resized to 1600 pixels wide; no other edits.",
+      "exact_subject_evidence": "Pexels photo page title 'Family visiting one of the rock-hewn churches in Lalibela' and description place the scene at a rock-hewn church in Lalibela, Ethiopia; the church and visitors were confirmed in the downloaded file.",
+      "reuse_note": "Pexels License allows commercial reuse without attribution; no public credit entry is shown."
     }
   },
   "listings": {
