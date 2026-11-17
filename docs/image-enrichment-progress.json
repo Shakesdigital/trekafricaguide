@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-17T09:20:53.745Z",
+  "updated_at": "2026-11-17T09:39:31.000Z",
   "blocked_runs": [
     {
       "id": "image-generation-service-unavailable-2026-11-15-0507",
@@ -56,6 +56,53 @@
     "resolved_at": "2026-10-21 13:16 Africa/Kampala"
   },
   "completed_runs": [
+    {
+      "id": "sierra-leone-country-four-photo-enrichment-2026-11-17-0907z",
+      "page_url": "https://trekafricaguide.com/countries/sierra-leone/",
+      "page_type": "country",
+      "status": "published_live_confirmed",
+      "previous_photo_count": 2,
+      "photo_count": 6,
+      "new_photo_count": 4,
+      "checked_date": "2026-11-17",
+      "started_at": "2026-11-17 09:07 UTC (12:07 Africa/Kampala)",
+      "source_ledger": "docs/editorial-research/2026-11-17-sierra-leone-country-photo-enrichment.md",
+      "initial_live_verification": "Production country page HTTP 200, read in full: two dedicated photos before this run (lumley-beach-seating-random-institute.jpg and freetown-coastline-bunting-kargbo.jpg, both Unsplash License, added 29 October 2026); stock/regional card imagery excluded from the count.",
+      "note": "Added four exact-subject Unsplash License photographs of Freetown/Sierra Leone requiring no public attribution: Freetown aerial cityscape (Abdulai Sayni, 10 December 2022), coastal waterside houses (Abdulai Sayni, 10 December 2022), view of Freetown from Lumley Beach towards Wilkinson Road (Random Institute, 25 February 2020), and Siaka Stevens Street (Dominique Fofanah, 29 July 2025). All source pages and licences checked on 17 November 2026; SHA-256s unique against the full public image library; no identifiable person as primary subject and no visible brand in any frame. Editorial gallery extends 2 -> 6 dedicated images (8 including the two stock references) toward the 10-17 target. Existing attribution-required images and their credits retained unchanged. Repo synced to origin/main; push f8acf45 triggered the Netlify production build; publication verified live. Email NOT SENT: Gmail requires an interactive owner sign-in in the harness browser and takeover is barred for this routine run; recorded as non-send. Owner receives this progress in chat instead.",
+      "selected_images": [
+        "freetown-aerial-cityscape-abdulai-sayni.jpg",
+        "freetown-waterside-houses-abdulai-sayni.jpg",
+        "freetown-lumley-wilkinson-road-view-random-institute.jpg",
+        "freetown-siaka-stevens-street-dominique-fofanah.jpg"
+      ],
+      "excluded_candidates_note": "Unsplash search results for other countries (Singapore, Luanda, New Orleans, Goa, United States flag, Cape Coast, Zanzibar) excluded as not Sierra Leone subjects; the existing Tokeh aerials already used on the Tokeh attraction page were not reused on this page; Unsplash results showing identifiable residents, private homes or polluted beaches were excluded as unsupported or poorly matched.",
+      "mandatory_input_check": "Passed node scripts/sync-photo-library.mjs and npm run check:build-inputs.",
+      "published_commit": "f8acf45",
+      "email_id": null,
+      "report_status": "NOT SENT: Gmail requires an interactive owner sign-in in the harness browser; takeover barred for this routine run. Recorded as non-send; owner receives this progress in chat.",
+      "rights_evidence": {
+        "sources_checked": [
+          "Unsplash"
+        ],
+        "unsplash_exact-subject_results": 4,
+        "licence": "Unsplash License (commercial reuse without public attribution required)",
+        "global_sha256_dedup": "no matches across all public/images files"
+      },
+      "live_verification": {
+        "checked_at": "2026-11-17 09:37 UTC (12:37 Africa/Kampala)",
+        "page_http_status": 200,
+        "see_all_text": "See all 8 images",
+        "all_new_filenames_in_page": true,
+        "asset_http_statuses": [
+          200,
+          200,
+          200,
+          200
+        ],
+        "note": "Production serves the Sierra Leone country page with the six-image editorial gallery (eight total including the two stock references); all four new assets return HTTP 200 image/jpeg with byte counts matching the stored files."
+      },
+      "next_action": "Rotate to another zero-to-two-image detail page across destinations, attractions, activities and travel insights; continue Sierra Leone country toward 10-17 distinct images (missing subjects: Tokeh Beach, River Number Two estuary, Cotton Tree, Bunce Island, Lungi Airport, Bureh Beach, York Beach)."
+    },
     {
       "id": "kigali-serena-hotel-rights-review-2026-11-16-1307z",
       "page_url": "https://trekafricaguide.com/accommodations/kigali-serena-hotel/",
