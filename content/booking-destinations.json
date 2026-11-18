@@ -57,11 +57,14 @@
       "url": "https://www.booking.com/hotel/cv/hilton-cabo-verde-sal-resort.html",
       "provider": "booking",
       "title": "Hilton Cabo Verde Sal Resort",
-      "checked_at": "2026-11-16",
+      "checked_at": "2026-11-18",
       "evidence": {
         "source_url": "https://www.booking.com/hotel/cv/hilton-cabo-verde-sal-resort.html",
-        "summary": "12 November 2026 (Kampala), scheduled routine: browser search for 'Hilton Cabo Verde Sal Resort' returned the exact property detail page at /hotel/cv/hilton-cabo-verde-sal-resort.html (locale-free), identifying Hilton Cabo Verde Sal Resort in Santa Maria, Cape Verde. Switched from .en-gb variant which redirected to search. Direct detail content bot-walled; no OTA rating, review count, rates, availability or attribution claims made."
-      }
+        "summary": "12 November 2026 (Kampala), scheduled routine: browser search for 'Hilton Cabo Verde Sal Resort' returned the exact property detail page at /hotel/cv/hilton-cabo-verde-sal-resort.html (locale-free), identifying Hilton Cabo Verde Sal Resort in Santa Maria, Cape Verde. Switched from .en-gb variant which redirected to search. Direct detail content bot-walled; no OTA rating, review count, rates, availability or attribution claims made.",
+        "verification_2026_11_18_0922": "18 November 2026 09:22 UTC audit: Stay22 allez/booking wraps of the exact Booking.com detail URL landed on Santa Maria search results (54 properties) twice, not the property detail. Held after live verification; the source identity remains recorded but the wrapped booking option is not stable."
+      },
+      "status": "hold",
+      "hold_reason": "18 November 2026 09:22 UTC audit: Stay22 allez/booking wraps of the exact Booking.com detail URL landed on Santa Maria search results (54 properties) twice, not the property detail. Held after live verification; the source identity remains recorded but the wrapped booking option is not stable."
     },
     "kruger-shalati": {
       "url": "https://www.booking.com/hotel/za/kruger-shalati-the-train-on-the-bridge.html",
@@ -80,12 +83,15 @@
       "url": "https://www.booking.com/hotel/sn/les-pala-c-tuviers.en-gb.html",
       "provider": "booking",
       "title": "Les Palétuviers — Toubakouta, Senegal",
-      "checked_at": "2026-11-16",
+      "checked_at": "2026-11-18",
       "evidence": {
         "source_url": "https://www.booking.com/hotel/sn/les-pala-c-tuviers.en-gb.html",
         "summary": "Exact property detail identifies Les Palétuviers at Sine Saloum, Toubakouta, Senegal. 7.7/10 from 149 reviews.",
-        "verification_2026-11-14": "Stay22 redirect chain lands on exact property detail page /hotel/sn/les-pala-c-tuviers.html (not searchresults.html). Full property detail confirmed: name, address, 149 reviews, room types (Bungalow, Family Room, Suite, Villa), facilities. Prior wrapper instability resolved."
-      }
+        "verification_2026-11-14": "Stay22 redirect chain lands on exact property detail page /hotel/sn/les-pala-c-tuviers.html (not searchresults.html). Full property detail confirmed: name, address, 149 reviews, room types (Bungalow, Family Room, Suite, Villa), facilities. Prior wrapper instability resolved.",
+        "verification_2026_11_18_0922": "18 November 2026 09:22 UTC audit: Stay22 allez/booking wraps of the exact Booking.com detail URL landed on Toubakouta search results (14 properties), not the property detail. Held until a wrapped exact-detail landing is verified."
+      },
+      "status": "hold",
+      "hold_reason": "18 November 2026 09:22 UTC audit: Stay22 allez/booking wraps of the exact Booking.com detail URL landed on Toubakouta search results (14 properties), not the property detail. Held until a wrapped exact-detail landing is verified."
     },
     "maribela-hotel": {
       "url": "https://www.booking.com/hotel/et/maribela-lalibela.html",
@@ -116,14 +122,17 @@
       "url": "https://www.booking.com/hotel/za/belmond-mount-nelson.html",
       "provider": "booking",
       "title": "Mount Nelson, A Belmond Hotel, Cape Town",
-      "checked_at": "2026-11-16",
+      "checked_at": "2026-11-18",
       "rating": "9.7/10",
       "review_count": 184,
       "evidence": {
         "source_url": "https://www.booking.com/hotel/za/belmond-mount-nelson.html",
         "summary": "15 November 2026 scheduled 4-hour audit: locale-free Booking.com detail identifies 76 Orange Street, Gardens, 8001 Cape Town, South Africa. Browser renders the full property detail with Reserve, room types and 9.7 Exceptional from 184 reviews. The Stay22 allez/booking wrapper for this exact URL landed on the same /hotel/za/belmond-mount-nelson.html detail in a fresh private-browser run, not searchresults.html.",
-        "redirect_check": "15 November 2026 (UTC 13:33): https://www.stay22.com/allez/booking?...link=https://www.booking.com/hotel/za/belmond-mount-nelson.html... landed on /hotel/za/belmond-mount-nelson.html with h1 Mount Nelson, A Belmond Hotel, Cape Town and 184 reviews. No rates, availability, checkout, commission or attribution verified."
-      }
+        "redirect_check": "15 November 2026 (UTC 13:33): https://www.stay22.com/allez/booking?...link=https://www.booking.com/hotel/za/belmond-mount-nelson.html... landed on /hotel/za/belmond-mount-nelson.html with h1 Mount Nelson, A Belmond Hotel, Cape Town and 184 reviews. No rates, availability, checkout, commission or attribution verified.",
+        "verification_2026_11_18_0922": "18 November 2026 09:22 UTC audit: live Stay22 wraps could not be completed because Booking.com navigation repeatedly timed out. Held rather than treating an unverified redirect as an exact-detail pass; recheck next rotation."
+      },
+      "status": "hold",
+      "hold_reason": "18 November 2026 09:22 UTC audit: live Stay22 wraps could not be completed because Booking.com navigation repeatedly timed out. Held rather than treating an unverified redirect as an exact-detail pass; recheck next rotation."
     },
     "ol-tukai-lodge-amboseli": {
       "url": "https://www.hotels.com/ho508661/ol-tukai-lodge-amboseli-amboseli-kenya/",
@@ -182,12 +191,15 @@
       "url": "https://www.booking.com/hotel/na/sossusvlei-lodge.en-gb.html",
       "provider": "booking",
       "title": "Sossusvlei Lodge",
-      "checked_at": "2026-11-16",
+      "checked_at": "2026-11-18",
       "evidence": {
         "source_url": "https://www.booking.com/hotel/na/sossusvlei-lodge.en-gb.html",
         "summary": "Exact property detail identifies Sossusvlei Lodge at Farm on D826, Sesriem, Namibia. 8.7/10 from 1,352 reviews.",
-        "verification_2026-11-14": "Stay22 redirect chain lands on exact property detail page /hotel/na/sossusvlei-lodge.html (not searchresults.html). Full property detail confirmed: name, address, 1,352 reviews, room types, facilities, house rules. Prior wrapper instability resolved."
-      }
+        "verification_2026-11-14": "Stay22 redirect chain lands on exact property detail page /hotel/na/sossusvlei-lodge.html (not searchresults.html). Full property detail confirmed: name, address, 1,352 reviews, room types, facilities, house rules. Prior wrapper instability resolved.",
+        "verification_2026_11_18_0922": "18 November 2026 09:22 UTC audit: interleaved Stay22 wraps alternated between the exact Sossusvlei Lodge detail and Sesriem search results (13 properties). Held because the wrapped booking option is unstable."
+      },
+      "status": "hold",
+      "hold_reason": "18 November 2026 09:22 UTC audit: interleaved Stay22 wraps alternated between the exact Sossusvlei Lodge detail and Sesriem search results (13 properties). Held because the wrapped booking option is unstable."
     },
     "the-place-resort-tokeh": {
       "url": "https://www.agoda.com/en-ie/the-place-resort-at-tokeh-beach-h88167521/hotel/toke-sl.html",
@@ -271,11 +283,14 @@
       "url": "https://www.booking.com/hotel/ke/amboseli-serena-safari-lodge.html",
       "provider": "booking",
       "title": "Amboseli Serena Safari Lodge",
-      "checked_at": "2026-11-16",
+      "checked_at": "2026-11-18",
       "evidence": {
         "source_url": "https://www.booking.com/hotel/ke/amboseli-serena-safari-lodge.html",
-        "summary": "14 November 2026 scheduled 4-hour audit: switched from .en-gb variant which redirected to searchresults.html (dest_id=4722582). Locale-free canonical /hotel/ke/amboseli-serena-safari-lodge.html verified via browser search as exact property detail page for Amboseli Serena Safari Lodge, Kenya; name/location cross-checked with Serena official Amboseli page. Direct request returns JavaScript verification (bot-walled). No availability, current price, aggregate rating or affiliate attribution independently verified."
-      }
+        "summary": "14 November 2026 scheduled 4-hour audit: switched from .en-gb variant which redirected to searchresults.html (dest_id=4722582). Locale-free canonical /hotel/ke/amboseli-serena-safari-lodge.html verified via browser search as exact property detail page for Amboseli Serena Safari Lodge, Kenya; name/location cross-checked with Serena official Amboseli page. Direct request returns JavaScript verification (bot-walled). No availability, current price, aggregate rating or affiliate attribution independently verified.",
+        "verification_2026_11_18_0922": "18 November 2026 09:22 UTC audit: interleaved Stay22 wraps alternated between Amboseli search results (26 properties) and the exact Amboseli Serena Safari Lodge detail. Held because the wrapped booking option is unstable."
+      },
+      "status": "hold",
+      "hold_reason": "18 November 2026 09:22 UTC audit: interleaved Stay22 wraps alternated between Amboseli search results (26 properties) and the exact Amboseli Serena Safari Lodge detail. Held because the wrapped booking option is unstable."
     },
     "red-chilli-rest-camp": {
       "url": "https://www.booking.com/hotel/ug/red-chilli-rest-camp.html",
@@ -397,12 +412,15 @@
       "url": "https://www.booking.com/hotel/zm/the-royal-livingstone.html",
       "provider": "booking",
       "title": "Royal Livingstone Hotel by Anantara",
-      "checked_at": "2026-11-16",
+      "checked_at": "2026-11-18",
       "evidence": {
         "source_url": "https://www.booking.com/hotel/zm/the-royal-livingstone.html",
         "summary": "Browser-verified 14 November 2026: exact property detail page at /hotel/zm/the-royal-livingstone.html identifies Royal Livingstone Hotel by Anantara on Mosi-oa-Tunya Road, Livingstone, Zambia. 8.7/10 from 150 reviews. Location 9.6/10. Room categories, facilities, house rules, and 2.5 km to Victoria Falls confirmed on page.",
-        "verification_2026-11-14": "Stay22 redirect chain to be tested in production build; source URL is exact property detail (not searchresults.html)."
-      }
+        "verification_2026-11-14": "Stay22 redirect chain to be tested in production build; source URL is exact property detail (not searchresults.html).",
+        "verification_2026_11_18_0922": "18 November 2026 09:22 UTC audit: the exact Royal Livingstone Hotel by Anantara detail opened correctly once without roam=false, but the prior live resolver emitted roam=false and the new resolver has not yet completed a stable production sample. Held until a production click-through is verified."
+      },
+      "status": "hold",
+      "hold_reason": "18 November 2026 09:22 UTC audit: the exact Royal Livingstone Hotel by Anantara detail opened correctly once without roam=false, but the prior live resolver emitted roam=false and the new resolver has not yet completed a stable production sample. Held until a production click-through is verified."
     },
     "president-hotel-bantry-bay": {
       "url": "https://www.booking.com/hotel/za/president-cape-town.en-gb.html",
@@ -420,26 +438,31 @@
       "url": "https://www.booking.com/hotel/bw/maun-lodge.en-gb.html",
       "provider": "booking",
       "title": "Maun Lodge",
-      "checked_at": "2026-11-17",
+      "checked_at": "2026-11-18",
       "evidence": {
         "source_url": "https://www.booking.com/hotel/bw/maun-lodge.en-gb.html",
         "summary": "17 November 2026 scheduled 4-hour audit: exact Booking.com property detail opened in a browser session; property name Maun Lodge, 459 Tawana Road, PO Box 376, Maun, Botswana, Guest reviews (517), Reserve present, Facilities and House rules rendered, no multi-property results. Direct URL identical to the editorial booking_url already published on the page.",
-        "redirect_check": "17 November 2026: 26 server-side Stay22 allez/booking wraps of this exact URL, all 26 landed on /hotel/bw/maun-lodge*.html detail pages and none on searchresults.html. Earlier 15 November wraps of the same URL also landed on the exact detail. No rates, availability, review aggregates, checkout, commission or attribution verified."
-      }
+        "redirect_check": "17 November 2026: 26 server-side Stay22 allez/booking wraps of this exact URL, all 26 landed on /hotel/bw/maun-lodge*.html detail pages and none on searchresults.html. Earlier 15 November wraps of the same URL also landed on the exact detail. No rates, availability, review aggregates, checkout, commission or attribution verified.",
+        "verification_2026_11_18_0922": "18 November 2026 09:22 UTC audit: Stay22 wraps of the locale-free exact Maun Lodge URL repeatedly timed out and did not produce a verifiable detail landing. Held rather than retaining an unverified active CTA; recheck next rotation."
+      },
+      "status": "hold",
+      "hold_reason": "18 November 2026 09:22 UTC audit: Stay22 wraps of the locale-free exact Maun Lodge URL repeatedly timed out and did not produce a verifiable detail landing. Held rather than retaining an unverified active CTA; recheck next rotation."
     },
     "chobe-safari-lodge": {
       "url": "https://www.booking.com/hotel/bw/chobe-safari-lodge.en-gb.html",
       "provider": "booking",
       "title": "The Chobe Safari Lodge",
       "checked_at": "2026-11-18",
-      "status": "active",
+      "status": "hold",
       "evidence": {
         "source_url": "https://www.booking.com/hotel/bw/chobe-safari-lodge.en-gb.html",
         "summary": "17 November 2026 scheduled 4-hour audit: direct Booking.com detail confirmed in a browser session: The Chobe Safari Lodge, President Avenue, Kasane, 168 reviews, 8.7 Excellent, room types, facilities, house rules. Direct URL identical to the editorial booking_url already published on the page.",
         "verification_2026-11-17": "Server-side wraps of the .en-gb URL landed on the exact detail 5/10, 5/8 and 3/7 times across three batches and on searchresults.html otherwise. The .en-us and locale-free variants landed on the exact detail in the same batches, so the instability follows the wrapper rather than the source path. The en-gb URL is kept because it is the canonical path the editorial record and the published page already use.",
         "limits": "No rates, availability, review scores beyond the 17 November reading, checkout, commission or attribution verified.",
-        "verification_2026_11_18": "18 November 2026 05:22 UTC scheduled 4-hour audit: five interleaved real-browser wraps of /hotel/bw/chobe-safari-lodge.en-gb.html landed on the exact Booking.com property detail all five times (h1 The Chobe Safari Lodge, President Avenue, Kasana Border of Chobe National Park, Kasane, Botswana; Reserve, Facilities, House rules; 168 reviews, 8.7 Excellent; not searchresults.html). Prior hold lifted."
-      }
+        "verification_2026_11_18": "18 November 2026 05:22 UTC scheduled 4-hour audit: five interleaved real-browser wraps of /hotel/bw/chobe-safari-lodge.en-gb.html landed on the exact Booking.com property detail all five times (h1 The Chobe Safari Lodge, President Avenue, Kasana Border of Chobe National Park, Kasane, Botswana; Reserve, Facilities, House rules; 168 reviews, 8.7 Excellent; not searchresults.html). Prior hold lifted.",
+        "verification_2026_11_18_0922": "18 November 2026 09:22 UTC audit: eight interleaved Stay22 wraps without roam=false alternated 4 exact Chobe Safari Lodge detail landings and 4 Kasane search-results landings (42 properties). The prior roam=false resolver also sent the live CTA to Booking.com search. Held until a stable production click-through is verified."
+      },
+      "hold_reason": "18 November 2026 09:22 UTC audit: eight interleaved Stay22 wraps without roam=false alternated 4 exact Chobe Safari Lodge detail landings and 4 Kasane search-results landings (42 properties). The prior roam=false resolver also sent the live CTA to Booking.com search. Held until a stable production click-through is verified."
     },
     "accra-city-hotel": {
       "url": "https://www.booking.com/hotel/gh/accra-city-hotel.en-gb.html",

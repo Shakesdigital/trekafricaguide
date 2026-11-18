@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-18T05:22:00.000Z",
+  "updated_at": "2026-11-18T09:22:00.000Z",
   "owner": "booking-links audit agent",
   "ledger": "docs/editorial-research/2026-11-08-booking-links-audit.md",
   "run_1": {
@@ -164,7 +164,7 @@
       "result": "Expedia Hotel-Search landing -> held; CTA confirmed suppressed on production after run-2 deploy"
     }
   ],
-  "next_action": "Reconcile the remote editorial tree and the local full-site tree without force push or publishing unrelated history; publish the registry-only restoration of chobe-safari-lodge, verify its live Stay22 CTA after deployment, then continue resampling accra-city-hotel, lemon-beach-resort-elmina, casa-del-papa and paraa-safari-lodge and audit the other active registry entries.",
+  "next_action": "Publish the roam=false resolver removal and registry holds, poll the Netlify production deploy, and click-verify every affected accommodation CTA on the live pages. Then rotate back to the GetYourGuide product sample and the remaining held stays; keep only exact full-detail OTA landings active.",
   "run_2026-11-12_14h": {
     "date": "2026-11-12",
     "scheduled_for": "2026-11-12T14:19:02.178Z",
@@ -570,5 +570,19 @@
     "production_deploy": "not pushed; remote lacks registry/build tree",
     "limits": "Probabilistic Stay22 wrapper; point-in-time OTA identity/reviews; no rates, availability, checkout or attribution verified.",
     "next_action": "Reconcile the remote editorial tree and the local full-site tree without force push or publishing unrelated history; publish the registry-only restoration of chobe-safari-lodge, verify its live Stay22 CTA after deployment, then continue resampling accra-city-hotel, lemon-beach-resort-elmina, casa-del-papa and paraa-safari-lodge and audit the other active registry entries."
+  },
+  "run_2026_11_18_0922": {
+    "scheduled_for": "2026-11-18T09:22:00.000Z",
+    "timezone": "Africa/Kampala",
+    "checked": 9,
+    "pass": 0,
+    "fail": 9,
+    "fixed": 0,
+    "added": 0,
+    "new_holds": 9,
+    "notes": "Live-page audit found a material resolver defect: buildStay22Url emitted roam=false for every provider. A real click on the live Chobe CTA with roam=false landed on Booking.com search results, not the property detail. Direct Stay22 allez/booking samples without roam=false exposed persistent wrapper instability: Chobe 4/8 exact detail and 4/8 Kasane search (42 properties); Sossusvlei 1/2 exact and 1/2 Sesriem search (13 properties); Amboseli Serena 0/2 exact and 2/2 Amboseli search (26 properties); Hilton Cabo Verde 0/2 exact and 2/2 Santa Maria search (54 properties); Les Paletuviers and Maun Lodge repeatedly timed out without a verifiable detail landing; Mount Nelson repeatedly timed out. Royal Livingstone rendered exact full detail once without roam=false but has no production verification yet. All nine sampled accommodation entries were moved to hold rather than leaving unverified CTAs active. Removed roam=false from src/lib/booking.mjs, added a regression assertion in tests/node/booking.test.mjs, and updated the nine registry entries with dated evidence. check:build-inputs passed. npm test was run: 478/488 passed, 10 failed; failures are the pre-existing booking test Node 22 JSON-import issue (the targeted new assertion could not run), fixture/supabase/network tests, and the existing page-shell test. No full production build was run. No editorial, image, dist, deploy archive or affiliate ID was altered. Publication pending poll and live click verification.",
+    "content_commits": [],
+    "production_deploy": "pending push and Netlify publication",
+    "limits": "Small rotating accommodation sample, probabilistic Stay22 wrapper, point-in-time OTA evidence. No rates, availability, checkout, review aggregates or attribution verified."
   }
 }
