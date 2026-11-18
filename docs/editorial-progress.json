@@ -1,8 +1,9 @@
 {
-  "updated_at": "2026-11-18T03:13:00.000Z",
+  "updated_at": "2026-11-18T07:40:00.000Z",
   "timezone": "Africa/Kampala",
   "next_scheduled_start": "2026-10-17T19:30:00+03:00",
   "cadence_hours": 3,
+  "last_run": "2026-11-18T10:40:00+03:00",
   "active_task": {
     "id": "accommodation-property-photos",
     "status": "backlog",
@@ -113,14 +114,14 @@
     "email_id": "1a143a69416cf3d1"
   },
   "rotation": {
-    "last_completed_category": "destinations",
-    "next_category": "accommodations",
-    "next_deliverable": "Djanet/Tassili n'Ajjer local destination published 2026-11-18 (destinations rotation); next: one evidenced accommodations gap."
+    "last_completed_category": "accommodations",
+    "next_category": "travel_insights",
+    "next_deliverable": "Steigenberger Hotel El Tahrir Cairo accommodation guide published at source_commit feff01f; Cairo destination Where to stay now renders both Giza-side (Marriott Mena House) and central-city (Steigenberger El Tahrir) bases. Netlify deploy triggered; detail page live verification pending (HTTP 404, deploy in progress). CMS mirror imported at source_commit feff01f; owner-side CMS check pending. Next: one evidenced travel insights gap."
   },
   "current_deliverable": {
-    "category": "destinations",
-    "rotation": "accommodations after that",
-    "note": "Djanet/Tassili n'Ajjer local destination guide published at source_commit e2c08a2; Algeria country page Destinations rail renders Djanet card (live HTTP 200), cross-links to Djanet And Tassili attraction and Terres Touareg Guest House stay. Netlify deploy triggered; detail page live verification pending (HTTP 404, deploy in progress). CMS mirror imported at source_commit e2c08a2; owner-side CMS check pending."
+    "category": "accommodations",
+    "rotation": "travel_insights after that",
+    "note": "Steigenberger Hotel El Tahrir Cairo accommodation guide published at source_commit feff01f. Evidenced gap: Cairo destination page explicitly frames binary choice between Giza-side base (Marriott Mena House) and central-city base for museum-and-neighbourhoods visit; only Giza-side existed. Steigenberger at Tahrir Square (overlooks Egyptian Museum, 9.3/10 from 11,062 Booking.com reviews, 295 rooms, 5-star Steigenberger/Jaz Hotel Group) fills central-city counterpart. Zero-image honest publish; six-subject photo backlog logged. Booking URL verified (Booking.com exact property). Netlify deploy triggered; detail page /accommodations/steigenberger-hotel-el-tahrir-cairo/ returns 404 (deploy in progress). Cairo destination Where to stay still shows only Marriott Mena House (deploy pending). CMS mirror imported at source_commit feff01f; owner-side CMS check pending."
   },
   "previous_deliverable_correction": {
     "id": "marrakech-medina-street-food-walk",
@@ -129,7 +130,7 @@
     "email_id": "1a148cdf8dbabb76",
     "note": "Live page and booking relationship were confirmed and the owner report was already sent. Corrected the stale pending-owner-report status without resending the email."
   },
-  "next_scheduled_run": "2026-10-23T19:30:00+03:00",
+  "next_scheduled_run": "2026-11-18T13:13:00+03:00",
   "analytics_installation": {
     "measurement_id": "G-ZWBZRQPBK7",
     "commit": "4f76457",
