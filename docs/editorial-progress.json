@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-16T13:17:17.142Z",
+  "updated_at": "2026-11-18T09:30:00.000Z",
   "timezone": "Africa/Kampala",
   "next_scheduled_start": "2026-10-17T19:30:00+03:00",
   "cadence_hours": 3,
@@ -252,7 +252,7 @@
     "No routine tests/builds or repeated broad audits."
   ],
   "next_task_selection": "Rotate to activities next run; owner-email send still blocked on Gmail sign-in.",
-  "last_run": "2026-11-12T06:47:00+03:00",
+  "last_run": "2026-11-18T12:13:00+03:00",
   "task_magnitude": "One complete full guide plus booking and listing cards, or one full property photo collection; do not schedule isolated paragraphs/links.",
   "country_destinations_feature": {
     "status": "complete",
@@ -272,14 +272,14 @@
     "email_id": "1a143a69416cf3d1"
   },
   "rotation": {
-    "last_completed_category": "destinations",
-    "next_category": "travel_insights",
-    "next_deliverable": "Accra local destination guide published 2026-11-16 (destinations rotation, source_commit fe227d6); next: one evidenced travel-insights gap."
+    "last_completed_category": "travel_insights",
+    "next_category": "activities",
+    "next_deliverable": "Benin first-visit travel insight published at source_commit 53e4eb8; Benin country page Related travel insights now links plan-first-benin-visit-ouidah-ganvie. Next: one evidenced activities gap."
   },
   "current_deliverable": {
     "category": "travel_insights",
     "rotation": "activities after that",
-    "note": "Sine-Saloum day-trip vs overnight insight published live at source_commit 1f8979d; archive, country and destination links plus six images verified. CMS mirror imported at source_commit 1f8979d; owner-side CMS check pending."
+    "note": "Plan a first Benin visit: Ouidah heritage, Ganvié stilt village, and the southern route published at source_commit 53e4eb8. Evidenced gap: Benin country page (live HTTP 200, 18 Nov 2026) frames Ouidah heritage + Ganvié stilt village as linked but distinct experiences, recommends separate outings, but has zero travel insights. Country page has destination (Ouidah and Ganvié), attraction, and accommodation but no travel insight. Research (all checked 18 Nov 2026): Benin country page, UK FCDO travel advice/entry requirements, Benin e-visa portal (evisa.bj), Wikipedia Ouidah/Ganvié, live Ouidah and Ganvié destination page, live Casa del Papa accommodation. Zero-image honest publish with six-subject photo backlog logged. No verified booking URL for guided southern Benin route. CMS mirror imported at source_commit 53e4eb8; owner-side CMS check pending."
   },
   "previous_deliverable_correction": {
     "id": "marrakech-medina-street-food-walk",
@@ -288,7 +288,7 @@
     "email_id": "1a148cdf8dbabb76",
     "note": "Live page and booking relationship were confirmed and the owner report was already sent. Corrected the stale pending-owner-report status without resending the email."
   },
-  "next_scheduled_run": "2026-10-23T19:30:00+03:00",
+  "next_scheduled_run": "2026-11-18T13:13:00+03:00",
   "analytics_installation": {
     "measurement_id": "G-ZWBZRQPBK7",
     "commit": "4f76457",
@@ -400,6 +400,45 @@
         ],
         "next_category": "destinations"
       }
+    },
+    {
+      "id": "plan-first-benin-visit-ouidah-ganvie",
+      "category": "travel_insights",
+      "started": "2026-11-18",
+      "latest_run_note": "Scheduled 2h routine run 2026-11-18 ~09:13Z; executed ~12:13 EAT.",
+      "selection_evidence": "Live Benin country page (HTTP 200, 18 Nov 2026) frames Ouidah heritage + Ganvié stilt village as linked but distinct experiences, recommends separate outings, but has zero travel insights. Country page has destination (Ouidah and Ganvié), attraction, and accommodation but no travel insight. Duplication check: no overlap with any of the 32 live insights.",
+      "scope": "New travel insight answering the first-visit planning decision: Ouidah slave trade heritage + living Vodun traditions vs Ganvié stilt village on Lake Nokoué, base choice (Cotonou/Ouidah/Ganvié), route sequencing, entry/visa/health requirements, regional safety context, transport practicalities, cultural etiquette. No booking CTA by design (no verified operator product).",
+      "files": [
+        "content/editorial-overrides.json",
+        "docs/editorial-research/2026-11-18-benin-first-visit-insight.md",
+        "docs/editorial-progress.json"
+      ],
+      "images": 0,
+      "image_followup": "Six distinct licensed Benin subjects not reusable from destination/accommodation galleries: Door of No Return monument at Ouidah beach, Python Temple or Sacred Forest of Kpasse interior, Ganvié stilt village aerial/view from lake, Pirogue on Lake Nokoué with village backdrop, Ouidah Museum of History (Portuguese fort) exterior, Southern Benin road/landscape context (Cotonou–Ouidah route). Ledger in the research doc.",
+      "booking_cta": "None by design: no verified guided southern Benin route product URL; GetYourGuide Benin page redirects; no specific Ouidah/Ganvié tour URL verified.",
+      "key_facts_checked": "Benin country page (live HTTP 200, 18 Nov 2026) — frames Ouidah/Ganvié, recommends separate outings, base choice, road/boat logistics. UK FCDO Benin travel advice (updated 4 Nov 2026, checked 18 Nov 2026) — southern Benin not under advisory; northern parks do-not-travel; eastern Benin essential-only. FCDO entry requirements (checked 18 Nov 2026) — passport validity, e-visa, yellow fever, onward visas. Benin e-visa portal evisa.bj (checked 18 Nov 2026) — online application ≥4 working days, visa costs, yellow fever checks, tourism highlights. Wikipedia Ouidah (checked 18 Nov 2026) — slave trade history, Door of No Return, Portuguese fort, Python Temple, Sacred Forest, Vodun festival. Wikipedia Ganvié (checked 18 Nov 2026) — lake village, Tofinu founders, ~20,000 residents, pirogue access, UNESCO tentative list 1996. Live Ouidah and Ganvié destination page (HTTP 200, 18 Nov 2026) — heritage and lake village category, southern route planning. Live Casa del Papa Resort & Spa (HTTP 200, 18 Nov 2026) — coastal base near Ouidah.",
+      "build_checks": "check-build-inputs passed; production build (EDITORIAL_CMS_SYNC=false) successful; readability guard passed; dist verified pre-push (title, all h2 sections, internal links, cross-links to country/destination/accommodation pages, no markup leak, archive + homepage listing).",
+      "publication": {
+        "content_commit": "53e4eb8",
+        "pushed_to": "main",
+        "push_result": "success (68bdc5d..53e4eb8)",
+        "pushed_at": "2026-11-18",
+        "live_url": "https://trekafricaguide.com/travel-insights/plan-first-benin-visit-ouidah-ganvie/",
+        "live_http_status": 200,
+        "checked_at": "2026-11-18",
+        "live_checks": {
+          "detail": "HTTP 200; title 'Plan a first Benin visit: Ouidah, Ganvié, and the southern route | Trek Africa Guide'; distinctive copy renders (Door of No Return, Route des Esclaves, Python Temple, Sacred Forest, Ganvié pirogue logistics, visa contradiction FCDO vs Benin portal, FCDO regional advisories, base choice, cross-links); no exposed markup.",
+          "archive_home": "Travel-insights archive and homepage list the story (archive verified live).",
+          "country_page": "Benin country page Related travel insights section shows plan-first-benin-visit-ouidah-ganvie link.",
+          "destination_page": "Ouidah and Ganvié destination page Related travel insights section shows plan-first-benin-visit-ouidah-ganvie link.",
+          "no_cta": "No booking anchor in the live HTML."
+        },
+        "cms_source_commit": "53e4eb8"
+      },
+      "cms": "Publishable-key REST read: travel_articles 200, local_destinations 404 (schema cache, standard), editorial_documents 400 (service-role RLS, by design). Mirror imported server-side at source_commit 53e4eb8; owner-side CMS check to confirm travel_articles/plan-first-benin-visit-ouidah-ganvie.",
+      "next_category": "activities",
+      "next_action": "Rotate to activities next run. Flagged candidate: the Ouidah-Ganvie heritage excursion (research ledger 2026-11-15 complete, exact GetYourGuide t1144752 verified, empty activity rail on the live destination) — verify the destination rail and product before writing.",
+      "email_status": "draft_pending_gmail_signin"
     }
   ],
   "rendering_correction": {
@@ -481,17 +520,17 @@
     "commit": "224da9d (content) + receipt commit"
   },
   "latest_run_checkpoint": {
-    "run": "scheduled-2h-2026-11-16T13:00Z",
-    "category_rotation": "destinations",
-    "deliverable": "destination_serengeti_tanzania",
-    "inventory_note": "Rolling inventory maintained 16 November 2026: destinations directory (24 published local destinations, Tanzania had none), country pages re-swept for attraction/stay clusters without a destination (Serengeti chosen as the ledger-flagged candidate; other evidenced gaps remain: Okavango Delta, South Luangwa, Kruger, Murchison, Amboseli, Maasai Mara), activities and insights archives re-checked for duplicates.",
-    "next_category": "accommodations",
-    "next_action": "Rotate to accommodations next run. Open items: six-photo backlogs (Amboseli Serena, Serengeti Serena, Ouidah-Ganvie, Lalibela insight), President Hotel Stay22-wrap recheck, owner Gmail sign-in.",
-    "commit": "fe495dd (content) + this receipt commit",
-    "push": "success (5bf45c3..fe495dd)",
-    "live_receipt": "https://trekafricaguide.com/countries/tanzania/serengeti/ HTTP 200 — see destination_serengeti_tanzania.publication.live_checks",
-    "cms": "Publishable-key reconcile: travel_articles 200; local_destinations 404 (schema cache); editorial_documents 400 (service-role, by design). No writes. Owner-side CMS check pending for the serengeti destination.",
-    "email": "Owner email prepared as draft (Gmail signed out in the OpenBot browser, re-checked 16 Nov 2026); stored in destination_serengeti_tanzania.owner_email_draft. One sign-in ships it plus the earlier pending drafts."
+    "run": "scheduled-2h-2026-11-18T09:13Z",
+    "category": "travel_insights",
+    "deliverable": "travel_insight_plan_first_benin_visit",
+    "inventory_note": "Rolling inventory maintained 18 November 2026: travel insights archive (33 published insights), Benin country page had destination/attraction/accommodation but zero insights — now resolved. Other evidenced gaps remain: Algeria (Djanet/Tassili destination live, no insight), Cabo Verde (Sal destination live, one insight).",
+    "next_category": "activities",
+    "next_action": "Rotate to activities next run. Open items: six-photo backlogs (Amboseli Serena, Serengeti Serena, Ouidah-Ganvie, Lalibela insight), President Hotel Stay22-wrap recheck, owner Gmail sign-in.",
+    "commit": "53e4eb8 (content) + this receipt commit",
+    "push": "success (68bdc5d..53e4eb8)",
+    "live_receipt": "https://trekafricaguide.com/travel-insights/plan-first-benin-visit-ouidah-ganvie/ HTTP 200 — see travel_insight_plan_first_benin_visit.publication.live_checks",
+    "cms": "Publishable-key reconcile: travel_articles 200; local_destinations 404 (schema cache); editorial_documents 400 (service-role, by design). No writes. Owner-side CMS check pending for the Benin travel insight.",
+    "email": "Owner email remains a stored draft; Gmail signed out in OpenBot browser (re-checked 18 Nov 2026)."
   },
   "travel_insight_lalibela_do_not_travel": {
     "id": "decide-lalibela-under-do-not-travel-advice",
