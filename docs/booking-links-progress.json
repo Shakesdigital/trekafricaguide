@@ -164,7 +164,7 @@
       "result": "Expedia Hotel-Search landing -> held; CTA confirmed suppressed on production after run-2 deploy"
     }
   ],
-  "next_action": "Publish the roam=false resolver removal and registry holds, poll the Netlify production deploy, and click-verify every affected accommodation CTA on the live pages. Then rotate back to the GetYourGuide product sample and the remaining held stays; keep only exact full-detail OTA landings active.",
+  "next_action": "Continue the next rotating audit with the new resolver: sample active GetYourGuide product pages and the one active Agoda stay, and research stable exact-detail sources for the held Booking.com accommodations. Do not reactivate a Booking.com stay until repeated live clicks with the new resolver reach its exact full-detail property page.",
   "run_2026-11-12_14h": {
     "date": "2026-11-12",
     "scheduled_for": "2026-11-12T14:19:02.178Z",
@@ -582,7 +582,14 @@
     "new_holds": 9,
     "notes": "Live-page audit found a material resolver defect: buildStay22Url emitted roam=false for every provider. A real click on the live Chobe CTA with roam=false landed on Booking.com search results, not the property detail. Direct Stay22 allez/booking samples without roam=false exposed persistent wrapper instability: Chobe 4/8 exact detail and 4/8 Kasane search (42 properties); Sossusvlei 1/2 exact and 1/2 Sesriem search (13 properties); Amboseli Serena 0/2 exact and 2/2 Amboseli search (26 properties); Hilton Cabo Verde 0/2 exact and 2/2 Santa Maria search (54 properties); Les Paletuviers and Maun Lodge repeatedly timed out without a verifiable detail landing; Mount Nelson repeatedly timed out. Royal Livingstone rendered exact full detail once without roam=false but has no production verification yet. All nine sampled accommodation entries were moved to hold rather than leaving unverified CTAs active. Removed roam=false from src/lib/booking.mjs, added a regression assertion in tests/node/booking.test.mjs, and updated the nine registry entries with dated evidence. check:build-inputs passed. npm test was run: 478/488 passed, 10 failed; failures are the pre-existing booking test Node 22 JSON-import issue (the targeted new assertion could not run), fixture/supabase/network tests, and the existing page-shell test. No full production build was run. No editorial, image, dist, deploy archive or affiliate ID was altered. Publication pending poll and live click verification.",
     "content_commits": [],
-    "production_deploy": "pending push and Netlify publication",
-    "limits": "Small rotating accommodation sample, probabilistic Stay22 wrapper, point-in-time OTA evidence. No rates, availability, checkout, review aggregates or attribution verified."
+    "production_deploy": "published e9c1af4; Netlify production poll at 2026-11-18 09:38-09:39 UTC",
+    "limits": "Small rotating accommodation sample, probabilistic Stay22 wrapper, point-in-time OTA evidence. No rates, availability, checkout, review aggregates or attribution verified.",
+    "production_verification": {
+      "checked_at": "2026-11-18T09:40:00.000Z",
+      "method": "Repeated live HTML polls after push; no booking purchase or checkout",
+      "chobe_safari_lodge": "First poll at 09:38:03 UTC still showed the old Book a stay CTA; polls at 09:38:26, 09:38:48, 09:39:10, 09:39:32 and 09:39:53 UTC showed the honest not-yet-available message and no Stay22 booking CTA. This confirms the registry hold reached production. Live click verification of the new resolver is not possible on held pages; no new active booking CTA was published."
+    },
+    "publication_status": "live_confirmed_hold",
+    "next_action": "Continue the next rotating audit with the new resolver: sample active GetYourGuide product pages and the one active Agoda stay, and research stable exact-detail sources for the held Booking.com accommodations. Do not reactivate a Booking.com stay until repeated live clicks with the new resolver reach its exact full-detail property page."
   }
 }
