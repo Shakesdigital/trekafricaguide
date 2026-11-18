@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-18T09:07:00.000Z",
+  "updated_at": "2026-11-18T09:27:52.503Z",
   "blocked_runs": [
     {
       "id": "image-generation-service-unavailable-2026-11-15-0507",
@@ -4953,6 +4953,49 @@
       "email_id": null,
       "report_status": "NOT SENT: live-confirmed, but mail.google.com shows a sign-in page and there is no Gmail login/secret tool available; routine-run guidance bars a takeover for a sign-in that needs the user. Recorded as non-send; owner receives this progress in chat.",
       "next_action": "Rotate to another zero-photo page across destinations, attractions, activities, travel insights and accommodations; continue Lalibela insight toward 10-17 distinct images."
+    },
+    {
+      "id": "lalibela-do-not-travel-insight-4-photo-enrichment-2026-11-18",
+      "page_url": "https://trekafricaguide.com/travel-insights/decide-lalibela-under-do-not-travel-advice/",
+      "page_type": "travel_insight",
+      "status": "published_live_confirmed",
+      "started_at": "2026-11-18 ~09:45 UTC (12:45 Africa/Kampala)",
+      "previous_photo_count": 2,
+      "photo_count": 4,
+      "new_photo_count": 2,
+      "checked_date": "2026-11-18",
+      "source_ledger": "docs/editorial-research/2026-11-18-lalibela-do-not-travel-photo-enrichment-2.md",
+      "initial_live_verification": "Production insight page HTTP 200, read in full: 2 dedicated Pexels-Licence photos before this run (person beside stone walls; family at rock-hewn church). No booking CTA (do-not-travel advisory page).",
+      "note": "Second batch for the Lalibela do-not-travel insight: two Pexels-License (commercial reuse, no public attribution) exact-subject photographs added, gallery 2 -> 4 toward the 10-17 target: (1) priest in a turban holding a cross inside a rock-hewn church (Ludo Van den Nouweland, Pexels ID 12344936); (2) aerial view of the rock-hewn Church of Saint George (Aldo Bordoni, Pexels ID 39129274). Both downloaded from the Pexels CDN, resized to 1600 pixels wide, SHA-256 recorded, added to the insight body as figures with natural descriptive alt text. Neither frame is already used on the Lalibela attraction or local-destination pages. Image generation remains blocked (provider credits unavailable); no synthetic frame added. No CC BY / CC BY-SA / attribution-required photos published. Rights evidence (source, creator, licence, check date, SHA-256) is in src/lib/photo-library.js; no public credits, citations, or AI labels, per owner preference.",
+      "selected_images": [
+        "lalibela-priest-cross-interior-turban.jpg",
+        "lalibela-rock-hewn-church-aerial-aldo-bordoni.jpg"
+      ],
+      "excluded_candidates_note": "Wikimedia Commons Lalibela results are CC BY / CC BY-SA (attribution required, excluded for new publish); only the Pexels no-attribution pool was used. Not an accommodation page, so no imagined-room/facility risk applies.",
+      "mandatory_input_check": "Passed node scripts/sync-photo-library.mjs and npm run check:build-inputs.",
+      "remaining_gap": "6-13 distinct images toward 10-17 target",
+      "published_commit": "b2eed67",
+      "live_verification": {
+        "checked_at": "2026-11-18 ~09:55 UTC (12:55 Africa/Kampala)",
+        "page_http_status": 200,
+        "all_new_filenames_in_page": true,
+        "asset_http_statuses": [
+          200,
+          200
+        ],
+        "asset_content_types": [
+          "image/jpeg",
+          "image/jpeg"
+        ],
+        "asset_content_lengths": [
+          643640,
+          525558
+        ],
+        "note": "Production serves the four-image Lalibela do-not-travel insight gallery; all four filenames render in page markup and both new assets return HTTP 200 image/jpeg with byte counts matching the stored files."
+      },
+      "email_id": null,
+      "report_status": "NOT SENT: live-confirmed, but Gmail requires an interactive owner sign-in with no session available; takeover barred for this run. Recorded as non-send; owner receives this progress in chat.",
+      "next_action": "Rotate to another zero-photo page across destinations, attractions, activities, travel insights and accommodations; continue Lalibela insight toward 10-17 distinct images (6-13 more needed)."
     }
   ],
   "review_checkpoints": [
