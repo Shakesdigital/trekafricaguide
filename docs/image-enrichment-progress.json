@@ -82,6 +82,22 @@
       "published_commit": null,
       "email_id": null,
       "report_status": "NOT SENT: no collection published/live-confirmed; push blocked and Gmail requires an interactive owner sign-in (standing limitation). Owner receives this progress in chat."
+    },
+    {
+      "id": "git-unrelated-histories-no-safe-push-path-2026-11-18-0707z",
+      "scheduled_at": "2026-11-18T07:07:00.000Z",
+      "status": "blocked_push_unrelated_histories",
+      "planned_target": "https://trekafricaguide.com/accommodations/camp-okavango/",
+      "page_type": "accommodation",
+      "previous_photo_count": 0,
+      "photo_count": 0,
+      "new_photo_count": 0,
+      "note": "Carried-over zero-image accommodation (live HTTP 200, zero dedicated photos, no og:image, no See-all text). This run could not source or publish any photo. Git publication remains fully blocked: local main (dd4c0e9) and origin/main (9db38a9) share no merge-base (git merge-base exit 1); git push origin main rejected non-fast-forward. origin/main is a 9-file editorial tree with no photo library, no public/ directory, and no docs/image-enrichment-progress.json. Force-push prohibited (would destroy origin's editorial commits). Rebase/push of local main's 849 mixed-history commits prohibited ('commit only own files'; would publish foreign history) and rebasing already failed twice with continuous conflicts. Branching from origin/main would publish a 9-file tree and destroy the live site. No non-destructive fast-forward path exists. Photo sources: Pexels.com HTTP 403; Wikimedia Commons reachable but 'Camp Okavango' exact-subject search returns no exact-subject Camp Okavango Botswana lodge files (only unrelated Okavango Delta results under CC BY-SA 4.0, attribution-required, excluded); Unsplash/authorization-limited; Flickr predominantly all-rights-reserved / rights-unclear. No CC0/public-domain/no-credit exact-subject asset found or downloaded. No website asset or gallery changed; nothing pushed, deployed, or live-verified; no owner email sent. Routine stays on.",
+      "next_action": "Reconcile origin/main so a fast-forward push is possible by a non-destructive means that preserves the full local site tree and publishes only image-enrichment files; then resume the zero-to-two-image rotation (destinations, attractions, activities, accommodations, travel insights) and retry rights-clean exact-subject sourcing. Camp Okavango remains a zero-image page pending a future rights-clean exact-subject photo and a working publication path.",
+      "mandatory_input_check": "Not run: publication blocked before sourcing could produce assets; sync-photo-library and check:build-inputs would operate on the unchanged library.",
+      "published_commit": null,
+      "email_id": null,
+      "report_status": "NOT SENT: no collection published/live-confirmed; push blocked; Gmail requires an interactive owner sign-in (standing limitation). Owner receives this progress in chat."
     }
   ],
   "last_pending_check": {
