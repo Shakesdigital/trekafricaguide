@@ -120,7 +120,7 @@
   "current_deliverable": {
     "category": "destinations",
     "rotation": "accommodations after that",
-    "note": "Djanet/Tassili n'Ajjer local destination guide published at source_commit (pending); Algeria country page Destinations rail will render Djanet card, cross-links to Djanet And Tassili attraction and Terres Touareg Guest House stay. Netlify deploy triggered; live verification pending. CMS mirror imported at source_commit; owner-side CMS check pending."
+    "note": "Djanet/Tassili n'Ajjer local destination guide published at source_commit e2c08a2; Algeria country page Destinations rail renders Djanet card (live HTTP 200), cross-links to Djanet And Tassili attraction and Terres Touareg Guest House stay. Netlify deploy triggered; detail page live verification pending (HTTP 404, deploy in progress). CMS mirror imported at source_commit e2c08a2; owner-side CMS check pending."
   },
   "previous_deliverable_correction": {
     "id": "marrakech-medina-street-food-walk",
