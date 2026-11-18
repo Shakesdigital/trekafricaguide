@@ -12434,6 +12434,26 @@ export const photoLibrary = {
       "changes": "Pexels CDN JPEG resized to 1600 pixels wide; no other edits.",
       "exact_subject_evidence": "Pexels photo page title 'Family visiting one of the rock-hewn churches in Lalibela' and description place the scene at a rock-hewn church in Lalibela, Ethiopia; the church and visitors were confirmed in the downloaded file.",
       "reuse_note": "Pexels License allows commercial reuse without attribution; no public credit entry is shown."
+    },
+    "/images/editorial/decide-lalibela-under-do-not-travel-advice/lalibela-priest-cross-interior-turban.jpg": {
+      "kind": "photograph", "slug": "lalibela-priest-cross-interior-turban", "local_path": "/images/editorial/decide-lalibela-under-do-not-travel-advice/lalibela-priest-cross-interior-turban.jpg",
+      "source_page": "https://www.pexels.com/photo/priest-in-a-turban-holding-a-cross-12344936/",
+      "creator": "Ludo Van den Nouweland", "license": "Pexels License", "license_url": "https://www.pexels.com/license/", "checked_at": "2026-11-18",
+      "sha256": "882a2f847e36995123ad278a0e1009432629f664e11964306dc9c2f94ebbcdc0", "exact_subject": true, "subject": "Priest in a turban holding a cross inside a rock-hewn church in Lalibela, Ethiopia",
+      "alt": "A priest in a turban holds a ceremonial cross inside a Lalibela rock-hewn church.", "property": false, "requires_attribution": false,
+      "changes": "Pexels CDN JPEG resized to 1600 pixels wide; no other edits.",
+      "exact_subject_evidence": "Pexels photo page title and description place a priest holding a cross inside a rock-hewn church in Lalibela, Ethiopia; the church interior setting was confirmed in the downloaded file.",
+      "reuse_note": "Pexels License allows commercial reuse without attribution; no public credit entry is shown."
+    },
+    "/images/editorial/decide-lalibela-under-do-not-travel-advice/lalibela-rock-hewn-church-aerial-aldo-bordoni.jpg": {
+      "kind": "photograph", "slug": "lalibela-rock-hewn-church-aerial-aldo-bordoni", "local_path": "/images/editorial/decide-lalibela-under-do-not-travel-advice/lalibela-rock-hewn-church-aerial-aldo-bordoni.jpg",
+      "source_page": "https://www.pexels.com/photo/rock-hewn-church-of-lalibela-aerial-view-in-ethiopia-39129274/",
+      "creator": "Aldo Bordoni", "license": "Pexels License", "license_url": "https://www.pexels.com/license/", "checked_at": "2026-11-18",
+      "sha256": "53d612799351c6127d6739e4cbdc00e9e2896c3fb1654d37b7ca3f3fa8e3481f", "exact_subject": true, "subject": "Aerial view of the rock-hewn Church of Saint George in Lalibela, Ethiopia",
+      "alt": "Aerial view of the rock-hewn Church of Saint George in Lalibela, Ethiopia.", "property": false, "requires_attribution": false,
+      "changes": "Pexels CDN JPEG resized to 1600 pixels wide; no other edits.",
+      "exact_subject_evidence": "Pexels photo page title and description place an aerial view of the rock-hewn Church of Saint George in Lalibela, Ethiopia; the church and setting were confirmed in the downloaded file.",
+      "reuse_note": "Pexels License allows commercial reuse without attribution; no public credit entry is shown."
     }
   },
   "listings": {
