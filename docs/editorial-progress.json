@@ -1,150 +1,211 @@
 {
-  "updated_at": "2026-11-18T07:40:00.000Z",
-  "timezone": "Africa/Kampala",
-  "next_scheduled_start": "2026-10-17T19:30:00+03:00",
-  "cadence_hours": 3,
-  "last_run": "2026-11-18T10:40:00+03:00",
-  "active_task": {
-    "id": "accommodation-property-photos",
-    "status": "backlog",
-    "objective": "Complete verified exact-property photo collections for the accommodation records without using attraction substitutes or fabricated hotel images. Target six distinct reusable photographs per property.",
-    "acceptance_criteria": [
-      "Verify exact property identity and reuse rights; retain creator/source/license and alt text.",
-      "Record remaining photo shortfalls honestly; resolve required review before completion.",
-      "Publish ready existing-page updates and verify live pages separately from push.",
-      "Keep incomplete new guides as drafts, complete their editorial review before publication.",
-      "Send owner a confirmed progress report and save its send receipt."
-    ],
-    "last_completed_action": "Paraa Safari Lodge guide refresh published in dd3d932 and live-confirmed with exact Stay22 listing; existing one licensed room photo retained. Email SENT 1a156d636301d965.",
-    "next_action": "Separate photo follow-up: source five further licensed exact-property Paraa Lodge images from the 15 documented current-property subject targets; next editorial rotation is travel insights.",
-    "subtasks": [
-      {
-        "id": "source-four-property-batch",
-        "status": "complete",
-        "commit": "445cc8b",
-        "counts": {
-          "paraa-safari-lodge": 1,
-          "emerson-spice": 6,
-          "desert-quiver-camp": 6,
-          "amboseli-serena-safari-lodge": 4
-        }
-      },
-      {
-        "id": "confirm-live-and-report",
-        "status": "complete",
-        "note": "Live HTML includes all seven expected image paths across two pages; first JPEG asset per page HTTP 200. Gmail SENT 1a13aa065b0071a3. No tests/build/browser QA."
-      },
-      {
-        "id": "desert-quiver-final-review",
-        "status": "complete",
-        "acceptance_criteria": [
-          "Review saved factual evidence, copy and canonical relationships.",
-          "Retain six licensed exact-property photos and credits.",
-          "If editorially complete, publish and confirm live separately from push; otherwise checkpoint exact remaining gaps.",
-          "Send owner report."
-        ],
-        "note": "Desert Quiver full guide published in cc1393b and live-confirmed HTTP 200 with six photos and exact booking destination; archive and Namib Desert cards confirmed. Email SENT 1a13e26685473355."
-      },
-      {
-        "id": "remaining-photo-gaps",
-        "status": "queued",
-        "note": "Select one property or one small collection per run. Preserve prior rejected-source evidence; require owner agreement for Wetu libraries."
-      },
-      {
-        "id": "amboseli-serena-photo-collection",
-        "status": "blocked",
-        "note": "Four verified photos retained; pool and dining/common-area photos missing. Evidence saved in 2026-10-15-amboseli-photo-review.md; proceed with unblocked full guide under latest owner instruction."
-      },
-      {
-        "id": "amboseli-serena-guide",
-        "status": "complete",
-        "commit": "8485bed",
-        "note": "Amboseli Serena guide live-confirmed after 8485bed: HTTP 200, four image paths, exact Booking.com destination and Stay22; archive and Amboseli attraction cards present. Email SENT 1a140a7182a61396."
-      },
-      {
-        "id": "red-chilli-full-guide",
-        "status": "complete",
-        "commit": "e7b2e21",
-        "note": "Red Chilli guide live-confirmed HTTP 200 with exact booking; archive and South Luangwa cards present."
-      },
-      {
-        "id": "buhoma-community-full-guide",
-        "status": "complete",
-        "commit": "1c5f4a8",
-        "note": "Buhoma guide live-confirmed HTTP 200; archive and Bwindi attraction cards present."
-      },
-      {
-        "id": "victoria-falls-hotel-full-guide",
-        "status": "complete",
-        "commit": "fe227d6",
-        "note": "Victoria Falls Hotel guide live-confirmed HTTP 200 with six photos; archive and Victoria Falls attraction cards present."
-      }
-    ],
-    "current_subtask": "Photo enrichments remain a separate backlog. Ridge Royal Hotel full accommodation refresh completed and live-confirmed 2026-10-28; next category is travel insights.",
-    "blockers": [
-      "Amboseli Serena photo collection needs two suitable reusable property photos: pool and dining/common area. Focused search found no suitable additions.",
-      "Red Chilli: six property photos need reuse permission or owner originals; official gallery identified but not licensed for reuse.",
-      "Buhoma exact Booking.com listing not taking reservations; no active affiliate booking CTA until reverified."
-    ]
-  },
-  "rules": [
-    "One active parent task; finish started/review items before choosing new work.",
-    "Checkpoint before expensive operations and after completed changes.",
-    "After quota interruption resume at next eligible scheduled run; do not assume immediate credit-reset wakeup.",
-    "No routine tests/builds or repeated broad audits."
+ "updated_at": "2026-11-18T09:15:00.000Z",
+ "timezone": "Africa/Kampala",
+ "next_scheduled_start": "2026-10-17T19:30:00+03:00",
+ "cadence_hours": 3,
+ "last_run": "2026-11-18T12:15:00+03:00",
+ "active_task": {
+  "id": "accommodation-property-photos",
+  "status": "backlog",
+  "objective": "Complete verified exact-property photo collections for the accommodation records without using attraction substitutes or fabricated hotel images. Target six distinct reusable photographs per property.",
+  "acceptance_criteria": [
+   "Verify exact property identity and reuse rights; retain creator/source/license and alt text.",
+   "Record remaining photo shortfalls honestly; resolve required review before completion.",
+   "Publish ready existing-page updates and verify live pages separately from push.",
+   "Keep incomplete new guides as drafts, complete their editorial review before publication.",
+   "Send owner a confirmed progress report and save its send receipt."
   ],
-  "next_task_selection": "Rotate to accommodations next run; owner-email send still blocked on Gmail sign-in.",
-  "last_run": "2026-11-18T08:13:00+03:00",
-  "task_magnitude": "One complete full guide plus booking and listing cards, or one full property photo collection; do not schedule isolated paragraphs/links.",
-  "country_destinations_feature": {
+  "last_completed_action": "Paraa Safari Lodge guide refresh published in dd3d932 and live-confirmed with exact Stay22 listing; existing one licensed room photo retained. Email SENT 1a156d636301d965.",
+  "next_action": "Separate photo follow-up: source five further licensed exact-property Paraa Lodge images from the 15 documented current-property subject targets; next editorial rotation is travel insights.",
+  "subtasks": [
+   {
+    "id": "source-four-property-batch",
     "status": "complete",
-    "guides": [
-      "uganda/buhoma",
-      "south-africa/cape-town",
-      "tanzania/unguja"
-    ],
-    "photo_counts": [
-      0,
-      6,
-      0
-    ],
-    "next_action": "Cape Town photos live; Buhoma and Unguja each retain six-photo backlog.",
-    "commit": "0d19186",
-    "live_verification": "All three detail URLs HTTP 200 with expected h1 and planning/stay sections; each parent country has one destination card; homepage includes all three search destinations.",
-    "email_id": "1a143a69416cf3d1"
-  },
-  "rotation": {
-    "last_completed_category": "accommodations",
-    "next_category": "travel_insights",
-    "next_deliverable": "Steigenberger Hotel El Tahrir Cairo accommodation guide published at source_commit feff01f; Cairo destination Where to stay now renders both Giza-side (Marriott Mena House) and central-city (Steigenberger El Tahrir) bases. Netlify deploy triggered; detail page live verification pending (HTTP 404, deploy in progress). CMS mirror imported at source_commit feff01f; owner-side CMS check pending. Next: one evidenced travel insights gap."
-  },
-  "current_deliverable": {
-    "category": "accommodations",
-    "rotation": "travel_insights after that",
-    "note": "Steigenberger Hotel El Tahrir Cairo accommodation guide published at source_commit feff01f. Evidenced gap: Cairo destination page explicitly frames binary choice between Giza-side base (Marriott Mena House) and central-city base for museum-and-neighbourhoods visit; only Giza-side existed. Steigenberger at Tahrir Square (overlooks Egyptian Museum, 9.3/10 from 11,062 Booking.com reviews, 295 rooms, 5-star Steigenberger/Jaz Hotel Group) fills central-city counterpart. Zero-image honest publish; six-subject photo backlog logged. Booking URL verified (Booking.com exact property). Netlify deploy triggered; detail page /accommodations/steigenberger-hotel-el-tahrir-cairo/ returns 404 (deploy in progress). Cairo destination Where to stay still shows only Marriott Mena House (deploy pending). CMS mirror imported at source_commit feff01f; owner-side CMS check pending."
-  },
-  "previous_deliverable_correction": {
-    "id": "marrakech-medina-street-food-walk",
+    "commit": "445cc8b",
+    "counts": {
+     "paraa-safari-lodge": 1,
+     "emerson-spice": 6,
+     "desert-quiver-camp": 6,
+     "amboseli-serena-safari-lodge": 4
+    }
+   },
+   {
+    "id": "confirm-live-and-report",
     "status": "complete",
-    "commit": "413168a",
-    "email_id": "1a148cdf8dbabb76",
-    "note": "Live page and booking relationship were confirmed and the owner report was already sent. Corrected the stale pending-owner-report status without resending the email."
-  },
-  "next_scheduled_run": "2026-11-18T13:13:00+03:00",
-  "analytics_installation": {
-    "measurement_id": "G-ZWBZRQPBK7",
-    "commit": "4f76457",
-    "status": "live_html_confirmed",
-    "evidence": "One loader immediately after head on homepage, Cape Town guide and Victoria Falls Hotel; Analytics event receipt not checked."
-  },
-  "recent_manual_batch": {
-    "id": "first-three-travel-insights-depth",
-    "items": [
-      "plan-your-victoria-falls-visit",
-      "choose-first-night-tunis-medina-or-coast",
-      "choose-bwindi-or-volcanoes-gorilla-trek"
-    ],
+    "note": "Live HTML includes all seven expected image paths across two pages; first JPEG asset per page HTTP 200. Gmail SENT 1a13aa065b0071a3. No tests/build/browser QA."
+   },
+   {
+    "id": "desert-quiver-final-review",
     "status": "complete",
-    "commit": "abf2407"
-  }
+    "acceptance_criteria": [
+     "Review saved factual evidence, copy and canonical relationships.",
+     "Retain six licensed exact-property photos and credits.",
+     "If editorially complete, publish and confirm live separately from push; otherwise checkpoint exact remaining gaps.",
+     "Send owner report."
+    ],
+    "note": "Desert Quiver full guide published in cc1393b and live-confirmed HTTP 200 with six photos and exact booking destination; archive and Namib Desert cards confirmed. Email SENT 1a13e26685473355."
+   },
+   {
+    "id": "remaining-photo-gaps",
+    "status": "queued",
+    "note": "Select one property or one small collection per run. Preserve prior rejected-source evidence; require owner agreement for Wetu libraries."
+   },
+   {
+    "id": "amboseli-serena-photo-collection",
+    "status": "blocked",
+    "note": "Four verified photos retained; pool and dining/common-area photos missing. Evidence saved in 2026-10-15-amboseli-photo-review.md; proceed with unblocked full guide under latest owner instruction."
+   },
+   {
+    "id": "amboseli-serena-guide",
+    "status": "complete",
+    "commit": "8485bed",
+    "note": "Amboseli Serena guide live-confirmed after 8485bed: HTTP 200, four image paths, exact Booking.com destination and Stay22; archive and Amboseli attraction cards present. Email SENT 1a140a7182a61396."
+   },
+   {
+    "id": "red-chilli-full-guide",
+    "status": "complete",
+    "commit": "e7b2e21",
+    "note": "Red Chilli guide live-confirmed HTTP 200 with exact booking; archive and South Luangwa cards present."
+   },
+   {
+    "id": "buhoma-community-full-guide",
+    "status": "complete",
+    "commit": "1c5f4a8",
+    "note": "Buhoma guide live-confirmed HTTP 200; archive and Bwindi attraction cards present."
+   },
+   {
+    "id": "victoria-falls-hotel-full-guide",
+    "status": "complete",
+    "commit": "fe227d6",
+    "note": "Victoria Falls Hotel guide live-confirmed HTTP 200 with six photos; archive and Victoria Falls attraction cards present."
+   }
+  ],
+  "current_subtask": "Photo enrichments remain a separate backlog. Ridge Royal Hotel full accommodation refresh completed and live-confirmed 2026-10-28; next category is travel insights.",
+  "blockers": [
+   "Amboseli Serena photo collection needs two suitable reusable property photos: pool and dining/common area. Focused search found no suitable additions.",
+   "Red Chilli: six property photos need reuse permission or owner originals; official gallery identified but not licensed for reuse.",
+   "Buhoma exact Booking.com listing not taking reservations; no active affiliate booking CTA until reverified."
+  ]
+ },
+ "rules": [
+  "One active parent task; finish started/review items before choosing new work.",
+  "Checkpoint before expensive operations and after completed changes.",
+  "After quota interruption resume at next eligible scheduled run; do not assume immediate credit-reset wakeup.",
+  "No routine tests/builds or repeated broad audits."
+ ],
+ "next_task_selection": "Rotate to accommodations next run; owner-email send still blocked on Gmail sign-in.",
+ "task_magnitude": "One complete full guide plus booking and listing cards, or one full property photo collection; do not schedule isolated paragraphs/links.",
+ "country_destinations_feature": {
+  "status": "complete",
+  "guides": [
+   "uganda/buhoma",
+   "south-africa/cape-town",
+   "tanzania/unguja"
+  ],
+  "photo_counts": [
+   0,
+   6,
+   0
+  ],
+  "next_action": "Cape Town photos live; Buhoma and Unguja each retain six-photo backlog.",
+  "commit": "0d19186",
+  "live_verification": "All three detail URLs HTTP 200 with expected h1 and planning/stay sections; each parent country has one destination card; homepage includes all three search destinations.",
+  "email_id": "1a143a69416cf3d1"
+ },
+ "rotation": {
+  "last_completed_category": "accommodations",
+  "next_category": "travel_insights",
+  "next_deliverable": "Steigenberger Hotel El Tahrir Cairo accommodation guide published at source_commit feff01f; Cairo destination Where to stay now renders both Giza-side (Marriott Mena House) and central-city (Steigenberger El Tahrir) bases. Netlify deploy triggered; detail page live verification pending (HTTP 404, deploy in progress). CMS mirror imported at source_commit feff01f; owner-side CMS check pending. Next: one evidenced travel insights gap."
+ },
+ "current_deliverable": {
+  "category": "accommodations",
+  "rotation": "travel_insights after that",
+  "note": "Steigenberger Hotel El Tahrir Cairo accommodation guide published at source_commit feff01f. Evidenced gap: Cairo destination page explicitly frames binary choice between Giza-side base (Marriott Mena House) and central-city base for museum-and-neighbourhoods visit; only Giza-side existed. Steigenberger at Tahrir Square (overlooks Egyptian Museum, 9.3/10 from 11,062 Booking.com reviews, 295 rooms, 5-star Steigenberger/Jaz Hotel Group) fills central-city counterpart. Zero-image honest publish; six-subject photo backlog logged. Booking URL verified (Booking.com exact property). Netlify deploy triggered; detail page /accommodations/steigenberger-hotel-el-tahrir-cairo/ returns 404 (deploy in progress). Cairo destination Where to stay still shows only Marriott Mena House (deploy pending). CMS mirror imported at source_commit feff01f; owner-side CMS check pending."
+ },
+ "previous_deliverable_correction": {
+  "id": "marrakech-medina-street-food-walk",
+  "status": "complete",
+  "commit": "413168a",
+  "email_id": "1a148cdf8dbabb76",
+  "note": "Live page and booking relationship were confirmed and the owner report was already sent. Corrected the stale pending-owner-report status without resending the email."
+ },
+ "next_scheduled_run": "2026-11-18T13:13:00+03:00",
+ "analytics_installation": {
+  "measurement_id": "G-ZWBZRQPBK7",
+  "commit": "4f76457",
+  "status": "live_html_confirmed",
+  "evidence": "One loader immediately after head on homepage, Cape Town guide and Victoria Falls Hotel; Analytics event receipt not checked."
+ },
+ "recent_manual_batch": {
+  "id": "first-three-travel-insights-depth",
+  "items": [
+   "plan-your-victoria-falls-visit",
+   "choose-first-night-tunis-medina-or-coast",
+   "choose-bwindi-or-volcanoes-gorilla-trek"
+  ],
+  "status": "complete",
+  "commit": "abf2407"
+ },
+ "latest_run_checkpoint": {
+  "run": "scheduled-2h-2026-11-18T09:00Z",
+  "category": "verification",
+  "deliverable": "verification_2026_11_18_deploy_pipeline_broken",
+  "note": "No publication possible: GitHub main force-replaced with content-only tree (build source gone), all post-squash publishes HTTP 404 live, Netlify deploy hook 404s, no Netlify CLI locally. Inventory sweep and CMS mirror reads completed; see verification_2026_11_18_deploy_pipeline_broken.",
+  "commit": "this verification commit",
+  "push": "attempted, result recorded in verification record",
+  "live_receipt": "none by design (verification run)",
+  "cms": "travel_articles 200; local_destinations 404 (schema cache); editorial_documents 400 (service-role, by design). No writes.",
+  "email": "Owner email remains a stored draft; Gmail signed out re-checked 18 Nov 2026."
+ },
+ "verification_2026_11_18_deploy_pipeline_broken": {
+  "type": "verification",
+  "evidence": {
+   "force_update": "7d3044c..ae2a538 main -> origin/main (forced update)",
+   "origin_main_tree": [
+    "content.md",
+    "content/editorial-overrides.json",
+    "content/local-destinations.json",
+    "docs/*",
+    "new-activity.json",
+    "update-activities.json"
+   ],
+   "origin_main_commits": 8,
+   "post_squash_404s": [
+    "/accommodations/steigenberger-hotel-el-tahrir-cairo/",
+    "/travel-insights/kenya-safari-model-reserve-vs-conservancy/",
+    "/countries/algeria/djanet-and-tassili/",
+    "/activities/nyungwe-chimpanzee-tracking/",
+    "/activities/south-luangwa-walking-safari/"
+   ],
+   "pre_squash_200s": [
+    "/countries/tanzania/serengeti/",
+    "five directories"
+   ],
+   "netlify_deploy_hook": "POST 404 (both .env and cc89592 copy)",
+   "netlify_cli": "not installed on this machine",
+   "directories_checked": {
+    "accommodations": 200,
+    "attractions": 200,
+    "activities": 200,
+    "countries": 200,
+    "travel-insights": 200,
+    "destinations": 404
+   }
+  },
+  "cms_mirror": {
+   "travel_articles": 200,
+   "local_destinations": 404,
+   "editorial_documents": 400,
+   "writes": "none"
+  },
+  "owner_email": {
+   "status": "draft_stored",
+   "reason": "Gmail signed out in OpenBot browser (re-checked 18 Nov 2026)",
+   "address": "fsddanmugisa@gmail.com"
+  },
+  "unblock": [
+   "restore Astro/Netlify build source on GitHub main (or point Netlify at pre-squash history; local backup branch backup-local-main-20261118 preserves it)",
+   "working deploy hook or push-right token, or linked Netlify CLI"
+  ]
+ }
 }
