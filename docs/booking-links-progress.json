@@ -560,14 +560,15 @@
     "scheduled_for": "2026-11-18T05:22:00Z",
     "timezone": "Africa/Kampala",
     "checked": 5,
-    "pass": 4,
+    "pass": 2,
     "fail": 1,
     "fixed": 1,
     "added": 0,
-    "new_holds": 1,
-    "notes": "Priority holds resampled in a real browser with interleaved batches: chobe-safari-lodge 5/5 exact full detail (168 reviews, 8.7 Excellent) restored active; accra-city-hotel 0/5 exact (repeated navigation timeouts and search) remains hold; lemon-beach-resort-elmina 3/6 exact remains hold (3/3 search); casa-del-papa 3/4 exact remains hold (1/4 search); paraa-safari-lodge 0/4 exact remains hold (4/4 search). Registry source identity confirmed by matching h1, address, rooms/facilities/reviews and absence of search-results body. Only registry and this checkpoint changed; editorial/image/dist untouched. No affiliate ID alteration. Publication status: prepared, pending non-destructive reconciliation because origin/main currently contains only 7 editorial files and lacks content/booking-destinations.json, src/, public/, and docs/booking-links-progress.json; force push and merging foreign history are prohibited. Local check:build-inputs passed; full rebuild not run because the checked-out source is not the remote production tree.",
+    "new_holds": 0,
+    "notes": "Priority holds resampled in a real browser with interleaved batches: chobe-safari-lodge 5/5 exact full detail (168 reviews, 8.7 Excellent) restored active; paraa-safari-lodge 1/5 exact remains hold (4/5 search); accra-city-hotel 0/5 exact remains hold (repeated navigation timeouts and search); lemon-beach-resort-elmina 3/6 exact remains hold (3/6 search); casa-del-papa 3/4 exact remains hold (1/4 search). Registry source identity confirmed by matching h1, address, rooms/facilities/reviews and absence of search-results body. Only registry and this checkpoint changed; editorial/image/dist untouched. No affiliate ID alteration. Publication status: prepared, pending non-destructive reconciliation because origin/main currently contains only 7 editorial files and lacks content/booking-destinations.json, src/, public/, and docs/booking-links-progress.json; force push and merging foreign history are prohibited. Local check:build-inputs passed; full rebuild not run because the checked-out source is not the remote production tree.",
     "content_commits": [],
     "production_deploy": "not pushed; remote lacks registry/build tree",
-    "limits": "Probabilistic Stay22 wrapper; point-in-time OTA identity/reviews; no rates, availability, checkout or attribution verified."
+    "limits": "Probabilistic Stay22 wrapper; point-in-time OTA identity/reviews; no rates, availability, checkout or attribution verified.",
+    "next_action": "Reconcile the remote editorial tree and the local full-site tree without force push or publishing unrelated history; publish the registry-only restoration of chobe-safari-lodge, verify its live Stay22 CTA after deployment, then continue resampling accra-city-hotel, lemon-beach-resort-elmina, casa-del-papa and paraa-safari-lodge and audit the other active registry entries."
   }
 }
