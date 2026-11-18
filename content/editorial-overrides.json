@@ -2,7 +2,51 @@
   "countries": [],
   "attractions": [],
   "accommodations": [],
-  "activities": [],
+  "activities": [
+    {
+      "slug": "south-luangwa-walking-safari",
+      "title": "South Luangwa walking safari",
+      "topic": "Wildlife & nature",
+      "read_time_min": 7,
+      "summary": "South Luangwa is widely credited as the birthplace of the walking safari. This guide covers the two main formats — multi-day mobile walks between bushcamps and half-day nature walks from a lodge base — what to expect, how to book, and what to confirm before you go.\n",
+      "body": "<p><em>Research checked 18 November 2026. All official tourism and operator sources re-checked on this date. Park fees, walking safari inclusions and minimum participation requirements change; recheck every source on this page shortly before you act on any part of it.</em></p>\n\n<h2>Why South Luangwa for a walking safari</h2>\n\n<p>Zambia Tourism describes South Luangwa as the park where the walking safari was made famous and remains a captivating way to explore the landscape. The Luangwa River and its associated lagoons concentrate wildlife, especially in the dry season (April–October), while the park's 9,050 km² of mopane woodland, sausage-tree groves, open savanna and riverine forest create varied terrain for on-foot exploration. The valley's reputation rests on two distinct walking formats.</p>\n\n<h2>Format 1: Mobile walking safaris (multi-day, camp-to-camp)</h2>\n\n<p>You walk from one overnight bushcamp to another, accompanied by a qualified walking guide and an armed ranger, covering areas without roads where vehicle-based visitors do not go. Zambia Tourism notes: \"You will be accompanied by a guide as you walk from one overnight camp to another deep in the heart of the park, along the river banks, exploring areas where there are no roads so you are unlikely to see anything but wildlife. This park is one of the best known for these types of safaris.\" The Bushcamp Company operates a circuit of remote bushcamps (Chindeni, Kapamba, Kuyenda, Bilimungwe, Chamilandu, Luwi, Mwamba, Chikoko) linked by walking trails; Remote Africa Safaris runs Tafika and Chikoko Trails. A typical mobile walk spans 3–5 nights, walking 10–15 km per morning with afternoons at camp. All gear is transferred by support team; you carry only a daypack.</p>\n\n<h2>Format 2: Nature walks from a lodge base (half-day)</h2>\n\n<p>Lodges including Mfuwe Lodge (The Bushcamp Company's gateway lodge, open year-round), Puku Ridge, Lion Camp, Kafunta River Lodge, and Time + Tide camps offer shorter guided walks, usually 2–4 hours, departing after breakfast or before sunset. Zambia Tourism states: \"You have the opportunity to enjoy the bush on foot, usually for a few hours at a time. A qualified walking guide and armed ranger will accompany you and make sure of your safety during your excursion.\" These walks focus on tracking, birding, plant identification and interpreting animal behaviour at close quarters — not covering distance. They can be added to a drive-based stay without committing to a mobile itinerary.</p>\n\n<h2>What to confirm before booking</h2>\n\n<ul>\n<li><strong>Guide qualification:</strong> Zambia requires a licensed walking guide and an armed ranger (Zambia Wildlife Police or DNPW scout) on every walk. Ask the operator to confirm both will accompany your group.</li>\n<li><strong>Group size and minimum age:</strong> Most operators cap walking groups at 6–8 guests and set a minimum age of 12–16 years. Verify the policy for your dates.</li>\n<li><strong>Fitness and terrain:</strong> Mobile walks involve 3–4 hours on foot each morning over uneven ground, river crossings and occasional thickets. Nature walks are less demanding but still require steady mobility.</li>\n<li><strong>Season and camp opening calendar:</strong> Many bushcamps operate only in the dry season (typically May–November). Mfuwe Lodge and a few central lodges remain open year-round. Confirm your chosen camp's opening dates before committing.</li>\n<li><strong>Inclusions:</strong> Mobile walking safaris typically include all meals, drinks, park fees, guide/ranger fees, laundry and inter-camp transfers. Nature walks from a lodge may be included in the nightly rate or charged separately — ask for a written breakdown.</li>\n<li><strong>Armed ranger arrangement:</strong> The ranger is provided by DNPW; some operators include the cost, others pass it through as a separate line item. Clarify upfront.</li>\n</ul>\n\n<h2>How to get there</h2>\n\n<p>Mfuwe International Airport (MFU) is the principal gateway. Proflight Zambia flies Lusaka–Mfuwe year-round with increased frequency in high season; charter seats are also available. All lodges and bushcamps provide road transfers from the airport (15–45 minutes depending on camp location). The road route from Chipata is 123 km (~2 hours) on a corrugated but passable road; the Lusaka shortcut via Petauke is 4×4-only and recommended only well into the dry season with an experienced driver. Northern access via the Munyamadzi Corridor (Mpika/Lundazi) is generally open only August–October and requires 4WD with convoy support.</p>\n\n<h2>Best time</h2>\n\n<p>Zambia Tourism identifies April–October as the dry-season progression, with game concentrations peaking near remaining water from July–October. Walking conditions are most favourable June–September (cooler mornings, firm ground). The wet season (November–March) brings lush scenery, migrant birds and fewer visitors, but many bushcamps close and mobile walks are not operated. Birding-focused walks can be rewarding November–April when palearctic and intra-African migrants arrive.</p>\n\n<h2>Sources and scope</h2>\n\n<p>All facts on this page come from: Zambia Tourism official South Luangwa page (checked 18 November 2026); the live South Luangwa attraction page on this guide (HTTP 200, 18 November 2026); the live Mfuwe Lodge accommodation page (HTTP 200, 18 November 2026); and The Bushcamp Company South Luangwa Guide (checked 18 November 2026). No park entry fees, walking safari prices, camp rates or review scores are quoted — none were verified this run. No verified walking safari product URL is attached; walking safaris are typically arranged through your accommodation or a specialist operator.</p>\n\n<h2>Continue planning</h2>\n\n<p>When your walking format is decided, our published pages carry the detail: the <a href=\"/countries/zambia/\">Zambia country guide</a> for the route overview, the <a href=\"/attractions/south-luangwa/\">South Luangwa attraction</a> for park specifics, and the stay card for <a href=\"/accommodations/mfuwe-lodge/\">Mfuwe Lodge</a> (year-round gateway lodge with walking safaris included in the activity programme). Other South Luangwa camps offering walking safaris include the Bushcamp Company bushcamps, Remote Africa Safaris camps, Time + Tide camps, and independent lodges — confirm walking inclusions directly with your chosen property.</p>",
+      "hero_image_url": null,
+      "hero_image_alt": null,
+      "highlights": [
+        "Birthplace of the walking safari — two formats: multi-day mobile (camp-to-camp) and half-day nature walks from a lodge base",
+        "Mobile walks: 3–5 nights, 10–15 km/day, guided by licensed walking guide + armed ranger, gear transferred by support team",
+        "Nature walks: 2–4 hours from lodges like Mfuwe Lodge, Puku Ridge, Lion Camp, Kafunta, Time + Tide camps",
+        "Confirm guide qualification, armed ranger, group size (6–8), minimum age (12–16), fitness, camp opening calendar",
+        "Access via Mfuwe Airport (MFU) on Proflight Zambia from Lusaka; road from Chipata 123 km (~2 hrs)"
+      ],
+      "best_time": "Dry season June–September for optimal walking conditions and wildlife concentration; birding walks rewarding November–April. Many bushcamps close wet season (November–March); confirm camp opening calendar.",
+      "practical_info": "Walking safaris require a licensed walking guide and an armed DNPW ranger — confirm both accompany your group. Mobile walks include all meals, drinks, park fees, guide/ranger fees, laundry and inter-camp transfers. Nature walks from a lodge may be included or charged separately; request written breakdown. Minimum age typically 12–16; group size capped at 6–8. Carry only a daypack on mobile walks; support team moves all gear.",
+      "status": "published",
+      "published_at": "2026-11-18T03:13:00.000Z",
+      "last_researched": "2026-11-18",
+      "research_sources": [
+        {
+          "label": "Zambia Tourism: South Luangwa National Park — What to Do (walking safaris, mobile walks, nature walks)",
+          "url": "https://www.zambiatourism.com/destinations/national-parks/south-luangwa-national-park/"
+        },
+        {
+          "label": "Trek Africa Guide: South Luangwa attraction page (live HTTP 200, 18 Nov 2026)",
+          "url": "https://trekafricaguide.com/attractions/south-luangwa/"
+        },
+        {
+          "label": "Trek Africa Guide: Mfuwe Lodge accommodation page (live HTTP 200, 18 Nov 2026)",
+          "url": "https://trekafricaguide.com/accommodations/mfuwe-lodge/"
+        },
+        {
+          "label": "The Bushcamp Company: South Luangwa Guide (walking safari heritage, bushcamp circuit)",
+          "url": "https://www.bushcampcompany.com/pages/south-luangwa-guide"
+        }
+      ],
+      "meta_image_url": null,
+      "booking_url": null,
+      "booking_note": "No verified walking safari product URL found; the attraction page's GetYourGuide link (t1056815) is for a morning game drive. Walking safaris are typically arranged through your accommodation (Mfuwe Lodge, Bushcamp Company camps, Remote Africa Safaris camps, Time + Tide camps) or specialist operators. Contact your chosen property for walking safari inclusions and standalone bookings."
+    }
+  ],
   "travel_insights": [
     {
       "slug": "kenya-safari-model-reserve-vs-conservancy",
