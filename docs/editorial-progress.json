@@ -152,7 +152,7 @@
   "deliverable": "verification_2026_11_18_deploy_pipeline_broken",
   "note": "No publication possible: GitHub main force-replaced with content-only tree (build source gone), all post-squash publishes HTTP 404 live, Netlify deploy hook 404s, no Netlify CLI locally. Inventory sweep and CMS mirror reads completed; see verification_2026_11_18_deploy_pipeline_broken.",
   "commit": "this verification commit",
-  "push": "attempted, result recorded in verification record",
+  "push": "success (ae2a538..b8c2be5) - push rights restored this run",
   "live_receipt": "none by design (verification run)",
   "cms": "travel_articles 200; local_destinations 404 (schema cache); editorial_documents 400 (service-role, by design). No writes.",
   "email": "Owner email remains a stored draft; Gmail signed out re-checked 18 Nov 2026."
@@ -190,7 +190,8 @@
     "countries": 200,
     "travel-insights": 200,
     "destinations": 404
-   }
+   },
+   "github_push": "prior runs 403; 18 Nov push succeeded"
   },
   "cms_mirror": {
    "travel_articles": 200,
@@ -206,6 +207,7 @@
   "unblock": [
    "restore Astro/Netlify build source on GitHub main (or point Netlify at pre-squash history; local backup branch backup-local-main-20261118 preserves it)",
    "working deploy hook or push-right token, or linked Netlify CLI"
-  ]
+  ],
+  "push_result": "success (ae2a538..b8c2be5)"
  }
 }
