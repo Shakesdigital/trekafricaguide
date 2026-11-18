@@ -1,7 +1,7 @@
 // Curated source. Run node scripts/sync-photo-library.mjs after editing.
 // Curated free photography; source and licence metadata travel with each image.
 export const photoLibrary = {
-  "updated_at": "2026-11-16",
+  "updated_at": "2026-11-18",
   "images": {
     "/images/editorial/marrakech-destination/jemaa-el-fna-market-day.jpg": {
       "kind": "photograph", "slug": "jemaa-el-fna-market-day", "local_path": "/images/editorial/marrakech-destination/jemaa-el-fna-market-day.jpg",
@@ -12454,6 +12454,20 @@ export const photoLibrary = {
       "changes": "Pexels CDN JPEG resized to 1600 pixels wide; no other edits.",
       "exact_subject_evidence": "Pexels photo page title and description place an aerial view of the rock-hewn Church of Saint George in Lalibela, Ethiopia; the church and setting were confirmed in the downloaded file.",
       "reuse_note": "Pexels License allows commercial reuse without attribution; no public credit entry is shown."
+    },
+    "/images/editorial/algeria/camel-in-tassili-abdallahdjabi.jpg": {
+      "kind": "photograph", "slug": "camel-in-tassili-abdallahdjabi", "local_path": "/images/editorial/algeria/camel-in-tassili-abdallahdjabi.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Camel_In_Tassili.jpg", "creator": "Abdallahdjabi", "license": "Public domain", "license_url": "https://creativecommons.org/publicdomain/mark/1.0/", "captured_at": "2007-05-14", "checked_at": "2026-11-18",
+      "sha256": "b3cb4c35cf7434e34ece11890cab7aa1b5a661ee76f5d52bc0b2846b7bdd0d39", "exact_subject": true, "subject": "Camel on a track in Tassili n'Ajjer near Djanet, Algeria",
+      "alt": "A camel on a rocky track in Tassili n'Ajjer near Djanet, Algeria.", "property": false, "requires_attribution": false,
+      "changes": "Wikimedia Commons original JPEG downloaded unchanged.", "exact_subject_evidence": "Commons file page 'Camel In Tassili.jpg' places the camel in Tassili n'Ajjer, Algeria; uploaded as own work by Abdallahdjabi, dated 14 May 2007.", "reuse_note": "Public domain; commercial reuse without public attribution. No credit shown on page."
+    },
+    "/images/editorial/algeria/red-tadrart-orange-sand-algeria.jpeg": {
+      "kind": "photograph", "slug": "red-tadrart-orange-sand-algeria", "local_path": "/images/editorial/algeria/red-tadrart-orange-sand-algeria.jpeg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Nice_View_Of_Orange_Sand_At_Red_Tadrart_(168020207).jpeg", "creator": "2 F Ī K Æ Ł T Ë R", "license": "CC0", "license_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en", "captured_at": "2015-11-04", "checked_at": "2026-11-18",
+      "sha256": "c41c478b045de78fe5a2a95119f1d57ea6d15e046c157eacec998d0f238a56e8", "exact_subject": true, "subject": "Orange sand dunes at Red Tadrart, Tassili n'Ajjer, Algeria",
+      "alt": "Orange sand dunes at Red Tadrart in the Tassili n'Ajjer region of Algeria.", "property": false, "requires_attribution": false,
+      "changes": "Wikimedia Commons original JPEG downloaded unchanged.", "exact_subject_evidence": "Commons file page title places the orange sand scene at Red Tadrart in Tassili n'Ajjer, Algeria; uploader dedicated it under CC0.", "reuse_note": "CC0; commercial reuse without public attribution. No credit shown on page."
     }
   },
   "listings": {
@@ -12906,11 +12920,12 @@ export const photoLibrary = {
     },
     "countries": {
       "algeria": {
-        "hero_image_url": "/images/stock/destinations/djanet-and-tassili.jpg",
-        "hero_image_alt": "Djanet region (Tassili, Algeria)",
+        "hero_image_url": "/images/editorial/algeria/camel-in-tassili-abdallahdjabi.jpg",
+        "hero_image_alt": "Camel on a rocky track in Tassili n'Ajjer near Djanet, Algeria",
         "replaces": [],
         "gallery": [
-          "/images/stock/destinations/djanet-and-tassili.jpg"
+          "/images/editorial/algeria/camel-in-tassili-abdallahdjabi.jpg",
+          "/images/editorial/algeria/red-tadrart-orange-sand-algeria.jpeg"
         ]
       },
       "benin": {
