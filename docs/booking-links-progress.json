@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-17T10:22:00.000Z",
+  "updated_at": "2026-11-18T05:22:00.000Z",
   "owner": "booking-links audit agent",
   "ledger": "docs/editorial-research/2026-11-08-booking-links-audit.md",
   "run_1": {
@@ -164,7 +164,7 @@
       "result": "Expedia Hotel-Search landing -> held; CTA confirmed suppressed on production after run-2 deploy"
     }
   ],
-  "next_action": "Two priorities. (1) Keep resampling the three registered holds that alternate (chobe-safari-lodge, accra-city-hotel, lemon-beach-resort-elmina) plus the older casa-del-papa and paraa-safari-lodge holds; the wrapper is probabilistic, so a batch with a consistent exact-detail landing justifies reactivating them. (2) Four published accommodation guides and two published activity guides now have registry rows, so audit the remaining editorial booking_url values that are not yet registry-backed and bring every CTA under registry control. The larger standing gap remains the 12 held accommodations (kibale-forest-camp, dar-said, emerson-spice, kruger-shalati, maribela-hotel, marriott-mena-house-cairo, ol-tukai-lodge-amboseli, ridge-royal-hotel, serengeti-serena-safari-lodge, victoria-falls-hotel, desert-quiver-camp, red-chilli-rest-camp, fairway-boutique-hotel, kigali-serena-hotel, nairobi-serena-hotel, mountains-of-the-moon-hotel, zanzibar-white-sand-luxury-villas, hotel-barmoi-freetown, president-hotel-bantry-bay, jollyboys-backpackers); no exact OTA listing exists for great-zimbabwe-hotel or nyungwe-top-view-hill-hotel, and nine accommodations remain unavailable with no bookable partner.",
+  "next_action": "Reconcile the remote editorial tree and the local full-site tree without force push or publishing unrelated history; publish the registry-only restoration of chobe-safari-lodge, verify its live Stay22 CTA after deployment, then continue resampling accra-city-hotel, lemon-beach-resort-elmina, casa-del-papa and paraa-safari-lodge and audit the other active registry entries.",
   "run_2026-11-12_14h": {
     "date": "2026-11-12",
     "scheduled_for": "2026-11-12T14:19:02.178Z",
@@ -555,5 +555,19 @@
       "publication_status": "live_confirmed"
     }
   ],
-  "method_rule": "Booking.com searchresults.html with dest_type=hotel is NOT proof of an exact detail landing. Browser content wins over server URL shape; never count bot-walled bodies as verified full-detail pages. All providers require exact detail landings."
+  "method_rule": "Booking.com searchresults.html with dest_type=hotel is NOT proof of an exact detail landing. Browser content wins over server URL shape; never count bot-walled bodies as verified full-detail pages. All providers require exact detail landings.",
+  "run_2026_11_18_0522": {
+    "scheduled_for": "2026-11-18T05:22:00Z",
+    "timezone": "Africa/Kampala",
+    "checked": 5,
+    "pass": 4,
+    "fail": 1,
+    "fixed": 1,
+    "added": 0,
+    "new_holds": 1,
+    "notes": "Priority holds resampled in a real browser with interleaved batches: chobe-safari-lodge 5/5 exact full detail (168 reviews, 8.7 Excellent) restored active; accra-city-hotel 0/5 exact (repeated navigation timeouts and search) remains hold; lemon-beach-resort-elmina 3/6 exact remains hold (3/3 search); casa-del-papa 3/4 exact remains hold (1/4 search); paraa-safari-lodge 0/4 exact remains hold (4/4 search). Registry source identity confirmed by matching h1, address, rooms/facilities/reviews and absence of search-results body. Only registry and this checkpoint changed; editorial/image/dist untouched. No affiliate ID alteration. Publication status: prepared, pending non-destructive reconciliation because origin/main currently contains only 7 editorial files and lacks content/booking-destinations.json, src/, public/, and docs/booking-links-progress.json; force push and merging foreign history are prohibited. Local check:build-inputs passed; full rebuild not run because the checked-out source is not the remote production tree.",
+    "content_commits": [],
+    "production_deploy": "not pushed; remote lacks registry/build tree",
+    "limits": "Probabilistic Stay22 wrapper; point-in-time OTA identity/reviews; no rates, availability, checkout or attribution verified."
+  }
 }

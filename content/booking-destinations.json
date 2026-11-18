@@ -431,14 +431,14 @@
       "url": "https://www.booking.com/hotel/bw/chobe-safari-lodge.en-gb.html",
       "provider": "booking",
       "title": "The Chobe Safari Lodge",
-      "checked_at": "2026-11-17",
-      "status": "hold",
-      "hold_reason": "17 November 2026 scheduled 4-hour audit: the exact Booking.com property detail resolves correctly in a browser (property The Chobe Safari Lodge, President Avenue, Kasane, Botswana, Guest reviews (168), 8.7 Excellent from 168 reviews, Reserve, Facilities and House rules), but the Stay22 wrap of the same URL alternates between searchresults.html for Kasane (49 properties, Chobe Safari Lodge first) and the exact detail page. Wrapper instability, the casa-del-papa and paraa-safari-lodge precedent: suppress the registry booking option until a stable exact-detail landing is verified.",
+      "checked_at": "2026-11-18",
+      "status": "active",
       "evidence": {
         "source_url": "https://www.booking.com/hotel/bw/chobe-safari-lodge.en-gb.html",
         "summary": "17 November 2026 scheduled 4-hour audit: direct Booking.com detail confirmed in a browser session: The Chobe Safari Lodge, President Avenue, Kasane, 168 reviews, 8.7 Excellent, room types, facilities, house rules. Direct URL identical to the editorial booking_url already published on the page.",
         "verification_2026-11-17": "Server-side wraps of the .en-gb URL landed on the exact detail 5/10, 5/8 and 3/7 times across three batches and on searchresults.html otherwise. The .en-us and locale-free variants landed on the exact detail in the same batches, so the instability follows the wrapper rather than the source path. The en-gb URL is kept because it is the canonical path the editorial record and the published page already use.",
-        "limits": "No rates, availability, review scores beyond the 17 November reading, checkout, commission or attribution verified."
+        "limits": "No rates, availability, review scores beyond the 17 November reading, checkout, commission or attribution verified.",
+        "verification_2026_11_18": "18 November 2026 05:22 UTC scheduled 4-hour audit: five interleaved real-browser wraps of /hotel/bw/chobe-safari-lodge.en-gb.html landed on the exact Booking.com property detail all five times (h1 The Chobe Safari Lodge, President Avenue, Kasana Border of Chobe National Park, Kasane, Botswana; Reserve, Facilities, House rules; 168 reviews, 8.7 Excellent; not searchresults.html). Prior hold lifted."
       }
     },
     "accra-city-hotel": {
@@ -763,7 +763,7 @@
       "provider": "getyourguide",
       "title": "Dakar: Saloum Islands Full-Day Tour with Lunch & Drinks",
       "operator": "Travel with ziggy",
-      "rating": 5.0,
+      "rating": 5,
       "review_count": 1,
       "notes": "Review evidence is limited: 1 review at the 17 November 2026 check. Confirm the launch point, whether the pirogue leg matches the itinerary and what the floating-platform stop includes.",
       "checked_at": "2026-11-17",
