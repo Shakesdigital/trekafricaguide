@@ -92,8 +92,8 @@
     "After quota interruption resume at next eligible scheduled run; do not assume immediate credit-reset wakeup.",
     "No routine tests/builds or repeated broad audits."
   ],
-  "next_task_selection": "Rotate to destinations next run; owner-email send still blocked on Gmail sign-in.",
-  "last_run": "2026-11-18T03:13:00+03:00",
+  "next_task_selection": "Rotate to accommodations next run; owner-email send still blocked on Gmail sign-in.",
+  "last_run": "2026-11-18T08:13:00+03:00",
   "task_magnitude": "One complete full guide plus booking and listing cards, or one full property photo collection; do not schedule isolated paragraphs/links.",
   "country_destinations_feature": {
     "status": "complete",
@@ -113,14 +113,14 @@
     "email_id": "1a143a69416cf3d1"
   },
   "rotation": {
-    "last_completed_category": "activities",
-    "next_category": "destinations",
-    "next_deliverable": "South Luangwa walking safari activity published 2026-11-18 (activities rotation); next: one evidenced destinations gap."
+    "last_completed_category": "destinations",
+    "next_category": "accommodations",
+    "next_deliverable": "Djanet/Tassili n'Ajjer local destination published 2026-11-18 (destinations rotation); next: one evidenced accommodations gap."
   },
   "current_deliverable": {
-    "category": "activities",
-    "rotation": "destinations after that",
-    "note": "South Luangwa walking safari activity guide published at source_commit 54891d8; South Luangwa attraction Related activities section will render, activities archive will include Zambia entry. Netlify deploy triggered; live verification pending (page returns 404, deploy in progress). CMS mirror imported at source_commit 54891d8; owner-side CMS check pending."
+    "category": "destinations",
+    "rotation": "accommodations after that",
+    "note": "Djanet/Tassili n'Ajjer local destination guide published at source_commit (pending); Algeria country page Destinations rail will render Djanet card, cross-links to Djanet And Tassili attraction and Terres Touareg Guest House stay. Netlify deploy triggered; live verification pending. CMS mirror imported at source_commit; owner-side CMS check pending."
   },
   "previous_deliverable_correction": {
     "id": "marrakech-medina-street-food-walk",
