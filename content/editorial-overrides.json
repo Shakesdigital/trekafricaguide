@@ -1,7 +1,65 @@
 {
   "countries": [],
   "attractions": [],
-  "accommodations": [],
+  "accommodations": [
+    {
+      "region_id": 17,
+      "country_id": 43,
+      "attraction_id": 51,
+      "slug": "steigenberger-hotel-el-tahrir-cairo",
+      "name": "Steigenberger Hotel El Tahrir Cairo",
+      "property_type": "Hotel",
+      "location_name": "Tahrir Square, Cairo, Egypt",
+      "listing_summary": "A landmark 5-star hotel at Tahrir Square overlooking the Egyptian Museum — the definitive central-city base for a museum-and-neighbourhoods visit to Cairo, counterpoint to the Giza-side Marriott Mena House.",
+      "detail_intro": "Steigenberger Hotel El Tahrir Cairo is a landmark 5-star hotel at Tahrir Square in central Cairo, operated by Steigenberger Hotels & Resorts (German heritage brand) in partnership with Jaz Hotel Group. The hotel's defining feature is its location: it overlooks the Egyptian Museum at Tahrir Square and sits within walking distance of Khan El Khalili bazaar, downtown Cairo's Talaat Harb Street, and the historic monuments of Islamic Cairo. This makes it the definitive central-city base for visitors whose plans center on the Egyptian Museum, the Coptic Quarter of Old Cairo, and the medieval monuments of Islamic Cairo — precisely the \"museum-and-neighbourhoods visit\" that the Cairo destination guide frames as the counterpoint to a Giza-side base.\n\nThe hotel offers 295 guest rooms and suites across multiple categories: Superior City View rooms (27 m²) facing the urban landscape; Superior Pool View rooms overlooking the outdoor pool; Deluxe Queen rooms; Deluxe Side Nile View rooms with partial river outlook; Junior Suites (40 m²) with separate living area; and Capital Suites. All rooms include air conditioning, flat-screen TV, soundproofing, minibar, free Wi-Fi, and private bathroom. The property carries a 9.3/10 rating from 11,062 Booking.com reviews (checked 18 November 2026), with guests consistently citing the exceptional location for downtown exploration, friendly staff, and breakfast quality.\n\nFacilities centre on the urban resort experience: an outdoor swimming pool with pool bar, a fitness centre, a spa offering massage and sauna, multiple dining venues, room service, and private parking (charged). The hotel describes its breakfast as \"fabulous\" with Continental and American options. As a Steigenberger property, it carries the brand's German hospitality heritage — genuine connections, personal moments, and distinctive authentic hospitality.\n\nThe operator's website and Booking.com listing carry undated guest testimonials praising the Tahrir Square location, Egyptian Museum views, staff attentiveness, breakfast, and room comfort. These are operator-published or platform-aggregated reviews; the 11,062 verified Booking.com reviews at 9.3/10 provide substantial independent verification.\n\nSteigenberger Hotel El Tahrir suits travellers who want their overnight base in the heart of historic Cairo, with the Egyptian Museum, Khan El Khalili, and Islamic Cairo monuments as walking-distance neighbours. It is the direct counterpart to the Giza-side Marriott Mena House for the binary choice the Cairo destination guide frames: \"a Giza-side base for a monument-focused visit, or a central-city base for a museum-and-neighbourhoods visit — our Mena House guide exists precisely to demonstrate the trade.\"",
+      "practical_info": "<p>Arrival and location: Steigenberger Hotel El Tahrir Cairo is at Kasr El Nile, Tahrir Square, Cairo, Egypt. The hotel overlooks the Egyptian Museum and sits at the confluence of downtown Cairo, Islamic Cairo, and the Khan El Khalili bazaar district. Cairo International Airport (CAI) is approximately 22 km away; the hotel does not publish a fixed airport transfer arrangement — agree the meeting point and transfer with reception before arrival. Tahrir Square is a major metro hub (Sadat and Nasser stations); the hotel's position makes it well-connected for city movement, but Cairo traffic should be given a real daily allowance rather than estimated from the map.</p><p>Room choice: compare the six categories — Superior City View, Superior Pool View, Deluxe Queen, Deluxe Side Nile View, Junior Suite, Capital Suite — by size, layout and outlook rather than inclusions, since air conditioning, flat-screen TV, soundproofing, minibar, free Wi-Fi and private bathroom are listed across all rooms. A pyramid-view room is not available here; the outlook is the Egyptian Museum, Tahrir Square, the pool, or a side Nile view. Verify whether breakfast is included in your particular rate; the operator describes a \"fabulous breakfast\" but inclusion varies by booking plan.</p><p>Booking path: the exact Booking.com property detail (https://www.booking.com/hotel/eg/steigenberger-el-tahrir.en-gb.html) was search-verified on 18 November 2026, matching the property at Kasr El Nile, Tahrir Square, Cairo. No rate, availability or price claim is reproduced here; compare current rates, meal plans and cancellation terms on the platform's own page for your dates. Payment and check-in rules vary by rate, so read the house rules on the booking page itself.</p><p>Central Cairo planning: the hotel's Tahrir Square address places the Egyptian Museum at the doorstep, Khan El Khalili bazaar within 10-15 minutes' walk, downtown Cairo's Talaat Harb Street and the Qasr al-Nil bridge to Gezira Island nearby, and the Coptic Quarter (Old Cairo) and Islamic Cairo monuments a short vehicle ride away. This is the \"museum-and-neighbourhoods visit\" base the Cairo destination guide describes. For a Giza pyramids day, factor 45-60 minutes each way in Cairo traffic — the Marriott Mena House guide exists precisely to demonstrate the Giza-side trade. Keep the onward-day rule from the Egypt country guide: do not place a major ticketed visit immediately before a flight or Nile-valley transfer.</p><p>Wider Egypt plans: for the Giza-side counterpart, our <a href=\"/accommodations/marriott-mena-house-cairo\">Marriott Mena House, Cairo guide</a> covers the historic garden hotel at the foot of the pyramids; our <a href=\"/attractions/cairo-and-giza\">Cairo And Giza attraction guide</a> plans the pyramid and museum days; our <a href=\"/travel-insights/plan-first-egypt-visit\">first Egypt visit insight</a> frames the Cairo/Giza base, Nile journey, or Red Sea coast decision.</p>",
+      "amenities": [
+        "295 guest rooms and suites across six categories",
+        "Overlooks the Egyptian Museum at Tahrir Square",
+        "Walking distance to Khan El Khalili bazaar and downtown Cairo",
+        "Outdoor swimming pool with pool bar",
+        "Fitness centre and spa (massage, sauna)",
+        "Multiple dining venues and room service",
+        "Steigenberger Hotels & Resorts / Jaz Hotel Group operation",
+        "Private parking (charged)",
+        "All rooms: air conditioning, flat-screen TV, soundproofing, minibar, free Wi-Fi, private bathroom"
+      ],
+      "rating": 9.3,
+      "review_count": 11062,
+      "price_label": "Upscale to luxury central-city hotel",
+      "booking_url": "https://www.booking.com/hotel/eg/steigenberger-el-tahrir.en-gb.html",
+      "source_url": "https://www.booking.com/hotel/eg/steigenberger-el-tahrir.en-gb.html",
+      "research_sources": [
+        {
+          "label": "Booking.com — exact Steigenberger Hotel El Tahrir Cairo property detail, search-verified 18 November 2026: Kasr El Nile, Tahrir Square, Cairo; 9.3/10 from 11,062 reviews; 295 rooms; facilities; room categories",
+          "url": "https://www.booking.com/hotel/eg/steigenberger-el-tahrir.en-gb.html"
+        },
+        {
+          "label": "Trek Africa Guide — Cairo destination guide (live HTTP 200, 18 November 2026): frames central-city vs Giza-side base choice; Mena House guide exists as Giza-side counterpart",
+          "url": "https://trekafricaguide.com/countries/egypt/cairo/"
+        },
+        {
+          "label": "Trek Africa Guide — Egypt country page (live HTTP 200, 18 November 2026): Nearby stays shows only Marriott Mena House (Giza-side)",
+          "url": "https://trekafricaguide.com/countries/egypt/"
+        },
+        {
+          "label": "Trek Africa Guide — Marriott Mena House, Cairo accommodation guide (live HTTP 200): Giza-side counterpart published",
+          "url": "https://trekafricaguide.com/accommodations/marriott-mena-house-cairo/"
+        },
+        {
+          "label": "Steigenberger Hotels & Resorts brand — German heritage hospitality, 40+ destinations, H Rewards loyalty programme",
+          "url": "https://www.steigenberger.com/"
+        }
+      ],
+      "last_researched": "2026-11-18",
+      "hero_image_url": "",
+      "hero_image_alt": "No licensed property photograph available",
+      "gallery": [],
+      "traveler_feedback": "9.3/10 from 11,062 Booking.com reviews (checked 18 November 2026). Representative comments cite: 'Great location, friendly staff, wonderful breakfast'; 'Clean, well situated, good food, friendly staff'; 'Location particularly good for visiting downtown areas and we could walk to the old Egyptian museum'; 'Well located hotel right in downtown Cairo, equipped with top notch security'; 'Everything you'd expect for a 5 star hotel. Truly a pleasure to stay at in the intensity that is Cairo.'",
+      "status": "published",
+      "published_at": null
+    }
+  ],
   "activities": [
     {
       "slug": "south-luangwa-walking-safari",
