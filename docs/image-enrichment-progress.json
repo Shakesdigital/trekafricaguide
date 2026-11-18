@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-18T05:07:00.000Z",
+  "updated_at": "2026-11-18T09:07:00.000Z",
   "blocked_runs": [
     {
       "id": "image-generation-service-unavailable-2026-11-15-0507",
@@ -98,6 +98,23 @@
       "published_commit": null,
       "email_id": null,
       "report_status": "NOT SENT: no collection published/live-confirmed; push blocked; Gmail requires an interactive owner sign-in (standing limitation). Owner receives this progress in chat."
+    },
+    {
+      "id": "camp-okavango-git-fixed-no-eligible-asset-2026-11-18-0907z",
+      "scheduled_at": "2026-11-18T09:07:00.000Z",
+      "status": "blocked_no_eligible_asset",
+      "planned_target": "https://trekafricaguide.com/accommodations/camp-okavango/",
+      "page_url": "https://trekafricaguide.com/accommodations/camp-okavango/",
+      "page_type": "accommodation",
+      "previous_photo_count": 0,
+      "photo_count": 0,
+      "new_photo_count": 0,
+      "note": "Git publication blocker resolved this run: local and origin histories reconciled by merging origin/main's editorial-only commits into local main (live site tree preserved; the three shared JSON files keep their live-site versions) and fast-forward-pushing cf93859..bdd34b2 to origin/main, so origin/main now tracks local main and image-enrichment files can publish on future runs. Rotation target remained the carried-over zero-image accommodation Camp Okavango, re-verified live HTTP 200 with zero dedicated photos. Rights-standard sourcing found no publishable exact-subject asset: Wikimedia Commons reachable but 'Camp Okavango' search returns only unrelated PDFs (moth study, aardvark research near Moremi) -- no exact-subject Camp Okavango Botswana lodge files; Pexels.com HTTP 403 standing block; Unsplash authorization-required (HTTP 307); Flickr predominantly all-rights-reserved/rights-unclear with no verified no-credit property photo. Image generation unavailable: openrouter provider returned 402 insufficient credits. Per standard, no attribution-required, unclear-rights, unverified, or imagined-property photo was added; no public citation, credit, or AI label. No website asset or gallery changed; nothing new to deploy. Owner email NOT sent (requires live confirmation; Gmail signed out -- standing limitation). Routine stays on.",
+      "next_action": "Rotate to another zero-to-two-image page across destinations, attractions, activities, travel insights and accommodations at the next scheduled run; retry rights-clean exact-subject sourcing and generated complementary scenes once a generation provider has credit. Camp Okavango remains a zero-image page pending a rights-clean exact-subject photo.",
+      "mandatory_input_check": "Passed: sync-photo-library.mjs and check:build-inputs ran clean (no library change this run).",
+      "published_commit": null,
+      "email_id": null,
+      "report_status": "NOT SENT: no collection published/live-confirmed; no new asset; owner receives this progress in chat."
     }
   ],
   "last_pending_check": {
@@ -4985,7 +5002,16 @@
     "live_verification": "Production detail and both new assets returned HTTP 200; HTML contains real photo three times and generated courtyard once.",
     "email_id": "1a1d95911ab86f10"
   },
-  "current_run": null,
+  "current_run": {
+    "id": "camp-okavango-git-fixed-no-eligible-asset-2026-11-18-0907z",
+    "scheduled_at": "2026-11-18T09:07:00.000Z",
+    "page_url": "https://trekafricaguide.com/accommodations/camp-okavango/",
+    "page_type": "accommodation",
+    "status": "blocked_no_eligible_asset",
+    "photo_count": 0,
+    "new_photo_count": 0,
+    "report_status": "NOT SENT: no collection published/live-confirmed; no new asset; owner receives this progress in chat."
+  },
   "latest_review": {
     "id": "casa-del-papa-exact-property-no-eligible-photo-review",
     "page_url": "https://trekafricaguide.com/accommodations/casa-del-papa/",
