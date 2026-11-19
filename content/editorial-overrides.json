@@ -4640,7 +4640,7 @@
       "source_url": "https://www.zambiatourism.com/destinations/national-parks/south-luangwa-national-park/",
       "featured": false,
       "sort_order": 91,
-      "last_researched": "2026-11-09",
+      "last_researched": "2026-11-19",
       "research_sources": [
         {
           "label": "Zambia Tourism: South Luangwa National Park visitor guide — walking safari originated in South Luangwa; mobile walking safaris camp-to-camp through roadless river country; nature walks a few hours with a qualified walking guide and armed ranger; night drives; park 9,050 km², founded 1972; April–October dry-season progression, November–March wet season; Mfuwe airport hub with Proflight Zambia year-round flights; Chipata road 123 km/≈2 h; Valley of the Leopard; checked 9 November 2026",
@@ -4651,6 +4651,11 @@
           "label": "Trek Africa Guide published South Luangwa attraction guide — walking safaris are guided activities with specific arrangements, not permission to walk independently; Mfuwe gateway and Chipata road route; checked on the live page this run",
           "url": "https://trekafricaguide.com/attractions/south-luangwa/",
           "checked_at": "2026-11-09"
+        },
+        {
+          "label": "Publication verification — activity page live verification at 2026-11-19",
+          "url": "https://trekafricaguide.com/activities/south-luangwa-walking-safari/",
+          "checked_at": "2026-11-19"
         }
       ],
       "meta_description": "Plan a South Luangwa walking safari: Zambia Tourism's guided-walk and armed-ranger framework, half-day versus mobile walks, dry-season timing and what to confirm before booking."
