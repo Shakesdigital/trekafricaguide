@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-19T01:55:20.000Z",
+  "updated_at": "2026-11-19T05:35:00.000Z",
   "blocked_runs": [
     {
       "id": "image-generation-service-unavailable-2026-11-15-0507",
@@ -164,6 +164,44 @@
         "note": "Commit 955a205 pushed to origin/main but the Netlify production deploy of 955a205 did not serve the committed gallery or assets within the run window; production still serves the previous two-image gallery."
       },
       "next_action": "Confirm the Netlify production deploy of commit 955a205 and re-verify the Uganda country page and all five new assets live (each asset HTTP 200); once live-confirmed, finalize the run as published and report. Rotation after publication: another zero-to-two-image page across attractions, activities, accommodations and travel insights; Uganda country remains at 2 deployed images pending deployment."
+    },
+    {
+      "id": "uganda-gallery-fix-deploy-blocked-2026-11-19-0507z",
+      "scheduled_at": "2026-11-19T05:07:00.000Z",
+      "status": "deployment_blocked_not_live",
+      "page_url": "https://trekafricaguide.com/countries/uganda/",
+      "page_type": "country",
+      "previous_photo_count": 2,
+      "photo_count": 2,
+      "new_photo_count": 0,
+      "checked_date": "2026-11-19",
+      "started_at": "2026-11-19 05:07 UTC (08:07 Africa/Kampala)",
+      "source_ledger": "docs/editorial-research/2026-11-19-uganda-country-photo-enrichment.md",
+      "initial_live_verification": "Production country page HTTP 200, read in full: two dedicated photos (stock fallbacks); five editorial images from commit 955a205 are accessible as assets (HTTP 200) but not in gallery due to missing photo library gallery entry.",
+      "note": "Previous run (01:07 UTC) added five exact-subject Uganda photos (commit 955a205) but photo library pages.countries.uganda.gallery only contained 2 stock images. This run fixed the photo library by adding the 5 editorial images to pages.countries.uganda.gallery (commit 2235f68), ran sync-photo-library.mjs and check:build-inputs (passed), rebased onto origin/main (editorial commits bcf351d, 529291a preserved), and pushed. Netlify production deploy of commit 2235f68 has not served the updated photo library after 25+ minutes of polling: production photo-library.js still shows only 2 stock images for Uganda; Uganda page still shows 'See all 2 images'. All five editorial image assets return HTTP 200. No new photos sourced this run; routine stays on.",
+      "selected_images": [],
+      "excluded_candidates_note": "No new photos sourced this run; focused on fixing photo library gallery for Uganda country page.",
+      "mandatory_input_check": "Passed node scripts/sync-photo-library.mjs and npm run check:build-inputs.",
+      "published_commit": "2235f68",
+      "email_id": null,
+      "report_status": "NOT SENT: no collection live-confirmed (deployment blocked); Gmail requires interactive owner sign-in (standing limitation). Owner receives this progress in chat.",
+      "rights_evidence": {
+        "sources_checked": ["Wikimedia Commons"],
+        "commons_exact_subject_results": 5,
+        "licences": ["CC0", "Public domain"],
+        "attribution_required_public": false,
+        "global_sha256_dedup": "no matches across all public/images files",
+        "evidence_location": "src/lib/photo-library.js and docs/editorial-research/2026-11-19-uganda-country-photo-enrichment.md (internal only)"
+      },
+      "live_verification": {
+        "checked_at": "2026-11-19 05:35 UTC (08:35 Africa/Kampala)",
+        "page_http_status": 200,
+        "see_all_text": "See all 2 images",
+        "all_new_filenames_in_page": false,
+        "asset_http_statuses": [200, 200, 200, 200, 200],
+        "note": "Commit 2235f68 pushed to origin/main but Netlify production deploy has not served updated photo-library.js; Uganda page gallery unchanged; all five editorial assets return HTTP 200."
+      },
+      "next_action": "Confirm the Netlify production deploy of commit 2235f68 and re-verify the Uganda country page shows 7 images (2 stock + 5 editorial) and all five new assets live (each asset HTTP 200); once live-confirmed, finalize the run as published and report. Rotation after publication: another zero-to-two-image page across attractions, activities, accommodations and travel insights; Uganda country remains at 2 deployed images pending deployment."
     }
   ],
   "last_pending_check": {
