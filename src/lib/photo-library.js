@@ -1,7 +1,7 @@
 // Curated source. Run node scripts/sync-photo-library.mjs after editing.
 // Curated free photography; source and licence metadata travel with each image.
 export const photoLibrary = {
-  "updated_at": "2026-11-18",
+  "updated_at": "2026-11-19",
   "images": {
     "/images/editorial/marrakech-destination/jemaa-el-fna-market-day.jpg": {
       "kind": "photograph", "slug": "jemaa-el-fna-market-day", "local_path": "/images/editorial/marrakech-destination/jemaa-el-fna-market-day.jpg",
@@ -12468,6 +12468,41 @@ export const photoLibrary = {
       "sha256": "c41c478b045de78fe5a2a95119f1d57ea6d15e046c157eacec998d0f238a56e8", "exact_subject": true, "subject": "Orange sand dunes at Red Tadrart, Tassili n'Ajjer, Algeria",
       "alt": "Orange sand dunes at Red Tadrart in the Tassili n'Ajjer region of Algeria.", "property": false, "requires_attribution": false,
       "changes": "Wikimedia Commons original JPEG downloaded unchanged.", "exact_subject_evidence": "Commons file page title places the orange sand scene at Red Tadrart in Tassili n'Ajjer, Algeria; uploader dedicated it under CC0.", "reuse_note": "CC0; commercial reuse without public attribution. No credit shown on page."
+    },
+    "/images/editorial/uganda/murchison-falls-bmkme-2024.jpg": {
+      "kind": "photograph", "slug": "murchison-falls-bmkme-2024", "local_path": "/images/editorial/uganda/murchison-falls-bmkme-2024.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:The_Power_of_the_Nile_Before_Murchison_Falls_01.jpg", "creator": "BMKME", "license": "CC0", "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en", "captured_at": "2024-09-14", "checked_at": "2026-11-19",
+      "sha256": "b3cd0b0e89e943de1c806357ebb97fa28296d7ca2ebf017cad30ec6e5163774e", "exact_subject": true, "subject": "Murchison Falls on the Nile, Uganda",
+      "alt": "Murchison Falls on the Nile River in Uganda, water rushing through a narrow rocky gorge.", "property": false, "requires_attribution": false,
+      "changes": "Wikimedia Commons original JPEG downloaded and resized to 1600 pixels wide; no other edits.", "exact_subject_evidence": "Commons file page title and description identify the Murchison Falls on the Nile in Murchison Falls National Park, Uganda; the waterfall-and-gorge scene was confirmed in the downloaded file.", "reuse_note": "CC0; commercial reuse without public attribution. No credit shown on page."
+    },
+    "/images/editorial/uganda/queen-elizabeth-national-park-elephants-alvinategyeka-2024.jpg": {
+      "kind": "photograph", "slug": "queen-elizabeth-national-park-elephants-alvinategyeka-2024", "local_path": "/images/editorial/uganda/queen-elizabeth-national-park-elephants-alvinategyeka-2024.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Elephants_in_Queen_Elizabeth_National_Park_Uganda_01.jpg", "creator": "Alvinategyeka", "license": "CC0", "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en", "captured_at": "2024-06-01", "checked_at": "2026-11-19",
+      "sha256": "5e0099af536e955106c1ed99d38fb861d6ef6d31b4a7a941e0204a025791641d", "exact_subject": true, "subject": "Elephants in Queen Elizabeth National Park, Uganda",
+      "alt": "A herd of elephants on the grassy plains of Queen Elizabeth National Park in Uganda.", "property": false, "requires_attribution": false,
+      "changes": "Wikimedia Commons original JPEG downloaded and resized to 1600 pixels wide; no other edits.", "exact_subject_evidence": "Commons file page title and description place a herd of elephants in Queen Elizabeth National Park, Uganda; the elephant scene was confirmed in the downloaded file.", "reuse_note": "CC0; commercial reuse without public attribution. No credit shown on page."
+    },
+    "/images/editorial/uganda/entebbe-lake-victoria-aerial-matson-1936.jpg": {
+      "kind": "photograph", "slug": "entebbe-lake-victoria-aerial-matson-1936", "local_path": "/images/editorial/uganda/entebbe-lake-victoria-aerial-matson-1936.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Uganda._Entebbe._Air_view._Approaching_Entebbe_on_Lake_Victoria_LOC_matpc.17427.jpg", "creator": "Matson Collection", "license": "Public domain", "license_url": "https://commons.wikimedia.org/wiki/File:Uganda._Entebbe._Air_view._Approaching_Entebbe_on_Lake_Victoria_LOC_matpc.17427.jpg", "captured_at": "1936", "checked_at": "2026-11-19",
+      "sha256": "587726239d3d8b86d6d2fb7194ab337994b8e3f66ae15eacd98974b5da628355", "exact_subject": true, "subject": "Aerial view of Entebbe on Lake Victoria, Uganda",
+      "alt": "Aerial view of Entebbe on the shores of Lake Victoria in Uganda, 1936.", "property": false, "requires_attribution": false,
+      "changes": "Wikimedia Commons original JPEG downloaded and resized to 1600 pixels wide; no other edits.", "exact_subject_evidence": "Commons file page (Library of Congress Matson Collection) describes an air view approaching Entebbe on Lake Victoria, Uganda, dated 1936; dedicated to the public domain.", "reuse_note": "Public domain; commercial reuse without public attribution. No credit shown on page."
+    },
+    "/images/editorial/uganda/kihiihi-wetland-landscape-elivis256-2026.jpg": {
+      "kind": "photograph", "slug": "kihiihi-wetland-landscape-elivis256-2026", "local_path": "/images/editorial/uganda/kihiihi-wetland-landscape-elivis256-2026.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Rural_wetland_landscape_in_Kihiihi,_Kanungu_District,_South_western_Uganda.jpg", "creator": "Elivis256", "license": "CC0", "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en", "captured_at": "2026-07-20", "checked_at": "2026-11-19",
+      "sha256": "637ec6588327b7a75351444c94e5577126bc0b8f35fb1a4945defa7edb8a30bb", "exact_subject": true, "subject": "Rural wetland landscape in Kihiihi, Kanungu District, Uganda",
+      "alt": "A rural wetland landscape in Kihiihi, Kanungu District, southwestern Uganda.", "property": false, "requires_attribution": false,
+      "changes": "Wikimedia Commons original JPEG downloaded and resized to 1600 pixels wide; no other edits.", "exact_subject_evidence": "Commons file page title and description place the scene in Kihiihi, Kanungu District, southwestern Uganda; the wetland landscape was confirmed in the downloaded file.", "reuse_note": "CC0; commercial reuse without public attribution. No credit shown on page."
+    },
+    "/images/editorial/uganda/otuke-landscape-monica-joyce-2023.jpg": {
+      "kind": "photograph", "slug": "otuke-landscape-monica-joyce-2023", "local_path": "/images/editorial/uganda/otuke-landscape-monica-joyce-2023.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Landscape_otuke.jpg", "creator": "Monica Joyce", "license": "CC0", "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en", "captured_at": "2023-07-22", "checked_at": "2026-11-19",
+      "sha256": "998931f78b674126935307abd3026b4dda8384bba7bf4eeae8bbbbf86f4f0f36", "exact_subject": true, "subject": "Rural landscape near Otuke, northern Uganda",
+      "alt": "A rural landscape near Otuke in northern Uganda.", "property": false, "requires_attribution": false,
+      "changes": "Wikimedia Commons original JPEG downloaded and resized to 1600 pixels wide; no other edits.", "exact_subject_evidence": "Commons file page title and description place the scene near Otuke in northern Uganda; the rural landscape was confirmed in the downloaded file.", "reuse_note": "CC0; commercial reuse without public attribution. No credit shown on page."
     }
   },
   "listings": {
