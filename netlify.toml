@@ -1,12 +1,12 @@
 [build]
   publish = "dist"
-  command = "npm ci && npm run build"
+  command = "npm ci && npm run build && node scripts/import-editorial-mirror.mjs"
 
 [build.environment]
   NODE_VERSION = "22"
 
-# Keep activation versioned and production-only. Preview builds must not import
-# their branch content into the production CMS database.
+# Keep the editable mirror available in production. Only the OpenBot batch
+# marker runs the import step after the website build succeeds.
 [context.production.environment]
   EDITORIAL_CMS_SYNC = "true"
 

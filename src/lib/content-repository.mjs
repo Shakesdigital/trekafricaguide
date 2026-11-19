@@ -157,7 +157,7 @@ export function mergeEditorialOverrides(tables, overrides) {
  * @param {Date} [now=new Date()]
  * @returns {Promise<RawTables>}
  */
-export async function loadPublishedTables(client, now = new Date()) {
+export async function loadPublishedTables(client, now = new Date(), { importMirror = false } = {}) {
   const mirrorEnabled = process.env.EDITORIAL_CMS_SYNC === 'true';
   let mirror;
   if (mirrorEnabled) {
@@ -195,7 +195,9 @@ export async function loadPublishedTables(client, now = new Date()) {
     throw new Error(`Failed to load local destinations at ${LOCAL_DESTINATIONS_PATH}: ${error.message}`);
   }
 
-  if (mirrorEnabled) await mirror.reconcileEditorialMirror(tables, client);
+  if (importMirror && !mirrorEnabled) throw new Error('The editable CMS mirror is disabled.');
+  if (importMirror) await mirror.reconcileEditorialMirror(tables, client);
+  else if (mirrorEnabled) await mirror.readEditorialMirror(tables, client);
 
   // Publication filtering always follows the merged CMS revision, including drafts.
   tables.local_destinations = visibleRecords(tables.local_destinations, now);

@@ -1,5 +1,19 @@
 # Shared CMS and automation editing
 
+## Live publishing and scheduled CMS import
+
+Editorial copy and images publish from Git main on the regular Netlify deploy.
+These builds read the CMS mirror and preserve manually edited fields, while
+using newer Git values for fields the CMS has not edited. They do not import.
+Git retains the published copy and image assets.
+
+The OpenBot CMS routine runs Mondays and Thursdays at 21:30 Kampala time.
+It pushes an empty main commit with subject `Sync Trek Africa Guide CMS batch`.
+Netlify imports that revision after a successful production build. Retrying
+an already imported revision skips the write. The existing CMS publish button
+still requests a site deploy for manual edits. Booking links stay in the Git
+registry, which controls the live booking links.
+
 ## Status — 25 October 2026
 
 Mirroring is active. Supabase project access was restored on 25 October 2026.
@@ -43,7 +57,7 @@ repository records. Existing native records and their IDs are not rewritten.
 Once enabled, the main CMS's corresponding tabs route to the shared workspace;
 other CMS sections retain their current behavior.
 
-Each production build reads native tables, applies Git editorial overrides and
+Each scheduled import reads native tables, applies Git editorial overrides and
 photo defaults, then calls the transactional import RPC. Unchanged fields receive
 automation changes. Manually changed fields are retained. If both sources changed
 the same field, the incoming proposal appears in the CMS for review. Manual saves
