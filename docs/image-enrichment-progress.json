@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-18T09:27:52.503Z",
+  "updated_at": "2026-11-19T01:55:20.000Z",
   "blocked_runs": [
     {
       "id": "image-generation-service-unavailable-2026-11-15-0507",
@@ -115,6 +115,55 @@
       "published_commit": null,
       "email_id": null,
       "report_status": "NOT SENT: no collection published/live-confirmed; no new asset; owner receives this progress in chat."
+    },
+    {
+      "id": "uganda-country-five-photo-enrichment-deploy-blocked-2026-11-19-0107z",
+      "scheduled_at": "2026-11-19T01:07:00.000Z",
+      "status": "deployment_blocked_not_live",
+      "page_url": "https://trekafricaguide.com/countries/uganda/",
+      "page_type": "country",
+      "previous_photo_count": 2,
+      "photo_count": 2,
+      "new_photo_count": 5,
+      "checked_date": "2026-11-19",
+      "started_at": "2026-11-19 01:07 UTC (04:07 Africa/Kampala)",
+      "source_ledger": "docs/editorial-research/2026-11-19-uganda-country-photo-enrichment.md",
+      "initial_live_verification": "Production country page HTTP 200, read in full: two dedicated photos before this run (cross-referenced from the fairway-boutique-hotel and paraa-safari-lodge folders).",
+      "note": "Added five exact-subject rights-clean Uganda photographs from Wikimedia Commons under CC0 or public domain terms requiring no public attribution: Murchison Falls on the Nile (BMKME, CC0, 14 Sep 2024), elephants in Queen Elizabeth National Park (Alvinategyeka, CC0, 1 Jun 2024), aerial view of Entebbe on Lake Victoria (Matson Collection, public domain, 1936), rural wetland landscape in Kihiihi/Kanungu District (Elivis256, CC0, 20 Jul 2026), rural landscape near Otuke (Monica Joyce, CC0, 22 Jul 2023). Repo synced to origin/main; commit 955a205 pushed to origin/main and fast-forwarded on top of the editorial South Luangwa activity-guide commit 63d08c7, which was preserved. sync-photo-library.mjs and npm run check:build-inputs passed. The Netlify production build triggered by the push did not serve the new gallery or assets within the run window: at 01:55 UTC (04:55 Africa/Kampala) the production Uganda page was still HTTP 200 with the previous two-image gallery and none of the five new asset filenames were present in the page markup. No website asset or gallery changed on production; nothing new is live. Rights evidence retained internally in src/lib/photo-library.js and the source ledger; no public citation, credit, or AI label per owner preference. ChatGPT built-in image generation was not attempted (no generation credit available in this harness). Recorded as a deployment blocker; routine stays on.",
+      "selected_images": [
+        "murchison-falls-bmkme-2024.jpg",
+        "queen-elizabeth-national-park-elephants-alvinategyeka-2024.jpg",
+        "entebbe-lake-victoria-aerial-matson-1936.jpg",
+        "kihiihi-wetland-landscape-elivis256-2026.jpg",
+        "otuke-landscape-monica-joyce-2023.jpg"
+      ],
+      "excluded_candidates_note": "CC BY / CC BY-SA Commons candidates excluded (attribution required); Pexels.com HTTP 403 standing block; Unsplash authorization required (HTTP 307); Flickr predominantly all-rights-reserved / rights-unclear; image generation unavailable.",
+      "mandatory_input_check": "Passed node scripts/sync-photo-library.mjs and npm run check:build-inputs.",
+      "published_commit": "955a205",
+      "email_id": null,
+      "report_status": "NOT SENT: no collection live-confirmed (deployment not yet complete); Gmail requires an interactive owner sign-in (standing limitation). Owner receives this progress in chat instead.",
+      "rights_evidence": {
+        "sources_checked": [
+          "Wikimedia Commons"
+        ],
+        "commons_exact_subject_results": 5,
+        "licences": [
+          "CC0",
+          "Public domain"
+        ],
+        "attribution_required_public": false,
+        "global_sha256_dedup": "no matches across all public/images files",
+        "evidence_location": "src/lib/photo-library.js and docs/editorial-research/2026-11-19-uganda-country-photo-enrichment.md (internal only)"
+      },
+      "live_verification": {
+        "checked_at": "2026-11-19 01:55 UTC (04:55 Africa/Kampala)",
+        "page_http_status": 200,
+        "see_all_text": "See all 2 images",
+        "all_new_filenames_in_page": false,
+        "asset_http_statuses": [],
+        "note": "Commit 955a205 pushed to origin/main but the Netlify production deploy of 955a205 did not serve the committed gallery or assets within the run window; production still serves the previous two-image gallery."
+      },
+      "next_action": "Confirm the Netlify production deploy of commit 955a205 and re-verify the Uganda country page and all five new assets live (each asset HTTP 200); once live-confirmed, finalize the run as published and report. Rotation after publication: another zero-to-two-image page across attractions, activities, accommodations and travel insights; Uganda country remains at 2 deployed images pending deployment."
     }
   ],
   "last_pending_check": {
