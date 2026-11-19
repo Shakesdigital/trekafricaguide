@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-18T09:22:00.000Z",
+  "updated_at": "2026-11-19T01:22:00.000Z",
   "owner": "booking-links audit agent",
   "ledger": "docs/editorial-research/2026-11-08-booking-links-audit.md",
   "run_1": {
@@ -591,5 +591,20 @@
     },
     "publication_status": "live_confirmed_hold",
     "next_action": "Continue the next rotating audit with the new resolver: sample active GetYourGuide product pages and the one active Agoda stay, and research stable exact-detail sources for the held Booking.com accommodations. Do not reactivate a Booking.com stay until repeated live clicks with the new resolver reach its exact full-detail property page."
+  },
+  "run_2026_11_19_0122": {
+    "scheduled_for": "2026-11-19T01:22:00.000Z",
+    "timezone": "Africa/Kampala",
+    "checked": 48,
+    "pass": 48,
+    "fail": 0,
+    "fixed": 1,
+    "added": 0,
+    "new_holds": 0,
+    "notes": "Scheduled 4-hour audit. Synced origin/main (09514e1, editorial commits only; no registry changes pending from other agents). Read this checkpoint, editorial and image progress files before editing. Standing job: verify Stay22 landings, then fix the biggest gap class. Designated verifier (updated to the fixed resolver, no roam=false) checked all 48 active entries server-side: 46 GetYourGuide wraps keep their exact t-product IDs (HTTP403 bodies, URL-only), 1 Agoda wrap lands on the exact /hotel/ property path (HTTP200) and 1 Booking.com wrap on /hotel/bw/maun-lodge.html (HTTP202, exact path). 0 searchresults.html or Hotel-Search landings at server level. Gap class worked this run: 32 held accommodation links (every one an unusable 'not yet available' page) plus 5 attraction CTAs still marked candidate, i.e. live links with no audit sign-off. Resampling of 20 held stays with interleaved batches (locale-free vs .en-gb source, and a keep_landing=1 variant) plus real-browser clicks produced one stable restore: maun-lodge. maun-lodge: 12/12 server-side exact detail wraps and two real-browser renders of the exact property (h1 Maun Lodge, 459 Tawana Road PO Box 376, Maun, Botswana; Reserve; 8.1 from 516 reviews), so it moved from hold to active and its registry source is now the locale-free canonical /hotel/bw/maun-lodge.html. Five attraction CTAs were verified in a browser and promoted from candidate to active with point-in-time ratings: kruger-national-park (t433574, 4.6/172, Inn Africa Camp & Tours), sahara-dunes (t52681, 4.6/15,718, Ando Travel Ltd), sal-island (t268017, 4.9/4,545, Sal Experiences), tunis-and-sidi-bou-said (t553079, 4.8/147, Didon Tours), zanzibar (t645862, 4.7/62, Tourice Travel & Tours; French-slug URL replaced by the English zanzibar-city-l872 canonical URL). Holds kept with today's numbers recorded for 19 stays: sossusvlei (10/10 server exact but 2/2 browser search, Sesriem 17 properties), chobe (6/7 server, 2/2 browser search Kasane 49), mount-nelson (6/8 server, browser 1 exact / 1 Cape Town search 5,503 / 2 timeouts), accra-city 7/12, victoria-falls 6/10, serengeti-serena 7/12, amboseli-serena 4/8, paraa 4/8, casa-del-papa 2/8, hilton-cabo-verde 1/8, ol-tukai (Hotels.com 4/5 server, browser Hotel-Search selected=7050582), kigali-serena 0/4, zanzibar-white-sand 1/4, les-paletuviers 1/4, hotel-barmoi 1/4, dar-said 1/4, ridge-royal 0/4, fairway 2/4, emerson-spice 1/4. Server-side 'exact detail' is treated as unreliable where browser landings show search: the wrapper is probabilistic. No namesake, no search-page substitution, no rates, availability, review-aggregate, checkout or attribution claim; affiliate ID untouched. check:build-inputs passed; no local build or test suite run. Only content/booking-destinations.json and this checkpoint are staged; editorial, image, dist and deploy archives untouched.",
+    "content_commits": [],
+    "production_deploy": "pending push and live click verification",
+    "limits": "One scheduled run, 19 November 2026 01:22-02:05 UTC. OTA identity by h1, address, review count as rendered in a real browser; GetYourGuide bodies are bot-walled so those 46 links rest on exact t-product URLs. Stay22 wrapping is probabilistic and point-in-time; no rates, availability, checkout, commission or attribution verified.",
+    "next_action": "Poll production after the push and click-verify the maun-lodge CTA, then keep resampling the held Booking.com stays: the only ones that came close today are mount-nelson (browser exact once), paraa-safari-lodge and amboseli-serena; re-test those first, and re-test sossusvlei and chobe in a browser only, since their server chains are exact but real clicks land on search. Do not reactivate any stay until repeated real-browser clicks reach its full-detail property page."
   }
 }

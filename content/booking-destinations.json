@@ -22,10 +22,11 @@
       "evidence": {
         "source_url": "https://www.booking.com/hotel/bj/casa-del-papa.html",
         "summary": "Primary property detail identifies Casa Del Papa Resort at Ouidah Plage, Benin. 7.9/10 from 429 reviews.",
-        "verification_2026-11-14": "Stay22 redirect chain lands on exact property detail page /hotel/bj/casa-del-papa.html (not searchresults.html). Full property detail confirmed: name, address, 429 reviews, room types, facilities, house rules. Prior wrapper instability resolved."
+        "verification_2026-11-14": "Stay22 redirect chain lands on exact property detail page /hotel/bj/casa-del-papa.html (not searchresults.html). Full property detail confirmed: name, address, 429 reviews, room types, facilities, house rules. Prior wrapper instability resolved.",
+        "redirect_check_2026_11_19": "19 November 2026 audit: 2/8 server-side exact detail; 0/3 with keep_landing=1. Ouidah searchresults.html dominates; hold retained."
       },
       "status": "hold",
-      "hold_reason": "16 November 2026 scheduled 4-hour audit: Stay22 wrap of /hotel/bj/casa-del-papa.html alternates between searchresults.html (dest_id=1805469) and exact detail page across retries. Wrapper unstable."
+      "hold_reason": "19 November 2026 audit: 2/8 server-side exact detail; 0/3 with keep_landing=1. Ouidah searchresults.html dominates; hold retained."
     },
     "dar-said": {
       "url": "https://www.booking.com/hotel/tn/dar-said.en-gb.html",
@@ -33,11 +34,12 @@
       "title": "Dar Said",
       "checked_at": "2026-11-13",
       "status": "hold",
-      "hold_reason": "13 November 2026 scheduled midnight audit: Stay22 wrapper redirects .en-gb source to multi-property Booking.com searchresults.html (dest_id=247639, dest_type=hotel). Prior exact-detail observations unstable; suppress until a reliable wrapped full-detail listing is verified.",
+      "hold_reason": "19 November 2026 audit: 1/4 exact detail (locale-free 1/2, .en-gb 0/2); Tunis searchresults.html (dest_id=247639) dominates. Hold retained.",
       "evidence": {
         "source_url": "https://www.booking.com/hotel/tn/dar-said.en-gb.html?came_from_hotel_review=1&keep_landing=1",
         "summary": "Primary detail identifies Rue Toumi, Sidi Bou Said, Tunisia; rejected Morocco namesakes.",
-        "verification_2026-11-13": "Stay22 redirect chain lands on searchresults.html with dest_id=247639, dest_type=hotel; correct property appears in results but not exact detail page."
+        "verification_2026-11-13": "Stay22 redirect chain lands on searchresults.html with dest_id=247639, dest_type=hotel; correct property appears in results but not exact detail page.",
+        "redirect_check_2026_11_19": "19 November 2026 audit: 1/4 exact detail (locale-free 1/2, .en-gb 0/2); Tunis searchresults.html (dest_id=247639) dominates. Hold retained."
       }
     },
     "emerson-spice": {
@@ -46,11 +48,12 @@
       "title": "Emerson Spice, Zanzibar City (Stone Town)",
       "checked_at": "2026-11-13",
       "status": "hold",
-      "hold_reason": "13 November 2026 scheduled 4-hour audit: Stay22 wrapper redirects .en-gb source to multi-property Booking.com searchresults.html (dest_id=12566246). Prior exact-detail observations unstable; suppress until a reliable wrapped full-detail listing is verified.",
+      "hold_reason": "19 November 2026 audit: 1/4 exact detail; .en-gb 1/2, locale-free 0/3; Kiponda searchresults.html (dest_id=12566246) dominates. Hold retained.",
       "evidence": {
         "source_url": "https://www.booking.com/hotel/tz/emersonspice.en-gb.html",
         "summary": "8 November 2026: the Expedia property-detail URL (property ID 31570310, rooms Belle, Violetta and Mimi) demoted in real-browser click-throughs through the Stay22 wrapper to an Expedia Hotel-Search page for Kiponda/Zanzibar rather than the property page; server-side retries alternated between the property page and rate-limited search fallbacks, so the Expedia entry could not be trusted. Switched to the exact Booking.com property listing identified by search-engine retrieval as 'Emerson Spice, Zanzibar City' (Stone Town Beach about 300 m); the Stay22 wrapper preserves the /hotel/tz/emersonspice.html detail path, matching the verified pattern of the other Booking.com entries. Do not confuse with Emerson on Hurumzi, a different property. Direct Booking.com detail content is bot-walled to automated retrieval; no rate, availability, rating or review claims made.",
-        "verification_2026-11-13": "Stay22 redirect chain lands on searchresults.html with dest_id=12566246, dest_type=hotel; correct property appears in results but not exact detail page."
+        "verification_2026-11-13": "Stay22 redirect chain lands on searchresults.html with dest_id=12566246, dest_type=hotel; correct property appears in results but not exact detail page.",
+        "redirect_check_2026_11_19": "19 November 2026 audit: 1/4 exact detail; .en-gb 1/2, locale-free 0/3; Kiponda searchresults.html (dest_id=12566246) dominates. Hold retained."
       }
     },
     "hilton-cabo-verde-sal-resort": {
@@ -61,10 +64,11 @@
       "evidence": {
         "source_url": "https://www.booking.com/hotel/cv/hilton-cabo-verde-sal-resort.html",
         "summary": "12 November 2026 (Kampala), scheduled routine: browser search for 'Hilton Cabo Verde Sal Resort' returned the exact property detail page at /hotel/cv/hilton-cabo-verde-sal-resort.html (locale-free), identifying Hilton Cabo Verde Sal Resort in Santa Maria, Cape Verde. Switched from .en-gb variant which redirected to search. Direct detail content bot-walled; no OTA rating, review count, rates, availability or attribution claims made.",
-        "verification_2026_11_18_0922": "18 November 2026 09:22 UTC audit: Stay22 allez/booking wraps of the exact Booking.com detail URL landed on Santa Maria search results (54 properties) twice, not the property detail. Held after live verification; the source identity remains recorded but the wrapped booking option is not stable."
+        "verification_2026_11_18_0922": "18 November 2026 09:22 UTC audit: Stay22 allez/booking wraps of the exact Booking.com detail URL landed on Santa Maria search results (54 properties) twice, not the property detail. Held after live verification; the source identity remains recorded but the wrapped booking option is not stable.",
+        "redirect_check_2026_11_19": "19 November 2026 audit: 1/8 server-side exact detail; Santa Maria searchresults.html dominates; hold retained."
       },
       "status": "hold",
-      "hold_reason": "18 November 2026 09:22 UTC audit: Stay22 allez/booking wraps of the exact Booking.com detail URL landed on Santa Maria search results (54 properties) twice, not the property detail. Held after live verification; the source identity remains recorded but the wrapped booking option is not stable."
+      "hold_reason": "19 November 2026 audit: 1/8 server-side exact detail; Santa Maria searchresults.html dominates; hold retained."
     },
     "kruger-shalati": {
       "url": "https://www.booking.com/hotel/za/kruger-shalati-the-train-on-the-bridge.html",
@@ -88,10 +92,11 @@
         "source_url": "https://www.booking.com/hotel/sn/les-pala-c-tuviers.en-gb.html",
         "summary": "Exact property detail identifies Les Palétuviers at Sine Saloum, Toubakouta, Senegal. 7.7/10 from 149 reviews.",
         "verification_2026-11-14": "Stay22 redirect chain lands on exact property detail page /hotel/sn/les-pala-c-tuviers.html (not searchresults.html). Full property detail confirmed: name, address, 149 reviews, room types (Bungalow, Family Room, Suite, Villa), facilities. Prior wrapper instability resolved.",
-        "verification_2026_11_18_0922": "18 November 2026 09:22 UTC audit: Stay22 allez/booking wraps of the exact Booking.com detail URL landed on Toubakouta search results (14 properties), not the property detail. Held until a wrapped exact-detail landing is verified."
+        "verification_2026_11_18_0922": "18 November 2026 09:22 UTC audit: Stay22 allez/booking wraps of the exact Booking.com detail URL landed on Toubakouta search results (14 properties), not the property detail. Held until a wrapped exact-detail landing is verified.",
+        "redirect_check_2026_11_19": "19 November 2026 audit: 1/4 exact detail (locale-free 1/2, .en-gb 0/2); Toubakouta searchresults.html (dest_id=741163) dominates. Hold retained."
       },
       "status": "hold",
-      "hold_reason": "18 November 2026 09:22 UTC audit: Stay22 allez/booking wraps of the exact Booking.com detail URL landed on Toubakouta search results (14 properties), not the property detail. Held until a wrapped exact-detail landing is verified."
+      "hold_reason": "19 November 2026 audit: 1/4 exact detail (locale-free 1/2, .en-gb 0/2); Toubakouta searchresults.html (dest_id=741163) dominates. Hold retained."
     },
     "maribela-hotel": {
       "url": "https://www.booking.com/hotel/et/maribela-lalibela.html",
@@ -129,10 +134,11 @@
         "source_url": "https://www.booking.com/hotel/za/belmond-mount-nelson.html",
         "summary": "15 November 2026 scheduled 4-hour audit: locale-free Booking.com detail identifies 76 Orange Street, Gardens, 8001 Cape Town, South Africa. Browser renders the full property detail with Reserve, room types and 9.7 Exceptional from 184 reviews. The Stay22 allez/booking wrapper for this exact URL landed on the same /hotel/za/belmond-mount-nelson.html detail in a fresh private-browser run, not searchresults.html.",
         "redirect_check": "15 November 2026 (UTC 13:33): https://www.stay22.com/allez/booking?...link=https://www.booking.com/hotel/za/belmond-mount-nelson.html... landed on /hotel/za/belmond-mount-nelson.html with h1 Mount Nelson, A Belmond Hotel, Cape Town and 184 reviews. No rates, availability, checkout, commission or attribution verified.",
-        "verification_2026_11_18_0922": "18 November 2026 09:22 UTC audit: live Stay22 wraps could not be completed because Booking.com navigation repeatedly timed out. Held rather than treating an unverified redirect as an exact-detail pass; recheck next rotation."
+        "verification_2026_11_18_0922": "18 November 2026 09:22 UTC audit: live Stay22 wraps could not be completed because Booking.com navigation repeatedly timed out. Held rather than treating an unverified redirect as an exact-detail pass; recheck next rotation.",
+        "redirect_check_2026_11_19": "19 November 2026 audit: 6/8 server-side wraps exact detail; in a browser the wrap rendered the exact property once (h1 Mount Nelson, A Belmond Hotel, Cape Town; 9.7 Exceptional from 184 reviews), once opened Cape Town searchresults.html (5,503 properties) and twice timed out on the detail URL. Alternating wrapper; hold retained."
       },
       "status": "hold",
-      "hold_reason": "18 November 2026 09:22 UTC audit: live Stay22 wraps could not be completed because Booking.com navigation repeatedly timed out. Held rather than treating an unverified redirect as an exact-detail pass; recheck next rotation."
+      "hold_reason": "19 November 2026 audit: 6/8 server-side wraps exact detail; in a browser the wrap rendered the exact property once (h1 Mount Nelson, A Belmond Hotel, Cape Town; 9.7 Exceptional from 184 reviews), once opened Cape Town searchresults.html (5,503 properties) and twice timed out on the detail URL. Alternating wrapper; hold retained."
     },
     "ol-tukai-lodge-amboseli": {
       "url": "https://www.hotels.com/ho508661/ol-tukai-lodge-amboseli-amboseli-kenya/",
@@ -142,10 +148,11 @@
       "evidence": {
         "source_url": "https://www.hotels.com/ho508661/ol-tukai-lodge-amboseli-amboseli-kenya/",
         "summary": "11 November 2026: replacement Hotels.com source browser-verified through Stay22 to the exact full property-detail page with matching property name and location, gallery, rooms and policies. Replaces Booking.com search landing; prior hold lifted. Page load timed out but rendered detail content and exact property path were inspected. Numerical review evidence, rates, checkout and attribution not verified.",
-        "redirect_check": "15 November 2026 scheduled 4-hour audit: Hotels.com ho508661 wrap lands on Hotel-Search for the Amboseli area with Ol Tukai present but not a full-detail page. Agoda and Expedia candidates had no exact detail URL to wrap, so this stays held."
+        "redirect_check": "15 November 2026 scheduled 4-hour audit: Hotels.com ho508661 wrap lands on Hotel-Search for the Amboseli area with Ol Tukai present but not a full-detail page. Agoda and Expedia candidates had no exact detail URL to wrap, so this stays held.",
+        "redirect_check_2026_11_19": "19 November 2026 audit: Hotels.com ho508661 wrap landed exact 4/5 server-side, but the real-browser click opened Hotels.com Hotel-Search with selected=7050582, not the full property page. Hold retained."
       },
       "status": "hold",
-      "hold_reason": "15 November 2026 scheduled 4-hour audit: Hotels.com ho508661 wrap lands on Hotel-Search for the Amboseli area with Ol Tukai present but not a full-detail page. Agoda and Expedia candidates had no exact detail URL to wrap, so this stays held."
+      "hold_reason": "19 November 2026 audit: Hotels.com ho508661 wrap landed exact 4/5 server-side, but the real-browser click opened Hotels.com Hotel-Search with selected=7050582, not the full property page. Hold retained."
     },
     "paraa-safari-lodge": {
       "url": "https://www.booking.com/hotel/ug/paraa-safari-lodge.html",
@@ -155,10 +162,11 @@
       "evidence": {
         "source_url": "https://www.booking.com/hotel/ug/paraa-safari-lodge.html",
         "summary": "Exact Paraa Safari Lodge listing identifies the property in Paraa, Uganda, Murchison Falls National Park. 8.5/10 from 46 reviews.",
-        "verification_2026-11-14": "Stay22 redirect chain lands on exact property detail page /hotel/ug/paraa-safari-lodge.html (not searchresults.html). Full property detail confirmed: name, location, 46 reviews, room types, facilities, house rules. Prior wrapper instability resolved. Note: listing previously noted not accepting reservations; availability unconfirmed."
+        "verification_2026-11-14": "Stay22 redirect chain lands on exact property detail page /hotel/ug/paraa-safari-lodge.html (not searchresults.html). Full property detail confirmed: name, location, 46 reviews, room types, facilities, house rules. Prior wrapper instability resolved. Note: listing previously noted not accepting reservations; availability unconfirmed.",
+        "redirect_check_2026_11_19": "19 November 2026 audit: locale-free /hotel/ug/paraa-safari-lodge.html 4/5 exact detail, but 0/3 with keep_landing=1. Alternating; hold retained."
       },
       "status": "hold",
-      "hold_reason": "16 November 2026 scheduled 4-hour audit: Stay22 wrap of /hotel/ug/paraa-safari-lodge.html alternates between searchresults.html (dest_id=1693415) and exact detail page across retries. Wrapper unstable."
+      "hold_reason": "19 November 2026 audit: locale-free /hotel/ug/paraa-safari-lodge.html 4/5 exact detail, but 0/3 with keep_landing=1. Alternating; hold retained."
     },
     "ridge-royal-hotel": {
       "url": "https://www.booking.com/hotel/gh/ridge-royal-cape-coast.en-gb.html",
@@ -166,11 +174,12 @@
       "title": "Ridge Royal Hotel Cape Coast",
       "checked_at": "2026-11-13",
       "status": "hold",
-      "hold_reason": "13 November 2026 scheduled midnight audit: Stay22 wrapper redirects .en-gb source to multi-property Booking.com searchresults.html (dest_id=10647230, dest_type=hotel). Prior exact-detail observations unstable; suppress until a reliable wrapped full-detail listing is verified.",
+      "hold_reason": "19 November 2026 audit: 0/4 exact detail in either locale form; Cape Coast searchresults.html (dest_id=10647230) dominates. Hold retained.",
       "evidence": {
         "source_url": "https://www.booking.com/hotel/gh/ridge-royal-cape-coast.en-gb.html",
         "summary": "Rechecked 28 October 2026: the English Booking.com exact property detail names Ridge Royal Hotel Cape Coast and gives Number 1, 2nd Ridge, Cape Coast, Ghana. The page lists accommodation and facilities for this specific property. No rates, availability, score or review total is copied into the guide.",
-        "verification_2026-11-13": "Stay22 redirect chain lands on searchresults.html with dest_id=10647230, dest_type=hotel; correct property appears in results but not exact detail page."
+        "verification_2026-11-13": "Stay22 redirect chain lands on searchresults.html with dest_id=10647230, dest_type=hotel; correct property appears in results but not exact detail page.",
+        "redirect_check_2026_11_19": "19 November 2026 audit: 0/4 exact detail in either locale form; Cape Coast searchresults.html (dest_id=10647230) dominates. Hold retained."
       }
     },
     "serengeti-serena-safari-lodge": {
@@ -179,12 +188,13 @@
       "title": "Serengeti Serena Safari Lodge",
       "checked_at": "2026-11-13",
       "status": "hold",
-      "hold_reason": "15 November 2026 scheduled 4-hour audit: Stay22 wrap of /hotel/tz/serengeti-serena-safari-lodge.html lands on Serengeti National Park searchresults.html (34 properties), Serena first. Not an exact detail landing.",
+      "hold_reason": "19 November 2026 audit: locale-free /hotel/tz/serengeti-serena-safari-lodge.html 5/7 exact detail across rounds; .en-gb and keep_landing variants weaker. Alternating; hold retained.",
       "evidence": {
         "source_url": "https://www.booking.com/hotel/tz/serengeti-serena-safari-lodge.en-gb.html",
         "summary": "Primary property detail identifies Serengeti National Park, Tanzania.",
         "verification_2026-11-13": "Stay22 redirect chain lands on searchresults.html with dest_id=2357218, dest_type=hotel; correct property appears in results but not exact detail page.",
-        "redirect_check": "15 November 2026 scheduled 4-hour audit: Stay22 wrap of /hotel/tz/serengeti-serena-safari-lodge.html lands on Serengeti National Park searchresults.html (34 properties), Serena first. Not an exact detail landing."
+        "redirect_check": "15 November 2026 scheduled 4-hour audit: Stay22 wrap of /hotel/tz/serengeti-serena-safari-lodge.html lands on Serengeti National Park searchresults.html (34 properties), Serena first. Not an exact detail landing.",
+        "redirect_check_2026_11_19": "19 November 2026 audit: locale-free /hotel/tz/serengeti-serena-safari-lodge.html 5/7 exact detail across rounds; .en-gb and keep_landing variants weaker. Alternating; hold retained."
       }
     },
     "sossusvlei-lodge": {
@@ -196,10 +206,11 @@
         "source_url": "https://www.booking.com/hotel/na/sossusvlei-lodge.en-gb.html",
         "summary": "Exact property detail identifies Sossusvlei Lodge at Farm on D826, Sesriem, Namibia. 8.7/10 from 1,352 reviews.",
         "verification_2026-11-14": "Stay22 redirect chain lands on exact property detail page /hotel/na/sossusvlei-lodge.html (not searchresults.html). Full property detail confirmed: name, address, 1,352 reviews, room types, facilities, house rules. Prior wrapper instability resolved.",
-        "verification_2026_11_18_0922": "18 November 2026 09:22 UTC audit: interleaved Stay22 wraps alternated between the exact Sossusvlei Lodge detail and Sesriem search results (13 properties). Held because the wrapped booking option is unstable."
+        "verification_2026_11_18_0922": "18 November 2026 09:22 UTC audit: interleaved Stay22 wraps alternated between the exact Sossusvlei Lodge detail and Sesriem search results (13 properties). Held because the wrapped booking option is unstable.",
+        "redirect_check_2026_11_19": "19 November 2026 01:35-01:50 UTC audit: 10/10 server-side Stay22 wraps of the locale-free /hotel/na/sossusvlei-lodge.html landed on the exact detail path, but two real-browser clicks on the same wrap both opened Sesriem searchresults.html (17 properties). Server URL shape is therefore not accepted as exact evidence here; hold retained."
       },
       "status": "hold",
-      "hold_reason": "18 November 2026 09:22 UTC audit: interleaved Stay22 wraps alternated between the exact Sossusvlei Lodge detail and Sesriem search results (13 properties). Held because the wrapped booking option is unstable."
+      "hold_reason": "19 November 2026 01:35-01:50 UTC audit: 10/10 server-side Stay22 wraps of the locale-free /hotel/na/sossusvlei-lodge.html landed on the exact detail path, but two real-browser clicks on the same wrap both opened Sesriem searchresults.html (17 properties). Server URL shape is therefore not accepted as exact evidence here; hold retained."
     },
     "the-place-resort-tokeh": {
       "url": "https://www.agoda.com/en-ie/the-place-resort-at-tokeh-beach-h88167521/hotel/toke-sl.html",
@@ -220,10 +231,11 @@
       "evidence": {
         "source_url": "https://www.booking.com/hotel/zw/the-victoria-falls.en-gb.html",
         "summary": "Primary detail identifies 1 Mallet Drive, Victoria Falls, Zimbabwe and historic 1904 hotel.",
-        "redirect_check": "15 November 2026 scheduled 4-hour audit: Stay22 wrap of locale-free /hotel/zw/the-victoria-falls.html still lands on Victoria Falls searchresults.html (134 properties). The hotel is first in the list but the redirect is not an exact detail landing."
+        "redirect_check": "15 November 2026 scheduled 4-hour audit: Stay22 wrap of locale-free /hotel/zw/the-victoria-falls.html still lands on Victoria Falls searchresults.html (134 properties). The hotel is first in the list but the redirect is not an exact detail landing.",
+        "redirect_check_2026_11_19": "19 November 2026 audit: locale-free /hotel/zw/the-victoria-falls.html landed exact 2/2, then 2/5 and 2/3 with keep_landing=1; the .en-gb variant landed search 2/2. Alternating; hold retained."
       },
       "status": "hold",
-      "hold_reason": "15 November 2026 scheduled 4-hour audit: Stay22 wrap of locale-free /hotel/zw/the-victoria-falls.html still lands on Victoria Falls searchresults.html (134 properties). The hotel is first in the list but the redirect is not an exact detail landing."
+      "hold_reason": "19 November 2026 audit: locale-free /hotel/zw/the-victoria-falls.html landed exact 2/2, then 2/5 and 2/3 with keep_landing=1; the .en-gb variant landed search 2/2. Alternating; hold retained."
     },
     "camp-okavango": {
       "status": "unavailable",
@@ -287,10 +299,11 @@
       "evidence": {
         "source_url": "https://www.booking.com/hotel/ke/amboseli-serena-safari-lodge.html",
         "summary": "14 November 2026 scheduled 4-hour audit: switched from .en-gb variant which redirected to searchresults.html (dest_id=4722582). Locale-free canonical /hotel/ke/amboseli-serena-safari-lodge.html verified via browser search as exact property detail page for Amboseli Serena Safari Lodge, Kenya; name/location cross-checked with Serena official Amboseli page. Direct request returns JavaScript verification (bot-walled). No availability, current price, aggregate rating or affiliate attribution independently verified.",
-        "verification_2026_11_18_0922": "18 November 2026 09:22 UTC audit: interleaved Stay22 wraps alternated between Amboseli search results (26 properties) and the exact Amboseli Serena Safari Lodge detail. Held because the wrapped booking option is unstable."
+        "verification_2026_11_18_0922": "18 November 2026 09:22 UTC audit: interleaved Stay22 wraps alternated between Amboseli search results (26 properties) and the exact Amboseli Serena Safari Lodge detail. Held because the wrapped booking option is unstable.",
+        "redirect_check_2026_11_19": "19 November 2026 audit: 4/8 server-side exact detail (locale-free 3/5, keep_landing=1 1/3); repeated Amboseli searchresults.html landings. Hold retained."
       },
       "status": "hold",
-      "hold_reason": "18 November 2026 09:22 UTC audit: interleaved Stay22 wraps alternated between Amboseli search results (26 properties) and the exact Amboseli Serena Safari Lodge detail. Held because the wrapped booking option is unstable."
+      "hold_reason": "19 November 2026 audit: 4/8 server-side exact detail (locale-free 3/5, keep_landing=1 1/3); repeated Amboseli searchresults.html landings. Hold retained."
     },
     "red-chilli-rest-camp": {
       "url": "https://www.booking.com/hotel/ug/red-chilli-rest-camp.html",
@@ -337,10 +350,11 @@
       "evidence": {
         "source_url": "https://www.booking.com/hotel/ug/fairway-amp-spa.en-gb.html",
         "summary": "The exact Booking.com detail page identifies Fairway Boutique Hotel in Kampala, Uganda. Its property name and city were cross-checked against Fairway Hotel’s official site and the Agoda listing at Plot 3 Kafu Road, Nakasero. No live rate, availability, Booking.com review score or review count is used.",
-        "redirect_check": "15 November 2026 scheduled 4-hour audit: /hotel/ug/fairway-amp-spa.html (locale-free) rendered the exact Kampala detail with Reserve and 8.8/643 reviews once, then returned to Kampala searchresults.html on the next wrap. Alternating landing, so it stays held."
+        "redirect_check": "15 November 2026 scheduled 4-hour audit: /hotel/ug/fairway-amp-spa.html (locale-free) rendered the exact Kampala detail with Reserve and 8.8/643 reviews once, then returned to Kampala searchresults.html on the next wrap. Alternating landing, so it stays held.",
+        "redirect_check_2026_11_19": "19 November 2026 audit: 2/4 exact detail across locale forms; Kampala searchresults.html on the rest. Alternating; hold retained."
       },
       "status": "hold",
-      "hold_reason": "15 November 2026 scheduled 4-hour audit: /hotel/ug/fairway-amp-spa.html (locale-free) rendered the exact Kampala detail with Reserve and 8.8/643 reviews once, then returned to Kampala searchresults.html on the next wrap. Alternating landing, so it stays held."
+      "hold_reason": "19 November 2026 audit: 2/4 exact detail across locale forms; Kampala searchresults.html on the rest. Alternating; hold retained."
     },
     "kigali-serena-hotel": {
       "url": "https://www.booking.com/hotel/rw/kigali-serena.en-gb.html",
@@ -350,10 +364,11 @@
       "evidence": {
         "source_url": "https://www.booking.com/hotel/rw/kigali-serena.en-gb.html",
         "summary": "Search results (checked 9 November 2026) identify the exact Booking.com detail page \"Kigali Serena Hotel, Kigali\" with a five-star description matching the official Serena property. Direct Booking.com detail fetch was automation-blocked (Ridge Royal standard), so no live rate, availability, numerical rating or review-count claim is made. Identity cross-checked against the official Serena Hotels site.",
-        "redirect_check": "15 November 2026 scheduled 4-hour audit: /hotel/rw/kigali-serena.html rendered the exact detail with Reserve once, then Kigali searchresults.html (724 properties) on the other attempt. Alternating landing, so it stays held."
+        "redirect_check": "15 November 2026 scheduled 4-hour audit: /hotel/rw/kigali-serena.html rendered the exact detail with Reserve once, then Kigali searchresults.html (724 properties) on the other attempt. Alternating landing, so it stays held.",
+        "redirect_check_2026_11_19": "19 November 2026 audit: 0/4 exact detail in either locale form (Kigali searchresults.html, dest_id=1296492). Hold retained."
       },
       "status": "hold",
-      "hold_reason": "15 November 2026 scheduled 4-hour audit: /hotel/rw/kigali-serena.html rendered the exact detail with Reserve once, then Kigali searchresults.html (724 properties) on the other attempt. Alternating landing, so it stays held."
+      "hold_reason": "19 November 2026 audit: 0/4 exact detail in either locale form (Kigali searchresults.html, dest_id=1296492). Hold retained."
     },
     "nairobi-serena-hotel": {
       "url": "https://www.booking.com/hotel/ke/nairobi-serena.html",
@@ -389,10 +404,11 @@
       "evidence": {
         "source_url": "https://www.booking.com/hotel/tz/white-sand-luxury-villas-amp-spa.en-gb.html",
         "summary": "Search results (checked 10 November 2026) identify the exact Booking.com detail page for Zanzibar White Sand Luxury Villas & Spa in Paje, Tanzania. Direct Booking.com detail fetch was automation-blocked (Ridge Royal standard), so no live rate, availability, numerical rating or review-count claim is made. Identity cross-checked against the property's official site (whitesandvillas.com).",
-        "redirect_check": "15 November 2026 scheduled 4-hour audit: Stay22 wrap of locale-free /hotel/tz/white-sand-luxury-villas-amp-spa.html lands on Paje searchresults.html (189 properties). Not an exact detail landing."
+        "redirect_check": "15 November 2026 scheduled 4-hour audit: Stay22 wrap of locale-free /hotel/tz/white-sand-luxury-villas-amp-spa.html lands on Paje searchresults.html (189 properties). Not an exact detail landing.",
+        "redirect_check_2026_11_19": "19 November 2026 audit: 1/4 exact detail (locale-free 1/2, .en-gb 0/2); Paje searchresults.html dominates. Hold retained."
       },
       "status": "hold",
-      "hold_reason": "15 November 2026 scheduled 4-hour audit: Stay22 wrap of locale-free /hotel/tz/white-sand-luxury-villas-amp-spa.html lands on Paje searchresults.html (189 properties). Not an exact detail landing."
+      "hold_reason": "19 November 2026 audit: 1/4 exact detail (locale-free 1/2, .en-gb 0/2); Paje searchresults.html dominates. Hold retained."
     },
     "hotel-barmoi-freetown": {
       "url": "https://www.booking.com/hotel/sl/barmoi.en-gb.html",
@@ -400,11 +416,12 @@
       "title": "Hotel Barmoi, Freetown",
       "checked_at": "2026-11-13",
       "status": "hold",
-      "hold_reason": "13 November 2026 scheduled midnight audit: Stay22 wrapper redirects .en-gb source to multi-property Booking.com searchresults.html (dest_id=1985626, dest_type=hotel). Prior browser-verified exact detail observation unstable; suppress until a reliable wrapped full-detail listing is verified.",
+      "hold_reason": "19 November 2026 audit: 1/4 exact detail; Freetown searchresults.html (dest_id=1985626) dominates. Hold retained.",
       "evidence": {
         "source_url": "https://www.booking.com/hotel/sl/barmoi.en-gb.html",
         "summary": "Browser-verified 13 November 2026: the Booking.com Freetown city page lists Hotel Barmoi with its exact detail URL /hotel/sl/barmoi.html; opening the detail URL renders the full property page (75C Cape Road, Aberdeen, Freetown; 8.4 Very good from 118 reviews; room types, facilities and policies). A Stay22-wrapped test of this URL with the site campaign parameters opens the same exact property detail page, not a searchresults page.",
-        "verification_2026-11-13": "Stay22 redirect chain lands on searchresults.html with dest_id=1985626, dest_type=hotel; correct property appears in results but not exact detail page."
+        "verification_2026-11-13": "Stay22 redirect chain lands on searchresults.html with dest_id=1985626, dest_type=hotel; correct property appears in results but not exact detail page.",
+        "redirect_check_2026_11_19": "19 November 2026 audit: 1/4 exact detail; Freetown searchresults.html (dest_id=1985626) dominates. Hold retained."
       },
       "notes": "Exact OTA product verified in browser (see evidence). No current price, availability or affiliate attribution claim is made; review score quoted on-page with a checked date."
     },
@@ -435,18 +452,19 @@
       }
     },
     "maun-lodge": {
-      "url": "https://www.booking.com/hotel/bw/maun-lodge.en-gb.html",
+      "url": "https://www.booking.com/hotel/bw/maun-lodge.html",
       "provider": "booking",
       "title": "Maun Lodge",
-      "checked_at": "2026-11-18",
+      "checked_at": "2026-11-19",
       "evidence": {
-        "source_url": "https://www.booking.com/hotel/bw/maun-lodge.en-gb.html",
+        "source_url": "https://www.booking.com/hotel/bw/maun-lodge.html",
         "summary": "17 November 2026 scheduled 4-hour audit: exact Booking.com property detail opened in a browser session; property name Maun Lodge, 459 Tawana Road, PO Box 376, Maun, Botswana, Guest reviews (517), Reserve present, Facilities and House rules rendered, no multi-property results. Direct URL identical to the editorial booking_url already published on the page.",
         "redirect_check": "17 November 2026: 26 server-side Stay22 allez/booking wraps of this exact URL, all 26 landed on /hotel/bw/maun-lodge*.html detail pages and none on searchresults.html. Earlier 15 November wraps of the same URL also landed on the exact detail. No rates, availability, review aggregates, checkout, commission or attribution verified.",
-        "verification_2026_11_18_0922": "18 November 2026 09:22 UTC audit: Stay22 wraps of the locale-free exact Maun Lodge URL repeatedly timed out and did not produce a verifiable detail landing. Held rather than retaining an unverified active CTA; recheck next rotation."
+        "verification_2026_11_18_0922": "18 November 2026 09:22 UTC audit: Stay22 wraps of the locale-free exact Maun Lodge URL repeatedly timed out and did not produce a verifiable detail landing. Held rather than retaining an unverified active CTA; recheck next rotation.",
+        "verification_2026_11_19": "19 November 2026 01:30-01:45 UTC audit: real-browser clicks on the Stay22 allez/booking wrap of this exact URL rendered the Booking.com property detail twice (h1 Maun Lodge, 459 Tawana Road PO Box 376, Maun, Botswana; Reserve; 8.1 Very good from 516 reviews), not searchresults.html. Server-side interleaved sampling of the same URL: 12/12 exact detail landings (4/4 locale pair check, 5/5 repeat round, 3/3 keep_landing=1 round). Review count read live on 19 November 2026; ratings can change. No rates, availability, checkout or attribution verified.",
+        "locale_free_url": "19 November 2026: source switched from the .en-gb variant to the locale-free canonical /hotel/bw/maun-lodge.html; both variants landed exact in server sampling and the locale-free form is the form clicked in the browser."
       },
-      "status": "hold",
-      "hold_reason": "18 November 2026 09:22 UTC audit: Stay22 wraps of the locale-free exact Maun Lodge URL repeatedly timed out and did not produce a verifiable detail landing. Held rather than retaining an unverified active CTA; recheck next rotation."
+      "status": "active"
     },
     "chobe-safari-lodge": {
       "url": "https://www.booking.com/hotel/bw/chobe-safari-lodge.en-gb.html",
@@ -460,9 +478,10 @@
         "verification_2026-11-17": "Server-side wraps of the .en-gb URL landed on the exact detail 5/10, 5/8 and 3/7 times across three batches and on searchresults.html otherwise. The .en-us and locale-free variants landed on the exact detail in the same batches, so the instability follows the wrapper rather than the source path. The en-gb URL is kept because it is the canonical path the editorial record and the published page already use.",
         "limits": "No rates, availability, review scores beyond the 17 November reading, checkout, commission or attribution verified.",
         "verification_2026_11_18": "18 November 2026 05:22 UTC scheduled 4-hour audit: five interleaved real-browser wraps of /hotel/bw/chobe-safari-lodge.en-gb.html landed on the exact Booking.com property detail all five times (h1 The Chobe Safari Lodge, President Avenue, Kasana Border of Chobe National Park, Kasane, Botswana; Reserve, Facilities, House rules; 168 reviews, 8.7 Excellent; not searchresults.html). Prior hold lifted.",
-        "verification_2026_11_18_0922": "18 November 2026 09:22 UTC audit: eight interleaved Stay22 wraps without roam=false alternated 4 exact Chobe Safari Lodge detail landings and 4 Kasane search-results landings (42 properties). The prior roam=false resolver also sent the live CTA to Booking.com search. Held until a stable production click-through is verified."
+        "verification_2026_11_18_0922": "18 November 2026 09:22 UTC audit: eight interleaved Stay22 wraps without roam=false alternated 4 exact Chobe Safari Lodge detail landings and 4 Kasane search-results landings (42 properties). The prior roam=false resolver also sent the live CTA to Booking.com search. Held until a stable production click-through is verified.",
+        "redirect_check_2026_11_19": "19 November 2026 audit: 6/7 server-side wraps exact detail (locale-free 4/5, keep_landing=1 3/3), but two real-browser clicks both opened Kasane searchresults.html (49 properties). Alternating wrapper; hold retained."
       },
-      "hold_reason": "18 November 2026 09:22 UTC audit: eight interleaved Stay22 wraps without roam=false alternated 4 exact Chobe Safari Lodge detail landings and 4 Kasane search-results landings (42 properties). The prior roam=false resolver also sent the live CTA to Booking.com search. Held until a stable production click-through is verified."
+      "hold_reason": "19 November 2026 audit: 6/7 server-side wraps exact detail (locale-free 4/5, keep_landing=1 3/3), but two real-browser clicks both opened Kasane searchresults.html (49 properties). Alternating wrapper; hold retained."
     },
     "accra-city-hotel": {
       "url": "https://www.booking.com/hotel/gh/accra-city-hotel.en-gb.html",
@@ -470,12 +489,13 @@
       "title": "Accra City Hotel",
       "checked_at": "2026-11-17",
       "status": "hold",
-      "hold_reason": "17 November 2026 scheduled 4-hour audit: the exact Booking.com property detail resolves correctly in a browser (property Accra City Hotel, Barnes Road, PO Box 12720, Accra, Ghana, Guest reviews (111), 8.1 Very Good from 111 reviews, Reserve, Facilities and House rules), but the Stay22 wrap of the same URL alternates between searchresults.html for Accra and the exact detail page (3/10, 3/14 and 3/7 detail landings across batches). Wrapper instability, the casa-del-papa and paraa-safari-lodge precedent: suppress the registry booking option until a stable exact-detail landing is verified.",
+      "hold_reason": "19 November 2026 audit: 7/12 server-side wraps exact detail (locale-free 2/5, .en-gb 2/2, keep_landing=1 1/3); still 5/12 searchresults.html. Not stable enough to reactivate.",
       "evidence": {
         "source_url": "https://www.booking.com/hotel/gh/accra-city-hotel.en-gb.html",
         "summary": "17 November 2026 scheduled 4-hour audit: direct Booking.com detail confirmed in a browser session: Accra City Hotel, Barnes Road, Accra, 111 reviews, 8.1 Very Good, 4 out of 5 stars, Preferred property, room types, facilities, house rules. Direct URL identical to the editorial booking_url already published on the page.",
         "verification_2026-11-17": "The locale-free /hotel/gh/accra-city-hotel.html and the .en-gb URL both landed on the exact detail in browser checks, but server-side wraps alternated: 3/10, 3/14 and 3/7 for the en-gb URL and 2/7 plus 8/14 for the locale-free URL. No exact-detail source produced a stable wrapped landing.",
-        "limits": "No rates, availability, review scores beyond the 17 November reading, checkout, commission or attribution verified."
+        "limits": "No rates, availability, review scores beyond the 17 November reading, checkout, commission or attribution verified.",
+        "redirect_check_2026_11_19": "19 November 2026 audit: 7/12 server-side wraps exact detail (locale-free 2/5, .en-gb 2/2, keep_landing=1 1/3); still 5/12 searchresults.html. Not stable enough to reactivate."
       }
     },
     "lemon-beach-resort-elmina": {
@@ -812,13 +832,16 @@
     "kruger-national-park": {
       "url": "https://www.getyourguide.com/en-gb/skukuza-l192363/kruger-national-park-full-day-game-drive-with-pickup-t433574/",
       "provider": "getyourguide",
-      "title": "Kruger National Park: Full-Day Game Drive with Pick-up",
+      "title": "Kruger National Park: Full-Day Game Drive with Pickup",
       "operator": "Inn Africa Camp & Tours- Game drives",
-      "rating": 4.5,
-      "review_count": 166,
+      "rating": 4.6,
+      "review_count": 172,
       "notes": "Full-day open-vehicle game drive. Confirm the pickup area; food and park conservation fees are extra.",
-      "checked_at": "2026-10-11",
-      "status": "candidate"
+      "checked_at": "2026-11-19",
+      "status": "active",
+      "evidence": {
+        "verification_2026_11_19": "19 November 2026 01:40-01:55 UTC audit: the Stay22 allez/getyourguide wrap opened this exact product page in a browser (Kruger National Park: Full-Day Game Drive with Pickup; 4.6/5 from 172 reviews). Product identity matches the registry title and operator; not a search page. Review aggregate is a point-in-time reading on 19 November 2026; no rates, availability, checkout or attribution verified."
+      }
     },
     "lalibela": {
       "url": null,
@@ -869,22 +892,28 @@
       "provider": "getyourguide",
       "title": "From Marrakech: Merzouga 3-Day Desert Safari with Food",
       "operator": "Ando Travel Ltd",
-      "rating": 4.7,
-      "review_count": 15137,
+      "rating": 4.6,
+      "review_count": 15718,
       "notes": "Three-day Marrakech round trip to Merzouga/Erg Chebbi. Select the camp category carefully and check meal, camel and vehicle-transfer arrangements.",
-      "checked_at": "2026-10-11",
-      "status": "candidate"
+      "checked_at": "2026-11-19",
+      "status": "active",
+      "evidence": {
+        "verification_2026_11_19": "19 November 2026 01:40-01:55 UTC audit: the Stay22 allez/getyourguide wrap opened this exact product page in a browser (From Marrakech: Merzouga 3-Day Desert Safari with Food; 4.6/5 from 15,718 reviews). Product identity matches the registry title and operator; not a search page. Review aggregate is a point-in-time reading on 19 November 2026; no rates, availability, checkout or attribution verified."
+      }
     },
     "sal-island": {
       "url": "https://www.getyourguide.com/santa-maria-cape-verde-l141321/cape-verde-6-hour-sal-experience-t268017/",
       "provider": "getyourguide",
       "title": "Sal: Island Experience Tour with a Certified Native Guide",
       "operator": "Sal Experiences",
-      "rating": 4.8,
-      "review_count": 4340,
+      "rating": 4.9,
+      "review_count": 4545,
       "notes": "Guided island circuit. Entrance fees and optional lunch cost extra; confirm pickup and the stops included.",
-      "checked_at": "2026-10-11",
-      "status": "candidate"
+      "checked_at": "2026-11-19",
+      "status": "active",
+      "evidence": {
+        "verification_2026_11_19": "19 November 2026 01:40-01:55 UTC audit: the Stay22 allez/getyourguide wrap opened this exact product page in a browser (Sal: Island Experience Tour with a Certified Native Guide; 4.9/5 from 4,545 reviews). Product identity matches the registry title and operator; not a search page. Review aggregate is a point-in-time reading on 19 November 2026; no rates, availability, checkout or attribution verified."
+      }
     },
     "sine-saloum-delta": {
       "url": "https://www.getyourguide.com/dakar-l32481/dakar-saloum-islands-full-day-tour-with-lunch-drinks-t1243074/",
@@ -914,21 +943,28 @@
       "title": "Tunis: Medina, Carthage & Sidi Bousaid Private Day Trip",
       "operator": "Didon Tours",
       "rating": 4.8,
-      "review_count": 142,
+      "review_count": 147,
       "notes": "Private day trip through Tunis, Carthage and Sidi Bou Said. Confirm the exact museums and entrance tickets included in your option.",
-      "checked_at": "2026-10-11",
-      "status": "candidate"
+      "checked_at": "2026-11-19",
+      "status": "active",
+      "evidence": {
+        "verification_2026_11_19": "19 November 2026 01:40-01:55 UTC audit: the Stay22 allez/getyourguide wrap opened this exact product page in a browser (Tunis: Medina, Carthage & Sidi Bousaid Private Day Trip; 4.8/5 from 147 reviews). Product identity matches the registry title and operator; not a search page. Review aggregate is a point-in-time reading on 19 November 2026; no rates, availability, checkout or attribution verified."
+      }
     },
     "zanzibar": {
-      "url": "https://www.getyourguide.com/zanzibar-ville-l872/zanzibar-visite-des-epices-visite-de-stone-town-et-de-l-ile-prison-t645862/",
+      "url": "https://www.getyourguide.com/zanzibar-city-l872/zanzibar-spice-tour-stone-town-tour-prison-island-t645862/",
       "provider": "getyourguide",
       "title": "Zanzibar: Spice Tour, Stone Town tour & Prison Island",
       "operator": "Tourice Travel & Tours",
-      "rating": null,
-      "review_count": null,
+      "rating": 4.7,
+      "review_count": 62,
       "notes": "Private spice farm, Stone Town and Prison Island outing. Confirm pickup, boat arrangements, admissions and meals. Read current reviews on the booking page.",
-      "checked_at": "2026-10-11",
-      "status": "candidate"
+      "checked_at": "2026-11-19",
+      "status": "active",
+      "evidence": {
+        "verification_2026_11_19": "19 November 2026 01:40-01:55 UTC audit: the Stay22 allez/getyourguide wrap opened this exact product page in a browser (Zanzibar: Spice Tour, Stone Town tour & Prison Island; 4.7/5 from 62 reviews). Product identity matches the registry title and operator; not a search page. Review aggregate is a point-in-time reading on 19 November 2026; no rates, availability, checkout or attribution verified.",
+        "locale_free_url": "19 November 2026: registry URL replaced the French-slug zanzibar-ville variant with the English zanzibar-city-l872 canonical product URL that the Stay22 wrap resolves to."
+      }
     },
     "tokeh-and-river-no2": {
       "status": "unavailable",
