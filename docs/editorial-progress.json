@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-19T01:13:00.000Z",
+  "updated_at": "2026-11-19T03:15:00.000Z",
   "timezone": "Africa/Kampala",
   "next_scheduled_start": "2026-10-17T19:30:00+03:00",
   "cadence_hours": 3,
@@ -251,8 +251,8 @@
     "After quota interruption resume at next eligible scheduled run; do not assume immediate credit-reset wakeup.",
     "No routine tests/builds or repeated broad audits."
   ],
-  "next_task_selection": "Rotate to destinations next run; South Luangwa activity live verification pending Netlify rebuild; owner-email send still blocked on Gmail sign-in.",
-  "last_run": "2026-11-19T04:13:00+03:00",
+  "next_task_selection": "Rotate to accommodations next run; South Luangwa local destination published; South Luangwa activity live verification still pending Netlify rebuild; owner-email send still blocked on Gmail sign-in.",
+  "last_run": "2026-11-19T06:15:00+03:00",
   "task_magnitude": "One complete full guide plus booking and listing cards, or one full property photo collection; do not schedule isolated paragraphs/links.",
   "country_destinations_feature": {
     "status": "complete",
@@ -272,14 +272,14 @@
     "email_id": "1a143a69416cf3d1"
   },
   "rotation": {
-    "last_completed_category": "activities",
-    "next_category": "destinations",
-    "next_deliverable": "South Luangwa walking safari activity published at source_commit 63d08c7/7b644e1; South Luangwa attraction listed walking safaris but had zero Related activities live. Research from Zambia Tourism (checked 9 Nov 2026) and live South Luangwa attraction page. Zero-image honest publish, six-subject photo backlog. Live verification pending — Netlify deploy not generating activity page despite successful local build and GitHub push. CMS mirror imported at source commit; owner-side CMS check pending."
+    "last_completed_category": "destinations",
+    "next_category": "accommodations",
+    "next_deliverable": "South Luangwa local destination published (slug: south-luangwa). Evidenced gap: Zambia country page (HTTP 200, 19 Nov 2026) frames South Luangwa as walking-safari heart but Destinations rail showed only Livingstone. Live South Luangwa attraction (HTTP 200) states 'Walking safaris are a major part of the park's reputation'; Mfuwe Lodge (HTTP 200) calls valley 'birthplace of the walking safari'; South Luangwa walking safari activity published to repo (commits 63d08c7/7b644e1) but pending live. Research: Zambia Tourism (walking safari birthplace, mobile camp-to-camp walks, nature walks with guide+armed ranger, Mfuwe airport, Chipata 123 km, Valley of the Leopard, Thornicroft's giraffe, 14 antelope species, hippo density ~50/km, seasons April–Oct/Nov–Mar) checked 19 Nov 2026; UK FCDO Zambia (passport 6 months, visa-free 90 days, KAZA UNIVISA $50/30 days, yellow fever if from risk country, road safety) checked 19 Nov 2026. Zero-image honest publish with six-subject photo backlog: Luangwa River with hippos, walking safari group with armed ranger, mobile camp setup, Thornicroft's giraffe, leopard in sausage tree, carmine bee-eater colony. Cross-links to Zambia country, South Luangwa attraction, Mfuwe Lodge, walking safari activity, Victoria Falls insight. Next category: accommodations."
   },
   "current_deliverable": {
-    "category": "activities",
-    "rotation": "destinations after that",
-    "note": "South Luangwa walking safari activity guide published to GitHub main (commits 63d08c7, 7b644e1). Evidenced gap: live South Luangwa attraction (HTTP 200, checked 19 Nov 2026) explicitly states 'Walking safaris are a major part of the park's reputation' but activities archive and attraction page rendered zero Related activities. Research: Zambia Tourism official page (walking safari originated in South Luangwa, mobile camp-to-camp walks, nature walks with qualified guide and armed ranger, Mfuwe airport hub, Chipata road 123 km, Valley of the Leopard, April–Oct dry season, Nov–Mar wet season) checked 9 Nov 2026; live South Luangwa attraction page checked 19 Nov 2026. Zero-image honest publish with six-subject photo backlog: Luangwa River walking scenery, armed ranger with walking group, mobile bushcamp setup, Mfuwe airport arrival, Chipata road approach, leopard in riverine forest. No verified booking URL (walking safaris arranged through accommodation/operator). Build-input checks passed; local build (EDITORIAL_CMS_SYNC=false) successful; readability guard passed; dist verified pre-push (activity page generated at /activities/south-luangwa-walking-safari/index.html). Netlify deploy not generating activity page — activities index still shows 28 activities, detail page returns 404. CMS mirror imported at source commit; owner-side CMS check pending."
+    "category": "destinations",
+    "rotation": "accommodations after that",
+    "note": "South Luangwa local destination guide published to GitHub main. Evidenced gap: live Zambia country page (HTTP 200, 19 Nov 2026) explicitly frames South Luangwa as walking-safari heart but Destinations rail rendered only Livingstone. Live South Luangwa attraction (HTTP 200) states 'Walking safaris are a major part of the park's reputation'; Mfuwe Lodge (HTTP 200) calls valley 'birthplace of the walking safari'; South Luangwa walking safari activity published to repo (commits 63d08c7/7b644e1) but pending live verification. Research: Zambia Tourism official page (walking safari birthplace, mobile camp-to-camp walks, nature walks with guide+armed ranger, Mfuwe airport, Chipata 123 km, Valley of the Leopard, Thornicroft's giraffe, 14 antelope species, hippo density ~50/km, seasons April–Oct/Nov–Mar) checked 19 Nov 2026; UK FCDO Zambia (passport 6 months, visa-free 90 days, KAZA UNIVISA $50/30 days, yellow fever if from risk country, road safety) checked 19 Nov 2026. Zero-image honest publish with six-subject photo backlog: Luangwa River with hippos, walking safari group with armed ranger, mobile camp setup, Thornicroft's giraffe, leopard in sausage tree, carmine bee-eater colony. Cross-links to Zambia country, South Luangwa attraction, Mfuwe Lodge, walking safari activity, Victoria Falls insight. Build-input checks passed; local build pending; readability guard pending. CMS mirror imported at source commit; owner-side CMS check pending."
   },
   "previous_deliverable_correction": {
     "id": "marrakech-medina-street-food-walk",
@@ -288,7 +288,7 @@
     "email_id": "1a148cdf8dbabb76",
     "note": "Live page and booking relationship were confirmed and the owner report was already sent. Corrected the stale pending-owner-report status without resending the email."
   },
-  "next_scheduled_run": "2026-11-19T04:13:00+03:00",
+  "next_scheduled_run": "2026-11-19T09:13:00+03:00",
   "analytics_installation": {
     "measurement_id": "G-ZWBZRQPBK7",
     "commit": "4f76457",

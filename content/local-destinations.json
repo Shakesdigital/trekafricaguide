@@ -1607,5 +1607,73 @@
     "sort_order": 24,
     "status": "published",
     "published_at": "2026-11-16T00:00:00Z"
+  },
+  {
+    "slug": "south-luangwa",
+    "country_slug": "zambia",
+    "name": "South Luangwa",
+    "category": "Park gateway",
+    "hero_title": "South Luangwa: the walking-safari heart of the Luangwa Valley",
+    "listing_summary": "Plan a South Luangwa stay around the river, the season and the walking-safari model that fits you — from a gateway lodge to a mobile camp-to-camp trek.",
+    "overview": "South Luangwa National Park sits in the Luangwa Valley at the tail of the Great Rift Valley, covering 9,050 km² across Northern, Eastern and Central Zambia. Zambia Tourism describes the Luangwa River and its lagoons as central to the park's wildlife, with pronounced seasonal change concentrating game around remaining water in the dry season and a greener landscape in the wet months. The park is widely credited as the birthplace of the walking safari — an experience that remains a major draw today.This guide helps you choose a base that matches your priorities: a gateway lodge like Mfuwe Lodge inside the park boundary with year-round access, a seasonal bushcamp on the river for a more remote experience, or a mobile walking safari moving between camps over several nights. The distinction matters because camp location dictates access, activity mix and which wildlife you see on foot versus by vehicle. A stay near the central Mfuwe area differs from the Nsefu sector or the remote northern reaches and should be compared on that basis.Resist treating South Luangwa as a single interchangeable destination. The operator you choose, the camp's position on the river, the season you travel and whether you want mobile walking or lodge-based nature walks are separate decisions that together shape the experience. Ask your provider to explain how the proposed camp's location and activity model fit your dates and interests.",
+    "highlights": [
+      "Birthplace of the walking safari: mobile camp-to-camp treks and lodge-based nature walks with qualified guide and armed ranger",
+      "Valley of the Leopard: Zambia Tourism notes high leopard density — a signature sighting on foot or by vehicle",
+      "Thornicroft's giraffe: endemic subspecies found only in the Luangwa Valley",
+      "River-centered wildlife: hippo pods (~50/km of river), elephant herds up to 70, 14 antelope species, 400+ bird species",
+      "Seasonal camps and year-round lodges: choose a base by its opening calendar and river position, not just room category"
+    ],
+    "access_summary": "Most visitors fly to Mfuwe International Airport (MFU). Zambia Tourism identifies Proflight Zambia daily flights from Lusaka year-round (frequencies increase in high season) and seasonal connections from Lilongwe; all lodges arrange the 45-minute transfer from the airport. Charter flights also serve the valley. By road, the usual route is from Chipata: 123 km / ~2 hours on a corrugated but passable road to Mfuwe, just outside the park. A 4×4 shortcut from Petauke along the Luangwa River is only advised well into dry season for experienced drivers. Northern access via Mpika or Lundazi through the Munyamadzi Corridor is generally open only August–October and requires 4WD, preferably in convoy. Confirm current road conditions, seasonality and vehicle requirements with your operator before committing to a self-drive approach.",
+    "best_time": "Zambia Tourism describes April–October as the dry-season progression, with October the hottest month and game concentrations at their height around remaining water. May–August brings warm sunny days and chilly nights. The wet season (November–March) turns the valley lush, brings migrant birds (including carmine bee-eaters nesting in river banks from November and palearctic migrants such as Steppe eagles and bee-eaters), and newborn animals — but some seasonal camps close when access becomes impractical. Several lodges in the central Mfuwe area remain open all year. Match your dates to the camp's actual opening schedule and your interests: dry-season game concentration, green-season birding and scenery, or shoulder-season balance. No single month guarantees every experience.",
+    "planning_tips": "A practical first structure is three to four nights in one area: arrive, settle, and give the walking safari or game drives a full unhurried day. If combining camps, make sure the transfer adds a distinct river section or activity style rather than simply consuming a wildlife-viewing day. Confirm in writing: which walks and drives are included, whether they are shared or private, guide arrangements, minimum age/participation requirements for walking, and what happens if conditions change an activity. Ask about the camp's opening calendar for your dates — some close December–April. South Luangwa is a malaria area: antimalarial precautions, bite avoidance and a travel-health consultation well before departure are recommended. Pack neutral-coloured clothing (blue and black can attract tsetse flies), a warm layer for open-vehicle mornings, closed walking shoes, binoculars and high-factor sunscreen. Carry US dollars or Zambian Kwacha in clean, undamaged notes for incidentals; Visa and Mastercard are accepted at major lodges. Comprehensive travel insurance including medical evacuation is strongly recommended — the valley is remote by design. For entry: passport valid 6 months beyond arrival with 2 blank pages; British citizens visa-free for 90 days per 12 months; KAZA UNIVISA ($50, 30 days) covers Zambia-Zimbabwe travel and Botswana day trips if combining with Victoria Falls.",
+    "attraction_slugs": [
+      "south-luangwa"
+    ],
+    "activity_slugs": [
+      "south-luangwa-walking-safari"
+    ],
+    "accommodation_slugs": [
+      "mfuwe-lodge"
+    ],
+    "travel_insight_slugs": [
+      "plan-your-victoria-falls-visit"
+    ],
+    "hero_image_url": "",
+    "hero_image_alt": "",
+    "gallery": [],
+    "last_researched": "2026-11-19",
+    "research_sources": [
+      {
+        "label": "Zambia Tourism: South Luangwa National Park — area, walking safari heritage, access, seasons, wildlife, accommodation (checked 19 November 2026)",
+        "url": "https://www.zambiatourism.com/destinations/national-parks/south-luangwa-national-park/"
+      },
+      {
+        "label": "UK FCDO: Zambia entry requirements — passport 6 months, 2 blank pages, visa-free for British citizens, KAZA UNIVISA $50/30 days, yellow fever if from risk country (checked 19 November 2026)",
+        "url": "https://www.gov.uk/foreign-travel-advice/zambia/entry-requirements"
+      },
+      {
+        "label": "UK FCDO: Zambia safety and security — terrorism cannot be ruled out, demonstrations in Lusaka, crime precautions, road travel dangerous after dark, rainy season floods Nov–Apr, LGBT+ laws, wildlife trade laws (checked 19 November 2026)",
+        "url": "https://www.gov.uk/foreign-travel-advice/zambia/safety-and-security"
+      },
+      {
+        "label": "Live Trek Africa Guide: Zambia country page — frames South Luangwa as walking safari area, Destinations rail shows only Livingstone (checked 19 November 2026)",
+        "url": "https://trekafricaguide.com/countries/zambia/"
+      },
+      {
+        "label": "Live Trek Africa Guide: South Luangwa attraction page — 'Walking safaris are a major part of the park's reputation', Mfuwe Lodge nearby stay (checked 19 November 2026)",
+        "url": "https://trekafricaguide.com/attractions/south-luangwa/"
+      },
+      {
+        "label": "Live Trek Africa Guide: Mfuwe Lodge accommodation page — 'birthplace of the walking safari', 18 thatched chalets, Bush-Spa, walking safaris offered, no verified OTA link (checked 19 November 2026)",
+        "url": "https://trekafricaguide.com/accommodations/mfuwe-lodge/"
+      },
+      {
+        "label": "The Bushcamp Company: South Luangwa Guide — mobile walking safaris between 6 bushcamps, Mfuwe Lodge gateway (checked 19 November 2026)",
+        "url": "https://www.bushcampcompany.com/pages/south-luangwa-guide"
+      }
+    ],
+    "sort_order": 25,
+    "status": "published",
+    "published_at": "2026-11-19T00:00:00Z"
   }
 ]
