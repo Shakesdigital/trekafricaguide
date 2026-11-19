@@ -13139,7 +13139,12 @@ export const photoLibrary = {
         "replaces": [],
         "gallery": [
           "/images/stock/destinations/bwindi-impenetrable-national-park.jpg",
-          "/images/stock/starter/bwindi-impenetrable-national-park.jpg"
+          "/images/stock/starter/bwindi-impenetrable-national-park.jpg",
+          "/images/editorial/uganda/murchison-falls-bmkme-2024.jpg",
+          "/images/editorial/uganda/queen-elizabeth-national-park-elephants-alvinategyeka-2024.jpg",
+          "/images/editorial/uganda/entebbe-lake-victoria-aerial-matson-1936.jpg",
+          "/images/editorial/uganda/kihiihi-wetland-landscape-elivis256-2026.jpg",
+          "/images/editorial/uganda/otuke-landscape-monica-joyce-2023.jpg"
         ]
       },
       "zambia": {
