@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-18T09:30:00.000Z",
+  "updated_at": "2026-11-19T01:13:00.000Z",
   "timezone": "Africa/Kampala",
   "next_scheduled_start": "2026-10-17T19:30:00+03:00",
   "cadence_hours": 3,
@@ -251,8 +251,8 @@
     "After quota interruption resume at next eligible scheduled run; do not assume immediate credit-reset wakeup.",
     "No routine tests/builds or repeated broad audits."
   ],
-  "next_task_selection": "Rotate to activities next run; owner-email send still blocked on Gmail sign-in.",
-  "last_run": "2026-11-18T12:13:00+03:00",
+  "next_task_selection": "Rotate to destinations next run; South Luangwa activity live verification pending Netlify rebuild; owner-email send still blocked on Gmail sign-in.",
+  "last_run": "2026-11-19T04:13:00+03:00",
   "task_magnitude": "One complete full guide plus booking and listing cards, or one full property photo collection; do not schedule isolated paragraphs/links.",
   "country_destinations_feature": {
     "status": "complete",
@@ -272,14 +272,14 @@
     "email_id": "1a143a69416cf3d1"
   },
   "rotation": {
-    "last_completed_category": "travel_insights",
-    "next_category": "activities",
-    "next_deliverable": "Benin first-visit travel insight published at source_commit 53e4eb8; Benin country page Related travel insights now links plan-first-benin-visit-ouidah-ganvie. Next: one evidenced activities gap."
+    "last_completed_category": "activities",
+    "next_category": "destinations",
+    "next_deliverable": "South Luangwa walking safari activity published at source_commit 63d08c7/7b644e1; South Luangwa attraction listed walking safaris but had zero Related activities live. Research from Zambia Tourism (checked 9 Nov 2026) and live South Luangwa attraction page. Zero-image honest publish, six-subject photo backlog. Live verification pending — Netlify deploy not generating activity page despite successful local build and GitHub push. CMS mirror imported at source commit; owner-side CMS check pending."
   },
   "current_deliverable": {
-    "category": "travel_insights",
-    "rotation": "activities after that",
-    "note": "Plan a first Benin visit: Ouidah heritage, Ganvié stilt village, and the southern route published at source_commit 53e4eb8. Evidenced gap: Benin country page (live HTTP 200, 18 Nov 2026) frames Ouidah heritage + Ganvié stilt village as linked but distinct experiences, recommends separate outings, but has zero travel insights. Country page has destination (Ouidah and Ganvié), attraction, and accommodation but no travel insight. Research (all checked 18 Nov 2026): Benin country page, UK FCDO travel advice/entry requirements, Benin e-visa portal (evisa.bj), Wikipedia Ouidah/Ganvié, live Ouidah and Ganvié destination page, live Casa del Papa accommodation. Zero-image honest publish with six-subject photo backlog logged. No verified booking URL for guided southern Benin route. CMS mirror imported at source_commit 53e4eb8; owner-side CMS check pending."
+    "category": "activities",
+    "rotation": "destinations after that",
+    "note": "South Luangwa walking safari activity guide published to GitHub main (commits 63d08c7, 7b644e1). Evidenced gap: live South Luangwa attraction (HTTP 200, checked 19 Nov 2026) explicitly states 'Walking safaris are a major part of the park's reputation' but activities archive and attraction page rendered zero Related activities. Research: Zambia Tourism official page (walking safari originated in South Luangwa, mobile camp-to-camp walks, nature walks with qualified guide and armed ranger, Mfuwe airport hub, Chipata road 123 km, Valley of the Leopard, April–Oct dry season, Nov–Mar wet season) checked 9 Nov 2026; live South Luangwa attraction page checked 19 Nov 2026. Zero-image honest publish with six-subject photo backlog: Luangwa River walking scenery, armed ranger with walking group, mobile bushcamp setup, Mfuwe airport arrival, Chipata road approach, leopard in riverine forest. No verified booking URL (walking safaris arranged through accommodation/operator). Build-input checks passed; local build (EDITORIAL_CMS_SYNC=false) successful; readability guard passed; dist verified pre-push (activity page generated at /activities/south-luangwa-walking-safari/index.html). Netlify deploy not generating activity page — activities index still shows 28 activities, detail page returns 404. CMS mirror imported at source commit; owner-side CMS check pending."
   },
   "previous_deliverable_correction": {
     "id": "marrakech-medina-street-food-walk",
@@ -288,7 +288,7 @@
     "email_id": "1a148cdf8dbabb76",
     "note": "Live page and booking relationship were confirmed and the owner report was already sent. Corrected the stale pending-owner-report status without resending the email."
   },
-  "next_scheduled_run": "2026-11-18T13:13:00+03:00",
+  "next_scheduled_run": "2026-11-19T04:13:00+03:00",
   "analytics_installation": {
     "measurement_id": "G-ZWBZRQPBK7",
     "commit": "4f76457",
