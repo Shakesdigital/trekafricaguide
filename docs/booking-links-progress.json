@@ -616,5 +616,29 @@
       "promoted_attractions": "HTTP 200 on /attractions/zanzibar/, /attractions/sahara-dunes/, /attractions/sal-island/, /attractions/kruger-national-park/ and /attractions/tunis-and-sidi-bou-said/, each rendering one GetYourGuide booking anchor whose encoded link is the exact t-product verified in the browser earlier this run (t645862, t52681, t268017, t433574, t553079).",
       "limits": "Production HTML and live clicks confirm presence and landing identity. No rates, availability, checkout, review aggregates beyond the 19 November reading or attribution verified."
     }
+  },
+  "run_2026_11_19_0522": {
+    "scheduled_for": "2026-11-19T05:22:00.000Z",
+    "timezone": "Africa/Kampala",
+    "checked": 48,
+    "pass": 48,
+    "fail": 0,
+    "fixed": 0,
+    "added": 0,
+    "new_holds": 0,
+    "notes": "Scheduled 4-hour audit. Synced origin/main; local main == origin/main, no pending registry changes from other agents. Read this checkpoint, editorial and image progress files before editing. Standing job: verify Stay22 landings, then fix the biggest gap class. Designated verifier (fixed resolver, no roam=false) checked all 48 active entries server-side: 46 GetYourGuide wraps keep their exact t-product IDs (HTTP403 bodies, URL-only), 1 Agoda wrap lands on the exact /hotel/ property path (HTTP200) and 1 Booking.com wrap on /hotel/bw/maun-lodge.html (HTTP202, exact path). 0 searchresults.html or Hotel-Search landings at server level; results written to booking-audit/verify-results.json. Gap class work: resampled 5 held stays in a real browser via the current Stay22 resolver — mount-nelson-a-belmond-hotel landed on Cape Town searchresults.html (5,501 properties), hold retained; sossusvlei-lodge landed on Sesriem searchresults.html (17 properties), hold retained; paraa-safari-lodge landed on exact /hotel/ug/paraa-safari-lodge.html detail (7.5/46 reviews, Reserve, full facilities/house rules); amboseli-serena-safari-lodge landed on exact /hotel/ke/amboseli-serena-safari-lodge.html detail (8.9/130 reviews); chobe-safari-lodge landed on exact /hotel/bw/chobe-safari-lodge.en-gb.html detail (8.7/168 reviews). All three exact landings are single observations against a documented alternating detail/search history (chobe 5/5 exact on 18 Nov but 2/2 browser search this morning; paraa 1/5 exact on 18 Nov; amboseli-serena 0/2 exact on 18 Nov), so the wrapper remains probabilistic and no stay is reactivated this run — repeated consistent exact clicks are required before restoration. Registry unchanged: 48 active (46 GYG, 1 Agoda the-place-resort-tokeh, 1 Booking maun-lodge), 33 held, 10 unavailable. No namesake or search-page substitution; no rates, availability, checkout, review-aggregate or attribution claim; affiliate ID untouched. check:build-inputs not run (no registry change). Only this checkpoint is staged; editorial, image, dist and deploy archives untouched.",
+    "browser_verification": {
+      "checked_at": "2026-11-19T05:22:00Z",
+      "method": "Real-browser click-through of current Stay22 allez/booking wraps (no roam=false), new-tab inspection of final URL and page identity",
+      "mount-nelson-a-belmond-hotel": "Stay22 wrap of /hotel/za/belmond-mount-nelson.html opened Booking.com Cape Town searchresults.html (5,501 properties) — not exact detail; hold retained",
+      "sossusvlei-lodge": "Stay22 wrap of /hotel/na/sossusvlei-lodge.en-gb.html opened Booking.com Sesriem searchresults.html (17 properties) — not exact detail; hold retained",
+      "paraa-safari-lodge": "Stay22 wrap of /hotel/ug/paraa-safari-lodge.html opened exact property detail page: h1 Paraa Safari Lodge, Paraa Uganda, 46 reviews, 7.5 Very good, Reserve, full facilities/house rules sections",
+      "amboseli-serena-safari-lodge": "Stay22 wrap of /hotel/ke/amboseli-serena-safari-lodge.html opened exact property detail page: h1 Amboseli Serena Safari Lodge, Amboseli National Park, 130 reviews, 8.9 Fabulous, full facilities/house rules sections",
+      "chobe-safari-lodge": "Stay22 wrap of /hotel/bw/chobe-safari-lodge.en-gb.html opened exact property detail page: h1 The Chobe Safari Lodge, President Avenue Kasane, 168 reviews, 8.7 Fabulous, full facilities/house rules sections"
+    },
+    "content_commits": [],
+    "production_deploy": "no changes to deploy; no new or changed booking links were published",
+    "limits": "Stay22 wrapping is probabilistic and point-in-time; a single exact click does not establish a stable landing. No rates, availability, checkout, commission or attribution verified.",
+    "next_action": "Keep resampling the closest held stays (paraa-safari-lodge, amboseli-serena-safari-lodge, chobe-safari-lodge) until repeated live clicks consistently reach each exact full-detail property page; then restore from hold to active, run check:build-inputs, commit and push only the registry and checkpoint, and poll + click-verify production. Do not reactivate mount-nelson-a-belmond-hotel or sossusvlei-lodge without another exact-detail browser landing first."
   }
 }
