@@ -511,6 +511,20 @@
         "verification_2026-11-17": "Server-side wraps of the locale-free URL landed on the exact detail 8/14 and 7/10 times across two batches and on searchresults.html otherwise; the .en-gb variant landed on the exact detail only 1/7 times. No exact-detail source produced a stable wrapped landing.",
         "limits": "No rates, availability, review scores beyond the 17 November reading, checkout, commission or attribution verified."
       }
+    },
+    "steigenberger-hotel-el-tahrir-cairo": {
+      "url": "https://www.booking.com/hotel/eg/steigenberger-el-tahrir.en-gb.html",
+      "provider": "booking",
+      "title": "Steigenberger Hotel El Tahrir",
+      "checked_at": "2026-11-18",
+      "evidence": {
+        "source_url": "https://www.booking.com/hotel/eg/steigenberger-el-tahrir.en-gb.html",
+        "summary": "18 November 2026 (scheduled routine): browser search for 'Steigenberger Hotel El Tahrir Cairo' returned the exact property detail page at /hotel/eg/steigenberger-el-tahrir.en-gb.html (locale-free), identifying Steigenberger Hotel El Tahrir at Kasr El Nile, Cairo, Egypt (Tahrir Square). Direct detail content bot-walled; no OTA rating, review count, rates, availability or attribution claims made.",
+        "verification_2026-11-18": "Stay22 redirect chain lands on searchresults.html with dest_id=15195, dest_type=hotel; correct property appears in results but not exact detail page. Wrapper instability consistent with prior Cairo entries; hold retained.",
+        "limits": "No rates, availability, review scores beyond the 18 November reading, checkout, commission or attribution verified."
+      },
+      "status": "hold",
+      "hold_reason": "18 November 2026 audit: Stay22 wrap lands on Cairo searchresults.html; exact detail landing not stable. Hold retained per Ridge Royal standard."
     }
   },
   "activities": {

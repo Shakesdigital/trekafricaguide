@@ -1,8 +1,9 @@
 {
-  "updated_at": "2026-11-19T03:15:00.000Z",
+  "updated_at": "2026-11-19T08:13:00.000Z",
   "timezone": "Africa/Kampala",
   "next_scheduled_start": "2026-10-17T19:30:00+03:00",
   "cadence_hours": 3,
+  "last_run": "2026-11-19T08:13:00+03:00",
   "active_task": {
     "id": "accommodation-property-photos",
     "status": "backlog",
@@ -272,14 +273,14 @@
     "email_id": "1a143a69416cf3d1"
   },
   "rotation": {
-    "last_completed_category": "destinations",
-    "next_category": "accommodations",
-    "next_deliverable": "South Luangwa local destination published (slug: south-luangwa). Evidenced gap: Zambia country page (HTTP 200, 19 Nov 2026) frames South Luangwa as walking-safari heart but Destinations rail showed only Livingstone. Live South Luangwa attraction (HTTP 200) states 'Walking safaris are a major part of the park's reputation'; Mfuwe Lodge (HTTP 200) calls valley 'birthplace of the walking safari'; South Luangwa walking safari activity published to repo (commits 63d08c7/7b644e1) but pending live. Research: Zambia Tourism (walking safari birthplace, mobile camp-to-camp walks, nature walks with guide+armed ranger, Mfuwe airport, Chipata 123 km, Valley of the Leopard, Thornicroft's giraffe, 14 antelope species, hippo density ~50/km, seasons April–Oct/Nov–Mar) checked 19 Nov 2026; UK FCDO Zambia (passport 6 months, visa-free 90 days, KAZA UNIVISA $50/30 days, yellow fever if from risk country, road safety) checked 19 Nov 2026. Zero-image honest publish with six-subject photo backlog: Luangwa River with hippos, walking safari group with armed ranger, mobile camp setup, Thornicroft's giraffe, leopard in sausage tree, carmine bee-eater colony. Cross-links to Zambia country, South Luangwa attraction, Mfuwe Lodge, walking safari activity, Victoria Falls insight. Next category: accommodations."
+    "last_completed_category": "accommodations",
+    "next_category": "travel_insights",
+    "next_deliverable": "Steigenberger Hotel El Tahrir Cairo accommodation guide published (slug: steigenberger-hotel-el-tahrir-cairo). Evidenced gap: Cairo destination page (HTTP 200, 19 Nov 2026) explicitly frames the binary choice: 'a Giza-side base for a monument-focused visit, or a central-city base for a museum-and-neighbourhoods visit — our Mena House guide exists precisely to demonstrate the trade.' Only the Giza-side option (Marriott Mena House) was published. The central-city base counterpart is filled by Steigenberger Hotel El Tahrir at Tahrir Square, overlooking the Egyptian Museum. Research: Booking.com exact property detail (search-verified 18 Nov 2026: 295 rooms, 9.3/10 from 11,062 reviews, Tahrir Square, overlooks Egyptian Museum, minutes from Khan El Khalili); Cairo destination page (live HTTP 200, 19 Nov 2026) checked; Marriott Mena House guide (live HTTP 200) checked. Zero-image honest publish with six-subject exact-property photo backlog: exterior facade on Tahrir Square, lobby with Egyptian Museum view, Superior City View room, outdoor pool area, restaurant/dining venue, Egyptian Museum view from room/public area. Cross-links to Cairo destination, Egypt country, Cairo And Giza attraction, Marriott Mena House accommodation, Giza pyramids guided tour activity. Next category: travel_insights."
   },
   "current_deliverable": {
-    "category": "destinations",
-    "rotation": "accommodations after that",
-    "note": "South Luangwa local destination guide published to GitHub main. Evidenced gap: live Zambia country page (HTTP 200, 19 Nov 2026) explicitly frames South Luangwa as walking-safari heart but Destinations rail rendered only Livingstone. Live South Luangwa attraction (HTTP 200) states 'Walking safaris are a major part of the park's reputation'; Mfuwe Lodge (HTTP 200) calls valley 'birthplace of the walking safari'; South Luangwa walking safari activity published to repo (commits 63d08c7/7b644e1) but pending live verification. Research: Zambia Tourism official page (walking safari birthplace, mobile camp-to-camp walks, nature walks with guide+armed ranger, Mfuwe airport, Chipata 123 km, Valley of the Leopard, Thornicroft's giraffe, 14 antelope species, hippo density ~50/km, seasons April–Oct/Nov–Mar) checked 19 Nov 2026; UK FCDO Zambia (passport 6 months, visa-free 90 days, KAZA UNIVISA $50/30 days, yellow fever if from risk country, road safety) checked 19 Nov 2026. Zero-image honest publish with six-subject photo backlog: Luangwa River with hippos, walking safari group with armed ranger, mobile camp setup, Thornicroft's giraffe, leopard in sausage tree, carmine bee-eater colony. Cross-links to Zambia country, South Luangwa attraction, Mfuwe Lodge, walking safari activity, Victoria Falls insight. Build-input checks passed; local build pending; readability guard pending. CMS mirror imported at source commit; owner-side CMS check pending."
+    "category": "accommodations",
+    "rotation": "travel_insights after that",
+    "note": "Steigenberger Hotel El Tahrir Cairo accommodation guide published to GitHub main. Evidenced gap: Cairo destination page (HTTP 200, 19 Nov 2026) explicitly frames the binary choice: 'a Giza-side base for a monument-focused visit, or a central-city base for a museum-and-neighbourhoods visit — our Mena House guide exists precisely to demonstrate the trade.' Only the Giza-side option (Marriott Mena House) was published. The central-city base counterpart is filled by Steigenberger Hotel El Tahrir at Tahrir Square, overlooking the Egyptian Museum. Research: Booking.com exact property detail (search-verified 18 Nov 2026: 295 rooms, 9.3/10 from 11,062 reviews, Tahrir Square, overlooks Egyptian Museum, minutes from Khan El Khalili); Cairo destination page (live HTTP 200, 19 Nov 2026) checked; Marriott Mena House guide (live HTTP 200) checked. Zero-image honest publish with six-subject exact-property photo backlog: exterior facade on Tahrir Square, lobby with Egyptian Museum view, Superior City View room, outdoor pool area, restaurant/dining venue, Egyptian Museum view from room/public area. Cross-links to Cairo destination, Egypt country, Cairo And Giza attraction, Marriott Mena House accommodation, Giza pyramids guided tour activity. Build-input checks passed; local build pending; readability guard pending. CMS mirror imported at source commit; owner-side CMS check pending."
   },
   "previous_deliverable_correction": {
     "id": "marrakech-medina-street-food-walk",
@@ -288,7 +289,7 @@
     "email_id": "1a148cdf8dbabb76",
     "note": "Live page and booking relationship were confirmed and the owner report was already sent. Corrected the stale pending-owner-report status without resending the email."
   },
-  "next_scheduled_run": "2026-11-19T09:13:00+03:00",
+  "next_scheduled_run": "2026-11-19T11:13:00+03:00",
   "analytics_installation": {
     "measurement_id": "G-ZWBZRQPBK7",
     "commit": "4f76457",

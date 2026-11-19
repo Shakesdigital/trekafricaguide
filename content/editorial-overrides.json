@@ -3803,6 +3803,55 @@
         "/images/editorial/president-hotel-bantry-bay/sea-point-view.jpg",
         "/images/editorial/president-hotel-bantry-bay/sea-point-aerial.jpg"
       ]
+    },
+    {
+      "region_id": 17,
+      "country_id": 43,
+      "attraction_id": 51,
+      "slug": "steigenberger-hotel-el-tahrir-cairo",
+      "name": "Steigenberger Hotel El Tahrir Cairo",
+      "property_type": "Hotel",
+      "location_name": "Kasr El Nile, Cairo, Egypt (Tahrir Square)",
+      "listing_summary": "A landmark 5-star hotel at Tahrir Square overlooking the Egyptian Museum, the definitive central-city base for a museum-and-neighbourhoods visit to Cairo.",
+      "detail_intro": "Steigenberger Hotel El Tahrir occupies a landmark position at Tahrir Square in central Cairo, directly overlooking the Egyptian Museum. This is the central-city counterpart to the Giza-side Marriott Mena House that the Cairo destination guide frames as the binary choice for a first Egypt stay: a Giza-side base for a monument-focused visit, or a central-city base for a museum-and-neighbourhoods visit. The Steigenberger delivers the latter — minutes from Khan El Khalili Bazaar, walking distance to Downtown Cairo around Talaat Harb Street, Old Cairo's Coptic quarter, and Islamic Cairo's market streets.\n\nThe property offers 295 guest rooms and suites operated by Steigenberger Hotels & Resorts (German heritage brand, now part of Jaz Hotel Group). Room categories include Superior City View, Superior Pool View, Deluxe Queen, Deluxe Side Nile View, Junior Suite, and Capital Suite. Facilities include an outdoor pool, fitness centre, restaurant, room service, spa, and parking. The hotel's location makes it a practical anchor for the Egyptian Museum, the new Grand Egyptian Museum via cross-city transfer, and the dense heritage districts of central Cairo that the destination guide recommends as a separate day from the Giza plateau.\n\nA stay here is a grouping decision: choose the Steigenberger when your itinerary centres on museums, city neighbourhoods, and the Egyptian Museum's Tahrir Square facade, accepting the cross-city traffic allowance for any Giza plateau day. The Cairo destination guide is explicit that hotel proximity to the plateau does not mean proximity to downtown, so traffic should be given a real daily allowance rather than estimated from the map.",
+      "practical_info": "Arrange airport transfer and any cross-city Giza transfer separately; the hotel's location at Tahrir Square is a central-city anchor, not a Giza-side one. Confirm the room category and outlook (City View, Pool View, Side Nile View) when requesting a quote, as the view materially affects the experience. The official Steigenberger/Jaz Hotel Group page and the exact Booking.com detail page list room equipment including air conditioning, safe, television, and shower bathroom; specify your selected category and occupancy when booking.\n\nAsk about current meal inclusions, spa treatments, and fitness centre access; the existence of a facility page does not mean everything is complimentary. For visits to the Egyptian Museum, confirm current opening arrangements and the separate ticketing for the Grand Egyptian Museum (GEM), the National Museum of Egyptian Civilization (NMEC), and the Egyptian Museum at Tahrir Square — museum tickets are not bundled with the stay. Keep the onward-day rule from the Egypt country guide: do not place a major ticketed visit immediately before a flight or a Nile-valley transfer.\n\nEntry requirements: passport valid for 6 months, e-visa (3 months, apply via portal), or visa on arrival USD 30 cash (small notes). Cairo digital VOA USD 36 card from August 2026. Yellow fever certificate required if arriving from a risk country. Check current official Egyptian sources and UK FCDO Egypt travel advice before departure. No rate, availability, live OTA price, or Booking.com review score is asserted here; the exact Booking.com property detail was search-verified 18 November 2026 (9.3/10 from 11,062 reviews, noted for location particularly good for visiting downtown areas and walking to the Egyptian Museum).",
+      "amenities": [
+        "Outdoor pool",
+        "Fitness centre",
+        "Restaurant",
+        "Room service",
+        "Spa",
+        "Parking"
+      ],
+      "rating": null,
+      "review_count": 0,
+      "price_label": "Upscale",
+      "booking_url": "https://www.booking.com/hotel/eg/steigenberger-el-tahrir.en-gb.html",
+      "source_url": "https://www.booking.com/hotel/eg/steigenberger-el-tahrir.en-gb.html",
+      "research_sources": [
+        {
+          "label": "Booking.com: Steigenberger Hotel El Tahrir exact property detail (search-verified 18 Nov 2026)",
+          "url": "https://www.booking.com/hotel/eg/steigenberger-el-tahrir.en-gb.html"
+        },
+        {
+          "label": "Trek Africa Guide: Cairo destination page (live HTTP 200, 18 Nov 2026) — frames central-city vs Giza-side base choice",
+          "url": "https://trekafricaguide.com/countries/egypt/cairo/"
+        },
+        {
+          "label": "Trek Africa Guide: Egypt country page (live HTTP 200, 18 Nov 2026) — Nearby stays shows only Marriott Mena House",
+          "url": "https://trekafricaguide.com/countries/egypt/"
+        },
+        {
+          "label": "Trek Africa Guide: Marriott Mena House, Cairo accommodation guide (live) — Giza-side counterpart",
+          "url": "https://trekafricaguide.com/accommodations/marriott-mena-house-cairo/"
+        }
+      ],
+      "traveler_feedback": "Booking.com 9.3/10 from 11,062 reviews (checked 18 Nov 2026). Representative comments cite 'great location, friendly staff, wonderful breakfast', 'well situated, good food, friendly staff', 'location particularly good for visiting downtown areas and walking to the old Egyptian museum', 'well located hotel right in downtown Cairo', 'top notch security'. These are subjective individual accounts, not an overall rating or a service guarantee.",
+      "last_researched": "2026-11-18",
+      "status": "published",
+      "hero_image_url": "",
+      "hero_image_alt": "No licensed property photograph available",
+      "gallery": []
     }
   ],
   "activities": [
