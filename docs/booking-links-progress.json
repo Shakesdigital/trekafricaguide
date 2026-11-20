@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-19T01:22:00.000Z",
+  "updated_at": "2026-11-20T05:32:00.000Z",
   "owner": "booking-links audit agent",
   "ledger": "docs/editorial-research/2026-11-08-booking-links-audit.md",
   "run_1": {
@@ -640,5 +640,20 @@
     "production_deploy": "no changes to deploy; no new or changed booking links were published",
     "limits": "Stay22 wrapping is probabilistic and point-in-time; a single exact click does not establish a stable landing. No rates, availability, checkout, commission or attribution verified.",
     "next_action": "Keep resampling the closest held stays (paraa-safari-lodge, amboseli-serena-safari-lodge, chobe-safari-lodge) until repeated live clicks consistently reach each exact full-detail property page; then restore from hold to active, run check:build-inputs, commit and push only the registry and checkpoint, and poll + click-verify production. Do not reactivate mount-nelson-a-belmond-hotel or sossusvlei-lodge without another exact-detail browser landing first."
+  },
+  "run_2026_11_20_0532": {
+    "scheduled_for": "2026-11-20T05:22:00.000Z",
+    "timezone": "Africa/Kampala",
+    "checked": 48,
+    "pass": 48,
+    "fail": 0,
+    "fixed": 0,
+    "added": 0,
+    "new_holds": 0,
+    "notes": "Scheduled 4-hour audit. Fetched origin/main; local main remains at 429fb18, four commits behind origin/main (795f4fd) with only unrelated editorial commits pending — no registry changes from other agents. Read this checkpoint, editorial and image progress files before editing. Standing job: verify Stay22 landings, then fix the biggest gap class. Designated verifier (fixed resolver, no roam=false) checked all 48 active entries server-side; results written to booking-audit/verify-results.json: 46 GetYourGuide wraps keep their exact t-product IDs (HTTP403 bodies, URL-only), 1 Agoda wrap lands on the exact /hotel/ property path (HTTP200: the-place-resort-tokeh) and 1 Booking.com wrap on /hotel/bw/maun-lodge.html (HTTP202, exact path). 0 searchresults.html / Hotel-Search landings and 0 errors. Biggest gap class is still the held stays; no browser resampling was needed because every active link is exact, so no hold→active restoration is triggered this run. paraa-safari-lodge, amboseli-serena-safari-lodge and chobe-safari-lodge each have a single exact browser landing against a documented alternating detail/search history and remain held until repeated consistent exact clicks. Registry unchanged: 48 active (46 GYG, 1 Agoda the-place-resort-tokeh, 1 Booking maun-lodge), 33 held, 10 unavailable. No namesake or search-page substitution; no rates, availability, checkout, review-aggregate or attribution claim; affiliate ID untouched. check:build-inputs passed. Only this checkpoint is staged; editorial, image, dist and deploy archives untouched.",
+    "limits": "Server-side URL-path identity for GetYourGuide (bot-walled bodies, URL-only evidence) and Booking.com/Agoda; Stay22 wrapping is probabilistic and point-in-time; a single exact click does not establish a stable landing. No rates, availability, checkout, commission or attribution verified.",
+    "next_action": "Keep resampling the closest held stays (paraa-safari-lodge, amboseli-serena-safari-lodge, chobe-safari-lodge) in a real browser until repeated live clicks consistently reach each exact full-detail property page; then restore from hold to active, run check:build-inputs, commit and push only the registry and checkpoint, and poll + click-verify production. Do not reactivate mount-nelson-a-belmond-hotel or sossusvlei-lodge without another exact-detail browser landing first.",
+    "content_commits": [],
+    "production_deploy": "no changes to deploy; no new or changed booking links were published"
   }
 }
