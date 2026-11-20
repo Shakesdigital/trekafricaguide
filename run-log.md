@@ -1,4 +1,14 @@
 
+## 2026-11-20 18:45 UTC scheduled run — Activities: Djanet and Tassili n'Ajjer rock-art expedition
+- Gap: live /attractions/djanet-and-tassili/ (HTTP 200, 20 Nov 2026) describes Tassili n'Ajjer UNESCO rock-art landscape and lists a GetYourGuide booking option (Cozy Vibes Travel Algeria, 4-day desert adventure) but renders zero Related activities. The attraction page frames the region as an expedition-style journey requiring specialist preparation.
+- Research: UNESCO World Heritage (Tassili n'Ajjer criteria), UK FCDO Algeria advisory (Saharan border zones), Algeria e-visa portal, GetYourGuide exact product t1110780 (checked 20 Nov 2026), live Trek attraction and Terres Touareg accommodation pages.
+- Gates: check-build-inputs passed; local build validation passed.
+- Publish: content commit b5274c1 pushed to origin/main.
+- Live verification: PENDING — Netlify deploy not processing commits since fe495dd (16 Nov 2026). Detail page will return 404 until Netlify unblocked.
+- Next category: destinations.
+
+---
+
 ## 2026-11-19 01:13 UTC scheduled run — Activities: South Luangwa walking safari
 - Gap: live /attractions/south-luangwa/ (HTTP 200, 19 Nov 2026) explicitly states "Walking safaris are a major part of the park's reputation" but activities archive and attraction page rendered zero Related activities. The activity content existed in repo (commit 54891d8, merged via bdd34b2) but Netlify never deployed the detail page.
 - Research: Zambia Tourism official page (walking safari originated in South Luangwa, mobile camp-to-camp walks, nature walks with qualified guide and armed ranger, Mfuwe airport hub, Chipata road 123 km, Valley of the Leopard, April–Oct dry season, Nov–Mar wet season) checked 9 Nov 2026; live South Luangwa attraction page checked 19 Nov 2026.
