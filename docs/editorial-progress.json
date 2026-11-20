@@ -352,10 +352,11 @@
       "id": "avani-victoria-falls-resort",
       "category": "accommodations",
       "status": "complete",
-      "content_commit": "PENDING",
+      "content_commit": "3b15321",
       "live_url": "https://trekafricaguide.com/accommodations/avani-victoria-falls-resort/",
       "live_http_status": "PENDING",
-      "note": "Avani Victoria Falls Resort accommodation guide committed to GitHub main. Netlify deployment pending verification."
+      "note": "Avani Victoria Falls Resort accommodation guide committed to GitHub main. Netlify deployment pending verification.",
+      "push_result": "success"
     },
     {
       "id": "giza-pyramids-guided-tour-refresh",
@@ -535,8 +536,8 @@
     "inventory_note": "Rolling inventory maintained 20 November 2026: Livingstone destination had river-oriented luxury (Royal Livingstone) and town budget (Jollyboys) but no mid-to-upscale river-oriented guide. Victoria Falls insight explicitly listed Avani as verified Booking.com property — now resolved. Other evidenced gaps: David Livingstone Safari Lodge & Spa (also listed in Victoria Falls insight).",
     "next_category": "travel_insights",
     "next_action": "Rotate to travel insights next run. Open items: six-photo backlogs (Avani, Royal Livingstone, Serengeti Serena, Amboseli Serena, Ouidah-Ganvie subjects, Lalibela insight subjects), President Hotel Stay22-wrap recheck, owner Gmail sign-in, Netlify deployment blocker affecting commits after fe495dd (Steigenberger, Sahara Dunes, Djanet, South Luangwa activity, Avani).",
-    "commit": "PENDING",
-    "push": "PENDING",
+    "commit": "3b15321",
+    "push": "success",
     "live_receipt": "PENDING",
     "cms": "PENDING",
     "email": "PENDING"
