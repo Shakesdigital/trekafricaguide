@@ -525,6 +525,19 @@
       },
       "status": "hold",
       "hold_reason": "18 November 2026 audit: Stay22 wrap lands on Cairo searchresults.html; exact detail landing not stable. Hold retained per Ridge Royal standard."
+    },
+    "avani-victoria-falls-resort": {
+      "url": "https://www.booking.com/hotel/zm/zambezi-sun.en-gb.html",
+      "provider": "booking",
+      "title": "Avani Victoria Falls Resort",
+      "checked_at": "2026-11-20",
+      "status": "hold",
+      "hold_reason": "Booking.com Zambezi Sun (Avani Victoria Falls Resort) property detail URL verified via Victoria Falls insight cross-reference; Stay22 wrapper stability not yet tested. Hold retained pending exact-detail landing verification.",
+      "evidence": {
+        "source_url": "https://www.booking.com/hotel/zm/zambezi-sun.en-gb.html",
+        "summary": "Victoria Falls first-visit insight (live HTTP 200, 22 Oct 2026) references this property as a verified Booking.com option in the Zambian falls area via Stay22-wrapped Zambezi Sun URL. Direct OTA fetch automation-blocked; no OTA rating, review count, rates, or availability claims made.",
+        "verification_2026-11-20": "Cross-referenced with live Victoria Falls insight and Livingstone destination page; Zambezi Sun is the former name of Avani Victoria Falls Resort (rebranded 2019). Property identity confirmed via Minor Hotels official site."
+      }
     }
   },
   "activities": {

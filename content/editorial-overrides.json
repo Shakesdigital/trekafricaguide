@@ -3854,8 +3854,62 @@
       "gallery": []
     }
   ],
-  "activities": [
+    ,
     {
+      "region_id": 16,
+      "country_id": 55,
+      "attraction_id": 71,
+      "slug": "avani-victoria-falls-resort",
+      "name": "Avani Victoria Falls Resort",
+      "property_type": "Resort",
+      "location_name": "Mosi-oa-Tunya Road, Livingstone, Zambia",
+      "listing_summary": "A river-oriented resort on Mosi-oa-Tunya Road within Mosi-oa-Tunya National Park, close to the Zambia-side Victoria Falls entrance, with a range of rooms, multiple dining options, and a pool.",
+      "detail_intro": "Avani Victoria Falls Resort (formerly Zambezi Sun, rebranded in 2019) sits on Mosi-oa-Tunya Road within Mosi-oa-Tunya National Park, close to the Zambia-side Victoria Falls entrance. The operator describes a resort setting with wildlife such as zebra and antelope visible on the grounds, and rooms spread across several categories with garden or river views. This is a river-oriented stay distinct from a Livingstone town-centre base, suited to travellers who want the falls and the Zambezi River at their doorstep.
+
+Room choice matters: the operator's room range includes Standard rooms, Superior rooms, Junior Suites, and Suites, with varying outlooks and inclusions. Guests should choose the actual category rather than assuming every room shares the same view. Avani's facilities include an outdoor pool, a spa, a fitness centre, and several dining venues. The property is part of the Avani Hotels & Resorts brand (Minor Hotels).
+
+The resort's location within the national park means park entry fees apply and should be confirmed with the operator. Transfers from Harry Mwaanga Nkumbula International Airport (LVI) and Victoria Falls border crossings should be arranged in advance. Avani Victoria Falls Resort is listed in our Victoria Falls first-visit insight as a verified Booking.com property in the Zambian falls area.",
+      "practical_info": "Avani Victoria Falls Resort is on Mosi-oa-Tunya Road within Mosi-oa-Tunya National Park, approximately 5 km from the Zambia-side Victoria Falls entrance and 12 km from Harry Mwaanga Nkumbula International Airport (LVI). The operator's room categories include Standard, Superior, Junior Suite, and Suite, with varying outlooks (garden or river) and inclusions — confirm the exact room category for your dates. The resort offers multiple dining venues, an outdoor pool, a spa, and a fitness centre. Breakfast is typically included; half-board and full-board options may be available — confirm meal plan details in writing. Park entry fees for Mosi-oa-Tunya National Park are not included in the room rate and should be confirmed with the operator. Airport transfers and border-crossing transfers from Victoria Falls (Zimbabwe) should be arranged in advance; the resort does not provide complimentary transfers. Check-in is 14:00, check-out 11:00. No live OTA rating, review count, rate or availability is published here; confirm current terms directly with the provider.",
+      "amenities": [
+        "Outdoor swimming pool",
+        "Spa and wellness centre",
+        "Fitness centre",
+        "Multiple dining venues",
+        "Garden and river-view rooms",
+        "Wildlife on grounds (zebra, antelope)",
+        "Free parking",
+        "Airport transfer (arranged, not complimentary)"
+      ],
+      "price_label": "Upscale",
+      "booking_url": "https://www.booking.com/hotel/zm/zambezi-sun.en-gb.html",
+      "source_url": "https://www.avanihotels.com/en/victoria-falls/avani-victoria-falls-resort",
+      "research_sources": [
+        {
+          "label": "Trek Africa Guide: Victoria Falls first-visit insight (live HTTP 200, 22 Oct 2026) — lists Avani Victoria Falls Resort as verified Booking.com property in Zambian falls area",
+          "url": "https://trekafricaguide.com/travel-insights/plan-your-victoria-falls-visit/"
+        },
+        {
+          "label": "Minor Hotels / Avani official site: Avani Victoria Falls Resort",
+          "url": "https://www.avanihotels.com/en/victoria-falls/avani-victoria-falls-resort"
+        },
+        {
+          "label": "Booking.com: Zambezi Sun (Avani Victoria Falls Resort) property detail",
+          "url": "https://www.booking.com/hotel/zm/zambezi-sun.en-gb.html"
+        },
+        {
+          "label": "Trek Africa Guide: Livingstone destination page (live HTTP 200) — frames town vs river-oriented stay choice",
+          "url": "https://trekafricaguide.com/countries/zambia/livingstone/"
+        }
+      ],
+      "traveler_feedback": "The Victoria Falls first-visit insight references this property as a verified Booking.com option in the Zambian falls area. No independent dated traveler reviews were verified for this guide; Booking.com reviews and live availability could not be independently checked.",
+      "last_researched": "2026-11-20",
+      "status": "published",
+      "hero_image_url": "",
+      "hero_image_alt": "No licensed property photograph available",
+      "gallery": []
+    }
+  ],
+  "activities": [ {
       "slug": "okavango-mokoro-safari",
       "hero_image_url": "/images/editorial/okavango-mokoro-safari/guided-canoe.webp",
       "hero_image_alt": "Two travelers seated in a mokoro with a guide poling through a reed-lined channel",
