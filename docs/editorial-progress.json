@@ -530,16 +530,16 @@
     "commit": "224da9d (content) + receipt commit"
   },
   "latest_run_checkpoint": {
-    "run": "scheduled-3h-2026-11-20T09:13Z",
-    "category": "accommodations",
-    "deliverable": "accommodation_avani_victoria_falls_resort",
-    "inventory_note": "Rolling inventory maintained 20 November 2026: Livingstone destination had river-oriented luxury (Royal Livingstone) and town budget (Jollyboys) but no mid-to-upscale river-oriented guide. Victoria Falls insight explicitly listed Avani as verified Booking.com property — now resolved. Other evidenced gaps: David Livingstone Safari Lodge & Spa (also listed in Victoria Falls insight).",
-    "next_category": "travel_insights",
-    "next_action": "Rotate to travel insights next run. Open items: six-photo backlogs (Avani, Royal Livingstone, Serengeti Serena, Amboseli Serena, Ouidah-Ganvie subjects, Lalibela insight subjects), President Hotel Stay22-wrap recheck, owner Gmail sign-in, Netlify deployment blocker affecting commits after fe495dd (Steigenberger, Sahara Dunes, Djanet, South Luangwa activity, Avani).",
-    "commit": "3b15321",
-    "push": "success",
-    "live_receipt": "PENDING",
-    "cms": "PENDING",
+    "run": "scheduled-3h-2026-11-20T12:13Z",
+    "category": "travel_insights",
+    "deliverable": "travel_insight_plan-first-south-luangwa-walking-safari",
+    "inventory_note": "Rolling inventory maintained 20 November 2026: South Luangwa attraction page (HTTP 200) leads with 'Guided walking safaris' and lists Mfuwe Lodge as primary stay; walking safari activity published (commit a09e697) but CMS-mirror blocked on production; zero travel insights exist for South Luangwa or Zambia beyond the Victoria Falls cross-border insight. Research sources: Zambia Tourism Board, UK FCDO, Zambia e-visa portal, Proflight Zambia, Bushcamp Company, on-site Trek Africa Guide cluster.",
+    "next_category": "activities",
+    "next_action": "Rotate to activities next run. Open items: six-photo backlogs (Avani, Royal Livingstone, Serengeti Serena, Amboseli Serena, Ouidah-Ganvie subjects, Lalibela insight subjects, South Luangwa walking subjects), President Hotel Stay22-wrap recheck, owner Gmail sign-in, Netlify deployment blocker affecting commits after fe495dd (Steigenberger, Sahara Dunes, Djanet, South Luangwa activity, Avani), content/editorial-overrides.json syntax errors blocking build checks.",
+    "commit": "PENDING",
+    "push": "PENDING",
+    "live_receipt": "BLOCKED",
+    "cms": "BLOCKED",
     "email": "PENDING"
   },
   "travel_insight_lalibela_do_not_travel": {
