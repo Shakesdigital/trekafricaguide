@@ -252,7 +252,7 @@
     "After quota interruption resume at next eligible scheduled run; do not assume immediate credit-reset wakeup.",
     "No routine tests/builds or repeated broad audits."
   ],
-  "next_task_selection": "Rotate to accommodations next run; South Luangwa local destination published; South Luangwa activity live verification still pending Netlify rebuild; owner-email send still blocked on Gmail sign-in.",
+  "next_task_selection": "Rotate to destinations next run. Tokeh coastal excursion activity committed to Git; Netlify deployment blocker persists. Open items: six-photo backlogs, President Hotel Stay22-wrap recheck, owner Gmail sign-in.",
   "task_magnitude": "One complete full guide plus booking and listing cards, or one full property photo collection; do not schedule isolated paragraphs/links.",
   "country_destinations_feature": {
     "status": "complete",
@@ -272,14 +272,14 @@
     "email_id": "1a143a69416cf3d1"
   },
   "rotation": {
-    "last_completed_category": "destinations",
-    "next_category": "travel_insights",
+    "last_completed_category": "activities",
+    "next_category": "destinations",
     "next_deliverable": "Avani Victoria Falls Resort accommodation guide published (slug: avani-victoria-falls-resort). Evidenced gap: Victoria Falls first-visit insight (live HTTP 200, 22 Oct 2026) explicitly lists Avani Victoria Falls Resort as a verified Booking.com property in the Zambian falls area, but no accommodation guide existed. The Livingstone destination page frames the choice: 'Choose between a town base and a river-oriented stay' but only Jollyboys Backpackers (town budget) and Royal Livingstone Hotel (river luxury) had guides. Avani fills the mid-to-upscale river-oriented gap. Research: Victoria Falls insight (Zambezi Sun Stay22 URL), Livingstone destination (town vs river-oriented framing), Minor Hotels official site (rebrand from Zambezi Sun 2019), Booking.com Zambezi Sun detail. Zero-image honest publish with six-subject exact-property photo backlog. Cross-links to Livingstone destination, Victoria Falls attraction, Victoria Falls insight, Royal Livingstone Hotel, Jollyboys Backpackers. Next category: travel_insights."
   },
   "current_deliverable": {
-    "category": "accommodations",
-    "rotation": "travel_insights after that",
-    "note": "Avani Victoria Falls Resort accommodation guide published to GitHub main. Evidenced gap: Victoria Falls first-visit insight (live HTTP 200, 22 Oct 2026) explicitly lists Avani Victoria Falls Resort as a verified Booking.com property in the Zambian falls area, but no accommodation guide existed. The Livingstone destination page frames the choice: 'Choose between a town base and a river-oriented stay' but only Jollyboys Backpackers (town budget) and Royal Livingstone Hotel (river luxury) had guides. Avani fills the mid-to-upscale river-oriented gap. Research: Victoria Falls insight (Zambezi Sun Stay22 URL), Livingstone destination (town vs river-oriented framing), Minor Hotels official site (rebrand from Zambezi Sun 2019), Booking.com Zambezi Sun detail. Zero-image honest publish with six-subject exact-property photo backlog: resort exterior from Mosi-oa-Tunya Road with wildlife on grounds, river-view room with Zambezi outlook, garden-view room interior, outdoor pool area with national park backdrop, spa/wellness centre interior, dining venue interior. Cross-links to Livingstone destination, Victoria Falls attraction, Victoria Falls insight, Royal Livingstone Hotel, Jollyboys Backpackers. Build-input checks passed; local build pending; readability guard pending. CMS mirror imported at source commit; owner-side CMS check pending."
+    "category": "activities",
+    "rotation": "destinations after that",
+    "note": "Tokeh and River Number Two coastal excursion activity guide committed to GitHub main (d85a2a3). Evidenced gap: live Tokeh attraction describes locally arranged outings but has no Related activities; zero Sierra Leone activities in archive. Research: Sierra Leone Ministry of Tourism, National Tourist Board, UK FCDO, live Trek cluster. No verified OTA product; honest no-booking-link state. Cross-links to Tokeh attraction, Tokeh destination, The Place Resort, Hotel Barmoi, Sierra Leone insight. Zero-image honest publish with six-subject photo backlog. Netlify deployment blocked after fe495dd — live publication pending Netlify unblock."
   },
   "previous_deliverable_correction": {
     "id": "marrakech-medina-street-food-walk",
@@ -530,17 +530,17 @@
     "commit": "224da9d (content) + receipt commit"
   },
   "latest_run_checkpoint": {
-    "run": "scheduled-3h-2026-11-20T12:13Z",
-    "category": "travel_insights",
-    "deliverable": "travel_insight_plan-first-south-luangwa-walking-safari",
-    "inventory_note": "Rolling inventory maintained 20 November 2026: South Luangwa attraction page (HTTP 200) leads with 'Guided walking safaris' and lists Mfuwe Lodge as primary stay; walking safari activity published (commit a09e697) but CMS-mirror blocked on production; zero travel insights exist for South Luangwa or Zambia beyond the Victoria Falls cross-border insight. Research sources: Zambia Tourism Board, UK FCDO, Zambia e-visa portal, Proflight Zambia, Bushcamp Company, on-site Trek Africa Guide cluster.",
-    "next_category": "activities",
-    "next_action": "Rotate to activities next run. Open items: six-photo backlogs (Avani, Royal Livingstone, Serengeti Serena, Amboseli Serena, Ouidah-Ganvie subjects, Lalibela insight subjects, South Luangwa walking subjects), President Hotel Stay22-wrap recheck, owner Gmail sign-in, Netlify deployment blocker affecting commits after fe495dd (Steigenberger, Sahara Dunes, Djanet, South Luangwa activity, Avani), content/editorial-overrides.json syntax errors blocking build checks.",
-    "commit": "PENDING",
-    "push": "PENDING",
-    "live_receipt": "BLOCKED",
+    "run": "scheduled-3h-2026-11-21T03:13Z",
+    "category": "activities",
+    "deliverable": "activity_tokeh-river-no2-coastal-excursion",
+    "inventory_note": "Rolling inventory maintained 21 November 2026: Tokeh and River Number Two attraction (HTTP 200) describes locally arranged coastal outings with tide/weather awareness but renders no Related activities. Activities archive holds zero Sierra Leone activities. Published cluster includes Tokeh destination, Tokeh attraction, The Place Resort, Hotel Barmoi, and Sierra Leone first-visit insight.",
+    "next_category": "destinations",
+    "next_action": "Rotate to destinations next run. Open items: six-photo backlogs (Avani, Royal Livingstone, Serengeti Serena, Amboseli Serena, Ouidah-Ganvie subjects, Lalibela insight subjects, South Luangwa walking subjects, Tokeh coastal subjects), President Hotel Stay22-wrap recheck, owner Gmail sign-in, Netlify deployment blocker affecting commits after fe495dd (Steigenberger, Sahara Dunes, Djanet, South Luangwa activity, Avani, Tokeh coastal excursion), content/editorial-overrides.json syntax errors resolved.",
+    "commit": "d85a2a3",
+    "push": "success",
+    "live_receipt": "BLOCKED (Netlify deployment blocked after fe495dd)",
     "cms": "BLOCKED",
-    "email": "PENDING"
+    "email": "PENDING (owner Gmail signed out)"
   },
   "travel_insight_lalibela_do_not_travel": {
     "id": "decide-lalibela-under-do-not-travel-advice",
