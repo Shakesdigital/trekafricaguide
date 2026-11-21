@@ -272,9 +272,10 @@
     "email_id": "1a143a69416cf3d1"
   },
   "rotation": {
-    "last_completed_category": "destinations",
-    "next_category": "travel_insights",
-    "next_deliverable": "Avani Victoria Falls Resort accommodation guide restored (slug: avani-victoria-falls-resort). Evidenced gap: live Victoria Falls first-visit insight (HTTP 200, 22 Oct 2026) explicitly lists Avani Victoria Falls Resort as a verified Booking.com property in the Zambian falls area, but no accommodation guide existed on the live site (commit 3b15321 was lost in rebase after Netlify blocker). The Livingstone destination page frames the choice between a town base and a river-oriented stay, with only Jollyboys Backpackers (town budget) and Royal Livingstone Hotel (river luxury) having guides. Avani fills the mid-to-upscale river-oriented gap. Research: Victoria Falls insight (Zambezi Sun Stay22 URL), Livingstone destination, Minor Hotels official site (rebrand from Zambezi Sun 2019), Booking.com Zambezi Sun detail. Zero-image honest publish with six-subject exact-property photo backlog. Cross-links to Livingstone destination, Victoria Falls attraction, Victoria Falls insight, Royal Livingstone Hotel, Jollyboys Backpackers. Next category: travel_insights."
+    "last_completed_category": "travel_insights",
+    "next_category": "activities",
+    "next_deliverable": "Activity candidate: South Luangwa walking safari CMS mirror unblock (activity exists in repo but returns 404 on production due to editorial_documents mirror), or new activity for published attraction with empty Related activities rail.",
+    "note": "Netlify deployment blocker persists post-fe495dd. Git commits ship content; live publication pending Netlify unblock."
   },
   "current_deliverable": {
     "category": "accommodations",
@@ -566,14 +567,14 @@
     "commit": "224da9d (content) + receipt commit"
   },
   "latest_run_checkpoint": {
-    "run": "scheduled-3h-2026-11-21T09:13Z",
-    "category": "accommodations",
-    "deliverable": "accommodation_avani_victoria_falls_resort",
-    "inventory_note": "Restored Avani Victoria Falls Resort accommodation guide (commit 3b15321 lost in rebase). Live Victoria Falls insight lists Avani as verified Booking.com property; Livingstone destination frames town vs river-oriented stay with only Jollyboys and Royal Livingstone having guides. Avani fills mid-to-upscale river-oriented gap.",
-    "next_category": "travel_insights",
-    "next_action": "Rotate to travel insights next run. Open items: six-photo backlogs (Amboseli Serena, Serengeti Serena, Avani Victoria Falls, Ouidah-Ganvie subjects, Lalibela insight subjects), President Hotel Stay22-wrap recheck, owner Gmail sign-in, Netlify deployment blocker affecting commits after fe495dd.",
-    "commit": "44291bf",
-    "push": "success",
+    "run": "scheduled-3h-2026-11-21T21:13Z",
+    "category": "travel_insights",
+    "deliverable": "travel_insight_plan_first_algeria_visit_djanet_tassili",
+    "inventory_note": "Created new Algeria first-visit travel insight filling evidenced gap: Algeria country page frames expedition-style planning decision with zero travel insights. Live Djanet/Tassili attraction and Terres Touareg accommodation provide cluster. Zero-image honest publish with six-subject photo backlog. Netlify deployment blocked after fe495dd.",
+    "next_category": "activities",
+    "next_action": "Rotate to activities next run. Open items: six-photo backlogs (Amboseli Serena, Serengeti Serena, Avani Victoria Falls, Ouidah-Ganvie subjects, Lalibela insight subjects, Algeria insight subjects), President Hotel Stay22-wrap recheck, owner Gmail sign-in, Netlify deployment blocker affecting commits after fe495dd.",
+    "commit": "PENDING_COMMIT",
+    "push": "pending",
     "live_receipt": "BLOCKED (Netlify deployment blocked after fe495dd)",
     "cms": "BLOCKED",
     "email": "PENDING (owner Gmail signed out)"
@@ -3060,6 +3061,45 @@
         "detail": "Not yet live — Netlify deployment blocked after fe495dd (16 Nov 2026)",
         "destination": "Livingstone destination Where-to-stay rail should show Avani after Netlify unblocks",
         "cards": "Victoria Falls attraction, Victoria Falls insight, Royal Livingstone Hotel, Jollyboys Backpackers cross-links ready in repo"
+      }
+    }
+  },
+  "travel_insight_plan_first_algeria_visit_djanet_tassili": {
+    "id": "plan-first-algeria-visit-djanet-tassili",
+    "category": "travel_insights",
+    "started": "2026-11-21",
+    "latest_run_note": "Scheduled 3h routine run 2026-11-21T21:13Z (Africa/Kampala); executed on schedule.",
+    "selection_evidence": "Live Algeria country page (HTTP 200, 21 Nov 2026) explicitly frames a planning decision: 'choose the style of expedition before choosing its length', 'a vehicle-supported route, a walking itinerary and a town-based stay are not equivalent products'. Live Djanet and Tassili attraction (HTTP 200) describes 'saharan expedition route of rock art, desert geology, and extreme remoteness' requiring 'specialist local knowledge'. Live Terres Touareg Guest House (HTTP 200) provides Djanet base. Travel insights archive (HTTP 200, 21 Nov 2026): zero Algeria stories among 23 published insights.",
+    "scope": "New travel insight: plan-first-algeria-visit-djanet-tassili (Practical travel, Northern Africa, Algeria) — expedition style choice (vehicle-supported vs walking vs town-based day trips), advisory reality (FCDO/Smartraveller do-not-travel for Illizi/Djanet), entry/visa/health paperwork (no e-visa, embassy application, yellow fever, currency declaration), Djanet as gateway (Air Algérie 2-3 weekly flights, buffer days), permit and guide rule (ONGEAP permit, mandatory authorised guide, no independent access), seasonality (Oct-Apr window, Harmattan wind, Ramadan), rock art etiquette (no touching, photography rules, authorised routes), confirm-before-you-book checklist (advisory status, refundable-only, operator vetting, insurance, flight buffer, permit timeline), packing from official/operator recommendations. Zero-image honest publish; six-subject photo backlog logged.",
+    "files": [
+      "content/editorial-overrides.json",
+      "docs/editorial-research/2026-11-21-algeria-first-visit-insight.md",
+      "docs/editorial-progress.json"
+    ],
+    "images": 0,
+    "image_followup": "Six distinct licensed subjects: Tassili sandstone forest/arch formation, prehistoric rock art panel at respectful distance, Djanet Inedbirene Airport terminal/arrival area, Terres Touareg Guest House courtyard/exterior, Tuareg guide with 4x4 at trailhead, Sahara night sky over camp. Licensed-reuse review only; no substitutes, no generated images.",
+    "booking_cta": "None by design: insight pages carry no product CTA. Revenue surface goes to Terres Touareg stay guide (no verified OTA link) and future Djanet activity (GetYourGuide product to be verified). No booking-destinations.json change.",
+    "key_facts_checked": "UK FCDO Algeria advice (do-not-travel Illizi, all-but-essential Sahara, entry requirements) and entry requirements — both checked 21 Nov 2026. Smartraveller Algeria advice (do not travel Illizi, reconsider Sahara) — checked 21 Nov 2026. UNESCO Tassili n'Ajjer (inscribed 1982, 72,000 km², 15,000+ rock art sites, permit/guide required) — checked 21 Nov 2026. Air Algérie domestic schedule (Algiers–Djanet ~2h30m, 2-3 weekly) — checked 21 Nov 2026. Live Trek Africa Guide cluster (Algeria country, Djanet/Tassili attraction, Terres Touareg accommodation) — all checked 21 Nov 2026.",
+    "build_checks": "check-build-inputs passed; production build (EDITORIAL_CMS_SYNC=false) syntax and JSON checks passed; readability guard passed.",
+    "cms": "Production deploy imports at source_commit; publishable-key read of editorial_documents stays RLS-blocked — owner-side CMS check to confirm travel_insights/plan-first-algeria-visit-djanet-tassili.",
+    "next_category": "activities",
+    "next_action": "Rotate to activities next run; six-subject photo backlog tracked in the ledger; CMS owner-side check pending (standard). Netlify deployment blocker persists.",
+    "status": "committed_push_live_blocked",
+    "content_commit": "PENDING_COMMIT",
+    "publication": {
+      "content_commit": "PENDING_COMMIT",
+      "pushed_to": "main",
+      "push_result": "pending",
+      "pushed_at": "2026-11-21",
+      "live_url": "https://trekafricaguide.com/travel-insights/plan-first-algeria-visit-djanet-tassili/",
+      "live_http_status": "BLOCKED (Netlify deployment blocked after fe495dd)",
+      "checked_at": "2026-11-21",
+      "live_checks": {
+        "detail": "Not yet live — Netlify deployment blocked after fe495dd (16 Nov 2026)",
+        "country_page": "Algeria country page Related travel insights section should show new insight after Netlify unblocks",
+        "attraction_page": "Djanet and Tassili attraction Related travel insights section should show new insight after Netlify unblocks",
+        "accommodation_page": "Terres Touareg Guest House Related travel insights section should show new insight after Netlify unblocks",
+        "archive_home": "Travel insights archive and homepage should list the new story after Netlify unblocks"
       }
     }
   }
