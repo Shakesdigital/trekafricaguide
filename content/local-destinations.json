@@ -1739,5 +1739,74 @@
     "sort_order": 1,
     "status": "published",
     "published_at": "2026-11-20T00:00:00Z"
+  },
+  {
+    "slug": "kruger",
+    "country_slug": "south-africa",
+    "name": "Kruger National Park",
+    "category": "Park gateway",
+    "hero_title": "Kruger: choose your base, your wheels and your pace",
+    "listing_summary": "Plan a Kruger stay around the gate you enter, the camp you sleep in and the drive day you want — self-drive, guided or a mix of both.",
+    "overview": "Kruger National Park is South Africa's flagship public-entry park: nearly two million hectares established in 1898, where visitors explore in their own vehicles or on guided open-vehicle drives, and sleep in public rest camps or private lodges. That combination — scale, self-drive access and fixed infrastructure — makes Kruger unusual among major safari destinations: the same park supports a hired-car day, a SANParks guided drive and a multi-day lodge trip. Which one fits depends on the base you choose, the gate you enter and the day-visitor limits that can apply at peak times.\n\n\n\nSANParks presents the park as a landscape with historical and archaeological interest alongside wildlife. Public access is central to its character: 12 main rest camps, five bushveld camps, two bush lodges and four satellite camps sit inside the park, and the road network itself is the product — sightings happen along it. Choose a manageable part of the park rather than a long cross-park route, and let the itinerary develop around that area. A rewarding visit includes time for ordinary behaviour, birds and changing habitats rather than measuring success only through a checklist of large mammals.",
+    "highlights": [
+      "Self-drive safari and guided alternatives on the same road network",
+      "12 main rest camps plus bushveld camps, bush lodges and satellite camps inside the park",
+      "Wildlife, birding and varied landscapes across four veld types",
+      "Historical and archaeological sites (Masorini, Thulamela) beyond game viewing",
+      "Day-visitor caps at peak times — advance booking essential"
+    ],
+    "access_summary": "Choose the entrance gate after choosing the camp, then arrange the flight or road transfer that serves it. SANParks publishes gate details, distances and travel-time guidance. Do not use a road-navigation arrival estimate as permission to drive after gate closure. Skukuza Airport (SZK) has scheduled flights from Johannesburg and Cape Town; Hoedspruit (HDS) and Phalaborwa (PHW) serve the central and northern gates. If combining Kruger with Cape Town or another distant region, allow for the domestic connection and an overnight buffer where needed. A current operational note: SANParks advised the Skukuza Rest Camp Main Gate will be temporarily closed from 2 November to 4 December 2026 for maintenance — check SANParks notifications for your dates.",
+    "best_time": "Ask about the seasonal conditions in the area you plan to use, rather than assuming the whole park behaves identically. Wildlife is free-ranging throughout the year. Day length and gate hours change seasonally: SANParks' gate table opens entrances at 05:30 in summer months and 06:00 in winter, closing between 17:30 and 18:30 by month. Public holidays and long weekends are when the daily visitor threshold can exclude non-resident day guests, so the authority's advance-booking advice matters most then. Kruger sits in a malaria-endemic area; SANParks asks visitors to consult a travel doctor before their trip. Resident doctors are based at Skukuza (+27 13 735 5638) for visitors who fall ill in the park.",
+    "planning_tips": "SANParks limits day-visitor numbers and offers advance day bookings. Overnight bookings and day visits have different arrangements. Carry the identification required for entry: a completed Gate Registration and Indemnity Form handed to the gate official with identification (ID or passport) for South African, SADC and international visitors. Remain in vehicles except at designated places and respect camp closing times. For self-catering accommodation, plan shopping and meals before arrival. Quote comparisons should separate conservation fees, accommodation, food, vehicle hire and guided activities. Confirm current park notices before finalizing a route. A guided drive moves the navigation, timing and animal-spotting work to a local guide; it does not remove the park rules, conservation fees or gate logistics.",
+    "attraction_slugs": [
+      "kruger-national-park"
+    ],
+    "activity_slugs": [
+      "kruger-national-park-game-drive"
+    ],
+    "accommodation_slugs": [
+      "kruger-shalati"
+    ],
+    "travel_insight_slugs": [
+      "choose-cape-town-base-by-outings",
+      "table-mountain-weather-cableway-or-hike"
+    ],
+    "hero_image_url": "",
+    "hero_image_alt": "",
+    "gallery": [],
+    "last_researched": "2026-11-21",
+    "research_sources": [
+      {
+        "label": "SANParks: Kruger National Park — area, history, rest camps, gates, self-drive model, gate hours, day-visitor rules, malaria, wildlife (checked 21 November 2026)",
+        "url": "https://www.sanparks.org/parks/kruger/"
+      },
+      {
+        "label": "Wikipedia: Kruger National Park — 19,485 km², 147 mammal species, 507 bird species, four veld types, rivers, Skukuza, rest camps, Greater Kruger context (checked 21 November 2026)",
+        "url": "https://en.wikipedia.org/wiki/Kruger_National_Park"
+      },
+      {
+        "label": "UK FCDO: South Africa entry requirements — passport 30 days after departure, 2 blank pages, visa-free 90 days, yellow fever if from risk country, traveller declaration from 1 July 2026, cash declaration (checked 21 November 2026)",
+        "url": "https://www.gov.uk/foreign-travel-advice/south-africa/entry-requirements"
+      },
+      {
+        "label": "Live Trek Africa Guide: Kruger National Park attraction — self-drive model, gate hours, SANParks day-visit rules, Skukuza gate closure notice, 9-image gallery (checked 21 November 2026)",
+        "url": "https://trekafricaguide.com/attractions/kruger-national-park/"
+      },
+      {
+        "label": "Live Trek Africa Guide: Kruger National Park game drive activity — SANParks self-drive vs guided, gate registration, day-visit caps, Skukuza maintenance closure, GetYourGuide t433574 booking (checked 21 November 2026)",
+        "url": "https://trekafricaguide.com/activities/kruger-national-park-game-drive/"
+      },
+      {
+        "label": "Live Trek Africa Guide: Kruger Shalati accommodation — stationary train hotel on Selati Bridge, 24 carriage suites + 7 Bridge House suites, 3 pools, guided drives in package, no verified OTA link (checked 21 November 2026)",
+        "url": "https://trekafricaguide.com/accommodations/kruger-shalati/"
+      },
+      {
+        "label": "Live Trek Africa Guide: South Africa country page — frames Kruger as major safari destination, Destinations rail shows only Cape Town (checked 21 November 2026)",
+        "url": "https://trekafricaguide.com/countries/south-africa/"
+      }
+    ],
+    "sort_order": 2,
+    "status": "published",
+    "published_at": "2026-11-21T00:00:00Z"
   }
 ]
