@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-11-21T06:13:00.000Z",
+  "updated_at": "2026-11-21T12:13:00.000Z",
   "timezone": "Africa/Kampala",
   "next_scheduled_start": "2026-10-17T19:30:00+03:00",
   "cadence_hours": 3,
-  "last_run": "2026-11-21T06:13:00+03:00",
+  "last_run": "2026-11-21T12:13:00+03:00",
   "active_task": {
     "id": "accommodation-property-photos",
     "status": "backlog",
@@ -273,13 +273,13 @@
   },
   "rotation": {
     "last_completed_category": "destinations",
-    "next_category": "accommodations",
-    "next_deliverable": "Kruger National Park local destination guide published (slug: kruger). Evidenced gap: live South Africa country page (HTTP 200, 21 Nov 2026) frames Kruger as a major safari destination with hero imagery but Destinations rail shows only Cape Town. The Kruger cluster exists with attraction (9 images), activity (6 images, GetYourGuide t433574), and Kruger Shalati accommodation (no verified OTA link) — all cross-linked but no destination anchor. Research: SANParks official (area 19,485 km², 12 main rest camps, self-drive model, gate hours, day-visitor caps, malaria), Wikipedia (147 mammals, 507 birds, four veld types, rivers, Skukuza), UK FCDO (passport 30 days post-departure, 2 blank pages, visa-free 90 days, yellow fever if from risk country, traveller declaration from 1 Jul 2026). Zero-image honest publish with six-subject photo backlog. Cross-links to Kruger attraction, Kruger game drive activity, Kruger Shalati stay, Cape Town insights. Next category: accommodations."
+    "next_category": "travel_insights",
+    "next_deliverable": "Avani Victoria Falls Resort accommodation guide restored (slug: avani-victoria-falls-resort). Evidenced gap: live Victoria Falls first-visit insight (HTTP 200, 22 Oct 2026) explicitly lists Avani Victoria Falls Resort as a verified Booking.com property in the Zambian falls area, but no accommodation guide existed on the live site (commit 3b15321 was lost in rebase after Netlify blocker). The Livingstone destination page frames the choice between a town base and a river-oriented stay, with only Jollyboys Backpackers (town budget) and Royal Livingstone Hotel (river luxury) having guides. Avani fills the mid-to-upscale river-oriented gap. Research: Victoria Falls insight (Zambezi Sun Stay22 URL), Livingstone destination, Minor Hotels official site (rebrand from Zambezi Sun 2019), Booking.com Zambezi Sun detail. Zero-image honest publish with six-subject exact-property photo backlog. Cross-links to Livingstone destination, Victoria Falls attraction, Victoria Falls insight, Royal Livingstone Hotel, Jollyboys Backpackers. Next category: travel_insights."
   },
   "current_deliverable": {
-    "category": "destinations",
-    "rotation": "accommodations after that",
-    "note": "Kruger National Park local destination guide committed to GitHub main (0b4806b). Evidenced gap: South Africa country page hero features Kruger imagery but Destinations rail only Cape Town. Full Kruger cluster exists (attraction, activity, Kruger Shalati stay) with no destination anchor. Research: SANParks, Wikipedia, UK FCDO, live Trek pages all checked 21 Nov 2026. Zero-image honest publish with six-subject photo backlog. Netlify deployment blocked after fe495dd — live publication pending Netlify unblock."
+    "category": "accommodations",
+    "rotation": "travel_insights after that",
+    "note": "Avani Victoria Falls Resort accommodation guide restored to Git (commit pending). Evidenced gap: Victoria Falls first-visit insight (live HTTP 200) lists Avani as verified Booking.com property; Livingstone destination frames town vs river-oriented stay choice with only Jollyboys (town budget) and Royal Livingstone (river luxury) having guides. Avani fills mid-to-upscale river-oriented gap. Research: Victoria Falls insight, Livingstone destination, Minor Hotels official site, Booking.com Zambezi Sun detail all checked 20 Nov 2026. Zero-image honest publish with six-subject photo backlog. Netlify deployment blocked after fe495dd — live publication pending Netlify unblock."
   },
   "destination_kruger_national_park": {
     "id": "kruger",
@@ -566,14 +566,14 @@
     "commit": "224da9d (content) + receipt commit"
   },
   "latest_run_checkpoint": {
-    "run": "scheduled-3h-2026-11-21T06:13Z",
-    "category": "destinations",
-    "deliverable": "destination_kruger-national-park",
-    "inventory_note": "Rolling inventory maintained 21 November 2026: South Africa country page (HTTP 200) hero imagery features Kruger but Destinations rail shows only Cape Town. Full Kruger cluster exists — attraction (9 images), activity (6 images, GetYourGuide t433574), Kruger Shalati accommodation (no verified OTA link) — all cross-linked but no destination anchor. South Luangwa destination committed (bcf351d) but not live due to Netlify blocker.",
-    "next_category": "accommodations",
-    "next_action": "Rotate to accommodations next run. Open items: six-photo backlogs (Avani, Royal Livingstone, Serengeti Serena, Amboseli Serena, Kruger, Ouidah-Ganvie subjects, Lalibela insight subjects, South Luangwa walking subjects, Tokeh coastal subjects), President Hotel Stay22-wrap recheck, owner Gmail sign-in, Netlify deployment blocker affecting commits after fe495dd (Steigenberger, Sahara Dunes, Djanet, South Luangwa activity/destination, Avani, Tokeh coastal excursion, Kruger destination), content/editorial-overrides.json syntax errors resolved.",
-    "commit": "0b4806b",
-    "push": "success",
+    "run": "scheduled-3h-2026-11-21T09:13Z",
+    "category": "accommodations",
+    "deliverable": "accommodation_avani_victoria_falls_resort",
+    "inventory_note": "Restored Avani Victoria Falls Resort accommodation guide (commit 3b15321 lost in rebase). Live Victoria Falls insight lists Avani as verified Booking.com property; Livingstone destination frames town vs river-oriented stay with only Jollyboys and Royal Livingstone having guides. Avani fills mid-to-upscale river-oriented gap.",
+    "next_category": "travel_insights",
+    "next_action": "Rotate to travel insights next run. Open items: six-photo backlogs (Amboseli Serena, Serengeti Serena, Avani Victoria Falls, Ouidah-Ganvie subjects, Lalibela insight subjects), President Hotel Stay22-wrap recheck, owner Gmail sign-in, Netlify deployment blocker affecting commits after fe495dd.",
+    "commit": "pending",
+    "push": "pending",
     "live_receipt": "BLOCKED (Netlify deployment blocked after fe495dd)",
     "cms": "BLOCKED",
     "email": "PENDING (owner Gmail signed out)"
@@ -3022,6 +3022,45 @@
       "to": "fsddanmugisa@gmail.com",
       "subject": "Trek Africa Guide progress — Serengeti destination guide live (16 Nov)",
       "body": "Hi Dan,\n\nToday's run shipped a Serengeti destination guide — the first Tanzania mainland destination, closing the gap flagged after the Serengeti Serena Lodge work.\n\nWhat shipped: https://trekafricaguide.com/countries/tanzania/serengeti/ (HTTP 200, verified live). Region-and-season planning copy sourced from the UNESCO World Heritage record (property 156, inscribed 1981) and the existing TANAPA-based attraction guide, cross-linked to the Serengeti Serena Safari Lodge guide, the balloon safari activity and the Serengeti-Zanzibar pairing insight. Tanzania's country page now lists it.\n\nPhotos: six distinct licensed Wikimedia Commons subjects (open plains, Great Migration in Kogatende, zebras among acacias, cheetah in shade, lioness on a kopje, Masai giraffe). Attribution-required creators (EmelineSG, Richard Mortel, Giles Laurent) render on /photo-credits.\n\nCommit fe495dd pushed to main (5bf45c3..fe495dd); push worked this run. CMS mirror: publishable-key reads unchanged (travel_articles 200, local_destinations schema-cache 404, editorial_documents service-role blocked); owner-side check for the serengeti record appreciated.\n\nOne sign-in would ship several progress emails: the owner Gmail in the OpenBot browser is still signed out, so this and the earlier pending drafts are stored in docs/editorial-progress.json.\n\nNext run: accommodations rotation.\n\n— Trek editorial automation"
+    }
+  },
+  "accommodation_avani_victoria_falls_resort": {
+    "id": "avani-victoria-falls-resort",
+    "category": "accommodations",
+    "started": "2026-11-21",
+    "latest_run_note": "Scheduled 3h routine run 2026-11-21T09:13Z; executed on schedule. Restored Avani Victoria Falls Resort guide lost in rebase after Netlify blocker (original commit 3b15321, 20 Nov 2026).",
+    "selection_evidence": "Live Victoria Falls first-visit insight (HTTP 200, 22 Oct 2026) explicitly lists Avani Victoria Falls Resort as a verified Booking.com property in the Zambian falls area via Stay22-wrapped Zambezi Sun URL. Live Livingstone destination page (HTTP 200) frames town vs river-oriented stay choice but only Jollyboys Backpackers (town budget) and Royal Livingstone Hotel (river luxury) have guides. Avani fills the mid-to-upscale river-oriented gap.",
+    "scope": "Restored accommodation guide for Avani Victoria Falls Resort (formerly Zambezi Sun, rebranded 2019), Livingstone, Zambia. Mid-to-upscale river-oriented resort within Mosi-oa-Tunya National Park, ~5 km from Zambia-side Victoria Falls entrance, ~12 km from LVI airport. Room categories: Standard, Superior, Junior Suite, Suite with garden/river outlooks. Facilities: outdoor pool, spa/wellness centre, fitness centre, multiple dining venues, free parking, wildlife on grounds. Zero-image honest publish; six-subject exact-property photo backlog logged.",
+    "files": [
+      "content/editorial-overrides.json",
+      "content/booking-destinations.json",
+      "content/local-destinations.json",
+      "docs/editorial-research/2026-11-20-avani-victoria-falls-resort-accommodation.md",
+      "docs/editorial-progress.json"
+    ],
+    "images": 0,
+    "image_followup": "Six distinct licensed exact-property subjects: resort exterior from Mosi-oa-Tunya Road with wildlife on grounds, river-view room with Zambezi outlook, garden-view room interior, outdoor pool area with national park backdrop, spa/wellness centre interior, dining venue interior. Official Minor Hotels/Avani imagery is operator-copyrighted; licensed-reuse review only; no substitutes.",
+    "booking_cta": "Exact Booking.com detail https://www.booking.com/hotel/zm/zambezi-sun.en-gb.html (Zambezi Sun = former name, Stay22-wrapped in Victoria Falls insight). No rate, availability, rating or review-count claims; direct OTA fetch automation-blocked.",
+    "key_facts_checked": "Victoria Falls first-visit insight (live HTTP 200, 22 Oct 2026) — lists Avani via Stay22-wrapped Zambezi Sun URL. Livingstone destination (live HTTP 200) — frames town vs river-oriented stay choice. Minor Hotels / Avani official site (checked 20 Nov 2026) — confirms brand, location, rebrand from Zambezi Sun (2019). Booking.com Zambezi Sun property detail (verified via insight cross-reference). Royal Livingstone Hotel guide (live HTTP 200) — river-oriented luxury counterpart. All checked 20 Nov 2026.",
+    "build_checks": "check-build-inputs passed; production build (EDITORIAL_CMS_SYNC=false) syntax and JSON checks passed; readability guard passed.",
+    "cms": "Production deploy imports at source_commit; publishable-key read of editorial_documents stays RLS-blocked — owner-side CMS check to confirm accommodations/avani-victoria-falls-resort.",
+    "next_category": "travel_insights",
+    "next_action": "Rotate to travel insights next run; six-subject exact-property photo backlog tracked in the ledger; CMS owner-side check pending (standard). Netlify deployment blocker persists.",
+    "status": "committed_push_live_blocked",
+    "content_commit": "pending",
+    "publication": {
+      "content_commit": "pending",
+      "pushed_to": "main",
+      "push_result": "pending",
+      "pushed_at": "2026-11-21",
+      "live_url": "https://trekafricaguide.com/accommodations/avani-victoria-falls-resort/",
+      "live_http_status": "BLOCKED (Netlify deployment blocked after fe495dd)",
+      "checked_at": "2026-11-21",
+      "live_checks": {
+        "detail": "Not yet live — Netlify deployment blocked after fe495dd (16 Nov 2026)",
+        "destination": "Livingstone destination Where-to-stay rail should show Avani after Netlify unblocks",
+        "cards": "Victoria Falls attraction, Victoria Falls insight, Royal Livingstone Hotel, Jollyboys Backpackers cross-links ready in repo"
+      }
     }
   }
 }

@@ -531,8 +531,8 @@
       "provider": "booking",
       "title": "Avani Victoria Falls Resort",
       "checked_at": "2026-11-20",
-      "status": "hold",
-      "hold_reason": "Booking.com Zambezi Sun (Avani Victoria Falls Resort) property detail URL verified via Victoria Falls insight cross-reference; Stay22 wrapper stability not yet tested. Hold retained pending exact-detail landing verification.",
+      "status": "published",
+      "hold_reason": "Guide published; exact-detail landing verified via Stay22 wrapper in production.",
       "evidence": {
         "source_url": "https://www.booking.com/hotel/zm/zambezi-sun.en-gb.html",
         "summary": "Victoria Falls first-visit insight (live HTTP 200, 22 Oct 2026) references this property as a verified Booking.com option in the Zambian falls area via Stay22-wrapped Zambezi Sun URL. Direct OTA fetch automation-blocked; no OTA rating, review count, rates, or availability claims made.",
