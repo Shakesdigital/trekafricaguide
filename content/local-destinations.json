@@ -1677,5 +1677,67 @@
     "sort_order": 25,
     "status": "published",
     "published_at": "2026-11-19T00:00:00Z"
+  },
+  {
+    "slug": "djanet-tassili",
+    "country_slug": "algeria",
+    "name": "Djanet and Tassili n'Ajjer",
+    "category": "Desert expedition gateway",
+    "hero_title": "Djanet: gateway to the Tassili n'Ajjer UNESCO landscape",
+    "listing_summary": "Plan a Tassili n'Ajjer rock-art expedition from Djanet, with guidance on permits, guided routes, desert camping and the Tuareg guesthouse base.",
+    "overview": "Djanet is a Tuareg town in southeastern Algeria, set at the edge of the Tassili n'Ajjer plateau. The plateau is a UNESCO World Heritage site (inscribed 1982, mixed cultural and natural criteria) protecting one of the world's most important concentrations of prehistoric rock art — thousands of paintings and engravings documenting human life and environmental change over millennia — alongside dramatic sandstone geology: arches, canyons, pillars and weathered formations.\n\nThis is not a conventional destination. Travel here means a specialist-guided desert expedition: vehicle-supported exploration, guided walks to rock-art shelters, and camping on sand or rocky ground. The published GetYourGuide product — \"Djanet: 4-Day Desert Adventure in Tassili N'Ajjer\" operated by Cozy Vibes Travel Algeria — describes a four-day itinerary from Djanet with vehicle transport, guided walks, desert camping and meals. A responsible operator will explain the exact daily schedule, which shelters are included, walking distances, permit arrangements, and contingency plans for weather, flight or permission changes.\n\nThe UK FCDO's Algeria advice, current at 20 November 2026, warns against all but essential travel to Saharan areas including Djanet and Tamanrasset. This advisory directly affects feasibility and must be assessed before any non-refundable booking. Travel insurance covering the specific regions and activities is essential. Do not plan independent movement into remote or restricted areas; check current official advice and local authorization.",
+    "highlights": [
+      "UNESCO rock-art landscape with thousands of prehistoric paintings and engravings",
+      "Dramatic sandstone geology: arches, canyons, pillars",
+      "Specialist 4-day guided desert expeditions from Djanet",
+      "Tuareg guesthouse base before or after the desert journey",
+      "Conservation-conscious visitation with authorised routes only"
+    ],
+    "access_summary": "Djanet (DJG) is the air gateway, served by domestic flights from Algiers and, seasonally, international charters. The operator should arrange the domestic flight connection and the Tassili park permit as part of the package. Algeria requires a visa for most visitors; the e-visa portal (evisa.gov.dz) and current processing times should be checked well before departure. Confirm the international and domestic connections with the exact ground itinerary. Obtain a written explanation of required permissions and the route's current feasibility before buying flights independently.",
+    "best_time": "Select dates with a specialist who can explain heat, wind, night temperatures and the walking exposure of the actual route. Daytime temperatures can exceed 40 °C in warmer months; nights can drop near freezing in winter. A broad seasonal label is not enough for an expedition. Ask what adjustments are made when conditions differ from expectations and whether a shorter or less remote alternative is available.",
+    "planning_tips": "Request clear details of water, food, camping equipment, sanitation, communications and emergency arrangements. Verify current entry requirements through official channels. At rock-art and archaeological sites, follow authorised access and photography rules and avoid touching or altering surfaces. Do not book remote travel solely on the basis of a low package price. The operator must confirm: tent type and occupancy, sleeping provision, meal preparation, drinking water volume per person per day, shade arrangements, and satellite phone or radio for emergency communication. A written packing list from the operator should cover sun protection, warm layers, headlamp, dry bags, personal medication and cash for incidentals.",
+    "attraction_slugs": [
+      "djanet-and-tassili"
+    ],
+    "activity_slugs": [
+      "djanet-tassili-rock-art-expedition"
+    ],
+    "accommodation_slugs": [
+      "terres-touareg-guest-house"
+    ],
+    "travel_insight_slugs": [],
+    "hero_image_url": "",
+    "hero_image_alt": "",
+    "gallery": [],
+    "last_researched": "2026-11-20",
+    "research_sources": [
+      {
+        "label": "UNESCO World Heritage: Tassili n'Ajjer (criteria, rock art, geology, conservation)",
+        "url": "https://whc.unesco.org/en/list/179"
+      },
+      {
+        "label": "UK FCDO: Algeria travel advice — regional advisory for Djanet, Tamanrasset and Saharan border zones (checked 20 November 2026)",
+        "url": "https://www.gov.uk/foreign-travel-advice/algeria/safety-and-security"
+      },
+      {
+        "label": "Algeria e-visa portal: entry requirements and application",
+        "url": "https://evisa.gov.dz/"
+      },
+      {
+        "label": "GetYourGuide exact product: Djanet 4-Day Desert Adventure in Tassili N'Ajjer (Cozy Vibes Travel Algeria), itinerary, inclusions, review status (checked 20 November 2026)",
+        "url": "https://www.getyourguide.com/djanet-l232012/djanet-4-day-desert-adventure-in-tassili-n-ajjer-t1110780/"
+      },
+      {
+        "label": "Terres Touareg Guest House official site: rooms, meals, Tuareg craft, contact (checked 20 November 2026)",
+        "url": "https://www.terres-touareg.com/en/guest-house/"
+      },
+      {
+        "label": "Live Trek Africa Guide: Algeria country page, Djanet attraction, Terres Touareg accommodation, Djanet activity (all checked 20 November 2026)",
+        "url": "https://trekafricaguide.com/countries/algeria/"
+      }
+    ],
+    "sort_order": 1,
+    "status": "published",
+    "published_at": "2026-11-20T00:00:00Z"
   }
 ]
