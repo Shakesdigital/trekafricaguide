@@ -1,6 +1,85 @@
 {
-  "updated_at": "2026-11-19T05:35:00.000Z",
+  "updated_at": "2026-11-21T16:55:06.593Z",
   "blocked_runs": [
+    {
+      "id": "image-source-access-blocked-2026-11-21-1607z",
+      "scheduled_at": "2026-11-21T16:07:00.000Z",
+      "status": "blocked_image_source_access",
+      "planned_target": "https://trekafricaguide.com/countries/benin/",
+      "page_type": "country",
+      "previous_photo_count": 2,
+      "photo_count": 2,
+      "new_photo_count": 0,
+      "note": "Selected Benin country page (live HTTP 200, 2 stock/starter images only, zero dedicated editorial photos) as the highest-priority zero-dedicated-photo country target. Research identified 13 CC0/public domain candidate images on Wikimedia Commons (5x Togbin beach lagoon activity, Ouidah beach crossroads, water vegetation, fishing route start, folklore scene, Egungun dancing, Dahomey 1900 historical map, Benin kingdom bronze artifact, coconut shrub). However, all image download attempts failed: (1) Wikimedia Commons direct downloads return HTML error pages (anti-hotlinking/blocking from this environment); (2) Unsplash API blocked by Cloudflare challenge; (3) Pexels API returns 401 unauthorized; (4) Browser navigation to file pages times out due to tab limits and existing session state. ChatGPT/Gemini built-in image generation is unavailable in this harness (no image generation tool). Per standards, no attribution-required (CC BY/CC BY-SA), unclear-rights, or unverified assets were added. No website assets or gallery changed. Routine stays on.",
+      "next_action": "Rotate to another zero-to-two-image page across destinations, attractions, activities, travel insights and accommodations at next scheduled run. Investigate image source access (Wikimedia Commons/Unsplash/Pexels) or Gemini availability before next enrichment attempt. Benin country remains a zero-dedicated-photo page pending rights-clean exact-subject images and working download path.",
+      "mandatory_input_check": "Not run: no image or library change this run; source access blocked before assets could be downloaded.",
+      "published_commit": null,
+      "email_id": null,
+      "report_status": "NOT SENT: no collection published/live-confirmed; owner receives this progress in chat.",
+      "blockers": [
+        "Wikimedia Commons: direct download returns HTML error page (anti-hotlinking/geo-blocking)",
+        "Unsplash API: Cloudflare browser challenge blocks automated access",
+        "Pexels API: 401 unauthorized (no valid API key in environment)",
+        "Gemini image generation: no image generation tool available in harness",
+        "Browser: 25-tab limit prevents new navigation for manual download"
+      ],
+      "candidates_found": [
+        {
+          "title": "Activité lagunaire à la plage de Togbin (Bénin) 01-05.jpg",
+          "license": "CC0",
+          "source": "Wikimedia Commons",
+          "subject": "Togbin beach lagoon activity"
+        },
+        {
+          "title": "Carrefour principal à la plage de Ouidah.jpg",
+          "license": "CC0",
+          "source": "Wikimedia Commons",
+          "subject": "Ouidah beach crossroads"
+        },
+        {
+          "title": "Etendue d'eau entourée de végétation dense.jpg",
+          "license": "CC0",
+          "source": "Wikimedia Commons",
+          "subject": "Water body with dense vegetation"
+        },
+        {
+          "title": "Début de la route des pêches.jpg",
+          "license": "CC0",
+          "source": "Wikimedia Commons",
+          "subject": "Fishing route start"
+        },
+        {
+          "title": "Folklore au Benin.jpg",
+          "license": "CC0",
+          "source": "Wikimedia Commons",
+          "subject": "Benin folklore scene"
+        },
+        {
+          "title": "Egungun dansant.jpg",
+          "license": "CC0",
+          "source": "Wikimedia Commons",
+          "subject": "Egungun masquerade dancing"
+        },
+        {
+          "title": "Dahomey. 10., Le Dahomey en 1900 (page 2 crop).jpg",
+          "license": "Public domain",
+          "source": "Wikimedia Commons",
+          "subject": "Historical Dahomey map 1900"
+        },
+        {
+          "title": "Benin kingdom, Bini-Portuguese style...",
+          "license": "CC0",
+          "source": "Wikimedia Commons",
+          "subject": "Historical bronze artifact"
+        },
+        {
+          "title": "Arbuste Cocotier.jpg",
+          "license": "CC0",
+          "source": "Wikimedia Commons",
+          "subject": "Coconut shrub (generic)"
+        }
+      ]
+    },
     {
       "id": "image-generation-service-unavailable-2026-11-15-0507",
       "scheduled_at": "2026-11-15T05:07:00Z",
@@ -186,9 +265,14 @@
       "email_id": null,
       "report_status": "NOT SENT: no collection live-confirmed (deployment blocked); Gmail requires interactive owner sign-in (standing limitation). Owner receives this progress in chat.",
       "rights_evidence": {
-        "sources_checked": ["Wikimedia Commons"],
+        "sources_checked": [
+          "Wikimedia Commons"
+        ],
         "commons_exact_subject_results": 5,
-        "licences": ["CC0", "Public domain"],
+        "licences": [
+          "CC0",
+          "Public domain"
+        ],
         "attribution_required_public": false,
         "global_sha256_dedup": "no matches across all public/images files",
         "evidence_location": "src/lib/photo-library.js and docs/editorial-research/2026-11-19-uganda-country-photo-enrichment.md (internal only)"
@@ -198,7 +282,13 @@
         "page_http_status": 200,
         "see_all_text": "See all 2 images",
         "all_new_filenames_in_page": false,
-        "asset_http_statuses": [200, 200, 200, 200, 200],
+        "asset_http_statuses": [
+          200,
+          200,
+          200,
+          200,
+          200
+        ],
         "note": "Commit 2235f68 pushed to origin/main but Netlify production deploy has not served updated photo-library.js; Uganda page gallery unchanged; all five editorial assets return HTTP 200."
       },
       "next_action": "Confirm the Netlify production deploy of commit 2235f68 and re-verify the Uganda country page shows 7 images (2 stock + 5 editorial) and all five new assets live (each asset HTTP 200); once live-confirmed, finalize the run as published and report. Rotation after publication: another zero-to-two-image page across attractions, activities, accommodations and travel insights; Uganda country remains at 2 deployed images pending deployment."
