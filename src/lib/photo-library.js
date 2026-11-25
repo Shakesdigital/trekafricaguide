@@ -13029,6 +13029,55 @@ export const photoLibrary = {
       "sha256": "7bc7659296c36a382745cb90b24df9dea2eafb97a1d17698de9ad4722dcac57a", "exact_subject": true, "subject": "Poultry market, Northern Ghana",
       "alt": "A poultry market in Northern Ghana.", "property": false, "requires_attribution": true,
       "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Poultry market in Northern Ghana."
+    },
+    "/images/editorial/plan-kibale-around-chimpanzee-trek/chimpanzee-feeding.jpg": {
+      "kind": "photograph", "slug": "chimpanzee-feeding", "local_path": "/images/editorial/plan-kibale-around-chimpanzee-trek/chimpanzee-feeding.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Common_chimpanzee_(Pan_troglodytes_schweinfurthii)_feeding.jpg", "creator": "Charles J. Sharp", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "4b5461a122a3c36b31cb463229caa0eae7a2180659ef989ba93c9a414185f758", "exact_subject": true, "subject": "Common chimpanzee feeding, Kibale Forest, Uganda",
+      "alt": "A common chimpanzee feeding in the Kibale Forest National Park.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Common chimpanzee (Pan troglodytes schweinfurthii) feeding."
+    },
+    "/images/editorial/plan-kibale-around-chimpanzee-trek/fort-portal-street.jpg": {
+      "kind": "photograph", "slug": "fort-portal-street", "local_path": "/images/editorial/plan-kibale-around-chimpanzee-trek/fort-portal-street.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:A_street_in_Fort_Portal_Uganda_2.jpg", "creator": "Owobusingye", "license": "CC BY 4.0", "license_url": "", "checked_at": "2026-11-25",
+      "sha256": "7cb9cc8cee636343cba4528569d2ca68f22626a67f109c7c472836ee1781f9af", "exact_subject": true, "subject": "Fort Portal street, Uganda",
+      "alt": "A street in Fort Portal, the gateway town to Kibale National Park in Uganda.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "A street in Fort Portal, Uganda."
+    },
+    "/images/editorial/plan-kibale-around-chimpanzee-trek/kibale-alpha-chimpanzee.jpg": {
+      "kind": "photograph", "slug": "kibale-alpha-chimpanzee", "local_path": "/images/editorial/plan-kibale-around-chimpanzee-trek/kibale-alpha-chimpanzee.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:013_Alpha_male_chimpanzee_at_Kibale_forest_National_Park_Photo_by_Giles_Laurent.jpg", "creator": "Giles Laurent", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "c56cde11710ed991eaf943e2235d995e8a89f45149cfa1ef1b926a134fa04c57", "exact_subject": true, "subject": "Alpha male chimpanzee, Kibale Forest National Park, Uganda",
+      "alt": "An alpha male chimpanzee in the Kibale Forest National Park in Uganda.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Alpha male chimpanzee at Kibale forest National Park."
+    },
+    "/images/editorial/plan-kibale-around-chimpanzee-trek/kibale-chimpanzee.jpg": {
+      "kind": "photograph", "slug": "kibale-chimpanzee", "local_path": "/images/editorial/plan-kibale-around-chimpanzee-trek/kibale-chimpanzee.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:015_Chimpanzee_at_Kibale_forest_National_Park_Photo_by_Giles_Laurent.jpg", "creator": "Giles Laurent", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "da5716162255cbf051ab504a28ba8e689f34b03ba939c49ad1d345509c2cf2b3", "exact_subject": true, "subject": "Chimpanzee, Kibale Forest National Park, Uganda",
+      "alt": "A chimpanzee in the Kibale Forest National Park in Uganda.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Chimpanzee at Kibale forest National Park."
+    },
+    "/images/editorial/plan-kibale-around-chimpanzee-trek/kibale-chimpanzees-group.jpg": {
+      "kind": "photograph", "slug": "kibale-chimpanzees-group", "local_path": "/images/editorial/plan-kibale-around-chimpanzee-trek/kibale-chimpanzees-group.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Chimpanzees_of_Kibale_National_Park.jpg", "creator": "Byekwaso Blasio", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "1886b6f6b13a3f87c7d4c67d2619e4d60a0d88c2ca06647b514ca6e920c7cd8c", "exact_subject": true, "subject": "Chimpanzees of Kibale National Park, Uganda",
+      "alt": "A group of chimpanzees in Kibale National Park in Uganda.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Chimpanzees of Kibale National Park."
+    },
+    "/images/editorial/plan-kibale-around-chimpanzee-trek/kibale-sunbird.jpg": {
+      "kind": "photograph", "slug": "kibale-sunbird", "local_path": "/images/editorial/plan-kibale-around-chimpanzee-trek/kibale-sunbird.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:003_Olive-bellied_Sunbird_in_flight_at_Kibale_forest_National_Park_Photo_by_Giles_Laurent.jpg", "creator": "Giles Laurent", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "39dd33b3107403887e00e3f5416b37c542e326d15940319e23042f268fefde6b", "exact_subject": true, "subject": "Olive-bellied sunbird, Kibale Forest National Park, Uganda",
+      "alt": "An olive-bellied sunbird in flight at Kibale Forest National Park.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Olive-bellied Sunbird in flight at Kibale forest National Park."
+    },
+    "/images/editorial/plan-kibale-around-chimpanzee-trek/kibale-turaco.jpg": {
+      "kind": "photograph", "slug": "kibale-turaco", "local_path": "/images/editorial/plan-kibale-around-chimpanzee-trek/kibale-turaco.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:017_Great_blue_turaco_at_Kibale_forest_National_Park_Photo_by_Giles_Laurent.jpg", "creator": "Giles Laurent", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "8fa9906a991e9dd4a35bd27288683329e32eac750d5326fc6c71951e63050e53", "exact_subject": true, "subject": "Great blue turaco, Kibale Forest National Park, Uganda",
+      "alt": "A great blue turaco at Kibale Forest National Park in Uganda.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Great blue turaco at Kibale forest National Park."
     }
 
   },
@@ -14550,9 +14599,20 @@ export const photoLibrary = {
         ]
       },
       "plan-kibale-around-chimpanzee-trek": {
-        "hero_image_url": "https://trekafricaguide.com/images/editorial/plan-kibale-around-chimp-trek/kibale-chimpanzees-2020.jpg",
-        "hero_image_alt": "A chimpanzee in Kibale National Park, photographed January 2020.",
-        "replaces": []
+        "hero_image_url": "/images/editorial/plan-kibale-around-chimpanzee-trek/kibale-chimpanzee.jpg",
+        "hero_image_alt": "A chimpanzee in the Kibale Forest National Park in Uganda.",
+        "replaces": [
+          "https://trekafricaguide.com/images/editorial/plan-kibale-around-chimp-trek/kibale-chimpanzees-2020.jpg"
+        ],
+        "gallery": [
+          "/images/editorial/plan-kibale-around-chimpanzee-trek/chimpanzee-feeding.jpg",
+          "/images/editorial/plan-kibale-around-chimpanzee-trek/fort-portal-street.jpg",
+          "/images/editorial/plan-kibale-around-chimpanzee-trek/kibale-alpha-chimpanzee.jpg",
+          "/images/editorial/plan-kibale-around-chimpanzee-trek/kibale-chimpanzee.jpg",
+          "/images/editorial/plan-kibale-around-chimpanzee-trek/kibale-chimpanzees-group.jpg",
+          "/images/editorial/plan-kibale-around-chimpanzee-trek/kibale-sunbird.jpg",
+          "/images/editorial/plan-kibale-around-chimpanzee-trek/kibale-turaco.jpg"
+        ]
       },
       "plan-first-east-africa-safari": {
         "hero_image_url": "/images/editorial/plan-first-east-africa-safari/wildebeest-migration-serengeti.jpg",
