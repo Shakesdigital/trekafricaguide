@@ -12636,8 +12636,71 @@ export const photoLibrary = {
       "sha256": "6ce40d3ed1a84be8d6271ff4d89a28f8e92211cbb7b116a85f2a529be02413e8", "exact_subject": true, "subject": "Sailboat at sunset, Stone Town, Zanzibar",
       "alt": "A sailboat silhouetted against the sunset off Stone Town, Zanzibar.", "property": false, "requires_attribution": true,
       "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Sail boat at sunset in Stone Town, Zanzibar."
-    }
+    },
 
+    "/images/editorial/best-time-southern-africa/chobe-elephants-botswana.jpg": {
+      "kind": "photograph", "slug": "chobe-elephants-botswana", "local_path": "/images/editorial/best-time-southern-africa/chobe-elephants-botswana.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Elefantes_africanos_de_sabana_(Loxodonta_africana),_parque_nacional_de_Chobe,_Botsuana,_2018-07-28,_DD_25.jpg", "creator": "Diego Delso", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "3faf08347b635830a5a85bb17a34a9763502526afc120defbd2ff00fdc35ffbf", "exact_subject": true, "subject": "African savanna elephants, Chobe National Park, Botswana",
+      "alt": "A herd of elephants walking across the Chobe National Park in Botswana.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "African savanna elephants in Chobe National Park, Botswana."
+    },
+    "/images/editorial/best-time-southern-africa/elephant-herd-zimbabwe.jpg": {
+      "kind": "photograph", "slug": "elephant-herd-zimbabwe", "local_path": "/images/editorial/best-time-southern-africa/elephant-herd-zimbabwe.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:African_bush_elephants_(Loxodonta_africana)_female_with_six-week-old_baby.jpg", "creator": "Charles J. Sharp", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "f652759522d925d5f4a4c49bcf202490aa9af1d37abd5209a0be0e14fcca4d1c", "exact_subject": true, "subject": "African bush elephant female with calf, Zimbabwe",
+      "alt": "A female elephant with her six-week-old calf in Zimbabwe.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "African bush elephants female with six-week-old baby."
+    },
+    "/images/editorial/best-time-southern-africa/kruger-elephant.jpg": {
+      "kind": "photograph", "slug": "kruger-elephant", "local_path": "/images/editorial/best-time-southern-africa/kruger-elephant.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Kruger_National_Park_(ZA),_Elefant_--_2024_--_0649.jpg", "creator": "Dietmar Rabich", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "379667624594d2f6824711b7bc42b3786df419069a39b69699880675a9cee2f2", "exact_subject": true, "subject": "Elephant, Kruger National Park, South Africa",
+      "alt": "An elephant walking through the Kruger National Park in South Africa.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Elephant in Kruger National Park, 2024."
+    },
+    "/images/editorial/best-time-southern-africa/kruger-giraffe.jpg": {
+      "kind": "photograph", "slug": "kruger-giraffe", "local_path": "/images/editorial/best-time-southern-africa/kruger-giraffe.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Kruger_National_Park_(ZA),_Giraffe_--_2024_--_0431.jpg", "creator": "Dietmar Rabich", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "62a284f53152b93ed1119fcacbc139ab9f0d378f6fcf7dc47cc0536215d40a92", "exact_subject": true, "subject": "Giraffe, Kruger National Park, South Africa",
+      "alt": "A giraffe standing among trees in the Kruger National Park.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Giraffe in Kruger National Park, 2024."
+    },
+    "/images/editorial/best-time-southern-africa/okavango-delta-zebras-aerial.jpg": {
+      "kind": "photograph", "slug": "okavango-delta-zebras-aerial", "local_path": "/images/editorial/best-time-southern-africa/okavango-delta-zebras-aerial.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Cebras_de_Burchell_(Equus_quagga_burchellii),_vista_aérea_del_delta_del_Okavango,_Botsuana,_2018-08-01,_DD_30.jpg", "creator": "Diego Delso", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "e4930489697d0d600c0eeaa1cc317f7600ce01fb65971b73c86e7dc87e0b55e4", "exact_subject": true, "subject": "Burchell zebras aerial view, Okavango Delta, Botswana",
+      "alt": "An aerial view of Burchell zebras in the Okavango Delta in Botswana.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Burchell zebras aerial view of the Okavango Delta, Botswana."
+    },
+    "/images/editorial/best-time-southern-africa/sossusvlei-namib-desert.jpg": {
+      "kind": "photograph", "slug": "sossusvlei-namib-desert", "local_path": "/images/editorial/best-time-southern-africa/sossusvlei-namib-desert.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Sossusvlei,_Namibia,_2018-08-06,_DD_040.jpg", "creator": "Diego Delso", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "5fd9feef81f0be19f5dc9527d05c1d9b003dafede8631fc36e4ddf5bec6b0f28", "exact_subject": true, "subject": "Sossusvlei, Namib Desert, Namibia",
+      "alt": "The red dunes and white clay pan of Sossusvlei in the Namib Desert.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Sossusvlei, Namibia, 2018."
+    },
+    "/images/editorial/best-time-southern-africa/sossusvlei-thorn-tree.jpg": {
+      "kind": "photograph", "slug": "sossusvlei-thorn-tree", "local_path": "/images/editorial/best-time-southern-africa/sossusvlei-thorn-tree.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Thorn_Tree_Sossusvlei_Namib_Desert_Namibia_Luca_Galuzzi_2004.JPG", "creator": "Luca Galuzzi", "license": "CC BY-SA 2.5", "license_url": "https://creativecommons.org/licenses/by-sa/2.5/", "checked_at": "2026-11-25",
+      "sha256": "dc04676db48d645729ae2bc4ab1d93e80566c5321a7cdeb12b054844bd642ae9", "exact_subject": true, "subject": "Thorn tree in Sossusvlei, Namib Desert, Namibia",
+      "alt": "A lone thorn tree standing in the red dunes of Sossusvlei in the Namib Desert.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Thorn tree in Sossusvlei, Namib Desert, Namibia, 2004."
+    },
+    "/images/editorial/best-time-southern-africa/table-mountain-cape-town.jpg": {
+      "kind": "photograph", "slug": "table-mountain-cape-town", "local_path": "/images/editorial/best-time-southern-africa/table-mountain-cape-town.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Cape_Town_(ZA),_Table_Mountain_--_2024_--_2825.jpg", "creator": "Dietmar Rabich", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "3645095813a6ce99e64732849d50b295ebbc85766983fb0d747b271d86d8255b", "exact_subject": true, "subject": "Table Mountain, Cape Town, South Africa",
+      "alt": "Table Mountain rising above Cape Town in South Africa.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Table Mountain, Cape Town, 2024."
+    },
+    "/images/editorial/best-time-southern-africa/victoria-falls.jpg": {
+      "kind": "photograph", "slug": "victoria-falls", "local_path": "/images/editorial/best-time-southern-africa/victoria-falls.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Cataratas_Victoria,_Zambia-Zimbabue,_2018-07-27,_DD_05.jpg", "creator": "Diego Delso", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "ca249aca80d5a881b174a07569b22ce53d5d2a019b2dfd80a86f68f0381aaffb", "exact_subject": true, "subject": "Victoria Falls, Zambia-Zimbabwe border",
+      "alt": "The massive curtain of water at Victoria Falls on the Zambia-Zimbabwe border.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Victoria Falls, Zambia-Zimbabwe, 2018."
+    }
   },
   "listings": {
     "attractions": {
@@ -14038,10 +14101,21 @@ export const photoLibrary = {
         ]
       },
       "best-time-southern-africa": {
-        "hero_image_url": "/images/stock/destinations/okavango-delta.jpg",
-        "hero_image_alt": "Okavango Delta, Botswana",
+        "hero_image_url": "/images/editorial/best-time-southern-africa/table-mountain-cape-town.jpg",
+        "hero_image_alt": "Table Mountain rising above Cape Town in South Africa.",
         "replaces": [
           "/images/stock/destinations/okavango-delta.jpg"
+        ],
+        "gallery": [
+          "/images/editorial/best-time-southern-africa/table-mountain-cape-town.jpg",
+          "/images/editorial/best-time-southern-africa/victoria-falls.jpg",
+          "/images/editorial/best-time-southern-africa/okavango-delta-zebras-aerial.jpg",
+          "/images/editorial/best-time-southern-africa/chobe-elephants-botswana.jpg",
+          "/images/editorial/best-time-southern-africa/kruger-elephant.jpg",
+          "/images/editorial/best-time-southern-africa/kruger-giraffe.jpg",
+          "/images/editorial/best-time-southern-africa/elephant-herd-zimbabwe.jpg",
+          "/images/editorial/best-time-southern-africa/sossusvlei-thorn-tree.jpg",
+          "/images/editorial/best-time-southern-africa/sossusvlei-namib-desert.jpg"
         ]
       },
       "cape-town-before-or-after-safari": {
