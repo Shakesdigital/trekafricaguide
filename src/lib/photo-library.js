@@ -13078,6 +13078,55 @@ export const photoLibrary = {
       "sha256": "8fa9906a991e9dd4a35bd27288683329e32eac750d5326fc6c71951e63050e53", "exact_subject": true, "subject": "Great blue turaco, Kibale Forest National Park, Uganda",
       "alt": "A great blue turaco at Kibale Forest National Park in Uganda.", "property": false, "requires_attribution": true,
       "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Great blue turaco at Kibale forest National Park."
+    },
+    "/images/editorial/plan-your-victoria-falls-visit/victoria-falls-bridge.jpg": {
+      "kind": "photograph", "slug": "victoria-falls-bridge", "local_path": "/images/editorial/plan-your-victoria-falls-visit/victoria-falls-bridge.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Victoria_Falls_Bridge,_Africa_092.jpg", "creator": "Adam Annfield", "license": "CC BY 2.0", "license_url": "https://creativecommons.org/licenses/by/2.0/", "checked_at": "2026-11-25",
+      "sha256": "626edd89008b3ab9d070c2874dd07b8be9d879c8d2c76fc574a15fa9f22a1ad1", "exact_subject": true, "subject": "Victoria Falls Bridge, Zambia-Zimbabwe border",
+      "alt": "The Victoria Falls Bridge spanning the Zambezi River between Zambia and Zimbabwe.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Victoria Falls Bridge, Africa."
+    },
+    "/images/editorial/plan-your-victoria-falls-visit/victoria-falls-helicopter.jpg": {
+      "kind": "photograph", "slug": "victoria-falls-helicopter", "local_path": "/images/editorial/plan-your-victoria-falls-visit/victoria-falls-helicopter.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Victoria_Falls_from_the_helicopter.jpg", "creator": "John Walker", "license": "Public domain", "license_url": "https://creativecommons.org/publicdomain/mark/1.0/", "checked_at": "2026-11-25",
+      "sha256": "1320318505e0653143a908c56eeb3cb25fda31e3678ef414d9644460ab74b27d", "exact_subject": true, "subject": "Victoria Falls from helicopter, Zambia-Zimbabwe",
+      "alt": "An aerial view of Victoria Falls from a helicopter.", "property": false, "requires_attribution": false,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Victoria Falls from the helicopter, July 2001."
+    },
+    "/images/editorial/plan-your-victoria-falls-visit/victoria-falls-livingstone.jpg": {
+      "kind": "photograph", "slug": "victoria-falls-livingstone", "local_path": "/images/editorial/plan-your-victoria-falls-visit/victoria-falls-livingstone.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Mosi-oa-Tunya,_Livingstone_(20260519-P1075700).jpg", "creator": "Matti Blume", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "180ebc509e6c04772f240aa30b8980144c39d22e4724b3c3da71f23ca19b4196", "exact_subject": true, "subject": "Mosi-oa-Tunya (Victoria Falls), Livingstone, Zambia",
+      "alt": "The Mosi-oa-Tunya waterfall near Livingstone in Zambia.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Mosi-oa-Tunya, Livingstone, Zambia, 2026."
+    },
+    "/images/editorial/plan-your-victoria-falls-visit/victoria-falls-main.jpg": {
+      "kind": "photograph", "slug": "victoria-falls-main", "local_path": "/images/editorial/plan-your-victoria-falls-visit/victoria-falls-main.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Cataratas_Victoria,_Zambia-Zimbabue,_2018-07-27,_DD_05.jpg", "creator": "Diego Delso", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "ca249aca80d5a881b174a07569b22ce53d5d2a019b2dfd80a86f68f0381aaffb", "exact_subject": true, "subject": "Victoria Falls, Zambia-Zimbabwe border",
+      "alt": "The massive curtain of water at Victoria Falls on the Zambia-Zimbabwe border.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Victoria Falls, Zambia-Zimbabwe, 2018."
+    },
+    "/images/editorial/plan-your-victoria-falls-visit/victoria-falls-moonbow.jpg": {
+      "kind": "photograph", "slug": "victoria-falls-moonbow", "local_path": "/images/editorial/plan-your-victoria-falls-visit/victoria-falls-moonbow.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Moonbow_at_Victoria_Falls.jpg", "creator": "Scolopendra33", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "20f308bdbc90a0d0d3ba63eaf1ccca5f3341b69e89fdb933270684d0c77c3aa3", "exact_subject": true, "subject": "Moonbow at Victoria Falls, Zambia-Zimbabwe",
+      "alt": "A lunar rainbow (moonbow) visible in the spray of Victoria Falls at night.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Moonbow at Victoria Falls."
+    },
+    "/images/editorial/plan-your-victoria-falls-visit/victoria-falls-spray.jpg": {
+      "kind": "photograph", "slug": "victoria-falls-spray", "local_path": "/images/editorial/plan-your-victoria-falls-visit/victoria-falls-spray.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Victoria_Falls_-_VicFalls3465.jpg", "creator": "lumoplank", "license": "CC0", "license_url": "https://creativecommons.org/publicdomain/zero/1.0/", "checked_at": "2026-11-25",
+      "sha256": "9ca53ebe0dee498abd7e70ce61cab247e5a9a5a94277ac7d27fe8ee1bccba55b", "exact_subject": true, "subject": "Victoria Falls spray cloud, Zambia-Zimbabwe",
+      "alt": "The rising spray cloud from Victoria Falls visible from afar.", "property": false, "requires_attribution": false,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Victoria Falls, spray cloud."
+    },
+    "/images/editorial/plan-your-victoria-falls-visit/victoria-falls-zimbabwe-side.jpg": {
+      "kind": "photograph", "slug": "victoria-falls-zimbabwe-side", "local_path": "/images/editorial/plan-your-victoria-falls-visit/victoria-falls-zimbabwe-side.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Cataratas_Victoria,_Zambia-Zimbabue,_2018-07-27,_DD_04.jpg", "creator": "Diego Delso", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "95fc3f787843e4e4ffa25309907569b44448bfa00be51a4dd496c19e3bfa2aa6", "exact_subject": true, "subject": "Victoria Falls Zimbabwe side, Zambia-Zimbabwe border",
+      "alt": "Victoria Falls viewed from the Zimbabwe side of the Zambia-Zimbabwe border.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Victoria Falls, Zambia-Zimbabwe, 2018, DD 04."
     }
 
   },
@@ -14634,9 +14683,20 @@ export const photoLibrary = {
         ]
       },
       "plan-your-victoria-falls-visit": {
-        "hero_image_url": "https://trekafricaguide.com/images/editorial/victoria-falls-first-visit/falls-zimbabwe-main-view.jpg",
-        "hero_image_alt": "Victoria Falls on the Zimbabwe side, viewed toward Zambia with spray rising over the gorge.",
-        "replaces": []
+        "hero_image_url": "/images/editorial/plan-your-victoria-falls-visit/victoria-falls-main.jpg",
+        "hero_image_alt": "The massive curtain of water at Victoria Falls on the Zambia-Zimbabwe border.",
+        "replaces": [
+          "https://trekafricaguide.com/images/editorial/victoria-falls-first-visit/falls-zimbabwe-main-view.jpg"
+        ],
+        "gallery": [
+          "/images/editorial/plan-your-victoria-falls-visit/victoria-falls-bridge.jpg",
+          "/images/editorial/plan-your-victoria-falls-visit/victoria-falls-helicopter.jpg",
+          "/images/editorial/plan-your-victoria-falls-visit/victoria-falls-livingstone.jpg",
+          "/images/editorial/plan-your-victoria-falls-visit/victoria-falls-main.jpg",
+          "/images/editorial/plan-your-victoria-falls-visit/victoria-falls-moonbow.jpg",
+          "/images/editorial/plan-your-victoria-falls-visit/victoria-falls-spray.jpg",
+          "/images/editorial/plan-your-victoria-falls-visit/victoria-falls-zimbabwe-side.jpg"
+        ]
       }
     }
   }
