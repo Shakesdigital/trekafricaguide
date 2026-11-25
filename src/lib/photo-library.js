@@ -13372,6 +13372,160 @@ export const photoLibrary = {
       "sha256": "bd1a6305ad8e1409cadd020d2e233decb3cf0db0837fbfc9f3fbd521eb7f59f9", "exact_subject": true, "subject": "Traditional kente cloth, Volta region, Ghana",
       "alt": "Traditional kente cloth from the Volta region of Ghana.", "property": false, "requires_attribution": false,
       "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Traditional Kente of Volta region."
+    },
+    "/images/editorial/kenya-country/diani-beach.jpg": {
+      "kind": "photograph", "slug": "diani-beach", "local_path": "/images/editorial/kenya-country/diani-beach.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Kenya_Diani_Beach_23_BG.jpg", "creator": "Bingar1234", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "63e4dea31f416a8b3c55d10679e7d3c167b697e8f26abec8c42c72d20ffe03d6", "exact_subject": true, "subject": "Diani Beach, Kenya",
+      "alt": "The white sands of Diani Beach on the Kenyan coast.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Kenya Diani Beach."
+    },
+    "/images/editorial/kenya-country/giraffe-manor-nairobi.jpg": {
+      "kind": "photograph", "slug": "giraffe-manor-nairobi", "local_path": "/images/editorial/kenya-country/giraffe-manor-nairobi.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Giraffe_Manor,_Nairobi,_Kenya.jpg", "creator": "Push the button", "license": "CC BY-SA 3.0", "license_url": "https://creativecommons.org/licenses/by-sa/3.0/", "checked_at": "2026-11-25",
+      "sha256": "a90e2f6b53fab95629f651e08eb7daee46f0db642511c5b9a1137c82aa470254", "exact_subject": true, "subject": "Giraffe Manor, Nairobi, Kenya",
+      "alt": "Giraffe Manor, a famous hotel in Nairobi, Kenya.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Giraffe Manor, Nairobi, Kenya."
+    },
+    "/images/editorial/kenya-country/mara-river-crossing.jpg": {
+      "kind": "photograph", "slug": "mara-river-crossing", "local_path": "/images/editorial/kenya-country/mara-river-crossing.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Masai_Mara_National_Reserve_20_-_Mara_river_crossing.jpg", "creator": "Thomas Fuhrmann", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "4706fa9c19e77d7cea3aa1d9c1e46f2d2f077f887b8d6d2894c9c1f186d27f6b", "exact_subject": true, "subject": "Mara River crossing, Masai Mara, Kenya",
+      "alt": "A river crossing in the Masai Mara National Reserve in Kenya.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Masai Mara National Reserve, Mara river crossing."
+    },
+    "/images/editorial/kenya-country/masai-mara-lions.jpg": {
+      "kind": "photograph", "slug": "masai-mara-lions", "local_path": "/images/editorial/kenya-country/masai-mara-lions.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Lions_Family_Portrait_Masai_Mara.jpg", "creator": "Benh LIEU SONG", "license": "CC BY-SA 3.0", "license_url": "https://creativecommons.org/licenses/by-sa/3.0/", "checked_at": "2026-11-25",
+      "sha256": "81c2d0b098fc249513a7894030e5f475ac0b1344408707c2d73551f179165601", "exact_subject": true, "subject": "Lion family, Masai Mara, Kenya",
+      "alt": "A family of lions resting together in the Masai Mara in Kenya.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Lions family portrait, Masai Mara."
+    },
+    "/images/editorial/kenya-country/masai-mara-zebras.jpg": {
+      "kind": "photograph", "slug": "masai-mara-zebras", "local_path": "/images/editorial/kenya-country/masai-mara-zebras.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Three_zebras_in_Masai_Mara_National_Park,_Kenya.jpg", "creator": "Volodymyr Burdiak", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "bfb123b83f1148e8f89ab65f5186f3ff1e9106cb4dd0160e99084f61215cb638", "exact_subject": true, "subject": "Zebras, Masai Mara National Park, Kenya",
+      "alt": "Three zebras standing in the Masai Mara National Park in Kenya.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Three zebras in Masai Mara National Park, Kenya."
+    },
+    "/images/editorial/kenya-country/mount-kenya.jpg": {
+      "kind": "photograph", "slug": "mount-kenya", "local_path": "/images/editorial/kenya-country/mount-kenya.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Mount_Kenya_stitched.jpg", "creator": "Franco Pecchio", "license": "CC BY 2.0", "license_url": "https://creativecommons.org/licenses/by/2.0/", "checked_at": "2026-11-25",
+      "sha256": "38aa49563d6c4260fce67df368edd034415a2ef935ec22751ad48fa9b4d00b65", "exact_subject": true, "subject": "Mount Kenya, Kenya",
+      "alt": "The peaks of Mount Kenya rising above the clouds.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Mount Kenya, stitched panorama."
+    },
+    "/images/editorial/kenya-country/three-giraffes.jpg": {
+      "kind": "photograph", "slug": "three-giraffes", "local_path": "/images/editorial/kenya-country/three-giraffes.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Three_giraffes_01.jpg", "creator": "Byrdyak", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "d800a3639dbd4cc20381adae68d93ee949ec73f8e31e160e1f7edeb411f1e3d5", "exact_subject": true, "subject": "Three giraffes, Kenya",
+      "alt": "Three giraffes standing together in the Kenyan savanna.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Three giraffes."
+    },
+    "/images/editorial/rwanda-country/gorilla-yawn.jpg": {
+      "kind": "photograph", "slug": "gorilla-yawn", "local_path": "/images/editorial/rwanda-country/gorilla-yawn.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Mountain_gorilla_(Gorilla_beringei_beringei)_yawn.jpg", "creator": "Charles J. Sharp", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "a339522a2120807347e9d989872b1e44609c6c16d8120bb568c3f82967d53d17", "exact_subject": true, "subject": "Mountain gorilla yawning, Rwanda",
+      "alt": "A mountain gorilla yawning in the Volcanoes National Park of Rwanda.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Mountain gorilla (Gorilla beringei beringei) yawn."
+    },
+    "/images/editorial/rwanda-country/kigali-city.jpg": {
+      "kind": "photograph", "slug": "kigali-city", "local_path": "/images/editorial/rwanda-country/kigali-city.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Buildings_in_Kigali_CBD,_Rwanda_3.jpg", "creator": "Schlawgclart", "license": "CC0", "license_url": "https://creativecommons.org/publicdomain/zero/1.0/", "checked_at": "2026-11-25",
+      "sha256": "6771560202abd59a9adc84a6fde77d471100796b7ce4b0c823a3c6f845b1774e", "exact_subject": true, "subject": "Kigali Central Business District, Rwanda",
+      "alt": "Buildings in the Kigali Central Business District in Rwanda.", "property": false, "requires_attribution": false,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Buildings in Kigali CBD, Rwanda."
+    },
+    "/images/editorial/rwanda-country/kigali-genocide-monument.jpg": {
+      "kind": "photograph", "slug": "kigali-genocide-monument", "local_path": "/images/editorial/rwanda-country/kigali-genocide-monument.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:ASC_Leiden_-_Rwanda_2021_-_005_-_Genocide_Monument_2014,_University_of_Rwanda_-_Kigali.jpg", "creator": "Gerard van de Bruinhorst", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "2cfef13e837ff3c3dfce55eb56adc41c1bf860b04b3eca822e497c18d76d3b11", "exact_subject": true, "subject": "Genocide Monument, University of Rwanda, Kigali",
+      "alt": "The Genocide Monument at the University of Rwanda in Kigali.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Genocide Monument 2014, University of Rwanda, Kigali."
+    },
+    "/images/editorial/rwanda-country/lake-kivu-dawn.jpg": {
+      "kind": "photograph", "slug": "lake-kivu-dawn", "local_path": "/images/editorial/rwanda-country/lake-kivu-dawn.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Lake_Kivu_at_dawn.jpg", "creator": "Kisambira", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "c61680be98392ef55e409f5c46fac7263ffe94b67651a2f3b97d5742444caff4", "exact_subject": true, "subject": "Lake Kivu at dawn, Rwanda",
+      "alt": "Lake Kivu at dawn in Rwanda.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Lake Kivu at dawn."
+    },
+    "/images/editorial/rwanda-country/lake-kivu-island.jpg": {
+      "kind": "photograph", "slug": "lake-kivu-island", "local_path": "/images/editorial/rwanda-country/lake-kivu-island.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Amazing_Island_in_lake_Kivu.jpg", "creator": "YvanNB", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "948d7937e8d8f0e65a1c484661b25f1a3de33e3ace64d8d53999c640cb333771", "exact_subject": true, "subject": "Island in Lake Kivu, Rwanda",
+      "alt": "An island in Lake Kivu in Rwanda.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Amazing Island in Lake Kivu."
+    },
+    "/images/editorial/rwanda-country/muhabura-volcano.jpg": {
+      "kind": "photograph", "slug": "muhabura-volcano", "local_path": "/images/editorial/rwanda-country/muhabura-volcano.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:View_of_Muhabura_Volcanoe_in_Kinigi_sector,_Musanze_district,_Rwanda_afar_from_Volcanoes_Park.jpg", "creator": "Maxime Ishmax", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "184f1c3bcc6b76e2856f43c30ea554179f820a6124a2060f59b4c8dbe4fdb567", "exact_subject": true, "subject": "Muhabura Volcano, Musanze district, Rwanda",
+      "alt": "View of Muhabura Volcano in the Kinigi sector of Musanze district, Rwanda.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "View of Muhabura Volcano, Kinigi sector, Musanze district, Rwanda."
+    },
+    "/images/editorial/rwanda-country/nyungwe-sunset.jpg": {
+      "kind": "photograph", "slug": "nyungwe-sunset", "local_path": "/images/editorial/rwanda-country/nyungwe-sunset.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Sunset_over_Nyungwe_National_Park,_Rwanda.jpg", "creator": "travelmag.com", "license": "CC BY 2.0", "license_url": "https://creativecommons.org/licenses/by/2.0/", "checked_at": "2026-11-25",
+      "sha256": "0d9ae784bef3adecfb5553af043afd651eb519f07194b296db9da184ee68cdc0", "exact_subject": true, "subject": "Sunset over Nyungwe National Park, Rwanda",
+      "alt": "The sun setting over Nyungwe National Park in Rwanda.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Sunset over Nyungwe National Park, Rwanda."
+    },
+    "/images/editorial/rwanda-country/tavurvur-volcano.jpg": {
+      "kind": "photograph", "slug": "tavurvur-volcano", "local_path": "/images/editorial/rwanda-country/tavurvur-volcano.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Tavurvur_volcano_edit.jpg", "creator": "Taro Taylor", "license": "CC BY 2.0", "license_url": "https://creativecommons.org/licenses/by/2.0/", "checked_at": "2026-11-25",
+      "sha256": "18da2282e4f4e3dae7183a53a3d97424bf883a114d5ea723b0093883342b54c5", "exact_subject": true, "subject": "Tavurvur volcano, Rwanda",
+      "alt": "The Tavurvur volcano in Rwanda.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Tavurvur volcano."
+    },
+    "/images/editorial/tanzania-country/kilimanjaro-amboseli.jpg": {
+      "kind": "photograph", "slug": "kilimanjaro-amboseli", "local_path": "/images/editorial/tanzania-country/kilimanjaro-amboseli.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Kilimanjaro_from_Amboseli.jpg", "creator": "Sergey Pesterev", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "05460c0b85b50166034fdb64dc3d14bd7d436d3ba39b555ca69fbd40a8ece550", "exact_subject": true, "subject": "Kilimanjaro from Amboseli, Tanzania/Kenya border",
+      "alt": "Mount Kilimanjaro viewed from Amboseli, Tanzania.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Kilimanjaro from Amboseli."
+    },
+    "/images/editorial/tanzania-country/ngorongoro-rhino.jpg": {
+      "kind": "photograph", "slug": "ngorongoro-rhino", "local_path": "/images/editorial/tanzania-country/ngorongoro-rhino.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Ngorongoro_Spitzmaulnashorn.jpg", "creator": "Ikiwaner", "license": "GFDL 1.2", "license_url": "https://www.gnu.org/licenses/old-licenses/fdl-1.2.html", "checked_at": "2026-11-25",
+      "sha256": "8f8ed97bcc913ce4c9f18cca904d085c780bf9c3e992bf4d7b47861d23c8f689", "exact_subject": true, "subject": "Black rhinoceros, Ngorongoro Crater, Tanzania",
+      "alt": "A black rhinoceros in the Ngorongoro Crater in Tanzania.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Ngorongoro Spitzmaulnashorn (black rhino)."
+    },
+    "/images/editorial/tanzania-country/serengeti-elephant-bull.jpg": {
+      "kind": "photograph", "slug": "serengeti-elephant-bull", "local_path": "/images/editorial/tanzania-country/serengeti-elephant-bull.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Serengeti_Elefantenbulle.jpg", "creator": "Ikiwaner", "license": "GFDL 1.2", "license_url": "https://www.gnu.org/licenses/old-licenses/fdl-1.2.html", "checked_at": "2026-11-25",
+      "sha256": "baad02a71cdff373e7b617bf34a57dee8fd6807daef1f5cc854983d1b8a48e7d", "exact_subject": true, "subject": "Elephant bull, Serengeti National Park, Tanzania",
+      "alt": "A large bull elephant walking across the Serengeti plains.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Elephant bull in the Serengeti."
+    },
+    "/images/editorial/tanzania-country/serengeti-elephant-herd.jpg": {
+      "kind": "photograph", "slug": "serengeti-elephant-herd", "local_path": "/images/editorial/tanzania-country/serengeti-elephant-herd.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Serengeti_Elefantenherde1.jpg", "creator": "Ikiwaner", "license": "GFDL 1.2", "license_url": "https://www.gnu.org/licenses/old-licenses/fdl-1.2.html", "checked_at": "2026-11-25",
+      "sha256": "50dbf9275d10370a3770d2c04b780a5790e06fd3dbf68b0035d7203b4d3d5c79", "exact_subject": true, "subject": "Elephant herd, Serengeti National Park, Tanzania",
+      "alt": "A herd of elephants in the Serengeti National Park in Tanzania.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Elephant herd in the Serengeti."
+    },
+    "/images/editorial/tanzania-country/serengeti-lion.jpg": {
+      "kind": "photograph", "slug": "serengeti-lion", "local_path": "/images/editorial/tanzania-country/serengeti-lion.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:011_The_lion_king_Tryggve_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg", "creator": "Giles Laurent", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "9802dfafeb79ad4dbda7650489aa51e4daeee4a32c29b73489e315c228883818", "exact_subject": true, "subject": "Lion in Serengeti National Park, Tanzania",
+      "alt": "A male lion in the Serengeti National Park in Tanzania.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "The lion king Tryggve in the Serengeti National Park."
+    },
+    "/images/editorial/tanzania-country/zanzibar-anemone.jpg": {
+      "kind": "photograph", "slug": "zanzibar-anemone", "local_path": "/images/editorial/tanzania-country/zanzibar-anemone.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Anémona_magnífica_(Radianthus_magnifica),_Zanzíbar,_Tanzania,_2024-05-29,_DD_51.jpg", "creator": "Diego Delso", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "ed3675c5ccd3f8bc322a8ef383ebb1f60567ed3560a67f9beb297b69e5f88907", "exact_subject": true, "subject": "Magnificent sea anemone, Zanzibar, Tanzania",
+      "alt": "A magnificent sea anemone in the waters off Zanzibar, Tanzania.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Magnificent sea anemone, Zanzibar, 2024."
+    },
+    "/images/editorial/tanzania-country/zanzibar-coral.jpg": {
+      "kind": "photograph", "slug": "zanzibar-coral", "local_path": "/images/editorial/tanzania-country/zanzibar-coral.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Coral_(Sclerophytum_densa),_Zanzíbar,_Tanzania,_2024-05-29,_DD_89.jpg", "creator": "Diego Delso", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "25e6c09610dc48c68fcbf5572f39967ea7b800a890c76471eb8fe63eb7a7913e", "exact_subject": true, "subject": "Coral, Zanzibar, Tanzania",
+      "alt": "Coral formations in the waters off Zanzibar, Tanzania.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Coral (Sclerophytum densa), Zanzibar, 2024."
     }
 
   },
@@ -13925,12 +14079,19 @@ export const photoLibrary = {
         ]
       },
       "kenya": {
-        "hero_image_url": "/images/stock/destinations/amboseli-national-park.jpg",
-        "hero_image_alt": "A lone Elephant at Amboseli",
-        "replaces": [],
+        "hero_image_url": "/images/editorial/kenya-country/masai-mara-lions.jpg",
+        "hero_image_alt": "A family of lions resting together in the Masai Mara in Kenya.",
+        "replaces": [
+          "C:/Program Files/Git/images/stock/destinations/amboseli-national-park.jpg"
+        ],
         "gallery": [
-          "/images/stock/destinations/amboseli-national-park.jpg",
-          "/images/stock/starter/amboseli-national-park.jpg"
+          "/images/editorial/kenya-country/diani-beach.jpg",
+          "/images/editorial/kenya-country/giraffe-manor-nairobi.jpg",
+          "/images/editorial/kenya-country/mara-river-crossing.jpg",
+          "/images/editorial/kenya-country/masai-mara-lions.jpg",
+          "/images/editorial/kenya-country/masai-mara-zebras.jpg",
+          "/images/editorial/kenya-country/mount-kenya.jpg",
+          "/images/editorial/kenya-country/three-giraffes.jpg"
         ]
       },
       "morocco": {
@@ -13962,12 +14123,20 @@ export const photoLibrary = {
         ]
       },
       "rwanda": {
-        "hero_image_url": "/images/stock/destinations/volcanoes-national-park.jpg",
-        "hero_image_alt": "Kinigi, Ruanda (46266779462)",
-        "replaces": [],
+        "hero_image_url": "/images/editorial/rwanda-country/gorilla-yawn.jpg",
+        "hero_image_alt": "A mountain gorilla yawning in the Volcanoes National Park of Rwanda.",
+        "replaces": [
+          "C:/Program Files/Git/images/stock/destinations/volcanoes-national-park.jpg"
+        ],
         "gallery": [
-          "/images/stock/destinations/volcanoes-national-park.jpg",
-          "/images/stock/starter/volcanoes-national-park.jpg"
+          "/images/editorial/rwanda-country/gorilla-yawn.jpg",
+          "/images/editorial/rwanda-country/kigali-city.jpg",
+          "/images/editorial/rwanda-country/kigali-genocide-monument.jpg",
+          "/images/editorial/rwanda-country/lake-kivu-dawn.jpg",
+          "/images/editorial/rwanda-country/lake-kivu-island.jpg",
+          "/images/editorial/rwanda-country/muhabura-volcano.jpg",
+          "/images/editorial/rwanda-country/nyungwe-sunset.jpg",
+          "/images/editorial/rwanda-country/tavurvur-volcano.jpg"
         ]
       },
       "senegal": {
@@ -14014,12 +14183,19 @@ export const photoLibrary = {
         ]
       },
       "tanzania": {
-        "hero_image_url": "/images/stock/destinations/serengeti-national-park.jpg",
-        "hero_image_alt": "004 Sunrise at Serengeti National Park Photo by Giles Laurent",
-        "replaces": [],
+        "hero_image_url": "/images/editorial/tanzania-country/serengeti-lion.jpg",
+        "hero_image_alt": "A male lion in the Serengeti National Park in Tanzania.",
+        "replaces": [
+          "C:/Program Files/Git/images/stock/destinations/serengeti-national-park.jpg"
+        ],
         "gallery": [
-          "/images/stock/destinations/serengeti-national-park.jpg",
-          "/images/stock/starter/serengeti-national-park.jpg"
+          "/images/editorial/tanzania-country/kilimanjaro-amboseli.jpg",
+          "/images/editorial/tanzania-country/ngorongoro-rhino.jpg",
+          "/images/editorial/tanzania-country/serengeti-elephant-bull.jpg",
+          "/images/editorial/tanzania-country/serengeti-elephant-herd.jpg",
+          "/images/editorial/tanzania-country/serengeti-lion.jpg",
+          "/images/editorial/tanzania-country/zanzibar-anemone.jpg",
+          "/images/editorial/tanzania-country/zanzibar-coral.jpg"
         ]
       },
       "tunisia": {
