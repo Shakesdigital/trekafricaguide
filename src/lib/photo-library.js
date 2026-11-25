@@ -12503,6 +12503,76 @@ export const photoLibrary = {
       "sha256": "998931f78b674126935307abd3026b4dda8384bba7bf4eeae8bbbbf86f4f0f36", "exact_subject": true, "subject": "Rural landscape near Otuke, northern Uganda",
       "alt": "A rural landscape near Otuke in northern Uganda.", "property": false, "requires_attribution": false,
       "changes": "Wikimedia Commons original JPEG downloaded and resized to 1600 pixels wide; no other edits.", "exact_subject_evidence": "Commons file page title and description place the scene near Otuke in northern Uganda; the rural landscape was confirmed in the downloaded file.", "reuse_note": "CC0; commercial reuse without public attribution. No credit shown on page."
+    },
+    "/images/editorial/plan-first-east-africa-safari/blue-wildebeest-serengeti.jpg": {
+      "kind": "photograph", "slug": "blue-wildebeest-serengeti", "local_path": "/images/editorial/plan-first-east-africa-safari/blue-wildebeest-serengeti.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:040_Blue_wildebeest_with_wattled_starlings_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg", "creator": "Giles Laurent", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "6849dbeb334b99d2659ebc86c25ea2d107890908a5e3c41ae9dc059d3fb45156", "exact_subject": true, "subject": "Blue wildebeest with wattled starlings, Serengeti National Park, Tanzania",
+      "alt": "A blue wildebeest standing in the Serengeti with wattled starlings perched on its back.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Blue wildebeest with wattled starlings in the Serengeti National Park."
+    },
+    "/images/editorial/plan-first-east-africa-safari/hot-air-balloon-serengeti.jpg": {
+      "kind": "photograph", "slug": "hot-air-balloon-serengeti", "local_path": "/images/editorial/plan-first-east-africa-safari/hot-air-balloon-serengeti.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Serengeti_Balloon.jpg", "creator": "Eric Kilby", "license": "CC BY-SA 2.0", "license_url": "https://creativecommons.org/licenses/by-sa/2.0/", "checked_at": "2026-11-25",
+      "sha256": "544cb115f9a690d0baa06cdaa3917364eba8798d7f70847fa3789596f2ea962e", "exact_subject": true, "subject": "Hot air balloon over the Serengeti, Tanzania",
+      "alt": "A hot air balloon floating above the Serengeti plains at sunrise.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Hot air balloon safari over the Serengeti."
+    },
+    "/images/editorial/plan-first-east-africa-safari/juvenile-wildebeest-serengeti.jpg": {
+      "kind": "photograph", "slug": "juvenile-wildebeest-serengeti", "local_path": "/images/editorial/plan-first-east-africa-safari/juvenile-wildebeest-serengeti.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:039_Juvenile_blue_wildebeest_covered_in_mud_running_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg", "creator": "Giles Laurent", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "2eff092fb918fbe93b17cde402d634a4a0bbff8a103787fe776907ee267c596a", "exact_subject": true, "subject": "Juvenile blue wildebeest running, Serengeti National Park, Tanzania",
+      "alt": "A young wildebeest covered in mud running across the Serengeti plains.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Juvenile blue wildebeest covered in mud running in Serengeti National Park, Tanzania."
+    },
+    "/images/editorial/plan-first-east-africa-safari/kilimanjaro-amboseli.jpg": {
+      "kind": "photograph", "slug": "kilimanjaro-amboseli", "local_path": "/images/editorial/plan-first-east-africa-safari/kilimanjaro-amboseli.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Amboseli_park-_Mount_Kilimanjaro.jpg", "creator": "Lafleursauvage", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "902abd6c8b2b0168d40d709f3d5bbb207a10e33140b05a040df9322b98681f10", "exact_subject": true, "subject": "Mount Kilimanjaro viewed from Amboseli National Park, Kenya",
+      "alt": "Mount Kilimanjaro rising above the plains of Amboseli National Park in Kenya.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Amboseli park with Mount Kilimanjaro in the background."
+    },
+    "/images/editorial/plan-first-east-africa-safari/lions-masai-mara.jpg": {
+      "kind": "photograph", "slug": "lions-masai-mara", "local_path": "/images/editorial/plan-first-east-africa-safari/lions-masai-mara.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Lions_Family_Portrait_Masai_Mara.jpg", "creator": "Benh LIEU SONG", "license": "CC BY-SA 3.0", "license_url": "https://creativecommons.org/licenses/by-sa/3.0/", "checked_at": "2026-11-25",
+      "sha256": "81c2d0b098fc249513a7894030e5f475ac0b1344408707c2d73551f179165601", "exact_subject": true, "subject": "Lion family portrait, Masai Mara, Kenya",
+      "alt": "A family of lions resting together in the Masai Mara in Kenya.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Lions family portrait in the Masai Mara."
+    },
+    "/images/editorial/plan-first-east-africa-safari/savanna-taita-hills-kenya.jpg": {
+      "kind": "photograph", "slug": "savanna-taita-hills-kenya", "local_path": "/images/editorial/plan-first-east-africa-safari/savanna-taita-hills-kenya.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Savanna_towards_the_south-east_from_the_south-west_of_Taita_Hills_Game_Lodge_within_the_Taita_Hills_Wildlife_Sanctuary_in_Kenya.jpg", "creator": "CT Cooper", "license": "CC BY 3.0", "license_url": "https://creativecommons.org/licenses/by/3.0/", "checked_at": "2026-11-25",
+      "sha256": "0f49335d27d1c1b06855eca3b06aef94ef2d735f06fbfdc23e0fc93f6559fee2", "exact_subject": true, "subject": "East African savanna, Taita Hills, Kenya",
+      "alt": "Open savanna landscape with acacia trees in the Taita Hills of Kenya.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Savanna landscape in Taita Hills Wildlife Sanctuary, Kenya."
+    },
+    "/images/editorial/plan-first-east-africa-safari/two-zebras-ngorongoro.jpg": {
+      "kind": "photograph", "slug": "two-zebras-ngorongoro", "local_path": "/images/editorial/plan-first-east-africa-safari/two-zebras-ngorongoro.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Two_zebras_in_Ngorongoro_Crater.jpg", "creator": "Roryjm0", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "0f48cf0deb3eb85fd3d672e0e02b610aefa3b14b3cbdfb6144d33a52c098d6a2", "exact_subject": true, "subject": "Two zebras in Ngorongoro Crater, Tanzania",
+      "alt": "Two zebras standing together on the Ngorongoro Crater floor.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Two zebras in Ngorongoro Crater."
+    },
+    "/images/editorial/plan-first-east-africa-safari/wattled-starling-serengeti.jpg": {
+      "kind": "photograph", "slug": "wattled-starling-serengeti", "local_path": "/images/editorial/plan-first-east-africa-safari/wattled-starling-serengeti.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Wattled_starling_(Creatophora_cinerea)_female_on_wildebeest_Serengeti.jpg", "creator": "Charles J. Sharp", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "d999a76190ac217595d953547e9a97a0245854e27f27cc4b5a2bb2944e9bbe15", "exact_subject": true, "subject": "Wattled starling on a wildebeest, Serengeti National Park, Tanzania",
+      "alt": "A wattled starling perched on the back of a wildebeest in the Serengeti.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Wattled starling (Creatophora cinerea) female, on wildebeest, Serengeti National Park, Tanzania."
+    },
+    "/images/editorial/plan-first-east-africa-safari/wildebeest-migration-serengeti.jpg": {
+      "kind": "photograph", "slug": "wildebeest-migration-serengeti", "local_path": "/images/editorial/plan-first-east-africa-safari/wildebeest-migration-serengeti.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Serengeti_wildebeest_migration_JF.jpg", "creator": "Wolves201", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "5cfac934c48a8b29609d24254d4585b550c94882974544c4d215e8affaf181d1", "exact_subject": true, "subject": "Wildebeest crossing the Grumeti River, Serengeti National Park, Tanzania",
+      "alt": "Wildebeest crossing a shallow river in the Serengeti during the annual migration.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "The wildebeest are crossing a small part of the Grumeti River in the western corridor in Serengeti."
+    },
+    "/images/editorial/plan-first-east-africa-safari/zebras-ngorongoro-crater.jpg": {
+      "kind": "photograph", "slug": "zebras-ngorongoro-crater", "local_path": "/images/editorial/plan-first-east-africa-safari/zebras-ngorongoro-crater.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Zebras_Ngorongoro_Crater.jpg", "creator": "Muhammad Mahdi Karim", "license": "GFDL 1.2", "license_url": "https://www.gnu.org/licenses/old-licenses/fdl-1.2.html", "checked_at": "2026-11-25",
+      "sha256": "0f8acf189b1d716c56bb58e5a7ec51c0f698e00031ba1710f0ad5b6318cfe9b6", "exact_subject": true, "subject": "Zebras in Ngorongoro Crater, Tanzania",
+      "alt": "Zebras grazing on the floor of Ngorongoro Crater in Tanzania.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Zebras in Ngorongoro Crater."
     }
   },
   "listings": {
@@ -13947,10 +14017,22 @@ export const photoLibrary = {
         "replaces": []
       },
       "plan-first-east-africa-safari": {
-        "hero_image_url": "/images/stock/destinations/maasai-mara.jpg",
-        "hero_image_alt": "Acacia tree on Maasai Mara landscape, Kenya",
+        "hero_image_url": "/images/editorial/plan-first-east-africa-safari/wildebeest-migration-serengeti.jpg",
+        "hero_image_alt": "Wildebeest crossing the Grumeti River during the annual migration in the Serengeti.",
         "replaces": [
           "/images/stock/destinations/maasai-mara.jpg"
+        ],
+        "gallery": [
+          "/images/editorial/plan-first-east-africa-safari/wildebeest-migration-serengeti.jpg",
+          "/images/editorial/plan-first-east-africa-safari/blue-wildebeest-serengeti.jpg",
+          "/images/editorial/plan-first-east-africa-safari/juvenile-wildebeest-serengeti.jpg",
+          "/images/editorial/plan-first-east-africa-safari/wattled-starling-serengeti.jpg",
+          "/images/editorial/plan-first-east-africa-safari/zebras-ngorongoro-crater.jpg",
+          "/images/editorial/plan-first-east-africa-safari/two-zebras-ngorongoro.jpg",
+          "/images/editorial/plan-first-east-africa-safari/kilimanjaro-amboseli.jpg",
+          "/images/editorial/plan-first-east-africa-safari/lions-masai-mara.jpg",
+          "/images/editorial/plan-first-east-africa-safari/hot-air-balloon-serengeti.jpg",
+          "/images/editorial/plan-first-east-africa-safari/savanna-taita-hills-kenya.jpg"
         ]
       },
       "plan-your-victoria-falls-visit": {
