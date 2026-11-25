@@ -12973,6 +12973,62 @@ export const photoLibrary = {
       "sha256": "1037464b496f305af6d9d2564898846cc7bfb75fb5d89c1147dd80f035742ea9", "exact_subject": true, "subject": "Zulu reed dance ceremony, South Africa",
       "alt": "Participants in the Zulu reed dance ceremony in South Africa.", "property": false, "requires_attribution": true,
       "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "South Africa - Zulu reed dance ceremony."
+    },
+    "/images/editorial/ghana-senegal-slow-travel/cape-coast-castle.jpg": {
+      "kind": "photograph", "slug": "cape-coast-castle", "local_path": "/images/editorial/ghana-senegal-slow-travel/cape-coast-castle.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Castle,_Cape_Coast_(P1100223).jpg", "creator": "Matti Blume", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "7a9a9668f9ff93c66e3717407b6c78ddd28b5be5df6633c31b523bb84114dd2e", "exact_subject": true, "subject": "Cape Coast Castle, Ghana",
+      "alt": "The historic Cape Coast Castle in Ghana overlooking the Atlantic.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Castle, Cape Coast, Ghana."
+    },
+    "/images/editorial/ghana-senegal-slow-travel/dakar-sunset-gorree.jpg": {
+      "kind": "photograph", "slug": "dakar-sunset-gorree", "local_path": "/images/editorial/ghana-senegal-slow-travel/dakar-sunset-gorree.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Gorée_2024_-_coucher_de_soleil_sur_Dakar_-_25.jpg", "creator": "Fawaz.tairou", "license": "CC BY 4.0", "license_url": "", "checked_at": "2026-11-25",
+      "sha256": "3750d54cbcf5e416887409753d3494f3649c98cbe52ef703f2544bb7109b09db", "exact_subject": true, "subject": "Sunset over Dakar from Gorée, Senegal",
+      "alt": "The sun setting over Dakar, Senegal, viewed from Gorée Island.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Gorée 2024 - sunset over Dakar."
+    },
+    "/images/editorial/ghana-senegal-slow-travel/ghana-street-market.jpg": {
+      "kind": "photograph", "slug": "ghana-street-market", "local_path": "/images/editorial/ghana-senegal-slow-travel/ghana-street-market.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Ghana_Street_Market.jpg", "creator": "Fanti Salms", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "95566056e4a18a975e5e73577142f8c3675969f9381a371a6068aa2c0c1a8bce", "exact_subject": true, "subject": "Street market, Ghana",
+      "alt": "A bustling street market in Ghana with vendors and local goods.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Ghana Street Market."
+    },
+    "/images/editorial/ghana-senegal-slow-travel/kente-weaving-ghana.jpg": {
+      "kind": "photograph", "slug": "kente-weaving-ghana", "local_path": "/images/editorial/ghana-senegal-slow-travel/kente-weaving-ghana.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Kente_weaving_in_Ghana.jpg", "creator": "Fquasie", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "1e65224fcdf51ada822a6f02208061a3d8716f41a04d3a3436b08a2a739e3285", "exact_subject": true, "subject": "Kente weaving, Ghana",
+      "alt": "Traditional kente cloth being woven on a loom in Ghana.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Kente weaving in Ghana."
+    },
+    "/images/editorial/ghana-senegal-slow-travel/kente-weaving-northern-ghana.jpg": {
+      "kind": "photograph", "slug": "kente-weaving-northern-ghana", "local_path": "/images/editorial/ghana-senegal-slow-travel/kente-weaving-northern-ghana.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Weaving_of_smock_material_(Kente)_in_Northern_Ghana_01.jpg", "creator": "Sir Amugi", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "bed875806ce0864e0011a9ad0b537ee24dc66d48ccbf206921ed79fe63789b96", "exact_subject": true, "subject": "Kente smock weaving, Northern Ghana",
+      "alt": "Weaving of smock material (kente) in Northern Ghana.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Weaving of smock material (Kente) in Northern Ghana."
+    },
+    "/images/editorial/ghana-senegal-slow-travel/lac-rose-senegal.jpg": {
+      "kind": "photograph", "slug": "lac-rose-senegal", "local_path": "/images/editorial/ghana-senegal-slow-travel/lac-rose-senegal.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Lac_Rose_in_Senegal.jpg", "creator": "Arnault", "license": "CC BY-SA 2.0", "license_url": "https://creativecommons.org/licenses/by-sa/2.0/", "checked_at": "2026-11-25",
+      "sha256": "5219a102999620f1915bab7dc781658b800bfd58f1d599f2d7abf2c2fccb58e1", "exact_subject": true, "subject": "Lac Rose (Pink Lake), Senegal",
+      "alt": "The pink waters of Lac Rose in Senegal.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Lac Rose in Senegal."
+    },
+    "/images/editorial/ghana-senegal-slow-travel/pointe-almadies-senegal.jpg": {
+      "kind": "photograph", "slug": "pointe-almadies-senegal", "local_path": "/images/editorial/ghana-senegal-slow-travel/pointe-almadies-senegal.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Pointe_des_Almadies_-_Senegal.jpg", "creator": "Jeff Attaway", "license": "CC BY 2.0", "license_url": "https://creativecommons.org/licenses/by/2.0/", "checked_at": "2026-11-25",
+      "sha256": "0eccd4b35160bbec47fe495c82ac117a945513e23548e62b0e9a42b44552b29b", "exact_subject": true, "subject": "Pointe des Almadies, Senegal",
+      "alt": "The westernmost point of Africa at Pointe des Almadies in Senegal.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Pointe des Almadies, Senegal."
+    },
+    "/images/editorial/ghana-senegal-slow-travel/poultry-market-ghana.jpg": {
+      "kind": "photograph", "slug": "poultry-market-ghana", "local_path": "/images/editorial/ghana-senegal-slow-travel/poultry-market-ghana.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Poultry_market_in_Northern_Ghana_01.jpg", "creator": "Sir Amugi", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "7bc7659296c36a382745cb90b24df9dea2eafb97a1d17698de9ad4722dcac57a", "exact_subject": true, "subject": "Poultry market, Northern Ghana",
+      "alt": "A poultry market in Northern Ghana.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Poultry market in Northern Ghana."
     }
 
   },
@@ -14477,10 +14533,20 @@ export const photoLibrary = {
         ]
       },
       "ghana-senegal-slow-travel": {
-        "hero_image_url": "/images/stock/destinations/cape-coast-kakum.jpg",
-        "hero_image_alt": "CAPE COAST CASTLE, GHANA",
+        "hero_image_url": "/images/editorial/ghana-senegal-slow-travel/cape-coast-castle.jpg",
+        "hero_image_alt": "The historic Cape Coast Castle in Ghana overlooking the Atlantic.",
         "replaces": [
-          "https://images.unsplash.com/photo-1598875706250-21faaf804361?auto=format&fit=crop&w=900&q=80"
+          "C:/Program Files/Git/images/stock/destinations/cape-coast-kakum.jpg"
+        ],
+        "gallery": [
+          "/images/editorial/ghana-senegal-slow-travel/cape-coast-castle.jpg",
+          "/images/editorial/ghana-senegal-slow-travel/dakar-sunset-gorree.jpg",
+          "/images/editorial/ghana-senegal-slow-travel/ghana-street-market.jpg",
+          "/images/editorial/ghana-senegal-slow-travel/kente-weaving-ghana.jpg",
+          "/images/editorial/ghana-senegal-slow-travel/kente-weaving-northern-ghana.jpg",
+          "/images/editorial/ghana-senegal-slow-travel/lac-rose-senegal.jpg",
+          "/images/editorial/ghana-senegal-slow-travel/pointe-almadies-senegal.jpg",
+          "/images/editorial/ghana-senegal-slow-travel/poultry-market-ghana.jpg"
         ]
       },
       "plan-kibale-around-chimpanzee-trek": {
