@@ -12700,7 +12700,64 @@ export const photoLibrary = {
       "sha256": "ca249aca80d5a881b174a07569b22ce53d5d2a019b2dfd80a86f68f0381aaffb", "exact_subject": true, "subject": "Victoria Falls, Zambia-Zimbabwe border",
       "alt": "The massive curtain of water at Victoria Falls on the Zambia-Zimbabwe border.", "property": false, "requires_attribution": true,
       "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Victoria Falls, Zambia-Zimbabwe, 2018."
+    },
+    "/images/editorial/cape-town-before-or-after-safari/boulders-beach-penguin-colony.jpg": {
+      "kind": "photograph", "slug": "boulders-beach-penguin-colony", "local_path": "/images/editorial/cape-town-before-or-after-safari/boulders-beach-penguin-colony.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Simon’s_Town_(ZA),_Boulders_Beach,_Penguin_Colony_--_2024_--_3408.jpg", "creator": "Dietmar Rabich", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "f9aee4bda2245f62f78d238d308beaaf970a68a35032a5726f704e7e3fc4ee61", "exact_subject": true, "subject": "Boulders Beach penguin colony, Simon's Town, South Africa",
+      "alt": "African penguins on the white sand of Boulders Beach near Simon's Town.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Boulders Beach penguin colony, Simon's Town, 2024."
+    },
+    "/images/editorial/cape-town-before-or-after-safari/boulders-beach-penguins.jpg": {
+      "kind": "photograph", "slug": "boulders-beach-penguins", "local_path": "/images/editorial/cape-town-before-or-after-safari/boulders-beach-penguins.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Penguins_at_Boulders_Beach_04.jpg", "creator": "Satdeep Gill", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "6aea210541c6efbd68592ae0cf887a67bb4edf5996194bdc15b05c9c94f36bf1", "exact_subject": true, "subject": "African penguins, Boulders Beach, South Africa",
+      "alt": "African penguins waddling on the sand at Boulders Beach.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Penguins at Boulders Beach."
+    },
+    "/images/editorial/cape-town-before-or-after-safari/cape-town-city-bowl.jpg": {
+      "kind": "photograph", "slug": "cape-town-city-bowl", "local_path": "/images/editorial/cape-town-before-or-after-safari/cape-town-city-bowl.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Cape_Town_(ZA),_City_Bowl_--_2024_--_P1050341.jpg", "creator": "Dietmar Rabich", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "41b06dd6f3c215ab07e7fed7e57989fd8161b06f7b63a99b9c39f6dd598a18a6", "exact_subject": true, "subject": "Cape Town City Bowl, South Africa",
+      "alt": "The Cape Town city bowl nestled between Table Mountain and the harbour.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "City Bowl, Cape Town, 2024."
+    },
+    "/images/editorial/cape-town-before-or-after-safari/cape-town-waterfront.jpg": {
+      "kind": "photograph", "slug": "cape-town-waterfront", "local_path": "/images/editorial/cape-town-before-or-after-safari/cape-town-waterfront.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Cape_Town_(ZA),_Waterfront,_Kran_--_2024_--_2907.jpg", "creator": "Dietmar Rabich", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "14535c492dc1b0d6066ecafc98fff47bd53ca70d82105cfb63d37022c314d947", "exact_subject": true, "subject": "Victoria & Alfred Waterfront, Cape Town, South Africa",
+      "alt": "The Victoria & Alfred Waterfront in Cape Town with boats and historic buildings.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Waterfront, Cape Town, 2024."
+    },
+    "/images/editorial/cape-town-before-or-after-safari/cape-winelands-stellenbosch.jpg": {
+      "kind": "photograph", "slug": "cape-winelands-stellenbosch", "local_path": "/images/editorial/cape-town-before-or-after-safari/cape-winelands-stellenbosch.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Cape_Winelands_-_Stellenbosch3785.jpg", "creator": "lumoplank", "license": "CC0", "license_url": "https://creativecommons.org/publicdomain/zero/1.0/", "checked_at": "2026-11-25",
+      "sha256": "9b3ada98e3879c3f2b1e68bc79347a3037eed49e36994ce2fb6906ee87ca5ec7", "exact_subject": true, "subject": "Cape Winelands, Stellenbosch, South Africa",
+      "alt": "Vineyards in the Cape Winelands near Stellenbosch, South Africa.", "property": false, "requires_attribution": false,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Cape Winelands, Stellenbosch."
+    },
+    "/images/editorial/cape-town-before-or-after-safari/safari-giraffe-sabi-sand.jpg": {
+      "kind": "photograph", "slug": "safari-giraffe-sabi-sand", "local_path": "/images/editorial/cape-town-before-or-after-safari/safari-giraffe-sabi-sand.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Giraffe_-_South_Africa_Safari_-_Djuma_Game_Reserve_-_Sabi_Sand_-_Kruger_National_Park_(5586058113).jpg", "creator": "David Berkowitz", "license": "CC BY 2.0", "license_url": "https://creativecommons.org/licenses/by/2.0/", "checked_at": "2026-11-25",
+      "sha256": "d4971dcdbb2b5e99a8d7cae3ff2f6467f7c529db990450bf46b2eca5b900e116", "exact_subject": true, "subject": "Giraffe, Sabi Sand Game Reserve, South Africa",
+      "alt": "A giraffe walking through the Sabi Sand Game Reserve near Kruger National Park.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Giraffe in Sabi Sand, Kruger National Park area."
+    },
+    "/images/editorial/cape-town-before-or-after-safari/safari-lion-sabi-sand.jpg": {
+      "kind": "photograph", "slug": "safari-lion-sabi-sand", "local_path": "/images/editorial/cape-town-before-or-after-safari/safari-lion-sabi-sand.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Lion_-_South_Africa_Safari_-_Djuma_Game_Reserve_-_Sabi_Sand_-_Kruger_National_Park_(5586142351).jpg", "creator": "David Berkowitz", "license": "CC BY 2.0", "license_url": "https://creativecommons.org/licenses/by/2.0/", "checked_at": "2026-11-25",
+      "sha256": "cb9905cb8b436e8d51bffd98e837d244f689254fcbabf4f9cdafef60160597c7", "exact_subject": true, "subject": "Lion, Sabi Sand Game Reserve, South Africa",
+      "alt": "A male lion resting in the Sabi Sand Game Reserve near Kruger National Park.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Lion in Sabi Sand, Kruger National Park area."
+    },
+    "/images/editorial/cape-town-before-or-after-safari/table-mountain-cape-town.jpg": {
+      "kind": "photograph", "slug": "table-mountain-cape-town", "local_path": "/images/editorial/cape-town-before-or-after-safari/table-mountain-cape-town.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Cape_Town_(ZA),_Table_Mountain_--_2024_--_2825.jpg", "creator": "Dietmar Rabich", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "3645095813a6ce99e64732849d50b295ebbc85766983fb0d747b271d86d8255b", "exact_subject": true, "subject": "Table Mountain, Cape Town, South Africa",
+      "alt": "Table Mountain rising above Cape Town in South Africa.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Table Mountain, Cape Town, 2024."
     }
+
   },
   "listings": {
     "attractions": {
@@ -14119,10 +14176,20 @@ export const photoLibrary = {
         ]
       },
       "cape-town-before-or-after-safari": {
-        "hero_image_url": "/images/stock/destinations/cape-town.jpg",
-        "hero_image_alt": "Cape Town - Table Mountain seen from Company's Garden",
+        "hero_image_url": "/images/editorial/cape-town-before-or-after-safari/table-mountain-cape-town.jpg",
+        "hero_image_alt": "Table Mountain rising above Cape Town in South Africa.",
         "replaces": [
-          "/images/stock/destinations/cape-town.jpg"
+          "C:/Program Files/Git/images/stock/destinations/cape-town.jpg"
+        ],
+        "gallery": [
+          "/images/editorial/cape-town-before-or-after-safari/boulders-beach-penguin-colony.jpg",
+          "/images/editorial/cape-town-before-or-after-safari/boulders-beach-penguins.jpg",
+          "/images/editorial/cape-town-before-or-after-safari/cape-town-city-bowl.jpg",
+          "/images/editorial/cape-town-before-or-after-safari/cape-town-waterfront.jpg",
+          "/images/editorial/cape-town-before-or-after-safari/cape-winelands-stellenbosch.jpg",
+          "/images/editorial/cape-town-before-or-after-safari/safari-giraffe-sabi-sand.jpg",
+          "/images/editorial/cape-town-before-or-after-safari/safari-lion-sabi-sand.jpg",
+          "/images/editorial/cape-town-before-or-after-safari/table-mountain-cape-town.jpg"
         ]
       },
       "morocco-sahara-itinerary": {
