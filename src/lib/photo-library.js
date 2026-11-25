@@ -13127,6 +13127,55 @@ export const photoLibrary = {
       "sha256": "95fc3f787843e4e4ffa25309907569b44448bfa00be51a4dd496c19e3bfa2aa6", "exact_subject": true, "subject": "Victoria Falls Zimbabwe side, Zambia-Zimbabwe border",
       "alt": "Victoria Falls viewed from the Zimbabwe side of the Zambia-Zimbabwe border.", "property": false, "requires_attribution": true,
       "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Victoria Falls, Zambia-Zimbabwe, 2018, DD 04."
+    },
+    "/images/editorial/uganda-vs-kenya-first-time-safari/bwindi-gorilla.jpg": {
+      "kind": "photograph", "slug": "bwindi-gorilla", "local_path": "/images/editorial/uganda-vs-kenya-first-time-safari/bwindi-gorilla.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Gorilla_in_Bwindi_Impenetrable_National_Park.jpg", "creator": "Robert from Uganda gorilla safari", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "51d8ef29bfb41db0d2276602cbc634557ff116c3a755674631defa828a12cd41", "exact_subject": true, "subject": "Mountain gorilla, Bwindi Impenetrable National Park, Uganda",
+      "alt": "A mountain gorilla in the Bwindi Impenetrable National Park in Uganda.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Gorilla in Bwindi Impenetrable National Park."
+    },
+    "/images/editorial/uganda-vs-kenya-first-time-safari/masai-mara-river-crossing.jpg": {
+      "kind": "photograph", "slug": "masai-mara-river-crossing", "local_path": "/images/editorial/uganda-vs-kenya-first-time-safari/masai-mara-river-crossing.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Masai_Mara_National_Reserve_20_-_Mara_river_crossing.jpg", "creator": "Thomas Fuhrmann", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "4706fa9c19e77d7cea3aa1d9c1e46f2d2f077f887b8d6d2894c9c1f186d27f6b", "exact_subject": true, "subject": "Mara River crossing, Masai Mara, Kenya",
+      "alt": "A river crossing in the Masai Mara National Reserve in Kenya.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Masai Mara National Reserve, Mara river crossing."
+    },
+    "/images/editorial/uganda-vs-kenya-first-time-safari/masai-mara-zebras.jpg": {
+      "kind": "photograph", "slug": "masai-mara-zebras", "local_path": "/images/editorial/uganda-vs-kenya-first-time-safari/masai-mara-zebras.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Three_zebras_in_Masai_Mara_National_Park,_Kenya.jpg", "creator": "Volodymyr Burdiak", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "bfb123b83f1148e8f89ab65f5186f3ff1e9106cb4dd0160e99084f61215cb638", "exact_subject": true, "subject": "Zebras, Masai Mara National Park, Kenya",
+      "alt": "Three zebras standing in the Masai Mara National Park in Kenya.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Three zebras in Masai Mara National Park, Kenya."
+    },
+    "/images/editorial/uganda-vs-kenya-first-time-safari/mount-kenya-alpine.jpg": {
+      "kind": "photograph", "slug": "mount-kenya-alpine", "local_path": "/images/editorial/uganda-vs-kenya-first-time-safari/mount-kenya-alpine.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Mount_Kenya_alpine.jpg", "creator": "John Spooner", "license": "CC BY 2.0", "license_url": "https://creativecommons.org/licenses/by/2.0/", "checked_at": "2026-11-25",
+      "sha256": "aec4b975b0f0d1a87b89c20985c4c2d7eb69cb011f85a72fcf169265e4029a4e", "exact_subject": true, "subject": "Mount Kenya alpine landscape, Kenya",
+      "alt": "The alpine landscape of Mount Kenya in Kenya.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Mount Kenya alpine."
+    },
+    "/images/editorial/uganda-vs-kenya-first-time-safari/mount-kenya-skyline.jpg": {
+      "kind": "photograph", "slug": "mount-kenya-skyline", "local_path": "/images/editorial/uganda-vs-kenya-first-time-safari/mount-kenya-skyline.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Mount_Kenya_skyline.jpg", "creator": "John Spooner", "license": "CC BY 2.0", "license_url": "https://creativecommons.org/licenses/by/2.0/", "checked_at": "2026-11-25",
+      "sha256": "83dbb487524595bf1673d448100d0c0633be1822bf0f6068883eac777ae5a0a0", "exact_subject": true, "subject": "Mount Kenya skyline, Kenya",
+      "alt": "The skyline of Mount Kenya rising above the clouds.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Mount Kenya skyline."
+    },
+    "/images/editorial/uganda-vs-kenya-first-time-safari/ruhija-landscape-uganda.jpg": {
+      "kind": "photograph", "slug": "ruhija-landscape-uganda", "local_path": "/images/editorial/uganda-vs-kenya-first-time-safari/ruhija-landscape-uganda.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Paisaje_en_Ruhija,_Rubanda,_Uganda,_2024-02-01,_DD_82.jpg", "creator": "Diego Delso", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "14158babab70367e7502f8735fbd75602ee75bcea9785cac8703624ca8ce34c7", "exact_subject": true, "subject": "Ruhija landscape, Rubanda, Uganda",
+      "alt": "The green mountainous landscape of Ruhija in Rubanda, Uganda.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Landscape in Ruhija, Rubanda, Uganda, 2024."
+    },
+    "/images/editorial/uganda-vs-kenya-first-time-safari/uganda-mountain-landscape.jpg": {
+      "kind": "photograph", "slug": "uganda-mountain-landscape", "local_path": "/images/editorial/uganda-vs-kenya-first-time-safari/uganda-mountain-landscape.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Green_mountainous_landscape_in_Katerera_Subcounty_in_Western_Uganda_3.jpg", "creator": "BalukuBrian", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "13584bd5fb3397815177cce03735f18119cd8ae6155ad5a65e789b718fb1e897", "exact_subject": true, "subject": "Mountainous landscape, Katerera, Western Uganda",
+      "alt": "The green mountainous landscape of Katerera Subcounty in Western Uganda.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Green mountainous landscape in Katerera Subcounty, Western Uganda."
     }
 
   },
@@ -14504,10 +14553,19 @@ export const photoLibrary = {
     },
     "travel_articles": {
       "uganda-vs-kenya-first-time-safari": {
-        "hero_image_url": "/images/stock/destinations/bwindi-impenetrable-national-park.jpg",
-        "hero_image_alt": "Bwindi Impenetrable National Park 02",
+        "hero_image_url": "/images/editorial/uganda-vs-kenya-first-time-safari/bwindi-gorilla.jpg",
+        "hero_image_alt": "A mountain gorilla in the Bwindi Impenetrable National Park in Uganda.",
         "replaces": [
-          "/images/stock/destinations/bwindi-impenetrable-national-park.jpg"
+          "C:/Program Files/Git/images/stock/destinations/bwindi-impenetrable-national-park"
+        ],
+        "gallery": [
+          "/images/editorial/uganda-vs-kenya-first-time-safari/bwindi-gorilla.jpg",
+          "/images/editorial/uganda-vs-kenya-first-time-safari/masai-mara-river-crossing.jpg",
+          "/images/editorial/uganda-vs-kenya-first-time-safari/masai-mara-zebras.jpg",
+          "/images/editorial/uganda-vs-kenya-first-time-safari/mount-kenya-alpine.jpg",
+          "/images/editorial/uganda-vs-kenya-first-time-safari/mount-kenya-skyline.jpg",
+          "/images/editorial/uganda-vs-kenya-first-time-safari/ruhija-landscape-uganda.jpg",
+          "/images/editorial/uganda-vs-kenya-first-time-safari/uganda-mountain-landscape.jpg"
         ]
       },
       "combine-serengeti-and-zanzibar": {
