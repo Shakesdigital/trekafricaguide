@@ -12826,6 +12826,55 @@ export const photoLibrary = {
       "sha256": "1767650901ca608c7182c39a7a53c495645e9a7674a5e881997b9fc740e5a879", "exact_subject": true, "subject": "Sahara dunes, Morocco",
       "alt": "Golden sand dunes of the Sahara Desert in Morocco at sunset.", "property": false, "requires_attribution": true,
       "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Morocco Sahara dunes, December 2005."
+    },
+    "/images/editorial/cairo-giza-without-burning-out/cairo-citadel-scenes.jpg": {
+      "kind": "photograph", "slug": "cairo-citadel-scenes", "local_path": "/images/editorial/cairo-giza-without-burning-out/cairo-citadel-scenes.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Scenes_from_Cairo_Citadel_(25986).jpg", "creator": "Amr F.Nagy", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "5254544e031e49054c68f95a9a50d6e8590f9ecb6d93896914a503442c4b48b2", "exact_subject": true, "subject": "Cairo Citadel, Egypt",
+      "alt": "Views of the Cairo Citadel and its historic fortifications.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Scenes from Cairo Citadel."
+    },
+    "/images/editorial/cairo-giza-without-burning-out/cairo-skyline-nile.jpg": {
+      "kind": "photograph", "slug": "cairo-skyline-nile", "local_path": "/images/editorial/cairo-giza-without-burning-out/cairo-skyline-nile.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Cairo_skyline,_Nile_River,_Egypt.jpg", "creator": "Vyacheslav Argenberg", "license": "CC BY 4.0", "license_url": "", "checked_at": "2026-11-25",
+      "sha256": "dcfcfdd0e0c6bbe13b74d517f635f8a76c114c2d6835874fa5778b43ed56cd94", "exact_subject": true, "subject": "Cairo skyline, Nile River, Egypt",
+      "alt": "The Cairo skyline along the Nile River in Egypt.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Cairo skyline, Nile River, Egypt."
+    },
+    "/images/editorial/cairo-giza-without-burning-out/citadel-cairo.jpg": {
+      "kind": "photograph", "slug": "citadel-cairo", "local_path": "/images/editorial/cairo-giza-without-burning-out/citadel-cairo.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Flickr_-_HuTect_ShOts_-_Citadel_of_Salah_El.Din_and_Masjid_Muhammad_Ali_قلعة_صلاح_الدين_الأيوبي_ومسجد_محمد_علي_-_Cairo_-_Egypt_-_17_04_2010_(4).jpg", "creator": "Ahmed Al.Badawy", "license": "CC BY-SA 2.0", "license_url": "https://creativecommons.org/licenses/by-sa/2.0/", "checked_at": "2026-11-25",
+      "sha256": "0e0c97ad3dbb29a0242b45e63ac3e1ea8eb80ba9ec76a22420917b3267123f59", "exact_subject": true, "subject": "Citadel of Salah El Din, Cairo, Egypt",
+      "alt": "The Citadel of Salah El Din and Mosque of Muhammad Ali in Cairo.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Citadel of Salah El Din and Masjid Muhammad Ali, Cairo, 2010."
+    },
+    "/images/editorial/cairo-giza-without-burning-out/coptic-church-cairo.jpg": {
+      "kind": "photograph", "slug": "coptic-church-cairo", "local_path": "/images/editorial/cairo-giza-without-burning-out/coptic-church-cairo.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Cairo_-_Coptic_area_-_Church_of_Saint_Barbara_-_exterior.JPG", "creator": "Daniel Mayer", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "df54c13c96aa99bedc7d5837533f04860449cf5a49f9302ded4bdd1da10453c0", "exact_subject": true, "subject": "Church of Saint Barbara, Coptic Cairo, Egypt",
+      "alt": "The exterior of the Church of Saint Barbara in Coptic Cairo.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Church of Saint Barbara, Coptic area, Cairo."
+    },
+    "/images/editorial/cairo-giza-without-burning-out/giza-pyramids.jpg": {
+      "kind": "photograph", "slug": "giza-pyramids", "local_path": "/images/editorial/cairo-giza-without-burning-out/giza-pyramids.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:All_Gizah_Pyramids.jpg", "creator": "Ricardo Liberato", "license": "CC BY-SA 2.0", "license_url": "https://creativecommons.org/licenses/by-sa/2.0/", "checked_at": "2026-11-25",
+      "sha256": "519c8fed96a0c79c925af147c96161aa5eec3d81bdacb1e14159f453c0defdf6", "exact_subject": true, "subject": "Giza Pyramids, Egypt",
+      "alt": "The pyramids of Giza standing against the Egyptian desert sky.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "All Giza Pyramids."
+    },
+    "/images/editorial/cairo-giza-without-burning-out/hanging-church-cairo.jpg": {
+      "kind": "photograph", "slug": "hanging-church-cairo", "local_path": "/images/editorial/cairo-giza-without-burning-out/hanging-church-cairo.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Cairo,_Old_Cairo,_Hanging_Church,_Egypt,_Oct_2004_edit.jpg", "creator": "Przemyslaw Idzkiewicz", "license": "CC BY-SA 2.5", "license_url": "https://creativecommons.org/licenses/by-sa/2.5/", "checked_at": "2026-11-25",
+      "sha256": "b300d53308b4622ab0ffd6a5628498037ef7e6b408840e2cf70fe0dd7689ef6e", "exact_subject": true, "subject": "Hanging Church, Old Cairo, Egypt",
+      "alt": "The Hanging Church in Old Cairo, Egypt.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Hanging Church, Old Cairo, Egypt, 2004."
+    },
+    "/images/editorial/cairo-giza-without-burning-out/khan-el-khalili-cairo.jpg": {
+      "kind": "photograph", "slug": "khan-el-khalili-cairo", "local_path": "/images/editorial/cairo-giza-without-burning-out/khan-el-khalili-cairo.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Khan_el-Khalili_2019.jpg", "creator": "Sosimoth", "license": "CC BY-SA 3.0", "license_url": "https://creativecommons.org/licenses/by-sa/3.0/", "checked_at": "2026-11-25",
+      "sha256": "81e4ac7a049cf1b5f3adc35bc518eab40e45832904cdf535bcaf0b3a997cc8ba", "exact_subject": true, "subject": "Khan el-Khalili bazaar, Cairo, Egypt",
+      "alt": "The bustling Khan el-Khalili bazaar in Islamic Cairo.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Khan el-Khalili, 2019."
     }
 
   },
@@ -14282,10 +14331,19 @@ export const photoLibrary = {
         ]
       },
       "cairo-giza-without-burning-out": {
-        "hero_image_url": "/images/stock/destinations/cairo-and-giza.jpg",
-        "hero_image_alt": "All Gizah Pyramids",
+        "hero_image_url": "/images/editorial/cairo-giza-without-burning-out/giza-pyramids.jpg",
+        "hero_image_alt": "The pyramids of Giza standing against the Egyptian desert sky.",
         "replaces": [
-          "https://images.unsplash.com/photo-1539768942893-daf53e448371?auto=format&fit=crop&w=900&q=80"
+          "https://images.unsplash.com/photo-1539768942893-daf53e448371"
+        ],
+        "gallery": [
+          "/images/editorial/cairo-giza-without-burning-out/cairo-citadel-scenes.jpg",
+          "/images/editorial/cairo-giza-without-burning-out/cairo-skyline-nile.jpg",
+          "/images/editorial/cairo-giza-without-burning-out/citadel-cairo.jpg",
+          "/images/editorial/cairo-giza-without-burning-out/coptic-church-cairo.jpg",
+          "/images/editorial/cairo-giza-without-burning-out/giza-pyramids.jpg",
+          "/images/editorial/cairo-giza-without-burning-out/hanging-church-cairo.jpg",
+          "/images/editorial/cairo-giza-without-burning-out/khan-el-khalili-cairo.jpg"
         ]
       },
       "africa-trip-safety-basics": {
