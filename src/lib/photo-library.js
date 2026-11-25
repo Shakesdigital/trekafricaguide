@@ -12756,6 +12756,76 @@ export const photoLibrary = {
       "sha256": "3645095813a6ce99e64732849d50b295ebbc85766983fb0d747b271d86d8255b", "exact_subject": true, "subject": "Table Mountain, Cape Town, South Africa",
       "alt": "Table Mountain rising above Cape Town in South Africa.", "property": false, "requires_attribution": true,
       "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Table Mountain, Cape Town, 2024."
+    },
+    "/images/editorial/morocco-sahara-itinerary/camel-trek-zagora.jpg": {
+      "kind": "photograph", "slug": "camel-trek-zagora", "local_path": "/images/editorial/morocco-sahara-itinerary/camel-trek-zagora.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Camel_trekking_for_the_tourists._Zagora,_Morocco_(5491994750).jpg", "creator": "Richard Allaway", "license": "CC BY 2.0", "license_url": "https://creativecommons.org/licenses/by/2.0/", "checked_at": "2026-11-25",
+      "sha256": "70fed7563c62fddf1635c3a9d1a5b0286285f725749b75f0a09e2ad0472f7aa3", "exact_subject": true, "subject": "Camel trekking, Zagora, Morocco",
+      "alt": "Tourists riding camels across the desert near Zagora, Morocco.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Camel trekking for tourists in Zagora, Morocco."
+    },
+    "/images/editorial/morocco-sahara-itinerary/chefchaouen-blue-streets.jpg": {
+      "kind": "photograph", "slug": "chefchaouen-blue-streets", "local_path": "/images/editorial/morocco-sahara-itinerary/chefchaouen-blue-streets.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:2018_01_(Blue)_-_Chaouen.jpg", "creator": "Fbrandao.1963", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "756a4568f2b82b1f01738babff69b246971ac5b0a835d2f650e432063417ef1a", "exact_subject": true, "subject": "Blue streets of Chefchaouen, Morocco",
+      "alt": "The blue-painted streets of Chefchaouen in the Rif Mountains of Morocco.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Blue city of Chaouen (Chefchaouen), 2018."
+    },
+    "/images/editorial/morocco-sahara-itinerary/chefchaouen-inhabitants.jpg": {
+      "kind": "photograph", "slug": "chefchaouen-inhabitants", "local_path": "/images/editorial/morocco-sahara-itinerary/chefchaouen-inhabitants.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Inhabitants_of_the_blue_city_3.jpg", "creator": "Sergey Pesterev", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "773c963bdc18e7ea6b939ca4a30f5ee1759481e3a0b07cee2582b92f361d7398", "exact_subject": true, "subject": "Inhabitants of Chefchaouen, Morocco",
+      "alt": "People walking through the blue streets of Chefchaouen in Morocco.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Inhabitants of the blue city, Chefchaouen."
+    },
+    "/images/editorial/morocco-sahara-itinerary/djebel-ayachi-atlas.jpg": {
+      "kind": "photograph", "slug": "djebel-ayachi-atlas", "local_path": "/images/editorial/morocco-sahara-itinerary/djebel-ayachi-atlas.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Djebel_Ayachi,_Eastern_High_Atlas,_Morocco.jpg", "creator": "Mounir Neddi", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "1c6aadc05a2bced0552b1ce2ae8eabccc45cb4eab42008a73b1a65bb842d03cc", "exact_subject": true, "subject": "Djebel Ayachi, Eastern High Atlas, Morocco",
+      "alt": "The rugged peaks of Djebel Ayachi in the Eastern High Atlas of Morocco.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Djebel Ayachi, Eastern High Atlas, Morocco."
+    },
+    "/images/editorial/morocco-sahara-itinerary/high-atlas-mountains.jpg": {
+      "kind": "photograph", "slug": "high-atlas-mountains", "local_path": "/images/editorial/morocco-sahara-itinerary/high-atlas-mountains.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Arhbalou_High_Atlas_Al_Haouz_Morocco_Oct25_A7CR_08381.jpg", "creator": "Timothy", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "7264a951e697ccf23b31706acfd80997bf5954dec86e39ecd538ddbc8f61278d", "exact_subject": true, "subject": "High Atlas Mountains, Al Haouz, Morocco",
+      "alt": "A view of the High Atlas Mountains in the Al Haouz region of Morocco.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Arhbalou, High Atlas, Al Haouz, Morocco."
+    },
+    "/images/editorial/morocco-sahara-itinerary/jemaa-el-fna-marrakesh.jpg": {
+      "kind": "photograph", "slug": "jemaa-el-fna-marrakesh", "local_path": "/images/editorial/morocco-sahara-itinerary/jemaa-el-fna-marrakesh.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Jamaa_El_Fna,_Marrakesh,_Morocco,_20250124_1804_7017.jpg", "creator": "Jakub Hałun", "license": "CC BY 4.0", "license_url": "", "checked_at": "2026-11-25",
+      "sha256": "a6c606e2bae0ea7d92a4640f6d37f2fce1866e3ea8e517b9721f318d496e0ee3", "exact_subject": true, "subject": "Jemaa el-Fnaa square, Marrakesh, Morocco",
+      "alt": "The bustling Jemaa el-Fnaa square in Marrakesh filled with market stalls and crowds.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Jamaa El Fna, Marrakesh, Morocco, 2025."
+    },
+    "/images/editorial/morocco-sahara-itinerary/kasbah-amridil.jpg": {
+      "kind": "photograph", "slug": "kasbah-amridil", "local_path": "/images/editorial/morocco-sahara-itinerary/kasbah-amridil.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Kasbah_Amridil,_Marocco_(قصبة_امريديل).jpg", "creator": "Petar Milošević", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "8bb55ca9dc1f18ad462bc2d4bd2e04f2f6bff788e5639fe8b48c70a465289d6a", "exact_subject": true, "subject": "Kasbah Amridil, Morocco",
+      "alt": "The historic Kasbah Amridil fortress in the Draa Valley of Morocco.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Kasbah Amridil, Morocco."
+    },
+    "/images/editorial/morocco-sahara-itinerary/ksar-taourirt-ouarzazate.jpg": {
+      "kind": "photograph", "slug": "ksar-taourirt-ouarzazate", "local_path": "/images/editorial/morocco-sahara-itinerary/ksar-taourirt-ouarzazate.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Ksar_of_Taourirt,_Ouarzazate,_Morocco_(قصبة_تاوريرت,_ⵜⴰⵡⵔⵉⵔⵜ).jpg", "creator": "Petar Milošević", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "5e6b09c6c2792d93538d89988dc9581892f87be24c5ad746155bc1358025ea73", "exact_subject": true, "subject": "Ksar of Taourirt, Ouarzazate, Morocco",
+      "alt": "The fortified Ksar of Taourirt in Ouarzazate, Morocco.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Ksar of Taourirt, Ouarzazate, Morocco."
+    },
+    "/images/editorial/morocco-sahara-itinerary/sahara-desert-morocco.jpg": {
+      "kind": "photograph", "slug": "sahara-desert-morocco", "local_path": "/images/editorial/morocco-sahara-itinerary/sahara-desert-morocco.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Sahara_Desert,_Morocco_-_51830427381.jpg", "creator": "Samson Ng", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "3cd10565d72500b716a7dbf6583a43a44380bc74019ab848faf981a9d82da5c6", "exact_subject": true, "subject": "Sahara Desert, Morocco",
+      "alt": "The vast sand dunes of the Sahara Desert in Morocco.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Sahara Desert, Morocco."
+    },
+    "/images/editorial/morocco-sahara-itinerary/sahara-dunes-morocco.jpg": {
+      "kind": "photograph", "slug": "sahara-dunes-morocco", "local_path": "/images/editorial/morocco-sahara-itinerary/sahara-dunes-morocco.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Morocco_Africa_Flickr_Rosino_December_2005_84514010_edited_by_Buchling.jpg", "creator": "Rosa Cabecinhas and Alcino Cunha", "license": "CC BY-SA 2.0", "license_url": "https://creativecommons.org/licenses/by-sa/2.0/", "checked_at": "2026-11-25",
+      "sha256": "1767650901ca608c7182c39a7a53c495645e9a7674a5e881997b9fc740e5a879", "exact_subject": true, "subject": "Sahara dunes, Morocco",
+      "alt": "Golden sand dunes of the Sahara Desert in Morocco at sunset.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Morocco Sahara dunes, December 2005."
     }
 
   },
@@ -14193,10 +14263,22 @@ export const photoLibrary = {
         ]
       },
       "morocco-sahara-itinerary": {
-        "hero_image_url": "/images/stock/destinations/sahara-dunes.jpg",
-        "hero_image_alt": "Camel Tour on Erg Chebbi riding across the dunes",
+        "hero_image_url": "/images/editorial/morocco-sahara-itinerary/sahara-dunes-morocco.jpg",
+        "hero_image_alt": "Golden sand dunes of the Sahara Desert in Morocco at sunset.",
         "replaces": [
-          "https://images.unsplash.com/photo-1489493887464-892be6d1daae?auto=format&fit=crop&w=900&q=80"
+          "https://images.unsplash.com/photo-1489493887464-892be6d1daae"
+        ],
+        "gallery": [
+          "/images/editorial/morocco-sahara-itinerary/camel-trek-zagora.jpg",
+          "/images/editorial/morocco-sahara-itinerary/chefchaouen-blue-streets.jpg",
+          "/images/editorial/morocco-sahara-itinerary/chefchaouen-inhabitants.jpg",
+          "/images/editorial/morocco-sahara-itinerary/djebel-ayachi-atlas.jpg",
+          "/images/editorial/morocco-sahara-itinerary/high-atlas-mountains.jpg",
+          "/images/editorial/morocco-sahara-itinerary/jemaa-el-fna-marrakesh.jpg",
+          "/images/editorial/morocco-sahara-itinerary/kasbah-amridil.jpg",
+          "/images/editorial/morocco-sahara-itinerary/ksar-taourirt-ouarzazate.jpg",
+          "/images/editorial/morocco-sahara-itinerary/sahara-desert-morocco.jpg",
+          "/images/editorial/morocco-sahara-itinerary/sahara-dunes-morocco.jpg"
         ]
       },
       "cairo-giza-without-burning-out": {
