@@ -13526,6 +13526,153 @@ export const photoLibrary = {
       "sha256": "25e6c09610dc48c68fcbf5572f39967ea7b800a890c76471eb8fe63eb7a7913e", "exact_subject": true, "subject": "Coral, Zanzibar, Tanzania",
       "alt": "Coral formations in the waters off Zanzibar, Tanzania.", "property": false, "requires_attribution": true,
       "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Coral (Sclerophytum densa), Zanzibar, 2024."
+    },
+    "/images/editorial/tunisia-country/el-djem-amphitheater-hdr.jpg": {
+      "kind": "photograph", "slug": "el-djem-amphitheater-hdr", "local_path": "/images/editorial/tunisia-country/el-djem-amphitheater-hdr.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Anfiteatro,_El_Jem,_Túnez,_2016-09-04,_DD_38-40_HDR.jpg", "creator": "Diego Delso", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "ee1438cd84fa7b8e4d07296a621fe36103155e77f931556cef136b8cae718a62", "exact_subject": true, "subject": "El Jem Amphitheatre, Tunisia",
+      "alt": "The Roman amphitheatre at El Jem in Tunisia, HDR view.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "El Jem amphitheatre, Tunisia, 2016."
+    },
+    "/images/editorial/tunisia-country/el-djem-amphitheater.jpg": {
+      "kind": "photograph", "slug": "el-djem-amphitheater", "local_path": "/images/editorial/tunisia-country/el-djem-amphitheater.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Amphitheater_at_El_Djem.jpg", "creator": "Agnieszka Wolska", "license": "CC BY-SA 3.0", "license_url": "https://creativecommons.org/licenses/by-sa/3.0/", "checked_at": "2026-11-25",
+      "sha256": "ab71ee73a24038e118f91e61764ac3befb1f2719ae275750f81c06461ece3ee1", "exact_subject": true, "subject": "El Jem Amphitheatre, Tunisia",
+      "alt": "The massive Roman amphitheatre at El Jem in Tunisia.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Amphitheater at El Djem."
+    },
+    "/images/editorial/tunisia-country/kairouan-mosque-mihrab.jpg": {
+      "kind": "photograph", "slug": "kairouan-mosque-mihrab", "local_path": "/images/editorial/tunisia-country/kairouan-mosque-mihrab.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Great_Mosque_of_Kairouan_mihrab_view.jpg", "creator": "IssamBarhoumi", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "f217020111152c16a16bf424aee93a113c32d37dd0715ae98504280ded8de379", "exact_subject": true, "subject": "Great Mosque of Kairouan, mihrab view, Tunisia",
+      "alt": "The mihrab of the Great Mosque of Kairouan in Tunisia.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Great Mosque of Kairouan, mihrab view."
+    },
+    "/images/editorial/tunisia-country/kairouan-mosque-minaret.jpg": {
+      "kind": "photograph", "slug": "kairouan-mosque-minaret", "local_path": "/images/editorial/tunisia-country/kairouan-mosque-minaret.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Great_Mosque_of_Kairouan_minaret_view_01.jpg", "creator": "IssamBarhoumi", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "73597a7a6240da1d39f8ef79ec0a0672b27b2386abcaad1b788cb8881e99bd81", "exact_subject": true, "subject": "Great Mosque of Kairouan, minaret view, Tunisia",
+      "alt": "The minaret of the Great Mosque of Kairouan in Tunisia.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Great Mosque of Kairouan, minaret view."
+    },
+    "/images/editorial/tunisia-country/sousse-mosque.jpg": {
+      "kind": "photograph", "slug": "sousse-mosque", "local_path": "/images/editorial/tunisia-country/sousse-mosque.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Grande_Mosquée_de_Sousse_11.jpg", "creator": "IssamBarhoumi", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "5dcb5b0b648f52185cbfb1f55a3f6915230decae4942221827445ebf0afa5f77", "exact_subject": true, "subject": "Great Mosque of Sousse, Tunisia",
+      "alt": "The Great Mosque of Sousse in Tunisia.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Grande Mosquée de Sousse."
+    },
+    "/images/editorial/tunisia-country/sousse-sailing-ship.jpg": {
+      "kind": "photograph", "slug": "sousse-sailing-ship", "local_path": "/images/editorial/tunisia-country/sousse-sailing-ship.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Sousse,_Tunisia_-_sailing_ship.jpg", "creator": "Sharon Hahn Darlin", "license": "CC BY 2.0", "license_url": "https://creativecommons.org/licenses/by/2.0/", "checked_at": "2026-11-25",
+      "sha256": "248471af036256687022e8356e30928e7c4edb14d11169451162f75ef8e1a6ac", "exact_subject": true, "subject": "Sailing ship, Sousse, Tunisia",
+      "alt": "A sailing ship in the harbour of Sousse, Tunisia.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Sousse, Tunisia - sailing ship."
+    },
+    "/images/editorial/tunisia-country/toujane-landscape.jpg": {
+      "kind": "photograph", "slug": "toujane-landscape", "local_path": "/images/editorial/tunisia-country/toujane-landscape.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Toujane_paysage.jpg", "creator": "Smailtn", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "2e94e46778d60fb1d52d15319895725e16ec06850e9364b218aa4e90e124996e", "exact_subject": true, "subject": "Toujane landscape, Tunisia",
+      "alt": "The landscape around Toujane in southern Tunisia.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Toujane paysage."
+    },
+    "/images/editorial/zambia-country/elephant-back-safari.jpg": {
+      "kind": "photograph", "slug": "elephant-back-safari", "local_path": "/images/editorial/zambia-country/elephant-back-safari.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Elephant_Back_Safari,_Zambia_(2545433221).jpg", "creator": "Joachim Huber", "license": "CC BY-SA 2.0", "license_url": "https://creativecommons.org/licenses/by-sa/2.0/", "checked_at": "2026-11-25",
+      "sha256": "93b0319d8918319c61747a530007c39d28dd97c6dd91c470439a754af70acc44", "exact_subject": true, "subject": "Elephant back safari, Zambia",
+      "alt": "An elephant back safari in Zambia.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Elephant Back Safari, Zambia."
+    },
+    "/images/editorial/zambia-country/kafue-safari-road.jpg": {
+      "kind": "photograph", "slug": "kafue-safari-road", "local_path": "/images/editorial/zambia-country/kafue-safari-road.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Safari_Road_Savanna_Kafue_Jul23_A7C_05580.jpg", "creator": "Timothy", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "54e10ef01bbd1bfa2bf237a6e613b22dfa7f68c3c1eeb26e52a31540143d5712", "exact_subject": true, "subject": "Safari road, Kafue savanna, Zambia",
+      "alt": "A safari road through the savanna of Kafue in Zambia.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Safari Road Savanna Kafue, Zambia."
+    },
+    "/images/editorial/zambia-country/luangwa-elephant.jpg": {
+      "kind": "photograph", "slug": "luangwa-elephant", "local_path": "/images/editorial/zambia-country/luangwa-elephant.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Loxodonta_africana_South_Luangwa_National_Park_(1).jpg", "creator": "Geoff Gallice", "license": "CC BY 2.0", "license_url": "https://creativecommons.org/licenses/by/2.0/", "checked_at": "2026-11-25",
+      "sha256": "076c1628be84ad8cb627a5139fb2b003a45100249f10cb54f7a54b622c0bd7eb", "exact_subject": true, "subject": "Elephant, South Luangwa National Park, Zambia",
+      "alt": "An elephant in South Luangwa National Park in Zambia.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Loxodonta africana, South Luangwa National Park."
+    },
+    "/images/editorial/zambia-country/luangwa-hyena.jpg": {
+      "kind": "photograph", "slug": "luangwa-hyena", "local_path": "/images/editorial/zambia-country/luangwa-hyena.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Sitting_Spotted_Hyena_Luangwa_Jul23_A7C_06239.jpg", "creator": "Timothy", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "9abe0cd077c0a074c57803ed0d46d0787eb4cb7f6d0d71a8a7fd3bbb674f0c17", "exact_subject": true, "subject": "Spotted hyena, Luangwa, Zambia",
+      "alt": "A spotted hyena sitting in the Luangwa valley of Zambia.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Sitting Spotted Hyena, Luangwa, Zambia."
+    },
+    "/images/editorial/zambia-country/luangwa-lion-cub.jpg": {
+      "kind": "photograph", "slug": "luangwa-lion-cub", "local_path": "/images/editorial/zambia-country/luangwa-lion-cub.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Lion_Cub_Scratching_Tree_Luangwa_Zambia_Jul23_A7C_06354.jpg", "creator": "Timothy", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "440a27650415438402cf712eced349fb64f301f875d7bf6daf76a23b228a7070", "exact_subject": true, "subject": "Lion cub scratching tree, Luangwa, Zambia",
+      "alt": "A lion cub scratching a tree in the Luangwa valley of Zambia.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Lion Cub Scratching Tree, Luangwa, Zambia."
+    },
+    "/images/editorial/zambia-country/luangwa-zebras.jpg": {
+      "kind": "photograph", "slug": "luangwa-zebras", "local_path": "/images/editorial/zambia-country/luangwa-zebras.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Zebra_Family_Luangwa_Zambia_Jul23_A7C_05903.jpg", "creator": "Timothy", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "2a016f8e3bd78ce3986e7c049d1ec5d9cfdb53e3a5298c1cc3f41dfeb2834e12", "exact_subject": true, "subject": "Zebra family, Luangwa, Zambia",
+      "alt": "A zebra family in the Luangwa valley of Zambia.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Zebra Family, Luangwa, Zambia."
+    },
+    "/images/editorial/zambia-country/victoria-falls.jpg": {
+      "kind": "photograph", "slug": "victoria-falls", "local_path": "/images/editorial/zambia-country/victoria-falls.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Cataratas_Victoria,_Zambia-Zimbabue,_2018-07-27,_DD_05.jpg", "creator": "Diego Delso", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "ca249aca80d5a881b174a07569b22ce53d5d2a019b2dfd80a86f68f0381aaffb", "exact_subject": true, "subject": "Victoria Falls, Zambia-Zimbabwe border",
+      "alt": "The massive curtain of water at Victoria Falls on the Zambia-Zimbabwe border.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Victoria Falls, Zambia-Zimbabwe, 2018."
+    },
+    "/images/editorial/cabo-verde-country/fogo-sao-filipe.jpg": {
+      "kind": "photograph", "slug": "fogo-sao-filipe", "local_path": "/images/editorial/cabo-verde-country/fogo-sao-filipe.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Fogo_São_Filipe_shop.jpg", "creator": "Cayambe", "license": "CC BY-SA 3.0", "license_url": "https://creativecommons.org/licenses/by-sa/3.0/", "checked_at": "2026-11-25",
+      "sha256": "a55b67f4247741b8a4ef758af13d68ca4b6e9e2845c498260cc047b087e3d7b5", "exact_subject": true, "subject": "São Filipe, Fogo, Cabo Verde",
+      "alt": "A shop in São Filipe on Fogo Island in Cabo Verde.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Fogo, São Filipe shop."
+    },
+    "/images/editorial/cabo-verde-country/mindelo-2.jpg": {
+      "kind": "photograph", "slug": "mindelo-2", "local_path": "/images/editorial/cabo-verde-country/mindelo-2.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Mindelo.jpg", "creator": "Inisheer", "license": "CC BY 2.0", "license_url": "https://creativecommons.org/licenses/by/2.0/", "checked_at": "2026-11-25",
+      "sha256": "4853558d42809c6f84d354dae1e021d96abda1d938ed223b008a5c5589b4eb42", "exact_subject": true, "subject": "Mindelo, São Vicente, Cabo Verde",
+      "alt": "The town of Mindelo on São Vicente Island in Cabo Verde.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Mindelo, São Vicente, Cabo Verde."
+    },
+    "/images/editorial/cabo-verde-country/mindelo.jpg": {
+      "kind": "photograph", "slug": "mindelo", "local_path": "/images/editorial/cabo-verde-country/mindelo.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Mindelo_(S_Vicente,_Cabo_Verde).JPG", "creator": "Manuel de Sousa", "license": "CC BY-SA 3.0", "license_url": "https://creativecommons.org/licenses/by-sa/3.0/", "checked_at": "2026-11-25",
+      "sha256": "253a1283470ec4d69c48a6cf5fa024a5706f120a6d321433ca7b027ac423076c", "exact_subject": true, "subject": "Mindelo, São Vicente, Cabo Verde",
+      "alt": "A view of Mindelo on São Vicente Island in Cabo Verde.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Mindelo, S. Vicente, Cabo Verde."
+    },
+    "/images/editorial/cabo-verde-country/sal-cistanche.jpg": {
+      "kind": "photograph", "slug": "sal-cistanche", "local_path": "/images/editorial/cabo-verde-country/sal-cistanche.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Cistanche_phelypaea_Sal_Cape_Verde_01.jpg", "creator": "Cayambe", "license": "CC BY-SA 3.0", "license_url": "https://creativecommons.org/licenses/by-sa/3.0/", "checked_at": "2026-11-25",
+      "sha256": "1c47dbf3029cc660d3a9a64b758a1b8b26af37f195151bd24d00f7fe29cd5e98", "exact_subject": true, "subject": "Cistanche phelypaea, Sal, Cabo Verde",
+      "alt": "The parasitic plant Cistanche phelypaea on Sal Island in Cabo Verde.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Cistanche phelypaea, Sal, Cape Verde."
+    },
+    "/images/editorial/cabo-verde-country/sal-salt-pans.jpg": {
+      "kind": "photograph", "slug": "sal-salt-pans", "local_path": "/images/editorial/cabo-verde-country/sal-salt-pans.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Cabo_Verde_Sal_Santa_Maria_salinas.jpg", "creator": "Cayambe", "license": "CC BY-SA 3.0", "license_url": "https://creativecommons.org/licenses/by-sa/3.0/", "checked_at": "2026-11-25",
+      "sha256": "6a41e89e4a9393cbced14491f4245083145e93568f714528cd120ba925aa0488", "exact_subject": true, "subject": "Santa Maria salt pans, Sal, Cabo Verde",
+      "alt": "The salt pans of Santa Maria on Sal Island in Cabo Verde.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Cabo Verde Sal, Santa Maria salinas."
+    },
+    "/images/editorial/cabo-verde-country/santa-maria-wreck-1.jpg": {
+      "kind": "photograph", "slug": "santa-maria-wreck-1", "local_path": "/images/editorial/cabo-verde-country/santa-maria-wreck-1.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Wreck_of_Cabo_de_Santa_Maria,_2010_December_-_4.jpg", "creator": "Ximonic (Simo Räsänen)", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "a37278fb497cdecfef12d2e6712993b0cf0030a47d3762b5a4aa392e89e2b8da", "exact_subject": true, "subject": "Wreck of Cabo de Santa Maria, Cabo Verde",
+      "alt": "The shipwreck of the Cabo de Santa Maria on the beach of Sal Island.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Wreck of Cabo de Santa Maria, December 2010."
+    },
+    "/images/editorial/cabo-verde-country/santa-maria-wreck-2.jpg": {
+      "kind": "photograph", "slug": "santa-maria-wreck-2", "local_path": "/images/editorial/cabo-verde-country/santa-maria-wreck-2.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Wreck_of_Cabo_de_Santa_Maria,_2010_December.jpg", "creator": "Ximonic (Simo Räsänen)", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "9750212e7f7e0ea7a5eb5df48a086ae85750ccec84be96fc91ea36f00fb67e59", "exact_subject": true, "subject": "Wreck of Cabo de Santa Maria, Cabo Verde",
+      "alt": "The rusting hull of the Cabo de Santa Maria shipwreck on Sal Island.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Wreck of Cabo de Santa Maria, December 2010."
     }
 
   },
@@ -14024,12 +14171,19 @@ export const photoLibrary = {
         ]
       },
       "cabo-verde": {
-        "hero_image_url": "/images/stock/destinations/sal-island.jpg",
-        "hero_image_alt": "Fishing boats Santa Maria, Sal, Cape Verde (4334013911)",
-        "replaces": [],
+        "hero_image_url": "/images/editorial/cabo-verde-country/santa-maria-wreck-1.jpg",
+        "hero_image_alt": "The shipwreck of the Cabo de Santa Maria on the beach of Sal Island.",
+        "replaces": [
+          "C:/Program Files/Git/images/stock/destinations/sal-island.jpg"
+        ],
         "gallery": [
-          "/images/stock/destinations/sal-island.jpg",
-          "/images/stock/starter/sal-island.jpg"
+          "/images/editorial/cabo-verde-country/fogo-sao-filipe.jpg",
+          "/images/editorial/cabo-verde-country/mindelo-2.jpg",
+          "/images/editorial/cabo-verde-country/mindelo.jpg",
+          "/images/editorial/cabo-verde-country/sal-cistanche.jpg",
+          "/images/editorial/cabo-verde-country/sal-salt-pans.jpg",
+          "/images/editorial/cabo-verde-country/santa-maria-wreck-1.jpg",
+          "/images/editorial/cabo-verde-country/santa-maria-wreck-2.jpg"
         ]
       },
       "egypt": {
@@ -14199,12 +14353,19 @@ export const photoLibrary = {
         ]
       },
       "tunisia": {
-        "hero_image_url": "/images/stock/destinations/tunis-and-sidi-bou-said.jpg",
-        "hero_image_alt": "Cafe des delices in Sidi Bou Said",
-        "replaces": [],
+        "hero_image_url": "/images/editorial/tunisia-country/el-djem-amphitheater.jpg",
+        "hero_image_alt": "The massive Roman amphitheatre at El Jem in Tunisia.",
+        "replaces": [
+          "C:/Program Files/Git/images/stock/destinations/tunis-and-sidi-bou-said.jpg"
+        ],
         "gallery": [
-          "/images/stock/destinations/tunis-and-sidi-bou-said.jpg",
-          "/images/stock/starter/tunis-and-sidi-bou-said.jpg"
+          "/images/editorial/tunisia-country/el-djem-amphitheater-hdr.jpg",
+          "/images/editorial/tunisia-country/el-djem-amphitheater.jpg",
+          "/images/editorial/tunisia-country/kairouan-mosque-mihrab.jpg",
+          "/images/editorial/tunisia-country/kairouan-mosque-minaret.jpg",
+          "/images/editorial/tunisia-country/sousse-mosque.jpg",
+          "/images/editorial/tunisia-country/sousse-sailing-ship.jpg",
+          "/images/editorial/tunisia-country/toujane-landscape.jpg"
         ]
       },
       "uganda": {
@@ -14222,12 +14383,19 @@ export const photoLibrary = {
         ]
       },
       "zambia": {
-        "hero_image_url": "/images/stock/destinations/south-luangwa.jpg",
-        "hero_image_alt": "Luangwa River",
-        "replaces": [],
+        "hero_image_url": "/images/editorial/zambia-country/luangwa-elephant.jpg",
+        "hero_image_alt": "An elephant in South Luangwa National Park in Zambia.",
+        "replaces": [
+          "C:/Program Files/Git/images/stock/destinations/south-luangwa.jpg"
+        ],
         "gallery": [
-          "/images/stock/destinations/south-luangwa.jpg",
-          "/images/stock/starter/south-luangwa.jpg"
+          "/images/editorial/zambia-country/elephant-back-safari.jpg",
+          "/images/editorial/zambia-country/kafue-safari-road.jpg",
+          "/images/editorial/zambia-country/luangwa-elephant.jpg",
+          "/images/editorial/zambia-country/luangwa-hyena.jpg",
+          "/images/editorial/zambia-country/luangwa-lion-cub.jpg",
+          "/images/editorial/zambia-country/luangwa-zebras.jpg",
+          "/images/editorial/zambia-country/victoria-falls.jpg"
         ]
       },
       "zimbabwe": {
