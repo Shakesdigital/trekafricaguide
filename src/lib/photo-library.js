@@ -12573,7 +12573,71 @@ export const photoLibrary = {
       "sha256": "0f8acf189b1d716c56bb58e5a7ec51c0f698e00031ba1710f0ad5b6318cfe9b6", "exact_subject": true, "subject": "Zebras in Ngorongoro Crater, Tanzania",
       "alt": "Zebras grazing on the floor of Ngorongoro Crater in Tanzania.", "property": false, "requires_attribution": true,
       "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Zebras in Ngorongoro Crater."
+    },
+    "/images/editorial/combine-serengeti-and-zanzibar/dhow-boat-zanzibar.jpg": {
+      "kind": "photograph", "slug": "dhow-boat-zanzibar", "local_path": "/images/editorial/combine-serengeti-and-zanzibar/dhow-boat-zanzibar.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Dhow_boat_Zanzibar.jpg", "creator": "Anton", "license": "CC BY-SA 3.0", "license_url": "https://creativecommons.org/licenses/by-sa/3.0/", "checked_at": "2026-11-25",
+      "sha256": "65a9fba17513ced3bedf0ec4a3dff661a6a28c2bf0ad0e54128152a2524d41d4", "exact_subject": true, "subject": "Traditional dhow boat, Zanzibar",
+      "alt": "A traditional wooden dhow sailing off the coast of Zanzibar.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Dhow boat in Zanzibar."
+    },
+    "/images/editorial/combine-serengeti-and-zanzibar/elephant-bull-serengeti.jpg": {
+      "kind": "photograph", "slug": "elephant-bull-serengeti", "local_path": "/images/editorial/combine-serengeti-and-zanzibar/elephant-bull-serengeti.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Serengeti_Elefantenbulle.jpg", "creator": "Ikiwaner", "license": "GFDL 1.2", "license_url": "https://www.gnu.org/licenses/old-licenses/fdl-1.2.html", "checked_at": "2026-11-25",
+      "sha256": "baad02a71cdff373e7b617bf34a57dee8fd6807daef1f5cc854983d1b8a48e7d", "exact_subject": true, "subject": "Elephant bull, Serengeti National Park, Tanzania",
+      "alt": "A large bull elephant walking across the Serengeti plains.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Elephant bull in the Serengeti."
+    },
+    "/images/editorial/combine-serengeti-and-zanzibar/giraffes-kogatende-serengeti.jpg": {
+      "kind": "photograph", "slug": "giraffes-kogatende-serengeti", "local_path": "/images/editorial/combine-serengeti-and-zanzibar/giraffes-kogatende-serengeti.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Giraffe_Trees_Kogatende_Serengeti_Nov26_A7CR_17452.jpg", "creator": "Timothy", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "6091fc8bfa8938316fdef9fea1eab397aef2bea9a86367d62368f2682ce71b9b", "exact_subject": true, "subject": "Giraffes near Kogatende, Serengeti, Tanzania",
+      "alt": "Giraffes standing among trees in the Kogatende area of the Serengeti.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Giraffes and trees in Kogatende, Serengeti."
+    },
+    "/images/editorial/combine-serengeti-and-zanzibar/masai-giraffe-serengeti.jpg": {
+      "kind": "photograph", "slug": "masai-giraffe-serengeti", "local_path": "/images/editorial/combine-serengeti-and-zanzibar/masai-giraffe-serengeti.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:042_Masai_giraffe_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg", "creator": "Giles Laurent", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "0df8b11d073d077c0288da42cafe700633de61991bda124c0da46f7f3d56c8a4", "exact_subject": true, "subject": "Masai giraffe, Serengeti National Park, Tanzania",
+      "alt": "A Masai giraffe standing in the Serengeti National Park.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Masai giraffe in the Serengeti National Park."
+    },
+    "/images/editorial/combine-serengeti-and-zanzibar/nungwi-beach-bathers.jpg": {
+      "kind": "photograph", "slug": "nungwi-beach-bathers", "local_path": "/images/editorial/combine-serengeti-and-zanzibar/nungwi-beach-bathers.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Bathers_on_Nungwi_Beach,_Zanzibar,_Tanzania.jpg", "creator": "Paul W", "license": "CC0", "license_url": "https://creativecommons.org/publicdomain/zero/1.0/", "checked_at": "2026-11-25",
+      "sha256": "960158e6bc697f3c3d0533274e482e511e7e71e47c4141561efbd944c36e98c5", "exact_subject": true, "subject": "Bathers on Nungwi Beach, Zanzibar, Tanzania",
+      "alt": "Visitors enjoying the shallow waters of Nungwi Beach in Zanzibar.", "property": false, "requires_attribution": false,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Bathers on Nungwi Beach, Zanzibar."
+    },
+    "/images/editorial/combine-serengeti-and-zanzibar/nungwi-beach-view.jpg": {
+      "kind": "photograph", "slug": "nungwi-beach-view", "local_path": "/images/editorial/combine-serengeti-and-zanzibar/nungwi-beach-view.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Nungwi_Beach,_Zanzibar,_Tanzania_(south_view_from_Z_Hotel).jpg", "creator": "Paul W", "license": "CC0", "license_url": "https://creativecommons.org/publicdomain/zero/1.0/", "checked_at": "2026-11-25",
+      "sha256": "9ccfa408f879c8e9a597dd43fbb2370240eeb67314f68407cda9e7d425b3bff9", "exact_subject": true, "subject": "Nungwi Beach, Zanzibar, Tanzania",
+      "alt": "The white sand and turquoise water of Nungwi Beach in Zanzibar.", "property": false, "requires_attribution": false,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Nungwi Beach, Zanzibar, south view from Z Hotel."
+    },
+    "/images/editorial/combine-serengeti-and-zanzibar/safari-tanzania-landscape.jpg": {
+      "kind": "photograph", "slug": "safari-tanzania-landscape", "local_path": "/images/editorial/combine-serengeti-and-zanzibar/safari-tanzania-landscape.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Safari_en_Tanzanie.jpg", "creator": "Sara-jade03", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "8dc1634f71bdf3fc53b5cb5ea437b71b420d7dd6c306da1276b5da8cf8be2251", "exact_subject": true, "subject": "Safari landscape, Tanzania",
+      "alt": "A safari vehicle crossing the Serengeti plains in Tanzania.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Safari in Tanzania."
+    },
+    "/images/editorial/combine-serengeti-and-zanzibar/serengeti-sunrise.jpg": {
+      "kind": "photograph", "slug": "serengeti-sunrise", "local_path": "/images/editorial/combine-serengeti-and-zanzibar/serengeti-sunrise.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Serengeti_Sunrise_-_Flickr_-_Eric_Kilby.jpg", "creator": "Eric Kilby", "license": "CC BY-SA 2.0", "license_url": "https://creativecommons.org/licenses/by-sa/2.0/", "checked_at": "2026-11-25",
+      "sha256": "6cf6ada36815c3d9c048c0f08f0bae84b7c6101294c2067d39f441f2c70396c6", "exact_subject": true, "subject": "Serengeti sunrise, Tanzania",
+      "alt": "The sun rising over the Serengeti plains with acacia trees silhouetted.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Serengeti sunrise."
+    },
+    "/images/editorial/combine-serengeti-and-zanzibar/stone-town-sailboat-sunset.jpg": {
+      "kind": "photograph", "slug": "stone-town-sailboat-sunset", "local_path": "/images/editorial/combine-serengeti-and-zanzibar/stone-town-sailboat-sunset.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Sail_Boat_Sunset_Stone_Town_Zanzibar_Oct26_OM3_1123.jpg", "creator": "Timothy", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "6ce40d3ed1a84be8d6271ff4d89a28f8e92211cbb7b116a85f2a529be02413e8", "exact_subject": true, "subject": "Sailboat at sunset, Stone Town, Zanzibar",
+      "alt": "A sailboat silhouetted against the sunset off Stone Town, Zanzibar.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Sail boat at sunset in Stone Town, Zanzibar."
     }
+
   },
   "listings": {
     "attractions": {
@@ -13956,10 +14020,21 @@ export const photoLibrary = {
         ]
       },
       "combine-serengeti-and-zanzibar": {
-        "hero_image_url": "/images/stock/destinations/zanzibar.jpg",
-        "hero_image_alt": "Beach Scene at Mtoni Marine - Outside Stone Town - Zanzibar - Tanzania (8869338564)",
+        "hero_image_url": "/images/editorial/combine-serengeti-and-zanzibar/safari-tanzania-landscape.jpg",
+        "hero_image_alt": "Safari vehicle crossing the Serengeti plains in Tanzania.",
         "replaces": [
           "/images/stock/destinations/zanzibar.jpg"
+        ],
+        "gallery": [
+          "/images/editorial/combine-serengeti-and-zanzibar/safari-tanzania-landscape.jpg",
+          "/images/editorial/combine-serengeti-and-zanzibar/serengeti-sunrise.jpg",
+          "/images/editorial/combine-serengeti-and-zanzibar/masai-giraffe-serengeti.jpg",
+          "/images/editorial/combine-serengeti-and-zanzibar/giraffes-kogatende-serengeti.jpg",
+          "/images/editorial/combine-serengeti-and-zanzibar/elephant-bull-serengeti.jpg",
+          "/images/editorial/combine-serengeti-and-zanzibar/nungwi-beach-view.jpg",
+          "/images/editorial/combine-serengeti-and-zanzibar/nungwi-beach-bathers.jpg",
+          "/images/editorial/combine-serengeti-and-zanzibar/dhow-boat-zanzibar.jpg",
+          "/images/editorial/combine-serengeti-and-zanzibar/stone-town-sailboat-sunset.jpg"
         ]
       },
       "best-time-southern-africa": {
