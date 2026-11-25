@@ -12924,6 +12924,55 @@ export const photoLibrary = {
       "sha256": "595d8bf571aee7fc6d15996982d6cd00b8bbce467e0c32e7905cbad0392ba103", "exact_subject": true, "subject": "Road trip, Uganda",
       "alt": "A road trip through the Pearl of Africa, Uganda.", "property": false, "requires_attribution": true,
       "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Road trip, Pearl of Africa, Uganda."
+    },
+    "/images/editorial/cultural-etiquette-local-communities/african-traditional-dance.jpg": {
+      "kind": "photograph", "slug": "african-traditional-dance", "local_path": "/images/editorial/cultural-etiquette-local-communities/african-traditional-dance.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Traditional_African_Dance-Expression_in_Motion.jpg", "creator": "Ato liferfc", "license": "CC0", "license_url": "https://creativecommons.org/publicdomain/zero/1.0/", "checked_at": "2026-11-25",
+      "sha256": "ea594e431b55d113fdf24319ca64bcc79ba9cc7a79fb3bacdacb2ba586c1fcfc", "exact_subject": true, "subject": "Traditional African dance",
+      "alt": "Traditional African dancers in motion, expressing culture through movement.", "property": false, "requires_attribution": false,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Traditional African Dance - Expression in Motion."
+    },
+    "/images/editorial/cultural-etiquette-local-communities/lekki-craft-market.jpg": {
+      "kind": "photograph", "slug": "lekki-craft-market", "local_path": "/images/editorial/cultural-etiquette-local-communities/lekki-craft-market.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Lekki_craft_market_1.jpg", "creator": "Oritsetsemaye Jemide", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "6c43c9a3d4f681377a9bd076ff7914a5adfa3d5cf9cb49c01464efa0d8f81828", "exact_subject": true, "subject": "Lekki craft market, Lagos, Nigeria",
+      "alt": "Craft stalls at the Lekki market in Lagos, Nigeria.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Lekki craft market, Lagos."
+    },
+    "/images/editorial/cultural-etiquette-local-communities/maasai-village-people.jpg": {
+      "kind": "photograph", "slug": "maasai-village-people", "local_path": "/images/editorial/cultural-etiquette-local-communities/maasai-village-people.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Maasai_Village_(21).jpg", "creator": "Zenith4237", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "b5d5f82027f2390fbee05e234db684a6f7fb6db9987b6272837d7f4e24804ca1", "exact_subject": true, "subject": "Maasai village people, Kenya/Tanzania",
+      "alt": "Members of the Maasai community in their village.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Maasai Village (21)."
+    },
+    "/images/editorial/cultural-etiquette-local-communities/maasai-village.jpg": {
+      "kind": "photograph", "slug": "maasai-village", "local_path": "/images/editorial/cultural-etiquette-local-communities/maasai-village.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Maasai_Village_(12).jpg", "creator": "Zenith4237", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "22a52348e973914883752e643943859ae28ba22aa2f9e3baae98d5dd68c5509d", "exact_subject": true, "subject": "Maasai village, Kenya/Tanzania",
+      "alt": "A traditional Maasai village with its characteristic homesteads.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Maasai Village (12)."
+    },
+    "/images/editorial/cultural-etiquette-local-communities/rosebank-craft-market.jpg": {
+      "kind": "photograph", "slug": "rosebank-craft-market", "local_path": "/images/editorial/cultural-etiquette-local-communities/rosebank-craft-market.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:African_arts_and_crafts_stalls_in_the_Rosebank_Sunday_Market_June_2026.jpg", "creator": "Nick-D", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "87dc646cb5df062148c009a25c73de75c7b7e9f6384fe043c37fbcb1e38e2ab7", "exact_subject": true, "subject": "Rosebank Sunday Market craft stalls, Johannesburg, South Africa",
+      "alt": "African arts and crafts stalls at the Rosebank Sunday Market in Johannesburg.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "African arts and crafts stalls, Rosebank Sunday Market, June 2026."
+    },
+    "/images/editorial/cultural-etiquette-local-communities/rwandan-dance.jpg": {
+      "kind": "photograph", "slug": "rwandan-dance", "local_path": "/images/editorial/cultural-etiquette-local-communities/rwandan-dance.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Traditional_Rwandan_dance_for_celebrating_victories_and_leadership.jpg", "creator": "Nibeza", "license": "CC0", "license_url": "https://creativecommons.org/publicdomain/zero/1.0/", "checked_at": "2026-11-25",
+      "sha256": "1bf9b556af283e4bd37f0f86e99c89d0f312dc2da69cca9f62541192303f9a2e", "exact_subject": true, "subject": "Traditional Rwandan dance",
+      "alt": "Traditional Rwandan dancers performing a dance of celebration.", "property": false, "requires_attribution": false,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Traditional Rwandan dance for celebrating victories and leadership."
+    },
+    "/images/editorial/cultural-etiquette-local-communities/zulu-reed-dance-ceremony.jpg": {
+      "kind": "photograph", "slug": "zulu-reed-dance-ceremony", "local_path": "/images/editorial/cultural-etiquette-local-communities/zulu-reed-dance-ceremony.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:South_Africa_-_Zulu_reed_dance_ceremony_(6482557081).jpg", "creator": "Retlaw Snellac Photography", "license": "CC BY 2.0", "license_url": "https://creativecommons.org/licenses/by/2.0/", "checked_at": "2026-11-25",
+      "sha256": "1037464b496f305af6d9d2564898846cc7bfb75fb5d89c1147dd80f035742ea9", "exact_subject": true, "subject": "Zulu reed dance ceremony, South Africa",
+      "alt": "Participants in the Zulu reed dance ceremony in South Africa.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "South Africa - Zulu reed dance ceremony."
     }
 
   },
@@ -14412,10 +14461,19 @@ export const photoLibrary = {
         ]
       },
       "cultural-etiquette-local-communities": {
-        "hero_image_url": "/images/stock/destinations/ouidah-and-ganvie.jpg",
-        "hero_image_alt": "Benin village on water Ganvié",
+        "hero_image_url": "/images/editorial/cultural-etiquette-local-communities/maasai-village.jpg",
+        "hero_image_alt": "A traditional Maasai village with its characteristic homesteads.",
         "replaces": [
-          "https://images.unsplash.com/photo-1509099836639-18ba1795216d?auto=format&fit=crop&w=900&q=80"
+          "C:/Program Files/Git/images/stock/destinations/ouidah-and-ganvie.jpg"
+        ],
+        "gallery": [
+          "/images/editorial/cultural-etiquette-local-communities/african-traditional-dance.jpg",
+          "/images/editorial/cultural-etiquette-local-communities/lekki-craft-market.jpg",
+          "/images/editorial/cultural-etiquette-local-communities/maasai-village-people.jpg",
+          "/images/editorial/cultural-etiquette-local-communities/maasai-village.jpg",
+          "/images/editorial/cultural-etiquette-local-communities/rosebank-craft-market.jpg",
+          "/images/editorial/cultural-etiquette-local-communities/rwandan-dance.jpg",
+          "/images/editorial/cultural-etiquette-local-communities/zulu-reed-dance-ceremony.jpg"
         ]
       },
       "ghana-senegal-slow-travel": {
