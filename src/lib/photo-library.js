@@ -13225,6 +13225,153 @@ export const photoLibrary = {
       "sha256": "b2b4ef74d8cc3b8b3b6a98447579032851885254d9ae696ace1c536a0fbc61da", "exact_subject": true, "subject": "Plage de Ouidah, Benin, 2013",
       "alt": "The beach at Ouidah in Benin photographed in 2013.", "property": false, "requires_attribution": true,
       "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Plage de Ouidah, Benin, 2013."
+    },
+    "/images/editorial/algeria-country/algiers-cemetery.jpg": {
+      "kind": "photograph", "slug": "algiers-cemetery", "local_path": "/images/editorial/algeria-country/algiers-cemetery.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:St._Eugene_Cemetery_(Algiers)_15.jpg", "creator": "Bernard Gagnon", "license": "CC BY 4.0", "license_url": "", "checked_at": "2026-11-25",
+      "sha256": "79a3f97d6fe22446a94fb4497e6aeb570345afd26a349bfe921c46559195eb82", "exact_subject": true, "subject": "St. Eugene Cemetery, Algiers, Algeria",
+      "alt": "The St. Eugene Cemetery in Algiers, Algeria.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "St. Eugene Cemetery, Algiers."
+    },
+    "/images/editorial/algeria-country/algiers-doors.jpg": {
+      "kind": "photograph", "slug": "algiers-doors", "local_path": "/images/editorial/algeria-country/algiers-doors.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Doors_in_Algiers,_Algeria_2.jpg", "creator": "Rachid Hamatou", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "8a1299827a5d10a91f6d96fde9768d8a9372fa0aae5a27f5ff29d4580536bc28", "exact_subject": true, "subject": "Traditional doors, Algiers, Algeria",
+      "alt": "Traditional decorated doors in Algiers, Algeria.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Doors in Algiers, Algeria."
+    },
+    "/images/editorial/algeria-country/constantine-medersa.jpg": {
+      "kind": "photograph", "slug": "constantine-medersa", "local_path": "/images/editorial/algeria-country/constantine-medersa.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Médersa_de_Constantine_02.jpg", "creator": "Bernard Gagnon", "license": "CC BY 4.0", "license_url": "", "checked_at": "2026-11-25",
+      "sha256": "3a9113a6499e4bfaee9f4dfb421349be317426e0376c55ec160c539b80eb35ac", "exact_subject": true, "subject": "Médersa de Constantine, Algeria",
+      "alt": "The historic Médersa (Islamic school) in Constantine, Algeria.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Médersa de Constantine."
+    },
+    "/images/editorial/algeria-country/hoggar-mountains.jpg": {
+      "kind": "photograph", "slug": "hoggar-mountains", "local_path": "/images/editorial/algeria-country/hoggar-mountains.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Ahaggar_Mountains_1981_62.jpg", "creator": "Smiley.toerist", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "021a8e19f08dd15a2b93fe66140b2a062fb4709eccbb3298a4d541042883bf2f", "exact_subject": true, "subject": "Ahaggar (Hoggar) Mountains, Algeria",
+      "alt": "The Ahaggar Mountains in the Sahara of southern Algeria.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Ahaggar Mountains, 1981."
+    },
+    "/images/editorial/algeria-country/tassili-cave-painting.jpg": {
+      "kind": "photograph", "slug": "tassili-cave-painting", "local_path": "/images/editorial/algeria-country/tassili-cave-painting.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:The_Tanzoumaitak_cave_painting_in_Tassili_n'ajjer.jpg", "creator": "IssamBarhoumi", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "246440e9a7ca2a608528f6be21a1c1a9c5e2bcf99855bff420f2ba448b64204f", "exact_subject": true, "subject": "Tanzoumaitak cave painting, Tassili n'Ajjer, Algeria",
+      "alt": "A prehistoric cave painting in Tassili n'Ajjer, Algeria.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Tanzoumaitak cave painting in Tassili n'Ajjer."
+    },
+    "/images/editorial/algeria-country/tassili-nomad.jpg": {
+      "kind": "photograph", "slug": "tassili-nomad", "local_path": "/images/editorial/algeria-country/tassili-nomad.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Esprit_nomade.JPG", "creator": "Hamdanmourad", "license": "CC BY-SA 3.0", "license_url": "https://creativecommons.org/licenses/by-sa/3.0/", "checked_at": "2026-11-25",
+      "sha256": "455c02753a900aaf99b2eed19ab5b337b8ba68364c4402269007ffcba1e205f5", "exact_subject": true, "subject": "Nomadic spirit, Tassili n'Ajjer, Algeria",
+      "alt": "A nomadic scene in the Tassili n'Ajjer region of the Sahara.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Esprit nomade, Tassili n'Ajjer."
+    },
+    "/images/editorial/algeria-country/teffedest-desert.jpg": {
+      "kind": "photograph", "slug": "teffedest-desert", "local_path": "/images/editorial/algeria-country/teffedest-desert.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Garet_el_Djenoun_Teffedest_Algeria.jpg", "creator": "Linus Wolf", "license": "CC BY-SA 3.0", "license_url": "https://creativecommons.org/licenses/by-sa/3.0/", "checked_at": "2026-11-25",
+      "sha256": "124abcaf4f69ca7b1e367050ba5c0b70485d2a736a393cb8209cce3054c46629", "exact_subject": true, "subject": "Garet el Djenoun, Teffedest, Algeria",
+      "alt": "The dramatic peaks of Garet el Djenoun in the Teffedest range of the Algerian Sahara.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Garet el Djenoun, Teffedest, Algeria."
+    },
+    "/images/editorial/ethiopia-country/dallol-desert.jpg": {
+      "kind": "photograph", "slug": "dallol-desert", "local_path": "/images/editorial/ethiopia-country/dallol-desert.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Ethiopia_-_Dallol.jpg", "creator": "Thomas Fuhrmann", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "b22a174de6ab9d2a43c9fa6e901546b1e0313d2090fdddb738c4e7e3b1cf376b", "exact_subject": true, "subject": "Dallol, Danakil Desert, Ethiopia",
+      "alt": "The colourful mineral formations of Dallol in the Danakil Desert, Ethiopia.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Dallol, Ethiopia."
+    },
+    "/images/editorial/ethiopia-country/danakil-salt-mining.jpg": {
+      "kind": "photograph", "slug": "danakil-salt-mining", "local_path": "/images/editorial/ethiopia-country/danakil-salt-mining.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Salt_mining_in_the_Danakil_Desert,_Ethiopia.jpg", "creator": "Barrowbob", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "ff2cdda2d947b72a475a4370021701574661f5c7475af117e6a19958b820ea44", "exact_subject": true, "subject": "Salt mining, Danakil Desert, Ethiopia",
+      "alt": "Traditional salt mining in the Danakil Desert in Ethiopia.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Salt mining in the Danakil Desert, Ethiopia."
+    },
+    "/images/editorial/ethiopia-country/gelada-female-baby.jpg": {
+      "kind": "photograph", "slug": "gelada-female-baby", "local_path": "/images/editorial/ethiopia-country/gelada-female-baby.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Southern_gelada_(Theropithecus_gelada_obscura)_female_with_baby.jpg", "creator": "Charles J. Sharp", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "7997543d49cf0af8d6b3eea2b809f54bffec7e6a9ebc3b896016298c3e8f4850", "exact_subject": true, "subject": "Southern gelada female with baby, Ethiopia",
+      "alt": "A southern gelada female with her baby in Ethiopia.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Southern gelada female with baby."
+    },
+    "/images/editorial/ethiopia-country/gelada-male.jpg": {
+      "kind": "photograph", "slug": "gelada-male", "local_path": "/images/editorial/ethiopia-country/gelada-male.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Southern_gelada_(Theropithecus_gelada_obscurus)_male.jpg", "creator": "Charles J. Sharp", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "f562e32e70b5c73fe0db1345de77c96ead5cb786e24fb6c2d85c9e18824c0e49", "exact_subject": true, "subject": "Southern gelada male, Ethiopia",
+      "alt": "A southern gelada male in the Ethiopian highlands.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Southern gelada male."
+    },
+    "/images/editorial/ethiopia-country/lalibela-sunset.jpg": {
+      "kind": "photograph", "slug": "lalibela-sunset", "local_path": "/images/editorial/ethiopia-country/lalibela-sunset.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Ethiopia_-_sunset_at_Church_of_Saint_George,_Lalibela_01.jpg", "creator": "Thomas Fuhrmann", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "68b6651801175799620ed9ae811fadddc4fba50e6ee6e8cf690f99e3fad6bd70", "exact_subject": true, "subject": "Church of Saint George, Lalibela, Ethiopia, at sunset",
+      "alt": "The Church of Saint George in Lalibela, Ethiopia, at sunset.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Sunset at Church of Saint George, Lalibela."
+    },
+    "/images/editorial/ethiopia-country/simien-mountains-1.jpg": {
+      "kind": "photograph", "slug": "simien-mountains-1", "local_path": "/images/editorial/ethiopia-country/simien-mountains-1.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Simien_Mountains_National_Park_in_Ethiopia.jpg", "creator": "Barrowbob", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "7e7a00b1dc6ff2372e89cac94d504d35024f95be4520f8163c5575a32988bda6", "exact_subject": true, "subject": "Simien Mountains National Park, Ethiopia",
+      "alt": "The dramatic peaks of the Simien Mountains National Park in Ethiopia.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Simien Mountains National Park, Ethiopia."
+    },
+    "/images/editorial/ethiopia-country/simien-mountains-2.jpg": {
+      "kind": "photograph", "slug": "simien-mountains-2", "local_path": "/images/editorial/ethiopia-country/simien-mountains-2.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Simien_Mountains_National_Park_-_Ethiopia.jpg", "creator": "Barrowbob", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "28d74455c8e3e428c5e2fc20483b3d1b6bf3ddecd3a69672030e688cfc9e5c3d", "exact_subject": true, "subject": "Simien Mountains National Park, Ethiopia",
+      "alt": "A view of the Simien Mountains National Park in Ethiopia.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Simien Mountains National Park, Ethiopia."
+    },
+    "/images/editorial/ghana-country/accra-market.jpg": {
+      "kind": "photograph", "slug": "accra-market", "local_path": "/images/editorial/ghana-country/accra-market.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Accra_Market,_Accra_(P1100247).jpg", "creator": "Matti Blume", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "f545add2b0746d3e508be320b45dc8b73f8507729ebb4791b080b67ebe9d42ca", "exact_subject": true, "subject": "Accra Market, Ghana",
+      "alt": "The bustling market in Accra, Ghana's capital.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Accra Market, Accra."
+    },
+    "/images/editorial/ghana-country/cape-coast-castle-1.jpg": {
+      "kind": "photograph", "slug": "cape-coast-castle-1", "local_path": "/images/editorial/ghana-country/cape-coast-castle-1.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Castle,_Cape_Coast_(P1100221).jpg", "creator": "Matti Blume", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "6e536f4d904660e350a9157a6318c92f459cf4f299f2d2ecb7c5113efb2084bf", "exact_subject": true, "subject": "Cape Coast Castle, Ghana",
+      "alt": "Cape Coast Castle, a historic fortification in Ghana.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Castle, Cape Coast."
+    },
+    "/images/editorial/ghana-country/cape-coast-castle-2.jpg": {
+      "kind": "photograph", "slug": "cape-coast-castle-2", "local_path": "/images/editorial/ghana-country/cape-coast-castle-2.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Castle,_Cape_Coast_(P1100223).jpg", "creator": "Matti Blume", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "7a9a9668f9ff93c66e3717407b6c78ddd28b5be5df6633c31b523bb84114dd2e", "exact_subject": true, "subject": "Cape Coast Castle, Ghana",
+      "alt": "A view of Cape Coast Castle in Ghana.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Castle, Cape Coast."
+    },
+    "/images/editorial/ghana-country/jamestown-accra.jpg": {
+      "kind": "photograph", "slug": "jamestown-accra", "local_path": "/images/editorial/ghana-country/jamestown-accra.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Jamestown,_Accra_(P1100253).jpg", "creator": "Matti Blume", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "12eb97c735765ce6b05bcd4a8037077b566a42d861d76a8c9626b05c2083988e", "exact_subject": true, "subject": "Jamestown, Accra, Ghana",
+      "alt": "The historic Jamestown district of Accra, Ghana.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Jamestown, Accra."
+    },
+    "/images/editorial/ghana-country/kente-designs.jpg": {
+      "kind": "photograph", "slug": "kente-designs", "local_path": "/images/editorial/ghana-country/kente-designs.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Kente_Designs,_Volta_region.jpg", "creator": "Warmglow", "license": "CC0", "license_url": "https://creativecommons.org/publicdomain/zero/1.0/", "checked_at": "2026-11-25",
+      "sha256": "b2b942c8d48f54ca9e868a849b39f5fce6710fc45dd5abb6e8c674488c8da9d1", "exact_subject": true, "subject": "Kente designs, Volta region, Ghana",
+      "alt": "Colourful kente cloth designs from the Volta region of Ghana.", "property": false, "requires_attribution": false,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Kente Designs, Volta region."
+    },
+    "/images/editorial/ghana-country/mole-national-park.jpg": {
+      "kind": "photograph", "slug": "mole-national-park", "local_path": "/images/editorial/ghana-country/mole-national-park.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Mole_National_Park,_Mole_Village_(P1100345-Pano-2).jpg", "creator": "Matti Blume", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "69f7ad058dc29a58e13d8d4508d376603987772ac960c156b51638cbbc4b2920", "exact_subject": true, "subject": "Mole National Park, Ghana",
+      "alt": "The landscape of Mole National Park in northern Ghana.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Mole National Park, Mole Village."
+    },
+    "/images/editorial/ghana-country/traditional-kente.jpg": {
+      "kind": "photograph", "slug": "traditional-kente", "local_path": "/images/editorial/ghana-country/traditional-kente.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Traditional_Kente_of_Volta_region.jpg", "creator": "Warmglow", "license": "CC0", "license_url": "https://creativecommons.org/publicdomain/zero/1.0/", "checked_at": "2026-11-25",
+      "sha256": "bd1a6305ad8e1409cadd020d2e233decb3cf0db0837fbfc9f3fbd521eb7f59f9", "exact_subject": true, "subject": "Traditional kente cloth, Volta region, Ghana",
+      "alt": "Traditional kente cloth from the Volta region of Ghana.", "property": false, "requires_attribution": false,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Traditional Kente of Volta region."
     }
 
   },
@@ -13678,12 +13825,19 @@ export const photoLibrary = {
     },
     "countries": {
       "algeria": {
-        "hero_image_url": "/images/editorial/algeria/camel-in-tassili-abdallahdjabi.jpg",
-        "hero_image_alt": "Camel on a rocky track in Tassili n'Ajjer near Djanet, Algeria",
-        "replaces": [],
+        "hero_image_url": "/images/editorial/algeria-country/hoggar-mountains.jpg",
+        "hero_image_alt": "The Ahaggar Mountains in the Sahara of southern Algeria.",
+        "replaces": [
+          "C:/Program Files/Git/images/editorial/algeria/camel-in-tassili-abdallahdjabi.jpg"
+        ],
         "gallery": [
-          "/images/editorial/algeria/camel-in-tassili-abdallahdjabi.jpg",
-          "/images/editorial/algeria/red-tadrart-orange-sand-algeria.jpeg"
+          "/images/editorial/algeria-country/algiers-cemetery.jpg",
+          "/images/editorial/algeria-country/algiers-doors.jpg",
+          "/images/editorial/algeria-country/constantine-medersa.jpg",
+          "/images/editorial/algeria-country/hoggar-mountains.jpg",
+          "/images/editorial/algeria-country/tassili-cave-painting.jpg",
+          "/images/editorial/algeria-country/tassili-nomad.jpg",
+          "/images/editorial/algeria-country/teffedest-desert.jpg"
         ]
       },
       "benin": {
@@ -13739,21 +13893,35 @@ export const photoLibrary = {
         ]
       },
       "ethiopia": {
-        "hero_image_url": "/images/stock/destinations/lalibela.jpg",
-        "hero_image_alt": "Bete Giyorgis 03",
-        "replaces": [],
+        "hero_image_url": "/images/editorial/ethiopia-country/lalibela-sunset.jpg",
+        "hero_image_alt": "The Church of Saint George in Lalibela, Ethiopia, at sunset.",
+        "replaces": [
+          "C:/Program Files/Git/images/stock/destinations/lalibela.jpg"
+        ],
         "gallery": [
-          "/images/stock/destinations/lalibela.jpg",
-          "/images/stock/starter/lalibela.jpg"
+          "/images/editorial/ethiopia-country/dallol-desert.jpg",
+          "/images/editorial/ethiopia-country/danakil-salt-mining.jpg",
+          "/images/editorial/ethiopia-country/gelada-female-baby.jpg",
+          "/images/editorial/ethiopia-country/gelada-male.jpg",
+          "/images/editorial/ethiopia-country/lalibela-sunset.jpg",
+          "/images/editorial/ethiopia-country/simien-mountains-1.jpg",
+          "/images/editorial/ethiopia-country/simien-mountains-2.jpg"
         ]
       },
       "ghana": {
-        "hero_image_url": "/images/stock/destinations/cape-coast-kakum.jpg",
-        "hero_image_alt": "CAPE COAST CASTLE, GHANA",
-        "replaces": [],
+        "hero_image_url": "/images/editorial/ghana-country/cape-coast-castle-1.jpg",
+        "hero_image_alt": "Cape Coast Castle, a historic fortification in Ghana.",
+        "replaces": [
+          "C:/Program Files/Git/images/stock/destinations/cape-coast-kakum.jpg"
+        ],
         "gallery": [
-          "/images/stock/destinations/cape-coast-kakum.jpg",
-          "/images/stock/starter/cape-coast-kakum.jpg"
+          "/images/editorial/ghana-country/accra-market.jpg",
+          "/images/editorial/ghana-country/cape-coast-castle-1.jpg",
+          "/images/editorial/ghana-country/cape-coast-castle-2.jpg",
+          "/images/editorial/ghana-country/jamestown-accra.jpg",
+          "/images/editorial/ghana-country/kente-designs.jpg",
+          "/images/editorial/ghana-country/mole-national-park.jpg",
+          "/images/editorial/ghana-country/traditional-kente.jpg"
         ]
       },
       "kenya": {
