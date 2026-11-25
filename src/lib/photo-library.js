@@ -13176,6 +13176,55 @@ export const photoLibrary = {
       "sha256": "13584bd5fb3397815177cce03735f18119cd8ae6155ad5a65e789b718fb1e897", "exact_subject": true, "subject": "Mountainous landscape, Katerera, Western Uganda",
       "alt": "The green mountainous landscape of Katerera Subcounty in Western Uganda.", "property": false, "requires_attribution": true,
       "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Green mountainous landscape in Katerera Subcounty, Western Uganda."
+    },
+    "/images/editorial/benin-country/cotonou-fish-market.jpg": {
+      "kind": "photograph", "slug": "cotonou-fish-market", "local_path": "/images/editorial/benin-country/cotonou-fish-market.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Fish_market_of_Cotonou_Benin.jpg", "creator": "Theresa Carpenter", "license": "CC BY-SA 2.0", "license_url": "https://creativecommons.org/licenses/by-sa/2.0/", "checked_at": "2026-11-25",
+      "sha256": "bfaf68aea8fef85398f307ab43323300aa1cbf5e6da8bc40fae0942125319f43", "exact_subject": true, "subject": "Fish market, Cotonou, Benin",
+      "alt": "The fish market in Cotonou, Benin's largest city.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Fish market of Cotonou, Benin."
+    },
+    "/images/editorial/benin-country/ganvie-pirogue.jpg": {
+      "kind": "photograph", "slug": "ganvie-pirogue", "local_path": "/images/editorial/benin-country/ganvie-pirogue.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Pirogue_à_voile_ou_pirogue_à_balancier_de_type_béninois_sur_le_fleuve_de_Ganvié_05.jpg", "creator": "Adoscam", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "8348f863cdcbed98632ff4e6127a08ad3c240e46c06255f54ecf8731a9942aaf", "exact_subject": true, "subject": "Pirogue on the Ganvié river, Benin",
+      "alt": "A traditional Beninese pirogue on the lagoon at Ganvié.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Pirogue à voile ou à balancier de type béninois sur le fleuve de Ganvié."
+    },
+    "/images/editorial/benin-country/ganvie-village.jpg": {
+      "kind": "photograph", "slug": "ganvie-village", "local_path": "/images/editorial/benin-country/ganvie-village.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Benin_village_on_water_Ganvié.jpg", "creator": "Dr. Ondřej Havelka", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "73a6e09ab38762d110e65b7245a0020ed6cf02dc9ac215e29301caca077dde70", "exact_subject": true, "subject": "Ganvié village on water, Benin",
+      "alt": "The stilt village of Ganvié on Lake Nokoué in Benin.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Benin village on water, Ganvié."
+    },
+    "/images/editorial/benin-country/mono-river-pirogue.jpg": {
+      "kind": "photograph", "slug": "mono-river-pirogue", "local_path": "/images/editorial/benin-country/mono-river-pirogue.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Large_pirogue_by_Mono_river_Benin.jpg", "creator": "Kulttuurinavigaattori", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "64fb8a04c0227bbaed8f591b9088b3a031caf899a7f15ac4a111d2a85b7c1d8b", "exact_subject": true, "subject": "Pirogue on the Mono River, Benin",
+      "alt": "A large pirogue on the Mono River in Benin.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Large pirogue by Mono river, Benin."
+    },
+    "/images/editorial/benin-country/ouidah-beach-1.jpg": {
+      "kind": "photograph", "slug": "ouidah-beach-1", "local_path": "/images/editorial/benin-country/ouidah-beach-1.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Beach_of_Ouidah_Benin_2.jpg", "creator": "jbdodane", "license": "CC BY 2.0", "license_url": "https://creativecommons.org/licenses/by/2.0/", "checked_at": "2026-11-25",
+      "sha256": "cd8e508ddaccababe044db57989d44e5a9392ccae05a63441dafb68bcbebcdbe", "exact_subject": true, "subject": "Ouidah beach, Benin",
+      "alt": "The beach at Ouidah in Benin.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Beach of Ouidah, Benin."
+    },
+    "/images/editorial/benin-country/ouidah-beach-2.jpg": {
+      "kind": "photograph", "slug": "ouidah-beach-2", "local_path": "/images/editorial/benin-country/ouidah-beach-2.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Beach_of_Ouidah_Benin.jpg", "creator": "jbdodane", "license": "CC BY 2.0", "license_url": "https://creativecommons.org/licenses/by/2.0/", "checked_at": "2026-11-25",
+      "sha256": "274ec1ceea65a714261d0473fa7fbe505ca5d6299d57d17fe4feda81586eb999", "exact_subject": true, "subject": "Ouidah beach, Benin",
+      "alt": "The sandy beach at Ouidah on the Benin coast.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Beach of Ouidah, Benin."
+    },
+    "/images/editorial/benin-country/ouidah-beach-3.jpg": {
+      "kind": "photograph", "slug": "ouidah-beach-3", "local_path": "/images/editorial/benin-country/ouidah-beach-3.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Plage_de_Ouidah_(Benin,_2013).jpg", "creator": "jbdodane", "license": "CC BY 2.0", "license_url": "https://creativecommons.org/licenses/by/2.0/", "checked_at": "2026-11-25",
+      "sha256": "b2b4ef74d8cc3b8b3b6a98447579032851885254d9ae696ace1c536a0fbc61da", "exact_subject": true, "subject": "Plage de Ouidah, Benin, 2013",
+      "alt": "The beach at Ouidah in Benin photographed in 2013.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Plage de Ouidah, Benin, 2013."
     }
 
   },
@@ -13638,12 +13687,19 @@ export const photoLibrary = {
         ]
       },
       "benin": {
-        "hero_image_url": "/images/stock/destinations/ouidah-and-ganvie.jpg",
-        "hero_image_alt": "Benin village on water Ganvié",
-        "replaces": [],
+        "hero_image_url": "/images/editorial/benin-country/ganvie-village.jpg",
+        "hero_image_alt": "The stilt village of Ganvié on Lake Nokoué in Benin.",
+        "replaces": [
+          "C:/Program Files/Git/images/stock/destinations/ouidah-and-ganvie.jpg"
+        ],
         "gallery": [
-          "/images/stock/destinations/ouidah-and-ganvie.jpg",
-          "/images/stock/starter/ouidah-and-ganvie.jpg"
+          "/images/editorial/benin-country/cotonou-fish-market.jpg",
+          "/images/editorial/benin-country/ganvie-pirogue.jpg",
+          "/images/editorial/benin-country/ganvie-village.jpg",
+          "/images/editorial/benin-country/mono-river-pirogue.jpg",
+          "/images/editorial/benin-country/ouidah-beach-1.jpg",
+          "/images/editorial/benin-country/ouidah-beach-2.jpg",
+          "/images/editorial/benin-country/ouidah-beach-3.jpg"
         ]
       },
       "botswana": {
