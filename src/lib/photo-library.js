@@ -12875,6 +12875,55 @@ export const photoLibrary = {
       "sha256": "81e4ac7a049cf1b5f3adc35bc518eab40e45832904cdf535bcaf0b3a997cc8ba", "exact_subject": true, "subject": "Khan el-Khalili bazaar, Cairo, Egypt",
       "alt": "The bustling Khan el-Khalili bazaar in Islamic Cairo.", "property": false, "requires_attribution": true,
       "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Khan el-Khalili, 2019."
+    },
+    "/images/editorial/africa-trip-safety-basics/african-market-sunrise.jpg": {
+      "kind": "photograph", "slug": "african-market-sunrise", "local_path": "/images/editorial/africa-trip-safety-basics/african-market-sunrise.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:African_market_sunrise.jpg", "creator": "ROYMUNENE", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "1b825f8b3e3c1e0ca4c07d1af509ad2f56b6b16580b878f7aac592ffe652cf31", "exact_subject": true, "subject": "African market at sunrise",
+      "alt": "An African market coming to life at sunrise.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "African market sunrise."
+    },
+    "/images/editorial/africa-trip-safety-basics/african-market.jpg": {
+      "kind": "photograph", "slug": "african-market", "local_path": "/images/editorial/africa-trip-safety-basics/african-market.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:African-market-place.jpg", "creator": "Wisaka", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "3b7432090e7e4d32a540a456928993e1be2e94bd05491206bd3634086f9a2608", "exact_subject": true, "subject": "African market place",
+      "alt": "A bustling African market with stalls and local vendors.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "African market place."
+    },
+    "/images/editorial/africa-trip-safety-basics/airport-aircraft-spotters.jpg": {
+      "kind": "photograph", "slug": "airport-aircraft-spotters", "local_path": "/images/editorial/africa-trip-safety-basics/airport-aircraft-spotters.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Aircraft_spotters,_Lanseria_International_Airport_(South_Africa).jpg", "creator": "Olga Ernst", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "cbb486e979a743430658730aa77df54641f2fbd0a7ee64f163279b0182aeace9", "exact_subject": true, "subject": "Aircraft spotters, Lanseria International Airport, South Africa",
+      "alt": "Aircraft spotters watching planes at Lanseria International Airport in South Africa.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Aircraft spotters at Lanseria International Airport, South Africa."
+    },
+    "/images/editorial/africa-trip-safety-basics/safari-sunset.jpg": {
+      "kind": "photograph", "slug": "safari-sunset", "local_path": "/images/editorial/africa-trip-safety-basics/safari-sunset.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Africa_safari_sunset.jpg", "creator": "Hein waschefort", "license": "CC BY-SA 3.0", "license_url": "https://creativecommons.org/licenses/by-sa/3.0/", "checked_at": "2026-11-25",
+      "sha256": "7f3002fcd95b47f8473f3c9919dea675a7bb422d8b297f4df3d3fe69015a7ea1", "exact_subject": true, "subject": "African safari at sunset",
+      "alt": "A safari scene silhouetted against an African sunset.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Africa safari sunset."
+    },
+    "/images/editorial/africa-trip-safety-basics/safari-vehicles-pilanesberg.jpg": {
+      "kind": "photograph", "slug": "safari-vehicles-pilanesberg", "local_path": "/images/editorial/africa-trip-safety-basics/safari-vehicles-pilanesberg.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Pilanesberg_National_Park_Safari_vehicles_parked_at_Bakubung_Gate.jpg", "creator": "Ymblanter", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "cee4dbd2a03a46855cc1515547552e0a38a0ed7b6ec9481974db5d10aece68b6", "exact_subject": true, "subject": "Safari vehicles, Pilanesberg National Park, South Africa",
+      "alt": "Safari vehicles parked at the Bakubung Gate of Pilanesberg National Park.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Safari vehicles parked at Bakubung Gate, Pilanesberg National Park."
+    },
+    "/images/editorial/africa-trip-safety-basics/uganda-road-trip-lunch.jpg": {
+      "kind": "photograph", "slug": "uganda-road-trip-lunch", "local_path": "/images/editorial/africa-trip-safety-basics/uganda-road-trip-lunch.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Lunch_on_trip_in_Uganda_-_African_road_trip_fries.jpg", "creator": "Mwesigyemoses", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "905e19d28650cac1ea5db61abe3c768861d0581c4e67db66b546b0c194aac5a5", "exact_subject": true, "subject": "Road trip lunch, Uganda",
+      "alt": "A lunch stop during a road trip in Uganda.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Lunch on trip in Uganda, African road trip."
+    },
+    "/images/editorial/africa-trip-safety-basics/uganda-road-trip.jpg": {
+      "kind": "photograph", "slug": "uganda-road-trip", "local_path": "/images/editorial/africa-trip-safety-basics/uganda-road-trip.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Road_trip_pearl_of_africa.jpg", "creator": "Mwesigyemoses", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "595d8bf571aee7fc6d15996982d6cd00b8bbce467e0c32e7905cbad0392ba103", "exact_subject": true, "subject": "Road trip, Uganda",
+      "alt": "A road trip through the Pearl of Africa, Uganda.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Road trip, Pearl of Africa, Uganda."
     }
 
   },
@@ -14347,10 +14396,19 @@ export const photoLibrary = {
         ]
       },
       "africa-trip-safety-basics": {
-        "hero_image_url": "/images/stock/destinations/maasai-mara.jpg",
-        "hero_image_alt": "Acacia tree on Maasai Mara landscape, Kenya",
+        "hero_image_url": "/images/editorial/africa-trip-safety-basics/safari-sunset.jpg",
+        "hero_image_alt": "A safari scene silhouetted against an African sunset.",
         "replaces": [
-          "https://images.unsplash.com/photo-1527631746610-bca00a040d60?auto=format&fit=crop&w=900&q=80"
+          "C:/Program Files/Git/images/stock/destinations/maasai-mara.jpg"
+        ],
+        "gallery": [
+          "/images/editorial/africa-trip-safety-basics/african-market-sunrise.jpg",
+          "/images/editorial/africa-trip-safety-basics/african-market.jpg",
+          "/images/editorial/africa-trip-safety-basics/airport-aircraft-spotters.jpg",
+          "/images/editorial/africa-trip-safety-basics/safari-sunset.jpg",
+          "/images/editorial/africa-trip-safety-basics/safari-vehicles-pilanesberg.jpg",
+          "/images/editorial/africa-trip-safety-basics/uganda-road-trip-lunch.jpg",
+          "/images/editorial/africa-trip-safety-basics/uganda-road-trip.jpg"
         ]
       },
       "cultural-etiquette-local-communities": {
