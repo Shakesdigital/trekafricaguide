@@ -13925,6 +13925,62 @@ export const photoLibrary = {
       "sha256": "81c2d0b098fc249513a7894030e5f475ac0b1344408707c2d73551f179165601", "exact_subject": true, "subject": "Lion family, Maasai Mara, Kenya",
       "alt": "A family of lions resting together in the Maasai Mara in Kenya.", "property": false, "requires_attribution": true,
       "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Portrait of three lions of a pride resting in the Maasai Mara."
+    },
+    "/images/editorial/marrakech-and-atlas/arhbalou-high-atlas-al-haouz-morocco-oct25-a7cr-08381jpg.jpg": {
+      "kind": "photograph", "slug": "high-atlas-morocco", "local_path": "/images/editorial/marrakech-and-atlas/arhbalou-high-atlas-al-haouz-morocco-oct25-a7cr-08381jpg.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Arhbalou_High_Atlas_Al_Haouz_Morocco_Oct25_A7CR_08381.jpg", "creator": "Timothy A. Gonsalves", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-26",
+      "sha256": "7264a951e697ccf23b31706acfd80997bf5954dec86e39ecd538ddbc8f61278d", "exact_subject": true, "subject": "High Atlas mountains, Al Haouz, Morocco",
+      "alt": "The High Atlas mountains near Arhbalou in the Al Haouz region of Morocco.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Arhbalou High Atlas, Al Haouz, Morocco, October 2025."
+    },
+    "/images/editorial/murchison-falls-national-park/murchison-falls-uganda-01jpg.jpg": {
+      "kind": "photograph", "slug": "murchison-falls-uganda", "local_path": "/images/editorial/murchison-falls-national-park/murchison-falls-uganda-01jpg.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Murchison_Falls,_Uganda_01.jpg", "creator": "NANTUMBWEJ", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-26",
+      "sha256": "8f12946c65bf31a58d12c11c3727b0a2786c616bc717b786fb956c7e85d1f154", "exact_subject": true, "subject": "Murchison Falls, Uganda",
+      "alt": "The Nile squeezing through the narrow gorge at Murchison Falls in Uganda.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Murchison Falls, Uganda."
+    },
+    "/images/editorial/namib-desert/dead-vlei-sossusvlei-namibia-2018-08-06-dd-085jpg.jpg": {
+      "kind": "photograph", "slug": "deadvlei-namib", "local_path": "/images/editorial/namib-desert/dead-vlei-sossusvlei-namibia-2018-08-06-dd-085jpg.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Dead_Vlei,_Sossusvlei,_Namibia,_2018-08-06,_DD_085.jpg", "creator": "Diego Delso", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-26",
+      "sha256": "399e63bb2a2798bda58e49070d096fc87846b9ad97f282e770322508cfa21230", "exact_subject": true, "subject": "Deadvlei, Sossusvlei, Namibia",
+      "alt": "The dead camel thorn trees of Deadvlei against the dunes of the Namib Desert.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Dead Vlei, Sossusvlei, Namibia, 2018-08-06."
+    },
+    "/images/editorial/okavango-delta/vista-area-del-delta-del-okavango-botsuana-2018-08-01-dd-24j.jpg": {
+      "kind": "photograph", "slug": "okavango-delta-aerial", "local_path": "/images/editorial/okavango-delta/vista-area-del-delta-del-okavango-botsuana-2018-08-01-dd-24j.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Vista_a%C3%A9rea_del_delta_del_Okavango,_Botsuana,_2018-08-01,_DD_24.jpg", "creator": "Diego Delso", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-26",
+      "sha256": "07adc9dd5be0e0736b6325223615897670edea179f3cb37f25722ec207bcd802", "exact_subject": true, "subject": "Aerial view of the Okavango Delta, Botswana",
+      "alt": "An aerial view of the winding channels of the Okavango Delta in Botswana.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Aerial view of the Okavango Delta, Botswana, 2018-08-01."
+    },
+    "/images/editorial/sahara-dunes/merzouga-dunes-du-sahara-avril2005-2jpg.jpg": {
+      "kind": "photograph", "slug": "merzouga-sahara-dunes", "local_path": "/images/editorial/sahara-dunes/merzouga-dunes-du-sahara-avril2005-2jpg.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Merzouga,_Dunes_du_Sahara_(avril2005)_(2).jpg", "creator": "Pierre André Leclercq", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-26",
+      "sha256": "7bc35a43b5b73b499d575973738afc20df4072acc3742f5360210a7ac169e9e5", "exact_subject": true, "subject": "Dunes of the Sahara at Merzouga, Morocco",
+      "alt": "The golden dunes of the Sahara at Merzouga in Morocco.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Merzouga, Dunes du Sahara, April 2005."
+    },
+    "/images/editorial/serengeti-national-park/011-the-lion-king-tryggve-in-the-serengeti-national-park-pho.jpg": {
+      "kind": "photograph", "slug": "serengeti-lion", "local_path": "/images/editorial/serengeti-national-park/011-the-lion-king-tryggve-in-the-serengeti-national-park-pho.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:011_The_lion_king_Tryggve_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg", "creator": "Giles Laurent", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-26",
+      "sha256": "9802dfafeb79ad4dbda7650489aa51e4daeee4a32c29b73489e315c228883818", "exact_subject": true, "subject": "Lion in Serengeti National Park, Tanzania",
+      "alt": "A male lion resting in the Serengeti National Park in Tanzania.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "The lion king Tryggve in the Serengeti National Park."
+    },
+    "/images/editorial/sine-saloum-delta/sngal-dans-le-delta-du-sine-saloum-02jpg.jpg": {
+      "kind": "photograph", "slug": "sine-saloum-delta-view", "local_path": "/images/editorial/sine-saloum-delta/sngal-dans-le-delta-du-sine-saloum-02jpg.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:S%C3%A9n%C3%A9gal,_dans_le_Delta_du_Sine_Saloum_02.jpg", "creator": "Issiaga0", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-26",
+      "sha256": "17765981cfcfdf3c3b01d1fa5cb528ac656a637b84a4397b1a2c553fe77a1264", "exact_subject": true, "subject": "Sine Saloum Delta, Senegal",
+      "alt": "A waterway in the Sine Saloum Delta of Senegal.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Senegal, Delta du Sine Saloum."
+    },
+    "/images/editorial/south-luangwa/loxodonta-africana-south-luangwa-national-park-1jpg.jpg": {
+      "kind": "photograph", "slug": "south-luangwa-elephant", "local_path": "/images/editorial/south-luangwa/loxodonta-africana-south-luangwa-national-park-1jpg.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Loxodonta_africana_South_Luangwa_National_Park_(1).jpg", "creator": "Geoff Gallice", "license": "CC BY 2.0", "license_url": "https://creativecommons.org/licenses/by/2.0/", "checked_at": "2026-11-26",
+      "sha256": "076c1628be84ad8cb627a5139fb2b003a45100249f10cb54f7a54b622c0bd7eb", "exact_subject": true, "subject": "African elephant, South Luangwa National Park, Zambia",
+      "alt": "An African elephant in South Luangwa National Park in Zambia.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Loxodonta africana, South Luangwa National Park."
     }
 
   },
@@ -14102,7 +14158,8 @@ export const photoLibrary = {
           "/images/editorial/marrakech-and-atlas/marrakech-37644961.jpg",
           "/images/editorial/marrakech-and-atlas/marrakech-37248554.jpg",
           "/images/editorial/marrakech-and-atlas/marrakech-36871970.jpg",
-          "/images/editorial/marrakech-and-atlas/marrakech-37818897.jpg"
+          "/images/editorial/marrakech-and-atlas/marrakech-37818897.jpg",
+          "/images/editorial/marrakech-and-atlas/arhbalou-high-atlas-al-haouz-morocco-oct25-a7cr-08381jpg.jpg"
         ]
       },
       "murchison-falls-national-park": {
@@ -14117,7 +14174,8 @@ export const photoLibrary = {
           "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Murchison_Falls%2C_Uganda.jpg/1280px-Murchison_Falls%2C_Uganda.jpg",
           "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Murchison_Falls%2C_Uganda_%2822516674255%29.jpg/1280px-Murchison_Falls%2C_Uganda_%2822516674255%29.jpg",
           "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Wildlife_in_murchison_falls_national_park_Uganda.jpg/1280px-Wildlife_in_murchison_falls_national_park_Uganda.jpg",
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Wildlife_in_Murchison_Falls_National_Park_Uganda_04.jpg/1280px-Wildlife_in_Murchison_Falls_National_Park_Uganda_04.jpg"
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Wildlife_in_Murchison_Falls_National_Park_Uganda_04.jpg/1280px-Wildlife_in_Murchison_Falls_National_Park_Uganda_04.jpg",
+          "/images/editorial/murchison-falls-national-park/murchison-falls-uganda-01jpg.jpg"
         ]
       },
       "namib-desert": {
@@ -14132,7 +14190,8 @@ export const photoLibrary = {
           "/images/editorial/namib-desert-attraction/namib-desert-sossusvlei-cracked-pan-red-dune-hub-jacqu.jpg",
           "/images/editorial/namib-desert-attraction/namib-desert-deadvlei-trees-wendy-r.jpg",
           "/images/editorial/namib-desert-attraction/namib-desert-deadvlei-tree-panorama-hans-lutjes.jpg",
-          "/images/editorial/namib-desert-attraction/namib-desert-dune-walkers-rino-adamo.jpg"
+          "/images/editorial/namib-desert-attraction/namib-desert-dune-walkers-rino-adamo.jpg",
+          "/images/editorial/namib-desert/dead-vlei-sossusvlei-namibia-2018-08-06-dd-085jpg.jpg"
         ]
       },
       "okavango-delta": {
@@ -14147,7 +14206,8 @@ export const photoLibrary = {
           "/images/editorial/okavango-delta-attraction/okavango-cheetah-cub-catherine-merlin.jpg",
           "/images/editorial/okavango-delta-attraction/okavango-lion-cub-colin-watts.jpg",
           "/images/editorial/okavango-delta-attraction/okavango-hippos-crossing-colin-watts.jpg",
-          "/images/editorial/okavango-delta-attraction/okavango-helmeted-guineafowl-secret-travel-guide.jpg"
+          "/images/editorial/okavango-delta-attraction/okavango-helmeted-guineafowl-secret-travel-guide.jpg",
+          "/images/editorial/okavango-delta/vista-area-del-delta-del-okavango-botsuana-2018-08-01-dd-24j.jpg"
         ]
       },
       "ouidah-and-ganvie": {
@@ -14174,7 +14234,8 @@ export const photoLibrary = {
           "/images/editorial/sahara-dunes-attraction/erg-chebbi-dunes-kees-van-leeuwen.jpg",
           "/images/editorial/sahara-dunes-attraction/erg-chebbi-palm-yassine-oukhadjou.jpg",
           "/images/editorial/sahara-dunes-attraction/erg-chebbi-hiker-henrik-le-botos.jpg",
-          "/images/editorial/sahara-dunes-attraction/merzouga-camel-sunset-mehdi-el-marouazi.jpg"
+          "/images/editorial/sahara-dunes-attraction/merzouga-camel-sunset-mehdi-el-marouazi.jpg",
+          "/images/editorial/sahara-dunes/merzouga-dunes-du-sahara-avril2005-2jpg.jpg"
         ]
       },
       "sal-island": {
@@ -14207,7 +14268,8 @@ export const photoLibrary = {
           "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/037_Cheetah_close-up_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg/1280px-037_Cheetah_close-up_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg",
           "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Serengeti_landscape_%288%29_%2828524158712%29.jpg/1280px-Serengeti_landscape_%288%29_%2828524158712%29.jpg",
           "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/002_Male_Lion_prowling_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg/1280px-002_Male_Lion_prowling_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg",
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Serengeti_National_Park_20_-_Zebra_-_Equus_quagga.jpg/1280px-Serengeti_National_Park_20_-_Zebra_-_Equus_quagga.jpg"
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Serengeti_National_Park_20_-_Zebra_-_Equus_quagga.jpg/1280px-Serengeti_National_Park_20_-_Zebra_-_Equus_quagga.jpg",
+          "/images/editorial/serengeti-national-park/011-the-lion-king-tryggve-in-the-serengeti-national-park-pho.jpg"
         ]
       },
       "sine-saloum-delta": {
@@ -14222,7 +14284,8 @@ export const photoLibrary = {
           "/images/editorial/sine-saloum/mangrove-river-landscape.jpg",
           "/images/editorial/sine-saloum/saloum-birds-in-flight.jpg",
           "/images/editorial/sine-saloum/missirah-delta-shoreline.jpg",
-          "/images/editorial/sine-saloum/saloum-shore-crab.jpg"
+          "/images/editorial/sine-saloum/saloum-shore-crab.jpg",
+          "/images/editorial/sine-saloum-delta/sngal-dans-le-delta-du-sine-saloum-02jpg.jpg"
         ]
       },
       "south-luangwa": {
@@ -14237,7 +14300,8 @@ export const photoLibrary = {
           "/images/editorial/south-luangwa-attraction/south-luangwa-leopard-in-tree-dmitrii-zhodzishskii.jpg",
           "/images/editorial/south-luangwa-attraction/south-luangwa-lion-at-rest-dmitrii-zhodzishskii.jpg",
           "/images/editorial/south-luangwa-attraction/south-luangwa-giraffe-pair-ed-wingate.jpg",
-          "/images/editorial/south-luangwa-attraction/south-luangwa-elephant-tree-dmitrii-zhodzishskii.jpg"
+          "/images/editorial/south-luangwa-attraction/south-luangwa-elephant-tree-dmitrii-zhodzishskii.jpg",
+          "/images/editorial/south-luangwa/loxodonta-africana-south-luangwa-national-park-1jpg.jpg"
         ]
       },
       "tokeh-and-river-no2": {
