@@ -12569,7 +12569,1647 @@ export const photoLibrary = {
       "sha256": "998931f78b674126935307abd3026b4dda8384bba7bf4eeae8bbbbf86f4f0f36", "exact_subject": true, "subject": "Rural landscape near Otuke, northern Uganda",
       "alt": "A rural landscape near Otuke in northern Uganda.", "property": false, "requires_attribution": false,
       "changes": "Wikimedia Commons original JPEG downloaded and resized to 1600 pixels wide; no other edits.", "exact_subject_evidence": "Commons file page title and description place the scene near Otuke in northern Uganda; the rural landscape was confirmed in the downloaded file.", "reuse_note": "CC0; commercial reuse without public attribution. No credit shown on page."
+    },
+    "/images/editorial/plan-first-east-africa-safari/blue-wildebeest-serengeti.jpg": {
+      "kind": "photograph", "slug": "blue-wildebeest-serengeti", "local_path": "/images/editorial/plan-first-east-africa-safari/blue-wildebeest-serengeti.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:040_Blue_wildebeest_with_wattled_starlings_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg", "creator": "Giles Laurent", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "6849dbeb334b99d2659ebc86c25ea2d107890908a5e3c41ae9dc059d3fb45156", "exact_subject": true, "subject": "Blue wildebeest with wattled starlings, Serengeti National Park, Tanzania",
+      "alt": "A blue wildebeest standing in the Serengeti with wattled starlings perched on its back.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Blue wildebeest with wattled starlings in the Serengeti National Park."
+    },
+    "/images/editorial/plan-first-east-africa-safari/hot-air-balloon-serengeti.jpg": {
+      "kind": "photograph", "slug": "hot-air-balloon-serengeti", "local_path": "/images/editorial/plan-first-east-africa-safari/hot-air-balloon-serengeti.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Serengeti_Balloon.jpg", "creator": "Eric Kilby", "license": "CC BY-SA 2.0", "license_url": "https://creativecommons.org/licenses/by-sa/2.0/", "checked_at": "2026-11-25",
+      "sha256": "544cb115f9a690d0baa06cdaa3917364eba8798d7f70847fa3789596f2ea962e", "exact_subject": true, "subject": "Hot air balloon over the Serengeti, Tanzania",
+      "alt": "A hot air balloon floating above the Serengeti plains at sunrise.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Hot air balloon safari over the Serengeti."
+    },
+    "/images/editorial/plan-first-east-africa-safari/juvenile-wildebeest-serengeti.jpg": {
+      "kind": "photograph", "slug": "juvenile-wildebeest-serengeti", "local_path": "/images/editorial/plan-first-east-africa-safari/juvenile-wildebeest-serengeti.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:039_Juvenile_blue_wildebeest_covered_in_mud_running_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg", "creator": "Giles Laurent", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "2eff092fb918fbe93b17cde402d634a4a0bbff8a103787fe776907ee267c596a", "exact_subject": true, "subject": "Juvenile blue wildebeest running, Serengeti National Park, Tanzania",
+      "alt": "A young wildebeest covered in mud running across the Serengeti plains.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Juvenile blue wildebeest covered in mud running in Serengeti National Park, Tanzania."
+    },
+    "/images/editorial/plan-first-east-africa-safari/kilimanjaro-amboseli.jpg": {
+      "kind": "photograph", "slug": "kilimanjaro-amboseli", "local_path": "/images/editorial/plan-first-east-africa-safari/kilimanjaro-amboseli.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Amboseli_park-_Mount_Kilimanjaro.jpg", "creator": "Lafleursauvage", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "902abd6c8b2b0168d40d709f3d5bbb207a10e33140b05a040df9322b98681f10", "exact_subject": true, "subject": "Mount Kilimanjaro viewed from Amboseli National Park, Kenya",
+      "alt": "Mount Kilimanjaro rising above the plains of Amboseli National Park in Kenya.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Amboseli park with Mount Kilimanjaro in the background."
+    },
+    "/images/editorial/plan-first-east-africa-safari/lions-masai-mara.jpg": {
+      "kind": "photograph", "slug": "lions-masai-mara", "local_path": "/images/editorial/plan-first-east-africa-safari/lions-masai-mara.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Lions_Family_Portrait_Masai_Mara.jpg", "creator": "Benh LIEU SONG", "license": "CC BY-SA 3.0", "license_url": "https://creativecommons.org/licenses/by-sa/3.0/", "checked_at": "2026-11-25",
+      "sha256": "81c2d0b098fc249513a7894030e5f475ac0b1344408707c2d73551f179165601", "exact_subject": true, "subject": "Lion family portrait, Masai Mara, Kenya",
+      "alt": "A family of lions resting together in the Masai Mara in Kenya.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Lions family portrait in the Masai Mara."
+    },
+    "/images/editorial/plan-first-east-africa-safari/savanna-taita-hills-kenya.jpg": {
+      "kind": "photograph", "slug": "savanna-taita-hills-kenya", "local_path": "/images/editorial/plan-first-east-africa-safari/savanna-taita-hills-kenya.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Savanna_towards_the_south-east_from_the_south-west_of_Taita_Hills_Game_Lodge_within_the_Taita_Hills_Wildlife_Sanctuary_in_Kenya.jpg", "creator": "CT Cooper", "license": "CC BY 3.0", "license_url": "https://creativecommons.org/licenses/by/3.0/", "checked_at": "2026-11-25",
+      "sha256": "0f49335d27d1c1b06855eca3b06aef94ef2d735f06fbfdc23e0fc93f6559fee2", "exact_subject": true, "subject": "East African savanna, Taita Hills, Kenya",
+      "alt": "Open savanna landscape with acacia trees in the Taita Hills of Kenya.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Savanna landscape in Taita Hills Wildlife Sanctuary, Kenya."
+    },
+    "/images/editorial/plan-first-east-africa-safari/two-zebras-ngorongoro.jpg": {
+      "kind": "photograph", "slug": "two-zebras-ngorongoro", "local_path": "/images/editorial/plan-first-east-africa-safari/two-zebras-ngorongoro.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Two_zebras_in_Ngorongoro_Crater.jpg", "creator": "Roryjm0", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "0f48cf0deb3eb85fd3d672e0e02b610aefa3b14b3cbdfb6144d33a52c098d6a2", "exact_subject": true, "subject": "Two zebras in Ngorongoro Crater, Tanzania",
+      "alt": "Two zebras standing together on the Ngorongoro Crater floor.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Two zebras in Ngorongoro Crater."
+    },
+    "/images/editorial/plan-first-east-africa-safari/wattled-starling-serengeti.jpg": {
+      "kind": "photograph", "slug": "wattled-starling-serengeti", "local_path": "/images/editorial/plan-first-east-africa-safari/wattled-starling-serengeti.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Wattled_starling_(Creatophora_cinerea)_female_on_wildebeest_Serengeti.jpg", "creator": "Charles J. Sharp", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "d999a76190ac217595d953547e9a97a0245854e27f27cc4b5a2bb2944e9bbe15", "exact_subject": true, "subject": "Wattled starling on a wildebeest, Serengeti National Park, Tanzania",
+      "alt": "A wattled starling perched on the back of a wildebeest in the Serengeti.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Wattled starling (Creatophora cinerea) female, on wildebeest, Serengeti National Park, Tanzania."
+    },
+    "/images/editorial/plan-first-east-africa-safari/wildebeest-migration-serengeti.jpg": {
+      "kind": "photograph", "slug": "wildebeest-migration-serengeti", "local_path": "/images/editorial/plan-first-east-africa-safari/wildebeest-migration-serengeti.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Serengeti_wildebeest_migration_JF.jpg", "creator": "Wolves201", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "5cfac934c48a8b29609d24254d4585b550c94882974544c4d215e8affaf181d1", "exact_subject": true, "subject": "Wildebeest crossing the Grumeti River, Serengeti National Park, Tanzania",
+      "alt": "Wildebeest crossing a shallow river in the Serengeti during the annual migration.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "The wildebeest are crossing a small part of the Grumeti River in the western corridor in Serengeti."
+    },
+    "/images/editorial/plan-first-east-africa-safari/zebras-ngorongoro-crater.jpg": {
+      "kind": "photograph", "slug": "zebras-ngorongoro-crater", "local_path": "/images/editorial/plan-first-east-africa-safari/zebras-ngorongoro-crater.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Zebras_Ngorongoro_Crater.jpg", "creator": "Muhammad Mahdi Karim", "license": "GFDL 1.2", "license_url": "https://www.gnu.org/licenses/old-licenses/fdl-1.2.html", "checked_at": "2026-11-25",
+      "sha256": "0f8acf189b1d716c56bb58e5a7ec51c0f698e00031ba1710f0ad5b6318cfe9b6", "exact_subject": true, "subject": "Zebras in Ngorongoro Crater, Tanzania",
+      "alt": "Zebras grazing on the floor of Ngorongoro Crater in Tanzania.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Zebras in Ngorongoro Crater."
+    },
+    "/images/editorial/combine-serengeti-and-zanzibar/dhow-boat-zanzibar.jpg": {
+      "kind": "photograph", "slug": "dhow-boat-zanzibar", "local_path": "/images/editorial/combine-serengeti-and-zanzibar/dhow-boat-zanzibar.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Dhow_boat_Zanzibar.jpg", "creator": "Anton", "license": "CC BY-SA 3.0", "license_url": "https://creativecommons.org/licenses/by-sa/3.0/", "checked_at": "2026-11-25",
+      "sha256": "65a9fba17513ced3bedf0ec4a3dff661a6a28c2bf0ad0e54128152a2524d41d4", "exact_subject": true, "subject": "Traditional dhow boat, Zanzibar",
+      "alt": "A traditional wooden dhow sailing off the coast of Zanzibar.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Dhow boat in Zanzibar."
+    },
+    "/images/editorial/combine-serengeti-and-zanzibar/elephant-bull-serengeti.jpg": {
+      "kind": "photograph", "slug": "elephant-bull-serengeti", "local_path": "/images/editorial/combine-serengeti-and-zanzibar/elephant-bull-serengeti.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Serengeti_Elefantenbulle.jpg", "creator": "Ikiwaner", "license": "GFDL 1.2", "license_url": "https://www.gnu.org/licenses/old-licenses/fdl-1.2.html", "checked_at": "2026-11-25",
+      "sha256": "baad02a71cdff373e7b617bf34a57dee8fd6807daef1f5cc854983d1b8a48e7d", "exact_subject": true, "subject": "Elephant bull, Serengeti National Park, Tanzania",
+      "alt": "A large bull elephant walking across the Serengeti plains.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Elephant bull in the Serengeti."
+    },
+    "/images/editorial/combine-serengeti-and-zanzibar/giraffes-kogatende-serengeti.jpg": {
+      "kind": "photograph", "slug": "giraffes-kogatende-serengeti", "local_path": "/images/editorial/combine-serengeti-and-zanzibar/giraffes-kogatende-serengeti.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Giraffe_Trees_Kogatende_Serengeti_Nov26_A7CR_17452.jpg", "creator": "Timothy", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "6091fc8bfa8938316fdef9fea1eab397aef2bea9a86367d62368f2682ce71b9b", "exact_subject": true, "subject": "Giraffes near Kogatende, Serengeti, Tanzania",
+      "alt": "Giraffes standing among trees in the Kogatende area of the Serengeti.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Giraffes and trees in Kogatende, Serengeti."
+    },
+    "/images/editorial/combine-serengeti-and-zanzibar/masai-giraffe-serengeti.jpg": {
+      "kind": "photograph", "slug": "masai-giraffe-serengeti", "local_path": "/images/editorial/combine-serengeti-and-zanzibar/masai-giraffe-serengeti.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:042_Masai_giraffe_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg", "creator": "Giles Laurent", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "0df8b11d073d077c0288da42cafe700633de61991bda124c0da46f7f3d56c8a4", "exact_subject": true, "subject": "Masai giraffe, Serengeti National Park, Tanzania",
+      "alt": "A Masai giraffe standing in the Serengeti National Park.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Masai giraffe in the Serengeti National Park."
+    },
+    "/images/editorial/combine-serengeti-and-zanzibar/nungwi-beach-bathers.jpg": {
+      "kind": "photograph", "slug": "nungwi-beach-bathers", "local_path": "/images/editorial/combine-serengeti-and-zanzibar/nungwi-beach-bathers.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Bathers_on_Nungwi_Beach,_Zanzibar,_Tanzania.jpg", "creator": "Paul W", "license": "CC0", "license_url": "https://creativecommons.org/publicdomain/zero/1.0/", "checked_at": "2026-11-25",
+      "sha256": "960158e6bc697f3c3d0533274e482e511e7e71e47c4141561efbd944c36e98c5", "exact_subject": true, "subject": "Bathers on Nungwi Beach, Zanzibar, Tanzania",
+      "alt": "Visitors enjoying the shallow waters of Nungwi Beach in Zanzibar.", "property": false, "requires_attribution": false,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Bathers on Nungwi Beach, Zanzibar."
+    },
+    "/images/editorial/combine-serengeti-and-zanzibar/nungwi-beach-view.jpg": {
+      "kind": "photograph", "slug": "nungwi-beach-view", "local_path": "/images/editorial/combine-serengeti-and-zanzibar/nungwi-beach-view.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Nungwi_Beach,_Zanzibar,_Tanzania_(south_view_from_Z_Hotel).jpg", "creator": "Paul W", "license": "CC0", "license_url": "https://creativecommons.org/publicdomain/zero/1.0/", "checked_at": "2026-11-25",
+      "sha256": "9ccfa408f879c8e9a597dd43fbb2370240eeb67314f68407cda9e7d425b3bff9", "exact_subject": true, "subject": "Nungwi Beach, Zanzibar, Tanzania",
+      "alt": "The white sand and turquoise water of Nungwi Beach in Zanzibar.", "property": false, "requires_attribution": false,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Nungwi Beach, Zanzibar, south view from Z Hotel."
+    },
+    "/images/editorial/combine-serengeti-and-zanzibar/safari-tanzania-landscape.jpg": {
+      "kind": "photograph", "slug": "safari-tanzania-landscape", "local_path": "/images/editorial/combine-serengeti-and-zanzibar/safari-tanzania-landscape.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Safari_en_Tanzanie.jpg", "creator": "Sara-jade03", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "8dc1634f71bdf3fc53b5cb5ea437b71b420d7dd6c306da1276b5da8cf8be2251", "exact_subject": true, "subject": "Safari landscape, Tanzania",
+      "alt": "A safari vehicle crossing the Serengeti plains in Tanzania.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Safari in Tanzania."
+    },
+    "/images/editorial/combine-serengeti-and-zanzibar/serengeti-sunrise.jpg": {
+      "kind": "photograph", "slug": "serengeti-sunrise", "local_path": "/images/editorial/combine-serengeti-and-zanzibar/serengeti-sunrise.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Serengeti_Sunrise_-_Flickr_-_Eric_Kilby.jpg", "creator": "Eric Kilby", "license": "CC BY-SA 2.0", "license_url": "https://creativecommons.org/licenses/by-sa/2.0/", "checked_at": "2026-11-25",
+      "sha256": "6cf6ada36815c3d9c048c0f08f0bae84b7c6101294c2067d39f441f2c70396c6", "exact_subject": true, "subject": "Serengeti sunrise, Tanzania",
+      "alt": "The sun rising over the Serengeti plains with acacia trees silhouetted.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Serengeti sunrise."
+    },
+    "/images/editorial/combine-serengeti-and-zanzibar/stone-town-sailboat-sunset.jpg": {
+      "kind": "photograph", "slug": "stone-town-sailboat-sunset", "local_path": "/images/editorial/combine-serengeti-and-zanzibar/stone-town-sailboat-sunset.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Sail_Boat_Sunset_Stone_Town_Zanzibar_Oct26_OM3_1123.jpg", "creator": "Timothy", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "6ce40d3ed1a84be8d6271ff4d89a28f8e92211cbb7b116a85f2a529be02413e8", "exact_subject": true, "subject": "Sailboat at sunset, Stone Town, Zanzibar",
+      "alt": "A sailboat silhouetted against the sunset off Stone Town, Zanzibar.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Sail boat at sunset in Stone Town, Zanzibar."
+    },
+
+    "/images/editorial/best-time-southern-africa/chobe-elephants-botswana.jpg": {
+      "kind": "photograph", "slug": "chobe-elephants-botswana", "local_path": "/images/editorial/best-time-southern-africa/chobe-elephants-botswana.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Elefantes_africanos_de_sabana_(Loxodonta_africana),_parque_nacional_de_Chobe,_Botsuana,_2018-07-28,_DD_25.jpg", "creator": "Diego Delso", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "3faf08347b635830a5a85bb17a34a9763502526afc120defbd2ff00fdc35ffbf", "exact_subject": true, "subject": "African savanna elephants, Chobe National Park, Botswana",
+      "alt": "A herd of elephants walking across the Chobe National Park in Botswana.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "African savanna elephants in Chobe National Park, Botswana."
+    },
+    "/images/editorial/best-time-southern-africa/elephant-herd-zimbabwe.jpg": {
+      "kind": "photograph", "slug": "elephant-herd-zimbabwe", "local_path": "/images/editorial/best-time-southern-africa/elephant-herd-zimbabwe.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:African_bush_elephants_(Loxodonta_africana)_female_with_six-week-old_baby.jpg", "creator": "Charles J. Sharp", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "f652759522d925d5f4a4c49bcf202490aa9af1d37abd5209a0be0e14fcca4d1c", "exact_subject": true, "subject": "African bush elephant female with calf, Zimbabwe",
+      "alt": "A female elephant with her six-week-old calf in Zimbabwe.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "African bush elephants female with six-week-old baby."
+    },
+    "/images/editorial/best-time-southern-africa/kruger-elephant.jpg": {
+      "kind": "photograph", "slug": "kruger-elephant", "local_path": "/images/editorial/best-time-southern-africa/kruger-elephant.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Kruger_National_Park_(ZA),_Elefant_--_2024_--_0649.jpg", "creator": "Dietmar Rabich", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "379667624594d2f6824711b7bc42b3786df419069a39b69699880675a9cee2f2", "exact_subject": true, "subject": "Elephant, Kruger National Park, South Africa",
+      "alt": "An elephant walking through the Kruger National Park in South Africa.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Elephant in Kruger National Park, 2024."
+    },
+    "/images/editorial/best-time-southern-africa/kruger-giraffe.jpg": {
+      "kind": "photograph", "slug": "kruger-giraffe", "local_path": "/images/editorial/best-time-southern-africa/kruger-giraffe.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Kruger_National_Park_(ZA),_Giraffe_--_2024_--_0431.jpg", "creator": "Dietmar Rabich", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "62a284f53152b93ed1119fcacbc139ab9f0d378f6fcf7dc47cc0536215d40a92", "exact_subject": true, "subject": "Giraffe, Kruger National Park, South Africa",
+      "alt": "A giraffe standing among trees in the Kruger National Park.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Giraffe in Kruger National Park, 2024."
+    },
+    "/images/editorial/best-time-southern-africa/okavango-delta-zebras-aerial.jpg": {
+      "kind": "photograph", "slug": "okavango-delta-zebras-aerial", "local_path": "/images/editorial/best-time-southern-africa/okavango-delta-zebras-aerial.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Cebras_de_Burchell_(Equus_quagga_burchellii),_vista_aérea_del_delta_del_Okavango,_Botsuana,_2018-08-01,_DD_30.jpg", "creator": "Diego Delso", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "e4930489697d0d600c0eeaa1cc317f7600ce01fb65971b73c86e7dc87e0b55e4", "exact_subject": true, "subject": "Burchell zebras aerial view, Okavango Delta, Botswana",
+      "alt": "An aerial view of Burchell zebras in the Okavango Delta in Botswana.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Burchell zebras aerial view of the Okavango Delta, Botswana."
+    },
+    "/images/editorial/best-time-southern-africa/sossusvlei-namib-desert.jpg": {
+      "kind": "photograph", "slug": "sossusvlei-namib-desert", "local_path": "/images/editorial/best-time-southern-africa/sossusvlei-namib-desert.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Sossusvlei,_Namibia,_2018-08-06,_DD_040.jpg", "creator": "Diego Delso", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "5fd9feef81f0be19f5dc9527d05c1d9b003dafede8631fc36e4ddf5bec6b0f28", "exact_subject": true, "subject": "Sossusvlei, Namib Desert, Namibia",
+      "alt": "The red dunes and white clay pan of Sossusvlei in the Namib Desert.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Sossusvlei, Namibia, 2018."
+    },
+    "/images/editorial/best-time-southern-africa/sossusvlei-thorn-tree.jpg": {
+      "kind": "photograph", "slug": "sossusvlei-thorn-tree", "local_path": "/images/editorial/best-time-southern-africa/sossusvlei-thorn-tree.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Thorn_Tree_Sossusvlei_Namib_Desert_Namibia_Luca_Galuzzi_2004.JPG", "creator": "Luca Galuzzi", "license": "CC BY-SA 2.5", "license_url": "https://creativecommons.org/licenses/by-sa/2.5/", "checked_at": "2026-11-25",
+      "sha256": "dc04676db48d645729ae2bc4ab1d93e80566c5321a7cdeb12b054844bd642ae9", "exact_subject": true, "subject": "Thorn tree in Sossusvlei, Namib Desert, Namibia",
+      "alt": "A lone thorn tree standing in the red dunes of Sossusvlei in the Namib Desert.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Thorn tree in Sossusvlei, Namib Desert, Namibia, 2004."
+    },
+    "/images/editorial/best-time-southern-africa/table-mountain-cape-town.jpg": {
+      "kind": "photograph", "slug": "table-mountain-cape-town", "local_path": "/images/editorial/best-time-southern-africa/table-mountain-cape-town.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Cape_Town_(ZA),_Table_Mountain_--_2024_--_2825.jpg", "creator": "Dietmar Rabich", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "3645095813a6ce99e64732849d50b295ebbc85766983fb0d747b271d86d8255b", "exact_subject": true, "subject": "Table Mountain, Cape Town, South Africa",
+      "alt": "Table Mountain rising above Cape Town in South Africa.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Table Mountain, Cape Town, 2024."
+    },
+    "/images/editorial/best-time-southern-africa/victoria-falls.jpg": {
+      "kind": "photograph", "slug": "victoria-falls", "local_path": "/images/editorial/best-time-southern-africa/victoria-falls.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Cataratas_Victoria,_Zambia-Zimbabue,_2018-07-27,_DD_05.jpg", "creator": "Diego Delso", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "ca249aca80d5a881b174a07569b22ce53d5d2a019b2dfd80a86f68f0381aaffb", "exact_subject": true, "subject": "Victoria Falls, Zambia-Zimbabwe border",
+      "alt": "The massive curtain of water at Victoria Falls on the Zambia-Zimbabwe border.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Victoria Falls, Zambia-Zimbabwe, 2018."
+    },
+    "/images/editorial/cape-town-before-or-after-safari/boulders-beach-penguin-colony.jpg": {
+      "kind": "photograph", "slug": "boulders-beach-penguin-colony", "local_path": "/images/editorial/cape-town-before-or-after-safari/boulders-beach-penguin-colony.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Simon’s_Town_(ZA),_Boulders_Beach,_Penguin_Colony_--_2024_--_3408.jpg", "creator": "Dietmar Rabich", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "f9aee4bda2245f62f78d238d308beaaf970a68a35032a5726f704e7e3fc4ee61", "exact_subject": true, "subject": "Boulders Beach penguin colony, Simon's Town, South Africa",
+      "alt": "African penguins on the white sand of Boulders Beach near Simon's Town.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Boulders Beach penguin colony, Simon's Town, 2024."
+    },
+    "/images/editorial/cape-town-before-or-after-safari/boulders-beach-penguins.jpg": {
+      "kind": "photograph", "slug": "boulders-beach-penguins", "local_path": "/images/editorial/cape-town-before-or-after-safari/boulders-beach-penguins.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Penguins_at_Boulders_Beach_04.jpg", "creator": "Satdeep Gill", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "6aea210541c6efbd68592ae0cf887a67bb4edf5996194bdc15b05c9c94f36bf1", "exact_subject": true, "subject": "African penguins, Boulders Beach, South Africa",
+      "alt": "African penguins waddling on the sand at Boulders Beach.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Penguins at Boulders Beach."
+    },
+    "/images/editorial/cape-town-before-or-after-safari/cape-town-city-bowl.jpg": {
+      "kind": "photograph", "slug": "cape-town-city-bowl", "local_path": "/images/editorial/cape-town-before-or-after-safari/cape-town-city-bowl.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Cape_Town_(ZA),_City_Bowl_--_2024_--_P1050341.jpg", "creator": "Dietmar Rabich", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "41b06dd6f3c215ab07e7fed7e57989fd8161b06f7b63a99b9c39f6dd598a18a6", "exact_subject": true, "subject": "Cape Town City Bowl, South Africa",
+      "alt": "The Cape Town city bowl nestled between Table Mountain and the harbour.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "City Bowl, Cape Town, 2024."
+    },
+    "/images/editorial/cape-town-before-or-after-safari/cape-town-waterfront.jpg": {
+      "kind": "photograph", "slug": "cape-town-waterfront", "local_path": "/images/editorial/cape-town-before-or-after-safari/cape-town-waterfront.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Cape_Town_(ZA),_Waterfront,_Kran_--_2024_--_2907.jpg", "creator": "Dietmar Rabich", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "14535c492dc1b0d6066ecafc98fff47bd53ca70d82105cfb63d37022c314d947", "exact_subject": true, "subject": "Victoria & Alfred Waterfront, Cape Town, South Africa",
+      "alt": "The Victoria & Alfred Waterfront in Cape Town with boats and historic buildings.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Waterfront, Cape Town, 2024."
+    },
+    "/images/editorial/cape-town-before-or-after-safari/cape-winelands-stellenbosch.jpg": {
+      "kind": "photograph", "slug": "cape-winelands-stellenbosch", "local_path": "/images/editorial/cape-town-before-or-after-safari/cape-winelands-stellenbosch.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Cape_Winelands_-_Stellenbosch3785.jpg", "creator": "lumoplank", "license": "CC0", "license_url": "https://creativecommons.org/publicdomain/zero/1.0/", "checked_at": "2026-11-25",
+      "sha256": "9b3ada98e3879c3f2b1e68bc79347a3037eed49e36994ce2fb6906ee87ca5ec7", "exact_subject": true, "subject": "Cape Winelands, Stellenbosch, South Africa",
+      "alt": "Vineyards in the Cape Winelands near Stellenbosch, South Africa.", "property": false, "requires_attribution": false,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Cape Winelands, Stellenbosch."
+    },
+    "/images/editorial/cape-town-before-or-after-safari/safari-giraffe-sabi-sand.jpg": {
+      "kind": "photograph", "slug": "safari-giraffe-sabi-sand", "local_path": "/images/editorial/cape-town-before-or-after-safari/safari-giraffe-sabi-sand.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Giraffe_-_South_Africa_Safari_-_Djuma_Game_Reserve_-_Sabi_Sand_-_Kruger_National_Park_(5586058113).jpg", "creator": "David Berkowitz", "license": "CC BY 2.0", "license_url": "https://creativecommons.org/licenses/by/2.0/", "checked_at": "2026-11-25",
+      "sha256": "d4971dcdbb2b5e99a8d7cae3ff2f6467f7c529db990450bf46b2eca5b900e116", "exact_subject": true, "subject": "Giraffe, Sabi Sand Game Reserve, South Africa",
+      "alt": "A giraffe walking through the Sabi Sand Game Reserve near Kruger National Park.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Giraffe in Sabi Sand, Kruger National Park area."
+    },
+    "/images/editorial/cape-town-before-or-after-safari/safari-lion-sabi-sand.jpg": {
+      "kind": "photograph", "slug": "safari-lion-sabi-sand", "local_path": "/images/editorial/cape-town-before-or-after-safari/safari-lion-sabi-sand.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Lion_-_South_Africa_Safari_-_Djuma_Game_Reserve_-_Sabi_Sand_-_Kruger_National_Park_(5586142351).jpg", "creator": "David Berkowitz", "license": "CC BY 2.0", "license_url": "https://creativecommons.org/licenses/by/2.0/", "checked_at": "2026-11-25",
+      "sha256": "cb9905cb8b436e8d51bffd98e837d244f689254fcbabf4f9cdafef60160597c7", "exact_subject": true, "subject": "Lion, Sabi Sand Game Reserve, South Africa",
+      "alt": "A male lion resting in the Sabi Sand Game Reserve near Kruger National Park.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Lion in Sabi Sand, Kruger National Park area."
+    },
+    "/images/editorial/cape-town-before-or-after-safari/table-mountain-cape-town.jpg": {
+      "kind": "photograph", "slug": "table-mountain-cape-town", "local_path": "/images/editorial/cape-town-before-or-after-safari/table-mountain-cape-town.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Cape_Town_(ZA),_Table_Mountain_--_2024_--_2825.jpg", "creator": "Dietmar Rabich", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "3645095813a6ce99e64732849d50b295ebbc85766983fb0d747b271d86d8255b", "exact_subject": true, "subject": "Table Mountain, Cape Town, South Africa",
+      "alt": "Table Mountain rising above Cape Town in South Africa.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Table Mountain, Cape Town, 2024."
+    },
+    "/images/editorial/morocco-sahara-itinerary/camel-trek-zagora.jpg": {
+      "kind": "photograph", "slug": "camel-trek-zagora", "local_path": "/images/editorial/morocco-sahara-itinerary/camel-trek-zagora.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Camel_trekking_for_the_tourists._Zagora,_Morocco_(5491994750).jpg", "creator": "Richard Allaway", "license": "CC BY 2.0", "license_url": "https://creativecommons.org/licenses/by/2.0/", "checked_at": "2026-11-25",
+      "sha256": "70fed7563c62fddf1635c3a9d1a5b0286285f725749b75f0a09e2ad0472f7aa3", "exact_subject": true, "subject": "Camel trekking, Zagora, Morocco",
+      "alt": "Tourists riding camels across the desert near Zagora, Morocco.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Camel trekking for tourists in Zagora, Morocco."
+    },
+    "/images/editorial/morocco-sahara-itinerary/chefchaouen-blue-streets.jpg": {
+      "kind": "photograph", "slug": "chefchaouen-blue-streets", "local_path": "/images/editorial/morocco-sahara-itinerary/chefchaouen-blue-streets.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:2018_01_(Blue)_-_Chaouen.jpg", "creator": "Fbrandao.1963", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "756a4568f2b82b1f01738babff69b246971ac5b0a835d2f650e432063417ef1a", "exact_subject": true, "subject": "Blue streets of Chefchaouen, Morocco",
+      "alt": "The blue-painted streets of Chefchaouen in the Rif Mountains of Morocco.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Blue city of Chaouen (Chefchaouen), 2018."
+    },
+    "/images/editorial/morocco-sahara-itinerary/chefchaouen-inhabitants.jpg": {
+      "kind": "photograph", "slug": "chefchaouen-inhabitants", "local_path": "/images/editorial/morocco-sahara-itinerary/chefchaouen-inhabitants.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Inhabitants_of_the_blue_city_3.jpg", "creator": "Sergey Pesterev", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "773c963bdc18e7ea6b939ca4a30f5ee1759481e3a0b07cee2582b92f361d7398", "exact_subject": true, "subject": "Inhabitants of Chefchaouen, Morocco",
+      "alt": "People walking through the blue streets of Chefchaouen in Morocco.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Inhabitants of the blue city, Chefchaouen."
+    },
+    "/images/editorial/morocco-sahara-itinerary/djebel-ayachi-atlas.jpg": {
+      "kind": "photograph", "slug": "djebel-ayachi-atlas", "local_path": "/images/editorial/morocco-sahara-itinerary/djebel-ayachi-atlas.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Djebel_Ayachi,_Eastern_High_Atlas,_Morocco.jpg", "creator": "Mounir Neddi", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "1c6aadc05a2bced0552b1ce2ae8eabccc45cb4eab42008a73b1a65bb842d03cc", "exact_subject": true, "subject": "Djebel Ayachi, Eastern High Atlas, Morocco",
+      "alt": "The rugged peaks of Djebel Ayachi in the Eastern High Atlas of Morocco.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Djebel Ayachi, Eastern High Atlas, Morocco."
+    },
+    "/images/editorial/morocco-sahara-itinerary/high-atlas-mountains.jpg": {
+      "kind": "photograph", "slug": "high-atlas-mountains", "local_path": "/images/editorial/morocco-sahara-itinerary/high-atlas-mountains.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Arhbalou_High_Atlas_Al_Haouz_Morocco_Oct25_A7CR_08381.jpg", "creator": "Timothy", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "7264a951e697ccf23b31706acfd80997bf5954dec86e39ecd538ddbc8f61278d", "exact_subject": true, "subject": "High Atlas Mountains, Al Haouz, Morocco",
+      "alt": "A view of the High Atlas Mountains in the Al Haouz region of Morocco.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Arhbalou, High Atlas, Al Haouz, Morocco."
+    },
+    "/images/editorial/morocco-sahara-itinerary/jemaa-el-fna-marrakesh.jpg": {
+      "kind": "photograph", "slug": "jemaa-el-fna-marrakesh", "local_path": "/images/editorial/morocco-sahara-itinerary/jemaa-el-fna-marrakesh.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Jamaa_El_Fna,_Marrakesh,_Morocco,_20250124_1804_7017.jpg", "creator": "Jakub Hałun", "license": "CC BY 4.0", "license_url": "", "checked_at": "2026-11-25",
+      "sha256": "a6c606e2bae0ea7d92a4640f6d37f2fce1866e3ea8e517b9721f318d496e0ee3", "exact_subject": true, "subject": "Jemaa el-Fnaa square, Marrakesh, Morocco",
+      "alt": "The bustling Jemaa el-Fnaa square in Marrakesh filled with market stalls and crowds.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Jamaa El Fna, Marrakesh, Morocco, 2025."
+    },
+    "/images/editorial/morocco-sahara-itinerary/kasbah-amridil.jpg": {
+      "kind": "photograph", "slug": "kasbah-amridil", "local_path": "/images/editorial/morocco-sahara-itinerary/kasbah-amridil.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Kasbah_Amridil,_Marocco_(قصبة_امريديل).jpg", "creator": "Petar Milošević", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "8bb55ca9dc1f18ad462bc2d4bd2e04f2f6bff788e5639fe8b48c70a465289d6a", "exact_subject": true, "subject": "Kasbah Amridil, Morocco",
+      "alt": "The historic Kasbah Amridil fortress in the Draa Valley of Morocco.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Kasbah Amridil, Morocco."
+    },
+    "/images/editorial/morocco-sahara-itinerary/ksar-taourirt-ouarzazate.jpg": {
+      "kind": "photograph", "slug": "ksar-taourirt-ouarzazate", "local_path": "/images/editorial/morocco-sahara-itinerary/ksar-taourirt-ouarzazate.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Ksar_of_Taourirt,_Ouarzazate,_Morocco_(قصبة_تاوريرت,_ⵜⴰⵡⵔⵉⵔⵜ).jpg", "creator": "Petar Milošević", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "5e6b09c6c2792d93538d89988dc9581892f87be24c5ad746155bc1358025ea73", "exact_subject": true, "subject": "Ksar of Taourirt, Ouarzazate, Morocco",
+      "alt": "The fortified Ksar of Taourirt in Ouarzazate, Morocco.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Ksar of Taourirt, Ouarzazate, Morocco."
+    },
+    "/images/editorial/morocco-sahara-itinerary/sahara-desert-morocco.jpg": {
+      "kind": "photograph", "slug": "sahara-desert-morocco", "local_path": "/images/editorial/morocco-sahara-itinerary/sahara-desert-morocco.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Sahara_Desert,_Morocco_-_51830427381.jpg", "creator": "Samson Ng", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "3cd10565d72500b716a7dbf6583a43a44380bc74019ab848faf981a9d82da5c6", "exact_subject": true, "subject": "Sahara Desert, Morocco",
+      "alt": "The vast sand dunes of the Sahara Desert in Morocco.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Sahara Desert, Morocco."
+    },
+    "/images/editorial/morocco-sahara-itinerary/sahara-dunes-morocco.jpg": {
+      "kind": "photograph", "slug": "sahara-dunes-morocco", "local_path": "/images/editorial/morocco-sahara-itinerary/sahara-dunes-morocco.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Morocco_Africa_Flickr_Rosino_December_2005_84514010_edited_by_Buchling.jpg", "creator": "Rosa Cabecinhas and Alcino Cunha", "license": "CC BY-SA 2.0", "license_url": "https://creativecommons.org/licenses/by-sa/2.0/", "checked_at": "2026-11-25",
+      "sha256": "1767650901ca608c7182c39a7a53c495645e9a7674a5e881997b9fc740e5a879", "exact_subject": true, "subject": "Sahara dunes, Morocco",
+      "alt": "Golden sand dunes of the Sahara Desert in Morocco at sunset.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Morocco Sahara dunes, December 2005."
+    },
+    "/images/editorial/cairo-giza-without-burning-out/cairo-citadel-scenes.jpg": {
+      "kind": "photograph", "slug": "cairo-citadel-scenes", "local_path": "/images/editorial/cairo-giza-without-burning-out/cairo-citadel-scenes.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Scenes_from_Cairo_Citadel_(25986).jpg", "creator": "Amr F.Nagy", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "5254544e031e49054c68f95a9a50d6e8590f9ecb6d93896914a503442c4b48b2", "exact_subject": true, "subject": "Cairo Citadel, Egypt",
+      "alt": "Views of the Cairo Citadel and its historic fortifications.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Scenes from Cairo Citadel."
+    },
+    "/images/editorial/cairo-giza-without-burning-out/cairo-skyline-nile.jpg": {
+      "kind": "photograph", "slug": "cairo-skyline-nile", "local_path": "/images/editorial/cairo-giza-without-burning-out/cairo-skyline-nile.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Cairo_skyline,_Nile_River,_Egypt.jpg", "creator": "Vyacheslav Argenberg", "license": "CC BY 4.0", "license_url": "", "checked_at": "2026-11-25",
+      "sha256": "dcfcfdd0e0c6bbe13b74d517f635f8a76c114c2d6835874fa5778b43ed56cd94", "exact_subject": true, "subject": "Cairo skyline, Nile River, Egypt",
+      "alt": "The Cairo skyline along the Nile River in Egypt.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Cairo skyline, Nile River, Egypt."
+    },
+    "/images/editorial/cairo-giza-without-burning-out/citadel-cairo.jpg": {
+      "kind": "photograph", "slug": "citadel-cairo", "local_path": "/images/editorial/cairo-giza-without-burning-out/citadel-cairo.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Flickr_-_HuTect_ShOts_-_Citadel_of_Salah_El.Din_and_Masjid_Muhammad_Ali_قلعة_صلاح_الدين_الأيوبي_ومسجد_محمد_علي_-_Cairo_-_Egypt_-_17_04_2010_(4).jpg", "creator": "Ahmed Al.Badawy", "license": "CC BY-SA 2.0", "license_url": "https://creativecommons.org/licenses/by-sa/2.0/", "checked_at": "2026-11-25",
+      "sha256": "0e0c97ad3dbb29a0242b45e63ac3e1ea8eb80ba9ec76a22420917b3267123f59", "exact_subject": true, "subject": "Citadel of Salah El Din, Cairo, Egypt",
+      "alt": "The Citadel of Salah El Din and Mosque of Muhammad Ali in Cairo.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Citadel of Salah El Din and Masjid Muhammad Ali, Cairo, 2010."
+    },
+    "/images/editorial/cairo-giza-without-burning-out/coptic-church-cairo.jpg": {
+      "kind": "photograph", "slug": "coptic-church-cairo", "local_path": "/images/editorial/cairo-giza-without-burning-out/coptic-church-cairo.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Cairo_-_Coptic_area_-_Church_of_Saint_Barbara_-_exterior.JPG", "creator": "Daniel Mayer", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "df54c13c96aa99bedc7d5837533f04860449cf5a49f9302ded4bdd1da10453c0", "exact_subject": true, "subject": "Church of Saint Barbara, Coptic Cairo, Egypt",
+      "alt": "The exterior of the Church of Saint Barbara in Coptic Cairo.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Church of Saint Barbara, Coptic area, Cairo."
+    },
+    "/images/editorial/cairo-giza-without-burning-out/giza-pyramids.jpg": {
+      "kind": "photograph", "slug": "giza-pyramids", "local_path": "/images/editorial/cairo-giza-without-burning-out/giza-pyramids.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:All_Gizah_Pyramids.jpg", "creator": "Ricardo Liberato", "license": "CC BY-SA 2.0", "license_url": "https://creativecommons.org/licenses/by-sa/2.0/", "checked_at": "2026-11-25",
+      "sha256": "519c8fed96a0c79c925af147c96161aa5eec3d81bdacb1e14159f453c0defdf6", "exact_subject": true, "subject": "Giza Pyramids, Egypt",
+      "alt": "The pyramids of Giza standing against the Egyptian desert sky.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "All Giza Pyramids."
+    },
+    "/images/editorial/cairo-giza-without-burning-out/hanging-church-cairo.jpg": {
+      "kind": "photograph", "slug": "hanging-church-cairo", "local_path": "/images/editorial/cairo-giza-without-burning-out/hanging-church-cairo.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Cairo,_Old_Cairo,_Hanging_Church,_Egypt,_Oct_2004_edit.jpg", "creator": "Przemyslaw Idzkiewicz", "license": "CC BY-SA 2.5", "license_url": "https://creativecommons.org/licenses/by-sa/2.5/", "checked_at": "2026-11-25",
+      "sha256": "b300d53308b4622ab0ffd6a5628498037ef7e6b408840e2cf70fe0dd7689ef6e", "exact_subject": true, "subject": "Hanging Church, Old Cairo, Egypt",
+      "alt": "The Hanging Church in Old Cairo, Egypt.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Hanging Church, Old Cairo, Egypt, 2004."
+    },
+    "/images/editorial/cairo-giza-without-burning-out/khan-el-khalili-cairo.jpg": {
+      "kind": "photograph", "slug": "khan-el-khalili-cairo", "local_path": "/images/editorial/cairo-giza-without-burning-out/khan-el-khalili-cairo.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Khan_el-Khalili_2019.jpg", "creator": "Sosimoth", "license": "CC BY-SA 3.0", "license_url": "https://creativecommons.org/licenses/by-sa/3.0/", "checked_at": "2026-11-25",
+      "sha256": "81e4ac7a049cf1b5f3adc35bc518eab40e45832904cdf535bcaf0b3a997cc8ba", "exact_subject": true, "subject": "Khan el-Khalili bazaar, Cairo, Egypt",
+      "alt": "The bustling Khan el-Khalili bazaar in Islamic Cairo.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Khan el-Khalili, 2019."
+    },
+    "/images/editorial/africa-trip-safety-basics/african-market-sunrise.jpg": {
+      "kind": "photograph", "slug": "african-market-sunrise", "local_path": "/images/editorial/africa-trip-safety-basics/african-market-sunrise.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:African_market_sunrise.jpg", "creator": "ROYMUNENE", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "1b825f8b3e3c1e0ca4c07d1af509ad2f56b6b16580b878f7aac592ffe652cf31", "exact_subject": true, "subject": "African market at sunrise",
+      "alt": "An African market coming to life at sunrise.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "African market sunrise."
+    },
+    "/images/editorial/africa-trip-safety-basics/african-market.jpg": {
+      "kind": "photograph", "slug": "african-market", "local_path": "/images/editorial/africa-trip-safety-basics/african-market.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:African-market-place.jpg", "creator": "Wisaka", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "3b7432090e7e4d32a540a456928993e1be2e94bd05491206bd3634086f9a2608", "exact_subject": true, "subject": "African market place",
+      "alt": "A bustling African market with stalls and local vendors.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "African market place."
+    },
+    "/images/editorial/africa-trip-safety-basics/airport-aircraft-spotters.jpg": {
+      "kind": "photograph", "slug": "airport-aircraft-spotters", "local_path": "/images/editorial/africa-trip-safety-basics/airport-aircraft-spotters.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Aircraft_spotters,_Lanseria_International_Airport_(South_Africa).jpg", "creator": "Olga Ernst", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "cbb486e979a743430658730aa77df54641f2fbd0a7ee64f163279b0182aeace9", "exact_subject": true, "subject": "Aircraft spotters, Lanseria International Airport, South Africa",
+      "alt": "Aircraft spotters watching planes at Lanseria International Airport in South Africa.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Aircraft spotters at Lanseria International Airport, South Africa."
+    },
+    "/images/editorial/africa-trip-safety-basics/safari-sunset.jpg": {
+      "kind": "photograph", "slug": "safari-sunset", "local_path": "/images/editorial/africa-trip-safety-basics/safari-sunset.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Africa_safari_sunset.jpg", "creator": "Hein waschefort", "license": "CC BY-SA 3.0", "license_url": "https://creativecommons.org/licenses/by-sa/3.0/", "checked_at": "2026-11-25",
+      "sha256": "7f3002fcd95b47f8473f3c9919dea675a7bb422d8b297f4df3d3fe69015a7ea1", "exact_subject": true, "subject": "African safari at sunset",
+      "alt": "A safari scene silhouetted against an African sunset.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Africa safari sunset."
+    },
+    "/images/editorial/africa-trip-safety-basics/safari-vehicles-pilanesberg.jpg": {
+      "kind": "photograph", "slug": "safari-vehicles-pilanesberg", "local_path": "/images/editorial/africa-trip-safety-basics/safari-vehicles-pilanesberg.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Pilanesberg_National_Park_Safari_vehicles_parked_at_Bakubung_Gate.jpg", "creator": "Ymblanter", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "cee4dbd2a03a46855cc1515547552e0a38a0ed7b6ec9481974db5d10aece68b6", "exact_subject": true, "subject": "Safari vehicles, Pilanesberg National Park, South Africa",
+      "alt": "Safari vehicles parked at the Bakubung Gate of Pilanesberg National Park.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Safari vehicles parked at Bakubung Gate, Pilanesberg National Park."
+    },
+    "/images/editorial/africa-trip-safety-basics/uganda-road-trip-lunch.jpg": {
+      "kind": "photograph", "slug": "uganda-road-trip-lunch", "local_path": "/images/editorial/africa-trip-safety-basics/uganda-road-trip-lunch.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Lunch_on_trip_in_Uganda_-_African_road_trip_fries.jpg", "creator": "Mwesigyemoses", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "905e19d28650cac1ea5db61abe3c768861d0581c4e67db66b546b0c194aac5a5", "exact_subject": true, "subject": "Road trip lunch, Uganda",
+      "alt": "A lunch stop during a road trip in Uganda.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Lunch on trip in Uganda, African road trip."
+    },
+    "/images/editorial/africa-trip-safety-basics/uganda-road-trip.jpg": {
+      "kind": "photograph", "slug": "uganda-road-trip", "local_path": "/images/editorial/africa-trip-safety-basics/uganda-road-trip.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Road_trip_pearl_of_africa.jpg", "creator": "Mwesigyemoses", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "595d8bf571aee7fc6d15996982d6cd00b8bbce467e0c32e7905cbad0392ba103", "exact_subject": true, "subject": "Road trip, Uganda",
+      "alt": "A road trip through the Pearl of Africa, Uganda.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Road trip, Pearl of Africa, Uganda."
+    },
+    "/images/editorial/cultural-etiquette-local-communities/african-traditional-dance.jpg": {
+      "kind": "photograph", "slug": "african-traditional-dance", "local_path": "/images/editorial/cultural-etiquette-local-communities/african-traditional-dance.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Traditional_African_Dance-Expression_in_Motion.jpg", "creator": "Ato liferfc", "license": "CC0", "license_url": "https://creativecommons.org/publicdomain/zero/1.0/", "checked_at": "2026-11-25",
+      "sha256": "ea594e431b55d113fdf24319ca64bcc79ba9cc7a79fb3bacdacb2ba586c1fcfc", "exact_subject": true, "subject": "Traditional African dance",
+      "alt": "Traditional African dancers in motion, expressing culture through movement.", "property": false, "requires_attribution": false,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Traditional African Dance - Expression in Motion."
+    },
+    "/images/editorial/cultural-etiquette-local-communities/lekki-craft-market.jpg": {
+      "kind": "photograph", "slug": "lekki-craft-market", "local_path": "/images/editorial/cultural-etiquette-local-communities/lekki-craft-market.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Lekki_craft_market_1.jpg", "creator": "Oritsetsemaye Jemide", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "6c43c9a3d4f681377a9bd076ff7914a5adfa3d5cf9cb49c01464efa0d8f81828", "exact_subject": true, "subject": "Lekki craft market, Lagos, Nigeria",
+      "alt": "Craft stalls at the Lekki market in Lagos, Nigeria.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Lekki craft market, Lagos."
+    },
+    "/images/editorial/cultural-etiquette-local-communities/maasai-village-people.jpg": {
+      "kind": "photograph", "slug": "maasai-village-people", "local_path": "/images/editorial/cultural-etiquette-local-communities/maasai-village-people.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Maasai_Village_(21).jpg", "creator": "Zenith4237", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "b5d5f82027f2390fbee05e234db684a6f7fb6db9987b6272837d7f4e24804ca1", "exact_subject": true, "subject": "Maasai village people, Kenya/Tanzania",
+      "alt": "Members of the Maasai community in their village.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Maasai Village (21)."
+    },
+    "/images/editorial/cultural-etiquette-local-communities/maasai-village.jpg": {
+      "kind": "photograph", "slug": "maasai-village", "local_path": "/images/editorial/cultural-etiquette-local-communities/maasai-village.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Maasai_Village_(12).jpg", "creator": "Zenith4237", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "22a52348e973914883752e643943859ae28ba22aa2f9e3baae98d5dd68c5509d", "exact_subject": true, "subject": "Maasai village, Kenya/Tanzania",
+      "alt": "A traditional Maasai village with its characteristic homesteads.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Maasai Village (12)."
+    },
+    "/images/editorial/cultural-etiquette-local-communities/rosebank-craft-market.jpg": {
+      "kind": "photograph", "slug": "rosebank-craft-market", "local_path": "/images/editorial/cultural-etiquette-local-communities/rosebank-craft-market.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:African_arts_and_crafts_stalls_in_the_Rosebank_Sunday_Market_June_2026.jpg", "creator": "Nick-D", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "87dc646cb5df062148c009a25c73de75c7b7e9f6384fe043c37fbcb1e38e2ab7", "exact_subject": true, "subject": "Rosebank Sunday Market craft stalls, Johannesburg, South Africa",
+      "alt": "African arts and crafts stalls at the Rosebank Sunday Market in Johannesburg.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "African arts and crafts stalls, Rosebank Sunday Market, June 2026."
+    },
+    "/images/editorial/cultural-etiquette-local-communities/rwandan-dance.jpg": {
+      "kind": "photograph", "slug": "rwandan-dance", "local_path": "/images/editorial/cultural-etiquette-local-communities/rwandan-dance.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Traditional_Rwandan_dance_for_celebrating_victories_and_leadership.jpg", "creator": "Nibeza", "license": "CC0", "license_url": "https://creativecommons.org/publicdomain/zero/1.0/", "checked_at": "2026-11-25",
+      "sha256": "1bf9b556af283e4bd37f0f86e99c89d0f312dc2da69cca9f62541192303f9a2e", "exact_subject": true, "subject": "Traditional Rwandan dance",
+      "alt": "Traditional Rwandan dancers performing a dance of celebration.", "property": false, "requires_attribution": false,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Traditional Rwandan dance for celebrating victories and leadership."
+    },
+    "/images/editorial/cultural-etiquette-local-communities/zulu-reed-dance-ceremony.jpg": {
+      "kind": "photograph", "slug": "zulu-reed-dance-ceremony", "local_path": "/images/editorial/cultural-etiquette-local-communities/zulu-reed-dance-ceremony.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:South_Africa_-_Zulu_reed_dance_ceremony_(6482557081).jpg", "creator": "Retlaw Snellac Photography", "license": "CC BY 2.0", "license_url": "https://creativecommons.org/licenses/by/2.0/", "checked_at": "2026-11-25",
+      "sha256": "1037464b496f305af6d9d2564898846cc7bfb75fb5d89c1147dd80f035742ea9", "exact_subject": true, "subject": "Zulu reed dance ceremony, South Africa",
+      "alt": "Participants in the Zulu reed dance ceremony in South Africa.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "South Africa - Zulu reed dance ceremony."
+    },
+    "/images/editorial/ghana-senegal-slow-travel/cape-coast-castle.jpg": {
+      "kind": "photograph", "slug": "cape-coast-castle", "local_path": "/images/editorial/ghana-senegal-slow-travel/cape-coast-castle.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Castle,_Cape_Coast_(P1100223).jpg", "creator": "Matti Blume", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "7a9a9668f9ff93c66e3717407b6c78ddd28b5be5df6633c31b523bb84114dd2e", "exact_subject": true, "subject": "Cape Coast Castle, Ghana",
+      "alt": "The historic Cape Coast Castle in Ghana overlooking the Atlantic.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Castle, Cape Coast, Ghana."
+    },
+    "/images/editorial/ghana-senegal-slow-travel/dakar-sunset-gorree.jpg": {
+      "kind": "photograph", "slug": "dakar-sunset-gorree", "local_path": "/images/editorial/ghana-senegal-slow-travel/dakar-sunset-gorree.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Gorée_2024_-_coucher_de_soleil_sur_Dakar_-_25.jpg", "creator": "Fawaz.tairou", "license": "CC BY 4.0", "license_url": "", "checked_at": "2026-11-25",
+      "sha256": "3750d54cbcf5e416887409753d3494f3649c98cbe52ef703f2544bb7109b09db", "exact_subject": true, "subject": "Sunset over Dakar from Gorée, Senegal",
+      "alt": "The sun setting over Dakar, Senegal, viewed from Gorée Island.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Gorée 2024 - sunset over Dakar."
+    },
+    "/images/editorial/ghana-senegal-slow-travel/ghana-street-market.jpg": {
+      "kind": "photograph", "slug": "ghana-street-market", "local_path": "/images/editorial/ghana-senegal-slow-travel/ghana-street-market.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Ghana_Street_Market.jpg", "creator": "Fanti Salms", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "95566056e4a18a975e5e73577142f8c3675969f9381a371a6068aa2c0c1a8bce", "exact_subject": true, "subject": "Street market, Ghana",
+      "alt": "A bustling street market in Ghana with vendors and local goods.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Ghana Street Market."
+    },
+    "/images/editorial/ghana-senegal-slow-travel/kente-weaving-ghana.jpg": {
+      "kind": "photograph", "slug": "kente-weaving-ghana", "local_path": "/images/editorial/ghana-senegal-slow-travel/kente-weaving-ghana.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Kente_weaving_in_Ghana.jpg", "creator": "Fquasie", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "1e65224fcdf51ada822a6f02208061a3d8716f41a04d3a3436b08a2a739e3285", "exact_subject": true, "subject": "Kente weaving, Ghana",
+      "alt": "Traditional kente cloth being woven on a loom in Ghana.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Kente weaving in Ghana."
+    },
+    "/images/editorial/ghana-senegal-slow-travel/kente-weaving-northern-ghana.jpg": {
+      "kind": "photograph", "slug": "kente-weaving-northern-ghana", "local_path": "/images/editorial/ghana-senegal-slow-travel/kente-weaving-northern-ghana.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Weaving_of_smock_material_(Kente)_in_Northern_Ghana_01.jpg", "creator": "Sir Amugi", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "bed875806ce0864e0011a9ad0b537ee24dc66d48ccbf206921ed79fe63789b96", "exact_subject": true, "subject": "Kente smock weaving, Northern Ghana",
+      "alt": "Weaving of smock material (kente) in Northern Ghana.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Weaving of smock material (Kente) in Northern Ghana."
+    },
+    "/images/editorial/ghana-senegal-slow-travel/lac-rose-senegal.jpg": {
+      "kind": "photograph", "slug": "lac-rose-senegal", "local_path": "/images/editorial/ghana-senegal-slow-travel/lac-rose-senegal.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Lac_Rose_in_Senegal.jpg", "creator": "Arnault", "license": "CC BY-SA 2.0", "license_url": "https://creativecommons.org/licenses/by-sa/2.0/", "checked_at": "2026-11-25",
+      "sha256": "5219a102999620f1915bab7dc781658b800bfd58f1d599f2d7abf2c2fccb58e1", "exact_subject": true, "subject": "Lac Rose (Pink Lake), Senegal",
+      "alt": "The pink waters of Lac Rose in Senegal.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Lac Rose in Senegal."
+    },
+    "/images/editorial/ghana-senegal-slow-travel/pointe-almadies-senegal.jpg": {
+      "kind": "photograph", "slug": "pointe-almadies-senegal", "local_path": "/images/editorial/ghana-senegal-slow-travel/pointe-almadies-senegal.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Pointe_des_Almadies_-_Senegal.jpg", "creator": "Jeff Attaway", "license": "CC BY 2.0", "license_url": "https://creativecommons.org/licenses/by/2.0/", "checked_at": "2026-11-25",
+      "sha256": "0eccd4b35160bbec47fe495c82ac117a945513e23548e62b0e9a42b44552b29b", "exact_subject": true, "subject": "Pointe des Almadies, Senegal",
+      "alt": "The westernmost point of Africa at Pointe des Almadies in Senegal.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Pointe des Almadies, Senegal."
+    },
+    "/images/editorial/ghana-senegal-slow-travel/poultry-market-ghana.jpg": {
+      "kind": "photograph", "slug": "poultry-market-ghana", "local_path": "/images/editorial/ghana-senegal-slow-travel/poultry-market-ghana.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Poultry_market_in_Northern_Ghana_01.jpg", "creator": "Sir Amugi", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "7bc7659296c36a382745cb90b24df9dea2eafb97a1d17698de9ad4722dcac57a", "exact_subject": true, "subject": "Poultry market, Northern Ghana",
+      "alt": "A poultry market in Northern Ghana.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Poultry market in Northern Ghana."
+    },
+    "/images/editorial/plan-kibale-around-chimpanzee-trek/chimpanzee-feeding.jpg": {
+      "kind": "photograph", "slug": "chimpanzee-feeding", "local_path": "/images/editorial/plan-kibale-around-chimpanzee-trek/chimpanzee-feeding.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Common_chimpanzee_(Pan_troglodytes_schweinfurthii)_feeding.jpg", "creator": "Charles J. Sharp", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "4b5461a122a3c36b31cb463229caa0eae7a2180659ef989ba93c9a414185f758", "exact_subject": true, "subject": "Common chimpanzee feeding, Kibale Forest, Uganda",
+      "alt": "A common chimpanzee feeding in the Kibale Forest National Park.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Common chimpanzee (Pan troglodytes schweinfurthii) feeding."
+    },
+    "/images/editorial/plan-kibale-around-chimpanzee-trek/fort-portal-street.jpg": {
+      "kind": "photograph", "slug": "fort-portal-street", "local_path": "/images/editorial/plan-kibale-around-chimpanzee-trek/fort-portal-street.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:A_street_in_Fort_Portal_Uganda_2.jpg", "creator": "Owobusingye", "license": "CC BY 4.0", "license_url": "", "checked_at": "2026-11-25",
+      "sha256": "7cb9cc8cee636343cba4528569d2ca68f22626a67f109c7c472836ee1781f9af", "exact_subject": true, "subject": "Fort Portal street, Uganda",
+      "alt": "A street in Fort Portal, the gateway town to Kibale National Park in Uganda.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "A street in Fort Portal, Uganda."
+    },
+    "/images/editorial/plan-kibale-around-chimpanzee-trek/kibale-alpha-chimpanzee.jpg": {
+      "kind": "photograph", "slug": "kibale-alpha-chimpanzee", "local_path": "/images/editorial/plan-kibale-around-chimpanzee-trek/kibale-alpha-chimpanzee.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:013_Alpha_male_chimpanzee_at_Kibale_forest_National_Park_Photo_by_Giles_Laurent.jpg", "creator": "Giles Laurent", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "c56cde11710ed991eaf943e2235d995e8a89f45149cfa1ef1b926a134fa04c57", "exact_subject": true, "subject": "Alpha male chimpanzee, Kibale Forest National Park, Uganda",
+      "alt": "An alpha male chimpanzee in the Kibale Forest National Park in Uganda.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Alpha male chimpanzee at Kibale forest National Park."
+    },
+    "/images/editorial/plan-kibale-around-chimpanzee-trek/kibale-chimpanzee.jpg": {
+      "kind": "photograph", "slug": "kibale-chimpanzee", "local_path": "/images/editorial/plan-kibale-around-chimpanzee-trek/kibale-chimpanzee.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:015_Chimpanzee_at_Kibale_forest_National_Park_Photo_by_Giles_Laurent.jpg", "creator": "Giles Laurent", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "da5716162255cbf051ab504a28ba8e689f34b03ba939c49ad1d345509c2cf2b3", "exact_subject": true, "subject": "Chimpanzee, Kibale Forest National Park, Uganda",
+      "alt": "A chimpanzee in the Kibale Forest National Park in Uganda.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Chimpanzee at Kibale forest National Park."
+    },
+    "/images/editorial/plan-kibale-around-chimpanzee-trek/kibale-chimpanzees-group.jpg": {
+      "kind": "photograph", "slug": "kibale-chimpanzees-group", "local_path": "/images/editorial/plan-kibale-around-chimpanzee-trek/kibale-chimpanzees-group.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Chimpanzees_of_Kibale_National_Park.jpg", "creator": "Byekwaso Blasio", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "1886b6f6b13a3f87c7d4c67d2619e4d60a0d88c2ca06647b514ca6e920c7cd8c", "exact_subject": true, "subject": "Chimpanzees of Kibale National Park, Uganda",
+      "alt": "A group of chimpanzees in Kibale National Park in Uganda.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Chimpanzees of Kibale National Park."
+    },
+    "/images/editorial/plan-kibale-around-chimpanzee-trek/kibale-sunbird.jpg": {
+      "kind": "photograph", "slug": "kibale-sunbird", "local_path": "/images/editorial/plan-kibale-around-chimpanzee-trek/kibale-sunbird.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:003_Olive-bellied_Sunbird_in_flight_at_Kibale_forest_National_Park_Photo_by_Giles_Laurent.jpg", "creator": "Giles Laurent", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "39dd33b3107403887e00e3f5416b37c542e326d15940319e23042f268fefde6b", "exact_subject": true, "subject": "Olive-bellied sunbird, Kibale Forest National Park, Uganda",
+      "alt": "An olive-bellied sunbird in flight at Kibale Forest National Park.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Olive-bellied Sunbird in flight at Kibale forest National Park."
+    },
+    "/images/editorial/plan-kibale-around-chimpanzee-trek/kibale-turaco.jpg": {
+      "kind": "photograph", "slug": "kibale-turaco", "local_path": "/images/editorial/plan-kibale-around-chimpanzee-trek/kibale-turaco.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:017_Great_blue_turaco_at_Kibale_forest_National_Park_Photo_by_Giles_Laurent.jpg", "creator": "Giles Laurent", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "8fa9906a991e9dd4a35bd27288683329e32eac750d5326fc6c71951e63050e53", "exact_subject": true, "subject": "Great blue turaco, Kibale Forest National Park, Uganda",
+      "alt": "A great blue turaco at Kibale Forest National Park in Uganda.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Great blue turaco at Kibale forest National Park."
+    },
+    "/images/editorial/plan-your-victoria-falls-visit/victoria-falls-bridge.jpg": {
+      "kind": "photograph", "slug": "victoria-falls-bridge", "local_path": "/images/editorial/plan-your-victoria-falls-visit/victoria-falls-bridge.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Victoria_Falls_Bridge,_Africa_092.jpg", "creator": "Adam Annfield", "license": "CC BY 2.0", "license_url": "https://creativecommons.org/licenses/by/2.0/", "checked_at": "2026-11-25",
+      "sha256": "626edd89008b3ab9d070c2874dd07b8be9d879c8d2c76fc574a15fa9f22a1ad1", "exact_subject": true, "subject": "Victoria Falls Bridge, Zambia-Zimbabwe border",
+      "alt": "The Victoria Falls Bridge spanning the Zambezi River between Zambia and Zimbabwe.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Victoria Falls Bridge, Africa."
+    },
+    "/images/editorial/plan-your-victoria-falls-visit/victoria-falls-helicopter.jpg": {
+      "kind": "photograph", "slug": "victoria-falls-helicopter", "local_path": "/images/editorial/plan-your-victoria-falls-visit/victoria-falls-helicopter.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Victoria_Falls_from_the_helicopter.jpg", "creator": "John Walker", "license": "Public domain", "license_url": "https://creativecommons.org/publicdomain/mark/1.0/", "checked_at": "2026-11-25",
+      "sha256": "1320318505e0653143a908c56eeb3cb25fda31e3678ef414d9644460ab74b27d", "exact_subject": true, "subject": "Victoria Falls from helicopter, Zambia-Zimbabwe",
+      "alt": "An aerial view of Victoria Falls from a helicopter.", "property": false, "requires_attribution": false,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Victoria Falls from the helicopter, July 2001."
+    },
+    "/images/editorial/plan-your-victoria-falls-visit/victoria-falls-livingstone.jpg": {
+      "kind": "photograph", "slug": "victoria-falls-livingstone", "local_path": "/images/editorial/plan-your-victoria-falls-visit/victoria-falls-livingstone.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Mosi-oa-Tunya,_Livingstone_(20260519-P1075700).jpg", "creator": "Matti Blume", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "180ebc509e6c04772f240aa30b8980144c39d22e4724b3c3da71f23ca19b4196", "exact_subject": true, "subject": "Mosi-oa-Tunya (Victoria Falls), Livingstone, Zambia",
+      "alt": "The Mosi-oa-Tunya waterfall near Livingstone in Zambia.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Mosi-oa-Tunya, Livingstone, Zambia, 2026."
+    },
+    "/images/editorial/plan-your-victoria-falls-visit/victoria-falls-main.jpg": {
+      "kind": "photograph", "slug": "victoria-falls-main", "local_path": "/images/editorial/plan-your-victoria-falls-visit/victoria-falls-main.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Cataratas_Victoria,_Zambia-Zimbabue,_2018-07-27,_DD_05.jpg", "creator": "Diego Delso", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "ca249aca80d5a881b174a07569b22ce53d5d2a019b2dfd80a86f68f0381aaffb", "exact_subject": true, "subject": "Victoria Falls, Zambia-Zimbabwe border",
+      "alt": "The massive curtain of water at Victoria Falls on the Zambia-Zimbabwe border.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Victoria Falls, Zambia-Zimbabwe, 2018."
+    },
+    "/images/editorial/plan-your-victoria-falls-visit/victoria-falls-moonbow.jpg": {
+      "kind": "photograph", "slug": "victoria-falls-moonbow", "local_path": "/images/editorial/plan-your-victoria-falls-visit/victoria-falls-moonbow.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Moonbow_at_Victoria_Falls.jpg", "creator": "Scolopendra33", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "20f308bdbc90a0d0d3ba63eaf1ccca5f3341b69e89fdb933270684d0c77c3aa3", "exact_subject": true, "subject": "Moonbow at Victoria Falls, Zambia-Zimbabwe",
+      "alt": "A lunar rainbow (moonbow) visible in the spray of Victoria Falls at night.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Moonbow at Victoria Falls."
+    },
+    "/images/editorial/plan-your-victoria-falls-visit/victoria-falls-spray.jpg": {
+      "kind": "photograph", "slug": "victoria-falls-spray", "local_path": "/images/editorial/plan-your-victoria-falls-visit/victoria-falls-spray.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Victoria_Falls_-_VicFalls3465.jpg", "creator": "lumoplank", "license": "CC0", "license_url": "https://creativecommons.org/publicdomain/zero/1.0/", "checked_at": "2026-11-25",
+      "sha256": "9ca53ebe0dee498abd7e70ce61cab247e5a9a5a94277ac7d27fe8ee1bccba55b", "exact_subject": true, "subject": "Victoria Falls spray cloud, Zambia-Zimbabwe",
+      "alt": "The rising spray cloud from Victoria Falls visible from afar.", "property": false, "requires_attribution": false,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Victoria Falls, spray cloud."
+    },
+    "/images/editorial/plan-your-victoria-falls-visit/victoria-falls-zimbabwe-side.jpg": {
+      "kind": "photograph", "slug": "victoria-falls-zimbabwe-side", "local_path": "/images/editorial/plan-your-victoria-falls-visit/victoria-falls-zimbabwe-side.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Cataratas_Victoria,_Zambia-Zimbabue,_2018-07-27,_DD_04.jpg", "creator": "Diego Delso", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "95fc3f787843e4e4ffa25309907569b44448bfa00be51a4dd496c19e3bfa2aa6", "exact_subject": true, "subject": "Victoria Falls Zimbabwe side, Zambia-Zimbabwe border",
+      "alt": "Victoria Falls viewed from the Zimbabwe side of the Zambia-Zimbabwe border.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Victoria Falls, Zambia-Zimbabwe, 2018, DD 04."
+    },
+    "/images/editorial/uganda-vs-kenya-first-time-safari/bwindi-gorilla.jpg": {
+      "kind": "photograph", "slug": "bwindi-gorilla", "local_path": "/images/editorial/uganda-vs-kenya-first-time-safari/bwindi-gorilla.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Gorilla_in_Bwindi_Impenetrable_National_Park.jpg", "creator": "Robert from Uganda gorilla safari", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "51d8ef29bfb41db0d2276602cbc634557ff116c3a755674631defa828a12cd41", "exact_subject": true, "subject": "Mountain gorilla, Bwindi Impenetrable National Park, Uganda",
+      "alt": "A mountain gorilla in the Bwindi Impenetrable National Park in Uganda.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Gorilla in Bwindi Impenetrable National Park."
+    },
+    "/images/editorial/uganda-vs-kenya-first-time-safari/masai-mara-river-crossing.jpg": {
+      "kind": "photograph", "slug": "masai-mara-river-crossing", "local_path": "/images/editorial/uganda-vs-kenya-first-time-safari/masai-mara-river-crossing.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Masai_Mara_National_Reserve_20_-_Mara_river_crossing.jpg", "creator": "Thomas Fuhrmann", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "4706fa9c19e77d7cea3aa1d9c1e46f2d2f077f887b8d6d2894c9c1f186d27f6b", "exact_subject": true, "subject": "Mara River crossing, Masai Mara, Kenya",
+      "alt": "A river crossing in the Masai Mara National Reserve in Kenya.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Masai Mara National Reserve, Mara river crossing."
+    },
+    "/images/editorial/uganda-vs-kenya-first-time-safari/masai-mara-zebras.jpg": {
+      "kind": "photograph", "slug": "masai-mara-zebras", "local_path": "/images/editorial/uganda-vs-kenya-first-time-safari/masai-mara-zebras.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Three_zebras_in_Masai_Mara_National_Park,_Kenya.jpg", "creator": "Volodymyr Burdiak", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "bfb123b83f1148e8f89ab65f5186f3ff1e9106cb4dd0160e99084f61215cb638", "exact_subject": true, "subject": "Zebras, Masai Mara National Park, Kenya",
+      "alt": "Three zebras standing in the Masai Mara National Park in Kenya.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Three zebras in Masai Mara National Park, Kenya."
+    },
+    "/images/editorial/uganda-vs-kenya-first-time-safari/mount-kenya-alpine.jpg": {
+      "kind": "photograph", "slug": "mount-kenya-alpine", "local_path": "/images/editorial/uganda-vs-kenya-first-time-safari/mount-kenya-alpine.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Mount_Kenya_alpine.jpg", "creator": "John Spooner", "license": "CC BY 2.0", "license_url": "https://creativecommons.org/licenses/by/2.0/", "checked_at": "2026-11-25",
+      "sha256": "aec4b975b0f0d1a87b89c20985c4c2d7eb69cb011f85a72fcf169265e4029a4e", "exact_subject": true, "subject": "Mount Kenya alpine landscape, Kenya",
+      "alt": "The alpine landscape of Mount Kenya in Kenya.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Mount Kenya alpine."
+    },
+    "/images/editorial/uganda-vs-kenya-first-time-safari/mount-kenya-skyline.jpg": {
+      "kind": "photograph", "slug": "mount-kenya-skyline", "local_path": "/images/editorial/uganda-vs-kenya-first-time-safari/mount-kenya-skyline.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Mount_Kenya_skyline.jpg", "creator": "John Spooner", "license": "CC BY 2.0", "license_url": "https://creativecommons.org/licenses/by/2.0/", "checked_at": "2026-11-25",
+      "sha256": "83dbb487524595bf1673d448100d0c0633be1822bf0f6068883eac777ae5a0a0", "exact_subject": true, "subject": "Mount Kenya skyline, Kenya",
+      "alt": "The skyline of Mount Kenya rising above the clouds.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Mount Kenya skyline."
+    },
+    "/images/editorial/uganda-vs-kenya-first-time-safari/ruhija-landscape-uganda.jpg": {
+      "kind": "photograph", "slug": "ruhija-landscape-uganda", "local_path": "/images/editorial/uganda-vs-kenya-first-time-safari/ruhija-landscape-uganda.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Paisaje_en_Ruhija,_Rubanda,_Uganda,_2024-02-01,_DD_82.jpg", "creator": "Diego Delso", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "14158babab70367e7502f8735fbd75602ee75bcea9785cac8703624ca8ce34c7", "exact_subject": true, "subject": "Ruhija landscape, Rubanda, Uganda",
+      "alt": "The green mountainous landscape of Ruhija in Rubanda, Uganda.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Landscape in Ruhija, Rubanda, Uganda, 2024."
+    },
+    "/images/editorial/uganda-vs-kenya-first-time-safari/uganda-mountain-landscape.jpg": {
+      "kind": "photograph", "slug": "uganda-mountain-landscape", "local_path": "/images/editorial/uganda-vs-kenya-first-time-safari/uganda-mountain-landscape.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Green_mountainous_landscape_in_Katerera_Subcounty_in_Western_Uganda_3.jpg", "creator": "BalukuBrian", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "13584bd5fb3397815177cce03735f18119cd8ae6155ad5a65e789b718fb1e897", "exact_subject": true, "subject": "Mountainous landscape, Katerera, Western Uganda",
+      "alt": "The green mountainous landscape of Katerera Subcounty in Western Uganda.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Green mountainous landscape in Katerera Subcounty, Western Uganda."
+    },
+    "/images/editorial/benin-country/cotonou-fish-market.jpg": {
+      "kind": "photograph", "slug": "cotonou-fish-market", "local_path": "/images/editorial/benin-country/cotonou-fish-market.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Fish_market_of_Cotonou_Benin.jpg", "creator": "Theresa Carpenter", "license": "CC BY-SA 2.0", "license_url": "https://creativecommons.org/licenses/by-sa/2.0/", "checked_at": "2026-11-25",
+      "sha256": "bfaf68aea8fef85398f307ab43323300aa1cbf5e6da8bc40fae0942125319f43", "exact_subject": true, "subject": "Fish market, Cotonou, Benin",
+      "alt": "The fish market in Cotonou, Benin's largest city.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Fish market of Cotonou, Benin."
+    },
+    "/images/editorial/benin-country/ganvie-pirogue.jpg": {
+      "kind": "photograph", "slug": "ganvie-pirogue", "local_path": "/images/editorial/benin-country/ganvie-pirogue.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Pirogue_à_voile_ou_pirogue_à_balancier_de_type_béninois_sur_le_fleuve_de_Ganvié_05.jpg", "creator": "Adoscam", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "8348f863cdcbed98632ff4e6127a08ad3c240e46c06255f54ecf8731a9942aaf", "exact_subject": true, "subject": "Pirogue on the Ganvié river, Benin",
+      "alt": "A traditional Beninese pirogue on the lagoon at Ganvié.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Pirogue à voile ou à balancier de type béninois sur le fleuve de Ganvié."
+    },
+    "/images/editorial/benin-country/ganvie-village.jpg": {
+      "kind": "photograph", "slug": "ganvie-village", "local_path": "/images/editorial/benin-country/ganvie-village.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Benin_village_on_water_Ganvié.jpg", "creator": "Dr. Ondřej Havelka", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "73a6e09ab38762d110e65b7245a0020ed6cf02dc9ac215e29301caca077dde70", "exact_subject": true, "subject": "Ganvié village on water, Benin",
+      "alt": "The stilt village of Ganvié on Lake Nokoué in Benin.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Benin village on water, Ganvié."
+    },
+    "/images/editorial/benin-country/mono-river-pirogue.jpg": {
+      "kind": "photograph", "slug": "mono-river-pirogue", "local_path": "/images/editorial/benin-country/mono-river-pirogue.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Large_pirogue_by_Mono_river_Benin.jpg", "creator": "Kulttuurinavigaattori", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "64fb8a04c0227bbaed8f591b9088b3a031caf899a7f15ac4a111d2a85b7c1d8b", "exact_subject": true, "subject": "Pirogue on the Mono River, Benin",
+      "alt": "A large pirogue on the Mono River in Benin.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Large pirogue by Mono river, Benin."
+    },
+    "/images/editorial/benin-country/ouidah-beach-1.jpg": {
+      "kind": "photograph", "slug": "ouidah-beach-1", "local_path": "/images/editorial/benin-country/ouidah-beach-1.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Beach_of_Ouidah_Benin_2.jpg", "creator": "jbdodane", "license": "CC BY 2.0", "license_url": "https://creativecommons.org/licenses/by/2.0/", "checked_at": "2026-11-25",
+      "sha256": "cd8e508ddaccababe044db57989d44e5a9392ccae05a63441dafb68bcbebcdbe", "exact_subject": true, "subject": "Ouidah beach, Benin",
+      "alt": "The beach at Ouidah in Benin.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Beach of Ouidah, Benin."
+    },
+    "/images/editorial/benin-country/ouidah-beach-2.jpg": {
+      "kind": "photograph", "slug": "ouidah-beach-2", "local_path": "/images/editorial/benin-country/ouidah-beach-2.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Beach_of_Ouidah_Benin.jpg", "creator": "jbdodane", "license": "CC BY 2.0", "license_url": "https://creativecommons.org/licenses/by/2.0/", "checked_at": "2026-11-25",
+      "sha256": "274ec1ceea65a714261d0473fa7fbe505ca5d6299d57d17fe4feda81586eb999", "exact_subject": true, "subject": "Ouidah beach, Benin",
+      "alt": "The sandy beach at Ouidah on the Benin coast.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Beach of Ouidah, Benin."
+    },
+    "/images/editorial/benin-country/ouidah-beach-3.jpg": {
+      "kind": "photograph", "slug": "ouidah-beach-3", "local_path": "/images/editorial/benin-country/ouidah-beach-3.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Plage_de_Ouidah_(Benin,_2013).jpg", "creator": "jbdodane", "license": "CC BY 2.0", "license_url": "https://creativecommons.org/licenses/by/2.0/", "checked_at": "2026-11-25",
+      "sha256": "b2b4ef74d8cc3b8b3b6a98447579032851885254d9ae696ace1c536a0fbc61da", "exact_subject": true, "subject": "Plage de Ouidah, Benin, 2013",
+      "alt": "The beach at Ouidah in Benin photographed in 2013.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Plage de Ouidah, Benin, 2013."
+    },
+    "/images/editorial/algeria-country/algiers-cemetery.jpg": {
+      "kind": "photograph", "slug": "algiers-cemetery", "local_path": "/images/editorial/algeria-country/algiers-cemetery.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:St._Eugene_Cemetery_(Algiers)_15.jpg", "creator": "Bernard Gagnon", "license": "CC BY 4.0", "license_url": "", "checked_at": "2026-11-25",
+      "sha256": "79a3f97d6fe22446a94fb4497e6aeb570345afd26a349bfe921c46559195eb82", "exact_subject": true, "subject": "St. Eugene Cemetery, Algiers, Algeria",
+      "alt": "The St. Eugene Cemetery in Algiers, Algeria.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "St. Eugene Cemetery, Algiers."
+    },
+    "/images/editorial/algeria-country/algiers-doors.jpg": {
+      "kind": "photograph", "slug": "algiers-doors", "local_path": "/images/editorial/algeria-country/algiers-doors.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Doors_in_Algiers,_Algeria_2.jpg", "creator": "Rachid Hamatou", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "8a1299827a5d10a91f6d96fde9768d8a9372fa0aae5a27f5ff29d4580536bc28", "exact_subject": true, "subject": "Traditional doors, Algiers, Algeria",
+      "alt": "Traditional decorated doors in Algiers, Algeria.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Doors in Algiers, Algeria."
+    },
+    "/images/editorial/algeria-country/constantine-medersa.jpg": {
+      "kind": "photograph", "slug": "constantine-medersa", "local_path": "/images/editorial/algeria-country/constantine-medersa.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Médersa_de_Constantine_02.jpg", "creator": "Bernard Gagnon", "license": "CC BY 4.0", "license_url": "", "checked_at": "2026-11-25",
+      "sha256": "3a9113a6499e4bfaee9f4dfb421349be317426e0376c55ec160c539b80eb35ac", "exact_subject": true, "subject": "Médersa de Constantine, Algeria",
+      "alt": "The historic Médersa (Islamic school) in Constantine, Algeria.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Médersa de Constantine."
+    },
+    "/images/editorial/algeria-country/hoggar-mountains.jpg": {
+      "kind": "photograph", "slug": "hoggar-mountains", "local_path": "/images/editorial/algeria-country/hoggar-mountains.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Ahaggar_Mountains_1981_62.jpg", "creator": "Smiley.toerist", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "021a8e19f08dd15a2b93fe66140b2a062fb4709eccbb3298a4d541042883bf2f", "exact_subject": true, "subject": "Ahaggar (Hoggar) Mountains, Algeria",
+      "alt": "The Ahaggar Mountains in the Sahara of southern Algeria.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Ahaggar Mountains, 1981."
+    },
+    "/images/editorial/algeria-country/tassili-cave-painting.jpg": {
+      "kind": "photograph", "slug": "tassili-cave-painting", "local_path": "/images/editorial/algeria-country/tassili-cave-painting.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:The_Tanzoumaitak_cave_painting_in_Tassili_n'ajjer.jpg", "creator": "IssamBarhoumi", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "246440e9a7ca2a608528f6be21a1c1a9c5e2bcf99855bff420f2ba448b64204f", "exact_subject": true, "subject": "Tanzoumaitak cave painting, Tassili n'Ajjer, Algeria",
+      "alt": "A prehistoric cave painting in Tassili n'Ajjer, Algeria.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Tanzoumaitak cave painting in Tassili n'Ajjer."
+    },
+    "/images/editorial/algeria-country/tassili-nomad.jpg": {
+      "kind": "photograph", "slug": "tassili-nomad", "local_path": "/images/editorial/algeria-country/tassili-nomad.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Esprit_nomade.JPG", "creator": "Hamdanmourad", "license": "CC BY-SA 3.0", "license_url": "https://creativecommons.org/licenses/by-sa/3.0/", "checked_at": "2026-11-25",
+      "sha256": "455c02753a900aaf99b2eed19ab5b337b8ba68364c4402269007ffcba1e205f5", "exact_subject": true, "subject": "Nomadic spirit, Tassili n'Ajjer, Algeria",
+      "alt": "A nomadic scene in the Tassili n'Ajjer region of the Sahara.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Esprit nomade, Tassili n'Ajjer."
+    },
+    "/images/editorial/algeria-country/teffedest-desert.jpg": {
+      "kind": "photograph", "slug": "teffedest-desert", "local_path": "/images/editorial/algeria-country/teffedest-desert.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Garet_el_Djenoun_Teffedest_Algeria.jpg", "creator": "Linus Wolf", "license": "CC BY-SA 3.0", "license_url": "https://creativecommons.org/licenses/by-sa/3.0/", "checked_at": "2026-11-25",
+      "sha256": "124abcaf4f69ca7b1e367050ba5c0b70485d2a736a393cb8209cce3054c46629", "exact_subject": true, "subject": "Garet el Djenoun, Teffedest, Algeria",
+      "alt": "The dramatic peaks of Garet el Djenoun in the Teffedest range of the Algerian Sahara.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Garet el Djenoun, Teffedest, Algeria."
+    },
+    "/images/editorial/ethiopia-country/dallol-desert.jpg": {
+      "kind": "photograph", "slug": "dallol-desert", "local_path": "/images/editorial/ethiopia-country/dallol-desert.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Ethiopia_-_Dallol.jpg", "creator": "Thomas Fuhrmann", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "b22a174de6ab9d2a43c9fa6e901546b1e0313d2090fdddb738c4e7e3b1cf376b", "exact_subject": true, "subject": "Dallol, Danakil Desert, Ethiopia",
+      "alt": "The colourful mineral formations of Dallol in the Danakil Desert, Ethiopia.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Dallol, Ethiopia."
+    },
+    "/images/editorial/ethiopia-country/danakil-salt-mining.jpg": {
+      "kind": "photograph", "slug": "danakil-salt-mining", "local_path": "/images/editorial/ethiopia-country/danakil-salt-mining.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Salt_mining_in_the_Danakil_Desert,_Ethiopia.jpg", "creator": "Barrowbob", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "ff2cdda2d947b72a475a4370021701574661f5c7475af117e6a19958b820ea44", "exact_subject": true, "subject": "Salt mining, Danakil Desert, Ethiopia",
+      "alt": "Traditional salt mining in the Danakil Desert in Ethiopia.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Salt mining in the Danakil Desert, Ethiopia."
+    },
+    "/images/editorial/ethiopia-country/gelada-female-baby.jpg": {
+      "kind": "photograph", "slug": "gelada-female-baby", "local_path": "/images/editorial/ethiopia-country/gelada-female-baby.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Southern_gelada_(Theropithecus_gelada_obscura)_female_with_baby.jpg", "creator": "Charles J. Sharp", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "7997543d49cf0af8d6b3eea2b809f54bffec7e6a9ebc3b896016298c3e8f4850", "exact_subject": true, "subject": "Southern gelada female with baby, Ethiopia",
+      "alt": "A southern gelada female with her baby in Ethiopia.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Southern gelada female with baby."
+    },
+    "/images/editorial/ethiopia-country/gelada-male.jpg": {
+      "kind": "photograph", "slug": "gelada-male", "local_path": "/images/editorial/ethiopia-country/gelada-male.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Southern_gelada_(Theropithecus_gelada_obscurus)_male.jpg", "creator": "Charles J. Sharp", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "f562e32e70b5c73fe0db1345de77c96ead5cb786e24fb6c2d85c9e18824c0e49", "exact_subject": true, "subject": "Southern gelada male, Ethiopia",
+      "alt": "A southern gelada male in the Ethiopian highlands.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Southern gelada male."
+    },
+    "/images/editorial/ethiopia-country/lalibela-sunset.jpg": {
+      "kind": "photograph", "slug": "lalibela-sunset", "local_path": "/images/editorial/ethiopia-country/lalibela-sunset.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Ethiopia_-_sunset_at_Church_of_Saint_George,_Lalibela_01.jpg", "creator": "Thomas Fuhrmann", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "68b6651801175799620ed9ae811fadddc4fba50e6ee6e8cf690f99e3fad6bd70", "exact_subject": true, "subject": "Church of Saint George, Lalibela, Ethiopia, at sunset",
+      "alt": "The Church of Saint George in Lalibela, Ethiopia, at sunset.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Sunset at Church of Saint George, Lalibela."
+    },
+    "/images/editorial/ethiopia-country/simien-mountains-1.jpg": {
+      "kind": "photograph", "slug": "simien-mountains-1", "local_path": "/images/editorial/ethiopia-country/simien-mountains-1.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Simien_Mountains_National_Park_in_Ethiopia.jpg", "creator": "Barrowbob", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "7e7a00b1dc6ff2372e89cac94d504d35024f95be4520f8163c5575a32988bda6", "exact_subject": true, "subject": "Simien Mountains National Park, Ethiopia",
+      "alt": "The dramatic peaks of the Simien Mountains National Park in Ethiopia.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Simien Mountains National Park, Ethiopia."
+    },
+    "/images/editorial/ethiopia-country/simien-mountains-2.jpg": {
+      "kind": "photograph", "slug": "simien-mountains-2", "local_path": "/images/editorial/ethiopia-country/simien-mountains-2.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Simien_Mountains_National_Park_-_Ethiopia.jpg", "creator": "Barrowbob", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "28d74455c8e3e428c5e2fc20483b3d1b6bf3ddecd3a69672030e688cfc9e5c3d", "exact_subject": true, "subject": "Simien Mountains National Park, Ethiopia",
+      "alt": "A view of the Simien Mountains National Park in Ethiopia.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Simien Mountains National Park, Ethiopia."
+    },
+    "/images/editorial/ghana-country/accra-market.jpg": {
+      "kind": "photograph", "slug": "accra-market", "local_path": "/images/editorial/ghana-country/accra-market.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Accra_Market,_Accra_(P1100247).jpg", "creator": "Matti Blume", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "f545add2b0746d3e508be320b45dc8b73f8507729ebb4791b080b67ebe9d42ca", "exact_subject": true, "subject": "Accra Market, Ghana",
+      "alt": "The bustling market in Accra, Ghana's capital.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Accra Market, Accra."
+    },
+    "/images/editorial/ghana-country/cape-coast-castle-1.jpg": {
+      "kind": "photograph", "slug": "cape-coast-castle-1", "local_path": "/images/editorial/ghana-country/cape-coast-castle-1.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Castle,_Cape_Coast_(P1100221).jpg", "creator": "Matti Blume", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "6e536f4d904660e350a9157a6318c92f459cf4f299f2d2ecb7c5113efb2084bf", "exact_subject": true, "subject": "Cape Coast Castle, Ghana",
+      "alt": "Cape Coast Castle, a historic fortification in Ghana.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Castle, Cape Coast."
+    },
+    "/images/editorial/ghana-country/cape-coast-castle-2.jpg": {
+      "kind": "photograph", "slug": "cape-coast-castle-2", "local_path": "/images/editorial/ghana-country/cape-coast-castle-2.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Castle,_Cape_Coast_(P1100223).jpg", "creator": "Matti Blume", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "7a9a9668f9ff93c66e3717407b6c78ddd28b5be5df6633c31b523bb84114dd2e", "exact_subject": true, "subject": "Cape Coast Castle, Ghana",
+      "alt": "A view of Cape Coast Castle in Ghana.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Castle, Cape Coast."
+    },
+    "/images/editorial/ghana-country/jamestown-accra.jpg": {
+      "kind": "photograph", "slug": "jamestown-accra", "local_path": "/images/editorial/ghana-country/jamestown-accra.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Jamestown,_Accra_(P1100253).jpg", "creator": "Matti Blume", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "12eb97c735765ce6b05bcd4a8037077b566a42d861d76a8c9626b05c2083988e", "exact_subject": true, "subject": "Jamestown, Accra, Ghana",
+      "alt": "The historic Jamestown district of Accra, Ghana.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Jamestown, Accra."
+    },
+    "/images/editorial/ghana-country/kente-designs.jpg": {
+      "kind": "photograph", "slug": "kente-designs", "local_path": "/images/editorial/ghana-country/kente-designs.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Kente_Designs,_Volta_region.jpg", "creator": "Warmglow", "license": "CC0", "license_url": "https://creativecommons.org/publicdomain/zero/1.0/", "checked_at": "2026-11-25",
+      "sha256": "b2b942c8d48f54ca9e868a849b39f5fce6710fc45dd5abb6e8c674488c8da9d1", "exact_subject": true, "subject": "Kente designs, Volta region, Ghana",
+      "alt": "Colourful kente cloth designs from the Volta region of Ghana.", "property": false, "requires_attribution": false,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Kente Designs, Volta region."
+    },
+    "/images/editorial/ghana-country/mole-national-park.jpg": {
+      "kind": "photograph", "slug": "mole-national-park", "local_path": "/images/editorial/ghana-country/mole-national-park.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Mole_National_Park,_Mole_Village_(P1100345-Pano-2).jpg", "creator": "Matti Blume", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "69f7ad058dc29a58e13d8d4508d376603987772ac960c156b51638cbbc4b2920", "exact_subject": true, "subject": "Mole National Park, Ghana",
+      "alt": "The landscape of Mole National Park in northern Ghana.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Mole National Park, Mole Village."
+    },
+    "/images/editorial/ghana-country/traditional-kente.jpg": {
+      "kind": "photograph", "slug": "traditional-kente", "local_path": "/images/editorial/ghana-country/traditional-kente.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Traditional_Kente_of_Volta_region.jpg", "creator": "Warmglow", "license": "CC0", "license_url": "https://creativecommons.org/publicdomain/zero/1.0/", "checked_at": "2026-11-25",
+      "sha256": "bd1a6305ad8e1409cadd020d2e233decb3cf0db0837fbfc9f3fbd521eb7f59f9", "exact_subject": true, "subject": "Traditional kente cloth, Volta region, Ghana",
+      "alt": "Traditional kente cloth from the Volta region of Ghana.", "property": false, "requires_attribution": false,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Traditional Kente of Volta region."
+    },
+    "/images/editorial/kenya-country/diani-beach.jpg": {
+      "kind": "photograph", "slug": "diani-beach", "local_path": "/images/editorial/kenya-country/diani-beach.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Kenya_Diani_Beach_23_BG.jpg", "creator": "Bingar1234", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "63e4dea31f416a8b3c55d10679e7d3c167b697e8f26abec8c42c72d20ffe03d6", "exact_subject": true, "subject": "Diani Beach, Kenya",
+      "alt": "The white sands of Diani Beach on the Kenyan coast.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Kenya Diani Beach."
+    },
+    "/images/editorial/kenya-country/giraffe-manor-nairobi.jpg": {
+      "kind": "photograph", "slug": "giraffe-manor-nairobi", "local_path": "/images/editorial/kenya-country/giraffe-manor-nairobi.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Giraffe_Manor,_Nairobi,_Kenya.jpg", "creator": "Push the button", "license": "CC BY-SA 3.0", "license_url": "https://creativecommons.org/licenses/by-sa/3.0/", "checked_at": "2026-11-25",
+      "sha256": "a90e2f6b53fab95629f651e08eb7daee46f0db642511c5b9a1137c82aa470254", "exact_subject": true, "subject": "Giraffe Manor, Nairobi, Kenya",
+      "alt": "Giraffe Manor, a famous hotel in Nairobi, Kenya.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Giraffe Manor, Nairobi, Kenya."
+    },
+    "/images/editorial/kenya-country/mara-river-crossing.jpg": {
+      "kind": "photograph", "slug": "mara-river-crossing", "local_path": "/images/editorial/kenya-country/mara-river-crossing.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Masai_Mara_National_Reserve_20_-_Mara_river_crossing.jpg", "creator": "Thomas Fuhrmann", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "4706fa9c19e77d7cea3aa1d9c1e46f2d2f077f887b8d6d2894c9c1f186d27f6b", "exact_subject": true, "subject": "Mara River crossing, Masai Mara, Kenya",
+      "alt": "A river crossing in the Masai Mara National Reserve in Kenya.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Masai Mara National Reserve, Mara river crossing."
+    },
+    "/images/editorial/kenya-country/masai-mara-lions.jpg": {
+      "kind": "photograph", "slug": "masai-mara-lions", "local_path": "/images/editorial/kenya-country/masai-mara-lions.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Lions_Family_Portrait_Masai_Mara.jpg", "creator": "Benh LIEU SONG", "license": "CC BY-SA 3.0", "license_url": "https://creativecommons.org/licenses/by-sa/3.0/", "checked_at": "2026-11-25",
+      "sha256": "81c2d0b098fc249513a7894030e5f475ac0b1344408707c2d73551f179165601", "exact_subject": true, "subject": "Lion family, Masai Mara, Kenya",
+      "alt": "A family of lions resting together in the Masai Mara in Kenya.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Lions family portrait, Masai Mara."
+    },
+    "/images/editorial/kenya-country/masai-mara-zebras.jpg": {
+      "kind": "photograph", "slug": "masai-mara-zebras", "local_path": "/images/editorial/kenya-country/masai-mara-zebras.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Three_zebras_in_Masai_Mara_National_Park,_Kenya.jpg", "creator": "Volodymyr Burdiak", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "bfb123b83f1148e8f89ab65f5186f3ff1e9106cb4dd0160e99084f61215cb638", "exact_subject": true, "subject": "Zebras, Masai Mara National Park, Kenya",
+      "alt": "Three zebras standing in the Masai Mara National Park in Kenya.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Three zebras in Masai Mara National Park, Kenya."
+    },
+    "/images/editorial/kenya-country/mount-kenya.jpg": {
+      "kind": "photograph", "slug": "mount-kenya", "local_path": "/images/editorial/kenya-country/mount-kenya.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Mount_Kenya_stitched.jpg", "creator": "Franco Pecchio", "license": "CC BY 2.0", "license_url": "https://creativecommons.org/licenses/by/2.0/", "checked_at": "2026-11-25",
+      "sha256": "38aa49563d6c4260fce67df368edd034415a2ef935ec22751ad48fa9b4d00b65", "exact_subject": true, "subject": "Mount Kenya, Kenya",
+      "alt": "The peaks of Mount Kenya rising above the clouds.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Mount Kenya, stitched panorama."
+    },
+    "/images/editorial/kenya-country/three-giraffes.jpg": {
+      "kind": "photograph", "slug": "three-giraffes", "local_path": "/images/editorial/kenya-country/three-giraffes.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Three_giraffes_01.jpg", "creator": "Byrdyak", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "d800a3639dbd4cc20381adae68d93ee949ec73f8e31e160e1f7edeb411f1e3d5", "exact_subject": true, "subject": "Three giraffes, Kenya",
+      "alt": "Three giraffes standing together in the Kenyan savanna.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Three giraffes."
+    },
+    "/images/editorial/rwanda-country/gorilla-yawn.jpg": {
+      "kind": "photograph", "slug": "gorilla-yawn", "local_path": "/images/editorial/rwanda-country/gorilla-yawn.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Mountain_gorilla_(Gorilla_beringei_beringei)_yawn.jpg", "creator": "Charles J. Sharp", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "a339522a2120807347e9d989872b1e44609c6c16d8120bb568c3f82967d53d17", "exact_subject": true, "subject": "Mountain gorilla yawning, Rwanda",
+      "alt": "A mountain gorilla yawning in the Volcanoes National Park of Rwanda.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Mountain gorilla (Gorilla beringei beringei) yawn."
+    },
+    "/images/editorial/rwanda-country/kigali-city.jpg": {
+      "kind": "photograph", "slug": "kigali-city", "local_path": "/images/editorial/rwanda-country/kigali-city.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Buildings_in_Kigali_CBD,_Rwanda_3.jpg", "creator": "Schlawgclart", "license": "CC0", "license_url": "https://creativecommons.org/publicdomain/zero/1.0/", "checked_at": "2026-11-25",
+      "sha256": "6771560202abd59a9adc84a6fde77d471100796b7ce4b0c823a3c6f845b1774e", "exact_subject": true, "subject": "Kigali Central Business District, Rwanda",
+      "alt": "Buildings in the Kigali Central Business District in Rwanda.", "property": false, "requires_attribution": false,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Buildings in Kigali CBD, Rwanda."
+    },
+    "/images/editorial/rwanda-country/kigali-genocide-monument.jpg": {
+      "kind": "photograph", "slug": "kigali-genocide-monument", "local_path": "/images/editorial/rwanda-country/kigali-genocide-monument.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:ASC_Leiden_-_Rwanda_2021_-_005_-_Genocide_Monument_2014,_University_of_Rwanda_-_Kigali.jpg", "creator": "Gerard van de Bruinhorst", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "2cfef13e837ff3c3dfce55eb56adc41c1bf860b04b3eca822e497c18d76d3b11", "exact_subject": true, "subject": "Genocide Monument, University of Rwanda, Kigali",
+      "alt": "The Genocide Monument at the University of Rwanda in Kigali.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Genocide Monument 2014, University of Rwanda, Kigali."
+    },
+    "/images/editorial/rwanda-country/lake-kivu-dawn.jpg": {
+      "kind": "photograph", "slug": "lake-kivu-dawn", "local_path": "/images/editorial/rwanda-country/lake-kivu-dawn.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Lake_Kivu_at_dawn.jpg", "creator": "Kisambira", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "c61680be98392ef55e409f5c46fac7263ffe94b67651a2f3b97d5742444caff4", "exact_subject": true, "subject": "Lake Kivu at dawn, Rwanda",
+      "alt": "Lake Kivu at dawn in Rwanda.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Lake Kivu at dawn."
+    },
+    "/images/editorial/rwanda-country/lake-kivu-island.jpg": {
+      "kind": "photograph", "slug": "lake-kivu-island", "local_path": "/images/editorial/rwanda-country/lake-kivu-island.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Amazing_Island_in_lake_Kivu.jpg", "creator": "YvanNB", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "948d7937e8d8f0e65a1c484661b25f1a3de33e3ace64d8d53999c640cb333771", "exact_subject": true, "subject": "Island in Lake Kivu, Rwanda",
+      "alt": "An island in Lake Kivu in Rwanda.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Amazing Island in Lake Kivu."
+    },
+    "/images/editorial/rwanda-country/muhabura-volcano.jpg": {
+      "kind": "photograph", "slug": "muhabura-volcano", "local_path": "/images/editorial/rwanda-country/muhabura-volcano.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:View_of_Muhabura_Volcanoe_in_Kinigi_sector,_Musanze_district,_Rwanda_afar_from_Volcanoes_Park.jpg", "creator": "Maxime Ishmax", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "184f1c3bcc6b76e2856f43c30ea554179f820a6124a2060f59b4c8dbe4fdb567", "exact_subject": true, "subject": "Muhabura Volcano, Musanze district, Rwanda",
+      "alt": "View of Muhabura Volcano in the Kinigi sector of Musanze district, Rwanda.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "View of Muhabura Volcano, Kinigi sector, Musanze district, Rwanda."
+    },
+    "/images/editorial/rwanda-country/nyungwe-sunset.jpg": {
+      "kind": "photograph", "slug": "nyungwe-sunset", "local_path": "/images/editorial/rwanda-country/nyungwe-sunset.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Sunset_over_Nyungwe_National_Park,_Rwanda.jpg", "creator": "travelmag.com", "license": "CC BY 2.0", "license_url": "https://creativecommons.org/licenses/by/2.0/", "checked_at": "2026-11-25",
+      "sha256": "0d9ae784bef3adecfb5553af043afd651eb519f07194b296db9da184ee68cdc0", "exact_subject": true, "subject": "Sunset over Nyungwe National Park, Rwanda",
+      "alt": "The sun setting over Nyungwe National Park in Rwanda.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Sunset over Nyungwe National Park, Rwanda."
+    },
+    "/images/editorial/rwanda-country/tavurvur-volcano.jpg": {
+      "kind": "photograph", "slug": "tavurvur-volcano", "local_path": "/images/editorial/rwanda-country/tavurvur-volcano.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Tavurvur_volcano_edit.jpg", "creator": "Taro Taylor", "license": "CC BY 2.0", "license_url": "https://creativecommons.org/licenses/by/2.0/", "checked_at": "2026-11-25",
+      "sha256": "18da2282e4f4e3dae7183a53a3d97424bf883a114d5ea723b0093883342b54c5", "exact_subject": true, "subject": "Tavurvur volcano, Rwanda",
+      "alt": "The Tavurvur volcano in Rwanda.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Tavurvur volcano."
+    },
+    "/images/editorial/tanzania-country/kilimanjaro-amboseli.jpg": {
+      "kind": "photograph", "slug": "kilimanjaro-amboseli", "local_path": "/images/editorial/tanzania-country/kilimanjaro-amboseli.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Kilimanjaro_from_Amboseli.jpg", "creator": "Sergey Pesterev", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "05460c0b85b50166034fdb64dc3d14bd7d436d3ba39b555ca69fbd40a8ece550", "exact_subject": true, "subject": "Kilimanjaro from Amboseli, Tanzania/Kenya border",
+      "alt": "Mount Kilimanjaro viewed from Amboseli, Tanzania.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Kilimanjaro from Amboseli."
+    },
+    "/images/editorial/tanzania-country/ngorongoro-rhino.jpg": {
+      "kind": "photograph", "slug": "ngorongoro-rhino", "local_path": "/images/editorial/tanzania-country/ngorongoro-rhino.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Ngorongoro_Spitzmaulnashorn.jpg", "creator": "Ikiwaner", "license": "GFDL 1.2", "license_url": "https://www.gnu.org/licenses/old-licenses/fdl-1.2.html", "checked_at": "2026-11-25",
+      "sha256": "8f8ed97bcc913ce4c9f18cca904d085c780bf9c3e992bf4d7b47861d23c8f689", "exact_subject": true, "subject": "Black rhinoceros, Ngorongoro Crater, Tanzania",
+      "alt": "A black rhinoceros in the Ngorongoro Crater in Tanzania.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Ngorongoro Spitzmaulnashorn (black rhino)."
+    },
+    "/images/editorial/tanzania-country/serengeti-elephant-bull.jpg": {
+      "kind": "photograph", "slug": "serengeti-elephant-bull", "local_path": "/images/editorial/tanzania-country/serengeti-elephant-bull.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Serengeti_Elefantenbulle.jpg", "creator": "Ikiwaner", "license": "GFDL 1.2", "license_url": "https://www.gnu.org/licenses/old-licenses/fdl-1.2.html", "checked_at": "2026-11-25",
+      "sha256": "baad02a71cdff373e7b617bf34a57dee8fd6807daef1f5cc854983d1b8a48e7d", "exact_subject": true, "subject": "Elephant bull, Serengeti National Park, Tanzania",
+      "alt": "A large bull elephant walking across the Serengeti plains.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Elephant bull in the Serengeti."
+    },
+    "/images/editorial/tanzania-country/serengeti-elephant-herd.jpg": {
+      "kind": "photograph", "slug": "serengeti-elephant-herd", "local_path": "/images/editorial/tanzania-country/serengeti-elephant-herd.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Serengeti_Elefantenherde1.jpg", "creator": "Ikiwaner", "license": "GFDL 1.2", "license_url": "https://www.gnu.org/licenses/old-licenses/fdl-1.2.html", "checked_at": "2026-11-25",
+      "sha256": "50dbf9275d10370a3770d2c04b780a5790e06fd3dbf68b0035d7203b4d3d5c79", "exact_subject": true, "subject": "Elephant herd, Serengeti National Park, Tanzania",
+      "alt": "A herd of elephants in the Serengeti National Park in Tanzania.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Elephant herd in the Serengeti."
+    },
+    "/images/editorial/tanzania-country/serengeti-lion.jpg": {
+      "kind": "photograph", "slug": "serengeti-lion", "local_path": "/images/editorial/tanzania-country/serengeti-lion.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:011_The_lion_king_Tryggve_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg", "creator": "Giles Laurent", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "9802dfafeb79ad4dbda7650489aa51e4daeee4a32c29b73489e315c228883818", "exact_subject": true, "subject": "Lion in Serengeti National Park, Tanzania",
+      "alt": "A male lion in the Serengeti National Park in Tanzania.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "The lion king Tryggve in the Serengeti National Park."
+    },
+    "/images/editorial/tanzania-country/zanzibar-anemone.jpg": {
+      "kind": "photograph", "slug": "zanzibar-anemone", "local_path": "/images/editorial/tanzania-country/zanzibar-anemone.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Anémona_magnífica_(Radianthus_magnifica),_Zanzíbar,_Tanzania,_2024-05-29,_DD_51.jpg", "creator": "Diego Delso", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "ed3675c5ccd3f8bc322a8ef383ebb1f60567ed3560a67f9beb297b69e5f88907", "exact_subject": true, "subject": "Magnificent sea anemone, Zanzibar, Tanzania",
+      "alt": "A magnificent sea anemone in the waters off Zanzibar, Tanzania.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Magnificent sea anemone, Zanzibar, 2024."
+    },
+    "/images/editorial/tanzania-country/zanzibar-coral.jpg": {
+      "kind": "photograph", "slug": "zanzibar-coral", "local_path": "/images/editorial/tanzania-country/zanzibar-coral.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Coral_(Sclerophytum_densa),_Zanzíbar,_Tanzania,_2024-05-29,_DD_89.jpg", "creator": "Diego Delso", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "25e6c09610dc48c68fcbf5572f39967ea7b800a890c76471eb8fe63eb7a7913e", "exact_subject": true, "subject": "Coral, Zanzibar, Tanzania",
+      "alt": "Coral formations in the waters off Zanzibar, Tanzania.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Coral (Sclerophytum densa), Zanzibar, 2024."
+    },
+    "/images/editorial/tunisia-country/el-djem-amphitheater-hdr.jpg": {
+      "kind": "photograph", "slug": "el-djem-amphitheater-hdr", "local_path": "/images/editorial/tunisia-country/el-djem-amphitheater-hdr.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Anfiteatro,_El_Jem,_Túnez,_2016-09-04,_DD_38-40_HDR.jpg", "creator": "Diego Delso", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "ee1438cd84fa7b8e4d07296a621fe36103155e77f931556cef136b8cae718a62", "exact_subject": true, "subject": "El Jem Amphitheatre, Tunisia",
+      "alt": "The Roman amphitheatre at El Jem in Tunisia, HDR view.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "El Jem amphitheatre, Tunisia, 2016."
+    },
+    "/images/editorial/tunisia-country/el-djem-amphitheater.jpg": {
+      "kind": "photograph", "slug": "el-djem-amphitheater", "local_path": "/images/editorial/tunisia-country/el-djem-amphitheater.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Amphitheater_at_El_Djem.jpg", "creator": "Agnieszka Wolska", "license": "CC BY-SA 3.0", "license_url": "https://creativecommons.org/licenses/by-sa/3.0/", "checked_at": "2026-11-25",
+      "sha256": "ab71ee73a24038e118f91e61764ac3befb1f2719ae275750f81c06461ece3ee1", "exact_subject": true, "subject": "El Jem Amphitheatre, Tunisia",
+      "alt": "The massive Roman amphitheatre at El Jem in Tunisia.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Amphitheater at El Djem."
+    },
+    "/images/editorial/tunisia-country/kairouan-mosque-mihrab.jpg": {
+      "kind": "photograph", "slug": "kairouan-mosque-mihrab", "local_path": "/images/editorial/tunisia-country/kairouan-mosque-mihrab.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Great_Mosque_of_Kairouan_mihrab_view.jpg", "creator": "IssamBarhoumi", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "f217020111152c16a16bf424aee93a113c32d37dd0715ae98504280ded8de379", "exact_subject": true, "subject": "Great Mosque of Kairouan, mihrab view, Tunisia",
+      "alt": "The mihrab of the Great Mosque of Kairouan in Tunisia.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Great Mosque of Kairouan, mihrab view."
+    },
+    "/images/editorial/tunisia-country/kairouan-mosque-minaret.jpg": {
+      "kind": "photograph", "slug": "kairouan-mosque-minaret", "local_path": "/images/editorial/tunisia-country/kairouan-mosque-minaret.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Great_Mosque_of_Kairouan_minaret_view_01.jpg", "creator": "IssamBarhoumi", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "73597a7a6240da1d39f8ef79ec0a0672b27b2386abcaad1b788cb8881e99bd81", "exact_subject": true, "subject": "Great Mosque of Kairouan, minaret view, Tunisia",
+      "alt": "The minaret of the Great Mosque of Kairouan in Tunisia.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Great Mosque of Kairouan, minaret view."
+    },
+    "/images/editorial/tunisia-country/sousse-mosque.jpg": {
+      "kind": "photograph", "slug": "sousse-mosque", "local_path": "/images/editorial/tunisia-country/sousse-mosque.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Grande_Mosquée_de_Sousse_11.jpg", "creator": "IssamBarhoumi", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "5dcb5b0b648f52185cbfb1f55a3f6915230decae4942221827445ebf0afa5f77", "exact_subject": true, "subject": "Great Mosque of Sousse, Tunisia",
+      "alt": "The Great Mosque of Sousse in Tunisia.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Grande Mosquée de Sousse."
+    },
+    "/images/editorial/tunisia-country/sousse-sailing-ship.jpg": {
+      "kind": "photograph", "slug": "sousse-sailing-ship", "local_path": "/images/editorial/tunisia-country/sousse-sailing-ship.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Sousse,_Tunisia_-_sailing_ship.jpg", "creator": "Sharon Hahn Darlin", "license": "CC BY 2.0", "license_url": "https://creativecommons.org/licenses/by/2.0/", "checked_at": "2026-11-25",
+      "sha256": "248471af036256687022e8356e30928e7c4edb14d11169451162f75ef8e1a6ac", "exact_subject": true, "subject": "Sailing ship, Sousse, Tunisia",
+      "alt": "A sailing ship in the harbour of Sousse, Tunisia.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Sousse, Tunisia - sailing ship."
+    },
+    "/images/editorial/tunisia-country/toujane-landscape.jpg": {
+      "kind": "photograph", "slug": "toujane-landscape", "local_path": "/images/editorial/tunisia-country/toujane-landscape.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Toujane_paysage.jpg", "creator": "Smailtn", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "2e94e46778d60fb1d52d15319895725e16ec06850e9364b218aa4e90e124996e", "exact_subject": true, "subject": "Toujane landscape, Tunisia",
+      "alt": "The landscape around Toujane in southern Tunisia.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Toujane paysage."
+    },
+    "/images/editorial/zambia-country/elephant-back-safari.jpg": {
+      "kind": "photograph", "slug": "elephant-back-safari", "local_path": "/images/editorial/zambia-country/elephant-back-safari.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Elephant_Back_Safari,_Zambia_(2545433221).jpg", "creator": "Joachim Huber", "license": "CC BY-SA 2.0", "license_url": "https://creativecommons.org/licenses/by-sa/2.0/", "checked_at": "2026-11-25",
+      "sha256": "93b0319d8918319c61747a530007c39d28dd97c6dd91c470439a754af70acc44", "exact_subject": true, "subject": "Elephant back safari, Zambia",
+      "alt": "An elephant back safari in Zambia.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Elephant Back Safari, Zambia."
+    },
+    "/images/editorial/zambia-country/kafue-safari-road.jpg": {
+      "kind": "photograph", "slug": "kafue-safari-road", "local_path": "/images/editorial/zambia-country/kafue-safari-road.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Safari_Road_Savanna_Kafue_Jul23_A7C_05580.jpg", "creator": "Timothy", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "54e10ef01bbd1bfa2bf237a6e613b22dfa7f68c3c1eeb26e52a31540143d5712", "exact_subject": true, "subject": "Safari road, Kafue savanna, Zambia",
+      "alt": "A safari road through the savanna of Kafue in Zambia.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Safari Road Savanna Kafue, Zambia."
+    },
+    "/images/editorial/zambia-country/luangwa-elephant.jpg": {
+      "kind": "photograph", "slug": "luangwa-elephant", "local_path": "/images/editorial/zambia-country/luangwa-elephant.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Loxodonta_africana_South_Luangwa_National_Park_(1).jpg", "creator": "Geoff Gallice", "license": "CC BY 2.0", "license_url": "https://creativecommons.org/licenses/by/2.0/", "checked_at": "2026-11-25",
+      "sha256": "076c1628be84ad8cb627a5139fb2b003a45100249f10cb54f7a54b622c0bd7eb", "exact_subject": true, "subject": "Elephant, South Luangwa National Park, Zambia",
+      "alt": "An elephant in South Luangwa National Park in Zambia.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Loxodonta africana, South Luangwa National Park."
+    },
+    "/images/editorial/zambia-country/luangwa-hyena.jpg": {
+      "kind": "photograph", "slug": "luangwa-hyena", "local_path": "/images/editorial/zambia-country/luangwa-hyena.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Sitting_Spotted_Hyena_Luangwa_Jul23_A7C_06239.jpg", "creator": "Timothy", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "9abe0cd077c0a074c57803ed0d46d0787eb4cb7f6d0d71a8a7fd3bbb674f0c17", "exact_subject": true, "subject": "Spotted hyena, Luangwa, Zambia",
+      "alt": "A spotted hyena sitting in the Luangwa valley of Zambia.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Sitting Spotted Hyena, Luangwa, Zambia."
+    },
+    "/images/editorial/zambia-country/luangwa-lion-cub.jpg": {
+      "kind": "photograph", "slug": "luangwa-lion-cub", "local_path": "/images/editorial/zambia-country/luangwa-lion-cub.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Lion_Cub_Scratching_Tree_Luangwa_Zambia_Jul23_A7C_06354.jpg", "creator": "Timothy", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "440a27650415438402cf712eced349fb64f301f875d7bf6daf76a23b228a7070", "exact_subject": true, "subject": "Lion cub scratching tree, Luangwa, Zambia",
+      "alt": "A lion cub scratching a tree in the Luangwa valley of Zambia.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Lion Cub Scratching Tree, Luangwa, Zambia."
+    },
+    "/images/editorial/zambia-country/luangwa-zebras.jpg": {
+      "kind": "photograph", "slug": "luangwa-zebras", "local_path": "/images/editorial/zambia-country/luangwa-zebras.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Zebra_Family_Luangwa_Zambia_Jul23_A7C_05903.jpg", "creator": "Timothy", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "2a016f8e3bd78ce3986e7c049d1ec5d9cfdb53e3a5298c1cc3f41dfeb2834e12", "exact_subject": true, "subject": "Zebra family, Luangwa, Zambia",
+      "alt": "A zebra family in the Luangwa valley of Zambia.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Zebra Family, Luangwa, Zambia."
+    },
+    "/images/editorial/zambia-country/victoria-falls.jpg": {
+      "kind": "photograph", "slug": "victoria-falls", "local_path": "/images/editorial/zambia-country/victoria-falls.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Cataratas_Victoria,_Zambia-Zimbabue,_2018-07-27,_DD_05.jpg", "creator": "Diego Delso", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "ca249aca80d5a881b174a07569b22ce53d5d2a019b2dfd80a86f68f0381aaffb", "exact_subject": true, "subject": "Victoria Falls, Zambia-Zimbabwe border",
+      "alt": "The massive curtain of water at Victoria Falls on the Zambia-Zimbabwe border.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Victoria Falls, Zambia-Zimbabwe, 2018."
+    },
+    "/images/editorial/cabo-verde-country/fogo-sao-filipe.jpg": {
+      "kind": "photograph", "slug": "fogo-sao-filipe", "local_path": "/images/editorial/cabo-verde-country/fogo-sao-filipe.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Fogo_São_Filipe_shop.jpg", "creator": "Cayambe", "license": "CC BY-SA 3.0", "license_url": "https://creativecommons.org/licenses/by-sa/3.0/", "checked_at": "2026-11-25",
+      "sha256": "a55b67f4247741b8a4ef758af13d68ca4b6e9e2845c498260cc047b087e3d7b5", "exact_subject": true, "subject": "São Filipe, Fogo, Cabo Verde",
+      "alt": "A shop in São Filipe on Fogo Island in Cabo Verde.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Fogo, São Filipe shop."
+    },
+    "/images/editorial/cabo-verde-country/mindelo-2.jpg": {
+      "kind": "photograph", "slug": "mindelo-2", "local_path": "/images/editorial/cabo-verde-country/mindelo-2.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Mindelo.jpg", "creator": "Inisheer", "license": "CC BY 2.0", "license_url": "https://creativecommons.org/licenses/by/2.0/", "checked_at": "2026-11-25",
+      "sha256": "4853558d42809c6f84d354dae1e021d96abda1d938ed223b008a5c5589b4eb42", "exact_subject": true, "subject": "Mindelo, São Vicente, Cabo Verde",
+      "alt": "The town of Mindelo on São Vicente Island in Cabo Verde.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Mindelo, São Vicente, Cabo Verde."
+    },
+    "/images/editorial/cabo-verde-country/mindelo.jpg": {
+      "kind": "photograph", "slug": "mindelo", "local_path": "/images/editorial/cabo-verde-country/mindelo.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Mindelo_(S_Vicente,_Cabo_Verde).JPG", "creator": "Manuel de Sousa", "license": "CC BY-SA 3.0", "license_url": "https://creativecommons.org/licenses/by-sa/3.0/", "checked_at": "2026-11-25",
+      "sha256": "253a1283470ec4d69c48a6cf5fa024a5706f120a6d321433ca7b027ac423076c", "exact_subject": true, "subject": "Mindelo, São Vicente, Cabo Verde",
+      "alt": "A view of Mindelo on São Vicente Island in Cabo Verde.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Mindelo, S. Vicente, Cabo Verde."
+    },
+    "/images/editorial/cabo-verde-country/sal-cistanche.jpg": {
+      "kind": "photograph", "slug": "sal-cistanche", "local_path": "/images/editorial/cabo-verde-country/sal-cistanche.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Cistanche_phelypaea_Sal_Cape_Verde_01.jpg", "creator": "Cayambe", "license": "CC BY-SA 3.0", "license_url": "https://creativecommons.org/licenses/by-sa/3.0/", "checked_at": "2026-11-25",
+      "sha256": "1c47dbf3029cc660d3a9a64b758a1b8b26af37f195151bd24d00f7fe29cd5e98", "exact_subject": true, "subject": "Cistanche phelypaea, Sal, Cabo Verde",
+      "alt": "The parasitic plant Cistanche phelypaea on Sal Island in Cabo Verde.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Cistanche phelypaea, Sal, Cape Verde."
+    },
+    "/images/editorial/cabo-verde-country/sal-salt-pans.jpg": {
+      "kind": "photograph", "slug": "sal-salt-pans", "local_path": "/images/editorial/cabo-verde-country/sal-salt-pans.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Cabo_Verde_Sal_Santa_Maria_salinas.jpg", "creator": "Cayambe", "license": "CC BY-SA 3.0", "license_url": "https://creativecommons.org/licenses/by-sa/3.0/", "checked_at": "2026-11-25",
+      "sha256": "6a41e89e4a9393cbced14491f4245083145e93568f714528cd120ba925aa0488", "exact_subject": true, "subject": "Santa Maria salt pans, Sal, Cabo Verde",
+      "alt": "The salt pans of Santa Maria on Sal Island in Cabo Verde.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Cabo Verde Sal, Santa Maria salinas."
+    },
+    "/images/editorial/cabo-verde-country/santa-maria-wreck-1.jpg": {
+      "kind": "photograph", "slug": "santa-maria-wreck-1", "local_path": "/images/editorial/cabo-verde-country/santa-maria-wreck-1.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Wreck_of_Cabo_de_Santa_Maria,_2010_December_-_4.jpg", "creator": "Ximonic (Simo Räsänen)", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "a37278fb497cdecfef12d2e6712993b0cf0030a47d3762b5a4aa392e89e2b8da", "exact_subject": true, "subject": "Wreck of Cabo de Santa Maria, Cabo Verde",
+      "alt": "The shipwreck of the Cabo de Santa Maria on the beach of Sal Island.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Wreck of Cabo de Santa Maria, December 2010."
+    },
+    "/images/editorial/cabo-verde-country/santa-maria-wreck-2.jpg": {
+      "kind": "photograph", "slug": "santa-maria-wreck-2", "local_path": "/images/editorial/cabo-verde-country/santa-maria-wreck-2.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Wreck_of_Cabo_de_Santa_Maria,_2010_December.jpg", "creator": "Ximonic (Simo Räsänen)", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-25",
+      "sha256": "9750212e7f7e0ea7a5eb5df48a086ae85750ccec84be96fc91ea36f00fb67e59", "exact_subject": true, "subject": "Wreck of Cabo de Santa Maria, Cabo Verde",
+      "alt": "The rusting hull of the Cabo de Santa Maria shipwreck on Sal Island.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Wreck of Cabo de Santa Maria, December 2010."
+    },
+    "/images/editorial/east-africa-region/mount-kilimanjaro-dec-2009-edit1jpg.jpg": {
+      "kind": "photograph", "slug": "mount-kilimanjaro-dec-2009", "local_path": "/images/editorial/east-africa-region/mount-kilimanjaro-dec-2009-edit1jpg.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Mount_Kilimanjaro_Dec_2009_edit1.jpg", "creator": "Muhammad Mahdi Karim", "license": "GFDL 1.2", "license_url": "https://www.gnu.org/licenses/old-licenses/fdl-1.2.html", "checked_at": "2026-11-26",
+      "sha256": "d7c3c7fe1eaa053e1a9b30e889d5e61717cf77626a45004dd2d616a067433372", "exact_subject": true, "subject": "Mount Kilimanjaro, Tanzania",
+      "alt": "The snow-capped summit of Mount Kilimanjaro rising above the Tanzanian plains.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Mount Kilimanjaro, December 2009."
+    },
+    "/images/editorial/east-africa-region/sail-boat-sunset-stone-town-zanzibar-oct26-om3-1123jpg.jpg": {
+      "kind": "photograph", "slug": "zanzibar-stone-town-sailboat-sunset", "local_path": "/images/editorial/east-africa-region/sail-boat-sunset-stone-town-zanzibar-oct26-om3-1123jpg.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Sail_Boat_Sunset_Stone_Town_Zanzibar_Oct26_OM3_1123.jpg", "creator": "Timothy A. Gonsalves", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-26",
+      "sha256": "6ce40d3ed1a84be8d6271ff4d89a28f8e92211cbb7b116a85f2a529be02413e8", "exact_subject": true, "subject": "Fishing boat sailing past the setting sun, Stone Town harbour, Zanzibar",
+      "alt": "A traditional dhow sailing across Stone Town harbour at sunset in Zanzibar.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Fishing boat at sunset, Stone Town harbour, Unguja Urban West, Zanzibar."
+    },
+    "/images/editorial/east-africa-region/maasai-mara-wildebeest-migrationsjpg.jpg": {
+      "kind": "photograph", "slug": "maasai-mara-wildebeest-migration", "local_path": "/images/editorial/east-africa-region/maasai-mara-wildebeest-migrationsjpg.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Maasai_Mara_Wildebeest_Migrations.jpg", "creator": "Kidoleeee", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-26",
+      "sha256": "525dfa378e3426451974ba62407abb26d60b9af00edc73705d8e6295e41b6570", "exact_subject": true, "subject": "Wildebeest migration, Maasai Mara, Kenya",
+      "alt": "A column of wildebeest crossing the Mara River during the migration in Maasai Mara.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Maasai Mara game reserve, Narok County, Kenya, on the Mara River."
+    },
+    "/images/editorial/east-africa-region/zebras-and-wildebeest-maasai-marajpg.jpg": {
+      "kind": "photograph", "slug": "maasai-mara-zebras-wildebeest", "local_path": "/images/editorial/east-africa-region/zebras-and-wildebeest-maasai-marajpg.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Zebras_and_wildebeest_Maasai_Mara.jpg", "creator": "Michelle Juma", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-26",
+      "sha256": "a64397d87a532cb4ea3d4264a2befc831f12ac8dfd1dde557d38a90ba618b886", "exact_subject": true, "subject": "Zebras and wildebeest grazing, Maasai Mara, Kenya",
+      "alt": "A herd of zebras and wildebeest grazing together on the Maasai Mara plains.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Herd of zebras and wildebeest grazing at the Maasai Mara, Kenya."
+    },
+    "/images/editorial/east-africa-region/zebras-ngorongoro-craterjpg.jpg": {
+      "kind": "photograph", "slug": "ngorongoro-crater-zebras", "local_path": "/images/editorial/east-africa-region/zebras-ngorongoro-craterjpg.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Zebras_Ngorongoro_Crater.jpg", "creator": "Muhammad Mahdi Karim", "license": "GFDL 1.2", "license_url": "https://www.gnu.org/licenses/old-licenses/fdl-1.2.html", "checked_at": "2026-11-26",
+      "sha256": "0f8acf189b1d716c56bb58e5a7ec51c0f698e00031ba1710f0ad5b6318cfe9b6", "exact_subject": true, "subject": "Grant's zebras, Ngorongoro Crater, Tanzania",
+      "alt": "Grant's zebras grazing on the floor of the Ngorongoro Crater in Tanzania.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Grant's Zebras in the Ngorongoro Crater, Tanzania."
+    },
+    "/images/editorial/east-africa-region/013-black-backed-jackal-in-the-ngorongoro-crater-photo-by-gi.jpg": {
+      "kind": "photograph", "slug": "ngorongoro-black-backed-jackal", "local_path": "/images/editorial/east-africa-region/013-black-backed-jackal-in-the-ngorongoro-crater-photo-by-gi.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:013_Black-backed_jackal_in_the_Ngorongoro_Crater_Photo_by_Giles_Laurent.jpg", "creator": "Giles Laurent", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-26",
+      "sha256": "c4bfc2e85baea4039cded0faf699a854119742cb3bdacc7588fe1ed6de96ff94", "exact_subject": true, "subject": "Black-backed jackal, Ngorongoro Crater, Tanzania",
+      "alt": "A black-backed jackal standing on the plains of the Ngorongoro Crater.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Black-backed jackal in the Ngorongoro Crater."
+    },
+    "/images/editorial/east-africa-region/gorila-de-montaa-gorilla-beringei-beringei-parque-nacional-d.jpg": {
+      "kind": "photograph", "slug": "bwindi-mountain-gorilla", "local_path": "/images/editorial/east-africa-region/gorila-de-montaa-gorilla-beringei-beringei-parque-nacional-d.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Gorila_de_monta%C3%B1a_(Gorilla_beringei_beringei),_parque_nacional_de_la_Selva_Impenetrable_de_Bwindi,_Uganda,_2024-02-02,_DD_80.jpg", "creator": "Diego Delso", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-26",
+      "sha256": "f71e52a22ace106923710693f54bd82ffc62a5653da82d4bd91b47b0bfe6eb3d", "exact_subject": true, "subject": "Mountain gorilla, Bwindi Impenetrable National Park, Uganda",
+      "alt": "A mountain gorilla in the Bwindi Impenetrable Forest in Uganda.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Mountain gorilla, Bwindi Impenetrable National Park, Uganda, 2024-02-02 (DD 80)."
+    },
+    "/images/editorial/west-africa-region/castle-cape-coast-p1100221jpg.jpg": {
+      "kind": "photograph", "slug": "cape-coast-castle-dungeon", "local_path": "/images/editorial/west-africa-region/castle-cape-coast-p1100221jpg.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Castle,_Cape_Coast_(P1100221).jpg", "creator": "Matti Blume", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-26",
+      "sha256": "6e536f4d904660e350a9157a6318c92f459cf4f299f2d2ecb7c5113efb2084bf", "exact_subject": true, "subject": "Slave dungeon in Cape Coast Castle, Ghana",
+      "alt": "The interior of a slave dungeon at Cape Coast Castle on the Ghanaian coast.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Slave dungeon in Cape Coast Castle."
+    },
+    "/images/editorial/west-africa-region/castle-cape-coast-p1100223jpg.jpg": {
+      "kind": "photograph", "slug": "cape-coast-castle-exterior", "local_path": "/images/editorial/west-africa-region/castle-cape-coast-p1100223jpg.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Castle,_Cape_Coast_(P1100223).jpg", "creator": "Matti Blume", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-26",
+      "sha256": "7a9a9668f9ff93c66e3717407b6c78ddd28b5be5df6633c31b523bb84114dd2e", "exact_subject": true, "subject": "Cape Coast Castle, Ghana",
+      "alt": "The whitewashed walls of Cape Coast Castle overlooking the Atlantic in Ghana.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Cape Coast Castle."
+    },
+    "/images/editorial/west-africa-region/le-de-gore-vue-de-la-chaloupe-15jpg.jpg": {
+      "kind": "photograph", "slug": "goree-island-from-boat", "local_path": "/images/editorial/west-africa-region/le-de-gore-vue-de-la-chaloupe-15jpg.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:%C3%8Ele_de_Gor%C3%A9e_vue_de_la_chaloupe_15.jpg", "creator": "Fawaz.tairou", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-26",
+      "sha256": "7911a2daab05de2eb12645eceae26948ee190b6260946aa7344842f91d5812c2", "exact_subject": true, "subject": "Île de Gorée, Senegal, seen from a boat",
+      "alt": "Île de Gorée rising from the Atlantic, viewed from a passing boat off Senegal.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Île de Gorée vue de la chaloupe."
+    },
+    "/images/editorial/west-africa-region/ctes-de-lle-de-gore-au-sngal-11jpg.jpg": {
+      "kind": "photograph", "slug": "goree-island-coast", "local_path": "/images/editorial/west-africa-region/ctes-de-lle-de-gore-au-sngal-11jpg.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:C%C3%B4tes_de_l%27%C3%AEle_de_Gor%C3%A9e_au_S%C3%A9n%C3%A9gal_11.jpg", "creator": "Fawaz.tairou", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-26",
+      "sha256": "482dcf76d9e6f369749989ca7aded9f9bccee3660197d63f1f4461fe933e16fd", "exact_subject": true, "subject": "Coast of Île de Gorée, Senegal",
+      "alt": "The rocky Atlantic coastline of Île de Gorée in Senegal.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Côtes de l'île de Gorée au Sénégal, vues de l'océan atlantique."
+    },
+    "/images/editorial/west-africa-region/pointe-des-almadies---senegaljpg.jpg": {
+      "kind": "photograph", "slug": "pointe-des-almadies", "local_path": "/images/editorial/west-africa-region/pointe-des-almadies---senegaljpg.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Pointe_des_Almadies_-_Senegal.jpg", "creator": "Jeff Attaway", "license": "CC BY 2.0", "license_url": "https://creativecommons.org/licenses/by/2.0/", "checked_at": "2026-11-26",
+      "sha256": "0eccd4b35160bbec47fe495c82ac117a945513e23548e62b0e9a42b44552b29b", "exact_subject": true, "subject": "Pointe des Almadies, westernmost point of mainland Africa, Senegal",
+      "alt": "The rocky Pointe des Almadies, the westernmost point of mainland Africa, in Senegal.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Pointe des Almadies, the westernmost point of the African continent (mainland)."
+    },
+    "/images/editorial/west-africa-region/street-at-dusk-in-ouidah-benin-jan-2018jpg.jpg": {
+      "kind": "photograph", "slug": "ouidah-street-at-dusk", "local_path": "/images/editorial/west-africa-region/street-at-dusk-in-ouidah-benin-jan-2018jpg.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Street_at_dusk_in_Ouidah_Benin_Jan_2018.jpg", "creator": "Kulttuurinavigaattori", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-26",
+      "sha256": "058f1ba0b030691fee1fc982e9fd7314b78a7afd5f303b45fa5eb9472ddcbe55", "exact_subject": true, "subject": "Street at dusk in Ouidah, Benin",
+      "alt": "A quiet street in Ouidah, Benin, at dusk.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Street at dusk in Ouidah, Benin, January 2018."
+    },
+    "/images/editorial/west-africa-region/ganvi-fishing-village-on-stilts-in-benin-10282059623-2jpg.jpg": {
+      "kind": "photograph", "slug": "ganvie-stilt-village", "local_path": "/images/editorial/west-africa-region/ganvi-fishing-village-on-stilts-in-benin-10282059623-2jpg.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Ganvi%C3%A9_fishing_village_on_stilts_in_Benin_(10282059623)_(2).jpg", "creator": "jbdodane", "license": "CC BY 2.0", "license_url": "https://creativecommons.org/licenses/by/2.0/", "checked_at": "2026-11-26",
+      "sha256": "49038a1e1e4f291b2cf125829805d70a916012545635a9ee72df558dc00b52fb", "exact_subject": true, "subject": "Ganvié fishing village on stilts, Benin",
+      "alt": "The stilt houses of Ganvié fishing village on Lake Nokoué in Benin.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Ganvié fishing village on stilts in Benin, October 2013."
+    },
+    "/images/editorial/southern-africa-region/cape-town-za-table-mountain----2024----2825jpg.jpg": {
+      "kind": "photograph", "slug": "cape-town-table-mountain", "local_path": "/images/editorial/southern-africa-region/cape-town-za-table-mountain----2024----2825jpg.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Cape_Town_(ZA),_Table_Mountain_--_2024_--_2825.jpg", "creator": "Dietmar Rabich", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-26",
+      "sha256": "3645095813a6ce99e64732849d50b295ebbc85766983fb0d747b271d86d8255b", "exact_subject": true, "subject": "Table Mountain, Cape Town, South Africa",
+      "alt": "The rocky slopes of Table Mountain above Cape Town in South Africa.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Rocks on Table Mountain, Table Mountain Nature Reserve, Cape Town."
+    },
+    "/images/editorial/southern-africa-region/cebras-de-burchell-equus-quagga-burchellii-vista-area-del-de.jpg": {
+      "kind": "photograph", "slug": "okavango-zebras-aerial", "local_path": "/images/editorial/southern-africa-region/cebras-de-burchell-equus-quagga-burchellii-vista-area-del-de.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Cebras_de_Burchell_(Equus_quagga_burchellii),_vista_a%C3%A9rea_del_delta_del_Okavango,_Botsuana,_2018-08-01,_DD_30.jpg", "creator": "Diego Delso", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-26",
+      "sha256": "e4930489697d0d600c0eeaa1cc317f7600ce01fb65971b73c86e7dc87e0b55e4", "exact_subject": true, "subject": "Burchell's zebras, Okavango Delta, Botswana (aerial)",
+      "alt": "An aerial view of Burchell's zebras scattered across the Okavango Delta in Botswana.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Aerial view of Burchell's zebras, Okavango Delta, Botswana, 2018-08-01."
+    },
+    "/images/editorial/southern-africa-region/jabir-africano-ephippiorhynchus-senegalensis-delta-del-okava.jpg": {
+      "kind": "photograph", "slug": "okavango-saddlebilled-stork", "local_path": "/images/editorial/southern-africa-region/jabir-africano-ephippiorhynchus-senegalensis-delta-del-okava.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Jabir%C3%BA_africano_(Ephippiorhynchus_senegalensis),_delta_del_Okavango,_Botsuana,_2018-07-31,_DD_11.jpg", "creator": "Diego Delso", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-26",
+      "sha256": "374f26053185229f38fefb6a2018d535bca39ee278b8b1fe4ee07abe65498212", "exact_subject": true, "subject": "Saddle-billed stork, Okavango Delta, Botswana",
+      "alt": "A saddle-billed stork standing in the waters of the Okavango Delta in Botswana.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Saddle-billed stork, Okavango Delta, Botswana, 2018-07-31."
+    },
+    "/images/editorial/southern-africa-region/sossusvlei-namibia-2018-08-06-dd-040jpg.jpg": {
+      "kind": "photograph", "slug": "sossusvlei-dunes", "local_path": "/images/editorial/southern-africa-region/sossusvlei-namibia-2018-08-06-dd-040jpg.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Sossusvlei,_Namibia,_2018-08-06,_DD_040.jpg", "creator": "Diego Delso", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-26",
+      "sha256": "5fd9feef81f0be19f5dc9527d05c1d9b003dafede8631fc36e4ddf5bec6b0f28", "exact_subject": true, "subject": "Dunes and shadows in Sossusvlei, Namibia",
+      "alt": "The red dunes and deep shadows of Sossusvlei in the Namib Desert, Namibia.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Dunes and shadows in Sossusvlei, Namibia, 2018-08-06."
+    },
+    "/images/editorial/southern-africa-region/thorn-tree-sossusvlei-namib-desert-namibia-luca-galuzzi-2004.JPG": {
+      "kind": "photograph", "slug": "sossusvlei-thorn-tree", "local_path": "/images/editorial/southern-africa-region/thorn-tree-sossusvlei-namib-desert-namibia-luca-galuzzi-2004.JPG",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Thorn_Tree_Sossusvlei_Namib_Desert_Namibia_Luca_Galuzzi_2004.JPG", "creator": "Luca Galuzzi (Lucag)", "license": "CC BY-SA 2.5", "license_url": "https://creativecommons.org/licenses/by-sa/2.5/", "checked_at": "2026-11-26",
+      "sha256": "dc04676db48d645729ae2bc4ab1d93e80566c5321a7cdeb12b054844bd642ae9", "exact_subject": true, "subject": "Camel thorn tree in Sossusvlei, Namib-Naukluft National Park, Namibia",
+      "alt": "A lone camel thorn tree silhouetted against the dunes of Sossusvlei in Namibia.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Camel Thorn Tree (Acacia erioloba) in Sossusvlei, Namib-Naukluft National Park."
+    },
+    "/images/editorial/southern-africa-region/cataratas-victoria-zambia-zimbabue-2018-07-27-dd-30-34-panjp.jpg": {
+      "kind": "photograph", "slug": "victoria-falls-panorama", "local_path": "/images/editorial/southern-africa-region/cataratas-victoria-zambia-zimbabue-2018-07-27-dd-30-34-panjp.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Cataratas_Victoria,_Zambia-Zimbabue,_2018-07-27,_DD_30-34_PAN.jpg", "creator": "Diego Delso", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-26",
+      "sha256": "88145d423d5a713197e4a6b05ab9701ffcea5685c4ac838e61575f5bbb623be9", "exact_subject": true, "subject": "Victoria Falls, Zambezi River, Zambia-Zimbabwe border",
+      "alt": "The panorama of Victoria Falls on the Zambezi River at the Zambia-Zimbabwe border.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "View of the Victoria Falls of the Zambezi River, border between Zambia and Zimbabwe."
+    },
+    "/images/editorial/southern-africa-region/kruger-national-park-za-giraffe----2024----0431jpg.jpg": {
+      "kind": "photograph", "slug": "kruger-giraffe", "local_path": "/images/editorial/southern-africa-region/kruger-national-park-za-giraffe----2024----0431jpg.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Kruger_National_Park_(ZA),_Giraffe_--_2024_--_0431.jpg", "creator": "Dietmar Rabich", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-26",
+      "sha256": "62a284f53152b93ed1119fcacbc139ab9f0d378f6fcf7dc47cc0536215d40a92", "exact_subject": true, "subject": "Giraffe, Kruger National Park, South Africa",
+      "alt": "A giraffe standing near the road in Kruger National Park in South Africa.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Giraffe near the Pretoriuskop-Skukuza Road, Kruger National Park."
+    },
+    "/images/editorial/northern-africa-region/jamaa-el-fna-marrakesh-morocco-20250124-1804-7017jpg.jpg": {
+      "kind": "photograph", "slug": "jemaa-el-fnaa-marrakesh", "local_path": "/images/editorial/northern-africa-region/jamaa-el-fna-marrakesh-morocco-20250124-1804-7017jpg.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Jamaa_El_Fna,_Marrakesh,_Morocco,_20250124_1804_7017.jpg", "creator": "Jakub Hałun", "license": "CC BY 4.0", "license_url": "https://creativecommons.org/licenses/by/4.0/", "checked_at": "2026-11-26",
+      "sha256": "a6c606e2bae0ea7d92a4640f6d37f2fce1866e3ea8e517b9721f318d496e0ee3", "exact_subject": true, "subject": "Jemaa el-Fnaa square, Marrakesh, Morocco",
+      "alt": "The bustling Jemaa el-Fnaa square in Marrakesh at dusk.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Jemaa el-Fnaa square in Marrakesh, Morocco, 2025-01-24."
+    },
+    "/images/editorial/northern-africa-region/drawing-a-henna-jemaa-el-fnaa-marrakesh-jpg.jpg": {
+      "kind": "photograph", "slug": "jemaa-el-fnaa-henna", "local_path": "/images/editorial/northern-africa-region/drawing-a-henna-jemaa-el-fnaa-marrakesh-jpg.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Drawing_a_henna,_Jemaa_el-Fnaa,_Marrakesh_(%D9%88%D8%B4%D9%85_%D8%A7%D9%84%D8%AD%D9%86%D8%A7%D8%A1%D8%8C_%D8%AC%D8%A7%D9%85%D8%B9_%D8%A7%D9%84%D9%81%D9%86%D8%A7%D8%8C_%D9%85%D8%B1%D8%A7%D9%83%D8%B4).jpg", "creator": "Petar Milošević", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-26",
+      "sha256": "e2dc54db522e574975275d02f6f2b9593d239d0ef71fd612348b808756503b31", "exact_subject": true, "subject": "Henna being drawn at Jemaa el-Fnaa, Marrakesh, Morocco",
+      "alt": "A henna artist drawing a design on a visitor's hand at Jemaa el-Fnaa in Marrakesh.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Drawing a henna, Jemaa el-Fnaa, Marrakesh, Morocco."
+    },
+    "/images/editorial/northern-africa-region/all-gizah-pyramidsjpg.jpg": {
+      "kind": "photograph", "slug": "giza-pyramids", "local_path": "/images/editorial/northern-africa-region/all-gizah-pyramidsjpg.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:All_Gizah_Pyramids.jpg", "creator": "Ricardo Liberato", "license": "CC BY-SA 2.0", "license_url": "https://creativecommons.org/licenses/by-sa/2.0/", "checked_at": "2026-11-26",
+      "sha256": "519c8fed96a0c79c925af147c96161aa5eec3d81bdacb1e14159f453c0defdf6", "exact_subject": true, "subject": "All Giza pyramids, Egypt",
+      "alt": "The pyramids of Giza lined up on the desert plateau near Cairo in Egypt.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "All Giza Pyramids in one shot."
+    },
+    "/images/editorial/northern-africa-region/door-in-the-medina-of-tunis-03jpg.jpg": {
+      "kind": "photograph", "slug": "tunis-medina-door", "local_path": "/images/editorial/northern-africa-region/door-in-the-medina-of-tunis-03jpg.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Door_in_the_medina_of_Tunis_03.jpg", "creator": "Kritzolina", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-26",
+      "sha256": "1cf1d4c49d993feec0f62b5700b60143ed1bec2c2d3ed7803f0c65ad8748d870", "exact_subject": true, "subject": "Door in the medina of Tunis, Tunisia",
+      "alt": "An ornate traditional door in the medina of Tunis in Tunisia.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Door in the medina of Tunis."
+    },
+    "/images/editorial/northern-africa-region/sand-dunes-in-the-sahara-desert-on-the-border-of-algeria-and.jpg": {
+      "kind": "photograph", "slug": "sahara-dunes-algeria-morocco", "local_path": "/images/editorial/northern-africa-region/sand-dunes-in-the-sahara-desert-on-the-border-of-algeria-and.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Sand_dunes_in_the_Sahara_Desert_on_the_border_of_Algeria_and_Morocco.tif", "creator": "Dr. Ondřej Havelka (cestovatel)", "license": "CC BY 4.0", "license_url": "https://creativecommons.org/licenses/by/4.0/", "checked_at": "2026-11-26",
+      "sha256": "bb7edddd73e52de77f8772ee60a5c818a0106b7a5eea6e63e162b4bd8ea3df9f", "exact_subject": true, "subject": "Sand dunes in the Sahara Desert on the Algeria-Morocco border",
+      "alt": "The sweeping sand dunes of the Sahara Desert on the border of Algeria and Morocco.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Sand dunes in the Sahara Desert on the border of Algeria and Morocco."
+    },
+    "/images/editorial/northern-africa-region/abricot-march-de-la-casbah-dalgerjpg.JPG": {
+      "kind": "photograph", "slug": "casbah-algiers-market", "local_path": "/images/editorial/northern-africa-region/abricot-march-de-la-casbah-dalgerjpg.JPG",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Abricot_march%C3%A9_de_la_casbah_d%27Alger.JPG", "creator": "Reda Kerbush", "license": "CC BY-SA 3.0", "license_url": "https://creativecommons.org/licenses/by-sa/3.0/", "checked_at": "2026-11-26",
+      "sha256": "90cab7288fbf270771487a2565606553f3190318e40777baba156972620cbb9b", "exact_subject": true, "subject": "Apricot market in the Casbah of Algiers, Algeria",
+      "alt": "A market stall of apricots in the Casbah of Algiers in Algeria.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Apricot market in the Casbah of Algiers."
+    },
+    "/images/editorial/northern-africa-region/architectural-and-cultural-heritage-of-the-casbah-of-algiers.jpg": {
+      "kind": "photograph", "slug": "casbah-algiers-heritage", "local_path": "/images/editorial/northern-africa-region/architectural-and-cultural-heritage-of-the-casbah-of-algiers.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Architectural_and_Cultural_Heritage_of_the_Casbah_of_Algiers_6.jpg", "creator": "Rachid Hamatou", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-26",
+      "sha256": "20436f1d3738a1761dad8ca5e2a14ae4a40d63d75084563d8b444a352af009d7", "exact_subject": true, "subject": "Architectural heritage of the Casbah of Algiers, Algeria",
+      "alt": "A traditional doorway in the historic Casbah of Algiers in Algeria.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Door of the spice market, architectural and cultural heritage of the Casbah of Algiers."
+    },
+    "/images/editorial/amboseli-national-park/elephants-at-amboseli-national-park-against-mount-kilimanjar.jpg": {
+      "kind": "photograph", "slug": "amboseli-elephants-kilimanjaro", "local_path": "/images/editorial/amboseli-national-park/elephants-at-amboseli-national-park-against-mount-kilimanjar.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Elephants_at_Amboseli_national_park_against_Mount_Kilimanjaro.jpg", "creator": "Amoghavarsha JS", "license": "CC BY-SA 3.0", "license_url": "https://creativecommons.org/licenses/by-sa/3.0/", "checked_at": "2026-11-26",
+      "sha256": "ecf2c3e8d2d484d2def136fe9938619fdb66f8799e8d9e4b85fece90c7285114", "exact_subject": true, "subject": "Elephants at Amboseli National Park against Mount Kilimanjaro",
+      "alt": "A herd of elephants at Amboseli National Park with Mount Kilimanjaro rising behind them.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Elephants at Amboseli National Park against Mount Kilimanjaro."
+    },
+    "/images/editorial/bwindi-impenetrable-national-park/068-mountain-gorilla-close-up-at-bwindi-impenetrable-forest-.jpg": {
+      "kind": "photograph", "slug": "bwindi-gorilla-closeup", "local_path": "/images/editorial/bwindi-impenetrable-national-park/068-mountain-gorilla-close-up-at-bwindi-impenetrable-forest-.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:068_Mountain_gorilla_close-up_at_Bwindi_Impenetrable_Forest_National_Park_Photo_by_Giles_Laurent.jpg", "creator": "Giles Laurent", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-26",
+      "sha256": "4da6d6f176cc4bf3813e80ff6eacbf462c74f70cb94ce2217cfb36e54530bee9", "exact_subject": true, "subject": "Mountain gorilla close-up, Bwindi Impenetrable Forest National Park",
+      "alt": "A close-up of a mountain gorilla in Bwindi Impenetrable Forest National Park in Uganda.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Mountain gorilla close-up at Bwindi Impenetrable Forest National Park."
+    },
+    "/images/editorial/cairo-and-giza/great-sphinx-jpg.jpg": {
+      "kind": "photograph", "slug": "giza-great-sphinx", "local_path": "/images/editorial/cairo-and-giza/great-sphinx-jpg.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Great_Sphinx_(%D8%A3%D8%A8%D9%88_%D8%A7%D9%84%D9%87%D9%88%D9%84).jpg", "creator": "Petar Milošević", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-26",
+      "sha256": "cb116423782780ac6217709d8807667914bbef70ee47369889ce8d4155403c34", "exact_subject": true, "subject": "Great Sphinx of Giza, Egypt",
+      "alt": "The Great Sphinx of Giza on the Giza plateau in Egypt.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Great Sphinx, Giza, Egypt."
+    },
+    "/images/editorial/cape-coast-kakum/rainforest-kakum-national-park-ghanajpg.jpg": {
+      "kind": "photograph", "slug": "kakum-rainforest-canopy", "local_path": "/images/editorial/cape-coast-kakum/rainforest-kakum-national-park-ghanajpg.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Rainforest_Kakum_National_Park_Ghana.jpg", "creator": "Flowizm", "license": "CC BY 2.0", "license_url": "https://creativecommons.org/licenses/by/2.0/", "checked_at": "2026-11-26",
+      "sha256": "50b5c9a5f966e6f33a6f3aa10870116ed5fe2d92bcae230d76869116a5aec51a", "exact_subject": true, "subject": "Rainforest in Kakum National Park, Ghana",
+      "alt": "The dense rainforest of Kakum National Park in Ghana seen from the canopy walkway.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Rainforest in Kakum National Park taken from the canopy walkway."
+    },
+    "/images/editorial/cape-town/cape-town-za-wale-street----2024----3536jpg.jpg": {
+      "kind": "photograph", "slug": "cape-town-bo-kaap-wale-street", "local_path": "/images/editorial/cape-town/cape-town-za-wale-street----2024----3536jpg.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Cape_Town_(ZA),_Wale_Street_--_2024_--_3536.jpg", "creator": "Dietmar Rabich", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-26",
+      "sha256": "ec01613240a88bf2b53b376cdce201f5de5fddc3530d30520009e70e21b36ea2", "exact_subject": true, "subject": "Colorful houses in Wale Street, Bo-Kaap, Cape Town",
+      "alt": "The brightly painted houses of Wale Street in the Bo-Kaap neighbourhood of Cape Town.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Colorful houses in Wale Street, Bo-Kaap, Cape Town."
+    },
+    "/images/editorial/djanet-and-tassili/the-tanzoumaitak-cave-painting-in-tassili-najjerjpg.jpg": {
+      "kind": "photograph", "slug": "tassili-tanzoumaitak-cave-painting", "local_path": "/images/editorial/djanet-and-tassili/the-tanzoumaitak-cave-painting-in-tassili-najjerjpg.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:The_Tanzoumaitak_cave_painting_in_Tassili_n%27ajjer.jpg", "creator": "IssamBarhoumi", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-26",
+      "sha256": "246440e9a7ca2a608528f6be21a1c1a9c5e2bcf99855bff420f2ba448b64204f", "exact_subject": true, "subject": "Tanzoumaitak cave painting, Tassili n'Ajjer, Algeria",
+      "alt": "A prehistoric zoomorphic cave painting at Tanzoumaitak in Tassili n'Ajjer in Algeria.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Zoomorphic cave painting at Tanzoumaitak, Tassili n'Ajjer park."
+    },
+    "/images/editorial/lalibela/rock-hewn-churches-lalibela-ethiopia-6jpg.jpg": {
+      "kind": "photograph", "slug": "lalibela-rock-hewn-churches", "local_path": "/images/editorial/lalibela/rock-hewn-churches-lalibela-ethiopia-6jpg.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Rock-Hewn_Churches,_Lalibela_Ethiopia_(6).jpg", "creator": "Radosław Botev", "license": "CC BY 3.0 pl", "license_url": "https://creativecommons.org/licenses/by/3.0/pl/", "checked_at": "2026-11-26",
+      "sha256": "10ea19bd3951231f4274b1d43803350c185ab41ab702e345caf7c82e84f751d6", "exact_subject": true, "subject": "Rock-Hewn Churches of Lalibela, Ethiopia",
+      "alt": "The rock-hewn churches of Lalibela carved from volcanic rock in Ethiopia.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "The Rock-Hewn Churches, Lalibela, Ethiopia."
+    },
+    "/images/editorial/maasai-mara/lions-family-portrait-masai-marajpg.jpg": {
+      "kind": "photograph", "slug": "masai-mara-lion-family", "local_path": "/images/editorial/maasai-mara/lions-family-portrait-masai-marajpg.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Lions_Family_Portrait_Masai_Mara.jpg", "creator": "Benh LIEU SONG", "license": "CC BY-SA 3.0", "license_url": "https://creativecommons.org/licenses/by-sa/3.0/", "checked_at": "2026-11-26",
+      "sha256": "81c2d0b098fc249513a7894030e5f475ac0b1344408707c2d73551f179165601", "exact_subject": true, "subject": "Lion family, Maasai Mara, Kenya",
+      "alt": "A family of lions resting together in the Maasai Mara in Kenya.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Portrait of three lions of a pride resting in the Maasai Mara."
+    },
+    "/images/editorial/marrakech-and-atlas/arhbalou-high-atlas-al-haouz-morocco-oct25-a7cr-08381jpg.jpg": {
+      "kind": "photograph", "slug": "high-atlas-morocco", "local_path": "/images/editorial/marrakech-and-atlas/arhbalou-high-atlas-al-haouz-morocco-oct25-a7cr-08381jpg.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Arhbalou_High_Atlas_Al_Haouz_Morocco_Oct25_A7CR_08381.jpg", "creator": "Timothy A. Gonsalves", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-26",
+      "sha256": "7264a951e697ccf23b31706acfd80997bf5954dec86e39ecd538ddbc8f61278d", "exact_subject": true, "subject": "High Atlas mountains, Al Haouz, Morocco",
+      "alt": "The High Atlas mountains near Arhbalou in the Al Haouz region of Morocco.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Arhbalou High Atlas, Al Haouz, Morocco, October 2025."
+    },
+    "/images/editorial/murchison-falls-national-park/murchison-falls-uganda-01jpg.jpg": {
+      "kind": "photograph", "slug": "murchison-falls-uganda", "local_path": "/images/editorial/murchison-falls-national-park/murchison-falls-uganda-01jpg.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Murchison_Falls,_Uganda_01.jpg", "creator": "NANTUMBWEJ", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-26",
+      "sha256": "8f12946c65bf31a58d12c11c3727b0a2786c616bc717b786fb956c7e85d1f154", "exact_subject": true, "subject": "Murchison Falls, Uganda",
+      "alt": "The Nile squeezing through the narrow gorge at Murchison Falls in Uganda.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Murchison Falls, Uganda."
+    },
+    "/images/editorial/namib-desert/dead-vlei-sossusvlei-namibia-2018-08-06-dd-085jpg.jpg": {
+      "kind": "photograph", "slug": "deadvlei-namib", "local_path": "/images/editorial/namib-desert/dead-vlei-sossusvlei-namibia-2018-08-06-dd-085jpg.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Dead_Vlei,_Sossusvlei,_Namibia,_2018-08-06,_DD_085.jpg", "creator": "Diego Delso", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-26",
+      "sha256": "399e63bb2a2798bda58e49070d096fc87846b9ad97f282e770322508cfa21230", "exact_subject": true, "subject": "Deadvlei, Sossusvlei, Namibia",
+      "alt": "The dead camel thorn trees of Deadvlei against the dunes of the Namib Desert.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Dead Vlei, Sossusvlei, Namibia, 2018-08-06."
+    },
+    "/images/editorial/okavango-delta/vista-area-del-delta-del-okavango-botsuana-2018-08-01-dd-24j.jpg": {
+      "kind": "photograph", "slug": "okavango-delta-aerial", "local_path": "/images/editorial/okavango-delta/vista-area-del-delta-del-okavango-botsuana-2018-08-01-dd-24j.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Vista_a%C3%A9rea_del_delta_del_Okavango,_Botsuana,_2018-08-01,_DD_24.jpg", "creator": "Diego Delso", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-26",
+      "sha256": "07adc9dd5be0e0736b6325223615897670edea179f3cb37f25722ec207bcd802", "exact_subject": true, "subject": "Aerial view of the Okavango Delta, Botswana",
+      "alt": "An aerial view of the winding channels of the Okavango Delta in Botswana.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Aerial view of the Okavango Delta, Botswana, 2018-08-01."
+    },
+    "/images/editorial/sahara-dunes/merzouga-dunes-du-sahara-avril2005-2jpg.jpg": {
+      "kind": "photograph", "slug": "merzouga-sahara-dunes", "local_path": "/images/editorial/sahara-dunes/merzouga-dunes-du-sahara-avril2005-2jpg.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Merzouga,_Dunes_du_Sahara_(avril2005)_(2).jpg", "creator": "Pierre André Leclercq", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-26",
+      "sha256": "7bc35a43b5b73b499d575973738afc20df4072acc3742f5360210a7ac169e9e5", "exact_subject": true, "subject": "Dunes of the Sahara at Merzouga, Morocco",
+      "alt": "The golden dunes of the Sahara at Merzouga in Morocco.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Merzouga, Dunes du Sahara, April 2005."
+    },
+    "/images/editorial/serengeti-national-park/011-the-lion-king-tryggve-in-the-serengeti-national-park-pho.jpg": {
+      "kind": "photograph", "slug": "serengeti-lion", "local_path": "/images/editorial/serengeti-national-park/011-the-lion-king-tryggve-in-the-serengeti-national-park-pho.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:011_The_lion_king_Tryggve_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg", "creator": "Giles Laurent", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-26",
+      "sha256": "9802dfafeb79ad4dbda7650489aa51e4daeee4a32c29b73489e315c228883818", "exact_subject": true, "subject": "Lion in Serengeti National Park, Tanzania",
+      "alt": "A male lion resting in the Serengeti National Park in Tanzania.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "The lion king Tryggve in the Serengeti National Park."
+    },
+    "/images/editorial/sine-saloum-delta/sngal-dans-le-delta-du-sine-saloum-02jpg.jpg": {
+      "kind": "photograph", "slug": "sine-saloum-delta-view", "local_path": "/images/editorial/sine-saloum-delta/sngal-dans-le-delta-du-sine-saloum-02jpg.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:S%C3%A9n%C3%A9gal,_dans_le_Delta_du_Sine_Saloum_02.jpg", "creator": "Issiaga0", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-26",
+      "sha256": "17765981cfcfdf3c3b01d1fa5cb528ac656a637b84a4397b1a2c553fe77a1264", "exact_subject": true, "subject": "Sine Saloum Delta, Senegal",
+      "alt": "A waterway in the Sine Saloum Delta of Senegal.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Senegal, Delta du Sine Saloum."
+    },
+    "/images/editorial/south-luangwa/loxodonta-africana-south-luangwa-national-park-1jpg.jpg": {
+      "kind": "photograph", "slug": "south-luangwa-elephant", "local_path": "/images/editorial/south-luangwa/loxodonta-africana-south-luangwa-national-park-1jpg.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Loxodonta_africana_South_Luangwa_National_Park_(1).jpg", "creator": "Geoff Gallice", "license": "CC BY 2.0", "license_url": "https://creativecommons.org/licenses/by/2.0/", "checked_at": "2026-11-26",
+      "sha256": "076c1628be84ad8cb627a5139fb2b003a45100249f10cb54f7a54b622c0bd7eb", "exact_subject": true, "subject": "African elephant, South Luangwa National Park, Zambia",
+      "alt": "An African elephant in South Luangwa National Park in Zambia.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Loxodonta africana, South Luangwa National Park."
+    },
+    "/images/editorial/victoria-falls/mosi-oa-tunya-livingstone-20260519-p1075700jpg.jpg": {
+      "kind": "photograph", "slug": "victoria-falls-mosi-oa-tunya", "local_path": "/images/editorial/victoria-falls/mosi-oa-tunya-livingstone-20260519-p1075700jpg.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Mosi-oa-Tunya,_Livingstone_(20260519-P1075700).jpg", "creator": "Matti Blume", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-26",
+      "sha256": "180ebc509e6c04772f240aa30b8980144c39d22e4724b3c3da71f23ca19b4196", "exact_subject": true, "subject": "Mosi-oa-Tunya (Victoria Falls), Livingstone, Zambia",
+      "alt": "The spray and cascade of Mosi-oa-Tunya (Victoria Falls) seen from Livingstone in Zambia.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Mosi-oa-Tunya, Livingstone, 2026-05-19."
+    },
+    "/images/editorial/nyungwe-national-park/sunset-over-nyungwe-national-park-rwandajpg.jpg": {
+      "kind": "photograph", "slug": "nyungwe-sunset", "local_path": "/images/editorial/nyungwe-national-park/sunset-over-nyungwe-national-park-rwandajpg.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Sunset_over_Nyungwe_National_Park,_Rwanda.jpg", "creator": "travelmag.com", "license": "CC BY 2.0", "license_url": "https://creativecommons.org/licenses/by/2.0/", "checked_at": "2026-11-26",
+      "sha256": "0d9ae784bef3adecfb5553af043afd651eb519f07194b296db9da184ee68cdc0", "exact_subject": true, "subject": "Sunset over Nyungwe National Park, Rwanda",
+      "alt": "The sun setting over the forest canopy of Nyungwe National Park in Rwanda.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Sunset over Nyungwe National Park, Rwanda."
+    },
+    "/images/editorial/zanzibar/nungwi-beach-zanzibarjpg.jpg": {
+      "kind": "photograph", "slug": "nungwi-beach-zanzibar", "local_path": "/images/editorial/zanzibar/nungwi-beach-zanzibarjpg.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Nungwi-Beach-Zanzibar.jpg", "creator": "Niceley", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-26",
+      "sha256": "97f2cfdee3c8e40e660a992d8473b8eac91b1b2b407202a256ef89ac01355984", "exact_subject": true, "subject": "Nungwi Beach, Zanzibar",
+      "alt": "The white sand and turquoise water of Nungwi Beach on Zanzibar.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Nungwi Beach, Zanzibar."
+    },
+    "/images/editorial/elmina-castle/elmina-castle---ghanajpg.jpg": {
+      "kind": "photograph", "slug": "elmina-castle-ghana", "local_path": "/images/editorial/elmina-castle/elmina-castle---ghanajpg.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Elmina_Castle_-_Ghana.jpg", "creator": "Damien Halleux Radermecker", "license": "CC BY-SA 2.0", "license_url": "https://creativecommons.org/licenses/by-sa/2.0/", "checked_at": "2026-11-26",
+      "sha256": "224ab15b8d6e96b9152499c119e06890b4819822d1d7c7b889289f92cc316c0a", "exact_subject": true, "subject": "Elmina Castle, Ghana",
+      "alt": "The whitewashed walls of Elmina Castle on the coast of Ghana.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Elmina Castle, Ghana."
+    },
+    "/images/editorial/kibale-national-park/013-alpha-male-chimpanzee-at-kibale-forest-national-park-pho.jpg": {
+      "kind": "photograph", "slug": "kibale-chimpanzee", "local_path": "/images/editorial/kibale-national-park/013-alpha-male-chimpanzee-at-kibale-forest-national-park-pho.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:013_Alpha_male_chimpanzee_at_Kibale_forest_National_Park_Photo_by_Giles_Laurent.jpg", "creator": "Giles Laurent", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-26",
+      "sha256": "c56cde11710ed991eaf943e2235d995e8a89f45149cfa1ef1b926a134fa04c57", "exact_subject": true, "subject": "Alpha male chimpanzee, Kibale Forest National Park, Uganda",
+      "alt": "An alpha male chimpanzee in Kibale Forest National Park in Uganda.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Alpha male chimpanzee at Kibale forest National Park."
+    },
+    "/images/editorial/jozani-forest/trail-palms-mahogany-jozani-zanzibar-oct26-a7r-06886jpg.jpg": {
+      "kind": "photograph", "slug": "jozani-forest-trail", "local_path": "/images/editorial/jozani-forest/trail-palms-mahogany-jozani-zanzibar-oct26-a7r-06886jpg.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Trail_Palms_Mahogany_Jozani_Zanzibar_Oct26_A7R_06886.jpg", "creator": "Timothy A. Gonsalves", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-26",
+      "sha256": "4038388f46cd56114ebee5e7498c5cbd2476d70aaa5aa032fd0d81183c102c44", "exact_subject": true, "subject": "Trail through palms and mahogany in Jozani Forest, Zanzibar",
+      "alt": "A trail winding through palms and mahogany trees in Jozani Forest on Zanzibar.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Trail, palms and mahogany, Jozani Zanzibar, October 2026."
+    },
+    "/images/editorial/kruger-national-park/kruger-national-park-za-elefant----2024----0649jpg.jpg": {
+      "kind": "photograph", "slug": "kruger-elephant", "local_path": "/images/editorial/kruger-national-park/kruger-national-park-za-elefant----2024----0649jpg.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Kruger_National_Park_(ZA),_Elefant_--_2024_--_0649.jpg", "creator": "Dietmar Rabich", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-26",
+      "sha256": "379667624594d2f6824711b7bc42b3786df419069a39b69699880675a9cee2f2", "exact_subject": true, "subject": "Elephant, Kruger National Park, South Africa",
+      "alt": "An elephant walking through the bush in Kruger National Park in South Africa.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Elefant, Kruger National Park, 2024."
+    },
+    "/images/editorial/kruger-national-park/leopard-panthera-pardus-pardus-young-female-kruger-2jpg.jpg": {
+      "kind": "photograph", "slug": "kruger-leopard", "local_path": "/images/editorial/kruger-national-park/leopard-panthera-pardus-pardus-young-female-kruger-2jpg.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Leopard_(Panthera_pardus_pardus)_young_female_Kruger_2.jpg", "creator": "Charles J. Sharp", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-26",
+      "sha256": "4de5ba319e1edd579ab8087871bcb756c63fdb2748326f3ca2ad98d8ca1e4d8e", "exact_subject": true, "subject": "Young female leopard, Kruger National Park, South Africa",
+      "alt": "A young female leopard resting in Kruger National Park in South Africa.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Young female leopard, Kruger."
+    },
+    "/images/editorial/kruger-national-park/rhino-kruger-national-park-7826798766jpg.jpg": {
+      "kind": "photograph", "slug": "kruger-rhino", "local_path": "/images/editorial/kruger-national-park/rhino-kruger-national-park-7826798766jpg.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Rhino,_Kruger_National_Park_(7826798766).jpg", "creator": "flowcomm", "license": "CC BY 2.0", "license_url": "https://creativecommons.org/licenses/by/2.0/", "checked_at": "2026-11-26",
+      "sha256": "ceca2e9a17079bb00bb4a76463ab3301ce31b8e2932989412a4c146f4925cf0b", "exact_subject": true, "subject": "Rhinoceros, Kruger National Park, South Africa",
+      "alt": "A rhinoceros in Kruger National Park in South Africa.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Rhino, Kruger National Park."
+    },
+    "/images/editorial/ouidah-and-ganvie/beach-of-ouidah-benin-2jpg.jpg": {
+      "kind": "photograph", "slug": "ouidah-beach", "local_path": "/images/editorial/ouidah-and-ganvie/beach-of-ouidah-benin-2jpg.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Beach_of_Ouidah_Benin_2.jpg", "creator": "jbdodane", "license": "CC BY 2.0", "license_url": "https://creativecommons.org/licenses/by/2.0/", "checked_at": "2026-11-26",
+      "sha256": "cd8e508ddaccababe044db57989d44e5a9392ccae05a63441dafb68bcbebcdbe", "exact_subject": true, "subject": "Beach of Ouidah, Benin",
+      "alt": "The Atlantic beach at Ouidah in Benin.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Beach of Ouidah, Benin."
+    },
+    "/images/editorial/ouidah-and-ganvie/entre-du-temple-des-pythons-ouidahjpg.jpg": {
+      "kind": "photograph", "slug": "ouidah-python-temple", "local_path": "/images/editorial/ouidah-and-ganvie/entre-du-temple-des-pythons-ouidahjpg.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Entr%C3%A9e_du_Temple_des_Pythons_(Ouidah).jpg", "creator": "Ji-Elle", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-26",
+      "sha256": "d1773f73222bfcbcaa7a7997113cb34c144224c3afbb9a51dc1f97486f1ef16c", "exact_subject": true, "subject": "Entrance of the Temple of Pythons, Ouidah, Benin",
+      "alt": "The entrance to the Temple of Pythons in Ouidah in Benin.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Entrée du Temple des Pythons, Ouidah."
+    },
+    "/images/editorial/ouidah-and-ganvie/market-at-ganvie-benin-dec-2017jpg.jpg": {
+      "kind": "photograph", "slug": "ganvie-market", "local_path": "/images/editorial/ouidah-and-ganvie/market-at-ganvie-benin-dec-2017jpg.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Market_at_Ganvie_Benin_Dec_2017.jpg", "creator": "Kulttuurinavigaattori", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-26",
+      "sha256": "c5cdadcb6dc030a8bfb32b5a491c0ffae9aee1fecd5b0cd6fd15ca108ceac15f", "exact_subject": true, "subject": "Market at Ganvie, Benin",
+      "alt": "A busy market in the stilt village of Ganvie in Benin.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Market at Ganvie, Benin, December 2017."
+    },
+    "/images/editorial/ouidah-and-ganvie/ganvie-lake-village-lake-nokou-benin-02jpg.jpg": {
+      "kind": "photograph", "slug": "ganvie-lake-village", "local_path": "/images/editorial/ouidah-and-ganvie/ganvie-lake-village-lake-nokou-benin-02jpg.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Ganvie,_Lake_Village,_Lake_Nokou%C3%A9,_Benin_02.jpg", "creator": "Asabiyya", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-26",
+      "sha256": "42987ba71af4274f1d57d937702a955d8dd1050715452565e59d8e9475a8ef7c", "exact_subject": true, "subject": "Ganvie lake village, Lake Nokoué, Benin",
+      "alt": "The stilt houses of Ganvie village on Lake Nokoué in Benin.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Ganvie, Lake Village, Lake Nokoué, Benin."
+    },
+    "/images/editorial/tokeh-and-river-no2/tokeh-beachjpg.jpg": {
+      "kind": "photograph", "slug": "tokeh-beach", "local_path": "/images/editorial/tokeh-and-river-no2/tokeh-beachjpg.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Tokeh_Beach.jpg", "creator": "Lars Bessel", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-26",
+      "sha256": "750c65e438165f8dbb52308fb272cd706c6e6cdaf6f31cd4e9f912af376ba98b", "exact_subject": true, "subject": "Tokeh Beach, Sierra Leone",
+      "alt": "The sandy beach and turquoise water at Tokeh in Sierra Leone.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Tokeh Beach, Sierra Leone."
+    },
+    "/images/editorial/tokeh-and-river-no2/beach-in-freetown-sierra-leone-14176784751jpg.jpg": {
+      "kind": "photograph", "slug": "freetown-beach", "local_path": "/images/editorial/tokeh-and-river-no2/beach-in-freetown-sierra-leone-14176784751jpg.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Beach_in_Freetown,_Sierra_Leone_(14176784751).jpg", "creator": "Erik Cleves Kristensen", "license": "CC BY 2.0", "license_url": "https://creativecommons.org/licenses/by/2.0/", "checked_at": "2026-11-26",
+      "sha256": "bdc868a03371df25992e00d11293eaacfc72fd6b4cc7f5a207080aacf214645b", "exact_subject": true, "subject": "Beach in Freetown, Sierra Leone",
+      "alt": "A beach in Freetown, Sierra Leone.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Beach in Freetown, Sierra Leone."
+    },
+    "/images/editorial/tokeh-and-river-no2/banana-islands-sierra-leonejpg.jpg": {
+      "kind": "photograph", "slug": "banana-islands-sierra-leone", "local_path": "/images/editorial/tokeh-and-river-no2/banana-islands-sierra-leonejpg.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Banana_Islands_(Sierra_Leone).jpg", "creator": "Christian Trede (Chtrede)", "license": "Attribution", "license_url": "", "checked_at": "2026-11-26",
+      "sha256": "105ce6f329fbd18480087b58210ffb66c49e2b17a81db073f3339b073136b8c7", "exact_subject": true, "subject": "Banana Islands, Sierra Leone",
+      "alt": "The Banana Islands off the coast of Sierra Leone.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits. Free attribution license (author requires credit).", "exact_subject_evidence": "Banana Islands, Sierra Leone."
+    },
+    "/images/editorial/tokeh-and-river-no2/river-no-2-beach-sierra-leonejpg.jpg": {
+      "kind": "photograph", "slug": "river-no-2-beach", "local_path": "/images/editorial/tokeh-and-river-no2/river-no-2-beach-sierra-leonejpg.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:River_No._2_Beach_(Sierra_Leone).jpg", "creator": "Christian Trede (Chtrede)", "license": "Attribution", "license_url": "", "checked_at": "2026-11-26",
+      "sha256": "9625a6763553758ac0b046194a29768da4b3aeea0889d0149679408599f735b2", "exact_subject": true, "subject": "River No. 2 Beach, Sierra Leone",
+      "alt": "The white sand of River No. 2 Beach on the Sierra Leone coast.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits. Free attribution license (author requires credit).", "exact_subject_evidence": "River No. 2 Beach, Sierra Leone."
+    },
+    "/images/editorial/maasai-mara-balloon-safari/hot-air-balloon-safari-in-maasai-marajpg.jpg": {
+      "kind": "photograph", "slug": "maasai-mara-balloon-safari", "local_path": "/images/editorial/maasai-mara-balloon-safari/hot-air-balloon-safari-in-maasai-marajpg.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Hot_Air_Balloon_Safari_in_Maasai_Mara.jpg", "creator": "Wajahatmr", "license": "CC BY-SA 3.0", "license_url": "https://creativecommons.org/licenses/by-sa/3.0/", "checked_at": "2026-11-26",
+      "sha256": "21b2b547f73444baec690dc25696ea6b1e1d79011efb89e6247e15d51117f999", "exact_subject": true, "subject": "Hot air balloon safari in Maasai Mara",
+      "alt": "A hot air balloon drifting over the Maasai Mara at sunrise.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Hot Air Balloon Safari in Maasai Mara."
+    },
+    "/images/editorial/bwindi-gorilla-trekking/mountain-gorilla-gorilla-beringei-beringei-eatingjpg.jpg": {
+      "kind": "photograph", "slug": "bwindi-gorilla-eating", "local_path": "/images/editorial/bwindi-gorilla-trekking/mountain-gorilla-gorilla-beringei-beringei-eatingjpg.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Mountain_gorilla_(Gorilla_beringei_beringei)_eating.jpg", "creator": "Charles J. Sharp", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-26",
+      "sha256": "688c8d1594c4cc8f34f03d488912cf11461a5d0ab5bf9a820dda7abc768a0f29", "exact_subject": true, "subject": "Mountain gorilla eating, Bwindi Impenetrable Forest",
+      "alt": "A mountain gorilla eating vegetation in Bwindi Impenetrable Forest in Uganda.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Mountain gorilla (Gorilla beringei beringei) eating."
+    },
+    "/images/editorial/serengeti-balloon-safari/serengeti-balloonjpg.jpg": {
+      "kind": "photograph", "slug": "serengeti-balloon", "local_path": "/images/editorial/serengeti-balloon-safari/serengeti-balloonjpg.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Serengeti_Balloon.jpg", "creator": "Eric Kilby", "license": "CC BY-SA 2.0", "license_url": "https://creativecommons.org/licenses/by-sa/2.0/", "checked_at": "2026-11-26",
+      "sha256": "544cb115f9a690d0baa06cdaa3917364eba8798d7f70847fa3789596f2ea962e", "exact_subject": true, "subject": "Hot air balloon over the Serengeti",
+      "alt": "A hot air balloon floating above the Serengeti plains at sunrise.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Serengeti Balloon."
+    },
+    "/images/editorial/table-mountain-guided-hike/rock-path-on-platteklip-gorge-trail-table-mountain-in-cape-t.jpg": {
+      "kind": "photograph", "slug": "platteklo-pil-gorge-rock-path", "local_path": "/images/editorial/table-mountain-guided-hike/rock-path-on-platteklip-gorge-trail-table-mountain-in-cape-t.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Rock_path_on_Platteklip_Gorge_trail,_Table_Mountain_in_Cape_Town,_South_Africa_04.jpg", "creator": "Lovemedead", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-26",
+      "sha256": "f33eec3bd4f4c49b17643b11099ad6b41ebc4c0ccf30e10a3d3162670db5dab9", "exact_subject": true, "subject": "Rock path on Platteklip Gorge trail, Table Mountain",
+      "alt": "The rocky path of the Platteklip Gorge trail up Table Mountain in Cape Town.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Rock path on Platteklip Gorge trail, Table Mountain."
+    },
+    "/images/editorial/marrakech-medina-street-food-tour/djemaa-el-fna-marrakech-morocco-5423734940-6jpg.jpg": {
+      "kind": "photograph", "slug": "marrakech-medina-food-stalls", "local_path": "/images/editorial/marrakech-medina-street-food-tour/djemaa-el-fna-marrakech-morocco-5423734940-6jpg.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Djemaa_el_Fna,_Marrakech,_Morocco_(5423734940)_(6).jpg", "creator": "YoTuT from United States", "license": "CC BY 2.0", "license_url": "https://creativecommons.org/licenses/by/2.0/", "checked_at": "2026-11-26",
+      "sha256": "7af559d1d14bcb36af03c27650b8136110541de567fa8a88b8f6b5cce3841792", "exact_subject": true, "subject": "Food stalls in Djemaa el Fna, Marrakech",
+      "alt": "Food stalls in the Djemaa el Fna square in Marrakech.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Djemaa el Fna, Marrakech, Morocco."
+    },
+    "/images/editorial/kruger-national-park-game-drive/kruger-national-park-34165272663jpg.jpg": {
+      "kind": "photograph", "slug": "kruger-game-drive", "local_path": "/images/editorial/kruger-national-park-game-drive/kruger-national-park-34165272663jpg.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Kruger_National_Park_(34165272663).jpg", "creator": "leftcoastenvy", "license": "CC BY 2.0", "license_url": "https://creativecommons.org/licenses/by/2.0/", "checked_at": "2026-11-26",
+      "sha256": "e36997896a9cc4ca663240e581a5ce24d4e6feb09b2e23f1552f28d57724648d", "exact_subject": true, "subject": "Kruger National Park game drive",
+      "alt": "A safari vehicle on a game drive in Kruger National Park in South Africa.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Kruger National Park."
     }
+
   },
   "listings": {
     "attractions": {
@@ -12602,7 +14242,8 @@ export const photoLibrary = {
           "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/African_Elephant_from_Amboseli.jpg/1280px-African_Elephant_from_Amboseli.jpg",
           "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Elephant_-_Amboseli_National_Park%2C_Kenya_%2854187030338%29.jpg/1280px-Elephant_-_Amboseli_National_Park%2C_Kenya_%2854187030338%29.jpg",
           "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Sunrise%2C_Amboseli_National_Park%2C_Kenya.jpg/1280px-Sunrise%2C_Amboseli_National_Park%2C_Kenya.jpg",
-          "https://upload.wikimedia.org/wikipedia/commons/b/bc/Amboseli_National_Park_scenery.JPG"
+          "https://upload.wikimedia.org/wikipedia/commons/b/bc/Amboseli_National_Park_scenery.JPG",
+          "/images/editorial/amboseli-national-park/elephants-at-amboseli-national-park-against-mount-kilimanjar.jpg"
         ]
       },
       "bwindi-impenetrable-national-park": {
@@ -12617,7 +14258,8 @@ export const photoLibrary = {
           "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Merops_gularis_australis%2C_Bwindi_Impenetrable_Forest%2C_Uganda_2.jpg/1280px-Merops_gularis_australis%2C_Bwindi_Impenetrable_Forest%2C_Uganda_2.jpg",
           "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Bwindi_Impenetrable_National_Park_desde_el_Broadbill_Forest_Camp_20190925_085152.jpg/1280px-Bwindi_Impenetrable_National_Park_desde_el_Broadbill_Forest_Camp_20190925_085152.jpg",
           "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Bwindi_impenetrable_Forest.jpg/1280px-Bwindi_impenetrable_Forest.jpg",
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/070_Dark-capped_bulbul_at_Bwindi_Impenetrable_Forest_National_Park_Photo_by_Giles_Laurent.jpg/1280px-070_Dark-capped_bulbul_at_Bwindi_Impenetrable_Forest_National_Park_Photo_by_Giles_Laurent.jpg"
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/070_Dark-capped_bulbul_at_Bwindi_Impenetrable_Forest_National_Park_Photo_by_Giles_Laurent.jpg/1280px-070_Dark-capped_bulbul_at_Bwindi_Impenetrable_Forest_National_Park_Photo_by_Giles_Laurent.jpg",
+          "/images/editorial/bwindi-impenetrable-national-park/068-mountain-gorilla-close-up-at-bwindi-impenetrable-forest-.jpg"
         ]
       },
       "cairo-and-giza": {
@@ -12632,7 +14274,8 @@ export const photoLibrary = {
           "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/The_Great_Sphinx_of_Giza%2C_Cairo%2C_Egypt.jpg/1280px-The_Great_Sphinx_of_Giza%2C_Cairo%2C_Egypt.jpg",
           "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Cairo_Citadel_and_Mosque_of_Muhammad_Ali.jpg/1280px-Cairo_Citadel_and_Mosque_of_Muhammad_Ali.jpg",
           "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Cairo_Khan_El_Khili.jpg/1280px-Cairo_Khan_El_Khili.jpg",
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Cairo_and_Nile_at_the_morning_vibe.jpg/1280px-Cairo_and_Nile_at_the_morning_vibe.jpg"
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Cairo_and_Nile_at_the_morning_vibe.jpg/1280px-Cairo_and_Nile_at_the_morning_vibe.jpg",
+          "/images/editorial/cairo-and-giza/great-sphinx-jpg.jpg"
         ]
       },
       "cape-coast-kakum": {
@@ -12648,7 +14291,8 @@ export const photoLibrary = {
           "/images/editorial/cape-coast-kakum/kakum-trail-to-canopy-walk.jpg",
           "/images/editorial/cape-coast-kakum/kakum-forest-walk.jpg",
           "/images/editorial/cape-coast-kakum/kakum-park-path.jpg",
-          "/images/editorial/cape-coast-kakum/cape-coast-castle-entrance-2025.jpg"
+          "/images/editorial/cape-coast-kakum/cape-coast-castle-entrance-2025.jpg",
+          "/images/editorial/cape-coast-kakum/rainforest-kakum-national-park-ghanajpg.jpg"
         ]
       },
       "cape-town": {
@@ -12663,7 +14307,8 @@ export const photoLibrary = {
           "/images/editorial/cape-town-attraction/signal-hill-lookout-2019.jpg",
           "/images/editorial/cape-town-attraction/bo-kaap-wale-street-2014.jpg",
           "/images/editorial/cape-town-attraction/kirstenbosch-fynbos-garden-2013.jpg",
-          "/images/editorial/cape-town-attraction/lions-head-from-cbd-2026.jpg"
+          "/images/editorial/cape-town-attraction/lions-head-from-cbd-2026.jpg",
+          "/images/editorial/cape-town/cape-town-za-wale-street----2024----3536jpg.jpg"
         ]
       },
       "djanet-and-tassili": {
@@ -12678,7 +14323,8 @@ export const photoLibrary = {
           "/images/editorial/djanet-tassili-attraction/djanet-night-desert-raouf-bedrani.jpg",
           "/images/editorial/djanet-tassili-attraction/djanet-canyon-oasis-heythem-kehila.jpg",
           "/images/editorial/djanet-tassili-attraction/tassili-sandstone-formations-djamel-ramdani.jpg",
-          "/images/editorial/djanet-tassili-attraction/djanet-prehistoric-rock-engraving-djamel-ramdani.jpg"
+          "/images/editorial/djanet-tassili-attraction/djanet-prehistoric-rock-engraving-djamel-ramdani.jpg",
+          "/images/editorial/djanet-and-tassili/the-tanzoumaitak-cave-painting-in-tassili-najjerjpg.jpg"
         ]
       },
       "kruger-national-park": {
@@ -12691,7 +14337,10 @@ export const photoLibrary = {
           "/images/stock/destinations/kruger-national-park.jpg",
           "/images/stock/starter/kruger-national-park.jpg",
           "/images/editorial/kruger-attraction/elephant-graham-hunt.jpg",
-          "/images/editorial/kruger-attraction/impala-watercourse-context.png"
+          "/images/editorial/kruger-attraction/impala-watercourse-context.png",
+          "/images/editorial/kruger-national-park/kruger-national-park-za-elefant----2024----0649jpg.jpg",
+          "/images/editorial/kruger-national-park/leopard-panthera-pardus-pardus-young-female-kruger-2jpg.jpg",
+          "/images/editorial/kruger-national-park/rhino-kruger-national-park-7826798766jpg.jpg"
         ]
       },
       "lalibela": {
@@ -12706,7 +14355,8 @@ export const photoLibrary = {
           "/images/editorial/lalibela-attraction/st-george-church-aerial-ludo-van-den-nouweland.jpg",
           "/images/editorial/lalibela-attraction/rock-hewn-church-visitors-estella.jpg",
           "/images/editorial/lalibela-attraction/lalibela-priest-cross-ludo-van-den-nouweland.jpg",
-          "/images/editorial/lalibela-attraction/lalibela-church-stonework-ludo-van-den-nouweland.jpg"
+          "/images/editorial/lalibela-attraction/lalibela-church-stonework-ludo-van-den-nouweland.jpg",
+          "/images/editorial/lalibela/rock-hewn-churches-lalibela-ethiopia-6jpg.jpg"
         ]
       },
       "maasai-mara": {
@@ -12722,7 +14372,8 @@ export const photoLibrary = {
           "/images/editorial/maasai-mara-attraction/maasai-mara-lion-2007.jpg",
           "/images/editorial/maasai-mara-attraction/maasai-mara-elephants-2019.jpg",
           "/images/editorial/maasai-mara-attraction/maasai-mara-zebra-2015.jpg",
-          "/images/editorial/maasai-mara-attraction/maasai-mara-four-lions-2015.jpg"
+          "/images/editorial/maasai-mara-attraction/maasai-mara-four-lions-2015.jpg",
+          "/images/editorial/maasai-mara/lions-family-portrait-masai-marajpg.jpg"
         ]
       },
       "marrakech-and-atlas": {
@@ -12737,7 +14388,8 @@ export const photoLibrary = {
           "/images/editorial/marrakech-and-atlas/marrakech-37644961.jpg",
           "/images/editorial/marrakech-and-atlas/marrakech-37248554.jpg",
           "/images/editorial/marrakech-and-atlas/marrakech-36871970.jpg",
-          "/images/editorial/marrakech-and-atlas/marrakech-37818897.jpg"
+          "/images/editorial/marrakech-and-atlas/marrakech-37818897.jpg",
+          "/images/editorial/marrakech-and-atlas/arhbalou-high-atlas-al-haouz-morocco-oct25-a7cr-08381jpg.jpg"
         ]
       },
       "murchison-falls-national-park": {
@@ -12752,7 +14404,8 @@ export const photoLibrary = {
           "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Murchison_Falls%2C_Uganda.jpg/1280px-Murchison_Falls%2C_Uganda.jpg",
           "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Murchison_Falls%2C_Uganda_%2822516674255%29.jpg/1280px-Murchison_Falls%2C_Uganda_%2822516674255%29.jpg",
           "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Wildlife_in_murchison_falls_national_park_Uganda.jpg/1280px-Wildlife_in_murchison_falls_national_park_Uganda.jpg",
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Wildlife_in_Murchison_Falls_National_Park_Uganda_04.jpg/1280px-Wildlife_in_Murchison_Falls_National_Park_Uganda_04.jpg"
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Wildlife_in_Murchison_Falls_National_Park_Uganda_04.jpg/1280px-Wildlife_in_Murchison_Falls_National_Park_Uganda_04.jpg",
+          "/images/editorial/murchison-falls-national-park/murchison-falls-uganda-01jpg.jpg"
         ]
       },
       "namib-desert": {
@@ -12767,7 +14420,8 @@ export const photoLibrary = {
           "/images/editorial/namib-desert-attraction/namib-desert-sossusvlei-cracked-pan-red-dune-hub-jacqu.jpg",
           "/images/editorial/namib-desert-attraction/namib-desert-deadvlei-trees-wendy-r.jpg",
           "/images/editorial/namib-desert-attraction/namib-desert-deadvlei-tree-panorama-hans-lutjes.jpg",
-          "/images/editorial/namib-desert-attraction/namib-desert-dune-walkers-rino-adamo.jpg"
+          "/images/editorial/namib-desert-attraction/namib-desert-dune-walkers-rino-adamo.jpg",
+          "/images/editorial/namib-desert/dead-vlei-sossusvlei-namibia-2018-08-06-dd-085jpg.jpg"
         ]
       },
       "okavango-delta": {
@@ -12782,7 +14436,8 @@ export const photoLibrary = {
           "/images/editorial/okavango-delta-attraction/okavango-cheetah-cub-catherine-merlin.jpg",
           "/images/editorial/okavango-delta-attraction/okavango-lion-cub-colin-watts.jpg",
           "/images/editorial/okavango-delta-attraction/okavango-hippos-crossing-colin-watts.jpg",
-          "/images/editorial/okavango-delta-attraction/okavango-helmeted-guineafowl-secret-travel-guide.jpg"
+          "/images/editorial/okavango-delta-attraction/okavango-helmeted-guineafowl-secret-travel-guide.jpg",
+          "/images/editorial/okavango-delta/vista-area-del-delta-del-okavango-botsuana-2018-08-01-dd-24j.jpg"
         ]
       },
       "ouidah-and-ganvie": {
@@ -12794,7 +14449,11 @@ export const photoLibrary = {
         "gallery": [
           "/images/stock/destinations/ouidah-and-ganvie.jpg",
           "/images/stock/starter/ouidah-and-ganvie.jpg",
-      "/images/editorial/ouidah-and-ganvie/lakeshore-canoes-context.png"
+      "/images/editorial/ouidah-and-ganvie/lakeshore-canoes-context.png",
+      "/images/editorial/ouidah-and-ganvie/beach-of-ouidah-benin-2jpg.jpg",
+      "/images/editorial/ouidah-and-ganvie/entre-du-temple-des-pythons-ouidahjpg.jpg",
+      "/images/editorial/ouidah-and-ganvie/market-at-ganvie-benin-dec-2017jpg.jpg",
+      "/images/editorial/ouidah-and-ganvie/ganvie-lake-village-lake-nokou-benin-02jpg.jpg"
         ]
       },
       "sahara-dunes": {
@@ -12809,7 +14468,8 @@ export const photoLibrary = {
           "/images/editorial/sahara-dunes-attraction/erg-chebbi-dunes-kees-van-leeuwen.jpg",
           "/images/editorial/sahara-dunes-attraction/erg-chebbi-palm-yassine-oukhadjou.jpg",
           "/images/editorial/sahara-dunes-attraction/erg-chebbi-hiker-henrik-le-botos.jpg",
-          "/images/editorial/sahara-dunes-attraction/merzouga-camel-sunset-mehdi-el-marouazi.jpg"
+          "/images/editorial/sahara-dunes-attraction/merzouga-camel-sunset-mehdi-el-marouazi.jpg",
+          "/images/editorial/sahara-dunes/merzouga-dunes-du-sahara-avril2005-2jpg.jpg"
         ]
       },
       "sal-island": {
@@ -12842,7 +14502,8 @@ export const photoLibrary = {
           "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/037_Cheetah_close-up_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg/1280px-037_Cheetah_close-up_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg",
           "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Serengeti_landscape_%288%29_%2828524158712%29.jpg/1280px-Serengeti_landscape_%288%29_%2828524158712%29.jpg",
           "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/002_Male_Lion_prowling_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg/1280px-002_Male_Lion_prowling_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg",
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Serengeti_National_Park_20_-_Zebra_-_Equus_quagga.jpg/1280px-Serengeti_National_Park_20_-_Zebra_-_Equus_quagga.jpg"
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Serengeti_National_Park_20_-_Zebra_-_Equus_quagga.jpg/1280px-Serengeti_National_Park_20_-_Zebra_-_Equus_quagga.jpg",
+          "/images/editorial/serengeti-national-park/011-the-lion-king-tryggve-in-the-serengeti-national-park-pho.jpg"
         ]
       },
       "sine-saloum-delta": {
@@ -12857,7 +14518,8 @@ export const photoLibrary = {
           "/images/editorial/sine-saloum/mangrove-river-landscape.jpg",
           "/images/editorial/sine-saloum/saloum-birds-in-flight.jpg",
           "/images/editorial/sine-saloum/missirah-delta-shoreline.jpg",
-          "/images/editorial/sine-saloum/saloum-shore-crab.jpg"
+          "/images/editorial/sine-saloum/saloum-shore-crab.jpg",
+          "/images/editorial/sine-saloum-delta/sngal-dans-le-delta-du-sine-saloum-02jpg.jpg"
         ]
       },
       "south-luangwa": {
@@ -12872,7 +14534,8 @@ export const photoLibrary = {
           "/images/editorial/south-luangwa-attraction/south-luangwa-leopard-in-tree-dmitrii-zhodzishskii.jpg",
           "/images/editorial/south-luangwa-attraction/south-luangwa-lion-at-rest-dmitrii-zhodzishskii.jpg",
           "/images/editorial/south-luangwa-attraction/south-luangwa-giraffe-pair-ed-wingate.jpg",
-          "/images/editorial/south-luangwa-attraction/south-luangwa-elephant-tree-dmitrii-zhodzishskii.jpg"
+          "/images/editorial/south-luangwa-attraction/south-luangwa-elephant-tree-dmitrii-zhodzishskii.jpg",
+          "/images/editorial/south-luangwa/loxodonta-africana-south-luangwa-national-park-1jpg.jpg"
         ]
       },
       "tokeh-and-river-no2": {
@@ -12884,7 +14547,11 @@ export const photoLibrary = {
         "gallery": [
           "/images/stock/destinations/tokeh-and-river-no2.jpg",
           "/images/stock/starter/tokeh-and-river-no2.jpg",
-          "/images/editorial/tokeh-and-river-no2/tokeh-aerial-pier-radwan-skeiky.jpg"
+          "/images/editorial/tokeh-and-river-no2/tokeh-aerial-pier-radwan-skeiky.jpg",
+          "/images/editorial/tokeh-and-river-no2/tokeh-beachjpg.jpg",
+          "/images/editorial/tokeh-and-river-no2/beach-in-freetown-sierra-leone-14176784751jpg.jpg",
+          "/images/editorial/tokeh-and-river-no2/banana-islands-sierra-leonejpg.jpg",
+          "/images/editorial/tokeh-and-river-no2/river-no-2-beach-sierra-leonejpg.jpg"
         ]
       },
       "tunis-and-sidi-bou-said": {
@@ -12915,7 +14582,8 @@ export const photoLibrary = {
           "/images/editorial/victoria-falls/victoria-falls-zimbabwe-panorama.jpg",
           "/images/editorial/victoria-falls/victoria-falls-bridge-zambezi.jpg",
           "/images/editorial/victoria-falls/victoria-falls-viewpoint.jpg",
-          "/images/editorial/victoria-falls/victoria-falls-knife-edge-zambia.jpg"
+          "/images/editorial/victoria-falls/victoria-falls-knife-edge-zambia.jpg",
+          "/images/editorial/victoria-falls/mosi-oa-tunya-livingstone-20260519-p1075700jpg.jpg"
         ]
       },
       "nyungwe-national-park": {
@@ -12928,7 +14596,8 @@ export const photoLibrary = {
           "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Mother_chimpanzee_and_its_baby_ready_to_have_a_picture_%2Cfrom_Nyungwe_National_Parc.jpg/1280px-Mother_chimpanzee_and_its_baby_ready_to_have_a_picture_%2Cfrom_Nyungwe_National_Parc.jpg",
           "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Multi-male_unit_of_Rwenzori_colobus_in_Nyungwe_.jpg/1280px-Multi-male_unit_of_Rwenzori_colobus_in_Nyungwe_.jpg",
           "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Sunrisenyungwe.jpg/1280px-Sunrisenyungwe.jpg",
-          "https://upload.wikimedia.org/wikipedia/commons/9/98/Isumo_Waterfall_in_Nyungwe_Forest.jpg"
+          "https://upload.wikimedia.org/wikipedia/commons/9/98/Isumo_Waterfall_in_Nyungwe_Forest.jpg",
+          "/images/editorial/nyungwe-national-park/sunset-over-nyungwe-national-park-rwandajpg.jpg"
         ]
       },
       "great-zimbabwe-national-monument": {
@@ -12976,7 +14645,8 @@ export const photoLibrary = {
           "/images/editorial/zanzibar/zanzibar-beachfront.jpg",
           "/images/editorial/zanzibar/stone-town-aerial.jpg",
           "/images/editorial/zanzibar/jozani-red-colobus.jpg",
-          "/images/editorial/zanzibar/zanzibar-dhow-boats.jpg"
+          "/images/editorial/zanzibar/zanzibar-dhow-boats.jpg",
+          "/images/editorial/zanzibar/nungwi-beach-zanzibarjpg.jpg"
         ]
       },
       "elmina-castle": {
@@ -12989,7 +14659,8 @@ export const photoLibrary = {
           "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Elmina_Castle_%281%29.jpg/1280px-Elmina_Castle_%281%29.jpg",
           "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Elmina_Castle_-_Ghana.jpg/1280px-Elmina_Castle_-_Ghana.jpg",
           "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Elmina_Castle_79.jpg/1280px-Elmina_Castle_79.jpg",
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Elmina_Castle_Museum_%2810_of_22%29.jpg/1280px-Elmina_Castle_Museum_%2810_of_22%29.jpg"
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Elmina_Castle_Museum_%2810_of_22%29.jpg/1280px-Elmina_Castle_Museum_%2810_of_22%29.jpg",
+          "/images/editorial/elmina-castle/elmina-castle---ghanajpg.jpg"
         ]
       },
       "kibale-national-park": {
@@ -13002,7 +14673,8 @@ export const photoLibrary = {
           "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Chimpanzee%2C_Kibale_National_Park%2C_Uganda_%2852938250380%29.jpg/1280px-Chimpanzee%2C_Kibale_National_Park%2C_Uganda_%2852938250380%29.jpg",
           "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/A_road_through_the_green_scenery_of_Kibale_National_Park_in_Western_Uganda_05.jpg/1280px-A_road_through_the_green_scenery_of_Kibale_National_Park_in_Western_Uganda_05.jpg",
           "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Kibale_National_Park_20190920_100942.jpg/1280px-Kibale_National_Park_20190920_100942.jpg",
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Kibale_NP_P1000256.JPG/1280px-Kibale_NP_P1000256.JPG"
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Kibale_NP_P1000256.JPG/1280px-Kibale_NP_P1000256.JPG",
+          "/images/editorial/kibale-national-park/013-alpha-male-chimpanzee-at-kibale-forest-national-park-pho.jpg"
         ]
       },
       "jozani-forest": {
@@ -13015,27 +14687,42 @@ export const photoLibrary = {
           "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Jozani_Forest_%2805810014%29_%288433997901%29.jpg/1280px-Jozani_Forest_%2805810014%29_%288433997901%29.jpg",
           "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Colobo_rojo_de_Zanz%C3%ADbar_%28Piliocolobus_kirkii%29%2C_parque_nacional_de_la_Bah%C3%ADa_Jozani_Chwaka%2C_Zanz%C3%ADbar%2C_Tanzania%2C_2024-06-02%2C_DD_26.jpg/1280px-Colobo_rojo_de_Zanz%C3%ADbar_%28Piliocolobus_kirkii%29%2C_parque_nacional_de_la_Bah%C3%ADa_Jozani_Chwaka%2C_Zanz%C3%ADbar%2C_Tanzania%2C_2024-06-02%2C_DD_26.jpg",
           "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Colobo_rojo_de_Zanz%C3%ADbar_%28Piliocolobus_kirkii%29%2C_parque_nacional_de_la_Bah%C3%ADa_Jozani_Chwaka%2C_Zanz%C3%ADbar%2C_Tanzania%2C_2024-06-02%2C_DD_19.jpg/1280px-Colobo_rojo_de_Zanz%C3%ADbar_%28Piliocolobus_kirkii%29%2C_parque_nacional_de_la_Bah%C3%ADa_Jozani_Chwaka%2C_Zanz%C3%ADbar%2C_Tanzania%2C_2024-06-02%2C_DD_19.jpg",
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Colobo_rojo_de_Zanz%C3%ADbar_%28Piliocolobus_kirkii%29%2C_parque_nacional_de_la_Bah%C3%ADa_Jozani_Chwaka%2C_Zanz%C3%ADbar%2C_Tanzania%2C_2024-06-02%2C_DD_07.jpg/1280px-Colobo_rojo_de_Zanz%C3%ADbar_%28Piliocolobus_kirkii%29%2C_parque_nacional_de_la_Bah%C3%ADa_Jozani_Chwaka%2C_Zanz%C3%ADbar%2C_Tanzania%2C_2024-06-02%2C_DD_07.jpg"
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Colobo_rojo_de_Zanz%C3%ADbar_%28Piliocolobus_kirkii%29%2C_parque_nacional_de_la_Bah%C3%ADa_Jozani_Chwaka%2C_Zanz%C3%ADbar%2C_Tanzania%2C_2024-06-02%2C_DD_07.jpg/1280px-Colobo_rojo_de_Zanz%C3%ADbar_%28Piliocolobus_kirkii%29%2C_parque_nacional_de_la_Bah%C3%ADa_Jozani_Chwaka%2C_Zanz%C3%ADbar%2C_Tanzania%2C_2024-06-02%2C_DD_07.jpg",
+          "/images/editorial/jozani-forest/trail-palms-mahogany-jozani-zanzibar-oct26-a7r-06886jpg.jpg"
         ]
       }
     },
     "countries": {
       "algeria": {
-        "hero_image_url": "/images/editorial/algeria/camel-in-tassili-abdallahdjabi.jpg",
-        "hero_image_alt": "Camel on a rocky track in Tassili n'Ajjer near Djanet, Algeria",
-        "replaces": [],
+        "hero_image_url": "/images/editorial/algeria-country/hoggar-mountains.jpg",
+        "hero_image_alt": "The Ahaggar Mountains in the Sahara of southern Algeria.",
+        "replaces": [
+          "C:/Program Files/Git/images/editorial/algeria/camel-in-tassili-abdallahdjabi.jpg"
+        ],
         "gallery": [
-          "/images/editorial/algeria/camel-in-tassili-abdallahdjabi.jpg",
-          "/images/editorial/algeria/red-tadrart-orange-sand-algeria.jpeg"
+          "/images/editorial/algeria-country/algiers-cemetery.jpg",
+          "/images/editorial/algeria-country/algiers-doors.jpg",
+          "/images/editorial/algeria-country/constantine-medersa.jpg",
+          "/images/editorial/algeria-country/hoggar-mountains.jpg",
+          "/images/editorial/algeria-country/tassili-cave-painting.jpg",
+          "/images/editorial/algeria-country/tassili-nomad.jpg",
+          "/images/editorial/algeria-country/teffedest-desert.jpg"
         ]
       },
       "benin": {
-        "hero_image_url": "/images/stock/destinations/ouidah-and-ganvie.jpg",
-        "hero_image_alt": "Benin village on water Ganvié",
-        "replaces": [],
+        "hero_image_url": "/images/editorial/benin-country/ganvie-village.jpg",
+        "hero_image_alt": "The stilt village of Ganvié on Lake Nokoué in Benin.",
+        "replaces": [
+          "C:/Program Files/Git/images/stock/destinations/ouidah-and-ganvie.jpg"
+        ],
         "gallery": [
-          "/images/stock/destinations/ouidah-and-ganvie.jpg",
-          "/images/stock/starter/ouidah-and-ganvie.jpg"
+          "/images/editorial/benin-country/cotonou-fish-market.jpg",
+          "/images/editorial/benin-country/ganvie-pirogue.jpg",
+          "/images/editorial/benin-country/ganvie-village.jpg",
+          "/images/editorial/benin-country/mono-river-pirogue.jpg",
+          "/images/editorial/benin-country/ouidah-beach-1.jpg",
+          "/images/editorial/benin-country/ouidah-beach-2.jpg",
+          "/images/editorial/benin-country/ouidah-beach-3.jpg"
         ]
       },
       "botswana": {
@@ -13052,12 +14739,19 @@ export const photoLibrary = {
         ]
       },
       "cabo-verde": {
-        "hero_image_url": "/images/stock/destinations/sal-island.jpg",
-        "hero_image_alt": "Fishing boats Santa Maria, Sal, Cape Verde (4334013911)",
-        "replaces": [],
+        "hero_image_url": "/images/editorial/cabo-verde-country/santa-maria-wreck-1.jpg",
+        "hero_image_alt": "The shipwreck of the Cabo de Santa Maria on the beach of Sal Island.",
+        "replaces": [
+          "C:/Program Files/Git/images/stock/destinations/sal-island.jpg"
+        ],
         "gallery": [
-          "/images/stock/destinations/sal-island.jpg",
-          "/images/stock/starter/sal-island.jpg"
+          "/images/editorial/cabo-verde-country/fogo-sao-filipe.jpg",
+          "/images/editorial/cabo-verde-country/mindelo-2.jpg",
+          "/images/editorial/cabo-verde-country/mindelo.jpg",
+          "/images/editorial/cabo-verde-country/sal-cistanche.jpg",
+          "/images/editorial/cabo-verde-country/sal-salt-pans.jpg",
+          "/images/editorial/cabo-verde-country/santa-maria-wreck-1.jpg",
+          "/images/editorial/cabo-verde-country/santa-maria-wreck-2.jpg"
         ]
       },
       "egypt": {
@@ -13075,30 +14769,51 @@ export const photoLibrary = {
         ]
       },
       "ethiopia": {
-        "hero_image_url": "/images/stock/destinations/lalibela.jpg",
-        "hero_image_alt": "Bete Giyorgis 03",
-        "replaces": [],
+        "hero_image_url": "/images/editorial/ethiopia-country/lalibela-sunset.jpg",
+        "hero_image_alt": "The Church of Saint George in Lalibela, Ethiopia, at sunset.",
+        "replaces": [
+          "C:/Program Files/Git/images/stock/destinations/lalibela.jpg"
+        ],
         "gallery": [
-          "/images/stock/destinations/lalibela.jpg",
-          "/images/stock/starter/lalibela.jpg"
+          "/images/editorial/ethiopia-country/dallol-desert.jpg",
+          "/images/editorial/ethiopia-country/danakil-salt-mining.jpg",
+          "/images/editorial/ethiopia-country/gelada-female-baby.jpg",
+          "/images/editorial/ethiopia-country/gelada-male.jpg",
+          "/images/editorial/ethiopia-country/lalibela-sunset.jpg",
+          "/images/editorial/ethiopia-country/simien-mountains-1.jpg",
+          "/images/editorial/ethiopia-country/simien-mountains-2.jpg"
         ]
       },
       "ghana": {
-        "hero_image_url": "/images/stock/destinations/cape-coast-kakum.jpg",
-        "hero_image_alt": "CAPE COAST CASTLE, GHANA",
-        "replaces": [],
+        "hero_image_url": "/images/editorial/ghana-country/cape-coast-castle-1.jpg",
+        "hero_image_alt": "Cape Coast Castle, a historic fortification in Ghana.",
+        "replaces": [
+          "C:/Program Files/Git/images/stock/destinations/cape-coast-kakum.jpg"
+        ],
         "gallery": [
-          "/images/stock/destinations/cape-coast-kakum.jpg",
-          "/images/stock/starter/cape-coast-kakum.jpg"
+          "/images/editorial/ghana-country/accra-market.jpg",
+          "/images/editorial/ghana-country/cape-coast-castle-1.jpg",
+          "/images/editorial/ghana-country/cape-coast-castle-2.jpg",
+          "/images/editorial/ghana-country/jamestown-accra.jpg",
+          "/images/editorial/ghana-country/kente-designs.jpg",
+          "/images/editorial/ghana-country/mole-national-park.jpg",
+          "/images/editorial/ghana-country/traditional-kente.jpg"
         ]
       },
       "kenya": {
-        "hero_image_url": "/images/stock/destinations/amboseli-national-park.jpg",
-        "hero_image_alt": "A lone Elephant at Amboseli",
-        "replaces": [],
+        "hero_image_url": "/images/editorial/kenya-country/masai-mara-lions.jpg",
+        "hero_image_alt": "A family of lions resting together in the Masai Mara in Kenya.",
+        "replaces": [
+          "C:/Program Files/Git/images/stock/destinations/amboseli-national-park.jpg"
+        ],
         "gallery": [
-          "/images/stock/destinations/amboseli-national-park.jpg",
-          "/images/stock/starter/amboseli-national-park.jpg"
+          "/images/editorial/kenya-country/diani-beach.jpg",
+          "/images/editorial/kenya-country/giraffe-manor-nairobi.jpg",
+          "/images/editorial/kenya-country/mara-river-crossing.jpg",
+          "/images/editorial/kenya-country/masai-mara-lions.jpg",
+          "/images/editorial/kenya-country/masai-mara-zebras.jpg",
+          "/images/editorial/kenya-country/mount-kenya.jpg",
+          "/images/editorial/kenya-country/three-giraffes.jpg"
         ]
       },
       "morocco": {
@@ -13130,12 +14845,20 @@ export const photoLibrary = {
         ]
       },
       "rwanda": {
-        "hero_image_url": "/images/stock/destinations/volcanoes-national-park.jpg",
-        "hero_image_alt": "Kinigi, Ruanda (46266779462)",
-        "replaces": [],
+        "hero_image_url": "/images/editorial/rwanda-country/gorilla-yawn.jpg",
+        "hero_image_alt": "A mountain gorilla yawning in the Volcanoes National Park of Rwanda.",
+        "replaces": [
+          "C:/Program Files/Git/images/stock/destinations/volcanoes-national-park.jpg"
+        ],
         "gallery": [
-          "/images/stock/destinations/volcanoes-national-park.jpg",
-          "/images/stock/starter/volcanoes-national-park.jpg"
+          "/images/editorial/rwanda-country/gorilla-yawn.jpg",
+          "/images/editorial/rwanda-country/kigali-city.jpg",
+          "/images/editorial/rwanda-country/kigali-genocide-monument.jpg",
+          "/images/editorial/rwanda-country/lake-kivu-dawn.jpg",
+          "/images/editorial/rwanda-country/lake-kivu-island.jpg",
+          "/images/editorial/rwanda-country/muhabura-volcano.jpg",
+          "/images/editorial/rwanda-country/nyungwe-sunset.jpg",
+          "/images/editorial/rwanda-country/tavurvur-volcano.jpg"
         ]
       },
       "senegal": {
@@ -13182,21 +14905,35 @@ export const photoLibrary = {
         ]
       },
       "tanzania": {
-        "hero_image_url": "/images/stock/destinations/serengeti-national-park.jpg",
-        "hero_image_alt": "004 Sunrise at Serengeti National Park Photo by Giles Laurent",
-        "replaces": [],
+        "hero_image_url": "/images/editorial/tanzania-country/serengeti-lion.jpg",
+        "hero_image_alt": "A male lion in the Serengeti National Park in Tanzania.",
+        "replaces": [
+          "C:/Program Files/Git/images/stock/destinations/serengeti-national-park.jpg"
+        ],
         "gallery": [
-          "/images/stock/destinations/serengeti-national-park.jpg",
-          "/images/stock/starter/serengeti-national-park.jpg"
+          "/images/editorial/tanzania-country/kilimanjaro-amboseli.jpg",
+          "/images/editorial/tanzania-country/ngorongoro-rhino.jpg",
+          "/images/editorial/tanzania-country/serengeti-elephant-bull.jpg",
+          "/images/editorial/tanzania-country/serengeti-elephant-herd.jpg",
+          "/images/editorial/tanzania-country/serengeti-lion.jpg",
+          "/images/editorial/tanzania-country/zanzibar-anemone.jpg",
+          "/images/editorial/tanzania-country/zanzibar-coral.jpg"
         ]
       },
       "tunisia": {
-        "hero_image_url": "/images/stock/destinations/tunis-and-sidi-bou-said.jpg",
-        "hero_image_alt": "Cafe des delices in Sidi Bou Said",
-        "replaces": [],
+        "hero_image_url": "/images/editorial/tunisia-country/el-djem-amphitheater.jpg",
+        "hero_image_alt": "The massive Roman amphitheatre at El Jem in Tunisia.",
+        "replaces": [
+          "C:/Program Files/Git/images/stock/destinations/tunis-and-sidi-bou-said.jpg"
+        ],
         "gallery": [
-          "/images/stock/destinations/tunis-and-sidi-bou-said.jpg",
-          "/images/stock/starter/tunis-and-sidi-bou-said.jpg"
+          "/images/editorial/tunisia-country/el-djem-amphitheater-hdr.jpg",
+          "/images/editorial/tunisia-country/el-djem-amphitheater.jpg",
+          "/images/editorial/tunisia-country/kairouan-mosque-mihrab.jpg",
+          "/images/editorial/tunisia-country/kairouan-mosque-minaret.jpg",
+          "/images/editorial/tunisia-country/sousse-mosque.jpg",
+          "/images/editorial/tunisia-country/sousse-sailing-ship.jpg",
+          "/images/editorial/tunisia-country/toujane-landscape.jpg"
         ]
       },
       "uganda": {
@@ -13214,12 +14951,19 @@ export const photoLibrary = {
         ]
       },
       "zambia": {
-        "hero_image_url": "/images/stock/destinations/south-luangwa.jpg",
-        "hero_image_alt": "Luangwa River",
-        "replaces": [],
+        "hero_image_url": "/images/editorial/zambia-country/luangwa-elephant.jpg",
+        "hero_image_alt": "An elephant in South Luangwa National Park in Zambia.",
+        "replaces": [
+          "C:/Program Files/Git/images/stock/destinations/south-luangwa.jpg"
+        ],
         "gallery": [
-          "/images/stock/destinations/south-luangwa.jpg",
-          "/images/stock/starter/south-luangwa.jpg"
+          "/images/editorial/zambia-country/elephant-back-safari.jpg",
+          "/images/editorial/zambia-country/kafue-safari-road.jpg",
+          "/images/editorial/zambia-country/luangwa-elephant.jpg",
+          "/images/editorial/zambia-country/luangwa-hyena.jpg",
+          "/images/editorial/zambia-country/luangwa-lion-cub.jpg",
+          "/images/editorial/zambia-country/luangwa-zebras.jpg",
+          "/images/editorial/zambia-country/victoria-falls.jpg"
         ]
       },
       "zimbabwe": {
@@ -13243,7 +14987,14 @@ export const photoLibrary = {
         "replaces": [],
         "gallery": [
           "/images/stock/destinations/amboseli-national-park.jpg",
-          "/images/stock/starter/amboseli-national-park.jpg"
+          "/images/stock/starter/amboseli-national-park.jpg",
+          "/images/editorial/east-africa-region/mount-kilimanjaro-dec-2009-edit1jpg.jpg",
+          "/images/editorial/east-africa-region/sail-boat-sunset-stone-town-zanzibar-oct26-om3-1123jpg.jpg",
+          "/images/editorial/east-africa-region/maasai-mara-wildebeest-migrationsjpg.jpg",
+          "/images/editorial/east-africa-region/zebras-and-wildebeest-maasai-marajpg.jpg",
+          "/images/editorial/east-africa-region/zebras-ngorongoro-craterjpg.jpg",
+          "/images/editorial/east-africa-region/013-black-backed-jackal-in-the-ngorongoro-crater-photo-by-gi.jpg",
+          "/images/editorial/east-africa-region/gorila-de-montaa-gorilla-beringei-beringei-parque-nacional-d.jpg"
         ]
       },
       "west-africa": {
@@ -13252,7 +15003,14 @@ export const photoLibrary = {
         "replaces": [],
         "gallery": [
           "/images/stock/destinations/cape-coast-kakum.jpg",
-          "/images/stock/starter/cape-coast-kakum.jpg"
+          "/images/stock/starter/cape-coast-kakum.jpg",
+          "/images/editorial/west-africa-region/castle-cape-coast-p1100221jpg.jpg",
+          "/images/editorial/west-africa-region/castle-cape-coast-p1100223jpg.jpg",
+          "/images/editorial/west-africa-region/le-de-gore-vue-de-la-chaloupe-15jpg.jpg",
+          "/images/editorial/west-africa-region/ctes-de-lle-de-gore-au-sngal-11jpg.jpg",
+          "/images/editorial/west-africa-region/pointe-des-almadies---senegaljpg.jpg",
+          "/images/editorial/west-africa-region/street-at-dusk-in-ouidah-benin-jan-2018jpg.jpg",
+          "/images/editorial/west-africa-region/ganvi-fishing-village-on-stilts-in-benin-10282059623-2jpg.jpg"
         ]
       },
       "southern-africa": {
@@ -13261,7 +15019,14 @@ export const photoLibrary = {
         "replaces": [],
         "gallery": [
           "/images/stock/destinations/cape-town.jpg",
-          "/images/stock/destinations/kruger-national-park.jpg"
+          "/images/stock/destinations/kruger-national-park.jpg",
+          "/images/editorial/southern-africa-region/cape-town-za-table-mountain----2024----2825jpg.jpg",
+          "/images/editorial/southern-africa-region/cebras-de-burchell-equus-quagga-burchellii-vista-area-del-de.jpg",
+          "/images/editorial/southern-africa-region/jabir-africano-ephippiorhynchus-senegalensis-delta-del-okava.jpg",
+          "/images/editorial/southern-africa-region/sossusvlei-namibia-2018-08-06-dd-040jpg.jpg",
+          "/images/editorial/southern-africa-region/thorn-tree-sossusvlei-namib-desert-namibia-luca-galuzzi-2004.JPG",
+          "/images/editorial/southern-africa-region/cataratas-victoria-zambia-zimbabue-2018-07-27-dd-30-34-panjp.jpg",
+          "/images/editorial/southern-africa-region/kruger-national-park-za-giraffe----2024----0431jpg.jpg"
         ]
       },
       "northern-africa": {
@@ -13270,7 +15035,14 @@ export const photoLibrary = {
         "replaces": [],
         "gallery": [
           "/images/stock/destinations/cairo-and-giza.jpg",
-          "/images/stock/starter/cairo-and-giza.jpg"
+          "/images/stock/starter/cairo-and-giza.jpg",
+          "/images/editorial/northern-africa-region/jamaa-el-fna-marrakesh-morocco-20250124-1804-7017jpg.jpg",
+          "/images/editorial/northern-africa-region/drawing-a-henna-jemaa-el-fnaa-marrakesh-jpg.jpg",
+          "/images/editorial/northern-africa-region/all-gizah-pyramidsjpg.jpg",
+          "/images/editorial/northern-africa-region/door-in-the-medina-of-tunis-03jpg.jpg",
+          "/images/editorial/northern-africa-region/sand-dunes-in-the-sahara-desert-on-the-border-of-algeria-and.jpg",
+          "/images/editorial/northern-africa-region/abricot-march-de-la-casbah-dalgerjpg.JPG",
+          "/images/editorial/northern-africa-region/architectural-and-cultural-heritage-of-the-casbah-of-algiers.jpg"
         ]
       }
     },
@@ -13297,7 +15069,8 @@ export const photoLibrary = {
           "/images/editorial/maasai-mara-balloon-safari/maasai-mara-balloon-aerial-zebari-visuals.jpg",
           "/images/editorial/maasai-mara-balloon-safari/maasai-mara-balloon-flight-sneha-cecil.jpg",
           "/images/editorial/maasai-mara-balloon-safari/maasai-mara-balloon-wildebeest-jason-hafso.jpg",
-          "/images/editorial/maasai-mara-balloon-safari/maasai-mara-dawn-launch-david-clode.jpg"
+          "/images/editorial/maasai-mara-balloon-safari/maasai-mara-dawn-launch-david-clode.jpg",
+          "/images/editorial/maasai-mara-balloon-safari/hot-air-balloon-safari-in-maasai-marajpg.jpg"
         ]
       },
       "bwindi-gorilla-trekking": {
@@ -13312,7 +15085,8 @@ export const photoLibrary = {
           "/images/editorial/bwindi-gorilla-trekking/bwindi-gorilla-nathalie-lays.jpg",
           "/images/editorial/bwindi-gorilla-trekking/bwindi-mother-juvenile-2h-media.jpg",
           "/images/editorial/bwindi-gorilla-trekking/bwindi-gorilla-closeup-gabriel-schumacher.jpg",
-          "/images/editorial/bwindi-gorilla-trekking/bwindi-gorillas-2017-ylenia-vimercati-molano.jpg"
+          "/images/editorial/bwindi-gorilla-trekking/bwindi-gorillas-2017-ylenia-vimercati-molano.jpg",
+          "/images/editorial/bwindi-gorilla-trekking/mountain-gorilla-gorilla-beringei-beringei-eatingjpg.jpg"
         ]
       },
       "amboseli-game-drive-safari": {
@@ -13356,7 +15130,8 @@ export const photoLibrary = {
           "/images/editorial/serengeti-balloon-safari/balloon-over-serengeti-plain.jpg",
           "/images/editorial/serengeti-balloon-safari/seronera-balloon-on-field.jpg",
           "/images/editorial/serengeti-balloon-safari/serengeti-balloon-dawn.jpg",
-          "/images/editorial/serengeti-balloon-safari/serengeti-balloon-national-park.jpg"
+          "/images/editorial/serengeti-balloon-safari/serengeti-balloon-national-park.jpg",
+          "/images/editorial/serengeti-balloon-safari/serengeti-balloonjpg.jpg"
         ]
       },
       "table-mountain-guided-hike": {
@@ -13371,7 +15146,8 @@ export const photoLibrary = {
           "/images/editorial/table-mountain-guided-hike/platteklip-upper-view-2018.jpg",
           "/images/editorial/table-mountain-guided-hike/table-mountain-trailhead-sign-2018.jpg",
           "/images/editorial/table-mountain-guided-hike/platteklip-gorge-trail-2018.jpg",
-          "/images/editorial/table-mountain-guided-hike/table-mountain-platteklip-view-2018.jpg"
+          "/images/editorial/table-mountain-guided-hike/table-mountain-platteklip-view-2018.jpg",
+          "/images/editorial/table-mountain-guided-hike/rock-path-on-platteklip-gorge-trail-table-mountain-in-cape-t.jpg"
         ]
       },
       "cape-coast-kakum-guided-visit": {
@@ -13461,7 +15237,8 @@ export const photoLibrary = {
           "/images/editorial/marrakech-food-walk/juice-vendor-jemaa.jpg",
           "/images/editorial/marrakech-food-walk/spice-market-marrakech.jpg",
           "/images/editorial/marrakech-food-walk/medina-street.jpg",
-          "/images/editorial/marrakech-food-walk/fruit-stalls-square.jpg"
+          "/images/editorial/marrakech-food-walk/fruit-stalls-square.jpg",
+          "/images/editorial/marrakech-medina-street-food-tour/djemaa-el-fna-marrakech-morocco-5423734940-6jpg.jpg"
         ]
       },
       "victoria-falls-zambezi-white-water-rafting": {
@@ -13525,7 +15302,8 @@ export const photoLibrary = {
           "/images/editorial/kruger-game-drive/kruger-road-home-eason-2017.jpg",
           "/images/editorial/kruger-game-drive/kruger-skukuza-lunch-eason-2017.jpg",
           "/images/editorial/kruger-game-drive/kruger-skukuza-camp-flowcomm-2017.jpg",
-          "/images/editorial/kruger-game-drive/kruger-lake-panic-dupont-2021.jpg"
+          "/images/editorial/kruger-game-drive/kruger-lake-panic-dupont-2021.jpg",
+          "/images/editorial/kruger-national-park-game-drive/kruger-national-park-34165272663jpg.jpg"
         ]
       }
     },
@@ -13958,84 +15736,208 @@ export const photoLibrary = {
     },
     "travel_articles": {
       "uganda-vs-kenya-first-time-safari": {
-        "hero_image_url": "/images/stock/destinations/bwindi-impenetrable-national-park.jpg",
-        "hero_image_alt": "Bwindi Impenetrable National Park 02",
+        "hero_image_url": "/images/editorial/uganda-vs-kenya-first-time-safari/bwindi-gorilla.jpg",
+        "hero_image_alt": "A mountain gorilla in the Bwindi Impenetrable National Park in Uganda.",
         "replaces": [
-          "/images/stock/destinations/bwindi-impenetrable-national-park.jpg"
+          "C:/Program Files/Git/images/stock/destinations/bwindi-impenetrable-national-park"
+        ],
+        "gallery": [
+          "/images/editorial/uganda-vs-kenya-first-time-safari/bwindi-gorilla.jpg",
+          "/images/editorial/uganda-vs-kenya-first-time-safari/masai-mara-river-crossing.jpg",
+          "/images/editorial/uganda-vs-kenya-first-time-safari/masai-mara-zebras.jpg",
+          "/images/editorial/uganda-vs-kenya-first-time-safari/mount-kenya-alpine.jpg",
+          "/images/editorial/uganda-vs-kenya-first-time-safari/mount-kenya-skyline.jpg",
+          "/images/editorial/uganda-vs-kenya-first-time-safari/ruhija-landscape-uganda.jpg",
+          "/images/editorial/uganda-vs-kenya-first-time-safari/uganda-mountain-landscape.jpg"
         ]
       },
       "combine-serengeti-and-zanzibar": {
-        "hero_image_url": "/images/stock/destinations/zanzibar.jpg",
-        "hero_image_alt": "Beach Scene at Mtoni Marine - Outside Stone Town - Zanzibar - Tanzania (8869338564)",
+        "hero_image_url": "/images/editorial/combine-serengeti-and-zanzibar/safari-tanzania-landscape.jpg",
+        "hero_image_alt": "Safari vehicle crossing the Serengeti plains in Tanzania.",
         "replaces": [
           "/images/stock/destinations/zanzibar.jpg"
+        ],
+        "gallery": [
+          "/images/editorial/combine-serengeti-and-zanzibar/safari-tanzania-landscape.jpg",
+          "/images/editorial/combine-serengeti-and-zanzibar/serengeti-sunrise.jpg",
+          "/images/editorial/combine-serengeti-and-zanzibar/masai-giraffe-serengeti.jpg",
+          "/images/editorial/combine-serengeti-and-zanzibar/giraffes-kogatende-serengeti.jpg",
+          "/images/editorial/combine-serengeti-and-zanzibar/elephant-bull-serengeti.jpg",
+          "/images/editorial/combine-serengeti-and-zanzibar/nungwi-beach-view.jpg",
+          "/images/editorial/combine-serengeti-and-zanzibar/nungwi-beach-bathers.jpg",
+          "/images/editorial/combine-serengeti-and-zanzibar/dhow-boat-zanzibar.jpg",
+          "/images/editorial/combine-serengeti-and-zanzibar/stone-town-sailboat-sunset.jpg"
         ]
       },
       "best-time-southern-africa": {
-        "hero_image_url": "/images/stock/destinations/okavango-delta.jpg",
-        "hero_image_alt": "Okavango Delta, Botswana",
+        "hero_image_url": "/images/editorial/best-time-southern-africa/table-mountain-cape-town.jpg",
+        "hero_image_alt": "Table Mountain rising above Cape Town in South Africa.",
         "replaces": [
           "/images/stock/destinations/okavango-delta.jpg"
+        ],
+        "gallery": [
+          "/images/editorial/best-time-southern-africa/table-mountain-cape-town.jpg",
+          "/images/editorial/best-time-southern-africa/victoria-falls.jpg",
+          "/images/editorial/best-time-southern-africa/okavango-delta-zebras-aerial.jpg",
+          "/images/editorial/best-time-southern-africa/chobe-elephants-botswana.jpg",
+          "/images/editorial/best-time-southern-africa/kruger-elephant.jpg",
+          "/images/editorial/best-time-southern-africa/kruger-giraffe.jpg",
+          "/images/editorial/best-time-southern-africa/elephant-herd-zimbabwe.jpg",
+          "/images/editorial/best-time-southern-africa/sossusvlei-thorn-tree.jpg",
+          "/images/editorial/best-time-southern-africa/sossusvlei-namib-desert.jpg"
         ]
       },
       "cape-town-before-or-after-safari": {
-        "hero_image_url": "/images/stock/destinations/cape-town.jpg",
-        "hero_image_alt": "Cape Town - Table Mountain seen from Company's Garden",
+        "hero_image_url": "/images/editorial/cape-town-before-or-after-safari/table-mountain-cape-town.jpg",
+        "hero_image_alt": "Table Mountain rising above Cape Town in South Africa.",
         "replaces": [
-          "/images/stock/destinations/cape-town.jpg"
+          "C:/Program Files/Git/images/stock/destinations/cape-town.jpg"
+        ],
+        "gallery": [
+          "/images/editorial/cape-town-before-or-after-safari/boulders-beach-penguin-colony.jpg",
+          "/images/editorial/cape-town-before-or-after-safari/boulders-beach-penguins.jpg",
+          "/images/editorial/cape-town-before-or-after-safari/cape-town-city-bowl.jpg",
+          "/images/editorial/cape-town-before-or-after-safari/cape-town-waterfront.jpg",
+          "/images/editorial/cape-town-before-or-after-safari/cape-winelands-stellenbosch.jpg",
+          "/images/editorial/cape-town-before-or-after-safari/safari-giraffe-sabi-sand.jpg",
+          "/images/editorial/cape-town-before-or-after-safari/safari-lion-sabi-sand.jpg",
+          "/images/editorial/cape-town-before-or-after-safari/table-mountain-cape-town.jpg"
         ]
       },
       "morocco-sahara-itinerary": {
-        "hero_image_url": "/images/stock/destinations/sahara-dunes.jpg",
-        "hero_image_alt": "Camel Tour on Erg Chebbi riding across the dunes",
+        "hero_image_url": "/images/editorial/morocco-sahara-itinerary/sahara-dunes-morocco.jpg",
+        "hero_image_alt": "Golden sand dunes of the Sahara Desert in Morocco at sunset.",
         "replaces": [
-          "https://images.unsplash.com/photo-1489493887464-892be6d1daae?auto=format&fit=crop&w=900&q=80"
+          "https://images.unsplash.com/photo-1489493887464-892be6d1daae"
+        ],
+        "gallery": [
+          "/images/editorial/morocco-sahara-itinerary/camel-trek-zagora.jpg",
+          "/images/editorial/morocco-sahara-itinerary/chefchaouen-blue-streets.jpg",
+          "/images/editorial/morocco-sahara-itinerary/chefchaouen-inhabitants.jpg",
+          "/images/editorial/morocco-sahara-itinerary/djebel-ayachi-atlas.jpg",
+          "/images/editorial/morocco-sahara-itinerary/high-atlas-mountains.jpg",
+          "/images/editorial/morocco-sahara-itinerary/jemaa-el-fna-marrakesh.jpg",
+          "/images/editorial/morocco-sahara-itinerary/kasbah-amridil.jpg",
+          "/images/editorial/morocco-sahara-itinerary/ksar-taourirt-ouarzazate.jpg",
+          "/images/editorial/morocco-sahara-itinerary/sahara-desert-morocco.jpg",
+          "/images/editorial/morocco-sahara-itinerary/sahara-dunes-morocco.jpg"
         ]
       },
       "cairo-giza-without-burning-out": {
-        "hero_image_url": "/images/stock/destinations/cairo-and-giza.jpg",
-        "hero_image_alt": "All Gizah Pyramids",
+        "hero_image_url": "/images/editorial/cairo-giza-without-burning-out/giza-pyramids.jpg",
+        "hero_image_alt": "The pyramids of Giza standing against the Egyptian desert sky.",
         "replaces": [
-          "https://images.unsplash.com/photo-1539768942893-daf53e448371?auto=format&fit=crop&w=900&q=80"
+          "https://images.unsplash.com/photo-1539768942893-daf53e448371"
+        ],
+        "gallery": [
+          "/images/editorial/cairo-giza-without-burning-out/cairo-citadel-scenes.jpg",
+          "/images/editorial/cairo-giza-without-burning-out/cairo-skyline-nile.jpg",
+          "/images/editorial/cairo-giza-without-burning-out/citadel-cairo.jpg",
+          "/images/editorial/cairo-giza-without-burning-out/coptic-church-cairo.jpg",
+          "/images/editorial/cairo-giza-without-burning-out/giza-pyramids.jpg",
+          "/images/editorial/cairo-giza-without-burning-out/hanging-church-cairo.jpg",
+          "/images/editorial/cairo-giza-without-burning-out/khan-el-khalili-cairo.jpg"
         ]
       },
       "africa-trip-safety-basics": {
-        "hero_image_url": "/images/stock/destinations/maasai-mara.jpg",
-        "hero_image_alt": "Acacia tree on Maasai Mara landscape, Kenya",
+        "hero_image_url": "/images/editorial/africa-trip-safety-basics/safari-sunset.jpg",
+        "hero_image_alt": "A safari scene silhouetted against an African sunset.",
         "replaces": [
-          "https://images.unsplash.com/photo-1527631746610-bca00a040d60?auto=format&fit=crop&w=900&q=80"
+          "C:/Program Files/Git/images/stock/destinations/maasai-mara.jpg"
+        ],
+        "gallery": [
+          "/images/editorial/africa-trip-safety-basics/african-market-sunrise.jpg",
+          "/images/editorial/africa-trip-safety-basics/african-market.jpg",
+          "/images/editorial/africa-trip-safety-basics/airport-aircraft-spotters.jpg",
+          "/images/editorial/africa-trip-safety-basics/safari-sunset.jpg",
+          "/images/editorial/africa-trip-safety-basics/safari-vehicles-pilanesberg.jpg",
+          "/images/editorial/africa-trip-safety-basics/uganda-road-trip-lunch.jpg",
+          "/images/editorial/africa-trip-safety-basics/uganda-road-trip.jpg"
         ]
       },
       "cultural-etiquette-local-communities": {
-        "hero_image_url": "/images/stock/destinations/ouidah-and-ganvie.jpg",
-        "hero_image_alt": "Benin village on water Ganvié",
+        "hero_image_url": "/images/editorial/cultural-etiquette-local-communities/maasai-village.jpg",
+        "hero_image_alt": "A traditional Maasai village with its characteristic homesteads.",
         "replaces": [
-          "https://images.unsplash.com/photo-1509099836639-18ba1795216d?auto=format&fit=crop&w=900&q=80"
+          "C:/Program Files/Git/images/stock/destinations/ouidah-and-ganvie.jpg"
+        ],
+        "gallery": [
+          "/images/editorial/cultural-etiquette-local-communities/african-traditional-dance.jpg",
+          "/images/editorial/cultural-etiquette-local-communities/lekki-craft-market.jpg",
+          "/images/editorial/cultural-etiquette-local-communities/maasai-village-people.jpg",
+          "/images/editorial/cultural-etiquette-local-communities/maasai-village.jpg",
+          "/images/editorial/cultural-etiquette-local-communities/rosebank-craft-market.jpg",
+          "/images/editorial/cultural-etiquette-local-communities/rwandan-dance.jpg",
+          "/images/editorial/cultural-etiquette-local-communities/zulu-reed-dance-ceremony.jpg"
         ]
       },
       "ghana-senegal-slow-travel": {
-        "hero_image_url": "/images/stock/destinations/cape-coast-kakum.jpg",
-        "hero_image_alt": "CAPE COAST CASTLE, GHANA",
+        "hero_image_url": "/images/editorial/ghana-senegal-slow-travel/cape-coast-castle.jpg",
+        "hero_image_alt": "The historic Cape Coast Castle in Ghana overlooking the Atlantic.",
         "replaces": [
-          "https://images.unsplash.com/photo-1598875706250-21faaf804361?auto=format&fit=crop&w=900&q=80"
+          "C:/Program Files/Git/images/stock/destinations/cape-coast-kakum.jpg"
+        ],
+        "gallery": [
+          "/images/editorial/ghana-senegal-slow-travel/cape-coast-castle.jpg",
+          "/images/editorial/ghana-senegal-slow-travel/dakar-sunset-gorree.jpg",
+          "/images/editorial/ghana-senegal-slow-travel/ghana-street-market.jpg",
+          "/images/editorial/ghana-senegal-slow-travel/kente-weaving-ghana.jpg",
+          "/images/editorial/ghana-senegal-slow-travel/kente-weaving-northern-ghana.jpg",
+          "/images/editorial/ghana-senegal-slow-travel/lac-rose-senegal.jpg",
+          "/images/editorial/ghana-senegal-slow-travel/pointe-almadies-senegal.jpg",
+          "/images/editorial/ghana-senegal-slow-travel/poultry-market-ghana.jpg"
         ]
       },
       "plan-kibale-around-chimpanzee-trek": {
-        "hero_image_url": "https://trekafricaguide.com/images/editorial/plan-kibale-around-chimp-trek/kibale-chimpanzees-2020.jpg",
-        "hero_image_alt": "A chimpanzee in Kibale National Park, photographed January 2020.",
-        "replaces": []
+        "hero_image_url": "/images/editorial/plan-kibale-around-chimpanzee-trek/kibale-chimpanzee.jpg",
+        "hero_image_alt": "A chimpanzee in the Kibale Forest National Park in Uganda.",
+        "replaces": [
+          "https://trekafricaguide.com/images/editorial/plan-kibale-around-chimp-trek/kibale-chimpanzees-2020.jpg"
+        ],
+        "gallery": [
+          "/images/editorial/plan-kibale-around-chimpanzee-trek/chimpanzee-feeding.jpg",
+          "/images/editorial/plan-kibale-around-chimpanzee-trek/fort-portal-street.jpg",
+          "/images/editorial/plan-kibale-around-chimpanzee-trek/kibale-alpha-chimpanzee.jpg",
+          "/images/editorial/plan-kibale-around-chimpanzee-trek/kibale-chimpanzee.jpg",
+          "/images/editorial/plan-kibale-around-chimpanzee-trek/kibale-chimpanzees-group.jpg",
+          "/images/editorial/plan-kibale-around-chimpanzee-trek/kibale-sunbird.jpg",
+          "/images/editorial/plan-kibale-around-chimpanzee-trek/kibale-turaco.jpg"
+        ]
       },
       "plan-first-east-africa-safari": {
-        "hero_image_url": "/images/stock/destinations/maasai-mara.jpg",
-        "hero_image_alt": "Acacia tree on Maasai Mara landscape, Kenya",
+        "hero_image_url": "/images/editorial/plan-first-east-africa-safari/wildebeest-migration-serengeti.jpg",
+        "hero_image_alt": "Wildebeest crossing the Grumeti River during the annual migration in the Serengeti.",
         "replaces": [
           "/images/stock/destinations/maasai-mara.jpg"
+        ],
+        "gallery": [
+          "/images/editorial/plan-first-east-africa-safari/wildebeest-migration-serengeti.jpg",
+          "/images/editorial/plan-first-east-africa-safari/blue-wildebeest-serengeti.jpg",
+          "/images/editorial/plan-first-east-africa-safari/juvenile-wildebeest-serengeti.jpg",
+          "/images/editorial/plan-first-east-africa-safari/wattled-starling-serengeti.jpg",
+          "/images/editorial/plan-first-east-africa-safari/zebras-ngorongoro-crater.jpg",
+          "/images/editorial/plan-first-east-africa-safari/two-zebras-ngorongoro.jpg",
+          "/images/editorial/plan-first-east-africa-safari/kilimanjaro-amboseli.jpg",
+          "/images/editorial/plan-first-east-africa-safari/lions-masai-mara.jpg",
+          "/images/editorial/plan-first-east-africa-safari/hot-air-balloon-serengeti.jpg",
+          "/images/editorial/plan-first-east-africa-safari/savanna-taita-hills-kenya.jpg"
         ]
       },
       "plan-your-victoria-falls-visit": {
-        "hero_image_url": "https://trekafricaguide.com/images/editorial/victoria-falls-first-visit/falls-zimbabwe-main-view.jpg",
-        "hero_image_alt": "Victoria Falls on the Zimbabwe side, viewed toward Zambia with spray rising over the gorge.",
-        "replaces": []
+        "hero_image_url": "/images/editorial/plan-your-victoria-falls-visit/victoria-falls-main.jpg",
+        "hero_image_alt": "The massive curtain of water at Victoria Falls on the Zambia-Zimbabwe border.",
+        "replaces": [
+          "https://trekafricaguide.com/images/editorial/victoria-falls-first-visit/falls-zimbabwe-main-view.jpg"
+        ],
+        "gallery": [
+          "/images/editorial/plan-your-victoria-falls-visit/victoria-falls-bridge.jpg",
+          "/images/editorial/plan-your-victoria-falls-visit/victoria-falls-helicopter.jpg",
+          "/images/editorial/plan-your-victoria-falls-visit/victoria-falls-livingstone.jpg",
+          "/images/editorial/plan-your-victoria-falls-visit/victoria-falls-main.jpg",
+          "/images/editorial/plan-your-victoria-falls-visit/victoria-falls-moonbow.jpg",
+          "/images/editorial/plan-your-victoria-falls-visit/victoria-falls-spray.jpg",
+          "/images/editorial/plan-your-victoria-falls-visit/victoria-falls-zimbabwe-side.jpg"
+        ]
       }
     }
   }
