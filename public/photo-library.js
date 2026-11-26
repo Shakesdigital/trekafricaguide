@@ -13820,6 +13820,55 @@ export const photoLibrary = {
       "sha256": "62a284f53152b93ed1119fcacbc139ab9f0d378f6fcf7dc47cc0536215d40a92", "exact_subject": true, "subject": "Giraffe, Kruger National Park, South Africa",
       "alt": "A giraffe standing near the road in Kruger National Park in South Africa.", "property": false, "requires_attribution": true,
       "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Giraffe near the Pretoriuskop-Skukuza Road, Kruger National Park."
+    },
+    "/images/editorial/northern-africa-region/jamaa-el-fna-marrakesh-morocco-20250124-1804-7017jpg.jpg": {
+      "kind": "photograph", "slug": "jemaa-el-fnaa-marrakesh", "local_path": "/images/editorial/northern-africa-region/jamaa-el-fna-marrakesh-morocco-20250124-1804-7017jpg.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Jamaa_El_Fna,_Marrakesh,_Morocco,_20250124_1804_7017.jpg", "creator": "Jakub Hałun", "license": "CC BY 4.0", "license_url": "https://creativecommons.org/licenses/by/4.0/", "checked_at": "2026-11-26",
+      "sha256": "a6c606e2bae0ea7d92a4640f6d37f2fce1866e3ea8e517b9721f318d496e0ee3", "exact_subject": true, "subject": "Jemaa el-Fnaa square, Marrakesh, Morocco",
+      "alt": "The bustling Jemaa el-Fnaa square in Marrakesh at dusk.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Jemaa el-Fnaa square in Marrakesh, Morocco, 2025-01-24."
+    },
+    "/images/editorial/northern-africa-region/drawing-a-henna-jemaa-el-fnaa-marrakesh-jpg.jpg": {
+      "kind": "photograph", "slug": "jemaa-el-fnaa-henna", "local_path": "/images/editorial/northern-africa-region/drawing-a-henna-jemaa-el-fnaa-marrakesh-jpg.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Drawing_a_henna,_Jemaa_el-Fnaa,_Marrakesh_(%D9%88%D8%B4%D9%85_%D8%A7%D9%84%D8%AD%D9%86%D8%A7%D8%A1%D8%8C_%D8%AC%D8%A7%D9%85%D8%B9_%D8%A7%D9%84%D9%81%D9%86%D8%A7%D8%8C_%D9%85%D8%B1%D8%A7%D9%83%D8%B4).jpg", "creator": "Petar Milošević", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-26",
+      "sha256": "e2dc54db522e574975275d02f6f2b9593d239d0ef71fd612348b808756503b31", "exact_subject": true, "subject": "Henna being drawn at Jemaa el-Fnaa, Marrakesh, Morocco",
+      "alt": "A henna artist drawing a design on a visitor's hand at Jemaa el-Fnaa in Marrakesh.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Drawing a henna, Jemaa el-Fnaa, Marrakesh, Morocco."
+    },
+    "/images/editorial/northern-africa-region/all-gizah-pyramidsjpg.jpg": {
+      "kind": "photograph", "slug": "giza-pyramids", "local_path": "/images/editorial/northern-africa-region/all-gizah-pyramidsjpg.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:All_Gizah_Pyramids.jpg", "creator": "Ricardo Liberato", "license": "CC BY-SA 2.0", "license_url": "https://creativecommons.org/licenses/by-sa/2.0/", "checked_at": "2026-11-26",
+      "sha256": "519c8fed96a0c79c925af147c96161aa5eec3d81bdacb1e14159f453c0defdf6", "exact_subject": true, "subject": "All Giza pyramids, Egypt",
+      "alt": "The pyramids of Giza lined up on the desert plateau near Cairo in Egypt.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "All Giza Pyramids in one shot."
+    },
+    "/images/editorial/northern-africa-region/door-in-the-medina-of-tunis-03jpg.jpg": {
+      "kind": "photograph", "slug": "tunis-medina-door", "local_path": "/images/editorial/northern-africa-region/door-in-the-medina-of-tunis-03jpg.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Door_in_the_medina_of_Tunis_03.jpg", "creator": "Kritzolina", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-26",
+      "sha256": "1cf1d4c49d993feec0f62b5700b60143ed1bec2c2d3ed7803f0c65ad8748d870", "exact_subject": true, "subject": "Door in the medina of Tunis, Tunisia",
+      "alt": "An ornate traditional door in the medina of Tunis in Tunisia.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Door in the medina of Tunis."
+    },
+    "/images/editorial/northern-africa-region/sand-dunes-in-the-sahara-desert-on-the-border-of-algeria-and.jpg": {
+      "kind": "photograph", "slug": "sahara-dunes-algeria-morocco", "local_path": "/images/editorial/northern-africa-region/sand-dunes-in-the-sahara-desert-on-the-border-of-algeria-and.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Sand_dunes_in_the_Sahara_Desert_on_the_border_of_Algeria_and_Morocco.tif", "creator": "Dr. Ondřej Havelka (cestovatel)", "license": "CC BY 4.0", "license_url": "https://creativecommons.org/licenses/by/4.0/", "checked_at": "2026-11-26",
+      "sha256": "bb7edddd73e52de77f8772ee60a5c818a0106b7a5eea6e63e162b4bd8ea3df9f", "exact_subject": true, "subject": "Sand dunes in the Sahara Desert on the Algeria-Morocco border",
+      "alt": "The sweeping sand dunes of the Sahara Desert on the border of Algeria and Morocco.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Sand dunes in the Sahara Desert on the border of Algeria and Morocco."
+    },
+    "/images/editorial/northern-africa-region/abricot-march-de-la-casbah-dalgerjpg.JPG": {
+      "kind": "photograph", "slug": "casbah-algiers-market", "local_path": "/images/editorial/northern-africa-region/abricot-march-de-la-casbah-dalgerjpg.JPG",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Abricot_march%C3%A9_de_la_casbah_d%27Alger.JPG", "creator": "Reda Kerbush", "license": "CC BY-SA 3.0", "license_url": "https://creativecommons.org/licenses/by-sa/3.0/", "checked_at": "2026-11-26",
+      "sha256": "90cab7288fbf270771487a2565606553f3190318e40777baba156972620cbb9b", "exact_subject": true, "subject": "Apricot market in the Casbah of Algiers, Algeria",
+      "alt": "A market stall of apricots in the Casbah of Algiers in Algeria.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Apricot market in the Casbah of Algiers."
+    },
+    "/images/editorial/northern-africa-region/architectural-and-cultural-heritage-of-the-casbah-of-algiers.jpg": {
+      "kind": "photograph", "slug": "casbah-algiers-heritage", "local_path": "/images/editorial/northern-africa-region/architectural-and-cultural-heritage-of-the-casbah-of-algiers.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Architectural_and_Cultural_Heritage_of_the_Casbah_of_Algiers_6.jpg", "creator": "Rachid Hamatou", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-26",
+      "sha256": "20436f1d3738a1761dad8ca5e2a14ae4a40d63d75084563d8b444a352af009d7", "exact_subject": true, "subject": "Architectural heritage of the Casbah of Algiers, Algeria",
+      "alt": "A traditional doorway in the historic Casbah of Algiers in Algeria.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Door of the spice market, architectural and cultural heritage of the Casbah of Algiers."
     }
 
   },
@@ -14614,7 +14663,14 @@ export const photoLibrary = {
         "replaces": [],
         "gallery": [
           "/images/stock/destinations/cairo-and-giza.jpg",
-          "/images/stock/starter/cairo-and-giza.jpg"
+          "/images/stock/starter/cairo-and-giza.jpg",
+          "/images/editorial/northern-africa-region/jamaa-el-fna-marrakesh-morocco-20250124-1804-7017jpg.jpg",
+          "/images/editorial/northern-africa-region/drawing-a-henna-jemaa-el-fnaa-marrakesh-jpg.jpg",
+          "/images/editorial/northern-africa-region/all-gizah-pyramidsjpg.jpg",
+          "/images/editorial/northern-africa-region/door-in-the-medina-of-tunis-03jpg.jpg",
+          "/images/editorial/northern-africa-region/sand-dunes-in-the-sahara-desert-on-the-border-of-algeria-and.jpg",
+          "/images/editorial/northern-africa-region/abricot-march-de-la-casbah-dalgerjpg.JPG",
+          "/images/editorial/northern-africa-region/architectural-and-cultural-heritage-of-the-casbah-of-algiers.jpg"
         ]
       }
     },
