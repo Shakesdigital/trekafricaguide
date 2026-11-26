@@ -19,7 +19,17 @@ const brand = {
 };
 const title = Astro.props.title ? `${Astro.props.title} | ${brand.name}` : brand.name;
 const description = Astro.props.description || settings['seo.default_meta_description'] || DEFAULT_BRAND.tagline;
-const canonical = Astro.props.canonical || new URL(Astro.url.pathname, SITE_URL).toString();
+// The live site serves the trailing-slash form as 200 and 301-redirects the
+// non-slash form to it (verified 25 Nov 2026). Canonical, sitemap and RSS must
+// all emit that 200 form so they never point at a redirecting URL.
+function toCanonicalUrl(pathname) {
+  const url = new URL(pathname, SITE_URL);
+  if (url.pathname !== '/' && !url.pathname.endsWith('/')) {
+    url.pathname = `${url.pathname}/`;
+  }
+  return url.toString();
+}
+const canonical = Astro.props.canonical ? toCanonicalUrl(Astro.props.canonical) : toCanonicalUrl(Astro.url.pathname);
 const image = Astro.props.image || settings['seo.default_og_image'];
 ---
 <!DOCTYPE html>

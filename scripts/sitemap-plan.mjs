@@ -69,3 +69,21 @@ export function lastmodForPath(page, plan) {
     return undefined;
   }
 }
+
+// The live site serves the trailing-slash form as 200 and 301-redirects the
+// non-slash form to it. Sitemap, canonical and RSS must emit that 200 form.
+export function toTrailingSlashUrl(value) {
+  const url = new URL(value);
+  if (url.pathname !== '/' && !url.pathname.endsWith('/')) {
+    url.pathname = `${url.pathname}/`;
+  }
+  return url.toString();
+}
+
+// @astrojs/sitemap serialize hook: emit the trailing-slash (200) URL and keep
+// the real lastmod. The non-slash form 301-redirects and must never appear.
+export function serializeSitemapItem(item, plan) {
+  const url = toTrailingSlashUrl(item.url);
+  const lastmod = lastmodForPath(url, plan);
+  return { ...item, url, ...(lastmod ? { lastmod } : {}) };
+}

@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { buildSitemapPlan, isSitemapPath, lastmodForPath } from '../../scripts/sitemap-plan.mjs';
+import { buildSitemapPlan, isSitemapPath, lastmodForPath, toTrailingSlashUrl, serializeSitemapItem } from '../../scripts/sitemap-plan.mjs';
 
 const content = {
   regions: [{ slug: 'east-africa', updated_at: '2026-11-01T00:00:00Z' }],
@@ -39,4 +39,24 @@ test('lastmod uses real updated_at and omits invalid or absent values', () => {
   assert.equal(lastmodForPath('https://trekafricaguide.com/countries/kenya', plan), '2026-11-20T10:00:00.000Z');
   assert.equal(lastmodForPath('https://trekafricaguide.com/attractions/maasai-mara', plan), undefined);
   assert.equal(lastmodForPath('https://trekafricaguide.com/travel-insights/plan-first-kenya-safari', plan), undefined);
+});
+
+test('toTrailingSlashUrl emits the 200 trailing-slash form, keeps root and existing slash', () => {
+  assert.equal(toTrailingSlashUrl('https://trekafricaguide.com/countries/kenya'), 'https://trekafricaguide.com/countries/kenya/');
+  assert.equal(toTrailingSlashUrl('https://trekafricaguide.com/countries/kenya/'), 'https://trekafricaguide.com/countries/kenya/');
+  assert.equal(toTrailingSlashUrl('https://trekafricaguide.com/'), 'https://trekafricaguide.com/');
+  assert.equal(
+    toTrailingSlashUrl('https://trekafricaguide.com/countries/kenya/nairobi'),
+    'https://trekafricaguide.com/countries/kenya/nairobi/',
+  );
+});
+
+test('serializeSitemapItem emits trailing-slash url and preserves real lastmod', () => {
+  const plan = buildSitemapPlan(content);
+  const item = serializeSitemapItem({ url: 'https://trekafricaguide.com/countries/kenya' }, plan);
+  assert.equal(item.url, 'https://trekafricaguide.com/countries/kenya/');
+  assert.equal(item.lastmod, '2026-11-20T10:00:00.000Z');
+  const noLastmod = serializeSitemapItem({ url: 'https://trekafricaguide.com/attractions/maasai-mara' }, plan);
+  assert.equal(noLastmod.url, 'https://trekafricaguide.com/attractions/maasai-mara/');
+  assert.equal('lastmod' in noLastmod, false);
 });

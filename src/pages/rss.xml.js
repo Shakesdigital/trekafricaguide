@@ -29,7 +29,7 @@ export async function GET() {
     });
 
   const items = articles.map((article) => {
-    const url = `${siteUrl}/travel-insights/${article.slug}`;
+    const url = `${siteUrl}/travel-insights/${article.slug}/`;
     const pubDate = validDate(article.updated_at || article.published_at);
     return [
       '<item>',
