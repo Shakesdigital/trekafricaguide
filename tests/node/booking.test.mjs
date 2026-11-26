@@ -22,6 +22,7 @@ test('supported booking offer is wrapped through Stay22', () => {
   });
   assert.match(url, /^https:\/\/www\.stay22\.com\/allez\/booking\?/);
   assert.match(url, /campaign=accommodation_test-stay/);
+  assert.doesNotMatch(url, /roam=false/);
   assert.match(url, /link=https%3A%2F%2Fbooking\.com%2Ftest/);
 });
 

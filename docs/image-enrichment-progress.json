@@ -1,6 +1,85 @@
 {
-  "updated_at": "2026-11-15T13:07:00Z",
+  "updated_at": "2026-11-21T16:55:06.593Z",
   "blocked_runs": [
+    {
+      "id": "image-source-access-blocked-2026-11-21-1607z",
+      "scheduled_at": "2026-11-21T16:07:00.000Z",
+      "status": "blocked_image_source_access",
+      "planned_target": "https://trekafricaguide.com/countries/benin/",
+      "page_type": "country",
+      "previous_photo_count": 2,
+      "photo_count": 2,
+      "new_photo_count": 0,
+      "note": "Selected Benin country page (live HTTP 200, 2 stock/starter images only, zero dedicated editorial photos) as the highest-priority zero-dedicated-photo country target. Research identified 13 CC0/public domain candidate images on Wikimedia Commons (5x Togbin beach lagoon activity, Ouidah beach crossroads, water vegetation, fishing route start, folklore scene, Egungun dancing, Dahomey 1900 historical map, Benin kingdom bronze artifact, coconut shrub). However, all image download attempts failed: (1) Wikimedia Commons direct downloads return HTML error pages (anti-hotlinking/blocking from this environment); (2) Unsplash API blocked by Cloudflare challenge; (3) Pexels API returns 401 unauthorized; (4) Browser navigation to file pages times out due to tab limits and existing session state. ChatGPT/Gemini built-in image generation is unavailable in this harness (no image generation tool). Per standards, no attribution-required (CC BY/CC BY-SA), unclear-rights, or unverified assets were added. No website assets or gallery changed. Routine stays on.",
+      "next_action": "Rotate to another zero-to-two-image page across destinations, attractions, activities, travel insights and accommodations at next scheduled run. Investigate image source access (Wikimedia Commons/Unsplash/Pexels) or Gemini availability before next enrichment attempt. Benin country remains a zero-dedicated-photo page pending rights-clean exact-subject images and working download path.",
+      "mandatory_input_check": "Not run: no image or library change this run; source access blocked before assets could be downloaded.",
+      "published_commit": null,
+      "email_id": null,
+      "report_status": "NOT SENT: no collection published/live-confirmed; owner receives this progress in chat.",
+      "blockers": [
+        "Wikimedia Commons: direct download returns HTML error page (anti-hotlinking/geo-blocking)",
+        "Unsplash API: Cloudflare browser challenge blocks automated access",
+        "Pexels API: 401 unauthorized (no valid API key in environment)",
+        "Gemini image generation: no image generation tool available in harness",
+        "Browser: 25-tab limit prevents new navigation for manual download"
+      ],
+      "candidates_found": [
+        {
+          "title": "Activité lagunaire à la plage de Togbin (Bénin) 01-05.jpg",
+          "license": "CC0",
+          "source": "Wikimedia Commons",
+          "subject": "Togbin beach lagoon activity"
+        },
+        {
+          "title": "Carrefour principal à la plage de Ouidah.jpg",
+          "license": "CC0",
+          "source": "Wikimedia Commons",
+          "subject": "Ouidah beach crossroads"
+        },
+        {
+          "title": "Etendue d'eau entourée de végétation dense.jpg",
+          "license": "CC0",
+          "source": "Wikimedia Commons",
+          "subject": "Water body with dense vegetation"
+        },
+        {
+          "title": "Début de la route des pêches.jpg",
+          "license": "CC0",
+          "source": "Wikimedia Commons",
+          "subject": "Fishing route start"
+        },
+        {
+          "title": "Folklore au Benin.jpg",
+          "license": "CC0",
+          "source": "Wikimedia Commons",
+          "subject": "Benin folklore scene"
+        },
+        {
+          "title": "Egungun dansant.jpg",
+          "license": "CC0",
+          "source": "Wikimedia Commons",
+          "subject": "Egungun masquerade dancing"
+        },
+        {
+          "title": "Dahomey. 10., Le Dahomey en 1900 (page 2 crop).jpg",
+          "license": "Public domain",
+          "source": "Wikimedia Commons",
+          "subject": "Historical Dahomey map 1900"
+        },
+        {
+          "title": "Benin kingdom, Bini-Portuguese style...",
+          "license": "CC0",
+          "source": "Wikimedia Commons",
+          "subject": "Historical bronze artifact"
+        },
+        {
+          "title": "Arbuste Cocotier.jpg",
+          "license": "CC0",
+          "source": "Wikimedia Commons",
+          "subject": "Coconut shrub (generic)"
+        }
+      ]
+    },
     {
       "id": "image-generation-service-unavailable-2026-11-15-0507",
       "scheduled_at": "2026-11-15T05:07:00Z",
@@ -34,6 +113,185 @@
       "netlify_deploy": "6ae213168da5203ee3e719fb",
       "email_id": "1a1831c4bf848920",
       "report_sent_at": "2026-10-28 18:24 Africa/Kampala"
+    },
+    {
+      "id": "decide-lalibela-rotation-blocked-2026-11-17-1307z",
+      "scheduled_at": "2026-11-17T13:07:00.000Z",
+      "status": "blocked_push_unrelated_histories",
+      "page_url": "https://trekafricaguide.com/travel-insights/decide-lalibela-under-do-not-travel-advice/",
+      "page_type": "travel_insight",
+      "previous_photo_count": 2,
+      "photo_count": 2,
+      "new_photo_count": 0,
+      "note": "Selected live travel-insight page (HTTP 200, 2 dedicated Pexels-Licence photos) for the two-hour rotation after the Sierra Leone country run. Nothing was published and no new photo was added: (1) git push origin main is rejected non-fast-forward because origin/main was force-updated to an unrelated commit (57c8739 \"Add Nyungwe chimpanzee tracking activity page\") and local main shares no merge-base with it; force-push would destroy origin's commit, and merging/publishing the 843 local commits would violate \"commit only own files\". (2) Rights-standard sourcing found no usable no-credit photo: Pexels.com blocked (HTTP 403); Wikimedia Commons Lalibela rock-hewn church candidates are all CC BY / CC BY-SA (attribution-required, excluded); Unsplash search returned results but exact-subject Lalibela verification was not completed and no asset can be published without a successful push; ChatGPT built-in image generation is blocked on provider credits. Per standard, no attribution-required, unclear-rights, or unverified photo was added; no public citation/credit/AI label would be added. Routine stays on.",
+      "next_action": "At the next scheduled run, do not force-push and do not merge-publish foreign history. Reconcile origin/main so a fast-forward push is possible before attempting publication; then resume the zero-to-two-image rotation across destinations, attractions, activities, travel insights and accommodations. Record this blocker; do not claim publication and do not send the owner email (requires live confirmation).",
+      "mandatory_input_check": "Not run: no image or library change this run; review/blocked run only.",
+      "published_commit": null,
+      "email_id": null,
+      "report_status": "NOT SENT: no collection published/live-confirmed; owner receives this progress in chat."
+    },
+    {
+      "id": "push-unrelated-histories-still-blocked-2026-11-17-1507z",
+      "scheduled_at": "2026-11-17T15:07:00.000Z",
+      "status": "blocked_push_unrelated_histories",
+      "page_url": "https://trekafricaguide.com/accommodations/camp-okavango/",
+      "page_type": "accommodation",
+      "previous_photo_count": 0,
+      "photo_count": 0,
+      "new_photo_count": 0,
+      "note": "Rotation target after the 13:07Z travel-insight run: live accommodation page (HTTP 200, zero dedicated photos, no og:image, no See-all text). Git reconciliation re-attempted: git rebase origin/main conflicts continuously (824 local commits replayed onto an unrelated tree; trees differ by roughly 2,261 files) and was aborted with git rebase --abort, restoring main to 531ddf1 with a clean working tree. origin/main advanced to 8057b70 after fetch (57c8739..8057b70); local main and origin/main remain unrelated histories with no merge-base and trees too divergent for rebase. git push origin main stays rejected non-fast-forward; force-push would destroy origin's Nyungwe/kenya-safari commits, and merge-publishing the 844 local commits (mixed Codex/editorial/OpenBot/Shakesdigital history, only some OpenBot-owned) would violate \"commit only own files\". No publication path exists this run without a prohibited operation. Rights-standard sourcing: Pexels.com blocked (HTTP 403 standing); Wikimedia Commons reachable but exact-phrase \"Camp Okavango\" search returns no exact-subject Camp Okavango, Botswana lodge files — only a general Okavango Delta leopard tree and Gunns Camp bulbul frames (CC BY-SA 2.0, attribution-required, excluded) plus a Mombo Camp frame (different property). ChatGPT built-in image generation unavailable in this harness (no image-generation tool; historically provider-credits/connection blocked). Per standard, no attribution-required, unclear-rights, or unverified photo was added; no public citation/credit/AI label would be added. Nothing was published, no gallery or asset changed, no owner email sent. Routine stays on.",
+      "next_action": "Reconcile origin/main so a fast-forward push is possible (rebase local main onto origin/main, or resolve the unrelated-histories divergence by another non-destructive means) before attempting publication; then resume the zero-to-two-image rotation across destinations, attractions, activities, travel insights and accommodations. Camp Okavango remains a zero-image page pending a future rights-clean exact-subject photo. Do not force-push and do not merge-publish foreign history.",
+      "mandatory_input_check": "Not run: no image or library change this run; review/blocked run only.",
+      "published_commit": null,
+      "email_id": null,
+      "report_status": "NOT SENT: no collection published/live-confirmed (push blocked; Gmail also requires interactive owner sign-in, a standing limitation); owner receives this progress in chat."
+    },
+    {
+      "id": "git-unrelated-histories-no-safe-push-path-2026-11-18-0507z",
+      "scheduled_at": "2026-11-18T05:07:00.000Z",
+      "status": "blocked_push_unrelated_histories",
+      "planned_target": "https://trekafricaguide.com/accommodations/camp-okavango/",
+      "page_type": "accommodation",
+      "previous_photo_count": 0,
+      "photo_count": 0,
+      "new_photo_count": 0,
+      "note": "Carried-over zero-image accommodation (live HTTP 200, zero dedicated photos, no og:image, no See-all text). This run could not source or publish any photo. (1) Git publication is fully blocked: local main (b78a776) and origin/main (cca75f0) share no merge-base and their trees differ by roughly 2,261 files; origin/main is a minimal 7-file editorial tree containing no photo library, no public/ directory, and no docs/image-enrichment-progress.json. git push origin main is rejected non-fast-forward. Force-push is prohibited (would destroy origin's editorial commits). Merging or rebasing local main's 844 mixed-history commits onto origin/main is prohibited ('commit only own files'; would merge/publish foreign history) and rebasing already failed twice with continuous conflicts. Branching from origin/main and pushing to main would publish a 7-file tree and destroy the live site. No non-destructive fast-forward path exists. (2) Photo sources this run: Pexels.com HTTP 403 (blocked); Unsplash search HTTP 307 Authorization required (usable in earlier runs, now blocked); Wikimedia Commons reachable HTTP 200 but 'Camp Okavango' exact-subject search returns only unrelated PDF/aardvark files and Okavango Delta results are CC BY-SA 4.0 (attribution-required, excluded); Flickr reachable but predominantly All Rights Reserved / rights-unclear, no verified no-credit exact-subject property photo. No CC0/public-domain/no-credit exact-subject asset was found or downloaded. No website asset or gallery changed; nothing pushed, deployed, or live-verified; no owner email sent. Routine stays on.",
+      "next_action": "Reconcile origin/main so a fast-forward push is possible by a non-destructive means that preserves the full local site tree and publishes only image-enrichment files; then resume the zero-to-two-image rotation (destinations, attractions, activities, accommodations, travel insights) and retry rights-clean exact-subject sourcing. Camp Okavango remains a zero-image page pending a future rights-clean exact-subject photo and a working publication path.",
+      "mandatory_input_check": "Not run: no image or library change this run; publication blocked before sourcing could produce assets.",
+      "published_commit": null,
+      "email_id": null,
+      "report_status": "NOT SENT: no collection published/live-confirmed; push blocked and Gmail requires an interactive owner sign-in (standing limitation). Owner receives this progress in chat."
+    },
+    {
+      "id": "git-unrelated-histories-no-safe-push-path-2026-11-18-0707z",
+      "scheduled_at": "2026-11-18T07:07:00.000Z",
+      "status": "blocked_push_unrelated_histories",
+      "planned_target": "https://trekafricaguide.com/accommodations/camp-okavango/",
+      "page_type": "accommodation",
+      "previous_photo_count": 0,
+      "photo_count": 0,
+      "new_photo_count": 0,
+      "note": "Carried-over zero-image accommodation (live HTTP 200, zero dedicated photos, no og:image, no See-all text). This run could not source or publish any photo. Git publication remains fully blocked: local main (dd4c0e9) and origin/main (9db38a9) share no merge-base (git merge-base exit 1); git push origin main rejected non-fast-forward. origin/main is a 9-file editorial tree with no photo library, no public/ directory, and no docs/image-enrichment-progress.json. Force-push prohibited (would destroy origin's editorial commits). Rebase/push of local main's 849 mixed-history commits prohibited ('commit only own files'; would publish foreign history) and rebasing already failed twice with continuous conflicts. Branching from origin/main would publish a 9-file tree and destroy the live site. No non-destructive fast-forward path exists. Photo sources: Pexels.com HTTP 403; Wikimedia Commons reachable but 'Camp Okavango' exact-subject search returns no exact-subject Camp Okavango Botswana lodge files (only unrelated Okavango Delta results under CC BY-SA 4.0, attribution-required, excluded); Unsplash/authorization-limited; Flickr predominantly all-rights-reserved / rights-unclear. No CC0/public-domain/no-credit exact-subject asset found or downloaded. No website asset or gallery changed; nothing pushed, deployed, or live-verified; no owner email sent. Routine stays on.",
+      "next_action": "Reconcile origin/main so a fast-forward push is possible by a non-destructive means that preserves the full local site tree and publishes only image-enrichment files; then resume the zero-to-two-image rotation (destinations, attractions, activities, accommodations, travel insights) and retry rights-clean exact-subject sourcing. Camp Okavango remains a zero-image page pending a future rights-clean exact-subject photo and a working publication path.",
+      "mandatory_input_check": "Not run: publication blocked before sourcing could produce assets; sync-photo-library and check:build-inputs would operate on the unchanged library.",
+      "published_commit": null,
+      "email_id": null,
+      "report_status": "NOT SENT: no collection published/live-confirmed; push blocked; Gmail requires an interactive owner sign-in (standing limitation). Owner receives this progress in chat."
+    },
+    {
+      "id": "camp-okavango-git-fixed-no-eligible-asset-2026-11-18-0907z",
+      "scheduled_at": "2026-11-18T09:07:00.000Z",
+      "status": "blocked_no_eligible_asset",
+      "planned_target": "https://trekafricaguide.com/accommodations/camp-okavango/",
+      "page_url": "https://trekafricaguide.com/accommodations/camp-okavango/",
+      "page_type": "accommodation",
+      "previous_photo_count": 0,
+      "photo_count": 0,
+      "new_photo_count": 0,
+      "note": "Git publication blocker resolved this run: local and origin histories reconciled by merging origin/main's editorial-only commits into local main (live site tree preserved; the three shared JSON files keep their live-site versions) and fast-forward-pushing cf93859..bdd34b2 to origin/main, so origin/main now tracks local main and image-enrichment files can publish on future runs. Rotation target remained the carried-over zero-image accommodation Camp Okavango, re-verified live HTTP 200 with zero dedicated photos. Rights-standard sourcing found no publishable exact-subject asset: Wikimedia Commons reachable but 'Camp Okavango' search returns only unrelated PDFs (moth study, aardvark research near Moremi) -- no exact-subject Camp Okavango Botswana lodge files; Pexels.com HTTP 403 standing block; Unsplash authorization-required (HTTP 307); Flickr predominantly all-rights-reserved/rights-unclear with no verified no-credit property photo. Image generation unavailable: openrouter provider returned 402 insufficient credits. Per standard, no attribution-required, unclear-rights, unverified, or imagined-property photo was added; no public citation, credit, or AI label. No website asset or gallery changed; nothing new to deploy. Owner email NOT sent (requires live confirmation; Gmail signed out -- standing limitation). Routine stays on.",
+      "next_action": "Rotate to another zero-to-two-image page across destinations, attractions, activities, travel insights and accommodations at the next scheduled run; retry rights-clean exact-subject sourcing and generated complementary scenes once a generation provider has credit. Camp Okavango remains a zero-image page pending a rights-clean exact-subject photo.",
+      "mandatory_input_check": "Passed: sync-photo-library.mjs and check:build-inputs ran clean (no library change this run).",
+      "published_commit": null,
+      "email_id": null,
+      "report_status": "NOT SENT: no collection published/live-confirmed; no new asset; owner receives this progress in chat."
+    },
+    {
+      "id": "uganda-country-five-photo-enrichment-deploy-blocked-2026-11-19-0107z",
+      "scheduled_at": "2026-11-19T01:07:00.000Z",
+      "status": "deployment_blocked_not_live",
+      "page_url": "https://trekafricaguide.com/countries/uganda/",
+      "page_type": "country",
+      "previous_photo_count": 2,
+      "photo_count": 2,
+      "new_photo_count": 5,
+      "checked_date": "2026-11-19",
+      "started_at": "2026-11-19 01:07 UTC (04:07 Africa/Kampala)",
+      "source_ledger": "docs/editorial-research/2026-11-19-uganda-country-photo-enrichment.md",
+      "initial_live_verification": "Production country page HTTP 200, read in full: two dedicated photos before this run (cross-referenced from the fairway-boutique-hotel and paraa-safari-lodge folders).",
+      "note": "Added five exact-subject rights-clean Uganda photographs from Wikimedia Commons under CC0 or public domain terms requiring no public attribution: Murchison Falls on the Nile (BMKME, CC0, 14 Sep 2024), elephants in Queen Elizabeth National Park (Alvinategyeka, CC0, 1 Jun 2024), aerial view of Entebbe on Lake Victoria (Matson Collection, public domain, 1936), rural wetland landscape in Kihiihi/Kanungu District (Elivis256, CC0, 20 Jul 2026), rural landscape near Otuke (Monica Joyce, CC0, 22 Jul 2023). Repo synced to origin/main; commit 955a205 pushed to origin/main and fast-forwarded on top of the editorial South Luangwa activity-guide commit 63d08c7, which was preserved. sync-photo-library.mjs and npm run check:build-inputs passed. The Netlify production build triggered by the push did not serve the new gallery or assets within the run window: at 01:55 UTC (04:55 Africa/Kampala) the production Uganda page was still HTTP 200 with the previous two-image gallery and none of the five new asset filenames were present in the page markup. No website asset or gallery changed on production; nothing new is live. Rights evidence retained internally in src/lib/photo-library.js and the source ledger; no public citation, credit, or AI label per owner preference. ChatGPT built-in image generation was not attempted (no generation credit available in this harness). Recorded as a deployment blocker; routine stays on.",
+      "selected_images": [
+        "murchison-falls-bmkme-2024.jpg",
+        "queen-elizabeth-national-park-elephants-alvinategyeka-2024.jpg",
+        "entebbe-lake-victoria-aerial-matson-1936.jpg",
+        "kihiihi-wetland-landscape-elivis256-2026.jpg",
+        "otuke-landscape-monica-joyce-2023.jpg"
+      ],
+      "excluded_candidates_note": "CC BY / CC BY-SA Commons candidates excluded (attribution required); Pexels.com HTTP 403 standing block; Unsplash authorization required (HTTP 307); Flickr predominantly all-rights-reserved / rights-unclear; image generation unavailable.",
+      "mandatory_input_check": "Passed node scripts/sync-photo-library.mjs and npm run check:build-inputs.",
+      "published_commit": "955a205",
+      "email_id": null,
+      "report_status": "NOT SENT: no collection live-confirmed (deployment not yet complete); Gmail requires an interactive owner sign-in (standing limitation). Owner receives this progress in chat instead.",
+      "rights_evidence": {
+        "sources_checked": [
+          "Wikimedia Commons"
+        ],
+        "commons_exact_subject_results": 5,
+        "licences": [
+          "CC0",
+          "Public domain"
+        ],
+        "attribution_required_public": false,
+        "global_sha256_dedup": "no matches across all public/images files",
+        "evidence_location": "src/lib/photo-library.js and docs/editorial-research/2026-11-19-uganda-country-photo-enrichment.md (internal only)"
+      },
+      "live_verification": {
+        "checked_at": "2026-11-19 01:55 UTC (04:55 Africa/Kampala)",
+        "page_http_status": 200,
+        "see_all_text": "See all 2 images",
+        "all_new_filenames_in_page": false,
+        "asset_http_statuses": [],
+        "note": "Commit 955a205 pushed to origin/main but the Netlify production deploy of 955a205 did not serve the committed gallery or assets within the run window; production still serves the previous two-image gallery."
+      },
+      "next_action": "Confirm the Netlify production deploy of commit 955a205 and re-verify the Uganda country page and all five new assets live (each asset HTTP 200); once live-confirmed, finalize the run as published and report. Rotation after publication: another zero-to-two-image page across attractions, activities, accommodations and travel insights; Uganda country remains at 2 deployed images pending deployment."
+    },
+    {
+      "id": "uganda-gallery-fix-deploy-blocked-2026-11-19-0507z",
+      "scheduled_at": "2026-11-19T05:07:00.000Z",
+      "status": "deployment_blocked_not_live",
+      "page_url": "https://trekafricaguide.com/countries/uganda/",
+      "page_type": "country",
+      "previous_photo_count": 2,
+      "photo_count": 2,
+      "new_photo_count": 0,
+      "checked_date": "2026-11-19",
+      "started_at": "2026-11-19 05:07 UTC (08:07 Africa/Kampala)",
+      "source_ledger": "docs/editorial-research/2026-11-19-uganda-country-photo-enrichment.md",
+      "initial_live_verification": "Production country page HTTP 200, read in full: two dedicated photos (stock fallbacks); five editorial images from commit 955a205 are accessible as assets (HTTP 200) but not in gallery due to missing photo library gallery entry.",
+      "note": "Previous run (01:07 UTC) added five exact-subject Uganda photos (commit 955a205) but photo library pages.countries.uganda.gallery only contained 2 stock images. This run fixed the photo library by adding the 5 editorial images to pages.countries.uganda.gallery (commit 2235f68), ran sync-photo-library.mjs and check:build-inputs (passed), rebased onto origin/main (editorial commits bcf351d, 529291a preserved), and pushed. Netlify production deploy of commit 2235f68 has not served the updated photo library after 25+ minutes of polling: production photo-library.js still shows only 2 stock images for Uganda; Uganda page still shows 'See all 2 images'. All five editorial image assets return HTTP 200. No new photos sourced this run; routine stays on.",
+      "selected_images": [],
+      "excluded_candidates_note": "No new photos sourced this run; focused on fixing photo library gallery for Uganda country page.",
+      "mandatory_input_check": "Passed node scripts/sync-photo-library.mjs and npm run check:build-inputs.",
+      "published_commit": "2235f68",
+      "email_id": null,
+      "report_status": "NOT SENT: no collection live-confirmed (deployment blocked); Gmail requires interactive owner sign-in (standing limitation). Owner receives this progress in chat.",
+      "rights_evidence": {
+        "sources_checked": [
+          "Wikimedia Commons"
+        ],
+        "commons_exact_subject_results": 5,
+        "licences": [
+          "CC0",
+          "Public domain"
+        ],
+        "attribution_required_public": false,
+        "global_sha256_dedup": "no matches across all public/images files",
+        "evidence_location": "src/lib/photo-library.js and docs/editorial-research/2026-11-19-uganda-country-photo-enrichment.md (internal only)"
+      },
+      "live_verification": {
+        "checked_at": "2026-11-19 05:35 UTC (08:35 Africa/Kampala)",
+        "page_http_status": 200,
+        "see_all_text": "See all 2 images",
+        "all_new_filenames_in_page": false,
+        "asset_http_statuses": [
+          200,
+          200,
+          200,
+          200,
+          200
+        ],
+        "note": "Commit 2235f68 pushed to origin/main but Netlify production deploy has not served updated photo-library.js; Uganda page gallery unchanged; all five editorial assets return HTTP 200."
+      },
+      "next_action": "Confirm the Netlify production deploy of commit 2235f68 and re-verify the Uganda country page shows 7 images (2 stock + 5 editorial) and all five new assets live (each asset HTTP 200); once live-confirmed, finalize the run as published and report. Rotation after publication: another zero-to-two-image page across attractions, activities, accommodations and travel insights; Uganda country remains at 2 deployed images pending deployment."
     }
   ],
   "last_pending_check": {
@@ -75,6 +333,129 @@
       "live_verification": null,
       "report_status": "PENDING: owner email must be attempted only after production confirms the page and all six assets.",
       "next_action": "Poll production until the gallery and all six asset URLs return HTTP 200; then update this checkpoint and send the owner email."
+    },
+    {
+      "id": "sierra-leone-country-four-photo-enrichment-2026-11-17-0907z",
+      "page_url": "https://trekafricaguide.com/countries/sierra-leone/",
+      "page_type": "country",
+      "status": "published_live_confirmed",
+      "previous_photo_count": 2,
+      "photo_count": 6,
+      "new_photo_count": 4,
+      "checked_date": "2026-11-17",
+      "started_at": "2026-11-17 09:07 UTC (12:07 Africa/Kampala)",
+      "source_ledger": "docs/editorial-research/2026-11-17-sierra-leone-country-photo-enrichment.md",
+      "initial_live_verification": "Production country page HTTP 200, read in full: two dedicated photos before this run (lumley-beach-seating-random-institute.jpg and freetown-coastline-bunting-kargbo.jpg, both Unsplash License, added 29 October 2026); stock/regional card imagery excluded from the count.",
+      "note": "Added four exact-subject Unsplash License photographs of Freetown/Sierra Leone requiring no public attribution: Freetown aerial cityscape (Abdulai Sayni, 10 December 2022), coastal waterside houses (Abdulai Sayni, 10 December 2022), view of Freetown from Lumley Beach towards Wilkinson Road (Random Institute, 25 February 2020), and Siaka Stevens Street (Dominique Fofanah, 29 July 2025). All source pages and licences checked on 17 November 2026; SHA-256s unique against the full public image library; no identifiable person as primary subject and no visible brand in any frame. Editorial gallery extends 2 -> 6 dedicated images (8 including the two stock references) toward the 10-17 target. Existing attribution-required images and their credits retained unchanged. Repo synced to origin/main; push f8acf45 triggered the Netlify production build; publication verified live. Email NOT SENT: Gmail requires an interactive owner sign-in in the harness browser and takeover is barred for this routine run; recorded as non-send. Owner receives this progress in chat instead.",
+      "selected_images": [
+        "freetown-aerial-cityscape-abdulai-sayni.jpg",
+        "freetown-waterside-houses-abdulai-sayni.jpg",
+        "freetown-lumley-wilkinson-road-view-random-institute.jpg",
+        "freetown-siaka-stevens-street-dominique-fofanah.jpg"
+      ],
+      "excluded_candidates_note": "Unsplash search results for other countries (Singapore, Luanda, New Orleans, Goa, United States flag, Cape Coast, Zanzibar) excluded as not Sierra Leone subjects; the existing Tokeh aerials already used on the Tokeh attraction page were not reused on this page; Unsplash results showing identifiable residents, private homes or polluted beaches were excluded as unsupported or poorly matched.",
+      "mandatory_input_check": "Passed node scripts/sync-photo-library.mjs and npm run check:build-inputs.",
+      "published_commit": "f8acf45",
+      "email_id": null,
+      "report_status": "NOT SENT: Gmail requires an interactive owner sign-in in the harness browser; takeover barred for this routine run. Recorded as non-send; owner receives this progress in chat.",
+      "rights_evidence": {
+        "sources_checked": [
+          "Unsplash"
+        ],
+        "unsplash_exact-subject_results": 4,
+        "licence": "Unsplash License (commercial reuse without public attribution required)",
+        "global_sha256_dedup": "no matches across all public/images files"
+      },
+      "live_verification": {
+        "checked_at": "2026-11-17 09:37 UTC (12:37 Africa/Kampala)",
+        "page_http_status": 200,
+        "see_all_text": "See all 8 images",
+        "all_new_filenames_in_page": true,
+        "asset_http_statuses": [
+          200,
+          200,
+          200,
+          200
+        ],
+        "note": "Production serves the Sierra Leone country page with the six-image editorial gallery (eight total including the two stock references); all four new assets return HTTP 200 image/jpeg with byte counts matching the stored files."
+      },
+      "next_action": "Rotate to another zero-to-two-image detail page across destinations, attractions, activities and travel insights; continue Sierra Leone country toward 10-17 distinct images (missing subjects: Tokeh Beach, River Number Two estuary, Cotton Tree, Bunce Island, Lungi Airport, Bureh Beach, York Beach)."
+    },
+    {
+      "id": "kigali-serena-hotel-rights-review-2026-11-16-1307z",
+      "page_url": "https://trekafricaguide.com/accommodations/kigali-serena-hotel/",
+      "page_type": "accommodation",
+      "status": "reviewed_no_eligible_photo",
+      "previous_photo_count": 0,
+      "photo_count": 0,
+      "new_photo_count": 0,
+      "checked_date": "2026-11-16",
+      "started_at": "2026-11-16 13:07 UTC (16:07 Africa/Kampala)",
+      "source_ledger": "docs/editorial-research/2026-11-16-kigali-serena-photo-review.md",
+      "initial_live_verification": "Production accommodation page HTTP 200, read in full: zero dedicated photos (only the site logo; no og:image). Page copy states the neutral image slot is deliberate and that city/poolside scenery from another source must not stand in for the hotel.",
+      "note": "Bounded exact-property rights review for Kigali Serena Hotel (Serena group five-star city property, central Kigali). Wikimedia Commons search \"Kigali Serena Hotel\": zero results. Pexels search \"kigali serena hotel\": no exact-subject property frames; generic Kigali cityscapes/skylines/street scenes plus a different hotel (Monomotapa Hotel, Harare). Openverse API unreachable (timed out; previously 504). No rights-clean exact-subject photograph found under a commercial-reuse no-attribution licence. Serena Hotels operator imagery is rights-reserved brand photography, excluded by standard. AI generation not used: for accommodations, imagined rooms/facilities must never be presented as actual property photos. No image downloaded; no gallery or asset change.",
+      "selected_images": [],
+      "excluded_candidates_note": "Generic Kigali/Rwanda Pexels frames (cityscape, skyline, street scenes) are not exact-property subjects; Monomotapa Hotel Harare frame is a different property; operator brand photography is All Rights Reserved.",
+      "mandatory_input_check": "No image or library change this run; review-only. sync-photo-library.mjs and npm run check:build-inputs re-ran clean on the unchanged library.",
+      "published_commit": null,
+      "email_id": null,
+      "report_status": "NOT SENT: no collection published/live-confirmed; owner receives this progress in chat.",
+      "rights_evidence": {
+        "sources_checked": [
+          "Wikimedia Commons",
+          "Pexels",
+          "Openverse"
+        ],
+        "commons_results": 0,
+        "pexels_exact_subject_results": 0,
+        "openverse": "unreachable"
+      },
+      "next_action": "Rotate to another zero-photo page across destinations, attractions, activities, travel insights and accommodations; Kigali Serena remains a zero-image page pending a future rights-clean exact-subject photo."
+    },
+    {
+      "id": "tunis-carthage-guided-walk-7-photo-enrichment-2026-11-16-1007z",
+      "page_url": "https://trekafricaguide.com/activities/tunis-carthage-sidi-bou-said-guided-walk/",
+      "page_type": "activity",
+      "status": "published_live_confirmed",
+      "started_at": "2026-11-16 10:07 UTC (13:07 Africa/Kampala)",
+      "previous_photo_count": 3,
+      "photo_count": 10,
+      "new_photo_count": 7,
+      "source_ledger": "docs/editorial-research/2026-11-16-tunis-carthage-guided-walk-7-photo-enrichment.md",
+      "selected_images": [
+        "tunis-bab-el-bhar-sea-gate.jpg",
+        "tunis-sidi-bou-said-blue-alley.jpg",
+        "tunis-youssef-dey-mosque.jpg",
+        "tunis-ez-zitouna-mosque-tower.jpg",
+        "tunis-medina-market-street.jpg",
+        "tunis-medina-cobblestone-alley.jpg",
+        "tunis-cityscape-skyline.jpg"
+      ],
+      "mandatory_input_check": "Passed sync-photo-library and check:build-inputs.",
+      "remaining_gap": "3-7 distinct images toward 10-17 target",
+      "report_status": "PENDING: live-confirmed, preparing owner email",
+      "published_commit": "08402ff",
+      "live_verification": {
+        "checked_at": "2026-11-16",
+        "page_http_status": 200,
+        "see_all_text": "See all 10 images",
+        "asset_http_statuses": [
+          200,
+          200,
+          200,
+          200,
+          200,
+          200,
+          200,
+          200,
+          200,
+          200
+        ],
+        "note": "Production serves the 10-image Tunis Carthage guided walk gallery; all ten assets return HTTP 200."
+      },
+      "next_action": "Rotate to another low-image page across destinations, attractions, activities, travel insights and accommodations; continue Tunis Carthage walk toward 10-17 distinct images.",
+      "email_id": null,
+      "report_sent_at": null
     },
     {
       "id": "tunis-carthage-walk-photo-enrichment-2026-11-14-1107z",
@@ -4634,6 +5015,184 @@
       },
       "report_status": "NOT SENT: no Gmail send tool is connected in this harness and the persistent browser's Gmail session is signed out (mail.google.com redirects to the Google Workspace sign-in page). The publication is live-confirmed; the owner report remains unsent until an owner signs in to Gmail in the OpenBot browser, and must not be claimed as delivered.",
       "next_action": "Rotate to another low-image page across destinations, attractions, activities, travel insights and accommodations; continue Marrakech toward 17 distinct views (Bab Agnaou, hammam and a generated riad-planning scene are the recorded gaps) when generation or a no-credit Bab Agnaou frame is available."
+    },
+    {
+      "id": "marrakech-destination-gallery-2026-11-15-1107",
+      "status": "published_live_confirmed",
+      "page_url": "https://trekafricaguide.com/countries/morocco/marrakech/",
+      "page_type": "destination",
+      "started_at": "2026-11-15 11:07 UTC (14:07 Africa/Kampala)",
+      "completed_at": "2026-11-15 11:47 UTC (14:47 Africa/Kampala)",
+      "previous_photo_count": 0,
+      "photo_count": 13,
+      "new_photo_count": 13,
+      "removed_gallery_count": 0,
+      "source_ledger": "docs/editorial-research/2026-11-15-marrakech-destination-photo-enrichment.md",
+      "published_commit": "ab5cbfb",
+      "mandatory_input_check": "Passed node scripts/sync-photo-library.mjs and npm run check:build-inputs; local npm run build cannot complete on this machine because .env.local holds placeholder Supabase credentials.",
+      "rights_standard": "New photographs only from exact-subject assets whose verified terms allow commercial reuse without public attribution: all 13 are Pexels License (no credit required). No CC BY or CC BY-SA file was newly published and no existing credit line was changed.",
+      "generation_status": "BLOCKED: the Radius image endpoint returned 402 insufficient_balance and OpenRouter image endpoints returned 402 Insufficient credits, so no generated frame was produced. The collection is entirely real photography; generated complementary scenes remain a gap.",
+      "live_verification": {
+        "checked_at": "2026-11-15T11:45:04Z",
+        "page_http_status": 200,
+        "gallery_text": "See all 13 images",
+        "asset_http_statuses": [
+          200,
+          200,
+          200,
+          200,
+          200,
+          200,
+          200,
+          200,
+          200,
+          200,
+          200,
+          200,
+          200
+        ],
+        "asset_content_types": [
+          "image/jpeg",
+          "image/jpeg",
+          "image/jpeg",
+          "image/jpeg",
+          "image/jpeg",
+          "image/jpeg",
+          "image/jpeg",
+          "image/jpeg",
+          "image/jpeg",
+          "image/jpeg",
+          "image/jpeg",
+          "image/jpeg",
+          "image/jpeg"
+        ],
+        "new_asset": "jemaa-el-fna-market-day.jpg"
+      },
+      "report_status": "",
+      "next_action": "Rotate to another low-image page across destinations, attractions, activities, travel insights and accommodations; continue Marrakech toward 17 distinct views (Bab Agnaou, hammam and a generated riad-planning scene are the recorded gaps) when generation or a no-credit Bab Agnaou frame is available."
+    },
+    {
+      "id": "choose-first-night-tunis-photo-enrichment-2026-11-16-1230z",
+      "status": "published_live_confirmed",
+      "page_url": "https://trekafricaguide.com/travel-insights/choose-first-night-tunis-medina-or-coast/",
+      "page_type": "travel_insight",
+      "started_at": "2026-11-16 12:30 UTC (15:30 Africa/Kampala)",
+      "previous_photo_count": 2,
+      "photo_count": 6,
+      "new_photo_count": 4,
+      "source_ledger": "docs/editorial-research/2026-11-16-choose-first-night-tunis-photo-enrichment.md",
+      "rights_standard": "New photographs only from exact-subject assets whose verified terms allow commercial reuse without public attribution: all 4 are Pexels License (no credit required). No CC BY or CC BY-SA file was newly published and no existing credit line was changed.",
+      "generation_status": "BLOCKED: no generation provider credit available (Radius/OpenRouter returned 402 in the prior run; ChatGPT built-in image generation previously failed with connection errors). No synthetic frame produced this run. Generated complementary scenes (Sidi Bou Said bay view, Tunis medina dawn) remain a gap.",
+      "next_action": "Send owner email at fsddanmugisa@gmail.com after this live confirmation; otherwise record non-send. Continue choose-first-night-tunis toward 10-17 distinct images (gap: Sidi Bou Said bay view, Tunis medina/dawn).",
+      "published_commit": "a7091f2",
+      "live_verification": {
+        "checked_at": "2026-11-16",
+        "page_http_status": 200,
+        "gallery_text": "Four new figure blocks rendered in the insight body; no See-all gallery on this insight page.",
+        "asset_http_statuses": [
+          200,
+          200,
+          200,
+          200
+        ],
+        "asset_content_types": [
+          "image/jpeg",
+          "image/jpeg",
+          "image/jpeg",
+          "image/jpeg"
+        ],
+        "new_asset": "tunis-souk-elderly-merchant.jpg",
+        "note": "Production serves the choose-first-night-tunis insight; page HTTP 200 and all four new assets return HTTP 200 image/jpeg with filenames present in the rendered markup."
+      },
+      "report_status": "NOT SENT: live-confirmed, but no Gmail sign-in/account access in this harness (mail.google.com shows a sign-in page; routine-run guidance bars a takeover for a sign-in that needs the user). Owner receives this progress in chat.",
+      "email_id": null,
+      "report_sent_at": null
+    },
+    {
+      "id": "lalibela-do-not-travel-insight-2-photo-enrichment-2026-11-17-0927z",
+      "page_url": "https://trekafricaguide.com/travel-insights/decide-lalibela-under-do-not-travel-advice/",
+      "page_type": "travel_insight",
+      "status": "published_live_confirmed",
+      "started_at": "2026-11-17 09:27 UTC (12:27 Africa/Kampala)",
+      "previous_photo_count": 0,
+      "photo_count": 2,
+      "new_photo_count": 2,
+      "checked_date": "2026-11-17",
+      "source_ledger": "docs/editorial-research/2026-11-17-lalibela-do-not-travel-photo-enrichment.md",
+      "initial_live_verification": "Production insight page HTTP 200, read in full: zero dedicated photos before this run; no og:image. Page copy is a do-not-travel advisory for Lalibela (Amhara) with no booking CTA.",
+      "note": "Bounded exact-subject rights search for Lalibela, Ethiopia found two Pexels-License (commercial reuse, no public attribution) photographs not already used on the Lalibela attraction or destination pages: a person in cultural clothing beside the ancient stone walls (Ludo Van den Nouweland, Pexels ID 12344942, 2022) and visitors at a rock-hewn church (Estella, Pexels ID 7438884, 2021). Both downloaded from the Pexels CDN, resized to 1600 pixels wide, SHA-256 recorded, and added to the insight body as figures with natural descriptive alt text. Image generation remains blocked (provider credits unavailable), so no synthetic frame added. No CC BY / CC BY-SA / attribution-required photos published. Rights evidence (source, creator, licence, check date, SHA-256) is in src/lib/photo-library.js; no public credits, citations, or AI labels, per owner preference.",
+      "selected_images": [
+        "lalibela-person-cultural-clothing-walls.jpg",
+        "lalibela-rock-hewn-church-family-estella.jpg"
+      ],
+      "excluded_candidates_note": "Wikimedia Commons Lalibela results are CC BY-SA / CC BY (attribution required, excluded for new publish); only the Pexels no-attribution pool was used. No imagined rooms or facilities involved (not an accommodation page).",
+      "mandatory_input_check": "Passed node scripts/sync-photo-library.mjs and npm run check:build-inputs.",
+      "remaining_gap": "8-15 distinct images toward 10-17 target",
+      "published_commit": "8991908",
+      "live_verification": {
+        "checked_at": "2026-11-17 09:37 UTC (12:37 Africa/Kampala)",
+        "page_http_status": 200,
+        "all_new_filenames_in_page": true,
+        "asset_http_statuses": [
+          200,
+          200
+        ],
+        "asset_content_types": [
+          "image/jpeg",
+          "image/jpeg"
+        ],
+        "asset_content_lengths": [
+          671700,
+          388696
+        ],
+        "note": "Production serves the two-image Lalibela do-not-travel insight gallery; both new filenames render in page markup and both assets return HTTP 200 image/jpeg with byte counts matching the stored files."
+      },
+      "email_id": null,
+      "report_status": "NOT SENT: live-confirmed, but mail.google.com shows a sign-in page and there is no Gmail login/secret tool available; routine-run guidance bars a takeover for a sign-in that needs the user. Recorded as non-send; owner receives this progress in chat.",
+      "next_action": "Rotate to another zero-photo page across destinations, attractions, activities, travel insights and accommodations; continue Lalibela insight toward 10-17 distinct images."
+    },
+    {
+      "id": "lalibela-do-not-travel-insight-4-photo-enrichment-2026-11-18",
+      "page_url": "https://trekafricaguide.com/travel-insights/decide-lalibela-under-do-not-travel-advice/",
+      "page_type": "travel_insight",
+      "status": "published_live_confirmed",
+      "started_at": "2026-11-18 ~09:45 UTC (12:45 Africa/Kampala)",
+      "previous_photo_count": 2,
+      "photo_count": 4,
+      "new_photo_count": 2,
+      "checked_date": "2026-11-18",
+      "source_ledger": "docs/editorial-research/2026-11-18-lalibela-do-not-travel-photo-enrichment-2.md",
+      "initial_live_verification": "Production insight page HTTP 200, read in full: 2 dedicated Pexels-Licence photos before this run (person beside stone walls; family at rock-hewn church). No booking CTA (do-not-travel advisory page).",
+      "note": "Second batch for the Lalibela do-not-travel insight: two Pexels-License (commercial reuse, no public attribution) exact-subject photographs added, gallery 2 -> 4 toward the 10-17 target: (1) priest in a turban holding a cross inside a rock-hewn church (Ludo Van den Nouweland, Pexels ID 12344936); (2) aerial view of the rock-hewn Church of Saint George (Aldo Bordoni, Pexels ID 39129274). Both downloaded from the Pexels CDN, resized to 1600 pixels wide, SHA-256 recorded, added to the insight body as figures with natural descriptive alt text. Neither frame is already used on the Lalibela attraction or local-destination pages. Image generation remains blocked (provider credits unavailable); no synthetic frame added. No CC BY / CC BY-SA / attribution-required photos published. Rights evidence (source, creator, licence, check date, SHA-256) is in src/lib/photo-library.js; no public credits, citations, or AI labels, per owner preference.",
+      "selected_images": [
+        "lalibela-priest-cross-interior-turban.jpg",
+        "lalibela-rock-hewn-church-aerial-aldo-bordoni.jpg"
+      ],
+      "excluded_candidates_note": "Wikimedia Commons Lalibela results are CC BY / CC BY-SA (attribution required, excluded for new publish); only the Pexels no-attribution pool was used. Not an accommodation page, so no imagined-room/facility risk applies.",
+      "mandatory_input_check": "Passed node scripts/sync-photo-library.mjs and npm run check:build-inputs.",
+      "remaining_gap": "6-13 distinct images toward 10-17 target",
+      "published_commit": "b2eed67",
+      "live_verification": {
+        "checked_at": "2026-11-18 ~09:55 UTC (12:55 Africa/Kampala)",
+        "page_http_status": 200,
+        "all_new_filenames_in_page": true,
+        "asset_http_statuses": [
+          200,
+          200
+        ],
+        "asset_content_types": [
+          "image/jpeg",
+          "image/jpeg"
+        ],
+        "asset_content_lengths": [
+          643640,
+          525558
+        ],
+        "note": "Production serves the four-image Lalibela do-not-travel insight gallery; all four filenames render in page markup and both new assets return HTTP 200 image/jpeg with byte counts matching the stored files."
+      },
+      "email_id": null,
+      "report_status": "NOT SENT: live-confirmed, but Gmail requires an interactive owner sign-in with no session available; takeover barred for this run. Recorded as non-send; owner receives this progress in chat.",
+      "next_action": "Rotate to another zero-photo page across destinations, attractions, activities, travel insights and accommodations; continue Lalibela insight toward 10-17 distinct images (6-13 more needed)."
     }
   ],
   "review_checkpoints": [
@@ -4684,24 +5243,14 @@
     "email_id": "1a1d95911ab86f10"
   },
   "current_run": {
-    "id": "tunis-local-destination-gallery-2026-11-15-1307",
-    "page_url": "https://trekafricaguide.com/countries/tunisia/tunis/",
-    "page_type": "local_destination",
-    "status": "pushed_pending_live_verification",
-    "started_at": "2026-11-15T13:07:00Z",
-    "completed_at": null,
-    "previous_photo_count": 0,
-    "photo_count": 6,
-    "new_photo_count": 6,
-    "removed_gallery_count": 0,
-    "source_ledger": "docs/editorial-research/2026-11-15-tunis-local-destination-photo-enrichment.json",
-    "published_commit": null,
-    "mandatory_input_check": "Passed node scripts/sync-photo-library.mjs and npm run check:build-inputs; no test suite run.",
-    "rights_standard": "All six are Pexels License photographs of exact Tunis subjects; attribution not required. No new attribution-required photograph published.",
-    "generation_status": "Not attempted: the Radius image endpoint reported insufficient balance earlier in this run, and the collection was completed with real photography.",
-    "live_verification": null,
-    "report_status": "PENDING: owner email must be attempted only after production confirms the page and all six assets.",
-    "next_action": "Poll production until the gallery and all six asset URLs return HTTP 200; then update this checkpoint and send the owner email."
+    "id": "camp-okavango-git-fixed-no-eligible-asset-2026-11-18-0907z",
+    "scheduled_at": "2026-11-18T09:07:00.000Z",
+    "page_url": "https://trekafricaguide.com/accommodations/camp-okavango/",
+    "page_type": "accommodation",
+    "status": "blocked_no_eligible_asset",
+    "photo_count": 0,
+    "new_photo_count": 0,
+    "report_status": "NOT SENT: no collection published/live-confirmed; no new asset; owner receives this progress in chat."
   },
   "latest_review": {
     "id": "casa-del-papa-exact-property-no-eligible-photo-review",

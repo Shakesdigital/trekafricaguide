@@ -88,7 +88,6 @@ export function buildStay22Url({ listing, offer, search = {}, affiliateId } = {}
   const params = new URLSearchParams({
     aid: affiliateId || DEFAULT_AFFILIATE_ID,
     link: source,
-    roam: 'false',
     campaign: (family + '_' + (listing?.slug || 'listing')).replace(/-/g, '_'),
   });
   for (const key of ['checkin', 'checkout', 'adults', 'children', 'childrenAges']) {

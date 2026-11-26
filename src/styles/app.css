@@ -2803,3 +2803,26 @@ img.page-hero__slot {
 .guide-search__results small { color: var(--text-muted); }
 .guide-search [hidden] { display: none; }
 @media (max-width: 819px) { .guide-search__form { display: grid; } }
+
+/* --- Carousel cards: open, transparent cards with a thin brand-green border ---
+   The cards blend into their section background instead of sitting in a white
+   container; the thin green outline keeps each card distinct. Scoped to
+   carousels only so archive grids keep their existing card styling. */
+.listing-carousel .listing-card,
+.card-carousel .listing-card,
+.card-carousel .region-card {
+    background: transparent;
+    border: 1px solid var(--brand-primary);
+    border-radius: var(--radius);
+    box-shadow: none;
+}
+
+/* --- Detail sidebar panels: open tabs with a thin brand-green border ---
+   Booking option, related travel insights and video panels blend into the page
+   background with no white container or shadow. */
+.detail-rail > .booking-panel,
+.detail-rail > .info-panel {
+    background: transparent;
+    border: 1px solid var(--brand-primary);
+    box-shadow: none;
+}

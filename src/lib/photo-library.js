@@ -1,7 +1,7 @@
 // Curated source. Run node scripts/sync-photo-library.mjs after editing.
 // Curated free photography; source and licence metadata travel with each image.
 export const photoLibrary = {
-  "updated_at": "2026-11-15",
+  "updated_at": "2026-11-19",
   "images": {
     "/images/editorial/marrakech-destination/jemaa-el-fna-market-day.jpg": {
       "kind": "photograph", "slug": "jemaa-el-fna-market-day", "local_path": "/images/editorial/marrakech-destination/jemaa-el-fna-market-day.jpg",
@@ -118,6 +118,48 @@ export const photoLibrary = {
       "subject": "Representative Tunisian coastal village walking scene", "alt": "Travelers talking with a guide on a whitewashed coastal lane", "creator": "ChatGPT for Trek Africa Guide", "date": "2026-11-14", "property": false, "exact_subject": false, "requires_attribution": false,
       "sha256": "14bdb4e503f723147aa01d118f0062afa40f09cb7af4207c628cecd164717ff3", "generation_tool": "ChatGPT built-in image generator", "provenance": "Original illustrative coastal walking scene; not documentary photography of a particular tour, guide, travelers or street."
     },
+    "/images/editorial/tunis-carthage-guided-walk/tunis-bab-el-bhar-sea-gate.jpg": {
+      "kind": "photograph", "slug": "tunis-bab-el-bhar-sea-gate", "local_path": "/images/editorial/tunis-carthage-guided-walk/tunis-bab-el-bhar-sea-gate.jpg",
+      "source_page": "https://www.pexels.com/photo/bab-el-bhar-in-tunis-16819833/", "creator": "Pexels contributor", "license": "Pexels License", "license_url": "https://www.pexels.com/license/", "checked_at": "2026-11-16",
+      "sha256": "da51cf6df2eef191d1a80a42140e30495ea9f7a4c1d5ed4ecc15eed4ab01ef91", "exact_subject": true, "subject": "Bab el Bhar (Sea Gate), Tunis, Tunisia", "alt": "The historic Bab el Bhar Sea Gate entrance to the Tunis medina on a sunny day", "property": false, "requires_attribution": false,
+      "changes": "Pexels CDN JPEG at 1600 pixels wide; no local edits.", "exact_subject_evidence": "Pexels photo page titled 'Bab el Bhar in Tunis' identifies the Sea Gate entrance to the medina."
+    },
+    "/images/editorial/tunis-carthage-guided-walk/tunis-sidi-bou-said-blue-alley.jpg": {
+      "kind": "photograph", "slug": "tunis-sidi-bou-said-blue-alley", "local_path": "/images/editorial/tunis-carthage-guided-walk/tunis-sidi-bou-said-blue-alley.jpg",
+      "source_page": "https://www.pexels.com/photo/charming-cobblestone-alley-in-sidi-bou-said-32335919/", "creator": "Pexels contributor", "license": "Pexels License", "license_url": "https://www.pexels.com/license/", "checked_at": "2026-11-16",
+      "sha256": "e6aa3207da304ebfab8b7d9f90e559c99ff4e5e3cb014a73e41588e21fbc43a7", "exact_subject": true, "subject": "Cobblestone alley in Sidi Bou Said, Tunisia", "alt": "Blue-and-white cobblestone alley in Sidi Bou Said, Tunisia", "property": false, "requires_attribution": false,
+      "changes": "Pexels CDN JPEG at 1600 pixels wide; no local edits.", "exact_subject_evidence": "Pexels photo page titled 'Charming Cobblestone Alley in Sidi Bou Said' identifies the location."
+    },
+    "/images/editorial/tunis-carthage-guided-walk/tunis-youssef-dey-mosque.jpg": {
+      "kind": "photograph", "slug": "tunis-youssef-dey-mosque", "local_path": "/images/editorial/tunis-carthage-guided-walk/tunis-youssef-dey-mosque.jpg",
+      "source_page": "https://www.pexels.com/photo/youssef-dey-mosque-in-tunis-tunisia-19138215/", "creator": "Pexels contributor", "license": "Pexels License", "license_url": "https://www.pexels.com/license/", "checked_at": "2026-11-16",
+      "sha256": "628f585d2e0f3fe3509f0320cf15469ac8da6b241fa62ea8aa8fde26e2ece8df", "exact_subject": true, "subject": "Youssef Dey Mosque, Tunis, Tunisia", "alt": "The historic Youssef Dey Mosque in Tunis Medina, Tunisia", "property": false, "requires_attribution": false,
+      "changes": "Pexels CDN JPEG at 1600 pixels wide; no local edits.", "exact_subject_evidence": "Pexels photo page titled 'Youssef Dey Mosque in Tunis, Tunisia' identifies the mosque."
+    },
+    "/images/editorial/tunis-carthage-guided-walk/tunis-ez-zitouna-mosque-tower.jpg": {
+      "kind": "photograph", "slug": "tunis-ez-zitouna-mosque-tower", "local_path": "/images/editorial/tunis-carthage-guided-walk/tunis-ez-zitouna-mosque-tower.jpg",
+      "source_page": "https://www.pexels.com/photo/tower-of-ez-zitouna-mosque-in-tunis-17917078/", "creator": "Pexels contributor", "license": "Pexels License", "license_url": "https://www.pexels.com/license/", "checked_at": "2026-11-16",
+      "sha256": "edbf760efa422fe0f484b166126af84bf5f1f0ca103c0fca76ca9414ed007187", "exact_subject": true, "subject": "Ez Zitouna Mosque tower, Tunis, Tunisia", "alt": "The minaret tower of Ez Zitouna Mosque in Tunis, Tunisia", "property": false, "requires_attribution": false,
+      "changes": "Pexels CDN JPEG at 1600 pixels wide; no local edits.", "exact_subject_evidence": "Pexels photo page titled 'Tower of Ez Zitouna Mosque in Tunis' identifies the mosque tower."
+    },
+    "/images/editorial/tunis-carthage-guided-walk/tunis-medina-market-street.jpg": {
+      "kind": "photograph", "slug": "tunis-medina-market-street", "local_path": "/images/editorial/tunis-carthage-guided-walk/tunis-medina-market-street.jpg",
+      "source_page": "https://www.pexels.com/photo/bustling-market-street-in-tunis-medina-31020142/", "creator": "Pexels contributor", "license": "Pexels License", "license_url": "https://www.pexels.com/license/", "checked_at": "2026-11-16",
+      "sha256": "ae98aea7649658e4243d53479b46b1ab85ad154210d1c835338fc43f6f0f9f91", "exact_subject": true, "subject": "Market street in Tunis Medina, Tunisia", "alt": "Vibrant market street in the Medina of Tunis with traditional architecture", "property": false, "requires_attribution": false,
+      "changes": "Pexels CDN JPEG at 1600 pixels wide; no local edits.", "exact_subject_evidence": "Pexels photo page titled 'Bustling Market Street in Tunis Medina' identifies the location."
+    },
+    "/images/editorial/tunis-carthage-guided-walk/tunis-medina-cobblestone-alley.jpg": {
+      "kind": "photograph", "slug": "tunis-medina-cobblestone-alley", "local_path": "/images/editorial/tunis-carthage-guided-walk/tunis-medina-cobblestone-alley.jpg",
+      "source_page": "https://www.pexels.com/photo/charming-alleyway-in-medina-of-tunis-tunisia-38002209/", "creator": "Pexels contributor", "license": "Pexels License", "license_url": "https://www.pexels.com/license/", "checked_at": "2026-11-16",
+      "sha256": "4c3133ed663b59d3bf722e6d8727f78d8d21efd940dc180ff0eeb613bf44f042", "exact_subject": true, "subject": "Cobblestone alley in Tunis Medina, Tunisia", "alt": "Cobblestone alley in the historic Medina of Tunis", "property": false, "requires_attribution": false,
+      "changes": "Pexels CDN JPEG at 1600 pixels wide; no local edits.", "exact_subject_evidence": "Pexels photo page titled 'Charming Alleyway in Medina of Tunis, Tunisia' identifies the location."
+    },
+    "/images/editorial/tunis-carthage-guided-walk/tunis-cityscape-skyline.jpg": {
+      "kind": "photograph", "slug": "tunis-cityscape-skyline", "local_path": "/images/editorial/tunis-carthage-guided-walk/tunis-cityscape-skyline.jpg",
+      "source_page": "https://www.pexels.com/photo/panoramic-view-of-tunisian-city-skyline-38224352/", "creator": "Pexels contributor", "license": "Pexels License", "license_url": "https://www.pexels.com/license/", "checked_at": "2026-11-16",
+      "sha256": "a804f7213df2e02c303bd20b845eed8df1606ff4910329c8ee71c6d65fcce049", "exact_subject": true, "subject": "Tunis city skyline, Tunisia", "alt": "Panoramic view of Tunisian city skyline under clear skies", "property": false, "requires_attribution": false,
+      "changes": "Pexels CDN JPEG at 1600 pixels wide; no local edits.", "exact_subject_evidence": "Pexels photo page titled 'Panoramic View of Tunisian City Skyline' identifies the location."
+    },
     "/images/editorial/choose-first-night-tunis/sidi-bou-said-street-pexels-24233192.jpg": {
       "kind": "photograph", "slug": "sidi-bou-said-street-pexels-24233192", "local_path": "/images/editorial/choose-first-night-tunis/sidi-bou-said-street-pexels-24233192.jpg",
       "source_page": "https://www.pexels.com/photo/sidewalk-cafe-in-old-town-in-tunisia-24233192/", "creator": "Mihaela David", "license": "Pexels License", "license_url": "https://www.pexels.com/license/", "checked_at": "2026-11-14",
@@ -128,6 +170,30 @@ export const photoLibrary = {
       "kind": "generated", "slug": "medina-courtyard-context", "local_path": "/images/editorial/choose-first-night-tunis/medina-courtyard-context.png",
       "source": "OpenAI image generation", "generated_at": "2026-11-14", "sha256": "d589b112fc2535adbb0c39e103d5286dabe6c6005430d0d583ad51d58c31c262", "alt": "Sunlit courtyard with blue doors, tilework, an olive tree and a breakfast table", "exact_subject": false, "subject": "Generic Tunisian courtyard context", "requires_attribution": false,
       "prompt_summary": "Realistic generic Tunisian guesthouse courtyard with no people or named property", "inspection": "Visual inspection found coherent architecture and objects; no specific property claim."
+    },
+    "/images/editorial/choose-first-night-tunis/carthage-flag-building.jpg": {
+      "kind": "photograph", "slug": "carthage-flag-building", "local_path": "/images/editorial/choose-first-night-tunis/carthage-flag-building.jpg",
+      "source_page": "https://www.pexels.com/photo/tunisian-flag-waving-on-carthage-building-29679569/", "creator": "Mahmoud Yahyaoui", "license": "Pexels License", "license_url": "https://www.pexels.com/license/", "checked_at": "2026-11-16",
+      "sha256": "6be2c41156a67a9d4ab7aa6f1017cee0e8c28b1bd8ffcd721cf4f36442f8cd3f", "exact_subject": true, "subject": "Tunisian flag at a building in Carthage, Tunisia", "alt": "Tunisian flag waving at a building in Carthage on a sunny day", "requires_attribution": false,
+      "changes": "Pexels CDN JPEG resized to 1600 pixels wide.", "exact_subject_evidence": "Pexels photo page titled 'Tunisian Flag Waving on Carthage Building' places the scene at a building in Carthage, Tunis Governorate, Tunisia; its description reads 'Tunisian flag waving at a building in Carthage, Tunisia on a sunny day.'"
+    },
+    "/images/editorial/choose-first-night-tunis/tunis-rooftops-minaret.jpg": {
+      "kind": "photograph", "slug": "tunis-rooftops-minaret", "local_path": "/images/editorial/choose-first-night-tunis/tunis-rooftops-minaret.jpg",
+      "source_page": "https://www.pexels.com/photo/rooftop-satellite-dishes-and-minaret-in-tunis-29787870/", "creator": "Mahmoud Yahyaoui", "license": "Pexels License", "license_url": "https://www.pexels.com/license/", "checked_at": "2026-11-16",
+      "sha256": "be0442b983d2e6edf46fb0d4b2ccc00a822a5d61fd7bf906ff0d769fc0b06cee", "exact_subject": true, "subject": "Tunis urban rooftops beneath a minaret, Tunisia", "alt": "Urban rooftops with satellite dishes beneath a towering minaret in Tunis", "requires_attribution": false,
+      "changes": "Pexels CDN JPEG resized to 1600 pixels wide.", "exact_subject_evidence": "Pexels photo page titled 'Rooftop Satellite Dishes and Minaret in Tunis' places the scene in Tunis, Tunis Governorate, Tunisia; description reads 'Urban rooftops with satellite dishes beneath a towering minaret in Tunis, Tunisia.'"
+    },
+    "/images/editorial/choose-first-night-tunis/tunis-souk-elderly-merchant.jpg": {
+      "kind": "photograph", "slug": "tunis-souk-elderly-merchant", "local_path": "/images/editorial/choose-first-night-tunis/tunis-souk-elderly-merchant.jpg",
+      "source_page": "https://www.pexels.com/photo/old-man-in-tunisia-s-souk-eating-bread-27685454/", "creator": "Mahmoud Yahyaoui", "license": "Pexels License", "license_url": "https://www.pexels.com/license/", "checked_at": "2026-11-16",
+      "sha256": "958235b72d6781646b66eb40da8ebdac4354df88ee8f91190aea32032a49006e", "exact_subject": true, "subject": "Elderly merchant in a Tunis souk shop, Tunisia", "alt": "An elderly merchant sits in a Tunis souk shop surrounded by traditional wares", "requires_attribution": false,
+      "changes": "Pexels CDN JPEG resized to 1600 pixels wide.", "exact_subject_evidence": "Pexels photo page titled 'Old Man in Tunisia's Souk Eating Bread' places the scene in a Tunis souk, Tunis Governorate, Tunisia; description reads 'An elderly merchant sits in a Tunis souk shop surrounded by traditional wares.'"
+    },
+    "/images/editorial/choose-first-night-tunis/carthage-shoreline-aerial.jpg": {
+      "kind": "photograph", "slug": "carthage-shoreline-aerial", "local_path": "/images/editorial/choose-first-night-tunis/carthage-shoreline-aerial.jpg",
+      "source_page": "https://www.pexels.com/photo/harbor-in-tunis-in-sunlight-20190784/", "creator": "Mahmoud Yahyaoui", "license": "Pexels License", "license_url": "https://www.pexels.com/license/", "checked_at": "2026-11-16",
+      "sha256": "96550fd6f6a0dfe8280388abe0bd87d9f71d0ce3127c33072ef6ae6172f200ae", "exact_subject": true, "subject": "Carthage shoreline aerial view, Tunisia", "alt": "Aerial view of the Carthage shoreline and Mediterranean Sea in Tunisia", "requires_attribution": false,
+      "changes": "Pexels CDN JPEG resized to 1600 pixels wide.", "exact_subject_evidence": "Pexels photo page (location Carthage, Tunis Governorate, Tunisia) describes an aerial view of the Carthage shoreline in Tunisia; its Mediterranean Sea framing was confirmed in the downloaded file."
     },
     "/images/editorial/kruger-attraction/elephant-graham-hunt.jpg": {
       "kind": "photograph", "slug": "elephant-graham-hunt", "local_path": "/images/editorial/kruger-attraction/elephant-graham-hunt.jpg",
@@ -9138,6 +9204,90 @@ export const photoLibrary = {
       "exact_subject_evidence": "The Unsplash source page describes seating at a beach bar and restaurant on Lumley Beach in Freetown and gives Lumley Beach Road, Freetown, Sierra Leone as the location. Visual review confirms chairs, parasol, sand and a beachfront building, with no people or visible brand.",
       "reuse_note": "Unsplash License permits website use without public attribution. This is an illustrative Lumley beach scene, not Tokeh, River Number Two, a named hotel or a statement about current swimming conditions."
     },
+    "/images/editorial/sierra-leone-country/freetown-aerial-cityscape-abdulai-sayni.jpg": {
+      "slug": "freetown-aerial-cityscape-abdulai-sayni",
+      "local_path": "/images/editorial/sierra-leone-country/freetown-aerial-cityscape-abdulai-sayni.jpg",
+      "source_page": "https://unsplash.com/photos/a-view-of-a-city-with-a-body-of-water-in-the-background-Vqd22Lb0rJc",
+      "source_revision": "Unsplash photo Vqd22Lb0rJc, checked 2026-11-17",
+      "creator": "Abdulai Sayni",
+      "license": "Unsplash License",
+      "license_url": "https://unsplash.com/license",
+      "source_published_at": "2022-12-10",
+      "sha256": "3ddfccc5f903ebd79c9af01f25f6a858ee7f64d22247ea748554847a1566d40f",
+      "exact_subject": true,
+      "subject": "Aerial view of Freetown, Western Area Urban, Sierra Leone",
+      "alt": "Aerial view over Freetown's neighbourhoods and coastline in Sierra Leone.",
+      "property": false,
+      "kind": "photograph",
+      "requires_attribution": false,
+      "changes": "Downloaded from the Unsplash CDN at 1600 pixels wide with aspect ratio preserved; JPEG quality 82; no other edits.",
+      "checked_at": "2026-11-17",
+      "exact_subject_evidence": "The Unsplash source page identifies the scene as Freetown, Western Area Urban, Sierra Leone, photographed by Abdulai Sayni on 10 December 2022. Visual review confirms a cityscape over the coast.",
+      "reuse_note": "Unsplash License permits website use without public attribution. This is an orientation view of Freetown, not a named hotel, beach resort or statement about current conditions."
+    },
+    "/images/editorial/sierra-leone-country/freetown-waterside-houses-abdulai-sayni.jpg": {
+      "slug": "freetown-waterside-houses-abdulai-sayni",
+      "local_path": "/images/editorial/sierra-leone-country/freetown-waterside-houses-abdulai-sayni.jpg",
+      "source_page": "https://unsplash.com/photos/a-large-body-of-water-with-a-bunch-of-houses-on-top-of-it-rcrxKvqwpbA",
+      "source_revision": "Unsplash photo rcrxKvqwpbA, checked 2026-11-17",
+      "creator": "Abdulai Sayni",
+      "license": "Unsplash License",
+      "license_url": "https://unsplash.com/license",
+      "source_published_at": "2022-12-10",
+      "sha256": "04cfb2e54488282224e0a93f09627f9ef203d6a96c08c8317ed88c5c6f2099e7",
+      "exact_subject": true,
+      "subject": "Houses over water on the Sierra Leone coast",
+      "alt": "Houses standing over the water along the Sierra Leone coastline.",
+      "property": false,
+      "kind": "photograph",
+      "requires_attribution": false,
+      "changes": "Downloaded from the Unsplash CDN at 1600 pixels wide with aspect ratio preserved; JPEG quality 82; no other edits.",
+      "checked_at": "2026-11-17",
+      "exact_subject_evidence": "The Unsplash source page identifies the location as Sierra Leone, photographed by Abdulai Sayni on 10 December 2022. Visual review confirms houses built directly over the water.",
+      "reuse_note": "Unsplash License permits website use without public attribution. This is a coastal waterside settlement scene in Sierra Leone, not a named property or hotel."
+    },
+    "/images/editorial/sierra-leone-country/freetown-lumley-wilkinson-road-view-random-institute.jpg": {
+      "slug": "freetown-lumley-wilkinson-road-view-random-institute",
+      "local_path": "/images/editorial/sierra-leone-country/freetown-lumley-wilkinson-road-view-random-institute.jpg",
+      "source_page": "https://unsplash.com/photos/green-trees-and-brown-buildings-during-daytime-RbI3m7aE1LM",
+      "source_revision": "Unsplash photo RbI3m7aE1LM, checked 2026-11-17",
+      "creator": "Random Institute",
+      "license": "Unsplash License",
+      "license_url": "https://unsplash.com/license",
+      "source_published_at": "2020-02-25",
+      "sha256": "bcc9eeb32612ca217362b3e4b04ae72448edb3c823c7d67d32ef82c83d5ed099",
+      "exact_subject": true,
+      "subject": "View of Freetown from Lumley Beach towards Wilkinson Road, Sierra Leone",
+      "alt": "View over Freetown from Lumley Beach towards Wilkinson Road in Sierra Leone.",
+      "property": false,
+      "kind": "photograph",
+      "requires_attribution": false,
+      "changes": "Downloaded from the Unsplash CDN at 1600 pixels wide with aspect ratio preserved; JPEG quality 82; no other edits.",
+      "checked_at": "2026-11-17",
+      "exact_subject_evidence": "The Unsplash source page identifies the scene as Freetown, Sierra Leone, photographed by Random Institute on 25 February 2020. Visual review confirms buildings and trees along the coast road.",
+      "reuse_note": "Unsplash License permits website use without public attribution. This is an orientation view of Freetown, not a named hotel, beach resort or statement about current swimming conditions."
+    },
+    "/images/editorial/sierra-leone-country/freetown-siaka-stevens-street-dominique-fofanah.jpg": {
+      "slug": "freetown-siaka-stevens-street-dominique-fofanah",
+      "local_path": "/images/editorial/sierra-leone-country/freetown-siaka-stevens-street-dominique-fofanah.jpg",
+      "source_page": "https://unsplash.com/photos/street-in-an-urban-area-with-aged-buildings-p9wTARA03CI",
+      "source_revision": "Unsplash photo p9wTARA03CI, checked 2026-11-17",
+      "creator": "Dominique Fofanah",
+      "license": "Unsplash License",
+      "license_url": "https://unsplash.com/license",
+      "source_published_at": "2025-07-29",
+      "sha256": "a484b650196b62ccbde93a82d7050f941a046e723b794a2b9ec94b14289b8c39",
+      "exact_subject": true,
+      "subject": "Siaka Stevens Street, Freetown, Sierra Leone",
+      "alt": "Street scene on Siaka Stevens Street in central Freetown, Sierra Leone.",
+      "property": false,
+      "kind": "photograph",
+      "requires_attribution": false,
+      "changes": "Downloaded from the Unsplash CDN at 1600 pixels wide with aspect ratio preserved; JPEG quality 82; no other edits.",
+      "checked_at": "2026-11-17",
+      "exact_subject_evidence": "The Unsplash source page identifies the scene as Siaka Stevens Street, Freetown, Sierra Leone, photographed by Dominique Fofanah on 29 July 2025. Visual review confirms an urban street with buildings.",
+      "reuse_note": "Unsplash License permits website use without public attribution. This is a Freetown street scene, not a named property, hotel or business."
+    },
     "/images/editorial/sierra-leone-country/freetown-coastline-bunting-kargbo.jpg": {
       "slug": "freetown-coastline-bunting-kargbo",
       "local_path": "/images/editorial/sierra-leone-country/freetown-coastline-bunting-kargbo.jpg",
@@ -12126,6 +12276,299 @@ export const photoLibrary = {
       "changes": "Pexels CDN JPEG resized to 1600 pixels wide; no other edits.",
       "exact_subject_evidence": "Pexels title and description identify the Tunis historic street; downloaded frame visually confirmed the cobblestone street and historic facades.",
       "reuse_note": "Pexels License: free for commercial use; attribution not required."
+    },
+    "/images/editorial/president-hotel-bantry-bay/bantry-bay-coastline.jpg": {
+      "slug": "president-bantry-bay-coastline", "local_path": "/images/editorial/president-hotel-bantry-bay/bantry-bay-coastline.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Bantry_Bay_Cape_Town.jpg", "source_title": "Bantry Bay Cape Town.jpg", "creator": "SkyPixels",
+      "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "sha256": "f9fd85f360a7f69fde44f556b4be2ca0b63be67521de555dcccd15c6a927bd36", "source_sha1": "2fba8b77c5abff32ff19719dc15eab4a9d76cbe1", "source_revision_id": null, "source_revision_date": "2016-08-02",
+      "checked_date": "2026-11-16", "date": "2016-08-02",
+      "exact_subject": false, "subject": "Bantry Bay coastline, Cape Town — the Atlantic shoreline at the President Hotel's Bantry Bay suburb", "kind": "photograph",
+      "alt": "Rocky Bantry Bay coastline beneath the slopes of Lion’s Head, Cape Town, where the President Hotel stands.",
+      "exact_subject_evidence": "Commons description: \"Bantry Bay is an affluent suburb of Cape Town situated on the slopes of Lion’s Head and overlooking a rocky coastline\". Destination setting, not a photograph of the accommodation.",
+      "restrictions": "Destination-setting image, explicitly labelled as not a photograph of the accommodation. Photo licence only; no endorsement or separate personality/property rights. Follow attribution and share-alike terms where applicable."
+    },
+    "/images/editorial/president-hotel-bantry-bay/sea-point-promenade-coast.jpg": {
+      "slug": "president-sea-point-promenade-coast", "local_path": "/images/editorial/president-hotel-bantry-bay/sea-point-promenade-coast.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Cape_Town_(ZA),_Sea_Point_Promenade,_K%C3%BCste_--_2024_--_3632.jpg", "source_title": "Cape Town (ZA), Sea Point Promenade, Küste -- 2024 -- 3632.jpg", "creator": "Dietmar Rabich",
+      "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "sha256": "dcfe0b6f71aca7beee08b3a114cd4f0c61483946bf5c02594b5ab16e487682f5", "source_sha1": "1556e3da44e5768ad1a04d9a4cd4b74c84943e24", "source_revision_id": null, "source_revision_date": "2024-03-27",
+      "checked_date": "2026-11-16", "date": "2024-03-02",
+      "exact_subject": false, "subject": "Sea Point promenade coastline near the President Hotel", "kind": "photograph",
+      "alt": "The Sea Point promenade follows the Atlantic coastline in Cape Town, a short walk from the President Hotel.",
+      "exact_subject_evidence": "Commons description: \"Coast in Sea Point, Cape Town, Western Cape, South Africa\". Destination setting, not a photograph of the accommodation.",
+      "restrictions": "Destination-setting image, explicitly labelled as not a photograph of the accommodation. Photo licence only; no endorsement or separate personality/property rights. Follow attribution and share-alike terms where applicable."
+    },
+    "/images/editorial/president-hotel-bantry-bay/sea-point-promenade-sunset.jpg": {
+      "slug": "president-sea-point-promenade-sunset", "local_path": "/images/editorial/president-hotel-bantry-bay/sea-point-promenade-sunset.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Cape_Town_(ZA),_Sea_Point_Promenade,_Sonnenuntergang_--_2024_--_1835.jpg", "source_title": "Cape Town (ZA), Sea Point Promenade, Sonnenuntergang -- 2024 -- 1835.jpg", "creator": "Dietmar Rabich",
+      "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "sha256": "1ce5fb19a83e44174308bbc3022a0a30d6c53605b42585fad29e94044b4ce14c", "source_sha1": "059555f2c20ea1c35500afeb79b2afa05770069f", "source_revision_id": null, "source_revision_date": "2024-03-15",
+      "checked_date": "2026-11-16", "date": "2024-03-04",
+      "exact_subject": false, "subject": "Sunset over the Sea Point promenade", "kind": "photograph",
+      "alt": "Sunset over the Atlantic from the Sea Point promenade in Cape Town, near the President Hotel.",
+      "exact_subject_evidence": "Commons description: \"Sunset, Sea Point, Cape Town, Western Cape, South Africa\". Destination setting, not a photograph of the accommodation.",
+      "restrictions": "Destination-setting image, explicitly labelled as not a photograph of the accommodation. Photo licence only; no endorsement or separate personality/property rights. Follow attribution and share-alike terms where applicable."
+    },
+    "/images/editorial/president-hotel-bantry-bay/green-point-lighthouse.jpg": {
+      "slug": "president-green-point-lighthouse", "local_path": "/images/editorial/president-hotel-bantry-bay/green-point-lighthouse.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Cape_Town_(ZA),_Green_Point_Lighthouse_--_2024_--_3566.jpg", "source_title": "Cape Town (ZA), Green Point Lighthouse -- 2024 -- 3566.jpg", "creator": "Dietmar Rabich",
+      "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "sha256": "6c0d8666b6543768cc7d6b4c1cb8ba16ac4b390ca35baa5ec56b5f8ab213dc98", "source_sha1": "bd057fc83a54b334b9bae40d4c3a340c73a2ce2d", "source_revision_id": null, "source_revision_date": "2024-03-27",
+      "checked_date": "2026-11-16", "date": "2024-03-02",
+      "exact_subject": false, "subject": "Green Point Lighthouse, Cape Town — landmark between Sea Point and the city centre", "kind": "photograph",
+      "alt": "Green Point Lighthouse in Cape Town, between the Sea Point shore and the city centre.",
+      "exact_subject_evidence": "Commons description: \"Green Point Lighthouse, Cape Town, Western Cape, South Africa\". Destination setting, not a photograph of the accommodation.",
+      "restrictions": "Destination-setting image, explicitly labelled as not a photograph of the accommodation. Photo licence only; no endorsement or separate personality/property rights. Follow attribution and share-alike terms where applicable."
+    },
+    "/images/editorial/president-hotel-bantry-bay/sea-point-view.jpg": {
+      "slug": "president-sea-point-view", "local_path": "/images/editorial/president-hotel-bantry-bay/sea-point-view.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Sea_Point,_Cape_Town,_South_Africa_(Unsplash).jpg", "source_title": "Sea Point, Cape Town, South Africa (Unsplash).jpg", "creator": "John O'Nolan johnonolan",
+      "license": "CC0", "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "sha256": "ef66c7611bb5f92d5e508798600030e3d7dde96a950f1cb0274648d40ec7cc06", "source_sha1": "13fbc28f332c069d503be6143c7c6679d4c5372c", "source_revision_id": null, "source_revision_date": "2017-08-22",
+      "checked_date": "2026-11-16", "date": "2017-03-25",
+      "exact_subject": false, "subject": "Sea Point, Cape Town — the neighborhood base of the President Hotel", "kind": "photograph",
+      "alt": "A view across Sea Point, Cape Town, the seaside neighborhood around the President Hotel.",
+      "exact_subject_evidence": "Commons description: \"Sea Point, Cape Town, South Africa\". Destination setting, not a photograph of the accommodation.",
+      "restrictions": "Destination-setting image, explicitly labelled as not a photograph of the accommodation. Photo licence only; no endorsement or separate personality/property rights. Follow attribution and share-alike terms where applicable."
+    },
+    "/images/editorial/president-hotel-bantry-bay/sea-point-aerial.jpg": {
+      "slug": "president-sea-point-aerial", "local_path": "/images/editorial/president-hotel-bantry-bay/sea-point-aerial.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Aerial_View_of_Sea_Point,_Cape_Town_South_Africa.jpg", "source_title": "Aerial View of Sea Point, Cape Town South Africa.jpg", "creator": "Hilton1949",
+      "license": "CC BY-SA 3.0", "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "sha256": "6fa90664c79d57d3f5b4c2b9a585c0c98f6cccb6de24f60fe8798ac204d9b4b9", "source_sha1": "f7a3752a15558e3869ec4ca225735a0aacad87be", "source_revision_id": null, "source_revision_date": "2011-03-08",
+      "checked_date": "2026-11-16", "date": "2009-06-29",
+      "exact_subject": false, "subject": "Aerial view of Sea Point, Cape Town", "kind": "photograph",
+      "alt": "Aerial view over Sea Point, Cape Town, showing the shore and the neighborhood around the President Hotel.",
+      "exact_subject_evidence": "Commons description: \"Aerial View of Sea Point, Cape Town South Africa\". Destination setting, not a photograph of the accommodation.",
+      "restrictions": "Destination-setting image, explicitly labelled as not a photograph of the accommodation. Photo licence only; no endorsement or separate personality/property rights. Follow attribution and share-alike terms where applicable."
+    },
+    "/images/editorial/serengeti-local-destination/plaines-du-serengeti.jpg": {
+      "slug": "serengeti-destination-plaines",
+      "local_path": "/images/editorial/serengeti-local-destination/plaines-du-serengeti.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Plaines_du_Serengeti.jpg",
+      "source_revision": "Wikimedia Commons file Plaines du Serengeti.jpg",
+      "creator": "EmelineSG",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "date": "2012-02-04",
+      "source_published_at": "2012-02-04",
+      "captured_at": "2012-02-04",
+      "sha256": "46af6e2977f60215b2043f7444361db9e6f4ab15c267779462c2c056b39e4a9d",
+      "exact_subject": true,
+      "subject": "Open Serengeti plains panorama",
+      "alt": "Open short-grass Serengeti plains under a broad sky, with small scattered trees at the horizon.",
+      "property": false,
+      "kind": "photograph",
+      "requires_attribution": true,
+      "changes": "Downloaded from the Wikimedia Commons original and resized to 1800 pixels wide with aspect ratio preserved; no other edits.",
+      "checked_at": "2026-11-16",
+      "exact_subject_evidence": "The Commons file page title and category identify the Serengeti plains in Tanzania; the scene shows treeless short-grass savannah with kopje-country horizons consistent with the park.",
+      "reuse_note": "CC BY-SA 4.0 permits reuse with attribution and share-alike; the photograph appears on the /photo-credits page with creator, source and licence. Resize and crop for display only."
+    },
+    "/images/editorial/serengeti-local-destination/great-migration-kogatende.jpg": {
+      "slug": "serengeti-destination-migration-kogatende",
+      "local_path": "/images/editorial/serengeti-local-destination/great-migration-kogatende.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Great_Migration_in_Kogatende,_Serengeti_by_Tanzania_GET_Safaris.jpg",
+      "source_revision": "Wikimedia Commons file Great Migration in Kogatende, Serengeti by Tanzania GET Safaris.jpg",
+      "creator": "Reginald Victor Runyoro",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "date": "2019-08-10",
+      "source_published_at": "2019-08-10",
+      "captured_at": "2019-08-10",
+      "sha256": "df7f5bf64fbf1dbb337a367a44d4d5a13306bdc3202068948e6d0a10f53d0199",
+      "exact_subject": true,
+      "subject": "Great migration herds in Kogatende, northern Serengeti",
+      "alt": "Long lines of migrating wildebeest spread across dry grassland in Kogatende, northern Serengeti.",
+      "property": false,
+      "kind": "photograph",
+      "requires_attribution": true,
+      "changes": "Downloaded from the Wikimedia Commons original and resized to 1800 pixels wide with aspect ratio preserved; no other edits.",
+      "checked_at": "2026-11-16",
+      "exact_subject_evidence": "The Commons file page title and description identify the Great Migration in Kogatende, Serengeti, in the dry-season northern range of the herds.",
+      "reuse_note": "CC BY-SA 4.0 permits reuse with attribution and share-alike; the photograph appears on the /photo-credits page with creator, source and licence. Resize and crop for display only."
+    },
+    "/images/editorial/serengeti-local-destination/zebras-among-acacias.jpg": {
+      "slug": "serengeti-destination-zebras-acacias",
+      "local_path": "/images/editorial/serengeti-local-destination/zebras-among-acacias.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Zebras_grazing_among_acacia_trees,_Serengeti_National_Park.jpg",
+      "source_revision": "Wikimedia Commons file Zebras grazing among acacia trees, Serengeti National Park.jpg",
+      "creator": "Agness Abubakar Saidi",
+      "license": "CC0 1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "date": "2026-07-15",
+      "source_published_at": "2026-07-15",
+      "captured_at": "2026-07-15",
+      "sha256": "2f1b546113f167239609063c2268eb271e0c7826b1b95fb6ded5a76d23fedbb8",
+      "exact_subject": true,
+      "subject": "Zebras grazing among acacia trees in Serengeti National Park",
+      "alt": "A small group of zebras grazing among acacia trees on Serengeti grassland.",
+      "property": false,
+      "kind": "photograph",
+      "requires_attribution": false,
+      "changes": "Downloaded from the Wikimedia Commons original at native 1280-pixel width; no other edits.",
+      "checked_at": "2026-11-16",
+      "exact_subject_evidence": "The Commons file page title identifies zebras grazing among acacia trees in Serengeti National Park, Tanzania.",
+      "reuse_note": "CC0 1.0 places the photograph in the public domain; no attribution is required and no public credit entry is shown."
+    },
+    "/images/editorial/serengeti-local-destination/cheetah-shade-solitary-tree.jpg": {
+      "slug": "serengeti-destination-cheetah-shade",
+      "local_path": "/images/editorial/serengeti-local-destination/cheetah-shade-solitary-tree.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Cheetah_resting_in_the_shade_of_a_solitary_tree,_Serengeti_National_Park.jpg",
+      "source_revision": "Wikimedia Commons file Cheetah resting in the shade of a solitary tree, Serengeti National Park.jpg",
+      "creator": "Agness Abubakar Saidi",
+      "license": "CC0 1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "date": "2026-07-15",
+      "source_published_at": "2026-07-15",
+      "captured_at": "2026-07-15",
+      "sha256": "ac84d846c7ff8cbac8c0592d842c2d0b4b85e634ea045ce176bbbe7df51c8128",
+      "exact_subject": true,
+      "subject": "Cheetah resting in the shade of a solitary Serengeti tree",
+      "alt": "A cheetah lying in the thin shade of a solitary tree on open Serengeti grassland.",
+      "property": false,
+      "kind": "photograph",
+      "requires_attribution": false,
+      "changes": "Downloaded from the Wikimedia Commons original at native 640-pixel width; no other edits.",
+      "checked_at": "2026-11-16",
+      "exact_subject_evidence": "The Commons file page title identifies a cheetah resting in the shade of a solitary tree in Serengeti National Park, Tanzania.",
+      "reuse_note": "CC0 1.0 places the photograph in the public domain; no attribution is required and no public credit entry is shown."
+    },
+    "/images/editorial/serengeti-local-destination/lioness-atop-kopje.jpg": {
+      "slug": "serengeti-destination-lioness-kopje",
+      "local_path": "/images/editorial/serengeti-local-destination/lioness-atop-kopje.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Lioness_atop_a_kopje,_Serengeti_(1)_(28625989105).jpg",
+      "source_revision": "Wikimedia Commons file Lioness atop a kopje, Serengeti (1) (28625989105).jpg",
+      "creator": "Richard Mortel",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "date": "2016-06-10",
+      "source_published_at": "2016-06-10",
+      "captured_at": "2016-06-10",
+      "sha256": "40b4871492b6eec1d18389231550c61b8b19a80d3829269ffff4413ce1906770",
+      "exact_subject": true,
+      "subject": "Lioness on a Serengeti kopje",
+      "alt": "A lioness resting on the granite boulders of a Serengeti kopje, looking out over the plains.",
+      "property": false,
+      "kind": "photograph",
+      "requires_attribution": true,
+      "changes": "Downloaded from the Wikimedia Commons original and resized to 1800 pixels wide with aspect ratio preserved; no other edits.",
+      "checked_at": "2026-11-16",
+      "exact_subject_evidence": "The Commons file page title and Flickr source record identify a lioness atop a kopje in the Serengeti, photographed in June 2016.",
+      "reuse_note": "CC BY 2.0 permits reuse with attribution; the photograph appears on the /photo-credits page with creator, source and licence. Resize and crop for display only."
+    },
+    "/images/editorial/serengeti-local-destination/masai-giraffe-serengeti.jpg": {
+      "slug": "serengeti-destination-masai-giraffe",
+      "local_path": "/images/editorial/serengeti-local-destination/masai-giraffe-serengeti.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:042_Masai_giraffe_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg",
+      "source_revision": "Wikimedia Commons file 042 Masai giraffe in the Serengeti National Park Photo by Giles Laurent.jpg",
+      "creator": "Giles Laurent",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "date": "2024-07-11",
+      "source_published_at": "2024-07-11",
+      "captured_at": "2024-07-11",
+      "sha256": "1b799a0405af3065055eac3968c89d05922ec19d0e24406cc84ef19a35ce46c9",
+      "exact_subject": true,
+      "subject": "Masai giraffe in the Serengeti National Park",
+      "alt": "A Masai giraffe walking across Serengeti grassland with scattered trees behind.",
+      "property": false,
+      "kind": "photograph",
+      "requires_attribution": true,
+      "changes": "Downloaded from the Wikimedia Commons original and resized to 1800 pixels wide with aspect ratio preserved; no other edits.",
+      "checked_at": "2026-11-16",
+      "exact_subject_evidence": "The Commons file page title and the creator's own-work statement identify a Masai giraffe in Serengeti National Park, photographed 11 July 2024.",
+      "reuse_note": "CC BY-SA 4.0 permits reuse with attribution and share-alike; the photograph appears on the /photo-credits page with creator, source and licence. Resize and crop for display only."
+    },
+    "/images/editorial/decide-lalibela-under-do-not-travel-advice/lalibela-person-cultural-clothing-walls.jpg": {
+      "kind": "photograph", "slug": "lalibela-person-cultural-clothing-walls", "local_path": "/images/editorial/decide-lalibela-under-do-not-travel-advice/lalibela-person-cultural-clothing-walls.jpg",
+      "source_page": "https://www.pexels.com/photo/person-in-a-turban-wrapped-in-a-gown-standing-by-a-wall-12344942/",
+      "creator": "Ludo Van den Nouweland", "license": "Pexels License", "license_url": "https://www.pexels.com/license/", "checked_at": "2026-11-17",
+      "sha256": "7ae36ff66cc676abdec52df5c7086850afe9fc0a3a2ce6c9e74aacfee4a9d532", "exact_subject": true, "subject": "Person in cultural clothing standing by the ancient stone walls of Lalibela, Ethiopia",
+      "alt": "A person in traditional Ethiopian clothing stands beside the ancient stone walls of the rock-hewn church area in Lalibela.", "property": false, "requires_attribution": false,
+      "changes": "Pexels CDN JPEG resized to 1600 pixels wide; no other edits.",
+      "exact_subject_evidence": "Pexels photo page title and description place the person in cultural clothing at the ancient stone walls of Lalibela, Ethiopia; the Lalibela setting was confirmed in the downloaded file.",
+      "reuse_note": "Pexels License allows commercial reuse without attribution; no public credit entry is shown."
+    },
+    "/images/editorial/decide-lalibela-under-do-not-travel-advice/lalibela-rock-hewn-church-family-estella.jpg": {
+      "kind": "photograph", "slug": "lalibela-rock-hewn-church-family-estella", "local_path": "/images/editorial/decide-lalibela-under-do-not-travel-advice/lalibela-rock-hewn-church-family-estella.jpg",
+      "source_page": "https://www.pexels.com/photo/family-visiting-one-of-the-rock-hewn-churches-in-lalibela-7438884/",
+      "creator": "Estella", "license": "Pexels License", "license_url": "https://www.pexels.com/license/", "checked_at": "2026-11-17",
+      "sha256": "f33d9de5f929cd722dc7d299e5498968805e8378e4dd104c7343898b7a44e6cc", "exact_subject": true, "subject": "Family visiting a rock-hewn church in Lalibela, Ethiopia",
+      "alt": "Visitors look across toward a rock-hewn church in Lalibela, Ethiopia.", "property": false, "requires_attribution": false,
+      "changes": "Pexels CDN JPEG resized to 1600 pixels wide; no other edits.",
+      "exact_subject_evidence": "Pexels photo page title 'Family visiting one of the rock-hewn churches in Lalibela' and description place the scene at a rock-hewn church in Lalibela, Ethiopia; the church and visitors were confirmed in the downloaded file.",
+      "reuse_note": "Pexels License allows commercial reuse without attribution; no public credit entry is shown."
+    },
+    "/images/editorial/decide-lalibela-under-do-not-travel-advice/lalibela-priest-cross-interior-turban.jpg": {
+      "kind": "photograph", "slug": "lalibela-priest-cross-interior-turban", "local_path": "/images/editorial/decide-lalibela-under-do-not-travel-advice/lalibela-priest-cross-interior-turban.jpg",
+      "source_page": "https://www.pexels.com/photo/priest-in-a-turban-holding-a-cross-12344936/",
+      "creator": "Ludo Van den Nouweland", "license": "Pexels License", "license_url": "https://www.pexels.com/license/", "checked_at": "2026-11-18",
+      "sha256": "882a2f847e36995123ad278a0e1009432629f664e11964306dc9c2f94ebbcdc0", "exact_subject": true, "subject": "Priest in a turban holding a cross inside a rock-hewn church in Lalibela, Ethiopia",
+      "alt": "A priest in a turban holds a ceremonial cross inside a Lalibela rock-hewn church.", "property": false, "requires_attribution": false,
+      "changes": "Pexels CDN JPEG resized to 1600 pixels wide; no other edits.",
+      "exact_subject_evidence": "Pexels photo page title and description place a priest holding a cross inside a rock-hewn church in Lalibela, Ethiopia; the church interior setting was confirmed in the downloaded file.",
+      "reuse_note": "Pexels License allows commercial reuse without attribution; no public credit entry is shown."
+    },
+    "/images/editorial/decide-lalibela-under-do-not-travel-advice/lalibela-rock-hewn-church-aerial-aldo-bordoni.jpg": {
+      "kind": "photograph", "slug": "lalibela-rock-hewn-church-aerial-aldo-bordoni", "local_path": "/images/editorial/decide-lalibela-under-do-not-travel-advice/lalibela-rock-hewn-church-aerial-aldo-bordoni.jpg",
+      "source_page": "https://www.pexels.com/photo/rock-hewn-church-of-lalibela-aerial-view-in-ethiopia-39129274/",
+      "creator": "Aldo Bordoni", "license": "Pexels License", "license_url": "https://www.pexels.com/license/", "checked_at": "2026-11-18",
+      "sha256": "53d612799351c6127d6739e4cbdc00e9e2896c3fb1654d37b7ca3f3fa8e3481f", "exact_subject": true, "subject": "Aerial view of the rock-hewn Church of Saint George in Lalibela, Ethiopia",
+      "alt": "Aerial view of the rock-hewn Church of Saint George in Lalibela, Ethiopia.", "property": false, "requires_attribution": false,
+      "changes": "Pexels CDN JPEG resized to 1600 pixels wide; no other edits.",
+      "exact_subject_evidence": "Pexels photo page title and description place an aerial view of the rock-hewn Church of Saint George in Lalibela, Ethiopia; the church and setting were confirmed in the downloaded file.",
+      "reuse_note": "Pexels License allows commercial reuse without attribution; no public credit entry is shown."
+    },
+    "/images/editorial/algeria/camel-in-tassili-abdallahdjabi.jpg": {
+      "kind": "photograph", "slug": "camel-in-tassili-abdallahdjabi", "local_path": "/images/editorial/algeria/camel-in-tassili-abdallahdjabi.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Camel_In_Tassili.jpg", "creator": "Abdallahdjabi", "license": "Public domain", "license_url": "https://creativecommons.org/publicdomain/mark/1.0/", "captured_at": "2007-05-14", "checked_at": "2026-11-18",
+      "sha256": "b3cb4c35cf7434e34ece11890cab7aa1b5a661ee76f5d52bc0b2846b7bdd0d39", "exact_subject": true, "subject": "Camel on a track in Tassili n'Ajjer near Djanet, Algeria",
+      "alt": "A camel on a rocky track in Tassili n'Ajjer near Djanet, Algeria.", "property": false, "requires_attribution": false,
+      "changes": "Wikimedia Commons original JPEG downloaded unchanged.", "exact_subject_evidence": "Commons file page 'Camel In Tassili.jpg' places the camel in Tassili n'Ajjer, Algeria; uploaded as own work by Abdallahdjabi, dated 14 May 2007.", "reuse_note": "Public domain; commercial reuse without public attribution. No credit shown on page."
+    },
+    "/images/editorial/algeria/red-tadrart-orange-sand-algeria.jpeg": {
+      "kind": "photograph", "slug": "red-tadrart-orange-sand-algeria", "local_path": "/images/editorial/algeria/red-tadrart-orange-sand-algeria.jpeg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Nice_View_Of_Orange_Sand_At_Red_Tadrart_(168020207).jpeg", "creator": "2 F Ī K Æ Ł T Ë R", "license": "CC0", "license_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en", "captured_at": "2015-11-04", "checked_at": "2026-11-18",
+      "sha256": "c41c478b045de78fe5a2a95119f1d57ea6d15e046c157eacec998d0f238a56e8", "exact_subject": true, "subject": "Orange sand dunes at Red Tadrart, Tassili n'Ajjer, Algeria",
+      "alt": "Orange sand dunes at Red Tadrart in the Tassili n'Ajjer region of Algeria.", "property": false, "requires_attribution": false,
+      "changes": "Wikimedia Commons original JPEG downloaded unchanged.", "exact_subject_evidence": "Commons file page title places the orange sand scene at Red Tadrart in Tassili n'Ajjer, Algeria; uploader dedicated it under CC0.", "reuse_note": "CC0; commercial reuse without public attribution. No credit shown on page."
+    },
+    "/images/editorial/uganda/murchison-falls-bmkme-2024.jpg": {
+      "kind": "photograph", "slug": "murchison-falls-bmkme-2024", "local_path": "/images/editorial/uganda/murchison-falls-bmkme-2024.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:The_Power_of_the_Nile_Before_Murchison_Falls_01.jpg", "creator": "BMKME", "license": "CC0", "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en", "captured_at": "2024-09-14", "checked_at": "2026-11-19",
+      "sha256": "b3cd0b0e89e943de1c806357ebb97fa28296d7ca2ebf017cad30ec6e5163774e", "exact_subject": true, "subject": "Murchison Falls on the Nile, Uganda",
+      "alt": "Murchison Falls on the Nile River in Uganda, water rushing through a narrow rocky gorge.", "property": false, "requires_attribution": false,
+      "changes": "Wikimedia Commons original JPEG downloaded and resized to 1600 pixels wide; no other edits.", "exact_subject_evidence": "Commons file page title and description identify the Murchison Falls on the Nile in Murchison Falls National Park, Uganda; the waterfall-and-gorge scene was confirmed in the downloaded file.", "reuse_note": "CC0; commercial reuse without public attribution. No credit shown on page."
+    },
+    "/images/editorial/uganda/queen-elizabeth-national-park-elephants-alvinategyeka-2024.jpg": {
+      "kind": "photograph", "slug": "queen-elizabeth-national-park-elephants-alvinategyeka-2024", "local_path": "/images/editorial/uganda/queen-elizabeth-national-park-elephants-alvinategyeka-2024.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Elephants_in_Queen_Elizabeth_National_Park_Uganda_01.jpg", "creator": "Alvinategyeka", "license": "CC0", "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en", "captured_at": "2024-06-01", "checked_at": "2026-11-19",
+      "sha256": "5e0099af536e955106c1ed99d38fb861d6ef6d31b4a7a941e0204a025791641d", "exact_subject": true, "subject": "Elephants in Queen Elizabeth National Park, Uganda",
+      "alt": "A herd of elephants on the grassy plains of Queen Elizabeth National Park in Uganda.", "property": false, "requires_attribution": false,
+      "changes": "Wikimedia Commons original JPEG downloaded and resized to 1600 pixels wide; no other edits.", "exact_subject_evidence": "Commons file page title and description place a herd of elephants in Queen Elizabeth National Park, Uganda; the elephant scene was confirmed in the downloaded file.", "reuse_note": "CC0; commercial reuse without public attribution. No credit shown on page."
+    },
+    "/images/editorial/uganda/entebbe-lake-victoria-aerial-matson-1936.jpg": {
+      "kind": "photograph", "slug": "entebbe-lake-victoria-aerial-matson-1936", "local_path": "/images/editorial/uganda/entebbe-lake-victoria-aerial-matson-1936.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Uganda._Entebbe._Air_view._Approaching_Entebbe_on_Lake_Victoria_LOC_matpc.17427.jpg", "creator": "Matson Collection", "license": "Public domain", "license_url": "https://commons.wikimedia.org/wiki/File:Uganda._Entebbe._Air_view._Approaching_Entebbe_on_Lake_Victoria_LOC_matpc.17427.jpg", "captured_at": "1936", "checked_at": "2026-11-19",
+      "sha256": "587726239d3d8b86d6d2fb7194ab337994b8e3f66ae15eacd98974b5da628355", "exact_subject": true, "subject": "Aerial view of Entebbe on Lake Victoria, Uganda",
+      "alt": "Aerial view of Entebbe on the shores of Lake Victoria in Uganda, 1936.", "property": false, "requires_attribution": false,
+      "changes": "Wikimedia Commons original JPEG downloaded and resized to 1600 pixels wide; no other edits.", "exact_subject_evidence": "Commons file page (Library of Congress Matson Collection) describes an air view approaching Entebbe on Lake Victoria, Uganda, dated 1936; dedicated to the public domain.", "reuse_note": "Public domain; commercial reuse without public attribution. No credit shown on page."
+    },
+    "/images/editorial/uganda/kihiihi-wetland-landscape-elivis256-2026.jpg": {
+      "kind": "photograph", "slug": "kihiihi-wetland-landscape-elivis256-2026", "local_path": "/images/editorial/uganda/kihiihi-wetland-landscape-elivis256-2026.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Rural_wetland_landscape_in_Kihiihi,_Kanungu_District,_South_western_Uganda.jpg", "creator": "Elivis256", "license": "CC0", "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en", "captured_at": "2026-07-20", "checked_at": "2026-11-19",
+      "sha256": "637ec6588327b7a75351444c94e5577126bc0b8f35fb1a4945defa7edb8a30bb", "exact_subject": true, "subject": "Rural wetland landscape in Kihiihi, Kanungu District, Uganda",
+      "alt": "A rural wetland landscape in Kihiihi, Kanungu District, southwestern Uganda.", "property": false, "requires_attribution": false,
+      "changes": "Wikimedia Commons original JPEG downloaded and resized to 1600 pixels wide; no other edits.", "exact_subject_evidence": "Commons file page title and description place the scene in Kihiihi, Kanungu District, southwestern Uganda; the wetland landscape was confirmed in the downloaded file.", "reuse_note": "CC0; commercial reuse without public attribution. No credit shown on page."
+    },
+    "/images/editorial/uganda/otuke-landscape-monica-joyce-2023.jpg": {
+      "kind": "photograph", "slug": "otuke-landscape-monica-joyce-2023", "local_path": "/images/editorial/uganda/otuke-landscape-monica-joyce-2023.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Landscape_otuke.jpg", "creator": "Monica Joyce", "license": "CC0", "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en", "captured_at": "2023-07-22", "checked_at": "2026-11-19",
+      "sha256": "998931f78b674126935307abd3026b4dda8384bba7bf4eeae8bbbbf86f4f0f36", "exact_subject": true, "subject": "Rural landscape near Otuke, northern Uganda",
+      "alt": "A rural landscape near Otuke in northern Uganda.", "property": false, "requires_attribution": false,
+      "changes": "Wikimedia Commons original JPEG downloaded and resized to 1600 pixels wide; no other edits.", "exact_subject_evidence": "Commons file page title and description place the scene near Otuke in northern Uganda; the rural landscape was confirmed in the downloaded file.", "reuse_note": "CC0; commercial reuse without public attribution. No credit shown on page."
     }
   },
   "listings": {
@@ -12578,11 +13021,12 @@ export const photoLibrary = {
     },
     "countries": {
       "algeria": {
-        "hero_image_url": "/images/stock/destinations/djanet-and-tassili.jpg",
-        "hero_image_alt": "Djanet region (Tassili, Algeria)",
+        "hero_image_url": "/images/editorial/algeria/camel-in-tassili-abdallahdjabi.jpg",
+        "hero_image_alt": "Camel on a rocky track in Tassili n'Ajjer near Djanet, Algeria",
         "replaces": [],
         "gallery": [
-          "/images/stock/destinations/djanet-and-tassili.jpg"
+          "/images/editorial/algeria/camel-in-tassili-abdallahdjabi.jpg",
+          "/images/editorial/algeria/red-tadrart-orange-sand-algeria.jpeg"
         ]
       },
       "benin": {
@@ -12716,7 +13160,11 @@ export const photoLibrary = {
           "/images/stock/destinations/tokeh-and-river-no2.jpg",
           "/images/stock/starter/tokeh-and-river-no2.jpg",
           "/images/editorial/sierra-leone-country/lumley-beach-seating-random-institute.jpg",
-          "/images/editorial/sierra-leone-country/freetown-coastline-bunting-kargbo.jpg"
+          "/images/editorial/sierra-leone-country/freetown-coastline-bunting-kargbo.jpg",
+          "/images/editorial/sierra-leone-country/freetown-aerial-cityscape-abdulai-sayni.jpg",
+          "/images/editorial/sierra-leone-country/freetown-waterside-houses-abdulai-sayni.jpg",
+          "/images/editorial/sierra-leone-country/freetown-lumley-wilkinson-road-view-random-institute.jpg",
+          "/images/editorial/sierra-leone-country/freetown-siaka-stevens-street-dominique-fofanah.jpg"
         ]
       },
       "south-africa": {
@@ -12757,7 +13205,12 @@ export const photoLibrary = {
         "replaces": [],
         "gallery": [
           "/images/stock/destinations/bwindi-impenetrable-national-park.jpg",
-          "/images/stock/starter/bwindi-impenetrable-national-park.jpg"
+          "/images/stock/starter/bwindi-impenetrable-national-park.jpg",
+          "/images/editorial/uganda/murchison-falls-bmkme-2024.jpg",
+          "/images/editorial/uganda/queen-elizabeth-national-park-elephants-alvinategyeka-2024.jpg",
+          "/images/editorial/uganda/entebbe-lake-victoria-aerial-matson-1936.jpg",
+          "/images/editorial/uganda/kihiihi-wetland-landscape-elivis256-2026.jpg",
+          "/images/editorial/uganda/otuke-landscape-monica-joyce-2023.jpg"
         ]
       },
       "zambia": {

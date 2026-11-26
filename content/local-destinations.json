@@ -320,7 +320,8 @@
     "activity_slugs": [],
     "accommodation_slugs": [
       "jollyboys-backpackers",
-      "royal-livingstone-hotel"
+      "royal-livingstone-hotel",
+      "avani-victoria-falls-resort"
     ],
     "travel_insight_slugs": [
       "plan-your-victoria-falls-visit"
@@ -878,7 +879,8 @@
       "giza-pyramids-guided-tour"
     ],
     "accommodation_slugs": [
-      "marriott-mena-house-cairo"
+      "marriott-mena-house-cairo",
+      "steigenberger-hotel-el-tahrir-cairo"
     ],
     "travel_insight_slugs": [],
     "sort_order": 1,
@@ -1428,7 +1430,9 @@
     "attraction_slugs": [
       "ouidah-and-ganvie"
     ],
-    "activity_slugs": [],
+    "activity_slugs": [
+      "ouidah-ganvie-heritage-excursion"
+    ],
     "accommodation_slugs": [
       "casa-del-papa"
     ],
@@ -1443,7 +1447,7 @@
       "/images/editorial/ouidah-ganvie-local-destination/ouidah-route-des-esclaves-tree-of-oblivion.jpg",
       "/images/editorial/ouidah-ganvie-local-destination/casa-del-papa-beach-lagoon.jpg"
     ],
-    "last_researched": "2026-11-14",
+    "last_researched": "2026-11-15",
     "research_sources": [
       {
         "label": "Benin Government: Attractions et monuments (checked 2026-11-14)",
@@ -1473,5 +1477,336 @@
     "sort_order": 23,
     "status": "published",
     "published_at": "2026-11-14T00:00:00Z"
+  },
+  {
+    "slug": "accra",
+    "country_slug": "ghana",
+    "name": "Accra",
+    "category": "Capital city",
+    "hero_title": "Accra: a coastal capital that rewards unhurried days",
+    "listing_summary": "Plan Accra around arrival logistics, the historic districts around Independence Square and Osu, and separate outings to the coast or Shai Hills, rather than a checklist of quick stops.",
+    "overview": "Accra is Ghana's capital and the seat of the Greater Accra Region, which the Ghana Tourism Authority describes as the country's smallest region by area but second most densely populated, with about 5.4 million inhabitants recorded in 2021 and two metropolitan areas, Accra and Tema. The authority also notes that Accra has served as the national capital since 1877. This is a working coastal capital: government offices, business districts, markets and an international airport share the city with the historic quarters most visitors come to see.\n\nMuch of the historic core can be explored on foot in sections. Independence Square, dominated by the Independence Arch and the Black Star Monument, is the ceremonial centre and hosts national events including Independence Day celebrations. The Kwame Nkrumah Memorial Park and Mausoleum on Prof. Atta Mills High Street holds a museum, library and guided tours devoted to Ghana's first president and Pan-Africanist. Osu, together with the older Jamestown and Usshertown districts, contains Osu Castle, a seventeenth-century fortification, and the Jamestown Lighthouse, whose present tower dates from the 1930s and replaced an earlier structure built in 1871. The National Museum on Barnes Road and the National Theatre are the main cultural anchors, while Makola Market on Kojo Thompson Road and the lantern-lit Osu Night Market show the city's everyday commerce.\n\nThe coast is part of the city's appeal but needs its own time. The tourism authority lists La Pleasure, Bojo and Kokrobite among the beaches frequented at weekends, and points to Ada, roughly 120 km away where the Volta River meets the Atlantic, for a quieter resort stay. Inland, Shai Hills Resource Reserve lies about 50 km from Accra and covers 52 square kilometres of savanna with caves, birdlife and remnant community sites. Treat each of these as a separate outing. Combining a beach afternoon with the old town, a market and an onward coastal transfer in one day produces a rushed visit rather than a good one.",
+    "highlights": [
+      "Independence Square, the Independence Arch and the Black Star Monument",
+      "Kwame Nkrumah Memorial Park: museum, library and guided tours",
+      "Osu Castle and the historic lanes of Jamestown and Usshertown",
+      "National Museum on Barnes Road and the National Theatre",
+      "Makola Market and the Osu Night Market for everyday city life",
+      "Atlantic beaches at La Pleasure, Bojo and Kokrobite, with Shai Hills as a separate day out"
+    ],
+    "access_summary": "Accra is served by Kotoka International Airport, Ghana's principal international gateway, whose Terminal 3 opened in 2018 and which the airport operator says handles an average of about 7,780 passengers a day across domestic and international services. Arrange the first transfer with your accommodation or a named provider and confirm the exact pickup point and vehicle before arrival, especially if you land late or during a busy period. The airport sits within the city, so an onward hotel transfer is short in distance but depends on road conditions at that hour.\n\nWithin Accra the Ghana Tourism Authority lists taxis and shared minibuses among transport options, and the Kwame Nkrumah Memorial Park notes that visitors reach it by taxi, trotro or Metro Mass Transit bus, or by ride-hailing such as Uber. Agree the fare or confirm the meter before setting off, keep small notes for short trips, and expect a short map distance to take longer than it looks at peak hours. For the Central Region coast, including Cape Coast and Elmina, plan a separate road transfer and confirm the realistic journey estimate, the drop-off point and the return arrangement with your accommodation or operator rather than assuming a quick hop from the capital.\n\nGhana's currency is the cedi, and the tourism authority notes that Visa and Mastercard are the most widely accepted cards at major hotels, restaurants and larger businesses. Carry cash for markets, small entries and transport, and check current entry requirements before travel: the UK FCDO records that a passport valid for at least six months and a visa obtained in advance are required, that a yellow fever certificate is mandatory, and that travellers must complete a Ghana Health Declaration before departure.",
+    "best_time": "The Ghana Tourism Authority describes the climate as warm and tropical all year round and places Accra in the country's dry equatorial zone. Expect heat and humidity rather than a cool season, and plan outdoor walking for early morning or late afternoon, with water and shade built into the day. Coastal conditions and short rains can change a beach or walking plan quickly, so check a current local forecast before committing to an outdoor day and keep an indoor option such as the National Museum or the memorial park.\n\nAccra also has a busy events calendar. National celebrations, festivals, conferences and matches can affect access to squares and roads, and can change hotel availability and prices around particular dates. Check event dates and any road arrangements close to travel instead of assuming an ordinary weekday. The FCDO advisory for Ghana is updated regularly and currently advises against all but essential travel to the Bawku Municipal area in the Upper East Region; read the full advisory before finalising any northern itinerary.",
+    "planning_tips": "A workable shape is three nights with one district per day: arrival and an easy first evening in Osu; a full day for Independence Square, the Kwame Nkrumah Memorial Park and the Arts Centre, which the park notes stands adjacent to its grounds; then a morning in Jamestown or Usshertown with the National Museum. Add a fourth night if you want a separate coastal or Shai Hills outing, and keep the onward road transfer to the Central Region on its own day rather than stacking it behind a morning of sightseeing.\n\nThe Kwame Nkrumah Memorial Park publishes its own hours and rates and states Monday to Saturday opening from 09:00 to 19:00 and Sunday from 10:00 to 19:00, with entrance fees for non-Ghanaian visitors of GHS 100 for adults, GHS 60 for tertiary students and GHS 30 for children, and lower rates for Ghanaian visitors. These figures were checked on 16 November 2026; confirm them with the park before you go, since rates and event access can change.\n\nChoose one base rather than moving hotels within the city. A downtown address near Barnes Road puts the memorial park and the National Museum within reach, while Osu suits travellers who want restaurants, nightlife and the night market close by. Keep park and museum entries, transport and meals as separate line items when you budget, because a city day is rarely covered by one ticket.\n\nFinally, treat Accra as a place to adjust rather than a place to tick off. The value of a first day here is often practical: a SIM card, cash, a walk to get your bearings and an early night before an onward journey. If you are continuing to the coast, confirm that transfer before you arrive, and if you are flying out, leave a generous buffer around the international departure.",
+    "attraction_slugs": [
+      "kwame-nkrumah-memorial-park"
+    ],
+    "activity_slugs": [
+      "kwame-nkrumah-memorial-park-guided-visit"
+    ],
+    "accommodation_slugs": [
+      "accra-city-hotel"
+    ],
+    "travel_insight_slugs": [
+      "plan-first-ghana-trip-accra-and-the-castle-coast"
+    ],
+    "last_researched": "2026-11-16",
+    "research_sources": [
+      {
+        "label": "Ghana Tourism Authority: Greater Accra Region (capital, population, Accra and Tema metropolitan areas, Independence Square, Kwame Nkrumah Memorial Park, National Museum, National Theatre, Osu Castle, Jamestown Lighthouse, Makola Market, Osu Night Market, beaches, Ada, Shai Hills) checked 2026-11-16",
+        "url": "https://visitghana.com/greater-accra-region/"
+      },
+      {
+        "label": "Ghana Tourism Authority: Getting around Ghana (taxis and minibuses, cedi, cards, climate zones) checked 2026-11-16",
+        "url": "https://visitghana.com/getting-around-ghana/"
+      },
+      {
+        "label": "Ghana Tourism Authority: Travel information (warm tropical climate, packing guidance) checked 2026-11-16",
+        "url": "https://visitghana.com/travel-information/"
+      },
+      {
+        "label": "Kwame Nkrumah Memorial Park: visiting hours and rates, access by taxi/trotro/Metro bus/Uber, adjacent Arts Centre, Jamestown Lighthouse history checked 2026-11-16",
+        "url": "https://knmp.gov.gh/new/visiting-hours-rates/"
+      },
+      {
+        "label": "Kwame Nkrumah Memorial Park: official address, museum, library and guided tours checked 2026-11-16",
+        "url": "https://knmp.gov.gh/new/"
+      },
+      {
+        "label": "Ghana Airports Company Limited: Kotoka International Airport, Terminal 3 opened 2018, average 7,780 passengers daily checked 2026-11-16",
+        "url": "https://gacl.com.gh/"
+      },
+      {
+        "label": "UK FCDO: Ghana travel advice, still current at 16 November 2026 — all but essential travel advised against for Bawku Municipal area, Upper East Region checked 2026-11-16",
+        "url": "https://www.gov.uk/foreign-travel-advice/ghana"
+      },
+      {
+        "label": "UK FCDO: Ghana entry requirements — passport validity, visa in advance, yellow fever certificate, Ghana Health Declaration checked 2026-11-16",
+        "url": "https://www.gov.uk/foreign-travel-advice/ghana/entry-requirements"
+      },
+      {
+        "label": "Live Trek Africa Guide: Ghana country page, Elmina destination, Kwame Nkrumah Memorial Park attraction and activity, Accra City Hotel stay, Ghana first-trip insight — all HTTP 200, no Accra destination page (checked 2026-11-16)",
+        "url": "https://trekafricaguide.com/countries/ghana/"
+      }
+    ],
+    "sort_order": 3,
+    "status": "published",
+    "published_at": "2026-11-16T00:00:00Z"
+  },
+  {
+    "slug": "serengeti",
+    "country_slug": "tanzania",
+    "name": "Serengeti",
+    "category": "Park and plains",
+    "hero_title": "Serengeti: choosing your time in the endless plains",
+    "listing_summary": "Plan a Serengeti stay around one region, the season you actually need, and the transfers that make the distances workable.",
+    "overview": "Serengeti National Park is a large, changing wildlife landscape rather than a single viewpoint, and UNESCO describes its 1.5 million hectares of savannah as the stage for the largest remaining unaltered animal migration on earth. Grasslands, river corridors, woodlands and rocky outcrops (kopjes) give different parts of the park their own character, so the real planning decision is which region, in which month, for how long.\n\nThe published Serengeti National Park attraction guide explains the park as a whole and its visitor activities. This guide helps you organize a stay inside or beside it: matching your base to the season you need, keeping the distances realistic, and separating what your camp charges from what the park, the airstrip and optional activities charge.\n\nA visit does not need to chase the migration to succeed. Resident wildlife in the Seronera valley and the kopjes rewards a slower stay in any month, and UNESCO lists the park’s predator and ungulate populations among the highest concentrations in the world. Treat the movement of the herds as one interest among several, not the only measure of a good trip.",
+    "highlights": [
+      "Wildlife viewing across plains, river country and kopjes in one park",
+      "Seasonal migration and calving interest, verified against your dates",
+      "Optional balloon excursions with verified operators",
+      "A published in-park stay with its own full property guide"
+    ],
+    "access_summary": "The park sits in northern Tanzania, and UNESCO records its property area as 1,476,300 hectares with Mara, Arusha and Shinyanga provinces around it. TANAPA identifies Arusha and Kilimanjaro as the principal planning gateways; from there, road itineraries and light-aircraft itineraries trade cost, time and baggage limits. The published attraction guide carries the transfer detail; confirm your final airstrip against your camp and book the last leg as its own step.\n\nThe Serengeti Serena Safari Lodge guide records an Arusha distance of 335 km by road and a Seronera airstrip 27 km from that lodge, with published check-in and check-out times. Use those figures as an example of why airstrip-to-camp distance matters, then confirm the numbers for your own dates. The published Serengeti balloon safari guide covers the launch-side logistics for an added excursion.",
+    "best_time": "TANAPA highlights June to October for dry-season migration travel and January to February for calving interest, while location matters as much as the month: the herds move, and the same camp can be far from the action a brochure shows. UNESCO notes that only the Mara River flows perennially through the park, which shapes where wildlife concentrates in dry months. Ask your chosen camp about recent conditions and seasonal openings, and carry the same patience with river crossings as with the rest of the plan.",
+    "planning_tips": "A workable first structure is several nights in one chosen area, adding a second only when the season or your interests justify the transfer. In your quotation, keep accommodation charges separate from park, concession, transport and optional activity charges, and check baggage limits for any light-aircraft sector.\n\nSerengeti Serena Safari Lodge has its own full property guide on this site and is the published in-park stay; compare its room categories, published from-rates and what sits inside and outside the room rate directly with the operator. No verified booking link exists for that property yet, so treat any third-party booking route you find as unverified until the owner publishes one. The paired Tanzania insight explains how a Serengeti itinerary combines with Zanzibar without stealing days from the park.",
+    "attraction_slugs": [
+      "serengeti-national-park"
+    ],
+    "activity_slugs": [
+      "serengeti-balloon-safari"
+    ],
+    "accommodation_slugs": [
+      "serengeti-serena-safari-lodge"
+    ],
+    "travel_insight_slugs": [
+      "pair-tanzania-safari-with-zanzibar-coast"
+    ],
+    "hero_image_url": "/images/editorial/serengeti-local-destination/plaines-du-serengeti.jpg",
+    "hero_image_alt": "Open short-grass Serengeti plains under a broad sky, with small scattered trees at the horizon",
+    "gallery": [
+      "/images/editorial/serengeti-local-destination/plaines-du-serengeti.jpg",
+      "/images/editorial/serengeti-local-destination/great-migration-kogatende.jpg",
+      "/images/editorial/serengeti-local-destination/zebras-among-acacias.jpg",
+      "/images/editorial/serengeti-local-destination/cheetah-shade-solitary-tree.jpg",
+      "/images/editorial/serengeti-local-destination/lioness-atop-kopje.jpg",
+      "/images/editorial/serengeti-local-destination/masai-giraffe-serengeti.jpg"
+    ],
+    "last_researched": "2026-11-16",
+    "research_sources": [
+      {
+        "label": "UNESCO World Heritage: Serengeti National Park (property 156, inscribed 1981, criteria vii and x)",
+        "url": "https://whc.unesco.org/en/list/156/"
+      },
+      {
+        "label": "TANAPA: Serengeti visitor overview and habitats (carried from the published attraction record, last verified in repo 2026-10-11)",
+        "url": "https://tanzaniaparks.go.tz/serengeti"
+      },
+      {
+        "label": "Serena Hotels: Serengeti Serena Safari Lodge operator page",
+        "url": "https://www.serenahotels.com/serengeti"
+      }
+    ],
+    "sort_order": 24,
+    "status": "published",
+    "published_at": "2026-11-16T00:00:00Z"
+  },
+  {
+    "slug": "south-luangwa",
+    "country_slug": "zambia",
+    "name": "South Luangwa",
+    "category": "Park gateway",
+    "hero_title": "South Luangwa: the walking-safari heart of the Luangwa Valley",
+    "listing_summary": "Plan a South Luangwa stay around the river, the season and the walking-safari model that fits you — from a gateway lodge to a mobile camp-to-camp trek.",
+    "overview": "South Luangwa National Park sits in the Luangwa Valley at the tail of the Great Rift Valley, covering 9,050 km² across Northern, Eastern and Central Zambia. Zambia Tourism describes the Luangwa River and its lagoons as central to the park's wildlife, with pronounced seasonal change concentrating game around remaining water in the dry season and a greener landscape in the wet months. The park is widely credited as the birthplace of the walking safari — an experience that remains a major draw today.This guide helps you choose a base that matches your priorities: a gateway lodge like Mfuwe Lodge inside the park boundary with year-round access, a seasonal bushcamp on the river for a more remote experience, or a mobile walking safari moving between camps over several nights. The distinction matters because camp location dictates access, activity mix and which wildlife you see on foot versus by vehicle. A stay near the central Mfuwe area differs from the Nsefu sector or the remote northern reaches and should be compared on that basis.Resist treating South Luangwa as a single interchangeable destination. The operator you choose, the camp's position on the river, the season you travel and whether you want mobile walking or lodge-based nature walks are separate decisions that together shape the experience. Ask your provider to explain how the proposed camp's location and activity model fit your dates and interests.",
+    "highlights": [
+      "Birthplace of the walking safari: mobile camp-to-camp treks and lodge-based nature walks with qualified guide and armed ranger",
+      "Valley of the Leopard: Zambia Tourism notes high leopard density — a signature sighting on foot or by vehicle",
+      "Thornicroft's giraffe: endemic subspecies found only in the Luangwa Valley",
+      "River-centered wildlife: hippo pods (~50/km of river), elephant herds up to 70, 14 antelope species, 400+ bird species",
+      "Seasonal camps and year-round lodges: choose a base by its opening calendar and river position, not just room category"
+    ],
+    "access_summary": "Most visitors fly to Mfuwe International Airport (MFU). Zambia Tourism identifies Proflight Zambia daily flights from Lusaka year-round (frequencies increase in high season) and seasonal connections from Lilongwe; all lodges arrange the 45-minute transfer from the airport. Charter flights also serve the valley. By road, the usual route is from Chipata: 123 km / ~2 hours on a corrugated but passable road to Mfuwe, just outside the park. A 4×4 shortcut from Petauke along the Luangwa River is only advised well into dry season for experienced drivers. Northern access via Mpika or Lundazi through the Munyamadzi Corridor is generally open only August–October and requires 4WD, preferably in convoy. Confirm current road conditions, seasonality and vehicle requirements with your operator before committing to a self-drive approach.",
+    "best_time": "Zambia Tourism describes April–October as the dry-season progression, with October the hottest month and game concentrations at their height around remaining water. May–August brings warm sunny days and chilly nights. The wet season (November–March) turns the valley lush, brings migrant birds (including carmine bee-eaters nesting in river banks from November and palearctic migrants such as Steppe eagles and bee-eaters), and newborn animals — but some seasonal camps close when access becomes impractical. Several lodges in the central Mfuwe area remain open all year. Match your dates to the camp's actual opening schedule and your interests: dry-season game concentration, green-season birding and scenery, or shoulder-season balance. No single month guarantees every experience.",
+    "planning_tips": "A practical first structure is three to four nights in one area: arrive, settle, and give the walking safari or game drives a full unhurried day. If combining camps, make sure the transfer adds a distinct river section or activity style rather than simply consuming a wildlife-viewing day. Confirm in writing: which walks and drives are included, whether they are shared or private, guide arrangements, minimum age/participation requirements for walking, and what happens if conditions change an activity. Ask about the camp's opening calendar for your dates — some close December–April. South Luangwa is a malaria area: antimalarial precautions, bite avoidance and a travel-health consultation well before departure are recommended. Pack neutral-coloured clothing (blue and black can attract tsetse flies), a warm layer for open-vehicle mornings, closed walking shoes, binoculars and high-factor sunscreen. Carry US dollars or Zambian Kwacha in clean, undamaged notes for incidentals; Visa and Mastercard are accepted at major lodges. Comprehensive travel insurance including medical evacuation is strongly recommended — the valley is remote by design. For entry: passport valid 6 months beyond arrival with 2 blank pages; British citizens visa-free for 90 days per 12 months; KAZA UNIVISA ($50, 30 days) covers Zambia-Zimbabwe travel and Botswana day trips if combining with Victoria Falls.",
+    "attraction_slugs": [
+      "south-luangwa"
+    ],
+    "activity_slugs": [
+      "south-luangwa-walking-safari"
+    ],
+    "accommodation_slugs": [
+      "mfuwe-lodge"
+    ],
+    "travel_insight_slugs": [
+      "plan-your-victoria-falls-visit"
+    ],
+    "hero_image_url": "",
+    "hero_image_alt": "",
+    "gallery": [],
+    "last_researched": "2026-11-19",
+    "research_sources": [
+      {
+        "label": "Zambia Tourism: South Luangwa National Park — area, walking safari heritage, access, seasons, wildlife, accommodation (checked 19 November 2026)",
+        "url": "https://www.zambiatourism.com/destinations/national-parks/south-luangwa-national-park/"
+      },
+      {
+        "label": "UK FCDO: Zambia entry requirements — passport 6 months, 2 blank pages, visa-free for British citizens, KAZA UNIVISA $50/30 days, yellow fever if from risk country (checked 19 November 2026)",
+        "url": "https://www.gov.uk/foreign-travel-advice/zambia/entry-requirements"
+      },
+      {
+        "label": "UK FCDO: Zambia safety and security — terrorism cannot be ruled out, demonstrations in Lusaka, crime precautions, road travel dangerous after dark, rainy season floods Nov–Apr, LGBT+ laws, wildlife trade laws (checked 19 November 2026)",
+        "url": "https://www.gov.uk/foreign-travel-advice/zambia/safety-and-security"
+      },
+      {
+        "label": "Live Trek Africa Guide: Zambia country page — frames South Luangwa as walking safari area, Destinations rail shows only Livingstone (checked 19 November 2026)",
+        "url": "https://trekafricaguide.com/countries/zambia/"
+      },
+      {
+        "label": "Live Trek Africa Guide: South Luangwa attraction page — 'Walking safaris are a major part of the park's reputation', Mfuwe Lodge nearby stay (checked 19 November 2026)",
+        "url": "https://trekafricaguide.com/attractions/south-luangwa/"
+      },
+      {
+        "label": "Live Trek Africa Guide: Mfuwe Lodge accommodation page — 'birthplace of the walking safari', 18 thatched chalets, Bush-Spa, walking safaris offered, no verified OTA link (checked 19 November 2026)",
+        "url": "https://trekafricaguide.com/accommodations/mfuwe-lodge/"
+      },
+      {
+        "label": "The Bushcamp Company: South Luangwa Guide — mobile walking safaris between 6 bushcamps, Mfuwe Lodge gateway (checked 19 November 2026)",
+        "url": "https://www.bushcampcompany.com/pages/south-luangwa-guide"
+      }
+    ],
+    "sort_order": 25,
+    "status": "published",
+    "published_at": "2026-11-19T00:00:00Z"
+  },
+  {
+    "slug": "djanet-tassili",
+    "country_slug": "algeria",
+    "name": "Djanet and Tassili n'Ajjer",
+    "category": "Desert expedition gateway",
+    "hero_title": "Djanet: gateway to the Tassili n'Ajjer UNESCO landscape",
+    "listing_summary": "Plan a Tassili n'Ajjer rock-art expedition from Djanet, with guidance on permits, guided routes, desert camping and the Tuareg guesthouse base.",
+    "overview": "Djanet is a Tuareg town in southeastern Algeria, set at the edge of the Tassili n'Ajjer plateau. The plateau is a UNESCO World Heritage site (inscribed 1982, mixed cultural and natural criteria) protecting one of the world's most important concentrations of prehistoric rock art — thousands of paintings and engravings documenting human life and environmental change over millennia — alongside dramatic sandstone geology: arches, canyons, pillars and weathered formations.\n\nThis is not a conventional destination. Travel here means a specialist-guided desert expedition: vehicle-supported exploration, guided walks to rock-art shelters, and camping on sand or rocky ground. The published GetYourGuide product — \"Djanet: 4-Day Desert Adventure in Tassili N'Ajjer\" operated by Cozy Vibes Travel Algeria — describes a four-day itinerary from Djanet with vehicle transport, guided walks, desert camping and meals. A responsible operator will explain the exact daily schedule, which shelters are included, walking distances, permit arrangements, and contingency plans for weather, flight or permission changes.\n\nThe UK FCDO's Algeria advice, current at 20 November 2026, warns against all but essential travel to Saharan areas including Djanet and Tamanrasset. This advisory directly affects feasibility and must be assessed before any non-refundable booking. Travel insurance covering the specific regions and activities is essential. Do not plan independent movement into remote or restricted areas; check current official advice and local authorization.",
+    "highlights": [
+      "UNESCO rock-art landscape with thousands of prehistoric paintings and engravings",
+      "Dramatic sandstone geology: arches, canyons, pillars",
+      "Specialist 4-day guided desert expeditions from Djanet",
+      "Tuareg guesthouse base before or after the desert journey",
+      "Conservation-conscious visitation with authorised routes only"
+    ],
+    "access_summary": "Djanet (DJG) is the air gateway, served by domestic flights from Algiers and, seasonally, international charters. The operator should arrange the domestic flight connection and the Tassili park permit as part of the package. Algeria requires a visa for most visitors; the e-visa portal (evisa.gov.dz) and current processing times should be checked well before departure. Confirm the international and domestic connections with the exact ground itinerary. Obtain a written explanation of required permissions and the route's current feasibility before buying flights independently.",
+    "best_time": "Select dates with a specialist who can explain heat, wind, night temperatures and the walking exposure of the actual route. Daytime temperatures can exceed 40 °C in warmer months; nights can drop near freezing in winter. A broad seasonal label is not enough for an expedition. Ask what adjustments are made when conditions differ from expectations and whether a shorter or less remote alternative is available.",
+    "planning_tips": "Request clear details of water, food, camping equipment, sanitation, communications and emergency arrangements. Verify current entry requirements through official channels. At rock-art and archaeological sites, follow authorised access and photography rules and avoid touching or altering surfaces. Do not book remote travel solely on the basis of a low package price. The operator must confirm: tent type and occupancy, sleeping provision, meal preparation, drinking water volume per person per day, shade arrangements, and satellite phone or radio for emergency communication. A written packing list from the operator should cover sun protection, warm layers, headlamp, dry bags, personal medication and cash for incidentals.",
+    "attraction_slugs": [
+      "djanet-and-tassili"
+    ],
+    "activity_slugs": [
+      "djanet-tassili-rock-art-expedition"
+    ],
+    "accommodation_slugs": [
+      "terres-touareg-guest-house"
+    ],
+    "travel_insight_slugs": [],
+    "hero_image_url": "",
+    "hero_image_alt": "",
+    "gallery": [],
+    "last_researched": "2026-11-20",
+    "research_sources": [
+      {
+        "label": "UNESCO World Heritage: Tassili n'Ajjer (criteria, rock art, geology, conservation)",
+        "url": "https://whc.unesco.org/en/list/179"
+      },
+      {
+        "label": "UK FCDO: Algeria travel advice — regional advisory for Djanet, Tamanrasset and Saharan border zones (checked 20 November 2026)",
+        "url": "https://www.gov.uk/foreign-travel-advice/algeria/safety-and-security"
+      },
+      {
+        "label": "Algeria e-visa portal: entry requirements and application",
+        "url": "https://evisa.gov.dz/"
+      },
+      {
+        "label": "GetYourGuide exact product: Djanet 4-Day Desert Adventure in Tassili N'Ajjer (Cozy Vibes Travel Algeria), itinerary, inclusions, review status (checked 20 November 2026)",
+        "url": "https://www.getyourguide.com/djanet-l232012/djanet-4-day-desert-adventure-in-tassili-n-ajjer-t1110780/"
+      },
+      {
+        "label": "Terres Touareg Guest House official site: rooms, meals, Tuareg craft, contact (checked 20 November 2026)",
+        "url": "https://www.terres-touareg.com/en/guest-house/"
+      },
+      {
+        "label": "Live Trek Africa Guide: Algeria country page, Djanet attraction, Terres Touareg accommodation, Djanet activity (all checked 20 November 2026)",
+        "url": "https://trekafricaguide.com/countries/algeria/"
+      }
+    ],
+    "sort_order": 1,
+    "status": "published",
+    "published_at": "2026-11-20T00:00:00Z"
+  },
+  {
+    "slug": "kruger",
+    "country_slug": "south-africa",
+    "name": "Kruger National Park",
+    "category": "Park gateway",
+    "hero_title": "Kruger: choose your base, your wheels and your pace",
+    "listing_summary": "Plan a Kruger stay around the gate you enter, the camp you sleep in and the drive day you want — self-drive, guided or a mix of both.",
+    "overview": "Kruger National Park is South Africa's flagship public-entry park: nearly two million hectares established in 1898, where visitors explore in their own vehicles or on guided open-vehicle drives, and sleep in public rest camps or private lodges. That combination — scale, self-drive access and fixed infrastructure — makes Kruger unusual among major safari destinations: the same park supports a hired-car day, a SANParks guided drive and a multi-day lodge trip. Which one fits depends on the base you choose, the gate you enter and the day-visitor limits that can apply at peak times.\n\n\n\nSANParks presents the park as a landscape with historical and archaeological interest alongside wildlife. Public access is central to its character: 12 main rest camps, five bushveld camps, two bush lodges and four satellite camps sit inside the park, and the road network itself is the product — sightings happen along it. Choose a manageable part of the park rather than a long cross-park route, and let the itinerary develop around that area. A rewarding visit includes time for ordinary behaviour, birds and changing habitats rather than measuring success only through a checklist of large mammals.",
+    "highlights": [
+      "Self-drive safari and guided alternatives on the same road network",
+      "12 main rest camps plus bushveld camps, bush lodges and satellite camps inside the park",
+      "Wildlife, birding and varied landscapes across four veld types",
+      "Historical and archaeological sites (Masorini, Thulamela) beyond game viewing",
+      "Day-visitor caps at peak times — advance booking essential"
+    ],
+    "access_summary": "Choose the entrance gate after choosing the camp, then arrange the flight or road transfer that serves it. SANParks publishes gate details, distances and travel-time guidance. Do not use a road-navigation arrival estimate as permission to drive after gate closure. Skukuza Airport (SZK) has scheduled flights from Johannesburg and Cape Town; Hoedspruit (HDS) and Phalaborwa (PHW) serve the central and northern gates. If combining Kruger with Cape Town or another distant region, allow for the domestic connection and an overnight buffer where needed. A current operational note: SANParks advised the Skukuza Rest Camp Main Gate will be temporarily closed from 2 November to 4 December 2026 for maintenance — check SANParks notifications for your dates.",
+    "best_time": "Ask about the seasonal conditions in the area you plan to use, rather than assuming the whole park behaves identically. Wildlife is free-ranging throughout the year. Day length and gate hours change seasonally: SANParks' gate table opens entrances at 05:30 in summer months and 06:00 in winter, closing between 17:30 and 18:30 by month. Public holidays and long weekends are when the daily visitor threshold can exclude non-resident day guests, so the authority's advance-booking advice matters most then. Kruger sits in a malaria-endemic area; SANParks asks visitors to consult a travel doctor before their trip. Resident doctors are based at Skukuza (+27 13 735 5638) for visitors who fall ill in the park.",
+    "planning_tips": "SANParks limits day-visitor numbers and offers advance day bookings. Overnight bookings and day visits have different arrangements. Carry the identification required for entry: a completed Gate Registration and Indemnity Form handed to the gate official with identification (ID or passport) for South African, SADC and international visitors. Remain in vehicles except at designated places and respect camp closing times. For self-catering accommodation, plan shopping and meals before arrival. Quote comparisons should separate conservation fees, accommodation, food, vehicle hire and guided activities. Confirm current park notices before finalizing a route. A guided drive moves the navigation, timing and animal-spotting work to a local guide; it does not remove the park rules, conservation fees or gate logistics.",
+    "attraction_slugs": [
+      "kruger-national-park"
+    ],
+    "activity_slugs": [
+      "kruger-national-park-game-drive"
+    ],
+    "accommodation_slugs": [
+      "kruger-shalati"
+    ],
+    "travel_insight_slugs": [
+      "choose-cape-town-base-by-outings",
+      "table-mountain-weather-cableway-or-hike"
+    ],
+    "hero_image_url": "",
+    "hero_image_alt": "",
+    "gallery": [],
+    "last_researched": "2026-11-21",
+    "research_sources": [
+      {
+        "label": "SANParks: Kruger National Park — area, history, rest camps, gates, self-drive model, gate hours, day-visitor rules, malaria, wildlife (checked 21 November 2026)",
+        "url": "https://www.sanparks.org/parks/kruger/"
+      },
+      {
+        "label": "Wikipedia: Kruger National Park — 19,485 km², 147 mammal species, 507 bird species, four veld types, rivers, Skukuza, rest camps, Greater Kruger context (checked 21 November 2026)",
+        "url": "https://en.wikipedia.org/wiki/Kruger_National_Park"
+      },
+      {
+        "label": "UK FCDO: South Africa entry requirements — passport 30 days after departure, 2 blank pages, visa-free 90 days, yellow fever if from risk country, traveller declaration from 1 July 2026, cash declaration (checked 21 November 2026)",
+        "url": "https://www.gov.uk/foreign-travel-advice/south-africa/entry-requirements"
+      },
+      {
+        "label": "Live Trek Africa Guide: Kruger National Park attraction — self-drive model, gate hours, SANParks day-visit rules, Skukuza gate closure notice, 9-image gallery (checked 21 November 2026)",
+        "url": "https://trekafricaguide.com/attractions/kruger-national-park/"
+      },
+      {
+        "label": "Live Trek Africa Guide: Kruger National Park game drive activity — SANParks self-drive vs guided, gate registration, day-visit caps, Skukuza maintenance closure, GetYourGuide t433574 booking (checked 21 November 2026)",
+        "url": "https://trekafricaguide.com/activities/kruger-national-park-game-drive/"
+      },
+      {
+        "label": "Live Trek Africa Guide: Kruger Shalati accommodation — stationary train hotel on Selati Bridge, 24 carriage suites + 7 Bridge House suites, 3 pools, guided drives in package, no verified OTA link (checked 21 November 2026)",
+        "url": "https://trekafricaguide.com/accommodations/kruger-shalati/"
+      },
+      {
+        "label": "Live Trek Africa Guide: South Africa country page — frames Kruger as major safari destination, Destinations rail shows only Cape Town (checked 21 November 2026)",
+        "url": "https://trekafricaguide.com/countries/south-africa/"
+      }
+    ],
+    "sort_order": 2,
+    "status": "published",
+    "published_at": "2026-11-21T00:00:00Z"
   }
 ]
