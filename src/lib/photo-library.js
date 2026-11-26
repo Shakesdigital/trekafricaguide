@@ -13722,6 +13722,55 @@ export const photoLibrary = {
       "sha256": "f71e52a22ace106923710693f54bd82ffc62a5653da82d4bd91b47b0bfe6eb3d", "exact_subject": true, "subject": "Mountain gorilla, Bwindi Impenetrable National Park, Uganda",
       "alt": "A mountain gorilla in the Bwindi Impenetrable Forest in Uganda.", "property": false, "requires_attribution": true,
       "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Mountain gorilla, Bwindi Impenetrable National Park, Uganda, 2024-02-02 (DD 80)."
+    },
+    "/images/editorial/west-africa-region/castle-cape-coast-p1100221jpg.jpg": {
+      "kind": "photograph", "slug": "cape-coast-castle-dungeon", "local_path": "/images/editorial/west-africa-region/castle-cape-coast-p1100221jpg.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Castle,_Cape_Coast_(P1100221).jpg", "creator": "Matti Blume", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-26",
+      "sha256": "6e536f4d904660e350a9157a6318c92f459cf4f299f2d2ecb7c5113efb2084bf", "exact_subject": true, "subject": "Slave dungeon in Cape Coast Castle, Ghana",
+      "alt": "The interior of a slave dungeon at Cape Coast Castle on the Ghanaian coast.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Slave dungeon in Cape Coast Castle."
+    },
+    "/images/editorial/west-africa-region/castle-cape-coast-p1100223jpg.jpg": {
+      "kind": "photograph", "slug": "cape-coast-castle-exterior", "local_path": "/images/editorial/west-africa-region/castle-cape-coast-p1100223jpg.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Castle,_Cape_Coast_(P1100223).jpg", "creator": "Matti Blume", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-26",
+      "sha256": "7a9a9668f9ff93c66e3717407b6c78ddd28b5be5df6633c31b523bb84114dd2e", "exact_subject": true, "subject": "Cape Coast Castle, Ghana",
+      "alt": "The whitewashed walls of Cape Coast Castle overlooking the Atlantic in Ghana.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Cape Coast Castle."
+    },
+    "/images/editorial/west-africa-region/le-de-gore-vue-de-la-chaloupe-15jpg.jpg": {
+      "kind": "photograph", "slug": "goree-island-from-boat", "local_path": "/images/editorial/west-africa-region/le-de-gore-vue-de-la-chaloupe-15jpg.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:%C3%8Ele_de_Gor%C3%A9e_vue_de_la_chaloupe_15.jpg", "creator": "Fawaz.tairou", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-26",
+      "sha256": "7911a2daab05de2eb12645eceae26948ee190b6260946aa7344842f91d5812c2", "exact_subject": true, "subject": "Île de Gorée, Senegal, seen from a boat",
+      "alt": "Île de Gorée rising from the Atlantic, viewed from a passing boat off Senegal.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Île de Gorée vue de la chaloupe."
+    },
+    "/images/editorial/west-africa-region/ctes-de-lle-de-gore-au-sngal-11jpg.jpg": {
+      "kind": "photograph", "slug": "goree-island-coast", "local_path": "/images/editorial/west-africa-region/ctes-de-lle-de-gore-au-sngal-11jpg.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:C%C3%B4tes_de_l%27%C3%AEle_de_Gor%C3%A9e_au_S%C3%A9n%C3%A9gal_11.jpg", "creator": "Fawaz.tairou", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-26",
+      "sha256": "482dcf76d9e6f369749989ca7aded9f9bccee3660197d63f1f4461fe933e16fd", "exact_subject": true, "subject": "Coast of Île de Gorée, Senegal",
+      "alt": "The rocky Atlantic coastline of Île de Gorée in Senegal.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Côtes de l'île de Gorée au Sénégal, vues de l'océan atlantique."
+    },
+    "/images/editorial/west-africa-region/pointe-des-almadies---senegaljpg.jpg": {
+      "kind": "photograph", "slug": "pointe-des-almadies", "local_path": "/images/editorial/west-africa-region/pointe-des-almadies---senegaljpg.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Pointe_des_Almadies_-_Senegal.jpg", "creator": "Jeff Attaway", "license": "CC BY 2.0", "license_url": "https://creativecommons.org/licenses/by/2.0/", "checked_at": "2026-11-26",
+      "sha256": "0eccd4b35160bbec47fe495c82ac117a945513e23548e62b0e9a42b44552b29b", "exact_subject": true, "subject": "Pointe des Almadies, westernmost point of mainland Africa, Senegal",
+      "alt": "The rocky Pointe des Almadies, the westernmost point of mainland Africa, in Senegal.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Pointe des Almadies, the westernmost point of the African continent (mainland)."
+    },
+    "/images/editorial/west-africa-region/street-at-dusk-in-ouidah-benin-jan-2018jpg.jpg": {
+      "kind": "photograph", "slug": "ouidah-street-at-dusk", "local_path": "/images/editorial/west-africa-region/street-at-dusk-in-ouidah-benin-jan-2018jpg.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Street_at_dusk_in_Ouidah_Benin_Jan_2018.jpg", "creator": "Kulttuurinavigaattori", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-26",
+      "sha256": "058f1ba0b030691fee1fc982e9fd7314b78a7afd5f303b45fa5eb9472ddcbe55", "exact_subject": true, "subject": "Street at dusk in Ouidah, Benin",
+      "alt": "A quiet street in Ouidah, Benin, at dusk.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Street at dusk in Ouidah, Benin, January 2018."
+    },
+    "/images/editorial/west-africa-region/ganvi-fishing-village-on-stilts-in-benin-10282059623-2jpg.jpg": {
+      "kind": "photograph", "slug": "ganvie-stilt-village", "local_path": "/images/editorial/west-africa-region/ganvi-fishing-village-on-stilts-in-benin-10282059623-2jpg.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Ganvi%C3%A9_fishing_village_on_stilts_in_Benin_(10282059623)_(2).jpg", "creator": "jbdodane", "license": "CC BY 2.0", "license_url": "https://creativecommons.org/licenses/by/2.0/", "checked_at": "2026-11-26",
+      "sha256": "49038a1e1e4f291b2cf125829805d70a916012545635a9ee72df558dc00b52fb", "exact_subject": true, "subject": "Ganvié fishing village on stilts, Benin",
+      "alt": "The stilt houses of Ganvié fishing village on Lake Nokoué in Benin.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Ganvié fishing village on stilts in Benin, October 2013."
     }
 
   },
@@ -14484,7 +14533,14 @@ export const photoLibrary = {
         "replaces": [],
         "gallery": [
           "/images/stock/destinations/cape-coast-kakum.jpg",
-          "/images/stock/starter/cape-coast-kakum.jpg"
+          "/images/stock/starter/cape-coast-kakum.jpg",
+          "/images/editorial/west-africa-region/castle-cape-coast-p1100221jpg.jpg",
+          "/images/editorial/west-africa-region/castle-cape-coast-p1100223jpg.jpg",
+          "/images/editorial/west-africa-region/le-de-gore-vue-de-la-chaloupe-15jpg.jpg",
+          "/images/editorial/west-africa-region/ctes-de-lle-de-gore-au-sngal-11jpg.jpg",
+          "/images/editorial/west-africa-region/pointe-des-almadies---senegaljpg.jpg",
+          "/images/editorial/west-africa-region/street-at-dusk-in-ouidah-benin-jan-2018jpg.jpg",
+          "/images/editorial/west-africa-region/ganvi-fishing-village-on-stilts-in-benin-10282059623-2jpg.jpg"
         ]
       },
       "southern-africa": {
