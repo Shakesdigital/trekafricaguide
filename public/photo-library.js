@@ -13771,6 +13771,55 @@ export const photoLibrary = {
       "sha256": "49038a1e1e4f291b2cf125829805d70a916012545635a9ee72df558dc00b52fb", "exact_subject": true, "subject": "Ganvié fishing village on stilts, Benin",
       "alt": "The stilt houses of Ganvié fishing village on Lake Nokoué in Benin.", "property": false, "requires_attribution": true,
       "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Ganvié fishing village on stilts in Benin, October 2013."
+    },
+    "/images/editorial/southern-africa-region/cape-town-za-table-mountain----2024----2825jpg.jpg": {
+      "kind": "photograph", "slug": "cape-town-table-mountain", "local_path": "/images/editorial/southern-africa-region/cape-town-za-table-mountain----2024----2825jpg.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Cape_Town_(ZA),_Table_Mountain_--_2024_--_2825.jpg", "creator": "Dietmar Rabich", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-26",
+      "sha256": "3645095813a6ce99e64732849d50b295ebbc85766983fb0d747b271d86d8255b", "exact_subject": true, "subject": "Table Mountain, Cape Town, South Africa",
+      "alt": "The rocky slopes of Table Mountain above Cape Town in South Africa.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Rocks on Table Mountain, Table Mountain Nature Reserve, Cape Town."
+    },
+    "/images/editorial/southern-africa-region/cebras-de-burchell-equus-quagga-burchellii-vista-area-del-de.jpg": {
+      "kind": "photograph", "slug": "okavango-zebras-aerial", "local_path": "/images/editorial/southern-africa-region/cebras-de-burchell-equus-quagga-burchellii-vista-area-del-de.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Cebras_de_Burchell_(Equus_quagga_burchellii),_vista_a%C3%A9rea_del_delta_del_Okavango,_Botsuana,_2018-08-01,_DD_30.jpg", "creator": "Diego Delso", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-26",
+      "sha256": "e4930489697d0d600c0eeaa1cc317f7600ce01fb65971b73c86e7dc87e0b55e4", "exact_subject": true, "subject": "Burchell's zebras, Okavango Delta, Botswana (aerial)",
+      "alt": "An aerial view of Burchell's zebras scattered across the Okavango Delta in Botswana.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Aerial view of Burchell's zebras, Okavango Delta, Botswana, 2018-08-01."
+    },
+    "/images/editorial/southern-africa-region/jabir-africano-ephippiorhynchus-senegalensis-delta-del-okava.jpg": {
+      "kind": "photograph", "slug": "okavango-saddlebilled-stork", "local_path": "/images/editorial/southern-africa-region/jabir-africano-ephippiorhynchus-senegalensis-delta-del-okava.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Jabir%C3%BA_africano_(Ephippiorhynchus_senegalensis),_delta_del_Okavango,_Botsuana,_2018-07-31,_DD_11.jpg", "creator": "Diego Delso", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-26",
+      "sha256": "374f26053185229f38fefb6a2018d535bca39ee278b8b1fe4ee07abe65498212", "exact_subject": true, "subject": "Saddle-billed stork, Okavango Delta, Botswana",
+      "alt": "A saddle-billed stork standing in the waters of the Okavango Delta in Botswana.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Saddle-billed stork, Okavango Delta, Botswana, 2018-07-31."
+    },
+    "/images/editorial/southern-africa-region/sossusvlei-namibia-2018-08-06-dd-040jpg.jpg": {
+      "kind": "photograph", "slug": "sossusvlei-dunes", "local_path": "/images/editorial/southern-africa-region/sossusvlei-namibia-2018-08-06-dd-040jpg.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Sossusvlei,_Namibia,_2018-08-06,_DD_040.jpg", "creator": "Diego Delso", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-26",
+      "sha256": "5fd9feef81f0be19f5dc9527d05c1d9b003dafede8631fc36e4ddf5bec6b0f28", "exact_subject": true, "subject": "Dunes and shadows in Sossusvlei, Namibia",
+      "alt": "The red dunes and deep shadows of Sossusvlei in the Namib Desert, Namibia.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Dunes and shadows in Sossusvlei, Namibia, 2018-08-06."
+    },
+    "/images/editorial/southern-africa-region/thorn-tree-sossusvlei-namib-desert-namibia-luca-galuzzi-2004.JPG": {
+      "kind": "photograph", "slug": "sossusvlei-thorn-tree", "local_path": "/images/editorial/southern-africa-region/thorn-tree-sossusvlei-namib-desert-namibia-luca-galuzzi-2004.JPG",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Thorn_Tree_Sossusvlei_Namib_Desert_Namibia_Luca_Galuzzi_2004.JPG", "creator": "Luca Galuzzi (Lucag)", "license": "CC BY-SA 2.5", "license_url": "https://creativecommons.org/licenses/by-sa/2.5/", "checked_at": "2026-11-26",
+      "sha256": "dc04676db48d645729ae2bc4ab1d93e80566c5321a7cdeb12b054844bd642ae9", "exact_subject": true, "subject": "Camel thorn tree in Sossusvlei, Namib-Naukluft National Park, Namibia",
+      "alt": "A lone camel thorn tree silhouetted against the dunes of Sossusvlei in Namibia.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Camel Thorn Tree (Acacia erioloba) in Sossusvlei, Namib-Naukluft National Park."
+    },
+    "/images/editorial/southern-africa-region/cataratas-victoria-zambia-zimbabue-2018-07-27-dd-30-34-panjp.jpg": {
+      "kind": "photograph", "slug": "victoria-falls-panorama", "local_path": "/images/editorial/southern-africa-region/cataratas-victoria-zambia-zimbabue-2018-07-27-dd-30-34-panjp.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Cataratas_Victoria,_Zambia-Zimbabue,_2018-07-27,_DD_30-34_PAN.jpg", "creator": "Diego Delso", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-26",
+      "sha256": "88145d423d5a713197e4a6b05ab9701ffcea5685c4ac838e61575f5bbb623be9", "exact_subject": true, "subject": "Victoria Falls, Zambezi River, Zambia-Zimbabwe border",
+      "alt": "The panorama of Victoria Falls on the Zambezi River at the Zambia-Zimbabwe border.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "View of the Victoria Falls of the Zambezi River, border between Zambia and Zimbabwe."
+    },
+    "/images/editorial/southern-africa-region/kruger-national-park-za-giraffe----2024----0431jpg.jpg": {
+      "kind": "photograph", "slug": "kruger-giraffe", "local_path": "/images/editorial/southern-africa-region/kruger-national-park-za-giraffe----2024----0431jpg.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Kruger_National_Park_(ZA),_Giraffe_--_2024_--_0431.jpg", "creator": "Dietmar Rabich", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-26",
+      "sha256": "62a284f53152b93ed1119fcacbc139ab9f0d378f6fcf7dc47cc0536215d40a92", "exact_subject": true, "subject": "Giraffe, Kruger National Park, South Africa",
+      "alt": "A giraffe standing near the road in Kruger National Park in South Africa.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Giraffe near the Pretoriuskop-Skukuza Road, Kruger National Park."
     }
 
   },
@@ -14549,7 +14598,14 @@ export const photoLibrary = {
         "replaces": [],
         "gallery": [
           "/images/stock/destinations/cape-town.jpg",
-          "/images/stock/destinations/kruger-national-park.jpg"
+          "/images/stock/destinations/kruger-national-park.jpg",
+          "/images/editorial/southern-africa-region/cape-town-za-table-mountain----2024----2825jpg.jpg",
+          "/images/editorial/southern-africa-region/cebras-de-burchell-equus-quagga-burchellii-vista-area-del-de.jpg",
+          "/images/editorial/southern-africa-region/jabir-africano-ephippiorhynchus-senegalensis-delta-del-okava.jpg",
+          "/images/editorial/southern-africa-region/sossusvlei-namibia-2018-08-06-dd-040jpg.jpg",
+          "/images/editorial/southern-africa-region/thorn-tree-sossusvlei-namib-desert-namibia-luca-galuzzi-2004.JPG",
+          "/images/editorial/southern-africa-region/cataratas-victoria-zambia-zimbabue-2018-07-27-dd-30-34-panjp.jpg",
+          "/images/editorial/southern-africa-region/kruger-national-park-za-giraffe----2024----0431jpg.jpg"
         ]
       },
       "northern-africa": {
