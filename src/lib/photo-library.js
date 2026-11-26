@@ -14023,6 +14023,83 @@ export const photoLibrary = {
       "sha256": "4038388f46cd56114ebee5e7498c5cbd2476d70aaa5aa032fd0d81183c102c44", "exact_subject": true, "subject": "Trail through palms and mahogany in Jozani Forest, Zanzibar",
       "alt": "A trail winding through palms and mahogany trees in Jozani Forest on Zanzibar.", "property": false, "requires_attribution": true,
       "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Trail, palms and mahogany, Jozani Zanzibar, October 2026."
+    },
+    "/images/editorial/kruger-national-park/kruger-national-park-za-elefant----2024----0649jpg.jpg": {
+      "kind": "photograph", "slug": "kruger-elephant", "local_path": "/images/editorial/kruger-national-park/kruger-national-park-za-elefant----2024----0649jpg.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Kruger_National_Park_(ZA),_Elefant_--_2024_--_0649.jpg", "creator": "Dietmar Rabich", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-26",
+      "sha256": "379667624594d2f6824711b7bc42b3786df419069a39b69699880675a9cee2f2", "exact_subject": true, "subject": "Elephant, Kruger National Park, South Africa",
+      "alt": "An elephant walking through the bush in Kruger National Park in South Africa.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Elefant, Kruger National Park, 2024."
+    },
+    "/images/editorial/kruger-national-park/leopard-panthera-pardus-pardus-young-female-kruger-2jpg.jpg": {
+      "kind": "photograph", "slug": "kruger-leopard", "local_path": "/images/editorial/kruger-national-park/leopard-panthera-pardus-pardus-young-female-kruger-2jpg.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Leopard_(Panthera_pardus_pardus)_young_female_Kruger_2.jpg", "creator": "Charles J. Sharp", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-26",
+      "sha256": "4de5ba319e1edd579ab8087871bcb756c63fdb2748326f3ca2ad98d8ca1e4d8e", "exact_subject": true, "subject": "Young female leopard, Kruger National Park, South Africa",
+      "alt": "A young female leopard resting in Kruger National Park in South Africa.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Young female leopard, Kruger."
+    },
+    "/images/editorial/kruger-national-park/rhino-kruger-national-park-7826798766jpg.jpg": {
+      "kind": "photograph", "slug": "kruger-rhino", "local_path": "/images/editorial/kruger-national-park/rhino-kruger-national-park-7826798766jpg.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Rhino,_Kruger_National_Park_(7826798766).jpg", "creator": "flowcomm", "license": "CC BY 2.0", "license_url": "https://creativecommons.org/licenses/by/2.0/", "checked_at": "2026-11-26",
+      "sha256": "ceca2e9a17079bb00bb4a76463ab3301ce31b8e2932989412a4c146f4925cf0b", "exact_subject": true, "subject": "Rhinoceros, Kruger National Park, South Africa",
+      "alt": "A rhinoceros in Kruger National Park in South Africa.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Rhino, Kruger National Park."
+    },
+    "/images/editorial/ouidah-and-ganvie/beach-of-ouidah-benin-2jpg.jpg": {
+      "kind": "photograph", "slug": "ouidah-beach", "local_path": "/images/editorial/ouidah-and-ganvie/beach-of-ouidah-benin-2jpg.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Beach_of_Ouidah_Benin_2.jpg", "creator": "jbdodane", "license": "CC BY 2.0", "license_url": "https://creativecommons.org/licenses/by/2.0/", "checked_at": "2026-11-26",
+      "sha256": "cd8e508ddaccababe044db57989d44e5a9392ccae05a63441dafb68bcbebcdbe", "exact_subject": true, "subject": "Beach of Ouidah, Benin",
+      "alt": "The Atlantic beach at Ouidah in Benin.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Beach of Ouidah, Benin."
+    },
+    "/images/editorial/ouidah-and-ganvie/entre-du-temple-des-pythons-ouidahjpg.jpg": {
+      "kind": "photograph", "slug": "ouidah-python-temple", "local_path": "/images/editorial/ouidah-and-ganvie/entre-du-temple-des-pythons-ouidahjpg.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Entr%C3%A9e_du_Temple_des_Pythons_(Ouidah).jpg", "creator": "Ji-Elle", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-26",
+      "sha256": "d1773f73222bfcbcaa7a7997113cb34c144224c3afbb9a51dc1f97486f1ef16c", "exact_subject": true, "subject": "Entrance of the Temple of Pythons, Ouidah, Benin",
+      "alt": "The entrance to the Temple of Pythons in Ouidah in Benin.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Entrée du Temple des Pythons, Ouidah."
+    },
+    "/images/editorial/ouidah-and-ganvie/market-at-ganvie-benin-dec-2017jpg.jpg": {
+      "kind": "photograph", "slug": "ganvie-market", "local_path": "/images/editorial/ouidah-and-ganvie/market-at-ganvie-benin-dec-2017jpg.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Market_at_Ganvie_Benin_Dec_2017.jpg", "creator": "Kulttuurinavigaattori", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-26",
+      "sha256": "c5cdadcb6dc030a8bfb32b5a491c0ffae9aee1fecd5b0cd6fd15ca108ceac15f", "exact_subject": true, "subject": "Market at Ganvie, Benin",
+      "alt": "A busy market in the stilt village of Ganvie in Benin.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Market at Ganvie, Benin, December 2017."
+    },
+    "/images/editorial/ouidah-and-ganvie/ganvie-lake-village-lake-nokou-benin-02jpg.jpg": {
+      "kind": "photograph", "slug": "ganvie-lake-village", "local_path": "/images/editorial/ouidah-and-ganvie/ganvie-lake-village-lake-nokou-benin-02jpg.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Ganvie,_Lake_Village,_Lake_Nokou%C3%A9,_Benin_02.jpg", "creator": "Asabiyya", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-26",
+      "sha256": "42987ba71af4274f1d57d937702a955d8dd1050715452565e59d8e9475a8ef7c", "exact_subject": true, "subject": "Ganvie lake village, Lake Nokoué, Benin",
+      "alt": "The stilt houses of Ganvie village on Lake Nokoué in Benin.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Ganvie, Lake Village, Lake Nokoué, Benin."
+    },
+    "/images/editorial/tokeh-and-river-no2/tokeh-beachjpg.jpg": {
+      "kind": "photograph", "slug": "tokeh-beach", "local_path": "/images/editorial/tokeh-and-river-no2/tokeh-beachjpg.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Tokeh_Beach.jpg", "creator": "Lars Bessel", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-26",
+      "sha256": "750c65e438165f8dbb52308fb272cd706c6e6cdaf6f31cd4e9f912af376ba98b", "exact_subject": true, "subject": "Tokeh Beach, Sierra Leone",
+      "alt": "The sandy beach and turquoise water at Tokeh in Sierra Leone.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Tokeh Beach, Sierra Leone."
+    },
+    "/images/editorial/tokeh-and-river-no2/beach-in-freetown-sierra-leone-14176784751jpg.jpg": {
+      "kind": "photograph", "slug": "freetown-beach", "local_path": "/images/editorial/tokeh-and-river-no2/beach-in-freetown-sierra-leone-14176784751jpg.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Beach_in_Freetown,_Sierra_Leone_(14176784751).jpg", "creator": "Erik Cleves Kristensen", "license": "CC BY 2.0", "license_url": "https://creativecommons.org/licenses/by/2.0/", "checked_at": "2026-11-26",
+      "sha256": "bdc868a03371df25992e00d11293eaacfc72fd6b4cc7f5a207080aacf214645b", "exact_subject": true, "subject": "Beach in Freetown, Sierra Leone",
+      "alt": "A beach in Freetown, Sierra Leone.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Beach in Freetown, Sierra Leone."
+    },
+    "/images/editorial/tokeh-and-river-no2/banana-islands-sierra-leonejpg.jpg": {
+      "kind": "photograph", "slug": "banana-islands-sierra-leone", "local_path": "/images/editorial/tokeh-and-river-no2/banana-islands-sierra-leonejpg.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Banana_Islands_(Sierra_Leone).jpg", "creator": "Christian Trede (Chtrede)", "license": "Attribution", "license_url": "", "checked_at": "2026-11-26",
+      "sha256": "105ce6f329fbd18480087b58210ffb66c49e2b17a81db073f3339b073136b8c7", "exact_subject": true, "subject": "Banana Islands, Sierra Leone",
+      "alt": "The Banana Islands off the coast of Sierra Leone.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits. Free attribution license (author requires credit).", "exact_subject_evidence": "Banana Islands, Sierra Leone."
+    },
+    "/images/editorial/tokeh-and-river-no2/river-no-2-beach-sierra-leonejpg.jpg": {
+      "kind": "photograph", "slug": "river-no-2-beach", "local_path": "/images/editorial/tokeh-and-river-no2/river-no-2-beach-sierra-leonejpg.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:River_No._2_Beach_(Sierra_Leone).jpg", "creator": "Christian Trede (Chtrede)", "license": "Attribution", "license_url": "", "checked_at": "2026-11-26",
+      "sha256": "9625a6763553758ac0b046194a29768da4b3aeea0889d0149679408599f735b2", "exact_subject": true, "subject": "River No. 2 Beach, Sierra Leone",
+      "alt": "The white sand of River No. 2 Beach on the Sierra Leone coast.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits. Free attribution license (author requires credit).", "exact_subject_evidence": "River No. 2 Beach, Sierra Leone."
     }
 
   },
@@ -14152,7 +14229,10 @@ export const photoLibrary = {
           "/images/stock/destinations/kruger-national-park.jpg",
           "/images/stock/starter/kruger-national-park.jpg",
           "/images/editorial/kruger-attraction/elephant-graham-hunt.jpg",
-          "/images/editorial/kruger-attraction/impala-watercourse-context.png"
+          "/images/editorial/kruger-attraction/impala-watercourse-context.png",
+          "/images/editorial/kruger-national-park/kruger-national-park-za-elefant----2024----0649jpg.jpg",
+          "/images/editorial/kruger-national-park/leopard-panthera-pardus-pardus-young-female-kruger-2jpg.jpg",
+          "/images/editorial/kruger-national-park/rhino-kruger-national-park-7826798766jpg.jpg"
         ]
       },
       "lalibela": {
@@ -14261,7 +14341,11 @@ export const photoLibrary = {
         "gallery": [
           "/images/stock/destinations/ouidah-and-ganvie.jpg",
           "/images/stock/starter/ouidah-and-ganvie.jpg",
-      "/images/editorial/ouidah-and-ganvie/lakeshore-canoes-context.png"
+      "/images/editorial/ouidah-and-ganvie/lakeshore-canoes-context.png",
+      "/images/editorial/ouidah-and-ganvie/beach-of-ouidah-benin-2jpg.jpg",
+      "/images/editorial/ouidah-and-ganvie/entre-du-temple-des-pythons-ouidahjpg.jpg",
+      "/images/editorial/ouidah-and-ganvie/market-at-ganvie-benin-dec-2017jpg.jpg",
+      "/images/editorial/ouidah-and-ganvie/ganvie-lake-village-lake-nokou-benin-02jpg.jpg"
         ]
       },
       "sahara-dunes": {
@@ -14355,7 +14439,11 @@ export const photoLibrary = {
         "gallery": [
           "/images/stock/destinations/tokeh-and-river-no2.jpg",
           "/images/stock/starter/tokeh-and-river-no2.jpg",
-          "/images/editorial/tokeh-and-river-no2/tokeh-aerial-pier-radwan-skeiky.jpg"
+          "/images/editorial/tokeh-and-river-no2/tokeh-aerial-pier-radwan-skeiky.jpg",
+          "/images/editorial/tokeh-and-river-no2/tokeh-beachjpg.jpg",
+          "/images/editorial/tokeh-and-river-no2/beach-in-freetown-sierra-leone-14176784751jpg.jpg",
+          "/images/editorial/tokeh-and-river-no2/banana-islands-sierra-leonejpg.jpg",
+          "/images/editorial/tokeh-and-river-no2/river-no-2-beach-sierra-leonejpg.jpg"
         ]
       },
       "tunis-and-sidi-bou-said": {
