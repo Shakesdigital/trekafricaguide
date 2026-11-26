@@ -13673,6 +13673,55 @@ export const photoLibrary = {
       "sha256": "9750212e7f7e0ea7a5eb5df48a086ae85750ccec84be96fc91ea36f00fb67e59", "exact_subject": true, "subject": "Wreck of Cabo de Santa Maria, Cabo Verde",
       "alt": "The rusting hull of the Cabo de Santa Maria shipwreck on Sal Island.", "property": false, "requires_attribution": true,
       "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Wreck of Cabo de Santa Maria, December 2010."
+    },
+    "/images/editorial/east-africa-region/mount-kilimanjaro-dec-2009-edit1jpg.jpg": {
+      "kind": "photograph", "slug": "mount-kilimanjaro-dec-2009", "local_path": "/images/editorial/east-africa-region/mount-kilimanjaro-dec-2009-edit1jpg.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Mount_Kilimanjaro_Dec_2009_edit1.jpg", "creator": "Muhammad Mahdi Karim", "license": "GFDL 1.2", "license_url": "https://www.gnu.org/licenses/old-licenses/fdl-1.2.html", "checked_at": "2026-11-26",
+      "sha256": "d7c3c7fe1eaa053e1a9b30e889d5e61717cf77626a45004dd2d616a067433372", "exact_subject": true, "subject": "Mount Kilimanjaro, Tanzania",
+      "alt": "The snow-capped summit of Mount Kilimanjaro rising above the Tanzanian plains.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Mount Kilimanjaro, December 2009."
+    },
+    "/images/editorial/east-africa-region/sail-boat-sunset-stone-town-zanzibar-oct26-om3-1123jpg.jpg": {
+      "kind": "photograph", "slug": "zanzibar-stone-town-sailboat-sunset", "local_path": "/images/editorial/east-africa-region/sail-boat-sunset-stone-town-zanzibar-oct26-om3-1123jpg.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Sail_Boat_Sunset_Stone_Town_Zanzibar_Oct26_OM3_1123.jpg", "creator": "Timothy A. Gonsalves", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-26",
+      "sha256": "6ce40d3ed1a84be8d6271ff4d89a28f8e92211cbb7b116a85f2a529be02413e8", "exact_subject": true, "subject": "Fishing boat sailing past the setting sun, Stone Town harbour, Zanzibar",
+      "alt": "A traditional dhow sailing across Stone Town harbour at sunset in Zanzibar.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Fishing boat at sunset, Stone Town harbour, Unguja Urban West, Zanzibar."
+    },
+    "/images/editorial/east-africa-region/maasai-mara-wildebeest-migrationsjpg.jpg": {
+      "kind": "photograph", "slug": "maasai-mara-wildebeest-migration", "local_path": "/images/editorial/east-africa-region/maasai-mara-wildebeest-migrationsjpg.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Maasai_Mara_Wildebeest_Migrations.jpg", "creator": "Kidoleeee", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-26",
+      "sha256": "525dfa378e3426451974ba62407abb26d60b9af00edc73705d8e6295e41b6570", "exact_subject": true, "subject": "Wildebeest migration, Maasai Mara, Kenya",
+      "alt": "A column of wildebeest crossing the Mara River during the migration in Maasai Mara.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Maasai Mara game reserve, Narok County, Kenya, on the Mara River."
+    },
+    "/images/editorial/east-africa-region/zebras-and-wildebeest-maasai-marajpg.jpg": {
+      "kind": "photograph", "slug": "maasai-mara-zebras-wildebeest", "local_path": "/images/editorial/east-africa-region/zebras-and-wildebeest-maasai-marajpg.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Zebras_and_wildebeest_Maasai_Mara.jpg", "creator": "Michelle Juma", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-26",
+      "sha256": "a64397d87a532cb4ea3d4264a2befc831f12ac8dfd1dde557d38a90ba618b886", "exact_subject": true, "subject": "Zebras and wildebeest grazing, Maasai Mara, Kenya",
+      "alt": "A herd of zebras and wildebeest grazing together on the Maasai Mara plains.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Herd of zebras and wildebeest grazing at the Maasai Mara, Kenya."
+    },
+    "/images/editorial/east-africa-region/zebras-ngorongoro-craterjpg.jpg": {
+      "kind": "photograph", "slug": "ngorongoro-crater-zebras", "local_path": "/images/editorial/east-africa-region/zebras-ngorongoro-craterjpg.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Zebras_Ngorongoro_Crater.jpg", "creator": "Muhammad Mahdi Karim", "license": "GFDL 1.2", "license_url": "https://www.gnu.org/licenses/old-licenses/fdl-1.2.html", "checked_at": "2026-11-26",
+      "sha256": "0f8acf189b1d716c56bb58e5a7ec51c0f698e00031ba1710f0ad5b6318cfe9b6", "exact_subject": true, "subject": "Grant's zebras, Ngorongoro Crater, Tanzania",
+      "alt": "Grant's zebras grazing on the floor of the Ngorongoro Crater in Tanzania.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Grant's Zebras in the Ngorongoro Crater, Tanzania."
+    },
+    "/images/editorial/east-africa-region/013-black-backed-jackal-in-the-ngorongoro-crater-photo-by-gi.jpg": {
+      "kind": "photograph", "slug": "ngorongoro-black-backed-jackal", "local_path": "/images/editorial/east-africa-region/013-black-backed-jackal-in-the-ngorongoro-crater-photo-by-gi.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:013_Black-backed_jackal_in_the_Ngorongoro_Crater_Photo_by_Giles_Laurent.jpg", "creator": "Giles Laurent", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-26",
+      "sha256": "c4bfc2e85baea4039cded0faf699a854119742cb3bdacc7588fe1ed6de96ff94", "exact_subject": true, "subject": "Black-backed jackal, Ngorongoro Crater, Tanzania",
+      "alt": "A black-backed jackal standing on the plains of the Ngorongoro Crater.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Black-backed jackal in the Ngorongoro Crater."
+    },
+    "/images/editorial/east-africa-region/gorila-de-montaa-gorilla-beringei-beringei-parque-nacional-d.jpg": {
+      "kind": "photograph", "slug": "bwindi-mountain-gorilla", "local_path": "/images/editorial/east-africa-region/gorila-de-montaa-gorilla-beringei-beringei-parque-nacional-d.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Gorila_de_monta%C3%B1a_(Gorilla_beringei_beringei),_parque_nacional_de_la_Selva_Impenetrable_de_Bwindi,_Uganda,_2024-02-02,_DD_80.jpg", "creator": "Diego Delso", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-26",
+      "sha256": "f71e52a22ace106923710693f54bd82ffc62a5653da82d4bd91b47b0bfe6eb3d", "exact_subject": true, "subject": "Mountain gorilla, Bwindi Impenetrable National Park, Uganda",
+      "alt": "A mountain gorilla in the Bwindi Impenetrable Forest in Uganda.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Mountain gorilla, Bwindi Impenetrable National Park, Uganda, 2024-02-02 (DD 80)."
     }
 
   },
@@ -14419,7 +14468,14 @@ export const photoLibrary = {
         "replaces": [],
         "gallery": [
           "/images/stock/destinations/amboseli-national-park.jpg",
-          "/images/stock/starter/amboseli-national-park.jpg"
+          "/images/stock/starter/amboseli-national-park.jpg",
+          "/images/editorial/east-africa-region/mount-kilimanjaro-dec-2009-edit1jpg.jpg",
+          "/images/editorial/east-africa-region/sail-boat-sunset-stone-town-zanzibar-oct26-om3-1123jpg.jpg",
+          "/images/editorial/east-africa-region/maasai-mara-wildebeest-migrationsjpg.jpg",
+          "/images/editorial/east-africa-region/zebras-and-wildebeest-maasai-marajpg.jpg",
+          "/images/editorial/east-africa-region/zebras-ngorongoro-craterjpg.jpg",
+          "/images/editorial/east-africa-region/013-black-backed-jackal-in-the-ngorongoro-crater-photo-by-gi.jpg",
+          "/images/editorial/east-africa-region/gorila-de-montaa-gorilla-beringei-beringei-parque-nacional-d.jpg"
         ]
       },
       "west-africa": {
