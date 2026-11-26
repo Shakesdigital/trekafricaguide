@@ -1808,5 +1808,56 @@
     "sort_order": 2,
     "status": "published",
     "published_at": "2026-11-21T00:00:00Z"
+  },
+  {
+    "slug": "nanyuki",
+    "country_slug": "kenya",
+    "name": "Nanyuki",
+    "category": "Town",
+    "hero_title": "Nanyuki: the Equator-line town at Mount Kenya's northern gate",
+    "listing_summary": "A cool, highland market town in Laikipia sitting almost exactly on the Equator, Nanyuki is the practical base for the Sirimon and Naro Moru routes up Mount Kenya and for the wildlife conservancies of the Laikipia plateau.",
+    "overview": "Nanyuki is a market town in Laikipia County, northwest of Mount Kenya along the A2 road, and the point where the branch railway from Nairobi ends. Kenya's national tourism board marks it as home to the Equator line, with a sign beside the A2 where a photograph can place you in both hemispheres at once, and describes a picturesque town known for its landscapes and views of Mount Kenya.\n\nFor most travellers the town's value is as a working base rather than a sight in itself. Kenya Wildlife Service names Nanyuki as the location of the closest commercial airstrip to Mount Kenya National Park, and the park's Sirimon Gate sits on the Nanyuki–Meru road. That makes Nanyuki the natural place to sleep before a Sirimon-ascent start, to collect supplies, and to recover after a descent.\n\nThe surrounding plateau adds a second reason to base here. Ol Pejeta Conservancy, whose registered address is in Nanyuki, is a working wildlife and cattle conservancy that also keeps the last two northern white rhinos and runs a chimpanzee sanctuary, and the wider Laikipia landscape holds other conservancies and ranches. Nanyuki itself is cool year-round, with a distinct dry spell in January and February, which suits both trekking staging and conservancy game drives.",
+    "highlights": [
+      "An Equator-line sign beside the A2 for a two-hemispheres photograph",
+      "Closest commercial airstrip to Mount Kenya National Park, on the Nanyuki–Meru road for the Sirimon Gate",
+      "Ol Pejeta Conservancy on the town's doorstep: northern white rhinos and a chimpanzee sanctuary",
+      "Cool highland climate with a January–February dry spell that suits trekking and game drives"
+    ],
+    "access_summary": "Nanyuki sits on the A2 highway in Laikipia County, northwest of Mount Kenya, with the branch railway from Nairobi terminating in town. Kenya Wildlife Service identifies the Nanyuki airstrip as the closest commercial airstrip to Mount Kenya National Park, and places the Sirimon Gate on the Nanyuki–Meru road, so a Sirimon start usually means an overnight in or near town before the morning drive to the gate. Confirm the current road and transfer time with your operator, since the gate approach and conditions change with the rains. Within town, arrange conservancy transfers and park-gate drop-offs with your lodge or guide rather than assuming a same-day return is easy.",
+    "best_time": "Nanyuki is relatively cool all year, with weakly trimodal rainfall and a distinct dry season in January and February. For a Mount Kenya climb, match your dates to the published trekking guidance and your confirmed route rather than to the town alone, and keep a spare day for weather. For conservancy game drives on the Laikipia plateau, the drier months are generally more comfortable, but confirm current conditions and what each conservancy is running on your dates.",
+    "planning_tips": "Treat Nanyuki as a staging base: sleep here before a Sirimon or Naro Moru start, then move up the mountain. Build the climb around your confirmed route and the park's gate and fee rules, and check the current Mount Kenya approach before booking. Add a day or two for Ol Pejeta or another Laikipia conservancy, booking the conservancy entry and any behind-the-scenes experiences directly and confirming current rates, since these change. Carry warm layers for cool highland evenings even though the town sits on the Equator, and keep cash and supplies topped up in town before heading to the gate.",
+    "attraction_slugs": [],
+    "activity_slugs": [],
+    "accommodation_slugs": [],
+    "travel_insight_slugs": [],
+    "hero_image_url": "",
+    "hero_image_alt": "",
+    "gallery": [],
+    "sort_order": 26,
+    "status": "draft",
+    "last_researched": "2026-11-26",
+    "research_sources": [
+      {
+        "label": "Magical Kenya (Kenya Tourism Board): Nanyuki — Equator-line sign, landscapes and Mount Kenya views; checked 26 November 2026",
+        "url": "https://www.magicalkenya.com/destination/nanyuki/",
+        "checked_at": "2026-11-26"
+      },
+      {
+        "label": "Kenya Wildlife Service: Mt. Kenya National Park — Nanyuki airstrip is the closest commercial airstrip; Sirimon Gate 200 km from Nairobi on the Nanyuki–Meru road; Naro Moru Gate 188 km on the Nyeri–Nanyuki road; gates 06:00–18:00; plastic-free park; checked 26 November 2026",
+        "url": "https://kws.go.ke/park/mt-kenya-national-park/",
+        "checked_at": "2026-11-26"
+      },
+      {
+        "label": "Ol Pejeta Conservancy: official site — registered in Nanyuki; last two northern white rhinos; chimpanzee sanctuary; game drives; checked 26 November 2026",
+        "url": "https://www.olpejetaconservancy.org/",
+        "checked_at": "2026-11-26"
+      },
+      {
+        "label": "Wikipedia: Nanyuki — market town in Laikipia County on the A2, terminus of the Nairobi branch railway, almost on the Equator, cool year-round with a January–February dry season; background only, checked 26 November 2026",
+        "url": "https://en.wikipedia.org/wiki/Nanyuki",
+        "checked_at": "2026-11-26"
+      }
+    ],
+    "draft_notes": "Held as draft: hero image and six-photo gallery not yet sourced/licensed (Image Agent); no attraction/activity/accommodation/travel-insight links attached yet because Mount Kenya has no dedicated attraction/activity page and no Nanyuki property guides are published. To verify before publishing: Ol Pejeta current entry fees and behind-the-scenes experience availability; current Sirimon/Naro Moru road and transfer times; whether to add Mount Kenya as an attraction record to populate the related sections."
   }
 ]
