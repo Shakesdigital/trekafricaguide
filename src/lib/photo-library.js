@@ -14100,6 +14100,48 @@ export const photoLibrary = {
       "sha256": "9625a6763553758ac0b046194a29768da4b3aeea0889d0149679408599f735b2", "exact_subject": true, "subject": "River No. 2 Beach, Sierra Leone",
       "alt": "The white sand of River No. 2 Beach on the Sierra Leone coast.", "property": false, "requires_attribution": true,
       "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits. Free attribution license (author requires credit).", "exact_subject_evidence": "River No. 2 Beach, Sierra Leone."
+    },
+    "/images/editorial/maasai-mara-balloon-safari/hot-air-balloon-safari-in-maasai-marajpg.jpg": {
+      "kind": "photograph", "slug": "maasai-mara-balloon-safari", "local_path": "/images/editorial/maasai-mara-balloon-safari/hot-air-balloon-safari-in-maasai-marajpg.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Hot_Air_Balloon_Safari_in_Maasai_Mara.jpg", "creator": "Wajahatmr", "license": "CC BY-SA 3.0", "license_url": "https://creativecommons.org/licenses/by-sa/3.0/", "checked_at": "2026-11-26",
+      "sha256": "21b2b547f73444baec690dc25696ea6b1e1d79011efb89e6247e15d51117f999", "exact_subject": true, "subject": "Hot air balloon safari in Maasai Mara",
+      "alt": "A hot air balloon drifting over the Maasai Mara at sunrise.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Hot Air Balloon Safari in Maasai Mara."
+    },
+    "/images/editorial/bwindi-gorilla-trekking/mountain-gorilla-gorilla-beringei-beringei-eatingjpg.jpg": {
+      "kind": "photograph", "slug": "bwindi-gorilla-eating", "local_path": "/images/editorial/bwindi-gorilla-trekking/mountain-gorilla-gorilla-beringei-beringei-eatingjpg.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Mountain_gorilla_(Gorilla_beringei_beringei)_eating.jpg", "creator": "Charles J. Sharp", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-26",
+      "sha256": "688c8d1594c4cc8f34f03d488912cf11461a5d0ab5bf9a820dda7abc768a0f29", "exact_subject": true, "subject": "Mountain gorilla eating, Bwindi Impenetrable Forest",
+      "alt": "A mountain gorilla eating vegetation in Bwindi Impenetrable Forest in Uganda.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Mountain gorilla (Gorilla beringei beringei) eating."
+    },
+    "/images/editorial/serengeti-balloon-safari/serengeti-balloonjpg.jpg": {
+      "kind": "photograph", "slug": "serengeti-balloon", "local_path": "/images/editorial/serengeti-balloon-safari/serengeti-balloonjpg.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Serengeti_Balloon.jpg", "creator": "Eric Kilby", "license": "CC BY-SA 2.0", "license_url": "https://creativecommons.org/licenses/by-sa/2.0/", "checked_at": "2026-11-26",
+      "sha256": "544cb115f9a690d0baa06cdaa3917364eba8798d7f70847fa3789596f2ea962e", "exact_subject": true, "subject": "Hot air balloon over the Serengeti",
+      "alt": "A hot air balloon floating above the Serengeti plains at sunrise.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Serengeti Balloon."
+    },
+    "/images/editorial/table-mountain-guided-hike/rock-path-on-platteklip-gorge-trail-table-mountain-in-cape-t.jpg": {
+      "kind": "photograph", "slug": "platteklo-pil-gorge-rock-path", "local_path": "/images/editorial/table-mountain-guided-hike/rock-path-on-platteklip-gorge-trail-table-mountain-in-cape-t.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Rock_path_on_Platteklip_Gorge_trail,_Table_Mountain_in_Cape_Town,_South_Africa_04.jpg", "creator": "Lovemedead", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-26",
+      "sha256": "f33eec3bd4f4c49b17643b11099ad6b41ebc4c0ccf30e10a3d3162670db5dab9", "exact_subject": true, "subject": "Rock path on Platteklip Gorge trail, Table Mountain",
+      "alt": "The rocky path of the Platteklip Gorge trail up Table Mountain in Cape Town.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Rock path on Platteklip Gorge trail, Table Mountain."
+    },
+    "/images/editorial/marrakech-medina-street-food-tour/djemaa-el-fna-marrakech-morocco-5423734940-6jpg.jpg": {
+      "kind": "photograph", "slug": "marrakech-medina-food-stalls", "local_path": "/images/editorial/marrakech-medina-street-food-tour/djemaa-el-fna-marrakech-morocco-5423734940-6jpg.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Djemaa_el_Fna,_Marrakech,_Morocco_(5423734940)_(6).jpg", "creator": "YoTuT from United States", "license": "CC BY 2.0", "license_url": "https://creativecommons.org/licenses/by/2.0/", "checked_at": "2026-11-26",
+      "sha256": "7af559d1d14bcb36af03c27650b8136110541de567fa8a88b8f6b5cce3841792", "exact_subject": true, "subject": "Food stalls in Djemaa el Fna, Marrakech",
+      "alt": "Food stalls in the Djemaa el Fna square in Marrakech.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Djemaa el Fna, Marrakech, Morocco."
+    },
+    "/images/editorial/kruger-national-park-game-drive/kruger-national-park-34165272663jpg.jpg": {
+      "kind": "photograph", "slug": "kruger-game-drive", "local_path": "/images/editorial/kruger-national-park-game-drive/kruger-national-park-34165272663jpg.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Kruger_National_Park_(34165272663).jpg", "creator": "leftcoastenvy", "license": "CC BY 2.0", "license_url": "https://creativecommons.org/licenses/by/2.0/", "checked_at": "2026-11-26",
+      "sha256": "e36997896a9cc4ca663240e581a5ce24d4e6feb09b2e23f1552f28d57724648d", "exact_subject": true, "subject": "Kruger National Park game drive",
+      "alt": "A safari vehicle on a game drive in Kruger National Park in South Africa.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Kruger National Park."
     }
 
   },
@@ -14961,7 +15003,8 @@ export const photoLibrary = {
           "/images/editorial/maasai-mara-balloon-safari/maasai-mara-balloon-aerial-zebari-visuals.jpg",
           "/images/editorial/maasai-mara-balloon-safari/maasai-mara-balloon-flight-sneha-cecil.jpg",
           "/images/editorial/maasai-mara-balloon-safari/maasai-mara-balloon-wildebeest-jason-hafso.jpg",
-          "/images/editorial/maasai-mara-balloon-safari/maasai-mara-dawn-launch-david-clode.jpg"
+          "/images/editorial/maasai-mara-balloon-safari/maasai-mara-dawn-launch-david-clode.jpg",
+          "/images/editorial/maasai-mara-balloon-safari/hot-air-balloon-safari-in-maasai-marajpg.jpg"
         ]
       },
       "bwindi-gorilla-trekking": {
@@ -14976,7 +15019,8 @@ export const photoLibrary = {
           "/images/editorial/bwindi-gorilla-trekking/bwindi-gorilla-nathalie-lays.jpg",
           "/images/editorial/bwindi-gorilla-trekking/bwindi-mother-juvenile-2h-media.jpg",
           "/images/editorial/bwindi-gorilla-trekking/bwindi-gorilla-closeup-gabriel-schumacher.jpg",
-          "/images/editorial/bwindi-gorilla-trekking/bwindi-gorillas-2017-ylenia-vimercati-molano.jpg"
+          "/images/editorial/bwindi-gorilla-trekking/bwindi-gorillas-2017-ylenia-vimercati-molano.jpg",
+          "/images/editorial/bwindi-gorilla-trekking/mountain-gorilla-gorilla-beringei-beringei-eatingjpg.jpg"
         ]
       },
       "amboseli-game-drive-safari": {
@@ -15020,7 +15064,8 @@ export const photoLibrary = {
           "/images/editorial/serengeti-balloon-safari/balloon-over-serengeti-plain.jpg",
           "/images/editorial/serengeti-balloon-safari/seronera-balloon-on-field.jpg",
           "/images/editorial/serengeti-balloon-safari/serengeti-balloon-dawn.jpg",
-          "/images/editorial/serengeti-balloon-safari/serengeti-balloon-national-park.jpg"
+          "/images/editorial/serengeti-balloon-safari/serengeti-balloon-national-park.jpg",
+          "/images/editorial/serengeti-balloon-safari/serengeti-balloonjpg.jpg"
         ]
       },
       "table-mountain-guided-hike": {
@@ -15035,7 +15080,8 @@ export const photoLibrary = {
           "/images/editorial/table-mountain-guided-hike/platteklip-upper-view-2018.jpg",
           "/images/editorial/table-mountain-guided-hike/table-mountain-trailhead-sign-2018.jpg",
           "/images/editorial/table-mountain-guided-hike/platteklip-gorge-trail-2018.jpg",
-          "/images/editorial/table-mountain-guided-hike/table-mountain-platteklip-view-2018.jpg"
+          "/images/editorial/table-mountain-guided-hike/table-mountain-platteklip-view-2018.jpg",
+          "/images/editorial/table-mountain-guided-hike/rock-path-on-platteklip-gorge-trail-table-mountain-in-cape-t.jpg"
         ]
       },
       "cape-coast-kakum-guided-visit": {
@@ -15125,7 +15171,8 @@ export const photoLibrary = {
           "/images/editorial/marrakech-food-walk/juice-vendor-jemaa.jpg",
           "/images/editorial/marrakech-food-walk/spice-market-marrakech.jpg",
           "/images/editorial/marrakech-food-walk/medina-street.jpg",
-          "/images/editorial/marrakech-food-walk/fruit-stalls-square.jpg"
+          "/images/editorial/marrakech-food-walk/fruit-stalls-square.jpg",
+          "/images/editorial/marrakech-medina-street-food-tour/djemaa-el-fna-marrakech-morocco-5423734940-6jpg.jpg"
         ]
       },
       "victoria-falls-zambezi-white-water-rafting": {
@@ -15189,7 +15236,8 @@ export const photoLibrary = {
           "/images/editorial/kruger-game-drive/kruger-road-home-eason-2017.jpg",
           "/images/editorial/kruger-game-drive/kruger-skukuza-lunch-eason-2017.jpg",
           "/images/editorial/kruger-game-drive/kruger-skukuza-camp-flowcomm-2017.jpg",
-          "/images/editorial/kruger-game-drive/kruger-lake-panic-dupont-2021.jpg"
+          "/images/editorial/kruger-game-drive/kruger-lake-panic-dupont-2021.jpg",
+          "/images/editorial/kruger-national-park-game-drive/kruger-national-park-34165272663jpg.jpg"
         ]
       }
     },
