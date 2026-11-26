@@ -13869,6 +13869,62 @@ export const photoLibrary = {
       "sha256": "20436f1d3738a1761dad8ca5e2a14ae4a40d63d75084563d8b444a352af009d7", "exact_subject": true, "subject": "Architectural heritage of the Casbah of Algiers, Algeria",
       "alt": "A traditional doorway in the historic Casbah of Algiers in Algeria.", "property": false, "requires_attribution": true,
       "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Door of the spice market, architectural and cultural heritage of the Casbah of Algiers."
+    },
+    "/images/editorial/amboseli-national-park/elephants-at-amboseli-national-park-against-mount-kilimanjar.jpg": {
+      "kind": "photograph", "slug": "amboseli-elephants-kilimanjaro", "local_path": "/images/editorial/amboseli-national-park/elephants-at-amboseli-national-park-against-mount-kilimanjar.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Elephants_at_Amboseli_national_park_against_Mount_Kilimanjaro.jpg", "creator": "Amoghavarsha JS", "license": "CC BY-SA 3.0", "license_url": "https://creativecommons.org/licenses/by-sa/3.0/", "checked_at": "2026-11-26",
+      "sha256": "ecf2c3e8d2d484d2def136fe9938619fdb66f8799e8d9e4b85fece90c7285114", "exact_subject": true, "subject": "Elephants at Amboseli National Park against Mount Kilimanjaro",
+      "alt": "A herd of elephants at Amboseli National Park with Mount Kilimanjaro rising behind them.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Elephants at Amboseli National Park against Mount Kilimanjaro."
+    },
+    "/images/editorial/bwindi-impenetrable-national-park/068-mountain-gorilla-close-up-at-bwindi-impenetrable-forest-.jpg": {
+      "kind": "photograph", "slug": "bwindi-gorilla-closeup", "local_path": "/images/editorial/bwindi-impenetrable-national-park/068-mountain-gorilla-close-up-at-bwindi-impenetrable-forest-.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:068_Mountain_gorilla_close-up_at_Bwindi_Impenetrable_Forest_National_Park_Photo_by_Giles_Laurent.jpg", "creator": "Giles Laurent", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-26",
+      "sha256": "4da6d6f176cc4bf3813e80ff6eacbf462c74f70cb94ce2217cfb36e54530bee9", "exact_subject": true, "subject": "Mountain gorilla close-up, Bwindi Impenetrable Forest National Park",
+      "alt": "A close-up of a mountain gorilla in Bwindi Impenetrable Forest National Park in Uganda.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Mountain gorilla close-up at Bwindi Impenetrable Forest National Park."
+    },
+    "/images/editorial/cairo-and-giza/great-sphinx-jpg.jpg": {
+      "kind": "photograph", "slug": "giza-great-sphinx", "local_path": "/images/editorial/cairo-and-giza/great-sphinx-jpg.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Great_Sphinx_(%D8%A3%D8%A8%D9%88_%D8%A7%D9%84%D9%87%D9%88%D9%84).jpg", "creator": "Petar Milošević", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-26",
+      "sha256": "cb116423782780ac6217709d8807667914bbef70ee47369889ce8d4155403c34", "exact_subject": true, "subject": "Great Sphinx of Giza, Egypt",
+      "alt": "The Great Sphinx of Giza on the Giza plateau in Egypt.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Great Sphinx, Giza, Egypt."
+    },
+    "/images/editorial/cape-coast-kakum/rainforest-kakum-national-park-ghanajpg.jpg": {
+      "kind": "photograph", "slug": "kakum-rainforest-canopy", "local_path": "/images/editorial/cape-coast-kakum/rainforest-kakum-national-park-ghanajpg.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Rainforest_Kakum_National_Park_Ghana.jpg", "creator": "Flowizm", "license": "CC BY 2.0", "license_url": "https://creativecommons.org/licenses/by/2.0/", "checked_at": "2026-11-26",
+      "sha256": "50b5c9a5f966e6f33a6f3aa10870116ed5fe2d92bcae230d76869116a5aec51a", "exact_subject": true, "subject": "Rainforest in Kakum National Park, Ghana",
+      "alt": "The dense rainforest of Kakum National Park in Ghana seen from the canopy walkway.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Rainforest in Kakum National Park taken from the canopy walkway."
+    },
+    "/images/editorial/cape-town/cape-town-za-wale-street----2024----3536jpg.jpg": {
+      "kind": "photograph", "slug": "cape-town-bo-kaap-wale-street", "local_path": "/images/editorial/cape-town/cape-town-za-wale-street----2024----3536jpg.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Cape_Town_(ZA),_Wale_Street_--_2024_--_3536.jpg", "creator": "Dietmar Rabich", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-26",
+      "sha256": "ec01613240a88bf2b53b376cdce201f5de5fddc3530d30520009e70e21b36ea2", "exact_subject": true, "subject": "Colorful houses in Wale Street, Bo-Kaap, Cape Town",
+      "alt": "The brightly painted houses of Wale Street in the Bo-Kaap neighbourhood of Cape Town.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Colorful houses in Wale Street, Bo-Kaap, Cape Town."
+    },
+    "/images/editorial/djanet-and-tassili/the-tanzoumaitak-cave-painting-in-tassili-najjerjpg.jpg": {
+      "kind": "photograph", "slug": "tassili-tanzoumaitak-cave-painting", "local_path": "/images/editorial/djanet-and-tassili/the-tanzoumaitak-cave-painting-in-tassili-najjerjpg.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:The_Tanzoumaitak_cave_painting_in_Tassili_n%27ajjer.jpg", "creator": "IssamBarhoumi", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-26",
+      "sha256": "246440e9a7ca2a608528f6be21a1c1a9c5e2bcf99855bff420f2ba448b64204f", "exact_subject": true, "subject": "Tanzoumaitak cave painting, Tassili n'Ajjer, Algeria",
+      "alt": "A prehistoric zoomorphic cave painting at Tanzoumaitak in Tassili n'Ajjer in Algeria.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Zoomorphic cave painting at Tanzoumaitak, Tassili n'Ajjer park."
+    },
+    "/images/editorial/lalibela/rock-hewn-churches-lalibela-ethiopia-6jpg.jpg": {
+      "kind": "photograph", "slug": "lalibela-rock-hewn-churches", "local_path": "/images/editorial/lalibela/rock-hewn-churches-lalibela-ethiopia-6jpg.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Rock-Hewn_Churches,_Lalibela_Ethiopia_(6).jpg", "creator": "Radosław Botev", "license": "CC BY 3.0 pl", "license_url": "https://creativecommons.org/licenses/by/3.0/pl/", "checked_at": "2026-11-26",
+      "sha256": "10ea19bd3951231f4274b1d43803350c185ab41ab702e345caf7c82e84f751d6", "exact_subject": true, "subject": "Rock-Hewn Churches of Lalibela, Ethiopia",
+      "alt": "The rock-hewn churches of Lalibela carved from volcanic rock in Ethiopia.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "The Rock-Hewn Churches, Lalibela, Ethiopia."
+    },
+    "/images/editorial/maasai-mara/lions-family-portrait-masai-marajpg.jpg": {
+      "kind": "photograph", "slug": "masai-mara-lion-family", "local_path": "/images/editorial/maasai-mara/lions-family-portrait-masai-marajpg.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Lions_Family_Portrait_Masai_Mara.jpg", "creator": "Benh LIEU SONG", "license": "CC BY-SA 3.0", "license_url": "https://creativecommons.org/licenses/by-sa/3.0/", "checked_at": "2026-11-26",
+      "sha256": "81c2d0b098fc249513a7894030e5f475ac0b1344408707c2d73551f179165601", "exact_subject": true, "subject": "Lion family, Maasai Mara, Kenya",
+      "alt": "A family of lions resting together in the Maasai Mara in Kenya.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Portrait of three lions of a pride resting in the Maasai Mara."
     }
 
   },
@@ -13903,7 +13959,8 @@ export const photoLibrary = {
           "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/African_Elephant_from_Amboseli.jpg/1280px-African_Elephant_from_Amboseli.jpg",
           "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Elephant_-_Amboseli_National_Park%2C_Kenya_%2854187030338%29.jpg/1280px-Elephant_-_Amboseli_National_Park%2C_Kenya_%2854187030338%29.jpg",
           "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Sunrise%2C_Amboseli_National_Park%2C_Kenya.jpg/1280px-Sunrise%2C_Amboseli_National_Park%2C_Kenya.jpg",
-          "https://upload.wikimedia.org/wikipedia/commons/b/bc/Amboseli_National_Park_scenery.JPG"
+          "https://upload.wikimedia.org/wikipedia/commons/b/bc/Amboseli_National_Park_scenery.JPG",
+          "/images/editorial/amboseli-national-park/elephants-at-amboseli-national-park-against-mount-kilimanjar.jpg"
         ]
       },
       "bwindi-impenetrable-national-park": {
@@ -13918,7 +13975,8 @@ export const photoLibrary = {
           "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Merops_gularis_australis%2C_Bwindi_Impenetrable_Forest%2C_Uganda_2.jpg/1280px-Merops_gularis_australis%2C_Bwindi_Impenetrable_Forest%2C_Uganda_2.jpg",
           "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Bwindi_Impenetrable_National_Park_desde_el_Broadbill_Forest_Camp_20190925_085152.jpg/1280px-Bwindi_Impenetrable_National_Park_desde_el_Broadbill_Forest_Camp_20190925_085152.jpg",
           "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Bwindi_impenetrable_Forest.jpg/1280px-Bwindi_impenetrable_Forest.jpg",
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/070_Dark-capped_bulbul_at_Bwindi_Impenetrable_Forest_National_Park_Photo_by_Giles_Laurent.jpg/1280px-070_Dark-capped_bulbul_at_Bwindi_Impenetrable_Forest_National_Park_Photo_by_Giles_Laurent.jpg"
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/070_Dark-capped_bulbul_at_Bwindi_Impenetrable_Forest_National_Park_Photo_by_Giles_Laurent.jpg/1280px-070_Dark-capped_bulbul_at_Bwindi_Impenetrable_Forest_National_Park_Photo_by_Giles_Laurent.jpg",
+          "/images/editorial/bwindi-impenetrable-national-park/068-mountain-gorilla-close-up-at-bwindi-impenetrable-forest-.jpg"
         ]
       },
       "cairo-and-giza": {
@@ -13933,7 +13991,8 @@ export const photoLibrary = {
           "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/The_Great_Sphinx_of_Giza%2C_Cairo%2C_Egypt.jpg/1280px-The_Great_Sphinx_of_Giza%2C_Cairo%2C_Egypt.jpg",
           "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Cairo_Citadel_and_Mosque_of_Muhammad_Ali.jpg/1280px-Cairo_Citadel_and_Mosque_of_Muhammad_Ali.jpg",
           "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Cairo_Khan_El_Khili.jpg/1280px-Cairo_Khan_El_Khili.jpg",
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Cairo_and_Nile_at_the_morning_vibe.jpg/1280px-Cairo_and_Nile_at_the_morning_vibe.jpg"
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Cairo_and_Nile_at_the_morning_vibe.jpg/1280px-Cairo_and_Nile_at_the_morning_vibe.jpg",
+          "/images/editorial/cairo-and-giza/great-sphinx-jpg.jpg"
         ]
       },
       "cape-coast-kakum": {
@@ -13949,7 +14008,8 @@ export const photoLibrary = {
           "/images/editorial/cape-coast-kakum/kakum-trail-to-canopy-walk.jpg",
           "/images/editorial/cape-coast-kakum/kakum-forest-walk.jpg",
           "/images/editorial/cape-coast-kakum/kakum-park-path.jpg",
-          "/images/editorial/cape-coast-kakum/cape-coast-castle-entrance-2025.jpg"
+          "/images/editorial/cape-coast-kakum/cape-coast-castle-entrance-2025.jpg",
+          "/images/editorial/cape-coast-kakum/rainforest-kakum-national-park-ghanajpg.jpg"
         ]
       },
       "cape-town": {
@@ -13964,7 +14024,8 @@ export const photoLibrary = {
           "/images/editorial/cape-town-attraction/signal-hill-lookout-2019.jpg",
           "/images/editorial/cape-town-attraction/bo-kaap-wale-street-2014.jpg",
           "/images/editorial/cape-town-attraction/kirstenbosch-fynbos-garden-2013.jpg",
-          "/images/editorial/cape-town-attraction/lions-head-from-cbd-2026.jpg"
+          "/images/editorial/cape-town-attraction/lions-head-from-cbd-2026.jpg",
+          "/images/editorial/cape-town/cape-town-za-wale-street----2024----3536jpg.jpg"
         ]
       },
       "djanet-and-tassili": {
@@ -13979,7 +14040,8 @@ export const photoLibrary = {
           "/images/editorial/djanet-tassili-attraction/djanet-night-desert-raouf-bedrani.jpg",
           "/images/editorial/djanet-tassili-attraction/djanet-canyon-oasis-heythem-kehila.jpg",
           "/images/editorial/djanet-tassili-attraction/tassili-sandstone-formations-djamel-ramdani.jpg",
-          "/images/editorial/djanet-tassili-attraction/djanet-prehistoric-rock-engraving-djamel-ramdani.jpg"
+          "/images/editorial/djanet-tassili-attraction/djanet-prehistoric-rock-engraving-djamel-ramdani.jpg",
+          "/images/editorial/djanet-and-tassili/the-tanzoumaitak-cave-painting-in-tassili-najjerjpg.jpg"
         ]
       },
       "kruger-national-park": {
@@ -14007,7 +14069,8 @@ export const photoLibrary = {
           "/images/editorial/lalibela-attraction/st-george-church-aerial-ludo-van-den-nouweland.jpg",
           "/images/editorial/lalibela-attraction/rock-hewn-church-visitors-estella.jpg",
           "/images/editorial/lalibela-attraction/lalibela-priest-cross-ludo-van-den-nouweland.jpg",
-          "/images/editorial/lalibela-attraction/lalibela-church-stonework-ludo-van-den-nouweland.jpg"
+          "/images/editorial/lalibela-attraction/lalibela-church-stonework-ludo-van-den-nouweland.jpg",
+          "/images/editorial/lalibela/rock-hewn-churches-lalibela-ethiopia-6jpg.jpg"
         ]
       },
       "maasai-mara": {
@@ -14023,7 +14086,8 @@ export const photoLibrary = {
           "/images/editorial/maasai-mara-attraction/maasai-mara-lion-2007.jpg",
           "/images/editorial/maasai-mara-attraction/maasai-mara-elephants-2019.jpg",
           "/images/editorial/maasai-mara-attraction/maasai-mara-zebra-2015.jpg",
-          "/images/editorial/maasai-mara-attraction/maasai-mara-four-lions-2015.jpg"
+          "/images/editorial/maasai-mara-attraction/maasai-mara-four-lions-2015.jpg",
+          "/images/editorial/maasai-mara/lions-family-portrait-masai-marajpg.jpg"
         ]
       },
       "marrakech-and-atlas": {
