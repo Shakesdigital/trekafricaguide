@@ -5,7 +5,7 @@ import { join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { loadContent } from './src/lib/content-repository.mjs';
 import { readBuildEnv } from './src/lib/env.mjs';
-import { buildSitemapPlan, isSitemapPath, lastmodForPath } from './scripts/sitemap-plan.mjs';
+import { buildSitemapPlan, isSitemapPath, serializeSitemapItem } from './scripts/sitemap-plan.mjs';
 
 const content = await loadContent({ env: readBuildEnv() });
 const sitemapPlan = buildSitemapPlan(content);
@@ -31,10 +31,7 @@ export default defineConfig({
   integrations: [
     sitemap({
       filter: (page) => isSitemapPath(page, sitemapPlan),
-      serialize: (item) => {
-        const lastmod = lastmodForPath(item.url, sitemapPlan);
-        return lastmod ? { ...item, lastmod } : item;
-      },
+      serialize: (item) => serializeSitemapItem(item, sitemapPlan),
     }),
     sitemapAlias(),
   ],
