@@ -13981,6 +13981,48 @@ export const photoLibrary = {
       "sha256": "076c1628be84ad8cb627a5139fb2b003a45100249f10cb54f7a54b622c0bd7eb", "exact_subject": true, "subject": "African elephant, South Luangwa National Park, Zambia",
       "alt": "An African elephant in South Luangwa National Park in Zambia.", "property": false, "requires_attribution": true,
       "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Loxodonta africana, South Luangwa National Park."
+    },
+    "/images/editorial/victoria-falls/mosi-oa-tunya-livingstone-20260519-p1075700jpg.jpg": {
+      "kind": "photograph", "slug": "victoria-falls-mosi-oa-tunya", "local_path": "/images/editorial/victoria-falls/mosi-oa-tunya-livingstone-20260519-p1075700jpg.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Mosi-oa-Tunya,_Livingstone_(20260519-P1075700).jpg", "creator": "Matti Blume", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-26",
+      "sha256": "180ebc509e6c04772f240aa30b8980144c39d22e4724b3c3da71f23ca19b4196", "exact_subject": true, "subject": "Mosi-oa-Tunya (Victoria Falls), Livingstone, Zambia",
+      "alt": "The spray and cascade of Mosi-oa-Tunya (Victoria Falls) seen from Livingstone in Zambia.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Mosi-oa-Tunya, Livingstone, 2026-05-19."
+    },
+    "/images/editorial/nyungwe-national-park/sunset-over-nyungwe-national-park-rwandajpg.jpg": {
+      "kind": "photograph", "slug": "nyungwe-sunset", "local_path": "/images/editorial/nyungwe-national-park/sunset-over-nyungwe-national-park-rwandajpg.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Sunset_over_Nyungwe_National_Park,_Rwanda.jpg", "creator": "travelmag.com", "license": "CC BY 2.0", "license_url": "https://creativecommons.org/licenses/by/2.0/", "checked_at": "2026-11-26",
+      "sha256": "0d9ae784bef3adecfb5553af043afd651eb519f07194b296db9da184ee68cdc0", "exact_subject": true, "subject": "Sunset over Nyungwe National Park, Rwanda",
+      "alt": "The sun setting over the forest canopy of Nyungwe National Park in Rwanda.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Sunset over Nyungwe National Park, Rwanda."
+    },
+    "/images/editorial/zanzibar/nungwi-beach-zanzibarjpg.jpg": {
+      "kind": "photograph", "slug": "nungwi-beach-zanzibar", "local_path": "/images/editorial/zanzibar/nungwi-beach-zanzibarjpg.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Nungwi-Beach-Zanzibar.jpg", "creator": "Niceley", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-26",
+      "sha256": "97f2cfdee3c8e40e660a992d8473b8eac91b1b2b407202a256ef89ac01355984", "exact_subject": true, "subject": "Nungwi Beach, Zanzibar",
+      "alt": "The white sand and turquoise water of Nungwi Beach on Zanzibar.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Nungwi Beach, Zanzibar."
+    },
+    "/images/editorial/elmina-castle/elmina-castle---ghanajpg.jpg": {
+      "kind": "photograph", "slug": "elmina-castle-ghana", "local_path": "/images/editorial/elmina-castle/elmina-castle---ghanajpg.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Elmina_Castle_-_Ghana.jpg", "creator": "Damien Halleux Radermecker", "license": "CC BY-SA 2.0", "license_url": "https://creativecommons.org/licenses/by-sa/2.0/", "checked_at": "2026-11-26",
+      "sha256": "224ab15b8d6e96b9152499c119e06890b4819822d1d7c7b889289f92cc316c0a", "exact_subject": true, "subject": "Elmina Castle, Ghana",
+      "alt": "The whitewashed walls of Elmina Castle on the coast of Ghana.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Elmina Castle, Ghana."
+    },
+    "/images/editorial/kibale-national-park/013-alpha-male-chimpanzee-at-kibale-forest-national-park-pho.jpg": {
+      "kind": "photograph", "slug": "kibale-chimpanzee", "local_path": "/images/editorial/kibale-national-park/013-alpha-male-chimpanzee-at-kibale-forest-national-park-pho.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:013_Alpha_male_chimpanzee_at_Kibale_forest_National_Park_Photo_by_Giles_Laurent.jpg", "creator": "Giles Laurent", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-26",
+      "sha256": "c56cde11710ed991eaf943e2235d995e8a89f45149cfa1ef1b926a134fa04c57", "exact_subject": true, "subject": "Alpha male chimpanzee, Kibale Forest National Park, Uganda",
+      "alt": "An alpha male chimpanzee in Kibale Forest National Park in Uganda.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Alpha male chimpanzee at Kibale forest National Park."
+    },
+    "/images/editorial/jozani-forest/trail-palms-mahogany-jozani-zanzibar-oct26-a7r-06886jpg.jpg": {
+      "kind": "photograph", "slug": "jozani-forest-trail", "local_path": "/images/editorial/jozani-forest/trail-palms-mahogany-jozani-zanzibar-oct26-a7r-06886jpg.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Trail_Palms_Mahogany_Jozani_Zanzibar_Oct26_A7R_06886.jpg", "creator": "Timothy A. Gonsalves", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-26",
+      "sha256": "4038388f46cd56114ebee5e7498c5cbd2476d70aaa5aa032fd0d81183c102c44", "exact_subject": true, "subject": "Trail through palms and mahogany in Jozani Forest, Zanzibar",
+      "alt": "A trail winding through palms and mahogany trees in Jozani Forest on Zanzibar.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Trail, palms and mahogany, Jozani Zanzibar, October 2026."
     }
 
   },
@@ -14344,7 +14386,8 @@ export const photoLibrary = {
           "/images/editorial/victoria-falls/victoria-falls-zimbabwe-panorama.jpg",
           "/images/editorial/victoria-falls/victoria-falls-bridge-zambezi.jpg",
           "/images/editorial/victoria-falls/victoria-falls-viewpoint.jpg",
-          "/images/editorial/victoria-falls/victoria-falls-knife-edge-zambia.jpg"
+          "/images/editorial/victoria-falls/victoria-falls-knife-edge-zambia.jpg",
+          "/images/editorial/victoria-falls/mosi-oa-tunya-livingstone-20260519-p1075700jpg.jpg"
         ]
       },
       "nyungwe-national-park": {
@@ -14357,7 +14400,8 @@ export const photoLibrary = {
           "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Mother_chimpanzee_and_its_baby_ready_to_have_a_picture_%2Cfrom_Nyungwe_National_Parc.jpg/1280px-Mother_chimpanzee_and_its_baby_ready_to_have_a_picture_%2Cfrom_Nyungwe_National_Parc.jpg",
           "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Multi-male_unit_of_Rwenzori_colobus_in_Nyungwe_.jpg/1280px-Multi-male_unit_of_Rwenzori_colobus_in_Nyungwe_.jpg",
           "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Sunrisenyungwe.jpg/1280px-Sunrisenyungwe.jpg",
-          "https://upload.wikimedia.org/wikipedia/commons/9/98/Isumo_Waterfall_in_Nyungwe_Forest.jpg"
+          "https://upload.wikimedia.org/wikipedia/commons/9/98/Isumo_Waterfall_in_Nyungwe_Forest.jpg",
+          "/images/editorial/nyungwe-national-park/sunset-over-nyungwe-national-park-rwandajpg.jpg"
         ]
       },
       "great-zimbabwe-national-monument": {
@@ -14405,7 +14449,8 @@ export const photoLibrary = {
           "/images/editorial/zanzibar/zanzibar-beachfront.jpg",
           "/images/editorial/zanzibar/stone-town-aerial.jpg",
           "/images/editorial/zanzibar/jozani-red-colobus.jpg",
-          "/images/editorial/zanzibar/zanzibar-dhow-boats.jpg"
+          "/images/editorial/zanzibar/zanzibar-dhow-boats.jpg",
+          "/images/editorial/zanzibar/nungwi-beach-zanzibarjpg.jpg"
         ]
       },
       "elmina-castle": {
@@ -14418,7 +14463,8 @@ export const photoLibrary = {
           "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Elmina_Castle_%281%29.jpg/1280px-Elmina_Castle_%281%29.jpg",
           "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Elmina_Castle_-_Ghana.jpg/1280px-Elmina_Castle_-_Ghana.jpg",
           "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Elmina_Castle_79.jpg/1280px-Elmina_Castle_79.jpg",
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Elmina_Castle_Museum_%2810_of_22%29.jpg/1280px-Elmina_Castle_Museum_%2810_of_22%29.jpg"
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Elmina_Castle_Museum_%2810_of_22%29.jpg/1280px-Elmina_Castle_Museum_%2810_of_22%29.jpg",
+          "/images/editorial/elmina-castle/elmina-castle---ghanajpg.jpg"
         ]
       },
       "kibale-national-park": {
@@ -14431,7 +14477,8 @@ export const photoLibrary = {
           "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Chimpanzee%2C_Kibale_National_Park%2C_Uganda_%2852938250380%29.jpg/1280px-Chimpanzee%2C_Kibale_National_Park%2C_Uganda_%2852938250380%29.jpg",
           "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/A_road_through_the_green_scenery_of_Kibale_National_Park_in_Western_Uganda_05.jpg/1280px-A_road_through_the_green_scenery_of_Kibale_National_Park_in_Western_Uganda_05.jpg",
           "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Kibale_National_Park_20190920_100942.jpg/1280px-Kibale_National_Park_20190920_100942.jpg",
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Kibale_NP_P1000256.JPG/1280px-Kibale_NP_P1000256.JPG"
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Kibale_NP_P1000256.JPG/1280px-Kibale_NP_P1000256.JPG",
+          "/images/editorial/kibale-national-park/013-alpha-male-chimpanzee-at-kibale-forest-national-park-pho.jpg"
         ]
       },
       "jozani-forest": {
@@ -14444,7 +14491,8 @@ export const photoLibrary = {
           "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Jozani_Forest_%2805810014%29_%288433997901%29.jpg/1280px-Jozani_Forest_%2805810014%29_%288433997901%29.jpg",
           "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Colobo_rojo_de_Zanz%C3%ADbar_%28Piliocolobus_kirkii%29%2C_parque_nacional_de_la_Bah%C3%ADa_Jozani_Chwaka%2C_Zanz%C3%ADbar%2C_Tanzania%2C_2024-06-02%2C_DD_26.jpg/1280px-Colobo_rojo_de_Zanz%C3%ADbar_%28Piliocolobus_kirkii%29%2C_parque_nacional_de_la_Bah%C3%ADa_Jozani_Chwaka%2C_Zanz%C3%ADbar%2C_Tanzania%2C_2024-06-02%2C_DD_26.jpg",
           "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Colobo_rojo_de_Zanz%C3%ADbar_%28Piliocolobus_kirkii%29%2C_parque_nacional_de_la_Bah%C3%ADa_Jozani_Chwaka%2C_Zanz%C3%ADbar%2C_Tanzania%2C_2024-06-02%2C_DD_19.jpg/1280px-Colobo_rojo_de_Zanz%C3%ADbar_%28Piliocolobus_kirkii%29%2C_parque_nacional_de_la_Bah%C3%ADa_Jozani_Chwaka%2C_Zanz%C3%ADbar%2C_Tanzania%2C_2024-06-02%2C_DD_19.jpg",
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Colobo_rojo_de_Zanz%C3%ADbar_%28Piliocolobus_kirkii%29%2C_parque_nacional_de_la_Bah%C3%ADa_Jozani_Chwaka%2C_Zanz%C3%ADbar%2C_Tanzania%2C_2024-06-02%2C_DD_07.jpg/1280px-Colobo_rojo_de_Zanz%C3%ADbar_%28Piliocolobus_kirkii%29%2C_parque_nacional_de_la_Bah%C3%ADa_Jozani_Chwaka%2C_Zanz%C3%ADbar%2C_Tanzania%2C_2024-06-02%2C_DD_07.jpg"
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Colobo_rojo_de_Zanz%C3%ADbar_%28Piliocolobus_kirkii%29%2C_parque_nacional_de_la_Bah%C3%ADa_Jozani_Chwaka%2C_Zanz%C3%ADbar%2C_Tanzania%2C_2024-06-02%2C_DD_07.jpg/1280px-Colobo_rojo_de_Zanz%C3%ADbar_%28Piliocolobus_kirkii%29%2C_parque_nacional_de_la_Bah%C3%ADa_Jozani_Chwaka%2C_Zanz%C3%ADbar%2C_Tanzania%2C_2024-06-02%2C_DD_07.jpg",
+          "/images/editorial/jozani-forest/trail-palms-mahogany-jozani-zanzibar-oct26-a7r-06886jpg.jpg"
         ]
       }
     },
