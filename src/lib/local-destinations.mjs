@@ -22,12 +22,19 @@ export function buildLocalDestinations(records, collections, now = new Date()) {
       const slugs = record[field] || [];
       if (!Array.isArray(slugs) || new Set(slugs).size !== slugs.length) throw new Error(`Local destination ${key} has invalid ${field}`);
       const bySlug = new Map(collection.map((item) => [item.slug, item]));
-      return slugs.map((slug) => {
+      const resolved = [];
+      for (const slug of slugs) {
         const item = bySlug.get(slug);
-        if (!item || !visibleAt(item, now)) throw new Error(`Local destination ${key} references missing or unpublished ${field}: ${slug}`);
+        // A stale slug or an editorial draft in the CMS mirror must not block
+        // the whole static build; the page simply omits that relationship.
+        if (!item || !visibleAt(item, now)) {
+          console.warn(`Local destination ${key} skips missing or unpublished ${field}: ${slug}`);
+          continue;
+        }
         if (belongsToCountry && item.country?.slug !== country.slug) throw new Error(`Local destination ${key} references ${field} in another country: ${slug}`);
-        return item;
-      });
+        resolved.push(item);
+      }
+      return resolved;
     };
     return {
       ...record, country, region: country.region, country_id: country.id,
