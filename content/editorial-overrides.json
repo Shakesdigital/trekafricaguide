@@ -5552,6 +5552,57 @@
         }
       ],
       "meta_description": "Plan a locally arranged Freetown Peninsula coastal excursion to River Number Two estuary and Tokeh Beach: agree tide windows, community guide, boat equipment and return plan before departure."
+    },
+    {
+      "slug": "kilimanjaro-kibo-summit-trek",
+      "attraction_id": "repo:attractions:kilimanjaro-national-park",
+      "name": "Kilimanjaro Kibo summit trek",
+      "location_name": "Kilimanjaro National Park, Tanzania",
+      "listing_summary": "A multi-day, non-technical walking trek to Kibo, the 5,895 m summit of Kilimanjaro, led by a licensed mountain guide. Confirm routes, fees and operator terms before booking; this page does not reprint current tariffs.",
+      "detail_intro": "Climbing Kilimanjaro is a walking expedition rather than a technical ascent: the standard objective is Kibo, the highest of the massif’s three volcanic centres, reached on foot over several days with a licensed guide and support crew. The mountain sets the terms — altitude, weather and the pace of acclimatisation decide the day, not a fixed schedule.",
+      "full_description": "<p>Kilimanjaro rewards walkers, not climbers. Tanzania National Parks (TANAPA) describes the mountain as the roof of Africa, and the goal for most trekkers is Kibo, the youngest and highest of the massif’s three volcanic centres at 5,895 m. The climb is non-technical: you reach the summit on foot over a sequence of days, gaining height gradually so your body can adjust. The other two centres are different propositions — Mawenzi, at 5,149 m, is a rugged, eroded peak suited to experienced mountaineers, and Shira, at 3,962 m, is an older collapsed centre whose plateau is crossed on some routes rather than climbed. Read our <a href=\"/attractions/kilimanjaro-national-park\">Kilimanjaro National Park</a> guide for the park’s geography, climate zones and conservation context.</p><h3>What the trek involves</h3><p>A Kilimanjaro trek is a commitment of several days on the mountain, walking each day and sleeping at altitude. TANAPA describes five eco-climatic belts that carry you from montane forest near the trailhead through moorland and alpine desert to an arctic-like summit zone, with vegetation and temperature changing as you gain height. That transition is the heart of the experience, and it is also why the climb is slow: the schedule is built around acclimatisation, and the summit push is a long day that starts in the dark and ends at the crater rim. Several established routes approach Kibo from different sides of the mountain; the route you choose shapes the scenery, the profile of the climb and the number of days. Route choice, day-by-day duration and current conditions vary by operator and season — confirm the exact itinerary, camps and acclimatisation profile with your operator before you commit, as this page deliberately does not reprint a fixed day count or tariff.</p><h3>Guides, permits and booking</h3><p>You do not climb Kilimanjaro independently. Trekkers register at the park and are accompanied by a licensed mountain guide and support team, and climbing is booked through a tour operator rather than bought as a single gate ticket. TANAPA’s visitor information confirms that entry and mountain-climbing fees are paid through the Government Electronic Payment Gateway (GePG) and that tour operators are the channel for climbing arrangements, including a published rescue service on the mountain. Fees differ by category — non-resident, expatriate and East African citizen — and TANAPA’s tariff schedule is periodically revised, so confirm the current conservation, camping and climbing fees for your category, what each includes, and the operator’s own service level directly before booking. We intentionally do not state a price here.</p><h3>Who it suits</h3><p>The trek suits walkers who want a high-altitude, multi-day challenge and are prepared to go slowly. It rewards patience and fitness rather than technical skill, but altitude is the real variable: how well you acclimatise matters more than raw strength, and no operator can guarantee a summit. It is less suited to anyone short on time, to technical climbers looking for a mountaineering objective (Mawenzi is the far harder peak), or to visitors who want a vehicle-based safari — for that, see our <a href=\"/activities/serengeti-balloon-safari\">Serengeti balloon safari</a> and other safari activities. If Kilimanjaro is one part of a wider northern Tanzania route, build in rest days before and after the climb rather than connecting it directly to a safari drive.</p><h3>Plan with care</h3><p>Altitude, weather and the mountain set the pace; your guide makes the safety calls. Choose an operator on safety record, guide-to-client ratio and acclimatisation profile rather than price alone, confirm what the quoted service includes, and discuss any health or mobility questions with your operator and doctor before you go. Conditions and rules on the mountain can change, so treat your operator’s final briefing and TANAPA’s current guidance as the authority that counts.</p>",
+      "highlights": [
+        "A non-technical, multi-day walking trek to Kibo, Africa’s highest summit at 5,895 m",
+        "Five climate zones from montane forest to an arctic-like summit, crossed as you gain height",
+        "A licensed mountain guide and support crew are required; climbs are booked through a tour operator",
+        "A slow, acclimatisation-led schedule where altitude, not pace, decides the summit day"
+      ],
+      "best_time": "<p>Kilimanjaro is climbed year-round, and the main choice is between the drier periods and the wetter ones. Drier months generally mean clearer summit views and firmer trails but more cold and dust; the long rains bring mud, lower visibility and a quieter mountain. Temperatures fall sharply with altitude regardless of season, and the summit zone is below freezing at night. Because conditions and operator schedules vary, confirm the seasonal tradeoffs, the exact dates and what your operator includes for your chosen month rather than relying on a fixed “best” window. No departure is immune to weather.</p>",
+      "practical_info": "<h3>Confirm before you book</h3><ul><li>Your route, the day-by-day itinerary and the acclimatisation profile — these differ between operators and are not fixed by the park.</li><li>The current conservation, camping and climbing fees for your category (non-resident, expatriate or East African citizen) and exactly what the operator’s price includes; TANAPA tariffs are periodically revised.</li><li>Your operator’s licensing, guide-to-client ratio, safety record and the mountain rescue arrangements.</li><li>Payment route: park fees are paid through Tanzania’s Government Electronic Payment Gateway (GePG); climbing is arranged through your operator, not a single gate ticket.</li><li>Cancellation, weather and summit-attempt terms in writing before you pay a deposit.</li></ul><h3>What to pack</h3><ul><li>Layered clothing for a range from warm forest to sub-zero summit nights, plus a down jacket and waterproof shell.</li><li>Solid, broken-in walking boots with ankle support and gaiters for dust and mud.</li><li>A sleeping bag rated for high-altitude cold, a head torch for the pre-dawn summit start, and sun protection for the alpine desert.</li><li>Water, personal medication and any items your operator asks you to carry yourself; confirm what the support crew transports.</li></ul><p>Check Tanzania’s official entry guidance for your passport and visit purpose, and any transit-country rules. Entry information to be reconfirmed before travel; a park climbing arrangement is not a visa.</p>",
+      "hero_image_url": null,
+      "hero_image_alt": "",
+      "gallery": [],
+      "booking_url": null,
+      "source_url": "https://www.tanzaniaparks.go.tz/nationalparks/kilimanjaro",
+      "status": "published",
+      "published_at": "2026-11-27",
+      "featured": false,
+      "sort_order": 101,
+      "last_researched": "2026-11-27",
+      "research_sources": [
+        {
+          "label": "Tanzania National Parks (TANAPA): Kilimanjaro National Park — park identity, Kibo as the 5,895 m summit objective, gazettement and UNESCO context; checked 27 November 2026 (park detail page is a JavaScript app; core facts corroborated via the TANAPA geopark page and UNESCO listing)",
+          "url": "https://www.tanzaniaparks.go.tz/nationalparks/kilimanjaro",
+          "checked_at": "2026-11-27"
+        },
+        {
+          "label": "Tanzania National Parks (TANAPA): Mount Kilimanjaro Geopark — Kibo (5,895 m, youngest cone, summit crater and remnant glaciers), Mawenzi (older eroded cone) and Shira (collapsed caldera / plateau), and the montane-forest-to-alpine-desert transitions; checked 27 November 2026",
+          "url": "https://www.tanzaniaparks.go.tz/geoparks-mt-kilimanjaro",
+          "checked_at": "2026-11-27"
+        },
+        {
+          "label": "Tanzania National Parks (TANAPA): Park Fees & Tariffs and visitor information — fees paid via the Government Electronic Payment Gateway (GePG), category-based rates (non-resident / expatriate / EAC citizen), tour-operator channel for mountain climbing, and a published mountain rescue service; specific fee values load dynamically and are not reprinted; checked 27 November 2026",
+          "url": "https://www.tanzaniaparks.go.tz/tourism/visitor-information/tariff",
+          "checked_at": "2026-11-27"
+        },
+        {
+          "label": "UNESCO World Heritage Centre: Kilimanjaro National Park (ref. 403) — largest free-standing volcanic mass, rising to 5,895 m, inscribed 1987; checked 27 November 2026",
+          "url": "https://whc.unesco.org/en/list/403/",
+          "checked_at": "2026-11-27"
+        }
+      ],
+      "meta_title": "Kilimanjaro Kibo Summit Trek: Routes, Guides and Planning | Trek Africa Guide",
+      "meta_description": "Plan a Kilimanjaro Kibo summit trek: the non-technical multi-day climb to 5,895 m, licensed-guide and operator booking, acclimatisation, and what to confirm before you pay a deposit."
     }
   ],
   "travel_articles": [
