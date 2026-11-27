@@ -1605,6 +1605,44 @@
   "accommodations": [
     {
       "region_id": 14,
+      "country_id": 46,
+      "slug": "fairmont-mount-kenya-safari-club",
+      "name": "Fairmont Mount Kenya Safari Club",
+      "property_type": "Luxury lodge and hotel",
+      "location_name": "Nanyuki, on the slopes of Mount Kenya, Kenya",
+      "listing_summary": "A heritage luxury hotel near Nanyuki with Mount Kenya views, a golf course, spa and an on-site wildlife rescue centre.",
+      "detail_intro": "Fairmont Mount Kenya Safari Club is a luxury hotel outside Nanyuki, positioned on the lower slopes of Mount Kenya and described by the property as a retreat rich in heritage where Samburu and Kikuyu traditions meet rare wildlife and rewilding efforts. The official page presents it as a base for exploring forest trails, the on-site Wildlife Rescue Center and the surrounding landscape, with Mount Kenya itself as the backdrop rather than a climb from the door. It suits travellers who want a comfortable, amenity-rich base before or after a Mount Kenya trek or a Laikipia and northern-Kenya safari, rather than a lodge inside a national park.\n\nAccommodation is grouped into guest rooms, suites, bungalows and villas. The official room descriptions include a Fairmont Suite with a king bed, a living area with sofa and a fireplace, and views of Mount Kenya or the gardens; a separate multi-bedroom villa is described with a garden and forest outlook, a nanny room, a spacious living room with fireplace and an open kitchen, and is presented as suited to families and groups. The property also lists a heated outdoor pool, a spa, a golf course, horseback riding and nature walks, plus the Wildlife Rescue Center and animal orphanage associated with its conservation work. These are the operator's own descriptions; confirm current room categories, inclusions and the condition of shared facilities for your dates rather than assuming a specific room tier.",
+      "practical_info": "The property is reached via Nanyuki Airstrip, which the official page puts at roughly 15 km (about 9 miles) and a 30-minute drive away; the hotel also operates its own airstrip for private charters. For international arrivals the page gives Jomo Kenyatta International Airport in Nairobi as about 200 km (124 miles) and a three-hour drive, so plan the road transfer or a connecting flight in advance. A room booking is separate from any Mount Kenya climb, gorilla or northern-circuit safari: permits, guides and park or conservancy fees are not part of the room rate and must be arranged with the relevant operator or authority.\n\nAsk the hotel to confirm which meals, activities and conservancy or rescue-centre visits are included in your rate, and whether horseback riding, golf and spa treatments carry separate charges. Rates and availability are not reprinted here; use the official booking link for live prices and cancellation terms. Travellers with reduced mobility or young children should request current room-to-facility access, family-room arrangements and transfer details before paying. The highland setting can be cool in the early morning and evening, so bring layers for dawn departures and for time outdoors after dark.",
+      "amenities": [
+        "Guest rooms, suites, bungalows and villas",
+        "Mount Kenya and garden views (room-dependent)",
+        "Heated outdoor pool",
+        "Spa and fitness centre",
+        "Golf course",
+        "Horseback riding and nature walks",
+        "On-site Wildlife Rescue Center and animal orphanage",
+        "Restaurants and bars"
+      ],
+      "rating": null,
+      "review_count": 0,
+      "price_label": "Luxury",
+      "booking_url": "https://www.fairmont.com/en/hotels/nanyuki/fairmont-mount-kenya-safari-club.html",
+      "source_url": "https://www.fairmont.com/en/hotels/nanyuki/fairmont-mount-kenya-safari-club.html",
+      "research_sources": [
+        {
+          "label": "Fairmont — official Mount Kenya Safari Club property page",
+          "url": "https://www.fairmont.com/en/hotels/nanyuki/fairmont-mount-kenya-safari-club.html"
+        }
+      ],
+      "last_researched": "2026-11-27",
+      "status": "published",
+      "published_at": "2026-11-27T00:00:00+03:00",
+      "hero_image_url": "",
+      "hero_image_alt": "Fairmont Mount Kenya Safari Club, Nanyuki, Kenya",
+      "gallery": []
+    },
+    {
+      "region_id": 14,
       "country_id": 55,
       "attraction_id": "repo:attractions:kibale-national-park",
       "slug": "kibale-forest-camp",
