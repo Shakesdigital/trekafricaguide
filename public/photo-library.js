@@ -14433,6 +14433,216 @@ export const photoLibrary = {
       "sha256": "cea5fb925e007ef380f1e22af55fe46f9aea4981616cfc3b879cabd0bbb3d778", "exact_subject": true, "subject": "Nanyuki railway station, Kenya",
       "alt": "Nanyuki railway station on the historic Nairobi to Nanyuki line.", "property": false, "requires_attribution": true,
       "changes": "Wikimedia Commons thumbnail resized to 1600px wide; no other edits.", "exact_subject_evidence": "Picture of Nanyuki Train Station taken in December 2018."
+    },
+    "/images/editorial/masvingo-destination/masvingo-at-duskjpg.jpg": {
+      "kind": "photograph", "slug": "masvingo", "local_path": "/images/editorial/masvingo-destination/masvingo-at-duskjpg.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Masvingo_at_dusk.jpg", "creator": "Realtino", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-27",
+      "sha256": "4d7d66008a7525eecb76fb1c5d2a95d7015b77ca130c3e4ec653837e7ec21935", "exact_subject": true, "subject": "Masvingo at dusk, Zimbabwe",
+      "alt": "Masvingo town at dusk in south central Zimbabwe.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1600px wide; no other edits.", "exact_subject_evidence": "Masvingo at dusk"
+    },
+    "/images/editorial/masvingo-destination/masvingo-pojpg.jpg": {
+      "kind": "photograph", "slug": "masvingo", "local_path": "/images/editorial/masvingo-destination/masvingo-pojpg.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Masvingo_PO.jpg", "creator": "Fritz Joubert", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-27",
+      "sha256": "93a09462b8bc3444df3ef8db8179813f47845c5189422ea6b53196f00294c9cd", "exact_subject": true, "subject": "Masvingo post office, Zimbabwe",
+      "alt": "The post office building in Masvingo, formerly Fort Victoria.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1600px wide; no other edits.", "exact_subject_evidence": "Masvingo (Fort Victoria) post office"
+    },
+    "/images/editorial/masvingo-destination/moonrise-masvingo-zimbabwejpg.jpg": {
+      "kind": "photograph", "slug": "masvingo", "local_path": "/images/editorial/masvingo-destination/moonrise-masvingo-zimbabwejpg.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Moonrise._Masvingo,_Zimbabwe.jpg", "creator": "damien_farrell", "license": "CC BY 2.0", "license_url": "https://creativecommons.org/licenses/by/2.0/", "checked_at": "2026-11-27",
+      "sha256": "a955ae39f930b7d1fcb1c229944a289008b574e9a4a3baee356149d0c3d40139", "exact_subject": true, "subject": "Moonrise over Masvingo, Zimbabwe",
+      "alt": "Moonrise over the hills south west of Masvingo, Zimbabwe.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1600px wide; no other edits.", "exact_subject_evidence": "Moonrise. Masvingo, Zimbabwe."
+    },
+    "/images/editorial/masvingo-destination/kyle-dam-masvingo-province-zimbabwejpg.jpg": {
+      "kind": "photograph", "slug": "masvingo", "local_path": "/images/editorial/masvingo-destination/kyle-dam-masvingo-province-zimbabwejpg.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Kyle_Dam,_Masvingo_Province,_Zimbabwe.jpg", "creator": "Kjdhambuza", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-27",
+      "sha256": "a45599853cfd72aa6f81a07704479e037452d9fd785fd2671497c4c89f4c1c30", "exact_subject": true, "subject": "Kyle Dam, Masvingo Province",
+      "alt": "Kyle Dam in Masvingo Province, Zimbabwe.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1600px wide; no other edits.", "exact_subject_evidence": "This is an image of food from"
+    },
+    "/images/editorial/masvingo-destination/great-zimbabwe-ruins2jpg.jpg": {
+      "kind": "photograph", "slug": "masvingo", "local_path": "/images/editorial/masvingo-destination/great-zimbabwe-ruins2jpg.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Great_Zimbabwe_Ruins2.jpg", "creator": "Macvivo", "license": "CC BY-SA 3.0", "license_url": "https://creativecommons.org/licenses/by-sa/3.0/", "checked_at": "2026-11-27",
+      "sha256": "34c502e5738e86eb115073bf1071f754abab95ec7a35efb3b565c8bfd959becf", "exact_subject": true, "subject": "Great Zimbabwe ruins, Masvingo",
+      "alt": "Stone ruins at the Great Zimbabwe monument near Masvingo.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1600px wide; no other edits.", "exact_subject_evidence": "Great Zimbabwe Ruins"
+    },
+    "/images/editorial/sal-destination/sal-sta-maria-beach-hoteljpg.jpg": {
+      "kind": "photograph", "slug": "sal", "local_path": "/images/editorial/sal-destination/sal-sta-maria-beach-hoteljpg.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Sal_Sta_Maria_beach_hotel.jpg", "creator": "Cayambe", "license": "CC BY-SA 3.0", "license_url": "https://creativecommons.org/licenses/by-sa/3.0/", "checked_at": "2026-11-27",
+      "sha256": "8edf3f3da4e2ef33779a69482e48c1f37c2c61aef4003b48f8808c52e20af613", "exact_subject": true, "subject": "Santa Maria beach, Sal",
+      "alt": "The beach at Santa Maria on Sal island, Cape Verde.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1600px wide; no other edits.", "exact_subject_evidence": "Cape Verde, isle of Sal: beach and hotel at Santa Margia."
+    },
+    "/images/editorial/sal-destination/fishing-boats-santa-maria-sal-cape-verde-4334013911jpg.jpg": {
+      "kind": "photograph", "slug": "sal", "local_path": "/images/editorial/sal-destination/fishing-boats-santa-maria-sal-cape-verde-4334013911jpg.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Fishing_boats_Santa_Maria,_Sal,_Cape_Verde_(4334013911).jpg", "creator": "IDS.photos from Tiverton, UK", "license": "CC BY-SA 2.0", "license_url": "https://creativecommons.org/licenses/by-sa/2.0/", "checked_at": "2026-11-27",
+      "sha256": "0ca83c1a9a2dfebf5449ad577a5766c36cc27a7f35ab5eaaab51cd52a4b46c0a", "exact_subject": true, "subject": "Fishing boats, Santa Maria, Sal",
+      "alt": "Fishing boats pulled up on the sand at Santa Maria, Sal.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1600px wide; no other edits.", "exact_subject_evidence": "Fishing boats Santa Maria, Sal, Cape Verde"
+    },
+    "/images/editorial/sal-destination/sal-cape-verde-santa-maria---panoramiojpg.jpg": {
+      "kind": "photograph", "slug": "sal", "local_path": "/images/editorial/sal-destination/sal-cape-verde-santa-maria---panoramiojpg.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Sal_cape_verde_santa_maria_-_panoramio.jpg", "creator": "brunobarbato", "license": "CC BY 3.0", "license_url": "https://creativecommons.org/licenses/by/3.0/", "checked_at": "2026-11-27",
+      "sha256": "c27a8eec05afb45cf5370c5105832ec70c98124df0b22714c39820fe21135a3f", "exact_subject": true, "subject": "Santa Maria, Sal",
+      "alt": "A view of Santa Maria on Sal island, Cape Verde.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1600px wide; no other edits.", "exact_subject_evidence": "sal cape verde santa maria"
+    },
+    "/images/editorial/sal-destination/piscina-natural-da-buracona-na-ilha-do-saljpg.JPG": {
+      "kind": "photograph", "slug": "sal", "local_path": "/images/editorial/sal-destination/piscina-natural-da-buracona-na-ilha-do-saljpg.JPG",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Piscina_natural_da_buracona_na_ilha_do_sal.JPG", "creator": "Adrião", "license": "CC BY 3.0", "license_url": "https://creativecommons.org/licenses/by/3.0/", "checked_at": "2026-11-27",
+      "sha256": "5a62a2d151eaef5b51e7ca624253b50bd9513c88a18355cdc2c1e6b80efd6ee5", "exact_subject": true, "subject": "Buracona rock pool, Sal",
+      "alt": "The natural rock pool at Buracona on Sal island.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1600px wide; no other edits.", "exact_subject_evidence": "Piscina natural chamada \"buracona\", na ilha do Sal, em Cabo Verde."
+    },
+    "/images/editorial/sal-destination/sal-cape-verde-santa-maria---panoramio---brunobarbato-2jpg.jpg": {
+      "kind": "photograph", "slug": "sal", "local_path": "/images/editorial/sal-destination/sal-cape-verde-santa-maria---panoramio---brunobarbato-2jpg.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Sal_cape_verde_santa_maria_-_panoramio_-_brunobarbato_(2).jpg", "creator": "brunobarbato", "license": "CC BY 3.0", "license_url": "https://creativecommons.org/licenses/by/3.0/", "checked_at": "2026-11-27",
+      "sha256": "3a78d1a69a17b98e133ad0f9f999bb2acc9216ff94c57c023a5320b672207341", "exact_subject": true, "subject": "Santa Maria, Sal",
+      "alt": "Another view of Santa Maria on Sal island in Cape Verde.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1600px wide; no other edits.", "exact_subject_evidence": "sal cape verde santa maria"
+    },
+    "/images/editorial/tokeh-river-number-two/tokeh-beachjpg.jpg": {
+      "kind": "photograph", "slug": "tokeh-river-number-two", "local_path": "/images/editorial/tokeh-river-number-two/tokeh-beachjpg.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Tokeh_Beach.jpg", "creator": "Lars Bessel", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-27",
+      "sha256": "ba594897f5c7c79c693d645b0fbf2bafb3f9bb845d816bb69f7fc49bcce6eae2", "exact_subject": true, "subject": "Tokeh Beach, Sierra Leone",
+      "alt": "The wide sandy beach at Tokeh on the Freetown Peninsula in Sierra Leone.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1600px wide; no other edits.", "exact_subject_evidence": "Tokeh Beach"
+    },
+    "/images/editorial/tokeh-river-number-two/flickr---stringer-bel---river-no-2-village-beach-sierra-leon.jpg": {
+      "kind": "photograph", "slug": "tokeh-river-number-two", "local_path": "/images/editorial/tokeh-river-number-two/flickr---stringer-bel---river-no-2-village-beach-sierra-leon.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Flickr_-_stringer_bel_-_River_No._2_Village_Beach,_Sierra_Leone_(1).jpg", "creator": "Annabel Symington", "license": "CC BY 2.0", "license_url": "https://creativecommons.org/licenses/by/2.0/", "checked_at": "2026-11-27",
+      "sha256": "69ef16579bfa7a23916690c4c9e08f5dd8bd08df4e924370e0329616b57ec86c", "exact_subject": true, "subject": "River No. 2 Beach, Sierra Leone",
+      "alt": "River Number Two village beach on the Freetown Peninsula.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1600px wide; no other edits.", "exact_subject_evidence": "arguably the most beautiful beach in west Africa and just an hour's drive from Freetown."
+    },
+    "/images/editorial/tokeh-river-number-two/flickr---stringer-bel---river-no-2-village-beach-sierra-leon-21c8.jpg": {
+      "kind": "photograph", "slug": "tokeh-river-number-two", "local_path": "/images/editorial/tokeh-river-number-two/flickr---stringer-bel---river-no-2-village-beach-sierra-leon-21c8.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Flickr_-_stringer_bel_-_River_No._2_Village_Beach,_Sierra_Leone_(2).jpg", "creator": "Annabel Symington", "license": "CC BY 2.0", "license_url": "https://creativecommons.org/licenses/by/2.0/", "checked_at": "2026-11-27",
+      "sha256": "26f486298673715369219584eb13bc24a8e36facd2d2fb953607ec7e1620e45d", "exact_subject": true, "subject": "River No. 2 Beach, Sierra Leone",
+      "alt": "Another view of River Number Two beach in Sierra Leone.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1600px wide; no other edits.", "exact_subject_evidence": "arguably the most beautiful beach in west Africa and just an hour's drive from Freetown."
+    },
+    "/images/editorial/tokeh-river-number-two/flickr---stringer-bel---sunset-at-river-no-2-village-beach-s.jpg": {
+      "kind": "photograph", "slug": "tokeh-river-number-two", "local_path": "/images/editorial/tokeh-river-number-two/flickr---stringer-bel---sunset-at-river-no-2-village-beach-s.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Flickr_-_stringer_bel_-_Sunset_at_River_No._2_Village_Beach,_Sierra_Leone.jpg", "creator": "Annabel Symington", "license": "CC BY 2.0", "license_url": "https://creativecommons.org/licenses/by/2.0/", "checked_at": "2026-11-27",
+      "sha256": "463efa9cf5716d9c53f3b1094c9860b11863f48510ef6a939b31b0d7f363563c", "exact_subject": true, "subject": "Sunset at River No. 2 Beach",
+      "alt": "Sunset over River Number Two beach on the Freetown Peninsula.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1600px wide; no other edits.", "exact_subject_evidence": "arguably the most beautiful beach in west Africa and just an hour's drive from Freetown."
+    },
+    "/images/editorial/tokeh-river-number-two/the-number-2-sierra-leonejpg.jpg": {
+      "kind": "photograph", "slug": "tokeh-river-number-two", "local_path": "/images/editorial/tokeh-river-number-two/the-number-2-sierra-leonejpg.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:The_Number_2_,_Sierra_Leone.jpg", "creator": "Hussein Kefel", "license": "CC BY-SA 3.0", "license_url": "https://creativecommons.org/licenses/by-sa/3.0/", "checked_at": "2026-11-27",
+      "sha256": "9df49fbb64561fd379b702b67f287119f992f5cfc03bb42e08fc25f499620fad", "exact_subject": true, "subject": "River Number Two, Sierra Leone",
+      "alt": "The River Number Two area west of Freetown, Sierra Leone.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1600px wide; no other edits.", "exact_subject_evidence": "The River Number 2 located some 30km from the Capital City Freetown. Very beautiful natural seascape and the river you see in the picture (No 2 River) is connected to the beach on the Atlantic ocean. To really feel nature you must take a ca"
+    },
+    "/images/editorial/buhoma-local-destination/mountain-gorilla-2-year-old-mubare-group-buhoma-bwindi-impen.jpg": {
+      "kind": "photograph", "slug": "buhoma", "local_path": "/images/editorial/buhoma-local-destination/mountain-gorilla-2-year-old-mubare-group-buhoma-bwindi-impen.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Mountain_gorilla,_2-year-old,_Mubare_Group,_Buhoma,_Bwindi_Impenetrable_Forest,_Uganda.jpg", "creator": "Charles J. Sharp", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-27",
+      "sha256": "c1ea726f0876f71234d825fe4b69721338cb154c31c092d716ec057143b17a63", "exact_subject": true, "subject": "Mountain gorilla, Mubare group, Buhoma",
+      "alt": "A young mountain gorilla of the Mubare group in Bwindi Impenetrable Forest near Buhoma.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1600px wide; no other edits.", "exact_subject_evidence": "Mountain gorilla (Gorilla beringei beringei) 2-year-old, Mubare Group, Buhoma, Bwindi Impenetrable Forest, Uganda"
+    },
+    "/images/editorial/buhoma-local-destination/mountain-gorilla-gorilla-beringei-beringei-female-eating-roo.jpg": {
+      "kind": "photograph", "slug": "buhoma", "local_path": "/images/editorial/buhoma-local-destination/mountain-gorilla-gorilla-beringei-beringei-female-eating-roo.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Mountain_gorilla_(Gorilla_beringei_beringei)_female_eating_root.jpg", "creator": "Charles J. Sharp", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-27",
+      "sha256": "dbb2363fc1662f5122c4cfaf82d301460c42f3aa01c94021c1784e57e8163ce5", "exact_subject": true, "subject": "Mountain gorilla feeding, Buhoma sector",
+      "alt": "A female mountain gorilla feeding in the Buhoma sector of Bwindi Impenetrable Forest.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1600px wide; no other edits.", "exact_subject_evidence": "Mountain Gorilla female eating the root, Mubare Group, Buhoma sector, Bwindi Impenetrable Forest, Uganda."
+    },
+    "/images/editorial/buhoma-local-destination/usaid-measuring-impact-conservation-enterprise-retrospective.jpg": {
+      "kind": "photograph", "slug": "buhoma", "local_path": "/images/editorial/buhoma-local-destination/usaid-measuring-impact-conservation-enterprise-retrospective.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:USAID_Measuring_Impact_Conservation_Enterprise_Retrospective_(Uganda;_International_Gorilla_Conservation_Program)_(40248679412).jpg", "creator": "USAID Biodiversity & Forestry", "license": "Public domain", "license_url": "https://creativecommons.org/publicdomain/mark/1.0/", "checked_at": "2026-11-27",
+      "sha256": "cec6f826e1216c11780c0ccfe16287ea8e568aea63b87b1ae38a51e5ee86df03", "exact_subject": true, "subject": "Bwindi park headquarters briefing, Buhoma",
+      "alt": "A ranger briefing visitors at the Bwindi Impenetrable National Park headquarters in Buhoma.", "property": false, "requires_attribution": false,
+      "changes": "Wikimedia Commons thumbnail resized to 1600px wide; no other edits.", "exact_subject_evidence": "September 2017. David Agenya, Head Ranger at the Bwindi Impenetrable National Park Buhoma Head Quarters, briefs tourists before the daily gorilla tracking tour. Buhoma, Uganda. Photograph by Jason Houston for USAID"
+    },
+    "/images/editorial/buhoma-local-destination/usaid-measuring-impact-conservation-enterprise-retrospective-cc42.jpg": {
+      "kind": "photograph", "slug": "buhoma", "local_path": "/images/editorial/buhoma-local-destination/usaid-measuring-impact-conservation-enterprise-retrospective-cc42.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:USAID_Measuring_Impact_Conservation_Enterprise_Retrospective_(Uganda;_International_Gorilla_Conservation_Program)_(40293949341).jpg", "creator": "USAID Biodiversity & Forestry", "license": "Public domain", "license_url": "https://creativecommons.org/publicdomain/mark/1.0/", "checked_at": "2026-11-27",
+      "sha256": "8fc06e207d017261e16658be430ac662f29d1f8e29adef51d2c0b44b66af749e", "exact_subject": true, "subject": "Buhoma village walk",
+      "alt": "A traditional healer receiving visitors on the Buhoma village walk.", "property": false, "requires_attribution": false,
+      "changes": "Wikimedia Commons thumbnail resized to 1600px wide; no other edits.", "exact_subject_evidence": "September 2017. Traditional healer, Alfonse Bifumbo, receives tourists as part of the Buhoma Village Walk tour. Before the hospital was opened in Buhoma as part of general development around tourism, many locals came to Alfonse when sick or"
+    },
+    "/images/editorial/cape-town/cape-town-za-table-mountain----2024----3437jpg.jpg": {
+      "kind": "photograph", "slug": "cape-town", "local_path": "/images/editorial/cape-town/cape-town-za-table-mountain----2024----3437jpg.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Cape_Town_(ZA),_Table_Mountain_--_2024_--_3437.jpg", "creator": "Dietmar Rabich", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-27",
+      "sha256": "5a5cba608a37ee00327abce0ef37cf0611cdfc75defe0ac2fb0e0cd0e8934c8c", "exact_subject": true, "subject": "Table Mountain from Orange Street, Cape Town",
+      "alt": "Table Mountain seen from Orange Street in Cape Town.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1600px wide; no other edits.", "exact_subject_evidence": "View of Table Mountain from Orange Street, Cape Town, Western Cape, South Africa"
+    },
+    "/images/editorial/livingstone-local-destination/livingstone-downtownjpg.jpg": {
+      "kind": "photograph", "slug": "livingstone", "local_path": "/images/editorial/livingstone-local-destination/livingstone-downtownjpg.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Livingstone_downtown.jpg", "creator": "cowbridgeguide.co.uk", "license": "CC BY 3.0", "license_url": "https://creativecommons.org/licenses/by/3.0/", "checked_at": "2026-11-27",
+      "sha256": "c05b3ea4e13db29bd2c09b41d4952bda31f917090d942c7ad288f3f1f7e411ed", "exact_subject": true, "subject": "Livingstone town centre, Zambia",
+      "alt": "The main street of Livingstone town in Zambia.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1600px wide; no other edits.", "exact_subject_evidence": "Falls View, Livingstone, Zambia"
+    },
+    "/images/editorial/livingstone-local-destination/livingstone-zambia-48597785651jpg.jpg": {
+      "kind": "photograph", "slug": "livingstone", "local_path": "/images/editorial/livingstone-local-destination/livingstone-zambia-48597785651jpg.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Livingstone,_Zambia_(48597785651).jpg", "creator": "Fabio Achilli from Milano, Italy", "license": "CC BY 2.0", "license_url": "https://creativecommons.org/licenses/by/2.0/", "checked_at": "2026-11-27",
+      "sha256": "758c579a9f4ceaf1c65781d24ed261728227ff84f5d76fd75f644b47352a6a81", "exact_subject": true, "subject": "Livingstone, Zambia",
+      "alt": "A street scene in Livingstone, Zambia.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1600px wide; no other edits.", "exact_subject_evidence": "Livingstone, Zambia"
+    },
+    "/images/editorial/livingstone-local-destination/livingstonezambiajpg.jpg": {
+      "kind": "photograph", "slug": "livingstone", "local_path": "/images/editorial/livingstone-local-destination/livingstonezambiajpg.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Livingstone.Zambia.jpg", "creator": "YWAM Livingstone", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-27",
+      "sha256": "0866cd2d70c8fc99e61b9fd8904f9294be6b6e33cbfb671b72043e2e6d8c3902", "exact_subject": true, "subject": "T1 route, Livingstone, Zambia",
+      "alt": "The T1 road running through Livingstone, the main route to the Victoria Falls.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1600px wide; no other edits.", "exact_subject_evidence": "View of the T1 route in Livingstone, a city on the Zambezi River in Southern Province, Zambia. The T1 road forms the main street of Livingstone. Historic buildings and commercial establishments such as banks, supermarkets, restaurants are l"
+    },
+    "/images/editorial/sine-saloum-destination/delta-du-sine-saloum---patrimoine-mondial-de-lunesco-04jpg.jpg": {
+      "kind": "photograph", "slug": "sine-saloum-delta", "local_path": "/images/editorial/sine-saloum-destination/delta-du-sine-saloum---patrimoine-mondial-de-lunesco-04jpg.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Delta_du_Sine_Saloum_-_Patrimoine_Mondial_de_L%27Unesco_04.jpg", "creator": "Issiaga0", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-27",
+      "sha256": "5026f59af0606d8967f85124b882dcbeb19561c7b344cf524d7f65d953758743", "exact_subject": true, "subject": "Sine-Saloum delta, Senegal",
+      "alt": "A channel in the Sine-Saloum delta in Senegal.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1600px wide; no other edits.", "exact_subject_evidence": "The Sine-Saloum is a magnificent delta located in the southwest of Senegal, renowned for its bolongs, its islands, and its exceptional biodiversity; it is listed as a UNESCO World Heritage site."
+    },
+    "/images/editorial/tunis-local-destination/narrow-street-in-the-medina-of-tunis-jpg.jpg": {
+      "kind": "photograph", "slug": "tunis", "local_path": "/images/editorial/tunis-local-destination/narrow-street-in-the-medina-of-tunis-jpg.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Narrow_street_in_the_Medina_of_Tunis_.jpg", "creator": "Emna Mizouni", "license": "CC BY-SA 3.0", "license_url": "https://creativecommons.org/licenses/by-sa/3.0/", "checked_at": "2026-11-27",
+      "sha256": "fb96b08ff04c87fbffb7ec54d0a8a08f4b7c00ad5905c54cec80e93a12f3464b", "exact_subject": true, "subject": "Medina of Tunis",
+      "alt": "A narrow lane in the medina of Tunis.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1600px wide; no other edits.", "exact_subject_evidence": "Narrow street in the Medina of Tunis"
+    },
+    "/images/editorial/kampala/kampala-cityjpg.jpg": {
+      "kind": "photograph", "slug": "kampala", "local_path": "/images/editorial/kampala/kampala-cityjpg.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Kampala_city.jpg", "creator": "Emolot", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-27",
+      "sha256": "e2b08237c4b7e66d612664849759c16f89069c4b8a800cdb21aba0dba3fb7d59", "exact_subject": true, "subject": "Kampala city, Uganda",
+      "alt": "Boda bodas and taxis on a Kampala street.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1600px wide; no other edits.", "exact_subject_evidence": "this is my city Kampala with bodas and taxis going about their daily job and routine."
+    },
+    "/images/editorial/kampala/kampala-kampala-kampalajpg.jpg": {
+      "kind": "photograph", "slug": "kampala", "local_path": "/images/editorial/kampala/kampala-kampala-kampalajpg.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Kampala_Kampala_Kampala!.jpg", "creator": "Sophie Diarra", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-27",
+      "sha256": "1f8d256a88f84e639a4dc1f17be2ed3f95ef7cc0f54bf7f5e14f0592f75de6ff", "exact_subject": true, "subject": "Kampala taxi park",
+      "alt": "The taxi park in Kampala, Uganda, busy with travellers.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1600px wide; no other edits.", "exact_subject_evidence": "There is an overwhelming mix of taxis, motorbikes and people at the taxi park and one can travel to anywhere in the country - one way or another. Kampala is a city on the go and never rests."
+    },
+    "/images/editorial/kampala/nakivubo-kampala-ugandajpg.jpg": {
+      "kind": "photograph", "slug": "kampala", "local_path": "/images/editorial/kampala/nakivubo-kampala-ugandajpg.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Nakivubo,_Kampala-Uganda.jpg", "creator": "Angella Birungi", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-27",
+      "sha256": "48dd35dfda5ea9d98af4b53e6195a5b822045659ab96784c51910591b3dd6ebb", "exact_subject": true, "subject": "Nakivubo, Kampala",
+      "alt": "Evening traffic at Nakivubo in central Kampala.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1600px wide; no other edits.", "exact_subject_evidence": "This photo was taken at Nakivubo which is a city centre in Kampala Uganda at 7:00pm. This is the peak hour for people returning home from work so there is alot of movement, motor vehicle and motor cycle traffic."
+    },
+    "/images/editorial/atlas-mountains-day-trip/atlasmfromourikajpg.JPG": {
+      "kind": "photograph", "slug": "atlas-mountains-day-trip", "local_path": "/images/editorial/atlas-mountains-day-trip/atlasmfromourikajpg.JPG",
+      "source_page": "https://commons.wikimedia.org/wiki/File:AtlasMfromOurika.JPG", "creator": "Tonkie", "license": "CC BY-SA 3.0", "license_url": "https://creativecommons.org/licenses/by-sa/3.0/", "checked_at": "2026-11-27",
+      "sha256": "b4d226a818aab1a156470d42bfd6e4b25f2cf9dac3037015744d28bbaaa83061", "exact_subject": true, "subject": "High Atlas from Ourika valley, Morocco",
+      "alt": "The High Atlas range seen from the Ourika valley near Marrakech.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1600px wide; no other edits.", "exact_subject_evidence": "View of High Atlas mountain range from Ourika River Valley near Marrakech"
+    },
+    "/images/editorial/victoria-falls-rafting/ro-zambeze-zambia-zimbabue-2018-07-27-dd-25jpg.jpg": {
+      "kind": "photograph", "slug": "victoria-falls-zambezi-white-water-rafting", "local_path": "/images/editorial/victoria-falls-rafting/ro-zambeze-zambia-zimbabue-2018-07-27-dd-25jpg.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:R%C3%ADo_Zambeze,_Zambia-Zimbabue,_2018-07-27,_DD_25.jpg", "creator": "Diego Delso", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-27",
+      "sha256": "5632bdad705a9d982dc54af78dff63f4918ebefb54d227a5f4a30680d2da2ac6", "exact_subject": true, "subject": "Zambezi River below Victoria Falls",
+      "alt": "The Zambezi River below the Victoria Falls, where the white water rafting runs.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1600px wide; no other edits.", "exact_subject_evidence": "Zambezi River, Zambia-Zimbabwe"
     }
   },
   "listings": {
@@ -15348,7 +15558,8 @@ export const photoLibrary = {
           "/images/editorial/atlas-mountains-day-trip/oukaimeden-winter-landscape-anass-elouihi.jpg",
           "/images/editorial/atlas-mountains-day-trip/marrakesh-atlas-fields-mouad-simou.jpg"
         ,
-          "/images/editorial/atlas-mountains-day-trip/ourika-valley-south-of-marrakech-morocco---panoramiojpg.jpg"]
+          "/images/editorial/atlas-mountains-day-trip/ourika-valley-south-of-marrakech-morocco---panoramiojpg.jpg",
+          "/images/editorial/atlas-mountains-day-trip/atlasmfromourikajpg.JPG"]
       },
       "serengeti-balloon-safari": {
         "hero_image_url": "/images/stock/starter/serengeti-national-park.jpg",
@@ -15490,7 +15701,8 @@ export const photoLibrary = {
           "/images/editorial/victoria-falls-rafting/regrouping-after-rapid.jpg",
           "/images/editorial/victoria-falls-rafting/zambezi-rafting-group.jpg",
           "/images/editorial/victoria-falls-rafting/batoka-gorge-river.jpg"
-        ]
+        ,
+          "/images/editorial/victoria-falls-rafting/ro-zambeze-zambia-zimbabue-2018-07-27-dd-25jpg.jpg"]
       },
       "stone-town-historical-walking-tour": {
         "hero_image_url": "/images/editorial/stone-town-walking-tour/darajani-market-produce-2021.jpg",
@@ -15912,7 +16124,12 @@ export const photoLibrary = {
         "hero_image_url": "/images/editorial/masvingo-destination/masvingo-post-office-2023.jpg",
         "hero_image_alt": "The post office building in Masvingo, Zimbabwe.",
         "replaces": [],
-        "gallery": ["/images/editorial/masvingo-destination/masvingo-post-office-2023.jpg", "/images/editorial/masvingo-destination/masvingo-at-dusk-2019-realtino.jpg"]
+        "gallery": ["/images/editorial/masvingo-destination/masvingo-post-office-2023.jpg", "/images/editorial/masvingo-destination/masvingo-at-dusk-2019-realtino.jpg",
+          "/images/editorial/masvingo-destination/masvingo-at-duskjpg.jpg",
+          "/images/editorial/masvingo-destination/masvingo-pojpg.jpg",
+          "/images/editorial/masvingo-destination/moonrise-masvingo-zimbabwejpg.jpg",
+          "/images/editorial/masvingo-destination/kyle-dam-masvingo-province-zimbabwejpg.jpg",
+          "/images/editorial/masvingo-destination/great-zimbabwe-ruins2jpg.jpg"]
       },
       "sal": {
         "hero_image_url": "/images/editorial/sal-destination/santa-maria-beach-2007.jpg",
@@ -15921,7 +16138,12 @@ export const photoLibrary = {
         "gallery": [
           "/images/editorial/sal-destination/santa-maria-beach-2007.jpg",
           "/images/editorial/sal-destination/pedra-lume-harbour-2007.jpg"
-        ]
+        ,
+          "/images/editorial/sal-destination/sal-sta-maria-beach-hoteljpg.jpg",
+          "/images/editorial/sal-destination/fishing-boats-santa-maria-sal-cape-verde-4334013911jpg.jpg",
+          "/images/editorial/sal-destination/sal-cape-verde-santa-maria---panoramiojpg.jpg",
+          "/images/editorial/sal-destination/piscina-natural-da-buracona-na-ilha-do-saljpg.JPG",
+          "/images/editorial/sal-destination/sal-cape-verde-santa-maria---panoramio---brunobarbato-2jpg.jpg"]
       },
       "tokeh-river-number-two": {
         "hero_image_url": "/images/editorial/tokeh-river-number-two/tokeh-fishing-boats-2016.jpg",
@@ -15930,7 +16152,12 @@ export const photoLibrary = {
         "gallery": [
           "/images/editorial/tokeh-river-number-two/tokeh-fishing-boats-2016.jpg",
           "/images/editorial/tokeh-river-number-two/river-number-two-beach-2007.jpg"
-        ]
+        ,
+          "/images/editorial/tokeh-river-number-two/tokeh-beachjpg.jpg",
+          "/images/editorial/tokeh-river-number-two/flickr---stringer-bel---river-no-2-village-beach-sierra-leon.jpg",
+          "/images/editorial/tokeh-river-number-two/flickr---stringer-bel---river-no-2-village-beach-sierra-leon-21c8.jpg",
+          "/images/editorial/tokeh-river-number-two/flickr---stringer-bel---sunset-at-river-no-2-village-beach-s.jpg",
+          "/images/editorial/tokeh-river-number-two/the-number-2-sierra-leonejpg.jpg"]
       },
       "buhoma": {
         "hero_image_url": "/images/editorial/buhoma-local-destination/trek-departure-2017.jpg",
@@ -15940,7 +16167,11 @@ export const photoLibrary = {
           "/images/editorial/buhoma-local-destination/trek-departure-2017.jpg",
           "/images/editorial/buhoma-local-destination/mubare-female-gorilla.jpg",
           "/images/editorial/buhoma-local-destination/park-headquarters-briefing-2017.jpg"
-        ]
+        ,
+          "/images/editorial/buhoma-local-destination/mountain-gorilla-2-year-old-mubare-group-buhoma-bwindi-impen.jpg",
+          "/images/editorial/buhoma-local-destination/mountain-gorilla-gorilla-beringei-beringei-female-eating-roo.jpg",
+          "/images/editorial/buhoma-local-destination/usaid-measuring-impact-conservation-enterprise-retrospective.jpg",
+          "/images/editorial/buhoma-local-destination/usaid-measuring-impact-conservation-enterprise-retrospective-cc42.jpg"]
       },
       "cape-town": {
         "hero_image_url": "/images/editorial/cape-town/city-bowl-from-table-mountain.jpg",
@@ -15953,7 +16184,8 @@ export const photoLibrary = {
           "/images/editorial/cape-town/va-waterfront-harbor.jpg",
           "/images/editorial/cape-town/sea-point-coast.jpg",
           "/images/editorial/cape-town/companys-garden.jpg"
-        ]
+        ,
+          "/images/editorial/cape-town/cape-town-za-table-mountain----2024----3437jpg.jpg"]
       },
       "livingstone": {
         "hero_image_url": "/images/editorial/livingstone-local-destination/victoria-falls-gorge-ana-kenk.jpg",
@@ -15964,7 +16196,10 @@ export const photoLibrary = {
           "/images/editorial/livingstone-local-destination/mosi-oa-tunya-gorge-bridge-eston-oboch.jpg",
           "/images/editorial/livingstone-local-destination/boiling-pot-river-ed-wingate.jpg",
           "/images/editorial/livingstone-local-destination/zambezi-elephant-cruise-nicole-olwagen.jpg"
-        ]
+        ,
+          "/images/editorial/livingstone-local-destination/livingstone-downtownjpg.jpg",
+          "/images/editorial/livingstone-local-destination/livingstone-zambia-48597785651jpg.jpg",
+          "/images/editorial/livingstone-local-destination/livingstonezambiajpg.jpg"]
       },
       "sine-saloum-delta": {
         "hero_image_url": "/images/editorial/sine-saloum-destination/toubacouta-quay-2025.jpg",
@@ -15977,7 +16212,8 @@ export const photoLibrary = {
           "/images/editorial/sine-saloum-destination/saloum-bolong-birds-2024.jpg",
           "/images/editorial/sine-saloum-destination/saloum-pirogue-excursion-2023.jpg",
           "/images/editorial/sine-saloum-destination/saloum-island-pirogue-2023.jpg"
-        ]
+        ,
+          "/images/editorial/sine-saloum-destination/delta-du-sine-saloum---patrimoine-mondial-de-lunesco-04jpg.jpg"]
       },
       "tunis": {
         "hero_image_url": "/images/editorial/tunis-local-destination/tunis-medina-market-lanterns.jpg",
@@ -15990,7 +16226,8 @@ export const photoLibrary = {
           "/images/editorial/tunis-local-destination/ez-zitouna-mosque-street.jpg",
           "/images/editorial/tunis-local-destination/youssef-dey-mosque.jpg",
           "/images/editorial/tunis-local-destination/tunis-historic-street.jpg"
-        ]
+        ,
+          "/images/editorial/tunis-local-destination/narrow-street-in-the-medina-of-tunis-jpg.jpg"]
       },
       "kampala": {
         "hero_image_url": "/images/editorial/kampala/kampala-city-view-pexels-39554460.jpeg",
@@ -16001,7 +16238,10 @@ export const photoLibrary = {
           "/images/editorial/kampala/market-scene-pexels-35890028.jpeg",
           "/images/editorial/kampala/kampala-rolex-vendor-pexels-10411247.jpeg",
           "/images/editorial/kampala/banana-vendor-kampala-pexels-31121005.jpeg"
-        ]
+        ,
+          "/images/editorial/kampala/kampala-cityjpg.jpg",
+          "/images/editorial/kampala/kampala-kampala-kampalajpg.jpg",
+          "/images/editorial/kampala/nakivubo-kampala-ugandajpg.jpg"]
       }
     },
     "travel_articles": {
