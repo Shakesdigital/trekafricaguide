@@ -1,5 +1,12 @@
 # Claims & Content Gaps
 
+## Image publish rotation run — 2026-11-27 (EAT)
+- local_destinations: all 11 pages at 7 images (7-12 target) — nothing below target.
+- attractions: all 30 pages at 7+ images — nothing below target.
+- activities: all 18 pages at 7+ images — nothing below target.
+- travel_articles: all 12 pages at 7+ images — nothing below target.
+- accommodations: 12 zero-photo pages blocked on exact-property photography (listed below, unchanged); ol-tukai-lodge-amboseli (1 image, 10-15 target) selected for this run.
+
 ## Accommodation Photo Shortfalls (2026-11-25)
 
 The following 12 accommodation pages have zero dedicated photos. Exact-property photography is required per brand guidelines (no OTA copying, no stock substitutes). These cannot be sourced from Wikimedia Commons or other stock libraries because they require images of the specific named property.
