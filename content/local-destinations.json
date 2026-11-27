@@ -1834,7 +1834,8 @@
     "hero_image_alt": "",
     "gallery": [],
     "sort_order": 26,
-    "status": "draft",
+    "status": "published",
+    "published_at": "2026-11-27T00:00:00+03:00",
     "last_researched": "2026-11-26",
     "research_sources": [
       {
@@ -1858,7 +1859,7 @@
         "checked_at": "2026-11-26"
       }
     ],
-    "draft_notes": "Held as draft: hero image and six-photo gallery not yet sourced/licensed (Image Agent); no attraction/activity/accommodation/travel-insight links attached yet because Mount Kenya has no dedicated attraction/activity page and no Nanyuki property guides are published. To verify before publishing: Ol Pejeta current entry fees and behind-the-scenes experience availability; current Sirimon/Naro Moru road and transfer times; whether to add Mount Kenya as an attraction record to populate the related sections."
+    "draft_notes": "Published 27 November 2026 without a hero image or gallery; Image Agent to add licensed photos later. No attraction/activity/accommodation/travel-insight links attached yet because Mount Kenya has no dedicated attraction/activity page and no Nanyuki property guides are published. To verify before the image pass: Ol Pejeta current entry fees and behind-the-scenes experience availability; current Sirimon/Naro Moru road and transfer times; whether to add Mount Kenya as an attraction record to populate the related sections."
   },
   {
     "slug": "arusha",
@@ -1892,7 +1893,8 @@
     "hero_image_alt": "",
     "gallery": [],
     "sort_order": 27,
-    "status": "draft",
+    "status": "published",
+    "published_at": "2026-11-27T00:00:00+03:00",
     "last_researched": "2026-11-27",
     "research_sources": [
       {
@@ -1906,6 +1908,6 @@
         "checked_at": "2026-11-27"
       }
     ],
-    "draft_notes": "Held as draft: hero image and six-photo gallery not yet sourced/licensed (Image Agent). No accommodation_slugs attached because no Arusha property guide is published yet (Emerson Spice is Stone Town/Zanzibar; Serengeti Serena is in the park) — proximity must not be inferred. To verify before publishing: current Kilimanjaro International Airport transfer time to Arusha; current coach/road conditions; Arusha National Park and Mount Meru gate/permit/fee rules from the park authority; opening hours and admission for the National Natural History Museum and Arusha Cultural Heritage Centre."
+    "draft_notes": "Published 27 November 2026 without a hero image or gallery; Image Agent to add licensed photos later. No accommodation_slugs attached because no Arusha property guide is published yet (Emerson Spice is Stone Town/Zanzibar; Serengeti Serena is in the park) — proximity must not be inferred. To verify before the image pass: current Kilimanjaro International Airport transfer time to Arusha; current coach/road conditions; Arusha National Park and Mount Meru gate/permit/fee rules from the park authority; opening hours and admission for the National Natural History Museum and Arusha Cultural Heritage Centre."
   }
 ]
