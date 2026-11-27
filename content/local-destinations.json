@@ -1859,5 +1859,53 @@
       }
     ],
     "draft_notes": "Held as draft: hero image and six-photo gallery not yet sourced/licensed (Image Agent); no attraction/activity/accommodation/travel-insight links attached yet because Mount Kenya has no dedicated attraction/activity page and no Nanyuki property guides are published. To verify before publishing: Ol Pejeta current entry fees and behind-the-scenes experience availability; current Sirimon/Naro Moru road and transfer times; whether to add Mount Kenya as an attraction record to populate the related sections."
+  },
+  {
+    "slug": "arusha",
+    "country_slug": "tanzania",
+    "name": "Arusha",
+    "category": "City",
+    "hero_title": "Arusha: the northern safari gateway under Mount Meru",
+    "listing_summary": "A temperate highland city beneath Mount Meru, Arusha is the working gateway to Tanzania's northern safari circuit — Serengeti, Ngorongoro, Lake Manyara and Tarangire — and a base for Arusha National Park and Mount Meru.",
+    "overview": "Arusha is the capital of the Arusha Region in northern Tanzania, sitting below Mount Meru on the eastern edge of the eastern branch of the Great Rift Valley at about 1,400 metres. That elevation gives it a temperate climate that is noticeably cooler than the coast, and the 2022 census recorded a population of 617,631. It is a working, multicultural city rather than a resort, and most travellers meet it as a transit and staging point rather than a destination in its own right.\n\nIts importance comes from position. The city sits within reach of several of the country's best-known parks, and the published Serengeti guide describes the wider northern circuit that Arusha serves. Many safari itineraries begin or end here, with a night in the city before an early departure to the parks or after a descent from Mount Meru or Kilimanjaro. Treat Arusha as the logistics hub for the region: the place to collect supplies, meet a guide or operator, change money and adjust to the altitude before heading out.\n\nArusha also carries a diplomatic and historical weight beyond tourism. It is the headquarters of the East African Community and hosts the African Court on Human and Peoples' Rights, and it is where the 1967 Arusha Declaration was signed. For a traveller with a spare afternoon, the National Natural History Museum and the Arusha Cultural Heritage Centre offer a grounded introduction to the region's archaeology, cultures and crafts.",
+    "highlights": [
+      "The practical staging city for the northern safari circuit, with the Serengeti within reach",
+      "A cool highland climate at about 1,400 m, a useful place to acclimatise before Mount Meru",
+      "Arusha National Park and Mount Meru on the city's doorstep",
+      "The National Natural History Museum and Arusha Cultural Heritage Centre for regional context"
+    ],
+    "access_summary": "Arusha is reached by air through Kilimanjaro International Airport, the main international gateway for the northern circuit, which lies roughly 60 kilometres east of the city towards Moshi; Arusha Airport, west of the city, handles regional flights. By road the city sits on the Cairo–Cape Town Highway, with coach services linking it to Nairobi, Dar es Salaam and other Tanzanian towns. Confirm current flight routing, road conditions and transfer times with your operator or lodge before you travel, since both change with weather and season. Within the city, arrange park transfers and early departures with your safari operator rather than assuming a same-day return is straightforward.",
+    "best_time": "Arusha's highland position gives it a temperate climate year-round, cooler than the coast and warm rather than hot for most of the year. The timing of a trip is usually driven by the parks and by Mount Meru rather than by the city itself, so match your dates to the published Serengeti guidance and to your trekking plans, and keep a spare day for weather. The long and short rains affect road conditions and park access across the northern circuit; check current conditions for your specific route rather than relying on the city forecast alone.",
+    "planning_tips": "Plan Arusha as a base rather than a stopover to fill: a night before an early safari departure, or a night after a descent, is the usual pattern. Build the safari around your confirmed park route and operator, and read the Serengeti guide before fixing dates. If you are adding Mount Meru or Kilimanjaro, allow time to acclimatise and confirm gate, permit and transfer arrangements directly with your operator, since these are set by the park authorities and change. Carry a warm layer for cool highland evenings despite the Equator's proximity, keep cash and supplies topped up in the city, and use a spare afternoon for the museum or the Cultural Heritage Centre if your schedule allows. Confirm all current details with your booking provider or the relevant authority before you travel.",
+    "attraction_slugs": [
+      "serengeti-national-park"
+    ],
+    "activity_slugs": [
+      "serengeti-balloon-safari"
+    ],
+    "accommodation_slugs": [],
+    "travel_insight_slugs": [
+      "combine-serengeti-and-zanzibar",
+      "plan-first-east-africa-safari"
+    ],
+    "hero_image_url": "",
+    "hero_image_alt": "",
+    "gallery": [],
+    "sort_order": 27,
+    "status": "draft",
+    "last_researched": "2026-11-27",
+    "research_sources": [
+      {
+        "label": "Wikipedia: Arusha — capital of Arusha Region, below Mount Meru on the eastern branch of the Great Rift Valley, elevation ~1,400 m, population 617,631 (2022 census), temperate Cwb climate, two airports (Kilimanjaro International ~60 km east; Arusha regional), EAC headquarters and African Court, 1961 independence documents and 1967 Arusha Declaration signed in the city; background only, checked 27 November 2026",
+        "url": "https://en.wikipedia.org/wiki/Arusha",
+        "checked_at": "2026-11-27"
+      },
+      {
+        "label": "Trek Africa Guide (published): Serengeti National Park attraction — wider northern circuit that Arusha serves; internal link target, checked 27 November 2026",
+        "url": "https://trekafricaguide.com/attractions/serengeti-national-park",
+        "checked_at": "2026-11-27"
+      }
+    ],
+    "draft_notes": "Held as draft: hero image and six-photo gallery not yet sourced/licensed (Image Agent). No accommodation_slugs attached because no Arusha property guide is published yet (Emerson Spice is Stone Town/Zanzibar; Serengeti Serena is in the park) — proximity must not be inferred. To verify before publishing: current Kilimanjaro International Airport transfer time to Arusha; current coach/road conditions; Arusha National Park and Mount Meru gate/permit/fee rules from the park authority; opening hours and admission for the National Natural History Museum and Arusha Cultural Heritage Centre."
   }
 ]
