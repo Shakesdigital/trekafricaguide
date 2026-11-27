@@ -14643,6 +14643,41 @@ export const photoLibrary = {
       "sha256": "5632bdad705a9d982dc54af78dff63f4918ebefb54d227a5f4a30680d2da2ac6", "exact_subject": true, "subject": "Zambezi River below Victoria Falls",
       "alt": "The Zambezi River below the Victoria Falls, where the white water rafting runs.", "property": false, "requires_attribution": true,
       "changes": "Wikimedia Commons thumbnail resized to 1600px wide; no other edits.", "exact_subject_evidence": "Zambezi River, Zambia-Zimbabwe"
+    },
+    "/images/editorial/ol-tukai-lodge-amboseli/amboseli-elephants-kilimanjaro.jpg": {
+      "kind": "photograph", "slug": "ol-tukai-lodge-amboseli", "local_path": "/images/editorial/ol-tukai-lodge-amboseli/amboseli-elephants-kilimanjaro.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Elephants_at_Amboseli_national_park_against_Mount_Kilimanjaro.jpg", "creator": "Amoghavarsha JS amoghavarsha.com", "license": "CC BY-SA 3.0", "license_url": "https://creativecommons.org/licenses/by-sa/3.0/", "checked_at": "2026-11-27",
+      "sha256": "ecf2c3e8d2d484d2def136fe9938619fdb66f8799e8d9e4b85fece90c7285114", "exact_subject": false, "subject": "Elephants at Amboseli National Park with Mount Kilimanjaro",
+      "alt": "Elephants gather on the Amboseli plains with Mount Kilimanjaro in the background.", "property": false, "requires_attribution": false,
+      "changes": "Wikimedia Commons thumbnail resized to 1200 pixels wide; no other edits.", "exact_subject_evidence": "Commons file title and description place the elephant herd on the Amboseli plains with Mount Kilimanjaro, the setting of Ol Tukai Lodge."
+    },
+    "/images/editorial/ol-tukai-lodge-amboseli/amboseli-elephant-paul-mannix.jpg": {
+      "kind": "photograph", "slug": "ol-tukai-lodge-amboseli", "local_path": "/images/editorial/ol-tukai-lodge-amboseli/amboseli-elephant-paul-mannix.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Loxodonta_africana_-Amboseli_National_Park,_Kenya-8.jpg", "creator": "Paul Mannix", "license": "CC BY-SA 2.0", "license_url": "https://creativecommons.org/licenses/by-sa/2.0/", "checked_at": "2026-11-27",
+      "sha256": "247dc75ad701295eccd685e44a3803a80754a04fd7c5949dacd26eb601c1229d", "exact_subject": false, "subject": "African elephant in Amboseli National Park, Kenya",
+      "alt": "An African elephant stands in the grass at Amboseli National Park, Kenya.", "property": false, "requires_attribution": false,
+      "changes": "Wikimedia Commons thumbnail resized to 1200 pixels wide; no other edits.", "exact_subject_evidence": "Commons file title \"Loxodonta africana - Amboseli National Park, Kenya\" and description confirm an African elephant in Amboseli National Park."
+    },
+    "/images/editorial/ol-tukai-lodge-amboseli/amboseli-landscape-04.jpg": {
+      "kind": "photograph", "slug": "ol-tukai-lodge-amboseli", "local_path": "/images/editorial/ol-tukai-lodge-amboseli/amboseli-landscape-04.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Amboseli_National_Park_Kenya_04.jpg", "creator": "Ninaras", "license": "CC BY 4.0", "license_url": "https://creativecommons.org/licenses/by/4.0/", "checked_at": "2026-11-27",
+      "sha256": "271383651c5224de8e9b1c4da90f43137e6e4c2e2d420cf6bccf3c5acf43f6dc", "exact_subject": false, "subject": "Amboseli National Park landscape, Kenya",
+      "alt": "Open savannah landscape in Amboseli National Park, Kenya.", "property": false, "requires_attribution": false,
+      "changes": "Wikimedia Commons thumbnail resized to 1200 pixels wide; no other edits.", "exact_subject_evidence": "Commons file is titled \"Amboseli National Park Kenya 04\" and shows the Amboseli plains landscape where Ol Tukai Lodge sits."
+    },
+    "/images/editorial/ol-tukai-lodge-amboseli/amboseli-landscape-02.jpg": {
+      "kind": "photograph", "slug": "ol-tukai-lodge-amboseli", "local_path": "/images/editorial/ol-tukai-lodge-amboseli/amboseli-landscape-02.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Amboseli_National_Park_Kenya_02.jpg", "creator": "Ninaras", "license": "CC BY 4.0", "license_url": "https://creativecommons.org/licenses/by/4.0/", "checked_at": "2026-11-27",
+      "sha256": "4fe5bd26af79f03c3b1b5f022086fe4aec895d9793f50d2bd0c83327c1bdc21e", "exact_subject": false, "subject": "Amboseli National Park landscape, Kenya",
+      "alt": "Wide plains view of Amboseli National Park in Kenya.", "property": false, "requires_attribution": false,
+      "changes": "Wikimedia Commons thumbnail resized to 1200 pixels wide; no other edits.", "exact_subject_evidence": "Commons file is titled \"Amboseli National Park Kenya 02\" and shows the wide Amboseli plains landscape."
+    },
+    "/images/editorial/ol-tukai-lodge-amboseli/amboseli-elephant-troop.jpg": {
+      "kind": "photograph", "slug": "ol-tukai-lodge-amboseli", "local_path": "/images/editorial/ol-tukai-lodge-amboseli/amboseli-elephant-troop.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:At_the_Amboseli_National_Park,A_troop_of_elephants_gently_move_by.jpg", "creator": "Dun32003", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-27",
+      "sha256": "81fbd96c2630921e5b58c59e9f5ff5ac76a80617378341ec1af6465385682570", "exact_subject": false, "subject": "A troop of elephants moving through Amboseli National Park",
+      "alt": "A troop of elephants moves gently across the Amboseli National Park plains.", "property": false, "requires_attribution": false,
+      "changes": "Wikimedia Commons thumbnail resized to 1200 pixels wide; no other edits.", "exact_subject_evidence": "Commons file title and description place a troop of elephants on the Amboseli National Park plains."
     }
   },
   "listings": {
@@ -15920,7 +15955,12 @@ export const photoLibrary = {
           "/images/stock/starter/ol-tukai-lodge-amboseli.jpg"
         ],
         "gallery": [
-          "/images/stock/starter/ol-tukai-lodge-amboseli.jpg"
+          "/images/stock/starter/ol-tukai-lodge-amboseli.jpg",
+          "/images/editorial/ol-tukai-lodge-amboseli/amboseli-elephants-kilimanjaro.jpg",
+          "/images/editorial/ol-tukai-lodge-amboseli/amboseli-elephant-paul-mannix.jpg",
+          "/images/editorial/ol-tukai-lodge-amboseli/amboseli-landscape-04.jpg",
+          "/images/editorial/ol-tukai-lodge-amboseli/amboseli-landscape-02.jpg",
+          "/images/editorial/ol-tukai-lodge-amboseli/amboseli-elephant-troop.jpg"
         ]
       },
       "paraa-safari-lodge": {
