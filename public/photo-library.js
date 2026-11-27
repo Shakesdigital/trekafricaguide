@@ -1,7 +1,7 @@
 // Curated source. Run node scripts/sync-photo-library.mjs after editing.
 // Curated free photography; source and licence metadata travel with each image.
 export const photoLibrary = {
-  "updated_at": "2026-11-19",
+  "updated_at": "2026-11-27",
   "images": {
     "/images/editorial/marrakech-destination/jemaa-el-fna-market-day.jpg": {
       "kind": "photograph", "slug": "jemaa-el-fna-market-day", "local_path": "/images/editorial/marrakech-destination/jemaa-el-fna-market-day.jpg",
@@ -14209,7 +14209,231 @@ export const photoLibrary = {
       "alt": "A safari vehicle on a game drive in Kruger National Park in South Africa.", "property": false, "requires_attribution": true,
       "changes": "Wikimedia Commons thumbnail resized to 1200px wide; no other edits.", "exact_subject_evidence": "Kruger National Park."
     }
-
+,
+    "/images/editorial/botswana-country/chobe-river-front-botswana-2625496300jpg.jpg": {
+      "kind": "photograph", "slug": "botswana", "local_path": "/images/editorial/botswana-country/chobe-river-front-botswana-2625496300jpg.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Chobe_River_Front,_Botswana_(2625496300).jpg", "creator": "Joachim Huber from Switzerland", "license": "CC BY-SA 2.0", "license_url": "https://creativecommons.org/licenses/by-sa/2.0/", "checked_at": "2026-11-27",
+      "sha256": "80e6fe9da977be5351d9d2ab372b48149a4cae79d6fd85c2ebe8edea74e7fd74", "exact_subject": true, "subject": "Chobe River front, Botswana",
+      "alt": "The Chobe River front in northern Botswana, with the far bank running along the Caprivi Strip.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1600px wide; no other edits.", "exact_subject_evidence": "Chobe River Front, Botswana"
+    },
+    "/images/editorial/zimbabwe-country/hwange-national-park-zimbabwe-48594890001jpg.jpg": {
+      "kind": "photograph", "slug": "zimbabwe", "local_path": "/images/editorial/zimbabwe-country/hwange-national-park-zimbabwe-48594890001jpg.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Hwange_National_Park,_Zimbabwe_(48594890001).jpg", "creator": "Fabio Achilli from Milano, Italy", "license": "CC BY 2.0", "license_url": "https://creativecommons.org/licenses/by/2.0/", "checked_at": "2026-11-27",
+      "sha256": "b8362a899c6bf45b12080f0a6154603858fdf5d453746a49ddec2f1be3b9c8c5", "exact_subject": true, "subject": "Hwange National Park, Zimbabwe",
+      "alt": "Open woodland and grassland in Hwange National Park, Zimbabwe's largest game reserve.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1600px wide; no other edits.", "exact_subject_evidence": "Hwange National Park, Zimbabwe"
+    },
+    "/images/editorial/sal-island-circuit-excursion/cape-verde-sal-santa-maria-square-m-leitaojpg.jpg": {
+      "kind": "photograph", "slug": "sal-island-circuit-excursion", "local_path": "/images/editorial/sal-island-circuit-excursion/cape-verde-sal-santa-maria-square-m-leitaojpg.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Cape_Verde_Sal_Santa_Maria_square_M_Leitao.jpg", "creator": "Cayambe", "license": "CC BY-SA 3.0", "license_url": "https://creativecommons.org/licenses/by-sa/3.0/", "checked_at": "2026-11-27",
+      "sha256": "2ce9438f207a9655310a390e8fae9669d94e7910433d27f577f3314ceebfc0ff", "exact_subject": true, "subject": "Santa Maria square, Sal, Cape Verde",
+      "alt": "The Marcelo Leitao square in Santa Maria on Sal island, with its old windmill.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1600px wide; no other edits.", "exact_subject_evidence": "Cape Verde, island of Sal: square Marcelo Leitão in Santa Maria, with an ancient windmill."
+    },
+    "/images/editorial/sal-island-circuit-excursion/cape-verde-sal-espargos-squarejpg.jpg": {
+      "kind": "photograph", "slug": "sal-island-circuit-excursion", "local_path": "/images/editorial/sal-island-circuit-excursion/cape-verde-sal-espargos-squarejpg.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Cape_Verde_Sal_Espargos_square.jpg", "creator": "Cayambe", "license": "CC BY-SA 3.0", "license_url": "https://creativecommons.org/licenses/by-sa/3.0/", "checked_at": "2026-11-27",
+      "sha256": "2b9be6cb208b1211f846b787d9c9a69416175fd9d125f4fc442ca37e36b325df", "exact_subject": true, "subject": "Espargos square, Sal, Cape Verde",
+      "alt": "The central square of Espargos, the capital of Sal island in Cape Verde.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1600px wide; no other edits.", "exact_subject_evidence": "Cape Verde, isle of Sal: square in the centre of Espargos, the island's capital."
+    },
+    "/images/editorial/sal-island-circuit-excursion/cape-verde-sal-buracona-2011jpg.jpg": {
+      "kind": "photograph", "slug": "sal-island-circuit-excursion", "local_path": "/images/editorial/sal-island-circuit-excursion/cape-verde-sal-buracona-2011jpg.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Cape_Verde_Sal_Buracona_2011.jpg", "creator": "Cayambe", "license": "CC BY-SA 3.0", "license_url": "https://creativecommons.org/licenses/by-sa/3.0/", "checked_at": "2026-11-27",
+      "sha256": "0054d0dd8abd1e1d698b4faa5b9017d3ef39f59a953a3d5fc2292cc5f852ba06", "exact_subject": true, "subject": "Buracona, Sal, Cape Verde",
+      "alt": "The Buracona rock pool on the north east coast of Sal island.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1600px wide; no other edits.", "exact_subject_evidence": "Cape Verde, isle of Sal: Buracona in the northeast of the island."
+    },
+    "/images/editorial/sal-island-circuit-excursion/sal-cape-verde-islandsjpeg.jpeg": {
+      "kind": "photograph", "slug": "sal-island-circuit-excursion", "local_path": "/images/editorial/sal-island-circuit-excursion/sal-cape-verde-islandsjpeg.jpeg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Sal,_Cape_Verde_Islands.jpeg", "creator": "Paul Walter", "license": "CC BY 2.0", "license_url": "https://creativecommons.org/licenses/by/2.0/", "checked_at": "2026-11-27",
+      "sha256": "e5708ded6544dec4b084196d72bf94b587ca461a341858f59658459f0f90636a", "exact_subject": true, "subject": "Sal island, Cape Verde",
+      "alt": "A view across Sal island in Cape Verde.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1600px wide; no other edits.", "exact_subject_evidence": "Sal, Cape Verde Islands"
+    },
+    "/images/editorial/amboseli-game-drive-safari/elephants-herd-amboseli-7234335792jpg.jpg": {
+      "kind": "photograph", "slug": "amboseli-game-drive-safari", "local_path": "/images/editorial/amboseli-game-drive-safari/elephants-herd-amboseli-7234335792jpg.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Elephants_Herd_Amboseli_(7234335792).jpg", "creator": "Benh LIEU SONG from Torcy, France", "license": "CC BY-SA 2.0", "license_url": "https://creativecommons.org/licenses/by-sa/2.0/", "checked_at": "2026-11-27",
+      "sha256": "0dcf6d7b67a41fdc855388a859c83d9789560a970d839486a0022d7fab5a5e22", "exact_subject": true, "subject": "Elephant herd, Amboseli National Park",
+      "alt": "A herd of elephants walking in line across Amboseli National Park in Kenya.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1600px wide; no other edits.", "exact_subject_evidence": "Elephants walking in line in Amboseli national park, south Kenya."
+    },
+    "/images/editorial/atlas-mountains-day-trip/ourika-valley-south-of-marrakech-morocco---panoramiojpg.jpg": {
+      "kind": "photograph", "slug": "atlas-mountains-day-trip", "local_path": "/images/editorial/atlas-mountains-day-trip/ourika-valley-south-of-marrakech-morocco---panoramiojpg.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Ourika_Valley_south_of_Marrakech,_Morocco_-_panoramio.jpg", "creator": "David Broad", "license": "CC BY 3.0", "license_url": "https://creativecommons.org/licenses/by/3.0/", "checked_at": "2026-11-27",
+      "sha256": "e86d4ce52c2409337d1984c6c219cad9c37158641554d939cc87fa9fdf9a06a6", "exact_subject": true, "subject": "Ourika Valley, Morocco",
+      "alt": "The Ourika valley south of Marrakech, climbing into the Atlas Mountains.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1600px wide; no other edits.", "exact_subject_evidence": "Ourika Valley south of Marrakech, Morocco"
+    },
+    "/images/editorial/okavango-mokoro-safari/vista-area-del-delta-del-okavango-botsuana-2018-08-01-dd-23j.jpg": {
+      "kind": "photograph", "slug": "okavango-mokoro-safari", "local_path": "/images/editorial/okavango-mokoro-safari/vista-area-del-delta-del-okavango-botsuana-2018-08-01-dd-23j.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Vista_a%C3%A9rea_del_delta_del_Okavango,_Botsuana,_2018-08-01,_DD_23.jpg", "creator": "Diego Delso", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-27",
+      "sha256": "9b76dc8a4de657aee2b9bbbd988ab4079e53e00adea8c13aaa2b62dca3f05eda", "exact_subject": true, "subject": "Aerial view of the Okavango Delta, Botswana",
+      "alt": "Aerial view of the Okavango Delta with mokoros crossing the channels.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1600px wide; no other edits.", "exact_subject_evidence": "Aerial view of Okavango Delta, Botswana, with a dozen mokoros"
+    },
+    "/images/editorial/okavango-mokoro-safari/travesa-del-delta-del-okavango-en-makoro-botsuana-2018-07-31.jpg": {
+      "kind": "photograph", "slug": "okavango-mokoro-safari", "local_path": "/images/editorial/okavango-mokoro-safari/travesa-del-delta-del-okavango-en-makoro-botsuana-2018-07-31.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Traves%C3%ADa_del_delta_del_Okavango_en_makoro,_Botsuana,_2018-07-31,_DD_08.jpg", "creator": "Diego Delso", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-27",
+      "sha256": "58fbb7ae4fc5efbe186d99fc46a3253c4342b0f0f8f91ba5ee058f71310e62f3", "exact_subject": true, "subject": "Crossing the Okavango Delta in a mokoro",
+      "alt": "A mokoro crossing an open channel in the Okavango Delta, Botswana.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1600px wide; no other edits.", "exact_subject_evidence": "Crossing the Okavango Delta in makoro, Botswana"
+    },
+    "/images/editorial/okavango-mokoro-safari/mokoros-in-the-okavango-delta---botswana---panoramiojpg.jpg": {
+      "kind": "photograph", "slug": "okavango-mokoro-safari", "local_path": "/images/editorial/okavango-mokoro-safari/mokoros-in-the-okavango-delta---botswana---panoramiojpg.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Mokoros_in_the_Okavango_Delta_-_Botswana_-_panoramio.jpg", "creator": "diego_cue", "license": "CC BY-SA 3.0", "license_url": "https://creativecommons.org/licenses/by-sa/3.0/", "checked_at": "2026-11-27",
+      "sha256": "cbce73130609200279cd304020b6e4db74d1dea301dfd3559fa7b35b3c868abf", "exact_subject": true, "subject": "Mokoros in the Okavango Delta, Botswana",
+      "alt": "Mokoros drawn up on the bank of an Okavango Delta channel.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1600px wide; no other edits.", "exact_subject_evidence": "Mokoros in the Okavango Delta - Botswana"
+    },
+    "/images/editorial/okavango-mokoro-safari/sunset-and-mokoros-in-the-okavango-delta---botswana---panora.jpg": {
+      "kind": "photograph", "slug": "okavango-mokoro-safari", "local_path": "/images/editorial/okavango-mokoro-safari/sunset-and-mokoros-in-the-okavango-delta---botswana---panora.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Sunset_and_mokoros_in_the_Okavango_Delta_-_Botswana_-_panoramio.jpg", "creator": "diego_cue", "license": "CC BY-SA 3.0", "license_url": "https://creativecommons.org/licenses/by-sa/3.0/", "checked_at": "2026-11-27",
+      "sha256": "c8fb8cd977983031e8729255d56547013d3172852522b249bf7526350b1b3666", "exact_subject": true, "subject": "Sunset and mokoros, Okavango Delta",
+      "alt": "Mokoros on the water at sunset in the Okavango Delta, Botswana.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1600px wide; no other edits.", "exact_subject_evidence": "Sunset and mokoros in the Okavango Delta - Botswana"
+    },
+    "/images/editorial/stone-town-walking-tour/narrow-street-stone-town-zanzibar-oct26-a7cr-14404jpg.jpg": {
+      "kind": "photograph", "slug": "stone-town-historical-walking-tour", "local_path": "/images/editorial/stone-town-walking-tour/narrow-street-stone-town-zanzibar-oct26-a7cr-14404jpg.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Narrow_Street_Stone_Town_Zanzibar_Oct26_A7CR_14404.jpg", "creator": "Timothy A. Gonsalves", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-27",
+      "sha256": "f121de909e2968ec375fbd107c20c85df1108ff7b28bf5be970fffcc3117bd65", "exact_subject": true, "subject": "Narrow street, Stone Town, Zanzibar",
+      "alt": "A narrow lane in Stone Town, Zanzibar, lined with carved doors and balconies.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1600px wide; no other edits.", "exact_subject_evidence": "Narrow street, Stone Town, Zanzibar"
+    },
+    "/images/editorial/murchison-falls-nile-launch-trip/the-power-of-the-nile-before-murchison-falls-06jpg.jpg": {
+      "kind": "photograph", "slug": "murchison-falls-nile-launch-trip", "local_path": "/images/editorial/murchison-falls-nile-launch-trip/the-power-of-the-nile-before-murchison-falls-06jpg.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:The_Power_of_the_Nile_Before_Murchison_Falls_06.jpg", "creator": "BMKME", "license": "CC0", "license_url": "https://creativecommons.org/publicdomain/zero/1.0/", "checked_at": "2026-11-27",
+      "sha256": "2c25a7803022a07bee744b5a494fece8dde8893429ddbafcb97b1192f4b8e232", "exact_subject": true, "subject": "The Nile before Murchison Falls, Uganda",
+      "alt": "The Nile flowing towards Murchison Falls in Murchison Falls National Park, Uganda.", "property": false, "requires_attribution": false,
+      "changes": "Wikimedia Commons thumbnail resized to 1600px wide; no other edits.", "exact_subject_evidence": "These images capture the commanding presence of the Nile River within Murchison Falls National Park, showcasing its turbulent rush, lush surroundings, and the interplay between raw force and serene landscape. Each frame tells part of the st"
+    },
+    "/images/editorial/great-zimbabwe-guided-monument-visit/great-zim-aerial-looking-westjpg.JPG": {
+      "kind": "photograph", "slug": "great-zimbabwe-guided-monument-visit", "local_path": "/images/editorial/great-zimbabwe-guided-monument-visit/great-zim-aerial-looking-westjpg.JPG",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Great-zim-aerial-looking-West.JPG", "creator": "Janice Bell", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-27",
+      "sha256": "67feba37eda73edf7cddf7b5a4380ed8ac0b88a9e5ee2a8e912d6046d7c3c8c8", "exact_subject": true, "subject": "Great Enclosure, Great Zimbabwe",
+      "alt": "Aerial view of the Great Enclosure at the Great Zimbabwe monument.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1600px wide; no other edits.", "exact_subject_evidence": "Aerial view of Great Zimbabwe's Great Enclosure (circumference 250 m, maximum height 11 m)[1] and adjacent ruins looking southeast from the Hill Fort."
+    },
+    "/images/editorial/nanyuki/nanyuki-main-streetjpg.jpg": {
+      "kind": "photograph", "slug": "nanyuki", "local_path": "/images/editorial/nanyuki/nanyuki-main-streetjpg.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Nanyuki_main_street.jpg", "creator": "Christiaan Kooyman", "license": "CC BY-SA 3.0", "license_url": "https://creativecommons.org/licenses/by-sa/3.0/", "checked_at": "2026-11-27",
+      "sha256": "6d3a9b42a803b3b9cdf65e31b8ee9825bb68b1c8d4bae2ef05d6afd65773e513", "exact_subject": true, "subject": "Nanyuki main street, Kenya",
+      "alt": "Shops along the main street of Nanyuki town in Laikipia, Kenya.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1600px wide; no other edits.", "exact_subject_evidence": "Shops along main street Nanyuki, Kenya"
+    },
+    "/images/editorial/nanyuki/view-of-mt-kenya-from-nanyuki-municipalityjpg.jpg": {
+      "kind": "photograph", "slug": "nanyuki", "local_path": "/images/editorial/nanyuki/view-of-mt-kenya-from-nanyuki-municipalityjpg.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:View_of_Mt._Kenya_from_Nanyuki_Municipality.jpg", "creator": "Martin Kithinji Mwirigi", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-27",
+      "sha256": "538d70f38013381bd9f1888ccce052ffb99834db99bd68c697ec57e816697064", "exact_subject": true, "subject": "Mount Kenya from Nanyuki",
+      "alt": "Mount Kenya seen from Nanyuki town in Kenya.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1600px wide; no other edits.", "exact_subject_evidence": "While standing on the slopes of the mountain, at Nanyuki town, Mt. Kenya is vividly glamourous."
+    },
+    "/images/editorial/nanyuki/ol-pejeta-conservancy-nanyuki-au-kenya-06jpg.jpg": {
+      "kind": "photograph", "slug": "nanyuki", "local_path": "/images/editorial/nanyuki/ol-pejeta-conservancy-nanyuki-au-kenya-06jpg.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:OL_PEJETA_conservancy_%C3%A0_Nanyuki_au_Kenya_06.jpg", "creator": "Kibengado", "license": "CC0", "license_url": "https://creativecommons.org/publicdomain/zero/1.0/", "checked_at": "2026-11-27",
+      "sha256": "7a20756409e78daac050168fa1387c1ed4e464ff4f311ae35516c4385794c85b", "exact_subject": true, "subject": "Ol Pejeta Conservancy, Nanyuki",
+      "alt": "Landscape inside Ol Pejeta Conservancy near Nanyuki, Kenya.", "property": false, "requires_attribution": false,
+      "changes": "Wikimedia Commons thumbnail resized to 1600px wide; no other edits.", "exact_subject_evidence": "OL PEJETA conservancy à Nanyuki : Kenya"
+    },
+    "/images/editorial/nanyuki/ol-pejeta-conservancy-nanyuki-au-kenya-19jpg.jpg": {
+      "kind": "photograph", "slug": "nanyuki", "local_path": "/images/editorial/nanyuki/ol-pejeta-conservancy-nanyuki-au-kenya-19jpg.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:OL_PEJETA_conservancy_%C3%A0_Nanyuki_au_Kenya_19.jpg", "creator": "Kibengado", "license": "CC0", "license_url": "https://creativecommons.org/publicdomain/zero/1.0/", "checked_at": "2026-11-27",
+      "sha256": "43ca4b0e75a5791a246a60a9bd8eab22dedbcf5512112d363b44495b54655f4f", "exact_subject": true, "subject": "Ol Pejeta Conservancy, Nanyuki",
+      "alt": "Wildlife habitat at Ol Pejeta Conservancy near Nanyuki.", "property": false, "requires_attribution": false,
+      "changes": "Wikimedia Commons thumbnail resized to 1600px wide; no other edits.", "exact_subject_evidence": "OL PEJETA conservancy à Nanyuki : Kenya"
+    },
+    "/images/editorial/nanyuki/mtkenyajpg.jpg": {
+      "kind": "photograph", "slug": "nanyuki", "local_path": "/images/editorial/nanyuki/mtkenyajpg.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:MtKenya.jpg", "creator": "Don Elvis Muraya", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-27",
+      "sha256": "75ccf0f1e78909983e525e6083bf922a5920f5220a9fea02356ced465122dace", "exact_subject": true, "subject": "Mount Kenya from Nanyuki town",
+      "alt": "A long view of Mount Kenya from the small town of Nanyuki.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1600px wide; no other edits.", "exact_subject_evidence": "A Long shot of the Great Mount Kenya taken from the small town of Nanyuki-Kenya"
+    },
+    "/images/editorial/nanyuki/ol-pejeta-conservancy-nanyuki-au-kenya-34jpg.jpg": {
+      "kind": "photograph", "slug": "nanyuki", "local_path": "/images/editorial/nanyuki/ol-pejeta-conservancy-nanyuki-au-kenya-34jpg.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:OL_PEJETA_conservancy_%C3%A0_Nanyuki_au_Kenya_34.jpg", "creator": "Kibengado", "license": "CC0", "license_url": "https://creativecommons.org/publicdomain/zero/1.0/", "checked_at": "2026-11-27",
+      "sha256": "9a0f9f7ffc0cbc8805ddf91ff5e285cb80c77736152e0f7540010aa745e4fc90", "exact_subject": true, "subject": "Ol Pejeta Conservancy, Nanyuki",
+      "alt": "Another view of Ol Pejeta Conservancy on the edge of Nanyuki.", "property": false, "requires_attribution": false,
+      "changes": "Wikimedia Commons thumbnail resized to 1600px wide; no other edits.", "exact_subject_evidence": "OL PEJETA conservancy à Nanyuki : Kenya"
+    },
+    "/images/editorial/arusha/one-of-the-arusha-city-viewjpg.jpg": {
+      "kind": "photograph", "slug": "arusha", "local_path": "/images/editorial/arusha/one-of-the-arusha-city-viewjpg.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:One_of_the_Arusha_city_view.jpg", "creator": "Davideze40", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-27",
+      "sha256": "ff85833665a2a33067e14c2464d25c1e499c620c67ca0cac3c4b39353fa7f75d", "exact_subject": true, "subject": "Arusha city view, Tanzania",
+      "alt": "View over Arusha city in Tanzania in 2021.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1600px wide; no other edits.", "exact_subject_evidence": "A view of Daraja II street from Mount Shabaha, Arusha Tanzania."
+    },
+    "/images/editorial/arusha/arusha-tanzania-explored---flickr---romanboedjpg.jpg": {
+      "kind": "photograph", "slug": "arusha", "local_path": "/images/editorial/arusha/arusha-tanzania-explored---flickr---romanboedjpg.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Arusha,_Tanzania_(Explored)_-_Flickr_-_romanboed.jpg", "creator": "Roman Boed from The Netherlands", "license": "CC BY 2.0", "license_url": "https://creativecommons.org/licenses/by/2.0/", "checked_at": "2026-11-27",
+      "sha256": "54fe8178f1bd328e8d0f8b6651b55ed8356b2139caecb181cdfd2fdab0f5701d", "exact_subject": true, "subject": "Arusha, Tanzania",
+      "alt": "A street scene in Arusha, Tanzania.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1600px wide; no other edits.", "exact_subject_evidence": "Arusha, Tanzania (Explored)"
+    },
+    "/images/editorial/arusha/city-bus-terminal---arusha-tanzaniajpg.jpg": {
+      "kind": "photograph", "slug": "arusha", "local_path": "/images/editorial/arusha/city-bus-terminal---arusha-tanzaniajpg.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:City_Bus_Terminal_-_Arusha_(Tanzania).jpg", "creator": "Harald Ulver", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-27",
+      "sha256": "11036e9bc63649189f26200605e59e3da417f3a896081e3633afda99611802db", "exact_subject": true, "subject": "Arusha city bus terminal",
+      "alt": "The city bus terminal in Arusha, Tanzania.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1600px wide; no other edits.", "exact_subject_evidence": "City Bus Terminal in Arusha Tanzania"
+    },
+    "/images/editorial/arusha/railway-station-entry---arusha-tanzaniajpg.jpg": {
+      "kind": "photograph", "slug": "arusha", "local_path": "/images/editorial/arusha/railway-station-entry---arusha-tanzaniajpg.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Railway_station_(entry)_-_Arusha_(Tanzania).jpg", "creator": "Harald Ulver", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-27",
+      "sha256": "54762b5154742c61703d3ae7c6d7de18a16fbcf4b799a0d61427c431002264ba", "exact_subject": true, "subject": "Arusha railway station",
+      "alt": "The entrance to the railway station in Arusha, Tanzania.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1600px wide; no other edits.", "exact_subject_evidence": "Entry to Railway station from Station Street facing southwards in Arusha Tanzania"
+    },
+    "/images/editorial/arusha/ms-tcdc-arusha-tanzania-27jpg.jpg": {
+      "kind": "photograph", "slug": "arusha", "local_path": "/images/editorial/arusha/ms-tcdc-arusha-tanzania-27jpg.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:MS-TCDC_ARUSHA_TANZANIA_27.jpg", "creator": "Edouard mhg", "license": "CC0", "license_url": "https://creativecommons.org/publicdomain/zero/1.0/", "checked_at": "2026-11-27",
+      "sha256": "bfe324d27635c79b23a456419e784091860c483be8278c399631636ff1b62131", "exact_subject": true, "subject": "MS TCDC campus, Arusha",
+      "alt": "The campus of the MS Training Centre for Development Cooperation in Arusha.", "property": false, "requires_attribution": false,
+      "changes": "Wikimedia Commons thumbnail resized to 1600px wide; no other edits.", "exact_subject_evidence": "View of the campus of the MS Training Centre for Development Cooperation (MS TCDC), a Pan-African training, academic, and conference institute founded in 1967, located in Usa River, Arusha Region, Tanzania."
+    },
+    "/images/editorial/arusha/arusha-clocktowerjpg.jpg": {
+      "kind": "photograph", "slug": "arusha", "local_path": "/images/editorial/arusha/arusha-clocktowerjpg.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Arusha_Clocktower.jpg", "creator": "Tsturge", "license": "CC BY-SA 3.0", "license_url": "https://creativecommons.org/licenses/by-sa/3.0/", "checked_at": "2026-11-27",
+      "sha256": "edd573df72cf2d5289397c99778845541a91b63d12b858d9b5a7958539b32fcb", "exact_subject": true, "subject": "Arusha clock tower, Tanzania",
+      "alt": "The Arusha clock tower, the marker of the halfway point between Cape Town and Cairo.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1600px wide; no other edits.", "exact_subject_evidence": "Arusha clocktower"
+    },
+    "/images/editorial/arusha/pedestrians-and-traffic-at-the-arusha-clock-towerjpg.jpg": {
+      "kind": "photograph", "slug": "arusha", "local_path": "/images/editorial/arusha/pedestrians-and-traffic-at-the-arusha-clock-towerjpg.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Pedestrians_and_traffic_at_the_Arusha_Clock_Tower.jpg", "creator": "Hilda Raphael", "license": "CC0", "license_url": "https://creativecommons.org/publicdomain/zero/1.0/", "checked_at": "2026-11-27",
+      "sha256": "4cec2dc8fd81479dd0f2c93f86a5f427aa4af1d5ac79bebf15edf0f97a422712", "exact_subject": true, "subject": "Arusha clock tower roundabout",
+      "alt": "Pedestrians and traffic around the Arusha clock tower roundabout.", "property": false, "requires_attribution": false,
+      "changes": "Wikimedia Commons thumbnail resized to 1600px wide; no other edits.", "exact_subject_evidence": "A vibrant urban scene in Arusha, Tanzania, showing the area around the iconic Clock Tower highlighting pedestrians crossing near the roundabout and a bodaboda in motion."
+    },
+    "/images/editorial/victoria-falls-guided-walk/victoria-falls-zimbabwe-01jpg.jpg": {
+      "kind": "photograph", "slug": "victoria-falls-guided-walk", "local_path": "/images/editorial/victoria-falls-guided-walk/victoria-falls-zimbabwe-01jpg.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Victoria_Falls,_Zimbabwe_01.jpg", "creator": "Bernard Gagnon", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-27",
+      "sha256": "6236382f1634e1ff08174331a966fd8661e1591ddacb6405b32818ceff7da754", "exact_subject": true, "subject": "Victoria Falls, Zimbabwe",
+      "alt": "The main falls of the Zambezi at Victoria Falls seen from the Zimbabwe side.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1600px wide; no other edits.", "exact_subject_evidence": "Victoria Falls, Zimbabwe"
+    },
+    "/images/editorial/okavango-mokoro-safari/mokoro-traveljpg.jpg": {
+      "kind": "photograph", "slug": "okavango-mokoro-safari", "local_path": "/images/editorial/okavango-mokoro-safari/mokoro-traveljpg.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Mokoro_travel.jpg", "creator": "Hp.Baumeler", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-27",
+      "sha256": "987245b19c6894b48150188f4f42ba5c7eae57c33a91a25058bc2689cd6e7022", "exact_subject": true, "subject": "Mokoro travel, Okavango Delta",
+      "alt": "Travellers in a mokoro canoe on the Okavango Delta in Botswana.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1600px wide; no other edits.", "exact_subject_evidence": "Travelling in a Mokoro (Okavangodelta)"
+    },
+    "/images/editorial/murchison-falls-nile-launch-trip/murchison-falls-from-abovejpg.jpg": {
+      "kind": "photograph", "slug": "murchison-falls-nile-launch-trip", "local_path": "/images/editorial/murchison-falls-nile-launch-trip/murchison-falls-from-abovejpg.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Murchison_Falls_from_above.jpg", "creator": "Oliver Sedlacek", "license": "Public domain", "license_url": "https://creativecommons.org/publicdomain/mark/1.0/", "checked_at": "2026-11-27",
+      "sha256": "6f9386afd7eb51b9ec7e53dbe639938f034b3484016d12093678425e1810abd9", "exact_subject": true, "subject": "Murchison Falls from above, Uganda",
+      "alt": "Murchison Falls seen from above, where the Nile is forced through a narrow gorge.", "property": false, "requires_attribution": false,
+      "changes": "Wikimedia Commons thumbnail resized to 1600px wide; no other edits.", "exact_subject_evidence": "Photograph taken by Oliver Sedlacek in September 2000 of the Murchison Falls on the river Nile."
+    },
+    "/images/editorial/nanyuki/nanyuki-station-overviewjpg.jpg": {
+      "kind": "photograph", "slug": "nanyuki", "local_path": "/images/editorial/nanyuki/nanyuki-station-overviewjpg.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Nanyuki_Station_(overview).jpg", "creator": "Macabe5387", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "checked_at": "2026-11-27",
+      "sha256": "cea5fb925e007ef380f1e22af55fe46f9aea4981616cfc3b879cabd0bbb3d778", "exact_subject": true, "subject": "Nanyuki railway station, Kenya",
+      "alt": "Nanyuki railway station on the historic Nairobi to Nanyuki line.", "property": false, "requires_attribution": true,
+      "changes": "Wikimedia Commons thumbnail resized to 1600px wide; no other edits.", "exact_subject_evidence": "Picture of Nanyuki Train Station taken in December 2018."
+    }
   },
   "listings": {
     "attractions": {
@@ -14736,7 +14960,8 @@ export const photoLibrary = {
           "/images/editorial/botswana-country/botswana-okavango-aerial-ulrico-zampa.jpg",
           "/images/editorial/botswana-country/botswana-chobe-lioness-cub-geranimo.jpg",
           "/images/editorial/botswana-country/botswana-chobe-sable-antelope-chris-stenger.jpg"
-        ]
+        ,
+          "/images/editorial/botswana-country/chobe-river-front-botswana-2625496300jpg.jpg"]
       },
       "cabo-verde": {
         "hero_image_url": "/images/editorial/cabo-verde-country/santa-maria-wreck-1.jpg",
@@ -14977,7 +15202,8 @@ export const photoLibrary = {
           "/images/editorial/zimbabwe-country/victoria-falls-cascade-benjamin-schaeuffele.jpg",
           "/images/editorial/zimbabwe-country/victoria-falls-flow-simon-berger.jpg",
           "/images/editorial/zimbabwe-country/victoria-falls-gorge-plunge-caitlin-darck.jpg"
-        ]
+        ,
+          "/images/editorial/zimbabwe-country/hwange-national-park-zimbabwe-48594890001jpg.jpg"]
       }
     },
     "regions": {
@@ -15055,7 +15281,11 @@ export const photoLibrary = {
           "/images/editorial/sal-island-circuit-excursion/pedra-lume-salt-fields-krisztian-tabori.jpg",
           "/images/editorial/sal-island-circuit-excursion/buracona-iwoelbern-public-domain.jpg",
           "/images/editorial/sal-island-circuit-excursion/sal-volcanic-coast-context.png"
-        ]
+        ,
+          "/images/editorial/sal-island-circuit-excursion/cape-verde-sal-santa-maria-square-m-leitaojpg.jpg",
+          "/images/editorial/sal-island-circuit-excursion/cape-verde-sal-espargos-squarejpg.jpg",
+          "/images/editorial/sal-island-circuit-excursion/cape-verde-sal-buracona-2011jpg.jpg",
+          "/images/editorial/sal-island-circuit-excursion/sal-cape-verde-islandsjpeg.jpeg"]
       },
       "maasai-mara-balloon-safari": {
         "hero_image_url": "/images/stock/starter/maasai-mara.jpg",
@@ -15102,7 +15332,8 @@ export const photoLibrary = {
           "/images/editorial/amboseli-game-drive-safari/amboseli-elephants-crossing-road-ninaras.jpg",
           "/images/editorial/amboseli-game-drive-safari/amboseli-kilimanjaro-elephants-ninaras.jpg",
           "/images/editorial/amboseli-game-drive-safari/amboseli-male-elephant-babamarie.jpg"
-        ]
+        ,
+          "/images/editorial/amboseli-game-drive-safari/elephants-herd-amboseli-7234335792jpg.jpg"]
       },
       "atlas-mountains-day-trip": {
         "hero_image_url": "/images/stock/starter/marrakech-and-atlas.jpg",
@@ -15116,7 +15347,8 @@ export const photoLibrary = {
           "/images/editorial/atlas-mountains-day-trip/atlas-mountains-road-pierre-matile.jpg",
           "/images/editorial/atlas-mountains-day-trip/oukaimeden-winter-landscape-anass-elouihi.jpg",
           "/images/editorial/atlas-mountains-day-trip/marrakesh-atlas-fields-mouad-simou.jpg"
-        ]
+        ,
+          "/images/editorial/atlas-mountains-day-trip/ourika-valley-south-of-marrakech-morocco---panoramiojpg.jpg"]
       },
       "serengeti-balloon-safari": {
         "hero_image_url": "/images/stock/starter/serengeti-national-park.jpg",
@@ -15179,7 +15411,8 @@ export const photoLibrary = {
           "/images/editorial/victoria-falls-guided-walk/falls-aerial-babijaphoto-jb.jpg",
           "/images/editorial/victoria-falls-guided-walk/falls-bridge-kabwe-kabwe.jpg",
           "/images/editorial/victoria-falls-guided-walk/falls-zambia-cliffs-benjamin-schaeuffele.jpg"
-        ]
+        ,
+          "/images/editorial/victoria-falls-guided-walk/victoria-falls-zimbabwe-01jpg.jpg"]
       },
       "okavango-mokoro-safari": {
         "hero_image_url": "/images/stock/starter/okavango-delta.jpg",
@@ -15190,7 +15423,12 @@ export const photoLibrary = {
         "gallery": [
           "/images/stock/starter/okavango-delta.jpg",
           "/images/stock/destinations/okavango-delta.jpg"
-        ]
+        ,
+          "/images/editorial/okavango-mokoro-safari/vista-area-del-delta-del-okavango-botsuana-2018-08-01-dd-23j.jpg",
+          "/images/editorial/okavango-mokoro-safari/travesa-del-delta-del-okavango-en-makoro-botsuana-2018-07-31.jpg",
+          "/images/editorial/okavango-mokoro-safari/mokoros-in-the-okavango-delta---botswana---panoramiojpg.jpg",
+          "/images/editorial/okavango-mokoro-safari/sunset-and-mokoros-in-the-okavango-delta---botswana---panora.jpg",
+          "/images/editorial/okavango-mokoro-safari/mokoro-traveljpg.jpg"]
       },
       "volcanoes-gorilla-trek": {
         "hero_image_url": "/images/stock/starter/volcanoes-national-park.jpg",
@@ -15265,7 +15503,8 @@ export const photoLibrary = {
           "/images/editorial/stone-town-walking-tour/house-of-wonders-renovation-2021.jpg",
           "/images/editorial/stone-town-walking-tour/anglican-cathedral-2021.jpg",
           "/images/editorial/stone-town-walking-tour/hindu-temple-stone-town-2005.jpg"
-        ]
+        ,
+          "/images/editorial/stone-town-walking-tour/narrow-street-stone-town-zanzibar-oct26-a7cr-14404jpg.jpg"]
       },
       "murchison-falls-nile-launch-trip": {
         "hero_image_url": "/images/editorial/murchison-falls-nile-launch-trip/murchison-falls-cruise-ssemmanda-will.jpg",
@@ -15277,7 +15516,9 @@ export const photoLibrary = {
           "/images/editorial/murchison-falls-nile-launch-trip/murchison-falls-river-view-ivan-sabayuki.jpg",
           "/images/editorial/murchison-falls-nile-launch-trip/murchison-nile-boat-sunset-omoniyi-david.jpg",
           "/images/editorial/murchison-falls-nile-launch-trip/murchison-riverbank-from-boat-bmkme.jpg"
-        ]
+        ,
+          "/images/editorial/murchison-falls-nile-launch-trip/the-power-of-the-nile-before-murchison-falls-06jpg.jpg",
+          "/images/editorial/murchison-falls-nile-launch-trip/murchison-falls-from-abovejpg.jpg"]
       },
       "great-zimbabwe-guided-monument-visit": {
         "hero_image_url": "/images/editorial/great-zimbabwe-guided-monument-visit/great-enclosure-1997-janderk.jpg",
@@ -15290,7 +15531,8 @@ export const photoLibrary = {
           "/images/editorial/great-zimbabwe-guided-monument-visit/outer-wall-1983-ulamm.jpg",
           "/images/editorial/great-zimbabwe-guided-monument-visit/conical-tower-1906-maciver.jpg",
           "/images/editorial/great-zimbabwe-guided-monument-visit/great-zimbabwe-visitors-1983-ulamm.jpg"
-        ]
+        ,
+          "/images/editorial/great-zimbabwe-guided-monument-visit/great-zim-aerial-looking-westjpg.JPG"]
       },
       "kruger-national-park-game-drive": {
         "hero_image_url": "/images/editorial/kruger-game-drive/kruger-evening-drive-skukuza-eason-2017.jpg",
@@ -15638,6 +15880,34 @@ export const photoLibrary = {
       }
     },
     "local_destinations": {
+      "nanyuki": {
+        "hero_image_url": "/images/editorial/nanyuki/view-of-mt-kenya-from-nanyuki-municipalityjpg.jpg",
+        "hero_image_alt": "Mount Kenya seen from Nanyuki town in Laikipia, Kenya.",
+        "replaces": [],
+        "gallery": [
+          "/images/editorial/nanyuki/nanyuki-main-streetjpg.jpg",
+          "/images/editorial/nanyuki/view-of-mt-kenya-from-nanyuki-municipalityjpg.jpg",
+          "/images/editorial/nanyuki/nanyuki-station-overviewjpg.jpg",
+          "/images/editorial/nanyuki/ol-pejeta-conservancy-nanyuki-au-kenya-06jpg.jpg",
+          "/images/editorial/nanyuki/ol-pejeta-conservancy-nanyuki-au-kenya-19jpg.jpg",
+          "/images/editorial/nanyuki/mtkenyajpg.jpg",
+          "/images/editorial/nanyuki/ol-pejeta-conservancy-nanyuki-au-kenya-34jpg.jpg"
+        ]
+      },
+      "arusha": {
+        "hero_image_url": "/images/editorial/arusha/one-of-the-arusha-city-viewjpg.jpg",
+        "hero_image_alt": "View over Arusha city in Tanzania.",
+        "replaces": [],
+        "gallery": [
+          "/images/editorial/arusha/one-of-the-arusha-city-viewjpg.jpg",
+          "/images/editorial/arusha/arusha-tanzania-explored---flickr---romanboedjpg.jpg",
+          "/images/editorial/arusha/city-bus-terminal---arusha-tanzaniajpg.jpg",
+          "/images/editorial/arusha/railway-station-entry---arusha-tanzaniajpg.jpg",
+          "/images/editorial/arusha/ms-tcdc-arusha-tanzania-27jpg.jpg",
+          "/images/editorial/arusha/arusha-clocktowerjpg.jpg",
+          "/images/editorial/arusha/pedestrians-and-traffic-at-the-arusha-clock-towerjpg.jpg"
+        ]
+      },
       "masvingo": {
         "hero_image_url": "/images/editorial/masvingo-destination/masvingo-post-office-2023.jpg",
         "hero_image_alt": "The post office building in Masvingo, Zimbabwe.",
