@@ -8,7 +8,7 @@ import { buildLocalDestinations } from '../../src/lib/local-destinations.mjs';
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const repoRoot = join(__dirname, '..', '..');
 
-const now = new Date('2026-11-26T12:00:00Z');
+const now = new Date('2026-11-27T12:00:00Z');
 
 const country = {
   id: 1,
@@ -140,11 +140,12 @@ const nanyukiCollections = {
   travelArticles: [],
 };
 
-test('local-destinations.json contains a well-formed Nanyuki draft', () => {
+test('local-destinations.json contains a well-formed published Nanyuki record', () => {
   const nanyuki = rawDestinations.find((r) => r.slug === 'nanyuki');
   assert.ok(nanyuki, 'Nanyuki entry present');
   assert.equal(nanyuki.country_slug, 'kenya');
-  assert.equal(nanyuki.status, 'draft');
+  assert.equal(nanyuki.status, 'published');
+  assert.equal(nanyuki.published_at, '2026-11-27T00:00:00+03:00');
   assert.equal(nanyuki.last_researched, '2026-11-26');
   assert.ok(Array.isArray(nanyuki.research_sources) && nanyuki.research_sources.length >= 3);
   for (const source of nanyuki.research_sources) {
@@ -153,15 +154,15 @@ test('local-destinations.json contains a well-formed Nanyuki draft', () => {
   }
 });
 
-test('draft local destinations are excluded from the published model', () => {
-  const built = buildLocalDestinations(nanyukiOnly, nanyukiCollections, now);
+test('a draft copy of Nanyuki is excluded from the published model', () => {
+  const draft = nanyukiOnly.map((r) => ({ ...r, status: 'draft' }));
+  const built = buildLocalDestinations(draft, nanyukiCollections, now);
   assert.ok(!built.some((d) => d.slug === 'nanyuki'), 'draft Nanyuki not published');
   assert.equal(built.length, 0);
 });
 
-test('the Nanyuki draft becomes visible once published', () => {
-  const published = nanyukiOnly.map((r) => ({ ...r, status: 'published', published_at: null }));
-  const built = buildLocalDestinations(published, nanyukiCollections, now);
+test('published Nanyuki is visible with its internal URL', () => {
+  const built = buildLocalDestinations(nanyukiOnly, nanyukiCollections, now);
   assert.equal(built.length, 1);
   assert.equal(built[0].slug, 'nanyuki');
   assert.equal(built[0].internalUrl, '/countries/kenya/nanyuki');
