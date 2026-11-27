@@ -1550,6 +1550,56 @@
       "sort_order": 29,
       "published_at": "2026-10-23",
       "status": "published"
+    },
+    {
+      "region_id": 14,
+      "country_id": 53,
+      "slug": "kilimanjaro-national-park",
+      "name": "Kilimanjaro National Park",
+      "location_name": "Kilimanjaro Region, Tanzania",
+      "hero_image_url": null,
+      "hero_image_alt": null,
+      "gallery": null,
+      "listing_summary": "Africa's highest mountain and the world's largest free-standing volcano, rising from montane forest to the snow-capped Kibo summit at 5,895 m. Plan a multi-day climb with an operator, and treat altitude, not distance, as the real challenge.",
+      "detail_intro": "Kilimanjaro National Park protects the mountain most travellers simply call Kilimanjaro: a free-standing volcanic massif that lifts from the northern Tanzanian plains to Kibo's snow-capped summit at 5,895 m, the highest point in Africa. This is a climbing park rather than a game-viewing one, and the mountain rewards time on the trail far more than a rushed ascent.",
+      "full_description": "<p>Tanzania National Parks (TANAPA) describes Kilimanjaro as the roof of Africa, gazetted as a national park in 1973, opened to tourism in 1977 and inscribed as a UNESCO World Heritage Site in 1987; it was also named a Natural Wonder of Africa in 2013. The park covers 1,712 km². UNESCO records the wider property as protecting the largest free-standing volcanic mass in the world, rising roughly 4,877 m above the surrounding plains to 5,895 m at the summit. TANAPA's geopark pages call Kibo the world's largest free-standing stratovolcano.</p><p>The massif has three volcanic centres. Kibo, at 5,895 m, is the highest and stays snow-capped year-round despite sitting close to the equator. Mawenzi, at 5,149 m, is a rugged, technical peak; Shira, at 3,962 m, is an older, eroded centre with a scenic plateau that supports large migratory mammals such as elephants, buffalo and eland. Most trekkers climb Kibo; Mawenzi and Shira are objectives for experienced mountaineers rather than the standard walking route.</p><p>What makes the climb distinctive is the way it moves through climate zones. TANAPA describes five eco-climatic belts that carry you from tropical forest to an arctic-like summit, with vegetation and temperature changing as you gain height. The montane forest between about 1,800 m and 2,800 m shelters endemic plants such as the Kilimanjaro impatiens (Impatiens kilimanjari); TANAPA records more than 179 bird species and around 140 mammal types across the zones, including the endemic elephant shrew Myosorex zinkii. Above the forest the ground opens into moorland, then alpine desert, and finally the summit crater and its remnant glaciers.</p><p>The mountain is also a cultural landscape. TANAPA notes that Kilimanjaro is sacred to the Chagga people, particularly along the Marangu route, and has long been a place of traditional ritual. Trekkers who treat the mountain as a shared and living place, rather than only a summit to tick off, tend to take more from the days on the hill.</p><p>Plan Kilimanjaro as a multi-day expedition with a registered operator, not a day trip. The real difficulty is altitude and the cumulative strain of consecutive walking days, so the length of your itinerary and the pace your team sets matter more than raw fitness. If you are pairing Kilimanjaro with a safari, the mountain is the same backdrop you see from <a href=\"/attractions/amboseli-national-park\">Amboseli National Park</a> to the north, and a northern-circuit trip can combine a climb with the plains of <a href=\"/attractions/serengeti-national-park\">Serengeti National Park</a>.</p>",
+      "getting_there": "Most climbers arrive through Kilimanjaro International Airport (JRO), the main gateway between Arusha and Moshi, or overland from Arusha or Moshi to the relevant trailhead. We do not publish fixed transfer times: the right estimate depends on your trailhead, road conditions and operator, so confirm the pickup point and timing with whoever runs your climb. Because a summit start is usually in the early hours, plan to overnight near your trailhead the night before rather than arriving the same day.",
+      "best_time": "Kilimanjaro can be climbed year-round, and TANAPA gives daytime temperatures in the range of roughly 18–30°C lower down, falling well below freezing near the summit. The most settled conditions are generally in the drier periods, with the long rains typically falling around March to May; treat these as broad guidance and reconfirm seasonal conditions and your operator's advice for your dates rather than a fixed guarantee, because mountain weather changes fast and no month is reliably dry or clear.",
+      "practical_info": "Climb with a TANAPA-registered operator, and confirm what your package includes: park and climbing fees, camping or hut accommodation, guiding, porters, food and rescue cover. TANAPA's published tariff schedule lists Kilimanjaro National Park entry fees of TZS 178,850 for non-residents, TZS 89,425 for expatriates and TZS 10,000 for EAC citizens, but the schedule shown is for financial year 2023/2024 (shown valid until June 2024), so reconfirm current fees before budgeting; the entry figure does not include the separate mountain-climbing, camping and related charges. Take the altitude seriously: choose a longer itinerary where you can, walk at the pace your guide sets, and tell your team about any illness rather than pushing on. Pack layers for every climate belt, a warm sleeping bag, sun protection and a waterproof layer, and leave summit decisions to your guide, who may turn the group around for safety. No fixed current third-party booking product has been verified for this park, so no booking card is attached.",
+      "highlights": [
+        "Kibo's snow-capped summit at 5,895 m, the highest point in Africa",
+        "A climb through five climate zones, from montane forest to arctic summit",
+        "The Shira plateau and the rugged, technical Mawenzi peak",
+        "Montane forest with endemic plants, 179-plus bird species and the Chagga cultural landscape"
+      ],
+      "research_sources": [
+        {
+          "label": "Tanzania National Parks (TANAPA), Kilimanjaro National Park: gazetted 1973, tourism 1977, UNESCO 1987, Natural Wonder of Africa 2013, 1,712 km², peaks Kibo 5,895 m / Mawenzi 5,149 m / Shira 3,962 m, five eco-climatic zones, montane forest 1,800–2,800 m, Impatiens kilimanjari, 179+ birds, 140 mammal types, Myosorex zinkii, Chagga and Marangu route; checked 27 November 2026",
+          "url": "https://www.tanzaniaparks.go.tz/nationalparks/kilimanjaro",
+          "checked_at": "2026-11-27"
+        },
+        {
+          "label": "TANAPA, Mount Kilimanjaro Geopark: 5,895 m, Africa's highest mountain and world's largest free-standing stratovolcano, three volcanic centres Kibo, Mawenzi and Shira; checked 27 November 2026",
+          "url": "https://www.tanzaniaparks.go.tz/geoparks-mt-kilimanjaro",
+          "checked_at": "2026-11-27"
+        },
+        {
+          "label": "TANAPA, Park Tariffs: Kilimanjaro National Park entry fees (non-resident TZS 178,850; expatriate TZS 89,425; EAC TZS 10,000); schedule labelled financial year 2023/2024, valid until June 2024; checked 27 November 2026",
+          "url": "https://www.tanzaniaparks.go.tz/tourism/visitor-information/tariff",
+          "checked_at": "2026-11-27"
+        },
+        {
+          "label": "UNESCO World Heritage Centre, Kilimanjaro National Park (list 403): free-standing volcanic mass, 75,575 ha, rising to 5,895 m, established 1973, inscribed 1987; checked 27 November 2026",
+          "url": "https://whc.unesco.org/en/list/403/",
+          "checked_at": "2026-11-27"
+        }
+      ],
+      "traveler_feedback": "",
+      "last_researched": "2026-11-27",
+      "featured": false,
+      "sort_order": 30,
+      "published_at": "2026-11-27",
+      "status": "published"
     }
   ],
   "accommodations": [
