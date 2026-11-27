@@ -1909,5 +1909,69 @@
       }
     ],
     "draft_notes": "Published 27 November 2026 without a hero image or gallery; Image Agent to add licensed photos later. No accommodation_slugs attached because no Arusha property guide is published yet (Emerson Spice is Stone Town/Zanzibar; Serengeti Serena is in the park) — proximity must not be inferred. To verify before the image pass: current Kilimanjaro International Airport transfer time to Arusha; current coach/road conditions; Arusha National Park and Mount Meru gate/permit/fee rules from the park authority; opening hours and admission for the National Natural History Museum and Arusha Cultural Heritage Centre."
+  },
+  {
+    "slug": "jinja",
+    "country_slug": "uganda",
+    "name": "Jinja",
+    "category": "City",
+    "hero_title": "Jinja: the Nile source town that became Uganda's adventure capital",
+    "listing_summary": "An industrial city on the northern shore of Lake Victoria, Jinja sits where the White Nile leaves the lake and has become Uganda's rafting and adventure base, with Busoga kingdom sites and working hydro dams close by.",
+    "overview": "Jinja sits on the northern shore of Lake Victoria in Uganda's Eastern Region, in the Busoga sub-region, at the point where the water of the lake becomes the White Nile. It is roughly 81 kilometres east of Kampala and about 1,204 metres above sea level. The name comes from the flat rocks that once stood in the river here: both Baganda on the western bank and Basoga on the eastern called the place \"the stones\", or \"ejjinja\", and the colonial-era town took the same word.\n\nThat river position explains almost everything a visitor does here. The Nile leaving Lake Victoria is broad, fast and broken by rapids and falls, and it has become one of the world's standing commercial white-water rafting destinations. Uganda's national tourism site calls Jinja the adventure capital of East Africa and lists rafting, the falls and the lake beaches among the district's main draws. The town itself was the country's industrial heart in the 1960s and 1970s, and the working landscape around it is still shaped by water: the Owen Falls dam, opened in 1954, submerged the Ripon Falls and made Lake Victoria one of the world's largest reservoirs, so the river's flow past the town is regulated rather than natural.\n\nJinja is also Busoga country. The Busoga Kingdom's palace at Nakabango and the royal trail promoted by the kingdom sit within the district, and the tourism listings include the Bujagali ancestral site used by Soga communities. This is living culture attached to specific places, not a performance staged for visitors: ask locally before photographing or entering, and follow the guidance of a named host.\n\nFor most travellers Jinja is a two-to-four night stay rather than a stopover. It works as a soft landing after Entebbe, a base for a rafting or bungee day, and a calmer contrast to Kampala, but the river activities set the pace and weather and water levels can move a plan by a day.",
+    "highlights": [
+      "The point where Lake Victoria becomes the White Nile, with the source marked near town",
+      "Commercial white-water rafting on the Nile, the activity the town is best known for",
+      "Bujagali, Itanda and Kyabirwa falls within roughly 8 to 18 kilometres of the town",
+      "Busoga Kingdom sites including the palace at Nakabango and the Bujagali ancestral site",
+      "Working hydro dams and tea and sugar estates that shaped the town's industrial past"
+    ],
+    "access_summary": "Jinja is reached by road from Kampala, roughly 81 kilometres east, and from Entebbe International Airport, Uganda's main international gateway, by road through or around Kampala; confirm the current route, departure point and transfer time with your operator or lodge before booking, and treat any single figure as an estimate rather than a promise, because traffic, roadworks and rain all change the journey. Within Jinja, the rafting put-in points, the falls and the lake beaches are outside the central business district, so arrange transport with your operator or accommodation rather than assuming they are walkable. If a rafting or bungee day is fixed to a date, do not plan a long road transfer for the same morning.",
+    "best_time": "Jinja's activities are water-based, so plan around river conditions and rainfall rather than a single \"best\" month. The climate here is of the tropical rainforest type, with two wetter seasons and no true dry month: rainfall is heaviest from about February to June and again from August to December, with April typically the wettest month in the regional record. Heavier rain can affect road surfaces, the approaches to the falls and rafting operations, and operators may change or cancel a trip for water levels or safety. Confirm the day's plan with your operator, keep a spare day if rafting is the main reason for the trip, and check the current short-range forecast before you travel.",
+    "planning_tips": "Book the river activity first, then build the stay around it. Rafting, bungee and similar trips are run by operators with their own reporting times, safety briefings, age and health restrictions and cancellation rules; confirm all of those in writing, and do not treat a booking platform listing as proof that a trip will run on your date.\n\nAllow two or three nights for a first visit: one for arrival and the town, one for the river day, and a spare if the weather moves the plan. If you want the falls and the lake as well as the rapids, ask which specific site you are being taken to, because Bujagali, Itanda and Kyabirwa are different places with different access, and some involve a walk or a rough approach.\n\nTreat the cultural and historical sites as places with present-day owners and users. Ask before photographing people, ceremonies or buildings, keep to public areas, and use a local guide where one is offered rather than treating the town as scenery.\n\nCarry cash in Uganda shillings for small operators, market purchases and tips, keep valuables out of sight, and use transport you have assessed. Check your own government's current Uganda travel advice before departure and reconfirm entry requirements, since visa and health rules depend on your passport, route and dates.\n\nContinue planning with the published Uganda country guide, the Kampala and Fort Portal local guides, the Murchison Falls Nile launch-trip activity for the river further north, and the Kibale chimpanzee-trek and Bwindi sector insights if you are combining Jinja with a forest primate trek.",
+    "attraction_slugs": [],
+    "activity_slugs": [
+      "murchison-falls-nile-launch-trip"
+    ],
+    "accommodation_slugs": [],
+    "travel_insight_slugs": [
+      "plan-kibale-around-chimpanzee-trek",
+      "choose-bwindi-sector-before-booking-stay"
+    ],
+    "last_researched": "2026-11-28",
+    "research_sources": [
+      {
+        "label": "Tourism Uganda (national tourism site): Jinja city page - district at the confluence of Lake Victoria and the source of the River Nile, district population about 392,000, 767.7 km2, Source of the Nile, Bujagali Falls about 10 km, Itanda Falls 18 km north-west, Kyabirwa Falls 8 km, Lake Victoria beaches (Sailing Club, Tilapia Club, Masese), islands, industries, Owen Falls hydro plant, tea and sugar estates, Bujagali ancestral site, Busoga King's palace at Nakabango, Mpumudde hill, crafts and markets; checked 28 November 2026",
+        "url": "https://www.tourismuganda.org/uganda-towns/attractions-in-jinja/",
+        "checked_at": "2026-11-28"
+      },
+      {
+        "label": "Tourism Uganda: River Nile page - Speke in 1862, Owen Falls Dam opened 1954 and submerged the Ripon Falls, Bujagali Falls about 1 km of white water, the river flowing north to Kyoga and Murchison Falls; checked 28 November 2026",
+        "url": "https://www.tourismuganda.org/rivers/river-nile/",
+        "checked_at": "2026-11-28"
+      },
+      {
+        "label": "Tourism Uganda: white-water rafting page - rafting available in Jinja, described as the adventure capital of East Africa; checked 28 November 2026",
+        "url": "https://www.tourismuganda.org/activities/white-water-rafting/",
+        "checked_at": "2026-11-28"
+      },
+      {
+        "label": "Wikipedia: Jinja, Uganda - Eastern Region, Busoga sub-region, north shore of Lake Victoria near the source of the White Nile, about 81 km east of Kampala, elevation 1,204 m, name from ejjinja (the stones), Owen Falls Dam 1954 submerged Ripon Falls; background only, checked 28 November 2026",
+        "url": "https://en.wikipedia.org/wiki/Jinja,_Uganda",
+        "checked_at": "2026-11-28"
+      },
+      {
+        "label": "Wikipedia: Kampala climate summary citing the World Meteorological Organization - tropical rainforest climate, two wetter seasons, heaviest February to June and August to December, April wettest; used only for regional seasonal framing, checked 28 November 2026",
+        "url": "https://en.wikipedia.org/wiki/Kampala",
+        "checked_at": "2026-11-28"
+      },
+      {
+        "label": "Trek Africa Guide published records re-read 28 November 2026 for internal links: Uganda country guide, Kampala and Fort Portal local guides, Murchison Falls Nile launch trip activity, Kibale chimpanzee-trek and Bwindi sector insights",
+        "url": "https://trekafricaguide.com/countries/uganda/",
+        "checked_at": "2026-11-28"
+      }
+    ],
+    "sort_order": 28,
+    "status": "published",
+    "published_at": "2026-11-28T00:00:00+03:00"
   }
 ]
