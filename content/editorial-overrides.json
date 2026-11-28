@@ -1600,6 +1600,41 @@
       "sort_order": 30,
       "published_at": "2026-11-27",
       "status": "published"
+    },
+    {
+      "region_id": 14,
+      "country_id": 55,
+      "slug": "rwenzori-mountains-national-park",
+      "name": "Rwenzori Mountains National Park",
+      "location_name": "Kasese, Kabarole and Bundibugyo districts, western Uganda",
+      "hero_image_url": null,
+      "hero_image_alt": null,
+      "gallery": null,
+      "listing_summary": "Africa's third-highest mountain and the legendary 'Mountains of the Moon', rising almost 4,000 m from the Albertine Rift to the snow and glaciers of Margherita Peak at 5,109 m. This is a high, wet, alpine trekking park, not a game reserve: plan a multi-day climb with a licensed operator and treat altitude, weather and river crossings as the real challenge.",
+      "detail_intro": "Rwenzori Mountains National Park protects the central Rwenzori massif in western Uganda, a rugged block of equatorial mountains whose highest point, Margherita Peak on Mount Stanley, reaches 5,109 m and ranks as Africa's third-highest summit after Kilimanjaro and Mount Kenya. Unlike those two freestanding peaks, the Rwenzori is a broad alpine range of glaciers, waterfalls, lakes and stratified vegetation, and it rewards travellers who come for a slow, high trek rather than a quick summit.",
+      "full_description": "<p>UNESCO, which inscribed Rwenzori Mountains National Park as a World Heritage Site in 1994 under criteria (vii) and (x), describes a range of glacier- and snow-capped mountains sitting only kilometres from the equator and contiguous with Virunga National Park in the Democratic Republic of Congo. The property covers 99,600 hectares, of which about 70 per cent lies above 2,500 m, giving it a far larger alpine area than either Kilimanjaro or Mount Kenya. The Rwenzori are the highest and most permanent sources of the River Nile, and their fast-flowing rivers, waterfalls and layered vegetation make the range one of the most scenic mountain landscapes in Africa.</p><p>The name is older than the survey maps. Known as the 'Mountains of the Moon', the massif towers almost 4,000 m above the Albertine Rift Valley and can be seen from great distances across the rift. Its near-constant temperatures, humidity and strong high-altitude sun support what UNESCO calls the richest montane flora in Africa, arranged in five distinct vegetation zones determined largely by altitude and aspect. The higher heath and Afro-alpine moorland, roughly 3,500 m up to the snow line, carries the rarest vegetation types on the continent: giant heathers, groundsels and lobelias so unusual they have been called 'Africa's botanical big game'.</p><p>The park is also a stronghold for wildlife, though you come here for the mountains rather than for game drives. UNESCO records 217 bird species and recognises the range as an Important Bird Area, and the montane forests shelter threatened species including the African forest elephant, the eastern chimpanzee and l'Hoest's monkey. The endangered Rwenzori red duiker, possibly a distinct species, appears to be restricted to the park. The mountains are a vital water catchment for local communities and hold real cultural importance, and UNESCO notes that the property was listed as World Heritage in Danger from 1999 to 2004; among the pressures it names are illegal tree-felling and snow recession linked to a warming climate.</p><p>Plan Rwenzori as a multi-day expedition with a licensed operator, not a day trip. The range is high, wet and glaciated, and a typical trek climbs through the vegetation zones over several days with the summit as the final, weather-dependent push. If you are weighing it against East Africa's other high peaks, our guide to <a href=\"/travel-insights/choose-kilimanjaro-or-mount-kenya-high-altitude-trek\">choosing between Kilimanjaro and Mount Kenya</a> covers the classic non-technical options; Rwenzori is the wetter, more remote and more botanically strange third choice. For a gentler Ugandan forest walk at lower altitude, the <a href=\"/attractions/bwindi-impenetrable-national-park\">Bwindi Impenetrable National Park</a> and <a href=\"/attractions/kibale-national-park\">Kibale National Park</a> are the closer comparisons.</p>",
+      "getting_there": "The park lies in western Uganda across the districts of Kasese, Kabarole and Bundibugyo, and most trips are built around the Kasese area on the western side of the country. We do not publish fixed transfer times or trailhead directions: access roads, river crossings and the exact starting point depend on conditions and on your operator, so confirm the meeting point, road transfer and start time with whoever runs your trek. Because summit days start early and the approach is long, plan to overnight near the trailhead rather than arriving the same morning.",
+      "best_time": "The Rwenzori is wet for much of the year, and the range sits close to the equator, so conditions are changeable in every month. Broadly, the drier spells are generally the more settled windows for a high trek, but we do not guarantee any month as dry or clear: rainfall, snow line and river levels shift, and the summit can be turned by weather at short notice. Treat seasonal guidance as a starting point and reconfirm current conditions and your operator's advice for your dates before committing.",
+      "practical_info": "Trek with a licensed Ugandan operator and confirm exactly what your package includes: park and guiding fees, huts or camping, porters, food and rescue cover. Rwenzori is a serious high-altitude, glaciated range with steep, muddy and often wet ground, so fitness for consecutive long days matters more than raw strength, and you should walk at your guide's pace and report any illness early. Pack for cold and wet at altitude: warm layers, a good sleeping bag, waterproofs, and protection for both sun and rain, and leave the summit decision to your guide, who may turn the group around for safety. We have not verified a current fixed-pricing third-party booking product for this park, so no booking card is attached; reconfirm current fees, route options and seasonal conditions with the Uganda Wildlife Authority or your operator before budgeting.",
+      "highlights": [
+        "Margherita Peak on Mount Stanley at 5,109 m, Africa's third-highest summit",
+        "A high alpine range of glaciers, waterfalls and lakes just kilometres from the equator",
+        "Five vegetation zones with giant heathers, groundsels and lobelias — 'Africa's botanical big game'",
+        "217 recorded bird species and montane forest sheltering the African forest elephant and eastern chimpanzee"
+      ],
+      "research_sources": [
+        {
+          "label": "UNESCO World Heritage Centre, Rwenzori Mountains National Park (list 684): inscribed 1994, criteria (vii)(x), 99,600 ha (70% above 2,500 m), Margherita Peak 5,109 m (Africa's third highest after Kilimanjaro and Mount Kenya), 'Mountains of the Moon', contiguous with Virunga NP (DRC), highest and most permanent sources of the River Nile, five vegetation zones, giant heathers/groundsels/lobelias, 217 bird species (Important Bird Area), African forest elephant/eastern chimpanzee/l'Hoest's monkey/Rwenzori red duiker, districts Kabarole/Kasese/Bundibugyo, in Danger 1999-2004, snow recession; checked 28 November 2026",
+          "url": "https://whc.unesco.org/en/list/684/",
+          "checked_at": "2026-11-28"
+        }
+      ],
+      "traveler_feedback": "",
+      "last_researched": "2026-11-28",
+      "featured": false,
+      "sort_order": 31,
+      "published_at": "2026-11-28",
+      "status": "published"
     }
   ],
   "accommodations": [
@@ -5552,6 +5587,63 @@
         }
       ],
       "meta_description": "Plan a locally arranged Freetown Peninsula coastal excursion to River Number Two estuary and Tokeh Beach: agree tide windows, community guide, boat equipment and return plan before departure."
+    },
+    {
+      "slug": "rwenzori-mountains-trekking",
+      "attraction_id": "repo:attractions:rwenzori-mountains-national-park",
+      "name": "Rwenzori Mountains multi-day trek",
+      "location_name": "Rwenzori Mountains National Park, Uganda",
+      "listing_summary": "A licensed-operator multi-day trek through five vegetation zones to Margherita Peak (5,109 m), Africa's third-highest summit. Confirm the route, operator, park fees and evacuation plan before booking.",
+      "detail_intro": "The Rwenzori Mountains — UNESCO's 'Mountains of the Moon' — are a multi-day alpine expedition, not a day walk. The trek climbs through five distinct vegetation zones to Margherita Peak on Mount Stanley (5,109 m), Africa's third-highest summit after Kilimanjaro and Mount Kenya. This guide covers how the trek usually runs, what to confirm with your operator, and how it compares to East Africa's other high peaks.",
+      "full_description": "<p>The Rwenzori range is wetter, more remote and botanically distinct from Kilimanjaro or Mount Kenya. UNESCO describes the property as 99,600 hectares with roughly 70 percent above 2,500 m, five vegetation zones determined by altitude and aspect, and the highest, most permanent sources of the River Nile. The Afro-alpine moorland above 3,500 m holds giant heathers, groundsels and lobelias — called 'Africa's botanical big game' — alongside 217 bird species and mammals including forest elephant, eastern chimpanzee and the endangered Rwenzori red duiker. Read our <a href=\"/attractions/rwenzori-mountains-national-park\">Rwenzori Mountains National Park guide</a> for the wider park context.</p><h3>How the trek usually runs</h3><p>A typical summit expedition lasts seven to ten days, ascending through the vegetation zones from montane forest through bamboo, heather and Afro-alpine zones to the glaciated peaks. Most treks start from the Nyakalengija trailhead (near Kasese) or the Kilembe trailhead, with porters, guides and a cook team. The Uganda Wildlife Authority (UWA) requires all trekkers to be accompanied by a licensed guide and porters; independent trekking is not permitted. The final push to Margherita Peak involves glacier travel — crampons, ice axe and rope are used when conditions require — and is weather-dependent. Treat the summit as a goal, not a guarantee; snow recession linked to warming climate means conditions change year to year.</p><h3>Routes and operators</h3><p>Two main trailheads serve the park: Nyakalengija (the original UWA gateway) and Kilembe (a longer approach via the Nyamwamba valley). Rwenzori Mountaineering Services (RMS), the long-standing concessionaire operating since 2013, runs treks from both trailheads and is the operator referenced by UWA for guide and porter logistics. Other licensed Ugandan operators also offer Rwenzori treks; confirm the operator's current UWA concession, guide qualifications, group size, porter ratios and evacuation arrangements before booking. Do not assume every operator reaches the same camps or follows the same acclimatisation schedule.</p><h3>Permits, fees and booking</h3><p>UWA issues trekking permits separately from park entry. The permit covers the multi-day trek and hut/camping fees along the route; park entry fees are additional. UWA's fee schedule and concessionaire terms can change — confirm the current total for your category, what it includes (huts, guide, porter, rescue fee) and what sits separately (park entry, meals, tips, transfers) directly with UWA or your operator when you book. No verified third-party booking platform currently lists a bookable Rwenzori trek product; this guide attaches no booking link. Book through UWA or a licensed operator.</p><h3>Who it suits</h3><p>This is a serious mountain expedition suited to experienced hillwalkers and trekkers comfortable with multi-day altitude exposure, sustained wet conditions, basic hut accommodation and glacier travel on the summit day. It is less suitable for anyone expecting a lodge-based trek, a day-walk option or a guaranteed summit — the property was listed as World Heritage in Danger from 1999 to 2004 due to pressures including snow recession. If you are weighing East Africa's high peaks, our <a href=\"/travel-insights/choose-kilimanjaro-or-mount-kenya-high-altitude-trek\">Kilimanjaro or Mount Kenya comparison</a> covers the non-technical options; Rwenzori is the wetter, more botanically distinct third choice.</p><h3>Getting there and base logistics</h3><p>The park spans Kabarole, Kasese and Bundibugyo districts. Most trekkers reach Kasese by road from Kampala (approximately 300–350 km, 5–7 hours) or by scheduled flight to Kasese airstrip, then transfer to the chosen trailhead. Confirm the transfer arrangement with your operator — a Kasese hotel night before the trek is standard. The attraction guide covers the wider access picture; here the focus is the trek itself.</p><h3>Viewing with care</h3><p>The park's Afro-alpine vegetation is fragile and globally rare. Stay on established boardwalks and paths, follow the guide's pace, and do not remove or disturb plants. The Rwenzori red duiker and other endemic species are protected; observe at a distance. Confirm current UWA briefing rules on waste, camping and glacier conduct before departure.</p>",
+      "highlights": [
+        "Multi-day trek through five vegetation zones to Margherita Peak (5,109 m)",
+        "Giant heathers, groundsels and lobelias in the Afro-alpine zone above 3,500 m",
+        "Licensed guide and porters required — independent trekking not permitted",
+        "Wetter, more remote and botanically distinct from Kilimanjaro or Mount Kenya"
+      ],
+      "best_time": "<p>June to August and December to February are generally drier windows, but the Rwenzori is a high-rainfall range — rain, mist and wet ground are possible in any month. The drier periods can make the approach and glacier travel more manageable, but do not promise dry trails. Confirm current trail conditions, snow line and operator schedules for your dates. No month guarantees a summit window; treat the weather as the deciding factor.</p>",
+      "practical_info": "<h3>Confirm before you book</h3><ul><li>The exact route (Nyakalengija or Kilembe), duration, camp/hut sequence and acclimatisation days.</li><li>The operator's current UWA concession, guide qualifications, porter ratio and evacuation plan (satellite phone, stretcher, rescue protocol).</li><li>What the quoted price includes: permit, hut fees, guide, porters, cook, meals, park entry, transfers, tips — get it in writing.</li><li>Glacier equipment: confirm whether crampons, ice axe, harness and rope are provided or must be hired.</li><li>Fitness and altitude preparedness: the trek reaches 5,109 m with sustained days above 3,500 m; discuss any medical conditions with your operator.</li><li>Cancellation and weather terms, and what happens if the summit push is turned back.</li></ul><h3>What to pack</h3><ul><li>Waterproof, broken-in trekking boots; gaiters for boggy sections.</li><li>Layered clothing system: base layers, insulation, hard-shell waterproofs — wet conditions are normal.</li><li>Warm hat, gloves, down jacket for summit night; sun protection for glacial glare.</li><li>Headlamp, dry bags, water purification, personal medication, basic first aid.</li><li>Crampon-compatible boots if the summit push is planned; confirm with operator.</li></ul><p>Check Uganda's official entry guidance for your passport, nationality and visit purpose; a park permit is not a visa. Entry information checked 28 November 2026.</p>",
+      "hero_image_url": null,
+      "hero_image_alt": "",
+      "gallery": [],
+      "booking_url": null,
+      "source_url": "https://whc.unesco.org/en/list/684/",
+      "status": "published",
+      "published_at": "2026-11-28",
+      "featured": false,
+      "sort_order": 101,
+      "last_researched": "2026-11-28",
+      "traveler_feedback": "<p>No traveller review is available for a specific bookable Rwenzori trek product on major OTA platforms at the time of writing. Rwenzori Mountaineering Services (RMS) operates the UWA concession and is the long-standing operator; confirm current guide team, hut conditions and evacuation arrangements directly. Individual trek reports on travel forums describe the Afro-alpine flora and sustained wet conditions as the defining experience.</p>",
+      "research_sources": [
+        {
+          "label": "UNESCO World Heritage Centre: Rwenzori Mountains National Park (list 684) — inscribed 1994, criteria (vii)(x), 99,600 ha, ~70% above 2,500 m, Margherita Peak 5,109 m, five vegetation zones, 217 bird species, Nile source, in Danger 1999–2004, snow recession; checked 28 November 2026",
+          "url": "https://whc.unesco.org/en/list/684/",
+          "checked_at": "2026-11-28"
+        },
+        {
+          "label": "Rwenzori Mountaineering Services (RMS): official concessionaire homepage — Rwenzori trekking specialists since 2013, Nyakalengija and Kilembe trailheads, licensed guides and porters; checked 28 November 2026",
+          "url": "https://www.rwenzorimountaineering.com/",
+          "checked_at": "2026-11-28"
+        },
+        {
+          "label": "Tourism Uganda: Rwenzori Mountains National Park page — park overview, access, trailheads; checked 28 November 2026",
+          "url": "https://www.tourismuganda.org/uganda-parks/rwenzori-mountains-national-park/",
+          "checked_at": "2026-11-28"
+        },
+        {
+          "label": "Trek Africa Guide published Rwenzori Mountains National Park attraction — park context, vegetation zones, Nile source, in-danger history, cross-links to Kilimanjaro/Mount Kenya insight; checked 28 November 2026",
+          "url": "https://trekafricaguide.com/attractions/rwenzori-mountains-national-park/",
+          "checked_at": "2026-11-28"
+        },
+        {
+          "label": "GetYourGuide search for Rwenzori trekking — no published bookable product returned; honest no-booking-link state retained; checked 28 November 2026",
+          "url": "https://www.getyourguide.com/s/?q=Rwenzori",
+          "checked_at": "2026-11-28",
+          "retrieval_note": "Search query returned no Rwenzori multi-day trek products on major OTA platforms."
+        }
+      ],
+      "meta_description": "Plan a Rwenzori Mountains multi-day trek to Margherita Peak (5,109 m): UNESCO five vegetation zones, licensed operator requirement, glacier travel, route choices and what to confirm before booking."
     }
   ],
   "travel_articles": [
