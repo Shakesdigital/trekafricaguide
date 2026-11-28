@@ -538,6 +538,10 @@
         "summary": "Victoria Falls first-visit insight (live HTTP 200, 22 Oct 2026) references this property as a verified Booking.com option in the Zambian falls area via Stay22-wrapped Zambezi Sun URL. Direct OTA fetch automation-blocked; no OTA rating, review count, rates, or availability claims made.",
         "verification_2026-11-20": "Cross-referenced with live Victoria Falls insight and Livingstone destination page; Zambezi Sun is the former name of Avani Victoria Falls Resort (rebranded 2019). Property identity confirmed via Minor Hotels official site."
       }
+    },
+    "equator-snow-lodge": {
+      "status": "unavailable",
+      "reason": "No exact supported OTA property detail found for Equator Snow Lodge; official site (equatorsnowlodge.com) does not resolve; Wikivoyage Kasese guide provides descriptive listing only. Do not substitute another Rwenzori property."
     }
   },
   "activities": {
