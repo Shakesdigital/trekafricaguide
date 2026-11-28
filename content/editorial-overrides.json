@@ -3951,7 +3951,51 @@
       ],
       "traveler_feedback": "No attributable dated guest reviews verified for this specific listing at research time. The property operates under the former Zambezi Sun Booking.com profile; direct review fetch is automation-blocked. Confirm recent guest experience directly with the operator or on the OTA platform for your dates.",
       "last_researched": "2026-11-20",
+      "status": "published"
+    },
+    {
+      "region_id": 14,
+      "country_id": 55,
+      "attraction_id": "repo:attractions:rwenzori-mountains-national-park",
+      "slug": "equator-snow-lodge",
+      "name": "Equator Snow Lodge",
+      "property_type": "Lodge",
+      "location_name": "Mubuku, foothills of the Rwenzori Mountains, Kasese District, western Uganda",
+      "listing_summary": "Solar-powered cabins on the foothills of the Rwenzori Mountains, near the Kilembe trailhead for multi-day treks to Margherita Peak.",
+      "detail_intro": "Equator Snow Lodge sits on the foothills of the Rwenzori Mountains in the Mubuku area, placing it close to the Kilembe trailhead — one of the two main gateways for multi-day treks to Margherita Peak (5,109 m). The Wikivoyage Kasese guide describes the lodge as having spacious, solar-powered cabins on the mountain foothills, making it a practical base for travellers whose itinerary centres on a Rwenzori trekking expedition rather than a town stay in Kasese.\n\nThe property operates on solar power, which shapes the guest experience: electricity is available for lighting and charging but may not support high-draw appliances. Cabins are described as spacious, with the mountain setting as the primary draw. This is not a vehicle-safari lodge and does not offer game drives; its purpose is to support trekking itineraries that start from the Kilembe side of the park. Travellers should confirm the exact cabin category, meal plan, and transfer arrangements from Kasese or the Kilembe Mines area before booking.\n\nA stay here works best when paired with a licensed Rwenzori trekking operator (Rwenzori Mountaineering Services or Rwenzori Trekking Services) who arranges the UWA trekking permit, guides, porters, and the mountain hut sequence. The lodge itself does not issue permits or provide mountain guides. Road access from Kasese to Mubuku requires a suitable vehicle and local knowledge of the approach; do not assume a standard saloon car is adequate for the final stretch.",
+      "practical_info": "Solar-powered electricity supports lighting and device charging; high-draw appliances (hair dryers, kettles) may not be supported. Confirm the cabin category, occupancy, and meal plan (full board is typical for trekking guests) when requesting a quote. Mosi-oa-Tunya National Park entry fees and UWA Rwenzori trekking permits are separate and not included in the room rate; arrange permits through a licensed operator. Transfer from Kasese (approximately 380 km from Kampala, 40 km north-east of Mpondwe) to Mubuku requires a 4WD vehicle and local driver; confirm the pickup point, duration, and cost with the lodge or your trekking operator. The Kilembe trailhead is the nearest park access point; the Nyakalengija trailhead (original UWA gateway) is on the opposite side of the range and reached via Fort Portal. Check current Uganda Wildlife Authority (UWA) permit fees, inclusions, and operator terms before committing; the official UWA site (uwa.go.ug) was unreachable at research time due to DNS failure, and visituganda.com presented an expired TLS certificate. No Booking.com or other OTA exact-detail listing was verified for this property; the booking CTA is suppressed until a stable exact-detail landing is confirmed.",
+      "amenities": [
+        "Solar-powered cabins",
+        "Spacious rooms with mountain foothill setting",
+        "Proximity to Kilembe trailhead",
+        "Meal arrangements (typically full board for trekking guests)"
+      ],
+      "price_label": "Mid-range to upscale; operator-dependent, confirm for dates",
+      "booking_url": null,
+      "source_url": "https://en.wikivoyage.org/wiki/Kasese",
+      "research_sources": [
+        {
+          "label": "Wikivoyage: Kasese travel guide — Equator Snow Lodge listing (updated Sep 2017, checked 28 Nov 2026)",
+          "url": "https://en.wikivoyage.org/wiki/Kasese"
+        },
+        {
+          "label": "UNESCO World Heritage Centre: Rwenzori Mountains National Park (list 684, checked 28 Nov 2026) — park boundaries, Margherita Peak 5,109 m, Kilembe/Nyakalengija trailheads",
+          "url": "https://whc.unesco.org/en/list/684/"
+        },
+        {
+          "label": "Tourism Uganda: Rwenzori Mountains National Park (checked 28 Nov 2026) — trekking overview, 7–8 day central circuit, trailhead references",
+          "url": "https://www.tourismuganda.org/national-parks/rwenzori-mountains-national-park/"
+        },
+        {
+          "label": "Rwenzori Mountaineering Services (RMS) official homepage (checked 28 Nov 2026) — UWA concessionaire since 2013, Nyakalengija and Kilembe trailheads, licensed guides/porters",
+          "url": "https://www.rwenzorimountaineering.com/"
+        }
+      ],
+      "traveler_feedback": "No attributable dated guest reviews verified for this property at research time. Wikivoyage provides a descriptive listing only, not traveller feedback. Confirm recent guest experience directly with the lodge or your trekking operator for your dates.",
+      "last_researched": "2026-11-28",
       "status": "published",
+      "rating": null,
+      "review_count": 0,
       "hero_image_url": "",
       "hero_image_alt": "No licensed property photograph available",
       "gallery": []
